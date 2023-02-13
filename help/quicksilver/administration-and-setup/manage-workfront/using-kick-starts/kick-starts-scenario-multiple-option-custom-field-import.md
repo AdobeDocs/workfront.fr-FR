@@ -8,7 +8,7 @@ description: Vous pouvez importer des champs personnalisés avec plusieurs optio
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ Voici quelques exemples de champs personnalisés avec plusieurs options :
 * Menu déroulant multi-sélection
 * Menu déroulant
 * Cases à cocher
-* Boutons radio.
+* Boutons radio
 
 Ces champs peuvent parfois comporter de nombreuses (parfois des centaines) options. Les importer à l’aide de la fonctionnalité Démarrage peut vous faire gagner beaucoup de temps, en tant qu’administrateur de Workfront, et vous permettre d’éviter les erreurs.
 
-Vous devez suivre les étapes décrites dans les sections ci-dessous, dans cet ordre, pour importer des champs personnalisés avec plusieurs options à l’aide d’un lancement rapide :
+>[!IMPORTANT]
+>
+>Vous devez suivre les étapes décrites dans les sections ci-dessous, dans cet ordre, pour importer des champs personnalisés avec plusieurs options à l’aide d’un lancement rapide :
+>
+>1. Exportation de données personnalisées existantes à partir de Workfront (étape facultative)
+>1. Exportation du modèle de démarrage rapide pour les données personnalisées
+>1. Renseigner la feuille de calcul de démarrage rapide d’Excel
+>1. Transfert de la feuille de calcul Excel vers Workfront
 
-1. Exportation de données personnalisées existantes à partir de Workfront (étape facultative)
-1. Exportation du modèle de démarrage rapide pour les données personnalisées
-1. Renseigner la feuille de calcul de démarrage rapide d’Excel
-1. Transfert de la feuille de calcul Excel vers Workfront
+
 
 ## Exportation de données personnalisées existantes à partir de Workfront (étape facultative)
 
@@ -115,15 +119,20 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
 1. Ouvrez la feuille de calcul Excel que vous avez téléchargée dans la section précédente et notez plusieurs feuilles. Chaque feuille représente un objet dans l’application.
 
-   Par exemple : **Paramètre** (qui fait référence à un champ personnalisé), **Option de paramètre**(qui fait référence à l’option Champ personnalisé ), **Catégorie** (qui fait référence à un formulaire personnalisé).
+   >[!INFO]
+   >
+   >Par exemple : **Paramètre** (qui fait référence à un champ personnalisé), **Option de paramètre**(qui fait référence à l’option Champ personnalisé), **Catégorie** (qui fait référence à un formulaire personnalisé).
+   >
+   >Vous devez écrire les noms des objets et leurs attributs au format pris en charge par la base de données Workfront.
+   >
+   >Pour plus d’informations sur la signification de ces objets, voir [Glossaire Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >Pour plus d’informations sur les noms des objets dans la base de données Workfront, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   Vous devez écrire les noms des objets et leurs attributs au format pris en charge par la base de données Workfront.
 
-   Pour plus d’informations sur la signification de ces objets, voir [Glossaire Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Pour plus d’informations sur les noms des objets dans la base de données Workfront, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Assurez-vous que les informations suivantes sont correctement formatées :
@@ -164,7 +173,9 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    * **`setName`** = saisissez le nom des champs personnalisés tel que vous le souhaitez s’afficher dans Workfront.
 
-      Par exemple, nous pouvons importer deux champs personnalisés, appelés _Marque_, un champ de case à cocher et _Média_, un champ de bouton radio.
+      >[!INFO]
+      >
+      >Par exemple, nous pouvons importer deux champs personnalisés, appelés _Marque_, un champ de case à cocher et _Média_, un champ de bouton radio.
 
    * Le **`setName`** et le **`setValue`** Les colonnes contiennent généralement les mêmes informations et doivent refléter les noms souhaités dans l’interface de Workfront pour votre nouveau champ.
    La valeur d’un champ est le nom qui apparaît dans les rapports, par exemple, tandis que le nom s’affiche dans les formulaires personnalisés associés aux objets.
