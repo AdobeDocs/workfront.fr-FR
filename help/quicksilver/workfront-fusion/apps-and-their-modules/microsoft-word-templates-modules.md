@@ -8,8 +8,7 @@ navigation-topic: apps-and-their-modules
 title: Modules de modèle Microsoft Word
 description: Dans un scénario de fusion Adobe Workfront, vous pouvez automatiser les workflows qui utilisent des modèles Microsoft Word et les connecter à plusieurs applications et services tiers.
 author: Becky
-hidefromtoc: true
-source-git-commit: 604d5f1d5e2db4d6367ac3543895f60aaae3abd8
+source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
