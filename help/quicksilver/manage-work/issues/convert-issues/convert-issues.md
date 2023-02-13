@@ -1,0 +1,237 @@
+---
+product-area: projects
+navigation-topic: convert-issues
+title: Présentation des problèmes de conversion dans Adobe Workfront
+description: Si davantage de travail doit être fait pour résoudre un problème après l’envoi du problème, vous pouvez convertir le problème en projet ou en tâche.
+author: Alina
+feature: Work Management
+exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
+source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 2%
+
+---
+
+# Présentation des problèmes de conversion dans Adobe Workfront
+
+Si davantage de travail doit être fait pour résoudre un problème après l’envoi du problème, vous pouvez convertir le problème en projet ou en tâche.
+
+Pour plus d’informations sur la conversion de problèmes en tâches, voir [Convertir un problème en tâche dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+
+Pour plus d’informations sur la conversion de problèmes en projets, voir [Convertir un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+
+## Considérations relatives à la conversion de problèmes
+
+* L’administrateur ou l’administrateur de groupe Workfront a déjà défini les préférences pour ce qui arrive à un problème, sa résolution et l’accès de son contact Principal lorsqu’il est converti en projet ou en tâche, comme indiqué dans la section [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Workfront supprime les approbations associées aux problèmes lors de la conversion.
+* Workfront remplace l’objet de résolution du problème lorsque vous le convertissez en tâche ou projet. La nouvelle tâche ou le nouveau problème devient le nouvel objet de résolution du problème après la conversion.
+* Tenez compte des points suivants :
+
+   * Pendant la conversion, vous serez peut-être invité à conserver le problème et sa résolution liés au projet ou à la tâche que vous créez.
+   * Si vous conservez le problème, l’état et le pourcentage d’achèvement du projet ou de la tâche mettent automatiquement à jour l’état et le pourcentage d’achèvement du problème lorsque des modifications se produisent sur le projet, la tâche ou le problème, ou lorsque Workfront recalcule la chronologie.
+
+* Lors de la conversion d’un problème en projet à l’aide d’un modèle, la plupart des informations du modèle sont transférées vers le nouveau projet. Cependant, certaines informations provenant du problème peuvent également être transférées vers le nouveau projet. Pour plus d’informations, voir [Présentation des champs du projet lors de la conversion d’un problème en projet à l’aide d’un modèle](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) dans cet article.
+* Lors de la conversion d’un problème, tous les documents ou leurs informations ne sont pas déplacés vers le nouvel objet vers lequel le problème est converti. Les éléments suivants sont inclus lorsque vous convertissez un problème auquel sont associés des documents ou des liens vers des documents :
+
+   * Document
+   * Le document est lié à des services tiers, tels que Google Drive ou SharePoint.
+   * Versions
+   * Les bons à tirer ne sont inclus que lorsque l’option **Conserver le problème d’origine et lier sa résolution à cette tâche** n’est pas sélectionnée.
+   * Les approbations de documents ne sont pas incluses lorsque vous convertissez un problème en raison duquel des documents et des liens de documents sont joints.
+
+* Si vous avez décidé de conserver le problème dans la conversion et que des documents y sont joints, le document et ses versions sont copiés dans le projet ou la tâche. Les BAT et les validations de document ne sont pas copiés dans le projet ou la tâche.
+* Si vous avez décidé de ne pas conserver le problème dans la conversion et que des documents sont joints, le document, ses versions et les bons à tirer sont transférés vers le projet ou la tâche. Les validations de document ne seront pas transférées vers le projet ou la tâche.
+* Si des documents et des dossiers sont liés à la question d’origine de services tiers, tels que Google Drive, que vous gardiez le problème ou non pendant la conversion, ces liens seront copiés dans le nouvel objet.
+* Les commentaires de problème sont également copiés dans la tâche ou le projet converti à partir du problème, mais les utilisateurs balisés ne seront pas transférés.
+* Si vous souhaitez transférer des informations de formulaire personnalisées du problème vers le projet ou la tâche vers lequel vous le convertissez, assurez-vous que vous disposez d’un formulaire personnalisé de projet ou de tâche qui comprend les mêmes champs que ceux que vous souhaitez transférer du problème. Pour plus d’informations, voir [Transfert de données de formulaire personnalisées lors de la conversion d’un objet](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+
+## Présentation des champs du projet lors de la conversion d’un problème en projet à l’aide d’un modèle {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
+
+Lors de la conversion d’un problème en projet, vous pouvez le convertir en projet vierge ou utiliser un modèle.
+
+Pour plus d’informations, voir [Convertir un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+
+Lors de l’utilisation d’un modèle, certains champs renseignés sur le modèle sont transférés vers le projet créé à partir du problème converti. D’autres champs sont transférés vers le projet à partir du problème converti.
+
+Le tableau suivant répertorie les informations sur le projet et indique s’il est transféré depuis le modèle ou du problème :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Description</td> 
+   <td> <p>La description du problème est transférée au nouveau projet. </p> <p> S’il n’existe aucune description du problème, la description du modèle est transférée au projet. </p> <p>Si le champ Description est vide à la fois pour le problème et pour le modèle, le champ est vide sur le projet. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Statut</td> 
+   <td>État par défaut sélectionné pour le groupe sur le modèle. Si le modèle n’est pas associé au groupe, l’état du projet est défini sur l’état par défaut défini par l’administrateur Workfront dans la zone Préférences du projet de la section Configuration. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</td> 
+  </tr> 
+  <tr> 
+   <td>Priorité</td> 
+   <td>Transferts à partir du modèle. </td> 
+  </tr> 
+  <tr> 
+   <td>URL</td> 
+   <td> <p>L’URL de la publication est transférée au nouveau projet. </p> <p> Si aucune URL n’est spécifiée, l’URL du modèle est transférée au projet. </p> <p>Si le champ URL est vide à la fois pour le problème et pour le modèle, le champ est vide sur le projet. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Type de condition du projet</td> 
+   <td>Transferts à partir du modèle.</td> 
+  </tr> 
+  <tr> 
+   <td>Condition du projet</td> 
+   <td>Correspond à la préférence par défaut au niveau du système, déterminée par l’administrateur Workfront dans la zone Configuration . Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Définition d’une condition personnalisée comme condition par défaut pour les projets</a></td> 
+  </tr> 
+  <tr> 
+   <td>Planifier à partir de</td> 
+   <td>Transferts à partir du modèle.</td> 
+  </tr> 
+  <tr> 
+   <td>Dates de projets</td> 
+   <td> 
+    <ul> 
+     <li> <p><b>Date de début planifiée</b>: Le temps de travail le plus proche basé sur l’heure de travail du modèle doit être présélectionné, en fonction du fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir de est défini sur À partir de la fin. </p> </li> 
+     <li> <p><b>Date d’achèvement prévue</b>: Le temps de travail le plus proche basé sur l’heure de travail du modèle doit être présélectionné, en fonction du fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir du est défini sur À partir du début. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Portfolio</td> 
+   <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
+  </tr> 
+  <tr> 
+   <td>Programme</td> 
+   <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
+  </tr> 
+  <tr> 
+   <td>Groupe</td> 
+   <td>Transferts à partir du modèle. S’il n’existe aucun groupe sur le modèle, il est défini sur le groupe du projet auquel le problème appartient.</td> 
+  </tr> 
+  <tr> 
+   <td>Entreprise</td> 
+   <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
+  </tr> 
+  <tr> 
+   <td>Propriétaire du projet</td> 
+   <td>Transferts à partir du champ Propriétaire du modèle sur le modèle. Sinon, elle est définie sur l’utilisateur connecté qui effectue la conversion. </td> 
+  </tr> 
+  <tr> 
+   <td>Sponsor du projet</td> 
+   <td>Transferts à partir du champ Modèle de parrainage sur le modèle. Sinon, ce champ est vide.</td> 
+  </tr> 
+  <tr> 
+   <td>Resource Manager</td> 
+   <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
+  </tr> 
+  <tr> 
+   <td>Paramètres de la tâche</td> 
+   <td>Transférer à partir du modèle.</td> 
+  </tr> 
+  <tr> 
+   <td>Paramètres de l'événement</td> 
+   <td>Transférer à partir du modèle. </td> 
+  </tr> 
+  <tr> 
+   <td>Accès</td> 
+   <td> <p>Transferts depuis la section Accès du modèle. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Approbations</td> 
+   <td>Transférer à partir du modèle. Les approbations associées au problème sont supprimées lors de la conversion. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--WRITER
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Convert an issue to a project</h2> 
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+-->
+<!--
+<ol>
+<li value="1"> Click the <strong>Issues</strong> icon on a project. <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-issues-icon-highlighted-on-project.png"> </p> </li>
+<li value="2"> <p>Click the issue to be converted to access the issue.</p> </li>
+<li value="3"> <p> Click the <strong>More</strong> menu, then click <strong>Convert to Project</strong>. </p> <p> <img src="assets/qs-issue-more-menu-highlighted-350x469.png" style="width: 350;height: 469;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="4"> <p>In the submenu that displays, do one of the following:</p>
+<ul>
+<li>Click <strong>New Project</strong></li>
+<li>Under <strong>New from Template</strong>, click the name of a project template you want to use</li>
+</ul> </li>
+<li value="5"> <p>Specify a name for the project.</p> <p>The default name is the name of the issue you are converting.</p> </li>
+<li value="6">(Optional and conditional) If you are creating this project from a template, update the available fields in the Convert to Project box.<br>For more information about editing fields on projects, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</li>
+<li value="7"> <p>(Optional and conditional) Under <strong>Options</strong>, select any of the available options:</p>
+<ul>
+<li> <p><strong>Keep the original issue and tie its resolution to the this project</strong>When deselected, the original issue is deleted.</p> <note type="note">
+<p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p>
+<ul>
+<li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li>
+<li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li>
+</ul>
+</note> </li>
+<li><strong>Allow <User Name> to have access to this project</strong>If unselected, the user who entered the issue has no access to the new task.</li>
+</ul> <note type="note">
+<div>
+<p>The options that are available here depend on how the Workfront administrator has configured them for everyone in the system or for your group. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</p>
+<p>Or, if the top-level groups in your organization configured them separately, the options available here depend on which group you selected for the new project in step 6. For more information, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md" class="MCXref xref">Configure task and issue preferences for a group</a><span class="preview">.</span></p>
+</div>
+</note> </li>
+<li value="8">(Optional) In the <strong>Custom Forms</strong> section, attach any custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new project, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data when converting an object</a>.</li>
+<li value="9"> <p>Click <strong>Save Changes.</strong></p> <p> <img src="assets/qs-issue-convert-to-project-before-saving-ui-350x366.png" style="width: 350;height: 366;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>The issue is now a project, if you decided to delete the original issue.<br>Or<br>The issue is now linked to the new project and it will complete when the project completes, if you decided to keep the original issue. </p> <p>Some issue fields transfer to the project. For information, see the <a href="#view-original-issue-information-on-projects-and-tasks" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. </p> </li>
+<li value="10"> <p>(Optional) Set any further project details ​(project owner, project dates) and tasks as necessary.</p> </li>
+</ol>
+</div>
+-->
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Convert an issue to a task</h2> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
+-->
+<!--
+<ol>
+<li value="1"> Click the Issues icon on a project.  </li>
+<li value="2"> <p>Click the issue you want to convert to go to the issue's landing page. </p> </li>
+<li value="3"> <p> Click the <strong>More</strong> menu on the issue, then <strong>Convert to Task</strong>.  </p> <p> <img src="assets/qs-issue-more-menu-highlighted-350x469.png" style="width: 350;height: 469;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="4"> <p>Name the task.</p> </li>
+<li value="5"> <p>Identify the project where the task will reside. </p> <p>You can select a different project from the project that the issue is on.</p> </li>
+<li value="6"> <p>In the <strong>Project</strong> box, start typing the name of the project where you want to put the new task, then press <strong>Enter</strong> when it appears.</p> <p>By default, this box the name of the project containing the issue that you are converting.</p> </li>
+<li value="7"> <p>(Optional and conditional) Under <strong>Options</strong>, select any of the following options. </p> <p>The Workfront administrator or group administrator must enable these preferences before they are visible during the conversion of issues: </p>
+<ul>
+<li> <p><strong>Keep the original issue and tie its resolution to the this task</strong> </p> <p>If unselected, the original issue is deleted.</p> <note type="note">
+<p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p>
+<ul>
+<li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li>
+<li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li>
+</ul>
+</note> </li>
+<li> <p><strong>Allow <User Name> to have access to this task</strong> </p> <p>If unselected, the user who entered the issue has no access to the new task.</p> </li>
+<li> <p><strong>Keep the planned completion date of the issue</strong> </p> <p>If unselected, the Planned Completion Date of the new task is calculated from the Planned Start Date of the task. The Planned Start Date of the new task is set according to the system preferences for new tasks.</p> </li>
+</ul> <note type="note">
+<div>
+<p>The options that display here depend on how the Workfront administrator configured them for everyone in the system. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</p>
+<p>Or, if the top-level groups in your organization configured them separately, the options that display here depend on which group is associated with the project you selected in step 6. For more information, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md" class="MCXref xref">Configure task and issue preferences for a group</a>.</p>
+</div>
+</note> </li>
+<li value="8">(Optional) Attach custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new task, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data when converting an object</a>.<br><p><img src="assets/qs-issue-convert-to-task-before-saving-ui-350x367.png" style="width: 350;height: 367;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></p></li>
+<li value="9"> <p>Click <strong>Save Changes</strong> when all task settings are set.</p> <p>The issue is now a task on the designated project, if you decided to delete the original issue.</p> <p>Or</p> <p>The issue is now linked to the new task on the project you chose, and it will complete once the task completes, if you decided to keep the original issue.</p> <p>Some issue fields transfer to the task. For information, see the <a href="#view-original-issue-information-on-projects-and-tasks" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. <br></p> </li>
+<li value="10"> <p>(Optional) Continue editing the task (assignments, dates) as necessary. </p> </li>
+</ol>
+</div>
+-->
+
+## Affichage des informations de problème d’origine sur les projets et les tâches {#view-original-issue-information-on-projects-and-tasks}
+
+Vous pouvez afficher les informations sur le problème d’origine dans les listes et rapports de projet et de tâche ou dans la zone Détails du projet . Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+Le tableau suivant illustre les champs de problème visibles à partir des projets et tâches convertis.
+
+| Champs de problème | Champ de projet ou de tâche | Liste ou rapport de projets | Zone Détails du projet | Liste ou rapport de tâches | Zone Détails de la tâche |
+|---|---|---|---|---|---|
+| Nom de l&#39;événement | Nom de l&#39;événement converti | ✔ | ✔ | ✔ | ✔ |
+| Contact principal | Nom de l’auteur du problème converti | ✔ | `✔` | ✔ |   |
+| Date d’entrée | Date d’entrée du problème convertie | ✔ |   | ✔ |   |
+
+
+>[!CAUTION]
+>
+>Si le contact Principal d’un problème change ou si le problème n’est plus lié au projet ou à la tâche une fois le problème converti, le nom de l’auteur du problème converti n’est pas mis à jour et affiche le contact Principal d’origine du problème au moment de la conversion.

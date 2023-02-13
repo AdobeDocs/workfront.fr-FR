@@ -1,0 +1,73 @@
+---
+content-type: reference
+product-area: reporting;projects;portfolios;programs
+navigation-topic: custom-view-filter-and-grouping-samples
+title: '"Affichage : afficher les retraits de tâche dans une liste de tâches'
+description: Dans cette vue de tâche, vous pouvez ajouter du code à la colonne Nom de la tâche pour afficher les tâches mises en retrait selon la structure de ventilation du travail du projet.
+author: Lisa and Nolan
+feature: Reports and Dashboards
+exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
+source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 0%
+
+---
+
+# Afficher : afficher les retraits de tâche dans une liste de tâches
+
+Dans cette vue de tâche, vous pouvez ajouter du code à la colonne Nom de la tâche pour afficher les tâches mises en retrait selon la structure de ventilation du travail du projet.
+
+![](assets/view-text-mode-indentation-task-list-350x171.png)
+
+## Exigences d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Gestion des autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
+## Afficher les retraits de tâche dans une colonne d&#39;une liste de tâches
+
+1. Accédez à une liste de tâches.
+1. Dans la **Affichage** menu déroulant, cliquez sur **Nouvelle vue**.
+
+1. Cliquez sur **Ajouter une colonne** et commencez à saisir &quot;Nom de la tâche&quot; dans le champ **Afficher dans cette colonne** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+
+1. Dans la nouvelle colonne, cliquez sur **Passer en mode Texte**.
+1. Pointez sur la zone de mode de texte, puis cliquez sur **Cliquer pour modifier le texte**.
+1. Supprimez le texte que vous trouvez dans la
+
+   ```
+   valuefield=
+   ```
+
+   et remplacez-le par le code suivant :
+
+   ```
+   valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))
+   ```
+
+1. Cliquez sur **Enregistrer**, puis **Enregistrer la vue**.

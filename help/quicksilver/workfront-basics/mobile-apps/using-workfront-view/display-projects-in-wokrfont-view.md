@@ -1,0 +1,80 @@
+---
+product-previous: mobile
+product-area: projects
+navigation-topic: use-workfront-view
+title: Affichage des projets dans la vue Adobe Workfront
+description: Par défaut, la liste des projets affichée dans [!DNL Adobe Workfront] La vue affiche les 100 projets principaux les plus récents. La liste des projets n'est classée selon aucun critère.
+author: Lisa
+feature: Get Started with Workfront
+exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
+source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 2%
+
+---
+
+# Afficher les projets dans [!UICONTROL Vue Adobe Workfront]
+
+Par défaut, la liste des projets affichée dans [!DNL Adobe Workfront View] affiche les 100 projets principaux les plus récents. La liste des projets n&#39;est classée selon aucun critère.
+
+## Exigences d’accès
+
+Vous devez disposer de l’accès suivant dans [!DNL Workfront] pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Tous</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Review] ou version ultérieure</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+
+## Modifier le regroupement dans votre liste de projets
+
+1. Depuis la page d’accueil de [!DNL Workfront View], faites glisser les graphiques en haut de la liste de droite à gauche pour afficher tous les critères disponibles pour le regroupement de projets.\
+   ![[!DNL workfront_view_project_groupings_Adobe].png](assets/workfront-view-project-groupings-adobe-350x255.png)
+
+1. Appuyez sur l’un des graphiques en haut de la liste.\
+   Sélectionnez parmi :
+
+   * **[!UICONTROL Condition]**
+   * **[!UICONTROL Propriétaire]**
+   * **[!UICONTROL Groupe]**
+   * **[!UICONTROL Portfolio]**
+   * **[!UICONTROL Progression]**
+   * **[!UICONTROL Statut]**
+   * **[!UICONTROL Sponsor]**
+Les projets sont désormais répertoriés selon les valeurs possibles de ces champs.
+\
+      Vous pouvez regrouper les projets selon un critère à la fois. Les critères sont préchargés dans l’application dans les graphiques situés en haut de la liste des projets et ne peuvent pas être modifiés.
+
+## Affichage des détails du projet
+
+Pour afficher les détails d’un projet dans [!DNL Workfront View]:
+
+1. Depuis la page d’accueil de [!DNL Workfront] afficher, appuyez sur un projet dans la liste pour afficher les détails du projet.\
+   Les informations du projet s’affichent dans les widgets disponibles à l’écran.\
+   Vous pouvez afficher jusqu’à quatre widgets simultanément et supprimer et ajouter des widgets à chaque projet afin d’afficher différentes informations sur le projet.\
+   Pour plus d’informations sur l’ajout de widgets au [!UICONTROL Détails du projet] vue, voir [Mise à jour de widgets dans [!UICONTROL Détails du projet] view](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
+
+## Navigation dans les projets dans [!DNL Workfront View]
+
+1. Appuyez sur le nom d’un projet dans la liste des projets du [!DNL Workfront View] application.\
+   Les informations sur le projet s’affichent dans les widgets téléchargés à l’écran.\
+   Pour plus d’informations sur l’ajout de widgets au [!UICONTROL Détails du projet] vue, voir [Mise à jour de widgets dans [!UICONTROL Détails du projet] view](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
+
+1. Faites glisser la souris de droite à gauche pour afficher le projet suivant dans la liste.\
+   Les mêmes widgets s’affichent pour chaque projet, à mesure que vous les parcourez.\
+   ![Image-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg) 

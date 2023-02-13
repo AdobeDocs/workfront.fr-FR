@@ -1,0 +1,125 @@
+---
+product-area: projects
+navigation-topic: update-work-in-a-project
+title: Condition de mise à jour d’un projet
+description: La condition d’un projet est un indicateur qui indique si le travail qui y est associé se déroule sans problème ou si vous avez rencontré des obstacles. Ceci est différent de l’état du projet, qui indique si vous y travaillez activement ou non.
+author: Alina
+feature: Work Management
+exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
+source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 1%
+
+---
+
+# Condition de mise à jour d’un projet
+
+La condition d’un projet est un indicateur qui indique si le travail qui y est associé se déroule sans problème ou si vous avez rencontré des obstacles. Ceci est différent de l’état du projet, qui indique si vous y travaillez activement ou non.
+
+Vous pouvez définir la condition d’un projet automatiquement ou manuellement. Pour modifier manuellement la condition d’un projet, vous devez être le propriétaire du projet ou disposer des droits de gestion.
+
+L’administrateur d’Adobe Workfront peut créer des conditions personnalisées pour votre environnement, comme décrit dans la section [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
+## Exigences d’accès
+
+<!--drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td><p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   
+   For the current licenses:
+  <p>Standard</p>
+   
+   For legacy licenses:
+   <ul><li><p>Plan</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
+   <p>Manage permissions on tasks and issues to update the Condition</p>
+    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
+
+Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Gestion des autorisations pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
+## Définition automatique de la condition
+
+La définition automatique de la condition d’un projet est déterminée par le type de condition du projet. Le type de condition doit être défini sur État de progression pour que Workfront définisse automatiquement la condition du projet.
+
+L’administrateur Workfront ou Group détermine la valeur par défaut du champ Type de condition pour les nouveaux projets de votre système lors de la définition des préférences du projet dans la zone Configuration. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+Lorsque vous créez un projet, la condition du projet est automatiquement définie pour correspondre à l’état de progression du projet à ce moment-là. L’état d’avancement du projet est basé sur l’état d’avancement des tâches sur le projet.
+
+Pour plus d’informations sur les conditions du projet et leur calcul en fonction de l’état de progression, voir [État d’avancement du projet - Aperçu](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+
+## Mettre à jour manuellement la condition d’un projet
+
+Si vous définissez le type de condition de votre projet sur Manuel au lieu de État de progression, vous pouvez mettre à jour manuellement la condition d’un projet.
+
+1. Accédez au projet pour lequel vous souhaitez mettre à jour la condition.
+1. Cliquez sur le bouton **Détails du projet** .
+
+   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+
+1. Assurez-vous que la variable **Type de condition** est défini sur **Manuel**.
+
+1. Dans le **Condition** , sélectionnez parmi les options suivantes celle qui correspond à votre compréhension du bon déroulement du travail ou des retards :
+
+   * **Dans les temps**
+   * **En danger**
+   * **En difficulté**
+
+   Pour plus d’informations sur les conditions du projet, voir [Présentation de la condition et du type de condition du projet](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+
+   >[!NOTE]
+   >
+   >Les conditions peuvent être personnalisées pour votre environnement. Vous pouvez donc trouver plus de trois options pour Condition dans votre environnement. Les noms des Conditions peuvent être différents de ceux répertoriés ci-dessus. Pour plus d’informations sur la personnalisation des conditions dans Workfront, voir [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
+1. Cliquez sur **Enregistrer**.Click **Enregistrer les modifications**.

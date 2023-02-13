@@ -1,0 +1,31 @@
+---
+content-type: reference
+product-previous: workfront-fusion
+product-area: workfront-integrations
+navigation-topic: workfront-fusion-2-0
+title: Modules dans [!DNL Adobe] Workfront Fusion
+description: Les articles répertoriés ici décrivent des modules spécifiques et leurs fonctionnalités dans [!DNL Adobe Workfront Fusion].
+author: Becky
+feature: Workfront Fusion
+exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
+source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 0%
+
+---
+
+# Modules dans [!DNL Adobe Workfront Fusion]
+
+Cette section contient les articles suivants :
+
+* [Types de modules](../../workfront-fusion/modules/module-types.md)
+* [Configurez les paramètres d’un module dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md)
+* [Sélectionnez l’endroit où commence un module de déclenchement dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
+* [Entrepôts de données dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+* [Structures de données dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-structures.md)
+* [Module d’agrégation dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md)
+* [Module de routeur dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md)
+* [Module d’itérateur dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md)
+* [Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/http-request-methods.md)
+* [Dépannage de l’analyseur de texte dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/text-parser-troubleshooting.md)

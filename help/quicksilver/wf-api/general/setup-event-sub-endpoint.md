@@ -1,0 +1,36 @@
+---
+content-type: api
+navigation-topic: general-api
+title: Exigences de diffusion de l’abonnement à un événement
+description: Exigences de diffusion de l’abonnement à un événement
+author: John
+feature: Workfront API
+exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
+source-git-commit: 40698643b0fa530b38da465f3bc1e4d841fcc190
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 0%
+
+---
+
+
+# Exigences de diffusion de l’abonnement à un événement
+
+Les messages d’abonnement aux événements sont des notifications qui peuvent être configurées pour avertir les utilisateurs lorsque certains événements se produisent. Pour en savoir plus sur les abonnements aux événements, voir [Questions fréquentes - Abonnements à un événement](../../wf-api/general/event-subs-faq.md).
+
+## Normes de diffusion des messages d’abonnement à un événement
+
+Les points de terminaison de service qui utilisent les messages d’abonnement aux événements Adobe Workfront doivent répondre aux exigences de base suivantes, afin de garantir que les messages seront envoyés et reçus correctement :
+
+* Le point de terminaison de service doit accepter les requêtes de POST HTTP. Le POST HTTP est la méthode de requête utilisée dans toutes les diffusions de messages d’abonnement d’événement, y compris les messages de validation.
+
+* Pour que le système de diffusion d’abonnement à l’événement reconnaisse que le message a bien été reçu, le point de terminaison doit renvoyer un état HTTP de 200 niveaux (par exemple, 200 OK ou 202) pour tous les messages entrants.
+
+* Si aucun statut de niveau 200 n’est renvoyé, le système d’abonnement à l’événement suppose que le message n’a pas été délivré correctement et commence à appliquer la stratégie de reprise appropriée. Pour en savoir plus sur la stratégie de reprise Workfront, voir [Reprises d’abonnement à un événement](../../wf-api/api/event-sub-retries.md).
+
+* Outre le renvoi d’un état de réponse de 200 niveaux, la réponse HTTP doit être reçue dans les cinq secondes suivant le début de la tentative de diffusion. Cette contrainte permet aux clients d’exécuter des processus métier ou des limitations d’infrastructure de ne pas retarder la diffusion d’autres messages en attente de diffusion.
+
+* Si un processus d’entreprise à long terme déclenche un message d’abonnement à un événement, Workfront recommande que
+
+   1. le point de terminaison enregistre les informations du message à la réception et répond immédiatement avec un état de 200 niveaux.
+   1. Une fois qu’un point de terminaison a répondu à une demande de diffusion d’abonnement à un événement, les messages enregistrés peuvent être traités.

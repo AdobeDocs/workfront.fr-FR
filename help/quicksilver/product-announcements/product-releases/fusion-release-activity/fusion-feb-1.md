@@ -1,0 +1,67 @@
+---
+product-previous: workfront-fusion
+content-type: release-notes
+product-area: workfront-integrations
+navigation-topic: fusion-release-activity
+title: 'Activité Publication de fusion Workfront : Semaine du 1er février 2021'''
+description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 1er février 2021.
+author: Luke
+feature: Product Announcements, Workfront Fusion
+exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
+hidefromtoc: true
+source-git-commit: 9c2321794c5ba773bfda1d6e9dfda6b8de1a1449
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 0%
+
+---
+
+# Activité Publication de fusion Workfront : semaine du 1er février 2021
+
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 1er février 2021.
+
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance de Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Create and use templates in your Workfront Fusion scenarios</h2>
+<p>To help you create scenarios with more speed and consistency, we've introduced Templates into Workfront Fusion. Now you can create templates for your common scenarios and share them with your team, or make them public for anyone in your organization to use. You can create these template from scratch, or you can create them from existing scenarios. You can even set up an in-template wizard that helps your users understand how to use the template.</p>
+<p>For more information, see <a href="../../../workfront-fusion/scenarios/templates/fusion-templates.md" class="MCXref xref" xrefformat="{para}"> Scenario Templates</a>.</p>
+</div>
+-->
+
+## Connecteur et modules MariaDB désormais disponibles
+
+Vous pouvez désormais utiliser Workfront Fusion pour vous connecter à votre compte MariaDB.
+
+Avec les modules MariaDB, vous pouvez :
+
+* Exécuter une requête
+* Sélectionner des lignes d’un tableau
+
+Pour plus d’informations, voir [Modules MariaDB](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
+
+## Connecteur et modules Marketo désormais disponibles
+
+* Vous pouvez désormais utiliser Workfront Fusion pour vous connecter à votre compte Marketo. Avec le connecteur Marketo, vous pouvez
+* Déclenchez un scénario lorsqu’un enregistrement est créé ou mis à jour.
+* Créer, lire ou mettre à jour des enregistrements
+* Chargement ou téléchargement de fichiers
+* Répertorier ou rechercher des enregistrements d’un type donné
+* Ajouter des pistes ou supprimer des pistes d’une liste
+* Planification d’une campagne
+* Copier un programme
+* Effectuer un appel API personnalisé
+
+Pour plus d’informations, voir [Modules Marketo](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
+
+## Connecteur et modules d’installation désormais disponibles
+
+Vous pouvez désormais utiliser Workfront Fusion 2.0 pour vous connecter à votre compte d’installation. Avec les modules d’installation, vous pouvez :
+
+* Recherche de ressources en fonction des critères spécifiés
+* Effectuez un appel API personnalisé.
+
+Pour plus d’informations, voir [Installer les modules](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).

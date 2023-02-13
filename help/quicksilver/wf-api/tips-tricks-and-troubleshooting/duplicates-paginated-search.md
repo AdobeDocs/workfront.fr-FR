@@ -1,0 +1,30 @@
+---
+content-type: api;tips-tricks-troubleshooting
+navigation-topic: tips-tricks-and-troubleshooting-workfront-api
+title: Doublons renvoyés lors d’une grande recherche paginée
+description: Doublons renvoyés lors d’une grande recherche paginée
+author: John
+feature: Workfront API
+exl-id: 0359d6ba-b219-4d11-9f6f-cec2ff9ee058
+source-git-commit: a939e14cbd6936bdd0c46c1ed641acdda497b8fc
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
+
+---
+
+
+# Doublons renvoyés lors d’une grande recherche paginée
+
+## Problème
+
+Lors d’une grande recherche paginée dans l’API pour un objet, le client reçoit des entrées en double et des enregistrements manquants.
+
+## Solution
+
+Lorsque la commande n&#39;est pas formellement définie, l&#39;ordre des lignes renvoyé par la base de données Oracle est fiable, ce qui ne garantit aucun ordre déterministe. Par exemple, deux appels consécutifs avec la même requête peuvent renvoyer des lignes dans un ordre différent. De même, lorsque vous effectuez une pagination, les lignes peuvent être attribuées de manière aléatoire à différentes &quot;pages&quot;, ce qui entraîne des doublons. La solution la plus simple peut être d’ajouter un tri par identifiant :
+
+```
+&ID_Sort=asc
+```
+

@@ -1,0 +1,31 @@
+---
+title: Conditions personnalisées
+user-type: administrator
+content-type: reference
+product-area: system-administration
+navigation-topic: customize-workfront
+description: Une condition est une représentation visuelle de l’avancement d’un projet, d’une tâche ou d’un problème. En tant qu’administrateur Adobe Workfront, vous pouvez utiliser les conditions créées par Workfront pour les utiliser dans des projets, des tâches et des problèmes, ou vous pouvez créer des conditions personnalisées pour mieux répondre aux besoins de votre organisation.
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: bbe6f0a0-18bf-4229-a50a-aa7286b82626
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 0%
+
+---
+
+# Conditions personnalisées
+
+Une condition est une représentation visuelle de l’avancement d’un projet, d’une tâche ou d’un problème. En tant qu’administrateur Adobe Workfront, vous pouvez utiliser les conditions créées par Workfront pour les utiliser dans des projets, des tâches et des problèmes, ou vous pouvez créer des conditions personnalisées pour mieux répondre aux besoins de votre organisation.
+
+Cette section contient les articles suivants :
+
+* [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
+* [Modifier l’ordre d’affichage des conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
+* [Définition d’une condition personnalisée comme condition par défaut pour les projets](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
+* [Définition d’une condition personnalisée comme condition par défaut pour les tâches et les problèmes](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
+* [Suppression d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
+
+Pour plus d’informations sur les conditions et leur application aux projets, tâches et problèmes, voir [Présentation de la condition et du type de condition du projet](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) et [Mise à jour de la condition pour les tâches et les problèmes](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).

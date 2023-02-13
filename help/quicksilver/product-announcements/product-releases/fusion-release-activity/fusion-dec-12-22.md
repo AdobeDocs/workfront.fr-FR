@@ -1,0 +1,31 @@
+---
+title: Activité Publication de fusion Workfront Semaine du 12 décembre 2022
+description: Activité Publication de fusion Workfront Semaine du 12 décembre 2022
+author: Becky
+feature: Product Announcements, Workfront Fusion
+hidefromtoc: true
+source-git-commit: 1efe7580ea0af38479ec60595a4e93678bb34bd2
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 0%
+
+---
+
+# Activité Publication de fusion Workfront : Semaine du 12 décembre 2022
+
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 14 février 2022.
+
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance de Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+
+## Améliorations des fusion pour la croissance future
+
+Nous travaillons en coulisses pour préparer Fusion à la croissance prévue pour l&#39;année à venir. La plupart de ces modifications ne seront pas visibles par vous, mais garantiront des performances fiables et efficaces pour les clients actuels et futurs.
+
+
+Nous travaillons actuellement sur :
+
+* Passez à l’utilisation d’Adobe Identity Management System (IMS) pour la future authentification Workfront Fusion.
+* Modification de la manière dont Workfront Fusion gère les webhooks inutilisés, afin de les empêcher d’affecter les performances lorsque Fusion s’agrandit.
+* Autres améliorations de l’infrastructure.

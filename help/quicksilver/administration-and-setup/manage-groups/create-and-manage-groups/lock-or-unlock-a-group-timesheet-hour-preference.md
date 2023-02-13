@@ -1,0 +1,89 @@
+---
+user-type: administrator
+product-area: system-administration;user-management;setup
+navigation-topic: create-and-manage-groups
+title: Verrouillage ou déverrouillage d’une feuille de temps et d’une préférence d’heure de groupe
+description: Si vous êtes administrateur de groupe, vous pouvez configurer, puis verrouiller une préférence de feuille de temps et d’heure pour votre groupe après qu’un administrateur Workfront l’ait déverrouillée au niveau du système.
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
+role: Admin
+exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '627'
+ht-degree: 0%
+
+---
+
+# Verrouillage ou déverrouillage d’une feuille de temps et d’une préférence d’heure de groupe
+
+Si vous êtes administrateur de groupe, vous pouvez configurer, puis verrouiller une préférence de feuille de temps et d’heure pour votre groupe après qu’un administrateur Workfront l’ait déverrouillée au niveau du système.
+
+Le verrouillage d’une préférence Adobe Workfront garantit que toutes les personnes de votre groupe et de ses sous-groupes utilisent le même paramètre pour cette préférence. Bien que vous puissiez toujours reconfigurer une préférence que vous verrouillez, les administrateurs de groupe ne peuvent pas le faire pour les sous-groupes inférieurs.
+
+Inversement, le déverrouillage d’une préférence au niveau du groupe offre aux administrateurs de sous-groupes plus de flexibilité pour gérer la manière dont leurs groupes fonctionnent avec ces éléments. Lorsqu’une préférence est déverrouillée, les administrateurs de groupe peuvent la reconfigurer pour ces sous-groupes.
+
+Cela est parallèle à la possibilité qu’un administrateur de Workfront doit verrouiller ou déverrouiller une préférence pour tous les utilisateurs du système.
+
+Pour plus d’informations sur la façon dont un administrateur Workfront peut verrouiller ou déverrouiller une feuille de temps et une préférence d’heure pour tous les groupes du système, voir [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+Pour plus d’informations sur la configuration d’une feuille de temps et d’une préférence horaire pour un groupe, voir [Configuration des préférences de feuille de temps et d’heure pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+
+<!--
+Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
+-->
+
+>[!NOTE]
+>
+>* La configuration d’une préférence déverrouillée pour un groupe n’affecte pas cette préférence pour les sous-groupes situés sous le groupe.
+>
+>  Cependant, lorsqu’un nouveau sous-groupe est créé, il hérite des paramètres de préférence et de l’état verrouillé ou déverrouillé du groupe immédiatement au-dessus.
+>
+>* Si vous déplacez un groupe sous un groupe ayant une préférence verrouillée, le groupe déplacé hérite de cette préférence et elle est verrouillée pour le groupe déplacé.
+>* Si vous déplacez un groupe sous un groupe avec une préférence déverrouillée, le groupe déplacé n’est pas affecté par cette préférence.
+>
+>  Si la préférence du groupe déplacé est verrouillée au moment du déplacement, elle l’est toujours, mais l’administrateur du groupe peut la déverrouiller maintenant car elle est déverrouillée pour le groupe parent.
+
+## Exigences d’accès
+
+Les étapes de cet article doivent être les suivantes :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Workfront*</td> 
+   <td>Tous</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Plan </p> <p>Vous devez être un administrateur de groupe du groupe ou un administrateur Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Si vous devez savoir quel plan ou type de licence vous avez, contactez votre administrateur Workfront.
+
+## Verrouillage ou déverrouillage d’une feuille de temps et d’une préférence d’heure de groupe
+
+>[!TIP]
+>
+>Si vous êtes administrateur de Workfront, vous pouvez ignorer les étapes 1 à 4 en accédant à Configuration > Frise chronologique et heures > Préférences, puis en recherchant le nom du groupe dans la zone située en haut de la page.
+
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+
+1. Dans le panneau de gauche, cliquez sur **Groupes**.
+1. Cliquez sur le nom du groupe dans lequel vous souhaitez verrouiller ou déverrouiller une feuille de temps et une préférence d’heures.
+1. Dans le panneau de gauche, cliquez sur **Préférences de la feuille de temps et des heures**.
+
+1. Sur la page qui s’affiche, effectuez l’une des opérations suivantes :
+
+   * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la. ![](assets/unlock-toggle-button.png).
+   * Si vous souhaitez que tous les groupes situés sous le vôtre utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée. ![](assets/lock-toggle-button.png) (il s’agit de la valeur par défaut).
+
+      >[!IMPORTANT]
+      >
+      >Il est important de communiquer avec les administrateurs et les utilisateurs des groupes situés sous les vôtres pour vous assurer que tous les besoins sont pris en compte dans la configuration d’une préférence verrouillée. Lorsque vous la verrouillez, votre configuration pour elle est héritée par tous les sous-groupes ci-dessous. Et si la préférence a été déverrouillée pendant une période quelconque, votre configuration remplace celles que les administrateurs de groupe dans les sous-groupes inférieurs ont pu faire.
+
+1. Cliquer sur **Enregistrer**.

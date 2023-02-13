@@ -1,0 +1,79 @@
+---
+product-area: workfront-integrations;setup
+navigation-topic: workfront-for-jira
+title: Afficher le journal d’activité Jira
+description: Comme [!DNL Jira] administrateur, vous pouvez visualiser les exceptions et erreurs qui se produisent lors de la synchronisation ou de la création des tickets entre [!DNL Adobe Workfront] et [!DNL Jira] dans un journal d’activité.
+author: Becky
+feature: Workfront Integrations and Apps
+exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
+source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+workflow-type: tm+mt
+source-wordcount: '308'
+ht-degree: 0%
+
+---
+
+# Afficher la variable [!UICONTROL [!DNL Jira] Journal d’activité]
+
+Comme [!DNL Jira] administrateur, vous pouvez visualiser les exceptions et erreurs qui se produisent lors de la synchronisation ou de la création des tickets entre [!DNL Adobe Workfront] et [!DNL Jira] dans un [!UICONTROL Journal d’activité].
+
+Vous pouvez voir jusqu’à 500 éléments dans le journal d’activité. Ils sont répertoriés à partir des plus récents.
+
+## Exigences d’accès
+
+Vous devez disposer des éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] plan</a>*</td> 
+   <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] Présentation des licences</a>*</td> 
+   <td> <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Jira] accès</td> 
+   <td> <p>Accès administrateur système</p> <p>Important : Nous vous recommandons de créer des comptes d’administrateur système distincts dans [!DNL Jira] et [!DNL Workfront] pour dédier à cette intégration, plutôt que d’utiliser des qui peuvent être associés à des utilisateurs existants.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td> <p>Vous devez être un [!DNL Workfront] administrateur. Pour plus d’informations sur [!DNL Workfront] administrateurs, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+
+## Conditions préalables
+
+Avant de pouvoir lier des éléments entre [!DNL Workfront] et [!DNL Jira], vous devez
+
+* Installer [!DNL Workfront for Jira]
+
+   Pour obtenir des instructions sur l’installation [!DNL Workfront for Jira], voir [Installer [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+
+## Accédez au [!UICONTROL [!DNL Jira] Journal d’activité]:
+
+1. Connectez-vous à Jira en tant qu’administrateur système.
+1. Cliquez sur **[!UICONTROL Paramètres]** dans l’objet principal [!DNL Jira] .
+1. Cliquez sur **[!UICONTROL Modules complémentaires]**, puis **[!UICONTROL Gestion des modules complémentaires]**.
+
+1. Développez l’objet **[!DNL Workfront]** module complémentaire .
+1. Cliquez sur **[!UICONTROL Configurer]**.
+1. Connectez-vous à [!DNL Workfront] en tant qu’administrateur système.
+1. Sélectionnez la **[!UICONTROL Journal d’activité]** .
+
+   Affichez des informations sur les exceptions et les erreurs survenues lors de la création d’éléments ou de la synchronisation de champs entre les deux applications.
+
+   Le journal comprend les champs suivants :
+
+   * Date de l’occurrence
+   * Nom de l’utilisateur dans Jira
+   * Numéro de problème Jira
+   * Brève description de l’erreur qui s’est produite.

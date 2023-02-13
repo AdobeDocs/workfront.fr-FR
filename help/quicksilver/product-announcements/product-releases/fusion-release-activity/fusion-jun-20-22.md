@@ -1,0 +1,44 @@
+---
+product-previous: workfront-fusion
+content-type: release-notes
+product-area: workfront-integrations
+navigation-topic: fusion-release-activity
+title: 'Activité Publication de fusion Workfront : Semaine du 20 juin 2022'''
+description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 20 juin 2022.
+author: Luke
+feature: Product Announcements, Workfront Fusion
+hidefromtoc: true
+exl-id: b18a4a36-6347-4ece-a2c1-4d71917181ce
+source-git-commit: 74b86728f7e77ca7c83ae060f244e6459d6e35b2
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 0%
+
+---
+
+# Activité Publication de fusion Workfront : Semaine du 20 juin 2022
+
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 20 juin 2022.
+
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance de Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+
+## Connecteur et modules Adobe AEM Assets désormais disponibles
+
+Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter à votre compte AEM Assets Adobe. Avec les modules AEM Assets Adobe, vous pouvez :
+
+* Créer, mettre à jour, lire ou supprimer des dossiers, des ressources ou des rendus
+
+* Chargement de ressources
+
+* Copie de dossiers ou de ressources
+
+* Récupération des listes de dossiers
+
+* Déplacer des enregistrements d’un dossier vers un autre
+
+* Effectuer un appel API personnalisé
+
+
+Pour plus d’informations, voir [Modules Adobe Experience Manager Assets](../../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md).

@@ -1,0 +1,59 @@
+---
+title: 22.4 Améliorations de la gestion des ressources
+description: 22.4 Améliorations de la gestion des ressources
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
+source-git-commit: 87d0b668185c4185646bfa1622eb37337844bcbc
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 0%
+
+---
+
+# 22.4 Améliorations de la gestion des ressources
+
+Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 22.4 de l’environnement Aperçu. Ces améliorations seront disponibles la semaine du 3 octobre 2022.
+
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, voir [Présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+
+## Afficher tous les utilisateurs pour l’équilibreur de charge de travail d’un projet
+
+Pour que vous puissiez avoir une visibilité sur tous les utilisateurs du système et sur leur capacité sans quitter l’équilibreur de charge de travail d’un projet, nous avons ajouté une option &quot;Afficher tous les utilisateurs&quot;. Lorsqu’il est activé, l’équilibreur de charge de travail du projet affiche tous les utilisateurs du système dans la zone de travail attribué. Grâce à cette amélioration, vous pouvez facilement identifier qui doit être affecté à une tâche répertoriée dans la zone Travail non attribué.
+
+Pour plus d’informations, voir [Affectez un travail à l’équilibreur de charge de travail en le faisant glisser et en le déposant](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412873/){target=_blank}
+
+## Afficher tous les utilisateurs avec un rôle de tâche sélectionné dans l’équilibreur de charge de travail lors de l’affectation de travail en masse
+
+Pour faciliter la recherche de la bonne personne lors du remplacement des rôles de tâche par des utilisateurs dans l’équilibreur de charge de travail en masse, nous avons amélioré la façon dont la liste des utilisateurs disponibles est renseignée. Vous pouvez maintenant afficher tous les utilisateurs du système qui peuvent remplir le rôle sélectionné dans deux zones distinctes de la même liste d’utilisateurs :
+
+* La première zone (Affectations suggérées) affiche les utilisateurs identifiés par la logique Affectations intelligentes . Pour plus d’informations, voir [Présentation des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
+* La seconde zone (Autres affectations) affiche tous les utilisateurs pouvant remplir le rôle sélectionné.
+
+Avant cette amélioration, vous ne pouviez afficher que la liste des utilisateurs pouvant être affectés selon la logique Affectations intelligentes .
+
+Pour plus d’informations sur l’affectation de travail en masse à l’aide de l’équilibreur de charge de travail, voir [Affectation du travail en masse à l’aide de l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412874/){target=_blank}
+
+## Améliorations de l’équilibreur de charge de travail pour les utilisateurs sous licence de travail et les paramètres de problème
+
+Les améliorations suivantes ont été apportées à l’équilibreur de charge de travail, en vue de l’obsolescence des outils de planification :
+
+* Les utilisateurs de licences de travail peuvent désormais ajuster les allocations lors de l’utilisation de l’équilibreur de charge de travail d’un projet.
+
+* Les problèmes s’affichent dans la zone de travail non affectée lors de l’activation du paramètre &quot;Inclure les heures d’après les problèmes&quot;.
+
+Avant ces améliorations, seuls les utilisateurs de la licence du forfait pouvaient ajuster les affectations utilisateur et les problèmes affichés uniquement dans la zone de travail attribué.
+
+Pour plus d’informations, voir les articles suivants :
+
+* [Navigation dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+
+* [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+
+Pour plus d’informations sur l’obsolescence de la planification, voir [Obsolescence des outils de planification des ressources dans Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).

@@ -1,0 +1,70 @@
+---
+filename: configure-if-proofs-autogenerate
+user-type: administrator
+product-area: system-administration;setup
+navigation-topic: configure-proofing-functionality
+title: Configuration de la génération automatique de BAT
+description: Vous pouvez configurer la génération automatique de BAT par le système lorsque les utilisateurs que vous spécifiez ajoutent des documents à Workfront. Ce paramètre est désactivé par défaut.
+author: Courtney
+source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
+
+---
+
+
+# Configuration de la génération automatique de BAT
+
+Vous pouvez configurer la génération automatique de BAT par le système lorsque les utilisateurs que vous spécifiez ajoutent des documents à Workfront. Ce paramètre est désactivé par défaut.
+
+## Exigences d’accès
+
+Vous devez disposer des éléments suivants :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Adobe Workfront</a> </td> 
+   <td>Tous</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>*</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Paramétrages d'accès</td> 
+   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations sur les administrateurs Workfront, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
+## Configuration de la génération automatique de bons à tirer pour un utilisateur unique
+
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
+1. Sélectionnez un utilisateur disposant d’un accès de vérification, puis cliquez sur **Modifier**.
+1. Dans le **Préférences** , activez ou désactivez la fonction **Générer automatiquement des bons à tirer lors du téléchargement de documents** .
+
+   ![](assets/autogenerate-proofs-350x216.png)
+
+1. Cliquez sur **Enregistrer les modifications**.
+
+## Configuration de la génération automatique de bons à tirer pour plusieurs utilisateurs
+
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
+1. Sélectionnez les utilisateurs disposant d’un accès de vérification, puis cliquez sur **Modifier**.
+
+   >[!IMPORTANT]
+   >
+   >Si tous les utilisateurs ne disposent pas d’un accès de vérification, l’option Générer automatiquement des bons à tirer lors du téléchargement des documents n’apparaît pas.
+
+1. Dans le **Préférences** , activez **Générer automatiquement des bons à tirer lors du téléchargement de documents** , puis sélectionnez **Oui** ou **Non**.
+
+   ![](assets/autogenerate-proofs-bulk-350x285.png)
+
+1. Cliquez sur **Enregistrer les modifications**.
+
