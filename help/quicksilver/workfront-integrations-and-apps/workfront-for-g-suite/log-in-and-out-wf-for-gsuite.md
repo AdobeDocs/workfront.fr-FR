@@ -7,14 +7,18 @@ description: Cet article décrit comment se connecter ou se déconnecter du [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
 
 # Connexion et déconnexion [!DNL Adobe Workfront for G Suite]
+
+>[!NOTE]
+>
+>Il existe une [problème connu](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) avec la version actuelle de [!DNL Workfront for G Suite] ne fonctionne pas comme prévu. Nous travaillons sur une nouvelle version et nous espérons qu’elle sera publiée sur le [!DNL Google Marketplace] dans un avenir proche.
 
 ## Exigences d’accès
 

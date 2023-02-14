@@ -7,14 +7,18 @@ description: Sans quitter G Suite, vous pouvez afficher les mises à jour et les
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 # Affichage [!DNL Adobe Workfront] mises à jour d’objet à partir de [!DNL G Suite]
+
+>[!NOTE]
+>
+>Il existe une [problème connu](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) avec la version actuelle de [!DNL Workfront for G Suite] ne fonctionne pas comme prévu. Nous travaillons sur une nouvelle version et nous espérons qu’elle sera publiée sur le [!DNL Google Marketplace] dans un avenir proche.
 
 Sans quitter [!DNL G Suite], vous pouvez afficher les mises à jour et les réponses aux mises à jour d’un [!DNL Adobe Workfront] .
 

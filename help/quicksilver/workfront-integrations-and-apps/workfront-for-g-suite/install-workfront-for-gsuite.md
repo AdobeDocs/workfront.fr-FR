@@ -7,14 +7,18 @@ description: Vous pouvez installer le [!DNL Adobe Workfront] pour le module comp
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: db46b22bbd4014fab887ade181f984bed5dacc27
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 3%
+source-wordcount: '191'
+ht-degree: 2%
 
 ---
 
 # Installer [!DNL Adobe Workfront for G Suite]
+
+>[!NOTE]
+>
+>Il existe une [problème connu](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) avec la version actuelle de [!DNL Workfront for G Suite] ne fonctionne pas comme prévu. Nous travaillons sur une nouvelle version et nous espérons qu’elle sera publiée sur le [!DNL Google Marketplace] dans un avenir proche.
 
 Vous pouvez installer le [!DNL Adobe Workfront for G Suite] du module complémentaire [!DNL G Suite] Marketplace.
 
