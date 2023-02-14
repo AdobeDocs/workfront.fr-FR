@@ -65,8 +65,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >Tenez compte des points suivants lorsque vous utilisez un modèle de workflow automatisé :
    >   
    >* Les paramètres d’un modèle de workflow automatisé déterminent ce que vous pouvez faire avec le workflow automatisé pour un BAT. Par exemple, si le bouton Ajouter une scène est désactivé dans le modèle, il n’est pas visible car vous travaillez avec les paramètres de workflow automatisé du BAT.
-   * Lorsqu’une personne est ajoutée à un niveau dans un modèle de workflow automatisé, mais également déjà présente en tant que validant sur le BAT, l’application du modèle supprime le validant de l’étape. Si vous n’ajoutez pas d’autre réviseur à l’étape, un message vous invite à en ajouter un.
-   * Votre capacité à modifier un modèle de workflow automatisé dépend des paramètres de modèle configurés par l’administrateur de Workfront, comme décrit dans la section . Si la possibilité de modifier le modèle est désactivée, seul le propriétaire du modèle peut le modifier.
+   >* Lorsqu’une personne est ajoutée à un niveau dans un modèle de workflow automatisé, mais également déjà présente en tant que validant sur le BAT, l’application du modèle supprime le validant de l’étape. Si vous n’ajoutez pas d’autre réviseur à l’étape, un message vous invite à en ajouter un.
+   >* Votre capacité à modifier un modèle de workflow automatisé dépend des paramètres de modèle configurés par l’administrateur de Workfront, comme décrit dans la section . Si la possibilité de modifier le modèle est désactivée, seul le propriétaire du modèle peut le modifier.
 
 
 1. Configurez la première étape du processus automatisé :
@@ -75,14 +75,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    1. Dans le **Destinataires** pour l’étape, ajoutez les réviseurs à l’étape.
 
       >[!NOTE]
-      Tenez compte des points suivants lors de l’ajout de réviseurs à une étape :
-      * Vous pouvez ajouter des utilisateurs externes à une étape avec une adresse électronique.
-      * Après avoir ajouté un utilisateur à une étape, vous pouvez configurer les paramètres de cet utilisateur sur le BAT.
-      * Vous pouvez faire glisser les utilisateurs directement vers une autre étape, ou vous pouvez faire glisser les utilisateurs vers une étape de la **Phases** diagramme. Pour sélectionner plusieurs utilisateurs, appuyez sur Maj+Ctrl (sous Windows) ou Maj+Commande (sous Mac).
-      * Vous ne pouvez ajouter un validant qu&#39;une seule fois à un BAT, ce qui signifie que vous ne pouvez pas ajouter la même personne à plusieurs étapes du BAT.
-      * Les réviseurs qui ne sont pas ajoutés à une scène privée ne peuvent pas voir cette scène sur le BAT ou les commentaires faits à cette étape.
-      * Par défaut, l’ajout d’un utilisateur à un environnement intermédiaire lui donne accès pour afficher le BAT à partir du moment où le BAT est créé.\
-         Votre administrateur Workfront peut empêcher les utilisateurs d’accéder au BAT jusqu’à ce que le workflow entre dans l’étape où l’utilisateur a été ajouté.
+      > 
+      >Tenez compte des points suivants lors de l’ajout de réviseurs à une étape :
+      >
+      >* Vous pouvez ajouter des utilisateurs externes à une étape avec une adresse électronique.
+      >* Après avoir ajouté un utilisateur à une étape, vous pouvez configurer les paramètres de cet utilisateur sur le BAT.
+      >* Vous pouvez faire glisser les utilisateurs directement vers une autre étape, ou vous pouvez faire glisser les utilisateurs vers une étape de la **Phases** diagramme. Pour sélectionner plusieurs utilisateurs, appuyez sur Maj+Ctrl (sous Windows) ou Maj+Commande (sous Mac).
+      >* Vous ne pouvez ajouter un validant qu&#39;une seule fois à un BAT, ce qui signifie que vous ne pouvez pas ajouter la même personne à plusieurs étapes du BAT.
+      >* Les réviseurs qui ne sont pas ajoutés à une scène privée ne peuvent pas voir cette scène sur le BAT ou les commentaires faits à cette étape.
+      >* Par défaut, l’ajout d’un utilisateur à un environnement intermédiaire lui donne accès pour afficher le BAT à partir du moment où le BAT est créé.\
+      >   Votre administrateur Workfront peut empêcher les utilisateurs d’accéder au BAT jusqu’à ce que le workflow entre dans l’étape où l’utilisateur a été ajouté.
 
 
    1. Cliquez sur **Paramètres d’évaluation**.

@@ -68,30 +68,22 @@ Le [!UICONTROL SOAP] module est actuellement en version bêta et ne prend pas en
 >  
 >Les éléments suivants ne seraient pas correctement reconnus par [!UICONTROL Workfront Fusion]:
 >
->
-```
+>```
 ><complexType name="ArrayOfFloat">
 >
->   
-  <complexContent>
+>   <complexContent>
 >
->      
-     <restriction base="soapenc:Array">
+>      <restriction base="soapenc:Array">
 >
->         
-        <attribute ref="soapenc:arrayType"
+>         <attribute ref="soapenc:arrayType"
 >
->            
-           wsdl:arrayType="xsd:integer[]"/>
+>            wsdl:arrayType="xsd:integer[]"/>
 >
->      
-     </restriction>
+>      </restriction>
 >
->   
-  </complexContent>
+>   </complexContent>
 >
->
-</complexType>
+></complexType>
 >```
 
 Il comprend la variable `soapenc:Array`, `soapenc:arrayType` et `wsdl:arrayType` les références qui ne sont pas encore prises en charge dans [!UICONTROL Workfront Fusion].

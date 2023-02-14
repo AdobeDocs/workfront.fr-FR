@@ -220,10 +220,10 @@ Voir aussi [Notifications : Demandes que j’ai faites](../../../workfront-basic
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Ajout de document à une demande de bureau d'aide - Envoi au créateur du problème</p> </td> 
-   <td> <p>Un document est modifié ou téléchargé sur un problème pour lequel je suis le contact principal.</p> <p>Le contact Principal du problème reçoit une notification par e-mail lorsqu’un document est téléchargé ou modifié sur le problème, sauf si l’utilisateur qui a téléchargé ou modifié le document est également le contact Principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente . &lt;!— BROUILLÉ DANS FLARE : Pour plus d’informations sur la publication d’un projet en tant que file d’attente des demandes d’aide, voir 
+   <td> <p>Un document est modifié ou téléchargé sur un problème pour lequel je suis le contact principal.</p> <p>Le contact Principal du problème reçoit une notification par e-mail lorsqu’un document est téléchargé ou modifié sur le problème, sauf si l’utilisateur qui a téléchargé ou modifié le document est également le contact Principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente . <!-- BROUILLÉ DANS FLARE : Pour plus d’informations sur la publication d’un projet en tant que file d’attente des demandes d’aide, voir 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Présentation de l’onglet Détails de la file d’attente dans un projet</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
@@ -429,10 +429,10 @@ Voir aussi [Notifications : Informations sur le travail qui m&#39;est assigné](
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Ajout de document à une demande de bureau d'aide - Envoi à la personne chargée du problème</p> </td> 
-   <td> <p>Les documents sont téléchargés ou modifiés à ma demande.</p> <p>La personne désignée pour le problème reçoit une notification par courrier électronique lorsque des documents sont chargés ou modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par courrier électronique n’est pas envoyée si l’utilisateur qui a participé au problème est la personne désignée pour le problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .&lt;!— BROUILLÉ DANS FLARE : Pour plus d’informations sur la publication d’un projet en tant que file d’attente des demandes d’aide, voir 
+   <td> <p>Les documents sont téléchargés ou modifiés à ma demande.</p> <p>La personne désignée pour le problème reçoit une notification par courrier électronique lorsque des documents sont chargés ou modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par courrier électronique n’est pas envoyée si l’utilisateur qui a participé au problème est la personne désignée pour le problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .<!-- BROUILLÉ DANS FLARE : Pour plus d’informations sur la publication d’un projet en tant que file d’attente des demandes d’aide, voir 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Présentation de l’onglet Détails de la file d’attente dans un projet</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 

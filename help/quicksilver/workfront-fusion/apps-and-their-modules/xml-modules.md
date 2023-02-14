@@ -96,32 +96,32 @@ Le [!UICONTROL XML] > [!UICONTROL Parse XML] module analyse un texte au format X
 >
 >1. Cliquez sur **[!UICONTROL OK]**&#x200B; enregistrer et fermer la configuration du module.
 1. Ajouter [!UICONTROL XML] > [!UICONTROL Parse XML] , connectez-la après la fonction [!UICONTROL HTTP] > [!UICONTROL Obtention d’un fichier] et configurez-le comme suit :
-<table style="table-layout:auto"> 
-&gt;    <col> 
-&gt;    <col> 
-&gt;    <tbody> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL Structure de données]</td> 
-&gt;      <td> 
-&gt;       <ol> 
-&gt;        <li value="1">Cliquez sur le bouton <strong>[!UICONTROL Ajouter]</strong> bouton .</li> 
-&gt;        <li value="2">Cliquez sur le bouton <strong>[!UICONTROL Generator]</strong> bouton .</li> 
-&gt;        <li value="3">Dans votre navigateur web, ouvrez un nouvel onglet ou une nouvelle fenêtre.</li> 
-&gt;        <li value="4">Insérez l’URL que vous avez utilisée à la troisième étape dans la barre d’adresse et récupérez le fichier XML.</li> 
-&gt;        <li value="5">Sélectionnez tout le texte XML et copiez-le dans le Presse-papiers.</li> 
-&gt;        <li value="6">Fermez l’onglet ou la fenêtre et revenez à votre scénario.</li> 
-&gt;        <li value="7">Collez le texte XML copié dans le champ Exemple de données .</li> 
-&gt;        <li value="8">Cliquez sur <strong>[!UICONTROL Enregistrer]</strong>.</li> 
-&gt;        <li value="9">Vérifiez que la structure de données a bien été générée.</li> 
-&gt;        <li value="10">Cliquez sur <strong>[!UICONTROL Enregistrer]</strong> pour enregistrer la structure de données.</li> 
-&gt;       </ol> <p>Vous pouvez ignorer les étapes 2 à 9 pour fournir une structure de données vide. Si la structure de données est vide, la sortie du module n’est pas disponible dans le panneau de mappage tant que le module n’a pas été exécuté au moins une fois.</p> </td> 
-&gt;     </tr> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL XML]</td> 
-&gt;      <td> <p>Faites correspondre la variable <code>Data </code>à partir de la sortie du module [!UICONTROL HTTP] &gt; [!UICONTROL Obtenir un fichier] dans le champ . Utilisez la variable <code>toString()</code> pour convertir sa valeur du type de données [!UICONTROL Buffer] (données binaires) en type de données [!UICONTROL Texte] .</p> <p>Vous pouvez copier et coller le code de la formule dans le champ : <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Pour plus d’informations sur les types de données de mémoire tampon et de texte, voir <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Types de données d’élément dans Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
-&gt;     </tr> 
-&gt;    </tbody> 
-&gt;   </table>
+><table style="table-layout:auto"> 
+>    <col> 
+>    <col> 
+>    <tbody> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL Structure de données]</td> 
+>      <td> 
+>       <ol> 
+>        <li value="1">Cliquez sur le bouton <strong>[!UICONTROL Ajouter]</strong> bouton .</li> 
+>        <li value="2">Cliquez sur le bouton <strong>[!UICONTROL Generator]</strong> bouton .</li> 
+>        <li value="3">Dans votre navigateur web, ouvrez un nouvel onglet ou une nouvelle fenêtre.</li> 
+>        <li value="4">Insérez l’URL que vous avez utilisée à la troisième étape dans la barre d’adresse et récupérez le fichier XML.</li> 
+>        <li value="5">Sélectionnez tout le texte XML et copiez-le dans le Presse-papiers.</li> 
+>        <li value="6">Fermez l’onglet ou la fenêtre et revenez à votre scénario.</li> 
+>        <li value="7">Collez le texte XML copié dans le champ Exemple de données .</li> 
+>        <li value="8">Cliquez sur <strong>[!UICONTROL Enregistrer]</strong>.</li> 
+>        <li value="9">Vérifiez que la structure de données a bien été générée.</li> 
+>        <li value="10">Cliquez sur <strong>[!UICONTROL Enregistrer]</strong> pour enregistrer la structure de données.</li> 
+>       </ol> <p>Vous pouvez ignorer les étapes 2 à 9 pour fournir une structure de données vide. Si la structure de données est vide, la sortie du module n’est pas disponible dans le panneau de mappage tant que le module n’a pas été exécuté au moins une fois.</p> </td> 
+>     </tr> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL XML]</td> 
+>      <td> <p>Faites correspondre la variable <code>Data </code>à partir de la sortie du module [!UICONTROL HTTP] &gt; [!UICONTROL Obtenir un fichier] dans le champ . Utilisez la variable <code>toString()</code> pour convertir sa valeur du type de données [!UICONTROL Buffer] (données binaires) en type de données [!UICONTROL Texte] .</p> <p>Vous pouvez copier et coller le code de la formule dans le champ : <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Pour plus d’informations sur les types de données de mémoire tampon et de texte, voir <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Types de données d’élément dans Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
+>     </tr> 
+>    </tbody> 
+>   </table>
 
 
 ## [!UICONTROL Analyse des attributs XML]
@@ -181,26 +181,30 @@ Le [!UICONTROL XML] > [!UICONTROL Créer du XML] convertit un lot en texte au fo
 </table>
 
 >[!INFO]
-**Exemple:**
-Un cas d’utilisation type consiste à transformer des données d’une [!DNL Google] >feuille de calcul au format XML.
-1. Placez le [!DNL Google Sheets] > [!UICONTROL Sélectionner des lignes] dans votre scénario pour récupérer les données. Configurez le module pour récupérer les lignes de votre [!DNL Google] feuille de calcul. Définissez la &#x200B;**[!UICONTROL Nombre maximal de lignes renvoyées]** à un petit nombre, mais plus grand qu’un à des fins de test (par exemple, trois). Exécutez le [!DNL Google Sheets] en cliquant dessus avec le bouton droit et en choisissant &quot;**[!UICONTROL Exécuter ce module uniquement]**.&quot; Vérifiez la sortie du module.
-1. Connectez-vous au [!UICONTROL Agrégateur de tableau] après l’événement [!DNL Google Sheets] module . Dans la configuration du module, sélectionnez la variable [!DNL Google Sheets] du module **[!UICONTROL Noeud source]** champ . Laissez les autres champs tels quels pour le moment.
-1. Connectez-vous au [!UICONTROL XML] > [!UICONTROL Créer du XML] après l’événement [!UICONTROL Agrégateur de tableau] module .
-   La configuration du module nécessite une structure de données qui décrit la structure de la sortie XML. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour ouvrir la configuration de la structure de données. La méthode la plus simple pour créer cette structure de données consiste à la générer automatiquement à partir d’un exemple XML.
-1. Cliquez sur le bouton **[!UICONTROL Générateur]** et collez votre exemple XML dans le [!UICONTROL Exemples de données] field :
-
-![](assets/sample-data-field-350x146.png)
-1. Cliquer sur **[!UICONTROL Enregistrer]**. Le champ Spécification de la structure de données contient désormais la structure générée.
-1. Remplacez le nom de votre structure de données par un nom plus spécifique, puis cliquez sur **[!UICONTROL Enregistrer]**. Un champ correspondant à l’attribut de tableau racine apparaît comme champ mappable dans la configuration du module JSON.
-1. Cliquez sur le bouton **[!UICONTROL Carte]** en regard du champ et mappez le `Array[]` de l’élément [!UICONTROL Agrégateur de tableau] en sortie :
-1. Cliquez sur **[!UICONTROL OK]** pour fermer la configuration du module XML.
-1. Ouvrez la configuration du [!UICONTROL Agrégateur de tableau] module . Modifiez la variable **[!UICONTROL Structure cible]** de Personnalisé au champ d’un module XML correspondant à l’élément XML parent. Mappez les éléments de la variable [!DNL Google Sheets] aux champs appropriés.
-1. Cliquez sur **[!UICONTROL OK]** pour fermer la configuration du module d’agrégation de tableaux.
-1. Exécutez le scénario.
-
-   Le module XML génère le fichier XML correct.
-1. Ouvrez la configuration du [!DNL Google Sheets] et augmentez la variable [!UICONTROL Nombre maximal de lignes renvoyées] pour traiter toutes les données.
-   Le fichier XML obtenu peut être enregistré dans [!DNL Dropbox], envoyé en tant que pièce jointe par courrier électronique, téléchargé via FTP sur un serveur, etc.
+>
+>**Exemple:**
+>Un cas d’utilisation type consiste à transformer des données d’une [!DNL Google] >feuille de calcul au format XML.
+>1. Placez le [!DNL Google Sheets] > [!UICONTROL Sélectionner des lignes] dans votre scénario pour récupérer les données. Configurez le module pour récupérer les lignes de votre [!DNL Google] feuille de calcul. Définissez la &#x200B;**[!UICONTROL Nombre maximal de lignes renvoyées]** à un petit nombre, mais plus grand qu’un à des fins de test (par exemple, trois). Exécutez le [!DNL Google Sheets] en cliquant dessus avec le bouton droit et en choisissant &quot;**[!UICONTROL Exécuter ce module uniquement]**.&quot; Vérifiez la sortie du module.
+>1. Connectez-vous au [!UICONTROL Agrégateur de tableau] après l’événement [!DNL Google Sheets] module . Dans la configuration du module, sélectionnez la variable [!DNL Google Sheets] du module **[!UICONTROL Noeud source]** champ . Laissez les autres champs tels quels pour le moment.
+>1. Connectez-vous au [!UICONTROL XML] > [!UICONTROL Créer du XML] après l’événement [!UICONTROL Agrégateur de tableau] module .
+>   La configuration du module nécessite une structure de données qui décrit la structure de la sortie XML. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour ouvrir la configuration de la structure de données. La méthode la plus simple pour créer cette structure de données consiste à la générer automatiquement à partir d’un exemple XML.
+>1. Cliquez sur le bouton **[!UICONTROL Générateur]** et collez votre exemple XML dans le [!UICONTROL Exemples de données] field :
+>
+>    ![](assets/sample-data-field-350x146.png)
+>
+>1. Cliquer sur **[!UICONTROL Enregistrer]**. Le champ Spécification de la structure de données contient désormais la structure générée.
+>1. Remplacez le nom de votre structure de données par un nom plus spécifique, puis cliquez sur **[!UICONTROL Enregistrer]**. Un champ correspondant à l’attribut de tableau racine apparaît comme champ mappable dans la configuration du module JSON.
+>1. Cliquez sur le bouton **[!UICONTROL Carte]** en regard du champ et mappez le `Array[]` de l’élément [!UICONTROL Agrégateur de tableau] en sortie :
+>1. Cliquez sur **[!UICONTROL OK]** pour fermer la configuration du module XML.
+>1. Ouvrez la configuration du [!UICONTROL Agrégateur de tableau] module . Modifiez la variable **[!UICONTROL Structure cible]** de Personnalisé au champ d’un module XML correspondant à l’élément XML parent. Mappez les éléments de la variable [!DNL Google Sheets] aux champs appropriés.
+>1. Cliquez sur **[!UICONTROL OK]** pour fermer la configuration du module d’agrégation de tableaux.
+>1. Exécutez le scénario.
+>
+>   Le module XML génère le fichier XML correct.
+>
+>1. Ouvrez la configuration du [!DNL Google Sheets] et augmentez la variable [!UICONTROL Nombre maximal de lignes renvoyées] pour traiter toutes les données.
+>
+>   Le fichier XML obtenu peut être enregistré dans [!DNL Dropbox], envoyé en tant que pièce jointe par courrier électronique, téléchargé via FTP sur un serveur, etc.
 
 
 ## Ajout d’attributs XML
