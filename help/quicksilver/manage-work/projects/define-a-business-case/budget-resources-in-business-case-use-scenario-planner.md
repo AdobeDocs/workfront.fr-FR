@@ -5,14 +5,18 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: ffd7a588c0c9449b7a6aa18e6df7baa7c9872926
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Budget des ressources dans l’analyse de cas à l’aide du planificateur de scénario
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de scénario Adobe Workfront pour planifier les rôles de tâche nécessaires à l’exécution du travail dans un projet lorsque vous créez l’analyse de cas.
 
@@ -126,15 +130,19 @@ Vous pouvez répartir vos ressources sur une période de 15 ans. Si vous planifi
 
       ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
-      Workfront utilise les heures de rôle requises de l’initiative liée pour calculer le coût de la main-d’oeuvre budgétisée du projet. Il s’agit de l’option recommandée. Le coût s’affiche dans l’Analyse de cas dans la devise du projet.
+      Workfront utilise les heures de rôle requises de l’initiative liée pour calculer le coût de la main-d’oeuvre et les heures budgétisées du projet. Il s’agit de l’option recommandée. Le coût s’affiche dans l’Analyse de cas dans la devise du projet.
 
-      >[!IMPORTANT]
-      Lorsque vous utilisez le planificateur de scénario pour budgétiser les ressources du projet, le coût de la main-d’oeuvre budgétisée s’affiche dans les zones suivantes de Workfront :
-      * Budget des ressources de l’analyse de cas
-      * Le planificateur de scénario au niveau du système en tant que coût du personnel de l’initiative liée au projet. Pour plus d’informations, voir [Créer et modifier des initiatives dans le planificateur de scénarios](../../../scenario-planner/create-and-edit-initiatives.md).
+      <!--drafted for Budgeted Hours:
+   <span class="preview">Lorsque vous copiez un projet et que vous choisissez de copier les Heures budgétées dans le nouveau projet, les heures budgétées à l’aide du planificateur de scénario ne sont pas copiées dans le nouveau projet. Seules les heures budgétées dans le planificateur de ressources sont copiées. Pour plus d’informations, voir [Copier un projet](../manage-projects/copy-project.md)</span>
+—>
+
+   >[!IMPORTANT]
+   Lorsque vous utilisez le planificateur de scénario pour budgétiser les ressources du projet, le coût de la main-d’oeuvre budgétisée s’affiche dans les zones suivantes de Workfront :
+   * Budget des ressources de l’analyse de cas
+   * Le planificateur de scénario au niveau du système en tant que coût du personnel de l’initiative liée au projet. Pour plus d’informations, voir [Créer et modifier des initiatives dans le planificateur de scénarios](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
-1. (Facultatif) Cliquez sur **Afficher dans le planificateur de scénarios** pour ouvrir le plan contenant l’initiative liée au projet. Le planificateur de scénario s’ouvre alors dans un nouvel onglet du navigateur.
+1. (Facultatif) Cliquez sur **Afficher dans le planificateur de scénarios** pour ouvrir le plan contenant l’initiative liée au projet. Le planificateur de scénario s’ouvre alors dans un nouvel onglet du navigateur.
 1. (Facultatif) Mettez à jour les informations sur l’initiative. Pour plus d’informations, voir [Créer et modifier des initiatives dans le planificateur de scénarios](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
