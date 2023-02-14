@@ -8,9 +8,9 @@ description: Adobe Workfront for G Suite vous connecte à votre travail le plus 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 66b7d2fa6d6ee2e1c7f096382b183c7ea4e479c4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Ces instructions expliquent comment gérer [!DNL Workfront] sans quitter [!DNL G
 
 * [Accès [!DNL Adobe Workfront] Contenu d’accueil de [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
 * [Mettre à jour une [!DNL Adobe Workfront] objet de [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-* [Affichage et gestion des documents à partir de [!DNL G Suite]e](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+* [Affichage et gestion de documents à partir de [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
 * [Affichage et gestion [!DNL Adobe Workfront] détails de l’objet depuis [!UICONTROL Suite G]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
 * [Affichage [!DNL Adobe Workfront] mises à jour d’objet à partir de [!UICONTROL Suite G]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
