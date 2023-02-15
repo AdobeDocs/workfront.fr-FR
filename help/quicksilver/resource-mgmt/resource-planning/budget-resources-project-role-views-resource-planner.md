@@ -6,9 +6,9 @@ description: Vous pouvez budgéter les ressources dans le planificateur de resso
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
    Pour plus d’informations sur la compréhension de la section Ressource/Budget de l’Analyse de cas, reportez-vous à la section &quot;Ressource/Budget&quot; de l’article [Présentation des domaines de l’analyse de cas](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Facultatif) Sélectionnez la vue Utilisateur pour signaler toute suraffectation ou sous-utilisation de l’utilisateur entre les Heures disponibles et les Heures planifiées pour chaque utilisateur. Les heures budgétisées ne sont pas visibles dans la vue Utilisateur.
+
+   Pour plus d’informations sur la façon dont Workfront calcule la disponibilité d’un utilisateur, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Ressources de budget dans la vue Rôle {#budget-resources-in-the-role-view}
 

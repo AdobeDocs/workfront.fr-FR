@@ -6,9 +6,9 @@ description: En tant que gestionnaire de ressources, vous pouvez affecter du tra
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,12 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
       >Lorsque ce paramètre est activé, la modification des attributions réduit le nombre total dans la ligne utilisateur.
 
    1. **Projet** dans le **Sélectionner le thème de couleur** . Cela permet d’afficher chaque projet et ses tâches respectives dans des couleurs uniques et facilite la compréhension des éléments appartenant au projet.
-   1. **Pourcentage** dans le **Afficher l’affectation des utilisateurs dans** . Cette valeur affiche les allocations sous la forme d’une valeur en pourcentage. La capacité de l’utilisateur selon son planning est considérée comme étant de 100 %. Par exemple, si un utilisateur est associé à un planning de 8 heures par jour, 8 heures équivaut à une capacité de 100 %. Si vous souhaitez affecter l’utilisateur au travail 4 heures par jour, vous devez mettre à jour son allocation à 50 %.
+   1. **Pourcentage** dans le **Afficher l’affectation des utilisateurs dans** . Cette valeur affiche les allocations sous la forme d’une valeur en pourcentage. La capacité de l’utilisateur selon le planning est considérée comme étant de 100 %. Par exemple, si un utilisateur est associé à un planning de 8 heures par jour, 8 heures équivaut à une capacité de 100 %. Si vous souhaitez affecter l’utilisateur au travail 4 heures par jour, vous devez mettre à jour son allocation à 50 %.
+
+      >[!NOTE]
+      >
+      >L’administrateur de Workfront décide de la planification à utiliser sur l’ensemble de votre système pour calculer la capacité de l’utilisateur dans la zone Gestion des ressources de la configuration. Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
 
 1. Cliquez sur le bouton **Plus** menu ![](assets/qs-more-menu.png) pour un élément de travail, puis cliquez sur **Modifier les attributions**.
 

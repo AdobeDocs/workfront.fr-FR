@@ -6,7 +6,7 @@ description: En tant que gestionnaire de ressources, vous pouvez utiliser l’é
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: d6516c0d7b92172ebe10c9f219c9c0ff8d614167
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -14,6 +14,10 @@ ht-degree: 0%
 ---
 
 # Présentation de l’affectation de travail dans l’équilibreur de charge de travail
+
+<!--drafted for Work Time story:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
 
 En tant que gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les tâches qui n’ont pas encore été affectées aux utilisateurs et leur affecter ces éléments.
 
@@ -47,6 +51,9 @@ Workfront utilise les informations suivantes pour calculer la capacité de l’u
 * Le temps de congé de l’utilisateur. Cela indique les jours que l’utilisateur prévoit de décoller.
 
    Pour plus d’informations, voir [Configuration du temps de pause personnel dans Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+<!--drafted for Work Time: 
+* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
 
 ## Affecter un travail dans l’équilibreur de charge
 

@@ -6,9 +6,9 @@ description: Vous pouvez créer des plans dans le cadre de l’utilisation du pl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2402'
 ht-degree: 1%
 
 ---
@@ -127,12 +127,14 @@ Pour créer ou modifier un plan :
       <td role="rowheader"><span>ETR ([!UICONTROL équivalent temps plein]) ou [!UICONTROL Hours]</span> </td> 
       <td> <p><span>Sélectionnez l’une des options suivantes pour indiquer comment estimer les informations sur les rôles de tâche pour ce plan :</span> </p> 
        <ul> 
-        <li> <p><span><strong>FTE</strong>. Il s’agit de la valeur par défaut </span> </p> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>
-         --> <p>Pour tous les calculs dans la variable [!DNL Scenario Planner], [!DNL Workfront] utilise la valeur suivante : 1 ETR = 8 heures. </p> </li> 
-        <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
-       </ul> <p>Important : <span>L’option que vous sélectionnez ici détermine l’affichage des informations sur les rôles d’emploi pour le plan, les scénarios du plan et les initiatives.</span> </p> </td> 
-     </tr> 
+      <li> <p><span><strong>FTE</strong>. Il s’agit de la valeur par défaut </span> </p> 
+      <p><b>IMPORTANT</b></p>  
+      <p>Pour tous les calculs dans la variable [!DNL Scenario Planner], [!DNL Workfront] utilise la valeur suivante : 1 ETR = 8 heures. </p> </li> 
+      <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
+       </ul> <p><b>IMPORTANT</b></p>
+
+   L’option que vous sélectionnez ici détermine l’affichage des informations sur les rôles de tâche pour le plan, les scénarios du plan et les initiatives.</p> </td>
+   </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Date de début]</td> 
       <td> <p>Sélectionnez le mois et l'année auxquels le plan doit commencer. Vous ne pouvez sélectionner que les mois dans ce champ. [!DNL Workfront] suppose que la date de début du forfait est le premier jour du mois sélectionné et que la date de fin est le dernier jour de fin du mois de sa durée. </p> </td> 
@@ -148,6 +150,8 @@ Pour créer ou modifier un plan :
      </tr> 
     </tbody> 
    </table>
+
+<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Suivant]**.
 

@@ -6,9 +6,9 @@ description: Lorsque vous utilisez le planificateur de scénario Adobe Workfront
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,18 @@ Pour créer des initiatives à partir de zéro :
      </tr> 
      <tr> 
       <td role="rowheader">Section Rôles de tâche requis </td> 
-      <td> <p>Cliquez sur le bouton <strong>[!UICONTROL Commencer à saisir le rôle de tâche]</strong> et sélectionner un rôle dans la liste ou commencer à saisir le nom d’un<span>n principal</span> rôle de tâche. </p> <p><span>Selon que le plan est configuré pour utiliser des EPF ou des heures,</span> ajouter le nombre de rôles requis pour cette initiative dans l’éditeur de texte enrichi <span><span>ou heures</span></span><span> pour chaque mois de l’initiative</span>. <span>Les trois premiers mois de l’initiative s’affichent par défaut.</span></p> <p><span>La mise à jour des informations sur les rôles de tâche pour l’initiative met également à jour les informations sur les rôles de tâche requis pour le plan.</span> </p> <p>Pour plus d’informations sur la configuration du plan d’utilisation de l’éditeur de texte enrichi ou des heures, voir <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créez et modifiez des plans dans le [!DNL Scenario Planner]</a>. </p> <p>Conseil :  
-        <ul> 
-         <li> <p><span>Utilisez la touche [!UICONTROL] pour passer au mois suivant.</span> </p> </li> 
-         <li> <p> Tous <span>principal</span> les rôles de tâche dans le système sont répertoriés lorsque vous cliquez sur ce champ. </p> </li> 
-         <li> <p>Les rôles de tâche qui ont déjà été ajoutés aux rôles de tâche Disponible du plan s’affichent en premier. Pour plus d’informations sur l’ajout de rôles de tâche disponibles à un plan, voir <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
-         <li> <p>[!DNL Workfront] considère qu’un équivalent temps plein est de 160 heures pour un mois. </p> </li> 
-        </ul> </p> <p>Vous pouvez saisir un nombre inférieur à 1 ETR ou des nombres décimaux pour l’ETR. <span>ou</span> <span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">heures</span>. Par exemple, un rôle de consultant 0,5 signifie qu’un consultant consacrerait la moitié de son EPT (généralement, 4 heures, où 8 heures équivaut à 1 EPT) à travailler sur cette initiative. </p> <p>Pour tous les calculs dans le planificateur de scénario, Workfront utilise la valeur suivante : 1 ETR = 8 heures. </p> </td> 
+      <td> <p>Cliquez sur le bouton <strong>[!UICONTROL Commencer à saisir le rôle de tâche]</strong> et sélectionner un rôle dans la liste ou commencer à saisir le nom d’un<span>n principal</span> rôle de tâche. </p> <p><span>Selon que le plan est configuré pour utiliser des EPF ou des heures,</span> ajouter le nombre de rôles requis pour cette initiative dans l’éditeur de texte enrichi <span><span>ou heures</span></span><span> pour chaque mois de l’initiative</span>. <span>Les trois premiers mois de l’initiative s’affichent par défaut.</span></p> <p><span>La mise à jour des informations sur les rôles de tâche pour l’initiative met également à jour les informations sur les rôles de tâche requis pour le plan.</span> </p> <p>Pour plus d’informations sur la configuration du plan d’utilisation de l’éditeur de texte enrichi ou des heures, voir <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créez et modifiez des plans dans le [!DNL Scenario Planner]</a>. </p>
+      <p><b>IMPORTANT</b></p>  
+      <p>Pour tous les calculs dans la variable [!DNL Scenario Planner], [!DNL Workfront] utilise la valeur suivante : 1 ETR = 8 heures. </p>
+
+   <p><b>CONSEIL</b></p>
+
+   <ul> 
+       <li> <p><span>Utilisez la touche [!UICONTROL] pour passer au mois suivant.</span> </p> </li> 
+      <li> <p> Tous <span>principal</span> les rôles de tâche dans le système sont répertoriés lorsque vous cliquez sur ce champ. </p> </li> 
+       <li> <p>Les rôles de tâche qui ont déjà été ajoutés aux rôles de tâche Disponible du plan s’affichent en premier. Pour plus d’informations sur l’ajout de rôles de tâche disponibles à un plan, voir <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] considère qu’un équivalent temps plein est de 160 heures pour un mois. </p> <p>Pour tous les calculs dans le planificateur de scénario, Workfront utilise la valeur suivante : 1 ETR = 8 heures. </p></li> 
+      </ul> </p> <p>Vous pouvez saisir un nombre inférieur à 1 ETR ou des nombres décimaux pour l’ETR. <span>ou</span> <span>heures</span>. Par exemple, un rôle de consultant 0,5 signifie qu’un consultant consacrerait la moitié de son EPT (généralement, 4 heures, où 8 heures équivaut à 1 EPT) à travailler sur cette initiative. </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">Section Coûts</td> 

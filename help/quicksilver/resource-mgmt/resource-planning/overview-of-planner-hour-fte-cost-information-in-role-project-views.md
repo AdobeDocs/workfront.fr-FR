@@ -7,9 +7,9 @@ description: Vue d’ensemble des heures, de l’éditeur de texte enrichi et de
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,8 @@ Les tableaux suivants affichent les informations d’allocation et de disponibil
      <li>heures budgétisées pour d’autres projets. </li> 
     </ul> <p>La modification des heures disponibles, de l’éditeur de texte enrichi ou du coût pour un utilisateur s’effectue comme suit : </p> 
     <ul> 
-     <li>la façon dont leur planification et leur ETR sont calculés en fonction des préférences de gestion des ressources au niveau du système.<br>Pour plus d’informations sur le calcul de la disponibilité des utilisateurs et des rôles de tâche, consultez l’article . <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources</a>.</li> 
+     <li>la façon dont leur planification et leur ETR sont calculés en fonction des préférences de gestion des ressources au niveau du système.<br><p>Pour plus d’informations sur le calcul de la disponibilité des utilisateurs et des rôles de tâche, consultez l’article . <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources</a>.</p>
+     Pour plus d’informations sur la configuration des préférences de gestion des ressources dans Workfront, voir <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configuration des préférences de gestion des ressources</a></li> 
     </ul> 
     <ul> 
      <li>la valeur <strong>Priorité de la planification des projets</strong>, si l’utilisateur a un budget prévu pour le travail.<br>Pour plus d’informations sur la façon dont la priorité de planification des projets affecte les heures disponibles d’un utilisateur, voir <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Présentation de la navigation de Resource Planner </a>. </li> 
@@ -135,6 +136,8 @@ Les tableaux suivants affichent les informations d’allocation et de disponibil
   </tr> 
  </tbody> 
 </table>
+
+
 
 ### Colonne PLN (planifiée) {#the-pln-planned-column}
 
@@ -303,7 +306,7 @@ Tenez compte des points suivants lorsque vous utilisez des heures budgétées :
       <li> <p>Différence entre le temps ou le coût disponible et le temps ou le coût budgété du rôle :</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>La différence entre l’heure ou le coût disponible et l’heure ou le coût planifié du rôle, lorsque les valeurs Utiliser le planifié (PLN) dans le paramètre de calcul NET sont activées :</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>CONSEIL</b> <span>
 
-Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la section Afficher les éléments sélectionnés .</span> </p> <p><span>Pour plus d’informations, voir</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.</a> </p> </li>
+Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la section Afficher les éléments sélectionnés .</span> </p> <p><span>Pour plus d’informations, voir </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -316,7 +319,7 @@ Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la
       <li> <p>La différence entre l'heure ou le coût disponible et l'heure ou le coût budgété pour l'utilisateur :</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>La différence entre l’heure ou le coût disponible et l’heure ou le coût planifié de l’utilisateur, lorsque le paramètre Utiliser les valeurs planifiées (PLN) dans les calculs NET est activé :</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>CONSEIL</b> <span>
 
-Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la section Afficher les éléments sélectionnés .</span> </p> <p><span>Pour plus d’informations, voir</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.</a> </p> </li>
+Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la section Afficher les éléments sélectionnés .</span> </p> <p><span>Pour plus d’informations, voir </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
