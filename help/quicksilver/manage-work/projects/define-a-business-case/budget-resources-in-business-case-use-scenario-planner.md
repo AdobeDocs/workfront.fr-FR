@@ -134,16 +134,19 @@ Vous pouvez répartir vos ressources sur une période de 15 ans. Si vous planifi
 
       <!--drafted for Budgeted Hours:
    <span class="preview">Lorsque vous copiez un projet et que vous choisissez de copier les Heures budgétées dans le nouveau projet, les heures budgétées à l’aide du planificateur de scénario ne sont pas copiées dans le nouveau projet. Seules les heures budgétées dans le planificateur de ressources sont copiées. Pour plus d’informations, voir [Copier un projet](../manage-projects/copy-project.md)</span>
-—>
+-->
 
    >[!IMPORTANT]
-   Lorsque vous utilisez le planificateur de scénario pour budgétiser les ressources du projet, le coût de la main-d’oeuvre budgétisée s’affiche dans les zones suivantes de Workfront :
-   * Budget des ressources de l’analyse de cas
-   * Le planificateur de scénario au niveau du système en tant que coût du personnel de l’initiative liée au projet. Pour plus d’informations, voir [Créer et modifier des initiatives dans le planificateur de scénarios](../../../scenario-planner/create-and-edit-initiatives.md).
+   >
+   >Lorsque vous utilisez le planificateur de scénario pour budgétiser les ressources du projet, le coût de la main-d’oeuvre budgétisée s’affiche dans les zones suivantes de Workfront :
+   >
+   >* Budget des ressources de l’analyse de cas
+   >* Le planificateur de scénario au niveau du système en tant que coût du personnel de l’initiative liée au projet. Pour plus d’informations, voir [Créer et modifier des initiatives dans le planificateur de scénarios](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. (Facultatif) Cliquez sur **Afficher dans le planificateur de scénarios** pour ouvrir le plan contenant l’initiative liée au projet. Le planificateur de scénario s’ouvre alors dans un nouvel onglet du navigateur.
 1. (Facultatif) Mettez à jour les informations sur l’initiative. Pour plus d’informations, voir [Créer et modifier des initiatives dans le planificateur de scénarios](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   Vous devez publier l’initiative après chaque modification de la zone Ressource/Budget sur le projet à mettre à jour.
+   >
+   >Vous devez publier l’initiative après chaque modification de la zone Ressource/Budget sur le projet à mettre à jour.
