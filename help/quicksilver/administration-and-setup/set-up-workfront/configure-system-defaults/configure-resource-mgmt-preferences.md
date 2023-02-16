@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-<!--drafted for Work time field: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 En tant que [!DNL Adobe Workfront] administrateur que vous pouvez configurer [!UICONTROL Gestion des ressources] Préférences pour votre système. Ces préférences déterminent le mode de calcul de l’heure de l’utilisateur, de la disponibilité ou de la capacité de l’éditeur de texte enrichi pour la variable [!DNL Workfront] outils de planification et de planification des ressources.
 
@@ -79,26 +79,18 @@ Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s�
  </tbody> 
 </table>
 
-<!--drafted for Work time field: 
+## Informations prises en compte lors du calcul de la capacité d’un utilisateur
 
-## Information taken into account when calculating user's capacity
+Lors du calcul de la capacité d’un utilisateur, Workfront prend en compte les informations suivantes :
 
-When calculating a user's capacity, Workfront takes into account the following information:
-
-* The number of scheduled hours, as defined in either the Schedule of the user or the Workfront system's [!UICONTROL Default Schedule]
-* [!UICONTROL Schedule] [!UICONTROL Exceptions] (depending on which [!UICONTROL Schedule] is used, it can be the exceptions of the user's schedule, or those associated with the [!DNL Workfront] [!UICONTROL Default Schedule])
-* User's time off
-* The value of the Full Time Equivalent ([!UICONTROL FTE]) of the user or that of the [!DNL Workfront] system. The [!UICONTROL FTE] equals 1 when the user works full time, as defined in the schedule. 
-
-<!-drafted for Work Time field  
-
-* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time on non-project-related work like meetings or trainings.</span>
-
--->
+* Le nombre d’heures planifiées, tel que défini dans la Planification de l’utilisateur ou dans le [!UICONTROL Planification par défaut]
+* [!UICONTROL Planification] [!UICONTROL Exceptions] (selon le [!UICONTROL Planification] est utilisée, il peut s’agir des exceptions du planning de l’utilisateur ou de celles associées à la variable [!DNL Workfront] [!UICONTROL Planification par défaut])
+* Délai d’interruption de l’utilisateur
+* Valeur de l’équivalent temps plein ([!UICONTROL FTE]) de l’utilisateur ou de celle de la fonction [!DNL Workfront] système. Le [!UICONTROL FTE] est égal à 1 lorsque l’utilisateur travaille à temps plein, comme défini dans le planning.
+* <span class="preview">La valeur de [!UICONTROL Temps de travail] pour l’utilisateur qui fait référence au temps passé par l’utilisateur sur le travail lié au projet. Cela ne comprend pas les temps de travail, comme les réunions et la formation. Le [!UICONTROL Temps de travail] est égal à 1 lorsque l’utilisateur est disponible pour le travail pendant toute la durée indiquée par la variable [!UICONTROL FTE] ou le planning, ce qui signifie qu&#39;ils ne passent pas de temps sur des travaux non liés au projet comme des réunions ou des formations.</span>
 
 Pour plus d’informations sur la planification et la planification des ressources dans [!DNL Workfront], voir [Prise en main de la gestion des ressources](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-—>
 
 ## Configurer [!UICONTROL Gestion des ressources] préférences
 
@@ -118,9 +110,8 @@ Pour plus d’informations sur la planification et la planification des ressourc
 
       Workfront calcule les Heures disponibles d’un utilisateur à l’aide de la formule suivante lorsque l’administrateur de Workfront choisit La [!UICONTROL Planification par défaut]:
 
-      <!--drafted for Work Time field:
-      In the Production environment: 
-      -->
+
+      Dans l’environnement de production :
 
       ```
       User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
@@ -135,11 +126,10 @@ Pour plus d’informations sur la planification et la planification des ressourc
       ```
       >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
       >```
-   <!--drafted for Work Time field
 
       <div class="preview">
-      
-      In the Preview environment: 
+
+      Dans l’environnement Aperçu :
 
       ```
       User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * Work Time
@@ -147,19 +137,19 @@ Pour plus d’informations sur la planification et la planification des ressourc
 
       >[!INFO]
       >
-      >For example, if the Default Schedule is 40 hours a week,  the FTE in the profile of the user is 0.5, the user has 1 hour of Time off one day, and the [!UICONTROL Work Time] in the profile of the user is 0.5, the user is available for actual project work for 9.5 hours a week.
+      >Par exemple, si la planification par défaut est de 40 heures par semaine, l’éditeur de texte enrichi du profil de l’utilisateur est de 0,5, l’utilisateur dispose d’une heure de congé d’un jour et la variable [!UICONTROL Temps de travail] dans le profil de l’utilisateur est 0,5, l’utilisateur est disponible pour un travail réel de projet pendant 9,5 heures par semaine.
       >
-      >If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:
+      >Si l’utilisateur dispose d’une heure de congé un jour, ses Heures disponibles sont calculées comme suit :
       >
-      >```
+      >
+      ```
       >User Available Hours = [(40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours
       >```
 
       </div>
 
-   -->
 
-   <!--      
+      <!--      
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>In the Production environment: (NOTE: this is the old way it was working, before the 22.2 release)</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p>      
       <div class="example" data-mc-autonum="<b>Example: </b>">      
       <span class="autonumber"><span><b>Example: </b></span></span>      
@@ -181,9 +171,8 @@ Pour plus d’informations sur la planification et la planification des ressourc
       >
       >Si l’utilisateur n’est pas associé à un planning, les Heures disponibles pour l’utilisateur sont calculées à l’aide de la variable [!UICONTROL Planification par défaut].
 
-      <!--drafted for Work Time field:
-      In the Production environment: 
-      -->
+      Dans l’environnement de production :
+
 
       Les heures disponibles pour l&#39;utilisateur sont calculées selon la formule suivante :
 
@@ -208,19 +197,17 @@ Pour plus d’informations sur la planification et la planification des ressourc
       >User Weekly Available [!UICONTROL FTE] = (30-2) / 40 = 0.70
       >```
 
-      <!--drafted for Work Time field:
-
       <div class="preview">
 
-      In the Preview environment: 
-      
-      The Available hours for the user is calculated by the following formula:
+      Dans l’environnement Aperçu :
+
+      Les heures disponibles pour l&#39;utilisateur sont calculées selon la formule suivante :
 
       ```
       User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]
-      ```    
+      ```
 
-      The Available [!UICONTROL FTE] for the user is calculated by the following formula:
+      Le [!UICONTROL FTE] pour l’utilisateur est calculé par la formule suivante :
 
       ```
       User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours
@@ -228,14 +215,15 @@ Pour plus d’informations sur la planification et la planification des ressourc
 
       >[!INFO]
       >
-      >For example, if the [!UICONTROL Default Schedule] is 40 hours a week, the schedule of the user is 30 hours a week, and the user's [!UICONTROL Work Time] is 0.5 the [!UICONTROL FTE] of the user is 0.35.
+      >Par exemple, si la variable [!UICONTROL Planification par défaut] est de 40 heures par semaine, le planning de l’utilisateur est de 30 heures par semaine et le [!UICONTROL Temps de travail] est 0,5 ; [!UICONTROL FTE] de l’utilisateur est 0,35.
       >
-      >If the user has 2 hours of Time off one day, their Weekly Available [!UICONTROL FTE] will be calculated as follows:
+      >Si l’utilisateur dispose de 2 heures de pause un jour, son hebdomadaire disponible [!UICONTROL FTE] sera calculé comme suit :
       >
-      >```
+      >
+      ```
       >User Weekly Available FTE = [(30-2) * 0.5] / 40 = 0.35
       >```
-      
+
       </div>
-      -->
+
 1. Cliquer sur **[!UICONTROL Enregistrer]**.

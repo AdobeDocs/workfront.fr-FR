@@ -5,9 +5,9 @@ title: Glossaire [!DNL Adobe Workfront] terminologie
 description: Le [!DNL Adobe Workfront] Le glossaire répertorie les termes fréquemment utilisés dans Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
 workflow-type: tm+mt
-source-wordcount: '18635'
+source-wordcount: '19106'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
-       --> Rapport de projet (données financières) et ajoutez une matrice de groupement pour la [!UICONTROL Date d’attribution], puis regroupez les résultats chaque semaine, chaque mois, chaque trimestre ou chaque année pour obtenir les données les plus précises.<br>Pour plus d'informations sur la création d'un groupement de matrice, consultez l'article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Créer un rapport de matrice</a>.</p> </li> 
+       --> Rapport de projet (données financières) et ajoutez une matrice de groupement pour la [!UICONTROL Date d’attribution], puis regroupez les résultats chaque semaine, chaque mois, chaque trimestre ou chaque année pour obtenir les données les plus précises.<br>Pour plus d'informations sur la création d'un groupement de matrice, reportez-vous à l'article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Créer un rapport de matrice</a>.</p> </li> 
     </ul> <p>Les informations financières sont renseignées dans les rapports [!UICONTROL Project (Financial Data)] uniquement lorsque les données qui y sont associées ont moins de 5 ans. Par exemple, si un rôle de tâche a été attribué à une tâche en janvier 2015 et qu’aujourd’hui est septembre 2021, un champ financier comme la [!UICONTROL Date d’attribution] du rôle de tâche n’est pas renseigné dans le rapport [!UICONTROL Projet (données financières)]. </p> 
     <div> 
      <p>Pour un rapport [!UICONTROL Hour budgétée] :</p> 
@@ -221,12 +221,23 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
   <tr> 
    <td>[!UICONTROL Automatique Et En Changement]</td> 
    <td> <p>Un des types [!UICONTROL Project Update]. Cela recalcule les calendriers Prévu et Prévu du projet lors de l’exécution du processus de recalcul de nuit et lorsqu’une mise à jour est apportée au projet ou aux tâches dans le projet. </p> <p>Pour plus d’informations, voir <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Sélectionnez le type de mise à jour du projet. </a>.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><p>Disponibilité</p></td> 
+   <td> <p>Ce terme est utilisé par rapport à la "disponibilité de l’utilisateur" ou à la "disponibilité de la ressource" et illustre le temps pendant lequel la ressource (utilisateur ou rôle de tâche) est disponible pour fonctionner. </p> 
+   <p>Workfront calcule la disponibilité des utilisateurs à l’aide de plusieurs champs et selon les paramètres des préférences de gestion des ressources de votre système. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configuration des préférences de gestion des ressources</a>. </p>
+   <p>Pour plus d’informations sur la disponibilité des ressources, voir <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Prise en main de la gestion des ressources</a></p>
+   Alternativement, "capacité" est également utilisé pour faire référence à la disponibilité des ressources. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Automatique Uniquement]</td> 
    <td> <p>Un des types [!UICONTROL Project Update]. Cela permet de recalculer les calendriers Prévu et Prévu lors de l’exécution du processus de recalcul de nuit.</p> <p>Pour plus d’informations, voir <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Sélectionnez le type de mise à jour du projet.</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>Travail "Business as usual" qui contribue à la réalisation des Principaux objectifs commerciaux quotidiens.</td> 
   </tr> 
@@ -285,7 +296,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <ul>
    <li><strong>[!UICONTROL Coût budgété]</strong>: dans le panneau [!UICONTROL Business Case Summary]</li>
    <li><strong>Coût [!UICONTROL]</strong>: dans les zones [!UICONTROL Utilisation] lors de l’affichage des informations par [!UICONTROL Cost]</li>
-   <li><strong>[!UICONTROL Coût budgété du projet]</strong>: dans les listes et les rapports</li>
+   <li><strong>[!UICONTROL Coût du projet budgété]</strong>: dans les listes et les rapports</li>
    </ul>   
     <p>Le coût [!UICONTROL budgété] du projet est calculé à l’aide de la formule suivante :</p> 
     <p><code>[!UICONTROL Project Budgeted Cost] (or [!UICONTROL Budgeted Cost]) = [!UICONTROL Budgeted Expense Cost] + [!UICONTROL Budgeted Labor Cost] + [!UICONTROL Fixed Cost] of the project</code> </p> 
@@ -773,11 +784,10 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
      <li>[!UICONTROL Travail calculé]</li> 
      <li>[!UICONTROL Effort piloté]</li> 
      <li>[!UICONTROL Simple]</li> 
-    </ul> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Présentation de la [!UICONTROL Durée de la tâche] et du [!UICONTROL Type de durée]</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-    --> </td> 
-  </tr> 
-  <tr> 
+    </ul> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Présentation de la [!UICONTROL Durée de la tâche] et du [!UICONTROL Type de durée]</a>.</p> 
+    —&gt; </td> 
+   </tr> 
+   <tr> 
    <td>[!UICONTROL Unité de durée]</td> 
    <td>Unité utilisée pour mesurer le temps dans une recherche d’énergie.</td> 
   </tr> 
@@ -858,15 +868,40 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder]</td> 
-   <td>Les dossiers permettent d’organiser les documents ou les rapports associés à un objet.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
-    <td>FTE</td> 
-    <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
-   </tr>
-  --> 
- </tbody> 
-</table>
+   <td>Les dossiers permettent d’organiser les documents ou les rapports associés à un objet.</td> </tr>
+  <tr>
+  <td>ETR (équivalent temps plein)</td> 
+   <td>Il s’agit de l’équivalent temps plein qui indique la durée pendant laquelle une ressource est disponible pour le travail. 
+   Le champ de l’éditeur de texte enrichi s’affiche dans les zones suivantes : 
+  <ul>
+   <li> Profil de l’utilisateur, lors de la modification ou de la création de l’utilisateur </li>
+   <li> Planificateur de ressources </li>
+   <li> Planificateur de scénario (nécessite une licence supplémentaire pour le planificateur de scénario Workfront) </li>
+   <li> Listes et rapports utilisateur </li> </ul>
+
+<p>L’éditeur de texte enrichi doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. </p>
+   <p> Un éditeur de texte enrichi de 1 (qui est la valeur par défaut du champ de l’éditeur de texte enrichi d’un utilisateur, tel que défini dans son profil) signifie qu’une ressource (utilisateur ou rôle) travaille le nombre d’heures complet, selon le planning qui calcule leur disponibilité. </p>
+   <p>Votre administrateur Workfront décide du planning à utiliser pour déterminer la disponibilité de l’utilisateur.  </p>
+   <ul>
+   <li> Lorsque la planification par défaut est utilisée, Workfront utilise l’éditeur de texte enrichi de l’utilisateur qui se trouve dans son profil pour calculer la disponibilité. </li>
+   <li> Lors de l’utilisation de la Planification de l’utilisateur, Workfront utilise le délai de pause de l’utilisateur, <span class="preview">Valeur de temps de travail</span>, et les heures de planification par défaut pour calculer l’éditeur de texte enrichi de l’utilisateur. </li> </ul>
+
+<p>Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configuration des préférences de gestion des ressources</a>.  </p>
+   <p>Pour plus d’informations sur la création de plannings dans Workfront, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Création d’un planning</a>. </p>
+
+<p><b>NOTE</b></p>
+   <p>Pour tous les calculs dans le planificateur de scénario, Workfront utilise la valeur suivante : 1 ETR = 8 heures.</p>
+   <p>Pour plus d’informations, voir <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Prise en main du planificateur de scénarios</a>. </p>
+   </td> </tr> 
+   </tbody> 
+   </table>
+
+<!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+<!--
+FTE
+The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+-->
 
 ## G - I
 
@@ -1591,7 +1626,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
    <td>Détails de l’état actuel d’un projet.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Coût budgété du projet]</td> 
+   <td>[!UICONTROL Coût du projet budgété]</td> 
    <td> <p> Il s’agit du [!UICONTROL Coût budgété] d’un projet tel qu’il s’affiche dans les listes et les rapports.</p><p>Voir aussi "[!UICONTROL Coût budgété]" dans cet article.</p></td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
@@ -2287,10 +2322,26 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
   <tr> 
    <td>[!UICONTROL Modèle de workflow]</td> 
    <td>Dans le rapport [!UICONTROL Validation des BAT], ce champ affiche tous les modèles de workflow associés à un BAT. Si aucun modèle n’est joint, la colonne est vide.</td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Work Time]</td> 
+   <td>
+
+<p><span class="preview">Représente le pourcentage du temps équivalent à temps plein (FTE) disponible pour le travail réel de l’utilisateur, sans compter les frais généraux. Le temps de travail doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. Par exemple, une disponibilité de 20 % pour le travail réel serait de 0,2.</span>  </p>
+   </p><span class="preview">La valeur par défaut du champ est 1, ce qui indique qu’un utilisateur passe l’intégralité de son éditeur de texte enrichi sur le travail réel lié au projet.</span>   </p>
+   <p><span class="preview">Le système utilise ce nombre pour calculer la disponibilité de l’utilisateur pour le travail réel lié au projet. </span></p>
+   <p> <span class="preview">La planification d’exceptions et de congés peut également affecter la capacité de l’utilisateur.</span> </p>
+   <p><span class="preview">Pour plus d’informations sur la création de plannings dans Workfront, voir Créer un planning. (INSERTION DU LIEN)</span> </p>
+    <p>Workfront calcule la disponibilité d’un utilisateur en fonction des préférences de gestion des ressources de votre zone Configuration. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configuration des préférences de gestion des ressources</a>. </p> 
+   <p><span class="preview">Vous pouvez mettre à jour le temps de travail d’un utilisateur lorsque vous modifiez ou créez l’utilisateur. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modification du profil d’un utilisateur</a></span></p> 
+   <b>CONSEIL</b> 
+   <p><span class="preview">Définissez la valeur Durée du travail sur 1 pour indiquer que l’utilisateur est disponible pour le travail lié au projet et qu’il dispose de son équivalent à temps plein.</span></p> 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Temps de travail]</td> 
-   <td>Les données qui constituent vos plannings.</td> 
+   <td>Dans la documentation Workfront, ce terme est utilisé pour décrire le temps alloué au travail, selon un planning.</td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 

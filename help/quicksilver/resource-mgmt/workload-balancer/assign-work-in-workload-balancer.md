@@ -6,18 +6,16 @@ description: En tant que gestionnaire de ressources, vous pouvez utiliser l’é
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # Présentation de l’affectation de travail dans l’équilibreur de charge de travail
 
-<!--drafted for Work Time story:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 En tant que gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les tâches qui n’ont pas encore été affectées aux utilisateurs et leur affecter ces éléments.
 
@@ -52,8 +50,7 @@ Workfront utilise les informations suivantes pour calculer la capacité de l’u
 
    Pour plus d’informations, voir [Configuration du temps de pause personnel dans Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-<!--drafted for Work Time: 
-* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
+* <span class="preview">Temps de travail de l’utilisateur. Cela indique le pourcentage de temps de l’éditeur de texte enrichi que l’utilisateur est disponible pour effectuer des tâches réelles liées au projet, sans compter les frais généraux. Définissez la valeur Durée du travail sur 1 pour indiquer que l’utilisateur est disponible pour le travail lié au projet et qu’il dispose de son équivalent à temps plein.</span>
 
 ## Affecter un travail dans l’équilibreur de charge
 
