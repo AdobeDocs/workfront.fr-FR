@@ -6,9 +6,9 @@ description: Les personnes doivent être ajoutées au panorama en tant que membr
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 705ddcde7e17ebf452ccce9ca69be65815354214
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur le bouton **[!UICONTROL Ajouter un membre]** icon ![Ajouter des membres](assets/boards-addmember-spectrum-25x25.png).
 1. Dans le **[!UICONTROL Ajouter des membres]** , commencez à saisir un nom, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-   Vous pouvez sélectionner un membre individuel ou une équipe. Si vous choisissez une équipe, celle-ci est ajoutée au panorama. Les membres de l’équipe peuvent ensuite les affecter à une carte.
+   Vous pouvez sélectionner un membre individuel ou une équipe. Si vous choisissez une équipe, celle-ci est ajoutée au panorama. L’équipe entière et les membres individuels de l’équipe peuvent ensuite attribuer une carte.
 
    >[!NOTE]
    >

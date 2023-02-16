@@ -6,7 +6,7 @@ title: Configuration des abandons de carte
 description: Vous pouvez configurer un panorama afin que les cartes soient archivées ou abandonnées selon un calendrier précis.
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![Paramètres de vidage des cartes](assets/card-falloff-switch.png)
 
-1. Sélectionnez le moment où archiver les cartes du panorama. Vous pouvez choisir jusqu’à 4 semaines ou jusqu’à 30 jours.
+1. Sélectionnez le moment où archiver les cartes du panorama. Vous pouvez choisir jusqu’à 8 semaines ou jusqu’à 60 jours.
 
    La date est déterminée à partir de la dernière modification de la carte.
 
