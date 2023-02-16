@@ -6,16 +6,20 @@ description: Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 5%
 
 ---
 
 # Création ou modification d’un panorama
 
+{{highlighted-preview}}
+
 Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer un panorama ou en modifier un existant.
+
+<span class="preview">Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
 
 ## Exigences d’accès
 
@@ -41,7 +45,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Création d’un panorama
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Cliquez sur **[!UICONTROL Créer]**.
+1. Pour créer un panorama autonome, cliquez sur **[!UICONTROL Créer]** dans le [!UICONTROL Panoramas] zone. <span class="preview">Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+
+   >[!NOTE]
+   >
+   > Les collections ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!DNL Workfront] [!UICONTROL Panoramas].
+
+1. <span class="preview">Sélectionnez un modèle pour le panorama.</span>
+
+   <div class="preview">
+
+   | Modèle | Description |
+   |---------|----------|
+   | Panorama de base | Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. |
+   | Panorama Kanban | Les colonnes suivantes sont fournies sur le panorama : En attente, nouveauté, En cours, Terminé et En attente. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser le journal des logs, vous devez configurer des filtres pour la colonne d&#39;ingestion. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour consulter les stratégies par défaut pour chaque colonne, cliquez sur le bouton [!UICONTROL **Plus** menu] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une de ces stratégies prédéfinies. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Panorama rétrospectif | Les colonnes suivantes sont fournies sur le panorama : Qu&#39;est-ce qui s&#39;est bien passé ? Améliorations possibles? Qui devons-nous célébrer? Que pouvons-nous faire pour aller plus vite? Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune stratégie de colonne n’est appliquée. |
+
+   >[!NOTE]
+   >
+   > Les modèles de panorama ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!DNL Workfront] [!UICONTROL Panoramas].
+
+   </div>
+
 1. Saisissez le nom du panorama dans la zone **[!UICONTROL Panorama]** et appuyez sur Entrée.
 1. Configurez le panorama suivant vos besoins.
 

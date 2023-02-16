@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '12688'
+source-wordcount: '12695'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 1%
       * [Préparation d’une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Version 23.2 {#release-23-2}
          * [Présentation de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [Activité de la version 23.2 : semaine du 13 février 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
          * [Activité de la version 23.2 : Semaine du 6 février 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
          * [Activité de la version 23.2 : Semaine du 23 janvier 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
          * [Consultation et affichage des mises à jour pendant la période de publication de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -901,6 +902,7 @@ ht-degree: 1%
       * [Ajout d’une colonne d’ingestion à un panorama](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Utilisation de groupes sur un panorama](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configuration des abandons de carte](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
    * Kanban dans une équipe agile {#kanban}
       * [Kanban dans une équipe agile](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Présentation de Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)

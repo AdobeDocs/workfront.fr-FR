@@ -6,9 +6,9 @@ title: Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] Pan
 description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Boards] inscription anticipée aux fonctionnalités.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   </tr>
   <tr>
    <td>Création de collections de panoramas</td>
-   <td>Prévu</td>
+   <td>Partiellement publiée</td>
   </tr>
   <tr>
    <td>Créer des itérations</td>
@@ -162,7 +162,7 @@ Toutes les organisations ont accès aux fonctions initiales des panoramas. La pa
 Uniquement [!DNL Workfront] les administrateurs peuvent souscrire à des fonctionnalités initiales pour les panoramas. Lorsqu’une [!DNL Workfront] L’administrateur active les fonctionnalités anticipées, tous les utilisateurs de l’entreprise sont inscrits.
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Cliquez sur **[!UICONTROL Inclusion anticipée des fonctionnalités]** en haut de l’écran du tableau de bord.
+1. Cliquez sur ![Inclusion anticipée des fonctionnalités](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Inclusion anticipée des fonctionnalités]) en haut de l’écran du tableau de bord.
 1. Cliquez sur **[!UICONTROL Activer]**.
 1. Commencez à utiliser les premières fonctionnalités des panoramas.
 
@@ -192,5 +192,5 @@ Toutefois, la variable [!DNL Workfront] l’administrateur peut masquer l’opti
 Uniquement [!DNL Workfront] les administrateurs peuvent se désabonner de la réception des fonctionnalités anticipées. Si une [!DNL Workfront] l’administrateur désactive les premières fonctionnalités, tous les utilisateurs de l’entreprise sont désinscrits.
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Cliquez sur **[!UICONTROL Activation de l’opt-in des fonctionnalités anticipées]** en haut de l’écran du tableau de bord.
+1. Cliquez sur ![Activation de l’opt-in des fonctionnalités anticipées](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Activation de l’opt-in des fonctionnalités anticipées]) en haut de l’écran du tableau de bord.
 1. Cliquez sur **[!UICONTROL Désactiver]**.

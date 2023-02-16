@@ -7,14 +7,16 @@ description: Les panoramas Adobe Workfront sont des outils flexibles qui permett
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 814765092d5906417513966d9f563ae5e097d1d1
+source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Panoramas] aperçu
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Panoramas] sont des outils flexibles qui permettent la collaboration des équipes en permettant l’accès à un panorama partagé contenant des colonnes et des cartes.
 
@@ -26,6 +28,7 @@ Les panoramas vous permettent d’effectuer les opérations suivantes :
 * Configurer des colonnes pour afficher un statut ou une catégorie
 * Personnalisation des workflows avec des cartes ouvertes (cartes ad hoc ou cartes connectées à [!DNL Workfront] tâches et problèmes)
 * Organiser et gérer le travail d’une équipe au même endroit
+* <span class="preview">Regroupement des panoramas dans une collection</span>
 * Utilisation des outils de planification agile
 
 Pour plus d’informations sur l’utilisation des fonctions de base des panoramas, voir [Prise en main des panoramas dans [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Pour plus d’informations sur les outils de planification AEM dans les panoramas, voir [Présentation des outils de planification Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).

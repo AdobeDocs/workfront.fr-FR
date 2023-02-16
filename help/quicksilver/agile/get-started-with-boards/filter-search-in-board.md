@@ -6,9 +6,9 @@ description: Vous pouvez filtrer un panorama pour n’afficher que certaines car
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -55,21 +55,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
 1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
-1. Cliquez sur l’icône Filtrer ![Filtrer](assets/filter-icon-spectrum-25x25.png), développez la variable [!UICONTROL Membres] et sélectionnez la ou les personnes dont vous souhaitez afficher les cartes. Vous pouvez également afficher les cartes non affectées.
+1. Cliquez sur [!UICONTROL **Filtrer**], développez la variable [!UICONTROL Membres] et sélectionnez la ou les personnes dont vous souhaitez afficher les cartes. Vous pouvez également afficher les cartes non affectées.
 
    ![Filtrer par membre](assets/boards-filter-by-assignees-0822.png)
 
 ## Filtrage d’un panorama par balises
 
 1. Accédez au panorama.
-1. Cliquez sur l’icône Filtrer ![Filtrer](assets/filter-icon-spectrum-25x25.png), développez la variable [!UICONTROL Balises] et sélectionnez les balises à afficher.
+1. Cliquez sur [!UICONTROL **Filtrer**], développez la variable [!UICONTROL Balises] et sélectionnez les balises à afficher.
 
    ![Filtrage par balise](assets/boards-filter-by-tags-0822.png)
 
 ## Filtrage d’un panorama par statut
 
 1. Accédez au panorama.
-1. Cliquez sur l’icône Filtrer ![Filtrer](assets/filter-icon-spectrum-25x25.png), développez la variable [!UICONTROL Statuts] et sélectionnez les types d’état à afficher.
+1. Cliquez sur [!UICONTROL **Filtrer**], développez la variable [!UICONTROL Statuts] et sélectionnez les types d’état à afficher.
 
    Vous pouvez également masquer les cartes terminées.
 
@@ -78,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Filtrage d’un panorama par date d’échéance
 
 1. Accédez au panorama.
-1. Cliquez sur l’icône Filtrer ![Filtrer](assets/filter-icon-spectrum-25x25.png), développez la variable [!UICONTROL Date d’échéance] et sélectionnez les options de date à afficher.
+1. Cliquez sur [!UICONTROL **Filtrer**], développez la variable [!UICONTROL Date d’échéance] et sélectionnez les options de date à afficher.
 
    Seules les cartes des périodes sélectionnées s’affichent.
 
@@ -89,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Par défaut, seules les principales cartes sont affichées sur un panorama. Vous pouvez filtrer le panorama pour afficher également toutes les cartes archivées.
 
 1. Accédez au panorama.
-1. Cliquez sur l’icône Filtrer ![Filtrer](assets/filter-icon-spectrum-25x25.png), développez la variable [!UICONTROL Cartes archivées] et sélectionnez **[!UICONTROL Cartes archivées]** pour afficher toutes les cartes archivées.
+1. Cliquez sur [!UICONTROL **Filtrer**], développez la variable [!UICONTROL Cartes archivées] et sélectionnez **[!UICONTROL Cartes archivées]** pour afficher toutes les cartes archivées.
 
    Le filtre affiche le nombre de cartes archivées.
 
@@ -100,7 +100,7 @@ Par défaut, seules les principales cartes sont affichées sur un panorama. Vous
 ## Filtrage d’un panorama par connexion
 
 1. Accédez au panorama.
-1. Cliquez sur l’icône Filtrer ![Filtrer](assets/filter-icon-spectrum-25x25.png), développez la variable [!UICONTROL Connexion] , puis sélectionnez la variable [!DNL Workfront] projets pour les cartes connectées que vous souhaitez afficher.
+1. Cliquez sur [!UICONTROL **Filtrer**], développez la variable [!UICONTROL Connexion] , puis sélectionnez la variable [!DNL Workfront] projets pour les cartes connectées que vous souhaitez afficher.
 
    Vous pouvez également afficher les cartes qui ne sont pas connectées à un projet.
 
@@ -109,7 +109,7 @@ Par défaut, seules les principales cartes sont affichées sur un panorama. Vous
 ## Recherche dans un panorama
 
 1. Accédez au panorama.
-1. Cliquez sur l’icône de recherche ![Rechercher](assets/search-icon.png) et saisissez un terme de recherche. Ensuite, appuyez sur Entrée.
+1. Cliquez sur [!UICONTROL **Rechercher**] et saisissez un terme de recherche. Ensuite, appuyez sur Entrée.
 
    Toutes les cartes qui contiennent le terme de recherche s’affichent.
 
