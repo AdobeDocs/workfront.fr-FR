@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 8d9717a5b24c98f31d8248a87145fb7aa4244219
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '12675'
+source-wordcount: '12683'
 ht-degree: 1%
 
 ---
@@ -891,6 +891,7 @@ ht-degree: 1%
       * [Utilisation de cartes connectées sur les panoramas](agile/get-started-with-boards/connected-cards.md)
       * [Gestion des cartes](agile/get-started-with-boards/move-board-items.md)
       * [Gérer les éléments de liste de contrôle sur les cartes](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Suppression ou archivage d’une carte d’un panorama](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrage et recherche dans un panorama](agile/get-started-with-boards/filter-search-in-board.md)
       * [Ajout de balises](agile/get-started-with-boards/add-tags.md)
@@ -1668,8 +1669,8 @@ ht-degree: 1%
       * [Déléguer la demande d’approbation](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associer un processus d’approbation nouveau ou existant au travail](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Rappeler les validations envoyées](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Relecture {#proofing}
-      * [Relecture](review-and-approve-work/proofing/proofing.md)
+   * Vérification {#proofing}
+      * [Vérification](review-and-approve-work/proofing/proofing.md)
       * Présentation de la vérification {#proofing-overview}
          * [Présentation de la vérification](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Aperçu du profil d’autorisation de preuve](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
