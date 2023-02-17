@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion DevTool vous permet de comprendre et de rés
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c74a804e5c998a2a127100ae62eac371a7e55d39
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 Pour utiliser la variable [!DNL Workfront Fusion] DevTool, vous devez d’abord l’installer.
 
-1. Cliquez sur [ce lien](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) pour télécharger l’extension.
+1. Cliquez sur [ce lien](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool+(3).zip) pour télécharger l’extension.
 1. Une fois les fichiers téléchargés, extrayez-les dans un dossier de votre choix.
 1. Ouvrir un onglet dans [!DNL Chrome]
 1. Dans la barre de recherche de l’onglet, saisissez `chrome://extensions`.
