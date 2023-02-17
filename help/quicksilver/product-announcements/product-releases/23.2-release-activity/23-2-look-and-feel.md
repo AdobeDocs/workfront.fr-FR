@@ -4,10 +4,10 @@ description: Consultation et affichage des mises à jour pendant la période de 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1010c762d51b379b9734900d3a84a150ed33e675
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
@@ -42,3 +42,19 @@ Pour plus d’informations et pour afficher une démonstration vidéo d’une fo
 ## Icône Mise à jour de la version du document dans les détails du document
 
 Nous avons mis à jour l’aspect de l’icône Version du document. L’icône affiche désormais un point rouge indiquant le moment où vous utilisez une version antérieure, ainsi qu’un survol indiquant &quot;Version antérieure&quot;.
+
+## Nouvelle expérience lors de la copie d’une ou de plusieurs tâches de modèle
+
+>[!NOTE]
+>
+>Aperçu de la version : 16 février 2023; Version de production planifiée : 2 mars 2023
+
+Pour que votre utilisation d’Adobe Workfront soit cohérente partout dans l’application, nous avons repensé l’interface lors de la copie ou du déplacement d’une tâche de modèle. Cette option est actuellement disponible lors de la copie d’une tâche de modèle au niveau de la tâche ou de la copie d’une ou de plusieurs tâches dans une liste.
+
+Voici quelques améliorations :
+
+* Toutes les informations que vous devez mettre à jour avant de copier ou déplacer la tâche de modèle s’affichent sur une page continue.
+* Workfront vérifie que vous avez accès au modèle de destination immédiatement après avoir choisi le modèle. Avant cette amélioration, un message d’avertissement indiquant que vous ne disposez pas d’un accès correct s’affichait une fois que vous avez confirmé la copie ou le déplacement, ce qui entraînait des étapes supplémentaires et empêchait l’action d’être autorisée.
+* Possibilité de demander l’accès à un modèle dans lequel vous souhaitez copier ou déplacer la tâche de modèle sans quitter la zone Copier ou Déplacer la tâche de modèle .
+
+Pour plus d’informations, voir [Copier et déplacer des tâches de modèle](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).
