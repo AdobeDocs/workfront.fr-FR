@@ -6,9 +6,9 @@ description: Vous pouvez demander l’approbation d’un document dans Adobe Wor
 author: Courtney
 feature: Work Management
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Consulter l’objet associé à l’accès ou à l’approbation de la demande ou un accès supérieur à cet objet </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer l'accès à l'objet associé à l'accès ou à la validation de la demande </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
