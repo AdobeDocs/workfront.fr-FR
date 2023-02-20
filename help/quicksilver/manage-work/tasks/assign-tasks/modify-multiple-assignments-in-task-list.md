@@ -6,9 +6,9 @@ description: Lors de la gestion des affectations de tâche, vous pouvez simultan
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Lors de la gestion des affectations de tâche, vous pouvez simultanément les mo
 
 Cet article fait référence à la modification de plusieurs affectations d’utilisateurs pour plusieurs tâches dans une liste de tâches. Reportez-vous également aux articles suivants pour modifier des affectations sur plusieurs tâches dans d’autres zones :
 
-* Pour plus d’informations sur la modification d’affectations sur plusieurs tâches dans la zone Planification, voir [Modification de plusieurs affectations d’utilisateurs à des tâches dans les zones Planification](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * Pour plus d’informations sur l’affectation de tâches à l’aide de l’équilibreur de charge de travail, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Pour plus d’informations sur l’affectation d’une tâche à une ressource d’une liste, voir [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md).

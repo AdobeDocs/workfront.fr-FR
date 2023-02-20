@@ -7,9 +7,9 @@ description: Vous pouvez utiliser des filtres dans Adobe Workfront pour réduire
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,6 @@ Vous pouvez utiliser des filtres intégrés ou créer des filtres personnalisés
 * Rapport d&#39;utilisation
 
    Pour plus d’informations, voir la section [Informations sur l’utilisation des filtres](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) dans l’article [Affichage des informations sur l’utilisation des ressources](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
-
-* Zones de planification des ressources\
-   Pour plus d’informations, voir l’article [Filtrage des informations dans la zone Planification](../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 
 * Équilibreur de charge de travail
 

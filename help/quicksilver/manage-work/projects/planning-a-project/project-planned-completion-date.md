@@ -7,7 +7,7 @@ description: La date d’achèvement prévue d’un projet est la date à laquel
 author: Alina
 feature: Work Management
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Pour planifier un projet à partir de la date d’achèvement :
 
 1. Sélectionner **Détails du projet** dans le panneau de gauche, puis cliquez sur le bouton **Modifier le projet** dans le coin supérieur droit.
 
-1. Dans le **Planifier à partir de** champ, sélectionnez **Date d’achèvement**.
+1. Dans le **Mode Planification** champ, sélectionnez **Date d’achèvement**.
 
 1. Spécifiez la variable **Date d’achèvement prévue** du projet.
 1. Cliquez sur **Enregistrer les modifications**.
@@ -119,7 +119,7 @@ Pour planifier un projet à partir de la date de début :
 
 1. Sélectionner **Détails du projet** dans le panneau de gauche, puis cliquez sur le bouton **Modifier le projet** dans le coin supérieur droit.
 
-1. Dans le **Planifier à partir de** champ, sélectionnez **Date de début**.
+1. Dans le **Mode Planification** champ, sélectionnez **Date de début**.
 
 1. Spécifiez la variable **Date de début planifiée** du projet.
 1. Cliquez sur **Enregistrer les modifications**.

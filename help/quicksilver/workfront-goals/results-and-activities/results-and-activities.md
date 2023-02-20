@@ -7,9 +7,9 @@ description: Les résultats et les activités sont des indicateurs de progressio
 author: Alina
 feature: Workfront Goals
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >  Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 >
 >Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+Pour enregistrer la progression par rapport aux objectifs Workfront, vous devez associer des indicateurs de progression aux objectifs. Outre les résultats et les activités, vous pouvez également associer des projets ou des objectifs enfants à un objectif pour enregistrer les progrès.
 
 Cette section contient les articles suivants :
 

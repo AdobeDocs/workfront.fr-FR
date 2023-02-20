@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '12695'
+source-wordcount: '12587'
 ht-degree: 1%
 
 ---
@@ -1626,18 +1626,6 @@ ht-degree: 1%
       * [Exporter des informations à partir du planificateur de ressources](resource-mgmt/resource-planning/export-resource-planner.md)
       * [Rapport sur les heures planifiées de la planification des ressources](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Limites d’affichage de Resource Planner](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * Paramètres de programmation des ressources {#resource-scheduling}
-      * [Paramètres de programmation des ressources](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-      * [Prise en main de la planification des ressources](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-      * [Présentation des zones de planification](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-      * [Configuration des paramètres dans les zones Planification](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-      * [Autorisation des affectations d’utilisateurs, quel que soit le rôle et l’appartenance à un groupe dans les zones de planification](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-      * [Affecter automatiquement des tâches et des problèmes non attribués dans les zones Planification](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-      * [Configuration de la manière dont Workfront calcule l’heure de la ressource et la disponibilité de l’éditeur de texte enrichi pour la zone de planification](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-      * [Filtrage des informations dans la zone Planification](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-      * [Gestion des affectations d’utilisateurs dans les zones de planification](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-      * [Affectez manuellement des tâches et des problèmes non attribués dans les zones Planification .](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-      * [Modification de plusieurs affectations d’utilisateurs à des tâches dans les zones Planification](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
    * Utilisation des ressources {#resource-utilization}
       * [Utilisation des ressources](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Affichage des informations sur l’utilisation des ressources](resource-mgmt/resource-utilization/view-utilization-information.md)
@@ -1853,7 +1841,6 @@ ht-degree: 1%
       * [Filtrage des informations dans les objectifs Adobe Workfront](workfront-goals/goal-management/filter-information-wf-goals.md)
       * [Présentation de l’état des objectifs dans les objectifs Adobe Workfront](workfront-goals/goal-management/goal-status-overview.md)
       * [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](workfront-goals/goal-management/manage-goal-comments.md)
-      * [Imprimer la liste des objectifs dans les objectifs Adobe Workfront](workfront-goals/goal-management/print-the-goal-list.md)
       * [Mise à jour des objectifs dans la section Détails de l’objectif dans les objectifs Adobe Workfront](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Révision des objectifs en difficulté dans les objectifs Adobe Workfront](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Alignement des objectifs dans les objectifs Adobe Workfront {#goal-alignment}
@@ -1869,7 +1856,6 @@ ht-degree: 1%
       * [Mise à jour de la progression de l’objectif dans les objectifs Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Gestion des objectifs dans la liste des objectifs d’Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [Consultez des graphiques pour comprendre les tendances de progression des objectifs dans les objectifs Adobe Workfront.](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-      * [Révision des objectifs dans la section Pulse des objectifs d’Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
    * Résultats et activités dans les objectifs Adobe Workfront {#results-activities-adobe-workfront-goals}
       * [Résultats et activités dans les objectifs Adobe Workfront](workfront-goals/results-and-activities/results-and-activities.md)
       * [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -1877,7 +1863,7 @@ ht-degree: 1%
       * [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
       * [Modification des résultats et des activités dans les objectifs Adobe Workfront](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Prise en main des résultats et des activités dans les objectifs d’Adobe Workfront](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-      * [Suppression des résultats, des activités et des projets des objectifs dans les objectifs Adobe Workfront](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+      * [Suppression des indicateurs de progression des objectifs dans les objectifs Adobe Workfront](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
    * Paramètres des objectifs Adobe Workfront {#adobe-workfront-goal-settings}
       * [Paramètres des objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [Personnalisation de la terminologie des objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)

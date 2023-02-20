@@ -6,7 +6,7 @@ description: Vous pouvez planifier des ressources pour un seul projet afin d’i
 author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Pour accéder à l’outil de planification dans un projet :
 1. Accédez au projet pour lequel vous souhaitez planifier des ressources.
 1. Cliquez sur le bouton **Planification** ou section équilibreur de charge de travail dans le panneau de gauche. La section Planification ou équilibreur de charge de travail peut se trouver sous **Afficher plus**.
 
-   Pour plus d’informations sur la planification des ressources à l’aide de l’outil de planification dans un projet, reportez-vous à la section [Modification des affectations et des affectations d’utilisateurs](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) dans l’article [Prise en main de la planification des ressources](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+   Pour plus d’informations sur la planification des ressources à l’aide de l’outil de planification dans un projet, reportez-vous à la section &quot;Modifier les affectations et affectations d’utilisateurs&quot; de l’article &quot;Prise en main de la planification des ressources&quot;.
 
 1. (Conditionnel et recommandé) Si vous avez cliqué sur Planification, cliquez sur **Basculer vers l’équilibreur de charge de travail** pour planifier des ressources à l’aide de l’équilibreur de charge de travail.
 

@@ -6,9 +6,9 @@ description: Les fonctionnalités suivantes ont été rendues disponibles dans l
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ Les fonctionnalités suivantes ont été rendues disponibles dans l’environnem
 
 ## Amélioration de la planification des ressources
 
-Vous pouvez désormais afficher toutes les tâches sur les projets pour lesquels vous êtes le gestionnaire de ressources, ce qui vous permet d’être plus informé lors de la prise de décisions de planification. 
+>[!NOTE]
+>
+>Les outils de planification des ressources ont été abandonnés et supprimés de Workfront avec la version 23.1. Pour plus d’informations sur la planification des ressources à l’aide de l’équilibreur de charge de travail, voir [Présentation de l’équilibreur de charge de travail](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Pour obtenir des informations générales sur les outils disponibles pour la planification des ressources, voir [Prise en main de la planification des ressources](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+Vous pouvez désormais afficher toutes les tâches sur les projets pour lesquels vous êtes le gestionnaire de ressources, ce qui vous permet d’être plus informé lors de la prise de décisions de planification.
 
-Pour ajuster les informations affichées dans la chronologie de planification, créez un filtre, comme décrit dans la section [Filtrage des informations dans la zone Planification](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+Pour des informations générales sur les outils disponibles pour la planification des ressources, voir &quot;Prise en main de la planification des ressources&quot;.
 
-Outre l’affichage des tâches sur les projets dont vous êtes responsable, vous pouvez utiliser la chronologie de planification pour apporter des modifications aux affectations de ressources. Pour plus d’informations sur la gestion des affectations d’utilisateurs dans la chronologie de planification, voir [Affectez manuellement des tâches et des problèmes non attribués dans les zones Planification .](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+Pour ajuster les informations affichées dans la chronologie de la planification, créez un filtre, comme décrit dans la section &quot;Filtrer les informations dans la zone Planification&quot;.
+
+Outre l’affichage des tâches sur les projets dont vous êtes responsable, vous pouvez utiliser la chronologie de planification pour apporter des modifications aux affectations de ressources. Pour plus d’informations sur la gestion des affectations d’utilisateurs dans la chronologie de planification, voir Affectation manuelle de tâches non affectées et de problèmes dans les zones Planification .
 
 ## Gestion des affectations des utilisateurs dans la chronologie de planification
 
 Désormais, lorsque vous planifiez des ressources à l’aide des nouveaux outils de planification des ressources, vous pouvez déterminer comment les heures planifiées d’une tâche ou d’un problème sont attribuées aux utilisateurs. Vous pouvez diviser les heures par jours dans la durée de la tâche et entre les utilisateurs affectés.
 
-Pour plus d’informations, voir [Gestion des affectations d’utilisateurs dans les zones de planification](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Pour plus d’informations, voir &quot;Gestion des affectations d’utilisateurs dans les zones de planification&quot;.
 
 ## Les affectations d’utilisateurs sont désactivées par défaut
 
@@ -39,7 +43,7 @@ L’ombrage de l’affectation des utilisateurs sur la chronologie de planificat
 
 Auparavant, l’ombrage d’affectation s’affichait par défaut et ne pouvait pas être désactivé.
 
-Pour plus d’informations sur l’activation des options d’affectation des utilisateurs, voir [Gestion des affectations d’utilisateurs dans les zones de planification](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in  [Gestion des affectations d’utilisateurs dans les zones de planification](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Pour plus d’informations sur la manière d’activer les options d’affectation des utilisateurs, voir &quot;Gestion des affectations des utilisateurs dans les zones de planification&quot;.
 
 ## Modèle de mise en page Détermine si le calendrier nouveau ou hérité s’affiche dans la zone de travail Mon travail.
 

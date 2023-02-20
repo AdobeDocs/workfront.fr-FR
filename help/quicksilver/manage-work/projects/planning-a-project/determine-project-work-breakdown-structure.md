@@ -6,9 +6,9 @@ description: La définition d’une structure de ventilation des tâches (WBS) p
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ Au début d’un exercice ou d’un trimestre, vous souhaiterez peut-être gére
 Pour plus d’informations sur la planification de l’utilisation de vos ressources à un niveau supérieur, consultez l’article [Prise en main de la planification des ressources](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Lorsque vous gérez vos ressources dans le cadre de la création de la structure de ventilation des tâches d’un projet et en vous assurant que chaque tâche est affectée à la ressource appropriée, vous êtes prêt à planifier vos ressources pour le travail qui doit être effectué.\
-Pour plus d’informations sur la planification de vos ressources, reportez-vous aux articles de la section [Planification des ressources](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) .
+Pour plus d’informations sur la planification de vos ressources, reportez-vous aux articles de la section [L’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/workload-balancer.md) .
 
 ## Estimation des finances du projet
 

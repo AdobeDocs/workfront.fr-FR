@@ -7,9 +7,9 @@ description: Les Heures planifiées associées à une tâche, à une publication
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,6 @@ Par exemple, si une tâche doit commencer à 16 heures et qu’il reste une heur
 >
 >Les Heures planifiées par jour ou l’allocation quotidienne sont l’allocation des Heures planifiées pour chaque jour pendant la durée de la tâche. Si la tâche n’a qu’une affectation, ce nombre représente les Heures planifiées par jour et par affectation. Si la tâche comporte plusieurs affectations, les Heures planifiées par jour et par affectation sont différentes des Heures planifiées par jour pour la tâche. Il n’existe aucune représentation visuelle dans Workfront pour les heures planifiées par jour et par affectation, pour les tâches avec plusieurs affectations.
 
- 
-
 ## Localisation et compréhension des valeurs des heures planifiées
 
 Les valeurs Heures planifiées se trouvent dans différentes zones de Workfront. 
@@ -89,7 +87,6 @@ Vous pouvez localiser Heures planifiées dans les zones suivantes de Workfront :
 * [Section Détails d’un projet, d’une tâche ou d’un problème](#the-details-section-of-a-project-task-or-issue)
 * [Zone Modifier la tâche ou Modifier le problème](#the-edit-task-or-edit-issue-box)
 * [Rapports](#reports)
-* [Les zones de planification](#the-scheduling-areas)
 * [L’équilibreur de charge de travail](#the-workload-balancer)
 * [Le planificateur de ressources](#the-resource-planner)
 * [Rapport Utilisation](#the-utilization-report)
@@ -131,20 +128,22 @@ Pour plus d’informations sur la création de rapports, voir [Création d’un 
 >
 >Si vous créez un rapport Projet (données financières) et le regroupez par date, les Heures planifiées peuvent afficher une partie des Heures planifiées du projet selon la chronologie des tâches du projet. Par défaut, Workfront répartit uniformément les heures planifiées des tâches pour chaque jour de la durée de la tâche. Les Heures planifiées pour une certaine période correspondent à la répartition égale définie par Workfront pour cette période dans le rapport Projet (données financières) .
 
-### Les zones de planification  {#the-scheduling-areas}
+<!--
+### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
-Les Heures planifiées pour les tâches et les problèmes s’affichent dans les zones Planification du champ Heures planifiées .
+The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
-Vous pouvez afficher l’allocation quotidienne des heures planifiées pour chaque utilisateur affecté à une tâche ou à un problème dans les zones Planification .
+You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-Le montant de l’heure quotidienne représente l’un des éléments suivants : 
+The daily hour amount represents one of the following:
 
-* le montant par défaut réparti uniformément par Workfront pour chaque jour de la durée des tâches ou des problèmes
-* l’affectation quotidienne ajustée gérée par les gestionnaires de ressources.
+* the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
+* the adjusted daily allocation managed by resource managers.
 
-   Pour plus d’informations sur l’ajustement des allocations quotidiennes dans les outils de planification, voir [Gestion des affectations d’utilisateurs dans les zones de planification](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+  For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### L’équilibreur de charge de travail {#the-workload-balancer}
 
@@ -156,7 +155,8 @@ Les heures planifiées suivantes pour les tâches, problèmes et projets s’aff
 * Pour les projets, un total des heures planifiées des tâches et des problèmes visibles à l’écran s’affiche.
 
    >[!TIP]
-   L’équilibreur de charge de travail n’affiche pas toutes les heures planifiées d’un projet comme visible dans la zone Détails du projet.
+   >
+   >L’équilibreur de charge de travail n’affiche pas toutes les heures planifiées d’un projet comme visible dans la zone Détails du projet.
 
 Vous pouvez afficher l’allocation quotidienne des heures planifiées pour chaque utilisateur affecté à une tâche ou à un problème dans l’équilibreur de charge de travail.
 
@@ -176,7 +176,8 @@ Le planificateur de ressources affiche les heures planifiées pour les projets, 
 Vous pouvez afficher les affectations hebdomadaires des heures planifiées pour les utilisateurs et les rôles de tâche associés aux tâches dans la colonne PLN du planificateur de ressources.
 
 >[!TIP]
-Les ajustements quotidiens de l’équilibreur de charge de travail influent sur les affectations hebdomadaires pour les tâches et les problèmes du planificateur de ressources.
+>
+>Les ajustements quotidiens de l’équilibreur de charge de travail influent sur les affectations hebdomadaires pour les tâches et les problèmes du planificateur de ressources.
 
 Le nombre d’heures planifiées pour chaque objet varie en fonction de la vue que vous appliquez au planificateur de ressources. Pour plus d’informations, voir [Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
@@ -194,7 +195,8 @@ Le montant hebdomadaire des projets, des utilisateurs et des rôles dépend du n
 Les heures planifiées du projet sont celles associées aux affectations pour chaque tâche et chaque problème.
 
 >[!IMPORTANT]
-Notez que les Heures planifiées du rapport Utilisation sont associées aux affectations et non aux tâches et problèmes eux-mêmes. Les heures planifiées du rapport Utilisation ne correspondent pas toujours aux heures planifiées sur les tâches et les problèmes du projet. Toutefois, les heures planifiées correspondent aux heures associées aux affectations sur les tâches et les problèmes.
+>
+>Notez que les Heures planifiées du rapport Utilisation sont associées aux affectations et non aux tâches et problèmes eux-mêmes. Les heures planifiées du rapport Utilisation ne correspondent pas toujours aux heures planifiées sur les tâches et les problèmes du projet. Toutefois, les heures planifiées correspondent aux heures associées aux affectations sur les tâches et les problèmes.
 
 Vous pouvez afficher les types d’heures planifiées suivants dans le rapport Utilisation :
 

@@ -6,9 +6,9 @@ description: Cette page décrit toutes les modifications disponibles dans l’en
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,10 @@ Pour plus d’informations, voir  [Liaison de documents à partir d’applicati
 
 ## Mise À Jour De L’Équipe Travaillant Sur Le Calendrier
 
+>[!NOTE]
+>
+>Les outils de planification des ressources ont été abandonnés et supprimés de Workfront avec la version 23.1. Pour plus d’informations sur la planification des ressources à l’aide de l’équilibreur de charge de travail, voir [Présentation de l’équilibreur de charge de travail](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 Le calendrier Travailler sur les équipes contient désormais des fonctionnalités supplémentaires et une interface actualisée. L’équipe sur le calendrier fonctionne désormais de la même manière que l’outil de planification des ressources pour les projets.
 
 La mise à jour du calendrier Working On (Utilisation de l’équipe) comprend les améliorations suivantes :
@@ -52,22 +56,26 @@ Différences avec l’outil de planification des ressources lors de la planifica
 * Les problèmes s’affichent par défaut sur le calendrier Travail sur l’équipe.\
    Lors de la planification des ressources pour les projets, les problèmes ne s’affichent pas par défaut.
 
-Pour plus d’informations sur l’utilisation du calendrier de travail de l’équipe mise à jour, voir [Planification des ressources](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+Pour plus d’informations sur l’utilisation du calendrier de travail de l’équipe mise à jour, voir &quot;Planification des ressources&quot;.
 
 ## Améliorations de la planification des ressources
 
 La chronologie de la planification comprend les améliorations suivantes :
 
-* [Utilisez le filtre pour contrôler quels utilisateurs s’affichent dans la chronologie de planification.](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [Les utilisateurs restent dans la chronologie après avoir été affectés à une tâche](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* &quot;Utilisation du filtre pour contrôler quels utilisateurs s’affichent dans la chronologie de planification&quot;
+* &quot;Les utilisateurs restent sur la chronologie après avoir été affectés à une tâche&quot;
 
 ### Utilisez le filtre pour contrôler quels utilisateurs s’affichent dans la chronologie de planification. {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>Les outils de planification des ressources ont été abandonnés et supprimés de Workfront avec la version 23.1. Pour plus d’informations sur la planification des ressources à l’aide de l’équilibreur de charge de travail, voir [Présentation de l’équilibreur de charge de travail](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Le filtre peut désormais être utilisé pour contrôler quels utilisateurs sont affichés dans la chronologie de planification, en plus des tâches et problèmes affichés dans la zone Non affecté . Lorsque des utilisateurs sont sélectionnés dans le filtre, seuls les utilisateurs que vous sélectionnez s’affichent, qu’ils aient ou non une affectation de rôle correspondant à l’affectation de rôle des tâches dans la zone Non affecté . Toutes les tâches actuellement affectées à cet utilisateur s’affichent également.
 
 Avant cette modification, le filtre contrôlait uniquement les tâches et problèmes affichés dans la zone Non affecté . Les utilisateurs s’affichaient dans la chronologie de planification uniquement si l’utilisateur correspondait à l’attribution du rôle d’une tâche dans la zone Non affecté .
 
-Pour plus d’informations sur l’utilisation du filtre pour contrôler ce qui est affiché dans la chronologie de planification, voir  [Filtrage des informations dans la zone Planification](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md), et  [Affectez manuellement des tâches et des problèmes non attribués dans les zones Planification .](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Affectez manuellement des tâches et des problèmes non attribués dans les zones Planification .](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Pour plus d’informations sur l’utilisation du filtre afin de contrôler ce qui s’affiche dans la chronologie de planification, voir &quot;Filtrer les informations dans la zone Planification&quot; et &quot;Affecter manuellement des tâches non affectées et des problèmes dans les zones Planification&quot;.
 
 ### Les utilisateurs restent dans la chronologie après avoir été affectés à une tâche {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ Les utilisateurs restent dans la chronologie de la planification une fois qu’u
 
 Avant cette modification, les utilisateurs disparaissaient de la chronologie de planification immédiatement après s’être vu attribuer une tâche ou un problème s’il n’y avait plus aucune tâche ou problème dans la zone Non affecté avec une affectation de rôle correspondante.
 
-Pour plus d’informations, voir  [Affectez manuellement des tâches et des problèmes non attribués dans les zones Planification .](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Affectez manuellement des tâches et des problèmes non attribués dans les zones Planification .](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Pour plus d’informations, voir &quot;Affectation manuelle de tâches et de problèmes non attribués dans les zones Planification&quot;.
 
 ## Personnalisation de la terminologie Workfront en modifiant les noms d’objet
 

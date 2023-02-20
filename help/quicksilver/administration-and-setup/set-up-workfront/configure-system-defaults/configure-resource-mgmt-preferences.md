@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ Lors du calcul de la capacité d’un utilisateur, Workfront prend en compte les
 * [!UICONTROL Planification] [!UICONTROL Exceptions] (selon le [!UICONTROL Planification] est utilisée, il peut s’agir des exceptions du planning de l’utilisateur ou de celles associées à la variable [!DNL Workfront] [!UICONTROL Planification par défaut])
 * Délai d’interruption de l’utilisateur
 * Valeur de l’équivalent temps plein ([!UICONTROL FTE]) de l’utilisateur ou de celle de la fonction [!DNL Workfront] système. Le [!UICONTROL FTE] est égal à 1 lorsque l’utilisateur travaille à temps plein, comme défini dans le planning.
-* <span class="preview">La valeur de [!UICONTROL Temps de travail] pour l’utilisateur qui fait référence au temps passé par l’utilisateur sur le travail lié au projet. Cela ne comprend pas les temps de travail, comme les réunions et la formation. Le [!UICONTROL Temps de travail] est égal à 1 lorsque l’utilisateur est disponible pour le travail pendant toute la durée indiquée par la variable [!UICONTROL FTE] ou le planning, ce qui signifie qu&#39;ils ne passent pas de temps sur des travaux non liés au projet comme des réunions ou des formations.</span>
+<div class="preview">
+* La valeur de [!UICONTROL Work Time] pour l’utilisateur qui fait référence au temps que l’utilisateur passe pour le travail lié au projet. Cela ne comprend pas les temps de travail, comme les réunions et la formation. Le [!UICONTROL Temps de travail] est égal à 1 lorsque l’utilisateur est disponible pour travailler tout le temps comme indiqué par l’[!UICONTROL ETR] ou le planning, ce qui signifie qu’il ne passe pas de temps sur des travaux non liés au projet, comme des réunions ou des formations.
+</div>
 
 Pour plus d’informations sur la planification et la planification des ressources dans [!DNL Workfront], voir [Prise en main de la gestion des ressources](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

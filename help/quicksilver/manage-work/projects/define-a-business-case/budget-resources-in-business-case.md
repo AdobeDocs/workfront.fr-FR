@@ -5,9 +5,9 @@ description: Dans le cadre de la planification des ressources, vous pouvez budg�
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Dans le cadre de la planification des ressources, vous pouvez budgéter les rôl
 
 >[!NOTE]
 >
->Les ressources de budget ne sont pas identiques aux ressources de planification d’un projet. Lorsque vous planifiez des ressources, vous estimez les rôles qui peuvent être nécessaires pour terminer le travail sur un projet. Pour réellement planifier ou affecter des utilisateurs au travail sur un projet, voir [Prise en main de la planification des ressources](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Pour plus d’informations sur la planification des ressources dans Adobe Workfront, voir [Prise en main de la planification des ressources](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>Les ressources de budget ne sont pas identiques aux ressources de planification d’un projet. Lorsque vous planifiez des ressources, vous estimez les rôles qui peuvent être nécessaires pour terminer le travail sur un projet. Pour réellement planifier ou affecter des utilisateurs au travail sur un projet, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 Vous devez associer des rôles de tâche au projet avant de pouvoir budgéter les ressources pour celui-ci. Vous trouverez ci-dessous plusieurs façons d’affecter des rôles de tâche à un projet :
 

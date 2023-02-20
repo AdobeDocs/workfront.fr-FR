@@ -6,9 +6,9 @@ description: Planification d’une présentation de projet
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ Lors de la définition de tâches, tenez compte des points suivants :
 
    Pour plus d’informations sur les heures planifiées, voir l’article [Présentation des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* Affectez chaque tâche à un utilisateur ou à une équipe chargé de l’exécuter. 
+* Affectez chaque tâche à un utilisateur ou à une équipe chargé de l’exécuter.
 * Vérifiez la disponibilité des utilisateurs que vous affectez aux tâches. Assurez-vous qu’ils sont libres de travailler et non surchargés afin qu’ils puissent effectuer les tâches qui leur sont assignées. Si les utilisateurs sont surchargés ou s’ils disposent de congés dans leurs plannings, prenez l’une des mesures suivantes :
 
    * Réduire les heures planifiées de chaque tâche.
    * Ajoutez d’autres utilisateurs à une tâche pour vous assurer qu’elle peut être complétée pendant le temps qui lui est alloué.
    * Réaffectez les tâches aux utilisateurs qui sont disponibles sans autre contrainte.\
       Pour plus d’informations sur la planification des ressources de votre projet, reportez-vous à l’article [Planification des ressources dans Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      Pour plus d’informations sur la planification de vos ressources pour accomplir le travail sur un projet, consultez l’article . [Planification des ressources](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      Pour plus d’informations sur la planification de vos ressources pour accomplir le travail sur un projet, voir [Présentation de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

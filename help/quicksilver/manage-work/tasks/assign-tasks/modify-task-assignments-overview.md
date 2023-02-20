@@ -7,7 +7,7 @@ description: Vous pouvez affecter des tâches à des utilisateurs, à des équip
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Cet article contient des informations générales sur l’impact de la modificat
 
 * Pour plus d’informations sur l’affectation de tâches, voir [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md) et [Modification de plusieurs affectations d’utilisateurs dans une liste de tâches](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* Pour plus d’informations sur la modification d’affectations sur plusieurs tâches dans la zone Planification, voir [Modification de plusieurs affectations d’utilisateurs à des tâches dans les zones Planification](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* Pour plus d’informations sur la modification des affectations sur plusieurs tâches dans la zone Planification, voir &quot;Modification de plusieurs affectations d’utilisateurs à des tâches dans les zones Planification&quot;.
 * Pour plus d’informations sur l’affectation de tâches à l’aide de l’équilibreur de charge de travail, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Certaines informations de cet article s’appliquent également aux affectations à des problèmes. Pour plus d’informations sur l’attribution des problèmes et des considérations supplémentaires, voir [Modification de l’aperçu des affectations de problème](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

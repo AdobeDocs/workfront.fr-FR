@@ -5,9 +5,9 @@ title: Glossaire [!DNL Adobe Workfront] terminologie
 description: Le [!DNL Adobe Workfront] Le glossaire répertorie les termes fréquemment utilisés dans Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '19106'
+source-wordcount: '19138'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
-       --> Rapport de projet (données financières) et ajoutez une matrice de groupement pour la [!UICONTROL Date d’attribution], puis regroupez les résultats chaque semaine, chaque mois, chaque trimestre ou chaque année pour obtenir les données les plus précises.<br>Pour plus d'informations sur la création d'un groupement de matrice, reportez-vous à l'article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Créer un rapport de matrice</a>.</p> </li> 
+       --> Rapport de projet (données financières) et ajoutez une matrice de groupement pour la [!UICONTROL Date d’attribution], puis regroupez les résultats chaque semaine, chaque mois, chaque trimestre ou chaque année pour obtenir les données les plus précises.<br>Pour plus d'informations sur la création d'un groupement de matrice, consultez l'article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Créer un rapport de matrice</a>.</p> </li> 
     </ul> <p>Les informations financières sont renseignées dans les rapports [!UICONTROL Project (Financial Data)] uniquement lorsque les données qui y sont associées ont moins de 5 ans. Par exemple, si un rôle de tâche a été attribué à une tâche en janvier 2015 et qu’aujourd’hui est septembre 2021, un champ financier comme la [!UICONTROL Date d’attribution] du rôle de tâche n’est pas renseigné dans le rapport [!UICONTROL Projet (données financières)]. </p> 
     <div> 
      <p>Pour un rapport [!UICONTROL Hour budgétée] :</p> 
@@ -480,8 +480,14 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
     <td>Capacity</td> 
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
-  --> 
-  <tr> 
+  -->
+
+<tr> 
+   <td> <p>Capacité</p> </td> 
+   <td> <p>Le temps disponible d’une ressource lorsqu’elle peut être affectée au travail. Voir "Disponibilité". </p></td> 
+  </tr>
+
+<tr> 
    <td> <p>[!UICONTROL Catégorie]</p> </td> 
    <td> <p>Une catégorie est un formulaire personnalisé. Vous pouvez créer des rapports pour cet objet et les afficher dans d’autres rapports d’objet. Tous les objets ne peuvent pas comporter de formulaire personnalisé ou de catégorie. Les objets suivants peuvent avoir un formulaire personnalisé : <br></p> 
     <ul> 
@@ -870,28 +876,28 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <td>[!UICONTROL Folder]</td> 
    <td>Les dossiers permettent d’organiser les documents ou les rapports associés à un objet.</td> </tr>
   <tr>
-  <td>ETR (équivalent temps plein)</td> 
+  <td>[!UICONTROL FTE] (équivalent temps plein)</td> 
    <td>Il s’agit de l’équivalent temps plein qui indique la durée pendant laquelle une ressource est disponible pour le travail. 
-   Le champ de l’éditeur de texte enrichi s’affiche dans les zones suivantes : 
+   Le champ [!UICONTROL FTE] s’affiche dans les zones suivantes : 
   <ul>
    <li> Profil de l’utilisateur, lors de la modification ou de la création de l’utilisateur </li>
-   <li> Planificateur de ressources </li>
-   <li> Planificateur de scénario (nécessite une licence supplémentaire pour le planificateur de scénario Workfront) </li>
+   <li> [!UICONTROL Resource Planner] </li>
+   <li> [!UICONTROL planificateur de scénarios] (nécessite une licence supplémentaire pour le planificateur de scénarios Workfront) </li>
    <li> Listes et rapports utilisateur </li> </ul>
 
-<p>L’éditeur de texte enrichi doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. </p>
-   <p> Un éditeur de texte enrichi de 1 (qui est la valeur par défaut du champ de l’éditeur de texte enrichi d’un utilisateur, tel que défini dans son profil) signifie qu’une ressource (utilisateur ou rôle) travaille le nombre d’heures complet, selon le planning qui calcule leur disponibilité. </p>
+<p>L’[!UICONTROL FTE] doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. </p>
+   <p> Un [!UICONTROL FTE] de 1 (qui est la valeur par défaut du champ [!UICONTROL FTE] d’un utilisateur, tel que défini dans son profil) signifie qu’une ressource (utilisateur ou rôle) travaille toute la durée en fonction du planning qui calcule leur disponibilité. </p>
    <p>Votre administrateur Workfront décide du planning à utiliser pour déterminer la disponibilité de l’utilisateur.  </p>
    <ul>
-   <li> Lorsque la planification par défaut est utilisée, Workfront utilise l’éditeur de texte enrichi de l’utilisateur qui se trouve dans son profil pour calculer la disponibilité. </li>
-   <li> Lors de l’utilisation de la Planification de l’utilisateur, Workfront utilise le délai de pause de l’utilisateur, <span class="preview">Valeur de temps de travail</span>, et les heures de planification par défaut pour calculer l’éditeur de texte enrichi de l’utilisateur. </li> </ul>
+   <li> Lorsque le [!UICONTROL Default Schedule] est utilisé, Workfront utilise l’[!UICONTROL FTE] de l’utilisateur figurant dans son profil pour calculer la disponibilité. </li>
+   <li> Lors de l’utilisation de la Planification de l’utilisateur, Workfront utilise le délai de pause de l’utilisateur, <span class="preview">Valeur [!UICONTROL Work Time]</span>, et les heures de [!UICONTROL par défaut] pour calculer l’[!UICONTROL ETR] de l’utilisateur. </li> </ul>
 
 <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configuration des préférences de gestion des ressources</a>.  </p>
-   <p>Pour plus d’informations sur la création de plannings dans Workfront, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Création d’un planning</a>. </p>
+   <p>Pour plus d’informations sur la création de planifications dans [!DNL Workfront], voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Création d’un planning</a>. </p>
 
 <p><b>NOTE</b></p>
-   <p>Pour tous les calculs dans le planificateur de scénario, Workfront utilise la valeur suivante : 1 ETR = 8 heures.</p>
-   <p>Pour plus d’informations, voir <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Prise en main du planificateur de scénarios</a>. </p>
+   <p>Pour tous les calculs dans le [!UICONTROL Scenario Planner], Workfront utilise la valeur suivante : 1 [!UICONTROL ETR] = 8 Heures.</p>
+   <p>Pour plus d’informations, voir <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Prise en main du [!UICONTROL Scenario Planner]</a>. </p>
    </td> </tr> 
    </tbody> 
    </table>
@@ -1451,7 +1457,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
   </tr> 
   <tr> 
    <td>[!UICONTROL Planifié]</td> 
-   <td> <p>Période pendant laquelle un événement est programmé. Lorsque vous créez des projets, des tâches ou des problèmes dans [!DNL Workfront], vous définissez les dates de début et de fin prévues, ainsi que la période prévue pendant laquelle elles se produisent. Ces valeurs représentent votre intention initiale ou l’estimation du temps de travail nécessaire à l’exécution. </p></td> 
+   <td> <p>Période pendant laquelle un événement est programmé. Lorsque vous créez des projets, des tâches ou des problèmes dans [!DNL Workfront], vous définissez les dates de début et de fin prévues, ainsi que la période prévue pendant laquelle elles se produisent. Ces valeurs représentent votre intention initiale ou votre estimation du temps nécessaire à l’exécution d’un élément. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Bénéfice prévu]</td> 
@@ -2328,15 +2334,15 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
    <td>[!UICONTROL Work Time]</td> 
    <td>
 
-<p><span class="preview">Représente le pourcentage du temps équivalent à temps plein (FTE) disponible pour le travail réel de l’utilisateur, sans compter les frais généraux. Le temps de travail doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. Par exemple, une disponibilité de 20 % pour le travail réel serait de 0,2.</span>  </p>
-   </p><span class="preview">La valeur par défaut du champ est 1, ce qui indique qu’un utilisateur passe l’intégralité de son éditeur de texte enrichi sur le travail réel lié au projet.</span>   </p>
+<p><span class="preview">Représente le pourcentage du temps équivalent à temps complet ([!UICONTROL FTE]) disponible pour le travail réel de l’utilisateur, sans compter les frais généraux. [!UICONTROL Work Time] doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. Par exemple, une disponibilité de 20 % pour le travail réel serait de 0,2.</span>  </p>
+   </p><span class="preview">La valeur par défaut du champ est 1, ce qui indique qu’un utilisateur passe l’intégralité de son [!UICONTROL FTE] au travail réel lié au projet.</span>   </p>
    <p><span class="preview">Le système utilise ce nombre pour calculer la disponibilité de l’utilisateur pour le travail réel lié au projet. </span></p>
    <p> <span class="preview">La planification d’exceptions et de congés peut également affecter la capacité de l’utilisateur.</span> </p>
-   <p><span class="preview">Pour plus d’informations sur la création de plannings dans Workfront, voir Créer un planning. (INSERTION DU LIEN)</span> </p>
-    <p>Workfront calcule la disponibilité d’un utilisateur en fonction des préférences de gestion des ressources de votre zone Configuration. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configuration des préférences de gestion des ressources</a>. </p> 
-   <p><span class="preview">Vous pouvez mettre à jour le temps de travail d’un utilisateur lorsque vous modifiez ou créez l’utilisateur. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modification du profil d’un utilisateur</a></span></p> 
+   <p><span class="preview">Pour plus d’informations sur la création de plannings dans Workfront, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Création d’un planning</a>.</span> </p>
+    <p>Workfront calcule la disponibilité d’un utilisateur en fonction des préférences de gestion des ressources de votre zone [!UICONTROL Configuration]. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configuration des préférences de gestion des ressources</a>. </p> 
+   <p><span class="preview">Vous pouvez mettre à jour le [!UICONTROL Work Time] d’un utilisateur lorsque vous modifiez ou créez l’utilisateur. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modification du profil d’un utilisateur</a></span></p> 
    <b>CONSEIL</b> 
-   <p><span class="preview">Définissez la valeur Durée du travail sur 1 pour indiquer que l’utilisateur est disponible pour le travail lié au projet et qu’il dispose de son équivalent à temps plein.</span></p> 
+   <p><span class="preview">Définissez la valeur [!UICONTROL Work Time] sur 1 pour indiquer que l’utilisateur est disponible pour les travaux liés au projet et qu’il dispose de son équivalent à temps plein.</span></p> 
    </td> 
   </tr> 
   <tr> 
