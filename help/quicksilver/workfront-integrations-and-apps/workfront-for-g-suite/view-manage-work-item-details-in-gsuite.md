@@ -7,7 +7,7 @@ description: Vous pouvez afficher et gérer les détails d’un élément de tra
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -57,7 +57,6 @@ Avant de pouvoir afficher et gérer les détails d’une tâche dans [!DNL G Sui
 
    Lorsque vous sélectionnez une tâche ou un problème, la variable **[!UICONTROL Détails]** est ouvert. La zone au-dessus de **[!UICONTROL Détails]** affiche le nom de l’objet parent, le nom de la tâche ou du problème, et la variable [!UICONTROL Échéance] (s’il s’agit d’une tâche) ou [!UICONTROL Date de priorité] (si c&#39;est un problème).
 
-   ![](assets/details-tab.png)
 
    Vous pouvez effectuer diverses tâches sur cet onglet sans quitter [!DNL G Suite], notamment :
 
