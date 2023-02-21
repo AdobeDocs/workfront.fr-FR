@@ -6,9 +6,9 @@ description: Vous pouvez accéder à votre liste de tâches à domicile, la cons
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -62,8 +62,7 @@ Avant de pouvoir gérer votre travail et vos validations depuis [!DNL Slack], vo
    >* Vous pouvez lancer votre commande avec `/wf` au lieu de `/workfront`.
 
 
-   Les boutons à partir desquels vous pouvez accéder aux listes de vos tâches, problèmes et validations s’affichent. Cliquez sur l’un des boutons pour afficher les 20 premiers éléments de chaque liste dans la [!DNL Slack].\
-   ![](assets/slack-home-buttons-350x80.png)
+   Les boutons à partir desquels vous pouvez accéder aux listes de vos tâches, problèmes et validations s’affichent. Cliquez sur l’un des boutons pour afficher les 20 premiers éléments de chaque liste dans la [!DNL Slack].
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Tâches]** pour afficher toutes vos tâches.
 
@@ -95,8 +94,7 @@ Avant de pouvoir gérer votre travail et vos validations depuis [!DNL Slack], vo
    >* Vous pouvez lancer votre commande avec `/wf` au lieu de `/workfront`.
 
 
-   Les 20 premières tâches de votre liste s’affichent.\
-   ![](assets/slack-two-tasks-350x286.png)
+   Les 20 premières tâches de votre liste s’affichent.
 
 1. Cliquez sur **[!UICONTROL +`<remaining number>` more]** pour afficher d’autres tâches.
 1. Pensez à consulter les informations suivantes sur vos tâches :
@@ -141,8 +139,7 @@ Avant de pouvoir gérer votre travail et vos validations depuis [!DNL Slack], vo
    >* Vous pouvez lancer votre commande avec `/wf` au lieu de `/workfront`.
 
 
-   Les 20 premiers problèmes de votre liste s’affichent.\
-   ![](assets/slack-two-issues-350x323.png)
+   Les 20 premiers problèmes de votre liste s’affichent.
 
 1. Cliquez sur **[!UICONTROL + restant `<number>` more]** pour afficher d’autres éléments.
 1. Pensez à consulter les informations suivantes sur vos tâches :
@@ -179,12 +176,6 @@ Avant de pouvoir gérer votre travail et vos validations depuis [!DNL Slack], vo
    Les 20 premiers éléments de votre **[!UICONTROL Approbations]** affichage de la liste. Des informations supplémentaires sur les éléments s’affichent également, telles que le nom de l’utilisateur qui l’a demandé ou le nom du projet auquel l’élément appartient.
 
 1. Cliquez sur **[!UICONTROL + restant `<number>` more]** pour afficher d’autres éléments.
-
-   ![slack_access_approbations_list.png](assets/slack-access-approvals-list-350x213.png)
-
-   ![](assets/slack-approve-a-document-350x362.png)
-
-   ![](assets/slack-approve-task-notification-350x105.png)
 
 1. Envisagez de gérer les validations pour les objets suivants :
 

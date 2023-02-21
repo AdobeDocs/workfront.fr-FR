@@ -7,7 +7,7 @@ description: Vous pouvez convertir un email externe (non généré par [!DNL Ado
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -102,8 +102,6 @@ Avant de créer un problème à partir de [!DNL G Suite], vous devez
    Au bas de la **[!UICONTROL Détails]** vous pouvez également cliquer sur **[!UICONTROL Afficher dans Workfront]** pour accéder au nouveau problème dans Workfront.
 
    Lorsque vous actualisez votre navigateur, un message contenant un lien au bas de la page [!UICONTROL Workfront for G Suite] confirme que vous avez converti le courrier électronique en un problème :
-
-   ![](assets/email-was-converted.png)
 
    Vous pouvez cliquer sur le lien pour accéder à la vue Détails, au sein du [!DNL Workfront for G Suite] pour le problème que vous avez créé.
 

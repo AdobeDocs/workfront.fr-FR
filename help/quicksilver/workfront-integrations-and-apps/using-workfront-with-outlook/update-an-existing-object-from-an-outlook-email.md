@@ -6,9 +6,9 @@ description: Vous pouvez mettre à jour un projet, une tâche ou un problème ex
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ Votre [!DNL Workfront] L’administrateur doit activer [!DNL Outlook for Office]
 1. Cliquez sur le bouton **[!DNL Workfront]** dans le coin supérieur droit de l’e-mail pour afficher le module complémentaire Workfront.\
    Vous devrez peut-être cliquer sur la flèche pointant vers le bas dans le coin supérieur droit de votre email pour accéder à la variable [!DNL Workfront] icône .
 
-1. Cliquez sur le bouton **[!UICONTROL Menu]** pour afficher la liste des [!DNL Workfront] options.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Cliquez sur le bouton **[!UICONTROL Menu]** icon ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) pour afficher la liste des [!DNL Workfront] options.\
+
 
 1. Cliquez sur **[!UICONTROL Mettre à jour] dans Workfront**.\
-   ![Outlook_Update_in_workfront_menu.png](assets/outlook-update-in-workfront-menu-253x345.png)\
    Vous pouvez mettre à jour les informations suivantes du courrier électronique avant de les enregistrer en tant que tâche :
 
    * **[!UICONTROL Type]**: Sélectionnez le type d’objet que vous mettez à jour. Vous pouvez sélectionner **[!UICONTROL Projet]**, **[!UICONTROL Tâche]** ou **[!UICONTROL Problème]**. L’objet sélectionné détermine les résultats qui s’affichent dans la variable **[!UICONTROL Nom]** ci-dessous. Si vous n’êtes pas certain du type d’objet, sélectionnez **[!UICONTROL Tous]** pour rechercher simultanément des projets, des tâches et des problèmes.
@@ -67,7 +66,6 @@ Votre [!DNL Workfront] L’administrateur doit activer [!DNL Outlook for Office]
 1. (Facultatif) Cliquez sur **[!UICONTROL Inclure les autres]**, commencez à saisir le nom des utilisateurs que vous souhaitez inclure dans la mise à jour, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.\
    Répétez cette procédure pour inclure d’autres utilisateurs, puis cliquez sur **[!UICONTROL Terminé]**.\
    Par défaut, l’utilisateur auquel vous répondez reçoit une notification, que vous l’ayez ou non incluse.\
-   ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)
 
 1. (Facultatif) Cliquez sur le **[!UICONTROL Verrouiller]** pour limiter cette mise à jour aux utilisateurs de votre société. Lorsque la mise à jour est verrouillée, les utilisateurs en dehors de votre entreprise ne peuvent pas la voir.
 

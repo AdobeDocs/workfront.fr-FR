@@ -6,9 +6,9 @@ description: Vous pouvez créer un [!DNL Adobe Workfront] à partir d’un courr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ Pour créer une [!DNL Workfront] Demander à [!DNL Outlook]:
 1. Cliquez sur le bouton **[!DNL Workfront]** dans le coin supérieur droit de l’e-mail pour afficher le module complémentaire Workfront.\
    Vous devrez peut-être cliquer sur la flèche pointant vers le bas dans le coin supérieur droit de votre email pour accéder à la variable [!DNL Workfront] icône .
 
-1. Cliquez sur le bouton **[!UICONTROL Menu]** pour afficher la liste des [!DNL Workfront] options.
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. Cliquez sur le bouton **[!UICONTROL Menu]** icon ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) pour afficher la liste des [!DNL Workfront] options.
 
 1. Cliquez sur **[!UICONTROL Envoyer la requête]**.
 1. Dans le **[!UICONTROL Sélection d’un type de requête]** , sélectionnez la file d’attente de requête dans laquelle vous souhaitez envoyer la requête.
-
-   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
 
 1. Indiquez les informations suivantes :\
    Selon la configuration de la file d’attente des demandes, les champs disponibles peuvent varier. Pour obtenir la liste complète et la description des champs possibles, voir [Créer et envoyer [!DNL Adobe Workfront] requests](../../manage-work/requests/create-requests/create-submit-requests.md) article.
@@ -79,4 +75,3 @@ Pour créer une [!DNL Workfront] Demander à [!DNL Outlook]:
 
 1. (Facultatif) Revenez à [!DNL Outlook], puis sélectionnez l’email d’origine.\
    En haut de la [!DNL Workfront] module complémentaire, notez la confirmation avec un lien que le courrier électronique a été ajouté à Workfront en tant que demande. Le lien comprend la date à laquelle il a été converti.\
-   ![perspectives_submit_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)

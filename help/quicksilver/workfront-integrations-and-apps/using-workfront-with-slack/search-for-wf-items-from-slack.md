@@ -6,9 +6,9 @@ description: Vous pouvez rechercher [!DNL Adobe Workfront] éléments de [!DNL S
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 6%
 
 ---
@@ -60,8 +60,7 @@ Avant de pouvoir rechercher [!DNL Workfront] éléments de [!DNL Slack], vous de
 
    >[!NOTE]
    >
-   >Les commandes sont sensibles à la casse. Le mot-clé n’est pas sensible à la casse et doit être saisi sans crochets ni guillemets.\
-   >![slack_search_result_select_object_box.png](assets/slack-search-result-select-object-box-350x30.png)   >
+   >Les commandes sont sensibles à la casse. Le mot-clé n’est pas sensible à la casse et doit être saisi sans crochets ni guillemets.
 
 1. Dans le champ qui s’affiche, sélectionnez un type d’objet parmi les options suivantes :
 

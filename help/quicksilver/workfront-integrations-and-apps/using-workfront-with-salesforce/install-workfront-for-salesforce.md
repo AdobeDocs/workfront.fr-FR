@@ -6,9 +6,9 @@ description: Pour installer l’application avant qu’elle ne soit disponible d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -79,8 +79,6 @@ Pour installer l’application avant qu’elle ne soit disponible :
 
 1. Vérifiez les **[!UICONTROL Oui, accorder l’accès à ces sites web tiers]** de la boîte.
 
-   ![salesforce_grant_access.png](assets/salesforce-grant-access-350x249.png)
-
    Un écran de chargement s’affiche et l’installation peut prendre un certain temps.
 
 1. Cliquez sur **[!UICONTROL Terminé]** une fois l’installation terminée.
@@ -123,11 +121,9 @@ Pour installer l’application avant qu’elle ne soit disponible :
 
    Le [!DNL Workfront] L’application est répertoriée sous **[!UICONTROL Packages installés]**.
 
-   ![salesforce_classic_Installed_Packages.png](assets/salesforce-classic-installed-packages-350x129.png)
 
 1. Accédez à **[!UICONTROL Configuration > Contrôles de sécurité > Paramètres du site distant]**.
 1. (Conditionnel) Si vous ne voyez pas votre [!DNL Workfront] URL répertoriée dans le **[!UICONTROL Tous les sites distants]** liste, cliquez sur **[!UICONTROL Nouveau site distant]**.\
-   ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. Spécifiez la variable **[!UICONTROL Nom du site distant]**.\
    Par exemple, *[!DNL Workfront]*.
@@ -167,15 +163,11 @@ Pour installer l’application avant qu’elle ne soit disponible :
 
    Le [!DNL Workfront] L’application est répertoriée sous **[!UICONTROL Packages installés]**.
 
-   ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
-
 1. Accédez à **[!UICONTROL Configuration].**
 1. Dans le **[!UICONTROL PARAMÈTRES]** , développez &#x200B;**[!UICONTROL Sécurité].**
 
 1. Cliquez sur **[!UICONTROL Paramètres du site distant]**.
 1. (Conditionnel) Si vous ne voyez pas votre [!DNL Workfront] URL répertoriée dans le **[!UICONTROL Tous les sites distants]** liste, cliquez sur **[!UICONTROL Nouveau site distant]**.
-
-   ![Salesforce_remote_site_settings_lightning.png](assets/salesforce-remote-site-settings-lightning-350x136.png)
 
 1. Spécifiez la variable **[!UICONTROL Nom du site distant]**.
 

@@ -6,9 +6,9 @@ description: Une fois que vous avez installé et configuré [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,6 @@ Avant d’accéder à vos favoris et aux éléments récents de [!DNL Slack], vo
 
    Une liste de vos Favoris s’affiche.
 
-* ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
-
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher plus]** pour répertorier d’autres Favoris.
 1. Cliquez sur le nom d’un favori pour l’ouvrir dans [!DNL Workfront] dans un nouvel onglet du navigateur.
 
@@ -73,7 +71,6 @@ Avant d’accéder à vos favoris et aux éléments récents de [!DNL Slack], vo
    >Les commandes sont sensibles à la casse. Vous pouvez lancer votre commande avec `/wf` au lieu de `/workfront`.
 
    Une liste de vos éléments récents s’affiche, dans l’ordre où ils ont été consultés en dernier, la plus récente en haut. Les éléments sont répertoriés trois à la fois et sont regroupés par type d’objet.\
-   ![slack_recent_items.png](assets/slack-recent-items-350x249.png)
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher plus]** pour répertorier d’autres éléments récents.
 1. (Facultatif) Cliquez sur le nom d’un élément auquel vous avez récemment accédé pour l’ouvrir dans [!DNL Workfront] dans un nouvel onglet du navigateur.

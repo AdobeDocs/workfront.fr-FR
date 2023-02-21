@@ -7,7 +7,7 @@ description: Vous pouvez mettre à jour un projet, une tâche ou un problème ex
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -57,8 +57,6 @@ Avant de pouvoir mettre à jour une [!DNL Workfront] élément à l’aide du co
 1. Sous **[!UICONTROL Type]**, cliquez sur la flèche déroulante, puis sur le type d’objet dans lequel vous souhaitez ajouter la mise à jour.
 1. Cliquez sur le bouton **[!UICONTROL Rechercher]** , commencez à saisir le nom de l’objet auquel vous souhaitez ajouter la mise à jour, puis sélectionnez l’élément lorsqu’il apparaît dans la liste ci-dessous.
 
-   ![](assets/click-search-for-task-issue.png)
-
    Cette option varie en fonction de ce que vous avez sélectionné à l’étape 3. Il se peut que **[!UICONTROL Recherche d’un projet]**, **[!UICONTROL Recherche d’une tâche]** ou **[!UICONTROL Recherche d’un problème]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ Avant de pouvoir mettre à jour une [!DNL Workfront] élément à l’aide du co
 1. Cliquez sur **[!UICONTROL Mettre à jour]**.
 
    Lorsque vous actualisez votre navigateur, un message contenant un lien au bas de la page [!DNL Workfront for G Suite] confirme que vous avez converti l&#39;email en une mise à jour :
-
-   ![](assets/email-was-converted-as-update.png)
 
    Vous pouvez cliquer sur le lien pour accéder au [!UICONTROL Mises à jour] dans [!DNL Workfront] pour l’objet que vous avez spécifié à l’étape 4.
 

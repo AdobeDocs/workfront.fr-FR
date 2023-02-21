@@ -6,9 +6,9 @@ description: Vous pouvez lier [!DNL Jira] problèmes à [!DNL Adobe Workfront] t
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Pour lier automatiquement une [!DNL Workfront] à une tâche [!DNL Jira] Problè
 
    Dans le **[!UICONTROL Mises à jour]** dans la nouvelle tâche, un commentaire indique qu’un nouveau problème a également été créé dans [!DNL Jira].
 
-   ![WF_confirmation_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. (Facultatif) Cliquez sur le lien vers le problème Jira pour l’ouvrir dans Jira.
 
    Ou
@@ -142,15 +140,14 @@ Pour lier manuellement [!DNL Jira] problèmes à [!DNL Workfront] items :
 
    Ou
 
-   Dans la [!UICONTROL Détails] area ![](assets/details-icon-in-left-panel.png), copiez la variable **[!UICONTROL Numéro de référence]** de l’élément dans Workfront.
+   Dans la [!UICONTROL Détails] , copiez la zone **[!UICONTROL Numéro de référence]** de l’élément dans Workfront.
 
    >[!NOTE]
    >
    >Vous devez disposer d’un [!DNL Workfront] licence pour se connecter à [!DNL Workfront]. Sinon, une [!DNL Workfront] l’utilisateur doit vous fournir ces informations.
 
 1. Dans [!DNL Jira], accédez à un problème que vous souhaitez lier manuellement à la variable [!DNL Workfront] élément .
-1. Dans le [!DNL Workfront] panneau droit, collez le **URL** ou le **[!UICONTROL Numéro de référence]** de [!DNL Workfront] que vous souhaitez lui associer.\
-   ![manuellement_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. Dans le [!DNL Workfront] panneau droit, collez le **URL** ou le **[!UICONTROL Numéro de référence]** de [!DNL Workfront] que vous souhaitez lui associer.
 
 1. Cliquez sur **[!UICONTROL Lien]**.
 
@@ -168,8 +165,6 @@ Pour lier manuellement [!DNL Jira] problèmes à [!DNL Workfront] items :
 
 Pour plus d’informations sur l’activation de champs supplémentaires à afficher dans le panneau de droite, voir [Configurer la synchronisation des champs entre [!DNL Jira] et [!DNL Workfront] Éléments](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) dans [Configurer [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). Un commentaire de la [!DNL Workfront] L’administrateur associé à l’intégration est publié dans la variable **[!DNL Workfront]** de l’onglet [!DNL Jira] problème pour confirmer qu’une nouvelle [!DNL Jira] a été créé. Le commentaire contient un lien vers la variable [!DNL Jira] problème.
 
-![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## Dissocier les éléments entre [!DNL Jira] et [!DNL Workfront]
 
 Éléments liés entre [!DNL Jira] et [!DNL Workfront] peut être dissocié manuellement de [!DNL Jira].\
@@ -185,6 +180,6 @@ Une seule [!DNL Workfront] L’administrateur peut dissocier des éléments qui 
 Pour dissocier une [!DNL Jira] d’un problème [!DNL Workfront] item:
 
 1. Dans [!DNL Jira], accédez à un problème lié à un [!DNL Workfront] tâche ou problème.
-1. Accédez au [!DNL Workfront] dans le panneau de droite, puis cliquez sur **[!UICONTROL Dissocier]** puis cliquez sur **[!UICONTROL Dissocier]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. Accédez au [!DNL Workfront] dans le panneau de droite, puis cliquez sur **[!UICONTROL Dissocier]** puis cliquez sur **[!UICONTROL Dissocier]**.
+
    Le lien précédemment lié [!DNL Jira] et [!DNL Workfront] les éléments ne sont désormais plus liés. Les champs, commentaires ou documents qui pourraient être mis à jour individuellement à l’avenir ne sont pas mis à jour sur leur contrepartie précédente dans l’autre application.

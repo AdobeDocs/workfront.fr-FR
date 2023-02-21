@@ -6,9 +6,9 @@ description: Une fois que vous avez installé et configuré [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ Avant de pouvoir créer des tâches et des problèmes à partir de [!DNL Slack],
    >
    >Les commandes sont sensibles à la casse. Vous pouvez lancer votre commande avec `/wf` au lieu de `/workfront`.
    >  
-   >Le Nom de la tâche doit être saisi tel qu’il apparaîtra dans la [!DNL Workfront] sans crochets ni guillemets.\
-   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+   >Le Nom de la tâche doit être saisi tel qu’il apparaîtra dans la [!DNL Workfront] sans crochets ni guillemets.
 
 1. (Facultatif) Commencez à saisir le nom d’un projet auquel vous souhaitez associer la nouvelle tâche et sélectionnez-le lorsqu’il apparaît dans la liste.\
    Vous recevez une confirmation indiquant que la tâche a été ajoutée au projet sélectionné.
@@ -81,8 +80,7 @@ Avant de pouvoir créer des tâches et des problèmes à partir de [!DNL Slack],
    >[!NOTE]
    >
    >Les commandes sont sensibles à la casse. Vous pouvez démarrer votre commande avec &quot;/wf&quot; au lieu de &quot;/workfront.&quot; \
-   >Le nom du problème doit être saisi tel qu’il apparaîtra dans la [!DNL Workfront] sans crochets ni guillemets.\
-   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+   >Le nom du problème doit être saisi tel qu’il apparaîtra dans la [!DNL Workfront] sans crochets ni guillemets.
 
 1. (Facultatif) Commencez à saisir le nom d’un projet auquel vous souhaitez associer le nouveau problème et sélectionnez-le lorsqu’il apparaît dans la liste.\
    Vous recevez une confirmation indiquant que le problème a été ajouté au projet sélectionné.

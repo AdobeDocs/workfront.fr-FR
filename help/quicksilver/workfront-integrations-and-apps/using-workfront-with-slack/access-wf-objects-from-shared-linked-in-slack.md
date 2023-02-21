@@ -6,9 +6,9 @@ description: Lorsque le lien est [!DNL Adobe Workfront] les objets sont partagé
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,6 @@ Avant d’accéder à vos favoris et aux éléments récents de [!DNL Slack], vo
    >[!NOTE]
    >
    >L’utilisateur qui partage le lien doit avoir au moins [!UICONTROL Affichage] autorisations sur le projet afin que vous puissiez voir des informations supplémentaires à son sujet.
-
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
 1. (Facultatif) Cliquez sur le nom du projet pour l’ouvrir dans [!DNL Workfront] dans un nouvel onglet du navigateur.
 1. Envisagez de consulter les informations supplémentaires suivantes sur le projet :

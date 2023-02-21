@@ -7,7 +7,7 @@ description: Vous pouvez convertir un email externe (non généré par Adobe) [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -59,8 +59,6 @@ Avant de pouvoir créer un [!DNL Workfront] tâche dans [!DNL G Suite], vous dev
 1. Si la variable [!UICONTROL Workfront for G Suite] ne s’affiche pas, cliquez sur le bouton [!DNL Workfront] icon ![](assets/wf-lion-icon.png) dans le [!DNL G Suite] la barre latérale des modules complémentaires située à l’extrémité droite de la page.
 1. Avec le message électronique ouvert dans [!DNL G Suite], cliquez sur une option dans [!DNL Workfront for G Suite] pour convertir le courrier électronique en un nouveau [!DNL Workfront] tâche.
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. Sélectionnez une **[!UICONTROL Créer]** pour indiquer si la tâche va faire partie d’un projet ou d’une tâche personnelle indépendante d’un projet.
 1. Si vous souhaitez joindre la tâche à un projet parent, cliquez sur **[!UICONTROL Nom du projet]**, commencez à saisir le nom du projet dans lequel vous souhaitez que la tâche soit effectuée, puis cliquez sur le nom du projet lorsqu’il apparaît dans la liste ci-dessous.
 1. Apportez l’une des modifications suivantes :
@@ -107,8 +105,6 @@ Avant de pouvoir créer un [!DNL Workfront] tâche dans [!DNL G Suite], vous dev
    Au bas de la **[!UICONTROL Détails]** vous pouvez également cliquer sur **[!UICONTROL Afficher dans[!DNL Workfront]]** pour accéder à la nouvelle tâche dans Workfront.
 
    Lorsque vous actualisez votre navigateur, un message contenant un lien au bas de la page [!DNL Workfront for G Suite] confirme que vous avez converti l&#39;email en une tâche :
-
-   ![](assets/email-was-converted.png)
 
    Vous pouvez cliquer sur le lien pour accéder à la vue Détails, au sein du [!DNL Workfront for G Suite] pour la tâche que vous avez créée.
 

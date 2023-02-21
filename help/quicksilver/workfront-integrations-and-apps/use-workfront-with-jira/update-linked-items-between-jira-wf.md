@@ -6,9 +6,9 @@ description: Lorsque vous liez [!DNL Jira] problèmes à [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ La liste suivante indique laquelle [!DNL Workfront] synchroniser les champs avec
   </tr> 
   <tr> 
    <td>Forms et champs personnalisés</td> 
-   <td> <p> Afficher dans le [!DNL Workfront] panneau droit de [!DNL Jira] problème. <br>Seuls les champs personnalisés ayant une valeur réelle s’affichent dans le panneau.<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel.png" style="width: 1012;height: 1014;"></p> <p>Remarque : Les sections Formulaire personnalisé s’affichent avec le niveau d’accès de la [!DNL Workfront] administrateur. </p> </td> 
+   <td> <p> Afficher dans le [!DNL Workfront] panneau droit de [!DNL Jira] problème. <br>Seuls les champs personnalisés ayant une valeur réelle s’affichent dans le panneau.<br></p> <p>Remarque : Les sections Formulaire personnalisé s’affichent avec le niveau d’accès de la [!DNL Workfront] administrateur. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Problème ou priorité de la tâche]</td> 
@@ -201,8 +201,7 @@ Pour consigner l’heure d’un élément dans [!DNL Jira] et le faire enregistr
 
 1. Se connecter [!DNL Jira].
 1. Accédez au [!DNL Jira] qui est liée au [!DNL Workfront] élément .
-1. Développez l’objet **[!UICONTROL Plus]** et cliquez sur **[!UICONTROL Journal]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
+1. Développez l’objet **[!UICONTROL Plus]** et cliquez sur **[!UICONTROL Journal]**.
 
 1. Dans le **[!UICONTROL Durée]** , indiquez le temps passé à travailler sur ce problème. Vous devez spécifier l’heure à l’aide des périodes suivantes :
 
@@ -225,8 +224,6 @@ Vous pouvez consigner l’heure uniquement sur le lien [!DNL Workfront] de l’�
 
 1. Cliquez sur le bouton **[!UICONTROL Temps journal]** icône .
 
-   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
-
 1. Indiquez le nombre de **[!UICONTROL Heures]** et **[!UICONTROL Minutes]** vous souhaitez vous connecter pour le problème.
 
 1. Cliquez sur **[!UICONTROL Temps journal]**.
@@ -246,7 +243,7 @@ Pour commenter depuis [!DNL Jira] à [!DNL Workfront] item:
 
    Les détails de la variable [!DNL Workfront] doit s’afficher dans le [!DNL Workfront] panneau droit du problème.
 
-1. Cliquez sur le bouton **[!UICONTROL Commentaires]** dans le [!DNL Workfront] ou dans le panneau **[!UICONTROL Commentaires]** . ![Jira_comments_icon.png](assets/jira-comments-icon.png)
+1. Cliquez sur le bouton **[!UICONTROL Commentaires]** dans le [!DNL Workfront] ou dans le panneau **[!UICONTROL Commentaires]** .
 
 1. Commencez à saisir un commentaire, puis cliquez sur **[!UICONTROL Envoyer]**.
 

@@ -7,7 +7,7 @@ description: Vous pouvez accéder à [!DNL Adobe Workfront] Contenu de l’accue
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -56,11 +56,7 @@ Avant d’accéder à [!UICONTROL Accueil] contenu provenant de [!DNL G Suite], 
 1. Si la variable [!UICONTROL Workfront for G Suite] ne s’affiche pas, cliquez sur le bouton [!DNL Workfront] icon ![](assets/wf-lion-icon.png) dans le [!DNL G Suite] la barre latérale des modules complémentaires située à l’extrémité droite de la page.
 1. Si une flèche gauche s’affiche en haut de la page [!DNL Workfront] pour [!DNL G Suite], cliquez sur la flèche pour accéder au [!UICONTROL Accueil] zone.
 
-   ![](assets/left-arrow-to-home.png)
-
 1. Dans le **[!UICONTROL Tri par]** , cliquez sur la flèche d’agrandissement ![](assets/dropdown-arrow.png), puis cliquez sur une option pour spécifier le mode de regroupement de vos tâches afin que vous puissiez trouver celle qui vous intéresse.
-
-   ![](assets/sort-by-area.png)
 
    Lorsque vous triez par **[!UICONTROL Date de validation]** ou **[!UICONTROL Fin planifiée]** date, les tâches les plus anciennes se trouvent en haut.
 

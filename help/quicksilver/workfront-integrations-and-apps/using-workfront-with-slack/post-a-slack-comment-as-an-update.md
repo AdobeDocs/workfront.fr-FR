@@ -6,9 +6,9 @@ description: Vous pouvez ajouter un commentaire de Slack en tant que mise à jou
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,13 @@ Avant de publier un [!DNL Slack] comme mise à jour, vous devez
 
 ## Publier une [!DNL Slack] commentaire comme mise à jour dans [!DNL Workfront]
 
-1. Pointez sur un commentaire que vous avez ajouté à un [!DNL Slack] , puis cliquez sur **[!UICONTROL Autres actions]** icône .
-
-   ![](assets/slack-more-icon.png)
+1. Pointez sur un commentaire que vous avez ajouté à un [!DNL Slack] , puis cliquez sur **[!UICONTROL Autres actions]** Icône (à trois points).
 
 1. Cliquez sur **[!UICONTROL Publier une mise à jour] ...`<the name of your Workfront app>`**.
 
    >[!NOTE]
    >
    >Vous devrez peut-être cliquer sur **[!UICONTROL Plus de raccourcis de message]** et faites défiler l’écran vers le bas pour localiser la variable **[!UICONTROL Publier une mise à jour]** .
-   >
-   >
-   >![](assets/slack-more-message-shortcuts.png)
-
 1. Dans le **[!UICONTROL Projet, tâche ou problème]** , commencez à saisir le nom d’un projet, d’une tâche ou d’un problème pour lequel vous souhaitez ajouter la mise à jour, puis cliquez sur le nom du projet, de la tâche ou du problème lorsqu’il apparaît dans la liste. Vous devez avoir accès à l’affichage d’un objet avant qu’il n’apparaisse dans la liste.
 1. (Facultatif) Dans le **[!UICONTROL Inclure un autre utilisateur]** , commencez à saisir le nom d’un utilisateur que vous pouvez afficher et que vous souhaitez inclure dans votre mise à jour, puis cliquez dessus lorsqu’il apparaît dans la liste.
 1. Cliquez sur **[!UICONTROL Envoyer]**.
@@ -66,6 +60,6 @@ Avant de publier un [!DNL Slack] comme mise à jour, vous devez
 
 1. (Facultatif) Cliquez sur le nom du projet, de la tâche ou du problème pour lequel vous avez publié la mise à jour afin d’y accéder. [!DNL Workfront].
 
-   Il existe une indication dans [!DNL Workfront] que la mise à jour a été [!DNL Slack].
+   Lorsqu’un commentaire provient de [!DNL Slack], le commentaire affiche le message &quot;[!UICONTROL Publié à partir de [!DNL Slack]]&quot; dans [!DNL Workfront].
 
    ![](assets/slack-update-posted-from-slack-350x112.png)

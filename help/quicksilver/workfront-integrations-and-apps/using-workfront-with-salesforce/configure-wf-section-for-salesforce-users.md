@@ -6,9 +6,9 @@ description: Après l’installation [!DNL Adobe Workfront] pour Salesforce as a
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -68,8 +68,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités décr
 
    Cliquez sur **[!UICONTROL Nouveau]** pour ajouter une nouvelle mise en page.
 
-1. (Facultatif) Faites glisser le **[!UICONTROL Section]** à la mise en page et déposez-la à l’emplacement souhaité.\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
+1. (Facultatif) Faites glisser le **[!UICONTROL Section]** à la mise en page et déposez-la à l’emplacement de votre choix.\
 
 1. (Facultatif) Attribuez un nom à la nouvelle section.
 
@@ -82,15 +81,13 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités décr
 1. Cliquez sur **[!UICONTROL OK]**.
 1. Dans le **[!UICONTROL Disposition]** zone, cliquez sur **[!UICONTROL Pages Visualforce].**
 
-1. Faites glisser et déposez le **[!UICONTROL WorfrontOpportunities]** à la nouvelle section dans la **[!UICONTROL Opportunités]** Disposition.
+1. Faites glisser et déposez le **[!UICONTROL WorkfrontOpportunities]** à la nouvelle section dans la **[!UICONTROL Opportunités]** Disposition.
 
    Ou
 
    Faites glisser et déposez le **[!UICONTROL WorkfrontComptes]** à la nouvelle section dans la  **[!UICONTROL Compte]** Disposition.\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Propriétés]** dans l’angle supérieur droit du composant nouvellement ajouté.\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
+1. Cliquez sur le bouton **[!UICONTROL Propriétés]** en haut à droite du composant nouvellement ajouté.\
 
 1. Pour obtenir un affichage optimal, spécifiez les propriétés suivantes pour la variable [!DNL Workfront Visualforce] page :
 
@@ -104,8 +101,6 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités décr
    Tous les utilisateurs auxquels cette disposition est affectée peuvent désormais voir le [!DNL Workfront] de leur [!UICONTROL Opportunités] ou [!UICONTROL Comptes] objets.
 
    Les utilisateurs voient une [!DNL Workfront] écran de connexion sur [!DNL Workfront] . S’ils n’ont pas de [!DNL Workfront] , ils peuvent réduire la section, mais pas la supprimer de leur mise en page.
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## Configurez la variable [!DNL Workfront] dans la section [!DNL Salesforce Lightning Experience] framework
 
@@ -142,14 +137,11 @@ Vous pouvez ajouter la variable [!DNL Workfront] à la mise en page d’un [!DNL
 1. Accédez à un **[!UICONTROL Opportunité]** ou **[!UICONTROL Compte]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Configuration]** puis cliquez sur **[!UICONTROL Modifier la page]**.\
-   ![salesforce_lightning_occasion_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. Développez l’objet **[!UICONTROL Gestion personnalisée]** .
 1. Faites glisser et déposez le **[!DNL Workfront]** sur votre [!UICONTROL Opportunité] ou Page Compte .
 
    Nous vous recommandons d’utiliser la largeur totale de la page pour la variable [!DNL Workfront] au lieu d’une des colonnes de la mise en page.
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
@@ -159,4 +151,3 @@ Vous pouvez ajouter la variable [!DNL Workfront] à la mise en page d’un [!DNL
    >
    >Les utilisateurs voient une [!DNL Workfront] écran de connexion sur [!DNL Workfront] . S’ils n’ont pas de [!DNL Workfront] , ils peuvent réduire la section, mais pas la supprimer de leur mise en page. Les utilisateurs peuvent se connecter à l’aide de la méthode d’authentification que vous avez activée : Amélioration de l’authentification ou de l’URL SAML (Security Assertion Markup Language).
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)

@@ -7,7 +7,7 @@ description: Cet article décrit comment se connecter ou se déconnecter du [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -69,8 +69,6 @@ Avant de vous connecter ou de vous déconnecter [!DNL Workfront for G Suite], vo
 
 1. Si la variable [!UICONTROL Workfront for G Suite] ne s’affiche pas, cliquez sur le bouton [!DNL Workfront] icon ![](assets/wf-lion-icon.png) dans le [!DNL G Suite] la barre latérale des modules complémentaires située à l’extrémité droite de la page.
 1. Cliquez sur le bouton **[!UICONTROL Autres actions]** en haut de la page [!DNL Workfront for G Suite] du panneau.
-
-   ![](assets/more-actions-icon.png)
 
 1. Cliquez sur **[!UICONTROL Déconnexion]** dans le menu qui s’affiche.
 
