@@ -6,14 +6,16 @@ description: Vous pouvez consigner le temps passé sur les tâches dans&nbsp;Ado
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
 workflow-type: tm+mt
-source-wordcount: '2897'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
 
 # Temps de connexion
+
+{{highlighted-preview}}
 
 Vous pouvez consigner le temps passé sur les tâches dans Adobe Workfront afin d’indiquer le nombre d’heures passées à les traiter. Vous pouvez également consigner le temps qui n’est pas lié au travail, comme les vacances, le temps de maladie ou le temps que vous passez en réunion. L’heure de connexion s’affiche dans votre feuille de temps.
 
@@ -96,6 +98,7 @@ Dans Workfront, vous pouvez consigner l’heure de connexion dans les zones suiv
 * [Page d’accueil](#home)
 * [Projet, tâche ou problème](#project-task-or-issue)
 * [Panneau Résumé](#summary-panel)
+* <span class="preview">[Tableaux](#boards)</span>
 * [Application mobile](#mobile-app)
 
 ### Feuille de temps {#timesheet}
@@ -394,7 +397,20 @@ Pour plus d’informations, voir [Aperçu du résumé](../../workfront-basics/th
 
 ![](assets/summary-hour-log.png)
 
+<div class="preview">
+
+### Tableaux {#boards}
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
+
+Vous pouvez consigner le temps de connexion sur les cartes connectées sur un panorama Workfront. Il s’agit du même processus que le temps de connexion à une tâche ou à un problème, et les heures enregistrées sur la carte sont enregistrées sur la tâche ou le problème connecté.
+Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+</div>
 
 ### Application mobile {#mobile-app}
 
 Vous pouvez consigner le temps à partir de l’application mobile Workfront.
+Pour plus d’informations, voir [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)

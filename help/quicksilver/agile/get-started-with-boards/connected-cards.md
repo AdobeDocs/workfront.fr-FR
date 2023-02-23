@@ -6,14 +6,16 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: '1227'
+ht-degree: 0%
 
 ---
 
 # Utilisation de cartes connectées sur les panoramas
+
+{{highlighted-preview}}
 
 Vous pouvez ajouter sur votre panorama une carte qui est connectée à des tâches et à des problèmes existants dans [!DNL Workfront].
 
@@ -182,3 +184,27 @@ Après avoir créé une carte ad hoc, vous pouvez la convertir en carte connect�
    Le nom du projet s’affiche dans la zone Connexion sur les détails de la carte.
 
 1. Cliquez sur **[!UICONTROL Fermer]** pour revenir au panorama.
+
+<div class="preview">
+
+## Journal des heures sur une carte connectée
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
+
+Vous devez disposer des autorisations appropriées pour consigner les heures de connexion à la tâche ou au problème connecté.
+
+Par défaut, les champs de journalisation de l’heure ne s’affichent pas sur les cartes connectées. Vous devez activer [!UICONTROL **Heures**] dans le [!UICONTROL Configurer] area under [!UICONTROL Cartes]. Pour plus d’informations, voir [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. Saisissez le nombre d’heures pour la tâche ou le problème.
+1. Sélectionnez une [!UICONTROL Type d’heure] dans le menu déroulant, s’il est différent de la valeur par défaut.
+1. Cliquez sur [!UICONTROL **Temps journal**].
+
+   ![Heures de connexion sur la carte](assets/log-hours-on-card.png)
+
+   La durée de connexion à la carte est également enregistrée sur la tâche ou le problème connecté.
+
+Le temps de journalisation sur la carte est identique à celui d’une tâche ou d’un problème. Pour plus d’informations, voir &quot;Temps de connexion à un projet, à une tâche ou à un problème&quot; dans l’article . [Temps de connexion](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>
