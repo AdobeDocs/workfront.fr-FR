@@ -6,44 +6,63 @@ description: Mise à jour des intégrations qui utilisent le contrôle de versio
 author: John
 feature: Workfront API
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 889084f9a3740b40c84c658f9b0c17270b0a37d7
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # Mise à jour des intégrations qui utilisent le contrôle de version des API par défaut
 
+<!-- This article is going to need a complete revamp or to be removed-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
+
 Nous publions de nouvelles versions de l’API Adobe Workfront sur une base semestrielle. Chaque version est prise en charge pendant trois ans après sa publication, avec une année supplémentaire dans un état obsolète où la version est disponible mais pas prise en charge.
 
-Les intégrations qui ne spécifient pas de version de l’API dans l’URI sont automatiquement acheminées vers Default, qui a été abandonné. Pour que vos intégrations Workfront soient valides, vous devez spécifier une version d’API prise en charge dans vos requêtes d’API Workfront.
+Les intégrations qui ne spécifient pas de version de l’API dans l’URI sont automatiquement acheminées vers Default. Si vous souhaitez que votre appel API utilise une version spécifique de l’API, vous devez spécifier cette version dans vos requêtes d’API Workfront.
+
+>[!NOTE]
+>
+>Si votre entreprise utilise actuellement l’API par défaut, votre administrateur Workfront a reçu un message du centre d’annonces contenant des instructions supplémentaires sur l’API par défaut.
+
+
+<!--
+Integrations that do not specify a version of the API in the URI are automatically routed to Default, which has been deprecated. In order for your Workfront integrations to be valid, you must specify a supported API version in your Workfront API requests.
+-->
 
 Pour en savoir plus sur la spécification d’une version dans vos requêtes d’API, voir [Spécification d’une version d’API dans vos intégrations](../../wf-api/api/specify-api-version-integrations.md).
 
-## Présentation de la version par défaut de l’API
+## Remarques concernant l’utilisation de l’API par défaut
 
-L’objectif d’origine de l’&quot;API par défaut&quot; était de la mapper à la dernière version de l’API Workfront. Les clients disposant d’intégrations de base appelées par défaut peuvent ainsi ne jamais avoir à mettre à jour leurs requêtes d’API.
+Tenez compte des points suivants lorsque vous utilisez l’API Workfront par défaut :
 
-En 2011, Workfront a publié la version 3.0 de l’API. La valeur par défaut a été automatiquement déplacée vers la version 3.0, ce qui a rompu de nombreuses intégrations client trop complexes pour utiliser la version 3.0 sans mise à jour. Par conséquent, Workfront a restauré cette modification et a laissé la version par défaut à la version 2.
+* Après la version 23.2, la version par défaut de l’API est définie sur la version la plus récente. Tout appel API sans la version spécifiée utilise la version par défaut. Chaque fois que Workfront publie une nouvelle version de l’API, la version par défaut est mise à jour vers la dernière version. **Par conséquent, après la publication d’une nouvelle version de l’API Workfront, tous les appels d’API qui utilisent la version par défaut doivent être vérifiés pour s’assurer que la fonctionnalité est toujours prise en charge.**.
+* Si votre entreprise utilise actuellement l’API par défaut obsolète, votre administrateur Workfront a reçu un message du centre d’annonces contenant des instructions supplémentaires sur l’API par défaut.
+* <span class="preview">L’API par défaut de l’environnement Aperçu est actuellement définie sur la version la plus récente. L’API par défaut de l’environnement de production sera définie sur la version la plus récente après la version 23.2,</span>
 
-Malheureusement, cette rubrique n’a jamais été revisitée. À l’heure où nous prévoyons d’augmenter considérablement les fonctionnalités de l’API, nous sommes obligés de abandonner les anciennes versions de notre API, y compris Default. Plutôt que de mettre à jour Default, ce qui pourrait sans aucun doute interrompre davantage d’intégrations, nous supprimons entièrement le concept de version par défaut. Cela encourage nos clients à utiliser des versions stables de nos API et à maintenir leurs intégrations sur un cycle de trois ans au plus.
+Pour consulter la version la plus récente de l’API, voir [Contrôle de version des API et planification de la prise en charge](../../wf-api/api/api-version-support-schedule.md).
 
-## Dépréciation de la valeur par défaut
+<!--
 
-Afin d’améliorer l’API Workfront, nous sommes en train de supprimer les anciennes versions d’API qui ont dépassé notre période de prise en charge de trois ans. L’une de ces versions est la version 2, à laquelle la valeur par défaut est mappée. Cette version a été publiée en 2010 et une grande partie de la logique prise en charge dans l’application Attask/Workfront à l’époque n’existe plus ou a considérablement changé.
+## Deprecating Default
 
-Nous avons abandonné la valeur par défaut en juillet 2017 et nous ne désignerons plus une version spécifique de l’API comme version par défaut. À la place, toutes les demandes d’API Workfront doivent spécifier une version d’API spécifique.
+In an effort to improve the Workfront API, we are in the process of removing older API versions that have exceeded our support window of three years. One of these versions is Version 2, to which Default is mapped. This version was released in 2010, and much of the logic supported in the Attask/Workfront application at that time either no longer exists or has substantially changed.
+
+We deprecated Default in July 2017, and we will no longer designate a specific version of the API to be the default version. Instead, all Workfront API requests must specify a specific API version.
 
 >[!IMPORTANT]
 >
-> D’ici le 1er juillet 2018, toutes les intégrations Workfront qui utilisent la valeur par défaut doivent être mises à jour pour appeler une version d’API prise en charge spécifique. À compter de cette date, toutes les requêtes d’API Workfront utilisées par les intégrations qui ne spécifient pas de version échoueront.
+> By July 1, 2018 all of your Workfront integrations that use Default must be updated to call a specific supported API version. After that date, all of your Workfront API requests used by integrations that do not specify a version will fail.
 
-Pour en savoir plus sur la cadence d’obsolescence de Workfront, voir [Contrôle de version des API et planification de la prise en charge](../../wf-api/api/api-version-support-schedule.md).
+To learn about the Workfront deprecation cadence, see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md).
+
+-->
 
 ## Mise à jour de vos intégrations vers les versions d’API prises en charge
 
-Si vos demandes d’API Workfront ne spécifient pas de version, elles utilisent la valeur par défaut. Vous devez mettre à jour vos requêtes d’API pour spécifier une version prise en charge de l’API, de préférence vers la dernière API prise en charge.
+Si vos demandes d’API Workfront ne spécifient pas de version, elles utilisent la valeur par défaut. Nous vous recommandons de spécifier une version prise en charge de l’API, de préférence vers la dernière API prise en charge.
 
 Par exemple, la requête d’API Workfront suivante ne spécifie pas de version d’API :
 
@@ -51,14 +70,21 @@ Par exemple, la requête d’API Workfront suivante ne spécifie pas de version 
 
 Lorsque cette requête est effectuée, vous recevez une réponse avec du texte codé JSON qui spécifie les données de votre instance Workfront. Comme aucune version d’API n’est spécifiée dans cet URI, l’appel est défini sur Par défaut.
 
-Pour transformer une requête d’API par défaut en requête d’API versionnée, appelez simplement une version d’API prise en charge. Par exemple, l’URI suivant demande la version 9 :
+Pour transformer une requête d’API par défaut en requête d’API versionnée, appelez simplement une version d’API prise en charge. Par exemple, l’URI suivant demande la version 15 :
 
-`https://davidwhite.my.workfront.com/attask/api/`**v9.0**`/project/metadata`
+`https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
 Lors de la mise à jour de vos requêtes d’API Workfront, vous pouvez spécifier n’importe quelle version prise en charge de notre API. Pour en savoir plus sur le référencement d’une API spécifique, voir [Spécification d’une version d’API dans vos intégrations](../../wf-api/api/specify-api-version-integrations.md).
 
-Pour garantir une prise en charge maximale, vous devez appeler la dernière version (version 9). Vous trouverez une liste des API prises en charge dans [Contrôle de version des API et planification de la prise en charge](../../wf-api/api/api-version-support-schedule.md).
+Pour garantir une prise en charge maximale, vous devez appeler la dernière version. Vous trouverez une liste des API prises en charge dans [Contrôle de version des API et planification de la prise en charge](../../wf-api/api/api-version-support-schedule.md).
 
-Il est impératif que vous mettiez à jour les intégrations que vous avez qui utilisent Default. Si vous disposez actuellement d’intégrations qui ne spécifient pas de version, vous pouvez recevoir une notification de votre représentant Workfront, de votre responsable de la réussite client, de votre représentant de l’assistance ou un message du centre d’annonces.
+## Historique de la version par défaut de l’API
 
-Dès que possible, veillez à ce que vos intégrations soient mises à jour afin d’appeler une version prise en charge de notre API.
+L’objectif d’origine de l’&quot;API par défaut&quot; était de la mapper à la dernière version de l’API Workfront. Les clients disposant d’intégrations de base appelées par défaut peuvent ainsi ne jamais avoir à mettre à jour leurs requêtes d’API.
+
+En 2011, Workfront a publié la version 3.0 de l’API. La valeur par défaut a été automatiquement déplacée vers la version 3.0, ce qui a rompu de nombreuses intégrations client trop complexes pour utiliser la version 3.0 sans mise à jour. Par conséquent, Workfront a restauré cette modification et a laissé la version par défaut à la version 2.
+
+Depuis 2011, Workfront a considérablement amélioré les fonctionnalités de l’API. C’est pourquoi nous avons abandonné les anciennes versions de notre API. En 2017, plutôt que de mettre à jour Default, nous avons entièrement supprimé le concept d&#39;une version par défaut. Cela a pour but d’encourager nos clients à utiliser des versions stables de nos API et de maintenir leurs intégrations sur un cycle de, au plus, trois ans.
+
+Workfront rétablit désormais la version de l’API par défaut. L’API par défaut est définie sur la version la plus récente de l’API Workfront et est mise à jour vers la version la plus récente chaque fois qu’une nouvelle version est publiée.
+

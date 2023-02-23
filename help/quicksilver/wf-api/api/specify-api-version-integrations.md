@@ -6,35 +6,45 @@ description: Spécification d’une version d’API dans vos intégrations
 author: John
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 889084f9a3740b40c84c658f9b0c17270b0a37d7
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # Spécification d’une version d’API dans vos intégrations
 
-Tous les URI Adobe Workfront sont nécessaires pour référencer une version spécifique de l’API après la partie &quot;tâche/api&quot; de l’URI. L’exemple suivant appelle la version 7.0 :
-`attask/api/v7.0/<objectName>/<objectId>` Vérifiez que toutes vos intégrations appellent les API Workfront actuellement prises en charge.
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
+
+Tous les URI Adobe Workfront sont nécessaires pour référencer une version spécifique de l’API après la partie &quot;tâche/api&quot; de l’URI. L’exemple suivant appelle la version 15.0 :
+
+`attask/api/v15.0/<objectName>/<objectId>`
+
+Vérifiez que toutes vos intégrations appellent les API Workfront actuellement prises en charge.
 
 ## Calendrier des versions et des obsolescences des API Workfront
 
-Les nouvelles versions de l’API sont publiées tous les six à huit mois. Chaque version est prise en charge pendant trois ans après sa date de publication, avec une année supplémentaire dans un état obsolète où la version est disponible mais pas prise en charge.
+Les nouvelles versions de l’API sont publiées régulièrement, généralement deux fois par an. Chaque version est prise en charge pendant trois ans après sa date de publication, avec une année supplémentaire dans un état obsolète où la version est disponible mais pas prise en charge.
 
 Pour plus d’informations sur la cadence de publication et le planning d’obsolescence des API Workfront, voir [Contrôle de version des API et planification de la prise en charge](../../wf-api/api/api-version-support-schedule.md).
 
-Workfront a rendu obsolète la version par défaut de l’API à compter de juillet 2017. Cela signifie que Workfront ne désigne plus une version spécifique de l’API comme version par défaut. Tous les futurs URI d’API doivent spécifier une version de l’API pour être valides.
-
 >[!IMPORTANT]
 >
-> Toutes les intégrations utilisant la version d’API par défaut doivent être mises à jour afin d’appeler une version d’API prise en charge spécifique d’ici le 1er juillet 2018.
+>* Après la version 23.2, la version par défaut de l’API est définie sur la version la plus récente. Tout appel API sans la version spécifiée utilise la version par défaut. Chaque fois que Workfront publie une nouvelle version de l’API, la version par défaut est mise à jour vers la dernière version. Par conséquent, après la publication d’une nouvelle version de l’API Workfront, tous les appels d’API qui utilisent la version par défaut doivent être vérifiés pour s’assurer que la fonctionnalité est toujours prise en charge.
+>
+>* Si votre entreprise utilise actuellement l’API par défaut, votre administrateur Workfront a reçu un message du centre d’annonces contenant des instructions supplémentaires sur l’API par défaut.
+>
+>* <span class="preview">L’API par défaut de l’environnement Aperçu est définie sur la version la plus récente. L’API par défaut dans l’environnement de production sera définie sur la version la plus récente après la version 23.2 (avril 2023).</span>.
+>
+>Pour consulter la version la plus récente de l’API, voir [Contrôle de version des API et planification de la prise en charge](../../wf-api/api/api-version-support-schedule.md).
+
 
 ## Détermination de la version d’API que vous utilisez
 
-Vous pouvez déterminer la version de l’API que vous utilisez en vérifiant l’URI d’une requête HTTP envoyée à l’API Workfront. L’exemple suivant illustre un URI de demande Workfront qui spécifie la version 7 de l’API :
+Vous pouvez déterminer la version de l’API que vous utilisez en vérifiant l’URI d’une requête HTTP envoyée à l’API Workfront. L’exemple suivant illustre un URI de demande Workfront qui spécifie la version 15 de l’API :
 
-`https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
+`https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
 
 Si un URI ne spécifie pas de version, il utilise la version par défaut de l’API, comme illustré dans l’exemple suivant :
 
@@ -42,7 +52,7 @@ Si un URI ne spécifie pas de version, il utilise la version par défaut de l’
 
 >[!IMPORTANT]
 >
-> Les intégrations qui ne spécifient pas de version de l’API dans l’URI sont automatiquement acheminées vers la version par défaut de l’API et ne fonctionneront pas après le 1er juillet 2018.
+> Les intégrations qui ne spécifient pas de version de l’API dans l’URI sont automatiquement acheminées vers la version par défaut de l’API.
 
 ## Mise à jour des intégrations pour utiliser les versions d’API prises en charge
 

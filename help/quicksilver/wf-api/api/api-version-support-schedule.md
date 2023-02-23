@@ -6,10 +6,10 @@ description: Contrôle de version des API et planification de la prise en charge
 author: John
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 5804eed9451084614cc6331a4234ae88d9b58b3c
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 10%
+source-wordcount: '217'
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 
 
-Adobe Workfront publie de nouvelles versions d’API sur une base semestrielle, tous les six à huit mois. Les versions d’API sont prises en charge pendant 3 ans après la publication de . Les versions d’API antérieures à 3 ans ne sont plus prises en charge.
+Adobe Workfront publie régulièrement de nouvelles versions d’API, généralement deux fois par an. Les versions d’API sont prises en charge pendant 3 ans après la publication de . Les versions d’API antérieures à 3 ans ne sont plus prises en charge.
 
 Le tableau suivant indique le calendrier de publication et de prise en charge de l’API Workfront.
 

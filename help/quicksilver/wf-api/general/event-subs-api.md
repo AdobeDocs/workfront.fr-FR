@@ -6,7 +6,7 @@ description: API d’abonnement à un événement
 author: John
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c52f1839d3d00c71c6d567084dafd586d161d8fb
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 3%
@@ -83,7 +83,7 @@ Pour créer, interroger ou supprimer un abonnement à un événement, l’utilis
 **URL de la demande :**
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
 ```
 
 **En-têtes de requête :**
@@ -130,7 +130,7 @@ PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>
 
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
 ```
 
 ## Formation de la ressource d’abonnement
