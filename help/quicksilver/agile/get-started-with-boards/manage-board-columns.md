@@ -6,16 +6,14 @@ description: Un nouveau panorama contient trois colonnes par défaut. Vous pouve
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 3032fe730d57418d0680f2423ebb389cbe8bae1e
+source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
 
 # Gestion des colonnes de panorama
-
-{{highlighted-preview}}
 
 Un nouveau panorama contient trois colonnes par défaut. Vous pouvez ajouter d’autres colonnes, modifier l’ordre des colonnes, renommer les colonnes et supprimer celles dont vous n’avez pas besoin.
 
@@ -121,13 +119,17 @@ Si vous utilisez la limite de travaux en cours sur une colonne, aucun compteur d
       Les options de traduction de l’état des cartes connectées s’affichent également. (La traduction de l’état ne s’applique pas aux cartes ad hoc.) Ces options déterminent l’état appliqué à la tâche ou au problème dans [!DNL Workfront] lorsqu’une carte connectée est déplacée vers cette colonne.
 
    1. Pour modifier les sélections de traduction d’état par défaut, cliquez sur le bouton **[!UICONTROL Modifier]** icon ![Icône Modifier](assets/edit-icon-spectrum.png).
-   1. <span class="preview">Dans l’environnement Aperçu : Sélectionnez une [!UICONTROL **Personnalisé**] et un [!UICONTROL **Système**] à appliquer à la carte, pour les tâches et les problèmes.</span>
+   1. Si vous utilisez l’accord préalable sur les fonctionnalités : Sélectionnez une [!UICONTROL **Personnalisé**] à appliquer à la carte, pour les tâches et les problèmes.
 
-      <span class="preview">Lorsqu’une carte est déplacée vers cette colonne, [!DNL Workfront] tente d’abord d’appliquer l’état personnalisé (par exemple, Résolu). Si l’état personnalisé n’est pas disponible pour cette carte, Workfront applique plutôt l’état du système (Fermé, par exemple).</span>
+      Lorsqu’une carte est déplacée vers cette colonne, [!DNL Workfront] tente d’abord d’appliquer l’état personnalisé (par exemple, Résolu). Si l’état personnalisé n’est pas disponible pour cette carte, Workfront applique plutôt l’état du système (Fermé, par exemple). L’état du système est l’état que vous avez sélectionné à l’étape b ci-dessus.
 
-      <span class="preview">En outre, si l’état de la tâche ou du problème connecté est modifié dans l’état personnalisé ou système défini dans la stratégie de colonne, la carte est automatiquement déplacée dans la colonne.</span>
+      En outre, si l’état de la tâche ou du problème connecté est modifié dans l’état personnalisé ou système défini dans la stratégie de colonne, la carte est automatiquement déplacée dans la colonne.
 
-   1. Dans l’environnement de production : Sélectionnez un état pour les tâches et un état pour les problèmes. Seule la valeur par défaut [!DNL Workfront] les statuts sont disponibles, et non les statuts personnalisés.
+      >[!NOTE]
+      >
+      >La définition d’un état personnalisé par défaut pour la colonne n’est disponible que par le biais de l’accord préalable sur les fonctionnalités. Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
+   1. Si vous n’utilisez pas l’accord préalable sur les fonctionnalités : Sélectionnez un état pour les tâches et un état pour les problèmes. Seule la valeur par défaut [!DNL Workfront] les statuts sont disponibles, et non les statuts personnalisés.
 
       >[!NOTE]
       >
