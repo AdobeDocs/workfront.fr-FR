@@ -7,7 +7,7 @@ description: Lorsque vous créez un panorama à l’aide de cartes ad hoc et con
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 # Présentation des outils de planification Agile
 
-{{highlighted-preview}}
-
-Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez utiliser d’autres outils de planification agiles, notamment des limites de colonnes en cours de traitement, le regroupement de cartes en couloirs, une colonne d’entrée pouvant être utilisée pour un journal des travaux en souffrance, et <span class="preview">collections de panoramas</span>.
+Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez utiliser d’autres outils de planification agiles, notamment les limites de colonnes en cours, le regroupement de cartes en couloirs, une colonne d’entrée pouvant être utilisée pour un journal en souffrance et des collections de panoramas.
 
 Vous pouvez utiliser tous ou n’importe lequel de ces outils d’une manière qui fonctionne pour vous et votre équipe, sans vous engager dans une méthodologie agile spécifique telle que Kanban ou Scrum.
 

@@ -5,9 +5,9 @@ title: Personnalisation des champs affichés sur une carte
 description: Vous pouvez personnaliser les champs qui s’affichent sur une carte en désactivant un champ afin qu’il ne s’affiche pas dans le mode Carte complète ou condensé, ou en masquant un champ dans le mode Carte condensée.
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Personnalisation des champs affichés sur une carte
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->Cette fonctionnalité est disponible uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
+>Cette fonctionnalité est disponible uniquement par le biais de l’inclusion de la fonctionnalité anticipée pour [!DNL Workfront] [!UICONTROL Panoramas]. Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Par défaut, tous les champs disponibles sont affichés sur une carte, à la fois dans l’affichage complet lorsque la carte est ouverte et dans l’affichage condensé de la carte sur le panorama. Vous pouvez personnaliser les champs affichés en procédant comme suit :
 
@@ -62,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau Configurer .
 1. Développer [!UICONTROL **Cartes**].
 
-   Tous les champs sont activés par défaut.
+   La plupart des champs sont activés par défaut.
 
 1. Désactivez un champ pour le désactiver dans les deux modes Carte.
 1. Cliquez sur l’icône Masquer . ![Icône Masquer](assets/eye-hide-icon.png) en regard d’un champ pour le masquer sur l’affichage condensé.

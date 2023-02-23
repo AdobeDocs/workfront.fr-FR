@@ -6,7 +6,7 @@ description: Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
@@ -15,11 +15,9 @@ ht-degree: 5%
 
 # Création ou modification d’un panorama
 
-{{highlighted-preview}}
-
 Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer un panorama ou en modifier un existant.
 
-<span class="preview">Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Exigences d’accès
 
@@ -45,15 +43,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Création d’un panorama
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Pour créer un panorama autonome, cliquez sur **[!UICONTROL Créer]** dans le [!UICONTROL Panoramas] zone. <span class="preview">Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. Pour créer un panorama autonome, cliquez sur **[!UICONTROL Créer]** dans le [!UICONTROL Panoramas] zone. Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > Les collections ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!DNL Workfront] [!UICONTROL Panoramas].
 
-1. <span class="preview">Sélectionnez un modèle pour le panorama.</span>
-
-   <div class="preview">
+1. Sélectionnez un modèle pour le panorama.
 
    | Modèle | Description |
    |---------|----------|
@@ -64,8 +60,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >[!NOTE]
    >
    > Les modèles de panorama ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!DNL Workfront] [!UICONTROL Panoramas].
-
-   </div>
 
 1. Saisissez le nom du panorama dans la zone **[!UICONTROL Panorama]** et appuyez sur Entrée.
 1. Configurez le panorama suivant vos besoins.

@@ -6,7 +6,7 @@ description: Le [!UICONTROL panoramas] le tableau de bord affiche la liste des p
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 # Utilisation du tableau de bord des panoramas
 
-{{highlighted-preview}}
-
-Le tableau de bord des panoramas affiche la liste des panoramas <span class="preview">et collections</span> à laquelle vous avez accès, y compris les panoramas que vous avez créés et auxquels vous avez été ajouté. <span class="preview">Les panoramas individuels auxquels vous avez accès et qui ne font pas partie d’une collection s’affichent en premier.</span>
+Le tableau de bord des panoramas affiche la liste des panoramas et collections auxquels vous avez accès, y compris les panoramas que vous avez créés et auxquels vous avez été ajouté. Les panoramas individuels auxquels vous avez accès et qui ne font pas partie d’une collection s’affichent en premier.
 
 >[!NOTE]
 >
 >Les collections ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!DNL Workfront] [!UICONTROL Panoramas].
 
-Sur le tableau de bord, vous pouvez effectuer les opérations suivantes pour les panoramas et <span class="preview">collections</span>:
+Sur le tableau de bord, vous pouvez effectuer les opérations suivantes pour les panoramas et les collections :
 
 * Archivage d’un panorama (les collections ne peuvent pas être archivées)
 * Filtrage de la liste des panoramas
@@ -31,7 +29,7 @@ Sur le tableau de bord, vous pouvez effectuer les opérations suivantes pour les
 * Recherche d’un panorama ou d’une collection
 * Suppression d’un panorama ou d’une collection
 
-Pour plus d’informations sur la création d’un panorama ou la modification d’un panorama existant, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">Pour plus d’informations sur la création d’une collection, voir [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Pour plus d’informations sur la création d’un panorama ou la modification d’un panorama existant, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md). Pour plus d’informations sur la création d’une collection, voir [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Exigences d’accès
 
@@ -72,9 +70,9 @@ Vous pouvez filtrer le tableau de bord des panoramas pour afficher les principau
 
    Lorsqu&#39;un tri autre que le tri par défaut est appliqué sur le tableau de bord, un indicateur s&#39;affiche sur l&#39;icône de tri. ![Tri appliqué](assets/sort-applied-boards.png).
 
-## Recherche d’un panorama <span class="preview">ou une collection</span>
+## Recherche d’un panorama ou d’une collection
 
-<span class="preview">Vous pouvez rechercher un panorama spécifique dans la zone Panoramas ou rechercher une collection spécifique dans la zone Collections.</span>
+Vous pouvez rechercher un panorama spécifique dans la zone Panoramas ou rechercher une collection spécifique dans la zone Collections.
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
 1. Cliquez sur [!UICONTROL **Rechercher**] et saisissez un terme de recherche. Ensuite, appuyez sur Entrée.
@@ -102,11 +100,11 @@ L’archivage d’un panorama l’envoie à l’archive et vous pouvez le restau
 
 1. Pour restaurer un panorama archivé, cliquez sur le bouton **[!UICONTROL Plus]** menu ![Icône Plus de menu](assets/more-icon-spectrum.png) sur le panorama et sélectionnez **[!UICONTROL Restaurer]**.
 
-## Suppression d’un panorama <span class="preview">ou une collection</span>
+## Suppression d’un panorama ou d’une collection
 
 Lorsque vous supprimez un panorama, il est définitivement supprimé de [!DNL Workfront] et ne peuvent pas être restaurés. Toutes les cartes du panorama sont également supprimées avec le panorama.
 
-<span class="preview">La suppression d’une collection supprime tous les panoramas de la collection.</span>
+La suppression d’une collection supprime tous les panoramas de la collection.
 
 >[!NOTE]
 >
@@ -115,11 +113,9 @@ Lorsque vous supprimez un panorama, il est définitivement supprimé de [!DNL Wo
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) sur le panorama ou la collection, puis sélectionnez **[!UICONTROL Supprimer]**.
 
-   <span class="preview">Sur une collection, le menu se trouve à droite, en regard de l’option [!UICONTROL **Afficher la collection**] bouton .</span>
+   Sur une collection, le menu se trouve à droite, en regard de l’option [!UICONTROL **Afficher la collection**] bouton .
 
 1. Cliquez sur **[!UICONTROL Supprimer un panorama]** ou [!UICONTROL **Supprimer une collection**] sur le message de confirmation.
-
-<div class="preview">
 
 ## Déplacement d’un panorama vers une collection
 
@@ -135,5 +131,3 @@ Vous pouvez déplacer un panorama autonome dans une collection ou déplacer un p
 
    Le panorama est déplacé dans la collection et n’apparaît plus dans la [!UICONTROL Panoramas] zone.
 Si vous n’avez pas encore créé de collection, vous êtes invité à en créer une pour y déplacer le panorama.
-
-</div>

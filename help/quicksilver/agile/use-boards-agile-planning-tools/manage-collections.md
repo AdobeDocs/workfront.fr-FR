@@ -6,7 +6,7 @@ title: Gestion des collections
 description: Une collection est un groupe configurable de panoramas pour la collaboration au travail.
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # Gestion des collections
-
-{{highlighted-preview-article-level}}
 
 Une collection est un groupe configurable de panoramas pour la collaboration au travail. Les collections peuvent inclure différents types de panoramas créés à partir de modèles.
 
