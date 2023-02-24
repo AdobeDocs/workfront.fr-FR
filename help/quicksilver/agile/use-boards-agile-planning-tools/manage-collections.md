@@ -6,24 +6,22 @@ title: Gestion des collections
 description: Une collection est un groupe configurable de panoramas pour la collaboration au travail.
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
 
 # Gestion des collections
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>Les collections ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!UICONTROL [!DNL Workfront] Panoramas]. Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Une collection est un groupe configurable de panoramas pour la collaboration au travail. Les collections peuvent inclure différents types de panoramas créés à partir de modèles.
 
 Les collections apparaissent sur le tableau de bord, ainsi que les panoramas individuels auxquels vous avez accès et qui ne font pas partie d’une collection. Pour plus d’informations sur le tableau de bord des panoramas, voir [Utilisation du tableau de bord des panoramas](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Vous pouvez cliquer sur le nom d’un panorama pour l’ouvrir.
-
->[!NOTE]
->
->Les collections ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!UICONTROL [!DNL Workfront] Panoramas].
 
 ## Exigences d’accès
 
