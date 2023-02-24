@@ -2,13 +2,13 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Création, modification et affectation de profils de feuille de temps
-description: 'Vous pouvez créer, modifier et affecter des profils de feuille de temps qui génèrent des feuilles de temps récurrentes pour vos utilisateurs sans intervention de votre part. Cela vous permet de gagner du temps et de vous assurer que les éléments suivants sont cohérents entre les utilisateurs : MODIFIEZ-MOI.'
+description: Vous pouvez créer, modifier et affecter des profils de feuille de temps qui génèrent des feuilles de temps récurrentes pour vos utilisateurs sans intervention de votre part. Vous gagnez ainsi du temps et garantissez la cohérence entre les utilisateurs.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 7e2a4b02277e8b82ac6ee92a7994250fcdebb0b0
+source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 1%
 
 ---
@@ -101,10 +101,12 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Créer des feuilles de temps</strong> </td> 
-      <td> <p> <p>Spécifiez quand le profil de la feuille de temps doit générer les feuilles de temps. Une feuille de temps peut être définie pour une génération automatique sur une base hebdomadaire, bimensuelle, semestrielle ou mensuelle. Sélectionnez le jour de la semaine où vous souhaitez que la feuille de temps soit générée.</p> <p><b>NOTE</b>
+      <td> <p> <p>Spécifiez quand le profil de la feuille de temps doit générer les feuilles de temps. Une feuille de temps peut être définie pour une génération automatique sur une base hebdomadaire, bimensuelle, semestrielle ou mensuelle. Sélectionnez le jour de la semaine où vous souhaitez que la feuille de temps soit générée.</p>
+      <p>Une feuille de temps hebdomadaire commence à la date de sa génération. Par exemple, si vous créez des feuilles de temps hebdomadaires tous les jeudis, le premier jour de la semaine sur la feuille de temps est jeudi.</p>
+      <p><b>NOTE</b></p>
 
-   Si vous configurez un profil de feuille de temps pour créer des feuilles de temps un vendredi, les utilisateurs ne peuvent pas enregistrer les heures du vendredi, samedi et dimanche, pour la semaine en cours.</p> <p>Workfront crée toujours deux feuilles de temps à la fois : la première feuille de temps inclut toujours la date actuelle et la seconde la date de fin de la première période.</p> </p> </td>
-   </tr> 
+   <p>Workfront crée toujours deux feuilles de temps à la fois : la première feuille de temps inclut toujours la date actuelle et la seconde la date de fin de la première période.</p> </p> </td> 
+    </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Approbateurs</strong></p> </td> 
       <td> <p> <p>Les approbateurs sont des utilisateurs qui approuvent la feuille de temps pour les utilisateurs associés à la feuille de temps. Vous pouvez identifier jusqu’à 7 utilisateurs en tant qu’approbateurs sur une feuille de temps. L’identification de plusieurs utilisateurs s’avère utile pour s’assurer qu’un approbateur est disponible lorsqu’une personne est absente du bureau. Tous les approbateurs sont avertis lorsqu’un utilisateur envoie la feuille de temps pour approbation. Un seul utilisateur doit approuver la feuille de temps pour qu’elle soit approuvée.</p> <p>Seuls les utilisateurs disposant de droits d’administration pour la feuille de temps peuvent être définis comme approbateurs. Pour plus d’informations sur les droits d’administration de la feuille de temps, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> <p>Utilisez le menu déroulant pour sélectionner l’approbateur de la feuille de temps (si un approbateur est requis). Vous pouvez sélectionner l’une des options suivantes :</p> 
