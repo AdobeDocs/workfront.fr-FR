@@ -4,9 +4,9 @@ description: Présentation de la version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Pour obtenir des conseils sur la préparation de la prochaine version, voir [Pr�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Renommer les pin’s dans le modèle de mise en page</span></a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span>
-                        <p>Vous pouvez désormais renommer les pin’s dans un modèle de mise en page afin qu’ils aient plus de sens pour vos utilisateurs, au lieu d’utiliser le nom par défaut de la page épinglée. Les broches créées par les administrateurs s’affichent pour tous les utilisateurs affectés au modèle de mise en page, et les utilisateurs ne peuvent pas renommer ces broches.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Renommer les pin’s dans le modèle de mise en page</span></a>
+                        </span></a><p>Vous pouvez désormais renommer les pin’s dans un modèle de mise en page afin qu’ils aient plus de sens pour vos utilisateurs, au lieu d’utiliser le nom par défaut de la page épinglée. Les broches créées par les administrateurs s’affichent pour tous les utilisateurs affectés au modèle de mise en page, et les utilisateurs ne peuvent pas renommer ces broches.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -83,9 +83,26 @@ Pour obtenir des conseils sur la préparation de la prochaine version, voir [Pr�
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Journal des heures sur les cartes connectées sur un panorama</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Vous pouvez désormais consigner les heures sur les cartes connectées, comme vous le feriez pour une tâche ou un problème. Pour consigner l’heure, vous devez disposer des autorisations appropriées pour la tâche ou le problème.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 23 février 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Version de production pour la pré-inscription : 2 mars 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : Avec la version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personnalisation de l’affichage des champs sur une carte</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personnalisation de l’affichage des champs sur une carte</a></p>
                         <p>La personnalisation est désormais disponible pour configurer les champs qui s’affichent sur une carte, à la fois dans le mode d’affichage complet lorsque la carte est ouverte et dans le mode Carte condensée du panorama. Lorsque vous désactivez un champ, il n’est affiché dans aucune des vues. Vous pouvez également activer un champ dans l’affichage complet et le masquer dans l’affichage condensé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -102,7 +119,7 @@ Pour obtenir des conseils sur la préparation de la prochaine version, voir [Pr�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Définition de l’état par défaut des cartes déplacées dans une colonne de panorama</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Définition de l’état par défaut des cartes déplacées dans une colonne de panorama</a></p>
                         <p>Vous pouvez désormais définir un état par défaut à appliquer aux cartes déplacées dans une colonne spécifique, en sélectionnant un état personnalisé et un état système dans les stratégies de colonne. Lorsque vous déplacez une carte dans la colonne, Workfront tente d’abord d’appliquer l’état personnalisé (par exemple, Commentaires en attente). Si l’état personnalisé n’est pas disponible pour cette carte, Workfront applique plutôt l’état du système (par exemple, En attente). En outre, si l’état de la tâche ou du problème connecté est modifié dans l’état personnalisé ou système défini dans la stratégie de colonne, la carte est automatiquement déplacée dans la colonne.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -119,7 +136,7 @@ Pour obtenir des conseils sur la préparation de la prochaine version, voir [Pr�
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Collections désormais disponibles dans les panoramas Adobe Workfront</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Collections désormais disponibles dans les panoramas Adobe Workfront</a></p>
                         <p>Vous pouvez désormais créer des collections dans le tableau de bord des panoramas. Une collection est un groupe de conseils pour collaborer sur le travail. Une fois que vous avez nommé la collection, vous pouvez ajouter des panoramas à la collection à l’aide d’un ensemble de modèles offrant des paramètres prédéfinis tels que les noms de colonne.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -190,7 +207,7 @@ Pour obtenir des conseils sur la préparation de la prochaine version, voir [Pr�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copier les heures budgétisées lors de la copie d’un projet</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copier les heures budgétisées lors de la copie d’un projet</a>
                         <p>Vous avez désormais la possibilité de copier les heures budgétées dans la zone Ressource/Budget de l’Analyse de cas ou du Planificateur de ressources lorsque vous copiez un projet. Avant cette amélioration, les heures budgétées du projet n’étaient pas transférées vers le projet copié.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -225,7 +242,7 @@ Pour obtenir des conseils sur la préparation de la prochaine version, voir [Pr�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Présentation du champ Durée du travail pour calculer précisément la capacité de l’utilisateur</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Présentation du champ Durée du travail pour calculer précisément la capacité de l’utilisateur</a>
                         <p>Pour permettre aux gestionnaires de ressources de calculer précisément la disponibilité de leurs utilisateurs et de tenir compte du temps que les utilisateurs consacrent à des tâches réelles liées au projet, nous proposons le concept de temps de travail à Adobe Workfront.</p>
                         <p>Vous pouvez définir la valeur du champ Durée du travail pour chaque utilisateur, lorsque vous créez ou modifiez son profil.</p>
                     </td>
@@ -328,6 +345,21 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées lors
 
 Découvrez les dernières mises à jour apportées aux programmes d’apprentissage, aux parcours de formation, aux vidéos et aux guides de chaque version de produit Adobe Workfront. Pour plus d’informations, voir [Page Mises à jour des versions de formation](https://one.workfront.com/s/training-release-updates).
 
+### Fonctionnalité bientôt supprimée de Workfront
+
+Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
+
+#### **Modifications de l’API Workfront par défaut**
+
+Afin que les appels API puissent tirer parti des fonctionnalités d’API Workfront les plus récentes, nous mettons actuellement à jour l’API par défaut. Lorsqu’un appel API ne spécifie pas de version de l’API, l’appel est effectué à l’API par défaut.
+
+Désormais, l’API par défaut reflète la version la plus récente de l’API. Dorénavant, nous mettrons à jour l’API par défaut chaque fois qu’une nouvelle version d’API est publiée, de sorte que les appels à l’API par défaut utiliseront toujours la version la plus récente de l’API.
+
+Auparavant, l’API par défaut utilisait l’API Workfront version 2.0, qui était obsolète.
+
+Si votre entreprise utilise actuellement l’API par défaut obsolète, votre administrateur Workfront a reçu un message du centre d’annonces contenant des instructions supplémentaires sur l’API par défaut.
+
+Pour plus d’informations, voir [Mise à jour des intégrations qui utilisent le contrôle de version des API par défaut](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ Découvrez les dernières mises à jour apportées aux programmes d’apprentiss
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

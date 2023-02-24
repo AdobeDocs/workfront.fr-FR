@@ -4,7 +4,7 @@ description: Consultation et affichage des mises à jour pendant la période de 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 23
 
 >[!NOTE]
 >
->Aperçu de la version : 9 février 2023; Version de production planifiée : 23 février 2023
+>Aperçu de la version : 9 février 2023; Version de production planifiée : 2 mars 2023
 
 Des informations supplémentaires sur les utilisateurs s’affichent maintenant lorsque vous ajoutez des utilisateurs dans les zones suivantes :
 
