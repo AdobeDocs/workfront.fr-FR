@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Mises à jour de l’API version 8
 description: 'Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les ressources qui sont nouvelles de la version 8, voir Nouveautés de l’API version 8. Les modifications apportées à une ressource sont indiquées de la manière suivante : MODIFIEZ-MOI.'
-author: John
+author: Becky
 feature: Workfront API
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 37%
