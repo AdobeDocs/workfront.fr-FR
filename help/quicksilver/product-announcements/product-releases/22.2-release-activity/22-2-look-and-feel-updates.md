@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Les barres d’outils des listes et rapports suivants ont désormais une apparen
 ### Version d’aperçu : 10 février 2022 ; Version de production : 3 mars 2022
 
 >[!NOTE]
-La barre d’outils de ces mêmes rapports dans les tableaux de bord a également été mise à jour en production avec la [Mise à jour de maintenance](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) le 3 mars 2022.
+La barre d’outils de ces mêmes rapports dans les tableaux de bord a également été mise à jour en production avec la [Mise à jour de maintenance](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) le 3 mars 2022.
 
 * Rapports sur les projets
 * Rapports de tâches

@@ -7,9 +7,9 @@ description: L’environnement Aperçu est mis à jour une fois par semaine avec
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ En règle générale, les fonctionnalités de la fonction Aperçu sont mises à 
 
 ### Mises à jour de maintenance
 
-Les correctifs de problème du produit Adobe Workfront sont mis à disposition dans l’environnement de production chaque semaine. Voir [Mises à jour de maintenance de Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) pour voir ce qui a été corrigé récemment.
+Les correctifs de problème du produit Adobe Workfront sont mis à disposition dans l’environnement de production chaque semaine. Voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pour voir ce qui a été corrigé récemment.
 
 ## Fonctionnalités supprimées d’une version trimestrielle
 
