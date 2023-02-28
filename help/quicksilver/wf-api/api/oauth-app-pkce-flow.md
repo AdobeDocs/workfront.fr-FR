@@ -83,18 +83,14 @@ Le code de générateur PKCE crée une sortie similaire à ce qui suit :
 >
 >**Exemple:**
 >
->
-```
+>```
 >{
 >
+>  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
 >
-  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
+>  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >
->
-  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
->
-}
+>}
 >```
 
 Votre application enregistre la variable `code_verifier` pour plus tard, et envoie la variable `code_challenge` ainsi que la demande d’autorisation auprès de votre serveur d’autorisation. `/authorize` URL.
@@ -108,12 +104,10 @@ Si vous utilisez le serveur d’autorisation personnalisé par défaut, l’URL 
 >**Exemple:**
 >
 >
->
-```
+>```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
 >
->
-&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+>&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
 Notez les paramètres transmis :
@@ -139,21 +133,16 @@ Pour échanger le code d’autorisation contre un jeton d’accès, transmettez-
 >
 >**Exemple:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
+>  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
 >[!IMPORTANT]
@@ -179,21 +168,16 @@ Si le code est toujours valide et que le vérificateur de code correspond, votre
 >
 >**Exemple:**
 >
->
-```
+>```
 >{
 >
+>    "access\_token": "eyJhd\[...\]Yozv",
 >
-    "access\_token": "eyJhd\[...\]Yozv",
+>    "expires\_in": 3600,
 >
+>    "token\_type": "Bearer"
 >
-    "expires\_in": 3600,
->
->
-    "token\_type": "Bearer"
->
->
-}
+>}
 >```
 
 ## Validation du jeton d’accès
@@ -206,12 +190,10 @@ Vous pouvez valider votre jeton d’accès avec un appel API similaire à ce qui
 >
 >**Exemple:**
 >
->
-```
+>```
 >/attask/api/<api version>/proj/search \\
 >
->
-  --header 'sessionID: <access\_token>' \\
+>  --header 'sessionID: <access\_token>' \\
 >```
 
 ## Demande d’un jeton d’actualisation
@@ -222,19 +204,14 @@ Pour demander un jeton d’actualisation, vous pouvez effectuer un appel POST à
 >
 >**Exemple:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
+>  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```
