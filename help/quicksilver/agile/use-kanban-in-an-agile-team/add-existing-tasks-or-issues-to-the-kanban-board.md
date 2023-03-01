@@ -6,7 +6,7 @@ description: Si vous disposez de l’accès Gérer au projet, vous pouvez ajoute
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 7b72d0eaa715b2094f4f574411d8e240107e080f
+source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -58,10 +58,9 @@ Pour ajouter une tâche ou un problème à une [!UICONTROL Kanban] panorama :
 1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Ajouter à]** > **[!UICONTROL Kanban Board]**.
 1. Dans le [!UICONTROL Ajouter des articles] , saisissez le nom de l’équipe Kanban.
 
->[!NOTE]
->
->Si vous ajoutez plusieurs équipes, la tâche ou le problème ne peut s’afficher que sur le [!DNL kanban] panorama. Il s’agit du panorama que vous choisissez à l’étape 5.
+   >[!NOTE]
+   >
+   >Si vous ajoutez plusieurs équipes, la tâche ou le problème ne peut s’afficher que sur le [!DNL kanban] panorama. Il s’agit du panorama que vous choisissez à l’étape 5.
 
-1. Si vous ajoutez des tâches, cliquez sur **[!UICONTROL Ajouter des articles]**.\
-   Ou\
-   Si vous ajoutez des problèmes, cliquez sur **[!UICONTROL Ajout de problèmes]**.
+1. Si vous ajoutez des tâches, cliquez sur **[!UICONTROL Ajouter des articles]**.
+Ou si vous ajoutez des problèmes, cliquez sur **[!UICONTROL Ajout de problèmes]**.
