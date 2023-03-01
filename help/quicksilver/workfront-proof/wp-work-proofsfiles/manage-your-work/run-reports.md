@@ -7,18 +7,22 @@ description: Le Bon à tirer de Workfront vous permet d’afficher des rapports 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: a0d76692f9e9d12ed0d538c1344638dbc208d625
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
 
 # Exécution de rapports dans [!DNL Workfront Proof]
 
+
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>* <span class="previe">La fonctionnalité de création de rapports n’est plus disponible dans [!DNL Workfront Proof]. L’onglet de rapport s’affiche toujours, mais les données ne sont pas exactes.</span>
+> 
+>* Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+
 
 Le Bon à tirer de Workfront vous permet d’afficher des rapports afin que vous puissiez suivre l’avancement du travail et l’efficacité de vos équipes.
 
