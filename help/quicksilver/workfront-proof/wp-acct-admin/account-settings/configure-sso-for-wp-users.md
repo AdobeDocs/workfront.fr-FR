@@ -7,9 +7,9 @@ description: Si vous disposez du plan Select ou Premium, vous pouvez fournir une
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ La fonctionnalité de connexion unique peut être activée sur le [!UICONTROL Au
 
 En tant que fournisseur de services, nous avons publié notre identifiant d’entité ici :
 
-[https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq) (où &quot;votre sous-domaine&quot; est le sous-domaine de votre compte)
+[https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq) (où &quot;votre sous-domaine&quot; est le sous-domaine de votre compte)
 
 [!DNL Workfront Proof] requiert l’adresse électronique de l’utilisateur comme identifiant unique, qui peut être transmis comme l’un des attributs suivants :
 
