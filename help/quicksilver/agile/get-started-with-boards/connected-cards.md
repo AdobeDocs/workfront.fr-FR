@@ -6,7 +6,7 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
+source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
 workflow-type: tm+mt
 source-wordcount: '1227'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Utilisation de cartes connectées sur les panoramas
-
-{{highlighted-preview}}
 
 Vous pouvez ajouter sur votre panorama une carte qui est connectée à des tâches et à des problèmes existants dans [!DNL Workfront].
 
@@ -185,8 +183,6 @@ Après avoir créé une carte ad hoc, vous pouvez la convertir en carte connect�
 
 1. Cliquez sur **[!UICONTROL Fermer]** pour revenir au panorama.
 
-<div class="preview">
-
 ## Journal des heures sur une carte connectée
 
 >[!NOTE]
@@ -207,4 +203,3 @@ Par défaut, les champs de journalisation de l’heure ne s’affichent pas sur 
 
 Le temps de journalisation sur la carte est identique à celui d’une tâche ou d’un problème. Pour plus d’informations, voir &quot;Temps de connexion à un projet, à une tâche ou à un problème&quot; dans l’article . [Temps de connexion](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
-</div>
