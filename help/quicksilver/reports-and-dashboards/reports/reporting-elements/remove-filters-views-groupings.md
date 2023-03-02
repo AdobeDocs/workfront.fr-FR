@@ -6,14 +6,16 @@ description: Vous pouvez supprimer un filtre, une vue ou un regroupement des lis
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: a3e4eb500570f86c689ef3bef654d659b9c465a2
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Suppression des filtres, des vues et des regroupements
+
+<span class="preview">Notez que dans l’environnement Aperçu, l’expérience de filtrage améliorée (précédemment appelée &quot;bêta&quot;) est désormais la valeur par défaut. Ces filtres améliorés sont désormais &quot;standard&quot; et l’expérience de filtre plus ancienne est &quot;héritée&quot;.</span>
 
 Vous pouvez supprimer un filtre, une vue ou un regroupement des listes et des rapports si vous les avez créés ou s’ils ont été partagés avec vous. Vous ne pouvez pas supprimer les filtres, les vues ou les regroupements par défaut.
 

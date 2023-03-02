@@ -6,14 +6,16 @@ description: Vous pouvez limiter la quantité d’informations affichées à l�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: fd2723eeb6a8323a8f2fcdb506991704777bdea8
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2513'
 ht-degree: 1%
 
 ---
 
 # Création ou modification de filtres dans Adobe Workfront
+
+<span class="preview">Notez que dans l’environnement Aperçu, l’expérience de filtrage améliorée (précédemment appelée &quot;bêta&quot;) est désormais la valeur par défaut. Ces filtres améliorés sont désormais &quot;standard&quot; et l’expérience de filtre plus ancienne est &quot;héritée&quot;.</span>
 
 Vous pouvez limiter la quantité d’informations affichées à l’écran dans une liste d’éléments avec un filtre. Vous pouvez définir certains critères en fonction d’informations spécifiques sur un objet et afficher uniquement les objets qui répondent à ces critères.
 

@@ -6,9 +6,9 @@ description: Vous pouvez partager avec d’autres utilisateurs des filtres, des 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 8ac8981a40f051f11eef231397cd231ae1d8ddff
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1362'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 <p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
 </div>
 -->
+
+<span class="preview">Notez que dans l’environnement Aperçu, l’expérience de filtrage améliorée (précédemment appelée &quot;bêta&quot;) est désormais la valeur par défaut. Ces filtres améliorés sont désormais &quot;standard&quot; et l’expérience de filtre plus ancienne est &quot;héritée&quot;.</span>
 
 Votre administrateur Adobe Workfront permet aux utilisateurs d’afficher ou de modifier des objets lorsqu’ils attribuent des niveaux d’accès. Pour plus d’informations sur l’octroi de l’accès aux objets, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

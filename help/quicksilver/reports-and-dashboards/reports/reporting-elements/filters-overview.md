@@ -7,14 +7,16 @@ description: Vous pouvez utiliser des filtres dans Adobe Workfront pour réduire
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
 
 # Présentation des filtres dans Adobe Workfront
+
+<span class="preview">Notez que dans l’environnement Aperçu, l’expérience de filtrage améliorée (précédemment appelée &quot;bêta&quot;) est désormais la valeur par défaut. Ces filtres améliorés sont désormais &quot;standard&quot; et l’expérience de filtre plus ancienne est &quot;héritée&quot;.</span>
 
 Vous pouvez utiliser des filtres dans Adobe Workfront pour réduire la quantité d’informations affichées à l’écran dans les listes, les rapports ou d’autres zones.
 
@@ -122,7 +124,7 @@ Vous pouvez utiliser des filtres intégrés ou créer des filtres personnalisés
 
    Pour plus d’informations, voir [Filtrage des informations dans les objectifs Adobe Workfront](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-* Tableaux
+* Panoramas
 
    Vous pouvez appliquer des filtres intégrés, mais vous ne pouvez pas créer de filtres personnalisés pour les réutiliser dans la zone Panoramas .
 
