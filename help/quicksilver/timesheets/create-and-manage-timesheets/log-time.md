@@ -6,7 +6,7 @@ description: Vous pouvez consigner le temps passé sur les tâches dans&nbsp;Ado
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Dans Workfront, vous pouvez consigner l’heure de connexion dans les zones suiv
 * [Page d’accueil](#home)
 * [Projet, tâche ou problème](#project-task-or-issue)
 * [Panneau Résumé](#summary-panel)
-* <span class="preview">[Panoramas](#boards)</span>
+* [Panoramas](#boards)
 * [Application mobile](#mobile-app)
 
 ### Feuille de temps {#timesheet}
