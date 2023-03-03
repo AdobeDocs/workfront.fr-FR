@@ -6,9 +6,9 @@ description: Bases d’API
 author: Becky
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4405'
+source-wordcount: '4478'
 ht-degree: 0%
 
 ---
@@ -427,11 +427,17 @@ Pour garantir des performances optimales, le tableau suivant répertorie les lim
 
 ### Utilisation de réponses paginées {#using-paginated-responses}
 
-Pour contourner la limitation de requête Nombre de résultats par défaut et autoriser 200 résultats, vous pouvez inclure le filtre $$LIMIT=200 dans votre requête, comme illustré dans l’exemple suivant :
-<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>Afin d’assurer la fiabilité et les performances des autres clients du système, la limite de résultats maximale autorisée par requête est de 2 000 objets. Toute tentative de spécification d’une limite plus grande entraînera un message d’erreur IllegalArgumentException . 
+Pour contourner la limitation de requête Nombre de résultats par défaut et autoriser 200 résultats, vous pouvez inclure la variable `$$LIMIT=200` filtrez votre requête, comme dans l&#39;exemple suivant :
+<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Par conséquent, nous vous recommandons d’utiliser des réponses paginées pour les jeux de données volumineux. Pour spécifier le premier résultat à renvoyer, ajoutez le filtre $$FIRST . Par exemple, la requête suivante renvoie les résultats 201 à 250 pour une requête :
-<pre>GET /attask/api/v15.0/project/search?$$FIRST=201&amp;$$LIMIT=50</pre>
+Pour garantir la fiabilité et les performances des autres clients du système, la limite de résultats maximale autorisée par requête est de 2 000 objets. Si vous essayez d’indiquer une limite plus grande, une `IllegalArgumentException` message d’erreur. 
+
+Par conséquent, nous vous recommandons d’utiliser des réponses paginées pour les jeux de données volumineux. Pour spécifier le premier résultat qui doit être renvoyé, ajoutez la variable `$$FIRST` filtre. Par exemple, la requête suivante renvoie les résultats 201 à 250 pour une requête :
+<pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
+
+Notez que dans l’exemple ci-dessus, `$$FIRST=200` renvoie le résultat 201e. `$$FIRST=0` renvoie le premier résultat. Il peut être utile de considérer la valeur $$FIRST comme le nombre de résultats que vous souhaitez ignorer avant de renvoyer les résultats.
+
+Pour vous assurer que vos résultats sont correctement paginés, utilisez un paramètre de tri. Cela permet de renvoyer les résultats dans le même ordre, de sorte que la pagination ne se répète pas ou n’ignore pas les résultats. Par exemple, pour trier à l’aide de l’identifiant d’objet, utilisez `ID_Sort=asc`.
 
 ### Création d’une règle d’accès
 
