@@ -5,17 +5,15 @@ title: Copier et déplacer des tâches de modèle
 description: Vous pouvez copier ou déplacer une tâche de modèle vers le même modèle ou vers un autre modèle.
 author: Alina
 feature: Work Management
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2065'
 ht-degree: 3%
 
 ---
 
 
 # Copier et déplacer des tâches de modèle
-
-<span class="preview">La copie et le déplacement d’une tâche de modèle sont disponibles dans l’environnement Production. Toutefois, les étapes décrites sur cette page ne concernent les fonctionnalités que dans l’environnement Aperçu . Cette fonctionnalité sera disponible en production le 2 mars 2023.</span>
 
 Vous pouvez copier une tâche de modèle d’un modèle vers un autre modèle ou la déplacer vers un autre modèle ou vers un autre emplacement du même modèle.
 

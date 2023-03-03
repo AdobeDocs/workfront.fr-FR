@@ -5,18 +5,14 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
 
 # Budget des ressources dans l’analyse de cas à l’aide du planificateur de ressources
-
-<!--drafted for the Budgeted Hours story: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de ressources au niveau du projet pour planifier les rôles de tâche nécessaires à l’exécution du travail dans un projet lorsque vous créez l’analyse de cas.
 
@@ -174,6 +170,4 @@ Pour appliquer des pools de ressources et des ressources de projet de budget dan
 
    Les informations de budget spécifiées dans l&#39;Analyse de cas sont également affichées dans le planificateur de ressources.
 
-   <!--drafted for Budgeted Hours: 
-   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
-   -->
+   Lorsque vous copiez un projet, vous avez la possibilité de copier les heures budgétées dans le nouveau projet. Seules les heures budgétées dans le planificateur de ressources sont copiées. Pour plus d’informations, voir [Copier un projet](../manage-projects/copy-project.md).

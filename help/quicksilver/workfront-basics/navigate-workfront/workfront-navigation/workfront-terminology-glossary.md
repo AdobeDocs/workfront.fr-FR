@@ -5,7 +5,7 @@ title: Glossaire [!DNL Adobe Workfront] terminologie
 description: Le [!DNL Adobe Workfront] Le glossaire répertorie les termes fréquemment utilisés dans Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '19138'
 ht-degree: 0%
@@ -296,7 +296,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <ul>
    <li><strong>[!UICONTROL Coût budgété]</strong>: dans le panneau [!UICONTROL Business Case Summary]</li>
    <li><strong>Coût [!UICONTROL]</strong>: dans les zones [!UICONTROL Utilisation] lors de l’affichage des informations par [!UICONTROL Cost]</li>
-   <li><strong>[!UICONTROL Coût du projet budgété]</strong>: dans les listes et les rapports</li>
+   <li><strong>[!UICONTROL Coût budgété du projet]</strong>: dans les listes et les rapports</li>
    </ul>   
     <p>Le coût [!UICONTROL budgété] du projet est calculé à l’aide de la formule suivante :</p> 
     <p><code>[!UICONTROL Project Budgeted Cost] (or [!UICONTROL Budgeted Cost]) = [!UICONTROL Budgeted Expense Cost] + [!UICONTROL Budgeted Labor Cost] + [!UICONTROL Fixed Cost] of the project</code> </p> 
@@ -890,7 +890,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <p>Votre administrateur Workfront décide du planning à utiliser pour déterminer la disponibilité de l’utilisateur.  </p>
    <ul>
    <li> Lorsque le [!UICONTROL Default Schedule] est utilisé, Workfront utilise l’[!UICONTROL FTE] de l’utilisateur figurant dans son profil pour calculer la disponibilité. </li>
-   <li> Lors de l’utilisation de la Planification de l’utilisateur, Workfront utilise le délai de pause de l’utilisateur, <span class="preview">Valeur [!UICONTROL Work Time]</span>, et les heures de [!UICONTROL par défaut] pour calculer l’[!UICONTROL ETR] de l’utilisateur. </li> </ul>
+   <li> Lors de l’utilisation de la planification de l’utilisateur, Workfront utilise le temps de congé de l’utilisateur, la valeur [!UICONTROL Work Time] et les heures de [!UICONTROL Default Schedule] pour calculer l’heure [!UICONTROL FTE] de l’utilisateur. </li> </ul>
 
 <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configuration des préférences de gestion des ressources</a>.  </p>
    <p>Pour plus d’informations sur la création de planifications dans [!DNL Workfront], voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Création d’un planning</a>. </p>
@@ -2334,15 +2334,15 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
    <td>[!UICONTROL Work Time]</td> 
    <td>
 
-<p><span class="preview">Représente le pourcentage du temps équivalent à temps complet ([!UICONTROL FTE]) disponible pour le travail réel de l’utilisateur, sans compter les frais généraux. [!UICONTROL Work Time] doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. Par exemple, une disponibilité de 20 % pour le travail réel serait de 0,2.</span>  </p>
-   </p><span class="preview">La valeur par défaut du champ est 1, ce qui indique qu’un utilisateur passe l’intégralité de son [!UICONTROL FTE] au travail réel lié au projet.</span>   </p>
-   <p><span class="preview">Le système utilise ce nombre pour calculer la disponibilité de l’utilisateur pour le travail réel lié au projet. </span></p>
-   <p> <span class="preview">La planification d’exceptions et de congés peut également affecter la capacité de l’utilisateur.</span> </p>
-   <p><span class="preview">Pour plus d’informations sur la création de plannings dans Workfront, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Création d’un planning</a>.</span> </p>
+<p>Représente le pourcentage du temps équivalent à temps complet ([!UICONTROL FTE]) disponible pour le travail réel de l’utilisateur, sans compter les frais généraux. [!UICONTROL Work Time] doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. Par exemple, une disponibilité de 20 % pour le travail réel serait de 0,2.</p>
+   </p>La valeur par défaut du champ est 1, ce qui indique qu’un utilisateur passe l’intégralité de son [!UICONTROL FTE] au travail réel lié au projet.  </p>
+   <p>Le système utilise ce nombre pour calculer la disponibilité de l’utilisateur pour le travail réel lié au projet. </p>
+   <p> La planification d’exceptions et de congés peut également affecter la capacité de l’utilisateur. </p>
+   <p>Pour plus d’informations sur la création de plannings dans Workfront, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Création d’un planning</a>. </p>
     <p>Workfront calcule la disponibilité d’un utilisateur en fonction des préférences de gestion des ressources de votre zone [!UICONTROL Configuration]. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configuration des préférences de gestion des ressources</a>. </p> 
-   <p><span class="preview">Vous pouvez mettre à jour le [!UICONTROL Work Time] d’un utilisateur lorsque vous modifiez ou créez l’utilisateur. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modification du profil d’un utilisateur</a></span></p> 
+   <p>Vous pouvez mettre à jour le [!UICONTROL Work Time] d’un utilisateur lorsque vous modifiez ou créez l’utilisateur. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modification du profil d’un utilisateur</a></p> 
    <b>CONSEIL</b> 
-   <p><span class="preview">Définissez la valeur [!UICONTROL Work Time] sur 1 pour indiquer que l’utilisateur est disponible pour les travaux liés au projet et qu’il dispose de son équivalent à temps plein.</span></p> 
+   <p>Définissez la valeur [!UICONTROL Work Time] sur 1 pour indiquer que l’utilisateur est disponible pour les travaux liés au projet et qu’il dispose de son équivalent à temps plein.</p> 
    </td> 
   </tr> 
   <tr> 

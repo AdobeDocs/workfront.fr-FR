@@ -6,16 +6,14 @@ description: En tant que gestionnaire de ressources, vous pouvez utiliser l’é
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # Présentation de l’affectation de travail dans l’équilibreur de charge de travail
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 En tant que gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les tâches qui n’ont pas encore été affectées aux utilisateurs et leur affecter ces éléments.
 
@@ -49,9 +47,9 @@ Workfront utilise les informations suivantes pour calculer la capacité de l’u
 * Le temps de congé de l’utilisateur. Cela indique les jours que l’utilisateur prévoit de décoller.
 
    Pour plus d’informations, voir [Configuration du temps de pause personnel dans Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-<div class="preview">
+
 * Temps de travail de l’utilisateur. Cela indique le pourcentage de temps de l’éditeur de texte enrichi que l’utilisateur est disponible pour effectuer des tâches réelles liées au projet, sans compter les frais généraux. Définissez la valeur Durée du travail sur 1 pour indiquer que l’utilisateur est disponible pour le travail lié au projet et qu’il dispose de son équivalent à temps plein.
-</div>
+
 
 ## Affecter un travail dans l’équilibreur de charge
 

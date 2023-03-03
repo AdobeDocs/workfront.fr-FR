@@ -8,17 +8,15 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2760'
+source-wordcount: '2739'
 ht-degree: 0%
 
 ---
 
 # Modification du profil d’un utilisateur
 
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 >[!IMPORTANT]
 >
@@ -137,21 +135,21 @@ Les étapes de cet article doivent être les suivantes :
       <td> 
        <ul>
        <li>
-       <b><span class="preview">Temps de travail</span></b>: <span class="preview">Représente le pourcentage du temps équivalent à temps plein (FTE) disponible pour le travail réel de l’utilisateur, sans compter les frais généraux. Le temps de travail doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. Par exemple, une disponibilité de 20 % pour le travail réel serait de 0,2.</span>
+       <b>Temps de travail</b>: Représente le pourcentage du temps équivalent à temps plein (FTE) disponible pour le travail réel de l’utilisateur, sans compter les frais généraux. Le temps de travail doit être un nombre décimal maximum de 1 et ne peut pas être égal à 0. Par exemple, une disponibilité de 20 % pour le travail réel serait de 0,2.
 
-   <span class="preview">La valeur par défaut du champ est 1, ce qui indique qu’un utilisateur passe l’intégralité de son éditeur de texte enrichi sur le travail réel lié au projet.</span>
+   La valeur par défaut du champ est 1, ce qui indique qu’un utilisateur passe l’intégralité de son éditeur de texte enrichi sur le travail réel lié au projet.
 
-   <span class="preview">Le système utilise ce nombre pour calculer la disponibilité de l’utilisateur pour le travail réel lié au projet. </span>
+   Le système utilise ce nombre pour calculer la disponibilité de l’utilisateur pour le travail réel lié au projet.
 
-   <span class="preview">Pour plus d’informations sur la création de plannings dans Workfront, voir <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Création d’un planning</a>.</span>
+   Pour plus d’informations sur la création de plannings dans Workfront, voir <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Création d’un planning</a>.
 
-   <span class="preview">La planification d’exceptions et de congés peut également affecter la capacité de l’utilisateur.
+   La planification d’exceptions et de congés peut également affecter la capacité de l’utilisateur.
 
    Workfront calcule la disponibilité d’un utilisateur en fonction des préférences de gestion des ressources de votre zone Configuration. Pour plus d’informations, voir <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configuration des préférences de gestion des ressources</a>.
 
    <b>CONSEIL</b>
 
-   <span class="preview">Définissez la valeur Durée du travail sur 1 pour indiquer que l’utilisateur est disponible pour le travail lié au projet et qu’il dispose de son équivalent à temps plein.</span>
+   Définissez la valeur Durée du travail sur 1 pour indiquer que l’utilisateur est disponible pour le travail lié au projet et qu’il dispose de son équivalent à temps plein.
    </li> 
       <li> <b>Planifier la désactivation</b>: Cochez cette case si vous souhaitez que cet utilisateur soit désactivé au bout d’un certain temps. </li> 
        <li><b>Date planifiée de désactivation</b>: Date à laquelle l’utilisateur est désactivé. Pour plus d’informations sur la planification de la désactivation des utilisateurs, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Planification de la désactivation pour les utilisateurs</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactivation ou réactivation d’un utilisateur</a>.</li> 
@@ -178,7 +176,7 @@ Les étapes de cet article doivent être les suivantes :
 
    La valeur par défaut du champ est 1.
 
-   Planifier les exceptions, le délai de remise peut, par exemple, <span class="preview">et la valeur du temps de travail</span> peut affecter la disponibilité de l’utilisateur.
+   Planifiez des exceptions, des heures de congé et la valeur du temps de travail peut affecter la disponibilité de l’utilisateur.
 
    Workfront calcule la disponibilité d’un utilisateur en fonction des préférences de gestion des ressources de votre zone Configuration.
 

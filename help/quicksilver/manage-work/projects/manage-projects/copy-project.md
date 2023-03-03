@@ -6,16 +6,14 @@ description: Vous pouvez copier un projet plutôt que d’en créer un à partir
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '715'
 ht-degree: 5%
 
 ---
 
 # Copier un projet
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +31,7 @@ Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vo
 >* Notes
 >* Heures
 >* prédécesseurs sur plusieurs projets
->* <span class="preview">Heures budgétées</span>
+>* Heures budgétées
 >
 >Les éléments suivants sont toujours copiés d’un projet existant vers un nouveau :
 >
@@ -179,12 +177,12 @@ Pour copier un projet :
    </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">Heures budgétées</span></td> 
-      <td> <p><span class="preview">Supprime les heures budgétées dans la zone Resource Planning de l’analyse de cas du projet copié. <span class="preview"></p>
+      <td role="rowheader">Heures budgétées</td> 
+      <td> <p>Supprime les heures budgétées dans la zone Resource Planning de l’analyse de cas du projet copié.</p>
 
 <b>NOTE</b>
 
-<span class="preview">Les heures budgétées à l’aide du planificateur de scénario ne sont jamais copiées vers le nouveau projet, car ce dernier n’est pas lié à une initiative dans le planificateur de scénario. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget des ressources dans l’analyse de cas à l’aide du planificateur de scénario</a></span>
+Les heures budgétées à l’aide du planificateur de scénario ne sont jamais copiées vers le nouveau projet, car ce dernier n’est pas lié à une initiative dans le planificateur de scénario. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget des ressources dans l’analyse de cas à l’aide du planificateur de scénario</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Informations financières</td> 
