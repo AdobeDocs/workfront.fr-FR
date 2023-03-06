@@ -6,7 +6,7 @@ description: Vous pouvez mettre à jour l’ordre dans lequel les formulaires pe
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
@@ -14,6 +14,9 @@ ht-degree: 0%
 ---
 
 # Gestion des formulaires personnalisés associés à des objets
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  -->
 
 Vous pouvez mettre à jour l’ordre dans lequel les formulaires personnalisés associés à un objet s’affichent, le supprimer ou modifier en masse la manière dont les formulaires personnalisés s’affichent sur plusieurs objets.
 
@@ -92,10 +95,15 @@ Il se peut que le même champ s’affiche sur plusieurs formulaires personnalis�
 
 * Si vous disposez des mêmes champs calculés sur deux objets différents, leurs calculs doivent être identiques pour éviter toute erreur. Pour plus d’informations sur l’ajout de champs calculés à des formulaires personnalisés comprenant plusieurs formulaires, voir [Ajout de données calculées à un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) .
 
-## Modification de plusieurs formulaires personnalisés lors de la modification en masse d’objets
+## Gestion de plusieurs formulaires personnalisés lors de la modification en masse d’objets
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section will need to be edited when the bulk Edit box is released to NWE; add some screen shots for NWE) </p>
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+
+>[!NOTE]
+>
+><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+
 -->
 
 Lorsque vous modifiez en masse des objets auxquels plusieurs formulaires personnalisés sont appliqués, vous pouvez modifier l’affichage des formulaires personnalisés sur ces objets et modifier les champs communs aux formulaires personnalisés.

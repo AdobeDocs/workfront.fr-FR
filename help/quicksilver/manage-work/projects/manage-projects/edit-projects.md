@@ -6,9 +6,9 @@ description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent q
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
 workflow-type: tm+mt
-source-wordcount: '6382'
+source-wordcount: '6670'
 ht-degree: 2%
 
 ---
@@ -238,7 +238,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condition</strong> </td> 
-      <td> <p> <p>(Apparaît uniquement une fois que vous avez sélectionné <strong>Manuel</strong> pour le <strong>Type de condition</strong>) : Sélectionnez une condition pour indiquer le déroulement du projet. </p> <p>Pour plus d’informations sur la façon dont les conditions du projet peuvent être définies automatiquement ou manuellement, voir <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation de la condition et du type de condition du projet</a></p> </p> </td> 
+      <td> <p> <p>(S’affiche uniquement une fois que vous avez sélectionné <strong>Manuel</strong> pour le <strong>Type de condition</strong>) : Sélectionnez une condition pour indiquer le déroulement du projet. </p> <p>Pour plus d’informations sur la façon dont les conditions du projet peuvent être définies automatiquement ou manuellement, voir <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation de la condition et du type de condition du projet</a></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mode horaire</strong> </td> 
@@ -304,21 +304,40 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
 
 ### Formulaires personnalisés {#custom-forms}
 
+
+Selon votre niveau d’accès et votre autorisation sur le projet, les scénarios suivants existent :
+
+* Si vous ne disposez pas des autorisations Modifier le formulaire personnalisé sur le projet, vous ne pouvez pas modifier les champs des formulaires personnalisés joints. Vous ne pouvez afficher que les champs des formulaires personnalisés associés au projet.
+* Si vous disposez de l’accès Affichage (et non Modifier) à une section sur un formulaire personnalisé, vous ne pouvez pas modifier les champs de cette section.
+* Si vous n’avez pas accès à une section sur l’un des formulaires personnalisés associés au projet, la section ne s’affiche pas dans la zone Modifier le projet .
+
+Lorsque vous sélectionnez plusieurs projets pour les modifier en bloc, les scénarios suivants se présentent :
+
+* Si vous ne disposez pas des autorisations Modifier le formulaire personnalisé pour au moins un des projets sélectionnés, vous ne pouvez pas modifier les champs des formulaires personnalisés joints. Vous ne pouvez afficher que les champs des formulaires personnalisés joints
+* Si vous disposez de l’accès Affichage (et non Modifier) à une section sur un formulaire personnalisé, vous ne pouvez pas modifier les champs de cette section. Vous pouvez uniquement afficher les champs de cette section.
+* Si vous n’avez pas accès à une section sur l’un des formulaires personnalisés associés à au moins un des projets, la section ne s’affiche pas dans la zone Modifier les projets .
+
+Pour plus d’informations sur l’accès aux formulaires personnalisés, consultez les articles suivants :
+
+* [Partage d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+* [Ajout d’un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+
+Pour modifier les informations sur les formulaires personnalisés :
+
+
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Forms personnalisée** dans le panneau de gauche.
 
    ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
-1. Cliquez sur le bouton **Ajouter un formulaire personnalisé** et sélectionnez un formulaire dans la liste pour le joindre au projet.
-
-   Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés apparaissent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
-
-1. (Conditionnel) Si vous avez joint un formulaire personnalisé au projet, modifiez les champs du formulaire. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer le projet.
+1. Cliquez sur le bouton **Ajouter un formulaire personnalisé** et sélectionnez un formulaire dans la liste pour le joindre au projet. Par défaut, les 40 premiers formulaires s’affichent par ordre alphabétique. Si le formulaire ne figure pas dans la liste, commencez à saisir son nom, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur Workfront définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le projet lui-même. Pour plus d’informations sur la définition des autorisations sur les sections d’un formulaire personnalisé, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Pour plus d’informations sur la définition des autorisations sur les projets, voir [Partage d’un projet dans Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >   Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés apparaissent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
 
+
+1. (Conditionnel) Si vous avez joint un formulaire personnalisé au projet, modifiez les champs du formulaire. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer le projet.
 1. (Facultatif) Cliquez sur le **Icône X** à droite du nom d’un formulaire personnalisé pour le supprimer, puis cliquez sur **Supprimer**.
 1. (Facultatif) Continuez à modifier les sections suivantes, en fonction des informations que vous souhaitez modifier.
 
@@ -327,6 +346,19 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
    Cliquer sur **Enregistrer**.
 
 ### Finances {#finance}
+
+Selon votre niveau d’accès et votre autorisation sur le projet, les scénarios suivants existent :
+
+* Si vous disposez des autorisations Afficher les données financières et Afficher le financement sur le projet, vous ne pouvez afficher que les champs de la section Finance. Vous ne pouvez pas modifier les champs de cette section.
+* Si vous disposez des autorisations Modifier pour le projet et Gérer les finances , vous pouvez mettre à jour les champs de cette section.
+
+Lorsque vous sélectionnez plusieurs projets pour les modifier en bloc, les scénarios suivants existent :
+
+* Si vous sélectionnez au moins un projet pour lequel vous disposez des autorisations Afficher le financement (au lieu de Gérer les finances), vous ne pouvez afficher que les champs de cette section pour tous les projets sélectionnés. Vous ne pouvez pas modifier les champs en masse dans la section Finance.
+* Si vous sélectionnez au moins un projet pour lequel vous ne disposez d’aucune autorisation financière, cette section ne s’affiche pas du tout.
+
+Pour modifier les champs de la zone Finance :
+
 
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Finance** dans le panneau de gauche.
@@ -450,7 +482,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Risque</strong> </td> 
-       <td> <p> <p>Définissez le niveau de risque de votre projet. Le risque n'est qu'un indicateur des risques que peut représenter un projet. Vous pouvez hiérarchiser l’exécution de vos projets en fonction du niveau de risque.</p> <p> <p>Envisagez de choisir parmi les niveaux de risque suivants :</p> <p>- Très faible</p> <p>- Faible</p> <p>- Moyen</p> <p>- Élevé</p> <p>- Très élevé</p> <p>Les niveaux de risques que vous indiquez ici ne peuvent pas être personnalisés.</p> <p>Elles ne sont pas liées aux risques potentiels qui peuvent se produire pendant la durée d’un projet et que vous devez enregistrer dans l’onglet Risques du projet ou dans l’Analyse de cas. Pour plus d’informations sur les risques potentiels du projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Modifier et créer des types de risque</a>. </p> </p> </p> </td> 
+       <td> <p> <p>Définissez le niveau de risque de votre projet. Le risque n'est qu'un indicateur des risques que peut représenter un projet. Vous pouvez hiérarchiser l’exécution de vos projets en fonction du niveau de risque.</p> <p> <p>Envisagez de choisir parmi les niveaux de risque suivants :</p> <p>- Très faible</p> <p>- Faible</p> <p>- Moyen</p> <p>- Élevé</p> <p>- Très élevé</p> <p>Les niveaux de risques que vous indiquez ici ne peuvent pas être personnalisés.</p> <p>Elles ne sont pas liées aux risques potentiels qui peuvent se produire pendant la durée d’un projet et que vous devez enregistrer dans l’onglet Risques du projet, ou dans l’Analyse de cas. Pour plus d’informations sur les risques potentiels du projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Modifier et créer des types de risque</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Pools de ressources</strong> </td> 
@@ -657,7 +689,18 @@ Par défaut, les champs suivants sont inclus dans l’en-tête du projet.
 
 ## Modifier des projets en bloc
 
-Vous pouvez modifier les projets en bloc et mettre à jour toutes leurs informations en même temps.
+Vous pouvez modifier des projets en bloc et mettre à jour les informations de tous les projets sélectionnés en même temps.
+
+<!--
+The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
+
+Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+
+Editing projects in bulk differs depending on what environment you choose to update them in. 
+
+### Edit projects in bulk in the Production environment
+
+-->
 
 Pour modifier des projets en bloc :
 
@@ -716,9 +759,7 @@ Pour modifier des projets en bloc :
       <!--   
      <p>(NOTE: ensure this step stays accurate)</p>   
      -->
-   >[!NOTE]
-   >
-   >Les informations que vous modifiez sur tous les projets sélectionnés remplacent les informations existantes sur les projets individuels, à l’exception des **Resource Manager** champ . L’ajout d’un nouveau gestionnaire de ressources en modification en masse l’ajoute à tous les projets sélectionnés. Si d’autres gestionnaires de ressources sont associés aux projets sélectionnés, ils resteront sur les projets en plus de celui ajouté par modification en masse.
+
 
 1. (Facultatif) Dans la zone Paramètres, sélectionnez l’une des options suivantes :
 
@@ -750,3 +791,106 @@ Pour modifier des projets en bloc :
 1. Cliquez sur **Enregistrer les modifications**.
 
    Toutes les modifications que vous avez apportées sont désormais visibles sur tous les projets sélectionnés.
+
+<!--drafted for bulk editing projects:  
+
+<div class="preview">
+
+### Edit projects in the Preview environment
+
+Consider the following when editing projects in bulk in the Preview environment:
+
+* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+
+   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+
+* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+
+    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+
+      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+
+    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+
+    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+
+    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+
+      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+
+* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+   >[!IMPORTANT]
+   >
+   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+
+* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+
+To edit projects in the Preview environment: 
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click **Projects**.
+1. Select several projects in the list.
+1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
+The **Edit Projects** dialog box opens. 
+
+   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+
+Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+
+1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
+
+   >[!TIP]
+   >
+   >Fields that you edit display with a light purple background.
+
+1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
+
+   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
+
+   ![](assets/custom-forms-in-common-unshimmed.png) 
+
+   >[!TIP]
+   >
+   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+
+1. Start typing the name of a custom form in the **Add custom form** field.
+
+
+   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+
+   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
+   
+   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
+   
+1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+
+   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+
+1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+
+   >[!CAUTION]
+   >
+   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+
+   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+
+1. Click **Finance** to edit financial information for all selected projects.
+For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
+1. Click **Project Settings** to edit the settings for all selected projects.
+For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
+1. Click **Task Settings** to edit the task settings for all selected projects. 
+For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
+1. Click **Issue Settings** to edit the issue settings for all selected projects.
+For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
+1. Click **Access** to edit the access settings for all selected projects.
+For more information about editing the Access area, see the section [Access](#access) in this article.
+1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+
+   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+
+1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
+1. Click **Save**. 
+
+<div>
+-->

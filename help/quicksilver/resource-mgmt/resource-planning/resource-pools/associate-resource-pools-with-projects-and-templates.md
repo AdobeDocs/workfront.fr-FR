@@ -6,7 +6,7 @@ description: Les pools de ressources sont des groupes d’utilisateurs qui vous 
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -105,9 +105,9 @@ Pour associer des pools de ressources à plusieurs projets en bloc :
    >
    >Lorsque vous modifiez des projets ou des modèles en bloc, seuls les pools de ressources communs à tous les projets ou modèles sélectionnés apparaissent dans ce champ. Si les projets sélectionnés ne comportent aucun pool de ressources partagées, ce champ est vide. Les pools de ressources que vous spécifiez ici remplaceront les pools de ressources individuels des projets ou modèles.
 
-<!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
+   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. Cliquez sur **Enregistrer les modifications**.\
    Lorsque vos pools de ressources sont associés à vos projets ou à vos modèles, vous pouvez répartir les affectations utilisateur pour vos projets dans le planificateur de ressources.\
