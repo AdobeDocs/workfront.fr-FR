@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 5292069412a73f824dbcd967d47737cff5ef58fa
+source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Vous devez disposer des autorisations ou des accès nécessaires dans [!DNL Shar
 Les utilisateurs individuels peuvent lier des documents par le biais de la nouvelle [!DNL SharePoint] intégration. L’intégration ne nécessite pas de configuration administrateur. À la place, l’utilisateur se connecte à son [!DNL Microsoft] lors de la liaison d’un document, ce qui permet à l’intégration d’accéder aux documents disponibles dans le [!DNL SharePoint].
 
 La première fois qu’un utilisateur connecte la variable [!DNL Workfront] [!DNL SharePoint] intégration à leur [!DNL SharePoint] , ils verront et accepteront toutes les autorisations de [!DNL Workfront] utilise lors de l’interaction avec leur [!UICONTROL SharePoint] compte . Autorisations de lecture autorisées [!DNL Workfront] pour afficher et accéder aux fichiers sur [!DNL SharePoint], et les autorisations d’écriture permettent à l’utilisateur de charger des fichiers dans [!DNL SharePoint].
+
+![Autorisations SharePoint](assets/sharepoint-permissions.png)
 
 Pour obtenir des instructions sur la liaison de documents par le biais de la nouvelle [!DNL SharePoint] intégration, voir [Lier un document externe à [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
