@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: e1df51f5f689d7ecc7db56d1d836d34dbe40d1e1
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '12597'
+source-wordcount: '12602'
 ht-degree: 1%
 
 ---
@@ -884,6 +884,7 @@ ht-degree: 1%
       * [Configuration de Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Prise en main des panoramas dans Adobe Workfront {#boards-in-workfront}
       * [Prise en main des panoramas dans Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Démonstrations vidéo des panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Inclusion précoce des fonctionnalités des panoramas](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Utilisation du tableau de bord des panoramas](agile/get-started-with-boards/use-boards-page.md)
       * [Création ou modification d’un panorama](agile/get-started-with-boards/create-edit-board.md)

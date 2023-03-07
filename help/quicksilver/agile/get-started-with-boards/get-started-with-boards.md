@@ -6,9 +6,9 @@ description: Consultez ces articles pour savoir comment utiliser les panoramas d
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 0%
 
 Cette section contient les articles suivants :
 
+* [Démonstrations vidéo des panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
 * [Inclusion précoce des fonctionnalités des panoramas](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
 * [Utilisation du tableau de bord des panoramas](../../agile/get-started-with-boards/use-boards-page.md)
 * [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md)
