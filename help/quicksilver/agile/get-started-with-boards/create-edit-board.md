@@ -6,7 +6,7 @@ description: Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Création d’un panorama
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Pour créer un panorama autonome, cliquez sur **[!UICONTROL Créer]** dans le [!UICONTROL Panoramas] zone. Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Pour créer un panorama autonome, cliquez sur **[!UICONTROL Ajouter un panorama]** dans le [!UICONTROL Panoramas] zone. Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >

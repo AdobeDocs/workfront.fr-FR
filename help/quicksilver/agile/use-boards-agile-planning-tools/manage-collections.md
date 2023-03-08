@@ -6,7 +6,7 @@ title: Gestion des collections
 description: Une collection est un groupe configurable de panoramas pour la collaboration au travail.
 author: Lisa
 feature: Agile
-source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 4%
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Création d’une collection
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Cliquez sur **[!UICONTROL Créer]** dans le [!UICONTROL Collections] du tableau de bord.
+1. Cliquez sur **[!UICONTROL Ajouter une collection]** dans le [!UICONTROL Collections] du tableau de bord.
 1. Saisissez un nom à remplacer. **[!UICONTROL Collection sans titre]** et appuyez sur Entrée.
 
    Vous pouvez ajouter des panoramas à la collection ou cliquer sur [!UICONTROL **Toutes les panoramas**] pour revenir au tableau de bord.
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Création d’un panorama dans une collection
 
 1. Si vous n’êtes pas déjà dans une collection, cliquez sur [!UICONTROL **Afficher la collection**] sur le tableau de bord pour ouvrir une collection existante.
-1. Cliquez sur **[!UICONTROL Créer]** sur le [!UICONTROL Panoramas] de la collection.
+1. Cliquez sur **[!UICONTROL Ajouter un panorama]** sur le [!UICONTROL Panoramas] de la collection.
 1. Sélectionnez un modèle pour le panorama.
 
 | Modèle | Description |
