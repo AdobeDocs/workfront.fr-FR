@@ -6,9 +6,9 @@ description: API d’abonnement à un événement
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2109'
 ht-degree: 3%
 
 ---
@@ -73,65 +73,10 @@ Pour obtenir la liste des champs pris en charge par les objets d’abonnement d�
 
 Pour créer, interroger ou supprimer un abonnement à un événement, l’utilisateur de Workfront doit disposer des éléments suivants :
 
-* Un niveau d’accès &quot;Administrateur système&quot;
-* Une apiKey
+* Un niveau d’accès &quot;Administrateur système&quot; est requis pour utiliser les abonnements à un événement.
+* A `sessionID`  L’en-tête est requis pour utiliser l’API Event Subscriptions
 
-   >[!NOTE]
-   >
-   >Si votre utilisateur utilise déjà l’API Workfront, il doit déjà disposer d’une apiKey. Vous pouvez récupérer l’apiKey via la requête HTTP suivante :
-
-**URL de la demande :**
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
-```
-
-**En-têtes de requête :**
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p>Nom de l’en-tête</p> </th> 
-   <th> <p>Valeur d’en-tête</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Content-type</p> </td> 
-   <td> <p>text/html</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-**Codes de réponse :**
-
-| Code de réponse | Description |
-|---|---|
-| 200 (OK) | La requête a été traitée avec succès et l’apiKey existante pour l’utilisateur doit être renvoyé dans le corps de la réponse. |
-| 401 (Non autorisé) | Le serveur reconnaît la demande, mais n’a pas pu la traiter, car l’apiKey/l’utilisateur demandeur n’a pas accès à cette demande. |
-
-{style=&quot;table-layout:auto&quot;}
-
-**Exemple de corps de réponse :**
-
-```
-{
-               "data"{
-               "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
-               }
-      }
-```
-
->[!NOTE]
->
-> Si c’est la première fois que vous utilisez l’API Workfront, vous devez générer une apiKey que vous pouvez utiliser via ce lien :
-
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
-```
+   Pour plus d’informations, voir [Authentification](api-basics.md#authentication) in [Principes de base des API](api-basics.md).
 
 ## Formation de la ressource d’abonnement
 
@@ -268,8 +213,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
    <td> <p>application/json</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorisation</p> </td> 
-   <td> <p>valeur apiKey</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>valeur sessionID</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -291,13 +236,14 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | 201 (Créé) | L’abonnement à l’événement a bien été créé. |
 | 400 (Requête incorrecte) | Le champ URL de la ressource d&#39;abonnement a été considéré comme non valide. |
-| 401 (Non autorisé) | L’apiKey fourni était vide ou considéré comme non valide. |
-| 403 (interdit) | L’utilisateur, qui correspond à l’apiKey fournie, ne dispose pas d’un accès administrateur. |
+| 401 (Non autorisé) | L’ID de session fourni était vide ou considéré comme non valide. |
+| 403 (interdit) | L’utilisateur qui correspond à l’ID de session fourni ne dispose pas d’un accès administrateur. |
 
 La transmission d’une ressource d’abonnement en tant que corps d’une requête (le type de contenu étant &quot;application/json&quot;) entraîne la création d’un abonnement d’événement pour l’objet spécifié. Un code de réponse 201 (Créé) indique que l’abonnement a été créé. Un code de réponse autre que 201 signifie que l’abonnement était **NOT** créé.
 
 >[!NOTE]
- L’en-tête de réponse &quot;Emplacement&quot; contient l’URI de l’abonnement d’événement nouvellement créé.
+>
+> L’en-tête de réponse &quot;Emplacement&quot; contient l’URI de l’abonnement d’événement nouvellement créé.
 
 **Exemple d’en-têtes de réponse :**
 
@@ -342,8 +288,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Autorisation</p> </td> 
-   <td> <p>valeur apiKey</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>valeur sessionID</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -352,9 +298,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Code de réponse | Description |
 |---|---|
-| 200 (OK) | La requête renvoyée avec tous les abonnements d’événement trouvés pour le client correspondant à l’apiKey fournie. |
-| 401 (Non autorisé) | L’apiKey fourni était vide. |
-| 403 (interdit) | L’utilisateur, qui correspond à l’apiKey fournie, ne dispose pas d’un accès administrateur. |
+| 200 (OK) | La requête renvoyée avec tous les abonnements d’événement trouvés pour le client correspondant à l’ID de session fourni. |
+| 401 (Non autorisé) | L’ID de session fourni était vide. |
+| 403 (interdit) | L’utilisateur, qui correspond à l’ID de session fourni, ne dispose pas d’un accès administrateur. |
 
 
 **Exemple d’en-têtes de réponse :**
@@ -435,8 +381,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Autorisation</p> </td> 
-   <td> <p>valeur apiKey</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>valeur sessionID</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -446,8 +392,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | Code de réponse | Description |
 |---|---|
 | 200 (OK) | La requête renvoyée avec l’abonnement à l’événement correspondant à l’ID d’abonnement fourni. |
-| 401 (Non autorisé) | L’apiKey fourni était vide. |
-| 403 (interdit) | L’utilisateur, qui correspond à l’apiKey fournie, ne dispose pas d’un accès administrateur. |
+| 401 (Non autorisé) | L’ID de session fourni était vide. |
+| 403 (interdit) | L’utilisateur, qui correspond à l’ID de session fourni, ne dispose pas d’un accès administrateur. |
 
 
 **Exemple de corps de réponse :**
@@ -729,8 +675,8 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Autorisation</p> </td> 
-   <td> <p> apiKey de l’utilisateur </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> valeur sessionID </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -753,11 +699,11 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
   </tr> 
   <tr> 
    <td>401 (Non autorisé)</td> 
-   <td>L’apiKey fourni était vide.</td> 
+   <td>L’ID de session fourni était vide.</td> 
   </tr> 
   <tr> 
    <td>403 (interdit)</td> 
-   <td>L’utilisateur correspondant à l’apiKey fournie ne dispose pas d’un accès administrateur.</td> 
+   <td>L’utilisateur qui correspond à l’ID de session fourni ne dispose pas d’un accès administrateur.</td> 
   </tr> 
   <tr> 
    <td>404 (Introuvable)</td> 
@@ -949,7 +895,7 @@ Voici un exemple de requête qui utilise le champ base64Encoding :
 
 Le point de terminaison d’API suivant est obsolète et ne doit pas être utilisé pour les nouvelles implémentations. Nous vous recommandons également de passer d’anciennes implémentations à la méthode dans la variable **Requête sur les abonnements aux événements** section décrite ci-dessus.
 
-Vous pouvez interroger tous les abonnements à un événement pour un client, comme spécifié par la valeur apiKey. La syntaxe de requête permettant de répertorier tous les abonnements d’événement pour un client spécifique est l’URL suivante :
+Vous pouvez interroger tous les abonnements à un événement pour un client, comme spécifié par la valeur sessionID . La syntaxe de requête permettant de répertorier tous les abonnements d’événement pour un client spécifique est l’URL suivante :
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -970,8 +916,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Autorisation</p> </td> 
-   <td> <p> apiKey de l’utilisateur </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> valeur sessionID </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -994,11 +940,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
   </tr> 
   <tr> 
    <td>401 (Non autorisé)</td> 
-   <td>L’apiKey fourni était vide.</td> 
+   <td>L’ID de session fourni était vide.</td> 
   </tr> 
   <tr> 
    <td>403 (interdit)</td> 
-   <td>L’utilisateur correspondant à l’apiKey fournie ne dispose pas d’un accès administrateur.</td> 
+   <td>L’utilisateur qui correspond à l’ID de session fourni ne dispose pas d’un accès administrateur.</td> 
   </tr> 
  </tbody> 
 </table>
