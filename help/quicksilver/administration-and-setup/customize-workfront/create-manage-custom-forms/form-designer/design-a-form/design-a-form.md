@@ -7,9 +7,9 @@ description: Vous pouvez concevoir un formulaire personnalisé à l’aide du co
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f416fc6a021a63e3a0cbd905de8e5892455f21a9
+source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
 workflow-type: tm+mt
-source-wordcount: '3618'
+source-wordcount: '3803'
 ht-degree: 4%
 
 ---
@@ -124,7 +124,9 @@ Vous pouvez ajouter plusieurs champs de texte différents à un formulaire perso
    >[!NOTE]
    >
    >Les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront (disponibles dans les prochaines versions).
+
 * **Texte descriptif**: Permet d’inclure des instructions et des liens vers des pages en dehors de Workfront.
+
 +++
 
 Pour ajouter un champ de texte :
@@ -145,6 +147,17 @@ Pour ajouter un champ de texte :
     <td>Entrée dans</td>
     <td>Description</td>
     <td>Disponible pour </td>
+    </tr>
+    <tr>
+    <td>Taille</td>
+    <td><p>Modifiez la taille des champs de texte du formulaire.<p>
+   </td>
+    <td><ul>
+    <li>Texte sur une seule ligne</li>
+    <li>Paragraphe de texte</li>
+    <li>Texte avec formatage</li>
+    <li>Texte descriptif - À venir bientôt</li>
+    </ul></td>
     </tr>
     <tr>
     <td>Étiquette</td>
@@ -209,6 +222,14 @@ Pour ajouter un champ de texte :
     <td><ul><li>Texte descriptif</li></ul></td>
     </tr>
    </table>
+
+1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
+
+   ou
+
+   Pour copier un champ, pointez dessus, puis cliquez sur l’icône Copier.
+
+   ![icône de copie](assets/copy-field.png)
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
@@ -346,6 +367,20 @@ Pour ajouter des boutons radio et des cases à cocher :
     </tbody> 
     </table>
 
+1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
+
+   ou
+
+   Pour copier un champ, pointez dessus, puis cliquez sur l’icône Copier.
+
+   ![icône de copie](assets/copy-field.png)
+
+1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
+
+   ou
+
+   Cliquez sur **Enregistrer et fermer**.
+
 ### Ajout de champs de type anticipé et date
 
 Vous pouvez ajouter des champs de saisie anticipée et de date à un formulaire personnalisé.
@@ -445,6 +480,14 @@ Pour ajouter des champs de date de saisie anticipée :
     </tbody> 
    </table>
 
+1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
+
+   ou
+
+   Pour copier un champ, pointez dessus, puis cliquez sur l’icône Copier.
+
+   ![icône de copie](assets/copy-field.png)
+
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
    ou
@@ -520,6 +563,14 @@ Pour ajouter des images, des PDF ou des vidéos :
     </tbody> 
    </table>
 
+1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
+
+   ou
+
+   Pour copier un champ, pointez dessus, puis cliquez sur l’icône Copier.
+
+   ![icône de copie](assets/copy-field.png)
+
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
    ou
@@ -588,6 +639,14 @@ Pour ajouter un fichier Adobe XD :
      </tr> 
     </tbody> 
    </table>
+
+1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
+
+   ou
+
+   Pour copier un champ, pointez dessus, puis cliquez sur l’icône Copier.
+
+   ![icône de copie](assets/copy-field.png)
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 

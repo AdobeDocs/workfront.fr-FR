@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6969697714365bf38a77f4972c3b97e4d13a1725
+source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -62,6 +62,7 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 ## Étape 1 - Accès des utilisateurs {#step-1-to-users}
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Utilisateurs]** ![](assets/users-icon-in-main-menu.png).
+
 
 <!-- Agile -->
 
