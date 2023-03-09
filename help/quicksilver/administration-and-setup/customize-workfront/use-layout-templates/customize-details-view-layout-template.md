@@ -8,17 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # Personnalisation de la vue Détails à l’aide d’un modèle de mise en page
 
-<!-- drafted for bulk editing proejcts: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur clique sur l’icône Détails . ![](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un problème, d’un document, d’un programme ou d’un portfolio.
 
@@ -38,12 +37,11 @@ Les modifications apportées à la vue Détails d’un objet déterminent égale
 
    ![](assets/edit-task-screen.png)
 
-<!--drafted for bulk editing proejcts - make this bullet live and in yellow at Preview: 
 
-* <span class="preview">"Edit objects" screens when editing projects in bulk, like Edit Projects</span>
+* <span class="preview">Écrans &quot;Modifier des objets&quot; lors de la modification de projets en bloc, comme Modifier des projets</span>
 
-  <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
-  -->
+   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+-->
 
 * Résumé ![](assets/summary-panel-icon.png) pour obtenir la liste des tâches et des problèmes
 

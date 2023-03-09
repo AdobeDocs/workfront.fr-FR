@@ -6,9 +6,9 @@ description: Les pools de ressources sont des groupes d’utilisateurs qui vous 
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,13 @@ ht-degree: 0%
 # Association des pools de ressources aux projets et aux modèles
 
 
-<!-- drafted for bulk editing projects: make this live when we release edit projects in bulk and replace the screen shot below (marked) and make the shot in yellow showing adding resource pools to multiple projects:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
+Also - take out all the references to Preview and Prod at prod final
 -->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -103,11 +106,12 @@ Pour associer des pools de ressources à plusieurs projets en bloc :
 
    >[!NOTE]
    >
-   >Lorsque vous modifiez des projets ou des modèles en bloc, seuls les pools de ressources communs à tous les projets ou modèles sélectionnés apparaissent dans ce champ. Si les projets sélectionnés ne comportent aucun pool de ressources partagées, ce champ est vide. Les pools de ressources que vous spécifiez ici remplaceront les pools de ressources individuels des projets ou modèles.
+   >* Dans l’environnement de production, lorsque vous modifiez des projets ou des modèles en bloc, seuls les pools de ressources communs à tous les projets ou modèles sélectionnés apparaissent dans ce champ. Si les projets sélectionnés ne comportent aucun pool de ressources partagées, ce champ est vide. Les pools de ressources que vous spécifiez ici remplaceront les pools de ressources individuels des projets ou modèles.
+   >
+   >* <span class="preview">Dans l’environnement Aperçu, lorsque vous modifiez des projets en bloc, un indicateur &quot;Plusieurs valeurs&quot; s’affiche si les projets sélectionnés disposent de pools de ressources différents. Si vous ajoutez des pools de ressources en bloc, tous les pools seront ajoutés au projet sélectionné, remplaçant les pools de ressources d’origine.</span>
 
-   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
 
 1. Cliquez sur **Enregistrer les modifications**.\
    Lorsque vos pools de ressources sont associés à vos projets ou à vos modèles, vous pouvez répartir les affectations utilisateur pour vos projets dans le planificateur de ressources.\
