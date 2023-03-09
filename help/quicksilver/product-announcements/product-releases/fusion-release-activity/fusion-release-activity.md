@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion connecte vos applications et services web de
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 1e4d7aa9be56710d2b3297be9eb3f5da0de74d64
+source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe Workfront Fusion connecte vos applications et services web de manière tra
 Pour plus d’informations sur l’utilisation de Workfront Fusion, voir [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Versions récentes
+
+### Mars 2023
+
+* [Activité Publication de fusion Workfront : Semaine du 6 mars 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
 
 ### Décembre 2022
 
@@ -119,7 +123,7 @@ Pour plus d’informations sur l’utilisation de Workfront Fusion, voir [Adobe 
 
 * [Activité Publication de fusion Workfront : Semaine du 26 avril 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
 * [Activité Publication de fusion Workfront : Semaine du 19 avril 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
-<!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
+   <!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
 
 ### Mars 2021
 
