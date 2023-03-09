@@ -6,7 +6,7 @@ description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent q
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 <!--
 <p>***Linked to many articles,</p>
-<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article </p>
 <p>The Update Type section is also documented in Selecting the Project Update Type article</p>
 <p>Keep the reference link to the other article that also documents the Update Type) </p>
 <p>(NOTE 2: information described here also exists in these articles:</p>
@@ -110,7 +110,7 @@ Tenez compte des points suivants lors de la modification de projets :
 
 ## Modification d’un projet
 
-La modification d’un projet vous permet de modifier les informations et les paramètres du projet, ainsi que les tâches et les problèmes liés au projet.
+En modifiant un projet, vous pouvez modifier les informations et les paramètres du projet, ainsi que les tâches et les problèmes liés au projet.
 
 Certains paramètres mentionnés dans cet article peuvent être modifiés à partir de leur état par défaut par leur état dans le modèle à partir duquel le projet a été créé. Pour plus d’informations sur la modification de modèles, voir [Modifier des modèles de projet](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
@@ -481,7 +481,7 @@ Pour modifier les champs de la zone Finance :
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Risque</strong> </td> 
-       <td> <p> <p>Définissez le niveau de risque de votre projet. Le risque n'est qu'un indicateur des risques que peut représenter un projet. Vous pouvez hiérarchiser l’exécution de vos projets en fonction du niveau de risque.</p> <p> <p>Envisagez de choisir parmi les niveaux de risque suivants :</p> <p>- Très faible</p> <p>- Faible</p> <p>- Moyen</p> <p>- Élevé</p> <p>- Très élevé</p> <p>Les niveaux de risques que vous indiquez ici ne peuvent pas être personnalisés.</p> <p>Elles ne sont pas liées aux risques potentiels qui peuvent se produire pendant la durée d’un projet et que vous devez enregistrer dans l’onglet Risques du projet, ou dans l’Analyse de cas. Pour plus d’informations sur les risques potentiels du projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Modifier et créer des types de risque</a>. </p> </p> </p> </td> 
+       <td> <p> <p>Définissez le niveau de risque de votre projet. Le risque n'est qu'un indicateur des risques que peut représenter un projet. Vous pouvez hiérarchiser l’exécution de vos projets en fonction du niveau de risque.</p> <p> <p>Envisagez de choisir parmi les niveaux de risque suivants :</p> <p>- Très faible</p> <p>- Faible</p> <p>- Moyen</p> <p>- Élevé</p> <p>- Très élevé</p> <p>Les niveaux de risques que vous indiquez ici ne peuvent pas être personnalisés.</p> <p>Elles ne sont pas liées aux risques potentiels qui peuvent se produire pendant la durée d’un projet et que vous devez enregistrer dans l’onglet Risques du projet ou dans l’Analyse de cas. Pour plus d’informations sur les risques potentiels du projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Modifier et créer des types de risque</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Pools de ressources</strong> </td> 
