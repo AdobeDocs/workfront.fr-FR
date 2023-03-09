@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
+source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
 workflow-type: tm+mt
-source-wordcount: '12770'
+source-wordcount: '12759'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 1%
       * [Préparation d’une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Version 23.2 {#release-23-2}
          * [Présentation de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
-         * [Activité de la version 23.2 : Semaine du 27 février 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md)
-         * [Activité de la version 23.2 : Semaine du 20 février 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
-         * [Activité de la version 23.2 : semaine du 13 février 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
-         * [Activité de la version 23.2 : Semaine du 6 février 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
-         * [Activité de la version 23.2 : Semaine du 23 janvier 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
+         * [23.2 Améliorations apportées aux administrateurs](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
+         * [23.2 Améliorations rapides](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
+         * [23.2 Améliorations de la gestion de projet](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
+         * [23.2 Améliorations de la gestion des ressources](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 Améliorations apportées aux appareils mobiles](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
+         * [23.2 Autres améliorations](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [Consultation et affichage des mises à jour pendant la période de publication de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
       * Version 23.1 {#release-23-1}
          * [Présentation de la version 23.1](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
