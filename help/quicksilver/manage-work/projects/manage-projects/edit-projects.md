@@ -6,7 +6,7 @@ description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent q
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
+source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -64,6 +64,7 @@ Vous pouvez modifier un projet dans Adobe Workfront aussi souvent que nécessair
  </tbody> 
 </table>
 -->
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -230,10 +231,10 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
      <tr> 
       <td role="rowheader"><strong>Type de statut</strong> </td> 
       <td> <p>Effectuez une sélection parmi les types de condition suivants : 
-        <ul> 
-         <li><strong>Manuel :</strong> Le propriétaire du projet définit manuellement la condition sur le projet.</li> 
-         <li><strong>État de progression :</strong> Workfront définit automatiquement la condition en fonction de l’état de progression des tâches sur le chemin critique. Pour plus d’informations sur la compréhension de l’état de progression, voir <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Présentation de l’état de progression de la tâche</a>.</li> 
-        </ul><p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne la valeur par défaut du mode de calcul de la condition des projets pour votre système. <span>ou votre groupe</span>. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p></p> </td> 
+       <ul> 
+       <li><strong>Manuel :</strong> Le propriétaire du projet définit manuellement la condition sur le projet.</li> 
+       <li><strong>État de progression :</strong> Workfront définit automatiquement la condition en fonction de l’état de progression des tâches sur le chemin critique. Pour plus d’informations sur la compréhension de l’état de progression, voir <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Présentation de l’état de progression de la tâche</a>.</li> 
+       </ul><p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne la valeur par défaut du mode de calcul de la condition des projets pour votre système. <span>ou votre groupe</span>. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condition</strong> </td> 
@@ -242,10 +243,10 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
      <tr> 
       <td role="rowheader"><strong>Mode horaire</strong> </td> 
       <td> <p>Indiquez si le projet est planifié à partir de la date de début ou de la date de fin. Cette sélection détermine les dates planifiées des tâches du projet. 
-        <ul> 
-         <li><strong>Date de début</strong>: La première tâche du projet a par défaut la même date de début planifiée que le projet. Pour plus d’informations sur la date de début planifiée de la tâche, voir <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Présentation de la tâche Date de début planifiée</a>. La chronologie du projet est calculée à partir de la Date de début et la Date de fin du projet est calculée par le système, en fonction de la durée de toutes les tâches. </li> 
-         <li><strong>Date d’achèvement</strong>: La dernière tâche du projet a la même date d’achèvement planifiée que celle du projet. La chronologie du projet est calculée à partir de la date de fin et la date de début du projet est calculée par le système, en soustrayant la durée de toutes les tâches de la date de fin du projet. </li> 
-        </ul><p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne le paramètre Mode de planification par défaut pour votre système ou votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p></p> </td> 
+       <ul> 
+       <li><strong>Date de début</strong>: La première tâche du projet a par défaut la même date de début planifiée que le projet. Pour plus d’informations sur la date de début planifiée de la tâche, voir <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Présentation de la tâche Date de début planifiée</a>. La chronologie du projet est calculée à partir de la Date de début et la Date de fin du projet est calculée par le système, en fonction de la durée de toutes les tâches. </li> 
+       <li><strong>Date d’achèvement</strong>: La dernière tâche du projet a la même date d’achèvement planifiée que celle du projet. La chronologie du projet est calculée à partir de la date de fin et la date de début du projet est calculée par le système, en soustrayant la durée de toutes les tâches de la date de fin du projet. </li> 
+       </ul><p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne le paramètre Mode de planification par défaut pour votre système ou votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Date et heure de début planifiées</strong> </td> 
@@ -266,10 +267,10 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
      <tr> 
       <td role="rowheader"><strong>Groupe</strong></td> 
       <td> <p> <p>Indiquez le nom du groupe associé au projet. </p>Champ obligatoire. Vous ne pouvez pas avoir de projet qui n’est pas associé à un groupe. </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône d’information. <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> Par défaut, l’un des groupes suivants est automatiquement associé à un projet lors de sa création, sauf si vous spécifiez un autre groupe :</p> 
-        <ul> 
-         <li> <p><span>Lorsque le projet est créé à partir de la zone Projets , le groupe d’accueil du créateur du projet est associé au projet.</span> </p> <p>C’est également le cas lorsque le projet est créé à partir de la section Projets d’un portfolio ou d’un programme.</p> </li> 
-         <li> <p>Lorsque le projet est créé à partir de la page principale d’un groupe dans la zone Configuration, ce groupe est associé au projet.</p> </li> 
-        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Si le projet, ou ses tâches ou problèmes sont déjà associés à un processus d’approbation au niveau du groupe à l’aide d’états personnalisés au niveau du groupe, la modification du groupe peut créer un conflit entre les états d’approbation du groupe précédent et ceux existant au niveau du système. Envisagez de supprimer les processus d’approbation au niveau du groupe sur le projet, ou ses tâches ou problèmes avant de mettre à jour le groupe. Pour plus d’informations sur la création de processus d’approbation au niveau du groupe, voir <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processus de validation au niveau du groupe</a>. Pour plus d’informations sur la création d’un état personnalisé au niveau du groupe, voir <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Création ou modification d’un état de groupe</a></p> </td> 
+       <ul> 
+       <li> <p><span>Lorsque le projet est créé à partir de la zone Projets , le groupe d’accueil du créateur du projet est associé au projet.</span> </p> <p>C’est également le cas lorsque le projet est créé à partir de la section Projets d’un portfolio ou d’un programme.</p> </li> 
+       <li> <p>Lorsque le projet est créé à partir de la page principale d’un groupe dans la zone Configuration, ce groupe est associé au projet.</p> </li> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Si le projet, ou ses tâches ou problèmes sont déjà associés à un processus d’approbation au niveau du groupe à l’aide d’états personnalisés au niveau du groupe, la modification du groupe peut créer un conflit entre les états d’approbation du groupe précédent et ceux existant au niveau du système. Envisagez de supprimer les processus d’approbation au niveau du groupe sur le projet, ou ses tâches ou problèmes avant de mettre à jour le groupe. Pour plus d’informations sur la création de processus d’approbation au niveau du groupe, voir <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processus de validation au niveau du groupe</a>. Pour plus d’informations sur la création d’un état personnalisé au niveau du groupe, voir <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Création ou modification d’un état de groupe</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Entreprise</strong> </td> 
@@ -293,7 +294,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
 
    >[!TIP]
    >
-   >   Lors de la mise à jour des champs Propriétaire du projet, Parrain du projet et Gestionnaire de ressources, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >Lors de la mise à jour des champs Propriétaire du projet, Parrain du projet et Gestionnaire de ressources, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
 
 1. (Facultatif) Continuez à modifier les sections suivantes en fonction des informations que vous souhaitez modifier.
 
@@ -302,7 +303,6 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
    Cliquer sur **Enregistrer**.
 
 ### Formulaires personnalisés {#custom-forms}
-
 
 Selon votre niveau d’accès et votre autorisation sur le projet, les scénarios suivants existent :
 
@@ -333,7 +333,7 @@ Pour modifier les informations sur les formulaires personnalisés :
 
    >[!NOTE]
    >
-   >   Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés apparaissent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
+   >Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés apparaissent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
 
 
 1. (Conditionnel) Si vous avez joint un formulaire personnalisé au projet, modifiez les champs du formulaire. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer le projet.
@@ -514,17 +514,12 @@ Pour modifier les champs de la zone Finance :
        <td> <p>Sélectionnez le processus d’approbation à associer au projet. Votre administrateur Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer aux projets. <span>Un utilisateur disposant d’un accès administratif aux processus de validation peut également créer des processus de validation spécifiques à un groupe.</span> Pour plus d’informations sur la création de processus de validation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les tâches</a>.</p> <p>Tenez compte des points suivants lors de l’ajout de processus de validation : </p> 
        <ul> 
        <li>Seuls les principaux processus de validation s'affichent dans la liste. </li> 
-       <li> <p>Les processus de validation à l’échelle du système et spécifiques aux groupes s’affichent dans la liste. Un processus de validation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> <p>Si le groupe associé au projet change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?</a>. </p> </li>
-
-   <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
-
-   <p>Lors de la modification en masse de projets, les scénarios suivants se présentent :</p>
-
-   <ul> 
-   <li> <p>Lorsque vous sélectionnez des projets du même groupe, les processus de validation au niveau du système et du groupe s’affichent dans ce champ.</p> </li> 
-   <li> <p>Lorsque vous sélectionnez des projets issus de différents groupes, seuls les processus de validation au niveau du système s’affichent dans ce champ.</p> </li> 
-   <li> <p>Lorsque l’un des projets est associé à un processus de validation à usage unique, celui-ci est remplacé par le processus d’approbation au niveau du système ou du groupe que vous sélectionnez. </p> </li> 
-   </ul> 
+       <li> <p>Les processus de validation à l’échelle du système et spécifiques aux groupes s’affichent dans la liste. Un processus de validation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> <p>Si le groupe associé au projet change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+       <p>Lors de la modification en masse de projets, les scénarios suivants se présentent :</p> 
+       <ul> 
+       <li> <p>Lorsque vous sélectionnez des projets du même groupe, les processus de validation au niveau du système et du groupe s’affichent dans ce champ.</p> </li> 
+       <li> <p>Lorsque vous sélectionnez des projets issus de différents groupes, seuls les processus de validation au niveau du système s’affichent dans ce champ.</p> </li> 
+       <li> <p>Lorsque l’un des projets est associé à un processus de validation à usage unique, celui-ci est remplacé par le processus d’approbation au niveau du système ou du groupe que vous sélectionnez. </p> </li> 
       </ul> </td> 
       </tr> 
       <tr> 
@@ -867,7 +862,7 @@ Selon la manière dont votre administrateur Workfront ou l’administrateur de g
 
    >[!CAUTION]
    >
-   >   La suppression de formulaires personnalisés entraîne la perte de toutes les informations de champs personnalisés existantes sur les formulaires. Cette opération ne peut pas être récupérée.
+   >La suppression de formulaires personnalisés entraîne la perte de toutes les informations de champs personnalisés existantes sur les formulaires. Cette opération ne peut pas être récupérée.
 
    Pour plus d’informations sur la modification de formulaires personnalisés, voir la section [Forms personnalisée](#custom-forms) dans cet article.
 
@@ -887,5 +882,3 @@ Pour plus d’informations sur la modification de la zone Accès, voir la sectio
 
 1. (Facultatif) Cliquez sur **Annuler** au bas de la **Modification de projets** pour supprimer toutes les modifications apportées à tous les projets.
 1. Cliquer sur **Enregistrer**.
-
-<div>
