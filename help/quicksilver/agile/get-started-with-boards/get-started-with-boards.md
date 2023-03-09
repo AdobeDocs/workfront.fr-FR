@@ -6,9 +6,9 @@ description: Consultez ces articles pour savoir comment utiliser les panoramas d
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
+source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Cette section contient les articles suivants :
 * [Gestion des colonnes de panorama](../../agile/get-started-with-boards/manage-board-columns.md)
 * [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md)
 * [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
+* [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
 * [Gestion des cartes](../../agile/get-started-with-boards/move-board-items.md)
 * [Gérer les éléments de liste de contrôle sur les cartes](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
 * [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
