@@ -6,9 +6,9 @@ description: Vous pouvez incorporer une page Web externe dans un tableau de bord
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,27 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents Web, 
 >Pour des raisons de sécurité, certains sites web ne vous permettent pas d’incorporer des pages web en tant qu’iframe. Si la page Web que vous souhaitez incorporer dans un tableau de bord ne l’autorise pas, elle ne s’affiche pas dans le tableau de bord. Vous pouvez toutefois accéder à la page externe en cliquant sur le nom du tableau de bord.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
 >Pour permettre l’incorporation d’un site web dont vous êtes propriétaire, demandez à votre administrateur web d’ajuster la variable **X-Frame-Options** . Pour plus d’informations, voir [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+
+
+>[!IMPORTANT]
+>
+>Les pages de tableau de bord ne sont plus prises en charge en tant que pages externes incorporées dans les tableaux de bord. En particulier, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
+>
+>* &#x200B; des tableaux de bord
+>* /dashboard/:ID &#x200B;
+>* /portfolio/:ID/content-dashboard__:dashboardID &#x200B;
+>* /program/:ID/content-dashboard__:dashboardID &#x200B;
+>* /project/:ID/content-dashboard__:dashboardID &#x200B;
+>* /task/:ID/content-dashboard__:dashboardID &#x200B;
+>* /template/:ID/content-dashboard__:dashboardID &#x200B;
+>* /templatetask/:ID/content-dashboard__:dashboardID &#x200B;
+>* /resourcemanagement/:ID/content-dashboard__:dashboardID &#x200B;
+>* /Team/:ID/content-dashboard__:dashboardID &#x200B;
+>* /iteration/:ID/content-dashboard__:dashboardID &#x200B;
+>* /requests/:ID/content-dashboard__:dashboardID &#x200B;
+>* /group/:ID/content-dashboard__:dashboardID &#x200B;
+>* /billingrecord/:ID/content-dashboard__:dashboardID
+
 
 ## Exigences d’accès
 

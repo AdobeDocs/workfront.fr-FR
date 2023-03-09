@@ -7,9 +7,9 @@ description: Consultez ces articles pour savoir comment créer des tableaux de b
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '78'
 ht-degree: 10%
 
 ---
@@ -29,3 +29,4 @@ Cette section contient les articles suivants :
 * [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
 * [Incorporation d’une file d’attente de requêtes dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
 * [Suppression d’une page externe d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+* [Tableaux de bord de canevas - Aperçu](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
