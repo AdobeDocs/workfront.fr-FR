@@ -6,9 +6,9 @@ description: Ajout d’options de vérification avancées à l’aide de l’API
 author: Becky
 feature: Workfront API, Workfront Proof
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Pour un aperçu de l’API ProofHQ, reportez-vous à la section [Présentation d
 1. Créez un BAT à l’aide de la fonction `Document createProof` dans l’API Workfront.
 
    >[!NOTE]
-   Lors de la création du BAT, n’incluez pas de valeur pour le paramètre advancedProofingOptions .
+   Lors de la création du BAT, définissez `{}` comme valeur de la variable `advancedProofingOptions` .
 
 1. Une fois le BAT créé, utilisez l’API ProofHQ pour ajouter toutes les options avancées.
 
