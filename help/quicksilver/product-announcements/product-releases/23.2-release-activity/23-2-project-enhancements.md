@@ -4,9 +4,9 @@ description: 23.2 Améliorations apportées au projet
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Outre l’aspect mis à jour de l’interface, les modifications suivantes sont 
 * Nous avons supprimé la fonctionnalité de commentaires de la zone Modifier les projets .
 
 Pour plus d’informations, voir [Modification de projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Amélioration de l’expérience de filtrage généralement disponible dans Adobe Workfront
 

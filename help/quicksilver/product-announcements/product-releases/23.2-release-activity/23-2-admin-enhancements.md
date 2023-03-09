@@ -4,9 +4,9 @@ description: 23.2 Améliorations apportées aux administrateurs
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité d�
 
 * **Modifier la taille du texte descriptif**: Vous pouvez désormais affecter des petites, moyennes ou grandes tailles aux champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne avec d’autres champs. <span style="color: #ff0000;"> La modification de la taille du texte descriptif a été temporairement retardée, mais sera bientôt disponible.</span></li>
 
-Pour plus d’informations, voir [Présentation du concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+Pour plus d’informations, voir [Présentation du concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Renommer les pin’s dans le modèle de mise en page
 
@@ -37,4 +39,4 @@ Vous pouvez désormais renommer les pin’s dans un modèle de mise en page afin
 
 Pour plus d’informations, voir [Personnalisation des pages épinglées à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Pour plus d’informations sur la manière dont les utilisateurs peuvent renommer leurs pages épinglées personnelles, voir [Epingler des pages pour personnaliser votre espace de travail](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3414364/)
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3414364/){target=_blank}
