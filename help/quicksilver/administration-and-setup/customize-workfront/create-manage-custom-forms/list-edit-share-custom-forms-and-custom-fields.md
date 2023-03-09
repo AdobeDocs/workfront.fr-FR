@@ -2,12 +2,13 @@
 title: Répertorier et modifier des formulaires et des widgets personnalisés ajoutés à des formulaires personnalisés
 description: Lorsque vous affichez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objet auxquels chaque formulaire personnalisé est associé.
 author: Caroline
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
 
 ---
+
 
 # Répertorier et modifier des formulaires et des widgets personnalisés ajoutés à des formulaires personnalisés
 

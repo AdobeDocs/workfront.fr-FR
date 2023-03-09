@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 51d4fdb5a47099f22d171a700ee9cf5270fb1553
+source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
 workflow-type: tm+mt
-source-wordcount: '12620'
+source-wordcount: '12770'
 ht-degree: 1%
 
 ---
@@ -475,29 +475,48 @@ ht-degree: 1%
       * Formulaires personnalisés {#custom-forms}
          * [Formulaires personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Aperçu des formulaires personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * [Création ou modification d’un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-         * [Copier un formulaire personnalisé pour en créer un nouveau](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-         * [Ajouter un champ personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-         * [Ajout d’une image ou d’un autre widget de ressource à un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-         * [Ajout d’un saut de section](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-         * [Accès aux champs personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
-         * [Ajout de données calculées](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-         * [Réutilisation d’un champ personnalisé calculé existant](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-         * [Placement de champs et de widgets personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-         * [Partage pour les champs personnalisés et les widgets](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-         * [Réutilisation d’un champ ou d’un widget personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-         * [Ajouter une logique d’affichage et ignorer la logique](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-         * [Partage d’un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-         * [Aperçu et remplissage d’un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-         * [Référence aux formulaires personnalisés dans les rapports](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
-         * [Affichage des rapports qui utilisent un champ ou un widget personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
-         * [Affichage de formulaires personnalisés qui utilisent un champ ou un widget personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
-         * [Transfert de données de formulaire personnalisées lors de la conversion d’un objet](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-         * [Suppression ou désactivation d’un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
-         * [Modification des propriétés d’un champ personnalisé, d’un saut de section ou d’un widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-         * [Suppression d’un champ ou d’un widget personnalisé du système](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-         * [Stockage de champs de texte enrichi dans l’API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-         * [Suppression de types d’objet sur un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * Créateur de formulaires personnalisés hérité {#custom-form-builder}
+            * Utilisation du créateur de formulaires personnalisé {#use-the-custom-form-builder}
+               * [Utilisation de l’ancien créateur de formulaires personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+               * [Création ou modification d’un formulaire personnalisé avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+               * [Copier un formulaire personnalisé pour en créer un nouveau avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+               * [Ajouter un champ personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+               * [Ajout d’une image ou d’un autre widget de ressource à un formulaire personnalisé avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+               * [Ajout d’un saut de section avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+               * [Ajout de données calculées à l’aide du créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+               * [Réutilisation d’un champ personnalisé calculé existant avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+               * [Placement de champs et de widgets personnalisés avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+               * [Partage de champs et de widgets personnalisés avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+               * [Réutilisation d’un champ ou d’un widget personnalisé avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
+               * [Ajouter une logique d’affichage et ignorer la logique avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+               * [Aperçu et remplissage d’un formulaire personnalisé avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+               * [Suppression des types d’objet sur un formulaire personnalisé à l’aide du créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * Concepteur de formulaire {#form-designer}
+            * [Concepteur de formulaire](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+            * [Présentation du concepteur de formulaires](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+            * Conception d’un formulaire personnalisé {#design-a-form}
+               * [Conception d’un formulaire](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+               * [Concevoir un formulaire avec le concepteur de formulaires](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+               * [Concevoir un formulaire à partir d’une copie avec le concepteur de formulaires](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+               * [Ajouter des champs calculés avec le concepteur de formulaires](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+               * [Organisation et prévisualisation d’un formulaire avec le concepteur de formulaires](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+            * Gestion d’un formulaire {#manage-a-form}
+               * [Gestion d’un formulaire](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
+               * [Ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant à l’aide du concepteur de formulaire](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+               * [Renommer un formulaire personnalisé avec le concepteur de formulaires](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+         * Gestion des formulaires personnalisés {#manage-custom-forms}
+            * [Gestion des formulaires et des champs personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+            * [Partage d’un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+            * [Accès aux champs personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+            * [Désactivation ou réactivation d’un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+            * [Référence aux formulaires personnalisés dans les rapports](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
+            * [Affichage des rapports qui utilisent un champ ou un widget personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
+            * [Affichage de formulaires personnalisés qui utilisent un champ ou un widget personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
+            * [Transfert de données de formulaire personnalisées lors de la conversion d’un objet](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+            * [Modification des propriétés d’un champ personnalisé, d’un saut de section ou d’un widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [Suppression d’un champ ou d’un widget personnalisé du système](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+            * [Suppression d’un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+            * [Stockage de champs de texte enrichi dans l’API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
       * Statuts et libellés de priorité {#statuses-priority-labels}
          * [Création d’états et de libellés de priorité personnalisés](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [Présentation des états](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)

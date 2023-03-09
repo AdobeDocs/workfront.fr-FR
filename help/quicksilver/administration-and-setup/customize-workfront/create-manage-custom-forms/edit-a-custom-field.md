@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -52,15 +52,11 @@ Les étapes de cet article doivent être les suivantes :
 
 1. Cliquez sur **Forms personnalisée.**
 1. Cliquez sur le bouton **Champs** .
-
-   <!--
-   Or
-   If you are editing the properties for an image or video widget, click the <b>Widget Library</b> tab.</p>
-   -->
-
 1. Sélectionnez le champ personnalisé, le saut de section ou le widget, puis cliquez sur **Modifier**.
 1. Dans la zone qui s’affiche, modifiez les options disponibles pour l’élément que vous modifiez.
 
-   Pour plus d’informations sur ces options, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) ou [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   Voir plus d’informations sur ces options
+   * Si vous utilisez le créateur de formulaires personnalisé, reportez-vous à la section [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) ou [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * Si vous utilisez le concepteur de formulaire, reportez-vous à la section [Conception d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Lorsque vous avez terminé, cliquez sur **Enregistrer + Fermer**.

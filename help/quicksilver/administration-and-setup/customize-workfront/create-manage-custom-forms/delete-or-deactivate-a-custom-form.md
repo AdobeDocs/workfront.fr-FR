@@ -2,26 +2,26 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Suppression ou désactivation d’un formulaire personnalisé
-description: Vous pouvez supprimer ou désactiver un formulaire personnalisé du système.
-author: Caroline
+title: Suppression d’un formulaire personnalisé
+description: Vous pouvez supprimer un formulaire personnalisé du système.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1871b4e4d884c2660e09c2cd49e03bda243a1926
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
-# Suppression ou désactivation d’un formulaire personnalisé
+# Suppression d’un formulaire personnalisé
 
-Vous pouvez supprimer ou désactiver un formulaire personnalisé du système.
+Vous pouvez supprimer un formulaire personnalisé du système.
 
 >[!CAUTION]
 >
->La suppression d’un formulaire personnalisé supprime également toutes les données personnalisées sur les objets associés au formulaire. Les données supprimées ne peuvent pas être récupérées. Envisagez plutôt de désactiver un formulaire personnalisé : lorsque vous désactivez un formulaire personnalisé que vous n’utilisez plus, vous conservez toutes les données historiques associées.
+>La suppression d’un formulaire personnalisé supprime également toutes les données personnalisées sur les objets associés au formulaire. Les données supprimées ne peuvent pas être récupérées. Envisagez plutôt de désactiver un formulaire personnalisé : lorsque vous désactivez un formulaire personnalisé que vous n’utilisez plus, vous conservez toutes les données historiques associées. Pour plus d’informations, voir [Réactivation ou désactivation d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
 ## Exigences d’accès
 
@@ -55,20 +55,3 @@ Les étapes de cet article doivent être les suivantes :
 1. Cliquez sur **Forms personnalisée.**
 1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Supprimer**.
 1. Si vous souhaitez supprimer définitivement le formulaire personnalisé et toutes les données associées sur les objets auxquels il a été joint, cliquez sur **Oui, la supprimer**.
-
-## Désactivation d’un formulaire personnalisé
-
-Vous pouvez désactiver les formulaires personnalisés que vous n’utilisez plus sans perdre les données historiques associées. Les utilisateurs ne peuvent pas ajouter un formulaire personnalisé inactif aux objets, mais ils peuvent tout de même afficher et ajouter des données à ses champs sur les objets auxquels il était déjà joint.
-
-Les champs d’un formulaire personnalisé inactif sont également disponibles pour la modification en ligne dans une vue. Si un utilisateur ajoute un champ à partir d’un formulaire personnalisé inactif lors d’une modification en ligne, le formulaire se joint automatiquement à l’objet, même si le formulaire personnalisé est désactivé.
-
-Si vous réactivez un formulaire personnalisé, il conserve les paramètres dont il disposait auparavant et les utilisateurs peuvent interagir avec celui-ci comme s’il n’avait jamais été désactivé.
-
-Pour désactiver un formulaire personnalisé :
-
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
-
-1. Cliquez sur le nom du formulaire personnalisé à désactiver.
-1. Cliquez sur le bouton **Paramètres de formulaire** .
-1. Désactivez le **Est Principal** .
-1. Cliquez sur **Enregistrer + Fermer**.

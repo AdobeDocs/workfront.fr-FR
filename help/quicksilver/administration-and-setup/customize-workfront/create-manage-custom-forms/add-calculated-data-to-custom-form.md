@@ -1,5 +1,5 @@
 ---
-title: Ajout de données calculées à un formulaire personnalisé
+title: Ajout de données calculées à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e24a0408049e7eb2e7cb97833e7f41ea66e8131b
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2573'
 ht-degree: 0%
 
 ---
 
-# Ajout de données calculées à un formulaire personnalisé
+# Ajout de données calculées à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 
 Dans un formulaire personnalisé, vous pouvez ajouter un champ personnalisé calculé qui utilise les données existantes pour générer de nouvelles données lorsque le formulaire personnalisé est joint à un objet.
 
@@ -145,9 +145,9 @@ Vous pouvez utiliser les champs Workfront intégrés et les champs personnalisé
    >* Recherchez les erreurs de calcul, surlignées en rose, au fur et à mesure. Vous pouvez pointer sur une erreur mise en surbrillance pour afficher une brève description de sa cause.
       >  ![](assets/error-help.png)
    >* Dans la zone située sous votre calcul, prévisualisez les résultats sur un objet Workfront existant.
+      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
 
-   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-   >  ![](assets/preview-calc.jpg)
+      >  ![](assets/preview-calc.jpg)
    >* Expressions de référence dans un calcul long à l’aide des numéros de ligne qui s’affichent sur la gauche.
 
 

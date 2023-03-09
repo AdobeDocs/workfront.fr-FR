@@ -8,20 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 5b6583172b46e980a11fa9dc00895b9add5701ed
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 6%
 
 ---
 
 # Aperçu des formulaires personnalisés
-
-**Vidéo**:
-
-Consultez cette présentation vidéo des formulaires personnalisés.
-
-![](assets/video-icon-verysmall.png) [Forms personnalisée dans la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath2/custom-forms-in-the-new-workfront-experience-final-MCC2AF4MH6NRHKHJJBXO6T65DHUU)
 
 Vous pouvez créer un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Workfront. Les utilisateurs qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 
@@ -45,11 +39,12 @@ Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire
 * Cases d’option
 * Texte descriptif
 
-Pour plus d’informations, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+## Comment créer un formulaire personnalisé
 
-Vous pouvez également ajouter des widgets de ressource visuelle à un formulaire personnalisé. Cela s’avère utile lorsque vous devez inclure du contenu tel que des images de marque ou des instructions visuelles. Pour plus d’informations, voir [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Il existe deux options pour créer un formulaire personnalisé dans [!DNL Workfront]. Vous pouvez utiliser le créateur de formulaires personnalisés hérité ou le nouveau concepteur de formulaires :
 
-Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* [Créateur de formulaires personnalisés hérité](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+* [Concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 
 ## Objets auxquels les utilisateurs peuvent joindre un formulaire personnalisé
 
@@ -68,4 +63,4 @@ Les utilisateurs peuvent joindre des formulaires personnalisés aux types d’ob
 
 Pour obtenir des instructions, voir [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Les utilisateurs qui créent un formulaire personnalisé peuvent le configurer pour qu’il fonctionne avec plusieurs types d’objet. Pour plus d’informations, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Les utilisateurs qui créent un formulaire personnalisé peuvent le configurer pour qu’il fonctionne avec plusieurs types d’objet.

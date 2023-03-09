@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Ajouter un champ personnalisé à un formulaire personnalisé
+title: Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 description: Lorsque vous travaillez sur un formulaire personnalisé, vous pouvez créer un champ personnalisé et l’ajouter à un formulaire personnalisé. Vous pouvez également ajouter un champ personnalisé qui a déjà été ajouté à un autre formulaire personnalisé.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: a0b483e3ced69cbe59d51cca2edfb017ddadd09a
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 3%
+source-wordcount: '2208'
+ht-degree: 2%
 
 ---
 
-# Ajouter un champ personnalisé à un formulaire personnalisé
+# Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 
 Lorsque vous travaillez sur un formulaire personnalisé, vous pouvez créer un champ personnalisé et l’ajouter à un formulaire personnalisé.
 

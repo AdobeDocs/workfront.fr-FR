@@ -1,5 +1,5 @@
 ---
-title: Création ou modification d’un formulaire personnalisé
+title: Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,18 +8,18 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
 
-# Création ou modification d’un formulaire personnalisé
+# Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité
 
 Vous pouvez créer ou modifier un nouveau formulaire personnalisé. Les deux tâches sont expliquées dans cet article.
 
-Pour plus d’informations sur la création d’un formulaire personnalisé à partir d’un formulaire existant, voir [Copier un formulaire personnalisé pour en créer un nouveau](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+Pour plus d’informations sur la création d’un formulaire personnalisé à partir d’un formulaire existant, voir [Copier un formulaire personnalisé pour en créer un nouveau avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
 ## Exigences d’accès
 

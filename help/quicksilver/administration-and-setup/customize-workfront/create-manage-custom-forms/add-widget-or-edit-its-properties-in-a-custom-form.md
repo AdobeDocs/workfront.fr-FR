@@ -1,18 +1,18 @@
 ---
-title: Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé
+title: Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 description: Vous pouvez ajouter ou modifier les propriétés de l’un des widgets de ressource suivants, tels que des images, des vidéos, des fichiers de PDF et des fichiers Adobe XD, dans un formulaire personnalisé. Cela s’avère utile lorsque vous devez inclure du contenu visuel tel que des images de marque, une vidéo pédagogique ou un prototype interactif pour une application que vous concevez.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
 
-# Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé
+# Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 
 Vous pouvez ajouter ou modifier les propriétés de l’un des widgets de ressource suivants dans un formulaire personnalisé :
 

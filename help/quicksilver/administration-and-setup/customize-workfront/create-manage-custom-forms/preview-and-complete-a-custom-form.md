@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Aperçu et remplissage d’un formulaire personnalisé
+title: Aperçu et remplissage d’un formulaire personnalisé avec le créateur de formulaires hérité
 description: Lorsque vous avez terminé de créer ou de modifier un formulaire personnalisé, vous pouvez le prévisualiser pour qu’il s’affiche pour les utilisateurs, puis l’enregistrer et le fermer.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Aperçu et remplissage d’un formulaire personnalisé
+# Aperçu et remplissage d’un formulaire personnalisé avec le créateur de formulaires hérité
 
 Lorsque vous avez terminé de créer ou de modifier un formulaire personnalisé, vous pouvez le prévisualiser pour qu’il s’affiche pour les utilisateurs, puis l’enregistrer et le fermer.
 
@@ -46,7 +46,7 @@ Les étapes de cet article doivent être les suivantes :
 
 ## Aperçu et fin de la création d’un formulaire personnalisé
 
-1. Commencer à créer et configurer un formulaire personnalisé, comme décrit dans les articles [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md), etc.
+1. Commencer à créer et configurer un formulaire personnalisé, comme décrit dans les articles [Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md), etc.
 
 1. (Facultatif) Cliquez sur **Aperçu** pour voir à quoi ressemblera le formulaire lors de son utilisation, puis cliquez sur **Aperçu de la fin** pour revenir à la modification du formulaire.
 

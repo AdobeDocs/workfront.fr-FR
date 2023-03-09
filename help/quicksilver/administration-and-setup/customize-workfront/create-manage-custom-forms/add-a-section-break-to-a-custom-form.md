@@ -2,19 +2,19 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Ajout d’un saut de section à un formulaire personnalisé
+title: Ajout d’un saut de section à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 description: Vous pouvez regrouper les champs personnalisés et les widgets d’un formulaire personnalisé en sections avec des en-têtes. Cela s’avère utile pour présenter une expérience organisée aux utilisateurs qui remplissent le formulaire. En outre, si vous devez limiter l’accès à certains champs et widgets personnalisés à certains utilisateurs, vous pouvez les placer dans une section, puis accorder l’accès à la section à ces utilisateurs uniquement.
 feature: System Setup and Administration
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
-# Ajout d’un saut de section à un formulaire personnalisé
+# Ajout d’un saut de section à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 
 Vous pouvez regrouper les champs personnalisés et les widgets d’un formulaire personnalisé en sections avec des en-têtes. Cela s’avère utile pour présenter une expérience organisée aux utilisateurs qui remplissent le formulaire. En outre, si vous devez limiter l’accès à certains champs et widgets personnalisés à certains utilisateurs, vous pouvez les placer dans une section, puis accorder l’accès à la section à ces utilisateurs uniquement.
 
