@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 2f10dbcfe35676ff6091ab72db0825557f21bcac
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -188,9 +188,6 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->Le contenu de cette page fait référence à la fonctionnalité qui fait partie de la nouvelle expérience de commentaire unifiée, actuellement disponible uniquement dans les objectifs Adobe Workfront. Pour plus d’informations sur l’expérience de commentaire unifiée, voir [Expérience de commentaires unifiés](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
-
 Vous pouvez ajouter des commentaires aux objectifs dans la section Mises à jour de la page d’un objectif.
 
 Vous pouvez répondre ou aimer un commentaire que vous ou d’autres avez ajouté dans cette zone.
@@ -203,6 +200,10 @@ Cela ouvre la liste des objectifs.
 1. Commencez à saisir un commentaire dans la variable **Rédiger un commentaire** de la boîte.
 
    ![](assets/comment-box-empty-unshimmed.png)
+
+   >[!TIP]
+   >
+   >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode préliminaire, même après vous être déconnecté et vous être reconnecté. Les commentaires préliminaires ne sont visibles que par l’utilisateur qui les saisit.
 
 1. (Facultatif) Dans le **Notifier** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 1. Cliquez sur **Envoyer**.
