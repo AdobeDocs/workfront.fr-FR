@@ -1,5 +1,5 @@
 ---
-source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
+source-git-commit: 7ef1d55a7d743d83bd4f6625252848442919b9f4
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -240,7 +240,7 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
 
 ## Dernière version de DPV {#latest-version}
 
-**Dernière version**: 2.1.20 à partir du 1/11/2023
+**Dernière version**: 2.1.22 à partir du 3/10/2023
 
 <!-- Release -->
 
