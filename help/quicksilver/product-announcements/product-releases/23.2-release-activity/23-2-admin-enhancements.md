@@ -4,9 +4,9 @@ description: 23.2 Améliorations apportées aux administrateurs
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Cette page décrit toutes les améliorations apportées par l’administrateur �
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.2, voir [Présentation de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Création de formulaires personnalisés avec le nouveau concepteur de formulaires
+## Créer des formulaires personnalisés avec la nouvelle version bêta du concepteur de formulaires
 
-Le nouveau concepteur de formulaire dispose d’un nouvel espace de travail de style zone de travail qui vous permet d’afficher simultanément les paramètres des champs, de la zone de travail et des champs.
+Disponible désormais dans une version bêta publique, le nouveau concepteur de formulaire dispose d’un nouvel espace de travail de type zone de travail qui vous permet d’afficher simultanément les champs, la zone de travail et les paramètres de champ.
 
 Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité d’utiliser
 
