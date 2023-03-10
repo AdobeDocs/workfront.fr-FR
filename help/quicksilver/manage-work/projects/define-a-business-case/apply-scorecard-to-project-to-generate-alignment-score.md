@@ -5,9 +5,9 @@ description: Vous pouvez utiliser une fiche d’évaluation pour mesurer l’ali
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,18 @@ Pour appliquer une fiche d’évaluation à un projet :
 1. Cliquez sur **Enregistrer** pour enregistrer la fiche d’évaluation et noter le projet.
 
    La fiche d’évaluation est maintenant associée au projet et le projet est noté.
+
+1. (Conditionnel) Lorsque des modifications se produisent dans les valeurs des questions de la Fiche d’évaluation, vous devez recalculer la Fiche d’évaluation afin de refléter les nouvelles valeurs pour la note du projet. Pour recréer la fiche d’évaluation, procédez comme suit :
+
+   1. Accédez à une liste de projets et sélectionnez tous les projets de la liste.
+   1. Cliquez sur le bouton **Modifier** en haut de la liste.
+   1. Cliquez sur **Paramètres** dans le panneau de gauche, puis cochez la case **Recalculer les Fiches d’évaluation** à la fin de la zone Paramètres .
+   1. Cliquer sur Enregistrer. Cette opération recalcule la valeur du score en fonction des fiches d’évaluation jointes à tous les projets sélectionnés.
+
+      >[!NOTE]
+      >
+      >   <span class="preview">L’option permettant de recalculer les fiches d’évaluation a été supprimée de l’environnement Aperçu lors de la modification en masse de projets. </span>
+
 
 ## Génération d’un score d’alignement
 

@@ -7,7 +7,7 @@ description: Vous pouvez ajouter un formulaire personnalisé existant à l’un 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 1%
@@ -117,7 +117,6 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 ><span class="preview">Pour plus d’informations sur l’ajout de formulaires personnalisés à des projets en bloc dans l’environnement Aperçu, reportez-vous à l’article [Modification de projets](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
-—>
 
 1. Accédez à une liste d’objets.
 1. Sélectionnez plusieurs objets dans la liste.

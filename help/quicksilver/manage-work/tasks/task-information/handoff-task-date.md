@@ -7,9 +7,9 @@ description: La date de remise correspond à la date à laquelle une tâche est 
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 39efbf1d678cf85e9b6b61744fb046664992370c
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ Workfront applique les règles suivantes pour calculer la date de remise d’une
 >
 >Pour plus d’informations sur le recalculage de la chronologie du projet, voir [Recalculer les calendriers du projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-* **Lorsque la tâche présente une contrainte pour les dates prévues**: La date de remise est toujours identique à la date définie par la contrainte, indépendamment de toute autre condition.\
+* **Lorsque la tâche présente une contrainte pour les dates prévues**: La date de remise varie selon le type de contrainte et selon que la tâche possède ou non une date de début réelle.\
    Les contraintes suivantes sont imposées sur les tâches :
 
    * Il Faut Commencer Le
@@ -73,6 +73,13 @@ Workfront applique les règles suivantes pour calculer la date de remise d’une
    * Commencer Au Plus Tôt
    * Commencer Au Plus Tard
    * Date fixe
+
+   Les scénarios suivants existent :
+
+   * Lorsque la tâche présente une contrainte Doit démarrer le ou Démarrer le début au plus tôt, la date de remise est la date de contrainte, sauf si la tâche contient une date de début réelle. S’il existe une date de début réelle sur la tâche, la date de remise correspond à la date de fin réelle du prédécesseur.
+   * Lorsque la tâche présente une contrainte Doit se terminer le ou Ne pas démarrer plus tard que, la date de remise est toujours la date de fin réelle du prédécesseur, qu’il y ait ou non une date de début réelle sur la tâche.
+   * Lorsque la tâche présente une contrainte de dates fixes, la Date de remise est la Date de début planifiée de la tâche, qu’elle ait ou non un prédécesseur et que le prédécesseur soit terminé ou non.
+
 
 ## Localisation de la date de remise
 
