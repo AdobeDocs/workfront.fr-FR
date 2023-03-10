@@ -4,9 +4,9 @@ description: 23.2 Améliorations apportées au projet
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Outre l’aspect mis à jour de l’interface, les modifications suivantes sont 
 * Indication des formulaires personnalisés déjà joints aux projets sélectionnés et nombre de projets auxquels un formulaire spécifique est déjà joint.
 
 * Nous avons supprimé la fonctionnalité de commentaires de la zone Modifier les projets .
+
+* L’option Recalculer les fiches d’évaluation a été supprimée lors de la modification en masse de projets.
 
 Pour plus d’informations, voir [Modification de projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
