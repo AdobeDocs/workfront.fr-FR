@@ -4,7 +4,7 @@ description: Présentation de la version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+source-git-commit: 14178b9dadc5da0d858fd3b8d19fde2e7764aaee
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
@@ -399,7 +399,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 9 mars 2023<br /></p>
+                                <p>Aperçu de la version : 20 mars 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Version de production : Avec la version 23.2 </span></p>
