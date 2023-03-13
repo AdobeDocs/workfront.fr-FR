@@ -6,9 +6,9 @@ description: API d’abonnement à un événement
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 3%
 
 ---
@@ -260,7 +260,7 @@ Lors de l’interrogation de Workfront HTTP, utilisez la méthode GET. Il existe
 
 ### Requête sur tous les abonnements aux événements
 
-Vous pouvez interroger tous les abonnements aux événements pour un client, comme spécifié par la valeur apiKey. Vous pouvez également utiliser les options suivantes pour gérer la réponse :
+Vous pouvez interroger tous les abonnements aux événements pour un client ou utiliser les éléments suivants pour gérer la réponse. Vous pouvez également utiliser les options suivantes pour gérer la réponse :
 
 * **page**: option de paramètre de requête pour spécifier le nombre de pages à renvoyer. La valeur par défaut est 1.
 * **limit**: option de paramètre de requête pour spécifier le nombre de résultats à renvoyer par page. La valeur par défaut est 100 avec un maximum de 1 000.
