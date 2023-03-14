@@ -3,20 +3,20 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Présentation de la date de passation des tâches
-description: La date de remise correspond à la date à laquelle une tâche est disponible pour le travail. Cela signifie généralement que ses prédécesseurs ont résolu le problème et que la personne désignée de la tâche peut commencer à travailler dessus.
+description: La date de remise est la date à laquelle une tâche est disponible pour le travail. Cela signifie généralement que ses prédécesseurs ont résolu le problème et que la personne désignée de la tâche peut commencer à travailler dessus.
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '617'
 ht-degree: 3%
 
 ---
 
 # Présentation de la date de passation des tâches
 
-La date de remise correspond à la date à laquelle une tâche est disponible pour le travail. Cela signifie généralement que ses prédécesseurs ont résolu le problème et que la personne désignée de la tâche peut commencer à travailler dessus.
+La date de remise est la date à laquelle une tâche est disponible pour le travail. Cela signifie généralement que ses prédécesseurs ont résolu le problème et que la personne désignée de la tâche peut commencer à travailler dessus.
 
 >[!TIP]
 >

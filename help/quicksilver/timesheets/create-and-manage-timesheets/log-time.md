@@ -6,9 +6,9 @@ description: Vous pouvez consigner le temps passé sur les tâches dans&nbsp;Ado
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2992'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,9 @@ Pour plus d’informations sur le type d’heures de connexion à Workfront, voi
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Review or higher</p> 
-   <p><b>NOTE</b></p>
-
-   <ul><li>Reviewers can log only General Hours in a timesheet</li>
-   <li>You must have a Work license or higher to log hours on a project, task, or issue</li></ul> </td> 
+   <p>Legacy license: 
+   <ul><li>Review or higher to log General Hours in a timesheet</li>
+   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -64,11 +62,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou version ultérieure</p> 
-   <p><b>NOTE</b></p>
-
-<ul><li>Les réviseurs ne peuvent consigner que les heures générales dans une feuille de temps.</li>
-   <li>Vous devez disposer d’une licence de travail ou d’une licence supérieure pour consigner les heures d’un projet, d’une tâche ou d’un problème.</li></ul>
+   <td> <ul><li>Passez en revue ou plus pour consigner les heures générales dans une feuille de temps</li>
+   <li> Utilisation ou plus élevée pour consigner les heures d’un projet, d’une tâche ou d’un problème</li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Contribuez à l’élément de travail pour lequel vous enregistrez des autorisations, y compris les autorisations d’heures de journalisation.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Contribuez ou modifiez les autorisations de l’élément de travail pour lequel vous enregistrez l’heure, y compris les autorisations de journal des heures.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
