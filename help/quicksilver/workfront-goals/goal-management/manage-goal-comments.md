@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ Cela ouvre la liste des objectifs.
 1. Recherchez l’objectif auquel vous souhaitez ajouter des commentaires, puis cliquez sur son nom pour ouvrir la page d’objectif.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
 1. Cliquez sur le bouton **Commentaires** dans le coin supérieur gauche de la zone Mises à jour .
-1. Commencez à saisir un commentaire dans la variable **Rédiger un commentaire** de la boîte.
+1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -205,7 +205,7 @@ Cela ouvre la liste des objectifs.
    >
    >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode préliminaire, même après vous être déconnecté et vous être reconnecté. Les commentaires préliminaires ne sont visibles que par l’utilisateur qui les saisit.
 
-1. (Facultatif) Dans le **Notifier** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. (Facultatif) Dans le **Balisage de personnes ou d’équipes** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 1. Cliquez sur **Envoyer**.
 1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 5 à 7 ci-dessus. <!--insure this stays accurate-->
 1. (Facultatif) Cliquez sur le **Comme** icon![](assets/like-icon.png) pour aimer un commentaire que quelqu&#39;un d&#39;autre a ajouté. L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
