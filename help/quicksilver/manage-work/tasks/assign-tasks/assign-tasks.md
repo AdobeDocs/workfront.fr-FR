@@ -6,7 +6,7 @@ description: Vous pouvez affecter des tâches aux utilisateurs, rôles ou équip
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 1%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>Si plusieurs rôles sont affectés et qu’au moins l’un d’eux correspond à l’un des autres rôles de l’utilisateur, la tâche ou le problème est affecté à l’utilisateur (le rôle est sélectionné de manière aléatoire s’il existe plusieurs correspondances), ainsi que tout autre rôle affecté.</li>
       <li>Si au moins un rôle de tâche est attribué et qu’il n’existe aucune correspondance avec les rôles de tâche de l’utilisateur, la tâche ou le problème est affecté à la fois au rôle ou aux rôles et à l’utilisateur.</li>
      </ul>
-   <p>Pour plus d’informations sur le rôle Principal d’un utilisateur et d’autres rôles, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Modification du profil d’un utilisateur</a>.</p>
-   </td>
-  </tr>
+   <p>Pour plus d’informations sur le rôle Principal d’un utilisateur et d’autres rôles, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modification du profil d’un utilisateur</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -179,8 +179,15 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
        <ul> 
         <li>ont l’état [!UICONTROL Actuel] ;</li> 
         <li>ont eu une mise à jour au cours des 3 derniers mois ;</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>Lorsque la portée d’un projet change</strong>: Sélectionnez cette option pour recalculer immédiatement les échéances du projet en cas de changement de portée du projet. Pour plus d’informations sur ce qui constitue un changement de portée d’un projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculer les calendriers du projet</a>.</p> </li> 
+        <li>possèdent un type de mise à jour de l’une des valeurs suivantes :</li>
+        <ul>
+        <li>Automatique et en cas de modification</li>
+        <li>Modification uniquement</li>
+        <li>Automatique uniquement</li> 
+      </ul>       
+    <b>CONSEIL</b>
+    <p>Les projets dont le type de mise à jour est Manuel uniquement ne sont pas affectés par ce paramètre.</p>
+    <li> <p><strong>Lorsque la portée d’un projet change</strong>: Sélectionnez cette option pour recalculer immédiatement les échéances du projet en cas de changement de portée du projet. Pour plus d’informations sur ce qui constitue un changement de portée d’un projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculer les calendriers du projet</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -236,7 +243,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     <ul> 
      <li><strong>[!UICONTROL Ajouter et modifier des tâches]</strong> Permet aux utilisateurs de :
       <ul>
-       <li>Modifiez les tâches d’un projet une fois que le projet a été marqué comme [!UICONTROL terminé], [!UICONTROL mort] ou est [!UICONTROL En attente d’approbation]. Cela inclut l’ajout d’heures et la modification des entrées de dépenses sur une tâche.</li>
+       <li>Modifiez les tâches d’un projet une fois que le projet a été marqué [!UICONTROL Terminé], [!UICONTROL Mort] ou est [!UICONTROL En attente d’approbation]. Cela inclut l’ajout d’heures et la modification des entrées de dépenses sur une tâche.</li>
        <li>Ajoutez des tâches à un projet.</li>
       </ul></li> 
      <li><strong>[!UICONTROL Ajouter et modifier des problèmes]</strong>: Permet aux utilisateurs de :

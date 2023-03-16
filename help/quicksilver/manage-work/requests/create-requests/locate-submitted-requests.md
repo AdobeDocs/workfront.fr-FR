@@ -6,9 +6,9 @@ description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouve
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,11 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
 
    Si un problème a été converti en tâche ou projet et que le problème a été supprimé dans le processus de conversion, le panneau Résumé est vide. Pour plus d’informations sur la conversion de problèmes, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Dans la **Icône Filtrer** ![](assets/filter-nwepng.png) en haut à droite de la liste, sélectionnez l’un des filtres suivants :
+1. Dans la **Icône Filtrer** ![](assets/filter-nwepng.png) en haut à droite de la liste, sélectionnez l’un des filtres répertoriés dans le tableau ci-dessous.
+
+   >[!TIP]
+   >
+   >Vous ne pouvez pas modifier de filtres dans la zone Demandes . En outre, il n’existe aucune option permettant de modifier ou de modifier l’affichage de la zone Demandes .
 
    <table style="table-layout:auto"> 
     <col> 

@@ -6,9 +6,9 @@ description: Vous pouvez affecter des tâches à l’aide de l’équilibreur de
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail pour une équipe ou dans la zone de ressources </p>
-   <p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’un projet </p>
+   <td> <p>Planifiez l’affectation du travail dans l’équilibreur de charge de travail dans la zone Ressource .</p>
+   <p>Travail pour affecter du travail dans l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
  </td> 
   </tr> 
   <tr> 

@@ -6,10 +6,10 @@ description: Sans accès ou autorisations corrects, vous ne pourrez peut-être p
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Le tableau suivant illustre la connexion entre le plan Workfront de votre entrep
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan Workfront</td> 
+   <td role="rowheader"><p>Plan Workfront</p></td> 
    <td> <p>Zones où vous pouvez accéder à l’équilibreur de charge de travail</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ Vous devez disposer des accès suivants pour afficher l’équilibreur de charge
  <tbody> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Prévoyez d’afficher l’équilibreur de charge de travail dans la zone Ressource .</p>
+   <p>Travail pour afficher l’équilibreur de charge de travail d’une équipe ou d’un projet</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -83,8 +84,8 @@ Vous devez disposer des accès suivants pour gérer l’équilibreur de charge d
  <tbody> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> 
-   <p>Fonctionnement, pour gérer les ressources dans l’équilibreur de charge de travail d’un projet</p>
+   <td> <p>Planifiez la gestion des affectations dans l’équilibreur de charge de travail de la zone Ressource .</p>
+   <p>Gérer les affectations dans l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
    </td> 
   </tr> 
   <tr> 
