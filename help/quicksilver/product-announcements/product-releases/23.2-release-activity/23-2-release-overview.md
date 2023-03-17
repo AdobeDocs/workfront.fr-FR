@@ -4,9 +4,9 @@ description: Présentation de la version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de tâches et de problèmes aux flux de travail des panoramas à partir de listes et de rapports</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de tâches et de problèmes provenant de listes et de rapports à une liste de cartes de processus</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
                         <p>Vous pouvez désormais ajouter des tâches ou des problèmes existants à un workflow dans les panoramas Workfront directement à partir d’une liste ou d’un affichage de rapport. Tous les éléments que vous ajoutez au flux de travail sont ajoutés à la liste des cartes en tant que cartes non planifiées.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -170,7 +170,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de tâches et de problèmes aux panoramas Workfront à partir de listes et de rapports</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de tâches et de problèmes à partir de listes et de rapports sur un panorama Workfront</a></p>
                         <p>Vous pouvez désormais ajouter des tâches ou des problèmes existants à un panorama Workfront directement à partir d’une vue de liste ou de rapport. Tous les éléments que vous ajoutez au panorama seront des cartes connectées.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>

@@ -4,9 +4,9 @@ description: 23.2 Améliorations rapides
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Notez que les collections ont été renommées en flux de travail. Les flux de t
 
 Pour plus d’informations, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Créer une itération](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), et [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Deuxièmement, deux articles ne seront pas disponibles dans Main tant que je n’aurai pas publié ma branche.
 
-## Ajout de tâches et de problèmes aux flux de travail des panoramas à partir de listes et de rapports
+## Ajout de tâches et de problèmes provenant de listes et de rapports à une liste de cartes de processus
 
 Vous pouvez désormais ajouter des tâches ou des problèmes existants à un workflow dans les panoramas Workfront directement à partir d’une liste ou d’un affichage de rapport. Tous les éléments que vous ajoutez au flux de travail sont ajoutés à la liste des cartes en tant que cartes non planifiées.
+
+Pour plus d’informations, voir [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## Ajout de champs personnalisés à des cartes sur un panorama
+
+Vous pouvez désormais inclure des champs personnalisés dans les panoramas Adobe Workfront. Le champ doit déjà être créé dans Workfront. Vous ne pouvez pas concevoir et créer de nouveaux champs personnalisés dans un panorama.
+
+Comme les champs par défaut, vous pouvez choisir d’afficher le champ personnalisé sur l’affichage complet d’une carte et l’affichage condensé sur le panorama.
+
+Toutes les données du champ personnalisé de la carte sont en lecture seule.
+
+Pour plus d’informations, voir [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## Ajout de tâches et de problèmes à partir de listes et de rapports sur un panorama Workfront
+
+Vous pouvez désormais ajouter des tâches ou des problèmes existants à un panorama Workfront directement à partir d’une vue de liste ou de rapport. Tous les éléments que vous ajoutez au panorama seront des cartes connectées.
+
+En outre, le champ Panoramas peut désormais être ajouté aux listes et aux rapports pour des tâches ou des problèmes. Ce champ affiche tous les panoramas auxquels une tâche ou un problème a été ajouté.
 
 Pour plus d’informations, voir [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Par défaut, les champs de journalisation de l’heure ne s’affichent pas sur 
 
 Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Ajout de tâches et de problèmes aux panoramas Workfront à partir de listes et de rapports
-
-Vous pouvez désormais ajouter des tâches ou des problèmes existants à un panorama Workfront directement à partir d’une vue de liste ou de rapport. Tous les éléments que vous ajoutez au panorama seront des cartes connectées.
-
-En outre, le champ Panoramas peut désormais être ajouté aux listes et aux rapports pour des tâches ou des problèmes. Ce champ affiche tous les panoramas auxquels une tâche ou un problème a été ajouté.
-
-Pour plus d’informations, voir [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Personnalisation de l’affichage des champs sur une carte
 
