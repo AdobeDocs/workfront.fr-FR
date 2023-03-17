@@ -4,9 +4,9 @@ description: Présentation de la version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 03908f6ebb5693e48b36f93150267e9986dc1069
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
 * [Améliorations rapides](#agile-enhancements)
 * [Améliorations de la gestion de projet](#project-management-enhancements)
 * [Améliorations de la gestion des ressources](#resource-management-enhancements)
-* [Améliorations des rapports et tableaux de bord]
+* [Améliorations des rapports et tableaux de bord](#reports-and-dashboards-enhancements)
 * [Améliorations apportées aux mobiles](#mobile-enhancements)
 * [Autres améliorations](#other-enhancements)
 
@@ -377,8 +377,8 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
             </tbody>
         </table>
 
-<!--
-### Reports and Dashboards enhancements
+
+### Améliorations des rapports et tableaux de bord
 
 
 <table>
@@ -387,34 +387,32 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">Fonctionnalité</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Tableaux de bord de canevas</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Ajout de tableaux de bord de canevas en tant que fonctionnalité de travail en cours pour les tableaux de bord qui peuvent être activés dans les modèles de mise en page - Les tableaux de bord du canevas de rapports permettent de combiner les visualisations du canevas de rapports avec les rapports existants, en plus des nouvelles options de mise en page. Actuellement, seuls les rapports de liste sont pris en charge, mais d’autres options seront ajoutées au fur et à mesure du développement.</p>
                     </td>
-                    <td><p><b>Available on these dates: N/A</b></p>
+                    <td><p><b>Disponible à ces dates : N/A</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:<br /></p>
+                                <p>Aperçu de la version :<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: With the 23.2 release</span></p>
+                                <p><span class="preview">Version de production : Avec la version 23.2</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-        -->
 
 ### Améliorations apportées aux mobiles
 

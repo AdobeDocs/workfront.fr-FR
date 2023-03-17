@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '12759'
+source-wordcount: '12763'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 1%
          * [23.2 Améliorations rapides](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Améliorations de la gestion de projet](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
          * [23.2 Améliorations de la gestion des ressources](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 Améliorations des rapports et tableaux de bord](product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md)
          * [23.2 Améliorations apportées aux appareils mobiles](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
          * [23.2 Autres améliorations](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [Consultation et affichage des mises à jour pendant la période de publication de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -2193,8 +2194,8 @@ ht-degree: 1%
       * [Application d’une allocation de budget Analytics à un projet Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Création d’un élément de liste Anaplan à partir d’une requête de campagne Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Application d’une allocation de budget Analytics à une requête de campagne ou à un projet de campagne Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Épreuve Workfront {#workfront-proof}
-   * [Épreuve Workfront](workfront-proof/workfront-proof.md)
+* Workfront Proof {#workfront-proof}
+   * [Workfront Proof](workfront-proof/workfront-proof.md)
    * Prise en main du Bon à tirer Workfront {#get-started-wf-proof}
       * [Prise en main du bon à tirer Workfront](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * Exemples de workflows {#workflow-examples}
