@@ -4,9 +4,9 @@ description: 23.2 Améliorations rapides
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -17,27 +17,24 @@ Cette page décrit toutes les améliorations apportées à la version 23.2 de l�
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.2, voir [Présentation de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
+## Fonctionnalité d’itération disponible dans les panoramas Adobe Workfront
 
-## Iteration functionality available in Adobe Workfront Boards
+Plusieurs nouvelles fonctionnalités disponibles dans les panoramas Workfront permettent d’utiliser la fonctionnalité de Scrum agile. Ces fonctionnalités sont les suivantes :
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+* Flux de travail pour regrouper des panoramas liés à la même équipe et collaborer sur le travail
+* Une liste de cartes, ou le journal des travaux en souffrance, avec la possibilité d’utiliser des sources pour connecter les cartes aux tâches et problèmes Workfront
+* Panneaux de processus de planification et d’itération
 
-* Workstreams for grouping boards related to the same team, and collaborating on work
-* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
-* Iteration planning and iteration process boards
+Notez que les collections ont été renommées en flux de travail. Les flux de travail vous aident à visualiser les données de différentes manières. Vous pouvez afficher les éléments sur les cartes dans une liste, sur un panorama ou sur une itération. Les cartes d’un workflow peuvent également être partagées entre plusieurs panoramas. Vous pouvez facilement faciliter les workflows à l’aide de cartes et de panoramas dans un workflow.
 
-Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+Pour plus d’informations, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Créer une itération](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), et [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Deuxièmement, deux articles ne seront pas disponibles dans Main tant que je n’aurai pas publié ma branche.
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+## Ajout de tâches et de problèmes aux flux de travail des panoramas à partir de listes et de rapports
 
-## Add tasks and issues to Boards workstreams from lists and reports
+Vous pouvez désormais ajouter des tâches ou des problèmes existants à un workflow dans les panoramas Workfront directement à partir d’une liste ou d’un affichage de rapport. Tous les éléments que vous ajoutez au flux de travail sont ajoutés à la liste des cartes en tant que cartes non planifiées.
 
-You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+Pour plus d’informations, voir [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
-
--->
 
 ## Journal des heures sur les cartes connectées sur un panorama
 
@@ -50,6 +47,14 @@ Vous pouvez désormais consigner les heures sur les cartes connectées, comme vo
 Par défaut, les champs de journalisation de l’heure ne s’affichent pas sur les cartes connectées. Vous devez activer **Heures** dans la zone Configurer sous Cartes.
 
 Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## Ajout de tâches et de problèmes aux panoramas Workfront à partir de listes et de rapports
+
+Vous pouvez désormais ajouter des tâches ou des problèmes existants à un panorama Workfront directement à partir d’une vue de liste ou de rapport. Tous les éléments que vous ajoutez au panorama seront des cartes connectées.
+
+En outre, le champ Panoramas peut désormais être ajouté aux listes et aux rapports pour des tâches ou des problèmes. Ce champ affiche tous les panoramas auxquels une tâche ou un problème a été ajouté.
+
+Pour plus d’informations, voir [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Personnalisation de l’affichage des champs sur une carte
 
