@@ -6,9 +6,9 @@ description: Vous pouvez déplacer une carte dans n’importe quelle colonne du 
 author: Lisa
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 49af035c3bf8770da89c133a27adea676e5daf6d
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
@@ -74,6 +74,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    ![Plus de menu](assets/boards-moremenu-350x329.png)
 
 ## Copier une carte
+
+La copie d’une carte ad hoc duplique tous les champs de la carte, y compris les éléments de liste de contrôle.
 
 >[!NOTE]
 >

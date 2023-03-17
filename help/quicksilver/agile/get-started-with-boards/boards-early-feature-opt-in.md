@@ -6,9 +6,9 @@ title: Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] Pan
 description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Boards] inscription anticipée aux fonctionnalités.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -125,16 +125,16 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
    <td>Partiellement publiée</td>
   </tr>
   <tr>
-   <td>Création de collections de panoramas</td>
+   <td>Création de flux de travail et ajout de panoramas aux flux de travail</td>
    <td>Partiellement publiée</td>
   </tr>
   <tr>
    <td>Créer des itérations</td>
-   <td>Prévu</td>
+   <td>Publication partielle (disponible dans l’aperçu)</td>
   </tr>
   <tr>
    <td>Définition d’une liste de cartes ou d’un journal en souffrance</td>
-   <td>Prévu</td>
+   <td>Publication partielle (disponible dans l’aperçu)</td>
   </tr>
   <tr>
    <td>Importer des sous-tâches en tant qu’éléments de liste de contrôle sur des cartes</td>

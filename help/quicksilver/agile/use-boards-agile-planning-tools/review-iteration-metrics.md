@@ -1,0 +1,61 @@
+---
+content-type: reference
+product-area: agile-and-teams
+navigation-topic: boards
+title: Vérification des mesures d’itération
+description: Les mesures sont disponibles pour chaque itération dans un workflow, sur la carte du processus d’itération.
+author: Lisa
+feature: Agile
+source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 1%
+
+---
+
+# Vérification des mesures d’itération
+
+{{highlighted-preview-article-level}}
+
+Les mesures sont disponibles pour chaque itération dans un workflow, sur la carte du processus d’itération.
+
+## Exigences d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Tous</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Vérification des mesures d’itération sur le panorama d’itération
+
+{{step1-to-boards}}
+
+1. Pour ouvrir un workflow, cliquez sur [!UICONTROL **Afficher le flux de travail**].
+1. Sélectionnez la [!UICONTROL Processus d’itération] panorama.
+1. Passez en revue la zone des mesures au-dessus du panorama en haut à droite. Cliquez sur les flèches haut et bas pour vous déplacer entre les itérations.
+
+   Les mesures suivantes s’affichent : nombre total de points attribués à l’itération, les points restants non encore atteints dans l’itération et le nombre de points atteints dans l’itération.
+
+1. (Facultatif) Cliquez sur le [!UICONTROL **Détails de l’itération**] icon ![Détails de l’itération](assets/iteration-details-button.png) pour ouvrir la boîte de dialogue des détails de l’itération sélectionnée.
+
+## Vérification des mesures d’itération sur le tableau de bord
+
+{{step1-to-boards}}
+
+Les mesures suivantes s’affichent dans le tableau de bord de l’itération actuelle du workflow : nombre total de points affectés à l’itération, nombre de points terminés et les autres points non encore terminés dans l’itération.
+
+Pour passer en revue les mesures d’autres itérations, vous devez ouvrir la carte d’itération.

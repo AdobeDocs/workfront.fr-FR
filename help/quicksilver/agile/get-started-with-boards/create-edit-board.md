@@ -6,10 +6,10 @@ description: Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 5%
+source-wordcount: '524'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer un panorama ou en modifier un existant.
 
-Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Pour ajouter un panorama à un flux de travail, reportez-vous à la section [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Exigences d’accès
 
@@ -43,11 +43,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Création d’un panorama
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Pour créer un panorama autonome, cliquez sur **[!UICONTROL Ajouter un panorama]** dans le [!UICONTROL Panoramas] zone. Pour ajouter un panorama à une collection, reportez-vous à la section [Gestion des collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Pour créer un panorama autonome, cliquez sur **[!UICONTROL Ajouter un panorama]** dans le [!UICONTROL Panoramas] zone. Pour ajouter un panorama à un flux de travail, reportez-vous à la section [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
-   > Les collections ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!DNL Workfront] [!UICONTROL Panoramas].
+   >Les flux de travail sont disponibles dans l’environnement Aperçu et dans Production par le biais de l’accord préalable à la fonctionnalité pour [!UICONTROL [!DNL Workfront] Panoramas]. Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. Sélectionnez un modèle pour le panorama.
 
@@ -59,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!NOTE]
    >
-   > Les modèles de panorama ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!DNL Workfront] [!UICONTROL Panoramas].
+   > Les modèles de panorama ne sont disponibles que par le biais de l’inclusion de fonctionnalités anticipées pour [!DNL Workfront] [!UICONTROL Panoramas]. Sinon, vous êtes limité au panorama de base.
 
 1. Saisissez le nom du panorama dans la zone **[!UICONTROL Panorama]** et appuyez sur Entrée.
 1. Configurez le panorama suivant vos besoins.
