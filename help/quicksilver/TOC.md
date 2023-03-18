@@ -2,7 +2,7 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: 9582a06327901300d2473c1847ddaf46d88ad35e
 workflow-type: tm+mt
 source-wordcount: '12773'
 ht-degree: 1%
@@ -784,7 +784,7 @@ ht-degree: 1%
          * [Utiliser la zone Mes mises à jour](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Mise à jour des tâches et affichage des mises à jour {#update-work-items-view-updates}
       * [Mise à jour des tâches et affichage des mises à jour](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
-      * [Onglet Mises à jour - Aperçu](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+      * [Présentation de la section Mises à jour](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Mise à jour du travail](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Limites de caractères dans les champs](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
       * [Répondre aux mises à jour](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
