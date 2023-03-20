@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2674'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,24 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Nous sommes en train de reconcevoir la manière dont vous mettez à jour le travail lorsque vous utilisez la section Mises à jour d’un objet.
->
->Vous pouvez accéder à la nouvelle conception en activant les commentaires bêta.
->
->Actuellement, la version bêta est disponible pour <span class="preview">Problèmes</span>.
->
+>Nous sommes en train de reconcevoir l’expérience de commentaire dans Adobe Workfront.
 >Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>
+>Vous pouvez accéder à la nouvelle conception pour les objets suivants :
+> * <span class="preview">Problèmes lors de l’activation de la version bêta des commentaires. </span>
+   >
+   >     <span class="preview">Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :</span>
+   >
+   >     * <span class="preview">Page d’accueil</span>
+   >     * <span class="preview">Panneau Résumé dans les listes</span>
+   >     * <span class="preview">Panneau Résumé dans les feuilles de temps</span>
+>
+> * Objectifs
+   >   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   >
+   >    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 Vous pouvez ajouter des commentaires à la plupart des objets dans Adobe Workfront dans la section Mises à jour . Pour plus d’informations sur les objets qui affichent la section Mises à jour, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -173,26 +184,6 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 1. Pour répondre à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Ajout d’une mise à jour à un élément de travail à l’aide des commentaires sur l’expérience bêta
-
-
->[!NOTE]
->
->Les fonctionnalités décrites dans cette section sont disponibles pour les objets suivants :
->
->* <span class="preview">Problèmes, lorsque vous activez l’expérience bêta de commentaire.</span>
-   >
-   >   <span class="preview">Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :</span>
-   >
-   >   * <span class="preview">Page d’accueil</span>
-   >   * <span class="preview">Panneau Résumé dans les listes</span>
-   >   * <span class="preview">Panneau Résumé dans les feuilles de temps</span>
->* Objectifs
-
-   >
-   >   La nouvelle expérience de commentaire est l’expérience actuelle par défaut pour les objectifs.
-   >   Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-
 
 1. Recherchez l’objet à mettre à jour, puis cliquez sur son nom pour ouvrir la page de l’objet.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.

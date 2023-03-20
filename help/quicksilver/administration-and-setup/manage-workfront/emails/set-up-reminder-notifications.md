@@ -1,13 +1,13 @@
 ---
 title: Configuration des notifications de rappel
 description: Configuration des notifications de rappel
-author: Lisa, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,15 @@ Pour plus d’informations sur la création d’un modèle de courrier électron
      </tr> 
      <tr> 
       <td role="rowheader">Planning</td> 
-      <td> <p>Sélectionnez l'événement qui déclenche la planification de la notification de rappel.</p> <p>Si la notification de rappel est destinée aux projets, tâches ou problèmes, les options disponibles sont liées à la date de fin ou à la date de début. La notification de rappel prend en compte l’horodatage des dates de fin et de début des projets, tâches et problèmes.</p> <p>Si la notification de rappel est destinée aux feuilles de calcul, les options disponibles sont liées à la date de fin, à la date de début ou à la date de dernière mise à jour. La notification de rappel pour les feuilles horaires prend en compte l’horodatage de fin de la feuille de temps, de début et de date de dernière mise à jour. La feuille de calcul commence à minuit le jour de la date de début (12h00) et se termine juste avant minuit la date de fin (23h59).</p> </td> 
+      <td> <p>Sélectionnez l'événement qui déclenche la planification de la notification de rappel.</p> <p>Si la notification de rappel est destinée aux projets, tâches ou problèmes, les options disponibles sont liées à la date de fin ou à la date de début. La notification de rappel prend en compte l’horodatage des dates de fin et de début des projets, tâches et problèmes.</p>
+
+   <p>Si la notification de rappel est destinée aux feuilles de calcul, les options disponibles sont liées à la date de fin, à la date de début ou à la date de dernière mise à jour. La notification de rappel pour les feuilles horaires prend en compte l’horodatage de fin de la feuille de temps, de début et de date de dernière mise à jour. La feuille de calcul commence à minuit le jour de la date de début (12h00) et se termine juste avant minuit la date de fin (23h59).</p>
+
+   <p><b>NOTE</b></p>
+      <p>Les notifications de rappel de la feuille de temps ne sont distribuées qu’une fois toutes les 24 heures.</p> <p>Lorsque vous configurez plusieurs notifications de rappel dans une période de 24 heures, Workfront envoie un email de notification avec tous les rappels inclus dans cette notification.</p>
+      <p>Par exemple, si vous configurez trois notifications de rappel pour qu’elles se déclenchent 10 heures avant, 2 heures avant et 1 heure avant une date d’échéance, les trois rappels seront tous combinés dans la même notification s’ils se produisent le même jour.</p> <p>Cependant, si vous définissez une notification de rappel pour 26 heures avant et une autre pour 1 heure avant l’échéance, les utilisateurs recevront deux notifications distinctes. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Critères</td> 

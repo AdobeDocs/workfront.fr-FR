@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '928'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Nous sommes en train de reconcevoir la section Mises à jour d’un objet. Vous pouvez accéder à la nouvelle conception en activant les commentaires bêta.
+>Nous sommes en train de reconcevoir la section Mises à jour d’un objet.
 >
->Actuellement, la version bêta est disponible pour <span class="preview">Problèmes</span>.
+>Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Vous pouvez accéder à la nouvelle conception à partir des objets suivants et dans les environnements suivants :
+>
+>* <span class="preview">Lorsque vous activez l’expérience bêta de commentaire pour les objets suivants :</span>
+   >
+   >     * <span class="preview">Événements</span>
+
+   >     
+   >     <span class="preview">Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :</span>
+   >
+   >     * <span class="preview">Page d’accueil</span>
+   >     * <span class="preview">Panneau Résumé dans les listes</span>
+   >     * <span class="preview">Panneau Résumé dans les feuilles de temps</span>
+>
+>* Par défaut, comme expérience de commentaire actuelle pour les objets suivants :
+   >
+   >     * Objectifs
+
+   >
+   >     Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
 
@@ -79,9 +98,9 @@ La section Mises à jour s’affiche pour les objets suivants :
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-La section Mises à jour affiche des informations dans les onglets suivants de la rubrique Commentaires bêta :
+La section Mises à jour affiche des informations dans les onglets suivants de la nouvelle expérience de commentaire :
 
-* **Mises à jour**: Affiche les commentaires des utilisateurs et les réponses à ces commentaires. Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+* **Commentaires**: Affiche les commentaires des utilisateurs et les réponses à ces commentaires. Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
 * **Activité du système**: Affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système pour vos projets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 Actuellement, vous pouvez faire des commentaires et répondre aux mises à jour à l’aide de la version bêta de l’expérience de commentaire sur les objets suivants :
@@ -102,14 +121,6 @@ Actuellement, vous pouvez faire des commentaires et répondre aux mises à jour 
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->L’expérience de commentaire bêta est l’expérience actuelle par défaut pour les objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront.
->
->Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## Mises à jour qui apparaissent également sur les objets de rang supérieur
 
