@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Présentation de la section Mises à jour
-description: La section Mises à jour répertorie jusqu’à 200 des mises à jour les plus récentes effectuées au cours des 90 derniers jours.
-author: Lisa and Alina
+description: La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
+author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 6%
+source-wordcount: '890'
+ht-degree: 4%
 
 ---
 
@@ -18,35 +18,29 @@ ht-degree: 6%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 >[!NOTE]
 >
->We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
-Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>Nous sommes en train de reconcevoir la section Mises à jour d’un objet. Vous pouvez accéder à la nouvelle conception en activant les commentaires bêta.
+>
+>Actuellement, la version bêta est disponible pour <span class="preview">Problèmes</span>.
+>
+>Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
 
 ## Présentation de la section Mises à jour
 
-<!--drafted for the commenting beta for issues: 
-The information is organized differently in the Updates section, depending on which environment you access it from. 
+Les informations de la section Mises à jour sont organisées différemment selon l’environnement à partir duquel vous y accédez.
 
-###  Overview of the current Updates section 
--->
+### Présentation de la section Mises à jour actuelles
 
 La section Mises à jour d’un objet affiche jusqu’à 200 des mises à jour les plus récentes effectuées au cours des 90 derniers jours.
 
-<!--drafted for the commenting beta for issues: 
-The current Updates section shows the following information:
+![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
--->
-
-La section Mises à jour présente les informations suivantes :
+La section Mises à jour actuelles affiche les informations suivantes :
 
 * Commentaires des utilisateurs et réponses à ces commentaires.
 * Mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système pour vos projets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
@@ -81,15 +75,16 @@ La section Mises à jour s’affiche pour les objets suivants :
  </tbody> 
 </table>
 
-<!--drafted for the commenting beta for issues: 
-###  Overview of the Updates section in the Beta commenting experience
+### Présentation de la section Mises à jour dans la version bêta des commentaires
 
-The Updates section displays information in the following tabs in the Beta commenting experience: 
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Updates**: Displays comments made by users and replies to those comments. 
-* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+La section Mises à jour affiche des informations dans les onglets suivants de la rubrique Commentaires bêta :
 
-Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+* **Mises à jour**: Affiche les commentaires des utilisateurs et les réponses à ces commentaires. Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+* **Activité du système**: Affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système pour vos projets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Actuellement, vous pouvez faire des commentaires et répondre aux mises à jour à l’aide de la version bêta de l’expérience de commentaire sur les objets suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,11 +93,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
   <tr> 
    <td> 
     <ul> 
-     <li>Goals</li> 
+     <li>Objectifs</li> 
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Issues</span></li> 
+     <li><span class="preview">Événements</span></li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -110,8 +105,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 
 >[!NOTE]
 >
->The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+>L’expérience de commentaire bêta est l’expérience actuelle par défaut pour les objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront.
+>
+>Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## Mises à jour qui apparaissent également sur les objets de rang supérieur
 
@@ -150,7 +148,7 @@ Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jou
    <td>Portfolio</td> 
   </tr> 
   <tr> 
-   <td>Utilisateur</td> 
+   <td>Utilisateur ou utilisatrice</td> 
    <td>Équipe</td> 
   </tr> 
   <tr> 
@@ -182,11 +180,12 @@ Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jou
 >Les réponses ajoutées aux mises à jour système ne sont pas cumulées à l’objet parent. Seules les réponses directes sur un objet enfant et les réponses ajoutées aux mises à jour existantes sont cumulées aux objets parents.
 >
 >Pour plus d’informations sur la hiérarchie d’objets dans Adobe Workfront, voir [Présentation des objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
-<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
-><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
+>
+><span class="preview"> Il n’est pas possible de répondre aux mises à jour du système dans la nouvelle expérience de commentaires bêta. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
 
 ## Limites de la section Mises à jour
+
+Il existe certaines limites dans la section Mises à jour d’une équipe et lors de la saisie de mises à jour au nom d’autres utilisateurs.
 
 ### Limites pour les utilisateurs et les équipes
 
