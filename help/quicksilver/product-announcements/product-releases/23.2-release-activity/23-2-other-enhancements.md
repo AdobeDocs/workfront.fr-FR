@@ -4,9 +4,9 @@ description: 23.2 Autres améliorations
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,25 @@ Une mise à jour de l’expérience de commentaires dans Adobe Workfront est act
 Cette nouvelle expérience finira par unifier les commentaires dans Adobe Workfront et au-delà, dans Adobe Experience Cloud.
 
 Dans le cadre de cette mise à jour, nous proposons la nouvelle expérience de commentaires à la section Mises à jour des problèmes . Avec la version actuelle, chaque utilisateur aura accès à un bouton d’activation pour activer cette expérience dans son propre environnement, en mode bêta. Après avoir accepté le contrat bêta, la nouvelle section Mises à jour s’affiche et ils peuvent continuer à gérer leur travail dans cette section comme ils le font actuellement.
+
 Des fonctionnalités similaires ont été publiées pour les objectifs Workfront avec la version 23.1.
 
 Voici quelques-unes des fonctionnalités incluses dans cette mise à jour :
 
 * Onglets distincts pour les commentaires et les mises à jour système
+
 * Meilleures performances
 
-D’autres fonctionnalités seront ajoutées dans les prochaines versions, car elles le seront également dans d’autres objets.
+* Indicateur en temps réel pour les nouveaux commentaires.
+   >[!NOTE]
+   >
+   >La mise à jour de l’indicateur en temps réel a été retardée.
+
+* Modification des commentaires après leur envoi.
+
+Avec cette reconception, nous avons supprimé l’ajout de commentaires aux mises à jour du système.
+
+D’autres fonctionnalités seront ajoutées dans les prochaines versions, car ces améliorations continuent à être ajoutées à d’autres objets.
 
 Pour plus d’informations sur les offres de la nouvelle expérience de commentaire, voir [Expérience de commentaire unifiée](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
