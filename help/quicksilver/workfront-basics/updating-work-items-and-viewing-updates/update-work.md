@@ -6,7 +6,7 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
 workflow-type: tm+mt
 source-wordcount: '2674'
 ht-degree: 1%
@@ -218,15 +218,16 @@ Le/la/les
       ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
 1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’objet Workfront.
-1. (Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
-1. Modifiez les informations du commentaire ou supprimez les utilisateurs balisés.
-Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
+1. <span class="preview">(Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.</span>
+1. <span class="preview">Modifiez les informations du commentaire ou supprimez les utilisateurs balisés. </span>
+
+   <span class="preview">Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour. </span>
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.
+   >   <span class="preview">Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.</span>
 1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 4 à 7 ci-dessus. <!--(**************insure this stays accurate***********)-->. Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Facultatif) Cliquez sur le **Comme** icon![](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
 1. (Conditionnel et Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
