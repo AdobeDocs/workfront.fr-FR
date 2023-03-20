@@ -4,9 +4,9 @@ description: 23.2 Autres améliorations
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Avec cette reconception, nous avons supprimé l’ajout de commentaires aux mise
 D’autres fonctionnalités seront ajoutées dans les prochaines versions, car ces améliorations continuent à être ajoutées à d’autres objets.
 
 Pour plus d’informations sur les offres de la nouvelle expérience de commentaire, voir [Expérience de commentaire unifiée](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Exportation des tableaux de bord en tant que PDF unique ou fichiers de PDF multiples dans Adobe Workfront pour XD
 
