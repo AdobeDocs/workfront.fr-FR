@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 9582a06327901300d2473c1847ddaf46d88ad35e
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '12773'
+source-wordcount: '12776'
 ht-degree: 1%
 
 ---
@@ -930,7 +930,7 @@ ht-degree: 1%
       * [Configuration des abandons de carte](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
       * [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-      * [Créer une itération](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [Vérification des mesures d’itération](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * Kanban dans une équipe agile {#kanban}
       * [Kanban dans une équipe agile](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)

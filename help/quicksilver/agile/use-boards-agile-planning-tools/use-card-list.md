@@ -6,9 +6,9 @@ title: Utiliser la liste des cartes
 description: Vous pouvez créer une liste de cartes sur un workflow et ajouter les cartes aux itérations.
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Cliquez sur le X pour effacer la recherche.
 
 >[!NOTE]
 >
->Vous devez créer une itération avant de pouvoir y ajouter des cartes. Pour plus d’informations, voir [Créer une itération](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>Vous devez créer une itération avant de pouvoir y ajouter des cartes. Pour plus d’informations, voir [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Accédez à la liste des cartes du flux de travail.
 1. Sélectionnez la [!UICONTROL **Vue Itération**] pour voir les cartes qui sont affectées à une itération et celles qui ne sont pas planifiées.

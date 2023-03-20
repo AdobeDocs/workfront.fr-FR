@@ -4,9 +4,9 @@ description: 23.2 Améliorations rapides
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Plusieurs nouvelles fonctionnalités disponibles dans les panoramas Workfront pe
 
 Notez que les collections ont été renommées en flux de travail. Les flux de travail vous aident à visualiser les données de différentes manières. Vous pouvez afficher les éléments sur les cartes dans une liste, sur un panorama ou sur une itération. Les cartes d’un workflow peuvent également être partagées entre plusieurs panoramas. Vous pouvez facilement faciliter les workflows à l’aide de cartes et de panoramas dans un workflow.
 
-Pour plus d’informations, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Créer une itération](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), et [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Deuxièmement, deux articles ne seront pas disponibles dans Main tant que je n’aurai pas publié ma branche.
+Pour plus d’informations, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), et [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Deuxièmement, deux articles ne seront pas disponibles dans Main tant que je n’aurai pas publié ma branche.
 
 ## Ajout de tâches et de problèmes provenant de listes et de rapports à une liste de cartes de processus
 

@@ -6,10 +6,10 @@ title: Gestion des workflows
 description: Un flux de travail est un groupe configurable de panoramas et de cartes pour collaborer sur le travail.
 author: Lisa
 feature: Agile
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 2%
+source-wordcount: '868'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Un flux de travail est un groupe configurable de panoramas et de cartes pour collaborer sur le travail. Les flux de travail peuvent inclure différents types de panoramas créés à partir de modèles, <span class="preview">et une liste de cartes des tâches. Dans un flux de travail, vous pouvez effectuer le suivi du travail dans les itérations ou les empreintes.</span>
 
-<span class="preview">Pour plus d’informations, voir [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) et [Créer une itération](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">Pour plus d’informations, voir [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) et [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 Les flux de travail apparaissent sur le tableau de bord avec les panoramas individuels auxquels vous avez accès et qui ne font pas partie d’un flux de travail. Pour plus d’informations sur le tableau de bord des panoramas, voir [Utilisation du tableau de bord des panoramas](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Vous pouvez cliquer sur le nom d’un panorama pour l’ouvrir.
 
@@ -111,7 +111,7 @@ Les personnes et les équipes doivent être ajoutées au workflow en tant que me
 
    Le nombre total de cartes, le nombre de cartes pointées et le nombre d’itérations s’affichent dans la section Liste de cartes . Cliquez sur [!UICONTROL **Afficher la liste**] pour ouvrir la liste et ajouter des cartes. Pour plus d’informations, voir [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Si une itération a été définie, sa date de début, le nombre de cartes et le nombre de points s’affichent. Cliquez sur [!UICONTROL **Afficher le panorama d’itération**] pour ouvrir le panorama. Pour plus d’informations, voir [Créer une itération](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   Si une itération a été définie, sa date de début, le nombre de cartes et le nombre de points s’affichent. Cliquez sur [!UICONTROL **Afficher le panorama d’itération**] pour ouvrir le panorama. Pour plus d’informations, voir [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Cliquez sur [!UICONTROL **Ajouter une source**] pour définir une source permettant d’importer des cartes dans le workflow. Actuellement, la seule source disponible est [!DNL Adobe Workfront].
 1. Ajoutez des filtres pour importer les tâches et les problèmes de Workfront sous forme de cartes.
