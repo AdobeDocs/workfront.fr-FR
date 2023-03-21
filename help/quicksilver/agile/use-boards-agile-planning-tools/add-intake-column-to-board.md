@@ -7,9 +7,9 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: db62d7361f6d432c2ac8846938de4bc437923295
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >[!NOTE]
    >
    >Vous pouvez filtrer la colonne d’ingestion pour inclure à la fois les tâches et les problèmes, mais vous devez configurer les filtres séparément pour chaque type d’objet.
+   >
+   >Vous pouvez également sélectionner des filtres enregistrés et des filtres par défaut du système.
 
 1. Dans le panneau de filtrage, cliquez sur **[!UICONTROL Nouveau filtre]** pour commencer.
 
