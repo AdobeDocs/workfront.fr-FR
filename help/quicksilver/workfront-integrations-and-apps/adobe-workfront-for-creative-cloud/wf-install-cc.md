@@ -6,9 +6,9 @@ description: Vous pouvez installer le module externe Workfront for Creative Clou
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -119,8 +119,11 @@ Pour installer le [!DNL Adobe Workfront for design and video] module externe :
 
    >[!TIP]
    >
-   >Pour trouver votre domaine, ouvrez un navigateur et accédez à [!DNL Workfront] et copiez la première partie de l’URL :\
-   >![](assets/domain-350x50.png)   >
+   >* Pour trouver votre domaine, ouvrez un navigateur et accédez à [!DNL Workfront] et copiez la première partie de l’URL :\
+      >![](assets/domain-350x50.png)
+   >
+   > * Si votre instance Workfront est intégrée à Experience Cloud, demandez à votre administrateur de vous fournir le domaine Workfront situé sous Produit > Workfront dans le Admin Console.
+
 
 1. Dans le navigateur, saisissez votre [!DNL Workfront] informations d’identification, puis cliquez sur **[!UICONTROL Connexion]**. Si votre entreprise utilise une authentification unique (SSO), vous serez dirigé vers la page de votre fournisseur d’authentification unique pour vous connecter.
 

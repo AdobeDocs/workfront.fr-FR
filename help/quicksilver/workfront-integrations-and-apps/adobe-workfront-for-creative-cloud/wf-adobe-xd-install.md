@@ -6,9 +6,9 @@ description: Vous pouvez installer le module externe Adobe Workfront for XD depu
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: d4bdbce1c5fd5551ac225290840ba50b0ebeae45
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 1%
 
 ---
@@ -99,8 +99,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!TIP]
    >
-   >Pour trouver votre domaine, ouvrez un navigateur et accédez à [!DNL Workfront] et copiez la première partie de l’URL :\
-   >![](assets/domain-350x50.png)   >
+   >* Pour trouver votre domaine, ouvrez un navigateur et accédez à [!DNL Workfront] et copiez la première partie de l’URL :\
+      >![](assets/domain-350x50.png)
+   >
+   > * Si votre instance Workfront est intégrée à Experience Cloud, demandez à votre administrateur de vous fournir le domaine Workfront situé sous Produit > Workfront dans le Admin Console.
+
 
 1. Dans le navigateur, saisissez votre [!DNL Workfront] informations d’identification, puis cliquez sur **[!DNL Log in]**. Si votre entreprise utilise une authentification unique (SSO), vous serez dirigé vers la page de votre fournisseur d’authentification unique pour vous connecter.
 
