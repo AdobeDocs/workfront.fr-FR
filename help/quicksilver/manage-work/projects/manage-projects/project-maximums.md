@@ -7,9 +7,9 @@ description: Adobe Workfront a des limites quant au nombre d’objets pouvant ê
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 11c4028038fe3d410ee0d4f238d2138435d9a3fa
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,20 @@ Les objets associés aux projets suivants ont les limites suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Tâches</p></td> 
-   <td>  <p>Le nombre maximal de tâches par projet est de 5 000. Un message d’avertissement s’affiche lorsque le nombre de tâches approche ce maximum. Lorsque le maximum est atteint, un message d’erreur s’affiche et des tâches supplémentaires ne peuvent pas être ajoutées au projet.</p> <p>Pour éviter d’atteindre ce maximum, déplacez les tâches qui sont fermées vers un autre projet désigné pour les tâches fermées. Il se peut que les rapports sur ces projets doivent être ajustés.</p> </td> 
+   <td>  <p>Le nombre maximal de tâches par projet est de 5 000. Un message d’avertissement s’affiche lorsque le nombre de tâches approche ce maximum. Lorsque le maximum est atteint, un message d’erreur s’affiche et des tâches supplémentaires ne peuvent pas être ajoutées au projet.</p> <p>Pour éviter d’atteindre ce maximum, déplacez les tâches qui sont fermées vers un autre projet désigné pour les tâches fermées. Il se peut que les rapports sur ces projets doivent être ajustés.</p>
+
+<b>IMPORTANT</b>
+
+Pour les projets pour lesquels les tâches comportent de nombreuses dépendances, nous recommandons que le nombre de tâches dans les projets soit beaucoup plus faible que le nombre maximum de 5 000 tâches autorisé.
+
+Voici quelques exemples de dépendances de tâches pouvant influencer ou empêcher de recalculer la chronologie du projet :
+
+<ul><li>Nombre d'enfants</li>
+   <li>Mise en retrait de plusieurs niveaux de tâche</li>
+   <li>Nombre de prédécesseurs</li>
+   <li>Affectations multiples</li>
+   </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Événements</p></td> 
