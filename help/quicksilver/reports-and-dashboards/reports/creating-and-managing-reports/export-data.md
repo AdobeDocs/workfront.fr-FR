@@ -6,9 +6,9 @@ description: L’exportation de données peut être motivée, entre autres, par 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Les informations peuvent être exportées dans les formats suivants :
 ### Limites d’exportation {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que la manière dont ils sont exportés au moyen d’une exportation manuelle, d’un rapport remis ou via l’API.
@@ -106,9 +106,13 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
    * Pour les fichiers Excel .xlsx, cette limite est **100 000 lignes**.
    * Ces limites excluent les en-têtes de colonne, ainsi que les lignes pour les regroupements dans le rapport. Par exemple, si un rapport comporte 6 groupements et 50 000 lignes ou données, le fichier exporté en contiendra 50 000.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Si votre rapport contient plus d’éléments que ces limites, vous recevez une erreur indiquant que l’exportation échoue. Réduisez le nombre d’éléments affichés à l’écran pour qu’il soit inférieur ou égal à ces limites afin de pouvoir exporter les résultats.
+   >L’exportation d’un rapport qui inclut une référence de collection dans une colonne peut entraîner une erreur, même si le rapport se trouve dans les limites d’exportation répertoriées. Si la collection référencée est trop volumineuse, le processus d’exportation expire et entraîne par la suite une erreur.
+   >
+   >Pour éviter cette erreur, excluez les colonnes qui référencent des collections volumineuses ou réduisez la taille des collections référencées avant l’exportation.
+
+   Si votre rapport contient plus d’éléments que ces limites, vous recevez une erreur indiquant que l’exportation échoue. Réduisez le nombre d’éléments affichés à l’écran pour qu’il soit inférieur ou égal à ces limites afin de pouvoir exporter les résultats.
 
    Si votre rapport contient plus de 50 000/ 65 000/ 100 000 lignes et que vous souhaitez exporter toutes les données, nous vous suggérons d’utiliser des filtres ou des invites pour obtenir des charges de données moindres et effectuer plusieurs exportations.
 
