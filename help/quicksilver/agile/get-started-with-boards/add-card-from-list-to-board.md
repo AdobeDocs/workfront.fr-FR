@@ -1,13 +1,13 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Ajout de tâches ou de problèmes existants à un panorama Adobe Workfront
+title: Ajout de tâches ou de problèmes existants à un panorama ou à un workflow Adobe Workfront
 description: Vous pouvez ajouter n’importe quelle tâche ou problème à un panorama dans Adobe Workfront à partir d’une vue de liste ou de rapport.
 author: Lisa
 feature: Agile
-source-git-commit: fd0b220801d26e10ad65ac7d6b8fa17bbeec629a
+source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-Vous pouvez ajouter n’importe quelle tâche ou problème à un panorama ou à un workflow dans [!DNL Adobe Workfront] dans une vue de liste ou de rapport.
+Vous pouvez ajouter n’importe quelle tâche ou problème à un panorama ou à un workflow dans [!DNL Adobe Workfront] à partir d’une vue de liste ou de rapport, ou à partir des détails de l’objet.
 
 ## Exigences d’accès
 
@@ -43,36 +43,45 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
 
-## Ajout de tâches ou de problèmes existants à un panorama
+## Ajout de tâches ou de problèmes existants à un panorama ou à un workflow à partir d’une liste
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
 1. Sélectionnez l’une des options suivantes : **[!UICONTROL Projets]**, **[!UICONTROL Reporting]** ou **[!UICONTROL Tableaux de bord]**.
-1. Accédez au projet, au rapport ou au tableau de bord qui contient la tâche ou le problème que vous souhaitez ajouter au panorama.
+1. Accédez au projet, au rapport ou au tableau de bord qui contient la tâche ou le problème que vous souhaitez ajouter au panorama ou au workflow.
 1. Sélectionnez une ou plusieurs tâches ou problèmes.
-1. Cliquez sur [!UICONTROL **Plus**] > [!UICONTROL **Ajouter des panoramas**].
-1. Dans le [!UICONTROL Ajouter à] , sélectionnez le panorama auquel ajouter les éléments.
+1. Cliquez sur [!UICONTROL **Plus**] > [!UICONTROL **Ajouter des panoramas**] ou [!UICONTROL **Ajouter aux flux de travail**].
+1. Dans le [!UICONTROL Ajouter à] , sélectionnez le panorama ou le processus auquel ajouter les éléments.
 
-   Seuls les panoramas autonomes sont disponibles avec cette option, et non les panoramas qui font partie de flux de travail.
+   Pour un panorama, seuls les panoramas autonomes sont disponibles, et non les panoramas qui font partie de flux de travail.
 
 1. Cliquez sur [!UICONTROL **Ajouter**].
 
-   La tâche ou le problème est ajouté au panorama. Si des stratégies de colonne sont appliquées à l’état du panorama, la carte est ajoutée dans la colonne correspondant à son état. Sinon, elle apparaît dans la première colonne à gauche, sans compter la colonne d’ingestion.
+   Pour un panorama : La tâche ou le problème est ajouté au panorama. Si des stratégies de colonne sont appliquées à l’état du panorama, la carte est ajoutée dans la colonne correspondant à son état. Sinon, elle apparaît dans la première colonne à gauche, sans compter la colonne d’ingestion.
 
    Pour plus d’informations sur les stratégies de colonne, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-## Ajout de tâches ou de problèmes existants à un workflow
+   Pour un flux de travail : La tâche ou le problème est ajouté à la liste des cartes du workflow en tant que carte non planifiée.
+
+## Ajout de tâches ou de problèmes existants à un panorama ou à un workflow à partir des détails de l’objet
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
-1. Sélectionnez l’une des options suivantes : **[!UICONTROL Projets]**, **[!UICONTROL Reporting]** ou **[!UICONTROL Tableaux de bord]**.
-1. Accédez au projet, au rapport ou au tableau de bord qui contient la tâche ou le problème que vous souhaitez ajouter au workflow.
-1. Sélectionnez une ou plusieurs tâches ou problèmes.
-1. Cliquez sur [!UICONTROL **Plus**] > [!UICONTROL **Ajouter au flux de travail**].
-1. Dans le [!UICONTROL Ajouter à] , sélectionnez le processus auquel ajouter les éléments.
+1. Cliquez sur [!UICONTROL **Projets**], puis cliquez sur le nom d’un projet pour l’ouvrir.
+1. Cliquez sur [!UICONTROL **Tâches**] ou [!UICONTROL **Problèmes**] dans le panneau de gauche.
+1. Cliquez sur la tâche ou le problème à ajouter à un panorama ou à un workflow.
+1. Cliquez sur le bouton **[!UICONTROL Plus]** en regard du nom de l’objet et sélectionnez [!UICONTROL **Ajouter des panoramas**] ou [!UICONTROL **Ajouter aux flux de travail**].
+1. Dans le [!UICONTROL Ajouter à] , sélectionnez le panorama ou le processus auquel ajouter les éléments.
+
+   Pour un panorama, seuls les panoramas autonomes sont disponibles, et non les panoramas qui font partie de flux de travail.
+
 1. Cliquez sur [!UICONTROL **Ajouter**].
 
-   La tâche ou le problème est ajouté à la liste des cartes du workflow en tant que carte non planifiée.
+   Pour un panorama : La tâche ou le problème est ajouté au panorama. Si des stratégies de colonne sont appliquées à l’état du panorama, la carte est ajoutée dans la colonne correspondant à son état. Sinon, elle apparaît dans la première colonne à gauche, sans compter la colonne d’ingestion.
 
-## Afficher les panoramas associés à une tâche ou à un problème
+   Pour plus d’informations sur les stratégies de colonne, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+   Pour un flux de travail : La tâche ou le problème est ajouté à la liste des cartes du workflow en tant que carte non planifiée.
+
+## Afficher les panoramas associés à une tâche ou à un problème dans une liste
 
 1. Accédez au projet, au rapport ou au tableau de bord qui contient la tâche ou le problème pour lequel vous souhaitez afficher les informations des panoramas.
 1. Sélectionnez une vue qui comprend la colonne Panoramas ou créez une vue avec la colonne Panoramas .
