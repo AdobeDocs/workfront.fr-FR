@@ -4,9 +4,9 @@ description: 23.2 Améliorations rapides
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées à la version 23.2 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version 23.2.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.2, voir [Présentation de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Ajout de tâches et de problèmes à partir des détails d’objet à un panorama ou à un workflow Workfront
+
+Vous pouvez désormais ajouter des tâches ou des problèmes existants à un panorama Workfront ou à une liste de cartes de flux de travail directement à partir des détails de l’objet. Tous les éléments que vous ajoutez à un panorama seront connectés et tous les éléments ajoutés à un workflow seront ajoutés à la liste des cartes en tant que cartes non planifiées.
+
+Pour plus d’informations, voir [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Fonctionnalité d’itération disponible dans les panoramas Adobe Workfront
 
@@ -28,6 +34,8 @@ Plusieurs nouvelles fonctionnalités disponibles dans les panoramas Workfront pe
 Notez que les collections ont été renommées en flux de travail. Les flux de travail vous aident à visualiser les données de différentes manières. Vous pouvez afficher les éléments sur les cartes dans une liste, sur un panorama ou sur une itération. Les cartes d’un workflow peuvent également être partagées entre plusieurs panoramas. Vous pouvez facilement faciliter les workflows à l’aide de cartes et de panoramas dans un workflow.
 
 Pour plus d’informations, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), et [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Deuxièmement, deux articles ne seront pas disponibles dans Main tant que je n’aurai pas publié ma branche.
+
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Ajout de tâches et de problèmes provenant de listes et de rapports à une liste de cartes de processus
 

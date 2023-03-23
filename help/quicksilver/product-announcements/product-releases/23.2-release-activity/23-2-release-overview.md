@@ -4,9 +4,9 @@ description: Présentation de la version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Fonctionnalité d’itération disponible dans les panoramas Adobe Workfront</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de tâches et de problèmes à partir des détails d’objet à un panorama ou à un workflow Workfront</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Vous pouvez désormais ajouter des tâches ou des problèmes existants à un panorama Workfront ou à une liste de cartes de flux de travail directement à partir des détails de l’objet. Tous les éléments que vous ajoutez à un panorama seront connectés et tous les éléments ajoutés à un workflow seront ajoutés à la liste des cartes en tant que cartes non planifiées.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 23 mars 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Version de production : Avec la version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Fonctionnalité d’itération disponible dans les panoramas Adobe Workfront</a></p>
                         <p>Plusieurs nouvelles fonctionnalités disponibles dans les panoramas Workfront permettent d’utiliser la fonctionnalité de Scrum agile. Ces fonctionnalités sont les suivantes :
                         <ul>
                         <li>Flux de travail pour regrouper des panoramas liés à la même équipe et collaborer sur le travail</li>
@@ -138,7 +154,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de tâches et de problèmes provenant de listes et de rapports à une liste de cartes de processus</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de tâches et de problèmes provenant de listes et de rapports à une liste de cartes de processus</a></p>
                         <p>Vous pouvez désormais ajouter des tâches ou des problèmes existants à un workflow dans les panoramas Workfront directement à partir d’une liste ou d’un affichage de rapport. Tous les éléments que vous ajoutez au flux de travail sont ajoutés à la liste des cartes en tant que cartes non planifiées.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -154,7 +170,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de champs personnalisés à des cartes sur un panorama</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de champs personnalisés à des cartes sur un panorama</a></p>
                         <p>Vous pouvez désormais inclure des champs personnalisés dans les panoramas Adobe Workfront. Le champ doit déjà être créé dans Workfront. Vous ne pouvez pas concevoir et créer de nouveaux champs personnalisés dans un panorama.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -484,7 +500,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires pour les problèmes bêta<span style="color: #ff0000;"> Nouveau dans Aperçu .</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires pour les problèmes bêta</a>
                         <p>Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets. </p>
                         <p>Cette nouvelle expérience finira par unifier les commentaires dans Adobe Workfront et au-delà, dans Adobe Experience Cloud. </p>
                     </td>
