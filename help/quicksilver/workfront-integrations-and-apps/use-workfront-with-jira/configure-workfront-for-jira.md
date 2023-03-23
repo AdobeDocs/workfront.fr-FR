@@ -6,9 +6,9 @@ description: Vous pouvez utiliser [!DNL Adobe Workfront for Jira] pour intégrer
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: d2c366a69b986bd8d559a18994810011c6d33441
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -89,12 +89,13 @@ Pour configurer [!DNL Workfront for Jira]:
 
    >[!NOTE]
    >
-   >[!UICONTROL Workfront] se connecte à [!DNL Jira] en utilisant OAuth 2.0, une norme utilisée par la plupart des intégrations web pour l’authentification et l’autorisation des utilisateurs.
+   >L’utilisateur doit disposer d’un `apiKey` in [!UICONTROL Workfront] pour créer une connexion réussie.
 
    Vous devez vous connecter à [!DNL Workfront] as a [!DNL Workfront] pour poursuivre la configuration.
 
    >[!NOTE]
    >
+   >* [!UICONTROL Workfront] se connecte à [!DNL Jira] en utilisant OAuth 2.0, une norme utilisée par la plupart des intégrations web pour l’authentification et l’autorisation des utilisateurs.
    >* Lorsque vous êtes invité à saisir le domaine de votre [!DNL Workfront] compte, saisissez-le au format suivant : *yourCompany&#39;sDomain.my.workfront.com*. Le domaine de votre société correspond généralement au nom de votre société.
    >* L’authentification améliorée n’est pas disponible tant qu’un [!DNL Workfront] L’administrateur l’active pour cette intégration.
 
