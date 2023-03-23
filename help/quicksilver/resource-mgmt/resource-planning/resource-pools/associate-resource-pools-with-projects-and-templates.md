@@ -6,9 +6,9 @@ description: Les pools de ressources sont des groupes d’utilisateurs qui vous 
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,12 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients de l’environnement Aperçu et pour un groupe sélectionné de clients de l’environnement Production.</span>
 
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>The sections about how to add resource pools to templates, projects are duplicated from the articles listed in those sections (Editing Projects, Creating a Template, etc).</p>
 <p>***I decided to keep these steps here, though, because it's hard to parse through those much lunger articles for just updating this one field.)</p>
-</div>
 -->
 
 Les pools de ressources sont des groupes d’utilisateurs qui vous aident à gérer les ressources dans Adobe Workfront.
