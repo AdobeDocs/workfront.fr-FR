@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
@@ -91,10 +91,16 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader">Préférences </td> 
       <td> 
        <ul> 
-        <li> <p><b>Fuseau horaire :</b> Fuseau horaire de l’utilisateur.</p> <p>Pour plus d’informations sur l’aide apportée aux utilisateurs par le biais de Workfront dans les fuseaux horaires, voir <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Utilisation des fuseaux horaires</a>.</p> </li> 
-        <li><b>Paramètres régionaux des emails</b>: Paramètres régionaux de messagerie préférés de l’utilisateur. Cela affecte le format des nombres et des dates dans les emails provenant de Workfront.</li> 
-        <li><b>Afficher le pourcentage terminé à l’état de mise à jour</b>: Cochez cette option si vous souhaitez afficher une barre de pourcentage dans la zone Mise à jour des tâches de cet utilisateur.</li> 
-        <li><b>Envoyer le travail que je m’assigne à mon onglet Travail</b>: Cochez cette option si vous souhaitez que tout ce que l’utilisateur se donne à lui-même apparaisse directement sur l’onglet Travail . La valeur par défaut est de répertorier tous les éléments affectés à un utilisateur dans son onglet Demande de travail .</li> 
+      <li> <p><b>Fuseau horaire :</b> Fuseau horaire de l’utilisateur.</p> <p>Pour plus d’informations sur l’aide apportée aux utilisateurs par le biais de Workfront dans les fuseaux horaires, voir <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Utilisation des fuseaux horaires</a>.</p> </li> 
+       <li><b>Paramètres régionaux des emails</b>: Paramètres régionaux de messagerie préférés de l’utilisateur. Cela affecte le format des nombres et des dates dans les emails provenant de Workfront.</li>
+
+   <li><b>Réception d’emails à partir de cet environnement de test</b>: Cochez cette option si vous souhaitez recevoir des notifications par e-mail de l’environnement actuellement connecté.
+      <p><b>NOTE</b></p>
+      Cette option est disponible uniquement dans les environnements Aperçu et Sandbox. Par défaut, les notifications électroniques sont activées dans l’environnement de production. 
+      </li>
+
+   <li><b>Afficher le pourcentage terminé à l’état de mise à jour</b>: Cochez cette option si vous souhaitez afficher une barre de pourcentage dans la zone Mise à jour des tâches de cet utilisateur.</li> 
+       <li><b>Envoyer le travail que je m’assigne à mon onglet Travail</b>: Cochez cette option si vous souhaitez que tout ce que l’utilisateur se donne à lui-même apparaisse directement sur l’onglet Travail . La valeur par défaut est de répertorier tous les éléments affectés à un utilisateur dans son onglet Demande de travail .</li> 
        </ul> </td> 
      </tr> 
      <tr> 
