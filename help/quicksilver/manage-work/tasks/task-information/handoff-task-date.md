@@ -7,7 +7,7 @@ description: La date de remise est la date à laquelle une tâche est disponible
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 3%
@@ -76,7 +76,7 @@ Workfront applique les règles suivantes pour calculer la date de remise d’une
 
    Les scénarios suivants existent :
 
-   * Lorsque la tâche présente une contrainte Doit démarrer le ou Démarrer le début au plus tôt, la date de remise est la date de contrainte, sauf si la tâche contient une date de début réelle. S’il existe une date de début réelle sur la tâche, la date de remise correspond à la date de fin réelle du prédécesseur.
+   * Lorsque la tâche présente une contrainte Doit démarrer le ou Ne pas démarrer plus tôt que, la date de remise est la date de contrainte, sauf si la tâche contient une date de début réelle. S’il existe une date de début réelle sur la tâche, la date de remise correspond à la date de fin réelle du prédécesseur.
    * Lorsque la tâche présente une contrainte Doit se terminer le ou Ne pas démarrer plus tard que, la date de remise est toujours la date de fin réelle du prédécesseur, qu’il y ait ou non une date de début réelle sur la tâche.
    * Lorsque la tâche présente une contrainte de dates fixes, la Date de remise est la Date de début planifiée de la tâche, qu’elle ait ou non un prédécesseur et que le prédécesseur soit terminé ou non.
 
