@@ -6,9 +6,9 @@ description: Vous pouvez rester dans les applications Adobe Creative Cloud et ef
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 1. Dans la **[!UICONTROL Liste de tâches]**, sélectionnez la tâche ou le problème que vous souhaitez marquer comme terminé.
 1. Cliquez sur **[!UICONTROL Terminé]**.\
-   Ceci marque l’élément terminé dans Workfront.\
-   ![](assets/complete-work-350x529.png)
+   Ceci marque l’élément terminé dans Workfront.
+
+   >[!NOTE]
+   >
+   >Si l’élément de travail comporte des prédécesseurs, le bouton Terminé est grisé jusqu’à ce que ces derniers soient marqués comme terminés. Pour afficher les prédécesseurs dans [!DNL Workfront], cliquez sur le nom de la tâche.
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->

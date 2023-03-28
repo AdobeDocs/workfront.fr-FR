@@ -4,9 +4,9 @@ description: 23.2 Autres améliorations
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 Cette page décrit toutes les autres améliorations apportées à la version 23.2 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version 23.2.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.2, voir [Présentation de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Nouveaux modules externes Workfront for Creative Cloud
+
+Nous avons ajouté les modifications suivantes aux modules externes Workfront for Creative Cloud :
+
+* Le module externe vous avertit désormais lorsqu’une tâche possède un prédécesseur
+* Le coréen est désormais une langue prise en charge
 
 ## Nouvelle expérience de commentaires pour les problèmes bêta
 

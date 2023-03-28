@@ -6,9 +6,9 @@ description: Vous pouvez installer le module externe Workfront for Creative Clou
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
+source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,7 @@ Le module externe prend en charge les langues suivantes :
 * Portugais
 * Chinois simplifié
 * Chinois traditionnel
-
-<!-- * Korean -->
+* Coréen
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ description: Vous pouvez installer le module externe Adobe Workfront for XD depu
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
+source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,7 @@ Vous pouvez installer le [!DNL Adobe Workfront for XD] à partir de Adobe Market
 * Japonais
 * Chinois simplifié
 * Chinois traditionnel
-
-<!-- * Korean -->
+* Coréen
 
 ## Exigences d’accès
 

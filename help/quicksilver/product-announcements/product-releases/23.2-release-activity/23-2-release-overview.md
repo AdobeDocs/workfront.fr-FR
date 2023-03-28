@@ -4,9 +4,9 @@ description: Présentation de la version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -496,6 +496,26 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td>
                         <p><span class="bold">Dates de publication</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveaux modules externes Workfront for Creative Cloud</a>
+                        <p>Nous avons ajouté les modifications suivantes aux modules externes Workfront for Creative Cloud :
+                        <ul>
+                        <li>Le module externe vous avertit désormais lorsqu’une tâche possède un prédécesseur</li>
+                        <li>Le coréen est désormais une langue prise en charge</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : N/A<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Version de production : 23 mars 2023 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
