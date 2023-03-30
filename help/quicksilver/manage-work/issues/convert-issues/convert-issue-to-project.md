@@ -6,9 +6,9 @@ description: Convertir un problème en projet dans Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Si vous devez travailler davantage pour résoudre un problème une fois le probl
 Vous pouvez convertir un problème en nouveau projet ou en projet à l’aide d’un modèle. Cet article décrit les deux manières de convertir des problèmes en projets.
 
 Pour obtenir des informations générales sur la conversion de problèmes, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+
+Lors de la création d’un projet à partir d’un problème, certains champs du projet sont renseignés à partir d’autres objets. Pour plus d’informations, voir la section &quot;Paramètres par défaut du nouveau projet&quot; dans l’article . [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Exigences d’accès
 
@@ -80,7 +82,7 @@ Vous pouvez convertir un problème en projet vierge ou le convertir en projet à
       >[!TIP]
       >   
       >* Si le problème a été créé à l’aide d’une file d’attente de requêtes, le nouveau projet hérite du groupe de la file d’attente de requêtes.
-      >* Si le problème a été créé en l’ajoutant à la section Problèmes du projet, le nouveau projet hérite du groupe si le projet du problème.
+      >* Si le problème a été créé en l’ajoutant à la section Problèmes du projet, le nouveau projet hérite du groupe du projet du problème.
 
 
    * Pour convertir un problème en projet à l’aide d’un modèle, effectuez l’une des opérations suivantes :
