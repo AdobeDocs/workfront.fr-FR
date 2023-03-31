@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
+source-git-commit: 19e1b6053f4def9e611bc45eae062cbb96325efe
 workflow-type: tm+mt
-source-wordcount: '12775'
+source-wordcount: '12782'
 ht-degree: 1%
 
 ---
@@ -893,6 +893,7 @@ ht-degree: 1%
       * [Résolution des problèmes d’autorisations de Workfront BAT Manager](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [Duplication des processus de validation affichés dans la liste des tâches domestiques](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Les boutons de filtre ne s’affichent pas dans les en-têtes de page](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
+      * [Le filtre Projets actifs comprend des résultats inattendus](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Présentation des panoramas](agile/boards-overview.md)

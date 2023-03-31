@@ -6,9 +6,9 @@ description: Vous pouvez incorporer une page Web externe dans un tableau de bord
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents Web, 
 
 >[!IMPORTANT]
 >
->Les pages de tableau de bord ne sont plus prises en charge en tant que pages externes incorporées dans les tableaux de bord. En particulier, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
+>Les pages de tableau de bord ne sont plus prises en charge en tant que pages externes incorporées dans les tableaux de bord. Bien que les tableaux de bord existants ne soient pas automatiquement modifiés pour supprimer ces pages externes, toute modification apportée à un tableau de bord contenant une telle référence ne pourra pas être enregistrée tant que la référence n’aura pas été supprimée ou modifiée.
+>
+>En particulier, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
 >
 >* &#x200B; des tableaux de bord
 >* /dashboard/:ID &#x200B;
@@ -44,7 +46,8 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents Web, 
 >* /requests/:ID/content-dashboard__:dashboardID &#x200B;
 >* /group/:ID/content-dashboard__:dashboardID &#x200B;
 >* /billingrecord/:ID/content-dashboard__:dashboardID
-
+>
+>Vous pouvez également envisager d’inclure un rapport de liste dans votre tableau de bord, en suivant la procédure décrite à la section [Ajout d’un rapport à un tableau de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Exigences d’accès
 
