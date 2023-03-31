@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 4588327c6b02b0d243e2a49f98cb88baac3e1270
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '12783'
+source-wordcount: '12775'
 ht-degree: 1%
 
 ---
@@ -895,16 +895,7 @@ ht-degree: 1%
       * [Les boutons de filtre ne s’affichent pas dans les en-têtes de page](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
-   * [Présentation agile](agile/agile-overview.md)
    * [Présentation des panoramas](agile/boards-overview.md)
-   * Agile dans les projets {#agile-in-projects}
-      * [Agile dans les projets](agile/agile-in-projects/agile-in-projects.md)
-      * [Agile Project](agile/agile-in-projects/use-agile-on-a-project.md)
-   * Prise en main d’AEM dans Adobe Workfront {#agile-in-workfront}
-      * [Prise en main d’AEM dans Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Création d’une équipe agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-      * [Configurer Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
-      * [Configuration de Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Prise en main des panoramas dans Adobe Workfront {#boards-in-workfront}
       * [Prise en main des panoramas dans Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
       * [Démonstrations vidéo des panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
@@ -933,6 +924,12 @@ ht-degree: 1%
       * [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [Vérification des mesures d’itération](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+   * [Présentation agile](agile/agile-overview.md)
+   * Prise en main d’AEM dans Adobe Workfront {#agile-in-workfront}
+      * [Prise en main d’AEM dans Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+      * [Création d’une équipe agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [Configurer Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
+      * [Configuration de Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Kanban dans une équipe agile {#kanban}
       * [Kanban dans une équipe agile](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Présentation de Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)
