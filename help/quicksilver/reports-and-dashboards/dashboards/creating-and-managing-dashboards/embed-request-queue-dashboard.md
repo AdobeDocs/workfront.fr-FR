@@ -6,9 +6,9 @@ description: Vous pouvez incorporer une nouvelle file d’attente de requêtes d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
@@ -97,11 +97,9 @@ Lorsque vous partagez un lien vers un type de requête, le type de requête est 
 
    Le code doit ressembler à ce qui suit :
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   Il s’agit du lien vers la file d’attente des demandes associée au projet sélectionné. Le type de demande est présélectionné.
+   Il s’agit du lien vers la file d’attente des demandes associée au projet sélectionné. Le type de requête est présélectionné.
 
    Les utilisateurs peuvent sélectionner n’importe quel groupe de rubriques ou rubrique de file d’attente, ou choisir un autre type de requête.
 
@@ -120,19 +118,15 @@ Lorsque vous partagez un lien vers un type de requête présélectionné, le typ
 
    Le code doit ressembler à ce qui suit :
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. Modifiez le code afin de ne conserver que les informations ci-dessous :
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >Vous pouvez conserver la variable `<samp>iframe </samp>` lors de l’incorporation du code dans une application autre que Workfront.
+   >Vous pouvez ajouter une `<samp>iframe </samp>` lors de l’incorporation du code dans une application autre que Workfront.
 
    Il s’agit du lien vers la file d’attente des demandes associée au projet sélectionné. Le type de requête est présélectionné et ne peut pas être modifié.
 
