@@ -5,9 +5,9 @@ title: Téléchargement de documents à partir d’Illustrator
 description: Vous pouvez télécharger vos panoramas d’art en tant que documents pour un examen et une approbation rapides ou simplement les stocker dans Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur le bouton **[!UICONTROL Document]** icon ![](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du module externe.
-1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
 1. (Facultatif) Saisissez un commentaire dans le champ **[!UICONTROL Mises à jour]** zone.
-1. Cliquez sur **[!UICONTROL Télécharger]**, puis configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
+1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
+1. Ouvrez le **[!UICONTROL Définition des paramètres d’exportation de fichier]** de la boîte de dialogue, configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
+
+   ![](assets/file-export-settings.png)
+1. Cliquez sur **[!UICONTROL Télécharger]**.
 Le document apparaît dans la [!UICONTROL Documents] dans le module externe et l’appli de bureau.

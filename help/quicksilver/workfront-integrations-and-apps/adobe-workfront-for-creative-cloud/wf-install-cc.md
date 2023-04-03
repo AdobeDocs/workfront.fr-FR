@@ -6,9 +6,9 @@ description: Vous pouvez installer le module externe Workfront for Creative Clou
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -74,17 +74,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Pour installer le [!DNL Adobe Workfront for design and video] module externe :
 
-1. Ouvrez le [!DNL Adobe Creative Cloud] application.
-1. Cliquez sur le bouton **[!UICONTROL Marketplace]** à proximité de la partie supérieure de la fenêtre.
-1. Dans le **[!UICONTROL Rechercher tous les modules externes]** box, type *Workfront*, puis appuyez sur **[!UICONTROL Entrée]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. When [!DNL Adobe Workfront for design and video] s’affiche dans les résultats de la recherche, cliquez sur **[!UICONTROL Get]**.
+1. Accédez au [Page d’installation d’Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) sur Adobe Exchange.
+1. Dans la boîte de dialogue qui s’affiche, cliquez sur **Ouvrir [!DNL Adobe Creative Cloud] application de bureau**.
+1. Une fois [!DNL Adobe Creative Cloud] module externe manager s’ouvre, cliquez sur **[!UICONTROL Installer]**.
 1. Lisez les informations de la boîte de dialogue, puis cliquez sur **[!UICONTROL OK]**.
-1. Une fois le module externe installé, ouvrez la [!DNL Creative Cloud] de l’application dont vous avez besoin et recherchez le module externe Workfront dans le panneau du module externe.
-
-   <!-- new screen -->
+1. Une fois le module externe installé, ouvrez la [!DNL Creative Cloud] de l’application dont vous avez besoin et recherchez le module externe Workfront dans le panneau du module.
 
 1. Pour plus d’informations sur l’ouverture du module externe, reportez-vous à la section suivante.
 

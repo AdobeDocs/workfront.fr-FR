@@ -6,9 +6,9 @@ description: Vous pouvez installer le module externe Adobe Workfront for XD depu
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -66,15 +66,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 >Si vous êtes un [!DNL Adobe Admin Console] administrateur, vous pouvez inclure le module externe dans [!DNL Creative Cloud] packages de déploiement. Pour plus d’informations, voir [Inclusion de modules externes dans votre module](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. Ouvrez le [!DNL Adobe Creative Cloud] application.
-1. Cliquez sur le bouton **[!UICONTROL Marketplace]** à proximité de la partie supérieure de la fenêtre.
-1. Dans le **[!UICONTROL Rechercher tous les modules externes]** box, type *Workfront*, puis appuyez sur **[!UICONTROL Entrée]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. When [!DNL Adobe Workfront for XD] s’affiche dans les résultats de la recherche, cliquez sur **[!UICONTROL Get]**.
+1. Accédez au [Page d’installation d’Adobe Workfront for XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) sur Adobe Exchange.
+1. Dans la boîte de dialogue qui s’affiche, cliquez sur **Ouvrir [!DNL Adobe Creative Cloud] application de bureau**.
+1. Une fois [!DNL Adobe XD] module externe manager s’ouvre, cliquez sur **[!UICONTROL Installer]**.
 1. Lisez les informations de la boîte de dialogue, puis cliquez sur **[!UICONTROL OK]**.
-
 1. Pour plus d’informations sur l’ouverture du module externe, reportez-vous à la section suivante.
 
 ## Ouvrez le [!DNL Adobe Workfront for XD] plugin

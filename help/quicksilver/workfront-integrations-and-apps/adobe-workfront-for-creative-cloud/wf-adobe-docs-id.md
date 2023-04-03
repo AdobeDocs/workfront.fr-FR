@@ -6,9 +6,9 @@ description: Vous pouvez télécharger vos panoramas d’art en tant que documen
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur le bouton **[!UICONTROL Document]** icon ![](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du module externe.
-1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
 1. (Facultatif) Saisissez un commentaire dans le champ **[!UICONTROL Mises à jour]** zone.
-1. Cliquez sur **[!UICONTROL Télécharger]**, puis configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
+1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
+1. Ouvrez le **[!UICONTROL Définition des paramètres d’exportation de fichier]** de la boîte de dialogue, configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
+
+   ![](assets/file-export-settings.png)
+1. Cliquez sur **[!UICONTROL Télécharger]**.
 Le document apparaît dans la [!UICONTROL Documents] dans le module externe et l’appli de bureau.
