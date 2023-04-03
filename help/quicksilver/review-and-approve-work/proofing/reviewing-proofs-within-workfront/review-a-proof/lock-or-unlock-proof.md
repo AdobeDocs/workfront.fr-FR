@@ -6,10 +6,10 @@ description: Vous pouvez verrouiller et déverrouiller manuellement un BAT à to
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: a90c11699a8c057248ec226a4b25fb7d526ab16a
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Rôle BAT</td> 
-   <td>Propriétaire, auteur, modérateur</td> 
+   <td>Propriétaire ou modérateur</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
