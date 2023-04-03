@@ -6,9 +6,9 @@ description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent q
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '7718'
+source-wordcount: '7787'
 ht-degree: 2%
 
 ---
@@ -323,6 +323,7 @@ Lorsque vous sélectionnez plusieurs projets pour les modifier en bloc, les scé
 * Si vous ne disposez pas des autorisations Modifier le formulaire personnalisé pour au moins un des projets sélectionnés, vous ne pouvez pas modifier les champs des formulaires personnalisés joints. Vous ne pouvez afficher que les champs des formulaires personnalisés joints
 * Si vous disposez de l’accès Affichage (et non Modifier) à une section sur un formulaire personnalisé, vous ne pouvez pas modifier les champs de cette section. Vous pouvez uniquement afficher les champs de cette section.
 * Si vous n’avez pas accès à une section sur l’un des formulaires personnalisés associés à au moins un des projets, la section ne s’affiche pas dans la zone Modifier les projets .
+* Si vous avez besoin de champs sur l’un des formulaires personnalisés associés à tous les projets et que vous sélectionnez un champ sans le modifier réellement, vous devez ignorer vos modifications dans ce champ ou y ajouter des informations avant de pouvoir enregistrer les projets que vous avez sélectionnés. Si vous ne sélectionnez pas de champ obligatoire, vous pouvez enregistrer les projets que vous avez sélectionnés même si le champ requis est vide.
 
 Pour plus d’informations sur l’accès aux formulaires personnalisés, consultez les articles suivants :
 

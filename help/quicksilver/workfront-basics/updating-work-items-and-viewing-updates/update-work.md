@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 1%
 
 ---
@@ -189,7 +189,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 
 1. Recherchez l’objet à mettre à jour, puis cliquez sur son nom pour ouvrir la page de l’objet.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
-1. Cliquez sur **Testez les commentaires bêta** dans le coin inférieur droit de la zone Mises à jour, puis cliquez sur **Accepter** sur le contrat bêta. La zone Mises à jour est ainsi déplacée vers l’expérience bêta de commentaire.
+1. Activez la variable **Commenter la version bêta** faites basculer le curseur dans le coin supérieur droit de la zone Mises à jour, puis cliquez sur **Accepter** sur le contrat bêta. La zone Mises à jour est ainsi déplacée vers l’expérience bêta de commentaire.
 Le **Commentaires** est sélectionné par défaut.
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
@@ -224,7 +224,7 @@ Le **Commentaires** est sélectionné par défaut.
 
 1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’objet Workfront.
 1. (Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
-1. Modifiez les informations du commentaire ou supprimez les utilisateurs balisés.
+1. Modifiez les informations du commentaire ou supprimez les utilisateurs balisés. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
 ## Copie des informations de mise à jour
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->Il n’est pas possible de copier une mise à jour lors de l’utilisation de l’expérience de commentaire bêta.
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 Il existe plusieurs façons de copier une mise à jour. Après avoir copié un lien, vous pouvez le partager avec d’autres personnes afin de les rediriger vers la mise à jour.
 
@@ -348,7 +349,7 @@ Cette option copie le texte d’une mise à jour spécifique dans le Presse-papi
 Cette option copie le lien de thread complet dans le Presse-papiers afin que vous puissiez partager le thread avec d’autres utilisateurs.
 
 1. Accédez au thread de mise à jour que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread**.
+1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread** <span class="preview">ou **Copier le lien** lors de l’utilisation de l’expérience bêta</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ Cette option copie le lien de thread complet dans le Presse-papiers afin que vou
 Cette option copie un lien de mise à jour spécifique dans le Presse-papiers. Lorsque vous partagez le lien de mise à jour, l’utilisateur qui le suit voit une bordure autour de la mise à jour.
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour individuelle, puis cliquez sur **Copier le lien de mise à jour**.
+1. Cliquez sur le bouton **Plus** en regard de la mise à jour individuelle, puis cliquez sur **Copier le lien de mise à jour** <span class="preview">ou **Copier le lien** lors de l’utilisation de l’expérience bêta</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
