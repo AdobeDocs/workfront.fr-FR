@@ -6,7 +6,7 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 1%
@@ -232,6 +232,7 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
    >[!TIP]
    >
    >   Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.
+
 1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 4 à 7 ci-dessus. <!--(**************insure this stays accurate***********)-->. Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Facultatif) Cliquez sur le **Comme** icon![](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
 1. (Conditionnel et Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
@@ -349,7 +350,12 @@ Cette option copie le texte d’une mise à jour spécifique dans le Presse-papi
 Cette option copie le lien de thread complet dans le Presse-papiers afin que vous puissiez partager le thread avec d’autres utilisateurs.
 
 1. Accédez au thread de mise à jour que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread** <span class="preview">ou **Copier le lien** lors de l’utilisation de l’expérience bêta</span>.
+
+1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread**
+
+   ou
+
+   <span class="preview">**Copier le lien** lors de l’utilisation de l’expérience bêta</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ Cette option copie le lien de thread complet dans le Presse-papiers afin que vou
 Cette option copie un lien de mise à jour spécifique dans le Presse-papiers. Lorsque vous partagez le lien de mise à jour, l’utilisateur qui le suit voit une bordure autour de la mise à jour.
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour individuelle, puis cliquez sur **Copier le lien de mise à jour** <span class="preview">ou **Copier le lien** lors de l’utilisation de l’expérience bêta</span>.
+1. Cliquez sur le bouton **Plus** en regard de la mise à jour individuelle, puis cliquez sur **Copier le lien de mise à jour**
+
+   ou
+
+   <span class="preview">**Copier le lien** lors de l’utilisation de l’expérience bêta</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Dans le message qui s’affiche, cliquez sur **Confirmer** <span class="preview">ou **Supprimer**</span>, dans l’expérience bêta de commentaire.
+1. Dans le message qui s’affiche, cliquez sur **Confirmer**
+
+   ou
+
+   <span class="preview"> **Supprimer**, dans les commentaires sur l’expérience bêta</span>.
 
 >[!NOTE]
 >

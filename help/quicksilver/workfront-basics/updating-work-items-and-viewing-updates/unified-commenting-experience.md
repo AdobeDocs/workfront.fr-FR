@@ -5,9 +5,9 @@ title: Expérience de commentaires unifiés
 description: La nouvelle expérience de commentaires unifiés
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -414,7 +414,7 @@ La nouvelle expérience de commentaire est actuellement prise en charge pour les
 Pour activer la nouvelle expérience de commentaire bêta :
 
 1. Accédez à un objet pour lequel vous souhaitez activer la nouvelle expérience de commentaire, puis cliquez sur **Mises à jour** dans le panneau de gauche.
-1. Cliquez sur **Testez la version bêta des commentaires** dans le coin inférieur droit de la zone Mises à jour .
+1. Activez la variable **Commenter la version bêta** basculez dans le coin supérieur droit de la zone Mises à jour .
 1. Cliquez sur **Accepter** dans la zone de contrat bêta. Cela active la nouvelle expérience de commentaire pour l’objet sélectionné.
 1. Commencez à saisir une mise à jour dans la variable **Commentaires** . L’onglet Commentaires doit être l’onglet par défaut à l’ouverture de la nouvelle expérience.
 
