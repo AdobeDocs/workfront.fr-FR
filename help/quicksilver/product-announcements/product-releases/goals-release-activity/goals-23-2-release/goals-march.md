@@ -6,7 +6,7 @@ title: Activité de mise à jour des objectifs Adobe Workfront 23.2 Semaine du 2
 description: Cette page décrit toutes les améliorations apportées à la version 23.2 d’ objectifs d’Adobe Workfront à l’environnement Aperçu . Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 20 mars 2023.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 69fbdd87bcb7a2743aec6d6ad06246b018b9ff16
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Activité de version 23.2 d’Adobe Workfront Goals : Semaine du 20 mars 2023
 
-Cette page décrit toutes les améliorations apportées à la version 23.2 des objectifs Adobe Workfront dans l’environnement Aperçu au 20 mars 2023.
+Cette page décrit toutes les améliorations apportées à la version 23.2 des objectifs Adobe Workfront dans l’environnement de prévisualisation du 20 mars 2023.
 
 Ces améliorations seront disponibles dans l’environnement de production avec la version 23.2, qui est prévue pour la semaine du 3 avril 2023.
 

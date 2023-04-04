@@ -4,9 +4,9 @@ description: Consultation et affichage des mises à jour pendant la période de 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 2%
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication de la version 23.2. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.
 
 Pour obtenir la liste de toutes les modifications disponibles avec la version 23.2, voir [Présentation de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Mises à jour de l’aspect de la liste Brouillons dans la zone Demandes
+
+>[!NOTE]
+>
+>Aperçu de la version : 4 avril 2023; Version de production planifiée : 18 avril 2023
+
+Nous avons mis à jour la liste Brouillons dans la zone Demandes afin de la rendre cohérente avec les listes plus récentes dans Workfront.
+Voici quelques-unes des mises à jour :
+
+* Remplacement du filtre &quot;Filtrer par type de requête&quot; par le filtre rapide standard.
+* Suppression de l’image de la liste Brouillons lorsque la liste ne contient aucune requête.
+* Ajout de la pagination et du tri des colonnes dans la liste.
+
+Pour plus d’informations, voir [Création de requêtes à partir de brouillons](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Sélection intelligente d’utilisateurs disponible dans d’autres zones de Workfront
 
