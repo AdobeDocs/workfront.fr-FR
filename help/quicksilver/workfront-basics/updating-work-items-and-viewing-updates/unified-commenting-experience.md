@@ -5,9 +5,9 @@ title: Expérience de commentaires unifiés
 description: La nouvelle expérience de commentaires unifiés
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Nouvelle expérience de commentaire
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets.
 
@@ -91,7 +91,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -163,9 +163,8 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓ </span>
-   </td>
-   <td> 
+   <td>
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -191,7 +190,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">Remplacé par le commentaire Modifier </span>
+   <td>Remplacé par le commentaire Modifier 
    </td>
    <td> 
    </td>
@@ -219,7 +218,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,8 +246,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
-   <p><span class="preview">Cette fonctionnalité doit être disponible avec la version 23.2 et a été temporairement retardée.</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -304,9 +302,9 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2e trimestre 2023 
    </td>
@@ -318,7 +316,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -346,7 +344,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -388,16 +386,13 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
 
 ## Localisation de la nouvelle expérience de commentaire
 
-La nouvelle expérience de commentaire est actuellement prise en charge pour les objets suivants, lors de l’affichage de la section Mises à jour dans les versions suivantes :
+La nouvelle expérience de commentaire est actuellement prise en charge pour les objets suivants, lors de l’affichage de la section Mises à jour dans les versions suivantes de Workfront :
 
 * Lors de l’activation de l’expérience bêta dans la section Mises à jour :
 
-   <div class="preview">
-
-   * Événements.
+   * Événements
    Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   </div>
 
 * Par défaut, comme principale expérience de commentaire :
 
@@ -408,8 +403,6 @@ La nouvelle expérience de commentaire est actuellement prise en charge pour les
 
    Pour plus d’informations sur la gestion des mises à jour des objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-
-<div class="preview">
 
 Pour activer la nouvelle expérience de commentaire bêta :
 
@@ -423,5 +416,3 @@ Pour activer la nouvelle expérience de commentaire bêta :
    Cliquez sur le bouton  **Activité du système** pour afficher les mises à jour d’activité générées par Workfront.
 
    Pour plus d’informations sur la mise à jour des objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
-
-</div>

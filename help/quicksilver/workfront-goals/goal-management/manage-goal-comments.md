@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez afficher dans les objectifs Adobe Workfront.
 
@@ -140,16 +140,15 @@ Cela ouvre la liste des objectifs.
    >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode préliminaire, même après vous être déconnecté et vous être reconnecté. Les commentaires préliminaires ne sont visibles que par l’utilisateur qui les saisit.
 
 1. (Facultatif) Dans le **Balisage de personnes ou d’équipes** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
-1. <span class="preview">(Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**. </span>
-1. <span class="preview">Modifiez les informations du commentaire ou supprimez les utilisateurs balisés. </span>
+1. (Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
+1. Modifiez les informations dans le commentaire&lt;<!--, or remove any of the tagged users-->.
+Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
 
-   <span class="preview">Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.</span>
-
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.</span>
+   > Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.
 
    1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-icon.png), puis cliquez sur l’une des options suivantes pour copier des informations d’un commentaire dans le Presse-papiers :
 
@@ -169,7 +168,7 @@ Cela ouvre la liste des objectifs.
    >L’indicateur &quot;Nouveau&quot; s’affiche uniquement lorsque l’utilisateur qui a saisi une nouvelle mise à jour, ainsi que celui qui a saisi une mise à jour, utilisent tous deux la nouvelle expérience de commentaire.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. <span class="preview">(Facultatif) Cliquez sur le **Plus** menu ![](assets/more-icon.png) à droite d’un commentaire, puis cliquez sur **Supprimer** pour supprimer un commentaire que vous avez ajouté. </span>
+1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-icon.png) à droite d’un commentaire, puis cliquez sur **Supprimer** pour supprimer un commentaire que vous avez ajouté.
 1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 5 à 9 ci-dessus. <!--insure this stays accurate-->
 1. (Facultatif) Cliquez sur le **Comme** icon![](assets/like-icon.png) pour aimer un commentaire que quelqu&#39;un d&#39;autre a ajouté. L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
 1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, utilisez les attributs de la barre d’outils Texte enrichi au fur et à mesure que vous tapez. Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

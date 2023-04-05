@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # Personnalisation de la vue Détails à l’aide d’un modèle de mise en page
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients de l’environnement Aperçu et pour un groupe sélectionné de clients de l’environnement Production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur clique sur l’icône Détails . ![](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un problème, d’un document, d’un programme ou d’un portfolio.
 
@@ -38,9 +38,9 @@ Les modifications apportées à la vue Détails d’un objet déterminent égale
    ![](assets/edit-task-screen.png)
 
 
-* <span class="preview">Écrans &quot;Modifier des objets&quot; lors de la modification de projets en bloc, comme Modifier des projets</span>
+* Écrans &quot;Modifier des objets&quot; lors de l’édition d’objets en bloc. Actuellement, cette fonctionnalité est prise en charge pour la modification en masse de projets.
 
-   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * Résumé ![](assets/summary-panel-icon.png) pour obtenir la liste des tâches et des problèmes

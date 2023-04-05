@@ -6,9 +6,9 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -26,17 +26,18 @@ ht-degree: 0%
 >Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle conception pour les objets suivants :
-> * <span class="preview">Problèmes lors de l’activation de la version bêta des commentaires. </span>
+> * Problèmes lors de l’activation de la version bêta des commentaires.
    >
-   >     <span class="preview">Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :</span>
+   >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :
    >
-   >     * <span class="preview">Page d’accueil</span>
-   >     * <span class="preview">Panneau Résumé dans les listes</span>
-   >     * <span class="preview">Panneau Résumé dans les feuilles de temps</span>
+   >     * Page d’accueil
+   >     * Panneau Résumé dans les listes
+   >     * Panneau Résumé dans les feuilles de temps
 >
 > * Objectifs
-   >   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -131,8 +132,6 @@ Le balisage des autres dans une mise à jour varie en fonction de l’expérienc
    ![](assets/tagging-transparency-350x192.png)
 
    Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<div class="preview">
 
 ### Balisage des autres sur les mises à jour dans les commentaires sur l’expérience bêta
 

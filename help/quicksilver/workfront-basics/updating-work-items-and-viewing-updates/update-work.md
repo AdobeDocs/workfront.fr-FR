@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle conception pour les objets suivants :
-> * <span class="preview">Problèmes lors de l’activation de la version bêta des commentaires. </span>
+> * Problèmes lors de l’activation de la version bêta des commentaires.
    >
-   >     <span class="preview">Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :</span>
+   >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :
    >
-   >     * <span class="preview">Page d’accueil</span>
-   >     * <span class="preview">Panneau Résumé dans les listes</span>
-   >     * <span class="preview">Panneau Résumé dans les feuilles de temps</span>
+   >     * Page d’accueil
+   >     * Panneau Résumé dans les listes
+   >     * Panneau Résumé dans les feuilles de temps
 >
 > * Objectifs
-   >   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 
 1. Pour répondre à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### Ajout d’une mise à jour à un élément de travail à l’aide des commentaires sur l’expérience bêta
 
 1. Recherchez l’objet à mettre à jour, puis cliquez sur son nom pour ouvrir la page de l’objet.
@@ -224,7 +223,7 @@ Le **Commentaires** est sélectionné par défaut.
 
 1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’objet Workfront.
 1. (Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
-1. Modifiez les informations du commentaire ou supprimez les utilisateurs balisés. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. Modifier les informations dans le commentaire <!--or remove any of the tagged users-->.
 Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
    >
    >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système.
 
-</div>
 
 ## Utilisation de texte enrichi dans une mise à jour Workfront
 
@@ -318,7 +316,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >* Les images sont accessibles uniquement à partir de l’onglet Mises à jour d’un objet et elles ne sont pas disponibles dans l’onglet Documents.
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
 
-1. Cliquez sur **Mettre à jour**  <span class="preview">ou **Envoyer**</span>, dans l’expérience bêta de commentaire.
+1. Cliquez sur **Mettre à jour**  ou **Envoyer**, lors de l’utilisation de l’expérience bêta de commentaire.
 
 
 ## Copie des informations de mise à jour
@@ -351,11 +349,7 @@ Cette option copie le lien de thread complet dans le Presse-papiers afin que vou
 
 1. Accédez au thread de mise à jour que vous souhaitez copier.
 
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread**
-
-   ou
-
-   <span class="preview">**Copier le lien** lors de l’utilisation de l’expérience bêta</span>.
+1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread** ou **Copier le lien**, lors de l’utilisation de l’expérience bêta.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ Cette option copie le lien de thread complet dans le Presse-papiers afin que vou
 Cette option copie un lien de mise à jour spécifique dans le Presse-papiers. Lorsque vous partagez le lien de mise à jour, l’utilisateur qui le suit voit une bordure autour de la mise à jour.
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour individuelle, puis cliquez sur **Copier le lien de mise à jour**
-
-   ou
-
-   <span class="preview">**Copier le lien** lors de l’utilisation de l’expérience bêta</span>.
+1. Cliquez sur le bouton **Plus** en regard de la mise à jour individuelle, puis cliquez sur **Copier le lien de mise à jour** ou **Copier le lien**, lors de l’utilisation de l’expérience bêta.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Dans le message qui s’affiche, cliquez sur **Confirmer**
-
-   ou
-
-   <span class="preview"> **Supprimer**, dans les commentaires sur l’expérience bêta</span>.
+1. Dans le message qui s’affiche, cliquez sur **Confirmer** ou **Supprimer**, lors de l’utilisation de l’expérience bêta de commentaire.
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">Il n’est pas possible de désactiver les mises à jour système lors de l’utilisation de l’expérience de commentaire bêta. </span>
-><span class="preview">Les informations de cette section se rapportent uniquement aux fonctionnalités disponibles dans la section Mises à jour en cours. </span>
-><span class="preview">Pour plus d’informations sur les mises à jour système de la version bêta, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>Il n’est pas possible de désactiver les mises à jour système lors de l’utilisation de l’expérience de commentaire bêta.
+>Les informations de cette section se rapportent uniquement aux fonctionnalités disponibles dans la section Mises à jour en cours.
+>Pour plus d’informations sur les mises à jour système de la version bêta, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 La section Mises à jour d’un objet Workfront affiche deux types d’informations :

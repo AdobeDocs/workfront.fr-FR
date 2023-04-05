@@ -6,16 +6,16 @@ description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent q
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '7787'
+source-wordcount: '7310'
 ht-degree: 2%
 
 ---
 
 # Modification de projets
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients de l’environnement Aperçu et pour un groupe sélectionné de clients de l’environnement Production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -694,110 +694,11 @@ Par défaut, les champs suivants sont inclus dans l’en-tête du projet.
 
 Vous pouvez modifier des projets en bloc et mettre à jour les informations de tous les projets sélectionnés en même temps.
 
+Tenez compte des points suivants lors de la modification de projets en bloc :
 
-Les informations que vous modifiez sur tous les projets sélectionnés remplacent les informations existantes sur les projets individuels, à l’exception du champ Gestionnaire de ressources .
+* Les informations que vous modifiez sur tous les projets sélectionnés remplacent les informations existantes sur les projets individuels, à l’exception du champ Gestionnaire de ressources .
 
-L’ajout d’un nouveau gestionnaire de ressources lors de la modification de projets en bloc ajoute ce gestionnaire à tous les projets sélectionnés. Si d’autres gestionnaires de ressources sont associés aux projets sélectionnés, ils restent sur les projets en plus de celui ajouté par modification en masse.
-
-La modification en bloc de projets varie en fonction de l’environnement dans lequel vous choisissez de les mettre à jour.
-
-### Modifier des projets en bloc dans l’environnement de production
-
-Pour modifier des projets en bloc :
-
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
-
-1. Cliquez sur **Projets**.
-1. Sélectionnez plusieurs projets dans la liste.
-1. Cliquez sur **Modifier**.
-
-   Le **Modifier des projets** s’ouvre.
-
-   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
-
-1. Renseignez les sections suivantes pour tous les projets sélectionnés :
-
-   * **Vue d’ensemble**
-
-      Pour plus d’informations, voir [Présentation](#overview) dans cet article.
-
-   * **Finances**
-
-      Pour plus d’informations, voir [Finance](#finance) dans cet article.
-
-   * **Portfolio**
-
-      Pour plus d’informations, reportez-vous à la section &quot;Association de projet&quot; dans la section [Présentation](#overview) dans cet article.
-
-   * **Paramètres**
-
-      Pour plus d’informations, voir [Paramètres du projet](#project-settings) dans cet article.
-
-   * **Accès**
-
-      Pour plus d’informations, voir [Accès](#access) dans cet article.
-
-   * **Formulaires personnalisés**
-
-      Pour plus d’informations, passez à l’étape 7 ci-dessous.
-
-      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
-     -->
-
-   * **Tâches**
-
-      Pour plus d’informations, voir [Paramètres de tâche](#task-settings) dans cet article.
-
-   * **Événements**
-
-      Pour plus d’informations, voir   [Paramètres de problème](#issue-settings) dans cet article.
-
-   * **Commentaire**
-
-      Pour plus d’informations, reportez-vous à l’étape 9 ci-dessous.
-
-      <!--   
-     <p>(NOTE: ensure this step stays accurate)</p>   
-     -->
-
-
-1. (Facultatif) Dans la zone Paramètres, sélectionnez l’une des options suivantes :
-
-   * **Recalculer les coûts et les recettes**: Sélectionnez cette option pour recalculer les coûts et les recettes sur tous les projets sélectionnés.
-   * **Recalculer les chronologies**: Sélectionnez cette option pour recalculer les Chronologies de tous les projets sélectionnés.
-   * **Recalculer les Fiches d’évaluation**: Sélectionnez cette option pour recalculer les valeurs de la Fiche d’évaluation pour tous les projets sélectionnés.
-
-   ![recalculate_cost__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
-
-1. Cliquez sur **Forms personnalisée** pour modifier les formulaires personnalisés joints à tous les projets sélectionnés.
-
-   Si les projets sélectionnés ne comportent aucun formulaire personnalisé commun, aucun formulaire n’est répertorié dans cette section.
-
-   Vous ne pouvez modifier que les champs des formulaires associés à tous les projets sélectionnés et que vous êtes autorisé à modifier.
-
-1. (Facultatif) Dans la section Forms personnalisée , sélectionnez la variable **Recalculer des expressions personnalisées** pour vous assurer que tous les champs personnalisés calculés qui se trouvent sur le Forms personnalisé joint aux projets sélectionnés sont à jour.
-
-   >[!IMPORTANT]
-   >
-   >Il est recommandé de ne pas sélectionner plus de 500 projets à la fois lorsque vous recalculez les expressions personnalisées.
-
-1. (Facultatif) Cliquez sur **Commentaire**, sélectionnez ensuite la zone Publier une mise à jour pour chaque projet et indiquez un commentaire à afficher dans le flux de mises à jour du projet dans le champ disponible, puis effectuez l’une des opérations suivantes :
-
-   * Cliquez sur le bouton **Personnes** icon ![](assets/people-icon-updates-classic.png) pour baliser un utilisateur qui sera informé de votre commentaire.
-   * Cliquez sur le bouton **Verrouiller** icon ![](assets/lock-icon-open-updates-classic.png) pour limiter vos commentaires aux seuls membres de votre société.
-
-   Ce commentaire est visible pour toutes les personnes ayant accès à l’affichage du projet et ayant accès à l’affichage des notes.
-
-1. Cliquez sur **Enregistrer les modifications**.
-
-   Toutes les modifications que vous avez apportées sont désormais visibles sur tous les projets sélectionnés.
-
-<div class="preview">
-
-### Modification de projets en bloc dans l’environnement Aperçu
-
-Tenez compte des points suivants lors de la modification de projets en bloc dans l’environnement Aperçu :
+   L’ajout d’un nouveau gestionnaire de ressources lors de la modification de projets en bloc ajoute ce gestionnaire à tous les projets sélectionnés. Si d’autres gestionnaires de ressources sont associés aux projets sélectionnés, ils restent sur les projets en plus de celui ajouté par modification en masse.
 
 * Lorsque vous sélectionnez des projets dont les valeurs sont différentes pour le même champ, le champ affiche un indicateur &quot;Plusieurs valeurs&quot; dans la zone Modifier les projets . Les champs qui sont des cases à cocher, des boutons radio et des bascules sont associés à un indicateur &quot;Plusieurs valeurs&quot;.
 
@@ -826,7 +727,7 @@ Tenez compte des points suivants lors de la modification de projets en bloc dans
 
 * Lorsque vous sélectionnez plusieurs projets appartenant à différents groupes, les états qui s’affichent dans le champ Statut sont des états au niveau du système et non des états au niveau du groupe.
 
-Pour modifier des projets dans l’environnement Aperçu :
+Pour modifier des projets en bloc :
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 1. Cliquez sur **Projets**.
@@ -863,9 +764,9 @@ Selon la manière dont votre administrateur Workfront ou l’administrateur de g
 
    Les formulaires personnalisés supplémentaires pouvant être associés à des projets, mais qui ne sont associés à aucun des projets sélectionnés s’affichent dans la variable **Forms à ajouter** dans la section **Ajouter un formulaire personnalisé** champ .
 
-1. Cliquez pour sélectionner le formulaire personnalisé supplémentaire dans le **Ajouter un formulaire personnalisé** ou **Forms à ajouter** sous-sections lorsqu’elle s’affiche dans la liste.
+1. Cliquez sur pour sélectionner d’autres formulaires personnalisés dans le **Ajouter un formulaire personnalisé** ou **Forms à ajouter** sous-sections lorsqu’elle s’affiche dans la liste.
 
-   Lorsqu’un formulaire personnalisé est déjà joint à certains des projets sélectionnés, une indication indique à côté du nom du formulaire combien de projets le formulaire est déjà sélectionné lors de l’ajout d’un formulaire.
+   Lorsqu’un formulaire personnalisé est déjà joint à certains des projets sélectionnés, une indication indique à côté du nom du formulaire combien de projets le formulaire est déjà joint lors de l’ajout d’un formulaire.
 
 1. (Facultatif) Cliquez sur le **x** à droite du nom d’un formulaire personnalisé, puis cliquez sur **Supprimer** pour la supprimer de tous les projets sélectionnés.
 
@@ -892,5 +793,100 @@ Pour plus d’informations sur la modification de la zone Accès, voir la sectio
 1. (Facultatif) Cliquez sur **Annuler** au bas de la **Modification de projets** pour supprimer toutes les modifications apportées à tous les projets.
 1. Cliquer sur **Enregistrer**.
 
-</div>
 
+
+<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+
+### Edit projects in bulk in the Production environment
+
+To edit projects in bulk:
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Projects**.  
+1. Select several projects in the list.
+1. Click **Edit**.
+
+   The **Edit Projects** dialog box opens.
+
+   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
+
+1. Specify the information on all selected projects in the following sections:
+
+   * **Overview**
+
+     For information, see the [Overview](#overview) section in this article.
+   
+   * **Finance**
+
+     For information, see the [Finance](#finance) section in this article.
+   
+   * **Portfolio**
+
+     For information, see the "Project association" section in the [Overview](#overview) section in this article.
+   
+   * **Settings**
+
+     For information, see the [Project Settings](#project-settings) section in this article.
+   
+   * **Access**
+
+     For information, see the [Access](#access) section in this article.
+   
+   * **Custom Forms**
+
+     For information, continue with step 7 below.
+
+     <!--   
+     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     
+
+   * **Tasks**
+
+     For information, see the [Task Settings](#task-settings) section in this article.
+   
+   * **Issues**
+
+     For information, see the   [Issue Settings](#issue-settings) section in this article.
+   
+   * **Comment**
+
+     For information, continue with step 9 below.
+
+     <!--   
+     <p>(NOTE: ensure this step stays accurate)</p>   
+     
+
+
+1. (Optional) In the Settings area, select any of the following options:
+
+   * **Recalculate Costs and Revenues**: Select this option to recalculate Costs and Revenues on all projects selected.
+   * **Recalculate Timelines**: Select this option to recalculate the Timelines of all projects selected.
+   * **Recalculate Scorecards**: Select this option to recalculate the Scorecard values for all projects selected.
+
+   ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
+
+1. Click **Custom Forms** to edit the custom forms attached to all the projects selected.
+
+   If the projects selected do not have any common custom forms, no forms are listed in this section.
+
+   You can edit only the fields on the forms that are attached to all projects selected and which you have permissions to edit. 
+
+1. (Optional) In the Custom Forms section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the projects selected are up to date.
+
+   >[!IMPORTANT]
+   >
+   >We recommend not to select more than 500 projects at a time when you recalculate custom expressions.
+
+1. (Optional) Click **Comment**, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
+
+   * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+   * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+
+   This comment is visible for everyone with View access to the project and with access to view Notes.
+
+1. Click **Save Changes**.
+
+   All changes you made are now visible on all the selected projects.
+
+-->

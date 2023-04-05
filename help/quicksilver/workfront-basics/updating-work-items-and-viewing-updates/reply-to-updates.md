@@ -6,9 +6,9 @@ description: Lorsqu’une personne ajoute ou répond à une mise à jour d’un 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1120'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle conception pour les objets suivants :
-> * <span class="preview">Problèmes lors de l’activation de la version bêta des commentaires. </span>
+> * Problèmes lors de l’activation de la version bêta des commentaires.
    >
-   >     <span class="preview">Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :</span>
+   >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :
    >
-   >     * <span class="preview">Page d’accueil</span>
-   >     * <span class="preview">Panneau Résumé dans les listes</span>
-   >     * <span class="preview">Panneau Résumé dans les feuilles de temps</span>
+   >     * Page d’accueil
+   >     * Panneau Résumé dans les listes
+   >     * Panneau Résumé dans les feuilles de temps
 >
 > * Objectifs
-   >   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -97,8 +98,6 @@ La réponse à un commentaire ou à une réponse varie en fonction de l’expér
 1. (Facultatif) Utilisez le formatage, les émoticônes, incluez des liens ou des images, comme expliqué dans la section &quot;Utiliser du texte enrichi dans une mise à jour Workfront&quot; de l’article. [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Cliquez sur **Répondre** pour enregistrer la réponse.
 
-<div class="preview">
-
 ### Répondre à un commentaire lors de l’utilisation de l’expérience bêta de commentaire
 
 1. Accédez à l’objet auquel vous souhaitez ajouter une réponse.
@@ -113,7 +112,6 @@ La réponse à un commentaire ou à une réponse varie en fonction de l’expér
 
 1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-menu.png) en regard de la mise à jour pour plus d’options de gestion de la réponse. Pour plus d’informations, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
 
-</div>
 
 ## Répondre à une mise à jour par email
 

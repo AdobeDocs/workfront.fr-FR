@@ -6,9 +6,9 @@ description: Les pools de ressources sont des groupes d’utilisateurs qui vous 
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients de l’environnement Aperçu et pour un groupe sélectionné de clients de l’environnement Production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -104,9 +104,9 @@ Pour associer des pools de ressources à plusieurs projets en bloc :
 
    >[!NOTE]
    >
-   >* Dans l’environnement de production, lorsque vous modifiez des projets ou des modèles en bloc, seuls les pools de ressources communs à tous les projets ou modèles sélectionnés apparaissent dans ce champ. Si les projets sélectionnés ne comportent aucun pool de ressources partagées, ce champ est vide. Les pools de ressources que vous spécifiez ici remplaceront les pools de ressources individuels des projets ou modèles.
+   >* Lorsque vous modifiez des modèles en bloc, seuls les pools de ressources communs à tous les modèles sélectionnés apparaissent dans ce champ. Si les modèles sélectionnés ne comportent aucun pool de ressources partagées, ce champ est vide. Les pools de ressources que vous spécifiez ici remplacent les pools de ressources individuels des projets ou modèles.
    >
-   >* <span class="preview">Dans l’environnement Aperçu, lorsque vous modifiez des projets en bloc, un indicateur &quot;Plusieurs valeurs&quot; s’affiche si les projets sélectionnés disposent de pools de ressources différents. Si vous ajoutez des pools de ressources en bloc, tous les pools seront ajoutés au projet sélectionné, remplaçant les pools de ressources d’origine.</span>
+   >* Lorsque vous modifiez des projets en bloc, un indicateur &quot;Plusieurs valeurs&quot; s’affiche si les projets sélectionnés disposent de différents pools de ressources. Si vous ajoutez des pools de ressources en bloc pour les projets, tous les pools sont ajoutés au projet sélectionné, remplaçant les pools de ressources d’origine.</span>
 
 
    <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>

@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 4%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->Nous sommes en train de reconcevoir la section Mises à jour d’un objet.
->
+>Nous sommes en train de reconcevoir l’expérience de commentaire dans Adobe Workfront.
 >Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Vous pouvez accéder à la nouvelle conception à partir des objets suivants et dans les environnements suivants :
+>Vous pouvez accéder à la nouvelle conception pour les objets suivants :
+> * Problèmes lors de l’activation de la version bêta des commentaires.
+   >
+   >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :
+   >
+   >     * Page d’accueil
+   >     * Panneau Résumé dans les listes
+   >     * Panneau Résumé dans les feuilles de temps
 >
->* <span class="preview">Lorsque vous activez l’expérience bêta de commentaire pour les objets suivants :</span>
-   >
-   >     * <span class="preview">Événements</span>
-
-   >     
-   >     <span class="preview">Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :</span>
-   >
-   >     * <span class="preview">Page d’accueil</span>
-   >     * <span class="preview">Panneau Résumé dans les listes</span>
-   >     * <span class="preview">Panneau Résumé dans les feuilles de temps</span>
->
->* Par défaut, comme expérience de commentaire actuelle pour les objets suivants :
-   >
-   >     * Objectifs
+> * Objectifs
 
    >
-   >     Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
@@ -116,7 +111,7 @@ Actuellement, vous pouvez faire des commentaires et répondre aux mises à jour 
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Événements</span></li> 
+     <li>Événements</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jou
 >
 >Pour plus d’informations sur la hiérarchie d’objets dans Adobe Workfront, voir [Présentation des objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> Il n’est pas possible de répondre aux mises à jour du système dans la nouvelle expérience de commentaires bêta. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> Il n’est pas possible de répondre aux mises à jour du système dans la nouvelle expérience de commentaires bêta. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Limites de la section Mises à jour
 
