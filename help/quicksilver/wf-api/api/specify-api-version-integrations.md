@@ -6,18 +6,16 @@ description: Spécification d’une version d’API dans vos intégrations
 author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # Spécification d’une version d’API dans vos intégrations
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
-
-Tous les URI Adobe Workfront sont nécessaires pour référencer une version spécifique de l’API après la partie &quot;tâche/api&quot; de l’URI. L’exemple suivant appelle la version 15.0 :
+Tous les URI Adobe Workfront doivent référencer une version spécifique de l’API après la partie &quot;tâche/api&quot; de l’URI. L’exemple suivant appelle la version 15.0 :
 
 `attask/api/v15.0/<objectName>/<objectId>`
 
@@ -31,11 +29,9 @@ Pour plus d’informations sur la cadence de publication et le planning d’obso
 
 >[!IMPORTANT]
 >
->* Après la version 23.2, la version par défaut de l’API est définie sur la version la plus récente. Tout appel API sans la version spécifiée utilise la version par défaut. Chaque fois que Workfront publie une nouvelle version de l’API, la version par défaut est mise à jour vers la dernière version. Par conséquent, après la publication d’une nouvelle version de l’API Workfront, tous les appels d’API qui utilisent la version par défaut doivent être vérifiés pour s’assurer que la fonctionnalité est toujours prise en charge.
+>* La version par défaut de l’API est définie sur la version la plus récente. Tout appel API sans la version spécifiée utilise la version par défaut. Chaque fois que Workfront publie une nouvelle version de l’API, la version par défaut est mise à jour vers la dernière version. **Par conséquent, après la publication d’une nouvelle version de l’API Workfront, tous les appels d’API qui utilisent la version par défaut doivent être vérifiés pour s’assurer que la fonctionnalité est toujours prise en charge.**
 >
 >* Si votre entreprise utilise actuellement l’API par défaut, votre administrateur Workfront a reçu un message du centre d’annonces contenant des instructions supplémentaires sur l’API par défaut.
->
->* <span class="preview">L’API par défaut de l’environnement Aperçu est définie sur la version la plus récente. L’API par défaut dans l’environnement de production sera définie sur la version la plus récente après la version 23.2 (avril 2023).</span>.
 >
 >Pour consulter la version la plus récente de l’API, voir [Contrôle de version des API et planification de la prise en charge](../../wf-api/api/api-version-support-schedule.md).
 
