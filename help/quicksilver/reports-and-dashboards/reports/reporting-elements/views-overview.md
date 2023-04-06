@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Présentation des vues dans Adobe Workfront
 description: Vous pouvez personnaliser le type d’informations que vous affichez dans une liste ou un rapport en gérant l’affichage de la liste ou du rapport. Vous pouvez afficher les objets et leurs attributs dans une vue.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%

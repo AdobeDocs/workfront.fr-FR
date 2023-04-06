@@ -3,19 +3,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Suppression des filtres, des vues et des regroupements
 description: Vous pouvez supprimer un filtre, une vue ou un regroupement des listes et des rapports si vous les avez créés ou s’ils ont été partagés avec vous. Vous ne pouvez pas supprimer les filtres, les vues ou les regroupements par défaut.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Suppression des filtres, des vues et des regroupements
-
-<span class="preview">Notez que dans l’environnement Aperçu, l’expérience de filtrage améliorée (précédemment appelée &quot;bêta&quot;) est désormais la valeur par défaut. Ces filtres améliorés sont désormais &quot;standard&quot; et l’expérience de filtre plus ancienne est &quot;héritée&quot;.</span>
 
 Vous pouvez supprimer un filtre, une vue ou un regroupement des listes et des rapports si vous les avez créés ou s’ils ont été partagés avec vous. Vous ne pouvez pas supprimer les filtres, les vues ou les regroupements par défaut.
 
@@ -50,20 +48,59 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
-## Suppression d’un filtre, d’une vue ou d’un regroupement à l’aide du créateur standard
+## Suppression d’un filtre à l’aide du créateur standard
 
-Vous pouvez supprimer un filtre, une vue ou un regroupement pour toutes les listes d’objets à l’aide de l’interface du créateur standard.
+Vous pouvez supprimer un filtre qui a été partagé avec vous à partir des listes de projets, de tâches ou de problèmes à l’aide de l’interface du créateur standard. L’interface du créateur standard n’est disponible pour aucun autre objet, ni pour les vues ou les regroupements.
 
-### Points à prendre en compte concernant la suppression des filtres, des vues et des regroupements
+Vous pouvez également supprimer des filtres que vous détenez dans les listes de projets, de tâches ou de problèmes à l’aide de l’interface du créateur standard.
+
+Les filtres par défaut du système ne peuvent pas être supprimés.
+
+### Points à prendre en compte concernant la suppression ou la suppression de filtres à l’aide du créateur standard
+
+Les scénarios suivants existent lorsque vous supprimez ou supprimez un filtre à l’aide du créateur standard :
+
+* Si le filtre a été partagé avec vous et que vous le supprimez, il est supprimé uniquement pour vous. L’utilisateur qui l’a créée à l’origine et tous les autres utilisateurs avec lesquels elle a été partagée ont toujours accès au filtre.
+* Si vous possédez le filtre et que vous le supprimez, celui-ci est supprimé du système Workfront. Le filtre n’est plus disponible pour les utilisateurs avec lesquels vous l’avez partagé.
+* Si vous êtes administrateur de Workfront, vous pouvez supprimer le filtre, qui est définitivement supprimé pour tous les utilisateurs, y compris le propriétaire.
+
+### Suppression d’un filtre à l’aide du créateur standard
+
+1. Accédez à une liste de projets, de tâches, de problèmes, de portfolios, de programmes, d’utilisateurs, de modèles ou de groupes.
+1. Cliquez sur le bouton **Filtrer** icon ![Icône Filtrer](assets/filter-nwepng.png).
+1. Placez le pointeur de la souris sur un filtre sous **Partagé avec moi**, cliquez sur le bouton **Plus** menu ![Icône Plus](assets/more-icon-spectrum.png), puis cliquez sur **Supprimer**.
+
+   ![Supprimer le filtre](assets/new-filters-more-menu-remove-filter.png)
+
+1. Sélectionner **Supprimer** dans le message de confirmation pour supprimer définitivement le filtre.
+
+### Suppression d’un filtre à l’aide du créateur standard
+
+1. Accédez à une liste de projets, de tâches, de problèmes, de portfolios, de programmes, d’utilisateurs, de modèles ou de groupes.
+1. Cliquez sur le bouton **Filtrer** icon ![Icône Filtrer](assets/filter-nwepng.png).
+1. Passez la souris sur un filtre que vous êtes autorisé à supprimer, puis cliquez sur l’icône **Plus** menu ![Icône Plus](assets/more-icon-spectrum.png), puis cliquez sur **Supprimer**.
+
+   ![Supprimer le filtre](assets/new-filters-more-menu-options-with-delete.png)
+
+1. (Facultatif) Cliquez sur **Annuler** sur le message de confirmation afin d&#39;éviter la suppression et de revenir à la liste des filtres.
+1. Cliquez sur **Supprimer** sur le message de confirmation pour confirmer la suppression.
+
+   Le filtre est supprimé pour vous et tous les utilisateurs qui y avaient des autorisations.
+
+## Suppression d’un filtre, d’une vue ou d’un regroupement à l’aide du créateur hérité
+
+Vous pouvez supprimer un filtre, une vue ou un regroupement pour toutes les listes d’objets à l’aide de l’interface du créateur hérité.
+
+### Points à prendre en compte concernant la suppression des filtres, des vues et des groupes à l’aide du créateur hérité
 
 La manière dont vous supprimez un élément de rapport varie selon que vous l’avez initialement créé ou qu’il a été partagé avec vous.
 
-Les scénarios suivants se présentent lorsque vous supprimez un regroupement :
+Les scénarios suivants se présentent lorsque vous supprimez un filtre, une vue ou un regroupement :
 
-* **Si vous avez créé le groupement et que vous le supprimez**, le regroupement est supprimé du système Workfront. Le regroupement n’est plus disponible pour les utilisateurs avec lesquels vous l’avez partagé.
-* **Si le regroupement a été partagé avec vous et que vous le supprimez**, le regroupement est supprimé uniquement pour vous. L’utilisateur qui l’a créée à l’origine et tous les autres utilisateurs avec lesquels elle a été partagée ont toujours accès au regroupement.
+* **Si vous avez créé l’élément et que vous le supprimez**, l’élément est supprimé du système Workfront. Il n’est plus disponible pour les utilisateurs avec qui vous l’avez partagé précédemment.
+* **Si l’élément a été partagé avec vous et que vous le supprimez**, l’élément est supprimé uniquement pour vous. L’utilisateur qui l’a créée à l’origine et tous les autres utilisateurs avec lesquels elle a été partagée y ont toujours accès.
 
-### Suppression d’un filtre, d’une vue ou d’un regroupement à l’aide du créateur standard
+### Suppression d’un filtre, d’une vue ou d’un regroupement à l’aide du créateur hérité
 
 1. Accédez à une liste d’objets ou à un rapport.
 1. (Conditionnel) Dans une liste, cliquez sur le bouton **Filtrer**, **Affichage** ou **Regroupement** puis survolez le filtre, l’affichage ou le groupe à supprimer, puis cliquez sur l’icône **Plus** icon ![](assets/more-icon.png), puis **Supprimer**. Le filtre, l’affichage ou le regroupement est supprimé.
@@ -74,50 +111,11 @@ Les scénarios suivants se présentent lorsque vous supprimez un regroupement :
    Tous les éléments de rapports que vous pouvez supprimer peuvent être supprimés. Les autres éléments de rapport s’affichent en grisé.
 
 1. Cliquez sur le bouton **x** en regard de tout élément de rapport à supprimer.
-1. (Conditionnel) Cliquez sur **Oui, supprimez-le** si vous avez choisi de supprimer un filtre, une vue ou un groupe que vous avez créé et que vous avez partagé ultérieurement avec d’autres utilisateurs. Cela supprime le filtre, la vue ou le regroupement du système Workfront.
+1. (Conditionnel) Cliquez sur **Oui, supprimez-le** si vous avez choisi de supprimer un filtre, une vue ou un groupe que vous avez créé et que vous avez partagé ultérieurement avec d’autres utilisateurs. Cela supprime le filtre, la vue ou le regroupement du système Workfront.
 
    >[!TIP]
    >
    >La suppression d’un filtre, d’une vue ou d’un regroupement que vous avez créé sans le partager avec d’autres le supprime du système sans demander de confirmation.
 
 1. Cliquez sur **Terminé**.
-
-## Suppression d’un filtre à l’aide du bêta builder
-
-Vous pouvez supprimer un filtre qui a été partagé avec vous à partir des listes de projets, de tâches ou de problèmes à l’aide de l’interface du créateur de versions bêta. L’interface du générateur bêta n’est disponible pour aucun autre objet, ni pour les vues ou les regroupements.
-
-Vous pouvez également supprimer des filtres que vous détenez dans les listes de projets, de tâches ou de problèmes à l’aide de l’interface du créateur de versions bêta.
-
-Les filtres par défaut du système ne peuvent pas être supprimés.
-
-### Points à prendre en compte concernant la suppression ou la suppression de filtres à l’aide du bêta builder
-
-Les scénarios suivants existent lorsque vous supprimez ou supprimez un filtre :
-
-* Si le filtre a été partagé avec vous et que vous le supprimez, il est supprimé uniquement pour vous. L’utilisateur qui l’a créée à l’origine et tous les autres utilisateurs avec lesquels elle a été partagée ont toujours accès au filtre.
-* Si vous possédez le filtre et que vous le supprimez, celui-ci est supprimé du système Workfront. Le filtre n’est plus disponible pour les utilisateurs avec lesquels vous l’avez partagé.
-* Si vous êtes administrateur de Workfront, vous pouvez supprimer le filtre, qui est définitivement supprimé pour tous les utilisateurs, y compris le propriétaire.
-
-### Suppression d’un filtre à l’aide du générateur bêta
-
-1. Accédez à une liste de projets, de tâches ou de problèmes.
-1. Cliquez sur le bouton **Filtrer** icon ![Icône Filtrer](assets/filter-nwepng.png) et activez le générateur bêta si nécessaire.
-1. Placez le pointeur de la souris sur un filtre sous **Partagé avec moi**, cliquez sur le bouton **Plus** menu ![Icône Plus](assets/more-icon-spectrum.png), puis cliquez sur **Supprimer**.
-
-   ![Supprimer le filtre](assets/new-filters-more-menu-remove-filter.png)
-
-1. Sélectionner **Supprimer** dans le message de confirmation pour supprimer définitivement le filtre.
-
-### Suppression d’un filtre à l’aide du créateur de versions bêta
-
-1. Accédez à une liste de projets, de tâches ou de problèmes.
-1. Cliquez sur le bouton **Filtrer** icon ![Icône Filtrer](assets/filter-nwepng.png) et activez le générateur bêta si nécessaire.
-1. Passez la souris sur un filtre que vous êtes autorisé à supprimer, puis cliquez sur l’icône **Plus** menu ![Icône Plus](assets/more-icon-spectrum.png), puis cliquez sur **Supprimer**.
-
-   ![Supprimer le filtre](assets/new-filters-more-menu-options-with-delete.png)
-
-1. (Facultatif) Cliquez sur **Annuler** sur le message de confirmation afin d&#39;éviter la suppression et de revenir à la liste des filtres.
-1. Cliquez sur **Supprimer** sur le message de confirmation pour confirmer la suppression.
-
-   Le filtre est supprimé pour vous et tous les utilisateurs qui y avaient des autorisations.
 

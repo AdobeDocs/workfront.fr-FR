@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Utilisation de caractères génériques basés sur des dates pour généraliser des rapports
 description: Vous pouvez généraliser un rapport en utilisant des caractères génériques au lieu d’informations spécifiques lors de la création de certains éléments de rapport.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%

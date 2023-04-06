@@ -7,7 +7,7 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Cet exemple affiche un filtre pour les tâches d’un projet spécifique qui sont à l’état de [!UICONTROL Nouveau] ou [!UICONTROL En cours]et sont attribués à moi.
 
-   Pour plus d’informations sur la création d’un filtre, reportez-vous à la section &quot;Création ou modification d’un filtre dans le générateur bêta&quot; de l’article. [Création ou modification de filtres dans [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Pour plus d’informations sur la création d’un filtre, reportez-vous à la section &quot;Création ou modification d’un filtre dans le créateur standard&quot; de l’article. [Création ou modification de filtres dans [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Nommez le filtre, puis cliquez sur **[!UICONTROL Enregistrer]**.
 

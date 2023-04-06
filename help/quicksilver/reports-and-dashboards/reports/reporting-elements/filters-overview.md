@@ -4,19 +4,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Présentation des filtres dans Adobe Workfront
 description: Vous pouvez utiliser des filtres dans Adobe Workfront pour réduire la quantité d’informations affichées à l’écran dans les listes, les rapports ou d’autres zones.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
 
 # Présentation des filtres dans Adobe Workfront
-
-<span class="preview">Notez que dans l’environnement Aperçu, l’expérience de filtrage améliorée (précédemment appelée &quot;bêta&quot;) est désormais la valeur par défaut. Ces filtres améliorés sont désormais &quot;standard&quot; et l’expérience de filtre plus ancienne est &quot;héritée&quot;.</span>
 
 Vous pouvez utiliser des filtres dans Adobe Workfront pour réduire la quantité d’informations affichées à l’écran dans les listes, les rapports ou d’autres zones.
 
@@ -169,11 +167,11 @@ Lorsque vous créez un filtre, vous associez plusieurs éléments qui constituen
 
 Voici un exemple du créateur de filtres standard :
 
-![Créateur de filtres standard](assets/filter-statements-with-or-and-and-nwe.png)
+![Créateur de filtres standard](assets/filter-sample-with-or.png)
 
-Voici un exemple du créateur de filtres bêta :
+Voici un exemple du créateur de filtres hérité :
 
-![Créateur de filtres bêta](assets/filter-sample-with-or.png)
+![Créateur de filtres hérité](assets/filter-statements-with-or-and-and-nwe.png)
 
 Un filtre contient les éléments suivants :
 
@@ -233,13 +231,13 @@ Pour plus d’informations sur les modificateurs de filtre, voir [Modificateurs 
 
 ## Création de filtres dans l’interface du créateur
 
-Vous pouvez créer un filtre à l’aide de l’interface du créateur standard ou bêta en procédant comme suit :
+Vous pouvez créer un filtre à l’aide de l’interface du créateur standard ou hérité des manières suivantes :
 
 * A partir de zéro
 * Modifier un filtre existant
 * Copier un filtre existant
 
-Pour plus d’informations sur la création d’un filtre à l’aide de l’interface du créateur standard ou bêta, voir [Création ou modification de filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Pour plus d’informations sur la création d’un filtre à l’aide de l’interface du créateur standard ou hérité, voir [Création ou modification de filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Création de filtres à l’aide de l’interface du mode texte
 

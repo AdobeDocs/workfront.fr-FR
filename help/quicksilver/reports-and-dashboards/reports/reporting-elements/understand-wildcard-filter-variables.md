@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Variables de filtre génériques
 description: En utilisant des caractères génériques dans des filtres, vous pouvez référencer un utilisateur ou une date générique au lieu d’un utilisateur ou d’une date spécifique. Ainsi, les éléments que vous créez sont dynamiques et les résultats changent en fonction du contexte dans lequel ils sont utilisés.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 2%
+source-wordcount: '1447'
+ht-degree: 1%
 
 ---
 
@@ -94,21 +94,21 @@ Pour indiquer différentes périodes et différents points dans le temps (futur 
 | **m** | mois |
 | **y** | an |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Qualificateurs** |  |
 |---|---|
 | **b** | début de la semaine (dimanche) |
 | **e** | fin de la semaine (samedi) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Opérateurs** |  |
 |---|---|
 | **+** | ajouter une valeur à une valeur de caractère générique |
 | **-** | soustraire la valeur de la valeur d’un caractère générique |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Par exemple, le caractère générique `$$TODAYb+2w` fait référence à &quot;2 semaines à partir du début de la semaine&quot;. Caractère générique *`$$NOW+2h` fait référence à &quot;dans 2 heures&quot;.
 
