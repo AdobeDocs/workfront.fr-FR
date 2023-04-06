@@ -5,21 +5,15 @@ title: Personnalisation des champs affichés sur une carte
 description: Vous pouvez personnaliser les champs qui s’affichent sur une carte en désactivant un champ afin qu’il ne s’affiche pas dans le mode Carte complète ou condensé, ou en masquant un champ dans le mode Carte condensée.
 author: Lisa
 feature: Agile
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # Personnalisation des champs affichés sur une carte
-
-{{highlighted-preview}}
-
->[!NOTE]
->
->Cette fonctionnalité est disponible uniquement par le biais de l’inclusion de la fonctionnalité anticipée pour [!DNL Workfront] [!UICONTROL Panoramas]. Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Par défaut, tous les champs disponibles sont affichés sur une carte, à la fois dans l’affichage complet lorsque la carte est ouverte et dans l’affichage condensé de la carte sur le panorama. Vous pouvez personnaliser les champs affichés en procédant comme suit :
 
@@ -71,13 +65,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Pour afficher tous les champs des deux modes, cliquez sur [!UICONTROL **Restaurer tous les champs par défaut**].
 1. Cliquez sur [!UICONTROL **Masquer la configuration**] pour fermer le panneau Configurer .
 
-<div class="preview">
-
 ## Ajout de champs personnalisés aux cartes
+
+Les champs personnalisés sont disponibles sur les cartes connectées. Elles ne sont visibles que sur le mode Carte complète, et non sur l’affichage condensé du panorama.
 
 >[!NOTE]
 >
->Lorsque vous ajoutez un champ personnalisé à vos cartes, les données qu’elle contient sont en lecture seule. En outre, les champs personnalisés ne sont disponibles que sur les cartes connectées.
+>Lorsque vous ajoutez un champ personnalisé à vos cartes, les données qu’elle contient sont en lecture seule.
 
 1. Accédez à un panorama, puis cliquez sur [!UICONTROL **Configurer**] pour ouvrir le panneau Configurer .
 1. Développer [!UICONTROL **Cartes**].
@@ -88,8 +82,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![Recherche d’un champ personnalisé](assets/boards-search-for-custom-field.png)
 
+   >[!NOTE]
+   >
+   >Les types de champ suivants ne peuvent pas être ajoutés aux cartes : Adobe XD, Image, PDF, Vidéo.
+
 1. Sélectionnez le nom du champ.
+1. (Facultatif) Cliquez sur le bouton **[!UICONTROL Valeur du champ]** pour remplacer ce champ personnalisé par un autre.
+1. (Facultatif) Modifiez la variable **[!UICONTROL Libellé du champ]** au nom du champ que vous souhaitez voir apparaître sur les cartes.
+1. Lorsque vous avez terminé d’apporter des modifications, cliquez sur [!UICONTROL **Champ Enregistrer**].
 
-   Le champ personnalisé est ajouté à la liste des champs disponibles et est activé par défaut. Vous pouvez désactiver ou masquer le champ personnalisé en suivant les étapes de la section [Configuration des cartes](customize-fields-on-card.md#configure-cards) ou supprimez-la du panorama.
+   ![Valeur et libellé de champ personnalisés](assets/save-custom-field-value-label.png)
 
-</div>
+   Le champ personnalisé est ajouté à la liste des champs disponibles et est activé par défaut. Vous pouvez désactiver le champ personnalisé en suivant les étapes de la section [Configuration des cartes](customize-fields-on-card.md#configure-cards) ci-dessus, modifiez le champ ou supprimez-le de toutes les cartes.
+
