@@ -6,7 +6,7 @@ description: Adobe Workfront a publié l’API version 13 le 22 avril 2021. L’
 author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -456,7 +456,7 @@ Un objet de feuille de temps représente une feuille de temps virtuelle qui perm
 
 ### UITemplate {#uitemplate}
 
-Les administrateurs d’Adobe Workfront ou les administrateurs de groupe peuvent créer des modèles pour personnaliser les éléments de mise en page dans Adobe Workfront. L’objet LayoutTemplate est spécifique à la nouvelle expérience Adobe Workfront.
+Les administrateurs d’Adobe Workfront ou les administrateurs de groupe peuvent créer des modèles pour personnaliser les éléments de mise en page dans Adobe Workfront. L’objet UITemplate est spécifique à la nouvelle expérience Adobe Workfront.
 
 Pour l’objet qui représente les modèles de mise en page dans Adobe Workfront Classic, voir [LayoutTemplate](#layouttemplate).
 

@@ -6,9 +6,9 @@ title: API
 description: Articles de l’API Workfront
 author: Becky
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,8 @@ Cette section contient les articles suivants :
 * [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux de code d’autorisation](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md)
+* [Nouveautés de l’API version 16](../../wf-api/api/new-api-version-16.md)
+* [Nouveautés de l’API version 15](../../wf-api/api/new-api-version-15.md)
 * [Nouveautés de l’API version 14](../../wf-api/api/new-api-version-14.md)
 * [Nouveautés de l’API version 13](../../wf-api/api/new-api-version-13.md)
 * [Nouveautés de l’API version 12](../../wf-api/api/new-api-version-12.md)
