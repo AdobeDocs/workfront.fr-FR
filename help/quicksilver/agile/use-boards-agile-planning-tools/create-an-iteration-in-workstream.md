@@ -6,9 +6,9 @@ title: Création d’une itération dans un workflow
 description: Une itération est un temps défini réservé à la réalisation du travail. Certaines équipes agiles peuvent appeler une itération sprint.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -86,3 +86,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Une fois qu’une itération a commencé, vous ne pouvez modifier que le nom de l’itération.
 
+## Suppression d’une itération
+
+1. Cliquez sur le bouton [!UICONTROL **Liste de cartes**] dans le workflow et ouvrez la vue itération.
+1. Cliquez sur le bouton **Supprimer** en regard de l’itération.
+1. Cliquez sur [!UICONTROL **Suppression de l’itération**] sur le message de confirmation.
