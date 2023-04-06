@@ -7,7 +7,7 @@ description: Vous pouvez concevoir un formulaire personnalisé à partir d’une
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 4700e5650f6ef9de5291f36072db8706bade92ee
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Concevoir un formulaire à partir d’une copie avec le concepteur de formulaires
-
-{{highlighted-preview-article-level}}
 
 Vous pouvez concevoir un nouveau formulaire personnalisé basé sur un formulaire existant. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données sur ces objets.
 

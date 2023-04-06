@@ -7,7 +7,7 @@ description: Vous pouvez concevoir un formulaire personnalisé à l’aide du co
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '3803'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 
 
 # Concevoir un formulaire avec le concepteur de formulaires
-
-{{highlighted-preview-article-level}}
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données sur ces objets.
 
@@ -332,7 +330,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     </ul></td>
     </tr> 
      <tr> 
-    <td role="rowheader">Définition d’un champ obligatoire</td> 
+    <td role="rowheader">Créer un champ obligatoire</td> 
     <td>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur puisse remplir le formulaire personnalisé. </td> 
     <td><ul>
     <li>Cases d’option</li>
@@ -388,7 +386,7 @@ Vous pouvez ajouter des champs de saisie anticipée et de date à un formulaire 
 +++ **Développer pour afficher les descriptions des champs disponibles**
 
 * **Tirage anticipé**: Permet aux utilisateurs de saisir le nom d’un objet existant dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur commence à saisir du texte. Ce type de champ prend en charge les objets suivants :
-   * Utilisateur
+   * Utilisateur ou utilisatrice
    * Groupe
    * Fonction
    * Portfolio
@@ -470,7 +468,7 @@ Pour ajouter des champs de date de saisie anticipée :
     </ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">Définition d’un champ obligatoire</td> 
+      <td role="rowheader">Créer un champ obligatoire</td> 
       <td>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur puisse remplir le formulaire personnalisé. </td> 
        <td><ul>
     <li>Frappe continue</li>

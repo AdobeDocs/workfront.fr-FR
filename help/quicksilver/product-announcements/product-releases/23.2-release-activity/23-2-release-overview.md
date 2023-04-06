@@ -4,9 +4,9 @@ description: Présentation de la version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # Présentation de la version 23.2
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version 23.2 programmée pour la semaine du 3 avril 2023.
-
-Les améliorations de cette page sont disponibles dans l’environnement Aperçu . Cette page sera mise à jour avec d’autres améliorations à mesure que la version 23.2 approche de sa version de production prévue.
+Cette page fournit des informations sur les fonctionnalités incluses dans la version 23.1. Ces améliorations ont été apportées à l’environnement de production avec la version 23.2 des 6 et 7 avril 2023.
 
 Pour obtenir des conseils sur la préparation de la prochaine version, voir [Préparation d’une version trimestrielle d’Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de tâches et de problèmes à partir des détails d’objet à un panorama ou à un workflow Workfront</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de tâches et de problèmes à partir des détails d’objet à un panorama ou à un workflow Workfront</a></p>
                         <p>Vous pouvez désormais ajouter des tâches ou des problèmes existants à un panorama Workfront ou à une liste de cartes de flux de travail directement à partir des détails de l’objet. Tous les éléments que vous ajoutez à un panorama seront connectés et tous les éléments ajoutés à un workflow seront ajoutés à la liste des cartes en tant que cartes non planifiées.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -429,7 +427,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Tableaux de bord de canevas</a><span style="color: #ff0000;"> Bientôt !</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Tableaux de bord Zone de travail.</a></p>
                         <p>Ajout de tableaux de bord de canevas en tant que fonctionnalité de travail en cours pour les tableaux de bord qui peuvent être activés dans les modèles de mise en page - Les tableaux de bord du canevas de rapports permettent de combiner les visualisations du canevas de rapports avec les rapports existants, en plus des nouvelles options de mise en page. Actuellement, seuls les rapports de liste sont pris en charge, mais d’autres options seront ajoutées au fur et à mesure du développement.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -464,8 +462,8 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Collections de cartes et de connexions biométriques dans l’application mobile</span></a><span style="color: #ff0000;"> Bientôt !</span>
-                        <p>La connexion biométrique est désormais une option permettant une connexion plus rapide à l’application mobile ! Une fois la vérification biométrique configurée après une connexion initiale, les utilisateurs pourront utiliser l’empreinte digitale ou la reconnaissance faciale pour se reconnecter rapidement à l’application avec une réauthentification occasionnelle du mot de passe. En outre, plusieurs améliorations de l’apparence de l’expérience générale de connexion arriveront lors d’une mise à jour ultérieure.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Collections de cartes et de connexions biométriques dans l’application mobile</span></a>
+                        </span></a><p>La connexion biométrique est désormais une option permettant une connexion plus rapide à l’application mobile ! Une fois la vérification biométrique configurée après une connexion initiale, les utilisateurs pourront utiliser l’empreinte digitale ou la reconnaissance faciale pour se reconnecter rapidement à l’application avec une réauthentification occasionnelle du mot de passe. En outre, plusieurs améliorations de l’apparence de l’expérience générale de connexion arriveront lors d’une mise à jour ultérieure.</p>
                         <p>Les collections de panoramas sont désormais prises en charge dans l’application mobile, ce qui permet aux utilisateurs mobiles d’afficher toutes les collections auxquelles ils ont accès dans la version de bureau à partir de leur liste de panoramas mobiles.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -537,7 +535,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveaux clients Net à intégrer pour Adobe Unified Experience</a><span style="color: #ff0000;"> Bientôt !</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveaux clients Net à intégrer pour Adobe Unified Experience</a></p>
                         <p>L’expérience unifiée Adobe comprend :
                         <ul>
                         <li>Une seule connexion pour toutes les applications Adobe via Adobe Experience Cloud</li>
@@ -559,7 +557,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">La visionneuse de vérification s’ouvre dans un nouvel onglet pour les utilisateurs de l’expérience unifiée.</a><span style="color: #ff0000;"> Bientôt !</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">La visionneuse de vérification s’ouvre dans un nouvel onglet pour les utilisateurs de l’expérience unifiée.</a></p>
                         <p>La visionneuse de vérification visuelle s’ouvre désormais dans un nouvel onglet pour les utilisateurs de l’expérience unifiée.
                         </p>
                     </td>
@@ -627,11 +625,11 @@ Aucune mise à jour de BAT Workfront n’est disponible à ce stade de la versio
 
 Nouvelles fonctionnalités de la version 23.2 des objectifs de Workfront . Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs d’Adobe Workfront avec la version 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API version 15
+### API version 16
 
-Pour l’API version 15, nous avons modifié certaines ressources et points de terminaison. Certaines des modifications prennent en charge les nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
+La version 16 de l’API sera publiée avec la version 22.3. Pour l’API version 16, nous avons modifié certaines ressources et points de terminaison. Certaines des modifications prennent en charge les nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
 
-Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de l’API version 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
+Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de l’API version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Pour plus d’informations sur les versions d’API, voir [Contrôle de version des API et planification de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

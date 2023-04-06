@@ -7,7 +7,7 @@ description: Vous pouvez ajouter un champ personnalisé calculé qui utilise les
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9b32c41c9f2971f3b0bbded230680677cc0b3c64
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '2317'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Ajouter des champs calculés avec le concepteur de formulaires
-
-{{highlighted-preview-article-level}}
 
 Vous pouvez ajouter un champ personnalisé calculé qui utilise les données existantes pour générer de nouvelles données lorsque le formulaire personnalisé est joint à un objet.
 

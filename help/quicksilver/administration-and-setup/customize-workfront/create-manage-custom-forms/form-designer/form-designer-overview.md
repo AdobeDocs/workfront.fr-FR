@@ -7,7 +7,7 @@ description: Vous pouvez concevoir un formulaire personnalisé que les utilisate
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9b32c41c9f2971f3b0bbded230680677cc0b3c64
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Présentation du concepteur de formulaires
-
-{{highlighted-preview-article-level}}
 
 Vous pouvez utiliser le nouveau concepteur de formulaire pour concevoir un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Workfront. Les utilisateurs qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 

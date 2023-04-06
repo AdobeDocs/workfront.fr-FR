@@ -4,7 +4,7 @@ description: Consultation et affichage des mises à jour pendant la période de 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 23
 
 >[!NOTE]
 >
->Aperçu de la version : 4 avril 2023; Version de production planifiée : 18 avril 2023
+>Aperçu de la version : 4 avril 2023; Version de production planifiée : 20 avril 2023
 
 Nous avons mis à jour la liste Brouillons dans la zone Demandes afin de la rendre cohérente avec les listes plus récentes dans Workfront.
 Voici quelques-unes des mises à jour :
