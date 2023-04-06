@@ -7,16 +7,16 @@ description: Il n’est pas possible de tracer un rapport selon un champ personn
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Graphique un rapport selon un champ personnalisé à sélection multiple
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients de l’environnement Aperçu et pour un groupe sélectionné de clients de l’environnement Production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Il n’est pas possible de tracer un rapport selon un champ personnalisé à sélection multiple. Vous devez créer un champ calculé supplémentaire qui fait référence au champ personnalisé à sélection multiple pour également associer le rapport à la valeur du champ personnalisé à sélection multiple.
 
@@ -109,7 +109,7 @@ Pour créer le champ personnalisé calculé qui référence le champ personnalis
 
    >[!NOTE]
    >
-   ><span class="preview">Cette option a été supprimée de la modification en bloc des projets dans l’environnement Aperçu.  Vous pouvez toujours recalculer les expressions pour les projets en bloc en cliquant sur **Plus** ![](assets/more-icon-45x33.png) en haut de la liste d’un projet, puis **Recalculer les expressions**. </span>
+   >Cette option a été supprimée de la modification des projets en bloc.  Vous pouvez toujours recalculer les expressions pour les projets en masse en cliquant sur le bouton **Plus** icon ![](assets/more-icon-45x33.png) en haut de la liste d’un projet, puis **Recalculer les expressions**.
 
 
 1. Accédez au rapport dans lequel vous souhaitez ajouter le graphique pour le champ calculé qui référence le champ personnalisé à sélection multiple.

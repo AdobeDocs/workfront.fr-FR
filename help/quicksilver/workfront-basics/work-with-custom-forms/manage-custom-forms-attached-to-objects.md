@@ -6,16 +6,16 @@ description: Vous pouvez mettre à jour l’ordre dans lequel les formulaires pe
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
 
 # Gestion des formulaires personnalisés associés à des objets
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients de l’environnement Aperçu et pour un groupe sélectionné de clients de l’environnement Production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Vous pouvez mettre à jour l’ordre dans lequel les formulaires personnalisés associés à un objet s’affichent, le supprimer ou modifier en masse la manière dont les formulaires personnalisés s’affichent sur plusieurs objets.
 
@@ -101,7 +101,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">Pour plus d’informations sur la gestion de formulaires personnalisés sur des projets en bloc dans l’environnement Aperçu, reportez-vous à l’article [Modification de projets](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>La gestion des formulaires personnalisés en objets est identique pour tous les objets, à l’exception des projets.
+>
+>Pour plus d’informations sur l’ajout de formulaires personnalisés à des projets en bloc, reportez-vous à l’article [Modification de projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
 Lorsque vous modifiez en masse des objets auxquels plusieurs formulaires personnalisés sont appliqués, vous pouvez modifier l’affichage des formulaires personnalisés sur ces objets et modifier les champs communs aux formulaires personnalisés.
 

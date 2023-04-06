@@ -5,16 +5,14 @@ description: Vous pouvez utiliser une fiche d’évaluation pour mesurer l’ali
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
 # Application d’une fiche d’évaluation à un projet et génération d’une note d’alignement
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients de l’environnement Aperçu et pour un groupe sélectionné de clients de l’environnement Production.</span>
 
 Vous pouvez utiliser une fiche d’évaluation pour mesurer l’alignement d’un projet avec les critères précédemment définis d’un portfolio. Une fiche d&#39;évaluation reflète souvent la mission, les valeurs et les objectifs stratégiques d&#39;une organisation.
 
@@ -95,17 +93,20 @@ Pour appliquer une fiche d’évaluation à un projet :
 
    La fiche d’évaluation est maintenant associée au projet et le projet est noté.
 
-1. (Conditionnel) Lorsque des modifications se produisent dans les valeurs des questions de la Fiche d’évaluation, vous devez recalculer la Fiche d’évaluation afin de refléter les nouvelles valeurs pour la note du projet. Pour recréer la fiche d’évaluation, procédez comme suit :
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
-   1. Accédez à une liste de projets et sélectionnez tous les projets de la liste.
-   1. Cliquez sur le bouton **Modifier** en haut de la liste.
-   1. Cliquez sur **Paramètres** dans le panneau de gauche, puis cochez la case **Recalculer les Fiches d’évaluation** à la fin de la zone Paramètres .
-   1. Cliquer sur Enregistrer. Cette opération recalcule la valeur du score en fonction des fiches d’évaluation jointes à tous les projets sélectionnés.
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
 
       >[!NOTE]
       >
-      >   <span class="preview">L’option permettant de recalculer les fiches d’évaluation a été supprimée de l’environnement Aperçu lors de la modification en masse de projets. </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## Génération d’un score d’alignement
 
