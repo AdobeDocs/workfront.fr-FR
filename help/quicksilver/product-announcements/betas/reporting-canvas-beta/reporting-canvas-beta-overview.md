@@ -6,186 +6,37 @@ description: Informations sur le programme bêta de l’outil de création de ra
 author: Nolan
 feature: Product Announcements
 exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Version bêta du canevas de création de rapports : aperçu
 
-## Version bêta du canevas de création de rapports
+## Canevas de création de rapports
 
-Réimagination complète des rapports dans Workfront, le nouvel outil de création de rapports est sur le point d’être terminé et sera bientôt disponible pour les tests publics. Dans le cadre du développement du canevas de rapports, nous avons travaillé dur pour offrir une flexibilité maximale associée à une conception modulaire intuitive, afin que les utilisateurs comme vous puissent exploiter au mieux vos propres données dans la création et le partage de rapports. Grâce à un nouveau type de rapport unifié qui vous permet de faire glisser pratiquement tous les éléments sur un canevas illimité, la création d’un chef-d’oeuvre de données visuel sera plus facile que jamais.
+Le nouvel outil Canevas de création de rapports est actuellement en cours de développement, car il s’agit d’un outil totalement nouveau dans Workfront. Dans la conception du canevas de création de rapports, nous avons travaillé dur pour offrir une flexibilité maximale associée à une conception modulaire intuitive, afin que les utilisateurs comme vous puissent exploiter au mieux vos propres données dans la création et le partage de rapports. Grâce à un nouveau type de rapport unifié qui vous permet de faire glisser pratiquement tous les éléments sur un canevas illimité, la création d’un chef-d’oeuvre de données visuel sera plus facile que jamais.
 
-Cet article contient des informations sur le fonctionnement de la version bêta et sur la manière dont votre organisation peut nous aider à améliorer le Canevas de création de rapports avant son lancement officiel.
+Cet article contient des informations sur la version bêta privée actuelle, qui est limitée à des clients spécifiques. De nouvelles fonctionnalités du canevas de création de rapports sont désormais déployées via les tableaux de bord de la zone de travail. Voir **Plan de développement** ci-dessous pour plus d’informations.
 
-### Calendrier des versions
+### Plan de développement
 
-* Version bêta actuelle : La version bêta actuelle est privée et limitée à un nombre spécifique de clients.
-* Lancement Public Beta : À déterminer (Une fois une date annoncée, nous allons commencer à permettre à tous les clients d’accéder à la version bêta du canevas de création de rapports.)
-* Publication officielle : À déterminer
+Nous en sommes aux dernières étapes pour résoudre un problème de qualité des données que nous avons observé au début de la version bêta du canevas de création de rapports. Nous allons bientôt reprendre le travail pour fournir de nouvelles visualisations, développer la sélection des objets Workfront à rapporter et améliorer la création de rapports et les expériences de distribution, qui font toutes partie intégrante de la réalisation de nos objectifs pour le Canevas de création de rapports.
 
-### Fonctionnalités
-
-Dans le développement du canevas de rapports, nous avons radicalement repensé certaines fonctionnalités (et en avons créé de nouvelles) afin de rationaliser la génération de rapports. Le tableau suivant présente les principales fonctionnalités du Canevas de création de rapports par rapport aux outils de création de rapports existants, ainsi que l’état de leur version actuelle :
-
->[!NOTE]
->
->Pour obtenir une liste chronologique des fonctionnalités ajoutées et des problèmes résolus, voir [Version bêta du canevas de création de rapports : activité de publication](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <th>Description des fonctionnalités</th> 
-   <th>Terminologie héritée </th> 
-   <th>Terminologie du canevas de création de rapports</th> 
-   <th>Statut</th> 
-  </tr> 
-  <tr> 
-   <td>Rapports</td> 
-   <td>Rapport</td> 
-   <td>Canevas de création de rapports</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Tableaux de bord</td> 
-   <td>Tableau de bord</td> 
-   <td>Canevas de création de rapports</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Tableaux</td> 
-   <td>Onglet Détails</td> 
-   <td>Bloc de tableau</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Graphiques</td> 
-   <td>Onglet Graphique</td> 
-   <td>Bloc de visualisation</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Sous-totaux</td> 
-   <td>Onglet Résumé</td> 
-   <td>Visualisation des indicateurs de performance clés</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Chemin d’accès</td> 
-   <td>Fenêtre modale de la visionneuse de rapports</td> 
-   <td>Superposition de la visionneuse de rapports</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Colonnes</td> 
-   <td>Onglet Affichage</td> 
-   <td>Modification de tableau</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Filtres</td> 
-   <td>Onglet Filtre</td> 
-   <td>Modification de tableau</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Groupes</td> 
-   <td>Onglet Groupe</td> 
-   <td>Modification de tableau</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Configuration des champs<br>(agrégations et mise en forme conditionnelle)</td> 
-   <td>Onglet Affichage</td> 
-   <td>Modification de tableau (colonne sélectionnée)</td> 
-   <td>Publié</td> 
-  </tr> 
-  <tr> 
-   <td>Redimensionnement des colonnes</td> 
-   <td>Mode texte</td> 
-   <td>Modification de tableau (colonne sélectionnée)</td> 
-   <td>Publié</td> 
-  </tr> 
-   <tr> 
-   <td>Contenu externe</td> 
-   <td>Page externe</td> 
-   <td>Bloc de contenu web</td> 
-   <td>Publié</td> 
-  </tr> 
-   <tr> 
-   <td>Exportation</td> 
-   <td>Actions de rapport</td> 
-   <td><strong>Plus</strong> dans la visionneuse</td> 
-   <td>Publication partielle</td> 
-  </tr> 
-  <tr> 
-   <td>Partage de colonnes</td> 
-   <td>Mode texte</td> 
-   <td>Créateur de champs</td> 
-   <td>Publication partielle</td> 
-  </tr> 
-  <tr> 
-   <td>Colonnes calculées</td> 
-   <td>Mode texte</td> 
-   <td>Créateur de champs</td> 
-   <td>Publication partielle</td> 
-  </tr> 
-  <tr> 
-   <td>Style du graphique</td> 
-   <td>Onglet Graphique</td> 
-   <td>Bloc de visualisation (onglet Style)</td> 
-   <td>Prévu</td> 
-  </tr> 
-  <tr> 
-   <td>Diffusion planifiée</td> 
-   <td>Actions de rapport</td> 
-   <td><strong>Plus</strong> dans la visionneuse</td> 
-   <td>Prévu</td> 
-  </tr> 
-  <tr> 
-   <td>Octroi de l’accès aux rapports</td> 
-   <td>Actions de rapport</td> 
-   <td><strong>Plus</strong> dans la visionneuse</td> 
-   <td>Prévu</td> 
-  </tr> 
-  <tr> 
-   <td>Accès au tableau de bord non authentifié</td> 
-   <td>Actions du tableau de bord</td> 
-   <td><strong>Plus</strong> dans la visionneuse</td> 
-   <td>Prévu</td> 
-  </tr> 
-  <tr> 
-   <td>Editer les données d'un rapport</td> 
-   <td>Modification en ligne</td> 
-   <td>Volet Résumé</td> 
-   <td>Prévu</td> 
-  </tr> 
-  <tr> 
-   <td>Filtrage de page</td> 
-   <td>S/O</td> 
-   <td>Filtre Canevas</td> 
-   <td>Prévu</td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->Les fonctionnalités répertoriées ici seront publiées dans le cadre d’un modèle de version de produit à plusieurs niveaux. Les fonctionnalités auxquelles vous avez accès dans cette version bêta peuvent ne pas être disponibles dans la version complète, selon le plan de votre entreprise.
+Ces nouvelles expériences seront diffusées progressivement, à compter de la version 23.2, via la nouvelle page Tableaux de bord du canevas désormais disponible dans votre environnement de prévisualisation. Les tableaux de bord de canevas vous permettent d’afficher les rapports existants avec les nouvelles fonctionnalités de création de rapports que nous sommes en train de créer. Ils serviront d’environnement Principal pour le déploiement et le test de nouvelles fonctionnalités pour le canevas de création de rapports. Pour plus d’informations sur l’activation et l’utilisation des tableaux de bord de zone de travail, voir [Tableaux de bord de canevas - Aperçu](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Participer à la version bêta
 
+>[!IMPORTANT]
+>
+>Les informations bêta ci-dessous sont destinées aux administrateurs qui ont déjà été inclus dans la version bêta du canevas de rapports, qui n’accepte plus les nouveaux participants. Si vous souhaitez tester les nouvelles fonctionnalités du Canevas de création de rapports telles qu’elles sont ajoutées, reportez-vous à la section **Plan de développement** ci-dessus pour plus d’informations sur l’activation des tableaux de bord de zone de travail.
+
 ### Disponibilité
 
-La version bêta du canevas de création de rapports sera disponible pour toutes les organisations présentes dans AWS, quelle que soit leur région.
+La version bêta du canevas de création de rapports est disponible pour toutes les organisations qui se trouvent sur AWS, quelle que soit leur région.
 
 ### Rejoindre la version bêta
 

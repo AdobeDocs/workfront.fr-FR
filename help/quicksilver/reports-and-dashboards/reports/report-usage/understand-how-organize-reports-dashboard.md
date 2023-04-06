@@ -7,9 +7,9 @@ description: Vous pouvez voir si un rapport est ajouté à un tableau de bord da
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Afficher les informations d’un tableau de bord dans le mode d’affichage d’une liste de rapports
 
+>[!WARNING]
+>
+>L’inclusion de la colonne Tableaux de bord dans une liste de rapports peut augmenter considérablement les temps de chargement, en particulier pour les longues listes de rapports.
+
 Pour créer une vue contenant les informations d’un tableau de bord pour une liste de rapports :
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
-
 1. Dans la liste des rapports, cliquez sur le bouton **Affichage** menu déroulant.
 1. Cliquez sur **Nouvelle vue**.
 1. Cliquez sur **Ajouter une colonne**.

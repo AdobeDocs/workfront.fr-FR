@@ -1,14 +1,10 @@
 ---
-content-type: reference
-navigation-topic: betas
 title: '"Version bêta du canevas de rapports : activité de publication'
 description: Activité de mise à jour hebdomadaire de la version bêta du canevas de création de rapports d’Adobe Workfront
-author: Nolan
-feature: Product Announcements
-exl-id: 41742569-d4bb-48c0-b0a1-f3af57a6c4e5
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+hidefromtoc: true
+source-git-commit: 4d41779e2e93e40f295bcff2bbdc0c84ea290b41
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -77,3 +73,152 @@ Pour obtenir des informations générales sur la version bêta du canevas de cr�
 
 * #Valeur! s’affiche dans la cellule lorsqu’un calcul ne peut pas être effectué sur une base par ligne.
 * Ajout de la validation lors du glisser-déposer de certains types de données dans une certaine fonction dans le créateur de champs.
+
+## Fonctionnalités planifiées
+
+Dans le développement du canevas de rapports, nous avons radicalement repensé certaines fonctionnalités (et en avons créé de nouvelles) afin de rationaliser la génération de rapports. Le tableau suivant présente les principales fonctionnalités du Canevas de création de rapports par rapport aux outils de création de rapports existants, ainsi que l’état de leur version actuelle :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Description des fonctionnalités</th> 
+   <th>Terminologie héritée </th> 
+   <th>Terminologie du canevas de création de rapports</th> 
+   <th>Statut</th> 
+  </tr> 
+  <tr> 
+   <td>Rapports</td> 
+   <td>Rapport</td> 
+   <td>Canevas de création de rapports</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Tableaux de bord</td> 
+   <td>Tableau de bord</td> 
+   <td>Canevas de création de rapports</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Tableaux</td> 
+   <td>Onglet Détails</td> 
+   <td>Bloc de tableau</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Graphiques</td> 
+   <td>Onglet Graphique</td> 
+   <td>Bloc de visualisation</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Sous-totaux</td> 
+   <td>Onglet Résumé</td> 
+   <td>Visualisation des indicateurs de performance clés</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Chemin d’accès</td> 
+   <td>Fenêtre modale de la visionneuse de rapports</td> 
+   <td>Superposition de la visionneuse de rapports</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Colonnes</td> 
+   <td>Onglet Affichage</td> 
+   <td>Modification de tableau</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Filtres</td> 
+   <td>Onglet Filtre</td> 
+   <td>Modification de tableau</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Groupes</td> 
+   <td>Onglet Groupe</td> 
+   <td>Modification de tableau</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Configuration des champs<br>(agrégations et mise en forme conditionnelle)</td> 
+   <td>Onglet Affichage</td> 
+   <td>Modification de tableau (colonne sélectionnée)</td> 
+   <td>Publié</td> 
+  </tr> 
+  <tr> 
+   <td>Redimensionnement des colonnes</td> 
+   <td>Mode texte</td> 
+   <td>Modification de tableau (colonne sélectionnée)</td> 
+   <td>Publié</td> 
+  </tr> 
+   <tr> 
+   <td>Contenu externe</td> 
+   <td>Page externe</td> 
+   <td>Bloc de contenu web</td> 
+   <td>Publié</td> 
+  </tr> 
+   <tr> 
+   <td>Exportation</td> 
+   <td>Actions de rapport</td> 
+   <td><strong>Plus</strong> dans la visionneuse</td> 
+   <td>Publication partielle</td> 
+  </tr> 
+  <tr> 
+   <td>Partage de colonnes</td> 
+   <td>Mode texte</td> 
+   <td>Créateur de champs</td> 
+   <td>Publication partielle</td> 
+  </tr> 
+  <tr> 
+   <td>Colonnes calculées</td> 
+   <td>Mode texte</td> 
+   <td>Créateur de champs</td> 
+   <td>Publication partielle</td> 
+  </tr> 
+  <tr> 
+   <td>Style du graphique</td> 
+   <td>Onglet Graphique</td> 
+   <td>Bloc de visualisation (onglet Style)</td> 
+   <td>Prévu</td> 
+  </tr> 
+  <tr> 
+   <td>Diffusion planifiée</td> 
+   <td>Actions de rapport</td> 
+   <td><strong>Plus</strong> dans la visionneuse</td> 
+   <td>Prévu</td> 
+  </tr> 
+  <tr> 
+   <td>Octroi de l’accès aux rapports</td> 
+   <td>Actions de rapport</td> 
+   <td><strong>Plus</strong> dans la visionneuse</td> 
+   <td>Prévu</td> 
+  </tr> 
+  <tr> 
+   <td>Accès au tableau de bord non authentifié</td> 
+   <td>Actions du tableau de bord</td> 
+   <td><strong>Plus</strong> dans la visionneuse</td> 
+   <td>Prévu</td> 
+  </tr> 
+  <tr> 
+   <td>Editer les données d'un rapport</td> 
+   <td>Modification en ligne</td> 
+   <td>Volet Résumé</td> 
+   <td>Prévu</td> 
+  </tr> 
+  <tr> 
+   <td>Filtrage de page</td> 
+   <td>S/O</td> 
+   <td>Filtre Canevas</td> 
+   <td>Prévu</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>Les fonctionnalités répertoriées ici seront publiées dans le cadre d’un modèle de version de produit à plusieurs niveaux. Les fonctionnalités auxquelles vous avez accès dans cette version bêta peuvent ne pas être disponibles dans la version complète, selon le plan de votre entreprise.

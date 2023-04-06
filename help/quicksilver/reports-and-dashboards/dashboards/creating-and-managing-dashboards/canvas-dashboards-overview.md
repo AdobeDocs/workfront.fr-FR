@@ -5,9 +5,9 @@ title: Présentation des tableaux de bord de canevas
 description: Vous pouvez créer des tableaux de bord Canevas qui intègrent des visualisations Canevas de rapports aux rapports traditionnels et offrent de nouvelles options de mise en page.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4203de3dcbb0f6675dd840a7f6b883907794ce02
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Cette fonctionnalité est en cours de développement et ne prend pas encore en c
 * intégration de calendrier
 * rapports générés
 * distribution via les modèles de mise en page
-
 
 ## Accéder aux tableaux de bord de canevas
 
