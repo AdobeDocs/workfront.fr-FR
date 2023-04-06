@@ -7,10 +7,10 @@ description: Vous pouvez utiliser l’option Diagnostics pour déclencher manuel
 feature: System Setup and Administration
 role: Admin
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 6%
+source-wordcount: '328'
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ Les étapes de cet article doivent être les suivantes :
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a> </td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences héritées</a> </td> 
    <td> <p>Plan </p>Vous devez être un administrateur Workfront. Pour plus d’informations sur les administrateurs Workfront, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</td> 
   </tr> 
  </tbody> 

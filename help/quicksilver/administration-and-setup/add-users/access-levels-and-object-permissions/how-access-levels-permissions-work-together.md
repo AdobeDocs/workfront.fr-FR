@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
-# Fonctionnement des niveaux d’accès et des autorisations
+# Fonctionnement des niveaux d’accès et des autorisations hérités
 
 L’administrateur Adobe Workfront détermine le niveau d’accès que chaque utilisateur doit avoir. Ce niveau d’accès définit ce que les utilisateurs peuvent voir et faire avec les types d’objets et les zones du système.
 
@@ -31,11 +31,11 @@ Par exemple, si votre niveau d’accès indique que vous pouvez créer des tâch
 
 Cet article explique le fonctionnement de cette combinaison.
 
-## Niveau d’accès
+## Niveau d’accès hérité
 
 Le niveau d’accès attribué à chaque utilisateur par un administrateur Workfront est requis pour se connecter à Workfront.
 
-Les niveaux d&#39;accès par défaut sont les suivants :
+Les niveaux d’accès hérités par défaut sont les suivants :
 
 * Administrateur système (joint à la licence Plan)
 * Planificateur (joint à la licence Plan)

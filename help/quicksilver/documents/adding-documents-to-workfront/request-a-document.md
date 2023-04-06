@@ -6,9 +6,9 @@ description: Vous pouvez demander un document sur n’importe quel objet prenant
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Vous devez disposer des éléments suivants :
 
    >[!NOTE]
    >
-   >Si vous disposez de la variable [Présentation des licences Adobe Workfront](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) activé sur votre compte, vous pouvez envoyer une demande à n’importe quelle adresse électronique. Un paramètre de la variable [Configuration des préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) qui détermine si ces utilisateurs de messagerie externes doivent créer un mot de passe avant d’interagir avec Workfront. 
+   >Si vous disposez de la variable [Présentation des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) activé sur votre compte, vous pouvez envoyer une demande à n’importe quelle adresse électronique. Un paramètre de la variable [Configuration des préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) qui détermine si ces utilisateurs de messagerie externes doivent créer un mot de passe avant d’interagir avec Workfront. 
 
 1. Décrivez la raison pour laquelle vous demandez le document.
 1. Cliquez sur **Envoyer la requête**.

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-En tant qu’administrateur d’Adobe Workfront, vous pouvez créer des niveaux d’accès personnalisés et les appliquer aux utilisateurs, comme expliqué dans la section [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+En tant qu’administrateur Adobe Workfront, vous pouvez créer des niveaux d’accès personnalisés et les appliquer aux utilisateurs. Lorsque vous utilisez des niveaux d’accès, il est important de comprendre comment ils fonctionnent ensemble avec les autorisations d’objet que les utilisateurs accordent lorsqu’ils partagent des objets les uns avec les autres. Pour plus d’informations sur les niveaux d’accès, voir
 
-Lorsque vous utilisez des niveaux d’accès, il est important de comprendre comment ils fonctionnent ensemble avec les autorisations d’objet que les utilisateurs accordent lorsqu’ils partagent des objets les uns avec les autres. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [Présentation des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Présentation des niveaux d’accès hérités](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->Nous vous recommandons vivement de ne pas modifier les niveaux d’accès intégrés afin que vous puissiez y faire référence après avoir configuré vos utilisateurs. Pour personnaliser un niveau d&#39;accès, copiez le niveau d&#39;accès par défaut et modifiez la copie. (Vous pouvez le faire pour chaque niveau d’accès, à l’exception de l’administrateur système et de l’utilisateur externe.)
+>Nous vous recommandons vivement de ne pas modifier les niveaux d’accès intégrés afin que vous puissiez y faire référence après avoir configuré vos utilisateurs. Pour personnaliser un niveau d&#39;accès, copiez le niveau d&#39;accès par défaut et modifiez la copie. Vous pouvez le faire pour chaque niveau d’accès, à l’exception de l’administrateur système et de l’utilisateur externe.
 
 ## Exigences d’accès
 
@@ -41,11 +42,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td>Formule actuelle : Standard
+   <p>ou</p>
+   <p>Plan hérité : Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="#" class="MCXref xref selected">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>Saisissez le nom de votre niveau d’accès. </p> <p>Si vous venez de copier un niveau d’accès pour en créer un nouveau, le nom par défaut est Nom du niveau d’accès (copie), où Nom du niveau d’accès est le niveau d’accès que vous avez copié.</p> <p><strong>Conseil</strong>: Nous vous recommandons d’inclure le nom d’origine du niveau d’accès dans le nom de la copie. Par exemple, dans la société ACME, une copie du niveau d’accès du planificateur peut être nommée ACME Planner.</p> </td> 
+      <td> <p>Saisissez le nom de votre niveau d’accès. </p> <p>Si vous venez de copier un niveau d’accès pour en créer un nouveau, le nom par défaut est Nom du niveau d’accès (copie), où Nom du niveau d’accès est le niveau d’accès que vous avez copié.</p> <p><strong>Conseil</strong>: Nous vous recommandons d’inclure le nom d’origine du niveau d’accès dans le nom de la copie. Par exemple, dans la société ACME, une copie du niveau d’accès standard peut être nommée ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description </td> 
@@ -77,12 +80,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Type de licence</td> 
-      <td>Assurez-vous que la licence sélectionnée ici est celle qui est la plus étroitement associée au type de niveau d'accès que vous créez ou modifiez. La licence sélectionnée détermine les paramètres disponibles pour le niveau d’accès. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</td> 
+      <td>Assurez-vous que la licence sélectionnée ici est celle qui est la plus étroitement associée au type de niveau d'accès que vous créez ou modifiez. La licence sélectionnée détermine les paramètres disponibles pour le niveau d’accès. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Présentation des licences héritées</a> ou <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences héritées d’Adobe Workfront</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Conditionnel) Si **Plan** est sélectionné dans la variable **Type de licence** , faites défiler l’écran jusqu’à la section **Autoriser l’accès administratif pour** et sélectionnez les autorisations d’accès administrateur pour ceux qui auront ce niveau d’accès.
+1. (Conditionnel) Si **Standard** ou **Plan** est sélectionné dans la variable **Type de licence** , faites défiler l’écran jusqu’à la section **Autoriser l’accès administratif pour** et sélectionnez les autorisations d’accès administrateur pour ceux qui auront ce niveau d’accès.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
         <li>Ajout de nouveaux rôles de tâche</li> 
         <li>Modifier la facturation des rôles et les taux de coûts</li> 
        </ul> 
-       <p>Pour obtenir des informations importantes sur l’accès aux données financières disponibles pour un utilisateur du planificateur disposant d’un accès administratif aux rôles de tâche, voir <a href="#planner-users-with-administrative-access-to-job-roles">Planifier les utilisateurs disposant d’un accès administratif aux rôles de tâche</a>.</p>
+       <p>Pour obtenir des informations importantes sur l’accès aux données financières disponibles pour un utilisateur standard ou de type planificateur disposant d’un accès administratif aux rôles de tâche, voir <a href="#planner-users-with-administrative-access-to-job-roles">Utilisateurs standard ou planificateurs ayant un accès administratif aux rôles de tâche</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Feuilles de temps et heures</td> 
-      <td> <p>Les administrateurs de groupe peuvent affecter des profils de feuille de temps aux utilisateurs dans les groupes et sous-groupes qu’ils gèrent.</p> <p>Si cette option n’est pas activée, les administrateurs de groupe ne peuvent pas affecter de profils de feuille de temps à d’autres utilisateurs dans les groupes et sous-groupes qu’ils gèrent, bien qu’ils puissent les créer.</p> <p>Tous les autres utilisateurs disposant d’une licence Plan peuvent afficher toutes les heures et les feuilles de temps dans Workfront.</p> <p>Si cette option n’est pas activée, les utilisateurs peuvent afficher les heures uniquement sur :</p> 
+      <td> <p>Les administrateurs de groupe peuvent affecter des profils de feuille de temps aux utilisateurs dans les groupes et sous-groupes qu’ils gèrent.</p> <p>Si cette option n’est pas activée, les administrateurs de groupe ne peuvent pas affecter de profils de feuille de temps à d’autres utilisateurs dans les groupes et sous-groupes qu’ils gèrent, bien qu’ils puissent les créer.</p> <p>Tous les autres utilisateurs disposant d’une licence Standard ou Plan peuvent afficher toutes les heures et les feuilles de temps dans Workfront.</p> <p>Si cette option n’est pas activée, les utilisateurs peuvent afficher les heures uniquement sur :</p> 
        <ul> 
         <li>Projets, tâches ou problèmes qu’ils gèrent</li> 
         <li>Leur propre feuille de temps</li> 
@@ -203,9 +206,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Pour plus d’informations sur la manière dont un administrateur d’Adobe affecte un niveau d’accès Administrateur système à un utilisateur, voir [Octroi d’un accès administratif complet à un utilisateur](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Planifier les utilisateurs disposant d’un accès administratif aux rôles de tâche {#planner-users}
+## Utilisateurs standard ou planificateurs ayant un accès administratif aux rôles de tâche {#planner-users}
 
-Si vous accordez à un utilisateur du planificateur l’accès administratif aux rôles de tâche, le paramètre Modifier la facturation et les taux de coût du rôle est automatiquement activé pour l’utilisateur.
+Si vous accordez à un utilisateur Standard ou Planificateur l’accès administratif aux rôles de tâche, le paramètre Modifier la facturation et les taux de coût du rôle est automatiquement activé pour l’utilisateur.
 
 Par la suite, si vous désactivez l’accès administratif aux rôles de tâche pour l’utilisateur, les rôles de tâche sont toujours visibles par l’utilisateur, car le paramètre Modifier les taux de facturation et de coût du rôle est toujours activé.
 

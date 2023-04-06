@@ -6,9 +6,9 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1156'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 1%
 
 Il n’est pas nécessaire d’être administrateur Adobe Workfront pour partager des autorisations sur les objets auxquels vous avez accès, mais les autorisations sur les objets fonctionnent dans les niveaux d’accès définis par l’administrateur Workfront.
 
-Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
-
-Vous pouvez partager ou supprimer des autorisations pour un objet que vous avez créé ou un objet qui a été partagé avec vous. Lorsque vous n’êtes pas le créateur de l’objet, vous devez disposer de l’accès Partager sur l’objet que vous souhaitez partager dans votre niveau d’accès, en plus des droits Partager sur l’objet. Pour plus d’informations sur les niveaux d’accès, voir [Présentation des niveaux d’accès](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Vous pouvez partager ou supprimer des autorisations pour un objet que vous avez créé ou un objet qui a été partagé avec vous. Lorsque vous n’êtes pas le créateur de l’objet, vous devez disposer de l’accès Partager sur l’objet que vous souhaitez partager dans votre niveau d’accès, en plus des droits Partager sur l’objet. Pour plus d’informations sur les niveaux d’accès, voir [Présentation des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) ou [Présentation des niveaux d’accès hérités](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ Vous pouvez partager les objets suivants dans Workfront avec d’autres utilisat
 
    Par exemple, si vous disposez des autorisations de contribution sur l’objet, vous ne pouvez pas accorder à un autre utilisateur les autorisations de Gérer sur cet objet.
 
-* Vous ne pouvez pas partager un objet avec un niveau d’autorisation supérieur au niveau d’accès d’un utilisateur. Par exemple, si un utilisateur dispose de l’accès Affichage aux projets dans son niveau d’accès, vous ne pouvez pas lui accorder les autorisations Gérer sur un projet.
+* Vous ne pouvez pas partager un objet avec un niveau d’autorisation supérieur au niveau d’accès d’un utilisateur. Par exemple, si un utilisateur dispose de l’accès Affichage aux projets dans son niveau d’accès, vous ne pouvez pas lui accorder les autorisations Gérer sur un projet.
 * Un utilisateur autorisé à au moins afficher un objet peut le partager avec un autre.
 * Vous pouvez partager des objets avec des utilisateurs principaux, des rôles de tâche, des équipes, des groupes ou des entreprises.
 

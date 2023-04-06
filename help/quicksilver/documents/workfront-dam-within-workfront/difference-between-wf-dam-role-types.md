@@ -7,9 +7,9 @@ description: Les administrateurs d’Adobe Workfront utilisent les niveaux d’a
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dcca0158-dc31-4aba-bd87-90ccc64e77cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Vous utilisez les licences pour déterminer ce qu’un utilisateur peut voir et 
 * Demande
 * Externe
 
-Voir [Présentation des licences Adobe Workfront](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) pour obtenir une description des différents types de licence dans Workfront.
+Voir [Présentation des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) pour obtenir une description des différents types de licence dans Workfront.
 
 ## Types de rôle DAM Workfront
 
