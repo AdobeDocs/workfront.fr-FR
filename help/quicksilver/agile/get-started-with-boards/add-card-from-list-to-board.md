@@ -5,7 +5,7 @@ title: Ajout de tâches ou de problèmes existants à un panorama ou à un workf
 description: Vous pouvez ajouter n’importe quelle tâche ou problème à un panorama dans Adobe Workfront à partir d’une vue de liste ou de rapport.
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Ajoutez des tâches ou des problèmes existants à une [!DNL Adobe Workfront] panorama ou workflow
-
-{{highlighted-preview-article-level}}
 
 Vous pouvez ajouter n’importe quelle tâche ou problème à un panorama ou à un workflow dans [!DNL Adobe Workfront] à partir d’une vue de liste ou de rapport, ou à partir des détails de l’objet.
 
