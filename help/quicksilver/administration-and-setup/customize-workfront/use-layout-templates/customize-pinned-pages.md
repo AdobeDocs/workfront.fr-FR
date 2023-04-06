@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0a32193f54e919972b0a1b10e9f15fea2b6b5b8e
+source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Personnalisation des pages épinglées à l’aide d’un modèle de mise en page
-
-{{highlighted-preview}}
 
 Dans un modèle de mise en page, vous pouvez épingler les pages que vous souhaitez que les utilisateurs soient toujours disponibles dans la partie supérieure d’Adobe Workfront. Ces pages sont accessibles via le menu principal ![](assets/main-menu-icon.png) ou les tableaux de bord.
 
@@ -70,9 +68,9 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
 1. Répétez l’étape précédente pour épingler d’autres pages.
 
-1. <span class="preview"> (Facultatif) Pour renommer une épingle, survolez-la avec la souris et cliquez sur la flèche en regard de son nom, puis sélectionnez **Renommer le pin**. Saisissez le nouveau nom d’épingle, puis cliquez sur l’icône en forme de coche ou appuyez sur Entrée.</span>
+1. (Facultatif) Pour renommer une épingle, survolez-la avec la souris et cliquez sur la flèche en regard de son nom, puis sélectionnez **Renommer le pin**. Saisissez le nouveau nom d’épingle, puis cliquez sur l’icône en forme de coche ou appuyez sur Entrée.
 
-   <span class="preview"> Une petite fenêtre contextuelle s’affiche pendant plusieurs secondes après avoir cliqué sur la coche ou appuyé sur Entrée, ce qui vous permet d’annuler la modification du nom de la épingle avant qu’elle ne soit enregistrée.</span>
+   Une petite fenêtre contextuelle s’affiche pendant plusieurs secondes après avoir cliqué sur la coche ou appuyé sur Entrée, ce qui vous permet d’annuler la modification du nom de la épingle avant qu’elle ne soit enregistrée.
 
 1. Continuez à personnaliser le modèle de mise en page.
 
