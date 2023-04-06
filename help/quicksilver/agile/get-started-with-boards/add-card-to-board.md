@@ -6,7 +6,7 @@ description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: ed87ad7de2c3ea6dde4a9d0b89882c2717c4fc80
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td><p>Saisissez l’estimation du nombre d’heures pour la carte à remplir. Il s’agit d’une entrée manuelle uniquement.</p></td>
+      <td>Saisissez l’estimation du nombre d’heures pour la carte à remplir. Il s’agit d’une entrée manuelle uniquement.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Échéance]</strong></td> 

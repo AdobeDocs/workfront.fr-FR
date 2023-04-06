@@ -7,9 +7,9 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    ![Colonne de saisie](assets/intake-column-added3.png)
 
    Les cartes de la colonne d’entrée ne peuvent pas être modifiées tant que vous ne les déplacez pas dans d’autres colonnes de la carte. Vous pouvez cliquer sur la carte pour l’ouvrir en lecture seule ou cliquer sur ![Ouvrir une tâche ou un problème](assets/boards-launch-icon.png) pour ouvrir la tâche ou le problème dans un nouvel onglet du navigateur.
-
-   >[!NOTE]
-   >
-   >La vue en lecture seule des cartes de la colonne d’ingestion est disponible uniquement via l’inclusion de la fonctionnalité anticipée pour [!DNL Workfront] [!UICONTROL Panoramas].
 
    Vous pouvez réorganiser manuellement les éléments de la colonne d’ingestion.
 

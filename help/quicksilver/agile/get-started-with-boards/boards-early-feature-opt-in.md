@@ -6,9 +6,9 @@ title: Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] Pan
 description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Boards] inscription anticipée aux fonctionnalités.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   </tr>
   <tr>
    <td>Carte en lecture seule dans la colonne d’entrée</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Faire correspondre le champ Estimation de la carte au champ Points d’article de la tâche</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Création de flux de travail et ajout de panoramas aux flux de travail</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Créer des itérations</td>
-   <td>Publication partielle (disponible dans l’aperçu)</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Définition d’une liste de cartes ou d’un journal en souffrance</td>
-   <td>Publication partielle (disponible dans l’aperçu)</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Importer des sous-tâches en tant qu’éléments de liste de contrôle sur des cartes</td>
@@ -142,19 +142,31 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   </tr>
   <tr>
    <td>Personnalisation de l’affichage des champs sur une carte</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>  
   <tr>
    <td>Définir l’état par défaut des cartes déplacées dans les colonnes</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Heures de connexion des cartes connectées</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Ajout de champs personnalisés aux cartes connectées</td>
-   <td>Publication partielle (disponible dans l’aperçu)</td>
+   <td>Publié</td>
+  </tr>
+  <tr>
+   <td>Définition des notifications électroniques pour les panoramas</td>
+   <td>Prévu</td>
+  </tr>
+  <tr>
+   <td>Migration de cartes Kanban héritées vers des panoramas</td>
+   <td>Prévu</td>
+  </tr>
+  <tr>
+   <td>Création de panoramas dynamiques</td>
+   <td>Prévu</td>
   </tr>
  </tbody> 
 </table>

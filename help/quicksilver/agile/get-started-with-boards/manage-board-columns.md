@@ -6,9 +6,9 @@ description: Un nouveau panorama contient trois colonnes par défaut. Vous pouve
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -118,22 +118,11 @@ Si vous utilisez la limite de travaux en cours sur une colonne, aucun compteur d
 
       Les options de traduction de l’état des cartes connectées s’affichent également. (La traduction de l’état ne s’applique pas aux cartes ad hoc.) Ces options déterminent l’état personnalisé appliqué à la tâche ou au problème dans [!DNL Workfront] lorsqu’une carte connectée est déplacée vers cette colonne.
 
-   1. Si vous utilisez l’accord préalable sur les fonctionnalités : Sélectionnez une [!UICONTROL **Personnalisé**] à appliquer à la carte pour les tâches et les problèmes.
+   1. Sélectionnez une [!UICONTROL **Personnalisé**] à appliquer à la carte pour les tâches et les problèmes.
 
-      Lorsqu’une carte est déplacée vers cette colonne, [!DNL Workfront] tente d’abord d’appliquer l’état personnalisé (par exemple, Résolu). Si l’état personnalisé sélectionné n’est pas disponible pour cette carte, vous êtes invité à choisir un autre état correspondant à l’état du système (à l’étape b ci-dessus).
+      Lorsqu’une carte est déplacée vers cette colonne, [!DNL Workfront] tente d’abord d’appliquer l’état personnalisé (par exemple, Résolu). Si l’état personnalisé sélectionné n’est pas disponible pour cette carte, vous êtes invité à choisir un autre état correspondant à l’état du système (à l’étape b ci-dessus). Pour plus d’informations sur les états, voir [Présentation des états](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       En outre, si l’état de la tâche ou du problème connecté est modifié dans l’état personnalisé ou système défini dans la stratégie de colonne, la carte est automatiquement déplacée dans la colonne.
-
-      >[!NOTE]
-      >
-      >La définition d’un état personnalisé par défaut pour la colonne n’est disponible que par le biais de l’accord préalable sur les fonctionnalités. Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-   1. Si vous n’utilisez pas l’accord préalable sur les fonctionnalités : Sélectionnez un état pour les tâches et un état pour les problèmes. Seule la valeur par défaut [!DNL Workfront] les statuts sont disponibles, et non les statuts personnalisés.
-
-      >[!NOTE]
-      >
-      >Si vous utilisez des états personnalisés dans [!DNL Workfront], la première fois que vous déplacez une carte connectée dans cette colonne, vous êtes invité à choisir un état. Par exemple, si le projet connecté a plusieurs types d’état qui correspondent tous à [!UICONTROL Terminé], vous devez choisir l’état à utiliser dans [!DNL Workfront]. Vous pouvez définir votre choix comme valeur par défaut, de sorte que vous n’ayez pas à effectuer la sélection chaque fois que vous déplacez une carte vers la colonne.
-      >Pour plus d’informations sur les états, voir [Présentation des états](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Facultatif) Définissez une valeur pour les personnes désignées par les cartes :
 

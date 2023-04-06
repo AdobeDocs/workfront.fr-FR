@@ -6,10 +6,10 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 0%
+source-wordcount: '1181'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
-      <td><p>Nombre d’heures pendant lesquelles la carte doit être complétée.</p><p>Si vous utilisez l’opt-in pour la fonctionnalité anticipée [!DNL Workfront] [!UICONTROL Panoramas], la modification de l’estimation modifie également la valeur des points d’histoire sur la connexion [!DNL Workfront] .</p><p>Si vous n’optez pas pour les fonctionnalités antérieures, ce champ est une entrée manuelle uniquement et la valeur ne peut pas être supérieure à 99.</p></td>
+      <td><p>Nombre d’heures pendant lesquelles la carte doit être complétée.</p><p>La modification de l’estimation modifie également la valeur des points de l’histoire sur le [!DNL Workfront] .</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Balises]</strong></td>
@@ -184,10 +184,6 @@ Après avoir créé une carte ad hoc, vous pouvez la convertir en carte connect�
 1. Cliquez sur **[!UICONTROL Fermer]** pour revenir au panorama.
 
 ## Journal des heures sur une carte connectée
-
->[!NOTE]
->
->Cette fonctionnalité est disponible uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
 
 Vous devez disposer des autorisations appropriées pour consigner les heures de connexion à la tâche ou au problème connecté.
 

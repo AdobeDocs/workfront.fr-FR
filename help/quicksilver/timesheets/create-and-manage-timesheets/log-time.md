@@ -6,9 +6,9 @@ description: Vous pouvez consigner le temps passé sur les tâches dans&nbsp;Ado
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2979'
 ht-degree: 0%
 
 ---
@@ -400,10 +400,6 @@ Pour plus d’informations, voir [Aperçu du résumé](../../workfront-basics/th
 ![](assets/summary-hour-log.png)
 
 ### Panoramas {#boards}
-
->[!NOTE]
->
->Cette fonctionnalité est disponible uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
 
 Vous pouvez consigner le temps de connexion sur les cartes connectées sur un panorama Workfront. Il s’agit du même processus que le temps de connexion à une tâche ou à un problème, et les heures enregistrées sur la carte sont enregistrées sur la tâche ou le problème connecté.
 Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
