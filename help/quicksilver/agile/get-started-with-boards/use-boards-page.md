@@ -6,27 +6,21 @@ description: Le [!UICONTROL panoramas] le tableau de bord affiche la liste des p
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
 # Utilisation du tableau de bord des panoramas
 
-{{highlighted-preview}}
-
 Le tableau de bord des panoramas affiche la liste des panoramas et des flux de travail auxquels vous avez accès, y compris les panoramas que vous avez créés et auxquels vous avez été ajouté. Les panoramas individuels auxquels vous avez accès et qui ne font pas partie d’un workflow s’affichent en premier.
-
->[!NOTE]
->
->Les flux de travail sont disponibles dans l’environnement Aperçu et dans Production par le biais de l’accord préalable à la fonctionnalité pour [!UICONTROL [!DNL Workfront] Panoramas]. Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Sur le tableau de bord, vous pouvez effectuer les opérations suivantes pour les panoramas et les flux de travail :
 
-* Archivage d’un panorama <span class="preview">ou workstream</span>
-* Filtrage des panoramas <span class="preview">et workflows</span>
+* Archivage d’un panorama ou d’un flux de travail
+* Filtrage des panoramas et des flux de travail
 * Tri de la liste des panoramas par nom ou date de modification
 * Recherche d’un panorama ou d’un flux de travail
 * Suppression d’un panorama ou d’un workflow
@@ -54,7 +48,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
 
-## Panneaux de filtre <span class="preview">et workflows</span> {#filter-boards}
+## Filtres de panoramas et de workflows {#filter-boards}
 
 Vous pouvez filtrer le tableau de bord des panoramas pour afficher les principaux, archivés ou tous les panoramas ou flux de travail.
 
@@ -85,7 +79,7 @@ Vous pouvez rechercher un panorama spécifique dans la zone Panoramas ou recherc
 
    ![Recherche de panoramas dans le tableau de bord](assets/boards-searchbox.png)
 
-## Archivage d’un panorama <span class="preview">ou un workflow</span>
+## Archivage d’un panorama ou d’un workflow
 
 L’archivage d’un panorama ou d’un workflow l’envoie vers l’archive et vous pouvez la restaurer ultérieurement.
 
@@ -123,17 +117,18 @@ La suppression d’un workflow supprime également tous les panoramas du workflo
 
 1. Cliquez sur **[!UICONTROL Supprimer un panorama]** ou [!UICONTROL **Suppression du flux de travail**] sur le message de confirmation.
 
-## Déplacement d’un panorama vers un workflow
+<!-- ## Move a board to a workstream
 
-Vous pouvez déplacer un panorama autonome dans un workflow ou déplacer un panorama d’un workflow vers un autre.
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->Vous ne pouvez déplacer que les panoramas que vous avez créés, et non ceux auxquels vous avez été ajouté.
+>You can only move boards that you created, not boards that you were added to.
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) sur le panorama, puis sélectionnez [!UICONTROL **Déplacer vers le flux de travail**].
-1. Sélectionnez le workflow auquel ajouter le panorama, puis cliquez sur [!UICONTROL **Déplacer**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   Le panorama est déplacé dans le processus et n’apparaît plus dans le [!UICONTROL Panoramas] zone.
-Si vous n’avez pas encore créé de flux de travail, vous êtes invité à en créer un pour le déplacer vers .
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->

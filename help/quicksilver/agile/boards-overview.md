@@ -7,7 +7,7 @@ description: Les panoramas Adobe Workfront sont des outils flexibles qui permett
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # [!UICONTROL Panoramas] aperçu
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Panoramas] sont des outils flexibles qui permettent la collaboration des équipes en permettant l’accès à un panorama partagé contenant des colonnes et des cartes.
 
@@ -29,7 +27,7 @@ Les panoramas vous permettent d’effectuer les opérations suivantes :
 * Personnalisation des workflows avec des cartes ouvertes (cartes ad hoc ou cartes connectées à [!DNL Workfront] tâches et problèmes)
 * Organiser et gérer le travail d’une équipe au même endroit
 * Utilisation des flux de travail pour regrouper des données (comme des panoramas et des cartes) et collaborer au travail
-* utiliser des outils de planification agiles tels qu&#39;une colonne d&#39;ingestion pour les panoramas Kanban ; <span class="preview">ainsi qu’une liste de cartes et une planification des itérations</span>
+* Utilisez des outils de planification agiles tels qu’une colonne d’ingestion pour les panoramas Kanban, ainsi qu’une liste de cartes et une planification des itérations.
 
 Pour plus d’informations sur l’utilisation des fonctions de base des panoramas, voir [Prise en main des panoramas dans [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Pour plus d’informations sur les outils de planification AEM dans les panoramas, voir [Présentation des outils de planification Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 

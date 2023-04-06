@@ -7,7 +7,7 @@ description: Lorsque vous créez un panorama à l’aide de cartes ad hoc et con
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Présentation des outils de planification Agile
-
-{{highlighted-preview}}
 
 Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez tirer parti d’outils de planification plus rapides.
 
@@ -26,15 +24,11 @@ Les outils utiles pour Kanban sont les suivants :
 * Regroupement des cartes en couloirs de natation
 * Une colonne d’entrée pouvant être utilisée pour un journal des travaux en souffrance
 
-<div class="preview">
-
 Voici quelques outils utiles pour le démarrage rapide :
 
 * Flux de travail et panoramas d’itération
 * Liste ou journal des cartes
 * Mesures d’itération
-
-</div>
 
 Vous pouvez utiliser tous ou n’importe lequel de ces outils d’une manière qui vous convient, ainsi qu’à votre équipe, sans vous engager dans une méthodologie agile spécifique.
 

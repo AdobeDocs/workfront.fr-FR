@@ -6,9 +6,9 @@ title: Suppression ou archivage d’un panorama
 description: Vous pouvez supprimer ou archiver un panorama dans Workfront. La suppression d’un panorama le supprime définitivement de Workfront, tandis que l’archivage d’un panorama conserve toutes les cartes et permet de le restaurer ultérieurement.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 1%
 # Suppression ou archivage d’un panorama
 
 Vous pouvez supprimer ou archiver un panorama dans [!DNL Workfront]. La suppression d’un panorama entraîne sa suppression définitive de [!DNL Workfront], lors de l’archivage, un panorama conserve toutes les cartes et permet de le restaurer ultérieurement. Ces options s’appliquent à la fois aux panoramas autonomes et aux panoramas qui font partie de flux de travail.
-
->[!NOTE]
->
->La version précédente des flux de travail, appelée collections, n’est disponible que par le biais de l’accord préalable à la fonctionnalité pour [!UICONTROL [!DNL Workfront] Panoramas]. Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
->Les workflows sont disponibles pour tous dans l’environnement Aperçu .
 
 ## Exigences d’accès
 

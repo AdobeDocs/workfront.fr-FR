@@ -6,18 +6,16 @@ title: Vérification des mesures d’itération
 description: Les mesures sont disponibles pour chaque itération dans un workflow, sur la carte du processus d’itération.
 author: Lisa
 feature: Agile
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '201'
+ht-degree: 0%
 
 ---
 
 # Vérification des mesures d’itération
 
-{{highlighted-preview-article-level}}
-
-Les mesures sont disponibles pour chaque itération dans un workflow, sur la carte du processus d’itération.
+Les mesures sont disponibles pour chaque itération dans un workflow, sur le tableau de processus d’itération et le tableau de bord.
 
 ## Exigences d’accès
 
