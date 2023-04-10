@@ -6,9 +6,9 @@ title: Présentation des intégrations intégrées d’Adobe Workfront
 description: Vous pouvez intégrer des [!DNL Adobe Workfront] avec des applications tierces. Ces intégrations peuvent étendre l’utilité de [!DNL Workfront] et adaptez-le aux besoins de votre organisation. Par exemple, si vous êtes un créatif du secteur marketing, vous pouvez utiliser le module complémentaire Adobe Creative Cloud pour exporter directement des ressources de Photoshop vers Workfront.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '512'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,20 @@ Les intégrations intégrées suivantes sont actuellement disponibles dans Workf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Intégrer [!DNL Workfront] commentaires et approbations avec InDesign, Illustrator et Photoshop </li> 
-     <li>Télécharger/installer à partir d’Adobe Exchange ou manuellement</li> 
-    </ul> </td> 
+     <li>Intégrer [!DNL Workfront] commentaires et approbations avec les applications Adobe Creative Cloud suivantes : 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>Télécharger/installer depuis <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>Pour plus d’informations et d’instructions, voir <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installez le  [!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
