@@ -7,9 +7,9 @@ description: Vous pouvez effectuer le suivi des coûts des projets, tâches et p
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4bb6306b7fa088823fba8ef5614aae8551ce02c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2372'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,6 @@ Le Coût planifié d&#39;un projet est calculé selon la formule suivante :
 Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
 ```
 
-* 
-   * 
-
 Par exemple, vous avez les dépenses suivantes dans l&#39;onglet Dépenses d&#39;une tâche : une dépense marketing de 100 $ et une dépense administrative de 50 $. Dans l&#39;onglet Finance, sélectionnez le type de coût Heure de l&#39;utilisateur . Un utilisateur est affecté à la tâche et son taux horaire est de 15 $. L’utilisateur doit travailler 5 heures sur cette tâche. Dans l&#39;onglet Dépenses du projet, vous avez un coût prévisionnel de 100 $ pour une dépense appelée Conseils. Vous avez également un coût fixe de 200 $ pour le projet.
 
 Le coût planifié du projet est calculé comme suit :
@@ -148,17 +145,15 @@ Le coût réel d’un projet est le coût associé au travail réel (heures enre
 Le coût réel est calculé à l&#39;aide de la formule suivante :
 
 ```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project
+Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
 ```
 
-.
-
-Par exemple, vous avez les dépenses suivantes dans l&#39;onglet Dépenses d&#39;une tâche : une dépense marketing pour un coût réel de 110 euros et une dépense administrative pour un coût réel de 40 euros. Vous sélectionnez le type de coût Heure du rôle et attribuez le rôle de tâche de consultant à la tâche. Le taux d’occupation du rôle de consultant est de 15 $ par heure et il y a 6 heures de connexion à la tâche pour le rôle de consultant. Une dépense de conseil est également associée au projet (dans l&#39;onglet Dépenses ), avec un coût réel de 100 euros et un utilisateur avec un taux de coût par heure de 20 euros dans son profil utilisateur consigne 10 heures sur le projet.
+Par exemple, vous avez les dépenses suivantes dans l&#39;onglet Dépenses d&#39;une tâche : une dépense marketing pour un coût réel de 110 euros et une dépense administrative pour un coût réel de 40 euros. Vous sélectionnez le type de coût Heure du rôle et attribuez le rôle de tâche de consultant à la tâche. Le taux d’occupation du rôle de consultant est de 15 $ par heure et il y a 6 heures de connexion à la tâche pour le rôle de consultant. Une dépense de conseil est associée au projet (dans l&#39;onglet Dépenses ), avec un coût réel de 100 euros et un utilisateur avec un taux de coût par heure de 20 euros dans son profil utilisateur consigne 10 heures sur le projet. Vous avez également un coût fixe de 200 $ pour le projet.
 
 Le coût réel du projet est calculé comme suit :
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project)= $540
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
 ```
 
 >[!NOTE]
