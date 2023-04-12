@@ -6,9 +6,9 @@ description: Vous pouvez lier manuellement la résolution d’un problème à la
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -68,19 +68,30 @@ Avant de commencer, vous devez :
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Accédez au **Présentation** dans la zone **Détails du problème** .
-1. Cliquez sur le bouton **Résolu par** et effectuez une sélection parmi les types d’objets de résolution suivants :  
+1. Cliquez sur le bouton **Résolu par** et effectuez une sélection parmi les types d’objets de résolution suivants :
 
    * **Projet**
    * **Tâche**
    * **Problème**
 
-1. Le champ correspondant à l’objet de résolution s’affiche.
-1. Après avoir sélectionné l’objet, commencez à saisir le nom d’un projet, d’une tâche ou d’un problème spécifique dans le champ disponible et sélectionnez-le lorsqu’il apparaît dans la liste déroulante.
-1. Cliquez sur **Enregistrer** **Modifications**.\
+   Selon l’objet sélectionné, les champs suivants s’affichent :
+
+   * **Résolution du projet**
+   * **Résolution de la tâche**
+   * **Résolution de l&#39;événement**
+
+
+1. Commencez à saisir le nom d’un projet, d’une tâche ou d’un problème spécifique dans la variable **Résolution du projet**, **Tâche** ou **Problème** puis cliquez dessus lorsqu’il apparaît dans la liste.
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas lier la résolution d’un problème à la tâche ou au projet dans lequel le problème se trouve. La tâche ou le projet du problème ne s’affiche pas dans les champs Résoudre une tâche ou Résoudre une tâche .
+
+
+1. Cliquez sur **Enregistrer les modifications**.
+
    Le problème d’origine devient l’objet résolvable pour le projet, la tâche ou le problème que vous avez sélectionné aux étapes 4 et 5. Cela signifie que le problème d’origine se termine lorsque l’objet de résolution (le projet, la tâche ou le problème auquel vous l’avez lié) est terminé.
 
    >[!NOTE]
    >
    >Un projet, une tâche ou un problème peut présenter plusieurs problèmes comme des objets résolvables.
-
- 
