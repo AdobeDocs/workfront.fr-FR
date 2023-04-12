@@ -6,7 +6,7 @@ description: Vous pouvez ajouter des balises aux cartes pour indiquer visuelleme
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Cliquez sur le bouton **[!UICONTROL Plus]** menu ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) sur la carte et sélectionnez **[!UICONTROL Modifier]**.
 
-1. Recherchez la balise à supprimer de la carte, puis cliquez sur le bouton **[!UICONTROL Supprimer]** Icône &#x200B; ![Supprimer la balise](assets/copy-of-boards-remove-30x23.png).
+1. Recherchez la balise à supprimer de la carte, puis cliquez sur le bouton **[!UICONTROL Supprimer]** icon ![Supprimer la balise](assets/copy-of-boards-remove-30x23.png).
 1. Cliquez sur **[!UICONTROL Fermer]**.
 
 ## Suppression d’une balise
