@@ -6,9 +6,9 @@ description: Les notifications suivantes vous alertent sur la communication, par
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1534'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Lorsque quelqu'un fait un commentaire sur un élément de travail, envoyer un e-mail au cessionnaire</strong> </p> <p>La personne désignée de l’élément de travail reçoit une notification par courrier électronique chaque fois qu’un utilisateur ajoute une mise à jour à un élément de travail, sauf si l’utilisateur qui ajoute la mise à jour est également la personne désignée. </p> <p>Lorsqu’un commentaire est publié sur une demande, envoyez un email Principal au problème.</p> <p>Le Principal contact pour un problème reçoit une notification par courrier électronique lorsqu’un commentaire est publié sur une demande, sauf si l’utilisateur qui a publié le commentaire est également le Principal contact pour le problème.</p> <p>Tous les utilisateurs qui sont directement inclus dans le commentaire reçoivent également une notification par courrier électronique.</p> <p>Une notification est envoyée uniquement si l’état du projet est [!UICONTROL Actuel].</p> <p>L'objet de l'email de notification instantanée est le suivant : <em>[!UICONTROL Commentaire sur] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> L’objet de la notification quotidiennement Digest est :<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>Lorsque quelqu'un fait un commentaire sur un élément de travail, envoyer un e-mail au cessionnaire</strong> </p> <p>La personne désignée de l’élément de travail reçoit une notification par courrier électronique chaque fois qu’un utilisateur ajoute une mise à jour à un élément de travail, sauf si l’utilisateur qui ajoute la mise à jour est également la personne désignée. </p> <p>Lorsqu’un commentaire est publié sur une demande, envoyez un email Principal au problème.</p> <p>Le Principal contact pour un problème reçoit une notification par courrier électronique lorsqu’un commentaire est publié sur une demande, sauf si l’utilisateur qui a publié le commentaire est également le Principal contact pour le problème.</p> <p>Tous les utilisateurs qui sont directement inclus dans le commentaire reçoivent également une notification par courrier électronique.</p> <p>L'objet de l'email de notification instantanée est le suivant : <em>[!UICONTROL Commentaire sur] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> L’objet de la notification quotidiennement Digest est :<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> Nom de l’élément de travail<br>Nom du projet<br>Numéro de référence de l’élément de travail<br>Nom de l’utilisateur qui a commenté l’élément de travail<br>Texte du commentaire sur l’élément de travail<br>Date et heure auxquelles le commentaire a été fait<br>*Nombre total de commentaires reçus<br>*Nombre de commentaires reçus pour chaque objet<br>*Nom du projet<br>*<strong>[!UICONTROL Voir toutes les notifications]</strong> button<br>*Date du résumé quotidien </td> 
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
