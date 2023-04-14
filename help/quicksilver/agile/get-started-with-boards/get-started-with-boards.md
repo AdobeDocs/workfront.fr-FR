@@ -6,9 +6,9 @@ description: Consultez ces articles pour savoir comment utiliser les panoramas d
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -33,3 +33,4 @@ Cette section contient les articles suivants :
 * [Suppression ou archivage d’une carte d’un panorama](../../agile/get-started-with-boards/delete-board-items.md)
 * [Filtrage et recherche dans un panorama](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [Ajout de balises](../../agile/get-started-with-boards/add-tags.md)
+* [Forums de notification électronique et préférences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)

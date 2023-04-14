@@ -6,14 +6,16 @@ description: Adobe Workfront envoie des notifications par courrier électronique
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1301'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] notifications
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] envoie des notifications par e-mail, des notifications in-app et des notifications sur votre appareil mobile.
 
@@ -32,6 +34,7 @@ Vous pouvez recevoir les notifications par e-mail suivantes de [!DNL Workfront]:
 * [Notification des commentaires publiés](#notification-of-posted-comments)
 * [Rappels automatiques](#automatic-reminders)
 * [Notifications de rappel](#reminder-notifications)
+* [Notifications des panoramas](#boards-notifications)
 * [Autre [!DNL Workfront] emails](#other-workfront-emails)
 
 ### Notifications d’événements
@@ -126,6 +129,16 @@ A [!DNL Workfront] (ou un utilisateur disposant d’un [!UICONTROL Planificateur
 Les notifications de rappel sont envoyées à partir de l’adresse électronique que la variable [!DNL Workfront] administrateur sélectionné pour gérer les emails sortants.
 
 Pour plus d’informations sur la configuration et l’activation des notifications de rappel, voir [Configuration des notifications de rappel](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+
+<span class="preview">
+
+### Notifications des panoramas
+
+[!DNL Adobe Workfront] [!UICONTROL Panoramas] vous envoie un courrier électronique lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée.
+
+Vous pouvez sélectionner les e-mails que vous souhaitez recevoir dans les préférences de vos panoramas. Pour plus d’informations, voir [Forums de notification électronique et préférences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+</span>
 
 ### Autre [!DNL Workfront] emails
 

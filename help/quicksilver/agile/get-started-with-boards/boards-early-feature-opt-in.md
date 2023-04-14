@@ -6,9 +6,9 @@ title: Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] Pan
 description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Boards] inscription anticipée aux fonctionnalités.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   </tr>
   <tr>
    <td>Définition des notifications électroniques pour les panoramas</td>
-   <td>Prévu</td>
+   <td>Partiellement publiée</td>
   </tr>
   <tr>
    <td>Migration de cartes Kanban héritées vers des panoramas</td>

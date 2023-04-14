@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '12875'
+source-wordcount: '12880'
 ht-degree: 1%
 
 ---
@@ -924,6 +924,7 @@ ht-degree: 1%
       * [Suppression ou archivage d’une carte d’un panorama](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrage et recherche dans un panorama](agile/get-started-with-boards/filter-search-in-board.md)
       * [Ajout de balises](agile/get-started-with-boards/add-tags.md)
+      * [Forums de notification électronique et préférences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Utilisation des outils de planification agiles dans les panoramas {#agile-planning-boards}
       * [Présentation des outils de planification Agile](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Gestion de la limite de travail en cours sur un panorama](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
