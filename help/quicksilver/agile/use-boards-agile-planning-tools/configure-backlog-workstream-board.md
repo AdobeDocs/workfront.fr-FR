@@ -5,10 +5,11 @@ navigation-topic: boards
 title: Configuration du journal en souffrance sur un panorama de flux de travail
 description: Vous pouvez choisir d’afficher une colonne de journal sur un panorama dans un flux de travail et de définir une requête pour les cartes qui sont extraites dans le journal du panorama depuis la liste des cartes du flux de travail.
 author: Lisa
-source-git-commit: b58831d50c2be421c666515808091aa4863bb471
+exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
+source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 0%
 
 ---
 
@@ -51,6 +52,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    La colonne &quot;journal des travaux&quot; est ajoutée à gauche du panorama. Il reste vide jusqu’à ce que vous lui appliquiez une requête.
 
 1. Développer [!UICONTROL **Requête de journal**].
+
+   >[!NOTE]
+   >
+   >Une requête par défaut peut déjà être appliquée au journal en souffrance, affichant toutes les tâches de la liste de cartes qui n’appartiennent pas à une itération et qui ne sont pas à l’état Terminé.
+
 1. Cliquez sur [!UICONTROL **Ajouter une condition**] et cliquez dans le champ &quot;vide&quot;.
 1. Sélectionnez le champ sur lequel effectuer la requête.
 
@@ -58,13 +64,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sélectionnez le modificateur de requête.
 
-   Les options sont les suivantes : est égal à, n’est pas égal à, existe et n’existe pas.
-
-   Exemple : Si vous choisissez Échéance et existe, le journal affiche les cartes avec des dates d’échéance désignées. Les cartes sans date d’échéance ne sont pas extraites dans le journal.
+   Les options de modificateur dépendent des champs auxquels elles peuvent s’appliquer. Par exemple, le champ &quot;name&quot; ne comporte pas &quot;supérieur à&quot; ou &quot;inférieur à&quot; comme choix de modificateur, car ces modificateurs s’appliquent uniquement aux nombres.
 
 1. Sélectionnez la valeur.
 
-   La valeur n’est disponible que si vous utilisez equals ou non comme modificateur.
+   La valeur n’est pas disponible lorsque vous utilisez &quot;exists&quot; ou &quot;not exists&quot; comme modificateur.
+
+   Par exemple, si vous sélectionnez &quot;Date d’échéance&quot; et &quot;existe&quot;, le journal affiche les cartes avec des dates d’échéance désignées. Les cartes sans date d’échéance ne sont pas extraites dans le journal.
 
 1. (Facultatif) Cliquez sur [!UICONTROL **Ajouter une condition**] pour ajouter une autre condition à la requête.
 
