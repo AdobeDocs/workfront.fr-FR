@@ -6,16 +6,17 @@ title: Confidentialité et autorisations dans Workfront pour G Suite
 description: Confidentialité et autorisations dans Workfront pour G Suite
 author: Becky
 feature: Workfront Integrations and Apps
-source-git-commit: 0862af846ca77c33132ec631cf1e3eae253d3cd8
+exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
+source-git-commit: 90d088846e72f1632274043c8d8ca7807ff05b4a
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
 # Confidentialité et autorisations dans Workfront pour G Suite
 
-La confidentialité des clients étant importante, Adobe Workfront ne stocke ni ne collecte aucune donnée client d’identification résultant d’une autorisation tierce d’une application de module externe Google.
+La confidentialité des clients étant importante, Adobe Workfront ne stocke ni ne collecte aucune donnée client d’identification résultant d’une autorisation tierce d’une application de module externe Google. Workfront for G Suite est conforme à la politique de données utilisateur des services d’API de Google, y compris aux exigences d’utilisation limitée.
 
 Nous avons besoin des autorisations suivantes afin que le module externe Workfront for G Suite puisse fournir sa valeur maximale :
 
@@ -27,3 +28,4 @@ Nous avons besoin des autorisations suivantes afin que le module externe Workfro
 
 Pour plus d’informations sur le dévouement d’Adobe Workfront à la vie privée des clients, voir [Notification de confidentialité Workfront](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).
 
+Pour plus d’informations, voir [Stratégie de données utilisateur des services d’API Google](https://developers.google.com/terms/api-services-user-data-policy).
