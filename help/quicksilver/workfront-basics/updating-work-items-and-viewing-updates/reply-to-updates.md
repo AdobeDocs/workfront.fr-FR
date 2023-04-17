@@ -6,9 +6,9 @@ description: Lorsqu’une personne ajoute ou répond à une mise à jour d’un 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ La réponse à un commentaire ou à une réponse varie en fonction de l’expér
 
    Vous pouvez voir les utilisateurs qui participent activement à la conversation en bas de la page **Nouveau commentaire** et vous pouvez ajouter d’autres éléments ou supprimer ceux qui ne sont plus pertinents. Ces utilisateurs, ainsi que tous les utilisateurs abonnés à l’objet, reçoivent une notification chaque fois qu’une mise à jour ou une réponse est apportée à l’objet. Vous pouvez également baliser d’autres utilisateurs pour les inclure dans votre réponse.  Pour baliser davantage d’utilisateurs, voir [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Commencez à saisir votre réponse et utilisez toutes les options supplémentaires de la barre d’outils Texte enrichi. Pour plus d’informations sur l’utilisation du texte enrichi, reportez-vous à la section &quot;Utilisation du texte enrichi dans une mise à jour Workfront&quot; dans [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+1. Commencez à saisir votre réponse et utilisez toutes les options supplémentaires de la barre d’outils Texte enrichi. Pour plus d’informations sur l’utilisation du texte enrichi ou d’autres fonctionnalités de mise à jour, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. Cliquez sur **Envoyer** pour enregistrer la réponse.
 

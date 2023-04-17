@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
 
 1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-icon.png) à droite d’un commentaire, puis cliquez sur **Supprimer** pour supprimer un commentaire que vous avez ajouté.
 1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 5 à 9 ci-dessus. <!--insure this stays accurate-->
+1. (Conditionnel et facultatif) Si d’autres utilisateurs ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour, cliquez sur **Affichage** à l’intérieur du bleu **nouvelle bannière de commentaires** en bas de l’écran pour afficher ces commentaires.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   D’autres commentaires s’affichent en bas de l’écran.
 1. (Facultatif) Cliquez sur le **Comme** icon![](assets/like-icon.png) pour aimer un commentaire que quelqu&#39;un d&#39;autre a ajouté. L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
 1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, utilisez les attributs de la barre d’outils Texte enrichi au fur et à mesure que vous tapez. Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Cliquez sur le **Activité du système** pour afficher les mises à jour enregistrées par le système. Lorsqu’un objectif est mis à jour, Workfront génère une note à ce sujet et l’affiche dans l’onglet Activité du système . Workfront enregistre également une mise à jour du système lorsqu’un résultat, une activité ou un projet est ajouté à l’objectif ou lorsqu’il est mis à jour. <!--ensure the casing on the tab has not changed-->

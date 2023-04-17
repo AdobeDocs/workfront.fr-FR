@@ -6,9 +6,9 @@ description: Vous pouvez consigner le temps passé sur les tâches dans&nbsp;Ado
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2979'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -246,9 +246,15 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
 
    >[!IMPORTANT]
    >
-   >Si un rôle de tâche pour lequel vous avez consigné une heure a changé et que la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** a été désactivé, vous devez enregistrer manuellement vos entrées de temps. La feuille de temps ne vous fera gagner du temps automatiquement que lorsqu’il n’y a plus de journalisation pour le rôle de tâche qui a changé.
+   >Vous devez enregistrer manuellement la feuille de temps si l’un des scénarios suivants se produit :
    >
-   >Si le rôle a été modifié et que la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** est activé, vous pouvez consigner l’heure ou mettre à jour le rôle et vos modifications sont enregistrées automatiquement.
+   >* Le rôle de tâche associé à l’heure que vous avez précédemment enregistrée a changé et l’événement **Affecter manuellement des rôles de tâche aux entrées d’heure** a été désactivé. L’heure de journalisation des nouvelles dates l’associe à un rôle de tâche différent.
+      >   
+      >   Si le rôle a été modifié et que la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** est activé, vous pouvez consigner l’heure ou mettre à jour le rôle et vos modifications sont enregistrées automatiquement.
+   >
+   >* Le rôle de tâche affecté à une tâche ou à un problème est différent du rôle de tâche avec lequel le propriétaire de la feuille de temps consigne le temps. <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >
+   >La feuille de temps permet de gagner du temps automatiquement lorsqu’il n’y a plus d’entrées en conflit entre les deux rôles.
 
 1. (Facultatif) Indiquez le nombre d’heures supplémentaires dans le champ Heure de dépassement de délai de l’en-tête de la feuille de temps.
 

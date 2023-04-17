@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2814'
 ht-degree: 1%
 
 ---
@@ -233,6 +233,17 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
    >   Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.
 
 1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 4 à 7 ci-dessus. <!--(**************insure this stays accurate***********)-->. Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Conditionnel et facultatif) Si d’autres utilisateurs ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour, cliquez sur **Affichage** à l’intérieur du bleu **nouvelle bannière de commentaires** en bas de l’écran pour afficher ces commentaires.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   D’autres commentaires s’affichent en bas de l’écran.
+
+   >[!NOTE]
+   >
+   >   L’indicateur &quot;nouveaux commentaires&quot; et le bouton &quot;Afficher&quot; s’affichent uniquement lorsque les utilisateurs qui ont saisi les nouvelles mises à jour, ainsi que l’utilisateur qui examine actuellement la section Mises à jour, utilisent tous deux la nouvelle expérience de commentaire.
+
+
 1. (Facultatif) Cliquez sur le **Comme** icon![](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
 1. (Conditionnel et Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 

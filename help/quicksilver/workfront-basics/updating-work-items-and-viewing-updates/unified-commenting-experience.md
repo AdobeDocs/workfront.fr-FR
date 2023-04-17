@@ -1,17 +1,17 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Expérience de commentaires unifiés
+title: Nouvelle expérience de commentaire
 description: La nouvelle expérience de commentaires unifiés
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '539'
 ht-degree: 1%
 
 ---
-
 
 # Nouvelle expérience de commentaire
 
@@ -302,7 +302,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> Remplacé par le lien Copier
    </td>
    <td> 
    </td>
@@ -316,7 +316,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> Remplacé par le lien Copier
    </td>
    <td> 
    </td>
