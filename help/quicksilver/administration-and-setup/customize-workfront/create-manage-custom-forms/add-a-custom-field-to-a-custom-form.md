@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 2%
+source-wordcount: '2264'
+ht-degree: 3%
 
 ---
 
@@ -87,7 +87,7 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader">Frappe continue </td> 
       <td>Permet aux utilisateurs de saisir le nom d’un objet existant dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur commence à saisir du texte.
       Ce type de champ prend en charge les objets suivants :
-      <ul><li>Utilisateur</li>
+      <ul><li>Utilisateur ou utilisatrice</li>
       <li>Groupe</li>
       <li>Fonction</li>
       <li>Portfolio</li>
@@ -156,11 +156,12 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Sélectionnez le type de données qui sera capturé dans le champ personnalisé.</p> <p><b>NOTE</b>:   
-        <ul> 
-         <li>Une fois le formulaire enregistré, ce champ ne peut plus être modifié. Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner le format Nombre ou Devise .<br></li> 
-         <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li> 
-        </ul> </p> </td> 
+      <td> <p>Sélectionnez le type de données qui sera capturé dans le champ personnalisé. Vous pouvez modifier le format de sélection après l’enregistrement du formulaire, mais le nouveau format doit prendre en charge la valeur saisie.</p>
+
+   <p><strong>Exemple :</strong> Si vous enregistrez une valeur numérique pour un champ au format Texte sur au moins un objet et que vous modifiez ensuite le format en Nombre ou Devise, aucune erreur ne se produira. </p>
+      <p>Cependant, si vous enregistrez une valeur alphanumérique dans un champ au format Texte sur au moins un objet et que vous essayez ensuite de modifier le format en Nombre ou Devise, une erreur se produira car la valeur alphanumérique enregistrée n’est pas compatible avec les formats Nombre ou Devise. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type d'affichage</td> 
@@ -204,7 +205,7 @@ Les étapes de cet article doivent être les suivantes :
       <td>(Champs de texte descriptif uniquement) Si vous souhaitez appliquer un lien hypertexte au texte descriptif que vous avez saisi, ajoutez-le ici.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Définition d’un champ obligatoire</td> 
+      <td role="rowheader">Créer un champ obligatoire</td> 
       <td>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur puisse remplir le formulaire personnalisé. </td> 
      </tr> 
      <tr> 
