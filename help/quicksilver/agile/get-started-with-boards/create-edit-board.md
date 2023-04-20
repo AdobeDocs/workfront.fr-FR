@@ -6,14 +6,16 @@ description: Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: 966a88b8c7761b257a1ad0b2fdb3400f78c5d4f7
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 5%
+source-wordcount: '663'
+ht-degree: 4%
 
 ---
 
 # Création ou modification d’un panorama
+
+{{highlighted-preview}}
 
 Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer un panorama ou en modifier un existant.
 
@@ -52,6 +54,29 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    | Panorama de base | Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. |
    | Panorama Kanban | Les colonnes suivantes sont fournies sur le panorama : En attente, nouveauté, En cours, Terminé et En attente. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser le journal des logs, vous devez configurer des filtres pour la colonne d&#39;ingestion. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour consulter les stratégies par défaut pour chaque colonne, cliquez sur le bouton [!UICONTROL **Plus** menu] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une de ces stratégies prédéfinies. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Panorama rétrospectif | Les colonnes suivantes sont fournies sur le panorama : Qu&#39;est-ce qui s&#39;est bien passé ? Améliorations possibles? Qui devons-nous célébrer? Que pouvons-nous faire pour aller plus vite? Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune stratégie de colonne n’est appliquée. |
+   | <span class="preview">Panorama dynamique</span> | <span class="preview">Les colonnes suivantes sont fournies sur le panorama : Non sélectionné, Nouveau, En cours, En attente et Terminé. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. (La colonne Non sélectionné peut être renommée mais pas supprimée. Cette colonne contient toutes les cartes dont l’état ne correspond à aucun des autres états de colonne.) <p>Les stratégies de colonne par défaut attribuent des cartes aux colonnes en fonction de leur état. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+
+1. <span class="preview">Pour une carte dynamique uniquement, suivez les étapes de l&#39;assistant de configuration :</span>
+
+   <div class="preview">
+
+   1. Saisissez le nom du panorama, puis cliquez sur [!UICONTROL **Suivant**].
+   1. Cliquez sur [!UICONTROL **Ajouter une source**].
+   1. Cliquez sur [!UICONTROL **Filtrage des sources**] et sélectionnez [!UICONTROL **Tâches**] ou [!UICONTROL **Problèmes**].
+
+      >[!NOTE]
+      >
+      >Vous pouvez filtrer le panorama pour inclure à la fois des tâches et des problèmes, mais vous devez configurer les filtres séparément pour chaque type d’objet.
+      >
+      >Vous pouvez également sélectionner des filtres enregistrés et des filtres par défaut du système.
+
+   1. Créez un filtre pour définir les objets à importer sur le panorama en tant que cartes connectées.
+
+      Il s’agit du même processus que la création d’un filtre sur une colonne d’entrée. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+   1. Après avoir ajouté les filtres, cliquez sur [!UICONTROL **Créer un panorama**].
+
+   </div>
 
 1. Saisissez le nom du panorama dans la zone **[!UICONTROL Panorama]** et appuyez sur Entrée.
 1. Configurez le panorama suivant vos besoins.
