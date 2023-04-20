@@ -6,7 +6,7 @@ description: Adobe Workfront envoie des notifications par courrier électronique
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] notifications
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] envoie des notifications par e-mail, des notifications in-app et des notifications sur votre appareil mobile.
 
@@ -130,15 +128,11 @@ Les notifications de rappel sont envoyées à partir de l’adresse électroniqu
 
 Pour plus d’informations sur la configuration et l’activation des notifications de rappel, voir [Configuration des notifications de rappel](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### Notifications des panoramas
 
 [!DNL Adobe Workfront] [!UICONTROL Panoramas] vous envoie un courrier électronique lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée.
 
 Vous pouvez sélectionner les e-mails que vous souhaitez recevoir dans les préférences de vos panoramas. Pour plus d’informations, voir [Forums de notification électronique et préférences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### Autre [!DNL Workfront] emails
 
@@ -166,7 +160,7 @@ Si vous disposez de la variable [!DNL Workfront] L’application mobile install�
 
 * [!UICONTROL Travailler sur ce projet]
 * [!UICONTROL Commentaire]
-* [!UICONTROL Prendre une décision d&#39;approbation]
+* [!UICONTROL Prendre une décision d’approbation]
 * [!UICONTROL Consulter toutes les notifications]
 * [!UICONTROL Ajouter]
 * [!UICONTROL Démarrer]
