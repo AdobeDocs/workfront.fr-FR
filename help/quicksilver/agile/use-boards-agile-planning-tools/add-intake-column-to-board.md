@@ -7,9 +7,9 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Vous pouvez éventuellement ajouter une colonne d’entrée à votre panorama qui extrait automatiquement les tâches et les problèmes en tant que cartes connectées lorsqu’elles sont ajoutées dans [!DNL Workfront], en fonction des filtres que vous définissez. La colonne d’entrée peut servir de colonne de journal pour une équipe Kanban, un emplacement d’entrée pour une équipe d’assistance afin de voir les problèmes lorsqu’ils sont ajoutés à une file d’attente de demandes ou tout autre objectif dont vous avez besoin.
 
 Une seule colonne d’entrée est autorisée sur un panorama et apparaît toujours comme la colonne la plus à gauche.
+
+La colonne d’ingestion n’est pas disponible sur un panorama dynamique.
 
 La colonne d’admission est limitée à 300 tâches et 300 numéros. Ils sont triés par priorité définie sur les éléments. Pour plus d’informations sur la priorité, voir [Mettre à jour la priorité des tâches](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) et [Mise à jour de la priorité des problèmes](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
