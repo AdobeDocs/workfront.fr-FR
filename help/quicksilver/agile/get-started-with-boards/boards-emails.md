@@ -5,7 +5,8 @@ navigation-topic: boards
 title: Forums de notification électronique et préférences
 description: Les panoramas Adobe Workfront vous envoient un e-mail lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée.
 author: Lisa
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -13,8 +14,6 @@ ht-degree: 1%
 ---
 
 # Forums de notification électronique et préférences
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] [!UICONTROL Panoramas] vous envoie un courrier électronique lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée. Les notifications sont activées par défaut et vous pouvez sélectionner dans les préférences de votre panorama les emails que vous souhaitez recevoir.
 
