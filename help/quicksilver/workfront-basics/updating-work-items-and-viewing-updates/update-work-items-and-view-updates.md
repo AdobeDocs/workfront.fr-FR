@@ -7,7 +7,7 @@ description: Vous pouvez utiliser la section Mises à jour de la plupart des obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -28,4 +28,4 @@ Cette section contient les articles suivants :
 * [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [Afficher toutes les mises à jour d’un rapport Remarque](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [Bouton Travail dessus et bouton Terminé - Aperçu](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-* [Expérience de commentaires unifiés](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+* [Nouvelle expérience de commentaire](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)

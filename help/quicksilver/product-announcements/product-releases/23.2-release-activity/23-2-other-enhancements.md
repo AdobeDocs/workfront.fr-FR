@@ -4,7 +4,8 @@ description: 23.2 Autres améliorations
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Avec cette reconception, nous avons supprimé l’ajout de commentaires aux mise
 
 D’autres fonctionnalités seront ajoutées dans les prochaines versions, car ces améliorations continuent à être ajoutées à d’autres objets.
 
-Pour plus d’informations sur les offres de la nouvelle expérience de commentaire, voir [Expérience de commentaire unifiée](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+Pour plus d’informations sur les offres de la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 [Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
