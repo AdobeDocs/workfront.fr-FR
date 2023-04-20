@@ -5,13 +5,13 @@ title: Téléchargement de BAT depuis Illustrator
 description: Vous pouvez télécharger vos panoramas d’art en tant que documents pour un examen et une approbation rapides ou simplement les stocker dans Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
 
 ---
-
 
 # Téléchargement de BAT à partir de [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Dans le **[!UICONTROL Approbations des BAT]** , sélectionnez **[!UICONTROL Automatique]**.
 1. (Facultatif) Dans le **[!UICONTROL Modèle de workflow]** saisissez le nom d&#39;un modèle de workflow de BAT.
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. (Facultatif) Saisissez un commentaire dans le champ **[!UICONTROL Mises à jour]** zone.
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->

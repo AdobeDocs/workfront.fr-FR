@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -138,83 +138,82 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
 
 ## Réglage des paramètres de BAT automatisés {#adjust-proof-settings}
 
-1. (Facultatif) Réglage des paramètres de BAT automatisés
+1. (Facultatif) Réglage des paramètres du workflow de BAT automatisé
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>Etapes de vérification</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Désactivation des étapes
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>Etapes de vérification</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Désactivation des étapes
+         </td>
+         <td>
+      <ol>
 
    <li>Activez/désactivez Sélectionner tout pour désactiver toutes les étapes. 
-   <p>Ou</p></li>
-   <li>Active/désactive les scènes individuelles.</li>
+      <p>Ou</p></li>
+      <li>Active/désactive les scènes individuelles.</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Ajouter des destinataires
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Ajouter des destinataires
+         </td>
+         <td>
+      <ol>
 
    <li>Dans la zone Ajouter un nouveau destinataire, commencez à saisir le nom de l’utilisateur.
-
-   Remarque : Vous ne pouvez pas ajouter de destinataires externes par email à partir du module externe.
 
    <li>Indiquez le rôle du BAT.
 
    <li>Choisissez le type d'alerte par email du destinataire. 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Définir une échéance
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Définir une échéance
+         </td>
+         <td>
+      <ol>
 
    <li>Choisissez une échéance.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>Notifications par e-mail</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Informer les destinataires du BAT
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>Notifications par e-mail</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Informer les destinataires du BAT
+         </td>
+         <td>
+      <ol>
 
    <li>Activez la case à cocher pour avertir les utilisateurs lorsque le BAT est créé.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Ajout d’un message personnalisé
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Ajout d’un message personnalisé
+         </td>
+         <td>
+      <ol>
 
    <li>Saisissez un objet.
 
    <li>Saisissez le message personnalisé.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 
