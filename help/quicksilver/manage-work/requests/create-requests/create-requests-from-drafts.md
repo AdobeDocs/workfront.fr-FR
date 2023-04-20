@@ -6,16 +6,14 @@ description: Outre l’utilisation des brouillons disponibles que Workfront vous
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
 
 # Création de requêtes à partir de brouillons
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 Outre l’utilisation des brouillons disponibles que Workfront vous suggère lorsque vous entrez une nouvelle requête, vous pouvez également accéder à une demande de brouillon à partir de la section Brouillons et terminer son envoi à partir de là.
 
@@ -61,7 +59,7 @@ Vous devez effectuer les opérations suivantes avant de pouvoir créer une requ�
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
-1. <span class="preview">(Facultatif) Cliquez sur un en-tête de colonne pour trier la liste en fonction de cette colonne.</span>
+1. (Facultatif) Cliquez sur un en-tête de colonne pour trier la liste en fonction de cette colonne.
 
 1. Consultez les informations sur chaque brouillon dans les colonnes suivantes de la liste Brouillons :
 
@@ -73,7 +71,12 @@ Vous devez effectuer les opérations suivantes avant de pouvoir créer une requ�
 
    {style="table-layout:auto"}
 
-1. <span class="preview">(Facultatif) À l’aide du filtre rapide dans le coin supérieur droit de la liste Brouillons, commencez à saisir le nom d’une requête, d’une file d’attente de requêtes, d’une rubrique de file d’attente ou d’un groupe de rubriques, puis cliquez sur le nom d’un brouillon pour l’ouvrir. </span>
+1. (Facultatif) À l’aide du filtre rapide dans le coin supérieur droit de la liste Brouillons, commencez à saisir le nom d’une requête, d’une file d’attente de requêtes, d’une rubrique de file d’attente ou d’un groupe de rubriques, puis cliquez sur le nom d’un brouillon pour l’ouvrir.
+
+   >[!TIP]
+   >
+   >Vous ne pouvez pas appliquer de filtres permanents dans la section Brouillons de la zone Demandes . En outre, il n’existe aucune option pour modifier l’affichage de la liste des brouillons.
+
 1. Mettez à jour les informations de la requête, comme décrit dans [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Facultatif et conditionnel) À tout moment lors de la saisie de la requête, cliquez sur **Ignorer** version préliminaire si vous souhaitez supprimer la version préliminaire. Cette opération supprime le brouillon qui ne peut pas être récupéré. Pour plus d’informations sur la suppression de brouillons, voir [Suppression d’un brouillon de requête](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
