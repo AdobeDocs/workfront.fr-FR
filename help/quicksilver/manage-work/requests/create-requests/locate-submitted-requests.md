@@ -6,9 +6,9 @@ description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouve
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '885'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
 
    >[!TIP]
    >
-   >Vous ne pouvez pas modifier de filtres dans la zone Demandes . En outre, il n’existe aucune option permettant de modifier ou de modifier l’affichage de la zone Demandes .
+   >Vous ne pouvez pas modifier de filtres dans la section Envoyés de la zone Demandes . En outre, il n’existe aucune option pour modifier l’affichage de la liste des demandes envoyées.
 
    <table style="table-layout:auto"> 
     <col> 
