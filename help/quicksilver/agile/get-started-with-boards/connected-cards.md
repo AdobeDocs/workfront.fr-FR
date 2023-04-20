@@ -6,14 +6,16 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Utilisation de cartes connectées sur les panoramas
+
+{{highlighted-preview}}
 
 Vous pouvez ajouter sur votre panorama une carte qui est connectée à des tâches et à des problèmes existants dans [!DNL Workfront].
 
@@ -96,11 +98,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>La modification du nom change également le nom sur la connexion [!DNL Workfront] .</p> </td> 
+      <td>La modification du nom change également le nom sur la connexion [!DNL Workfront] .</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td> <p>La modification de la description modifie également la description sur la connexion [!DNL Workfront] .</p> </td> 
+      <td>La modification de la description modifie également la description sur la connexion [!DNL Workfront] . <span class="preview">Vous pouvez ajouter des URL dans la description ; elles deviennent des liens cliquables lors de l’enregistrement de la carte.</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assigents]</strong></td>
@@ -110,7 +112,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
-      <td><p>Sélectionnez la colonne de la carte.</p></td>
+      <td>Sélectionnez la colonne de la carte.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -120,7 +122,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Fin planifiée]</strong></td>
-      <td><p>La modification de cette date modifie également la date d’achèvement prévue pour la connexion. [!DNL Workfront] .</p></td>
+      <td>La modification de cette date modifie également la date d’achèvement prévue pour la connexion. [!DNL Workfront] .</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
@@ -137,6 +139,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">Utilisez le panneau de navigation à gauche pour vous déplacer entre les groupes de champs des détails de la carte.</span>
+
+   >[!NOTE]
+   >
+   >Le panneau de navigation de gauche et la possibilité d’ajouter des liens cliquables dans le champ Description ne sont disponibles que par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
 
 1. Cliquez sur **[!UICONTROL Fermer]** pour revenir au panorama.
 L’objet connecté, les personnes désignées, les balises, la date d’échéance, le compteur de liste de contrôle, l’estimation des heures et l’état s’affichent sur la carte.
