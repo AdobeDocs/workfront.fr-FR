@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] vous pouvez automatiser les w
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 ![](assets/map-toggle-350x74.png)
 
+* [Élément de lecteur](#drive-item)
 * [Élément](#item)
 * [Liste](#list)
 * [Page (bêta)](#page-beta)
 * [Site](#site)
 * [Autre](#other)
+
+### Élément de lecteur
+
+* [Création d’un fichier](#create-a-file)
+* [Création d’un dossier](#create-a-folder)
+* [Obtention d’un fichier](#get-a-file)
+* [Éléments du dossier de contrôle](#watch-folder-items)
+
+#### Création d’un fichier
+
+Ce module d’action crée un fichier dans SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Entrer les ID de site, de lecteur et de dossier]</td> 
+   <td> <p>Sélectionnez le mode d’identification du fichier que vous souhaitez créer.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID de dossier]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez l’emplacement où vous souhaitez créer le fichier. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Fichier source]</td> 
+   <td>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</td> 
+  </tr>  </tbody> 
+</table>
+
+#### Création d’un dossier
+
+Ce module d’action crée un dossier dans SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Entrer les ID de site, de lecteur et de dossier]</td> 
+   <td> <p>Sélectionnez le mode d’identification du dossier que vous souhaitez créer.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID de dossier]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez l’emplacement où vous souhaitez créer le dossier. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Nom du dossier]</td> 
+   <td>Saisissez ou mappez un nom pour le nouveau dossier.</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### Obtention d’un fichier
+
+Ce module d’action récupère le fichier SharePoint spécifié.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Entrer les ID de site, de lecteur et de dossier]</td> 
+   <td> <p>Sélectionnez le mode d’identification du fichier que vous souhaitez obtenir.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL File ID]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez l’emplacement du fichier. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### Éléments du dossier de contrôle
+
+Ce module de déclenchement lance un scénario lorsqu’un élément est mis à jour dans un dossier que vous sélectionnez.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Entrer les ID de site, de lecteur et de dossier]</td> 
+   <td> <p>Sélectionnez le mode d’identification du fichier que vous souhaitez obtenir.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID de dossier]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez l’emplacement du dossier que vous souhaitez voir. </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td>Entrer le nombre maximal d’éléments [!DNL Workfront Fusion] doit revenir pendant un cycle d'exécution de scénario.</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### Élément
 
