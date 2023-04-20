@@ -6,14 +6,16 @@ description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Ajout d’une carte ad hoc à un panorama
+
+{{highlighted-preview}}
 
 Vous pouvez ajouter rapidement une carte à un panorama et l’affecter à un membre du panorama. La carte peut représenter une tâche, un problème, une personne, un groupe ou tout type d’élément que vous souhaitez inclure dans le panorama.
 
@@ -63,7 +65,7 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>Description de la carte.</td> 
+      <td>Description de la carte. <span class="preview">Vous pouvez ajouter des URL dans la description ; elles deviennent des liens cliquables lors de l’enregistrement de la carte.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assigents]</strong> </td> 
@@ -96,7 +98,17 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
     </tbody> 
    </table>
 
+   Exemple d’image de détails de carte dans l’environnement de production :
    ![Détails des cartes ad hoc](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">Exemple d’image de détails de carte dans l’environnement Aperçu :
+   ![Détails des cartes ad hoc](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">Utilisez le panneau de navigation à gauche pour vous déplacer entre les groupes de champs des détails de la carte.</span>
+
+   >[!NOTE]
+   >
+   >Le panneau de navigation de gauche et la possibilité d’ajouter des liens cliquables dans le champ Description ne sont disponibles que par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
 
 1. Cliquez sur **[!UICONTROL Fermer]** pour ajouter la carte au panorama.
 
