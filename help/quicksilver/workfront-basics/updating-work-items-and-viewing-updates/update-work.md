@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2945'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ Le **Commentaires** est sélectionné par défaut.
 
    >[!TIP]
    >
-   >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode préliminaire, même après vous être déconnecté et vous être reconnecté. Les commentaires préliminaires ne sont visibles que par l’utilisateur qui les saisit.
+   >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode préliminaire, même après vous être déconnecté et vous être reconnecté. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont ignorés et ne peuvent pas être récupérés. Les commentaires préliminaires ne sont visibles que par l’utilisateur qui les saisit.
 
 1. (Facultatif) Dans le **Balisage de personnes ou d’équipes** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, utilisez l’une des options suivantes du **Texte enrichi** pour améliorer votre texte :
@@ -223,7 +223,7 @@ Le **Commentaires** est sélectionné par défaut.
 
 1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’objet Workfront.
 1. (Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
-1. Modifier les informations dans le commentaire <!--or remove any of the tagged users-->.
+1. Modifiez les informations dans le commentaire ou supprimez les utilisateurs balisés.
 Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    1. Sous **Texte à afficher**, saisissez ou collez le texte du lien.
    1. Cliquer sur **Enregistrer**.
 
-1. (Facultatif) Pour joindre une image à votre mise à jour, cliquez sur le bouton **Image** icon ![](assets/addimageicon-35x32.png) et accédez à l’image sur votre ordinateur.\
-   Ou\
-   Faites glisser l’image dans la zone de mise à jour.
+1. (Facultatif) Pour joindre une image à votre mise à jour, effectuez l’une des opérations suivantes, selon l’environnement utilisé :
+
+   * Cliquez sur le bouton **Image** icon ![](assets/addimageicon-35x32.png) et accédez à l’image sur votre ordinateur ou faites glisser l’image dans la zone de mise à jour lors de l’utilisation de l’expérience de mise à jour actuelle.
+
+   Ou
+
+   Cliquez sur le bouton **Ajouter une pièce jointe** icon ![](assets/add-image-paperclip-icon.png) et accédez à l’image sur votre ordinateur lorsque vous utilisez l’expérience bêta de commentaire.
 
    >[!NOTE]
    >
@@ -384,11 +388,19 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Dans le message qui s’affiche, cliquez sur **Confirmer** ou **Supprimer**, lors de l’utilisation de l’expérience bêta de commentaire.
+1. Dans le message qui s’affiche, cliquez sur **Confirmer** ou cliquez sur **Supprimer**, lors de l’utilisation de l’expérience bêta de commentaire.
 
->[!NOTE]
->
->La suppression d’une mise à jour avec une image jointe supprime le commentaire et l’image.
+   >[!NOTE]
+   >
+   >La suppression d’une mise à jour avec une image jointe supprime le commentaire et l’image.
+
+   Lorsque des réponses sont associées au commentaire que vous supprimez, il est indiqué que le commentaire a été supprimé avec le nom de l’utilisateur qui l’a supprimé.
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   Lors de l’utilisation de l’expérience bêta de commentaires, les commentaires supprimés sont immédiatement supprimés de Workfront. Un utilisateur qui utilise la section Mises à jour voit un commentaire supprimé par un autre utilisateur en temps réel.
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## Ajout d’une mise à jour à une feuille de calcul
 
