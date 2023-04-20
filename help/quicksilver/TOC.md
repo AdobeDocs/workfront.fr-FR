@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 3d7a9637ea3f2bb11919456ed8e47ba3be6f791f
+source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
 workflow-type: tm+mt
-source-wordcount: '12917'
+source-wordcount: '12919'
 ht-degree: 1%
 
 ---
@@ -2035,6 +2035,7 @@ ht-degree: 1%
       * [Modules Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Modules Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Modules de services Adobe PDF](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+      * [Modules Airtable](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Modules Adobe Target](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
       * [Modules d&#39;allocadia](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Modules Anaplan](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
