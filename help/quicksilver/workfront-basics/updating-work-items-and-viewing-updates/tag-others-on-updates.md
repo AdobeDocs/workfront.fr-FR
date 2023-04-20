@@ -6,9 +6,9 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Le balisage des autres dans une mise à jour varie en fonction de l’expérienc
 
    ![](assets/tag-users-in-update.png)
 
-1. (Facultatif) Pour rendre la mise à jour privée, activez **Privé à ma société** dans le coin inférieur droit de la zone de mise à jour. La mise à jour est ainsi visible uniquement par les utilisateurs de votre entreprise.
+1. (Facultatif) Pour rendre la mise à jour privée, activez **Privé à ma société** dans le coin inférieur droit de la zone de mise à jour. La mise à jour est ainsi visible uniquement par les utilisateurs de votre entreprise. Le **Privé à ma société** est disponible uniquement lorsqu’une société est spécifiée dans votre profil Workfront.
 
    >[!NOTE]
    >
@@ -135,6 +135,8 @@ Le balisage des autres dans une mise à jour varie en fonction de l’expérienc
 
 ### Balisage des autres sur les mises à jour dans les commentaires sur l’expérience bêta
 
+Vous pouvez baliser d’autres utilisateurs sur les mises à jour de l’expérience de commentaires bêta. Vous pouvez également supprimer les utilisateurs balisés par erreur lorsque vous modifiez un commentaire.
+
 1. Commencez à mettre à jour un élément de travail, comme décrit dans la section [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Dans le **Balisage de personnes ou d’équipes** , commencez à saisir le nom de l’utilisateur ou de l’équipe que vous souhaitez inclure, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
@@ -148,7 +150,7 @@ Le balisage des autres dans une mise à jour varie en fonction de l’expérienc
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Facultatif) Pour rendre la mise à jour privée, activez **Privé à ma société** dans le coin inférieur droit de la zone de mise à jour. La mise à jour est ainsi visible uniquement par les utilisateurs de votre entreprise.
+1. (Facultatif) Pour rendre la mise à jour privée, activez **Privé à ma société** dans le coin inférieur droit de la zone de mise à jour. La mise à jour est ainsi visible uniquement par les utilisateurs de votre entreprise. Le **Privé à ma société** est disponible uniquement lorsqu’une société est spécifiée dans votre profil Workfront.
 
    >[!NOTE]
    >
@@ -171,3 +173,5 @@ Le balisage des autres dans une mise à jour varie en fonction de l’expérienc
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-menu.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**. Supprimez l’un des utilisateurs balisés, puis cliquez sur **Envoyer**. Vous ne pouvez modifier un commentaire que dans les 15 minutes qui suivent sa saisie. Vous ne pouvez modifier que les commentaires que vous avez ajoutés.
