@@ -7,9 +7,9 @@ description: Lorsque vous créez un panorama à l’aide de cartes ad hoc et con
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Cette section contient les articles suivants :
 * [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Utilisation de groupes sur un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configuration des abandons de carte](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [Migration de cartes Kanban d’équipe agile vers des panoramas Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
