@@ -1,26 +1,26 @@
 ---
-title: Accès hérité configurable à la fonctionnalité pour chaque type d’objet
-description: Cet article explique ce que vous pouvez autoriser en tant qu’administrateur Adobe Workfront pour chaque type d’objet, à chaque niveau d’accès hérité. Il explique également la configuration par défaut pour chaque type de niveau d’accès hérité.
+title: Accès configurable à la fonctionnalité pour chaque type d’objet
+description: Cet article explique ce que vous pouvez autoriser en tant qu’administrateur Adobe Workfront pour chaque type d’objet, à chaque niveau d’accès. Il explique également la configuration par défaut pour chaque type de niveau d’accès.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3435'
 ht-degree: 10%
 
 ---
 
-# Accès hérité configurable à la fonctionnalité pour chaque type d’objet
+# Accès configurable à la fonctionnalité pour chaque type d’objet
 
-Cet article explique ce que vous pouvez autoriser en tant qu’administrateur Adobe Workfront pour chaque type d’objet, à chaque niveau d’accès hérité. Il explique également la configuration par défaut pour chaque type de niveau d’accès hérité.
+Cet article explique ce que vous pouvez autoriser en tant qu’administrateur Adobe Workfront pour chaque type d’objet, à chaque niveau d’accès. Il explique également la configuration par défaut pour chaque type de niveau d’accès.
 
 Pour plus d’informations sur toutes les fonctionnalités disponibles pour un type d’objet dans chaque niveau d’accès, voir [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projets
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les projets :
+Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour les projets :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Tâches
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les tâches :
+Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes pour les tâches :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Événements
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les problèmes :
+Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour les problèmes :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Portefeuilles
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les portefeuilles :
+Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour les portefeuilles :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +283,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Programmes
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les programmes :
+Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes pour les programmes :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,7 +339,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Rapports, tableaux de bord et calendriers
 
-À chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les rapports, les tableaux de bord et les calendriers :
+Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour les rapports, les tableaux de bord et les calendriers :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +413,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Filtres, vues et regroupements
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les filtres, les vues et les regroupements :
+Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour les filtres, les vues et les regroupements :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Documents
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les documents :
+Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour les documents :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -573,7 +573,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Utilisateurs
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les utilisateurs :
+Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes pour les utilisateurs :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Équipes
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les équipes :
+Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour les équipes :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -711,7 +711,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Modèles
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les modèles :
+Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes pour les modèles :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -768,7 +768,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Données financières
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour les données financières :
+Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes pour les données financières :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -833,7 +833,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Gestion des ressources
 
-Dans chaque niveau d’accès hérité, vous pouvez configurer les options suivantes pour la gestion des ressources :
+Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour la gestion des ressources :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -891,7 +891,7 @@ Dans chaque niveau d’accès hérité, vous pouvez configurer les options suiva
 
 ## Zone du planificateur de scénario
 
-Le paramètre par défaut pour tous les niveaux d’accès hérités est Aucun accès. Un administrateur de Workfront peut modifier ce paramètre pour afficher ou modifier l’accès pour n’importe quel niveau d’accès de planificateur, de traitement et de réviseur.
+Le paramètre par défaut pour tous les niveaux d’accès est Aucun accès. Un administrateur de Workfront peut modifier ce paramètre pour afficher ou modifier l’accès pour n’importe quel niveau d’accès de planificateur, de traitement et de réviseur.
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Zone Objectifs de Workfront
 
-Les six niveaux d’accès hérités par défaut (et les quatre types de licence) peuvent modifier et afficher les objectifs de Workfront.
+Les six niveaux d’accès par défaut (et les quatre types de licence) peuvent tous modifier et afficher les objectifs de Workfront.
 
 Modifier est l’option par défaut.

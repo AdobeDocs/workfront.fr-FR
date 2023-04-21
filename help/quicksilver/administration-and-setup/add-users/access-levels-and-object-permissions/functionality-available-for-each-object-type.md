@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagramme,levels,permissions
 navigation-topic: access-levels
-title: Fonctionnalités disponibles pour chaque type d’objet pour divers niveaux d’accès hérités
+title: Fonctionnalités disponibles pour chaque type d’objet pour différents niveaux d’accès
 description: Le tableau suivant répertorie les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 11%
 
 ---
 
-# Fonctionnalités disponibles pour chaque type d’objet pour divers niveaux d’accès hérités
+# Fonctionnalités disponibles pour chaque type d’objet pour différents niveaux d’accès
 
 Le tableau suivant répertorie les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 
@@ -285,7 +285,7 @@ Les utilisateurs disposant d’une licence Plan peuvent avoir un accès complet 
 | Partager à l’échelle du système | ✓&#42; | ✓&#42; |   |   |   |
 | Afficher | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifier les détails | ✓ | ✓ | ✓ | ✓ |   |
-| Télécharger | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Téléchargement | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Passage en caisse | ✓ | ✓ | ✓ | ✓ |   |
 | Ajouter des approbateurs | ✓ | ✓ | ✓ | ✓ |   |
 | Approbation de documents | ✓ | ✓ | ✓ | ✓ | ✓ |

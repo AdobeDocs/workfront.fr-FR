@@ -1,28 +1,29 @@
 ---
-title: Présentation des licences
+title: Présentation des nouvelles licences
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: license,type
 navigation-topic: access-levels
-description: Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acheté Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez à chaque utilisateur l’un des trois types de licences Workfront payantes lorsque vous lui attribuez un niveau d’accès.
+description: Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acheté Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez à chaque utilisateur l’une des trois nouvelles licences Workfront payantes lorsque vous lui attribuez un niveau d’accès.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6c1103ad00d7ac255aab1a2eb08df7b8b398b923
+exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '351'
 ht-degree: 2%
 
 ---
 
-# Présentation des licences
+# Présentation des nouvelles licences
 
 Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acheté Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez à chaque utilisateur l’un des trois types de licences Workfront payantes lorsque vous lui attribuez un niveau d’accès.
 
-## Comment les licences et les niveaux d’accès Workfront sont liés entre eux
+## Comment les nouvelles licences Workfront et les nouveaux niveaux d’accès sont liés entre eux
 
-Les trois types de licences Workfront payantes permettent différents niveaux d’accès à Workfront. Chaque niveau d’accès est associé à l’une de ces licences.
+Les trois types de nouvelles licences Workfront payantes permettent différents niveaux d’accès à Workfront. Chaque niveau d’accès est associé à l’une de ces licences.
 
 En tant qu’administrateur Workfront, au lieu d’affecter une licence à un utilisateur, vous lui attribuez le niveau d’accès associé à cette licence.
 
@@ -56,4 +57,3 @@ Par exemple, si vous attribuez le niveau d’accès standard à un utilisateur, 
 Vous pouvez afficher les licences et les niveaux d’accès attribués à vos utilisateurs. Pour plus d’informations, voir [Répertorier les niveaux d’accès et les licences de vos utilisateurs](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
 Pour plus d’informations sur la gestion de vos licences, voir [Gestion des licences disponibles dans votre système](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
-

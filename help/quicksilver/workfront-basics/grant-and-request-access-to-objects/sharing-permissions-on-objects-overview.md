@@ -6,7 +6,7 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Il n’est pas nécessaire d’être administrateur Adobe Workfront pour partager des autorisations sur les objets auxquels vous avez accès, mais les autorisations sur les objets fonctionnent dans les niveaux d’accès définis par l’administrateur Workfront.
 
-Vous pouvez partager ou supprimer des autorisations pour un objet que vous avez créé ou un objet qui a été partagé avec vous. Lorsque vous n’êtes pas le créateur de l’objet, vous devez disposer de l’accès Partager sur l’objet que vous souhaitez partager dans votre niveau d’accès, en plus des droits Partager sur l’objet. Pour plus d’informations sur les niveaux d’accès, voir [Présentation des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) ou [Présentation des niveaux d’accès hérités](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Vous pouvez partager ou supprimer des autorisations pour un objet que vous avez créé ou un objet qui a été partagé avec vous. Lorsque vous n’êtes pas le créateur de l’objet, vous devez disposer de l’accès Partager sur l’objet que vous souhaitez partager dans votre niveau d’accès, en plus des droits Partager sur l’objet. Pour plus d’informations sur les niveaux d’accès, voir [Nouveaux niveaux d’accès - Aperçu](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) ou [Présentation des niveaux d’accès](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >

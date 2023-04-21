@@ -1,5 +1,5 @@
 ---
-title: Présentation des licences héritées
+title: Présentation des licences
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,26 +10,26 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
-# Présentation des licences héritées
+# Présentation des licences
 
-Votre entreprise a acheté un certain nombre de licences héritées lorsqu’elle a acquis Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez à chaque utilisateur l’une des quatre licences héritées Workfront payantes lorsque vous lui attribuez un niveau d’accès.
+Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acquis Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez à chaque utilisateur l’un des quatre types de licences Workfront payantes lorsque vous lui attribuez un niveau d’accès.
 
-## Comment les licences héritées et les niveaux d’accès hérités sont liés entre eux
+## Comment les licences et les niveaux d’accès sont liés entre eux
 
-Les 4 types de licences Workfront payantes héritées permettent différents niveaux d’accès à Workfront. Chaque niveau d’accès hérité est associé à l’une de ces licences héritées.
+Les 4 types de licences Workfront payantes permettent différents niveaux d’accès à Workfront. Chaque niveau d’accès est associé à l’une de ces licences.
 
-En tant qu’administrateur Workfront, au lieu d’affecter une licence héritée à un utilisateur, vous lui affectez le niveau d’accès hérité associé à cette licence héritée.
+En tant qu’administrateur Workfront, au lieu d’affecter une licence à un utilisateur, vous lui attribuez le niveau d’accès associé à cette licence.
 
 Ce tableau et diagramme présentent les principaux niveaux d’accès à Workfront :
 
-| Licence héritée | Niveau d’accès hérité associé |
+| Licence | Niveau d’accès associé |
 |--- |--- |
 | Plan | Administrateur système, planificateur |
 | Travail | Employé |

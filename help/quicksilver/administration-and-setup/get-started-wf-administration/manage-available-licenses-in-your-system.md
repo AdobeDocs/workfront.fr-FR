@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Pour afficher les informations de licence dans votre système :
 
 1. Au bas du panneau de gauche, cliquez sur **Système** > **Licences**.
 
-   Pour plus d’informations sur les licences répertoriées sur cette page, voir [Présentation des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Pour plus d’informations sur les licences répertoriées sur cette page, voir [Présentation des licences](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -91,11 +91,11 @@ If an organization has other paid add-on products, their license information als
 
 ## Affichage d’informations sur les allocations mensuelles de BAT et de décision de document
 
-Les décisions relatives aux BAT et aux documents sont limitées pour toutes les licences Workfront non payantes. Limites réinitialisées chaque mois selon l’utilisateur.
-
 >[!IMPORTANT]
 >
->Les limites de décision concernant les BAT et les documents ne s’appliquent pas aux utilisateurs de [licences Workfront héritées et niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Les limites de décision concernant les BAT et les documents s’appliquent uniquement aux utilisateurs disposant de nouvelles licences. Pour plus d’informations, voir [Présentation des nouvelles licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+Les décisions relatives aux BAT et aux documents sont limitées pour toutes les licences Workfront non payantes. Limites réinitialisées chaque mois selon l’utilisateur.
 
 Les limites de décision pour chaque licence varient en fonction du plan sur lequel vous travaillez. Vous pouvez afficher votre allocation mensuelle dans Configuration > Licences.
 

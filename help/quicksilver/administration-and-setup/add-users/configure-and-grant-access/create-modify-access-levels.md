@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1402'
 ht-degree: 6%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 En tant qu’administrateur Adobe Workfront, vous pouvez créer des niveaux d’accès personnalisés et les appliquer aux utilisateurs. Lorsque vous utilisez des niveaux d’accès, il est important de comprendre comment ils fonctionnent ensemble avec les autorisations d’objet que les utilisateurs accordent lorsqu’ils partagent des objets les uns avec les autres. Pour plus d’informations sur les niveaux d’accès, voir
 
-* [Présentation des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Présentation des niveaux d’accès hérités](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Nouveaux niveaux d’accès - Aperçu](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Type de licence</td> 
-      <td>Assurez-vous que la licence sélectionnée ici est celle qui est la plus étroitement associée au type de niveau d'accès que vous créez ou modifiez. La licence sélectionnée détermine les paramètres disponibles pour le niveau d’accès. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Présentation des licences héritées</a> ou <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences héritées d’Adobe Workfront</a>.</td> 
+      <td>Assurez-vous que la licence sélectionnée ici est celle qui est la plus étroitement associée au type de niveau d'accès que vous créez ou modifiez. La licence sélectionnée détermine les paramètres disponibles pour le niveau d’accès. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Présentation des nouvelles licences</a> ou <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Présentation des licences</a>.</td> 
      </tr> 
     </tbody> 
    </table>
