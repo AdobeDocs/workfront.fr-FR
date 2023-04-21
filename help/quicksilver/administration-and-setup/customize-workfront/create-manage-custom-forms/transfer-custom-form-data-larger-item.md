@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7b378fdf3530d5e1c06f09d03c23c31afac6aa47
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -51,34 +51,25 @@ Les étapes de cet article doivent être les suivantes :
 
 &#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
 
-## Premier : Copier le formulaire personnalisé {#first-copy-the-custom-form}
-
-Tout d’abord, vous devez vous assurer de conserver toutes les données de formulaire personnalisées pour une tâche ou un problème que vous souhaitez convertir. Comme les données de formulaire personnalisées doivent correspondre exactement à l’élément converti, il est recommandé de dupliquer le formulaire pour le joindre au nouvel objet.
-
->[!TIP]
->
->Dans ce cas, une autre méthode consiste à ajouter le type d’objet le plus grand au formulaire personnalisé. Pour obtenir des instructions, reportez-vous à la section [Commencer à modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) dans l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+## Premier : Ajouter des objets supplémentaires au formulaire personnalisé
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Forms personnalisée**.
-1. Sélectionnez le formulaire personnalisé de type tâche ou problème, puis cliquez sur **Copier**.
-1. Dans le **Formulaire personnalisé** , indiquez le nom du nouveau formulaire.
+1. Recherchez le formulaire dont vous avez besoin, puis cliquez sur **Modifier**.
+1. Dans la partie supérieure du formulaire, ajoutez l’objet dans lequel vous envisagez de convertir la tâche ou le problème.
+   >[!INFO]
+   >
+   >**Exemple**: Si vous souhaitez transférer les données de formulaire personnalisées vers un projet, sélectionnez Projet.
 
-1. Dans la **Type de formulaire** , sélectionnez le type d’objet pour lequel vous souhaitez créer un formulaire personnalisé.
-
-   **Exemple :** Si vous souhaitez transférer les données de formulaire personnalisées vers un projet, sélectionnez Projet.
-
-1. Cliquez sur **Copier le formulaire**.
-
-   Ce formulaire personnalisé copié peut désormais être joint à une tâche ou à un projet.
+1. Cliquez sur **Appliquer** au bas du formulaire.
 
 1. Passez à la [Deuxièmement : Convertir le problème ou la tâche et transférer les données de formulaire personnalisées](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
 ## Deuxièmement : Convertir le problème ou la tâche et transférer les données de formulaire personnalisées {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Copiez le formulaire personnalisé sur le problème ou la tâche que vous convertissez, comme expliqué dans la section . [Premier : Copier le formulaire personnalisé](#first-copy-the-custom-form) dans cet article.
-1. Convertissez le problème ou la tâche à l’aide de la fonction **Forms personnalisée** dans la zone qui s’affiche pour sélectionner le formulaire personnalisé que vous avez copié. Pour obtenir des instructions, reportez-vous aux articles suivants :
+1. Ajoutez des objets supplémentaires au formulaire personnalisé sur le problème ou la tâche que vous convertissez, comme expliqué dans la section . [Premier : Ajouter des objets supplémentaires au formulaire personnalisé](#first-add-additonal-objects-to-the-custom-form) dans cet article.
+1. Convertissez le problème ou la tâche à l’aide de la fonction **Forms personnalisée** dans la zone qui s’affiche pour sélectionner le formulaire personnalisé dont vous avez besoin. Pour obtenir des instructions, reportez-vous aux articles suivants :
 
    * [Convertir un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Convertir un problème en tâche dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
@@ -88,3 +79,29 @@ Tout d’abord, vous devez vous assurer de conserver toutes les données de form
 
    Les informations capturées dans les champs personnalisés du problème sont maintenant transférées vers le formulaire personnalisé sur la tâche.
 
+
+<!--
+## First: Copy the custom form {#first-copy-the-custom-form}
+
+First you need to make sure that you retain any custom form data on a task or issue you want to convert. Because the custom form data must be an exact match on the converted item, it is best practice to duplicate the form so that you can attach it to the new object.
+
+>[!TIP]
+>
+>Another way to retain custom form data in this situation is to add the larger object type to the custom form. For instructions, see the section [Start editing a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+1. Click **Custom Forms**.
+1. Select the task- or issue-type custom form, then click **Copy**.
+1. In the **Custom Form** dialog box, specify a name for the new form.  
+
+1. From the **Form Type** drop-down menu, select the type of object you want to create the new custom form for
+
+   **Example:** If you want to transfer the custom form data to a project, select Project.
+
+1. Click **Copy Form**.
+
+   This copied custom form can now be attached to a task or project.
+
+1. Continue on to [Second: Convert the issue or task and transfer the custom form data](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+-->
