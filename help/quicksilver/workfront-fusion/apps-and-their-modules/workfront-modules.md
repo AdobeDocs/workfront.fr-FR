@@ -9,9 +9,9 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe Wor
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '5276'
+source-wordcount: '5288'
 ht-degree: 3%
 
 ---
@@ -771,7 +771,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Critères de recherche]</td> 
-   <td> <p>Renseignez le champ par lequel vous souhaitez effectuer une recherche, l'opérateur que vous souhaitez utiliser dans votre requête et la valeur que vous recherchez dans le champ.</p> <p>Remarque : Ne pas utiliser <code>username </code>dans vos critères de recherche. Inclusion <code>username </code>dans une requête API à [!DNL Workfront] connecte l’utilisateur à Workfront, et la recherche échoue.</p> </td> 
+   <td> <p>Renseignez le champ par lequel vous souhaitez effectuer une recherche, l'opérateur que vous souhaitez utiliser dans votre requête et la valeur que vous recherchez dans le champ.</p> <p>Remarque : Ne pas utiliser <code>username </code>dans vos critères de recherche. Inclusion <code>username </code>dans une requête API à [!DNL Workfront] connecte l’utilisateur à Workfront, et la recherche échoue.</p> <p>Remarque : <code>In</code> et <code>NotIn</code>fonctionne avec des tableaux. Les entrées doivent être au format de tableau.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Sorties [!UICONTROL]</td> 
@@ -1043,7 +1043,7 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Utilisateur</td> 
+   <td>Utilisateur ou utilisatrice</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1428,7 +1428,7 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur</td> 
+   <td>Utilisateur ou utilisatrice</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1637,7 +1637,7 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Utilisateur</td> 
+   <td>Utilisateur ou utilisatrice</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
