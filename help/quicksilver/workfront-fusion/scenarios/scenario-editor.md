@@ -7,9 +7,9 @@ description: L’éditeur de scénarios vous permet de créer et de modifier des
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -61,12 +61,6 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
    Si vous souhaitez modifier un scénario existant, cliquez sur le scénario.
 
-1. (Conditionnel) Si vous créez un scénario, sous **[!UICONTROL Quels services souhaitez-vous intégrer ?]**, sélectionnez les applications à utiliser dans le scénario, puis cliquez sur **[!UICONTROL Continuer]**.
-
-   Ou
-
-   Cliquez sur **[!UICONTROL Ignorer]** si vous préférez choisir les applications dans l’éditeur de scénario.
-
    Dans l’éditeur de scénario qui s’affiche, vous pouvez effectuer toutes les opérations répertoriées dans le tableau ci-dessous. Pour plus d’informations, voir [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Lorsque vous avez terminé de modifier un scénario (ou à tout moment pendant la modification), cliquez sur le bouton [!UICONTROL Enregistrer] icône . ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
    >Après avoir enregistré votre scénario, une nouvelle version sera disponible sous le menu à trois points si vous devez y accéder ultérieurement. Les versions de scénario précédemment enregistrées ne sont disponibles que pendant 60 jours.
 
 ## Actions de l’éditeur de scénarios disponibles
+
+Les actions suivantes sont disponibles dans l’éditeur de scénario :
 
 <table style="table-layout:auto"> 
 <tbody>

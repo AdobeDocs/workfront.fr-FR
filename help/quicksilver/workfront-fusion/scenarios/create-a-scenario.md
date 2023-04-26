@@ -7,9 +7,9 @@ description: Les tâches suivantes expliquent comment créer une [!DNL Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 1. Cliquez sur **[!UICONTROL Scénarios]** ![](assets/scenarios-icon.png) dans le panneau de gauche.
 
 1. Cliquez sur **[!UICONTROL Création d’un scénario]** dans le coin supérieur droit de la page.
-1. (Facultatif) Sous **[!UICONTROL Quels services souhaitez-vous intégrer ?]**, si vous créez un scénario, sélectionnez les applications avec lesquelles vous souhaitez travailler dans le scénario, puis cliquez sur **[!UICONTROL Continuer]**.
-
-   Ou
-
-   Cliquez sur **[!UICONTROL Ignorer]** si vous souhaitez choisir les applications dans l’éditeur de scénarios.
-
 1. Dans l’écran qui s’affiche (dans l’éditeur de scénarios), si vous créez un scénario, cliquez sur **[!UICONTROL Nouveau scénario]** dans le coin supérieur gauche, saisissez le nom du scénario.
 1. Passez à la [Ajouter un module dans un scénario](#add-a-module-in-a-scenario).
 
