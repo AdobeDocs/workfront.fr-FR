@@ -6,16 +6,14 @@ description: Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 966a88b8c7761b257a1ad0b2fdb3400f78c5d4f7
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 4%
+source-wordcount: '699'
+ht-degree: 3%
 
 ---
 
 # Création ou modification d’un panorama
-
-{{highlighted-preview}}
 
 Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer un panorama ou en modifier un existant.
 
@@ -54,29 +52,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    | Panorama de base | Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. |
    | Panorama Kanban | Les colonnes suivantes sont fournies sur le panorama : En attente, nouveauté, En cours, Terminé et En attente. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser le journal des logs, vous devez configurer des filtres pour la colonne d&#39;ingestion. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour consulter les stratégies par défaut pour chaque colonne, cliquez sur le bouton [!UICONTROL **Plus** menu] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une de ces stratégies prédéfinies. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Panorama rétrospectif | Les colonnes suivantes sont fournies sur le panorama : Qu&#39;est-ce qui s&#39;est bien passé ? Améliorations possibles? Qui devons-nous célébrer? Que pouvons-nous faire pour aller plus vite? Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune stratégie de colonne n’est appliquée. |
-   | <span class="preview">Panorama dynamique</span> | <span class="preview">Les colonnes suivantes sont fournies sur le panorama : Non sélectionné, Nouveau, En cours, En attente et Terminé. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. (La colonne Non sélectionné peut être renommée mais pas supprimée. Cette colonne contient toutes les cartes dont l’état ne correspond à aucun des autres états de colonne.) <p>Les stratégies de colonne par défaut attribuent des cartes aux colonnes en fonction de leur état. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+   | Panorama dynamique | Les colonnes suivantes sont fournies sur le panorama : Non sélectionné, Nouveau, En cours, En attente et Terminé. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. (La colonne Non sélectionné peut être renommée mais pas supprimée. Cette colonne contient toutes les cartes dont l’état ne correspond à aucun des autres états de colonne.) <p>Les stratégies de colonne par défaut attribuent des cartes aux colonnes en fonction de leur état. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**REMARQUE :** Le panorama dynamique n’est disponible que par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront. |
 
-1. <span class="preview">Pour une carte dynamique uniquement, suivez les étapes de l&#39;assistant de configuration :</span>
+1. Pour une carte dynamique uniquement, suivez les étapes de l&#39;assistant de configuration :
 
-   <div class="preview">
+   1. Recherchez et sélectionnez [!DNL Workfront] [!UICONTROL **Projets**] pour intégrer des tâches et des problèmes au tableau.
+   1. Recherchez et sélectionnez [!UICONTROL **Affectations**] pour intégrer des tâches et des problèmes au tableau.
 
-   1. Saisissez le nom du panorama, puis cliquez sur [!UICONTROL **Suivant**].
-   1. Cliquez sur [!UICONTROL **Ajouter une source**].
-   1. Cliquez sur [!UICONTROL **Filtrage des sources**] et sélectionnez [!UICONTROL **Tâches**] ou [!UICONTROL **Problèmes**].
+      Tous les objets apparaissent sur le panorama sous forme de cartes connectées.
 
-      >[!NOTE]
-      >
-      >Vous pouvez filtrer le panorama pour inclure à la fois des tâches et des problèmes, mais vous devez configurer les filtres séparément pour chaque type d’objet.
-      >
-      >Vous pouvez également sélectionner des filtres enregistrés et des filtres par défaut du système.
+      Le [!UICONTROL **Cartes ajoutées**] compteur indique le nombre de cartes qui seront sur le panorama. Par exemple, si vous sélectionnez un projet comportant 100 tâches et problèmes, le compteur affiche 100. Si vous ajoutez une affectation utilisateur et que cette personne est affectée à 5 tâches sur le projet, le compteur affiche 5.
 
-   1. Créez un filtre pour définir les objets à importer sur le panorama en tant que cartes connectées.
+   1. (Facultatif) Cliquez sur [!UICONTROL **Utilisation de filtres avancés**] pour afficher d’autres options de filtrage.
 
       Il s’agit du même processus que la création d’un filtre sur une colonne d’entrée. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
    1. Après avoir ajouté les filtres, cliquez sur [!UICONTROL **Créer un panorama**].
-
-   </div>
 
 1. Saisissez le nom du panorama dans la zone **[!UICONTROL Panorama]** et appuyez sur Entrée.
 1. Configurez le panorama suivant vos besoins.

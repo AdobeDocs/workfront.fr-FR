@@ -6,16 +6,14 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
 
 # Utilisation de cartes connectées sur les panoramas
-
-{{highlighted-preview}}
 
 Vous pouvez ajouter sur votre panorama une carte qui est connectée à des tâches et à des problèmes existants dans [!DNL Workfront].
 
@@ -102,7 +100,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td>La modification de la description modifie également la description sur la connexion [!DNL Workfront] . <span class="preview">Vous pouvez ajouter des URL dans la description ; elles deviennent des liens cliquables lors de l’enregistrement de la carte.</span></td> 
+      <td>La modification de la description modifie également la description sur la connexion [!DNL Workfront] . Vous pouvez ajouter des URL dans la description ; elles deviennent des liens cliquables lors de l’enregistrement de la carte.</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assigents]</strong></td>
@@ -140,7 +138,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </tbody> 
    </table>
 
-   <span class="preview">Utilisez le panneau de navigation à gauche pour vous déplacer entre les groupes de champs des détails de la carte.</span>
+   Utilisez le panneau de navigation à gauche pour vous déplacer entre les groupes de champs des détails de la carte.
 
    >[!NOTE]
    >

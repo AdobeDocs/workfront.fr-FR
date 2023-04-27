@@ -4,22 +4,25 @@ navigation-topic: boards
 title: Migration de cartes Kanban d’équipe agile vers des panoramas Workfront
 description: Vous pouvez migrer vos tâches d’un panorama Kanban d’équipe agile vers un panorama Workfront nouveau ou existant.
 author: Lisa
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
 
 # Migration de cartes Kanban d’équipe agile vers des panoramas Workfront
 
-{{highlighted-preview-article-level}}
-
 Vous pouvez migrer vos tâches d’un panorama Kanban d’équipe agile vers un panorama Workfront nouveau ou existant. Lorsque vous exécutez la migration, toutes les cartes du panorama Kanban sont copiées dans le panorama Workfront. Vous n’êtes pas autorisé à choisir des cartes spécifiques.
 
 Le positionnement des cartes sur le panorama Workfront est basé sur des stratégies de colonnes. (Par exemple, une stratégie peut déplacer toutes les cartes dont l’état est &quot;En cours&quot; vers une colonne spécifique. Pour plus d’informations sur les stratégies de colonne, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) S’il n’existe aucune stratégie ou si les cartes ne correspondent pas aux stratégies, elles sont placées dans la colonne la plus à gauche du panorama. Pour l’instant, les cartes de la colonne Backlog du panorama hérité ne sont pas ajoutées au panorama Workfront.
 
 Les cartes ne sont pas supprimées du panorama Kanban de l’équipe agile, et les modifications d’état des cartes sont synchronisées avec les deux panoramas. Vous pouvez garder les deux panoramas principaux jusqu’à ce que vous soyez prêt à passer aux panoramas Workfront.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
 
 ## Exigences d’accès
 
