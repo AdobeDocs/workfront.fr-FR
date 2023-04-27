@@ -5,7 +5,7 @@ title: Filtre Projets actifs incluant des résultats inattendus
 description: Lisez cet article pour résoudre les problèmes liés au filtre Projets sur lesquels je suis actif, y compris les résultats inattendus.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Le [!UICONTROL **Projets actifs**] filtre inclut les projets qui contiennent l�
 
 1. Vérifiez les [!UICONTROL **Détails du projet**] pour chaque projet inattendu inclus par le filtre et supprimez votre nom de tous les champs.
 
-OU
+   OU
 
 1. Essayez d’utiliser un filtre similaire, tel que [!UICONTROL **Projets que je possède**], qui inclut uniquement les projets qui vous sont spécifiquement affectés.
 

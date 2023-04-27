@@ -7,9 +7,9 @@ description: Vous pouvez utiliser des expressions de données pour définir des 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 22438c38727f5cc36b07b3530818f5bda2b0bacf
+source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2302'
 ht-degree: 7%
 
 ---
@@ -104,11 +104,11 @@ Les listes ci-dessous définissent les expressions disponibles que vous pouvez u
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>Cette expression ajoute le nombre de jours à la date et est formatée comme suit :</p><pre>ADDDAYS(date, number)</pre> </td> 
+   <td> <p>Cette expression ajoute le nombre de jours à la date. La valeur numérique peut inclure des jours partiels (par exemple, 1,5 ajoute un jour et demi à la date).</p> <p>L’expression est formatée comme suit :</p><pre>ADDDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>AJOUTERJOURSSEMAINE</strong> </td> 
-   <td> <p>Cette expression ajoute à la date le nombre de jours de la semaine et est formatée comme suit :</p><pre>AJOUTERJOURSSEMAINE(date, nombre)</pre> </td> 
+   <td> <p>Cette expression ajoute le nombre de jours de la semaine à la date. Cette expression ajoute uniquement des entiers entiers à la date, en arrondissant à la base. </p> <p>L’expression est formatée comme suit :</p><pre>AJOUTERJOURSSEMAINE(date, nombre)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
