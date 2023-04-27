@@ -6,9 +6,9 @@ description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -96,17 +96,9 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
     </tbody> 
    </table>
 
-   Exemple d’image de détails de carte dans l’environnement de production sans accès anticipé aux fonctionnalités activé :
-   ![Détails des cartes ad hoc](assets/boards-edit-ad-hoc-card-071822.png)
-
-   Exemple d’image de détails de carte dans l’environnement de production avec accès anticipé aux fonctionnalités activé :
    ![Détails des cartes ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
 
    Utilisez le panneau de navigation à gauche pour vous déplacer entre les groupes de champs des détails de la carte.
-
-   >[!NOTE]
-   >
-   >Le panneau de navigation de gauche et la possibilité d’ajouter des liens cliquables dans le champ Description ne sont disponibles que par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
 
 1. Cliquez sur **[!UICONTROL Fermer]** pour ajouter la carte au panorama.
 

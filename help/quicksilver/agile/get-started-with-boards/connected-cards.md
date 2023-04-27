@@ -6,9 +6,9 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -139,10 +139,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </table>
 
    Utilisez le panneau de navigation à gauche pour vous déplacer entre les groupes de champs des détails de la carte.
-
-   >[!NOTE]
-   >
-   >Le panneau de navigation de gauche et la possibilité d’ajouter des liens cliquables dans le champ Description ne sont disponibles que par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
 
 1. Cliquez sur **[!UICONTROL Fermer]** pour revenir au panorama.
 L’objet connecté, les personnes désignées, les balises, la date d’échéance, le compteur de liste de contrôle, l’estimation des heures et l’état s’affichent sur la carte.
