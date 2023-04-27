@@ -5,7 +5,7 @@ title: Glossaire [!DNL Adobe Workfront] terminologie
 description: Le [!DNL Adobe Workfront] Le glossaire répertorie les termes fréquemment utilisés dans Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
 source-wordcount: '19138'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <td>[!UICONTROL Coût des dépenses réelles]</td> 
    <td> <p>Somme des [!UICONTROL Montants réels] pour toutes les dépenses enregistrées pour un projet ou une tâche.</p> <b>EXEMPLE </b>
    <p>Si vous créez une dépense pour la tâche 1 et que vous saisissez 600,00 $ dans le champ [!UICONTROL Montant réel] , le [!UICONTROL Coût réel des dépenses] de cette tâche est de 600,00 $. </p> 
-   <p>Pour un projet, [!DNL Workfront] utilise la formule suivante pour calculer le coût des dépenses réelles :</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)</code> <br> </p> 
+   <p>Pour un projet, [!DNL Workfront] utilise la formule suivante pour calculer le coût des dépenses réelles :</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
@@ -1632,7 +1632,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
    <td>Détails de l’état actuel d’un projet.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Coût du projet budgété]</td> 
+   <td>[!UICONTROL Coût budgété du projet]</td> 
    <td> <p> Il s’agit du [!UICONTROL Coût budgété] d’un projet tel qu’il s’affiche dans les listes et les rapports.</p><p>Voir aussi "[!UICONTROL Coût budgété]" dans cet article.</p></td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 

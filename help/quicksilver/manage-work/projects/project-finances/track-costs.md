@@ -7,9 +7,9 @@ description: Vous pouvez effectuer le suivi des coûts des projets, tâches et p
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2418'
 ht-degree: 1%
 
 ---
@@ -158,12 +158,18 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 
 >[!NOTE]
 >
+>Le coût réel des dépenses du projet est calculé comme suit :
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>Ces coûts ne sont pas dupliqués dans le calcul du coût réel. Par exemple, si un coût fixe fait partie du coût réel du projet, il n’est pas ajouté séparément au coût réel.
+
+>[!NOTE]
+>
 >Lors de la connexion à un projet, les scénarios suivants existent lors du calcul du coût réel de la main-d’oeuvre pour le projet :
 >
 >* Par défaut, Workfront utilise le taux de coût par heure de l’utilisateur pour calculer le coût réel de la main-d’oeuvre.
 >* Si l’utilisateur qui consigne l’heure n’est associé à aucun coût, Workfront utilise le taux de coût par heure du rôle Principal de l’utilisateur.
 >* Si votre administrateur Workfront a activé la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** dans la zone Préférences Heures et Heures , et le temps de connexion de l’utilisateur sur le projet sélectionne un rôle différent à associer à ce moment, le coût réel du projet calcule en fonction du rôle spécifié lorsque les heures ont été enregistrées. Pour plus d’informations sur l’activation de la durée de journalisation pour un rôle de tâche spécifique, voir l’article [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 
 ### Méthode de calcul des types de coûts par Workfront pour les tâches {#how-workfront-calculates-cost-types-for-tasks}
