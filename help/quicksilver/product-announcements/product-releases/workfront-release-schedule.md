@@ -7,9 +7,9 @@ description: L’environnement Aperçu est mis à jour une fois par semaine avec
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
+source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,12 @@ Voici les types de programmes bêta disponibles à partir de Workfront :
    * Des informations sur le moment où des fonctionnalités sont publiées dans une version bêta publique sont incluses dans les pages de mise à jour du produit.
 
 Pour plus d’informations sur les notes de mise à jour des produits, voir [Versions de produit](../../product-announcements/product-releases/product-releases.md).
+
+## Autres versions
+
+Parfois, Workfront peut mettre à jour des fonctionnalités qui peuvent ne pas être documentées dans les notes de mise à jour, les mises à jour de maintenance ou dans les articles de documentation proprement dits. Cela se produit dans le but de tester de nouvelles fonctionnalités avant de les rendre permanentes. En règle générale, ces tests sont publiés pour un nombre limité de clients, mais il peut arriver qu’ils soient publiés à tout le monde.
+
+Si vous rencontrez quelque chose dans le système qui ne correspond pas à la documentation, nous vous demandons de bien vouloir contacter notre équipe d’assistance clientèle. Pour plus d’informations, voir [Contacter le service clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Notes de mise à jour
 

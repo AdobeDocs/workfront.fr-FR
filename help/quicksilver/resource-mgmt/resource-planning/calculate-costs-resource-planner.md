@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Calcul des coûts dans le planificateur de ressources
-description: '"(Alina : ***Lié à l’article Planification dans le planificateur de ressources, Présentation des zones du planificateur de ressources. - ne pas déplacer/modifier/supprimer.)'''
-author: Alina
+description: Vous pouvez budgéter vos ressources dans le planificateur de ressources Adobe Workfront à l’aide des valeurs de coût, au lieu des valeurs Heures ou ETR. Les valeurs de coût ne sont pas disponibles pour la vue **Vue par utilisateur** dans le planificateur de ressources.
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 Vous pouvez budgéter vos ressources dans le planificateur de ressources Adobe Workfront à l’aide des valeurs de coût, au lieu des valeurs Heures ou ETR. Les valeurs de coût ne sont pas disponibles pour la variable **Afficher par utilisateur** dans le planificateur de ressources.
 
@@ -70,7 +72,7 @@ Pour afficher les informations disponibles, prévues et budgétées par coût da
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **Ressource**.
-1. Accédez à .
+1. Accédez au planificateur de ressources.
 1. (Conditionnel) Sélectionnez **Afficher par projet** ou **Afficher par rôle**.\
    Par défaut **Afficher par projet** est sélectionnée.\
    Les informations d’attribution et de disponibilité s’affichent dans la section Heures.

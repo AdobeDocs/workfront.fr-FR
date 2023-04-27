@@ -5,9 +5,9 @@ title: Glossaire [!DNL Adobe Workfront] terminologie
 description: Le [!DNL Adobe Workfront] Le glossaire répertorie les termes fréquemment utilisés dans Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '19138'
+source-wordcount: '19387'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <ul>
    <li><strong>[!UICONTROL Coût budgété]</strong>: dans le panneau [!UICONTROL Business Case Summary]</li>
    <li><strong>Coût [!UICONTROL]</strong>: dans les zones [!UICONTROL Utilisation] lors de l’affichage des informations par [!UICONTROL Cost]</li>
-   <li><strong>[!UICONTROL Coût budgété du projet]</strong>: dans les listes et les rapports</li>
+   <li><strong>[!UICONTROL Coût du projet budgété]</strong>: dans les listes et les rapports</li>
    </ul>   
     <p>Le coût [!UICONTROL budgété] du projet est calculé à l’aide de la formule suivante :</p> 
     <p><code>[!UICONTROL Project Budgeted Cost] (or [!UICONTROL Budgeted Cost]) = [!UICONTROL Budgeted Expense Cost] + [!UICONTROL Budgeted Labor Cost] + [!UICONTROL Fixed Cost] of the project</code> </p> 
@@ -844,11 +844,32 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <td>[!UICONTROL External]</td> 
    <td> <p>En règle générale, un type de licence, ou un utilisateur disposant d’une telle licence, qui a uniquement la possibilité de consulter les informations du système.</p> <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] Présentation des licences</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL Système externe]</td> 
    <td>Tout service ou logiciel stocké et géré en dehors du système d’enregistrement désigné.</td> 
-  </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Field]</td> 
+   <td><p>Tout objet Workfront ou les informations qui lui sont associées, telles qu’elles apparaissent dans la base de données. </p>
+   <p>Par exemple, "projet", "utilisateur", "heure" sont à la fois des objets Workfront et des champs. "Nom", "statut", "propriétaire", "date de début" sont des champs Workfront associés aux objets ci-dessus. </p>
+
+<p>En ce qui concerne les objets, les termes "objets" et "champs" peuvent être interchangeables.</p>
+   <p>Dans le cadre de la création de rapports, les "champs" se rapportent aux objets ou aux informations sur l’objet que vous souhaitez capturer dans le rapport.</p>
+
+<p><b>NOTE</b></p>
+
+<p>Dans les rapports texte-more, les champs font référence aux objets ou à leurs informations tels qu'ils apparaissent dans la base de données.</p>
+   <p>Il arrive que le nom affiché dans l’interface utilisateur soit différent de celui du champ de la base de données. Par exemple, "issue" est le nom de l’objet dans l’interface de Workfront, mais "opTask" est le nom de l’objet (ou du champ) dans la base de données Workfront. </p> 
+   <p> Il est important d’utiliser le champ tel qu’il apparaît dans la base de données lors de l’écriture d’un rapport en mode texte, de l’affichage, du filtrage ou du regroupement, ou lors de la création d’un champ calculé.</p>
+
+<p>Pour plus d’informations, voir <a href="../../../wf-api/general/api-explorer.md">Explorateur d’API</a> et <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Présentation du mode texte</a>.</p>
+
+<p>Par défaut, Workfront est fourni avec un ensemble de champs qui définissent les objets et leurs informations. Vous pouvez également créer des champs personnalisés pour définir des objets, mais vous ne pouvez pas créer d’objets personnalisés.</p> 
+   </td> 
+  </tr>
+
+<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>Un des principaux blocs de création d’un rapport ou d’un élément de liste qui définit les informations affichées à l’écran. Pour plus d’informations sur les éléments de reporting, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Éléments de reporting : filtres, vues et regroupements</a>.</p> <p>Le filtre détermine les résultats qui s’affichent dans un rapport ou sur une [!DNL Workfront] liste de panneaux, comme les projets, les tâches ou les problèmes.</p> </td> 
   </tr> 
@@ -1300,7 +1321,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
-   <td> <p>Éléments de travail et rapports d’une organisation, ainsi que les groupes d’utilisateurs qui les gèrent dans [!UICONTROL Workfront]. Les objets peuvent être :</p> 
+   <td> <p>Les informations que vous affichez dans [!DNL Adobe Workfront] est représenté par des objets qui sont stockés dans la variable [!DNL Workfront] base de données. Les objets sont ce qui motive les informations dans Workfront. Voici quelques exemples d’objets :</p> 
     <ul> 
      <li>[!UICONTROL Portfolio]</li> 
      <li>[!UICONTROL Programmes]</li> 
@@ -1314,7 +1335,17 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
      <li>[!UICONTROL Équipes]</li> 
      <li>Utilisateurs [!UICONTROL]</li> 
      <li>[!UICONTROL Entreprises]</li> 
-    </ul> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Présentation des objets dans [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+     <li>[!UICONTROL Formulaires personnalisés]</li>
+     <li>[!UICONTROL Champs personnalisés]</li>  
+     <li>[!UICONTROL Hours]</li> 
+     <li>[!UICONTROL Taux de facturation]</li> 
+     <li>[!UICONTROL Modèles]</li> 
+     <li>[!UICONTROL Tâches de modèle]</li>
+
+<p><b>NOTE</b></p>
+  <p>Ce n'est pas une liste exhaustive. </p>
+
+</ul> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Présentation des objets dans [!UICONTROL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Types d’objet]</td> 
@@ -1632,7 +1663,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
    <td>Détails de l’état actuel d’un projet.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Coût budgété du projet]</td> 
+   <td>[!UICONTROL Coût du projet budgété]</td> 
    <td> <p> Il s’agit du [!UICONTROL Coût budgété] d’un projet tel qu’il s’affiche dans les listes et les rapports.</p><p>Voir aussi "[!UICONTROL Coût budgété]" dans cet article.</p></td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 

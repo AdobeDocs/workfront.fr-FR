@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion offre une intégration à Outlook. Cet artic
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,11 @@ Lors de la configuration du client, l&#39;utilisateur doit sélectionner l&#39;u
 
 Les exigences du serveur de messagerie sont remplies par défaut lorsque vous vous connectez à [!DNL Office 365] ou [!DNL Outlook.com]. Cependant, si vous êtes connecté à une installation on-premise de [!DNL Exchange Server], les exigences suivantes s’appliquent :
 
-* Nous soutenons [!DNL Exchange 2016 On-Premise]
+* Nous soutenons tous [!DNL Exchange On-Premise] serveurs
 * [!DNL Exchange Web Services] (EWS) doit être activé et exposé à Internet.
 * Le serveur doit disposer d’un certificat d’authentification valide pour que le serveur puisse émettre des jetons d’identité valides. Nouvelles installations de [!DNL Exchange Server] incluez un certificat d’authentification par défaut.
 
-   Pour plus d’informations, voir [Certificats numériques et chiffrement dans [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) et [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).
+   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
 * Pour accéder à la variable [!DNL Workfront] du module complémentaire [[!DNL Office] Magasin](https://store.office.com/), vos serveurs d’accès client doivent pouvoir communiquer avec  [https://store.office.com](https://store.office.com/).
 
