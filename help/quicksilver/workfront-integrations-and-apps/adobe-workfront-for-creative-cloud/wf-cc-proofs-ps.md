@@ -6,9 +6,9 @@ description: Vous pouvez charger vos tableaux d’art en tant que bons à tirer 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: 698affafa8771e9e91b725908d4782a2af12c0b8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur le bouton **[!UICONTROL Document]** icon ![](assets/documents.png) dans la barre de navigation.
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du module externe.
 1. Activez la variable **[!UICONTROL Créer un BAT]** bascule.
-1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. (Facultatif) Saisissez un nom pour le BAT dans le champ **[!UICONTROL Nom du BAT]** zone de texte.
 1. Dans le **[!UICONTROL Approbations des BAT]** , sélectionnez **[!UICONTROL De base]**.
 1. (Facultatif) Ajoutez des approbateurs.
 1. (Facultatif) Saisissez un commentaire dans le champ **[!UICONTROL Mises à jour]** zone.
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. (Facultatif) Saisissez le nom du BAT dans la**[!UICONTROL Nom du BAT]** zone de texte.
+1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
+
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un fichier externe]** pour ajouter un fichier de votre ordinateur.
-1. Cliquez sur **[!UICONTROL Télécharger]**.
+1. Cliquez sur **[!UICONTROL Télécharger]**, puis configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
 
    ![](assets/plugin-files-350x307.png)\
    Le document apparaît dans la [!UICONTROL Documents] dans le module externe et l’appli de bureau.
+
 
 ## Téléchargement d’un BAT automatisé
 
@@ -93,25 +92,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur le bouton **[!UICONTROL Document]** icon ![](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du module externe.
-1. Activez la variable **[!UICONTROL Créer un BAT]** bascule, puis sélectionnez l’option **[!UICONTROL Type de ressource]** dans le menu déroulant.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. Activez la variable **[!UICONTROL Créer un BAT]** bascule.
+1. (Facultatif) Saisissez un nom pour le BAT dans le champ **[!UICONTROL Nom du BAT]** zone de texte.
 1. Dans le **[!UICONTROL Approbations des BAT]** , sélectionnez **[!UICONTROL Automatique]**.
 1. (Facultatif) Dans le **[!UICONTROL Modèle de workflow]** saisissez le nom d&#39;un modèle de workflow de BAT.
 
-<!-- {{adjust-proof-settings}} -->
+{{adjust-proof-settings}}
+
+>[!NOTE]
+>
+> S’il existe des champs obligatoires vides dans le modèle de workflow, les paramètres de BAT automatisés s’ouvrent automatiquement et vous devez renseigner ces champs pour télécharger le BAT.
+
 
 1. (Facultatif) Saisissez un commentaire dans le champ **[!UICONTROL Mises à jour]** zone.
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!--new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. (Facultatif) Saisissez un nom pour le BAT dans le champ **[!UICONTROL Nom du BAT]** zone de texte.
+1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un fichier externe]** pour ajouter un fichier de votre ordinateur.
-1. Cliquez sur **[!UICONTROL Télécharger]**.
-
-   ![](assets/plugin-files-350x307.png)\
-   Le document apparaît dans la [!UICONTROL Documents] dans le module externe et l’appli de bureau.
+1. Cliquez sur **[!UICONTROL Télécharger]**, puis configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
+Le document apparaît dans la [!UICONTROL Documents] dans le module externe et l’appli de bureau.
 
 ## Télécharger une nouvelle version du BAT
 
@@ -125,15 +125,13 @@ Vous pouvez télécharger une nouvelle version d’un BAT. Le module externe mé
 1. Cliquez sur le bouton **[!UICONTROL Document]** icon ![](assets/documents.png)dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouvelle version]** près du bas du module externe.
-1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
-1. Activez la variable **[!UICONTROL Créer un BAT]** bascule, puis sélectionnez l’option **[!UICONTROL Type de ressource]** dans le menu déroulant.
+1. Activez la variable **[!UICONTROL Créer un BAT]** bascule.
 
-   ![](assets/plugin-create-proof-350x182.png)
-
-1. Dans le **[!UICONTROL Validation des BAT]** , choisissez **[!UICONTROL De base]** ou **[!UICONTROL Automatique]**.
+1. Dans le *[!UICONTROL *Validation des BAT]** , choisissez **[!UICONTROL De base]** ou **[!UICONTROL Automatique]**.
 
 1. Ajouter **[!UICONTROL Réviseurs]** ou **[!UICONTROL Modèle de workflow]** en fonction du type de validation sélectionné à l&#39;étape 7.
 
 1. (Facultatif) Saisissez un commentaire dans le champ **[!UICONTROL Mises à jour]** zone.
-1. Cliquez sur **[!UICONTROL Télécharger]**.\
-   Le document apparaît dans la [!UICONTROL Documents] dans le module externe et l’appli de bureau.
+1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
+1. Cliquez sur **[!UICONTROL Télécharger]**, puis configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
+Le document apparaît dans la [!UICONTROL Documents] dans le module externe et l’appli de bureau.

@@ -6,9 +6,9 @@ description: Vous pouvez télécharger vos tableaux de bord en tant que bons à 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Facultatif) Saisissez un commentaire dans le champ **[!UICONTROL Mises à jour]** zone.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ Vous pouvez créer un BAT interactif pour vos tableaux de bord à l’aide de la
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Facultatif) Saisissez un commentaire dans le champ **[!UICONTROL Mises à jour]** zone.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -186,7 +190,7 @@ Vous pouvez créer un BAT interactif pour vos tableaux de bord à l’aide de la
 
    >[!IMPORTANT]
    >
-   >Les utilisateurs doivent avoir accès au [!UICONTROL Visionneuse de vérification de poste de travail] pour examiner et approuver les bons à tirer interactifs. Pour plus d’informations, voir [Installez le [!UICONTROL Visionneuse de vérification de poste de travail]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Les utilisateurs doivent avoir accès au [!UICONTROL Visionneuse de vérification de poste de travail] pour examiner et approuver les bons à tirer interactifs. Pour plus d’informations, consultez [Installation [!UICONTROL du lecteur de vérification pour bureau]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Télécharger une nouvelle version du BAT
 
@@ -229,6 +233,8 @@ Vous pouvez télécharger une nouvelle version d’un BAT. Le module externe mé
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. Choisissez le format d&#39;export parmi les **[!UICONTROL Type de ressource]** menu déroulant.
 

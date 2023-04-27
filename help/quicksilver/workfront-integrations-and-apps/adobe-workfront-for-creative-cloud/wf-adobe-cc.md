@@ -7,9 +7,9 @@ description: Module externe Adobe Workfront pour les applications Creative Cloud
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48333c6d56a102e8f96887dd13f0c799f3233f80
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Vous pouvez utiliser la variable [!DNL Adobe Workfront] pour [!DNL Creative Clou
 * Chargement de fichiers
 * Affichage des projets et des tâches
 * et plus
+
+[Affichez un aperçu vidéo des fonctionnalités disponibles dans la [!DNL Adobe Workfront] pour [!DNL Creative Cloud] plugin](https://video.tv.adobe.com/v/3418801/){target=_blank}.
 
 ## Installation et utilisation du module externe
 

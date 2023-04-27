@@ -6,10 +6,10 @@ description: Vous pouvez installer le module externe Adobe Workfront for XD depu
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> -->
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Vous devez disposer d’un [!DNL Adobe Creative Cloud] en plus d’une [!DNL Workfront] licence.</td> 
+   <td><p>Vous devez disposer d’un [!DNL Adobe Creative Cloud] en plus d’une [!DNL Workfront] licence.</p><p>Pour plus d’informations, voir <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Politique de prise en charge des Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
