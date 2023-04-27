@@ -6,7 +6,7 @@ description: Gestion des informations dans la zone Finance du projet
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
@@ -189,22 +189,18 @@ Pour modifier les informations sur le sous-onglet Finance de projet :
       <td>Indiquez le budget de ce projet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Coûts fixes</strong> </td> 
+      <td role="rowheader">Coûts fixes</td> 
       <td>Indiquez le coût fixe de ce projet. Cela ne doit pas inclure de coûts de main-d'oeuvre ou de dépenses.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Revenus fixes</strong> </td> 
+      <td role="rowheader">Revenus fixes</td> 
       <td> <p>Indiquez les recettes fixes de ce projet. Cela ne doit pas inclure les recettes provenant d’enregistrements de facturation facturés à des partenaires ou à des tiers.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Devise du projet</td> 
       <td> <p>Indiquez une devise pour ce projet, si elle diffère de la devise par défaut de votre système. La devise par défaut de votre système est définie par votre administrateur Workfront. Pour plus d’informations sur la configuration des taux de change dans Workfront, reportez-vous à l’article <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. Cliquez sur **Save****Changes**.
+1. Cliquez sur **Enregistrer les modifications**.

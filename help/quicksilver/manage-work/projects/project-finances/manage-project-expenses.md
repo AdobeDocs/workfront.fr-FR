@@ -6,7 +6,7 @@ description: Le processus de création et de gestion des dépenses est le même 
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 1%
@@ -52,10 +52,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Positionnez-vous au niveau du projet où vous souhaitez renseigner vos dépenses.\
    Si vous souhaitez ajouter des dépenses à une tâche, accédez plutôt à une tâche. 
-1. Cliquez sur **Afficher**** Plus**, puis cliquez sur **Dépenses.**
-1. Cliquez sur **Ajoutez une dépense.**
-Le/la/les 
-**Ajouter une dépense** s’affiche.
+1. Cliquez sur **Afficher plus**, puis cliquez sur **Dépenses**.
+1. Cliquez sur **Ajouter une dépense** .
+Le **Ajouter une dépense** s’affiche.
 1. Mettez à jour les éléments suivants :
 
    * **Description :** Description de la dépense.
@@ -76,12 +75,12 @@ Le/la/les
 
 1. Sélectionnez une **Formulaire personnalisé** et indiquez toute information supplémentaire requise. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à une dépense. Seuls les principaux formulaires personnalisés s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, reportez-vous à l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Cliquez sur **Enregistrez les modifications.**
+1. Cliquez sur **Enregistrer les modifications**.
 
 ## Supprimer des dépenses
 
 1. Accédez au projet dans lequel vous souhaitez supprimer les dépenses.
-1. Cliquez sur **Show****More**, puis cliquez sur **Dépenses.**
+1. Cliquez sur **Afficher plus**, puis cliquez sur **Dépenses**.
 1. Sélectionnez les dépenses à supprimer, puis cliquez sur **Supprimer** ![Supprimer](assets/delete.png).
 
-1. Cliquez sur **Oui, la supprimer** pour confirmer la suppression. 
+1. Cliquez sur **Oui, la supprimer** pour confirmer la suppression.
