@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
+source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations rapides](#agile-enhancements)
+* [Améliorations de l’intégration](#integration-enhancements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations rapides
@@ -45,9 +46,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtres simples ajoutés au modèle de panorama dynamique</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Les filtres sur le modèle de panorama dynamique ont été simplifiés afin que vous puissiez créer un panorama plus rapidement.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 27 avril 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Version de production pour la pré-inscription : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : Avec la version 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Modèle de tableau dynamique</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Modèle de tableau dynamique</a></p>
                         <p>Un nouveau modèle, la carte dynamique, est désormais disponible pour les panoramas autonomes. Ce modèle n’est pas disponible pour les panoramas à l’intérieur d’un workflow.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -57,7 +76,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Version de production pour la pré-inscription : 27 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                 <p>Version de production pour la pré-inscription : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
                                 <p>Version de production pour tous les clients : Avec la version 23.3</p></span></p>
                             </li>
                         </ul>
@@ -65,7 +84,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migration de cartes Kanban d’équipe agile vers des panoramas</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migration de cartes Kanban d’équipe agile vers des panoramas</a></p>
                         <p>Une nouvelle <b>Ajouter des panoramas</b> sur les panoramas Kanban de l’équipe agile, vous pouvez ajouter toutes les cartes du panorama Kanban à un panorama Workfront. Vous pouvez choisir de créer un panorama Workfront ou d’ajouter les cartes à un panorama existant.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -75,7 +94,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Version de production pour la pré-inscription : 27 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                 <p>Version de production pour la pré-inscription : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
                                 <p>Version de production pour tous les clients : Avec la version 23.3</p></span></p>
                             </li>
                         </ul>
@@ -83,7 +102,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Navigation de gauche ajoutée aux détails des cartes sur les panoramas</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Navigation de gauche ajoutée aux détails des cartes sur les panoramas</a></p>
                         <p>À mesure que d’autres options de champ sont ajoutées aux cartes sur les panoramas Workfront, les détails des cartes sont devenus plus longs. Un nouveau panneau de navigation situé à gauche des détails de la carte vous permet de sélectionner une section et de passer automatiquement à ce groupe de champs.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -93,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Version de production pour la pré-inscription : 27 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                 <p>Version de production pour la pré-inscription : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
                                 <p>Version de production pour tous les clients : Avec la version 23.3</p></span></p>
                             </li>
                         </ul>
@@ -120,7 +139,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Améliorations de l’intégration
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Ajuster les paramètres du modèle de workflow de BAT automatisé à l’aide d’Adobe Workfront pour Creative Cloud</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Vous pouvez désormais ajuster les paramètres de modèle de workflow automatisé existants directement dans le Creative Cloud.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 27 avril 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production : 27 avril 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Autres améliorations
 
@@ -140,7 +192,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Les profils sans avatars affichent désormais les initiales de l’utilisateur.</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Les profils sans avatars affichent désormais les initiales de l’utilisateur.</a></p>
                         <p>Pour faciliter la recherche d’utilisateurs spécifiques dans des listes volumineuses, les profils sans avatars personnalisés affichent désormais leurs initiales sur un arrière-plan coloré dans des listes et des rapports hérités. Il s’agit d’un changement cosmétique mineur qui ne s’applique pas si une photo d’avatar est déjà utilisée ou si l’utilisateur est désactivé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -149,7 +201,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Version d’aperçu : 20 avril 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production : avec la version 23.3</span></p>
+                                <p><span class="preview">Version de production : 4 mai 2023</span></p>
                             </li>
                         </ul>
                     </td>

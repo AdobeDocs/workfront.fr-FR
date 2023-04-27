@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 09f55c5ea7f7bc37886ec1bc2fa41ecb5b6b02b0
+source-git-commit: c57f437108fa70030973e227eb84882477ca386c
 workflow-type: tm+mt
-source-wordcount: '12923'
+source-wordcount: '12928'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 1%
       * [Préparation d’une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Version 23.3 {#release-23-3}
          * [Présentation de la version 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [Visualiser les mises à jour pendant la période de publication de la version 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
          * [Semaine d’activité de la version 23.3 du 10 avril 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
          * [Semaine d’activité de la version 23.3 du 17 avril 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
+         * [Semaine d’activité de la version 23.3 du 24 avril 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
+         * [Visualiser les mises à jour pendant la période de publication de la version 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Version 23.2 {#release-23-2}
          * [Présentation de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Améliorations apportées aux administrateurs](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -2387,8 +2388,8 @@ ht-degree: 1%
       * [Modification des paramètres d’alerte par email d’un BAT dans le BAT Workfront](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
    * Gestion des utilisateurs et des contacts dans Workfront Proof {#managing-users-in-wf-proof}
       * [Gestion des utilisateurs et des contacts dans Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      * Utilisateurs {#users}
-         * [Utilisateurs](workfront-proof/wp-mnguserscontacts/users/users.md)
+      * Utilisateurs et utilisatrices {#users}
+         * [Utilisateurs et utilisatrices](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [Création d’utilisateurs à l’aide du BAT Workfront](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [Configuration des informations utilisateur à l’aide du BAT Workfront](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
          * [Création et gestion de profils personnalisés à l’aide du BAT Workfront](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
