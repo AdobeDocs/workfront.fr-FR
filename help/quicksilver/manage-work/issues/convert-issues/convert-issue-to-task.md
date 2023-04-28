@@ -6,9 +6,9 @@ description: Si vous devez travailler davantage pour résoudre un problème une 
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1048'
 ht-degree: 2%
 
 ---
@@ -107,9 +107,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!TIP]
    >
-   >Si un formulaire personnalisé contenant plusieurs objets est configuré pour être utilisé avec les problèmes et les tâches, le formulaire est joint par défaut. Toutes les informations enregistrées dans le formulaire de publication sont conservées pour la tâche lorsque vous effectuez la conversion.
-   >
-   >Si le projet de destination comporte des formulaires par défaut définis dans le champ Task Default Custom Forms lors de la modification du projet, ces formulaires de tâche sont également ajoutés à la nouvelle tâche. Tous les champs personnalisés communs au problème d’origine et les champs des formulaires de tâches par défaut sont préremplis avec les informations des champs de problème.
+   >* Si un formulaire personnalisé contenant plusieurs objets associés au problème est configuré pour être utilisé avec les problèmes et les tâches, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois sur le problème et sur les formulaires personnalisés de la tâche.
+   >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est associé au problème ainsi qu’à la tâche, le problème et la tâche doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements. Pour plus d’informations, voir la section &quot;Champs personnalisés calculés dans les formulaires personnalisés à plusieurs objets&quot; dans la section [Ajout de données calculées à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Si le projet de destination comporte des formulaires par défaut définis dans le champ Task Default Custom Forms lors de la modification du projet, ces formulaires de tâche sont également ajoutés à la nouvelle tâche. Tous les champs personnalisés communs au problème d’origine et les champs des formulaires de tâches par défaut sont préremplis avec les informations des champs de problème.
+
+
 
 1. Cliquez sur [!UICONTROL **Convertir en tâche**].
 

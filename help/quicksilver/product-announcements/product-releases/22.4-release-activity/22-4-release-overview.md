@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3238'
 ht-degree: 0%
 
 ---
@@ -760,11 +760,7 @@ Les fonctionnalités suivantes seront supprimées avec la version 22.4 de produc
 >
 >L’obsolescence du planificateur de ressources a été reportée peu de temps après la version 22.4.
 
-L’équilibreur de charge de travail remplace le planificateur de ressources. Pour plus d’informations sur l’obsolescence et sur la préparation de l’utilisation de l’équilibreur de charge de travail, consultez les ressources suivantes :
-
-* [Obsolescence des outils de planification des ressources dans Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [Migration de la planification des ressources vers l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+L’équilibreur de charge de travail remplace le planificateur de ressources.
 
 * Intégration de zoom
 

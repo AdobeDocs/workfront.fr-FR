@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Pour plus d’informations sur l’affectation d’éléments de travail dans l�
 ## Nouvelle option par défaut pour l’équilibreur de charge de travail
 
 Dans le cadre de nos efforts pour abandonner la planification et rendre l’outil principal d’affectation des ressources de l’équilibreur de charge de travail Workfront obsolète, nous avons fait de l’équilibreur Workfront l’option par défaut pour tous les nouveaux utilisateurs. Actuellement, l’option Planification est l’option par défaut. Cette modification s’applique à toutes les zones dans lesquelles vous pouvez accéder à la Planification, y compris la zone Ressource (dans la nouvelle expérience Adobe Workfront) ou la zone Personnes (dans Adobe Workfront Classic), ainsi qu’au niveau du projet et de l’équipe.
-
-Pour plus d’informations sur l’obsolescence de la planification, voir [Obsolescence des outils de planification des ressources dans Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## Nouvelle expérience de filtrage dans l’équilibreur de charge de travail
 

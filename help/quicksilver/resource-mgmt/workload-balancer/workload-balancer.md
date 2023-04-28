@@ -3,26 +3,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: L’équilibreur de charge de travail
-description: L’équilibreur de charge de travail est un outil de planification des ressources qui remplacera éventuellement les outils de planification des ressources actuels, actuellement obsolètes.
+description: L’équilibreur de charge de travail est un outil de planification des ressources qui vous permet d’affecter des tâches à vos ressources.
 author: Alina
 feature: Resource Management
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 94799ba026e29f614e98444ebfc5ed2c665b29ab
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # L’équilibreur de charge de travail
-
->[!IMPORTANT]
->
->L’équilibreur de charge de travail est un outil de planification des ressources qui remplace les outils de planification actuellement obsolètes.
->
->Pour plus d’informations sur la suppression des outils de planification des ressources et leur remplacement par l’équilibreur de charge de travail, voir [Obsolescence des outils de planification des ressources dans Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->Nous vous recommandons d’utiliser l’équilibreur de charge de travail pour planifier vos ressources.
 
 Pour plus d’informations sur ce qu’est l’équilibreur de charge de travail, comment le parcourir et comment attribuer un travail à l’aide de celui-ci, consultez les articles suivants :
 

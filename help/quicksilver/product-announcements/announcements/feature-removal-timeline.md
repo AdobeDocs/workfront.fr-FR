@@ -7,9 +7,9 @@ description: Diverses fonctionnalités sont en cours de suppression progressive 
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -39,9 +39,9 @@ Diverses fonctionnalités sont en cours de suppression progressive du produit Ad
    <td>La version 21.2 n’est plus prise en charge</td> 
   </tr> 
   <tr> 
-   <td> <p>Paramètres de programmation des ressources</p> <p>L’équilibreur de charge de travail offre une expérience améliorée de planification des ressources.</p> <p>Pour plus d’informations sur l’équilibreur de charge de travail et les comparaisons de fonctionnalités avec les outils de planification des ressources, voir <a href="../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md" class="MCXref xref">Obsolescence des outils de planification des ressources dans Adobe Workfront</a>.</p> </td> 
+   <td> <p>Paramètres de programmation des ressources</p> <p>L’équilibreur de charge de travail offre une expérience améliorée de planification des ressources.</p> <p>Pour plus d’informations sur l’équilibreur de charge de travail, voir <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Présentation de l’équilibreur de charge de travail</a>.</p> </td> 
    <td> </td> 
-   <td> <p>Plus prise en charge le 9 novembre 2020 (avec la version 20.4)</p> <p>--</p> <p>Supprimée de la plateforme Workfront après le premier semestre 2022</p> </td> 
+   <td> <p>Plus prise en charge le 9 novembre 2020 (avec la version 20.4)</p> <p>--</p> <p>Retiré de la plateforme Workfront après le premier semestre 2022</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fusion Workfront héritée</p> <p>Workfront Fusion offre une expérience améliorée de la fusion Workfront héritée.</p> <p>Pour plus d’informations sur Workfront Fusion, voir <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 

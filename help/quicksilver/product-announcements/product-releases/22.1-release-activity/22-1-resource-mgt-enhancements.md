@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ Avant cette amélioration, vous ne pouviez affecter qu’un seul utilisateur à 
 Les nouvelles affectations en bloc comprennent également de nouvelles fonctionnalités de filtrage par projet et état de la tâche, en plus du nom.
 
 Pour plus d’informations, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-
-Pour plus d’informations sur l’obsolescence des outils de planification, voir [Obsolescence des outils de planification des ressources dans Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## Remplacer la devise lors de la gestion des rôles de tâche
 

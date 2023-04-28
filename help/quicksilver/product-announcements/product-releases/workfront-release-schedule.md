@@ -7,9 +7,9 @@ description: L’environnement Aperçu est mis à jour une fois par semaine avec
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,9 @@ Pour plus d’informations sur les notes de mise à jour des produits, voir [Ver
 
 ## Autres versions
 
-Parfois, Workfront peut mettre à jour des fonctionnalités qui peuvent ne pas être documentées dans les notes de mise à jour, les mises à jour de maintenance ou dans les articles de documentation proprement dits. Cela se produit dans le but de tester de nouvelles fonctionnalités avant de les rendre permanentes. En règle générale, ces tests sont publiés pour un nombre limité de clients, mais il peut arriver qu’ils soient publiés à tout le monde.
+Parfois, Workfront peut mettre à jour des fonctionnalités qui peuvent ne pas être documentées dans les notes de mise à jour, les mises à jour de maintenance ou dans l’un des articles de documentation. Cela se produit dans le but de tester de nouvelles fonctionnalités avant de les rendre permanentes. En règle générale, ces tests sont publiés pour un nombre limité de clients, mais il peut arriver qu’ils soient publiés à tout le monde. Ils peuvent être publiés dans les environnements Aperçu ou Production.
 
-Si vous rencontrez quelque chose dans le système qui ne correspond pas à la documentation, nous vous demandons de bien vouloir contacter notre équipe d’assistance clientèle. Pour plus d’informations, voir [Contacter le service clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Si vous rencontrez dans le système quelque chose qui ne correspond pas à la documentation et sur lequel vous avez des questions, nous vous invitons à contacter notre équipe d’assistance clientèle. Pour plus d’informations, voir [Contacter le service clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Notes de mise à jour
 
