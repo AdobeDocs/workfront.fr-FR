@@ -9,9 +9,9 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe Wor
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '5288'
+source-wordcount: '5345'
 ht-degree: 3%
 
 ---
@@ -1665,7 +1665,26 @@ En utilisant des filtres d’abonnement aux événements, les utilisateurs de Fu
 
 Cela diffère de la configuration d’un filtre dans la variable [!DNL Workfront Fusion] . Sans filtre d’abonnement à un événement, votre webhook reçoit tous les événements liés au type d’objet sélectionné. La plupart de ces événements seraient hors de propos dans le scénario et doivent être filtrés avant que le scénario puisse continuer.
 
+Les opérateurs suivants sont disponibles dans le filtre Workfront > Evénements de contrôle :
+
+* Est égal à
+* Non égal à
+* Supérieur à
+* Inférieur à
+* Supérieur ou égal à
+* Inférieur ou égal à
+* Contient
+* Existe
+* N’existe pas
+* Modifié
+
 >[!NOTE]
+>
+> * Le `Exists`, `Does not exist`, et `Changed` ne nécessitent pas de valeur et le champ value est absent de ces options.
+> * Le `Changed` ignore le champ Etat .
+
+
+>[!IMPORTANT]
 >
 >Vous ne pouvez pas modifier les filtres dans les [!DNL Workfront] webhooks. Pour configurer différents filtres pour [!DNL Workfront] abonnements aux événements, supprimez le webhook actuel et créez-en un nouveau.
 
