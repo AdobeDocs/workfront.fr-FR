@@ -7,7 +7,7 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >Nous sommes en train de reconcevoir l’expérience de commentaire dans Adobe Workfront.
->Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle conception pour les objets suivants :
 > * Problèmes lors de l’activation de la version bêta des commentaires.
@@ -83,7 +83,7 @@ La section Mises à jour s’affiche pour les objets suivants :
      <li>Modèles</li> 
      <li>Tâches de modèles</li> 
      <li>Feuilles de temps</li> 
-     <li>Utilisateurs</li> 
+     <li>Utilisateurs et utilisatrices</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -189,7 +189,7 @@ Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jou
 >
 >Pour plus d’informations sur la hiérarchie d’objets dans Adobe Workfront, voir [Présentation des objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> Il n’est pas possible de répondre aux mises à jour du système dans la nouvelle expérience de commentaires bêta. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+> Il n’est pas possible de répondre aux mises à jour du système dans la nouvelle expérience de commentaires bêta. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Limites de la section Mises à jour
 
@@ -199,7 +199,7 @@ Il existe certaines limites dans la section Mises à jour d’une équipe et lor
 
 Vous ne pouvez pas effectuer de mises à jour sur les équipes. La section Mises à jour pour les équipes est renseignée par les mises à jour entrées sur les objets suivants :
 
-* Utilisateurs
+* Utilisateurs et utilisatrices
 * Feuilles de temps
 * Histoires
 * Itérations
