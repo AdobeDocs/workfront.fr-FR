@@ -8,15 +8,14 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
+source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
 
 # Modification du profil d’un utilisateur
-
 
 >[!IMPORTANT]
 >
@@ -200,11 +199,11 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Formulaires personnalisés</td> 
-      <td>Associez un formulaire personnalisé d’utilisateur existant à cet utilisateur. Vous devez créer un formulaire personnalisé pour pouvoir l’associer à un utilisateur. Seuls les principaux formulaires personnalisés s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</td> 
+      <td><p>Associez un formulaire personnalisé d’utilisateur existant à cet utilisateur. Vous devez créer un formulaire personnalisé pour pouvoir l’associer à un utilisateur. Seuls les principaux formulaires personnalisés s’affichent dans la liste. Les champs que vous n’avez pas accès à la modification ne s’affichent pas dans un formulaire personnalisé individuel.</p> <p>Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commentaire</td> 
-      <td> <p>Saisissez le commentaire à envoyer aux utilisateurs et à la zone Mises à jour de leurs profils utilisateur.</p> </td> 
+      <td>Saisissez le commentaire à envoyer aux utilisateurs et à la zone Mises à jour de leurs profils utilisateur.</td> 
      </tr> 
     </tbody> 
    </table>
