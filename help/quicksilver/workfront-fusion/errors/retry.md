@@ -7,7 +7,7 @@ description: Dans certains cas, il est utile de réexécuter un module en échec
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -71,11 +71,11 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 * L’intervalle de reprise minimal est d’une minute.
 * Si le module traite plusieurs lots et que le traitement d’un lot échoue, l’exécution partielle (seul le lot à l’origine de l’erreur) est déplacée vers le dossier des exécutions incomplètes et planifiée pour les reprises en fonction des [!UICONTROL Rompre] paramètres de la directive . Cependant, l’exécution actuelle se poursuit et le module continue à traiter les lots suivants. Vous pouvez activer le[!UICONTROL Traitement séquentiel]&quot; dans la variable [!UICONTROL Paramètres du scénario] pour empêcher le scénario de s’exécuter à nouveau jusqu’à ce que l’exécution stockée dans le dossier Exécutions incomplètes ait été résolue.
 
-Pour plus d’informations sur les exécutions incomplètes, voir [Afficher et résoudre les exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   Pour plus d’informations sur les exécutions incomplètes, voir [Afficher et résoudre les exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### Utilisez la variable [!UICONTROL Répéteur] module
 
-1. Utilisez le **[!UICONTROL Répéteur]** et définissez ses [!UICONTROL Répéter] au nombre maximal de tentatives.
+1. Utilisez le **[!UICONTROL Répéteur]** et définissez ses **[!UICONTROL Répéter]** au nombre maximal de tentatives.
 1. Liez le module potentiellement défaillant à la variable **[!UICONTROL Répéteur]** module .
 1. Joindre un itinéraire de gestionnaire d’erreurs à ce module (voir [Gestion des erreurs dans [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
 1. Liez la variable **[!UICONTROL Outils] > [!UICONTROL Dormir]** sur l’itinéraire du gestionnaire d’erreurs et définissez ses **[!UICONTROL Délai]** du champ correspondant au nombre de secondes entre les tentatives.
