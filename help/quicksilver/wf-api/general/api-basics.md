@@ -8,7 +8,7 @@ feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4478'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
@@ -272,7 +272,7 @@ Le tableau suivant répertorie certains des modificateurs que vous pouvez utilis
 | contient | renvoie des résultats pour lesquels le nom contient &quot;Workfront&quot;. | <pre>...name=Workfront&amp;name_Mod=contains...</pre> |
 | entre | renvoie les résultats dont la date d’entrée est comprise dans les 7 derniers jours. | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=entre...</pre> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 Les requêtes de recherche sont sensibles à la casse. Si une erreur s’affiche, assurez-vous que  **_Mod** et **_Plage** possèdent la bonne casse.
