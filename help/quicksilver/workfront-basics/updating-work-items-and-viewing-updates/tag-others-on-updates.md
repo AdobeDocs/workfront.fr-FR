@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Balisage des autres sur les mises à jour
 description: Lorsque vous fournissez des commentaires de mise à jour sur un objet Adobe Workfront, tous les utilisateurs du projet peuvent voir les informations envoyées. Cependant, il peut arriver que des utilisateurs qui ne se trouvent pas sur le projet aient intérêt à consulter ces informations. Plutôt que d’inclure ces utilisateurs dans le projet, vous pouvez les baliser sur la mise à jour pour les partager avec eux. Les utilisateurs balisés reçoivent une notification d’événement.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1413'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Nous sommes en train de reconcevoir l’expérience de commentaire dans Adobe Workfront.
->Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Vous pouvez accéder à la nouvelle conception pour les objets suivants :
+>Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
 > * Problèmes lors de l’activation de la version bêta des commentaires.
    >
    >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :
@@ -48,13 +49,7 @@ Plutôt que d’inclure ces utilisateurs dans l’objet en les y affectant ou en
 
 >[!NOTE]
 >
->Une notification d’événement doit être activée pour qu’un utilisateur puisse recevoir la notification par e-mail. Les administrateurs peuvent activer les notifications pour l’ensemble du système ou pour un groupe de niveau supérieur. Un utilisateur peut également activer et désactiver des notifications d’événement individuelles dans son propre profil utilisateur. Pour plus d’informations, voir :
->
->* [Configuration des notifications d’événement pour tous les membres du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
->* [Affichage et configuration des notifications d’événement pour un groupe](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
->* [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
->
-
+>L&#39;utilisateur doit activer une notification personnelle dans son profil pour pouvoir recevoir la notification par email. Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Pour plus d’informations sur l’ajout de mises à jour aux objets Workfront, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

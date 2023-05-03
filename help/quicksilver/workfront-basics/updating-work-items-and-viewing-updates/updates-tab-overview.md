@@ -7,7 +7,7 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 4%
@@ -23,9 +23,10 @@ ht-degree: 4%
 >[!NOTE]
 >
 >Nous sommes en train de reconcevoir l’expérience de commentaire dans Adobe Workfront.
->Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Vous pouvez accéder à la nouvelle conception pour les objets suivants :
+>Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
 > * Problèmes lors de l’activation de la version bêta des commentaires.
    >
    >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :

@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '3012'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Nous sommes en train de reconcevoir l’expérience de commentaire dans Adobe Workfront.
->Pour plus d’informations sur la nouvelle mise à jour de l’expérience, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Vous pouvez accéder à la nouvelle conception pour les objets suivants :
+>Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
 > * Problèmes lors de l’activation de la version bêta des commentaires.
    >
    >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour des problèmes et elle n’est pas disponible pour les zones suivantes :
@@ -135,7 +136,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 1. Accédez à l’élément de travail pour lequel vous souhaitez fournir une mise à jour (projet, tâche ou problème, par exemple).
 1. Cliquez sur le bouton **Mises à jour** .
 1. Cliquez sur **Démarrer une nouvelle mise à jour,** saisissez ensuite votre mise à jour.
-1. (Facultatif) Utilisez du texte enrichi ou ajoutez des émoticônes, des liens ou des images à votre mise à jour pour améliorer votre contenu. Pour plus d’informations, reportez-vous à la section &quot;Utiliser du texte enrichi dans une mise à jour Workfront&quot; de cet article.
+1. (Facultatif) Utilisez du texte enrichi ou ajoutez des émoticônes, des liens ou des images à votre mise à jour pour améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) section de cet article
 1. (Facultatif) Mettez à jour l’une des informations suivantes sur l’élément de travail :
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ Le **Commentaires** est sélectionné par défaut.
    * Liste numérotée
    * Ajouter une pièce jointe <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   Pour plus d’informations, reportez-vous à la section &quot;Utiliser du texte enrichi dans une mise à jour Workfront&quot; de cet article. <!--remove this list, above, when we get to parity for Rich Text-->
+   Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article. <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
    >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système.
 
 
-## Utilisation de texte enrichi dans une mise à jour Workfront
+## Utilisation de texte enrichi dans une mise à jour Workfront{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
    Ou
 
-   Cliquez sur le bouton **Ajouter une pièce jointe** icon ![](assets/add-image-paperclip-icon.png) et accédez à l’image sur votre ordinateur lorsque vous utilisez l’expérience bêta de commentaire.
+   Cliquez sur le bouton **Ajouter une pièce jointe** icon ![](assets/add-image-paperclip-icon.png) et accédez à l’image sur votre ordinateur lorsque vous utilisez l’expérience bêta de commentaire. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* L’administrateur Workfront doit activer l’ajout d’images avant que l’icône Image ne s’affiche.
+   >* Votre administrateur Workfront doit activer l’ajout d’images dans la section Mettre à jour les préférences des flux de la zone Interface de Workfront avant de pouvoir voir les icônes Image ou Ajouter une pièce jointe. Pour plus d’informations, voir [Configuration des préférences pour les mises à jour des utilisateurs](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* La taille maximale du fichier image est de 7 Mo. Les types de fichiers image pris en charge sont .jpg, .gif et .png.
-   >* Les images sont accessibles uniquement à partir de l’onglet Mises à jour d’un objet et elles ne sont pas disponibles dans l’onglet Documents.
+   >* Les images sont accessibles à partir de la section Mises à jour d’un objet et elles sont également disponibles dans la zone Documents.
+   >* <!--In the current commenting experience,--> Lorsque vous supprimez un commentaire qui contient une image, l’image reste dans la zone Documents, mais n’est plus visible dans la section Mises à jour .
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
 
 1. Cliquez sur **Mettre à jour**  ou **Envoyer**, lors de l’utilisation de l’expérience bêta de commentaire.
@@ -392,7 +396,7 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 
    >[!NOTE]
    >
-   >La suppression d’une mise à jour avec une image jointe supprime le commentaire et l’image.
+   >La suppression d’une mise à jour avec une image jointe supprime le commentaire et l’image. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 
    Lorsque des réponses sont associées au commentaire que vous supprimez, il est indiqué que le commentaire a été supprimé avec le nom de l’utilisateur qui l’a supprimé.
 

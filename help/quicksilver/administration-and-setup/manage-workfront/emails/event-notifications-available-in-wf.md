@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '5008'
 ht-degree: 25%
 
 ---
@@ -47,7 +47,7 @@ Voir aussi [Notifications : Action nécessaire](../../../workfront-basics/using-
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Utilisateur</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice</p> </td> 
    <td> <p>Demande d’accès à l’utilisateur</p> </td> 
    <td> <p>Quelqu'un me demande un accès.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -220,11 +220,8 @@ Voir aussi [Notifications : Demandes que j’ai faites](../../../workfront-basic
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Ajout de document à une demande de bureau d'aide - Envoi au créateur du problème</p> </td> 
-   <td> <p>Un document est modifié ou téléchargé sur un problème pour lequel je suis le contact principal.</p> <p>Le contact Principal du problème reçoit une notification par e-mail lorsqu’un document est téléchargé ou modifié sur le problème, sauf si l’utilisateur qui a téléchargé ou modifié le document est également le contact Principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente . <!-- BROUILLÉ DANS FLARE : Pour plus d’informations sur la publication d’un projet en tant que file d’attente des demandes d’aide, voir 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Présentation de l’onglet Détails de la file d’attente dans un projet</a>.
-
-    --></p> </td>
-<td> <p>Actif</p> </td> 
+   <td> <p>Un document est modifié ou téléchargé sur un problème pour lequel je suis le contact principal.</p> <p>Le contact Principal du problème reçoit une notification par e-mail lorsqu’un document est téléchargé ou modifié sur le problème, sauf si l’utilisateur qui a téléchargé ou modifié le document est également le contact Principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .</p> </td> 
+   <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
@@ -234,6 +231,11 @@ Voir aussi [Notifications : Demandes que j’ai faites](../../../workfront-basic
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## Communication
 
@@ -266,12 +268,10 @@ Voir aussi [Notifications : Communication](../../../workfront-basics/using-notif
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Utilisateur</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice</p> </td> 
    <td>Mise à jour dirigée vers l’utilisateur</td> 
-   <td> <p>Quelqu'un m'inclut sur une mise à jour dirigée.</p> <p>Une mise à jour ciblée est effectuée lorsqu’un utilisateur inclut spécifiquement un autre utilisateur dans une mise à jour, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Balisage des autres sur les mises à jour</a>.</p> <p>Dans ce cas, l’utilisateur inclus dans la mise à jour redirigée reçoit une notification par courrier électronique concernant la mise à jour.</p> <p>La notification électronique n’est envoyée que si l’utilisateur dispose des droits d’accès à l’objet&lt;!&gt;— BROUILLÉ DANS FLARE : et n’est pas le même utilisateur que celui qui saisit la mise à jour
-
-    -->. &lt;/p> &lt;p>Cette notification d’événement est activée par défaut et ne peut pas être désactivée.&lt;/p> &lt;/td>
-<td> <p>Actif</p> </td> 
+   <td> <p>Quelqu'un m'inclut sur une mise à jour dirigée.</p> <p>Une mise à jour ciblée est effectuée lorsqu’un utilisateur inclut spécifiquement un autre utilisateur dans une mise à jour, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Balisage des autres sur les mises à jour</a>.</p> <p>Dans ce cas, l’utilisateur inclus dans la mise à jour redirigée reçoit une notification par courrier électronique concernant la mise à jour.</p> <p>La notification électronique n’est envoyée que si l’utilisateur dispose des droits d’accès à l’objet et s’il le garde activé dans son profil.  </p> <p>Cette notification d’événement est activée par défaut et ne peut pas être désactivée.</p> </td> 
+   <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Équipe</p> </td> 
@@ -309,6 +309,10 @@ Voir aussi [Notifications : Communication](../../../workfront-basics/using-notif
  </tbody> 
 </table>
 
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
+
 ## Informations de validation
 
 Voir aussi [Notifications : Informations de validation](../../../workfront-basics/using-notifications/notifications-approval-information.md).
@@ -328,7 +332,7 @@ Voir aussi [Notifications : Informations de validation](../../../workfront-basic
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Utilisateur</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice</p> </td> 
    <td> <p>Délégation d'approbation envoyée à un autre utilisateur</p> </td> 
    <td> <p>Je suis délégué en tant qu'approbateur.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -398,7 +402,7 @@ Voir aussi [Notifications : Informations sur le travail qui m&#39;est assigné](
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Décision d’approbation d’émettre attribuée à</p> </td> 
+   <td> <p>Décision d’approbation de la publication affectée à</p> </td> 
    <td> <p>Lorsqu'un événement est approuvé ou rejeté, envoyer un e-mail au cessionnaire.</p> <p>La personne désignée pour un problème reçoit une notification par courrier électronique lorsqu’une décision d’approbation est prise (approuvée ou rejetée).</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
@@ -429,11 +433,8 @@ Voir aussi [Notifications : Informations sur le travail qui m&#39;est assigné](
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Ajout de document à une demande de bureau d'aide - Envoi à la personne chargée du problème</p> </td> 
-   <td> <p>Les documents sont téléchargés ou modifiés à ma demande.</p> <p>La personne désignée pour le problème reçoit une notification par courrier électronique lorsque des documents sont chargés ou modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par courrier électronique n’est pas envoyée si l’utilisateur qui a participé au problème est la personne désignée pour le problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .<!-- BROUILLÉ DANS FLARE : Pour plus d’informations sur la publication d’un projet en tant que file d’attente des demandes d’aide, voir 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Présentation de l’onglet Détails de la file d’attente dans un projet</a>.
-
-    --></p> </td>
-<td> <p>Actif</p> </td> 
+   <td> <p>Les documents sont téléchargés ou modifiés à ma demande.</p> <p>La personne désignée pour le problème reçoit une notification par courrier électronique lorsque des documents sont chargés ou modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par courrier électronique n’est pas envoyée si l’utilisateur qui a participé au problème est la personne désignée pour le problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .</p> </td> 
+   <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
@@ -461,6 +462,11 @@ Voir aussi [Notifications : Informations sur le travail qui m&#39;est assigné](
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## Informations sur les projets sur lesquels je travaille
 
@@ -739,12 +745,7 @@ Voir aussi [Notifications : Informations diverses](../../../workfront-basics/usi
    <td> </td> 
    <td> <p>Notification d'erreur</p> </td> 
    <td> <p>Une erreur qui nécessite votre attention a été trouvée.</p> <p>Une notification par courrier électronique est générée une fois que Workfront a tenté de se connecter à un compte POP et qu’il n’y a pas réussi. Après 25 tentatives, Workfront désactive la connexion au compte POP afin de préserver les ressources et envoie une notification. </p> <p>La notification est envoyée par courrier électronique au propriétaire du projet, si le courrier électronique POP est associé à une file d’attente de requêtes, ou aux administrateurs Workfront, si le compte POP est associé à la fonction "Courrier entrant" dans la configuration des emails.
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
@@ -754,7 +755,7 @@ Voir aussi [Notifications : Informations diverses](../../../workfront-basics/usi
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Utilisateur</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice</p> </td> 
    <td> <p>Nouvel utilisateur envoyé à l'utilisateur</p> </td> 
    <td> <p>Lorsqu'un nouvel utilisateur est créé dans Workfront, envoyer un e-mail à l'utilisateur.</p> <p>Une fois le nouvel utilisateur créé, il reçoit une invitation par courrier électronique l’informant qu’un compte Workfront a été créé et lui demandant de définir son mot de passe.</p> <p>Lors de la création d’un nouvel utilisateur, les utilisateurs peuvent sélectionner l’option "Envoyer un courrier électronique d’invitation à cette personne" (comme décrit dans la section <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Ajout d’utilisateurs</a><span style="font-weight: 400;">). Cependant, lorsque l’option "Nouvel utilisateur à l’utilisateur" est activée globalement, tous les nouveaux utilisateurs reçoivent l’invitation par courrier électronique, que l’option "Envoyer un courrier électronique d’invitation à cette personne" soit sélectionnée ou non.</span></p> </td> 
    <td> Inactif </td> 
@@ -766,7 +767,7 @@ Voir aussi [Notifications : Informations diverses](../../../workfront-basics/usi
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Utilisateur</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice</p> </td> 
    <td> <p>Partage d'objet envoyé à l'utilisateur</p> </td> 
    <td> <p>Quelqu'un partage un objet avec moi.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -797,6 +798,14 @@ Voir aussi [Notifications : Informations diverses](../../../workfront-basics/usi
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## Délégation
 

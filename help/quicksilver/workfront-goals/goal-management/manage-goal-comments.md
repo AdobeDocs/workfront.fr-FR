@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -159,8 +159,8 @@ Cela ouvre la liste des objectifs.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
-1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez l’un des utilisateurs balisés.
-Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
+1. Modifiez les informations du commentaire, ajoutez ou supprimez des images, ou supprimez l’un des utilisateurs balisés.
+Vous pouvez modifier votre commentaire dans les 15 minutes suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
