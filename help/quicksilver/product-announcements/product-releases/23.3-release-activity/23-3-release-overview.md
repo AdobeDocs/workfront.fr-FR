@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3a052c8f6d22c513763875526d6d2b57f20da0cb
+source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Aperçu de la version : 20 avril 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.3</p>
+                                 <s><p>Version de production pour la pré-inscription : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p></s>
+                                 </li>
+                                 <li>
+                                <p><span class="preview">Version de production pour tous les clients : 18 mai 2012</span>3</p>
                             </li>
                         </ul>
                     </td>
