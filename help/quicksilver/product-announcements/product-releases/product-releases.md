@@ -6,10 +6,10 @@ description: Vous trouverez ci-dessous des liens vers les notes de mise à jour 
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: bb9f8b020a9fd25ff282bf522b92400ad7871f86
+source-git-commit: e9faaf52158030cd48ad11938186054594992c34
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 15%
+source-wordcount: '168'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,10 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">Présentation de la version 23.2</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">Présentation de la version 23.1</a> </p> </li>
     </ul> </td> 
-   <td> </td> 
+   <td>    <ul> 
+     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">Objectifs d’Adobe Workfront avec la version 23.3</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Publication de fusion Adobe Workfront</a> </p> </li> 
+    </ul></td> 
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Versions en 2022</p> 

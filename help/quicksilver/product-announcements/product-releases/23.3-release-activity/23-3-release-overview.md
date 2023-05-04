@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
+source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
-            </tbody>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nouveaux commentaires sur les améliorations de l’expérience bêta</a></p>
+                        <p>Des améliorations ont été apportées à la section Mises à jour . Elles sont disponibles dans le délai de publication de la version 23.3 pour la nouvelle expérience bêta de commentaires. Ces améliorations seront disponibles dans l’environnement de production avec la version 23.3, sauf indication contraire. 
+ </p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : pendant toute la période de la version 23.3<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production : avec la version 23.3 (sauf indication contraire)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
         </table>
 
 ## Annonces
@@ -237,7 +254,7 @@ Aucune mise à jour de BAT Workfront n’est disponible à ce stade de la versio
 
 ### Améliorations des objectifs de Workfront
 
-Aucune mise à jour des objectifs de Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Nouvelles fonctionnalités de la version 23.3 des objectifs de Workfront. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs d’Adobe Workfront avec la version 23.3](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
 ### API version 16
 
