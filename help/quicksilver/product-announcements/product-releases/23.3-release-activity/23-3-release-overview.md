@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
+source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Améliorations de l’intégration](#integration-enhancements)
 * [Autres améliorations](#other-enhancements)
 
+### Améliorations apportées aux administrateurs
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Contrôle au niveau du groupe disponible pour les préférences "Emplacement où les utilisateurs peuvent consigner l’heure" de la feuille de temps et de l’heure</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>L’administrateur système peut désormais verrouiller et déverrouiller les préférences "Où les utilisateurs peuvent consigner l’heure" et "Heure". Lorsque cette préférence est déverrouillée, les administrateurs de groupe peuvent configurer les paramètres "Où les utilisateurs peuvent consigner l’heure" séparément pour chaque groupe.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 4 mai 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production : Avec la version 23.3</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Améliorations rapides
 
 <table>
@@ -48,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtres simples ajoutés au modèle de panorama dynamique</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtres simples ajoutés au modèle de panorama dynamique</a></p>
                         <p>Les filtres sur le modèle de panorama dynamique ont été simplifiés afin que vous puissiez créer un panorama plus rapidement.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
