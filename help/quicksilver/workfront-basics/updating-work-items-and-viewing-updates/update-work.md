@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3085'
 ht-degree: 1%
 
 ---
@@ -330,10 +330,13 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >* Votre administrateur Workfront doit activer l’ajout d’images dans la section Mettre à jour les préférences des flux de la zone Interface de Workfront avant de pouvoir voir les icônes Image ou Ajouter une pièce jointe. Pour plus d’informations, voir [Configuration des préférences pour les mises à jour des utilisateurs](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* La taille maximale du fichier image est de 7 Mo. Les types de fichiers image pris en charge sont .jpg, .gif et .png.
    >* Les images sont accessibles à partir de la section Mises à jour d’un objet et elles sont également disponibles dans la zone Documents.
-   >* <!--In the current commenting experience,--> Lorsque vous supprimez un commentaire qui contient une image, l’image reste dans la zone Documents, mais n’est plus visible dans la section Mises à jour .
-
-   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
+   >* Lorsque vous supprimez un commentaire qui contient une image, les scénarios suivants existent selon l’expérience choisie :
+      >
+      >     * Dans l’expérience de commentaire actuelle, l’image reste dans la zone Documents, mais n’est plus visible dans la section Mises à jour .
+      >     * Dans la nouvelle expérience de commentaire, l’image est supprimée de la section Mises à jour , ainsi que de la zone Documents . L’image est également supprimée de la zone Documents lorsque vous modifiez un commentaire et supprimez l’image.
+   >* Lorsqu’une personne supprime une image jointe à un commentaire de la zone Documents, elle est également supprimée du commentaire.
+
 
 1. Cliquez sur **Mettre à jour**  ou **Envoyer**, lors de l’utilisation de l’expérience bêta de commentaire.
 

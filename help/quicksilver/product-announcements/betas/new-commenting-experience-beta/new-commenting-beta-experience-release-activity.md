@@ -5,9 +5,9 @@ title: "Nouvelle activité de commentaires sur la version bêta"
 description: Passez en revue l’activité de version hebdomadaire pour découvrir la nouvelle expérience de commentaires bêta d’Adobe Workfront.
 author: Alina
 feature: Product Announcements
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ Les informations de cette page font référence à l’activité de publication 
 
 Pour obtenir des informations générales sur la nouvelle expérience bêta de commentaires, y compris une liste des fonctionnalités actuellement disponibles ou en cours de recherche, voir [Nouvelle expérience de commentaire](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
-
 >[!IMPORTANT]
 >
 >Nouvelle expérience de commentaires lancée en version bêta avec la version 23.2. Pour plus d’informations sur la version d’origine, voir [Présentation de la version 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).
@@ -29,18 +27,16 @@ Pour obtenir des informations générales sur la nouvelle expérience bêta de c
 
 Les sections suivantes répertorient les fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
 
-<!--
+## Semaine du 2 mai 2023
 
-## Week of May 2, 2023
+### Les images sont supprimées de la zone Documents lorsque des pièces jointes sont supprimées de commentaires ou lorsque des commentaires contenant une pièce jointe sont supprimés.
 
-### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
+Nous sommes en train de modifier le fonctionnement des pièces jointes lors de la suppression ou de la modification d’un commentaire contenant une pièce jointe. Désormais, lorsque vous modifiez un commentaire et supprimez la pièce jointe, ou lorsque vous supprimez un commentaire contenant une pièce jointe, la pièce jointe est également supprimée de votre zone Documents. Avant cette modification, dans l’expérience de commentaire précédente, les pièces jointes restaient dans la zone Documents. Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+Disponible pour les problèmes de commentaires sur l’expérience bêta et pour les objectifs Workfront, par défaut, aux dates suivantes :
 
-Available for issue commenting Beta experience and for Workfront Goals on the following dates:
+* Aperçu et production : 4 mai 2023
 
-* Preview and Production: May 4, 2023
--->
 
 ## 27 avril 2023
 
