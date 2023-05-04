@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1310'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s�
     </tbody> 
    </table>
 
-1. Dans le **[!UICONTROL Temps de journalisation]** , configurez l’une des options suivantes :
+1. Dans le **[!UICONTROL Où les utilisateurs peuvent consigner l’heure]** , configurez l’une des options suivantes :
 
    <table style="table-layout:auto">
     <tr>
@@ -110,7 +110,7 @@ Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s�
     </tr>
    </table>
 
-1. Dans le **[!UICONTROL Préremplir les feuilles de temps avec]**&#x200B; , configurez l’une des options suivantes :
+1. Dans le **[!UICONTROL Préremplissage des feuilles de temps]** , configurez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,11 +135,7 @@ Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s�
     </tbody> 
    </table>
 
-1. Dans le **[!UICONTROL Préférences de suppression de projet, de tâche ou de problème]** , spécifiez les informations suivantes :
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
-   -->
+1. Dans le **[!UICONTROL Projets, tâches et problèmes supprimés]** , spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 

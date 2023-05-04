@@ -5,30 +5,32 @@ keywords: group,preferences,task,groups,issue,unlock
 navigation-topic: create-and-manage-groups
 title: Configuration des préférences de feuille de temps et d’heure pour un groupe
 description: Au niveau du système, un administrateur Adobe Workfront peut déverrouiller les sections timesheet and hour preferences General Preferences et Pre-Renseignate timesheets with. Cela permet aux administrateurs de groupes de configurer les options de ces sections indépendamment pour leurs propres groupes.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 5%
+source-wordcount: '1368'
+ht-degree: 6%
 
 ---
 
 # Configuration des préférences de feuille de temps et d’heure pour un groupe
 
+{{highlighted-preview}}
+
 Un administrateur Adobe Workfront peut déverrouiller les sections suivantes des préférences de feuille de temps et d’heure au niveau du système afin que les administrateurs de groupe puissent les configurer indépendamment pour leurs propres groupes :
 
 * Préférences générales
-* Renseigner les feuilles de temps automatiquement avec
+* <span class="preview">L’endroit où les utilisateurs et utilisatrices peuvent enregistrer les heures</span>
+* Préremplir les feuilles de temps
 
 S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs de Workfront (pour n’importe quel groupe).
 
 Les sections suivantes de la page des préférences Frise chronologique et Heures ne peuvent être configurées qu’au niveau du système et ne peuvent pas être déverrouillées pour les groupes :
 
-* Temps de journalisation
-* Préférences de suppression des projets, tâches ou événements
+* Projets, tâches et problèmes supprimés
 
 Pour plus d’informations sur la façon dont un administrateur Workfront déverrouille une feuille de temps et des préférences d’heure, consultez la section . [Déverrouiller les préférences de feuille de temps et d’heure pour les groupes ;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) dans l’article [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -134,7 +136,32 @@ Tenez compte des informations suivantes sur la configuration d’une feuille de 
     </tbody> 
    </table>
 
-1. Dans le **Préremplir les feuilles de temps avec** , configurez l’une des options suivantes :
+1. <span class="preview">Dans le **Où les utilisateurs peuvent consigner l’heure** , configurez l’une des options suivantes :</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">Enregistrer le temps directement sur les projets</span></td> 
+      <td><span class="preview">Permet aux utilisateurs de se connecter au projet (à la fois dans l’onglet Mises à jour et dans la feuille de temps). Si vous souhaitez empêcher vos utilisateurs d’enregistrer le temps au niveau du projet, laissez cette option décochée.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Enregistrer le temps sur les projets déjà terminés</span></td>
+      <td><span class="preview">Permet aux utilisateurs d’enregistrer du temps sur un projet marqué comme terminé. Si cette option est désactivée, les utilisateurs ne peuvent pas enregistrer le temps de travail qu’ils ont terminé sur les projets dont l’état est Terminé.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Enregistrer le temps sur les projets inactifs</span></td> 
+      <td><span class="preview">Lorsque cette option est activée, les utilisateurs peuvent ouvrir une session d’heures sur des projets dont l’état est Mort.</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >Cette préférence est appliquée en fonction de la configuration des préférences du groupe d’accueil de l’utilisateur. Si ces paramètres sont activés dans les préférences du groupe d’accueil de l’utilisateur, celui-ci pourra consigner directement le temps passé sur les projets, y compris les projets terminés ou morts, que les préférences du groupe du projet le permettent ou non.
+
+1. Dans le **Préremplir les feuilles de temps** , configurez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
