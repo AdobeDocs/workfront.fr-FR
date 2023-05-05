@@ -7,7 +7,7 @@ description: En tant que chef de projet, vous pouvez utiliser les taux de factur
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Le tableau suivant indique les types de recettes associés aux tâches, problèm
  <tbody> 
   <tr> 
    <td role="rowheader">Revenus prévus</td> 
-   <td> <p>Pour les tâches, il s’agit des recettes associées aux Heures planifiées des tâches. Les Heures planifiées de toutes les tâches sont cumulées aux Heures planifiées du projet pour contribuer au calcul des Heures planifiées du projet. </p> <p>Pour plus d’informations sur les heures planifiées dans Workfront, voir <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Présentation des heures planifiées</a>. </p> <p>Workfront calcule les Recettes prévues pour les tâches et les projets à l’aide des formules suivantes :</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>Pour les tâches, il s’agit des recettes associées aux Heures planifiées des tâches. Les Heures planifiées de toutes les tâches sont cumulées aux Heures planifiées du projet pour contribuer au calcul des Heures planifiées du projet. </p> <p>Pour plus d’informations sur les heures planifiées dans Workfront, voir <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Présentation des heures planifiées</a>. </p> <p>Workfront calcule les Recettes prévues pour les tâches et les projets à l’aide des formules suivantes :</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>NOTE</b>
 
 <p>Les recettes prévues du projet, qui s’affichent dans la zone Détails du projet et dans les rapports du projet, diffèrent des recettes prévues qui s’affichent dans le rapport Utilisation . </p> <p>La zone Recettes planifiées dans les détails du projet reflète les recettes de la tâche associées aux heures planifiées de la tâche ainsi que les recettes fixes du projet. Le rapport Recettes planifiées du rapport Utilisation affiche les Recettes planifiées associées uniquement aux Heures planifiées des affectations de tâche du projet. </p> 
@@ -120,7 +120,7 @@ Le tableau suivant indique les types de recettes associés aux tâches, problèm
   </tr> 
   <tr> 
    <td role="rowheader">Revenu réel*</td> 
-   <td> <p>Associé aux Heures réelles des tâches, problèmes et projets. </p> <p>En règle générale, Workfront calcule les recettes réelles à l’aide de cette formule :</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>Pour plus d’informations sur les calculs des recettes réelles dans le rapport d’utilisation, voir <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Affichage des informations sur l’utilisation des ressources </a>. </p> <p><b>CONSEIL</b>
+   <td> <p>Associé aux Heures réelles des tâches, problèmes et projets. </p> <p>En règle générale, Workfront calcule les recettes réelles à l’aide de cette formule :</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>Pour plus d’informations sur les calculs des recettes réelles dans le rapport d’utilisation, voir <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Affichage des informations sur l’utilisation des ressources </a>. </p> <p><b>CONSEIL</b>
 
 Vous ne pouvez pas afficher les recettes réelles au niveau du problème, mais les recettes associées aux heures réelles sur les problèmes contribuent aux recettes réelles du projet. </p> </td>
 </tr> 
