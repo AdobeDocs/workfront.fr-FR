@@ -6,9 +6,9 @@ title: Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] Pan
 description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Boards] inscription anticipée aux fonctionnalités.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4c59a63d08efe6dcd6be294c49ec98ebf70feed6
+source-git-commit: f77a44a31e57ad8430b162b1c5e6ef355b5fe74d
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   </tr>
   <tr>
    <td>Migration de cartes Kanban héritées vers des panoramas</td>
-   <td>Cette fonctionnalité sera disponible en production le 4 mai 2023 et ne fait pas partie de l’accord préalable sur les fonctionnalités.</td>
+   <td>Cette fonctionnalité sera disponible en production le 18 mai 2023 et ne fait pas partie de l’accord préalable sur les fonctionnalités.</td>
   </tr>
   <tr>
    <td>Création de panoramas dynamiques</td>
@@ -171,6 +171,10 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   <tr>
    <td>Utilisation de la navigation à gauche sur les détails de la carte</td>
    <td>Partiellement publiée</td>
+  </tr>
+  <tr>
+   <td>Utiliser des filtres simplifiés sur la colonne d'entrée</td>
+   <td>Prévu</td>
   </tr>
  </tbody> 
 </table>
