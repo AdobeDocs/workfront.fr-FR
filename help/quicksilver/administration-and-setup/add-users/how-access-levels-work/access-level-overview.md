@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
+source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 4%
@@ -26,7 +26,7 @@ En tant qu’administrateur Adobe Workfront, vous attribuez un niveau d’accès
 
 ## Nouveaux niveaux d’accès intégrés dans Adobe Workfront {#built-in-access}
 
-Workfront dispose de 6 nouveaux niveaux d’accès intégrés :
+Workfront dispose de 5 nouveaux niveaux d’accès intégrés :
 
 * Administrateur système
 * Standard
@@ -97,7 +97,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Rapports (y compris les tableaux de bord et les rapports de calendrier) |   |   | ✓ |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Documents |   |   | ✓ |
-| Utilisateurs |   |   | ✓ |
+| Utilisateurs et utilisatrices |   |   | ✓ |
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
@@ -196,7 +196,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
