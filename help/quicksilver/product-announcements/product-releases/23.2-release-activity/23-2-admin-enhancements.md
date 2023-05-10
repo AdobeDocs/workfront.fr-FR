@@ -4,9 +4,10 @@ description: 23.2 Améliorations apportées aux administrateurs
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
+source-git-commit: b764ac92524b896a4aba9baf337ba14a5bebfa43
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées par l’administrateur à la version 23.2 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version 23.2.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.2, voir [Présentation de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Mappage des valeurs de champ Workfront aux balises dans Experience Manager Assets
+
+Vous pouvez désormais classer et rechercher rapidement des ressources en fonction des données de Workfront.  Vous pouvez mapper ces données dans le cadre de votre configuration de métadonnées dans l’intégration de Workfront for Experience Manager Assets.
+
+Auparavant, le mappage des données Workfront aux balises Experience Manager Assets n’était pas disponible.
+
+Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets as a Cloud Service, [Configurez la variable [!UICONTROL Experience Manager Assets as a Cloud Service] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets Essentials, [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Créer des formulaires personnalisés avec la nouvelle version bêta du concepteur de formulaires
 

@@ -5,9 +5,9 @@ title: Intégrations Adobe Experience Manager Assets
 description: Vous pouvez connecter votre travail avec les intégrations Adobe Experience Manager Assets suivantes.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,76 @@ Vous pouvez mapper [!DNL Workfront] données d’objet aux champs de média de r
 >
 >Vous ne pouvez mapper les métadonnées que dans une seule direction : de [!DNL Workfront] to [!DNL Experience Manager]. Métadonnées pour les documents liés à [!DNL Workfront] de [!DNL Experience Manager] ne peut pas être transféré vers [!DNL Workfront].
 
-
-
 ### Configuration des champs de métadonnées
 
+Avant de commencer à mapper les champs de métadonnées, vous devez configurer les champs de métadonnées dans Workfront et Experience Manager Assets.
+
+Pour configurer les champs de métadonnées :
+
 1. Configuration d’un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configuration du mappage des métadonnées de ressource entre les Adobes [!DNL Workfront] et [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Configurez les champs de formulaire personnalisés dans Workfront. [!DNL Workfront] comporte de nombreux champs personnalisés intégrés que vous pouvez utiliser. Cependant, vous pouvez également créer vos propres champs personnalisés, comme expliqué dans la section [Création ou modification d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Développer pour afficher plus d’informations sur les champs Workfront et Experience Manager Assets pris en charge**
 
-### Ressources
+**Balises Experience Manager Assets**
+
+Vous pouvez mapper n’importe quel champ pris en charge par Workfront à une balise dans Experience Manager Assets. Pour ce faire, vous devez vous assurer que les valeurs de balise dans Experience Manager Assets correspondent à Workfront.
+
+* Les balises et les valeurs de champ Workfront doivent correspondre exactement à l’orthographe et au format.
+* Les valeurs de champ Workfront mappées aux balises de ressources Experience Manager doivent être toutes en minuscules, même si la balise dans Experience Manager Assets semble comporter des lettres majuscules.
+* Les valeurs de champ Workfront ne doivent pas inclure d’espaces.
+* La valeur de champ dans Workfront doit également inclure la structure de dossiers de la balise Experience Manager Assets.
+* Pour mapper plusieurs champs de texte d’une seule ligne à des balises, saisissez une liste séparée par des virgules des valeurs de balise dans le côté Workfront du mappage de métadonnées, et `xcm:keywords` côté Experience Manager Assets. Chaque valeur de champ correspond à une balise distincte. Vous pouvez utiliser un champ calculé pour combiner plusieurs champs Workfront en un seul champ de texte séparé par des virgules.
+* Vous pouvez mapper des valeurs à partir de champs de liste déroulante, de bouton radio ou de case à cocher en saisissant une liste des valeurs disponibles dans ce champ, séparées par des virgules.
+
+
+>[!INFO]
+>
+>**Exemple**: Pour correspondre à la balise affichée dans la structure de dossiers ici, la valeur de champ dans Workfront est `landscapes:trees/spruce`. Notez les minuscules dans la valeur du champ Workfront.
+>
+>Si vous souhaitez que la balise soit située le plus à gauche dans l’arborescence des balises, elle doit être suivie d’un signe deux-points. Dans cet exemple, pour mapper la balise paysage, la valeur de champ dans Workfront est `landscapes:`.
+>
+>![Structure de dossiers dans AEM](assets/aem-folder-structure-with-red-boxes.png)
+
+
+Une fois les balises créées dans Experience Manager Assets, elles s’affichent dans la liste déroulante Balises de la section Métadonnées . Pour lier un champ à une balise, sélectionnez `xcm:keywords` dans la liste déroulante du champ Experience Manager Assets de la zone de mappage des métadonnées.
+
+Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Champs de schéma de métadonnées personnalisés Experience Manager Assets**
+
+Vous pouvez mapper des champs Workfront intégrés et personnalisés à des champs de schéma de métadonnées personnalisés dans Experience Manager Assets.
+
+Les champs de métadonnées personnalisés créés dans Experience Manager Assets sont organisés dans leur propre section dans la zone de configuration des métadonnées.
+
+![section de métadonnées personnalisées](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Champs Workfront**
+
+Vous pouvez mapper des champs Workfront intégrés et personnalisés à Experience Manager Assets. Les valeurs de champ suivantes doivent correspondre dans les deux cas et dans l’orthographe entre Workfront et Experience Manager Assets :
+
+* Champs de liste déroulante
+* Champs à sélection multiple
+
+>[!TIP]
+>
+> Pour vérifier si les valeurs de champ correspondent exactement, accédez à
+>
+> * Configuration > Forms personnalisée dans Workfront ou le champ dans l’objet
+> * Ressources > schémas de métadonnées dans Experience Manager Assets
+
+
++++
+
+### Mappage des métadonnées des ressources
 
 Mappages des métadonnées lorsqu’une ressource est transférée à partir de [!DNL Workfront] pour la première fois. Les documents contenant des champs intégrés ou personnalisés sont automatiquement associés aux champs spécifiés lors de la première envoi d’une ressource à [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->Cette intégration ne prend pas en charge les métadonnées personnalisées de [!DNL Adobe Experience Manager].
 
 Pour mapper les métadonnées des ressources :
 
@@ -125,13 +180,15 @@ Pour mapper les métadonnées des ressources :
    >[!NOTE]
    >
    >Vous pouvez mapper une seule [!DNL Workfront] champ à plusieurs [!UICONTROL Experience Manager Assets] champs. Vous ne pouvez pas mapper plusieurs [!DNL Workfront] à un seul champ [!DNL Experience Manager Assets] champ .
+   ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
+
 
 1. Dans le [!DNL Experience Manager Assets] , recherchez dans les catégories prérenseignées ou saisissez au moins deux lettres dans le champ de recherche pour accéder à d’autres catégories.
 1. Répétez les étapes 2 et 3 si nécessaire.
    ![Champs de métadonnées](assets/asset-metadata.png)
 1. Cliquez sur [!UICONTROL Enregistrer] ou passez à la [Dossiers](#folders) dans cet article.
 
-### Dossiers
+### Mappage des métadonnées des dossiers
 
 Lorsque les utilisateurs créent un dossier lié sur un projet, les données de projet, de portfolio et de programme associées sont mappées aux champs de métadonnées de dossier dans [!DNL Experience Manager Assets].
 
