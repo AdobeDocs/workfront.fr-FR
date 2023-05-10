@@ -4,7 +4,8 @@ description: 23.2 Améliorations apportées au projet
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
+exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->À compter du 23 mars, cette version sera mise en production dans un déploiement échelonné qui prendra fin le 11 mai 2023.
+>À compter du 23 mars, cette version sera mise en production dans un déploiement échelonné qui prendra fin après le 11 mai 2023.
 
 Dans le cadre de la mise à jour de l’aspect de l’expérience Workfront, nous avons repensé la boîte de dialogue Modifier les projets, lors de la modification simultanée de plusieurs projets, en bloc. Vous pouvez accéder à la nouvelle boîte de dialogue Modifier les projets lorsque vous sélectionnez simultanément plusieurs projets dans une liste de projets.
 

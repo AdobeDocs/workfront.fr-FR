@@ -5,7 +5,7 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 0%
@@ -347,7 +347,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                                 <p>Aperçu de la version : 9 mars 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Version de production : À compter du 23 mars, cette version sera mise en production dans un déploiement échelonné qui prendra fin le 11 mai 2023.</span></p>
+                                 <p><span class="preview">Version de production : À compter du 23 mars, cette version sera mise en production dans un déploiement échelonné qui prendra fin après le 11 mai 2023.</span></p>
                             </li>
                         </ul>
                     </td>
