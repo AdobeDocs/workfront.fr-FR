@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Marque Adobe Workfront à l’aide d’un modèle de mise en page
+
+>[!IMPORTANT]
+>
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à [!DNL Adobe Experience Cloud].
+>
+> Si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], l’identité graphique n’est pas disponible.
 
 Vous pouvez utiliser un modèle de mise en page pour personnaliser les logos de la zone de navigation supérieure et du menu principal pour certains groupes, équipes, rôles de tâche et utilisateurs. Cela s’avère particulièrement utile pour les groupes d’une grande entreprise qui possèdent leur propre identité graphique.
 
@@ -23,7 +29,7 @@ Pour plus d’informations sur les modèles de mise en page pour les groupes, vo
 
 >[!NOTE]
 >
->Un administrateur Workfront peut effectuer les mêmes personnalisations de marque pour l’ensemble de l’entreprise au niveau du système, comme expliqué dans la section [Marque votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Mais l’identité graphique d’un modèle de mise en page remplace l’identité graphique au niveau du système. >
+>Un administrateur Workfront peut effectuer les mêmes personnalisations de marque pour l’ensemble de l’entreprise au niveau du système, comme expliqué dans la section [Marque votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Mais l’identité graphique d’un modèle de mise en page remplace l’identité graphique au niveau du système.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

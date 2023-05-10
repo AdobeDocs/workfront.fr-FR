@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Déconnexion de [!DNL Adobe Workfront]
 description: Pour des raisons de sécurité, il est important de se déconnecter de [!DNL Adobe Workfront] régulièrement. Par défaut, [!DNL Workfront] déconnecte automatiquement les utilisateurs après 8 heures d’inactivité.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,12 @@ Pour des raisons de sécurité, il est important de se déconnecter de [!DNL Ado
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à [!DNL Adobe Experience Cloud].
+>
+> Si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], vous vous déconnectez en cliquant sur l’image de votre profil dans le volet de navigation supérieur et en sélectionnant [!UICONTROL **Se déconnecter**] dans le menu. Pour plus d’informations, voir [[!DNL Adobe Unified Experience] pour [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Exigences d’accès
 

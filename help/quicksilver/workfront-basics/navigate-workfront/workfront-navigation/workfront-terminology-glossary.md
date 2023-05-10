@@ -5,9 +5,9 @@ title: Glossaire [!DNL Adobe Workfront] terminologie
 description: Le [!DNL Adobe Workfront] Le glossaire répertorie les termes fréquemment utilisés dans Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '19387'
+source-wordcount: '19399'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
-       --> Rapport de projet (données financières) et ajoutez une matrice de groupement pour la [!UICONTROL Date d’attribution], puis regroupez les résultats chaque semaine, chaque mois, chaque trimestre ou chaque année pour obtenir les données les plus précises.<br>Pour plus d'informations sur la création d'un groupement de matrice, consultez l'article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Créer un rapport de matrice</a>.</p> </li> 
+       --> Rapport de projet (données financières) et ajoutez une matrice de groupement pour la [!UICONTROL Date d’attribution], puis regroupez les résultats chaque semaine, chaque mois, chaque trimestre ou chaque année pour obtenir les données les plus précises.<br>Pour plus d'informations sur la création d'un groupement de matrice, reportez-vous à l'article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Créer un rapport de matrice</a>.</p> </li> 
     </ul> <p>Les informations financières sont renseignées dans les rapports [!UICONTROL Project (Financial Data)] uniquement lorsque les données qui y sont associées ont moins de 5 ans. Par exemple, si un rôle de tâche a été attribué à une tâche en janvier 2015 et qu’aujourd’hui est septembre 2021, un champ financier comme la [!UICONTROL Date d’attribution] du rôle de tâche n’est pas renseigné dans le rapport [!UICONTROL Projet (données financières)]. </p> 
     <div> 
      <p>Pour un rapport [!UICONTROL Hour budgétée] :</p> 
@@ -265,7 +265,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
 
 <tr> 
    <td>[!UICONTROL Marques]</td> 
-   <td>Processus de personnalisation [!DNL Workfront] pour donner à l’interface une apparence qui reflète votre entreprise en utilisant vos couleurs et logos.</td> 
+   <td><p>Processus de personnalisation [!DNL Workfront] pour donner à l’interface une apparence qui reflète votre entreprise en utilisant vos couleurs et logos.</p><p><strong>REMARQUE</strong><br>Si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], l’identité graphique n’est pas disponible.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Chemins de navigation]</td> 
@@ -296,7 +296,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <ul>
    <li><strong>[!UICONTROL Coût budgété]</strong>: dans le panneau [!UICONTROL Business Case Summary]</li>
    <li><strong>Coût [!UICONTROL]</strong>: dans les zones [!UICONTROL Utilisation] lors de l’affichage des informations par [!UICONTROL Cost]</li>
-   <li><strong>[!UICONTROL Coût du projet budgété]</strong>: dans les listes et les rapports</li>
+   <li><strong>[!UICONTROL Coût budgété du projet]</strong>: dans les listes et les rapports</li>
    </ul>   
     <p>Le coût [!UICONTROL budgété] du projet est calculé à l’aide de la formule suivante :</p> 
     <p><code>[!UICONTROL Project Budgeted Cost] (or [!UICONTROL Budgeted Cost]) = [!UICONTROL Budgeted Expense Cost] + [!UICONTROL Budgeted Labor Cost] + [!UICONTROL Fixed Cost] of the project</code> </p> 
@@ -1663,7 +1663,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
    <td>Détails de l’état actuel d’un projet.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Coût du projet budgété]</td> 
+   <td>[!UICONTROL Coût budgété du projet]</td> 
    <td> <p> Il s’agit du [!UICONTROL Coût budgété] d’un projet tel qu’il s’affiche dans les listes et les rapports.</p><p>Voir aussi "[!UICONTROL Coût budgété]" dans cet article.</p></td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
