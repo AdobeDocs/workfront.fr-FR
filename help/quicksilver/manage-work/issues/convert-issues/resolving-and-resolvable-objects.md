@@ -7,7 +7,7 @@ description: Un objet résolvable est un problème dont la résolution est liée
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 1%
@@ -169,7 +169,7 @@ Lorsque vous définissez l’état de la tâche ou du projet sur un état person
 
 Vous pouvez créer des états personnalisés avec la même clé pour les problèmes et les projets ou tâches. Lorsque le projet ou la tâche (en tant qu’objet de résolution) est défini sur l’état personnalisé, la modification se répercute également sur l’état du problème. La clé d’état doit être la même pour le problème et les états du projet ou de la tâche.
 
-Par exemple, créez un état personnalisé de projet nommé &quot;Lancé&quot; avec le code à trois lettres &quot;LCD&quot; qui correspond à &quot;Actuel&quot;. Créez également un état personnalisé de problème nommé &quot;Projet lancé&quot;, avec également le code de lettre &quot;LCD&quot; qui correspond à &quot;En cours&quot;. Lorsque vous marquez le projet comme &quot;Lancé&quot;, le problème change automatiquement le statut en &quot;Lancé du projet&quot;. Si les états de problème &quot;Défini automatiquement**** pour correspondre à l’objet résolvable à l’aide du paramètre Clés d’état&quot; n’étaient pas activés, l’état du problème passerait à &quot;En cours&quot; (l’état par défaut).
+Par exemple, créez un état personnalisé de projet nommé &quot;Lancé&quot; avec le code à trois lettres &quot;LCD&quot; qui correspond à &quot;Actuel&quot;. Créez également un état personnalisé de problème nommé &quot;Projet lancé&quot;, avec également le code de lettre &quot;LCD&quot; qui correspond à &quot;En cours&quot;. Lorsque vous marquez le projet comme &quot;Lancé&quot;, le problème change automatiquement le statut en &quot;Lancé du projet&quot;. Si l’état &quot;Mise à jour automatique du problème résolvable lorsque l’état du paramètre Resolving Object changes&quot; n’était pas activé, le statut du problème passerait à &quot;En cours&quot; (état par défaut).
 
 Pour plus d’informations sur la création d’un état personnalisé, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 

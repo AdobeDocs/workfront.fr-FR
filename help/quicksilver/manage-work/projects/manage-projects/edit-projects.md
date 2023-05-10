@@ -6,16 +6,16 @@ description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent q
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
-source-wordcount: '7310'
+source-wordcount: '7344'
 ht-degree: 2%
 
 ---
 
 # Modification de projets
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients de l’environnement Aperçu et pour un groupe sélectionné de clients de l’environnement Production.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -467,7 +467,7 @@ Pour modifier les champs de la zone Finance :
        </ul></p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Planification</strong> </td> 
+       <td role="rowheader"><strong>Planning</strong> </td> 
        <td> <p>Sélectionnez un planning pour votre projet. Il doit s’agir du même planning que celui attribué à la plupart des personnes qui travaillent sur le projet. Vous devez créer un planning avant de pouvoir l’affecter à un projet ou à un utilisateur. Si vous n’avez pas créé de plannings personnalisés dans votre système, la planification par défaut est sélectionnée.</p> <p>Pour plus d’informations sur la création de plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Création d’un planning</a>. </p> </td> 
        </tr> 
        <tr> 
@@ -690,6 +690,8 @@ Par défaut, les champs suivants sont inclus dans l’en-tête du projet.
 * Statut
 * Prenez des décisions d’approbation si vous êtes défini comme approbateur dans un processus d’approbation actuel.
 
+<div class="preview">
+
 ## Modifier des projets en bloc
 
 Vous pouvez modifier des projets en bloc et mettre à jour les informations de tous les projets sélectionnés en même temps.
@@ -793,7 +795,7 @@ Pour plus d’informations sur la modification de la zone Accès, voir la sectio
 1. (Facultatif) Cliquez sur **Annuler** au bas de la **Modification de projets** pour supprimer toutes les modifications apportées à tous les projets.
 1. Cliquer sur **Enregistrer**.
 
-
+</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
