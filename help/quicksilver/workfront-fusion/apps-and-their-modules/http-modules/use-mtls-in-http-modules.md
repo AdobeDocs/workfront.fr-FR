@@ -9,9 +9,9 @@ description: Vous pouvez utiliser le protocole TLS mutuel dans vos modules HTTP 
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 595d6e3e0a7d87240644bf20efd425917f4d953d
+source-git-commit: e67e6b6d3baf9f17a0a451fa4e1dbc365340f76e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -83,40 +83,35 @@ Pour obtenir des instructions sur le téléchargement de la variable [!DNL Adobe
 
 Vous pouvez utiliser les liens suivants pour télécharger les certificats publics Workfront Fusion :
 
+### Certificats du 25 mai 2023 - 9 juin 2024
+
+>[!IMPORTANT]
+>
+>* Ces [!DNL Workfront Fusion] les certificats publics expirent le 9 juin 2024. Une fois le vôtre arrivé à expiration, vous devrez charger un nouveau certificat vers le service Web. Nous vous recommandons :
+   >
+   >   * Notez la date d’expiration et définissez un rappel pour que vous puissiez télécharger le certificat vers votre service Web.
+   >   * Mettez cette page en signet pour trouver facilement les nouveaux certificats.
+>
+* Il s’agit de certificats mTLS non génériques.
+>
+
+* [Télécharger [!DNL Workfront Fusion] Certificat 2023](assets/fusion-prod-us-mtls-certificate.pem)
+* [Télécharger [!DNL Workfront Fusion] Certificat UE 2023](assets/fusion-prod-eu-mtls-certificate.pem)
+
+   À utiliser dans l’UE
+
 ### Certificats du 14 novembre 2022 - 15 juillet 2023
 
 >[!IMPORTANT]
 >
->Ces [!DNL Workfront Fusion] les certificats publics expirent le 15 juillet 2023. Une fois le vôtre arrivé à expiration, vous devrez charger un nouveau certificat vers le service Web. Nous vous recommandons :
->
->* Notez la date d’expiration et définissez un rappel pour que vous puissiez télécharger le certificat vers votre service Web.
->* Mettez cette page en signet pour trouver facilement les nouveaux certificats.
->
+>* Ces [!DNL Workfront Fusion] les certificats publics expirent le 15 juillet 2023.
+>* Il s’agit de certificats mTLS génériques.
 
 
 * [Télécharger [!DNL Workfront Fusion] Certificat 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
 * [Télécharger [!DNL Workfront Fusion] Certificat UE 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
 
    À utiliser dans l’UE
-
-<!--
-
-Previous US cert
-
-* [Download [!DNL Workfront Fusion] Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app_workfrontfusion_com-jul-15-2023.cer)
-
-### Certificates for November 17, 2021 - November 14, 2022
-
->[!IMPORTANT]
->
->These certificates expire on November 14, 2022. Upload the new certificates to the web service as soon as possible.
-
-* [Download Workfront Fusion Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain-2022.crt) 
-* [Download Workfront Fusion EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
-
-  For use in the EU
-
-  -->
 
 ## Activation du protocole TLS mutuel dans [!DNL Workfront Fusion] Modules HTTP
 
