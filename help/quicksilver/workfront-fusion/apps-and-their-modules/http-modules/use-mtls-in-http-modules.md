@@ -9,7 +9,7 @@ description: Vous pouvez utiliser le protocole TLS mutuel dans vos modules HTTP 
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: d54a6072524274cf77ee0ca7b7cfa24987c97782
+source-git-commit: 9c0452e60e98439fdba8e1171ef52a773f3d72b5
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -92,10 +92,10 @@ Vous pouvez utiliser les liens suivants pour télécharger les certificats publi
    >   * Notez la date d’expiration et définissez un rappel pour que vous puissiez télécharger le certificat vers votre service Web.
    >   * Mettez cette page en signet pour trouver facilement les nouveaux certificats.
 >
-* Il s’agit de certificats mTLS non génériques.
->
+>* Il s’agit de certificats mTLS non génériques.
 
-* [Télécharger [!DNL Workfront Fusion] Certificat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
+
+* [Télécharger [!DNL Workfront Fusion] Certificat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [Télécharger [!DNL Workfront Fusion] Certificat UE 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
    À utiliser dans l’UE
