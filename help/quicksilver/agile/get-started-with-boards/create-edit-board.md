@@ -6,9 +6,9 @@ description: Dans la [!UICONTROL panoramas] tableau de bord, vous pouvez créer 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -62,6 +62,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       Tous les objets apparaissent sur le panorama sous forme de cartes connectées.
 
       Le [!UICONTROL **Cartes ajoutées**] compteur indique le nombre de cartes qui seront sur le panorama. Par exemple, si vous sélectionnez un projet comportant 100 tâches et problèmes, le compteur affiche 100. Si vous ajoutez une affectation utilisateur et que cette personne est affectée à 5 tâches sur le projet, le compteur affiche 5.
+
+   1. (Facultatif) Sélectionnez [!UICONTROL **Inclure le travail terminé**] pour inclure les cartes complétées sur le panorama.
+
+      >[!NOTE]
+      >
+      >Si cette option n’est pas sélectionnée, lorsque les cartes dans d’autres états sont marquées comme étant terminées, elles &quot;tombent&quot; du panorama et ne s’affichent plus.
 
    1. (Facultatif) Cliquez sur [!UICONTROL **Utilisation de filtres avancés**] pour afficher d’autres options de filtrage.
 

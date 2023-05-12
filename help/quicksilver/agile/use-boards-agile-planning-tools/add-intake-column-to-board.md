@@ -7,9 +7,9 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
 
-## Création d’une colonne d’ingestion
+## Création d’une colonne d’entrée à l’aide de filtres simples
+
+>[!NOTE]
+>
+>Les filtres simples ne sont disponibles que par le biais de l’opt-in anticipé des fonctionnalités pour les panoramas Adobe Workfront.
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
 1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
@@ -57,11 +61,38 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Développer **[!UICONTROL Panorama]**.
 1. Activer **[!UICONTROL ingérer dynamiquement des éléments dans le panorama ;]**.
 
-   ![Créer une colonne d’ingestion](assets/create-intake-column2.png)
+   ![Options de filtrage simple des colonnes d’entrée](assets/intake-column-simple-filters.png)
 
    La colonne d’ingestion est ajoutée à gauche du panorama. Il reste vide jusqu’à ce que vous lui appliquiez des filtres.
 
+1. (Facultatif) Recherchez et sélectionnez [!DNL Workfront] [!UICONTROL **Projets**].
+1. (Facultatif) Recherchez et sélectionnez un utilisateur ou une équipe. [!UICONTROL **Affectations**].
+1. Sélectionner [!UICONTROL **Inclure le travail terminé**] pour afficher les tâches et les problèmes dont l’état est Complète dans la colonne d’ingestion.
+
+   >[!NOTE]
+   >
+   >Si cette option n’est pas sélectionnée, lorsque les cartes dans d’autres états sont marquées comme étant terminées, elles &quot;tombent&quot; du panorama et ne s’affichent plus.
+
+1. Cliquez sur [!UICONTROL **Appliquer**].
+
+   Tous les objets apparaissent dans la colonne d’entrée du panorama sous la forme de cartes connectées.
+
+   ![Colonne de saisie](assets/intake-column-added3.png)
+
+## Création d’une colonne d’entrée à l’aide de filtres avancés
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
+1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Cliquez sur **[!UICONTROL Configurer]** à droite du panorama pour ouvrir le panneau Configurer .
+1. Développer **[!UICONTROL Panorama]**.
+1. Activer **[!UICONTROL ingérer dynamiquement des éléments dans le panorama ;]**.
+
+   La colonne d’ingestion est ajoutée à gauche du panorama. Il reste vide jusqu’à ce que vous lui appliquiez des filtres.
+
+1. Cliquez sur [!UICONTROL **Utilisation de filtres avancés**].
 1. Cliquez sur **[!UICONTROL Filtrage des sources]** et sélectionnez **[!UICONTROL Tâches]** ou **[!UICONTROL Problèmes]**.
+
+   ![Options de filtrage avancé de la colonne Ingérer](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -97,15 +128,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![Colonne de saisie](assets/intake-column-added3.png)
 
-   Les cartes de la colonne d’entrée ne peuvent pas être modifiées tant que vous ne les déplacez pas dans d’autres colonnes de la carte. Vous pouvez cliquer sur la carte pour l’ouvrir en lecture seule ou cliquer sur ![Ouvrir une tâche ou un problème](assets/boards-launch-icon.png) pour ouvrir la tâche ou le problème dans un nouvel onglet du navigateur.
-
-   Vous pouvez réorganiser manuellement les éléments de la colonne d’ingestion.
-
-   Les icônes situées en haut à droite de la colonne d’entrée indiquent le nombre de cartes actuellement présentes dans la colonne et le nombre de filtres appliqués.
-
    >[!NOTE]
    >
    >Vous pouvez à tout moment mettre à jour les filtres en ouvrant le panneau Configurer , en cliquant sur **[!UICONTROL Filtrage des sources]** et en sélectionnant **[!UICONTROL Tâches]** ou **[!UICONTROL Problèmes]**.
+
+## Utiliser la colonne d&#39;ingestion
+
+Les cartes de la colonne d’entrée ne peuvent pas être modifiées tant que vous ne les déplacez pas dans d’autres colonnes de la carte. Vous pouvez cliquer sur la carte pour l’ouvrir en lecture seule ou cliquer sur ![Ouvrir une tâche ou un problème](assets/boards-launch-icon.png) pour ouvrir la tâche ou le problème dans un nouvel onglet du navigateur.
+
+
+Vous pouvez réorganiser manuellement les éléments de la colonne d’ingestion.
+
+Les icônes situées en haut à droite de la colonne d’entrée indiquent le nombre de cartes actuellement présentes dans la colonne et le nombre de filtres appliqués.
 
 1. (Facultatif) Pour rechercher un élément dans la colonne d’ingestion, cliquez sur ![Icône Rechercher](assets/search-icon.png) sur la colonne .
 1. (Facultatif) Pour déplacer une carte de la colonne d’entrée vers une autre colonne, faites-la glisser et déposez-la à l’emplacement où elle doit apparaître.
