@@ -6,9 +6,9 @@ description: La visionneuse de vérification de l’appli de bureau, conçue pri
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: 0e8cc1e307dc82a4c1745d50de062024a5007da6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ Si ce n’est pas le cas, vous pouvez suivre les étapes ci-dessous.
 
 1. Pour télécharger l’application, effectuez l’une des opérations suivantes :
 
-   * Si vous utilisez l’environnement de production, cliquez sur  [Téléchargement de production Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.23.pkg)
-   * Si vous utilisez l’environnement de prévisualisation, cliquez sur  [Téléchargement de l’aperçu Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.23.pkg)
+   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.24.pkg)
+   * Si vous utilisez l’environnement de prévisualisation, cliquez sur [Téléchargement de l’aperçu Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.24.pkg)
 
 1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
 1. Dans la boîte d’installation qui s’affiche, cliquez sur **Continuer**, puis cliquez sur **Installer**.
@@ -65,27 +65,28 @@ Si ce n’est pas le cas, vous pouvez suivre les étapes ci-dessous.
 
 >[!NOTE]
 >
->Si la visionneuse de vérification de l’appli de bureau n’est pas lancée lorsque vous ouvrez un BAT interactif, cela signifie probablement que l’administrateur de Workfront ou de Workfront BAT doit configurer la visionneuse de vérification de l’appli de bureau en tant que visionneuse par défaut pour les BAT interactifs, comme décrit dans la section .
+>Si la visionneuse de vérification de l’appli de bureau n’est pas lancée lorsque vous ouvrez un BAT interactif, cela signifie probablement que l’administrateur de Workfront ou de Workfront BAT doit configurer la visionneuse de vérification de l’appli de bureau en tant que visionneuse par défaut pour les BAT interactifs, comme décrit dans la section [Paramètre utilisateur pour l’ouverture de BAT non interactifs dans la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
 
 ## Installation de la visionneuse de vérification de l’appli de bureau sous Windows
 
 Si votre administrateur de BAT Workfront ou Workfront a téléchargé l’application sur votre poste de travail et configuré la visionneuse de BAT pour Bureau en tant que visionneuse par défaut pour les BAT interactifs, vous pouvez terminer l’installation simplement en ouvrant un BAT interactif à partir de la zone Documents.
 
 >[!TIP]
-Vous pouvez utiliser la ligne de commande pour installer la visionneuse de BAT en exécutant `Workfront Proof Setup 2.1.20.exe" /S`
+>
+>Vous pouvez utiliser la ligne de commande pour installer la visionneuse de BAT en exécutant `Workfront Proof Setup 2.1.20.exe" /S`
 
 1. Pour télécharger l’application, effectuez l’une des opérations suivantes :
 
-   * Dans l’environnement de production, cliquez sur  [Téléchargement de production Windows pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.23.exe)
-   * Dans l’environnement Aperçu, cliquez sur  [Téléchargement de l’aperçu Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.23.exe).
+   * Dans l’environnement de production, cliquez sur [Téléchargement de production Windows pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.24.exe)
+   * Dans l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.24.exe).
 
 1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
 1. Dans la boîte d’installation qui s’affiche, ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. Dans la zone d’avertissement de sécurité qui s’affiche, cliquez sur **Exécuter.**La visionneuse de vérification de l’appli de bureau installe et s’exécute automatiquement. 
+1. Dans la boîte d’avertissement de sécurité qui s’affiche, cliquez sur **Exécuter**. La visionneuse de vérification de l’appli de bureau installe et s’exécute automatiquement.
 1. (Conditionnel) Si vous installez l’application à l’aide d’Internet Explorer, actualisez la page de lancement dans le navigateur après l’installation de l’application.
 1. Ouvrez un BAT interactif à partir de la zone Documents .
 
-Une fois la visionneuse de vérification de l’appli de bureau installée, tous les bons à tirer interactifs s’ouvrent dans la visionneuse de vérification de l’appli de bureau. Si la visionneuse de vérification de l’appli de bureau n’est pas lancée lorsque vous ouvrez un BAT interactif, cela signifie probablement que l’administrateur de Workfront ou de Workfront BAT doit configurer la visionneuse de vérification de l’appli de bureau en tant que visionneuse par défaut pour les BAT interactifs, comme décrit dans la section .
+Une fois la visionneuse de vérification de l’appli de bureau installée, tous les bons à tirer interactifs s’ouvrent dans la visionneuse de vérification de l’appli de bureau. Si la visionneuse de vérification de l’appli de bureau n’est pas lancée lorsque vous ouvrez un BAT interactif, cela signifie probablement que l’administrateur de Workfront ou de Workfront BAT doit configurer la visionneuse de vérification de l’appli de bureau en tant que visionneuse par défaut pour les BAT interactifs, comme décrit dans la section [Paramètre utilisateur pour l’ouverture de BAT non interactifs dans la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
