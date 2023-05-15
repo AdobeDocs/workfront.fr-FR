@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des documents à des projets, des tâches ou de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ Le site Workfront empêche les virus et autres contenus malveillants d&#39;entre
 
 ### Comment Workfront détecte les fichiers corrompus {#how-workfront-detects-corrupted-files}
 
-Workfront recherche les virus lorsqu’un document est téléchargé. Si vous tentez de charger un document corrompu, Workfront interrompt le processus de chargement et un message s’affiche indiquant que le fichier est corrompu. Vous recevez également une notification par courrier électronique lorsque Workfront détecte du contenu potentiellement malveillant et que le fichier est censé être supprimé.\
-Tous les fichiers corrompus sont supprimés dans les 24 heures suivant la détection, sauf si vous les supprimez manuellement. Si vous supprimez un fichier corrompu, Workfront effectue le suivi de cette action en tant que mise à jour. Si vous autorisez Workfront à le supprimer, aucune mise à jour n’est enregistrée.
+L’analyse des documents est activée pour votre organisation uniquement sur demande.
+
+Si l’analyse des documents est activée, les fichiers de moins de 25 Mo sont analysés lors de leur chargement. Les fichiers de plus de 25 Mo ne sont pas analysés.
+
+Si Workfront détecte un document corrompu, Workfront interrompt le processus de chargement et un message s’affiche indiquant que le fichier est corrompu. Vous recevez également une notification par courrier électronique lorsque Workfront détecte du contenu potentiellement malveillant et que le fichier est censé être supprimé.
+
+Les fichiers corrompus sont supprimés dans les 24 heures suivant leur détection, sauf si vous les supprimez manuellement. Si vous supprimez un fichier corrompu, Workfront effectue le suivi de cette action en tant que mise à jour. Si vous autorisez Workfront à le supprimer, aucune mise à jour n’est enregistrée.
 
 ### Restrictions relatives aux noms de fichier {#file-name-restrictions}
 
