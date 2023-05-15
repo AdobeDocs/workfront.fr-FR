@@ -7,9 +7,9 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 6%
 
 ---
@@ -276,6 +276,14 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>Jalon</p></strong> </td> 
+      <td> <p>Sélectionnez un jalon à associer à la tâche de modèle sélectionnée.</p>
+
+   <p><b>IMPORTANT</b></p>
+   <p>Vous devez associer un chemin de jalon à un modèle pour que ce champ s’affiche. Pour plus d’informations, voir <a href="../create-and-manage-templates/edit-templates.md">Modifier des modèles de projet</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>Mode de suivi</strong> </td> 
       <td> <p>Indiquez le mode de suivi de l’état d’avancement de la tâche à venir. </p> <p>Sélectionnez l’une des options suivantes :</p> 
@@ -348,7 +356,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Sélectionnez le ou les formulaires personnalisés à associer à la tâche de modèle. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche de modèle. Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
+1. Sélectionnez le ou les formulaires personnalisés à associer à la tâche de modèle. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche de modèle. Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
 1. (Conditionnel et facultatif) Si vous avez joint un formulaire personnalisé à la tâche de modèle, modifiez les champs du formulaire. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer la tâche de modèle.
 
    >[!NOTE]

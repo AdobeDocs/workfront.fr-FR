@@ -7,9 +7,9 @@ description: La durée est le temps qui doit s’écouler après la fin d’un p
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,9 @@ Le tableau suivant illustre les types de balises et indique comment indiquer la 
   </tr> 
   <tr> 
    <td> <p>Pourcentage (p ou pe)</p> </td> 
-   <td> <p>Le délai est exprimé sous la forme d’un pourcentage du temps estimé pour terminer la tâche précédente. </p> <p>Par exemple, s’il existe une dépendance arrivée-début avec un décalage de 20 % entre une tâche de prédécesseur de 10 jours, le système calcule combien de jours correspond à 20 % de la durée de la tâche précédente et l’utilise comme décalage. Dans ce cas, cela prendrait 2 jours après la fin de la tâche. </p> <p>Remarque : La limite de retard maximale pour le pourcentage est de 2 000 %.</p> </td> 
+   <td> <p>Le délai est exprimé sous la forme d’un pourcentage du temps estimé pour terminer la tâche précédente. </p> <p>Par exemple, s’il existe une dépendance arrivée-début avec un décalage de 20 % par rapport à une tâche de prédécesseur de 10 jours, le système calcule le nombre de jours représentant 20 % de la durée de la tâche précédente et l’utilise comme décalage. Dans ce cas, cela prendrait 2 jours après la fin de la tâche. </p>
+
+<p><b>NOTE</b></p> La limite de retard maximale pour le pourcentage est de 2 000 %.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Jour de la semaine (w) </p> </td> 
@@ -177,7 +179,17 @@ Le tableau suivant illustre les types de balises et indique comment indiquer la 
      <li>Jeudi=5</li> 
      <li>Vendredi=6</li> 
      <li>samedi=7</li> 
-    </ul> <p>Si vous souhaitez indiquer que la Date de début planifiée du successeur doit être un mardi de la semaine en cours et que le mardi est antérieur à la Date de fin planifiée du prédécesseur, vous devez coder votre successeur avec la formule suivante : </p> <p><code style="font-style: normal;">4fs-3w</code> </p> <p>Remarque : Si le mardi est passé pour la semaine de la date d’achèvement planifiée du prédécesseur, la date de début planifiée de la tâche qui lui succède est le premier jour de travail disponible de cette semaine. </p> <p>Si vous souhaitez indiquer que le retard doit tomber un samedi de la semaine en cours et que le samedi se situe après la date d’achèvement prévue du prédécesseur, vous devez coder votre successeur avec la formule suivante :</p> <p><code style="font-style: normal;">4fs+7w</code> </p> <p>Si le samedi est un jour sans travail, le lendemain disponible après le samedi (pour indiquer un décalage positif) est sélectionné comme Date de début planifiée du successeur. </p> <p>Pour indiquer les semaines passées ou futures, vous pouvez ajouter un nombre devant le numéro du jour pour le type de décalage. </p> <p>Par exemple, pour indiquer le lundi de 10 semaines auparavant, vous pouvez utiliser ce code pour indiquer le prédécesseur de votre successeur :</p> <p><code>4fs-102w</code> </p> <p>10 indique il y a 10 semaines et 2 est le numéro attribué à lundi. </p> </td> 
+    </ul> <p>Si vous souhaitez indiquer que la Date de début planifiée du successeur doit être un mardi de la semaine en cours et que le mardi est antérieur à la Date de fin planifiée du prédécesseur, vous devez coder votre successeur avec la formule suivante : </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
+
+<p><b>NOTE</b></p>
+
+Si le mardi est passé pour la semaine de la date d’achèvement planifiée du prédécesseur, la date de début planifiée de la tâche qui lui succède est le premier jour de travail disponible de cette semaine. </p> <p>Si vous souhaitez indiquer que le retard doit tomber un samedi de la semaine en cours et que le samedi se situe après la date d’achèvement prévue du prédécesseur, vous devez coder votre successeur avec la formule suivante :</p> <p>4fs+7w</code> </p> <p>Si le samedi est un jour sans travail, le lendemain disponible après le samedi (pour indiquer un décalage positif) est sélectionné comme Date de début planifiée du successeur. </p>
+
+<p>Cela ne s’applique pas aux exceptions de planification. Si une date est également une exception de planning et que la Date de début du successeur est calculée pour correspondre à ce jour, le système tente alors de trouver la date disponible la plus proche, qui est le jour de la semaine spécifié dans l'expression du prédécesseur.</p>
+
+<p>Par exemple, si la Date de début est calculée pour correspondre à un certain mardi et que ce jour est une exception de planification et que le décalage du prédécesseur est positif, il choisira le mardi suivant (s’il s’agit également d’un jour ouvré) comme Date de début du successeur. Si le décalage est négatif, le système choisit le mardi précédent comme Date de début.</p>
+
+<p>Pour indiquer les semaines passées ou futures, vous pouvez ajouter un nombre devant le numéro du jour pour le type de décalage. </p> <p>Par exemple, pour indiquer le lundi de 10 semaines auparavant, vous pouvez utiliser ce code pour indiquer le prédécesseur de votre successeur :</p> <p><code>4fs-102w</code> </p> <p>10 indique il y a 10 semaines et 2 est le numéro attribué à lundi. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Jour de la semaine non nul (k)</p> </td> 
