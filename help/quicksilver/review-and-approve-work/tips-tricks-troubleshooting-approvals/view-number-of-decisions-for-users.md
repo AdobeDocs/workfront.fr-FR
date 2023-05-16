@@ -6,7 +6,7 @@ description: Vous pouvez afficher le nombre de BAT et de décisions de documents
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,4 +27,4 @@ Pour afficher le nombre de décisions d’un utilisateur :
 
 1. Ouvrez le **Vues** , puis choisissez la **Licences** vue.
 
-1. Rechercher la colonne **Approbations ce mois-ci** pour afficher le nombre de décisions prises par chaque utilisateur au cours du mois.
+1. Rechercher la colonne **Décisions ce mois-ci** pour afficher le nombre de décisions prises par chaque utilisateur au cours du mois.
