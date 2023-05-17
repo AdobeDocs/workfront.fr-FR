@@ -7,9 +7,9 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    La colonne d’ingestion est ajoutée à gauche du panorama. Il reste vide jusqu’à ce que vous lui appliquiez des filtres.
 
 1. Cliquez sur [!UICONTROL **Utilisation de filtres avancés**].
-1. Cliquez sur **[!UICONTROL Filtrage des sources]** et sélectionnez **[!UICONTROL Tâches]** ou **[!UICONTROL Problèmes]**.
+1. Cliquez sur **[!UICONTROL Ajout de sources de filtre]** et sélectionnez **[!UICONTROL Tâches]** ou **[!UICONTROL Problèmes]**.
 
    ![Options de filtrage avancé de la colonne Ingérer](assets/intake-column-advanced-filters1.png)
 
