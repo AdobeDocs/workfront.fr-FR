@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3153'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 >[!NOTE]
 >
@@ -271,17 +271,19 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 1. Accédez à la zone Mises à jour et commencez à saisir un commentaire.
 1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, utilisez n’importe quel attribut du **Texte enrichi** au fur et à mesure que vous tapez.
 
-   | **Attribut** | **Bouton Barre d’outils** | **Clés de raccourci Mac** | **Clés de raccourci PC** |
+   | **Attribut** | **Bouton Barre d’outils** | **Raccourcis clavier Mac** | **Raccourcis clavier Windows** |
    |---|---|---|---|
    | Gras | ![mceclip10.png](assets/mceclip10.png) | épargner+b | Ctrl+B |
    | Italique | ![mceclip9.png](assets/mceclip9.png) | %+i | Ctrl+I |
    | Souligner | ![mceclip8.png](assets/mceclip8.png) | %+u | Ctrl+U |
-   | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | ⌘+Ko | Ctrl+K |
+   | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Greaté+K</br> <br><span class="preview">Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : underline+V</span></br> | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Ctrl+K</br> <br><span class="preview">Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : Ctrl+V</span></br> |
    | Liste à puces | ![mceclip6.png](assets/mceclip6.png) | Greatest + Maj + 8 | Ctrl+Maj+8 |
    | Liste numérotée | ![mceclip5.png](assets/mceclip5.png) | Greatest + Maj + 7 | Ctrl+Maj+7 |
    | Citation | ![](assets/block-quote-icon-large.png) | CY+Maj+9 | Ctrl+Maj+9 |
 
    Pour arrêter le formatage du texte, désélectionnez l’attribut sur la **Texte enrichi** de la barre d’outils.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
