@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 6%
@@ -18,12 +18,10 @@ ht-degree: 6%
 
 # Configuration des préférences de feuille de temps et d’heure pour un groupe
 
-{{highlighted-preview}}
-
 Un administrateur Adobe Workfront peut déverrouiller les sections suivantes des préférences de feuille de temps et d’heure au niveau du système afin que les administrateurs de groupe puissent les configurer indépendamment pour leurs propres groupes :
 
 * Préférences générales
-* <span class="preview">L’endroit où les utilisateurs et utilisatrices peuvent enregistrer les heures</span>
+* L’endroit où les utilisateurs et utilisatrices peuvent enregistrer les heures
 * Préremplir les feuilles de temps
 
 S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs de Workfront (pour n’importe quel groupe).
@@ -136,23 +134,23 @@ Tenez compte des informations suivantes sur la configuration d’une feuille de 
     </tbody> 
    </table>
 
-1. <span class="preview">Dans le **Où les utilisateurs peuvent consigner l’heure** , configurez l’une des options suivantes :</span>
+1. Dans le **Où les utilisateurs peuvent consigner l’heure** , configurez l’une des options suivantes :
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">Enregistrer le temps directement sur les projets</span></td> 
-      <td><span class="preview">Permet aux utilisateurs de se connecter au projet (à la fois dans l’onglet Mises à jour et dans la feuille de temps). Si vous souhaitez empêcher vos utilisateurs d’enregistrer le temps au niveau du projet, laissez cette option décochée.</span></td>
+      <td role="rowheader">Enregistrer le temps directement sur les projets</td> 
+      <td>Permet aux utilisateurs de se connecter au projet (à la fois dans l’onglet Mises à jour et dans la feuille de temps). Si vous souhaitez empêcher vos utilisateurs d’enregistrer le temps au niveau du projet, laissez cette option décochée.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Enregistrer le temps sur les projets déjà terminés</span></td>
-      <td><span class="preview">Permet aux utilisateurs d’enregistrer du temps sur un projet marqué comme terminé. Si cette option est désactivée, les utilisateurs ne peuvent pas enregistrer le temps de travail qu’ils ont terminé sur les projets dont l’état est Terminé.</span></td>
+      <td role="rowheader">Enregistrer le temps sur les projets déjà terminés</td>
+      <td>Permet aux utilisateurs d’enregistrer du temps sur un projet marqué comme terminé. Si cette option est désactivée, les utilisateurs ne peuvent pas enregistrer le temps de travail qu’ils ont terminé sur les projets dont l’état est Terminé.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Enregistrer le temps sur les projets inactifs</span></td> 
-      <td><span class="preview">Lorsque cette option est activée, les utilisateurs peuvent ouvrir une session d’heures sur des projets dont l’état est Mort.</span></td>
+      <td role="rowheader">Enregistrer le temps sur les projets inactifs</td> 
+      <td>Lorsque cette option est activée, les utilisateurs peuvent ouvrir une session d’heures sur des projets dont l’état est Mort.</td>
      </tr>
     </tbody>
    </table>
