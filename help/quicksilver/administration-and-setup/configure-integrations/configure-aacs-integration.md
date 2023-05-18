@@ -5,9 +5,9 @@ title: Intégrations Adobe Experience Manager Assets
 description: Vous pouvez connecter votre travail avec les intégrations Adobe Experience Manager Assets suivantes.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
+source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,25 @@ Un [!DNL Experience Manager] champs mappés à [!DNL Workfront] les champs de po
 >Les utilisateurs doivent disposer d’un accès en écriture dans [!DNL Experience Manager] pour les ressources vivant dans l’objet afin que les métadonnées soient synchronisées lors de leur mise à jour.
 
 1. Activez la variable **[!UICONTROL Métadonnées d’objet de synchronisation]** champ .
-1. Cliquez sur Enregistrer ou passez à la [Configuration des dossiers liés (facultatif)](#set-up-linked-folders-optional) dans cet article.
+1. Cliquez sur **Enregistrer** ou passez à la [Configuration des workflows (facultatif)](#set-up-workflows-optional) dans cet article.
+
+<!--Courtney start here-->
+
+## Configuration des workflows (facultatif)
+
+Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. En tant qu’administrateur Workfront, vous pouvez configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
+
+Les valeurs de workflow par défaut que vous définissez dans l’intégration peuvent être remplacées aux niveaux Modèle de projet et Projet .
+
+### Configuration d’un workflow pour la création de dossiers liés à Adobe Experience Manager
+
+1. Activez/désactivez la variable **[!UICONTROL Créer un dossier lié]** sur .
+1. Sélectionnez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
+   ![Navigation dans les dossiers liés](assets/select-folder-aem-integration.png)
+1. Activez la variable **Ajout de noms de Portfolio et de programme** pour inclure automatiquement les noms des Portfolios et des programmes à la fin du nom du dossier lié.
+1. Cliquez sur **Enregistrer** ou passez à la [Configuration des dossiers liés (facultatif)](#set-up-linked-folders-optional) dans cet article.
+
+<!--Courtney end here-->
 
 ## Configuration des dossiers liés (facultatif)
 

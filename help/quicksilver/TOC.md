@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: efce276fa1e0a5d4757bbe03baa3b69243c3f2a8
+source-git-commit: 8e45797aff2ca5ffea6e604c75743bf3e2bfb654
 workflow-type: tm+mt
-source-wordcount: '12991'
+source-wordcount: '13000'
 ht-degree: 1%
 
 ---
@@ -1070,6 +1070,7 @@ ht-degree: 1%
          * [Envoi d’un document à Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Bon à tirer d’une ressource liée pour Experience Manager Assets ou Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Création d’un dossier lié à Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Utilisation des workflows dans l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
    * Migration à partir des connecteurs hérités ou améliorés {#migrate-from-legacy-enhanced-connectors}
       * [Migration à partir des connecteurs hérités ou améliorés](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migration du connecteur hérité ou amélioré vers Workfront pour l’intégration as a Cloud Service d’Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
