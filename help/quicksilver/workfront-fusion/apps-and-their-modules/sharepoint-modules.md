@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] vous pouvez automatiser les w
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8283022f24913988248005da0c8e583b29f19652
+source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -104,9 +104,9 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 * [Obtention d’un fichier](#get-a-file)
 * [Éléments du dossier de contrôle](#watch-folder-items)
 
-#### Création d’un fichier
+#### Obtenir les modifications
 
-Ce module d’action crée un fichier dans SharePoint.
+Ce module renvoie les modifications qui ont été apportées dans SharePoint.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,15 +118,15 @@ Ce module d’action crée un fichier dans SharePoint.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entrer les ID de site, de lecteur et de dossier]</td> 
-   <td> <p>Sélectionnez le mode d’identification du fichier que vous souhaitez créer.</p> 
+   <td> <p>Sélectionnez le mode d’identification du dossier dans lequel vous souhaitez récupérer les modifications.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID de dossier]</strong> dans les champs qui s’affichent.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez l’emplacement où vous souhaitez créer le fichier. </p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez l’emplacement où vous souhaitez récupérer les modifications. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fichier source]</td> 
-   <td>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</td> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -209,47 +209,19 @@ Ce module de déclenchement lance un scénario lorsqu’un élément est mis à 
 
 ### Élément
 
-* [[!UICONTROL Éléments de contrôle]](#watch-items)
-* [[!UICONTROL Éléments de liste]](#list-items)
-* [[!UICONTROL Obtention d’un élément]](#get-an-item)
+* [[!UICONTROL Copier un élément]](#copy-an-item)
 * [[!UICONTROL Création d’un élément]](#create-an-item)
-* [[!UICONTROL Mettre à jour un élément]](#update-an-item)
 * [[!UICONTROL Suppression d’un élément]](#delete-an-item)
+* [[!UICONTROL Obtention d’un élément]](#get-an-item)
+* [[!UICONTROL Éléments de liste]](#list-items)
+* [[!UICONTROL Déplacer un élément]](#move-an-item)
+* [[!UICONTROL Mettre à jour un élément]](#update-an-item)
+* [[!UICONTROL Éléments de contrôle] (Planifié)](#watch-items-scheduled)
 
-#### [!UICONTROL Éléments de contrôle]
 
-Ce module de déclenchement lance un scénario lorsqu’un élément est créé ou modifié.
+#### [!UICONTROL Copier un élément]
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Listes de contrôle]</td> 
-   <td>Choisissez si vous souhaitez regarder les listes par heure de création (nouveaux éléments) ou par heure de modification (éléments mis à jour).</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Accéder au site et à l’ID de liste]</td> 
-   <td> <p>Sélectionnez le mode d’identification du site et de la liste à regarder.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong> et <strong>[!UICONTROL List ID]</strong> dans les champs qui s’affichent.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez le site que vous souhaitez voir, puis sélectionnez la liste. Ces listes déroulantes récupèrent uniquement les sites suivis.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximal d’éléments que le module doit renvoyer au cours de chaque cycle d’exécution de scénario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Éléments de liste]
-
-Ce module d’action récupère une liste de tous les éléments d’une liste spécifiée.
+Ce module d’action copie un élément existant dans une liste SharePoint.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,39 +232,20 @@ Ce module d’action récupère une liste de tous les éléments d’une liste s
    <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Eléments de liste]</td> 
-   <td> <p>Sélectionnez le mode d’identification de la liste à partir de laquelle vous souhaitez récupérer les éléments.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong> et <strong>[!UICONTROL List ID]</strong> dans les champs qui s’affichent.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient la liste à partir de laquelle vous souhaitez récupérer les éléments, puis sélectionnez la liste. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximal d’éléments que le module doit renvoyer au cours de chaque cycle d’exécution de scénario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Obtention d’un élément]
-
-Ce module d’action renvoie les données d’un élément spécifié.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Obtenir un élément]</td> 
-   <td> <p>Sélectionnez le mode d’identification du site et de la liste contenant l’élément que vous souhaitez obtenir.</p> 
+   <td role="rowheader">Saisie des ID de site, de lecteur et de dossier</td> 
+   <td> <p>Sélectionnez le mode d’identification du site et de la liste qui contiennent l’élément que vous souhaitez copier.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID d’élément]</strong> dans les champs qui s’affichent.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient la liste à partir de laquelle vous souhaitez récupérer un élément, sélectionnez la liste, puis sélectionnez l’élément. </p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Dans le champ Copier le type d’élément , indiquez si vous déplacez un champ ou un dossier.  Sélectionnez le site qui contient l’élément à copier, puis sélectionnez la liste et choisissez l’élément. </p> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID de destination]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Nouveau nom]</td> 
+   <td>Saisissez ou mappez un nom pour la nouvelle copie de l’élément. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,6 +277,110 @@ Ce module d’action crée un élément dans une liste SharePoint.
  </tbody> 
 </table>
 
+#### [!UICONTROL Suppression d’un élément]
+
+Ce module d’action supprime un élément existant dans une liste SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Mettre à jour un élément]</td> 
+   <td> <p>Sélectionnez le mode d’identification du site et de la liste contenant l’élément à supprimer.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID d’élément]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient l’élément à supprimer, puis sélectionnez la liste et choisissez l’élément. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Obtention d’un élément]
+
+Ce module d’action renvoie les données d’un élément spécifié.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Obtenir un élément]</td> 
+   <td> <p>Sélectionnez le mode d’identification du site et de la liste contenant l’élément que vous souhaitez obtenir.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID d’élément]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient la liste à partir de laquelle vous souhaitez récupérer un élément, sélectionnez la liste, puis sélectionnez l’élément. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Éléments de liste]
+
+Ce module d’action récupère une liste de tous les éléments d’une liste spécifiée.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Eléments de liste]</td> 
+   <td> <p>Sélectionnez le mode d’identification de la liste à partir de laquelle vous souhaitez récupérer les éléments.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong> et <strong>[!UICONTROL List ID]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient la liste à partir de laquelle vous souhaitez récupérer les éléments, puis sélectionnez la liste. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximal d’éléments que le module doit renvoyer au cours de chaque cycle d’exécution de scénario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Déplacer un élément]
+
+Ce module d’action copie un élément existant dans une liste SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Saisie des ID de site, de lecteur et de dossier</td> 
+   <td> <p>Sélectionnez le mode d’identification du site et de la liste contenant l’élément à déplacer.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID d’élément]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Dans le champ Copier le type d’élément , indiquez si vous déplacez un champ ou un dossier. Sélectionnez le site qui contient l’élément à copier, puis sélectionnez la liste et choisissez l’élément. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID de destination]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Nouveau nom]</td> 
+   <td>Saisissez ou mappez un nom pour l’élément déplacé. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Mettre à jour un élément]
 
 Ce module d’action met à jour un élément existant dans une liste SharePoint.
@@ -351,39 +408,9 @@ Ce module d’action met à jour un élément existant dans une liste SharePoint
  </tbody> 
 </table>
 
-#### [!UICONTROL Suppression d’un élément]
+#### [!UICONTROL Éléments de contrôle] (Planifié)
 
-Ce module d’action supprime un élément existant dans une liste SharePoint.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Mettre à jour un élément]</td> 
-   <td> <p>Sélectionnez le mode d’identification du site et de la liste contenant l’élément à supprimer.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID d’élément]</strong> dans les champs qui s’affichent.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient l’élément à supprimer, puis sélectionnez la liste et choisissez l’élément. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Liste
-
-* [[!UICONTROL Listes de contrôle]](#watch-lists)
-* [[!UICONTROL Listes de liste]](#list-lists)
-* [[!UICONTROL Obtention d’une liste]](#get-a-list)
-* [[!UICONTROL Création d’une liste]](#create-a-list)
-
-#### [!UICONTROL Listes de contrôle]
-
-Ce module de déclenchement lance un scénario lorsqu’une liste est créée ou modifiée.
+Ce module de déclenchement lance un scénario lorsqu’un élément est créé ou modifié.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -401,66 +428,23 @@ Ce module de déclenchement lance un scénario lorsqu’une liste est créée ou
    <td role="rowheader">[!UICONTROL Accéder au site et à l’ID de liste]</td> 
    <td> <p>Sélectionnez le mode d’identification du site et de la liste à regarder.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong> où se trouve la liste que vous souhaitez voir.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez le site que vous souhaitez voir. Le menu déroulant récupère uniquement le site que vous suivez.</p> </li> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong> et <strong>[!UICONTROL List ID]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez le site que vous souhaitez voir, puis sélectionnez la liste. Ces listes déroulantes récupèrent uniquement les sites suivis.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximal de listes que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+   <td> <p>Saisissez ou mappez le nombre maximal d’éléments que le module doit renvoyer au cours de chaque cycle d’exécution de scénario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Listes de liste]
+### Liste
 
-Ce module d’action récupère une liste de tous les éléments d’une liste spécifiée.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Liste]</td> 
-   <td> <p>Sélectionnez le mode d’identification du site à partir duquel vous souhaitez récupérer les listes.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient les listes que vous souhaitez récupérer. La liste déroulante récupère uniquement les sites que vous suivez.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximal de listes que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Obtention d’une liste]
-
-Ce module d’action renvoie les données d’une liste spécifiée.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Obtenir une liste]</td> 
-   <td> <p>Sélectionnez le mode d’identification du site et de la liste contenant l’élément que vous souhaitez obtenir.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong> et <strong>ID de liste</strong> dans les champs qui s’affichent.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient la liste que vous souhaitez récupérer, puis sélectionnez la liste. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Création d’une liste]](#create-a-list)
+* [[!UICONTROL Obtention d’une liste]](#get-a-list)
+* [[!UICONTROL Listes de liste]](#list-lists)
+* [[!UICONTROL Listes de contrôle]](#watch-lists)
 
 #### [!UICONTROL Création d’une liste]
 
@@ -497,6 +481,87 @@ Ce module d’action crée une nouvelle liste dans SharePoint.
  </tbody> 
 </table>
 
+#### [!UICONTROL Obtention d’une liste]
+
+Ce module d’action renvoie les données d’une liste spécifiée.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Obtenir une liste]</td> 
+   <td> <p>Sélectionnez le mode d’identification du site et de la liste contenant l’élément que vous souhaitez obtenir.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong> et <strong>ID de liste</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient la liste que vous souhaitez récupérer, puis sélectionnez la liste. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Listes de liste]
+
+Ce module d’action récupère une liste de tous les éléments d’une liste spécifiée.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Liste]</td> 
+   <td> <p>Sélectionnez le mode d’identification du site à partir duquel vous souhaitez récupérer les listes.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site qui contient les listes que vous souhaitez récupérer. La liste déroulante récupère uniquement les sites que vous suivez.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximal de listes que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Listes de contrôle]
+
+Ce module de déclenchement lance un scénario lorsqu’une liste est créée ou modifiée.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Listes de contrôle]</td> 
+   <td>Choisissez si vous souhaitez regarder les listes par heure de création (nouveaux éléments) ou par heure de modification (éléments mis à jour).</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Accéder au site et à l’ID de liste]</td> 
+   <td> <p>Sélectionnez le mode d’identification du site et de la liste à regarder.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong> où se trouve la liste que vous souhaitez voir.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Sélectionnez le site que vous souhaitez voir. Le menu déroulant récupère uniquement le site que vous suivez.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximal de listes que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Page (bêta)
 
 >[!NOTE]
@@ -528,31 +593,8 @@ Ce module d’action renvoie les données d’une page spécifique.
 
 ### Site
 
-* [[!UICONTROL Rechercher dans les sites]](#search-sites)
 * [[!UICONTROL Obtention d’un site]](#get-a-site)
-
-#### [!UICONTROL Rechercher dans les sites]
-
-Ce module d’action recherche des sites en fonction d’un paramètre que vous spécifiez.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Mot-clé du nom d’affichage]</td> 
-   <td> <p>Saisissez ou mappez le terme de recherche que vous souhaitez rechercher sur les sites.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximal de sites que le module doit renvoyer pour chaque cycle d’exécution de scénario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Rechercher dans les sites]](#search-sites)
 
 #### [!UICONTROL Obtention d’un site]
 
@@ -577,6 +619,29 @@ Ce module d’action renvoie les données d’un site spécifié.
  </tbody> 
 </table>
 
+#### [!UICONTROL Rechercher dans les sites]
+
+Ce module d’action recherche des sites en fonction d’un paramètre que vous spécifiez.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Mot-clé du nom d’affichage]</td> 
+   <td> <p>Saisissez ou mappez le terme de recherche que vous souhaitez rechercher sur les sites.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximal de sites que le module doit renvoyer pour chaque cycle d’exécution de scénario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Autre
 
 #### [!UICONTROL Lancer un appel API]
@@ -597,7 +662,7 @@ Ce module vous permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Méthode [!UICONTROL]</p> </td> 
-   td&gt; <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -617,6 +682,28 @@ Ce module vous permet d’effectuer un appel API personnalisé.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Surveiller les événements
+
+Ce module de déclenchement instantané démarre un scénario lorsqu’un élément est ajouté, mis à jour ou supprimé dans SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+  <!--
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  -->
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>Sélectionnez un webhook existant ou cliquez sur Ajouter pour créer un nouveau webhook.</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
