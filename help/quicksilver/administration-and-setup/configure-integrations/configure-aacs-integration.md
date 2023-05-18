@@ -5,14 +5,16 @@ title: Intégrations Adobe Experience Manager Assets
 description: Vous pouvez connecter votre travail avec les intégrations Adobe Experience Manager Assets suivantes.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
 
 # Configurez la variable [!UICONTROL Experience Manager Assets as a Cloud Service] integration
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manager Assets]&#x200B; :
 
@@ -224,6 +226,8 @@ Un [!DNL Experience Manager] champs mappés à [!DNL Workfront] les champs de po
 
 <!--Courtney start here-->
 
+<div class="preview">
+
 ## Configuration des workflows (facultatif)
 
 Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. En tant qu’administrateur Workfront, vous pouvez configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
@@ -237,6 +241,8 @@ Les valeurs de workflow par défaut que vous définissez dans l’intégration p
    ![Navigation dans les dossiers liés](assets/select-folder-aem-integration.png)
 1. Activez la variable **Ajout de noms de Portfolio et de programme** pour inclure automatiquement les noms des Portfolios et des programmes à la fin du nom du dossier lié.
 1. Cliquez sur **Enregistrer** ou passez à la [Configuration des dossiers liés (facultatif)](#set-up-linked-folders-optional) dans cet article.
+
+</div>
 
 <!--Courtney end here-->
 
