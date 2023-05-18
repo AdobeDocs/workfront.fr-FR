@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3132'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -276,7 +276,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    | Gras | ![mceclip10.png](assets/mceclip10.png) | épargner+b | Ctrl+B |
    | Italique | ![mceclip9.png](assets/mceclip9.png) | %+i | Ctrl+I |
    | Souligner | ![mceclip8.png](assets/mceclip8.png) | %+u | Ctrl+U |
-   | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Greaté+K</br> <br><span class="preview">Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : underline+V</span></br> | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Ctrl+K</br> <br><span class="preview">Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : Ctrl+V</span></br> |
+   | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Greaté+K</br> <br>Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : underline+V</br> | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Ctrl+K</br> <br>Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : Ctrl+V</br> |
    | Liste à puces | ![mceclip6.png](assets/mceclip6.png) | Greatest + Maj + 8 | Ctrl+Maj+8 |
    | Liste numérotée | ![mceclip5.png](assets/mceclip5.png) | Greatest + Maj + 7 | Ctrl+Maj+7 |
    | Citation | ![](assets/block-quote-icon-large.png) | CY+Maj+9 | Ctrl+Maj+9 |
