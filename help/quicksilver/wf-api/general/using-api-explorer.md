@@ -6,7 +6,7 @@ description: Utilisation de l’explorateur d’API
 author: Becky
 feature: Workfront API
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Lors de l’utilisation de l’API Core d’Adobe Workfront, l’explorateur d�
 
 ## Accédez à l’explorateur d’API :
 
-1. Utilisez un navigateur Web pour accéder à la variable [Explorateur d’API](https://one.workfront.com/s/api-explorer)\
+1. Utilisez un navigateur Web pour accéder à la variable [Explorateur d’API](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
 1. Dans l’angle supérieur droit de l’explorateur d’API, sélectionnez l’interface de travail de votre choix. **Version de l’API**, par défaut, la version la plus récente est automatiquement sélectionnée.

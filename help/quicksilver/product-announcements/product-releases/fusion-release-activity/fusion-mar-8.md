@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: ca3d2a50-fe85-46de-b871-dc1f135382a5
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ Pour faciliter la recherche des éléments que vous souhaitez mapper dans vos sc
 
 Pour plus d’informations sur le mappage, voir [Mappage des informations d’un module à un autre dans Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Connecteurs universels et routage dans Workfront Fusion](https://one.workfront.com/s/learningpath4/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans la variable [Connecteurs universels et routage dans Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) parcours d’apprentissage sur Adobe Experience League.
