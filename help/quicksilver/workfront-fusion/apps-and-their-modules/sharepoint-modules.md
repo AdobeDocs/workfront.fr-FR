@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] vous pouvez automatiser les w
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
+source-git-commit: aee0778b08e00b2fc94f6829e6b2cd957ff0fe23
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -236,12 +236,12 @@ Ce module d’action copie un élément existant dans une liste SharePoint.
    <td> <p>Sélectionnez le mode d’identification du site et de la liste qui contiennent l’élément que vous souhaitez copier.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID d’élément]</strong> dans les champs qui s’affichent.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Dans le champ Copier le type d’élément , indiquez si vous déplacez un champ ou un dossier.  Sélectionnez le site qui contient l’élément à copier, puis sélectionnez la liste et choisissez l’élément. </p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Dans le champ Type d’élément , choisissez si vous déplacez un champ ou un dossier.  Sélectionnez le site qui contient l’élément à copier, puis sélectionnez la liste et choisissez l’élément. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de destination]</td> 
-   <td>  </td> 
+   <td> Saisissez ou mappez l’identifiant du dossier dans lequel vous souhaitez copier l’élément. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nouveau nom]</td> 
@@ -367,12 +367,12 @@ Ce module d’action copie un élément existant dans une liste SharePoint.
    <td> <p>Sélectionnez le mode d’identification du site et de la liste contenant l’élément à déplacer.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL List ID]</strong>, et <strong>[!UICONTROL ID d’élément]</strong> dans les champs qui s’affichent.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Dans le champ Copier le type d’élément , indiquez si vous déplacez un champ ou un dossier. Sélectionnez le site qui contient l’élément à copier, puis sélectionnez la liste et choisissez l’élément. </p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuez une sélection dans la liste que vous suivez]</strong> </p> <p>Dans le champ Type d’élément , choisissez si vous déplacez un champ ou un dossier. Sélectionnez le site qui contient l’élément à copier, puis sélectionnez la liste et choisissez l’élément. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de destination]</td> 
-   <td>  </td> 
+   <td> Saisissez ou mappez l’identifiant du dossier dans lequel vous souhaitez déplacer l’élément. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nouveau nom]</td> 
@@ -643,6 +643,33 @@ Ce module d’action recherche des sites en fonction d’un paramètre que vous 
 </table>
 
 ### Autre
+
+#### Obtenir les modifications
+
+Ce module récupère les ajouts, les mises à jour et les suppressions effectués dans le dossier SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL SharePoint] compte à [!DNL Workfront Fusion], voir <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connexion [!DNL SharePoint] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Entrer les ID de site, de lecteur et de dossier]</td> 
+   <td> <p>Sélectionnez le mode d’identification du site et de la liste contenant l’élément que vous souhaitez mettre à jour.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrée manuelle]</strong> </p> <p>Saisissez ou mappez les <strong>[!UICONTROL ID de site]</strong>, <strong>[!UICONTROL Drive ID]</strong>, et <strong>[!UICONTROL ID de dossier]</strong> dans les champs qui s’affichent.</p> </li> 
+     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le site contenant l’élément à mettre à jour, puis le lecteur, puis sélectionnez le dossier. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> Le jeton identifie à partir de quel point le module doit commencer à récupérer les modifications.  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Lancer un appel API]
 
