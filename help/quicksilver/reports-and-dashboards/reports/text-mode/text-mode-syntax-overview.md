@@ -6,9 +6,9 @@ description: Vous pouvez utiliser l’interface du mode texte pour créer des vu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Pour obtenir la liste complète de tous nos champs à déclarer et de leurs attr
 ## Considérations sur la syntaxe du mode texte
 
 * Vous devez comprendre la syntaxe Adobe Workfront avant de pouvoir commencer à créer des éléments de reporting en mode texte. La syntaxe Workfront pour le mode texte est propre à cette application et possède des caractéristiques uniques que vous devez connaître.
-* Avant de commencer à utiliser le mode texte dans vos rapports, nous vous recommandons vivement de suivre nos cours sur les rapports avancés, afin de mieux comprendre notre langage de mode texte. Pour obtenir des documents de formation sur les rapports, voir [Chemins d’apprentissage des rapports et tableaux de bord Workfront](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Avant de commencer à utiliser le mode texte dans vos rapports, nous vous recommandons vivement de suivre nos cours sur les rapports avancés, afin de mieux comprendre notre langage de mode texte. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Vous pouvez personnaliser les vues, les filtres et les regroupements à l’aide de l’interface de mode standard. Cependant, vous ne pouvez créer des invites personnalisées qu’en mode texte.
 
 ## Directives courantes pour la création d’éléments de rapport en mode texte

@@ -7,9 +7,9 @@ description: 'Cette section contient les articles suivants : EDIT ME.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 0%
 
 Cette section contient les articles suivants :
 
-* [Programme de création de rapports de base pour la nouvelle expérience Workfront](https://one.workfront.com/s/basic-report-creation-program)
 * [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
 * [Message d&#39;erreur sur le calendrier : &quot;Ce calendrier dispose des droits d’affichage d’un utilisateur désactivé.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
 * [Message d’erreur lors de l’exécution d’un rapport : &quot;Vous n’êtes pas encore connecté.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)

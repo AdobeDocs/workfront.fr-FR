@@ -6,9 +6,9 @@ description: Présentation du mode texte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Vous pouvez créer un rapport ou une liste dans Adobe Workfront à l&#39;aide de
 >
 >Vous pouvez également étendre les fonctionnalités des champs personnalisés calculés à l’aide d’une version du mode texte pour les champs personnalisés. La syntaxe et les règles de création d’un champ personnalisé calculé sont différentes de celles utilisées dans les rapports et listes. Pour plus d’informations sur l’ajout d’un champ personnalisé calculé, voir [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* Avant de commencer à utiliser le mode texte dans vos rapports, nous vous recommandons vivement de suivre nos cours sur les rapports avancés, afin de mieux comprendre notre langage de mode texte. Pour obtenir des documents de formation sur les rapports, voir [Chemins d’apprentissage des rapports et tableaux de bord Workfront](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Avant de commencer à utiliser le mode texte dans vos rapports, nous vous recommandons vivement de suivre nos cours sur les rapports avancés, afin de mieux comprendre notre langage de mode texte. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Nous vous recommandons d’utiliser le mode standard pour vous assurer que les rapports que vous créez restent intacts lorsque le logiciel Workfront est mis à jour. Bien que le mode texte vous permette de créer des vues, des filtres et des regroupements plus complexes, il est également plus complexe à gérer et n’est pas garanti lorsque le logiciel Workfront est mis à jour.
 * Nous vous recommandons de toujours essayer de créer tous les éléments de création de rapports dans l’interface standard et de passer au créateur de mode texte uniquement pour quelques ajustements.
 

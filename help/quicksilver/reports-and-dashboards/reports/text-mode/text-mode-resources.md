@@ -7,9 +7,9 @@ description: Ressources du mode texte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,4 @@ Cette section contient les articles suivants :
 * [Collections de référence dans un rapport](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
 * [Créer des instructions &quot;OR&quot; dans les filtres de mode texte](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
 * [Création de filtres de mode de texte complexes à l’aide d’instructions EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-* [Programme de création de rapports de base pour la nouvelle expérience Workfront](https://one.workfront.com/s/basic-report-creation-program)
+   <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

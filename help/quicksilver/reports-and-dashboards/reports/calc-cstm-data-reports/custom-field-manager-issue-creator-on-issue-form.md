@@ -7,9 +7,9 @@ description: A l’aide d’un champ personnalisé calculé, vous pouvez affiche
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 A l’aide d’un champ personnalisé calculé, vous pouvez afficher le nom du responsable de l’auteur d’une publication sur un formulaire personnalisé associé à la publication. En utilisant la même instruction, vous pouvez créer des champs calculés similaires pour les projets, problèmes et autres objets.
 
+<!--outdated link: 
 >[!TIP]
 >
->Pour plus d’informations sur les exemples de mode de texte personnalisé supplémentaires d’autres clients, suivez la [Reporting en mode texte](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) rubrique sur notre site communautaire.
+>For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.
+-->
 
 ## Exigences d’accès
 

@@ -5,9 +5,9 @@ title: Présentation des objets dans [!DNL Adobe Workfront]
 description: Présentation des objets dans [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2263'
 ht-degree: 6%
 
 ---
@@ -43,10 +43,10 @@ Voici quelques-uns des objets les plus couramment utilisés dans [!DNL Workfront
 | [!UICONTROL Événements] | [!UICONTROL Tâches], [!UICONTROL Projets] | [!UICONTROL Documents], [!UICONTROL Remarques], [!UICONTROL Heures], [!UICONTROL Utilisateurs] |
 | [!UICONTROL Tableaux de bord] |  | [!UICONTROL Rapports], Pages externes |
 | [!UICONTROL Rapports] | [!UICONTROL Tableaux de bord] |  |
-| [!UICONTROL Groupes] |  | [!UICONTROL Utilisateurs] |
-| [!UICONTROL Équipes] |  | [!UICONTROL Utilisateurs] |
-| [!UICONTROL Utilisateurs] | [!UICONTROL Groupes], [!UICONTROL Équipes], [!UICONTROL Entreprises] | [!UICONTROL Fonctions] |
-| [!UICONTROL Entreprises] |  | [!UICONTROL Utilisateurs] |
+| [!UICONTROL Groupes] |  | [!UICONTROL Utilisateurs et utilisatrices] |
+| [!UICONTROL Équipes] |  | [!UICONTROL Utilisateurs et utilisatrices] |
+| [!UICONTROL Utilisateurs et utilisatrices] | [!UICONTROL Groupes], [!UICONTROL Équipes], [!UICONTROL Entreprises] | [!UICONTROL Fonctions] |
+| [!UICONTROL Entreprises] |  | [!UICONTROL Utilisateurs et utilisatrices] |
 | [!UICONTROL Documents] | [!UICONTROL Tâches], [!UICONTROL Problèmes], [!UICONTROL Projets], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Utilisateurs] |  |
 | [!UICONTROL Plans]* |  | [!UICONTROL Initiatives] |
 | [!DNL Goals]* |  | [!UICONTROL Résultats], [!UICONTROL Activités] |
@@ -190,7 +190,7 @@ Tous les objets ne peuvent pas faire l’objet d’une recherche dans [!DNL Work
 | [!UICONTROL Tâches] | ✓ | ✓ |
 | [!UICONTROL Événements] | ✓ | ✓ |
 | [!UICONTROL Rapports] | ✓ | ✓ |
-| [!UICONTROL Utilisateurs] | ✓ | ✓ |
+| [!UICONTROL Utilisateurs et utilisatrices] | ✓ | ✓ |
 | [!UICONTROL Modèles] | ✓ | ✓ |
 | [!UICONTROL Documents] | ✓ | ✓ |
 | [!UICONTROL Portefeuilles] | ✓ | ✓ |
@@ -227,7 +227,7 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Tâche]
 * [!UICONTROL Heure]
 * [!UICONTROL Problème]
-* [!UICONTROL Utilisateur]
+* [!UICONTROL Utilisateur ou utilisatrice]
 * [!UICONTROL Niveau d’accès]
 * [!UICONTROL Approbation]
 * [!UICONTROL Processus d&#39;approbation]
@@ -260,7 +260,7 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Filtre]
 * [!UICONTROL Objectif]
 
-   Vous pouvez créer un rapport pour les objectifs stratégiques ou afficher des informations relatives aux objectifs dans un rapport de projet lorsque les projets sont associés aux objectifs en tant qu’activités d’objectif. Vous pouvez créer des objectifs stratégiques et connecter des projets uniquement si votre entreprise a acheté une [!DNL Workfront Goals] licence. Pour plus d’informations sur [!DNL Workfront Goals], voir [[!DNL Workfront Goals] aperçu](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en). Pour plus d’informations sur la connexion des projets aux objectifs stratégiques, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en).
+   Vous pouvez créer un rapport pour les objectifs stratégiques ou afficher des informations relatives aux objectifs dans un rapport de projet lorsque les projets sont associés aux objectifs en tant qu’activités d’objectif. Vous pouvez créer des objectifs stratégiques et connecter des projets uniquement si votre entreprise a acheté une [!DNL Workfront Goals] licence. Pour plus d’informations sur [!DNL Workfront Goals], voir [[!DNL Workfront Goals] aperçu](../../../workfront-goals/goal-management/wf-goals-overview.md). Pour plus d’informations sur la connexion des projets aux objectifs stratégiques, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
    <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -277,23 +277,13 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Type d’heure]
 * [!UICONTROL Initiative]
 
-   Vous pouvez créer un rapport pour les initiatives qui sont des objets enfants d’un plan uniquement si votre entreprise a acheté un [!DNL Workfront Scenario Planner] licence. Pour plus d’informations sur les initiatives, voir [Aperçu des initiatives dans la section [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience).
+   Vous pouvez créer un rapport pour les initiatives qui sont des objets enfants d’un plan uniquement si votre entreprise a acheté un [!DNL Workfront Scenario Planner] licence. Pour plus d’informations sur les initiatives, voir [Aperçu des initiatives dans la section [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * Fonction d&#39;initiative
 
-   Vous pouvez créer un rapport pour les rôles de tâche associés aux initiatives d’un plan uniquement si votre société a acheté une [!DNL Workfront Scenario Planner] licence. Pour plus d’informations sur la création d’initiatives et leur association à des rôles de tâche, voir [Créez et modifiez des initiatives dans le [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2061&amp;pubname=the-new-workfront-experience).
+   Vous pouvez créer un rapport pour les rôles de tâche associés aux initiatives d’un plan uniquement si votre société a acheté une [!DNL Workfront Scenario Planner] licence. Pour plus d’informations sur la création d’initiatives et leur association à des rôles de tâche, voir [Créez et modifiez des initiatives dans le [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * [!UICONTROL Itération]
 * [!UICONTROL Fonction]
@@ -334,7 +324,7 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Pool de ressources]
 * [!UICONTROL Risque]
 * [!UICONTROL Type de risque]
-* [!UICONTROL Planification]
+* [!UICONTROL Planning]
 * [!UICONTROL Carte de score]
 * [!UICONTROL Équipe]
 * [!UICONTROL Modèle]

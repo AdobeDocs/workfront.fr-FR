@@ -6,9 +6,9 @@ description: Vous pouvez modifier les paramètres d’un rapport afin de défini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '664'
 ht-degree: 6%
 
 ---
@@ -121,7 +121,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Voir aussi :
 
-* [Programme de création de rapports de base pour la nouvelle expérience Workfront](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Prise en main des rapports dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Utilisation des rapports intégrés d’Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

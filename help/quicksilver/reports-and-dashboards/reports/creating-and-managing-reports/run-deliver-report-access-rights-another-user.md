@@ -6,9 +6,9 @@ description: Par défaut, les utilisateurs peuvent uniquement afficher les objet
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 269340bc6a0c237edf44f5aa325d4ff95b647df8
+source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Pour diffuser un rapport avec les droits d&#39;accès d&#39;un autre utilisateur
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
-   Les utilisateurs dont le niveau d’accès est inférieur et qui sont autorisés à créer des rapports ne peuvent pas sélectionner eux-mêmes un autre utilisateur pour le **Diffuser ce rapport avec les droits d&#39;accès de :** champ .
+   Les utilisateurs dont le niveau d’accès est inférieur et qui sont autorisés à créer des rapports ne peuvent pas sélectionner un utilisateur autre qu’eux pour la variable **Diffuser ce rapport avec les droits d&#39;accès de :** champ .
 
 1. Sélectionnez la **Format** vous souhaitez que le rapport s&#39;affiche dans l&#39;email :
 
@@ -115,3 +115,39 @@ Pour diffuser un rapport avec les droits d&#39;accès d&#39;un autre utilisateur
    Ou\
    Cliquez sur **Effectuer une diffusion répétée** pour planifier une diffusion récurrente pour le rapport.\
    Pour plus d’informations sur les diffusions de rapports, voir l’article [Présentation de la diffusion des rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
+## Limites des rapports avec une colonne Source
+
+Les rapports suivants affichent une colonne Source dans laquelle vous pouvez afficher des informations sur l’objet parent :
+
+* Rapports sur les problèmes
+* Rapports d’heure
+* Rapports sur les documents
+
+Si les utilisateurs ne disposent pas d’autorisations sur l’objet parent d’un problème, d’une heure ou d’un document, la colonne Source du rapport s’affiche vide, même lorsque le rapport est configuré pour s’afficher ou pour être diffusé avec les droits d’accès d’un autre utilisateur.
+
+Pour afficher des informations sur l’objet parent dans le rapport, il est recommandé d’ajouter une colonne pour l’objet parent dans laquelle vous pouvez afficher le nom du parent.
+
+Par exemple, vous pouvez ajouter l’un des éléments suivants à un rapport avec une colonne Source :
+
+* Les colonnes Nom du projet, Nom de la tâche ou Nom de la publication dans un document ou un rapport d’heure.
+* Colonnes Nom du projet ou Nom de la tâche pour un rapport de problème.
+* Colonne utilisant des expressions du mode texte qui font référence aux trois objets. Voici un exemple de rapport d’une heure :
+
+   `displayname=Custom Source`
+
+   `linkedname=opTask`
+
+   `namekey=view.relatedcolumn`
+
+   `namekeyargkey.0=opTask`
+
+   `namekeyargkey.1=name`
+
+   `textmode=true`
+
+   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+
+   `valueformat=HTML`
+
+   Pour plus d’informations sur les vues en mode texte, voir [Modification d’une vue en mode texte](../text-mode/edit-text-mode-in-view.md).

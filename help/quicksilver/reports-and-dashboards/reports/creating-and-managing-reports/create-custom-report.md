@@ -6,9 +6,9 @@ description: Comprendre comment créer des rapports vous permet d’accéder aux
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1786'
 ht-degree: 1%
 
 ---
@@ -129,8 +129,9 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
    >[!NOTE]
    >
    >Si vous ajoutez un champ qui référence un objet trop éloigné de l’objet sur lequel vous créez un rapport, il se peut que vous ne puissiez pas le trier selon ce champ.\
-   >Par exemple, un rapport de problème ne peut pas être trié par champ Propriétaire du projet, car il fait référence à 3 objets supplémentaires : Projet, propriétaire et nom. Cependant, vous pouvez toujours ajouter ce champ à un rapport de problème et afficher les informations le concernant.\
-   >Pour en savoir plus sur les références inter-objets dans les rapports, reportez-vous à la section &quot;Création de rapports avancés, partie 1 sur 3&quot; du [Chemin d’apprentissage des rapports et des tableaux de bord](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).
+   >Par exemple, un rapport de problème ne peut pas être trié par champ Propriétaire du projet, car il fait référence à 3 objets supplémentaires : Projet, propriétaire et nom. Cependant, vous pouvez toujours ajouter ce champ à un rapport de problème et afficher les informations le concernant.
+
+   <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
 1. (Facultatif) Si vous utilisez des regroupements et souhaitez résumer (agréger) les informations d’une colonne, cliquez sur le bouton **Résumer cette colonne par** Liste déroulante dans la **Paramètres des colonnes** , puis sélectionnez l’option à utiliser pour agréger les informations dans la colonne.
 

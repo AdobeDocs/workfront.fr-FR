@@ -7,9 +7,9 @@ description: 'Cette section contient les articles suivants : EDIT ME.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ Cette section contient les articles suivants :
 * [Rapport sur la zone Mises à jour](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
 * [Créer un rapport Délégation d’utilisateurs](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
-Pour une formation approfondie sur les rapports, voir [Programme de création de rapports de base pour la nouvelle expérience Workfront](https://one.workfront.com/s/basic-report-creation-program).
+<!--outdated: For in-depth training on reports, see [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

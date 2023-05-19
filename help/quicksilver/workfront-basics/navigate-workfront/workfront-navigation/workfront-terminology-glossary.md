@@ -5,9 +5,9 @@ title: Glossaire [!DNL Adobe Workfront] terminologie
 description: Le [!DNL Adobe Workfront] Le glossaire répertorie les termes fréquemment utilisés dans Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '19399'
+source-wordcount: '19551'
 ht-degree: 0%
 
 ---
@@ -1989,7 +1989,20 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>Indique l’objet parent d’un autre objet. Par exemple, un document joint à une tâche porte le nom de la tâche dans le champ [!UICONTROL Source] d’un rapport ou d’une vue [!UICONTROL Document] ; un problème consigné sous un projet porte le nom du projet dans le champ [!UICONTROL Source] d’un rapport ou d’une vue de problème. </p> </td> 
+   <td> <p>Indique l’objet parent d’un autre objet. Par exemple, un document joint à une tâche porte le nom de la tâche dans le champ [!UICONTROL Source] d’un rapport ou d’une vue [!UICONTROL Document] ; un problème consigné sous un projet porte le nom du projet dans le champ [!UICONTROL Source] d’un rapport ou d’une vue de problème. </p> 
+   <p>Les rapports suivants affichent une colonne Source dans laquelle vous pouvez afficher des informations sur l’objet parent :</p>
+  <ul><li>Rapports sur les problèmes</li>
+    <li>Rapports d’heure</li>
+    <li>Rapports sur les documents </li>
+    </ul>
+   <p>Si les utilisateurs ne disposent pas d’autorisations sur l’objet parent d’un problème, d’une heure ou d’un document, la colonne Source du rapport s’affiche vide, même lorsque le rapport est configuré pour s’afficher ou pour être diffusé avec les droits d’accès d’un autre utilisateur. </p>
+   <p> Pour afficher des informations sur l’objet parent dans le rapport, il est recommandé d’ajouter une colonne pour l’objet parent dans laquelle vous pouvez afficher le nom du parent. </p>
+    <p>Par exemple, vous pouvez ajouter l’un des éléments suivants à un rapport avec une colonne Source : </p>
+    <ul><li>Les colonnes Nom du projet, Nom de la tâche ou Nom de la publication dans un document ou un rapport d’heure.</li>
+    <li>Colonnes Nom du projet ou Nom de la tâche pour un rapport de problème. </li> </ul>
+    Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Exécution et diffusion d’un rapport avec les droits d’accès d’un autre utilisateur</a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Date de début]</td> 

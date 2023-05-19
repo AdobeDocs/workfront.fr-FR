@@ -6,9 +6,9 @@ description: Création de filtres de mode de texte complexes à l’aide d’ins
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2799'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Tenez compte des règles suivantes lors de l’utilisation d’instructions EXIS
 
 * Vous devez utiliser le code d’objet de l’objet de liaison pour connecter vos instructions.\
    Vous trouverez le code d’objet de tous les objets dans l’explorateur d’API.\
-   Pour plus d’informations sur l’explorateur d’API, voir [Explorateur d’API](https://one.workfront.com/s/api-explorer).
+   Pour plus d’informations sur l’explorateur d’API, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
 * Lorsqu’un objet de liaison est manquant car les objets d’origine et de cible sont directement connectés les uns aux autres, vous pouvez utiliser le code d’objet de l’objet cible au lieu de l’objet de lien.
 * Vous pouvez faire référence à plusieurs champs (champs cibles) sur le même objet (objet cible). Dans ce cas, vous devez connecter les lignes qui font référence aux champs par AND.\

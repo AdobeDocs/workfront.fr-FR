@@ -6,10 +6,10 @@ description: Vous pouvez généraliser un rapport en utilisant des caractères g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ Pour insérer un caractère générique (générique) basé sur l’utilisateur 
 
 Voir aussi :
 
-* [Programme de création de rapports de base](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Création ou modification de filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)

@@ -7,9 +7,9 @@ description: 'Vous pouvez afficher dans une vue des objets qui ne sont pas inclu
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 Vous pouvez afficher dans une vue des objets qui ne sont pas inclus dans l’interface de mode standard. Pour ce faire, vous pouvez uniquement les référencer en mode texte.\
 Vous pouvez déterminer les champs qui peuvent être inclus dans une vue de l’une des façons suivantes :
 
-* Utilisez la variable [Explorateur d’API](https://one.workfront.com/s/api-explorer) pour découvrir d’autres objets qui peuvent être référencés via le mode texte.\
+* Utilisez la variable [Explorateur d’API](../../../wf-api/general/api-explorer.md) pour découvrir d’autres objets qui peuvent être référencés via le mode texte.\
    Tous les champs documentés dans l’explorateur d’API ne sont pas des champs valides pour le mode texte. Certains champs ne sont reportables que par le biais de l’API.
 
 * Recherchez le champ ID de l’objet dans une colonne. La plupart des objets ayant un identifiant de champ ont également un nom de colonne ou de champ correspondant qui peut ne pas être accessible par le biais de l’interface de mode standard.

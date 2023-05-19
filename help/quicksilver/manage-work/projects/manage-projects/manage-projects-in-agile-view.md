@@ -6,9 +6,9 @@ description: Plans requis, types de licence et accès à l’équipe de planific
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Plans, types de licence et accès requis
    <td> <p>Équipe, Pro, Entreprise ou Entreprise </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="https://one.workfront.com/s/article/Understanding-License-Types-906212506?language=en_US&amp;r=16&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank">Type de licence Workfront</a> </p> </td> 
+   <td> <p>Type de licence Workfront</p> </td> 
    <td> <p>Révision, travail ou plan </p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 

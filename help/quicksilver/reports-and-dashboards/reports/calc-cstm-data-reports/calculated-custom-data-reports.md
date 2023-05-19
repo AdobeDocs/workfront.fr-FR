@@ -7,9 +7,9 @@ description: 'Cette section contient les articles suivants : EDIT ME.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ Cette section contient les articles suivants :
 * [Exemple de champ personnalisé calculé : afficher le responsable du créateur d’une publication sur le formulaire personnalisé de publication ;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
 * [Exemple de champ personnalisé calculé : afficher un horodatage d’état dans un formulaire personnalisé ;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
 * [Exemple de champ personnalisé calculé : afficher l’historique de modification d’un champ ;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-* [Programme de création de rapports de base pour la nouvelle expérience Workfront](https://one.workfront.com/s/basic-report-creation-program)
+   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->
