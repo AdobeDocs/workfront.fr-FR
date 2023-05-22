@@ -6,9 +6,10 @@ title: Gestion des workflows
 description: Un flux de travail est un groupe configurable de panoramas et de cartes pour collaborer sur le travail.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
+source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -100,6 +101,7 @@ Les personnes et les équipes doivent être ajoutées au workflow en tant que me
 1. Dans le tableau de bord, cliquez sur [!UICONTROL **Afficher le flux de travail**] pour ouvrir un workflow.
 1. Cliquez sur [!UICONTROL **Configurer**] pour ouvrir le [!UICONTROL Configuration de Workstream] du panneau.
 1. (Facultatif) Saisissez une description du processus. Cette description s’affiche sur le tableau de bord.
+1. (Facultatif) Ajoutez des balises au flux de travail. Pour plus d’informations, voir [Ajout de balises](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
    Le nombre total de cartes, le nombre de cartes pointées et le nombre d’itérations s’affichent dans la section Liste de cartes . Cliquez sur [!UICONTROL **Afficher la liste**] pour ouvrir la liste et ajouter des cartes. Pour plus d’informations, voir [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
@@ -109,4 +111,3 @@ Les personnes et les équipes doivent être ajoutées au workflow en tant que me
 1. Ajoutez des filtres pour importer les tâches et les problèmes de Workfront sous forme de cartes.
 
    L’ajout de filtres pour les sources de workflows est identique à l’ajout de filtres pour une colonne d’entrée sur un panorama de base ou un panorama Kanban. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
-
