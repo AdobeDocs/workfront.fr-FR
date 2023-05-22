@@ -5,9 +5,9 @@ title: Le [!DNL Adobe Workfront] Communauté
 description: Adobe [!DNL Workfront] La communauté est un groupe en ligne de plus de 10 000 personnes. [!DNL Workfront] utilisateurs. Grâce à la communauté, vous pouvez rester à jour sur les versions de produits, découvrir les événements client et parler à d’autres utilisateurs de [!DNL Workfront] produits et services. Vous trouverez des réponses à vos questions et établirez des liens avec d’autres [!DNL Workfront] clients.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Si vous ne vous souvenez pas de votre mot de passe pour le site de la communaut�
 
 ### Quelle est l’URL de la variable [!DNL Workfront] Communauté ?
 
-Le [!DNL Workfront] La communauté est disponible sur la page [!DNL Workfront One] à l’adresse suivante :  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+Le [!DNL Workfront] La communauté est disponible sur la page [!DNL Adobe Experience League] à l’adresse suivante :  [[!DNL Workfront] Communauté](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### Quel est mon sous-domaine ? {#what-s-my-subdomain}
 

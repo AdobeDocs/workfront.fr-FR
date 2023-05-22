@@ -6,7 +6,7 @@ description: Le nom d’un problème apparaît sous la forme opTask dans la base
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Le nom d’un problème s’affiche comme suit : `opTask` dans la base de données Adobe Workfront. Bien qu’il arrive que vous deviez utiliser la variable `issue` nom du champ pour faire référence aux problèmes, la plupart du temps vous devez utiliser la variable `opTask` nom du champ au lieu de `issue` lorsque vous référencez des problèmes.
 
-Pour plus d’informations sur l’affichage des objets dans la base de données Workfront, reportez-vous à la section [Explorateur d’API](https://one.workfront.com/s/api-explorer).
+Pour plus d’informations sur l’affichage des objets dans la base de données Workfront, reportez-vous à la section [Explorateur d’API](https://developer.adobe.com/workfront/api-explorer/).
 
 ## `opTask` filename
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur la création de rapports sur les collections, voi
 <!--
 <note type="tip">
 For information about how issues appear in a collection, see the
-<a href="https://one.workfront.com/s/api-explorer" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
+<a href="https://developer.adobe.com/workfront/api-explorer/" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
 <br>(NOTE: Drafted because this might not be needed.)
 </note>
 -->

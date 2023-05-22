@@ -5,9 +5,9 @@ title: Le laboratoire de l'innovation
 description: Le [!UICONTROL Laboratoire d’innovation] permet aux utilisateurs authentifiés de soumettre, de voter et de discuter des idées avec leurs collègues clients.
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ En tant qu’utilisateur authentifié, vous pouvez :
 
 Pour voter sur une idée :
 
-1. Connectez-vous au [!DNL Adobe Workfront] Communauté sur [!DNL Workfront One] à l’adresse URL suivante :  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+1. Connectez-vous au [!DNL Adobe Workfront] Communauté sur [!DNL Adobe Experience League] à l’adresse URL suivante :  [[!DNL Adobe Workfront] Communauté](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
-1. Cliquez sur le bouton **[!UICONTROL Collaboration]** , puis cliquez sur **[!UICONTROL Laboratoire d’innovation]**.
+1. Cliquez sur le bouton **[!UICONTROL Idées]** .
 
 1. Cherchez l&#39;idée sur laquelle vous souhaitez voter.
 1. Cliquez sur l&#39;idée.
