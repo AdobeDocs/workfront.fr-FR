@@ -6,9 +6,9 @@ description: Vous pouvez améliorer vos rapports en ajoutant un graphique. Vous 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Pour ajouter une **Barre** à votre rapport :
    Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnalisation des couleurs des graphiques](#customize-chart-colors).
 
 1. (Facultatif) Sélectionnez **Afficher en 3D** pour afficher le graphique en 3 dimensions.
-1. (Facultatif)**Barres de groupe**: Sélectionnez cette option pour définir le mode de regroupement des barres.\
+1. (Facultatif) Barres de groupe** : Sélectionnez cette option pour définir le mode de regroupement des barres.\
    Sélectionnez l’une des options suivantes :
 
    * Cliquez sur l’une des options suivantes pour sélectionner l’affichage des barres regroupées :\
@@ -233,8 +233,21 @@ Pour ajouter une **Bulle** à votre rapport :
    >Pour plus d’informations sur la synthèse des informations dans une colonne de rapport, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Dans le **Bulles** Sélectionnez le Groupement que vous souhaitez inclure dans le graphique. Le Regroupement est représenté par le positionnement des bulles sur le graphique.
-1. Dans le **Couleur de bulle** , sélectionnez le champ que vous souhaitez représenter par les couleurs des bulles. Le **Couleur de bulle** Il peut s’agir d’un groupement que vous définissez dans le rapport, mais il ne peut s’agir que de champs de l’objet que vous avez sélectionné en tant que **Bulles**. Par exemple, si vous avez sélectionné Nom de la tâche, vous pouvez ajouter État de la tâche, mais pas État du projet en tant que **Couleur de bulle**.\
+1. Dans le **Couleur de bulle** , sélectionnez le champ que vous souhaitez représenter par les couleurs des bulles.
+
    ![](assets/qs-bubble-chart-350x103.png)
+
+
+   Le **Couleur de bulle** Il peut s&#39;agir d&#39;un Groupement que vous définissez dans le rapport, mais il n&#39;est disponible que lorsque vous sélectionnez l&#39;option **Nom** pour l’objet du rapport dans la variable **Bulles** champ .
+
+   Par exemple, si vous avez sélectionné **Nom de la tâche** dans un rapport de tâche, vous pouvez ajouter **État de la tâche** comme la propriété **Couleur de bulle** champ .
+
+   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+
+   Toutefois, si vous avez sélectionné **État de la tâche** pour le **Bulles** , vous ne pouvez pas sélectionner un **Couleur de bulle** champ . En outre, vous ne pouvez pas sélectionner **Nom du projet** pour le **Couleur de bulle** , même lorsque vous sélectionnez **Nom de la tâche** pour le **Bulle** champ .
+
+   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+
 
 1. Cliquez sur **Enregistrer + Fermer** pour enregistrer les modifications apportées au créateur d’interface.
 

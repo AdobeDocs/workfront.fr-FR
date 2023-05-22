@@ -6,10 +6,10 @@ description: '"REMARQUE : ajoutez une section dans cet article : /Content/Report
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 1%
+source-wordcount: '1031'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 -->
 
 Vous pouvez éditer un filtre dans une liste ou un rapport à l&#39;aide du mode texte pour accéder aux champs qui ne sont pas disponibles dans l&#39;interface standard et créer des filtres plus complexes.
+
+Pour plus d’exemples de mode texte lors de la création d’un filtre, reportez-vous également à la section &quot;Exemples de filtres personnalisés&quot; dans l’article . [Exemples d’affichage, de filtrage et de regroupement personnalisés](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Exigences d’accès
 
@@ -62,7 +64,7 @@ Pour plus d’informations, voir :
 
 ## Mode d’édition de texte dans un filtre
 
-La modification d’un filtre en mode texte est identique pour les rapports et les listes. L’accès à la vue depuis un rapport ou depuis une liste diffère.
+La modification d’un filtre en mode texte est identique pour les rapports et les listes. L’accès au filtre à partir d’un rapport ou d’une liste diffère.
 
 >[!TIP]
 >
@@ -87,17 +89,19 @@ Pour plus d’informations sur la création d’un rapport, voir [Création d’
     <col> 
     <tbody> 
      <tr> 
-      <td>Ligne/information de filtre</td> 
-      <td>Exemple</td> 
+      <td><b>Ligne/information de filtre</b></td> 
+      <td><b>Exemple</b></td> 
      </tr> 
      <tr> 
       <td> <p>Nom du champ et la valeur à laquelle il est égal comme ils apparaissent dans la base de données Workfront.</p> <p>Cette ligne est obligatoire.</p> <p> Pour plus d’informations sur l’affichage des objets et des champs dans la base de données, voir <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorateur d’API</a>.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Pour filtrer les tâches dont l'état est En cours, utilisez la ligne suivante :</p> <p><code>status=INP</code> </p> <p>Conseil : Lorsque vous filtrez les états, vous devez utiliser le code à trois lettres de l’état et non le nom.</p> </td> 
-     </tr> 
+      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Pour filtrer les tâches dont l'état est En cours, utilisez la ligne suivante :</p> <p><code>status=INP</code> </p> <p><b>CONSEIL</b>
+
+   Lorsque vous filtrez les états, vous devez utiliser le code à trois lettres de l’état et non le nom.</p> </td>
+   </tr> 
      <tr> 
       <td> <p>Modificateur de nom de champ et auquel le modificateur est égal. Cela indique les conditions que doit remplir le champ que vous filtrez.</p> <p>Cette ligne est obligatoire.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Pour indiquer que l'état des tâches pour lesquelles vous filtrez doit être égal à En cours, utilisez la ligne suivante en plus de celle ci-dessus :</p> <p><code>status_Mod=in</code> </p> <p>Si le modificateur est une plage, il y a deux lignes pour indiquer le modificateur.</p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Exemple: </b></span></span> 
+       <div> <span class="autonumber"><span><b>EXEMPLE </b></span></span> 
         <p>Il s’agit d’un filtre de mode texte qui recherche les tâches en cours, dont la date de fin est planifiée au cours du mois en cours et qui sont affectées à un utilisateur disposant d’un GUID spécifique :</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -116,7 +120,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Création d’
          <li> <p>Lorsque vous changez votre opérateur de ET en OU, le nombre d’éléments de liste peut augmenter.</p> </li> 
         </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Exemple: </b></span></span> 
+       <div> <span class="autonumber"><span><b>EXEMPLE </b></span></span> 
         <p>Pour filtrer les tâches dont l’état est En cours ou dont la date d’achèvement prévue est aujourd’hui, utilisez les méthodes suivantes : </p> 
         <p><code>status=INP</code> </p> 
         <p><code>status_Mod=in</code> </p> 
@@ -127,7 +131,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Création d’
      <tr> 
       <td> <p>Un caractère générique qui permet de généraliser les informations dans un filtre et de référencer l’heure actuelle de l’utilisateur connecté.</p> <p>Les caractères génériques sont facultatifs.</p> <p>Conseil :   <p>Il est recommandé d’utiliser des caractères génériques chaque fois que possible pour rendre vos filtres plus dynamiques et ne pas dupliquer les mêmes filtres pour chaque utilisateur ou pour des périodes similaires.</p> <p>Pour plus d’informations sur les caractères génériques de filtre, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variables de filtre génériques</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Exemple: </b></span></span> 
+       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>EXEMPLE</b></span></span> 
         <p>Pour filtrer les tâches affectées à l’utilisateur actuellement connecté, utilisez les méthodes suivantes :</p> 
         <p><code>assignedToID=$$USER.ID</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -169,3 +173,5 @@ Pour filtrer les tâches dont l’état est En cours ou qui sont affectées à l
 
 1. Cliquez sur **Terminé** si vous souhaitez enregistrer vos modifications et continuer à modifier le rapport ou le filtre.
 1. Cliquez sur **Enregistrer + Fermer** pour enregistrer votre rapport ou **Enregistrer le filtre** pour enregistrer le filtre dans la liste.
+
+
