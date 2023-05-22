@@ -1,13 +1,13 @@
 ---
 title: Afficher le nombre de licences attribuées et utilisées dans un groupe
 description: En tant qu’administrateur d’Adobe Workfront, vous pouvez consulter le nombre des différents types de licences actuellement utilisés dans votre groupe et dans ses sous-groupes. Cela s’avère utile lorsque vous devez évaluer la redistribution des licences.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Workfront</a>*</td> 
-   <td> <p>Equipe ou version ultérieure</p> </td> 
+   <td role="rowheader">Formule Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Licence Adobe Workfront</a>*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> <p>Vous devez être un administrateur de groupe du groupe ou un administrateur Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
   </tr> 
  </tbody> 
