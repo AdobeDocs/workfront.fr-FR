@@ -6,9 +6,9 @@ description: Vous pouvez partager avec d’autres utilisateurs des filtres, des 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1252'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Partagez un filtre à l’aide de l’interface du créateur standard :
    </tr>
    <tr>
    <td role="rowheader"><strong>Enregistré</strong></td>
-   <td>Filtres que vous avez créés et vous-même sauvés.</td>
+   <td>Filtres que vous avez créés et vous-même sauvés. Par défaut, cette liste affiche les filtres enregistrés dans l’ordre du dernier enregistrement, mais les noms des filtres peuvent être déplacés pour réorganiser manuellement la liste.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Paramètres par défaut du système</strong></td>

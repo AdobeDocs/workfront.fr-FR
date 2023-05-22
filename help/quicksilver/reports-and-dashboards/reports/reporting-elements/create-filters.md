@@ -6,10 +6,10 @@ description: Vous pouvez limiter la quantité d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 1%
+source-wordcount: '2405'
+ht-degree: 2%
 
 ---
 
@@ -81,7 +81,7 @@ Vous pouvez créer des filtres à l’aide des types de créateurs de filtres d�
 <li> <p>Événements</p> </li>
 <li> <p>Portefeuilles</p> </li>
 <li> <p>Programmes</p> </li>
-<li> <p>Utilisateurs</p> </li>
+<li> <p>Utilisateurs et utilisatrices</p> </li>
 <li> <p>Modèles</p> </li>
 <li> <p>Groupes</p> </li>
 </ul>
@@ -151,7 +151,7 @@ Tenez compte des points suivants lors de la création de filtres à l’aide des
 
 Vous pouvez créer des filtres à l’aide de l’interface du créateur standard en procédant comme suit :
 
-* A partir de zéro
+* À partir de zéro
 * Modifier un filtre existant
 * Dupliquer un filtre existant
 * Dupliquez un filtre existant, modifiez-le, puis enregistrez-le comme un nouveau filtre.
@@ -175,7 +175,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    </tr>
    <tr>
    <td role="rowheader"><strong>Enregistré</strong></td>
-   <td>Filtres que vous avez créés et vous-même sauvés.</td>
+   <td>Filtres que vous avez créés et vous-même sauvés. Par défaut, cette liste affiche les filtres enregistrés dans l’ordre du dernier enregistrement, mais les noms des filtres peuvent être déplacés pour réorganiser manuellement la liste.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Paramètres par défaut du système</strong></td>
@@ -335,7 +335,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
 
 Vous pouvez créer des filtres hérités dans les listes et les rapports comme suit :
 
-* A partir de zéro
+* À partir de zéro
 * Modifier un filtre existant et l’enregistrer comme nouveau filtre
 
 Quelle que soit la méthode utilisée pour créer des filtres, la création d’un filtre à partir de zéro ou d’un filtre existant est similaire.
