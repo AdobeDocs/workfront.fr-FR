@@ -4,12 +4,12 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Résolution des problèmes d’autorisations de Workfront BAT Manager
-description: Vous trouverez ci-dessous les profils d’autorisation disponibles dans [!DNL Adobe] Workfront pour les utilisateurs de la vérification - MODIFIEZ-MOI.
+description: Les profils d’autorisation disponibles dans [!DNL Adobe] Les utilisateurs de la vérification Workfront sont administrateurs, superviseurs et gestionnaires.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---

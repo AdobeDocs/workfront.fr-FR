@@ -2,10 +2,10 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Utilisation des fuseaux horaires
-description: 'Il peut s’avérer utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer ce qui suit : EDIT ME.'
+description: Il peut s’avérer utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer les heures des objets et les heures dans d’autres domaines tels que les emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -25,10 +25,7 @@ Temps que vous voyez dans [!DNL Workfront] sont basés sur les configurations de
 
 >[!NOTE]
 >
-><div class="preview">Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont calculées et enregistrées selon l’heure universelle coordonnée (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil utilisateur. Les calculs dans un formulaire personnalisé sont générés et affichés en fonction des fuseaux horaires individuels de chaque utilisateur.</div>
-
-
-
+>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont calculées et enregistrées selon l’heure universelle coordonnée (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil utilisateur. Les calculs dans un formulaire personnalisé sont générés et affichés en fonction des fuseaux horaires individuels de chaque utilisateur.
 
 * [Votre entreprise [!DNL Workfront] instance](#your-organization-s-workfront-instance)
 * [Votre profil utilisateur](#your-user-profile)
@@ -48,7 +45,10 @@ Le fuseau horaire de l’événement [!DNL Workfront] est généralement défini
 
 Le fuseau horaire de votre profil utilisateur doit être configuré pour l’emplacement où vous travaillez. Cela détermine les éléments suivants :
 
-* L’heure indiquée dans votre [!DNL Workfront] messages électroniques
+<!--
+* The time shown in your outgoing [!DNL Workfront] email messages
+[NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
+-->
 * Heures pour un objet sur lequel vous travaillez, telles que les heures de début et de fin
 
    Si les utilisateurs de plusieurs fuseaux horaires sont affectés à un objet, [!DNL Workfront] convertit les heures de l’objet pour toutes les personnes impliquées, à l’aide du fuseau horaire configuré dans chaque profil utilisateur.
