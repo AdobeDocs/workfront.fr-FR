@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ L’environnement de test Aperçu sert d’environnement dans lequel les utilisa
 
 L’environnement de test d’aperçu contient vos données de production réelles. toutefois, il s’actualise chaque week-end afin que les données puissent se trouver jusqu’à une semaine après l’environnement de production. Les éléments créés depuis la dernière actualisation sont placés dans l’environnement Aperçu de l’environnement de test jusqu’à l’actualisation suivante.
 
-Les flux de données sont unidirectionnels, de la production à la prévisualisation, et non inversés. Une actualisation de l’environnement de prévisualisation est toujours planifiée par [!DNL Workfront] chaque week-end. Pour plus d’informations sur le jour et l’heure spécifiques de l’actualisation, accédez à [status.adobe.com](https://status.adobe.com/fr/).
+Les flux de données sont unidirectionnels, de la production à la prévisualisation, et non inversés. Une actualisation de l’environnement de prévisualisation est toujours planifiée par [!DNL Workfront] chaque week-end.
 
 L’aperçu de l’environnement de test permet également [!DNL Workfront] pour déployer de nouvelles fonctionnalités dans un environnement sécurisé, avant qu’elles ne soient prêtes à être déployées en production. Vous pouvez tester les nouvelles fonctionnalités et leur donner [!DNL Workfront] commentaires sur leurs fonctionnalités en accédant à Preview Sandbox. C’est pourquoi le code de l’environnement de test de prévisualisation est toujours en avance sur le code de production, bien que vos données soient actualisées chaque semaine.
 
