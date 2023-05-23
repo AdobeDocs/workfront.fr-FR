@@ -7,18 +7,52 @@ description: Vous pouvez maintenir la distinction entre les relations parent-enf
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
 
 # Afficher : afficher la relation parent-enfant dans une tâche en mettant en retrait les tâches ;
 
-Vous pouvez maintenir la distinction entre les relations parent-enfant dans une liste de tâches exportée en ajoutant une vue personnalisée à la liste des tâches et en vous assurant que cette vue est sélectionnée avant d’exporter la liste.  
+Vous pouvez maintenir la distinction entre les relations parent-enfant dans une liste de tâches exportée en ajoutant une vue personnalisée à la liste des tâches et en vous assurant que cette vue est sélectionnée avant d’exporter la liste.
 
 ![](assets/parent-child-indented-custom-view-350x94.png)
+
+## Exigences d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Demande de modification d’une vue </p>
+   <p>Prévoir de modifier un rapport</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour la modification d’un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> <p><b>NOTE</b>
+
+Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+</tr>  
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Gestion des autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
+## Afficher la relation parent-enfant dans une tâche en mettant en retrait les tâches
 
 1. Accédez au projet avec la liste des tâches que vous souhaitez exporter.
 1. Cliquez sur le bouton **Affichage** , puis sélectionnez **Nouvelle vue**.

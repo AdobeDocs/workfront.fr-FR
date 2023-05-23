@@ -7,10 +7,10 @@ description: "Affichage : user personal time off"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '284'
+ht-degree: 4%
 
 ---
 
@@ -36,12 +36,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Demande de modification d’une vue </p>
+   <p>Prévoir de modifier un rapport</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
-  </tr> 
+   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour la modification d’un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> <p><b>NOTE</b>
+
+Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Gestion des autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
@@ -60,12 +63,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Le rapport affiche par défaut les champs suivants dans la vue :
 
-   | Utilisateur | Nom de l’utilisateur qui a indiqué le délai de pause dans son profil. |
+   | Utilisateur ou utilisatrice | Nom de l’utilisateur qui a indiqué le délai de pause dans son profil. |
    |---|---|
    | Date de début | Date de début de la période de temps que l’utilisateur a indiquée. |
    | Date de fin | Date de fin de la période de temps que l’utilisateur a indiquée. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Facultatif) Terminez la création du rapport en modifiant l’un des onglets suivants :
 

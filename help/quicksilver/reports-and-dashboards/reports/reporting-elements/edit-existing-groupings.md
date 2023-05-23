@@ -4,9 +4,9 @@ description: Modifier les groupements existants
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Requête ou supérieure </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 

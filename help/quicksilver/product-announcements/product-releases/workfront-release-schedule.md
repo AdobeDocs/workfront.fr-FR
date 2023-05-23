@@ -7,9 +7,9 @@ description: L’environnement Aperçu est mis à jour une fois par semaine avec
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Si des fonctionnalités sont supprimées de la version trimestrielle une fois qu
 Parfois, Workfront publie de nouvelles fonctionnalités dans le cadre d’un programme bêta.
 Les informations spécifiques à chaque version bêta, y compris la manière de participer, les versions au lancement de chaque programme bêta et tous les programmes bêta, sont différentes.
 
-Voici les types de programmes bêta disponibles à partir de Workfront :
+Les programmes bêta suivants sont disponibles à partir de Workfront :
 
 * **Version bêta fermée ou privée**: Voici les caractéristiques d’une version bêta fermée ou privée :
 
@@ -59,7 +59,7 @@ Voici les types de programmes bêta disponibles à partir de Workfront :
 * **Version bêta ouverte ou publique**: Voici les caractéristiques d’une version bêta publique ou ouverte :
 
    * Les fonctionnalités sont disponibles pour tous les clients Workfront, mais sont en version bêta. Ils peuvent ne pas toujours être entièrement fonctionnels et les commentaires sont toujours bienvenus.
-   * La participation à une version bêta publique est facultative et les clients peuvent décider s’ils souhaitent activer les fonctionnalités bêta.
+   * La participation à une version bêta publique est facultative et les clients peuvent décider d’activer les fonctionnalités bêta eux-mêmes.
    * Les nouvelles fonctionnalités qui font partie de la version bêta peuvent être publiées dans Aperçu ou Production.
    * Les fonctionnalités peuvent être publiées plus souvent que les modèles de version standard pour Workfront.
    * Des informations sur le moment où des fonctionnalités sont publiées dans une version bêta publique sont incluses dans les pages de mise à jour du produit.
@@ -82,7 +82,6 @@ Les notes de mise à jour contiennent un tableau répertoriant les fonctionnalit
 
 * Prévisualiser la date de publication
 * Date de publication de la production
-* Disponibilité dans la nouvelle expérience Adobe Workfront et/ou Adobe Workfront Classic
 
 Par exemple :
 

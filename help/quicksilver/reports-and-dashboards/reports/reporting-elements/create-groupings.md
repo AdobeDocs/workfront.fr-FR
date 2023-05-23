@@ -6,9 +6,9 @@ description: Vous pouvez créer entièrement un groupement personnalisé ou pers
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Requête ou supérieure </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
