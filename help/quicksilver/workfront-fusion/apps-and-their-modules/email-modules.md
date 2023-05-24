@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez connecter votre
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: ea19c2a58bac322c804fca3f6bb7d7147efa4d9a
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,6 @@ Déclenche lorsqu’un nouvel email est reçu pour traitement selon des critère
 * [[!UICONTROL Copier un courrier électronique]](#copy-an-email)
 * [[!UICONTROL Suppression d’un courrier électronique]](#delete-an-email)
 * [[!UICONTROL Obtenir des emails]](#get-emails)
-* [[!UICONTROL M’envoyer un email]](#send-me-an-email)
 
 #### [!UICONTROL Envoyer un courrier électronique]
 
@@ -541,25 +540,6 @@ Renvoie les courriers électroniques qui correspondent aux critères spécifiés
   <tr> 
    <td role="rowheader">[!UICONTROL Poursuivre l’exécution de l’itinéraire même si le module ne renvoie aucun résultat]</td> 
    <td> <p> Sélectionnez cette option si vous souhaitez continuer à exécuter le module même si aucun résultat n’est renvoyé.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL M’envoyer un email]
-
-Envoie un nouveau courrier électronique à votre adresse électronique.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Subject] </td> 
-   <td> <p>Saisissez ou mappez l’objet du courrier électronique.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Content] </td> 
-   <td> <p>Saisissez le corps de l'email.</p> </td> 
   </tr> 
  </tbody> 
 </table>
