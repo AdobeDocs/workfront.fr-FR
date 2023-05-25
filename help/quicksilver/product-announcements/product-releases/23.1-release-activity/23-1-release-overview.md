@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
+source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2435'
 ht-degree: 0%
 
 ---
@@ -527,7 +527,7 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées lors
 
 ### Mises à jour de formation
 
-Découvrez les dernières mises à jour apportées aux programmes d’apprentissage, aux parcours de formation, aux vidéos et aux guides de chaque version de produit Adobe Workfront. Pour plus d’informations, voir [Page Mises à jour des versions de formation](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Découvrez les dernières mises à jour apportées aux programmes d’apprentissage, aux parcours de formation, aux vidéos et aux guides de chaque version de produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section &quot;Nouveautés&quot; du [Page Tutorials Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Fonctionnalité bientôt supprimée de Workfront
 
