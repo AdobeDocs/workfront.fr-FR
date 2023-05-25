@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1670'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ Le [!UICONTROL Production de ressources vidéo] Le module contient un modèle qu
 
 **[!UICONTROL Production de ressources vidéo] (Géré)**
 Le [!UICONTROL Production de ressources vidéo] Le module contient un modèle qui organise le travail pour un processus de production vidéo standard. Ce module est conçu comme un point d’entrée pour la gestion de la création de ressources vidéo dans Workfront. Utilisez ce module pour créer les bases de la création de contenu vidéo, puis personnalisez-le afin de répondre aux besoins d’autres processus créatifs pour des types de contenus vidéo spécialisés.
+
+**[!UICONTROL [!DNL Workfront]Modèle de communication et de lancement]**
+
+Ce plan directeur contient un modèle unique qui organise le travail qu’un [!DNL Workfront] Le client doit procéder pour disposer d’un déploiement intelligent de la variable [!DNL Workfront] application.
 
 **[!DNL Workfront Usage Dashboard]**
 Ce plan directeur contient un tableau de bord unique comprenant 11 rapports pour aider les administrateurs système et les équipes de gouvernance à comprendre si leur configuration est utilisée comme prévu.
