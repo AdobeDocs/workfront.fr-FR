@@ -7,10 +7,10 @@ description: Un flux de travail est un groupe configurable de panoramas et de ca
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 3%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -94,20 +94,28 @@ Les personnes et les équipes doivent être ajoutées au workflow en tant que me
 
    Il s’agit du même processus que l’ajout de membres à un panorama. Pour plus d’informations, voir [Ajout ou suppression de membres d’un panorama](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
+## Ajout de sources à un workflow
+
+Une source détermine d’où viennent les cartes du processus.
+
+{{step1-to-boards}}
+
+1. Cliquez sur le bouton [!UICONTROL **Sources**] icon ![Icône Sources](assets/sources-icon.png) pour définir une source permettant d’importer des cartes dans le workflow. Actuellement, la seule source disponible est [!DNL Adobe Workfront].
+1. Ajoutez des filtres pour importer les tâches et les problèmes de Workfront sous forme de cartes.
+
+   L’ajout de filtres pour les sources de workflows est identique à l’ajout de filtres avancés pour une colonne d’entrée sur un panorama de base ou un panorama Kanban. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## Configuration d’un flux de travail
 
 {{step1-to-boards}}
 
 1. Dans le tableau de bord, cliquez sur [!UICONTROL **Afficher le flux de travail**] pour ouvrir un workflow.
 1. Cliquez sur [!UICONTROL **Configurer**] pour ouvrir le [!UICONTROL Configuration de Workstream] du panneau.
-1. (Facultatif) Saisissez une description du processus. Cette description s’affiche sur le tableau de bord.
-1. (Facultatif) Ajoutez des balises au flux de travail. Pour plus d’informations, voir [Ajout de balises](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. (Facultatif) Développez [!UICONTROL **Workflows**] et saisissez une description du processus. Cette description s’affiche sur le tableau de bord.
+1. (Facultatif) Développez [!UICONTROL **Itérations**] pour définir un processus d’itération pour ce workflow.
 
    Le nombre total de cartes, le nombre de cartes pointées et le nombre d’itérations s’affichent dans la section Liste de cartes . Cliquez sur [!UICONTROL **Afficher la liste**] pour ouvrir la liste et ajouter des cartes. Pour plus d’informations, voir [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Si une itération a été définie, sa date de début, le nombre de cartes et le nombre de points s’affichent. Cliquez sur [!UICONTROL **Afficher le panorama d’itération**] pour ouvrir le panorama. Pour plus d’informations, voir [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   Si une itération a déjà été définie, sa date de début, le nombre de cartes et le nombre de points s’affichent. Cliquez sur [!UICONTROL **Afficher le panorama**] pour ouvrir le panorama d’itération. Pour plus d’informations, voir [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. Cliquez sur [!UICONTROL **Ajouter une source**] pour définir une source permettant d’importer des cartes dans le workflow. Actuellement, la seule source disponible est [!DNL Adobe Workfront].
-1. Ajoutez des filtres pour importer les tâches et les problèmes de Workfront sous forme de cartes.
-
-   L’ajout de filtres pour les sources de workflows est identique à l’ajout de filtres pour une colonne d’entrée sur un panorama de base ou un panorama Kanban. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. (Facultatif) Développez [!UICONTROL **Balises**] pour ajouter des balises au workflow. Recherchez une balise ou saisissez un nouveau nom dans la zone de recherche, puis appuyez sur Entrée pour la créer.
