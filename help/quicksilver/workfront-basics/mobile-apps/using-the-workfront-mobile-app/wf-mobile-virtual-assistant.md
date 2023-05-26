@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Assistant virtuel d’application mobile Adobe Workfront
 description: Utilisez l’assistant virtuel d’application mobile Adobe Workfront pour localiser, supprimer et rechercher des informations dans Workfront. En outre, vous pouvez épingler des commandes et des requêtes d’assistant virtuel pour accéder aux résultats à tout moment.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 2c3bbf76-6620-4319-a872-09330441c815
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 7%

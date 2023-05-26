@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Examiner et prendre des décisions sur les bons à tirer dans la [!DNL Adobe Workfront] application mobile
 description: Lorsqu’un BAT vous est assigné pour approbation, il apparaît dans votre liste de validations dans l’application mobile. Vous pouvez consulter le BAT directement dans l’application et prendre une décision à ce sujet.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%

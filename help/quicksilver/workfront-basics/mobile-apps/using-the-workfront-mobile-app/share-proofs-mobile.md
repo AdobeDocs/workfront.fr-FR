@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Partage et téléchargement de BAT dans [!DNL Adobe Workfront] application mobile
 description: Vous pouvez partager un document de BAT avec des destinataires internes et externes directement à partir de l’application mobile. Vous pouvez également télécharger un document de BAT sur votre périphérique mobile.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%

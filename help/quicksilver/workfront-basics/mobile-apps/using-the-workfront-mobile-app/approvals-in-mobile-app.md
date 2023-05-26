@@ -3,13 +3,13 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Validations dans la variable [!DNL Adobe Workfront] application mobile
 description: Vous pouvez gérer les approbations qui vous ont été affectées ou qui vous ont été déléguées à partir du [!UICONTROL Approbations] dans la zone [!DNL Adobe Workfront] application mobile.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
@@ -66,7 +66,7 @@ Les bons à tirer suivent un processus d’approbation distinct. Vous ne pouvez 
    | ![Approuver le BAT avec les modifications de la tâche](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Approuver avec des modifications] (disponible uniquement pour les documents) |
    | ![Rejeter le BAT de la tâche](assets/mobile-rejectprooffromtask.png) | [!UICONTROL Rejeter] |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un commentaire]** dans le message de confirmation situé en bas de l’écran pour ajouter des commentaires à la décision. Ces commentaires apparaissent dans les mises à jour pour la validation.\
    ![Ajouter un commentaire](assets/mobile-addcommenttoapproval-350x123.png)\

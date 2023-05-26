@@ -2,20 +2,46 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Utilisez la variable [!DNL Adobe Workfront] application mobile
-description: Consultez ces articles pour savoir comment utiliser la variable [!DNL Adobe Workfront] application mobile.
-author: Lisa
+description: d’accélérer l’engagement et de rationaliser le travail des équipes et des individus de votre organisation par le biais de [!DNL Adobe Workfront's] application mobile, disponible sur n’importe quel appareil iOS ou Android.
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: 3851d5ffd587731f795fa9703be545be3f8d1a17
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '245'
+ht-degree: 0%
 
 ---
 
 # Utilisez la variable [!DNL Adobe Workfront] application mobile
 
-Cette section contient les articles suivants :
+d’accélérer l’engagement et de rationaliser le travail des équipes et des individus de votre organisation par le biais de [!DNL Adobe Workfront's] application mobile, disponible sur n’importe quel appareil iOS ou Android. Avec l’application, vous pouvez :
+
+* Accéder rapidement aux informations importantes
+* Maintenir votre workflow en cours avec des actions en une seule étape
+* Restez productif en déplacement
+
+Vous pouvez télécharger et installer l’application à partir du [Apple App Store](https://www.apple.com/app-store/) ou le [Google Play store](https://play.google.com/store/apps;).
+
+Dans l’application mobile, vous pouvez terminer des tâches et afficher des informations comme vous le faites dans la version du navigateur de [!DNL Workfront]. Ces fonctionnalités, entre autres, sont disponibles :
+
+* Travail et affectation de tâches et de problèmes
+* Mises à jour de publication
+* Accès aux panoramas Workfront
+* Affichage et gestion des projets
+* Afficher, commenter et prendre des décisions sur les bons à tirer
+* Approuver les tâches et les problèmes, les documents, les bons à tirer, les feuilles de temps et les demandes d’accès
+* Affichage des notifications in-app et réponse
+* Création et traitement de requêtes Workfront
+* Temps de connexion sur une feuille de temps
+
+<!--
+>[!NOTE]
+>
+>The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.4 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting their proof reviews and approvals.
+-->
+
+Pour plus d’informations sur la variable [!DNL Adobe Workfront] application mobile, passez en revue les articles suivants :
 
 * [[!DNL Adobe Workfront] pour [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [Soyez un [!DNL Android] testeur bêta](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)

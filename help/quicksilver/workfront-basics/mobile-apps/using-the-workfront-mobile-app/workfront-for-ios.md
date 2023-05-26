@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront pour iOS
 description: Le [!DNL Adobe Workfront] vous permet d’accéder à votre travail sur n’importe quel appareil iOS. Vous pouvez installer et utiliser la variable [!DNL Workfront] application mobile sur téléphones et tablettes exécutant iOS 10 ou une version ultérieure. Un [!DNL Workfront] L’application mobile est disponible pour iPhone et iPad.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 3%
@@ -52,7 +52,7 @@ Pour plus d’informations, voir [[!UICONTROL Accueil] widgets de zone](../../..
 
 ![Zone d’accueil](assets/mobile-home-area.png)
 
-## [!UICONTROL Tableaux]
+## [!UICONTROL Panoramas]
 
 Le [!UICONTROL Panoramas] vous permet d’accéder à votre [!DNL Workfront] panoramas.
 
