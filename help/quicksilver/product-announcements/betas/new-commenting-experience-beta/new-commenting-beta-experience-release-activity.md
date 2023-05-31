@@ -1,17 +1,17 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: "Nouvelle activité de commentaires sur la version bêta"
+title: Nouvelle activité de commentaires sur la version bêta
 description: Passez en revue l’activité de version hebdomadaire pour découvrir la nouvelle expérience de commentaires bêta d’Adobe Workfront.
 author: Alina
 feature: Product Announcements
-source-git-commit: f4283cc81fbde9e7c399bb48d483158175ca1dea
+exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 9%
+source-wordcount: '637'
+ht-degree: 8%
 
 ---
-
 
 # Nouvelle activité de commentaires sur la version bêta de l’expérience
 
@@ -26,6 +26,51 @@ Pour obtenir des informations générales sur la nouvelle expérience bêta de c
 >Les fonctions de commentaires publiées sur l’expérience bêta pour les objets Workfront sont également publiées dans la section Mises à jour d’un objet d’objectif dans les objectifs de Workfront.
 
 Les sections suivantes répertorient les fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
+
+## Semaine du 29 mai 2023
+
+### Nouvel aspect de la balise &quot;modifiée&quot; après modification d’un commentaire.
+
+Lors de la modification d’un commentaire dans la nouvelle expérience bêta de commentaires, une balise &quot;modifiée&quot; est ajoutée au commentaire. Cette balise a désormais une apparence plus récente que celle initialement publiée. Les horodatages du commentaire sont ceux du commentaire d’origine. Il ne s’agit pas des horodatages de date et d’heure du moment où la modification a été effectuée.  Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Aperçu : 31 mai 2023
+
+Production : 1er juin 2023
+
+<!--
+
+### Comments from children objects now roll up to a parent object  
+
+When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+Preview, for issues, projects, and tasks: June 1, 2023  
+
+Production, for issues: June 1, 2023 
+
+Production, for projects, and tasks: with the 23.3 release 
+-->
+
+<!--
+### Log time in the new commenting Beta experience 
+
+You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
+
+Preview: June 1, 2023 
+
+Production: June 15, 2023
+
+-->
+
+<!--
+
+### New commenting Beta experience for projects, tasks, and issues  
+
+The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
+
+Preview: June 1, 2023 
+
+Production: with the 23.3 release 
+-->
 
 ## Semaine du 15 mai 2023
 
