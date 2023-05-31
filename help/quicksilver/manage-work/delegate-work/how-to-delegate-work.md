@@ -5,9 +5,9 @@ title: Déléguer des tâches et problèmes
 description: Vous pouvez déléguer temporairement la tâche à laquelle vous êtes affecté lorsque vous êtes absent du bureau. Cet article décrit comment déléguer des tâches et des affectations de problèmes.
 author: Alina
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ Vous pouvez accéder au [!UICONTROL Affectations] dans les zones suivantes :
 
    Le [!UICONTROL Affectations] du champ de la tâche ou de l’en-tête du problème se transforme en [!UICONTROL Affectations et délégations].
 
-* Le [!DNL Workload Balancer] lors de l’affectation manuelle de tâches ou de problèmes
+* Le [!UICONTROL Équilibreur de charge de travail] lors de l’affectation manuelle de tâches ou de problèmes
 
    ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
@@ -222,7 +222,7 @@ Si une tâche ou un problème est délégué et que la variable [!UICONTROL Dél
 
 >[!TIP]
 >
->Les heures prévues ou réelles pour les tâches et les problèmes délégués ne sont pas prises en compte dans les outils de gestion des ressources, tels que [!DNL Workload Balancer] ou le [!DNL Resource Planner] pour les utilisateurs délégués. Les heures restent associées uniquement à l’utilisateur affecté.
+>Les heures prévues ou réelles pour les tâches et les problèmes délégués ne sont pas prises en compte dans les outils de gestion des ressources, tels que [!UICONTROL Équilibreur de charge de travail] ou le [!DNL Resource Planner] pour les utilisateurs délégués. Les heures restent associées uniquement à l’utilisateur affecté.
 
 ### Localisation du travail délégué dans [!UICONTROL Accueil]
 

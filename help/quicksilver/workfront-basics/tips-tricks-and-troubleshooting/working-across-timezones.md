@@ -5,9 +5,9 @@ title: Utilisation des fuseaux horaires
 description: Il peut s’avérer utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer les heures des objets et les heures dans d’autres domaines tels que les emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Vous pouvez aider les utilisateurs qui travaillent plus facilement dans plusieur
 
    Pour obtenir des instructions sur l’affectation d’une planification à un projet ou à un utilisateur, voir [Création d’un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Pour plus d’informations sur l’impact du fuseau horaire configuré dans votre planning sur la distribution de [!UICONTROL Heures planifiées] dans le [!DNL Workload Balancer], voir [Gestion des affectations d’utilisateurs dans [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Pour plus d’informations sur l’impact du fuseau horaire configuré dans votre planning sur la distribution de [!UICONTROL Heures planifiées] dans le [!UICONTROL Équilibreur de charge de travail], voir [Gestion des affectations d’utilisateurs dans [!UICONTROL Équilibreur de charge de travail]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Utilisation de champs d’heure calculée dans un formulaire personnalisé {#use-calculated-time-fields-in-a-custom-form}

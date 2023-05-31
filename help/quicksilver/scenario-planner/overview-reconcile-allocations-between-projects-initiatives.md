@@ -6,9 +6,9 @@ description: Présentation de la réconciliation des allocations de ressources e
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -79,9 +79,9 @@ Les deux processus créent un lien entre les projets et leurs initiatives corres
 
    * Le [!UICONTROL Attribution des rôles] dans les zones suivantes :
 
-      * [!DNL Workload Balancer] du projet
+      * [!UICONTROL Équilibreur de charge de travail] du projet
 
-         Pour plus d’informations sur la manière d’afficher et de réconcilier les attributions de rôles entre l’initiative et le projet lié dans la [!DNL Workload Balancer], voir [Afficher l’affectation des rôles pour les projets et les initiatives dans le [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md).
+         Pour plus d’informations sur la manière d’afficher et de réconcilier les attributions de rôles entre l’initiative et le projet lié dans la [!UICONTROL Équilibreur de charge de travail], voir [Afficher l’affectation des rôles pour les projets et les initiatives dans le [!UICONTROL Équilibreur de charge de travail]](../scenario-planner/show-role-allocation-workload-balancer.md).
 
       * [!UICONTROL Tâches] section
 

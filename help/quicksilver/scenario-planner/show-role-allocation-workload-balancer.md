@@ -6,14 +6,14 @@ description: Une fois que vous avez connecté les projets et les initiatives, vo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
 
-# Afficher l’affectation des rôles pour les projets et les initiatives dans le [!DNL Workload Balancer]
+# Afficher l’affectation des rôles pour les projets et les initiatives dans le [!UICONTROL Équilibreur de charge de travail]
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ Vous devez :
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
 
-## Afficher l’affectation des rôles pour les projets et les initiatives dans le [!DNL Workload Balancer]
+## Afficher l’affectation des rôles pour les projets et les initiatives dans le [!UICONTROL Équilibreur de charge de travail]
 
-Si votre société a acheté une [!DNL Workfront Scenario Planner] , vous pouvez réconcilier les allocations de ressources entre l’initiative et le projet qui y est lié au niveau du projet. [!DNL Workload Balancer].
+Si votre société a acheté une [!DNL Workfront Scenario Planner] , vous pouvez réconcilier les allocations de ressources entre l’initiative et le projet qui y est lié au niveau du projet. [!UICONTROL Équilibreur de charge de travail].
 
 1. (Conditionnel) Connectez un projet à une initiative à l’aide de l’une des méthodes décrites dans les articles suivants :
 
@@ -72,7 +72,7 @@ Si votre société a acheté une [!DNL Workfront Scenario Planner] , vous pouvez
    >Si vous apportez des modifications aux ressources de l’initiative, vous devez republier le scénario auquel appartient l’initiative pour que les dernières informations sur les ressources de l’initiative soient mises à jour sur le projet.
 
 1. Accédez au projet dans lequel vous souhaitez examiner l’affectation des rôles de tâche pour le projet ainsi que pour l’initiative associée.
-1. Cliquez sur [!DNL Workload Balancer] dans le panneau de gauche.
+1. Cliquez sur [!UICONTROL Équilibreur de charge de travail] dans le panneau de gauche.
 
    Vous devrez peut-être cliquer sur **[!UICONTROL Planification]**, puis **[!UICONTROL Basculer vers l’équilibreur de charge de travail]**.
 

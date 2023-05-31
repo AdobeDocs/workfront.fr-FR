@@ -5,9 +5,9 @@ title: Navigation de gauche dans [!DNL Adobe Workfront]
 description: Panneau de navigation de gauche dans [!DNL Workfront] facilite la navigation dans le système.
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1403'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Le panneau de gauche est disponible pour les objets suivants :
 * Modèle
 * Tâche de modèle
 * Itération
-* Utilisateur
+* Utilisateur ou utilisatrice
 * Équipe
 * Groupe
 * Objectif
@@ -134,7 +134,7 @@ Les sections suivantes s’affichent dans le panneau de gauche pour la **[!UICON
    <td>Affiche le planificateur de ressources. Utilisez cette zone pour planifier vos ressources sur plusieurs projets. Pour plus d’informations sur l’utilisation du planificateur de ressources, voir <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Prise en main de la planification des ressources</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Workload Balancer]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL équilibreur de charge de travail]</strong></td> 
    <td>Affiche l’équilibreur de charge de travail. Utilisez cette zone pour affecter du travail réel à vos ressources. <br>
    Pour plus d’informations sur l’utilisation des ressources de planification, voir <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Présentation de l’affectation de travail dans l’équilibreur de charge de travail</a>.</td> 
   </tr> 

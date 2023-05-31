@@ -4,9 +4,9 @@ title: Aperçu du résumé
 description: Vous pouvez utiliser le panneau Résumé pour passer en revue et mettre à jour les informations des éléments de travail directement à partir d’une liste de problèmes de tâches, de documents ou d’autres zones de [!DNL Adobe Workfront] qui affichent les tâches et les problèmes.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Le tableau suivant répertorie les zones où vous pouvez localiser et utiliser l
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Tâches dans les zones de travail [!UICONTROL non affecté] et [!UICONTROL Affecté] de [!DNL Workload Balancer]</td> 
+   <td>Tâches dans les zones de travail [!UICONTROL non affecté] et [!UICONTROL Affecté] de l’[!UICONTROL équilibreur de charge de travail]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Événements</td> 
@@ -45,7 +45,7 @@ Le tableau suivant répertorie les zones où vous pouvez localiser et utiliser l
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problèmes dans la zone [!UICONTROL Affectée] de la variable [!DNL Workload Balancer]</td> 
+   <td>Problèmes dans la zone [!UICONTROL Affecté de travail] de l’[!UICONTROL équilibreur de charge de travail]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problèmes dans la section [!UICONTROL Envoyé] de la zone [!UICONTROL Demandes]</td> 
@@ -68,7 +68,7 @@ Le tableau suivant répertorie les zones où vous pouvez localiser et utiliser l
 
 Cet article décrit comment accéder à et utiliser le [!UICONTROL Résumé] pour les tâches et les problèmes dans les listes.
 
-Pour plus d’informations sur l’accès au [!UICONTROL Résumé] dans le [!DNL Workload Balancer], voir [Mise à jour des tâches dans [!DNL Workload Balancer] en utilisant la variable [!UICONTROL Résumé]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+Pour plus d’informations sur l’accès au [!UICONTROL Résumé] dans le [!UICONTROL Équilibreur de charge de travail], voir [Mise à jour des tâches dans [!UICONTROL Équilibreur de charge de travail] en utilisant la variable [!UICONTROL Résumé]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 Pour plus d’informations sur l’accès au [!UICONTROL Résumé] pour les documents, voir [[!UICONTROL Résumé] présentation des documents](../../documents/managing-documents/summary-for-documents.md).
 

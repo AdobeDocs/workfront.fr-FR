@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Si vous désactivez un rôle de tâche, il ne s’affiche plus dans les zones su
 
 >[!TIP]
 >
->Les rôles désactivés s’affichent toujours dans les filtres des listes, des rapports et d’autres outils tels que le [!DNL Workload Balancer].
+>Les rôles désactivés s’affichent toujours dans les filtres des listes, des rapports et d’autres outils tels que le [!UICONTROL Équilibreur de charge de travail].
 
 ## Observations avant la désactivation d’un rôle de tâche
 
