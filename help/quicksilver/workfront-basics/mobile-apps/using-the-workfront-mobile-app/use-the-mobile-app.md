@@ -6,9 +6,9 @@ description: d’accélérer l’engagement et de rationaliser le travail des é
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
+source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ d’accélérer l’engagement et de rationaliser le travail des équipes et des
 * Maintenir votre workflow en cours avec des actions en une seule étape
 * Restez productif en déplacement
 
-Vous pouvez télécharger et installer l’application à partir du [Apple App Store](https://www.apple.com/app-store/) ou le [Google Play store](https://play.google.com/store/apps;).
+Vous pouvez télécharger et installer l’application à partir du [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) ou le [Google Play store](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 Dans l’application mobile, vous pouvez terminer des tâches et afficher des informations comme vous le faites dans la version du navigateur de [!DNL Workfront]. Ces fonctionnalités, entre autres, sont disponibles :
 
