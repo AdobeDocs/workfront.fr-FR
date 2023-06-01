@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
+source-git-commit: 561ceb9f22e61527fd3303b1e76585ed885039ff
 workflow-type: tm+mt
-source-wordcount: '13012'
+source-wordcount: '13059'
 ht-degree: 1%
 
 ---
@@ -1722,6 +1722,17 @@ ht-degree: 1%
       * [Déléguer la demande d’approbation](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associer un processus d’approbation nouveau ou existant au travail](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Rappeler les validations envoyées](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+   * Révisions et validations de documents {#document-reviews-and-approvals}
+      * [Révisions et validations de documents](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * Gestion des approbations de documents {#manage-document-approvals}
+         * [Gestion des approbations de documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [Créer une validation de document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Ajouter des validants ou validants supplémentaires à un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Suppression des approbateurs ou des réviseurs d’un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+      * Révision et approbation de documents {#review-and-approve-documents}
+         * [Révision et approbation de documents](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+         * [Révision d’un document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [Approbation d’un document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Vérification {#proofing}
       * [Vérification](review-and-approve-work/proofing/proofing.md)
       * Présentation de la vérification {#proofing-overview}
@@ -1934,8 +1945,8 @@ ht-degree: 1%
       * [Personnalisation de la terminologie des objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Partage d’un objectif dans les objectifs Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Activation des notifications d’Adobe Workfront Goals](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront Fusion {#adobe-workfront-fusion}
-   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
+* Adobe Workfront Fusion {#adobe-workfront-fusion}
+   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * Prise en main d’Adobe Workfront Fusion {#get-started-with-workfront-fusion}
       * [Prise en main d’Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
       * [Présentation d’Adobe Workfront Fusion](workfront-fusion/get-started/workfront-fusion-overview.md)
