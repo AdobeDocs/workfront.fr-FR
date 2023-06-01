@@ -6,10 +6,10 @@ description: Passez en revue l’activité de version hebdomadaire pour découvr
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 8%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -29,48 +29,41 @@ Les sections suivantes répertorient les fonctionnalités qui ont été ajoutée
 
 ## Semaine du 29 mai 2023
 
+### Nouvelle expérience de commentaires bêta pour les projets, les tâches et les problèmes
+
+La nouvelle expérience de commentaires bêta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires bêta n’était disponible que pour les problèmes et les objectifs.
+
+Aperçu : 1er juin 2023
+
+Production : avec la version 23.3
+
+>[!NOTE]
+>
+>Toutes les fonctionnalités publiées pour la nouvelle expérience de commentaires bêta à partir du 1er juin 2023 seront disponibles dans Production pour les projets, les tâches et les documents après la version 23.3 de production. Pour plus d’informations, voir [Présentation de la version 23.3](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
 ### Nouvel aspect de la balise &quot;modifiée&quot; après modification d’un commentaire.
 
-Lors de la modification d’un commentaire dans la nouvelle expérience bêta de commentaires, une balise &quot;modifiée&quot; est ajoutée au commentaire. Cette balise a désormais une apparence plus récente que celle initialement publiée. Les horodatages du commentaire sont ceux du commentaire d’origine. Il ne s’agit pas des horodatages de date et d’heure du moment où la modification a été effectuée.  Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Lors de la modification d’un commentaire dans la nouvelle expérience bêta de commentaires, une balise &quot;modifiée&quot; est ajoutée au commentaire. Cette balise a désormais un nouvel aspect de celle qui a été publiée à l’origine. Les horodatages du commentaire sont ceux du commentaire d’origine. Il ne s’agit pas des horodatages de date et d’heure du moment où la modification a été effectuée.  Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Aperçu : 31 mai 2023
 
 Production : 1er juin 2023
 
-<!--
+### Les commentaires des objets enfants s’affichent dans un objet parent
 
-### Comments from children objects now roll up to a parent object  
+Lors de l’activation de l’expérience bêta de commentaires, les commentaires associés à un objet enfant sont désormais cumulés à l’objet parent. Par exemple, les commentaires des documents s’affichent maintenant sur le problème où les documents sont joints. Pour plus d’informations, voir [Mise à jour de la section - Aperçu](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+Aperçu : 1er juin 2023
 
-Preview, for issues, projects, and tasks: June 1, 2023  
+Production : 1er juin 2023
 
-Production, for issues: June 1, 2023 
+### Temps de connexion à la nouvelle expérience bêta de commentaires
 
-Production, for projects, and tasks: with the 23.3 release 
--->
+Vous pouvez consigner le temps nécessaire aux problèmes, aux tâches et aux projets dans la zone Mises à jour lors de l’utilisation de la nouvelle expérience de commentaires bêta. Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-### Log time in the new commenting Beta experience 
+Aperçu : 1er juin 2023
 
-You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
-
-Preview: June 1, 2023 
-
-Production: June 15, 2023
-
--->
-
-<!--
-
-### New commenting Beta experience for projects, tasks, and issues  
-
-The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
-
-Preview: June 1, 2023 
-
-Production: with the 23.3 release 
--->
+Production : À annoncer
 
 ## Semaine du 15 mai 2023
 

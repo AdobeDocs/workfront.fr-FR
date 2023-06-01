@@ -6,16 +6,16 @@ description: Une mise à jour de l’expérience de commentaires dans Adobe Work
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
 
 # Nouvelle expérience de commentaire
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets.
 
@@ -47,7 +47,7 @@ La nouvelle expérience de commentaires comprend des améliorations et des modif
 Les améliorations suivantes ont été apportées à la nouvelle expérience de commentaires :
 
 * Amélioration des performances et de l’expérience utilisateur
-* Séparation des commentaires des utilisateurs des mises à jour de l’activité du système. La façon dont le système se met à jour fonctionne ne change pas.
+* Séparation des commentaires des utilisateurs des mises à jour de l’activité du système.
 * Indicateur en temps réel lorsque de nouveaux commentaires sont ajoutés à un objet
 * Modification des commentaires après leur envoi.
 
@@ -261,7 +261,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -409,7 +409,7 @@ La nouvelle expérience de commentaire est actuellement prise en charge pour les
 
 * Lors de l’activation de l’expérience bêta dans la section Mises à jour :
 
-   * Événements<!--, <span class="preview">projects, tasks, and documents</span>-->
+   * Problèmes, <span class="preview">projets, tâches et documents</span>
    Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 

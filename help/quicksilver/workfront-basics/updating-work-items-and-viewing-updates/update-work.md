@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3176'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
-> * Problèmes, <!--<span class="preview">projects, tasks, and documents</span>,--> lors de l’activation de la version bêta des commentaires.
+> * Problèmes, <span class="preview">projets, tâches et documents</span>, lors de l’activation de la version bêta des commentaires.
    >
    >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour et elle ne l’est pas pour les zones suivantes :
    >
@@ -193,7 +193,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 Le **Commentaires** est sélectionné par défaut.
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 1. (Facultatif) Pour ajouter un lien URL vers des sources d’informations supplémentaires :
 
    1. Cliquez dans la mise à jour où vous souhaitez insérer un lien.
-   1. Sur le **Texte enrichi** , cliquez sur **Lien hypertexte** icône . ![](assets/link-icon.png)
+   1. Sur le **Texte enrichi** , cliquez sur **Lien hypertexte** icon ![](assets/link-icon.png).
 
    1. Dans le **Créer un lien** s’affiche, sous **URL**, saisissez ou collez l’URL de la source à laquelle vous souhaitez créer un lien.
 

@@ -6,14 +6,18 @@ description: Vous pouvez consigner le temps passé sur les tâches dans&nbsp;Ado
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
 
 # Temps de connexion
+
+<!--remove all preview and production references from this article with 23.3 release-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 Vous pouvez consigner le temps passé sur les tâches dans Adobe Workfront afin d’indiquer le nombre d’heures passées à les traiter. Vous pouvez également consigner le temps qui n’est pas lié au travail, comme les vacances, le temps de maladie ou le temps que vous passez en réunion. L’heure de connexion s’affiche dans votre feuille de temps.
 
@@ -109,7 +113,7 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
 
 >[!NOTE]
 >
->Les utilisateurs chargés de la révision d’un profil de feuille de temps peuvent voir l’onglet Fiches horaires et consigner les heures générales. Cependant, ils ne peuvent pas consigner les heures sur les tâches ou les problèmes qui leur sont affectés et qui apparaissent sur la feuille de temps.
+>Les utilisateurs chargés de la révision d’un profil de feuille de temps peuvent voir la zone Fiches horaires et consigner les heures générales. Cependant, ils ne peuvent pas consigner les heures sur les tâches ou les problèmes qui leur sont affectés et qui apparaissent sur la feuille de temps.
 
 1. Cliquez sur le bouton [!UICONTROL **Menu Principal**] icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
@@ -342,40 +346,32 @@ Pour vous connecter à un élément de travail à partir de la zone Accueil :
 
 ### Projet, tâche ou problème {#project-task-or-issue}
 
-Vous pouvez consigner l’heure spécifique d’un projet, d’une tâche ou d’un problème.
+Vous pouvez consigner l’heure spécifique d’un projet, d’une tâche ou d’un problème dans les sections suivantes :
 
-#### Autorisations requises pour l’heure de journalisation
+* [Met à jour la section](#updates-section)
+* [Section Heures](#hours-section)
 
-Pour consigner des heures sur un projet, une tâche ou un problème, vous devez disposer d’autorisations spécifiques. Vous pouvez consigner le temps de connexion à deux endroits sur un projet, une tâche ou un problème :
+#### Met à jour la section{#updates-section}
 
-* [Onglet Mises à jour](#updates-tab)
-* [Onglet Heures](#hours-tab)
-
-##### Onglet Mises à jour{#updates-tab}
-
-<!--
+<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
 
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, logging time is available only for the following objects in the following environments:
+> Vous pouvez consigner l’heure des problèmes, <span class="preview">projets et tâches</span> lors de l’activation de la nouvelle expérience de commentaire bêta dans la section Mises à jour .
 >
->* In the Preview and Production environments for issues. 
->* <span class="preview">In the Preview environment for tasks and projects.</span> 
->
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
--->
+Pour vous connecter à la section Mises à jour d’un projet, d’une tâche ou d’un problème, vous devez disposer des éléments suivants :
 
-Vous devez respecter les conditions suivantes avant de pouvoir consigner les heures dans l’onglet Mises à jour d’un projet, d’une tâche ou d’un problème :
-
-* Vous devez disposer d’une licence de travail ou de plan.
-* Vous devez au moins disposer d’autorisations de contribution pour le projet, la tâche ou le problème d’accès aux heures de journal.\
+* Une licence Work or Plan.
+* Attribuez ou modifiez des autorisations au projet, à la tâche ou au problème d’accès aux heures de journal.\
    Pour plus d’informations sur l’octroi d’autorisations sur les projets, voir [Partage d’un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* Si vous souhaitez que le temps de connexion à un projet soit direct, votre administrateur Workfront doit activer le paramètre Temps de connexion directement aux projets sous [!UICONTROL **Frise chronologique et heures** ]> [!UICONTROL **Préférences**].\
+* Votre administrateur Workfront doit activer le paramètre Temps de connexion directement sur les projets sous [!UICONTROL **Frise chronologique et heures** ]> [!UICONTROL **Préférences**], si vous souhaitez consigner le temps directement dans un projet.
+
    Pour plus d’informations sur l’autorisation des utilisateurs de consigner des heures directement dans des projets, voir [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Pour consigner le temps de connexion dans l’onglet Mises à jour d’un projet, d’une tâche ou d’un problème :
+Pour consigner l’heure dans la section Mises à jour d’un projet, d’une tâche ou d’un problème :
 
 1. Accédez à un projet, à une tâche ou à un problème.
 1. Dans le panneau de gauche, sélectionnez **Mises à jour**.
@@ -403,22 +399,22 @@ Pour consigner le temps de connexion dans l’onglet Mises à jour d’un projet
 
 1. Cliquez sur **Temps journal**.
 
-##### Onglet Heures{#hours-tab}
+#### Section Heures{#hours-section}
 
-Vous devez respecter les conditions suivantes avant de pouvoir consigner les heures dans l’onglet Heures d’un projet, d’une tâche ou d’un problème :
+Vous devez être un administrateur Workfront pour consigner le temps de connexion des projets, tâches et problèmes de la section Heures,
 
-* Vous devez être l’administrateur système.
+Ou
 
-Vous devez également disposer de tous les éléments suivants :
+Vous devez disposer de tous les éléments suivants :
 
-* Vous devez disposer d’une licence Plan avec un accès administratif aux Fiches horaires et heures. Pour plus d’informations sur l’octroi de l’accès administratif aux feuilles de calcul et aux heures, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* Vous devez disposer d’au moins les autorisations de contribution au projet avec accès aux heures de journal. Pour plus d’informations sur l’octroi d’autorisations sur les projets, voir [Partage d’un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Si vous souhaitez que l’heure de connexion soit directement associée à un projet, votre administrateur Workfront doit activer le paramètre Temps de connexion direct aux projets sous Frise chronologique et heures > Préférences. Pour plus d’informations sur l’autorisation des utilisateurs de consigner des heures directement dans des projets, voir [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Une licence Plan avec accès administratif aux Fiches horaires et aux heures. Pour plus d’informations sur l’octroi de l’accès administratif aux feuilles de calcul et aux heures, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Accordez des autorisations ou des autorisations supérieures au projet avec accès aux heures de journal. Pour plus d’informations sur l’octroi d’autorisations sur les projets, voir [Partage d’un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Votre administrateur Workfront doit activer le paramètre Temps de connexion directement sur les projets sous Frise chronologique et heures > Préférences si vous souhaitez que la durée de connexion soit directement associée à un projet. Pour plus d’informations sur l’autorisation des utilisateurs de consigner des heures directement dans des projets, voir [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Pour consigner l’heure dans l’onglet Heures d’un projet, d’une tâche ou d’un problème :
+Pour consigner l’heure dans la section Heures d’un projet, d’une tâche ou d’un problème :
 
 1. Accédez à un projet, à une tâche ou à un problème.
-1. Dans le panneau de gauche, sélectionnez **Heures**.
+1. Dans le panneau de gauche, cliquez sur **Heures**.
 1. Cliquez sur **Temps journal**.
 
    La boîte de dialogue Heures de journal s’affiche.

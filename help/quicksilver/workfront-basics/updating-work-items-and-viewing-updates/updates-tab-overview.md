@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '968'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 4%
 >Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
-> * Problèmes, <!--<span class="preview">projects, tasks, and documents</span>,--> lors de l’activation de la version bêta des commentaires.
+> * Problèmes, <span class="preview">projets, tâches et documents</span> lors de l’activation de la version bêta des commentaires.
    >
    >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour et elle ne l’est pas pour les zones suivantes :
    >
@@ -58,7 +58,7 @@ La section Mises à jour d’un objet affiche jusqu’à 200 des mises à jour l
 La section Mises à jour actuelles affiche les informations suivantes :
 
 * Commentaires des utilisateurs et réponses à ces commentaires.
-* Mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système pour vos projets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* Mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 La section Mises à jour s’affiche pour les objets suivants :
 
@@ -97,9 +97,9 @@ La section Mises à jour s’affiche pour les objets suivants :
 La section Mises à jour affiche des informations dans les onglets suivants de la nouvelle expérience de commentaire :
 
 * **Commentaires**: Affiche les commentaires des utilisateurs et les réponses à ces commentaires. Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
-* **Activité du système**: Affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système pour vos projets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **Activité du système**: Affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Actuellement, vous pouvez faire des commentaires et répondre aux mises à jour à l’aide de la version bêta de l’expérience de commentaire sur les objets suivants :
+Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jour à l’aide de l’expérience de commentaires bêta sur les objets suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,39 +111,17 @@ Actuellement, vous pouvez faire des commentaires et répondre aux mises à jour 
      <li><p>Objectifs</p>
      <p>Il s’agit de l’expérience par défaut pour les objectifs.</p>
      </li> 
-      </ul> </td> 
+     <li><span class="preview">Projets</span></li>
+     </ul> </td> 
    <td> 
     <ul> 
      <li>Événements</li> 
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<!--replace table above with this: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-     <li><span class="preview">Projects</span></li>
-     </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
+     <li><span class="preview">Tâches</span></li>
      <li><span class="preview">Documents</span></li>
      </ul> </td> 
   </tr> 
  </tbody> 
 </table>
--->
 
 ## Mises à jour qui apparaissent également sur les objets de rang supérieur
 
@@ -151,17 +129,15 @@ Les commentaires ou réponses à des mises à jour sur certains objets apparaiss
 
 Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jour s’affiche dans la section Mises à jour de la tâche et dans la section Mises à jour du projet contenant la tâche.
 
-<!--
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>Lors de l’activation de la nouvelle expérience de commentaires bêta, les commentaires s’affichent sur les objets de rang supérieur suivants et dans les environnements suivants :
 >
->* Issues, in the Preview and Production environments
->* <span class="preview">Projects and tasks, in the Preview environment</span>
+>* Événements
+>* <span class="preview">Projets</span>
+>* <span class="preview">Tâches</span>
 >
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
--->
+>Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Le tableau suivant présente les objets dont les commentaires s’affichent également sur les objets de rang supérieur :
 
