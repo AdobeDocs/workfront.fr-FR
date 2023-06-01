@@ -6,7 +6,7 @@ description: Passez en revue l’activité de version hebdomadaire pour découvr
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 6%
@@ -29,7 +29,7 @@ Les sections suivantes répertorient les fonctionnalités qui ont été ajoutée
 
 ## Semaine du 29 mai 2023
 
-### Nouvelle expérience de commentaires bêta pour les projets, les tâches et les problèmes
+### Nouvelle expérience de commentaires bêta pour les projets, les tâches et les documents
 
 La nouvelle expérience de commentaires bêta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires bêta n’était disponible que pour les problèmes et les objectifs.
 

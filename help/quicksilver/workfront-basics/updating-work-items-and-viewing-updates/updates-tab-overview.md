@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '963'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 >Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
-> * Problèmes, <span class="preview">projets, tâches et documents</span> lors de l’activation de la version bêta des commentaires.
+> * Problèmes, <span class="preview">projects</span>, <span class="preview">tâches</span>, et <span class="preview">documents</span>, lors de l’activation de la version bêta des commentaires.
    >
    >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour et elle ne l’est pas pour les zones suivantes :
    >
@@ -131,7 +131,7 @@ Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jou
 
 >[!NOTE]
 >
->Lors de l’activation de la nouvelle expérience de commentaires bêta, les commentaires s’affichent sur les objets de rang supérieur suivants et dans les environnements suivants :
+>Lors de l’activation de la nouvelle expérience de commentaires bêta, les commentaires s’affichent sur les objets de rang supérieur suivants :
 >
 >* Événements
 >* <span class="preview">Projets</span>

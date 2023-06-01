@@ -6,7 +6,7 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '3176'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 >Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
-> * Problèmes, <span class="preview">projets, tâches et documents</span>, lors de l’activation de la version bêta des commentaires.
+> * Problèmes, <span class="preview">projects</span>, <span class="preview">tâches</span>, et <span class="preview">documents</span>, lors de l’activation de la version bêta des commentaires.
    >
    >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour et elle ne l’est pas pour les zones suivantes :
    >
