@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
+source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Améliorations apportées à Adobe Workfront
 
+* [Améliorations apportées aux administrateurs](#administrator-enhancements)
 * [Améliorations rapides](#agile-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
+* [Améliorations des projets](#project-enhancements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations apportées aux administrateurs
@@ -221,8 +223,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Création automatique de dossiers liés à Adobe Experience Manager Assets lors de la création d’un projet</a><span style="color: #ff0000;"> Nouveautés en production</span></p>
-                        <p>Avec le nouveau workflow Créer un dossier lié pour l’intégration d’Adobe Experience Manager, vous pouvez configurer l’intégration avec un chemin d’accès à un dossier Adobe Experience Manager Assets. Lorsque l’intégration est ajoutée à un modèle de projet, tout projet créé à partir du modèle crée automatiquement un sous-dossier lié dans Experience Manager Assets dans le dossier spécifié. </p><p>Cette fonctionnalité est disponible uniquement avec une intégration Adobe Experience Manager as a Cloud Service dans Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Création automatique de dossiers liés à Adobe Experience Manager Assets lors de la création d’un projet</a></p>
+                        <p>Avec le nouveau workflow Créer un dossier lié pour l’intégration d’Adobe Experience Manager, vous pouvez configurer l’intégration avec un chemin d’accès à un dossier Adobe Experience Manager Assets. Lorsque l’intégration est ajoutée à un modèle de projet, tout projet créé à partir du modèle crée automatiquement un sous-dossier lié dans Experience Manager Assets dans le dossier spécifié. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -286,6 +288,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Améliorations des projets
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nouvelles validations de document</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>L’approbation des documents est en cours de reconception dans un déploiement échelonné qui sera mis à la disposition d’un plus grand nombre d’utilisateurs avec chaque version.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 31 mai 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production : 14 juin 2023</span></p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Cette fonctionnalité, qui fait partie d’une version par étapes, n’est actuellement disponible que pour des clients spécifiques.</span></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Autres améliorations
 
 <table>
@@ -302,6 +341,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires bêta pour les projets, les tâches et les documents</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>La nouvelle expérience de commentaires bêta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires bêta n’était disponible que pour les problèmes et les objectifs.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 1er juin 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Version de production : avec la version 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Les profils sans avatars affichent désormais les initiales de l’utilisateur.</a></p>
