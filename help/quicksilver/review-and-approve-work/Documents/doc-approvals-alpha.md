@@ -7,13 +7,13 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
+exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
+source-git-commit: d52a550350aad0b7ae67d90e3742a21de743f2b3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
-
 
 # Programme Alpha - Approbations de document
 
@@ -25,15 +25,23 @@ Pour participer à cette version Alpha, veillez à ce que vous ayez été ajout�
 
 ## Dernière version
 
+### Version Alpha 4 - Mai 2023
+
+Dans cette version Alpha 4, avant de passer en production uniquement pour un groupe sélectionné de clients, nous avons intégré des notifications dans l’en-tête de Workfront, dans le flux de mise à jour et dans le courrier électronique. Veuillez noter que les notifications électroniques sont exclusives à l’environnement de production et ne sont pas visibles dans votre environnement de prévisualisation. Si vous souhaitez que cette version soit mise en oeuvre dans votre environnement de production le 14 juin, contactez-moi directement à l’adresse jbarron@adobe.com.
+
+Nous sommes ravis de cette étape et nous attendons avec impatience d’en savoir plus à venir !
+
+Regardez la présentation vidéo complète ci-dessous :
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420094/)
+
+## _Versions antérieures_
+
 ### Version Alpha 3 - Mars 2023
 
 Dans cette version de la version 3e version Alpha, nous avons intégré vos commentaires en introduisant des messages de succès qui s’affichent lorsque vous réalisez des actions comme l’ajout ou la suppression d’approbateurs et de réviseurs. En outre, cette version offre une meilleure visibilité des approbations en attente, qui peuvent désormais être visualisées sur les pages d’accueil et Mes mises à jour , ce qui permet aux utilisateurs d’approuver facilement des documents directement à partir de ces pages.
 
-Regardez la présentation vidéo complète ci-dessous :
-
->[!VIDEO](https://video.tv.adobe.com/v/3417854/)
-
-## _Versions antérieures_
+Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3417854/){target=_blank}
 
 ### Version Alpha 2 - Jan. 2023
 
