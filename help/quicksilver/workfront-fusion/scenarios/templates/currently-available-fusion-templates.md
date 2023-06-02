@@ -7,9 +7,9 @@ description: Les modèles publics suivants sont actuellement disponibles dans Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
+source-git-commit: b87a3777fb3f3c873a197eea1ffb051cec50aa93
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Pour afficher les modèles disponibles, cliquez sur le bouton **Modèles** icon 
 ## Modèles Workfront
 
 Ces modèles automatisent les processus et les workflows Workfront.
+
+### Workfront - Copier le programme Forms personnalisé et les données de champ dans les nouveaux projets associés
+
+Cette automatisation recherche de nouveaux projets dans les programmes avec des formulaires personnalisés. Il ajoute ensuite ces formulaires et champs personnalisés de programme aux nouveaux projets.
 
 ### Workfront - Convertir le problème approuvé en projet
 
