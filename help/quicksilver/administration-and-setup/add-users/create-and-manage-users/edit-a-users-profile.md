@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
+source-git-commit: fb934506205c586852497197115a7731083c0e54
 workflow-type: tm+mt
-source-wordcount: '2802'
+source-wordcount: '2867'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Les étapes de cet article doivent être les suivantes :
       <li><b>Est Principal :</b> Cochez cette case pour indiquer que l’utilisateur est principal. Les utilisateurs principaux utilisent une licence Workfront. L’effacement de la case désactive l’utilisateur.</li> 
        <li> <p><b>Niveau d’accès :</b> Sélectionnez le niveau d’accès à affecter à cet utilisateur.</p> 
        <p>Lorsque vous attribuez un niveau d’accès à un utilisateur, vous pouvez attribuer un niveau égal ou inférieur à votre propre niveau d’accès. (Par exemple, si votre niveau d’accès est Planificateur, vous ne pouvez pas attribuer le niveau d’accès Administrateur.) Cependant, vous ne pouvez pas attribuer un niveau d’accès qui, par défaut, est inférieur à votre propre niveau d’accès si l’administrateur Workfront a activé des autorisations autres que les autorisations par défaut sur le niveau d’accès qui ne sont pas également activées dans votre propre niveau d’accès (via les paramètres d’optimisation, comme décrit dans la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>). </p> 
-       <p>Pour plus d’informations sur les niveaux d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configurer l’accès à Adobe Workfront</a>.</p> </li> 
+       <p>Pour plus d’informations sur les niveaux d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configurer l’accès à Adobe Workfront</a>.</p><p> <b>Remarque :</b> Si votre entreprise utilise le nouveau modèle d’accès (Standard/Clair/Contributeur), vous ne pouvez pas réaffecter un utilisateur standard ou léger à un niveau d’accès Contributeur si cet utilisateur a déjà atteint sa limite de décision pour le mois. </p><p>Pour plus d’informations sur le nouveau modèle d’accès, voir <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Nouveaux niveaux d’accès - Aperçu</a>. </p><p>Pour plus d’informations sur les limites de décision, voir <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Présentation des documents et des BAT limités pour les utilisateurs non payants</a>.</p></li> 
        <li> <p><b>Modèle de mise en page</b>: Sélectionnez un modèle de mise en page pour l’utilisateur. Ce modèle de mise en page a la priorité sur tout modèle de mise en page affecté au groupe d’accueil, à l’équipe d’accueil ou au rôle de tâche Principal de l’utilisateur. Pour plus d’informations sur la priorité d’affectation des modèles de mise en page, voir <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Création et gestion des modèles de mise en page</a>.</p> <p><b>NOTE</b>:  <p>La liste des modèles disponibles dans ce champ dépend de votre accès :</p> 
        <ul> 
        <li>En tant qu’administrateur Workfront, vous pouvez consulter tous les modèles de mise en page au niveau du système et du groupe.</li> 
