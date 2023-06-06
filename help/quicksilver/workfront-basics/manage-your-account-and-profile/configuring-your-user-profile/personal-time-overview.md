@@ -7,10 +7,10 @@ description: Adobe Workfront n’est pas conçu pour répliquer ou remplacer vos
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e87f2a459314b8059a3df634e97560b5c1dffac4
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '412'
+ht-degree: 0%
 
 ---
 
@@ -33,8 +33,6 @@ Les outils de gestion des ressources utilisent également votre temps de congé 
 >
 
 
-
-
 ## Exigences d’accès
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
@@ -47,15 +45,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou version ultérieure (pour configurer votre temps de congé personnel)</p> </td> 
+   <td>[!UICONTROL Work] ou version ultérieure (pour configurer votre temps de congé personnel)</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td>[!UICONTROL Manager] avec accès à [!UICONTROL Modifier l’utilisateur] (pour apporter des modifications au calendrier des interruptions des autres utilisateurs)</td> 
+   <td>[!UICONTROL Manager] avec l’accès [!UICONTROL Modifier l’utilisateur] (pour modifier le calendrier des jours fériés des autres utilisateurs)<br>
+   <strong>REMARQUE :</strong> Si un responsable modifie le calendrier des heures de congé personnel d’un autre utilisateur, toutes les entrées s’affichent dans le fuseau horaire de l’utilisateur et non dans celui du responsable.</td> 
   </tr> 
  </tbody> 
 </table>

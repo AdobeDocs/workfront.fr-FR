@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Création de sections personnalisées
 description: Les informations affichées dans la variable [!DNL Workfront] par défaut, l’application web est souvent affichée dans les sections du panneau de gauche. Chaque section contient des informations différentes sur une [!DNL Workfront] zone ou objet.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '678'
+ht-degree: 2%
 
 ---
 
@@ -35,10 +35,10 @@ Le tableau suivant répertorie toutes les [!DNL Workfront] zones et objets qui c
 | [!UICONTROL Projet] | ✓ | ✓ |
 | [!UICONTROL Tâche] | ✓ |  ✓ |
 | [!UICONTROL Problème] |  ✓ |  ✓ |
-| [!UICONTROL Utilisateur] |  ✓ |  ✓ |
+| [!UICONTROL Utilisateur ou utilisatrice] |  ✓ |  ✓ |
 | [!UICONTROL Document] |  ✓ |  ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Exigences d’accès
 

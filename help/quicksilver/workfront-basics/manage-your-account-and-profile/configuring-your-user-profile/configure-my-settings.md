@@ -3,10 +3,10 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configurer mes paramètres
 description: Votre [!DNL Adobe Workfront] Le profil contient des informations vous concernant (par exemple, votre nom, votre adresse électronique, votre adresse, votre numéro de téléphone, votre titre, etc.). Il contient également des informations sur vos interactions avec [!DNL Workfront] et d’autres utilisateurs de votre entreprise.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
 source-wordcount: '3228'
 ht-degree: 1%
@@ -483,7 +483,7 @@ Utilisez l’une des méthodes suivantes de cette section :
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Planification</strong></td> 
+   <td role="rowheader"><strong>Planning</strong></td> 
    <td> <p>Uniquement [!DNL Workfront] Les administrateurs ou les utilisateurs disposant d’une licence [!UICONTROL Plan] qui disposent également d’un accès administratif pour les feuilles de temps et les heures peuvent mettre à jour ce champ. Pour plus d’informations sur l’accès administratif pour les feuilles de temps et les heures, voir la section "Fiches horaires et heures" dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> <p>Sélectionnez la feuille de temps appropriée dans le menu déroulant. Cela garantit que vos feuilles de temps sont générées automatiquement, conformément aux spécifications définies par votre [!DNL Workfront] administrateur. </p> </td> 
   </tr> 
   <tr> 
