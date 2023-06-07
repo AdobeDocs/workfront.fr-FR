@@ -8,9 +8,9 @@ description: Vous pouvez utiliser l’outil d’analyse de texte pour analyser l
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -226,9 +226,6 @@ Recherche une valeur ou une expression régulière dans le texte saisi et rempla
 
 ### Nettoyage des données
 
-La récupération de données, parfois appelée raclage Web, extraction de données ou récupération Web, est le processus de collecte de données à partir de sites Web et de stockage de données dans votre base de données ou feuille de calcul locale. Si vous souhaitez récupérer des données d’un site web et que vous ne connaissez pas les expressions régulières, vous pouvez utiliser un outil de récupération de données :
-
-* [Apify](https://apify.com/)
-* [Meilleurs outils de capture de données pour 2019](https://www.octoparse.com/blog/best-data-scraping-tools-for-2019-top-10-reviews)
+La récupération de données, parfois appelée raclage Web, extraction de données ou récupération Web, est le processus de collecte de données à partir de sites Web et de stockage de données dans votre base de données ou feuille de calcul locale. Si vous souhaitez récupérer des données d’un site web et que vous ne connaissez pas les expressions régulières, vous pouvez utiliser un outil de récupération de données.
 
 Si l’outil de récupération des données fournit une API REST, vous pouvez vous y connecter via notre [[!UICONTROL HTTP] modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) et [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules.

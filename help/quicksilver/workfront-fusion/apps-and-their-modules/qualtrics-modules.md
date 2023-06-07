@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Vous pouvez créer une connexion à votre [!DNL Qualtrics] compte directement de
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Clé API]</td> 
-      <td>Pour localiser votre clé d’API, voir <a href="https://api.qualtrics.com/instructions/docs/Instructions/api-key-authentication.md">Authentification du jeton API</a> dans le [!DNL Qualtrics] documentation.</td> 
+      <td>Pour localiser votre clé d’API, reportez-vous à la section [!DNL Qualtrics] documentation.</td> 
      </tr> 
     </tbody> 
    </table>
