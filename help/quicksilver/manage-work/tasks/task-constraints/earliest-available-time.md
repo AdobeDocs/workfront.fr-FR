@@ -7,7 +7,7 @@ description: La première heure disponible est une contrainte de tâche qui plan
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -68,12 +68,16 @@ Dans ce cas :
 
 * **Heure disponible la plus récente :** L’utilisation de la contrainte de la première heure disponible sur la tâche qui lui succède donne la priorité à la contrainte flexible du prédécesseur.
 
-   **Exemple :** La tâche A est un prédécesseur de la tâche B. La tâche B a la contrainte Temps disponible la plus ancienne et la tâche A la contrainte Aussi tardive que possible. Dans ce cas, la tâche B est planifiée aussi près que possible de la fin du projet.
+   **EXEMPLE**
+
+   La tâche A est un prédécesseur de la tâche B. La tâche B a la contrainte Temps disponible la plus ancienne et la tâche A la contrainte Aussi tardive que possible. Dans ce cas, la tâche B est planifiée aussi près que possible de la fin du projet.
 
    ![Contrainte horaire disponible la plus ancienne lorsque les dates de la tâche sont proches de la date d’achèvement du projet](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
 * **Dès Que Possible :** Dans ce scénario, l’utilisation de la contrainte Dès que possible sur la tâche qui lui succède donne la priorité à la tâche qui lui succède.
 
-   **Exemple :**  La tâche A est un prédécesseur de la tâche B. La tâche B a la contrainte Dès que possible et la tâche A la contrainte Aussi tard que possible. Dans ce cas, la tâche B est planifiée aussi près que possible du début du projet.
+   **EXEMPLE**
+
+   La tâche A est un prédécesseur de la tâche B. La tâche B a la contrainte Dès que possible et la tâche A la contrainte Aussi tard que possible. Dans ce cas, la tâche B est planifiée aussi près que possible du début du projet.
 
    ![Dès que possible contrainte lorsque les dates de la tâche sont proches de la date de début du projet](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

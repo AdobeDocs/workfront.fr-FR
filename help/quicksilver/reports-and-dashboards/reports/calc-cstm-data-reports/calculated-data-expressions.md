@@ -7,9 +7,9 @@ description: Vous pouvez utiliser des expressions de données pour définir des 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
-source-wordcount: '2302'
+source-wordcount: '2368'
 ht-degree: 7%
 
 ---
@@ -247,7 +247,11 @@ Les listes ci-dessous définissent les expressions disponibles que vous pouvez u
   </tr> 
   <tr> 
    <td><strong>PROD</strong> </td> 
-   <td>Cette expression multiplie tous les nombres et est formatée comme suit :<pre>PROD(number1, number2, ....)</pre></td> 
+   <td>Cette expression multiplie tous les nombres et est formatée comme suit :<pre>PROD(number1, number2, ....)</pre>
+   <b>NOTE</b>
+
+Lorsque vous multipliez des champs qui contiennent des heures, veillez à comprendre si les heures des champs sélectionnés sont enregistrées en minutes, heures ou secondes dans la base de données. Si les heures sont enregistrées en minutes ou en secondes mais s’affichent en heures dans l’interface de Workfront, vous devrez peut-être tenir compte de la conversion de minutes ou de secondes en heures lors de l’écriture d’une expression à l’aide de ce calcul.
+</td> 
   </tr> 
   <tr> 
    <td><strong>ARRONDIR</strong> </td> 
@@ -270,7 +274,7 @@ Les listes ci-dessous définissent les expressions disponibles que vous pouvez u
    <td>Cette expression soustrait tous les nombres dans l’ordre indiqué et est formatée comme suit :<pre>SUB(number1, number2, ...)</pre></td> 
   </tr> 
   <tr> 
-   <td><strong>SUM</strong> </td> 
+   <td><strong>SOM.</strong> </td> 
    <td>Cette expression ajoute tous les nombres et est formatée comme suit :<pre>SUM(number1, number2, ...)</pre></td> 
   </tr> 
  </tbody> 
