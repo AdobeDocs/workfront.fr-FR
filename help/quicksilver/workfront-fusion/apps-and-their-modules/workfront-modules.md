@@ -9,9 +9,9 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe Wor
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 2a49e8f1947d39efa85bb8b8bdb7aee5054f8d33
 workflow-type: tm+mt
-source-wordcount: '5345'
+source-wordcount: '5378'
 ht-degree: 3%
 
 ---
@@ -76,11 +76,10 @@ Vous pouvez créer une connexion à votre [!DNL Workfront] compte directement de
    >[!NOTE]
    >
    >* Si vous ne voyez pas de bouton de connexion SAML, votre entreprise n’a pas activé l’authentification unique (SSO). Vous pouvez vous connecter à l’aide de vos nom d’utilisateur et mot de passe.
-      >   
-      >   Pour plus d’informations sur SSO, voir [Présentation de la connexion unique [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+   >   
+   >   Pour plus d’informations sur SSO, voir [Présentation de la connexion unique [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
    >   
    >* Connexions OAuth 2.0 à la [!DNL Workfront] L’API ne dépend plus des clés d’API.
-
 
 ## [!DNL Workfront] modules et leurs champs
 
@@ -345,6 +344,7 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
 >* Lors de la saisie du texte d’un champ personnalisé ou d’une [!UICONTROL Remarque] (Commentaire ou Réponse), vous pouvez utiliser des balises de HTML dans la variable [!UICONTROL Texte de la remarque] pour créer du texte enrichi, comme du texte en gras ou en italique.
 >
 >  Pour plus d’informations sur le texte enrichi dans les mises à jour, voir [Ajouter une mise à jour à un élément de travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -391,6 +391,7 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
 >* Lors de la saisie du texte d’un champ personnalisé ou d’une [!UICONTROL Remarque] (Commentaire ou Réponse), vous pouvez utiliser des balises de HTML dans la variable [!UICONTROL Texte de la remarque] pour créer du texte enrichi, comme du texte en gras ou en italique.
 >
 >  Pour plus d’informations sur le texte enrichi dans les mises à jour, voir [Ajouter une mise à jour à un élément de travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -403,7 +404,7 @@ Le module renvoie les informations suivantes :
 * **[!UICONTROL Code d’état]** (nombre) : Cela indique la réussite ou l’échec de votre requête HTTP. Ce sont des codes standard que vous pouvez consulter sur Internet.
 * **[!UICONTROL En-têtes]** (objet) : Un contexte plus détaillé pour le code de réponse/d’état qui ne se rapporte pas au corps de sortie. Tous les en-têtes qui apparaissent dans un en-tête de réponse ne sont pas des en-têtes de réponse. Certains peuvent donc ne pas vous être utiles.
 
-   Les en-têtes de réponse dépendent de la requête HTTP que vous avez choisie lors de la configuration du module.
+  Les en-têtes de réponse dépendent de la requête HTTP que vous avez choisie lors de la configuration du module.
 
 * **[!UICONTROL Corps]** (objet) : Selon la requête HTTP que vous avez choisie lors de la configuration du module, vous pouvez recevoir des données en retour. Ces données, telles que les données d’une demande de GET, sont contenues dans cet objet.
 
@@ -657,6 +658,7 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
 >* Lors de la saisie du texte d’un champ personnalisé ou d’une [!UICONTROL Remarque] (Commentaire ou Réponse), vous pouvez utiliser des balises de HTML dans la variable [!UICONTROL Texte de la remarque] pour créer du texte enrichi, comme du texte en gras ou en italique.
 >
 >  Pour plus d’informations sur le texte enrichi dans les mises à jour, voir [Ajouter une mise à jour à un élément de travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -1675,14 +1677,13 @@ Les opérateurs suivants sont disponibles dans le filtre Workfront > Evénements
 * Inférieur ou égal à
 * Contient
 * Existe
+   * Cet opérateur ne nécessite pas de valeur et le champ de valeur est absent.
 * N’existe pas
+   * Cet opérateur ne nécessite pas de valeur et le champ de valeur est absent.
 * Modifié
-
->[!NOTE]
->
-> * Le `Exists`, `Does not exist`, et `Changed` ne nécessitent pas de valeur et le champ value est absent de ces options.
-> * Le `Changed` ignore le champ Etat .
-
+   * Cet opérateur ne nécessite pas de valeur et le champ de valeur est absent.
+   * Cet opérateur ignore le champ Etat .
+   * Lors de l’utilisation de `Changed`, sélectionnez **Événements mis à jour uniquement** dans le **Origine de l’enregistrement** champ .
 
 >[!IMPORTANT]
 >
