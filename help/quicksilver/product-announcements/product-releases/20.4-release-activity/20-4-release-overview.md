@@ -6,16 +6,16 @@ description: La version 20.4 a été mise à disposition dans l’environnement 
 author: Luke
 feature: Product Announcements
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
 workflow-type: tm+mt
-source-wordcount: '3682'
+source-wordcount: '3666'
 ht-degree: 0%
 
 ---
 
 # Présentation de la version 20.4
 
-La version 20.4 a été mise à disposition dans l’environnement de production au cours de la semaine du 9 novembre 2020. Pour connaître les dates et heures de publication spécifiques de chaque grappe, voir [Site d’état Workfront](https://status.workfront.com/).
+La version 20.4 a été mise à disposition dans l’environnement de production au cours de la semaine du 9 novembre 2020.
 
 Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront Classic et de la nouvelle expérience Adobe Workfront incluse dans la version 20.4.
 
