@@ -5,7 +5,7 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Un tableau affiche les informations de champ dans des colonnes qui peuvent être
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Ajouter ou modifier un bloc de tableau
 

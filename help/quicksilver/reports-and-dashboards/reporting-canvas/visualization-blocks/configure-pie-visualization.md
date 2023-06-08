@@ -4,10 +4,10 @@ description: Configuration de la visualisation des secteurs dans le canevas de c
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Une visualisation circulaire peut vous aider à raconter rapidement une histoire
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configuration d’une visualisation circulaire
 
@@ -64,7 +64,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
       |---|---|
       | Afficher la source de données | Activez cette option pour afficher le tableau source de la visualisation sur la zone de travail du rapport ou désactivez l’option pour le masquer. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
 <!--   
       NOLAN-FLAG: convert table to html. 

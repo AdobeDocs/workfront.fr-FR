@@ -4,9 +4,9 @@ description: Configuration d’une colonne de tableau dans le canevas de créati
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Les colonnes d’un tableau peuvent être configurées pour l’affichage. Vous 
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Modifier les colonnes d’un tableau
 
@@ -45,7 +45,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
    | Déplacer une colonne | Pour réorganiser l’ordre des colonnes dans un tableau, cliquez sur le nom d’une colonne et faites-la glisser vers un nouvel emplacement. |
    | Suppression d’une colonne | Pour supprimer une colonne d’un tableau, cliquez sur la colonne à supprimer, puis sur le x situé à droite du nom de la colonne. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Pour configurer une colonne, cliquez sur le nom de la colonne à modifier dans la ligne d’en-tête du tableau, puis sur l’un des onglets suivants du panneau de droite :
 

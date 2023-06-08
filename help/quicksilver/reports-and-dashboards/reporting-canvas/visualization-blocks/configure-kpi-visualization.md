@@ -4,10 +4,10 @@ description: Configuration d’une visualisation des indicateurs de performance 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Une visualisation d’indicateur de performance clé (IPC) peut vous aider à vi
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configuration d’une visualisation des indicateurs de performance clés
 
@@ -64,7 +64,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
       |---|---|
       | Afficher la source de données | Activez cette option pour afficher le tableau source de la visualisation sur la zone de travail du rapport ou désactivez l’option pour le masquer. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
       <!--   
       NOLAN-FLAG: convert table to html. 

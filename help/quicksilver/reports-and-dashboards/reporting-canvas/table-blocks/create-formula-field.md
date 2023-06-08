@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ Le créateur de champs du Canevas de création de rapports vous permet de créer
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Créer un champ de formule
 
@@ -58,7 +58,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
    | SUBSTR | Créez une nouvelle chaîne à partir d’une chaîne plus grande, qui contient les caractères entre un numéro d’index (Début) et un autre (Fin). | Chaîne |
    | GAUCHE | Créez une nouvelle chaîne à partir d’une chaîne plus grande, qui contient des caractères commençant par le plus à gauche et comptant à droite un certain nombre de caractères (Longueur). | Chaîne |
    | DROITE | Créez une nouvelle chaîne à partir d’une chaîne plus grande, qui contient des caractères commençant par le plus à droite et comptant un certain nombre de caractères (Longueur). | Chaîne |
-   | SUM | Ajoutez ensemble les valeurs de deux champs d’argument ou plus. | Nombre |
+   | SOM. | Ajoutez ensemble les valeurs de deux champs d’argument ou plus. | Nombre |
    | SUB | Soustrayez les valeurs de plusieurs champs d’argument (de gauche à droite). | Nombre |
    | PROD | Multipliez les valeurs de deux champs d’argument ou plus. | Nombre |
    | DIV | Divisez la valeur de plusieurs champs d’argument (dans l’ordre de gauche à droite). | Nombre |
@@ -67,6 +67,6 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
    | DATEDIFF | Calcule le nombre total de jours entre deux dates, arrondi à une décimale. | Nombre |
    | WEEKDAYDIFF | Calcule le nombre de jours de la semaine entre deux dates, arrondi à une décimale. | Nombre |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Cliquez sur le bouton **Revenir** flèche dans le coin supérieur gauche de l’écran pour revenir à votre tableau.
