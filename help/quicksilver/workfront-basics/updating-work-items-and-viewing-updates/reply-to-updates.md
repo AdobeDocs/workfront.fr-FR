@@ -6,7 +6,7 @@ description: Lorsqu’une personne ajoute ou répond à une mise à jour d’un 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -29,13 +29,13 @@ ht-degree: 1%
 >
 >* Problèmes, <span class="preview">projets, tâches et documents</span>.
 >
->  Cette option est disponible lorsque vous activez l’expérience bêta de commentaire.
+>     Cette option est disponible lorsque vous activez l’expérience bêta de commentaire.
 >
->  Cette fonctionnalité est disponible uniquement pour la section Mises à jour et elle ne l’est pas pour les zones suivantes :
+>     Cette fonctionnalité est disponible uniquement pour la section Mises à jour et elle ne l’est pas pour les zones suivantes :
 >
->  * Page d’accueil
->  * Panneau Résumé dans les listes
->  * Panneau Résumé dans les feuilles de temps
+>     * Page d’accueil
+>     * Panneau Résumé dans les listes
+>     * Panneau Résumé dans les feuilles de temps
 >
 >* Objectifs
 >

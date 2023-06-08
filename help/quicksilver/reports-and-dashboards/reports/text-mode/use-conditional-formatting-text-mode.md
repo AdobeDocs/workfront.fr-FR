@@ -6,10 +6,10 @@ description: Utilisation de la mise en forme conditionnelle en mode Texte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 16d59c6e3d790f2804795f5a6fef05c8dca71b30
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 2%
+source-wordcount: '1743'
+ht-degree: 1%
 
 ---
 
@@ -295,7 +295,6 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Bien que cette instruction puisse être appliquée à une colonne Nom de société, elle peut également être appliquée à toute autre colonne du rapport. Le texte vert ne s’affiche que si une société est associée au projet. Mémoriser `[field name]`, `[value]`, et `[qualifier]` Déterminez si le conditionnement s’affiche finalement sur la colonne.
 >* Lorsque vous utilisez des qualificateurs, nous vous recommandons d’utiliser `cicontains` plutôt que `equal`. Par défaut, `equal` recherche des numéros d’ID. En utilisant la variable `cicontains` qualificateur, vous pouvez accéder aux éléments par leur nom.
 
-
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
 ![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
@@ -322,7 +321,7 @@ Utilisez les tableaux suivants pour identifier les lignes à modifier et les val
 | Rouge | `d30519` |
 | Jaune | `e19503` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Alignement** | **Ligne : align=** |
 |---|---|
@@ -330,14 +329,14 @@ Utilisez les tableaux suivants pour identifier les lignes à modifier et les val
 | Alignement droit | `right` |
 | Alignement centré | `center` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | Police | Ligne : ***fontstyle=*** |
 |---|---|
 | Gras | `bold` |
 | Italiques | `italic` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Couleur d&#39;arrière-plan** | **Ligne : bgcolor=** |
 |---|---|
@@ -350,7 +349,7 @@ Utilisez les tableaux suivants pour identifier les lignes à modifier et les val
 | Jaune | `feecc8` |
 | Blanc | `ffffff` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### Formats conditionnels multiples {#multiple-conditional-formats}
 
@@ -375,8 +374,6 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 >[!NOTE]
 >
 >Lorsque vous incluez plusieurs expressions de mise en forme conditionnelle, il est nécessaire d’identifier numériquement chaque expression dans l’instruction. Notez que les expressions 0 et 1 ont été identifiées.
-
-![](assets/screen-shot-2013-08-15-at-3.18.45-pm-350x198.png)
 
 #### Appliquer le texte {#apply-text}
 
@@ -553,7 +550,7 @@ Pour utiliser les images disponibles, appliquez le code et les valeurs suivants 
 | Cercle blanc ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
 | Cercle jaune ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Formatage conditionnel d’une `valueexpression` {#conditionally-format-a-valueexpression}
 
@@ -580,9 +577,9 @@ Tenez compte des points suivants lors de l’ajout d’agrégateurs à une colon
 * Vous pouvez ajouter un agrégateur à une colonne qui affiche un calcul. La valeur agrégée s’affiche dans le regroupement de la vue ou du rapport. Pour plus d’informations, voir [Regroupement : afficher le résultat de l&#39;agrégation de plusieurs valeurs calculées dans un groupement ;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * Les lignes de code pour la définition de la colonne doivent être identiques aux lignes de code qui introduisent l’agrégateur et précédées de &quot;l’agrégateur&quot;. Par exemple, si vous disposez d’une colonne où vous affichez les Heures planifiées sur un projet, le mode texte des lignes principales de la colonne est :
 
-   ```
-   valuefield=workRequired
-   valueformat=compound
-   ```
+  ```
+  valuefield=workRequired
+  valueformat=compound
+  ```
 
-   Lorsque vous souhaitez agréger la valeur de toutes les lignes du groupement de la vue, nous pouvons ajouter le code suivant pour ajouter les valeurs de l&#39;agrégateur : `aggregator.valuefield=workRequired` (la variable `aggregator.valuefield` doit être identique à la ligne `valuefield` qui décrit la colonne) `aggregator.valueformat=compound` (la variable `aggregator.valueformat` La ligne doit avoir la même valeur que la ligne `valueformat` qui décrit la colonne) `aggregator.function=SUM` (il s’agit d’une ligne obligatoire qui indique comment vous souhaitez agréger la colonne. Dans ce cas, vous souhaitez ajouter tous les Heures planifiées individuelles dans un seul numéro de la ligne de groupement.) `aggregator.displayformat=minutesAsHoursString` (puisque les heures sont stockées dans Workfront en minutes, nous voulons indiquer la variable `displayformat` pendant les heures lorsqu’elles sont stockées en minutes)
+  Lorsque vous souhaitez agréger la valeur de toutes les lignes du groupement de la vue, nous pouvons ajouter le code suivant pour ajouter les valeurs de l&#39;agrégateur : `aggregator.valuefield=workRequired` (la variable `aggregator.valuefield` doit être identique à la ligne `valuefield` qui décrit la colonne) `aggregator.valueformat=compound` (la variable `aggregator.valueformat` La ligne doit avoir la même valeur que la ligne `valueformat` qui décrit la colonne) `aggregator.function=SUM` (il s’agit d’une ligne obligatoire qui indique comment vous souhaitez agréger la colonne. Dans ce cas, vous souhaitez ajouter tous les Heures planifiées individuelles dans un seul numéro de la ligne de groupement.) `aggregator.displayformat=minutesAsHoursString` (puisque les heures sont stockées dans Workfront en minutes, nous voulons indiquer la variable `displayformat` pendant les heures lorsqu’elles sont stockées en minutes)

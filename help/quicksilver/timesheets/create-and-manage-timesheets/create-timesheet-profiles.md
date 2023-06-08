@@ -6,9 +6,9 @@ description: Vous pouvez créer, modifier et affecter des profils de feuille de 
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1519'
 ht-degree: 1%
 
 ---
@@ -140,7 +140,8 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Types d'heures disponibles</strong> </td> 
-      <td>Par défaut, les utilisateurs voient toutes les heures générales sur une feuille de temps. Cependant, si votre entreprise souhaite que seules des heures générales spécifiques s’affichent pour un ensemble particulier d’utilisateurs, vous pouvez sélectionner dans ce champ les heures générales dont ils ont besoin dans leurs feuilles de temps en les sélectionnant dans leur profil de feuille de temps. Si vous souhaitez désactiver toutes les heures générales, désélectionnez tous les types d’heures pour générer la feuille de temps sans section pour les heures générales.</td> 
+      <td><p>Ce paramètre fait uniquement référence aux types d’heures généraux, et non aux types d’heures spécifiques au projet. </p>
+      <p>Par défaut, les utilisateurs voient toutes les heures générales sur une feuille de temps. Cependant, si votre entreprise souhaite que seules des heures générales spécifiques s’affichent pour un ensemble particulier d’utilisateurs, vous pouvez sélectionner dans ce champ les heures générales dont ils ont besoin dans leurs feuilles de temps en les sélectionnant dans leur profil de feuille de temps. Si vous souhaitez désactiver toutes les heures générales, désélectionnez tous les types d’heures pour générer la feuille de temps sans section pour les heures générales.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Hrs supp</span> </td> 
@@ -158,7 +159,6 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
    >* Vous pouvez également associer un utilisateur à un profil de feuille de temps en modifiant son profil. Pour plus d’informations, voir [Modification du profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* Lorsque vous ajoutez un groupe, seul le nom du groupe s’affiche dans l’onglet Attribuer des personnes , et non dans la liste des membres du groupe. Si vous souhaitez que les membres du groupe soient répertoriés ici, cliquez sur Enregistrer les modifications, puis cliquez sur le nom du profil de la feuille de temps que vous venez de créer.
    >* Une fois ces étapes terminées, le profil de la feuille de temps génère des feuilles de temps uniquement pour les utilisateurs affectés ou les membres du groupe qui n’ont pas de feuilles de temps existantes pour la période en cours.
-
 
 1. Cliquez sur **Enregistrer les modifications**.
 

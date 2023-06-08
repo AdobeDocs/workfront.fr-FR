@@ -6,9 +6,9 @@ description: Vous pouvez consigner le temps passé sur les tâches dans&nbsp;Ado
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3336'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Vous pouvez consigner le temps des projets, des tâches ou des problèmes, ou vous pouvez consigner le temps directement dans votre feuille de temps.
 
-   Pour plus d’informations sur la création de feuilles de temps, voir [Création d’une feuille de temps à usage unique](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+  Pour plus d’informations sur la création de feuilles de temps, voir [Création d’une feuille de temps à usage unique](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 * Tout le temps passé par des outils autres que la feuille de temps apparaît dans la feuille de temps pour la période correspondante.
 * Les tâches et les problèmes d’un projet qui n’est pas en cours ne sont pas prérenseignés dans une feuille de temps.
@@ -108,6 +108,9 @@ Dans Workfront, vous pouvez consigner l’heure de connexion dans les zones suiv
 * [Application mobile](#mobile-app)
 
 ### Feuille de temps {#timesheet}
+
+
+#### Temps de connexion sur une feuille de temps {#log-time-on-a-timesheet}
 
 Vous pouvez consigner les heures générales ou les heures spécifiques au projet sur une feuille de temps.
 
@@ -169,12 +172,11 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
    >
    >   Lors de l’utilisation d’un clavier QWERTY standard et après avoir cliqué sur le nom d’un projet dans la feuille de temps, appuyez sur l’ensemble de clés suivant pour réduire ou développer le projet :
    >   * Pour développer le projet et afficher ses tâches :
-      >     * Maj + Alt + flèche Haut pour les ordinateurs Windows
-      >     * Maj + Option + flèche haut pour les ordinateurs Mac
+   >     * Maj + Alt + flèche Haut pour les ordinateurs Windows
+   >     * Maj + Option + flèche haut pour les ordinateurs Mac
    >   * Pour réduire le projet et masquer ses tâches :
-      >     * Maj + Alt + Flèche Bas pour les ordinateurs Windows
-      >     * Maj + Option + Flèche Bas pour les ordinateurs Mac.
-
+   >     * Maj + Alt + Flèche Bas pour les ordinateurs Windows
+   >     * Maj + Option + Flèche Bas pour les ordinateurs Mac.
 
 
 1. (Facultatif) Pour épingler manuellement un élément qui s’affiche automatiquement sur la feuille de temps, passez la souris sur le nom de l’élément, puis cliquez sur l’icône **pin** icon ![](assets/empty-pin-icon.png).
@@ -185,26 +187,7 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
    >   * Option + P pour les ordinateurs Windows et Mac.
 
 
-
 1. (Facultatif) Cliquez sur l’icône de recherche. ![](assets/search-icon.png) et commencez à saisir un mot-clé pour rechercher un projet, une tâche ou un problème dans la feuille de temps.
-
-1. (Facultatif) Vous pouvez supprimer un élément (projet, tâche ou problème) de la feuille de temps si vous avez ajouté manuellement l’élément (comme décrit dans les étapes 3 à 6), et si vous n’avez pas encore effectué de journalisation du temps par rapport à ce dernier en l’annulant. <!--ensure this stays accurate-->
-
-   Vous ne pouvez pas supprimer automatiquement les éléments inclus dans la feuille de temps en fonction des préférences de la feuille de temps dans votre système Workfront ou groupe configuré pour préremplir la feuille de temps (comme décrit dans la section [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-   Pour supprimer un élément de la feuille de temps qui a été ajouté manuellement :
-
-   1. Assurez-vous qu’aucune heure n’est enregistrée pour l’élément.
-   1. Cliquez sur le bouton **unpin** icon ![Epinglage d’un élément](assets/pin-icon.png) en regard de l’élément pour dissocier l’élément de la feuille de temps.
-
-   >[!TIP]
-   >
-   >   Lors de l’utilisation d’un clavier QWERTY standard après avoir cliqué sur un élément dans la feuille de temps, appuyez sur l’ensemble de touches suivant pour dissocier un élément :
-   >   * Option + P pour les ordinateurs Windows et Mac.
-
-
-
-   L’élément est supprimé de la feuille de temps après avoir actualisé la page.
 
 1. (Conditionnel) Si votre administrateur Workfront ou de groupe a activé la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** , sélectionnez un rôle de tâche dans le menu déroulant. Le rôle spécifié lorsque vous êtes affecté à l’élément de travail s’affiche par défaut. Si aucun rôle n’est attribué à l’objet, votre rôle Principal s’affiche comme valeur par défaut. Pour plus d’informations sur ce paramètre, voir l’article [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -220,7 +203,6 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
    >   Selon votre système d’exploitation ou navigateur et lors de l’utilisation d’un clavier QWERTY standard, appuyez sur l’ensemble de touches suivant pour ajouter une autre ligne :
    >   * Ctrl + Option + + + pour les ordinateurs Windows
    >   * Cmd + Option + + + pour les ordinateurs Mac
-
 
    Les types d’heure sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [Définition des types d’heures et de la disponibilité des feuilles de temps](define-hour-types-and-availability.md).
 
@@ -241,7 +223,6 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
    >   * Cmd + Option + - pour les ordinateurs Mac
 
 
-
 1. Spécifiez la durée de connexion à un jour donné dans la section chronologie de la feuille de temps, puis cliquez en dehors de la zone d’heure pour enregistrer l’entrée d’heure. Les heures sont enregistrées automatiquement. La ligne pour laquelle vous enregistrez l’heure est mise en surbrillance en bleu clair et la zone de saisie de l’heure est indiquée en bleu foncé.
 
    ![Zone de consignation de l’heure dans la feuille de temps](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
@@ -253,12 +234,13 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
    >Vous devez enregistrer manuellement la feuille de temps si l’un des scénarios suivants se produit :
    >
    >* Le rôle de tâche associé à l’heure que vous avez précédemment enregistrée a changé et l’événement **Affecter manuellement des rôles de tâche aux entrées d’heure** a été désactivé. L’heure de journalisation des nouvelles dates l’associe à un rôle de tâche différent.
-      >   
-      >   Si le rôle a été modifié et que la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** est activé, vous pouvez consigner l’heure ou mettre à jour le rôle et vos modifications sont enregistrées automatiquement.
+   >   
+   >   Si le rôle a été modifié et que la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** est activé, vous pouvez consigner l’heure ou mettre à jour le rôle et vos modifications sont enregistrées automatiquement.
    >
    >* Le rôle de tâche affecté à une tâche ou à un problème est différent du rôle de tâche avec lequel le propriétaire de la feuille de temps consigne le temps. <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
    >
    >La feuille de temps permet de gagner du temps automatiquement lorsqu’il n’y a plus d’entrées en conflit entre les deux rôles.
+   >
 
 1. (Facultatif) Indiquez le nombre d’heures supplémentaires dans le champ Heure de dépassement de délai de l’en-tête de la feuille de temps.
 
@@ -275,7 +257,6 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
    >   Lorsque vous utilisez un clavier QWERTY standard après avoir cliqué sur la zone de saisie de l’heure, appuyez sur l’ensemble de touches suivant pour ouvrir la zone de commentaire :
    >   * Maj + F2 pour les ordinateurs Windows et Mac.
 
-
 1. Cliquez sur **Terminé** pour enregistrer le commentaire.
 
    >[!TIP]
@@ -283,7 +264,6 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
    >   Lors de l’utilisation d’un clavier QWERTY standard, dans la zone de commentaire, appuyez sur l’ensemble de clés suivant pour enregistrer le commentaire :
    >   * Ctrl + Entrée pour les ordinateurs Windows.
    >   * Cmd + Retour pour les ordinateurs Mac.
-
 
 
 1. (Facultatif) Cliquez sur **Afficher les commentaires** dans la barre d’outils pour afficher les commentaires de saisie d’heure sous l’élément de travail .
@@ -317,6 +297,7 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
    * **Rejeter**: Cette option s’affiche lorsque vous êtes un approbateur de feuille de temps et que la feuille de temps vous a été envoyée pour approbation. En cliquant dessus, l’état de la feuille de temps passe à Refusé et la feuille de temps reste ouverte.
 
    * **Approuver**: Cette option s’affiche lorsque vous êtes un approbateur de feuille de temps et que la feuille de temps vous a été envoyée pour approbation. En cliquant dessus, le statut de la feuille de temps passe à Approuvé et ferme la feuille de temps.
+
    >[!TIP]
    >
    >Les options Rejeter et Approuver s’affichent également sur votre feuille de temps lorsque vous êtes administrateur système et que la feuille de temps est associée à un approbateur.
@@ -325,6 +306,33 @@ Vous pouvez consigner les heures générales ou les heures spécifiques au proje
 
    * **Réouvrir**: Cette option est disponible pour les feuilles de temps que vous avez déjà fermées et qui n’ont pas d’approbateurs, ou les feuilles de temps qui ont déjà été approuvées. rouvrez la feuille de temps pour modifier les entrées d’heure.
    * **Rappeler**: Cette option est disponible pour les feuilles de temps qui ont été soumises à validation mais qui n’ont pas encore été approuvées ou rejetées. Cliquez sur **Rappeler** pour rouvrir la feuille de temps et modifier les entrées d’heure.
+
+#### Supprimer un élément de la feuille de temps
+
+Vous pouvez supprimer une entrée d’heure ou un élément (projet, tâche ou problème) d’une feuille de temps.
+
+Pour supprimer une entrée d’heure d’une feuille de temps :
+
+1. Accédez à la feuille de temps et recherchez l’entrée d’heure à supprimer.
+1. Remplacez les heures saisies par 0 ou supprimez les heures et remplacez-les par 0, puis appuyez sur Entrée.
+
+   Les heures sont supprimées et la feuille de temps est enregistrée automatiquement.
+
+Vous pouvez supprimer un élément (projet, tâche ou problème) de la feuille de temps en l’annulant, si vous ne l’avez pas encore consigné et si vous avez ajouté manuellement l’élément (comme décrit aux étapes 4 à 8 dans la section [Temps de connexion sur une feuille de temps](#log-time-on-a-timesheet) dans cet article). <!--ensure this stays accurate-->
+
+Vous ne pouvez pas supprimer automatiquement les éléments inclus dans la feuille de temps en fonction des préférences de la feuille de temps dans votre système Workfront ou groupe configuré pour préremplir la feuille de temps (comme décrit dans la section [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). Les éléments cessent de préremplir la feuille de temps lorsque les dates des éléments se trouvent en dehors de la période de la feuille de temps.
+
+Pour supprimer un élément de la feuille de temps qui a été ajouté manuellement :
+
+1. Assurez-vous qu’aucune heure n’est enregistrée pour l’élément.
+1. Cliquez sur le bouton **unpin** icon ![Epinglage d’un élément](assets/pin-icon.png) en regard de l’élément pour dissocier l’élément de la feuille de temps.
+
+   >[!TIP]
+   >
+   >   Lors de l’utilisation d’un clavier QWERTY standard après avoir cliqué sur un élément dans la feuille de temps, appuyez sur l’ensemble de touches suivant pour dissocier un élément :
+   > * Option + P pour les ordinateurs Windows et Mac.
+
+   L’élément est supprimé de la feuille de temps après avoir actualisé la page.
 
 ### Page d’accueil {#home}
 
@@ -365,11 +373,11 @@ Pour vous connecter à la section Mises à jour d’un projet, d’une tâche ou
 
 * Une licence Work or Plan.
 * Attribuez ou modifiez des autorisations au projet, à la tâche ou au problème d’accès aux heures de journal.\
-   Pour plus d’informations sur l’octroi d’autorisations sur les projets, voir [Partage d’un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+  Pour plus d’informations sur l’octroi d’autorisations sur les projets, voir [Partage d’un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* Votre administrateur Workfront doit activer le paramètre Temps de connexion directement sur les projets sous [!UICONTROL **Frise chronologique et heures** ]> [!UICONTROL **Préférences**], si vous souhaitez consigner le temps directement dans un projet.
+* Votre administrateur Workfront doit activer le paramètre Temps de connexion directement sur les projets sous [!UICONTROL **Frise chronologique et heures**]> [!UICONTROL **Préférences**], si vous souhaitez consigner le temps directement dans un projet.
 
-   Pour plus d’informations sur l’autorisation des utilisateurs de consigner des heures directement dans des projets, voir [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Pour plus d’informations sur l’autorisation des utilisateurs de consigner des heures directement dans des projets, voir [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Pour consigner l’heure dans la section Mises à jour d’un projet, d’une tâche ou d’un problème :
 
@@ -391,7 +399,7 @@ Pour consigner l’heure dans la section Mises à jour d’un projet, d’une t�
 
    * **Type d’heure**: Sélectionnez un Type d’heure dans le menu déroulant, s’il est différent de celui affiché par défaut.
 
-      Selon les types d’heures configurés dans votre système, les options disponibles peuvent varier. Pour plus d’informations sur la configuration des types d’heures, voir [Définition des types d’heures et de la disponibilité des feuilles de temps](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Selon les types d’heures configurés dans votre système, les options disponibles peuvent varier. Pour plus d’informations sur la configuration des types d’heures, voir [Définition des types d’heures et de la disponibilité des feuilles de temps](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Rôle de tâche**: (Conditionnel) Si votre administrateur Workfront ou de groupe a activé la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** , sélectionnez une **Rôle de tâche** dans le menu déroulant. Le rôle spécifié lorsque vous êtes affecté à l’objet s’affiche par défaut. Si aucun rôle n’est attribué à l’objet, votre rôle Principal s’affiche comme valeur par défaut. Pour plus d’informations sur ce paramètre, voir l’article [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -422,16 +430,16 @@ Pour consigner l’heure dans la section Heures d’un projet, d’une tâche ou
 1. Indiquez les informations suivantes :
 
    * **Propriétaire :** Par défaut, votre nom s’affiche dans ce champ.\
-      Si vous enregistrez les heures pour un autre utilisateur, indiquez son nom.
+     Si vous enregistrez les heures pour un autre utilisateur, indiquez son nom.
 
    * **Heures**: Saisissez le nombre d’heures pour le projet, la tâche ou le problème.
    * **Type d’heure**: Sélectionnez un Type d’heure dans le menu déroulant, s’il est différent de celui affiché par défaut.
 
-      Selon les types d’heures configurés dans votre système, les options disponibles peuvent varier. Pour plus d’informations sur la configuration des types d’heures, voir [Définition des types d’heures et de la disponibilité des feuilles de temps](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Selon les types d’heures configurés dans votre système, les options disponibles peuvent varier. Pour plus d’informations sur la configuration des types d’heures, voir [Définition des types d’heures et de la disponibilité des feuilles de temps](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Rôle de tâche**: (Conditionnel) Si votre administrateur Workfront ou de groupe a activé la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** , sélectionnez une **Rôle de tâche** dans le menu déroulant. Le rôle spécifié lorsque vous êtes affecté à l’objet s’affiche par défaut. Si aucun rôle n’est attribué à l’objet, votre rôle Principal s’affiche comme valeur par défaut. Pour plus d’informations sur ce paramètre, voir l’article [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-      ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
 
 1. Cliquez sur **Heures de journal**.
 

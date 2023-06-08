@@ -6,9 +6,9 @@ description: Vous pouvez organiser le type de problèmes ou de requêtes connect
 author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Licence Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Présentation des licences</a>*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
-  </tr> 
+   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
+
+Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Gestion des autorisations d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
@@ -50,15 +52,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Conditions préalables
 
-Avant de commencer, vous devez
+Avant de commencer, vous devez effectuer les opérations suivantes :
 
 * Avoir ou créer un projet
 
-   Pour plus d’informations sur la création de projets, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
+  Pour plus d’informations sur la création de projets, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Considérations sur les types de requête
 
-* Vous pouvez spécifier le type de problèmes ou de requêtes pouvant être consignés dans un projet lorsque vous configurez la variable **Détails de la file** zone du projet.
+* Vous pouvez spécifier le type de problèmes ou de requêtes pouvant être consignés dans un projet lorsque vous configurez la variable **Détails de la file** zone du projet.
 * Vous n’avez pas besoin d’activer le projet pour qu’il devienne une file d’attente de requêtes afin de pouvoir définir des types de requêtes pour un projet. Les problèmes consignés pour un projet peuvent être étiquetés avec un type de requête différent.
 * Si vous ajoutez des rubriques de file d’attente à votre projet, vous devez définir des types de requêtes sur chaque rubrique de file d’attente pour l’afficher lors de l’ajout d’un nouveau problème ou d’une nouvelle requête. Pour plus d’informations, voir [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
