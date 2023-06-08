@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
+source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Expérience améliorée lors du déplacement d’un document vers un dossier lié à l’aide du glisser-déposer</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p> 
+                        <p>Nous avons ajouté une certaine transparence au processus de glisser-déposer d’un document dans un dossier lié. Désormais, le document que vous avez déplacé vers un dossier lié reste dans la liste des documents jusqu’à ce qu’il ait été complètement déplacé. Les options du document sont désactivées, mais vous pouvez toujours ouvrir le document pour l’afficher pendant son déplacement. Une fois le transfert terminé, le document disparaît de la liste des documents, car il se trouve désormais entièrement dans le dossier lié. </p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 7 juin 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production : 15 juin 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Création automatique de dossiers liés à Adobe Experience Manager Assets lors de la création d’un projet</a></p>
                         <p>Avec le nouveau workflow Créer un dossier lié pour l’intégration d’Adobe Experience Manager, vous pouvez configurer l’intégration avec un chemin d’accès à un dossier Adobe Experience Manager Assets. Lorsque l’intégration est ajoutée à un modèle de projet, tout projet créé à partir du modèle crée automatiquement un sous-dossier lié dans Experience Manager Assets dans le dossier spécifié. </p>
                     </td>
@@ -306,7 +322,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nouvelles validations de document</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Modification de la prise en charge des bons à tirer de Microsoft Office</a> </p>
+                        <p>Pour conserver une solution de traitement des BAT robuste et évolutive, nous modifions les types de fichiers et les limites de taille de fichier Microsoft Office pris en charge.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 8 juin 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production : 8 juin 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nouvelles validations de document</a> </p>
                         <p>L’approbation des documents est en cours de reconception dans un déploiement échelonné qui sera mis à la disposition d’un plus grand nombre d’utilisateurs avec chaque version.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -343,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires bêta pour les projets, les tâches et les documents</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires bêta pour les projets, les tâches et les documents</a> </p>
                         <p>La nouvelle expérience de commentaires bêta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires bêta n’était disponible que pour les problèmes et les objectifs.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -352,7 +384,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Version d’aperçu : 1er juin 2023<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 23.3</p>
+                                <p>Version de production : Avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -406,6 +438,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nouvelles améliorations de l’expérience du tableau de bord de la zone de travail</a></p>
+                        <p>Des améliorations ont été apportées au tableau de bord de la zone de travail pendant la période de publication de la version 23.3. Ces améliorations seront disponibles dans l’environnement de production avec la version 23.3, sauf indication contraire. 
+ </p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : pendant toute la période de la version 23.3<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production : avec la version 23.3 (sauf indication contraire)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>
 
