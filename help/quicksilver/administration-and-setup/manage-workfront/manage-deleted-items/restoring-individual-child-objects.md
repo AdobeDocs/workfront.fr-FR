@@ -7,9 +7,9 @@ description: Ce document décrit comment obtenir de l’aide pour récupérer de
 feature: System Setup and Administration
 role: Admin
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Vous pouvez importer les données exportées de la manière suivante :
 
 L’environnement Preview Sandbox est actualisé pendant les fenêtres de maintenance du week-end.
 
-Pour plus d’informations sur les fenêtres de maintenance de l’environnement de prévisualisation Sandbox, voir [trust.workfront.com](https://trust.workfront.com/).
+Pour plus d’informations sur les fenêtres de maintenance de l’environnement de prévisualisation Sandbox, voir [le site d’état Adobe](https://status.adobe.com/fr).
 
 >[!IMPORTANT]
 >

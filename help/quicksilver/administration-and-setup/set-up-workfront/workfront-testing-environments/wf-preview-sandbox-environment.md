@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,7 @@ Pour accéder à l’environnement de test d’aperçu :
 
 #### Accès à l’aperçu de l’environnement de test pour les comptes sur une grappe 1, 2, 3 et 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-Historiquement, vous avez accédé à l’environnement de test de prévisualisation en accédant à [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
-
-Cette URL n’est plus prise en charge et n’a pas été redirigée vers notre nouvelle URL pour l’environnement de prévisualisation Sandbox. La nouvelle URL correcte de l’environnement de test d’aperçu est la suivante : [https://companyname.preview.workfront.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.preview.workfront.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFZQYw9VWjr2tuvQLfSJHneqJj_PQ).
+L’URL de l’environnement de test d’aperçu est la suivante : `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
@@ -115,7 +113,7 @@ Cette URL n’est plus prise en charge et n’a pas été redirigée vers notre 
 
 Pour vous connecter à l’environnement de test d’aperçu à l’aide d’une URL :
 
-1. Accédez à cette URL : [[!DNL https]: //companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)
+1. Accédez à cette URL : `https://companyname.preview.workfront.com/`.
 
    Si vous êtes un client EMEA et que votre compte se trouve sur une grappe 4, reportez-vous à la section [Accès à l’environnement de test d’aperçu pour les comptes d’une grappe 4 (comptes EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) dans cet article.
 
