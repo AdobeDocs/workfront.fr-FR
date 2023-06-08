@@ -6,16 +6,22 @@ title: Configuration du journal en souffrance sur un panorama de flux de travail
 description: Vous pouvez choisir d’afficher une colonne de journal sur un panorama dans un flux de travail et de définir une requête pour les cartes qui sont extraites dans le journal du panorama depuis la liste des cartes du flux de travail.
 author: Lisa
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
+source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Configuration du journal en souffrance sur un panorama de flux de travail
 
-Vous pouvez choisir d’afficher une colonne de journal sur un panorama dans un flux de travail et de définir une requête pour les cartes qui sont extraites dans le journal du panorama depuis la liste des cartes du flux de travail. Ces options ne sont pas disponibles sur les panoramas autonomes. Pour plus d’informations sur l’ajout d’une colonne d’entrée à un panorama autonome, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Vous pouvez choisir d’afficher une colonne de journal sur un panorama dans un flux de travail et de définir une requête pour les cartes qui sont extraites dans le journal du panorama depuis la liste des cartes du flux de travail.
+
+>[!NOTE]
+>
+>Si vous ajoutez une nouvelle carte dans la colonne des logs d&#39;attente qui ne correspond pas aux critères de requête, la carte disparaîtra du journal lors de l&#39;actualisation du panorama et elle ne sera disponible que dans la liste des cartes. Vous pouvez à tout moment modifier la requête pour ajuster les cartes qui apparaissent dans la colonne de journal.
+
+La colonne et la requête du journal en souffrance ne sont pas disponibles sur les panoramas autonomes. Pour plus d’informations sur l’ajout d’une colonne d’entrée à un panorama autonome, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Exigences d’accès
 
@@ -55,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!NOTE]
    >
-   >Une requête par défaut peut déjà être appliquée au journal en souffrance, affichant toutes les tâches de la liste de cartes qui n’appartiennent pas à une itération et qui ne sont pas à l’état Terminé.
+   >Une requête par défaut peut déjà être appliquée au journal, indiquant toutes les tâches de la liste des cartes ayant un état et dont l’état n’est pas Terminé.
 
 1. Cliquez sur [!UICONTROL **Ajouter une condition**] et cliquez dans le champ &quot;vide&quot;.
 1. Sélectionnez le champ sur lequel effectuer la requête.
