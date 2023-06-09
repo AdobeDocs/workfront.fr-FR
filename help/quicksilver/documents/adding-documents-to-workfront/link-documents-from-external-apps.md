@@ -6,9 +6,9 @@ description: 'Vous pouvez lier des documents et des dossiers à Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 0ecee45183f5bc77a1c4a489013e486d8c26094c
+source-git-commit: 5122914acd0ae0fdfb8a5ae7319075ce1072962e
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des 
     </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Épreuve Workfront </td> 
+   <td role="rowheader">Workfront Proof </td> 
    <td>Vous pouvez rendre les bons à tirer créés à l’origine dans Workfront BAT disponibles dans Workfront. Pour utiliser cette fonctionnalité, vous devez disposer d’un abonnement Pro Workfront ou d’une version ultérieure. Pour plus d’informations sur les différents plans disponibles, voir <a href="https://www.workfront.com/plans">Formules Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -55,7 +55,7 @@ Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des 
 
 Avant de lier des documents ou des dossiers, votre administrateur Workfront doit activer cette fonctionnalité pour chaque fournisseur de documents ou pour une intégration de documents personnalisée, comme décrit dans la section [Configuration des intégrations de documents](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-Vous pouvez tester et approuver les documents liés à un fournisseur cloud externe de la même manière que vous le faites avec les documents téléchargés directement vers Workfront. 
+Vous pouvez tester et approuver les documents liés à un fournisseur cloud externe de la même manière que vous le faites avec les documents téléchargés directement vers Workfront.
 
 ## Exigences d’accès
 
@@ -89,7 +89,7 @@ Les documents liés à Workfront à partir d’une application externe sont stoc
 Les exceptions suivantes s’appliquent :
 
 * Lorsqu’il est fourni par le service de document, les miniatures et les images d’aperçu peuvent être stockées sur les serveurs Workfront.
-* Lorsque vous utilisez le correctif dans Workfront, le document est copié et ajouté aux serveurs de vérification. 
+* Lorsque vous utilisez le correctif dans Workfront, le document est copié et ajouté aux serveurs de vérification.
 
 ## Liaison d’un document d’une application externe à Workfront
 
@@ -133,17 +133,19 @@ Vous pouvez lier des documents à Workfront à partir d’une application extern
 
    Bien que vous puissiez sélectionner plusieurs documents, seuls les documents sélectionnés dans la vue actuelle sont liés. Par exemple, si vous sélectionnez un document, puis accédez à un dossier, le document que vous avez initialement sélectionné n’est pas lié.
 
-1. (Conditionnel) Si vous êtes un client DAM Workfront, cliquez sur le bouton **Miniature** pour afficher les fichiers sous forme d’images miniatures.
+1. (Conditionnel) Si vous êtes un client DAM Workfront, cliquez sur le bouton **Miniature** pour afficher les fichiers sous forme d’images miniatures.
 
    >[!NOTE]
-   Les clients DAM Workfront peuvent afficher des miniatures lors de la liaison de documents à partir de la gestion des actifs numériques Workfront. Des miniatures peuvent également s’afficher pour les clients DAM Workfront pour d’autres services tels que Dropbox et Box. Toutefois, l’affichage de miniatures pour des services autres que Workfront DAM dans Workfront n’est pas pris en charge et les miniatures ne s’affichent jamais lors de la liaison de documents à partir de SharePoint ou de Google Drive.
+   >
+   >Les clients DAM Workfront peuvent afficher des miniatures lors de la liaison de documents à partir de la gestion des actifs numériques Workfront. Des miniatures peuvent également s’afficher pour les clients DAM Workfront pour d’autres services tels que Dropbox et Box. Toutefois, l’affichage de miniatures pour des services autres que Workfront DAM dans Workfront n’est pas pris en charge et les miniatures ne s’affichent jamais lors de la liaison de documents à partir de SharePoint ou de Google Drive.
 
 1. Cliquez sur **Lien**.
 
    Dans Workfront, l’icône du fournisseur de cloud s’affiche en regard des documents.
 
    >[!NOTE]
-   Dans le cas des documents liés à une boîte, le lien vers le document dans la boîte ne s’affiche pas tant que vous n’avez pas actualisé la page.
+   >
+   >Dans le cas des documents liés à une boîte, le lien vers le document dans la boîte ne s’affiche pas tant que vous n’avez pas actualisé la page.
 
 ### Ajouter une nouvelle version d’un document lié {#add-a-new-version-of-a-linked-document}
 
@@ -152,7 +154,8 @@ Vous pouvez ajouter une nouvelle version d’un document lié à Workfront à pa
 1. Accédez au **Documents** zone de liaison du document, puis sélectionnez le document associé.
 
    >[!IMPORTANT]
-   Le document doit se trouver en dehors d’un dossier lié pour créer une version.
+   >
+   >Le document doit se trouver en dehors d’un dossier lié pour créer une version.
 
 1. Cliquez sur **Ajouter** > **Version**, puis cliquez sur le fournisseur de documents externe.
 
@@ -171,25 +174,27 @@ Vous pouvez ajouter une nouvelle version d’un document lié à Workfront à pa
 
    Recherchez et sélectionnez les documents à lier.
 
-   Vous pouvez sélectionner plusieurs documents ; toutefois, seuls les documents sélectionnés dans la vue active sont liés. Par exemple, si vous sélectionnez un document, puis accédez à un dossier, le document que vous avez initialement sélectionné n’est pas lié.
+   Vous pouvez sélectionner plusieurs documents ; toutefois, seuls les documents sélectionnés dans la vue active sont liés. Par exemple, si vous sélectionnez un document, puis accédez à un dossier, le document que vous avez initialement sélectionné n’est pas lié.
 
-1. (Conditionnel) Si vous êtes un client DAM Workfront, cliquez sur le bouton **Miniature** pour afficher les fichiers sous forme d’images miniatures.
+1. (Conditionnel) Si vous êtes un client DAM Workfront, cliquez sur le bouton **Miniature** pour afficher les fichiers sous forme d’images miniatures.
 
    >[!NOTE]
-   Les clients DAM Workfront peuvent afficher des miniatures lors de la liaison de documents à partir de la gestion des actifs numériques Workfront. Des miniatures peuvent également s’afficher pour les clients DAM Workfront pour d’autres services tels que Dropbox et Box. Toutefois, l’affichage de miniatures pour des services autres que Workfront DAM dans Workfront n’est pas pris en charge et les miniatures ne s’affichent jamais lors de la liaison de documents à partir de SharePoint ou de Google Drive.
+   >
+   >Les clients DAM Workfront peuvent afficher des miniatures lors de la liaison de documents à partir de la gestion des actifs numériques Workfront. Des miniatures peuvent également s’afficher pour les clients DAM Workfront pour d’autres services tels que Dropbox et Box. Toutefois, l’affichage de miniatures pour des services autres que Workfront DAM dans Workfront n’est pas pris en charge et les miniatures ne s’affichent jamais lors de la liaison de documents à partir de SharePoint ou de Google Drive.
 
 1. Cliquez sur **Lien**.
 
    Dans Workfront, l’icône du fournisseur de cloud s’affiche en regard des documents, indiquant qu’ils sont liés au fournisseur de cloud externe.
 
    >[!NOTE]
-   Dans le cas des documents liés à une boîte, le lien vers le document dans la boîte ne s’affiche pas tant que vous n’avez pas actualisé la page.
+   >
+   >Dans le cas des documents liés à une boîte, le lien vers le document dans la boîte ne s’affiche pas tant que vous n’avez pas actualisé la page.
 
 Pour plus d’informations sur l’ajout d’une nouvelle version d’un document que vous avez téléchargé vers Workfront à partir de votre système de fichiers, voir [Ajout de documents à Adobe Workfront à partir de votre système de fichiers](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Ajout de documents à Adobe Workfront à partir de votre système de fichiers](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Lier des documents Workfront BAT {#link-workfront-proof-documents}
 
-Vous pouvez lier des bons à tirer à Workfront qui existaient à l’origine dans le bon à tirer Workfront. Lorsque vous liez un BAT à partir d’un BAT Workfront, tous les commentaires et autres métadonnées associés au BAT sont disponibles dans Workfront. 
+Vous pouvez lier des bons à tirer à Workfront qui existaient à l’origine dans le bon à tirer Workfront. Lorsque vous liez un BAT à partir d’un BAT Workfront, tous les commentaires et autres métadonnées associés au BAT sont disponibles dans Workfront.
 
 Vous pouvez lier uniquement les BAT pour lesquels vous disposez de l’accès Affichage dans le BAT Workfront.
 
@@ -197,7 +202,8 @@ Vous pouvez lier uniquement les BAT pour lesquels vous disposez de l’accès Af
 1. Cliquez sur **Ajouter**, puis cliquez sur **A partir du bon à tirer Workfront**.
 
    >[!NOTE]
-   Les options de ce menu peuvent varier en fonction des fournisseurs tiers configurés dans votre environnement.
+   >
+   >Les options de ce menu peuvent varier en fonction des fournisseurs tiers configurés dans votre environnement.
 
 1. Dans le **Lien** proofs **de** Zone Bon à tirer de Workfront qui s’affiche, commencez à saisir le nom du BAT que vous souhaitez rendre disponible dans Workfront.
 
@@ -224,7 +230,8 @@ Vous pouvez créer un document Google dans Workfront. Vous ne pouvez pas créer 
    Un document Google est ajouté à la variable **Documents** .
 
    >[!NOTE]
-    Mon lecteur et Partagé avec moi affichent deux résultats différents. Si vous ne parvenez pas à localiser un fichier dans Mon lecteur, archivez le dossier Partagé avec moi .
+   >
+   > Mon lecteur et Partagé avec moi affichent deux résultats différents. Si vous ne parvenez pas à localiser un fichier dans Mon lecteur, archivez le dossier Partagé avec moi .
 
 ## Mise à jour et liaison d’un document de Workfront à un fournisseur cloud externe
 
@@ -263,9 +270,9 @@ Lors de la synchronisation du contenu du dossier à partir d’une application d
 * Lorsqu’un utilisateur accède au contenu d’un dossier lié dans Workfront (tel qu’un sous-dossier dans un dossier lié) lié à Workfront par un autre utilisateur, le contenu se synchronise avec Workfront à l’aide des informations d’identification de connexion Workfront de l’utilisateur qui a initialement lié le dossier, et non des informations d’identification de l’utilisateur accédant au contenu.
 
 >[!IMPORTANT]
-* Si l’utilisateur qui a initialement lié le dossier est supprimé du système Workfront, il ne peut plus accéder au contenu du dossier lié via Workfront. Dans ce cas, le dossier doit être relationné par un utilisateur Workfront principal disposant des droits sur le dossier dans l’application externe.
-* Si l’utilisateur qui a lié un dossier n’a plus accès à l’application externe, Workfront ne peut plus accéder au contenu du dossier. Cela peut se produire, par exemple, si l’utilisateur qui avait initialement lié le dossier quitte la société. Pour garantir un accès continu, un utilisateur ayant accès au dossier doit lier à nouveau le dossier.
-
+>
+>* Si l’utilisateur qui a initialement lié le dossier est supprimé du système Workfront, il ne peut plus accéder au contenu du dossier lié via Workfront. Dans ce cas, le dossier doit être relationné par un utilisateur Workfront principal disposant des droits sur le dossier dans l’application externe.
+>* Si l’utilisateur qui a lié un dossier n’a plus accès à l’application externe, Workfront ne peut plus accéder au contenu du dossier. Cela peut se produire, par exemple, si l’utilisateur qui avait initialement lié le dossier quitte la société. Pour garantir un accès continu, un utilisateur ayant accès au dossier doit lier à nouveau le dossier.
 
 ### Lier un ou plusieurs dossiers externes {#link-one-or-more-external-folders}
 
@@ -285,7 +292,8 @@ Lors de la synchronisation du contenu du dossier à partir d’une application d
    Vous pouvez sélectionner plusieurs dossiers ; toutefois, seuls les dossiers sélectionnés dans la vue actuelle sont liés. Par exemple, si vous sélectionnez un dossier, puis accédez à un dossier, le dossier que vous avez initialement sélectionné n’est pas lié.
 
    >[!NOTE]
-   Lors de la liaison de dossiers à partir de Google Drive, vous ne pouvez lier que les dossiers qui se trouvent sur votre disque personnel (My Drive) et dans Team Drive. Vous ne pouvez pas lier des dossiers à partir de la zone Partagé avec moi .
+   >
+   >Lors de la liaison de dossiers à partir de Google Drive, vous ne pouvez lier que les dossiers qui se trouvent sur votre disque personnel (My Drive) et dans Team Drive. Vous ne pouvez pas lier des dossiers à partir de la zone Partagé avec moi .
 
 1. Cliquez sur **Lien**.
 
@@ -310,26 +318,32 @@ Vous pouvez créer un dossier dans un dossier lié existant. Vous pouvez égalem
    ![](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
-   Les restrictions suivantes s’appliquent lorsque vous faites glisser un dossier Workfront existant dans un dossier lié :
-   * Le dossier que vous faites glisser ne peut pas déjà être lié et ne peut pas contenir de contenu déjà lié.
-   * Le dossier (y compris son contenu) que vous faites glisser ne peut pas dépasser 50 Mo.
-
+   >
+   >Les restrictions suivantes s’appliquent lorsque vous faites glisser un dossier Workfront existant dans un dossier lié :
+   >
+   >* Le dossier que vous faites glisser ne peut pas déjà être lié et ne peut pas contenir de contenu déjà lié.
+   >* Le dossier (y compris son contenu) que vous faites glisser ne peut pas dépasser 50 Mo.
 
 ## Ajouter un document à un dossier lié
 
 Lorsque vous ajoutez un document à un dossier lié via Workfront, il est automatiquement ajouté en tant que document lié.
 
-1. Dans le **Documents** à l’endroit où vous souhaitez obtenir le document, faites-le glisser dans un dossier lié.
+1. Sélectionnez le dossier lié dans lequel vous souhaitez obtenir le document, puis cliquez sur **Ajouter > Document**, puis accédez au document et ajoutez-le au dossier .
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/documents-linked-document-move-nwe-350x126.png" style="width: 350;height: 126;">Selection box is wonky on the left<br></p>
-   -->
+
 
    Ou
 
-   Sélectionnez le dossier lié dans lequel vous souhaitez obtenir le document, puis cliquez sur **Ajouter > Document**, puis accédez au document et ajoutez-le au dossier .
+   Dans le **Documents** à l’endroit où vous souhaitez obtenir le document, faites-le glisser dans un dossier lié.
 
    Une nouvelle version de votre document est automatiquement créée dans l’application externe et liée à Workfront.
+
+>[!NOTE]
+>
+> * Les options du document ne sont pas disponibles lorsque le document est en cours de déplacement. Une fois le document déplacé vers Experience Manager Assets, n’est plus visible dans la liste de documents de Workfront.
+>
+> * Les actions ou modifications effectuées sur le document en cours de déplacement n’apparaîtront pas dans le document dans Experience Manager Assets et seront donc perdues.
+
 
 ## Suppression d’un document ou d’un dossier lié
 
@@ -347,4 +361,5 @@ Lorsque vous renommez un document ou un dossier lié, le changement n’est visi
 Si vous souhaitez que le nom corresponde dans Workfront et dans l’application externe, vous devez le renommer aux deux endroits.
 
 >[!IMPORTANT]
-Ne renommez pas un document Workfront lié à Dropbox ; ce faisant, le fichier dans Workfront est inaccessible. Renommez plutôt le fichier dans Dropbox, puis resynchronisez-le, comme décrit dans la section [Liaison de documents à partir d’applications externes](#synchronizing-changes-made-on-a-linked-document).
+>
+>Ne renommez pas un document Workfront lié à Dropbox ; ce faisant, le fichier dans Workfront est inaccessible. Renommez plutôt le fichier dans Dropbox, puis resynchronisez-le, comme décrit dans la section [Liaison de documents à partir d’applications externes](#synchronizing-changes-made-on-a-linked-document).

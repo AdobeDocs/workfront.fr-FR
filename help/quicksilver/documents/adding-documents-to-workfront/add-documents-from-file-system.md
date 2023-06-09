@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des documents à des projets, des tâches ou de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
+source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Vous pouvez ajouter de nouveaux documents à Workfront à partir du système de 
 Pour ajouter un document :
 
 1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un nouveau document.
-1. Cliquez sur le bouton **Documents** , puis cliquez sur le bouton **Ajouter** menu déroulant.
+1. Cliquez sur le bouton **Documents** , puis cliquez sur le bouton **Ajouter** menu déroulant.
 
    ![](assets/add-new-350x138.png)
 
@@ -76,16 +76,17 @@ Pour ajouter un document :
       <td role="rowheader">Chargement de documents à partir de votre système de fichiers sur votre poste de travail</td> 
       <td> 
        <ol> 
-        <li value="1">Dans la <strong>Ajouter</strong> menu déroulant, sélectionnez <strong>Document.</strong></li> 
+        <li value="1">Dans la <strong>Ajouter</strong> menu déroulant, sélectionnez <strong>Document.</strong></li> 
         <li value="2"> <p>Recherchez et sélectionnez le document à ajouter à partir du système de fichiers de votre poste de travail.<br></p> <p>Vous pouvez sélectionner plusieurs documents en appuyant sur la touche Maj lorsque vous sélectionnez des fichiers supplémentaires.</p> </li> 
         <li value="3">Cliquez sur <strong>Ouvrir</strong>.</li> 
-       </ol> </td> 
+       </ol> 
+       <p><b>REMARQUE</b>: Vous pouvez également faire glisser des fichiers directement depuis votre gestionnaire de fichiers vers la liste de documents.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Téléchargement de documents à partir d’une application tierce, telle que Google Drive ou SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Dans la <strong>Ajouter</strong> menu déroulant, sélectionnez <strong>De &lt;name_of_third-party_application&gt;</strong>.</p> <p>Par exemple, pour charger un document à partir de Google Drive, cliquez sur <strong>À partir du lecteur Google</strong>.</p> </li> 
+        <li value="1"> <p>Dans la <strong>Ajouter</strong> menu déroulant, sélectionnez <strong>De &lt;name_of_third-party_application&gt;</strong>.</p> <p>Par exemple, pour charger un document à partir de Google Drive, cliquez sur <strong>À partir du lecteur Google</strong>.</p> </li> 
         <li value="2"> <p>Suivez les invites pour sélectionner le document dans l’application tierce.<br></p> <p>Pour plus d’informations sur les documents liés, voir <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Liaison de documents à partir d’applications externes</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -93,7 +94,7 @@ Pour ajouter un document :
       <td role="rowheader">Demande d’un document auprès d’un autre utilisateur Workfront</td> 
       <td> 
        <ol> 
-        <li value="1">Dans la <strong>Ajouter</strong> menu déroulant, sélectionnez <strong>Demander un document</strong>.</li> 
+        <li value="1">Dans la <strong>Ajouter</strong> menu déroulant, sélectionnez <strong>Demander un document</strong>.</li> 
         <li value="2">Dans le <strong>À qui le demandez-vous ?</strong> saisissez le nom de l’utilisateur à partir duquel vous demandez le document.</li> 
         <li value="3">Dans le <strong>Dites-leur ce que vous demandez.</strong> saisissez le nom du document.</li> 
         <li value="4"> <p>Cliquez sur <strong>Envoyer la requête</strong>.</p> <p>Votre requête s’affiche dans l’onglet Documents .</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Pour plus d’informations sur la demande de documents, voir <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Demander un document</a>.</p> </li> 

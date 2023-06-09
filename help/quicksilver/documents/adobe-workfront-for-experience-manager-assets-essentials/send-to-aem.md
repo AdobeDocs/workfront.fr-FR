@@ -6,9 +6,9 @@ description: Vous pouvez envoyer des documents de Workfront vers Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 91da06fe23b464e0422d50b0db69f4eae3db642f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -103,3 +103,21 @@ Pour envoyer la version la plus récente :
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Cliquer sur **Enregistrer**. La nouvelle version enregistre au même emplacement que la version précédente.
+
+## Déplacer un document vers un dossier lié dans Experience Manager Assets
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible uniquement pour Experience Manager Assets as a Cloud Service. Elle n’est pas disponible pour Experience Manager Assets Essentials.
+
+Vous pouvez déplacer un document vers un dossier lié dans Experience Manager Assets si le document et le dossier lié se trouvent tous deux dans la même liste de documents (comme la zone de document d’un projet).
+
+1. Recherchez le document à déplacer.
+1. Faites glisser le document et déposez-le dans le dossier Experience Manager Assets lié vers lequel vous souhaitez le déplacer.
+
+Les options du document ne sont pas disponibles lorsque le document est en cours de déplacement. Une fois le document déplacé vers Experience Manager Assets, n’est plus visible dans la liste de documents de Workfront.
+
+>[!NOTE]
+>
+> Les actions ou modifications effectuées sur le document en cours de déplacement n’apparaîtront pas dans le document dans Experience Manager Assets et seront donc perdues.
+
