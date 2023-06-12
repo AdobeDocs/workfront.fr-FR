@@ -5,24 +5,25 @@ title: Présentation des tableaux de bord de canevas
 description: Vous pouvez créer des tableaux de bord Canevas qui intègrent des visualisations Canevas de rapports aux rapports traditionnels et offrent de nouvelles options de mise en page.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
+source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # Présentation des tableaux de bord de canevas
 
 Les tableaux de bord de canevas, une fonctionnalité en cours de développement pour les tableaux de bord, offre une nouvelle option pour créer des tableaux de bord efficaces dans Workfront. Les tableaux de bord du canevas de rapports permettent d’inclure facilement des visualisations du canevas de rapports dans les rapports existants, offrant ainsi plus de flexibilité et de nouvelles options de mise en page.
 
 Cette fonctionnalité est en cours de développement et ne prend pas encore en charge :
-* rapports de graphique
 * pages externes
 * intégration de calendrier
 * rapports générés
 * distribution via les modèles de mise en page
+
+Pour obtenir la liste complète des fonctionnalités qui ont été ajoutées aux tableaux de bord de la zone de travail, voir [Tableaux de bord de canevas : activité de publication](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
 ## Accéder aux tableaux de bord de canevas
 

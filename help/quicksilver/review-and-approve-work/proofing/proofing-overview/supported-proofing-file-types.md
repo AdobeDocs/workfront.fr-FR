@@ -7,9 +7,9 @@ description: Vous pouvez partager et revoir différents types de fichiers avec v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: fa0247796b2d0fc147a0b6a564a306c7e594c6fb
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Vous pouvez partager et revoir différents types de fichiers avec vos réviseurs
 Workfront présente les limites suivantes :
 
 * Les fichiers doivent être inférieurs à 4 Go par fichier.
+* Les fichiers Microsoft Word (DOC, DOCX) et PowerPoint (PPT, PPTX) doivent être inférieurs à 512 Mo.
 * Les fichiers XLS et XLSX doivent être inférieurs à 100 Mo.
 * Les fichiers joints aux commentaires sur les bons à tirer doivent être inférieurs à 30 Mo.
 * Les PNG doivent avoir une hauteur et une largeur inférieures à 65 535 pixels.
@@ -34,6 +35,18 @@ Workfront présente les limites suivantes :
 >Le chargement de fichiers plus volumineux prend plus de temps et si votre connexion n’est pas stable, l’action peut être arrêtée/interrompue.
 
 ## Fichiers statiques
+
+>[!IMPORTANT]
+> Les types de fichiers statiques suivants ne sont plus pris en charge :
+>
+> * DOT - Modèle de document Word Microsoft
+> * DOTX - Modèle de document Word Microsoft
+> * POT - Modèle PowerPoint Microsoft
+> * POTX - Modèle Microsoft PowerPoint
+> * PPS - Diaporama Microsoft PowerPoint
+> * PPSX - Diaporama Microsoft PowerPoint
+> * XLT - Modèle Excel Microsoft
+> * XLTX - Modèle Excel Microsoft
 
 * ABC - Compression Bitonal avancée LEAD
 * ABIC - Compression d’image adaptative à deux niveaux
@@ -155,12 +168,22 @@ Workfront présente les limites suivantes :
 
 ## Fichiers statiques - Outil Texte
 
+>[!IMPORTANT]
+> Les types de fichiers statiques suivants ne sont plus pris en charge pour l’outil de texte :
+>
+> * DOT - Modèle de document Word Microsoft
+> * DOTX - Modèle de document Word Microsoft
+> * POT - Modèle PowerPoint Microsoft
+> * POTX - Modèle Microsoft PowerPoint
+> * PPS - Diaporama Microsoft PowerPoint
+> * PPSX - Diaporama Microsoft PowerPoint
+> * XLT - Modèle Excel Microsoft
+> * XLTX - Modèle Excel Microsoft
+
 * AI - Illustration Adobe Illustrator
 * AIT - Modèle Adobe Illustrator
 * DOC - Document Word Microsoft
 * DOCX - Document Word Microsoft
-* DOT - Modèle de document Word Microsoft
-* DOTX - Modèle de document Word Microsoft 
 * EPS - PostScript encapsulé
 * PDF - Adobe de fichier de document portable
 * Présentation PPT-PowerPoint
@@ -169,8 +192,7 @@ Workfront présente les limites suivantes :
 * RTF - Texte enrichi
 * XLS - Feuille de calcul Excel Microsoft
 * XLSX - Feuille de calcul Excel Microsoft 2007
-* XLT - Modèle Excel Microsoft
-* XLTX - Modèle Excel Microsoft
+
 
 ## Fichiers vidéo
 

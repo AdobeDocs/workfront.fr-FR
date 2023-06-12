@@ -6,9 +6,9 @@ description: Vous pouvez partager un document révisé dans Adobe Workfront en p
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Rôle de BAT</td> 
+   <td role="rowheader">Rôle de l’épreuve</td> 
    <td>Auteur ou modérateur</td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Le partage d’un lien de BAT permet aux utilisateurs Workfront de consulter l�
 
    * Pour copier le lien dans le presse-papiers, cliquez sur **Copier le lien**.
 
-      Vous pouvez désormais diffuser le lien par le biais d&#39;un outil tiers, tel qu&#39;une messagerie instantanée ou une application de messagerie.
+     Vous pouvez désormais diffuser le lien par le biais d&#39;un outil tiers, tel qu&#39;une messagerie instantanée ou une application de messagerie.
 
    * Pour envoyer le lien directement par courrier électronique à partir d’Adobe Workfront, procédez comme suit :
 
@@ -114,6 +114,13 @@ Le partage d’un lien de BAT permet aux utilisateurs Workfront de consulter l�
 
 Vous pouvez ajouter n&#39;importe quel utilisateur Workfront au BAT si vous disposez des droits d&#39; édition sur le BAT. Si le BAT comporte plusieurs étapes, vous ajoutez l’utilisateur à une étape individuelle.
 
+>[!WARNING]
+>
+>Outre les méthodes listées dans cet article, il est possible d&#39;ajouter des utilisateurs à un BAT en les marquant dans un commentaire à partir de l&#39;onglet Mises à jour d&#39;un BAT existant. Cependant, les utilisateurs ajoutés à un BAT de cette manière ne reçoivent pas de notification par email, sauf s’ils sont à nouveau balisés après avoir été ajoutés au workflow du BAT.
+>
+>Par conséquent, nous vous recommandons d’ajouter des utilisateurs à un BAT à l’aide de l’une des méthodes répertoriées ci-dessous, et non en les marquant dans un commentaire.
+>
+
 >[!NOTE]
 >
 >Gardez ce qui suit à l’esprit si vous utilisez un plan Workfront hérité dans lequel la vérification peut être activée et désactivée pour un utilisateur :
@@ -121,7 +128,6 @@ Vous pouvez ajouter n&#39;importe quel utilisateur Workfront au BAT si vous disp
 >* Les destinataires n&#39;ont pas besoin d&#39;activer la vérification pour pouvoir passer en revue le BAT.
 >* Lorsque le processus automatisé est activé et que vous ajoutez un utilisateur au BAT pour lequel la vérification n’est pas activée dans Workfront, une nouvelle étape est créée dans le processus automatisé. L’utilisateur que vous ajoutez est automatiquement ajouté à cette nouvelle étape lorsqu’il visualise le BAT pour la première fois. (Pour plus d’informations, voir [Présentation des processus automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
 >
-
 
 ### Ajouter des utilisateurs à un BAT existant depuis l&#39;onglet Documents
 
