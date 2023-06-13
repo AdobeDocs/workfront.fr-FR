@@ -9,9 +9,9 @@ description: Une connexion doit respecter les exigences définies par l’API de
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -71,11 +71,11 @@ Les cas suivants nécessitent des étapes supplémentaires pour créer une conne
 
 * Utilisation [!DNL Microsoft Dynamics 365] modules.
 
-   Pour obtenir des instructions, voir [[!DNL Microsoft Dynamics 365] modules](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+  Pour obtenir des instructions, voir [[!DNL Microsoft Dynamics 365] modules](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
 * Connexion à la variable [!DNL Microsoft Graph API] à l’aide d’une [!UICONTROL HTTP] module
 
-   Pour obtenir des instructions, voir [Appelez le [!DNL MS Graph REST API] via le [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Exécution d’une requête OAuth 2.0] module](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  Pour obtenir des instructions, voir [Appelez le [!DNL MS Graph REST API] via le [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Exécution d’une requête OAuth 2.0] module](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
 
 ## Se connecter à un [!DNL Google] application ou service web
 
@@ -145,10 +145,6 @@ Les applications suivantes ne suivent pas la configuration de base pour [!DNL Wo
 <tr> 
    <td role="rowheader"> <p>[!DNL Gmail]</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md#connect3" class="MCXref xref">Connexion [!DNL Gmail] to [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md" class="MCXref xref">[!DNL Gmail] modules</a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!DNL Intacct]</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md#connecti" class="MCXref xref">Connexion [!DNL Intacct] to [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md" class="MCXref xref">[!DNL Intacct] modules</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira Cloud]</td> 
