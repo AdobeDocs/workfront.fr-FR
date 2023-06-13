@@ -6,10 +6,10 @@ description: Passez en revue l’activité de version hebdomadaire pour découvr
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '871'
+ht-degree: 5%
 
 ---
 
@@ -26,6 +26,24 @@ Pour obtenir des informations générales sur la nouvelle expérience bêta de c
 >Les fonctions de commentaires publiées sur l’expérience bêta pour les objets Workfront sont également publiées dans la section Mises à jour d’un objet d’objectif dans les objectifs de Workfront.
 
 Les sections suivantes répertorient les fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
+
+## Semaine du 13 juin 2023
+
+### Amélioration de l’expérience lors de la modification de commentaires
+
+Vous pouvez désormais utiliser les raccourcis clavier suivants lors de la modification de commentaires :
+
+* Ctrl + Z (CMD + Z pour Mac) pour annuler une modification.
+
+* Ctrl + Y (CMD + Y pour Mac) pour rétablir la modification
+
+Avant ces améliorations, vous ne pouviez pas annuler ou rétablir des modifications lors de la modification d’un commentaire. Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Aperçu : 13 juin 2023
+
+Production : 13 juin 2023
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## Semaine du 29 mai 2023
 
