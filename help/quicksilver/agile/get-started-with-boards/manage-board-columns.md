@@ -6,9 +6,9 @@ description: Un nouveau panorama contient trois colonnes par défaut. Vous pouve
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
+source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Cliquez sur le bouton **[!UICONTROL Plus]** menu ![Plus de menu](assets/more-icon-spectrum.png) dans la colonne et sélectionnez **[!UICONTROL Modifier]**. Dans la zone Paramètres , saisissez le nouveau nom dans la zone **[!UICONTROL Nom de la colonne]** puis cliquez sur **[!UICONTROL Fermer]**.
 
 ## Suppression d’une colonne de panorama
+
+Lorsque vous supprimez une colonne d’un panorama, elle ne peut pas être récupérée.
 
 1. Accédez au panorama.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![Plus de menu](assets/more-icon-spectrum.png) dans la colonne , puis sélectionnez **[!UICONTROL Supprimer]**.
