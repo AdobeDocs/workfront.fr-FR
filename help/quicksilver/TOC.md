@@ -2,7 +2,7 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: 80d3424e3adcabbe8222e74bd37eeb7304c3e734
+source-git-commit: a392ea004c8ab4a2d52bbdb650e21a2f182b8202
 workflow-type: tm+mt
 source-wordcount: '13078'
 ht-degree: 1%
@@ -1727,9 +1727,9 @@ ht-degree: 1%
       * [Rappeler les validations envoyées](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * Révisions et validations de documents {#document-reviews-and-approvals}
       * [Révisions et validations de documents](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * [Présentation des validations de document](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * Gestion des approbations de documents {#manage-document-approvals}
          * [Gestion des approbations de documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
-         * [Présentation des validations de document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approvals-overview.md)
          * [Créer une validation de document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Ajouter des validants ou validants supplémentaires à un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Suppression des approbateurs ou des réviseurs d’un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)

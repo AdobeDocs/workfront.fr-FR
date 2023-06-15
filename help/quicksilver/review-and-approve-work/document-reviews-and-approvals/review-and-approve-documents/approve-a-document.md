@@ -5,7 +5,7 @@ title: Approbation d’un document
 description: Si vous êtes affecté en tant qu’approbateur à un document, il existe plusieurs façons de prendre votre décision d’approbation.
 author: Nolan
 feature: Work Management
-source-git-commit: 369a8564f44524d1abed57553435ce69c7c5e170
+source-git-commit: 967e599376714c600d4c920582938a90d8399dc0
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -64,7 +64,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >* Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](../assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
-
 1. Cliquez sur **Filtres** en haut à gauche de la page et assurez-vous que **Approbations** est cochée.
 
    Toutes les tâches qui nécessitent votre approbation sont répertoriées dans la liste.
@@ -82,6 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
       * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message**, ou vous pouvez cliquer sur **Ignorer** pour envoyer la décision de validation sans informations supplémentaires.
+
    * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
 
    Tenez compte des points suivants lors de l’affichage des approbations de documents dans Accueil :
@@ -90,8 +90,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Une fois qu’une décision a été prise sur une validation, la validation reste dans l’onglet Mes approbations avec le texte &quot;Décision prise&quot; jusqu’à ce que vous cliquiez sur l’onglet **Actualiser** ou jusqu’à ce que vous actualisiez la page du navigateur.
 
-
-
 ## Approuver un document à partir de la page de document
 
 1. Accédez à la page du document en cliquant sur le nom du document.
@@ -99,8 +97,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Sélectionnez la version du document en attente d’approbation dans la liste déroulante des versions située en regard du nom du document. La dernière version est sélectionnée par défaut.
 
    Si la version actuellement sélectionnée du document a une approbation en attente, les boutons de décision d’approbation s’affichent dans le coin supérieur droit de la page ; si d’autres versions du document sont en attente d’approbation, le menu déroulant des versions affiche un point rouge.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Cliquez sur l’une des deux options de validation suivantes dans le coin supérieur droit de la page :
@@ -110,8 +109,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
       * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message**, ou vous pouvez cliquer sur **Ignorer** pour envoyer la décision de validation sans informations supplémentaires.
-   * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
 
+   * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
 
 ## Approuver un document à partir du volet Résumé du document
 
@@ -122,8 +121,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Sélectionnez la version du document que vous souhaitez réviser dans la liste déroulante des versions. La dernière version est sélectionnée par défaut.
 
    Si la version actuellement sélectionnée du document a une approbation en attente, les boutons de décision d’approbation s’affichent dans le coin supérieur droit du volet Résumé du document ; si d’autres versions du document sont en attente d’approbation, le menu déroulant des versions affiche un point rouge.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit du volet Résumé du document :
@@ -133,4 +133,5 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
       * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message**, ou vous pouvez cliquer sur **Ignorer** pour envoyer la décision de validation sans informations supplémentaires.
+
    * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
