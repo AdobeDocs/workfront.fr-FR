@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 >     * Panneau Résumé dans les listes
 >     * Panneau Résumé dans les feuilles de temps
 >
-> * Objectifs<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Objectifs, <span class="preview">cartes dans la zone Panoramas</span>
 >
->   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. <!--<span class="preview">and cards</span>-->. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nouvelle expérience de commentaire est la seule expérience pour les objectifs. <span class="preview">et cartes</span>. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Vous pouvez ajouter des commentaires à la plupart des objets dans Adobe Workfront dans la section Mises à jour . Pour plus d’informations sur les objets qui affichent la section Mises à jour, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 
 >[!NOTE]
 >
->La fonctionnalité suivante est disponible pour tous les objets, à l’exception des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
+>La fonctionnalité suivante est disponible pour tous les objets, à l’exception des objectifs et des cartes. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Accédez à l’élément de travail pour lequel vous souhaitez fournir une mise à jour (projet, tâche ou problème, par exemple).
 1. Cliquez sur le bouton **Mises à jour** .
@@ -283,7 +285,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Greaté+K</br> <br>Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : underline+V</br> | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Ctrl+K</br> <br>Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : Ctrl+V</br> |
    | Liste à puces | ![mceclip6.png](assets/mceclip6.png) | Greatest + Maj + 8 | Ctrl+Maj+8 |
    | Liste numérotée | ![mceclip5.png](assets/mceclip5.png) | Greatest + Maj + 7 | Ctrl+Maj+7 |
-   | Citation | <span class="preview">![](assets/block-quote-icon-large.png)</span> | CY+Maj+9 | Ctrl+Maj+9 |
+   | Citation | ![](assets/block-quote-icon-large.png) | CY+Maj+9 | Ctrl+Maj+9 |
 
    Pour arrêter le formatage du texte, désélectionnez l’attribut sur la **Texte enrichi** de la barre d’outils.
 
@@ -346,20 +348,17 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
 ## Copie des informations de mise à jour
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 Il existe plusieurs façons de copier une mise à jour. Après avoir copié un lien, vous pouvez le partager avec d’autres personnes afin de les rediriger vers la mise à jour.
+
+La copie d’une mise à jour varie en fonction de l’expérience de commentaire que vous utilisez.
+
+### Copier une mise à jour dans l’expérience de commentaire actuelle
 
 * [Copier la mise à jour](#copy-the-update)
 * [Copier le lien du thread](#copy-the-thread-link)
 * [Copier le lien de mise à jour](#copy-the-update-link)
 
-### Copier la mise à jour {#copy-the-update}
+#### Copier la mise à jour {#copy-the-update}
 
 Cette option copie le texte d’une mise à jour spécifique dans le Presse-papiers.
 
@@ -368,24 +367,47 @@ Cette option copie le texte d’une mise à jour spécifique dans le Presse-papi
 
    ![Sélectionner Copier le texte du corps](assets/update-stream-copy-body-text-350x152.png)
 
-### Copier le lien du thread {#copy-the-thread-link}
+#### Copier le lien du thread {#copy-the-thread-link}
 
 Cette option copie le lien de thread complet dans le Presse-papiers afin que vous puissiez partager le thread avec d’autres utilisateurs.
 
 1. Accédez au thread de mise à jour que vous souhaitez copier.
 
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread** ou **Copier le lien**, lors de l’utilisation de l’expérience bêta.
+1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Copier le lien de mise à jour {#copy-the-update-link}
+#### Copier le lien de mise à jour {#copy-the-update-link}
 
 Cette option copie un lien de mise à jour spécifique dans le Presse-papiers. Lorsque vous partagez le lien de mise à jour, l’utilisateur qui le suit voit une bordure autour de la mise à jour.
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour individuelle, puis cliquez sur **Copier le lien de mise à jour** ou **Copier le lien**, lors de l’utilisation de l’expérience bêta.
+1. Cliquez sur le bouton **Plus** en regard de la mise à jour individuelle, puis cliquez sur **Copier le lien de mise à jour**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### Copier une mise à jour dans la nouvelle expérience de commentaire
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [Copier le lien](#copy-link)
+* [Copier le texte du message](#copy-body-text)
+
+#### Copier le lien
+
+Cette option copie le lien du commentaire ou du fil dans le Presse-papiers afin que vous puissiez partager le commentaire ou l’intégralité du fil avec d’autres utilisateurs.
+
+1. Accédez à la mise à jour du lien dont vous souhaitez copier le lien.
+
+1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien**.
+
+#### Copier le texte du message
+
+Cette option copie le texte d’une mise à jour spécifique dans le Presse-papiers.
+
+1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
+1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le texte du corps**.
 
 ## Supprimer une mise à jour ou une réponse
 

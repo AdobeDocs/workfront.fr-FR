@@ -1,23 +1,23 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: Nouvelle activité de commentaires sur la version bêta
-description: Passez en revue l’activité de version hebdomadaire pour découvrir la nouvelle expérience de commentaires bêta d’Adobe Workfront.
+title: Nouvelle activité de mise à jour d’une expérience de commentaire
+description: Examinez l’activité de publication hebdomadaire pour découvrir la nouvelle expérience de commentaires d’Adobe Workfront.
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 5%
+source-wordcount: '1205'
+ht-degree: 4%
 
 ---
 
-# Nouvelle activité de commentaires sur la version bêta de l’expérience
+# Nouvelle activité de mise à jour d’une expérience de commentaire
 
-Les informations de cette page font référence à l’activité de publication une fois par semaine des fonctionnalités incluses dans la nouvelle expérience bêta de commentaires. La page répertorie les nouvelles fonctionnalités ajoutées et les problèmes résolus pour la nouvelle expérience bêta de commentaires.
+Cette page contient des informations sur la date de publication de la nouvelle expérience de commentaires en cours dans Adobe Workfront.
 
-Pour obtenir des informations générales sur la nouvelle expérience bêta de commentaires, y compris une liste des fonctionnalités actuellement disponibles ou en cours de recherche, voir [Nouvelle expérience de commentaire](../new-commenting-experience-beta/unified-commenting-experience.md).
+Pour obtenir des informations générales sur la nouvelle expérience de commentaire, y compris une liste des fonctionnalités actuellement disponibles ou en cours de recherche, voir [Nouvelle expérience de commentaire](../new-commenting-experience-beta/unified-commenting-experience.md).
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,45 @@ Pour obtenir des informations générales sur la nouvelle expérience bêta de c
 >
 >Les fonctions de commentaires publiées sur l’expérience bêta pour les objets Workfront sont également publiées dans la section Mises à jour d’un objet d’objectif dans les objectifs de Workfront.
 
-Les sections suivantes répertorient les fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
+## Calendrier des versions
 
-## Semaine du 12 juin 2023
+Nous prévoyons de publier itérativement la nouvelle expérience de commentaires. Cela aura un impact sur certains objets de chaque version. Un petit ensemble de fonctionnalités peut être publié au début et d’autres fonctionnalités seront ajoutées aux objets restants au fil du temps.
 
-### Nouvelle expérience de commentaires bêta pour les cartes dans la zone Panoramas
+Pour plus d’informations sur les objets Workfront qui affichent la section Mises à jour, voir   [Présentation de la section Mises à jour](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
-La nouvelle expérience de commentaires bêta est désormais disponible pour les cartes dans la zone Panoramas . Pour plus d’informations, voir [Présentation de la version 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+Voici un calendrier planifié de la publication de la nouvelle expérience de commentaire dans l’environnement de production :
+
+* Avec la version 23.2 (6 avril 2023) :
+   * Commentaires sur la version bêta pour les problèmes
+   * Nouvelle expérience de commentaire pour les objectifs (comme seule expérience)
+* Avec la version 23.3 (20 juillet 2023) :
+   * Commentaire d’une expérience bêta pour des projets, des tâches, des articles et des documents.
+   * L’ajout de commentaires bêta pour les projets, les tâches, les problèmes, les articles et les documents devient l’option par défaut.
+   * Nouvelle expérience de commentaire pour les cartes dans la zone Panoramas (seule expérience)
+* Dans la version 23.4 (date à annoncer) (version limitée)<!--, only available to Fast Track customers-->) :
+   * Nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (la seule expérience)
+* Avec la version 23.4 (début octobre 2023)
+   * Nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (la seule expérience)
+  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+* Fin 2023 :
+   * Supprimez l’expérience héritée des objets qui la possèdent encore.
+   * Les objets suivants ont la nouvelle expérience de commentaire comme seule expérience : projets, tâches, problèmes, articles, documents, modèles, tâches de modèle, programmes, portefeuilles, équipes, utilisateurs et feuilles de temps, objectifs et cartes.
+
+  >[!NOTE]
+  >
+  >    Les itérations conserveront l’expérience héritée de commentaires.
+
+La section suivante répertorie les fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
+
+## Fonctionnalités publiées
+
+Les informations suivantes font référence à l’activité de publication chaque semaine des fonctionnalités incluses dans la nouvelle expérience bêta de commentaires. La page répertorie les nouvelles fonctionnalités ajoutées et les problèmes résolus pour la nouvelle expérience de commentaire.
+
+### Semaine du 12 juin 2023
+
+#### Nouvelle expérience de commentaire pour les cartes dans la zone Panoramas
+
+La nouvelle expérience de commentaires est désormais disponible pour les cartes dans la zone Panoramas . Il s’agit de la seule expérience disponible pour les cartes. Pour plus d’informations, voir [Présentation de la version 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
 
 Aperçu : 15 juin 2023
 
@@ -39,7 +71,7 @@ Version de production pour la pré-inscription : 22 juin 2023
 
 Production pour tous les clients : avec la version 23.3
 
-### Ajouter des guillemets de bloc à un commentaire
+#### Ajouter des guillemets de bloc à un commentaire
 
 Vous pouvez désormais ajouter des guillemets de bloc à un commentaire à l’aide d’une option de barre d’outils de texte enrichi dans la nouvelle expérience bêta de commentaires.
 
@@ -49,7 +81,7 @@ Aperçu : 14 juin 2023
 
 Production : 15 juin 2023
 
-### Amélioration de l’expérience lors de la modification de commentaires
+#### Amélioration de l’expérience lors de la modification de commentaires
 
 Vous pouvez désormais utiliser les raccourcis clavier suivants lors de la modification de commentaires :
 
@@ -65,9 +97,9 @@ Production : 13 juin 2023
 
 <!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
-## Semaine du 29 mai 2023
+### Semaine du 29 mai 2023
 
-### Nouvelle expérience de commentaires bêta pour les projets, les tâches et les documents
+#### Nouvelle expérience de commentaires bêta pour les projets, les tâches et les documents
 
 La nouvelle expérience de commentaires bêta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires bêta n’était disponible que pour les problèmes et les objectifs.
 
@@ -79,7 +111,7 @@ Production : avec la version 23.3
 >
 >Toutes les fonctionnalités publiées pour la nouvelle expérience de commentaires bêta à partir du 1er juin 2023 seront disponibles dans Production pour les projets, les tâches et les documents après la version 23.3 de production. Pour plus d’informations, voir [Présentation de la version 23.3](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-### Nouvel aspect de la balise &quot;modifiée&quot; après modification d’un commentaire.
+#### Nouvel aspect de la balise &quot;modifiée&quot; après modification d’un commentaire.
 
 Lors de la modification d’un commentaire dans la nouvelle expérience bêta de commentaires, une balise &quot;modifiée&quot; est ajoutée au commentaire. Cette balise a désormais un nouvel aspect de celle qui a été publiée à l’origine. Les horodatages du commentaire sont ceux du commentaire d’origine. Il ne s’agit pas des horodatages de date et d’heure du moment où la modification a été effectuée.  Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -87,7 +119,7 @@ Aperçu : 31 mai 2023
 
 Production : 1er juin 2023
 
-### Les commentaires des objets enfants s’affichent dans un objet parent
+#### Les commentaires des objets enfants s’affichent dans un objet parent
 
 Lors de l’activation de l’expérience bêta de commentaires, les commentaires associés à un objet enfant sont désormais cumulés à l’objet parent. Par exemple, les commentaires des documents s’affichent maintenant sur le problème où les documents sont joints. Pour plus d’informations, voir [Mise à jour de la section - Aperçu](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -95,7 +127,7 @@ Aperçu : 1er juin 2023
 
 Production : 1er juin 2023
 
-### Temps de connexion à la nouvelle expérience bêta de commentaires
+#### Temps de connexion à la nouvelle expérience bêta de commentaires
 
 Vous pouvez consigner le temps nécessaire aux problèmes, aux tâches et aux projets dans la zone Mises à jour lors de l’utilisation de la nouvelle expérience de commentaires bêta. Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -103,9 +135,9 @@ Aperçu : 1er juin 2023
 
 Production : À annoncer
 
-## Semaine du 15 mai 2023
+### Semaine du 15 mai 2023
 
-### Amélioration de l’expérience lors de l’ajout d’hyperliens aux commentaires
+#### Amélioration de l’expérience lors de l’ajout d’hyperliens aux commentaires
 
 Vous pouvez désormais ajouter des liens hypertextes aux commentaires à l’aide des raccourcis clavier suivants :
 
@@ -118,9 +150,9 @@ Aperçu : 17 mai 2023
 
 Production : 18 mai 2023
 
-## Semaine du 1er mai 2023
+### Semaine du 1er mai 2023
 
-### Les images sont supprimées de la zone Documents lorsque des pièces jointes sont supprimées de commentaires ou lorsque des commentaires contenant une pièce jointe sont supprimés.
+#### Les images sont supprimées de la zone Documents lorsque des pièces jointes sont supprimées de commentaires ou lorsque des commentaires contenant une pièce jointe sont supprimés.
 
 Nous sommes en train de modifier le fonctionnement des pièces jointes lors de la suppression ou de la modification d’un commentaire contenant une pièce jointe. Désormais, lorsque vous modifiez un commentaire et supprimez la pièce jointe, ou lorsque vous supprimez un commentaire contenant une pièce jointe, la pièce jointe est également supprimée de votre zone Documents. Avant cette modification, dans l’expérience de commentaire précédente, les pièces jointes restaient dans la zone Documents. Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -129,26 +161,26 @@ Disponible pour les problèmes de commentaires sur l’expérience bêta et pour
 * Aperçu et production : 4 mai 2023
 
 
-## 27 avril 2023
+### 27 avril 2023
 
 La mise à jour de maintenance suivante a été publiée pour les commentaires de problème bêta et pour les objectifs :
 
 Modifier les images jointes lors de la modification d’un commentaire. Pour plus d’informations, reportez-vous à la section &quot;Mise à jour de maintenance le 27 avril&quot; de l’article. <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Mises à jour en avril 2023</a>.
 
-## 20 avril 2023
+### 20 avril 2023
 
 La mise à jour de maintenance suivante a été publiée pour les commentaires de problème bêta et pour les objectifs :
 
 Conserver les images sous format brouillon lors de l’abandon d’une mise à jour pour les objectifs et les problèmes liés à l’expérience bêta de commentaires. Pour plus d’informations, reportez-vous à la section &quot;Mise à jour de maintenance le 20 avril&quot; de l’article <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Mises à jour en avril 2023</a>.
 
-## 17 avril 2023
+### 17 avril 2023
 
 La mise à jour de maintenance suivante a été publiée pour les commentaires de problème bêta et pour les objectifs :
 
 Afficher les nouveaux commentaires en dehors de la zone d’écran visible dans la section Mises à jour des problèmes (nouvelle expérience de commentaires bêta) et Objectifs. Pour plus d’informations, reportez-vous à la section &quot;Mise à jour de maintenance le 17 avril&quot; de l’article .  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Mises à jour en avril 2023</a>.
 
 
-## Semaine du 6 avril 2023
+### Semaine du 6 avril 2023
 
 Nouvelle expérience bêta de commentaires lancée pour les problèmes.
 Les mêmes fonctionnalités que celles publiées pour la version bêta des commentaires pour les objets Workfront sont publiées en même temps pour les objectifs pour tous les utilisateurs ayant accès aux objectifs de Workfront. Pour plus d’informations, voir [Présentation de la version 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).

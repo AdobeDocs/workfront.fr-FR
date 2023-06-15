@@ -6,10 +6,10 @@ description: Lorsqu’une personne ajoute ou répond à une mise à jour d’un 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 1%
+source-wordcount: '1194'
+ht-degree: 0%
 
 ---
 
@@ -36,11 +36,12 @@ ht-degree: 1%
 >     * Panneau Résumé dans les listes
 >     * Panneau Résumé dans les feuilles de temps
 >
-> * Objectifs<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Objectifs, <span class="preview">cartes dans la zone Panoramas</span>
 >
->   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. <!--<span class="preview">and cards</span>-->. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nouvelle expérience de commentaire est la seule expérience pour les objectifs. <span class="preview">et cartes</span>. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+
 
 Lorsqu’une personne répond à un commentaire ou à une mise à jour système sur un objet de travail, sa réponse apparaît dans le fil de communication de la section Mises à jour de l’objet.
 

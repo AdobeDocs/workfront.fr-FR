@@ -6,9 +6,9 @@ description: Une mise à jour de l’expérience de commentaires dans Adobe Work
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -47,13 +47,15 @@ La nouvelle expérience de commentaires comprend des améliorations et des modif
 Les améliorations suivantes ont été apportées à la nouvelle expérience de commentaires :
 
 * Amélioration des performances et de l’expérience utilisateur
-* Séparation des commentaires des utilisateurs des mises à jour de l’activité du système.
+* Séparation des commentaires des utilisateurs des mises à jour de l’activité du système
 * Indicateur en temps réel lorsque de nouveaux commentaires sont ajoutés à un objet
-* Modification des commentaires après leur envoi.
+* Modification des commentaires après leur envoi
 
 Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience :
 
-* Commentaire sur une mise à jour du système.
+* Commentaire sur une mise à jour du système
+* Possibilité de modifier l’état, la condition, la date de validation tout en commentant
+* Modifier le formulaire personnalisé
 
 Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la nouvelle expérience de commentaire, ainsi que leur disponibilité dans les zones où elles sont prises en charge :
 
@@ -295,7 +297,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -309,7 +311,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -413,9 +415,9 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   </tr>
 </table>
 
-## Nouvelle activité de commentaires sur la version bêta de l’expérience
+## Calendrier des versions
 
-Pour plus d’informations sur les fonctionnalités récemment publiées, voir [Nouvelle activité de commentaires sur la version bêta de l’expérience](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Pour plus d’informations sur les fonctionnalités récemment publiées dans le cadre de la nouvelle expérience de commentaires, ainsi que sur la chronologie de la mise à jour, voir [Nouvelle activité de commentaires sur la version bêta de l’expérience](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Localisation de la nouvelle expérience de commentaire
 
@@ -423,21 +425,18 @@ La nouvelle expérience de commentaire est actuellement prise en charge pour les
 
 * Lors de l’activation de l’expérience bêta dans la section Mises à jour :
 
-   * Problèmes, <span class="preview">projets, tâches et documents</span>
+   * Problèmes, <span class="preview">projets, tâches, articles et documents</span>
 
   Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * Par défaut, comme principale expérience de commentaire :
 
-   * Objectifs
+   * Objectifs, <span class="preview">cartes dans la zone Panoramas</span>
 
   >[!NOTE]
   >
   >Pour pouvoir accéder à cette zone de Workfront, vous devez disposer d’une licence supplémentaire pour les objectifs Adobe Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-  Pour plus d’informations sur la gestion des mises à jour des objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
 
 Pour activer la nouvelle expérience de commentaire bêta :
 

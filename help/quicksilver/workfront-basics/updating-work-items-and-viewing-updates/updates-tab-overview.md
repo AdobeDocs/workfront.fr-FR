@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1041'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 4%
 >     * Panneau Résumé dans les listes
 >     * Panneau Résumé dans les feuilles de temps
 >
-> * Objectifs<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Objectifs, <span class="preview">cartes dans la zone Panoramas</span>
 >
->   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. <!--<span class="preview">and cards</span>-->. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nouvelle expérience de commentaire est la seule expérience pour les objectifs. <span class="preview">et cartes</span>. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
 
@@ -84,7 +84,7 @@ La section Mises à jour s’affiche pour les objets suivants :
      <li>Modèles</li> 
      <li>Tâches de modèles</li> 
      <li>Feuilles de temps</li> 
-     <li>Utilisateurs et utilisatrices</li> 
+     <li>Utilisateurs et utilisatrices</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ La section Mises à jour affiche des informations dans les onglets suivants de l
 * **Commentaires**: Affiche les commentaires des utilisateurs et les réponses à ces commentaires. Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
 * **Activité du système**: Affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jour à l’aide de l’expérience de commentaires bêta sur les objets suivants :
+Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jour à l’aide de la nouvelle expérience de commentaire sur les objets suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,10 +109,11 @@ Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jou
    <td> 
     <ul> 
      <li><p>Objectifs</p>
-     <p>Il s’agit de l’expérience par défaut pour les objectifs.</p>
+     <li><span class="preview">Cartes dans la zone Panoramas</span></li>
+      Il s’agit de la seule expérience pour les objectifs <span class="preview">et cartes</span>.
      </li> 
      <li><span class="preview">Projets</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>Événements</li> 
@@ -123,12 +124,10 @@ Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jou
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Mises à jour qui apparaissent également sur les objets de rang supérieur
 
