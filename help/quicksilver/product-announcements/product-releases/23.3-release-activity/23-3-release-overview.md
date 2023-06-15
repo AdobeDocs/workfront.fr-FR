@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
+source-git-commit: 8e30fbc97ce083802ae705466b3a9ee3abaecbaf
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">Dates de publication</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md" class="MCXref xref" xrefformat="{para}">Ajout de commentaires aux cartes des panoramas</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Vous pouvez maintenant ajouter des commentaires aux cartes ad hoc et connectées sur les panoramas et marquer d’autres utilisateurs sur les commentaires. Les commentaires sont disponibles dans les détails de la carte. La fonction de commentaire des panoramas utilise la nouvelle expérience de commentaire d’Adobe Workfront.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 15 juin 2023</p>
+                            </li>
+                            <li>
+                                 <p>Version de production pour la pré-inscription : 22 juin 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : Avec la version 23.3</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -223,7 +240,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Expérience améliorée lors du déplacement d’un document vers un dossier lié à l’aide du glisser-déposer</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Expérience améliorée lors du déplacement d’un document vers un dossier lié à l’aide du glisser-déposer</a></p> 
                         <p>Nous avons ajouté une certaine transparence au processus de glisser-déposer d’un document dans un dossier lié. Désormais, le document que vous avez déplacé vers un dossier lié reste dans la liste des documents jusqu’à ce qu’il ait été complètement déplacé. Les options du document sont désactivées, mais vous pouvez toujours ouvrir le document pour l’afficher pendant son déplacement. Une fois le transfert terminé, le document disparaît de la liste des documents, car il se trouve désormais entièrement dans le dossier lié. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -390,22 +407,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de publication de la version 23.3</a></p>
-                        <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai de publication de la version 23.3. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation. </p>
-                    </td>
-                    <td><p><b>Disponible à ces dates :</b></p>
-                        <ul>
-                            <li>
-                                <p>Aperçu de la version : pendant toute la période de la version 23.3<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Version de production : au moins 2 semaines après la publication dans Aperçu (sauf indication contraire)</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nouveaux commentaires sur les améliorations de l’expérience bêta</a></p>
                         <p>Des améliorations ont été apportées à la section Mises à jour . Elles sont disponibles dans le délai de publication de la version 23.3 pour la nouvelle expérience bêta de commentaires. Ces améliorations seront disponibles dans l’environnement de production avec la version 23.3, sauf indication contraire. 
  </p>
@@ -430,10 +431,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : pendant toute la période de la version 23.3<br /></p>
+                                <p>Aperçu de la version : 5 juin 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production : avec la version 23.3 (sauf indication contraire)</span></p>
+                                <p><span class="preview">Version de production : 5 juin 2023</span></p>
                             </li>
                         </ul>
                     </td>
