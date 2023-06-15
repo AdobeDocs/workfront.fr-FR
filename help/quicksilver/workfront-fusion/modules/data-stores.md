@@ -8,7 +8,7 @@ description: Un entrepôt de données, similaire à une base de données ou à u
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: e71f276eb510497c026a70400afc754d5f57b60b
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 1%
@@ -176,9 +176,9 @@ Les propriétés d’un entrepôt de données incluent la structure de données 
 ### Modification du contenu d’un entrepôt de données
 
 1. Cliquez sur le bouton **[!UICONTROL Entrepôt de données]** icon ![](assets/data-store-icon.png) dans le panneau de navigation de gauche pour ouvrir la [!UICONTROL Entrepôt de données] zone.
-1. Cliquez sur **[!UICONTROL Parcourir]** ![](assets/browse-data-store.png) en regard de l’entrepôt de données que vous souhaitez modifier.
+1. Cliquez sur **[!UICONTROL Parcourir]**  en regard de l’entrepôt de données que vous souhaitez modifier.
 1. (Facultatif) Réorganisez les colonnes en les faisant glisser à l’emplacement souhaité.
-1. (Facultatif) [!UICONTROL Modifier] une seule cellule en cliquant sur l’icône **[!UICONTROL Modifier]** icon ![](assets/data-store-edit.png)dans cette cellule, puis entrez la valeur souhaitée.
+1. (Facultatif) [!UICONTROL Modifier] une seule cellule en cliquant sur l’icône **[!UICONTROL Modifier]** dans cette cellule, puis saisissez la valeur souhaitée.
 1. (Facultatif) Ajoutez un nouvel élément à l’entrepôt de données en cliquant sur **[!UICONTROL Ajouter]**, puis saisissez les informations du nouvel élément.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
@@ -192,7 +192,7 @@ Les propriétés d’un entrepôt de données incluent la structure de données 
 
 Il n’existe actuellement aucun outil capable d’automatiser la restauration des données perdues.
 
-#### Solution
+#### Solution de contournement
 
 1. Examinez tous les journaux d’exécution des scénarios dans lesquels des éléments ont été insérés dans l’entrepôt de données.
 
@@ -207,7 +207,7 @@ Il n’existe actuellement aucun outil capable d’automatiser la restauration d
 
 Un [!UICONTROL Espace insuffisant] s’affiche, car les entrepôts de données que vous avez créés précédemment ont déjà été attribués à votre stockage de données alloué.
 
-#### Solution
+#### Solution de contournement
 
 1. Modifiez l’un de vos entrepôts de données existants pour utiliser moins d’espace. Cela libère de l’espace pour votre nouvel entrepôt de données.
 
@@ -223,7 +223,7 @@ A [!UICONTROL Nombre maximum de magasins atteints] se produit car votre entrepri
 
 Par exemple, si votre entreprise a acheté un plan comportant 15 scénarios, elle peut avoir jusqu’à 30 entrepôts de données.
 
-#### Solution
+#### Solution de contournement
 
 Pour réduire le nombre de entrepôts de données existants, envisagez d’effectuer l’une des opérations suivantes :
 

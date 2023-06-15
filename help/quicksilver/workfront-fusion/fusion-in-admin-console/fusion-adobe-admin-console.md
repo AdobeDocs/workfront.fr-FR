@@ -8,11 +8,10 @@ description: En tant qu’administrateur d’Adobe Workfront Fusion, vos respons
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-hidefromtoc: true
-source-git-commit: 7df10d5e48a460579b6b4acbbdc85aa46bd8d438
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '352'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +43,7 @@ Le tableau suivant répertorie les procédures qui doivent être gérées diffé
 | Désactivation d’un utilisateur | La section [Suppression d’un utilisateur](../../workfront-fusion/organizations/manage-fusion-users.md#delete) in [Gérer [!DNL Adobe Workfront Fusion] utilisateurs de votre entreprise](../../workfront-fusion/organizations/manage-fusion-users.md) | La section &quot;Suppression d’utilisateurs&quot; de la section [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 | Modification des détails de l’utilisateur | [Modification des paramètres de profil dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) | La section &quot;Modifier les détails de l’utilisateur&quot; de l’article [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!--
 ## SSO (Single Sign-On)

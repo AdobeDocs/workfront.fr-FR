@@ -6,9 +6,8 @@ title: Adobe Unified Experience for Workfront Fusion
 description: L’accès à Workfront Fusion via Adobe Experience Cloud offre une expérience unifiée et transparente de la gestion de toutes vos applications d’Adobe.
 author: Becky
 feature: Workfront Fusion
-hidefromtoc: true
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: d4ed4ed07f9f4ad7926e57494775613add1bffef
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Unified Experience] pour [!DNL Workfront Fusion]
 
-Accès [!DNL Workfront Fusion] through [!DNL Adobe Experience Cloud] offre une expérience transparente et unifiée pour gérer l’ensemble de vos publicités ;[!DNL ]applications obe. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans plusieurs URL ou identifiants de connexion.
+Accès [!DNL Workfront Fusion] through [!DNL Adobe Experience Cloud] offre une expérience transparente et unifiée pour gérer l’ensemble de vos publicités ;[!DNL]applications obe. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans plusieurs URL ou identifiants de connexion.
 
 Pour une vidéo décrivant la navigation dans [!DNL Fusion] dans le [!DNL Adobe Experience Cloud], voir [[!DNL Fusion] sur le [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
@@ -94,3 +93,4 @@ Ce menu vous permet d’effectuer les opérations suivantes :
 * Définir **[!UICONTROL Préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences linguistiques Principales et secondaires.
 * Accédez à **[!UICONTROL [!DNL Workfront Fusion]Profil]**. Une fois que vous êtes sur le profil, cliquez sur le **[!UICONTROL Plus]** menu ![](assets/more-icon.png) et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Se déconnecter]** de Adobe Experience Cloud.
+

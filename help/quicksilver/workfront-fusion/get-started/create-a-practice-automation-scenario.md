@@ -7,9 +7,9 @@ description: Cet article décrit comment créer un scénario d’automatisation 
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 99a8ad82c5fb2fb3f6adce9ff037086523be9b02
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1800'
 ht-degree: 0%
 
 ---
@@ -68,13 +68,19 @@ La création d&#39;un scénario se compose de plusieurs tâches principales :
 1. Connectez-vous à [!DNL Workfront Fusion] compte .
 1. Cliquez sur **[!UICONTROL Scénarios]** ![](assets/scenarios-icon.png) dans le panneau de gauche.
 
-   Dans le panneau de gauche qui s’affiche, vous pouvez organiser vos scénarios en dossiers.
+   >[!NOTE]
+   >
+   >Si le panneau de navigation de gauche ou ses icônes ne s’affichent pas, cliquez sur le menu ![Menu](assets/main-menu-icon-left-nav.png) icône .
+
+   En gris [!UICONTROL Dossiers] qui s’affiche, vous pouvez organiser vos scénarios en dossiers.
 
    En haut de la zone principale à droite, vous pouvez afficher **[!UICONTROL Tous]** les scénarios que vous avez créés, vos **[!UICONTROL Scénarios principaux]**, **[!UICONTROL Scénarios inactifs]**, et **[!UICONTROL Concepts]**. Les concepts sont des scénarios qui nécessitent un peu plus de travail avant [!DNL Workfront Fusion] peuvent les classer comme principal ou inactif.
 
+<!--
    ![](assets/scenarios-left-panel-350x215.png)
+-->
 
-1. Dans le panneau de gauche, cliquez sur le **[!UICONTROL Ajouter un dossier]** icon ![](assets/add-folder-icon.png), puis saisissez un nom tel que &quot;Scénarios d’entraînement&quot; pour votre premier dossier.
+1. Dans le [!UICONTROL Dossiers] , cliquez sur le panneau **[!UICONTROL Ajouter un dossier]** icon ![](assets/add-folder-icon.png), puis saisissez un nom tel que &quot;Scénarios d’entraînement&quot; pour votre premier dossier.
 
 1. Ouvrez le dossier, puis cliquez sur **[!UICONTROL Création d’un scénario]** dans le coin supérieur droit de la page.
 
@@ -85,9 +91,11 @@ La création d&#39;un scénario se compose de plusieurs tâches principales :
 
    L’éditeur de scénario s’affiche, contenant un module vide au centre, le [!DNL Workfront] vous avez pré-chargé l’application et certaines options de la barre d’outils située en bas.
 
+<!--
    ![](assets/scenario-editor-350x235.png)
+-->
 
-   Lorsque vous commencez à créer un scénario, il est préférable de commencer par en créer un nom.
+Lorsque vous commencez à créer un scénario, il est préférable de commencer par en créer un nom.
 
 1. Sélectionnez la **[!UICONTROL Nouveau scénario]** nom de l’espace réservé dans le coin supérieur gauche, puis saisissez un nom tel que &quot;Scénario pratique 1&quot;.
 1. Passez à la [Ajouter et configurer le premier module](#add-and-configure-the-first-module) ci-dessous.
@@ -229,18 +237,15 @@ Nous avons choisi de renvoyer 1 projet, ainsi que les tâches associées à ce p
 >
 >1. Cliquez avec le bouton droit de la souris sur un [!DNL Workfront] module, puis cliquez sur **[!UICONTROL Ajouter une note]**.
 >1. Dans la note qui s’affiche, saisissez un aperçu du module.
-
 >
->   Vous pouvez ajouter plusieurs notes pour un module.
+>    Vous pouvez ajouter plusieurs notes pour un module.
 >
 >1. Fermez la **[!UICONTROL Remarques]** zone.
 >
->   Une fois que vous avez ajouté une note à un scénario, un point orange s’affiche sur la page **[!UICONTROL Remarques]** icon ![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
+>     Une fois que vous avez ajouté une note à un scénario, un point orange s’affiche sur la page **[!UICONTROL Remarques]** icon ![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
 >
 >1. Cliquez sur le bouton **[!UICONTROL Remarques]** icon ![](assets/notes-icon-w-dot.png) pour afficher vos notes.
-
 >
-
 
 
 

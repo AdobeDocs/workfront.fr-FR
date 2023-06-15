@@ -8,9 +8,9 @@ description: Les fonctionnalités d’organisation et d’équipe d’Adobe Work
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 * [Rôles d’organisation](#organization-roles)
 * [Invitation d’utilisateurs à une organisation](#inviting-users-to-an-organization)
+* [Basculer entre les organisations](#switch-between-organizations)
 
 ### Rôles d’organisation
 
@@ -100,6 +101,12 @@ L’invitation expire dans un jour.
 >[!NOTE]
 >
 >Si l’utilisateur découvre [!DNL Fusion], [!DNL Fusion] crée automatiquement un compte à leur intention et envoie un courrier électronique avec un mot de passe temporaire, ce qui demande au nouvel utilisateur de se connecter et de changer son mot de passe.
+
+### Basculer entre les organisations
+
+Vous pouvez faire partie de plusieurs organisations dans Fusion. Les ressources ne sont pas partagées entre les organisations.
+
+Vous pouvez changer d’organisation dans l’expérience unifiée de l’Adobe en cliquant sur le nom de l’organisation dans le coin supérieur droit et en sélectionnant la nouvelle organisation dans la liste déroulante. Seules les organisations disposant d’un compte Fusion s’affichent dans la liste déroulante, même si vous êtes membre d’autres organisations dans Adobe.
 
 ## Équipes
 
@@ -179,6 +186,14 @@ Les options de notification électronique sont définies au niveau de l’équip
 </table>
 
 Les modifications apportées aux options de notification sont automatiquement enregistrées.
+
+#### Basculer entre les équipes
+
+Vous pouvez faire partie de plusieurs équipes à Fusion. Comme les équipes ne partagent pas de ressources, vous devrez peut-être changer d’équipe pour accéder à des scénarios spécifiques ou à d’autres ressources.
+
+Si votre organisation ne figure pas dans l’expérience unifiée Adobe, vous pouvez changer d’équipe en cliquant sur le nom de l’équipe dans le volet de navigation de gauche, puis en sélectionnant une équipe dans la liste déroulante.
+
+Si votre équipe se trouve sur l’expérience unifiée Adobe, vous pouvez sélectionner une nouvelle équipe en cliquant sur le nom de l’équipe dans l’en-tête, puis en sélectionnant une équipe dans la liste déroulante. Cette option est disponible à partir de toutes les pages spécifiques à une équipe spécifique, comme une page de scénario ou la page Connexions .
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>

@@ -7,9 +7,9 @@ description: Vous pouvez modifier les informations de votre [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,25 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 ## Modification des paramètres de profil
 
-Pour modifier les informations dans votre profil de compte :
+Le processus de modification du paramètre de profil varie selon que votre organisation se trouve sur l’Adobe Unified Shell.
+
+* [Modification des paramètres de profil sur le Shell unifié](#change-profile-settings-on-the-unified-shell)
+* [Modification des paramètres de profil sans le Shell unifié](#change-profile-settings-without-the-unified-shell)
+
+### Modification des paramètres de profil sur le Shell unifié
+
+Si votre entreprise se trouve sur l’Adobe de Shell unifié, vous pouvez accéder à vos options de profil et de préférences en cliquant sur l’image de votre profil dans la zone de navigation supérieure.
+
+Ce menu vous permet d’effectuer les opérations suivantes :
+
+* Choisir **[!UICONTROL Thème sombre]** formatage pour [!DNL Adobe Experience Cloud].
+* Définir **[!UICONTROL Préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences linguistiques Principales et secondaires.
+* Accédez à **[!UICONTROL [!DNL Workfront]Profil]**. Une fois que vous êtes sur le profil, cliquez sur le **[!UICONTROL Plus]** et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Se déconnecter]** de Adobe Experience Cloud.
+
+### Modification des paramètres de profil sans le Shell unifié
+
+Pour modifier les informations de votre profil de compte dans les organisations qui n’utilisent pas le Shell unifié Adobe :
 
 1. Cliquez sur votre avatar au bas du panneau de gauche, puis cliquez sur **[!UICONTROL Profil]**.
 1. Cliquez sur : **[!UICONTROL Options générales]**, puis modifiez l’une des options suivantes :

@@ -8,8 +8,7 @@ description: Vous pouvez supprimer un utilisateur d’Adobe Workfront Fusion uni
 author: Becky
 feature: Workfront Fusion
 exl-id: 0d989134-46c0-4637-b465-6fbe04258b8a
-hidefromtoc: true
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -37,7 +36,7 @@ Un utilisateur est désactivé à partir de la fonction [!DNL Adobe Admin Consol
 * L’utilisateur est supprimé d’un profil de produit et n’est affecté à aucun autre profil de produit.
 * L’utilisateur est supprimé ou désactivé dans l’organisation qui inclut Workfront Fusion.
 
-   Pour obtenir des instructions, reportez-vous à la section &quot;Suppression d’utilisateurs&quot; de la section [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
+  Pour obtenir des instructions, reportez-vous à la section &quot;Suppression d’utilisateurs&quot; de la section [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
 
 Dans [!DNL Workfront Fusion], la désactivation affecte l’utilisateur de l’une des manières suivantes :
 

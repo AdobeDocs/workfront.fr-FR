@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Application ou service</td> 
-   <td> <p>Une application logicielle, le plus souvent.</p> <p>Une application peut également être une fonction spéciale qui manipule des données, comme un itérateur ou un agrégateur. </p> <p>Un service est une source de lots qui peut inclure une API web, une page web, différents types de serveurs (FTP, SMTP, IMAP), etc. </p> <p> <img src="assets/apps-350x420.jpg" style="width: 350;height: 420;"> </p> </td> 
+   <td> <p>Une application logicielle, le plus souvent.</p> <p>Une application peut également être une fonction spéciale qui manipule des données, comme un itérateur ou un agrégateur. </p> <p>Un service est une source de lots qui peut inclure une API web, une page web, différents types de serveurs (FTP, SMTP, IMAP), etc. </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connecteur d’application</td> 
