@@ -6,9 +6,9 @@ description: Passez en revue l’activité de version hebdomadaire pour découvr
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '953'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,27 @@ Pour obtenir des informations générales sur la nouvelle expérience bêta de c
 
 Les sections suivantes répertorient les fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
 
-## Semaine du 13 juin 2023
+## Semaine du 12 juin 2023
+
+### Nouvelle expérience de commentaires bêta pour les cartes dans la zone Panoramas
+
+La nouvelle expérience de commentaires bêta est désormais disponible pour les cartes dans la zone Panoramas . Pour plus d’informations, voir [Présentation de la version 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Aperçu : 15 juin 2023
+
+Version de production pour la pré-inscription : 22 juin 2023
+
+Production pour tous les clients : avec la version 23.3
+
+### Ajouter des guillemets de bloc à un commentaire
+
+Vous pouvez désormais ajouter des guillemets de bloc à un commentaire à l’aide d’une option de barre d’outils de texte enrichi dans la nouvelle expérience bêta de commentaires.
+
+Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Aperçu : 14 juin 2023
+
+Production : 15 juin 2023
 
 ### Amélioration de l’expérience lors de la modification de commentaires
 

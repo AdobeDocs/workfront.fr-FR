@@ -6,9 +6,9 @@ description: Une mise à jour de l’expérience de commentaires dans Adobe Work
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,22 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   </tr>
   <tr>
  <tr>
-   <td>Texte enrichi (entre guillemets et émoticônes)
+   <td>Texte enrichi (guillemets anglais)
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 2e trimestre 2023
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> Commentaires sur les citations
    </td>
    <td>✓ 
    </td>
@@ -116,8 +131,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-
-<td>Réaction aux commentaires (j’aime) 
+   <td>Réaction aux commentaires (j’aime) 
    </td>
    <td>✓ 
    </td>
@@ -410,17 +424,19 @@ La nouvelle expérience de commentaire est actuellement prise en charge pour les
 * Lors de l’activation de l’expérience bêta dans la section Mises à jour :
 
    * Problèmes, <span class="preview">projets, tâches et documents</span>
-   Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+  Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * Par défaut, comme principale expérience de commentaire :
 
    * Objectifs
-   >[!NOTE]
-   >
-   >Pour pouvoir accéder à cette zone de Workfront, vous devez disposer d’une licence supplémentaire pour les objectifs Adobe Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-   Pour plus d’informations sur la gestion des mises à jour des objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../../workfront-goals/goal-management/manage-goal-comments.md).
+  >[!NOTE]
+  >
+  >Pour pouvoir accéder à cette zone de Workfront, vous devez disposer d’une licence supplémentaire pour les objectifs Adobe Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+  Pour plus d’informations sur la gestion des mises à jour des objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 Pour activer la nouvelle expérience de commentaire bêta :

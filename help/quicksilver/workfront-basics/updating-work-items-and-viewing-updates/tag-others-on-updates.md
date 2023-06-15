@@ -6,7 +6,7 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -28,21 +28,20 @@ ht-degree: 0%
 >
 >Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
 > * Problèmes, <span class="preview">projets, tâches et documents</span>.
-   >
-   >     Cette option est disponible lorsque vous activez l’expérience bêta de commentaire.
-   >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour et elle ne l’est pas pour les zones suivantes :
-   >
-   >     * Page d’accueil
-   >     * Panneau Résumé dans les listes
-   >     * Panneau Résumé dans les feuilles de temps
 >
-> * Objectifs
-
-   >
-   >   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Cette option est disponible lorsque vous activez l’expérience bêta de commentaire.
+>
+>     Cette fonctionnalité est disponible uniquement pour la section Mises à jour et elle ne l’est pas pour les zones suivantes :
+>
+>     * Page d’accueil
+>     * Panneau Résumé dans les listes
+>     * Panneau Résumé dans les feuilles de temps
+>
+> * Objectifs<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   La nouvelle expérience de commentaire est la valeur par défaut des objectifs. <!--<span class="preview">and cards</span>-->. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 Vous pouvez baliser les utilisateurs lors d’une mise à jour d’un objet si vous souhaitez attirer leur attention sur un objet qu’ils n’auraient pas normalement suivi.
@@ -51,6 +50,7 @@ Plutôt que d’inclure ces utilisateurs dans l’objet en les y affectant ou en
 >[!NOTE]
 >
 >L&#39;utilisateur doit activer une notification personnelle dans son profil pour pouvoir recevoir la notification par email. Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>
 
 Pour plus d’informations sur l’ajout de mises à jour aux objets Workfront, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -155,7 +155,6 @@ Vous pouvez baliser d’autres utilisateurs sur les mises à jour de l’expéri
    >
    >* Cette option s’affiche uniquement lorsque l’utilisateur est associé à une entreprise.
    >* Les utilisateurs balisés en dehors de l’entreprise peuvent toujours recevoir une notification ou un courrier électronique in-app, même s’ils ne verront pas les commentaires privés sur l’onglet Mises à jour . Nous vous recommandons de ne pas baliser les utilisateurs externes lors d’une mise à jour si vous ne souhaitez pas partager les informations avec eux.
-
 
 1. (Facultatif) Pour ajouter plusieurs utilisateurs et équipes, répétez l’étape 2. <!--insure this stays accurate-->
 
