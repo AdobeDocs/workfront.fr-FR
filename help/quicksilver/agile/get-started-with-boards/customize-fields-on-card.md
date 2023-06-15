@@ -5,13 +5,13 @@ title: Personnalisation des champs affichés sur une carte
 description: Vous pouvez personnaliser les champs qui s’affichent sur une carte en désactivant un champ afin qu’il ne s’affiche pas dans le mode Carte complète ou condensé, ou en masquant un champ dans le mode Carte condensée.
 author: Lisa
 feature: Agile
-source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
+exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
-
 
 # Personnalisation des champs affichés sur une carte
 
@@ -21,6 +21,8 @@ Par défaut, tous les champs disponibles sont affichés sur une carte, à la foi
 * Masquage d’un champ en mode Carte condensée
 
 Si un champ contient une valeur et que vous la désactivez, la valeur est conservée si vous la réactivez ultérieurement.
+
+Les sections (qui s’affichent comme les options de navigation de gauche sur les détails de la carte) peuvent également s’afficher et se masquer.
 
 Vous pouvez également afficher les champs personnalisés qui ont été créés précédemment. Vous ne pouvez pas concevoir et créer de nouveaux champs personnalisés dans un panorama.
 
@@ -58,11 +60,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau Configurer .
 1. Développer [!UICONTROL **Cartes**].
 
-   La plupart des champs sont activés par défaut.
+   La plupart des champs et des sections sont activés par défaut.
 
-1. Désactivez un champ pour le désactiver dans les deux modes Carte.
-1. Cliquez sur l’icône Masquer . ![Icône Masquer](assets/eye-hide-icon.png) en regard d’un champ pour le masquer sur l’affichage condensé.
-1. Pour afficher tous les champs des deux modes, cliquez sur [!UICONTROL **Restaurer tous les champs par défaut**].
+1. Désactivez un champ ou une section pour le désactiver dans les deux modes Carte.
+1. Cliquez sur l’icône Masquer . ![Icône Masquer](assets/eye-hide-icon.png) en regard d’un champ ou d’une section pour le masquer sur l’affichage condensé.
+1. Pour afficher tous les champs et sections des deux modes, cliquez sur [!UICONTROL **Restaurer tous les champs par défaut**].
 1. Cliquez sur [!UICONTROL **Masquer la configuration**] pour fermer le panneau Configurer .
 
 ## Ajout de champs personnalisés aux cartes
@@ -94,4 +96,3 @@ Les champs personnalisés sont disponibles sur les cartes connectées. Elles ne 
    ![Valeur et libellé de champ personnalisés](assets/save-custom-field-value-label.png)
 
    Le champ personnalisé est ajouté à la liste des champs disponibles et est activé par défaut. Vous pouvez désactiver le champ personnalisé en suivant les étapes de la section [Configuration des cartes](customize-fields-on-card.md#configure-cards) ci-dessus, modifiez le champ ou supprimez-le de toutes les cartes.
-
