@@ -7,9 +7,9 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
+source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Vous pouvez éventuellement ajouter une colonne d’entrée à votre panorama qu
 Une seule colonne d’entrée est autorisée sur un panorama et apparaît toujours comme la colonne la plus à gauche.
 
 La colonne d’ingestion n’est pas disponible sur un panorama dynamique.
+
+La colonne d’ingestion n’est pas disponible sur les panoramas qui font partie d’un workflow. Vous pouvez à la place configurer une colonne de journal pour extraire les cartes de la liste de cartes. Pour plus d’informations sur l’ajout d’une colonne de journal à un panorama dans un workflow, voir [Configuration du journal en souffrance sur un panorama de flux de travail](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
 La colonne d’admission est limitée à 300 tâches et 300 numéros. Ils sont triés par priorité définie sur les éléments. Pour plus d’informations sur la priorité, voir [Mettre à jour la priorité des tâches](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) et [Mise à jour de la priorité des problèmes](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
