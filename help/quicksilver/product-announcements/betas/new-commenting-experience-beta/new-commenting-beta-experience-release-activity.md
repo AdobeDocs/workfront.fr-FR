@@ -6,9 +6,9 @@ description: Examinez l’activité de publication hebdomadaire pour découvrir 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -44,10 +44,9 @@ Voici un calendrier planifié de la publication de la nouvelle expérience de co
    * Nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (la seule expérience)
 * Avec la version 23.4 (début octobre 2023)
    * Nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (la seule expérience)
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * Fin 2023 :
-   * Supprimez l’expérience héritée des objets qui la possèdent encore.
-   * Les objets suivants ont la nouvelle expérience de commentaire comme seule expérience : projets, tâches, problèmes, articles, documents, modèles, tâches de modèle, programmes, portefeuilles, équipes, utilisateurs et feuilles de temps, objectifs et cartes.
+   * Les objets suivants présentent la nouvelle expérience de commentaire comme expérience par défaut : projets, tâches, problèmes, articles, documents, modèles, tâches de modèle, programmes, portefeuilles, équipes, utilisateurs et feuilles de temps, objectifs et cartes. L’expérience héritée de commentaires demeure une option.
 
   >[!NOTE]
   >
