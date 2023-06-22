@@ -6,16 +6,14 @@ description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Ajout d’une carte ad hoc à un panorama
-
-{{highlighted-preview}}
 
 Vous pouvez ajouter rapidement une carte à un panorama et l’affecter à un membre du panorama. La carte peut représenter une tâche, un problème, une personne, un groupe ou tout type d’élément que vous souhaitez inclure dans le panorama.
 
@@ -100,18 +98,18 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
       <td> <p>Cliquez sur <strong>[!UICONTROL Ajouter un élément de liste de contrôle]</strong>. Saisissez ensuite le titre de l’élément et appuyez sur Entrée. Un autre élément est automatiquement ajouté. Continuez à saisir des titres pour ajouter d’autres éléments.</p> <p>Le compteur en haut de la liste de contrôle indique le nombre d’éléments terminés et le nombre total d’éléments.</p> <p>Pour plus d’informations sur les éléments de liste de contrôle, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gérer les éléments de liste de contrôle sur les cartes</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
-      <td><span class="preview"><p>Cliquez sur dans le <strong>[!UICONTROL Nouveau commentaire]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme, puis cliquez sur le bouton <strong>Ajouter une pièce jointe</strong> icon <img src="assets/attachment-icon.png" alt="Icône Pièce jointe"> pour joindre un fichier au commentaire. Pour baliser une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama.</p><p><strong>REMARQUE :</strong> Actuellement, les utilisateurs balisés dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par courrier électronique.
+      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
+      <td><p>Cliquez sur dans le <strong>[!UICONTROL Nouveau commentaire]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme, puis cliquez sur le bouton <strong>Ajouter une pièce jointe</strong> icon <img src="assets/attachment-icon.png" alt="Icône Pièce jointe"> pour joindre un fichier au commentaire. Pour baliser une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama.</p><p><strong>REMARQUE :</strong> Actuellement, les utilisateurs balisés dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par courrier électronique.
       </p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
-      <p><strong>REMARQUE :</strong> La zone de commentaire sur les cartes utilise la nouvelle expérience de commentaire d’Adobe Workfront. Pour plus d’informations, voir <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nouvelle expérience de commentaire</a>.</p></span></td>
+      <p><strong>REMARQUE :</strong> La zone de commentaire sur les cartes utilise la nouvelle expérience de commentaire d’Adobe Workfront. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p><p><strong>REMARQUE :</strong> Les commentaires sur les cartes sont disponibles uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Exemple d’image dans l’environnement de production :
+   Exemple d’image dans l’environnement de production lorsque l’opt-in de la fonctionnalité anticipée n’est pas utilisé :
    ![Détails des cartes ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
+   Exemple d’image dans l’environnement de production lorsque l’inclusion anticipée des fonctionnalités est activée :
    ![Détails des cartes ad hoc](assets/ad-hoc-card-details-with-comments.png)
 
    Utilisez le panneau de navigation de gauche pour vous déplacer entre les sections des champs des détails de la carte.
