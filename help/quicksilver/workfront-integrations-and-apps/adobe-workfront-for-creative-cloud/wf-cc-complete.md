@@ -6,9 +6,9 @@ description: Vous pouvez rester dans les applications Adobe Creative Cloud et ef
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
+source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,14 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Dans la **[!UICONTROL Liste de tâches]**, sélectionnez la tâche ou le problème que vous souhaitez marquer comme terminé.
-1. Cliquez sur **[!UICONTROL Terminé]**.\
-   Ceci marque l’élément terminé dans Workfront.
+1. Cliquez sur **[!UICONTROL Terminé]**.  Si vous êtes le seul utilisateur affecté à cette tâche ou ce problème, l’élément est marqué. [!UICONTROL Terminer] ou [!UICONTROL Résolu] in [!DNL Workfront].
+1. (Conditionnel) Si plusieurs utilisateurs sont affectés à cette tâche ou à ce problème, cliquez sur [!UICONTROL Terminé] ouvre une liste déroulante. Vous pouvez alors :
+
+   Cliquez sur **[!UICONTROL C&#39;est fait de ma part.]** si d’autres utilisateurs doivent également effectuer leur travail pour que la tâche ou le problème soit terminé.
+
+   Ou
+
+   Cliquez sur **[!UICONTROL Terminer]** (pour les tâches) ou **[!UICONTROL Résolu]** (pour les problèmes) si aucun autre travail n’est nécessaire sur la tâche ou le problème. Ceci marque l’élément [!UICONTROL Terminer] ou [!UICONTROL Résolu] in [!DNL Workfront].
 
    >[!NOTE]
    >
