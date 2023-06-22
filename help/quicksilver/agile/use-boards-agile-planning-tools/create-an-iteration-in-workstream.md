@@ -6,14 +6,17 @@ title: Création d’une itération dans un workflow
 description: Une itération est un temps défini réservé à la réalisation du travail. Certaines équipes agiles peuvent appeler une itération sprint.
 author: Lisa
 feature: Agile
-source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
+exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
+source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 1%
+source-wordcount: '434'
+ht-degree: 0%
 
 ---
 
 # Création d’une itération dans un workflow
+
+{{highlighted-preview}}
 
 Une itération est un temps défini réservé à la réalisation du travail. Certaines équipes agiles peuvent appeler une itération sprint.
 
@@ -82,12 +85,33 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * Dans l’onglet Liste des cartes, dans la vue itération, cliquez sur le bouton [!UICONTROL **Détails de l’itération**] icon ![Détails de l’itération](assets/iteration-details-button.png).
    * Dans la carte d’itération, cliquez sur le bouton [!UICONTROL **Détails de l’itération**] icon ![Détails de l’itération](assets/iteration-details-button.png) dans la zone des mesures en haut à droite.
 
-1. Modifiez l’itération selon les besoins, puis cliquez sur [!UICONTROL **Enregistrer**].
+1. Dans le [!UICONTROL Configuration de l’itération] modifiez l’itération selon vos besoins.
+1. Pour modifier le nom de l’itération, développez [!UICONTROL **Détails de l’itération**].
 
-   Une fois qu’une itération a commencé, vous ne pouvez modifier que le nom de l’itération.
+   Une fois qu&#39;une itération a commencé, vous ne pouvez modifier que le nom de l&#39;itération et non les dates ou la durée de l&#39;itération.
+
+1. <span class="preview">Pour ajouter des objectifs à l’itération, développez [!UICONTROL **Objectifs**].</span>
+1. <span class="preview">Cliquez sur [!UICONTROL **Ajouter un objectif**], puis saisissez le nom de l’objectif.</span>
+
+   <span class="preview">Lorsque les objectifs sont terminés lors de l’itération, vous pouvez cocher la case pour les marquer comme terminées ou cliquer sur l’icône **Supprimer** icon ![Icône Supprimer](assets/delete.png) pour supprimer un objectif. La zone des mesures située en haut à droite de l’itération indique le nombre d’objectifs existants et le nombre d’objectifs terminés.</span>
+
+<!--
+<div class="preview">
+
+## Assign cards to the next iteration
+
+Use the [!UICONTROL Next Iteration] column to move cards from the current iteration to the next iteration, without sending them to the backlog first.
+
+1. Move a card to the [!UICONTROL **Next Iteration**] column, or add a new card directly in the column.
+1. Access the next iteration by clicking the [!UICONTROL **Next Iteration**] column title, or by clicking the up-pointing arrow next to the iteration name on the top of the screen.
+
+   The cards that you marked to come over to the next iteration are placed in the columns that correspond with their status.
+
+</div>
+-->
 
 ## Suppression d’une itération
 
 1. Cliquez sur le bouton [!UICONTROL **Liste de cartes**] dans le workflow et ouvrez la vue itération.
-1. Cliquez sur le bouton **Supprimer** en regard de l’itération.
+1. Cliquez sur le bouton **Supprimer** icon ![Icône Supprimer](assets/delete.png) en regard de l’itération.
 1. Cliquez sur [!UICONTROL **Suppression de l’itération**] sur le message de confirmation.
