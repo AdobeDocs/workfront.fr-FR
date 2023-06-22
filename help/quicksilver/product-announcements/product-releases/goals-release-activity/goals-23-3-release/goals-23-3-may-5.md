@@ -7,9 +7,9 @@ description: Cette page décrit toutes les améliorations apportées à la versi
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Ces améliorations seront disponibles dans l’environnement de production avec 
 
 ## Améliorations apportées aux sections Mises à jour
 
-Des améliorations apportées à la section Mises à jour des objectifs sont rendues disponibles pendant la période de publication de la version 23.3. Ces améliorations seront disponibles dans l’environnement de production peu après la publication de la version Aperçu.
+Des améliorations apportées à la section Mises à jour des objectifs sont rendues disponibles pendant la période de la version 23.3, en même temps que les mises à jour publiées dans la nouvelle expérience bêta de commentaires. Ces améliorations seront disponibles dans l’environnement de production peu après la publication de la version Aperçu.
 
 Les améliorations apportées aux commentaires pour les objectifs sont identiques à celles apportées à la nouvelle expérience bêta de commentaires pour d’autres objets Workfront.
 

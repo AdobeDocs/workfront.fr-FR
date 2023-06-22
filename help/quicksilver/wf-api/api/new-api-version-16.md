@@ -5,7 +5,8 @@ title: Nouveautés de l’API version 16
 description: Adobe Workfront a publié l’API version 16 le 6 avril 2022. L’API version 16 comprend les modifications suivantes à partir de la version 15.
 author: Becky
 feature: Workfront API
-source-git-commit: 19978aaa2886008afc3c0faa9cfd18bd7c4b2555
+exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Aucune ressource n’a été supprimée pour l’API version 16.
 
 ## Ressources modifiées
 
-* <!--[AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
+<!--* [AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
 * [Validation (APPROBATION)](#approval-approval)
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
 * [ExternalSection (EXTSEC)](#externalsection-extsec)

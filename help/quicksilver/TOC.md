@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
+source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
 workflow-type: tm+mt
-source-wordcount: '13086'
+source-wordcount: '13071'
 ht-degree: 1%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 1%
       * [Préparation d’une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Version 23.3 {#release-23-3}
          * [Présentation de la version 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [Semaine d’activité de la version 23.3 du 10 avril 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
-         * [Semaine d’activité de la version 23.3 du 17 avril 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
-         * [Semaine d’activité de la version 23.3 du 24 avril 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
-         * [Semaine d’activité de la version 23.3 du 1er mai 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
-         * [Semaine d’activité de la version 23.3 du 8 mai 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
-         * [Semaine d’activité de la version 23.3 du 15 mai 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
-         * [Semaine d’activité de la version 23.3 du 29 mai 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
-         * [Semaine d’activité de la version 23.3 du 5 juin 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-         * [Semaine d’activité de la version 23.3 du 12 juin 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
+         * [23.3 Améliorations apportées aux administrateurs](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
+         * [23.3 Améliorations rapides](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3 Améliorations de l’intégration](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
+         * [23.3 Améliorations apportées au projet](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
+         * [23.3 Améliorations apportées aux périphériques mobiles](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
+         * [23.3 Autres améliorations](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
+         * [Visualiser les mises à jour pendant la période de publication de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Version 23.2 {#release-23-2}
          * [Présentation de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Améliorations apportées aux administrateurs](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -215,6 +213,7 @@ ht-degree: 1%
       * Activité Publication de BAT pour Workfront {#proof-release}
          * Bon à tirer avec la version 23.3 {#proof-23-3-release}
             * [Bon à tirer Adobe Workfront avec la version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Activité de version Adobe Workfront Bon à tirer 23.3 : Semaine du 17 juillet 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Activité de version Adobe Workfront Bon à tirer 23.3 : Semaine du 5 juin 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Activité de version Adobe Workfront Bon à tirer 23.3 : Semaine du 8 mai 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Activité Publication de BAT Workfront : Semaine du 17 mai 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
@@ -341,7 +340,7 @@ ht-degree: 1%
       * [La planification des fonctionnalités n’est plus prise en charge](product-announcements/announcements/feature-removal-timeline.md)
       * [FAQ sur la fenêtre de maintenance](product-announcements/announcements/maintenance-window-faq.md)
       * [Modification requise pour ajouter des bons à tirer à votre liste autorisée](product-announcements/announcements/proofhq-domain-change-workfront.md)
-      * [Désabonnez-vous des messages du centre d’annonces dans la nouvelle expérience Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [Se désabonner des messages du centre d’annonces dans la nouvelle expérience Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Archive d’annonce {#announcement-archive}
          * [Archive d’annonce](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Mise à jour de l’application mobile pour iOS et Android (début août 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)

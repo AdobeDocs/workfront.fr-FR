@@ -7,9 +7,9 @@ description: Cette page fournit des informations sur les fonctionnalités du Bon
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
+source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,25 @@ Pour obtenir la liste de toutes les modifications disponibles pour toutes les zo
                         </p>
                     </td>
                 </tr>
-                </tr>
-                 <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Modification de la prise en charge des bons à tirer de Microsoft Office</a><span style="color: #ff0000;"> Nouveautés en production</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Différer les mises à jour de la visionneuse de vérification de l’appli de bureau</a> </p>
+                        <p>En fonction des commentaires des utilisateurs, nous ajoutons l’option permettant de différer les mises à jour de la visionneuse de vérification de l’appli de bureau. Les utilisateurs peuvent désormais choisir de retarder une mise à jour et continuer leur travail, mais il leur sera rappelé qu’une mise à jour est disponible chaque fois qu’ils ouvrent la visionneuse de vérification de l’appli de bureau.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : Avec la version 23.3</p>
+                            </li>
+                            <li>
+                                <p>Version de production : Avec la version 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Modification de la prise en charge des bons à tirer de Microsoft Office</a></p>
                         <p>Pour conserver une solution de traitement des BAT robuste et évolutive, nous modifions les types de fichiers et les limites de taille de fichier Microsoft Office pris en charge.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -50,7 +65,8 @@ Pour obtenir la liste de toutes les modifications disponibles pour toutes les zo
                             </li>
                         </ul>
                     </td>
-                </tr>                <tr>
+                </tr>                
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Mise à jour de la visionneuse de vérification de l’appli de bureau</a></p>
                         <p>La visionneuse de vérification de l’appli de bureau a été mise à jour vers la version 2.1.24. Cette mise à jour inclut la prise en charge de Chrome v100 pour la révision des BAT interactifs, ainsi qu’un certain nombre de correctifs.</p>
