@@ -6,14 +6,16 @@ description: Vous pouvez filtrer un panorama pour n’afficher que certaines car
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
 
 # Filtrage et recherche dans un panorama
+
+{{highlighted-preview}}
 
 Vous pouvez filtrer un panorama pour afficher les éléments suivants :
 
@@ -23,6 +25,8 @@ Vous pouvez filtrer un panorama pour afficher les éléments suivants :
 * Cartes arrivant à échéance dans une certaine période
 * Cartes archivées
 * Cartes connectées à un projet spécifique
+
+<span class="preview">Le tri du panorama trie toutes les cartes des colonnes. Vous ne pouvez pas trier une seule colonne, et la colonne de journal ou d’entrée n’est pas triée.</span>
 
 La recherche vous permet également de localiser une carte spécifique sur le panorama.
 
@@ -105,6 +109,29 @@ Par défaut, seules les principales cartes sont affichées sur un panorama. Vous
    Vous pouvez également afficher les cartes qui ne sont pas connectées à un projet.
 
    ![Filtrage par connexion](assets/boards-filter-by-connection.png)
+
+<div class="preview">
+
+## Tri sur un panorama
+
+Lorsque vous sélectionnez une option de tri, toutes les colonnes sont triées. Vous ne pouvez pas trier une seule colonne, et la colonne de journal ou d’entrée n’est pas triée.
+
+1. Accédez au panorama.
+1. Cliquez sur [!UICONTROL **Tri par**] et sélectionnez [!UICONTROL **Nom**], [!UICONTROL **Échéance**], [!UICONTROL **Estimation**], [!UICONTROL **État**] ou [!UICONTROL **Connexion**].
+
+   La connexion (nom du projet) s’applique uniquement aux cartes connectées, et les autres options trient les cartes connectées et ad hoc dans les colonnes.
+
+   L’option &quot;commande utilisateur&quot; renvoie les cartes dans l’ordre dans lequel elles ont été définies manuellement, avant toute autre option de tri. Il s’agit du tri par défaut des colonnes.
+
+1. Sélectionner [!UICONTROL **Ordre inverse**] pour trier les colonnes dans l’ordre inverse de l’option de tri.
+
+   La flèche sur l’icône de tri indique si les colonnes sont triées par ordre croissant ou décroissant.
+
+   Lorsqu’un tri autre que le tri par défaut est appliqué, un indicateur s’affiche sur l’icône de tri. ![Tri appliqué](assets/sort-applied-boards.png).
+
+   ![Tri par colonnes sur un panorama](assets/sort-by-columns-in-board.png)
+
+</div>
 
 ## Recherche dans un panorama
 
