@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 2%
@@ -14,9 +14,7 @@ ht-degree: 2%
 
 # Copie et envoi de requêtes
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is NWE only - hard code it in classic articles!)</p>
--->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Lorsque vous envoyez fréquemment des requêtes similaires, vous pouvez copier une requête envoyée existante. Dans ce cas, vous pouvez copier une requête existante, y apporter des modifications minimales et la soumettre à nouveau en tant que nouvelle requête.
 
@@ -91,7 +89,7 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
 * Vous avez toujours accès à la copie et à l’envoi d’une copie de vos propres requêtes, sauf si quelqu’un leur a retiré vos autorisations.
 * L’accès aux demandes de copie et d’envoi envoyées initialement par d’autres peut être accordé automatiquement aux personnes de la même société lorsque le créateur de la file d’attente de demandes active la fonction **Les personnes d’une même société hériteront des mêmes autorisations pour toutes les demandes.** dans les zones Détails de la file d’attente ou Modifier le projet . La désactivation de ce paramètre permet uniquement au demandeur d’origine d’afficher ses propres requêtes.
 
-   Pour plus d’informations, voir les articles suivants :
+  Pour plus d’informations, voir les articles suivants :
 
    * [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md)
@@ -102,9 +100,9 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
    * La file d’attente des demandes a été supprimée.
    * La rubrique de file d’attente a été supprimée.
 
-      >[!TIP]
-      >
-      >Si la rubrique de la file d’attente était la seule dans la file d’attente des demandes, vous pouvez toujours copier et envoyer la demande. Elle sera enregistrée dans la file d’attente des demandes elle-même.
+     >[!TIP]
+     >
+     >Si la rubrique de la file d’attente était la seule dans la file d’attente des demandes, vous pouvez toujours copier et envoyer la demande. Elle sera enregistrée dans la file d’attente des demandes elle-même.
 
    * La file d’attente des demandes n’est plus publiée en tant que file d’attente des demandes d’aide. Pour plus d’informations, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    * Si la file d’attente des demandes ne comporte pas de rubrique de file d’attente et que la demande d’origine a été envoyée avant janvier 2022.
@@ -113,9 +111,9 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
 
 * Vous pouvez copier et envoyer une copie d’une requête convertie si la requête a été conservée dans le processus de conversion. Pour plus d’informations, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-   >[!TIP]
-   >
-   >La requête copiée n’est pas liée à un objet de résolution.
+  >[!TIP]
+  >
+  >La requête copiée n’est pas liée à un objet de résolution.
 
 ## Copie et envoi de requêtes
 
@@ -123,27 +121,34 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
 1. (Conditionnel) Si la section Envoyé ne s’affiche pas par défaut, cliquez sur **Envoyé** dans le panneau de gauche.
 1. Recherchez la requête que vous souhaitez copier et envoyer comme nouvelle requête, puis effectuez l’une des opérations suivantes :
 
-   * Sélectionnez-le, puis cliquez sur le bouton **Copier et envoyer en tant que nouveau** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) dans le coin supérieur gauche de la liste Demandes envoyées .
-   * Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom de la requête, puis cliquez sur **Copier et envoyer en tant que nouveau**
+   * Sélectionnez-le, puis cliquez sur le bouton **Copier et envoyer en tant que nouveau** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) dans le coin supérieur gauche de la liste Demandes envoyées . <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
 
-      Ou
+   <!-- reveal this tip for 23.3 preview release:
+   >[!TIP]
+   >
+   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
+   -->
 
-      Cliquez avec le bouton droit de la souris sur la requête sélectionnée, puis cliquez sur **Copier et envoyer en tant que nouveau**.
+   * Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom de la requête, puis cliquez sur **Copier et envoyer en tant que nouveau** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
 
-      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     Ou
 
-      >[!TIP]
-      >
-      >Lorsque vous n’avez pas accès à la création de problèmes, vous recevez un avertissement indiquant que l’administrateur vous a empêché de créer des requêtes.
+     Cliquez avec le bouton droit de la souris sur la requête sélectionnée, puis cliquez sur **Copier et envoyer en tant que nouveau**.
+
+     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+
+     >[!TIP]
+     >
+     >Lorsque vous n’avez pas accès à la création de problèmes, vous recevez un avertissement indiquant que l’administrateur vous a empêché de créer des requêtes.
 
 1. (Facultatif) Mettez à jour les informations suivantes, le cas échéant :
 
    * **Type de requête**: la file d’attente des demandes dans laquelle la requête copiée est enregistrée. Par défaut, la requête copiée est enregistrée dans la file d’attente des requêtes de la requête d’origine.
    * **Groupes de rubriques** et **Rubriques de file**, s’ils sont sélectionnés. Les noms ou les groupes de rubriques et les rubriques de la file d’attente sont personnalisés pour votre environnement. Par défaut, la requête copiée est enregistrée dans les groupes de rubriques et les rubriques de file d’attente de la requête d’origine.
 
-      >[!TIP]
-      >
-      >Si le chemin d’accès change à partir du chemin d’accès de la requête d’origine, le créateur de la file d’attente de la requête modifie la file d’attente.
+     >[!TIP]
+     >
+     >Si le chemin d’accès change à partir du chemin d’accès de la requête d’origine, le créateur de la file d’attente de la requête modifie la file d’attente.
 
 1. (Facultatif) Mettez à jour les informations de la requête copiée. Selon les champs activés par le créateur de la file d’attente de requêtes dans **Nouveaux champs de problème** de la section **Détails de la file** sous-onglet du projet, vous trouverez peut-être l’un des champs suivants :
 
@@ -231,7 +236,6 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
    >
    >* Tous les formulaires personnalisés associés à la requête d’origine et les valeurs incluses dans les champs personnalisés sont transférés vers la requête copiée. Cela inclut les champs qui contiennent de la logique.
    >* Vous ne pouvez pas supprimer des formulaires personnalisés de la requête copiée.
-
 
 1. Cliquez sur **Envoyer**.
 

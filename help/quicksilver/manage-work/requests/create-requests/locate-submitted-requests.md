@@ -6,7 +6,7 @@ description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouve
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 1%
@@ -15,14 +15,16 @@ ht-degree: 1%
 
 # Recherche des requêtes envoyées
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 Vous pouvez localiser les types de requêtes suivants que vous ou une autre personne avez soumises, ou les requêtes que vous avez commencées mais que vous n’avez jamais terminé d’envoyer. Vous pouvez localiser ces requêtes dans les zones suivantes d’Adobe Workfront :
 
 * **Section envoyée**: Toutes les requêtes que vous ou une autre personne avez envoyées et que vous avez accès à au moins Afficher.
 * **Section Brouillon** : Toutes les demandes que vous avez commencées mais que vous n’avez jamais terminées et que vous n’avez jamais soumises. Pour plus d’informations sur les brouillons de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   >[!TIP]
-   >
-   >Vous pouvez uniquement afficher vos propres brouillons de requêtes.
+  >[!TIP]
+  >
+  >Vous pouvez uniquement afficher vos propres brouillons de requêtes.
 
 ## Exigences d’accès
 
@@ -69,6 +71,8 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
    >Vous ne pouvez pas personnaliser les colonnes de la liste des demandes envoyées.
 
    ![](assets/nwe-submitted-requests-new-list-350x57.png)
+
+   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. Les colonnes suivantes s’affichent par défaut :
 

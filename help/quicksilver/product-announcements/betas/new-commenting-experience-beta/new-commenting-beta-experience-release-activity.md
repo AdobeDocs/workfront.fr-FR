@@ -6,9 +6,9 @@ description: Examinez l’activité de publication hebdomadaire pour découvrir 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
+source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1205'
 ht-degree: 4%
 
 ---
@@ -37,26 +37,70 @@ Voici un calendrier planifié de la publication de la nouvelle expérience de co
    * Commentaires sur la version bêta pour les problèmes
    * Nouvelle expérience de commentaire pour les objectifs (comme seule expérience)
 * Avec la version 23.3 (20 juillet 2023) :
-   * Commentaire d’une expérience bêta pour des projets, des tâches, des articles et des documents.
-   * L’ajout de commentaires bêta pour les projets, les tâches, les problèmes, les articles et les documents devient l’option par défaut.
+   * Commentaire d’une expérience bêta pour des projets, des tâches et des documents.
    * Nouvelle expérience de commentaire pour les cartes dans la zone Panoramas (seule expérience)
-* Dans la version 23.4 (date à annoncer) (version limitée)<!--, only available to Fast Track customers-->) :
+* Dans la version 23.4 (date à annoncer) (version limitée)<!--, only available to customers that choose the fast release -->) :
    * Nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (la seule expérience)
 * Avec la version 23.4 (début octobre 2023)
    * Nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (la seule expérience)
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
+   * L’ajout de commentaires bêta pour les projets, les tâches, les problèmes et les documents devient l’option par défaut.
 * Fin 2023 :
-   * Les objets suivants présentent la nouvelle expérience de commentaire comme expérience par défaut : projets, tâches, problèmes, articles, documents, modèles, tâches de modèle, programmes, portefeuilles, équipes, utilisateurs et feuilles de temps, objectifs et cartes. L’expérience héritée de commentaires demeure une option.
+   * L’expérience de commentaire héritée restera une option pour les objets suivants : projets, tâches, problèmes et documents.
+
+     Les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs, les feuilles de temps, les objectifs et les cartes disposent de la nouvelle expérience de commentaire comme seule option.
 
   >[!NOTE]
   >
   >    Les itérations conserveront l’expérience héritée de commentaires.
 
-La section suivante répertorie les fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
+La section suivante contient la liste des fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
 
 ## Fonctionnalités publiées
 
 Les informations suivantes font référence à l’activité de publication chaque semaine des fonctionnalités incluses dans la nouvelle expérience bêta de commentaires. La page répertorie les nouvelles fonctionnalités ajoutées et les problèmes résolus pour la nouvelle expérience de commentaire.
+
+<!--
+### Week of June 19, 2023
+
+#### Quote comment content in a new reply 
+
+Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview and Production: June 22, 2023 
+
+### Upcoming releases, after June 19, 2023
+
+<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+
+The features described in this section are planned to release shortly after the week of June 19, 2023. 
+
+#### Add emojis to an update
+
+You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Preview: To be announced 
+
+Production: To be announced. Before the 23.3 release.
+
+#### New commenting experience for additional objects 
+
+The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+
+This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+
+For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+
+Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+
+Production release for all customers: with the 23.4 release 
+-->
 
 ### Semaine du 12 juin 2023
 
