@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: b7ed3f9f38ab96270709d76fda80466b1b50f1ea
+source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
 workflow-type: tm+mt
-source-wordcount: '13080'
+source-wordcount: '13086'
 ht-degree: 1%
 
 ---
@@ -2166,6 +2166,7 @@ ht-degree: 1%
          * [Mettre à jour votre travail à l’aide du module externe Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Marquer les tâches terminées à l’aide du module externe Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Temps de connexion à l’aide du module externe Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+         * [Gérer [!DNL Adobe Workfront] notifications de Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Téléchargement de documents et de bons à tirer avec le module externe Adobe Workfront pour les applications Creative Cloud {#upload-docs-proofs-wf-cc}
          * [Téléchargement de documents et de BAT depuis le [!DNL Adobe Workfront plugin] au [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Téléchargement de documents et de bons à tirer avec le module externe Adobe Workfront pour les applications Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
