@@ -6,10 +6,10 @@ description: Examinez l’activité de publication hebdomadaire pour découvrir 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 4%
+source-wordcount: '1411'
+ht-degree: 3%
 
 ---
 
@@ -60,47 +60,44 @@ La section suivante contient la liste des fonctionnalités qui ont été ajouté
 
 Les informations suivantes font référence à l’activité de publication chaque semaine des fonctionnalités incluses dans la nouvelle expérience bêta de commentaires. La page répertorie les nouvelles fonctionnalités ajoutées et les problèmes résolus pour la nouvelle expérience de commentaire.
 
-<!--
-### Week of June 19, 2023
 
-#### Quote comment content in a new reply 
+### Fonctionnalités publiées après le 19 juin 2023
 
-Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+<!--restructure this section with actual weeks and dates, when we know them-->
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+Les fonctionnalités répertoriées dans cette section devraient être publiées peu après la semaine du 19 juin 2023.
 
-Preview and Production: June 22, 2023 
+#### Contenu des commentaires sous une nouvelle réponse
 
-### Upcoming releases, after June 19, 2023
+Vous avez désormais la possibilité de copier le contenu d’un commentaire et de l’ajouter comme nouveau guillemet à une réponse dans le même thread lors de l’utilisation de la nouvelle expérience de commentaire.
 
-<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-The features described in this section are planned to release shortly after the week of June 19, 2023. 
+Aperçu et production : Prévu le 29 juin 2023
 
-#### Add emojis to an update
+#### Ajout d’émoticônes à une mise à jour
 
-You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+Vous pouvez désormais ajouter des émoticônes à un commentaire à l’aide d’une option de barre d’outils de texte enrichi dans la nouvelle expérience de commentaire.
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Preview: To be announced 
+Aperçu : À annoncer (dans la version 23.3)
 
-Production: To be announced. Before the 23.3 release.
+Production : À annoncer. Avant la version 23.3.
 
-#### New commenting experience for additional objects 
+#### Nouvelle expérience de commentaire pour des objets supplémentaires
 
-The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+La nouvelle expérience de commentaire sera disponible pour les objets suivants, peu après la version 23.3 de Production : tâches de modèle, modèles, feuilles de temps, équipes, utilisateurs, programmes, portefeuilles.
 
-This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+Il s’agit de la seule expérience de commentaire pour ces objets, car l’expérience de commentaire héritée est supprimée lorsque vous y accédez.
 
-For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+Aperçu de la version : À annoncer, après la version de production 23.3 (20 juillet 2023)
 
-Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+Version de production pour les clients de version rapide : À annoncer, après la version de production 23.3
 
-Production release for all customers: with the 23.4 release 
--->
+Version de production pour tous les clients : avec la version 23.4
 
 ### Semaine du 12 juin 2023
 

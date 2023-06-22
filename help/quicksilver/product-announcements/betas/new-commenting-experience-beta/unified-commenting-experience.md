@@ -6,16 +6,16 @@ description: Une mise à jour de l’expérience de commentaires dans Adobe Work
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # Nouvelle expérience de commentaire
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients uniquement dans l’environnement Aperçu .</span>
 
 Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets.
 
@@ -432,7 +432,7 @@ La nouvelle expérience de commentaire est actuellement prise en charge pour les
 
 * Par défaut, comme principale expérience de commentaire :
 
-   * Objectifs, <span class="preview">cartes dans la zone Panoramas</span>
+   * Objectifs, cartes dans la zone Panoramas
 
   >[!NOTE]
   >
