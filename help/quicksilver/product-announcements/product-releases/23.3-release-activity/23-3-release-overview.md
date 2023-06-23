@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Le webinaire de la version 23.3 aura lieu le 29 juin 2023. Vous pouvez [Inscrive
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Tri par colonnes</a><span style="color: #ff0000;"> Bientôt !</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Tri par colonnes</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
                         <p>Nous avons ajouté la possibilité de trier les cartes dans les colonnes d’un panorama. Lorsque vous sélectionnez une option de tri, toutes les colonnes sont triées. Vous ne pouvez pas trier une seule colonne, et la colonne de journal ou d’entrée n’est pas triée.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>

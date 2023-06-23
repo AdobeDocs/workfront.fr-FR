@@ -3,7 +3,7 @@ title: 23.3 Améliorations apportées à la gestion financière
 description: 23.3 Améliorations apportées à la gestion financière
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -24,4 +24,4 @@ En outre, les jeux de rôles de tâche en vigueur par date sont désormais dispo
 
 Une nouvelle fonctionnalité, les cartes de taux, vous permet de définir plusieurs taux de facturation par rôle de tâche, en fonction de l’emplacement. Un taux de facturation pour un rôle de tâche et un emplacement peut également inclure des dates d’entrée en vigueur. Des cartes de taux peuvent être jointes aux projets afin d’appliquer toutes les informations de taux simultanément pour le rôle et l’emplacement spécifiques de la tâche. Les rôles basés sur l’emplacement peuvent également être affectés à des tâches avec la possibilité de remplacer leurs taux au niveau de l’affectation.
 
-Toutes ces fonctionnalités seront publiées dans Aperçu en juillet 2023. La documentation utilisateur mise à jour sera alors disponible.
+Toutes ces fonctionnalités seront publiées dans Aperçu le 29 juillet 2023. La documentation utilisateur mise à jour sera alors disponible.
