@@ -6,9 +6,9 @@ description: Examinez l’activité de publication hebdomadaire pour découvrir 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1492'
 ht-degree: 3%
 
 ---
@@ -71,15 +71,25 @@ Les fonctionnalités répertoriées dans cette section devraient être publiées
 
 Vous avez désormais la possibilité de copier le contenu d’un commentaire et de l’ajouter comme nouveau guillemet à une réponse dans le même thread lors de l’utilisation de la nouvelle expérience de commentaire.
 
-Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentation sera mise à jour au moment de la publication.
 
-Aperçu et production : Prévu le 29 juin 2023
+Prévisualisation et production planifiées : 29 juin 2023
+
+#### Nouvelle interface pour l’heure de journalisation
+
+Nous avons repensé l’interface pour le temps de connexion à partir de la zone Mises à jour dans la nouvelle expérience de commentaires.
+
+Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentation sera mise à jour au moment de la publication.
+
+Version d’aperçu prévue : 29 juin 2023
+
+Version de production planifiée : avec la version 23.3
 
 #### Ajout d’émoticônes à une mise à jour
 
 Vous pouvez désormais ajouter des émoticônes à un commentaire à l’aide d’une option de barre d’outils de texte enrichi dans la nouvelle expérience de commentaire.
 
-Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentation sera mise à jour au moment de la publication.
 
 Aperçu : À annoncer (dans la version 23.3)
 
@@ -91,11 +101,11 @@ La nouvelle expérience de commentaire sera disponible pour les objets suivants,
 
 Il s’agit de la seule expérience de commentaire pour ces objets, car l’expérience de commentaire héritée est supprimée lorsque vous y accédez.
 
-Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). La documentation sera mise à jour au moment de la publication.
 
 Aperçu de la version : À annoncer, après la version de production 23.3 (20 juillet 2023)
 
-Version de production pour les clients de version rapide : À annoncer, après la version de production 23.3
+Version de production pour les clients de version rapide : À annoncer, après la version 23.3
 
 Version de production pour tous les clients : avec la version 23.4
 

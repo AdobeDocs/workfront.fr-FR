@@ -6,9 +6,9 @@ description: Le bouton Terminé permet de définir automatiquement l’état d�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ Le [!UICONTROL Terminé] peut définir automatiquement l’état d’une tâche 
 Les utilisateurs disposant de certaines autorisations peuvent configurer la variable [!UICONTROL Terminé] pour refléter certains états du système. Il existe 3 manières différentes de [!UICONTROL Terminé] fonctionne pour les problèmes dans [!DNL Workfront]:
 
 * Si l’utilisateur a un [!UICONTROL Équipe Accueil], un [!DNL Workfront] un administrateur ou un utilisateur disposant d’un [!UICONTROL Plan] peut configurer la variable [!UICONTROL Terminé] pour refléter certains états des membres de l’équipe. Voir [Configurez la variable [!UICONTROL Terminé] bouton pour une équipe](#configure-the-uicontrol-done-button-for-a-team) dans cet article.
+* Si l’utilisateur n’a pas de [!UICONTROL Équipe Accueil], mais ils ont[!UICONTROL Autres équipes] dans leur profil, Workfront recherche le paramètre de la variable [!UICONTROL Terminé] sur l’une des équipes associées à l’utilisateur. La sélection est aléatoire et l’état associé à l’une des équipes est utilisé pour le problème.
 * Si l’utilisateur n’a pas de [!UICONTROL Équipe Accueil] affecté, [!UICONTROL Terminé] est lié à un bouton généré par le système. [!UICONTROL Résolu] état comportant le code à trois lettres [!UICONTROL RLV]. Aucune option de configuration n’est disponible dans ce scénario. Le [!UICONTROL Terminé] par défaut, ce statut est défini.
 * Si la variable [!UICONTROL Résolu] ([!UICONTROL RLV]) est supprimé et l’utilisateur marque le problème comme [!UICONTROL Terminé] has no [!UICONTROL Équipe Accueil], l’état du problème par défaut est lié à ce qui est défini comme valeur par défaut pour [!UICONTROL Fermé] pour le groupe affecté au projet, le problème appartient à . L’administrateur Workfront peut configurer un paramètre par défaut à l’échelle du système pour le groupe. Voir [Configurez la variable [!UICONTROL Terminé] lorsque la variable [!UICONTROL Résolu] Le statut a été supprimé](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) dans cet article.
 
@@ -71,20 +72,18 @@ Vous pouvez modifier l’état appliqué à l’élément de travail avec la fon
    >* Lorsque vous sélectionnez un état pour chaque type d’élément de travail, l’état de la tâche ou du problème est défini sur cet état lorsqu’un utilisateur clique sur [!UICONTROL Terminé] sur leur élément . Si vous définissez plusieurs états pour chaque type d’élément de travail, un menu déroulant est ajouté au [!UICONTROL Terminé] et l’utilisateur doit sélectionner un état pour modifier l’état de l’élément de travail.
    >* Vous pouvez associer uniquement les états au niveau du système à la variable [!UICONTROL Terminé] bouton . Vous ne pouvez pas associer des états spécifiques à un groupe à des états d’éléments de travail.
    >* Lorsqu’un utilisateur affecté à l’élément le place dans l’état associé à l’événement [!UICONTROL Terminé] , l’élément s’affiche sous la forme [!UICONTROL Terminé] pour cet utilisateur, que l’état sélectionné soit ou non [!UICONTROL Terminé] ou [!UICONTROL Fermé] ou un état de fonctionnement.
-
    >   
    >   
    >  Par exemple, l’association de la variable [!UICONTROL Terminé] avec le bouton En cours, l’élément de travail s’affiche comme [!UICONTROL Terminé] pour l’utilisateur qui passe de l’état Nouveau à En cours.
    >   
    >* Les types de problème sont personnalisables et peuvent avoir des noms différents de ceux répertoriés ci-dessous dans votre environnement.\
-      >  Voici les tâches par défaut et les types de problèmes :
-      >     
-      >   * [!UICONTROL Tâches]
-      >   * [!UICONTROL Problème]
-      >   * [!UICONTROL Demande]
-      >   * [!UICONTROL Modifier l&#39;ordre]
-      >   * [!UICONTROL Rapport sur les bogues]
-
+   >  Voici les tâches par défaut et les types de problèmes :
+   >     
+   >   * [!UICONTROL Tâches]
+   >   * [!UICONTROL Problème]
+   >   * [!UICONTROL Demande]
+   >   * [!UICONTROL Modifier l&#39;ordre]
+   >   * [!UICONTROL Rapport sur les bogues]
 
    Si la tâche ou le problème est assigné à plusieurs utilisateurs, un &quot;[!UICONTROL C&#39;est fait de ma part.]&quot; dans le menu déroulant, en plus des statuts multiples choisis pour votre équipe.
 

@@ -6,9 +6,9 @@ description: Création d’éléments de travail à partir de la zone Accueil
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Vous pouvez créer une tâche personnelle qui n’est disponible que dans la [!U
    ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
 
 1. Dans le **[!UICONTROL Nom]** , indiquez un nom pour la tâche.
-1. (Facultatif) Cliquez sur **[!UICONTROL Sélectionner la date]**, puis sélectionnez la date d’échéance de la tâche. Cela définit la variable [!UICONTROL Date d’achèvement prévue] pour la tâche.\
+1. (Facultatif) Cliquez sur **[!UICONTROL Sélectionner la date]**, puis sélectionnez la date d’échéance de la tâche. Cette méthode définit la variable [!UICONTROL Date d’achèvement prévue] pour la tâche.\
    Vous pouvez modifier la variable **[!UICONTROL Date d’achèvement prévue]** en cliquant sur la date dans le panneau de droite ou en modifiant le **[!UICONTROL Cette opération sera effectuée par]** date directement dans la tâche.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer la tâche.\
@@ -68,8 +68,13 @@ Vous pouvez créer une tâche personnelle qui n’est disponible que dans la [!U
 
 >[!NOTE]
 >
->Lorsque vous créez une tâche personnelle, elle est stockée dans un projet &quot;masqué&quot; dans lequel il n’est pas possible de rechercher des données. [!UICONTROL Workfront]. Vous ne pouvez accéder à ce projet que lorsque vous supprimez une tâche sur celui-ci (de la tâche elle-même, et non de la fonction [!UICONTROL Accueil] ).\
->![[!UICONTROL Projet pour les tâches personnelles]](assets/createworkitems-personal--project-350x105.png)>
+>* Lorsque vous créez une tâche personnelle, elle est stockée dans un projet &quot;masqué&quot; dans lequel il n’est pas possible de rechercher des données. [!UICONTROL Workfront]. Le projet est nommé &quot;&lt; User Name >&#39;s Tasks&quot;. Le &quot;Nom d’utilisateur&quot; est le nom complet de l’utilisateur qui a créé la tâche. Vous ne pouvez accéder à ce projet que lorsque vous cliquez sur la tâche personnelle dans le [!UICONTROL Accueil] , à partir du chemin de navigation de la tâche, par exemple.
+>
+>* Contrairement aux tâches de projet standard, les tâches personnelles disposent d’un ensemble limité de champs visibles dans l’interface de Workfront et n’influencent pas la chronologie ni la progression d’un projet. La réaffectation d’une tâche personnelle à un autre utilisateur ajoute tous les champs de tâche à une tâche personnelle, mais la tâche reste sur le projet personnel de l’utilisateur qui a créé la tâche.
+>
+>* Nous vous recommandons de créer un projet et d’y déplacer toute tâche personnelle, si vous souhaitez que les tâches personnelles fassent partie du workflow normal.
+>
+> ![[!UICONTROL Projet pour les tâches personnelles]](assets/createworkitems-personal--project-350x105.png)
 
 ## Demande de travail auprès d’un autre utilisateur
 
