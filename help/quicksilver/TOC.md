@@ -2,9 +2,9 @@
 user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 feature-set: Workfront
-source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
+source-git-commit: 19ae3a7c21047c4abf476d051e1cbefd09559e84
 workflow-type: tm+mt
-source-wordcount: '13071'
+source-wordcount: '13088'
 ht-degree: 1%
 
 ---
@@ -802,6 +802,10 @@ ht-degree: 1%
       * [Présentation des dates de projet, de tâche et de publication dans Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Page d’accueil {#home}
       * [Page d’accueil](workfront-basics/using-home/home.md)
+      * Nouvelle page {#new-home}
+         * [Nouvelle page](workfront-basics/using-home/new-home/new-home.md)
+         * [Prise en main de la nouvelle page d’accueil](workfront-basics/using-home/new-home/get-started-with-new-home.md)
+         * [Ajout, modification ou suppression de widgets dans la nouvelle page d’accueil](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
       * Utilisation de la zone Accueil {#use-home-area}
          * [Utilisation de la zone Accueil](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Prise en main de la page d’accueil](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
