@@ -4,9 +4,9 @@ description: Visualiser les mises à jour pendant la période de publication de 
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 23
 
 >[!NOTE]
 >
->Aperçu et versions de production : À annoncer (avant la version 23.3)
+>Version d’aperçu prévue : 28 juin 2023; Version de production planifiée : 13 juillet 2023
 
 Nous avons amélioré l’interface de la liste des demandes envoyées.
 
@@ -36,8 +36,16 @@ Pour plus d’informations, voir [Copie et envoi de requêtes](/help/quicksilver
 
 >[!NOTE]
 >
->Aperçu de la version : à annoncer (avant la version 23.3) ; Version de production : avec la version 23.3
+>Version d’aperçu prévue : 5 juillet 2023; Version de production planifiée : avec la version 23.3
 
 Nous avons mis à jour la boîte de dialogue Nouvelle requête qui s’affiche lors de l’envoi d’une nouvelle requête. Désormais, l’interface correspond à la boîte de dialogue Nouveau problème qui s’affiche lors de l’ajout d’un nouveau problème à un projet.
 
 Pour plus d’informations, voir [Création et envoi de requêtes Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Mise à jour de la liste des taux de facturation
+
+>[!NOTE]
+>
+>Aperçu de la version : le 29 juin 2023; Version de production planifiée pour les clients de version rapide : À annoncer, après la version de production 23.3 ; Version de production planifiée pour tous les clients : Avec la version 23.4
+
+La liste Taux de facturation du projet présente désormais une apparence plus moderne dans la plupart des autres listes de Workfront.

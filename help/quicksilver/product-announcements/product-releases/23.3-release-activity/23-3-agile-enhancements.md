@@ -3,9 +3,9 @@ title: 23.3 Améliorations rapides
 description: 23.3 Améliorations rapides
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées à la version 23.3 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version 23.3.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.3, voir [Présentation de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Pour plus d’informations sur l’opt-in aux nouvelles fonctionnalités des panoramas avant la publication trimestrielle, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## La vue agile d’un projet affiche un panorama kanban
 
@@ -28,24 +30,6 @@ Lorsque vous vous trouvez dans le panorama, vous pouvez choisir de passer à l�
 
 La documentation du projet Agile View mis à jour sera disponible avec sa version pour aperçu.
 
-## Mode sombre désormais disponible sur les panoramas Adobe Workfront
-
-Vous pouvez désormais afficher tous vos panoramas et flux de travail en mode sombre. Le nouveau paramètre est disponible via les préférences du tableau de bord Panoramas.
-
->[!NOTE]
->
->Si l’instance de Workfront de votre entreprise a été intégrée à l’expérience unifiée Adobe, vous pouvez activer la mise en forme des thèmes sombres pour l’ensemble de Adobe Experience Cloud via le menu de préférences (image de profil) et vous ne verrez pas d’option de mode sombre distincte pour les panoramas Workfront.
-
-Pour plus d’informations, voir [Forums de notification électronique et préférences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Améliorations des itérations de workflows dans les panoramas Adobe Workfront
-
-Nous avons ajouté la possibilité d’ajouter des objectifs à une itération, sans avoir à les répertorier sur une carte. Les objectifs sont ajoutés au format liste de contrôle et peuvent être marqués comme étant terminés. La zone des mesures située en haut à droite de l’itération indique le nombre d’objectifs existants et le nombre d’objectifs terminés.
-
-En outre, la colonne Itération suivante est désormais disponible sur les panoramas d’itération. Lorsque vous placez une carte dans cette colonne, elle est automatiquement reportée à l’itération suivante et ne retourne pas au journal. Lors de l’itération suivante, la carte apparaît dans la colonne correspondant à son état.
-
-Pour plus d’informations sur ces deux fonctionnalités, voir [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## Tri par colonnes
 
 Nous avons ajouté la possibilité de trier les cartes dans les colonnes d’un panorama. Lorsque vous sélectionnez une option de tri, toutes les colonnes sont triées. Vous ne pouvez pas trier une seule colonne, et la colonne de journal ou d’entrée n’est pas triée.
@@ -56,6 +40,24 @@ L’option &quot;commande utilisateur&quot; renvoie les cartes dans l’ordre da
 
 Pour plus d’informations, voir [Filtrage et recherche dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## Mode sombre désormais disponible sur les panoramas Adobe Workfront
+
+Vous pouvez désormais afficher tous vos panoramas et flux de travail en mode sombre. Le nouveau paramètre est disponible via les préférences du tableau de bord Panoramas.
+
+>[!NOTE]
+>
+>Si l’instance de Workfront de votre entreprise a été intégrée à l’expérience unifiée Adobe, vous pouvez activer la mise en forme des thèmes sombres pour l’ensemble de Adobe Experience Cloud via le menu de préférences (image de profil) et vous ne verrez pas d’option de mode sombre distincte pour les panoramas Workfront.
+
+Pour plus d’informations, voir [Forums de notification électronique et préférences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Objectifs disponibles dans les itérations de workflows dans les panoramas Adobe Workfront
+
+Nous avons ajouté la possibilité d’ajouter des objectifs à une itération, sans avoir à les répertorier sur une carte. Les objectifs sont ajoutés au format liste de contrôle et peuvent être marqués comme étant terminés. La zone des mesures située en haut à droite de l’itération indique le nombre d’objectifs existants et le nombre d’objectifs terminés.
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+Pour plus d’informations, voir [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## Ajout de commentaires aux cartes des panoramas
 
 >[!NOTE]
@@ -65,6 +67,8 @@ Pour plus d’informations, voir [Filtrage et recherche dans un panorama](/help/
 Vous pouvez maintenant ajouter des commentaires aux cartes ad hoc et connectées sur les panoramas et marquer d’autres utilisateurs sur les commentaires. Les commentaires sont disponibles dans les détails de la carte. La fonction de commentaire des panoramas utilise la nouvelle expérience de commentaire d’Adobe Workfront.
 
 Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) et [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Améliorations apportées au gestionnaire de balises des panoramas
 
