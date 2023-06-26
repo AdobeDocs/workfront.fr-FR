@@ -3,9 +3,9 @@ title: 23.3 Améliorations rapides
 description: 23.3 Améliorations rapides
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ L’option &quot;commande utilisateur&quot; renvoie les cartes dans l’ordre da
 
 Pour plus d’informations, voir [Filtrage et recherche dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## Mode sombre désormais disponible sur les panoramas Adobe Workfront
 
 Vous pouvez désormais afficher tous vos panoramas et flux de travail en mode sombre. Le nouveau paramètre est disponible via les préférences du tableau de bord Panoramas.
@@ -54,7 +56,7 @@ Pour plus d’informations, voir [Forums de notification électronique et préf�
 
 Nous avons ajouté la possibilité d’ajouter des objectifs à une itération, sans avoir à les répertorier sur une carte. Les objectifs sont ajoutés au format liste de contrôle et peuvent être marqués comme étant terminés. La zone des mesures située en haut à droite de l’itération indique le nombre d’objectifs existants et le nombre d’objectifs terminés.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+En outre, la colonne Itération suivante est désormais disponible sur les panoramas d’itération. Lorsque vous placez une carte dans cette colonne, elle est automatiquement reportée à l’itération suivante et ne retourne pas au journal. Lors de l’itération suivante, la carte apparaît dans la colonne correspondant à son état.
 
 Pour plus d’informations, voir [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
