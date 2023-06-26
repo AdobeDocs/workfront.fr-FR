@@ -6,16 +6,14 @@ title: Forums de notification électronique et préférences
 description: Les panoramas Adobe Workfront vous envoient un e-mail lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
 
 # Forums de notification électronique et préférences
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Panoramas] vous envoie un courrier électronique lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée. Les notifications sont activées par défaut et vous pouvez sélectionner dans les préférences de votre panorama les emails que vous souhaitez recevoir.
 
@@ -59,19 +57,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Les préférences que vous définissez pour les emails s’appliquent à tous vos panoramas.
 
+<!--
+
 <div class="preview">
 
-## Définition des préférences du mode sombre
+## Set the dark mode preference
 
 >[!NOTE]
 >
->Si l’instance de Workfront de votre entreprise a été intégrée à l’expérience unifiée Adobe, vous pouvez activer la mise en forme des thèmes sombres pour l’ensemble de Adobe Experience Cloud via le menu de préférences (image de profil) et vous ne verrez pas d’option de mode sombre distincte pour les panoramas Workfront. Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-boards}}
 
-1. Cliquez sur [!UICONTROL **Préférences**] dans le tableau de bord des panoramas.
-1. Dans la zone Thèmes, activez ou désactivez le mode sombre.
+1. Click [!UICONTROL **Preferences**] on the boards dashboard.
+1. In the Themes area, enable or disable Dark mode.
 
-   Les préférences que vous définissez pour le mode sombre s’appliquent à tous vos panoramas et flux de travail, ainsi qu’au tableau de bord.
+   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
 
 </div>
+
+-->

@@ -7,16 +7,14 @@ description: Une itération est un temps défini réservé à la réalisation du
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 0%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
 # Création d’une itération dans un workflow
-
-{{highlighted-preview}}
 
 Une itération est un temps défini réservé à la réalisation du travail. Certaines équipes agiles peuvent appeler une itération sprint.
 
@@ -90,12 +88,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Une fois qu&#39;une itération a commencé, vous ne pouvez modifier que le nom de l&#39;itération et non les dates ou la durée de l&#39;itération.
 
-1. <span class="preview">Pour ajouter des objectifs à l’itération, développez [!UICONTROL **Objectifs**].</span>
-1. <span class="preview">Cliquez sur [!UICONTROL **Ajouter un objectif**], puis saisissez le nom de l’objectif.</span>
+<!--   
 
-   <span class="preview">Lorsque les objectifs sont terminés lors de l’itération, vous pouvez cocher la case pour les marquer comme terminées ou cliquer sur l’icône **Supprimer** icon ![Icône Supprimer](assets/delete.png) pour supprimer un objectif. La zone des mesures située en haut à droite de l’itération indique le nombre d’objectifs existants et le nombre d’objectifs terminés.</span>
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
-<!--
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
 <div class="preview">
 
 ## Assign cards to the next iteration
