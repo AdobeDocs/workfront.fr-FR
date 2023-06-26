@@ -6,9 +6,9 @@ title: Forums de notification électronique et préférences
 description: Les panoramas Adobe Workfront vous envoient un e-mail lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '166'
 ht-degree: 1%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Les notifications par e-mail sont disponibles uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
-
-<span class="preview">D’autres préférences vous permettent d’activer le mode sombre pour tous vos panoramas et flux de travail.</span>
 
 ## Exigences d’accès
 

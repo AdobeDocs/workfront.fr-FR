@@ -7,10 +7,10 @@ description: Les mesures sont disponibles pour chaque itération dans un workflo
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '201'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Sélectionnez la [!UICONTROL Processus d’itération] panorama.
 1. Passez en revue la zone des mesures au-dessus du panorama en haut à droite. Cliquez sur les flèches haut et bas pour vous déplacer entre les itérations.
 
-   Les mesures suivantes s’affichent : nombre total de points attribués à l’itération, les points restants non encore atteints dans l’itération, le nombre de points atteints dans l’itération.
+   Les mesures suivantes s’affichent : nombre total de points attribués à l’itération, les points restants non encore atteints dans l’itération et le nombre de points atteints dans l’itération.
 
 1. (Facultatif) Cliquez sur le [!UICONTROL **Détails de l’itération**] icon ![Détails de l’itération](assets/iteration-details-button.png) pour ouvrir la boîte de dialogue des détails de l’itération sélectionnée.
 
