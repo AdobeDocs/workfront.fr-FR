@@ -5,13 +5,13 @@ title: Téléchargement de documents à partir d’Illustrator
 description: Vous pouvez télécharger vos panoramas d’art en tant que documents pour un examen et une approbation rapides ou simplement les stocker dans Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
+source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
-
 
 # Téléchargement de documents à partir de [!DNL Illustrator]
 
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Vous devez installer le [!DNL Adobe Workfront for design and video] avant de pouvoir charger des documents à partir de [!DNL Illustrator].
 
-   Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Téléchargement de documents vers [!DNL Illustrator]
 
@@ -73,3 +73,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    ![](assets/file-export-settings.png)
 1. Cliquez sur **[!UICONTROL Télécharger]**.
 Le document apparaît dans la [!UICONTROL Documents] dans le module externe et l’appli de bureau.
+
+>[!NOTE]
+>
+>Si le document est exporté en tant que document texte, vous devrez peut-être réinitialiser vos préférences dans [!DNL Adobe Illustrator].
+>
+>1. Dans [!DNL Illustrator], cliquez sur le bouton **[!UICONTROL Modifier]** et sélectionnez **[!UICONTROL Préférences]**.
+>1. Sélectionner **[!UICONTROL Général]**.
+>1. Cliquez sur **[!UICONTROL Réinitialiser les préférences]**.
+>1. Fermer et redémarrer [!DNL Illustrator].
