@@ -1,13 +1,14 @@
 ---
 title: Copie et envoi de requêtes
-description: Copie et envoi de requêtes
+description: Lorsque vous envoyez fréquemment des requêtes similaires, vous pouvez copier une requête envoyée existante. Dans ce cas, vous pouvez copier une requête existante, y apporter des modifications minimales et la soumettre à nouveau en tant que nouvelle requête.
 author: Alina
-draft: Probably
 feature: Work Management
+role: User
+topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -121,7 +122,7 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
 1. (Conditionnel) Si la section Envoyé ne s’affiche pas par défaut, cliquez sur **Envoyé** dans le panneau de gauche.
 1. Recherchez la requête que vous souhaitez copier et envoyer comme nouvelle requête, puis effectuez l’une des opérations suivantes :
 
-   * Sélectionnez-le, puis cliquez sur le bouton **Copier et envoyer en tant que nouveau** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) dans le coin supérieur gauche de la liste Demandes envoyées . <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
+   * Sélectionnez-le, puis cliquez sur le bouton **Copier et envoyer en tant que nouveau** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) dans le coin supérieur gauche de la liste Demandes envoyées . <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
 
    <!-- reveal this tip for 23.3 preview release:
    >[!TIP]

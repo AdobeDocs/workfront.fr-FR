@@ -5,8 +5,10 @@ title: Répondre aux mises à jour
 description: Lorsqu’une personne ajoute ou répond à une mise à jour d’un objet de travail, sa réponse apparaît dans le fil de communication de la section Mises à jour de l’objet. Vous pouvez ajouter une réponse à une mise à jour ou aimer si vous disposez de l’accès Affichage à l’objet.
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
+topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -111,7 +113,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
 
 1. Accédez à l’objet auquel vous souhaitez ajouter une réponse.
 1. Cliquez sur **Mises à jour**, puis cliquez sur le bouton **Commentaires** pour l’objet et recherchez le commentaire ou la réponse à laquelle vous souhaitez répondre.
-   <!-- Ensure this link is called and cased the same way as  before: 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
+   <!--1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
 1. Cliquez sur **Répondre**.
 
    Vous pouvez voir les utilisateurs qui participent activement à la conversation en bas de la page **Nouveau commentaire** et vous pouvez ajouter d’autres éléments ou supprimer ceux qui ne sont plus pertinents. Ces utilisateurs, ainsi que tous les utilisateurs abonnés à l’objet, reçoivent une notification chaque fois qu’une mise à jour ou une réponse est apportée à l’objet. Vous pouvez également baliser d’autres utilisateurs pour les inclure dans votre réponse.  Pour baliser davantage d’utilisateurs, voir [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).

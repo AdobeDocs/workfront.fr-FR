@@ -5,10 +5,11 @@ title: Nouvelle expérience de commentaire
 description: Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets.
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
@@ -61,12 +62,12 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 >
 >Seuls les commentaires et les mises à jour système de l’année passée (à partir de juin 2022) sont disponibles pour les objets répertoriés ci-dessous lors de l’activation de la version bêta.
 >
+>Vous pouvez afficher les commentaires et les mises à jour système sur ces objets avant juin 2022 lors de l’affichage de la section Mises à jour de l’expérience actuelle :
 >* Événements
 >* <span class="preview">Projets</span>
 >* <span class="preview">Tâches</span>
 >* <span class="preview">Documents</span>
->
->Vous pouvez afficher les commentaires et les mises à jour du système avant juin 2022 lors de l’affichage de la section Mises à jour de l’expérience actuelle.
+
 
 
 Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la nouvelle expérience de commentaire, ainsi que leur disponibilité dans les zones où elles sont prises en charge :
@@ -135,7 +136,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <!--<span class="preview">✓</span>-->
    </td>
    <td> ✓
    </td>
