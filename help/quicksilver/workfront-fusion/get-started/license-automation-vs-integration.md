@@ -8,23 +8,25 @@ description: Adobe Workfront Fusion offre deux licences différentes qui déterm
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 8c781894022661bee229a88556728659ff634310
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] licences
+# Hérité [!DNL Adobe Workfront Fusion] licences
 
-[!DNL Adobe Workfront Fusion] propose deux licences différentes qui déterminent la fonctionnalité à laquelle vous pouvez accéder. Votre entreprise a choisi l’une de ces licences lorsqu’elle a acheté [!DNL Workfront Fusion].
+Dans le [!DNL Adobe Workfront Fusion] modèle de licence hérité, [!DNL Fusion] propose deux licences différentes qui déterminent la fonctionnalité à laquelle vous pouvez accéder. Votre entreprise a choisi l’une de ces licences lorsqu’elle a acheté [!DNL Workfront Fusion].
+
+>[!NOTE]
+>
+>Le nouveau modèle de licence Fusion repose sur le nombre d’opérations utilisées par votre entreprise. Dans ce modèle, toutes les entreprises ont accès aux mêmes fonctionnalités.
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
 
->[!NOTE]
->
->Pour savoir quel type de [!DNL Workfront Fusion] possédez une licence de votre entreprise, contactez votre [!DNL Workfront Fusion] administrateur.
+Pour savoir quel type de [!DNL Workfront Fusion] possédez une licence de votre entreprise, contactez votre [!DNL Workfront Fusion] administrateur.
 
 ## [!DNL Workfront Fusion for Work Automation]
 

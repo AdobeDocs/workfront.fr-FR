@@ -7,9 +7,9 @@ description: Certains services n’autorisent pas les solutions d’intégration
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,11 +144,14 @@ Spécifiez les paramètres et les valeurs au format JSON.
 >```
 >{"user":"12345c2ecu1hq42ypqzhswbyam34",
 >
->"token":"123459evz8aepwtxydndydgyumbfx",
 >
->"message":"Hello World!",
+"token":"123459evz8aepwtxydndydgyumbfx",
 >
->"title":"The Push Notification"}
+>
+"message":"Hello World!",
+>
+>
+"title":"The Push Notification"}
 >```
 
 <table style="table-layout:auto"> 

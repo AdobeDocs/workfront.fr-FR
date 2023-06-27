@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] vous pouvez automatiser les w
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '5039'
+source-wordcount: '5087'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,15 +79,15 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 ![](assets/map-toggle-350x74.png)
 
-* [Tableaux](#boards)
+* [Panoramas](#boards)
 * [Listes](#lists)
-* [Vignettes](#cards)
+* [vignette](#cards)
 * [Membres](#members)
 * [Listes de contrôle](#checklists)
 * [Libellés](#labels)
 * [Commentaires](#comments)
 
-### Tableaux
+### Panoramas
 
 +++ **[!UICONTROL Panoramas]**
 
@@ -546,7 +554,7 @@ Ce module d’action récupère les détails d’une liste spécifique.
 
 +++
 
-### Vignettes
+### vignette
 
 +++ **[!UICONTROL Cartes de contrôle]**
 

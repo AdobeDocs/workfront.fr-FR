@@ -8,9 +8,9 @@ description: Les fonctions de date et d’heure suivantes sont disponibles dans 
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1911'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p><p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,21 +109,20 @@ Le `formatDate` renvoie une représentation textuelle de la valeur Date donnée 
 >![](assets/date&time-functions-examples-350x61.png)
 >
 >* `formatDate(1. Date created;MM/DD/YYYY)`
-   >
-   >    Renvoie 10/01/2018
+>
+>    Renvoie 10/01/2018
 >
 >* `formatDate(1. Date created; YYYY-MM-DD hh:mm A)`
-   >
-   >   Renvoie 2018-10-01 09:32 AM
+>
+>   Renvoie 2018-10-01 09:32 AM
 >
 >* `formatDate(1. Date created;DD.MM.YYYY HH:mm;UTC)`
-   >
-   >    Renvoie 01.10.2018 07:32
+>
+>    Renvoie 01.10.2018 07:32
 >
 >* `formatDate(now;DD.MM.YYYY HH:mm)`
-   >
-   >    Renvoie 19.03.2019 15:30
-
+>
+>    Renvoie 19.03.2019 15:30
 
 ## [!UICONTROL parseDate (text; format ; [timezone])]
 
@@ -166,16 +173,16 @@ Cette fonction convertit une chaîne de texte en date, selon le format et le fus
 >**Exemples :** Dans les exemples suivants, la valeur Date renvoyée est exprimée selon la norme ISO 8601, mais le type de données du résultat est Date.
 >
 >* `parseDate(2016-12-28;YYYY-MM-DD)`
-   >
-   >    Renvoie 2016-12-28T00:00:00,000Z
+>
+>    Renvoie 2016-12-28T00:00:00,000Z
 >
 >* `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
-   >
-   >    Renvoie 2016-12-28T16:03:00,000Z
+>
+>    Renvoie 2016-12-28T16:03:00,000Z
 >
 >* `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
-   >
-   >    Renvoie 2016-12-28T16:03:06.000Z
+>
+>    Renvoie 2016-12-28T16:03:06.000Z
 >
 >* `parseDate(1482940986;X)`
 >
@@ -190,13 +197,12 @@ Renvoie une nouvelle date suite à l’ajout d’un nombre donné de jours à un
 >**Exemples:**
 >
 >* `addDays(2016-12-08T15:55:57.536Z;2)`
-   >
-   >    Renvoie 2016-12-10T15:55:57,536Z
+>
+>    Renvoie 2016-12-10T15:55:57,536Z
 >
 >* `addDays(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >    Renvoie 2016-12-6T15:55:57,536Z
-
+>
+>    Renvoie 2016-12-6T15:55:57,536Z
 
 ## [!UICONTROL addHours (date; number)] {#addhours-date-number}
 
@@ -207,13 +213,12 @@ Renvoie une nouvelle date suite à l&#39;ajout d&#39;un nombre d&#39;heures donn
 >**Exemples:**
 >
 >* `addHours(2016-12-08T15:55:57.536Z; 2)`
-   >
-   >    Renvoie 2016-12-08T17:55:57,536Z
+>
+>    Renvoie 2016-12-08T17:55:57,536Z
 >
 >* `addHours(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >    Renvoie 2016-12-08T13:55:57,536Z
-
+>
+>    Renvoie 2016-12-08T13:55:57,536Z
 
 ## [!UICONTROL addMinutes (date); number)] {#addminutes-date-number}
 
@@ -224,13 +229,12 @@ Renvoie une nouvelle date suite à l&#39;ajout d&#39;un nombre donné de minutes
 >**Exemples:**
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;2)`
-   >
-   >    Renvoie 2016-12-08T15:57:57,536Z
+>
+>    Renvoie 2016-12-08T15:57:57,536Z
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >    Renvoie 2016-12-08T15:53:57,536Z
-
+>
+>    Renvoie 2016-12-08T15:53:57,536Z
 
 ## [!UICONTROL addMonths (date; number)] {#addseconds-date-number}
 
@@ -241,13 +245,12 @@ Renvoie une nouvelle date suite à l&#39;ajout d&#39;un nombre donné de mois à
 >**Exemples:**
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;2)`
-   >
-   >    Renvoie 2016-10-08T15:55:57,536Z
+>
+>    Renvoie 2016-10-08T15:55:57,536Z
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;-2)`
-   >
-   >    Renvoie 2016-06-08T15:55:57,536Z
-
+>
+>    Renvoie 2016-06-08T15:55:57,536Z
 
 ## [!UICONTROL addSeconds (date; number)]
 
@@ -258,13 +261,12 @@ Renvoie une nouvelle date suite à l’ajout d’un nombre donné de secondes à
 >**Exemples:**
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;2)`
-   >
-   >   Renvoie 2016-12-08T15:55:59,536Z
+>
+>   Renvoie 2016-12-08T15:55:59,536Z
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >   Renvoie 2016-12-08T15:55:55,536Z
-
+>
+>   Renvoie 2016-12-08T15:55:55,536Z
 
 ## [!UICONTROL addYears (date); number)]
 
@@ -275,13 +277,12 @@ Renvoie une nouvelle date résultant de l&#39;ajout d&#39;un nombre d&#39;année
 >**Exemples:**
 >
 >* `addYears(2016-08-08T15:55:57.536Z;2)`
-   >
-   >    Renvoie 2018-08-08T15:55:57,536Z
+>
+>    Renvoie 2018-08-08T15:55:57,536Z
 >
 >* `addYears(2016-12-08T15:55:57.536Z; -2)`
-   >
-   >    Renvoie 2014-08-08T15:55:57,536Z
-
+>
+>    Renvoie 2014-08-08T15:55:57,536Z
 
 ## [!UICONTROL setSecond (date; number)]
 
@@ -296,13 +297,12 @@ Si vous devez indiquer un nombre en dehors de la plage, nous vous recommandons d
 >**Exemples:**
 >
 >* `setSecond(2015-10-07T11:36:39.138Z;10)`
-   >
-   >    Renvoie 2015-10-07T11:36:10,138Z
+>
+>    Renvoie 2015-10-07T11:36:10,138Z
 >
 >* `setSecond(2015-10-07T11:36:39.138Z; 6)`
-   >
-   >    Renvoie 2015-10-07T11:37:01.138Z
-
+>
+>    Renvoie 2015-10-07T11:37:01.138Z
 
 ## [!UICONTROL setMinute (date; number)]
 
@@ -317,13 +317,12 @@ Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons
 >**Exemples:**
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;10)`
-   >
-   >    Renvoie 2015-10-07T11:10:39,138Z
+>
+>    Renvoie 2015-10-07T11:10:39,138Z
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;61)`
-   >
-   >    Renvoie 2015-10-07T12:01:39,138Z
-
+>
+>    Renvoie 2015-10-07T12:01:39,138Z
 
 ## [!UICONTROL setHour (date); number)]
 
@@ -338,13 +337,12 @@ Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons
 >**Exemples:**
 >
 >* `setHour(2015-08-07T11:36:39.138Z;6)`
-   >
-   >   Renvoie 2015-08-07T06:36:39,138Z
+>
+>   Renvoie 2015-08-07T06:36:39,138Z
 >
 >* `setHour(2015-08-07T11:36:39.138;-6)`
-   >
-   >    Renvoie 2015-08-06T18:36:39,138Z
-
+>
+>    Renvoie 2015-08-06T18:36:39,138Z
 
 ## [!UICONTROL setDay (date); numéro/nom du jour en anglais)]
 
@@ -359,17 +357,16 @@ Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons
 >**Exemples:**
 >
 >* `setDay(2018-06-27T11:36:39.138Z;Monday)`
-   >
-   >   Renvoie 2018-06-25T11:36:39,138Z
+>
+>   Renvoie 2018-06-25T11:36:39,138Z
 >
 >* `setDay(2018-06-27T11:36:39.138Z;1)`
-   >
-   >   Renvoie 2018-06-24T11:36:39,138Z
+>
+>   Renvoie 2018-06-24T11:36:39,138Z
 >
 >* `setDay(2018-06-27T11:36:39.138Z;7)`
-   >
-   >   Renvoie 2018-06-30T11:36:39,138Z
-
+>
+>   Renvoie 2018-06-30T11:36:39,138Z
 
 ## [!UICONTROL setDate (date); number)]
 
@@ -382,13 +379,12 @@ Indiquez un nombre compris entre 1 et 31. Si le nombre se trouve en dehors de ce
 >**Exemples:**
 >
 >* `setDate(2015-08-07T11:36:39.138Z;5)`
-   >
-   >   Renvoie 2015-08-05T11:36:39,138Z
+>
+>   Renvoie 2015-08-05T11:36:39,138Z
 >
 >* `setDate(2015-08-07T11:36:39.138Z;32)`
-   >
-   >   Renvoie 2015-09-01T11:36:39,138Z
-
+>
+>   Renvoie 2015-09-01T11:36:39,138Z
 
 ## [!UICONTROL setMonth (date); numéro/nom du mois en anglais)]
 
@@ -401,17 +397,16 @@ Indiquez un nombre compris entre 1 et 12. Si le nombre ne figure pas dans cette 
 >**Exemples:**
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;5)`
-   >
-   >   Renvoie 2015-05-07T11:36:39,138Z
+>
+>   Renvoie 2015-05-07T11:36:39,138Z
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;17)`
-   >
-   >   Renvoie 2016-05-07T11:36:39,138Z
+>
+>   Renvoie 2016-05-07T11:36:39,138Z
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;january)`
-   >
-   >   Renvoie 2015-01-07T12:36:39,138Z
-
+>
+>   Renvoie 2015-01-07T12:36:39,138Z
 
 ## [!UICONTROL setYear (date) number)]
 
@@ -422,9 +417,8 @@ Renvoie une nouvelle date avec l&#39;année spécifiée dans les paramètres.
 >**Exemple:**
 >
 >* `setYear(2015-08-07T11:36:39.138Z;2017)`
-   >
-   >   Renvoie 2017-08-07T11:36:39,138Z
-
+>
+>   Renvoie 2017-08-07T11:36:39,138Z
 
 ## [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
@@ -449,17 +443,16 @@ Si aucune unité n’est spécifiée, la fonction renvoie la différence en mill
 >**Exemples:**
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
-   >
-   >    Renvoie `600,000`
+>
+>    Renvoie `600,000`
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)`
-   >
-   >    Renvoie `4`
+>
+>    Renvoie `4`
 >
 >* `dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)`
-   >
-   >    Renvoie `1`
-
+>
+>    Renvoie `1`
 
 ## Exemples supplémentaires
 
@@ -538,7 +531,6 @@ Une possibilité consiste à utiliser l’expression suivante :
 >* Valeurs de `D1`et `D2` doivent être des valeurs de type Date. S’il s’agit de valeurs de type Chaîne (par exemple, 20.10.2018), utilisez la variable `parseDate()` pour les convertir en valeurs de type Date.
 >
 >* Le `round()` est utilisée dans les cas où l’une des dates tombe dans la période d’heure d’été et que l’autre ne le fait pas. Dans ce cas, la différence en heures est d’une heure de moins ou de plus. Vous pouvez le diviser par 24 pour un résultat non entier. Vous perdez une heure d&#39;économie en plein jour. Arrondir l’aplatit de sorte que vous n’ayez pas de pourcentage
-
 
 ### Comment calculer le dernier jour/milliseconde du mois
 

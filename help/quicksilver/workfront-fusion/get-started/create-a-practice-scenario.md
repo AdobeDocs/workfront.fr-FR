@@ -7,9 +7,9 @@ description: Cet article décrit comment créer un scénario d’intégration av
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: 99a8ad82c5fb2fb3f6adce9ff037086523be9b02
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2142'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -149,7 +157,7 @@ Ce module contient les données que vous souhaitez que le scénario recherche.
 
 ## Configuration du premier module
 
-Après la connexion [!DNL Workfront Fusion] à [!DNL Google Sheets] vous pouvez définir un [!DNL Google Sheets] feuille de calcul à laquelle vous avez accès et les données auxquelles vous souhaitez que le premier module soit traité.
+Après la connexion [!DNL Workfront Fusion] à [!DNL Google Sheets] vous pouvez définir un [!DNL Google Sheets] feuille de calcul à laquelle vous avez accès et les données que vous souhaitez que le premier module soit traité.
 
 1. Cliquez sur le bouton **[!UICONTROL Feuille de calcul]** , puis sélectionnez l’option **[!UICONTROL Scénario de pratique de Workfront Fusion] #1** feuille de calcul dans la liste qui s’affiche.
 

@@ -8,9 +8,9 @@ description: Les fonctions de chaîne suivantes sont disponibles dans le panneau
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '774'
 ht-degree: 3%
 
 ---
@@ -35,11 +35,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p><p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,13 +65,12 @@ Supprime tous les caractères non ascii d’une chaîne de texte.
 >**Exemples:**
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
-   >
-   >   Renvoie : [!DNL Workfront]
+>
+>   Renvoie : [!DNL Workfront]
 >
 >* `ascii(` `ěščřž` `;` `true` `)`
-   >
-   >   Renvoie : [!UICONTROL escrz]
-
+>
+>   Renvoie : [!UICONTROL escrz]
 
 ## [!UICONTROL base64 (texte)]
 
@@ -98,13 +105,12 @@ Vérifie si le texte contient la chaîne de recherche.
 >**Exemples:**
 >
 >* `contains( Hello World ; Hello )`
-   >
-   >   Renvoie : [!UICONTROL true]
+>
+>   Renvoie : [!UICONTROL true]
 >
 >* `contains( Hello World ; Bye )`
-   >
-   >   Renvoie : [!UICONTROL false]
-
+>
+>   Renvoie : [!UICONTROL false]
 
 ## [!UICONTROL decodeURL (text)]
 
@@ -154,17 +160,16 @@ Renvoie la position de la première occurrence d’une valeur spécifiée dans u
 >**Exemples:**
 >
 >* `indexOf( Workfront ; o )`
-   >
-   >   Renvoie : 1
+>
+>   Renvoie : 1
 >
 >* `indexOf( Workfront ; x )`
-   >
-   >   Renvoie : -1
+>
+>   Renvoie : -1
 >
 >* `indexOf( Workfront ; o ; 3 )`
-   >
-   >   Renvoie : 6
-
+>
+>   Renvoie : 6
 
 ## [!UICONTROL length (texte ou mémoire tampon)]
 
@@ -236,11 +241,14 @@ La chaîne de remplacement peut inclure les modèles de remplacement spéciaux s
 >![](assets/variable-value-350x63.png)
 >
 >Renvoie : Numéro de téléphone `+420777111222`
->>![](assets/variable-value---2-350x55.png)
+>>
+>![](assets/variable-value---2-350x55.png)
+>
 >Renvoie : Numéro de téléphone : `+420777111222`
 
 >[!CAUTION]
-N’utilisez pas de groupes de capture nommés tels que `/ is (?<number>\d+)/` dans l’argument de chaîne de remplacement. Cela entraîne une erreur.
+>
+>N’utilisez pas de groupes de capture nommés tels que `/ is (?<number>\d+)/` dans l’argument de chaîne de remplacement. Cela entraîne une erreur.
 
 Pour plus d’informations sur les expressions régulières, voir [Analyseur de texte](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
@@ -249,18 +257,24 @@ Pour plus d’informations sur les expressions régulières, voir [Analyseur de 
 Calcule le hachage sha1 d’une chaîne. Si l’argument clé est spécifié, le hachage HMAC sha1 est renvoyé à la place. Codages pris en charge : &quot;hex&quot; (par défaut), &quot;base64&quot; ou &quot;latin1&quot;.
 
 >[!INFO]
-**Exemple:**
-`sha1( workfront )`
-Renvoie : b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
+>
+>**Exemple:**
+>
+>`sha1( workfront )`
+>
+>Renvoie : b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
 ## [!UICONTROL sha256 (texte; [encoding]; [key])]
 
 Calcule le hachage sha256 d’une chaîne. Si l’argument clé est spécifié, le hachage HMAC sha256 est renvoyé à la place. Codages pris en charge : &quot;hex&quot; (par défaut), &quot;base64&quot; ou &quot;latin1&quot;.>
 
 >[!INFO]
-**Exemple:**
-`sha256( workfront )`
-Renvoie : ed3d7397eec7b94453035b67ba4468c83ee3bedeb57137f7371f2e0cf5e2bbc
+>
+>**Exemple:**
+>
+>`sha256( workfront )`
+>
+>Renvoie : ed3d7397eec7b94453035b67ba4468c83ee3bedeb57137f7371f2e0cf5e2bbc
 
 ## [!UICONTROL sha512 (texte; [codage de sortie]; [key]; [codage des clés])]
 
@@ -281,49 +295,61 @@ Codages de clé pris en charge :
 Lors de l’utilisation de[!UICONTROL binaire]Encodage de clé, une clé doit être un tampon, pas une chaîne.
 
 >[!INFO]
-**Exemple:**
-`sha512(workfront)`
-Renvoie : 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b23449333 fd431639c0345aadf2cf7ec26e9f4a7fb19
+>
+>**Exemple:**
+>
+>`sha512(workfront)`
+>
+>Renvoie : 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b23449333 fd431639c0345aadf2cf7ec26e9f4a7fb19
 
 ## [!UICONTROL split (texte); separator)]
 
 Divise une chaîne en un tableau de chaînes en la séparant en sous-chaînes.
 
 >[!INFO]
-**Exemple:**
-`split( John, George, Paul ; , )`
+>
+>**Exemple:**
+>
+>`split( John, George, Paul ; , )`
 
 ## [!UICONTROL startcase (texte)]
 
 Met en majuscules la première lettre de chaque mot et toutes les autres lettres en minuscules.
 
 >[!INFO]
-**Exemple :**
-`startcase( hello WORLD )`
-Renvoie : [!UICONTROL Hello World]
+>
+>**Exemple:**
+>`startcase( hello WORLD )`
+>
+>Renvoie : [!UICONTROL Hello World]
 
 ## [!UICONTROL stripHTML (texte)]
 
 Supprime toutes les balises de HTML du texte.
 
 >[!INFO]
-**Exemple:**
-`stripHTML( <b>Hello</b> )`
-Renvoie : Hello
+>
+>**Exemple:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Renvoie : Hello
 
 ## [!UICONTROL substring (text; start;end)]
 
 Renvoie une partie d’une chaîne de texte entre la position &quot;début&quot; et la position &quot;fin&quot;.
 
 >[!INFO]
-**Exemples:**
-* `substring( Hello ; 0 ; 3)`
-
-   Renvoie : Aide
-* `substring( Hello ; 1 ; 3 )`
-
-   Renvoie : el
-
+>
+>**Exemples:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Renvoie : Aide
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Renvoie : el
 
 ## [!UICONTROL toBinary (valeur)]
 
@@ -332,14 +358,16 @@ Convertit n’importe quelle valeur en données binaires.
 Vous pouvez également spécifier le codage comme second argument pour appliquer des conversions binaires de hex ou base64 aux données binaires.
 
 >[!INFO]
-**Exemples:**
-* `toBinary( Workfront )`
-
-   Renvoie : 57 6f 72 6b 66 72 6f 6e 74
-* `toBinary( V29ya2Zyb250 ; base64 )`
-
-   Renvoie : 57 6f 72 6b 66 72 6f 6e 74
-
+>
+>**Exemples:**
+>
+>* `toBinary( Workfront )`
+>
+>   Renvoie : 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Renvoie : 57 6f 72 6b 66 72 6f 6e 74
 
 ## [!UICONTROL toString (valeur)]
 
@@ -354,6 +382,9 @@ Supprime les espaces au début ou à la fin du texte.
 Convertit en majuscules tous les caractères alphabétiques d’une chaîne de texte.
 
 >[!INFO]
-**Exemple:**
-`upper( Hello )`
-Renvoie : [!UICONTROL HELLO]
+>
+>**Exemple:**
+>
+>`upper( Hello )`
+>
+>Renvoie : [!UICONTROL HELLO]

@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a79c6b2fb2b651987f973bc0d74e0eeea312c5bc
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2934'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>  <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p></td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -176,7 +184,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 * [[!UICONTROL Lecture d’un enregistrement]](#read-a-record)
 * [[!UICONTROL Résumé du PDF de requêtes]](#request-pdf-summary)
 * [[!UICONTROL Mettre à jour le BAT]](#update-proof)
-* [[!UICONTROL Télécharger fichier]](#upload-file)
+* [[!UICONTROL Charger fichier]](#upload-file)
 
 #### [!UICONTROL Créer une épreuve]
 
@@ -552,7 +560,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  </tbody> 
 </table>
 
-#### [!UICONTROL Télécharger fichier]
+#### [!UICONTROL Charger fichier]
 
 Ce module d’action télécharge un fichier à utiliser avec le [!UICONTROL Créer un bon à tirer] module dans [!DNL Workfront Proof].
 

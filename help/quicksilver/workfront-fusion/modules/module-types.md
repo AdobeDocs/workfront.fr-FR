@@ -8,9 +8,9 @@ description: '''Adobe Workfront Fusion distingue cinq types de modules : modules
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,11 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
@@ -63,16 +67,15 @@ Contrairement aux modules de déclenchement, les modules d’action peuvent êtr
 >* **[!DNL Workfront]> [!UICONTROL Chargement d’un fichier]** envoie un fichier à [!DNL Workfront] et renvoie son identifiant.
 >* **[!UICONTROL Image] > [!UICONTROL Redimensionner]** reçoit une image, la redimensionne selon les dimensions spécifiées et la transmet à l’action suivante.
 
-
 Le type d’action comporte quatre sous-types : Créer, lire, mettre à jour et supprimer. Le sous-type Mise à jour permet les trois opérations suivantes :
 
 * **Effacer le contenu d’un champ**. Cette opération se produit lorsque le contenu du champ est évalué pour effacer un mot-clé (à ne pas confondre avec *empty*).
 
-   ![](assets/erase-content-of-field.png)
+  ![](assets/erase-content-of-field.png)
 
 * **Ne pas modifier le contenu d’un champ**. Cette opération se produit lorsque le champ est vide ou que le contenu du champ est évalué sur vide (représenté par une valeur nulle dans JSON).
 
-   ![](assets/leave-content-field-unchanged-350x231.png)
+  ![](assets/leave-content-field-unchanged-350x231.png)
 
 * **Remplacer le contenu d’un champ**. Cette opération a lieu dans tous les autres cas que les deux décrits ci-dessus.
 
@@ -129,7 +132,6 @@ Les déclencheurs d’interrogation vous permettent de sélectionner le premier 
 >
 >* **[!DNL Google Sheets]> [!UICONTROL Lignes de contrôle]** renvoie de nouvelles lignes ajoutées par l’utilisateur depuis la dernière exécution du scénario.
 
-
 ### Déclencheurs instantanés
 
 Les déclencheurs instantanés permettent au service de notifier [!DNL Workfront Fusion] à propos d’un *change* immédiatement. Nous vous recommandons de planifier l’exécution immédiate d’un scénario contenant un déclencheur instantané. Pour obtenir des instructions, voir [Planification d’un scénario dans Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). Voir aussi [Déclencheurs instantanés (webhooks) dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) pour plus d’informations sur la gestion des données entrantes.
@@ -140,7 +142,6 @@ Les déclencheurs instantanés permettent au service de notifier [!DNL Workfront
 >
 >* **[!DNL Workfront]> [!UICONTROL Événements de contrôle]** renvoie des informations lorsqu’un certain type d’événement se produit dans Workfront, comme la création d’une tâche.
 >* **[!DNL Google Sheets]> [!UICONTROL Watch Changes]** renvoie des informations chaque fois qu’une cellule est mise à jour.
-
 
 ## Agrégateurs
 
@@ -159,7 +160,6 @@ Les scénarios peuvent contenir un nombre illimité d’agrégateurs.
 >* **[!UICONTROL Archiver] > [!UICONTROL Création d’une archive]** compresse les fichiers reçus dans une archive zip
 >* **[!UICONTROL CSV] > [!UICONTROL Agrégat au format CSV]** fusionne plusieurs chaînes d’un fichier CSV en une seule ligne ;
 >* **[!UICONTROL Outils] > [!UICONTROL Agrégateur de texte]** combine plusieurs chaînes en une seule chaîne
-
 
 Pour plus d’informations, voir [Module d’agrégation dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 

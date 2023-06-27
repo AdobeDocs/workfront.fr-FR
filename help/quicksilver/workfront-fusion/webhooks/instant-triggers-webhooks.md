@@ -7,9 +7,9 @@ description: De nombreux services fournissent des webhooks pour envoyer des noti
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 04191419ab6079cc34576b5a7532cd1596e4b91d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,15 +87,13 @@ Dans ce cas, votre scénario s’exécute immédiatement lorsque [!DNL Workfront
 >
 >* Un cycle n’est pas la même chose qu’une exécution de scénario. Il peut y avoir plusieurs cycles dans un scénario exécuté.
 >* Lorsque vous exécutez un scénario avec un déclencheur instantané programmé pour être immédiat, les exceptions suivantes s’appliquent :
-   >
-   >     * L’intervalle entre deux exécutions n’est pas soumis à l’intervalle minimum conformément au plan de tarification.
-
-      >
-      >       Par exemple, une fois l’exécution du scénario terminée, la file d’attente du webhook est de nouveau vérifiée. S’il existe des webhooks en attente, le scénario s’exécute à nouveau immédiatement, en traitant à nouveau tous les webhooks en attente.
-   >   
-   >     * Le paramètre de scénario Nombre maximum de cycles est ignoré et défini sur 100, ce qui signifie qu’aucun plus de 100 webhooks en attente ne sera traité lors d’une seule exécution de scénario (à la vitesse d’1 événement par cycle).
 >
-
+>     * L’intervalle entre deux exécutions n’est pas soumis à l’intervalle minimum conformément au plan de tarification.
+>
+>       Par exemple, une fois l’exécution du scénario terminée, la file d’attente du webhook est de nouveau vérifiée. S’il existe des webhooks en attente, le scénario s’exécute à nouveau immédiatement, en traitant à nouveau tous les webhooks en attente.
+>   
+>     * Le paramètre de scénario Nombre maximum de cycles est ignoré et défini sur 100, ce qui signifie qu’aucun plus de 100 webhooks en attente ne sera traité lors d’une seule exécution de scénario (à la vitesse d’1 événement par cycle).
+>
 
 
 Si vous utilisez un autre paramètre de planification que [!UICONTROL Immédiatement], le scénario s’exécute aux intervalles que vous spécifiez. Comme plusieurs webhooks peuvent être rassemblés dans la file d’attente pendant l’intervalle, il est recommandé de définir la variable [[!UICONTROL Nombre maximum de cycles]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) à une valeur supérieure à la valeur par défaut 1 pour traiter plus de webhooks dans un scénario exécuté :

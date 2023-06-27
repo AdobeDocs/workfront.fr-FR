@@ -8,9 +8,9 @@ description: Un module Itérateur est un type spécial de module qui convertit u
 author: Becky
 feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
-source-git-commit: a2060e7179f2295bfd42da84bd7bca9862ad0a17
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,11 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
@@ -65,15 +69,14 @@ Pour plus d’informations, voir [Configuration des paramètres d’un module da
 >**Exemples:**
 >
 >* Le scénario ci-dessous montre comment récupérer des emails avec des pièces jointes et enregistrer les pièces jointes en tant que fichiers uniques dans une sélection [!DNL Dropbox] dossier.
-   >
-   >   Les emails peuvent contenir un tableau de pièces jointes. Le [!UICONTROL Itérateur] module inséré après le premier module vous permettra de gérer chaque pièce jointe séparément. Le [!UICONTROL Itérateur] divise le tableau de pièces jointes en lots uniques. Chaque lot, accompagné d’une pièce jointe, est ensuite enregistré un par un dans une sélection [!DNL Dropbox] dossier. Le [!UICONTROL Itérateur] la configuration du module est illustrée ci-dessus : la valeur [!UICONTROL Tableau] doit contenir le champ `Attachments` tableau.
-   >
-   >   ![](assets/attachments-array-350x154.jpg)
+>
+>   Les emails peuvent contenir un tableau de pièces jointes. Le [!UICONTROL Itérateur] module inséré après le premier module vous permettra de gérer chaque pièce jointe séparément. Le [!UICONTROL Itérateur] divise le tableau de pièces jointes en lots uniques. Chaque lot, accompagné d’une pièce jointe, est ensuite enregistré un par un dans une sélection [!DNL Dropbox] dossier. Le [!UICONTROL Itérateur] la configuration du module est illustrée ci-dessus : la valeur [!UICONTROL Tableau] doit contenir le champ `Attachments` tableau.
+>
+>   ![](assets/attachments-array-350x154.jpg)
 >
 >* Pour votre commodité, de nombreuses [!DNL Workfront Fusion] offre d’applications spécialisée [!UICONTROL Itérateur] modules avec une configuration simplifiée. Par exemple, la variable [!UICONTROL Email] L’application contient le [!UICONTROL Itérateur] module [!UICONTROL Email] > [!UICONTROL Itérer les pièces jointes] qui produira les mêmes résultats que le général [!UICONTROL Itérateur] module .
-   >
-   >   ![](assets/specialized-iterators-350x135.jpg)
-
+>
+>   ![](assets/specialized-iterators-350x135.jpg)
 
 
 ## Dépannage : Le panneau de mappage n’affiche pas les éléments mappables sous [!UICONTROL Itérateur] module

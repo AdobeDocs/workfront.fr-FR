@@ -7,9 +7,9 @@ description: Ce scénario vous permet de créer un journal de tous les emails et
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,11 +149,13 @@ Ajouter le premier module et le configurer
 
    * Si vous souhaitez rechercher uniquement les adresses électroniques, vous pouvez utiliser l’expression régulière suivante :
 
-      ([\w.-]+@[\w.-]+)
+     ([\w.-]+@[\w.-]+)
 
    * Vous pouvez également rechercher uniquement les numéros de téléphone en utilisant l’expression régulière ci-dessous :
 
-      ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4} Le modèle ci-dessus couvre les formats les plus courants dans lesquels un numéro de téléphone est écrit.
+     ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4}
+Le modèle ci-dessus couvre les formats les plus courants dans lesquels un numéro de téléphone est écrit.
+
    Pour tester vos modèles, nous vous recommandons d’utiliser [[!DNL https://regex101.com]](https://regex101.com/) avec [!DNL javascript] comme le Flavor.
 
    Le reste de la configuration reste le même que précédemment.
@@ -196,21 +206,21 @@ Pour [!DNL Sheets], nous devons d’abord créer une feuille de calcul avec les 
 
       * Contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; (et aucune adresse électronique)
 
-         ![](assets/text-parser-module-350x103.png)
+        ![](assets/text-parser-module-350x103.png)
 
       * Contenant l’expression ci-dessus et une adresse électronique
 
-         ![](assets/above-phrase-and-email-350x106.png)
+        ![](assets/above-phrase-and-email-350x106.png)
 
-         Si votre configuration ne comporte aucune erreur, vous verrez que la première feuille de calcul capture tous les emails contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; tandis que la seconde feuille de calcul capture uniquement les feuilles contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; et une adresse électronique. Reportez-vous aux captures d’écran ci-dessous.
+        Si votre configuration ne comporte aucune erreur, vous verrez que la première feuille de calcul capture tous les emails contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; tandis que la seconde feuille de calcul capture uniquement les feuilles contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; et une adresse électronique. Reportez-vous aux captures d’écran ci-dessous.
 
-         Feuille de calcul 1 :
+        Feuille de calcul 1 :
 
-         ![](assets/worksheet-1-350x57.png)
+        ![](assets/worksheet-1-350x57.png)
 
-         Feuille de calcul 2 :
+        Feuille de calcul 2 :
 
-         ![](assets/worksheet-2-350x41.png)
+        ![](assets/worksheet-2-350x41.png)
 
 ## Ressources
 

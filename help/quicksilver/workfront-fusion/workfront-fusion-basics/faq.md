@@ -8,9 +8,9 @@ description: Cet article traite des questions courantes relatives aux [!DNL Adob
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +90,7 @@ Pour plus d’informations, voir [[!UICONTROL Email] modules](../../workfront-fu
 
 ### Réponse
 
-Les scénarios courants sont exécutés à intervalles réguliers selon le planning que vous spécifiez (par exemple, toutes les heures, toutes les 5 minutes, une fois par mois, etc.). Il existe des déclencheurs spéciaux, appelés déclencheurs instantanés (webhooks), qui peuvent démarrer votre scénario immédiatement après avoir reçu des données d’un service donné. Les déclencheurs instantanés peuvent être extrêmement utiles. Nous vous recommandons de les utiliser dans la mesure du possible. Elles permettent de réduire le nombre d’opérations. Les données reçues sont traitées immédiatement sans attendre la prochaine exécution planifiée. Par exemple, la variable [!DNL Google Sheets] module [!UICONTROL Watch Changes] démarre un scénario immédiatement après la mise à jour d’une cellule .
+Les scénarios courants sont exécutés à intervalles réguliers selon le planning que vous spécifiez (par exemple, toutes les heures, toutes les 5 minutes, une fois par mois, etc.). Il existe des déclencheurs spéciaux, appelés déclencheurs instantanés (webhooks), qui peuvent démarrer votre scénario immédiatement après avoir reçu des données d’un service donné. Les déclencheurs instantanés peuvent être extrêmement utiles. Nous vous recommandons de les utiliser dans la mesure du possible. Elles permettent de réduire le nombre d’opérations. Les données reçues sont traitées immédiatement sans attendre la prochaine exécution planifiée. Par exemple, la variable [!DNL Google Sheets] module [!UICONTROL Watch Changes] lance un scénario immédiatement après la mise à jour d’une cellule.
 
 ## Que sont les agrégateurs ?
 
@@ -102,7 +110,7 @@ Une opération est une tâche effectuée par un module. Une opération se produi
 
 ### Réponse
 
-Le transfert de données fait référence à la quantité de données transférées par le biais de votre scénario. Supposons, par exemple, que vous ayez un scénario qui récupère une image de 100 Ko à partir du FTP et réduit sa taille à 50 Ko, puis enregistre les deux images dans [!DNL Dropbox]. La quantité de données utilisée dans ce scénario est de 150 Ko.
+Le transfert de données fait référence à la quantité de données transférées par le biais de votre scénario. Supposons, par exemple, que vous ayez un scénario qui récupère une image de 100 Ko à partir du FTP et réduit sa taille à 50 Ko, puis enregistre les deux images dans [!DNL Dropbox]. La quantité de données utilisée dans ce scénario est de 250 Ko.
 
 ## Qu&#39;est-ce qu&#39;une connexion ?
 

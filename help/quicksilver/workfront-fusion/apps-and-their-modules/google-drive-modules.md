@@ -9,9 +9,9 @@ description: Le [!DNL Adobe Workfront Fusion Google Drive] Les modules vous perm
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2956'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -730,17 +738,17 @@ Tenez compte des points suivants concernant les opérateurs dans ces champs :
 
 * Le `contains` n’effectue qu’une correspondance de préfixe pour un `title`.
 
-   Par exemple, le titre &quot;HelloWorld&quot; correspond à `title contains 'Hello'` mais pas pour `title contains 'World'`.
+  Par exemple, le titre &quot;HelloWorld&quot; correspond à `title contains 'Hello'` mais pas pour `title contains 'World'`.
 
 * Le `contains` n’effectue la correspondance que sur des jetons de chaîne entiers pour `fullText`.
 
-   Par exemple, si le texte intégral d’un document contient la chaîne &quot;HelloWorld&quot; uniquement la requête `fullText contains 'HelloWorld'` renvoie un résultat. Requêtes telles que `fullText contains 'Hello'` ne renvoie pas de résultats dans ce scénario.
+  Par exemple, si le texte intégral d’un document contient la chaîne &quot;HelloWorld&quot; uniquement la requête `fullText contains 'HelloWorld'` renvoie un résultat. Requêtes telles que `fullText contains 'Hello'` ne renvoie pas de résultats dans ce scénario.
 
 * Le `contains` correspond à une expression alphanumérique exacte si elle est entourée de guillemets doubles.
 
-   Par exemple, si la variable `fullText` d’un doc contient la chaîne &quot;Hello There world&quot;, puis la requête `fullText contains '"Hello there"'` renvoie un résultat, mais la requête `fullText contains '"Hello world"'` ne le fait pas.
+  Par exemple, si la variable `fullText` d’un doc contient la chaîne &quot;Hello There world&quot;, puis la requête `fullText contains '"Hello there"'` renvoie un résultat, mais la requête `fullText contains '"Hello world"'` ne le fait pas.
 
-   En outre, la recherche étant alphanumérique, si la variable `fullText` d’un document contient la chaîne &quot;Hello_world&quot;, puis la requête `fullText contains '"Hello world"'` renvoie un résultat.
+  En outre, la recherche étant alphanumérique, si la variable `fullText` d’un document contient la chaîne &quot;Hello_world&quot;, puis la requête `fullText contains '"Hello world"'` renvoie un résultat.
 
 * Champs de `type` Les dates ne sont actuellement pas comparables les unes aux autres, mais uniquement à des dates constantes.
 
@@ -842,55 +850,38 @@ Pour les clauses composites, vous pouvez utiliser des parenthèses pour regroupe
 Tous les exemples de cette page affichent non codé `<q>q</q>` où `title = 'hello'` est codé en tant que `title+%3d+%27hello%27`. Les bibliothèques clientes gèrent ce codage automatiquement.
 
 * Recherchez des fichiers portant le nom &quot;hello&quot;.
-
-   <pre>title = 'hello'</pre>
+  <pre>title = 'hello'</pre>
 * Recherche de dossiers à l’aide du type MIME spécifique au dossier
-
-   <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
 * Recherche de fichiers qui ne sont pas des dossiers
-
-   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
 * Recherchez des fichiers dont le nom contient les mots &quot;hello&quot; et &quot;goodbye&quot;.
-
-   <pre>Le titre contient "hello" et [!UICONTROL name] contient "goodbye"</pre>
+  <pre>Le titre contient "hello" et [!UICONTROL name] contient "goodbye"</pre>
 * Recherchez des fichiers dont le nom ne contient pas le mot &quot;hello&quot;.
-
-   <pre>pas le titre contient "hello"</pre>
+  <pre>pas le titre contient "hello"</pre>
 * Recherchez des fichiers contenant le mot &quot;hello&quot; dans le contenu.
-
-   <pre>fullText contient "hello"</pre>
+  <pre>fullText contient "hello"</pre>
 * Recherchez des fichiers ne contenant pas le mot &quot;hello&quot; dans le contenu.
-
-   <pre>not fullText contient "hello"</pre>
+  <pre>not fullText contient "hello"</pre>
 * Recherchez des fichiers contenant l’expression exacte &quot;hello world&quot; dans le contenu.
-
-   <pre>fullText contient "hello world"'fullText contient "hello_world"</pre>
+  <pre>fullText contient "hello world"'fullText contient "hello_world"</pre>
 * Recherchez des fichiers avec une requête contenant le caractère &quot;\&quot; (par exemple, &quot;\authors&quot;).
-
-   <pre>fullText contient "\\authors"</pre>
+  <pre>fullText contient "\\authors"</pre>
 * Recherchez des fichiers pouvant être écrits par l’utilisateur &quot;test@example.org&quot;.
-
-   <pre>'test@example.org' dans [!DNL writers]</pre>
+  <pre>'test@example.org' dans [!DNL writers]</pre>
 * Recherche de l’ID `1234567` dans le `parents` collection. Tous les fichiers et dossiers situés directement dans le dossier dont l’ID est `1234567`.
-
-   <pre>"1234567" dans [!UICONTROL parents]</pre>
+  <pre>"1234567" dans [!UICONTROL parents]</pre>
 * Recherchez l’ID d’alias. `appDataFolder` dans le `parents` collection. Tous les fichiers et dossiers situés directement sous le [Dossier des données d’application](https://developers.google.com/drive/api/v2/appdata).
-
-   <pre>'appDataFolder' dans les parents</pre>
+  <pre>'appDataFolder' dans les parents</pre>
 * Recherchez des fichiers pouvant être écrits par les utilisateurs &quot;test@example.org&quot; et &quot;test2@example.org&quot;.
-
-   <pre>'test@example.org' dans les auteurs et 'test2@example.org' dans les auteurs</pre>
+  <pre>'test@example.org' dans les auteurs et 'test2@example.org' dans les auteurs</pre>
 * Recherchez les fichiers contenant le texte &quot;important&quot; qui se trouvent dans la corbeille.
-
-   <pre>fullText contient "important" et trashed = true</pre>
+  <pre>fullText contient "important" et trashed = true</pre>
 * Recherche de fichiers modifiés après le 4 juin 2012
-
-   <pre>modifiedDate &gt; '2012-06-04T12:00:Fuseau horaire par défaut 00' // UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
+  <pre>modifiedDate &gt; '2012-06-04T12:00:Fuseau horaire par défaut 00' // UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
 * Recherchez des fichiers partagés avec l’utilisateur autorisé dont le nom contient &quot;hello&quot;.
-
-   <pre>sharedWithMe et le titre contient "hello"</pre>
+  <pre>sharedWithMe et le titre contient "hello"</pre>
 * Recherchez des fichiers avec une [propriété de fichier personnalisée](https://developers.google.com/drive/api/v2/properties) named `additionalID` avec la valeur `8e8aceg2af2ge72e78`.
-
-   <pre>Les propriétés ont { key='additionalID' et value='8e8aceg2af2ge72e78' et visibility='PRIVATE' }</pre>
+  <pre>Les propriétés ont { key='additionalID' et value='8e8aceg2af2ge72e78' et visibility='PRIVATE' }</pre>
 
 Source de ce guide : [[!DNL Google Drive] documentation](https://developers.google.com/drive/api/v2/search-shareddrives).

@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1844'
 ht-degree: 1%
 
 ---
@@ -42,11 +42,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -272,8 +280,8 @@ Ce module d’action lit un seul enregistrement.
      <li> <p><b>Modèle</b> </p> <p>Sélectionnez ou mappez l’identifiant du modèle à lire.</p> </li> 
      <li> <p><b>Liste de modèles</b> </p> <p>Sélectionnez ou mappez les identifiants de l’espace de travail et du modèle qui contiennent la liste que vous souhaitez lire, puis sélectionnez la liste. Dans le champ [!UICONTROL Type de données], indiquez si vous souhaitez lire des données ou des métadonnées.</p> </li> 
      <li> <p><b>Version du modèle</b> </p> <p>Sélectionnez ou mappez l’identifiant du modèle que vous souhaitez lire.</p> </li> 
-     <li> <p><b>Utilisateur</b> </p> <p>Indiquez si vous souhaitez renvoyer des données sur le propriétaire du compte utilisé ou sur un autre utilisateur. Si vous sélectionnez un autre utilisateur, sélectionnez son nom.</p> </li> 
-     <li> <p><b>Workspace</b> </p> <p>Sélectionnez ou mappez l’identifiant de l’espace de travail que vous souhaitez lire.</p> </li> 
+     <li> <p><b>Utilisateur ou utilisatrice</b> </p> <p>Indiquez si vous souhaitez renvoyer des données sur le propriétaire du compte utilisé ou sur un autre utilisateur. Si vous sélectionnez un autre utilisateur, sélectionnez son nom.</p> </li> 
+     <li> <p><b>Espace de travail</b> </p> <p>Sélectionnez ou mappez l’identifiant de l’espace de travail que vous souhaitez lire.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

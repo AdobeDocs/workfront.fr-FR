@@ -9,9 +9,9 @@ description: Les modules Adobe Workfront Fusion Google Slides vous permettent de
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -241,7 +249,32 @@ Crée une nouvelle présentation en remplaçant toutes les balises telles que `{
    <td> <p>Ajoutez les valeurs :</p> 
     <ul> 
      <li><strong>[!UICONTROL Tag]</strong>: Saisissez la balise à remplacer dans la présentation. Par exemple, <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Valeur remplacée]</strong>: Saisissez la valeur avec laquelle la balise existante doit être remplacée. Par exemple, si une chaîne <code>&#123;&#123;Name}}</code><code>Sample</code></li></ul></td></tr><tr><td role="rowheader"></td><td><p></p><ul><li></li><li></li><li></li></ul></td></tr><tr><td role="rowheader"><p></p></td><td><p></p></td></tr><tr><td role="rowheader"></td><td><p></p></td></tr><tr><td role="rowheader"></td><td><p></p></td></tr></tbody></table>
+     <li><strong>[!UICONTROL Valeur remplacée]</strong>: Saisissez la valeur avec laquelle la balise existante doit être remplacée. Par exemple, si une chaîne <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+    </ul> </td> 
+  </tr> 
+   
+   <td role="rowheader">[!UICONTROL New Drive Location]</td> 
+   <td> <p>Select the [!DNL Google Drive] where you want to store or add the new presentation:</p> 
+     
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared With Me]</li> 
+     <li>[!UICONTROL [!DNL Google] Shared Drive]</li> 
+    </ul> </td> 
+  </tr> 
+   
+   <td role="rowheader"> <p>[!UICONTROL New Document's Location]</p> </td> 
+   <td> <p>Select the folder where you want to store or add the presentation.</p> </td> 
+  </tr> 
+   
+   <td role="rowheader">[!UICONTROL Shared] </td> 
+   <td> <p>Select if you want to share the presentation.</p> </td> 
+  </tr> 
+   
+   <td role="rowheader">[!UICONTROL Sharing with Other's Email Address]</td> 
+   <td> <p> Enter the email address with whom you want to share the presentation. If you are not entering an email address and selecting only shared field, the presentation is shareable to anyone.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Chargement d’une image vers une présentation]
 

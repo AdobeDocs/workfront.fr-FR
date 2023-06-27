@@ -8,10 +8,10 @@ description: Les fonctions générales suivantes sont disponibles dans le pannea
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 2%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
@@ -35,11 +35,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p><p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +69,6 @@ Renvoie le chemin d’accès à la valeur d’un objet ou d’un tableau. Pour a
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
-
 ## [!UICONTROL if (expression) value1; value2)]
 
 Renvoie le `value1` si l’expression est évaluée à true ; Sinon, elle renvoie la variable `value2`.
@@ -71,13 +78,12 @@ Renvoie le `value1` si l’expression est évaluée à true ; Sinon, elle renvoi
 >**Exemples:**
 >
 >* `if( 1 = 1 ; A ; B )`
-   >
-   >    Renvoie A
+>
+>    Renvoie A
 >
 >* `if( = 2 ; A ; B )`
-   >
-   >   Renvoie B
-
+>
+>   Renvoie B
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -88,17 +94,16 @@ Renvoie le `value1` si cette valeur n’est pas vide ; Sinon, elle renvoie la va
 >**Exemples:**
 >
 >* `ifempty(` `A` `;` `B` )
-   >
-   >   Renvoie A
+>
+>   Renvoie A
 >
 >* `ifempty(` `unknown` `;` `B` )
-   >
-   >   Renvoie B
+>
+>   Renvoie B
 >
 >* `ifempty(` `""` `;` `B` )
-   >
-   >   Renvoie B
-
+>
+>   Renvoie B
 
 ## [!UICONTROL switch (expression); value1; result1; [value2; result2; ...]; [else])]
 
@@ -109,12 +114,12 @@ Renvoie le `value1` si cette valeur n’est pas vide ; Sinon, elle renvoie la va
 >**Exemples:**
 >
 >* `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
-   >
-   >   Renvoie 2
+>
+>   Renvoie 2
 >
 >* `switch( C ; A ; 1 ; B ; 2 ; C ; 3 )`
-   >
-   >   Renvoie 3
+>
+>   Renvoie 3
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >

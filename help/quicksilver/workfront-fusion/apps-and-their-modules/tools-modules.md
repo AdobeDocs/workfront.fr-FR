@@ -8,9 +8,9 @@ description: Le [!DNL Adobe Workfront Fusion Tools] comprend plusieurs modules u
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2290'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -112,7 +120,6 @@ Ce module peut lire les variables qui ont été définies n’importe où dans l
 >* Pour déboguer une formule. Si une formule utilisée dans un module ne semble pas donner un résultat correct, copiez-la et collez-la dans un [!UICONTROL Définir la variable] que vous insérez avant le module correspondant. Déconnectez le ou les modules après la [!UICONTROL Définir la variable] et exécutez le scénario. Vérifiez les [!UICONTROL Définir la variable] sortie du module, ajustez ou simplifiez la formule, exécutez à nouveau le scénario, puis continuez jusqu’à ce que le problème soit résolu.
 
 
-
 #### [!UICONTROL Get Variable]
 
 Ce module récupère une valeur qui a été créée précédemment par la fonction [!UICONTROL Définir la variable] ou [!UICONTROL Définition de plusieurs variables] module .
@@ -163,7 +170,6 @@ Ce module renvoie une valeur incrémentée de 1 après l’opération de chaque 
 >1. Pour créer ce scénario :
 >1. Définissez la variable **[!UICONTROL Réinitialiser une valeur]** sur Jamais.
 >1. Définissez l’itinéraire des valeurs impaires. Définissez le filtre pour cet itinéraire à l’aide de la fonction mathématique modulaire qui est égale à `1`:
-
 >
 >   ![](assets/odd-350x459.png)
 >

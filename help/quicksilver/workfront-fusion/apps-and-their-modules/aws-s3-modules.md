@@ -9,10 +9,10 @@ description: Le [!DNL Adobe Workfront Fusion AWS] Les modules S3 vous permettent
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 0%
+source-wordcount: '1429'
+ht-degree: 1%
 
 ---
 
@@ -38,11 +38,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +97,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 * [[!UICONTROL Créer un compartiment]](#create-bucket)
 * [[!UICONTROL Obtenir le fichier]](#get-file)
-* [[!UICONTROL Télécharger fichier]](#upload-file)
+* [[!UICONTROL Charger fichier]](#upload-file)
 * [[!UICONTROL Lancer un appel API]](#make-an-api-call)
 
 #### [!UICONTROL Créer un compartiment]
@@ -140,7 +148,7 @@ Télécharge un fichier depuis un compartiment.
  </tbody> 
 </table>
 
-#### [!UICONTROL Télécharger fichier]
+#### [!UICONTROL Charger fichier]
 
 <table style="table-layout:auto">
  <col> 

@@ -8,9 +8,9 @@ description: Un webhook est un appel HTTP déclenché par un événement. Vous p
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL Fusion Workfront pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -211,9 +219,7 @@ Content-Type: application/json
 >1. Cliquez sur **[!UICONTROL Ajouter]** pour ajouter un nouveau webhook.
 >1. Cliquez sur **[!UICONTROL Afficher les paramètres avancés]**.
 >1. Cliquez sur **[!UICONTROL Diffusion JSON]**.
-
 >
-
 
 ## En-têtes Webhook
 
@@ -264,9 +270,9 @@ La configuration du module contient deux champs : [!UICONTROL État] et [!UICONT
 
 * Le [!UICONTROL Corps] contient tout ce qui sera accepté par l’appel du webhook. Il peut s’agir de texte simple, de HTML, de code XML, de code JSON, etc.
 
-   >[!TIP]
-   >
-   >Nous vous recommandons de définir la variable `Content-Type` en-tête du type MIME correspondant : `text/plain` pour le texte brut, `text/html` pour le HTML, `application/json` pour JSON, `application/xml` pour XML, etc. Pour plus d’informations sur les types MIME, voir [Modules MIME](../../workfront-fusion/apps-and-their-modules/mime.md).
+  >[!TIP]
+  >
+  >Nous vous recommandons de définir la variable `Content-Type` en-tête du type MIME correspondant : `text/plain` pour le texte brut, `text/html` pour le HTML, `application/json` pour JSON, `application/xml` pour XML, etc. Pour plus d’informations sur les types MIME, voir [Modules MIME](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 Le délai d’expiration pour l’envoi d’une réponse est de 40 secondes. Si la réponse n’est pas disponible au cours de cette période, Workfront Fusion renvoie un état &quot;200 Accepted&quot;.
 

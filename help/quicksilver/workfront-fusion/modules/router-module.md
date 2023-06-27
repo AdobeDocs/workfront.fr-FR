@@ -8,9 +8,9 @@ description: Le module Router vous permet de diviser votre flux en plusieurs iti
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c39c562-1cee-4f8e-89cc-0ed554079a2b
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Le [!UICONTROL Routeur] vous permet de diviser votre flux en plusieurs itinérai
 >
 >* Les itinéraires sont traités de manière séquentielle, et non en parallèle. Un lot n’est pas envoyé vers l’itinéraire suivant tant qu’il n’a pas été complètement traité par l’itinéraire précédent.
 >
-
 
 
 
@@ -49,11 +48,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,15 +75,15 @@ A [!UICONTROL Routeur] peut être ajouté à un scénario de l’une des manièr
 
 * Si vous souhaitez connecter la variable [!UICONTROL Routeur] après un module, cliquez sur la poignée droite du module, puis commencez à saisir **[!UICONTROL routeur]** pour la rechercher, puis choisissez **[!UICONTROL Contrôle de flux]** > **[!UICONTROL Routeur]** dans la liste des modules qui s’affiche.
 
-   ![](assets/connect-the-router-350x108.png)
+  ![](assets/connect-the-router-350x108.png)
 
 * Si vous souhaitez insérer la variable [!UICONTROL Routeur] module entre deux modules, cliquez sur l&#39;icône en forme de clé à molette sous l&#39;itinéraire reliant les deux modules (ou cliquez avec le bouton droit de la souris sur l&#39;itinéraire) et choisissez **[!UICONTROL Ajouter un routeur]** dans le menu.
 
-   ![](assets/insert-router-350x191.png)
+  ![](assets/insert-router-350x191.png)
 
 * Vous pouvez insérer une [!UICONTROL Routeur] module automatiquement. Par exemple, dans l’image ci-dessous, pour connecter le module dans le coin inférieur droit à celui dans le coin supérieur gauche (qui est déjà connecté à celui dans le coin supérieur droit), faites glisser la poignée gauche du module inférieur droit et déposez-le dans le module supérieur gauche.
 
-   ![](assets/insert-router-automatically-350x379.png)
+  ![](assets/insert-router-automatically-350x379.png)
 
 ## Filtres
 

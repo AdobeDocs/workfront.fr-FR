@@ -9,9 +9,9 @@ description: Avec le [!DNL Adobe Acrobat Sign] modules, vous pouvez lancer une [
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 8bb97b08bb5991fadbf2627f4ebfdaa25ae337ce
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '6579'
+source-wordcount: '6627'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>  </td>  
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +61,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 ## [!DNL Adobe Acrobat Sign] recommandations relatives à l&#39;utilisation des connecteurs
 
-Le [!DNL Adobe Sign ]l’application automatise les processus d’entreprise eSignature dans [!DNL Fusion] plus facile et plus puissant.
+Le [!DNL Adobe Sign]l’application automatise les processus d’entreprise eSignature dans [!DNL Fusion] plus facile et plus puissant.
 
 Nouveaux utilisateurs pour [!DNL Adobe Sign] Il faut prêter une attention particulière à certaines des contraintes liées à la mise à jour des accords. Les accords ne sont généralement pas modifiés une fois démarrés. Nous recommandons aux nouveaux utilisateurs de [!DNL Adobe Sign] se concentrer sur la création de nouveaux accords à l&#39;aide du module de création des accords. Cela aura pour effet de [!DNL Fusion] automatisation plus facile et utilisation plus efficace [!DNL Adobe Sign].
 
@@ -754,7 +762,6 @@ Ce module d’action met à jour un seul enregistrement dans [!DNL Adobe Acrobat
 
 
 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -813,7 +820,6 @@ Ce module d’action met à jour les enregistrements liés à un objet spécifiq
 >* En règle générale, si vous anticipez des changements substantiels à un accord, nous vous recommandons de créer un nouvel accord plutôt que de le mettre à jour.
 >* Certaines mises à jour comportent des champs obligatoires. Lorsque vous configurez votre mise à jour, veillez à renseigner tous les champs requis. Les champs obligatoires sont en gras dans la [!DNL Workfront Fusion] modules.
 >
-
 
 
 

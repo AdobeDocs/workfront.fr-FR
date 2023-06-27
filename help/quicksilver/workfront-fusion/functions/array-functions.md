@@ -8,9 +8,9 @@ description: Les fonctions de tableau suivantes sont disponibles dans le panneau
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p><p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,11 +100,11 @@ Renvoie un tableau primitif contenant les valeurs d’un tableau complexe. Cette
 >**Exemples:**
 >
 >* `map(Emails[];email)`
-  >
+>
 >  Renvoie un tableau primitif avec des emails
 >
 >* `map(Emails[];email;label;work;home)`
-  >
+>
 >  Renvoie un tableau primitif avec des emails dont le libellé est égal au travail ou à la maison
 
 Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
@@ -124,19 +132,19 @@ Trie les valeurs d’un tableau. Les valeurs valides de la variable `order` sont
 
 * `asc`
 
-   (par défaut) - Ordre croissant : 1, 2, 3, ... pour le type Nombre. A, B, C, a, b, c, etc. pour le type Texte
+  (par défaut) - Ordre croissant : 1, 2, 3, ... pour le type Nombre. A, B, C, a, b, c, etc. pour le type Texte
 
 * `desc`
 
-   ordre décroissant : ..., 3, 2, 1 pour le type Nombre. ..., c, b, a, C, B, A pour le type Texte.
+  ordre décroissant : ..., 3, 2, 1 pour le type Nombre. ..., c, b, a, C, B, A pour le type Texte.
 
 * `asc ci`
 
-   ordre croissant non sensible à la casse : A, a, B, b, C, c, ... pour le type Texte.
+  ordre croissant non sensible à la casse : A, a, B, b, C, c, ... pour le type Texte.
 
 * `desc ci`
 
-   ordre décroissant non sensible à la casse : ..., C, c, B, b, A, a pour le type Texte.
+  ordre décroissant non sensible à la casse : ..., C, c, B, b, A, a pour le type Texte.
 
 Utilisez la variable `key` pour accéder aux propriétés dans des objets complexes.
 
@@ -151,21 +159,20 @@ Le premier élément d’un tableau est index 1.
 >**Exemples:**
 >
 >* `sort(Contacts[];name)`
-   >
-   >    Trie un tableau de contacts par propriété &quot;name&quot; dans l’ordre croissant par défaut.
+>
+>    Trie un tableau de contacts par propriété &quot;name&quot; dans l’ordre croissant par défaut.
 >
 >* `sort(Contacts[];desc;name)`
-   >
-   >   Trie un tableau de contacts par propriété &quot;name&quot; dans l’ordre décroissant.
+>
+>   Trie un tableau de contacts par propriété &quot;name&quot; dans l’ordre décroissant.
 >
 >* `sort(Contacts[];asc ci;name)`
-   >
-   >    Trie un tableau de contacts par propriété &quot;name&quot; dans l’ordre croissant sans distinction de la casse.
+>
+>    Trie un tableau de contacts par propriété &quot;name&quot; dans l’ordre croissant sans distinction de la casse.
 >
 >* `sort(Emails[];sender.name)`
-   >
-   >    Trie un tableau d’emails par la propriété &quot;sender.name&quot;
-
+>
+>    Trie un tableau d’emails par la propriété &quot;sender.name&quot;
 
 ## [!UICONTROL arrayDifference [tableau1, tableau2, mode]]
 
@@ -177,33 +184,30 @@ Saisissez l’une des valeurs suivantes pour la variable `mode` .
 
 * `symmetric`: Renvoie un tableau d’éléments qui ne sont pas communs aux deux tableaux.
 
-   En d’autres termes, la fonction renvoie un tableau contenant tous les éléments de la variable `array1` qui n’existent pas dans `array2`et tous les éléments de la variable `array2` qui n’existent pas dans `array1`.
+  En d’autres termes, la fonction renvoie un tableau contenant tous les éléments de la variable `array1` qui n’existent pas dans `array2`et tous les éléments de la variable `array2` qui n’existent pas dans `array1`.
 
-   >[!INFO]
-   >
-   >**Exemples:**
-   >
-   >Compte tenu des tableaux suivants :
-   >
-   >
-   ```
-   >myArray = [1,2,3,4,5]
-   >```
-   >
-   >
-   ```
-   >yourArray = [3,4,5,6,7]
-   >```
-   >
-   >* `arrayDifference [myArray, yourArray, classic]`
-      >
-      >    Renvoie `[1,2]`
-   >
-   >* `arrayDifference [yourArray, myArray, classic]`
-      >
-      >    Renvoie `[6,7]`
-   >
-   >* `arrayDifference [myArray, yourArray, symmetric]`
-      >
-      >    Renvoie `[1,2,6,7]`
-
+  >[!INFO]
+  >
+  >**Exemples:**
+  >
+  >Compte tenu des tableaux suivants :
+  >
+  >```
+  >myArray = [1,2,3,4,5]
+  >```
+  >
+  >```
+  >yourArray = [3,4,5,6,7]
+  >```
+  >
+  >* `arrayDifference [myArray, yourArray, classic]`
+  >
+  >    Renvoie `[1,2]`
+  >
+  >* `arrayDifference [yourArray, myArray, classic]`
+  >
+  >    Renvoie `[6,7]`
+  >
+  >* `arrayDifference [myArray, yourArray, symmetric]`
+  >
+  >    Renvoie `[1,2,6,7]`

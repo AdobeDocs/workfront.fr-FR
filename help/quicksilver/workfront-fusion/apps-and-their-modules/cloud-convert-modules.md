@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '3041'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,19 @@ Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser les workflows 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -483,7 +491,6 @@ Déclenche lorsqu’une tâche dans votre compte ou tâche est créée, terminé
 >* Le [!UICONTROL Nouvel événement de tâche] se déclenche également lorsqu’un événement *individu* est créée, a terminé ou a échoué.
 >
 
-
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -787,9 +794,7 @@ Consultez le tableau suivant pour connaître les erreurs possibles et leurs solu
 >
 >1. Ouvrez les paramètres du module.
 >1. Configurez le module comme illustré ci-dessous :
-
 >
 >   ![](assets/cloudconvert-mp4-example.png)
 >
 >1. Veillez à inclure tous les paramètres dans le champ Conversion et options spécifiques au moteur : pour chaque paramètre de l’étape 5, recherchez le paramètre correspondant de l’étape 13 et sa valeur correspondante.
-

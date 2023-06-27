@@ -8,10 +8,10 @@ description: Les fonctions mathématiques suivantes sont disponibles dans le pan
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
@@ -35,11 +35,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p><p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>  </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,13 +69,12 @@ Renvoie le plus petit entier supérieur ou égal à un nombre spécifié.
 >**Exemples:**
 >
 >* `ceil(` `1.2` `)`
-   >
-   >   Renvoie 2
+>
+>   Renvoie 2
 >
 >* `ceil(` `4` `)`
-   >
-   >   Renvoie 4
-
+>
+>   Renvoie 4
 
 ## [!UICONTROL floor (number)]
 
@@ -78,17 +85,16 @@ Renvoie le plus grand entier inférieur ou égal à un nombre spécifié.
 >**Exemples:**
 >
 >* `floor(` `1.2` `)`
-   >
-   >   Renvoie 1
+>
+>   Renvoie 1
 >
 >* `floor(` `1.9` `)`
-   >
-   >   Renvoie 1
+>
+>   Renvoie 1
 >
 >* `floor(` `4` `)`
-   >
-   >   Renvoie 4
-
+>
+>   Renvoie 4
 
 ## [!UICONTROL formatNumber (number); decimalPOINTS; [decimalSeparator]; [millierSeparator])]
 
@@ -123,21 +129,20 @@ Arrondit une valeur numérique à l’entier le plus proche.
 >**Exemples:**
 >
 >* `round(` `1.2` `)`
-   >
-   >   Renvoie 1
+>
+>   Renvoie 1
 >
 >* `round(` `1.5` `)`
-   >
-   >   Renvoie 2
+>
+>   Renvoie 2
 >
 >* `round(` `1.7` `)`
-   >
-   >   Renvoie 2
+>
+>   Renvoie 2
 > 
 >* `round(` `2` `)`
-   >
-   >   Renvoie 2
-
+>
+>   Renvoie 2
 
 ## [!UICONTROL sum ([tableau de valeurs]), sum(value1; value2; ...)]
 

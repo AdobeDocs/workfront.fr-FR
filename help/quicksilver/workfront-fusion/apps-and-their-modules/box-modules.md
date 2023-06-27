@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] vous pouvez automatiser les w
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,7 +160,6 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 >
 >* La taille du fichier peut dépasser la taille maximale autorisée pour votre [!DNL Box] ou vous avez peut-être utilisé l’ensemble de vos [!DNL Box] quota de stockage du compte. Pour obtenir plus d’espace de stockage, supprimez les fichiers existants de [!DNL Box] ou mettez à niveau votre [!DNL Box] compte .
 >* [!DNL Box] ne charge pas plusieurs fichiers portant le même nom dans un seul dossier. Si le dossier de destination contient un fichier portant le même nom que le fichier téléchargé, l’exécution du scénario s’arrête avec une erreur. Pour éviter cela, renommez le fichier . Si vous souhaitez mettre à jour le fichier, utilisez la variable **[!UICONTROL Mettre à jour un fichier]** module .
-
 
 #### [!UICONTROL Mettre à jour un fichier]
 

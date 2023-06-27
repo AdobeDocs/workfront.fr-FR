@@ -8,9 +8,9 @@ description: L’application JSON Adobe Workfront Fusion fournit des modules pou
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail] </p> </td> 
+   <td>
+   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Ou</p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>
+   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Ou</p>
+   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,8 +83,7 @@ Si le champ de chaîne JSON contient une collection `{ ... }`, la sortie est un 
 >
 >**Exemple:**
 >
->
-```
+>```
 >{
 >       "name" : "Peter",
 >
@@ -93,8 +100,7 @@ Si le champ de chaîne JSON contient un tableau `[ ... ]`, la sortie est une sé
 >
 >**Exemple:**
 >
->
-```
+>```
 >[
 >   {
 >       "name" : "Peter",
@@ -227,39 +233,49 @@ Ce module d’action transforme un objet en chaîne json.
 >**Exemple :** L’exemple suivant montre comment transformer des enregistrements de données de [!DNL Google Sheets] au format JSON :
 >
 >1. Placez le [!DNL Google Sheets] > [!UICONTROL Sélectionner des lignes] dans votre scénario pour récupérer les données. Configurez le module pour récupérer les lignes de votre [!DNL Google] feuille de calcul. Définissez la &#x200B;**[!UICONTROL Nombre maximal de lignes renvoyées]** à un petit nombre, mais plus grand qu’un à des fins de test (par exemple, trois). Exécutez le [!DNL Google Sheets] en cliquant dessus avec le bouton droit et en choisissant &quot;**[!UICONTROL Exécuter ce module uniquement]**.&quot; Vérifiez la sortie du module.
+>
 1. Connectez-vous au [!UICONTROL Agrégateur de tableau] après l’événement [!DNL Google Sheets] module . Dans la configuration du module, sélectionnez la variable [!DNL Google Sheets] du module **[!UICONTROL Noeud source]** champ . Laissez les autres champs tels quels pour le moment.
+>
 1. Connexion [!UICONTROL JSON] > [!UICONTROL Création de JSON] après l’événement [!UICONTROL Agrégateur de tableau] module . La configuration du module nécessite une structure de données qui décrit le format JSON. Cliquez sur **[!UICONTROL Ajouter]** pour ouvrir la configuration de la structure de données . La méthode la plus simple pour créer cette structure de données consiste à la générer automatiquement à partir d’un exemple JSON. Cliquez sur **[!UICONTROL Générateur]** et collez votre exemple JSON dans le **[!UICONTROL Exemples de données]** field :
+>
+**Exemple:**
+>   
+```
+{
 
-   **Exemple:**
-   ```
-   {
-   
-   "books": [
-   
-   {
-   
-   "id": "ID",
-   
-   "title": "Title",
-   
-   "author": "Author"
-   
-   }
-   
-   ]
-   
-   }
-   ```
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
+>
 1. Cliquer sur **[!UICONTROL Enregistrer]**. Le [!UICONTROL Spécification] dans la structure de données contient désormais la structure générée.
 1. Remplacez le nom de votre structure de données par un nom plus spécifique, puis cliquez sur **[!UICONTROL Enregistrer]**. Un champ correspondant à l’attribut de tableau racine apparaît comme champ mappable dans la configuration du module JSON.
+>
 1. Cliquez sur le bouton **[!UICONTROL Carte]** en regard du champ et mappez le `Array[]` de la sortie de l’agrégateur Array vers celui-ci.
+>
 1. Cliquez sur **[!UICONTROL OK]** pour fermer la [!UICONTROL JSON] configuration du module.
+>
 1. Ouvrez la configuration du [!UICONTROL Agrégateur de tableau] module . Modifiez la variable **[!UICONTROL Structure cible]** de [!UICONTROL Personnalisé] au [!UICONTROL JSON] champ du module correspondant à l’attribut du tableau racine. Mappage d’éléments à partir de [!DNL Google Sheets] aux champs appropriés.
+>
 1. Cliquez sur **[!UICONTROL OK]** pour fermer la [!UICONTROL Agrégateur de tableau] configuration du module.
+>
 1. Exécutez le scénario.
-   Le [!UICONTROL JSON] génère le format JSON correct.
+>
+Le [!UICONTROL JSON] génère le format JSON correct.
+>
 1. Ouvrez la configuration du [!DNL Google Sheets] et augmentez la variable [!UICONTROL Nombre maximal de lignes renvoyées] pour traiter toutes les données.
-
 
 ## Dépannage
 
@@ -272,5 +288,7 @@ Assurez-vous que le contenu JSON est correctement mappé dans la variable [!UICO
 Lorsque vous utilisez des instructions conditionnelles telles que `if` dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.
 
 >[!INFO]
+>
 **Exemple:**
+>
 ![](assets/quotes-in-json-350x120.png)
