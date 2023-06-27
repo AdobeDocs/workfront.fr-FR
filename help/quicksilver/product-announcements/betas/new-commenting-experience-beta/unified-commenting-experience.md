@@ -6,9 +6,9 @@ description: Une mise à jour de l’expérience de commentaires dans Adobe Work
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,18 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 * Commentaire sur une mise à jour du système
 * Possibilité de modifier l’état, la condition, la date de validation tout en commentant
 * Modifier le formulaire personnalisé
+
+>[!NOTE]
+>
+>Seuls les commentaires et les mises à jour système de l’année passée (à partir de juin 2022) sont disponibles pour les objets répertoriés ci-dessous lors de l’activation de la version bêta.
+>
+>* Événements
+>* <span class="preview">Projets</span>
+>* <span class="preview">Tâches</span>
+>* <span class="preview">Documents</span>
+>
+>Vous pouvez afficher les commentaires et les mises à jour du système avant juin 2022 lors de l’affichage de la section Mises à jour de l’expérience actuelle.
+
 
 Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la nouvelle expérience de commentaire, ainsi que leur disponibilité dans les zones où elles sont prises en charge :
 

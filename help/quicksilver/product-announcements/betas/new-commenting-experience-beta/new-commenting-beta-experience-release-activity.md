@@ -6,9 +6,9 @@ description: Examinez l’activité de publication hebdomadaire pour découvrir 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ Pour obtenir des informations générales sur la nouvelle expérience de comment
 >
 >Nouvelle expérience de commentaires lancée en version bêta avec la version 23.2. Pour plus d’informations sur la version d’origine, voir [Présentation de la version 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Les fonctions de commentaires publiées sur l’expérience bêta pour les objets Workfront sont également publiées dans la section Mises à jour d’un objet d’objectif dans les objectifs de Workfront.
+>Les fonctions de commentaires publiées sur l’expérience bêta pour les objets Workfront sont également publiées dans la section Mises à jour des objets suivants comme seule expérience de commentaire :
+>* Objectifs
+>* Cartes dans la zone Panoramas.
 
 ## Calendrier des versions
 

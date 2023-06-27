@@ -4,9 +4,9 @@ description: Visualiser les mises à jour pendant la période de publication de 
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ Les améliorations sont les suivantes :
 * il existe désormais un indicateur de chargement lors du chargement de la page ;
 * l’icône Copier est persistante et accompagnée de texte et elle devient désactivée lorsqu’aucune requête n’est sélectionnée.
 
-Pour plus d’informations, voir [Copie et envoi de requêtes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour plus d’informations, voir [Copie et envoi de requêtes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). La documentation sera mise à jour après la mise à jour de la fonctionnalité.
 
-## Mise à jour de la conception lors de l’envoi d’une nouvelle demande
+## Mise à jour de la conception lors de l’ajout d’un nouveau problème à un projet
 
 >[!NOTE]
 >
 >Version d’aperçu prévue : 5 juillet 2023; Version de production planifiée : avec la version 23.3
 
-Nous avons mis à jour la boîte de dialogue Nouvelle requête qui s’affiche lors de l’envoi d’une nouvelle requête. Désormais, l’interface correspond à la boîte de dialogue Nouveau problème qui s’affiche lors de l’ajout d’un nouveau problème à un projet.
+Nous avons mis à jour la boîte de dialogue Nouveau problème qui s’affiche lors de l’envoi d’un nouveau problème à un projet. Désormais, l’interface correspond à la zone Nouvelle requête qui s’affiche lors de l’envoi d’une nouvelle requête à une file d’attente de requêtes.
 
-Pour plus d’informations, voir [Création et envoi de requêtes Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Pour plus d’informations, voir [Création de problèmes](../../../manage-work/issues/manage-issues/create-issues.md). La documentation sera mise à jour après la mise à jour de la fonctionnalité.
 
 ## Mise à jour de la liste des taux de facturation
 
