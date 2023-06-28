@@ -7,9 +7,9 @@ description: Sans quitter G Suite, vous pouvez publier une nouvelle mise à jour
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '246'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Il existe une [problème connu](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) avec la version actuelle de [!DNL Workfront for G Suite] ne fonctionne pas comme prévu. Nous travaillons sur une nouvelle version et nous espérons qu’elle sera publiée sur le [!DNL Google Marketplace] dans un avenir proche.
+>La dernière version du module externe Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
 Sans quitter [!DNL G Suite], vous pouvez publier une nouvelle mise à jour ou une réponse à une mise à jour existante sur une [!DNL Adobe Workfront] .
 

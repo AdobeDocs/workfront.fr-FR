@@ -7,9 +7,9 @@ description: Vous pouvez accéder à [!DNL Adobe Workfront] Contenu de l’accue
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Il existe une [problème connu](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) avec la version actuelle de [!DNL Workfront for G Suite] ne fonctionne pas comme prévu. Nous travaillons sur une nouvelle version et nous espérons qu’elle sera publiée sur le [!DNL Google Marketplace] dans un avenir proche.
+>La dernière version du module externe Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
 Vous pouvez accéder à [!DNL Adobe Workfront] [!UICONTROL Accueil] contenu, y compris toutes les tâches, problèmes, approbations et demandes d’accès qui vous ont été attribués, sans quitter G Suite.
 

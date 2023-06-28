@@ -7,9 +7,9 @@ description: Vous pouvez convertir un email externe (non généré par [!DNL Ado
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Il existe une [problème connu](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) avec la version actuelle de [!DNL Workfront for G Suite] ne fonctionne pas comme prévu. Nous travaillons sur une nouvelle version et nous espérons qu’elle sera publiée sur le [!DNL Google Marketplace] dans un avenir proche.
+>La dernière version du module externe Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
 Vous pouvez convertir un email externe (non généré par [!DNL Adobe Workfront]) en [!DNL Workfront] problème.
 
@@ -113,6 +113,6 @@ Avant de créer un problème à partir de [!DNL G Suite], vous devez
 
    * Pour répondre à une mise à jour de la variable **[!UICONTROL Mises à jour]** , cliquez sur **[!UICONTROL Répondre]** et tapez votre réponse.
 
-      Pour les deux actions ci-dessus, vous pouvez informer des utilisateurs spécifiques de votre commentaire. Cliquez sur **[!UICONTROL Notifier]**, commencez à saisir le nom d’un utilisateur, puis cliquez sur celui-ci lorsqu’il apparaît dans la liste déroulante. Répétez cette procédure pour les autres utilisateurs que vous souhaitez avertir, puis cliquez sur **[!UICONTROL Post]**.
+     Pour les deux actions ci-dessus, vous pouvez informer des utilisateurs spécifiques de votre commentaire. Cliquez sur **[!UICONTROL Notifier]**, commencez à saisir le nom d’un utilisateur, puis cliquez sur celui-ci lorsqu’il apparaît dans la liste déroulante. Répétez cette procédure pour les autres utilisateurs que vous souhaitez avertir, puis cliquez sur **[!UICONTROL Post]**.
 
    * Cliquez sur le bouton **[!UICONTROL Documents]** pour afficher tous les documents enregistrés avec le problème.

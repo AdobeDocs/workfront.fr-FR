@@ -7,9 +7,9 @@ description: Lorsque vous recevez une notification à propos d’une mise à jou
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Il existe une [problème connu](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) avec la version actuelle de [!DNL Workfront for G Suite] ne fonctionne pas comme prévu. Nous travaillons sur une nouvelle version et nous espérons qu’elle sera publiée sur le [!DNL Google Marketplace] dans un avenir proche.
+>La dernière version du module externe Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
 Lorsque vous recevez une notification à propos d’une mise à jour dans [!DNL Adobe Workfront], vous pouvez rapidement publier une réponse à partir d’ [!DNL Workfront for G Suite].
 

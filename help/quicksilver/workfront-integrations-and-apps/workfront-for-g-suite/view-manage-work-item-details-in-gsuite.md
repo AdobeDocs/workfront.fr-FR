@@ -7,9 +7,9 @@ description: Vous pouvez afficher et gérer les détails d’un élément de tra
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Il existe une [problème connu](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) avec la version actuelle de [!DNL Workfront for G Suite] ne fonctionne pas comme prévu. Nous travaillons sur une nouvelle version et nous espérons qu’elle sera publiée sur le [!DNL Google Marketplace] dans un avenir proche.
+>La dernière version du module externe Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
 Vous pouvez afficher et gérer les détails d’un élément de travail sans quitter [!DNL G Suite]. Par exemple, vous pouvez lire la description d’une tâche, afficher son objet parent, modifier son état et le marquer comme terminé, le tout dans [!DNL Adobe Workfront for G Suite].
 
@@ -62,18 +62,18 @@ Avant de pouvoir afficher et gérer les détails d’une tâche dans [!DNL G Sui
 
    * Afficher le **[!UICONTROL Description]** et d’autres détails, tels que les utilisateurs affectés à l’objet, la variable **[!UICONTROL Priorité]**, le demandeur, le **[!UICONTROL Date d’achèvement prévue]**, ainsi que les champs personnalisés et les formulaires associés à l’objet.
 
-      Les formulaires personnalisés affichent uniquement les champs où des informations ont été ajoutées.
+     Les formulaires personnalisés affichent uniquement les champs où des informations ont été ajoutées.
 
    * Cliquez sur le bouton **[!UICONTROL Projet parent]** pour afficher les détails de l’objet parent.
 
-      >[!TIP]
-      >
-      >Cela peut s’avérer utile lorsque vous avez des tâches et des problèmes portant le même nom et que vous devez les différencier.
+     >[!TIP]
+     >
+     >Cela peut s’avérer utile lorsque vous avez des tâches et des problèmes portant le même nom et que vous devez les différencier.
 
    * Acceptez le travail qui vous est attribué en cliquant sur **[!UICONTROL Travailler dessus]**.
    * Modifiez diverses options, telles que **[!UICONTROL Terminé]** , l’option **[!UICONTROL État]**, et la variable **[!UICONTROL Pourcentage terminé]**.
 
-      Sous **[!UICONTROL Pourcentage terminé]**, saisissez des nombres et (éventuellement) le signe de pourcentage % pour indiquer la progression sur un élément.
+     Sous **[!UICONTROL Pourcentage terminé]**, saisissez des nombres et (éventuellement) le signe de pourcentage % pour indiquer la progression sur un élément.
    * Affichez les informations sur une demande d’approbation, notamment le propriétaire, la taille et les pièces jointes.
    * **[!UICONTROL Approuver]** ou **[!UICONTROL Rejeter]** demandes d’approbation et documents.
 

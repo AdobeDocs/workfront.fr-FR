@@ -7,9 +7,9 @@ description: Vous pouvez mettre à jour un projet, une tâche ou un problème ex
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Il existe une [problème connu](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) avec la version actuelle de [!DNL Workfront for G Suite] ne fonctionne pas comme prévu. Nous travaillons sur une nouvelle version et nous espérons qu’elle sera publiée sur le [!DNL Google Marketplace] dans un avenir proche.
+>La dernière version du module externe Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
 Vous pouvez mettre à jour un projet, une tâche ou un problème existant à l’aide d’informations provenant d’une[!DNL Adobe Workfront] e-mail.
 
@@ -99,6 +99,6 @@ Avant de pouvoir mettre à jour une [!DNL Workfront] élément à l’aide du co
 
    * Pour répondre à une mise à jour de la variable **[!UICONTROL Mises à jour]** , cliquez sur **[!UICONTROL Répondre]** et tapez votre réponse.
 
-      Pour les deux options ci-dessus, vous pouvez cliquer sur **[!UICONTROL Notifier]** pour indiquer les destinataires de la réponse, comme à l&#39;étape 5. Lorsque vous êtes prêt, cliquez sur **[!UICONTROL Post]** pour ajouter la mise à jour ou la réponse.
+     Pour les deux options ci-dessus, vous pouvez cliquer sur **[!UICONTROL Notifier]** pour indiquer les destinataires de la réponse, comme à l&#39;étape 5. Lorsque vous êtes prêt, cliquez sur **[!UICONTROL Post]** pour ajouter la mise à jour ou la réponse.
 
    * Cliquez sur le bouton **[!UICONTROL Détails]** pour afficher les détails du nouveau projet, de la nouvelle tâche ou du nouveau problème.
