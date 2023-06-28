@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Prise en main de la nouvelle page d’accueil dans Adobe Workfront
 description: New Home est une nouvelle fonctionnalité puissante pour gérer votre travail.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ Vous pouvez filtrer rapidement toutes les informations de votre page d’accueil
 
 Pour les utilisateurs qui préfèrent l’expérience d’accueil existante, la nouvelle page d’accueil peut être désactivée.
 
+
 **Pour revenir à l’expérience d’accueil actuelle :**
 
 1. Accédez à votre page d’accueil en cliquant sur l’icône Adobe Workfront . ![Icône Adobe Workfront](../new-home/assets/home-icon-30x29.png) en haut de l’écran si Accueil est défini comme page d’entrée ou en cliquant sur l’icône de menu principal ![Icône du menu principal](../new-home/assets/main-menu-icon-left-nav.png) puis cliquez sur **Accueil**.
@@ -97,3 +98,7 @@ Pour les utilisateurs qui préfèrent l’expérience d’accueil existante, la 
    ![Revenir au bouton Accueil actuel](../new-home/assets/go-back-to-current-home-button.png)
 
 1. Dans la fenêtre de confirmation qui s’affiche, vous pouvez choisir de répondre à une brève enquête sur votre expérience avec New Home ou cliquer sur **Revenir à la page d’accueil actuelle** pour finaliser votre décision et revenir à l’expérience d’accueil actuelle.
+
+>[!NOTE]
+>
+> Les administrateurs système peuvent désactiver la nouvelle page d’accueil par défaut pour leurs utilisateurs. Pour plus d’informations sur la modification de l’expérience d’accueil par défaut pour les utilisateurs dans un système, voir [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).

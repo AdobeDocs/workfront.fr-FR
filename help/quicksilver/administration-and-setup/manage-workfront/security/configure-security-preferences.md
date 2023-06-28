@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '747'
 ht-degree: 5%
 
 ---
 
-# Configuration des préférences de sécurité système
+# Configuration des préférences système
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -23,14 +23,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 {{important-admin-console-onboard}}
 
-En tant qu’administrateur Adobe Workfront, vous pouvez configurer les préférences de sécurité de votre système Workfront :
+En tant qu’administrateur Adobe Workfront, vous pouvez configurer les préférences de votre système Workfront :
 
 * Accès à Workfront à partir d’applications mobiles et d’autres applications intégrées
 * Règles d’incorporation de Workfront dans un iFrame
 
 Les modifications que vous apportez dans les préférences du système ont un impact sur tous les utilisateurs de votre système et sur leur expérience dans Workfront.
 
-Nous vous recommandons de configurer vos préférences de sécurité système pendant l’implémentation de Workfront et de ne les revoir qu’occasionnellement.
+Nous vous recommandons de configurer vos préférences système lors de l’implémentation de Workfront et de ne les revoir qu’occasionnellement.
 
 ## Exigences d’accès
 
@@ -55,13 +55,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-## Configuration des préférences de sécurité du système
+## Configuration des préférences du système
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Préférences**.
 
-1. Dans le **Sécurité** , sélectionnez l’un des champs suivants pour définir les paramètres de sécurité de votre entreprise :
+1. Sélectionnez l’un des champs suivants pour définir les paramètres de votre entreprise :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,6 +104,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      <tr> 
       <td role="rowheader">Déconnecter automatiquement les utilisateurs mobiles après </td> 
       <td>Permet d’indiquer quand un utilisateur est déconnecté de l’application Workfront, après une période d’inactivité. Par défaut, les utilisateurs sont déconnectés après 7 jours d’inactivité. <p>Cette option affecte également les clients Workfront qui utilisent une solution de connexion unique.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Les utilisateurs du système verront par défaut l’expérience Nouvelle page d’accueil. </td> 
+      <td>Permet d’indiquer si les utilisateurs verront l’expérience Nouvelle page d’accueil par défaut. Dans les deux cas, les utilisateurs peuvent choisir d’activer ou de désactiver la Nouvelle Accueil individuellement. Cette option est activée par défaut.</td> 
      </tr> 
     </tbody> 
    </table>
