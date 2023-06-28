@@ -5,10 +5,12 @@ title: Modification des problèmes
 description: Vous pouvez modifier les informations sur les problèmes que vous avez créés ou que d’autres utilisateurs ont créés s’ils ont partagé les problèmes avec vous.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2467'
 ht-degree: 3%
 
 ---
@@ -92,6 +94,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Pour plus d’informations, voir [Exportation de formulaires personnalisés et de détails d’objet](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    Pour plus d’informations sur les champs visibles dans la section Détails du problème, continuez à modifier le problème dans la zone Modifier le problème comme décrit ci-dessous.
 
 1. Pour modifier toutes les informations relatives à un problème, sélectionnez-le dans une liste, puis cliquez sur **Modifier** en haut de la liste
@@ -119,6 +122,8 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    >[!NOTE]
    >
    >Selon la manière dont votre administrateur Workfront configure le modèle de mise en page, les champs de la zone Modifier le problème peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >
+   >La plupart des champs répertoriés dans les sections ci-dessous sont également accessibles à partir de la zone Nouveau problème lorsque vous créez un problème. Les sections sous lesquelles se trouvent les champs ne correspondent pas à la zone Nouveau problème. Pour plus d’informations sur la création de problèmes, voir [Création de problèmes](../../issues/manage-issues/create-issues.md).
 
 ### Nom de l&#39;événement {#issue-name}
 
@@ -282,7 +287,6 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    >
    >* Réaffectez l’élément de travail aux principales ressources.
    >* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
-
 
 1. (Facultatif) Indiquez si une personne désignée est la personne désignée Principale sur le problème, en pointant la souris sur le nom de la personne désignée et en cliquant sur **Rendre Principal**. Une équipe ne peut pas être la Principale personne désignée pour un problème.
 1. Mettez à jour les champs suivants :

@@ -4,7 +4,7 @@ description: Visualiser les mises à jour pendant la période de publication de 
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 23
 
 >[!NOTE]
 >
->Version d’aperçu prévue : 28 juin 2023; Version de production planifiée : 13 juillet 2023
+>Version d’aperçu prévue : le 29 juin 2023; Version de production planifiée : 13 juillet 2023
 
 Nous avons amélioré l’interface de la liste des demandes envoyées.
 
@@ -36,7 +36,7 @@ Pour plus d’informations, voir [Copie et envoi de requêtes](/help/quicksilver
 
 >[!NOTE]
 >
->Version d’aperçu prévue : 5 juillet 2023; Version de production planifiée : avec la version 23.3
+>Version d’aperçu prévue : 6 juillet 2023; Version de production planifiée : avec la version 23.3
 
 Nous avons mis à jour la boîte de dialogue Nouveau problème qui s’affiche lors de l’envoi d’un nouveau problème à un projet. Désormais, l’interface correspond à la zone Nouvelle requête qui s’affiche lors de l’envoi d’une nouvelle requête à une file d’attente de requêtes.
 

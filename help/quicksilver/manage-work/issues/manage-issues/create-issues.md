@@ -5,8 +5,10 @@ title: Création de problèmes
 description: Lorsque vous travaillez sur un projet, vous pouvez découvrir que des événements inattendus se produisent. Vous pouvez consigner ces événements inattendus comme des problèmes pour un projet particulier ou pour une tâche. Les utilisateurs disposant de l’accès approprié peuvent afficher et surveiller l’état des problèmes au fur et à mesure que le projet ou la tâche se termine, éliminant ainsi la nécessité de longues chaînes de messagerie ou de réunions d’état. Contrairement aux tâches, qui sont des événements planifiés, les problèmes représentent des tâches non planifiées dans Adobe Workfront.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -14,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Création de problèmes
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Lorsque vous travaillez sur un projet, vous pouvez découvrir que des événements inattendus se produisent. Vous pouvez consigner ces événements inattendus comme des problèmes pour un projet particulier ou pour une tâche. Les utilisateurs disposant de l’accès approprié peuvent afficher et surveiller l’état des problèmes au fur et à mesure que le projet ou la tâche se termine, éliminant ainsi la nécessité de longues chaînes de messagerie ou de réunions d’état. Contrairement aux tâches, qui sont des événements planifiés, les problèmes représentent des tâches non planifiées dans Adobe Workfront.
 
@@ -53,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
+(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
 -->
 
 ## Limites de la création de problèmes
@@ -92,6 +96,8 @@ Pour créer un problème sur une tâche ou un projet :
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
+   <!--update the screen shot above for preview and highlight in yellow-->
+
    * Si une seule rubrique de file d’attente est définie sur le projet, elle s’affiche automatiquement.
    * Si le groupe de rubriques ne contient aucune rubrique de file d’attente ou aucun groupe de rubriques, rien n’est disponible dans la liste déroulante Groupe de rubriques .
 
@@ -101,7 +107,7 @@ Pour créer un problème sur une tâche ou un projet :
    * Modifier l&#39;ordre
    * Problème
    * Demande\
-      Selon la manière dont votre administrateur Workfront a configuré vos préférences de projet, les noms des types de problèmes peuvent être différents pour vous.
+     Selon la manière dont votre administrateur Workfront a configuré vos préférences de projet, les noms des types de problèmes peuvent être différents pour vous.
 
 1. Indiquez les champs disponibles dans la variable **Nouveau problème** formulaire. Pour plus d’informations sur la définition des champs lorsque vous saisissez un nouveau problème, voir [Modification des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md).
 1. (Conditionnel) Si les rubriques de la file d’attente sont associées à un formulaire personnalisé, ce formulaire personnalisé s’affiche dans la variable **Nouveau problème** formulaire.\
@@ -119,6 +125,7 @@ Les problèmes peuvent être affectés à plusieurs utilisateurs, rôles de tâc
 >[!IMPORTANT]
 >
 >Le propriétaire du projet doit activer **Autoriser les utilisateurs à ajouter des problèmes en ligne** lorsque vous définissez les paramètres de problème du projet avant de pouvoir ajouter des problèmes en ligne au projet ou aux tâches. Pour plus d’informations sur la configuration des paramètres de problème sur un projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+>
 
 Lorsque vous souhaitez ajouter rapidement plusieurs problèmes, vous pouvez créer des problèmes pour une tâche ou un projet intégré, en les ajoutant à une liste de problèmes.
 
@@ -150,7 +157,6 @@ Pour créer des problèmes en ligne :
    >* Champs appartenant à un autre objet
    >* Champs que vous n’avez pas accès à la modification
    >* Champs qui sont des calculs et qui sont automatiquement mis à jour par Workfront
-
 
 1. Cliquez sur Entrée pour terminer la modification en ligne et ajoutez le problème au projet ou à la tâche.
 

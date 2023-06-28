@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 3%
@@ -76,7 +76,9 @@ Vous avez désormais la possibilité de copier le contenu d’un commentaire et 
 
 Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentation sera mise à jour au moment de la publication.
 
-Prévisualisation et production planifiées : 29 juin 2023
+Aperçu : 28 juin 2023
+
+Version de production planifiée : 29 juin 2023
 
 #### Nouvelle interface pour l’heure de journalisation
 
