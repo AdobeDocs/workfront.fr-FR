@@ -6,16 +6,16 @@ description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouve
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
 
 # Recherche des requêtes envoyées
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 Vous pouvez localiser les types de requêtes suivants que vous ou une autre personne avez soumises, ou les requêtes que vous avez commencées mais que vous n’avez jamais terminé d’envoyer. Vous pouvez localiser ces requêtes dans les zones suivantes d’Adobe Workfront :
 
@@ -62,7 +62,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées :
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
-1. Cliquez sur **Envoyé** dans le panneau de gauche pour afficher toutes les requêtes envoyées.
+1. Cliquez sur **Envoyé** dans le panneau de gauche pour afficher toutes les requêtes envoyées.
 
    Vous pouvez afficher jusqu’à 2 000 requêtes, qui peuvent s’afficher sur plusieurs pages.
 
@@ -70,44 +70,43 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
    >
    >Vous ne pouvez pas personnaliser les colonnes de la liste des demandes envoyées.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. Les colonnes suivantes s’affichent par défaut :
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nom</td> 
-      <td> <p>Nom de la requête.</p> <p>Cliquez sur le nom d’une requête pour l’ouvrir. </p> <p><b>CONSEIL</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Nom</td> 
+         <td> <p>Nom de la requête.</p> <p>Cliquez sur le nom d’une requête pour l’ouvrir. </p> <p><b>CONSEIL</b>
 
    Si le problème n’a pas été conservé lorsqu’il a été converti en tâche ou projet, le nom du problème est grisé et il ne peut plus être cliqué. Pour plus d’informations sur la conversion de problèmes, voir <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Présentation des problèmes de conversion dans Adobe Workfront</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">Converti en</td> 
-      <td> <p>Nom de l’objet de résolution pouvant être une tâche ou un projet dans lequel la requête a été convertie. </p> <p>Cliquez sur le nom de la tâche ou du projet pour l’ouvrir. </p> <p>Si la requête n’a pas été convertie, ce champ est vide. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Chemin d’accès</td> 
-      <td>Nom de la file d’attente des demandes, des groupes de rubriques et des rubriques de la file d’attente dans laquelle la demande a été envoyée initialement. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Statut</td> 
-      <td>État actuel de la requête ou de l’objet de résolution (tâche ou projet)</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Date d’entrée</td> 
-      <td>Date d’envoi de la requête ou date de création de l’objet de résolution si la requête a été supprimée lors de la conversion. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Date de dernière mise à jour</td> 
-      <td> <p>Date de dernière mise à jour de la requête.</p> <p>Par défaut, la liste des demandes envoyées est triée par ce champ. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">Converti en</td> 
+         <td> <p>Nom de l’objet de résolution pouvant être une tâche ou un projet dans lequel la requête a été convertie. </p> <p>Cliquez sur le nom de la tâche ou du projet pour l’ouvrir. </p> <p>Si la requête n’a pas été convertie, ce champ est vide. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Chemin d’accès</td> 
+         <td>Nom de la file d’attente des demandes, des groupes de rubriques et des rubriques de la file d’attente dans laquelle la demande a été envoyée initialement. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Statut</td> 
+         <td>État actuel de la requête ou de l’objet de résolution (tâche ou projet)</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Date d’entrée</td> 
+         <td>Date d’envoi de la requête ou date de création de l’objet de résolution si la requête a été supprimée lors de la conversion. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Date de dernière mise à jour</td> 
+         <td> <p>Date de dernière mise à jour de la requête.</p> <p>Par défaut, la liste des demandes envoyées est triée par ce champ. </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Facultatif) Cliquez sur l’en-tête d’une colonne pour la trier.
 

@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
 
 # Copie et envoi de requêtes
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
 
 Lorsque vous envoyez fréquemment des requêtes similaires, vous pouvez copier une requête envoyée existante. Dans ce cas, vous pouvez copier une requête existante, y apporter des modifications minimales et la soumettre à nouveau en tant que nouvelle requête.
 
@@ -122,15 +122,13 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
 1. (Conditionnel) Si la section Envoyé ne s’affiche pas par défaut, cliquez sur **Envoyé** dans le panneau de gauche.
 1. Recherchez la requête que vous souhaitez copier et envoyer comme nouvelle requête, puis effectuez l’une des opérations suivantes :
 
-   * Sélectionnez-le, puis cliquez sur le bouton **Copier et envoyer en tant que nouveau** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) dans le coin supérieur gauche de la liste Demandes envoyées . <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
+   * Sélectionnez-la, puis cliquez sur <span class="preview"> **Copier** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> dans le coin supérieur gauche de la liste Demandes envoyées .
 
-   <!-- reveal this tip for 23.3 preview release:
    >[!TIP]
    >
-   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
-   -->
+   > <span class="preview">Si vous n’avez pas sélectionné de requête en premier, l’icône Copier est grisée.</span>
 
-   * Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom de la requête, puis cliquez sur **Copier et envoyer en tant que nouveau** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
+   * Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom de la requête, puis cliquez sur **Copier et envoyer en tant que nouveau**
 
      Ou
 
