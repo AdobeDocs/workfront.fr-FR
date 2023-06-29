@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
 workflow-type: tm+mt
-source-wordcount: '13094'
+source-wordcount: '13106'
 ht-degree: 1%
 
 ---
@@ -392,6 +392,8 @@ ht-degree: 1%
          * [Création d’une Fiche d’évaluation](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [recalculs de la chronologie du projet](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Trimestres personnalisés pour les projets](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [Configuration des emplacements](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+         * [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Configuration des planifications et des préférences de feuille de temps {#configure-timesheets-schedules}
          * [Configuration des planifications et des préférences de feuille de temps](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Présentation des planifications](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -1199,6 +1201,7 @@ ht-degree: 1%
          * [Remplacer les taux de facturation au niveau du projet par les taux de facturation au niveau de l’entreprise](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
          * [Présentation du remplacement des taux de facturation des rôles de tâche et calcul des recettes sur un projet](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [Remplacer les taux de facturation des rôles de tâche au niveau du projet](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [Joindre une carte de taux à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [Aperçu des avantages prévus du projet](manage-work/projects/project-finances/project-planned-benefit.md)
          * [Définition de la méthode d’index de performance (PIM)](manage-work/projects/project-finances/set-pim.md)
          * [Calcul du retour sur investissement](manage-work/projects/project-finances/calculate-roi.md)

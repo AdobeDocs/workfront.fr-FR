@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-utilization
 title: Affichage des informations sur l’utilisation des ressources
 description: Vous pouvez afficher l’utilisation de vos ressources à l’aide du rapport Utilisation .
-author: Alina
+author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
 workflow-type: tm+mt
-source-wordcount: '7758'
+source-wordcount: '7854'
 ht-degree: 0%
 
 ---
 
 # Affichage des informations sur l’utilisation des ressources
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)</p>
@@ -268,7 +270,7 @@ Les informations suivantes sont disponibles dans le rapport Utilisation lors du 
   </tr> 
   <tr> 
    <td scope="col"><strong>Coûts prévus</strong> </td> 
-   <td scope="col"> <p>Coût planifié total sur les projets inclus. Vous pouvez afficher le coût planifié total pour la durée totale des projets inclus ou afficher le coût planifié total uniquement pour la période spécifiée (vous pouvez spécifier une semaine ou un mois spécifique).</p> <p>Pour plus d’informations sur le mode de calcul du coût planifié du projet, voir la section "Comment Workfront calcule les coûts planifiés, budgétaires et réels" de l’article. <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivi des coûts</a>.</p> </td> 
+   <td scope="col"> <p>Coût planifié total sur les projets inclus. Vous pouvez afficher le coût planifié total pour la durée totale des projets inclus ou afficher le coût planifié total uniquement pour la période spécifiée (vous pouvez spécifier une semaine ou un mois spécifique).</p> <p><span class="preview">Notez que pour les vues hebdomadaires, mensuelles et trimestrielles, les coûts prévus sont calculés en moyenne par rapport à la période choisie lorsque les taux de coût des rôles de travail ou des utilisateurs sont à la date d'entrée en vigueur.</span></p><p>Pour plus d’informations sur le mode de calcul du coût planifié du projet, voir la section "Comment Workfront calcule les coûts planifiés, budgétaires et réels" de l’article. <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivi des coûts</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Coûts réels</strong> </td> 
@@ -323,22 +325,22 @@ Pour plus d’informations sur les champs spécifiques et sur la façon dont Wor
 
 Contrairement à d’autres zones de Workfront, le rapport Utilisation calcule les recettes planifiées pour les tâches de recettes fixes en divisant les recettes fixes de manière égale par le nombre d’heures planifiées de la tâche. </p> <p>Par exemple, une tâche a une recette de 200 $. Si la tâche comporte 4 heures planifiées, chaque heure correspond à 50 $. Il est distribué au niveau de l’utilisateur et au niveau du rôle. Cette distribution est propre au rapport Utilisation .</p> <p><b>NOTE</b>
 
-Si vous avez une tâche Recettes fixes et qu’il n’y a pas d’Heures planifiées pour la tâche, le chiffre d’affaires ne s’affiche pas dans le rapport d’utilisation, car il n’existe aucun moyen de la répartir sur les heures. Si vous avez planifié des heures sur des tâches avec des recettes fixes et pas d’affectations, les recettes s’affichent sous la forme de recettes non affectées. </p> <p><strong>Horaire du rôle :</strong> Le chiffre d’affaires de la tâche est calculé à l’aide du taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’ Heures planifiées associées à ce rôle. Workfront utilise la formule suivante :</p> <p>Rôle Heure Recettes prévues = SUM(Heures planifiées à partir du rôle sur toutes les tâches) * Taux de facturation des rôles</code></p> <p><strong>Heure de l’utilisateur :</strong> Les recettes de la tâche sont calculées à l’aide du taux de facturation défini pour un utilisateur spécifique, multiplié par le nombre d’heures planifiées associées à cet utilisateur. Workfront utilise la formule suivante :</p> <p>Heure de l’utilisateur Recettes prévues = SUM(Heures planifiées des utilisateurs pour toutes les tâches) * Taux de facturation des utilisateurs</code> </p> <p><b>Heure du rôle ou Heure de l’utilisateur plus fixe</b> </p> <p><b>IMPORTANT</b>
+Si vous avez une tâche Recettes fixes et qu’il n’y a pas d’Heures planifiées pour la tâche, le chiffre d’affaires ne s’affiche pas dans le rapport d’utilisation, car il n’existe aucun moyen de la répartir sur les heures. Si vous avez planifié des heures sur des tâches avec des recettes fixes et pas d’affectations, les recettes s’affichent sous la forme de recettes non affectées. </p> <p><strong>Horaire du rôle :</strong> Le chiffre d’affaires de la tâche est calculé à l’aide du taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’ Heures planifiées associées à ce rôle. Workfront utilise la formule suivante :</p> <p><code>Rôle Heure Recettes prévues = SUM(Heures planifiées à partir du rôle sur toutes les tâches) * Taux de facturation des rôles</code></p><p><span class="preview"><b>REMARQUE :</b> Le taux de facturation horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</span></p>   <p><strong>Heure de l’utilisateur :</strong> Les recettes de la tâche sont calculées à l’aide du taux de facturation défini pour un utilisateur spécifique, multiplié par le nombre d’heures planifiées associées à cet utilisateur. Workfront utilise la formule suivante :</p> <p><code>Heure de l’utilisateur Recettes prévues = SUM(Heures planifiées des utilisateurs pour toutes les tâches) * Taux de facturation des utilisateurs</code> </p> <p><span class="preview"><b>REMARQUE :</b> Le taux de facturation horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</span></p> <p><b>Heure du rôle ou Heure de l’utilisateur plus fixe</b> </p> <p><b>IMPORTANT</b>
 
 Contrairement à d’autres zones de Workfront, le rapport Utilisation calcule les Recettes planifiées en divisant les Recettes fixes uniformément par le nombre d’Heures planifiées de la tâche. </p> <p>Les cas suivants existent : </p>
 <ul>
-<li> <p><strong>Rôle Horaire Plus Corrigé :</strong> Le chiffre d’affaires de la tâche est calculé à l’aide du taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’ Heures planifiées associées au rôle. En outre, un montant fixe spécifié sur la tâche est ajouté au taux de rôle. Workfront utilise la formule suivante :</p> <p>Rôle Horaire Plus Recettes Planifiées Fixes = [SUM(Heures planifiées à partir du rôle sur toutes les tâches) * Taux de facturation des rôles] + SUM(limitation ou montant fixe de la tâche/Heures planifiées de la tâche)</code> </p> </li>
+<li> <p><strong>Rôle Horaire Plus Corrigé :</strong> Le chiffre d’affaires de la tâche est calculé à l’aide du taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’ Heures planifiées associées au rôle. En outre, un montant fixe spécifié sur la tâche est ajouté au taux de rôle. Workfront utilise la formule suivante :</p> <p><code>Rôle Horaire Plus Recettes Planifiées Fixes = [SUM(Heures planifiées à partir du rôle sur toutes les tâches) * Taux de facturation des rôles] + SUM(limitation ou montant fixe de la tâche/Heures planifiées de la tâche)</code> </p> </li>
 </ul>
 <ul>
-<li> <p><strong>L’Utilisateur Par Heure Plus Fixe :</strong> Taux de facturation défini pour un utilisateur spécifique, multiplié par le nombre d’heures planifiées de la tâche par cet utilisateur. En outre, un montant fixe spécifié dans la tâche est ajouté au taux d’utilisation. Workfront utilise la formule suivante :</p> <p>Heure de l’utilisateur plus recettes planifiées fixes = [SUM(Heures planifiées de l’utilisateur pour toutes les tâches) * Taux de facturation des utilisateurs] + SUM(limitation ou montant fixe de la tâche/Heures planifiées de la tâche)</code> </p> </li>
+<li> <p><strong>L’Utilisateur Par Heure Plus Fixe :</strong> Taux de facturation défini pour un utilisateur spécifique, multiplié par le nombre d’heures planifiées de la tâche par cet utilisateur. En outre, un montant fixe spécifié dans la tâche est ajouté au taux d’utilisation. Workfront utilise la formule suivante :</p> <p><code>Heure de l’utilisateur plus recettes planifiées fixes = [SUM(Heures planifiées de l’utilisateur pour toutes les tâches) * Taux de facturation des utilisateurs] + SUM(limitation ou montant fixe de la tâche/Heures planifiées de la tâche)</code> </p> </li>
 </ul> <p><b>Rôle ou heure de l’utilisateur avec limite</b> </p> <p><b>IMPORTANT</b>
 
 Contrairement à d’autres zones de Workfront, si les recettes prévues dépassent le plafond, le montant sur le montant du plafond est considéré comme des recettes fixes. Les recettes planifiées sont calculées en divisant les recettes fixes uniformément par le nombre d’heures planifiées sur la tâche, puis en y ajoutant le montant du plafond et les recettes horaires du rôle ou de l’utilisateur. <br></p> <p>Les cas suivants existent : </p>
 <ul>
-<li> <p><strong>Horaire du rôle avec limitation :</strong> Les tâches sont facturées toutes les heures comme dans l’option Heure du rôle, mais vous pouvez spécifier un montant de limite maximal. Workfront utilise la formule suivante :</p> <p>Heure du rôle avec recettes prévues plafonnées = [SUM(Heures planifiées à partir du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation des rôles] + Montant maximum de la tâche + SUM(Montant sur le montant maximum / Heures planifiées de la tâche)</code> </p> </li>
+<li> <p><strong>Horaire du rôle avec limitation :</strong> Les tâches sont facturées toutes les heures comme dans l’option Heure du rôle, mais vous pouvez spécifier un montant de limite maximal. Workfront utilise la formule suivante :</p> <p><code>Heure du rôle avec recettes prévues plafonnées = [SUM(Heures planifiées à partir du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation des rôles] + Montant maximum de la tâche + SUM(Montant sur le montant maximum / Heures planifiées de la tâche)</code> </p> </li>
 </ul>
 <ul>
-<li> <p><strong>Heure de l’utilisateur avec cascade :</strong> Les tâches sont facturées toutes les heures comme dans l’option Heure de l’utilisateur, mais vous pouvez spécifier un montant de limite maximal. Workfront utilise la formule suivante : </p> <p>Heure de l’utilisateur avec recettes prévues plafonnées = [SUM(Heures planifiées de l’utilisateur pour toutes les tâches) * Taux de facturation des utilisateurs] + Montant maximum de la tâche + SUM(Montant sur le montant maximum / Heures planifiées de la tâche)</code> </p> </li>
+<li> <p><strong>Heure de l’utilisateur avec cascade :</strong> Les tâches sont facturées toutes les heures comme dans l’option Heure de l’utilisateur, mais vous pouvez spécifier un montant de limite maximal. Workfront utilise la formule suivante : </p> <p><code>Heure de l’utilisateur avec recettes prévues plafonnées = [SUM(Heures planifiées de l’utilisateur pour toutes les tâches) * Taux de facturation des utilisateurs] + Montant maximum de la tâche + SUM(Montant sur le montant maximum / Heures planifiées de la tâche)</code> </p> </li>
 </ul> <p>Pour plus d’informations sur le rôle ou l’utilisateur pris en compte lors du calcul des recettes planifiées, voir <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Présentation de la facturation et des recettes</a>.</p> </td>
 </tr> 
   <tr> 
@@ -349,22 +351,22 @@ Contrairement à d’autres zones de Workfront, si les recettes prévues dépass
 
 Contrairement à d’autres zones de Workfront, le rapport Utilisation calcule les Recettes réelles en divisant les Recettes fixes uniformément par le nombre d’heures consignées dans la tâche. </p> <p> </p> <p>Par exemple, une tâche a une recette réelle de 200 $. Si la tâche comporte 4 heures réelles, chaque heure est de 50 $. Il est distribué au niveau de l’utilisateur et au niveau du rôle. Cette distribution est propre au rapport Utilisation .</p> <p><b>NOTE</b>
 
-Si vous avez une tâche Recettes fixes et qu’il n’y a pas d’Heures réelles sur la tâche, le chiffre d’affaires réel ne s’affiche pas dans le rapport Utilisation, car il n’existe aucun moyen de répartir les heures. </p> <p><strong>Horaire du rôle :</strong> Les recettes de la tâche sont calculées à l’aide du taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’heures planifiées.</p> <p>Workfront utilise la formule suivante :</p> <p>Rôle Heure Recettes réelles = SUM(Heures réelles à partir du rôle sur toutes les tâches) * Taux de facturation des rôles</code> </p> <p><strong>Heure de l’utilisateur :</strong> Les recettes de la tâche sont calculées à l’aide du taux de facturation défini pour un utilisateur spécifique, multiplié par le nombre d’heures enregistrées par rapport à la tâche de cet utilisateur. Workfront utilise la formule suivante :</p> <p>Heure de l’utilisateur Recettes réelles = SUM(Heures réelles de l’utilisateur pour toutes les tâches) * Taux de facturation utilisateur</code></p> <p><b>Rôle ou heure de l’utilisateur plus fixe</b> </p> <p><b>IMPORTANT</b>
+Si vous avez une tâche Recettes fixes et qu’il n’y a pas d’Heures réelles sur la tâche, le chiffre d’affaires réel ne s’affiche pas dans le rapport Utilisation, car il n’existe aucun moyen de répartir les heures. </p> <p><strong>Horaire du rôle :</strong> Les recettes de la tâche sont calculées à l’aide du taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’Heures réelles.</p> <p>Workfront utilise la formule suivante :</p> <p><code>Rôle Heure Recettes réelles = SUM(Heures réelles à partir du rôle sur toutes les tâches) * Taux de facturation des rôles</code> </p> <p><span class="preview"><b>REMARQUE :</b> Le taux de facturation horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</span></p> <p><strong>Heure de l’utilisateur :</strong> Les recettes de la tâche sont calculées à l’aide du taux de facturation défini pour un utilisateur spécifique, multiplié par le nombre d’heures enregistrées par rapport à la tâche de cet utilisateur. Workfront utilise la formule suivante :</p> <p><code>Heure de l’utilisateur Recettes réelles = SUM(Heures réelles de l’utilisateur pour toutes les tâches) * Taux de facturation utilisateur</code></p> <p><span class="preview"><b>REMARQUE :</b> Le taux de facturation horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</span></p> <p><b>Rôle ou heure de l’utilisateur plus fixe</b> </p> <p><b>IMPORTANT</b>
 
 Contrairement à d’autres zones de Workfront, le rapport Utilisation calcule les Recettes réelles en divisant les Recettes fixes uniformément par le nombre d’heures consignées dans la tâche. </p> <p>Les cas suivants existent : </p>
 <ul>
-<li> <p><strong>Rôle Horaire Plus Corrigé :</strong> Taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’heures enregistrées par rapport à la tâche par un utilisateur disposant de ce rôle. En outre, un montant fixe spécifié sur la tâche est ajouté au taux de rôle. </p> <p>Workfront utilise la formule suivante :</p> <p>Rôle Horaire Plus Recettes Réelles Fixes = [SUM(Heures réelles à partir du rôle sur toutes les tâches) * Taux de facturation des rôles] + SUM(limitation ou montant fixe de la tâche/Heures réelles de la tâche)</code> </p> </li>
+<li> <p><strong>Rôle Horaire Plus Corrigé :</strong> Taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’heures enregistrées par rapport à la tâche par un utilisateur disposant de ce rôle. En outre, un montant fixe spécifié sur la tâche est ajouté au taux de rôle. </p> <p>Workfront utilise la formule suivante :</p> <p><code>Rôle Horaire Plus Recettes Réelles Fixes = [SUM(Heures réelles à partir du rôle sur toutes les tâches) * Taux de facturation des rôles] + SUM(limitation ou montant fixe de la tâche/Heures réelles de la tâche)</code> </p> </li>
 </ul>
 <ul>
-<li> <p><strong>L’Utilisateur Par Heure Plus Fixe :</strong> Taux de facturation défini pour un utilisateur spécifique, multiplié par le nombre d’heures enregistrées par rapport à la tâche de cet utilisateur. En outre, un montant fixe spécifié dans la tâche est ajouté au taux d’utilisation. </p> <p>Workfront utilise la formule suivante :</p> <p>Heure de l’utilisateur plus Recettes réelles fixes = [SUM(Heures réelles à partir du rôle sur toutes les tâches) * Taux de facturation utilisateur] + SUM(limitation ou montant fixe de la tâche/heures utilisateur de la tâche)</code> </p> </li>
+<li> <p><strong>L’Utilisateur Par Heure Plus Fixe :</strong> Taux de facturation défini pour un utilisateur spécifique, multiplié par le nombre d’heures enregistrées par rapport à la tâche de cet utilisateur. En outre, un montant fixe spécifié dans la tâche est ajouté au taux d’utilisation. </p> <p>Workfront utilise la formule suivante :</p> <p><code>Heure de l’utilisateur plus Recettes réelles fixes = [SUM(Heures réelles à partir du rôle sur toutes les tâches) * Taux de facturation utilisateur] + SUM(limitation ou montant fixe de la tâche/heures utilisateur de la tâche)</code> </p> </li>
 </ul> <p><b>Rôle ou heure de l’utilisateur avec limite</b> </p> <p><b>IMPORTANT</b>
 
 Contrairement à d’autres zones de Workfront, si les recettes prévues dépassent le plafond, le montant sur le montant du plafond est considéré comme des recettes fixes. Les recettes planifiées sont calculées en divisant les recettes fixes uniformément par le nombre d’heures planifiées sur la tâche, puis en y ajoutant le montant du plafond et les recettes horaires du rôle ou de l’utilisateur. <br></p> <p>Les scénarios suivants existent :</p>
 <ul>
-<li> <p><strong>Horaire du rôle avec limitation :</strong> Les tâches sont facturées toutes les heures comme dans l’option Heure du rôle, mais vous pouvez spécifier un montant de limite maximal. Workfront utilise la formule suivante :</p> <p>Heure du rôle avec recettes réelles max. = [SUM(Heures réelles à partir du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation des rôles] + Montant maximum de la tâche + SUM(Montant sur le montant maximum / Heures réelles de la tâche)</code></p> </li>
+<li> <p><strong>Horaire du rôle avec limitation :</strong> Les tâches sont facturées toutes les heures comme dans l’option Heure du rôle, mais vous pouvez spécifier un montant de limite maximal. Workfront utilise la formule suivante :</p> <p><code>Heure du rôle avec recettes réelles max. = [SUM(Heures réelles à partir du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation des rôles] + Montant maximum de la tâche + SUM(Montant sur le montant maximum / Heures réelles de la tâche)</code></p> </li>
 </ul>
 <ul>
-<li> <p><strong>Heure de l’utilisateur avec cascade :</strong> Les tâches sont facturées toutes les heures comme dans l’option Heure de l’utilisateur, mais vous pouvez spécifier un montant de limite maximal.</p> <p> Workfront utilise la formule suivante :</p> <p>Heure de l’utilisateur avec recettes réelles max = [SUM(Heures réelles à partir du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation utilisateur] + Montant maximum de la tâche + SUM(Montant sur le montant maximum / Heures réelles de la tâche)</code> </p> </li>
+<li> <p><strong>Heure de l’utilisateur avec cascade :</strong> Les tâches sont facturées toutes les heures comme dans l’option Heure de l’utilisateur, mais vous pouvez spécifier un montant de limite maximal.</p> <p> Workfront utilise la formule suivante :</p> <p><code>Heure de l’utilisateur avec recettes réelles max = [SUM(Heures réelles à partir du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation utilisateur] + Montant maximum de la tâche + SUM(Montant sur le montant maximum / Heures réelles de la tâche)</code> </p> </li>
 </ul>
 <div>
 <p><strong>Recettes du projet</strong>: Le chiffre d’affaires associé aux heures enregistrées dans le projet est calculé en tenant compte du montant Facturation par heure du rôle de tâche Principal de l’utilisateur qui consigne l’heure. Nous vous déconseillons de vous connecter au projet. </p>
@@ -464,27 +466,27 @@ Pour suivre l’avancement ou le coût d’un ou plusieurs projets avec un rappo
          Si vous souhaitez filtrer le rapport Utilisation , vous pouvez appliquer un filtre, puis cliquer sur **Exécuter**.\
          Pour plus d’informations sur le filtrage du rapport Utilisation, voir la section [Informations sur l’utilisation des filtres](#filter-utilization-information) dans cet article.\
          Les informations d’utilisation s’affichent pour les utilisateurs et les rôles individuels (les utilisateurs sont regroupés au sein de leur rôle associé).
+
    * Pour afficher les informations d’utilisation de plusieurs projets :
 
       1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Ressource**, puis **Utilisation** dans le panneau de gauche.
       1. Appliquez un filtre sur le rapport Utilisation, puis cliquez sur **Exécuter**.\
          Vous devez spécifier un ou plusieurs projets dans le filtre avant d’exécuter le rapport Utilisation . Pour plus d’informations sur le filtrage du rapport Utilisation, voir la section [Informations sur l’utilisation des filtres](#filter-utilization-information) dans cet article.\
          Les informations d’utilisation s’affichent pour les rôles et les projets individuels (les rôles sont regroupés dans leur projet associé).
+
    * Pour afficher les informations d’utilisation d’un programme :
 
       1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Ressource**, puis **Utilisation** dans le panneau de gauche, puis cliquez sur l’icône **Afficher**>**Programmes**.
       1. Appliquez un filtre sur le rapport Utilisation, puis cliquez sur **Exécuter**.\
          Vous devez spécifier un ou plusieurs programmes dans le filtre avant d’exécuter le rapport Utilisation . Pour plus d’informations sur le filtrage du rapport Utilisation, voir la section [Informations sur l’utilisation des filtres](#filter-utilization-information) dans cet article.\
          Les informations d’utilisation s’affichent pour les projets et programmes individuels (les projets sont regroupés dans le programme associé).
+
    * Pour afficher les informations d’utilisation d’un portfolio :
 
       1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Ressource**, puis **Utilisation** dans le panneau de gauche, puis cliquez sur **Afficher**>**Portfolios**.
       1. Appliquez un filtre sur le rapport Utilisation, puis cliquez sur **Exécuter**.\
          Vous devez spécifier un ou plusieurs portfolios dans le filtre avant d’exécuter le rapport d’utilisation. Pour plus d’informations sur le filtrage du rapport Utilisation, voir la section [Informations sur l’utilisation des filtres](#filter-utilization-information) dans cet article.\
          Les informations d’utilisation s’affichent pour les projets, programmes et portfolios individuels (les projets sont regroupés au sein de leur programme associé et les programmes sont regroupés au sein de leur portefeuille associé).
-
-
-
 
 1. Dans le coin supérieur droit du rapport Utilisation, cliquez sur le bouton **Affichage** , puis sélectionnez l’une des options suivantes :
 
@@ -533,39 +535,39 @@ Pour créer ou modifier un filtre :
 1. Indiquez les informations suivantes pour créer ou modifier le filtre :
 
    * **Portfolios :** Commencez à saisir le nom du portfolio qui contient les informations à inclure dans le rapport Utilisation , puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.\
-      Répétez cette procédure pour inclure des informations provenant de plusieurs portefeuilles dans le rapport Utilisation .\
-      Pour inclure tous les portefeuilles de votre système dans votre filtre, cliquez sur **Tout ajouter**. (Cette option est disponible uniquement si votre système contient moins de 10 portefeuilles.)
+     Répétez cette procédure pour inclure des informations provenant de plusieurs portefeuilles dans le rapport Utilisation .\
+     Pour inclure tous les portefeuilles de votre système dans votre filtre, cliquez sur **Tout ajouter**. (Cette option est disponible uniquement si votre système contient moins de 10 portefeuilles.)
 
    * **Programmes :** Commencez à saisir le nom du programme contenant les informations à inclure dans le rapport Utilisation , puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.\
-      Répétez cette procédure pour inclure des informations provenant de plusieurs tâches dans le rapport Utilisation .\
-      Si vous avez déjà désigné des portefeuilles dans le filtre, le programme que vous spécifiez doit provenir des portefeuilles déjà inclus dans le filtre. Dans le cas contraire, les données du programme ne sont pas incluses dans le rapport Utilisation .\
-      Pour inclure tous les programmes de votre système dans votre filtre, cliquez sur **Tout ajouter**. (Cette option est disponible uniquement si votre système comporte moins de 20 programmes.)
+     Répétez cette procédure pour inclure des informations provenant de plusieurs tâches dans le rapport Utilisation .\
+     Si vous avez déjà désigné des portefeuilles dans le filtre, le programme que vous spécifiez doit provenir des portefeuilles déjà inclus dans le filtre. Dans le cas contraire, les données du programme ne sont pas incluses dans le rapport Utilisation .\
+     Pour inclure tous les programmes de votre système dans votre filtre, cliquez sur **Tout ajouter**. (Cette option est disponible uniquement si votre système comporte moins de 20 programmes.)
 
    * **Projets :** Commencez à saisir le nom du projet contenant les informations à inclure dans le rapport Utilisation , puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.\
-      Répétez cette procédure pour inclure des informations de plusieurs projets dans le rapport Utilisation .\
-      Si vous avez déjà désigné des portefeuilles ou des programmes dans le filtre, le projet que vous spécifiez doit provenir de l’un des portefeuilles ou programmes déjà inclus dans le filtre. Dans le cas contraire, les données du projet ne sont pas incluses dans le rapport Utilisation .\
-      Pour inclure tous les projets de votre système dans votre filtre, cliquez sur **Tout ajouter**. (Cette option est disponible uniquement si votre système contient moins de 250 projets.)
+     Répétez cette procédure pour inclure des informations de plusieurs projets dans le rapport Utilisation .\
+     Si vous avez déjà désigné des portefeuilles ou des programmes dans le filtre, le projet que vous spécifiez doit provenir de l’un des portefeuilles ou programmes déjà inclus dans le filtre. Dans le cas contraire, les données du projet ne sont pas incluses dans le rapport Utilisation .\
+     Pour inclure tous les projets de votre système dans votre filtre, cliquez sur **Tout ajouter**. (Cette option est disponible uniquement si votre système contient moins de 250 projets.)
 
    * **Tâches :** Commencez à saisir le nom de la tâche qui contient les informations à inclure dans le rapport Utilisation , puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.\
-      Répétez cette procédure pour inclure des informations provenant de plusieurs tâches dans le rapport Utilisation .\
-      Si vous avez déjà désigné des portefeuilles, programmes ou projets dans le filtre, la tâche que vous spécifiez doit provenir de l’un des portefeuilles, programmes ou projets déjà inclus dans le filtre. Dans le cas contraire, les données de la tâche ne sont pas incluses dans le rapport Utilisation .
+     Répétez cette procédure pour inclure des informations provenant de plusieurs tâches dans le rapport Utilisation .\
+     Si vous avez déjà désigné des portefeuilles, programmes ou projets dans le filtre, la tâche que vous spécifiez doit provenir de l’un des portefeuilles, programmes ou projets déjà inclus dans le filtre. Dans le cas contraire, les données de la tâche ne sont pas incluses dans le rapport Utilisation .
 
    * **Problèmes :** Commencez à saisir le nom du problème qui contient les informations que vous souhaitez inclure dans le rapport Utilisation, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.\
-      Répétez cette procédure pour inclure des informations provenant de plusieurs problèmes dans le rapport Utilisation .\
-      Si vous avez déjà désigné des portefeuilles, programmes ou projets dans le filtre, le problème que vous spécifiez doit provenir de l’un des portefeuilles, programmes ou projets déjà inclus dans le filtre. Dans le cas contraire, les données du problème ne sont pas incluses dans le rapport Utilisation .\
-      Les informations sur les coûts pour les problèmes ne sont pas toujours incluses dans le rapport Utilisation . Pour plus d’informations sur le moment où les informations de coût pour les problèmes sont incluses dans le rapport Utilisation, reportez-vous à la section [Effectuez le suivi de la progression, du coût et des recettes à l’aide du rapport Utilisation .](#track-progress-cost-and-revenue-with-the-utilization-report) dans cet article.
+     Répétez cette procédure pour inclure des informations provenant de plusieurs problèmes dans le rapport Utilisation .\
+     Si vous avez déjà désigné des portefeuilles, programmes ou projets dans le filtre, le problème que vous spécifiez doit provenir de l’un des portefeuilles, programmes ou projets déjà inclus dans le filtre. Dans le cas contraire, les données du problème ne sont pas incluses dans le rapport Utilisation .\
+     Les informations sur les coûts pour les problèmes ne sont pas toujours incluses dans le rapport Utilisation . Pour plus d’informations sur le moment où les informations de coût pour les problèmes sont incluses dans le rapport Utilisation, reportez-vous à la section [Effectuez le suivi de la progression, du coût et des recettes à l’aide du rapport Utilisation .](#track-progress-cost-and-revenue-with-the-utilization-report) dans cet article.
 
    * **Rôles :** Commencez à saisir le nom du rôle que vous souhaitez représenter dans le rapport d’utilisation, puis cliquez sur celui-ci dans le menu déroulant. Répétez cette procédure pour inclure des rôles supplémentaires.\
-      Le rapport Utilisation contient des informations uniquement sur les rôles que vous spécifiez. Par exemple, une tâche contient 10 heures réelles. 6 de ces heures proviennent d’un rôle Designer et 4 d’un rôle Développeur. Si vous filtrez le rapport d’utilisation par rôle pour Designer, les 4 heures provenant du rôle Développeur sont exclues du rapport.
+     Le rapport Utilisation contient des informations uniquement sur les rôles que vous spécifiez. Par exemple, une tâche contient 10 heures réelles. 6 de ces heures proviennent d’un rôle Designer et 4 d’un rôle Développeur. Si vous filtrez le rapport d’utilisation par rôle pour Designer, les 4 heures provenant du rôle Développeur sont exclues du rapport.
 
    * **Ajouter une règle de filtre :** Cliquez sur **Ajouter une règle de filtre**, cliquez sur dans le premier champ, puis commencez à saisir le nom du champ sur lequel vous souhaitez filtrer les données. Si le champ est disponible, il est renseigné pour chaque objet auquel il peut être associé. Cliquez sur le nom du champ à ajouter au filtre.
 
-      >[!IMPORTANT]
-      >
-      >Vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir  [Création ou modification d’un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+     >[!IMPORTANT]
+     >
+     >Vous devez saisir le nom du champ et non le libellé du champ. Le libellé du champ s’affiche sur un formulaire personnalisé associé à un objet. Pour plus d’informations sur la différence entre le libellé et le nom d’un champ personnalisé, voir  [Création ou modification d’un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-      Pour plus d’informations sur les champs affichés dans les colonnes, voir [Glossaire de la terminologie Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
-      Sélectionnez les modificateurs de condition et de filtre pour le filtre. Les modificateurs disponibles sont décrits dans la section [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     Pour plus d’informations sur les champs affichés dans les colonnes, voir [Glossaire de la terminologie Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
+     Sélectionnez les modificateurs de condition et de filtre pour le filtre. Les modificateurs disponibles sont décrits dans la section [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. Pour créer un nouveau filtre, cliquez sur **Enregistrer le filtre**.\
    Ou\
@@ -675,14 +677,14 @@ Pour exporter les informations d’utilisation :
 1. Sélectionnez l’une des options suivantes :
 
    * **PDF :** Exporte le rapport au format PDF. Il s’agit du format recommandé si vous envisagez d’imprimer le rapport.\
-      Sélectionnez **Lettre - Portrait**, **Lettre - Paysage** ou **Autres tailles** (propose des options pour l’exportation dans les formats Légal (8,5 x 14 pouces), Livre (11 x 17 pouces) et A4).\
-      Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre disque dur.
+     Sélectionnez **Lettre - Portrait**, **Lettre - Paysage** ou **Autres tailles** (propose des options pour l’exportation dans les formats Légal (8,5 x 14 pouces), Livre (11 x 17 pouces) et A4).\
+     Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre disque dur.
 
    * **Excel :** Exporte le rapport au format XLSX. Il s’agit du format recommandé si vous envisagez d’analyser davantage les données dans Excel.\
-      Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre disque dur.
+     Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre disque dur.
 
    * **Délimité par des onglets :** Exporte le rapport au format TSV. Il s’agit du format recommandé si vous envisagez d’importer les données dans un logiciel tiers en vue d’une analyse plus approfondie.\
-      Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre disque dur.
+     Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre disque dur.
 
 1. Lisez les informations de l’article [Exporter des données](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) pour comprendre comment utiliser le fichier exporté.
 

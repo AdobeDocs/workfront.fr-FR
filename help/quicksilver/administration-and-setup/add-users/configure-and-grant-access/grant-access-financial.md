@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
 
 # Accorder l&#39;accès aux données financières
+
+{{highlighted-preview}}
 
 En tant qu’administrateur Adobe Workfront, vous pouvez définir l’accès d’un utilisateur aux éléments suivants par le biais de son niveau d’accès, comme expliqué dans la section [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
@@ -117,13 +119,14 @@ Un utilisateur n’ayant pas accès aux données financières n’a pas accès a
 * Section Finance sous Objets de projet et de tâche
 * Analyse de cas
 * Taux de facturation et enregistrements de facturation
+* <span class="preview">Carte de taux</span>
 * Coût par heure et facturation par heure selon les préférences de l’utilisateur
 
-   Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Afficher à l’étape 4 ci-dessus.
+  Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Afficher à l’étape 4 ci-dessus.
 
 * Coût par heure et facturation par heure sur les rôles de tâche
 
-   Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Afficher à l’étape 4 ci-dessus.
+  Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Afficher à l’étape 4 ci-dessus.
 
 ### Afficher l’accès
 
@@ -134,11 +137,11 @@ Un utilisateur disposant d’un accès en mode Affichage aux données financièr
 * Taux de facturation et enregistrements de facturation
 * Coût par heure et facturation par heure selon les préférences de l’utilisateur
 
-   Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Afficher à l’étape 4 ci-dessus.
+  Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Afficher à l’étape 4 ci-dessus.
 
 * Coût par heure et facturation par heure sur les rôles de tâche
 
-   Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Afficher à l’étape 4 ci-dessus.
+  Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Afficher à l’étape 4 ci-dessus.
 
 ### Modifier l’accès
 
@@ -147,10 +150,11 @@ Un utilisateur disposant de l’accès Modifier aux données financières peut a
 * Section Finance sous Objets de projet et de tâche
 * Analyse de cas
 * Taux de facturation et enregistrements de facturation
+* <span class="preview">Carte de taux</span>
 * Coût par heure et facturation par heure selon les préférences de l’utilisateur
 
-   Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Modifier de l’étape 4 ci-dessus.
+  Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Modifier de l’étape 4 ci-dessus.
 
 * Coût par heure et facturation par heure sur les rôles de tâche
 
-   Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Modifier de l’étape 4 ci-dessus.
+  Vous pouvez le configurer à l’aide de l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton Modifier de l’étape 4 ci-dessus.

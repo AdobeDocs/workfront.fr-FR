@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: financials
 title: Présentation du remplacement des taux de facturation des rôles de tâche et calcul des recettes sur un projet
 description: Vous pouvez utiliser les taux de facturation pour calculer les recettes de vos projets lorsque vous les multipliez par les heures passées sur le projet. Pour plus d’informations sur les taux de facturation et les recettes, consultez l’article Présentation de la facturation et des recettes.
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3852'
 ht-degree: 0%
 
 ---
 
 # Présentation du remplacement des taux de facturation des rôles de tâche et calcul des recettes sur un projet
+
+{{highlighted-preview}}
 
 Vous pouvez utiliser les taux de facturation pour calculer les recettes de vos projets lorsque vous les multipliez par les heures passées sur le projet. Pour plus d’informations sur les taux de facturation et les recettes, consultez l’article . [Présentation de la facturation et des recettes](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
@@ -73,25 +75,33 @@ Pour plus d’informations sur **Type de revenu** et les taux de facturation, vo
 Un rôle de tâche peut être associé à un taux de facturation de la manière suivante :
 
 * En tant qu’administrateur Workfront, vous pouvez définir le taux de facturation au niveau du système associé à un rôle de tâche lorsque vous créez ce rôle de tâche.\
-   Pour plus d’informations sur la création de rôles de tâche, voir [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Pour plus d’informations sur la création de rôles de tâche, voir [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * En tant qu’administrateur Workfront, vous pouvez définir le taux de facturation au niveau de l’entreprise pour le même rôle de tâche lorsque vous créez une société.\
-   Lorsque Workfront calcule les recettes pour les projets associés à cette entreprise, le taux de facturation de l’entreprise est utilisé lorsque le rôle est affecté à des tâches, au lieu du taux de facturation au niveau du système pour ce rôle de tâche.\
-   Les taux de rôles d’emploi modifiés au niveau de l’entreprise auront un impact sur tous les projets associés à cette entreprise.
+  Lorsque Workfront calcule les recettes pour les projets associés à cette entreprise, le taux de facturation de l’entreprise est utilisé lorsque le rôle est affecté à des tâches, au lieu du taux de facturation au niveau du système pour ce rôle de tâche.\
+  Les taux de rôles d’emploi modifiés au niveau de l’entreprise auront un impact sur tous les projets associés à cette entreprise.
 
-   >[!NOTE]
-   >
-   >Si vous devez mettre à jour le taux de facturation de l’entreprise, celui du projet ne sera pas mis à jour automatiquement. Vous devez supprimer la société du projet, mettre à jour le taux de la société, puis rattacher à nouveau la société au projet, avant que le nouveau taux de la société ne prenne effet sur le projet. Pour obtenir des instructions sur l’association d’une entreprise à un projet, reportez-vous à la section [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+  >[!NOTE]
+  >
+  >Si vous devez mettre à jour le taux de facturation de l’entreprise, celui du projet ne sera pas mis à jour automatiquement. Vous devez supprimer la société du projet, mettre à jour le taux de la société, puis rattacher à nouveau la société au projet, avant que le nouveau taux de la société ne prenne effet sur le projet. Pour obtenir des instructions sur l’association d’une entreprise à un projet, reportez-vous à la section [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   Pour plus d’informations sur la création de taux de facturation des rôles de tâche spécifiques à une entreprise, voir [Création et modification d’entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+  Pour plus d’informations sur la création de taux de facturation des rôles de tâche spécifiques à une entreprise, voir [Création et modification d’entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 * En tant qu’administrateur Workfront, vous pouvez activer une option lors de la modification d’un projet pour appliquer des modifications aux taux de facturation au niveau de l’entreprise au projet lorsque les utilisateurs recalculent manuellement les finances du projet.\
-   Pour plus d’informations, voir [Remplacer les taux de facturation au niveau du projet par les taux de facturation au niveau de l’entreprise](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
+  Pour plus d’informations, voir [Remplacer les taux de facturation au niveau du projet par les taux de facturation au niveau de l’entreprise](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
+
+<div class="preview">
+
+* En tant qu’administrateur Workfront, vous pouvez définir des cartes de taux avec plusieurs taux de facturation par rôle, en fonction de l’emplacement et de la date. Lorsqu’une carte de taux est jointe à un projet, tous les rôles (par emplacement, si des emplacements sont utilisés) et leurs taux de facturation associés sont ajoutés à la section des taux de facturation du projet. Le fait de joindre une carte de taux remplace les taux de facturation existants sur le projet.
+
+  Pour plus d’informations, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) et [Joindre une carte de taux à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
+</div>
 
 * En tant que chef de projet, vous pouvez définir le taux de facturation du même rôle de tâche au niveau du projet.\
-   Les taux de rôle des tâches modifiés sur le projet n’auront une incidence que sur ce projet.
+  Les taux de rôle des tâches modifiés sur le projet n’auront une incidence que sur ce projet.
 
-   Pour plus d’informations sur le remplacement des taux de rôle pour le projet, voir [Remplacer les taux de facturation des rôles de tâche au niveau du projet](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+  Pour plus d’informations sur le remplacement des taux de rôle pour le projet, voir [Remplacer les taux de facturation des rôles de tâche au niveau du projet](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 >[!IMPORTANT]
 >
@@ -101,9 +111,11 @@ Un rôle de tâche peut être associé à un taux de facturation de la manière 
 
 En tant que chef de projet, vous pouvez spécifier le taux de facturation d’un rôle de tâche sur un projet spécifique. Ce taux de facturation au niveau du projet remplace le taux de facturation au niveau du système pour ce rôle de tâche. Workfront utilise le taux de facturation au niveau du projet du rôle de tâche pour calculer les recettes, au lieu d’utiliser le taux de facturation au niveau du système.
 
+<span class="preview">Vous pouvez également joindre une carte de taux au projet, qui importera les taux de facturation des rôles de tâche de la carte de taux dans le projet.</span>
+
 Pour plus d’informations sur la façon de remplacer les taux de facturation des rôles de tâche au niveau du projet, voir [Remplacer les taux de facturation des rôles de tâche au niveau du projet](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
-Pour plus d’informations sur le rôle de tâche utilisé pour calculer les recettes du projet, voir la section &quot;Calcul des recettes pour les tâches en fonction des affectations d’utilisateurs et de rôles&quot; dans [Présentation de la facturation et des recettes](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Pour plus d’informations sur le rôle de tâche utilisé pour calculer les recettes du projet, voir la section &quot;Calcul des recettes pour les tâches en fonction des affectations d’utilisateurs et de rôles&quot; dans [Présentation de la facturation et des recettes](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">Pour plus d’informations sur l’association d’une carte de taux à un projet, voir [Joindre une carte de taux à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
 
 >[!NOTE]
 >
@@ -155,7 +167,7 @@ Notez les informations suivantes dans la liste de **Taux de facturation**:
 
 ### Regroupement des rôles de tâche {#job-role-grouping}
 
-Les taux de facturation sont regroupés dans les **Taux de facturation** par leurs rôles de tâche respectifs.
+Les taux de facturation sont regroupés dans les **Taux de facturation** par leurs rôles de tâche respectifs. <span class="preview">Si une carte de taux est jointe au projet, les rôles de tâche sont également regroupés par carte de taux. Si des emplacements sont appliqués aux rôles de tâche, le nom de l’emplacement est inclus dans le nom du rôle de tâche. Le même rôle de tâche peut être répertorié pour plusieurs emplacements.</span>
 
 ### Valeur du taux de facturation du projet {#project-billing-rate-value}
 
@@ -174,6 +186,8 @@ Dans la ligne de regroupement d’un rôle de tâche, notez le taux de facturati
 Dans la ligne de regroupement d’un rôle de tâche, notez le taux de facturation de ce rôle de tâche au niveau de l’entreprise dans la variable **Taux de facturation de l’entreprise** colonne . Cela signifie qu’une société est associée à ce projet et que ce rôle de travail a un taux de facturation différent pour cette société. Le taux de facturation de l’entreprise s’affiche, même s’il est identique au taux du projet.
 
 >[!NOTE]
+>
+><span class="preview">Lorsqu’une carte de taux est jointe au projet, la variable **Taux de facturation des entreprises** ne sont pas importées dans les taux de facturation. Les calculs sont basés sur les taux des cartes de taux ou les taux des entreprises pour les rôles de tâche.</span>
 >
 >Si un rôle de tâche comporte des taux de facturation de projet, la variable **Taux de facturation de l’entreprise** n’est jamais appliquée au calcul des recettes du projet. Seule la variable **Taux de facturation du projet** sont appliquées au calcul des recettes.
 
@@ -214,17 +228,17 @@ Tenez compte de ce qui suit lors du calcul des Recettes prévues en fonction de 
 
 * Lorsque la variable **Type de revenu** d’une tâche est **Heure du rôle**, Workfront multiplie les Heures planifiées d’une tâche par le taux de facturation du rôle de tâche associé à la tâche pour calculer les Recettes planifiées de la tâche.
 
-   Pour plus d’informations sur le rôle de tâche utilisé pour calculer les recettes planifiées, voir la section &quot;Présentation des calculs de recettes pour les tâches basées sur les affectations d’utilisateurs et de rôles&quot; de l’article. [Présentation de la facturation et des recettes](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  Pour plus d’informations sur le rôle de tâche utilisé pour calculer les recettes planifiées, voir la section &quot;Présentation des calculs de recettes pour les tâches basées sur les affectations d’utilisateurs et de rôles&quot; de l’article. [Présentation de la facturation et des recettes](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 * Dans le cas de remplacements multiples de taux de facturation, le taux par lequel les Heures planifiées sont multipliées change pendant la durée d’une tâche. Par défaut, Workfront répartit les Heures planifiées uniformément sur la durée d’une tâche, allouant un nombre égal d’heures pour chaque jour de la tâche. Lors du calcul **Recettes prévues** pour une tâche, Workfront multiplie l’Heure planifiée par jour par le taux de facturation de cette journée. Dans le cas de plusieurs taux de facturation, ce taux peut être différent chaque jour.
 
-   Par exemple, vous avez une tâche avec un rôle Heure **Type de revenu**. La tâche a une durée de 5 jours et une valeur Heures planifiées de 40 heures. Les heures planifiées par jour sont de 8 heures. Attribuez un rôle de tâche Gestionnaire de projets à la tâche et remplacez le taux de facturation de ce rôle de tâche pour les trois derniers jours de la tâche. Vous aurez donc un taux de facturation de l’ordre 1 pour les deux premiers jours et un taux de facturation de l’ordre 2 pour les trois jours restants de la tâche pour ce rôle de tâche.
+  Par exemple, vous avez une tâche avec un rôle Heure **Type de revenu**. La tâche a une durée de 5 jours et une valeur Heures planifiées de 40 heures. Les heures planifiées par jour sont de 8 heures. Attribuez un rôle de tâche Gestionnaire de projets à la tâche et remplacez le taux de facturation de ce rôle de tâche pour les trois derniers jours de la tâche. Vous aurez donc un taux de facturation de l’ordre 1 pour les deux premiers jours et un taux de facturation de l’ordre 2 pour les trois jours restants de la tâche pour ce rôle de tâche.
 
-   La formule qui calcule la variable **Recettes prévues** de cette tâche est :
+  La formule qui calcule la variable **Recettes prévues** de cette tâche est :
 
-   ```
-   Planned Revenue = (Rate 1) * (Planned Hours for Day 1) + (Rate 1) * (Planned hours for Day 2) + (Rate 2) * (Planned hours for Day 3) + (Rate 2) * (Planned hours for Day 4) + (Rate 2) * (Planned hours for Day 5)
-   ```
+  ```
+  Planned Revenue = (Rate 1) * (Planned Hours for Day 1) + (Rate 1) * (Planned hours for Day 2) + (Rate 2) * (Planned hours for Day 3) + (Rate 2) * (Planned hours for Day 4) + (Rate 2) * (Planned hours for Day 5)
+  ```
 
 Pour plus d’informations sur la recherche du montant Heures planifiées par jour dans Workfront, consultez la section . [Répartition des heures planifiées sur la durée d’une tâche](#distribution-of-planned-hours-across-the-duration-of-a-task) dans cet article.
 
@@ -238,14 +252,14 @@ Tenez compte de ce qui suit lorsque vous comprenez la répartition des heures pl
 
 * Par défaut, Workfront répartit les heures planifiées uniformément sur la durée d’une tâche, allouant un nombre égal d’heures planifiées pour chaque jour de la tâche, en fonction de la disponibilité du planning du projet.
 
-   Pour plus d’informations sur la compréhension de la répartition des heures planifiées sur la durée d’une tâche, voir la section &quot;Compréhension de la répartition des heures planifiées sur la durée d’une tâche&quot; dans l’article [Présentation des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
+  Pour plus d’informations sur la compréhension de la répartition des heures planifiées sur la durée d’une tâche, voir la section &quot;Compréhension de la répartition des heures planifiées sur la durée d’une tâche&quot; dans l’article [Présentation des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
 
-   >[!NOTE]
-   >
-   >Les Heures planifiées par jour sont l’allocation des Heures planifiées pour chaque jour pendant la durée de la tâche. Si la tâche n’a qu’une affectation, ce nombre représente également les Heures planifiées par jour et par affectation. Si la tâche comporte plusieurs affectations, les Heures planifiées par jour et par affectation sont différentes des Heures planifiées par jour pour la tâche. Il n’existe aucune représentation visuelle dans Workfront pour les heures planifiées par jour et par affectation, pour les tâches avec plusieurs affectations.
-   >
-   >
-   >Les Heures planifiées par jour sont multipliées par le taux de facturation du rôle de tâche affecté à la tâche pour cette journée afin de calculer les Recettes planifiées par jour pour cette tâche. Une somme de tous les revenus planifiés quotidiens calculés de cette manière est égale aux revenus prévus pour cette tâche.
+  >[!NOTE]
+  >
+  >Les Heures planifiées par jour sont l’allocation des Heures planifiées pour chaque jour pendant la durée de la tâche. Si la tâche n’a qu’une affectation, ce nombre représente également les Heures planifiées par jour et par affectation. Si la tâche comporte plusieurs affectations, les Heures planifiées par jour et par affectation sont différentes des Heures planifiées par jour pour la tâche. Il n’existe aucune représentation visuelle dans Workfront pour les heures planifiées par jour et par affectation, pour les tâches avec plusieurs affectations.
+  >
+  >
+  >Les Heures planifiées par jour sont multipliées par le taux de facturation du rôle de tâche affecté à la tâche pour cette journée afin de calculer les Recettes planifiées par jour pour cette tâche. Une somme de tous les revenus planifiés quotidiens calculés de cette manière est égale aux revenus prévus pour cette tâche.
 
 ## Calculer les recettes réelles
 
@@ -258,11 +272,11 @@ Tenez compte de ce qui suit lors du calcul des Recettes réelles en fonction d�
 
 * Lorsque la variable **Type de revenu** d’une tâche est **Heure du rôle**, Workfront multiplie la variable **Heures réelles** d’une tâche par taux de facturation du rôle de tâche associé à la tâche à calculer **Recettes réelles** sur la tâche. Les heures réelles sont les heures consignées directement dans la tâche.
 
-   Pour plus d’informations sur le rôle de tâche utilisé pour calculer **Recettes réelles**, reportez-vous à la section &quot;Présentation des calculs de recettes pour les tâches basées sur les affectations d’utilisateurs et de rôles&quot; de l’article [Présentation de la facturation et des recettes](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  Pour plus d’informations sur le rôle de tâche utilisé pour calculer **Recettes réelles**, reportez-vous à la section &quot;Présentation des calculs de recettes pour les tâches basées sur les affectations d’utilisateurs et de rôles&quot; de l’article [Présentation de la facturation et des recettes](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 * Si le taux de facturation du rôle de tâche a été remplacé au niveau du projet, Workfront utilise le taux de remplacement du projet pour calculer les recettes réelles. Lorsque vous remplacez le taux de facturation du rôle de tâche sur le projet, la variable **Recettes réelles** du projet est recalculé automatiquement à l&#39;aide du nouveau taux ajusté.
 
-   Pour plus d’informations sur le remplacement des taux de rôle pour le projet, voir [Remplacer les taux de facturation des rôles de tâche au niveau du projet](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+  Pour plus d’informations sur le remplacement des taux de rôle pour le projet, voir [Remplacer les taux de facturation des rôles de tâche au niveau du projet](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 >[!NOTE]
 >
@@ -277,15 +291,15 @@ Tenez compte de ce qui suit lors du calcul des Recettes réelles en fonction de 
 
 * En cas de remplacement de plusieurs taux de facturation, le taux auquel la variable **Heures réelles** sont multipliés pour calculer la valeur **Recettes réelles** peut changer pendant la durée d’une tâche. Workfront utilise le taux de facturation du rôle de tâche dont la période correspond à la valeur **Date d’entrée** des heures consignées pour la tâche à calculer **Recettes réelles.**
 
-   Par exemple, une tâche a la propriété **Type de revenu** de **Heure du rôle** et est affecté au rôle de tâche du gestionnaire de projet. Remplacez le taux de facturation de ce rôle de tâche par le taux 1 pour les dates comprises entre le 19 et le 25 juin. À compter du 26 juin, remplacez le taux de facturation par le taux 2. Consignez 2 heures pour le 20 juin et 3 heures pour le 28 juin.
+  Par exemple, une tâche a la propriété **Type de revenu** de **Heure du rôle** et est affecté au rôle de tâche du gestionnaire de projet. Remplacez le taux de facturation de ce rôle de tâche par le taux 1 pour les dates comprises entre le 19 et le 25 juin. À compter du 26 juin, remplacez le taux de facturation par le taux 2. Consignez 2 heures pour le 20 juin et 3 heures pour le 28 juin.
 
-   Workfront calcule la variable **Recettes réelles** pour cette tâche en utilisant la formule suivante :
+  Workfront calcule la variable **Recettes réelles** pour cette tâche en utilisant la formule suivante :
 
-   ```
-   Actual Revenue = 2 * Rate 1 + 3 * Rate 2
-   ```
+  ```
+  Actual Revenue = 2 * Rate 1 + 3 * Rate 2
+  ```
 
-   Pour plus d’informations sur le rôle de tâche utilisé pour calculer **Recettes réelles**, reportez-vous à la section &quot;Présentation des calculs de recettes pour les tâches basées sur les affectations d’utilisateurs et de rôles&quot; de l’article [Présentation de la facturation et des recettes](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  Pour plus d’informations sur le rôle de tâche utilisé pour calculer **Recettes réelles**, reportez-vous à la section &quot;Présentation des calculs de recettes pour les tâches basées sur les affectations d’utilisateurs et de rôles&quot; de l’article [Présentation de la facturation et des recettes](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Incidence des fuseaux horaires lors du calcul des recettes sur la base de plusieurs taux de facturation
 
@@ -317,10 +331,10 @@ Tenez compte de ce qui suit lors du calcul des recettes planifiées pour les uti
 
 * Le montant des heures planifiées par jour ne modifie pas les recettes planifiées d’un projet si le taux de facturation du rôle de tâche n’est pas modifié ou s’il n’y a qu’un seul remplacement de taux de facturation. Dans ce cas, même si deux utilisateurs de deux fuseaux horaires différents voient des heures planifiées par jour différentes, les recettes planifiées globales du projet sont identiques entre les deux utilisateurs.
 
-   Toutefois, dans le cas de plusieurs remplacements de taux de facturation, l’ensemble des **Recettes prévues** du projet peut sembler différent pour deux utilisateurs dans deux fuseaux horaires différents, car il repose sur le nombre d’heures planifiées par jour (qui peut être différent pour les deux utilisateurs) et sur le remplacement du taux de facturation (qui peut être différent pour le même jour, lorsque chaque utilisateur examine la tâche dans son propre fuseau horaire).
+  Toutefois, dans le cas de plusieurs remplacements de taux de facturation, l’ensemble des **Recettes prévues** du projet peut sembler différent pour deux utilisateurs dans deux fuseaux horaires différents, car il repose sur le nombre d’heures planifiées par jour (qui peut être différent pour les deux utilisateurs) et sur le remplacement du taux de facturation (qui peut être différent pour le même jour, lorsque chaque utilisateur examine la tâche dans son propre fuseau horaire).
 
 * La précision **Recettes prévues** amount est celui qui est vu par l’utilisateur qui a le même fuseau horaire que celui de votre instance Workfront. Votre administrateur Workfront définit le fuseau horaire Workfront dans la zone Informations client système.\
-   Pour plus d’informations sur la définition du fuseau horaire pour votre système, consultez l’article . [Configuration des informations de base pour votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  Pour plus d’informations sur la définition du fuseau horaire pour votre système, consultez l’article . [Configuration des informations de base pour votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Calcul des recettes réelles pour les utilisateurs dans différents fuseaux horaires {#calculate-actual-revenue-for-users-in-different-time-zones}
 

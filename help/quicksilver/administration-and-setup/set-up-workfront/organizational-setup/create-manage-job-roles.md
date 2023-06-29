@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
 # Création et gestion des rôles de tâche
+
+{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -80,11 +82,12 @@ Vous devez disposer des éléments suivants :
      </tr> 
      <tr> 
       <td role="rowheader">Coût [!UICONTROL/Heure.]</td> 
-      <td>Il s’agit du taux de coût par heure du rôle de tâche. Cette valeur calcule les coûts prévus et les coûts réels des tâches et des problèmes associés au rôle, ainsi que, en fin de compte, les coûts prévus et les coûts réels des projets. <span>Saisissez le taux à l’aide de la [!UICONTROL Devise de base].</span> </td> 
+      <td><p>Il s’agit du taux de coût par heure du rôle de tâche. Cette valeur calcule les coûts prévus et les coûts réels des tâches et des problèmes associés au rôle, ainsi que, en fin de compte, les coûts prévus et les coûts réels des projets. Saisissez le taux à l’aide de la [!UICONTROL Devise de base].</p> 
+      <p><span class="preview">Pour consulter les taux de coût en vigueur à la date, cliquez sur <strong>[!UICONTROL Taux d’ajout]</strong>. Saisissez la valeur du coût/de l’heure pour la période, puis attribuez une [!UICONTROL Date de début] et une [!UICONTROL Date de fin] si nécessaire. Le premier taux de coût ne comporte pas de date de début et le dernier taux de coût ne comporte pas de date de fin.</span></p> <p><span class="preview">Certaines dates sont ajoutées automatiquement. Par exemple, si le premier taux de coût n’a pas de date de fin et que vous ajoutez un second taux de coût avec une date de début le 1er mai 2023, une date de fin le 30 avril 2023 est ajoutée au premier taux de coût afin qu’il n’y ait pas d’écart.</span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Bill/ Hr.] </td> 
-      <td>Il s’agit du taux de facturation par heure du rôle de tâche. Cette valeur calcule les revenus prévus et réels des tâches et des problèmes associés au rôle, ainsi que, en fin de compte, les revenus prévus et réels des projets. Saisissez le taux à l’aide de la [!UICONTROL Devise de base]. </td> 
+      <td><p>Il s’agit du taux de facturation par heure du rôle de tâche. Cette valeur calcule les revenus prévus et réels des tâches et des problèmes associés au rôle, ainsi que, en fin de compte, les revenus prévus et réels des projets. Saisissez le taux à l’aide de la [!UICONTROL Devise de base].</p> <p><span class="preview">Pour connaître les taux de facturation en vigueur à la date, cliquez sur <strong>[!UICONTROL Taux d’ajout]</strong>. Saisissez la valeur de la facturation/heure pour la période, puis attribuez une [!UICONTROL Date de début] et une [!UICONTROL Date de fin], le cas échéant. Le premier taux de facturation n'aura pas de date de début et le dernier taux de facturation pas de date de fin.</span></p> <p><span class="preview">Certaines dates sont ajoutées automatiquement. Par exemple, si le premier taux de facturation ne comporte pas de date de fin et que vous ajoutez une seconde avec une date de début le 1er mai 2023, une date de fin du 30 avril 2023 est ajoutée au premier taux de facturation afin qu’il n’y ait pas d’écart.</span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Remplacer la devise]</span> </td> 

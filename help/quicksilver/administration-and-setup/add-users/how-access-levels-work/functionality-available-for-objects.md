@@ -10,14 +10,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1253'
 ht-degree: 12%
 
 ---
 
 # Fonctionnalités disponibles pour chaque type d’objet pour les nouveaux niveaux d’accès
+
+{{highlighted-preview}}
 
 Le tableau suivant répertorie les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 
@@ -243,7 +245,7 @@ Les utilisateurs disposant d’une licence Standard peuvent avoir un accès comp
 
 &#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
 
-## Utilisateurs
+## Utilisateurs et utilisatrices
 
 | Action | Standard | Léger | Contributeur | Utilisateur externe** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
@@ -304,6 +306,7 @@ Seuls les utilisateurs disposant d’une licence Standard peuvent avoir un accè
 | Gestion des enregistrements de facturation | ✓ |   |   |   |
 | Gérer les dépenses | ✓ |   |   |   |
 | Affichage des données financières | ✓&#42; | ✓&#42; |   |   |
+| <span class="preview">Gestion des cartes de taux</span> | ✓ |   |   |   |
 | Affichage des informations par coût dans les outils de planification des ressources | ✓ |   |   |   |
 | Ressources budgétaires dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |   |
 | Affichage de l’affectation des ressources dans les outils de planification des ressources&#42; | ✓ | ✓ |   |   |

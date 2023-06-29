@@ -6,14 +6,16 @@ description: Vous pouvez budgéter vos ressources dans le planificateur de resso
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
 
 # Calcul des coûts dans le planificateur de ressources
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -91,8 +93,8 @@ Pour afficher les valeurs de coûts disponibles dans le planificateur de ressour
 * Taux de coût par heure pour les utilisateurs et les rôles
 * Informations sur la disponibilité des utilisateurs.
 
-   L’obtention d’informations sur la disponibilité des utilisateurs dépend de la manière dont votre administrateur Workfront configure les préférences de gestion des ressources.\
-   Pour plus d’informations sur le calcul de la disponibilité des utilisateurs et la définition des préférences de gestion des ressources, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  L’obtention d’informations sur la disponibilité des utilisateurs dépend de la manière dont votre administrateur Workfront configure les préférences de gestion des ressources.\
+  Pour plus d’informations sur le calcul de la disponibilité des utilisateurs et la définition des préférences de gestion des ressources, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 Le tableau suivant illustre le mode de calcul du coût disponible dans le planificateur de ressources :
 
@@ -130,15 +132,23 @@ Si le rôle n’a pas de taux de coût par heure, le coût du rôle disponible e
 Bien que vous ne puissiez pas afficher les informations de tâche dans le planificateur de ressources, les coûts planifiés des utilisateurs, des rôles et des projets sont calculés en prenant en compte les informations de tâche suivantes :
 
 * Type d’affectation sur la tâche.\
-   Vous pouvez laisser une tâche non assignée ou affecter les entités suivantes à une tâche :
+  Vous pouvez laisser une tâche non assignée ou affecter les entités suivantes à une tâche :
 
    * Un utilisateur (avec ou sans rôle de tâche)
    * Un rôle
    * Une équipe\
-      Une tâche affectée à une équipe est considérée comme non assignée, du point de vue du planificateur de ressources.
+     Une tâche affectée à une équipe est considérée comme non assignée, du point de vue du planificateur de ressources.
 
 * Le **Type de coût** des tâches du projet.\
-   Pour plus d’informations sur le type de coût d’une tâche, voir [Suivi des coûts](../../manage-work/projects/project-finances/track-costs.md).
+  Pour plus d’informations sur le type de coût d’une tâche, voir [Suivi des coûts](../../manage-work/projects/project-finances/track-costs.md).
+
+<div class="preview">
+
+* Dates d’entrée en vigueur des taux de coût pour les rôles de tâche et les utilisateurs.
+
+  Par exemple, si le rôle ou l’utilisateur dispose de 10 heures planifiées en février et de 10 heures planifiées en mars, mais que le taux de coût est passé de 12 à 20 $ en mars, la valeur du coût planifié en février est de 120 $ et, en mars, le coût planifié est de 200 $.
+
+</div>
 
 >[!NOTE]
 >
@@ -150,113 +160,113 @@ Les scénarios suivants se présentent lors du calcul du coût planifié pour le
 
    * **Coût planifié du rôle et de l’utilisateur**:
 
-      Le rôle et les coûts planifiés de l’utilisateur sont de 0,00 $.
+     Le rôle et les coûts planifiés de l’utilisateur sont de 0,00 $.
 
    * **Coût planifié du projet**:
 
-      Le coût prévu du projet est de 0,00 $.
+     Le coût prévu du projet est de 0,00 $.
 
 * Lorsque la variable **Type de coût** is **Heure de l’utilisateur** et il y a une **affectation d’utilisateur** sur la tâche :
 
    * **Coût planifié du rôle et de l’utilisateur**:
 
-      Le coût planifié de l’utilisateur est calculé à l’aide de la formule suivante :
+     Le coût planifié de l’utilisateur est calculé à l’aide de la formule suivante :
 
 
 
-      ```
-      User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
-      ```
+     ```
+     User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
+     ```
 
-      Si un utilisateur a un taux de coût dans son profil, ce taux est utilisé pour calculer le coût planifié. Sinon, le taux de coût par heure au niveau du système de leur rôle Principal est utilisé.
+     Si un utilisateur a un taux de coût dans son profil, ce taux est utilisé pour calculer le coût planifié. Sinon, le taux de coût par heure au niveau du système de leur rôle Principal est utilisé.
 
-      >[!NOTE]
-      >
-      >L’utilisateur peut être affecté à la tâche avec l’un de ses rôles de tâche secondaires, mais le taux du rôle de tâche Principal est utilisé ici à la place.
+     >[!NOTE]
+     >
+     >L’utilisateur peut être affecté à la tâche avec l’un de ses rôles de tâche secondaires, mais le taux du rôle de tâche Principal est utilisé ici à la place.
 
-      Le rôle Coût planifié est calculé à l’aide de la formule suivante :
+     Le rôle Coût planifié est calculé à l’aide de la formule suivante :
 
-      ```
-      Role Planned Cost = SUM(User Planned Cost)
-      ```
+     ```
+     Role Planned Cost = SUM(User Planned Cost)
+     ```
 
    * **Coût planifié du projet**:
 
-      Le coût prévu du projet est de 0,00 $.
+     Le coût prévu du projet est de 0,00 $.
 
 * Lorsque la variable **Type de coût** is **Heure de l’utilisateur** et il y a une **affectation de rôle** sur la tâche :
 
    * **Coût planifié du rôle et de l’utilisateur**:
 
-      Le coût planifié de l’utilisateur est de 0,00 $.
+     Le coût planifié de l’utilisateur est de 0,00 $.
 
-      Le rôle Coût planifié est calculé à l’aide de la formule suivante :
+     Le rôle Coût planifié est calculé à l’aide de la formule suivante :
 
-      ```
-      Role Planned Cost = Role Planned Hours * Role Cost per Hours
-      ```
+     ```
+     Role Planned Cost = Role Planned Hours * Role Cost per Hours
+     ```
 
-      Le taux de coût par heure au niveau du système du rôle de tâche affecté à la tâche est utilisé pour calculer le coût planifié.
+     Le taux de coût par heure au niveau du système du rôle de tâche affecté à la tâche est utilisé pour calculer le coût planifié.
 
    * **Coût planifié du projet**:
 
-      Le coût prévu du projet est de 0,00 $.
+     Le coût prévu du projet est de 0,00 $.
 
 * Lorsque la variable **Type de coût** is **Heure du rôle** et il y a **aucune affectation** sur la tâche :
 
    * **Coût planifié du rôle et de l’utilisateur**:
 
-      Le rôle et les coûts planifiés de l’utilisateur sont de 0,00 $.
+     Le rôle et les coûts planifiés de l’utilisateur sont de 0,00 $.
 
    * **Coût planifié du projet**:
 
-      Le coût prévu du projet est de 0,00 $.
+     Le coût prévu du projet est de 0,00 $.
 
 * Lorsque la variable **Type de coût** is **Heure du rôle** et il y a une **affectation d’utilisateur** sur la tâche :
 
    * **Coût planifié du rôle et de l’utilisateur**:
 
-      Le coût planifié de l’utilisateur est de 0,00 $.
+     Le coût planifié de l’utilisateur est de 0,00 $.
 
-      Le rôle Coût planifié est calculé selon la formule suivante :
+     Le rôle Coût planifié est calculé selon la formule suivante :
 
-      ```
-      Role Planned Cost = Role Planned Hours * Role Cost per Hours
-      ```
+     ```
+     Role Planned Cost = Role Planned Hours * Role Cost per Hours
+     ```
 
-      Workfront examine le rôle de tâche que l’utilisateur remplit sur la tâche pour calculer le coût planifié du rôle.
+     Workfront examine le rôle de tâche que l’utilisateur remplit sur la tâche pour calculer le coût planifié du rôle.
 
-      Si l’utilisateur n’est associé à aucun rôle dans la tâche, le coût planifié est de 0,00 $.
+     Si l’utilisateur n’est associé à aucun rôle dans la tâche, le coût planifié est de 0,00 $.
 
    * **Coût planifié du projet**:
 
-      Le coût planifié du projet est calculé à l’aide de la formule suivante :
+     Le coût planifié du projet est calculé à l’aide de la formule suivante :
 
-      ```
-      Project Planned Cost = SUM(Role Planned Costs)
-      ```
+     ```
+     Project Planned Cost = SUM(Role Planned Costs)
+     ```
 
 * Lorsque la variable **Type de coût** is **Heure du rôle** et il y a une **affectation de rôle** sur la tâche :
 
    * **Coût planifié du rôle et de l’utilisateur**:
 
-      Le coût planifié de l’utilisateur est de 0,00 $.
+     Le coût planifié de l’utilisateur est de 0,00 $.
 
-      Le rôle Coût planifié est calculé selon la formule suivante :
+     Le rôle Coût planifié est calculé selon la formule suivante :
 
-      ```
-      Role Planned Cost = Role Planned Hours * Role Cost per Hours
-      ```
+     ```
+     Role Planned Cost = Role Planned Hours * Role Cost per Hours
+     ```
 
-      Workfront examine le rôle de tâche que l’utilisateur remplit sur la tâche pour calculer le coût planifié du rôle.
+     Workfront examine le rôle de tâche que l’utilisateur remplit sur la tâche pour calculer le coût planifié du rôle.
 
    * **Coût planifié du projet**:
 
-      Le coût planifié du projet est calculé à l’aide de la formule suivante :
+     Le coût planifié du projet est calculé à l’aide de la formule suivante :
 
-      ```
-      Project Planned Cost = SUM(Role Planned Costs)
-      ```
+     ```
+     Project Planned Cost = SUM(Role Planned Costs)
+     ```
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

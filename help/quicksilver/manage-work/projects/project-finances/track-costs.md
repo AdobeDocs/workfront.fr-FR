@@ -4,17 +4,19 @@ product-area: projects
 navigation-topic: financials
 title: Suivi des coûts
 description: Vous pouvez effectuer le suivi des coûts des projets, tâches et problèmes dans Adobe Workfront.
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2472'
 ht-degree: 1%
 
 ---
 
 # Suivi des coûts
+
+{{highlighted-preview}}
 
 Vous pouvez effectuer le suivi des coûts des projets, tâches et problèmes dans Adobe Workfront.
 
@@ -28,11 +30,11 @@ Les scénarios suivants existent :
 
 * Si le type de coût de vos tâches est Heure de l’utilisateur, le taux horaire de l’utilisateur calcule les coûts de la tâche et du projet.
 
-   Pour plus d’informations sur l’association des utilisateurs aux taux de coût, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Pour plus d’informations sur l’association des utilisateurs aux taux de coût, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Si le type de coût de vos tâches est Rôle horaire, le taux horaire du rôle calcule les coûts de la tâche et du projet.
 
-   Pour plus d’informations sur l’association de rôles de tâche aux taux de coût, voir [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Pour plus d’informations sur l’association de rôles de tâche aux taux de coût, voir [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Workfront calcule uniquement le coût réel pour les problèmes et les problèmes qui n’ont pas de type de coût. Pour plus d’informations, voir la section [Suivi des coûts par Workfront pour les problèmes](#how-workfront-tracks-costs-for-issues) dans cet article.
 
@@ -59,41 +61,39 @@ Pour plus d’informations sur le calcul des index de coûts-performances, voir 
 
 Vous pouvez effectuer le suivi de plusieurs types de coûts pour les tâches et les projets dans Workfront. Les coûts globaux sont calculés par la formule suivante :
 
-```
-Costs = Labor Costs + Expense Costs
-```
+`Costs = Labor Costs + Expense Costs`
 
 * **Coûts du travail** sont associées aux heures sur les tâches et les projets et aux taux de coût par heure des ressources associées aux tâches. En règle générale, Workfront calcule les coûts de main-d’oeuvre suivants :
 
-   <table style="table-layout:auto"> 
+  <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
      <td>Coûts du travail prévus</td> 
-     <td> <p>Elles sont calculées à l'aide de la formule suivante :</p><pre>Coûts du travail planifiés = Heures planifiées * Taux coût par heure</pre> </td> 
+     <td> <p>Elles sont calculées à l'aide de la formule suivante :</p><code>Planned Labor Costs = Planned Hours * Cost per Hour rate</code> </td> 
     </tr> 
     <tr> 
      <td>Coûts du travail budgétés</td> 
-     <td> <p>Elles sont calculées à l'aide de la formule suivante :</p><pre>Coûts du travail budgétés = Heures budgétées * Taux horaire</pre> </td> 
+     <td> <p>Elles sont calculées à l'aide de la formule suivante :</p><code>Budgeted Labor Costs = Budgeted Hours * Cost per Hour rate</code> </td> 
     </tr> 
     <tr> 
      <td>Coûts de main-d’oeuvre réels</td> 
-     <td> <p>Elles sont calculées à l'aide de la formule suivante :</p><pre>Coûts de main-d’oeuvre réels = Heures réelles * Taux coût par heure</pre> </td> 
+     <td> <p>Elles sont calculées à l'aide de la formule suivante :</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
     </tr> 
    </tbody> 
   </table>
 
-   Pour plus d’informations, voir [Comment Workfront calcule les coûts prévus, budgétaires et réels](#how-workfront-calculates-planned-budgeted-and-actual-costs) dans cet article.
+  Pour plus d’informations, voir [Comment Workfront calcule les coûts prévus, budgétaires et réels](#how-workfront-calculates-planned-budgeted-and-actual-costs) dans cet article.
 
 * **Coûts de dépense** sont associés aux dépenses sur les projets et les tâches.\
-   Lorsque vous créez un projet, vous pouvez définir les dépenses prévues pour l’ensemble du projet. De plus, vous pouvez associer des dépenses à des tâches nouvelles ou existantes. Pour plus d’informations, voir [Gestion des dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Lorsque vous créez un projet, vous pouvez définir les dépenses prévues pour l’ensemble du projet. De plus, vous pouvez associer des dépenses à des tâches nouvelles ou existantes. Pour plus d’informations, voir [Gestion des dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * **Coûts fixes** sont définies comme un montant fixe de coût pour un projet. Il fait partie du coût planifié du projet, qui représente le montant d’argent dont vous avez besoin pour terminer le projet.
 
-   >[!TIP]
-   >
-   >Lors de l’association d’un modèle à un projet, le coût fixe d’un modèle est ajouté au coût fixe du projet. Pour plus d’informations, voir [Présentation de l’association d’un modèle à un projet](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
+  >[!TIP]
+  >
+  >Lors de l’association d’un modèle à un projet, le coût fixe d’un modèle est ajouté au coût fixe du projet. Pour plus d’informations, voir [Présentation de l’association d’un modèle à un projet](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
 
 ### Comment Workfront calcule les coûts prévus, budgétaires et réels {#how-workfront-calculates-planned-budgeted-and-actual-costs}
 
@@ -109,17 +109,15 @@ Le coût planifié d’un projet est le coût associé au travail planifié (heu
 
 Le Coût planifié d&#39;un projet est calculé selon la formule suivante :
 
-```
-Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
-```
+`Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project`
 
 Par exemple, vous avez les dépenses suivantes dans l&#39;onglet Dépenses d&#39;une tâche : une dépense marketing de 100 $ et une dépense administrative de 50 $. Dans l&#39;onglet Finance, sélectionnez le type de coût Heure de l&#39;utilisateur . Un utilisateur est affecté à la tâche et son taux horaire est de 15 $. L’utilisateur doit travailler 5 heures sur cette tâche. Dans l&#39;onglet Dépenses du projet, vous avez un coût prévisionnel de 100 $ pour une dépense appelée Conseils. Vous avez également un coût fixe de 200 $ pour le projet.
 
 Le coût planifié du projet est calculé comme suit :
 
-```
-$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense) + $15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost) = $525
-```
+`$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense) + $15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost) = $525`
+
+<span class="preview">Le taux horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</span>
 
 #### Coût budgété {#budgeted-cost}
 
@@ -136,7 +134,8 @@ Le coût budgété du projet est calculé à l&#39;aide de la formule ci-dessous
 * Le type de facturation des tâches est &quot;Heure du rôle&quot;.
 
 Lorsque les conditions ci-dessus sont remplies, Workfront calcule le coût budgété du projet à l’aide de la formule suivante :
-<pre>Coût du projet budgété = coût du travail budgété + coût des dépenses budgétisées de toutes les tâches + coût des dépenses budgétisées du projet</pre>
+
+`Budgeted Project Cost = Budgeted Labor Cost + Budgeted Expense Cost of all tasks + Budgeted Expense Cost of the project`
 
 #### Coûts réels {#actual-cost}
 
@@ -144,17 +143,15 @@ Le coût réel d’un projet est le coût associé au travail réel (heures enre
 
 Le coût réel est calculé à l&#39;aide de la formule suivante :
 
-```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
-```
+`Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project`
 
 Par exemple, vous avez les dépenses suivantes dans l&#39;onglet Dépenses d&#39;une tâche : une dépense marketing pour un coût réel de 110 euros et une dépense administrative pour un coût réel de 40 euros. Vous sélectionnez le type de coût Heure du rôle et attribuez le rôle de tâche de consultant à la tâche. Le taux d’occupation du rôle de consultant est de 15 $ par heure et il y a 6 heures de connexion à la tâche pour le rôle de consultant. Une dépense de conseil est associée au projet (dans l&#39;onglet Dépenses ), avec un coût réel de 100 euros et un utilisateur avec un taux de coût par heure de 20 euros dans son profil utilisateur consigne 10 heures sur le projet. Vous avez également un coût fixe de 200 $ pour le projet.
 
 Le coût réel du projet est calculé comme suit :
 
-```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost) = $740
-```
+`$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost) = $740`
+
+<span class="preview">Le taux horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</span>
 
 >[!NOTE]
 >
@@ -170,7 +167,6 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 >* Par défaut, Workfront utilise le taux de coût par heure de l’utilisateur pour calculer le coût réel de la main-d’oeuvre.
 >* Si l’utilisateur qui consigne l’heure n’est associé à aucun coût, Workfront utilise le taux de coût par heure du rôle Principal de l’utilisateur.
 >* Si votre administrateur Workfront a activé la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** dans la zone Préférences Heures et Heures , et le temps de connexion de l’utilisateur sur le projet sélectionne un rôle différent à associer à ce moment, le coût réel du projet calcule en fonction du rôle spécifié lorsque les heures ont été enregistrées. Pour plus d’informations sur l’activation de la durée de journalisation pour un rôle de tâche spécifique, voir l’article [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
 
 ### Méthode de calcul des types de coûts par Workfront pour les tâches {#how-workfront-calculates-cost-types-for-tasks}
 
@@ -194,15 +190,16 @@ Le tableau suivant décrit les types de coûts de tâche disponibles dans Workfr
  <tbody> 
   <tr> 
    <td> <p>Utilisateur, par heure</p> </td> 
-   <td> <p>Il s’agit du type de coût par défaut lors de la création d’une tâche.</p> <p><strong>Coût planifié</strong> est calculé à partir de la formule suivante : </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Lorsque le coût de la main-d’oeuvre planifiée est calculé comme suit :<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Note:   <p>Tenez compte des impacts suivants de l’utilisation du type de coût horaire de l’utilisateur et du calcul du coût planifié :</p> 
+   <td> <p>Il s’agit du type de coût par défaut lors de la création d’une tâche.</p> <p><strong>Coût planifié</strong> est calculé à partir de la formule suivante : </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Lorsque le coût de la main-d’oeuvre planifiée est calculé comme suit :<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Note: <p>Tenez compte des impacts suivants de l’utilisation du type de coût horaire de l’utilisateur et du calcul du coût planifié :</p> 
      <ul> 
-      <li>Si vous attribuez plusieurs ressources à une tâche, Workfront ajuste les calculs du coût planifié en fonction du pourcentage de la tâche affectée à chaque ressource.</li> 
+      <li>Si vous attribuez plusieurs ressources à une tâche, Workfront ajuste les calculs du coût planifié en fonction du pourcentage de la tâche affectée à chaque ressource.</li>
+      <li><span class="preview">Pour les taux de coût en vigueur à la date, le coût du Travail planifié est la somme des coûts prévus pour chaque période couverte par la tâche.</span></li>
       <li>La valeur du champ Coût planifié peut différer selon que vous affichez le coût planifié à partir de la tâche elle-même ou du rapport Utilisation .<br><strong>Lors de l’affichage du coût planifié à partir de la tâche elle-même :</strong> Le champ Coût planifié prend en compte le champ Coût/heure défini au niveau Rôle de la tâche (lorsque le champ Coût/heure n’a pas été défini au niveau de l’utilisateur).<br><strong>Lors de l’affichage du coût planifié dans le rapport Utilisation du projet :</strong> Le champ Coût planifié ne prend pas en compte le champ Coût/heure défini au niveau Rôle de la tâche. Au lieu de cela, si vous souhaitez que le rapport Utilisation prenne en compte le champ Coût/heure défini au niveau Rôle de la tâche, vous devez définir le Type de coût de la tâche sur Horaire du rôle. </li> 
-     </ul> </p> <p><strong>Coût réel</strong> est calculé à partir de la formule suivante : </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Où le coût réel du travail est calculé par :</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Par exemple, un utilisateur a un taux de coût par heure de 20 € dans son profil. Lorsqu’il consigne 5 heures pour une tâche, le coût réel du travail est de 100 $ pour cette tâche. Si l’utilisateur n’est associé à aucun taux de coût par heure, le coût réel est calculé en fonction du taux de coût par heure de son rôle de tâche Principal. Si le taux de coût par heure de leur rôle professionnel n’est pas défini, alors le coût réel de la tâche est nul. </p> <p>Remarque : Les coûts réels sont calculés en fonction du taux de coût par heure pour l’utilisateur qui consigne l’heure, indépendamment de qui est affecté à la tâche. </p> </td> 
+     </ul> </p> <p><strong>Coût réel</strong> est calculé à partir de la formule suivante : </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Où le coût réel du travail est calculé par :</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Par exemple, un utilisateur a un taux de coût par heure de 20 € dans son profil. Lorsqu’il consigne 5 heures pour une tâche, le coût réel du travail est de 100 $ pour cette tâche. Si l’utilisateur n’est associé à aucun taux de coût par heure, le coût réel est calculé en fonction du taux de coût par heure de son rôle de tâche Principal. Si le taux de coût par heure de leur rôle professionnel n’est pas défini, alors le coût réel de la tâche est nul. </p> <p>Remarque : Les coûts réels sont calculés en fonction du taux de coût par heure pour l’utilisateur qui consigne l’heure, indépendamment de qui est affecté à la tâche. <span class="preview">En outre, le taux de facturation horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</span></p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Rôle par heure</p> </td> 
-   <td> <p><strong>Coût planifié</strong> est calculé à partir de la formule suivante : </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Où le coût du travail planifié de la tâche est calculé comme suit :</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Remarque : Si vous attribuez plusieurs ressources à une tâche, Workfront ajuste les calculs des heures planifiées en fonction du pourcentage de la tâche affectée à chaque ressource.</p> <p><strong>Coût réel</strong> est calculé à partir de la formule suivante : </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Où le coût réel de la main-d’oeuvre de la tâche est calculé comme suit :</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Par exemple, une tâche est affectée à un rôle de tâche ou à un utilisateur avec un rôle de tâche pour lequel le taux de coût par heure est de 20 €. Lorsqu’un utilisateur consigne 5 heures pour une tâche, le coût réel du travail est de 100 $ pour cette tâche. Si l’utilisateur affecté à la tâche n’a pas de rôle de tâche associé à la tâche, le coût réel est calculé en fonction du taux de coût par heure de son rôle de tâche Principal. Si le taux de coût par heure de leur rôle professionnel n’est pas défini, alors le coût réel de la tâche est nul. </p> <p>Note:   <p> La tâche Heures réelles d’un rôle Heure est calculée en fonction des rôles de tâche des utilisateurs associés à la tâche, et non des rôles associés à l’utilisateur qui consigne l’heure.</p> <p>Si votre administrateur Workfront a activé la variable <strong>Affecter manuellement des rôles de tâche aux entrées d’heure</strong> dans la zone Préférences Heures et Heures , et le temps de connexion de l’utilisateur à la tâche sélectionne un autre rôle à associer à cette heure, la tâche Coût réel d’un rôle Heure calcule en fonction du rôle spécifié lorsque les heures ont été enregistrées. Pour plus d’informations sur l’activation de la durée de journalisation pour un rôle de tâche spécifique, voir l’article <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configuration des préférences de feuille de temps et d’heure</a>.</p> </p> </td> 
+   <td> <p>Rôle par heure</p> </td>
+   <td> <p><strong>Coût planifié</strong> est calculé à partir de la formule suivante : </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Où le coût du travail planifié de la tâche est calculé comme suit :</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Remarque : Si vous attribuez plusieurs ressources à une tâche, Workfront ajuste les calculs des heures planifiées en fonction du pourcentage de la tâche affectée à chaque ressource. <span class="preview">En outre, le taux horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</span></p> <p><strong>Coût réel</strong> est calculé à partir de la formule suivante : </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Où le coût réel de la main-d’oeuvre de la tâche est calculé comme suit :</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Par exemple, une tâche est affectée à un rôle de tâche ou à un utilisateur avec un rôle de tâche pour lequel le taux de coût par heure est de 20 €. Lorsqu’un utilisateur consigne 5 heures pour une tâche, le coût réel du travail est de 100 $ pour cette tâche. Si l’utilisateur affecté à la tâche n’a pas de rôle de tâche associé à la tâche, le coût réel est calculé en fonction du taux de coût par heure de son rôle de tâche Principal. Si le taux de coût par heure de leur rôle professionnel n’est pas défini, alors le coût réel de la tâche est nul. </p> <p>Note:   <p> La tâche Heures réelles d’un rôle Heure est calculée en fonction des rôles de tâche des utilisateurs associés à la tâche, et non des rôles associés à l’utilisateur qui consigne l’heure. <span class="preview">En outre, le taux de facturation horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</span></p> <p>Si votre administrateur Workfront a activé la variable <strong>Affecter manuellement des rôles de tâche aux entrées d’heure</strong> dans la zone Préférences Heures et Heures , et le temps de connexion de l’utilisateur à la tâche sélectionne un autre rôle à associer à cette heure, la tâche Coût réel d’un rôle Heure calcule en fonction du rôle spécifié lorsque les heures ont été enregistrées. Pour plus d’informations sur l’activation de la durée de journalisation pour un rôle de tâche spécifique, voir l’article <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configuration des préférences de feuille de temps et d’heure</a>.</p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fixe par heure</p> </td> 

@@ -10,14 +10,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1447'
 ht-degree: 11%
 
 ---
 
 # Fonctionnalités disponibles pour chaque type d’objet pour différents niveaux d’accès
+
+{{highlighted-preview}}
 
 Le tableau suivant répertorie les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 
@@ -311,7 +313,7 @@ Les utilisateurs disposant d’une licence Plan peuvent avoir un accès complet 
 
 &#42;&#42;Disponible uniquement pour les dossiers de documents, et non pour les documents
 
-## Utilisateurs
+## Utilisateurs et utilisatrices
 
 <table style="table-layout:auto"> 
  <col> 
@@ -485,7 +487,7 @@ Les utilisateurs disposant d’une licence Plan peuvent avoir un accès complet 
 
 Seuls les utilisateurs disposant d’une licence Plan peuvent avoir un accès complet aux données financières.
 
-Les types de licence Request et External User ne sont pas inclus ici car ils n’ont pas accès à [sélectionner un objet ou une zone].
+Les types de licence Request et External User ne sont pas inclus ici car ils n’ont pas accès à ces objets et zones.
 
 | Action | Planificateur | Employé | Réviseur |
 |---|---|---|---|
@@ -496,6 +498,7 @@ Les types de licence Request et External User ne sont pas inclus ici car ils n�
 | Gestion des enregistrements de facturation | ✓ |   |   |
 | Gérer les dépenses | ✓ | ✓ |   |
 | Affichage des données financières | ✓&#42; | ✓&#42; | ✓&#42; |
+| <span class="preview">Gestion des cartes de taux</span> | ✓ |   |   |
 | Affichage des informations par coût dans les outils de planification des ressources | ✓ |   |   |
 | Ressources budgétaires dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |
 | Affichage de l’affectation des ressources dans les outils de planification des ressources&#42; | ✓ | ✓ | ✓ |
@@ -539,7 +542,7 @@ Seuls les utilisateurs disposant d’une licence Plan peuvent avoir un accès co
 | Ajouter ou modifier des informations sur les rôles de tâche dans les plans et les initiatives&#42; | ✓ | ✓ | ✓ |   |   |
 | Ajouter ou modifier des informations sur les coûts des plans et des initiatives&#42; | ✓ | ✓ | ✓ |   |   |
 | Suppression de plans et d’initiatives | ✓ | ✓ | ✓ |   |   |
-| Affichage des scénarios dans le menu principal ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
+| Affichage des scénarios dans le menu principal ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
 | Afficher les plans et initiatives créés par l’utilisateur&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}

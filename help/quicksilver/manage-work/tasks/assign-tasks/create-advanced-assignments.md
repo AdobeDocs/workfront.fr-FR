@@ -6,14 +6,16 @@ description: Vous pouvez gérer les affectations de tâche ou de problème à l�
 author: Alina
 feature: Work Management
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 2b48377653a77d3d71c90fac9c64cb48fc7877a3
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
 
 # Création d’affectations avancées
+
+{{highlighted-preview}}
 
 Vous pouvez gérer les affectations de tâche ou de problème à l’aide d’affectations avancées.
 
@@ -23,6 +25,7 @@ Vous pouvez ajuster les informations d’affectation suivantes lors d’affectat
 * Ajustez et redistribuez le nombre d’heures alloué à chaque personne désignée.
 * Déterminez quel utilisateur doit être désigné comme propriétaire ou responsable Principal de la tâche ou du problème.
 * Spécifiez le rôle que chaque utilisateur remplit lorsqu’il travaille sur la tâche ou le problème.
+* <span class="preview">Permet de remplacer le taux de facturation pour un rôle de tâche.</span>
 
 >[!NOTE]
 >
@@ -78,7 +81,8 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
    >[!TIP]
    >
    >Vous pouvez effectuer des affectations avancées directement sur la tâche ou la liste de problèmes si au moins deux personnes sont affectées. Cliquez dans le **Affectations** sur la même ligne que la tâche ou le problème, puis cliquez sur l’icône **Icône Personnes** pour ouvrir la fenêtre Affectations avancées . Passez à l’étape 5 pour continuer à créer des affectations avancées.\
-   >![](assets/nwe-advanced-assignments-350x55.png)   >
+   >![](assets/nwe-advanced-assignments-350x55.png)
+   >
 
 1. Cliquez sur **Attribuer à** dans le **Affectations** champ dans l’en-tête de la tâche ou du problème
 
@@ -106,49 +110,72 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
    >* Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
    >
    >
+   >* <span class="preview">Lors de l’ajout d’une affectation de rôle de tâche, vous pouvez rechercher le rôle ou l’emplacement de la tâche. Sélectionnez le rôle de tâche système/par défaut pour utiliser le taux de facturation par défaut pour l’affectation ou sélectionnez un rôle de tâche de carte de taux pour remplacer le taux au niveau de l’affectation. Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+   >
+   >
    >* Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
-      >   
-      >   * Réaffectez l’élément de travail aux principales ressources.
-      >   * Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
-
+   >   
+   >   * Réaffectez l’élément de travail aux principales ressources.
+   >   * Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
+   >   
+   >
 
 1. Pour chaque utilisateur de la variable **Cessionnaire** , indiquez les informations suivantes :
 
 
    * **Propriétaire**: Pointez sur le nom de la personne désignée, puis cliquez sur **Rendre Principal** dans le champ Propriétaire si vous souhaitez marquer la personne désignée comme propriétaire de la tâche ou de l’émission. Une case à cocher verte indique que l’utilisateur spécifié est le contact Principal de la tâche ou du problème. Adobe Workfront marque le premier utilisateur ou rôle de tâche que vous affectez à une tâche ou à un problème en tant que propriétaire ou attribution Principal. Une équipe ne peut pas être désignée comme propriétaire Principal d’une tâche ou d’un problème.
 
-      >[!IMPORTANT]
-      >
-      >Selon la manière dont votre administrateur Workfront ou votre administrateur de groupe configure les préférences de votre projet, Workfront peut utiliser le planning du propriétaire de la tâche pour calculer la chronologie de la tâche lorsque plusieurs utilisateurs sont affectés à la tâche. Pour plus d’informations sur plusieurs tâches assignées, voir la section &quot;Affecter plusieurs utilisateurs à une tâche&quot; dans l’article [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >[!IMPORTANT]
+     >
+     >Selon la manière dont votre administrateur Workfront ou votre administrateur de groupe configure les préférences de votre projet, Workfront peut utiliser le planning du propriétaire de la tâche pour calculer la chronologie de la tâche lorsque plusieurs utilisateurs sont affectés à la tâche. Pour plus d’informations sur plusieurs tâches assignées, voir la section &quot;Affecter plusieurs utilisateurs à une tâche&quot; dans l’article [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Allocations** : Lorsque le Type de durée d’une tâche est simple, indiquez le nombre d’heures que chaque utilisateur ou rôle de tâche doit être affecté à la tâche. La somme de toutes les heures attribuées pour chaque utilisateur est égale au nombre indiqué dans la variable **Heures planifiées** au bas de la colonne Allocations. Dans tous les autres cas, indiquez le pourcentage de temps (ou d’allocation) que vous souhaitez que la personne désignée passe à résoudre la tâche ou le problème.
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
      -->
 
-      >[!TIP]
-      >
-      >
-      >   
-      >   
-      >   * Après avoir modifié manuellement les affectations d’affectation sur les tâches, les Heures planifiées des tâches peuvent se mettre à jour en conséquence. Pour plus d’informations, reportez-vous à la section &quot;Mise à jour des heures planifiées de la tâche lors de la gestion des affectations utilisateur&quot; de l’article . [Présentation des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
-      >   * Vous ne pouvez pas modifier manuellement les affectations d’affectation en cas de problème.
-      >   * Vous ne pouvez pas modifier manuellement les affectations des équipes affectées à des tâches.
-
+     >[!TIP]
+     >
+     >
+     >   
+     >   
+     >   * Après avoir modifié manuellement les affectations d’affectation sur les tâches, les Heures planifiées des tâches peuvent se mettre à jour en conséquence. Pour plus d’informations, reportez-vous à la section &quot;Mise à jour des heures planifiées de la tâche lors de la gestion des affectations utilisateur&quot; de l’article . [Présentation des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
+     >   * Vous ne pouvez pas modifier manuellement les affectations d’affectation en cas de problème.
+     >   * Vous ne pouvez pas modifier manuellement les affectations des équipes affectées à des tâches.
+     >   
+     >
 
    * **Rôle du cessionnaire :** Sélectionnez le rôle que l’utilisateur doit utiliser lors de cette affectation.  Le rôle Principal de l’utilisateur s’affiche par défaut. Cliquez dans la zone Rôle du cessionnaire pour sélectionner un autre rôle.  Lorsque vous affectez d’abord la tâche ou le problème à un rôle, puis ajoutez un utilisateur qui peut remplir ce rôle comme seconde affectation, la liste des utilisateurs suggérés est filtrée pour les utilisateurs qui peuvent remplir les rôles déjà affectés à la tâche et au problème.
 
-      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
+     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
+
+   <div class="preview">
+
+   * **Emplacement**: L’emplacement provient de la carte de taux, si une carte de taux associée au projet utilise les emplacements avec les rôles de tâche. L’emplacement ne peut pas être modifié.
+
+   * **Taux de facturation**: Le taux de facturation d’un utilisateur provient du taux système de l’utilisateur ou de son rôle de tâche associé. Le taux de facturation d’un rôle de tâche provient du taux système ou de la carte de taux, si une carte de taux est jointe au projet. Les taux de facturation existants ne sont pas affichés dans ce champ. Cliquez dans le champ pour modifier le taux de facturation de cette affectation de tâche spécifique.
+
+   </div>
 
    * **Type de durée**: Cette option n’est disponible que pour les tâches. Cliquez sur le nom du type de durée et sélectionnez un type de durée dans le menu déroulant. Pour plus d’informations sur les types de durée, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    * **Durée :** Vous pouvez mettre à jour ce champ pour une tâche lorsque vous disposez des autorisations de gestion de la tâche.
 
-      Pour plus d’informations, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Lors de la modification en masse d’informations d’affectation, une boîte de dialogue similaire s’affiche pour affecter des utilisateurs, des heures, une affectation et le propriétaire de la tâche.
+     Pour plus d’informations, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Lors de la modification en masse d’informations d’affectation, une boîte de dialogue similaire s’affiche pour affecter des utilisateurs, des heures, une affectation et le propriétaire de la tâche.
 
    * **Heures planifiées**: Lorsque le type de durée est Attribution calculée ou Simple, mettez à jour le nombre d’heures planifiées. Par conséquent, les pourcentages d’attribution ou les heures pour chaque ressource sont répartis uniformément. Workfront calcule les Heures planifiées lorsque le Type de durée est Basé sur le travail calculé ou l’effort. Pour plus d’informations, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
+     Exemple d’image dans l’environnement de production :
+
+     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
+
+     <div class="preview">
+
+     Exemple d’image dans l’environnement Aperçu :
+
+     ![Affectations avancées](assets/advanced-assignments-location-billing-rates.png)
+
+     </div>
 
 1. Cliquer sur **Enregistrer**.

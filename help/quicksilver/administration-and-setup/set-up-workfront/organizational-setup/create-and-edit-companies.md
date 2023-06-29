@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
 
 # Création et modification d’entreprises
+
+{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -66,9 +68,9 @@ Pour gérer les entreprises dans , vous devez disposer des éléments suivants :
 
    * Les utilisateurs de la même société peuvent voir les demandes des autres.
 
-      Pour plus d’informations sur la manière dont une [!DNL Workfront] L’administrateur peut accorder un accès similaire aux demandes en fonction de la société des utilisateurs. Voir la section [Configuration des préférences de tâche et de problème pour toutes les personnes de [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) dans l’article [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     Pour plus d’informations sur la manière dont une [!DNL Workfront] L’administrateur peut accorder un accès similaire aux demandes en fonction de la société des utilisateurs. Voir la section [Configuration des préférences de tâche et de problème pour toutes les personnes de [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) dans l’article [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-      Pour plus d’informations sur la manière dont un administrateur de groupe peut accorder un accès similaire aux requêtes en fonction de la société des utilisateurs, voir [Configuration des préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+     Pour plus d’informations sur la manière dont un administrateur de groupe peut accorder un accès similaire aux requêtes en fonction de la société des utilisateurs, voir [Configuration des préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
    * Les utilisateurs ne peuvent afficher que les files d’attente de demandes associées à leurs entreprises. Pour plus d’informations sur la limitation de la visibilité d’une file d’attente de requêtes, voir [Accéder aux files d’attente de demandes](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
    * Vous pouvez empêcher les utilisateurs de voir uniquement les utilisateurs de leur société ou de leur société et de la Principale société. Pour plus d’informations sur les fonctionnalités Principales de l’entreprise concernant la confidentialité des utilisateurs, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -110,7 +112,7 @@ Pour ajouter ou modifier une société :
      </tr> 
      <tr> 
       <td role="rowheader">Section [!UICONTROL Taux de facturation]</td> 
-      <td> <p>Vous pouvez remplacer les taux de facturation associés à vos rôles de travail au niveau de l’entreprise. Pour plus d’informations sur la création de rôles de tâche et leur association à des taux de facturation, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Création et gestion des rôles de tâche</a>.</p> <p>Pour plus d’informations sur le remplacement des taux de facturation au niveau de l’entreprise, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Remplacer les taux de facturation des rôles de tâche au niveau de l’entreprise</a>.</p> </td> 
+      <td> <p><span class="preview">Cette section a été supprimée dans l’environnement Aperçu.</span></p><p>Vous pouvez remplacer les taux de facturation associés à vos rôles de travail au niveau de l’entreprise. Pour plus d’informations sur la création de rôles de tâche et leur association à des taux de facturation, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Création et gestion des rôles de tâche</a>.</p> <p>Pour plus d’informations sur le remplacement des taux de facturation au niveau de l’entreprise, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Remplacer les taux de facturation des rôles de tâche au niveau de l’entreprise</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Section [!UICONTROL Forms personnalisé]</td> 
@@ -128,6 +130,10 @@ Pour ajouter ou modifier une société :
 ## Gestion des appartenances à une entreprise
 
 Pour plus d’informations sur la gestion des adhésions pour une entreprise existante, voir [Gestion des appartenances à une entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+
+## Gestion des taux de facturation
+
+Pour plus d’informations sur le remplacement des taux de facturation au niveau de l’entreprise, voir [Remplacer les taux de facturation des rôles de tâche au niveau de l’entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 ## Partage d’objets avec des entreprises
 

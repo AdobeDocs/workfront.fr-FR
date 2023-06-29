@@ -6,14 +6,16 @@ description: Votre administrateur Adobe Workfront peut vous accorder l’accès 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 3%
 
 ---
 
 # Partage des autorisations financières sur un objet
+
+{{highlighted-preview}}
 
 Votre administrateur Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification de données financières lors de l’attribution de votre niveau d’accès. Pour plus d’informations, voir [Accorder l&#39;accès aux données financières](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -83,7 +85,7 @@ Vous devez disposer des éléments suivants pour partager des informations de do
 
 Tenez compte des points suivants lors de l’octroi d’autorisations financières aux objets :
 
-* Vous pouvez accorder des autorisations financières aux projets, aux tâches et aux problèmes.
+* Vous pouvez accorder des autorisations financières à des projets, tâches, problèmes, <span class="preview">et cartes de taux</span>.
 * Les autorisations peuvent être héritées : si vous disposez des autorisations Afficher le financement pour un projet, vous héritez automatiquement des autorisations Afficher le financement pour les tâches et les problèmes du projet.
 
 Pour accorder des autorisations financières à un objet :
@@ -103,7 +105,7 @@ Pour accorder des autorisations financières à un objet :
    * **Y contribuer**
    * **Le gérer**
 
-      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. Dans le même menu déroulant, cliquez sur **Paramètres avancés**, puis effectuez l’une des opérations suivantes :
 
@@ -154,6 +156,18 @@ Le tableau suivant affiche les autorisations financières obtenues par les utili
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
+  <tr> 
+   <td><span class="preview">Gestion des cartes de taux</span></td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Affichage des cartes de taux</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
+  </tr>
   <tr> 
    <td>Affichage des informations par coût dans les outils de planification des ressources</td> 
    <td>✓</td> 
