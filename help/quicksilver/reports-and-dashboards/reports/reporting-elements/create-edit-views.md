@@ -6,14 +6,16 @@ description: Vous pouvez personnaliser le type d’informations que vous affiche
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1787'
 ht-degree: 1%
 
 ---
 
 # Création ou modification de vues dans Adobe Workfront
+
+{{highlighted-preview}}
 
 Vous pouvez personnaliser le type d’informations que vous affichez à l’écran à l’aide de vues. Vous pouvez utiliser plusieurs types de vues dans Adobe Workfront.
 
@@ -72,12 +74,12 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
    * Ajustez l’ordre d’affichage des colonnes en faisant glisser le titre de la colonne vers un nouvel emplacement.
 
       * (Facultatif) Dans le **Paramètres des colonnes** , cliquez sur la zone **Résumer cette colonne par** , puis sélectionnez l’une des options disponibles pour résumer les informations. Lorsque vous sélectionnez cette option, les informations contenues dans votre colonne sont agrégées dans les regroupements du rapport.\
-         Pour les champs de date, vous pouvez résumer les valeurs par les options suivantes :
+        Pour les champs de date, vous pouvez résumer les valeurs par les options suivantes :
 
          * Maximum
          * Minimum
 
-         Pour les champs Nombre et Devise, vous pouvez résumer les valeurs par les options suivantes :
+        Pour les champs Nombre et Devise, vous pouvez résumer les valeurs par les options suivantes :
 
          * Nombre
          * Sum
@@ -85,20 +87,21 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
          * Maximum
          * Minimum
 
-         >[!NOTE]
-         >
-         >Les exceptions suivantes s’appliquent aux objets parents (par exemple, les tâches parents) lorsque vous agrègez des valeurs pour les champs suivants en regroupements :
-         >   
-         >   * Tous les champs de nombre et de devise, à l’exception des heures réelles (par exemple, le coût du travail planifié/réel, le coût des dépenses planifiées/réelles, le coût planifié/réel, les heures planifiées), ne regroupent que les valeurs des tâches enfants et des tâches autonomes. Ils n’agrégent pas les valeurs des tâches parents ou des parents des parents.
-         >   * Les heures réelles combinent les valeurs du parent principal et des tâches autonomes ; ils n’agrégent pas les chiffres des parents des tâches parents ou des tâches enfants.
-         >   * Les champs de données personnalisés pour les valeurs numériques et monétaires regroupent toutes les tâches : parents, enfants, parents et tâches autonomes.
+        >[!NOTE]
+        >
+        >Les exceptions suivantes s’appliquent aux objets parents (par exemple, les tâches parents) lorsque vous agrègez des valeurs pour les champs suivants en regroupements :
+        >   
+        >   * Tous les champs de nombre et de devise, à l’exception des heures réelles (par exemple, le coût du travail planifié/réel, le coût des dépenses planifiées/réelles, le coût planifié/réel, les heures planifiées), ne regroupent que les valeurs des tâches enfants et des tâches autonomes. Ils n’agrégent pas les valeurs des tâches parents ou des parents des parents.
+        >   * Les heures réelles combinent les valeurs du parent principal et des tâches autonomes ; ils n’agrégent pas les chiffres des parents des tâches parents ou des tâches enfants.
+        >   * Les champs de données personnalisés pour les valeurs numériques et monétaires regroupent toutes les tâches : parents, enfants, parents et tâches autonomes.
+        >   
+        >
 
-
-         Pour plus d’informations sur l’utilisation de regroupements dans un rapport, reportez-vous à l’article [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Pour plus d’informations sur l’utilisation de regroupements dans un rapport, reportez-vous à l’article [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facultatif) Cliquez sur **Options avancées** pour spécifier les informations suivantes pour la colonne :
 
-         <table style="table-layout:auto"> 
+        <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -121,9 +124,7 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
          </tbody> 
         </table>
 
-         Pour plus d’informations sur le formatage conditionnel des vues dans les rapports, reportez-vous à l’article [Utilisation de la mise en forme conditionnelle en mode Texte](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
-
-
+        Pour plus d’informations sur le formatage conditionnel des vues dans les rapports, reportez-vous à l’article [Utilisation de la mise en forme conditionnelle en mode Texte](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Conditionnel) Si vous avez cliqué sur **Options avancées**, cliquez sur **Terminé**.
 
@@ -147,14 +148,18 @@ Vous pouvez créer une vue Agile ou personnaliser une vue Agile existante que vo
 
 Pour plus d’informations sur les vues Agile, voir l’article [Gestion d’un projet en mode Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
--->
+>[!NOTE]
+>
+><span class="preview">Cette procédure s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
 
 Pour créer ou personnaliser une vue Agile :
 
 1. Accédez à la liste des tâches d’un projet.
-1. Cliquez sur le bouton **Agile Storboard** icon ![](assets/agile-storyboard-nwe.png).
+1. Cliquez sur le bouton **Agile Storboard** icon ![Icône Agile Storyboard](assets/agile-storyboard-nwe.png).
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Cliquez sur le bouton **Panorama** icon ![Icône Panorama](assets/board-icon-for-agile-view.png), puis cliquez sur **Utiliser la version agile héritée** sur le panorama.</span>
 
 1. (Conditionnel) Pour personnaliser une vue Agile existante :
 
@@ -239,7 +244,7 @@ Pour créer ou personnaliser une vue Agile :
 
    * Nom de l’article avec un lien direct vers la tâche
    * Nom du projet avec un lien direct vers le projet\
-      Ce lien s&#39;affiche uniquement lors de l&#39;utilisation de la vue agile sur une itération. il n’est pas affiché lors de l’utilisation d’une vue agile sur un projet.
+     Ce lien s&#39;affiche uniquement lors de l&#39;utilisation de la vue agile sur une itération. il n’est pas affiché lors de l’utilisation d’une vue agile sur un projet.
    * Description de la tâche
    * Engagement actuel
    * Affichez et modifiez le pourcentage terminé en ajustant le pourcentage terminé ou en ajustant le nombre de points ou d’heures terminé

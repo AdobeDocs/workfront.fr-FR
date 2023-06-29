@@ -6,46 +6,41 @@ description: Plans requis, types de licence et accès à l’équipe de planific
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
 
 # Gestion d’un projet en mode Agile
 
-Plans, types de licence et accès requis
+{{highlighted-preview}}
+
+<!--
+Required plans, license types, and access
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Formule Adobe Workfront</a> </p> </td> 
-   <td> <p>Équipe, Pro, Entreprise ou Entreprise </p> </td> 
+   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
+   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Type de licence Workfront</p> </td> 
-   <td> <p>Révision, travail ou plan </p> </td> 
-  </tr> <!--
+   <td> <p>Workfront License Type</p> </td> 
+   <td> <p>Review, Work, or Plan </p> </td> 
+  </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Permissions in the access model</p> </td> 
     <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
    </tr>
-  --> 
  </tbody> 
 </table>
-
-Vous pouvez tirer parti des fonctionnalités agiles de votre projet
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(such as story boards and burndown charts)
-</MadCap:conditionalText>
 -->
 
- sans les défis administratifs qui accompagnent généralement les pratiques agiles (comme la gestion du retard d’une équipe ou la création d’itérations).
+Vous pouvez tirer parti de fonctionnalités agiles pour votre projet sans les défis administratifs qui accompagnent généralement les pratiques agiles (comme la gestion du retard d’équipe ou la création d’itérations).
 
 Si vous souhaitez travailler dans un environnement agile qui utilise un journal d’équipe et vous permet de créer des itérations à partir des tâches du journal, suivez les instructions de la section [Travailler dans un environnement agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
@@ -85,6 +80,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Présentation des projets agiles
 
+>[!NOTE]
+>
+><span class="preview">Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
+
 * [Fonctionnalité agile dans un projet](#agile-functionality-in-a-project)
 * [Différences entre l’utilisation de la vue Agile d’un projet et celle d’une itération](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
 
@@ -93,10 +92,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 La fonctionnalité agile suivante est disponible lors de la gestion d’un projet dans une vue agile :
 
 * Statut d&#39;achèvement\
-   Pour plus d’informations sur l’état d’achèvement, voir [Aperçu de l’état d’achèvement de l’itération](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
+  Pour plus d’informations sur l’état d’achèvement, voir [Aperçu de l’état d’achèvement de l’itération](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
 
 * Story board\
-   Pour plus d’informations sur le tableau de bord, voir [Tableau de bord](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) .
+  Pour plus d’informations sur le tableau de bord, voir [Tableau de bord](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) .
 
 Il existe des différences lors de l’utilisation de vues agiles sur un projet par rapport à un environnement agile pur (avec des logs et des itérations). Pour plus d’informations, voir [Différences entre l’utilisation de la vue Agile d’un projet et celle d’une itération](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) dans cet article.
 
@@ -112,19 +111,19 @@ Il existe des différences lors de l’utilisation de vues agiles sur un projet 
 #### Les tâches et les sous-tâches suivent différentes règles d’affichage sur le panorama des articles {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
 * Les tâches qui n’ont pas de tâche parent ni de sous-tâche sont toujours affichées sous la forme d’une seule carte d’article sur le panorama d’articles.\
-   Par exemple, ces tâches apparaissent comme suit dans la vue de liste des projets :
+  Par exemple, ces tâches apparaissent comme suit dans la vue de liste des projets :
 
-   ![Liste de projets agile : tâches sans parent ni sous-tâches](assets/agile-project-single-list-nwe.png) Ces tâches apparaissent comme suit dans la vue agile du projet :
+  ![Liste de projets agile : tâches sans parent ni sous-tâches](assets/agile-project-single-list-nwe.png) Ces tâches apparaissent comme suit dans la vue agile du projet :
 
-   ![Vue agile du projet - tâches sans parent ni sous-tâches](assets/agile-project-singlecard-nwe.png)
+  ![Vue agile du projet - tâches sans parent ni sous-tâches](assets/agile-project-singlecard-nwe.png)
 
 * Les tâches parentes qui comportent des sous-tâches sont toujours affichées dans le **Histoires** de l’éditeur. Les sous-tâches sont affichées dans le couloir de la tâche parent.\
-   Par exemple, ces tâches apparaissent comme suit dans la vue de liste des projets :
+  Par exemple, ces tâches apparaissent comme suit dans la vue de liste des projets :
 
-   ![Liste de projets agile : tâches avec des parents et des sous-tâches](assets/agile-project-parent-list-nwe.png)\
-   Ces tâches apparaissent comme suit dans la vue agile du projet :
+  ![Liste de projets agile : tâches avec des parents et des sous-tâches](assets/agile-project-parent-list-nwe.png)\
+  Ces tâches apparaissent comme suit dans la vue agile du projet :
 
-   ![Agile project view : tâches avec parents et sous-tâches](assets/agile-project-parent-nwe.png)
+  ![Agile project view : tâches avec parents et sous-tâches](assets/agile-project-parent-nwe.png)
 
 * Les sous-tâches de deuxième niveau (sous-tâches des sous-tâches) s’affichent sous la forme d’une carte grise suspendue de la tâche parent immédiate.
 * Les sous-tâches de troisième niveau (sous-tâches de sous-tâches) ne s’affichent jamais sur le tableau de bord.
@@ -140,7 +139,7 @@ Lors de l’affichage d’un projet dans une vue agile, les composants agiles su
 
 L’ordre dans lequel les tâches apparaissent dans un projet est conservé lorsque vous affichez le projet dans un tableau de bord agile.
 
-Vous ne pouvez pas lire les tâches du projet lorsque vous le visualisez dans une vue agile. La modification de l’ordre des tâches pouvant affecter d’autres tâches pouvant avoir des dépendances, vous devez afficher le projet dans une vue standard afin de modifier l’ordre des tâches.
+Vous ne pouvez pas réorganiser les tâches du projet lorsque vous le visualisez dans une vue agile. La modification de l’ordre des tâches pouvant affecter d’autres tâches pouvant avoir des dépendances, vous devez afficher le projet dans une vue standard afin de modifier l’ordre des tâches.
 
 #### Les tâches ne sont mesurées que dans les heures planifiées {#tasks-are-measured-only-in-planned-hours}
 
@@ -160,40 +159,72 @@ Contrairement à une itération agile, les utilisateurs d’un projet peuvent pe
 
 Dans une itération agile, les informations disponibles sur le tableau de bord agile (telles que les colonnes d’état disponibles) sont déterminées au niveau de l’équipe.
 
-Pour plus d’informations sur la personnalisation d’une vue agile, voir  [Création ou personnalisation d’une vue agile](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in  [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+Pour plus d’informations sur la personnalisation d’une vue agile, voir [Création ou personnalisation d’une vue agile](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Affichage d’un projet en mode Agile
 
 1. Accédez au projet que vous souhaitez afficher dans une vue agile.
-1. Cliquez sur le bouton **Agile** icône .\
-   ![Icône Agile](assets/agile-icon-nwe.png)\
-   Le projet s’affiche dans la vue agile par défaut.\
-   Si vous avez précédemment affiché le projet dans une vue agile personnalisée, le projet s’affiche dans cette vue plutôt que dans la vue agile par défaut.
+1. Cliquez sur le bouton **Agile** icon ![Icône Agile](assets/agile-icon-nwe.png).
 
-1. (Facultatif) Si vous avez créé une vue agile personnalisée, ou si un autre utilisateur a créé une vue agile personnalisée et l’a partagée avec vous, vous pouvez l’afficher à la place de la vue agile par défaut.\
+   <span class="preview">Ou</span>
+
+   <span class="preview">Cliquez sur le bouton **Panorama** icon ![Icône Panorama](assets/board-icon-for-agile-view.png).</span>
+
+   Le projet s’affiche dans la vue agile par défaut.
+
+   <span class="preview">Dans l’environnement Aperçu , la vue Panorama s’affiche par défaut.</span>
+
+   ![Vue du panorama du projet](assets/project-agile-board-view.png)
+
+   (Vue agile héritée uniquement) Si vous avez précédemment affiché le projet dans une vue agile personnalisée, le projet s’affiche dans cette vue plutôt que dans la vue agile par défaut.
+
+1. <span class="preview">(Facultatif) Cliquez sur **Configurer** pour définir les options des colonnes et des cartes.</span>
+
+   <span class="preview">Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) et [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Notez que vous ne pouvez pas définir de stratégies de colonne dans le mode Panorama d’un projet.</span>
+
+1. <span class="preview">(Facultatif) Cliquez sur **Utiliser la version agile héritée** pour utiliser la vue agile héritée au lieu de la vue panoramique.</span>
+
+1. (Facultatif - vue agile héritée uniquement) Si vous avez créé une vue agile personnalisée, ou si un autre utilisateur a créé une vue agile personnalisée et l’a partagée avec vous, vous pouvez l’afficher à la place de la vue agile par défaut.
+
    Cliquez sur le bouton **Affichage** menu déroulant, puis cliquez sur la vue agile personnalisée que vous souhaitez afficher.
 
-   La vue agile personnalisée est utilisée la prochaine fois que vous cliquez sur le bouton **Agile** icône .\
-   Pour plus d’informations sur la création d’une vue agile, voir [Créer et personnaliser des vues Agile](#create-and-customize-agile-views).\
+   La vue agile personnalisée est utilisée la prochaine fois que vous cliquez sur le bouton **Agile** icône .
+
+   Pour plus d’informations sur la création d’une vue agile, voir [Créer et personnaliser des vues Agile](#create-and-customize-agile-views).
+
    Le projet s’affiche dans la vue agile personnalisée.
 
-1. (Conditionnel) Si les tâches de votre projet utilisent des états autres que &quot;Nouveau&quot;, &quot;En cours&quot; ou &quot;Terminé&quot; (états par défaut de la vue Agile), vous devez ajouter les états supplémentaires à la vue Agile pour que toutes les tâches de ces états s’affichent.\
-   Si les tâches sont dans un état qui ne s’affiche pas sur le tableau de bord agile, la tâche elle-même ne s’affiche pas sur le tableau de bord agile (cependant, le pourcentage d’achèvement de ces tâches contribue toujours au pourcentage d’achèvement de toutes les tâches parentes et le pourcentage d’achèvement du projet global).\
+1. (Conditionnel - vue agile héritée uniquement) Si les tâches de votre projet utilisent des états autres que &quot;Nouveau&quot;, &quot;En cours&quot; ou &quot;Terminé&quot; (états par défaut de la vue agile), vous devez ajouter les états supplémentaires à la vue agile pour que toutes les tâches de ces états s’affichent.
+
+   Si les tâches sont dans un état qui ne s’affiche pas sur le tableau de bord agile, la tâche elle-même ne s’affiche pas sur le tableau de bord agile (cependant, le pourcentage d’achèvement de ces tâches contribue toujours au pourcentage d’achèvement de toutes les tâches parentes et le pourcentage d’achèvement du projet global).
+
    Pour ajouter des états à la vue agile, créez une vue agile ou personnalisez une vue agile existante, comme décrit dans la section &quot;Créer ou personnaliser une vue agile&quot; de l’article. [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. (Facultatif) Pour revenir au mode Liste, cliquez sur le bouton **Liste** icône .\
-   ![](assets/list-icon.png)
+   ![Icône Liste](assets/list-icon.png)
 
 ## Créer et personnaliser des vues Agile {#create-and-customize-agile-views}
 
+>[!NOTE]
+>
+><span class="preview">Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
+
 Comme pour les vues standard dans Workfront, vous pouvez personnaliser les vues agiles existantes ou créer de nouvelles vues agiles à partir de zéro. Contrairement aux vues standard, vous ne pouvez pas créer de vues agiles basées sur des vues agiles existantes.
 
-Pour plus d’informations sur la création et la personnalisation des vues agiles, voir la section &quot;Créer ou personnaliser une vue agile&quot; de l’article. [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+Pour plus d’informations sur la création et la personnalisation des vues agiles, voir la section &quot;Créer ou personnaliser une vue agile&quot; de l’article. [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Partage d’une vue Agile existante
+
+>[!NOTE]
+>
+><span class="preview">Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
 
 Pour plus d’informations sur le partage d’une vue agile, voir [Partage d’un filtre, d’une vue ou d’un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Suppression d’une vue agile existante
 
-Pour plus d’informations sur la suppression d’une vue, voir la section &quot;Supprimer une vue&quot; de l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+>[!NOTE]
+>
+><span class="preview">Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
+
+Pour plus d’informations sur la suppression d’une vue, voir la section &quot;Supprimer une vue&quot; de l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

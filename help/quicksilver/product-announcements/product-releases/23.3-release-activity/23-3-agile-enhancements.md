@@ -3,9 +3,9 @@ title: 23.3 Améliorations rapides
 description: 23.3 Améliorations rapides
 author: Lisa
 feature: Product Announcements
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ La vue agile d’un projet inclut désormais des fonctionnalités supplémentair
 
 Lorsque vous vous trouvez dans le panorama, vous pouvez choisir de passer à l’ancienne vue Agile.
 
-La documentation du projet Agile View mis à jour sera disponible avec sa version pour aperçu.
+Pour plus d’informations, voir [Gestion d’un projet en mode Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## Tri par colonnes
 
