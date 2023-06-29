@@ -9,9 +9,9 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe Wor
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5428'
 ht-degree: 3%
 
 ---
@@ -993,6 +993,12 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
    <td> </td> 
   </tr> 
   <tr> 
+   <td>Approbation d'épreuve</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
    <td>Durée réservée* </td> 
    <td> </td> 
    <td>✓</td> 
@@ -1722,3 +1728,4 @@ Pour plus d’informations sur les abonnements aux événements, voir [Questions
 Pour plus d’informations sur les webhooks, voir [Déclencheurs instantanés (webhooks) dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 Pour plus d’informations sur les filtres dans les scénarios, voir [Ajoutez un filtre à un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+
