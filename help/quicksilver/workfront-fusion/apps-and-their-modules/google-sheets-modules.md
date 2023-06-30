@@ -9,9 +9,9 @@ description: Pour utiliser [!DNL Google Sheets] avec [!DNL Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3941'
 ht-degree: 0%
 
 ---
@@ -698,7 +698,7 @@ Pour plus d’informations, voir [developers.google.com/sheets/api/limits](https
 ### Comment obtenir des cellules vides à partir d’un [!DNL Google Sheet]
 
 Utilisez la variable [!UICONTROL Lignes de recherche (avancées)] et utiliser cette formule pour obtenir les colonnes vides.
-<pre>sélectionnez * [!UICONTROL où E est nul ​]</pre>Ici "E" est la colonne et "is null" est la condition. Vous pouvez créer une requête plus avancée à l’aide de [Google Query Lang.](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>select * where E is null</pre>Ici "E" est la colonne et "is null" est la condition. Vous pouvez créer une requête plus avancée à l’aide de [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage).
 
 ### Ajouter un bouton dans une feuille pour exécuter un scénario
 

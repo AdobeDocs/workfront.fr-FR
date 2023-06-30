@@ -6,7 +6,7 @@ description: Un processus automatisé facilite la gestion du processus de révis
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: afc0cbb93e26eb29abfb1b00b32c79c1b65ff3eb
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 0%
@@ -68,24 +68,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >* Lorsqu’une personne est ajoutée à un niveau dans un modèle de workflow automatisé, mais également déjà présente en tant que validant sur le BAT, l’application du modèle supprime le validant de l’étape. Si vous n’ajoutez pas d’autre réviseur à l’étape, un message vous invite à en ajouter un.
    >* Votre capacité à modifier un modèle de workflow automatisé dépend des paramètres de modèle configurés par l’administrateur de Workfront, comme décrit dans la section . Si la possibilité de modifier le modèle est désactivée, seul le propriétaire du modèle peut le modifier.
 
-
 1. Configurez la première étape du processus automatisé :
 
    1. (Facultatif) Si vous souhaitez créer un nom pour la première étape, cliquez sur **Phase 1**, puis saisissez le nom.
    1. Dans le **Destinataires** pour l’étape, ajoutez les réviseurs à l’étape.
 
       >[!NOTE]
-      > 
-      >Tenez compte des points suivants lors de l’ajout de réviseurs à une étape :
       >
+      >Tenez compte des points suivants lors de l’ajout de réviseurs à une étape :
+      >   
       >* Vous pouvez ajouter des utilisateurs externes à une étape avec une adresse électronique.
       >* Après avoir ajouté un utilisateur à une étape, vous pouvez configurer les paramètres de cet utilisateur sur le BAT.
       >* Vous pouvez faire glisser les utilisateurs directement vers une autre étape, ou vous pouvez faire glisser les utilisateurs vers une étape de la **Phases** diagramme. Pour sélectionner plusieurs utilisateurs, appuyez sur Maj+Ctrl (sous Windows) ou Maj+Commande (sous Mac).
       >* Vous ne pouvez ajouter un validant qu&#39;une seule fois à un BAT, ce qui signifie que vous ne pouvez pas ajouter la même personne à plusieurs étapes du BAT.
       >* Les réviseurs qui ne sont pas ajoutés à une scène privée ne peuvent pas voir cette scène sur le BAT ou les commentaires faits à cette étape.
-      >* Par défaut, l’ajout d’un utilisateur à un environnement intermédiaire lui donne accès pour afficher le BAT à partir du moment où le BAT est créé.\
-      >   Votre administrateur Workfront peut empêcher les utilisateurs d’accéder au BAT jusqu’à ce que le workflow entre dans l’étape où l’utilisateur a été ajouté.
-
+      >* Par défaut, l’ajout d’un utilisateur à un environnement intermédiaire lui donne accès pour afficher le BAT à partir du moment où le BAT est créé. Votre administrateur Workfront peut empêcher les utilisateurs d’accéder au BAT jusqu’à ce que le workflow entre dans l’étape où l’utilisateur a été ajouté.
 
    1. Cliquez sur **Paramètres d’évaluation**.
    1. Cliquez sur un **Activer l’étape** pour indiquer le mode d’activation de l’étape.
@@ -118,7 +115,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
         </tr>
         <tr>
          <td role="rowheader">Exiger une seule décision pour cette étape</td>
-         <td>Met fin à l’ensemble du processus de révision lorsque l’un des décideurs prend une décision.<p>Cette option n’est pas disponible si vous avez désigné un utilisateur dans la variable <strong>Décideur Principal</strong>menu déroulant.</p></td>
+         <td>Met fin à l’ensemble du processus de révision lorsque l’un des décideurs prend une décision.<p>Cette option n’est pas disponible si vous avez désigné un utilisateur dans la variable <strong>Décideur Principal</strong>menu déroulant.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Rendre cette étape privée</td>
@@ -211,11 +208,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td role="rowheader">Abonnez-vous au BAT via une URL publique ou un code intégré</td> 
       <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées au BAT peuvent s’abonner au BAT. La personne qui s'abonne au BAT se voit attribuer le rôle et l'email que vous définissez dans les paramètres suivants :
        <ul>
-        <li><strong>Rôle d’abonné :</strong> Le rôle de BAT par défaut attribué à tous les réviseurs qui souscrivent au BAT. </li>
-        <li><strong>Paramètres des alertes par email pour les abonnés :</strong> L’alerte par défaut qui est affectée à tous les réviseurs qui souscrivent au BAT.</li>
+        <li><strong>Rôle d’abonné :</strong> Le rôle de BAT par défaut attribué à tous les réviseurs qui souscrivent au BAT.</li>
+        <li><strong>Paramètres des alertes par email pour les abonnés :</strong> L’alerte par défaut qui est affectée à tous les réviseurs qui souscrivent au BAT.</li>
        </ul><p>
         <ul>
-         <li><strong>Un accès BAT via un lien email requis pour :</strong> Indiquez si l'abonné reçoit un email avec un lien vers le BAT. Vous pouvez sélectionner <strong>Aucun email</strong> (aucun lien d'email n'est nécessaire pour accéder au BAT), <strong>Email de notification de BAT uniquement</strong> (l'abonné reçoit un lien vers le BAT par email sans vérification), ou <strong>Emails de validation et de notification de BAT</strong> (l'abonné reçoit un lien vers le BAT par email et doit cliquer sur le lien pour accéder à un BAT, l'objectif de cette option est de s'assurer que la personne a saisi une adresse email correcte à laquelle elle a accès).</li>
+         <li><strong>Un accès BAT via un lien email requis pour :</strong> Indiquez si l'abonné reçoit un email avec un lien vers le BAT. Vous pouvez sélectionner <strong>Aucun email</strong> (aucun lien d'email n'est nécessaire pour accéder au BAT), <strong>Email de notification de BAT uniquement</strong> (l'abonné reçoit un lien vers le BAT par email sans vérification), ou <strong>Emails de validation et de notification de BAT</strong> (l'abonné reçoit un lien vers le BAT par email et doit cliquer sur le lien pour accéder à un BAT, l'objectif de cette option est de s'assurer que la personne a saisi une adresse email correcte à laquelle elle a accès).</li>
         </ul><p><strong>Remarque :</strong> Si le workflow automatisé est joint aux bons à tirer, tous les abonnements génèrent des emails de confirmation pour les propriétaires du BAT, afin qu’ils puissent décider à quelle étape la personne doit être ajoutée.<br></p></p></td> 
      </tr> 
     </tbody> 

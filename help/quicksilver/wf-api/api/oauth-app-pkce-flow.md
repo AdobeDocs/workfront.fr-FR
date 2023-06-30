@@ -6,7 +6,7 @@ description: Utilisation du flux PKCE pour les applications OAuth 2
 author: Becky
 feature: Workfront API
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Un flux PKCE comprend les étapes suivantes. Les étapes de cette section sont p
 
 Avant de pouvoir implémenter l’autorisation, vous devez enregistrer votre application dans OAuth2 en créant une intégration d’application à partir de Workfront.
 
-Pour plus d’informations sur la création de l’application OAuth2, voir [Création d’une application web OAuth2 mono-page à l’aide de PKCE ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Pour plus d’informations sur la création de l’application OAuth2, voir [Création d’une application web OAuth2 mono-page à l’aide de PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 
 ## Création de la clé de bon à tirer pour l’échange de code
@@ -85,11 +85,8 @@ Le code de générateur PKCE crée une sortie similaire à ce qui suit :
 >
 >```
 >{
->
 >  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
->
 >  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
 >}
 >```
 
@@ -106,7 +103,6 @@ Si vous utilisez le serveur d’autorisation personnalisé par défaut, l’URL 
 >
 >```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
->
 >&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
@@ -114,7 +110,7 @@ Notez les paramètres transmis :
 
 * `client_id` correspond à l’identifiant du client de l’application OAuth2 que vous avez créée dans lors de la configuration de l’application.
 
-   Pour plus d’informations, voir Création d’une application web OAuth2 mono-page à l’aide de PKCE dans Création d’applications OAuth2 pour les intégrations Workfront.
+  Pour plus d’informations, voir Création d’une application web OAuth2 mono-page à l’aide de PKCE dans Création d’applications OAuth2 pour les intégrations Workfront.
 
 * `response_type` is `code`, car l’application utilise le type d’octroi Code d’autorisation .
 
@@ -135,13 +131,9 @@ Pour échanger le code d’autorisation contre un jeton d’accès, transmettez-
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
@@ -170,13 +162,9 @@ Si le code est toujours valide et que le vérificateur de code correspond, votre
 >
 >```
 >{
->
 >    "access\_token": "eyJhd\[...\]Yozv",
->
 >    "expires\_in": 3600,
->
 >    "token\_type": "Bearer"
->
 >}
 >```
 
@@ -192,7 +180,6 @@ Vous pouvez valider votre jeton d’accès avec un appel API similaire à ce qui
 >
 >```
 >/attask/api/<api version>/proj/search \\
->
 >  --header 'sessionID: <access\_token>' \\
 >```
 
@@ -206,12 +193,8 @@ Pour demander un jeton d’actualisation, vous pouvez effectuer un appel POST à
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```
