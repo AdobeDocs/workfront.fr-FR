@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3465'
 ht-degree: 0%
 
 ---
@@ -22,18 +22,22 @@ Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workf
 
 Pour plus d’informations sur l’API utilisée pour les services de PDF, voir [Adobe de l’API Document Generation](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-## Remarques concernant l’utilisation de [!DNL Adobe PDF Services]
+## Considérations relatives à la sécurité lors de l’utilisation de [!DNL Adobe PDF Services]
 
-* [Vous n’avez pas besoin d’une [!DNL Adobe] account](#you-do-not-need-an-adobe-account)
-* [[!DNL Workfront Fusion] ne stocke pas vos fichiers](#workfront-fusion-does-not-store-your-files)
+<!--
 
-### Vous n’avez pas besoin d’une [!DNL Adobe] account
+* [You do not need an [!DNL Adobe] account](#you-do-not-need-an-adobe-account) 
+* [[!DNL Workfront Fusion] does not store your files](#workfront-fusion-does-not-store-your-files)
 
-Parce que [!DNL Workfront Fusion] fait partie de la variable [!DNL Adobe] suite de produits, vous n’avez pas besoin d’une [!DNL Adobe] pour utiliser ces outils. Chaque outil accède à [!DNL Adobe] fonctionnalité de PDF sans utiliser de connexion.
+### You do not need an [!DNL Adobe] account 
 
-Bien que [!DNL Workfront Fusion] ne nécessite pas d’événement [!DNL Adobe] pour utiliser les services de PDF, les modules ne nécessitent pas de connexion. Aucune information d’identification n’est impliquée dans cette connexion et vous indiquez uniquement un nom pour la connexion elle-même.
+Because [!DNL Workfront Fusion] is part of the [!DNL Adobe] product suite, you don't need a separate [!DNL Adobe] account to use these tools. Each tool accesses [!DNL Adobe] PDF functionality without using a connection.
 
-### [!DNL Workfront Fusion] ne stocke pas vos fichiers
+Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use the PDF Services, the modules do require a connection. There are no credentials involved in this connection, and you provide only a name for the connection itself.
+
+### [!DNL Workfront Fusion] does not store your files 
+
+-->
 
 Le [!DNL Adobe PDF Services] peut lire, convertir ou modifier vos fichiers, mais ni l’un ni l’autre [!DNL Adobe] nor [!DNL Workfront Fusion] stockez vos fichiers ou données. Cela signifie que :
 
@@ -79,6 +83,59 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Créer une connexion à [!DNL Adobe PDF Services]
+
+Pour créer une connexion pour votre [!DNL Adobe PDF Services] modules :
+
+1. Dans n’importe quel [!DNL Adobe PDF Services] module, cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion .
+
+1. Renseignez les champs suivants :
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type de connexion]</td>
+          <td>
+            <p>Indiquez si vous souhaitez créer une connexion serveur à serveur ou une connexion JWT.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Nom de la connexion]</td>
+          <td>
+            <p>Saisissez un nom pour cette connexion.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL ID client]</td>
+          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID client]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Saisissez votre [!DNL Adobe] [!UICONTROL Client Secret]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL ID du compte technique] (JWT uniquement)</td>
+          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID du compte technique]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL ID d’organisation] (JWT uniquement)</td>
+          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID d’organisation]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Meta-scopes] (JWT uniquement)</td>
+          <td>
+            Saisissez les portées de métadonnées nécessaires à la connexion.
+          </td>
+        </tr>
+       </tbody>
+    </table>
+1. Cliquez sur **[!UICONTROL Continuer]** pour enregistrer la connexion et revenir au module.
+
+
 ## [!DNL Adobe PDF Services] modules et leurs champs
 
 Lorsque vous configurez [!DNL PDF Services], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de cela, des champs supplémentaires peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
@@ -98,10 +155,12 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 * [[!UICONTROL Convertir le PDF en image]](#convert-pdf-to-image)
 * [[!UICONTROL Linearification d’un fichier de PDF]](#linearize-a-pdf-file)
 * [[!UICONTROL OCR pour le fichier PDF]](#ocr-for-pdf-file)
-* [[!UICONTROL Manipulation de page de PDF]](#pdf-page-manipulation)
+* [[!UICONTROL Manipulation de page]](#page-manipulation)
+* [[!UICONTROL Balisage automatique de l’accessibilité du PDF]](#pdf-accessibility-auto-tag)
 * [[!UICONTROL Propriétés du fichier PDF]](#pdf-file-properties)
 * [[!UICONTROL Fichier de PDF Protect]](#protect-pdf-file)
 * [[!UICONTROL Suppression de la protection d’un fichier de PDF]](#remove-protection-of-a-pdf-file)
+* [Partage d’un fichier de PDF](#split-a-pdf-file)
 
 ### [!UICONTROL Générer un document]
 
@@ -132,7 +191,7 @@ Renseignez les [!UICONTROL Générer un document] des champs de module comme sui
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -168,7 +227,7 @@ Pour utiliser la variable [!UICONTROL Générer un document] avec JSON, renseign
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -199,7 +258,7 @@ Ce module d’action vous permet d’extraire des données d’un fichier de PDF
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -234,7 +293,7 @@ Ce module d’action prend plusieurs fichiers de PDF et les combine dans un seul
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Documents]</td> 
@@ -261,7 +320,7 @@ Ce module d’action prend un fichier de PDF et le compresse. Cela peut s’avé
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -292,7 +351,7 @@ Cet outil convertit un document en fichier de PDF. Le fichier source doit être 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -361,7 +420,7 @@ Cet outil convertit un fichier de HTML en fichier de PDF.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -406,7 +465,7 @@ Cet outil convertit une image en fichier PDF.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -433,7 +492,7 @@ Cet outil convertit un fichier de PDF en document. Vous pouvez sélectionner l�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -467,7 +526,7 @@ Par exemple, un fichier appelé &quot;TestFile&quot; de 8 pages produirait 8 ima
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -496,7 +555,7 @@ Cet outil linéarise un document de PDF pour créer un document de PDF optimisé
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -517,7 +576,7 @@ Cet outil exécute la reconnaissance optique des caractères (OCR) sur un fichie
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -538,7 +597,7 @@ Cet outil exécute la reconnaissance optique des caractères (OCR) sur un fichie
  </tbody> 
 </table>
 
-### [!UICONTROL Manipulation de page de PDF]
+### [!UICONTROL Manipulation de page]
 
 Ce module vous permet de faire pivoter ou supprimer des pages de manière sélective dans un document PDF. Par exemple, vous pouvez passer de la vue portrait à la vue paysage ou supprimer certaines pages du document du PDF.
 
@@ -550,7 +609,7 @@ Ce module vous permet de faire pivoter ou supprimer des pages de manière sélec
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -579,6 +638,34 @@ Ce module vous permet de faire pivoter ou supprimer des pages de manière sélec
  </tbody> 
 </table>
 
+### [!UICONTROL Balisage automatique de l’accessibilité du PDF]
+
+Ce module d’action crée un PDF balisé pour les cas d’utilisation de l’accessibilité. Il crée également un rapport Excel Microsoft facultatif qui répertorie les problèmes et suggère des correctifs.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Fichier source]</td> 
+   <td> <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maj d’en-têtes]</td> 
+   <td> <p>Activez cette option pour modifier les en-têtes du document.</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL Générer un rapport]</b> </p> <p>Activez cette option pour générer un rapport qui répertorie les problèmes d’accessibilité dans le PDF, ainsi que leur emplacement, et fournit des suggestions sur la manière de les résoudre.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### [!UICONTROL Propriétés du fichier PDF]
 
 Cet outil extrait des informations de base sur le document, telles que :
@@ -597,7 +684,7 @@ Cet outil extrait des informations de base sur le document, telles que :
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -618,7 +705,7 @@ Cet outil sécurise un document de PDF avec un mot de passe utilisateur ou propr
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -668,7 +755,7 @@ Cet outil supprime la sécurité (protection par mot de passe) d’un document d
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> <p>Vous n’avez pas besoin d’une [!DNL Adobe] pour créer une connexion aux services de PDF. Pour plus d’informations, voir <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">Vous n’avez pas besoin d’une [!DNL Adobe] account</a> dans cet article.</p> </td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
@@ -680,3 +767,35 @@ Cet outil supprime la sécurité (protection par mot de passe) d’un document d
   </tr> 
  </tbody> 
 </table>
+
+### [!UICONTROL Partage d’un fichier de PDF]
+
+Ce module d’action divise un document de PDF en plusieurs documents plus petits. Vous indiquez s’il faut le fractionner en fonction du nombre de fichiers, de pages par fichier ou de plages de pages.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Sélectionnez la connexion à utiliser pour ce module.</p> Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe PDF Services], voir <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Créer une connexion à [!DNL Adobe PDF Services]</a> dans cet article. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Fichier source]</td> 
+   <td> <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</p> <p>Le fichier source doit être au format PDF.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Option de fractionnement]</td> 
+   <td>Sélectionnez le mode de partage du fichier. 
+   <ul>
+   <li><p><b>Plages de page</b></p><p>Pour chaque plage de pages que vous souhaitez fractionner en un document distinct, cliquez sur <b>Ajouter</b> et saisissez la page de début et la page de fin.</p></li>
+   <li><p><b>Nombre de pages</b></p><p>Saisissez le nombre de pages à inclure dans les nouveaux documents.</p></li>
+   <li><p><b>Nombre de fichiers</b></p><p>Saisissez le nombre de fichiers de taille égale dans lesquels vous souhaitez fractionner le document.</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
