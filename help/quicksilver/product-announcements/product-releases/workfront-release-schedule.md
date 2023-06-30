@@ -7,9 +7,9 @@ description: L’environnement Aperçu est mis à jour une fois par semaine avec
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,26 @@ L’environnement Aperçu est mis à jour une fois par semaine avec de nouvelles
 
 ### Fonctionnalités du produit
 
-En règle générale, les fonctionnalités de la fonction Aperçu sont mises à disposition dans l’environnement de production avec la prochaine version trimestrielle. Cependant, dans certains cas, des fonctionnalités sont disponibles dans l’environnement de production en dehors d’une version trimestrielle. Ces modifications restent dans Aperçu pendant un minimum de 2 semaines afin que vous ayez le temps de vous familiariser avec les modifications. Ces modifications sont également communiquées par le biais du Centre d’annonces au moment de leur ajout à la fonction Aperçu.
+
+Adobe Workfront dispose de deux modèles pour la publication de nouvelles fonctionnalités et mises à jour. Votre entreprise peut choisir de recevoir les nouvelles fonctionnalités tous les trimestres ou selon un calendrier de publication plus rapide.
+
+En règle générale, les fonctionnalités de l’aperçu sont mises à disposition dans votre environnement de production avec la prochaine version. Cependant, dans certains cas, des fonctionnalités sont disponibles dans l’environnement de production en dehors d’une version planifiée. Ces modifications restent dans Aperçu pendant un minimum de 2 semaines afin que vous ayez le temps de vous familiariser avec les modifications. Ces modifications sont également communiquées par le biais du Centre d’annonces au moment de leur ajout à la fonction Aperçu.
+
+Pour plus d’informations sur les processus de publication trimestriels et rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ### Mises à jour de maintenance
 
 Les correctifs de problème du produit Adobe Workfront sont mis à disposition dans l’environnement de production chaque semaine. Voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pour voir ce qui a été corrigé récemment.
 
-## Fonctionnalités supprimées d’une version trimestrielle
+## Fonctionnalités supprimées d’une version planifiée
 
-Toutes les fonctionnalités associées à une version trimestrielle donnée peuvent être testées dans l’aperçu pendant au moins 2 à 4 semaines avant la version finale de production. Si des fonctionnalités sont supprimées de la version trimestrielle avant cette date, les actions suivantes sont entreprises pour informer les clients :
+Toutes les fonctionnalités associées à une version donnée (mensuelle ou trimestrielle) peuvent faire l’objet de tests dans l’aperçu pendant au moins 2 à 4 semaines avant la version finale de production. Si des fonctionnalités sont supprimées de la version planifiée avant cette date, les actions suivantes sont entreprises pour informer les clients :
 
-* Notes de mise à jour de la version trimestrielle (disponibles dans la [Versions de produit](../../product-announcements/product-releases/product-releases.md) ) sont mises à jour pour indiquer que la fonction a été supprimée.
+* Notes de mise à jour de la version planifiée (disponibles dans la [Versions de produit](../../product-announcements/product-releases/product-releases.md) ) sont mises à jour pour indiquer que la fonction a été supprimée.
 
-Si des fonctionnalités sont supprimées de la version trimestrielle une fois que toutes les fonctionnalités sont disponibles pour le test dans l’aperçu, les actions suivantes sont prises pour informer les clients :
+Si des fonctionnalités sont supprimées de la version planifiée une fois que toutes les fonctionnalités sont disponibles pour le test dans l’aperçu, les actions suivantes sont entreprises pour informer les clients :
 
-* Notes de mise à jour de la version trimestrielle (disponibles dans la [Versions de produit](../../product-announcements/product-releases/product-releases.md) ) sont mises à jour pour indiquer que la fonction a été supprimée.
+* Notes de mise à jour de la version (disponibles dans la [Versions de produit](../../product-announcements/product-releases/product-releases.md) ) sont mises à jour pour indiquer que la fonction a été supprimée.
 * Une publication a été ajoutée à la communauté Workfront pour indiquer que la fonctionnalité a été supprimée.
 * Un message est envoyé à tous les clients par l’intermédiaire du centre d’annonces indiquant que la fonctionnalité a été supprimée. (Le centre d’annonces est le centre de notifications in-app de Workfront. Pour plus d’informations, voir [Envoyer des annonces](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
@@ -74,9 +79,9 @@ Si vous rencontrez dans le système quelque chose qui ne correspond pas à la do
 
 ## Notes de mise à jour
 
-Utilisez les notes de mise à jour de la prochaine version trimestrielle pour déterminer les nouvelles fonctionnalités disponibles dans l’aperçu et quand elles seront publiées en production.
+Utilisez les notes de mise à jour de la prochaine version planifiée pour découvrir les nouvelles fonctionnalités disponibles dans l’aperçu et quand elles seront publiées dans l’environnement de production.
 
-Pour consulter les notes de mise à jour de la prochaine version trimestrielle, voir [Versions de produit](../../product-announcements/product-releases/product-releases.md), puis cliquez sur le lien pour accéder à la page d’aperçu de la version pour la prochaine version.
+Pour consulter les notes de mise à jour de la prochaine version planifiée, voir [Versions de produit](../../product-announcements/product-releases/product-releases.md), puis cliquez sur le lien pour accéder à la page d’aperçu de la version pour la prochaine version.
 
 Les notes de mise à jour contiennent un tableau répertoriant les fonctionnalités de la colonne de gauche, avec une brève description de chaque fonctionnalité. Vous pouvez cliquer sur un lien pour afficher une vidéo de démonstration de la nouvelle fonctionnalité, ainsi que la documentation sur la nouvelle fonctionnalité. Dans la colonne de droite, les informations suivantes s’affichent pour chaque fonction :
 

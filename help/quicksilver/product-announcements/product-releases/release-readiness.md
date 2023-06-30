@@ -1,26 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Préparation d’une [!DNL Adobe Workfront] publication trimestrielle
+title: Préparation d’une [!DNL Adobe Workfront] release
 description: Suivez ces conseils pour mettre à jour en douceur votre organisation pour chaque nouvelle version de Workfront.
 author: Becky
 feature: Product Announcements
-source-git-commit: 6fa34c77cd23a2abd781365d986d52c9b63a517f
+exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
 
-# Préparation d’une [!DNL Adobe Workfront] publication trimestrielle
+# Préparation d’une [!DNL Adobe Workfront] version planifiée
 
-[!DNL Adobe Workfront] publie chaque trimestre les mises à jour majeures de l’environnement de production. Comme [!DNL Workfront] administrateur, vous avez la possibilité de vous assurer que votre entreprise bénéficie d’une transition en douceur vers chaque nouvelle version de [!DNL Workfront] produit.
+[!DNL Adobe Workfront] publie régulièrement des mises à jour majeures de l’environnement de production. Comme [!DNL Workfront] administrateur, vous avez la possibilité de vous assurer que votre entreprise bénéficie d’une transition en douceur vers chaque nouvelle version de [!DNL Workfront] produit.
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-Regardez la vidéo ci-dessous pour découvrir comment vous pouvez vous préparer à une [!DNL Adobe Workfront] version trimestrielle.
+Regardez la vidéo ci-dessous pour découvrir comment vous pouvez vous préparer à une [!DNL Adobe Workfront] version .
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
@@ -28,11 +29,11 @@ Regardez la vidéo ci-dessous pour découvrir comment vous pouvez vous préparer
 
 Pour une description détaillée de la fonction [!DNL Workfront] processus de publication, voir [[!DNL Adobe Workfront] calendrier et processus de publication](workfront-release-schedule.md).
 
-## Préparation d’une [!DNL Workfront] publication trimestrielle
+## Préparation d’une [!DNL Workfront] release
 
 >[!TIP]
 >
->Vous pouvez créer un modèle de projet pour effectuer le suivi du travail lié à [!DNL Workfront] versions trimestrielles.
+>Vous pouvez créer un modèle de projet pour effectuer le suivi des tâches liées aux tâches planifiées. [!DNL Workfront] versions.
 >
 >Pour plus d’informations, voir [Utilisez une [!DNL Workfront] projet de suivi des travaux de mise à jour](#use-a-workfront-project-to-track-release-work) dans cet article.
 
@@ -49,11 +50,11 @@ Nous vous recommandons de prendre en compte certaines ou toutes les actions suiv
 
 Les notes de mise à jour d’une fonction donnée sont publiées lorsque la fonction est envoyée à votre [!UICONTROL Aperçu d’un environnement de test] environnement. De cette manière, vous pouvez découvrir et explorer la fonctionnalité avant qu’elle ne fasse partie de votre environnement de production.
 
-Chaque version trimestrielle comporte une page d’aperçu de la version trimestrielle avec de brèves descriptions de chaque fonctionnalité et des liens vers des notes plus détaillées qui contiennent des informations supplémentaires ainsi que des vidéos de démonstration. Ces notes détaillées sont organisées par semaine au fur et à mesure que les versions à prévisualiser se produisent, puis sont réorganisées par zone plus proche de la date de publication réelle de la production.
+Chaque version comporte une page d’aperçu des mises à jour comprenant de brèves descriptions de chaque fonctionnalité et des liens vers des notes plus détaillées qui contiennent des informations supplémentaires ainsi que des vidéos de démonstration. Ces notes détaillées sont organisées par semaine au fur et à mesure que les versions à prévisualiser se produisent, puis sont réorganisées par zone plus proche de la date de publication réelle de la production.
 
 Nous vous recommandons vivement de regarder les vidéos de démonstration disponibles dans les notes de mise à jour. Elles peuvent s’avérer particulièrement utiles pour voir la fonction en cours d’action ou pour examiner rapidement le contexte de la fonction si vous n’êtes pas en mesure de l’exécuter à temps.
 
-Pour obtenir des liens vers les vues d’ensemble des versions trimestrielles, reportez-vous à la section [Versions de produit](product-releases.md).
+Pour obtenir des liens vers les versions préliminaires, voir [Versions de produit](product-releases.md).
 
 ### Regardez la [!DNL Workfront] Centre d’annonces
 
@@ -64,8 +65,8 @@ Pour obtenir des liens vers les vues d’ensemble des versions trimestrielles, r
 Comme [!DNL Workfront] administrateur, vous recevrez le message du centre d’annonces de [!DNL Workfront] à propos de divers aspects de la version. Vous recevrez un message du Centre d’annonces lorsque l’un des événements suivants se produit :
 
 * De nouvelles fonctionnalités sont disponibles dans l’environnement de production.
-* Les fonctionnalités publiées dans Aperçu seront publiées dans Production avant la publication trimestrielle prévue.
-* Toutes les nouvelles fonctionnalités sont disponibles dans l’environnement Aperçu avant la publication trimestrielle prévue.
+* Les fonctionnalités publiées dans Aperçu seront publiées dans Production avant la version planifiée.
+* Toutes les nouvelles fonctionnalités sont disponibles dans l’environnement Aperçu avant la version planifiée.
 * Le webinaire de mise à jour est ouvert pour inscription.
 
 >[!TIP]
@@ -89,11 +90,11 @@ Pour plus d’informations sur la variable [!UICONTROL Aperçu d’un environnem
 
 ### Participer au webinaire sur la version
 
-[!DNL Workfront] héberge un webinaire sur les versions peu avant chaque version trimestrielle. Ici, le [!DNL Workfront] l’équipe produit explique et présente les nouvelles fonctionnalités et peut répondre aux questions des participants.
+[!DNL Workfront] héberge un webinaire sur les versions peu avant certaines versions. Ici, le [!DNL Workfront] l’équipe produit explique et présente les nouvelles fonctionnalités et peut répondre aux questions des participants.
 
 Les webinaires sur les versions sont annoncés via [!DNL Workfront] Centre d’annonces. Vous trouverez des liens d’enregistrement sur la page d’aperçu de la version .
 
-Pour obtenir des liens vers les vues d’ensemble des versions trimestrielles, reportez-vous à la section [Versions de produit](product-releases.md).
+Pour obtenir des liens vers les versions préliminaires, voir [Versions de produit](product-releases.md).
 
 ### Offrir des commentaires à Workfront
 
