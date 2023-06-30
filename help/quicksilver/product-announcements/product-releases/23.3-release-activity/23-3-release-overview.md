@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Le webinaire de la version 23.3 aura lieu le 29 juin 2023. Vous pouvez [Inscrive
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La vue agile d’un projet affiche un panorama kanban</a><span style="color: #ff0000;"> Bientôt !</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La vue agile d’un projet affiche un panorama kanban</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
                         <p>La vue agile d’un projet inclut désormais des fonctionnalités supplémentaires pour filtrer, regrouper et trier le travail dans un panorama kanban. La nouvelle conception flexible de la vue comprend une fonction de recherche robuste et la possibilité d’ajouter de nouvelles tâches au projet directement à partir du panorama.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -332,7 +332,7 @@ Le webinaire de la version 23.3 aura lieu le 29 juin 2023. Vous pouvez [Inscrive
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date d’entrée en vigueur des coûts et des taux de facturation</a><span style="color: #ff0000;"> Bientôt !</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date d’entrée en vigueur des coûts et des taux de facturation</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span> </p>
                         <p>Les taux de coût et de facturation en vigueur à la date sont désormais disponibles sur les objets de rôle d’entreprise, d’utilisateur et de tâche dans Workfront. Lorsque les taux d’efficacité de la date sont appliqués à un projet et que les heures sont consignées dans les tâches du projet, les coûts et les recettes sont calculés à l’aide des taux spécifiés pour chaque période.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -342,7 +342,8 @@ Le webinaire de la version 23.3 aura lieu le 29 juin 2023. Vous pouvez [Inscrive
                             </li>
                             <li>
                                 <p>Version de production pour les clients de version rapide : À annoncer, après la version de production 23.3</p>
-                                <p>Version de production pour tous les clients : Avec la version 23.4</p>
+                                <p>Version de production pour tous les clients : Avec la version 23.4<br>
+                                <span style="color: #ff0000;"> La fonction de remplacement du taux d’affectation a été temporairement désactivée dans Aperçu le 30 juin 2023.</span></p>
                             </li>
                         </ul>
                     </td>

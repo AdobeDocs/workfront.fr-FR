@@ -6,9 +6,9 @@ description: Vous pouvez affecter des tâches aux utilisateurs, rôles ou équip
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # Affecter des tâches
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>La fonction de remplacement du taux d’affectation a été temporairement désactivée dans Aperçu le 30 juin 2023.
 
 Vous pouvez affecter des tâches aux utilisateurs, aux rôles de tâche ou aux équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 
