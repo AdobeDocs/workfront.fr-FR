@@ -3,9 +3,9 @@ title: 23.3 Améliorations apportées aux administrateurs
 description: 23.3 Améliorations apportées aux administrateurs
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Pour vous permettre de recevoir plus rapidement les nouvelles fonctionnalités e
 
 Auparavant, les fonctionnalités étaient publiées sur un cycle trimestriel pour tous les clients.
 
-La documentation contenant plus d’informations sera disponible dans la version 23.3.
+Pour plus d’informations, voir [Activation ou désactivation du processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Contrôle au niveau du groupe disponible pour les préférences &quot;Emplacement où les utilisateurs peuvent consigner l’heure&quot; de la feuille de temps et de l’heure
 
