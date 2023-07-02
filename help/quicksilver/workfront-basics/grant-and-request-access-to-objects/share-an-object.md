@@ -183,7 +183,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
      >[!NOTE]
      >
-      L’administrateur Workfront ou le créateur d’objets peut supprimer des autorisations de ces entités.
+     > L’administrateur Workfront ou le créateur d’objets peut supprimer des autorisations de ces entités.
 
       
 
