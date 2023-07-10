@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -84,6 +84,8 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
 ## Répondre à une mise à jour ou à une réponse
+
+Vous pouvez répondre à un commentaire dans le fil d’un objet que vous pouvez afficher ou vous connecter en tant qu’administrateur Workfront ou de groupe et répondre à un commentaire au nom d’un autre utilisateur. Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 La réponse à un commentaire ou à une réponse varie en fonction de l’expérience et de l’objet que vous sélectionnez.
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1606'
 ht-degree: 3%
 
 ---
@@ -32,9 +32,9 @@ Pour obtenir des informations générales sur la nouvelle expérience de comment
 
 Nous prévoyons de publier itérativement la nouvelle expérience de commentaires. Cela aura un impact sur certains objets de chaque version. Un petit ensemble de fonctionnalités peut être publié au début et d’autres fonctionnalités seront ajoutées aux objets restants au fil du temps.
 
-Pour plus d’informations sur les objets Workfront qui affichent la section Mises à jour, voir   [Présentation de la section Mises à jour](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+Pour plus d’informations sur les objets Workfront qui affichent la section Mises à jour, voir   [Présentation de la section Mises à jour](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Voici un calendrier planifié de la publication de la nouvelle expérience de commentaire dans l’environnement de production :
+Vous trouverez ci-dessous une chronologie planifiée avec des jalons clés pour la publication de la nouvelle expérience de commentaire dans l’environnement de production. Outre les jalons ci-dessous, nous continuerons à améliorer l’expérience de commentaires grâce à des améliorations plus modestes. Pour plus d’informations sur toutes les fonctionnalités publiées, reportez-vous à la section [Fonctionnalités publiées](#released-features) dans cet article.
 
 * Avec la version 23.2 (6 avril 2023) :
    * Commentaires sur la version bêta pour les problèmes
@@ -51,24 +51,41 @@ Voici un calendrier planifié de la publication de la nouvelle expérience de co
 * Fin 2023 :
    * L’expérience de commentaire héritée restera une option pour les objets suivants : projets, tâches, problèmes et documents.
 
-     Les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs, les feuilles de temps, les objectifs et les cartes disposent de la nouvelle expérience de commentaire comme seule option.
-
   >[!NOTE]
   >
   >    Les itérations conserveront l’expérience héritée de commentaires.
 
-La section suivante contient la liste des fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
-
 ## Fonctionnalités publiées
 
-Les informations suivantes font référence à l’activité de publication chaque semaine des fonctionnalités incluses dans la nouvelle expérience bêta de commentaires. La page répertorie les nouvelles fonctionnalités ajoutées et les problèmes résolus pour la nouvelle expérience de commentaire.
+La section suivante contient la liste des fonctionnalités qui ont été ajoutées après la version d’origine, en commençant par celles publiées le plus récemment.
 
+Les informations suivantes font référence à l’activité de publication chaque semaine des fonctionnalités incluses dans la nouvelle expérience bêta de commentaires. Cet article répertorie les nouvelles fonctionnalités ajoutées et les problèmes résolus pour la nouvelle expérience de commentaires.
 
 ### Fonctionnalités publiées après le 19 juin 2023
 
 <!--restructure this section with actual weeks and dates, when we know them-->
 
 Les fonctionnalités répertoriées dans cette section devraient être publiées peu après la semaine du 19 juin 2023.
+
+#### Balisage automatique de tous les participants au thread
+
+Un propriétaire de commentaire est désormais balisé automatiquement dans un thread. Avant cette mise à jour, seuls les utilisateurs qui avaient été balisés en utilisant les balises &quot;@name&quot; ou en les ajoutant à la section &quot;Baliser les personnes ou les équipes&quot; affichée dans la liste des utilisateurs balisés. Vous pouvez ainsi supprimer le propriétaire d’un commentaire du thread, si nécessaire, même s’il n’a pas été balisé manuellement auparavant.
+
+Version d’aperçu prévue : 12 juillet 2023
+
+Version de production planifiée : 13 juillet 2023
+
+#### Nouvelle interface pour l’heure de journalisation
+
+Nous avons repensé l’interface pour le temps de connexion à partir de la zone Mises à jour dans la nouvelle expérience de commentaires.
+
+Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentation sera mise à jour au moment de la publication.
+
+Aperçu de la version pour les projets, les tâches et les problèmes : 5 juillet 2023
+
+Version de production pour les problèmes : 6 juillet 2023
+
+Version de production planifiée pour les projets et les tâches : avec la version 23.3
 
 #### Contenu des commentaires sous une nouvelle réponse
 
@@ -80,27 +97,13 @@ Aperçu : 28 juin 2023
 
 Version de production : 29 juin 2023
 
-#### Nouvelle interface pour l’heure de journalisation
-
-Nous avons repensé l’interface pour le temps de connexion à partir de la zone Mises à jour dans la nouvelle expérience de commentaires.
-
-Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentation sera mise à jour au moment de la publication.
-
-Publication de l’aperçu planifié pour les projets, les tâches et les problèmes : 5 juillet 2023
-
-Version de production planifiée pour les problèmes : 6 juillet 2023
-
-Version de production planifiée pour les projets et les tâches : avec la version 23.3
-
 #### Ajout d’émoticônes à une mise à jour
 
 Vous pouvez désormais ajouter des émoticônes à un commentaire à l’aide d’une option de barre d’outils de texte enrichi dans la nouvelle expérience de commentaire.
 
 Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentation sera mise à jour au moment de la publication.
 
-Aperçu : À annoncer (dans la version 23.3)
-
-Production : À annoncer. Avant la version 23.3.
+Aperçu et production : À annoncer (pendant ou peu après la version 23.3)
 
 #### Nouvelle expérience de commentaire pour des objets supplémentaires
 

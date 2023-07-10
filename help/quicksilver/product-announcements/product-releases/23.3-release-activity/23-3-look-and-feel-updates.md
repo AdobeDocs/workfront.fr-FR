@@ -4,9 +4,9 @@ description: Visualiser les mises à jour pendant la période de publication de 
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,9 @@ Pour plus d’informations, voir [Copie et envoi de requêtes](/help/quicksilver
 
 >[!NOTE]
 >
->Version d’aperçu prévue : 6 juillet 2023; Version de production planifiée : avec la version 23.3
+>Version d’aperçu prévue : à annoncer; Version de production planifiée : à annoncer.
+>
+>Cette fonctionnalité était initialement prévue avec la version 23.3 et a été différée.
 
 Nous avons mis à jour la boîte de dialogue Nouveau problème qui s’affiche lors de l’envoi d’un nouveau problème à un projet. Désormais, l’interface correspond à la zone Nouvelle requête qui s’affiche lors de l’envoi d’une nouvelle requête à une file d’attente de requêtes.
 

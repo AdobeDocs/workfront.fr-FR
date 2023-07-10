@@ -7,10 +7,10 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 4%
+source-wordcount: '1141'
+ht-degree: 3%
 
 ---
 
@@ -232,7 +232,18 @@ Si vous souhaitez afficher toutes les mises à jour effectuées sur un utilisate
 
 ### Restrictions lors de la saisie de commentaires au nom d’un autre utilisateur
 
-Les administrateurs d’Adobe Workfront et les administrateurs de groupe peuvent se connecter en tant qu’autres utilisateurs et effectuer des actions dans Workfront, comme saisir des commentaires. (Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Tout commentaire fait au nom d’un autre utilisateur est indiqué sur le commentaire.
+Les administrateurs d’Adobe Workfront et les administrateurs de groupe peuvent se connecter en tant qu’autres utilisateurs et effectuer des actions dans Workfront, comme saisir des commentaires.
+
+Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+Tout commentaire fait au nom d’un autre utilisateur est indiqué sur le commentaire.
+
+>[!NOTE]
+>
+><span class="preview">Lors de l’utilisation de la nouvelle expérience de commentaire, le commentaire est ajouté en tant qu’utilisateur connecté en tant qu’autre utilisateur et rien n’indique qu’il ajoute un commentaire pour le compte d’une autre personne.
+>
+>Par exemple, si un administrateur Workfront se connecte en tant qu’autre utilisateur, l’utilisateur associé au commentaire est l’administrateur Workfront. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 Un administrateur de groupe peut commenter au nom d’une autre personne, mais ne peut pas supprimer ce commentaire. Seul un administrateur Adobe Workfront peut supprimer un commentaire qu’il a fait au nom d’un autre utilisateur.
 

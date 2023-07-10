@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 * Commentaire sur une mise à jour du système
 * Possibilité de modifier l’état, la condition, la date de validation tout en commentant
 * Modifier le formulaire personnalisé
+* Informations &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe se connecte en tant qu’autre utilisateur et ajoute un commentaire en son nom.
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>Texte enrichi (emojis)
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>Texte enrichi (guillemets anglais)
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Supprimer des personnes du thread 
+   <td>Balisage automatique de tous les participants au thread
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Modifier le formulaire personnalisé 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Possibilité de modifier l’état, la condition, la date de validation tout en commentant 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Copier le lien du thread 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2e trimestre 2023 
    </td>
@@ -411,9 +399,50 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>Modifier le formulaire personnalisé 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Possibilité de modifier l’état, la condition, la date de validation tout en commentant 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>Réponse aux mises à jour du système 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>Afficher "au nom de" lors de l’ajout de commentaires connectés en tant qu’autre utilisateur
    </td>
    <td> ✓
    </td>

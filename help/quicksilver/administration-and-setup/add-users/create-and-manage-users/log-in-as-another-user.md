@@ -8,15 +8,17 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Connexion en tant qu’autre utilisateur
 
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les utilisateurs uniquement dans l’environnement Aperçu .</span>
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -87,7 +89,6 @@ Les étapes de cet article doivent être les suivantes :
    >   
    >* Vous ne pouvez pas réinitialiser le mot de passe d’un administrateur Workfront.
 
-
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
 1. Dans le panneau de gauche, cliquez sur **Connexion en tant que**.
@@ -145,6 +146,13 @@ Lorsque vous vous connectez en tant qu’autre utilisateur, la date de dernière
 Lorsque vous vous connectez à Workfront en tant qu’autre utilisateur et exécutez une action, Workfront indique clairement que toute action que vous effectuez est effectuée par vous au nom de l’utilisateur sous lequel vous êtes connecté.
 
 Par exemple, si vous commentez un élément lors de votre connexion en tant qu’autre utilisateur, une instruction indique que vous avez fait ce commentaire pour le compte de l’utilisateur.
+
+>[!NOTE]
+>
+><span class="preview">Lors de l’utilisation de la nouvelle expérience de commentaire, le commentaire est ajouté en tant qu’utilisateur connecté en tant qu’autre utilisateur et rien n’indique qu’il ajoute un commentaire pour le compte d’une autre personne.
+>
+>Par exemple, si un administrateur Workfront se connecte en tant qu’autre utilisateur, l’utilisateur associé au commentaire est l’administrateur Workfront. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 ### Affichage des informations d’audit {#view-audit-information}
 
