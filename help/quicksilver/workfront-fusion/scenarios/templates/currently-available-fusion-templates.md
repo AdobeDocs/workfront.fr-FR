@@ -7,9 +7,9 @@ description: Les modèles publics suivants sont actuellement disponibles dans Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Ces modèles récupèrent les informations d’un service Web et les intègrent 
 ### APILayer > Workfront - Mise à jour du taux de change quotidien (en euros)
 
 Ce modèle crée un scénario qui automatise la mise à jour d’un taux de change à un moment donné. Ce scénario récupère le taux d’euros (euros) en dollars US (USD) d’une API APIlayer.com et le met à jour dans Workfront.
+
+## Modèles Workfront-Marketo
+
+Ces modèles prennent en charge l’intégration Workfront-Marketo.
+
+>[!NOTE]
+>
+> Vous devez disposer d’une licence Workfront Fusion for Work Automation and Integration pour utiliser des modèles dans cette section.
+
+### Approbation de votre brouillon de courrier électronique Marketo Engage avec les workflows d’approbation Workfront
+
+Il fait partie de l’intégration de vérification et d’approbation entre Workfront et Marketo Engage. Ce modèle détecte si un BAT d’email dans Workfront a été approuvé, puis met à jour l’email correspondant dans Marketo Engage comme approuvé.
+
+### Récupérer les requêtes de campagne marketing dans Workfront et automatiser la création des campagnes dans Marketo Engage
+
+Ce scénario fournit un moyen programmatique de créer des campagnes par courrier électronique et des webinaires en Marketo Engage à partir d’une demande effectuée dans Workfront. Grâce à l’automatisation de la création, de l’organisation et de la configuration des campagnes, les équipes peuvent améliorer leur efficacité.
+
+### Vérification d’un BAT d’email de votre brouillon de courrier électronique de Marketo Engage dans Workfront
+
+Ce modèle détecte si une tâche Workfront a été définie sur un état prêt à être examinée, puis exporte le brouillon de l’email depuis Marketo Engage pour l’enregistrer en tant que BAT dans Workfront.
 
 ## Modèles Workfront-Anaplan
 
