@@ -6,7 +6,7 @@ description: Vous pouvez consigner le temps passé sur les tâches dans&nbsp;Ado
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3336'
 ht-degree: 0%
@@ -385,7 +385,7 @@ Pour consigner l’heure dans la section Mises à jour d’un projet, d’une t�
 1. Dans le panneau de gauche, sélectionnez **Mises à jour**.
 1. Cliquez sur **Temps journal**.
 
-   La boîte de dialogue Saisir les heures s’affiche.
+   <span class="preview">La boîte de dialogue Durée de journalisation s’affiche. </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Pour consigner l’heure dans la section Mises à jour d’un projet, d’une t�
    >   
    >   Le nombre d’heures incluses dans une journée indique, dans le coin supérieur droit de la zone Enter Days.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Indiquez les informations suivantes :
 

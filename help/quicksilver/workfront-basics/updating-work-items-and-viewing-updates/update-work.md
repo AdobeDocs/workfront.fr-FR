@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: '3465'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 Vous pouvez ajouter des commentaires à la plupart des objets dans Adobe Workfront dans la section Mises à jour . Pour plus d’informations sur les objets qui affichent la section Mises à jour, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Vous pouvez ajouter une mise à jour sur un objet Workfront (projet, tâche ou problème) pour communiquer sur la progression de l’objet, lorsque vous mettez en commentaire l’objet. Les utilisateurs affectés ou abonnés à l’objet peuvent afficher votre mise à jour. Vous pouvez également marquer les utilisateurs pour attirer leur attention sur la mise à jour. Les utilisateurs balisés reçoivent une notification in-app et un e-mail concernant votre mise à jour.
+Vous pouvez ajouter une mise à jour sur un objet Workfront (projet, tâche ou problème) pour communiquer sur la progression de l’objet, lorsque vous mettez en commentaire l’objet. Les utilisateurs affectés ou abonnés à l’objet peuvent afficher votre mise à jour. Vous pouvez également marquer les utilisateurs pour attirer leur attention sur la mise à jour. Les utilisateurs balisés reçoivent une notification in-app et un e-mail concernant votre mise à jour. Pour plus d’informations, voir [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 Vous pouvez ajouter un commentaire à un objet que vous pouvez afficher ou vous connecter en tant qu’administrateur Workfront ou de groupe et ajouter un commentaire au nom d’un autre utilisateur. Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 

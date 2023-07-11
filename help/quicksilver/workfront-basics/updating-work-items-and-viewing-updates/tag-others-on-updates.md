@@ -6,9 +6,9 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,8 @@ Le balisage des autres dans une mise à jour varie en fonction de l’expérienc
 
 ### Balisage des autres mises à jour dans la section Mises à jour actuelles
 
+Vous pouvez baliser manuellement les utilisateurs dans la section Mises à jour actuelles.
+
 1. Commencez à mettre à jour un élément de travail, comme décrit dans la section [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Dans le **Notifier** , commencez à saisir le nom de l’utilisateur ou de l’équipe que vous souhaitez inclure, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
@@ -134,9 +136,19 @@ Le balisage des autres dans une mise à jour varie en fonction de l’expérienc
 
 ### Balisage des autres sur les mises à jour dans les commentaires sur l’expérience bêta
 
-Vous pouvez baliser d’autres utilisateurs sur les mises à jour de l’expérience de commentaires bêta. Vous pouvez également supprimer les utilisateurs balisés par erreur lorsque vous modifiez un commentaire.
+<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
 
-1. Commencez à mettre à jour un élément de travail, comme décrit dans la section [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+You can tag others on updates in the new commenting experience in the following ways:
+
+* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
+* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+
+You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+
+
+Vous pouvez baliser manuellement d’autres utilisateurs sur les mises à jour de l’expérience bêta de commentaires. Vous pouvez également supprimer les utilisateurs balisés par erreur lorsque vous modifiez ou répondez à un commentaire.
+
+1. Commencez à mettre à jour un élément de travail, comme décrit dans la section [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. Dans le **Balisage de personnes ou d’équipes** , commencez à saisir le nom de l’utilisateur ou de l’équipe que vous souhaitez inclure, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    Ou

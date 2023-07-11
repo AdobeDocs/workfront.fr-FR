@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1591'
 ht-degree: 3%
 
 ---
@@ -81,11 +81,9 @@ Nous avons repensé l’interface pour le temps de connexion à partir de la zon
 
 Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentation sera mise à jour au moment de la publication.
 
-Aperçu de la version pour les projets, les tâches et les problèmes : 5 juillet 2023
+Aperçu de la version : 5 juillet 2023
 
-Version de production pour les problèmes : 6 juillet 2023
-
-Version de production planifiée pour les projets et les tâches : avec la version 23.3
+Version de production : avec la version 23.3
 
 #### Contenu des commentaires sous une nouvelle réponse
 
