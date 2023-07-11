@@ -7,9 +7,9 @@ description: Vous pouvez ajuster le paramètre Mode de tracking d’une tâche l
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ Workfront suppose que les tâches seront terminées comme prévu et les marque c
 
 Les exceptions suivantes existent :
 
-* Si la tâche comporte des prédécesseurs incomplets, elle ne sera pas terminée automatiquement tant que tous ses prédécesseurs ne seront pas terminés.
+* Si la tâche comporte des prédécesseurs incomplets, elle ne sera pas terminée automatiquement tant que tous ses prédécesseurs ne seront pas terminés. Les prédécesseurs doivent être appliqués.
 * Si la tâche présente une contrainte de date fixe, elle se termine toujours à la date d’achèvement planifiée, que ses prédécesseurs soient terminés ou non.
 
 >[!IMPORTANT]
