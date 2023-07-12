@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Prise en main de la nouvelle page d’accueil dans Adobe Workfront
 description: New Home est une nouvelle fonctionnalité puissante pour gérer votre travail.
 author: Nolan
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Les widgets sont la base de New Home. En ajoutant des widgets à votre page d’
     Affiche les problèmes qui vous sont affectés dans un tableau avec des filtres, des vues et des regroupements personnalisables, ainsi qu’un bouton pour créer directement un nouveau problème.
 
 * **Mes requêtes**\
-    Affiche toutes les requêtes qui vous sont affectées, un filtre qui vous permet d’afficher uniquement les requêtes ouvertes et un bouton qui ouvre le volet de résumé d’une requête.
+    Affiche toutes les requêtes que vous avez envoyées, un filtre permettant d’afficher uniquement les requêtes ouvertes et un bouton permettant d’ouvrir le volet de résumé d’une requête.
 
 * **Requêtes d’équipe**\
     Affiche toutes les requêtes en attente pour les équipes sur lesquelles vous êtes triées par équipe, ainsi que des boutons permettant d’affecter directement une requête à un utilisateur ou de travailler dessus vous-même.
