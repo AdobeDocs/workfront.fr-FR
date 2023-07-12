@@ -6,9 +6,9 @@ description: Les notifications suivantes vous alertent sur les activités qui se
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 39ba9e93a8597d4354472a19b1ac1c5f530f4398
+source-git-commit: 901605917347297a1ee077f00905b03427582650
 workflow-type: tm+mt
-source-wordcount: '2092'
+source-wordcount: '2090'
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
  </thead> 
  <tbody>
   <tr> 
-   <td> <p><strong>Une tâche antérieure d’une tâche affectée à mon équipe est terminée</strong> </p> <p>L’équipe affectée reçoit une notification par courrier électronique lorsqu’un prédécesseur de l’une de ses tâches est terminé. </p> <p>Les utilisateurs disposant d’une licence [!UICONTROL Review] ou Re[!UICONTROL Requestor]questor ne reçoivent pas de notification.</p> <p>L'objet de l'email de notification instantanée est le suivant : <em>Terminé : &lt;task name=""&gt;</em></p> <p> L’objet de la notification quotidiennement Digest est : <em> [!UICONTROL Résumé du travail qui vous a été attribué] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td> <p><strong>Une tâche antérieure d’une tâche affectée à mon équipe est terminée</strong> </p> <p>L’équipe affectée reçoit une notification par courrier électronique lorsqu’un prédécesseur de l’une de ses tâches est terminé. </p> <p>Les utilisateurs disposant d’une licence [!UICONTROL Review] ou [!UICONTROL Requestor] ne reçoivent pas de notification.</p> <p>L'objet de l'email de notification instantanée est le suivant : <em>Terminé : &lt;task name=""&gt;</em></p> <p> L’objet de la notification quotidiennement Digest est : <em> [!UICONTROL Résumé du travail qui vous a été attribué] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
    <td> <p>Nom de la tâche du prédécesseur<br>Projet de tâche du prédécesseur<br>Numéro de référence de la tâche du prédécesseur<br>Nom de l’utilisateur qui a terminé la tâche du prédécesseur<br>État de la tâche précédente<br>Date et heure auxquelles le prédécesseur a été terminé<br>État précédent de la tâche précédente<br><strong>Voir Plus de détails</strong> button<br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de prédécesseurs terminés<br>*Nom de la tâche<br>*Nom de l’utilisateur qui a terminé la tâche<br>*Date du résumé quotidien </p> </td> 
    <td><strong>Chaque jour</strong> </td>
   </tr>
@@ -100,7 +100,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Les documents sont téléchargés ou modifiés à ma demande</strong> </p> <p>La personne désignée pour le problème reçoit une notification par courrier électronique lorsque des documents sont téléchargés ou que les détails du document sont modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par courrier électronique n’est pas envoyée si l’utilisateur qui a déclenché le problème est la personne désignée pour le problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est [!UICONTROL Actuel] et si le projet est configuré comme une file d’attente de demande d’aide (comme décrit dans la section <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>).</p> <p>L'objet de l'email de notification instantanée est le suivant : <em>[!UICONTROL Document ajouté à] &lt;request name=""&gt;</em></p> <p> L’objet de la notification quotidiennement Digest est : <em> [!UICONTROL Résumé du travail qui vous a été attribué] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td> <p><strong>Les documents sont chargés ou modifiés à ma demande</strong> </p> <p>La personne désignée pour le problème reçoit une notification par courrier électronique lorsque des documents sont téléchargés ou que les détails du document sont modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par courrier électronique n’est pas envoyée si l’utilisateur qui a déclenché le problème est la personne désignée pour le problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est [!UICONTROL Actuel] et si le projet est configuré comme une file d’attente de demande d’aide (comme décrit dans la section <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>).</p> <p>L'objet de l'email de notification instantanée est le suivant : <em>[!UICONTROL Document ajouté à] &lt;request name=""&gt;</em></p> <p> L’objet de la notification quotidiennement Digest est : <em> [!UICONTROL Résumé du travail qui vous a été attribué] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
    <td> <p>Nom de la requête<br>Nom du projet (nom de la file d’attente des demandes)<br>Numéro de référence du document <br>Nom de l’utilisateur qui a téléchargé le document.<br>Document Name <br>Ajout de la date "À"<br>Détails du document (format, taille, numéro de version)<br>Miniature du document<br><strong>[!UICONTROL Aperçu]</strong> et <strong>[!UICONTROL Téléchargement]</strong> boutons<br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de documents chargés ou modifiés<br>*Nom du document<br>*Nom de l’objet<br>*Nom de l’utilisateur qui a téléchargé le document.<br>*Date du résumé quotidien</p> </td> 
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
