@@ -6,7 +6,7 @@ description: Votre administrateur Adobe Workfront configure les notifications d�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: ea16b13b6ecb6ecea365c6c4d31ee23b7bb712c6
+source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -29,7 +29,6 @@ Pour plus d’informations sur les notifications électroniques, voir [[!DNL Ado
 >* Le [!DNL Workfront] un administrateur ou un administrateur de groupe ne peut pas configurer de notifications pour [!DNL Workfront Goals]. Pour plus d’informations sur les notifications de la variable [!DNL Workfront] l’administrateur peut configurer, voir [Configuration des notifications d’événement pour tous les membres du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Pour plus d’informations sur la configuration de notifications individuelles pour [!DNL Workfront Goals] continuez à lire cet article.
 >
 
-
 ## Exigences d’accès
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
@@ -46,7 +45,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou version ultérieure</p> </td> 
+   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
