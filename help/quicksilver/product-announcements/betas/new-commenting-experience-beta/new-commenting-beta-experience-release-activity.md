@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Version de production planifiée : 13 juillet 2023
 
 Nous avons repensé l’interface pour le temps de connexion à partir de la zone Mises à jour dans la nouvelle expérience de commentaires.
 
-Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentation sera mise à jour au moment de la publication.
+Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Aperçu de la version : 5 juillet 2023
 
@@ -89,7 +89,7 @@ Version de production : avec la version 23.3
 
 Vous avez désormais la possibilité de copier le contenu d’un commentaire et de l’ajouter comme nouveau guillemet à une réponse dans le même thread lors de l’utilisation de la nouvelle expérience de commentaire.
 
-Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentation sera mise à jour au moment de la publication.
+Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Aperçu : 28 juin 2023
 
