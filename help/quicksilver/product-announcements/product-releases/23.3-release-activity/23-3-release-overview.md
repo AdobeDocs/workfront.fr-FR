@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2754'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ Le webinaire de la version 23.3 aura lieu le 29 juin 2023. Vous pouvez [Inscrive
                             <li>
                                 <p>Version de production pour les clients de version rapide : À annoncer, après la version de production 23.3</p>
                                 <p>Version de production pour tous les clients : Avec la version 23.4<br>
-                                <span style="color: #ff0000;"> La fonction de remplacement du taux d’affectation a été temporairement désactivée dans Aperçu le 30 juin 2023.</span></p>
+                                <span style="color: #ff0000;"> La fonction de remplacement du taux d’affectation a été temporairement désactivée dans Aperçu du 30 juin au 13 juillet 2023.</span></p>
                             </li>
                         </ul>
                     </td>
