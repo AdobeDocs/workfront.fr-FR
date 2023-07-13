@@ -2,14 +2,15 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Créer un modèle à partir d’un projet
-description: Créer un modèle à partir d’un projet
+description: Vous pouvez créer des modèles lorsque vous enregistrez un projet existant en tant que modèle.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '477'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +23,12 @@ ht-degree: 2%
 Vous pouvez créer des modèles lorsque vous enregistrez un projet existant en tant que modèle.
 
 Après avoir enregistré un projet existant en tant que modèle, vous pouvez utiliser le nouveau modèle pour créer de nouveaux projets. Cela simplifie et accélère le processus de création du projet.
+
+>[!NOTE]
+>
+>Lors de l’enregistrement d’un projet en tant que modèle, les dates réelles des tâches et du projet ne sont pas enregistrées pour le modèle.
+>
+>Un modèle et ses tâches n’ont pas de dates réelles, mais plutôt une indication du jour (à partir duquel le projet peut démarrer) où une tâche peut commencer et le jour où la tâche peut devoir être terminée. Lors de l’utilisation de modèles pour créer les projets futurs, les projets recevront des dates réelles. Pour plus d’informations, voir [Création d’un projet](../create-projects/create-project.md).
 
 ## Exigences d’accès
 

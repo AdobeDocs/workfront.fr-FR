@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: Définition de la date d’achèvement prévue du projet
 description: La date d’achèvement prévue d’un projet est la date à laquelle le projet est défini pour se terminer.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -86,13 +87,18 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 ## Définition manuelle de la date d’achèvement planifiée d’un projet
 
-Vous devez définir manuellement la date d’achèvement prévue d’un projet lorsque vous planifiez le projet à partir de la date d’achèvement. 
+Vous devez définir manuellement la date d’achèvement prévue d’un projet lorsque vous planifiez le projet à partir de la date d’achèvement.
+
+>[!NOTE]
+>
+>Lorsque vous définissez manuellement la date de fin planifiée d’un projet, Workfront calcule automatiquement la date de début planifiée du projet en fonction de la durée de toutes les tâches.
+
 
 Pour planifier un projet à partir de la date d’achèvement :
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Projets**.
 
-1. Cliquez sur **Nouveau projet** then **Nouveau projet**.
+1. Cliquez sur **Nouveau projet** then **Nouveau projet**.
 
    Pour plus d’informations sur la création de projets, voir l’article [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
 
@@ -107,7 +113,7 @@ Pour planifier un projet à partir de la date d’achèvement :
 
 ## Définition automatique de la date d’achèvement planifiée d’un projet
 
-La date d’achèvement prévue d’un projet est automatiquement calculée par Adobe Workfront lorsque vous planifiez le projet à partir de la date de début. 
+La date d’achèvement prévue d’un projet est automatiquement calculée par Workfront lorsque vous planifiez le projet à partir de la date de début. 
 
 Pour planifier un projet à partir de la date de début :
 

@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: Présentation du projet Date de début prévue
 description: Présentation du projet Date de début prévue
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -31,6 +32,10 @@ La date de début planifiée d’un projet peut être définie manuellement ou a
 ## Définition manuelle de la date de début planifiée d’un projet
 
 Vous devez définir manuellement la date de début planifiée d’un projet lorsque vous planifiez le projet à partir de la date de début.
+
+>[!NOTE]
+>
+>Lorsque vous définissez manuellement la date de début planifiée d’un projet, Workfront calcule automatiquement la date de fin planifiée du projet en fonction de la durée de toutes les tâches.
 
 Pour plus d’informations sur la définition de la date de début prévue du projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -55,23 +60,23 @@ La Date de début planifiée d’un projet est automatiquement définie lorsque 
 
 * à partir de zéro et lorsque vous planifiez le projet à partir de la date d’achèvement.
 
-   La Date de début planifiée est calculée automatiquement par Adobe Workfront, en fonction de la date que vous sélectionnez pour la Date de fin et de la durée de toutes les tâches du projet.
+  La Date de début planifiée est calculée automatiquement par Adobe Workfront, en fonction de la date que vous sélectionnez pour la Date de fin et de la durée de toutes les tâches du projet.
 
-   Pour plus d’informations sur la création d’un projet à partir de zéro, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
+  Pour plus d’informations sur la création d’un projet à partir de zéro, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
 
 * importez-le à partir du projet Microsoft.
 
-   La date de début planifiée correspond à la date de début du projet dans le projet Microsoft.
+  La date de début planifiée correspond à la date de début du projet dans le projet Microsoft.
 
-   Pour plus d’informations sur l’importation d’un projet à partir d’un projet Microsoft, voir [Importation d’un projet à partir d’un projet Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Pour plus d’informations sur l’importation d’un projet à partir d’un projet Microsoft, voir [Importation d’un projet à partir d’un projet Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * importez-le à l’aide de Workfront Kick-Starts, lorsque vous êtes administrateur de Workfront.
 
-   La Date de début planifiée correspond toujours à l’heure et à la date de votre ordinateur, sauf si vous spécifiez une autre valeur dans le champ setScheduleStartDate de la feuille Projet du fichier de démarrage rapide.
+  La Date de début planifiée correspond toujours à l’heure et à la date de votre ordinateur, sauf si vous spécifiez une autre valeur dans le champ setScheduleStartDate de la feuille Projet du fichier de démarrage rapide.
 
-   Pour plus d’informations sur l’importation de données à l’aide de lancements, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Pour plus d’informations sur l’importation de données à l’aide de lancements, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   Pour plus d’informations sur l’importation de projets à l’aide de lancements, voir [Scénario de démarrage : préparation simple de l’importation de projets et de tâches](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Pour plus d’informations sur l’importation de projets à l’aide de lancements, voir [Scénario de démarrage : préparation simple de l’importation de projets et de tâches](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

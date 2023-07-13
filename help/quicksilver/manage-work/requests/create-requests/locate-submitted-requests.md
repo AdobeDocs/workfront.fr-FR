@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: Recherche des requêtes envoyées
 description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouvez localiser les requêtes que vous ou une autre personne avez envoyées ou les requêtes que vous n’avez jamais envoyées et que vous avez enregistrées en tant que brouillons.
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # Recherche des requêtes envoyées
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Vous pouvez localiser les types de requêtes suivants que vous ou une autre personne avez soumises, ou les requêtes que vous avez commencées mais que vous n’avez jamais terminé d’envoyer. Vous pouvez localiser ces requêtes dans les zones suivantes d’Adobe Workfront :
 
@@ -70,7 +72,7 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
    >
    >Vous ne pouvez pas personnaliser les colonnes de la liste des demandes envoyées.
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Les colonnes suivantes s’affichent par défaut :

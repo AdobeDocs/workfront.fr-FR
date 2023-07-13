@@ -6,9 +6,9 @@ description: Vous pouvez créer et supprimer des modèles dans la zone Modèles 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,21 @@ ht-degree: 0%
 
 Vous pouvez créer et supprimer des modèles dans la zone Modèles . Lors de la création d’un modèle, vous pouvez saisir les informations pour toutes les tâches et toutes les informations pour les futurs paramètres du projet. Ces informations seront ensuite transférées vers le projet, lorsque vous le créerez à partir du modèle.
 
+>[!NOTE]
+>
+>Un modèle et ses tâches n’ont pas de dates réelles, mais plutôt une indication du jour (à partir duquel le projet peut démarrer) où une tâche peut commencer et le jour où la tâche peut devoir être terminée. Lors de l’utilisation de modèles pour créer les projets futurs, les projets recevront des dates réelles. Pour plus d’informations, voir [Création d’un projet](../create-projects/create-project.md).
+
+
 Vous pouvez créer un modèle de la manière suivante :
 
 * À partir de zéro, comme décrit dans cet article.
 * À partir de projets existants, en enregistrant un projet en tant que modèle.
 
-   Pour plus d’informations sur la création de modèles à partir de projets existants, voir [Enregistrement d’un projet en tant que modèle](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  Pour plus d’informations sur la création de modèles à partir de projets existants, voir [Enregistrement d’un projet en tant que modèle](../../../manage-work/projects/manage-projects/save-project-as-template.md).
 
 * En la copiant à partir d’un autre modèle.
 
-   Pour plus d’informations sur la copie d’un modèle existant, voir [Copier un modèle de projet](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+  Pour plus d’informations sur la copie d’un modèle existant, voir [Copier un modèle de projet](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
 * Si vous êtes administrateur de Workfront, vous pouvez créer des modèles en important des plans directeurs. Pour plus d’informations, voir [Configuration d’un plan directeur](../../../administration-and-setup/blueprints/configure-template-package.md).
 

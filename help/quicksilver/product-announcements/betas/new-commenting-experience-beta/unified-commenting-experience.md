@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,6 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 >* <span class="preview">Tâches</span>
 >* <span class="preview">Documents</span>
 
-
-
 Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la nouvelle expérience de commentaire, ainsi que leur disponibilité dans les zones où elles sont prises en charge :
 
 <table>
@@ -79,7 +77,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td><strong>Existe dans l’ancienne expérience de commentaire </strong>
    </td>
-   <td><strong>Existe dans la version bêta de la nouvelle expérience de commentaire </strong>
+   <td><strong>Existe dans la nouvelle expérience de commentaire </strong>
    </td>
    <td><strong>Sera introduit dans la nouvelle expérience de commentaire </strong>
    </td>
@@ -224,9 +222,9 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>

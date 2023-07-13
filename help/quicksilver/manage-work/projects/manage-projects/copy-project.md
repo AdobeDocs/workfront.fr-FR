@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: Copier un projet
 description: Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vous ne pouvez copier qu’un seul projet à la fois. Vous ne pouvez pas copier des projets en bloc.
 author: Alina
-feature: Work Management
+feature: Projects, Work Management
+role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '764'
 ht-degree: 5%
 
 ---
@@ -43,7 +44,7 @@ Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vo
 >* Carte de score
 >* Informations par défaut sur la tâche (Processus d’approbation par défaut de la tâche, Forms personnalisé par défaut de la tâche)
 >
-
+> Les dates des tâches d’origine sur la copie des projets dans le nouveau projet. Vous devez modifier la date de début ou de fin du projet (en fonction de son mode de planification) pour mettre à jour les dates des tâches. Les contraintes de tâche peuvent vous empêcher de modifier les dates du projet.
 
 ## Exigences d’accès
 
