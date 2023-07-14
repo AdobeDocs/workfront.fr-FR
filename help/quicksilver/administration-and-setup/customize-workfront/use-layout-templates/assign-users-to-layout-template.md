@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: En tant qu’administrateur d’Adobe Workfront, vous pouvez affecter un modèle de mise en page que vous avez créé à tout utilisateur, rôle de tâche, équipe ou groupe qui doit l’utiliser.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -90,15 +90,15 @@ Cependant, un seul modèle de mise en page est visible à tout moment par l’ut
 * **Utilisateur individuel**: Le modèle de mise en page attribué à la personne en tant qu’utilisateur individuel remplace tous les autres. Vous pouvez remplacer une affectation précédente effectuée en tant qu’utilisateur individuel en effectuant une nouvelle affectation. la plus récente est prioritaire.
 * **Rôle Principal de la tâche**: Si aucun modèle de mise en page n’est attribué à la personne en tant qu’utilisateur unique, elle voit le modèle affecté pour son rôle de tâche Principal.
 
-   Seul le modèle de mise en page affecté au rôle de tâche Principal d’un utilisateur est visible par l’utilisateur. Les modèles affectés à des rôles de tâche secondaires détenus par l’utilisateur ne sont pas visibles.
+  Seul le modèle de mise en page affecté au rôle de tâche Principal d’un utilisateur est visible par l’utilisateur. Les modèles affectés à des rôles de tâche secondaires détenus par l’utilisateur ne sont pas visibles.
 
 * **Équipe d’accueil**: Si aucun modèle de mise en page n’est attribué à la personne en tant qu’utilisateur individuel ou en tant qu’utilisateur avec un rôle de travail Principal, elle voit le modèle affecté à son équipe d’accueil.
 
-   Seul le modèle affecté à l’équipe d’accueil d’un utilisateur est visible par l’utilisateur. Les modèles attribués à d’autres équipes dans lesquelles un utilisateur est membre ne sont pas visibles.
+  Seul le modèle affecté à l’équipe d’accueil d’un utilisateur est visible par l’utilisateur. Les modèles attribués à d’autres équipes dans lesquelles un utilisateur est membre ne sont pas visibles.
 
 * **Groupe d’accueil**: Si la personne ne se voit pas attribuer un modèle de mise en page en tant qu’utilisateur individuel, en tant qu’utilisateur avec un rôle de travail Principal ou en tant que membre de l’équipe d’accueil, le modèle affecté à son groupe d’accueil s’affiche.
 
-   Seul le modèle affecté au groupe Accueil d’un utilisateur est visible par l’utilisateur. Les modèles affectés à l’un de leurs autres groupes ne sont pas visibles.
+  Seul le modèle affecté au groupe Accueil d’un utilisateur est visible par l’utilisateur. Les modèles affectés à l’un de leurs autres groupes ne sont pas visibles.
 
 ## Grand nombre d’utilisateurs affectés à un modèle de mise en page
 

@@ -6,9 +6,9 @@ description: Les rubriques de file d’attente fonctionnent conjointement avec l
 author: Alina
 feature: Work Management
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '891'
 ht-degree: 3%
 
 ---
@@ -119,7 +119,7 @@ Vous devez disposer des éléments suivants :
       <td>Sélectionnez les formulaires personnalisés à associer à la rubrique de la file d’attente. Vous devez créer des formulaires personnalisés pour les problèmes avant de pouvoir les associer aux rubriques de la file d’attente. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Approbation par défaut</td> 
+      <td role="rowheader"><strong>Approbation par défaut</strong></td> 
       <td> <p>Associez un processus d’approbation à cette rubrique de file d’attente. Seuls les processus d’approbation des problèmes sont visibles dans ce menu déroulant. Tous les problèmes envoyés à cette file d’attente seront associés à ce processus d’approbation. Votre administrateur Adobe Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer aux rubriques de la file d’attente. <span>Un utilisateur disposant d’un accès administratif aux processus de validation peut également créer des processus de validation spécifiques à un groupe.</span> Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les tâches</a>.<br></p> 
        <div> 
         <p>Important : Si le groupe du projet change, le processus d’approbation spécifique au groupe associé aux problèmes existants devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?</a>.</p> 
@@ -136,7 +136,7 @@ Vous devez disposer des éléments suivants :
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Route par défaut</strong> </td> 
-      <td>Indiquez la règle de routage que vous souhaitez associer à la rubrique de la file d’attente. Vous devez créer la règle de routage avant de pouvoir la joindre à une rubrique de file d’attente.</td> 
+      <td>Indiquez la règle de routage que vous souhaitez associer à la rubrique de la file d’attente. Vous devez créer la règle de routage avant de pouvoir la joindre à une rubrique de file d’attente. Pour plus d’informations, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Création de règles de routage</a> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Types de requêtes</strong> </td> 

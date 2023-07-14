@@ -5,9 +5,9 @@ title: Glossaire [!DNL Adobe Workfront] terminologie
 description: Le [!DNL Adobe Workfront] Le glossaire répertorie les termes fréquemment utilisés dans Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '19551'
+source-wordcount: '19720'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <ul>
    <li><strong>[!UICONTROL Coût budgété]</strong>: dans le panneau [!UICONTROL Business Case Summary]</li>
    <li><strong>Coût [!UICONTROL]</strong>: dans les zones [!UICONTROL Utilisation] lors de l’affichage des informations par [!UICONTROL Cost]</li>
-   <li><strong>[!UICONTROL Coût budgété du projet]</strong>: dans les listes et les rapports</li>
+   <li><strong>[!UICONTROL Coût du projet budgété]</strong>: dans les listes et les rapports</li>
    </ul>   
     <p>Le coût [!UICONTROL budgété] du projet est calculé à l’aide de la formule suivante :</p> 
     <p><code>[!UICONTROL Project Budgeted Cost] (or [!UICONTROL Budgeted Cost]) = [!UICONTROL Budgeted Expense Cost] + [!UICONTROL Budgeted Labor Cost] + [!UICONTROL Fixed Cost] of the project</code> </p> 
@@ -1663,7 +1663,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
    <td>Détails de l’état actuel d’un projet.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Coût budgété du projet]</td> 
+   <td>[!UICONTROL Coût du projet budgété]</td> 
    <td> <p> Il s’agit du [!UICONTROL Coût budgété] d’un projet tel qu’il s’affiche dans les listes et les rapports.</p><p>Voir aussi "[!UICONTROL Coût budgété]" dans cet article.</p></td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
@@ -2103,8 +2103,17 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Alignement stratégique]</td> 
    <td>Mesure et alignement des objectifs de l’entreprise entre les portefeuilles et les programmes.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>Elle est utilisée dans les colonnes du rapport lors de l’utilisation de l’interface Mode texte. </p>
+   <p>Le <code>[!UICONTROL stretch]</code> sert à identifier les colonnes qui occupent un espace supplémentaire dont la vue n’a pas besoin. La largeur de l’interface utilisateur de l’espace de travail d’un utilisateur type est d’environ 850 pixels. Cela signifie que si vous disposez d’une vue de quatre colonnes (150 pixels chacune), votre vue occupe 600 de 850 pixels. L’interface utilisateur contient 250 pixels supplémentaires qui seront ajoutés aux colonnes pour lesquelles un pourcentage d’étirement est fourni. </p>
+   <p>L’étirement d’une colonne est appliqué lorsque vous utilisez la ligne de code supplémentaire : <code>[!UICONTROL usewidths=true]</code> pour au moins une des colonnes de la vue. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Abonnés]</td> 
    <td> <p>Utilisateurs qui s’abonnent à des projets, des tâches ou des problèmes.</p> <p>Lorsque vous utilisez ce champ dans un rapport, une liste d'abonnés s'affiche, chaque abonné étant séparé par une virgule.</p> <p>Pour plus d’informations, voir l’article <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonnez-vous aux éléments dans [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2304,11 +2313,22 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
   <tr> 
    <td>[!UICONTROL Vues Cette Année]</td> 
    <td>Dans une liste de rapports, il affiche le nombre de fois où le rapport a été consulté au cours de cette année.<br>Pour plus d’informations sur l’utilisation dans les listes de rapports, reportez-vous à l’article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Affichage de l’utilisation des rapports</a>.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> Dans un rapport, lors de l’utilisation de l’interface [!UICONTROL Mode Texte], ligne de code dans laquelle vous pouvez spécifier la largeur de chaque colonne en pixels. Workfront fournit une largeur suggérée pour chaque champ. Cependant, selon le type de champ et le format, vous pouvez effectuer des ajustements.
+Vous devez utiliser la variable <code>[!UICONTROL usewidths=true]</code> ligne de code pour appliquer la largeur spécifiée pour la colonne. 
+  </td>
+
+</tr>
+
+<tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>Dans un rapport de projet, de tâche ou de problème, l’instruction suivante en mode texte affiche les heures planifiées du projet, de la tâche ou du problème :</p>
-   <p></p><p></p> 
+   <code><p>valuefield=work</p>
+   <p>valueformat=HTML</p></code> 
    <p>Pour plus d’informations sur l’utilisation du mode texte, voir <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Présentation de la syntaxe du mode texte</a>. </p> 
    <p><b>CONSEIL</b> 
    <p>Dans un rapport de problème, l’ajout de l’un des champs [!UICONTROL Heures planifiées] ajoute la valeur <code>work </code>au rapport. </p> </td> 
@@ -2396,7 +2416,10 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
    <td> <p>Dans un rapport de projet, de tâche ou de problème, l’instruction suivante en mode texte affiche le nombre d’heures planifiées du projet, de la tâche ou du problème, suivies du mot "Heures" :</p>
-   <p></p><p></p>
+   <code>
+   <p>valuefield=workRequiredExpression</p>
+   <p>valueformat=HTML</p>
+   </code>
     <p>Pour plus d’informations sur l’utilisation du mode texte, voir <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Présentation de la syntaxe du mode texte</a>. </p> </td> 
   </tr> 
  </tbody> 

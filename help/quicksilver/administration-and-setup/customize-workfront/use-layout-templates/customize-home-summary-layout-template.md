@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Vous pouvez utiliser un modèle de mise en page pour configurer ce que voient les utilisateurs lorsqu’ils cliquent sur une tâche ou un problème dans Accueil et dans le résumé. Chaque configuration que vous effectuez en suivant les étapes ci-dessous affecte de la même manière la zone Accueil et le panneau Résumé. Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '993'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,11 @@ Vous pouvez également personnaliser les champs affichés par les utilisateurs d
 
 Pour plus d’informations sur la zone d’accueil, voir [Utilisation de la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Pour plus d’informations sur le panneau Résumé, voir [Aperçu du résumé](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
+Pour plus d’informations sur la création de modèles de mise en page, voir [Création et gestion des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs pour que les modifications que vous avez apportées soient visibles par d’autres utilisateurs. Pour plus d’informations sur l’attribution d’un modèle de mise en page aux utilisateurs, voir [Affecter des utilisateurs à un modèle de mise en page](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Exigences d’accès
 

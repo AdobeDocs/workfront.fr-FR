@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: En tant qu’administrateur Adobe Workfront ou administrateur de groupe, vous pouvez utiliser un modèle de mise en page pour configurer les options que les utilisateurs voient lorsqu’ils ouvrent le menu principal dans Workfront.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '570'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,11 @@ En tant qu’administrateur Adobe Workfront ou administrateur de groupe, vous po
 >
 >Les options du menu principal que les utilisateurs voient dépendent de leur type de licence et des paramètres configurés à leur niveau d’accès. Certains utilisateurs qui utiliseront ce modèle de mise en page ne verront peut-être pas toutes les options que vous choisissez ici. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) et [Accès configurable à la fonctionnalité pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
+Pour plus d’informations sur la création de modèles de mise en page, voir [Création et gestion des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs pour que les modifications que vous avez apportées soient visibles par d’autres utilisateurs. Pour plus d’informations sur l’attribution d’un modèle de mise en page aux utilisateurs, voir [Affecter des utilisateurs à un modèle de mise en page](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Exigences d’accès
 
@@ -60,9 +64,9 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
    * Page d’accueil
 
-      >[!TIP]
-      >
-      >Par défaut, Accueil s’affiche comme Mes mises à jour pour les utilisateurs sous licence de révision, sauf s’ils disposent d’un modèle de mise en page associé à leur profil qui inclut la zone Mes mises à jour dans le menu principal.
+     >[!TIP]
+     >
+     >Par défaut, Accueil s’affiche comme Mes mises à jour pour les utilisateurs sous licence de révision, sauf s’ils disposent d’un modèle de mise en page associé à leur profil qui inclut la zone Mes mises à jour dans le menu principal.
 
    * Portefeuilles
    * Programmes
@@ -73,31 +77,31 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
    * Ressources
    * Scénarios
 
-      >[!NOTE]
-      >
-      >Le planificateur de scénario n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+     >[!NOTE]
+     >
+     >Le planificateur de scénario n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
    * Équipes
-   * Utilisateurs
+   * Utilisateurs et utilisatrices
 
-      >[!NOTE]
-      >
-      >Seuls les utilisateurs disposant d’une licence Plan peuvent afficher les utilisateurs ![](assets/users-icon-in-main-menu.png) dans le menu principal.
+     >[!NOTE]
+     >
+     >Seuls les utilisateurs disposant d’une licence Plan peuvent afficher les utilisateurs ![](assets/users-icon-in-main-menu.png) dans le menu principal.
 
    * Demandes
    * Feuilles de temps
    * Documents
    * Modèles
    * Analytique
-   * Relecture
+   * Vérification
    * Objectifs
 
-      >[!NOTE]
-      >
-      >Cela nécessite une licence supplémentaire. Pour plus d’informations sur les objectifs de Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >[!NOTE]
+     >
+     >Cela nécessite une licence supplémentaire. Pour plus d’informations sur les objectifs de Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mes mises à jour
-   * Tableaux
+   * Panoramas
    * Blueprints
 
 1. Effectuez l’une des opérations suivantes :

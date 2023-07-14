@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: En tant qu’administrateur d’Adobe Workfront, vous pouvez accorder un accès administratif pour un modèle de mise en page aux administrateurs de groupe d’un groupe particulier afin qu’ils puissent modifier le modèle. Cela n’affecte pas le modèle aux utilisateurs du groupe.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -61,6 +61,5 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >* Lorsqu’un administrateur de groupe crée un modèle de mise en page, l’attribution d’un accès administratif est obligatoire. Le modèle de mise en page est désigné pour et visible uniquement par le groupe spécifié. Pour plus d’informations, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). Pour plus d’informations sur les administrateurs de groupe, voir [Administrateurs de groupe](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
    >   
    >* Si vous n’accordez pas l’accès administratif aux administrateurs de groupe d’un groupe particulier, tous les utilisateurs pouvant modifier des comptes d’utilisateurs disposent d’un accès administratif au modèle de mise en page. Certains administrateurs de Workfront choisissent volontairement de ne pas accorder l’accès administratif à un modèle de mise en page afin de le transformer en modèle de mise en page de niveau système.
-
 
 1. Vous pouvez cliquer à tout moment sur Enregistrer pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.

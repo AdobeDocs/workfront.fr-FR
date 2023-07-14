@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: En tant qu’administrateur d’Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour modifier les libellés de certains objets qui s’affichent dans Workfront afin de correspondre aux termes utilisés dans votre entreprise.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '655'
 ht-degree: 3%
 
 ---
@@ -37,8 +37,11 @@ Après avoir enregistré un modèle de mise en page dans lequel vous avez modifi
 >* Vous pouvez rencontrer des problèmes de grammaire et d’autres problèmes lorsque vous personnalisez des étiquettes. Par exemple, si vous remplacez &quot;Problème&quot; par &quot;Requête&quot;, l’expression &quot;Une requête&quot; peut se trouver dans l’interface utilisateur. Pour plus d’informations, voir [Implications de la personnalisation des noms d’objet](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) dans l’article [Présentation des objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
+Pour plus d’informations sur les modèles de mise en page, voir [Création et gestion des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs pour que les modifications que vous avez apportées soient visibles par d’autres utilisateurs. Pour plus d’informations sur l’attribution d’un modèle de mise en page aux utilisateurs, voir [Affecter des utilisateurs à un modèle de mise en page](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Exigences d’accès
 
@@ -72,15 +75,15 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
    * Pour utiliser un autre terme fourni par Workfront, cliquez sur la flèche vers le bas  ![](assets/dropdown-arrow.png) en regard du libellé, cliquez sur l’autre libellé de votre choix dans la liste déroulante.
 
-      >[!NOTE]
-      >
-      >Les autres libellés fournis dans les listes déroulantes sont pris en charge dans les versions de Workfront localisées pour les langues autres que l’anglais.
+     >[!NOTE]
+     >
+     >Les autres libellés fournis dans les listes déroulantes sont pris en charge dans les versions de Workfront localisées pour les langues autres que l’anglais.
 
    * Pour fournir votre propre alternative personnalisée au libellé affiché pour un objet, cliquez sur **Définition d’un nom personnalisé** à droite du libellé, puis saisissez la valeur **Singular** et **Plural** formulaires du terme personnalisé. Vous pouvez cliquer sur **Réinitialiser** si vous changez d&#39;avis.
 
-      Vous pouvez personnaliser les noms d’objet suivants :
+     Vous pouvez personnaliser les noms d’objet suivants :
 
-      <table style="table-layout:auto">
+     <table style="table-layout:auto">
       <col>
       <col>
       <col>

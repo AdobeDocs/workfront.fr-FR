@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: La disposition par défaut correspond à la disposition du menu principal , du panneau de gauche, ainsi qu’aux vues, aux regroupements et aux filtres avant qu’un administrateur Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 14%

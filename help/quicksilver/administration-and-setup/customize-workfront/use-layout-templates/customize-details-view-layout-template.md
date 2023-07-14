@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: En tant qu’administrateur de Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur sélectionne la section Détails dans le panneau de gauche lors de l’affichage d’une tâche, d’un problème, d’un document, d’un programme ou d’un portfolio.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,39 @@ or billing record
 
 Vous pouvez également modifier l’ordre des informations dans lequel ces informations apparaissent. Par exemple, pour toutes les tâches que vos utilisateurs voient, vous pouvez déplacer les informations Forms personnalisées en haut de la vue Détails pour toutes les tâches que vos utilisateurs voient.
 
+Pour plus d’informations sur la création de modèles de mise en page, voir [Création et gestion des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
+
+Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs pour que les modifications que vous avez apportées soient visibles par d’autres utilisateurs. Pour plus d’informations sur l’attribution d’un modèle de mise en page aux utilisateurs, voir [Affecter des utilisateurs à un modèle de mise en page](../use-layout-templates/assign-users-to-layout-template.md).
+
 Les modifications apportées à la vue Détails d’un objet déterminent également la disponibilité et l’ordre des champs visibles par les utilisateurs dans les zones suivantes :
 
 * Boîtes &quot;Nouvel objet&quot;, telles que Nouvelle tâche et Nouveau problème
 
-   ![](assets/new-task-dialog.png)
+  ![](assets/new-task-dialog.png)
 
 * Écrans &quot;Modifier l’objet&quot;, tels que Modifier la tâche, Modifier le problème et Modifier le projet
 
-   ![](assets/edit-task-screen.png)
+  ![](assets/edit-task-screen.png)
 
 
 * Écrans &quot;Modifier des objets&quot; lors de l’édition d’objets en bloc. Actuellement, cette fonctionnalité est prise en charge pour la modification en masse de projets.
 
-   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * Résumé ![](assets/summary-panel-icon.png) pour obtenir la liste des tâches et des problèmes
 
-   ![](assets/summary-area.png)
+  ![](assets/summary-area.png)
 
-   >[!NOTE]
-   >
-   >Les modifications apportées aux modèles de mise en page affectent l’ordre et la disponibilité des champs du panneau Résumé uniquement pour les tâches et les problèmes affectés à l’utilisateur connecté.
+  >[!NOTE]
+  >
+  >Les modifications apportées aux modèles de mise en page affectent l’ordre et la disponibilité des champs du panneau Résumé uniquement pour les tâches et les problèmes affectés à l’utilisateur connecté.
 
 * Boîtes de conversion, telles que Convertir le problème en tâche ou Convertir le problème en zones de projet.
 
-   ![Convertir le problème en zone de tâche](assets/convert-issue-to-task-box.png)
+  ![Convertir le problème en zone de tâche](assets/convert-issue-to-task-box.png)
 
 Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -94,9 +100,9 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
    * Faites glisser des en-têtes de section ![](assets/move-icon---dots.png) pour modifier leur ordre.
    * Activez ou désactivez des options sous **Présentation** et **Forms personnalisée** pour les afficher ou les masquer.
 
-      Si vous masquez tous les champs de l’une de ces sections, la section entière est masquée.
+     Si vous masquez tous les champs de l’une de ces sections, la section entière est masquée.
 
-      Tous les champs sont activés par défaut.
+     Tous les champs sont activés par défaut.
 
 1. Continuez à personnaliser le modèle de mise en page.
 

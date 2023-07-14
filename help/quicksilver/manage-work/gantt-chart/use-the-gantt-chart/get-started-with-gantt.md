@@ -2,13 +2,13 @@
 content-type: overview
 navigation-topic: use-the-gantt-chart
 title: Prise en main de la fonction [!UICONTROL Gantt] Graphique
-description: Informations d’aperçu sur les graphiques de Gantt de projet et de tâche dans Adobe Workfront.
+description: Les graphiques de Gantt dans Adobe Workfront fournissent une représentation visuelle d’une liste de tâches ou de projets.
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '550'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ Bien qu’elles aient l’air et le sentiment d’être similaires, les fonction
 
 ## Accédez au [!UICONTROL Graphique Gantt]
 
-Le [!UICONTROL Gantt] Graphiques dans [!DNL Workfrontprovide] une représentation visuelle d’une liste de tâches ou de projets. Vous pouvez afficher la liste des tâches [!UICONTROL Graphique Gantt] directement depuis la liste des tâches d’un projet ou depuis un rapport de tâches. Vous pouvez afficher la liste des projets. [!UICONTROL Graphique Gantt] dans une liste de projets ou un rapport de projet.
+Le [!UICONTROL Gantt] Graphiques dans [!DNL Workfront]  fournissent une représentation visuelle d’une liste de tâches ou de projets. Vous pouvez afficher la liste des tâches [!UICONTROL Graphique Gantt] directement depuis la liste des tâches d’un projet ou depuis un rapport de tâches. Vous pouvez afficher la liste des projets. [!UICONTROL Graphique Gantt] dans une liste de projets ou un rapport de projet.
 
 * [Liste des tâches [!UICONTROL Graphique Gantt]](#task-list-gantt-chart)
 * [Liste des projets [!UICONTROL Graphique Gantt]](#project-list-gantt-chart)

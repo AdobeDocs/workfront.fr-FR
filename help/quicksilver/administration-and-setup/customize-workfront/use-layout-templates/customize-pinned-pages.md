@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Dans un modèle de mise en page, vous pouvez épingler les pages que vous souhaitez que les utilisateurs soient toujours disponibles dans la partie supérieure d’Adobe Workfront. Ces pages peuvent être accessibles via le menu principal ou les tableaux de bord.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Pour plus d’informations sur l’épinglage de pages, voir [Epingler des pages
 Pour plus d’informations sur les modèles de mise en page, voir [Création et gestion des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs pour que les modifications que vous avez apportées soient visibles par d’autres utilisateurs. Pour plus d’informations sur l’attribution d’un modèle de mise en page aux utilisateurs, voir [Affecter des utilisateurs à un modèle de mise en page](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Exigences d’accès
 
@@ -60,9 +62,9 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
    * Cliquez sur un élément Menu principal .
 
-      >[!IMPORTANT]
-      >
-      >La consultation des zones Scénarios et Objectifs nécessite des licences supplémentaires. Pour plus d’informations sur les objectifs de Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) ou pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+     >[!IMPORTANT]
+     >
+     >La consultation des zones Scénarios et Objectifs nécessite des licences supplémentaires. Pour plus d’informations sur les objectifs de Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) ou pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
    * Cliquez sur **Ajout d’un tableau de bord**, puis entrez un descriptif. **Titre de la section personnalisée** et ajoutez le tableau de bord.
 

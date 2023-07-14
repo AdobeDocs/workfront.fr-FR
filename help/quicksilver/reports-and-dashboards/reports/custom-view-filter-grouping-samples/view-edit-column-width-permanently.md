@@ -7,9 +7,9 @@ description: Vous pouvez temporairement modifier la largeur des colonnes en les 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 >[!IMPORTANT]
 >
 >Si vous modifiez manuellement la largeur d’une colonne comme décrit dans la section &quot;Modifier temporairement la largeur et l’ordre des colonnes&quot; de l’article [Modification de la largeur et de l’ordre des colonnes](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) une fois la largeur de la colonne modifiée de manière permanente, elle est conservée en fonction de votre redimensionnement manuel et la largeur de la colonne mise à jour selon les étapes suivantes est écrasée. Vous pouvez afficher la colonne en fonction de la largeur définie dans les étapes suivantes après avoir vidé le cache ou vous être connecté à partir d’un autre navigateur.
+>
+>Pour plus d’informations sur la personnalisation de la largeur des colonnes lors de l’utilisation de l’interface du mode Texte, voir les définitions &quot;largeur&quot; et &quot;étirement&quot; dans la section [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Accédez à une liste d’objets.
 1. Dans la **Affichage** menu déroulant, cliquez sur **Nouvelle vue**.
@@ -79,3 +81,5 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
    Pour le **width** ligne, spécifiez un nombre (en pixels) représentant la largeur de la colonne à afficher dans la vue.
 
 1. Cliquez sur **Enregistrer**, puis **Enregistrer la vue**.
+
+

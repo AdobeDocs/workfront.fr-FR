@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ddb8f39e3ef400b02b443230f237b6a563d99d5f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2597'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ Cet article décrit comment créer une file d’attente de requêtes à partir d
 ## Création d’une file d’attente de requête
 
 Lorsque vous configurez un projet en tant que file d’attente des demandes, l’état du projet doit être Actuel pour s’afficher dans la zone Demandes de Workfront.
+
+>[!TIP]
+>
+>L’administrateur de Workfront ou de groupe peut vous affecter à un modèle de mise en page personnalisé qui peut ne pas inclure certaines des sections décrites dans les étapes suivantes.
+
 
 Pour créer une file d’attente de requête :
 

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Modifier les tâches
-description: Modifier les tâches
+description: Vous pouvez modifier les informations sur les tâches que vous avez créées ou sur lesquelles vous disposez des autorisations de contribution ou de gestion.
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 9c7af82b02649f33728d05126587fb5035e9e110
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '3627'
+source-wordcount: '3663'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ Tenez compte des points suivants lors de la modification des tâches :
 * La mise à jour des tâches déclenche des notifications pour les projets dont l’état est En cours. Pour éviter toute confusion pour les utilisateurs affectés aux tâches, limitez autant que possible les tâches de modification lorsque le projet est à l’état En cours .
 * Vous ne pouvez pas modifier les tâches qui se trouvent dans un processus d’approbation. Vous pouvez uniquement consigner l’heure ou mettre à jour l’état d’une tâche dans un processus d’approbation.
 
-   ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * Vous pouvez modifier et ajouter des documents aux tâches d’un projet dont l’état est Terminé, Mort ou En attente d’approbation n’est activé que lorsque votre administrateur Workfront ou un administrateur de groupe a activé cette fonctionnalité dans la zone Préférences du projet. Pour plus d’informations sur la définition des préférences de projet, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -102,7 +102,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 1. Cliquez sur **Projets**, puis cliquez sur le nom d’un projet pour l’ouvrir.
 1. Cliquez sur **Tâches** dans le panneau de gauche.
 1. Cliquez sur la tâche à modifier.
-1. (Facultatif) Pour modifier des informations limitées sur une tâche, cliquez sur **Détails de la tâche** dans le panneau de gauche.
+1. (Conditionnel) Pour modifier des informations limitées sur une tâche, en tant qu’utilisateur avec les autorisations de contribution à la tâche, cliquez sur **Détails de la tâche** dans le panneau de gauche.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -110,20 +110,19 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 
    * **Vue d’ensemble**
 
-      Cette zone est développée par défaut.
+     Cette zone est développée par défaut.
 
    * **Formulaires personnalisés**
 
-      Les noms des formulaires douaniers s’affichent uniquement s’ils sont associés à des formulaires personnalisés.
+     Les noms des formulaires douaniers s’affichent uniquement s’ils sont associés à des formulaires personnalisés.
 
    * **Finances**
+
    >[!NOTE]
    >
    >Selon la manière dont votre administrateur Workfront ou votre administrateur de groupe a modifié votre modèle de mise en page, les champs de la zone Détails de la tâche peuvent être réorganisés ou non. Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Pour plus d’informations sur les champs visibles dans la section Détails de la tâche,
-
-   continuez à modifier la tâche dans la zone Modifier la tâche comme décrit ci-dessous.
+   Pour plus d’informations sur les champs visibles dans la section Détails de la tâche, continuez à modifier la tâche dans la zone Modifier la tâche comme décrit ci-dessous.
 
    Pour modifier les informations de la section Détails , procédez comme suit :
 
@@ -133,6 +132,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 
       * [Gestion des informations sur la tâche dans la zone Présentation des détails de la tâche](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Gérer les finances des tâches dans la section Détails de la tâche](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+
    1. (Facultatif) S’il n’existe aucun formulaire personnalisé associé à la tâche, commencez à saisir le nom d’un formulaire dans le champ **Ajouter un formulaire personnalisé** puis sélectionnez-la lorsqu’elle s’affiche dans la liste, puis cliquez sur **Enregistrer les modifications**.
    1. (Facultatif) Cliquez sur le **Exporter** icon ![](assets/export.png) pour exporter les informations d’aperçu et de formulaires personnalisés vers un fichier de PDF, cliquez sur **Exporter**. Sélectionnez l’une des options suivantes :
 
@@ -146,10 +146,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 
       Pour plus d’informations, voir [Exportation de formulaires personnalisés et de détails d’objet](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-
-
-
-1. Pour modifier toutes les informations relatives à la tâche, cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) en regard du nom de la tâche, puis cliquez sur **Modifier**.
+1. (Conditionnel) Pour modifier toutes les informations relatives à la tâche, en tant qu’utilisateur avec les autorisations Gérer pour la tâche, cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) en regard du nom de la tâche, puis cliquez sur **Modifier**.
 
    Ou
 
@@ -335,7 +332,6 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
    >* Réaffectez l’élément de travail aux principales ressources.
    >* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
 
-
 1. (Facultatif) Indiquez si une personne désignée est la personne désignée Principale sur la tâche, en sélectionnant **Propriétaire** bouton radio en regard de leur nom. Une équipe ne peut pas être la Principale personne désignée d’une tâche.
 1. (Conditionnel et facultatif) Mettez à jour les champs suivants :
 
@@ -402,7 +398,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
       </tr> 
       <tr> 
       <td>Semaines</td> 
-      <td>M</td> 
+      <td>S</td> 
       </tr> 
       <tr> 
       <td>Mois</td> 
@@ -609,9 +605,9 @@ Par défaut, les champs suivants sont inclus dans l’en-tête du projet :
 * Affectations
 * Date et heure d’achèvement prévues
 
-   >[!CAUTION]
-   >
-   >Certaines contraintes de tâche et d’autres dépendances peuvent vous empêcher de modifier ce champ. Pour plus d’informations sur les contraintes de tâche, voir [Présentation de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >[!CAUTION]
+  >
+  >Certaines contraintes de tâche et d’autres dépendances peuvent vous empêcher de modifier ce champ. Pour plus d’informations sur les contraintes de tâche, voir [Présentation de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Statut
 * Prenez des décisions d’approbation si vous êtes défini comme approbateur dans un processus d’approbation actuel.

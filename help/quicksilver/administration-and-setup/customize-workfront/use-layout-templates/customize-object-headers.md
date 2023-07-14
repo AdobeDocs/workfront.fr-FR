@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: En tant qu’administrateur Adobe Workfront ou administrateur de groupe , vous pouvez utiliser un modèle de mise en page pour configurer les champs que les utilisateurs voient dans l’en-tête de l’objet lorsqu’ils ouvrent la page d’un objet.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,13 @@ En tant qu’administrateur Adobe Workfront ou administrateur de groupe, vous po
 >
 >La personnalisation des en-têtes d’objet est actuellement disponible pour les projets, les tâches et les problèmes.
 
-
-Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
-
 ![](assets/object-header-fields.png)
+
+Pour plus d’informations sur la création de modèles de mise en page, voir [Création et gestion des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
+
+Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs pour que les modifications que vous avez apportées soient visibles par d’autres utilisateurs. Pour plus d’informations sur l’attribution d’un modèle de mise en page aux utilisateurs, voir [Affecter des utilisateurs à un modèle de mise en page](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Exigences d’accès
 
@@ -67,7 +70,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 1. Dans le [!UICONTROL Champs d’en-tête] , placez le pointeur de la souris sur les champs affichés, puis effectuez l’une des opérations suivantes :
    * Cliquez sur le bouton **x** icône pour supprimer un champ
 
-      Ou
+     Ou
 
    * Cliquez et maintenez la fonction **attraper** pour faire glisser et déposer le champ à un nouvel emplacement.
 
@@ -88,11 +91,10 @@ Si cinq champs sont déjà sélectionnés, vous devez en supprimer un avant d’
    >* Lorsque vous ajoutez le champ &quot;Résolu par&quot; à l’en-tête d’un problème, le champ devient &quot;Résoudre un problème, une tâche ou un projet&quot;, lorsqu’un objet de résolution est associé au problème.
 
 
-
    ![](assets/add-field-to-header-in-lt-list.png)
 
 
-1. (Facultatif) Faites glisser et déposez les champs ajoutés dans un autre ordre.
+1. (Facultatif) Faites glisser les champs ajoutés dans un autre ordre.
 
 1. Continuez à personnaliser le modèle de mise en page.
 

@@ -6,10 +6,10 @@ description: Le Type de durée d’une tâche identifie la relation entre le nom
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 3%
+source-wordcount: '341'
+ht-degree: 2%
 
 ---
 
@@ -48,14 +48,14 @@ Pour modifier le type de durée d’une tâche, vous devez disposer des élémen
 
 ## Mise à jour du type de durée d’une tâche
 
-Outre la mise à jour du type de durée d’une tâche, comme décrit dans cet article, vous pouvez également mettre à jour le type de durée lors de la modification d’une tâche ou lors d’affectations avancées. Pour plus d’informations, voir :
+Outre la mise à jour du type de durée d’une tâche, comme décrit dans cet article, vous pouvez également mettre à jour le type de durée lors de la modification d’une tâche ou lors d’affectations avancées. Pour plus d’informations, voir :
 
 * [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
 Pour mettre à jour le type de durée d’une tâche :
 
-1. Cliquez sur **Menu Principal** > **Projets**, puis cliquez sur un projet pour y accéder.
+1. Cliquez sur **Menu Principal** > **Projets**, puis cliquez sur un projet pour y accéder.
 1. Cliquez sur le bouton **Tâches** dans le panneau de gauche .
 1. Cliquez sur **Détails de la tâche** dans le panneau de gauche, puis, dans la zone Aperçu , cliquez sur **Type de durée**.
 
@@ -63,14 +63,11 @@ Pour mettre à jour le type de durée d’une tâche :
 
 1. Sélectionnez l’une des options suivantes :
 
-   | Calcul de travail | Pour plus d’informations, voir [Présentation du type de durée : Travail calculé](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Type de durée | Informations supplémentaires |
    |---|---|
+   | Calcul de travail | Pour plus d’informations, voir [Présentation du type de durée : Travail calculé](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
    | Piloté par l&#39;effort | Pour plus d’informations, voir [Présentation du type de durée : Effort piloté](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
    | Calcul d&#39;affectation | Pour plus d’informations, voir [Présentation du type de durée : Attribution calculée](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
    | Simple | Pour plus d’informations, voir [Présentation du type de durée : Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-   {style=&quot;table-layout:auto&quot;}
-
-1. Cliquez sur **Enregistrer** **Modifications**.
-
- 
+1. Cliquez sur **Enregistrer les modifications**.

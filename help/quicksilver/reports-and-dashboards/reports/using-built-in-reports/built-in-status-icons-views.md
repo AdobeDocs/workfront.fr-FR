@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Icônes d’état intégrées dans les vues
-description: Icônes d’état intégrées dans les vues
+description: Vous pouvez ajouter le champ Icônes d’état intégré en tant que colonne dans vos vues afin d’améliorer la visibilité sur les points clés de vos objets.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 2%
+source-wordcount: '1322'
+ht-degree: 3%
 
 ---
 
@@ -28,13 +28,20 @@ Vous pouvez ajouter le champ Icônes d’état intégré en tant que colonne dan
 * Une tâche est sur un chemin critique
 * Un utilisateur appartient à une entreprise, à une équipe ou se trouve dans un fuseau horaire différent.
 
-La plupart des indicateurs du champ Icônes d’état sont des liens rapides vers l’objet ou la zone de l’objet qu’ils représentent.
+Tenez compte des points suivants :
 
-Si l’un des éléments représentés par les icônes est absent de l’objet, l’icône représentant l’élément manquant apparaît sous forme de contour dans la colonne Icônes d’état au lieu d’une image complète.\
-![task_status_icons.png](assets/task-status-icons.png)\
-Pour plus d’informations, voir [Icônes et indicateurs d’état - Aperçu](#overview-of-status-icons-and-flags) dans cet article.\
-Dans certains cas, la variable **Icônes d’état** Le champ est nommé **Indicateurs** ou **Icônes d’affichage**.\
-Vous ne pouvez pas personnaliser l’aspect des icônes incluses dans le champ Icônes d’état .
+* La plupart des indicateurs du champ Icônes d’état sont des liens rapides vers l’objet ou la zone de l’objet qu’ils représentent.
+
+* Si l’un des éléments représentés par les icônes est absent de l’objet, l’icône représentant l’élément manquant apparaît grisée dans la colonne Icônes d’état au lieu d’une image colorée.
+
+  ![task_status_icons.png](assets/task-status-icons.png)
+
+  Pour plus d’informations, voir [Icônes et indicateurs d’état - Aperçu](#overview-of-status-icons-and-flags) dans cet article.
+
+* Dans certains cas, la variable **Icônes d’état** Le champ est nommé **Indicateurs** ou **Icônes d’affichage**.\
+  Vous ne pouvez pas personnaliser l’aspect des icônes incluses dans le champ Icônes d’état .
+
+* Vous ne pouvez pas modifier le nombre d’icônes dans le champ Icônes d’état .
 
 ## Exigences d’accès
 
@@ -86,9 +93,9 @@ Pour ajouter le champ Icônes d’état à une vue personnalisée entièrement c
    * Modèles
    * Frais
    * Documents
-   * Utilisateurs\
-      Seuls ces objets ont la propriété **Icônes d’état** champ disponible.\
-      Pour plus d’informations sur les listes d’objets, voir [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   * Utilisateurs et utilisatrices\
+     Seuls ces objets ont la propriété **Icônes d’état** champ disponible.\
+     Pour plus d’informations sur les listes d’objets, voir [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Dans la **Affichage** menu déroulant, sélectionnez **Nouvelle vue**.
 
@@ -240,50 +247,50 @@ Vous devez disposer des autorisations nécessaires pour au moins Afficher les ob
   <tr> 
    <td> <img src="assets/user-belongs-to-company-icon-44x44.png" alt="user_belongs_to_company_icon.png" style="width: 44;height: 44;"> </td> 
    <td>Indique que l’utilisateur est associé à une société. </td> 
-   <td>Utilisateurs</td> 
-   <td>Non disponible</td> 
+   <td>Utilisateurs et utilisatrices</td> 
+   <td>Indisponible</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/user-with-team-icon-40x48.png" alt="user_with_Team_icon.png" style="width: 40;height: 48;"> </td> 
    <td>Indique que l’utilisateur est associé à une équipe.</td> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td>Cliquez sur pour ouvrir le profil utilisateur.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/resource-grid-icon-44x46.png" alt="resource_grid_icon.png" style="width: 44;height: 46;"> </td> 
    <td>Raccourci vers l’onglet Affectation de l’utilisateur. </td> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td>Cliquez pour ouvrir l’onglet Affectation de l’utilisateur et découvrez les tâches qui lui sont affectées.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/screen-shot-2018-07-26-at-2.31.40-pm-44x40.png" alt="Screen_Shot_2018-07-26_at_2.31.40_PM.png" style="width: 44;height: 40;"> </td> 
    <td>Indique que l’utilisateur se trouve dans un fuseau horaire différent de celui du système.</td> 
-   <td>Utilisateurs</td> 
-   <td>Non disponible</td> 
+   <td>Utilisateurs et utilisatrices</td> 
+   <td>Indisponible</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/billable-expense-icon-44x45.png" alt="billable_dépense_icon.png" style="width: 44;height: 45;"> </td> 
    <td>Indique qu’une dépense est facturable.<br>Pour plus d’informations sur les dépenses, voir <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gestion des dépenses de projet </a>.</td> 
    <td>Frais</td> 
-   <td>Non disponible</td> 
+   <td>Indisponible</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="dépense_remboursable_icon.png" style="width: 44;height: 45;"> </td> 
    <td> Indique qu’une dépense est remboursable.<br>Pour plus d’informations sur les dépenses, voir <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gestion des dépenses de projet </a>.</td> 
    <td>Frais</td> 
-   <td>Non disponible</td> 
+   <td>Indisponible</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="discount_dépense_icon.png" style="width: 44;height: 43;"></td> 
    <td> Indique qu’une dépense a été remboursée.<br>Pour plus d’informations sur les dépenses, voir <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gestion des dépenses de projet </a>.</td> 
    <td>Frais</td> 
-   <td>Non disponible</td> 
+   <td>Indisponible</td> 
    <td> </td> 
   </tr> 
  </tbody> 
