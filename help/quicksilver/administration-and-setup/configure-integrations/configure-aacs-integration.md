@@ -5,7 +5,7 @@ title: Intégrations Adobe Experience Manager Assets
 description: Vous pouvez connecter votre travail avec les intégrations Adobe Experience Manager Assets suivantes.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manag
 * Suivi des métadonnées pour les ressources et les dossiers
 * Synchronisation des métadonnées de projet entre [!DNL Workfront] et [!DNL Experience Manager Assets]
 
-Vous pouvez également connecter plusieurs référentiels Experience Manager Assets à un environnement Workfront ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à l’échelle des ID d’organisation. Suivez les instructions de configuration de cet article pour chaque intégration que vous souhaitez configurer.
+>[!NOTE]
+>
+>Vous pouvez également connecter plusieurs référentiels Experience Manager Assets à un environnement Workfront ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à l’échelle des ID d’organisation. Suivez les instructions de configuration de cet article pour chaque intégration que vous souhaitez configurer.
 
 ## Exigences d’accès
 
@@ -165,7 +167,6 @@ Vous pouvez mapper des champs Workfront intégrés et personnalisés à Experien
 > * Configuration > Forms personnalisée dans Workfront ou le champ dans l’objet
 > * Ressources > schémas de métadonnées dans Experience Manager Assets
 
-
 +++
 
 ### Mappage des métadonnées des ressources
@@ -181,7 +182,6 @@ Pour mapper les métadonnées des ressources :
    >
    >Vous pouvez mapper une seule [!DNL Workfront] champ à plusieurs [!UICONTROL Experience Manager Assets] champs. Vous ne pouvez pas mapper plusieurs [!DNL Workfront] à un seul champ [!DNL Experience Manager Assets] champ .
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. Dans le [!DNL Experience Manager Assets] , recherchez dans les catégories prérenseignées ou saisissez au moins deux lettres dans le champ de recherche pour accéder à d’autres catégories.
 1. Répétez les étapes 2 et 3 si nécessaire.
