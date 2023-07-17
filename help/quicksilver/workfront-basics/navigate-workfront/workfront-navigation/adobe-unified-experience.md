@@ -6,9 +6,9 @@ description: Accès [!DNL Workfront] grâce à Adobe Experience Cloud, vous bén
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 8bf83e73706b5e994d091dc56d43a9f027b01fe8
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -86,3 +86,17 @@ Ce menu vous permet d’effectuer les opérations suivantes :
 * Définir **[!UICONTROL Préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences linguistiques Principales et secondaires.
 * Accédez à **[!UICONTROL [!DNL Workfront]Profil]**. Une fois que vous êtes sur le profil, cliquez sur le **[!UICONTROL Plus]** menu ![](assets/more-icon.png) et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Se déconnecter]** de Adobe Experience Cloud.
+
+## Gestion du mot de passe
+
+>[!NOTE]
+>
+>La modification de votre mot de passe la modifie pour l’ensemble de vos [!DNL Adobe Experience Cloud] applications.
+
+Votre mot de passe n’est pas géré dans [!DNL Workfront].
+
+Si votre entreprise utilise une application distincte pour gérer les mots de passe, vous changerez votre mot de passe par l’intermédiaire de ce fournisseur.
+
+Si votre mot de passe est géré par [!DNL Adobe], vous pouvez [modification du mot de passe dans votre compte Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}.
+
+Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur.

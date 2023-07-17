@@ -7,10 +7,10 @@ description: Adobe Workfront n’est pas conçu pour répliquer ou remplacer vos
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,6 @@ Les outils de gestion des ressources utilisent également votre temps de congé 
 >* [Création d’un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## Exigences d’accès
 
@@ -63,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Configuration du temps de connexion personnel [!DNL Workfront]
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur votre nom d’utilisateur en regard de votre image de profil.
+1. {#step1-click-profile-pic}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Time Off]**.
 1. Sélectionnez la date de votre jour de congé personnel.
@@ -71,4 +70,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Laissez cette option désélectionnée si vous prenez moins d’une journée de congé et indiquez les heures de début et de fin de votre congé.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.\
-   Votre heure de congé est maintenant visible dans les [!DNL Workfront] système dans les outils de planification tels que la grille de ressources. Lorsqu’une tâche vous est affectée pendant cette période, une info-bulle s’affiche pour informer l’utilisateur que vous avez programmé un congé.
+   Votre heure de congé est maintenant visible dans les [!DNL Workfront] système dans les outils de gestion des ressources tels que le planificateur de ressources et l’équilibreur de charge de travail. Lorsqu’une tâche vous est affectée pendant cette période, une info-bulle s’affiche pour informer l’utilisateur que vous avez programmé un congé.
