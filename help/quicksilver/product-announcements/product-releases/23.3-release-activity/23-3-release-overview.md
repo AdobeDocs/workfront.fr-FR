@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
+source-git-commit: 20aac191f6bca42610575384c398306e61f59780
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2759'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,17 @@ Le webinaire de la version 23.3 aura lieu le 29 juin 2023. Vous pouvez [Inscrive
 >
 >La version 23.3 comprend la possibilité de déplacer votre entreprise vers les versions mensuelles. Par conséquent, Workfront est en train de modifier le schéma de numérotation des versions afin de prendre en compte à la fois les mises à jour mensuelles et trimestrielles.
 >
->* Si vous utilisez la variable **version rapide (mensuelle)** track, la version après 23.3 sera **23,8**, en août 2023.
-> * Si vous utilisez la variable **trimestriel** suivi de publication, la version après 23.3 sera **23,10**, en octobre 2023.
+>* Si vous utilisez la variable **version rapide (mensuelle)** track, la version après 23.3 sera **23,8**, le 31 août 2023.
+> * Si vous utilisez la variable **trimestriel** suivi de publication, la version après 23.3 sera **23,10**, dans la semaine du 26 octobre 2023.
 > 
 > Les versions trimestrielles comprennent des fonctionnalités issues de trois versions mensuelles. Par exemple, la version trimestrielle 23.10 comprend des fonctionnalités publiées dans les versions mensuelles 23.8, 23.9 et 23.10.
 >
+>Les mises à jour mensuelles et trimestrielles sont prévues pour le dernier jeudi du mois.
+>
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>23.8 (août 2023)</li><li>23.9 (septembre 2023)</li><li>23.10 (octobre 2023)</li></ul> | <ul><li>23.10 (octobre 2023)</li></ul> |
+>| <ul><li>23.8 (31 août 2023)</li><li>23.9 (28 septembre 2023)</li><li>23.10 (26 octobre 2023)</li></ul> | <ul><li>23.10 (Semaine du 26 octobre 2023)</li></ul> |
 >| <ul><li>23.11 (novembre 2023)</li><li>23.12 (décembre 2023)</li><li>24.1 (janvier 2024)</li></ul> | <ul><li>24.1 (janvier 2024)</li></ul> |
->
->Les mises à jour mensuelles et trimestrielles sont prévues pour le dernier jeudi du mois.
 
 ## Améliorations apportées à Adobe Workfront
 
