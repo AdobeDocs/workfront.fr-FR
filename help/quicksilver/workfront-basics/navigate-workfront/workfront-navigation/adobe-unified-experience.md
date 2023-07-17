@@ -6,7 +6,7 @@ description: Accès [!DNL Workfront] grâce à Adobe Experience Cloud, vous bén
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: b6008546089a420e5bb487d2035b8d87782905c1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -99,6 +99,6 @@ Si votre entreprise utilise une application distincte pour gérer les mots de pa
 
 Si votre mot de passe est géré par [!DNL Adobe], vous pouvez modifier le mot de passe de votre compte Adobe.
 
-[Reportez-vous à cet article pour modifier votre mot de passe d’Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
+[Reportez-vous à cet article pour modifier votre mot de passe d’Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur.

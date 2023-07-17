@@ -6,9 +6,9 @@ description: Adobe Workfront envoie des notifications par courrier électronique
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1317'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 ## Notifications par e-mail
 
 [!DNL Workfront] envoie un certain nombre de notifications par e-mail afin d’alerter les utilisateurs sur l’activité dans Workfront et de fournir des informations et des liens utiles.
+
+Pour modifier les préférences de vos notifications par e-mail, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -68,7 +70,7 @@ Plusieurs éléments doivent être pris en compte lors de la réception de notif
 
 * Les notifications d’un email de résumé quotidien sont regroupées selon différents critères. Par exemple, dans le cas de **[!UICONTROL Informations sur les projets que je possède]**, les événements sont regroupés par nom de projet.
 
-   Pour le **[!UICONTROL Communication]** , les notifications sont regroupées par objet sur lequel la communication a eu lieu.
+  Pour le **[!UICONTROL Communication]** , les notifications sont regroupées par objet sur lequel la communication a eu lieu.
 
 * Le courrier électronique de résumé quotidien répertorie les événements qui se sont produits pour les actions dans un domaine particulier (comme **Informations sur les projets que je possède**) dans les 24 heures précédant le moment choisi pour la diffusion.
 * Le fuseau horaire de l’heure sélectionnée pour la diffusion condensée quotidienne correspond à votre fuseau horaire, tel qu’il est configuré sur votre navigateur.

@@ -7,7 +7,7 @@ description: Présentation du calcul des heures et de l’éditeur de texte enri
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
@@ -28,11 +28,11 @@ Pour plus d’informations sur le calcul des coûts dans le planificateur de res
 Les ensembles d’informations sur les ressources suivants sont calculés différemment dans le planificateur de ressources :
 
 * Les valeurs des heures disponibles ou de l’éditeur de texte enrichi sont calculées selon la manière dont votre administrateur système configure les préférences de gestion des ressources dans votre système.\
-   Pour plus d’informations sur le calcul des valeurs d’heures disponibles et d’éditeur de texte enrichi, voir [Calcul des heures disponibles ou de l’éditeur de texte enrichi pour les utilisateurs et les rôles de tâche dans le planificateur de ressources](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
-   Pour plus d’informations sur la définition des préférences de gestion des ressources pour le système Adobe Workfront, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Pour plus d’informations sur le calcul des valeurs d’heures disponibles et d’éditeur de texte enrichi, voir [Calcul des heures disponibles ou de l’éditeur de texte enrichi pour les utilisateurs et les rôles de tâche dans le planificateur de ressources](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
+  Pour plus d’informations sur la définition des préférences de gestion des ressources pour le système Adobe Workfront, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * Toutes les autres valeurs de l’éditeur de texte enrichi sont calculées selon la planification par défaut du système.\
-   Pour plus d’informations sur l’affichage de toutes les autres valeurs dans le planificateur de ressources lors de l’utilisation de l’éditeur de texte enrichi, voir la section [Calcul de toutes les autres valeurs d’heure et d’éditeur de texte enrichi pour les utilisateurs et les rôles de tâche dans le planificateur de ressources](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) dans cet article.
+  Pour plus d’informations sur l’affichage de toutes les autres valeurs dans le planificateur de ressources lors de l’utilisation de l’éditeur de texte enrichi, voir la section [Calcul de toutes les autres valeurs d’heure et d’éditeur de texte enrichi pour les utilisateurs et les rôles de tâche dans le planificateur de ressources](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) dans cet article.
 
 Il est important de comprendre ce qu’est l’éditeur de texte enrichi pour chacun de vos utilisateurs et leurs rôles professionnels afin de gérer précisément vos ressources au fur et à mesure que vous les affectez pour qu’elles fonctionnent.
 
@@ -100,7 +100,7 @@ Pour cet exemple, nous utilisons les chiffres suivants :
 
 * Une planification système par défaut de 40 heures
 * Planification de 20 heures pour l’utilisateur
-* Un éditeur de texte enrichi de 0,75.
+* Un éditeur de texte enrichi de 0,75
 
 | Méthode de calcul de l’éditeur de texte enrichi (paramètre système) | **Heures à partir de la planification de l’utilisateur** | **Heures à partir de la planification par défaut** | **Champ FTE utilisateur** | **Heures disponibles dans le planificateur de ressources** | **Éditeur de texte enrichi disponible dans le planificateur de ressources** |
 |---|---|---|---|---|---|
@@ -117,18 +117,16 @@ Outre les heures disponibles ou l’éditeur de texte enrichi, les informations 
 * Heures budgétées
 * Variance horaire
 * Heures nettes\
-   Pour plus d’informations sur ces valeurs, voir [Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+  Pour plus d’informations sur ces valeurs, voir [Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 * Différence horaire\
-   Pour plus d’informations sur ce que représente cette valeur, voir [Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+  Pour plus d’informations sur ce que représente cette valeur, voir [Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 Vous pouvez afficher les mêmes informations dans le planificateur de ressources sous forme d’éditeur de texte enrichi ou d’heures.
 
 Workfront utilise la formule suivante pour afficher toutes les autres valeurs sous forme d’éditeur de texte enrichi dans le planificateur de ressources :
 
-```
-FTE = Resource Planner Hours/ Default Schedule Hours
-```
+`FTE = Resource Planner Hours/ Default Schedule Hours`
 
 >[!NOTE]
 >
