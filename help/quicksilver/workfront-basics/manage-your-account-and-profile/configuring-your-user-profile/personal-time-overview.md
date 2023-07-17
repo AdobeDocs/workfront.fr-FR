@@ -7,10 +7,10 @@ description: Adobe Workfront n’est pas conçu pour répliquer ou remplacer vos
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -62,8 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Configuration du temps de connexion personnel [!DNL Workfront]
 
-1. {#step1-click-profile-pic}
-
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, cliquez sur votre nom d’utilisateur en regard de votre image de profil. Ou (le cas échéant), cliquez sur l’image de profil dans la zone de navigation supérieure, puis cliquez sur **[!UICONTROL Profil Workfront]**.
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Time Off]**.
 1. Sélectionnez la date de votre jour de congé personnel.
 1. Sélectionner **[!UICONTROL Toute la journée]**, si vous prenez une journée complète de congé.\
