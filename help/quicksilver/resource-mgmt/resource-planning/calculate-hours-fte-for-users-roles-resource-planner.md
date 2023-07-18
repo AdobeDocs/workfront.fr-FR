@@ -7,7 +7,7 @@ description: Présentation du calcul des heures et de l’éditeur de texte enri
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
+source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Pour cet exemple, nous utilisons les chiffres suivants :
 
 * Une planification système par défaut de 40 heures
 * Planification de 20 heures pour l’utilisateur
-* Un éditeur de texte enrichi de 0,75
+* Un éditeur de texte enrichi de 0.8
 
 | Méthode de calcul de l’éditeur de texte enrichi (paramètre système) | **Heures à partir de la planification de l’utilisateur** | **Heures à partir de la planification par défaut** | **Champ FTE utilisateur** | **Heures disponibles dans le planificateur de ressources** | **Éditeur de texte enrichi disponible dans le planificateur de ressources** |
 |---|---|---|---|---|---|
