@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Pour plus d’informations sur l’association des planifications avec des utili
 Les administrateurs de groupe peuvent également créer des planifications associées aux groupes qu’ils gèrent. Pour plus d’informations, voir [Création et modification des plannings d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
 Pour plus d’informations sur l’utilisation des plannings pour aider les utilisateurs à collaborer dans [!DNL Workfront] à travers les fuseaux horaires, voir [Utilisation des fuseaux horaires](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+
+Pour plus d’informations sur l’utilisation des plannings dans la planification des ressources, voir [Présentation des planifications](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) et [Présentation de Resource Planner](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Exigences d’accès
 

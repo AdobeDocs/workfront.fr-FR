@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Pour obtenir des informations générales sur la création et la modification d�
 >[!NOTE]
 >
 >Les administrateurs de groupe et les utilisateurs disposant d’une licence Plan qui peuvent modifier d’autres utilisateurs peuvent ajouter une planification au niveau du système ou du groupe à un autre utilisateur lorsqu’ils modifient son profil.
+
+Pour plus d’informations sur l’utilisation des plannings dans la planification des ressources, voir [Présentation des planifications](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) et [Présentation de Resource Planner](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Exigences d’accès
 

@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4912349cbbc74a6f7587312e83297169ecd52f51
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2421'
 ht-degree: 8%
 
 ---
@@ -125,9 +125,9 @@ Pour exporter un modèle de démarrage rapide :
       <td> <p> Membre d'équipe</p> <p>Équipe</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>Utilisateur</p> </td> 
+      <td> <p>Utilisateur ou utilisatrice</p> </td> 
       <td> <p>Exporte sous forme de fichier Excel. Pour afficher la liste complète des options, cliquez sur <strong>Plus d’options</strong>.</p> </td> 
-      <td> <p>Utilisateur</p> <p>Préférences</p> </td> 
+      <td> <p>Utilisateur ou utilisatrice</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
       <td>Niveau d’accès</td> 
@@ -298,6 +298,7 @@ Lorsque vous ouvrez l’un de ces onglets, la ligne 2 affiche les champs de chaq
 >  Toutefois, si un champ obligatoire contient une valeur par défaut définie dans les préférences du système, il n’est pas nécessaire de le renseigner.
 >
 >  Par exemple, sur la page **Projet PROJ** , **setCondition** et **setConditionType** Les champs peuvent être laissés vides, mais la variable **setGroupID** et **setName** ne le peuvent pas.
+>
 
 ### Importation d’un enregistrement  {#import-a-record}
 
@@ -310,16 +311,16 @@ Chaque ligne de la feuille correspond à un objet unique.
 
 1. Remplir la cellule dans le **ID** de l’une des manières suivantes :
 
-   * Si l’objet que vous importez est nouveau (et que vous avez tapé&#x200B;**TRUE** dans le **isNew** ), indiquez le numéro de l’ID. Ce nombre doit être unique dans la feuille de calcul.
+   * Si l’objet que vous importez est nouveau (et que vous avez tapé **TRUE** dans le **isNew** ), indiquez le numéro de l’ID. Ce nombre doit être unique dans la feuille de calcul.
 
-   * Si l’objet que vous importez existe déjà dans le système Workfront (et que vous avez tapé&#x200B;**FALSE** dans le **isNew** ), l’ID doit être le GUID alphanumérique existant dans Workfront pour cet objet.
+   * Si l’objet que vous importez existe déjà dans le système Workfront (et que vous avez tapé **FALSE** dans le **isNew** ), l’ID doit être le GUID alphanumérique existant dans Workfront pour cet objet.
 
-      **Exemple :** Pour un projet, la valeur affichée dans la variable **setGroupID** doit correspondre à l’un des éléments suivants :
+     **Exemple :** Pour un projet, la valeur affichée dans la variable **setGroupID** doit correspondre à l’un des éléments suivants :
 
       * GUID d’un groupe existant dans votre instance Workfront
       * La valeur (nombre) dans la colonne ID de la variable **Groupe** feuille si vous créez un groupe au cours de l’importation
 
-         ![](assets/verysimplekickstartprojectimport-350x31.png)
+        ![Exemple d’identifiant pour un groupe](assets/kick-start-group-example.png)
 
 1. Valeurs de saisie des champs obligatoires et des autres champs que vous souhaitez renseigner lors de l&#39;import.
 1. (Facultatif) Pour ajouter des données personnalisées :
@@ -329,7 +330,7 @@ Chaque ligne de la feuille correspond à un objet unique.
    * Dans la colonne **setCategoryID**, saisissez le GUID du formulaire personnalisé existant sur lequel réside ce champ personnalisé. Ce champ est obligatoire lors de l’import de données personnalisées.
    * Si vous devez ajouter plusieurs valeurs de données dans un champ personnalisé (comme des boutons radio, des cases à cocher ou des listes), utilisez le délimiteur de données personnalisé de barre verticale &quot;|&quot; répertorié dans l’onglet Préférences pour séparer les valeurs.
 
-      **Exemple :** Saisissez A|D sous la colonne DE:Department pour renseigner les départements A et D dans votre formulaire personnalisé.
+     **Exemple :** Saisissez A|D sous la colonne DE:Department pour renseigner les départements A et D dans votre formulaire personnalisé.
 
 ### Inclure des dates  {#include-dates}
 
@@ -393,33 +394,33 @@ Bien qu’il soit recommandé d’utiliser les identifiants chaque fois que cela
 
 * **(importation de projet)**
 
-   Lors de l’importation de projets, définissez la variable **setGroupID** des projets en accédant à la **Groupe** , notez les ID de groupe respectifs et collez-les dans les cellules appropriées (**setGroupID** ) sur le **Projet PROJ** feuille.
+  Lors de l’importation de projets, définissez la variable **setGroupID** des projets en accédant à la **Groupe** , notez les ID de groupe respectifs et collez-les dans les cellules appropriées (**setGroupID** ) sur le **Projet PROJ** feuille.
 
-   Cela est possible lorsque vous travaillez uniquement avec quelques groupes et projets, mais si vous travaillez avec plusieurs d’entre eux, ce n’est pas pratique.
+  Cela est possible lorsque vous travaillez uniquement avec quelques groupes et projets, mais si vous travaillez avec plusieurs d’entre eux, ce n’est pas pratique.
 
-   Pour effectuer la substitution du nom d’attribut pour l’exemple décrit ci-dessus, vous modifiez la variable **setGroupID** en-tête de colonne à **#setGroupID GROUP****name**. Vous pouvez ensuite référencer le groupe de chaque projet par nom.
+  Pour effectuer la substitution du nom d’attribut pour l’exemple décrit ci-dessus, vous modifiez la variable **setGroupID** en-tête de colonne à **#setGroupID GROUP****name**. Vous pouvez ensuite référencer le groupe de chaque projet par nom.
 
-   >[!NOTE]
-   >
-   >L’option permettant d’utiliser la substitution de nom d’attribut est limitée aux références pour les enregistrements existants uniquement. Vous ne pouvez pas utiliser la substitution de nom pour les objets que vous créez dans le même import.
+  >[!NOTE]
+  >
+  >L’option permettant d’utiliser la substitution de nom d’attribut est limitée aux références pour les enregistrements existants uniquement. Vous ne pouvez pas utiliser la substitution de nom pour les objets que vous créez dans le même import.
 
 * **(importation utilisateur)**
 
-   Lors de l’importation d’utilisateurs, renseignez la variable **setRoleID** à partir d’une liste de rôles sur la **Rôle DU RÔLE** .
+  Lors de l’importation d’utilisateurs, renseignez la variable **setRoleID** à partir d’une liste de rôles sur la **Rôle DU RÔLE** .
 
-   Certains ID de rôle concernent des enregistrements déjà présents dans le compte, tandis que d’autres sont créés lors de l’importation.
+  Certains ID de rôle concernent des enregistrements déjà présents dans le compte, tandis que d’autres sont créés lors de l’importation.
 
-   Pour les nouveaux enregistrements d’utilisateur affectés aux rôles existants, vous pouvez utiliser la substitution de nom. Pour les nouveaux enregistrements d’utilisateur affectés aux rôles nouvellement importés, vous ne pouvez pas.
+  Pour les nouveaux enregistrements d’utilisateur affectés aux rôles existants, vous pouvez utiliser la substitution de nom. Pour les nouveaux enregistrements d’utilisateur affectés aux rôles nouvellement importés, vous ne pouvez pas.
 
-   Voici comment utiliser les deux méthodes sur le même fichier d’importation :
+  Voici comment utiliser les deux méthodes sur le même fichier d’importation :
 
    * Ajoutez une colonne dans la feuille de calcul située à gauche du **setRoleID** colonne .
    * Nommer la nouvelle colonne **#setRoleID ROLE name**.
    * Pour les affectations de rôle aux enregistrements existants, saisissez les noms de rôle dans la variable **#setRoleID ROLE name** colonne .
 
-      Pour les affectations de rôles aux nouveaux enregistrements de rôle, saisissez l’ID que vous avez affecté dans la feuille Rôle du RÔLE dans setRoleID.
+     Pour les affectations de rôles aux nouveaux enregistrements de rôle, saisissez l’ID que vous avez affecté dans la feuille Rôle du RÔLE dans setRoleID.
 
-      ![](assets/setroleid-350x66.png)
+     ![Identifiant de rôle pour les utilisateurs](assets/set-role-id.png)
 
 ## Importation des données de feuille de calcul dans Workfront
 
@@ -431,9 +432,9 @@ L’importation de démarrage rapide prend en charge les types de fichiers suiva
 * Excel hérité (&#42;.xls)
 * Zipped (&#42;ZIP) fichier xlsx ou xls
 
-   >[!NOTE]
-   >
-   >Vous devez utiliser un fichier ZIP lors de l’importation des classeurs Excel qui font référence aux rapports, documents, avatars ou aux fichiers de propriétés de vue, de filtre ou de groupe. Lors de l’utilisation d’un fichier d’importation compressé, la variable &#42;Le fichier ZIP doit porter le même nom que le fichier &#42;.xlsx ou &#42;fichier .xls et tous les contenus doivent se trouver au même niveau de structure de fichiers (pas de dossiers).
+  >[!NOTE]
+  >
+  >Vous devez utiliser un fichier ZIP lors de l’importation des classeurs Excel qui font référence aux rapports, documents, avatars ou aux fichiers de propriétés de vue, de filtre ou de groupe. Lors de l’utilisation d’un fichier d’importation compressé, la variable &#42;Le fichier ZIP doit porter le même nom que le fichier &#42;.xlsx ou &#42;fichier .xls et tous les contenus doivent se trouver au même niveau de structure de fichiers (pas de dossiers).
 
 
 Pour importer les données de feuille de calcul du modèle dans Workfront :
