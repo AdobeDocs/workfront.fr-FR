@@ -7,7 +7,7 @@ description: Présentation du calcul des heures et de l’éditeur de texte enri
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -68,21 +68,22 @@ Selon la configuration de ce paramètre, la disponibilité des utilisateurs dans
      Pour plus d’informations sur les planifications, y compris la planification par défaut, voir [Création d’un planning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * Le **ETR disponible** pour l’utilisateur dans le planificateur de ressources est identique à l’éditeur de texte enrichi spécifié dans les paramètres utilisateur.
-Par exemple, si l’éditeur de texte enrichi de l’utilisateur est 0.5 dans les paramètres utilisateur, l’éditeur de texte enrichi disponible de l’utilisateur est 0.5 dans le planificateur de ressources. Pour plus d’informations sur la valeur de l’éditeur de texte enrichi tel qu’il s’affiche dans les paramètres utilisateur, voir [Modification du profil d’un utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+     Par exemple, si l’éditeur de texte enrichi de l’utilisateur est 0.5 dans les paramètres utilisateur, l’éditeur de texte enrichi disponible de l’utilisateur est 0.5 dans le planificateur de ressources. Pour plus d’informations sur la valeur de l’éditeur de texte enrichi tel qu’il s’affiche dans les paramètres utilisateur, voir [Modification du profil d’un utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Planification de l’utilisateur**: Le planning de l’utilisateur est utilisé pour déterminer la disponibilité de l’utilisateur dans le planificateur de ressources. La valeur de l’utilisateur FTE est ignorée. Dans ce cas :
 
    * Le **Heures disponibles** dans le planificateur de ressources, les heures sont identiques à celles du planning de l’utilisateur.
 
-  Par exemple, si le planning de l’utilisateur dispose de 40 heures de travail par semaine, l’utilisateur peut travailler 40 heures par semaine dans le planificateur de ressources.
+     Par exemple, si le planning de l’utilisateur dispose de 40 heures de travail par semaine, l’utilisateur peut travailler 40 heures par semaine dans le planificateur de ressources.
 
    * Le **ETR disponible** dans le planificateur de ressources est calculé par la formule suivante :
 
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-  Par exemple, si le planning de l’utilisateur dispose de 20 heures de travail et que le planning par défaut dans Workfront dispose de 40 heures de travail, l’éditeur de texte enrichi de l’utilisateur est de 0,5.
+     Par exemple, si le planning de l’utilisateur dispose de 20 heures de travail et que le planning par défaut dans Workfront dispose de 40 heures de travail, l’éditeur de texte enrichi de l’utilisateur est de 0,5.
 
-  Pour plus d’informations sur les planifications, y compris la planification par défaut, voir [Création d’un planning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Pour plus d’informations sur les planifications, y compris la planification par défaut, voir [Création d’un planning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
