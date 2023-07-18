@@ -3,9 +3,9 @@ title: 23.3 Améliorations de l’intégration
 description: 23.3 Améliorations de l’intégration
 author: Lisa
 feature: Product Announcements
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 75e035bcdf75501e34fd9de57dd6eab85d9e5542
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,17 @@ Pour plus d’informations, voir [Affichage et gestion [!DNL Adobe Workfront] no
 
 Pour plus d’informations sur l’installation des modules externes Workfront for Creative Cloud, voir [Installation du module externe Adobe Workfront pour les applications Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
-## Expérience améliorée lors du déplacement d’un document vers un dossier lié à l’aide du glisser-déposer
+<!--
 
-Nous avons ajouté une certaine transparence au processus de glisser-déposer d’un document dans un dossier lié. Désormais, le document que vous avez déplacé vers un dossier lié reste dans la liste des documents jusqu’à ce qu’il ait été complètement déplacé. Les options du document sont désactivées, mais vous pouvez toujours ouvrir le document pour l’afficher pendant son déplacement. Une fois le transfert terminé, le document disparaît de la liste des documents, car il se trouve désormais entièrement dans le dossier lié.
+## Improved experience when moving a document to a linked folder with drag and drop
 
-Auparavant, les documents disparaissaient immédiatement de la liste des documents avant d’être déplacés vers le dossier lié.
+We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.
 
-Pour plus d’informations, voir [Liaison de documents à partir d’applications externes](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Previously, documents would immediately disappear from the document list, before they had finished moving to the linked folder.
+
+For more information, see [Link documents from external applications](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+-->
 
 ## Création automatique de dossiers liés à Adobe Experience Manager Assets lors de la création d’un projet
 
