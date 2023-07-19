@@ -7,10 +7,10 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 >Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
-> * Problèmes, <span class="preview">projets, tâches et documents</span>.
+> * Problèmes, projets, tâches et documents.
 >
 >     Cette option est disponible lorsque vous activez l’expérience bêta de commentaire.
 >
@@ -115,13 +115,13 @@ Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jou
      <li>Cartes dans la zone Panoramas*</li>
       Il s’agit de la seule expérience pour les objectifs et les cartes.
      </li> 
-     <li><span class="preview">Projets</span></li>
+     <li>Projets</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>Événements</li> 
-     <li><span class="preview">Tâches</span></li>
-     <li><span class="preview">Documents</span></li>
+     <li>Tâches</li>
+     <li>Documents</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jou
 
 >[!NOTE]
 >
->Lors de l’activation de la nouvelle expérience de commentaires bêta, les commentaires s’affichent sur les objets de rang supérieur suivants :
+>Lors de l’activation de la nouvelle expérience de commentaire, les commentaires s’affichent sur les objets de rang supérieur suivants :
 >
 >* Événements
->* <span class="preview">Projets</span>
->* <span class="preview">Tâches</span>
+>* Projets
+>* Tâches
 >
 >Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../.
 
 Tout commentaire fait au nom d’un autre utilisateur est indiqué sur le commentaire.
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">Lors de l’utilisation de la nouvelle expérience de commentaire, le commentaire est ajouté en tant qu’utilisateur connecté en tant qu’autre utilisateur et rien n’indique qu’il ajoute un commentaire pour le compte d’une autre personne.
+>Lors de l’utilisation de la nouvelle expérience de commentaire, le commentaire est ajouté en tant qu’utilisateur connecté en tant qu’autre utilisateur et rien n’indique qu’il ajoute un commentaire pour le compte d’une autre personne.
 >
->Par exemple, si un administrateur Workfront se connecte en tant qu’autre utilisateur, l’utilisateur associé au commentaire est l’administrateur Workfront. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>Par exemple, si un administrateur Workfront se connecte en tant qu’autre utilisateur, l’utilisateur associé au commentaire est l’administrateur Workfront. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 Un administrateur de groupe peut commenter au nom d’une autre personne, mais ne peut pas supprimer ce commentaire. Seul un administrateur Adobe Workfront peut supprimer un commentaire qu’il a fait au nom d’un autre utilisateur.

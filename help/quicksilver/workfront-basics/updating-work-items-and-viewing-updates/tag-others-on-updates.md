@@ -6,9 +6,9 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
-> * Problèmes, <span class="preview" style="display-inline">projets, tâches et documents</span>.
+> * Problèmes, projets, tâches et documents.
 >
 >     Cette option est disponible lorsque vous activez l’expérience bêta de commentaire.
 >
@@ -138,16 +138,16 @@ Vous pouvez baliser manuellement les utilisateurs dans la section Mises à jour 
 
 Vous pouvez baliser d’autres utilisateurs sur les mises à jour de la nouvelle expérience de commentaires en procédant comme suit :
 
-* <span class="preview"> **Automatiquement**: Lorsqu’un utilisateur ajoute un commentaire ou une réponse, il est automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire. </span>
+* **Automatiquement**: Lorsqu’un utilisateur ajoute un commentaire ou une réponse, il est automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire.
 * **Manuellement**: Lorsque vous ajoutez manuellement un utilisateur à la zone Baliser les personnes de la zone de commentaire.
 
 Vous pouvez également supprimer les utilisateurs balisés par erreur lorsque vous modifiez ou répondez à un commentaire.
 
-1. Commencez à mettre à jour un élément de travail, comme décrit dans la section [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">En tant que propriétaire de commentaire, vous êtes automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire. </span>
+1. Commencez à mettre à jour un élément de travail, comme décrit dans la section [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). En tant que propriétaire de commentaire, vous êtes automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire.
 
    >[!TIP]
    >
-   ><span class="preview">Le propriétaire du commentaire ne peut pas voir son propre nom dans la zone Baliser les personnes ou les équipes de la zone de commentaire.</span>
+   >Le propriétaire du commentaire ne peut pas voir son propre nom dans la zone Baliser les personnes ou les équipes de la zone de commentaire.
 
 1. Dans le **Balisage de personnes ou d’équipes** , commencez à saisir le nom de l’utilisateur ou de l’équipe que vous souhaitez inclure, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 

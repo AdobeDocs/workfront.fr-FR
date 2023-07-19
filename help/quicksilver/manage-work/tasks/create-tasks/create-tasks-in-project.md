@@ -6,7 +6,7 @@ description: Vous ne pouvez créer des tâches dans un projet qu’après avoir 
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -127,14 +127,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       * Nom de la tâche
       * Vue d’ensemble
       * Affectations
-      * Forms personnalisée
+      * Formulaires personnalisés
       * Finances
       * Paramètres
 
-         Pour plus d’informations sur la définition de tous les champs liés à une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+        Pour plus d’informations sur la définition de tous les champs liés à une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
    1. (Conditionnel et facultatif) Si vous souhaitez que la tâche soit récurrente, mettez à jour la variable **Fréquence de périodicité** champ . Pour plus d’informations sur la création de tâches récurrentes, voir [Créer des tâches récurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Facultatif) Cliquez sur **Documents** dans le panneau de gauche pour joindre un document à la nouvelle tâche, puis cliquez sur **Ajouter ou lier des fichiers** pour ajouter un document à la tâche à partir de votre ordinateur, d’un autre service ou pour lier des documents et des dossiers à partir de votre ordinateur ou d’un autre service.
-
 
 1. (Conditionnel) Si vous avez cliqué sur **Ajout de tâches** à l’étape 5, commencez à saisir les informations de la tâche en les éditant en ligne, puis appuyez sur Entrée.
 
@@ -150,13 +150,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Si vous avez cliqué **Nouvelle tâche** à l’étape 5, cliquez sur **Créer une tâche** pour enregistrer vos modifications et ajouter la nouvelle tâche à votre projet.
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
      -->
 
    * Si vous avez cliqué **Ajout de tâches** à l’étape 5, procédez comme suit :
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
      -->
 

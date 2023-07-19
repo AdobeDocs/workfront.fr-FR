@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 # Connexion en tant qu’autre utilisateur
 
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les utilisateurs uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
+
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -147,11 +148,13 @@ Lorsque vous vous connectez à Workfront en tant qu’autre utilisateur et exéc
 
 Par exemple, si vous commentez un élément lors de votre connexion en tant qu’autre utilisateur, une instruction indique que vous avez fait ce commentaire pour le compte de l’utilisateur.
 
+<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+
 >[!NOTE]
 >
-><span class="preview">Lors de l’utilisation de la nouvelle expérience de commentaire, le commentaire est ajouté en tant qu’utilisateur connecté en tant qu’autre utilisateur et rien n’indique qu’il ajoute un commentaire pour le compte d’une autre personne.
+>Lors de l’utilisation de la nouvelle expérience de commentaire, le commentaire est ajouté en tant qu’utilisateur connecté en tant qu’autre utilisateur et rien n’indique qu’il ajoute un commentaire pour le compte d’une autre personne.
 >
->Par exemple, si un administrateur Workfront se connecte en tant qu’autre utilisateur, l’utilisateur associé au commentaire est l’administrateur Workfront. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>Par exemple, si un administrateur Workfront se connecte en tant qu’autre utilisateur, l’utilisateur associé au commentaire est l’administrateur Workfront. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ### Affichage des informations d’audit {#view-audit-information}

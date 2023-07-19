@@ -6,9 +6,9 @@ description: Vous pouvez consigner le temps passé sur les tâches dans&nbsp;Ado
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Vous pouvez consigner le temps passé sur les tâches dans Adobe Workfront afin d’indiquer le nombre d’heures passées à les traiter. Vous pouvez également consigner le temps qui n’est pas lié au travail, comme les vacances, le temps de maladie ou le temps que vous passez en réunion. L’heure de connexion s’affiche dans votre feuille de temps.
 
@@ -361,13 +361,13 @@ Vous pouvez consigner l’heure spécifique d’un projet, d’une tâche ou d�
 
 #### Met à jour la section{#updates-section}
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below when the -->
 
 >[!NOTE]
 >
-> Vous pouvez consigner l’heure des problèmes, <span class="preview">projets et tâches</span> lors de l’activation de la nouvelle expérience de commentaire bêta dans la section Mises à jour .
+> Il existe de légères différences d’aspect de l’interface utilisateur entre la section actuelle et la nouvelle section Mises à jour. Les informations de cette section font référence aux fonctionnalités telles qu’elles s’affichent dans la nouvelle expérience de commentaire.
 >
->Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Pour plus d’informations sur la nouvelle section Mises à jour, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Pour vous connecter à la section Mises à jour d’un projet, d’une tâche ou d’un problème, vous devez disposer des éléments suivants :
 
@@ -383,9 +383,9 @@ Pour consigner l’heure dans la section Mises à jour d’un projet, d’une t�
 
 1. Accédez à un projet, à une tâche ou à un problème.
 1. Dans le panneau de gauche, sélectionnez **Mises à jour**.
-1. Cliquez sur **Temps journal**.
+1. Cliquez sur **Temps journal**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">La boîte de dialogue Durée de journalisation s’affiche. </span>
+   La boîte de dialogue Durée de journalisation s’affiche.
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Pour consigner l’heure dans la section Mises à jour d’un projet, d’une t�
    >   
    >   Le nombre d’heures incluses dans une journée indique, dans le coin supérieur droit de la zone Enter Days.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Indiquez les informations suivantes :
 

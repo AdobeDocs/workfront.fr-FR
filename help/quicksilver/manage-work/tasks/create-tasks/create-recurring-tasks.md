@@ -6,9 +6,9 @@ description: Vous pouvez créer des tâches récurrentes pour les tâches que vo
 author: Alina
 feature: Work Management
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Cliquez sur **Plus d’options** puis saisissez un nom pour la tâche dans la **Nom de la tâche** champ .
-1. Continuez à mettre la tâche à jour comme vous le feriez si vous ajoutiez une nouvelle tâche. Pour plus d’informations sur l’ajout d’une nouvelle tâche, voir [Création de tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+1. Continuez à mettre la tâche à jour comme vous le feriez si vous ajoutiez une nouvelle tâche. Pour plus d’informations sur l’ajout d’une nouvelle tâche, voir [Création de tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+   >[!TIP]
+   >
+   >   La Durée et les Heures planifiées indiquées pour une nouvelle tâche récurrente sont la Durée et les Heures planifiées de chaque périodicité. La Durée de la tâche parent est l’heure entre la Date de début planifiée de la première tâche et la Date de fin planifiée de la dernière tâche. Les Heures planifiées de la tâche parent sont le total de toutes les Heures planifiées de toutes les récurrences.
+
 1. Cliquez sur **Présentation** dans le panneau de gauche.
 1. Faites défiler l’écran vers le bas jusqu’à **Planning de périodicité** , puis sélectionnez l’option **En faire une tâche récurrente** .
 
    ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
-1. Dans le **Fréquence** dans la liste déroulante, sélectionnez le nombre d’unités de temps au moment où vous souhaitez que la tâche se produise et le type d’unités de temps. Sélectionnez l’une des options suivantes :
+1. Dans le **Fréquence** dans la liste déroulante, sélectionnez le nombre d’unités de temps au moment où vous souhaitez que la tâche se produise et le type d’unités de temps. Sélectionnez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,4 +131,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!IMPORTANT]
    >
-   >La modification de la périodicité parente après modification individuelle des enfants peut entraîner des informations différentes entre les enfants ou entre les enfants et le parent. Pour plus d’informations, voir [Présentation des tâches récurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   >La modification de la périodicité parente après modification individuelle des enfants peut entraîner des informations différentes entre les enfants ou entre les enfants et le parent. Pour plus d’informations, voir [Présentation des tâches récurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

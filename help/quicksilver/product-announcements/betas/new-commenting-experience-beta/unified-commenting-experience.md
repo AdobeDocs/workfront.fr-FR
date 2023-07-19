@@ -7,16 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
 
 # Nouvelle expérience de commentaire
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets.
 
@@ -74,9 +74,9 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 >
 >Vous pouvez afficher les commentaires et les mises à jour système sur ces objets avant juin 2022 lors de l’affichage de la section Mises à jour de l’expérience actuelle :
 >* Événements
->* <span class="preview">Projets</span>
->* <span class="preview">Tâches</span>
->* <span class="preview">Documents</span>
+>* Projets
+>* Tâches
+>* Documents
 
 Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la nouvelle expérience de commentaire, ainsi que leur disponibilité dans les zones où elles sont prises en charge :
 
@@ -159,7 +159,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -215,7 +215,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -231,7 +231,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -330,7 +330,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -372,7 +372,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -491,7 +491,7 @@ La nouvelle expérience de commentaire est actuellement prise en charge pour les
 
 * Lors de l’activation de l’expérience bêta dans la section Mises à jour :
 
-   * Problèmes, <span class="preview">projets, tâches et documents</span>
+   * Problèmes, projets, tâches et documents
 
   Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

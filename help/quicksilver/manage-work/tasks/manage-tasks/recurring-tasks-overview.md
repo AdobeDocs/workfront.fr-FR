@@ -8,10 +8,10 @@ description: Présentation des tâches récurrentes
 author: Alina
 feature: Work Management
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 3%
+source-wordcount: '679'
+ht-degree: 2%
 
 ---
 
@@ -43,14 +43,14 @@ Tenez compte des points suivants lors de la création de tâches récurrentes da
 * Vous ne pouvez pas ajouter une fréquence de périodicité à une tâche existante.
 * Les tâches récurrentes apparaissent en tant que sous-tâches ou enfants pour l’occurrence principale qui apparaît en tant que tâche parente.
 * Vous ne pouvez pas joindre de validation à une tâche récurrente parent.
-* Workfront transfère la plupart des champs que vous mettez à jour pour la périodicité parent lors de sa création vers les tâches enfants. Les champs suivants ne sont pas transférés vers les tâches enfants lors de leur création :
+* Workfront transfère la plupart des champs que vous mettez à jour pour la périodicité parent lors de sa création vers les tâches enfants. Les champs suivants ne sont pas transférés vers les tâches enfants lors de leur création :
 
    * La contrainte de tâche des tâches enfants se transforme automatiquement en :
 
       * Doit démarrer sur pour les projets planifiés à partir de la date de début.
       * Doit être terminé le pour les projets planifiés à partir de la date d’achèvement.
-   * Les documents joints au parent ne sont pas transférés aux enfants.
 
+   * Les documents joints au parent ne sont pas transférés aux enfants.
 
 * Les modifications suivantes se produisent sur la tâche parent une fois que vous avez indiqué que la tâche est récurrente :
 
@@ -60,6 +60,7 @@ Tenez compte des points suivants lors de la création de tâches récurrentes da
 
       * Simple
       * Piloté par l&#39;effort
+* La Durée et les Heures planifiées indiquées pour une nouvelle tâche récurrente sont la Durée et les Heures planifiées de chaque périodicité. La Durée de la tâche parent est l’heure entre la Date de début planifiée de la première tâche et la Date de fin planifiée de la dernière tâche. Les Heures planifiées de la tâche parent sont le total de toutes les Heures planifiées de toutes les récurrences.
 
 ## Observations relatives à la modification des tâches récurrentes
 
@@ -89,7 +90,7 @@ Le tableau suivant indique si les modifications apportées au déclencheur paren
 | Type de durée | Ne met pas à jour les enfants |
 | Informations sur les formulaires personnalisés | Ne met pas à jour les enfants |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Les scénarios suivants existent lorsque vous mettez à jour la Fréquence de périodicité d’une tâche parent :
 

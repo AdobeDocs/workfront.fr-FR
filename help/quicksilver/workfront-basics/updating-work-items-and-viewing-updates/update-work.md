@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3471'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible pour tous les clients uniquement dans l’environnement Aperçu .</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
-> * Problèmes, <span class="preview">projets, tâches et documents</span>.
+> * Problèmes, projets, tâches et documents.
 >
 >     Cette option est disponible lorsque vous activez l’expérience bêta de commentaire.
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
 
   >[!TIP]
   >
-  >   <span class="preview">Dans la nouvelle expérience de commentaires, les propriétaires de commentaires sont automatiquement balisés. Pour plus d’informations, voir [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  >   Dans la nouvelle expérience de commentaires, les propriétaires de commentaires sont automatiquement balisés. Pour plus d’informations, voir [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
   <!--take the "in the new commenting experience" out when this is the only experience-->
 
 * Vous pouvez ajouter un commentaire à un objet que vous pouvez afficher ou vous connecter en tant qu’administrateur Workfront ou de groupe et ajouter un commentaire au nom d’un autre utilisateur. Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
@@ -69,7 +69,7 @@ Les informations de cette page vous expliquent comment ajouter des commentaires 
 
 Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md). Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront.
 
-Pour plus d’informations sur l’insertion de commentaires sur les cartes dans la zone Panoramas, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+Pour plus d’informations sur les commentaires sur les cartes dans la zone Panoramas, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Exigences d’accès
 
@@ -174,7 +174,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Statut</strong></td> 
-      <td>Cliquez sur la flèche en regard de l’état actuel, puis sélectionnez l’état de votre choix dans le menu déroulant. Pour plus d’informations sur la définition d’un état, voir <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Mettre à jour le statut des tâches</a>.<p>La mise à jour de l’état d’un élément de travail ne modifie pas automatiquement l’état d’un projet. Selon la configuration de votre projet, vous devrez peut-être apporter des mises à jour distinctes de son état. Pour plus d’informations sur les différents types de mise à jour de projet, voir <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Sélectionnez le type de mise à jour du projet. </a>.</p><p><b>NOTE</b>
+      <td>Cliquez sur la flèche en regard de l’état actuel, puis sélectionnez l’état de votre choix dans le menu déroulant. Pour plus d’informations sur la définition d’un état, voir <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Mettre à jour le statut des tâches</a>.<p>La mise à jour de l’état d’un élément de travail ne modifie pas automatiquement l’état d’un projet. Selon la configuration de votre projet, vous pouvez mettre à jour séparément l’état du projet. Pour plus d’informations sur les différents types de mise à jour de projet, voir <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Sélectionnez le type de mise à jour du projet. </a>.</p><p><b>NOTE</b>
 
    Vous ne pouvez pas modifier l’état d’un élément de travail lorsqu’il est dans un état d’approbation en attente.</p></td>
    </tr> 
@@ -212,7 +212,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
 Le **Commentaires** est sélectionné par défaut.
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -238,7 +238,7 @@ Le **Commentaires** est sélectionné par défaut.
    >
    >Si un autre utilisateur envoie un commentaire au même élément que celui que vous mettez à jour, une ligne rouge s’affiche avec un indicateur &quot;Nouveau&quot; pour vous informer des commentaires les plus récents.
    >
-   >L’indicateur ne s’affiche qu’après l’envoi du commentaire sur l’élément, et non lorsque le commentaire est toujours composé.
+   >L’indicateur s’affiche uniquement après l’envoi du commentaire sur l’élément, et non lorsque le commentaire est toujours composé.
    >
    >L’indicateur &quot;Nouveau&quot; s’affiche uniquement lorsque l’utilisateur qui a saisi une nouvelle mise à jour, ainsi que celui qui a saisi une mise à jour, utilisent tous deux la nouvelle expérience de commentaire.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
@@ -478,8 +478,8 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 
 >[!NOTE]
 >
->Il n’est pas possible de désactiver les mises à jour système lors de l’utilisation de l’expérience de commentaire bêta.
->Les informations de cette section se rapportent uniquement aux fonctionnalités disponibles dans la section Mises à jour en cours.
+>Il n’est pas possible de désactiver les mises à jour système lors de l’utilisation de la nouvelle expérience de commentaire.
+>Les informations de cette section se rapportent uniquement aux fonctionnalités disponibles dans la section Mises à jour actuelles.
 >Pour plus d’informations sur les mises à jour système de la version bêta, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

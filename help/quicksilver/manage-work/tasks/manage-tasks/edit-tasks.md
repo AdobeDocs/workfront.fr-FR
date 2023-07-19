@@ -6,9 +6,9 @@ description: Vous pouvez modifier les informations sur les tâches que vous avez
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Durée par occurrence</td> 
-      <td> <p>Cette option s’affiche uniquement sur le parent des tâches récurrentes. Il affiche la durée de chaque tâche récurrente. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>. </p> <p> <b>NOTE</b>
+      <td> <p>Cette option s’affiche uniquement sur le parent des tâches récurrentes. Il affiche la durée de chaque tâche récurrente, telle que définie lors de la création de la tâche. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>. </p> <p> <b>NOTE</b>
 
    Les durées modifiées dans des tâches récurrentes individuelles n’affichent pas la valeur indiquée dans ce champ. </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
    </tr> 
    <tr> 
    <td role="rowheader">Heures prévues</td> 
-   <td> <p>Indiquez le nombre d’heures planifiées de la tâche, en heures. Il s’agit du temps réel nécessaire aux personnes désignées de la tâche pour l’exécuter. Vous ne pouvez spécifier le nombre d’heures planifiées pour une tâche que lorsque le type de durée est défini sur Attribution calculée. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Présentation de la durée et du type de durée de la tâche</a>.</p> </td> 
+   <td> <p>Indiquez le nombre d’heures planifiées de la tâche, en heures. Il s’agit du temps réel nécessaire aux personnes désignées de la tâche pour l’exécuter. Vous ne pouvez spécifier le nombre d’heures planifiées pour une tâche que lorsque le type de durée est défini sur Attribution calculée. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Présentation de la durée et du type de durée de la tâche</a>.</p> 
+   <b>NOTE</b>
+   <p>
+   Lors de la création de tâches récurrentes, les Heures planifiées sont celles de chaque occurrence. Les Heures planifiées des tâches parentes sont le total de toutes les Heures planifiées de toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Allocation</td> 
