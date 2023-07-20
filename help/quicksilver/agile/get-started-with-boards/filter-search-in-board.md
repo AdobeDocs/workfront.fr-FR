@@ -6,7 +6,7 @@ description: Vous pouvez filtrer un panorama pour n’afficher que certaines car
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Filtrage et recherche dans un panorama
-
-{{highlighted-preview}}
 
 Vous pouvez filtrer un panorama pour afficher les éléments suivants :
 
@@ -26,7 +24,7 @@ Vous pouvez filtrer un panorama pour afficher les éléments suivants :
 * Cartes archivées
 * Cartes connectées à un projet spécifique
 
-<span class="preview">Le tri du panorama trie toutes les cartes des colonnes. Vous ne pouvez pas trier une seule colonne, et la colonne de journal ou d’entrée n’est pas triée.</span>
+Le tri du panorama trie toutes les cartes des colonnes. Vous ne pouvez pas trier une seule colonne, et la colonne de journal ou d’entrée n’est pas triée.
 
 La recherche vous permet également de localiser une carte spécifique sur le panorama.
 
@@ -110,8 +108,6 @@ Par défaut, seules les principales cartes sont affichées sur un panorama. Vous
 
    ![Filtrage par connexion](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## Tri sur un panorama
 
 Lorsque vous sélectionnez une option de tri, toutes les colonnes sont triées. Vous ne pouvez pas trier une seule colonne, et la colonne de journal ou d’entrée n’est pas triée.
@@ -130,8 +126,6 @@ Lorsque vous sélectionnez une option de tri, toutes les colonnes sont triées. 
    Lorsqu’un tri autre que le tri par défaut est appliqué, un indicateur s’affiche sur l’icône de tri. ![Tri appliqué](assets/sort-applied-boards.png).
 
    ![Tri par colonnes sur un panorama](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## Recherche dans un panorama
 

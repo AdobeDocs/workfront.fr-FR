@@ -6,9 +6,9 @@ description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
+source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,11 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>Cliquez sur dans le <strong>[!UICONTROL Nouveau commentaire]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme, puis cliquez sur le bouton <strong>Ajouter une pièce jointe</strong> icon <img src="assets/attachment-icon.png" alt="Icône Pièce jointe"> pour joindre un fichier au commentaire. Pour baliser une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama.</p><p><strong>REMARQUE :</strong> Actuellement, les utilisateurs balisés dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par courrier électronique.
       </p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
-      <p><strong>REMARQUE :</strong> La zone de commentaire sur les cartes utilise la nouvelle expérience de commentaire d’Adobe Workfront. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p><p><strong>REMARQUE :</strong> Les commentaires sur les cartes sont disponibles uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.</p></td>
+      <p><strong>REMARQUE :</strong> La zone de commentaire sur les cartes utilise la nouvelle expérience de commentaire d’Adobe Workfront. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Exemple d’image dans l’environnement de production lorsque l’opt-in de la fonctionnalité anticipée n’est pas utilisé :
-   ![Détails des cartes ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
-
-   Exemple d’image dans l’environnement de production lorsque l’inclusion anticipée des fonctionnalités est activée :
    ![Détails des cartes ad hoc](assets/ad-hoc-card-details-with-comments.png)
 
    Utilisez le panneau de navigation de gauche pour vous déplacer entre les sections des champs des détails de la carte.

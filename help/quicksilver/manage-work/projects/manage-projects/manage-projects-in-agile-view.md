@@ -6,16 +6,14 @@ description: Plans requis, types de licence et accès à l’équipe de planific
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # Gestion d’un projet en mode Agile
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 >[!NOTE]
 >
-><span class="preview">Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
+>Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.
 
 * [Fonctionnalité agile dans un projet](#agile-functionality-in-a-project)
 * [Différences entre l’utilisation de la vue Agile d’un projet et celle d’une itération](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Pour plus d’informations sur la personnalisation d’une vue agile, voir [Cré
 ## Affichage d’un projet en mode Agile
 
 1. Accédez au projet que vous souhaitez afficher dans une vue agile.
-1. Cliquez sur le bouton **Agile** icon ![Icône Agile](assets/agile-icon-nwe.png).
+1. Cliquez sur le bouton **Panorama** icon ![Icône Panorama](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">Ou</span>
-
-   <span class="preview">Cliquez sur le bouton **Panorama** icon ![Icône Panorama](assets/board-icon-for-agile-view.png).</span>
-
-   Le projet s’affiche dans la vue agile par défaut.
-
-   <span class="preview">Dans l’environnement Aperçu , la vue Panorama s’affiche par défaut.</span>
+   Le panorama du projet s’affiche par défaut.
 
    ![Vue du panorama du projet](assets/project-agile-board-view.png)
 
-   (Vue agile héritée uniquement) Si vous avez précédemment affiché le projet dans une vue agile personnalisée, le projet s’affiche dans cette vue plutôt que dans la vue agile par défaut.
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">(Facultatif) Cliquez sur **Configurer** pour définir les options des colonnes et des cartes.</span>
+1. (Facultatif) Cliquez sur **Configurer** pour définir les options des colonnes et des cartes.
 
-   <span class="preview">Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) et [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Notez que vous ne pouvez pas définir de stratégies de colonne dans le mode Panorama d’un projet.</span>
+   Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) et [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Notez que vous ne pouvez pas définir de stratégies de colonne dans le mode Panorama d’un projet.
 
-1. <span class="preview">(Facultatif) Cliquez sur **Utiliser la version agile héritée** pour utiliser la vue agile héritée au lieu de la vue panoramique.</span>
+1. (Facultatif) Cliquez sur **Utiliser la version agile héritée** pour utiliser la vue agile héritée au lieu de la vue panoramique.
 
 1. (Facultatif - vue agile héritée uniquement) Si vous avez créé une vue agile personnalisée, ou si un autre utilisateur a créé une vue agile personnalisée et l’a partagée avec vous, vous pouvez l’afficher à la place de la vue agile par défaut.
 
@@ -200,14 +192,13 @@ Pour plus d’informations sur la personnalisation d’une vue agile, voir [Cré
 
    Pour ajouter des états à la vue agile, créez une vue agile ou personnalisez une vue agile existante, comme décrit dans la section &quot;Créer ou personnaliser une vue agile&quot; de l’article. [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Facultatif) Pour revenir au mode Liste, cliquez sur le bouton **Liste** icône .\
-   ![Icône Liste](assets/list-icon.png)
+1. (Facultatif) Pour revenir au mode Liste, cliquez sur le bouton **Liste** icône .
 
 ## Créer et personnaliser des vues Agile {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
+>Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.
 
 Comme pour les vues standard dans Workfront, vous pouvez personnaliser les vues agiles existantes ou créer de nouvelles vues agiles à partir de zéro. Contrairement aux vues standard, vous ne pouvez pas créer de vues agiles basées sur des vues agiles existantes.
 
@@ -217,7 +208,7 @@ Pour plus d’informations sur la création et la personnalisation des vues agil
 
 >[!NOTE]
 >
-><span class="preview">Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
+>Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.
 
 Pour plus d’informations sur le partage d’une vue agile, voir [Partage d’un filtre, d’une vue ou d’un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Pour plus d’informations sur le partage d’une vue agile, voir [Partage d’u
 
 >[!NOTE]
 >
-><span class="preview">Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
+>Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.
 
 Pour plus d’informations sur la suppression d’une vue, voir la section &quot;Supprimer une vue&quot; de l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

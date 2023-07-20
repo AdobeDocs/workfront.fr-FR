@@ -6,16 +6,14 @@ description: Vous pouvez personnaliser le type d’informations que vous affiche
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 1%
 
 ---
 
 # Création ou modification de vues dans Adobe Workfront
-
-{{highlighted-preview}}
 
 Vous pouvez personnaliser le type d’informations que vous affichez à l’écran à l’aide de vues. Vous pouvez utiliser plusieurs types de vues dans Adobe Workfront.
 
@@ -150,16 +148,12 @@ Pour plus d’informations sur les vues Agile, voir l’article [Gestion d’un 
 
 >[!NOTE]
 >
-><span class="preview">Cette procédure s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.</span>
+>Cette procédure s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.
 
 Pour créer ou personnaliser une vue Agile :
 
 1. Accédez à la liste des tâches d’un projet.
-1. Cliquez sur le bouton **Agile Storboard** icon ![Icône Agile Storyboard](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Cliquez sur le bouton **Panorama** icon ![Icône Panorama](assets/board-icon-for-agile-view.png), puis cliquez sur **Utiliser la version agile héritée** sur le panorama.</span>
+1. Cliquez sur le bouton **Panorama** icon ![Icône Panorama](assets/board-icon-for-agile-view.png), puis cliquez sur **Utiliser la version agile héritée** sur le panorama.
 
 1. (Conditionnel) Pour personnaliser une vue Agile existante :
 
@@ -255,4 +249,4 @@ Pour créer ou personnaliser une vue Agile :
 1. Cliquer sur **Enregistrer**.\
    Votre accès détermine le mode d’enregistrement de la vue. Si vous avez créé la vue d’origine, vous pouvez enregistrer les modifications ; dans le cas contraire, vous êtes invité à enregistrer une version. Gardez à l’esprit que les modifications que vous apportez à la vue affectent les utilisateurs avec lesquels la vue a été partagée.
 
-1. (Facultatif) Cliquez sur le **Mode Liste** icon ![](assets/list-view-in-agile-view-for-tasks.png) pour revenir à la liste des tâches.
+1. (Facultatif) Cliquez sur le **Liste** pour revenir à la liste des tâches.

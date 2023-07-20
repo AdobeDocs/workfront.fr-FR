@@ -6,9 +6,9 @@ title: Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] Pan
 description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Boards] inscription anticipée aux fonctionnalités.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   </tr>
   <tr>
    <td>Définition des notifications électroniques pour les panoramas</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Migration de cartes Kanban héritées vers des panoramas</td>
@@ -166,19 +166,19 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   </tr>
   <tr>
    <td>Création de panoramas dynamiques</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Utilisation de la navigation à gauche sur les détails de la carte</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Utiliser des filtres simplifiés sur la colonne d'entrée</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Utilisation de commentaires sur les cartes ad hoc et connectées</td>
-   <td>Partiellement publiée</td>
+   <td>Publié</td>
   </tr>
  </tbody> 
 </table>
