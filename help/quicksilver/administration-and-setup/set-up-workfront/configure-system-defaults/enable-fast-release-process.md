@@ -7,7 +7,7 @@ description: Vous pouvez indiquer si vous souhaitez recevoir de nouvelles foncti
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Activation ou désactivation de versions rapides pour votre entreprise
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront dispose de deux modèles pour la publication de nouvelles fonctionnalités et mises à jour. Vous pouvez choisir de recevoir les nouvelles fonctionnalités sur une base trimestrielle ou selon un calendrier de publication plus rapide.
 
