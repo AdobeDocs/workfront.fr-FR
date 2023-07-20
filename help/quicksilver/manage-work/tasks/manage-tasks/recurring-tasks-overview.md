@@ -6,12 +6,13 @@ navigation-topic: manage-tasks
 title: Présentation des tâches récurrentes
 description: Présentation des tâches récurrentes
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -60,11 +61,11 @@ Tenez compte des points suivants lors de la création de tâches récurrentes da
 
       * Simple
       * Piloté par l&#39;effort
-* La Durée et les Heures planifiées indiquées pour une nouvelle tâche récurrente sont la Durée et les Heures planifiées de chaque périodicité. La Durée de la tâche parent est l’heure entre la Date de début planifiée de la première tâche et la Date de fin planifiée de la dernière tâche. Les Heures planifiées de la tâche parent sont le total de toutes les Heures planifiées de toutes les récurrences.
+* La Durée et les Heures planifiées indiquées pour une nouvelle tâche récurrente sont la Durée et les Heures planifiées de chaque occurrence. La Durée de la tâche parent est l’heure entre la Date de début planifiée de la première tâche et la Date de fin planifiée de la dernière tâche. Les Heures planifiées de la tâche parent sont le total de toutes les Heures planifiées de toutes les occurrences.
 
 ## Observations relatives à la modification des tâches récurrentes
 
-Certaines modifications que vous apportez à un parent de tâche récurrente peuvent ne pas être mises à jour sur toutes les récurrences existantes. Les tâches enfants qui affichent la progression ou qui ont été mises à jour individuellement ne sont pas mises à jour lorsque vous mettez à jour le parent. Workfront considère qu’une tâche affiche des progrès dans les situations suivantes :
+Certaines modifications que vous apportez à un parent de tâche récurrente peuvent ne pas être mises à jour sur toutes les occurrences existantes. Les tâches enfants qui affichent la progression ou qui ont été mises à jour individuellement ne sont pas mises à jour lorsque vous mettez à jour le parent. Workfront considère qu’une tâche affiche des progrès dans les situations suivantes :
 
 * L’état est mis à jour et la tâche n’est plus nouvelle.
 * Le pourcentage d’achèvement de la tâche est supérieur à zéro
@@ -75,14 +76,14 @@ Le tableau suivant indique si les modifications apportées au déclencheur paren
 | Champs mis à jour sur la tâche parent | Mises à jour du transfert vers les enfants non modifiés ou les enfants sans progression enregistrés |
 |---|---|
 | Fréquence de récurrence* | ✔ |
-| Affectations&#42;&#42; | ✔ |
+| Affectations | ✔ |
 | Nom | ✔ |
 | Description | ✔ |
 | Priorité | ✔ |
 | Durée | ✔ |
 | Heures prévues | ✔ |
 | Type de coût | ✔ |
-| Type de revenu | ✔ |
+| Type de revenus | ✔ |
 | Nivellement des ressources | ✔ |
 | Délai de nivellement | ✔ |
 | Contrainte de tâche | Ne met pas à jour les enfants |

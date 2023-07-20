@@ -6,8 +6,9 @@ title: Bouton Travail dessus et bouton Terminé - Aperçu
 description: Lorsque vous êtes affecté à une tâche ou à un problème, vous pouvez utiliser un bouton contextuel qui change de nom et de fonction en fonction de votre implication dans l’élément de travail.
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -26,19 +27,19 @@ Selon la zone de Workfront à partir de laquelle vous accédez à votre tâche o
 
 * Lorsque la tâche ou le problème vous est assigné pour la première fois et que l’état est Nouveau, le bouton s’affiche sous la forme Travail dessus.
 
-   ![](assets/nwe-work-on-it-button.png)
+  ![](assets/nwe-work-on-it-button.png)
 
-   >[!TIP]
-   >
-   >Vous pouvez remplacer le bouton Travailler dessus par un bouton Démarrer . Pour plus d’informations sur le remplacement du bouton Travailler dessus par un bouton Démarrer , voir  [Remplacez le bouton Travailler dessus par un bouton Démarrer](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >[!TIP]
+  >
+  >Vous pouvez remplacer le bouton Travailler dessus par un bouton Démarrer . Pour plus d’informations sur le remplacement du bouton Travailler dessus par un bouton Démarrer , voir  [Remplacez le bouton Travailler dessus par un bouton Démarrer](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
 * Une fois que vous avez cliqué sur l’option Travailler dessus, le bouton devient Marquer comme terminé ou Terminé , en fonction de l’endroit où vous accédez à la tâche ou du problème dans Workfront. Pour plus d’informations sur l’emplacement où vous pouvez accéder au bouton Travailler dessus, reportez-vous à la section [Bouton Travailler dessus et Terminer](#locate-the-work-on-it-and-done-button) dans cet article.
 
-   ![](assets/nwe-mark-as-done-button-350x122.png)
+  ![](assets/nwe-mark-as-done-button-350x122.png)
 
 * Si vous n’êtes pas le seul à être affecté à la tâche ou au problème et que vous accédez à votre tâche à partir de la liste de tâches dans la zone Accueil, le bouton passe à Terminé avec ma partie.
 
-   ![](assets/home-left-done-with-my-part-button-350x184.png)
+  ![](assets/home-left-done-with-my-part-button-350x184.png)
 
 ## Bouton Travailler dessus et Terminer {#locate-the-work-on-it-and-done-button}
 
@@ -46,15 +47,15 @@ Vous pouvez localiser le bouton Travailler dessus et Terminé dans les zones sui
 
 * La zone Accueil, à la fois dans la liste de travail et dans le panneau Détails
 
-   Pour plus d’informations sur le marquage d’un élément comme terminé dans la zone Accueil, voir [Marquez un élément comme Terminé dans la zone Accueil](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
+  Pour plus d’informations sur le marquage d’un élément comme terminé dans la zone Accueil, voir [Marquez un élément comme Terminé dans la zone Accueil](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
 * Dans l’en-tête de la tâche ou du problème
 
-   Pour plus d’informations sur les en-têtes d’objet, voir [Nouveaux en-têtes d’objet](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+  Pour plus d’informations sur les en-têtes d’objet, voir [Nouveaux en-têtes d’objet](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 * Dans le panneau Résumé de la tâche ou du problème dans une liste ou dans l’équilibreur de charge de travail
 
-   Pour plus d’informations sur l’utilisation du panneau Résumé, voir [Aperçu du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+  Pour plus d’informations sur l’utilisation du panneau Résumé, voir [Aperçu du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Présentation des champs qui se mettent automatiquement à jour lorsque vous cliquez sur le bouton Travailler dessus et Terminé
 
@@ -70,13 +71,13 @@ Lorsque vous cliquez sur Travailler dessus, les éléments suivants sont égalem
 
 * Mises à jour de l’état d’affectation de la demande à l’état opérationnel
 
-   >[!TIP]
-   >
-   >Le champ Statut de l’affectation n’est visible que dans les rapports et les listes. Pour plus d’informations sur le champ État d’affectation, voir [Glossaire de la terminologie Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >[!TIP]
+  >
+  >Le champ Statut de l’affectation n’est visible que dans les rapports et les listes. Pour plus d’informations sur le champ État d’affectation, voir [Glossaire de la terminologie Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Date de validation
 
-   Pour plus d’informations sur la date de validation, voir [Présentation de la date de validation](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Pour plus d’informations sur la date de validation, voir [Présentation de la date de validation](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ### Bouton Démarrer {#start-button}
 
@@ -87,11 +88,11 @@ Outre les champs qui se mettent à jour lorsque vous cliquez sur le bouton Trava
 * Statut
 * Date de début réelle
 
-   Pour plus d’informations sur la date de début réelle, voir [Présentation de la date de début réelle du projet](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+  Pour plus d’informations sur la date de début réelle, voir [Présentation de la date de début réelle du projet](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 * Date de fin réelle si le bouton Début est associé à un état qui correspond à Terminé ou Fermé.
 
-   Pour plus d’informations sur la date d’achèvement réelle, voir [Présentation du projet Date d’achèvement réelle](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+  Pour plus d’informations sur la date d’achèvement réelle, voir [Présentation du projet Date d’achèvement réelle](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 >[!NOTE]
 >
@@ -102,7 +103,6 @@ Outre les champs qui se mettent à jour lorsque vous cliquez sur le bouton Trava
 >* Requêtes d’équipe
 >* En-tête de tâche
 >
-
 
 ### Bouton Terminé {#the-done-button}
 

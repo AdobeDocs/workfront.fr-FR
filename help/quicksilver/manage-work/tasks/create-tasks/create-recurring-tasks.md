@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: Créer des tâches récurrentes
 description: Vous pouvez créer des tâches récurrentes pour les tâches que vous devez répéter dans le cadre d’un seul projet.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -66,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!TIP]
    >
-   >   La Durée et les Heures planifiées indiquées pour une nouvelle tâche récurrente sont la Durée et les Heures planifiées de chaque périodicité. La Durée de la tâche parent est l’heure entre la Date de début planifiée de la première tâche et la Date de fin planifiée de la dernière tâche. Les Heures planifiées de la tâche parent sont le total de toutes les Heures planifiées de toutes les récurrences.
+   >   La Durée et les Heures planifiées indiquées pour une nouvelle tâche récurrente sont la Durée et les Heures planifiées de chaque occurrence. La Durée de la tâche parent est l’heure entre la Date de début planifiée de la première tâche et la Date de fin planifiée de la dernière tâche. Les Heures planifiées de la tâche parent sont le total de toutes les Heures planifiées de toutes les occurrences.
 
 1. Cliquez sur **Présentation** dans le panneau de gauche.
 1. Faites défiler l’écran vers le bas jusqu’à **Planning de périodicité** , puis sélectionnez l’option **En faire une tâche récurrente** .
