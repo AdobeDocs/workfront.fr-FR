@@ -6,9 +6,9 @@ description: La définition d’une structure de ventilation des tâches (WBS) p
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1745'
 ht-degree: 1%
 
 ---
@@ -48,23 +48,23 @@ Lorsque vous définissez des tâches, veillez à ne pas planifier trop de travai
 Pour définir les résultats WBS et les éléments livrables dans Workfront, nous vous recommandons d’exécuter les activités suivantes afin de créer une vue hiérarchique des tâches de projet :
 
 * Si vous ne l’avez pas déjà fait, créez un projet.\
-   Pour plus d’informations sur la création d’un projet, voir l’article [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
+  Pour plus d’informations sur la création d’un projet, voir l’article [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
 
 * Créez des tâches pour tous les éléments d’action requis pour terminer chaque résultat et chaque livrable.\
-   Pour plus d’informations sur la création de tâches, voir l’article [Création de tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
+  Pour plus d’informations sur la création de tâches, voir l’article [Création de tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * À partir des tâches que vous venez de créer, identifiez celles qui sont des résultats majeurs et associez-les aux jalons.\
-   Pour plus d’informations sur la création de tâches de jalon, voir les articles [Création d’un chemin de jalon](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) et [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Pour plus d’informations sur la création de tâches de jalon, voir les articles [Création d’un chemin de jalon](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) et [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Ventilez les tâches avec une portée trop grande en sous-tâches. Associez-les au parent qui définit votre livrable .\
-   Pour plus d’informations sur la création de sous-tâches, voir l’article [Création de sous-tâches](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+  Pour plus d’informations sur la création de sous-tâches, voir l’article [Création de sous-tâches](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Identifiez les relations de dépendance entre les sous-tâches et entre les jalons.\
-   Dans une relation de dépendance, le début d’une tâche dépend de l’achèvement d’une autre tâche ou d’un groupe de tâches.\
-   Pour plus d’informations sur les dépendances des tâches, voir les articles [Présentation des prédécesseurs de tâches](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) et [Créer une relation de prédécesseur sur la liste des tâches](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  Dans une relation de dépendance, le début d’une tâche dépend de l’achèvement d’une autre tâche ou d’un groupe de tâches.\
+  Pour plus d’informations sur les dépendances des tâches, voir les articles [Présentation des prédécesseurs de tâches](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) et [Créer une relation de prédécesseur sur la liste des tâches](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Déterminez si, à un moment quelconque de la durée de vie du projet, des approbations et des révisions sont nécessaires. Créez des processus de validation pour répondre à ce besoin.\
-   Pour plus d’informations sur les validations, voir l’article [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Pour plus d’informations sur les validations, voir l’article [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Estimation du planning de travail et des contraintes de planification
 
@@ -74,22 +74,22 @@ Tenez compte des points suivants :
 
 * Les contraintes de tâche définissent le moment où le travail sur une tâche doit commencer ou se terminer.
 
-   Pour plus d’informations sur la définition des contraintes de tâche, voir l’article [Présentation de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  Pour plus d’informations sur la définition des contraintes de tâche, voir l’article [Présentation de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * La Durée d’une tâche est la période disponible pour terminer une tâche. Lors de l’estimation de la durée, vous pouvez saisir une valeur qui prend en compte la possibilité d’un délai. Si des projets similaires ont été réalisés dans le passé, vous pouvez avoir une bonne idée de l’endroit où définir cette valeur.
 
-   Comme la durée est une estimation, veillez à définir des valeurs temporelles optimistes afin de tenir compte des facteurs pouvant affecter la tâche, tels que les conditions météorologiques, les pannes de courant, les difficultés du fournisseur ou d’autres événements imprévus. En outre, veillez à examiner s’il existe des tâches associées de prédécesseur ou de dépendance, et comment elles peuvent imposer des contraintes au travail et affecter l’achèvement de la tâche.
+  Comme la durée est une estimation, veillez à définir des valeurs temporelles optimistes afin de tenir compte des facteurs pouvant affecter la tâche, tels que les conditions météorologiques, les pannes de courant, les difficultés du fournisseur ou d’autres événements imprévus. En outre, veillez à examiner s’il existe des tâches associées de prédécesseur ou de dépendance, et comment elles peuvent imposer des contraintes au travail et affecter l’achèvement de la tâche.
 
-   Selon le type de durée de la tâche, vous pouvez modifier la durée d’une tâche pendant la durée de vie d’un projet, mais cela aura également une incidence sur la chronologie du projet. Pour plus d’informations sur la durée d’une tâche, voir l’article [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Selon le type de durée de la tâche, vous pouvez modifier la durée d’une tâche pendant la durée de vie d’un projet, mais cela aura également une incidence sur la chronologie du projet. Pour plus d’informations sur la durée d’une tâche, voir l’article [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## Affecter des tâches
 
 Une fois que vous avez défini la durée et les contraintes de chaque tâche, vous pouvez déterminer qui dispose du temps et des compétences pour accomplir le travail. Vous pouvez affecter des tâches aux entités suivantes dans Workfront :
 
-* Utilisateurs\
-   Seuls les utilisateurs disposant d’un niveau d’accès de planificateur ou de traitement peuvent être affectés à des tâches. Bien que vous puissiez affecter des tâches aux Demandeurs et aux Réviseurs, ils ne peuvent pas les exécuter. Pour cette raison, il est déconseillé de leur assigner des tâches.
+* Utilisateurs et utilisatrices\
+  Seuls les utilisateurs disposant d’un niveau d’accès de planificateur ou de traitement peuvent être affectés à des tâches. Bien que vous puissiez affecter des tâches aux Demandeurs et aux Réviseurs, ils ne peuvent pas les exécuter. Pour cette raison, il est déconseillé de leur assigner des tâches.
 
-   Pour plus d’informations sur les niveaux d’accès et la manière dont ils définissent ce que les utilisateurs peuvent faire avec les objets Workfront, voir [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+  Pour plus d’informations sur les niveaux d’accès et la manière dont ils définissent ce que les utilisateurs peuvent faire avec les objets Workfront, voir [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 * Fonctions
 * Équipes
@@ -150,7 +150,7 @@ Vous pouvez afficher la liste des tâches au niveau du projet.
 
    La structure Répartition du travail s’affiche dans la seconde colonne de la vue sélectionnée.
 
-   ![](assets/wbs-view-on-task-list-nwe-350x87.png)
+   ![Structure de ventilation de travail dans une liste de tâches](assets/work-breakdown-structure.png)
 
 ### Afficher le WBS dans un rapport de tâche {#view-the-wbs-in-a-task-report}
 

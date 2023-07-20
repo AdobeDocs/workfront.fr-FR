@@ -6,9 +6,9 @@ description: Vous pouvez supprimer des tâches qui peuvent être des doublons ou
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '854'
 ht-degree: 1%
 
 ---
@@ -59,11 +59,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Si la tâche comporte des heures enregistrées, l’administrateur de Workfront ou de groupe doit autoriser la suppression de ces tâches en configurant les préférences de tâche et de problème dans votre instance Workfront. Cela s’applique également lorsque vous essayez de supprimer des projets pour lesquels des tâches sont connectées pendant des heures.
 
-   <!--
+  <!--
   (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
   -->
 
-   Pour plus d’informations sur l’activation de la suppression des tâches où des heures sont enregistrées, voir la section &quot;Suppression&quot; dans [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Pour plus d’informations sur l’activation de la suppression des tâches où des heures sont enregistrées, voir la section &quot;Suppression&quot; dans [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Impact de la suppression des tâches {#the-impact-of-deleting-tasks}
 
@@ -73,7 +73,7 @@ Les objets suivants associés à une tâche sont également supprimés lorsque v
 
 * Documents
 
-   Vous ne pouvez pas supprimer une tâche à laquelle est associé un document extrait. Pour plus d’informations sur l’extraction de documents, voir [Extraction de documents](../../../documents/managing-documents/check-out-documents.md).
+  Vous ne pouvez pas supprimer une tâche à laquelle est associé un document extrait. Pour plus d’informations sur l’extraction de documents, voir [Extraction de documents](../../../documents/managing-documents/check-out-documents.md).
 
 * Événements
 * Sous-tâches
@@ -85,21 +85,21 @@ Selon la manière dont votre administrateur Workfront configure les préférence
 * Accédez au projet et ne sera pas restauré sur la tâche, si la tâche est restaurée ultérieurement.
 * Sont supprimés et restaurés sur la tâche, si la tâche est restaurée ultérieurement.
 
-   Cela s’applique également lorsque vous essayez de supprimer des projets pour lesquels des tâches sont connectées pendant des heures.
+  Cela s’applique également lorsque vous essayez de supprimer des projets pour lesquels des tâches sont connectées pendant des heures.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
 
-   Pour plus d’informations sur la configuration des préférences de suppression pour les heures de connexion aux problèmes, voir [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Pour plus d’informations sur la configuration des préférences de suppression pour les heures de connexion aux problèmes, voir [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Les dépenses de la tâche seront déplacées vers le projet.
 
 * Les utilisateurs affectés à la tâche ou à l’approbation de la tâche restent membres de l’équipe de projet.
 
-   Pour plus d’informations sur les équipes de projet, voir [Présentation de l’équipe de projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  Pour plus d’informations sur les équipes de projet, voir [Présentation de l’équipe de projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Supprimer des tâches
 
@@ -121,9 +121,10 @@ Selon la manière dont votre administrateur Workfront configure les préférence
       1. Cliquez sur **Supprimer**, puis **Oui, la supprimer** pour confirmer la suppression.
 
          Les tâches sont supprimées.
+
    1. (Conditionnel) Cliquez sur le bouton **Mode Plan** et sélectionnez **Enregistrement manuel** si vous souhaitez annuler les modifications que vous apportez à la liste des tâches.
 
-      ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+      ![Sélectionner Enregistrer manuellement](assets/manual-save-option.png)
 
       Procédez comme suit :
 
@@ -134,7 +135,6 @@ Selon la manière dont votre administrateur Workfront configure les préférence
       1. Cliquez sur **Enregistrer** pour supprimer les tâches.
 
          Les tâches ne sont supprimées qu’après l’enregistrement des modifications.
-
 
 ### Supprimer une seule tâche {#delete-a-single-task}
 

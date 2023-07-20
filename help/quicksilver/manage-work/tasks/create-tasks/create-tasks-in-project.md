@@ -6,9 +6,9 @@ description: Vous ne pouvez créer des tâches dans un projet qu’après avoir 
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,8 @@ Pour plus d’informations sur la création de tâches personnelles qui ne figur
 
 Cet article décrit comment créer entièrement des tâches. Vous pouvez également créer des tâches de la manière suivante :
 
-* En copiant ou en dupliquant des tâches existantes. Pour plus d’informations, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* En déplaçant les tâches d’un projet à un autre. Pour plus d’informations, voir [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* En copiant ou en dupliquant des tâches existantes. Pour plus d’informations, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* En déplaçant les tâches d’un projet à un autre. Pour plus d’informations, voir [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Exigences d’accès
 
@@ -89,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. (Conditionnel) Si vous affichez actuellement la liste des tâches dans une vue agile, cliquez sur le bouton **Mode Liste** icon ![](assets/list-view-in-agile-view-for-tasks.png) dans le coin supérieur droit pour afficher la liste des tâches.
 1. (Facultatif) Cliquez sur le **Mode Plan** icon ![](assets/nwe-plan-mode-icon-task-list.png) et sélectionnez **Enregistrement manuel**, puis sélectionnez **Standard** ou **Planification de la chronologie**. Cette opération désactive la fonction **Enregistrement automatique** qui est activée par défaut.
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![Sélectionner Enregistrer manuellement](assets/manual-save-option.png)
 
    >[!TIP]
    >

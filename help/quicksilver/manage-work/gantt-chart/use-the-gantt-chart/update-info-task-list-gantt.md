@@ -6,9 +6,9 @@ description: Le diagramme de Gantt de la liste des tâches affiche des détails 
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Pour suivre les étapes de cet article, vous devez disposer des éléments suiva
 
 1. Cliquez sur le bouton **[!UICONTROL Graphique Gantt]** icône .
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Cliquez sur l’icône du diagramme de Gantt](assets/click-gantt-chart-icon.png)
 
    Toutes les modifications sont automatiquement enregistrées lorsque la variable **[!UICONTROL Enregistrement automatique]** est activée. Elle est activée par défaut.
 
@@ -87,7 +87,8 @@ Pour suivre les étapes de cet article, vous devez disposer des éléments suiva
    >   
    >   * [!DNL Mac]: Utilisation [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
    >   * [!DNL Windows]: Utilisation [!UICONTROL Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
-
+   >   
+   >
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** dans le coin supérieur droit du [!UICONTROL Graphique Gantt].
 
@@ -118,7 +119,8 @@ Pour suivre les étapes de cet article, vous devez disposer des éléments suiva
    >   
    >   * [!DNL Mac]: Utilisation [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
    >   * [!DNL Windows]: [!UICONTROL Utiliser Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
-
+   >   
+   >
 
 1. Cliquer sur **[!UICONTROL Enregistrer]** .
 
@@ -152,7 +154,6 @@ Pour suivre les étapes de cet article, vous devez disposer des éléments suiva
    >   * [!UICONTROL Aussi Tard Que Possible]
    >   * [!UICONTROL Première Heure Disponible]
    >   * [!UICONTROL Dernière Heure Disponible]
-
    >   
    >   
    >Dans certains cas, les relations de prédécesseur peuvent empêcher les tâches de commencer plus tôt, et le déplacement de la tâche n’est pas autorisé.
@@ -167,7 +168,8 @@ Pour suivre les étapes de cet article, vous devez disposer des éléments suiva
    >   
    >   * [!DNL Mac]: Utilisation [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
    >   * [!DNL Windows]: Utilisation [!UICONTROL Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
-
+   >   
+   >
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
@@ -189,6 +191,7 @@ Pour suivre les étapes de cet article, vous devez disposer des éléments suiva
    >
    >
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
+   >
 
 1. (Facultatif et conditionnel) Si vous avez choisi d’enregistrer vos modifications manuellement, cliquez sur le bouton **[!UICONTROL Annuler]** ou &#x200B;**[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
 
@@ -200,7 +203,8 @@ Pour suivre les étapes de cet article, vous devez disposer des éléments suiva
    >   
    >   * [!DNL Mac]: Utilisation [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
    >   * [!DNL Windows]: Utilisation [!UICONTROL Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
-
+   >   
+   >
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** dans le coin supérieur droit du [!UICONTROL Graphique Gantt].
 

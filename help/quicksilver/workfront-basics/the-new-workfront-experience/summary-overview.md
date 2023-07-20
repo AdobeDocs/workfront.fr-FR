@@ -4,9 +4,9 @@ title: Aperçu du résumé
 description: Vous pouvez utiliser le panneau Résumé pour passer en revue et mettre à jour les informations des éléments de travail directement à partir d’une liste de problèmes de tâches, de documents ou d’autres zones de [!DNL Adobe Workfront] qui affichent les tâches et les problèmes.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
@@ -116,21 +116,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Vous ne pouvez sélectionner qu’une seule tâche ou un seul problème à la fois pour afficher leurs détails dans la variable [!UICONTROL Résumé] du panneau.
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![Panneau Résumé](assets/summary-panel-for-task.png)
 
 1. (Facultatif) Pour fermer la variable [!UICONTROL Résumé] effectuez l’une des opérations suivantes :
 
    * Dans une liste de tâches ou de problèmes, cliquez sur le bouton **[!UICONTROL Résumé ouvert]** icon ![](assets/summary-panel-icon.png)
 
-      Ou
+     Ou
 
-      Cliquez sur le bouton **X** dans le coin supérieur droit de la [!UICONTROL Résumé] du panneau.
+     Cliquez sur le bouton **X** dans le coin supérieur droit de la [!UICONTROL Résumé] du panneau.
 
    * Dans le [!UICONTROL Envoyé] de la section [!UICONTROL Demandes] , cliquez sur la zone **[!UICONTROL Fermer le résumé]** icon ![](assets/close-summary-with-text-nwe.png)
 
-      Ou
+     Ou
 
-      Cliquez sur le bouton **X** dans le coin supérieur droit du panneau Résumé.
+     Cliquez sur le bouton **X** dans le coin supérieur droit du panneau Résumé.
 
 ## [!UICONTROL Pourcentage d&#39;achèvement]
 
