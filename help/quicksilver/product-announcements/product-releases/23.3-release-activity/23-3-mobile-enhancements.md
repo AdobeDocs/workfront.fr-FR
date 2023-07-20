@@ -3,16 +3,16 @@ title: 23.3 Améliorations apportées aux périphériques mobiles
 description: 23.3 Améliorations apportées aux périphériques mobiles
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # 23.3 Améliorations apportées aux périphériques mobiles
 
-Cette page décrit toutes les améliorations apportées à la version 23.3 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version 23.3.
+Cette page décrit toutes les améliorations apportées à la version 23.3 de Mobile. Ces améliorations ont été apportées à l’environnement de production avec la version 23.3 des 20 et 21 juillet 2023.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.3, voir [Présentation de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
