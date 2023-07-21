@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Vous pouvez créer un processus d’approbation que les utilisateurs peuvent joindre à un élément de travail (projet, tâche, problème, modèle ou tâche de modèle), un document ou un BAT. Un processus d’approbation garantit que les personnes désignées sur l’objet révisent certaines modifications avant que l’objet ne progresse dans le système.
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2227'
 ht-degree: 1%
 
 ---
@@ -135,6 +135,7 @@ Vous devez disposer des éléments suivants :
    <p><b>CONSEIL</b>:</p>
 
    <p>Lors de l’ajout d’un utilisateur en tant qu’approbateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour distinguer les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.</p>
+      <p>Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs</a>. </p>
 
    <p><b>NOTE</b>:
 

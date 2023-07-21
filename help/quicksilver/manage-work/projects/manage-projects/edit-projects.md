@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: Modification de projets
 description: Vous pouvez modifier un projet dans Adobe Workfront aussi souvent que nécessaire. Idéalement, vous devez modifier un projet lorsque celui-ci est à l’état Planification .
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '7310'
+source-wordcount: '7336'
 ht-degree: 2%
 
 ---
@@ -142,6 +143,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
 
       * [Gestion des informations dans la zone Aperçu du projet](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Gestion des informations dans la zone Finance du projet](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+
    1. (Facultatif) Pour joindre un formulaire personnalisé, commencez à saisir le nom d’un formulaire dans le champ **Ajouter un formulaire personnalisé** puis sélectionnez-la lorsqu’elle s’affiche dans la liste, puis cliquez sur **Enregistrer les modifications**.
    1. (Facultatif) Cliquez sur le **Exporter** icon ![](assets/export.png) pour exporter les informations d’aperçu et de formulaires personnalisés vers un fichier de PDF, cliquez sur **Exporter**. Sélectionnez l’une des options suivantes :
 
@@ -154,6 +156,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Pour plus d’informations, voir [Exportation de formulaires personnalisés et de détails d’objet](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    Pour plus d’informations sur les champs visibles dans la section Détails du projet, passez à la modification du projet dans la zone Modifier le projet , comme décrit ci-dessous.
 1. Pour modifier toutes les informations relatives au projet, cliquez sur le bouton **Plus** menu ![](assets/qs-more-menu.png) en regard du nom du projet, puis cliquez sur **Modifier**.
 
@@ -229,7 +232,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
       <td> <p>Spécifiez un lien Web qui se rapporte aux informations sur ce projet.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Type de statut</strong> </td> 
+      <td role="rowheader"><strong>Type de condition</strong> </td> 
       <td> <p>Effectuez une sélection parmi les types de condition suivants : 
        <ul> 
        <li><strong>Manuel :</strong> Le propriétaire du projet définit manuellement la condition sur le projet.</li> 
@@ -302,7 +305,11 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
 
    >[!TIP]
    >
-   >Lors de la mise à jour des champs Propriétaire du projet, Parrain du projet et Gestionnaire de ressources, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >Lors de la mise à jour des champs Propriétaire du projet, Parrain du projet et Gestionnaire de ressources, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+   >
+   >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >
+   >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. (Facultatif) Continuez à modifier les sections suivantes en fonction des informations que vous souhaitez modifier.
 
@@ -388,7 +395,7 @@ Pour modifier les champs de la zone Finance :
       <td> <p>Spécifiez un budget pour le projet.<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Méthode d'indice de performance</strong> </td> 
+      <td role="rowheader"><strong>Méthode d’indice de performance</strong> </td> 
       <td> <p>Sélectionner <b>Basé sur l’heure</b>ou <b>Basé sur les coûts</b> pour indiquer si les mesures Valeur gagnée du projet (telles que l’indice de performance des coûts ou le coût réel estimé) sont calculées à l’aide des heures ou des coûts. </p> <p>Pour plus d’informations sur la méthode d’index de performance, voir <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Définition de la méthode d’index de performance (PIM)</a>. </p> <p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne le paramètre Méthode d’index de performance par défaut pour votre système ou votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -490,7 +497,7 @@ Pour modifier les champs de la zone Finance :
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Risque</strong> </td> 
-       <td> <p> <p>Définissez le niveau de risque de votre projet. Le risque n'est qu'un indicateur des risques que peut représenter un projet. Vous pouvez hiérarchiser l’exécution de vos projets en fonction du niveau de risque.</p> <p> <p>Envisagez de choisir parmi les niveaux de risque suivants :</p> <p>- Très faible</p> <p>- Faible</p> <p>- Moyen</p> <p>- Élevé</p> <p>- Très élevé</p> <p>Les niveaux de risques que vous indiquez ici ne peuvent pas être personnalisés.</p> <p>Elles ne sont pas liées aux risques potentiels qui peuvent se produire pendant la durée d’un projet et que vous devez enregistrer dans l’onglet Risques du projet ou dans l’Analyse de cas. Pour plus d’informations sur les risques potentiels du projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Modifier et créer des types de risque</a>. </p> </p> </p> </td> 
+       <td> <p> <p>Définissez le niveau de risque de votre projet. Le risque n'est qu'un indicateur des risques que peut représenter un projet. Vous pouvez hiérarchiser l’exécution de vos projets en fonction du niveau de risque.</p> <p> <p>Envisagez de choisir parmi les niveaux de risque suivants :</p> <p>- Très faible</p> <p>- Faible</p> <p>- Moyen</p> <p>- Élevé</p> <p>- Très élevé</p> <p>Les niveaux de risques que vous indiquez ici ne peuvent pas être personnalisés.</p> <p>Elles ne sont pas liées aux risques potentiels qui peuvent se produire pendant la durée d’un projet et que vous devez enregistrer dans l’onglet Risques du projet, ou dans l’Analyse de cas. Pour plus d’informations sur les risques potentiels du projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Modifier et créer des types de risque</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Pools de ressources</strong> </td> 
@@ -677,15 +684,15 @@ Par défaut, les champs suivants sont inclus dans l’en-tête du projet.
 * Propriétaire du projet
 * Date et heure d’achèvement prévues
 
-   >[!NOTE]
-   >
-   >Vous ne pouvez modifier ce champ que lorsque le projet est planifié à partir de la date de fin. Lorsque le projet est planifié à partir de la date de début, Workfront calcule la date et l’heure de fin planifiées en fonction de la durée des tâches.
+  >[!NOTE]
+  >
+  >Vous ne pouvez modifier ce champ que lorsque le projet est planifié à partir de la date de fin. Lorsque le projet est planifié à partir de la date de début, Workfront calcule la date et l’heure de fin planifiées en fonction de la durée des tâches.
 
 * Condition
 
-   >[!NOTE]
-   >
-   >Vous ne pouvez modifier ce champ que lorsque le type de condition du projet est Manuel. Lorsque le type de condition est défini sur Etat de progression, Workfront calcule la condition en fonction de l’état d’avancement des tâches. Pour plus d’informations, voir [Présentation de la condition et du type de condition du projet](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+  >[!NOTE]
+  >
+  >Vous ne pouvez modifier ce champ que lorsque le type de condition du projet est Manuel. Lorsque le type de condition est défini sur Etat de progression, Workfront calcule la condition en fonction de l’état d’avancement des tâches. Pour plus d’informations, voir [Présentation de la condition et du type de condition du projet](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 * Statut
 * Prenez des décisions d’approbation si vous êtes défini comme approbateur dans un processus d’approbation actuel.
@@ -698,32 +705,31 @@ Tenez compte des points suivants lors de la modification de projets en bloc :
 
 * Les informations que vous modifiez sur tous les projets sélectionnés remplacent les informations existantes sur les projets individuels, à l’exception du champ Gestionnaire de ressources .
 
-   L’ajout d’un nouveau gestionnaire de ressources lors de la modification de projets en bloc ajoute ce gestionnaire à tous les projets sélectionnés. Si d’autres gestionnaires de ressources sont associés aux projets sélectionnés, ils restent sur les projets en plus de celui ajouté par modification en masse.
+  L’ajout d’un nouveau gestionnaire de ressources lors de la modification de projets en bloc ajoute ce gestionnaire à tous les projets sélectionnés. Si d’autres gestionnaires de ressources sont associés aux projets sélectionnés, ils restent sur les projets en plus de celui ajouté par modification en masse.
 
 * Lorsque vous sélectionnez des projets dont les valeurs sont différentes pour le même champ, le champ affiche un indicateur &quot;Plusieurs valeurs&quot; dans la zone Modifier les projets . Les champs qui sont des cases à cocher, des boutons radio et des bascules sont associés à un indicateur &quot;Plusieurs valeurs&quot;.
 
-   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Outre l&#39;indicateur &quot;Valeurs multiples&quot;, lorsque les options sélectionnées sont différentes sur au moins un des projets sélectionnés, les champs comportant plusieurs options s&#39;affichent de l&#39;une des manières suivantes :
 
    * Les champs de case à cocher comportent une ligne au lieu d’une case à cocher pour l’option qui est cochée pour certains projets, mais pas pour tous les projets sélectionnés.
 
-      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Les champs de type Bascule s’affichent en grisé avec le bouton activer/désactiver au milieu pour l’option activée pour certains projets sélectionnés, mais pas pour tous.
 
-   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * Les champs de type Bouton radio dont certaines options sont sélectionnées mais pas toutes affichent tous les boutons radio vides.
 
-      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
-
+     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Lorsque vous mettez à jour une option dans un champ à plusieurs options (un champ qui s’affiche sous la forme d’un ensemble de bascules ou de cases à cocher, par exemple), toutes les autres options doivent correspondre entre les projets sélectionnés.
 
-   >[!IMPORTANT]
-   >
-   >Par exemple, vous pouvez avoir un champ de case à cocher comportant trois cases à cocher (Option 1, Option 2 et Option 3) et l’option 1 n’est pas cochée pour tous les projets, tandis que les options 2 et 3 sont cochées pour certains projets et décochées pour les autres que vous avez sélectionnés. Si vous souhaitez cocher l’option 1 pour tous les projets, vous devez également faire correspondre les options 2 et 3 pour tous les projets sélectionnés avant de pouvoir enregistrer vos modifications. Vous devez donc les sélectionner ou les désélectionner afin qu’ils puissent correspondre à tous les projets sélectionnés. Si vous ne modifiez aucune des options, vous pouvez enregistrer le champ tel quel et les projets conservent leur sélection actuelle pour toutes les options.
+  >[!IMPORTANT]
+  >
+  >Par exemple, vous pouvez avoir un champ de case à cocher comportant trois cases à cocher (Option 1, Option 2 et Option 3) et l’option 1 n’est pas cochée pour tous les projets, tandis que les options 2 et 3 sont cochées pour certains projets et décochées pour les autres que vous avez sélectionnés. Si vous souhaitez cocher l’option 1 pour tous les projets, vous devez également faire correspondre les options 2 et 3 pour tous les projets sélectionnés avant de pouvoir enregistrer vos modifications. Vous devez donc les sélectionner ou les désélectionner afin qu’ils puissent correspondre à tous les projets sélectionnés. Si vous ne modifiez aucune des options, vous pouvez enregistrer le champ tel quel et les projets conservent leur sélection actuelle pour toutes les options.
 
 * Lorsque vous sélectionnez plusieurs projets appartenant à différents groupes, les états qui s’affichent dans le champ Statut sont des états au niveau du système et non des états au niveau du groupe.
 

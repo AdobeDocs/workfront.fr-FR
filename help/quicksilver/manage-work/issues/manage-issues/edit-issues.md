@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2493'
 ht-degree: 3%
 
 ---
@@ -201,7 +201,8 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
    <b>CONSEIL</b>
 
-   Lors de l’ajout d’un utilisateur Contact Principal, notez l’avatar, le rôle Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   <p>Lors de l’ajout d’un utilisateur Contact Principal, notez l’avatar, le rôle Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.</p>
+      <p> Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs</a>.</p>
 
 
    </td> 

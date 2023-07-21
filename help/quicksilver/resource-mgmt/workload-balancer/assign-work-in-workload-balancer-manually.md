@@ -5,10 +5,11 @@ title: Affectation manuelle du travail à l’aide de l’équilibreur de charge
 description: Vous pouvez affecter manuellement des tâches aux utilisateurs à l’aide de l’équilibreur de charge de travail Adobe Workfront.
 author: Alina
 feature: Resource Management
+role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '756'
 ht-degree: 2%
 
 ---
@@ -83,13 +84,18 @@ Vous pouvez affecter des tâches qui n’ont pas encore été affectées à un u
    >* Sous Windows : CTRL+clic sur la barre de tâche ou de problème.
    >* Dans Mac : CMD+cliquez sur la barre de tâche ou de problème.
 
-
 1. Utilisez l’une des méthodes suivantes :
 
    * Commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe que vous souhaitez affecter à l’élément dans la variable **Recherche de personnes, de rôles ou d’équipes** , sélectionnez-le lorsqu’il s’affiche dans la liste, puis cliquez sur **Enregistrer**.
+
    >[!TIP]
    >
-   >Lors de l’ajout d’un utilisateur, notez l’avatar, le rôle Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >Lors de l’ajout d’un utilisateur, notez l’avatar, le rôle Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+   >
+   >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >
+   > Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
 
    ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
@@ -113,12 +119,12 @@ Vous pouvez affecter des tâches qui n’ont pas encore été affectées à un u
    >   
    >   * Réaffectez l’élément de travail aux principales ressources.
    >   * Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
-
+   >   
+   >
 
    * Cliquez sur **Avancé** pour accéder aux affectations avancées.
 
-      Pour plus d’informations sur la création d’affectations avancées, voir [Création d’affectations avancées](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
+     Pour plus d’informations sur la création d’affectations avancées, voir [Création d’affectations avancées](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. (Facultatif) Cliquez sur le **Icône Afficher les attributions** ![](assets/show-allocations-icon-small.png), puis cliquez sur le bouton **Plus de menu** ![](assets/qs-more-menu.png) > **Modifier les attributions**.
 

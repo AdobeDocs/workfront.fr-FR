@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Modifier un processus de validation
 description: Si vous êtes administrateur d’Adobe Workfront ou si vous disposez d’un accès administratif aux processus d’approbation, vous pouvez afficher et modifier tous les processus d’approbation du système.
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1953'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,6 @@ Pour plus d’informations sur la création de processus de validation, voir [Cr
 >
 >* Ajouter une étape au-delà de l’étape actuelle
 >* Ajouter un approbateur supplémentaire avant l’étape en cours
-
 
 ## Exigences d’accès
 
@@ -135,6 +134,7 @@ Vous devez disposer des éléments suivants :
    <p><b>CONSEIL</b>:</p>
 
    <p>Lors de l’ajout d’un utilisateur en tant qu’approbateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour distinguer les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.</p>
+      <p>Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs</a></p>.
 
    <p><b>NOTE</b>:
 

@@ -4,11 +4,12 @@ navigation-topic: assign-tasks
 title: Affecter des tâches
 description: Vous pouvez affecter des tâches aux utilisateurs, rôles ou équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1965'
 ht-degree: 1%
 
 ---
@@ -184,6 +185,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
      >
+     >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     >
      ><span class="preview">Lors de l’ajout d’une affectation de rôle de tâche, vous pouvez rechercher le rôle ou l’emplacement de la tâche. Sélectionnez le rôle de tâche système/par défaut pour utiliser le taux de facturation par défaut pour l’affectation ou sélectionnez un rôle de tâche Carte de taux pour utiliser le taux de facturation dans la carte de taux. Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
@@ -229,6 +232,8 @@ Pour affecter des tâches dans une liste :
      >[!TIP]
      >
      >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+     >
+     >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
      ><span class="preview">Lors de l’ajout d’une affectation de rôle de tâche, vous pouvez rechercher le rôle ou l’emplacement de la tâche. Sélectionnez le rôle de tâche système/par défaut pour utiliser le taux de facturation par défaut pour l’affectation ou sélectionnez un rôle de tâche Carte de taux pour utiliser le taux de facturation dans la carte de taux. Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 

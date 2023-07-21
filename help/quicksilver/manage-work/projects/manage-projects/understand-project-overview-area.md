@@ -5,11 +5,12 @@ navigation-topic: manage-projects
 title: Gestion des informations dans la zone Aperçu du projet
 description: Gestion des informations dans la zone Aperçu du projet
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1430'
 ht-degree: 4%
 
 ---
@@ -154,10 +155,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!TIP]
    >
-   >Lors de la mise à jour des champs Propriétaire du projet, Parrain du projet et Gestionnaire de ressources, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >Lors de la mise à jour des champs Propriétaire du projet, Parrain du projet et Gestionnaire de ressources, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+   >
+   >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   > 
+   >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Consultez les champs suivants de la section Aperçu . Vous ne pouvez pas modifier les champs suivants :
+1. Consultez les champs suivants de la section Aperçu . Vous ne pouvez pas modifier les champs suivants :
 
    | Champ | Description |
    |---|---|

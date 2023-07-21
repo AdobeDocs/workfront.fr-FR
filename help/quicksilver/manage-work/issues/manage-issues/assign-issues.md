@@ -5,10 +5,11 @@ title: Attribuer des problèmes
 description: Vous pouvez affecter des problèmes aux utilisateurs, aux rôles et aux équipes afin d’indiquer qui est responsable de l’exécution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la présentation Modifier les affectations de problèmes .
 author: Alina
 feature: Work Management
+role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: c7eb3266081a601d0aeaec1a2bd21272d05d1bc6
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,6 @@ Vous pouvez affecter des problèmes aux utilisateurs, aux rôles et aux équipes
 >
 >* Réaffectez l’élément de travail aux principales ressources.
 >* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
-
 
 En plus de cet article, nous vous recommandons de lire les articles suivants pour plus d’informations sur l’attribution des problèmes :
 
@@ -65,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations liées au problème</p> <p>Attribuez des autorisations à l’élément sur lequel vous copiez le problème avec la possibilité d’ajouter des problèmes.</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a></p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gestion des autorisations liées au problème</p> <p>Attribuez des autorisations à l’élément sur lequel vous copiez le problème avec la possibilité d’ajouter des problèmes.</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a></p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
 * Les tâches ou les problèmes sont généralement assignés en premier à un ou plusieurs rôles ou équipes de tâches. Lorsque les projets sont prêts à démarrer, ils doivent peut-être également être affectés aux utilisateurs.
 
-   Si une tâche ou un problème est assigné à un ou plusieurs rôles, puis que vous affectez également un utilisateur, Adobe Workfront décide quel rôle de tâche associer à l’utilisateur supplémentaire (le cas échéant) selon les règles suivantes :
+  Si une tâche ou un problème est assigné à un ou plusieurs rôles, puis que vous affectez également un utilisateur, Adobe Workfront décide quel rôle de tâche associer à l’utilisateur supplémentaire (le cas échéant) selon les règles suivantes :
 
    * Si un seul rôle de tâche est attribué et qu’il correspond au rôle Principal de l’utilisateur, la tâche ou le problème est affecté uniquement à l’utilisateur qui remplit son rôle Principal.
    * Si plusieurs rôles sont affectés et qu’au moins un des rôles correspond aux rôles secondaires de l’utilisateur, la tâche ou le problème est alors assigné à l’utilisateur qui remplit l’un de ses Autres rôles — que Workfront sélectionne au hasard s’il existe plusieurs correspondances — ainsi que les rôles supplémentaires affectés.
@@ -118,17 +118,21 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
    * Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe que vous souhaitez affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
 
-      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * (Conditionnel) Cliquez sur l’un des noms de la **Suggestions d’affectation** list
    * Cliquez sur **M&#39;affecter** pour l’affecter à vous-même
    * Cliquez sur **Avancé**
 
-      La création d’affectations avancées est similaire pour les tâches et les problèmes. Pour plus d’informations sur la façon d’effectuer des affectations avancées, voir [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     La création d’affectations avancées est similaire pour les tâches et les problèmes. Pour plus d’informations sur la façon d’effectuer des affectations avancées, voir [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-      >[!TIP]
-      >
-      >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+     >[!TIP]
+     >
+     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+     >
+     >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+     >
+     >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 
 
 1. Cliquez sur **Enregistrer** pour terminer l’attribution du problème.
@@ -153,14 +157,19 @@ Pour affecter des problèmes dans une liste :
 
    * Cliquez dans le **Affecté à** ou **Attribué** et commencez à saisir le nom d’un utilisateur principal que vous souhaitez affecter au problème, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-      ![](assets/assigned-to-field-task-list-nwe.png)
+     ![](assets/assigned-to-field-task-list-nwe.png)
 
    * Cliquez dans le **Affectations** et commencez à saisir le nom d’un utilisateur principal, d’un rôle de tâche ou d’une équipe principale que vous souhaitez affecter au problème, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-      ![](assets/assignments-field-task-list-nwe.png)
+     ![](assets/assignments-field-task-list-nwe.png)
+
    >[!TIP]
    >
-   >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+   >
+   >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >
+   Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. (Conditionnel) Lorsqu’il est visible dans le champ Affectations , cliquez sur le bouton **Icône Personnes** ![](assets/teams.png) dans le coin supérieur droit de la zone affectations pour ouvrir la zone Affectations avancées et créer des affectations avancées. Pour plus d’informations, voir [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).

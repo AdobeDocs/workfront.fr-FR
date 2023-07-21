@@ -4,11 +4,12 @@ navigation-topic: plan-a-project
 title: Gérer l’équipe de projet
 description: L’équipe de projet est composée des utilisateurs associés au projet. Les membres de l’équipe de projet s’affichent dans la section Personnes du projet.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -136,7 +137,8 @@ Pour plus d’informations sur les notifications qui peuvent être activées pou
    >
    >* Vous ne pouvez pas ajouter d’utilisateurs en ajoutant leurs équipes, groupes, entreprises ou rôles de tâche.
    >* À mesure que vous ajoutez des utilisateurs, notez l’avatar, le rôle Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
-
+   >
+   >  Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Cliquez sur **Ajouter**.
