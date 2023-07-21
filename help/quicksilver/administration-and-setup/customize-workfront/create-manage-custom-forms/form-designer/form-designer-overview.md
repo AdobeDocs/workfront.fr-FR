@@ -8,9 +8,9 @@ author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,11 @@ Bien que vous ne puissiez pas encore ajouter de logique d’affichage/d’exclus
 
 Les icônes d’un champ dans le concepteur de formulaires indiquent que la logique est appliquée au champ.
 
-Le **D** icône en bas à gauche signifie que le champ est le champ cible de la logique d’affichage (si une sélection spécifique est effectuée sur le formulaire, ce champ s’affiche). Le **D** icône en bas à droite signifie que le champ est utilisé pour définir la logique d’affichage (une sélection ou une valeur spécifique sur ce champ affichera le champ cible).
+Le ![Logique d’affichage pour le champ cible](assets/display-logic-bottom-left.png) icône en bas à gauche signifie que le champ est le champ cible de la logique d’affichage (si une sélection spécifique est effectuée sur le formulaire, ce champ s’affiche). Le ![Icône Définir la logique d’affichage](assets/display-logic-bottom-right.png) icône en bas à droite signifie que le champ est utilisé pour définir la logique d’affichage (une sélection ou une valeur spécifique sur ce champ affichera le champ cible).
 
-Le **s** icône en bas à gauche signifie que le champ est le champ cible de la logique de saut (si une sélection spécifique est effectuée sur le formulaire, le formulaire passe à ce champ). Le **s** icône en bas à droite signifie que le champ est utilisé pour définir une logique de saut (une sélection ou une valeur spécifique sur ce champ ignorera d’autres champs et accédera directement au champ cible).
+Le ![Ignorer la logique pour le champ cible](assets/skip-logic-bottom-left.png) icône en bas à gauche signifie que le champ est le champ cible de la logique de saut (si une sélection spécifique est effectuée sur le formulaire, le formulaire passe à ce champ). Le ![Icône Définir la logique de saut](assets/skip-logic-bottom-right.png) icône en bas à droite signifie que le champ est utilisé pour définir une logique de saut (une sélection ou une valeur spécifique sur ce champ ignorera d’autres champs et accédera directement au champ cible).
+
+![Icônes logiques](assets/logic-icons-3.png)
 
 La sélection d’un champ auquel la logique est appliquée affiche les règles logiques existantes dans les paramètres du champ.
 
