@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                             </li>
                             <li>
                                  <p>Version de production : Avec la version 23.2<br />
-                                 <span style="color: #ff0000;">La version bêta du concepteur de formulaire a été temporairement désactivée dans Aperçu et production le 24 mai 2023.</span></p>
+                                 <span style="color: #ff0000;">La version bêta du concepteur de formulaire a été temporairement désactivée dans Aperçu et production du 24 mai au 21 juillet 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Renommer les pin’s dans le modèle de mise en page</span></a>
-                        </span></a><p>Vous pouvez désormais renommer les pin’s dans un modèle de mise en page afin qu’ils aient plus de sens pour vos utilisateurs, au lieu d’utiliser le nom par défaut de la page épinglée. Les broches créées par les administrateurs s’affichent pour tous les utilisateurs affectés au modèle de mise en page, et les utilisateurs ne peuvent pas renommer ces broches.</p>
+                        <p>Vous pouvez désormais renommer les pin’s dans un modèle de mise en page afin qu’ils aient plus de sens pour vos utilisateurs, au lieu d’utiliser le nom par défaut de la page épinglée. Les broches créées par les administrateurs s’affichent pour tous les utilisateurs affectés au modèle de mise en page, et les utilisateurs ne peuvent pas renommer ces broches.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -480,7 +480,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Collections de cartes et de connexions biométriques dans l’application mobile</span></a>
-                        </span></a><p>La connexion biométrique est désormais une option permettant une connexion plus rapide à l’application mobile ! Une fois la vérification biométrique configurée après une connexion initiale, les utilisateurs pourront utiliser l’empreinte digitale ou la reconnaissance faciale pour se reconnecter rapidement à l’application avec une réauthentification occasionnelle du mot de passe. En outre, plusieurs améliorations de l’apparence de l’expérience générale de connexion arriveront lors d’une mise à jour ultérieure.</p>
+                        <p>La connexion biométrique est désormais une option permettant une connexion plus rapide à l’application mobile ! Une fois la vérification biométrique configurée après une connexion initiale, les utilisateurs pourront utiliser l’empreinte digitale ou la reconnaissance faciale pour se reconnecter rapidement à l’application avec une réauthentification occasionnelle du mot de passe. En outre, plusieurs améliorations de l’apparence de l’expérience générale de connexion arriveront lors d’une mise à jour ultérieure.</p>
                         <p>Les collections de panoramas sont désormais prises en charge dans l’application mobile, ce qui permet aux utilisateurs mobiles d’afficher toutes les collections auxquelles ils ont accès dans la version de bureau à partir de leur liste de panoramas mobiles.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -592,7 +592,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportation des tableaux de bord en tant que PDF unique ou fichiers de PDF multiples dans Adobe Workfront pour XD</span></a>
-                        </span></a><p>Dans le module externe Adobe Workfront for XD, vous pouvez désormais choisir d’exporter vos tableaux de bord sous la forme d’un seul fichier de PDF ou de plusieurs fichiers de PDF.</p>
+                        <p>Dans le module externe Adobe Workfront for XD, vous pouvez désormais choisir d’exporter vos tableaux de bord sous la forme d’un seul fichier de PDF ou de plusieurs fichiers de PDF.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>

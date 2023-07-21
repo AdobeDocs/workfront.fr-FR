@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,6 @@ Pour plus d’informations sur cette fonctionnalité dans Experience Manager Ass
 Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets Essentials, [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Créer des formulaires personnalisés avec la nouvelle version bêta du concepteur de formulaires
-
->[!IMPORTANT]
->
->La version bêta du concepteur de formulaire a été temporairement désactivée le 24 mai 2023. Vous pouvez utiliser l’ancien créateur de formulaires pour créer et modifier vos formulaires personnalisés. Voir [Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Disponible désormais dans une version bêta publique, le nouveau concepteur de formulaire dispose d’un nouvel espace de travail de type zone de travail qui vous permet d’afficher simultanément les champs, la zone de travail et les paramètres de champ.
 

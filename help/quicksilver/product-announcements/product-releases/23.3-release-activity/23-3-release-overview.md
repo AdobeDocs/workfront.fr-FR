@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,22 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 18 mai 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Afficher la logique et ignorer les indicateurs de logique et les règles affichés dans la version bêta du concepteur de formulaires</a></p>
+                        <p>La version bêta publique du concepteur de formulaire a été réactivée dans Aperçu et production le 21 juillet 2023. En outre, vous pouvez désormais afficher les règles logiques existantes créées dans des formulaires personnalisés hérités dans le concepteur de formulaires.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 21 juillet 2023</p>
+                            </li>
+                            <li>
+                                <p>Version de production : 21 juillet 2023</p>
                             </li>
                         </ul>
                     </td>

@@ -4,22 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez concevoir un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Workfront. Les utilisateurs qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
-author: Courtney
+author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 1%
+source-wordcount: '606'
+ht-degree: 0%
 
 ---
 
 # Présentation du concepteur de formulaires
-
->[!IMPORTANT]
->
->Le concepteur de formulaire a été temporairement désactivé le 24 mai 2023. Vous pouvez utiliser l’ancien créateur de formulaires pour créer et modifier vos formulaires personnalisés. Voir [Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Vous pouvez utiliser le nouveau concepteur de formulaire pour concevoir un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Workfront. Les utilisateurs qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 
@@ -31,7 +27,7 @@ Le nouveau concepteur de formulaire dispose d’un nouvel espace de travail de s
 
 Il existe un nouveau bouton en haut du nouveau concepteur de formulaire et de l’ancien créateur de formulaires. Vous pouvez utiliser ce bouton pour basculer entre le créateur hérité et le nouveau concepteur.
 
-![](assets/switch-views.png)
+![Passer au nouveau concepteur de formulaires](assets/switch-views.png)
 
 ## Nouvelle fonctionnalité disponible avec le concepteur de formulaires
 
@@ -43,9 +39,9 @@ Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité d�
 
 * **Utilisation d’une section par défaut**: Si l’auteur du formulaire n’a pas ajouté de section en haut du formulaire, une section Par défaut est désormais visible dans la zone de travail, de sorte que les utilisateurs puissent ajuster les autorisations pour les champs auxquels aucune section personnalisée n’est affectée.
 
-   >[!NOTE]
-   >
-   >La section par défaut n’est pas visible dans les objets lorsque le formulaire est joint à l’objet.
+  >[!NOTE]
+  >
+  >La section par défaut n’est pas visible dans les objets lorsque le formulaire est joint à l’objet.
 
 ## Fonctionnalité bientôt disponible
 
@@ -59,6 +55,20 @@ Les éléments suivants ne sont actuellement pas disponibles dans le concepteur 
 >
 >Les configurations existantes pour les filtres de logique et de type anticipé ne seront pas affectées lorsque vous travaillerez avec le nouveau concepteur de formulaires.
 
+### Afficher/Ignorer la logique
+
+Bien que vous ne puissiez pas encore ajouter de logique d’affichage/d’exclusion lors de la conception d’un nouveau formulaire personnalisé, vous pouvez afficher la logique d’affichage/d’exclusion existante sur les formulaires créés dans l’ancien créateur de formulaires.
+
+Les icônes d’un champ dans le concepteur de formulaires indiquent que la logique est appliquée au champ.
+
+Le **D** icône en bas à gauche signifie que le champ est le champ cible de la logique d’affichage (si une sélection spécifique est effectuée sur le formulaire, ce champ s’affiche). Le **D** icône en bas à droite signifie que le champ est utilisé pour définir la logique d’affichage (une sélection ou une valeur spécifique sur ce champ affichera le champ cible).
+
+Le **s** icône en bas à gauche signifie que le champ est le champ cible de la logique de saut (si une sélection spécifique est effectuée sur le formulaire, le formulaire passe à ce champ). Le **s** icône en bas à droite signifie que le champ est utilisé pour définir une logique de saut (une sélection ou une valeur spécifique sur ce champ ignorera d’autres champs et accédera directement au champ cible).
+
+La sélection d’un champ auquel la logique est appliquée affiche les règles logiques existantes dans les paramètres du champ.
+
+![Règles logiques](assets/form-designer-view-only-logic.png)
+
 ## Fonctionnalité supprimée du concepteur de formulaires
 
 Nous avons supprimé les fonctionnalités suivantes du concepteur de formulaires :
@@ -69,11 +79,12 @@ Nous avons supprimé les fonctionnalités suivantes du concepteur de formulaires
    * Les paramètres de formulaire sont désormais disponibles en haut de la zone de travail.
 
    * Panneau principal Partage de formulaires et sous-onglet Partage de champs
-   >[!NOTE]
-   >
-   >Vous pouvez contrôler le partage de formulaire et de champ à partir de l’onglet Configuration > Forms personnalisé > Forms ou Champs .
+
+  >[!NOTE]
+  >
+  >Vous pouvez contrôler le partage de formulaire et de champ à partir de l’onglet Configuration > Forms personnalisé > Forms ou Champs .
 
 * Suivre les modifications de champ dans les messages de mise à jour
-   >[!NOTE]
-   >
-   >Vous pouvez le trouver dans Configuration > Interface > Mettre à jour les flux.
+  >[!NOTE]
+  >
+  >Vous pouvez le trouver dans Configuration > Interface > Mettre à jour les flux.
