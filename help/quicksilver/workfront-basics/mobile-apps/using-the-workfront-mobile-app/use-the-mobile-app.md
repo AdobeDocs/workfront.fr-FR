@@ -6,9 +6,9 @@ description: d’accélérer l’engagement et de rationaliser le travail des é
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
+source-git-commit: 9f033787076a78f9693aa8d1e6cea714ea7cef2c
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,9 @@ Dans l’application mobile, vous pouvez terminer des tâches et afficher des in
 * Création et traitement de requêtes Workfront
 * Temps de connexion sur une feuille de temps
 
-<!--
 >[!NOTE]
 >
->The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.4 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting their proof reviews and approvals.
--->
+>Le [!DNL Adobe Workfront] l’application mobile remplace la fonction [!DNL Workfront Proof] , qui n’est plus prise en charge et sera entièrement supprimée avec la version 23.10 d’octobre. [!DNL Workfront] Les clients doivent maintenant utiliser la variable [!DNL Adobe Workfront] application mobile pour effectuer des révisions et des approbations de BAT.
 
 Pour plus d’informations sur la variable [!DNL Adobe Workfront] application mobile, passez en revue les articles suivants :
 
