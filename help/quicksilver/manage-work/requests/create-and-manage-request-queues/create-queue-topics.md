@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: Création de rubriques de file d’attente
 description: Les rubriques de file d’attente fonctionnent conjointement avec les règles de routage pour affecter automatiquement le travail entrant à un utilisateur, un rôle de tâche, une équipe ou pour le placer sur un projet. Les rubriques de la file d’attente définissent les conditions nécessaires à la mise en oeuvre de la règle de routage.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -140,14 +141,18 @@ Vous devez disposer des éléments suivants :
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Types de requêtes</strong> </td> 
-      <td> <p>Sélectionnez le type de requêtes que cette rubrique de file d’attente stocke. Les options visibles sont définies sur la variable <strong>Détails de la file</strong> de projet. Champ obligatoire. </p> <p>Remarque : Les types de requête s’affichent sous forme de sélection dans la zone Requêtes uniquement si le type de requête est sélectionné dans les pages Détails de la file d’attente et Rubrique de la file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>. </p> <p>Choisissez parmi les types suivants :</p> 
-       <ul> 
-        <li>Rapport sur les bogues</li> 
-        <li>Modifier l'ordre</li> 
-        <li>Problème</li> 
-        <li>Demande</li> 
-       </ul> <p>Votre administrateur Workfront a peut-être renommé certaines de ces options. </p> </td> 
-     </tr> 
+      <td> <p>Sélectionnez le type de requêtes que cette rubrique de file d’attente stocke. Les options visibles sont définies sur la variable <strong>Détails de la file</strong> de projet. Champ obligatoire. </p>
+
+   <p><b>NOTE</b>:
+
+   Les types s’affichent sous forme de sélection dans la zone Requêtes uniquement si le type de requête est sélectionné dans les pages Détails de la file d’attente et Rubrique de la file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>. </p> <p>Choisissez parmi les types suivants :</p>
+   <ul>
+   <li>Rapport sur les bogues</li>
+   <li>Modifier l&#39;ordre</li>
+   <li>Problème</li>
+   <li>Demande</li>
+   </ul> <p>Votre administrateur Workfront a peut-être renommé certaines de ces options. </p> </td>
+   </tr> 
     </tbody> 
    </table>
 

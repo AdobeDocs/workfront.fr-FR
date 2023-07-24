@@ -4,9 +4,11 @@ navigation-topic: create-and-manage-request-queues
 title: Création de groupes de rubriques
 description: Les groupes de rubriques sont associés aux files d’attente de demandes. Ils vous permettent de regrouper vos files d’attente de requêtes en plusieurs catégories, selon la nature des requêtes.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -58,7 +60,6 @@ Pour plus d’informations sur la création de files d’attente de requête, vo
 >* Le nombre de rubriques de file d’attente pouvant être associées à un groupe de rubriques n’est pas limité.
 >* Les groupes de rubriques sont un objet à reporter.
 >
-
 
 ## Création de groupes de rubriques
 
