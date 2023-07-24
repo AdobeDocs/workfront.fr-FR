@@ -6,9 +6,9 @@ description: La visionneuse de vérification de l’appli de bureau, conçue pri
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 0e8cc1e307dc82a4c1745d50de062024a5007da6
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Installation de la visionneuse de vérification de l’appli de bureau sur Mac
 
-Si votre administrateur Adobe Workfront ou votre administrateur de BAT Workfront a téléchargé l’application sur votre poste de travail et configuré la visionneuse de BAT de bureau en tant que visionneuse par défaut pour les BAT interactifs, vous pouvez terminer l’installation simplement en ouvrant un BAT interactif dans la zone Documents.
+Si votre administrateur Adobe Workfront ou votre administrateur de BAT Workfront a téléchargé l’application sur votre poste de travail et configuré la visionneuse de BAT pour Bureau en tant que visionneuse par défaut pour les BAT interactifs, vous pouvez terminer l’installation simplement en ouvrant un BAT interactif à partir de la zone Documents.
 
 Si ce n’est pas le cas, vous pouvez suivre les étapes ci-dessous.
 

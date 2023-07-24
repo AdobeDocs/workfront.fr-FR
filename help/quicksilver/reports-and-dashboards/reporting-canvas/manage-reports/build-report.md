@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Histoire</td> 
-       <td> <p>Ajoutez du texte qui met en contexte les informations du rapport.</p> <p>Pour plus d’informations, voir [lien éventuel].</p> </td> 
+       <td> <p>Ajoutez du texte qui met en contexte les informations du rapport.</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Contenu web</td> 
@@ -61,7 +61,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Filtre Canevas</td> 
-       <td> <p>Ajoutez un filtre qui permet aux utilisateurs d’examiner différents aspects d’un rapport. Ce filtre s’applique à toutes les données du rapport.</p> <p>Pour plus d’informations, voir [lien éventuel].</p> </td> 
+       <td> <p>Ajoutez un filtre qui permet aux utilisateurs d’examiner différents aspects d’un rapport. Ce filtre s’applique à toutes les données du rapport.</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
      </tr> 
      <tr> 
       <td role="rowheader">Favori du rapport</td> 
-      <td>Après avoir quitté le volet d’édition, cliquez sur le <strong>Étoile</strong> icône [icône] en regard du nom du rapport à ajouter à votre liste de rapports favoris.</td> 
+      <td>Après avoir quitté le volet d’édition, cliquez sur le <strong>Étoile</strong> en regard du nom du rapport à ajouter à votre liste de rapports favoris.</td> 
      </tr> 
     </tbody> 
    </table>

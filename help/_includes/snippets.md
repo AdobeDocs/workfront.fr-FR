@@ -1,5 +1,5 @@
 ---
-source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 0%
@@ -109,7 +109,6 @@ Pour configurer les dossiers liés :
 >* Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
 >* Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **[!UICONTROL Menu Principal]** ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit de la page, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Accueil]**.
 >
-
 
 <!-- Integrations -->
 
@@ -239,7 +238,7 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
 
 ## Dernière version de DPV {#latest-version}
 
-**Dernière version**: 2.1.23 à partir du 3/23/2023
+**Dernière version**: 2.1.24 à partir du 5/15/2023
 
 <!-- Release -->
 
@@ -280,20 +279,18 @@ Vous pouvez modifier l’état appliqué à l’élément de travail à l’aide
    >* Lorsque vous sélectionnez un état pour chaque type d’élément de travail, la tâche ou l’état d’émission est défini sur cet état lorsqu’un utilisateur clique sur Terminé sur son élément. Si vous définissez plusieurs états pour chaque type d’élément de travail, un menu déroulant est ajouté au bouton Terminé et l’utilisateur doit sélectionner un état pour modifier l’état de l’élément de travail.
    >* Vous pouvez associer uniquement les états au niveau du système au bouton Terminé . Vous ne pouvez pas associer des états spécifiques à un groupe à des états d’éléments de travail.
    >* Lorsqu’un utilisateur affecté à l’élément le place dans l’état associé au bouton Terminé, l’élément s’affiche comme Terminé pour cet utilisateur, que l’état sélectionné soit Terminé ou Fermé ou qu’il s’agisse d’un état de travail.
-
    >   
    >   
    >  Par exemple, si vous associez le bouton Terminé à En cours, l’élément de travail s’affiche comme Terminé pour l’utilisateur qui passe de l’état Nouveau à En cours.
    >   
    >* Les types de problème sont personnalisables et peuvent avoir des noms différents de ceux répertoriés ci-dessous dans votre environnement.\
-      >  Voici les tâches par défaut et les types de problèmes :
-      >     
-      >   * Tâches
-      >   * Problème
-      >   * Demande
-      >   * Modifier l&#39;ordre
-      >   * Rapport sur les bogues
-
+   >  Voici les tâches par défaut et les types de problèmes :
+   >     
+   >   * Tâches
+   >   * Problème
+   >   * Demande
+   >   * Modifier l&#39;ordre
+   >   * Rapport sur les bogues
 
    Si la tâche ou le problème est assigné à plusieurs utilisateurs, l’option &quot;Terminé avec ma part&quot; s’affiche dans le menu déroulant, en plus des différents statuts choisis pour votre équipe.
 

@@ -7,9 +7,9 @@ description: A Select ou Premium [!DNL Workfront] Planifiez l’utilisation de c
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Tout d’abord, vous devez configurer la section Champ personnalisé à laquelle
    | **Searchable** | Permet aux utilisateurs de trouver des éléments en effectuant une recherche sur les données de champ personnalisé. |
    | **Masqué** | Masque le champ personnalisé sur l’objet [!UICONTROL Nouveau BAT], nouvel invité et [!UICONTROL Nouvel utilisateur] pages |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 1. Dans le **Champ personnalisé** qui s’affiche, cliquez sur **[!UICONTROL Paramètres des champs personnalisés]** pour actualiser la page.
@@ -75,6 +75,10 @@ Tout d’abord, vous devez configurer la section Champ personnalisé à laquelle
 
    Vous pouvez utiliser des valeurs de contrôle pour déterminer les valeurs du champ de contrôle qui, si elles sont sélectionnées, rendront le champ dépendant visible. Par exemple, imaginez que le champ dépendant est A et que le champ contrôlant est X et que vous définissez les valeurs de contrôle dans X sur les options 1 et 2 uniquement. Cela signifie que le champ A ne sera visible que si l’option 1 ou 2 du champ X est sélectionnée. Cela signifie que si les options 3 ou 4 du champ X sont sélectionnées, le champ A ne s’affiche pas. Ouvrez le **[!UICONTROL Règles de visibilité]** .
 
+   >[!NOTE]
+   >
+   >Seuls les types de champs personnalisés Liste et Radio peuvent être utilisés pour le champ de contrôle dans une règle de visibilité, tandis que le champ dépendant peut être n’importe quel type de champ.
+
    Pour ajouter une règle de visibilité :
 
    1. Cliquez sur **[!UICONTROL Nouvelle règle de visibilité]** pour le module dans lequel vous souhaitez ajouter la règle.
@@ -87,6 +91,10 @@ Tout d’abord, vous devez configurer la section Champ personnalisé à laquelle
    Si l’option 1 du champ Y est sélectionnée, seules les options 1 et 2 du champ B sont affichées.
 
    Si l’option 2 du champ Y est sélectionnée, seules les options 3 et 4 du champ B sont affichées.
+
+   >[!NOTE]
+   >
+   >Seuls les types de champs personnalisés Liste et Radio peuvent être utilisés pour les champs dépendants et de contrôle dans une règle de dépendance.
 
    Pour ajouter une règle de dépendance :
 
