@@ -6,14 +6,20 @@ description: Suivez ces conseils pour mettre à jour en douceur votre organisati
 author: Becky
 feature: Product Announcements
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
 
 # Préparation d’une [!DNL Adobe Workfront] version planifiée
+
+>[!NOTE]
+>
+>Workfront offre deux modèles pour la publication de nouvelles fonctionnalités et de mises à jour. Votre entreprise peut choisir de recevoir les nouvelles fonctionnalités tous les trimestres ou selon un calendrier de publication plus rapide. Le processus de préparation d’une version est similaire, quel que soit le modèle utilisé par votre entreprise.
+>
+>Pour obtenir une explication détaillée des deux modèles de version, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 [!DNL Adobe Workfront] publie régulièrement des mises à jour majeures de l’environnement de production. Comme [!DNL Workfront] administrateur, vous avez la possibilité de vous assurer que votre entreprise bénéficie d’une transition en douceur vers chaque nouvelle version de [!DNL Workfront] produit.
 
@@ -50,7 +56,7 @@ Nous vous recommandons de prendre en compte certaines ou toutes les actions suiv
 
 Les notes de mise à jour d’une fonction donnée sont publiées lorsque la fonction est envoyée à votre [!UICONTROL Aperçu d’un environnement de test] environnement. De cette manière, vous pouvez découvrir et explorer la fonctionnalité avant qu’elle ne fasse partie de votre environnement de production.
 
-Chaque version comporte une page d’aperçu des mises à jour comprenant de brèves descriptions de chaque fonctionnalité et des liens vers des notes plus détaillées qui contiennent des informations supplémentaires ainsi que des vidéos de démonstration. Ces notes détaillées sont organisées par semaine au fur et à mesure que les versions à prévisualiser se produisent, puis sont réorganisées par zone plus proche de la date de publication réelle de la production.
+Chaque version comporte une page d’aperçu des mises à jour comprenant de brèves descriptions de chaque fonctionnalité et des liens vers des notes plus détaillées qui contiennent des informations supplémentaires ainsi que des vidéos de démonstration. Ces notes détaillées sont organisées par semaine au fur et à mesure que les versions à prévisualiser se produisent, puis sont réorganisées par zone plus proche de la date de publication trimestrielle de la production réelle.
 
 Nous vous recommandons vivement de regarder les vidéos de démonstration disponibles dans les notes de mise à jour. Elles peuvent s’avérer particulièrement utiles pour voir la fonction en cours d’action ou pour examiner rapidement le contexte de la fonction si vous n’êtes pas en mesure de l’exécuter à temps.
 
@@ -78,7 +84,7 @@ Comme [!DNL Workfront] administrateur, vous recevrez le message du centre d’an
 
 ### Explorez les [!UICONTROL Aperçu d’un environnement de test] environnement
 
-Le [!UICONTROL Aperçu d’un environnement de test] , également appelé [!UICONTROL Aperçu] sert d’environnement dans lequel les utilisateurs de votre entreprise peuvent tester et travailler en toute sécurité avec une copie distincte de vos données de l’environnement de production. [!UICONTROL Workfront] publie de nouvelles fonctionnalités dans l’environnement Aperçu bien avant qu’elles ne soient publiées dans l’environnement de production. Vous avez la possibilité de vous familiariser avec ces fonctionnalités avant qu’elles ne soient intégrées aux workflows quotidiens de vos utilisateurs. Si vos utilisateurs ont des difficultés à tirer parti des nouvelles fonctionnalités, vous pourrez alors les aider à s’adapter plus facilement.
+Le [!UICONTROL Aperçu d’un environnement de test] , également appelé [!UICONTROL Aperçu] sert d’environnement dans lequel les utilisateurs de votre entreprise peuvent tester et travailler en toute sécurité avec une copie distincte de vos données de l’environnement de production. [!UICONTROL Workfront] libère généralement de nouvelles fonctionnalités dans l’environnement Aperçu au moins deux semaines avant qu’elles ne soient publiées dans l’environnement de production. Vous avez la possibilité de vous familiariser avec ces fonctionnalités avant qu’elles ne soient intégrées aux workflows quotidiens de vos utilisateurs. Si vos utilisateurs ont des difficultés à tirer parti des nouvelles fonctionnalités, vous pourrez alors les aider à s’adapter plus facilement.
 
 >[!TIP]
 >
