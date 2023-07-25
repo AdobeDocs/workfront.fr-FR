@@ -3,29 +3,29 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Accès aux objets et aux zones par pour les nouvelles licences
+title: Accès aux objets et aux zones par de nouvelles licences
 description: Le tableau ci-dessous vous indique le niveau d’accès le plus élevé (Modifier ou Afficher) autorisé par chacune des licences Adobe Workfront pour les objets et les zones de Workfront.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '397'
 ht-degree: 17%
 
 ---
 
-# Accès aux objets et aux zones par pour les nouvelles licences
+# Accès aux objets et aux zones par de nouvelles licences
 
 Le tableau ci-dessous vous indique le niveau d’accès le plus élevé (Modifier ou Afficher) autorisé par chacune des licences Adobe Workfront pour les objets et les zones de Workfront.
 
 * **Affichage**: L’utilisateur peut consulter et partager des éléments.
 * **Modifier**: L’utilisateur peut créer, modifier, supprimer et partager des éléments.
 
-   >[!NOTE]
-   >
-   >Lorsqu’un autre utilisateur partage un objet, le responsable du partage peut spécifier des autorisations qui limitent sa capacité de modification. Pour plus d’informations, voir [Présentation des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >[!NOTE]
+  >
+  >Lorsqu’un autre utilisateur partage un objet, le responsable du partage peut spécifier des autorisations qui limitent sa capacité de modification. Pour plus d’informations, voir [Présentation des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -92,7 +92,7 @@ Le tableau ci-dessous vous indique le niveau d’accès le plus élevé (Modifie
         <td>Affichage (aucune autorisation de partage)</td>
     </tr>
     <tr>
-        <td>Utilisateurs</td>
+        <td>Utilisateurs et utilisatrices</td>
         <td>Modifier</td>
         <td>Afficher</td>
         <td>Afficher</td>
