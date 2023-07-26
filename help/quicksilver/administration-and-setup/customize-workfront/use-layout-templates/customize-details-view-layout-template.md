@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur clique sur l’icône Détails . ![](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un problème, d’un document, d’un programme ou d’un portfolio.
+En tant qu’administrateur d’Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur clique sur l’icône Détails . ![](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un problème, d’un document, d’un programme ou d’un portfolio.
 
 <!--
 or billing record
@@ -35,19 +35,18 @@ Après avoir configuré un modèle de mise en page, vous devez l’affecter aux 
 
 Les modifications apportées à la vue Détails d’un objet déterminent également la disponibilité et l’ordre des champs visibles par les utilisateurs dans les zones suivantes :
 
-<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
-* "New object" boxes, such as New Task and New Issue
+
+* Boîtes &quot;Créer un objet&quot;, telles que Créer une tâche
 
   ![](assets/new-task-dialog.png)
 
--->
 
-* Écrans &quot;Modifier l’objet&quot;, tels que Modifier la tâche, Modifier le problème et Modifier le projet
+* Écrans &quot;Modifier l’objet&quot; lors de la modification d’un objet, tels que Modifier la tâche, Modifier le problème et Modifier le projet
 
   ![](assets/edit-task-screen.png)
 
 
-* Écrans &quot;Modifier des objets&quot; lors de l’édition d’objets en bloc. Actuellement, cette fonctionnalité est prise en charge pour la modification en masse de projets.
+* Ecrans &quot;Modifier des objets&quot; lors de l’édition d’objets en bloc. Actuellement, cette fonctionnalité est prise en charge pour la modification en masse de projets.
 
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
@@ -85,7 +84,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
    <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur système.
-Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +92,7 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 ## Personnaliser ce que voient les utilisateurs dans la vue Détails
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Création et gestion des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow-12x12.png) under **Personnalisation des éléments affichés par les utilisateurs**, puis cliquez sur **Projet**, **Tâche**, **Problème**, **Programme** ou **Portfolio.**
+1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow-12x12.png) under **Personnalisation des éléments affichés par les utilisateurs**, puis cliquez sur **Projet**, **Tâche**, **Problème**, **Programme**, ou **Portfolio.**
 <!--
 , or billing record
 -->
@@ -107,7 +106,7 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
      Tous les champs sont activés par défaut.
 
-1. Continuez à personnaliser le modèle de mise en page.
+1. Poursuivez la personnalisation du modèle de mise en page.
 
    Ou
 

@@ -2,20 +2,27 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Afficher les éléments dans le [!UICONTROL Liste de tâches] dans la zone Accueil
-description: Le [!UICONTROL Liste de tâches] dans le [!UICONTROL Accueil] affiche toutes les tâches qui vous sont affectées. Vous pouvez contrôler les éléments qui s’affichent dans la variable [!UICONTROL Travail] Liste comme décrit ci-dessous.
+description: La variable [!UICONTROL Liste de tâches] dans le [!UICONTROL Accueil] affiche toutes les tâches qui vous sont affectées. Vous pouvez contrôler les éléments qui s’affichent dans le [!UICONTROL Travail] Liste comme décrit ci-dessous.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: c111ae72da39fc1637320d993906ae9451e17e99
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
 
 # Afficher les éléments dans le [!UICONTROL Liste de tâches] dans la zone Accueil
 
-Le [!UICONTROL Liste de tâches] dans le [!UICONTROL Accueil] affiche toutes les tâches qui vous sont affectées. Vous pouvez contrôler les éléments qui s’affichent dans la variable [!UICONTROL Travail] Liste comme décrit ci-dessous.
+La variable [!UICONTROL Liste de tâches] dans le [!UICONTROL Accueil] affiche toutes les tâches qui vous sont affectées. Vous pouvez contrôler les éléments qui s’affichent dans le [!UICONTROL Travail] Liste comme décrit ci-dessous.
+
+>[!NOTE]
+>
+>Lors de la conversion d’un problème en une tâche ou un projet, le problème est supprimé de la zone Accueil de l’utilisateur affecté au problème.
+>
+>Lors de la conversion d’une tâche en projet, la tâche est supprimée de la zone Accueil de l’utilisateur affecté à la tâche.
+
 
 ## Exigences d’accès
 
@@ -100,7 +107,7 @@ Vous pouvez filtrer les éléments de la variable [!UICONTROL Liste de tâches] 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Problèmes demandés]</strong></td> 
-      <td>Affiche uniquement les problèmes auxquels vous êtes affecté mais pour lesquels vous n’avez pas cliqué sur le bouton [!UICONTROL Travailler dessus].</td> 
+      <td>Affiche uniquement les problèmes auxquels vous êtes affecté, mais pour lesquels vous n’avez pas cliqué sur le bouton [!UICONTROL Travailler dessus].</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Personnel</strong></td> 
@@ -117,7 +124,7 @@ Vous pouvez filtrer les éléments de la variable [!UICONTROL Liste de tâches] 
         <ul> 
          <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Approbations de travail</a> </p> </li> 
         </ul> 
-        <p>Remarque : Les approbations que vous avez envoyées et pour lesquelles vous êtes également l’un des approbateurs sont comptabilisées deux fois.</p> 
+        <p>Remarque : les approbations que vous avez envoyées et pour lesquelles vous êtes également l’un des approbateurs sont comptabilisées deux fois.</p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -133,17 +140,16 @@ Vous pouvez filtrer les éléments de la variable [!UICONTROL Liste de tâches] 
    >
    >* Les options de filtre sont basées sur des objets (Tâches, Problèmes, Approbations, Tâches personnelles).
    >* Les tâches et les problèmes sont filtrés davantage par leur état, en fonction de notre volonté de travailler dessus ([!UICONTROL Utilisation de], [!UICONTROL Prêt à démarrer], [!UICONTROL Pas prêt] pour les tâches, et [!UICONTROL Utilisation de] et [!UICONTROL Demandé] pour les problèmes). Vous pouvez choisir d’afficher les tâches ou les problèmes dans un état spécifique ou cliquer sur Tâches ou Problèmes pour sélectionner et afficher tous les états.
-   >* Il existe un filtre distinct pour les éléments terminés et il inclut les tâches et les problèmes. Cela ne comprend pas les approbations. Le [!UICONTROL Terminé] filtre inclut les tâches personnelles.
-   >* Vous ne pouvez sélectionner qu’un seul état à la fois. Par exemple, vous pouvez afficher uniquement [!UICONTROL Utilisation de] tâches et uniquement [!UICONTROL Demandé] problèmes.
+   >* Il existe un filtre distinct pour les éléments terminés et il inclut les tâches et les problèmes. Cela n’inclut pas les approbations. La variable [!UICONTROL Terminé] filtre inclut les tâches personnelles.
+   >* Vous pouvez sélectionner un seul état à la fois. Par exemple, vous pouvez afficher uniquement [!UICONTROL Utilisation de] tâches et uniquement [!UICONTROL Demandé] problèmes.
    >* Vous ne pouvez pas appliquer de filtres aux éléments affectés à l’une de vos équipes et ils ne sont pas inclus dans les éléments qui vous sont directement affectés.
-
 
 
 1. (Facultatif) Organisez davantage la variable [!UICONTROL Liste de tâches], comme décrit dans la section [Grouper et trier par date, projet et priorité](#group-and-sort-by-date-project-and-priority) dans cet article.
 
 ## Regrouper et trier par [!UICONTROL Date], [!UICONTROL Projet], et [!UICONTROL Priorité]
 
-Vous pouvez regrouper et trier les [!UICONTROL Liste de tâches] par [!UICONTROL Date d’achèvement prévue], [!UICONTROL Date de validation], [!UICONTROL Projet]ou [!UICONTROL Ma priorité]. L’option choisie détermine le mode de regroupement des éléments dans la variable [!UICONTROL Liste de tâches].
+Vous pouvez regrouper et trier les [!UICONTROL Liste de tâches] par [!UICONTROL Date d’achèvement prévue], [!UICONTROL Date de validation], [!UICONTROL Projet], ou [!UICONTROL Ma priorité]. L’option choisie détermine le mode de regroupement des éléments dans la variable [!UICONTROL Liste de tâches].
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. Cliquez sur le bouton **[!UICONTROL Group by]** menu déroulant.
@@ -205,7 +211,7 @@ Vous pouvez regrouper et trier les [!UICONTROL Liste de tâches] par [!UICONTROL
 
 [!DNL Adobe Workfront] utilise les dates suivantes pour déterminer si les demandes de travail sont en retard :
 
-* **Tâches**: [!UICONTROL Date d’achèvement prévue]
+* **Tâche**: [!UICONTROL Date d’achèvement prévue]
 * **Problèmes**: [!UICONTROL Date d’achèvement prévue]
 * **Documents**: [!UICONTROL Date d’envoi]
 * **Feuilles de temps**: [!UICONTROL Date d’envoi]
@@ -227,20 +233,20 @@ Pour rechercher la variable [!UICONTROL Liste de tâches]:
 1. ![](assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png)
 
 1. Commencez à saisir le nom de l’élément que vous recherchez.\
-   Le [!UICONTROL Liste de tâches] est automatiquement filtré afin d’inclure les éléments dont le nom correspond.
+   La variable [!UICONTROL Liste de tâches] est automatiquement filtré afin d’inclure les éléments dont le nom correspond.
 
 ## Modification de la taille de la liste de tâches
 
 Vous pouvez modifier la taille de la variable [!UICONTROL Liste de tâches] de sorte qu’elle consomme entre environ un quart de la zone d’accueil et environ la moitié de la [!UICONTROL Accueil] zone.
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. Passez la souris sur le bord droit de la [!UICONTROL Liste de tâches], puis faites glisser vers la gauche ou vers la droite jusqu’à ce que la liste de tâches corresponde à la taille souhaitée.
+1. Passez la souris sur le bord droit de la [!UICONTROL Liste de tâches], puis faites glisser vers la gauche ou vers la droite jusqu’à ce que la liste de tâches ait la taille souhaitée.
 
 ## Réduire et développer des groupements
 
 Éléments dans la variable [!UICONTROL Liste de tâches] s’affichent dans des regroupements. Vous pouvez réduire et développer des regroupements afin de contrôler le volume d’informations affichées sur la page à un moment donné.
 
-Vous pouvez réduire et développer des groupes au sein de la [!UICONTROL Liste de tâches] pour mieux contrôler quelles informations sont visibles.\
+Vous pouvez réduire et développer des groupes au sein de la variable [!UICONTROL Liste de tâches] pour mieux contrôler quelles informations sont visibles.\
 Par défaut, la variable [!UICONTROL Cette semaine] Le regroupement est développé et tous les autres regroupements sont réduits. Toutes les modifications que vous apportez sont mémorisées la prochaine fois que vous accédez à la zone Accueil.
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.

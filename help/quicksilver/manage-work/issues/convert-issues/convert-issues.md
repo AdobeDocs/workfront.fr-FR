@@ -5,10 +5,12 @@ title: Présentation des problèmes de conversion dans Adobe Workfront
 description: Si davantage de travail doit être fait pour résoudre un problème après l’envoi du problème, vous pouvez convertir le problème en projet ou en tâche.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
@@ -30,6 +32,8 @@ Pour plus d’informations sur la conversion de problèmes en projets, voir [Con
 
    * Pendant la conversion, vous serez peut-être invité à conserver le problème et sa résolution liés au projet ou à la tâche que vous créez.
    * Si vous conservez le problème, l’état et le pourcentage d’achèvement du projet ou de la tâche mettent automatiquement à jour l’état et le pourcentage d’achèvement du problème lorsque des modifications se produisent sur le projet, la tâche ou le problème, ou lorsque Workfront recalcule la chronologie.
+
+* Lors de la conversion d’un problème en une tâche ou un projet, le problème est supprimé de la zone Accueil de l’utilisateur affecté au problème.
 
 * Lors de la conversion d’un problème en projet à l’aide d’un modèle, la plupart des informations du modèle sont transférées vers le nouveau projet. Cependant, certaines informations provenant du problème peuvent également être transférées vers le nouveau projet. Pour plus d’informations, voir [Présentation des champs du projet lors de la conversion d’un problème en projet à l’aide d’un modèle](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) dans cet article.
 * Lors de la conversion d’un problème, tous les documents ou leurs informations ne sont pas déplacés vers le nouvel objet vers lequel le problème est converti. Les éléments suivants sont inclus lorsque vous convertissez un problème auquel sont associés des documents ou des liens vers des documents :
@@ -82,7 +86,7 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
   </tr> 
   <tr> 
    <td>Condition du projet</td> 
-   <td>Correspond à la préférence par défaut au niveau du système, déterminée par l’administrateur Workfront dans la zone Configuration . Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Définition d’une condition personnalisée comme condition par défaut pour les projets</a></td> 
+   <td>Correspond à la préférence par défaut au niveau du système, déterminée par l’administrateur Workfront dans la zone Configuration . Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Définir une condition personnalisée comme condition par défaut pour les projets</a></td> 
   </tr> 
   <tr> 
    <td>Planifier à partir de</td> 
@@ -92,8 +96,8 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
    <td>Dates de projets</td> 
    <td> 
     <ul> 
-     <li> <p><b>Date de début planifiée</b>: Le temps de travail le plus proche basé sur l’heure de travail du modèle doit être présélectionné, en fonction du fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir de est défini sur À partir de la fin. </p> </li> 
-     <li> <p><b>Date d’achèvement prévue</b>: Le temps de travail le plus proche basé sur l’heure de travail du modèle doit être présélectionné, en fonction du fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir du est défini sur À partir du début. </p> </li> 
+     <li> <p><b>Date de début planifiée</b>: le temps de travail le plus proche basé sur l’heure de travail du planning du modèle doit être présélectionné, en fonction du fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir de est défini sur À partir de la fin. </p> </li> 
+     <li> <p><b>Date d’achèvement prévue</b>: le temps de travail le plus proche basé sur l’heure de travail du planning du modèle doit être présélectionné, en fonction du fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir du est défini sur À partir du début. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -227,7 +231,7 @@ Le tableau suivant illustre les champs de problème visibles à partir des proje
 
 | Champs de problème | Champ de projet ou de tâche | Liste ou rapport de projets | Zone Détails du projet | Liste ou rapport de tâches | Zone Détails de la tâche |
 |---|---|---|---|---|---|
-| Nom de l&#39;événement | Nom de l&#39;événement converti | ✔ | ✔ | ✔ | ✔ |
+| Nom de l&#39;événement | Nom du problème converti | ✔ | ✔ | ✔ | ✔ |
 | Contact principal | Nom de l’auteur du problème converti | ✔ | `✔` | ✔ |   |
 | Date d’entrée | Date d’entrée du problème convertie | ✔ |   | ✔ |   |
 
