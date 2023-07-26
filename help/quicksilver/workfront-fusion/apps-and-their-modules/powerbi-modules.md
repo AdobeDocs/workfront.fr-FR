@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Modules Power BI
 description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
 author: Becky
+feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2398'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -52,9 +53,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -343,7 +344,7 @@ Ce module d’action supprime un rapport.
     <tr>
       <td role="rowheader">[!UICONTROL ID de rapport]</td>
       <td>
-        <p>Saisissez ou mappez l’identifiant du rapport à supprimer.</p>
+        <p>Saisissez ou mappez l’identifiant du rapport que vous souhaitez supprimer.</p>
       </td>
     </tr>
     <tr>
@@ -437,19 +438,19 @@ Ce module d’action crée un jeu de données.
         <p>Sélectionnez ou mappez le mode par défaut du jeu de données :</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL As Azure]</b>: Un jeu de données avec une connexion en direct à [!DNL Azure Analysis Service]</p>
+            <p><b>[!UICONTROL As Azure]</b>: un jeu de données avec une connexion en direct à [!DNL Azure Analysis Service]</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Comme sur Prem]</b>: Un jeu de données avec une connexion en direct à [!DNL On-premise Analysis] Service</p>
+            <p><b>[!UICONTROL Comme sur Prem]</b>: un jeu de données avec une connexion en direct à [!DNL On-premise Analysis] Service</p>
           </li>
           <li>
-            <p><b>[!DNL Push]</b>: Jeu de données qui permet un accès programmatique pour transférer des données dans [!DNL Power BI]</p>
+            <p><b>[!DNL Push]</b>: un jeu de données qui permet un accès programmatique pour transférer des données dans [!DNL Power BI]</p>
           </li>
           <li>
-            <p><b>[!DNL Push Streaming]</b>: Un jeu de données qui prend en charge la diffusion de données en continu et permet un accès programmé pour transférer des données dans [!DNL Power BI]</p>
+            <p><b>[!DNL Push Streaming]</b>: un jeu de données qui prend en charge la diffusion de données en continu et permet un accès programmé pour transférer des données dans [!DNL Power BI]</p>
           </li>
           <li>
-            <p><b>[!DNL Streaming]</b>: Un jeu de données prenant en charge la diffusion de données en continu</p>
+            <p><b>[!DNL Streaming]</b>: un jeu de données qui prend en charge la diffusion de données en continu</p>
           </li>
         </ul>
       </td>
@@ -529,7 +530,7 @@ Ce module d’action crée un jeu de données.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td role="rowheader">[!UICONTROL Rangées]</td>
       <td>Renseignez ou mappez les détails des lignes.</td>
     </tr>
     <tr>
@@ -627,7 +628,7 @@ Ce module d’action ajoute ou supprime des lignes d’une table de jeux de donn
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td role="rowheader">[!UICONTROL Rangées]</td>
       <td>
         <p>Ajoutez les champs de ligne.</p>
         <ul>
@@ -678,7 +679,7 @@ Ce module d’action actualise un jeu de données spécifié.
    <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Saisie d’un jeu de données]</td>
+      <td role="rowheader">[!UICONTROL Entrer un jeu de données]</td>
       <td>Sélectionnez ou mappez l’option pour sélectionner le jeu de données à actualiser.</td>
     </tr>
     <tr>
@@ -961,7 +962,7 @@ Ce module d’action effectue un appel API à la fonction [!DNL Power BI] API.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

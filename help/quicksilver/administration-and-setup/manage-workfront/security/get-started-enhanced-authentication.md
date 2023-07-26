@@ -3,8 +3,10 @@ title: Présentation de l’authentification améliorée
 description: Masqué de la recherche et du volet de navigation de gauche
 hidefromtoc: true
 hide: true
+feature: System Setup and Administration
+role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: ab329085fae35fdda28dc8db70e3b47d9d6c28ea
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 3%
@@ -80,8 +82,8 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
   <tr> 
    <td> <p>Définition d’un mot de passe temporaire pour un utilisateur en tant qu’administrateur Workfront</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>Non planifié</p> <p>Cette fonctionnalité n’est pas une bonne pratique en matière de sécurité</p> </td> 
-   <td> <p>Non planifié</p> <p>Cette fonctionnalité n’est pas une bonne pratique en matière de sécurité</p> </td> 
+   <td> <p>Non planifié</p> <p>Cette fonctionnalité n’est pas une bonne pratique de sécurité</p> </td> 
+   <td> <p>Non planifié</p> <p>Cette fonctionnalité n’est pas une bonne pratique de sécurité</p> </td> 
   </tr> 
   <tr> 
    <td colspan="3"> <p><strong>Exigences en matière de stratégie de mot de passe</strong> </p> </td> 
@@ -171,7 +173,7 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Un nom d’utilisateur et un mot de passe uniques pour les environnements Sandbox.</p> </td> 
+   <td> <p>Nom d’utilisateur et mot de passe uniques pour les environnements Sandbox</p> </td> 
    <td> <p>non disponible</p> </td> 
    <td> <p>non disponible</p> </td> 
    <td> <p>✓</p> </td> 

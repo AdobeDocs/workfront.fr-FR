@@ -4,8 +4,9 @@ content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Modifier le format des dates dans [!DNL Adobe Workfront]
 description: Pour modifier le format de date des dates dans [!DNL Adobe Workfront] vous devez modifier les paramètres de langue dans votre navigateur.
+feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -16,11 +17,11 @@ ht-degree: 0%
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-Pour modifier le format des dates dans [!DNL Adobe Workfront], par exemple [!UICONTROL Date d’achèvement prévue], [!UICONTROL Date d’achèvement réelle]ou [!UICONTROL Date d’achèvement prévue], de JJ/MM/AAAA à MM/JJ/AAAA ou inversement, par exemple, vous devez modifier les paramètres de langue dans votre navigateur.
+Pour modifier le format des dates dans [!DNL Adobe Workfront], par exemple [!UICONTROL Date d’achèvement prévue], [!UICONTROL Date d’achèvement réelle], ou [!UICONTROL Date d’achèvement prévue], de JJ/MM/AAAA à MM/JJ/AAAA ou inversement, par exemple, vous devez modifier les paramètres de langue dans votre navigateur.
 
 Si la langue par défaut de votre navigateur est définie sur *[!UICONTROL Anglais (États-Unis)]*, les dates s’affichent au format MM/JJ/AAAA .
 
-Pour modifier les paramètres de langue dans [!DNL Chrome] Pour tout autre navigateur, vous devez modifier les paramètres de ce navigateur. Les étapes de modification des paramètres d’un navigateur varient d’un navigateur à l’autre. Consultez la section [!UICONTROL Aide], [!UICONTROL Préférences]ou [!UICONTROL Paramètres] pour savoir comment modifier ses paramètres.
+Pour modifier les paramètres de langue dans [!DNL Chrome] Pour tout autre navigateur, vous devez modifier les paramètres de ce navigateur. Les étapes de modification des paramètres d’un navigateur varient d’un navigateur à l’autre. Reportez-vous au [!UICONTROL Aide], [!UICONTROL Préférences], ou [!UICONTROL Paramètres] pour savoir comment modifier ses paramètres.
 
 <!--drafted because we should not document steps for a third-party application
 

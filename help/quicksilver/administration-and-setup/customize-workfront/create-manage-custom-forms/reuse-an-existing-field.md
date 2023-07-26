@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Réutilisation d’un champ personnalisé ou d’un widget de ressource dans un formulaire personnalisé avec l’ancien créateur de formulaires
 description: Lorsque vous créez ou modifiez un formulaire personnalisé, vous pouvez ajouter un champ ou un widget personnalisé qui a déjà été ajouté à un autre formulaire personnalisé.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Lorsque vous créez ou modifiez un formulaire personnalisé, vous pouvez ajouter un champ personnalisé ou un widget de ressource qui a déjà été ajouté à un autre formulaire personnalisé.
 
-Vous pouvez également réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé. Pour obtenir des instructions, voir [Réutilisation d’un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md).
+Vous pouvez également réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé. Pour obtenir des instructions, voir [Réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md).
 
 Pour plus d’informations sur les champs personnalisés et les widgets de ressources dans les formulaires personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 

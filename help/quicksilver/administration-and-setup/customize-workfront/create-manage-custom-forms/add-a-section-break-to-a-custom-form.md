@@ -4,10 +4,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Ajout d’un saut de section à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 description: Vous pouvez regrouper les champs personnalisés et les widgets d’un formulaire personnalisé en sections avec des en-têtes. Cela s’avère utile pour présenter une expérience organisée aux utilisateurs qui remplissent le formulaire. En outre, si vous devez limiter l’accès à certains champs et widgets personnalisés à certains utilisateurs, vous pouvez les placer dans une section, puis accorder l’accès à la section à ces utilisateurs uniquement.
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Les étapes de cet article doivent être les suivantes :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus de la section. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: Évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus de la section. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -91,19 +91,19 @@ Les étapes de cet article doivent être les suivantes :
       <td> <p> Sélectionnez les autorisations dont les utilisateurs ont besoin sur un objet où le formulaire personnalisé est joint afin d’afficher cette section et de modifier ses valeurs de champ. 
        <p>Les autorisations suivantes sont disponibles sous <b>Les utilisateurs disposant de cet accès à l’objet peuvent afficher les valeurs de champ.</b>:</p> 
          <ul>  
-          <li><p><b>Modification limitée</b>: (Disponible uniquement si l’objet est un projet, une tâche, un problème ou un utilisateur) :</p> 
+          <li><p><b>Modification limitée</b>: (disponible uniquement si l’objet est un projet, une tâche, un problème ou un utilisateur) :</p> 
           <p>Permet aux utilisateurs de contribuer à l’objet s’il s’agit d’un projet, d’une tâche ou d’un problème.</p>
           <p>Permet aux utilisateurs de modifier le profil ou de posséder l’autorisation de profil pour l’objet s’il s’agit d’un utilisateur.</p></li> 
-          <li><b>Modifier</b>: Gestion des autorisations pour l’objet </li> 
-          <li><b>Administrateur uniquement</b>: Niveau d’accès administrateur système</li> 
+          <li><b>Modifier</b>: gestion des autorisations pour l’objet </li> 
+          <li><b>Administrateur uniquement</b>: niveau d’accès administrateur système</li> 
          </ul> </li> 
         <p>Les autorisations suivantes sont disponibles sous <b>Les utilisateurs disposant de cet accès à l’objet peuvent modifier les valeurs de champ.</b>: </p> 
          <ul> 
-          <li> <p><b>Modification limitée</b>: (Disponible uniquement si l’objet est un projet, une tâche, un problème ou un utilisateur) :</p> 
+          <li> <p><b>Modification limitée</b>: (disponible uniquement si l’objet est un projet, une tâche, un problème ou un utilisateur) :</p> 
            <p>Si l’objet est un projet, une tâche ou un problème, cette autorisation permet aux utilisateurs de contribuer à l’objet</p>
           <p>Si l’objet est un utilisateur, cette autorisation permet aux utilisateurs de modifier le profil ou de posséder l’autorisation de profil pour l’objet.</p> 
-          <li><b>Modifier</b>: Gestion des autorisations pour l’objet </li> 
-          <li><b>Administrateur uniquement</b>: Niveau d’accès administrateur système</li> 
+          <li><b>Modifier</b>: gestion des autorisations pour l’objet </li> 
+          <li><b>Administrateur uniquement</b>: niveau d’accès administrateur système</li> 
          </ul> </li> 
        </ul> 
        <p>Pour plus d’informations sur les autorisations relatives aux objets, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Présentation des autorisations de partage sur les objets</a>.</p> 
@@ -124,7 +124,7 @@ Les étapes de cet article doivent être les suivantes :
 
    >[!TIP]
    >
-   >Vous pouvez cliquer sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
+   >Cliquez sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
 
 1. Si vous souhaitez continuer à créer votre formulaire personnalisé d’une autre manière, passez à l’un des articles suivants :
 

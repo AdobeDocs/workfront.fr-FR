@@ -1,8 +1,10 @@
 ---
-title: Répertorier et modifier des formulaires et des widgets personnalisés ajoutés à des formulaires personnalisés
+title: Répertorier et modifier les formulaires et widgets personnalisés ajoutés aux formulaires personnalisés
 description: Lorsque vous affichez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objet auxquels chaque formulaire personnalisé est associé.
 author: Caroline
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+feature: System Setup and Administration, Custom Forms
+role: Admin
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Répertorier et modifier des formulaires et des widgets personnalisés ajoutés à des formulaires personnalisés
+# Répertorier et modifier les formulaires et widgets personnalisés ajoutés aux formulaires personnalisés
 
 Lorsque vous affichez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objet auxquels chaque formulaire personnalisé est associé.
 
@@ -47,7 +49,7 @@ Les étapes de cet article doivent être les suivantes :
 
 1. Cliquez sur **Forms personnalisée**.
 
-   Avec le **Forms** sélectionné, tous les formulaires personnalisés de votre organisation sont répertoriés, ainsi que leurs descriptions, les types d’objets qui leur sont associés, le nom des utilisateurs qui les ont créés et s’ils sont principaux ou non dans le système.
+   Avec la variable **Forms** sélectionné, tous les formulaires personnalisés de votre organisation sont répertoriés, ainsi que leurs descriptions, les types d’objets qui leur sont associés, le nom des utilisateurs qui les ont créés et s’ils sont principaux ou non dans le système.
 
    Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un formulaire personnalisé dans la liste, reportez-vous aux articles suivants :
 
@@ -77,8 +79,7 @@ Les étapes de cet article doivent être les suivantes :
    * [Configuration du partage pour les champs et widgets personnalisés](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Suppression d’un champ ou d’un widget personnalisé du système](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
-
-1. Sélectionnez la **Sections** , puis assurez-vous que la variable **Groupe de paramètres** est sélectionné en tant que **Affichage** pour la liste.
+1. Sélectionnez la variable **Sections** , puis assurez-vous que la variable **Groupe de paramètres** est sélectionné en tant que **Affichage** pour la liste.
 
    Tous les sauts de section s’affichent dans cette vue, ainsi qu’une liste de formulaires personnalisés contenant chaque saut de section.
 

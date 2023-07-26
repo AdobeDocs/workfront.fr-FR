@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Afficher tous les formulaires personnalisés qui utilisent un champ ou un widget personnalisé spécifique
 description: Vous pouvez déterminer les formulaires personnalisés qui utilisent un champ ou un widget personnalisé que vous souhaitez modifier ou supprimer. Il est important d’évaluer si ces formulaires personnalisés devront être ajustés pour continuer à fonctionner correctement ou pour rester utiles après avoir modifié ou supprimé le champ ou le widget.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%

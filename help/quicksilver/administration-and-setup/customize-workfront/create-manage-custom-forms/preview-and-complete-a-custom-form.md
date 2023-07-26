@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Aperçu et remplissage d’un formulaire personnalisé avec le créateur de formulaires hérité
 description: Lorsque vous avez terminé de créer ou de modifier un formulaire personnalisé, vous pouvez le prévisualiser pour qu’il s’affiche pour les utilisateurs, puis l’enregistrer et le fermer.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%

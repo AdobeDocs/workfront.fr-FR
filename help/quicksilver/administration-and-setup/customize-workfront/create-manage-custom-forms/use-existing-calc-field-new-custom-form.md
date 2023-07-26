@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Réutilisation d’un champ personnalisé calculé existant dans un formulaire personnalisé avec l’ancien créateur de formulaires
 description: Vous pouvez utiliser le même champ personnalisé calculé sur les formulaires personnalisés appartenant à des objets différents. Par exemple, vous pouvez utiliser le champ calculé de profit que vous avez créé pour le formulaire personnalisé du projet sur un formulaire personnalisé de tâche.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -35,6 +35,5 @@ Vous pouvez également avoir un calcul différent pour le même champ, sur le no
 >
 >* Après avoir enregistré un objet pour lequel vous avez modifié des données dans un formulaire personnalisé joint, cliquez sur l’icône Plus ![](assets/more-icon.png) sur la page principale de l’objet, puis Recalculer les expressions personnalisées.
 >* Sélectionnez l’option Recalculer les expressions personnalisées lors de l’édition d’objets en bloc.
->* Sélectionnez l’option Mettre à jour les calculs précédents lors de la modification d’un champ personnalisé calculé sur un formulaire personnalisé.
+>* Sélectionnez l’option Mettre à jour les calculs précédents lorsque vous modifiez un champ personnalisé calculé sur un formulaire personnalisé.
 >
-

@@ -3,12 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
-description: Lorsque vous travaillez sur un formulaire personnalisé, vous pouvez créer un champ personnalisé et l’ajouter à un formulaire personnalisé. Vous pouvez également ajouter un champ personnalisé qui a déjà été ajouté à un autre formulaire personnalisé.
+description: Lorsque vous travaillez sur un formulaire personnalisé, vous pouvez créer un champ personnalisé et l’ajouter à un formulaire personnalisé. Vous pouvez également ajouter un champ personnalisé déjà ajouté à un autre formulaire personnalisé.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2264'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Lorsque vous travaillez sur un formulaire personnalisé, vous pouvez créer un champ personnalisé et l’ajouter à un formulaire personnalisé.
 
-Vous pouvez également ajouter un champ personnalisé qui a déjà été ajouté à un autre formulaire personnalisé. Pour obtenir des instructions, voir [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+Vous pouvez également ajouter un champ personnalisé déjà ajouté à un autre formulaire personnalisé. Pour obtenir des instructions, voir [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
 Pour plus d’informations sur l’ajout d’un widget de ressource à un formulaire personnalisé, processus similaire à l’ajout d’un champ personnalisé, voir [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
@@ -77,7 +77,7 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Champ de texte avec formatage</td> 
-      <td>Permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre le texte en gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets. Cette option est disponible dans la section Accueil, la zone Mises à jour, les listes et la zone Détails des objets Workfront. Une limite de caractères de 15 000 permet d’utiliser beaucoup de texte et de formatage.</p> <p>Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Stockage de champs de texte enrichi dans l’API</a>.</p> <p><b>REMARQUE</b>: Les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront (disponibles dans les prochaines versions). </p> </td> 
+      <td>Permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre le texte en gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets. Cette option est disponible dans la section Accueil, la zone Mises à jour, les listes et la zone Détails des objets Workfront. Une limite de caractères de 15 000 permet d’utiliser beaucoup de texte et de formatage.</p> <p>Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Stockage de champs de texte enrichi dans l’API</a>.</p> <p><b>REMARQUE</b>: les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront (disponibles dans les prochaines versions). </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Menu déroulant</td> 
@@ -87,7 +87,7 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader">Frappe continue </td> 
       <td>Permet aux utilisateurs de saisir le nom d’un objet existant dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur commence à saisir du texte.
       Ce type de champ prend en charge les objets suivants :
-      <ul><li>Utilisateur ou utilisatrice</li>
+      <ul><li>Utilisateur</li>
       <li>Groupe</li>
       <li>Fonction</li>
       <li>Portfolio</li>
@@ -113,7 +113,7 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Boutons radio</td> 
-      <td>Nécessite que les utilisateurs ne sélectionnent qu’un seul choix.</td> 
+      <td>Nécessite que les utilisateurs sélectionnent un seul choix.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Texte descriptif</td> 
@@ -136,7 +136,7 @@ Les étapes de cet article doivent être les suivantes :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: Évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
@@ -146,7 +146,7 @@ Les étapes de cet article doivent être les suivantes :
       <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé où il peut maintenant être référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à moins de le rajouter au rapport en utilisant le nouveau nom.</p> </li>
       <li> <p>Nous vous recommandons de ne pas saisir de nom déjà utilisé pour les champs Workfront intégrés.</p> </li>
       <li><p>Il est recommandé de ne pas utiliser le caractère point/point dans le nom du champ personnalisé afin d’éviter toute erreur lors de l’utilisation du champ dans différentes zones de Workfront.</p></li>
-      </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un qui a déjà été créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
+      </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un formulaire déjà créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
@@ -173,14 +173,14 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Afficher l'heure</td> 
-      <td>(Champs de date uniquement) Sélectionnez cette option si vous souhaitez afficher l’heure et la date dans le champ.</td> 
+      <td>(Champs de date uniquement) Sélectionnez cette option si vous souhaitez afficher l’heure et la date du jour dans le champ.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type d'objet référencé</td> 
       <td> <p>(Champ de saisie anticipée uniquement) Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur Appliquer ou sur Enregistrer+Fermer, vous ne pouvez pas modifier le type d’objet du champ.</p> <p><b>NOTE</b>:   
         <ul> 
          <li>Si votre administrateur Workfront a personnalisé le nom des Portfolios, programmes ou projets dans l’interface utilisateur de Workfront, le nom Workfront par défaut de l’objet s’affiche dans cette liste déroulante et non dans le nom personnalisé. Contactez votre administrateur Workfront si vous avez besoin d’aide.<br></li> 
-         <li>Les types d’objets suivants sont pris en charge dans les applications mobiles iOS et Android Workfront : Utilisateur, entreprise, groupe, rôle de tâche, Portfolio, programme, projet et modèle.</li> 
+         <li>Les types d’objets suivants sont pris en charge dans les applications mobiles iOS et Android Workfront : Utilisateur, Société, Groupe, Rôle de tâche, Portfolio, Programme, Projet et Modèle.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -211,12 +211,12 @@ Les étapes de cet article doivent être les suivantes :
      <tr> 
       <td role="rowheader">Suivre les modifications de champ dans les messages de mise à jour</td> 
       <td><p>Cliquez dans la liste déroulante, puis sélectionnez les types d’objets pour lesquels vous souhaitez effectuer automatiquement le suivi des modifications de valeur du champ.</p> 
-      <p><b>REMARQUE</b>: Cette option n’est pas disponible pour les éléments suivants :</p> 
+      <p><b>REMARQUE</b>: cette option n’est pas disponible pour les éléments suivants :</p> 
       <ul> 
-      <li>Formulaires personnalisés associés aux types d’objet suivants : Frais, société, itération, enregistrement de facturation et groupe.</li> 
-      <li>Les types de champ suivants sont proposés : Texte calculé , Texte descriptif et Saut de section</li> 
+      <li>Formulaires personnalisés associés aux types d’objets suivants : Frais, Société, Itération, Enregistrement de facturation et Groupe.</li> 
+      <li>Types de champ suivants : Calculé , Texte descriptif et Saut de section</li> 
       </ul>
-      <p><b>IMPORTANT</b>: La sélection ou la désélection d’un type d’objet ici affecte tous les formulaires personnalisés associés au type d’objet sélectionné et contenant ce champ. Par exemple, si vous désélectionnez ici un type d’objet et enregistrez le formulaire personnalisé, les modifications de valeur du champ ne sont plus suivies pour ce type d’objet dans un formulaire personnalisé qui contient le champ.</p>
+      <p><b>IMPORTANT</b>: la sélection ou la désélection d’un type d’objet ici affecte tous les formulaires personnalisés associés au type d’objet sélectionné et contenant ce champ. Par exemple, si vous désélectionnez ici un type d’objet et enregistrez le formulaire personnalisé, les modifications de valeur du champ ne sont plus suivies pour ce type d’objet dans un formulaire personnalisé qui contient le champ.</p>
        <p>Après avoir sélectionné ici un type d’objet pour un champ et enregistré le formulaire personnalisé, le champ s’affiche dans l’onglet Champs personnalisés de la zone Mettre à jour les flux dans Configuration.</p> 
        <p>Inversement, si ce champ est supprimé dans la zone Mettre à jour les flux de la configuration, le type d’objet de ce paramètre est désélectionné sur tous les formulaires personnalisés associés au type d’objet et contenant ce champ.</p> 
        <p>Pour plus d’informations, voir la section <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Ajout de champs dont Workfront doit effectuer le suivi</a> dans l’article <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Configuration des mises à jour du système</a>.</p> </td> 
@@ -227,19 +227,19 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Choix </td> 
-      <td> <p>(Menu déroulant, cases à cocher ou boutons radio uniquement) ; facultatif)</p> 
+      <td> <p>(Menu déroulant, cases à cocher ou boutons radio uniquement ; facultatif)</p> 
        <ol> 
         <li> <p>Cliquez sur <b>Options</b>, puis activez l’une des options suivantes :</p> 
            <ul> 
-            <li><strong>Afficher les valeurs</strong>: Affiche les valeurs de chaque choix dans le champ. Le libellé de chaque choix s’affiche par défaut.</li> 
-            <li><strong>Choix de tri A-Z</strong>: Trie par ordre alphabétique les choix que vous ajoutez dans le champ.</li> 
+            <li><strong>Afficher les valeurs</strong>: affiche les valeurs de chaque choix dans le champ. Le libellé de chaque choix s’affiche par défaut.</li> 
+            <li><strong>Choix de tri A-Z</strong>: trie par ordre alphabétique les choix que vous ajoutez dans le champ.</li> 
            </ul> 
         </li> 
         <li> <p>Pour chaque choix que vous ajoutez à l’utilisateur, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-settings.png">, puis sélectionnez l’une des options suivantes :</p> 
            <ul> 
-            <li><strong>Sélection par défaut</strong>: Sélectionnez le choix par défaut dans le champ.</li> 
-            <li> <p><strong>Masquer le choix</strong>: Masquez le choix dans le champ . Les choix masqués restent accessibles dans les rapports.</p> </li> 
-            <li> <p><strong>Supprimer le choix</strong>: Supprimez le choix du champ.</p> <p><b>AVERTISSEMENT</b>: Si ce choix est utilisé pour les objets en cours, ne le supprimez pas du champ. Sa suppression entraînera la perte de données historiques. Sélectionnez plutôt l’option pour la masquer, ce qui empêche les utilisateurs de la sélectionner ultérieurement.</p> </li> 
+            <li><strong>Sélection par défaut</strong>: sélectionnez le choix par défaut dans le champ.</li> 
+            <li> <p><strong>Masquer le choix</strong>: masque le choix dans le champ. Les choix masqués restent accessibles dans les rapports.</p> </li> 
+            <li> <p><strong>Supprimer le choix</strong>: supprimez le choix du champ.</p> <p><b>Avertissement</b>: si ce choix est utilisé pour les objets en cours, ne le supprimez pas du champ. Sa suppression entraînera la perte de données historiques. Sélectionnez plutôt l’option pour la masquer, ce qui empêche les utilisateurs de la sélectionner ultérieurement.</p> </li> 
            </ul> 
         </li> 
        </ol> </td> 
@@ -251,8 +251,8 @@ Les étapes de cet article doivent être les suivantes :
 
    Vous pouvez basculer entre les types d&#39;affichage de champ suivants :
 
-   * **Champs de type sélection**: Cases à cocher, liste déroulante, boutons radio.
-   * **Champs de type texte**: Champ de texte d’une seule ligne, Champ de texte de paragraphe. (Vous ne pouvez pas passer un champ de texte avec mise en forme à un autre type d’affichage. Vous pouvez toutefois le supprimer et ajouter un autre type de champ.)
+   * **Champs de type sélection**: cases à cocher, liste déroulante, boutons radio.
+   * **Champs de type texte**: champ de texte d’une seule ligne, champ de texte de paragraphe. (Vous ne pouvez pas passer un champ de texte avec mise en forme à un autre type d’affichage. Vous pouvez toutefois le supprimer et ajouter un autre type de champ.)
 
    Par exemple, si vous avez créé un champ Cases à cocher, vous pouvez le changer en Champ déroulant ou Champ Boutons radio. Si vous avez créé un champ de texte d’une seule ligne, vous pouvez également le remplacer par un champ de texte de paragraphe.
 
@@ -262,7 +262,6 @@ Les étapes de cet article doivent être les suivantes :
    >
    >* Si vous choisissez Boutons radio, Workfront conserve toutes les valeurs à sélection multiple qu’un utilisateur peut avoir saisies dans le champ jusqu’à ce que l’utilisateur modifie et enregistre les données dans n’importe quelle partie du formulaire. À ce stade, toutes les valeurs qui ont été sélectionnées à l’aide du champ de type à sélection multiple sont remplacées par la valeur de bouton radio sélectionnée.
    >* Si vous choisissez une liste déroulante à sélection unique, Workfront conserve toutes les valeurs à sélection multiple qu’un utilisateur peut avoir saisies dans le champ jusqu’à ce que l’utilisateur modifie et enregistre les valeurs dans le champ. À ce stade, toutes les valeurs qui ont été sélectionnées à l’aide du champ de type à sélection multiple sont remplacées par la valeur de liste déroulante sélectionnée.
-
 
 1. (Facultatif) Répétez les étapes 2 à 6 pour ajouter d’autres champs personnalisés.
 
@@ -281,6 +280,6 @@ Les étapes de cet article doivent être les suivantes :
    * [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [Ajout d’un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [Réutilisation d’un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [Réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [Ajouter une logique d’affichage et ignorer une logique dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Aperçu et remplissage d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

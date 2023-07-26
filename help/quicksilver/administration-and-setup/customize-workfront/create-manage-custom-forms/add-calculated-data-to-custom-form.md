@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Dans un formulaire personnalisé, vous pouvez créer un champ personnalisé calculé qui génère des calculs. Pour ce faire, vous créez une instruction qui utilise les expressions de données et les noms des champs existants, qui peuvent être des champs personnalisés, des champs de données personnalisés calculés et des champs Workfront intégrés. Cette instruction calcule les données saisies et affiche le résultat dans le nouveau champ personnalisé calculé.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -23,19 +23,19 @@ Un champ personnalisé calculé peut contenir :
 
 * Référence simple à un seul champ intégré.
 
-   >[!INFO]
-   >
-   > **Exemple :** Pour calculer les recettes générées par les projets et les tâches, vous pouvez créer un champ personnalisé calculé qui contient le champ intégré Recettes réelles. Lorsqu’une personne joint le formulaire personnalisé à un projet ou à une tâche, les recettes du projet ou de la tâche s’affichent dans le champ .
+  >[!INFO]
+  >
+  > **Exemple :** Pour calculer les recettes générées par les projets et les tâches, vous pouvez créer un champ personnalisé calculé qui contient le champ intégré Recettes réelles. Lorsqu’une personne joint le formulaire personnalisé à un projet ou à une tâche, les recettes du projet ou de la tâche s’affichent dans le champ .
 
 * Une expression qui fait référence à un ou plusieurs champs. Il peut s’agir de champs personnalisés, d’autres champs personnalisés calculés et de champs intégrés.
 
-   >[!INFO]
-   >
-   >**Exemple :** Pour calculer le profit généré par les projets et les tâches, vous pouvez créer un champ personnalisé calculé appelé Profit contenant une expression mathématique qui soustrait le coût des recettes.
-   >
-   >Pour ce faire, vous pouvez utiliser l’expression mathématique SUB (soustraire) avec les champs Workfront intégrés Coût réel et Recettes réelles.
-   >
-   >Dans les étapes ci-dessous, vous pouvez suivre cet exemple.
+  >[!INFO]
+  >
+  >**Exemple :** Pour calculer le profit généré par les projets et les tâches, vous pouvez créer un champ personnalisé calculé appelé Profit contenant une expression mathématique qui soustrait le coût des recettes.
+  >
+  >Pour ce faire, vous pouvez utiliser l’expression mathématique SUB (soustraire) avec les champs Workfront intégrés Coût réel et Recettes réelles.
+  >
+  >Dans les étapes ci-dessous, vous pouvez suivre cet exemple.
 
 Pour plus d’informations sur la création de formulaires personnalisés pour votre organisation et sur le type de champs que vous pouvez associer à ces champs, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
@@ -96,17 +96,17 @@ Vous pouvez utiliser les champs Workfront intégrés et les champs personnalisé
        <ul> 
         <li> <p>Pour rappeler ce qu'est la formule et son fonctionnement. Cela s’avère particulièrement utile si vous prévoyez d’utiliser ce champ personnalisé calculé sur plusieurs formulaires.</p> </li> 
         <li> <p>Les utilisateurs d’info-bulle peuvent voir lorsqu’ils survolent le champ. Vous ajoutez ici le texte que vous souhaitez qu’ils voient dans l’info-bulle.</p> <p>Si vous ne souhaitez pas qu’ils voient la formule dans l’info-bulle, ce qui peut les dérouter, vous pouvez la masquer. Pour obtenir des instructions, reportez-vous à la ligne de tableau "Afficher la formule dans les instructions" de la section . <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">Créer le calcul pour votre champ personnalisé calculé</a> dans cet article.</p> </li> 
-       </ul> <p>Pour plus d’informations sur l’utilisation du même champ personnalisé calculé sur un nouveau formulaire, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Réutilisation d’un champ personnalisé calculé existant dans un formulaire personnalisé</a>.</p> </td> 
+       </ul> <p>Pour plus d’informations sur l’utilisation du même champ personnalisé calculé sur un nouveau formulaire, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>Le format dans lequel vous souhaitez que les résultats du champ soient stockés et affichés.</p> <p>Si le champ sera utilisé dans les calculs mathématiques, utilisez toujours un <strong>Nombre</strong> ou <strong>Devise</strong> format. Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</p> 
-      <p><b>IMPORTANT</b>: Avant de choisir un format, tenez compte du format correct pour le nouveau champ. Une fois le formulaire personnalisé enregistré, le champ de format ne peut plus être modifié. Et le choix d’un mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p> </td> 
+      <p><b>IMPORTANT</b>: avant de choisir un format, tenez compte du format correct pour le nouveau champ. Une fois le formulaire personnalisé enregistré, le champ de format ne peut plus être modifié. Et le choix d’un mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Passez à la [Créer le calcul pour votre champ personnalisé calculé](#build-the-calculation-for-your-calculated-custom-field) dans cet article.
+1. Passez à [Créer le calcul pour votre champ personnalisé calculé](#build-the-calculation-for-your-calculated-custom-field) dans cet article.
 
 ## Créer le calcul pour votre champ personnalisé calculé {#build-the-calculation-for-your-calculated-custom-field}
 
@@ -128,7 +128,7 @@ Vous pouvez utiliser les champs Workfront intégrés et les champs personnalisé
 
    Vous pouvez référencer n’importe quel type de champ personnalisé dans un calcul sauf deux : Champ de texte avec type de formatage et Texte descriptif. Pour plus d’informations sur les types de champ personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
 
-1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** qui peuvent être ajoutés à votre calcul.
+1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** qui sont disponibles pour les ajouter à votre calcul.
 
    Vous pouvez également commencer à saisir une expression ou un champ dans la zone de texte de grande taille, puis le sélectionner lors de son affichage. Chaque élément s’affiche avec un &quot;F&quot; pour le champ ou un &quot;E&quot; pour l’expression.
 
@@ -139,17 +139,15 @@ Vous pouvez utiliser les champs Workfront intégrés et les champs personnalisé
    >Vous pouvez effectuer l’une des opérations suivantes pour obtenir de l’aide sur votre calcul :
    > 
    >* Passez la souris sur une expression de votre calcul pour afficher une description, un exemple illustrant son utilisation et un lien &quot;En savoir plus&quot; pour plus d’informations dans l’article. [Expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
+   >  ![](assets/hover-expression-help-text.jpg)
    >* Utilisez le codage colorimétrique pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
-      >  ![](assets/colors-fields-expressions.jpg)
+   >  ![](assets/colors-fields-expressions.jpg)
    >* Recherchez les erreurs de calcul, surlignées en rose, au fur et à mesure. Vous pouvez pointer sur une erreur mise en surbrillance pour afficher une brève description de sa cause.
-      >  ![](assets/error-help.png)
+   >  ![](assets/error-help.png)
    >* Dans la zone située sous votre calcul, prévisualisez les résultats sur un objet Workfront existant.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-
-      >  ![](assets/preview-calc.jpg)
+   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
+   >  ![](assets/preview-calc.jpg)
    >* Expressions de référence dans un calcul long à l’aide des numéros de ligne qui s’affichent sur la gauche.
-
 
 1. Cliquez sur **Réduire** lorsque vous avez terminé de créer le calcul pour le champ personnalisé calculé.
 
@@ -185,14 +183,14 @@ Vous pouvez utiliser les champs Workfront intégrés et les champs personnalisé
    Ou cliquez sur **Enregistrer + Fermer** lorsque toutes les modifications sont effectuées sur le formulaire personnalisé.
 1. Pour vérifier que votre champ personnalisé calculé fonctionne correctement, joignez le formulaire personnalisé à un objet, puis passez en revue le résultat dans le champ personnalisé calculé.
 
-   Pour obtenir des instructions sur l’ajout d’un formulaire personnalisé, reportez-vous à la section [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+   Pour plus d’informations sur l’ajout d’un formulaire personnalisé, voir [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Si vous souhaitez continuer à créer votre formulaire personnalisé d’une autre manière, vous pouvez passer à l’un des articles suivants :
 
    * [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
    * [Placement de champs et de widgets personnalisés dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Réutilisation d’un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [Réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [Ajouter une logique d’affichage et ignorer une logique dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Aperçu et remplissage d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
@@ -220,15 +218,15 @@ Le système répertorie tous les champs personnalisés que vous pouvez choisir l
 
 * Si vous souhaitez que le calcul référence un champ qui extrait les données de la variable *parent* lorsque le formulaire personnalisé est associé à un objet, vous devez précéder le nom du champ du type d’objet de l’objet parent, également entre accolades.
 
-   Par exemple, si le formulaire personnalisé est configuré pour fonctionner avec des tâches et que vous souhaitez que le champ calcule le revenu réel de l’objet parent lorsque le formulaire est joint à une tâche, vous devez indiquer `Project` comme type d’objet du champ :
+  Par exemple, si le formulaire personnalisé est configuré pour fonctionner avec des tâches et que vous souhaitez que le champ calcule le revenu réel de l’objet parent lorsque le formulaire est joint à une tâche, vous devez indiquer `Project` comme type d’objet du champ :
 
-   `{project}.{actualRevenue}`
+  `{project}.{actualRevenue}`
 
-   Ou, s’il s’agit d’un champ personnalisé :
+  Ou, s’il s’agit d’un champ personnalisé :
 
-   `{project}.{DE:profit}`
+  `{project}.{DE:profit}`
 
-   Si vous ne savez pas quel type d’objet sera l’objet parent, car la variable personnalisée pour est configurée pour plusieurs types d’objets, vous pouvez utiliser la variable de filtre de caractère générique. `$$OBJCODE` pour permettre au calcul de fonctionner pour chacun des types possibles. Pour plus d’informations, voir [Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets](#calculated-custom-fields-in-multi-object-custom-forms) dans cet article.
+  Si vous ne savez pas quel type d’objet sera l’objet parent, car la variable personnalisée pour est configurée pour plusieurs types d’objets, vous pouvez utiliser la variable de filtre de caractère générique. `$$OBJCODE` pour permettre au calcul de fonctionner pour chacun des types possibles. Pour plus d’informations, voir [Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets](#calculated-custom-fields-in-multi-object-custom-forms) dans cet article.
 
 ### Séparez les éléments par des points.
 
@@ -238,7 +236,7 @@ Par exemple, dans un formulaire personnalisé de type tâche, pour afficher le n
 
 `{project}.{porfolio}.{owner}`
 
-Cela déterminerait les éléments suivants : A partir de l’objet du formulaire personnalisé (une tâche), vous pouvez accéder à l’objet suivant associé à la tâche (un projet). De là, vous pouvez accéder à l’objet associé suivant au projet (un portfolio), puis à l’objet associé suivant au portfolio (le propriétaire).
+Cela détermine ce qui suit : à partir de l’objet du formulaire personnalisé (une tâche), vous pouvez accéder à l’objet suivant associé à la tâche (un projet). À partir de là, vous pouvez accéder à l’objet associé suivant au projet (un portfolio), puis à l’objet associé suivant au portfolio (le propriétaire).
 
 ### Syntaxe du nom pour référencer un champ personnalisé
 
@@ -278,9 +276,9 @@ Dans ce cas, vous pouvez effectuer l’une des opérations suivantes :
 
 >[!INFO]
 >
->**Exemple :** Bien qu’il n’y ait pas d’attribution à : Champ Nom dans les projets. Il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un modifie manuellement ce champ).
+>**Exemple :** Bien qu’il n’existe pas de champ Attribué à : nom dans les projets, il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un modifie manuellement ce champ).
 >
->Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour faire référence au champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et le champ Affecté à : Champ Nom lorsque le formulaire est joint à une tâche :
+>Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour faire référence au champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et au champ Affecté à : Nom lorsque le formulaire est joint à une tâche :
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
@@ -294,7 +292,6 @@ Les champs personnalisés calculés sur un objet sont automatiquement recalculé
 * Quelqu’un modifie un autre champ qui est référencé par un champ personnalisé calculé sur l’objet.
 * L’expression calculée est vide et le champ contient une valeur : elle définit la valeur sur null.
 
-   >[!NOTE]
-   >
-   ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont calculées et enregistrées selon l’heure universelle coordonnée (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil utilisateur. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque utilisateur.</div>
-
+  >[!NOTE]
+  >
+  ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont calculées et enregistrées selon l’heure universelle coordonnée (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil utilisateur. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque utilisateur.</div>

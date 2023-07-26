@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix que fait l’utilisateur lorsqu’il le remplit.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ Les étapes de cet article doivent être les suivantes :
 
 * Pour ajouter une logique d’affichage à un champ personnalisé, un widget ou un saut de section, au moins un champ à choix multiples (boutons radio, liste déroulante ou cases à cocher) doit être positionné avant cette logique sur le formulaire.
 
-   Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Vous ne pouvez pas ajouter de logique de saut à un widget ou à un saut de section. Vous pouvez l’ajouter uniquement à plusieurs champs de choix (boutons radio, liste déroulante ou cases à cocher).
 
@@ -71,7 +71,7 @@ Les étapes de cet article doivent être les suivantes :
 La meilleure façon d’apprendre à ajouter une logique d’affichage et d’exclusion à un formulaire personnalisé est de suivre l’exemple pratique décrit dans les deux sections suivantes :
 
 * [Logique d’affichage](#display-logic)
-* [Ignorer la logique](#skip-logic)
+* [Logique de saut](#skip-logic)
 
 ### Logique d’affichage {#display-logic}
 
@@ -90,7 +90,7 @@ La meilleure façon d’apprendre à ajouter une logique d’affichage et d’ex
 
    1. Sous **Choix**, ajoutez les options suivantes dans les zones de texte :
 
-      Recherche nécessaire
+      La recherche nécessaire
 
       Plus de recherche
 
@@ -100,22 +100,22 @@ La meilleure façon d’apprendre à ajouter une logique d’affichage et d’ex
 
 1. Ajoutez un nouveau champ de texte d’une seule ligne appelé *Autres recherches* en cliquant **Champ de texte d’une seule ligne**, puis en tapant **Autres recherches** dans le **Libellé** de la boîte.
 
-1. Cliquez sur **Ajouter logique** près du côté inférieur gauche du **Modifier le formulaire personnalisé** écran.
+1. Cliquez sur **Ajouter une logique** près du côté inférieur gauche du **Modifier le formulaire personnalisé** écran.
 
-1. Dans la zone qui s’affiche, avec la fonction **Logique d’affichage** ouvrez l’onglet , configurez la logique pour le moment où la variable **Autres recherches** s’affiche sur le formulaire en cliquant sur **Champ de problème** dans la première liste déroulante, **Recherche nécessaire** dans la deuxième liste déroulante, et **Sélectionné** dans la troisième liste déroulante.
+1. Dans la zone qui s’affiche, avec la fonction **Logique d’affichage** ouvrez l’onglet , configurez la logique pour le moment où la variable **Autres recherches** apparaît sur le formulaire en cliquant sur **Champ de problème** dans la première liste déroulante, **Recherche nécessaire** dans la deuxième liste déroulante, et **Sélectionné** dans la troisième liste déroulante.
 1. Cliquez sur **Enregistrer** pour fermer la **Logique du champ** , puis cliquez sur **Terminé** dans le **Paramètres des champs** zone.
 
-   Maintenant, lorsqu’une personne sélectionne **Recherche nécessaire** dans le **Champ de problème** , le **Autres recherches** s’affiche.
+   Maintenant, lorsqu’une personne sélectionne **Recherche nécessaire** dans le **Champ de problème** , la variable **Autres recherches** s’affiche.
 
 1. Cliquez sur **Aperçu** pour vous assurer que la logique s’affiche comme vous le souhaitez sur le formulaire.
 1. Cliquez sur **Aperçu de la fin** lorsque vous constatez que la logique fonctionne comme prévu.
-1. Cliquez sur **Enregistrer + Fermer** sur le **Modifier le formulaire personnalisé** pour enregistrer le formulaire, puis passez à [Ignorer la logique](#skip-logic) ci-dessous.
+1. Cliquez sur **Enregistrer + Fermer** sur le **Modifier le formulaire personnalisé** pour enregistrer le formulaire, puis passez à [Ignorer la logique](#skip-logic) ci-dessous
 
-### Ignorer la logique {#skip-logic}
+### Logique de saut {#skip-logic}
 
-Les fonctions Ignorer la logique s’affichent de la même manière que la logique, mais agissent comme l’inverse : au lieu de faire apparaître des champs personnalisés à choix multiples spécifiques en fonction de sélections spécifiques, vous déterminez ceux qui doivent être ignorés en fonction des sélections des utilisateurs.
+Ignorer la logique fonctionne de la même manière que pour afficher la logique, mais agit comme l’inverse : au lieu de faire apparaître des champs personnalisés à choix multiples spécifiques en fonction de sélections spécifiques, vous déterminez ceux qui doivent être ignorés en fonction des sélections des utilisateurs.
 
-Pour en savoir plus à ce sujet, continuez à travailler sur l’exemple de formulaire personnalisé que vous avez créé dans la section . [Logique d’affichage](#display-logic) dans cet article :
+Pour en savoir plus, continuez à travailler sur l’exemple de formulaire personnalisé que vous avez créé dans la section . [Logique d’affichage](#display-logic) dans cet article :
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
@@ -123,13 +123,13 @@ Pour en savoir plus à ce sujet, continuez à travailler sur l’exemple de form
 1. Sélectionner le formulaire **Exemple de formulaire personnalisé : apprentissage de la logique d’affichage et de la logique de saut** que vous avez créé lors des étapes ci-dessus, puis cliquez sur **Modifier**.
 
 1. Sélectionnez le champ déroulant que vous avez créé nommé *Champ de problème*.
-1. Cliquez sur le bouton **Ajouter logique** dans le **Paramètres des champs** barre latérale.
+1. Cliquez sur le bouton **Ajouter une logique** dans le **Paramètres des champs** barre latérale.
 
 1. Dans le **Logique du champ** , assurez-vous que la variable **Ignorer la logique** est sélectionné.
 
 1. Définissez la première liste déroulante sur **Plus de recherche** et la deuxième liste déroulante de **Sélectionné**.
 
-1. Dans le **Puis, passez à** menu déroulant, sélectionnez **Fin de formulaire.**
+1. Dans le **Puis, passez à** , sélectionnez **Fin de formulaire.**
 
    Maintenant, lorsqu’une personne sélectionne **Plus de recherche** dans le **Champ de problème** , le formulaire passe directement à la fin du formulaire sans afficher le champ **Autres recherches** champ .
 

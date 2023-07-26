@@ -5,19 +5,19 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez renommer des formulaires personnalisés existants à l’aide du concepteur de formulaires.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # Renommer un formulaire personnalisé avec le concepteur de formulaires
 
-Vous pouvez renommer un formulaire personnalisé à tout moment après sa création avec le concepteur de formulaire.
+Vous pouvez renommer un formulaire personnalisé à tout moment une fois qu’il a été créé avec le concepteur de formulaire.
 
 ## Exigences d’accès
 
@@ -36,7 +36,7 @@ Les étapes de cet article doivent être les suivantes :
    <td>
    <p>Formule actuelle : Standard</p>
    <p>ou</p>
-   <p>Plan hérité : Plan</p></td> 
+   <p>Formule héritée : Planifier</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -63,4 +63,4 @@ Les étapes de cet article doivent être les suivantes :
 
    >[!TIP]
    >
-   >Vous pouvez cliquer sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
+   >Cliquez sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.

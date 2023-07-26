@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Placement de champs et de widgets personnalisés dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 description: Vous pouvez repositionner des champs et des widgets personnalisés dans un formulaire personnalisé.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -67,7 +67,6 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 >* Vous pouvez utiliser la variable **Aperçu** dans le coin inférieur droit pour avoir une idée de l’affichage des champs et widgets personnalisés dans le formulaire.
 >* Les champs de texte descriptif ne peuvent pas partager de ligne.
 >* Les champs personnalisés et les widgets peuvent ne pas toujours s’afficher de la même manière dans le formulaire, selon l’espace disponible lorsqu’un utilisateur le visualise. Par exemple, le troisième champ d’une ligne de champs peut être renvoyé à la ligne suivante de champs si l’espace horizontal est limité.
-
 
 1. (Facultatif) Pour positionner un champ ou un widget personnalisé au-dessus ou en dessous d’un autre, faites-le glisser au-dessus ou en dessous jusqu’à ce qu’une ligne bleue horizontale apparaisse entre les éléments.
 1. Cliquez sur **Appliquer**.

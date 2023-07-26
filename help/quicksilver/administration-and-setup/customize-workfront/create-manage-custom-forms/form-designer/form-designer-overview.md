@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez concevoir un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Workfront. Les utilisateurs qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 author: Courtney / Lisa
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Il existe un nouveau bouton en haut du nouveau concepteur de formulaire et de l�
 
 Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité d’utiliser
 
-* **Copier un champ**: Vous pouvez désormais copier des champs existants en cliquant sur l’icône Copier dans les champs directement depuis la zone de travail.
+* **Copier un champ**: vous pouvez désormais copier des champs existants en cliquant sur l’icône Copier dans les champs directement depuis la zone de travail.
 
-* **Modifier la taille du texte descriptif**: Vous pouvez désormais affecter des petites, moyennes ou grandes tailles aux champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne avec d’autres champs.
+* **Modifier la taille du texte descriptif**: vous pouvez désormais affecter des petites, moyennes ou grandes tailles aux champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne avec d’autres champs.
 
-* **Utilisation d’une section par défaut**: Si l’auteur du formulaire n’a pas ajouté de section en haut du formulaire, une section Par défaut est désormais visible dans la zone de travail, de sorte que les utilisateurs puissent ajuster les autorisations pour les champs auxquels aucune section personnalisée n’est affectée.
+* **Utilisation d’une section par défaut**: si l’auteur du formulaire n’a pas ajouté de section en haut du formulaire, une section Par défaut est désormais visible dans la zone de travail, de sorte que les utilisateurs puissent ajuster les autorisations pour les champs auxquels aucune section personnalisée n’est affectée.
 
   >[!NOTE]
   >
@@ -61,9 +61,9 @@ Bien que vous ne puissiez pas encore ajouter de logique d’affichage/d’exclus
 
 Les icônes d’un champ dans le concepteur de formulaires indiquent que la logique est appliquée au champ.
 
-Le ![Logique d’affichage pour le champ cible](assets/display-logic-bottom-left.png) icône en bas à gauche signifie que le champ est le champ cible de la logique d’affichage (si une sélection spécifique est effectuée sur le formulaire, ce champ s’affiche). Le ![Icône Définir la logique d’affichage](assets/display-logic-bottom-right.png) icône en bas à droite signifie que le champ est utilisé pour définir la logique d’affichage (une sélection ou une valeur spécifique sur ce champ affichera le champ cible).
+La variable ![Logique d’affichage pour le champ cible](assets/display-logic-bottom-left.png) icône en bas à gauche signifie que le champ est le champ cible de la logique d’affichage (si une sélection spécifique est effectuée sur le formulaire, ce champ s’affiche). La variable ![Icône Définir la logique d’affichage](assets/display-logic-bottom-right.png) icône en bas à droite signifie que le champ est utilisé pour définir la logique d’affichage (une sélection ou une valeur spécifique sur ce champ affichera le champ cible).
 
-Le ![Ignorer la logique pour le champ cible](assets/skip-logic-bottom-left.png) icône en bas à gauche signifie que le champ est le champ cible de la logique de saut (si une sélection spécifique est effectuée sur le formulaire, le formulaire passe à ce champ). Le ![Icône Définir la logique de saut](assets/skip-logic-bottom-right.png) icône en bas à droite signifie que le champ est utilisé pour définir une logique de saut (une sélection ou une valeur spécifique sur ce champ ignorera d’autres champs et accédera directement au champ cible).
+La variable ![Ignorer la logique pour le champ cible](assets/skip-logic-bottom-left.png) icône en bas à gauche signifie que le champ est le champ cible de la logique de saut (si une sélection spécifique est effectuée sur le formulaire, le formulaire passe à ce champ). La variable ![Icône Définir la logique de saut](assets/skip-logic-bottom-right.png) icône en bas à droite signifie que le champ est utilisé pour définir une logique de saut (une sélection ou une valeur spécifique sur ce champ ignorera d’autres champs et accédera directement au champ cible).
 
 ![Icônes logiques](assets/logic-icons-3.png)
 

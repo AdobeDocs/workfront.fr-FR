@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Modules GitLab
 description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
 author: Becky
+feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '4485'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qu
 >
 >Cet article s’attend à une certaine familiarité avec la documentation de l’API et de [!DNL GitLab] en général.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -50,7 +51,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -58,9 +59,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -89,7 +90,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Access Token]</td> 
-      <td><p>Saisissez votre [!UICONTROL Private Token] ou [!UICONTROL Personal Access Token].</p><p>Pour plus d’informations sur la localisation ou la création d’un jeton d’accès personnel dans [!DNL GitLab], voir "Création d’un jeton d’accès personnel" dans <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Jetons d’accès personnels</a> dans le [!DNL GitLab] documentation.</p></td> 
+      <td><p>Saisissez votre [!UICONTROL Private Token] ou [!UICONTROL Personal Access Token].</p><p>Pour plus d’informations sur la localisation ou la création d’un jeton d’accès personnel dans [!DNL GitLab], voir "Création d’un jeton d’accès personnel" dans <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Jetons d’accès personnels</a> dans le [!DNL GitLab] la documentation.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -329,7 +330,7 @@ Ce module de déclenchement instantané démarre un scénario lorsqu’un nouvea
 
 Ce module de déclencheur planifié démarre un scénario lorsqu’un nouvel outil est ajouté. Lorsqu’aucun filtre n’est appliqué, le déclencheur est exécuté lorsqu’un nouveau todo en attente est ajouté.
 
-Pour plus d’informations sur les champs, voir [Obtention d’une liste de tâches](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention d’une liste de tâches](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -356,7 +357,7 @@ Ce module de déclenchement instantané démarre un scénario lorsqu’une page 
 
 Ce module d’action fusionne les modifications envoyées avec la requête de fusion donnée.
 
-Pour plus d’informations sur les champs, voir [Accepter la requête de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Accepter la requête de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -406,7 +407,7 @@ Ce module d’action annule un seul build d’un projet.
 
 Ce module d’action annule les versions pour un seul pipeline.
 
-Pour plus d’informations sur les champs, voir [Annulation des traitements d’un pipeline](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Annulation des traitements d’un pipeline](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -414,7 +415,7 @@ Pour plus d’informations sur les champs, voir [Annulation des traitements d’
 
 Si une requête de fusion est définie pour fusionner lorsqu’un pipeline réussit, ce module d’action annule cette action.
 
-Pour plus d’informations sur les champs, voir [Annuler la fusion lorsque le pipeline réussit](https://docs.gitlab.com/ee/api/merge_requests.html) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Annuler la fusion lorsque le pipeline réussit](https://docs.gitlab.com/ee/api/merge_requests.html) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -422,7 +423,7 @@ Pour plus d’informations sur les champs, voir [Annuler la fusion lorsque le pi
 
 Ce module d’action sélectionne une validation sur une branche donnée.
 
-Pour plus d’informations sur les champs, voir [Cherry choisit une valise](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Cherry choisit une valise](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -430,7 +431,7 @@ Pour plus d’informations sur les champs, voir [Cherry choisit une valise](http
 
 Ce module d’action crée un nouveau libellé pour le référentiel donné.
 
-Pour plus d’informations sur les champs, voir [Créer un nouveau libellé](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Créer un nouveau libellé](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -438,7 +439,7 @@ Pour plus d’informations sur les champs, voir [Créer un nouveau libellé](htt
 
 Ce module d’action crée un pipeline pour le projet donné.
 
-Pour plus d’informations sur les champs, voir [Création d’un pipeline](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Création d’un pipeline](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -446,7 +447,7 @@ Pour plus d’informations sur les champs, voir [Création d’un pipeline](http
 
 Ce module d’action ajoute des notes de mise à jour à la balise git existante.
 
-Pour plus d’informations sur les champs, voir [Création d’une version](https://docs.gitlab.com/ee/api/releases/#create-a-release) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Création d’une version](https://docs.gitlab.com/ee/api/releases/#create-a-release) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -454,15 +455,15 @@ Pour plus d’informations sur les champs, voir [Création d’une version](http
 
 Ce module d’action crée une balise dans le référentiel qui pointe vers la référence fournie.
 
-Pour plus d’informations sur les champs, voir [Création d’une balise](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Création d’une balise](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Création d’un todo]**
++++**[!UICONTROL Créer un todo]**
 
 Ce module d’action crée un outil pour l’utilisateur actuel sur le problème sélectionné. L’utilisateur actuel est l’utilisateur identifié par les informations d’identification sur la connexion utilisée pour ce module.
 
-Pour plus d’informations sur les champs, voir [Créez un](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Créez un](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -470,7 +471,7 @@ Pour plus d’informations sur les champs, voir [Créez un](https://docs.gitlab.
 
 Ce module d’action crée un outil pour l’utilisateur actuel sur la requête de fusion sélectionnée. L’utilisateur actuel est l’utilisateur identifié par les informations d’identification sur la connexion utilisée pour ce module.
 
-Pour plus d’informations sur les champs, voir [Création d’une tâche](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Création d’une tâche](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -478,15 +479,15 @@ Pour plus d’informations sur les champs, voir [Création d’une tâche](https
 
 Ce module d’action crée une requête de fusion sur un projet.
 
-Pour plus d’informations sur les champs, voir [Créer une requête de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Créer une requête de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Créer un nouveau fichier dans le référentiel]**
++++**[!UICONTROL Création d’un fichier dans le référentiel]**
 
 Ce module d’action crée un nouveau fichier dans le référentiel sélectionné.
 
-Pour plus d’informations sur les champs, voir [Créer un nouveau fichier dans le référentiel](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Création d’un fichier dans le référentiel](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -494,7 +495,7 @@ Pour plus d’informations sur les champs, voir [Créer un nouveau fichier dans 
 
 Ce module d’action crée une note de problème pour un seul problème de projet.
 
-Pour plus d’informations sur les champs, voir [Créer une note de problème](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Créer une note de problème](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -502,7 +503,7 @@ Pour plus d’informations sur les champs, voir [Créer une note de problème](h
 
 Ce module d’action crée une note pour une seule requête de fusion.
 
-Pour plus d’informations sur les champs, voir [Créer une note de demande de fusion](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Créer une note de demande de fusion](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -510,7 +511,7 @@ Pour plus d’informations sur les champs, voir [Créer une note de demande de f
 
 Ce module d’action crée un nouveau jalon pour un projet.
 
-Pour plus d’informations sur les champs, voir [Créer un nouveau jalon](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Créer un nouveau jalon](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -518,7 +519,7 @@ Pour plus d’informations sur les champs, voir [Créer un nouveau jalon](https:
 
 Ce module d’action crée une nouvelle note pour un seul fragment de code. Les notes de fragment de code sont des commentaires que les utilisateurs peuvent publier dans un fragment de code.
 
-Pour plus d’informations sur les champs, voir [Créer une nouvelle note de fragment de code](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Créer une nouvelle note de fragment de code](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -526,7 +527,7 @@ Pour plus d’informations sur les champs, voir [Créer une nouvelle note de fra
 
 Ce module d’action crée une branche de référentiel unique.
 
-Pour plus d’informations sur les champs, voir [Création d’une branche de référentiel](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Création d’une branche de référentiel](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -534,7 +535,7 @@ Pour plus d’informations sur les champs, voir [Création d’une branche de r�
 
 Ce module d’action crée une variable de version.
 
-Pour plus d’informations sur les champs, voir [Créer une variable](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Créer une variable](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -542,7 +543,7 @@ Pour plus d’informations sur les champs, voir [Créer une variable](https://do
 
 Ce module d’action est destiné uniquement aux administrateurs et aux propriétaires de projets. Elle supprime la requête de fusion en question.
 
-Pour plus d’informations sur les champs, voir [Suppression d’une requête de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Suppression d’une requête de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -550,7 +551,7 @@ Pour plus d’informations sur les champs, voir [Suppression d’une requête de
 
 Ce module d’action supprime un fichier existant du référentiel.
 
-Pour plus d’informations sur les champs, voir [Suppression d’un fichier existant dans le référentiel](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Suppression d’un fichier existant dans le référentiel](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -558,7 +559,7 @@ Pour plus d’informations sur les champs, voir [Suppression d’un fichier exis
 
 Ce module d’action supprime une branche du référentiel.
 
-Pour plus d’informations sur les champs, voir [Suppression de la branche de référentiel](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Suppression de la branche de référentiel](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -566,14 +567,14 @@ Pour plus d’informations sur les champs, voir [Suppression de la branche de r�
 
 Ce module d’action met à jour un problème de projet existant. Cet appel est également utilisé pour marquer un problème comme étant fermé.
 
-Pour plus d’informations sur les champs, voir [Modifier le problème](https://docs.gitlab.com/ee/api/issues.html#edit-issue) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Modifier le problème](https://docs.gitlab.com/ee/api/issues.html#edit-issue) dans le [!DNL GitLab] la documentation.
 
 +++
 
 +++**[!UICONTROL Modifier le jalon]**
 Ce module d’action met à jour un jalon de projet existant.
 
-Pour plus d’informations sur les champs, voir [Modifier le jalon](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Modifier le jalon](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -581,7 +582,7 @@ Pour plus d’informations sur les champs, voir [Modifier le jalon](https://docs
 
 Ce module d’action supprime une version d’un projet (supprime les artefacts de tâche et le journal de la tâche).
 
-Pour plus d’informations sur les champs, voir [Effacer une tâche](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Effacer une tâche](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -589,7 +590,7 @@ Pour plus d’informations sur les champs, voir [Effacer une tâche](https://doc
 
 Ce module de recherche récupère une liste d’éléments à faire.
 
-Pour plus d’informations sur les champs, voir [Obtention d’une liste de tâches](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention d’une liste de tâches](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -597,7 +598,7 @@ Pour plus d’informations sur les champs, voir [Obtention d’une liste de tâc
 
 Ce module d’action récupère une seule tâche d’un projet.
 
-Pour plus d’informations sur les champs, voir [Obtention d’une seule tâche](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention d’une seule tâche](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -605,15 +606,15 @@ Pour plus d’informations sur les champs, voir [Obtention d’une seule tâche]
 
 Ce module d’action récupère une balise de référentiel spécifique déterminée par son nom.
 
-Pour plus d’informations sur les champs, voir [Obtention d’une balise de référentiel unique](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention d’une balise de référentiel unique](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Obtention d’un déploiement spécifique]**
++++**[!UICONTROL Obtenir un déploiement spécifique]**
 
 Ce module d’action récupère un déploiement spécifique.
 
-Pour plus d’informations sur les champs, voir [Obtention d’un déploiement spécifique](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtenir un déploiement spécifique](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -621,15 +622,15 @@ Pour plus d’informations sur les champs, voir [Obtention d’un déploiement s
 
 Ce module de recherche récupère tous les problèmes affectés à un seul jalon de projet.
 
-Pour plus d’informations sur les champs, voir [Obtention de tous les problèmes affectés à un seul jalon](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention de tous les problèmes affectés à un seul jalon](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Obtention d’un fichier à partir du référentiel]**
++++**[!UICONTROL Obtenir le fichier du référentiel]**
 
 Ce module d’action récupère des informations sur un fichier dans le référentiel, comme le nom, la taille ou le contenu.
 
-Pour plus d’informations sur les champs, voir [Obtention d’un fichier à partir du référentiel](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtenir le fichier du référentiel](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -637,7 +638,7 @@ Pour plus d’informations sur les champs, voir [Obtention d’un fichier à par
 
 Ce module de recherche récupère les utilisateurs du projet.
 
-Pour plus d’informations sur les champs, voir [Obtention des utilisateurs de projet](https://docs.gitlab.com/ee/api/projects.html#get-project-users) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention des utilisateurs de projet](https://docs.gitlab.com/ee/api/projects.html#get-project-users) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -670,7 +671,7 @@ Ce module d’action récupère les détails des problèmes.
 
 Ce module d’action récupère une seule note pour un problème de projet spécifique.
 
-Pour plus d’informations sur les champs, voir [Obtenir une note de problème unique](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtenir une note de problème unique](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -678,7 +679,7 @@ Pour plus d’informations sur les champs, voir [Obtenir une note de problème u
 
 Ce module d’action récupère des informations sur une seule requête de fusion.
 
-Pour plus d’informations sur les champs, voir [Obtenir une requête de fusion unique](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtenir une requête de fusion unique](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -686,7 +687,7 @@ Pour plus d’informations sur les champs, voir [Obtenir une requête de fusion 
 
 Ce module de recherche récupère des informations sur la requête de fusion, y compris ses fichiers et modifications.
 
-Pour plus d’informations sur les champs, voir [Obtenir les modifications d’une requête de fusion unique](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtenir les modifications d’une requête de fusion unique](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -694,7 +695,7 @@ Pour plus d’informations sur les champs, voir [Obtenir les modifications d’u
 
 Ce module d’action récupère une liste de validations de requête de fusion.
 
-Pour plus d’informations sur les champs, voir [Obtention de validations de requête de fusion unique](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention de validations de requête de fusion unique](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -702,15 +703,15 @@ Pour plus d’informations sur les champs, voir [Obtention de validations de req
 
 Ce module d’action renvoie une seule note pour une requête de fusion donnée.
 
-Pour plus d’informations sur les champs, voir [Obtenir une note de demande de fusion unique](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtenir une note de demande de fusion unique](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Obtenir un jalon]**
++++**[!UICONTROL Obtention d’un jalon]**
 
 Ce module d’action récupère les détails du jalon.
 
-Pour plus d’informations sur les champs, voir [Obtention d’un jalon unique](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention d’un jalon unique](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -718,7 +719,7 @@ Pour plus d’informations sur les champs, voir [Obtention d’un jalon unique](
 
 Ce module d’action récupère les détails du projet.
 
-Pour plus d’informations sur les champs, voir [Obtenir un projet unique](https://docs.gitlab.com/ee/api/projects.html#get-single-project) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtenir un projet unique](https://docs.gitlab.com/ee/api/projects.html#get-single-project) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -726,7 +727,7 @@ Pour plus d’informations sur les champs, voir [Obtenir un projet unique](https
 
 Ce module d’action récupère les détails de la branche de référentiel.
 
-Pour plus d’informations sur les champs, voir [Obtention d’une branche de référentiel unique](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention d’une branche de référentiel unique](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -734,7 +735,7 @@ Pour plus d’informations sur les champs, voir [Obtention d’une branche de r�
 
 Ce module récupère une seule note pour un extrait de code donné.
 
-Pour plus d’informations sur les champs, voir [Obtention d’une seule note de fragment de code](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention d’une seule note de fragment de code](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -742,7 +743,7 @@ Pour plus d’informations sur les champs, voir [Obtention d’une seule note de
 
 Ce module de recherche récupère les commentaires d’une validation dans un projet.
 
-Pour plus d’informations sur les champs, voir [Obtention des commentaires d’une validation](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention des commentaires d’une validation](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -750,7 +751,7 @@ Pour plus d’informations sur les champs, voir [Obtention des commentaires d’
 
 Ce module d’action récupère la comparaison d’une validation dans un projet.
 
-Pour plus d’informations sur les champs, voir [Obtention de la comparaison d’une validation](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Obtention de la comparaison d’une validation](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -758,7 +759,7 @@ Pour plus d’informations sur les champs, voir [Obtention de la comparaison d�
 
 Empêche la suppression des artefacts lorsque l’expiration est définie.
 
-Pour plus d’informations sur les champs, voir [Conserver les artefacts](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Conserver les artefacts](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -766,7 +767,7 @@ Pour plus d’informations sur les champs, voir [Conserver les artefacts](https:
 
 Ce module de recherche récupère une liste de toutes les notes pour une seule requête de fusion.
 
-Pour plus d’informations sur les champs, voir [Liste de toutes les notes de requête de fusion](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste de toutes les notes de requête de fusion](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -774,11 +775,11 @@ Pour plus d’informations sur les champs, voir [Liste de toutes les notes de re
 
 Ce module obtient une liste de toutes les notes pour un seul fragment de code. Les notes de fragment de code sont des commentaires que les utilisateurs peuvent publier dans un fragment de code.
 
-Pour plus d’informations sur les champs, voir [??](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [??](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Lister des builds]**
++++**[!UICONTROL Lister des versions de validation]**
 
 Ce module de recherche renvoie une liste de versions pour une validation spécifique dans un projet.
 
@@ -807,7 +808,7 @@ Ce module de recherche renvoie une liste de versions pour une validation spécif
 
 Ce module de recherche renvoie tous les problèmes selon les paramètres de filtre spécifiés.
 
-Pour plus d’informations sur les champs, voir [Problèmes de liste](https://docs.gitlab.com/ee/api/issues.html#list-issues) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Problèmes de liste](https://docs.gitlab.com/ee/api/issues.html#list-issues) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -815,7 +816,7 @@ Pour plus d’informations sur les champs, voir [Problèmes de liste](https://do
 
 Ce module de recherche récupère tous les problèmes qui seraient fermés en fusionnant la requête de fusion fournie.
 
-Pour plus d’informations sur les champs, voir [Problèmes de liste qui se fermeront lors de la fusion](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Problèmes de liste qui se fermeront lors de la fusion](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -823,7 +824,7 @@ Pour plus d’informations sur les champs, voir [Problèmes de liste qui se ferm
 
 Ce module de recherche récupère tous les libellés du projet.
 
-Pour plus d’informations sur les champs, voir [Étiquettes de liste](https://docs.gitlab.com/ee/api/labels.html#list-labels) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Étiquettes de liste](https://docs.gitlab.com/ee/api/labels.html#list-labels) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -831,7 +832,7 @@ Pour plus d’informations sur les champs, voir [Étiquettes de liste](https://d
 
 Ce module de recherche récupère toutes les requêtes de fusion selon les paramètres de filtre.
 
-Pour plus d’informations sur les champs, voir [Lister des requêtes de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Lister des requêtes de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -839,15 +840,15 @@ Pour plus d’informations sur les champs, voir [Lister des requêtes de fusion]
 
 Ce module de recherche récupère les projets dans lesquels l’utilisateur authentifié est défini comme propriétaire.
 
-Pour plus d’informations sur les champs, voir [Liste des projets d’utilisateurs](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste des projets d’utilisateurs](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Liste des versions de projet]**
++++**[!UICONTROL Répertorier les versions de projet]**
 
 Ce module de recherche récupère une liste de versions dans un projet.
 
-Pour plus d’informations sur les champs, voir [Liste des tâches de projet](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste des tâches de projet](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -855,7 +856,7 @@ Pour plus d’informations sur les champs, voir [Liste des tâches de projet](ht
 
 Ce module de recherche récupère une liste de déploiements dans un projet.
 
-Pour plus d’informations sur les champs, voir [Liste des déploiements de projet](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste des déploiements de projet](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -863,7 +864,7 @@ Pour plus d’informations sur les champs, voir [Liste des déploiements de proj
 
 Ce module de recherche récupère une liste de toutes les notes pour un seul problème.
 
-Pour plus d’informations sur les champs, voir [Liste des notes de problème de projet](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste des notes de problème de projet](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -871,7 +872,7 @@ Pour plus d’informations sur les champs, voir [Liste des notes de problème de
 
 Ce module de recherche renvoie tous les problèmes d’un projet spécifié.
 
-Pour plus d’informations sur les champs, voir [Liste des problèmes de projet](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste des problèmes de projet](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -879,7 +880,7 @@ Pour plus d’informations sur les champs, voir [Liste des problèmes de projet]
 
 Ce module de recherche récupère tous les jalons du projet.
 
-Pour plus d’informations sur les champs, voir [Liste des jalons de projet](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste des jalons de projet](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -887,7 +888,7 @@ Pour plus d’informations sur les champs, voir [Liste des jalons de projet](htt
 
 Ce module de recherche récupère tous les pipelines pour le projet.
 
-Pour plus d’informations sur les champs, voir [Liste des pipelines de projet](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste des pipelines de projet](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -895,7 +896,7 @@ Pour plus d’informations sur les champs, voir [Liste des pipelines de projet](
 
 Ce module de recherche récupère une liste de balises de référentiel d’un projet, triées par nom dans l’ordre alphabétique inverse.
 
-Pour plus d’informations sur les champs, voir [Liste des balises du référentiel de projet](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste des balises du référentiel de projet](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -903,7 +904,7 @@ Pour plus d’informations sur les champs, voir [Liste des balises du référent
 
 Ce module de recherche récupère une liste des variables d’un projet.
 
-Pour plus d’informations sur les champs, voir [Liste des variables de projet](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste des variables de projet](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -911,7 +912,7 @@ Pour plus d’informations sur les champs, voir [Liste des variables de projet](
 
 Ce module de recherche récupère tous les projets dont l’utilisateur authentifié est membre.
 
-Pour plus d’informations sur les champs, voir [Liste de tous les projets](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Liste de tous les projets](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -919,15 +920,15 @@ Pour plus d’informations sur les champs, voir [Liste de tous les projets](http
 
 Ce module recherche des branches de référentiel par terme de recherche.
 
-Pour plus d’informations sur les champs, voir [Répertorier les branches du référentiel](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Répertorier les branches du référentiel](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Liste des validations de référentiel]**
++++**[!UICONTROL Lister des validations de référentiel]**
 
 Ce module de recherche récupère une liste de validations de référentiel dans un projet.
 
-Pour plus d’informations sur les champs, voir [Liste des validations de référentiel](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Lister des validations de référentiel](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -935,7 +936,7 @@ Pour plus d’informations sur les champs, voir [Liste des validations de réfé
 
 Ce module de recherche récupère une liste de contributeurs au référentiel.
 
-Pour plus d’informations sur les champs, voir [Contributeurs](https://docs.gitlab.com/ee/api/repositories.html#contributors) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Contributeurs](https://docs.gitlab.com/ee/api/repositories.html#contributors) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -943,7 +944,7 @@ Pour plus d’informations sur les champs, voir [Contributeurs](https://docs.git
 
 Ce module de recherche récupère une liste de fichiers et de répertoires de référentiel dans un projet.
 
-Pour plus d’informations sur les champs, voir [Arborescence de référentiel de liste](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Arborescence de référentiel de liste](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -951,15 +952,15 @@ Pour plus d’informations sur les champs, voir [Arborescence de référentiel d
 
 Ce module d’action marque un seul élément à faire en attente, indiqué par son identifiant pour l’utilisateur actuel, comme indiqué.
 
-Pour plus d’informations sur les champs, voir [Marquer un élément comme indiqué](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Marquer un élément comme indiqué](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Modification d’une note de problème existante]**
++++**[!UICONTROL Modifier une note de problème existante]**
 
 Modifie une note existante d’un problème.
 
-Pour plus d’informations sur les champs, voir [Modification d’une note de problème existante](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Modifier une note de problème existante](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -967,15 +968,15 @@ Pour plus d’informations sur les champs, voir [Modification d’une note de pr
 
 Modifie la note existante d’une requête de fusion.
 
-Pour plus d’informations sur les champs, voir [Modification d’une note de demande de fusion existante](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Modification d’une note de demande de fusion existante](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) dans le [!DNL GitLab] la documentation.
 
 +++
 
-+++**[!UICONTROL Modification d’une note de fragment de code existante]**
++++**[!UICONTROL Modifier une note de fragment de code existante]**
 
 Ce module d’action modifie une note existante d’un extrait de code.
 
-Pour plus d’informations sur les champs, voir [Modification d’une note de fragment de code existante](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Modifier une note de fragment de code existante](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -983,7 +984,7 @@ Pour plus d’informations sur les champs, voir [Modification d’une note de fr
 
 Ce module d’action crée un problème de projet.
 
-Pour plus d’informations sur les champs, voir [Nouveau problème](https://www.integromat.com/en/help/app/gitlab) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Nouveau problème](https://www.integromat.com/en/help/app/gitlab) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -991,7 +992,7 @@ Pour plus d’informations sur les champs, voir [Nouveau problème](https://www.
 
 Ce module d’action déclenche une action manuelle pour démarrer une tâche.
 
-Pour plus d’informations sur les champs, voir [Lecture d’une tâche](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Lecture d’une tâche](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -999,7 +1000,7 @@ Pour plus d’informations sur les champs, voir [Lecture d’une tâche](https:/
 
 Ce module d’action ajoute un commentaire à une validation.
 
-Pour plus d’informations sur les champs, voir [Publier le commentaire à valider](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Publier le commentaire à valider](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -1007,7 +1008,7 @@ Pour plus d’informations sur les champs, voir [Publier le commentaire à valid
 
 Ce module d’action supprime la variable d’un projet.
 
-Pour plus d’informations sur les champs, voir [Supprimer la variable](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Supprimer la variable](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -1038,9 +1039,9 @@ Ce module d’action tente une nouvelle version dans une validation.
 
 +++**[!UICONTROL Reprise des tâches ayant échoué dans un pipeline]**
 
-Ce module d’action tente à nouveau les versions ayant échoué dans un pipeline.
+Ce module d’action tente à nouveau les versions qui ont échoué dans un pipeline.
 
-Pour plus d’informations sur les champs, voir [Tâches de reprise dans un pipeline](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Tâches de reprise dans un pipeline](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -1048,7 +1049,7 @@ Pour plus d’informations sur les champs, voir [Tâches de reprise dans un pipe
 
 Ce module récupère les détails de la variable spécifique d’un projet.
 
-Pour plus d’informations sur les champs, voir [Afficher les détails des variables](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Afficher les détails des variables](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -1056,7 +1057,7 @@ Pour plus d’informations sur les champs, voir [Afficher les détails des varia
 
 Ce module d’action met à jour une version.
 
-Pour plus d’informations sur les champs, voir [Mise à jour d’une version](https://docs.gitlab.com/ee/api/releases/#update-a-release) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Mise à jour d’une version](https://docs.gitlab.com/ee/api/releases/#update-a-release) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -1064,7 +1065,7 @@ Pour plus d’informations sur les champs, voir [Mise à jour d’une version](h
 
 Ce module d’action met à jour une requête de fusion existante. Vous pouvez modifier la branche cible, le titre ou même fermer la version de maintenance.
 
-Pour plus d’informations sur les champs, voir [Mettre à jour la requête de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Mettre à jour la requête de fusion](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) dans le [!DNL GitLab] la documentation.
 
 +++
 
@@ -1072,6 +1073,6 @@ Pour plus d’informations sur les champs, voir [Mettre à jour la requête de f
 
 Ce module d’action met à jour la variable d’un projet.
 
-Pour plus d’informations sur les champs, voir [Mettre à jour la variable](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) dans le [!DNL GitLab] documentation.
+Pour plus d’informations sur les champs, voir [Mettre à jour la variable](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) dans le [!DNL GitLab] la documentation.
 
 +++

@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Modules Adobe Target
 description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] Les modules vous permettent de créer, lire, mettre à jour ou supprimer des enregistrements, répertorier tous les enregistrements d’un type donné, rechercher des enregistrements en fonction de critères que vous spécifiez ou effectuer un appel API personnalisé à la fonction [!DNL Adobe Target] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Target], ainsi que de la connecter à plusieurs applications et services tiers. [!DNL Adobe Target] Les modules vous permettent de créer, lire, mettre à jour ou supprimer des enregistrements, répertorier tous les enregistrements d’un type donné, rechercher des enregistrements en fonction de critères que vous spécifiez ou effectuer un appel API personnalisé à la fonction [!DNL Adobe Target] API.
 
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -47,7 +48,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td>
@@ -55,9 +56,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
     <tr>
       <td role="rowheader">Produit</td>
       <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td>
     </tr>
     </tr>
@@ -196,19 +197,19 @@ Ce module d’action crée une activité AB ou XT, une offre ou une audience.
       <ul>
         <li>
           <p>[!UICONTROL Activité AB]</p>
-          <p>Passez à la <a href="#AB%C2%A0Activ" class="MCXref xref" >Champs d’activité AB</a>.</p>
+          <p>Passez à <a href="#AB%C2%A0Activ" class="MCXref xref" >Champs d’activité AB</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Activité XT]</p>
-          <p>Passez à la <a href="#XT" class="MCXref xref" >Champs d’activité XT</a>.</p>
+          <p>Passez à <a href="#XT" class="MCXref xref" >Champs d’activité XT</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Offre]</p>
-          <p>Passez à la <a href="#Offer" class="MCXref xref" >Champs d'offre</a>.</p>
+          <p>Passez à <a href="#Offer" class="MCXref xref" >Champs de l'offre</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Audience]</p>
-          <p>Passez à la <a href="#Audience" class="MCXref xref" >Champs d’audience</a>.</p>
+          <p>Passez à <a href="#Audience" class="MCXref xref" >Champs d’audience</a>.</p>
         </li>
       </ul>
     </td>
@@ -254,11 +255,11 @@ Ce module d’action crée une activité AB ou XT, une offre ou une audience.
     <tr>
       <td role="rowheader">[!UICONTROL Emplacements]</td>
       <td>
-        <p>Pour chaque mbox que vous souhaitez ajouter à l’activité, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et renseignez les champs suivants :</p>
+        <p>Pour chaque mbox à ajouter à l’activité, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et renseignez les champs suivants :</p>
         <ul>
           <li>
             <p>[!UICONTROL ID d’audience]</p>
-            <p>Pour chaque audience que vous souhaitez ajouter à la mbox, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et sélectionnez l’ID d’audience.</p>
+            <p>Pour chaque audience à ajouter à la mbox, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et sélectionnez l’ID d’audience.</p>
           </li>
           <li>
             <p><b>[!UICONTROL ID local de l’emplacement]</b>
@@ -287,7 +288,7 @@ Ce module d’action crée une activité AB ou XT, une offre ou une audience.
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Entrer ou mapper le nom de l’expérience
+            <p>Saisissez ou mappez le nom de l’expérience.
 
 </p>
           </li>
@@ -428,11 +429,11 @@ Ce module d’action crée une activité AB ou XT, une offre ou une audience.
     <tr>
       <td role="rowheader">[!UICONTROL Emplacements]</td>
       <td>
-        <p>Pour chaque mbox que vous souhaitez ajouter à l’activité, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et renseignez les champs suivants :</p>
+        <p>Pour chaque mbox à ajouter à l’activité, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et renseignez les champs suivants :</p>
         <ul>
           <li>
             <p>[!UICONTROL ID d’audience]</p>
-            <p>Pour chaque audience que vous souhaitez ajouter à la mbox, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et sélectionnez l’ID d’audience.</p>
+            <p>Pour chaque audience à ajouter à la mbox, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et sélectionnez l’ID d’audience.</p>
           </li>
           <li>
             <p><b>[!UICONTROL ID local de l’emplacement]</b>
@@ -461,7 +462,7 @@ Ce module d’action crée une activité AB ou XT, une offre ou une audience.
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Entrer ou mapper le nom de l’expérience
+            <p>Saisissez ou mappez le nom de l’expérience.
 
 </p>
           </li>
@@ -564,7 +565,7 @@ Ce module d’action crée une activité AB ou XT, une offre ou une audience.
   </tbody>
 </table>
 
-##### Champs d&#39;offre
+##### Champs de l&#39;offre
 
 <table style="table-layout:auto"> 
   <col/>
@@ -692,7 +693,7 @@ Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Target]
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -780,7 +781,7 @@ Ce module d’action met à jour une activité, une offre ou une audience.
           <li>
             <p><b>[!UICONTROL Offre]</b>
             </p>
-            <p>Voir la description des champs dans <a href="#Offer" class="MCXref xref" >Champs d'offre</a> under <a href="#Create2" class="MCXref xref" >Création d’un enregistrement</a>.</p>
+            <p>Voir la description des champs dans <a href="#Offer" class="MCXref xref" >Champs de l'offre</a> under <a href="#Create2" class="MCXref xref" >Création d’un enregistrement</a>.</p>
           </li>
           <li>
             <p><b>[!DNL Audience]</b>
@@ -822,7 +823,7 @@ Ce module de recherche récupère une liste d&#39;enregistrements du type sélec
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Trier par]</td>
-      <td>Pour chaque champ par lequel vous souhaitez trier, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et sélectionnez le champ et indiquez si les résultats renvoyés doivent être ascendant ou descendant.</td>
+      <td>Pour chaque champ de tri, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et sélectionnez le champ et indiquez si les résultats renvoyés doivent être ascendant ou descendant.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Commence À]</td>
@@ -859,7 +860,7 @@ Ce module de recherche recherche recherche des activités, des offres ou des aud
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Trier par]</td>
-    <td>Pour chaque champ par lequel vous souhaitez trier, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et sélectionnez le champ et indiquez si les résultats renvoyés doivent être ascendant ou descendant.</td>
+    <td>Pour chaque champ de tri, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et sélectionnez le champ et indiquez si les résultats renvoyés doivent être ascendant ou descendant.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Critères de recherche]</td>

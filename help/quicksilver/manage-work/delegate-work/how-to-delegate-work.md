@@ -4,8 +4,9 @@ navigation-topic: delegate-work
 title: Déléguer des tâches et problèmes
 description: Vous pouvez déléguer temporairement la tâche à laquelle vous êtes affecté lorsque vous êtes absent du bureau. Cet article décrit comment déléguer des tâches et des affectations de problèmes.
 author: Alina
+feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 1%
@@ -32,16 +33,14 @@ Pour obtenir des informations générales sur la délégation de travail, voir [
 >
 >* Les utilisateurs que vous sélectionnez comme délégués reçoivent les mêmes autorisations que vos autorisations sur les tâches et problèmes que vous leur déléguez.
 >* Les autorisations doivent fonctionner dans leurs niveaux d’accès, et leurs niveaux d’accès peuvent parfois être inférieurs aux vôtres.
-
-   >
-   >   
-   >   Par exemple, si un utilisateur dispose uniquement de l’accès Afficher aux tâches de son niveau d’accès et que vous disposez de l’option Gérer les autorisations sur les tâches que vous lui déléguez, il reçoit l’autorisation Gérer les autorisations pour les tâches que vous lui déléguez. Cependant, ils ne pourront pas effectuer les mêmes actions que vous sur les tâches déléguées. Ils doivent demander à l’administrateur système l’accès Modifier aux tâches pour pouvoir mettre à jour les tâches en votre absence.
-   >
-   >   
-   >   Pour plus d’informations sur la façon dont un peut modifier votre niveau d’accès, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>
+>   
+>   Par exemple, si un utilisateur dispose uniquement de l’accès Afficher aux tâches de son niveau d’accès et que vous disposez de l’option Gérer les autorisations sur les tâches que vous lui déléguez, il reçoit l’autorisation Gérer les autorisations pour les tâches que vous lui déléguez. Cependant, ils ne pourront pas effectuer les mêmes actions que vous sur les tâches déléguées. Ils doivent demander à l’administrateur système l’accès Modifier aux tâches pour pouvoir mettre à jour les tâches en votre absence.
+>
+>   
+>   Pour plus d’informations sur la façon dont un peut modifier votre niveau d’accès, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* Pour les éléments affectés après le démarrage de la délégation, il peut s’écouler jusqu’à une heure après l’attribution de l’élément pour [!DNL Workfront] pour partager les éléments nouvellement affectés avec le délégué.
-
 
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
@@ -85,9 +84,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Avant de pouvoir exécuter les activités décrites dans cet article, vous devez vous assurer que :
 
-* Votre [!DNL Workfront] ou l’administrateur de groupe a activé la fonction [!UICONTROL Autoriser les utilisateurs à supprimer les tâches et les problèmes liés aux heures enregistrées] dans le [!UICONTROL Configuration] de votre [!DNL Workfront] instance.
+* Votre [!DNL Workfront] ou l’administrateur de groupe a activé [!UICONTROL Autoriser les utilisateurs à supprimer les tâches et les problèmes liés aux heures enregistrées] dans le [!UICONTROL Configuration] de votre [!DNL Workfront] instance.
 
-   Pour plus d’informations, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Pour plus d’informations, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Délégation de tâches et de problèmes à un autre utilisateur
 
@@ -103,31 +102,32 @@ Pour déléguer vos tâches et problèmes à d’autres personnes :
 
 1. Dans le [!UICONTROL **Délégation de tâches et de problèmes**] , mettez à jour les éléments suivants :
 
-   * [!UICONTROL **Déléguez vos tâches et problèmes à**]: Commencez à saisir le nom d’un utilisateur auquel vous souhaitez déléguer vos tâches et problèmes, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous ne pouvez sélectionner qu’un seul utilisateur.\
+   * [!UICONTROL **Déléguez vos tâches et problèmes à**]: commencez à saisir le nom d’un utilisateur auquel vous souhaitez déléguer vos tâches et problèmes, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous ne pouvez sélectionner qu’un seul utilisateur.\
 
-      L’utilisateur que vous sélectionnez en tant que délégué reçoit les mêmes autorisations que vos autorisations sur les tâches et problèmes que vous lui déléguez. Pour plus d’informations, voir [Présentation de la tâche déléguée et du problème](delegate-work-overview.md).
+     L’utilisateur que vous sélectionnez en tant que délégué reçoit les mêmes autorisations que vos autorisations sur les tâches et problèmes que vous lui déléguez. Pour plus d’informations, voir [Présentation de la tâche déléguée et du problème](delegate-work-overview.md).
 
-   * [!UICONTROL **Date de début**]: Sélectionnez une date du calendrier à laquelle la délégation de vos tâches doit commencer.
+   * [!UICONTROL **Date de début**]: sélectionnez une date dans le calendrier où doit commencer la délégation de vos tâches.
 
-      >[!TIP]
-      >
-      >La date de début ne peut pas se trouver dans le passé.
+     >[!TIP]
+     >
+     >La date de début ne peut pas se trouver dans le passé.
 
-   * [!UICONTROL **Aucune date de fin**]: Sélectionnez cette option si vous ne souhaitez pas spécifier la date de fin de votre délégation.
+   * [!UICONTROL **Aucune date de fin**]: sélectionnez cette option si vous ne souhaitez pas spécifier la date de fin pour votre délégation.
 
-   * [!UICONTROL **Date de fin**]: Sélectionnez une date du calendrier à laquelle la délégation doit s’arrêter.
+   * [!UICONTROL **Date de fin**]: sélectionnez une date du calendrier à laquelle la délégation doit s’arrêter.
 
-      >[!TIP]
-      >
-      >Si vous ne sélectionnez pas de Date de fin, la délégation n’est activée que pour le jour en cours.
+     >[!TIP]
+     >
+     >Si vous ne sélectionnez pas de Date de fin, la délégation n’est activée que pour le jour en cours.
 
-      ![](assets/delegate-box-expanded-in-home.png)
+     ![](assets/delegate-box-expanded-in-home.png)
 
 1. Cliquer sur [!UICONTROL **Enregistrer**].
 
    Les événements suivants se produisent :
 
    * Votre travail est délégué à l’utilisateur spécifié. Les tâches incomplètes ou les problèmes dont les dates sont comprises dans la période que vous avez sélectionnée (y compris les tâches nouvellement attribuées, une fois la délégation activée) sont délégués.
+
    >[!TIP]
    >
    >   Les tâches terminées qui comportent des dates dans la période de la délégation ne sont pas déléguées.
@@ -137,8 +137,7 @@ Pour déléguer vos tâches et problèmes à d’autres personnes :
 
    * Une indication indiquant que vos tâches et problèmes sont délégués à d’autres utilisateurs s’affiche dans la plupart des zones où vous pouvez voir des affectations. [!DNL Workfront]. Pour plus d’informations sur les zones qui n’incluent pas le nom des délégués, voir [Présentation de la tâche déléguée et du problème](delegate-work-overview.md).
 
-   * Le [!UICONTROL **Déléguer**] dans le [!UICONTROL Accueil] change de zone [!UICONTROL **Modifier la délégation**] pour indiquer qu’une délégation a été mise en place.
-
+   * La variable [!UICONTROL **Déléguer**] dans le [!UICONTROL Accueil] change de zone [!UICONTROL **Modifier la délégation**] pour indiquer qu’une délégation a été mise en place.
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
@@ -151,8 +150,7 @@ Pour déléguer vos tâches et problèmes à d’autres personnes :
 
    * L’utilisateur que vous avez sélectionné en tant que délégué reçoit un e-mail sur la délégation, si ses notifications d’événement sont activées.
 
-      Pour plus d’informations sur l’activation des notifications électroniques personnelles, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
+     Pour plus d’informations sur l’activation des notifications électroniques personnelles, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 
@@ -163,7 +161,7 @@ Vous pouvez laisser une délégation expirer si vous avez sélectionné une Date
 
 1. Accédez au [!UICONTROL Accueil] , puis cliquez sur [!UICONTROL Modifier la délégation] dans le coin supérieur droit de la liste de tâches.
 1. Dans le [!UICONTROL Délégation de tâches et de problèmes] , effectuez l’une des opérations suivantes :
-   * Modifiez le [!UICONTROL **Date de début**] ou le [!UICONTROL **Date de fin**]
+   * Modifiez la variable [!UICONTROL **Date de début**] ou le [!UICONTROL **Date de fin**]
    * Cliquez sur [!UICONTROL **Arrêter la délégation**]
 
    >[!TIP]
@@ -196,20 +194,20 @@ Lorsque des tâches et des problèmes sont délégués, il existe plusieurs doma
 
 Lorsque votre administrateur système ou groupe active la délégation de travail dans votre système, la variable [!UICONTROL Affectations] affiche les onglets suivants partout où vous pouvez y accéder :
 
-* [!UICONTROL **Affectations**]: Les utilisateurs affectés à la tâche ou au problème s’affichent ici.
-* [!UICONTROL **Délégations**]: Les utilisateurs désignés comme délégués par les personnes désignées pour la tâche ou le problème s’affichent ici.
+* [!UICONTROL **Affectations**]: les utilisateurs affectés à la tâche ou au problème s’affichent ici.
+* [!UICONTROL **Délégations**]: les utilisateurs désignés comme délégués par les personnes désignées pour la tâche ou le problème s’affichent ici.
 
 Vous pouvez accéder au [!UICONTROL Affectations] dans les zones suivantes :
 
 * En-tête de tâche ou de problème
 
-   ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
-   Le [!UICONTROL Affectations] du champ de la tâche ou de l’en-tête du problème se transforme en [!UICONTROL Affectations et délégations].
+  La variable [!UICONTROL Affectations] du champ de la tâche ou de l’en-tête du problème se transforme en [!UICONTROL Affectations et délégations].
 
-* Le [!UICONTROL Équilibreur de charge de travail] lors de l’affectation manuelle de tâches ou de problèmes
+* La variable [!UICONTROL Équilibreur de charge de travail] lors de l’affectation manuelle de tâches ou de problèmes
 
-   ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -243,6 +241,7 @@ Si une tâche ou un problème est délégué et que la variable [!UICONTROL Dél
    * Pour les éléments que vous avez délégués à d’autres, le nom du délégué s’affiche dans la variable [!UICONTROL **Liste de tâches**] ainsi que la variable [!UICONTROL **Affectations et délégations**] sur la droite.
 
    * Pour les éléments qui vous sont délégués, le nom de la personne désignée s’affiche dans la variable [!UICONTROL **Liste de tâches**] ainsi que la variable **[!UICONTROL Affectations et délégations]** sur la droite.
+
    >[!TIP]
    >
-   >    Si la délégation est définie pour commencer à une date postérieure à la date d’aujourd’hui, la date de début de la délégation s’affiche également dans la variable [!UICONTROL Liste de tâches]. Les éléments délégués s’affichent dans le regroupement que vous sélectionnez pour le [!UICONTROL Liste de tâches], en fonction du type de groupement. Par exemple, si vous effectuez un regroupement par [!UICONTROL Date d’achèvement prévue], les éléments délégués s’affichent dans le regroupement correspondant aux dates d’achèvement prévues.
+   >    Si la délégation est définie pour commencer à une date postérieure à la date du jour, la date de début de la délégation s’affiche également dans la variable [!UICONTROL Liste de tâches]. Les éléments délégués s’affichent dans le regroupement que vous sélectionnez pour le [!UICONTROL Liste de tâches], en fonction du type de groupement. Si, par exemple, vous effectuez un regroupement par [!UICONTROL Date d’achèvement prévue], les éléments délégués s’affichent dans le regroupement correspondant aux dates d’achèvement prévues.

@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez ajouter un champ personnalisé calculé qui utilise les données existantes pour générer de nouvelles données lorsque le formulaire personnalisé est joint à un objet.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2317'
 ht-degree: 0%
 
 ---
-
 
 # Ajouter des champs calculés avec le concepteur de formulaires
 
@@ -23,19 +23,19 @@ Un champ personnalisé calculé peut contenir :
 
 * Référence simple à un seul champ intégré.
 
-   >[!INFO]
-   >
-   > **Exemple :** Pour calculer les recettes générées par les projets et les tâches, vous pouvez créer un champ personnalisé calculé qui contient le champ intégré Recettes réelles. Lorsqu’une personne joint le formulaire personnalisé à un projet ou à une tâche, les recettes du projet ou de la tâche s’affichent dans le champ .
+  >[!INFO]
+  >
+  > **Exemple :** Pour calculer les recettes générées par les projets et les tâches, vous pouvez créer un champ personnalisé calculé qui contient le champ intégré Recettes réelles. Lorsqu’une personne joint le formulaire personnalisé à un projet ou à une tâche, les recettes du projet ou de la tâche s’affichent dans le champ .
 
 * Une expression qui fait référence à un ou plusieurs champs. Il peut s’agir de champs personnalisés, d’autres champs personnalisés calculés et de champs intégrés.
 
-   >[!INFO]
-   >
-   >**Exemple :** Pour calculer le profit généré par les projets et les tâches, vous pouvez créer un champ personnalisé calculé appelé Profit contenant une expression mathématique qui soustrait le coût des recettes.
-   >
-   >Pour ce faire, vous pouvez utiliser l’expression mathématique SUB (soustraire) avec les champs Workfront intégrés Coût réel et Recettes réelles.
-   >
-   >Dans les étapes ci-dessous, vous pouvez suivre cet exemple.
+  >[!INFO]
+  >
+  >**Exemple :** Pour calculer le profit généré par les projets et les tâches, vous pouvez créer un champ personnalisé calculé appelé Profit contenant une expression mathématique qui soustrait le coût des recettes.
+  >
+  >Pour ce faire, vous pouvez utiliser l’expression mathématique SUB (soustraire) avec les champs Workfront intégrés Coût réel et Recettes réelles.
+  >
+  >Dans les étapes ci-dessous, vous pouvez suivre cet exemple.
 
 
 ## Exigences d’accès
@@ -63,7 +63,7 @@ Les étapes de cet article doivent être les suivantes :
 
 &#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
 
-## Réutilisation d’un champ personnalisé calculé existant dans un formulaire personnalisé
+## Réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé
 
 Vous pouvez utiliser le même champ personnalisé calculé sur les formulaires personnalisés appartenant à des objets différents. Par exemple, vous pouvez utiliser le champ calculé de profit que vous avez créé pour le formulaire personnalisé du projet sur un formulaire personnalisé de tâche.
 
@@ -77,8 +77,7 @@ Vous pouvez également avoir un calcul différent pour le même champ, sur le no
 >
 >* Après avoir enregistré un objet pour lequel vous avez modifié des données dans un formulaire personnalisé joint, cliquez sur l’icône Plus ![](assets/more-icon.png) sur la page principale de l’objet, puis Recalculer les expressions personnalisées.
 >* Sélectionnez l’option Recalculer les expressions personnalisées lors de l’édition d’objets en bloc.
->* Sélectionnez l’option Mettre à jour les calculs précédents lors de la modification d’un champ personnalisé calculé sur un formulaire personnalisé.
-
+>* Sélectionnez l’option Mettre à jour les calculs précédents lorsque vous modifiez un champ personnalisé calculé sur un formulaire personnalisé.
 
 Pour réutiliser un champ personnalisé calculé existant :
 
@@ -158,7 +157,7 @@ Pour réutiliser un champ personnalisé calculé existant :
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>Format dans lequel vous souhaitez que les résultats du champ soient stockés et affichés.</p> <p>Si le champ sera utilisé dans les calculs mathématiques, utilisez toujours un <strong>Nombre</strong> ou <strong>Devise</strong> format. Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</p> 
-      <p><b>IMPORTANT</b>: Avant de choisir un format, tenez compte du format correct pour le nouveau champ. Une fois le formulaire personnalisé enregistré, le champ de format ne peut plus être modifié. Et le choix d’un mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p> </td> 
+      <p><b>IMPORTANT</b>: avant de choisir un format, tenez compte du format correct pour le nouveau champ. Une fois le formulaire personnalisé enregistré, le champ de format ne peut plus être modifié. Et le choix d’un mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -181,96 +180,97 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
       * Si vous souhaitez que le calcul référence un champ intégré, le nom du champ doit être entouré de accolades.
 
-         Par exemple: `{actualRevenue}`
+        Par exemple: `{actualRevenue}`
 
-         Les noms de champ sont sensibles à la casse et doivent apparaître dans le calcul exactement comme ils apparaissent dans le système Workfront.
+        Les noms de champ sont sensibles à la casse et doivent apparaître dans le calcul exactement comme ils apparaissent dans le système Workfront.
 
-         Accédez au [Explorateur d’API Workfront](https://developer.adobe.com/workfront/api-explorer/) pour identifier les noms de champ qui peuvent être utilisés dans les calculs.
+        Accédez au [Explorateur d’API Workfront](https://developer.adobe.com/workfront/api-explorer/) pour identifier les noms de champ qui peuvent être utilisés dans les calculs.
 
       * Si vous souhaitez que le calcul référence un champ personnalisé, le nom du champ doit être entouré de accolades et précédé de `DE:` entre les crochets.
 
-         Par exemple: `{DE:Profit}`
+        Par exemple: `{DE:Profit}`
 
-         Le système répertorie tous les champs personnalisés que vous pouvez choisir lorsque vous saisissez `DE:`.
+        Le système répertorie tous les champs personnalisés que vous pouvez choisir lorsque vous saisissez `DE:`.
 
          * Si vous souhaitez que le calcul référence un champ qui extrait les données de la variable *parent* lorsque le formulaire personnalisé est associé à un objet, vous devez précéder le nom du champ du type d’objet de l’objet parent, également entre accolades.
 
-         Par exemple, si le formulaire personnalisé est configuré pour fonctionner avec des tâches et que vous souhaitez que le champ calcule le revenu réel de l’objet parent lorsque le formulaire est joint à une tâche, vous devez indiquer `Project` comme type d’objet du champ :
+        Par exemple, si le formulaire personnalisé est configuré pour fonctionner avec des tâches et que vous souhaitez que le champ calcule le revenu réel de l’objet parent lorsque le formulaire est joint à une tâche, vous devez indiquer `Project` comme type d’objet du champ :
 
-         `{project}.{actualRevenue}`
+        `{project}.{actualRevenue}`
 
-         Ou, s’il s’agit d’un champ personnalisé :
+        Ou, s’il s’agit d’un champ personnalisé :
 
-         `{project}.{DE:profit}`
+        `{project}.{DE:profit}`
 
-         **Séparez les éléments par des points.**
+        **Séparez les éléments par des points.**
 
-         Lorsque vous référencez un objet associé dans un champ personnalisé calculé, vous devez séparer les noms et les attributs des objets par des points.
+        Lorsque vous référencez un objet associé dans un champ personnalisé calculé, vous devez séparer les noms et les attributs des objets par des points.
 
-         Par exemple, dans un formulaire personnalisé de type tâche, pour afficher le nom du propriétaire du Portfolio dans un champ personnalisé calculé, vous devez saisir ce qui suit :
+        Par exemple, dans un formulaire personnalisé de type tâche, pour afficher le nom du propriétaire du Portfolio dans un champ personnalisé calculé, vous devez saisir ce qui suit :
 
-         `{project}.{porfolio}.{owner}`
+        `{project}.{porfolio}.{owner}`
 
-         Cela déterminerait les éléments suivants : A partir de l’objet du formulaire personnalisé (une tâche), vous pouvez accéder à l’objet suivant associé à la tâche (un projet). De là, vous pouvez accéder à l’objet associé suivant au projet (un portfolio), puis référencer les champs définis pour l’objet de portfolio (le propriétaire).
+        Cela détermine ce qui suit : à partir de l’objet du formulaire personnalisé (une tâche), vous pouvez accéder à l’objet suivant associé à la tâche (un projet). De là, vous pouvez accéder à l’objet associé suivant au projet (un portfolio), puis référencer les champs définis pour l’objet de portfolio (le propriétaire).
 
-         **Syntaxe du nom pour référencer un champ personnalisé**
+        **Syntaxe du nom pour référencer un champ personnalisé**
 
-         Lorsque vous référencez un autre champ personnalisé dans un champ personnalisé calculé, vous devez saisir le nom du champ tel qu’il s’affiche dans l’interface utilisateur de Workfront.
+        Lorsque vous référencez un autre champ personnalisé dans un champ personnalisé calculé, vous devez saisir le nom du champ tel qu’il s’affiche dans l’interface utilisateur de Workfront.
 
-         Par exemple, pour référencer l’option sélectionnée dans un champ personnalisé intitulé Responsable de l’exécution, saisissez ce qui suit :
+        Par exemple, pour référencer l’option sélectionnée dans un champ personnalisé intitulé Responsable de l’exécution, saisissez ce qui suit :
 
-         `{DE:Executive sponsor}`
+        `{DE:Executive sponsor}`
 
-         >[!NOTE]
-         >
-         >La syntaxe d’un champ de saisie anticipée est légèrement différente de celle des autres types de champs, car vous devez ajouter `:name` à la fin.
-         >
-         >Par exemple, pour référencer l’option sélectionnée dans un champ de type personnalisé nommé &quot;Responsable de l’exécution&quot;, saisissez :
-         >
-         >`{DE:Executive sponsor:name}`
-
-
-         **Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets**
-
-         Dans un formulaire personnalisé à plusieurs objets, les types d’objets sélectionnés doivent être compatibles avec au moins un champ référencé dans les champs personnalisés calculés du formulaire. Les champs non compatibles avec l’objet s’affichent sous la forme N/A.
-
-         Pour vous assurer que le champ calculé présente un résultat correct pour tous les types d’objets, vous devez utiliser `$$OBJCODE` pour définir un calcul pour chaque type d’objet.
-
-         >[!INFO]
-         >
-         >**Exemple:**
-         >
-         >Dans un formulaire personnalisé configuré pour fonctionner avec des projets, des tâches et des problèmes, vous pouvez utiliser la formule suivante pour afficher le type d’objet :
-         >
-         >`IF($$OBJCODE="PROJ","This is a project",IF($$OBJCODE="TASK","This is a task","This is an issue"))`
-         >
-         >Sur un projet, le champ affiche &quot;Ceci est un projet&quot;, sur une tâche, &quot;Ceci est une tâche&quot;, et sur un problème, &quot;Ceci est un problème&quot;.
+        >[!NOTE]
+        >
+        >La syntaxe d’un champ de saisie anticipée est légèrement différente de celle des autres types de champs, car vous devez ajouter `:name` à la fin.
+        >
+        >Par exemple, pour référencer l’option sélectionnée dans un champ de type personnalisé nommé &quot;Responsable de l’exécution&quot;, saisissez :
+        >
+        >`{DE:Executive sponsor:name}`
 
 
-         >[!INFO]
-         >
-         >**Exemple :** Bien qu’il n’y ait pas d’attribution à : Champ Nom dans les projets. Il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un modifie manuellement ce champ).
-         >
-         >Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour faire référence au champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et le champ Affecté à : Champ Nom lorsque le formulaire est joint à une tâche :
-         >
-         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
+        **Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets**
 
-         Pour plus d’informations sur les variables telles que `$$OBJCODE,` see [Variables de filtre génériques](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        Dans un formulaire personnalisé à plusieurs objets, les types d’objets sélectionnés doivent être compatibles avec au moins un champ référencé dans les champs personnalisés calculés du formulaire. Les champs non compatibles avec l’objet s’affichent sous la forme N/A.
 
-         **Mises à jour automatiques des champs personnalisés calculés**
+        Pour vous assurer que le champ calculé présente un résultat correct pour tous les types d’objets, vous devez utiliser `$$OBJCODE` pour définir un calcul pour chaque type d’objet.
 
-         Les champs personnalisés calculés sur un objet sont automatiquement recalculés lorsque les événements suivants se produisent :
+        >[!INFO]
+        >
+        >**Exemple:**
+        >
+        >Dans un formulaire personnalisé configuré pour fonctionner avec des projets, des tâches et des problèmes, vous pouvez utiliser la formule suivante pour afficher le type d’objet :
+        >
+        >`IF($$OBJCODE="PROJ","This is a project",IF($$OBJCODE="TASK","This is a task","This is an issue"))`
+        >
+        >Sur un projet, le champ affiche &quot;Ceci est un projet&quot;, sur une tâche, &quot;Ceci est une tâche&quot;, et sur un problème, &quot;Ceci est un problème&quot;.
+
+
+        >[!INFO]
+        >
+        >**Exemple :** Bien qu’il n’existe pas de champ Attribué à : nom dans les projets, il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un modifie manuellement ce champ).
+        >
+        >Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour faire référence au champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et au champ Affecté à : Nom lorsque le formulaire est joint à une tâche :
+        >
+        >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
+
+        Pour plus d’informations sur les variables telles que `$$OBJCODE,` see [Variables de filtre génériques](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+
+        **Mises à jour automatiques des champs personnalisés calculés**
+
+        Les champs personnalisés calculés sur un objet sont automatiquement recalculés lorsque les événements suivants se produisent :
 
          * Un élément de l’objet change, tel qu’un calcul quotidien de la chronologie.
          * Quelqu’un modifie un autre champ qui est référencé par un champ personnalisé calculé sur l’objet.
          * L’expression calculée est vide et le champ contient une valeur : elle définit la valeur sur null.
 
-            >[!NOTE]
-            >
-            ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont calculées et enregistrées selon l’heure universelle coordonnée (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil utilisateur. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque utilisateur.</div>
+           >[!NOTE]
+           >
+           ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont calculées et enregistrées selon l’heure universelle coordonnée (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil utilisateur. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque utilisateur.</div>
 
 +++
-   1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** qui peuvent être ajoutés à votre calcul.
+
+   1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** qui sont disponibles pour les ajouter à votre calcul.
 
       Vous pouvez également commencer à saisir une expression ou un champ dans la zone de texte de grande taille, puis le sélectionner lors de son affichage. Chaque élément s’affiche avec un &quot;F&quot; pour le champ ou un &quot;E&quot; pour l’expression.
 
@@ -282,17 +282,15 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
       >Vous pouvez effectuer l’une des opérations suivantes pour obtenir de l’aide sur votre calcul :
       > 
       >* Passez la souris sur une expression de votre calcul pour afficher une description, un exemple illustrant son utilisation et un lien &quot;En savoir plus&quot; pour plus d’informations dans l’article. [Expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-         >  ![](assets/hover-expression-help-text.jpg)
+      >  ![](assets/hover-expression-help-text.jpg)
       >* Utilisez le codage colorimétrique pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
-         >  ![](assets/colors-fields-expressions.jpg)
+      >  ![](assets/colors-fields-expressions.jpg)
       >* Recherchez les erreurs de calcul, surlignées en rose, au fur et à mesure. Vous pouvez pointer sur une erreur mise en surbrillance pour afficher une brève description de sa cause.
-         >  ![](assets/error-help.png)
+      >  ![](assets/error-help.png)
       >* Dans la zone située sous votre calcul, prévisualisez les résultats sur un objet Workfront existant.
-         ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-
-         >  ![](assets/preview-calc.jpg)
+      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
+      >  ![](assets/preview-calc.jpg)
       >* Expressions de référence dans un calcul long à l’aide des numéros de ligne qui s’affichent sur la gauche.
-
 
 +++
    1. Cliquez sur **Réduire** lorsque vous avez terminé de créer le calcul pour le champ personnalisé calculé.
@@ -323,5 +321,3 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
    ou
 
    Cliquez sur **Enregistrer et fermer**.
-
-

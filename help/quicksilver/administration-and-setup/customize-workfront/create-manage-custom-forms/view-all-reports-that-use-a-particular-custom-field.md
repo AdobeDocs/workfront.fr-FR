@@ -2,10 +2,10 @@
 title: Afficher tous les rapports qui utilisent un champ ou un widget personnalisé spécifique
 description: Vous pouvez ajouter une vue personnalisée dans la zone Forms personnalisée qui indique les rapports qui utilisent un champ ou un widget personnalisé spécifique. Cela s’avère utile lorsque vous devez modifier ou supprimer le champ ou le widget, car il peut déjà être implémenté dans un ou plusieurs rapports. Il est important d’évaluer si ces rapports devront être ajustés pour continuer à fonctionner correctement.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Les étapes de cet article doivent être les suivantes :
 
 1. Si vous ne voyez pas d’affichage qui inclut la variable **Rapports** , créez une vue qui l’inclut :
 
-   1. Cliquez sur le bouton **Affichage** menu déroulant, puis cliquez sur **Nouvelle vue**.
+   1. Cliquez sur le bouton **Affichage** , puis cliquez sur **Nouvelle vue**.
 
    1. Sur le **Nouvelle vue** dans la zone située dans le coin supérieur gauche, remplacez **Nouvelle vue des paramètres** avec un nom descriptif pour la vue, tel que *Champs et widgets*.
 
@@ -69,7 +69,7 @@ Les étapes de cet article doivent être les suivantes :
 
    1. Cliquez sur **Terminé**, puis cliquez sur **Enregistrer la vue**.
 
-1. Cliquez sur le bouton **Affichage** menu déroulant, puis sélectionnez le nom de la vue personnalisée que vous venez de créer.
+1. Cliquez sur le bouton **Affichage** , puis sélectionnez le nom de la vue personnalisée que vous venez de créer.
 1. Dans le **Nom** , recherchez le champ personnalisé ou le widget que vous prévoyez de modifier ou de supprimer, puis examinez le **Rapports** sur cette ligne pour identifier les rapports qui l’utilisent, le cas échéant.
 
    Pour trouver les informations de cette colonne, Workfront recherche les champs personnalisés et les widgets dans tous les filtres de rapport, vues et regroupements.
@@ -93,4 +93,3 @@ Les étapes de cet article doivent être les suivantes :
    > 1. (Conditionnel) Si vous souhaitez déplacer la variable **Rapports** que vous venez d’ajouter à une autre position horizontale, faites glisser son en-tête dans la **Aperçu des colonnes** au bas de la page.
    > 1. Cliquez sur **Terminé**, puis cliquez sur **Enregistrer + Fermer**.
    > 1. Saisissez un nom explicite pour le rapport, tel que *Champs et widgets*.
-

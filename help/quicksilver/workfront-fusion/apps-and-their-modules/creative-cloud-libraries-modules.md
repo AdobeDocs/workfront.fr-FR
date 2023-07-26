@@ -5,10 +5,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Modules de bibliothèques Adobe Creative Cloud
-description: Avec le [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Modules de bibliothèques, vous pouvez démarrer un scénario lorsqu’un élément ou une bibliothèque est créé ou mis à jour. Vous pouvez également charger, récupérer, archiver ou répertorier des éléments, ou effectuer un appel vers la fonction [!DNL Adobe Creative Cloud Libraries] API.
+description: Avec la variable [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Modules de bibliothèques, vous pouvez démarrer un scénario lorsqu’un élément ou une bibliothèque est créé ou mis à jour. Vous pouvez également charger, récupérer, archiver ou répertorier des éléments, ou effectuer un appel vers la fonction [!DNL Adobe Creative Cloud Libraries] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%
@@ -17,9 +18,9 @@ ht-degree: 1%
 
 # Modules de bibliothèques Adobe Creative Cloud
 
-Avec le [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] , vous pouvez démarrer un scénario lorsqu’un élément ou une bibliothèque est créé ou mis à jour. Vous pouvez également charger, récupérer, archiver ou répertorier des éléments, ou effectuer un appel vers la fonction [!DNL Adobe Creative Cloud Libraries] API.
+Avec la variable [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] , vous pouvez démarrer un scénario lorsqu’un élément ou une bibliothèque est créé ou mis à jour. Vous pouvez également charger, récupérer, archiver ou répertorier des éléments, ou effectuer un appel vers la fonction [!DNL Adobe Creative Cloud Libraries] API.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -46,7 +47,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td>
@@ -54,9 +55,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
     <tr>
       <td role="rowheader">Produit</td>
       <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td>
     </tr>
   </tbody>
@@ -392,7 +393,7 @@ Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Creativ
     <tr>
       <td role="rowheader">[!UICONTROL Version de l’API]</td>
       <td>
-        <p>Sélectionnez la version de la variable [!DNL Adobe Analytics] API à laquelle vous souhaitez vous connecter.</p>
+        <p>Sélectionnez la version de la [!DNL Adobe Analytics] API à laquelle vous souhaitez vous connecter.</p>
       </td>
     </tr>    <tr>
       <td role="rowheader">Méthode [!UICONTROL]</td>
@@ -415,7 +416,7 @@ Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Creativ
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

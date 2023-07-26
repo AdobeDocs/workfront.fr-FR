@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Suppression d’un champ ou d’un widget personnalisé du système
 description: Pour améliorer les performances du système et faciliter l’utilisation des formulaires pour les utilisateurs, vous pouvez supprimer des champs et des widgets personnalisés de votre système lorsqu’ils ne sont plus utilisés.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Les étapes de cet article doivent être les suivantes :
 1. Cliquez sur **Forms personnalisée.**
 1. Cliquez sur le bouton **Champs** .
 1. Sélectionnez le champ personnalisé ou le widget, puis cliquez sur **Supprimer**.
-1. Si vous êtes sûr de vouloir supprimer définitivement l’élément et (dans le cas d’un champ personnalisé) toutes les données associées sur les objets auxquels il a été associé, cliquez sur **Oui, la supprimer**.
+1. Si vous souhaitez vraiment supprimer définitivement l’élément et (dans le cas d’un champ personnalisé) toutes les données associées sur les objets auxquels il a été associé, cliquez sur **Oui, la supprimer**.
 
 ## Supprimer un champ personnalisé sans perdre les données saisies par les utilisateurs {#remove-a-custom-field-without-losing-data-that-users-have-entered}
 
@@ -70,12 +70,12 @@ Les étapes de cet article doivent être les suivantes :
 1. Déterminez les champs personnalisés à supprimer du formulaire personnalisé d’origine, mais ne les supprimez pas à ce stade.
 1. Créez un formulaire personnalisé :
 
-   1. Ajoutez les champs personnalisés au nouveau formulaire que vous souhaitez supprimer du formulaire personnalisé d’origine.
+   1. Ajoutez les champs personnalisés au nouveau formulaire à supprimer du formulaire personnalisé d’origine.
 
-      * Si vous utilisez le créateur de formulaires personnalisé, reportez-vous à la section [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
-      * Si vous utilisez le concepteur de formulaire, reportez-vous à la section [Ajouter des champs nouveaux ou existants à votre formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+      * Si vous utilisez le créateur de formulaires personnalisé, voir [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+      * Si vous utilisez le concepteur de formulaire, voir [Ajouter des champs nouveaux ou existants à votre formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+
    1. Enregistrez le nouveau formulaire personnalisé.
-
 
 1. Limitez l’accès au formulaire personnalisé aux seuls utilisateurs disposant d’un accès administratif, comme décrit dans la section [Partage d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 1. Appliquez le nouveau formulaire personnalisé aux objets dans lesquels le formulaire personnalisé d’origine est déjà appliqué, comme décrit à la section [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

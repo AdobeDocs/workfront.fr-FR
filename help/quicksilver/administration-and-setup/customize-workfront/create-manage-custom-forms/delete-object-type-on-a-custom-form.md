@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Suppression de types d’objet sur un formulaire personnalisé
 description: Sur un formulaire personnalisé existant, vous pouvez supprimer les types d’objet associés au formulaire. Après cela, les utilisateurs ne peuvent plus joindre le formulaire à des objets de ce type.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Un formulaire personnalisé doit comporter au moins un type d’objet.
 
 1. Cliquez sur **Forms personnalisée** dans le panneau de gauche.
 1. Sélectionnez le formulaire personnalisé à modifier, puis cliquez sur **Modifier**.
-1. Cliquez sur le X dans l’une des **Types d’objet** que vous souhaitez supprimer du formulaire, puis cliquez sur **Supprimer** dans le message d’avertissement qui s’affiche.
+1. Cliquez sur le X dans l’une des **Types d’objet** à supprimer du formulaire, puis cliquez sur **Supprimer** dans le message d’avertissement qui s’affiche.
 
    ![](assets/click-x-object-types.jpg)
 

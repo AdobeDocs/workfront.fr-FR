@@ -5,8 +5,9 @@ navigation-topic: api-navigation-topic
 title: API
 description: Articles de l’API Workfront
 author: Becky
+feature: Workfront API
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
@@ -24,7 +25,7 @@ Cette section contient les articles suivants :
 * [Certificats d’abonnement d’événement](../../wf-api/api/event-sub-certs.md)
 * [Spécification d’une version d’API dans vos intégrations](../../wf-api/api/specify-api-version-integrations.md)
 
-* [Modifications de l’API Core : Réponses de recherche d’état](../../wf-api/api/api-changes-search.md)
+* [Modifications de l’API Core : réponses de recherche d’état](../../wf-api/api/api-changes-search.md)
 * [Mise à jour des intégrations qui utilisent le contrôle de version des API par défaut](../../wf-api/api/update-default-api-versioning.md)
 * [Abandon de l’API interne](../../wf-api/api/deprecation-api-internal.md)
 * [Caractères échappés dans les réponses de l’API](../../wf-api/api/escaped-characters-api.md)

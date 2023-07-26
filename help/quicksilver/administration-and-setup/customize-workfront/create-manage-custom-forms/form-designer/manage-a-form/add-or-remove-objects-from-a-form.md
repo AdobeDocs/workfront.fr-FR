@@ -1,21 +1,21 @@
 ---
-title: Ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant à l’aide du concepteur de formulaire
+title: Ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant avec le concepteur de formulaire
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez ajouter ou supprimer des types d’objet de formulaires personnalisés à l’aide du concepteur de formulaire.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
-
-# Ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant à l’aide du concepteur de formulaire
+# Ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant avec le concepteur de formulaire
 
 Vous pouvez ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant à l’aide du concepteur de formulaire.
 
@@ -36,7 +36,7 @@ Les étapes de cet article doivent être les suivantes :
    <td>
    <p>Formule actuelle : Standard</p>
    <p>ou</p>
-   <p>Plan hérité : Plan</p></td> 
+   <p>Formule héritée : Planifier</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -66,7 +66,7 @@ Vous pouvez ajouter d’autres types d’objet au formulaire afin de les joindre
 
 1. Sélectionnez le formulaire personnalisé auquel vous souhaitez ajouter d’autres types d’objets, puis cliquez sur **Modifier**.
 
-1. En haut du formulaire, cliquez sur le signe + après **Types d’objet**, puis sélectionnez le type souhaité dans le menu qui s’affiche. Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
+1. Dans la partie supérieure du formulaire, cliquez sur le signe + après **Types d’objet**, puis sélectionnez le type souhaité dans le menu qui s’affiche. Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
 
    ![](assets/add-new-object.png)
 
@@ -74,7 +74,7 @@ Vous pouvez ajouter d’autres types d’objet au formulaire afin de les joindre
 
    >[!TIP]
    >
-   >Vous pouvez cliquer sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
+   >Cliquez sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
 
 ## Suppression de types d’objet sur un formulaire personnalisé
 
@@ -92,7 +92,7 @@ Pour supprimer un type d’objet :
 
 1. Cliquez sur **Forms personnalisée** dans le panneau de gauche.
 1. Sélectionnez le formulaire personnalisé à modifier, puis cliquez sur **Modifier**.
-1. Cliquez sur le X dans l’une des **Types d’objet** que vous souhaitez supprimer du formulaire, puis cliquez sur **Supprimer** dans le message d’avertissement qui s’affiche.
+1. Cliquez sur le X dans l’une des **Types d’objet** à supprimer du formulaire, puis cliquez sur **Supprimer** dans le message d’avertissement qui s’affiche.
 
    ![](assets/delete-object-types.png)
 

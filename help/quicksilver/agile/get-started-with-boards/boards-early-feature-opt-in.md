@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] Panoramas
 description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Boards] inscription anticipée aux fonctionnalités.
 author: Lisa
+feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Pour obtenir des informations générales sur les panoramas, voir [[!UICONTROL P
 
 ## Calendrier des versions
 
-* Lancement anticipé de l’inclusion des fonctionnalités dans l’aperçu : 22 juillet 2022
+* Lancement anticipé de l’inclusion des fonctionnalités dans la prévisualisation : 22 juillet 2022
 * Version officielle : 28 juillet 2022
 
 ## Fonctionnalités
@@ -85,7 +86,7 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
    <td>Publié</td>
   </tr>
   <tr>
-   <td>Ajouter une colonne d’ingestion</td>
+   <td>Ajout d’une colonne d’entrée</td>
    <td>Publié</td>
   </tr>
   <tr>
@@ -203,11 +204,11 @@ Uniquement [!DNL Workfront] les administrateurs peuvent souscrire à des fonctio
 1. Lors d’un panorama, cliquez sur l’icône **[!UICONTROL Commentaires]** bouton .
 1. Remplissez le formulaire, puis cliquez sur **[!UICONTROL Envoyer]**.
 
-## FAQ sur l’inscription aux fonctionnalités initiales
+## FAQ sur l’opt-in des premières fonctionnalités
 
 ### Comment savoir si mon entreprise a choisi les fonctionnalités initiales ?
 
-Lorsque la variable [!DNL Workfront] L’administrateur a activé les fonctions initiales pour les panoramas ; un [!UICONTROL Accord préalable sur les fonctionnalités] Bouton Activé en haut de l’écran du tableau de bord. Cliquez sur le bouton pour afficher les fonctions activées.
+Lorsque la variable [!DNL Workfront] L’administrateur a activé les fonctions initiales pour les panoramas ; un [!UICONTROL Accord préalable sur les fonctionnalités] Bouton Activé dans la partie supérieure de l’écran du tableau de bord. Cliquez sur le bouton pour afficher les fonctions activées.
 
 ### Les fonctionnalités anticipées peuvent-elles être activées uniquement pour certains utilisateurs ?
 

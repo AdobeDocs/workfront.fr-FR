@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Configuration du journal en souffrance sur un panorama de flux de travail
 description: Vous pouvez choisir d’afficher une colonne de journal sur un panorama dans un flux de travail et de définir une requête pour les cartes qui sont extraites dans le journal du panorama depuis la liste des cartes du flux de travail.
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%

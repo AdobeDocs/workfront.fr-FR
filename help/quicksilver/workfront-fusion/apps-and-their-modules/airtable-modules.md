@@ -8,18 +8,19 @@ navigation-topic: apps-and-their-modules
 title: Modules Airtable
 description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
 author: Becky
+feature: Workfront Fusion
 exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1863'
+ht-degree: 2%
 
 ---
 
 # Modules Airtable
 
 
-Avec le [!DNL Airtable] connecteur pour [!DNL Adobe Workfront Fusion], vous pouvez démarrer un scénario en fonction des événements de votre [!DNL Airtable] créer, charger et mettre à jour des enregistrements, rechercher des enregistrements et effectuer des appels d’API personnalisés vers l’API Airtable.
+Avec la variable [!DNL Airtable] connecteur pour [!DNL Adobe Workfront Fusion], vous pouvez démarrer un scénario en fonction des événements de votre [!DNL Airtable] créer, charger et mettre à jour des enregistrements, rechercher des enregistrements et effectuer des appels d’API personnalisés vers l’API Airtable.
 
 ## Exigences d’accès
 
@@ -181,7 +182,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 #### Obtention d’un enregistrement {#get-a-record}
 
-Ce module d’action récupère les détails de l’enregistrement.
+Ce module d’action récupère les détails des enregistrements.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -232,7 +233,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td> <p>Formule</p> </td> 
-   <td> <p>Formule de filtrage des enregistrements. La formule est évaluée pour chaque enregistrement et si le résultat n’est pas <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>ou <code>#Error!</code> l’enregistrement est inclus dans la réponse.</p> <p>Si elle est combinée avec la fonction <code>view</code>, seuls les enregistrements de cette vue qui correspondent à la formule sont renvoyés.</p> <p>Par exemple, pour inclure uniquement les enregistrements dont le nom n’est pas vide, transmettez :<code> NOT({Name} = '')</code></p> <p>Pour en savoir plus, recherchez des informations sur les références de champs de formule dans la documentation d’assistance sur la table.</p> </td> 
+   <td> <p>Formule de filtrage des enregistrements. La formule est évaluée pour chaque enregistrement et si le résultat n’est pas <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, ou <code>#Error!</code> l’enregistrement est inclus dans la réponse.</p> <p>Si elle est combinée avec la fonction <code>view</code>, seuls les enregistrements de cette vue qui correspondent à la formule sont renvoyés.</p> <p>Par exemple, pour inclure uniquement les enregistrements dont le nom n’est pas vide, transmettez :<code> NOT({Name} = '')</code></p> <p>Pour en savoir plus, recherchez des informations sur les références de champs de formule dans la documentation d’assistance sur la table.</p> </td> 
   </tr> 
   <tr> 
    <td>Trier </td> 
@@ -415,7 +416,7 @@ Ce module de déclenchement lance un scénario lorsqu’un enregistrement est cr
   </tr> 
   <tr> 
    <td> <p>Formule</p> </td> 
-   <td> <p>Formule de filtrage des enregistrements. La formule est évaluée pour chaque enregistrement et si le résultat n’est pas <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>ou <code>#Error!</code> l’enregistrement est inclus dans la réponse.</p> <p>Si elle est combinée avec la fonction <code>view</code>, seuls les enregistrements de cette vue qui correspondent à la formule sont renvoyés.</p> <p>Par exemple, pour inclure uniquement les enregistrements dont le nom n’est pas vide, transmettez :<code> NOT({Name} = '')</code></p> <p>Pour en savoir plus, consultez les informations sur les références de champ de formule dans la documentation de l’assistance Airtable.</p> </td> 
+   <td> <p>Formule de filtrage des enregistrements. La formule est évaluée pour chaque enregistrement et si le résultat n’est pas <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, ou <code>#Error!</code> l’enregistrement est inclus dans la réponse.</p> <p>Si elle est combinée avec la fonction <code>view</code>, seuls les enregistrements de cette vue qui correspondent à la formule sont renvoyés.</p> <p>Par exemple, pour inclure uniquement les enregistrements dont le nom n’est pas vide, transmettez :<code> NOT({Name} = '')</code></p> <p>Pour en savoir plus, consultez les informations sur les références de champ de formule dans la documentation de l’assistance Airtable.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -428,7 +429,7 @@ Ce module de déclenchement lance un scénario lorsqu’un formulaire est envoy�
 >
 >Cette fonctionnalité est disponible uniquement pour le forfait Airtable Pro payant.
 
-L’URL webhook doit être générée dans Workfront Fusion, puis ajoutée à la configuration de formulaire dans Airtable.
+L’URL du webhook doit être générée dans Workfront Fusion, puis ajoutée à la configuration de formulaire dans Airtable.
 
 1. Ajoutez le module Watch New Responses à votre scénario Workfront Fusion.
 1. Générez et copiez l’URL du webhook.
@@ -438,7 +439,7 @@ L’URL webhook doit être générée dans Workfront Fusion, puis ajoutée à la
 1. Connectez-vous à votre compte Airtable.
 1. Ouvrez la Base et le tableau à utiliser pour le formulaire et créez une vue de formulaire.
 1. Définissez le formulaire selon vos besoins, faites défiler le formulaire vers le bas et activez l’option Rediriger vers l’URL après l’envoi du formulaire.
-1. Saisissez l’URL Webhook générée à l’étape 2 de la boîte de dialogue affichée et ajoutez ?record_id={record_id} juste après l’URL webhook pour inclure l’ID d’enregistrement dans la sortie du module, puis cliquez sur Enregistrer. L’URL qui en résulte, par exemple, se présente comme suit :
+1. Saisissez l’URL Webhook générée à l’étape 2 de la boîte de dialogue affichée, puis ajoutez le paramètre ?record_id={record_id} juste après l’URL webhook pour inclure l’ID d’enregistrement dans la sortie du module, puis cliquez sur Enregistrer. L’URL qui en résulte, par exemple, se présente comme suit :
 1. Revenez à votre scénario de fusion Workfront et exécutez le module Watch Responses uniquement pour charger les champs d’Airtable et pour pouvoir mapper ces champs dans les autres modules.
 1. Envoyez le formulaire dans Airtable, où l’option Rediriger vers l’URL après l’envoi du formulaire est activée et où l’URL Webhook est ajoutée (étape 6 ci-dessus).
 
@@ -480,11 +481,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td role="rowheader">Chaîne de requête</td> 
-   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’une clé et d’une valeur.</p> </td> 
+   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’une clé et d’une valeur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Corps</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

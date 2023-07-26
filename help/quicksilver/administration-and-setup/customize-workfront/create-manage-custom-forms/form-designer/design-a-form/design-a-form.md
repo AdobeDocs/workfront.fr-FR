@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '3803'
 ht-degree: 4%
 
 ---
-
 
 # Concevoir un formulaire avec le concepteur de formulaires
 
@@ -36,7 +36,7 @@ Les étapes de cet article doivent être les suivantes :
    <td>
    <p>Formule actuelle : Standard</p>
    <p>ou</p>
-   <p>Plan hérité : Plan</p></td> 
+   <p>Formule héritée : Planifier</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -62,7 +62,7 @@ Les étapes de cet article doivent être les suivantes :
 
    ![](assets/choose-object-type.jpg)
 
-1. Dans le **Le titre est obligatoire.** , saisissez le titre personnalisé du formulaire.
+1. Dans le **Le titre est obligatoire** , saisissez le titre personnalisé du formulaire.
 1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin de pouvoir les joindre à d’autres objets, cliquez sur le bouton **Ajouter** icon ![](assets/add-objects-icon.png) after **Types d’objet**, puis sélectionnez le type souhaité dans le menu qui s’affiche. Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
 
    Vous pouvez également cliquer sur le X d’un type d’objet pour le supprimer du formulaire.
@@ -75,7 +75,7 @@ Les étapes de cet article doivent être les suivantes :
 
 
 1. Vous pouvez ensuite commencer à ajouter des champs à votre formulaire personnalisé. Reportez-vous aux sections suivantes :
-   * [Réutilisation d’un champ ou d’un widget existant déjà utilisé dans un autre formulaire personnalisé](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Ajouter des champs de texte](#add-text-fields)
    * [Ajouter des champs calculés](#add-calculated-fields)
    * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -87,7 +87,7 @@ Les étapes de cet article doivent être les suivantes :
 
 Vous pouvez utiliser des champs nouveaux ou existants lors de la conception de votre formulaire personnalisé.
 
-## Réutilisation d’un champ ou d’un widget existant déjà utilisé dans un autre formulaire personnalisé
+## Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé
 
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
@@ -113,17 +113,17 @@ Vous pouvez ajouter plusieurs champs de texte différents à un formulaire perso
 
 +++ **Développer pour afficher les descriptions des champs de texte disponibles**
 
-* **Champ de texte d’une seule ligne**: Permet aux utilisateurs de saisir une seule ligne de texte dans le champ.
-* **Champ de texte de paragraphe**: Permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ.
-* **Champ de texte avec mise en forme**: Permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre le texte en gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets. Une limite de caractères de 15 000 permet d’utiliser beaucoup de texte et de formatage.
+* **Champ de texte d’une seule ligne**: permet aux utilisateurs de saisir une seule ligne de texte dans le champ.
+* **Champ de texte de paragraphe**: permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ.
+* **Champ de texte avec mise en forme**: permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre en forme le texte en gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets. Une limite de caractères de 15 000 permet d’utiliser beaucoup de texte et de formatage.
 
-   Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir Stockage de champs de texte enrichi dans l’API.
+  Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir Stockage de champs de texte enrichi dans l’API.
 
-   >[!NOTE]
-   >
-   >Les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront (disponibles dans les prochaines versions).
+  >[!NOTE]
+  >
+  >Les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront (disponibles dans les prochaines versions).
 
-* **Texte descriptif**: Permet d’inclure des instructions et des liens vers des pages en dehors de Workfront.
+* **Texte descriptif**: vous permet d’inclure des instructions et de créer des liens vers des pages en dehors de Workfront.
 
 +++
 
@@ -160,7 +160,7 @@ Pour ajouter un champ de texte :
     <tr>
     <td>Étiquette</td>
     <td><p>Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.<p>
-    <p>IMPORTANT : Évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p></td>
+    <p>IMPORTANT : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p></td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe de texte</li>
@@ -247,9 +247,9 @@ Vous pouvez ajouter des boutons radio, des cases à cocher et des listes déroul
 
 +++ **Développer pour afficher les descriptions des champs disponibles**
 
-* **Boutons radio**: Nécessite que les utilisateurs ne sélectionnent qu’un seul choix.
-* **Groupe de cases à cocher**: Permet aux utilisateurs de sélectionner plusieurs choix.
-* **Liste déroulante**: Fournit une liste des choix de liste déroulante.
+* **Boutons radio**: nécessite que les utilisateurs sélectionnent un seul choix.
+* **Groupe de cases à cocher**: permet aux utilisateurs de sélectionner plusieurs choix.
+* **Liste déroulante**: fournit une liste de choix de liste déroulante.
 
 +++
 
@@ -274,7 +274,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     </tr>
     <tr> 
      <td role="rowheader">Étiquette</td> 
-     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: Évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
+     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
      <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
@@ -289,7 +289,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé où il peut maintenant être référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à moins de le rajouter au rapport en utilisant le nouveau nom.</p> </li>
     <li> <p>Nous vous recommandons de ne pas saisir de nom déjà utilisé pour les champs Workfront intégrés.</p> </li>
      <li><p>Il est recommandé de ne pas utiliser le caractère point/point dans le nom du champ personnalisé afin d’éviter toute erreur lors de l’utilisation du champ dans différentes zones de Workfront.</p></li>
-     </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un qui a déjà été créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
+     </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un formulaire déjà créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
      <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
@@ -344,15 +344,15 @@ Pour ajouter des boutons radio et des cases à cocher :
     <ol> 
     <li> <p>Cliquez sur <b>Options</b>, puis activez l’une des options suivantes :</p> 
     <ul> 
-    <li><strong>Afficher les valeurs</strong>: Affiche les valeurs de chaque choix dans le champ. Le libellé de chaque choix s’affiche par défaut.</li> 
-     <li><strong>Choix de tri A-Z</strong>: Trie par ordre alphabétique les choix que vous ajoutez dans le champ.</li> 
+    <li><strong>Afficher les valeurs</strong>: affiche les valeurs de chaque choix dans le champ. Le libellé de chaque choix s’affiche par défaut.</li> 
+     <li><strong>Choix de tri A-Z</strong>: trie par ordre alphabétique les choix que vous ajoutez dans le champ.</li> 
     </ul> 
     </li> 
     <li> <p>Pour chaque choix que vous ajoutez à l’utilisateur, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-settings.png">, puis sélectionnez l’une des options suivantes :</p> 
     <ul> 
-    <li><strong>Sélection par défaut</strong>: Sélectionnez le choix par défaut dans le champ.</li> 
-    <li> <p><strong>Masquer le choix</strong>: Masquez le choix dans le champ . Les choix masqués restent accessibles dans les rapports.</p> </li> 
-    <li> <p><strong>Supprimer le choix</strong>: Supprimez le choix du champ.</p> <p><b>AVERTISSEMENT</b>: Si ce choix est utilisé pour les objets en cours, ne le supprimez pas du champ. Sa suppression entraînera la perte de données historiques. Sélectionnez plutôt l’option pour la masquer, ce qui empêche les utilisateurs de la sélectionner ultérieurement.</p> </li> 
+    <li><strong>Sélection par défaut</strong>: sélectionnez le choix par défaut dans le champ.</li> 
+    <li> <p><strong>Masquer le choix</strong>: masque le choix dans le champ. Les choix masqués restent accessibles dans les rapports.</p> </li> 
+    <li> <p><strong>Supprimer le choix</strong>: supprimez le choix du champ.</p> <p><b>Avertissement</b>: si ce choix est utilisé pour les objets en cours, ne le supprimez pas du champ. Sa suppression entraînera la perte de données historiques. Sélectionnez plutôt l’option pour la masquer, ce qui empêche les utilisateurs de la sélectionner ultérieurement.</p> </li> 
     </ul> 
      </li> 
     </ol> </td> 
@@ -385,8 +385,8 @@ Vous pouvez ajouter des champs de saisie anticipée et de date à un formulaire 
 
 +++ **Développer pour afficher les descriptions des champs disponibles**
 
-* **Tirage anticipé**: Permet aux utilisateurs de saisir le nom d’un objet existant dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur commence à saisir du texte. Ce type de champ prend en charge les objets suivants :
-   * Utilisateur ou utilisatrice
+* **Tirage anticipé**: permet aux utilisateurs de saisir le nom d’un objet existant dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur commence à saisir du texte. Ce type de champ prend en charge les objets suivants :
+   * Utilisateur
    * Groupe
    * Fonction
    * Portfolio
@@ -395,7 +395,7 @@ Vous pouvez ajouter des champs de saisie anticipée et de date à un formulaire 
    * Équipe
    * Modèle
    * Entreprise
-* **Champ de date**: Affiche un calendrier dans lequel les utilisateurs peuvent sélectionner une date et une heure.
+* **Champ de date**: affiche un calendrier dans lequel les utilisateurs peuvent sélectionner une date et une heure.
 
 +++
 
@@ -419,7 +419,7 @@ Pour ajouter des champs de date de saisie anticipée :
     </tr>
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: Évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
        <td><ul>
     <li>Frappe continue</li>
     <li>Champ de date</li>
@@ -433,7 +433,7 @@ Pour ajouter des champs de date de saisie anticipée :
       <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé où il peut maintenant être référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à moins de le rajouter au rapport en utilisant le nouveau nom.</p> </li>
       <li> <p>Nous vous recommandons de ne pas saisir de nom déjà utilisé pour les champs Workfront intégrés.</p> </li>
       <li><p>Il est recommandé de ne pas utiliser le caractère point/point dans le nom du champ personnalisé afin d’éviter toute erreur lors de l’utilisation du champ dans différentes zones de Workfront.</p></li>
-      </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un qui a déjà été créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
+      </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un formulaire déjà créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
          <td><ul>
     <li>Frappe continue</li>
     <li>Champ de date</li>
@@ -461,7 +461,7 @@ Pour ajouter des champs de date de saisie anticipée :
       <td> <p>Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur Appliquer ou sur Enregistrer+Fermer, vous ne pouvez pas modifier le type d’objet du champ.</p> <p><b>NOTE</b>:   
         <ul> 
          <li>Si votre administrateur Workfront a personnalisé le nom des Portfolios, programmes ou projets dans l’interface utilisateur de Workfront, le nom Workfront par défaut de l’objet s’affiche dans cette liste déroulante et non dans le nom personnalisé. Contactez votre administrateur Workfront si vous avez besoin d’aide.<br></li> 
-         <li>Les types d’objets suivants sont pris en charge dans les applications mobiles iOS et Android Workfront : Utilisateur, entreprise, groupe, rôle de tâche, Portfolio, programme, projet et modèle.</li> 
+         <li>Les types d’objets suivants sont pris en charge dans les applications mobiles iOS et Android Workfront : Utilisateur, Société, Groupe, Rôle de tâche, Portfolio, Programme, Projet et Modèle.</li> 
         </ul> </p> </td> 
          <td><ul>
     <li>Frappe continue</li>
@@ -494,9 +494,9 @@ Pour ajouter des champs de date de saisie anticipée :
 
 ### Ajout d’images, de PDF et de vidéos
 
-Vous pouvez ajouter des images, des PDF et des vidéos à un formulaire personnalisé. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent afficher l’image, le PDF ou la vidéo uniquement dans les zones suivantes :
+Vous pouvez ajouter des images, PDF et vidéos à un formulaire personnalisé. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent afficher l’image, le PDF ou la vidéo uniquement dans les zones suivantes :
 
-* la zone Détails de l’objet (par exemple, pour un projet, la zone Détails du projet) ;
+* Zone Détails de l’objet (par exemple, pour un projet, la zone Détails du projet)
 * La zone Modifier de l’objet, si l’aspect de l’expérience Adobe Workfront est nouveau (par exemple, les zones Modifier le projet et Modifier la tâche).
 
 <!-- Do we need to tell them where they can't see it if we tell them where they can see it?
@@ -508,9 +508,9 @@ The Workfront Mobile app -->
 
 +++ **Développer pour afficher les descriptions des champs disponibles**
 
-* **Image**: Permet aux utilisateurs d’ajouter _____ fichiers image.
-* **PDF**: Permet aux utilisateurs d’ajouter des PDF
-* **Vidéos**: Permet aux utilisateurs d’ajouter ____ fichiers vidéo.
+* **Image**: permet aux utilisateurs d’ajouter _____ fichiers image.
+* **PDF**: permet aux utilisateurs d’ajouter des PDF.
+* **Vidéos**: permet aux utilisateurs d’ajouter ____ fichiers vidéo.
 
 +++
 
@@ -532,11 +532,11 @@ Pour ajouter des images, des PDF ou des vidéos :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: Évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom indique comment le système identifie le widget.</p> <p>Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs voient sans avoir à modifier le nom que le système voit.</p> <p><b>IMPORTANT</b>: Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans le widget. Si vous le faites, le système ne reconnaîtra plus le widget où il peut maintenant être référencé dans d’autres zones de Workfront. </p> <p>Chaque nom de widget doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un qui a déjà été créé pour un autre formulaire personnalisé. </p> </td> 
+      <td> <p>(Obligatoire) Ce nom indique comment le système identifie le widget.</p> <p>Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs voient sans avoir à modifier le nom que le système voit.</p> <p><b>IMPORTANT</b>: bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans le widget. Si vous le faites, le système ne reconnaîtra plus le widget où il peut maintenant être référencé dans d’autres zones de Workfront. </p> <p>Chaque nom de widget doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un formulaire déjà créé pour un autre formulaire personnalisé. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -595,7 +595,7 @@ Pour ajouter des images, des PDF ou des vidéos :
 
 Vous pouvez ajouter un prototype Adobe XD directement à un formulaire personnalisé. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint ne peuvent afficher le fichier Adobe XD que dans les zones suivantes :
 
-* la zone Détails de l’objet (par exemple, pour un projet, la zone Détails du projet) ;
+* Zone Détails de l’objet (par exemple, pour un projet, la zone Détails du projet)
 * La zone Modifier de l’objet, si l’aspect de l’expérience Adobe Workfront est nouveau (par exemple, les zones Modifier le projet et Modifier la tâche).
 
 Pour ajouter un fichier Adobe XD :
@@ -609,7 +609,7 @@ Pour ajouter un fichier Adobe XD :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: Évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
@@ -623,7 +623,7 @@ Pour ajouter un fichier Adobe XD :
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoire) Saisissez ou collez un lien de prototype XD valide.</p> 
-      <p>Remarque : Le paramètre Accès au lien de l’onglet Partager d’Adobe XD doit être défini sur N’importe qui avec le lien. Sinon, les utilisateurs ne pourront pas afficher le prototype. 
+      <p>Remarque : le paramètre Accès au lien de l’onglet Partager d’Adobe XD doit être défini sur N’importe qui avec le lien. Sinon, les utilisateurs ne pourront pas afficher le prototype. 
    </td> 
      </tr> 
      <tr> 

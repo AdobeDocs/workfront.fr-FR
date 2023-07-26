@@ -2,8 +2,9 @@
 title: Améliorations des formulaires personnalisés
 description: Les améliorations significatives suivantes ont été apportées à la gestion des formulaires personnalisés dans la version 22.2.
 author: Luke
+feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -24,11 +25,11 @@ Lorsqu’un formulaire personnalisé contenant un widget est associé à un obje
 
 * La zone Détails de l’objet (par exemple, pour un projet, la zone Détails du projet) &#x200B;
 
-   ![](assets/see-image-details-page.png)
+  ![](assets/see-image-details-page.png)
 
 * La zone Modifier de l’objet, si l’apparence de l’expérience Adobe Workfront est nouvelle (par exemple, les zones Modifier le projet et Modifier la tâche) &#x200B;
 
-   ![](assets/image-see-in-edit.png)
+  ![](assets/image-see-in-edit.png)
 
 Actuellement, les utilisateurs ne peuvent pas voir le widget dans les zones suivantes : &#x200B;
 
@@ -93,9 +94,9 @@ Pour plus d’informations, voir [Ajout d’un saut de section à un formulaire 
 
 ### Compatibilité des champs personnalisés calculés
 
-Dans un formulaire personnalisé à plusieurs objets, si un champ calculé fait référence à des champs pouvant être utilisés avec tous les types d’objets associés au formulaire (tels que {name}, {description} et {entryDate}, disponibles pour plusieurs types d’objets), les données sont correctement calculées, quel que soit l’objet auquel vous le joignez.
+Dans un formulaire personnalisé à plusieurs objets, si un champ calculé fait référence à des champs pouvant être utilisés avec tous les types d’objets associés au formulaire (tels que {name}, {description}, et {entryDate}, disponibles pour plusieurs types d’objets), les données se calculent correctement, quel que soit l’objet auquel vous les joignez.
 
-Par exemple, si vous disposez d’un formulaire multi-objet pour les projets et les problèmes et que vous ajoutez un champ calculé contenant l’expression {name}, le champ affiche le nom du projet lorsque vous ajoutez le formulaire à un projet et le nom de la tâche que vous ajoutez le formulaire à une tâche.
+Par exemple, si vous disposez d’un formulaire avec plusieurs objets pour les projets et les problèmes et que vous ajoutez un champ calculé contenant la variable {name} , le champ affiche le nom du projet lorsque vous ajoutez le formulaire à un projet, et le nom de la tâche que vous ajoutez au formulaire à une tâche.
 
 Cependant, si un champ calculé du formulaire fait référence à un champ non compatible avec tous les types d’objets du formulaire, un message vous invite à effectuer des ajustements.
 
@@ -103,8 +104,7 @@ Cependant, si un champ calculé du formulaire fait référence à un champ non c
 >
 >**Exemple :** Dans un formulaire personnalisé associé au type d’objet Tâche , vous créez un champ personnalisé calculé qui référence le champ intégré Affecté à : Nom afin qu’il puisse afficher le nom de la personne désignée Principale chaque fois que le formulaire est joint à une tâche :
 >
->
-```
+>```
 >Assigned To: Name{assignedTo}.{name}
 >```
 >
@@ -115,11 +115,11 @@ Dans ce cas, vous pouvez effectuer l’une des opérations suivantes :
 * Supprimez l’un des deux éléments incompatibles du formulaire personnalisé : le type d’objet ou le champ référencé.
 * Conserver les deux éléments et utiliser la variable de filtre de caractères génériques `$$OBJCODE` comme condition dans une expression IF pour créer deux versions différentes du champ En charge . Cela permet au champ de fonctionner correctement, quel que soit le type d’objet auquel le formulaire est associé.
 
-   En reprenant l’exemple ci-dessus, bien qu’il n’y ait pas d’attribution intégrée à : Champ Nom des projets, il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un modifie manuellement ce champ). Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour faire référence au champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et le champ Affecté à : Champ Nom lorsque le formulaire est joint à une tâche :
+  En reprenant l’exemple ci-dessus, bien qu’il n’existe pas de champ Affecté à : nom intégré pour les projets, il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un modifie manuellement ce champ). Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour faire référence au champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et au champ Affecté à : Nom lorsque le formulaire est joint à une tâche :
 
-   ```
-   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
-   ```
+  ```
+  IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
+  ```
 
 >[!NOTE]
 >

@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Copier un formulaire personnalisé pour en créer un nouveau avec le créateur hérité
 description: Vous pouvez créer un formulaire personnalisé basé sur un formulaire existant.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Les étapes de cet article doivent être les suivantes :
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Forms personnalisée.**
-1. Sélectionnez le formulaire personnalisé que vous souhaitez utiliser comme base pour un nouveau formulaire personnalisé, puis cliquez sur **Copier**.
+1. Sélectionnez le formulaire personnalisé à utiliser comme base pour un nouveau formulaire personnalisé, puis cliquez sur **Copier**.
 1. Dans le **Copie de formulaire personnalisée** dans la zone qui s’affiche, saisissez les informations suivantes :
 
    <table style="table-layout:auto"> 
@@ -77,7 +77,7 @@ Les étapes de cet article doivent être les suivantes :
 
    De même, si une option d’accès pour un saut de section sur le formulaire d’origine n’est pas compatible avec un type d’objet que vous ajoutez au nouveau, un message vous invite à ajuster l’option.
 
-1. Sélectionnez le formulaire que vous venez de copier, puis cliquez sur **Modifier**.
+1. Sélectionnez le formulaire à copier, puis cliquez sur **Modifier**.
 1. Apportez toute modification au formulaire, comme expliqué dans les articles suivants :
 
    * [Copier un formulaire personnalisé pour en créer un nouveau avec l’ancien créateur de formulaires](#Add2)

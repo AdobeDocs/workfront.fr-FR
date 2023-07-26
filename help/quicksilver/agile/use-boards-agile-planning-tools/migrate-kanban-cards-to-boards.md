@@ -4,8 +4,9 @@ navigation-topic: boards
 title: Migration de cartes Kanban d’équipe agile vers des panoramas Workfront
 description: Vous pouvez migrer vos tâches d’un panorama Kanban d’équipe agile vers un panorama Workfront nouveau ou existant.
 author: Lisa
+feature: Agile
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 {{step1-to-team}}
 
 1. Accédez à un panorama Kanban.
-1. Cliquez sur [!UICONTROL **Ajouter des panoramas**] et sélectionnez [!UICONTROL **Nouveau panorama**].
+1. Cliquez sur [!UICONTROL **Ajout à des panoramas**] et sélectionnez [!UICONTROL **Nouveau panorama**].
 1. Sur le [!UICONTROL Ajouter au nouveau panorama] Entrez le nom du nouveau panorama (nom de la boîte de dialogue active). [!UICONTROL Kanban] le panorama s’affiche automatiquement) et cliquez sur [!UICONTROL **Ajouter**].
 
    ![Ajout de cartes Kanban à un nouveau panorama](assets/add-kanban-cards-to-new-board-dialog.png)
@@ -60,8 +61,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 {{step1-to-team}}
 
 1. Accédez à un panorama Kanban.
-1. Cliquez sur [!UICONTROL **Ajouter des panoramas**] et sélectionnez [!UICONTROL **Panorama existant**].
-1. Sur le [!UICONTROL Ajouter à un panorama existant] , recherchez et sélectionnez le panorama vers lequel migrer les cartes. Cliquez ensuite sur [!UICONTROL **Ajouter**].
+1. Cliquez sur [!UICONTROL **Ajout à des panoramas**] et sélectionnez [!UICONTROL **Panorama existant**].
+1. Sur le [!UICONTROL Ajouter à un panorama existant] , recherchez et sélectionnez le panorama vers lequel les cartes doivent être migrées. Cliquez ensuite sur [!UICONTROL **Ajouter**].
 
    ![Ajout de cartes Kanban à un panorama existant](assets/add-kanban-cards-to-existing-board-dialog.png)
 

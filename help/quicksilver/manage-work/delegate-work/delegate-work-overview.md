@@ -5,8 +5,9 @@ navigation-topic: delegate-work
 title: Présentation de la délégation de travail
 description: Lorsque vous prévoyez de quitter le bureau pendant une courte période, vous pouvez temporairement déléguer votre travail à d’autres utilisateurs afin de vous assurer que votre absence ne devienne pas un obstacle à la réalisation de vos travaux.
 author: Alina
+feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f3ae487f53f7c4f8c389cf0d35323f21e76ece35
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 1%
@@ -41,7 +42,7 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
 
 * Votre [!DNL Workfront] ou l’administrateur de groupe doit activer les préférences de délégation dans la [!UICONTROL Configuration] avant de déléguer votre travail à d’autres personnes.
 
-   Pour plus d’informations, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Pour plus d’informations, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Vous ne pouvez déléguer des tâches et des problèmes qu’à partir du [!UICONTROL Accueil] zone.
 * Des exceptions existent pour les types de licence suivants :
 
@@ -63,9 +64,9 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
 * Vous pouvez afficher les noms des tâches déléguées et des délégués dans plusieurs zones [!DNL Workfront]. Pour plus d’informations, voir la section &quot;Localisation du travail délégué et informations sur les délégués&quot; dans l’article . [Gérer la délégation des tâches et des problèmes](../delegate-work/how-to-delegate-work.md).
 
 
-   >[!IMPORTANT]
-   >
-   >  Si un utilisateur ne dispose que de l’accès Afficher aux tâches de son niveau d’accès et que vous disposez des autorisations Gérer sur les tâches que vous lui déléguez, il reçoit les autorisations Gérer pour les tâches que vous lui déléguez. Cependant, ils ne pourront pas effectuer les mêmes actions que vous sur les tâches déléguées. Ils doivent demander à l’administrateur système l’accès Modifier aux tâches pour pouvoir mettre à jour les tâches en votre absence.
+  >[!IMPORTANT]
+  >
+  >  Si un utilisateur ne dispose que de l’accès Afficher aux tâches de son niveau d’accès et que vous disposez des autorisations Gérer sur les tâches que vous lui déléguez, il reçoit les autorisations Gérer pour les tâches que vous lui déléguez. Cependant, ils ne pourront pas effectuer les mêmes actions que vous sur les tâches déléguées. Ils doivent demander à l’administrateur système l’accès Modifier aux tâches pour pouvoir mettre à jour les tâches en votre absence.
 
 * L’arrêt de la délégation ne supprime pas les autorisations accordées aux utilisateurs délégués sur les tâches et problèmes sur lesquels ils ont été délégués.
 * Si un système ou désactive la fonction [!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes] dans le [!UICONTROL Configuration] , les utilisateurs actuellement délégués sont supprimés des tâches et des problèmes auxquels ils ont précédemment été délégués. Leurs autorisations d’accès aux tâches ou aux problèmes ne sont pas supprimées.

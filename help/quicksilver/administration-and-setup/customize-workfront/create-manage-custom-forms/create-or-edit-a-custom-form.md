@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez créer ou modifier un nouveau formulaire personnalisé.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Les étapes de cet article doivent être les suivantes :
 
    ![](assets/choose-object-type.jpg)
 
-1. Sur le **Paramètres de formulaire** qui s’ouvre, saisissez une **Titre du formulaire** et une valeur facultative **Description** pour le formulaire personnalisé.
+1. Sur le **Paramètres de formulaire** qui s’ouvre, saisissez une **Titre du formulaire** et un **Description** pour le formulaire personnalisé.
 
 1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin de pouvoir les joindre à d’autres objets, cliquez sur le signe plus après Types d’objets, puis sélectionnez le type d’objet souhaité dans le menu qui s’affiche.
 
@@ -71,9 +71,9 @@ Les étapes de cet article doivent être les suivantes :
 
    >[!TIP]
    >
-   >Vous pouvez cliquer sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
+   >Cliquez sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
 
-1. Si vous souhaitez ajouter un nouveau champ personnalisé au formulaire, passez à la section [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) ou [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+1. Si vous souhaitez ajouter un nouveau champ personnalisé au formulaire, passez à la [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) ou [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    Ou
 
@@ -83,7 +83,7 @@ Les étapes de cet article doivent être les suivantes :
    * [Placement de champs et de widgets personnalisés dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [Ajout d’un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
    * [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Réutilisation d’un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [Réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [Ajouter une logique d’affichage et ignorer une logique dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
 
 ## Commencer à modifier un formulaire personnalisé
@@ -92,7 +92,7 @@ Vous pouvez modifier un formulaire personnalisé à tout moment après sa créat
 
 >[!CAUTION]
 >
->Pour plus d’informations sur la suppression de champs d’un formulaire personnalisé sans perdre les données saisies par les utilisateurs dans ces champs, reportez-vous à la section [Supprimer un champ personnalisé sans perdre les données saisies par les utilisateurs](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md#remove) dans l’article [Suppression d’un champ ou d’un widget personnalisé du système](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+>Pour plus d’informations sur la suppression de champs d’un formulaire personnalisé sans perdre les données saisies par les utilisateurs dans ces champs, reportez-vous à la section . [Supprimer un champ personnalisé sans perdre les données saisies par les utilisateurs](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md#remove) dans l’article [Suppression d’un champ ou d’un widget personnalisé du système](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 >
 >En règle générale, il est recommandé de réduire au minimum le nombre de fois où vous modifiez un formulaire personnalisé déjà utilisé. Il n’existe pas de système de notification pour alerter les personnes qui utilisent le formulaire personnalisé au sujet de vos modifications.
 
@@ -105,21 +105,21 @@ Vous pouvez modifier un formulaire personnalisé à tout moment après sa créat
 1. Sélectionnez le formulaire personnalisé à modifier, puis cliquez sur **Modifier**.
 1. (Facultatif) Pour modifier le titre et la description du formulaire personnalisé, cliquez sur le bouton **Paramètres de formulaire** , puis saisissez une **Titre du formulaire** et **Description**.
 
-1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin qu’il puisse être joint à d’autres objets, cliquez sur le signe + après **Types d’objet**, puis sélectionnez le type souhaité dans le menu qui s’affiche.
+1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin de pouvoir les joindre à d’autres objets, cliquez sur le signe + après **Types d’objet**, puis sélectionnez le type souhaité dans le menu qui s’affiche.
 
    ![](assets/add-object-type-existing-form.png)
 
    Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
 
-   Vous pouvez également cliquer sur le X d’un type d’objet pour le supprimer du formulaire. Pour ce faire, soyez prudent lorsque vous souhaitez supprimer un type d’objet d’un formulaire personnalisé que vous avez déjà enregistré. Pour plus d’informations, voir [Suppression de types d’objet sur un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   Vous pouvez également cliquer sur le X d’un type d’objet pour le supprimer du formulaire. Pour ce faire, soyez prudent lorsque vous souhaitez supprimer un type d’objet d’un formulaire personnalisé déjà enregistré. Pour plus d’informations, voir [Suppression de types d’objet sur un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 1. Cliquez sur **Terminé**.
 
    >[!TIP]
    >
-   >Vous pouvez cliquer sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
+   >Cliquez sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
 
-1. Si vous souhaitez ajouter un nouveau champ personnalisé au formulaire, passez à la section [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) ou [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+1. Si vous souhaitez ajouter un nouveau champ personnalisé au formulaire, passez à la [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) ou [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    Ou
 
@@ -129,5 +129,5 @@ Vous pouvez modifier un formulaire personnalisé à tout moment après sa créat
    * [Placement de champs et de widgets personnalisés dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [Ajout d’un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
    * [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Réutilisation d’un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [Réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [Ajouter une logique d’affichage et ignorer une logique dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)

@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Accès à un champ personnalisé partagé que vous souhaitez utiliser
 description: Lorsqu’une personne partage un champ personnalisé avec l’accès Afficher ou Gérer , elle peut configurer plusieurs autres paramètres pour définir cet accès de manière plus détaillée. Si vous êtes destinataire du champ, ces paramètres ont une incidence sur ce que vous pouvez faire avec le champ. Les éléments suivants peuvent s’afficher lorsque vous affichez le champ.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Pour plus d’informations sur la configuration des paramètres de partage par l
    <td> 
     <ul> 
      <li>Afficher</li> 
-     <li>Ajouter à Forms personnalisé : Sélectionné</li> 
+     <li>Ajouter à Forms personnalisé : sélectionné</li> 
     </ul> </td> 
    <td> <p>Si vous ajoutez le champ à un formulaire personnalisé :</p> 
     <ul> 
@@ -71,7 +71,7 @@ Pour plus d’informations sur la configuration des paramètres de partage par l
    <td> 
     <ul> 
      <li>Afficher ou gérer</li> 
-     <li>Partager : Non sélectionné</li> 
+     <li>Partager : non sélectionné</li> 
     </ul> </td> 
    <td> <p>Les paramètres de partage ne sont pas visibles lorsque vous affichez le champ lors de la création ou de la modification d’un formulaire personnalisé.</p> <p>Si vous affichez l’onglet Champs sur la page Forms personnalisée principale, le bouton Partager de la barre d’outils n’est pas disponible sur la barre d’outils lorsque vous sélectionnez le champ.</p> </td> 
   </tr> 
@@ -79,7 +79,7 @@ Pour plus d’informations sur la configuration des paramètres de partage par l
    <td> 
     <ul> 
      <li>Afficher ou gérer</li> 
-     <li>Supprimer : Non sélectionné</li> 
+     <li>Supprimer : non sélectionné</li> 
     </ul> </td> 
    <td> <p>Si vous affichez l’onglet Champs sur la page Forms personnalisée principale, le bouton Supprimer n’est pas disponible dans la barre d’outils lorsque vous sélectionnez le champ.</p> </td> 
   </tr> 

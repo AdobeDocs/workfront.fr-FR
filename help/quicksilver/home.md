@@ -1,11 +1,12 @@
 ---
 title: '[!DNL Adobe Workfront] documentation'
 description: Documentation pour [!DNL Adobe Workfront].
+feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 757fcb4dae232e90850b77a7d77c23e181519183
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -25,7 +26,7 @@ Commencez à en savoir plus sur l’administration Adobe Workfront.
 
 Voir [Prise en main de l’administration Adobe Workfront](/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md).
 
-### Adobe Workfront Fusion
+### Adobe Workfront Fusion
 
 Workfront Fusion connecte vos applications et services web de manière transparente afin que vous puissiez vous concentrer sur de nouvelles tâches plutôt que de répéter les mêmes tâches encore et encore.
 

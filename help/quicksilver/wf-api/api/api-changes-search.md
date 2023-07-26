@@ -3,17 +3,18 @@ filename: api-changes-search
 content-type: api
 keywords: objet,status,search,best,practices,response
 navigation-topic: api-navigation-topic
-title: '"Modifications de l’API Core : Réponses de recherche d’état'
+title: "Modifications de l’API principale : réponses de recherche d’état"
 description: Modifications de la façon dont Workfront stocke les objets d’état.
+feature: Workfront API
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
 
 ---
 
-# Modifications de l’API Core : Réponses de recherche d’état
+# Modifications de l’API Core : réponses de recherche d’état
 
 Des modifications ont été apportées à la manière dont Workfront stocke les objets d’état. Ces modifications n’affectent pas la manière dont les demandes de recherche d’état sont effectuées, mais affectent la réponse renvoyée par les demandes d’API qui incluent une recherche d’objets d’état en renvoyant une liste incomplète d’états de groupe.
 

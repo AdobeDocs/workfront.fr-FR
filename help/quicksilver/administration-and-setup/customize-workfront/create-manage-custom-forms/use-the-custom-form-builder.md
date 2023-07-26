@@ -6,15 +6,15 @@ product-area: system-administration
 navigation-topic: customize-workfront
 description: Vous pouvez créer un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Workfront. Les utilisateurs qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 7b225c5b9010089189ecbc2260e6148c9494e3eb
+exl-id: 9268fe04-1ad2-481f-822d-6e2b8ac23e26
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
-
 
 # Utilisation de l’ancien créateur de formulaires personnalisés
 

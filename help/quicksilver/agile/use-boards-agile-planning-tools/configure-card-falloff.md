@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Configuration des abandons de carte
 description: Vous pouvez configurer un panorama afin que les cartes soient archivées ou abandonnées selon un calendrier précis.
 author: Lisa
+feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -45,12 +46,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Configuration des abandons de carte
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Configurer]** à droite du panorama pour ouvrir le panneau Configurer .
 1. Développer **[!UICONTROL Cartes]**.
 1. Activer **[!UICONTROL Archivage automatique des cartes du panorama]**.
 
-   ![Paramètres de vidage des cartes](assets/card-falloff-switch.png)
+   ![Paramètres de diffusion différée des cartes](assets/card-falloff-switch.png)
 
 1. Sélectionnez le moment où archiver les cartes du panorama. Vous pouvez choisir jusqu’à 8 semaines ou jusqu’à 60 jours.
 

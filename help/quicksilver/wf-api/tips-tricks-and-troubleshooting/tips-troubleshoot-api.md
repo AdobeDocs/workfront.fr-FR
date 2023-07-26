@@ -5,8 +5,9 @@ navigation-topic: workfront-api
 title: Conseils, astuces et dépannage pour l’API Adobe Workfront
 description: Conseils, astuces et dépannage pour l’API Adobe Workfront
 author: Becky
+feature: Workfront API
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Cette section contient les articles suivants :
 
-* [Erreur API : &quot;Le serveur distant a renvoyé une erreur : (400) Requête incorrecte&quot;](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+* [Erreur API : &quot;Le serveur distant a renvoyé une erreur : (400) Bad Request&quot;](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
 * [Doublons renvoyés lors d’une grande recherche paginée](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [Tri des résultats des requêtes dans l’API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
 * [La mise à jour vers emailAddr ne met pas à jour le nom d’utilisateur](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)

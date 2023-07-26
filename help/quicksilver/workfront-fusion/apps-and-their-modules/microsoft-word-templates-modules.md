@@ -8,19 +8,20 @@ navigation-topic: apps-and-their-modules
 title: Modules de modèle Microsoft Word
 description: Dans un scénario de fusion Adobe Workfront, vous pouvez automatiser les workflows qui utilisent des modèles Microsoft Word et les connecter à plusieurs applications et services tiers.
 author: Becky
-source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
+feature: Workfront Fusion
+exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
 
 ---
 
-
 # [!DNL Microsoft Word Template] modules
 
 Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft Word Templates], ainsi que de la connecter à plusieurs applications et services tiers.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -89,17 +90,17 @@ A [!DNL Microsoft Word] modèle est normal [!DNL Microsoft Word] document (fichi
 
 ### Balise de valeur simple {#simple-value-tag}
 
-Une balise de valeur simple est simplement remplacée par une valeur correspondante. Le nom de la balise correspond au [!UICONTROL Clé] la valeur du champ, placée entre accolades doubles ; par exemple,
+Une balise de valeur simple est simplement remplacée par une valeur correspondante. Le nom de la balise correspond au [!UICONTROL Clé] la valeur du champ, qui est placée à l’intérieur d’accolades doubles ; par exemple,
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Exemple :** Pour créer un document qui indique &quot;Bonjour, Piotr !&quot;, vous pouvez utiliser un [!DNL Microsoft Word Template] pour créer le modèle suivant :
 
-<pre>&gt; Bonjour &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Bonjour {{name}}!</pre>
 
 Pour ce faire, vous devez configurer le module comme suit :
 
@@ -110,7 +111,7 @@ Pour ce faire, vous devez configurer le module comme suit :
 Vous pouvez utiliser une balise de condition pour renvoyer à la ligne le texte qui doit être rendu uniquement lorsque certaines conditions sont remplies. Pour renvoyer le texte à la ligne, placez-le entre les balises de condition d’ouverture et de fermeture, telles que &quot;hasPhone&quot; si la condition indique si les données incluent ou non un numéro de téléphone. Le nom d’une balise d’ouverture est précédé d’un signe de hachage #, le nom d’une balise de fermeture est précédé d’une barre oblique /, comme illustré dans l’exemple ci-dessous.
 
 **Exemple :** Pour produire un document qui comprend le numéro de téléphone d’un client si les données d’entrée incluent un numéro de téléphone, mais pas d’adresse électronique, vous pouvez utiliser une [!DNL Microsoft Word Template] et créez le modèle suivant :
-<pre>> &#123;&#123;#hasPhone&#125;&#125;Téléphone : &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;Courriel : &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Pour ce faire, vous devez configurer le module comme suit :
+<pre>&gt; {{#hasPhone}}Téléphone : {{phone}} {{/hasPhone}</pre><pre>&gt; {{#hasEmail}}Courriel : {{email}} {{/hasEmail}</pre>Pour ce faire, vous devez configurer le module comme suit :
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -119,17 +120,16 @@ Dans le document, le numéro de téléphone se présente comme suit :
 
 ### Balise de boucle {#loop-tag}
 
-Vous pouvez utiliser une balise de boucle, également appelée balise de section, pour répéter une section de texte. Entourez le texte en le plaçant entre les balises de boucle d’ouverture et de fermeture. Le nom d’une balise d’ouverture est précédé d’un signe de hachage #; le nom d’une balise de fermeture est précédé d’une barre oblique /.
+Vous pouvez utiliser une balise de boucle, également appelée balise de section, pour répéter une section de texte. Entourez le texte en le plaçant entre les balises de boucle d’ouverture et de fermeture. Le nom d’une balise d’ouverture est précédé d’un signe de hachage # ; le nom d’une balise de fermeture est précédé d’une barre oblique /.
 
 * [Balise de boucle avec remplissage d’un module de document](#loop-tag-with-fill-out-a-document-module)
-
-<!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
+  <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
 #### Balise de boucle avec remplissage d’un module de document {#loop-tag-with-fill-out-a-document-module}
 
 **Exemple :** Pour produire un document qui répertorie le nom et le numéro de téléphone de chaque contact dans une liste de clients, vous pouvez utiliser une [!DNL Microsoft Word Template] et créez le modèle suivant :
 
-<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>>     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}</pre>
 
 Pour ce faire, vous devez configurer le module comme suit :
 
@@ -206,7 +206,7 @@ Ce module du transformateur permet de remplir un document avec les données que 
    <td> <p>Il doit s’agir d’un tableau de collections dans lequel :</p> 
     <ul> 
      <li>Chaque collection correspond à une entrée de données et contient un élément . <code>entry</code></li> 
-     <li>Élément <code>entry </code>contient une collection de la variable <code>key </code>et <code>value</code></li> 
+     <li>Élément <code>entry </code>contient une collection de <code>key </code>et <code>value</code></li> 
      <li>Élément <code>key </code>contient le nom de la balise.</li> 
      <li>item <code>value </code>contient la valeur de la balise.</li> 
     </ul> 
@@ -241,7 +241,7 @@ Ce module d&#39;agrégation est particulièrement utile pour créer des listes o
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Module source]</td> 
-   <td>Sélectionnez le module source de votre texte.</td> 
+   <td>Sélectionnez le module qui est la source de votre texte.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Délimiteur de début du texte remplacé]</td> 
@@ -253,7 +253,7 @@ Ce module d&#39;agrégation est particulièrement utile pour créer des listes o
   </tr> 
   <tr> 
    <td role="rowheader">Groupe [!UICONTROL par]</td> 
-   <td> Définissez une expression contenant un ou plusieurs éléments mappés. Les données agrégées sont séparées sous Groupes avec la même valeur d’expression. Chaque groupe génère en tant que lot distinct contenant une clé avec l’expression évaluée et le texte agrégé. Vous pouvez ainsi utiliser la clé comme filtre dans les modules suivants.</td> 
+   <td> Définissez une expression contenant un ou plusieurs éléments mappés. Les données agrégées sont séparées sous Groupes avec la même valeur d’expression. Chaque groupe génère en tant que lot distinct contenant une clé avec l’expression évaluée et le texte agrégé. Ce faisant, vous pouvez utiliser la clé comme filtre dans les modules suivants.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Arrêter le traitement après une agrégation vide]</td> 
@@ -276,7 +276,7 @@ Ce module d&#39;agrégation est particulièrement utile pour créer des listes o
    <td> <p>Il doit s’agir d’un tableau de collections dans lequel :</p> 
     <ul> 
      <li>Chaque collection correspond à une entrée de données et contient un élément . <code>entry</code></li> 
-     <li>Élément <code>entry </code>contient une collection de la variable <code>key </code>et <code>value</code></li> 
+     <li>Élément <code>entry </code>contient une collection de <code>key </code>et <code>value</code></li> 
      <li>Élément <code>key </code>contient le nom de la balise.</li> 
      <li>item <code>value </code>contient la valeur de la balise.</li> 
     </ul> 
@@ -294,4 +294,3 @@ Ce module d&#39;agrégation est particulièrement utile pour créer des listes o
   </tr> 
  </tbody> 
 </table>
-

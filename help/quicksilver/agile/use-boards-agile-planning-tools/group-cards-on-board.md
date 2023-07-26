@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Utilisation de groupes sur un panorama
 description: Vous pouvez regrouper des cartes sur un panorama par personne désignée ou par balise. Lorsque vous sélectionnez une option de regroupement, les cartes s’affichent au format couloir.
 author: Lisa
+feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 09ab9912df9ad2ac30a461f22b585d633fc73b23
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -47,7 +48,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Regroupement de cartes sur un panorama
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Groupe]** pour ouvrir le panneau du groupe à gauche du panorama.
 
    >[!NOTE]

@@ -4,7 +4,8 @@ navigation-topic: use-the-home-area
 title: Prise en main de la nouvelle page d’accueil dans Adobe Workfront
 description: New Home est une nouvelle fonctionnalité puissante pour gérer votre travail.
 author: Nolan
-source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Les widgets sont la base de New Home. En ajoutant des widgets à votre page d’
     Ce widget constitue un excellent point de départ pour la gestion d’un large éventail de tâches, de problèmes et de requêtes. Il affiche au même endroit toutes les tâches qui vous sont assignées, ainsi que toutes les requêtes qui vous sont affectées.
 
 * **Mes projets**\
-    Affiche les projets qui vous sont affectés dans un tableau pouvant être triés afin de n’afficher que les projets que vous possédez ou tous les projets sur lesquels vous vous trouvez ; options standard de filtrage, d’affichage et de regroupement ; et un bouton pour créer directement un projet.
+    Affiche les projets qui vous sont affectés dans un tableau pouvant être triés afin de n’afficher que les projets que vous possédez ou tous les projets sur lesquels vous vous trouvez ; les options de filtrage, d’affichage et de regroupement standard, ainsi qu’un bouton permettant de créer directement un projet.
 
 * **Mes tâches**\
     Affiche les tâches qui vous sont affectées dans un tableau avec des filtres, des vues et des regroupements personnalisables, ainsi qu’un bouton permettant de créer directement une tâche.
@@ -68,7 +69,7 @@ Vous pouvez ajouter un peu de flamme personnelle à votre page d’accueil en s�
 
    ![Bouton Personnaliser](../new-home/assets/customize-button.png)
 
-1. Dans le **Contexte** de la section **Personnaliser** qui s’affiche, cliquez sur la couleur que vous souhaitez sélectionner pour votre arrière-plan Accueil . Vous pouvez également cliquer sur **Aucun** pour supprimer l’arrière-plan.
+1. Dans le **Contexte** de la **Personnaliser** qui s’affiche, cliquez sur la couleur que vous souhaitez sélectionner pour votre arrière-plan Accueil . Cliquez également sur **Aucun** pour supprimer l’arrière-plan.
 
 ### Filtrage par période
 
@@ -82,7 +83,7 @@ Vous pouvez filtrer rapidement toutes les informations de votre page d’accueil
 
    ![Menu déroulant du filtre de période](../new-home/assets/time-range-filter-dropdown-home.png)
 
-1. Cliquez sur **Jour**, **Semaine** ou **Mois** pour filtrer votre page d’accueil afin qu’elle n’affiche que les informations sur les objets dus pendant cette période.
+1. Cliquez sur l’une des **Jour**, **Semaine**, ou **Mois** pour filtrer votre page d’accueil afin qu’elle n’affiche que les informations sur les objets dus pendant cette période.
 
 ## Revenir à l’expérience d’accueil actuelle
 
