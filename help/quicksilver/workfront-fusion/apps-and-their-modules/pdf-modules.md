@@ -5,24 +5,24 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
+source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3590'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe PDF Services]
 
-Avec le [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services], vous pouvez extraire des données d’un fichier de PDF ou générer un nouveau fichier de PDF à partir des données que vous fournissez. En outre, vous pouvez convertir divers types de fichiers en PDF ou en PDF en d’autres types de fichiers. Les services de PDF vous permettent également de combiner, de compresser ou de lire des métadonnées pour un fichier de PDF, ainsi que de contrôler la protection par mot de passe du fichier.
+Avec la variable [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services], vous pouvez extraire des données d’un fichier de PDF ou générer un nouveau fichier de PDF à partir des données que vous fournissez. En outre, vous pouvez convertir divers types de fichiers en PDF ou en PDF en d’autres types de fichiers. Les services de PDF vous permettent également de combiner, de compresser ou de lire des métadonnées pour un fichier de PDF, ainsi que de contrôler la protection par mot de passe du fichier.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 Pour plus d’informations sur l’API utilisée pour les services de PDF, voir [Adobe de l’API Document Generation](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-## Considérations relatives à la sécurité lors de l’utilisation de [!DNL Adobe PDF Services]
+## Considérations de sécurité lors de l’utilisation de [!DNL Adobe PDF Services]
 
 <!--
 
@@ -39,7 +39,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 -->
 
-Le [!DNL Adobe PDF Services] peut lire, convertir ou modifier vos fichiers, mais ni l’un ni l’autre [!DNL Adobe] nor [!DNL Workfront Fusion] stockez vos fichiers ou données. Cela signifie que :
+La variable [!DNL Adobe PDF Services] peut lire, convertir ou modifier vos fichiers, mais ni l’un ni l’autre [!DNL Adobe] nor [!DNL Workfront Fusion] stockez vos fichiers ou données. Cela signifie que :
 
 * Vous conservez le contrôle de vos fichiers, y compris leur sécurité.
 * Vous n’avez pas besoin d’avoir une [!UICONTROL Adobe] compte de stockage ou de stockage dans le cloud pour utiliser les services PDF.
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -71,9 +71,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -82,6 +82,12 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
 
 Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Conditions préalables
+
+Pour créer un serveur à serveur OAuth, vous devez ajouter l’API Adobe PDF Services à votre console de développement Adobe. Lors de l’ajout de l’API, sélectionnez l’option Serveur à serveur OAuth.
+
+Pour obtenir des instructions, voir [Ajout d’une API au projet à l’aide d’OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) Dans la documentation destinée aux développeurs d’Adobes.
 
 ## Créer une connexion à [!DNL Adobe PDF Services]
 
@@ -111,19 +117,19 @@ Pour créer une connexion pour votre [!DNL Adobe PDF Services] modules :
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL ID client]</td>
-          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID client]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].</td>
+          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID client]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].<p>Pour obtenir des instructions sur la localisation des informations d’identification, voir <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Informations d’identification</a> dans la documentation destinée aux développeurs d’Adobes.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Saisissez votre [!DNL Adobe] [!UICONTROL Client Secret]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].
+          <td>Saisissez votre [!DNL Adobe] [!UICONTROL Client Secret]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].<p>Pour obtenir des instructions sur la localisation des informations d’identification, voir <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Informations d’identification</a> dans la documentation destinée aux développeurs d’Adobes.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL ID du compte technique] (JWT uniquement)</td>
-          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID du compte technique]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].
+          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID du compte technique]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].<p>Pour obtenir des instructions sur la localisation des informations d’identification, voir <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Informations d’identification</a> dans la documentation destinée aux développeurs d’Adobes.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL ID d’organisation] (JWT uniquement)</td>
-          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID d’organisation]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].
+          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID d’organisation]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].<p>Pour obtenir des instructions sur la localisation des informations d’identification, voir <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Informations d’identification</a> dans la documentation destinée aux développeurs d’Adobes.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta-scopes] (JWT uniquement)</td>
@@ -164,9 +170,9 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 ### [!UICONTROL Générer un document]
 
-Le [!UICONTROL Générer un document] est un moyen puissant de créer un PDF contenant les données que vous sélectionnez. Vous pouvez le formater à l’aide d’un [!DNL Microsoft Word] ou en fournissant des données au format JSON.
+La variable [!UICONTROL Générer un document] est un moyen puissant de créer un PDF contenant les données que vous sélectionnez. Vous pouvez le formater à l’aide d’un [!DNL Microsoft Word] ou en fournissant des données au format JSON.
 
-Pour plus d’informations sur la variable [!UICONTROL [!DNL Adobe PDF Services] Générer un document] , voir [Présentation de la génération de document](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) dans le [!DNL Adobe Document Services] documentation.
+Pour plus d’informations sur la variable [!UICONTROL [!DNL Adobe PDF Services] Générer un document] , voir [Présentation de la génération de document](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) dans le [!DNL Adobe Document Services] la documentation.
 
 * [Utilisez la variable [!UICONTROL Générer un document] avec un module [!DNL Microsoft Word] modèle](#use-the-generate-document-module-with-a-microsoft-word-template)
 * [Utilisez la variable [!UICONTROL Générer un document] module avec JSON](#use-the-generate-document-module-with-json)
@@ -181,7 +187,7 @@ Pour plus d’informations sur la variable [!UICONTROL [!DNL Adobe PDF Services]
 >You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
 -->
 
-Pour utiliser la variable [!UICONTROL Générer un document] avec un module [!UICONTROL Microsoft Word] modèle, vous devez d’abord créer le modèle. Pour obtenir des instructions, recherchez &quot;Créer un modèle&quot; dans le [!DNL Microsoft Office] documentation.
+Pour utiliser la variable [!UICONTROL Générer un document] avec un module [!UICONTROL Microsoft Word] modèle, vous devez d’abord créer le modèle. Pour obtenir des instructions, recherchez &quot;Créer un modèle&quot; dans le [!DNL Microsoft Office] la documentation.
 
 Renseignez les [!UICONTROL Générer un document] des champs de module comme suit :
 
@@ -195,7 +201,7 @@ Renseignez les [!UICONTROL Générer un document] des champs de module comme sui
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fichier source]</td> 
-   <td> <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</p> <p>Ce fichier source est le suivant : [!DNL Microsoft Word ]modèle utilisé par le module pour générer le nouveau PDF.</p> <p>Nous vous recommandons de créer un projet dans [!DNL Workfront] pour le [!DNL Microsoft Word] modèles que vous utilisez dans [!DNL Workfront Fusion]. Vous pouvez ensuite utiliser la variable [!DNL Workfront] &gt; Module [!UICONTROL Télécharger le document] pour extraire le modèle approprié dans votre scénario.</p> </td> 
+   <td> <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</p> <p>Ce fichier source est le [!DNL Microsoft Word ]modèle utilisé par le module pour générer le nouveau PDF.</p> <p>Nous vous recommandons de créer un projet dans [!DNL Workfront] pour le [!DNL Microsoft Word] modèles que vous utilisez dans [!DNL Workfront Fusion]. Vous pouvez ensuite utiliser la variable [!DNL Workfront] &gt; Module [!UICONTROL Télécharger le document] pour extraire le modèle approprié dans votre scénario.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output Format]</td> 
@@ -297,7 +303,7 @@ Ce module d’action prend plusieurs fichiers de PDF et les combine dans un seul
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Documents]</td> 
-   <td> <p>Vous pouvez utiliser un module d’agrégation pour rassembler des documents dans un PDF, ou vous pouvez ajouter les documents manuellement. </p> <p>Nous vous recommandons d’utiliser un module [!UICONTROL Array Aggregator] pour agréger la sortie d’un module précédent. En utilisant un agrégateur, vous n’avez pas besoin de connaître les noms, emplacements ou nombres de fichiers à combiner. L’utilisation d’un agrégateur est donc beaucoup plus flexible et évolutive que la saisie manuelle des documents à combiner.</p> <p>Pour utiliser le module de fichiers [!UICONTROL Combiner le PDF] avec un agrégateur, vous devez activer le mappage sur le champ [!UICONTROL Documents] . </p> <p>Dans cet exemple, le module [!UICONTROL Read Related Records] identifie les documents associés à un projet et le module [!UICONTROL Download Documents] les télécharge chacun. Tous les PDF sont agrégés dans un tableau, qui est transmis dans le module de fichiers [!UICONTROL Combine PDF] .</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>Vous pouvez également saisir des documents manuellement.</p> <p>Pour chaque document à inclure dans le PDF combiné :</p> 
+   <td> <p>Vous pouvez utiliser un module d’agrégation pour rassembler des documents dans un PDF, ou vous pouvez ajouter les documents manuellement. </p> <p>Nous vous recommandons d’utiliser un module [!UICONTROL Array Aggregator] pour agréger la sortie d’un module précédent. En utilisant un agrégateur, vous n’avez pas besoin de connaître les noms, emplacements ou nombres de fichiers à combiner. L’utilisation d’un agrégateur est donc beaucoup plus flexible et évolutive que la saisie manuelle des documents à combiner.</p> <p>Pour utiliser le module de fichiers [!UICONTROL Combiner le PDF] avec un agrégateur, vous devez activer le mappage sur le champ [!UICONTROL Documents] . </p> <p>Dans cet exemple, le module [!UICONTROL Read Related Records] identifie les documents associés à un projet et le module [!UICONTROL Download Documents] les télécharge chacun. Tous les PDF sont agrégés dans un tableau, qui est transmis dans le module de fichiers [!UICONTROL Combiner le PDF] .</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>Vous pouvez également saisir des documents manuellement.</p> <p>Pour chaque document à inclure dans le PDF combiné :</p> 
     <ol> 
      <li value="1"> <p>Cliquez sur [!UICONTROL Ajouter un document] .</p> </li> 
      <li value="2"> <p>Dans le champ [!UICONTROL Fichier source] , sélectionnez le module qui génère le document que vous souhaitez inclure ou mappez le nom et les données du fichier source. </p> </li> 
@@ -368,39 +374,39 @@ Cet outil convertit un document en fichier de PDF. Le fichier source doit être 
    <td role="rowheader">[!UICONTROL Language]</td> 
    <td> <p>Sélectionnez la langue par défaut du document source. Cela permet au module de sélectionner une police appropriée, si elle n’est pas incluse dans le fichier source.</p> <p>Choisissez l’une des langues suivantes :</p> 
     <ul> 
-     <li> <p>en-US (par défaut) : Anglais (États-Unis d’Amérique)</p> </li> 
-     <li> <p>ca-ES : Catalan (Espagne)</p> </li> 
-     <li> <p>cs-CZ: Tchèque (République tchèque)</p> </li> 
+     <li> <p>en-US (par défaut) : anglais (États-Unis d’Amérique)</p> </li> 
+     <li> <p>ca-ES : catalan (Espagne)</p> </li> 
+     <li> <p>cs-CZ : Tchèque (République tchèque)</p> </li> 
      <li> <p>da-DK : Danois (Danemark)</p> </li> 
      <li> <p>de-DE : Allemand (Allemagne)</p> </li> 
-     <li> <p>en-AE : Anglais (Emirats arabes unis)</p> </li> 
-     <li> <p>en-GB : Anglais (Royaume-Uni)</p> </li> 
-     <li> <p>en-IL: Anglais (Israël)</p> </li> 
-     <li> <p>en-US : Anglais (États-Unis d’Amérique)</p> </li> 
+     <li> <p>en-AE : anglais (Émirats arabes unis)</p> </li> 
+     <li> <p>en-GB : anglais (Royaume-Uni)</p> </li> 
+     <li> <p>en-IL : anglais (Israël)</p> </li> 
+     <li> <p>en-US : anglais (États-Unis d’Amérique)</p> </li> 
      <li> <p>es-ES : Espagnol (Espagne)</p> </li> 
      <li> <p>es-MX : Espagnol (Mexique)</p> </li> 
-     <li> <p>eu-ES : Basque (Espagne)</p> </li> 
+     <li> <p>eu-ES : basque (Espagne)</p> </li> 
      <li> <p>fi-FI : Finnois (Finlande)</p> </li> 
      <li> <p>fr-CA : Français (Canada)</p> </li> 
-     <li> <p>fr-FR: Français (France)</p> </li> 
-     <li> <p>fr-MA: Français (Maroc)</p> </li> 
+     <li> <p>fr-FR : Français (France)</p> </li> 
+     <li> <p>fr-MA : Français (Maroc)</p> </li> 
      <li> <p>hr-HR : Croate (Croatie)</p> </li> 
-     <li> <p>hu-HU : Hongrois (Hongrie)</p> </li> 
+     <li> <p>hu-HU : hongrois (Hongrie)</p> </li> 
      <li> <p>it-IT : Italien (Italie)</p> </li> 
-     <li> <p>ja-JP : Japonais (Japon)</p> </li> 
+     <li> <p>ja-JP : japonais (Japon)</p> </li> 
      <li> <p>kr-KR : Coréen (Corée du Sud)</p> </li> 
      <li> <p>nb-NO : Norvégien Bokmål (Norvège)</p> </li> 
      <li> <p>nl-NL : Néerlandais (Pays-Bas)</p> </li> 
-     <li> <p>pl-PL : Polonais (Pologne)</p> </li> 
-     <li> <p>pt-BR: Portugais (Brésil)</p> </li> 
-     <li> <p>pt-PT: Portugais (Portugal)</p> </li> 
-     <li> <p>ro-RO : Roumain (Roumanie)</p> </li> 
-     <li> <p>ru-RU : Russe (Russie)</p> </li> 
-     <li> <p>sk-SK : Slovaque (Slovaquie)</p> </li> 
+     <li> <p>pl-PL : polonais (Pologne)</p> </li> 
+     <li> <p>pt-BR : Portugais (Brésil)</p> </li> 
+     <li> <p>pt-PT : Portugais (Portugal)</p> </li> 
+     <li> <p>roRO : roumain (Roumanie)</p> </li> 
+     <li> <p>ru-RU : russe (Russie)</p> </li> 
+     <li> <p>sk-SK : slovaque (Slovaquie)</p> </li> 
      <li> <p>sl-SI : Slovène (Slovénie)</p> </li> 
-     <li> <p>sv-SE : Suédois (Suède)</p> </li> 
+     <li> <p>sv-SE : suédois (Suède)</p> </li> 
      <li> <p>tr-TR : Turc (Turquie)</p> </li> 
-     <li> <p>uk-UA : Ukrainien (Ukraine)</p> </li> 
+     <li> <p>uk-UA : ukrainien (Ukraine)</p> </li> 
      <li> <p>zh-CN : Chinois (Chine continentale)</p> </li> 
      <li> <p>zh-TW : Chinois (Taïwan)</p> </li> 
     </ul> </td> 
@@ -587,7 +593,7 @@ Cet outil exécute la reconnaissance optique des caractères (OCR) sur un fichie
    <td> 
     <ul> 
      <li> <p>Le type [!UICONTROL Image d’origine modifiée] permet de s’assurer que le texte peut faire l’objet d’une recherche et peut être sélectionné, mais modifie l’image d’origine pendant le processus de nettoyage (par exemple, il la déforme) avant de placer un calque de texte invisible dessus. Ce type supprime les artefacts indésirables et peut générer un document plus lisible dans certains scénarios. </p> </li> 
-     <li> <p>Le type [!UICONTROL Image d’origine non modifiée] incruste également un calque de texte indexable sur l’image d’origine, mais dans ce cas, l’image d’origine reste inchangée. Ce type produit une fidélité maximale à l’image d’origine.</p> </li> 
+     <li> <p>Le type [!UICONTROL Image d’origine non modifiée] incruste également un calque de texte indexable sur l’image d’origine, mais dans ce cas, l’image d’origine reste inchangée. Ce type produit une fidélité maximale à l’image originale.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -790,7 +796,7 @@ Ce module d’action divise un document de PDF en plusieurs documents plus petit
    <td role="rowheader">[!UICONTROL Option de fractionnement]</td> 
    <td>Sélectionnez le mode de partage du fichier. 
    <ul>
-   <li><p><b>Plages de page</b></p><p>Pour chaque plage de pages que vous souhaitez fractionner en un document distinct, cliquez sur <b>Ajouter</b> et saisissez la page de début et la page de fin.</p></li>
+   <li><p><b>Plages de page</b></p><p>Pour chaque plage de pages que vous souhaitez fractionner en un document distinct, cliquez sur <b>Ajouter</b> et saisissez la page sur laquelle vous souhaitez commencer et la page sur laquelle vous souhaitez terminer.</p></li>
    <li><p><b>Nombre de pages</b></p><p>Saisissez le nombre de pages à inclure dans les nouveaux documents.</p></li>
    <li><p><b>Nombre de fichiers</b></p><p>Saisissez le nombre de fichiers de taille égale dans lesquels vous souhaitez fractionner le document.</p></li>
    </ul>
