@@ -6,7 +6,7 @@ description: La visionneuse de vérification de l’appli de bureau, conçue pri
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -34,11 +34,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionner ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Tous</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td> <p>Tous</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,8 +53,8 @@ Si ce n’est pas le cas, vous pouvez suivre les étapes ci-dessous.
 
 1. Pour télécharger l’application, effectuez l’une des opérations suivantes :
 
-   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.24.pkg)
-   * Si vous utilisez l’environnement de prévisualisation, cliquez sur [Téléchargement de l’aperçu Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.24.pkg)
+   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.26.pkg)
+   * Si vous utilisez l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.26.pkg)
 
 1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
 1. Dans la boîte d’installation qui s’affiche, cliquez sur **Continuer**, puis cliquez sur **Installer**.
@@ -77,8 +77,8 @@ Si votre administrateur de BAT Workfront ou Workfront a téléchargé l’applic
 
 1. Pour télécharger l’application, effectuez l’une des opérations suivantes :
 
-   * Dans l’environnement de production, cliquez sur [Téléchargement de production Windows pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.24.exe)
-   * Dans l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.24.exe).
+   * Dans l’environnement de production, cliquez sur [Téléchargement de production Windows pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.26.exe)
+   * Dans l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.26.exe).
 
 1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
 1. Dans la boîte d’installation qui s’affiche, ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
