@@ -1,17 +1,17 @@
 ---
-title: Visualiser les mises à jour pendant la période de publication de la version 23.3
-description: Visualiser les mises à jour pendant la période de publication de la version 23.3
+title: Consultation et affichage des mises à jour pendant la période de la version 23.3
+description: Consultation et affichage des mises à jour pendant la période de la version 23.3
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: 2fc3799b97e353e124a3ee2f181ad62fbadec592
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# Visualiser les mises à jour pendant la période de publication de la version 23.3
+# Consultation et affichage des mises à jour pendant la période de la version 23.3
 
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication de la version 23.3. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.
 
@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 23
 
 >[!NOTE]
 >
->Version d’aperçu prévue : le 29 juin 2023; Version de production planifiée : 13 juillet 2023
+>Version d’aperçu prévue : 29 juin 2023 ; version de production prévue : 13 juillet 2023
 
 Nous avons amélioré l’interface de la liste des demandes envoyées.
 
@@ -36,7 +36,7 @@ Pour plus d’informations, voir [Copie et envoi de requêtes](/help/quicksilver
 
 >[!NOTE]
 >
->Version d’aperçu prévue : à annoncer; Version de production planifiée : à annoncer.
+>Prévue : 27 juillet 2023 ; Prévue pour une version rapide : avec la version 23.8. Production planifiée pour la version trimestrielle : avec la version 23.10
 >
 >Cette fonctionnalité était initialement prévue avec la version 23.3 et a été différée.
 
@@ -48,6 +48,6 @@ Pour plus d’informations, voir [Création de problèmes](../../../manage-work/
 
 >[!NOTE]
 >
->Aperçu de la version : le 29 juin 2023; Version de production planifiée pour les clients de version rapide : À annoncer, après la version de production 23.3 ; Version de production planifiée pour tous les clients : Avec la version 23.4
+>Version d’aperçu : 29 juin 2023 ; version de production planifiée pour les clients de la version rapide : à annoncer, après la version de production 23.3 ; version de production planifiée pour tous les clients : avec la version 23.4
 
 La liste Taux de facturation du projet présente désormais une apparence plus moderne dans la plupart des autres listes de Workfront.
