@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez affic
 
 ## Exigences d’accès
 
-Vous devez disposer des accès suivants pour effectuer les actions décrites dans cet article :
+Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -143,8 +143,8 @@ Cela ouvre la liste des objectifs.
    * Ctrl + Z ( ⌘ + z pour Mac) pour annuler une modification.
    * Ctrl + Y ( ⌘ + y pour Mac) pour rétablir la modification
 1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, à un lien hypertexte ou à une image, utilisez n’importe quelle option de la barre d’outils Texte enrichi ou les icônes adjacentes. Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facultatif) Dans le **Balisage de personnes ou d’équipes** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
-1. Sélectionnez la **Privé à ma société** pour rendre le commentaire visible uniquement aux personnes de votre société.
+1. (Facultatif) Dans la variable **Balisage de personnes ou d’équipes** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Sélectionnez la variable **Privé à ma société** pour rendre le commentaire visible uniquement aux personnes de votre société.
 
    >[!TIP]
    >
@@ -154,14 +154,12 @@ Cela ouvre la liste des objectifs.
 
    >[!TIP]
    >
-   >Si un autre utilisateur envoie un commentaire au même élément que celui que vous mettez à jour, une ligne rouge s’affiche avec un indicateur &quot;Nouveau&quot; pour vous informer des commentaires les plus récents.
+   >Si un autre utilisateur envoie un commentaire sur l’élément que vous mettez à jour, une ligne rouge s’affiche avec un indicateur &quot;Nouveau&quot; pour vous informer des commentaires les plus récents, ainsi qu’une notification bleue au bas de l’écran pour indiquer le nombre de nouveaux commentaires.
    >
    >L’indicateur ne s’affiche qu’après l’envoi du commentaire sur l’élément, et non lorsque le commentaire est toujours composé.
-   >
-   >L’indicateur &quot;Nouveau&quot; s’affiche uniquement lorsque l’utilisateur qui a saisi une nouvelle mise à jour, ainsi que celui qui a saisi une mise à jour, utilisent tous deux la nouvelle expérience de commentaire.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. (Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
+1. (Facultatif) Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
 1. Modifiez les informations du commentaire, ajoutez ou supprimez des images, ou supprimez l’un des utilisateurs balisés.
 Vous pouvez modifier votre commentaire dans les 15 minutes suivant son envoi. Un indicateur &quot;modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
 
@@ -171,7 +169,7 @@ Vous pouvez modifier votre commentaire dans les 15 minutes suivant son envoi. Un
    >
    > * Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.
    >
-   > * Le tampon de date est la date du commentaire d’origine et non la date de la dernière mise à jour.
+   > * L’horodatage correspond à la date du commentaire d’origine et non à la date de la dernière mise à jour.
 
    1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-icon.png), puis cliquez sur l’une des options suivantes pour copier des informations d’un commentaire dans le Presse-papiers :
 

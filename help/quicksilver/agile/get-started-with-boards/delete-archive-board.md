@@ -5,8 +5,9 @@ navigation-topic: get-started-with-boards
 title: Suppression ou archivage d’un panorama
 description: Vous pouvez supprimer ou archiver un panorama dans Workfront. La suppression d’un panorama le supprime définitivement de Workfront, tandis que l’archivage d’un panorama conserve toutes les cartes et permet de le restaurer ultérieurement.
 author: Lisa
+feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -40,7 +41,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
 
-## Suppression d’un panorama
+## Supprimer un panorama
 
 Lorsque vous supprimez un panorama, il est définitivement supprimé de [!DNL Workfront] et ne peuvent pas être restaurés. Toutes les cartes du panorama sont également supprimées avec le panorama.
 
@@ -54,7 +55,7 @@ Lorsque vous supprimez un panorama, il est définitivement supprimé de [!DNL Wo
 
    ![Plus de panorama](assets/boards-board-more-menu.png)
 
-## Archivage d’un panorama
+## Archiver un panorama
 
 Les panoramas archivés conservent toutes les cartes et affectations. Tout utilisateur peut archiver ou restaurer un panorama à tout moment.
 
@@ -64,7 +65,7 @@ Les panoramas archivés conservent toutes les cartes et affectations. Tout utili
 
    ![Plus de panorama](assets/boards-board-more-menu.png)
 
-## Restauration d’un panorama
+## Restaurer un panorama
 
 Un panorama archivé peut être restauré à tout moment. Tout utilisateur peut restaurer un panorama archivé.
 

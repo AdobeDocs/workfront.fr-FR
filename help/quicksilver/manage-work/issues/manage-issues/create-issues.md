@@ -8,18 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: d1594634c5507e04f314da2fbccf621f8c1e03e7
+source-git-commit: b6ea67f28b498cc0de4325a2350545c660574d4c
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
 
 # Création de problèmes
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu .</span>
-
 <!--remove Preview and Prod references when this comes to Prod-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du quatrième trimestre 2023](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+
+
 
 Lorsque vous travaillez sur un projet, vous pouvez découvrir que des événements inattendus se produisent. Vous pouvez consigner ces événements inattendus comme des problèmes pour un projet particulier ou pour une tâche. Les utilisateurs disposant de l’accès approprié peuvent afficher et surveiller l’état des problèmes au fur et à mesure que le projet ou la tâche se termine, éliminant ainsi la nécessité de longues chaînes de messagerie ou de réunions d’état. Contrairement aux tâches, qui sont des événements planifiés, les problèmes représentent des tâches non planifiées dans Adobe Workfront.
 

@@ -3,20 +3,34 @@ title: 23.3 Améliorations apportées à la gestion financière
 description: 23.3 Améliorations apportées à la gestion financière
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # 23.3 Améliorations apportées à la gestion financière
 
-Cette page décrit toutes les améliorations apportées à la gestion financière avec la version 23.3. Ces améliorations ont été apportées à l’environnement de production avec la version 23.3 des 20 et 21 juillet 2023.
+Cette page décrit toutes les améliorations apportées à la gestion financière avec la version 23.3. Ces améliorations ont été apportées à la version 23.3 des 20 et 21 juillet 2023.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.3, voir [Présentation de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Date d’entrée en vigueur des coûts et des taux de facturation
+
+
+>[!IMPORTANT]
+>
+>Cette fonctionnalité sera disponible aux dates suivantes :
+>
+>* Version d’aperçu : 29 juin 2023
+>
+>* Version de production pour les clients de la version rapide : à annoncer, après la version de production 23.3
+>
+>* Version de production pour tous les clients : version de production pour tous les clients : avec la version 23.10 (octobre 2023)
+>
+>La fonction de remplacement du taux d’affectation a été temporairement désactivée dans Aperçu du 30 juin au 13 juillet 2023.
+
 
 Les taux de coût et de facturation en vigueur à la date sont désormais disponibles sur les objets de rôle d’entreprise, d’utilisateur et de tâche dans Workfront. Lorsque les taux d’efficacité de la date sont appliqués à un projet et que les heures sont consignées dans les tâches du projet, les coûts et les recettes sont calculés à l’aide des taux spécifiés pour chaque période.
 
