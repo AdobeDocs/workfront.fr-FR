@@ -4,9 +4,9 @@ description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
+source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
 >| <ul><li>23.8 (31 août 2023)</li><li>23.9 (28 septembre 2023)</li><li>23.10 (26 octobre 2023)</li></ul> | <ul><li>23.10 (Semaine du 26 octobre 2023)</li></ul> |
->| <ul><li>Aucune version (novembre 2023)</li><li>Aucune mise à jour (décembre 2023)</li><li>24.1 (janvier 2024)</li></ul> | <ul><li>24.1 (janvier 2024)</li></ul> |
+>| <ul><li>Aucune version (novembre 2023)</li><li>Aucune publication (décembre 2023)</li><li>24.1 (janvier 2024)</li></ul> | <ul><li>24.1 (janvier 2024)</li></ul> |
 >
 >Pour plus d’informations sur le processus de publication rapide, voir [Activation ou désactivation du processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -71,23 +71,23 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 22 juin 2023</p>
+                                <p>Version d’aperçu : 22 juin 2023</p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.3</p>
+                                <p>Version de production : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Contrôle au niveau du groupe disponible pour les préférences "Emplacement où les utilisateurs peuvent consigner l’heure" de la feuille de temps et de l’heure</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Contrôle au niveau du groupe disponible pour les préférences "Emplacement où les utilisateurs peuvent consigner l’heure" de la feuille de temps et d’heure</a></p>
                         <p>L’administrateur système peut désormais verrouiller et déverrouiller les préférences "Où les utilisateurs peuvent consigner l’heure" et "Heure". Lorsque cette préférence est déverrouillée, les administrateurs de groupe peuvent configurer les paramètres "Où les utilisateurs peuvent consigner l’heure" séparément pour chaque groupe.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 4 mai 2023</p>
+                                <p>Version d’aperçu : 4 mai 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 18 mai 2023</span></p>
@@ -103,7 +103,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 21 juillet 2023</p>
+                                <p>Version d’aperçu : 21 juillet 2023</p>
                             </li>
                             <li>
                                 <p>Version de production : 21 juillet 2023</p>
@@ -138,10 +138,10 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 29 juin 2023</p>
+                                <p>Version d’aperçu : 29 juin 2023</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : Avec la version 23.3</p>
+                                <p>Version de production pour tous les clients : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -154,10 +154,10 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 22 juin 2023</p>
+                                <p>Version d’aperçu : 22 juin 2023</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : Avec la version 23.3</p>
+                                <p>Version de production pour tous les clients : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -170,10 +170,10 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 22 juin 2023<span style="color: #ff0000;"> Cette fonctionnalité a été supprimée de l’aperçu et ne sera pas publiée avec la version 23.3.</span></p>
+                                <p>Version d’aperçu : 22 juin 2023<span style="color: #ff0000;"> Cette fonctionnalité a été supprimée de l’aperçu et ne sera pas publiée avec la version 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : N/A</p>
+                                <p>Version de production pour tous les clients : S.O.</p>
                             </li>
                         </ul>
                     </td>
@@ -186,10 +186,10 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 22 juin 2023<span style="color: #ff0000;"> Cette fonctionnalité a été supprimée de l’aperçu et ne sera pas publiée avec la version 23.3.</span></p>
+                                <p>Version d’aperçu : 22 juin 2023<span style="color: #ff0000;"> Cette fonctionnalité a été supprimée de l’aperçu et ne sera pas publiée avec la version 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : N/A</p>
+                                <p>Version de production pour tous les clients : S.O.</p>
                             </li>
                         </ul>
                     </td>
@@ -202,11 +202,11 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 15 juin 2023</p>
+                                <p>Version d’aperçu : 15 juin 2023</p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 22 juin 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.3</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 22 juin 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -219,7 +219,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 19 mai 2023</p>
+                                <p>Version d’aperçu : 19 mai 2023</p>
                             </li>
                             <li>
                                  <p><span class="preview">Version de production : 19 mai 2023</span></p>
@@ -235,11 +235,11 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 10 mai 2023<br /></p>
+                                <p>Version d’aperçu : 10 mai 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 10 mai 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.3</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 10 mai 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -252,11 +252,11 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 27 avril 2023<br /></p>
+                                <p>Version d’aperçu : 27 avril 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.3</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -269,11 +269,11 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 20 avril 2023<br /></p>
+                                <p>Version d’aperçu : 20 avril 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.3</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -281,15 +281,15 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migration de cartes Kanban d’équipe agile vers des panoramas</a></p>
-                        <p>Une nouvelle <b>Ajouter des panoramas</b> sur les panoramas Kanban de l’équipe agile, vous pouvez ajouter toutes les cartes du panorama Kanban à un panorama Workfront. Vous pouvez choisir de créer un panorama Workfront ou d’ajouter les cartes à un panorama existant.</p>
+                        <p>Une nouvelle <b>Ajout à des panoramas</b> sur les panoramas Kanban de l’équipe agile, vous pouvez ajouter toutes les cartes du panorama Kanban à un panorama Workfront. Vous pouvez choisir de créer un panorama Workfront ou d’ajouter les cartes à un panorama existant.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 20 avril 2023<br /></p>
+                                <p>Version d’aperçu : 20 avril 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Version de production pour la pré-inscription : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p></s>
+                                 <s><p>Mise à jour de la production pour l’inclusion anticipée : 28 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Version de production pour tous les clients : 18 mai 2023</span></p>
@@ -305,7 +305,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 20 avril 2023<br /></p>
+                                <p>Version d’aperçu : 20 avril 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production pour tous les clients : 27 avril 2023</span></p>
@@ -321,11 +321,11 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 13 avril 2023<br /></p>
+                                <p>Version d’aperçu : 13 avril 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 13 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</p>
-                                <p>Version de production pour tous les clients : Avec la version 23.3</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 13 avril 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</p>
+                                <p>Version de production pour tous les clients : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -357,11 +357,11 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 29 juin 2023</p>
+                                <p>Version d’aperçu : 29 juin 2023</p>
                             </li>
                             <li>
-                                <p>Version de production pour les clients de version rapide : À annoncer, après la version de production 23.3</p>
-                                <p>Version de production pour tous les clients : Avec la version 23.4<br>
+                                <p>Version de production pour les clients de la version rapide : à annoncer, après la version de production 23.3</p>
+                                <p>Version de production pour tous les clients : avec la version 23.10 (octobre 2023)<br>
                                 La fonction de remplacement du taux d’affectation a été temporairement désactivée dans Aperçu du 30 juin au 13 juillet 2023.</p>
                             </li>
                         </ul>
@@ -394,7 +394,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A</p>
+                                <p>Aperçu de la version : S.O.</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 27 juin 2023</span></p>
@@ -410,7 +410,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A</p>
+                                <p>Aperçu de la version : S.O.</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 22 juin 2023</span></p>
@@ -426,7 +426,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A</p>
+                                <p>Aperçu de la version : S.O.</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 22 juin 2023</span></p>
@@ -458,7 +458,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 11 mai 2023</p>
+                                <p>Version d’aperçu : 11 mai 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 24 mai 2023</span></p>
@@ -474,7 +474,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 10 mai 2023</p>
+                                <p>Version d’aperçu : 10 mai 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 10 mai 2023</span></p>
@@ -490,7 +490,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 10 mai 2023</p>
+                                <p>Version d’aperçu : 10 mai 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 10 mai 2023</span></p>
@@ -506,7 +506,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 27 avril 2023</p>
+                                <p>Version d’aperçu : 27 avril 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 27 avril 2023</span></p>
@@ -535,7 +535,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelles validations de document</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelles approbations de documents</a> </p>
                         <p>L’approbation des documents est en cours de reconception dans un déploiement échelonné qui sera mis à la disposition d’un plus grand nombre d’utilisateurs avec chaque version.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -547,21 +547,21 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                                 <p><span class="preview">Version de production : 14 juin 2023</span></p>
                             </li>
                         </ul>
-                        <p><span style="color: #ff0000;">Cette fonctionnalité, qui fait partie d’une version par étapes, n’est actuellement disponible que pour des clients spécifiques.</span></p>
+                        <p><span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.</span></p>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Bouton Nouveau partage</a> </p>
-                        <p>L’option Partager a été supprimée du menu Plus pour les projets, tâches et problèmes afin de rendre le partage plus intuitif.</p>
+                        <p>L’option Partager a été supprimée du menu Plus pour les projets, les tâches et les problèmes afin de rendre le partage plus intuitif.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 22 juin 2023<br /></p>
+                                <p>Version d’aperçu : 22 juin 2023<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.3</p>
+                                <p>Version de production : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -588,15 +588,15 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle fonctionnalité de BAT dans l’application mobile Workfront</a> </p>
-                        <p>Avec l’abandon de l’application Workfront Proof autonome dans la version 23.4, des fonctionnalités de vérification de l’Principale application mobile Workfront ont été ajoutées pour permettre la poursuite de la vérification sur mobile.</p>
+                        <p>Avec l’abandon de l’application Workfront Proof autonome dans la version 23.10 (octobre 2023), des fonctionnalités de vérification ont été ajoutées à l’Principale application mobile Workfront pour permettre la poursuite de la vérification sur mobile.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A</p>
+                                <p>Aperçu de la version : S.O.</p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production : Disponible dans Apple App Store et Google Play Store le 21 juin 2023</span></p>
+                                <p><span class="preview">Version de production : disponible dans Apple App Store et Google Play Store le 21 juin 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -628,10 +628,10 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 23 juin 2023</p>
+                                <p>Version d’aperçu : 23 juin 2023</p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.3</p>
+                                <p>Version de production : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -644,18 +644,18 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : À annoncer, après la version de production 23.3</p>
+                                <p>Version d’aperçu : à annoncer, après la version de production 23.3</p>
                             </li>
                             <li>
-                                <p>Version de production pour les clients de version rapide : À annoncer, après la version de production 23.3 </p>
-                                <p>Version de production pour tous les clients : Avec la version 23.4</p>
+                                <p>Version de production pour les clients de la version rapide : à annoncer, après la version de production 23.3 </p>
+                                <p>Version de production pour tous les clients : avec la version 23.10 (octobre 2023)</p>
                             </li>
                         </ul>
                     </td>
                  </tr>                
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires bêta pour les projets, les tâches et les documents</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires bêta pour les projets, tâches et documents</a> </p>
                         <p>La nouvelle expérience de commentaires bêta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires bêta n’était disponible que pour les problèmes et les objectifs.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -664,7 +664,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                                 <p>Version d’aperçu : 1er juin 2023<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.3</p>
+                                <p>Version de production : avec la version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -710,7 +710,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 5 juin 2023<br /></p>
+                                <p>Version d’aperçu : 5 juin 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 5 juin 2023</span></p>
@@ -720,13 +720,13 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de publication de la version 23.3</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de la version 23.3</a></p>
                         <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai de publication de la version 23.3. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : Tout au long de la période de publication de la version 23.3</p>
+                                <p>Aperçu de la version : pendant toute la période de la version 23.3</p>
                             </li>
                             <li>
                                 <p><span class="preview">2 semaines au moins après la publication dans Aperçu (sauf indication contraire)</span></p>
@@ -749,13 +749,13 @@ Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en productio
 
 Aucune mise à jour du planificateur de scénario n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### Améliorations du Bon à tirer Workfront
+### Améliorations du Bon à tirer de Workfront
 
 Nouvelles fonctionnalités de la version Workfront BAT au cours de la période de publication 23.3. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Bon à tirer Adobe Workfront avec la version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Améliorations des objectifs de Workfront
 
-Nouvelles fonctionnalités de la version 23.3 des objectifs de Workfront. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs d’Adobe Workfront avec la version 23.3](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
+Nouvelles fonctionnalités de la version 23.3 des objectifs de Workfront. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs Adobe Workfront avec la version 23.3](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
 ### API version 16
 
@@ -767,7 +767,7 @@ Pour plus d’informations sur les versions d’API, voir [Contrôle de version 
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, voir [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mises à jour de formation
 
@@ -777,11 +777,11 @@ Découvrez les dernières mises à jour apportées aux programmes d’apprentiss
 
 Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
 
-#### Obsolescence de l’application mobile BAT avec la version 23.4
+#### Obsolescence de l’application mobile BAT avec la version 23.10 (octobre 2023)
 
-Avec la version 23.4, nous abandonnerons officiellement l’application mobile BAT. L’application mobile Workfront générale a été améliorée avec de nouvelles fonctionnalités de vérification (voir la note de mise à jour sous Améliorations apportées à Workfront Mobile pour plus d’informations) et il est conseillé aux utilisateurs de commencer à l’utiliser pour le travail de vérification dès que possible.
+L’application mobile BAT sera officiellement abandonnée avec la version 23.10 (octobre 2023). L’application mobile Workfront générale a été améliorée avec de nouvelles fonctionnalités de vérification (voir la note de mise à jour sous Améliorations apportées à Workfront Mobile pour plus d’informations) et il est conseillé aux utilisateurs de commencer à l’utiliser pour le travail de vérification dès que possible.
 
-Notez que l’application mobile Workfront requiert une connexion Workfront. Les utilisateurs externes et les invités peuvent continuer à utiliser l’application Bon à tirer pour le travail de vérification ; cependant, il n’est plus pris en charge et ne sera plus disponible avec la version 23.4.
+Notez que l’application mobile Workfront requiert une connexion Workfront. Les utilisateurs externes et les invités peuvent continuer à utiliser l’application Bon à tirer pour le travail de vérification. Toutefois, elle n’est plus prise en charge et ne sera plus disponible avec la version 23.10 (octobre 2023).
 
 
 <!-- HTML you might need
