@@ -9,7 +9,7 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
+source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront] intégrations
 
-Vous pouvez intégrer Adobe Workfront à des applications tierces, ainsi qu’à d’autres [!DNL Adobe] produits. Les intégrations peuvent étendre l’utilité de Workfront et l’adapter aux besoins de votre entreprise.
+Vous pouvez intégrer Adobe Workfront à des applications tierces, ainsi que d’autres [!DNL Adobe] produits. Les intégrations peuvent étendre l’utilité de Workfront et l’adapter aux besoins de votre entreprise.
 
 Les intégrations pour [!DNL Workfront] appartiennent aux catégories suivantes :
 
@@ -36,7 +36,7 @@ Certaines de ces intégrations sont disponibles sans frais supplémentaires, tan
 
 Pour commencer à utiliser les intégrations natives, procédez comme suit :
 
-1. **Déterminer la ou les intégrations natives qui répondent le mieux à vos besoins**
+1. **Déterminer les intégrations natives qui répondent le mieux à vos besoins**
 
    Lors du choix d’une intégration, il est important de choisir une application que les utilisateurs utilisent déjà régulièrement. Intégration [!DNL Workfront] avec une application utilisée régulièrement, ou fréquemment, augmente l’adoption de vos utilisateurs.
 
@@ -60,7 +60,7 @@ Pour commencer à utiliser les intégrations natives, procédez comme suit :
 
    >[!NOTE]
    >
-   >Pour envoyer un cas d’assistance, vous devez être le contact d’assistance attribué de votre entreprise. Une fois le dossier soumis, vous pouvez ajouter votre administrateur de technologie pour l’autre système à la conversation. Ils ne peuvent pas contacter directement le soutien par eux-mêmes.
+   >Pour envoyer un cas d’assistance, vous devez être le contact d’assistance attribué de votre entreprise. Une fois le dossier soumis, vous pouvez ajouter votre administrateur de technologie pour l’autre système à la conversation. Ils ne peuvent pas contacter directement l&#39;assistance par eux-mêmes.
 
 Nous comprenons que les intégrations intégrées (natives) disponibles peuvent ne pas répondre à tous les besoins de votre entreprise. Si tel est le cas, contactez votre gestionnaire de compte pour discuter d’une intégration personnalisée.
 
@@ -170,9 +170,9 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
    <td>[!DNL Microsoft] Calendriers ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
-     <li> <p>Intégration à une version web de [!DNL Outlook] dans le cloud hébergé [!DNL Office 365] ou [!DNL Outlook Live.] </p> </li> 
+     <li> <p>Intégration à une version web d’ [!DNL Outlook] dans le cloud hébergé [!DNL Office 365] ou [!DNL Outlook Live.] </p> </li> 
      <li> <p>Afficher tous les événements de votre [!DNL Outlook] calendrier et tous les calendriers associés que vous sélectionnez, tels que les calendriers d’anniversaire et de vacances, dans votre [!UICONTROL Home Calendar].</p> </li> 
-    </ul> <p><b>REMARQUE</b>: La configuration du calendrier [!UICONTROL Outlook] est complètement différente de la configuration [!DNL Outlook] Module complémentaire ([!DNL Outlook] Intégration ou [!DNL Workfront for Outlook]). Aucune installation n’est nécessaire pour configurer le calendrier.</p> <p>Pour plus d’informations, voir <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Configuration des paramètres d’affichage de votre calendrier d’accueil [!UICONTROL]</a>.</p> </td> 
+    </ul> <p><b>REMARQUE</b>: la configuration du calendrier [!UICONTROL Outlook] est complètement différente de la configuration [!DNL Outlook] Module complémentaire ([!DNL Outlook] Intégration ou [!DNL Workfront for Outlook]). Aucune installation n’est requise pour configurer le calendrier.</p> <p>Pour plus d’informations, voir <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Configuration des paramètres de vue de votre [!UICONTROL Home Calendar]</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -189,7 +189,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Mise à jour d’un projet/d’une tâche/d’un problème existant à l’aide d’informations provenant d’un courrier électronique </li> 
+     <li>Mise à jour d’un projet/d’une tâche/d’un problème existant à l’aide des informations d’un courrier électronique </li> 
      <li>Convertir des emails en éléments Workfront directement depuis votre boîte de réception </li> 
      <li>Créer de nouvelles tâches à partir d’un email </li> 
      <li>Commentaire sur [!DNL Workfront] items </li> 
@@ -212,7 +212,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
     <ul> 
      <li>Get [!DNL Workfront] notifications dans [!DNL Microsoft] Équipes </li> 
      <li>Prendre des décisions d’approbation </li> 
-     <li>Rechercher [!DNL Workfront] projets, tâches et problèmes </li> 
+     <li>Recherchez [!DNL Workfront] projets, tâches et problèmes </li> 
      <li>Créer [!DNL Workfront] tâches personnelles </li> 
      <li>Envoyer [!DNL Workfront] requests </li> 
     </ul> <p>Pour plus d’informations, voir <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]</a>.</p> </td> 
@@ -285,26 +285,22 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
 
 ### Intégrations nécessitant un achat supplémentaire {#integrations-requiring-an-additional-purchase}
 
-[!DNL Workfront] vous permet d’exploiter d’autres intégrations et produits intégrés à un coût supplémentaire. Consultez votre gestionnaire de compte pour plus d’informations sur les tarifs.
-
-* [!DNL Workfront DAM]
-
-   Pour plus d’informations, voir [[!DNL Adobe Workfront DAM] dans [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md).
+[!DNL Workfront] vous permet d’exploiter d’autres intégrations et produits intégrés à un coût supplémentaire. Pour plus d’informations sur les tarifs, contactez votre gestionnaire de compte.
 
 * [!DNL Workfront Fusion]
 
-   Pour plus d’informations, voir [[!DNL Adobe Workfront Fusion] aperçu](../../workfront-fusion/get-started/workfront-fusion-overview.md).
+  Pour plus d’informations, voir [[!DNL Adobe Workfront Fusion] aperçu](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-   Pour plus d’informations, voir [Configurer [!DNL Workfront] avec [!DNL Adobe Experience Manager] connecteur hérité](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
+  Pour plus d’informations, voir [Adobe Workfront pour Experience Manager Assets et Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
 
 ## Intégrations partenaires
 
 [!DNL Workfront] dispose d’un écosystème de partenaires riches qui comprend des dizaines d’intégrations qui enrichissent votre [!DNL Workfront] expérience.
 
-Parmi les exemples d’offres de partenaire existantes, citons les intégrations avec [!DNL Salesforce.com], [!DNL Oracle Responsys], et [!DNL Microsoft Visual Studio]. Pour plus d’informations sur ces intégrations et d’autres intégrations intéressantes, voir [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Parmi les exemples d’offres de partenaire existantes, citons les intégrations avec [!DNL Salesforce.com], [!DNL Oracle Responsys], et [!DNL Microsoft Visual Studio]. Pour plus d’informations sur ces intégrations et d’autres intégrations intéressantes, voir [[!DNL Workfront] Marché](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## [!DNL Workfront] API
 
-Le [!DNL Workfront] L’API vous permet d’étendre et d’améliorer votre [!DNL Workfront] Expérience en exploitant notre API publique. Vous pouvez créer vos propres intégrations à l’aide de notre API ouverte. Pour obtenir une liste détaillée des objets disponibles dans le [!DNL Workfront] API, voir [!DNL Workfront] [Explorateur d’API](../../wf-api/general/api-explorer.md).
+La variable [!DNL Workfront] L’API vous permet d’étendre et d’améliorer votre [!DNL Workfront] expérience en exploitant notre API publique. Vous pouvez créer vos propres intégrations à l’aide de notre API ouverte. Pour obtenir une liste détaillée des objets disponibles dans le [!DNL Workfront] API, voir [!DNL Workfront] [Explorateur d’API](../../wf-api/general/api-explorer.md).

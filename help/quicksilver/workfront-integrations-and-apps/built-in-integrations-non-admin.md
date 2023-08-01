@@ -6,9 +6,9 @@ title: Présentation des intégrations intégrées d’Adobe Workfront
 description: Vous pouvez intégrer des [!DNL Adobe Workfront] avec des applications tierces. Ces intégrations peuvent étendre l’utilité de [!DNL Workfront] et adaptez-le aux besoins de votre organisation. Par exemple, si vous êtes un créatif du secteur marketing, vous pouvez utiliser le module complémentaire Adobe Creative Cloud pour exporter directement des ressources de Photoshop vers Workfront.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
+source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Les intégrations intégrées suivantes sont actuellement disponibles dans Workf
    <td> 
     <ul> 
      <li> <p>Intégrez à une version web d’Outlook hébergée dans le cloud Office 365 ou Outlook Live. </p> </li> 
-     <li> <p>Afficher tous les événements de votre [!DNL Outlook] calendrier et les calendriers associés que vous sélectionnez, tels que les calendriers d’anniversaire et de vacances, dans votre calendrier d’accueil.</p>  <p>Remarque : La configuration du calendrier Outlook est complètement distincte du module complémentaire Outlook (Intégration Outlook ou Workfront pour Outlook). Aucune installation n’est nécessaire pour configurer le calendrier.</p></li> 
+     <li> <p>Afficher tous les événements de votre [!DNL Outlook] calendrier et les calendriers associés que vous sélectionnez, tels que les calendriers d’anniversaire et de vacances, dans votre calendrier d’accueil.</p>  <p>Remarque : La configuration du calendrier Outlook est complètement distincte du module complémentaire Outlook (Intégration Outlook ou Workfront pour Outlook). Aucune installation n’est requise pour configurer le calendrier.</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Les intégrations intégrées suivantes sont actuellement disponibles dans Workf
    <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Mise à jour d’un projet/d’une tâche/d’un problème existant à l’aide d’informations provenant d’un courrier électronique </li> 
+     <li>Mise à jour d’un projet/d’une tâche/d’un problème existant à l’aide des informations d’un courrier électronique </li> 
      <li>Convertir des emails en [!DNL Workfront] éléments directement dans votre boîte de réception </li> 
      <li>Créer de nouvelles tâches à partir d’un email </li> 
      <li>Commentaire sur [!DNL Workfront] items </li> 
@@ -113,7 +113,7 @@ Les intégrations intégrées suivantes sont actuellement disponibles dans Workf
     <ul> 
      <li>Get [!DNL Workfront] notifications dans [!DNL Microsoft Teams] </li> 
      <li>Prendre des décisions d’approbation </li> 
-     <li>Rechercher [!DNL Workfront] projets, tâches et problèmes </li> 
+     <li>Recherchez [!DNL Workfront] projets, tâches et problèmes </li> 
      <li>Créer [!DNL Workfront] tâches personnelles </li> 
      <li>Envoyer [!DNL Workfront] requests </li> 
     </ul> </td> 
@@ -140,7 +140,7 @@ Les intégrations intégrées suivantes sont actuellement disponibles dans Workf
      <li>Recevoir [!DNL Workfront] notifications dans [!DNL Slack] </li> 
      <li>Gestion des approbations dans Slack </li> 
      <li>Créer [!DNL Workfront] tâches et problèmes de [!DNL Slack] </li> 
-     <li>Publication de commentaires sur un projet ou une tâche à partir d’un Slack</li> 
+     <li>Publication de commentaires sur un projet ou une tâche depuis un Slack</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -148,13 +148,6 @@ Les intégrations intégrées suivantes sont actuellement disponibles dans Workf
    <td> 
     <ul> 
      <li>Liaison de documents et de dossiers à [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM*</td> 
-   <td> 
-    <ul> 
-     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Liaison de ressources numériques à [!DNL Workfront]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -169,7 +162,7 @@ Les intégrations intégrées suivantes sont actuellement disponibles dans Workf
  </tbody> 
 </table>
 
-&#42;Disponible contre un coût supplémentaire.
+&#42;Cette option est proposée moyennant des frais supplémentaires.
 
 ## Autre [!DNL Workfront] intégrations
 
