@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '7336'
+source-wordcount: '7315'
 ht-degree: 2%
 
 ---
@@ -57,10 +57,8 @@ Vous pouvez modifier un projet dans Adobe Workfront aussi souvent que nécessair
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
-     <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+     <p>Manage permissions to a project </p> 
+     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,10 +85,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> 
-    <ul> 
-     <li> <p>Attribuez des autorisations à un projet pour le modifier dans la zone Détails du projet. </p> </li> 
-     <li> <p>Gérer les autorisations d’un projet pour le modifier dans la zone Modifier le projet</p> </li> 
-    </ul> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partage d’un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+    <p>Gestion des autorisations d’un projet </p> 
+    <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partage d’un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -164,7 +160,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
 
    Dans une liste de projets, sélectionnez un projet, puis cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png) en haut de la liste.
 
-   Le **Modifier le projet** s’ouvre.
+   La variable **Modifier le projet** s’ouvre.
 
    >[!IMPORTANT]
    >
@@ -176,7 +172,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
    >
    >Selon la manière dont votre administrateur Workfront ou l’administrateur de groupe a modifié votre modèle de mise en page, les zones du panneau de gauche de la boîte de dialogue Modifier le projet ou les champs répertoriés dans ces zones peuvent être réorganisées ou ne pas s’afficher. Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Conditionnel) Si vous avez cliqué sur la variable **Plus** puis **Modifier**, envisagez de mettre à jour les informations dans l’une des zones suivantes répertoriées dans le panneau de gauche :
+1. (Conditionnel) Si vous avez cliqué sur la variable **Plus** puis **Modifier**, envisagez de mettre à jour les informations dans l’une des zones suivantes du panneau de gauche :
 
    * [Nom du projet](#project-name)
    * [Vue d’ensemble](#overview)
@@ -221,7 +217,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Statut</strong> </td> 
-      <td> <p>Sélectionnez l’état du projet. Vous ne pouvez pas marquer un projet comme terminé avant que toutes les tâches et tous les problèmes ne soient terminés. Pour plus d’informations sur les états d’un projet, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Accéder à la liste des états du projet système</a></p> </td> 
+      <td> <p>Sélectionnez l’état du projet. Vous ne pouvez pas marquer un projet comme terminé avant que toutes les tâches et tous les problèmes ne soient terminés. Pour plus d’informations sur les états d’un projet, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Accéder à la liste des états des projets système</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priorité</strong> </td> 
@@ -241,14 +237,14 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condition</strong> </td> 
-      <td> <p> <p>(S’affiche uniquement une fois que vous avez sélectionné <strong>Manuel</strong> pour le <strong>Type de condition</strong>) : Sélectionnez une condition pour indiquer le déroulement du projet. </p> <p>Pour plus d’informations sur la façon dont les conditions du projet peuvent être définies automatiquement ou manuellement, voir <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation de la condition et du type de condition du projet</a></p> </p> </td> 
+      <td> <p> <p>(S’affiche uniquement après avoir sélectionné <strong>Manuel</strong> pour le <strong>Type de condition</strong>) : sélectionnez une condition pour indiquer le déroulement du projet. </p> <p>Pour plus d’informations sur la façon dont les conditions du projet peuvent être définies automatiquement ou manuellement, voir <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation de la condition et du type de condition du projet</a></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mode horaire</strong> </td> 
       <td> <p>Indiquez si le projet est planifié à partir de la date de début ou de la date de fin. Cette sélection détermine les dates planifiées des tâches du projet. 
        <ul> 
-       <li><strong>Date de début</strong>: La première tâche du projet a par défaut la même date de début planifiée que le projet. Pour plus d’informations sur la date de début planifiée de la tâche, voir <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Présentation de la tâche Date de début planifiée</a>. La chronologie du projet est calculée à partir de la Date de début et la Date de fin du projet est calculée par le système, en fonction de la durée de toutes les tâches. </li> 
-       <li><strong>Date d’achèvement</strong>: La dernière tâche du projet a la même date d’achèvement planifiée que celle du projet. La chronologie du projet est calculée à partir de la date de fin et la date de début du projet est calculée par le système, en soustrayant la durée de toutes les tâches de la date de fin du projet. </li> 
+       <li><strong>Date de début</strong>: par défaut, la première tâche du projet a la même date de début planifiée que celle du projet. Pour plus d’informations sur la date de début planifiée de la tâche, voir <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Présentation de la tâche Date de début planifiée</a>. La chronologie du projet est calculée à partir de la Date de début et la Date de fin du projet est calculée par le système, en fonction de la durée de toutes les tâches. </li> 
+       <li><strong>Date d’achèvement</strong>: la date de fin planifiée de la dernière tâche du projet est la même que celle du projet. La chronologie du projet est calculée à partir de la date de fin et la date de début du projet est calculée par le système, en soustrayant la durée de toutes les tâches de la date de fin du projet. </li> 
        </ul><p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne le paramètre Mode de planification par défaut pour votre système ou votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p></p> </td> 
      </tr> 
      <tr> 
@@ -269,7 +265,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Groupe</strong></td> 
-      <td> <p> <p>Indiquez le nom du groupe associé au projet. </p>Champ obligatoire. Vous ne pouvez pas avoir de projet qui n’est pas associé à un groupe. </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône d’information. <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> Par défaut, l’un des groupes suivants est automatiquement associé à un projet lors de sa création, sauf si vous spécifiez un autre groupe :</p> 
+      <td> <p> <p>Indiquez le nom du groupe associé au projet. </p>Champ obligatoire. Un projet ne peut pas être associé à un groupe. </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône d’information. <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> Par défaut, l’un des groupes suivants est automatiquement associé à un projet lors de sa création, sauf si vous spécifiez un autre groupe :</p> 
        <ul> 
        <li> <p><span>Lorsque le projet est créé à partir de la zone Projets , le groupe d’accueil du créateur du projet est associé au projet.</span> </p> <p>C’est également le cas lorsque le projet est créé à partir de la section Projets d’un portfolio ou d’un programme.</p> </li> 
        <li> <p>Lorsque le projet est créé à partir de la page principale d’un groupe dans la zone Configuration, ce groupe est associé au projet.</p> </li> 
@@ -325,14 +321,14 @@ Selon votre niveau d’accès et votre autorisation sur le projet, les scénario
 * Si vous disposez de l’accès Affichage (et non Modifier) à une section sur un formulaire personnalisé, vous ne pouvez pas modifier les champs de cette section.
 * Si vous n’avez pas accès à une section sur l’un des formulaires personnalisés associés au projet, la section ne s’affiche pas dans la zone Modifier le projet .
 
-Lorsque vous sélectionnez plusieurs projets pour les modifier en bloc, les scénarios suivants se présentent :
+Lors de la sélection de plusieurs projets pour les modifier en bloc, les scénarios suivants se présentent :
 
 * Si vous ne disposez pas des autorisations Modifier le formulaire personnalisé pour au moins un des projets sélectionnés, vous ne pouvez pas modifier les champs des formulaires personnalisés joints. Vous ne pouvez afficher que les champs des formulaires personnalisés joints
 * Si vous disposez de l’accès Affichage (et non Modifier) à une section sur un formulaire personnalisé, vous ne pouvez pas modifier les champs de cette section. Vous pouvez uniquement afficher les champs de cette section.
 * Si vous n’avez pas accès à une section sur l’un des formulaires personnalisés associés à au moins un des projets, la section ne s’affiche pas dans la zone Modifier les projets .
 * Si vous avez besoin de champs sur l’un des formulaires personnalisés associés à tous les projets et que vous sélectionnez un champ sans le modifier réellement, vous devez ignorer vos modifications dans ce champ ou y ajouter des informations avant de pouvoir enregistrer les projets que vous avez sélectionnés. Si vous ne sélectionnez pas de champ obligatoire, vous pouvez enregistrer les projets que vous avez sélectionnés même si le champ requis est vide.
 
-Pour plus d’informations sur l’accès aux formulaires personnalisés, consultez les articles suivants :
+Pour plus d’informations sur l’accès aux formulaires personnalisés, reportez-vous aux articles suivants :
 
 * [Partage d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
 * [Ajout d’un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
@@ -396,7 +392,7 @@ Pour modifier les champs de la zone Finance :
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Méthode d’indice de performance</strong> </td> 
-      <td> <p>Sélectionner <b>Basé sur l’heure</b>ou <b>Basé sur les coûts</b> pour indiquer si les mesures Valeur gagnée du projet (telles que l’indice de performance des coûts ou le coût réel estimé) sont calculées à l’aide des heures ou des coûts. </p> <p>Pour plus d’informations sur la méthode d’index de performance, voir <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Définition de la méthode d’index de performance (PIM)</a>. </p> <p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne le paramètre Méthode d’index de performance par défaut pour votre système ou votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </td> 
+      <td> <p>Sélectionner <b>Basé sur l’heure</b>, ou <b>Basé sur les coûts</b> pour indiquer si les mesures Valeur gagnée du projet (telles que l’indice de performance des coûts ou le coût réel estimé) sont calculées à l’aide des heures ou des coûts. </p> <p>Pour plus d’informations sur la méthode d’index de performance, voir <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Définition de la méthode d’index de performance (PIM)</a>. </p> <p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne le paramètre Méthode d’index de performance par défaut pour votre système ou votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Estimation à l'achèvement</strong> </td> 
@@ -452,16 +448,16 @@ Pour modifier les champs de la zone Finance :
       <td role="rowheader"><strong>Mode d'achèvement</strong> </td> 
       <td> <p>Contrôle la manière dont le projet est marqué comme terminé. Sélectionnez l’une des options suivantes : 
        <ul> 
-       <li><p><strong>Automatique</strong>: Le projet est marqué Terminé lorsque toutes les tâches et tous les problèmes sont terminés.</p><p>L’état du projet est automatiquement modifié en Terminé uniquement lorsque l’état du projet est Actuel lorsque les tâches sont terminées. </p></li> 
-       <li><strong>Manuel</strong>: Vous devez sélectionner manuellement l’état Terminé du projet, une fois toutes les tâches et tous les problèmes terminés.</li> 
+       <li><p><strong>Automatique</strong>: le projet est marqué Terminé lorsque toutes les tâches et tous les problèmes sont terminés.</p><p>L’état du projet est automatiquement modifié en Terminé uniquement lorsque l’état du projet est Actuel lorsque les tâches sont terminées. </p></li> 
+       <li><strong>Manuel</strong>: lorsque toutes les tâches et tous les problèmes sont terminés, vous devez sélectionner manuellement l’état Terminé du projet.</li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Mode d'achèvement du sommaire</strong></td> 
        <td> <p>Contrôle la manière dont les tâches parents sont marquées comme étant terminées. Sélectionnez l’une des options suivantes : 
        <ul> 
-       <li><strong>Automatique</strong>: Les tâches parentes sont marquées comme Terminé et elles mettent à jour leur pourcentage automatiquement, à mesure que les tâches enfants sont terminées et que le pourcentage d’enfants terminés est mis à jour. </li> 
-       <li><strong>Manuel</strong>: Vous devez mettre à jour manuellement le pourcentage terminé et l’état des tâches parents, indépendamment des modifications apportées aux tâches enfants.</li> 
+       <li><strong>Automatique</strong>: les tâches parentes sont marquées comme Terminé et elles mettent à jour leur pourcentage automatiquement, à mesure que les tâches enfants sont terminées et que le pourcentage d’enfants terminés est mis à jour. </li> 
+       <li><strong>Manuel</strong>: vous devez mettre à jour manuellement le pourcentage terminé et l’état des tâches parents, indépendamment des modifications apportées aux tâches enfants.</li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -470,7 +466,7 @@ Pour modifier les champs de la zone Finance :
        <ul> 
        <li>Mise à jour des dates des tâches</li> 
        <li>Modifier les relations de prédécesseur des tâches</li> 
-       <li><p>Modifiez les relations parent-enfant, en ajoutant ou en supprimant des affectations, en plus de modifier la contrainte de tâche ou le type de durée.</p><p>Lorsque les tâches sont mises à jour, leurs objets parents (tâches parents ou projet) sont mis à jour au moment indiqué par le Type de mise à jour. </p><p>Si les objets parents ne se mettent pas à jour immédiatement après la modification lors de la sélection de l’option Type de mise à jour "Automatique et En cas de modification" ou "Modifier uniquement", actualisez la page.</p><p>Sélectionnez l’une des options suivantes : </p><p>- <strong>Automatique et Activé</strong> (Paramètre par défaut) : La chronologie du projet est mise à jour chaque fois qu’une modification se produit dans le projet ou dans un autre projet dont le projet dépend (En cas de modification). La chronologie du projet est également mise à jour chaque nuit (automatique).</p><p>Il s’agit du paramètre recommandé pour ce champ, car il garantit que le projet est toujours à jour.</p><p>Lorsque vous effectuez une action sur une tâche ou un projet qui déclenche un nouveau calcul de frise chronologique, toutes les dates disponibles sont immédiatement affichées, ce qui vous permet de continuer à travailler. Sur les projets comportant plus de 100 tâches, les dates nécessitant des nouveaux calculs plus longs s’affichent brièvement comme point d’interrogation (entre 1 et 5 secondes, ou jusqu’à une minute pour les projets volumineux). Cela indique que le recalcul n'est pas encore terminé et que les dates peuvent être modifiées.</p><p>- <strong>Modifier uniquement</strong>: La chronologie du projet est mise à jour chaque fois qu’une modification se produit dans le projet ou dans un autre projet dont le projet dépend. Vous pouvez sélectionner cette option si des modifications se produisent rarement dans le projet ou dans d’autres projets dont dépend la chronologie.</p><p>- <strong>Automatique uniquement</strong>: La chronologie du projet est actualisée chaque nuit. la frise chronologique n’est pas mise à jour immédiatement après les modifications.</p><p>Vous pouvez sélectionner cette option si de nombreuses modifications se produisent chaque jour dans le projet ou dans d’autres projets dont dépend la chronologie. Sachez toutefois que vous avez choisi ce paramètre, car le projet ne se mettra pas à jour en même temps que les modifications sont effectuées.</p><p>- <strong>Manuel uniquement</strong>: La chronologie du projet n’est mise à jour que si vous sélectionnez l’option permettant de recalculer la chronologie. Pour plus d’informations sur le nouveau calcul manuel de la chronologie du projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculer les calendriers du projet</a>. </p><p>Vous pouvez sélectionner cette option si vous apportez simultanément de nombreuses modifications au projet et si vous souhaitez que le recalcul de la chronologie se produise une fois toutes les modifications effectuées (plutôt qu’après chaque modification individuelle).</p></li> 
+       <li><p>Modifiez les relations parent-enfant, en ajoutant ou en supprimant des affectations, en plus de modifier la contrainte de tâche ou le type de durée.</p><p>Lorsque les tâches sont mises à jour, leurs objets parents (tâches parents ou projet) sont mis à jour au moment indiqué par le Type de mise à jour. </p><p>Si les objets parents ne se mettent pas à jour immédiatement après la modification lors de la sélection de l’option Type de mise à jour "Automatique et En cas de modification" ou "Modifier uniquement", actualisez la page.</p><p>Sélectionnez l’une des options suivantes : </p><p>- <strong>Automatique et Activé</strong> (Paramètre par défaut) : la chronologie du projet est mise à jour chaque fois qu’une modification se produit dans le projet ou dans un autre projet dont le projet dépend (Activé). La chronologie du projet est également mise à jour chaque nuit (automatique).</p><p>Il s’agit du paramètre recommandé pour ce champ, car il garantit que le projet est toujours à jour.</p><p>Lorsque vous effectuez une action sur une tâche ou un projet qui déclenche un nouveau calcul de frise chronologique, toutes les dates disponibles sont immédiatement affichées, ce qui vous permet de continuer à travailler. Sur les projets comportant plus de 100 tâches, les dates nécessitant des nouveaux calculs plus longs s’affichent brièvement comme point d’interrogation (entre 1 et 5 secondes, ou jusqu’à une minute pour les projets volumineux). Cela indique que le recalcul n'est pas encore terminé et que les dates peuvent être modifiées.</p><p>- <strong>Modifier uniquement</strong>: la chronologie du projet est mise à jour chaque fois qu’une modification se produit dans le projet ou dans un autre projet dont le projet dépend. Vous pouvez sélectionner cette option si des modifications se produisent rarement dans le projet ou dans d’autres projets dont dépend la chronologie.</p><p>- <strong>Automatique uniquement</strong>: la chronologie du projet est mise à jour chaque nuit ; la chronologie n’est pas mise à jour immédiatement une fois les modifications effectuées.</p><p>Vous pouvez sélectionner cette option si de nombreuses modifications se produisent chaque jour dans le projet ou dans d’autres projets dont dépend la chronologie. Sachez toutefois que vous avez choisi ce paramètre, car le projet ne se mettra pas à jour en même temps que les modifications sont effectuées.</p><p>- <strong>Manuel uniquement</strong>: la chronologie du projet n’est mise à jour que lorsque vous sélectionnez l’option Recalculer la chronologie. Pour plus d’informations sur le nouveau calcul manuel de la chronologie du projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculer les calendriers du projet</a>. </p><p>Vous pouvez sélectionner cette option si vous apportez simultanément de nombreuses modifications au projet et si vous souhaitez que le recalcul de la chronologie se produise une fois toutes les modifications effectuées (plutôt qu’après chaque modification individuelle).</p></li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -479,21 +475,21 @@ Pour modifier les champs de la zone Finance :
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Congés de l'utilisateur</strong> </td> 
-       <td> <p>Détermine si le délai de désactivation du cessionnaire Principal d’une tâche ajuste les dates planifiées de la tâche sur le projet. </p><p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne la valeur par défaut de ce paramètre pour votre système. <span>ou votre groupe</span>. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p><p>Sélectionnez l’une des options suivantes :<br>- <strong>Tenir compte du temps d’arrêt de l’utilisateur dans les durées de tâche</strong>: Lorsque vous sélectionnez cette option, les dates planifiées des tâches s’ajustent en fonction de l’heure de désactivation de la personne désignée Principal de la tâche, si l’heure de désactivation a lieu pendant la durée de la tâche. </p><p>Par exemple, si une tâche avec une contrainte de la date Dès que possible doit commencer le 1er juin et se terminer le 3 juin, et que la personne désignée Principal a le 2 juin marqué comme étant en pause, lorsque cette sélection est activée, les dates prévues de la tâche sont comprises entre le 1er et le 4 juin. Selon la contrainte de tâche, les scénarios suivants existent : </p> 
+       <td> <p>Détermine si le délai de désactivation du cessionnaire Principal d’une tâche ajuste les dates planifiées de la tâche sur le projet. </p><p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne la valeur par défaut de ce paramètre pour votre système. <span>ou votre groupe</span>. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p><p>Sélectionnez l’une des options suivantes :<br>- <strong>Tenir compte du temps d’arrêt de l’utilisateur dans les durées de tâche</strong>: lorsque vous sélectionnez cette option, les dates planifiées des tâches s’ajustent en fonction de l’heure de désactivation de la personne désignée Principal de la tâche, si l’heure de désactivation a lieu pendant la durée de la tâche. </p><p>Par exemple, si une tâche avec une contrainte de la date Dès que possible doit commencer le 1er juin et se terminer le 3 juin, et que la personne désignée Principal a le 2 juin marqué comme étant en pause, lorsque cette sélection est activée, les dates prévues de la tâche sont comprises entre le 1er et le 4 juin. Selon la contrainte de tâche, les scénarios suivants existent : </p> 
        <ul> 
        <li>Pour les contraintes de tâche liées à la planification à partir d’une date de début (dès que possible, l’heure disponible la plus tôt, le début le plus tôt possible, le début le plus tard, le début le plus tard), la date de début planifiée ne change pas, mais la date de fin planifiée change.</li> 
        <li>Pour les contraintes de tâche liées à la planification à partir d’une date d’achèvement (Aussi tard que possible, heure disponible la plus récente, Terminer au plus tôt, Terminer au plus tard, Doit se terminer le), la date d’achèvement planifiée ne change pas, mais la date de début planifiée change.</li> 
        <li>Pour les tâches avec une contrainte de dates fixes, ni la date de début planifiée ni la date de fin ne changent. </li> 
-       </ul><p>La Durée de la tâche ne change pas lorsque vous sélectionnez ce paramètre. Seules les dates planifiées changent, en fonction de la contrainte de tâche. Pour plus d’informations sur la contrainte de tâche, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Présentation de la contrainte de tâche</a>. </p><p>- <strong>Ignorer le temps d’arrêt des utilisateurs dans les durées de tâche</strong>: Lorsque vous sélectionnez cette option, les dates planifiées des tâches du projet restent telles que prévues initialement, même si le cessionnaire Principal de la tâche a expiré pendant la durée de la tâche. </p><p>Tenez compte des points suivants lors de la sélection des options de ce paramètre :</p> 
+       </ul><p>La Durée de la tâche ne change pas lorsque vous sélectionnez ce paramètre. Seules les dates planifiées changent, en fonction de la contrainte de tâche. Pour plus d’informations sur la contrainte de tâche, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Présentation de la contrainte de tâche</a>. </p><p>- <strong>Ignorer le temps d’arrêt des utilisateurs dans les durées de tâche</strong>: lorsque vous sélectionnez cette option, les dates planifiées des tâches du projet restent telles que prévues initialement, même si le cessionnaire Principal de la tâche a expiré pendant la durée de la tâche. </p><p>Tenez compte des points suivants lors de la sélection des options de ce paramètre :</p> 
        <ul> 
-       <li><p>L’option par défaut de ce paramètre pour un nouveau projet est identique à la préférence de projet au niveau du système. </p><p>Pour plus d’informations sur les préférences du projet au niveau du système, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p></li> 
+       <li><p>L’option par défaut de ce paramètre pour un nouveau projet est la même que la préférence de projet au niveau du système. </p><p>Pour plus d’informations sur les préférences du projet au niveau du système, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p></li> 
        <li>Lorsque vous joignez un modèle à un projet existant, le paramètre du projet est mis à jour pour correspondre à celui du modèle. </li> 
        <li><p>Workfront décide des dates de tâche planifiées à ajuster en fonction de la valeur Contrainte de tâche de la tâche. En fonction de ce qui se passe, le début planifié ou la date d’achèvement prévu, ou les deux, peuvent être affectés, ou peuvent même rester identiques. Par exemple, si une tâche présente une contrainte de dates fixes, les dates ne s’ajustent pas lorsque le cessionnaire Principal a un délai d’expiration, même lorsque <strong>Tenir compte du temps d’arrêt de l’utilisateur dans les durées de tâche</strong> est sélectionnée. </p></li> 
        </ul></td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Mode de nivellement des ressources</strong> </td> 
-       <td> <p> <p>Sélectionnez l’une des options suivantes :</p> <p>- <strong>Manuel</strong>: vous devez mettre à niveau manuellement vos ressources (il s’agit du paramètre par défaut).</p> <p>- <strong>Automatique</strong>: Workfront met à niveau vos ressources.</p> <p>Pour plus d’informations sur le niveau de ressource, voir <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Ressources de niveau dans le diagramme de Gantt </a>.</p> </p> </td> 
+       <td> <p> <p>Sélectionnez l’une des options suivantes :</p> <p>- <strong>Manuel</strong>: vous devez mettre à niveau manuellement vos ressources (paramètre par défaut).</p> <p>- <strong>Automatique</strong>: Workfront met à niveau vos ressources.</p> <p>Pour plus d’informations sur le niveau de ressource, voir <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Ressources de niveau dans le diagramme de Gantt </a>.</p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Risque</strong> </td> 
@@ -517,7 +513,7 @@ Pour modifier les champs de la zone Finance :
        <ul> 
        <li> <p>Sélectionner <strong>Non</strong> pour rendre tous les types d’heures spécifiques au projet disponibles sur le projet. (Il s’agit de la sélection par défaut)</p> <p>Ou</p> </li> 
        <li>Sélectionner <strong>Oui</strong> pour rendre disponible uniquement un sous-ensemble des types d’heures spécifiques au projet, sélectionnez les types d’heures à rendre disponibles. (Maintenez la touche Maj enfoncée pour sélectionner plusieurs types d’heures.)</li> 
-       <p>Si vous sélectionnez cette option, seuls les types d’heures que vous sélectionnez sont disponibles lors de la journalisation des heures sur le projet (ou sur les tâches et problèmes dans le projet). Vous devez sélectionner au moins une heure ; si vous sélectionnez cette option et que vous ne sélectionnez aucun type d’heure, tous les types d’heure sont disponibles sur le projet.</p> </ul>
+       <p>Si vous sélectionnez cette option, seuls les types d’heures que vous sélectionnez sont disponibles lors de la journalisation des heures sur le projet (ou sur les tâches et problèmes dans le projet). Vous devez sélectionner au moins un type d’heure. Si vous sélectionnez cette option et que vous ne sélectionnez aucun type d’heure, tous les types d’heure sont disponibles sur le projet.</p> </ul>
 
    <p>Les mêmes sélections de type heure doivent être effectuées au niveau de chaque utilisateur pour que l’utilisateur puisse voir ces options de type heure sur le projet. Pour plus d’informations sur la définition des types d’heures au niveau de l’utilisateur, voir <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Temps de connexion</a>. </p> </p> </td> 
       </tr> 
@@ -570,7 +566,7 @@ Pour plus d’informations sur l’impact de ces paramètres sur la création de
    * Lorsque vous sélectionnez plusieurs projets de différents groupes, seuls les processus d’approbation des tâches au niveau du système s’affichent dans ce champ.
 
 1. Dans le **Task Default Custom Forms** sélectionnez le ou les formulaires personnalisés à associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
-1. (Facultatif) Sélectionnez **Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche** si vous souhaitez activer la gestion de l’effort de tâche à l’aide de l’effort de travail au lieu des heures planifiées.
+1. (Facultatif) Sélectionnez **Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche** si vous souhaitez activer la gestion de l’effort de tâche en utilisant Effort de travail au lieu des Heures planifiées.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
 
@@ -643,7 +639,7 @@ Pour plus d’informations sur l’impact de ces paramètres sur la création de
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Accordez également l’accès au projet</strong></td> 
-      <td><p>Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>ou <strong>Gérer</strong> accès au projet. L’utilisateur affecté à une tâche se voit également automatiquement octroyer cet accès au projet.<br></p></td> 
+      <td><p>Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>, ou <strong>Gérer</strong> accès au projet. L’utilisateur affecté à une tâche se voit également automatiquement octroyer cet accès au projet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Lorsqu’une personne est affectée à un problème</strong></td> 
@@ -651,19 +647,19 @@ Pour plus d’informations sur l’impact de ces paramètres sur la création de
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Accordez également l’accès au projet</strong></td> 
-      <td><p>Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>ou <strong>Gérer</strong> accès au projet. L’utilisateur affecté à un problème se voit également automatiquement octroyer cet accès au projet.<br></p></td> 
+      <td><p>Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>, ou <strong>Gérer</strong> accès au projet. L’utilisateur affecté à un problème se voit également automatiquement octroyer cet accès au projet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Lorsqu’une personne envoie une demande : Accorder leur accès</strong></td> 
-      <td><p>Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>ou <strong>Gérer</strong> accès à la requête. Lorsque le projet est également une file d’attente de demandes et qu’un utilisateur envoie une demande au projet, il se voit accorder cet accès à la demande qu’il a envoyée. Pour plus d’informations sur la configuration d’un projet en tant que file d’attente de requêtes, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>.<br></p></td> 
+      <td role="rowheader"><strong>Lorsqu’une personne envoie une demande : donnez-lui un accès</strong></td> 
+      <td><p>Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>, ou <strong>Gérer</strong> accès à la requête. Lorsque le projet est également une file d’attente de demandes et qu’un utilisateur envoie une demande au projet, il se voit accorder cet accès à la demande qu’il a envoyée. Pour plus d’informations sur la configuration d’un projet en tant que file d’attente de requêtes, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Les personnes appartenant à la même entreprise hériteront d'autorisations identiques pour toutes les demandes</strong></td> 
       <td><p>Sélectionnez ce champ si vous souhaitez que les personnes de la même société aient le même accès à toutes les demandes du projet, qu’elles les aient soumises ou non.<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Lorsqu’une personne a accès à ce projet : Donnez-leur accès à ...</strong></td> 
-      <td><p>Sélectionnez les options d’accès que vous souhaitez que les utilisateurs disposent sur le projet, si le projet est partagé avec eux. Sélectionnez les options d’accès spécifiques si elles sont désignées comme <strong>Visionneuses</strong>, <strong>Contributeurs</strong>ou <strong>Chefs</strong> lors du partage du projet avec eux. </p><p>Le <strong>Supprimer</strong> dans le <strong>Gérer</strong> le niveau d’autorisation détermine si les utilisateurs peuvent supprimer le projet lui-même. Utilisateurs avec <strong>Gérer</strong> l’accès au projet peut supprimer des tâches et des problèmes au sein du projet, que cette option soit sélectionnée ou non, s’ils disposent de <strong>Gérer</strong> autorisations pour les tâches et les problèmes. </p></td> 
+      <td role="rowheader"><strong>Lorsqu'une personne a accès à ce projet : lui donner accès à ...</strong></td> 
+      <td><p>Sélectionnez les options d’accès que vous souhaitez que les utilisateurs disposent sur le projet, si le projet est partagé avec eux. Sélectionnez les options d’accès spécifiques si elles sont désignées comme <strong>Visionneuses</strong>, <strong>Contributeurs</strong>, ou <strong>Chefs</strong> lors du partage du projet avec eux. </p><p>La variable <strong>Supprimer</strong> dans le <strong>Gérer</strong> le niveau d’autorisation détermine si les utilisateurs peuvent supprimer le projet lui-même. Utilisateurs avec <strong>Gérer</strong> l’accès au projet peut supprimer des tâches et des problèmes au sein du projet, que cette option soit sélectionnée ou non, s’ils disposent de <strong>Gérer</strong> autorisations pour les tâches et les problèmes. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -739,7 +735,7 @@ Pour modifier des projets en bloc :
 1. Cliquez sur **Projets**.
 1. Sélectionnez plusieurs projets dans la liste.
 1. Cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png) en haut de la liste.
-Le **Modifier des projets** s’ouvre.
+La variable **Modifier des projets** s’ouvre.
 
    ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -749,7 +745,7 @@ Selon la manière dont votre administrateur Workfront ou l’administrateur de g
 
    >[!TIP]
    >
-   >Les champs que vous modifiez s’affichent avec un arrière-plan clair violet.
+   >Les champs que vous éditez s&#39;affichent avec un arrière-plan clair violet.
 
 1. Cliquez sur **Forms personnalisée** pour modifier, ajouter ou remplacer des formulaires personnalisés associés aux projets sélectionnés.
 
@@ -796,7 +792,7 @@ Pour plus d’informations sur la modification de la zone Accès, voir la sectio
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
-1. (Facultatif) Cliquez sur **Annuler** au bas de la **Modification de projets** pour supprimer toutes les modifications apportées à tous les projets.
+1. (Facultatif) Cliquez sur **Annuler** au bas de la page **Modification de projets** pour supprimer toutes les modifications apportées à tous les projets.
 1. Cliquer sur **Enregistrer**.
 
 

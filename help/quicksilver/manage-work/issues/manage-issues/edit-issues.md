@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2504'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,13 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Attribuez des autorisations à un problème pour le modifier dans la zone Détails du problème. </p> <p>Gérer les autorisations d’un problème pour le modifier dans la zone Modifier le problème</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a></p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Attribuez des autorisations à un problème pour modifier les champs suivants dans la zone Détails : </p>
+   <ul>
+   <li>Description</li>
+   <li>Statut</li>
+   <li>Gravité</li>
+   </ul>
+   <p>Gérez les autorisations liées à un problème pour modifier tous les champs de la zone Détails ou de la zone Modifier le problème .</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a></p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +71,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
 1. Accédez au **Menu Principal**.
 1. Cliquez sur **Projets**, puis cliquez sur le nom d’un projet pour l’ouvrir.
-1. (Facultatif) Cliquez sur **Tâches** , puis cliquez sur le nom d’une tâche pour l’ouvrir.
+1. (Facultatif) Cliquez sur **Tâche** , puis cliquez sur le nom d’une tâche pour l’ouvrir.
 1. Cliquez sur **Problèmes** dans le panneau de gauche.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
@@ -103,7 +109,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
    Cliquez sur le nom d’un problème dans une liste, puis cliquez sur le bouton **Plus** en regard du nom du problème, puis **Modifier.**
 
-   Le **Modifier le problème** s’affiche.
+   La variable **Modifier le problème** s’affiche.
 
    >[!IMPORTANT]
    >
@@ -153,7 +159,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
       <td> <p>Ajoutez des informations supplémentaires sur le problème.</p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader">Section d’informations de base</td> 
+      <td colspan="2" role="rowheader">Section Informations de base</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Statut</td> 
@@ -172,7 +178,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
      </tr> 
      <tr> 
       <td role="rowheader">Gravité</td> 
-      <td> <p>Ceci est un indicateur visuel qui indique la gravité du problème décrit dans le problème. Les problèmes de gravité sont spécifiques. Sélectionnez l’une des options suivantes :</p> 
+      <td> <p>Il s’agit d’un indicateur visuel qui indique la gravité du problème décrit dans le problème. Les problèmes de gravité sont spécifiques. Sélectionnez l’une des options suivantes :</p> 
        <ul> 
         <li> <p style="font-weight: bold;">Décoratif</p> </li> 
         <li> <p style="font-weight: bold;">Cause de la confusion</p> </li> 
@@ -197,7 +203,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
      </tr> 
      <tr> 
       <td role="rowheader">Contact principal</td> 
-      <td>Par défaut, le contact Principal est le créateur du problème. Pour le modifier, commencez à saisir le nom de tout utilisateur principal dans Workfront, puis sélectionnez-le dans la liste. Un problème ne peut avoir qu’un seul contact Principal.<br> Si vous modifiez le contact Principal, le contact Principal d’origine a toujours l’accès Gérer au problème. Lorsque vous partagez un problème, vous devez supprimer manuellement cet accès de la zone Accès au problème .
+      <td>Par défaut, le contact Principal est le créateur du problème. Pour modifier ce nom, commencez à saisir le nom de tout utilisateur principal dans Workfront, puis sélectionnez-le dans la liste. Un problème ne peut avoir qu’un seul contact Principal.<br> Si vous modifiez le contact Principal, le contact Principal d’origine a toujours l’accès Gérer au problème. Lorsque vous partagez un problème, vous devez supprimer manuellement cet accès de la zone Accès au problème .
 
    <b>CONSEIL</b>
 
@@ -224,7 +230,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
       <td>La date de début réelle est automatiquement renseignée lorsque vous définissez l’état du problème sur <strong>En cours</strong>. Vous pouvez mettre à jour la variable <strong>Date de début réelle</strong> du problème. Vous pouvez mettre à jour manuellement la date, si nécessaire. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Date et heure de fin réelles</td> 
+      <td role="rowheader">Date et heure d’achèvement réelles</td> 
       <td>La date d’achèvement réelle est automatiquement renseignée lorsque vous définissez l’état du problème sur <strong>Fermé</strong> ou<strong>Résolu</strong>. Vous pouvez mettre à jour la variable <strong>Date d’achèvement réelle</strong> pour le problème. Vous pouvez mettre à jour manuellement la date, si nécessaire.</td> 
      </tr> 
      <tr> 
@@ -287,7 +293,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    >Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
    >
    >* Réaffectez l’élément de travail aux principales ressources.
-   >* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
+   >* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez la tâche à l’équipe principale.
 
 1. (Facultatif) Indiquez si une personne désignée est la personne désignée Principale sur le problème, en pointant la souris sur le nom de la personne désignée et en cliquant sur **Rendre Principal**. Une équipe ne peut pas être la Principale personne désignée pour un problème.
 1. Mettez à jour les champs suivants :
@@ -300,7 +306,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
     <tbody> 
      <tr> 
       <td role="rowheader">Heures prévues</td> 
-      <td> <p>Il s’agit de la durée réelle requise par les personnes désignées de la question pour la terminer. Saisissez le nombre d’heures planifiées pour le problème.<br></p> <p>Remarque : La modification des heures planifiées de la publication ne modifie pas la date d’achèvement prévue de la publication. </p> </td> 
+      <td> <p>Il s’agit de la durée réelle requise par les personnes désignées de la question pour la terminer. Saisissez le nombre d’heures planifiées pour le problème.<br></p> <p>Remarque : La modification des heures planifiées du problème ne modifie pas la date d’achèvement prévue du problème. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rôle du cessionnaire</td> 

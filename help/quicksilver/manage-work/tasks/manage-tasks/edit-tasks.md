@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '3711'
+source-wordcount: '3712'
 ht-degree: 4%
 
 ---
@@ -53,11 +53,16 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
    <td role="rowheader">Autorisations d’objet</td> 
    <td> 
     <ul> 
-     <li> <p>Attribuez des autorisations à une tâche pour la modifier dans la zone Détails de la tâche. </p> </li> 
-     <li> <p>Gérer les autorisations d’une tâche pour la modifier dans la zone Modifier la tâche</p> </li> 
+     <li> <p>Attribuez des autorisations à une tâche pour modifier les informations suivantes dans la zone Détails de la tâche : </p>
+     <ul>
+     <li>Description</li>
+     <li>Statut</li>
+     </ul>  
+      </li> 
+     <li> <p>Gérer les autorisations d’une tâche pour modifier toutes les informations dans la zone Détails et la zone Modifier la tâche</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Attribuer des autorisations ou des autorisations supérieures au projet</p> </li> 
+     <li> <p>Attribuer ou des autorisations supérieures au projet</p> </li> 
     </ul> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -80,7 +85,7 @@ Tenez compte des points suivants lors de la modification des tâches :
 
 * Vous pouvez toujours modifier les informations suivantes sur une tâche lorsque le projet a été marqué Terminé, Mort ou se trouve dans un processus d’approbation :
 
-   * Temps de connexion
+   * Enregistrer des heures
    * Modifier les dépenses existantes
    * Joindre un formulaire personnalisé
 
@@ -101,9 +106,9 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **Projets**, puis cliquez sur le nom d’un projet pour l’ouvrir.
-1. Cliquez sur **Tâches** dans le panneau de gauche.
+1. Cliquez sur **Tâche** dans le panneau de gauche.
 1. Cliquez sur la tâche à modifier.
-1. (Conditionnel) Pour modifier des informations limitées sur une tâche, en tant qu’utilisateur avec les autorisations de contribution à la tâche, cliquez sur **Détails de la tâche** dans le panneau de gauche.
+1. (Conditionnel) Pour modifier des informations limitées sur une tâche, cliquez sur **Détails de la tâche** dans le panneau de gauche.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -115,7 +120,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 
    * **Formulaires personnalisés**
 
-     Les noms des formulaires douaniers s’affichent uniquement s’ils sont associés à des formulaires personnalisés.
+     Les noms des formulaires douaniers ne s’affichent que s’il existe des formulaires personnalisés associés à l’objet.
 
    * **Finances**
 
@@ -181,7 +186,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 ### Nom de la tâche {#task-name}
 
 1. Commencez à modifier votre tâche comme décrit ci-dessus.
-1. Cliquez sur **Nom de la tâche** dans le panneau de gauche.
+1. Cliquez sur **Task Name** dans le panneau de gauche.
 
    ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
@@ -207,7 +212,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
       <td>Ajoutez des informations supplémentaires sur la tâche. </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Section d’informations de base</span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Section Informations de base</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Statut</td> 
@@ -276,8 +281,8 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
       <td> <p>Spécifiez une Date de début réelle pour la tâche. La valeur par défaut est généralement renseignée automatiquement lorsque vous définissez l’état de la tâche sur En cours. La date de début réelle peut également être modifiée manuellement par le chef de projet ou le propriétaire de la tâche. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Date et heure de fin réelles</td> 
-      <td> <p>Spécifiez la date et l’heure réelles auxquelles la tâche se termine. La date et l’heure par défaut auxquelles une tâche est terminée correspondent toujours à l’heure réelle à laquelle le statut devient Terminé. La date d’achèvement réelle peut également être modifiée manuellement par le chef de projet ou le propriétaire de la tâche. </p> </td> 
+      <td role="rowheader">Date et heure d’achèvement réelles</td> 
+      <td> <p>Indiquez la date et l’heure réelles auxquelles la tâche s’achève. La date et l’heure par défaut auxquelles une tâche est terminée correspondent toujours à l’heure réelle à laquelle le statut devient Terminé. La date d’achèvement réelle peut également être modifiée manuellement par le chef de projet ou le propriétaire de la tâche. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><b>Section de temps de travail</b></td> 
@@ -296,12 +301,12 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
       <p>Sélectionnez l’une des options suivantes :</p> 
       <ul> 
       <li>Petite</li> 
-      <li>Volume moyen <span style="font-weight: normal;">(il s’agit de la valeur par défaut d’une nouvelle tâche)</span></li> 
+      <li>Volume moyen <span style="font-weight: normal;">(il s’agit de la valeur par défaut pour une nouvelle tâche)</span></li> 
       <li>Grande</li> 
       </ul> 
       <p><b>NOTE</b>
 
-   La mise à jour du volume d’effort peut mettre à jour la tâche Heures prévues. La mise à jour est immédiate si le type de mise à jour du projet est automatique. Lorsque le type de mise à jour du projet est Manuel, vous devez recalculer la chronologie pour afficher les heures planifiées mises à jour. </p>
+   La mise à jour de la quantité d’effort peut mettre à jour la tâche Heures prévues. La mise à jour est immédiate si le type de mise à jour du projet est automatique. Lorsque le type de mise à jour du projet est Manuel, vous devez recalculer la chronologie pour afficher les heures planifiées mises à jour. </p>
 
    <p>Pour plus d’informations sur l’utilisation de l’effort de travail au lieu des heures planifiées pour estimer l’effort de tâche, voir <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Présentation de l’effort de travail</a>. </p> 
     </td> 
@@ -331,7 +336,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
    >Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
    >
    >* Réaffectez l’élément de travail aux principales ressources.
-   >* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
+   >* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez la tâche à l’équipe principale.
 
 1. (Facultatif) Indiquez si une personne désignée est la personne désignée Principale sur la tâche, en sélectionnant **Propriétaire** bouton radio en regard de leur nom. Une équipe ne peut pas être la Principale personne désignée d’une tâche.
 1. (Conditionnel et facultatif) Mettez à jour les champs suivants :
@@ -394,7 +399,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
       <td>h</td> 
       </tr> 
       <tr> 
-      <td>Jours. Il s’agit de la valeur par défaut. </td> 
+      <td>Jours. Il s’agit du paramètre par défaut. </td> 
       <td>Dés</td> 
       </tr> 
       <tr> 
@@ -556,7 +561,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
      </tr> 
      <tr> 
       <td role="rowheader">Nivellement des ressources</td> 
-      <td> <p>Sélectionnez la <strong>Exclure du niveau de ressource</strong> champ si vous souhaitez que les ressources affectées à la tâche soient exclues du niveau.</p> </td> 
+      <td> <p>Sélectionnez la variable <strong>Exclure du niveau de ressource</strong> champ si vous souhaitez que les ressources affectées à la tâche soient exclues du niveau.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Délai de nivellement</td> 
@@ -564,7 +569,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
      </tr> 
      <tr> 
       <td role="rowheader">Processus d'approbation</td> 
-      <td> <p>Sélectionnez un processus de validation que vous souhaitez associer à la tâche. Votre administrateur Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer à des tâches. Un utilisateur disposant d’un accès administratif aux processus de validation peut également créer des processus de validation spécifiques à un groupe. </p> <p>Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Créer un processus d’approbation pour les tâches</a>. Tenez compte des points suivants lors de l’ajout de processus de validation : </p> 
+      <td> <p>Sélectionnez un processus de validation à associer à la tâche. Votre administrateur Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer à des tâches. Un utilisateur disposant d’un accès administratif aux processus de validation peut également créer des processus de validation spécifiques à un groupe. </p> <p>Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Créer un processus d’approbation pour les tâches</a>. Tenez compte des points suivants lors de l’ajout de processus de validation : </p> 
        <ul>
 
    <li> <p>Seuls les principaux processus de validation s'affichent dans la liste. </p> </li>
@@ -600,7 +605,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 
 Vous pouvez modifier une quantité limitée d’informations dans l’en-tête de la tâche.
 
-L’administrateur du système ou du groupe peut personnaliser les champs affichés dans l’en-tête de la tâche. Pour plus d’informations, voir [Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Votre administrateur système ou groupe peut personnaliser les champs affichés dans l’en-tête de la tâche. Pour plus d’informations, voir [Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)

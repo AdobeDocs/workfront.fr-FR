@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1446'
 ht-degree: 4%
 
 ---
@@ -41,11 +41,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage de l’accès à la console Projets ou version ultérieure</p> <p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Affichage de l’accès ou d’une version ultérieure à la console Projets </p>
+
+<p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations pour le projet ou version ultérieure</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher l’accès au projet pour afficher des informations limitées sur le projet</p> 
+   <p>Gérer l’accès au projet pour modifier les informations le concernant</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Accédez au projet dont vous souhaitez afficher la section Aperçu .
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Le **Présentation** La section doit s’afficher en premier dans le cadre des détails du projet et doit être développée par défaut.
+1. La variable **Présentation** doit s’afficher en premier dans le cadre des détails du projet et doit être développé par défaut.
 
    Ou
 
@@ -66,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Selon la manière dont votre administrateur Workfront a configuré votre modèle de mise en page, la section Aperçu peut ne pas être répertoriée en premier, auquel cas elle est réduite. Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Conditionnel) S’il existe un champ spécifique qui doit être mis à jour sur un projet, mais qui ne s’affiche pas dans cette section, cliquez sur l’icône **Plus de menu** ![](assets/more-icon.png) en regard du nom du projet, puis **Modifier** pour afficher d’autres champs de projet.
+1. (Conditionnel) S’il existe un champ spécifique qui doit être mis à jour sur un projet, mais qui ne s’affiche pas dans cette section, cliquez sur la **Plus de menu** ![](assets/more-icon.png) en regard du nom du projet, puis **Modifier** pour afficher d’autres champs de projet.
 
    Pour plus d’informations sur la modification de projets, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -144,7 +147,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Sponsor du projet</td> 
-      <td> <p>C'est la Principale partie prenante du projet. Il s'agit généralement d'un cadre supérieur qui supervise et soutient le projet, ou c'est la personne responsable du budget.</p> </td> 
+      <td> <p>Voici la Principale partie prenante du projet. Il s'agit généralement d'un cadre supérieur qui supervise et soutient le projet, ou c'est la personne responsable du budget.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gestionnaire des ressources</td> 
@@ -212,7 +215,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
        <ul> 
         <li>Nom du rôle de tâche</li> 
         <li>Nombre d’ETR</li> 
-        <li> <p>Nombre d’heures pour tous les éditeur de texte enrichi</p> <p>Vous pouvez estimer le nombre de rôles d’emploi nécessaires à votre plan ou à votre initiative à l’aide d’heures ou d’EPT. </p> <p>Pour plus d’informations, voir <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
+        <li> <p>Nombre d’heures pour tous les ETR</p> <p>Vous pouvez estimer le nombre de rôles d’emploi nécessaires à votre plan ou à votre initiative à l’aide d’heures ou d’EPT. </p> <p>Pour plus d’informations, voir <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
        </ul> <p>Conseil : <span>Si le nombre de rôles d’emploi est différent pour chaque mois de l’initiative, ce champ affiche le nombre maximal de rôles requis pour l’initiative. Par exemple, si vous avez besoin d’un consultant pour janvier et d’un consultant pour février, la colonne affiche 2ETR et le nombre d’heures correspondant pour 2 ETR pour tous les mois.</span> </p> </td> 
      </tr> 
     </tbody> 

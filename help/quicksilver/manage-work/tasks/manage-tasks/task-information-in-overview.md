@@ -6,9 +6,9 @@ description: Gestion des informations sur la tâche dans la zone Présentation d
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7e591a8eb801da463f05b574c091f68278974ad7
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2089'
 ht-degree: 5%
 
 ---
@@ -48,11 +48,19 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Paramétrages du niveau d'accès*</strong> </td> 
-   <td> <p>Affichage ou accès supérieur à Projets et tâches</p> <p>Si vous disposez du niveau d’accès correct, mais que vous ne pouvez toujours pas modifier la section Détails de la tâche, demandez à votre Adobe Workfront s’il définit des restrictions supplémentaires dans votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Affichage ou accès supérieur à Projets et tâches</p> <p>Si vous disposez du niveau d’accès correct, mais que vous ne pouvez toujours pas modifier la section Détails de la tâche, demandez à votre Adobe Workfront si des restrictions supplémentaires sont définies dans votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Autorisations d’objet</strong> </p> </td> 
-   <td> <p>Attribuer ou des autorisations supérieures au projet</p> <p>Afficher les autorisations pour la tâche pour afficher les informations dans la section Détails . </p> <p>Gérez les autorisations de mise à jour de la tâche dans la section Détails .</p> </td> 
+   <td> <p>Attribuer ou des autorisations supérieures au projet</p> <p>Afficher les autorisations pour la tâche pour afficher les informations dans la section Détails . </p> 
+   <p>Contribuez aux autorisations de la tâche pour mettre à jour les informations suivantes dans la section Détails :</p>
+
+<ul>
+   <li>Description</li>
+   <li>Statut</li>
+   </ul>
+
+<p>Gérez les autorisations pour que la tâche mette à jour toutes les informations dans la section Détails .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,8 +83,8 @@ Vous devez disposer des éléments suivants :
    >
    >Vous ne pouvez pas modifier des champs générés automatiquement par Workfront ou qui ne sont pas autorisés à être modifiés.
 
-1. Modifiez n’importe quel champ disponible pour modification, en cliquant une seule fois sur le champ ou en cliquant sur **+Ajouter** pour ajouter des informations à un champ vide.
-1. Affichez ou modifiez l’un des champs suivants répertoriés.
+1. Modifier un champ qui peut être modifié en cliquant sur le champ ou en cliquant sur **+Ajouter** pour ajouter des informations à un champ vide.
+1. Affichez ou modifiez les champs suivants répertoriés.
 
    Tous les champs ne sont pas modifiables.  
 
@@ -155,12 +163,12 @@ Vous devez disposer des éléments suivants :
             <td>h</td> 
            </tr> 
            <tr> 
-            <td>Jours. Il s’agit de la valeur par défaut. </td> 
+            <td>Jours. Il s’agit du paramètre par défaut. </td> 
             <td>Dés</td> 
            </tr> 
            <tr> 
             <td>Semaines</td> 
-            <td>M</td> 
+            <td>S</td> 
            </tr> 
            <tr> 
             <td>Mois</td> 
@@ -223,11 +231,11 @@ Vous devez disposer des éléments suivants :
         <p>Sélectionnez l’une des options suivantes :</p> 
         <ul> 
          <li>Petite</li> 
-         <li>Volume moyen <span style="font-weight: normal;">(il s’agit de la valeur par défaut d’une nouvelle tâche)</span></li> 
+         <li>Volume moyen <span style="font-weight: normal;">(il s’agit de la valeur par défaut pour une nouvelle tâche)</span></li> 
          <li>Grande</li> 
         </ul> 
         <p><strong>NOTE</strong></p> 
-        <p> La mise à jour du volume d’effort peut mettre à jour la tâche Heures prévues. La mise à jour est immédiate si le type de mise à jour du projet est automatique. Lorsque le type de mise à jour du projet est Manuel, vous devez recalculer la chronologie pour afficher les heures planifiées mises à jour. </p> 
+        <p> La mise à jour de la quantité d’effort peut mettre à jour la tâche Heures prévues. La mise à jour est immédiate si le type de mise à jour du projet est automatique. Lorsque le type de mise à jour du projet est Manuel, vous devez recalculer la chronologie pour afficher les heures planifiées mises à jour. </p> 
         <p>Pour plus d’informations sur l’utilisation de l’effort de travail au lieu des heures planifiées pour estimer l’effort de tâche, voir <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Présentation de l’effort de travail</a>. </p> 
        </div> </td> 
      </tr> 
@@ -283,7 +291,7 @@ Vous devez disposer des éléments suivants :
      </tr> 
      <tr> 
       <td role="rowheader">Date d’achèvement réelle</td> 
-      <td> <p>Spécifiez la date et l’heure réelles auxquelles la tâche se termine. La date et l’heure par défaut auxquelles une tâche est terminée correspondent toujours à l’heure réelle à laquelle le statut devient Terminé. La date d’achèvement réelle peut également être modifiée manuellement par le chef de projet ou le propriétaire de la tâche. </p> </td> 
+      <td> <p>Indiquez la date et l’heure réelles auxquelles la tâche s’achève. La date et l’heure par défaut auxquelles une tâche est terminée correspondent toujours à l’heure réelle à laquelle le statut devient Terminé. La date d’achèvement réelle peut également être modifiée manuellement par le chef de projet ou le propriétaire de la tâche. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Date d'engagement</td> 
@@ -291,7 +299,7 @@ Vous devez disposer des éléments suivants :
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Date d’entrée</td> 
-      <td>Date à laquelle la tâche a été créée.</td> 
+      <td>Date de création de la tâche.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Entré par</td> 
