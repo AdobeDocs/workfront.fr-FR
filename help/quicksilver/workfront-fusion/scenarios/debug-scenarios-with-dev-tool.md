@@ -7,16 +7,20 @@ description: Adobe Workfront Fusion DevTool vous permet de comprendre et de rés
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
 
-# Déboguer les scénarios à l’aide de la méthode [!DNL Adobe Workfront Fusion] DevTool
+# Déboguer les scénarios à l’aide de [!DNL Adobe Workfront Fusion] DevTool
 
-Le [!DNL Adobe Workfront Fusion] DevTool vous permet de comprendre et de résoudre les problèmes liés aux scénarios. DevTool ajoute un panneau supplémentaire à la variable [!DNL Chrome Developer Tools]. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
+La variable [!DNL Adobe Workfront Fusion] DevTool vous permet de comprendre et de résoudre les problèmes liés aux scénarios. DevTool ajoute un panneau supplémentaire à la variable [!DNL Chrome Developer Tools]. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
+
+>[!NOTE]
+>
+>Workfront Fusion DevTool n’est pas disponible pour les organisations qui accèdent à Fusion via l’Adobe Unified Shell.
 
 ## Exigences d’accès
 
@@ -37,7 +41,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
    </td>    </tr> 
@@ -45,9 +49,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,13 +77,13 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
    Once unpacked, the DevTool appears among your other Chrome extensions.
    -->
 
-Vous pouvez ajouter la variable [!DNL Workfront Fusion] DevTool à [!DNL Chrome] via la [!UICONTROL [!DNL Chrome] Boutique Web].
+Vous pouvez ajouter la variable [!DNL Workfront Fusion] DevTool à [!DNL Chrome] par le biais du [!UICONTROL [!DNL Chrome] Boutique Web].
 
 1. Cliquez sur [ce lien](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) pour accéder au [!DNL Workfront Fusion] DevTool sur la [!UICONTROL [!DNL Chrome] Boutique Web].
 1. Cliquez sur **[!UICONTROL Ajouter à[!DNL Chrome]]**.
 1. Dans la fenêtre qui s’ouvre, examinez les autorisations. Si vous acceptez les autorisations, cliquez sur **[!UICONTROL Ajouter une extension]**.
 
-Le [!DNL Workfront Fusion] L’extension DevTool est ajoutée à votre [!DNL Chrome] extensions.
+La variable [!DNL Workfront Fusion] L’extension DevTool est ajoutée à votre [!DNL Chrome] extensions.
 
 
 ## Recherchez la variable [!DNL Workfront Fusion] DevTool
@@ -179,11 +183,11 @@ Le débogueur de scénario est utile pour les scénarios plus complexes. Il affi
 
 ### Outils
 
-Le [!DNL Workfront Fusion] DevTool contient des outils qui facilitent la configuration de votre scénario.
+La variable [!DNL Workfront Fusion] DevTool contient des outils qui facilitent la configuration de votre scénario.
 
 1. Cliquez sur le bouton **[!UICONTROL Outils]** icon ![](assets/console-tools-icon.png) pour ouvrir les outils.
 1. Sélectionnez l’outil à utiliser.
-1. Configurez les champs comme décrit ci-dessous.
+1. Configurez les champs comme indiqué ci-dessous.
 1. Cliquez sur **[!UICONTROL Exécuter]**.
 
 Outils et leurs champs :
@@ -261,7 +265,7 @@ Copie les valeurs du module source vers le module cible.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Module Target]</p> </td> 
-   <td> <p>Sélectionnez le module ou saisissez l'identifiant du module dans lequel vous souhaitez insérer les valeurs du module source.</p> <p>Important : Les valeurs du module cible seront écrasées.</p> </td> 
+   <td> <p>Sélectionnez le module ou saisissez l'identifiant du module dans lequel vous souhaitez insérer les valeurs du module source.</p> <p>Important : Les valeurs du module cible seront remplacées.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,7 +288,7 @@ Copie les paramètres de filtre du module source vers le module cible.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Module Target]</p> </td> 
-   <td> <p>Sélectionnez le module ou saisissez l'identifiant du module dans lequel vous souhaitez insérer les valeurs de filtre du module source.</p> <p>Important : Les valeurs du module cible seront écrasées.</p> </td> 
+   <td> <p>Sélectionnez le module ou saisissez l'identifiant du module dans lequel vous souhaitez insérer les valeurs de filtre du module source.</p> <p>Important : Les valeurs du module cible seront remplacées.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conserver le paramètre d’itinéraire de secours]</p> </td> 
@@ -339,7 +343,7 @@ Cela peut être utilisé, par exemple, pour mettre à niveau les modules des app
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Application à remplacer]</td> 
-   <td> <p> Sélectionnez l’application à remplacer.</p> </td> 
+   <td> <p> Sélectionnez l’application que vous souhaitez remplacer.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Remplacer par]</p> </td> 
