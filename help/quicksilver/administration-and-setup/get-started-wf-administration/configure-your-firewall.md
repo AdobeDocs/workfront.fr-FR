@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1543'
 ht-degree: 13%
 
 ---
@@ -21,35 +21,47 @@ ht-degree: 13%
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées au Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
->Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, reportez-vous à la section [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, voir [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, reportez-vous à la section [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée. Cela permet la communication entre votre environnement et les serveurs Adobe Workfront et permet les processus suivants :
 
 * Envoi de messages depuis l’application Workfront
 
-   >[!NOTE]
-   >
-   >Cette option n’est pas disponible si l’instance Workfront de votre entreprise est activée avec Adobe IMS. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.
+  >[!NOTE]
+  >
+  >Cette option n’est pas disponible si l’instance Workfront de votre entreprise est activée avec Adobe IMS. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.
 
 * Utilisation des webhooks de document lors de la configuration des intégrations de documents personnalisées
 * Utilisation d’abonnements à des événements Workfront
 
-   Pour plus d’informations, voir [API d’abonnement à un événement](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  Pour plus d’informations, voir [API d’abonnement à un événement](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 Vous devez également ouvrir certains ports pour que les emails soient cryptés lors de leur diffusion.
 
-## Listes autorisées Workfront que vous pouvez utiliser
+## listes autorisées Workfront utilisables
 
 Si votre entreprise dispose du plan Enterprise, vous pouvez également configurer deux listes autorisées Workfront :
 
-* **Liste autorisée de courrier électronique**: Permet de contrôler où les utilisateurs peuvent envoyer par courrier électronique des données stockées dans Workfront. Pour plus d’informations, voir [Configuration de votre liste autorisée de messagerie](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **LISTE AUTORISÉE IP**: Limite l’accès à Workfront à 45 adresses IP ou plages d’adresses que vous spécifiez, fournissant ainsi une couche de sécurité supplémentaire pour l’application Workfront. Pour plus d’informations, voir [Limitation de l’accès à Adobe Workfront par adresse IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **Liste autorisée de courrier électronique**: vous permet de contrôler où les utilisateurs peuvent envoyer par e-mail des données stockées dans Workfront. Pour plus d’informations, voir [Configuration de votre liste autorisée de messagerie](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **LISTE AUTORISÉE IP**: limite l’accès à Workfront à 45 adresses IP ou plages d’adresses que vous spécifiez, fournissant ainsi une couche de sécurité supplémentaire pour l’application Workfront. Pour plus d’informations, voir [Limitation de l’accès à Adobe Workfront par adresse IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+
+## Localisation de la grappe Workfront
+
+Les adresses IP que vous devez ajouter à votre liste autorisée sur votre pare-feu dépendent de la grappe sur laquelle s’exécute votre environnement de production.
+
+Pour localiser la grappe de votre entreprise :
+
+1. En tant qu’administrateur Workfront, cliquez sur le bouton **Menu Principal** icon ![Menu Principal](assets/main-menu-icon.png), puis cliquez sur **Configuration**.
+1. Dans la navigation de gauche, cliquez sur **Système**, puis sélectionnez **Informations sur le client**.
+1. Recherchez la variable **Configuration en grappe** dans le coin supérieur droit de la page. La grappe de votre entreprise est répertoriée ici.
+
+   CL01 fait référence au cluster 1, CL02 est le cluster 2, etc.
+
+Pour plus d’informations, voir la section [Affichage de la grappe et du plan Workfront de votre entreprise](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) dans l’article [Présentation du pare-feu](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Adresses IP à ajouter à la liste autorisée
-
-Les adresses IP que vous devez ajouter à votre liste autorisée sur votre pare-feu dépendent de la grappe sur laquelle s’exécute votre environnement de production. Pour savoir quelle grappe il s’agit, sélectionnez Configuration > Système > Informations personnalisées. Pour plus d’informations, voir la section [Configuration des informations de base](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md#configuring-basic-info) dans l’article [Configuration des informations de base pour votre système](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 >[!IMPORTANT]
 >
@@ -59,14 +71,13 @@ Les adresses IP que vous devez ajouter à votre liste autorisée sur votre pare-
 >* Workfront pour Outlook
 >* Workfront pour Salesforce
 
-
 * [Adresses IP pour permettre les clusters 1, 2, 3, 5, 7, 8 et 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [Adresses IP à autoriser pour la grappe 4](#ip-addresses-to-allow-for-cluster-4)
 * [Adresses IP à autoriser pour la grappe 6](#ip-addresses-to-allow-for-cluster-6)
 * [Adresses IP pour permettre un test de lecteur](#IP%20Addre2)
 * [Adresses IP à autoriser lors de l’implémentation des abonnements aux événements](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [Adresses IP pour permettre une authentification améliorée](#ip-addresses-to-allow-for-enhanced-authentication)
-* [Adresses IP à ajouter pour l’accès à Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
+* [Adresses IP à ajouter pour accéder à Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * [Adresses IP à ajouter pour l’utilisation de Workfront pour Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [Adresses IP à ajouter pour l’utilisation de Workfront Ascent](#ip-addresses-to-add-for-using-workfront-ascent)
 * [URL à ajouter pour toutes les grappes Workfront](#urls-to-add-for-all-clusters-workfront)
@@ -314,7 +325,7 @@ Ajoutez les adresses IP suivantes pour utiliser une authentification améliorée
  </tbody> 
 </table>
 
-### Adresses IP à ajouter pour l’accès à Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
+### Adresses IP à ajouter pour accéder à Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 Ajoutez les adresses IP suivantes à votre liste autorisée pour permettre à Workfront Fusion d’accéder à votre système.
 
@@ -420,7 +431,7 @@ Le domaine jira.workfront.com doit également être accessible à partir des ser
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pour accéder aux ressources de formation Workfront via Workfront Ascent</td> 
+   <td role="rowheader">Pour accéder aux ressources de formation Workfront via Workfront</td> 
    <td> 
     <ul> 
      <li>18.223.140.34</li> 
@@ -486,7 +497,7 @@ Si votre entreprise utilise le filtrage réseau sortant, ajoutez les domaines su
      <li>*.workfront.com - Obligatoire pour afficher les bons à tirer dans Workfront</li> 
      <li>*.proofhq.com - Obligatoire pour afficher les bons à tirer dans le bon à tirer Workfront</li> 
      <li>*.proofhq.eu - Obligatoire pour afficher les bons à tirer dans le bon à tirer Workfront</li> 
-    </ul> <p><b>NOTE</b>:  <p>L’ajout d’adresses IP à votre liste autorisée pour Workfront BAT n’est pas pris en charge. Ils ont été dynamiques une fois Workfront déplacé vers AWS. Nous vous recommandons plutôt d’autoriser uniquement les domaines de BAT Workfront.</p> <p>Si vous rencontrez un problème lors de l’ajout de ces domaines à votre liste autorisée et que vous avez besoin d’une adresse IP à la place, contactez le service clientèle de Workfront.</p> </p> </td> 
+    </ul> <p><b>NOTE</b>:  <p>L’ajout d’adresses IP à votre liste autorisée pour Workfront BAT n’est pas pris en charge. Ils ont été dynamiques une fois Workfront déplacé vers AWS. Nous vous recommandons plutôt d’autoriser uniquement les domaines de BAT Workfront.</p> <p>En cas de problème lors de l’ajout de ces domaines à votre liste autorisée et si vous avez besoin d’une adresse IP à la place, contactez le service clientèle de Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -546,7 +557,7 @@ Vous devez ajouter les adresses IP suivantes à votre liste autorisée pour pouv
      <li>52.30.133.50</li> 
      <li>54.220.93.204</li> 
      <li>34.254.76.122</li> 
-    </ul> <p><b>REMARQUE</b>: Les options du serveur DNS ne sont plus prises en charge.</p> </td> 
+    </ul> <p><b>REMARQUE</b>: les options du serveur DNS ne sont plus prises en charge.</p> </td> 
   </tr> 
  </tbody> 
 </table>

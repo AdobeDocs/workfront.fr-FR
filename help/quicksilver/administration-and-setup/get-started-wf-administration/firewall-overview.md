@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Comme Adobe Workfront communique avec le réseau de votre entreprise, le pare-fe
 Pour ce faire, vous devez effectuer une liste autorisée, qui est essentiellement une &quot;liste&quot; des sites &quot;autorisés&quot; à envoyer ou recevoir des données par le biais du pare-feu. Les sites peuvent être identifiés de deux façons :
 
 * **Adresse IP**: une série de nombres comme 52.31.132.175
-* **Domaine**: d’une partie d’une URL, telle que &quot;this domain&quot; dans www.thisdomain.com ;
+* **Domaine**: fait partie d’une URL, comme &quot;this domain&quot; dans www.thisdomain.com
 
 Workfront utilise des adresses IP et des domaines spécifiques pour la communication web. Elles doivent être ajoutées à la liste autorisée de votre entreprise avant de pouvoir utiliser Workfront dans votre entreprise.
 
@@ -49,7 +49,7 @@ Fournissez les informations suivantes à votre administrateur réseau :
  <tbody> 
   <tr> 
    <td role="rowheader">Adresses et domaines IP spécifiques autorisés</td> 
-   <td> <p>L'article <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configuration de la liste autorisée de votre pare-feu</a> contient la liste des adresses IP et des domaines que votre entreprise doit ajouter à sa liste autorisée. </p> <p>Il se peut que votre administrateur réseau n’ait pas accès à l’article "Configurer votre pare-feu". Dans ce cas, vous devez les leur fournir. Il est déconseillé d'imprimer une copie papier (papier). Une copie numérique permet à l’administrateur réseau de copier et coller les adresses, ce qui est plus rapide et plus précis que la saisie sur papier.</p> </td> 
+   <td> <p>L'article <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configuration de la liste autorisée de votre pare-feu</a> contient la liste des adresses IP et des domaines que votre entreprise doit ajouter à sa liste autorisée. </p> <p>Il se peut que votre administrateur réseau n’ait pas accès à l’article "Configurer votre pare-feu". Dans ce cas, vous devez les leur fournir. Il est déconseillé d'imprimer une copie papier (papier). Une copie numérique permet à l’administrateur réseau de copier et coller les adresses, ce qui est plus rapide et plus précis que la saisie sur une page papier.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Votre grappe</td> 
@@ -57,24 +57,18 @@ Fournissez les informations suivantes à votre administrateur réseau :
   </tr> 
   <tr> 
    <td role="rowheader">Votre formule Workfront</td> 
-   <td> <p>Le plan de votre entreprise est l’un des suivants :</p> 
-    <ul> 
-     <li> <p>Entreprise </p> </li> 
-     <li> <p>Société </p> </li> 
-     <li> <p>Pro </p> </li> 
-     <li> <p>Équipe </p> </li> 
-    </ul> <p>Pour localiser votre plan, voir <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Affichez la grappe et le plan Workfront de votre entreprise.</a></p> </td> 
+   <td> <p>Pour localiser le plan de votre entreprise, voir <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Affichez la grappe et le plan Workfront de votre entreprise.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Votre domaine</td> 
-   <td> <p>Pour localiser votre domaine, consultez l’adresse web que vous utilisez pour vous connecter à Workfront.</p> <p>Exemple : dans l’adresse web <code>greatcompany.my.workfront.com</code>, le domaine est "grande société"</p> </td> 
+   <td> <p>Pour localiser votre domaine, consultez l’adresse web que vous utilisez pour vous connecter à Workfront.</p> <p>Exemple : dans l'adresse web <code>greatcompany.my.workfront.com</code>, le domaine est "grande société"</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autres produits Adobe Workfront</td> 
    <td> <p>Indiquez à votre administrateur réseau si vous disposez de licences pour l’une des fonctionnalités suivantes :</p> 
     <ul> 
      <li> <p>Bon à tirer Adobe Workfront</p> </li> 
-     <li> <p>Adobe Workfront Fusion </p> </li> 
+     <li> <p>Adobe Workfront Fusion </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
