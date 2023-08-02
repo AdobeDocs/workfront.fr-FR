@@ -7,9 +7,9 @@ description: Ces vidéos vous présentent les différents types de panoramas dis
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ Un panorama simple ou de base vous permet de commencer rapidement à utiliser de
 Un panorama kanban peut contenir un journal en souffrance, ou une colonne d’ingestion, configuré avec des filtres pour intégrer les tâches et les problèmes de Workfront au panorama.
 
 [Afficher une démonstration vidéo d’un panorama de kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### Panorama dynamique
+
+Un panorama dynamique vous permet de remplir automatiquement un panorama avec des cartes basées sur un projet Workfront. Grâce aux filtres, les cartes sont ajoutées aux colonnes en fonction de leur état.
+
+[Afficher une démonstration vidéo d’un panorama dynamique.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### Carte mobile
 
