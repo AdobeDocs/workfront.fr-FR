@@ -5,10 +5,10 @@ title: Prise en main de la nouvelle page d’accueil dans Adobe Workfront
 description: New Home est une nouvelle fonctionnalité puissante pour gérer votre travail.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 0%
+source-wordcount: '1032'
+ht-degree: 21%
 
 ---
 
@@ -26,13 +26,13 @@ La nouvelle page d’accueil est conçue pour être hautement personnalisable, c
 Les widgets sont la base de New Home. En ajoutant des widgets à votre page d’accueil, vous pouvez choisir le type d’informations qui s’affiche pour répondre le mieux à vos besoins. Certains widgets ne sont disponibles que pour des types de licence spécifiques, car les objets qu’ils suivent ne sont disponibles que pour ces licences. Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’un résumé des informations qu’ils affichent :
 
 * **Mon travail**\
-    Ce widget constitue un excellent point de départ pour la gestion d’un large éventail de tâches, de problèmes et de requêtes. Il affiche au même endroit toutes les tâches qui vous sont assignées, ainsi que toutes les requêtes qui vous sont affectées.
+    Ce widget, qui constitue un excellent point de départ pour la gestion d’un grand nombre de tâches, affiche en un seul endroit l’ensemble des tâches, problèmes et demandes qui vous ont été attribués.
 
 * **Mes projets**\
-    Affiche les projets qui vous sont affectés dans un tableau pouvant être triés afin de n’afficher que les projets que vous possédez ou tous les projets sur lesquels vous vous trouvez ; les options de filtrage, d’affichage et de regroupement standard, ainsi qu’un bouton permettant de créer directement un projet.
+    Affiche les projets qui vous sont attribués dans un tableau qui peut être trié pour n’afficher que les projets que vous possédez ou tous les projets auxquels vous participez. Des options standard de filtrage, d’affichage et de regroupement, ainsi qu’un bouton de création de projet sont également disponibles.
 
 * **Mes tâches**\
-    Affiche les tâches qui vous sont affectées dans un tableau avec des filtres, des vues et des regroupements personnalisables, ainsi qu’un bouton permettant de créer directement une tâche.
+    Affiche les tâches qui vous sont affectées dans un tableau avec des filtres, des vues et des regroupements personnalisables, ainsi qu’un bouton pour créer directement une nouvelle tâche.
 
 * **Mes problèmes**\
     Affiche les problèmes qui vous sont affectés dans un tableau avec des filtres, des vues et des regroupements personnalisables, ainsi qu’un bouton pour créer directement un nouveau problème.
@@ -41,19 +41,30 @@ Les widgets sont la base de New Home. En ajoutant des widgets à votre page d’
     Affiche toutes les requêtes que vous avez envoyées, un filtre permettant d’afficher uniquement les requêtes ouvertes et un bouton permettant d’ouvrir le volet de résumé d’une requête.
 
 * **Requêtes d’équipe**\
-    Affiche toutes les requêtes en attente pour les équipes sur lesquelles vous êtes triées par équipe, ainsi que des boutons permettant d’affecter directement une requête à un utilisateur ou de travailler dessus vous-même.
+    Affiche toutes les demandes en attente classées par équipe pour les équipes dont vous faites partie, ainsi que des boutons permettant d’attribuer directement une demande à un utilisateur ou à une utilisatrice ou d’y travailler soi-même.
 
 * **En attente de mon approbation**\
-    Affiche toutes les approbations affectées ou déléguées en attente, un bouton permettant de déléguer les approbations et des boutons permettant de prendre des décisions d’approbation directement dans le widget.
+    Affiche toutes les approbations affectées ou déléguées en attente, un bouton pour déléguer des approbations et des boutons pour prendre des décisions d’approbation directement dans le widget.
 
 * **Toutes les validations**\
-    Affiche toutes les approbations pour votre organisation dans un tableau avec des colonnes personnalisables, ainsi qu’une barre de recherche qui vous permet de rechercher des approbations spécifiques.
+    Affiche toutes les approbations de votre organisation dans un tableau avec des colonnes personnalisables, ainsi qu’une barre de recherche qui vous permet de rechercher des approbations spécifiques.
 
 * **Mentions**\
-    Affiche les fils de commentaires récents qui contiennent des mentions @ sur vous dans Workfront, ainsi qu’un bouton de réponse qui vous permet de composer une réponse dans le widget.
+    Affiche les fils de commentaires récents qui contiennent des mentions @ de vous-même dans Workfront, ainsi qu’un bouton de réponse qui vous permet de rédiger une réponse dans le widget.
 
 * **À faire**\
     Ce widget unique vous permet d’ajouter des éléments de texte à une liste de contrôle personnelle que vous pouvez modifier librement.
+
+Par défaut, la page d’accueil contient quelques widgets spécifiques en fonction de votre type de licence. Le tableau ci-dessous indique les widgets que les utilisateurs de chaque type de licence voient lorsqu’ils accèdent pour la première fois à la Nouvelle page d’accueil.
+
+| **Type de licence hérité** | **Widgets par défaut** | **Type de licence actuel** | **Widgets par défaut** |
+|---|---|---|---|
+| Plan | Mes projets, mentions, tâches | Standard | Mes projets, Mon travail, Mentions, Tâches |
+| Travail | Mon Travail, Mentions, Tâches | Léger | Mon travail, en attente de mon approbation, à faire |
+| Vérifier | Mon Travail, Mentions, Tâches | Contributeur | Mon Travail, Mentions, Tâches |
+| Limitée | Mes projets, en attente de mon approbation, à faire | Externe | En attente de mon approbation, tâches |
+| Contributeur | Mon Travail, Mentions, Tâches |  |  |
+| Externe | En attente de mon approbation, tâches |  |  |
 
 Pour plus d’informations sur l’ajout, le déplacement, le redimensionnement ou la suppression de widgets, voir [Ajout, modification ou suppression de widgets dans la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
