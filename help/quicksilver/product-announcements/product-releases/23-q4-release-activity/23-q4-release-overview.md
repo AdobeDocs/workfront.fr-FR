@@ -3,9 +3,9 @@ title: Présentation de la version du quatrième trimestre 2023
 description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: c6edc9530b2731ecd8ae0cc0feb208049cb16105
+source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,76 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 ## Améliorations apportées à Adobe Workfront
 
-* Améliorations des projets
+* [Améliorations des panoramas](#boards-enhancements)
+* [Améliorations des projets](#project-enhancements)
+
+### Améliorations des panoramas
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documents disponibles sur les cartes connectées en tant qu’affichage uniquement</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span> </p><p>Pour les cartes connectées sur les panoramas Adobe Workfront, vous pouvez désormais afficher des documents tels que des images et des PDF. Vous pouvez prévisualiser un document dans le navigateur ou le télécharger sur votre ordinateur. </p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 3 août 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production pour un accès anticipé aux panoramas : 10 août 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Vue du panorama d’un projet désormais disponible pour les problèmes</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span> </p><p>Vous pouvez désormais accéder à la vue Panorama d’une liste de problèmes de projet. Le panorama de Kanban peut vous aider à suivre l’état d’avancement des problèmes d’une manière plus visuelle que de les voir dans la liste. </p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 3 août 2023<br /></p>
+                            </li>
+                             <li>
+                                <p>Production pour une version rapide : avec la version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Améliorations des projets
 
