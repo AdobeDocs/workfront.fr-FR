@@ -7,9 +7,9 @@ description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Board
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   <tr>
    <td>Utilisation de commentaires sur les cartes ad hoc et connectées</td>
    <td>Publié</td>
+  </tr>
+  <tr>
+   <td>Affichage des documents sur les cartes connectées</td>
+   <td>Publication partielle</td>
   </tr>
  </tbody> 
 </table>

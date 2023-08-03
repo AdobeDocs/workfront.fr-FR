@@ -6,14 +6,16 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: c063bd9505a785ea738d07e082328871245216f2
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
 
 # Utilisation de cartes connectées sur les panoramas
+
+{{preview-and-fast-release}}
 
 Vous pouvez ajouter sur votre panorama une carte qui est connectée à des tâches et à des problèmes existants dans [!DNL Workfront].
 
@@ -59,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Ajout d’une carte connectée
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Ajouter une carte] > [!UICONTROL Carte connectée]**.
 1. Choisissez un projet, puis sélectionnez une tâche ou un problème à ajouter sous forme de carte sur le panorama.
 
@@ -78,7 +80,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!NOTE]
    >
-   >Si une personne désignée sur la [!DNL Workfront] la tâche ou le problème n’est pas un membre du panorama, il n’est pas affecté à la carte.
+   >Si une personne désignée sur la page [!DNL Workfront] la tâche ou le problème n’est pas un membre du panorama, il n’est pas affecté à la carte.
 
    ![Carte connectée](assets/boards-connected-card-first-added.png)
 
@@ -107,9 +109,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
-      <td><p>Sélectionnez l’état de la carte. Les valeurs par défaut sont [!UICONTROL Nouveau], [!UICONTROL En cours] et [!UICONTROL Terminé], mais les états personnalisés définis pour l’élément dans [!DNL Workfront] sont également disponibles.</p>
+      <td><p>Sélectionnez l’état de la carte. Les valeurs par défaut sont [!UICONTROL Nouveau], [!UICONTROL En cours] et [!UICONTROL Terminé], mais tous les états personnalisés définis pour l’élément dans [!DNL Workfront] sont également disponibles.</p>
       <p>Si des stratégies de colonne sont activées pour la mise à jour des valeurs de champ, la modification de l’état de la carte déplace automatiquement la carte vers la colonne correspondante. Pour plus d’informations, voir "Définition des paramètres et des stratégies de colonne" dans l’article <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Gestion des colonnes de panorama</a>.</p>
-      <p>Si vous cliquez sur <strong>[!UICONTROL Mark Complete]</strong> dans la partie supérieure de la carte, l’état devient automatiquement Terminé.</p></td>
+      <p>Cliquez sur <strong>[!UICONTROL Mark Complete]</strong> dans la partie supérieure de la carte, l’état devient automatiquement Terminé.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Fin planifiée]</strong></td>
@@ -138,6 +140,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Liste de contrôle]</strong> </td> 
       <td> <p>Cliquez sur <strong>[!UICONTROL Ajouter un élément de liste de contrôle]</strong>. Saisissez ensuite le titre de l’élément et appuyez sur Entrée. Un autre élément est automatiquement ajouté. Continuez à saisir des titres pour ajouter d’autres éléments.</p> <p>Le compteur en haut de la liste de contrôle indique le nombre d’éléments terminés et le nombre total d’éléments.</p> <p>Pour plus d’informations sur les éléments de liste de contrôle, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gérer les éléments de liste de contrôle sur les cartes</a>.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
+      <td><span class="preview"><p>Passez la souris sur la miniature du document, puis cliquez sur <strong>Aperçu</strong> pour afficher le fichier dans le navigateur ou <strong>Télécharger</strong> pour télécharger le fichier sur votre ordinateur.</p></span>
+      <span class="preview"><p><strong>REMARQUE :</strong> Actuellement, un document doit être chargé dans la tâche Workfront pour être disponible sur la carte connectée.</p></span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
@@ -180,7 +187,7 @@ Pour vous déconnecter au niveau de la carte :
 
 ## Convertir une carte ad hoc en carte connectée
 
-Après avoir créé une carte ad hoc, vous pouvez la convertir en carte connectée. Pour plus d’informations sur les cartes ad hoc, voir [Ajout d’une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Après avoir créé une carte ad hoc, vous pouvez la convertir en carte connectée. Pour plus d’informations sur les cartes ad hoc, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 1. Accédez au panorama et ouvrez la carte ad hoc.
 1. Vérifiez le nom et la description de la carte. Ils seront ajoutés à la tâche ou au problème que vous créez dans [!DNL Workfront].
@@ -191,7 +198,7 @@ Après avoir créé une carte ad hoc, vous pouvez la convertir en carte connect�
    >[!NOTE]
    >
    >* Seuls les objets pour lesquels vous êtes autorisé à accéder sont disponibles dans les résultats de la recherche.
-   >* Lorsque vous filtrez par **[!UICONTROL Projets que je possède]** ou **[!UICONTROL Projets actifs]**, projets qui équivalent à un [!UICONTROL Terminer], [!UICONTROL Mort]ou [!UICONTROL Rejetés] ne sont pas inclus. Vous pouvez toujours rechercher ces projets avec le **[!UICONTROL Tous]** filtre.
+   >* Lorsque vous filtrez par **[!UICONTROL Projets que je possède]** ou **[!UICONTROL Projets actifs]**, projets qui équivalent à un [!UICONTROL Terminer], [!UICONTROL Mort], ou [!UICONTROL Rejetés] ne sont pas inclus. Vous pouvez toujours rechercher ces projets avec le **[!UICONTROL Tous]** filtre.
 
 1. Cliquez sur **[!UICONTROL Connexion]**.
 
@@ -215,5 +222,5 @@ Par défaut, les champs de journalisation de l’heure ne s’affichent pas sur 
 
    La durée de connexion à la carte est également enregistrée sur la tâche ou le problème connecté.
 
-Le temps de journalisation sur la carte est identique à celui d’une tâche ou d’un problème. Pour plus d’informations, voir &quot;Temps de connexion à un projet, à une tâche ou à un problème&quot; dans l’article . [Temps de connexion](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+Le temps de journalisation sur la carte est identique à celui d’une tâche ou d’un problème. Pour plus d’informations, voir &quot;Temps de connexion à un projet, une tâche ou un problème&quot; dans l’article . [Temps de connexion](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 

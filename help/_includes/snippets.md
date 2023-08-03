@@ -1,11 +1,11 @@
 ---
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
-# Fragments de code
+# Extraits de code
 
 <!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
@@ -18,6 +18,14 @@ ht-degree: 0%
 ## Aperçu mis en surbrillance pour l’article complet {#highlighted-preview-article-level}
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles en général. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
+
+## Aperçu et version rapide du 4e trimestre 2023 {#preview-and-fast-release}
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
 
 ## Remarque importante pour les fonctionnalités de navigation qui ne s’appliquent pas à AEC/shell {#important-not-on-aec}
 
@@ -88,7 +96,7 @@ Pour configurer les dossiers liés :
 
    >[!NOTE]
    >
-   >Les utilisateurs doivent disposer d’un accès en écriture dans Adobe Experience Manager Assets au dossier spécifié pour créer un dossier lié.
+   >Les utilisateurs doivent disposer d’un accès en écriture dans Adobe Experience Manager Assets sur le dossier spécifié pour créer un dossier lié.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -252,7 +260,7 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
 
 ## Étape 1 - Accès au planificateur de scénario - {#step1-to-scenario-planner}
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png), (ou ![Menu Principal](assets/main-menu-icon-left-nav.png) si disponible), cliquez sur **[!UICONTROL Scénarios]**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png), (ou ![Menu Principal](assets/main-menu-icon-left-nav.png) si disponible), puis cliquez sur **[!UICONTROL Scénarios]**.
 
 <!-- Teams -->
 

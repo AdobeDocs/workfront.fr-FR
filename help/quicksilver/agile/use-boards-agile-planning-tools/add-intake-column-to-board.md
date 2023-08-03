@@ -7,9 +7,9 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,17 @@ La colonne d’ingestion n’est pas disponible sur un panorama dynamique.
 
 La colonne d’ingestion n’est pas disponible sur les panoramas qui font partie d’un workflow. Vous pouvez à la place configurer une colonne de journal pour extraire les cartes de la liste de cartes. Pour plus d’informations sur l’ajout d’une colonne de journal à un panorama dans un workflow, voir [Configuration du journal en souffrance sur un panorama de flux de travail](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
-La colonne d’admission est limitée à 300 tâches et 300 numéros. Ils sont triés par priorité définie sur les éléments. Pour plus d’informations sur la priorité, voir [Mettre à jour la priorité des tâches](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) et [Mise à jour de la priorité des problèmes](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+La colonne d’admission est limitée à 300 tâches et 300 numéros. L&#39;ordre par défaut des éléments dans la colonne d&#39;entrée est le suivant :
+
+Tâches:
+
+* Ordre Principal : nom du projet
+* Ordre Secondaire : structure de ventilation des tâches
+
+Événements:
+
+* Ordre Principal : nom du projet
+* Ordre Secondaire : numéro de référence
 
 Pour plus d’informations sur les colonnes, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Pour plus d’informations sur les cartes connectées, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -54,9 +64,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Création d’une colonne d’entrée à l’aide de filtres simples
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Configurer]** à droite du panorama pour ouvrir le panneau Configurer .
-1. Développer **[!UICONTROL Panorama]**.
+1. Développer **[!UICONTROL board]**.
 1. Activer **[!UICONTROL ingérer dynamiquement des éléments dans le panorama ;]**.
 
    ![Options de filtrage simple des colonnes d’entrée](assets/intake-column-simple-filters.png)
@@ -80,15 +90,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Création d’une colonne d’entrée à l’aide de filtres avancés
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Configurer]** à droite du panorama pour ouvrir le panneau Configurer .
-1. Développer **[!UICONTROL Panorama]**.
+1. Développer **[!UICONTROL board]**.
 1. Activer **[!UICONTROL ingérer dynamiquement des éléments dans le panorama ;]**.
 
    La colonne d’ingestion est ajoutée à gauche du panorama. Il reste vide jusqu’à ce que vous lui appliquiez des filtres.
 
 1. Cliquez sur [!UICONTROL **Utilisation de filtres avancés**].
-1. Cliquez sur **[!UICONTROL Ajout de sources de filtre]** et sélectionnez **[!UICONTROL Tâches]** ou **[!UICONTROL Problèmes]**.
+1. Cliquez sur **[!UICONTROL Ajout de sources de filtre]** et sélectionnez **[!UICONTROL Tâche]** ou **[!UICONTROL Problèmes]**.
 
    ![Options de filtrage avancé de la colonne Ingérer](assets/intake-column-advanced-filters1.png)
 
@@ -120,15 +130,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![Filtre enregistré](assets/intake-filter-dialog8.png)
 
-1. (Facultatif) Pour partager le filtre avec d’autres utilisateurs, passez la souris sur le filtre enregistré, cliquez sur le bouton **[!UICONTROL Plus]** menu ![Icône Plus de menu](assets/more-icon-spectrum.png), puis sélectionnez **[!UICONTROL Partager]**. Sélectionnez les utilisateurs ou les équipes à partager dans la boîte Partage des filtres . Pour plus d’informations, voir [Partage d’un filtre, d’une vue ou d’un regroupement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-1. (Facultatif) Pour inclure à la fois les tâches et les problèmes dans la colonne d’ingestion, cliquez sur **[!UICONTROL Filtrage des sources]** et sélectionnez l’autre objet pour créer un autre filtre.
+1. (Facultatif) Pour partager le filtre avec d’autres utilisateurs, passez la souris sur le filtre enregistré, cliquez sur le bouton **[!UICONTROL Plus]** menu ![Icône Plus de menu](assets/more-icon-spectrum.png), puis sélectionnez **[!UICONTROL Partager]**. Sélectionnez les utilisateurs ou les équipes à partager dans la boîte Partage des filtres . Pour plus d’informations, voir [Partager un filtre, une vue ou un regroupement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. (Facultatif) Pour inclure les tâches et les problèmes dans la colonne d’ingestion, cliquez sur **[!UICONTROL Filtrage des sources]** et sélectionnez l’autre objet pour créer un autre filtre.
 1. Lorsque vous avez terminé d’ajouter des filtres, passez en revue la colonne d’ingestion pour vérifier que les tâches et problèmes corrects apparaissent.
 
    ![Colonne de saisie](assets/intake-column-added3.png)
 
    >[!NOTE]
    >
-   >Vous pouvez à tout moment mettre à jour les filtres en ouvrant le panneau Configurer , en cliquant sur **[!UICONTROL Filtrage des sources]** et en sélectionnant **[!UICONTROL Tâches]** ou **[!UICONTROL Problèmes]**.
+   >Vous pouvez à tout moment mettre à jour les filtres en ouvrant le panneau Configurer , en cliquant sur **[!UICONTROL Filtrage des sources]** et en sélectionnant **[!UICONTROL Tâche]** ou **[!UICONTROL Problèmes]**.
 
 ## Utiliser la colonne d&#39;ingestion
 
