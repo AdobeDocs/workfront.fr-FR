@@ -5,10 +5,10 @@ title: Prise en main de la nouvelle page d’accueil dans Adobe Workfront
 description: New Home est une nouvelle fonctionnalité puissante pour gérer votre travail.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 21%
+source-wordcount: '1048'
+ht-degree: 20%
 
 ---
 
@@ -55,16 +55,65 @@ Les widgets sont la base de New Home. En ajoutant des widgets à votre page d’
 * **À faire**\
     Ce widget unique vous permet d’ajouter des éléments de texte à une liste de contrôle personnelle que vous pouvez modifier librement.
 
-Par défaut, la page d’accueil contient quelques widgets spécifiques en fonction de votre type de licence. Le tableau ci-dessous indique les widgets que les utilisateurs de chaque type de licence voient lorsqu’ils accèdent pour la première fois à la Nouvelle page d’accueil.
+  >[!NOTE]
+  >
+  >Vous devez disposer des autorisations nécessaires pour créer des tâches afin de créer des tâches dans le widget des tâches.
 
-| **Type de licence hérité** | **Widgets par défaut** | **Type de licence actuel** | **Widgets par défaut** |
-|---|---|---|---|
-| Plan | Mes projets, mentions, tâches | Standard | Mes projets, Mon travail, Mentions, Tâches |
-| Travail | Mon Travail, Mentions, Tâches | Léger | Mon travail, en attente de mon approbation, à faire |
-| Vérifier | Mon Travail, Mentions, Tâches | Contributeur | Mon Travail, Mentions, Tâches |
-| Limitée | Mes projets, en attente de mon approbation, à faire | Externe | En attente de mon approbation, tâches |
-| Contributeur | Mon Travail, Mentions, Tâches |  |  |
-| Externe | En attente de mon approbation, tâches |  |  |
+Par défaut, la page d’accueil contient quelques widgets spécifiques en fonction de votre type de licence. Les tableaux ci-dessous indiquent les widgets que les utilisateurs de chaque type de licence voient lorsqu’ils accèdent pour la première fois à la Nouvelle page d’accueil.
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Type de licence actuel</b></td>
+        <td><b>Widgets par défaut</b></td>
+    </tr>
+    <tr>
+        <td>Standard</td>
+        <td>Mes projets, Mon travail, Mentions, Tâches</td>
+    </tr>
+    <tr>
+        <td>Léger</td>
+        <td>Mon travail, en attente de mon approbation, à faire</td>
+    </tr>
+    <tr>
+        <td>Contributeur</td>
+        <td>Mon Travail, Mentions, Tâches</td>
+    </tr>
+    <tr>
+        <td>Externe</td>
+        <td>En attente de mon approbation, tâches</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Type de licence hérité</b></td>
+        <td><b>Widgets par défaut</b></td>
+    </tr>
+    <tr>
+        <td>Plan</td>
+        <td>Mes projets, mentions, tâches</td>
+    </tr>
+    <tr>
+        <td>Travail</td>
+        <td>Mon Travail, Mentions, Tâches</td>
+    </tr>
+    <tr>
+        <td>Vérifier</td>
+        <td>Mon Travail, Mentions, Tâches</td>
+    </tr>
+    <tr>
+        <td>Limitée</td>
+        <td>Mes projets, en attente de mon approbation, à faire</td>
+    </tr>
+    <tr>
+        <td>Contributeur</td>
+        <td>Mon Travail, Mentions, Tâches</td>
+    </tr>
+    <tr>
+        <td>Externe</td>
+        <td>En attente de mon approbation, tâches</td>
+    </tr>
+</table>
 
 Pour plus d’informations sur l’ajout, le déplacement, le redimensionnement ou la suppression de widgets, voir [Ajout, modification ou suppression de widgets dans la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
