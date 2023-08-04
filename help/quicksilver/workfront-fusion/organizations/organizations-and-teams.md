@@ -8,9 +8,9 @@ description: Les fonctionnalités d’organisation et d’équipe d’Adobe Work
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
    </td> 
@@ -42,9 +42,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -74,11 +74,11 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 Un utilisateur possède l’un des rôles suivants dans une organisation :
 
-* **[!UICONTROL Propriétaire]**: Le propriétaire dispose de toutes les autorisations disponibles dans l’organisation.
-* **[!UICONTROL Administration]**: Le rôle d’administrateur permet à un utilisateur de créer et de gérer des équipes et des utilisateurs pour l’organisation.
-* **[!UICONTROL membre]**: Les membres peuvent utiliser [!DNL Workfront Fusion] mais ne peuvent pas apporter de changements organisationnels.
-* **[!UICONTROL Comptable]**: Un rôle de comptable permet uniquement aux utilisateurs d’afficher les informations de licence dans le tableau de bord de l’organisation.
-* **[!UICONTROL Développeur d’applications]**: La fonctionnalité de ce rôle n’est actuellement pas disponible et sera bientôt disponible. Il est déconseillé d’affecter des utilisateurs à ce rôle pour l’instant.
+* **[!UICONTROL Propriétaire]**: le propriétaire dispose de toutes les autorisations disponibles dans l’organisation.
+* **[!UICONTROL Administration]**: le rôle d’administrateur permet à un utilisateur de créer et de gérer des équipes et des utilisateurs pour l’organisation.
+* **[!UICONTROL membre]**: les membres peuvent utiliser [!DNL Workfront Fusion] mais ne peuvent pas apporter de changements organisationnels.
+* **[!UICONTROL Comptable]**: un rôle de comptable permet uniquement aux utilisateurs d’afficher les informations de licence dans le tableau de bord de l’organisation.
+* **[!UICONTROL Développeur d’applications]**: la fonctionnalité de ce rôle n’est actuellement pas disponible et sera bientôt disponible. Il est déconseillé d’affecter des utilisateurs à ce rôle pour l’instant.
 
 ### Invitation d’utilisateurs à une organisation
 
@@ -141,11 +141,13 @@ Les utilisateurs peuvent sélectionner leur équipe dans la liste déroulante du
 
 Un utilisateur possède l’un des rôles suivants dans chacune de ses équipes :
 
-* **[!UICONTROL Administrateur d’équipe]**: Outre les fonctionnalités des autres rôles d’équipe, le rôle d’administrateur permet à l’utilisateur d’ajouter, de supprimer ou de modifier le rôle d’un membre de l’équipe.
-* **[!UICONTROL Membre de l’équipe]**: Le rôle de membre de l’équipe permet aux utilisateurs de créer et d’exécuter des scénarios.
-* **[!UICONTROL Surveillance de l’équipe]**: Le [!UICONTROL monitoring] role permet aux utilisateurs d’accéder aux informations d’exécution pour les scénarios, mais ils ne peuvent pas concevoir de scénarios ou modifier leur état &quot;Principal&quot;.
-* **[!UICONTROL Opérateur d’équipe]**: Le [!UICONTROL operator] Le rôle permet aux utilisateurs d’afficher les données d’exécution et de modifier l’état &quot;Principal&quot; des scénarios.
-* **[!UICONTROL Membre avec restriction de l’équipe]**: La fonctionnalité de ce rôle n’est actuellement pas disponible et sera bientôt disponible. Il est déconseillé d’affecter des utilisateurs à ce rôle pour l’instant.
+* **[!UICONTROL Administrateur d’équipe]**: en plus des fonctionnalités des autres rôles d’équipe, le rôle d’administrateur permet à l’utilisateur d’ajouter, de supprimer ou de modifier le rôle d’un membre de l’équipe.
+* **[!UICONTROL Membre de l’équipe]**: le rôle de membre de l’équipe permet aux utilisateurs de créer et d’exécuter des scénarios.
+* **[!UICONTROL Surveillance de l’équipe]**: la variable [!UICONTROL monitoring] role permet aux utilisateurs d’accéder aux informations d’exécution pour les scénarios, mais ils ne peuvent pas concevoir de scénarios ou modifier leur état &quot;Principal&quot;.
+* **[!UICONTROL Opérateur d’équipe]**: la variable [!UICONTROL operator] Le rôle permet aux utilisateurs d’afficher les données d’exécution et de modifier l’état &quot;Principal&quot; des scénarios.
+* **[!UICONTROL Membre avec restriction de l’équipe]**: la fonctionnalité de ce rôle n’est actuellement pas disponible et sera bientôt disponible. Il est déconseillé d’affecter des utilisateurs à ce rôle pour l’instant.
+
+Pour plus d’informations sur les tâches spécifiques disponibles pour les rôles d’équipe, voir[Rôles de l’organisation et de l’équipe](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Gestion des équipes
 
@@ -159,7 +161,7 @@ Les propriétaires et administrateurs d’organisation peuvent créer des équip
 Pour créer une équipe :
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Organisation]**
-1. Sélectionnez la **[!UICONTROL Équipe]** .
+1. Sélectionnez la variable **[!UICONTROL Équipe]** .
 1. Cliquez sur **[!UICONTROL Ajouter une nouvelle équipe]** sous la liste des équipes.
 1. Saisissez le nom de la nouvelle équipe, puis cliquez sur **Ajouter**.
 
@@ -168,7 +170,7 @@ Pour créer une équipe :
 Les options de notification électronique sont définies au niveau de l’équipe.
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Équipe]**
-1. Sélectionnez la **[!UICONTROL Options de notification]** .
+1. Sélectionnez la variable **[!UICONTROL Options de notification]** .
 1. Activez les notifications que vous souhaitez que l’équipe reçoive.
 
    <table style="table-layout:auto"> 
