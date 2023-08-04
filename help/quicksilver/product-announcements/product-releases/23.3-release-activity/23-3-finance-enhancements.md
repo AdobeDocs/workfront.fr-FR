@@ -3,16 +3,16 @@ title: 23.3 Améliorations apportées à la gestion financière
 description: 23.3 Améliorations apportées à la gestion financière
 author: Lisa
 feature: Product Announcements
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # 23.3 Améliorations apportées à la gestion financière
 
-Cette page décrit toutes les améliorations apportées à la gestion financière avec la version 23.3. Ces améliorations ont été apportées à la version 23.3 des 20 et 21 juillet 2023.
+Cette page décrit toutes les améliorations apportées à la gestion financière avec la version 23.3.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.3, voir [Présentation de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
