@@ -7,9 +7,9 @@ description: Vous pouvez ajouter des utilisateurs aux organisations dans Adobe W
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Pour plus d’informations sur l’ajout d’un utilisateur dans la variable[!DNL  Adobe Admin Console], reportez-vous à la section &quot;Modifier les détails de l’utilisateur&quot; de l’article [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) ou contactez votre [!UICONTROL Adobe Admin Console] Administrateur.
 >
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, reportez-vous à la section [Différences d’administration basées sur les plateformes (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
+>Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
 ## Exigences d’accès
 
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
    <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
    </td>
@@ -51,9 +51,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -74,11 +74,11 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 <p>La procédure d’ajout d’un utilisateur à votre organisation Fusion varie selon que votre organisation a été intégrée à Adobe Business Platform. </p>
 <ul>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Ajout d’un utilisateur à une organisation intégrée à Adobe Business Platform</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Ajout d’un utilisateur à une organisation qui a été intégrée à Adobe Business Platform</a> </p> </li>
 <li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Ajout d’un utilisateur à une organisation qui n’a pas été intégrée à Adobe Business Console</a> </p> </li>
 </ul>
 <div>
-<p><strong>Ajout d’un utilisateur à une organisation intégrée à Adobe Business Platform</strong></p>
+<p><strong>Ajout d’un utilisateur à une organisation qui a été intégrée à Adobe Business Platform</strong></p>
 <p>Si votre entreprise a été intégrée à Adobe Business Platform, vous devez effectuer cette action via Adobe Admin Console.</p>
 <p>Pour plus d’informations sur l’ajout d’un utilisateur dans Adobe Admin Console :</p>
 <ul>
@@ -105,4 +105,4 @@ Pour ajouter un utilisateur à l’organisation :
 >
 >   <p>Pour plus d’informations sur l’ajout d’un utilisateur à une organisation intégrée au [!DNL Adobe Business Platform], voir <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Ajout d’un utilisateur à une organisation qui a été intégrée au [!DNL Adobe Business Platform]</a></p>
 
-L’utilisateur reçoit un courrier électronique d’invitation par lequel il peut accepter l’invitation en cliquant sur une [!UICONTROL Acceptation du rôle] bouton .
+L’utilisateur reçoit un courrier électronique lui permettant d’accepter l’invitation.
