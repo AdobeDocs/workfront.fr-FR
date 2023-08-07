@@ -5,7 +5,7 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Configuration des notifications d’événement pour tous les membres du système
+
+<!--look for the "hidden" addition below for the tab redesign - August 2023-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -61,16 +63,20 @@ Vous devez activer les notifications dans la zone Configuration de Workfront pou
 
 >[!TIP]
 >
->Vous ne pouvez pas activer les notifications pour les objectifs Workfront dans la zone Configuration . Les utilisateurs ne peuvent activer ces notifications que dans leurs profils. Les utilisateurs qui disposent de licences d’abonnement peuvent les activer pour d’autres utilisateurs. Pour plus d’informations sur l’activation des notifications Workfront Goals pour les utilisateurs, voir [Notifications : Objectifs](../../../workfront-basics/using-notifications/notifications-goals.md).
+>Vous ne pouvez pas activer les notifications pour les objectifs Workfront dans la zone Configuration . Les utilisateurs ne peuvent activer ces notifications que dans leurs profils. Les utilisateurs qui disposent de licences d’abonnement peuvent les activer pour d’autres utilisateurs. Pour plus d’informations sur l’activation des notifications Workfront Goals pour les utilisateurs, voir [Notifications : objectifs](../../../workfront-basics/using-notifications/notifications-goals.md).
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Email** > **Notifications**.
 
+   <!--hidden shot for the tab redesign - make live in August 2023:
+   ![](assets/notifications-area-under-setup-emails.png)
+   -->
+
 1. Assurez-vous que la variable **Notifications d’événement** est ouvert.
 1. Cliquez sur le sélecteur situé à gauche du nom de l’événement pour l’activer ou le désactiver.
 
-   Pour afficher l’état de notification par défaut d’un événement, reportez-vous à la section [Notifications d’événements](../../../workfront-basics/using-notifications/event-notifications.md).
+   Pour afficher l’état de notification par défaut d’un événement, voir [Notifications d’événements](../../../workfront-basics/using-notifications/event-notifications.md).
 
 1. (Facultatif) Cliquez sur le nom d’une notification d’événement pour personnaliser l’objet de la notification par e-mail.
 

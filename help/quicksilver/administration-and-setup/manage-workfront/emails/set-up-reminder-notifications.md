@@ -5,14 +5,16 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1142'
 ht-degree: 1%
 
 ---
 
 # Configuration des notifications de rappel
+
+<!--hidden content for the tab redesign in August 2023-->
 
 Les notifications de rappel envoient des emails aux destinataires selon des critères spécifiés. En tant qu’administrateur Adobe Workfront ou utilisateur disposant d’un niveau d’accès Planificateur et d’un accès administratif aux notifications de rappel, vous pouvez associer manuellement les notifications de rappel à vos tâches, telles que les projets, les tâches, les problèmes et les feuilles de temps.
 
@@ -52,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Personnalisation de l’email de rappel
 
-Vous pouvez personnaliser la notification de rappel à l’aide d’un courrier électronique personnalisé qui comprend un objet et un corps de courrier électronique personnalisés. Le corps du courrier électronique peut contenir un HTML personnalisé.
+Vous pouvez personnaliser la notification de rappel à l’aide d’un email personnalisé qui comprend un objet et un corps de courrier électronique personnalisés. Le corps du courrier électronique peut contenir un HTML personnalisé.
 
 Vous pouvez également utiliser l&#39;email par défaut inclus dans la notification de rappel. L’e-mail par défaut utilise le nom de la notification de rappel comme objet de l’e-mail et le nom de l’objet dans le corps de l’e-mail, y compris l’événement qui a déclenché la notification.
 
@@ -64,9 +66,12 @@ Pour plus d’informations sur la création d’un modèle de courrier électron
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Email** > **Notifications**.
+1. Cliquez sur **Email** > **Notifications** > **Notifications de rappel**.
 
-1. Cliquez sur le bouton **Notifications de rappel** , puis cliquez sur **Nouvelle notification de rappel**.
+   <!--hidden for the tab redesign for August 2023:
+   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   -->
+1. Cliquez sur **Nouvelle notification de rappel**.
 
 1. Dans la liste déroulante, cliquez sur le type d&#39;objet à associer à la notification de rappel.
 

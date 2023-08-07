@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # Créer un processus d’approbation pour les tâches
+
+<!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
 Vous pouvez créer un processus d’approbation que les utilisateurs peuvent joindre à un élément de travail (projet, tâche, problème, modèle ou tâche de modèle), un document ou un BAT. Un processus d’approbation garantit que les personnes désignées sur l’objet révisent certaines modifications avant que l’objet ne progresse dans le système.
 
@@ -55,7 +57,7 @@ Vous devez disposer des éléments suivants :
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
    <td> <p>Si vous êtes administrateur de Workfront ou si vous avez un accès administratif aux processus d’approbation, vous pouvez créer un processus d’approbation au niveau du système ou un processus d’approbation au niveau du groupe pour un groupe particulier.</p> 
-   <p>Si vous êtes administrateur de groupe, vous pouvez créer des processus d’approbation au niveau du groupe pour les groupes que vous gérez.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <p>Si vous êtes administrateur de groupe, vous pouvez créer des processus d’approbation au niveau du groupe pour les groupes que vous gérez.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,13 +68,17 @@ Vous devez disposer des éléments suivants :
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. (Conditionnel) Si vous créez un processus d’approbation au niveau du système, cliquez sur **Traitements** > **Approbations** dans le panneau de gauche.
+1. (Conditionnel) Si vous créez un processus d’approbation au niveau du système, cliquez sur **Processus** > **Approbations** dans le panneau de gauche.
 
    Ou
 
    Si vous créez un processus d’approbation au niveau du groupe, cliquez sur **Groupes** ![](assets/groups-icon.png), cliquez sur le nom du groupe, puis sur **Approbations**.
 
-1. Cliquez sur le bouton **Approbations de projet**, **Approbations de tâches** ou **Approbations des problèmes** selon le type de processus de validation que vous souhaitez créer.
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
+
+1. Cliquez sur le bouton **Approbations de projet**, **Approbations de tâches**, ou **Approbations des problèmes** selon le type de processus de validation que vous souhaitez créer.
 
 1. Cliquez sur **Nouveau processus d’approbation**.
 1. Indiquez les informations suivantes dans la zone qui s’affiche :
@@ -83,14 +89,14 @@ Vous devez disposer des éléments suivants :
     <tbody> 
      <tr> 
       <td role="rowheader">Nom du processus d'approbation</td> 
-      <td>Saisissez un nom explicite pour le processus de validation. Les utilisateurs voient ce nom lorsqu’ils appliquent le processus d’approbation à un objet, comme décrit dans la section <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associer un processus d’approbation nouveau ou existant au travail</a>.</td> 
+      <td>Saisissez un nom explicite pour le processus de validation. Ce nom est visible par les utilisateurs lors de l’application du processus d’approbation à un objet, comme décrit dans la section <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associer un processus d’approbation nouveau ou existant au travail</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
       <td>Saisissez une description du processus de validation. Cela s’affiche dans la variable <b>Approbations</b> dans la section <b>Configuration</b> en regard du nom du processus d’approbation.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Est actif</td> 
+      <td role="rowheader">Est active</td> 
       <td> <p>Laissez cette option activée si vous souhaitez que d’autres utilisateurs puissent joindre le processus d’approbation aux projets, tâches et problèmes qu’ils créent. </p> <p>Cette option est activée par défaut.</p> <p> Le fait de marquer un processus d’approbation comme inactif s’avère utile lorsque votre entreprise n’a plus besoin de l’utiliser, mais que vous souhaitez conserver des informations historiques sur son utilisation.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -98,10 +104,10 @@ Vous devez disposer des éléments suivants :
       <td> <p>Si vous souhaitez que le processus d’approbation soit disponible pour les projets, tâches, problèmes et modèles appartenant uniquement à un groupe particulier, commencez à saisir le nom du groupe, puis sélectionnez le nom qui s’affiche :</p> 
        <ul> 
        <li>Si vous êtes administrateur système ou que vous avez un accès administratif aux processus d’approbation, n’importe quel groupe du système apparaît lorsque vous saisissez son nom. <b>Tous les groupes</b> est sélectionné par défaut. </li> 
-       <li>Si vous êtes un administrateur de groupe sans accès administratif aux processus de validation, vous pouvez attribuer le processus de validation à n'importe quel groupe que vous gérez lorsque vous saisissez son nom. Le <b>Tous les groupes</b> n’est pas disponible.</li> 
+       <li>Si vous êtes un administrateur de groupe sans accès administratif aux processus de validation, vous pouvez attribuer le processus de validation à n'importe quel groupe que vous gérez lorsque vous saisissez son nom. La variable <b>Tous les groupes</b> n’est pas disponible.</li> 
        </ul> 
        <p>Cette option n’est pas disponible pour les processus de validation à usage unique.</p> 
-       <p><b>AVERTISSEMENT</b>: Lorsque vous apportez des modifications au processus d’approbation spécifique au groupe, les processus d’approbation existants qui ont déjà été associés à des tâches peuvent changer. Pour plus d’informations sur ces modifications, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?</a>.</p> 
+       <p><b>Avertissement</b>: lorsque vous apportez des modifications au processus d’approbation spécifique au groupe, les processus d’approbation existants qui ont déjà été associés à des tâches peuvent changer. Pour plus d’informations sur ces modifications, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?</a>.</p> 
        <p>Pour plus d’informations sur la liste et la gestion des processus d’approbation de votre groupe à partir de la page de votre groupe, voir <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processus de validation au niveau du groupe</a>. </p> 
        <p>Pour plus d’informations sur l’accès administratif aux processus de validation, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
      </tr> 
@@ -126,7 +132,7 @@ Vous devez disposer des éléments suivants :
      </tr> 
      <tr> 
       <td role="rowheader">Nom de l'étape</td> 
-      <td>(Facultatif) Saisissez un nom décrivant la première étape du chemin. Si vous ne spécifiez pas de nom d’étape, le nom par défaut est <b>Phase 1</b>.</td> 
+      <td>(Facultatif) Saisissez un nom décrivant la première étape du chemin. Si vous n’indiquez pas de nom d’étape, le nom par défaut est <b>Phase 1</b>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Approbateurs</td> 
@@ -161,14 +167,14 @@ Vous devez disposer des éléments suivants :
       <td>(Facultatif) Ajoutez une autre étape au chemin à l’aide des options expliquées dans les trois lignes ci-dessus. Vous pouvez ajouter autant d’étapes que nécessaire au chemin.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Choisissez ce qui se passe lorsque la validation est rejetée</p> </td> 
+      <td role="rowheader">Choisissez ce qui se passe lorsque la validation est rejetée.</p> </td> 
       <td> <p>Sélectionnez l’action que vous souhaitez entreprendre si l’élément de travail est rejeté à n’importe quelle étape du chemin :</p> 
        <ul> 
-       <li><b>Création d’un problème</b>: (Disponible uniquement pour les processus d’approbation de projet et de tâche) Un problème est créé dans le projet ou la tâche où le processus d’approbation est en cours d’exécution. La ressource affectée par défaut sur la tâche ou le propriétaire du projet est affecté au problème. Par défaut, le nom du problème créé est <b>Validation Rejetée (&lt;project or="" task="" name=""&gt;)</b>. Il s’agit d’un problème de rejet, saisi sous la tâche ou le projet, selon le processus d’approbation où le rejet s’est produit.</li> 
-       <li> <p><b>Définir l’état sur</b>: Sélectionnez l’une des options suivantes :</p> 
+       <li><b>Création d’un problème</b>: (disponible uniquement pour les processus d’approbation de projet et de tâche) un problème est créé dans le projet ou la tâche où le processus d’approbation est en cours d’exécution. La ressource affectée par défaut sur la tâche ou le propriétaire du projet est affecté au problème. Par défaut, le nom du problème créé est <b>Validation Rejetée (&lt;project or="" task="" name=""&gt;)</b>. Il s’agit d’un problème de rejet, saisi sous la tâche ou le projet, selon le processus d’approbation au cours duquel le rejet s’est produit.</li> 
+       <li> <p><b>Définir l’état sur</b>: sélectionnez l’une des options suivantes :</p> 
        <ul> 
-       <li><b>État précédent</b>: Le projet, la tâche ou le problème rejeté revient à l’état avant l’état qui active le processus d’approbation.</li> 
-       <li><p><b>Tout autre état de la liste</b>: L’objet rejeté passe à l’état que vous choisissez, comme En attente. Vous pouvez choisir l’un des états par défaut ou un état personnalisé que vous avez ajouté à votre système Workfront.</p>
+       <li><b>État précédent</b>: le projet, la tâche ou le problème rejeté revient à l’état avant l’état qui active le processus d’approbation.</li> 
+       <li><p><b>Tout autre état de la liste</b>: l’objet rejeté passe à l’état que vous choisissez, comme En attente. Vous pouvez choisir l’un des états par défaut ou un état personnalisé que vous avez ajouté à votre système Workfront.</p>
        <p>Si vous sélectionnez comme statut de rejet un statut associé à un processus de validation, l'objet rejeté passe au statut sélectionné et sera marqué comme "En attente de validation".</p> 
        <p> Par exemple, si vous sélectionnez En attente pour le statut de rejet et que le statut En attente est associé à un processus de validation, l'objet rejeté est placé dans le statut "En attente - En attente de validation", ce qui nécessite la validation.</p>
 
@@ -199,7 +205,7 @@ Pour obtenir des instructions sur l’association d’un processus d’approbati
 >
 >Tout utilisateur de Workfront disposant d’autorisations de gestion pour un projet, une tâche ou un problème peut créer des processus d’approbation à usage unique à utiliser uniquement sur l’objet dans lequel ils sont créés. Pour plus d’informations, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-## Permettre aux utilisateurs de modifier les processus d’approbation globaux pour un seul élément de travail
+## Permettre aux utilisateurs de modifier les processus d’approbation globaux pour une seule tâche
 
 Par défaut, les utilisateurs qui disposent d’autorisations de gestion pour les projets, tâches et problèmes peuvent créer des processus d’approbation à usage unique. Pour plus d’informations sur l’ajout de processus d’approbation à usage unique aux projets, tâches et problèmes, voir la section [Associer un processus d’approbation à usage unique à une tâche de projet, de tâche, de problème, de modèle ou de modèle](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) dans l’article [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 

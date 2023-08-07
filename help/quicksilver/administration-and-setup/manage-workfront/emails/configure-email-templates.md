@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -51,9 +51,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Dans le panneau de gauche, cliquez sur **Email** > **Notifications**.
+1. Dans le panneau de gauche, cliquez sur **Email** > **Notifications**> **Modèles de courrier électronique**.
 
-1. Cliquez sur le bouton **Modèles de courrier électronique** , puis cliquez sur **Nouveau modèle de courrier électronique**.
+<!--hidden for tab redesign - August 2023: 
+  ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+  -->
+
+1. Cliquez sur **Nouveau modèle de courrier électronique**.
 
 1. Dans le **Nouveau modèle de courrier électronique** qui s’affiche, indiquez les informations suivantes :
 
@@ -62,23 +66,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Modèle de courrier électronique</td> 
+      <td role="rowheader">Nom</td> 
       <td>Titre du modèle d’email (obligatoire).</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Description</td> 
-      <td>Description du modèle.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type d’objet</td> 
       <td>Indiquez le type d’objet avec lequel vous souhaitez associer le modèle (obligatoire, il sera défini par défaut sur "Problème").</td> 
-     </tr> 
+     </tr>
      <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Description du modèle.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Objet </td> 
       <td>Objet affiché lors de l’envoi du message électronique (obligatoire).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
+      <td role="rowheader">Corps </td> 
       <td> <p>Contenu affiché lors de l’envoi du message électronique.</p> <p>Vous pouvez utiliser la mise en forme par HTML pour le contenu de l’email, comme décrit dans la section <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Ajouter un formatage de HTML à un modèle de courrier électronique</a> dans cet article.</p> </td> 
      </tr> 
     </tbody> 
@@ -129,7 +134,7 @@ Pour obtenir la valeur &quot;caractère générique&quot; d’un objet, effectue
 
 * Utilisez la valeur &quot;valueField&quot; que vous trouvez dans une vue en mode texte d’un rapport. Pour plus d’informations sur les valeurs du mode texte, voir [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-   La valeur &quot;titre&quot; peut être le nom de l’objet, car vous souhaitez qu’il apparaisse dans le corps de l’email.
+  La valeur &quot;titre&quot; peut être le nom de l’objet, car vous souhaitez qu’il apparaisse dans le corps de l’email.
 
 ### Lien vers des champs personnalisés avec HTML {#link-to-custom-fields-with-html}
 
@@ -192,7 +197,7 @@ Remplacer `<your domain>` avec le domaine Workfront de votre entreprise, sans le
 
 **Objet:**
 
-Un Projet Que Vous Gérez Est Devenu En Retard
+Un Projet Que Vous Gérer Est Devenu En Retard
 
 **Contenu:**
 
@@ -271,4 +276,4 @@ Pour l’utiliser pour un message électronique de problème, modifiez la variab
 
 ![email_template_delivered.png](assets/email-template-delivered.png)
 
-Une fois un modèle d’email créé, les utilisateurs peuvent l’associer aux notifications de rappel, comme décrit dans la section [Configuration des notifications de rappel](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Une fois un modèle d’email créé, les utilisateurs peuvent l’associer à des notifications de rappel, comme décrit dans la section [Configuration des notifications de rappel](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
