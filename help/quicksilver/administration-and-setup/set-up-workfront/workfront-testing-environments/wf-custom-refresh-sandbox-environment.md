@@ -3,20 +3,20 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Le [!DNL Adobe Workfront] Environnement Sandbox d’actualisation personnalisée
+title: La variable [!DNL Adobe Workfront] Environnement Sandbox d’actualisation personnalisée
 description: L’environnement de test d’actualisation personnalisée est un environnement dans lequel vous pouvez tester et travailler à l’aide des données de votre environnement de production. Il est également idéal pour exécuter des formations et déterminer les fonctionnalités de configuration.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1555'
 ht-degree: 0%
 
 ---
 
-# Le [!DNL Adobe Workfront] Environnement Sandbox d’actualisation personnalisée
+# La variable [!DNL Adobe Workfront] Environnement Sandbox d’actualisation personnalisée
 
 L’environnement de test d’actualisation personnalisée est un environnement dans lequel vous pouvez tester et travailler à l’aide des données de votre environnement de production. Il est également idéal pour exécuter des formations et déterminer les fonctionnalités de configuration.
 
@@ -29,7 +29,7 @@ L’environnement de test d’actualisation personnalisée est un environnement 
 >
 >  En outre, l’obtention de l’environnement de test d’actualisation personnalisée qui n’est pas requis pour l’environnement de test d’aperçu entraîne des frais supplémentaires.
 >
->  Pour plus d’informations sur l’aperçu de l’environnement de test, voir [Le [!DNL Adobe Workfront] Aperçu de l’environnement de test](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Pour plus d’informations sur l’aperçu de l’environnement de test, voir [La variable [!DNL Adobe Workfront] Aperçu de l’environnement de test](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 
 ## Exigences d’accès
@@ -49,7 +49,7 @@ Vous devez disposer des éléments suivants :
    <td> <p>[!UICONTROL Plan] </p> <p>Vous devez être un [!DNL Workfront] administrateur. Pour plus d’informations sur [!DNL Workfront] administrateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Package de prise en charge</td> 
+   <td role="rowheader">Package de support</td> 
    <td> <p>[!UICONTROL Plus], [!UICONTROL Privilégié] ou [!UICONTROL Enterprise]</p> <p>Le package de prise en charge standard n’a pas accès à l’environnement de test d’actualisation personnalisée, mais il a accès à l’environnement de test d’aperçu.</p> </td> 
   </tr> 
  </tbody> 
@@ -62,9 +62,9 @@ L’environnement de test d’actualisation personnalisée contient vos données
 >[!NOTE]
 >
 >* Vous ne pouvez pas planifier une actualisation pour le jour en cours. Si, par exemple, la date d’aujourd’hui est le 1er juin, la date la plus proche à laquelle vous pouvez planifier une actualisation est le 2 juin.
+>* L’actualisation planifiée a lieu à 00h00 à la date donnée, selon le fuseau horaire de l’utilisateur qui a envoyé la demande.
 >* Votre environnement de test d’actualisation personnalisée comporte toujours les mêmes fonctionnalités de produit que votre environnement de production. Cependant, lorsque vous actualisez votre environnement de test d’actualisation personnalisée, la valorisation de marque n’est conservée que pour la couleur d’arrière-plan de l’écran de connexion. L’écran de connexion et les logos de la barre de navigation sont réinitialisés sur [!DNL Workfront] les valeurs par défaut et les images de marque que vous avez modifiées avant l’actualisation ne s’affichent pas.
 >
-
 
 
 
@@ -90,7 +90,7 @@ Pour accéder à votre sandbox d’actualisation personnalisée :
 
 1. Dans le **[!UICONTROL Environnement de test]** , cliquez sur **[!UICONTROL Sandbox 1]** ou **[!UICONTROL Sandbox 2]**.
 
-   Votre module d’assistance indique si vous avez accès à un ou deux environnements de test d’actualisation personnalisée.
+   Votre module de prise en charge indique si vous avez accès à un ou deux environnements de test d’actualisation personnalisée.
 
 1. Connectez-vous à l’aide de vos informations d’identification Sandbox d’actualisation personnalisée.
 
@@ -132,15 +132,15 @@ Pour accéder à votre sandbox d’actualisation personnalisée à l’aide d’
 
 1. Accédez à cette URL si vous n’avez qu’un sandbox d’actualisation personnalisée :
 
-   https://companyname.sb01.workfront.com (ancienne URL):https://cr3.attasksandbox.com)
+   https://companyname.sb01.workfront.com (ancienne URL):https:/cr3.attasksandbox)
 
    Ou
 
    Accédez à l’une de ces URL si vous disposez de deux sandbox d’actualisation personnalisée :
 
-   https://companyname.sb01.workfront.com (ancienne URL):https://cr3.attasksandbox.com)
+   https://companyname.sb01.workfront.com (ancienne URL):https:/cr3.attasksandbox)
 
-   https://companyname.sb02.workfront.com (ancienne URL):https://cr4.attasksandbox.com)
+   https://companyname.sb02.workfront.com (ancienne URL):https:/cr4.attasksandbox)
 
 1. Dans l’écran de connexion, connectez-vous à l’aide de vos informations d’identification Sandbox d’actualisation personnalisée.
 
