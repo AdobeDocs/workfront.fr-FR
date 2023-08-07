@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des processus de validation</p> </td> 
+   <td> <p>Créer et gérer des processus d’approbation</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
@@ -229,3 +229,11 @@ Ce tableau répertorie les activités d’administration disponibles pour :
 &#42; Au niveau d&#39;accès de l&#39;administrateur du groupe, **Modifier** doit être sélectionné pour la variable **Utilisateurs** avec **Administration des utilisateurs (utilisateurs de groupe)** sélectionné sous **Ajuster vos paramètres** ![](assets/gear-icon-in-access-levels.png). Pour plus d’informations, voir la section [Configurer l’accès des utilisateurs à la modification des utilisateurs à l’aide d’un niveau d’accès personnalisé](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) dans l’article [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; Au niveau d’accès de l’administrateur du groupe, l’accès à cette action doit être activé. Pour plus d’informations, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+Les activités suivantes ne sont disponibles que pour les administrateurs de groupes et de sous-groupes lorsque leurs organisations utilisent le plan Prime ou Ultimate. Ces activités spécifiques peuvent également être appelées &quot;contrôles avancés de l’entreprise&quot;. Voir [Page de tarification et de conditionnement d’Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) pour plus d’informations sur les plans. (Pour les organisations qui utilisent les plans hérités, le tableau ci-dessus montre les activités pour les administrateurs de groupes et de sous-groupes.)
+
+* Configuration des préférences de projet, de tâche et de problème
+* Configuration des préférences de feuille de temps et d’heure
+* Configuration des emails de notification d’événement
+* Créer et gérer des processus d’approbation
+* Création et gestion des sous-groupes
