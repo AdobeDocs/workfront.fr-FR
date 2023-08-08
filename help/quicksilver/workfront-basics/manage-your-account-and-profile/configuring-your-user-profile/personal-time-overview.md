@@ -7,9 +7,9 @@ description: Adobe Workfront n’est pas conçu pour répliquer ou remplacer vos
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td>[!UICONTROL Manager] avec l’accès [!UICONTROL Modifier l’utilisateur] (pour modifier le calendrier des jours fériés des autres utilisateurs)<br>
+   <td>[!UICONTROL Manager] avec l’accès [!UICONTROL Modifier l’utilisateur] (pour modifier le calendrier des heures d’autres utilisateurs)<br>
    <strong>REMARQUE :</strong> Si un responsable modifie le calendrier des heures de congé personnel d’un autre utilisateur, toutes les entrées s’affichent dans le fuseau horaire de l’utilisateur et non dans celui du responsable.</td> 
   </tr> 
  </tbody> 
@@ -63,10 +63,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Configuration du temps de connexion personnel [!DNL Workfront]
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, cliquez sur votre nom d’utilisateur en regard de votre image de profil. Ou (le cas échéant), cliquez sur l’image de profil dans la zone de navigation supérieure, puis cliquez sur **[!UICONTROL Profil Workfront]**.
-1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Time Off]**.
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Heure de désactivation]**.
 1. Sélectionnez la date de votre jour de congé personnel.
-1. Sélectionner **[!UICONTROL Toute la journée]**, si vous prenez une journée complète de congé.\
+
+   ![Calendrier du temps libre](assets/personal-time-off-calendar.png)
+
+1. Sélectionner **[!UICONTROL Toute la journée]**, si vous prenez une journée complète de congé.
+
    Laissez cette option désélectionnée si vous prenez moins d’une journée de congé et indiquez les heures de début et de fin de votre congé.
 
-1. Cliquer sur **[!UICONTROL Enregistrer]**.\
+1. Cliquer sur **[!UICONTROL Enregistrer]**.
+
    Votre heure de congé est maintenant visible dans les [!DNL Workfront] système dans les outils de gestion des ressources tels que le planificateur de ressources et l’équilibreur de charge de travail. Lorsqu’une tâche vous est affectée pendant cette période, une info-bulle s’affiche pour informer l’utilisateur que vous avez programmé un congé.

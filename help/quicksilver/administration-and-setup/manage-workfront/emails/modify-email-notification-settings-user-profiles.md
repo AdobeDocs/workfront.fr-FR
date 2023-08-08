@@ -9,7 +9,7 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -22,7 +22,10 @@ Si vous êtes administrateur Adobe Workfront ou si vous disposez d’un niveau d
 
 Lorsque vous configurez les paramètres de notification en bloc, vous ne pouvez modifier que les paramètres communs aux utilisateurs sélectionnés.
 
-Vous pouvez également configurer des notifications électroniques pour un utilisateur à la fois, y compris votre propre profil. Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>[!NOTE]
+>
+>Vous pouvez également configurer des notifications électroniques pour un utilisateur à la fois, y compris votre propre profil. Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
 
 ## Exigences d’accès
 
@@ -43,12 +46,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur Workfront.
+&#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur Workfront.
 
 ## Modification en masse des paramètres de notification électronique de plusieurs utilisateurs
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png). Sélectionnez les utilisateurs, puis cliquez sur **Modifier**.
-1. Dans le **Modifier la personne** s’affiche, cliquez sur **Notifications**.
+1. Dans le **Modifier la personne** qui s’affiche, cliquez sur **Notifications**.
 
 1. Développez une catégorie pour afficher les paramètres de notification associés à cette catégorie.
 
