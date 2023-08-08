@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1127'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 4%
 >
 >   La nouvelle expérience de commentaire est la seule expérience pour les objectifs et les cartes. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->     Vous pouvez ajouter et afficher des mises à jour aux cartes dans la zone Panoramas lorsque vous activez les sections Commentaires et Activité système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+>     Vous pouvez ajouter et afficher des mises à jour aux cartes dans la zone Panoramas lorsque vous activez les sections Commentaires et Activité système sur une carte. Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
 
@@ -51,83 +51,99 @@ Les informations de la section Mises à jour sont organisées différemment selo
 
 ### Présentation de la section Mises à jour actuelles
 
-La section Mises à jour d’un objet affiche jusqu’à 200 des mises à jour les plus récentes effectuées au cours des 90 derniers jours.
+* La section Mises à jour d’un objet affiche jusqu’à 200 des mises à jour les plus récentes effectuées au cours des 90 derniers jours.
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-La section Mises à jour actuelles affiche les informations suivantes :
+* La section Mises à jour s’affiche pour les objets suivants :
 
-* Commentaires des utilisateurs et réponses à ces commentaires.
-* Mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>Documents</li> 
+      <li>Objectifs</li> 
+      <li>Événements</li> 
+      <li>Itérations</li> 
+      <li>Projets</li> 
+      <li>Programmes</li> 
+      <li>Portefeuilles</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>Histoires*</li> 
+      <li>Tâches</li> 
+      <li>Modèles</li> 
+      <li>Tâches de modèles</li> 
+      <li>Feuilles de temps</li> 
+      <li>Utilisateurs et utilisatrices</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-La section Mises à jour s’affiche pour les objets suivants :
+  *Les histoires sont des tâches. Toutes les informations relatives aux tâches sont également disponibles pour les articles.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Documents</li> 
-     <li>Objectifs</li> 
-     <li>Événements</li> 
-     <li>Itérations</li> 
-     <li>Projets</li> 
-     <li>Programmes</li> 
-     <li>Portefeuilles</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Histoires*</li> 
-     <li>Tâches</li> 
-     <li>Modèles</li> 
-     <li>Tâches de modèles</li> 
-     <li>Feuilles de temps</li> 
-     <li>Utilisateurs et utilisatrices</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*Les histoires sont des tâches. Toutes les informations relatives aux tâches sont également disponibles pour les articles.
+* La section Mises à jour actuelles affiche les informations suivantes :
+
+   * Mises à jour des utilisateurs : commentaires effectués par les utilisateurs et réponses à ces commentaires.
+   * Mises à jour système : messages d’informations créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* Les objets suivants n’enregistrent pas les mises à jour du système :
+
+   * Équipe
+   * Modèle
+   * Tâche de modèle
 
 ### Présentation de la section Mises à jour dans la version bêta des commentaires
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle expérience de commentaire et pour les objets, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-La section Mises à jour affiche des informations dans les onglets suivants de la nouvelle expérience de commentaire :
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Commentaires**: Affiche les commentaires des utilisateurs et les réponses à ces commentaires. Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
-* **Activité du système**: Affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* La section Mises à jour affiche des informations dans les onglets suivants de la nouvelle expérience de commentaire :
 
-Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jour à l’aide de la nouvelle expérience de commentaire sur les objets suivants :
+   * **Commentaires**: affiche les commentaires effectués par les utilisateurs et les réponses à ces commentaires. Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Activité du système**: affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Objectifs</p>
-     <li>Cartes dans la zone Panoramas*</li>
-      Il s’agit de la seule expérience pour les objectifs et les cartes.
-     </li> 
-     <li>Projets</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Événements</li> 
-     <li>Tâches</li>
-     <li>Documents</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jour à l’aide de la nouvelle expérience de commentaire sur les objets suivants :
 
-*Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+  <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>Objectifs</p>
+        <li>Cartes dans la zone Panoramas*</li>
+          Il s’agit de la seule expérience pour les objectifs et les cartes.
+        </li> 
+        <li>Projets</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>Événements</li> 
+        <li>Tâches</li>
+        <li>Documents</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+  *Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## Mises à jour qui apparaissent également sur les objets de rang supérieur
 
@@ -178,7 +194,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
    <td>Portfolio</td> 
   </tr> 
   <tr> 
-   <td>Utilisateur ou utilisatrice</td> 
+   <td>Utilisateur</td> 
    <td>Équipe</td> 
   </tr> 
   <tr> 

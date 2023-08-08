@@ -6,14 +6,16 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '3471'
+source-wordcount: '3486'
 ht-degree: 1%
 
 ---
 
 # Mise à jour du travail
+
+<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
 <!--take "Beta" references out when we remove the beta-->
 
@@ -40,14 +42,20 @@ ht-degree: 1%
 >
 >   La nouvelle expérience de commentaire est la seule expérience pour les objectifs et les cartes. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->     Vous pouvez ajouter et afficher des mises à jour aux cartes dans la zone Panoramas lorsque vous activez les sections Commentaires et Activité système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+>     Vous pouvez ajouter et afficher des mises à jour aux cartes dans la zone Panoramas lorsque vous activez les sections Commentaires et Activité système sur une carte. Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 
 ## Observations relatives à la mise à jour du travail
 
 * Vous pouvez ajouter des commentaires à la plupart des objets dans Adobe Workfront dans la section Mises à jour . Pour plus d’informations sur les objets qui affichent la section Mises à jour, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* Vous pouvez ajouter une mise à jour sur un objet Workfront (projet, tâche ou problème) pour communiquer sur la progression de l’objet, lorsque vous mettez en commentaire l’objet. Les utilisateurs affectés ou abonnés à l’objet peuvent afficher votre mise à jour.
+* Vous pouvez ajouter des commentaires aux objets Workfront à partir d’autres applications intégrées à Workfront ou à partir de l’application mobile Workfront.
+
+  Toutes les applications intégrées à Workfront n’ont pas la possibilité d’ajouter des commentaires aux objets Workfront.
+
+  Toutes les fonctions disponibles dans la section Mises à jour d’un objet dans Workfront ne le sont pas dans d’autres applications lors de l’accès aux objets Workfront à partir de l’application. Par exemple, les fonctionnalités de texte enrichi ou la définition d’un commentaire privé pour la société d’une personne peuvent ne pas être disponibles lors de l’ajout de commentaires à un objet Workfront à partir d’une application tierce.
+
+* Vous pouvez communiquer sur la progression d’un objet Workfront (projet, tâche ou problème) lorsque vous commentez l’objet. Les utilisateurs affectés ou abonnés à l’objet peuvent recevoir une notification à propos de votre mise à jour. Toute personne disposant de l’accès Afficher à l’objet peut afficher votre mise à jour.
 
 * Vous pouvez marquer les utilisateurs pour attirer leur attention sur la mise à jour. Les utilisateurs balisés reçoivent une notification in-app et un e-mail concernant votre mise à jour.
 
@@ -62,14 +70,13 @@ ht-degree: 1%
 
    * Dans la section Mises à jour d’un objet Workfront
    * Dans la zone Accueil (pour les tâches et les problèmes)
-   * Dans le panneau Résumé d’une liste d’objets (pour les tâches et les problèmes)
-   * À partir de la feuille de temps (pour les tâches et les problèmes)
+   * Dans le panneau Résumé d’une liste d’objets ou d’une feuille de temps (pour les tâches et les problèmes)
 
 Les informations de cette page vous expliquent comment ajouter des commentaires aux objets Workfront et comment mettre à jour des projets, des tâches et des problèmes.
 
 Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md). Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront.
 
-Pour plus d’informations sur les commentaires sur les cartes dans la zone Panoramas, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+Pour plus d’informations sur les commentaires sur les cartes dans la zone Panoramas, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Exigences d’accès
 
@@ -119,7 +126,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Demande ou version ultérieure pour les problèmes et les documents ; Révision ou version ultérieure pour tous les autres objets</p> </td> 
+   <td> <p>Demande ou version ultérieure pour les problèmes et les documents ; révision ou version ultérieure pour tous les autres objets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
@@ -148,12 +155,12 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 >
 >La fonctionnalité suivante est disponible pour tous les objets, à l’exception des objectifs et des cartes. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 >
->Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+>Vous pouvez ajouter et afficher des mises à jour aux cartes dans la zone Panoramas lorsque vous activez les sections Commentaires et Activité système sur une carte. Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
-1. Accédez à l’élément de travail pour lequel vous souhaitez fournir une mise à jour (projet, tâche ou problème, par exemple).
+1. Accédez à l’élément de travail pour lequel vous souhaitez fournir une mise à jour (un projet, une tâche ou un problème, par exemple).
 1. Cliquez sur le bouton **Mises à jour** .
 1. Cliquez sur **Démarrer une nouvelle mise à jour,** saisissez ensuite votre mise à jour.
-1. (Facultatif) Utilisez du texte enrichi ou ajoutez des émoticônes, des liens ou des images à votre mise à jour pour améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) section de cet article
+1. (Facultatif) Utilisez du texte enrichi ou ajoutez des émoticônes, des liens ou des images à votre mise à jour pour améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 1. (Facultatif) Mettez à jour l’une des informations suivantes sur l’élément de travail :
 
    <table style="table-layout:auto"> 
@@ -180,7 +187,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Barre d’achèvement</strong></td> 
-      <td>(Uniquement disponible sur les tâches) Indiquez le pourcentage de travail réalisé en glissant la barre de progression sur le pourcentage souhaité. Vous pouvez également double-cliquer sur la barre d’achèvement et saisir le pourcentage terminé.</td> 
+      <td>(Uniquement disponible sur les tâches) Indiquez le pourcentage de travail réalisé en glissant la barre de progression sur le pourcentage souhaité. Vous pouvez également double-cliquer sur la barre d’achèvement et saisir le pourcentage de remplissage.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Réservé à mon entreprise</strong></td> 
@@ -196,7 +203,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 
    >[!NOTE]
    >
-   >Une petite fenêtre contextuelle s’affiche pendant sept secondes après avoir cliqué **Mettre à jour**, ce qui vous permet d’annuler la mise à jour et de revenir au volet d’édition avant la publication de la mise à jour. La mise à jour sera publiée si vous ignorez la fenêtre contextuelle Annuler, attendez qu’elle disparaisse ou quittez la page.
+   >Une petite fenêtre contextuelle s’affiche pendant sept secondes après avoir cliqué sur **Mettre à jour**, ce qui vous permet d’annuler la mise à jour et de revenir au volet d’édition avant la publication de la mise à jour. La mise à jour sera publiée si vous ignorez la fenêtre contextuelle Annuler, attendez qu’elle disparaisse ou quittez la page.
    >
    >Si votre administrateur Workfront sélectionne le paramètre &quot;Ne jamais autoriser les utilisateurs à supprimer les commentaires&quot; dans votre niveau d’accès, vous ne pouvez pas annuler un commentaire. Pour plus d’informations, voir [Création et modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -208,8 +215,8 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
 
 1. Recherchez l’objet à mettre à jour, puis cliquez sur son nom pour ouvrir la page de l’objet.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
-1. Activez la variable **Commenter la version bêta** faites basculer le curseur dans le coin supérieur droit de la zone Mises à jour, puis cliquez sur **Accepter** sur le contrat bêta. La zone Mises à jour est ainsi déplacée vers l’expérience bêta de commentaire.
-Le **Commentaires** est sélectionné par défaut.
+1. Activez la variable **Commentaires bêta** faites basculer le curseur dans le coin supérieur droit de la zone Mises à jour, puis cliquez sur **Accepter** sur le contrat bêta. La zone Mises à jour est ainsi déplacée vers l’expérience bêta de commentaire.
+La variable **Commentaires** est sélectionné par défaut.
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -221,18 +228,8 @@ Le **Commentaires** est sélectionné par défaut.
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
    * Ctrl + Z ( ⌘ + z pour Mac) pour annuler une modification.
    * Ctrl + Y ( ⌘ + y pour Mac) pour rétablir la modification
-1. (Facultatif) Dans le **Balisage de personnes ou d’équipes** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
-1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, utilisez l’une des options suivantes du **Texte enrichi** pour améliorer votre texte :
-
-   * Gras
-   * Italique
-   * Souligner
-   * Lien
-   * Liste à puces
-   * Liste numérotée
-   * Ajouter une pièce jointe <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
-
-   Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article. <!--remove this list, above, when we get to parity for Rich Text-->
+1. (Facultatif) Dans la variable **Balisage de personnes ou d’équipes** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. (Facultatif) Utilisez du texte enrichi ou ajoutez <!--hidden for August 10: emojis,--> des liens ou des images vers votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 
    >[!TIP]
    >
@@ -243,9 +240,10 @@ Le **Commentaires** est sélectionné par défaut.
    >L’indicateur &quot;Nouveau&quot; s’affiche uniquement lorsque l’utilisateur qui a saisi une nouvelle mise à jour, ainsi que celui qui a saisi une mise à jour, utilisent tous deux la nouvelle expérience de commentaire.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. Cliquez sur le bouton **Ajouter une pièce jointe** icon ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> pour ajouter une image à votre commentaire. L’image doit être enregistrée sur votre ordinateur avant de pouvoir la joindre. <!--**************** this might be renamed to "Add image")-->
 
 1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’objet Workfront.
-1. (Facultatif) Pour modifier un commentaire, cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
+1. (Facultatif) Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
 1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez l’un des utilisateurs balisés.
 Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
 
@@ -256,7 +254,7 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
    >* Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.
    >* L’horodatage en regard du commentaire correspond à la date du commentaire d’origine, et non à celle de la dernière modification.
 
-1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 4 à 7 ci-dessus. <!--(**************insure this stays accurate***********)-->. Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 4 à 8 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Conditionnel et facultatif) Si d’autres utilisateurs ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour, cliquez sur **Affichage** à l’intérieur du bleu **nouvelle bannière de commentaires** en bas de l’écran pour afficher ces commentaires.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
@@ -272,7 +270,7 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
 1. (Conditionnel et Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
    ![](assets/members-icons-expanded-unshimmed.png)
-1. (Facultatif) Cliquez sur le **Activité du système** pour afficher les mises à jour enregistrées par le système. Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note à ce sujet et l’affiche dans l’onglet Activité système .
+1. (Facultatif) Cliquez sur le **Activité du système** pour afficher les mises à jour enregistrées par le système. Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note à ce sujet et l’affiche dans l’onglet Activité du système .
 
    Pour plus d’informations, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
@@ -283,28 +281,29 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
 
 ## Utilisation de texte enrichi dans une mise à jour Workfront{#use-rich-text-in-a-workfront-update}
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Certaines des options de la barre d’outils Texte enrichi peuvent ne pas être disponibles pour l’expérience de commentaire bêta.
+>Certaines des options de la barre d’outils Texte enrichi peuvent ne pas être disponibles pour l’expérience de commentaires en version bêta.
 
 Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y ajoutant divers éléments, tels que des émoticônes, des liens ou des images.
 
-1. Accédez à la zone Mises à jour et commencez à saisir un commentaire.
-1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, utilisez n’importe quel attribut du **Texte enrichi** au fur et à mesure que vous tapez.
+1. Accédez au **Mises à jour** d’un objet Workfront et commencez à saisir un commentaire.
+1. (Facultatif) Pour ajouter un formatage de texte enrichi à votre mise à jour, utilisez n’importe quel attribut de la variable **Texte enrichi** au fur et à mesure que vous tapez. <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
 
    | **Attribut** | **Bouton Barre d’outils** | **Raccourcis clavier Mac** | **Raccourcis clavier Windows** |
    |---|---|---|---|
    | Gras | ![mceclip10.png](assets/mceclip10.png) | épargner+b | Ctrl+B |
    | Italique | ![mceclip9.png](assets/mceclip9.png) | %+i | Ctrl+I |
    | Souligner | ![mceclip8.png](assets/mceclip8.png) | %+u | Ctrl+U |
-   | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Greaté+K</br> <br>Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : underline+V</br> | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Ctrl+K</br> <br>Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : Ctrl+V</br> |
+   | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir le champ Créer des liens ou Ajouter des liens : jamais+K</br> <br>Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : jamais + V</br> | <br>Pour ouvrir la zone Créer des liens ou Ajouter des liens : Ctrl+K</br> <br>Dans l’expérience bêta de commentaire, pour coller un lien sur le texte sélectionné : Ctrl+V</br> |
    | Liste à puces | ![mceclip6.png](assets/mceclip6.png) | Greatest + Maj + 8 | Ctrl+Maj+8 |
    | Liste numérotée | ![mceclip5.png](assets/mceclip5.png) | Greatest + Maj + 7 | Ctrl+Maj+7 |
-   | Citation | ![](assets/block-quote-icon-large.png) | CY+Maj+9 | Ctrl+Maj+9 |
+   | Citation | ![](assets/block-quote-icon-large.png) | Greatest + Maj + 9 | Ctrl+Maj+9 |
+   | Emoji | ![](assets/emoji-icon.png) | Greatest+ | ⊞+. |
 
-   Pour arrêter le formatage du texte, désélectionnez l’attribut sur la **Texte enrichi** de la barre d’outils.
+   Pour arrêter le formatage du texte, désélectionnez l’attribut sur la **Texte enrichi** barre d’outils.
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
@@ -324,8 +323,8 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >[!NOTE]
    >
    >* Workfront ne remplace pas les émoticônes de ponctuation telles que :) par des émoticônes.
-   >* Les émoticônes ne sont pas disponibles pour les mises à jour effectuées dans la zone Fiches horaires ou pour les objets Remarque et Dernière condition affichés dans un rapport.
-   >* La fonction d’émoticône de Workfront utilise des caractères Unicode et, en tant que tels, s’affiche uniquement sur les navigateurs et les systèmes d’exploitation qui prennent en charge les points de code Unicode. Les utilisateurs d’une plateforme, d’un navigateur ou d’une version de système d’exploitation différente de la vôtre peuvent ne pas avoir accès aux mêmes émoticônes.
+   >* Les émoticônes ne sont pas disponibles pour les objets Remarque et Dernière condition affichés dans un rapport.
+   >* La fonction d’émoticône de Workfront utilise des caractères Unicode et, en tant que tels, s’affiche uniquement sur les navigateurs et les systèmes d’exploitation qui prennent en charge les points de code Unicode. Les utilisateurs utilisant une plateforme, un navigateur ou une version de système d’exploitation différente de la vôtre peuvent ne pas avoir accès aux mêmes émoticônes.
    >* Une émoticône non prise en charge est représentée par une boîte noire ou blanche.
    >* Windows 7 ne prend en charge que les émoticônes en noir et blanc.
    >* Les émoticônes qui sont appliqués à une mise à jour effectuée par courrier électronique ne s’affichent pas sur la mise à jour lors de l’affichage dans la zone Mises à jour .
@@ -399,7 +398,7 @@ Cette option copie le lien de thread complet dans le Presse-papiers afin que vou
 Cette option copie un lien de mise à jour spécifique dans le Presse-papiers. Lorsque vous partagez le lien de mise à jour, l’utilisateur qui le suit voit une bordure autour de la mise à jour.
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour individuelle, puis cliquez sur **Copier le lien de mise à jour**.
+1. Cliquez sur le bouton **Plus** en regard de la mise à jour, cliquez sur **Copier le lien de mise à jour**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -434,16 +433,16 @@ Selon l’accès que votre administrateur Workfront vous donne, vous pouvez supp
 
 Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut supprimer les mises à jour effectuées par un autre utilisateur. Cependant, si le niveau d’accès d’un utilisateur lui permet de supprimer ses propres mises à jour, l’administrateur Workfront peut se connecter en tant qu’utilisateur et supprimer les mises à jour qu’il a effectuées. Pour plus d’informations, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) et [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-1. Accédez à la mise à jour ou à la réponse à supprimer.
+1. Accédez à la mise à jour ou à la réponse que vous souhaitez supprimer.
 1. Cliquez sur le bouton **Plus** en regard de la mise à jour ou de la réponse que vous souhaitez supprimer, puis cliquez sur **Supprimer**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Dans le message qui s’affiche, cliquez sur **Confirmer** ou cliquez sur **Supprimer**, lors de l’utilisation de l’expérience bêta de commentaire.
+1. Dans le message qui apparaît, cliquez sur **Confirmer** ou cliquez sur **Supprimer**, lors de l’utilisation de l’expérience bêta de commentaire.
 
    >[!NOTE]
    >
-   >La suppression d’une mise à jour avec une image jointe supprime le commentaire et l’image. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
+   >La suppression d’une mise à jour avec une image jointe supprime à la fois le commentaire et l’image. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 
    Lorsque des réponses sont associées au commentaire que vous supprimez, il est indiqué que le commentaire a été supprimé avec le nom de l’utilisateur qui l’a supprimé.
 
@@ -453,24 +452,28 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
-## Ajout d’une mise à jour à une feuille de calcul
+<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
 
-1. Accédez à une Frise chronologique sur laquelle vous souhaitez effectuer une mise à jour.
-1. Cliquez sur la feuille de calcul pour l’ouvrir.
-1. Au bas de la feuille de calcul, cliquez sur **Inclure un commentaire**.
-1. Dans la zone qui s’affiche au bas de la feuille de calcul, saisissez une mise à jour.
+## Add an update on a Timesheet
+
+1. Go to a Timesheet on which you want to make an update.
+1. Click the Timesheet to open it.
+1. At the bottom of the Timesheet, click **Include a comment**.
+1. In the box that displays at the bottom of the Timesheet, type an update.
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (Conditionnel) Pour enregistrer votre mise à jour sans envoyer la feuille de temps pour approbation, cliquez sur **Enregistrer ultérieurement**.
+1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
 
-   Ou
+   Or
 
-   Pour enregistrer votre mise à jour et envoyer la feuille de calcul pour approbation, cliquez sur **Envoyer pour approbation**.
+   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
 
-   Ou
+   Or
 
-   Si votre feuille de calcul n’est pas configurée avec un approbateur, cliquez sur **Enregistrement et fermeture de la feuille de calcul** pour enregistrer votre mise à jour.
+   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
+
+-->
 
 ## Activation ou désactivation des mises à jour système
 
@@ -485,7 +488,7 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 
 La section Mises à jour d’un objet Workfront affiche deux types d’informations :
 
-* **Mises à jour utilisateur :** Les mises à jour des utilisateurs sont des commentaires que vous et d’autres utilisateurs de votre système saisissez.
+* **Mises à jour de l’utilisateur :** Les mises à jour des utilisateurs sont des commentaires que vous et d’autres utilisateurs de votre système saisissez.
 
   ![](assets/user-update-cl-350x277.png)
 
@@ -493,9 +496,13 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informati
 
   ![](assets/system-updates-cl-350x277.png)
 
-Selon votre licence Workfront, les mises à jour système peuvent être activées par défaut. Les administrateurs de Workfront peuvent déterminer ce qui est suivi dans les mises à jour du système, comme expliqué dans la section [Mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Vous pouvez également filtrer les mises à jour système ou les activités afin de n’afficher que les mises à jour utilisateur pour tous les objets.
+  Selon votre licence Workfront, les mises à jour système peuvent être activées par défaut. Les administrateurs de Workfront peuvent déterminer ce qui est suivi dans les mises à jour du système, comme expliqué dans la section [Mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Vous pouvez également filtrer les mises à jour système ou les activités afin de n’afficher que les mises à jour utilisateur pour tous les objets.
 
-Pour plus d’informations sur la différence entre les mises à jour des utilisateurs et des systèmes, voir [Mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Les objets suivants ne comportent pas de mises à jour générées par le système :
+
+   * Équipe
+   * Modèle
+   * Tâche de modèle
 
 Pour activer ou désactiver les mises à jour du système :
 
@@ -505,4 +512,11 @@ Pour activer ou désactiver les mises à jour du système :
    ![](assets/show-system-updates-qs-350x55.png)
 
    Cette option est persistante dans tous les objets de Workfront et reste à l’emplacement sélectionné, même si vous vous déconnectez de Workfront.
+
+   >[!TIP]
+   >
+   >   Les objets qui n’enregistrent pas les mises à jour système n’ont pas l’option Afficher les mises à jour système dans leur zone Mises à jour.
+
+   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+
 
