@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '884'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 7%
 * Actions effectuées par les utilisateurs sur un objet
 
 Ces mises à jour du système incluent les modifications apportées, le nom de l’utilisateur qui a apporté la modification, ainsi que l’heure et la date du changement.
+
+Pour plus d’informations sur les mises à jour du système, voir [Mises à jour suivies par le système](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 Comme [!DNL Workfront] administrateur, vous pouvez configurer les champs d’objet et les actions [!DNL Workfront] effectue un suivi pour enregistrer les mises à jour du système.
 
@@ -46,7 +48,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,9 +60,8 @@ Vous pouvez déterminer les informations [!DNL Workfront] effectue le suivi lors
 >[!NOTE]
 >
 >* [!DNL Workfront] ne peut pas effectuer de suivi et enregistrer des mises à jour sur les champs personnalisés calculés.
->* Vous pouvez personnaliser la mise à jour du système pour les projets, les tâches, les problèmes, les portefeuilles, les programmes et les utilisateurs. Vous ne pouvez pas personnaliser la mise à jour du système pour les modèles, les documents ou les feuilles de temps, mais [!DNL Workfront] effectue des mises à jour du système d’enregistrement pour ces objets.
+>* Vous pouvez personnaliser la mise à jour du système pour les projets, tâches, problèmes, portefeuilles, programmes et utilisateurs. Vous ne pouvez pas personnaliser la mise à jour du système pour les modèles, documents ou feuilles de temps, mais [!DNL Workfront] effectue des mises à jour du système d’enregistrement pour ces objets.
 >
-
 
 
 
@@ -73,7 +74,7 @@ Vous pouvez ajouter les champs de votre choix. [!DNL Workfront] pour effectuer l
 
 >[!NOTE]
 >
->Vous pouvez effectuer le suivi de 300 champs intégrés et personnalisés dans les flux de mise à jour. Si vous effectuez le suivi du nombre maximal de champs et souhaitez effectuer le suivi de champs supplémentaires qui ne sont pas affichés dans la variable [!UICONTROL Tous les champs] Sous-onglet, vous devez d&#39;abord supprimer certains des champs suivis pour effectuer le suivi des nouveaux champs. Pour plus d’informations sur la suppression de champs des champs de mise à jour, voir [Supprimer les champs que vous ne souhaitez pas suivre](#remove-fields-that-you-don-t-want-tracked).
+>Vous pouvez effectuer le suivi de jusqu’à 300 champs intégrés et personnalisés dans les flux de mise à jour. Si vous effectuez le suivi du nombre maximal de champs et souhaitez effectuer le suivi de champs supplémentaires qui ne sont pas affichés dans la variable [!UICONTROL Tous les champs] Sous-onglet, vous devez d&#39;abord supprimer certains des champs suivis pour effectuer le suivi des nouveaux champs. Pour plus d’informations sur la suppression de champs des champs de mise à jour, voir [Supprimer les champs que vous ne souhaitez pas suivre](#remove-fields-that-you-don-t-want-tracked).
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
 
@@ -91,7 +92,7 @@ Vous pouvez ajouter les champs de votre choix. [!DNL Workfront] pour effectuer l
 
    Les champs personnalisés que vous avez ajoutés s’affichent sous **[!UICONTROL Champs personnalisés]** sous-onglet.
 
-   Le **[!UICONTROL Tous les champs]** Le sous-onglet affiche à la fois les champs intégrés et personnalisés qui font l’objet d’un suivi.
+   La variable **[!UICONTROL Tous les champs]** Le sous-onglet affiche à la fois les champs intégrés et personnalisés qui font l’objet d’un suivi.
 
 ### Supprimer les champs que vous ne souhaitez pas suivre {#remove-fields-that-you-don-t-want-tracked}
 
@@ -101,13 +102,13 @@ Vous pouvez supprimer les champs que le système ne souhaite pas suivre pour un 
 
 1. Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Mise à jour de flux]**.
 
-1. Sur le **[!UICONTROL Champs suivis]** , sélectionnez la variable **[!UICONTROL Tous les champs]** sous-onglet.
+1. Sur le **[!UICONTROL Champs suivis]** , sélectionnez l’onglet **[!UICONTROL Tous les champs]** sous-onglet.
 
    Vous affichez ainsi les champs intégrés et personnalisés actuellement suivis.
 
 1. Sélectionnez le champ dont vous souhaitez arrêter le suivi, puis cliquez sur **[!UICONTROL Supprimer]**.
 
-1. Dans le **[!UICONTROL Supprimer le champ]** s’affiche, cliquez sur **[!UICONTROL Oui, Supprimer]** pour confirmer.
+1. Dans le **[!UICONTROL Supprimer le champ]** qui s’affiche, cliquez sur **[!UICONTROL Oui, Supprimer]** pour confirmer.
 
 Toutes les mises à jour des champs précédemment trackés sont conservées dans la variable [!UICONTROL Mises à jour] zone où elles ont été enregistrées.
 

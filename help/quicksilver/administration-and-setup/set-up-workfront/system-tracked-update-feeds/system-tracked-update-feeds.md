@@ -5,14 +5,14 @@ product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: Mises à jour suivies par le système
 description: Adobe Workfront capture l’activité qui se produit sur certains objets en consignant les informations d’état dans le rapport [!UICONTROL Mises à jour] zone.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 5%
+source-wordcount: '360'
+ht-degree: 6%
 
 ---
 
@@ -20,40 +20,83 @@ ht-degree: 5%
 
 [!DNL Adobe Workfront] capture l’activité qui se produit sur certains objets en consignant des informations d’état dans le rapport [!UICONTROL Mises à jour] zone.
 
-Le [!UICONTROL Mises à jour] comprend les types de mises à jour suivants :
+La variable [!UICONTROL Mises à jour] comprend les types de mises à jour suivants :
 
-* **Mises à jour utilisateur :** saisie manuellement par les utilisateurs ; On parle également de commentaires, de réponses et de notes.
+* **Mises à jour de l’utilisateur :** saisie manuellement par les utilisateurs ; On parle également de commentaires, de réponses et de notes.
 
-   ![](assets/updates-qs-350x125.png)
+  Pour plus d’informations sur la configuration des mises à jour des utilisateurs, voir [Configuration des préférences pour les mises à jour des utilisateurs](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+
+  ![](assets/updates-qs-350x125.png)
 
 * **Mises à jour système :** Créé automatiquement par le système. Une mise à jour du système comprend une brève note décrivant le type de changement survenu dans l’élément.
 
-   <!--
+  Pour plus d’informations sur les flux de mise à jour du système et leur activation, voir [Configuration des mises à jour du système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+  <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
   
   -->
 
-Les objets suivants peuvent avoir des mises à jour :
+## Considérations sur les mises à jour suivies par le système
 
-* Projet
-* Tâche
-* Problème
-* Portfolio
-* Programme
-* Utilisateur
-* Modèles
-* Tâches de modèle
-* Documents
-* Feuilles de temps
+* Les mises à jour suivies par le système ne sont pas disponibles pour tous les objets disposant de la zone Mises à jour . La variable [!UICONTROL Mises à jour] est disponible pour les objets suivants :
 
-Votre [!DNL Workfront] détermine si les mises à jour système s’affichent par défaut dans la variable [!UICONTROL Mises à jour] de la zone d’objets. [!DNL Workfront] utilisateurs avec un [!UICONTROL Plan] les mises à jour système de la licence sont affichées dans la variable [!UICONTROL Mises à jour] par défaut. Cependant, les utilisateurs peuvent filtrer les mises à jour du système, comme décrit dans la section [[!UICONTROL Activer] ou désactiver les mises à jour système](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) dans [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Toutes les autres [!DNL Workfront] les licences filtrent les mises à jour du système par défaut.
+   * [!UICONTROL Projet]
+   * [!UICONTROL Tâche]
+   * [!UICONTROL Problème]
+   * [!UICONTROL Portfolio]
+   * [!UICONTROL Programme]
+   * [!UICONTROL Utilisateur]
+   * [!UICONTROL Modèle]
+   * [!UICONTROL Tâche de modèle]
+   * [!UICONTROL Équipe]
+   * [!UICONTROL Document]
+   * [!UICONTROL Feuille de temps]
+   * [!UICONTROL Histoire]
 
-[!DNL Workfront] Les administrateurs peuvent définir le type de modifications dont le système doit effectuer le suivi dans la variable [!UICONTROL Mises à jour] zone. Tous les objets ne sont pas configurables. [!UICONTROL update] flux d’état. Les objets suivants ont une propriété [!UICONTROL Mises à jour] zone qui capture les flux de mise à jour trackés par le système, mais qui ne comporte pas de flux d’état de mise à jour configurables :
+     Dans [!DNL Workfront], une histoire est une tâche.
+   * [!UICONTROL Itération]
+   * [!UICONTROL Objectif]
 
-* Modèles
-* Tâches de modèle
-* Documents
-* Feuilles de temps
+     Vous devez disposer d’une licence supplémentaire pour avoir accès à la variable [!UICONTROL Objectifs] zone. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * [!UICONTROL Carte] sur un panorama
 
-Pour plus d’informations sur les flux de mise à jour du système et leur activation, voir [Configuration des mises à jour du système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md). Pour plus d’informations sur la configuration des mises à jour des utilisateurs, voir [Configuration des préférences pour les mises à jour des utilisateurs](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+     Pour plus d’informations sur les mises à jour des cartes, voir [Ajouter une carte ad hoc à un panorama](../../../agile/get-started-with-boards/add-card-to-board.md).
+
+
+* [!DNL Workfront] ne suit aucune mise à jour système pour les objets suivants :
+
+   * [!UICONTROL Équipe]
+   * [!UICONTROL Modèle]
+   * [!UICONTROL Tâche de modèle]
+
+<!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
+
+Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
+-->
+
+* Les utilisateurs peuvent afficher les mises à jour du système par défaut ou choisir de ne pas les afficher.
+
+  Pour plus d’informations sur la désactivation de l’affichage des mises à jour système, voir la section [Activation ou désactivation des mises à jour système](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) dans l’article [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+  >[!NOTE]
+  >
+  >Nous sommes en train de reconcevoir l’expérience de commentaire et la [!UICONTROL Mises à jour] area dans [!DNL Workfront].
+  >
+  > Vous ne pouvez pas masquer les mises à jour système lors de l’utilisation de la nouvelle expérience de commentaire.
+  > 
+  >Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+* Workfront enregistre les mises à jour suivies par le système pour les objets suivants, mais il n’existe pas d’option pour les désactiver :
+
+   * [!UICONTROL Portfolio]
+   * [!UICONTROL Programme]
+   * [!UICONTROL Itération]
+
+* [!DNL Workfront] Les administrateurs peuvent définir le type de modifications dont le système doit effectuer le suivi dans la variable [!UICONTROL Mises à jour] zone. Tous les objets qui ont une propriété [!UICONTROL Mises à jour] zone également configurable [!UICONTROL update] flux. Les objets suivants ont une propriété [!UICONTROL Mises à jour] zone qui capture les flux de mise à jour trackés par le système, mais qui ne comporte pas de flux de mise à jour configurables :
+
+   * [!UICONTROL Document]
+   * [!UICONTROL Feuille de temps]
+   * [!UICONTROL Itération]
+

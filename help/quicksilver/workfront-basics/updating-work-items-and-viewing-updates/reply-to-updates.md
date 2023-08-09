@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 >
 >   La nouvelle expérience de commentaire est la seule expérience pour les objectifs et les cartes. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->     Vous pouvez ajouter et afficher des mises à jour aux cartes dans la zone Panoramas lorsque vous activez les sections Commentaires et Activité système sur une carte. Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+>     Vous pouvez ajouter et afficher des mises à jour aux cartes dans la zone Panoramas lorsque vous activez les sections Commentaires et Activité système sur une carte. Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 
 Lorsqu’une personne répond à un commentaire ou à une mise à jour système sur un objet de travail, sa réponse apparaît dans le fil de communication de la section Mises à jour de l’objet.
@@ -66,11 +66,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Demande ou version ultérieure pour les problèmes et les documents ; Révision ou version ultérieure pour tous les autres objets</p> </td> 
+   <td> <p>Demande ou version ultérieure pour les problèmes et les documents ; révision ou version ultérieure pour tous les autres objets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Demandeur ou plus pour les problèmes et les documents ; Réviseur ou version supérieure pour tous les autres objets</p> <p><b>NOTE</b>
+   <td> <p>Demandeur ou supérieur pour les problèmes et les documents ; Réviseur ou supérieur pour tous les autres objets</p> <p><b>NOTE</b>
 
 Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
@@ -83,7 +83,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
-## Répondre à une mise à jour ou à une réponse
+## Répondre à une mise à jour ou à une réponse dans Workfront
 
 Vous pouvez répondre à un commentaire dans le fil d’un objet que vous pouvez afficher ou vous connecter en tant qu’administrateur Workfront ou de groupe et répondre à un commentaire au nom d’un autre utilisateur. Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
@@ -127,53 +127,23 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
 1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-menu.png) en regard de la mise à jour pour plus d’options de gestion de la réponse. Pour plus d’informations, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
 
 
-## Répondre à une mise à jour par email
+## Réponse à une mise à jour à partir d’une notification par email
 
-Selon le paramétrage de vos notifications électroniques, vous pouvez recevoir une notification par courrier électronique lorsqu’une mise à jour est effectuée sur certains objets auxquels vous avez accès.
+Selon le mode de configuration de vos notifications électroniques, vous pouvez recevoir une notification par courrier électronique lorsqu’une mise à jour est effectuée sur certains objets auxquels vous avez accès.
 
->[!NOTE]
->
->La réponse aux mises à jour par email n’est pas disponible pour les environnements sur la grappe 6.
+Vous pouvez répondre à une mise à jour à partir d&#39;une notification par email de la manière suivante :
+
+* Répondez à l’email que vous recevez. Votre email de réponse est ajouté en tant que réponse Workfront au commentaire d’origine.
+* Utilisez le bouton Commentaire dans le courrier électronique pour revenir à Workfront et répondre à la mise à jour dans la zone Mises à jour.
 
 Voici un exemple de notification par email déclenchée suite à une mise à jour effectuée dans l&#39;onglet Mises à jour d&#39;une tâche :
 
 ![email.png](assets/email-350x202.png)
 
-Depuis l&#39;email, vous pouvez facilement ajouter une réponse directement au fil de communication de l&#39;objet dans Workfront. Vous pouvez également ajouter une réponse sans vous connecter à Workfront, à partir d’un email généré à partir des commentaires apportés aux objets suivants :
+Pour plus d’informations, voir [Répondre aux notifications par e-mail](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
-* Projet
-* Tâche
-* Problème
-* Document
-* Tâche Modèle et modèle
-* Portfolio
-* Programme
-* Itération
-* Feuille de temps
 
-### Réponse à une mise à jour à partir d’une notification par email
 
-Lorsque vous recevez une notification électronique, vous pouvez ouvrir rapidement l’objet Workfront associé et ajouter une réponse directement au thread de communication.
 
-1. Cliquez sur **Commentaire** sur l’email de notification.
 
-   La page Détails de l’objet s’ouvre dans Workfront.
 
-1. Accédez à la mise à jour à laquelle vous souhaitez ajouter une réponse.
-
-   En plus de voir les utilisateurs qui participent activement à la conversation, vous pouvez voir qui a été balisé dans chaque réponse en haut de ce fil de mise à jour. Ces utilisateurs, ainsi que tous les utilisateurs abonnés à l’objet, reçoivent une notification chaque fois qu’une mise à jour ou une réponse est apportée à l’objet. Pour baliser davantage d’utilisateurs, voir [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-1. Cliquez sur **Répondre,** saisissez votre réponse, puis cliquez sur **Répondre**.
-
-### Ajout d’une mise à jour à un objet en dehors de Workfront
-
-Lorsque vous recevez une notification électronique Workfront, vous pouvez rapidement ajouter une mise à jour au thread de communication sans vous connecter à Workfront.
-
-Pour ajouter une mise à jour à un email Workfront :
-
-1. Dans votre application de messagerie, ouvrez l’adresse électronique Workfront à laquelle vous souhaitez répondre, puis ouvrez une fenêtre de réponse.
-1. Saisissez votre mise à jour.\
-   Les pièces jointes ne sont pas autorisées et le formatage de texte enrichi appliqué à une mise à jour dans un email ne s’affiche pas sur la mise à jour lors de l’affichage dans l’onglet Mises à jour.
-1. Cliquez sur **Envoyer**.
-
-   Votre mise à jour est ajoutée au fil de communication de l’objet .
