@@ -7,7 +7,7 @@ description: Cette page fournit des informations sur les fonctionnalités du Bon
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 1a4db0b89b9035eb8dd95052b5378e78d1cfbc9f
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -46,8 +46,8 @@ Pour obtenir la liste de toutes les modifications disponibles pour toutes les zo
                                 <p>Aperçu et version de production : 27 juillet 2023</p>
                             </li>
                             <li>
-                                <p><i>Pour les utilisateurs qui utilisent l’installation automatique, avec la version 2.1.27</i></p>
-                                <p>Version d’aperçu et de production : à déterminer</p>
+                                <p><i>Pour les utilisateurs qui utilisent l’installation automatique, avec la version 2.1.28</i></p>
+                                <p>Aperçu et version de production : 10 août 2023</p>
                             </li>
                         </ul>
                     </td>
