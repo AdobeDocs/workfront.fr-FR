@@ -5,10 +5,10 @@ title: Prise en main de la nouvelle page d’accueil dans Adobe Workfront
 description: New Home est une nouvelle fonctionnalité puissante pour gérer votre travail.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 20%
+source-wordcount: '1095'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,9 @@ La nouvelle page d’accueil est conçue pour être hautement personnalisable, c
 
 ### Widgets
 
-Les widgets sont la base de New Home. En ajoutant des widgets à votre page d’accueil, vous pouvez choisir le type d’informations qui s’affiche pour répondre le mieux à vos besoins. Certains widgets ne sont disponibles que pour des types de licence spécifiques, car les objets qu’ils suivent ne sont disponibles que pour ces licences. Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’un résumé des informations qu’ils affichent :
+Les widgets sont la base de New Home. En ajoutant des widgets à votre page d’accueil, vous pouvez choisir le type d’informations qui s’affiche pour répondre le mieux à vos besoins. Certains widgets ne sont disponibles que pour des types de licence spécifiques, car les objets qu’ils suivent ne sont disponibles que pour ces licences. Pour plus d’informations sur l’ajout, le déplacement, le redimensionnement ou la suppression de widgets, voir [Ajout, modification ou suppression de widgets dans la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’un résumé des informations qu’ils affichent :
 
 * **Mon travail**\
     Ce widget, qui constitue un excellent point de départ pour la gestion d’un grand nombre de tâches, affiche en un seul endroit l’ensemble des tâches, problèmes et demandes qui vous ont été attribués.
@@ -50,7 +52,7 @@ Les widgets sont la base de New Home. En ajoutant des widgets à votre page d’
     Affiche toutes les approbations de votre organisation dans un tableau avec des colonnes personnalisables, ainsi qu’une barre de recherche qui vous permet de rechercher des approbations spécifiques.
 
 * **Mentions**\
-    Affiche les fils de commentaires récents qui contiennent des mentions @ de vous-même dans Workfront, ainsi qu’un bouton de réponse qui vous permet de rédiger une réponse dans le widget.
+    Affiche les fils de commentaires récents qui contiennent des mentions @ de vous-même dans Workfront, ainsi qu’un bouton de réponse qui vous permet de rédiger une réponse dans le widget. Ce widget affiche également les commentaires effectués sur les tâches et problèmes auxquels vous êtes affecté, que vous avez affectés à un autre utilisateur, que vous détenez, que vous êtes un Principal contact ou que vous avez créés, à condition que la tâche ou le problème ait été mis à jour au cours des 30 derniers jours.
 
 * **À faire**\
     Ce widget unique vous permet d’ajouter des éléments de texte à une liste de contrôle personnelle que vous pouvez modifier librement.
@@ -114,8 +116,6 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
         <td>En attente de mon approbation, tâches</td>
     </tr>
 </table>
-
-Pour plus d’informations sur l’ajout, le déplacement, le redimensionnement ou la suppression de widgets, voir [Ajout, modification ou suppression de widgets dans la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### Personnalisation de l’arrière-plan
 
