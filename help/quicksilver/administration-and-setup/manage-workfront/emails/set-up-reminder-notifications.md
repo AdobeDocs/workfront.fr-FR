@@ -5,7 +5,7 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # Configuration des notifications de rappel
-
-<!--hidden content for the tab redesign in August 2023-->
 
 Les notifications de rappel envoient des emails aux destinataires selon des critères spécifiés. En tant qu’administrateur Adobe Workfront ou utilisateur disposant d’un niveau d’accès Planificateur et d’un accès administratif aux notifications de rappel, vous pouvez associer manuellement les notifications de rappel à vos tâches, telles que les projets, les tâches, les problèmes et les feuilles de temps.
 
@@ -68,9 +66,8 @@ Pour plus d’informations sur la création d’un modèle de courrier électron
 
 1. Cliquez sur **Email** > **Notifications** > **Notifications de rappel**.
 
-   <!--hidden for the tab redesign for August 2023:
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
-   -->
+
 1. Cliquez sur **Nouvelle notification de rappel**.
 
 1. Dans la liste déroulante, cliquez sur le type d&#39;objet à associer à la notification de rappel.

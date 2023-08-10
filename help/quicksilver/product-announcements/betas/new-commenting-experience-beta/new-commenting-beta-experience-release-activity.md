@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1561'
 ht-degree: 3%
 
 ---
@@ -101,7 +101,7 @@ Vous pouvez désormais ajouter des émoticônes à un commentaire à l’aide d�
 
 Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentation sera mise à jour au moment de la publication.
 
-Aperçu et production : à annoncer (pendant ou peu après la version 23.3) <!--August 10, 2023-->
+Aperçu et production : 10 août 2023
 
 #### Nouvelle expérience de commentaire pour des objets supplémentaires
 

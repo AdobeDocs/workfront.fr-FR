@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 1%
@@ -129,9 +129,9 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td>
+   <td>✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td> 
    </td>
@@ -256,7 +256,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Annulation de la publication d’un commentaire 
+   <td>Annuler la publication d’un commentaire 
    </td>
    <td>✓ 
    </td>
@@ -298,7 +298,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Enregistrement des brouillons de commentaires lors de la navigation hors de la page 
+   <td>Enregistrement des brouillons de commentaires lors de la navigation en dehors de la page 
    </td>
    <td>✓ 
    </td>
@@ -326,7 +326,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Temps de connexion 
+   <td>Enregistrer des heures 
    </td>
    <td>✓ 
    </td>
@@ -507,7 +507,7 @@ La nouvelle expérience de commentaire est actuellement prise en charge pour les
 Pour activer la nouvelle expérience de commentaire bêta :
 
 1. Accédez à un objet pour lequel vous souhaitez activer la nouvelle expérience de commentaire, puis cliquez sur **Mises à jour** dans le panneau de gauche.
-1. Activez la variable **Commenter la version bêta** basculez dans le coin supérieur droit de la zone Mises à jour .
+1. Activez la variable **Commentaires bêta** basculez dans le coin supérieur droit de la zone Mises à jour .
 1. Cliquez sur **Accepter** dans la zone de contrat bêta. Cela active la nouvelle expérience de commentaire pour l’objet sélectionné.
 1. Commencez à saisir une mise à jour dans la variable **Commentaires** . L’onglet Commentaires doit être l’onglet par défaut à l’ouverture de la nouvelle expérience.
 

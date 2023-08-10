@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 1%
 
 ---
@@ -240,8 +240,6 @@ La variable **Commentaires** est sélectionné par défaut.
    >L’indicateur &quot;Nouveau&quot; s’affiche uniquement lorsque l’utilisateur qui a saisi une nouvelle mise à jour, ainsi que celui qui a saisi une mise à jour, utilisent tous deux la nouvelle expérience de commentaire.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. Cliquez sur le bouton **Ajouter une pièce jointe** icon ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> pour ajouter une image à votre commentaire. L’image doit être enregistrée sur votre ordinateur avant de pouvoir la joindre. <!--**************** this might be renamed to "Add image")-->
-
 1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’objet Workfront.
 1. (Facultatif) Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
 1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez l’un des utilisateurs balisés.
@@ -301,7 +299,6 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    | Liste à puces | ![mceclip6.png](assets/mceclip6.png) | Greatest + Maj + 8 | Ctrl+Maj+8 |
    | Liste numérotée | ![mceclip5.png](assets/mceclip5.png) | Greatest + Maj + 7 | Ctrl+Maj+7 |
    | Citation | ![](assets/block-quote-icon-large.png) | Greatest + Maj + 9 | Ctrl+Maj+9 |
-   | Emoji | ![](assets/emoji-icon.png) | Greatest+ | ⊞+. |
 
    Pour arrêter le formatage du texte, désélectionnez l’attribut sur la **Texte enrichi** barre d’outils.
 
@@ -345,7 +342,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
    Ou
 
-   Cliquez sur le bouton **Ajouter une pièce jointe** icon ![](assets/add-image-paperclip-icon.png) et accédez à l’image sur votre ordinateur lorsque vous utilisez l’expérience bêta de commentaire. <!--the name of the icon and the icon for it might change-->
+   Cliquez sur le bouton **Ajouter une pièce jointe** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur lorsque vous utilisez l’expérience bêta de commentaire. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >
