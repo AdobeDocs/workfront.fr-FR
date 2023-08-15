@@ -6,20 +6,45 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '3460'
+source-wordcount: '3430'
 ht-degree: 1%
 
 ---
 
 # Mise à jour du travail
 
-<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
-<!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
 
 >[!NOTE]
 >
@@ -151,6 +176,8 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 
 ### Ajouter une mise à jour à un élément de travail dans la section Mises à jour actuelles
 
+<!--on October 26, replace "current" with "legacy"-->
+
 >[!NOTE]
 >
 >La fonctionnalité suivante est disponible pour tous les objets, à l’exception des objectifs et des cartes. Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront. Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
@@ -209,15 +236,16 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 
 1. Pour répondre à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-### Ajout d’une mise à jour à un élément de travail à l’aide des commentaires sur l’expérience bêta
+### Ajouter une mise à jour à un élément de travail à l’aide de la nouvelle expérience de commentaire
 
 Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle expérience de commentaire et pour les objets, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Recherchez l’objet à mettre à jour, puis cliquez sur son nom pour ouvrir la page de l’objet.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
-1. Activez la variable **Commentaires bêta** faites basculer le curseur dans le coin supérieur droit de la zone Mises à jour, puis cliquez sur **Accepter** sur le contrat bêta. La zone Mises à jour est ainsi déplacée vers l’expérience bêta de commentaire.
-La variable **Commentaires** est sélectionné par défaut.
+
+   La variable **Commentaires** est sélectionné par défaut.
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
+   <!-- August 17 - add new screen shot and make yellow-->
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -245,6 +273,8 @@ La variable **Commentaires** est sélectionné par défaut.
 1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez l’un des utilisateurs balisés.
 Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
 
+   <!--August 17 - new screen shot and make yellow-->
+
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
@@ -254,6 +284,8 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
 
 1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 4 à 8 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Conditionnel et facultatif) Si d’autres utilisateurs ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour, cliquez sur **Affichage** à l’intérieur du bleu **nouvelle bannière de commentaires** en bas de l’écran pour afficher ces commentaires.
+
+   <!--August 17 - new screen shot and make yellow-->
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
@@ -267,7 +299,9 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
 1. (Facultatif) Cliquez sur le **Comme** icon![](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
 1. (Conditionnel et Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+<!--August 17 - new screen shot and make yellow-->
+
+![](assets/members-icons-expanded-unshimmed.png)
 1. (Facultatif) Cliquez sur le **Activité du système** pour afficher les mises à jour enregistrées par le système. Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note à ce sujet et l’affiche dans l’onglet Activité du système .
 
    Pour plus d’informations, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -313,6 +347,8 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
 1. (Facultatif) Si vous souhaitez inclure du texte provenant de mises à jour précédentes ou d’autres sources et le distinguer de votre propre mise à jour, vous pouvez le marquer comme une citation de bloc. Cliquez sur le bouton **Blocs de citations** icon ![](assets/block-quote-small.png) et tapez le texte que vous souhaitez citer. Le texte entre guillemets s’affiche avec une ligne grise verticale. Cliquez sur le bouton **Blocs de citations** pour revenir à la mise en forme normale.
 
+   <!--August 17 - new screen shot and make yellow-->
+
    ![](assets/block-quote-marked-350x144.png)
 
 1. (Facultatif) Ajoutez des émoticônes à votre mise à jour.
@@ -342,7 +378,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
    Ou
 
-   Cliquez sur le bouton **Ajouter une pièce jointe** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur lorsque vous utilisez l’expérience bêta de commentaire. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
+   Cliquez sur le bouton **Ajouter une pièce jointe** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur lors de l’utilisation de la nouvelle expérience de commentaire. <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
 
    >[!NOTE]
    >
@@ -366,6 +402,8 @@ Il existe plusieurs façons de copier une mise à jour. Après avoir copié un l
 La copie d’une mise à jour varie en fonction de l’expérience de commentaire que vous utilisez.
 
 ### Copier une mise à jour dans l’expérience de commentaire actuelle
+
+<!--October 26 - replace current with legacy-->
 
 * [Copier la mise à jour](#copy-the-update)
 * [Copier le lien du thread](#copy-the-thread-link)
@@ -431,7 +469,7 @@ Selon l’accès que votre administrateur Workfront vous donne, vous pouvez supp
 Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut supprimer les mises à jour effectuées par un autre utilisateur. Cependant, si le niveau d’accès d’un utilisateur lui permet de supprimer ses propres mises à jour, l’administrateur Workfront peut se connecter en tant qu’utilisateur et supprimer les mises à jour qu’il a effectuées. Pour plus d’informations, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) et [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez supprimer.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour ou de la réponse que vous souhaitez supprimer, puis cliquez sur **Supprimer**.
+1. Cliquez sur le bouton **Plus** en regard de la mise à jour ou de la réponse que vous souhaitez supprimer, puis cliquez sur **Supprimer**. <!--October 26 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -442,6 +480,8 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
    >La suppression d’une mise à jour avec une image jointe supprime à la fois le commentaire et l’image. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 
    Lorsque des réponses sont associées au commentaire que vous supprimez, il est indiqué que le commentaire a été supprimé avec le nom de l’utilisateur qui l’a supprimé.
+
+   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
 
    ![](assets/removed-comment-indicator-new-experience.png)
 
@@ -481,17 +521,17 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 >[!NOTE]
 >
 >Il n’est pas possible de désactiver les mises à jour système lors de l’utilisation de la nouvelle expérience de commentaire.
->Les informations de cette section se rapportent uniquement aux fonctionnalités disponibles dans la section Mises à jour actuelles.
+>Les informations de cette section se rapportent uniquement aux fonctionnalités disponibles dans la section Mises à jour actuelles. <!--October 26: replace current with legacy-->
 >Pour plus d’informations sur les mises à jour système de la version bêta, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 La section Mises à jour d’un objet Workfront affiche deux types d’informations :
 
-* **Mises à jour de l’utilisateur :** Les mises à jour des utilisateurs sont des commentaires que vous et d’autres utilisateurs de votre système saisissez.
+* **Mises à jour de l’utilisateur :** Les mises à jour des utilisateurs sont des commentaires que vous et d’autres utilisateurs de votre système saisissez. <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Mises à jour système :** Le système met à jour l’enregistrement de suppression des ressources, d’ajout ou de suppression de versions, de pièce jointe ou de suppression d’une demande d’approbation, ainsi que des modifications ou modifications apportées aux documents sur l’objet.
+* **Mises à jour système :** Le système met à jour l’enregistrement de suppression des ressources, d’ajout ou de suppression de versions, de pièce jointe ou de suppression d’une demande d’approbation, ainsi que des modifications ou modifications apportées aux documents sur l’objet. <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/system-updates-cl-350x277.png)
 

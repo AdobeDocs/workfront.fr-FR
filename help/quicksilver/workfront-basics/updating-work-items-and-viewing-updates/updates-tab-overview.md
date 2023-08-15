@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1126'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,31 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
 
 >[!NOTE]
 >
@@ -29,7 +53,7 @@ ht-degree: 4%
 >Vous pouvez accéder à la nouvelle expérience pour les objets suivants :
 > * Problèmes, projets, tâches et documents.
 >
->     Cette option est disponible lorsque vous activez l’expérience bêta de commentaire.
+>     Cette option est disponible lorsque vous activez la nouvelle expérience de commentaire.
 >
 >     Cette fonctionnalité est disponible uniquement pour la section Mises à jour et elle ne l’est pas pour les zones suivantes :
 >
@@ -51,6 +75,8 @@ Les informations de la section Mises à jour sont organisées différemment selo
 
 ### Présentation de la section Mises à jour actuelles
 
+<!--October 26 - replace current with legacy-->
+
 * La section Mises à jour d’un objet affiche jusqu’à 200 des mises à jour les plus récentes effectuées au cours des 90 derniers jours.
 
   ![](assets/updates-tab-before-unified-experience-for-issues.png)
@@ -66,7 +92,7 @@ Les informations de la section Mises à jour sont organisées différemment selo
       <ul> 
       <li>Documents</li> 
       <li>Objectifs</li> 
-      <li>Événements</li> 
+      <li>Problèmes</li> 
       <li>Itérations</li> 
       <li>Projets</li> 
       <li>Programmes</li> 
@@ -89,8 +115,8 @@ Les informations de la section Mises à jour sont organisées différemment selo
 
 * La section Mises à jour actuelles affiche les informations suivantes :
 
-   * Mises à jour des utilisateurs : commentaires effectués par les utilisateurs et réponses à ces commentaires.
-   * Mises à jour système : messages d’informations créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Mises à jour des utilisateurs**: commentaires des utilisateurs et réponses à ces commentaires.
+   * **Mises à jour système**: messages d’informations créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 * Les objets suivants n’enregistrent pas les mises à jour du système :
 
@@ -98,9 +124,11 @@ Les informations de la section Mises à jour sont organisées différemment selo
    * Modèle
    * Tâche de modèle
 
-### Présentation de la section Mises à jour dans la version bêta des commentaires
+### Présentation de la section Mises à jour dans la nouvelle expérience de commentaire
 
 Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle expérience de commentaire et pour les objets, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
@@ -111,7 +139,31 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
 
 * Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jour à l’aide de la nouvelle expérience de commentaire sur les objets suivants :
 
-  <table style="table-layout:auto"> 
+<!--replace the table with this list on August 17: 
+
+    * Projects
+    * Tasks (and stories)
+    * Issues
+    * Documents
+
+    <span class="preview">
+    
+    * Templates
+    * Template Tasks
+    * Timesheets
+    * Users
+    * Portfolios
+    * Programs
+    
+    >[!NOTE]
+    >
+    >    You cannot display the new commenting experience for iterations. 
+
+    </span>
+  
+  -->
+
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -126,7 +178,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
         </ul> </td> 
       <td> 
         <ul> 
-        <li>Événements</li> 
+        <li>Problèmes</li> 
         <li>Tâches</li>
         <li>Documents</li>
         </ul> </td> 
@@ -134,7 +186,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
     </tbody> 
     </table>
 
-  *Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
+*Vous pouvez ajouter et afficher des mises à jour aux cartes dans les zones du panorama lorsque vous activez les sections Commentaires et Activité du système sur une carte. Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
@@ -155,7 +207,7 @@ Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jou
 >
 >Lors de l’activation de la nouvelle expérience de commentaire, les commentaires s’affichent sur les objets de rang supérieur suivants :
 >
->* Événements
+>* Problèmes
 >* Projets
 >* Tâches
 >
@@ -227,7 +279,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
 >
 >Pour plus d’informations sur la hiérarchie d’objets dans Adobe Workfront, voir [Présentation des objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> Il n’est pas possible de répondre aux mises à jour du système dans la nouvelle expérience de commentaires bêta. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> Il n’est pas possible de répondre aux mises à jour du système dans la nouvelle expérience de commentaire. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Limites de la section Mises à jour
 
@@ -248,7 +300,7 @@ Si vous souhaitez afficher toutes les mises à jour effectuées sur un utilisate
 
 ### Restrictions lors de la saisie de commentaires au nom d’un autre utilisateur
 
-Les administrateurs d’Adobe Workfront et les administrateurs de groupe peuvent se connecter en tant qu’autres utilisateurs et effectuer des actions dans Workfront, comme saisir des commentaires.
+Les administrateurs d’Adobe Workfront et les administrateurs de groupe peuvent se connecter en tant qu’autres utilisateurs et effectuer des actions dans Workfront, telles que saisir des commentaires.
 
 Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
