@@ -4,7 +4,9 @@ description: Configuration d’une visualisation des indicateurs de performance 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 2%
@@ -18,7 +20,7 @@ Une visualisation d’indicateur de performance clé (IPC) peut vous aider à vi
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configuration d’une visualisation des indicateurs de performance clés
 
@@ -48,8 +50,8 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
          <td role="rowheader">Type d’agrégation</td>
          <td><p> Indiquez le mode de résumé des valeurs :</p>
           <ul>
-           <li><p><b>Count</b>: Nombre de valeurs</p></li>
-           <li><p><b>Somme</b>: Le total de toutes les valeurs </p></li>
+           <li><p><b>Count</b>: nombre de valeurs</p></li>
+           <li><p><b>Somme</b>: le total de toutes les valeurs </p></li>
            <li><p><b>Moyenne</b>: moyenne de toutes les valeurs</p></li>
            <li><p><b>Minimum</b>: seule la valeur la plus faible</p></li>
            <li><p>Maximum : uniquement la valeur la plus élevée</p></li>

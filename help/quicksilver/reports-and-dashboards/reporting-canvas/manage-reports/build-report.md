@@ -1,27 +1,29 @@
 ---
-title: Créer un rapport dans le canevas de création de rapports
-description: Créer un rapport dans le canevas de création de rapports
+title: Création d’un rapport dans le canevas de création de rapports
+description: Création d’un rapport dans le canevas de création de rapports
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Créer un rapport dans le canevas de création de rapports
+# Création d’un rapport dans le canevas de création de rapports
 
 Vous pouvez créer un rapport en faisant glisser des blocs uniques sur la zone de travail qui représentent vos données de manière significative.
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
-## Créer un rapport
+## Création d’un rapport
 
 >[!NOTE]
 >

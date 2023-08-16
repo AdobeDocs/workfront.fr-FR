@@ -6,10 +6,12 @@ description: Les blocs de contenu web permettent d'afficher dans votre rapport l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +22,7 @@ Les blocs de contenu web permettent d&#39;afficher dans votre rapport les inform
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Ajouter ou modifier un bloc de contenu web
 
@@ -62,8 +64,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
    >   * domo.com
    >   * looker.com
 
-
-   Un avertissement s’affiche sous l’URL saisie s’il n’est pas possible de l’incorporer. Ces avertissements incluent :
+   Un avertissement s’affiche sous l’URL saisie s’il n’est pas possible de l’incorporer. Ces avertissements sont les suivants :
 
    | Nom de l’avertissement | Motif |
    |---|---|

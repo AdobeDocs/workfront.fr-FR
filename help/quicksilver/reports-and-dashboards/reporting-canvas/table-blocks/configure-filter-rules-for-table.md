@@ -5,10 +5,12 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -44,7 +46,7 @@ Vous pouvez également afficher uniquement les projets auxquels un propriétaire
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configuration des règles de filtrage pour un tableau
 
@@ -89,7 +91,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
       <td> <p>Le champ pour lequel vous filtrez existe et a reçu une valeur.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Less Than</strong> </td> 
+      <td role="rowheader"><strong>Est inférieur à</strong> </td> 
       <td> <p>Cela permet de rechercher tous les résultats dont la valeur est inférieure à ce qui est entré, sans inclure la valeur saisie.</p> </td> 
      </tr> 
      <tr> 
@@ -97,7 +99,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
       <td> <p>Cela permet de rechercher tous les résultats dont la valeur est inférieure ou égale à la valeur saisie.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Greater Than</strong> </td> 
+      <td role="rowheader"><strong>Est supérieur à</strong> </td> 
       <td> <p>Cela permet de rechercher tous les résultats dont la valeur est supérieure à la valeur saisie, sans inclure la valeur saisie.</p> </td> 
      </tr> 
      <tr> 
@@ -110,10 +112,10 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Contient</strong> </td> 
-      <td> <p>Cela permet de rechercher le texte spécifié dans toute une chaîne de texte.</p> <p>Par exemple, l’utilisation de "Contains Inf" (Contient Inf) capture tout ce qui contient "Inf" (Inf) ou "inf" (Inf), comme le mot "Infinity" (Infinité).</p> <p>Remarque : Adobe Workfront recherche l’intégralité du mot ou de l’expression saisi pour chaque règle de filtre. Par exemple, si vous recherchez des champs dont le nom contient l’expression "nouveau projet", Workfront n’affiche pas les projets dont le nom contient uniquement "nouveau" ou "projet", ni les expressions qui contiennent des mots supplémentaires entre ceux-ci, tels que "nouveau projet principal". Le filtre recherche uniquement les projets dont le nom contient exactement l’expression "nouveau projet".</p> </td> 
+      <td> <p>Cela permet de rechercher le texte spécifié dans toute une chaîne de texte.</p> <p>Par exemple, l’utilisation de "Contains Inf" (Contient Inf) capture tout ce qui contient "Inf" (Inf) ou "inf" (Inf), par exemple).</p> <p>Remarque : Adobe Workfront recherche l’intégralité du mot ou de l’expression saisi pour chaque règle de filtre. Par exemple, si vous recherchez des champs dont le nom contient l’expression "nouveau projet", Workfront n’affiche pas les projets dont le nom contient uniquement "nouveau" ou "projet", ni les expressions qui contiennent des mots supplémentaires entre ceux-ci, tels que "nouveau projet principal". Le filtre recherche uniquement les projets dont le nom contient exactement l’expression "nouveau projet".</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Ne contient pas (non sensible à la casse)</strong> </td> 
+      <td role="rowheader"><strong>Ne contient pas</strong> </td> 
       <td> <p>Cela filtre les éléments qui ne comportent pas de texte spécifié.</p> <p>Par exemple, "ne contient pas inf" renvoie les champs dont le nom ne contient pas "Inf" ou "inf".</p> </td> 
      </tr> 
     </tbody> 

@@ -5,21 +5,23 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Regroupement des lignes d’un tableau dans le canevas de création de rapports
 
-Vous pouvez organiser les informations d’un rapport en les affichant dans des groupes définis par les champs de devise, de date, de pourcentage, de texte et d’heure.
+Vous pouvez organiser les informations d’un rapport en les affichant dans des groupes définis par devise, date, pourcentage, texte et heure.
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Regroupement de lignes dans un tableau
 
@@ -40,7 +42,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
    Vous pouvez utiliser la variable **Rechercher** pour rechercher un groupe spécifique.
 
-1. Dans le menu déroulant situé à droite de l’objet **Groupe** , sélectionnez le mode de tri du groupe.
+1. Dans le menu déroulant situé à droite de la **Groupe** , sélectionnez le mode de tri du groupe.
 
    Les options varient en fonction du type de champ utilisé pour regrouper vos lignes.
 
@@ -95,7 +97,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
    * Pour ajouter un autre groupe, faites glisser un autre champ depuis le panneau latéral.
    * Pour afficher les lignes d’un groupe réduit par défaut, cliquez sur le bouton **Plus de menu** icon ![](assets/more-icon.png) en regard du groupe, puis cliquez sur **Réduire le groupe**.
 
-      Chaque groupe peut être configuré individuellement pour s’afficher avec des lignes réduites ou développées. Par défaut, toutes les lignes regroupées sont réduites.
+     Chaque groupe peut être configuré individuellement pour s’afficher avec des lignes réduites ou développées. Par défaut, toutes les lignes regroupées sont réduites.
 
    * Pour afficher un comptage dans la ligne du groupe, cliquez sur le bouton **Plus de menu** icon ![](assets/more-icon-27x15.png) en regard du groupe, puis cliquez sur **Nombre d’affichages**.
    * Pour supprimer un groupe, cliquez sur le bouton **Plus de menu** icon ![](assets/more-icon.png) en regard du groupe, puis cliquez sur **Supprimer le groupe**.

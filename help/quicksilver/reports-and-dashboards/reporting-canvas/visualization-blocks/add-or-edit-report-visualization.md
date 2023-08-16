@@ -4,10 +4,12 @@ description: Ajout ou modification d’un bloc de visualisation dans la zone de 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +27,7 @@ Vous pouvez ajouter les types de visualisation suivants à un rapport :
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Ajouter ou modifier un bloc de visualisation
 
@@ -34,7 +36,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 >Toutes vos modifications sont enregistrées automatiquement lorsque vous créez et modifiez les blocs de votre rapport.
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Reporting**.
-1. Cliquez sur **Nouveau rapport**, puis créez un rapport avec des tableaux contenant des données, comme décrit dans la section [Créer un rapport dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) et [Ajouter ou modifier un bloc de tableau dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Cliquez sur **Nouveau rapport**, puis créez un rapport avec des tableaux contenant des données, comme décrit dans la section [Création d’un rapport dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) et [Ajouter ou modifier un bloc de tableau dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    Ou
 
@@ -42,15 +44,15 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
 1. Dans la partie droite de l’écran, sous **Ajouter un bloc**, soit :
 
-   Faites glisser le **Visualisation** **** sur la zone de travail directement à l’emplacement souhaité.
+   Faites glisser le **Visualisation** **** sur la zone de travail, directement à l’emplacement souhaité.
 
    Ou
 
-   Double-cliquez sur le **Visualisation** **** pour ajouter une visualisation en haut de la zone de travail.
+   Double-cliquez sur le **Visualisation** icône **** pour ajouter une visualisation en haut de la zone de travail.
 
    Ou
 
-   Sélectionnez la **Visualiser** icône **** en haut d’un tableau existant sur la zone de travail.
+   Sélectionnez la variable **Visualiser** icône **** en haut d’un tableau existant sur la zone de travail.
 
    >[!TIP]
    >
@@ -76,7 +78,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
 1. Poursuivez la procédure pour configurer votre visualisation :
 
-   * **Barre** visualisation : Pour obtenir des instructions, voir [Configuration d’une visualisation à barres dans le Canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
-   * **Colonne** visualisation : Pour obtenir des instructions, voir [Configuration d’une visualisation en colonne dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
-   * **Diagramme** visualisation : Pour obtenir des instructions, voir [Configuration de la visualisation des secteurs dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
-   * **KPI** visualisation : Pour obtenir des instructions, voir [Configuration d’une visualisation des indicateurs de performance clés dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
+   * **Barre** visualisation : pour obtenir des instructions, voir [Configuration d’une visualisation à barres dans le Canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
+   * **Colonne** visualisation : pour obtenir des instructions, voir [Configuration d’une visualisation en colonne dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
+   * **Diagramme** visualisation : pour obtenir des instructions, voir [Configuration de la visualisation des secteurs dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
+   * **KPI** visualisation : pour obtenir des instructions, voir [Configuration d’une visualisation des indicateurs de performance clés dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).

@@ -5,10 +5,12 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +21,7 @@ Le créateur de champs du Canevas de création de rapports vous permet de créer
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Créer un champ de formule
 
@@ -34,19 +36,19 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
 1. Cliquez sur **Nouveau +** en haut de la page **Champs** dans le panneau de droite.
 1. Dans la nouvelle page qui s’ouvre, cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png) en regard du nom du champ dans le coin supérieur gauche pour modifier le nom du champ de formule.
-1. Faire glisser **Fonctions** ou **Champs** du panneau de gauche au créateur de champs au centre pour les ajouter à votre champ de formule.
+1. Glisser **Fonctions** ou **Champs** du panneau de gauche au créateur de champs au centre pour les ajouter à votre champ de formule.
 
 
    >[!TIP]
    >
    >Lorsque vous créez votre champ de formule, la variable **Aperçu du champ** à droite affiche des exemples du champ obtenu.
 
-   Chaque fonction contient un certain nombre de rectangles en pointillés vides qui seront utilisés comme arguments dans le calcul d’un résultat. Elles peuvent être renseignées en saisissant du texte ou des nombres statiques, en faisant glisser et en déposant un champ à partir du panneau de gauche (à l’aide de la valeur du champ dans le calcul), ou en faisant glisser une autre fonction (créant une fonction imbriquée). Les fonctions possibles sont les suivantes :
+   Chaque fonction contient un certain nombre de rectangles en pointillés vides qui seront utilisés comme arguments dans le calcul d’un résultat. Elles peuvent être renseignées en saisissant du texte ou des nombres statiques, en faisant glisser et en déposant un champ à partir du panneau de gauche (à l’aide de la valeur du champ dans le calcul), ou en faisant glisser une autre fonction (créant une fonction imbriquée). Fonctions possibles :
 
    | Fonction | Description | Sortie |
    |---|---|---|
-   | IF | Comparez deux arguments basés sur un modificateur sélectionné, puis effectuez une action spécifiée en fonction de la valeur True (Is True:) ou False (Is False:) obtenue. Remarque : actuellement, le deuxième argument ne peut pas être une valeur statique True ou False. Vous pouvez plutôt utiliser une fonction imbriquée telle que ISBLANK(Project Name) qui renvoie toujours la valeur False comme solution. | True/False, Date, Number ou String |
-   | CONCAT | Fusionnez plusieurs chaînes de bout en bout pour créer une nouvelle chaîne. | Chaîne |
+   | IF | Comparez deux arguments basés sur un modificateur sélectionné, puis effectuez une action spécifiée en fonction de la valeur True (Is True:) ou False (Is False:) obtenue. Remarque : actuellement, le second argument ne peut pas être une valeur statique True ou False. À la place, vous pouvez utiliser une fonction imbriquée telle que ISBLANK(Project Name) qui renvoie toujours la valeur False comme solution. | True/False, Date, Number ou String |
+   | CONCAT | Fusionnez plusieurs chaînes ensemble de bout en bout pour créer une nouvelle chaîne. | Chaîne |
    | CONTIENT | Évaluez si un champ d’argument de chaîne (Rechercher du texte) est contenu dans un autre champ d’argument de chaîne (Dans du texte). | Vrai/Faux |
    | DANS | Évaluer si la valeur d’un champ d’argument (Find) correspond à la valeur d’au moins un autre champ d’argument (Within) | Vrai/Faux |
    | ISBLANK | Évaluez si un champ d’argument est vide. | Vrai/Faux |

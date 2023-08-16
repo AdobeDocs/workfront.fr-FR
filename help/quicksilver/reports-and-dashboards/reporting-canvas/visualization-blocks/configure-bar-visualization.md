@@ -4,10 +4,12 @@ description: Configuration d’une visualisation à barres dans le Canevas de cr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +20,7 @@ Une visualisation en barres peut vous aider à raconter rapidement une histoire 
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configuration d’une visualisation en barres
 
@@ -48,8 +50,8 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
          <td role="rowheader">Axe horizontal</td>
          <td><p>Dans le menu déroulant de gauche, sélectionnez les données que vous souhaitez représenter le long de l’axe horizontal ou X. Les éléments de cet axe s’affichent sous forme de barres comparatives, en fonction de leurs valeurs.</p><p>Dans le menu déroulant de droite, sélectionnez la manière dont vous souhaitez que la visualisation calcule et affiche les valeurs le long de l’axe horizontal :</p>
           <ul>
-           <li><p><b>Count</b>: Nombre de valeurs</p></li>
-           <li><p><b>Somme</b>: Le total de toutes les valeurs </p></li>
+           <li><p><b>Count</b>: nombre de valeurs</p></li>
+           <li><p><b>Somme</b>: le total de toutes les valeurs </p></li>
            <li><p><b>Moyenne</b>: moyenne de toutes les valeurs</p></li>
            <li><p><b>Minimum</b>: seule la valeur la plus faible</p></li>
            <li><p><b>Maximum</b>: seule la valeur la plus élevée</p></li>

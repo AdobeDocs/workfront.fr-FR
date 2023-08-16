@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -19,7 +21,7 @@ Un tableau affiche les informations de champ dans des colonnes qui peuvent être
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Ajouter ou modifier un bloc de tableau
 
@@ -36,13 +38,13 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
    Ou
 
-   Double-cliquez sur le **Tableau** icon ![](assets/table-icon.png) pour ajouter un tableau en haut du canevas.
+   Double-cliquez sur le **Tableau** icon ![](assets/table-icon.png) pour ajouter un tableau en haut de la zone de travail.
 
    >[!TIP]
    >
    >Vous pouvez modifier la taille du bloc une fois qu’il a été placé en faisant glisser ses poignées d’angle.
 
-1. Cliquez sur **Tableau sans titre** dans l’en-tête du tableau, puis saisissez le titre du tableau.
+1. Cliquez sur **Tableau sans titre** dans l’en-tête du tableau, puis tapez le titre du tableau.
 
    ![](assets/table-name-350x142.png)
 
@@ -68,6 +70,6 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
 1. Procédez de l’une des manières suivantes pour configurer davantage le tableau :
 
-   * **Ajouter un champ de formule**: Cliquez sur **Nouveau +** en haut de la page **Champs** liste. Pour plus d’informations sur la création d’un champ de formule, voir [Créer un champ de formule dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
-   * **Ajouter un filtre**: Faites glisser sur le **Filtrer** au-dessus du tableau. Pour plus d’informations sur la configuration des règles de filtrage, voir [Filtrage d’un tableau dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
+   * **Ajouter un champ de formule**: cliquez sur **Nouveau +** en haut de la page **Champs** liste. Pour plus d’informations sur la création d’un champ de formule, voir [Créer un champ de formule dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
+   * **Ajouter un filtre**: faites glisser sur le **Filtrer** au-dessus du tableau. Pour plus d’informations sur la configuration des règles de filtrage, voir [Filtrage d’un tableau dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
    * **Regroupement des lignes selon des attributs spécifiques**: faites glisser sur le **Groupe** au-dessus du tableau. Pour plus d’informations sur la création de groupes de lignes, voir [Regroupement des lignes d’un tableau dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).

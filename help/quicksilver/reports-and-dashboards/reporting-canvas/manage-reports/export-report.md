@@ -5,10 +5,12 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +25,7 @@ Vous pouvez exporter un rapport entier (ou un bloc spécifique) dans un format d
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : aperçu](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Exporter un rapport
 
@@ -37,7 +39,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
    >   * Si vous exportez un rapport contenant plusieurs tableaux au format XLSX, le fichier exporté contient une feuille distincte pour chaque tableau.
    >   * Si vous exportez un rapport contenant plusieurs tableaux au format CSV, le résultat exporté est un dossier compressé contenant un fichier distinct pour chaque tableau.
    >   * Si vous exportez un tableau contenant des lignes groupées au format CSV, le fichier CSV comprend toutes les lignes, mais elles ne sont pas affichées dans les groupes.
-
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 
