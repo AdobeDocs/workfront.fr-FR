@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
+source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,9 @@ La section suivante contient la liste des fonctionnalités qui ont été ajouté
 
 Les informations suivantes font référence à l’activité de publication toutes les semaines des fonctionnalités incluses dans la nouvelle expérience bêta de commentaires. Cet article répertorie les nouvelles fonctionnalités ajoutées et les problèmes résolus pour la nouvelle expérience de commentaires.
 
-### Semaine du 14 août 2023 (Début du quatrième trimestre 2023)
+### Semaine du 14 août 2023
+
+[Visionnez une démonstration vidéo de toutes les fonctionnalités publiées au cours de la semaine du 14 août 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Nouvelle expérience de commentaire pour des objets supplémentaires
 
