@@ -6,9 +6,9 @@ description: Vous pouvez ajouter ou répondre aux mises à jour d’un document 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -44,21 +44,15 @@ Vous devez disposer des éléments suivants :
 
 ## Ajouter ou répondre à une mise à jour d’un document
 
-1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Recherchez le document dont vous avez besoin.
+1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Recherchez le document dont vous avez besoin et effectuez l’une des opérations suivantes :
 
-1. Dans le résumé, sous **Mises à jour**, cliquez sur **Démarrer une nouvelle mise à jour**. Pour plus d’informations sur le résumé, voir [Présentation du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
+   * Cliquez sur le document de la liste, puis sur le **Résumé ouvert** icon ![](assets/qs-summary-in-new-toolbar-small.png) dans le coin supérieur droit, puis cliquez sur **Démarrer une nouvelle mise à jour** ou cliquez sur **Répondre** pour ajouter une réponse à un commentaire existant. Pour plus d’informations sur le résumé, voir [Présentation du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
+   * Passez la souris sur le document, puis cliquez sur **Détails du document**, puis **Mises à jour** dans le panneau de gauche.
+Pour plus d’informations sur l’ajout de mises à jour aux objets, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Ou
+   Les mises à jour et réponses sont ajoutées au document ainsi qu’aux objets de rang supérieur. Pour plus d’informations, voir [Mise à jour de la section - Aperçu](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-   Sous un commentaire existant, cliquez sur **Répondre**. puis cliquez sur **Saisissez une réponse**.
-
-1. Saisissez votre commentaire ou votre réponse.
-1. (Facultatif) Si vous souhaitez baliser un utilisateur pour l’informer de votre commentaire ou de votre réponse, commencez à saisir son nom dans le champ **Notifier** puis sélectionnez le nom qui s’affiche dans la liste déroulante.
-1. (Facultatif) Pour demander l’approbation du document, cliquez sur **Demande d’approbation.**
-
-1. (Facultatif) Activez **Privé à ma société** si vous souhaitez empêcher les utilisateurs en dehors de votre entreprise d’afficher votre mise à jour.
-1. Cliquez sur **Mettre à jour** si vous avez ajouté une nouvelle mise à jour, ou cliquez sur **Répondre** si vous avez répondu à une mise à jour.
 
 ## Ajouter une réponse à un commentaire de vérification pour un document
 
@@ -69,4 +63,4 @@ Dans la zone Mises à jour , lorsque vous répondez à un commentaire d’une pe
 
 1. Cliquez sur **Réponse au BAT**, saisissez le commentaire dans la visionneuse de vérification qui s’ouvre, puis cliquez sur **Répondre**.
 
-   Si vous avez besoin d’informations sur la saisie de commentaires et de réponses dans la visionneuse de vérification, reportez-vous à la section [Commentaire sur un BAT](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+   Si vous avez besoin d’informations sur la saisie de commentaires et de réponses dans la visionneuse de vérification, voir [Commentaire sur un BAT](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
