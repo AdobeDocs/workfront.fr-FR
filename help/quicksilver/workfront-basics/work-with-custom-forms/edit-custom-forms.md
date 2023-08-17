@@ -7,14 +7,16 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
 # Modifier les informations dans les champs de formulaire personnalisés
+
+{{preview-and-fast-release}}
 
 Vous pouvez modifier les informations d’un formulaire personnalisé une fois le formulaire joint à un objet. Pour plus d’informations sur l’ajout de formulaires personnalisés à des objets, voir [Ajout d’un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -57,7 +59,7 @@ Vous devez disposer des éléments suivants :
 * L’administrateur Workfront ou l’utilisateur Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Création ou modification d’un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 * Des formulaires personnalisés doivent être associés à un objet.
 
-   Pour plus d’informations sur l’application de formulaires personnalisés à un objet, voir [Ajout d’un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+  Pour plus d’informations sur l’application de formulaires personnalisés à un objet, voir [Ajout d’un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Modifier les informations d’un formulaire personnalisé
 
@@ -93,20 +95,17 @@ La modification des informations d’un formulaire personnalisé associé à un 
 
    Pour plus d’informations sur tous les types de champ, voir [Création ou modification d’un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Cliquez sur **Enregistrer** Modifications.
+1. Cliquez sur **Enregistrer les modifications**.
 
    >[!IMPORTANT]
    >
+   >Vous devez remplir tous les champs requis du formulaire avant de pouvoir l’enregistrer. Le nom d’un champ obligatoire est suivi d’un astérisque.
    >
-   >
-   ><!--   >
-   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This is true in "Edit custom forms" but not in "Add a custom form to an object." This snippet is used in both articles. The whole snippet is conditioned for classic only in "Add" but not in "Edit." Don't remove the NWE conditioning in the snippet because it is needed in "Edit."</p>   >
-   >-->   >
-   >
-   >Vous devez remplir tous les champs requis du formulaire avant de pouvoir l’enregistrer. Le nom d’un champ obligatoire est suivi d’un astérisque.
-   ![](assets/nwe-required-custom-field.png)   >
+   >![](assets/nwe-required-custom-field.png)
 
    Lorsqu’une personne modifie des données dans un autre objet référencé par des champs personnalisés calculés de votre objet, les modifications ne sont pas répercutées automatiquement dans votre objet. Pour plus d’informations sur la mise à jour manuelle de tous les champs personnalisés calculés de votre objet, voir [Recalculer tous les champs personnalisés calculés d’un objet](#recalculate-all-calculated-custom-fields-for-an-object) dans cet article.
+
+   <span class="preview">Lorsque des champs dépendants de la page sont modifiés, les champs calculés du formulaire personnalisé sont recalculés dynamiquement en temps réel. Vous pouvez afficher les résultats mis à jour sans enregistrer le formulaire. Cela s’applique aux champs calculés sur les formulaires par défaut et aux formulaires personnalisés.</span>
 
    Vous pouvez également mettre à jour manuellement tous les champs personnalisés calculés d’un objet lorsque vous modifiez l’objet en masse avec d’autres objets d’une liste. Pour obtenir des instructions, voir [Recalculer tous les champs personnalisés calculés de plusieurs objets dans une liste lors de la modification des objets](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) dans cet article.
 
@@ -134,9 +133,14 @@ Vous pouvez recalculer manuellement les champs personnalisés de plusieurs objet
    Workfront calcule tous les champs personnalisés pour tous les objets sélectionnés.
 
 >[!TIP]
-En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors du recalculage en masse des champs personnalisés calculés pour garantir des performances optimales. Certaines choses qui peuvent rendre un projet trop complexe peuvent être des dépendances ou des affectations multiples ou un grand nombre de champs personnalisés.
-Pour recalculer les expressions personnalisées en bloc à partir d’une liste de projets :
-1. Accédez à une liste de projets ou à un rapport et sélectionnez un ou plusieurs projets.
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png), puis cliquez sur **Recalculer des expressions personnalisées**.
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
-Workfront calcule tous les champs personnalisés pour tous les projets sélectionnés.
+>
+>En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors du recalculage en masse des champs personnalisés calculés pour garantir des performances optimales. Certaines choses qui peuvent rendre un projet trop complexe peuvent être des dépendances ou des affectations multiples ou un grand nombre de champs personnalisés.
+>
+>Pour recalculer les expressions personnalisées en bloc à partir d’une liste de projets :
+>
+>1. Accédez à une liste de projets ou à un rapport et sélectionnez un ou plusieurs projets.
+>1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png), puis cliquez sur **Recalculer des expressions personnalisées**.
+>
+>![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+>
+>Workfront calcule tous les champs personnalisés pour tous les projets sélectionnés.

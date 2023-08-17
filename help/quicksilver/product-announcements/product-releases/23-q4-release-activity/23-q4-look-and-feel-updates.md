@@ -4,7 +4,7 @@ description: Mises à jour de l’apparence pendant la période de publication d
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -26,4 +26,4 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version du
 
 Nous avons mis à jour les onglets pour Notifications par e-mail, Notifications de rappel et Modèles d’e-mail dans la zone Configuration > Email > Notifications afin qu’ils soient plus modernes et cohérents par rapport aux autres zones de Workfront.
 
-Pour plus d’informations, voir [Configuration des notifications d’événement pour tous les membres du système](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+Pour plus d’informations, voir [Configuration des notifications d’événement pour tous les membres du système](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
