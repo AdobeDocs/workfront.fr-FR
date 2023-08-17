@@ -5,10 +5,10 @@ title: Prise en main de la nouvelle page d’accueil dans Adobe Workfront
 description: New Home est une nouvelle fonctionnalité puissante pour gérer votre travail.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 19%
+source-wordcount: '1088'
+ht-degree: 20%
 
 ---
 
@@ -52,7 +52,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’u
     Affiche toutes les approbations de votre organisation dans un tableau avec des colonnes personnalisables, ainsi qu’une barre de recherche qui vous permet de rechercher des approbations spécifiques.
 
 * **Mentions**\
-    Affiche les fils de commentaires récents qui contiennent des mentions @ de vous-même dans Workfront, ainsi qu’un bouton de réponse qui vous permet de rédiger une réponse dans le widget. Ce widget affiche également les commentaires effectués sur les tâches et problèmes auxquels vous êtes affecté, que vous avez affectés à un autre utilisateur, que vous détenez, que vous êtes un Principal contact ou que vous avez créés, à condition que la tâche ou le problème ait été mis à jour au cours des 30 derniers jours.
+    Affiche les fils de commentaires récents qui contiennent des mentions @ de vous-même dans Workfront, ainsi qu’un bouton de réponse qui vous permet de rédiger une réponse dans le widget. Ce widget affiche également les commentaires effectués sur les tâches et problèmes auxquels vous êtes affecté, que vous avez attribués à un autre utilisateur, que vous détenez, que vous êtes le contact principal ou que vous avez créés, à condition que la tâche ou le problème ait été mis à jour au cours des 30 derniers jours.
 
 * **À faire**\
     Ce widget unique vous permet d’ajouter des éléments de texte à une liste de contrôle personnelle que vous pouvez modifier librement.
@@ -74,15 +74,15 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Léger</td>
-        <td>Mon travail, en attente de mon approbation, à faire</td>
+        <td>Mon travail, en attendant mon approbation</td>
     </tr>
     <tr>
         <td>Contributeur</td>
-        <td>Mon Travail, Mentions, Tâches</td>
+        <td>Mon travail, Mentions</td>
     </tr>
     <tr>
         <td>Externe</td>
-        <td>En attente de mon approbation, tâches</td>
+        <td>En attente de mon approbation</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Vérifier</td>
-        <td>Mon Travail, Mentions, Tâches</td>
+        <td>Mon travail, Mentions</td>
     </tr>
     <tr>
         <td>Limitée</td>
-        <td>Mes projets, en attente de mon approbation, à faire</td>
+        <td>Mes projets, en attente de mon approbation</td>
     </tr>
     <tr>
         <td>Contributeur</td>
-        <td>Mon Travail, Mentions, Tâches</td>
+        <td>Mon travail, Mentions</td>
     </tr>
     <tr>
         <td>Externe</td>
-        <td>En attente de mon approbation, tâches</td>
+        <td>En attente de mon approbation</td>
     </tr>
 </table>
 
