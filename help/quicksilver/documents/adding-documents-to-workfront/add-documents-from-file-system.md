@@ -6,19 +6,22 @@ description: Vous pouvez ajouter des documents à des projets, des tâches ou de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
 
 # Ajout de documents à Adobe Workfront à partir de votre système de fichiers
 
+{{preview-and-fast-release}}
+
 Vous pouvez ajouter des documents à des projets, à des tâches ou à des problèmes dans les zones suivantes d’Adobe Workfront :
 
 * La zone Documents globale
 * Zone Documents pour un objet Workfront
+* <span class="preview">Carte connectée sur un panorama Workfront</span>
 
 Vous pouvez également charger de nouvelles versions de documents et ajouter des liens vers des documents provenant de fournisseurs cloud tiers, tels que Google Drive, Dropbox et Microsoft OneDrive. Pour plus d’informations sur l’ajout de nouvelles versions de documents, voir [Télécharger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md). Pour plus d’informations sur l’ajout de documents à partir de fournisseurs cloud tiers, voir [Liaison de documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -80,7 +83,7 @@ Pour ajouter un document :
         <li value="2"> <p>Recherchez et sélectionnez le document à ajouter à partir du système de fichiers de votre poste de travail.<br></p> <p>Vous pouvez sélectionner plusieurs documents en appuyant sur la touche Maj lorsque vous sélectionnez des fichiers supplémentaires.</p> </li> 
         <li value="3">Cliquez sur <strong>Ouvrir</strong>.</li> 
        </ol> 
-       <p><b>REMARQUE</b>: Vous pouvez également faire glisser des fichiers directement depuis votre gestionnaire de fichiers vers la liste de documents.</td> 
+       <p><b>REMARQUE</b>: vous pouvez également faire glisser des fichiers directement depuis votre gestionnaire de fichiers vers la liste de documents.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Téléchargement de documents à partir d’une application tierce, telle que Google Drive ou SharePoint</td> 
@@ -94,10 +97,10 @@ Pour ajouter un document :
       <td role="rowheader">Demande d’un document auprès d’un autre utilisateur Workfront</td> 
       <td> 
        <ol> 
-        <li value="1">Dans la <strong>Ajouter</strong> menu déroulant, sélectionnez <strong>Demander un document</strong>.</li> 
+        <li value="1">Dans la <strong>Ajouter</strong> menu déroulant, sélectionnez <strong>Demande d’un document</strong>.</li> 
         <li value="2">Dans le <strong>À qui le demandez-vous ?</strong> saisissez le nom de l’utilisateur à partir duquel vous demandez le document.</li> 
         <li value="3">Dans le <strong>Dites-leur ce que vous demandez.</strong> saisissez le nom du document.</li> 
-        <li value="4"> <p>Cliquez sur <strong>Envoyer la requête</strong>.</p> <p>Votre requête s’affiche dans l’onglet Documents .</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Pour plus d’informations sur la demande de documents, voir <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Demander un document</a>.</p> </li> 
+        <li value="4"> <p>Cliquez sur <strong>Envoyer la requête</strong>.</p> <p>Votre requête s’affiche dans l’onglet Documents .</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Pour plus d’informations sur la demande de documents, voir <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Demande d’un document</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
@@ -105,7 +108,7 @@ Pour ajouter un document :
 
 ## Sécurité des documents
 
-Le site Workfront empêche les virus et autres contenus malveillants d&#39;entrer sur le site via des documents de la manière suivante :
+Le site Workfront empêche les virus et autres contenus malveillants d&#39;entrer sur le site par le biais de documents de la manière suivante :
 
 * [Comment Workfront détecte les fichiers corrompus](#how-workfront-detects-corrupted-files)
 * [Restrictions relatives aux noms de fichier](#file-name-restrictions)

@@ -6,9 +6,9 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ Lorsque l’un des détails suivants est mis à jour pour la carte à un emplace
 * [!UICONTROL Statut]
 * [!UICONTROL Date d’achèvement prévue]
 * [!UICONTROL Estimation] / [!UICONTROL Points d’article]
+* <span class="preview">[!UICONTROL Documents]</span>
 
 >[!NOTE]
+>
 >Une seule tâche ou problème connecté ne peut être ajouté qu’une seule fois par panorama. La même tâche ou le même problème peut être connecté à plusieurs panoramas.
 
 ## Exigences d’accès
@@ -109,7 +111,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
-      <td><p>Sélectionnez l’état de la carte. Les valeurs par défaut sont [!UICONTROL Nouveau], [!UICONTROL En cours] et [!UICONTROL Terminé], mais tous les états personnalisés définis pour l’élément dans [!DNL Workfront] sont également disponibles.</p>
+      <td><p>Sélectionnez l’état de la carte. Les valeurs par défaut sont [!UICONTROL Nouveau], [!UICONTROL En cours] et [!UICONTROL Terminé], mais les états personnalisés définis pour l’élément dans [!DNL Workfront] sont également disponibles.</p>
       <p>Si des stratégies de colonne sont activées pour la mise à jour des valeurs de champ, la modification de l’état de la carte déplace automatiquement la carte vers la colonne correspondante. Pour plus d’informations, voir "Définition des paramètres et des stratégies de colonne" dans l’article <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Gestion des colonnes de panorama</a>.</p>
       <p>Cliquez sur <strong>[!UICONTROL Mark Complete]</strong> dans la partie supérieure de la carte, l’état devient automatiquement Terminé.</p></td>
      </tr>
@@ -143,8 +145,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
-      <td><span class="preview"><p>Passez la souris sur la miniature du document, puis cliquez sur <strong>Aperçu</strong> pour afficher le fichier dans le navigateur ou <strong>Télécharger</strong> pour télécharger le fichier sur votre ordinateur.</p></span>
-      <span class="preview"><p><strong>REMARQUE :</strong> Actuellement, un document doit être chargé dans la tâche Workfront pour être disponible sur la carte connectée.</p></span></td>
+      <td><span class="preview">Pour un document existant, passez la souris sur la miniature du document, puis cliquez sur <strong>Aperçu</strong> pour afficher le fichier dans le navigateur ou <strong>Télécharger</strong> pour télécharger le fichier sur votre ordinateur. Pour obtenir un nouveau document, voir <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Ajout de documents sur les cartes</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>

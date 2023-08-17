@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 1%
 
 ---
@@ -209,7 +209,7 @@ ht-degree: 1%
             * [Activité Publication des objectifs Adobe Workfront 23.1 : semaine du 5 décembre 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
          * Objectifs de la version 21.2 {#goals-21-2}
             * [Objectifs Adobe Workfront avec la version 21.2](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
-            * [Activité Publication des objectifs Adobe Workfront 21.2 : semaine du 19 avril 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
+            * [Activité Publication des objectifs d’Adobe Workfront 21.2 : semaine du 19 avril 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
             * [Activité Publication des objectifs d’Adobe Workfront 21.2 : semaine du 5 avril 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
             * [Activité Publication des objectifs d’Adobe Workfront 21.2 : semaine du 15 février 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
          * Objectifs de la version 21.1 {#goals-21-1}
@@ -659,7 +659,7 @@ ht-degree: 1%
          * [Exportation des données Workfront par le biais de Démarrages](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
          * [Importer des données à l’aide d’un modèle de démarrage rapide](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
          * [Importateur de données de démarrage rapide](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
-         * [Scénario de démarrage : société et groupe](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
+         * [Scénario de démarrage : Société et groupe](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
          * [Scénario de démarrage : Importer des champs personnalisés à plusieurs options dans Workfront](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
          * [Scénario de démarrage : importation d’objet](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
          * [FAQ sur les débuts](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
@@ -755,7 +755,7 @@ ht-degree: 1%
    * Conseils, astuces et dépannage pour l’administration et la configuration {#admin-setup-tips}
       * [Conseils, astuces et dépannage](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Les administrateurs de groupe doivent avoir un accès plus élevé que ceux qu’ils gèrent](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
-      * [Objets principaux et désactivés](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
+      * [Actif et désactivé](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
       * [L’URL de déconnexion ADFS ne fonctionne pas](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
       * [FAQ sur l’administration et la configuration](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
       * [Rappels automatiques par rapport aux notifications de rappel](administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)
@@ -962,6 +962,7 @@ ht-degree: 1%
       * [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Gestion des cartes](agile/get-started-with-boards/move-board-items.md)
       * [Gérer les éléments de liste de contrôle sur les cartes](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Ajout de documents sur les cartes](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Suppression ou archivage d’une carte d’un panorama](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrage et recherche dans un panorama](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1085,21 +1086,21 @@ ht-degree: 1%
          * [Afficher ou télécharger une ressource liée avec le connecteur amélioré](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * Adobe Workfront pour Experience Manager Assets et Assets Essentials {#wf-aem-essentials}
          * [Adobe Workfront pour Experience Manager Assets et Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-         * [Présentation des intégrations d’Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+         * [Présentation des intégrations de Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Lier des ressources et des dossiers à partir de Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
-         * [Affichage des métadonnées mappées pour Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
-         * [Affichage ou téléchargement d’une ressource liée depuis Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-         * [Envoi d’un document à Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+         * [Affichage des métadonnées mappées pour Experience Manager Assets ou les Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
+         * [Afficher ou télécharger une ressource liée à partir de Experience Manager Assets ou d’Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+         * [Envoyer un document à Experience Manager Assets ou aux Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Bon à tirer d’une ressource liée pour Experience Manager Assets ou Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-         * [Création d’un dossier lié à Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Créer un dossier lié à Experience Manager Assets ou aux Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Utilisation des workflows dans l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
-         * [Résolution des problèmes d’intégration d’Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [Résolution des problèmes d’intégration de Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migration à partir des connecteurs hérités ou améliorés {#migrate-from-legacy-enhanced-connectors}
       * [Migration à partir des connecteurs hérités ou améliorés](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migration du connecteur hérité ou amélioré vers Workfront pour l’intégration as a Cloud Service d’Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migration du connecteur hérité vers le connecteur amélioré](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
-      * [Désinstallation de Workfront avec Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
-      * [Désinstallation de Workfront avec Adobe Experience Manager Enhanced Connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
+      * [Désinstallation de Workfront avec le connecteur hérité Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
+      * [Désinstallation de Workfront avec le connecteur amélioré de Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
       * [Migration des dossiers et documents liés](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
 * Gérer le travail {#manage-work}
    * [Gérer le travail](manage-work/manage-work.md)
@@ -1325,8 +1326,8 @@ ht-degree: 1%
          * [Conseils, astuces et dépannage pour les tâches](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
          * [Questions fréquentes](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [La durée projetée ne correspond pas à la durée planifiée](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
-   * Événements {#issues}
-      * [Événements](manage-work/issues/issues-overview.md)
+   * Problèmes {#issues}
+      * [Problèmes](manage-work/issues/issues-overview.md)
       * Problèmes de conversion {#convert-issues}
          * [Problèmes de conversion](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [Présentation des problèmes de conversion dans Adobe Workfront](manage-work/issues/convert-issues/convert-issues.md)
@@ -1815,7 +1816,7 @@ ht-degree: 1%
          * Gestion des BAT automatisés {#manage-automated-proofs}
             * [Gestion des BAT automatisés](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [Affichage des étapes de processus automatisé sur un BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
-            * [Afficher les principales étapes sur un BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
+            * [Affichage des étapes actives sur un BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [Créer ou modifier un workflow automatisé pour un BAT existant](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
             * [Modification des phases de BAT et des validants](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
             * [Conversion d’un workflow de base en workflow automatisé sur un BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
@@ -2092,7 +2093,7 @@ ht-degree: 1%
       * [Modules Anaplan](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
       * [Archiver les modules](workfront-fusion/apps-and-their-modules/archive-modules.md)
       * [Modules AWS S3](workfront-fusion/apps-and-their-modules/aws-s3-modules.md)
-      * [Modules Azure Principale Directory](workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
+      * [Modules Azure Active Directory](workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
       * [Modules Azure DevOps](workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
       * [Modules box](workfront-fusion/apps-and-their-modules/box-modules.md)
       * [Modules Bynder](workfront-fusion/apps-and-their-modules/bynder-modules.md)
