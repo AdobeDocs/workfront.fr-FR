@@ -3,9 +3,9 @@ title: Présentation de la version du quatrième trimestre 2023
 description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -105,13 +105,13 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 17 août 2023<br /></p>
+                                <p>Version d’aperçu : 21 août 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production pour un accès anticipé aux panoramas : 24 août 2023</p>
+                                <p>Production pour les panoramas en accès anticipé : à déterminer</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 23.8</p>
+                                <p>Production pour une version rapide : à déterminer</p>
                             </li>
                             <li>
                                 <p>Production pour les versions trimestrielles : avec la version 23.10</p>
