@@ -7,9 +7,9 @@ description: Vous pouvez regrouper les champs personnalisés et les widgets d’
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,8 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader"> <p>Accorder l’accès</p> </td> 
       <td> <p> Sélectionnez les autorisations dont les utilisateurs ont besoin sur un objet où le formulaire personnalisé est joint afin d’afficher cette section et de modifier ses valeurs de champ. 
        <p>Les autorisations suivantes sont disponibles sous <b>Les utilisateurs disposant de cet accès à l’objet peuvent afficher les valeurs de champ.</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>Affichage</strong>: affichage des autorisations sur l’objet</li>
           <li><p><b>Modification limitée</b>: (disponible uniquement si l’objet est un projet, une tâche, un problème ou un utilisateur) :</p> 
           <p>Permet aux utilisateurs de contribuer à l’objet s’il s’agit d’un projet, d’une tâche ou d’un problème.</p>
           <p>Permet aux utilisateurs de modifier le profil ou de posséder l’autorisation de profil pour l’objet s’il s’agit d’un utilisateur.</p></li> 
