@@ -3,7 +3,7 @@ title: Présentation de la version du quatrième trimestre 2023
 description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 3 août 2023<br /></p>
+                                <p>Version d’aperçu : 3 août 2023</p>
                             </li>
                             <li>
                                 <p>Production pour un accès anticipé aux panoramas : 10 août 2023</p>
@@ -88,7 +88,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 3 août 2023<br /></p>
+                                <p>Version d’aperçu : 3 août 2023</p>
                             </li>
                              <li>
                                 <p>Production pour une version rapide : avec la version 23.8</p>
@@ -105,10 +105,10 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 21 août 2023<br /></p>
+                                <p>Version d’aperçu : 21 août 2023</p>
                             </li>
                             <li>
-                                <p>Production pour les panoramas en accès anticipé : à déterminer</p>
+                                <p>Production pour un accès anticipé aux panoramas : 24 août 2023</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : à déterminer</p>
