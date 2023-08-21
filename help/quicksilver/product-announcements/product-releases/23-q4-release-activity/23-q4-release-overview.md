@@ -3,9 +3,9 @@ title: Présentation de la version du quatrième trimestre 2023
 description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             </li>
                             <li>
                                 <p>Production pour les versions trimestrielles : avec la version 23.10 (sauf indication contraire)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nouvelles options de filtre pour la nouvelle page d’accueil</a> </p>
+                        <p>De nouvelles options de filtre sont désormais disponibles pour le widget Mon travail dans Nouvelle page d’accueil. Les options incluent des filtres pour les types d’objets (tâches, problèmes et requêtes) et les états (non prêts, prêts à démarrer, à travailler et terminés).</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 17 août 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Prise en charge terminologique personnalisée de la nouvelle page d’accueil</a> </p>
+                        <p>Pour mieux répondre aux besoins uniques des organisations, New Home utilise désormais une terminologie personnalisée pour les objets telle que définie dans les modèles de mise en page d’une instance. Par exemple, si des objets "Projet" ont été renommés "Campagnes" dans votre instance Workfront, le widget Mes projets s’affichera comme Mes campagnes dans Nouvelle page d’accueil.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 17 août 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bouton Essayer une nouvelle page d’accueil supprimé pour les comptes désactivés Nouvelle page d’accueil</a> </p>
+                        <p>Le bouton Essayer une nouvelle page d’accueil n’est plus présent pour les comptes pour lesquels la nouvelle page d’accueil a été désactivée. L’administrateur système doit réactiver la nouvelle page d’accueil pour que les utilisateurs puissent utiliser le bouton pour essayer la nouvelle page d’accueil.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 17 août 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
                             </li>
                         </ul>
                     </td>
