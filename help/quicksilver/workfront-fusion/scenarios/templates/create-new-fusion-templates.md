@@ -7,9 +7,9 @@ description: Vous pouvez créer de nouveaux modèles de scénario dans [!DNL Ado
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
    </td>    </tr> 
@@ -49,9 +49,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -84,7 +84,7 @@ Vous pouvez créer un modèle dans un processus similaire à la création d’un
 
    Pour ajouter une aide contextuelle aux modules, voir [Configuration [!UICONTROL Assistant] fonctionnalité](#set-up-wizard-functionality) dans cet article.
 
-   Pour plus d’informations sur la création d’un scénario, voir [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/create-a-scenario.md).
+   Pour plus d’informations sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
    >[!NOTE]
    >
@@ -95,7 +95,7 @@ Vous pouvez créer un modèle dans un processus similaire à la création d’un
 
 >[!NOTE]
 >
->En enregistrant votre modèle, vous le rendez visible pour tous les membres de votre équipe. Si vous souhaitez que votre modèle soit accessible en dehors de votre équipe, vous devez le publier, puis utiliser un lien partagé, ou demander à votre administrateur d’approuver et de publier le modèle.
+>En enregistrant votre modèle, vous le rendez visible pour tous les membres de votre équipe. Si vous souhaitez que votre modèle soit accessible en dehors de votre équipe, vous devez envoyer une demande pour qu’il soit approuvé et publié. La demande est envoyée à Adobe Workfront pour approbation. Une fois validée, le modèle est accessible par d’autres personnes hors de votre équipe.
 
 ### Création d’un modèle à partir d’un scénario
 
@@ -105,7 +105,7 @@ Vous pouvez créer un modèle dans un processus similaire à la création d’un
 
 1. Ouvrez la page des détails du scénario à partir de laquelle vous souhaitez créer un scénario.
 1. Cliquez sur le bouton **Administration** en haut à droite de la page.
-1. Sélectionner **Clonage en tant que modèle**.
+1. Sélectionner **Cloner comme modèle**.
 
    Le scénario est copié dans une page Nouveau modèle.
 1. (Facultatif) Renommez le modèle en remplaçant la valeur par défaut. **[!UICONTROL Nouveau nom du modèle]** dans le coin supérieur gauche.
@@ -129,11 +129,11 @@ Vous pouvez créer un modèle dans un processus similaire à la création d’un
 
 ## Configuration [!UICONTROL Assistant] fonctionnalité {#set-up-wizard-functionality}
 
-Le [!DNL Workfront Fusion template] [!UICONTROL Assistant] vous permet de fournir aux futurs utilisateurs de votre modèle des instructions ou des informations relatives aux champs spécifiques utilisés dans les modules.
+La variable [!DNL Workfront Fusion template] [!UICONTROL Assistant] vous permet de fournir aux futurs utilisateurs de votre modèle des instructions ou des informations relatives aux champs spécifiques utilisés dans les modules.
 
 1. Cliquez sur le module ajouté au modèle pour afficher les champs du module.
 1. Localisez le champ à ajouter. [!UICONTROL Assistant] et activez **[!UICONTROL Utilisation dans l’assistant]** pour ce champ.
 1. Saisissez les informations que vous souhaitez rendre visibles pour les utilisateurs dans la variable [!UICONTROL Aide] champ .
-1. (Facultatif) Pour permettre aux utilisateurs de voir ce texte lors de l’utilisation du modèle, activez l’option **[!UICONTROL Utiliser comme valeur par défaut]**.
+1. (Facultatif) Pour permettre aux utilisateurs de voir ce texte lors de l’utilisation du modèle, activez **[!UICONTROL Utiliser comme valeur par défaut]**.
 1. Répétez les étapes 2 à 4 pour chaque champ pour lequel vous souhaitez fournir des informations.
 1. Cliquez sur **[!UICONTROL OK]** pour enregistrer les modifications et fermer le module.
