@@ -7,9 +7,9 @@ description: Vous pouvez créer de nouveaux modèles de scénario dans [!DNL Ado
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
+source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Vous pouvez créer un modèle dans un processus similaire à la création d’un
 >[!NOTE]
 >
 >En enregistrant votre modèle, vous le rendez visible pour tous les membres de votre équipe. Si vous souhaitez que votre modèle soit accessible en dehors de votre équipe, vous devez envoyer une demande pour qu’il soit approuvé et publié. La demande est envoyée à Adobe Workfront pour approbation. Une fois validée, le modèle est accessible par d’autres personnes hors de votre équipe.
+>
+>Pour plus d’informations sur la publication de modèles, voir [Publier et partager [!DNL Adobe Workfront Fusion] templates](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ### Création d’un modèle à partir d’un scénario
 
