@@ -7,9 +7,9 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ La modification des informations d’un formulaire personnalisé associé à un 
 
    Lorsqu’une personne modifie des données dans un autre objet référencé par des champs personnalisés calculés de votre objet, les modifications ne sont pas répercutées automatiquement dans votre objet. Pour plus d’informations sur la mise à jour manuelle de tous les champs personnalisés calculés de votre objet, voir [Recalculer tous les champs personnalisés calculés d’un objet](#recalculate-all-calculated-custom-fields-for-an-object) dans cet article.
 
-   <span class="preview">Lorsque des champs dépendants de la page sont modifiés, les champs calculés du formulaire personnalisé sont recalculés dynamiquement en temps réel. Vous pouvez afficher les résultats mis à jour sans enregistrer le formulaire. Cela s’applique aux champs calculés sur les formulaires par défaut et aux formulaires personnalisés.</span>
+   <span class="preview">Lorsque des champs dépendants de la page sont modifiés, les champs calculés du formulaire personnalisé sont recalculés dynamiquement en temps réel. Vous pouvez voir la nouvelle valeur du champ calculé sans enregistrer le formulaire, mais elle n’est pas appliquée au formulaire et à l’objet tant que vous n’avez pas enregistré les modifications. Cela s’applique aux champs calculés sur les formulaires par défaut et aux formulaires personnalisés.</span>
 
    Vous pouvez également mettre à jour manuellement tous les champs personnalisés calculés d’un objet lorsque vous modifiez l’objet en masse avec d’autres objets d’une liste. Pour obtenir des instructions, voir [Recalculer tous les champs personnalisés calculés de plusieurs objets dans une liste lors de la modification des objets](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) dans cet article.
 
