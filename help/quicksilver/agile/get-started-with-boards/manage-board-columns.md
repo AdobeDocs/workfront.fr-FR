@@ -6,9 +6,9 @@ description: Un nouveau panorama contient trois colonnes par défaut. Vous pouve
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
 
-## Ajout d’une colonne à un panorama
+## Ajouter une colonne à un panorama
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Ajouter une colonne]** à droite des colonnes existantes.
 1. Dans la nouvelle colonne, saisissez un nom, puis cliquez sur **[!UICONTROL Ajouter une colonne]**.
 
@@ -57,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 >
 >Pour ajouter une colonne d’ingestion, reportez-vous à la section [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-## Réorganiser les colonnes d’un panorama
+## Réorganiser les colonnes du panorama
 
 1. Accédez au panorama.
 1. Faites glisser et déposez les colonnes dans l’ordre approprié. Veillez à sélectionner le haut de la colonne avant de la faire glisser vers un autre emplacement.
@@ -73,7 +73,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Cliquez sur le bouton **[!UICONTROL Plus]** menu ![Plus de menu](assets/more-icon-spectrum.png) dans la colonne et sélectionnez **[!UICONTROL Modifier]**. Dans la zone Paramètres , saisissez le nouveau nom dans la zone **[!UICONTROL Nom de la colonne]** puis cliquez sur **[!UICONTROL Fermer]**.
 
-## Suppression d’une colonne de panorama
+## Supprimer une colonne de panorama
 
 Lorsque vous supprimez une colonne d’un panorama, elle ne peut pas être récupérée.
 
@@ -106,7 +106,7 @@ Si vous utilisez la limite de travaux en cours sur une colonne, aucun compteur d
 1. Accédez au panorama.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![Plus de menu](assets/more-icon-spectrum.png) dans la colonne , puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Le [!UICONTROL Paramètres] s’affiche. Le **[!UICONTROL Nom de la colonne]** vous permet de savoir pour quelle colonne vous définissez les paramètres.
+   La variable [!UICONTROL Paramètres] s’affiche. La variable **[!UICONTROL Nom de la colonne]** vous permet de savoir pour quelle colonne vous définissez les paramètres.
 
 1. Activez la variable **[!UICONTROL Mettre à jour automatiquement les valeurs de champ]** pour modifier automatiquement certaines valeurs de champ lorsqu’une carte est déplacée vers cette colonne.
 
@@ -114,7 +114,7 @@ Si vous utilisez la limite de travaux en cours sur une colonne, aucun compteur d
 
 1. (Facultatif) Définissez une valeur pour l’état de la carte :
 
-   1. Sélectionnez la **[!UICONTROL État]** .
+   1. Sélectionnez la variable **[!UICONTROL État]** .
 
    1. Sélectionnez l’état à appliquer à une carte lorsqu’elle est déplacée vers cette colonne.
 
@@ -130,27 +130,27 @@ Si vous utilisez la limite de travaux en cours sur une colonne, aucun compteur d
 
 1. (Facultatif) Définissez une valeur pour les personnes désignées par les cartes :
 
-   1. Sélectionnez la **[!UICONTROL Assignation]** .
+   1. Sélectionnez la variable **[!UICONTROL Assignation]** .
    1. Sélectionnez une action.
 
       * **[!UICONTROL Ajouter sur les personnes désignées]:** Les personnes désignées que vous sélectionnez sont ajoutées à la liste existante des personnes désignées sur une carte lorsqu’elle est déplacée vers cette colonne.
       * **[!UICONTROL Remplacer les personnes désignées]:** Les personnes désignées que vous sélectionnez remplacent toutes les autres personnes désignées et deviennent les seules personnes désignées sur une carte lorsqu’elle est déplacée vers cette colonne.
-   1. Sélectionnez les personnes désignées dans la liste déroulante. Seuls les membres du panorama sont disponibles pour le choix. Pour plus d’informations, voir [Ajout ou suppression de membres d’un panorama](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+   1. Cliquez sur [!UICONTROL **Ajouter une affectation**] et recherchez un utilisateur. Sélectionnez les personnes désignées dans les résultats de la recherche. Tous les utilisateurs et équipes de Workfront sont disponibles pour effectuer un choix.
 
       ![Assignation de la colonne](assets/boards-column-assignees.png)
 
-
 1. (Facultatif) Définissez une valeur pour les balises de carte :
 
-   1. Sélectionnez la **[!UICONTROL Cartes]** .
+   1. Sélectionnez la variable **[!UICONTROL Cartes]** .
    1. Sélectionnez une action.
 
       * **[!UICONTROL Ajouter sur les balises]:** Les balises que vous sélectionnez sont ajoutées à la liste des balises existantes sur une carte lorsqu’elles sont déplacées dans cette colonne.
       * **[!UICONTROL Remplacement des balises]:** Les balises que vous sélectionnez remplacent toutes les autres balises et deviennent les seules balises d’une carte lorsqu’elles sont déplacées dans cette colonne.
-   1. Sélectionnez les balises dans la liste déroulante. Seules les balises déjà créées dans la variable [!UICONTROL Gestionnaire de balises] sont disponibles. Pour plus d’informations sur l’ajout de nouvelles balises, voir [Ajout de balises](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+
+   1. Sélectionnez les balises dans la liste déroulante. Seules les balises déjà créées dans [!UICONTROL Gestionnaire de balises] sont disponibles. Pour plus d’informations sur l’ajout de nouvelles balises, voir [Ajout de balises](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Balises de colonne](assets/boards-column-tags.png)
-
 
 1. Activez la variable **[!UICONTROL Limite de travail en cours]** pour limiter le nombre de cartes à ajouter à la colonne. Saisissez ensuite le nombre limite dans la variable **[!UICONTROL Définir la limite]** champ .
 

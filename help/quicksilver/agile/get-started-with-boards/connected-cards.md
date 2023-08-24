@@ -6,9 +6,9 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    La carte est ajoutée au bas de la colonne la plus à gauche. La connexion [!DNL Workfront] et les personnes qui lui sont affectées s’affichent sur la carte.
 
-   >[!NOTE]
-   >
-   >Si une personne désignée sur la page [!DNL Workfront] la tâche ou le problème n’est pas un membre du panorama, il n’est pas affecté à la carte.
-
    ![Carte connectée](assets/boards-connected-card-first-added.png)
 
 1. Cliquez sur ![Ouvrir une tâche ou un problème](assets/boards-launch-icon.png) pour ouvrir le [!DNL Workfront] tâche ou problème dans un nouvel onglet du navigateur.
@@ -124,9 +120,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td><p>Nombre d’heures pendant lesquelles la carte doit être complétée.</p><p>La modification de l’estimation modifie également la valeur des points de l’histoire sur le [!DNL Workfront] .</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Assigents]</strong></td>
-      <td><p>Pour affecter davantage de personnes ou une équipe à la carte, commencez à saisir un nom dans le champ de recherche, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous pouvez ajouter des individus et des équipes. Une seule affectation d’équipe est autorisée sur une carte connectée.</p>
-      <p>Les personnes désignées doivent être membres du panorama ou elles n’apparaîtront pas dans la liste de sélection. Lorsqu’une équipe est membre du panorama, chaque membre de l’équipe peut être affecté à la carte.</p>
+      <td role="rowheader"><strong>[!UICONTROL Affectations]</strong></td>
+      <td><p>Pour affecter d’autres personnes ou une équipe à la carte, cliquez sur <strong>[!UICONTROL Ajouter une affectation]</strong> et commencez à saisir un nom dans le champ de recherche. Sélectionnez-la ensuite lorsqu’elle s’affichera dans la liste de résultats. Vous pouvez ajouter des individus et des équipes. Une seule affectation d’équipe est autorisée sur une carte connectée.</p>
       <p>Les personnes désignées que vous sélectionnez sont également affectées à la tâche ou au problème dans [!DNL Workfront].</p></td>
      </tr>
      <tr>

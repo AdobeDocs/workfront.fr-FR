@@ -7,9 +7,9 @@ description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Board
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Uniquement [!DNL Workfront] les administrateurs peuvent souscrire à des fonctio
 
 ### Comment savoir si mon entreprise a choisi les fonctionnalités initiales ?
 
-Lorsque la variable [!DNL Workfront] L’administrateur a activé les fonctions initiales pour les panoramas ; un [!UICONTROL Accord préalable sur les fonctionnalités] Bouton Activé dans la partie supérieure de l’écran du tableau de bord. Cliquez sur le bouton pour afficher les fonctions activées.
+Contactez votre [!DNL Workfront] pour savoir s’ils ont activé des fonctionnalités anticipées pour les panoramas.
 
 ### Les fonctionnalités anticipées peuvent-elles être activées uniquement pour certains utilisateurs ?
 

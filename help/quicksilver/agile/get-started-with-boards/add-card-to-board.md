@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Ajout d’une carte ad hoc à un panorama
+title: Ajouter une carte ad hoc à un panorama
 description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l’affecter à un membre du panorama. La carte peut représenter une tâche, un problème, une personne, un groupe ou tout type d’élément que vous souhaitez inclure dans le panorama.
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
-# Ajout d’une carte ad hoc à un panorama
+# Ajouter une carte ad hoc à un panorama
 
 Vous pouvez ajouter rapidement une carte à un panorama et l’affecter à un membre du panorama. La carte peut représenter une tâche, un problème, une personne, un groupe ou tout type d’élément que vous souhaitez inclure dans le panorama.
 
@@ -46,10 +46,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Ajout d’une carte ad hoc avec des détails complets
 
-Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Adobe Workfront].
+Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront].
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe] Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Accédez à un panorama. Pour plus d’informations, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Ajouter une carte] > [!UICONTROL Nouvelle carte]**.
 1. Dans le **[!UICONTROL Détails de la carte]** ajoutez les informations suivantes :
 
@@ -71,7 +71,7 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
-      <td>Sélectionnez l’état de la carte. Si vous cliquez sur <strong>[!UICONTROL Mark Complete]</strong> en haut de la carte, l’état devient automatiquement [!UICONTROL Terminé].</td> 
+      <td>Sélectionnez l’état de la carte. Cliquez sur <strong>[!UICONTROL Mark Complete]</strong> en haut de la carte, l’état devient automatiquement [!UICONTROL Terminé].</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Échéance]</strong></td> 
@@ -82,8 +82,8 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
       <td>Saisissez l’estimation du nombre d’heures pour la carte à remplir. Il s’agit d’une entrée manuelle uniquement.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Assigents]</strong> </td> 
-      <td> <p>Pour attribuer la carte, commencez à saisir un nom dans le champ de recherche, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous pouvez ajouter des individus et des équipes et affecter plusieurs personnes ou équipes à une carte.</p> <p>Les personnes désignées doivent être membres du panorama ou elles n’apparaîtront pas dans la liste de sélection. Lorsqu’une équipe est membre du panorama, chaque membre de l’équipe peut être affecté à la carte.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Affectations]</strong> </td> 
+      <td>Pour attribuer la carte, cliquez sur <strong>[!UICONTROL Ajouter une affectation]</strong> et commencez à saisir un nom dans le champ de recherche. Sélectionnez-la ensuite lorsqu’elle s’affichera dans la liste de résultats. Vous pouvez ajouter des individus et des équipes et affecter plusieurs personnes ou équipes à une carte.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Balises]</strong></td> 
@@ -126,9 +126,9 @@ Vous pouvez ajouter des cartes ad hoc avec un titre uniquement pour remplir rapi
 
 1. Continuez à saisir les noms de carte pour ajouter d’autres cartes.
 1. Pour arrêter l’ajout de cartes, cliquez en dehors de la colonne.
-1. Pour ajouter d’autres détails, vous devez modifier la carte. Pour plus d’informations, voir [Modification d’une carte existante](#edit-an-existing-card) dans cet article.
+1. Pour ajouter d’autres détails, vous devez modifier la carte. Pour plus d’informations, voir [Modifier une carte existante](#edit-an-existing-card) dans cet article.
 
-## Modification d’une carte existante {#edit-an-existing-card}
+## Modifier une carte existante {#edit-an-existing-card}
 
 1. Accédez au panorama.
 1. Cliquez sur le nom de la carte pour le modifier.
