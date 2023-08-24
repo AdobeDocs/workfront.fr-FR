@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 4042384f4e3c70bb23d585d5a5e392d624ac6cb4
+source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2325'
 ht-degree: 2%
 
 ---
@@ -72,14 +72,14 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 
 ### Objets de travail
 
-| Objet Promotable | Sous-objets inclus |
+| Objet Promotable | Sous-objets promotionnels inclus |
 | --- | --- |
 | Projet (PROJ) | Projet<br>Tâche<br>Attribution<br>Prédécesseur<br>Société<br>Taux de remplacement<br>Groupe<br>Rôle<br>Équipe<br>Processus d’approbation<br>Chemin d’approbation<br>Étape de validation<br>Approbateur d’étape<br>Planification<br>Jour sans travail<br>Définition de la file d&#39;attente<br>Groupe de rubriques de la file d’attente<br>Rubrique de la file d’attente<br>Règle de routage<br>Chemin Milestone<br>Milestone<br>Type d’heure<br>Pool de ressources<br>Catégorie<br>Paramètre de catégorie<br>Paramètre<br>Groupe de paramètres<br>Option de paramètre<br>Logique d’affichage des catégories |
 | Modèle (TMPL) | Modèle<br>Tâche du modèle<br>Attribution de tâches de modèle<br>Prédécesseur de tâche de modèle<br>Société<br>Taux de remplacement<br>Groupe<br>Rôle<br>Équipe<br>Processus d’approbation<br>Chemin d’approbation<br>Étape de validation<br>Approbateur d’étape<br>Planification<br>Jour sans travail<br>Définition de la file d&#39;attente<br>Groupe de rubriques de la file d’attente<br>Rubrique de la file d’attente<br>Règle de routage<br>Chemin Milestone<br>Milestone<br>Type d’heure<br>Pool de ressources<br>Catégorie<br>Paramètre de catégorie<br>Paramètre<br>Groupe de paramètres<br>Option de paramètre<br>Logique d’affichage des catégories |
 
 ### Objets de création de rapports
 
-| Objet Promotable | Sous-objets inclus |
+| Objet Promotable | Sous-objets promotionnels inclus |
 | --- | --- |
 | Modèle de mise en page (UITMPL) | Modèle de mise en page<br>Tableau de bord<br>Calendrier<br>Section Calendrier<br>Page externe<br>Rapport<br>Filtrer<br>Regroupement<br>Affichage<br>Paramètre |
 | Tableau de bord (PTLTAB) | Tableau de bord<br>Calendrier<br>Section Calendrier<br>Page externe<br>Rapport<br>Filtrer<br>Regroupement<br>Affichage<br>Paramètre |
@@ -92,7 +92,7 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 
 ### Objets de données personnalisés
 
-| Objet Promotable | Sous-objets inclus |
+| Objet Promotable | Sous-objets promotionnels inclus |
 | --- | --- |
 | Catégorie (CTGY) | Catégorie<br>Paramètre de catégorie<br>Paramètre<br>Groupe de paramètres<br>Option de paramètre<br>Logique d’affichage des catégories<br>Groupe |
 | Paramètre (PARAM) | Paramètre<br>Option de paramètre |
@@ -100,7 +100,7 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 
 ### Objets d’organisation
 
-| Objet Promotable | Sous-objets inclus |
+| Objet Promotable | Sous-objets promotionnels inclus |
 | --- | --- |
 | Groupe (GROUP) | Groupe <br>Sous-groupes (jusqu’à 5 niveaux)<br>Catégorie<br>Paramètre de catégorie<br>Paramètre<br>Groupe de paramètres<br>Option de paramètre<br>Logique d’affichage des catégories |
 | Rôle (RÔLE) | Rôle |
@@ -111,7 +111,7 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 
 ### Autres objets de configuration
 
-| Objet Promotable | Sous-objets inclus |
+| Objet Promotable | Sous-objets promotionnels inclus |
 | --- | --- |
 | Processus d’approbation (ARVPRC) | Processus d’approbation<br>Chemin d’approbation<br>Étape de validation<br>Approbateur d’étape<br>Rôle<br>Équipe<br>Groupe |
 | Planification (SCHED) | Planification<br>Jour sans travail<br>Groupe |
@@ -126,7 +126,7 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 
 L’API authentifie chaque requête pour s’assurer que le client a accès à l’affichage ou à la modification d’un objet demandé.
 
-L’authentification est effectuée en transmettant un ID de session qui peut être donné à l’aide de l’une des méthodes suivantes :
+L’authentification est effectuée en transmettant un ID de session ou une clé d’API, qui peut être donnée à l’aide de l’une des méthodes suivantes :
 
 ### Authentification de l’en-tête de requête
 
@@ -138,22 +138,6 @@ Voici un exemple d’en-tête de requête :
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
-
-### Authentification du paramètre de requête
-
-Vous pouvez vous authentifier en transmettant un paramètre de requête nommé sessionID, comme illustré dans l’exemple suivant : 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
-```
-
-### Authentification basée sur les cookies
-
-L’API utilise la même authentification basée sur les cookies que celle utilisée par l’interface utilisateur web pour le système. Lorsqu’un client se connecte à Workfront à l’aide de l’interface utilisateur web, les appels AJAX effectués à partir du même navigateur utilisent la même authentification.
-
->[!NOTE]
->
->Afin de se protéger contre la possibilité d’attaques CSRF (Cross Site Request Forgery, Falsification de requête inter-sites), cette méthode d’authentification est uniquement disponible pour les opérations en lecture seule.
 
 ## Points de terminaison API
 
@@ -189,13 +173,13 @@ La deuxième étape utilise la méthode `objectCollections` tableau fourni dans 
 
 >[!NOTE]
 >
-Notez la structure de la variable `objectCollections`  tableau.
+>Notez la structure de la variable `objectCollections`  tableau.
 >
-Chaque élément du tableau contient une `objCode` qui correspond au code d’objet documenté dans l’explorateur d’API Workfront.
+>Chaque élément du tableau contient une `objCode` qui correspond au code d’objet documenté dans l’explorateur d’API Workfront.
 >
-Chaque élément contient également un `entities` collection. Cela suppose que la variable `ID` et `name` clés d’être présentes.
+>Chaque élément contient également un `entities` collection. Cela suppose que la variable `ID` et `name` clés d’être présentes.
 >
-Pour obtenir la liste des codes d’objet autorisés à être demandés dans la variable `objectCollections` , voir [Objets pris en charge pour la promotion de l’environnement](#supported-objects-for-environment-promotion) dans cet article.
+>Pour obtenir la liste des codes d’objet autorisés à être demandés dans la variable `objectCollections` , voir [Objets pris en charge pour la promotion de l’environnement](#supported-objects-for-environment-promotion) dans cet article.
 
 #### URL
 
@@ -207,7 +191,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -273,7 +259,6 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
 }
 ```
@@ -303,7 +288,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -330,7 +317,6 @@ _Vide_
             "createdAt": "2023-06-06T17:29:21.600Z",
             "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
             "publishedAt": null,
-            "isPrivate": true,
             "customerId": "61aa9d090005fa42152c1cb66659f38d"
         },
         {...}
@@ -363,7 +349,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -389,21 +377,15 @@ _Vide_
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
                    "name": "Default Group",
-                   "description"
+                   "description": "null"
+                   - or -
+                   "description": "..."
                }
             ],
             "ROLE": [
@@ -436,7 +418,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -452,13 +436,6 @@ _Vide_
 
 ```json
 {
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
     "packageEntities": {
         "GROUP": [
            {
@@ -472,7 +449,7 @@ _Vide_
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -504,12 +481,11 @@ La requête exige que tous les champs modifiables soient fournis.
 Les attributs modifiables sont les suivants :
 
 1. name (string)
-2. description (string)
-3. source (chaîne avec validation d’URL)
-4. status (chaîne avec validation de valeur)
-5. version (entier)
-6. metadata (collection)
-7. packageEntities (collection)
+1. description (string)
+1. source (chaîne avec validation d’URL)
+1. status (chaîne avec validation de valeur)
+1. version (entier)
+1. packageEntities (collection)
 
 Les options d’état incluent :
 
@@ -554,7 +530,9 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -588,7 +566,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -620,15 +598,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -666,7 +636,6 @@ Les attributs modifiables sont les suivants :
 1. source (chaîne avec validation d’URL)
 1. status (chaîne avec validation de valeur)
 1. version (entier)
-1. metadata (collection)
 1. packageEntities (collection)
 
    ou
@@ -688,7 +657,9 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -719,15 +690,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -760,7 +723,7 @@ Cet appel supprime l’enregistrement du kit de promotion. Cette action est irr�
 
 >[!NOTE]
 >
-Au lieu de supprimer un package de promotion, il est recommandé de modifier le statut du package en Désactivé. Cela permet de récupérer le package et conserve l’historique d’installation de l’emplacement où il a été déployé.
+>Au lieu de supprimer un package de promotion, il est recommandé de modifier le statut du package en Désactivé. Cela permet de récupérer le package et conserve l’historique d’installation de l’emplacement où il a été déployé.
 
 #### URL
 
@@ -772,7 +735,9 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -838,7 +803,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -888,7 +855,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -935,7 +904,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -953,8 +924,8 @@ _Vide_
 [
     {
         "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-        "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-        "blueprintVersion": 1,
+        "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+        "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
         "status": "COMPLETED",
@@ -1024,7 +995,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -1041,8 +1014,8 @@ _Vide_
 ```json
 {
     "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-    "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-    "blueprintVersion": 1,
+    "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+    "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
     "status": "COMPLETED",
