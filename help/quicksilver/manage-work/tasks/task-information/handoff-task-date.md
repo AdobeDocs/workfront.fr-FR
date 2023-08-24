@@ -7,7 +7,7 @@ description: La date de remise est la date à laquelle une tâche est disponible
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 3%
@@ -34,27 +34,26 @@ La date de remise est la date à laquelle une tâche est disponible pour le trav
 >* Immobilisé
 >
 
-
 Workfront applique les règles suivantes pour calculer la date de remise d’une tâche :
 
-* **Lorsque la tâche a un prédécesseur incomplet**: La date de remise de la tâche est nulle.
-* **Lorsque la tâche a un prédécesseur complet**: La Date de remise est identique à la Date de fin réelle de la tâche précédente. Si le prédécesseur a un retard, Workfront calcule la Date de passation de la tâche qui lui succède à l’aide de la formule suivante :
+* **Lorsque la tâche a un prédécesseur incomplet**: la date de remise de la tâche est nulle.
+* **Lorsque la tâche a un prédécesseur complet**: la date de remise est identique à la date de fin réelle de la tâche précédente. Si le prédécesseur a un retard, Workfront calcule la Date de passation de la tâche qui lui succède à l’aide de la formule suivante :
 
-   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
+  `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
 
-   Pour plus d’informations sur le délai, voir [Présentation des types de balise](../use-prdcssrs/lag-types.md).
+  Pour plus d’informations sur le délai, voir [Présentation des types de balise](../use-prdcssrs/lag-types.md).
 
-   Si la tâche qui lui succède comporte plusieurs prédécesseur, la date de passation est calculée en fonction de la dernière date d’achèvement réelle des prédécesseurs. Par exemple, si les dates d’achèvement réelles des deux prédécesseurs sont le 8 novembre 2022 et le 20 novembre 2022, la date de passation du successeur est le 20 novembre 2022.
+  Si la tâche qui lui succède comporte plusieurs prédécesseur, la date de passation est calculée en fonction de la dernière date d’achèvement réelle des prédécesseurs. Par exemple, si les dates d’achèvement réelles des deux prédécesseurs sont le 8 novembre 2022 et le 20 novembre 2022, la date de passation du successeur est le 20 novembre 2022.
 
-   >[!NOTE]
-   >
-   >   Le calcul de la date de remise d’une tâche de remplacement en fonction de la date de fin réelle ou d’une tâche prédécesseur est le même que le prédécesseur soit appliqué ou non. Pour plus d’informations sur les prédécesseurs appliqués, voir [Application des prédécesseurs](../use-prdcssrs/enforced-predecessors.md).
+  >[!NOTE]
+  >
+  >   Le calcul de la date de remise d’une tâche de remplacement en fonction de la date de fin réelle ou d’une tâche prédécesseur est le même que le prédécesseur soit appliqué ou non. Pour plus d’informations sur les prédécesseurs appliqués, voir [Application des prédécesseurs](../use-prdcssrs/enforced-predecessors.md).
 
 
 * **Lorsque la tâche n’a pas de prédécesseur et**:
 
-   * **La date de début planifiée se situe dans le passé.**: La date de remise est identique à la date de début planifiée du projet.
-   * **La Date de début planifiée se situe dans le futur (toute date postérieure à la date actuelle)**: La date de remise est identique à la date de début planifiée du projet.
+   * **La date de début planifiée se situe dans le passé.**: la date de remise est identique à la date de début planifiée du projet.
+   * **La Date de début planifiée se situe dans le futur (toute date postérieure à la date actuelle)**: la date de remise est identique à la date de début planifiée de la tâche.
 
 >[!NOTE]
 >
@@ -65,8 +64,8 @@ Workfront applique les règles suivantes pour calculer la date de remise d’une
 >
 >Pour plus d’informations sur le recalculage de la chronologie du projet, voir [Recalculer les calendriers du projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-* **Lorsque la tâche présente une contrainte pour les dates prévues**: La date de remise varie selon le type de contrainte et selon que la tâche possède ou non une date de début réelle.\
-   Les contraintes suivantes sont imposées sur les tâches :
+* **Lorsque la tâche présente une contrainte pour les dates prévues**: la date de remise varie selon le type de contrainte et selon que la tâche possède ou non une date de début réelle.\
+  Les contraintes suivantes sont imposées sur les tâches :
 
    * Il Faut Commencer Le
    * Il Faut Finir Le
@@ -74,12 +73,11 @@ Workfront applique les règles suivantes pour calculer la date de remise d’une
    * Commencer Au Plus Tard
    * Date fixe
 
-   Les scénarios suivants existent :
+  Les scénarios suivants existent :
 
    * Lorsque la tâche présente une contrainte Doit démarrer le ou Ne pas démarrer plus tôt que, la date de remise est la date de contrainte, sauf si la tâche contient une date de début réelle. S’il existe une date de début réelle sur la tâche, la date de remise correspond à la date de fin réelle du prédécesseur.
    * Lorsque la tâche présente une contrainte Doit se terminer le ou Ne pas démarrer plus tard que, la date de remise est toujours la date de fin réelle du prédécesseur, qu’il y ait ou non une date de début réelle sur la tâche.
    * Lorsque la tâche présente une contrainte de dates fixes, la Date de remise est la Date de début planifiée de la tâche, qu’elle ait ou non un prédécesseur et que le prédécesseur soit terminé ou non.
-
 
 ## Localisation de la date de remise
 

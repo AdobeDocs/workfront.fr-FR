@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,16 @@ Vous trouverez ci-dessous une chronologie planifiée avec des jalons clés pour 
 La section suivante contient la liste des fonctionnalités qui ont été ajoutées après la version 23.2 d’origine, en commençant par celles publiées le plus récemment.
 
 Les informations suivantes font référence à l’activité de publication toutes les semaines des fonctionnalités incluses dans la nouvelle expérience bêta de commentaires. Cet article répertorie les nouvelles fonctionnalités ajoutées et les problèmes résolus pour la nouvelle expérience de commentaires.
+
+### Semaine du 21 août 2023
+
+#### Modifier le format d’horodatage dans l’onglet Commentaires
+
+Nous avons mis à jour le format d’horodatage des commentaires des utilisateurs dans l’onglet Commentaires du nouveau flux de commentaires. Dans le cadre de cette modification, les commentaires de l’année en cours n’affichent plus l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, y compris l’année.
+
+Les modifications n’ont aucune incidence sur les mises à jour du système dans l’onglet Activité du système .
+
+Aperçu et production : 24 août 2023
 
 ### Semaine du 14 août 2023
 
