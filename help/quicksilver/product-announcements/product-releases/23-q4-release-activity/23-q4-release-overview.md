@@ -3,9 +3,9 @@ title: Présentation de la version du quatrième trimestre 2023
 description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations des panoramas](#boards-enhancements)
+* [Améliorations de l’intégration](#integration-enhancements)
 * [Améliorations des projets](#project-enhancements)
 * [Autres améliorations](#other-enhancements)
 
@@ -60,6 +61,42 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Améliorations des affectations d’utilisateurs sur les panoramas et les cartes</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Des améliorations sont désormais disponibles, ce qui offre davantage de flexibilité lors de l’ajout d’utilisateurs aux panoramas et aux cartes dans les panoramas Adobe Workfront.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 21 août 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production pour tous les clients : 24 août 2023</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Ajout de documents sur les cartes connectées</a></p><p>Vous pouvez désormais joindre des documents sur les cartes connectées sur les panoramas Adobe Workfront. Tous les documents que vous ajoutez sur la carte sont disponibles dans l’onglet Documents de la tâche ou du problème connecté, et les mêmes types de fichiers sont pris en charge dans les deux zones.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 21 août 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour un accès anticipé aux panoramas : 24 août 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : à déterminer</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documents disponibles sur les cartes connectées en tant qu’affichage uniquement</a></p><p>Pour les cartes connectées sur les panoramas Adobe Workfront, vous pouvez désormais afficher des documents tels que des images et des PDF. Vous pouvez prévisualiser un document dans le navigateur ou le télécharger sur votre ordinateur. </p>
@@ -98,29 +135,65 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### Améliorations de l’intégration
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Ajout de documents sur les cartes connectées</a></p><p>Vous pouvez désormais joindre des documents sur les cartes connectées sur les panoramas Adobe Workfront. Tous les documents que vous ajoutez sur la carte sont disponibles dans l’onglet Documents de la tâche ou du problème connecté, et les mêmes types de fichiers sont pris en charge dans les deux zones.</p>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Améliorations de l’expérience lors de l’envoi de documents à SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span> </p><p>Nous avons apporté quelques modifications afin de faciliter la localisation des dossiers lors de l’envoi de documents à vos dossiers SharePoint (GraphAPI).</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 21 août 2023</p>
-                            </li>
-                            <li>
-                                <p>Production pour un accès anticipé aux panoramas : 24 août 2023</p>
+                                <p>Version d’aperçu : 24 août<br /></p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : à déterminer</p>
                             </li>
                             <li>
-                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                                <p>Production pour une publication trimestrielle : à déterminer</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Mises à niveau par glisser-déposer pour les intégrations de documents</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span> </p><p>Nous avons apporté quelques améliorations afin d’ajouter de la clarté et de supprimer l’erreur utilisateur lors du glisser-déposer d’un fichier dans un dossier lié.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 24 août<br /></p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : à déterminer</p>
+                            </li>
+                            <li>
+                                <p>Production pour une publication trimestrielle : à déterminer</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### Améliorations des projets
 
