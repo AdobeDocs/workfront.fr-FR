@@ -6,10 +6,10 @@ description: Gestion des informations dans la zone Finance du projet
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage ou accès supérieur à Projets et données financières</p> <p>Modifier l’accès aux projets et aux données financières pour modifier les informations financières sur le projet</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Affichage ou accès supérieur à Projets et données financières</p> <p>Modifier l’accès aux projets et aux données financières pour modifier les informations financières sur le projet</p> <p><b>NOTE</b></p>
+   <p> Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -77,7 +78,7 @@ Tenez compte des points suivants lors de l’affichage ou de la modification d�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Méthode d'indice de performance</td> 
+      <td role="rowheader">Méthode d’indice de performance</td> 
       <td> Contrôle la méthode utilisée par Workfront pour calculer les mesures de valeur obtenue. Il peut être basé sur les heures ou sur les coûts. <br>Pour plus d’informations sur le PIM, consultez l’article <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Définition de la méthode d’index de performance (PIM)</a></td> 
      </tr> 
      <tr> 
@@ -99,7 +100,7 @@ Tenez compte des points suivants lors de l’affichage ou de la modification d�
      </tr> 
      <tr> 
       <td role="rowheader">Coûts fixes</td> 
-      <td>Il s’agit des coûts fixes du projet, indépendamment des autres activités du projet. Elles sont saisies manuellement par le propriétaire du projet.</td> 
+      <td>Il s’agit des coûts d’exploitation du projet, indépendamment des autres activités du projet. Elles sont saisies manuellement par le propriétaire du projet.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Coûts prévus</td> 
@@ -107,7 +108,7 @@ Tenez compte des points suivants lors de l’affichage ou de la modification d�
      </tr> 
      <tr> 
       <td role="rowheader">Coûts réels</td> 
-      <td>Tous les coûts du projet. Coût réel est la somme de tous les coûts réels : coût du travail (basé sur les heures réelles et les taux associés aux rôles de travail ou aux utilisateurs qui les enregistrent), les dépenses et les coûts fixes, qui peuvent être associés à un projet ou à une tâche.</td> 
+      <td>Tous les coûts du projet. Le coût réel est la somme de tous les coûts réels : le coût du travail (basé sur les Heures réelles et les taux associés aux rôles de travail ou aux utilisateurs qui les enregistrent), les dépenses et les coûts fixes, qui peuvent être associés à un projet ou à une tâche.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Revenus fixes</td> 
@@ -123,7 +124,7 @@ Tenez compte des points suivants lors de l’affichage ou de la modification d�
      </tr> 
      <tr> 
       <td role="rowheader">Revenus facturés</td> 
-      <td> <p>Recettes facturées aux clients ou à d’autres parties capturées dans les enregistrements de facturation. Pour plus d’informations sur la facturation des enregistrements, reportez-vous à l’article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Créer des enregistrements de facturation</a>. </p> </td> 
+      <td> <p>Recettes facturées aux clients ou à d’autres parties capturées dans les enregistrements de facturation. Pour plus d’informations sur la facturation des enregistrements, consultez l’article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Créer des enregistrements de facturation</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
@@ -150,7 +151,7 @@ Pour modifier les informations sur le sous-onglet Finance de projet :
 
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
 1. Cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance** . La zone Finance s’ouvre alors pour modification.
-1. Modifiez n’importe quel champ disponible pour modification, en cliquant une seule fois sur le champ ou en cliquant sur **+Ajouter** pour ajouter des informations à un champ vide.
+1. Modifier un champ qui peut être modifié en cliquant sur le champ ou en cliquant sur **+Ajouter** pour ajouter des informations à un champ vide.
 
    >[!TIP]
    >
@@ -169,7 +170,7 @@ Pour modifier les informations sur le sous-onglet Finance de projet :
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Méthode d'indice de performance</td> 
+      <td role="rowheader">Méthode d’indice de performance</td> 
       <td> <p>Contrôle la méthode utilisée par Workfront pour calculer les mesures de performances du projet. Il est configuré au niveau du système par votre administrateur, mais vous pouvez également le modifier au niveau du projet. Choisissez l’une des options suivantes :</p> 
        <ul> 
         <li><strong>Basé sur l’heure :</strong>Workfront utilise les heures prévues pour calculer l’IPC et le CAE du projet, et le CAE du projet s’affiche sous forme de nombre, en heures. </li> 
@@ -180,8 +181,8 @@ Pour modifier les informations sur le sous-onglet Finance de projet :
       <td role="rowheader">Estimation à l'achèvement</td> 
       <td> <p>Représente le coût total prévu de votre projet ou de votre tâche une fois qu’elle s’est terminée. Il est configuré au niveau du système par votre administrateur, mais vous pouvez également le modifier au niveau du projet. Choisissez l’une des options suivantes :</p> 
        <ul> 
-        <li><strong>Calculer au niveau du projet</strong>: Le champ EAC de la tâche et du projet parents est déterminé en saisissant les heures réelles/le coût réel de la main-d’oeuvre dans les formules EAC. Ce calcul inclut les Heures/coûts réels et les dépenses ajoutées directement à la tâche ou au projet parent.</li> 
-        <li><strong>Cumul à partir de tâches/sous-tâches</strong>: Les champs de contrôle d’accès de la tâche parent et du projet sont déterminés en totalisant les champs de contrôle d’accès de chaque tâche enfant. Ce calcul exclut les Heures/coûts réels et les dépenses ajoutées directement à la tâche ou au projet parent.</li> 
+        <li><strong>Calculer au niveau du projet</strong>: le champ EAC de la tâche et du projet parents est déterminé en saisissant les heures réelles/le coût réel du travail dans les formules EAC. Ce calcul inclut les Heures/coûts réels et les dépenses ajoutées directement à la tâche ou au projet parent.</li> 
+        <li><strong>Cumul à partir de tâches/sous-tâches</strong>: les champs de contrôle d’accès de la tâche parent et du projet sont déterminés en additionnant les champs de contrôle d’accès de chaque tâche enfant. Ce calcul exclut les Heures/coûts réels et les dépenses ajoutées directement à la tâche ou au projet parent.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
