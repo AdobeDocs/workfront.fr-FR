@@ -1,15 +1,12 @@
 ---
 title: Configuration d’une colonne de tableau dans le canevas de création de rapports
 description: Configuration d’une colonne de tableau dans le canevas de création de rapports
-author: Nolan
-feature: Reports and Dashboards
-exl-id: ce33888f-344d-4f69-b527-9679340d134b
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1039'
+ht-degree: 2%
 
 ---
 

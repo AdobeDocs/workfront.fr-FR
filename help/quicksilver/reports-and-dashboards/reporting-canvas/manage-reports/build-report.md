@@ -1,15 +1,11 @@
 ---
 title: Création d’un rapport dans le canevas de création de rapports
 description: Création d’un rapport dans le canevas de création de rapports
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
-exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
