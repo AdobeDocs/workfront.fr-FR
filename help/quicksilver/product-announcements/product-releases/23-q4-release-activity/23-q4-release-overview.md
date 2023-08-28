@@ -3,9 +3,9 @@ title: Présentation de la version du quatrième trimestre 2023
 description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e31391e854c088ba203a17db81fc04b61a840c21
+source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Production pour un accès anticipé aux panoramas : 24 août 2023</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : à déterminer</p>
+                                <p>Production pour une version rapide : S.O.</p>
                             </li>
                             <li>
                                 <p>Production pour les versions trimestrielles : avec la version 23.10</p>
@@ -110,7 +110,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Production pour un accès anticipé aux panoramas : 10 août 2023</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 23.8</p>
+                                <p>Production pour une version rapide : S.O.</p>
                             </li>
                             <li>
                                 <p>Production pour les versions trimestrielles : avec la version 23.10</p>
@@ -128,7 +128,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version d’aperçu : 3 août 2023</p>
                             </li>
                              <li>
-                                <p>Production pour une version rapide : avec la version 23.8</p>
+                                <p>Production pour une version rapide : S.O.</p>
                             </li>
                             <li>
                                 <p>Production pour les versions trimestrielles : avec la version 23.10</p>
