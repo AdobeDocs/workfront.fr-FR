@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
+source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 >[!IMPORTANT]
 >
@@ -91,12 +93,12 @@ Pour obtenir des instructions sur la liaison de documents à partir de SharePoin
 Pour envoyer un document à SharePoint :
 
 1. Cliquez sur le bouton **Envoyer à** icon ![Envoyer à](assets/send-to-icon.png) et sélectionnez SharePoint (API graphique).
-1. (Facultatif) Recherchez dans la barre de recherche le site ou le dossier dans lequel vous souhaitez envoyer le document.
+1. <span class="preview">(Facultatif) Recherchez dans la barre de recherche le site ou le dossier dans lequel vous souhaitez envoyer le document.</span>
 1. Sélectionnez le site ou le dossier dans la liste.
 
-   * Les sites sont marqués par ![Icône Site](assets/site-icon.png).
+   * <span class="preview">Les sites sont marqués par ![Icône Site](assets/site-icon.png).</span>
 
-   * Les dossiers sont marqués par ![Icône Dossier](assets/folder-icon.png).
+   * <span class="preview">Les dossiers sont marqués par ![Icône Dossier](assets/folder-icon.png).</span>
 
    * Les fichiers ne sont pas marqués par une icône.
 
