@@ -6,9 +6,9 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Balisage des autres sur les mises à jour
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>\
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ Vous pouvez baliser manuellement les utilisateurs dans la section Mises à jour 
 
 Vous pouvez baliser d’autres utilisateurs sur les mises à jour de la nouvelle expérience de commentaires en procédant comme suit :
 
-* **Automatiquement**: lorsqu’un utilisateur ajoute un commentaire ou une réponse, il est automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire.
+* **Automatiquement**: lorsqu’un utilisateur lance un thread, ajoute un commentaire ou ajoute une réponse, il est automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >Lorsque le thread commence dans l’expérience de commentaire héritée, les participants au thread ne sont pas automatiquement balisés.
+
 * **Manuellement**: lorsque vous ajoutez manuellement un utilisateur à la zone Baliser les personnes de la zone de commentaire.
 
 Vous pouvez également supprimer les utilisateurs balisés par erreur lorsque vous modifiez ou répondez à un commentaire.
@@ -213,3 +220,10 @@ Vous pouvez également supprimer les utilisateurs balisés par erreur lorsque vo
    Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-menu.png) <span class="preview">dans le coin supérieur droit du commentaire</span>, puis cliquez sur **Modifier**. Supprimez les utilisateurs balisés, puis cliquez sur **Envoyer**. Vous ne pouvez modifier un commentaire que dans les 15 minutes qui suivent sa saisie. Vous ne pouvez modifier que les commentaires que vous avez ajoutés.
+
+   >[!TIP]
+   >
+   >Lors de l’utilisation de l’expérience de commentaire héritée pour ajouter des commentaires et des réponses, les propriétaires de commentaires qui n’ont pas été spécifiquement balisés ne peuvent pas être supprimés manuellement par les personnes qui utilisent la nouvelle expérience de commentaire.
+
+
+

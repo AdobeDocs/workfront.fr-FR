@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
    <td> <p>Modifier l’accès aux problèmes</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’y avez pas accès, demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -120,6 +120,11 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Demandes**.
 1. (Conditionnel) Si la section Envoyé ne s’affiche pas par défaut, cliquez sur **Envoyé** dans le panneau de gauche.
+
+   >[!TIP]
+   >
+   >   Votre administrateur Workfront ou de groupe peut personnaliser votre modèle de mise en page et supprimer des zones du menu principal ou du panneau de gauche de votre environnement. Dans ce cas, il se peut qu’elles ne soient pas disponibles pour vous.
+
 1. Recherchez la requête que vous souhaitez copier et envoyer comme nouvelle requête, puis effectuez l’une des opérations suivantes :
 
    * Sélectionnez-la, puis cliquez sur **Copier** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) dans le coin supérieur gauche de la liste Demandes envoyées .
@@ -132,7 +137,7 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
 
      Ou
 
-     Cliquez avec le bouton droit de la souris sur la requête sélectionnée, puis cliquez sur **Copier et envoyer en tant que nouveau**.
+     Cliquez avec le bouton droit sur la requête sélectionnée, puis cliquez sur **Copier et envoyer en tant que nouveau**.
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -149,7 +154,7 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
      >
      >Si le chemin d’accès change à partir du chemin d’accès de la requête d’origine, le créateur de la file d’attente de la requête modifie la file d’attente.
 
-1. (Facultatif) Mettez à jour les informations de la requête copiée. Selon les champs activés par le créateur de la file d’attente de requêtes dans **Nouveaux champs de problème** de la section **Détails de la file** sous-onglet du projet, vous trouverez peut-être l’un des champs suivants :
+1. (Facultatif) Mettez à jour les informations de la requête copiée. Selon les champs activés par le créateur de la file d’attente de requêtes dans **Nouveaux champs de problème** de la **Détails de la file** sous-onglet du projet, vous trouverez peut-être l’un des champs suivants :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -157,7 +162,7 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Objet</strong> </td> 
-      <td>Affiche le nom de la requête d’origine. Mettez-le à jour, si nécessaire. Sinon, Workfront nomme la requête copiée. <b>Copie de &lt;name of="" original="" request=""&gt;</b>. Il s’agit d’un champ obligatoire.</td> 
+      <td>Affiche le nom de la requête d’origine. Mettez-le à jour, si nécessaire. Sinon, Workfront nomme la requête copiée. <b>Copie de &lt;name of="" original="" request=""&gt;</b>. Ce champ est obligatoire.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
@@ -191,11 +196,11 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Contact principal</strong> </td> 
-      <td>Le contact Principal d’une requête vous est transmis par défaut, dans la mesure où vous êtes la personne qui répond à toutes les questions relatives à la requête. Cependant, vous pouvez modifier ce paramètre pour n’importe quel autre utilisateur Workfront.</td> 
+      <td>Le contact par Principal d’une requête vous est transmis par défaut, dans la mesure où vous êtes la personne qui répond à toutes les questions relatives à la requête. Cependant, vous pouvez modifier ce paramètre pour n’importe quel autre utilisateur Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Affectations</strong></span> </td> 
-      <td> <p>Indiquez le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe principal auquel la requête doit être affectée. </p> <p> Vous pouvez spécifier plusieurs utilisateurs, rôles de tâche ou équipes. </p> <p>Selon la configuration de la file d’attente des demandes, vous pouvez n’affecter la requête qu’à un ou deux types de ressources, au lieu des trois. </p> <p>Nous vous recommandons d’utiliser des règles de routage pour vos files d’attente de requêtes afin qu’elles puissent être automatiquement acheminées vers les ressources appropriées. </p> </td> 
+      <td> <p>Indiquez le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe actif auquel la requête doit être affectée. </p> <p> Vous pouvez spécifier plusieurs utilisateurs, rôles de tâche ou équipes. </p> <p>Selon la configuration de la file d’attente des demandes, vous pouvez n’affecter la requête qu’à un ou deux types de ressources, au lieu des trois. </p> <p>Nous vous recommandons d’utiliser des règles de routage pour vos files d’attente de requêtes afin qu’elles puissent être automatiquement acheminées vers les ressources appropriées. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">En fonction de la configuration de la file d’attente des demandes, il se peut que vous ne puissiez affecter qu’un seul type de ressource à la demande (par exemple, les utilisateurs). Si une règle de routage est également associée à la file d’attente des demandes et qu’elle achemine automatiquement la demande vers un autre type de ressource (par exemple, une équipe), votre demande est affectée à la fois à l’entité que vous spécifiez manuellement lors de l’envoi de la demande (utilisateurs) et à la ressource spécifiée dans la règle de routage (l’équipe).</p> <p style="font-weight: normal;">Pour plus d’informations, voir les articles suivants :</p> 

@@ -6,9 +6,9 @@ description: En tant qu’utilisateur disposant d’un accès administratif aux 
 author: Alina
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '817'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Feuilles de temps**.
 
-   Le **Tous** est sélectionné par défaut, ce qui affiche toutes les feuilles de temps que vous avez accès à la vue.
+   La variable **Tous** est sélectionné par défaut, ce qui affiche toutes les feuilles de temps que vous avez accès à la vue.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
@@ -111,6 +111,16 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
      <tr> 
       <td role="rowheader"><strong>Date de fin</strong> </td> 
       <td> Il s’agit de la date de fin de la feuille de temps.</td> 
+     </tr>
+<tr> 
+      <td role="rowheader"><strong>Statut</strong> </td> 
+      <td> Il s’agit de l’état de la feuille de temps.
+      Voici les options d’état possibles de la feuille de temps : 
+      <ul><li><b>Ouvrir</b>: la feuille de temps est ouverte et les entrées d’heure peuvent être modifiées.</li>
+      <li><b>Envoyé</b>: la feuille de temps est soumise à validation aux approbateurs désignés.</li>
+      <li><b>Rejetés</b>: la feuille de temps n’a pas été approuvée par les approbateurs et est à nouveau disponible pour que l’utilisateur puisse modifier les entrées de temps.</li>
+      <li><b>Fermé</b>: la feuille de temps est fermée par l’utilisateur ou validée par l’approbateur ; elle est donc maintenant fermée. Vous ne pouvez pas ajouter de temps à une feuille de temps fermée.</li>
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approbateurs</strong> </td> 
@@ -127,4 +137,4 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
     </tbody> 
    </table>
 
-1. Cliquer sur Enregistrer.
+1. Cliquer sur **Enregistrer**.

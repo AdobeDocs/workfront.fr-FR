@@ -3,11 +3,11 @@ content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Portfolio Optimizer - Aperçu
-description: Le [!UICONTROL Portfolio Optimizer] est l’outil utilisé pour l’évaluation et la comparaison des projets. Le processus de vérification et de comparaison des valeurs des Business Case pour les projets affectés à un portefeuille consiste à déterminer comment un gestionnaire de portefeuille peut hiérarchiser les projets et générer le plus de valeur pour une organisation.
+description: La variable [!UICONTROL Portfolio Optimizer] est l’outil utilisé pour l’évaluation et la comparaison des projets. Le processus de vérification et de comparaison des valeurs des Business Case pour les projets affectés à un portefeuille consiste à déterminer comment un gestionnaire de portefeuille peut hiérarchiser les projets et générer le plus de valeur pour une organisation.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 0%
@@ -16,14 +16,16 @@ ht-degree: 0%
 
 # [!UICONTROL Portfolio Optimizer] aperçu
 
-Le [!UICONTROL Portfolio Optimizer] est l’outil utilisé pour l’évaluation et la comparaison des projets. Processus de révision et de comparaison [!UICONTROL Analyse de cas] les valeurs pour les projets affectés à un portefeuille sont la manière dont un gestionnaire de portefeuille peut hiérarchiser les projets et générer le plus de valeur pour une organisation.
+La variable [!UICONTROL Portfolio Optimizer] est l’outil utilisé pour l’évaluation et la comparaison des projets. Processus de révision et de comparaison [!UICONTROL Analyse de cas] les valeurs pour les projets affectés à un portefeuille sont la manière dont un gestionnaire de portefeuille peut hiérarchiser les projets et générer le plus de valeur pour une organisation.
+
+![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 L’objet de la variable [!UICONTROL optimiseur de portefeuille] est de fournir une interface permettant à un gestionnaire de portefeuille, à un comité de pilotage ou à un bureau de gestion de produits d’afficher des informations récapitulatives sur l’analyse de performances de chaque projet. Les projets peuvent ensuite être classés par ordre de priorité en fonction des valeurs et des objectifs stratégiques ou de leur note globale.
 
-Le [!UICONTROL Portfolio Optimizer] ne peut vous aider que si vous avez rempli les conditions préalables suivantes :
+La variable [!UICONTROL Portfolio Optimizer] ne peut vous aider que si vous avez rempli les conditions préalables suivantes :
 
 
-* Le [!UICONTROL Analyses de cas] ont été réalisés sur les projets. Pour plus d’informations, voir les articles de la section [Définition d’un cas d’entreprise](../../projects/define-a-business-case/define-business-case.md).
+* La variable [!UICONTROL Analyses de cas] ont été réalisés sur les projets. Pour plus d’informations, voir les articles de la section [Définition d’un cas d’entreprise](../../projects/define-a-business-case/define-business-case.md).
 * Un portfolio est défini dans la section Aperçu du projet de la section Détails du projet pour les projets que vous souhaitez consulter.
 * Vous avez indiqué le budget du projet et les avantages prévus pour les projets que vous souhaitez passer en revue. Le coût fixe et les recettes fixes sont facultatifs, mais ils ajoutent une valeur supplémentaire. Pour plus d’informations, voir [Champs de financement du projet](../../projects/project-finances/project-finances-overview-1.md).
 
@@ -32,7 +34,7 @@ Pour plus d’informations sur la localisation de la variable [!UICONTROL Portfo
 
 ## Finances dans [!UICONTROL Portfolio Optimizer]
 
-* [Les domaines financiers dans la [!UICONTROL Portfolio Optimizer]](#the-financial-areas-in-the-portfolio-optimizer)
+* [Les domaines financiers dans la zone [!UICONTROL Portfolio Optimizer]](#the-financial-areas-in-the-portfolio-optimizer)
 * [Les champs financiers du [!UICONTROL Portfolio Optimizer]](#the-financial-fields-in-the-portfolio-optimizer)
 
 Vous pouvez consulter l’état financier de votre portefeuille à tout moment pendant la durée de vos projets lors de l’utilisation de la variable [!UICONTROL Portfolio Optimizer].
@@ -41,18 +43,18 @@ Tenez compte de ce qui suit lorsque vous utilisez des ressources dans le [!UICON
 
 * Les projets reçoivent chacun un score lorsque leur [!UICONTROL Analyses de cas] sont remplis selon les critères qu’ils correspondent dans la variable [!UICONTROL Portfolio Optimizer]. Par exemple, les projets à faible coût ou d’alignement élevé reçoivent un score plus élevé.
 
-   Pour plus d’informations sur le calcul du score d’optimisation de portefeuille d’un projet, consultez l’article . [Présentation de la variable [!UICONTROL Portfolio Optimizer] Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+  Pour plus d’informations sur le calcul du score d’optimisation de portefeuille d’un projet, consultez l’article . [Présentation de la variable [!UICONTROL Portfolio Optimizer] Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
 * Les calculs financiers pour la variable [!UICONTROL Portfolio Optimizer] utilisez la méthode [!UICONTROL Coût budgété] dans le [!UICONTROL Analyse de cas] du projet.
 * Vous pouvez hiérarchiser manuellement vos projets dans la [!UICONTROL Portfolio Optimizer], en prenant en compte toutes les informations les concernant. Cela inclut les données financières, l’alignement sur leurs fiches d’évaluation, le retour sur investissement, par exemple.
 
-### Les domaines financiers dans la [!UICONTROL Portfolio Optimizer] {#the-financial-areas-in-the-portfolio-optimizer}
+### Les domaines financiers dans la zone [!UICONTROL Portfolio Optimizer] {#the-financial-areas-in-the-portfolio-optimizer}
 
 Vous pouvez afficher des informations financières dans les zones suivantes du [!UICONTROL Portfolio Optimizer]:
 
-* **[!UICONTROL En-tête de Portfolio]**: Ce domaine présente les informations financières recueillies sur tous les projets du portfolio. Il s’affiche sur chaque onglet de l’objet de Portfolio.
-* **[!UICONTROL Finances de Portfolio pour les projets sélectionnés]**: Cette zone affiche les informations financières recueillies sur les projets sélectionnés dans la [!UICONTROL Portfolio Optimizer]. Vous pouvez ajouter ou supprimer des projets et comprendre comment cela affectera les finances du portefeuille en consultant les informations dans ce domaine.
-* **[!UICONTROL Finances des projets]**: Cette zone affiche les informations financières de chaque projet répertoriées dans le [!UICONTROL Portfolio Optimizer].
+* **[!UICONTROL En-tête de Portfolio]**: cette zone affiche les informations financières recueillies sur tous les projets du portfolio. Il s’affiche sur chaque onglet de l’objet de Portfolio.
+* **[!UICONTROL Finances de Portfolio pour les projets sélectionnés]**: cette zone affiche les informations financières recueillies sur les projets sélectionnés dans la [!UICONTROL Portfolio Optimizer]. Vous pouvez ajouter ou supprimer des projets et comprendre comment cela affectera les finances du portefeuille en consultant les informations dans ce domaine.
+* **[!UICONTROL Finances des projets]**: cette zone affiche les informations financières de chaque projet répertoriées dans le [!UICONTROL Portfolio Optimizer].
 
 ### Les champs financiers du [!UICONTROL Portfolio Optimizer] {#the-financial-fields-in-the-portfolio-optimizer}
 
@@ -79,7 +81,7 @@ Les champs financiers suivants s’affichent dans la variable [!UICONTROL Portfo
  <tbody> 
   <tr> 
    <td>[!UICONTROL Heure d’activation]</td> 
-   <td> <p>Pourcentage de projets du portefeuille considérés comme étant [!UICONTROL à l’heure]. Cette option est visible à partir de n’importe quel onglet d’un Portfolio.</p> <p>Un projet est considéré comme étant [!UICONTROL Heure d’activation] lorsque le projet <strong>[!UICONTROL Condition]</strong> is <strong>[!UICONTROL Sur Target]</strong>. <br>Pour plus d’informations sur les [!UICONTROL Conditions du projet], voir l’article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation de la condition et du type de condition du projet</a>.</p> <p>Le <strong>[!UICONTROL Heure d’activation]</strong> Le pourcentage est calculé à l’aide de la formule suivante :</p> <p><em>[!UICONTROL Pourcentage Portfolio d’activation] = Nombre de projets / Nombre total de projets dans un état [!UICONTROL Actuel] ou [!UICONTROL Approuvé]</em> </p> </td> 
+   <td> <p>Pourcentage de projets du portefeuille considérés comme étant [!UICONTROL à l’heure]. Cette option est visible à partir de n’importe quel onglet d’un Portfolio.</p> <p>Un projet est considéré comme étant [!UICONTROL Heure d’activation] lorsque <strong>[!UICONTROL Condition]</strong> is <strong>[!UICONTROL Sur Target]</strong>. <br>Pour plus d’informations sur les [!UICONTROL Conditions du projet], voir l’article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation de la condition et du type de condition du projet</a>.</p> <p>La variable <strong>[!UICONTROL Heure d’activation]</strong> Le pourcentage est calculé à partir de la formule suivante :</p> <p><em>[!UICONTROL Pourcentage Portfolio d’activation] = Nombre de projets / Nombre total de projets dans un état [!UICONTROL Actuel] ou [!UICONTROL Approuvé]</em> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sur Le Budget]</td> 
@@ -116,7 +118,7 @@ Les champs financiers suivants s’affichent dans la variable [!UICONTROL Portfo
  <tbody> 
   <tr> 
    <td>[!UICONTROL Nombre de projets]</td> 
-   <td> <p>Nombre total de principaux projets du portfolio. Les projets considérés comme principaux dans un portfolio peuvent avoir l’un des états suivants :</p> 
+   <td> <p>Nombre total de projets actifs dans le portfolio. Les projets considérés comme actifs dans un portfolio peuvent avoir l’un des états suivants :</p> 
     <ul> 
      <li>[!UICONTROL Actuel]</li> 
      <li>[!UICONTROL Planning]</li> 
@@ -181,7 +183,7 @@ Les icônes et options suivantes sont disponibles pour la fonction [!UICONTROL P
      <li>[!UICONTROL Value]</li>
      <li>[!UICONTROL Risque à mettre au profit]</li>
      <li>ROI [!UICONTROL]</li>
-    </ul><p>Pour plus d’informations sur l’optimisation de votre portefeuille, reportez-vous à l’article <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">Optimisation des projets dans [!UICONTROL Portfolio Optimizer] </a>.</p></td> 
+    </ul><p>Pour plus d’informations sur l’optimisation de votre portefeuille, consultez l’article <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">Optimisation des projets dans [!UICONTROL Portfolio Optimizer] </a>.</p></td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-undo-redo-icons-optimizer.png"> </td> 
