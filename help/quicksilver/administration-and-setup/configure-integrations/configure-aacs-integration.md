@@ -2,12 +2,12 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Intégrations Adobe Experience Manager Assets
-description: Vous pouvez connecter votre travail avec les intégrations Adobe Experience Manager Assets suivantes.
+description: Vous pouvez connecter votre travail aux intégrations Adobe Experience Manager Assets suivantes.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
+source-git-commit: 69f1ee95754207ea9e6bcaf8ee2d270a15c9fc6b
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manager Assets]&#x200B; :
 
-* Push sur les ressources et les métadonnées à partir de [!DNL Adobe Workfront] to [!DNL Experience Manager Assets]&#x200B;
+* Purge des ressources et des métadonnées à partir de [!DNL Adobe Workfront] to [!DNL Experience Manager Assets]&#x200B;
 * Lier des ressources depuis [!DNL Experience Manager Assets] à vos projets et tâches dans [!DNL Workfront&#x200B;]
 * Faciliter les cas d’utilisation de contrôle de version
 * Création de dossiers liés à [!DNL Experience Manager Assets]
@@ -79,6 +79,7 @@ Avant de commencer,
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Configuration]** .
 1. Sélectionner **[!UICONTROL Documents]** dans le panneau de gauche, puis sélectionnez **[!UICONTROL [!DNL Experience Manager]Intégration]**.
+
    >[!NOTE]
    >
    >Cette zone de configuration s’affiche uniquement si votre [!DNL Workfront] est inclus sous un [!DNL Adobe Admin Console].
@@ -101,7 +102,7 @@ Vous pouvez mapper [!DNL Workfront] données d’objet aux champs de média de r
 
 >[!IMPORTANT]
 >
->Vous ne pouvez mapper les métadonnées que dans une seule direction : de [!DNL Workfront] to [!DNL Experience Manager]. Métadonnées pour les documents liés à [!DNL Workfront] de [!DNL Experience Manager] ne peut pas être transféré vers [!DNL Workfront].
+>Vous ne pouvez mapper les métadonnées que dans une seule direction : à partir de [!DNL Workfront] to [!DNL Experience Manager]. Métadonnées pour les documents liés à [!DNL Workfront] de [!DNL Experience Manager] ne peut pas être transféré vers [!DNL Workfront].
 
 ### Configuration des champs de métadonnées
 
@@ -109,10 +110,10 @@ Avant de commencer à mapper les champs de métadonnées, vous devez configurer 
 
 Pour configurer les champs de métadonnées :
 
-1. Configuration d’un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configuration du mappage des métadonnées de ressource entre les Adobes [!DNL Workfront] et [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. Configurer un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configuration du mappage des métadonnées de ressource entre les Adobes [!DNL Workfront] et [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
 
-1. Configurez les champs de formulaire personnalisés dans Workfront. [!DNL Workfront] comporte de nombreux champs personnalisés intégrés que vous pouvez utiliser. Cependant, vous pouvez également créer vos propres champs personnalisés, comme expliqué dans la section [Création ou modification d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Configurez les champs de formulaire personnalisés dans Workfront. [!DNL Workfront] comporte de nombreux champs personnalisés intégrés que vous pouvez utiliser. Cependant, vous pouvez également créer vos propres champs personnalisés, en suivant la procédure décrite à la section [Création ou modification d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 +++ **Développer pour afficher plus d’informations sur les champs Workfront et Experience Manager Assets pris en charge**
 
@@ -130,7 +131,7 @@ Vous pouvez mapper n’importe quel champ pris en charge par Workfront à une ba
 
 >[!INFO]
 >
->**Exemple**: Pour correspondre à la balise affichée dans la structure de dossiers ici, la valeur de champ dans Workfront est `landscapes:trees/spruce`. Notez les minuscules dans la valeur du champ Workfront.
+>**Exemple**: pour correspondre à la balise affichée dans la structure de dossiers ici, la valeur de champ dans Workfront est `landscapes:trees/spruce`. Notez les minuscules dans la valeur du champ Workfront.
 >
 >Si vous souhaitez que la balise soit située le plus à gauche dans l’arborescence des balises, elle doit être suivie d’un signe deux-points. Dans cet exemple, pour mapper la balise paysage, la valeur de champ dans Workfront est `landscapes:`.
 >
@@ -171,7 +172,7 @@ Vous pouvez mapper des champs Workfront intégrés et personnalisés à Experien
 
 ### Mappage des métadonnées des ressources
 
-Mappages des métadonnées lorsqu’une ressource est transférée à partir de [!DNL Workfront] pour la première fois. Les documents contenant des champs intégrés ou personnalisés sont automatiquement associés aux champs spécifiés lors de la première envoi d’une ressource à [!DNL Experience Manager Assets].
+Mappages de métadonnées lorsqu’une ressource est transférée à partir de [!DNL Workfront] pour la première fois. Les documents contenant des champs intégrés ou personnalisés sont automatiquement associés aux champs spécifiés lors de la première envoi d’une ressource à [!DNL Experience Manager Assets].
 
 Pour mapper les métadonnées des ressources :
 
@@ -180,7 +181,7 @@ Pour mapper les métadonnées des ressources :
 
    >[!NOTE]
    >
-   >Vous pouvez mapper une seule [!DNL Workfront] champ à plusieurs [!UICONTROL Experience Manager Assets] champs. Vous ne pouvez pas mapper plusieurs [!DNL Workfront] à un seul champ [!DNL Experience Manager Assets] champ .
+   >Vous pouvez mapper une seule [!DNL Workfront] champ à plusieurs [!UICONTROL Experience Manager Assets] des champs. Vous ne pouvez pas mapper plusieurs [!DNL Workfront] à un seul champ [!DNL Experience Manager Assets] champ .
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
 1. Dans le [!DNL Experience Manager Assets] , recherchez dans les catégories prérenseignées ou saisissez au moins deux lettres dans le champ de recherche pour accéder à d’autres catégories.
@@ -215,9 +216,11 @@ Pour mapper les métadonnées des dossiers :
 
 Un [!DNL Experience Manager] champs mappés à [!DNL Workfront] les champs de portefeuille, de programme, de projet, de tâche, d’émission et de document sont automatiquement mis à jour lorsque le champ est modifié dans [!DNL Workfront].
 
+Lorsque cette option est activée, toute ressource qui a été transférée vers Adobe Experience Manager inclut une carte sur la page Détails du document qui affiche une vue en temps réel des métadonnées Adobe Experience Manager du document.
+
 >[!IMPORTANT]
 >
->Les utilisateurs doivent disposer d’un accès en écriture dans [!DNL Experience Manager] pour les ressources vivant dans l’objet afin que les métadonnées soient synchronisées lors de leur mise à jour.
+>Les utilisateurs doivent avoir un accès en écriture dans [!DNL Experience Manager] pour les ressources vivant dans l’objet afin que les métadonnées soient synchronisées lors de leur mise à jour.
 
 1. Activez la variable **[!UICONTROL Métadonnées d’objet de synchronisation]** champ .
 1. Cliquez sur **Enregistrer** ou passez à la [Configuration des workflows (facultatif)](#set-up-workflows-optional) dans cet article.
@@ -230,7 +233,7 @@ Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experi
 
 Les valeurs de workflow par défaut que vous définissez dans l’intégration peuvent être remplacées aux niveaux Modèle de projet et Projet .
 
-### Configuration d’un workflow pour la création de dossiers liés à Adobe Experience Manager
+### Configurer un workflow pour la création de dossiers liés à Adobe Experience Manager
 
 1. Activez/désactivez la variable **[!UICONTROL Créer un dossier lié]** sur .
 1. Sélectionnez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
@@ -242,7 +245,7 @@ Les valeurs de workflow par défaut que vous définissez dans l’intégration p
 
 ## Configuration des dossiers liés (facultatif)
 
-Vous pouvez permettre aux utilisateurs de créer des dossiers liés à [!DNL Experience Manager] pendant un événement [!DNL Workfront] projet. Lorsqu’un dossier est lié, toute ressource ajoutée au dossier s’affiche automatiquement dans les deux [!DNL Workfront] et [!DNL Experience Manager]. Lorsqu’une ressource est ajoutée au dossier lié dans [!DNL Workfront] pour la première fois, les métadonnées de la ressource sont transmises à [!DNL Experience Manager Assets].
+Vous pouvez permettre aux utilisateurs de créer des dossiers liés à [!DNL Experience Manager] pendant un événement [!DNL Workfront] projet. Lorsqu’un dossier est lié, toute ressource ajoutée au dossier apparaît automatiquement dans les deux [!DNL Workfront] et [!DNL Experience Manager]. Lorsqu’une ressource est ajoutée au dossier lié dans [!DNL Workfront] pour la première fois, les métadonnées de la ressource sont transmises à [!DNL Experience Manager Assets].
 
 Dans les étapes ci-dessous, vous indiquez où vous souhaitez créer les dossiers liés. Chaque intégration ne peut avoir qu’un seul emplacement pour tous les dossiers liés.
 
@@ -253,6 +256,6 @@ Pour configurer les dossiers liés :
 
    >[!NOTE]
    >
-   >Les utilisateurs doivent disposer d’un accès en écriture dans [!DNL Adobe Experience Manager Assets] au dossier spécifié pour créer un dossier lié.
+   >Les utilisateurs doivent avoir un accès en écriture dans [!DNL Adobe Experience Manager Assets] au dossier spécifié pour créer un dossier lié.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
