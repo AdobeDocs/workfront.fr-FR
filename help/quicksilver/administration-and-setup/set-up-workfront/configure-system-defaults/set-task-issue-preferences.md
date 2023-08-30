@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2103'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-En tant que [!DNL Adobe Workfront] administrateur, vous pouvez configurer les préférences à l’échelle du système pour les tâches et les problèmes. Ces préférences ont un impact sur la manière dont vos utilisateurs créent des tâches et des problèmes dans [!DNL Workfront].
+Comme [!DNL Adobe Workfront] administrateur, vous pouvez configurer les préférences à l’échelle du système pour les tâches et les problèmes. Ces préférences ont un impact sur la manière dont vos utilisateurs créent des tâches et des problèmes dans [!DNL Workfront].
 
 Par défaut, les préférences de tâche et de problème sont verrouillées et les administrateurs de groupe ne peuvent pas les modifier au niveau du groupe, sauf si vous les déverrouillez pour tous les groupes du système. Pour plus d’informations, voir la section [Verrouillage des préférences de tâche et d’émission pour les groupes](#lock-task-and-issue-preferences-for-groups) dans cet article.
 
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * [[!UICONTROL Dates effectives]](#actual-dates)
 * [[!UICONTROL Délégation]](#delegation)
 
-   <!--
+  <!--
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
   -->
 
@@ -95,7 +95,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-### Événements {#issues}
+### Problèmes {#issues}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -113,13 +113,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader" [!UICONTROL>Lors de la conversion d’un problème en tâche]</td> 
    <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion, d’un problème à l’autre :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution à la tâche]</strong>: Lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois la tâche terminée. Si cette option est désélectionnée, le problème est supprimé.</p> <p><b>NOTE</b>:  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 
+     <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution à la tâche]</strong>: lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois la tâche terminée. Si cette option est désélectionnée, le problème est supprimé.</p> <p><b>NOTE</b>:  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Autoriser les contacts Principal à avoir accès à la tâche]</strong>: Donne à l’Principal contact (créateur de problèmes) l’accès à la tâche pour examiner la tâche, la mettre à jour et rester informé de son avancement.</li> 
-     <li> <p><strong>[!UICONTROL Autoriser la modification de ces paramètres pendant la conversion]</strong>: Permet à l’utilisateur qui convertit le problème de modifier ces options lors de la conversion d’un problème en tâche.</p> <!--
+     <li><strong>[!UICONTROL Autoriser les contacts de Principal à avoir accès à la tâche]</strong>: donne au contact principal (créateur du problème) l’accès à la tâche pour examiner la tâche, rester informé de son avancement et faire des commentaires sur la section Mises à jour de la tâche.</li> 
+     <li> <p><strong>[!UICONTROL Autoriser la modification de ces paramètres pendant la conversion]</strong>: permet à l’utilisateur qui convertit le problème de modifier ces options lors de la conversion d’un problème en tâche.</p> <!--
        Screenshot when possible</p>
       --> </li> 
     </ul> </td> 
@@ -128,21 +128,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader">[!UICONTROL Lors de la conversion d’un problème en projet]</td> 
    <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion d’un problème à l’autre :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution au projet]</strong>: Lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que le projet soit terminé. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois le projet terminé. Si cette option est désélectionnée, le problème est supprimé. </p> <p><b>NOTE</b>:  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 
+     <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution au projet]</strong>: lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que le projet soit terminé. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois le projet terminé. Si cette option est désélectionnée, le problème est supprimé. </p> <p><b>NOTE</b>:  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Autoriser les contacts Principal à avoir accès au projet]</strong>: Permet au Principal contact (créateur de problèmes) d’accéder au projet pour l’examiner, le mettre à jour et rester informé de son avancement.</li> 
-     <li><strong>[!UICONTROL Autoriser la modification de ces paramètres pendant la conversion]</strong>: Permet à l’utilisateur qui convertit le problème de modifier les options répertoriées lors de la conversion d’un problème en projet.</li> 
-    </ul> </td> 
+     <li><strong>[!UICONTROL Autoriser les contacts de Principal à avoir accès au projet]</strong>: donne au contact principal (créateur du problème) l’accès au projet pour examiner le projet, rester informé de son avancement et faire des commentaires sur la section Mises à jour du projet.</li> 
+     <li><strong>[!UICONTROL Autoriser la modification de ces paramètres pendant la conversion]</strong>: permet à l’utilisateur qui convertit le problème de modifier les options répertoriées lors de la conversion d’un problème en projet.</li> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Suppression] {#deletion}
 
-**[!UICONTROL Autoriser les utilisateurs à supprimer les tâches et les problèmes liés aux heures enregistrées]**: Permet de déterminer si vous autorisez la suppression de tâches ou de problèmes lorsque des heures sont enregistrées. Cette option est sélectionnée par défaut.
+**[!UICONTROL Autoriser les utilisateurs à supprimer les tâches et les problèmes liés aux heures enregistrées]**: vous permet de déterminer si vous autorisez la suppression de tâches ou de problèmes lorsque des heures sont enregistrées. Cette option est sélectionnée par défaut.
 
 >[!TIP]
 >
@@ -150,9 +150,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Lorsqu’elle est sélectionnée, vous recevez un avertissement informatif lorsque vous supprimez une tâche ou un problème. L’avertissement vous rappelle que si la tâche ou le problème a des heures enregistrées, elles seront déplacées vers le projet ou supprimées. Vous pouvez configurer si les heures sont supprimées ou déplacées vers le projet dans le [!UICONTROL Préférences de la feuille de temps et des heures] de la zone [!UICONTROL Configuration]. Une fois que vous avez confirmé l’affichage de l’avertissement, la tâche ou le problème est supprimé. Pour plus d’informations sur la configuration des préférences Frise chronologique et Heures, voir [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   >[!TIP]
-   >
-   >Lorsque vous supprimez un projet avec des tâches et des problèmes ayant des heures enregistrées, les heures consignées sont supprimées ou elles sont conservées conformément aux paramètres de la variable [!UICONTROL Préférences de la feuille de temps et des heures] area of [!UICONTROL Configuration]. Le message d’avertissement ne s’affiche pas lors de la suppression d’un projet.
+  >[!TIP]
+  >
+  >Lorsque vous supprimez un projet avec des tâches et des problèmes ayant des heures enregistrées, les heures consignées sont supprimées ou elles sont conservées conformément aux paramètres de la variable [!UICONTROL Préférences de la feuille de temps et des heures] area of [!UICONTROL Configuration]. Le message d’avertissement ne s’affiche pas lors de la suppression d’un projet.
 
 * Lorsque vous désactivez cette option, vous recevez un avertissement prohibitif lorsque vous supprimez une tâche ou un problème lié aux heures journalisées, ou lorsque vous supprimez un projet avec des heures journalisées pour ses tâches ou problèmes. L’avertissement indique que l’administrateur n’autorise pas la suppression de tâches ou de problèmes avec les heures enregistrées. Les tâches, problèmes ou projets dont les heures sont enregistrées pour les tâches et problèmes ne peuvent pas être supprimés.
 
@@ -183,11 +183,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ### Délégation
 
-Activation de la variable [!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes] permet à tous les utilisateurs d’ de déléguer temporairement leur travail à d’autres utilisateurs.
+Activation de [!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes] permet à tous les utilisateurs d’ de déléguer temporairement leur travail à d’autres utilisateurs.
 
 Lorsque ce paramètre est activé, les utilisateurs peuvent voir les éléments suivants :
 
-* Le [!UICONTROL Déléguer] dans leur lien [!UICONTROL Accueil] zone. Ils peuvent déléguer des validations ou des affectations de tâche et d’émission à partir de là.
+* La variable [!UICONTROL Déléguer] dans leur lien [!UICONTROL Accueil] zone. Ils peuvent déléguer des validations ou des affectations de tâche et d’émission à partir de là.
 * Indicateur qu’une tâche ou un problème est délégué à un autre utilisateur dans la variable [!UICONTROL Affectations et délégations] dans l’en-tête de la tâche ou du problème.
 
 Si vous désactivez la variable [!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes] , les délégations actuellement planifiées s’arrêteront et les utilisateurs délégués recevront une notification par e-mail indiquant que la délégation a été arrêtée.
@@ -234,24 +234,24 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL Lorsqu’une personne est affectée à une tâche]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL LEUR donner ... accès à une tâche]</strong>: Définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
-     <li> <p><strong>[!UICONTROL Accorder également ... l’accès au projet]</strong>: Définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
+     <li><strong>[!UICONTROL ... Accédez à une tâche]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
+     <li> <p><strong>[!UICONTROL Accorder également ... l’accès au projet]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Lorsqu’une personne est affectée à un problème]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL LEUR donner ... accès à une tâche]</strong>: Définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
-     <li> <p><strong>[!UICONTROL Accorder également ... l’accès au projet]</strong>: Définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
+     <li><strong>[!UICONTROL ... Accédez à une tâche]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
+     <li> <p><strong>[!UICONTROL Accorder également ... l’accès au projet]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Lorsqu’une personne envoie une demande]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL ... Accédez au problème]</strong>: Définit l’autorisation par défaut d’un utilisateur pour une demande qu’il a envoyée. Pour plus d’informations, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a>.</li> 
-     <li> <p><strong>[!UICONTROL Les personnes de la même société hériteront des mêmes autorisations pour toutes les demandes]</strong>: Permet aux utilisateurs d’afficher les demandes envoyées par d’autres utilisateurs de la même société qu’eux. Ils disposent des mêmes autorisations sur ces demandes que sur leurs propres demandes envoyées.</p> </li> 
+     <li><strong>[!UICONTROL ... Accédez au problème]</strong>: définit l’autorisation par défaut d’un utilisateur pour une demande qu’il a envoyée. Pour plus d’informations, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a>.</li> 
+     <li> <p><strong>[!UICONTROL Les personnes de la même société hériteront des mêmes autorisations pour toutes les demandes]</strong>: permet aux utilisateurs d’afficher les demandes envoyées par d’autres utilisateurs de la même société qu’eux. Ils disposent des mêmes autorisations sur ces demandes que sur leurs propres demandes envoyées.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -259,7 +259,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 ## Verrouillage des préférences de tâche et d’émission pour les groupes {#lock-task-and-issue-preferences-for-groups}
 
-Si les groupes de votre organisation ont besoin d’une tâche ou d’une préférence d’émission configurée différemment pour leurs workflows uniques, vous pouvez déverrouiller la préférence pour tous les groupes de l’organisation afin qu’ils puissent la configurer eux-mêmes. Lorsqu’une préférence est déverrouillée et que l’administrateur du groupe la modifie, les tâches ou les problèmes associés au groupe sont affectés par le paramètre au niveau du groupe correspondant à la préférence plutôt que par le paramètre au niveau du système.
+Si les groupes de votre organisation ont besoin d’une tâche ou d’une préférence d’émission configurée différemment pour leurs workflows uniques, vous pouvez déverrouiller la préférence pour tous les groupes de l’organisation afin qu’ils puissent la configurer eux-mêmes. Lorsqu’une préférence est déverrouillée et que l’administrateur du groupe la modifie, les tâches ou les problèmes associés au groupe sont affectés par le paramètre de niveau groupe de la préférence plutôt que par le paramètre de niveau système.
 
 Pour plus d’informations sur la façon dont un administrateur de groupe configure les préférences de tâche et de problème pour un groupe, voir [Configuration des préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
@@ -278,8 +278,8 @@ Pour verrouiller ou déverrouiller une tâche ou émettre des préférences afin
    * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la. ![](assets/unlock-toggle-button.png).
    * Si vous souhaitez que votre groupe et tous les groupes sous-jacents utilisent votre configuration pour une préférence, assurez-vous qu’il est verrouillé (il s’agit de la valeur par défaut).
 
-      >[!IMPORTANT]
-      >
-      >Nous vous recommandons de communiquer avec les administrateurs et les utilisateurs de groupes dans tout le système pour vous assurer que tous les besoins sont pris en compte dans la configuration d’une préférence verrouillée. Lorsque vous le verrouillez, votre configuration pour elle est héritée par tous les groupes du système. Et si la préférence a été déverrouillée pendant une période quelconque, votre configuration remplace celles que les administrateurs de groupe peuvent avoir faites.
+     >[!IMPORTANT]
+     >
+     >Nous vous recommandons de communiquer avec les administrateurs et les utilisateurs de groupes dans tout le système pour vous assurer que tous les besoins sont pris en compte dans la configuration d’une préférence verrouillée. Lorsque vous le verrouillez, votre configuration pour elle est héritée par tous les groupes du système. Et si la préférence a été déverrouillée pendant une période quelconque, votre configuration remplace celles que les administrateurs de groupe peuvent avoir faites.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
