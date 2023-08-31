@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f886c67c80439e2e8158c4616479ffabaa53c3d3
+source-git-commit: b0142b75e507081ebfb6ce700f37d5c287c72cde
 workflow-type: tm+mt
 source-wordcount: '2334'
 ht-degree: 3%
@@ -839,7 +839,7 @@ Il n’existe actuellement aucune prise en charge pour une mise à jour `action`
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
 #### En-têtes
@@ -891,14 +891,14 @@ Cet appel lance une tentative d’installation d’un package de promotion dans 
 
 #### Options
 
-Si une `translationmap` n’est pas fourni dans le corps du POST, le processus lance automatiquement la fonction `/translationmap` appelez . La variable `translationmap` qui est renvoyé sera utilisé tel quel, sans possibilité d’y passer en revue ou d’y apporter des ajustements.
+Si une `translationmap` n’est pas fourni dans le corps du POST, le processus lance automatiquement la fonction `/prepare-installation` appelez . La variable `translationmap` qui est renvoyé sera utilisé tel quel, sans possibilité d’y passer en revue ou d’y apporter des ajustements.
 
 Si une `translationmap` est fourni dans le corps du POST, le processus d’installation utilisera le mappage fourni. Cela permet à l’utilisateur qui installe de passer en revue et d’effectuer les réglages nécessaires avant d’effectuer une tentative d’installation.
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### En-têtes
@@ -954,7 +954,7 @@ Les résultats incluent les événements d’installation de tous les environnem
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### En-têtes
