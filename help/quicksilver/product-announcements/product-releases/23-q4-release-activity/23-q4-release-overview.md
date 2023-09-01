@@ -3,9 +3,9 @@ title: Présentation de la version du quatrième trimestre 2023
 description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
+source-git-commit: 0ea724f63729822ec2ab60b14f83264a36727fbf
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version d’aperçu : 24 août<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production pour tous les clients : 31 août 2023</span>
+                                <p><span class="preview">Production pour tous les clients : 31 août 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -183,7 +183,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version d’aperçu : 24 août<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production pour tous les clients : 31 août 2023</span>
+                                <p><span class="preview">Production pour tous les clients : 31 août 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -418,10 +418,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version d’aperçu : 17 août 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 23.8</p>
-                            </li>
-                            <li>
-                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                                <p><span class="preview">Production pour tous les clients : 31 août 2023</span></p>
                             </li>
                         </ul>
                     </td>
