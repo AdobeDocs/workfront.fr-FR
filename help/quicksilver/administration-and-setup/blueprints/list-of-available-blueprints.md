@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 0%
@@ -61,10 +61,10 @@ La variable [!UICONTROL Initiative stratégique interne générale] le plan dire
 **[!UICONTROL Configuration de l’organisation des ressources humaines]**
 Ce plan directeur contient la configuration des structures organisationnelles à étendre à un service des ressources humaines.
 
-[!BADGE Nouveau!]{type=Informative}**[!UICONTROL Configuration de l’organisation des technologies de l’information]**
+**[!UICONTROL Configuration de l’organisation des technologies de l’information]**
 Ce plan directeur contient la configuration des structures organisationnelles à étendre à un cas d’utilisation des technologies de l’information.
 
-**[!UICONTROL Principes de base des instances héritées | Liste de contrôle]**
+[!BADGE Nouveau!]{type=Informative}**[!UICONTROL Principes de base des instances héritées | Liste de contrôle]**
 Ce plan directeur contient un modèle de projet (ou liste de contrôle) que vous pouvez examiner avec une liste courte de questions, de ressources et de liens pour une compréhension claire de la configuration de votre instance Workfront. Utilisez-le lorsque vous avez récemment hérité d’une instance Workfront et que vous avez besoin de conseils pour commencer.
 
 **[!UICONTROL Exécution de campagne intégrée]**
