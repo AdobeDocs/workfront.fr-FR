@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
+source-git-commit: 096d4a50ae4c392f149d4dd54b19c6f1c86c5b1b
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1189'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 >
 >La nouvelle expérience de commentaire n’est disponible que pour la section Mises à jour et n’est pas disponible pour les zones suivantes :
 >
-> * Page d’accueil
+> * Accueil
 > * Panneau Résumé dans les listes
 > * Panneau Résumé dans les feuilles de temps
 
@@ -142,14 +142,12 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
    * **Commentaires**: affiche les commentaires effectués par les utilisateurs et les réponses à ces commentaires. Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
    * **Activité du système**: affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Vous pouvez, par exemple, capturer les modifications de l’état, du nom ou des champs personnalisés avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+      * Les objets suivants ne comportent pas d’onglet Activité du système :
 
-  * The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
-    -->
+         * Équipe
+         * Modèle
+         * Tâche de modèle
+         * Carte ad hoc
 
 * Actuellement, vous pouvez ajouter des commentaires et répondre aux mises à jour à l’aide de la nouvelle expérience de commentaire sur les objets suivants :
 
