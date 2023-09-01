@@ -6,9 +6,9 @@ description: Vous pouvez télécharger vos panoramas d’art en tant que documen
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
+source-git-commit: e3bc8ca88dda16ac792e6de8055296105e6ff0e0
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Conditions préalables
 
-* Vous devez installer le [!DNL Adobe Workfront for design and video] avant de pouvoir charger des documents à partir de [!DNL Illustrator].
+* Vous devez installer [!DNL Adobe Workfront for design and video] avant de pouvoir télécharger des documents à partir de [!DNL Illustrator].
 
   Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
@@ -68,17 +68,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du module externe.
 1. (Facultatif) Saisissez un commentaire dans le champ **[!UICONTROL Mises à jour]** zone.
 1. Choisissez la **[!UICONTROL Type de ressource]** dans le menu déroulant.
-1. Ouvrez le **[!UICONTROL Définition des paramètres d’exportation de fichier]** de la boîte de dialogue, configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
+1. Ouvrez le **[!UICONTROL Définition des paramètres d’exportation de fichier]** , puis configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
 
    ![](assets/file-export-settings.png)
 1. Cliquez sur **[!UICONTROL Télécharger]**.
-Le document apparaît dans la [!UICONTROL Documents] dans le module externe et l’appli de bureau.
+Le document apparaît dans la section [!UICONTROL Documents] dans le module externe et l’appli de bureau.
 
 >[!NOTE]
 >
 >Si le document est exporté en tant que document texte, vous devrez peut-être réinitialiser vos préférences dans [!DNL Adobe Illustrator].
 >
->1. Dans [!DNL Illustrator], cliquez sur le bouton **[!UICONTROL Modifier]** et sélectionnez **[!UICONTROL Préférences]**.
+>1. Dans [!DNL Illustrator], cliquez sur le **[!UICONTROL Modifier]** et sélectionnez **[!UICONTROL Préférences]**.
 >1. Sélectionner **[!UICONTROL Général]**.
 >1. Cliquez sur **[!UICONTROL Réinitialiser les préférences]**.
 >1. Fermer et redémarrer [!DNL Illustrator].
