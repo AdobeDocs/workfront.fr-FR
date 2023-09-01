@@ -7,9 +7,9 @@ description: Les modèles publics suivants sont actuellement disponibles dans Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ Pour afficher les modèles disponibles, cliquez sur le bouton **Modèles** icon 
 
 Ces modèles automatisent les processus et les workflows Workfront.
 
-### Workfront - Copier le programme Forms personnalisé et les données de champ dans les nouveaux projets associés
+### [!BADGE Nouveau!]{type=Informative}
 
 Cette automatisation recherche de nouveaux projets dans les programmes avec des formulaires personnalisés. Il ajoute ensuite ces formulaires et champs personnalisés de programme aux nouveaux projets.
+
+### [!BADGE Nouveau!]{type=Informative}
+
+Cette automatisation recherche de nouveaux projets dans les portefeuilles avec des formulaires personnalisés. Il ajoute ensuite ces champs et formulaires personnalisés de portefeuille aux nouveaux projets.
 
 ### Workfront - Convertir le problème approuvé en projet
 
@@ -52,9 +56,9 @@ Ce modèle capture une ligne de base de projet lors de tout changement d’état
 
 ### Workfront : création de base hebdomadaire
 
-Ce modèle capture une ligne de base de projet sur une base hebdomadaire chaque lundi à 6h00 ET sur les projets filtrés par portefeuille et crée une mise à jour dans le flux de mise à jour pour la journalisation.
+Ce modèle capture une ligne de base de projet sur une base hebdomadaire chaque lundi à 6h00 ET sur les projets filtrés par portefeuille, et crée une mise à jour dans le flux de mise à jour pour la journalisation.
 
-### Recherche de modèles de projet non utilisés au moment de la stratégie et notification
+### [!BADGE Nouveau!]{type=Informative}
 
 Une fois par mois, consultez vos modèles de projet en utilisant votre propre stratégie avec ce modèle facile à gérer qui avertit les utilisateurs appropriés des modèles en violation de votre stratégie.
 
@@ -80,7 +84,7 @@ Ces modèles récupèrent les informations d’un service Web et les intègrent 
 
 ### APILayer > Workfront - Mise à jour du taux de change quotidien (en euros)
 
-Ce modèle crée un scénario qui automatise la mise à jour d’un taux de change à un moment donné. Ce scénario récupère le taux d’euros (euros) en dollars US (USD) d’une API APIlayer.com et le met à jour dans Workfront.
+Ce modèle crée un scénario qui automatise la mise à jour d’un taux de change à un moment donné. Ce scénario extrait le taux d’euros (EUR) en dollars US (USD) d’une API APIlayers.com et le met à jour dans Workfront.
 
 ## Modèles Workfront-Marketo
 
@@ -120,10 +124,10 @@ Pour plus d’informations sur l’intégration Workfront-Anaplan, voir [Adobe W
 
 ### Workflows pour lier les requêtes de budget
 
-* [Créez un [!DNL Anaplan] élément d’une liste à partir d’un [!DNL Adobe Workfront] requête budget](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Créez un [!DNL Anaplan] élément de liste d’un [!DNL Adobe Workfront] requête budget](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 * [Appliquez une [!DNL Anaplan] allocation d’un budget à un [!DNL Adobe Workfront] project](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Workflows pour lier des requêtes de campagne
 
-* [Créez un [!DNL Anaplan] élément d’une liste à partir d’un [!DNL Adobe Workfront] requête de campagne](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Créez un [!DNL Anaplan] élément de liste d’un [!DNL Adobe Workfront] requête de campagne](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Appliquez une [!DNL Anaplan] allocation d’un budget à un [!DNL Adobe Workfront] requête de campagne ou projet de campagne](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

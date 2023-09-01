@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ La variable [!UICONTROL Initiative stratégique interne générale] le plan dire
 **[!UICONTROL Configuration de l’organisation des ressources humaines]**
 Ce plan directeur contient la configuration des structures organisationnelles à étendre à un service des ressources humaines.
 
-**[!UICONTROL Configuration de l’organisation des technologies de l’information]**
+[!BADGE Nouveau!]{type=Informative}**[!UICONTROL Configuration de l’organisation des technologies de l’information]**
 Ce plan directeur contient la configuration des structures organisationnelles à étendre à un cas d’utilisation des technologies de l’information.
 
 **[!UICONTROL Principes de base des instances héritées | Liste de contrôle]**
@@ -78,6 +78,10 @@ Ce plan directeur contient un modèle pour [!DNL Workfront professional services
 
 **[!UICONTROL Nouvelle préparation à l&#39;embauche]**
 Ce plan directeur contient un modèle pour [!DNL Workfront] pendant des années, l&#39;organisation des services professionnels a utilisé les équipes de mise en oeuvre des ressources humaines pour inciter les spécialistes des ressources humaines et les gestionnaires d&#39;embauche à mener à bien les activités essentielles pour rendre remarquable la première journée d&#39;un nouvel employé.
+
+[!BADGE Nouveau!]{type=Informative}**Offre | Départ du tableau de bord de l’utilisateur**
+
+Ce plan directeur contient un seul tableau de bord comprenant 13 rapports pour vous aider à trouver, réaffecter ou gérer les objets et affectations associés à un utilisateur quittant Workfront. Vous pouvez également utiliser ces rapports pour qu’un utilisateur accède à un nouveau rôle ou groupe afin de réaffecter son travail.
 
 **[!UICONTROL Post-mise en oeuvre : nouveau déploiement du cas d’utilisation]**
 Ce plan directeur contient un modèle unique qui organise le travail qu’un [!DNL Workfront] Le client devra terminer la gestion de l’extension aux processus suivants après leur mise en oeuvre initiale.
@@ -100,6 +104,10 @@ Ce plan directeur contient la configuration des structures organisationnelles à
 **[!UICONTROL Suivi du processus de recrutement]**
 Ce plan directeur définit une liste de contrôle pour les ressources de recrutement internes à utiliser pour aider les parties prenantes à suivre l’état d’avancement des demandes d’effectifs. Il est conçu pour prendre en charge un niveau de maturité géré.
 
+[!BADGE Nouveau!]{type=Informative}**Préparation de la gestion des ressources**
+
+Utilisez ce modèle de projet et ce rapport d’utilisateur pour vous assurer que vous disposez des paramètres et des informations corrects nécessaires pour générer des données de gestion des ressources précises.
+
 **[!UICONTROL Auto-évaluation du contrôle des risques : planification clé de l&#39;atténuation des risques]**
 [!UICONTROL Auto-évaluation du contrôle des risques] (RSCA) définit un processus pour identifier les risques et mesurer les contrôles que vous avez mis en place pour atténuer ces risques. Ce modèle formalise le processus d’évaluation des nouveaux risques, de mise en place de contrôles appropriés et de connaissances sur la mesure et la documentation de l’efficacité du contrôle.
 
@@ -117,6 +125,14 @@ Ce plan directeur contient un modèle pour [!DNL Workfront] l’organisation des
 
 **[!UICONTROL Tableau de bord de maintenance de l’administrateur système]**
 Ce plan directeur contient un seul tableau de bord pour aider les administrateurs système à maintenir et nettoyer le système régulièrement à partir d’encombres divers pouvant se développer au fil du temps.
+
+[!BADGE Nouveau!]{type=Informative}**Réalisation de la valeur | Tableau de bord des valeurs principales**
+
+Ce plan directeur contient un tableau de bord unique comprenant 21 rapports pour vous aider à mesurer la valeur de Workfront. Ces rapports vous aident à traduire les avantages de Centraliser le travail et Gérer les processus de travail en valeurs mesurables que vous pouvez suivre au fil du temps pour obtenir de meilleurs résultats.
+
+[!BADGE Nouveau!]{type=Informative}**Réalisation de la valeur | Tableau de bord de révision et d’approbation**
+
+Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aider à réaliser la valeur de Workfront. Ces rapports vous aident à traduire les valeurs de l’ Examen et validation des travaux en avantages mesurables dont vous pouvez effectuer le suivi au fil du temps pour obtenir de meilleurs résultats.
 
 **[!UICONTROL Production de ressources vidéo] (Intégré)**
 La variable [!UICONTROL Production de ressources vidéo] Le module contient un modèle qui organise le processus de travail pour un processus de production vidéo standard. Le modèle fournit un processus allégé de création de ressources vidéo originales pour une équipe qui s’appuie sur des procédures d’exploitation standard pour définir la manière de travailler et qui utilise le projet uniquement pour prioriser le travail et suivre la progression.
