@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '13214'
+source-wordcount: '13223'
 ht-degree: 1%
 
 ---
@@ -740,6 +740,7 @@ ht-degree: 1%
       * [Désactivation des intégrations de documents](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configuration de l’intégration SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [Configuration du mappage des métadonnées](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [Créer [!UICONTROL [!DNL Adobe Workfront] pour [!DNL Creative Cloud]] modules pour vos utilisateurs dans la variable [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Création d’applications OAuth2 pour les intégrations Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Affichage et gestion des applications OAuth2 personnalisées](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Configuration de l’intégration JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
@@ -819,8 +820,8 @@ ht-degree: 1%
       * [Comprendre la navigation d’un utilisateur sous licence de travail](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Comprendre la navigation d’un utilisateur de licence de révision](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Présentation des dates de projet, de tâche et de publication dans Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
-   * Page d’accueil {#home}
-      * [Page d’accueil](workfront-basics/using-home/home.md)
+   * Accueil {#home}
+      * [Accueil](workfront-basics/using-home/home.md)
       * Nouvelle page {#new-home}
          * [Nouvelle page](workfront-basics/using-home/new-home/new-home.md)
          * [Prise en main du nouvel accueil](workfront-basics/using-home/new-home/get-started-with-new-home.md)

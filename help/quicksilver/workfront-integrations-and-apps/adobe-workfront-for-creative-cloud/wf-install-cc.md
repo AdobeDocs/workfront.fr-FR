@@ -6,9 +6,9 @@ description: Vous pouvez installer [!DNL Adobe Workfront for design and video] d
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Si vous êtes un [!DNL Adobe Admin Console] administrateur, vous pouvez inclure [!DNL Adobe Workfront for design and video] in [!DNL Creative Cloud] packages de déploiement. Pour plus d’informations, voir [Inclusion de modules externes dans votre module](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [Afficher un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+[!DNL Adobe Admin Console] Les administrateurs peuvent également créer des modules externes uniquement à des fins de distribution aux utilisateurs. Pour plus d’informations, voir [Créer [!UICONTROL [!DNL Adobe Workfront] pour [!DNL Creative Cloud]] modules pour vos utilisateurs dans la variable [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## Installer [!DNL Workfront for design and video] individuellement
 

@@ -6,9 +6,9 @@ description: Vous pouvez installer le module externe Adobe Workfront for Photosh
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '528'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez installer le [!DNL Adobe Workfront for Photoshop] du module externe 
 * Allemand
 * Italien
 * Espagnol
-* Portugais
+* Portuge
 * Japonais
 * Chinois simplifié
 * Chinois traditionnel
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Conditions préalables
 
-* Vous devez installer le [!DNL Adobe Photoshop] avant d’installer l’application [!DNL Workfront] module externe
+* Vous devez installer le [!DNL Adobe Photoshop] avant d’installer l’ [!DNL Workfront] module externe
 
 ## Installez le [!DNL Adobe Workfront for Photoshop] module externe pour votre organisation
 
@@ -63,12 +63,14 @@ Si vous êtes un [!DNL Adobe Admin Console] administrateur, vous pouvez inclure 
 
 [Afficher un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
+[!DNL Adobe Admin Console] Les administrateurs peuvent également créer des modules externes uniquement à des fins de distribution aux utilisateurs. Pour plus d’informations, voir [Créer [!UICONTROL [!DNL Adobe Workfront] pour [!DNL Creative Cloud]] modules pour vos utilisateurs dans la variable [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+
 ## Installez le [!DNL Adobe Workfront for Photoshop] plugin individuellement
 
-Vous pouvez installer le [!DNL Adobe Workfront for Photoshop] vous permettant de [!DNL Adobe Exchange].
+Vous pouvez installer le [!DNL Adobe Workfront for Photoshop] pour vous aider à [!DNL Adobe Exchange].
 
 1. Accédez au [Page d’installation d’Adobe Workfront for Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) sur Adobe Exchange.
-1. Dans la boîte de dialogue qui s’affiche, cliquez sur **Ouvrir [!DNL Adobe Creative Cloud] application de bureau**.
+1. Dans la boîte de dialogue qui apparaît, cliquez sur **Ouvrir [!DNL Adobe Creative Cloud] application de bureau**.
 1. Une fois [!DNL Adobe Photoshop] module externe manager s’ouvre, cliquez sur **[!UICONTROL Installer]**.
 1. Lisez les informations de la boîte de dialogue, puis cliquez sur **[!UICONTROL OK]**.
 
@@ -92,7 +94,7 @@ Vous pouvez installer le [!DNL Adobe Workfront for Photoshop] vous permettant de
 
 1. Pour plus d’informations sur la connexion au module externe, reportez-vous à la section suivante.
 
-## Connectez-vous à [!DNL Adobe Workfront for Photoshop]
+## Connexion à [!DNL Adobe Workfront for Photoshop]
 
 1. Dans la **[!UICONTROL Modules externes]** dans la partie supérieure de l’écran, sélectionnez **[!UICONTROL Panneau du module externe]**.
 1. Sélectionner **[!DNL Adobe Workfront for Photoshop]**.
@@ -101,10 +103,9 @@ Vous pouvez installer le [!DNL Adobe Workfront for Photoshop] vous permettant de
    >[!TIP]
    >
    >* Pour trouver votre domaine, ouvrez un navigateur et accédez à [!DNL Workfront] et copiez la première partie de l’URL :\
-      >![](assets/domain-350x50.png)
+   >![](assets/domain-350x50.png)
    >
    > * Si votre instance Workfront est intégrée à Experience Cloud, demandez à votre administrateur de vous fournir le domaine Workfront situé sous Produit > Workfront dans le Admin Console.
-
 
 1. Dans le navigateur, saisissez votre [!DNL Workfront] informations d’identification, puis cliquez sur **[!UICONTROL Connexion]**. Si votre entreprise utilise une authentification unique (SSO), vous serez dirigé vers la page de votre fournisseur d’authentification unique pour vous connecter.
 
@@ -118,7 +119,6 @@ Vous pouvez installer le [!DNL Adobe Workfront for Photoshop] vous permettant de
    >
    >* [!DNL Workfront] se connecte à [!DNL Adobe Creative Cloud] en utilisant OAuth 2.0, une norme sécurisée utilisée par la plupart des intégrations web pour l’authentification et l’autorisation des utilisateurs.
    >* Lorsque vous êtes invité à saisir la variable [domaine ou hôte] de votre [!DNL Workfront] compte, saisissez-le au format suivant : *yourCompany&#39;sDomain.my.workfront.com*. Le domaine de votre société correspond généralement au nom de votre société.
-
 
 1. Cliquez sur **[!UICONTROL Autoriser l’accès]** pour terminer la connexion.
 1. Revenir à [!UICONTROL Adobe Photoshop] pour voir votre travail.
