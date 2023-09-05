@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2105'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-   <td> <p>Calcule les estimations de recettes prévues et réelles pour une tâche. Lorsque la variable <strong>[!UICONTROL Revenue Type]</strong> est défini sur<strong>[!UICONTROL Non Facturable]</strong>, les heures planifiées et les heures réelles enregistrées ne génèrent pas d’estimation de recettes pour la tâche, et le travail sur la tâche ne contribue pas aux recettes au niveau du projet.</p> </td> 
+   <td> <p>Calcule les estimations de recettes prévues et réelles pour une tâche. Lorsque la variable <strong>[!UICONTROL Revenue Type]</strong> est défini sur <strong>[!UICONTROL Non Facturable]</strong>, les heures planifiées et les heures réelles enregistrées ne génèrent pas d’estimation de recettes pour la tâche, et le travail sur la tâche ne contribue pas aux recettes au niveau du projet.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cost Type]</td> 
@@ -118,7 +118,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Autoriser les contacts de Principal à avoir accès à la tâche]</strong>: donne au contact principal (créateur du problème) l’accès à la tâche pour examiner la tâche, rester informé de son avancement et faire des commentaires sur la section Mises à jour de la tâche.</li> 
+     <li><strong>[!UICONTROL Autoriser les contacts de Principal à avoir accès à la tâche]</strong>: donne au contact principal (créateur du problème) l’accès à la tâche pour l’examiner, rester informé de son avancement et faire des commentaires sur la section Mises à jour de la tâche.</li> 
      <li> <p><strong>[!UICONTROL Autoriser la modification de ces paramètres pendant la conversion]</strong>: permet à l’utilisateur qui convertit le problème de modifier ces options lors de la conversion d’un problème en tâche.</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL Lorsqu’une personne est affectée à une tâche]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL ... Accédez à une tâche]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
+     <li><strong>[!UICONTROL ... Accédez à une tâche]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
      <li> <p><strong>[!UICONTROL Accorder également ... l’accès au projet]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL Lorsqu’une personne est affectée à un problème]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL ... Accédez à une tâche]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
+     <li><strong>[!UICONTROL ... Accédez à une tâche]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
      <li> <p><strong>[!UICONTROL Accorder également ... l’accès au projet]</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
     </ul> </td> 
   </tr> 
