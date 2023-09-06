@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 >
 >La nouvelle expérience de commentaire n’est disponible que pour la section Mises à jour et n’est pas disponible pour les zones suivantes :
 >
-> * Page d’accueil
+> * Accueil
 > * Panneau Résumé dans les listes
 > * Panneau Résumé dans les feuilles de temps
 
@@ -218,6 +218,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
       <td> <p>Désactivez cette option pour empêcher les utilisateurs en dehors de votre entreprise d’avoir accès à cette mise à jour.</p> 
       <p><b>NOTE</b></p>
       <p>Cette option s’affiche uniquement lorsque l’utilisateur est associé à une entreprise.</p>
+      <p>Cette option n’est pas disponible dans toutes les zones à partir desquelles vous pouvez ajouter des mises à jour. Par exemple, cela n’est pas disponible dans les applications tierces à partir desquelles vous pouvez ajouter des mises à jour. </p>
       </td> 
      </tr> 
     </tbody> 
@@ -541,7 +542,7 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informati
 
   Les objets suivants ne comportent pas de mises à jour générées par le système :
 
-   * Équipe
+   * l’équipe
    * Modèle
    * Tâche de modèle
 
