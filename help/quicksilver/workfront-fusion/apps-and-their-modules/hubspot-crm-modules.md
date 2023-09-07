@@ -1,19 +1,19 @@
 ---
 title: Modules CRM HubSpot
-description: Le [!DNL Adobe Workfront Fusion] Les modules CRM HubSpot vous permettent de surveiller les événements, les enregistrements, les contacts, les engagements, les envois de fichiers et de formulaires, ou de créer, récupérer, mettre à jour et supprimer des enregistrements, des contacts, des engagements, des événements ou des fichiers dans vos [!DNL HubSpot CRM] compte .
+description: La variable [!DNL Adobe Workfront Fusion] Les modules CRM HubSpot vous permettent de surveiller les événements, les enregistrements, les contacts, les engagements, les envois de fichiers et de formulaires, ou de créer, récupérer, mettre à jour et supprimer des enregistrements, des contacts, des engagements, des événements ou des fichiers dans vos [!DNL HubSpot CRM] compte .
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
 
 # [!DNL HubSpot CRM] modules
 
-Le [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] Les modules vous permettent de surveiller les événements, les enregistrements, les contacts, les engagements, les envois de fichiers et de formulaires, ou de créer, récupérer, mettre à jour et supprimer des enregistrements, des contacts, des engagements, des événements ou des fichiers dans vos [!DNL HubSpot CRM] compte .
+La variable [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] Les modules vous permettent de surveiller les événements, les enregistrements, les contacts, les engagements, les envois de fichiers et de formulaires, ou de créer, récupérer, mettre à jour et supprimer des enregistrements, des contacts, des engagements, des événements ou des fichiers dans vos [!DNL HubSpot CRM] compte .
 
 ## Exigences d’accès
 
@@ -34,7 +34,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -42,9 +42,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -103,7 +103,7 @@ Ce module de recherche recherche des objets CRM par propriétés personnalisées
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Propriétés de sortie]</td> 
-   <td>Sélectionnez les propriétés à afficher dans la sortie du module. Les champs disponibles dépendent de l’objet sélectionné.</td> 
+   <td>Sélectionnez les propriétés à afficher dans la sortie du module. Les champs disponibles dépendent de l’objet que vous avez sélectionné.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filtrer par] </td> 
@@ -152,7 +152,7 @@ Ce module d’action crée un contact, une société ou une transaction.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>Sélectionnez le type d’enregistrement que vous souhaitez créer.</p> </td> 
+   <td> <p>Sélectionnez le type d’enregistrement à créer.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Propriétés]</td> 
@@ -474,7 +474,7 @@ Récupère une liste de contacts à l’aide de la requête de recherche.
 
 #### [!UICONTROL Répertorier les contacts]
 
-Renvoie tous les contacts créés dans le portail. La sortie est limitée à 5000 contacts. Pour répertorier les contacts précédents ou suivants, vous pouvez utiliser la variable [!UICONTROL advanced] pour décaler la liste.
+Renvoie tous les contacts qui ont été créés dans le portail. La sortie est limitée à 5000 contacts. Pour répertorier les contacts précédents ou suivants, vous pouvez utiliser la variable [!UICONTROL advanced] pour décaler la liste.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -692,7 +692,7 @@ Déplace un fichier vers un autre dossier.
    <td> <p>Pour obtenir des instructions sur la connexion à [!DNL HubSpot CRM] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL File ID] </td> 
+   <td role="rowheader">[!UICONTROL ID de fichier] </td> 
    <td>Saisissez ou mappez l’identifiant du fichier à déplacer. </td> 
   </tr> 
   <tr> 
@@ -731,6 +731,19 @@ Supprime un ticket existant par son identifiant.
 
 Permet d’effectuer un appel API personnalisé.
 
+>[!NOTE]
+>
+>Les points de terminaison suivants ont été abandonnés dans l’API HubSpot le 31 août 2023 et ne peuvent plus être utilisés dans les modules Fusion.
+>
+>* Liste des événements de contenu
+>* Liste des événements sociaux
+>* Liste des événements de tâche de calendrier
+>* Liste de tous les événements du calendrier
+>* Créer une tâche de calendrier
+>* Obtention de la tâche du calendrier par identifiant
+>* Tâche de mise à jour du calendrier
+>* Suppression d’une tâche de calendrier
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -741,7 +754,7 @@ Permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Saisissez un chemin relatif à https://api.hubapi.com/. Par exemple, /contacts/v1/lists/all/contacts/all</p> <p>Pour obtenir la liste des points de fin disponibles, reportez-vous à la section <a href="https://legacydocs.hubspot.com/docs/overview">[!DNL HubSpot] Documentation API</a>.</p> </td> 
+   <td> <p>Saisissez un chemin relatif à https://api.hubapi.com/. Par exemple, /contacts/v1/lists/all/contacts/all</p> <p>Pour obtenir la liste des points de fin disponibles, reportez-vous à la section <a href="https://legacydocs.hubspot.com/docs/overview">[!DNL HubSpot] Documentation de l’API</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Méthode [!UICONTROL]</p> </td> 
@@ -749,7 +762,7 @@ Permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p> Saisissez les en-têtes de requête souhaités. Vous n’avez pas à ajouter d’en-têtes d’autorisation ; nous l'avons déjà fait pour vous.</p> </td> 
+   <td> <p> Saisissez les en-têtes de requête de votre choix. Vous n’avez pas à ajouter d’en-têtes d’autorisation ; nous l’avons déjà fait pour vous.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -757,7 +770,7 @@ Permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard. Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard. Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -781,13 +794,13 @@ Permet d’effectuer un appel API personnalisé.
 ## Création d’une application
 
 1. Connectez-vous à [!DNL HubSpot] compte développeur.
-1. Sélectionnez la **[!UICONTROL Création d’une application]** .
+1. Sélectionnez la variable **[!UICONTROL Création d’une application]** .
 1. Saisissez le nom de l’application et [!UICONTROL Enregistrer] de la boîte de dialogue.
 1. Sélectionnez les portées dont vous aurez besoin pour votre webhook.
 
    Par exemple, ajoutez des portées de contacts pour déclencher le module lorsqu’un nouveau contact est créé ou supprimé.
 
-   Le [!UICONTROL portée des contacts] est tout ce dont vous avez besoin pour recevoir des contacts, des offres et des webhooks d’événements de société.
+   La variable [!UICONTROL portée des contacts] est tout ce dont vous avez besoin pour recevoir des contacts, des offres et des webhooks d’événements de société.
 
    >[!IMPORTANT]
    >
