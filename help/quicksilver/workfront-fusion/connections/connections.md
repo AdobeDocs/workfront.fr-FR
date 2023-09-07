@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion
 exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 8150491b094616c6715086b84842cfe61c31cc04
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ Cette section contient les articles suivants :
 * [Création de connexions dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
 * [Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [Connexion [!DNL Adobe Workfront Fusion] à n’importe quel service web](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
+* [Métadonnées de connexion dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
 * [Connexion [!DNL Adobe Workfront Fusion] vers un service Web qui utilise l’autorisation de jeton API](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
 * [Connexion [!DNL Adobe Workfront Fusion] to [!DNL Google Services] avec des mesures de sécurité mises à jour](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
 * [Connexion [!DNL Adobe Workfront Fusion] to [!DNL Google Services] utilisation d’un client OAuth personnalisé](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
