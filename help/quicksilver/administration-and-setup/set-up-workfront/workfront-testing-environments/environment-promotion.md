@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2346'
 ht-degree: 3%
 
 ---
@@ -177,7 +177,7 @@ La deuxième étape utilise la méthode `objectCollections` tableau fourni dans 
 >
 >Chaque élément du tableau contient une `objCode` qui correspond au code d’objet documenté dans l’explorateur d’API Workfront.
 >
->Chaque élément contient également un `entities` collection. Cela suppose que la variable `ID` et `name` clés d’être présentes.
+>Chaque élément contient également un `entities` collection. Cela suppose que la variable `ID` champ . Il peut également accepter une `name` pour faciliter la recherche de ce que la variable `ID` représente .
 >
 >Pour obtenir la liste des codes d’objet autorisés à être demandés dans la variable `objectCollections` , voir [Objets pris en charge pour la promotion de l’environnement](#supported-objects-for-environment-promotion) dans cet article.
 
