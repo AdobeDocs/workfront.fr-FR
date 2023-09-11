@@ -3,20 +3,20 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Présentation des types de balise
-description: La durée est le temps qui doit s’écouler après la fin d’un prédécesseur appliqué jusqu’à ce que la tâche dépendante puisse commencer (Durée positive), ou le temps pendant lequel une tâche dépendante peut commencer avant le début du prédécesseur (Durée négative).
+description: La durée correspond au temps qui doit s’écouler après la fin d’un prédécesseur appliqué jusqu’à ce que la tâche dépendante puisse commencer (Durée positive), ou au temps pendant lequel une tâche dépendante peut commencer avant le début du prédécesseur (Durée négative).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
 # Présentation des types de balise
 
-La durée est le temps qui doit s’écouler après la fin d’un prédécesseur appliqué jusqu’à ce que la tâche dépendante puisse commencer (Durée positive), ou le temps pendant lequel une tâche dépendante peut commencer avant le début du prédécesseur (Durée négative).
+La durée correspond au temps qui doit s’écouler après la fin planifiée d’un prédécesseur jusqu’à ce que la tâche dépendante puisse commencer (Durée positive), ou au temps pendant lequel une tâche dépendante peut commencer avant le début du prédécesseur (Durée négative).
 
 Les dates Prévues, Prévues et Estimées des tâches qui lui succèdent sont calculées en prenant en compte les dates de retard et de Début planifié, Projeté et Estimé de début (Achèvement) des tâches précédentes.
 
@@ -79,7 +79,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
-## Définition des types de journalisation et de balise sur les tâches
+## Définition des types de balise et de balise sur les tâches
 
 Vous pouvez indiquer des types de retard sur les tâches lorsque vous définissez leurs relations de prédécesseur.
 
@@ -92,12 +92,12 @@ Vous pouvez indiquer des types de retard sur les tâches lorsque vous définisse
 1. Cliquez sur **Prédécesseurs** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis **Prédécesseurs**.
 1. Cliquez sur **Ajouter un prédécesseur**.
 1. (Facultatif) Si vous souhaitez ajouter un prédécesseur de plusieurs projets, remplacez la variable **Projet parent** par un autre projet.
-1. Commencez à saisir le nom de la tâche précédente, puis sélectionnez-la lorsqu’elle apparaît dans la liste.
-1. Sélectionnez la **Type de dépendance**.
+1. Commencez à saisir le nom de la tâche de prédécesseur, puis sélectionnez-la lorsqu’elle apparaît dans la liste.
+1. Sélectionnez la variable **Type de dépendance**.
 
    Pour plus d’informations sur les types de dépendance de prédécesseur, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Spécifiez un **Lag** quantité à l’aide d’une valeur numérique. Vous pouvez indiquer des nombres négatifs pour indiquer un décalage négatif.
+1. Spécifiez un **Étiquette** quantité utilisant une valeur numérique. Vous pouvez indiquer des nombres négatifs pour indiquer un décalage négatif.
 1. Sélectionnez l’une des options suivantes pour identifier le type de retard que vous souhaitez indiquer pour votre prédécesseur :
 
    * **Jours**
@@ -106,35 +106,30 @@ Vous pouvez indiquer des types de retard sur les tâches lorsque vous définisse
    * **Jour de la semaine**
    * **Jour de la semaine (non nul)**
 
-      Pour plus d’informations sur ces types de balises et sur leur mode de calcul, consultez la section . [Types de balises - Aperçu](#lag-types-overview) dans cet article.
+     Pour plus d’informations sur ces types de balises et sur leur mode de calcul, consultez la section . [Types de balises - Aperçu](#lag-types-overview) dans cet article.
 
 1. Cliquer sur **Enregistrer**.
 
 ### Définition des types de balises dans une liste de tâches  {#indicate-lag-types-in-a-task-list}
 
-1. Dans la liste des tâches, sélectionnez l’option **Standard** Afficher depuis la **Affichage** menu déroulant.
+1. Dans la liste des tâches, sélectionnez l’option **Standard** Afficher à partir de **Affichage** menu déroulant.
 
 1. Cliquez dans le **Prédécesseurs** correspondant à la tâche pour laquelle vous souhaitez spécifier un prédécesseur et un montant de retard.
 1. Renseignez les champs suivants sans espaces :
 
-   * le nombre de tâches que vous souhaitez indiquer comme prédécesseur de la tâche sélectionnée.
+   * le nombre de tâches à indiquer comme prédécesseur de la tâche sélectionnée.
    * abréviation du type de dépendance à indiquer entre les tâches
 
-      Pour plus d’informations sur les abréviations des types de dépendance, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Pour plus d’informations sur les abréviations des types de dépendance, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * soit un **+** pour un décalage positif ou une **-** pour un décalage négatif
 
-   * la quantité de retard
+   * la quantité de retard ;
    * abréviation du type de balise que vous souhaitez utiliser.
 
-      Pour plus d’informations sur les abréviations des types de balises, voir la section . [Types de balises - Aperçu](#lag-types-overview) dans cet article.
-   Par exemple, pour indiquer qu’une tâche a un prédécesseur et un décalage positif de 2 jours, vous devez saisir
+     Pour plus d’informations sur les abréviations des types de balises, voir la section . [Types de balises - Aperçu](#lag-types-overview) dans cet article.
 
-   ```
-   1fs+2d
-   ```
-
-   dans la colonne Prédécesseurs .
+   Par exemple, pour indiquer qu’une tâche a un prédécesseur et un décalage positif de 2 jours, vous devez saisir  `1fs+2d` dans la colonne Prédécesseurs .
 
 1. Cliquez sur Entrée du clavier pour enregistrer les modifications apportées à votre tâche.
 
@@ -155,12 +150,12 @@ Le tableau suivant illustre les types de balises et indique comment indiquer la 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Jours (d)</p> </td> 
+   <td> <p>Jours (j ou de)</p> </td> 
    <td> <p>Le délai entre deux tâches liées par une dépendance est mesuré en jours de travail. Il s’agit du type de balise par défaut. </p> <p>Par exemple, s’il existe une dépendance de départ avec un décalage de 2 jours ouvrés et que la tâche du prédécesseur se termine le vendredi, la tâche dépendante commence le mercredi. Les jours du week-end ne comptent pas dans le décalage. </p> <p>Remarque : La limite de délai maximale pour les jours est de 366.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Jours calendaires (c)</p> </td> 
-   <td> <p>Le délai entre deux tâches est mesuré en jours calendaires, notamment les jours fériés et les week-ends. </p> <p>Remarque : Bien que ce type de décalage comptabilise les jours non ouvrés dans le décalage, une tâche dépendante ne peut jamais commencer par un jour non ouvré. Si ce type de décalage permet au début de la tâche dépendante d'un jour non ouvré, la Date de début planifiée de la tâche dépendante est planifiée le jour ouvré suivant. </p> <p>Par exemple, s’il existe une dépendance de début de fin avec un décalage de 2 jours calendaires et que la tâche précédente se termine le jeudi, la tâche dépendante commence le lundi au lieu d’un dimanche. </p> </td> 
+   <td> <p>Jours calendaires (c ou ce)</p> </td> 
+   <td> <p>Le délai entre deux tâches est mesuré en jours calendaires, notamment les jours fériés et les week-ends. </p> <p>Remarque : bien que ce type de délai comptabilise les jours non ouvrés dans le délai, une tâche dépendante ne peut jamais commencer un jour non ouvré. Si ce type de décalage permet au début de la tâche dépendante d'un jour non ouvré, la Date de début planifiée de la tâche dépendante est planifiée le jour ouvré suivant. </p> <p>Par exemple, s’il existe une dépendance de début de fin avec un décalage de 2 jours calendaires et que la tâche précédente se termine le jeudi, la tâche dépendante commence le lundi au lieu d’un dimanche. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Pourcentage (p ou pe)</p> </td> 
@@ -183,7 +178,7 @@ Le tableau suivant illustre les types de balises et indique comment indiquer la 
 
 <p><b>NOTE</b></p>
 
-Si le mardi est passé pour la semaine de la date d’achèvement planifiée du prédécesseur, la date de début planifiée de la tâche qui lui succède est le premier jour de travail disponible de cette semaine. </p> <p>Si vous souhaitez indiquer que le retard doit tomber un samedi de la semaine en cours et que le samedi se situe après la date d’achèvement prévue du prédécesseur, vous devez coder votre successeur avec la formule suivante :</p> <p>4fs+7w</code> </p> <p>Si le samedi est un jour sans travail, le lendemain disponible après le samedi (pour indiquer un décalage positif) est sélectionné comme Date de début planifiée du successeur. </p>
+Si la Date de début du successeur est calculée pour correspondre à un certain mardi et ce jour passé pour la semaine en cours, la Date de début planifiée de la tâche successeur est le même jour (mardi) de la semaine suivante, si disponible. </p> <p>Si vous souhaitez indiquer que le retard doit tomber un samedi de la semaine en cours et que le samedi se situe après la date d’achèvement prévue du prédécesseur, vous devez coder votre successeur avec la formule suivante :</p> <p><code>4fs+7w</code> </p> <p>Si le samedi est un jour sans travail, le lendemain disponible après le samedi (pour indiquer un décalage positif) est sélectionné comme Date de début planifiée du successeur. </p>
 
 <p>Cela ne s’applique pas aux exceptions de planification. Si une date est également une exception de planning et que la Date de début du successeur est calculée pour correspondre à ce jour, le système tente alors de trouver la date disponible la plus proche, qui est le jour de la semaine spécifié dans l'expression du prédécesseur.</p>
 
@@ -206,14 +201,14 @@ Tenez compte des règles suivantes lorsque vous utilisez des indicateurs négati
 
 * La latence négative ne peut pas forcer les dates de début/fin d’une tâche à être avant ou après les dates de début/fin planifiées du projet. Ces dates sont spécifiées dans le champ Planifier à partir du du projet.
 
-   Dans ce cas, tenez compte des points suivants :
+  Dans ce cas, tenez compte des points suivants :
 
    * Planifiez le projet à partir de la date d’achèvement.
    * La dernière tâche du projet doit utiliser la contrainte Doit se terminer sur la tâche . Il est recommandé de donner à la tâche une durée suffisante pour tenir compte de toutes les tâches du projet. Les autres tâches fonctionnent bien avec la contrainte Dès que possible .
 
 * L’utilisation d’une relation de prédécesseur Finish-Start avec des tâches peut générer un message d’erreur.
 
-   Dans ce cas, tenez compte des points suivants :
+  Dans ce cas, tenez compte des points suivants :
 
    * Définissez une relation de prédécesseur Finish-Finish entre les tâches.
    * La Durée de la tâche qui lui succède doit être égale ou supérieure au nombre prévu de jours de retard entre les tâches.

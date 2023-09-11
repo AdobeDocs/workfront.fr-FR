@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3470'
 ht-degree: 0%
 
 ---
@@ -99,13 +99,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Les feuilles de calcul comprennent la durée totale pour toutes les dates enregistrées. Les week-ends sont toujours inclus, même si des calculs de chronologie ont été configurés pour les exclure (comme décrit dans la section [Configuration des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * Le nombre maximal d’éléments affichés dans une feuille de temps est de 45. S’il existe plus de 45 éléments dont les dates correspondent à la période de la feuille de temps, seuls les éléments mis à jour le plus récemment s’affichent.
 * Les entrées de l’heure incluses dans les enregistrements de facturation sont grisées et ne peuvent pas être modifiées dans la feuille de temps. Pour plus d’informations, voir [Créer des enregistrements de facturation](../../manage-work/projects/project-finances/create-billing-records.md).
+* Par défaut, les tâches personnelles ne s’affichent pas dans la feuille de temps. Les tâches personnelles ne s’affichent dans la feuille de temps que lorsqu’elles ont été enregistrées. Après avoir consigné le temps sur une tâche personnelle, vous pouvez épingler la tâche dans la feuille de temps et elle restera sur la feuille de temps si elle reste épinglée. Pour plus d’informations, voir [Création d’éléments de travail à partir de la zone Accueil](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Enregistrer des heures
 
 Dans Workfront, vous pouvez consigner l’heure de connexion dans les zones suivantes :
 
 * [Feuille de temps](#timesheet)
-* [Page d’accueil](#home)
+* [Accueil](#home)
 * [Projet, tâche ou problème](#project-task-or-issue)
 * [Panneau Résumé](#summary-panel)
 * [Panoramas](#boards)
@@ -338,7 +339,7 @@ Pour supprimer un élément de la feuille de temps qui a été ajouté manuellem
 
    L’élément est supprimé de la feuille de temps après avoir actualisé la page.
 
-### Page d’accueil {#home}
+### Accueil {#home}
 
 Vous pouvez consigner l’heure spécifique au projet dans la page d’accueil.
 
