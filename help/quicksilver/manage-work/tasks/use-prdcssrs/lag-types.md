@@ -7,9 +7,9 @@ description: La durée correspond au temps qui doit s’écouler après la fin d
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ Le tableau suivant illustre les types de balises et indique comment indiquer la 
 <p><b>NOTE</b></p> La limite de retard maximale pour le pourcentage est de 2 000 %.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Jour de la semaine (w) </p> </td> 
+   <td> <p>Jour de la semaine (w ou we) </p> </td> 
    <td> <p>Le délai entre deux tâches est mesuré en indiquant les jours de la semaine pour lesquels la date de fin planifiée du prédécesseur contient la date de fin planifiée.</p> <p>Pour ce type de balise, chaque jour de la semaine est associé à un nombre :</p> 
     <ul> 
      <li>Dimanche=1</li> 
@@ -187,7 +187,7 @@ Si la Date de début du successeur est calculée pour correspondre à un certain
 <p>Pour indiquer les semaines passées ou futures, vous pouvez ajouter un nombre devant le numéro du jour pour le type de décalage. </p> <p>Par exemple, pour indiquer le lundi de 10 semaines auparavant, vous pouvez utiliser ce code pour indiquer le prédécesseur de votre successeur :</p> <p><code>4fs-102w</code> </p> <p>10 indique il y a 10 semaines et 2 est le numéro attribué à lundi. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Jour de la semaine non nul (k)</p> </td> 
+   <td> <p>Jour de la semaine non nul (k ou ke)</p> </td> 
    <td> <p>Le délai entre deux tâches est mesuré de la même manière que le type de décalage Jour de la semaine , sauf si l’heure du prédécesseur se termine le même jour de la semaine spécifié. Le délai est ensuite calculé sur la semaine adjacente (+/-). </p> <p>Dans ce cas, le délai ne peut jamais être de 0.</p> </td> 
   </tr> 
  </tbody> 
