@@ -6,7 +6,7 @@ description: Adobe Workfront a publié l’API version 16 le 6 avril 2022. L’A
 author: Becky
 feature: Workfront API
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 7abb4f2ec2d42b0f8b12504646ade720e53f567b
+source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Nouveautés de l’API version 16
 
-Adobe Workfront a publié l’API version 16 le 6 avril 2022. L’API version 16 comprend les modifications suivantes à partir de la version 15.
+Adobe Workfront a publié l’API version 16 le 6 avril 2023. L’API version 16 comprend les modifications suivantes à partir de la version 15.
 
 ## Ressources ajoutées
 
@@ -505,7 +505,7 @@ Un objet de feuille de temps représente une feuille de temps virtuelle qui perm
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>Cette action a été ajoutée. Elle utilise une carte de requête de filtre et ajoute la variable <code>allowingnull</code> join pour les champs nullable.</p>
+            <p>Cette action a été ajoutée. Elle utilise une carte de requête de filtre et ajoute la variable <code>allowingnull</code> jointure pour les champs nullable.</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
