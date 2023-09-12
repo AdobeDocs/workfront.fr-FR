@@ -9,14 +9,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
+source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Présentation des plans directeurs
+
+Les plans directeurs sont des ensembles d’objets Workfront qui répondent aux cas d’utilisation courants dans Workfront. Vous pouvez télécharger et installer un plan directeur, puis configurer les objets pour votre cas d’utilisation spécifique.
+
+>[!INFO]
+>
+>Exemples:
+>
+>* **Configuration de l’organisation des ressources humaines**
+>
+>   Ce plan directeur contient la configuration des structures organisationnelles à étendre à un service des ressources humaines.
+>
+>* **Ajouter une nouvelle liste de contrôle IT des employés**
+>
+>   Ce plan directeur contient un modèle pour organiser les nouvelles activités d’intégration des employés. L’utilisation de ce modèle permet aux équipes informatiques de fonctionner efficacement, ce qui entraîne une nouvelle expérience positive des employés et un suivi plus rapide de la productivité.
+>
+>* **Liste de contrôle des bases des instances héritées**
+>
+>    Ce plan directeur contient un modèle de projet (ou liste de contrôle) que vous pouvez examiner avec une liste courte de questions, de ressources et de liens pour une compréhension claire de la configuration de votre instance Workfront. Utilisez-le lorsque vous avez récemment hérité d’une instance Workfront et que vous avez besoin de conseils pour commencer.
+>
+>Pour consulter les plans directeurs actuels, voir [Liste des plans directeurs disponibles](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
 
 Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui se développe avec vous. Les administrateurs système peuvent parcourir le catalogue de plans directeurs et installer des modèles de projet, des tableaux de bord et des structures organisationnelles prêts à l’emploi. D’autres utilisateurs peuvent parcourir le catalogue et demander l’installation d’un plan directeur. Pour plus d’informations, voir [Parcourir le catalogue des plans directeurs et demander l’installation des plans directeurs](../../administration-and-setup/blueprints/browse-catalog.md).
 
