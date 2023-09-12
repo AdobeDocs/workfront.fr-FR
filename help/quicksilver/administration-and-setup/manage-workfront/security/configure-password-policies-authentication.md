@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 1%
 
 ---
 
@@ -43,14 +43,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configurer l’authentification (disponible pour tous les clients) {#configure-authentication-available-for-all-customers}
 
-Les options d’authentification s’affichent pour tous les clients. Amélioration des fonctionnalités de gestion des mots de passe bientôt ou déjà disponibles pour votre entreprise, comme décrit dans la section . [Configuration de l’authentification améliorée (bientôt disponible)](#configure-enhanced-authentication-coming-soon) dans cet article.
+Les options d’authentification s’affichent pour tous les clients. Amélioration des fonctionnalités de gestion des mots de passe bientôt ou déjà disponibles pour votre entreprise, comme décrit dans la section . [Configuration de l’authentification améliorée)](#configure-enhanced-authentication-coming-soon) dans cet article.
 
 Pour configurer les préférences d’authentification :
 
@@ -70,7 +70,7 @@ Pour configurer les préférences d’authentification :
      </tr> 
      <tr> 
       <td role="rowheader">Ne pas autoriser les utilisateurs à définir le même mot de passe que l’un de leurs précédents <em>&lt;value&gt;</em> mots de passe</td> 
-      <td> <p>Ce champ interdit aux utilisateurs de réutiliser des mots de passe pour un nombre défini de réinitialisations. Par défaut, ce champ est désactivé. Lorsque vous l’activez, vous pouvez définir cette valeur sur 5, 10 ou 15 réinitialisations avant de pouvoir réutiliser un mot de passe.</p> <p>Lorsque cette option est sélectionnée, les utilisateurs ne peuvent pas réinitialiser leurs mots de passe plusieurs fois au cours d’une même journée.</p> </td> 
+      <td> <p>Ce champ interdit aux utilisateurs de réutiliser des mots de passe pour un nombre défini de réinitialisations. Par défaut, ce champ est désactivé. Lorsque vous l’activez, vous pouvez définir cette valeur sur 5, 10 ou 15 réinitialisations avant de pouvoir réutiliser un mot de passe.</p> <p>Lorsque cette option est sélectionnée, les utilisateurs ne peuvent pas réinitialiser leurs mots de passe plus d’une fois par jour.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Si un mot de passe incorrect est saisi cinq fois de suite, verrouillez le compte pour <em>&lt;value&gt;</em> minutes : </td> 
@@ -91,7 +91,7 @@ Pour configurer les préférences d’authentification :
 
 1. Cliquer sur **Enregistrer**.
 
-## Configuration de l’authentification améliorée (bientôt disponible) {#configure-enhanced-authentication-coming-soon}
+## Configuration de l’authentification améliorée{#configure-enhanced-authentication-coming-soon}
 
 Cette section décrit l’expérience d’authentification améliorée, qui n’est peut-être pas encore disponible pour votre entreprise. Si votre entreprise n’a pas été migrée vers la nouvelle expérience d’authentification, vous devez configurer les paramètres d’authentification, comme décrit dans la section [Configurer l’authentification (disponible pour tous les clients)](#configure-authentication-available-for-all-customers).
 
@@ -104,16 +104,16 @@ Pour configurer les préférences d’authentification améliorées :
 
    Workfront requiert au moins 6 caractères.
 
-1. (Facultatif) Dans le **Exigences en matière de mot de passe** , sélectionnez les types de caractères requis dans les mots de passe utilisateur.
+1. (Facultatif) Dans la variable **Exigences en matière de mot de passe** , sélectionnez les types de caractères requis dans les mots de passe utilisateur.
 
    Vous pouvez augmenter la force des mots de passe utilisateur en exigeant n’importe quel type de caractères ou tous les types de caractères dans la section Exigence de mot de passe . Les options disponibles sont les suivantes :
 
    | Lettres minuscules | Requiert au moins une lettre minuscule |
    |---|---|
-   | Lettres majuscules | Nécessite au moins une lettre majuscule |
+   | Lettres majuscules | Requiert au moins une lettre majuscule |
    | Nombres | Nécessiter au moins un nombre |
-   | Caractères spéciaux | Nécessiter au moins un caractère spécial |
+   | Caractères spéciaux | Requiert au moins un caractère spécial |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Cliquer sur **Enregistrer**.
