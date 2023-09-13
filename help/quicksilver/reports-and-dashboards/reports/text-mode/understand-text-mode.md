@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Présentation du mode texte
-description: Présentation du mode texte
+description: Vous pouvez créer un rapport ou une liste dans Adobe Workfront à l'aide de l'interface standard ou du mode texte lors de la création des éléments qui composent le rapport ou la liste.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 
 Vous pouvez créer un rapport ou une liste dans Adobe Workfront à l&#39;aide de l&#39;interface standard ou du mode texte lors de la création des éléments qui composent le rapport ou la liste. L’interface standard vous permet de référencer des champs et leurs attributs qui sont facilement disponibles dans l’interface de Workfront. En mode texte, vous pouvez référencer des champs et des attributs qui peuvent ne pas être disponibles en mode standard, mais qui sont disponibles dans la base de données Workfront.
 
+Pour plus d’informations sur la création de rapports en mode texte, y compris des classes, des vidéos et des tutoriels, consultez la section En savoir plus sur le site Adobe Experience League.
+
 ## Remarques avant d’utiliser le mode texte
 
 >[!TIP]
@@ -39,13 +41,13 @@ Vous pouvez créer un rapport ou une liste dans Adobe Workfront à l&#39;aide de
 * Nous vous recommandons d’utiliser le mode standard pour vous assurer que les rapports que vous créez restent intacts lorsque le logiciel Workfront est mis à jour. Bien que le mode texte vous permette de créer des vues, des filtres et des regroupements plus complexes, il est également plus complexe à gérer et n’est pas garanti lorsque le logiciel Workfront est mis à jour.
 * Nous vous recommandons de toujours essayer de créer tous les éléments de création de rapports dans l’interface standard et de passer au créateur de mode texte uniquement pour quelques ajustements.
 
-   >[!TIP]
-   >
-   >L’utilisation du créateur standard vous donne accès à des blocs de création et à des modèles de code importants que vous pouvez ensuite utiliser lors de la modification du code en mode texte.
+  >[!TIP]
+  >
+  >L’utilisation du créateur standard vous donne accès à des blocs de création et à des modèles de code importants que vous pouvez ensuite utiliser lors de la modification du code en mode texte.
 
 * Pour créer des rapports et des listes en mode texte, vous devez utiliser un ensemble de règles et une syntaxe unique. Assurez-vous de connaître la syntaxe Workfront pour le mode texte avant de commencer.
 
-   Pour plus d’informations sur la syntaxe et les règles d’utilisation du mode texte, voir [Présentation de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Pour plus d’informations sur la syntaxe et les règles d’utilisation du mode texte, voir [Présentation de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Une fois que vous avez personnalisé un élément de rapport en mode texte, il se peut que vous ne puissiez pas revenir en mode standard (dans une vue) ou que le code de l’élément que vous avez créé soit supprimé (dans les filtres et les regroupements). En effet, tous les champs pris en charge en mode texte ne sont pas pris en charge en mode standard.
 
@@ -66,7 +68,7 @@ Pour plus d’informations sur l’interface du mode standard et pour savoir com
 
 Le mode Texte permet de créer des vues, filtres, regroupements et invites plus complexes en vous permettant d’utiliser des champs qui ne sont pas disponibles dans l’interface de mode standard. En mode texte Workfront, il existe un ensemble d’instructions codées qui indiquent les objets que vous souhaitez afficher dans un rapport ou une liste.
 
-Pour obtenir la liste complète de tous nos champs à déclarer, reportez-vous à la section [Explorateur d’API](../../../wf-api/general/api-explorer.md).
+Pour obtenir la liste complète de tous nos champs à déclarer, voir la section [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -91,7 +93,7 @@ Pour plus d’informations sur l’utilisation du mode texte dans les vues, les 
 
 Les invites personnalisées ne peuvent être modifiées qu&#39;en mode texte. Vous ne pouvez accéder aux invites qu’à partir d’un rapport.
 
-Pour plus d’informations sur l’accès à l’interface du mode texte pour les invites personnalisées, voir [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Pour plus d’informations sur l’accès à l’interface du mode texte pour les invites personnalisées, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
@@ -550,7 +552,7 @@ We recommend that you build as much of the grouping as possible in standard mode
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>En mode texte uniquement, vous pouvez ajouter un groupe de 3, pour un quatrième groupe. Toutes les lignes faisant référence au quatrième groupement commencent par &lt;code>group.3&lt;/code>.&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>En mode texte uniquement, vous pouvez ajouter un nombre de groupe de 3, pour un quatrième regroupement. Toutes les lignes faisant référence au quatrième groupement commencent par &lt;code>group.3&lt;/code>.&lt;/em>&lt;/li>
     —>
 
 <!--

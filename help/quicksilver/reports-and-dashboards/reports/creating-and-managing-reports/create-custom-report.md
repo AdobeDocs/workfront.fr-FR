@@ -6,9 +6,9 @@ description: Comprendre comment créer des rapports vous permet d’accéder aux
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 Comprendre comment créer des rapports vous permet d’accéder aux informations dont votre organisation a besoin dans Adobe Workfront. Vous pouvez utiliser n’importe quel rapport intégré disponible dans Workfront ou créer vos propres rapports à partir de zéro.
 
-Pour plus d’informations sur les rapports natifs, voir [Utilisation des rapports intégrés d’Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). Pour plus d’informations sur la création d’un rapport en le copiant, voir [Créer une copie d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Pour plus d’informations sur les rapports natifs, voir [Utilisation des rapports intégrés d’Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+
+Pour plus d’informations sur la création d’un rapport en le copiant, voir [Créer une copie d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+Pour plus d’informations sur la création et la gestion des rapports, y compris les classes, les vidéos et les tutoriels, consultez la section En savoir plus sur le site Adobe Experience League.
 
 ## Exigences d’accès
 
@@ -51,14 +55,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Créer un rapport {#create-a-report}
 
-Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette section [Création d’un rapport personnalisé](#Walk-thr) ci-dessous.
+Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette section [Création d’un rapport personnalisé](#Walk-thr) ci-dessous
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez le type d’objet que vous souhaitez pour le rapport.
 
    Le créateur de rapports se charge.
 
-   Pour plus d’informations sur les rapports d’objets disponibles, reportez-vous à la section [Rapport sur les objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) dans l’article [Présentation des objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Pour plus d’informations sur les rapports d’objets disponibles, voir la section [Rapport sur les objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) dans l’article [Présentation des objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
    ![](assets/nwe-select-new-report-350x666.png)
 
@@ -80,11 +84,11 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
     <tbody> 
      <tr> 
       <td>Colonnes (Affichage)</td> 
-      <td> <p>L’ajout de colonnes à votre rapport détermine les informations que contient votre rapport.</p> <p>Pour savoir comment ajouter une colonne, reportez-vous à la section <a href="#add-columns-view-to-a-report" class="MCXref xref">Ajout de colonnes (vue) à un rapport</a>.<br></p> </td> 
+      <td> <p>L’ajout de colonnes à votre rapport détermine les informations que contient votre rapport.</p> <p>Pour savoir comment ajouter une colonne, voir <a href="#add-columns-view-to-a-report" class="MCXref xref">Ajout de colonnes (vue) à un rapport</a>.<br></p> </td> 
      </tr> 
      <tr> 
       <td>Regroupements</td> 
-      <td> <p>L’ajout de regroupements à votre rapport détermine l’organisation de votre rapport.</p> <p>Pour savoir comment ajouter un groupement, reportez-vous à la section <a href="#add-groupings-to-a-report" class="MCXref xref">Ajouter des groupements à un rapport</a>.</p> </td> 
+      <td> <p>L’ajout de regroupements à votre rapport détermine l’organisation de votre rapport.</p> <p>Pour savoir comment ajouter un groupement, voir <a href="#add-groupings-to-a-report" class="MCXref xref">Ajouter des groupements à un rapport</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Filtres</td> 
@@ -92,13 +96,13 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
      </tr> 
      <tr> 
       <td>Graphique</td> 
-      <td> <p>L’ajout d’un graphique à votre rapport détermine la manière dont les informations de votre rapport sont présentées visuellement.</p> <p>Pour savoir comment ajouter un graphique, reportez-vous à la section <a href="#add-a-chart-to-a-report" class="MCXref xref">Ajout d’un graphique à un rapport</a>.</p> </td> 
+      <td> <p>L’ajout d’un graphique à votre rapport détermine la manière dont les informations de votre rapport sont présentées visuellement.</p> <p>Pour savoir comment ajouter un graphique, voir <a href="#add-a-chart-to-a-report" class="MCXref xref">Ajouter un graphique à un rapport</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. À tout moment pendant le processus de création du rapport, cliquez sur **Appliquer** pour enregistrer vos modifications.
-1. Une fois que vous avez terminé, cliquez sur **Enregistrer + Fermer**.
+1. Lorsque vous avez terminé, cliquez sur **Enregistrer + Fermer**.
 
 ### Ajout de colonnes (vue) à un rapport {#add-columns-view-to-a-report}
 
@@ -116,11 +120,11 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
 
 1. Commencez à saisir le champ à ajouter. Si le champ est disponible, il est renseigné pour chaque objet auquel il peut être associé. Cliquez sur le nom du champ à ajouter à la colonne.
 
-   Pour plus d’informations sur les champs affichés dans les colonnes, voir [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Pour plus d’informations sur les champs que vous voyez dans les colonnes, voir [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
    ![](assets/nwe-add-column-typeahead-350x459.png)
 
-1. (Facultatif) Dans le **Paramètres des colonnes** zone, sélectionnez **Trier par colonne** pour trier les valeurs de la colonne, soit par ordre alphabétique croissant, soit par ordre alphabétique décroissant, indiquez si la liste doit utiliser cette colonne comme premier tri.
+1. (Facultatif) Dans la variable **Paramètres des colonnes** zone, sélectionnez **Trier par colonne** pour trier les valeurs de la colonne, soit par ordre alphabétique croissant, soit par ordre alphabétique décroissant, indiquez si la liste doit utiliser cette colonne comme premier tri.
 
    Vous pouvez avoir plusieurs niveaux de tri dans une vue de rapport si vous souhaitez trier par valeur dans une colonne en premier, par valeur dans une seconde colonne, par seconde, etc.
 
@@ -129,7 +133,7 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
    >[!NOTE]
    >
    >Si vous ajoutez un champ qui référence un objet trop éloigné de l’objet sur lequel vous créez un rapport, il se peut que vous ne puissiez pas le trier selon ce champ.\
-   >Par exemple, un rapport de problème ne peut pas être trié par champ Propriétaire du projet, car il fait référence à 3 objets supplémentaires : Projet, propriétaire et nom. Cependant, vous pouvez toujours ajouter ce champ à un rapport de problème et afficher les informations le concernant.
+   >Par exemple, un rapport de problème ne peut pas être trié par champ Propriétaire du projet, car il fait référence à 3 objets supplémentaires : Projet, Propriétaire et Nom. Cependant, vous pouvez toujours ajouter ce champ à un rapport de problème et afficher les informations le concernant.
 
    <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
@@ -146,9 +150,8 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
    >Les exceptions suivantes s’appliquent aux objets parents (par exemple, les tâches parents) lorsque vous agrègez des valeurs pour les champs suivants en regroupements :
    >
    >* Tous les champs de nombre et de devise, à l’exception des heures réelles (par exemple, le coût du travail planifié/réel, le coût des dépenses planifiées/réelles, le coût planifié/réel, les heures planifiées), ne regroupent que les valeurs des tâches enfants et des tâches autonomes. Ils n’agrégent pas les valeurs des tâches parents ou des parents des parents.
-   >* Les heures réelles combinent les valeurs du parent principal et des tâches autonomes ; ils n’agrégent pas les chiffres des parents des tâches parents ou des tâches enfants.
-   >* Les champs de données personnalisés pour les valeurs numériques et monétaires regroupent toutes les tâches : parents, enfants, parents et tâches autonomes.
-
+   >* Les heures réelles combinent les valeurs des tâches principales du parent et des tâches autonomes ; elles n’agrégent pas les nombres des parents des tâches parents ou des tâches enfants.
+   >* Les champs de données personnalisés pour les valeurs numériques et monétaires regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes.
 
    Pour plus d’informations sur l’utilisation de regroupements dans un rapport, voir [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -193,7 +196,7 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Commencez à saisir le champ à ajouter en tant que groupe. Si le champ est disponible, il est renseigné pour chaque objet auquel il peut être associé. Cliquez sur le nom du champ à ajouter à ce groupement.
-1. (Facultatif) Pour créer un groupement en mode texte, cliquez sur **Passer en mode Texte**. Pour plus d’informations sur l’utilisation du mode texte, voir [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+1. (Facultatif) Pour créer un groupement, cliquez sur **Passer en mode Texte**. Pour plus d’informations sur l’utilisation du mode texte, voir [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
    Pour plus d’informations sur la création de nouveaux regroupements, voir [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -205,7 +208,6 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
    >
    >* Lorsque vous ajustez manuellement les groupements lors de l&#39;affichage d&#39;une liste, Workfront mémorise vos préférences manuelles jusqu&#39;à ce que vous vous déconnectiez. Lorsque vous vous reconnectez, la liste s’affiche en fonction de ce paramètre.
    >* Les résultats d’un groupement s’affichent toujours agrandi après leur accès à partir d’un élément de graphique.
-
 
 1. (Facultatif) Vous pouvez créer un groupement de matrice afin d&#39;afficher vos résultats sous forme de grille.
 
@@ -238,14 +240,14 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
 
    Cliquez sur **Enregistrer + Fermer** si le rapport et vous souhaitez l’enregistrer.
 
-### Ajout d’un graphique à un rapport {#add-a-chart-to-a-report}
+### Ajouter un graphique à un rapport {#add-a-chart-to-a-report}
 
 1. Commencez à créer un rapport comme décrit dans la section [Créer un rapport](#create-a-report) dans cet article.
 1. Dans le créateur de rapports, sélectionnez la variable **Graphique** puis sélectionnez le type de graphique à ajouter.
 
    ![](assets/nwe-add-a-chart-350x247.png)
 
-   Pour plus d’informations sur la création d’un graphique dans un rapport, voir [Ajout d’un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+   Pour plus d’informations sur la création d’un graphique dans un rapport, voir [Ajouter un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. Cliquez sur **Appliquer** pour appliquer vos modifications jusqu’à présent et poursuivre la modification du rapport avec les options suivantes.
 

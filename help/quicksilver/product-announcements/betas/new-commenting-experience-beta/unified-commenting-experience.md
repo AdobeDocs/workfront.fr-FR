@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 2%
+source-wordcount: '1020'
+ht-degree: 3%
 
 ---
 
@@ -54,9 +54,9 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 
 >[!NOTE]
 >
->Seuls les commentaires et les mises à jour système de l’année passée (à partir de juin 2022) sont disponibles pour les objets répertoriés ci-dessous lors de l’activation de la version bêta.
+>Seuls les commentaires et les mises à jour système disponibles à partir du 1er janvier 2019 pour les objets répertoriés ci-dessous sont disponibles dans la nouvelle expérience de commentaires.
 >
->Vous pouvez afficher les commentaires et les mises à jour système sur ces objets avant juin 2022 lors de l’affichage de la section Mises à jour de l’expérience actuelle :
+>Vous pouvez afficher les commentaires et les mises à jour système sur ces objets avant le 1er janvier 2019 lors de l’affichage de la section Mises à jour de l’expérience actuelle :
 >
 >* Problèmes
 >* Projets
@@ -519,13 +519,13 @@ Les nouveaux environnements de commentaires sont actuellement disponibles pour l
         >
         >Pour pouvoir accéder à cette zone de Workfront, vous devez disposer d’une licence supplémentaire pour les objectifs Adobe Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
       * Carte sur un panorama
-      * Équipe
+      * l’équipe
       * Modèle
       * Tâche de modèle
       * Feuille de temps
       * Programme
       * Portfolio
-      * Utilisateur
+      * l’utilisateur ou de l’utilisatrice
 
      >[!TIP]
      >

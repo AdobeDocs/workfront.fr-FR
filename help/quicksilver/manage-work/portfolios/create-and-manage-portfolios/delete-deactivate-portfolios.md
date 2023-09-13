@@ -6,9 +6,9 @@ description: Les Portfolios sont des collections de projets ou de programmes dan
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,9 @@ Tenez compte des points suivants lorsque vous décidez de supprimer ou de désac
 
 * La suppression d&#39;un portfolio supprime les programmes qui lui sont associés.
 
-   >[!IMPORTANT]
-   >
-   >Vous n’avez pas besoin d’autorisations sur les programmes pour pouvoir supprimer le portfolio.
+  >[!IMPORTANT]
+  >
+  >Vous n’avez pas besoin d’autorisations sur les programmes pour pouvoir supprimer le portfolio.
 
 * La suppression d’un portfolio ne supprime pas les projets qui y sont associés.
 * Vous ne pouvez pas récupérer les portefeuilles supprimés.
@@ -65,6 +65,10 @@ Tenez compte des points suivants lorsque vous décidez de supprimer ou de désac
 ## Désactivation d’un portfolio
 
 Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir de l’ [!UICONTROL Portfolios] , mais elle ne s’affiche plus dans la liste des portefeuilles lorsque les utilisateurs tentent de l’ajouter à un projet.
+
+>[!NOTE]
+>
+>Selon la manière dont votre [!DNL Workfront] l’administrateur de groupe configure votre modèle de mise en page, le [!UICONTROL Portfolios] ne s’affiche peut-être pas dans la zone [!UICONTROL Menu Principal]. Pour plus d’informations, voir [Personnalisation du menu principal à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
 
@@ -77,5 +81,5 @@ Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **[!UICONTROL Portfolios]** .
-1. Sélectionnez le portfolio, puis cliquez sur **[!UICONTROL Supprimer]**&#x200B; la variable [!UICONTROL Supprimer] icon ![](assets/delete.png).
+1. Sélectionnez le portfolio, puis cliquez sur **[!UICONTROL Supprimer]**&#x200B; [!UICONTROL Supprimer] icon ![](assets/delete.png).
 1. Dans la zone qui s’affiche, cliquez sur **[!UICONTROL Oui, la supprimer]** pour confirmer.

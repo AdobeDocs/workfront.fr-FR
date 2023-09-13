@@ -3,9 +3,9 @@ title: Activité de mise à jour Adobe Maestro
 description: Utilisez Maestro pour créer des objets, champs et espaces de travail personnalisés.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Vous pouvez désormais sélectionner une icône personnalisée pour un type d’
 
 Aperçu et production : 13 juillet 2023
 
-Vous pouvez désormais ajouter un type de champ Case à cocher aux types d’enregistrement Maestro. Vous pouvez utiliser le type de champ Case à cocher pour ajouter une seule option de case à cocher à un enregistrement. Vous pouvez utiliser ce champ pour indiquer un attribut ou un état spécifique pour cet enregistrement. Par exemple, vous pouvez l’utiliser comme indicateur pour le suivi de la fin, de l’approbation ou de tout autre attribut binaire pour chaque enregistrement.
+Vous pouvez désormais ajouter un type de champ Case à cocher aux types d’enregistrement Maestro. Vous pouvez utiliser un champ de type Case à cocher pour ajouter une seule option de case à cocher à un enregistrement. Vous pouvez utiliser ce champ pour indiquer un attribut ou un état spécifique pour cet enregistrement. Par exemple, vous pouvez l’utiliser comme indicateur pour le suivi de la fin, de l’approbation ou de tout autre attribut binaire pour chaque enregistrement.
 
 ## Semaine du 26 juin 2023
 

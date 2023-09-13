@@ -7,10 +7,10 @@ description: La date de remise est la date à laquelle une tâche est disponible
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
@@ -52,8 +52,8 @@ Workfront applique les règles suivantes pour calculer la date de remise d’une
 
 * **Lorsque la tâche n’a pas de prédécesseur et**:
 
-   * **La date de début planifiée se situe dans le passé.**: la date de remise est identique à la date de début planifiée du projet.
-   * **La Date de début planifiée se situe dans le futur (toute date postérieure à la date actuelle)**: la date de remise est identique à la date de début planifiée de la tâche.
+   * **La date de début planifiée se situe dans le passé.**: la date de remise est identique à la date de début planifiée du projet si aucune contrainte n’est définie pour la tâche. Pour les cas où les tâches ont des contraintes forcées, voir la section &quot;Lorsque la tâche a une contrainte forcée pour les dates prévues&quot; ci-dessous.
+   * **La Date de début planifiée se situe dans le futur (toute date postérieure à la date actuelle)**: la date de remise est identique à la date de début planifiée de la tâche si aucune contrainte n’est définie pour celle-ci. Pour les cas où les tâches ont des contraintes forcées, voir la section &quot;Lorsque la tâche a une contrainte forcée pour les dates prévues&quot; ci-dessous.
 
 >[!NOTE]
 >
@@ -75,9 +75,16 @@ Workfront applique les règles suivantes pour calculer la date de remise d’une
 
   Les scénarios suivants existent :
 
-   * Lorsque la tâche présente une contrainte Doit démarrer le ou Ne pas démarrer plus tôt que, la date de remise est la date de contrainte, sauf si la tâche contient une date de début réelle. S’il existe une date de début réelle sur la tâche, la date de remise correspond à la date de fin réelle du prédécesseur.
-   * Lorsque la tâche présente une contrainte Doit se terminer le ou Ne pas démarrer plus tard que, la date de remise est toujours la date de fin réelle du prédécesseur, qu’il y ait ou non une date de début réelle sur la tâche.
-   * Lorsque la tâche présente une contrainte de dates fixes, la Date de remise est la Date de début planifiée de la tâche, qu’elle ait ou non un prédécesseur et que le prédécesseur soit terminé ou non.
+   * **Lorsque la tâche présente une contrainte Doit démarrer le ou Ne pas démarrer au plus tôt**: si la date de contrainte de la tâche se situe dans le passé et qu’il n’existe pas de date de début réelle sur la tâche (la tâche n’a pas encore démarré), la date de remise est la date la plus proche à laquelle la tâche peut être démarrée. Si la tâche a commencé, la date de remise correspond à la date de début du projet.
+   * **Lorsque la tâche présente une contrainte Doit se terminer le ou Ne pas démarrer plus tard que**: si la date de contrainte de la tâche se situe dans le futur et qu’il n’y a pas de date de début réelle sur la tâche (la tâche n’a pas encore démarré), la date de remise est la date de début planifiée de la tâche. S’il existe une date de début réelle sur la tâche, la date de remise correspond à la date de début du projet.
+   * **Lorsque la tâche présente une contrainte de dates fixes**: la date de remise est la date de début planifiée de la tâche, qu’elle ait ou non un prédécesseur et que le prédécesseur soit terminé ou non.
+
+<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+   * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
+
+-->
 
 ## Localisation de la date de remise
 

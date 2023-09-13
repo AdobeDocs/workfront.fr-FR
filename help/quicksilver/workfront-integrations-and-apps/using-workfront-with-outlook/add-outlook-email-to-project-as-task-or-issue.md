@@ -6,9 +6,9 @@ description: Vous pouvez convertir les emails en [!DNL Adobe Workfront] tâches 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Votre [!DNL Workfront] L’administrateur doit activer [!DNL Outlook for Office]
 1. Sélectionnez l’email dans [!DNL Outlook] que vous souhaitez convertir en tâche ou en problème.
 1. Cliquez sur le bouton **[!DNL Workfront]** dans le coin supérieur droit de l’e-mail pour afficher le module complémentaire Workfront.
 
-   Vous devrez peut-être cliquer sur la flèche pointant vers le bas dans le coin supérieur droit de votre email pour accéder à la variable [!DNL Workfront] icône .
+   Vous devrez peut-être cliquer sur la flèche pointant vers le bas dans le coin supérieur droit de votre email pour accéder à la variable [!DNL Workfront] Icône
 
 1. Cliquez sur le bouton **[!UICONTROL Menu]** icon ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) pour afficher la liste des [!DNL Workfront] options.
 
@@ -55,16 +55,22 @@ Votre [!DNL Workfront] L’administrateur doit activer [!DNL Outlook for Office]
 
 1. Cliquez sur **[!UICONTROL Ajouter au travail]**.
 
-1. Sélectionnez la **[!UICONTROL Ajouter au projet]** champ .
+1. Sélectionnez la variable **[!UICONTROL Ajouter au projet]** champ .
 1. Commencez à saisir le nom d’un projet dans la variable **[!UICONTROL Projet]** puis sélectionnez-la lorsqu’elle apparaît dans la liste.
-1. Sélectionnez la **[!UICONTROL Tâche]** Bouton radio si vous souhaitez ajouter une tâche au projet sélectionné.
+1. Sélectionnez la variable **[!UICONTROL Tâche]** Bouton radio si vous souhaitez ajouter une tâche au projet sélectionné.
 
    Ou
 
-   Sélectionnez la **[!UICONTROL Problème]** si vous souhaitez ajouter un problème au projet sélectionné.
+   Sélectionnez la variable **[!UICONTROL Problème]** si vous souhaitez ajouter un problème au projet sélectionné.
 
 1. (Facultatif) Indiquez à qui cette tâche ou ce problème est affecté dans la variable **[!UICONTROL Attribuez-le à]** champ .
-1. (Facultatif) Spécifiez la variable **[!UICONTROL Échéance]**. Cela devient le [!UICONTROL Date d’achèvement prévue] de la tâche ou du problème.
+
+   >[!TIP]
+   >
+   >Vous pouvez affecter la tâche ou le problème à une équipe, si vous souhaitez que plusieurs personnes le connaissent. Si les notifications électroniques des membres de l’équipe sont activées, ils recevront un e-mail sur la nouvelle tâche ou le problème qui leur est assigné.
+
+
+1. (Facultatif) Spécifiez la variable **[!UICONTROL Échéance par date]**. Cela devient la propriété [!UICONTROL Date d’achèvement prévue] de la tâche ou du problème.
 1. (Facultatif) Mettez à jour les informations suivantes du courrier électronique avant de les enregistrer en tant que tâche ou problème (les champs obligatoires sont précédés d’un astérisque).
 
    <table style="table-layout:auto">
@@ -89,7 +95,9 @@ Votre [!DNL Workfront] L’administrateur doit activer [!DNL Outlook for Office]
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher dans[!DNL Workfront]]** pour afficher la tâche dans la fonction [!DNL Workfront] dans un nouvel onglet.
 
-1. (Facultatif) Revenez à [!DNL Outlook], puis sélectionnez l’email converti.
+1. (Facultatif) Revenez à [!DNL Outlook], puis sélectionnez l’e-mail converti.
 
-   En haut de la [!DNL Workfront] panneau complémentaire, notez la confirmation avec un lien auquel le courrier électronique a été ajouté. [!DNL Workfront] en tant que tâche ou problème. Le lien comprend la date à laquelle il a été converti.
+   En haut de la page [!DNL Workfront] panneau complémentaire, notez la confirmation avec un lien auquel le courrier électronique a été ajouté. [!DNL Workfront] en tant que tâche ou problème. Le lien comprend la date à laquelle il a été converti.
+
+
 

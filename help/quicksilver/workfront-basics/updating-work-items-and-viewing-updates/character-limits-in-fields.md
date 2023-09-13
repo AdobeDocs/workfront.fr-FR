@@ -7,9 +7,9 @@ description: Certains champs d’Adobe Workfront limitent le nombre de caractèr
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
@@ -21,6 +21,8 @@ Certains champs d’Adobe Workfront limitent le nombre de caractères pouvant ê
 Lorsque vous approchez de la limite, un compteur s’affiche. Lorsque vous dépassez la limite, les caractères excédentaires sont mis en surbrillance et vous ne pouvez pas publier le texte. Supprimez les caractères jusqu’à ce que vous vous trouviez dans la limite autorisée.
 
 La limite de caractères varie en fonction du champ utilisé. Les limites illustrées ci-dessous s’appliquent aux langues qui utilisent un alphabet latin (anglais, par exemple). La limite peut être inférieure pour les langues contenant des caractères étendus ou des caractères à deux octets.
+
+Les administrateurs de Workfront ou de groupe ne peuvent pas modifier les limites de caractères dans les champs.
 
 <table style="table-layout:auto"> 
  <col> 

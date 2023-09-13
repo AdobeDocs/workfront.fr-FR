@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Pour plus d’informations et de considérations sur le mode de texte avant de c
 
 Pour obtenir la liste complète de tous nos champs à déclarer et de leurs attributs, voir la section [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
+Pour plus d’informations sur la création de rapports en mode texte, y compris des classes, des vidéos et des tutoriels, consultez la section En savoir plus sur le site Adobe Experience League.
+
 ## Considérations sur la syntaxe du mode texte
 
 * Vous devez comprendre la syntaxe Adobe Workfront avant de pouvoir commencer à créer des éléments de reporting en mode texte. La syntaxe Workfront pour le mode texte est propre à cette application et possède des caractéristiques uniques que vous devez connaître.
@@ -30,7 +32,7 @@ Pour obtenir la liste complète de tous nos champs à déclarer et de leurs attr
 
 ## Directives courantes pour la création d’éléments de rapport en mode texte
 
-Voici des instructions courantes lorsque vous créez un élément de rapport ou de liste en mode texte :
+Voici des instructions courantes lors de la création d’un élément de rapport ou de liste en mode texte :
 
 * Utilisez toujours la casse chameau lorsque vous référencez des objets ou des attributs dans la base de données Workfront.
 * Gardez à l’esprit la hiérarchie des objets dans Workfront. Les différences suivantes existent entre les vues, les filtres et les regroupements :
@@ -55,7 +57,7 @@ Voici des instructions courantes lorsque vous créez un élément de rapport ou 
    * [Présentation des objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [Explorateur d’API](../../../wf-api/general/api-explorer.md)
 
-* Lorsque cela est possible, utilisez des caractères génériques pour rendre vos rapports et listes plus dynamiques et évitez de les dupliquer pour différents utilisateurs et chronologies similaires.
+* Lorsque cela est possible, utilisez des caractères génériques pour rendre vos rapports et listes plus dynamiques et évitez de les dupliquer pour différents utilisateurs et des chronologies similaires.
 
 ## Présentation de la casse Camel
 
@@ -67,7 +69,7 @@ Lorsque vous référencez des champs Workfront ou leurs attributs en mode texte,
 >
 >Tous les éléments de création de rapports suivent ce modèle de casse.
 
-Les caractéristiques de la casse des chameaux sont les suivantes :
+Les caractéristiques de la casse sont les suivantes :
 
 * Le premier mot commence toujours par une lettre minuscule.
 * Les mots suivants commencent toujours par une lettre majuscule.
@@ -93,7 +95,7 @@ Les similitudes suivantes existent entre la syntaxe des ensembles d’éléments
   Pour plus d’informations, voir :
 
    * [Modification d’un filtre à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+   * [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Syntaxe des vues et des regroupements
 
@@ -130,7 +132,7 @@ Le tableau suivant répertorie les lignes de codes les plus courantes dans une v
 >
 >  `column.0.valuefield=name`
 >  
->  Pour plus d’informations sur le partage de colonnes, voir [Afficher : fusionner les informations de plusieurs colonnes dans une seule colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>  Pour plus d’informations sur le partage de colonnes, voir [Vue : fusionner les informations de plusieurs colonnes dans une seule colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 >
 
 #### `Valuefield` présentation de la syntaxe pour les vues et les regroupements
@@ -220,7 +222,7 @@ La deuxième ligne de code la plus importante dans une vue ou un regroupement es
 
 `valueformat=HTML`
 
-Pour plus d’informations `valueformats` , reportez-vous également aux articles suivants :
+Pour les `valueformats` , reportez-vous également aux articles suivants :
 
 * [Mise en forme des dates dans les rapports en mode texte](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formatage des valeurs, des devises et des pourcentages dans les rapports en mode texte](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
@@ -239,7 +241,7 @@ Vous devez utiliser la variable `usewidths=true` ligne de code pour appliquer la
 
 #### `stretch` aperçu pour les vues
 
-Le `stretch` sert à identifier les colonnes qui occupent un espace supplémentaire dont la vue n’a pas besoin. La largeur de l’interface utilisateur de l’espace de travail d’un utilisateur type est d’environ 850 pixels. Cela signifie que si vous disposez d’une vue de quatre colonnes (150 pixels chacune), votre vue occupe 600 de 850 pixels. L’interface utilisateur contient 250 pixels supplémentaires qui seront ajoutés aux colonnes pour lesquelles un pourcentage d’étirement est fourni.
+La variable `stretch` est utilisé pour identifier les colonnes qui occupent un espace supplémentaire dont la vue n’a pas besoin. La largeur de l’interface utilisateur de l’espace de travail d’un utilisateur type est d’environ 850 pixels. Cela signifie que si vous disposez d’une vue de quatre colonnes (150 pixels chacune), votre vue occupe 600 de 850 pixels. L’interface utilisateur contient 250 pixels supplémentaires qui seront ajoutés aux colonnes pour lesquelles un pourcentage d’étirement est fourni.
 
 L’étirement d’une colonne est appliqué lorsque vous utilisez la ligne de code supplémentaire : `usewidths=true` pour au moins une des colonnes de la vue.
 
@@ -260,7 +262,7 @@ La syntaxe de création de filtres est similaire à celle de création d’invit
 Pour plus d’informations sur la création de filtres et d’invites personnalisées, voir :
 
 * [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 Pour plus d’informations sur la création de filtres en mode texte, voir [Modification d’un filtre à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 

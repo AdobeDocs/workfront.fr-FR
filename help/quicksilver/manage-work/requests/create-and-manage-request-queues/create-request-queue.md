@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2630'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 -->
 
 Vous pouvez configurer une file d’attente de requêtes dans laquelle les utilisateurs peuvent saisir des requêtes occasionnelles qui ne sont pas planifiées pour un projet. Par exemple, une file d’attente de demandes du service d’assistance peut être configurée pour capturer toutes les demandes d’utilisateurs envoyées à un service informatique.
+
+Cet article décrit comment créer une file d’attente de requêtes dans laquelle les utilisateurs peuvent envoyer des requêtes. Pour plus d’informations sur la manière d’envoyer une nouvelle requête à une file d’attente de requêtes, voir [Copie et envoi de requêtes](../create-requests/copy-and-submit-requests.md).
 
 ## Exigences d’accès
 
@@ -142,7 +144,7 @@ Pour créer une file d’attente de requête :
 
      | Qui peut saisir des requêtes | Description |
      |---|---|
-     | Quiconque | Tout utilisateur Workfront disposant d’un compte principal peut afficher cette file d’attente de requêtes et y ajouter des requêtes. |
+     | Quiconque | Tout utilisateur Workfront disposant d’un compte actif peut afficher cette file d’attente de requêtes et y ajouter des requêtes. |
      | Personnes disposant d&#39;un accès en affichage pour ce projet | Les utilisateurs disposant des autorisations d’affichage sur le projet peuvent afficher et ajouter des requêtes à cette file d’attente. |
      | Personnes de l&#39;entreprise affectées à ce projet | Les utilisateurs appartenant à la société associée à ce projet peuvent afficher et ajouter des requêtes à cette file d’attente. Si une société est associée au projet, son nom est indiqué entre parenthèses après ce paramètre. |
      | Personnes du groupe affectées à ce projet | Les utilisateurs appartenant au groupe associé à ce projet peuvent afficher et ajouter des requêtes à cette file d’attente. Si un groupe est associé au projet, son nom est indiqué entre parenthèses après ce paramètre. |
@@ -188,7 +190,7 @@ Pour créer une file d’attente de requête :
          <tbody> 
           <tr> 
            <td> <p>Ajuster la taille de l’image</p> </td> 
-           <td> <p>Modifiez les attributs "width" (largeur) et "height" (hauteur).</p> <p>Par défaut, la largeur est de "500" et la hauteur est de "600".</p> </td> 
+           <td> <p>Modifiez les attributs "largeur" et "hauteur".</p> <p>Par défaut, la largeur est "500" et la hauteur est "600".</p> </td> 
           </tr> 
           <tr> 
            <td> <p>Orienter les utilisateurs vers une rubrique ou un groupe de rubriques de file d’attente spécifique</p> </td> 
@@ -221,12 +223,12 @@ Pour créer une file d’attente de requête :
      Les types de requête s’affichent sous forme de sélection dans la zone Requêtes uniquement si le type de requête est sélectionné dans les pages Détails de la file d’attente et Rubrique de la file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      Chaque type sélectionné ici sera disponible sur le formulaire (vous pouvez en sélectionner plusieurs). La sélection de plusieurs types peut vous aider à organiser plusieurs requêtes entrantes.\
-     Par exemple, si vous utilisez le formulaire sur une file d’attente de requêtes pour un projet informatique, les types de requêtes suivants peuvent se trouver dans la file d’attente : matériel, logiciels, correctifs de bogues et problèmes.
+     Par exemple, si vous utilisez le formulaire sur une file d’attente de requêtes pour un projet informatique, les types de requêtes suivants peuvent s’afficher dans la file d’attente : matériel, logiciel, correctifs de bogues et problèmes.
 
    * **Durée par défaut :** La durée par défaut correspond à la durée généralement nécessaire pour résoudre un problème. Cela devient la valeur par défaut de tous les problèmes entrants et peut être modifié manuellement. La durée est généralement définie en heures, jours ou semaines. La durée par défaut d’un problème est la même que les heures planifiées sur le problème. La date d’achèvement prévue du problème se calcule d’après ce champ.\
      La durée par défaut du problème est de 1 jour ou 8 heures. Si l’administrateur de Workfront définit la durée type des heures par jour de travail sur moins de 8 heures, la durée par défaut pour les problèmes est toujours de 8 heures. Par exemple, si la valeur &quot;Heures par jour de travail standard&quot; est définie sur 7 heures, la durée par défaut pour les problèmes est de 1,14 jour ou 8 heures. Pour plus d’informations sur la configuration du système Heures par jour de travail standard, consultez la section &quot;Calcul de la chronologie&quot; de l’article. [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * **Les personnes appartenant à la même entreprise hériteront d&#39;autorisations identiques pour toutes les demandes.:** Lorsque cette option est sélectionnée, toutes les requêtes envoyées dans la file d’attente sont visibles pour les utilisateurs de la même société. Les utilisateurs peuvent afficher ces requêtes dans la section Toutes les requêtes , située dans la zone Demandes . Au moment où ce paramètre est activé ou désactivé, il a un impact sur toutes les futures demandes. il n&#39;a pas d&#39;impact rétroactif sur l&#39;information.
+   * **Les personnes appartenant à la même entreprise hériteront d&#39;autorisations identiques pour toutes les demandes.:** Lorsque cette option est sélectionnée, toutes les requêtes envoyées dans la file d’attente sont visibles pour les utilisateurs de la même société. Les utilisateurs peuvent afficher ces requêtes dans la section Toutes les requêtes , située dans la zone Demandes . Au moment où ce paramètre est activé ou désactivé, il a un impact sur toutes les futures demandes ; il n’a pas d’impact rétroactif sur les informations.
    * **Lorsqu’une personne émet une demande, elle accorde automatiquement :** Lorsqu’un utilisateur envoie une demande à la file d’attente des demandes, il se voit automatiquement octroyer le niveau d’autorisation que vous choisissez d’accorder à cette demande. Sélectionnez l’un des niveaux d’autorisation suivants :
 
       * **Afficher**
@@ -236,7 +238,7 @@ Pour créer une file d’attente de requête :
      Pour plus d’informations sur le modèle d’autorisations Workfront, voir [Présentation des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
      La définition des autorisations permet de gagner du temps, plutôt que d’avoir à accorder des autorisations pour chaque requête entrante. Le choix de cette option a un impact sur toutes les requêtes futures, mais n’a aucune incidence rétroactive sur les requêtes existantes.
 
-   * **Approbation par défaut**: Associez un processus d’approbation à cette file d’attente de demandes. Seuls les processus d’approbation des problèmes sont visibles dans ce menu déroulant. Tous les problèmes soumis à cette file d’attente seront associés à ce processus de validation. Votre administrateur Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer aux files d’attente de demandes. Les utilisateurs disposant d’un accès administratif aux processus de validation peuvent également créer des processus de validation spécifiques à un groupe.
+   * **Approbation par défaut**: associez un processus d’approbation à cette file d’attente de demandes. Seuls les processus d’approbation des problèmes sont visibles dans ce menu déroulant. Tous les problèmes soumis à cette file d’attente seront associés à ce processus de validation. Votre administrateur Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer aux files d’attente de demandes. Les utilisateurs disposant d’un accès administratif aux processus de validation peuvent également créer des processus de validation spécifiques à un groupe.
 
      >[!IMPORTANT]
      >
@@ -246,10 +248,10 @@ Pour créer une file d’attente de requête :
 
      Tenez compte des points suivants lors de l’ajout de processus d’approbation aux files d’attente de demande :
 
-      * Seuls les principaux processus de validation s&#39;affichent dans la liste.
+      * Seuls les processus de validation actifs s&#39;affichent dans la liste.
       * Les processus de validation à l’échelle du système et spécifiques aux groupes s’affichent dans la liste. Un processus de validation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.
 
-   * **Itinéraire par défaut**: Associez une règle de routage à cette file d’attente de requêtes. Utilisez les règles de routage pour affecter automatiquement les nouveaux problèmes envoyés à une file d’attente des requêtes à la ressource appropriée (utilisateur, rôle de tâche ou équipe) et au projet approprié. Tous les problèmes envoyés à cette file d’attente seront associés à cette règle de routage. Vous devez configurer les règles de routage avant de pouvoir les associer à la file d’attente des demandes.\
+   * **Itinéraire par défaut**: associez une règle de routage à cette file d’attente de requêtes. Utilisez les règles de routage pour affecter automatiquement les nouveaux problèmes envoyés à une file d’attente des requêtes à la ressource appropriée (utilisateur, rôle de tâche ou équipe) et au projet approprié. Tous les problèmes envoyés à cette file d’attente seront associés à cette règle de routage. Vous devez configurer les règles de routage avant de pouvoir les associer à la file d’attente des demandes.\
      Si plusieurs rubriques de file d’attente sont associées à une file d’attente de demandes, il est recommandé d’associer plutôt les règles de routage aux rubriques de la file d’attente. Pour plus d’informations sur la création de règles de routage, voir [Création de règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
    * **Nouveaux champs de problème :** Dans la section Afficher les champs sélectionnés suivants à tous les utilisateurs , sélectionnez les champs que vous souhaitez voir tous les utilisateurs qui envoient une requête au projet ou qui ajoutent un problème au projet ou aux tâches.
@@ -265,7 +267,7 @@ Pour créer une file d’attente de requête :
      Si vous avez sélectionné Affecté à dans la zone Détails de la file d’attente, vous ne pouvez saisir que les utilisateurs dans le champ Affectations du formulaire de requête. Dans ce cas, vous ne pouvez pas entrer de rôles de tâche ou d’équipe.
 
 
-   * **Documents**: Si vous choisissez d’afficher la section Documents dans le nouveau formulaire de demande, sélectionnez l’emplacement de la section de téléchargement du document. Sélectionnez l’une des options suivantes :
+   * **Documents**: si vous choisissez d’afficher la section Documents dans le nouveau formulaire de demande, sélectionnez l’emplacement de la section de téléchargement du document. Sélectionnez l’une des options suivantes :
 
      <table style="table-layout:auto"> 
       <col> 
@@ -292,7 +294,7 @@ Pour créer une file d’attente de requête :
      | Personnes disposant d&#39;un accès en affichage pour ce projet (licence de plan) | Les utilisateurs disposant d’une licence Plan disposant également des droits d’affichage sur ce projet peuvent voir les champs sélectionnés ainsi que les champs non sélectionnés. Les autres utilisateurs qui peuvent envoyer des requêtes à ce projet peuvent afficher uniquement les champs sélectionnés. |
      | Aucun utilisateur | Aucun utilisateur ne peut voir les champs non sélectionnés. Tous les utilisateurs qui peuvent envoyer des requêtes à ce projet ne peuvent afficher que les champs sélectionnés. |
 
-   * **Forms personnalisée**: Sélectionnez un formulaire personnalisé à associer à la file d’attente des demandes. Seul Problème : le Forms personnalisé est disponible pour la sélection dans ce menu déroulant. Les formulaires sélectionnés seront associés à tous les problèmes envoyés à la file d’attente des demandes.\
+   * **Forms personnalisée**: sélectionnez un formulaire personnalisé à associer à la file d’attente des demandes. Seul Problème : le Forms personnalisé est disponible pour la sélection dans ce menu déroulant. Les formulaires sélectionnés seront associés à tous les problèmes envoyés à la file d’attente des demandes.\
      Si plusieurs rubriques de file d’attente sont associées à une file d’attente de requêtes, nous vous recommandons d’associer plutôt des formulaires personnalisés aux rubriques de file d’attente. Pour plus d’informations sur la création de sous-sections pour la file d’attente des demandes, voir [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![](assets/custom-forms-on-queue-details.png)
