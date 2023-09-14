@@ -3,9 +3,9 @@ title: Gestion de la vue de tableau
 description: Vous pouvez afficher les enregistrements et leurs champs dans une vue de tableau lors de l’accès à la page de type enregistrement dans Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: 4a3cf7211eef2b161a29b74e8e9b2b12c21eaf4d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1493'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta fermé ouvert à un nombre limité de clients.
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
 >

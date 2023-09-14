@@ -3,9 +3,9 @@ title: Activité de mise à jour Adobe Maestro
 description: Utilisez Maestro pour créer des objets, champs et espaces de travail personnalisés.
 hidefromtoc: true
 hide: true
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta fermé ouvert à un nombre limité de clients.
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
 >

@@ -3,9 +3,9 @@ title: Gestion du mode Chronologie
 description: Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type enregistrement dans Adobe Manager.
 hidefromtoc: true
 hide: true
-source-git-commit: bac066b90c7fd69ffd423988c4cf736c16807f2b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ role: User
 
 >[!IMPORTANT]
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta fermé ouvert à un nombre limité de clients.
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
 >

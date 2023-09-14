@@ -3,9 +3,9 @@ title: Présentation de l’accès
 description: Tous les utilisateurs d’une entreprise peuvent avoir accès à Adobe Manager. Actuellement, aucun niveau d’accès ou autorisation n’est associé aux utilisateurs ou aux informations dans Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta fermé ouvert à un nombre limité de clients.
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
+>
+>Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
+>
+>Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->

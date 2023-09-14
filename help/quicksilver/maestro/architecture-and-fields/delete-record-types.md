@@ -3,9 +3,9 @@ title: Suppression des types d’enregistrement
 description: Vous pouvez supprimer des types d’enregistrements opérationnels ou des types d’enregistrements de taxonomie lorsqu’ils ne sont plus pertinents.
 hidefromtoc: true
 hide: true
-source-git-commit: 14b456f32dd2c8735e0a5252387f25305efc7610
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta fermé ouvert à un nombre limité de clients.
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
 >

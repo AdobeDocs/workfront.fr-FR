@@ -3,9 +3,9 @@ title: Connexion des types d’enregistrement
 description: Une façon d’indiquer comment les types d’enregistrement individuels sont associés les uns aux autres consiste à les connecter. En outre, vous pouvez connecter les types d’enregistrement Maestro aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et de garder leur focus dans une seule application.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1742'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ author: Alina
 
 >[!IMPORTANT]
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta fermé ouvert à un nombre limité de clients.
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
 >
