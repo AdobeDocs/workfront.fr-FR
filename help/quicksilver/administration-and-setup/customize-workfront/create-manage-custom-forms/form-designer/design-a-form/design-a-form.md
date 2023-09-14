@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '4675'
 ht-degree: 4%
 
 ---
 
 # Concevoir un formulaire avec le concepteur de formulaires
+
+{{preview-and-fast-release}}
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données sur ces objets.
 
@@ -386,13 +388,13 @@ Vous pouvez ajouter des champs de saisie anticipée et de date à un formulaire 
 +++ **Développer pour afficher les descriptions des champs disponibles**
 
 * **Tirage anticipé**: permet aux utilisateurs de saisir le nom d’un objet existant dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur commence à saisir du texte. Ce type de champ prend en charge les objets suivants :
-   * Utilisateur
+   * l’utilisateur ou de l’utilisatrice
    * Groupe
    * Fonction
    * Portfolio
    * Programme
    * Projet
-   * Équipe
+   * l’équipe
    * Modèle
    * Entreprise
 * **Champ de date**: affiche un calendrier dans lequel les utilisateurs peuvent sélectionner une date et une heure.
@@ -492,9 +494,93 @@ Pour ajouter des champs de date de saisie anticipée :
 
    Cliquez sur **Enregistrer et fermer**.
 
+<div class="preview">
+
+### Ajout de champs de recherche externes
+
+Un champ de recherche externe appelle une API externe et renvoie les valeurs sous forme d’options dans un champ déroulant. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent sélectionner l’une de ces options dans la liste déroulante.
+
+Pour ajouter une recherche externe :
+
+1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites-le glisser vers une section de la zone de travail.
+1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Étiquette</td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nom</td> 
+      <td> <p>(Obligatoire) Ce nom est la manière dont le système identifie le champ personnalisé.</p> <p>Lorsque vous configurez le champ personnalisé pour la première fois et que vous tapez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs voient sans avoir à modifier le nom que le système voit.</p> 
+      <p><b>IMPORTANT</b>:   
+      <ul> 
+      <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé où il peut maintenant être référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à moins de le rajouter au rapport en utilisant le nouveau nom.</p> </li>
+      <li> <p>Nous vous recommandons de ne pas saisir de nom déjà utilisé pour les champs Workfront intégrés.</p> </li>
+      <li><p>Il est recommandé de ne pas utiliser le caractère point/point dans le nom du champ personnalisé afin d’éviter toute erreur lors de l’utilisation du champ dans différentes zones de Workfront.</p></li>
+      </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un formulaire déjà créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
+     </tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Format</td>
+      <td><p>Sélectionnez le type de données qui sera capturé dans le champ personnalisé.</p>
+      <p><strong>NOTE:</strong></p>
+      <ul><li>Vous pouvez modifier le type de format après l’enregistrement du formulaire, avec une limitation : toutes les valeurs existantes sur les objets doivent pouvoir être converties dans le nouveau type. (Par exemple, si le type de format est Texte et qu’un objet stocke la valeur "abc", vous ne pouvez pas convertir le champ et obtenez une erreur indiquant que le système ne peut pas convertir "abc" en nombre/devise.) Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner le format Nombre ou Devise .</li>
+      <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">URL API de base</td> 
+      <td><p>Saisissez ou collez l’URL de l’API.</p><p>L’URL de l’API doit renvoyer un contenu JSON des options que vous souhaitez afficher dans la liste déroulante. Vous pouvez utiliser le champ Chemin d’accès JSON pour sélectionner les valeurs spécifiques du fichier JSON renvoyé dans les options de liste déroulante.</p><p>Lorsque vous saisissez l’URL de l’API, vous pouvez éventuellement transmettre les valeurs suivantes dans l’URL :</p>
+      <ul><li>$$query : il représente le texte de recherche saisi par l’utilisateur final dans le champ et vous permet d’implémenter le filtrage des requêtes pour vos utilisateurs finaux. (L’utilisateur recherche la valeur dans la liste déroulante.)</li>
+      <li>{fieldName} - Où fieldName est un champ personnalisé ou natif dans Workfront. Ainsi, vous pouvez implémenter des filtres d’options de liste déroulante en cascade lorsque vous transmettez la valeur d’un champ déjà sélectionné au champ Recherche externe pour filtrer les options. (Par exemple, le champ Région existe déjà sur le formulaire et vous limitez une liste de pays de l’API à ceux d’une région spécifique.)</li></ul>
+      <p><strong>REMARQUE :</strong> Consultez la documentation de l’API que vous utilisez pour les requêtes spécifiques que vous pouvez définir.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Méthode HTTP</td> 
+      <td>Sélectionner <strong>Get</strong>, <strong>Post</strong>, ou <strong>Put</strong> pour la méthode .</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Chemin JSON</td>
+      <td><p>Saisissez ou collez le chemin JSON de l’API.</p> <p>Cette option permet d’extraire des données du code JSON renvoyé par l’URL de l’API. Il sert à sélectionner les valeurs qui, à l’intérieur du fichier JSON, apparaîtront dans les options de la liste déroulante.</p><p>Par exemple, si votre URL d’API renvoie JSON au format suivant :</br>
+      <pre>
+      { data: { name: "USA"}, { name: "Canada"} } }
+      </pre>
+      </p>
+      <p>vous pouvez ensuite utiliser "$.data[*].name" pour sélectionner les États-Unis et le Canada comme options de liste déroulante.</p> <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le chemin JSON correct, reportez-vous à la section <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">En-têtes</td>
+      <td>Cliquez sur <strong>Ajouter un en-tête</strong>et saisissez ou collez la paire clé-valeur requise pour l’authentification avec l’API.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
+
+   ou
+
+   Cliquez sur **Enregistrer et fermer**.
+
+>[!NOTE]
+>
+>Limites techniques de l’appel à l’API externe :
+>
+>* Nombre maximal d’options : 200 (seules les 200 premières options du fichier JSON renvoyé sont affichées)
+>* Timeout : 3 secondes
+>* Nombre de reprises : 3
+>* Durée d’attente entre deux tentatives : 500 ms
+>* Statuts de réponse attendus : 2xx
+
+</div>
+
 ### Ajout d’images, de PDF et de vidéos
 
-Vous pouvez ajouter des images, PDF et vidéos à un formulaire personnalisé. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent afficher l’image, le PDF ou la vidéo uniquement dans les zones suivantes :
+Vous pouvez ajouter des images, des PDF et des vidéos à un formulaire personnalisé. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent afficher l’image, le PDF ou la vidéo uniquement dans les zones suivantes :
 
 * Zone Détails de l’objet (par exemple, pour un projet, la zone Détails du projet)
 * La zone Modifier de l’objet, si l’aspect de l’expérience Adobe Workfront est nouveau (par exemple, les zones Modifier le projet et Modifier la tâche).
@@ -536,7 +622,7 @@ Pour ajouter des images, des PDF ou des vidéos :
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom indique comment le système identifie le widget.</p> <p>Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs voient sans avoir à modifier le nom que le système voit.</p> <p><b>IMPORTANT</b>: bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans le widget. Si vous le faites, le système ne reconnaîtra plus le widget où il peut maintenant être référencé dans d’autres zones de Workfront. </p> <p>Chaque nom de widget doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un formulaire déjà créé pour un autre formulaire personnalisé. </p> </td> 
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget.</p> <p>Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs voient sans avoir à modifier le nom que le système voit.</p> <p><b>IMPORTANT</b>: bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans le widget. Si vous le faites, le système ne reconnaîtra plus le widget où il peut maintenant être référencé dans d’autres zones de Workfront. </p> <p>Chaque nom de widget doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un formulaire déjà créé pour un autre formulaire personnalisé. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -613,7 +699,7 @@ Pour ajouter un fichier Adobe XD :
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom indique comment le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs voient sans avoir à modifier le nom que le système voit.</p>
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs voient sans avoir à modifier le nom que le système voit.</p>
     <p><b>IMPORTANT</b>:   
       <ul> 
       <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé où il peut maintenant être référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à moins de le rajouter au rapport en utilisant le nouveau nom.</p> </li>
