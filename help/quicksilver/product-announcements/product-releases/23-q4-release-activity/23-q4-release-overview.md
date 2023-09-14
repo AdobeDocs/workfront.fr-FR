@@ -3,9 +3,9 @@ title: Présentation de la version du quatrième trimestre 2023
 description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 0ea724f63729822ec2ab60b14f83264a36727fbf
+source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,49 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 ## Améliorations apportées à Adobe Workfront
 
+* [Améliorations apportées aux administrateurs](#administrator-enhancements)
 * [Améliorations des panoramas](#boards-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
 * [Améliorations des projets](#project-enhancements)
 * [Autres améliorations](#other-enhancements)
+
+### Améliorations apportées aux administrateurs
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Ajout d’options de valeur d’une API externe à un formulaire personnalisé</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>un nouveau type de champ, <strong>Recherche externe</strong>, est désormais disponible sur le concepteur de formulaire personnalisé. Lorsque des données sont stockées sur un système externe, ce type de champ vous permet de charger des options à partir d’une API externe et de filtrer selon d’autres valeurs de champ dans le formulaire personnalisé.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 14 septembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 23.9</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Améliorations des panoramas
 
@@ -60,7 +99,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                         <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
-                </tr>  
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Améliorations des affectations d’utilisateurs sur les panoramas et les cartes</a></p><p>Des améliorations sont désormais disponibles, ce qui offre davantage de flexibilité lors de l’ajout d’utilisateurs aux panoramas et aux cartes dans les panoramas Adobe Workfront.</p>
@@ -157,7 +196,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                         <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
-                 </tr>  
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Améliorations de l’expérience lors de l’envoi de documents à SharePoint (GraphAPI)</a></p><p>Nous avons apporté quelques modifications afin de faciliter la localisation des dossiers lors de l’envoi de documents à vos dossiers SharePoint (GraphAPI).</p>
@@ -165,7 +204,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 24 août<br /></p>
+                                <p>Version d’aperçu : 24 août 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Production pour tous les clients : 31 août 2023</span></p>
@@ -180,7 +219,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 24 août<br /></p>
+                                <p>Version d’aperçu : 24 août 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Production pour tous les clients : 31 août 2023</span></p>
@@ -190,7 +229,6 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>
            </tbody>
         </table>
-
 
 ### Améliorations des projets
 
@@ -272,65 +310,6 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
            </tbody>
         </table>
 
-<!--
-### Financial management enhancements
-
-<table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
-                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: June 29, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
-                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: August 17, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-        </table>
--->
-
 ### Autres améliorations
 
 <table>
@@ -387,6 +366,25 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nouveaux boutons d’accès rapide pour le widget Mon travail</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Afin d’étendre davantage votre capacité à gérer le travail directement à partir de la nouvelle page d’accueil, de nouveaux boutons d’accès rapide ont été ajoutés au widget Mon travail.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 13 septembre 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 23.9</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nouvelles options de filtre pour la nouvelle page d’accueil</a> </p>
