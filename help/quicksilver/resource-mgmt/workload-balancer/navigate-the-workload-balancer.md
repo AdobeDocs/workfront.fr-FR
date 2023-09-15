@@ -6,9 +6,9 @@ description: Utilisez l’équilibreur de charge de travail pour comprendre la d
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
 workflow-type: tm+mt
-source-wordcount: '4048'
+source-wordcount: '4054'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Utilisez l’équilibreur de charge de travail dans Adobe Workfront pour affecte
 
 L’équilibreur de charge de travail est disponible dans plusieurs zones d’Adobe Workfront. La navigation est similaire dans toutes les zones.
 
-Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, voir [Localisation de l’équilibreur de charge de travail](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, voir [Localisation de l’équilibreur de charge](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
 
 ## Exigences d’accès
@@ -75,7 +75,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource</p>
+   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource .</p>
    <p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
  </td> 
   </tr> 
@@ -86,7 +86,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
      <li> <p>Tâches</p> </li> 
-     <li> <p>Événements</p> </li> 
+     <li> <p>Problèmes</p> </li> 
     </ul> <p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -98,46 +98,43 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 *Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
-
 ## Considérations pour l’affichage des éléments dans l’équilibreur de charge de travail
 
 Tenez compte des points suivants lors de l’affichage de l’équilibreur de charge de travail :
 
 * L’équilibreur de charge de travail affiche les tâches dans deux zones distinctes, en fonction de leurs affectations. Les éléments de travail et les utilisateurs s’affichent dans les zones suivantes :
 
-   * **Travail non attribué**: Éléments qui n’ont aucune affectation ou qui sont affectés uniquement à des rôles de tâche ou à des équipes.
-   * **Travail attribué**: Éléments affectés à au moins un utilisateur. Les éléments affectés s’affichent sous le nom de l’utilisateur affecté.
+   * **Travail non attribué**: éléments qui n’ont aucune affectation ou qui sont affectés uniquement à des rôles de tâche ou à des équipes.
+   * **Travail assigné**: éléments affectés à au moins un utilisateur. Les éléments affectés s’affichent sous le nom de l’utilisateur affecté.
 
-   >[!NOTE]
-   >
-   >* Les éléments affectés à un rôle de tâche ou à une équipe qui sont également affectés à un utilisateur qui est la personne désignée Principale ne s’affichent pas dans la zone de travail non affectée.
-   >
-   >* Les éléments affectés à un utilisateur et un rôle de tâche pour lequel le rôle de tâche est sélectionné comme responsable Principal de l’élément s’affichent dans la zone Travail non affecté .
-   >* Les éléments affectés à plusieurs utilisateurs s’affichent sous les noms de tous les utilisateurs dans la zone Travail attribué.
-
+  >[!NOTE]
+  >
+  >* Les tâches affectées à un rôle de tâche ou à une équipe, ainsi qu’à un utilisateur qui est la personne désignée principale, ne s’affichent pas dans la zone Travail non attribué.
+  >* Les tâches affectées à un utilisateur et un rôle de tâche, où le rôle de tâche est sélectionné comme responsable principal de l’élément, s’affichent dans la zone Travail non affecté .
+  >* Les tâches affectées à plusieurs utilisateurs s’affichent sous tous les noms des utilisateurs affectés dans la zone Travail attribué.
 
 * Lorsqu’un projet ne comporte aucune tâche pendant une période donnée, la barre au niveau du projet devient une couleur grisée.
 
-   ![](assets/wb-break-in-project-timeline-with-no-tasks-highlight-350x80.png)
+  ![](assets/wb-break-in-project-timeline-with-no-tasks-highlight-350x80.png)
 
 * Lorsque vous ne disposez pas des autorisations nécessaires pour afficher certains éléments, ils s’affichent sous la forme **Éléments de travail inaccessibles** ou **Projets inaccessibles**.
 
-   ![](assets/balancer-inaccessible-items-and-projects-highlighted-350x108.png)
+  ![](assets/balancer-inaccessible-items-and-projects-highlighted-350x108.png)
 
 * Les noms des tâches s’affichent à gauche et leur chronologie à droite.
 * Le total des heures planifiées de chaque élément de travail s’affiche à droite du nom de l’élément de travail et à gauche de la barre qui représente la chronologie de l’élément de travail.
 * Le total des heures planifiées de chaque projet s’affiche à droite du nom du projet et à gauche de la barre qui représente la chronologie du projet.
 
-   Les informations Heures planifiées du projet sont un total des Heures planifiées de tous les éléments répertoriés dans l’équilibreur de charge de travail, et non un total des Heures planifiées du projet.
+  Les informations Heures planifiées du projet sont un total des Heures planifiées de tous les éléments répertoriés dans l’équilibreur de charge de travail, et non un total des Heures planifiées du projet.
 
 Pour plus d’informations sur l’affichage des informations dans l’équilibreur de charge de travail, consultez également les articles suivants :
 
-* [Localisation de l’équilibreur de charge de travail](../workload-balancer/locate-workload-balancer.md)
+* [Localisation de l’équilibreur de charge](../workload-balancer/locate-workload-balancer.md)
 * [Filtrage des informations dans l’équilibreur de charge de travail](../workload-balancer/filter-information-workload-balancer.md)
 * [Partage de l’équilibreur de charge de travail avec un lien](../workload-balancer/share-link-for-workload-balancer.md)
 * [Mise à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
-Pour plus d’informations sur la gestion des ressources à l’aide de l’équilibreur de charge de travail, reportez-vous également aux articles suivants :
+Pour plus d’informations sur la gestion des ressources à l’aide de l’équilibreur de charge de travail, voir également les articles suivants :
 
 * [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
 * [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
@@ -151,7 +148,7 @@ Les sous-sections suivantes décrivent comment afficher les informations dans l�
 
 Vous pouvez ajuster un certain nombre de paramètres et d’options dans l’équilibreur de charge de travail afin d’afficher les informations sur lesquelles vous devez vous concentrer au cours de la période qui vous convient le mieux.
 
-Après avoir sélectionné les paramètres que vous souhaitez appliquer à votre vue, l’équilibreur de charge de travail se souvient de ces paramètres chaque fois que vous y accédez depuis n’importe quel navigateur ou périphérique.
+Après avoir sélectionné les paramètres à appliquer à votre vue, l’équilibreur de charge de travail se souvient de ces paramètres chaque fois que vous y accédez depuis un navigateur ou un appareil.
 
 ### Accès à l’équilibreur de charge de travail pour plusieurs projets dans la zone Ressource
 
@@ -164,21 +161,22 @@ Pour naviguer dans l’équilibreur de charge de travail pour plusieurs projets 
 
    L’équilibreur de charge de travail affiche des informations d’affectation de travail à partir de la semaine en cours dans les deux domaines suivants :
 
-   * Le **Travail non attribué** affiche les tâches suivantes :
+   * La variable **Travail non attribué** affiche les tâches suivantes :
 
       * Éléments de travail (tâches et problèmes) affectés à des rôles, équipes ou qui ne sont pas affectés s’affichent une fois les filtres appliqués.
 La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est recommandé d&#39;utiliser des filtres pour afficher les informations vous concernant dans cette zone.
 
-         Pour plus d’informations sur l’utilisation des filtres, voir [Filtrage des informations dans l’équilibreur de charge de travail](../workload-balancer/filter-information-workload-balancer.md).
+        Pour plus d’informations sur l’utilisation des filtres, voir [Filtrage des informations dans l’équilibreur de charge de travail](../workload-balancer/filter-information-workload-balancer.md).
 
       * Les projets s’affichent uniquement lorsque vous activez le paramètre Groupe par projet . Pour plus d’informations, voir la section [Personnalisation de la vue](#customize-the-view) dans cet article.
-   * Le **Travail attribué** affiche les tâches suivantes :
 
-      * Tous les principaux utilisateurs du système s’affichent par défaut dans cette zone. Il est recommandé d&#39;utiliser des filtres pour limiter la quantité d&#39;informations dans cette zone. Si des utilisateurs sont affectés à des éléments, les éléments de travail s’affichent également sous leur nom.
+   * La variable **Travail assigné** affiche les tâches suivantes :
+
+      * Tous les utilisateurs actifs du système s’affichent par défaut dans cette zone. Il est recommandé d&#39;utiliser des filtres pour limiter la quantité d&#39;informations dans cette zone. Si des utilisateurs sont affectés à des éléments, les éléments de travail s’affichent également sous leur nom.
 
       * Les tâches et les problèmes affectés à au moins un utilisateur s’affichent sous son nom.
 
-         Les tâches sous les noms des utilisateurs dans la zone de travail affectée sont triées selon les critères suivants, dans cet ordre :
+        Les tâches sous les noms des utilisateurs dans la zone de travail affectée sont triées selon les critères suivants, dans cet ordre :
 
          1. Date de début planifiée (la plus ancienne en premier)
          1. Date d’achèvement prévue (la plus ancienne en premier)
@@ -189,12 +187,10 @@ La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est re
             >* Vous pouvez personnaliser le tri des projets en sélectionnant une option dans le paramètre &quot;Trier les projets par&quot;.
             >
             >* Les projets s’affichent uniquement lorsque vous activez le paramètre &quot;Groupe par projet&quot;.
-
             > 
             >Pour plus d’informations sur la personnalisation des paramètres, voir la section [Personnalisation de la vue](#customize-the-view) dans cet article.
 
-
-1. (Facultatif) Cliquez sur le **Filtrer** icon ![](assets/filter-icon.png) dans le **Travail attribué** , puis sélectionnez la propriété **Filtre par défaut** dans le **Suggérée** de la zone de filtrage.
+1. (Facultatif) Cliquez sur le **Filtrer** icon ![](assets/filter-icon.png) dans le **Travail assigné** , puis sélectionnez la propriété **Filtre par défaut** dans le **Suggérée** de la zone de filtrage.
 
    Lors de l’application du filtre Par défaut, les utilisateurs appartenant à l’une de vos équipes et à leurs tâches s’affichent. Vous pouvez modifier une copie de ce filtre.
 
@@ -204,12 +200,12 @@ La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est re
 
 1. Passez aux étapes suivantes pour naviguer dans l’équilibreur de charge de travail :
 
-   * [Sélection d’une période dans l’équilibreur de charge de travail](#select-a-time-frame-in-the-workload-balancer)
+   * [Sélectionner une période dans l’équilibreur de charge de travail](#select-a-time-frame-in-the-workload-balancer)
    * [Personnalisation de la vue](#customize-the-view)
    * [Attribution d’éléments de travail et ajustement des affectations utilisateur](#assign-work-items-and-adjust-user-allocations)
    * [Affichage des affectations dans un graphique](#view-allocations-in-a-chart)
 
-### Sélection d’une période dans l’équilibreur de charge de travail
+### Sélectionner une période dans l’équilibreur de charge de travail
 
 1. Accédez à l’équilibreur de charge de travail dans la **Ressource** , comme décrit dans la section [Accès à l’équilibreur de charge de travail pour plusieurs projets dans la zone Ressource](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dans cet article.
 
@@ -231,9 +227,9 @@ La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est re
    ![](assets/3-months-12-weeks-drop-down-wb.png)
 
 1. Cliquez sur l’une des options suivantes de la barre d’outils pour afficher les informations selon différentes périodes :
-   * **Jour**: Affiche des informations par jour pendant quatre semaines à partir de la date du jour, par défaut.
-   * **Semaine**: Affiche des informations par semaine pendant quatre semaines.
-   * **Mois**: Affiche des informations par mois pour trois mois.
+   * **Jour**: affiche des informations par jour pendant quatre semaines à partir de la date du jour, par défaut.
+   * **Semaine**: affiche des informations par semaine pendant quatre semaines.
+   * **Mois**: affiche des informations par mois pour trois mois.
 
 1. Continuez à naviguer dans l’équilibreur de charge de travail comme décrit dans les sections suivantes.
 
@@ -241,7 +237,7 @@ La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est re
 
 1. Accédez à l’équilibreur de charge de travail dans la **Ressource** , comme décrit dans la section [Accès à l’équilibreur de charge de travail pour plusieurs projets dans la zone Ressource](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dans cet article.
 
-   Les noms des tâches sont répertoriés sur le côté gauche et sont représentés par des barres sur le côté droit de l’équilibreur de charge de travail. La longueur de la barre représente la chronologie d’un élément de travail.
+   Les noms des tâches sont répertoriés à gauche et sont représentés par des barres situées à droite de l’équilibreur de charge de travail. La longueur de la barre représente la chronologie d’un élément de travail.
 
 1. (Facultatif et recommandé) Utilisez des filtres dans les zones Travail non assigné et Travail assigné pour afficher uniquement les tâches ou les utilisateurs qui vous intéressent.
 
@@ -265,7 +261,7 @@ La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est re
 
 1. Cliquez sur le bouton **Flèche pointant vers le bas** à gauche des zones Non affecté ou Affecté afin de réduire tous les éléments sous les noms de projet (dans la zone Non affecté) et sous les noms d’utilisateur (dans la zone Affecté).
 
-1. Faites glisser et déposez le **ligne de séparation** entre le panneau de gauche et la zone de frise chronologique pour ajuster la taille du panneau de gauche.
+1. Faites glisser et déposez le **ligne de séparation** entre le panneau de gauche et la zone de chronologie pour ajuster la taille du panneau de gauche.
 
    ![](assets/separation-line-between-left-panel-and-timeline-highlighted-nwe-350x174.png)
 
@@ -277,42 +273,43 @@ La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est re
 
    Sélectionnez parmi les options répertoriées ci-dessous pour mettre à jour les informations que vous consultez dans l’équilibreur de charge de travail, puis cliquez sur le bouton **Icône X** dans l’angle supérieur droit de la zone Paramètres pour la fermer.
 
-   * **Groupe par projet**: Lorsque cette option est sélectionnée, les éléments des zones Travail non assigné et Travail assigné sont regroupés par projet. Cette option est sélectionnée par défaut.
+   * **Groupe par projet**: lorsque cette option est sélectionnée, les éléments des zones Travail non attribué et Travail attribué sont regroupés par projet. Cette option est sélectionnée par défaut.
 
-   * **Inclure les heures des problèmes**: Lorsque cette option est sélectionnée, les problèmes affectés aux utilisateurs s’affichent sous le nom de l’utilisateur dans la zone Travail attribué et les problèmes qui ne sont pas affectés aux utilisateurs s’affichent dans la zone Travail non attribué. Les heures planifiées issues des problèmes sont comptabilisées dans les heures planifiées du projet et de l’utilisateur dans la zone de travail affectée.
-   * **Afficher les dates prévues**: Lorsque cette option est sélectionnée, la chronologie prévisionnelle des tâches s’affiche en plus de la chronologie planifiée. Notez les points suivants :
+   * **Inclure les heures des problèmes**: lorsque cette option est sélectionnée, les problèmes affectés aux utilisateurs s’affichent sous le nom de l’utilisateur dans la zone Travail attribué et les problèmes qui ne sont pas affectés aux utilisateurs s’affichent dans la zone Travail non attribué. Les heures planifiées issues des problèmes sont comptabilisées dans les heures planifiées du projet et de l’utilisateur dans la zone de travail affectée.
+   * **Afficher les dates prévues**: lorsque cette option est sélectionnée, la chronologie prévisionnelle des tâches s’affiche en plus de la chronologie planifiée. Notez les points suivants :
       * La chronologie prévue du projet, des tâches et des problèmes s’affiche sous la forme d’une ligne bleu foncé au-dessus des barres de tâche, de problème et de projet.
       * La chronologie projetée en dehors de la chronologie planifiée s’affiche en bleu clair, même lorsque vous mettez à jour le thème de couleur, comme décrit ci-dessous.
       * La chronologie prévue pour les éléments auxquels vous n’avez pas accès s’affiche en gris clair avec une ligne en dessous.
       * Lorsqu’une tâche ou un problème se termine avant la date d’achèvement planifiée prévue, les chiffres d’attribution pour les jours restants sont atteints et ne sont pas pris en compte dans l’attribution de l’utilisateur. Cette option s’affiche uniquement lorsque le paramètre Afficher les dates prévues et l’icône Afficher l’attribution sont activés.
 
-      >[!TIP]
-      >
-      >Notez que les éléments de travail s’affichent dans l’équilibreur de charge de travail lorsque les chronologies planifiées ou projetées (pas nécessairement les deux en même temps) se produisent pendant la période sélectionnée.
+     >[!TIP]
+     >
+     >Notez que les éléments de travail s’affichent dans l’équilibreur de charge de travail lorsque les chronologies planifiées ou projetées (pas nécessairement les deux en même temps) se produisent pendant la période sélectionnée.
 
-   * **Afficher le travail terminé**: Lorsque cette option est activée, les tâches terminées et les problèmes s’affichent dans la zone de travail attribué. Cette option est activée par défaut.
+   * **Afficher le travail terminé**: lorsque cette option est activée, les tâches terminées et les problèmes s’affichent dans la zone de travail attribué. Cette option est activée par défaut.
 
-      Une icône en forme de coche verte s’affiche dans le coin supérieur droit d’une tâche ou d’une barre de problèmes une fois qu’elles sont terminées. La même icône s’affiche pour un projet lorsque les tâches ou les problèmes de la période sélectionnée du projet sont terminés.
-   * **Afficher le temps restant**: Lorsque cette option est activée, Workfront affiche la différence entre l’heure quotidienne à laquelle l’utilisateur est disponible pour travailler selon ses horaires et les heures pour lesquelles il est affecté dans la zone de travail affectée pour les utilisateurs. Cette option est désactivée par défaut et l’heure allouée s’affiche par défaut.
+     Une icône en forme de coche verte s’affiche dans le coin supérieur droit d’une tâche ou d’une barre de problèmes une fois qu’elles sont terminées. La même icône s’affiche pour un projet lorsque les tâches ou les problèmes de la période sélectionnée du projet sont terminés.
+   * **Afficher le temps restant**: lorsque cette option est activée, Workfront affiche la différence entre l’heure quotidienne à laquelle l’utilisateur est disponible pour travailler selon ses horaires et les heures pour lesquelles il est affecté dans la zone de travail affectée pour les utilisateurs. Cette option est désactivée par défaut et l’heure allouée s’affiche par défaut.
    * Dans le **Sélectionner le thème de couleur** , sélectionnez la couleur de votre choix pour les barres de projet et de tâche.
 
-      >[!TIP]
-      >
-      >Le paramètre de sélection du thème de couleur n’affecte pas la couleur des barres de problème. Les problèmes s’affichent toujours dans une barre de couleur marron.
+     >[!TIP]
+     >
+     >Le paramètre de sélection du thème de couleur n’affecte pas la couleur des barres de problème. Les problèmes s’affichent toujours dans une barre de couleur marron.
 
-      Sélectionnez l’une des options suivantes :
-      * **Par défaut**: Les barres de tous les projets et de leurs tâches s’affichent en bleu.
-      * **Projet**: Les barres associées à chaque projet et à ses tâches changent en fonction du nom du projet. Toutes les tâches qui appartiennent au projet s’affichent dans des barres qui correspondent à la couleur du projet. Les barres de projet s’affichent dans une ombre plus claire pour les distinguer des tâches. Les barres de projet incluent également une icône de projet lorsque vous choisissez de ne pas afficher les affectations.
-      * **État du projet**: Les barres associées à chaque projet et à ses éléments de travail changent en couleur de l’état du projet.
+     Sélectionnez l’une des options suivantes :
+      * **Par défaut**: les barres de tous les projets et de leurs tâches s’affichent en bleu.
+      * **Projet**: les barres associées à chaque projet et à ses tâches changent en fonction du nom du projet. Toutes les tâches qui appartiennent au projet s’affichent dans des barres qui correspondent à la couleur du projet. Les barres de projet s’affichent dans une ombre plus claire pour les distinguer des tâches. Les barres de projet incluent également une icône de projet lorsque vous choisissez de ne pas afficher les affectations.
+      * **État du projet**: les barres associées à chaque projet et à ses éléments de travail changent en couleur de l’état du projet.
 
-         Le statut du projet est celui associé au groupe du projet. Si le groupe ne dispose pas d’états spécifiques au groupe, la couleur des barres d’éléments de travail est celle de l’état du projet au niveau du système. Les états système et personnalisés s’affichent. Pour plus d’informations sur les états d’un groupe, voir [Création ou modification d’un état de groupe](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+        Le statut du projet est celui associé au groupe du projet. Si le groupe ne dispose pas d’états spécifiques au groupe, la couleur des barres d’éléments de travail est celle de l’état du projet au niveau du système. Les états système et personnalisés s’affichent. Pour plus d’informations sur les états d’un groupe, voir [Création ou modification d’un état de groupe](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+
    * Dans le **Afficher l’affectation des utilisateurs dans** , sélectionnez l’une des options suivantes :
-      * **Heures**: Affiche le temps alloué sous forme d’heures. Il s’agit de la valeur par défaut.
-      * **Pourcentage**: Affiche le temps alloué sous forme de pourcentage du temps disponible total
+      * **Heures**: affiche le temps alloué sous forme d’heures. Il s’agit du paramètre par défaut.
+      * **Pourcentage**: affiche le temps alloué en pourcentage du temps disponible total
    * Dans le **Tri des préférences** , sélectionnez le mode de tri des éléments dans l’équilibreur de charge de travail. Sélectionnez l’une des options suivantes :
-      * **Tri des utilisateurs par rôle Principal**: Les utilisateurs s’affichent dans l’ordre alphabétique de leurs rôles Principal dans la zone Travail attribué.
-      * **Trier les utilisateurs par ordre alphabétique**: Les utilisateurs s’affichent dans l’ordre alphabétique de leur prénom dans la zone Travail attribué .
-      * **Tri des projets par**: Sélectionnez un champ de projet dans le menu déroulant pour trier les projets par ordre alphabétique en fonction de ce champ dans les zones Travail non assigné ou Travail assigné.
+      * **Tri des utilisateurs par rôle de Principal**: les utilisateurs s’affichent dans l’ordre alphabétique de leurs rôles de Principal dans la zone Travail attribué.
+      * **Trier les utilisateurs par ordre alphabétique**: les utilisateurs s’affichent dans l’ordre alphabétique de leur prénom dans la zone Travail attribué.
+      * **Tri des projets par**: sélectionnez un champ de projet dans le menu déroulant pour trier les projets par ordre alphabétique en fonction de ce champ dans les zones Travail non assigné ou Travail assigné.
 
    >[!TIP]
    >
@@ -338,7 +335,6 @@ La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est re
    >* Lorsque vous affichez l’équilibreur de charge de travail par semaine, les heures affichées sont les heures planifiées hebdomadaires.
 
 
-
 1. (Facultatif) Passez la souris sur le temps alloué dans la ligne utilisateur pour comprendre la capacité et l’allocation de l’utilisateur. La capacité est la disponibilité de l’utilisateur selon son planning.
 
    ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
@@ -350,21 +346,20 @@ La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est re
 
    * **Attribuez-le à**, puis commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe auquel vous souhaitez affecter l’élément de travail dans la variable **Recherche de personnes, de rôles ou d’équipes** champ .
 
-      Vous pouvez également utiliser les raccourcis suivants pour affecter des tâches ou des problèmes :
+     Vous pouvez également utiliser les raccourcis suivants pour affecter des tâches ou des problèmes :
 
-      * Sous Windows : CTRL+clic sur la barre de tâche ou de problème.
-      * Dans Mac : CMD+cliquez sur la barre de tâche ou de problème.
+      * Sous Windows : cliquez sur la barre de tâches ou de problèmes tout en maintenant la touche Ctrl enfoncée.
+      * Dans Mac : cliquez sur la barre de tâches ou de problèmes tout en maintenant la touche CMD.
 
-      Pour plus d’informations sur l’affectation d’éléments de travail aux utilisateurs dans l’équilibreur de charge de travail, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../workload-balancer/assign-work-in-workload-balancer.md).
+     Pour plus d’informations sur l’affectation d’éléments de travail aux utilisateurs dans l’équilibreur de charge de travail, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../workload-balancer/assign-work-in-workload-balancer.md).
 
-      >[!TIP]
-      >
-      >Si l’administrateur de Workfront ou de groupe a activé les délégations dans votre environnement, utilisez l’onglet Affectations pour affecter des utilisateurs à la tâche ou au problème. Pour plus d’informations sur la délégation de travail, voir [Gérer la délégation des tâches et des problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >[!TIP]
+     >
+     >Si l’administrateur de Workfront ou de groupe a activé les délégations dans votre environnement, utilisez l’onglet Affectations pour affecter des utilisateurs à la tâche ou au problème. Pour plus d’informations sur la délégation de travail, voir [Gérer la délégation des tâches et des problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
 
    * **Modifier les attributions**, puis modifiez les allocations quotidiennes ou hebdomadaires de l’utilisateur. Pour plus d’informations sur la gestion des affectations d’utilisateurs, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
    * **Ouvrir le résumé**. Le panneau Résumé s’ouvre à droite, puis cliquez sur le champ Affectations et commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe dans le champ **Recherche de personnes, de rôles ou d’équipes** pour affecter l’élément. Pour plus d’informations, voir la section [Affichage d’informations supplémentaires sur les tâches et les problèmes](#display-more-information-about-tasks-and-issues) dans cet article.
-
 
 1. (Facultatif) Cliquez deux fois sur une allocation quotidienne ou hebdomadaire pour un utilisateur dans la barre d’un élément de travail afin de modifier le nombre d’heures allouées, puis cliquez sur le bouton **Enregistrer** icon ![](assets/save-allocations-wb.png) pour enregistrer les affectations ou la variable **Annuler** icon  ![](assets/cancel-allocations-wb.png) pour supprimer les allocations que vous avez ajustées.
 
@@ -393,7 +388,7 @@ Au lieu d’afficher les allocations sous forme de nombres quotidiens ou hebdoma
 
    Les jours où l’utilisateur est suralloué s’affichent sous forme de blocs rouges, et les jours où l’utilisateur est sous-affecté ou à capacité s’affichent sous forme de blocs bleus.
 
-   La taille des blocs indique la quantité de l’allocation : plus la boîte est grande, plus l’utilisateur est affecté aux tâches pour ce jour ou cette semaine.
+   La taille des blocs indique la quantité de l’allocation : plus la boîte est grande, plus l’utilisateur est affecté aux tâches pour cette journée ou cette semaine.
 
    ![](assets/user-allocation-chart-350x237.png)
 
@@ -424,7 +419,7 @@ Vous pouvez afficher plus d’informations sur les tâches et les problèmes dan
 
    ![](assets/task-bar-hover-over-detail-wb.png)
 
-1. Cliquez sur le nom d’une tâche à gauche pour y accéder. L’élément de travail s’ouvre dans un nouvel onglet du navigateur.
+1. Cliquez sur le nom d’un élément de travail à gauche pour y accéder. L’élément de travail s’ouvre dans un nouvel onglet du navigateur.
 
 
 ### Afficher l’équilibreur de charge de travail en plein écran
@@ -435,7 +430,7 @@ Vous pouvez afficher plus d’informations sur les tâches et les problèmes dan
 
    L’équilibreur de charge de travail occupe tout l’écran. Les fenêtres et les onglets du navigateur sont exclus de la vue.
 
-1. Cliquez sur le bouton **Quitter le mode Plein écran** icon ![](assets/exit-full-screen.png) pour revenir à l’écran par défaut et afficher l’équilibreur de charge de travail dans l’onglet du navigateur.
+1. Cliquez sur le bouton **Quitter le plein écran** icon ![](assets/exit-full-screen.png) pour revenir à l’écran par défaut et afficher l’équilibreur de charge de travail dans l’onglet du navigateur.
 
 
 ## Navigation dans l’équilibreur de charge de travail d’une équipe
@@ -450,8 +445,8 @@ La page de votre équipe d’accueil s’affiche par défaut.
 
    L&#39;équilibreur de charge de travail d&#39;une équipe affiche par défaut les informations suivantes :
 
-   * Dans le **Travail non attribué** area : Éléments de travail affectés à l’équipe ou à l’équipe et aux rôles de tâche, et qui ne sont pas affectés aux utilisateurs.
-   * Dans le **Travail attribué** area : Les éléments de travail affectés aux utilisateurs s’affichent sous les noms des utilisateurs.
+   * Dans le **Travail non attribué** zone : tâches affectées à l’équipe ou à l’équipe et rôles de tâche, et qui ne sont pas affectées aux utilisateurs.
+   * Dans le **Travail assigné** zone : les éléments de travail affectés aux utilisateurs s’affichent sous les noms des utilisateurs.
 
 1. Continuez à naviguer dans l’équilibreur de charge de travail d’une équipe, comme décrit dans la section [Accédez à l’équilibreur de charge de travail pour plusieurs projets dans la zone Ressource .](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de cet article.
 
@@ -465,8 +460,8 @@ La page de votre équipe d’accueil s’affiche par défaut.
 
    L’équilibreur de charge de travail pour le projet affiche les informations suivantes, par défaut :
 
-   * Dans le **Travail non attribué** area : Éléments de travail sur le projet qui sont affectés à des rôles ou à des équipes et qui ne sont pas affectés aux utilisateurs.
-   * Dans le **Travail attribué** area : Éléments de travail du projet affectés à au moins un utilisateur.
+   * Dans le **Travail non attribué** zone : éléments de travail du projet qui sont affectés à des rôles ou à des équipes et qui ne sont pas affectés aux utilisateurs.
+   * Dans le **Travail assigné** zone : éléments de travail du projet affectés à au moins un utilisateur.
 
    Nous vous recommandons d’utiliser des filtres pour afficher uniquement les utilisateurs qui sont importants pour vous.
 
