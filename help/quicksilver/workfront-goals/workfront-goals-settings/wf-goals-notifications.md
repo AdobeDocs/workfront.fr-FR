@@ -3,13 +3,13 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Activation des notifications d’Adobe Workfront Goals
-description: Les objectifs Adobe Workfront sont accompagnés d’un ensemble de notifications d’événement prédéfinies que vous pouvez activer pour votre compte. Ces notifications d’événement déclenchent une communication par e-mail chaque fois que la condition définie par l’événement est remplie.
+description: Les objectifs d’Adobe Workfront sont accompagnés d’un ensemble de notifications d’événement prédéfinies que vous pouvez activer pour votre compte. Ces notifications d’événement déclenchent une communication par e-mail chaque fois que la condition définie par l’événement est remplie.
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Les objectifs d’Adobe Workfront sont accompagnés d’un ensemble de notifications d’événement que vous pouvez activer pour votre compte. Ces notifications d’événement déclenchent une communication par e-mail chaque fois que la condition définie par l’événement est remplie.
 
-Pour plus d’informations sur les notifications que vous pouvez activer pour les objectifs Workfront, voir [Notifications : Objectifs](../../workfront-basics/using-notifications/notifications-goals.md).
+Pour plus d’informations sur les notifications que vous pouvez activer pour les objectifs Workfront, voir [Notifications : objectifs](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Pour plus d’informations sur la gestion des notifications dans Adobe Workfront, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations sur la gestion des notifications dans Adobe Workfront, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

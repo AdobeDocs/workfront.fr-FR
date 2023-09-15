@@ -1,23 +1,23 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifications : Informations sur les projets sur lesquels je travaille"
+title: "Notifications : informations sur les projets sur lesquels je me trouve"
 description: Les notifications suivantes vous alertent sur les activités qui se produisent dans les projets sur lesquels vous travaillez.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1586'
 ht-degree: 6%
 
 ---
 
-# Notifications : Informations sur les projets sur lesquels je travaille
+# Notifications : informations sur les projets sur lesquels je travaille
 
 Les notifications suivantes vous alertent sur les activités qui se produisent dans les projets sur lesquels vous travaillez.
 
-Pour plus d’informations sur la configuration des notifications que vous recevez, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations sur la configuration des notifications que vous recevez, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Voir aussi [Notifications d’événements](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -40,7 +40,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
   </tr> 
   <tr> 
    <td> <p><strong>Envoyer un e-mail à l'équipe lorsqu'une tâche jalonnée est terminée.</strong> </p> <p>Les membres d’une équipe de projet reçoivent une notification lorsqu’une tâche de jalon sur le projet est terminée. Les notifications ne sont pas envoyées lorsqu’une tâche personnelle est terminée.</p> <p>Une notification est envoyée uniquement si l’état du projet est [!UICONTROL Actuel] ou [!UICONTROL Planification].</p> <p>L’objet est <em>[!UICONTROL Complete] : &lt;task name=""&gt; on &lt;project name=""&gt;</em></p> <p>L’objet de la notification quotidiennement Digest est <em> [!UICONTROL Résumé des projets sur lesquels vous vous trouvez] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
-   <td> Nom de la tâche<br>Nom du projet<br>Numéro de référence de la tâche<br>Nom de l’utilisateur qui a terminé la tâche<br>État de la tâche<br>Date et heure auxquelles la tâche a été terminée<br>État de la tâche précédente<br><strong>[!UICONTROL Voir Plus De Détails]</strong> button <br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de tâches terminées<br>*Nom de la tâche<br>*Nom de l’utilisateur qui a terminé la tâche<br>*Date du résumé quotidien<br></td> 
+   <td> Task Name<br>Nom du projet<br>Numéro de référence de tâche<br>Nom de l’utilisateur qui a terminé la tâche<br>État de la tâche<br>Date et heure auxquelles la tâche a été terminée<br>État de la tâche précédente<br><strong>[!UICONTROL Voir Plus De Détails]</strong> button <br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de tâches terminées<br>*Task Name<br>*Nom de l’utilisateur qui a terminé la tâche<br>*Date du résumé quotidien<br></td> 
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
    <td><strong>Instantané</strong> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Un projet auquel mon équipe participe est devenu actif</strong> <p>Les membres d’une équipe reçoivent une notification par e-mail lorsqu’un projet devient principal. L'équipe doit être affectée à au moins une tâche pour recevoir la notification.</p><p>Si un utilisateur individuel et une équipe sont tous deux affectés à une tâche du projet. l’équipe ne recevra pas de notification.</p><p>L'objet de l'email de notification instantanée est <i>&lt;project name=""&gt; [!UICONTROL est Principal - Accédez à votre projet et voyez vos tâches !]</i></p><p>L’objet de la notification quotidiennement Digest est <em> [!UICONTROL Résumé des projets sur lesquels vous vous trouvez] &lt;date of="" daily="" digest=""&gt; </em></p></td> 
+   <td><strong>Un projet auquel mon équipe participe est devenu actif</strong> <p>Les membres d’une équipe reçoivent une notification par e-mail lorsqu’un projet devient actif. L'équipe doit être affectée à au moins une tâche pour recevoir la notification.</p><p>Si un utilisateur individuel et une équipe sont tous deux affectés à une tâche sur le projet. l’équipe ne recevra pas de notification.</p><p>L'objet de l'email de notification instantanée est <i>&lt;project name=""&gt; [!UICONTROL est actif : accédez à votre projet et voyez vos tâches !]</i></p><p>L’objet de la notification quotidiennement Digest est <em> [!UICONTROL Résumé des projets sur lesquels vous vous trouvez] &lt;date of="" daily="" digest=""&gt; </em></p></td> 
    <td>Nom du projet<br>Nom du Portfolio<br>Numéro de référence du projet<br>État du projet<br>[!UICONTROL Date d’achèvement prévue du projet]<br>Propriétaire du projet<br>Liste des tâches affectées à votre équipe<br><strong>[!UICONTROL Voir Plus De Détails]</strong> button<br>*Nom du projet<br>*Numéro de référence du projet<br>*État du projet<br>*Date du résumé quotidien</td> 
    <td><strong>Instantané</strong> </td> 
   </tr> 
@@ -59,8 +59,8 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Quand une tâche est terminée, envoyer un e-mail à l'équipe</strong> </p> <p>Les membres d’une équipe de projet reçoivent une notification par e-mail lorsqu’une tâche est terminée sur leur projet. <br>Pour plus d’informations sur l’équipe de projet, voir <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Présentation de l’équipe de projet</a>.</p> <p>Une notification est envoyée uniquement si l’état du projet est [!UICONTROL Actuel].</p> <p>L'objet de l'email de notification instantanée est <em>[!UICONTROL Complete] : &lt;task name=""&gt; on &lt;project name=""&gt;</em></p> <p> <p>Remarque : Si la tâche est modifiée et passe à un état qui correspond à [!UICONTROL Terminé], l’objet de l’email affiche toujours "[!UICONTROL Terminé]".</p> </p> <p><em> L’objet de la notification quotidiennement Digest est : [!UICONTROL Résumé des projets sur lesquels vous vous trouvez] &lt;date of="" daily="" digest=""&gt; </em> </p> </td> 
-   <td> <p>Nom de la tâche<br>Nom du projet<br>Numéro de référence de la tâche<br>Nom de l’utilisateur qui a terminé la tâche<br>État de la tâche<br>Date et heure de modification de l’état de la tâche<br>État de la tâche précédente<br><strong>Voir Plus de détails</strong> button<br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de tâches terminées<br>*Nom de la tâche<br>*Nom de l’utilisateur qui a terminé la tâche<br>*Date du résumé quotidien<br></p> </td> 
+   <td> <p><strong>Quand une tâche est terminée, envoyer un e-mail à l'équipe</strong> </p> <p>Les membres d’une équipe de projet reçoivent une notification par e-mail lorsqu’une tâche est terminée sur leur projet. <br>Pour plus d’informations sur l’équipe de projet, voir <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Présentation de l’équipe de projet</a>.</p> <p>Une notification est envoyée uniquement si l’état du projet est [!UICONTROL Actuel].</p> <p>L'objet de l'email de notification instantanée est <em>[!UICONTROL Complete] : &lt;task name=""&gt; on &lt;project name=""&gt;</em></p> <p> <p>Remarque : Si la tâche est modifiée et passe à l’état qui correspond à [!UICONTROL Terminé], l’objet de l’email affiche toujours "[!UICONTROL Terminé]".</p> </p> <p><em> Le sujet de la notification quotidiennement est le suivant : [!UICONTROL Résumé des projets sur lesquels vous vous trouvez] &lt;date of="" daily="" digest=""&gt; </em> </p> </td> 
+   <td> <p>Task Name<br>Nom du projet<br>Numéro de référence de tâche<br>Nom de l’utilisateur qui a terminé la tâche<br>État de la tâche<br>Date et heure de modification de l’état de la tâche<br>État de la tâche précédente<br><strong>Voir Plus de détails</strong> button<br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de tâches terminées<br>*Task Name<br>*Nom de l’utilisateur qui a terminé la tâche<br>*Date du résumé quotidien<br></p> </td> 
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
   </tr> 
   <tr> 
    <td> <p><strong>Lorsque le statut d'un projet est modifié, envoyer un e-mail à l'équipe</strong> </p> <p>Les membres d’une équipe de projet reçoivent une notification par courrier électronique lorsque l’état du projet change. <br>Pour plus d’informations sur l’équipe de projet, voir <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Présentation de l’équipe de projet</a>.</p> <p>L'objet de l'email de notification instantanée est <em>[!UICONTROL Modification de l’état du projet] : &lt;project name=""&gt;</em></p> <p> L’objet de la notification quotidiennement Digest est <em> [!UICONTROL Résumé des projets sur lesquels vous vous trouvez] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
-   <td> Nom du projet<br>Nom du Portfolio<br>Numéro de référence du projet<br>Nom de l’utilisateur qui a modifié l’état du projet<br>Nouvel état du projet<br>Date et heure de modification de l’état du projet<br>État précédent du projet<br><strong>[!UICONTROL Voir Plus De Détails]</strong> button<br>*Nom du projet<br>*Numéro de référence du projet<br>*État du projet<br>*Date du résumé quotidien </td> 
+   <td> Nom du projet<br>Nom du Portfolio<br>Numéro de référence du projet<br>Nom de l’utilisateur qui a modifié l’état du projet<br>Nouvel état du projet<br>Date et heure de modification du statut du projet<br>État précédent du projet<br><strong>[!UICONTROL Voir Plus De Détails]</strong> button<br>*Nom du projet<br>*Numéro de référence du projet<br>*État du projet<br>*Date du résumé quotidien </td> 
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
  </tbody> 

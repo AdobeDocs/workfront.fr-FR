@@ -1,23 +1,23 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notifications : Informations diverses'''
+title: "Notifications : informations diverses"
 description: Les notifications suivantes vous alertent sur les activités qui se produisent sur un projet que vous sponsorisez.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '966'
 ht-degree: 8%
 
 ---
 
-# Notifications : Informations diverses
+# Notifications : informations diverses
 
 Les notifications suivantes vous alertent sur les activités qui se produisent sur un projet que vous sponsorisez.
 
-Pour plus d’informations sur la configuration des notifications que vous recevez, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations sur la configuration des notifications que vous recevez, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Voir aussi [Notifications d’événements](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -44,7 +44,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
   </tr> 
   <tr> 
    <td> <p><strong>En cas de modification de l'affectation primaire d'une tâche, envoyer un e-mail au propriétaire de la ressource</strong> </p> <p>Lorsque l’un des rapports directs d’un utilisateur désigné en tant que responsable est affecté à une nouvelle tâche, le responsable reçoit un courrier électronique à propos de l’affectation. </p> <p>Une notification est envoyée uniquement si l’état du projet est [!UICONTROL Actuel].</p> <p>L'objet de l'email de notification instantanée est le suivant : <em>[!UICONTROL Task Resource Assignment] : &lt;task name=""&gt;</em></p> </td> 
-   <td>Nom du projet<br>Nom de la tâche<br>Date et heure de création de la tâche<br>Nom de l’utilisateur qui a créé la tâche<br>Noms d’affectation<br>Date d’échéance (date d’achèvement prévue)<br>État de la tâche<br></td> 
+   <td>Nom du projet<br>Task Name<br>Date et heure de création de la tâche<br>Nom de l’utilisateur qui a créé la tâche<br>Noms d’affectation<br>Date d’échéance (date d’achèvement prévue)<br>État de la tâche<br></td> 
    <td><strong>Instantané</strong> </td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
   </tr> 
   <tr> 
    <td> <p><strong>Lorsqu'un utilisateur est ajouté à une équipe de projet, envoyer un e-mail au propriétaire de la ressource</strong> </p> <p>Un responsable reçoit une notification par courrier électronique lorsqu’un de ses utilisateurs est ajouté à un projet. Cette notification est envoyée quel que soit l’état du projet. </p> <p>Les utilisateurs disposant d’une licence [!UICONTROL Review] ne reçoivent pas de notification.</p> <p>L'objet de l'email est le suivant : <em>Attribution de projets : &lt;user name=""&gt;[&lt;project guid=""&gt;_ &lt;user guid=""&gt;]</em></p> </td> 
-   <td> <p>Nom du projet<br>Nom du Portfolio<br>Numéro de référence du projet<br>Nom de l’utilisateur qui a ajouté la personne au projet<br>Nom de l’utilisateur qui a été ajouté au projet<br>[!UICONTROL Date de début planifiée] du projet<br>[!UICONTROL Date d’achèvement prévue du projet]<br>Pourcentage du projet terminé<br>Noms d’autres sur le projet<br>État du projet<br>Propriétaire du projet<br><strong>[!UICONTROL Voir Plus De Détails]</strong> button<br><br><br></p> </td> 
+   <td> <p>Nom du projet<br>Nom du Portfolio<br>Numéro de référence du projet<br>Nom de l’utilisateur qui a ajouté la personne au projet<br>Nom de l’utilisateur ajouté au projet<br>[!UICONTROL Date de début planifiée] du projet<br>[!UICONTROL Date d’achèvement prévue du projet]<br>Pourcentage du projet terminé<br>Noms d’autres sur le projet<br>État du projet<br>Propriétaire du projet<br><strong>[!UICONTROL Voir Plus De Détails]</strong> button<br><br><br></p> </td> 
    <td><strong>Instantané</strong> </td> 
   </tr> 
   <tr> 

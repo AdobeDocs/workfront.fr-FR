@@ -6,9 +6,9 @@ description: Cette page décrit toutes les modifications disponibles dans l’en
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1343'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Le calendrier Travailler sur les équipes contient désormais des fonctionnalit�
 
 La mise à jour du calendrier Working On (Utilisation de l’équipe) comprend les améliorations suivantes :
 
-* Afficher les utilisateurs par ordre alphabétique ou regroupés par rôle.
+* Afficher les utilisateurs par ordre alphabétique ou par rôle.
 * Vous pouvez filtrer la chronologie de la planification par priorités de projet, état et projets individuels. Vous pouvez également filtrer la chronologie de la planification par rôles et utilisateurs. (La zone Filtre comporte moins d’options que lors de la planification des ressources pour les projets.)
 * Incluez des problèmes sur la chronologie de la planification.
 * Affichez les affectations utilisateur et modifiez le nombre d’heures que les utilisateurs sont affectés à certaines tâches et à certains problèmes pour chaque jour.
@@ -49,12 +49,12 @@ La mise à jour du calendrier Working On (Utilisation de l’équipe) comprend l
 Différences avec l’outil de planification des ressources lors de la planification des ressources pour les projets :
 
 * Tous les membres de l’équipe s’affichent dans le calendrier Travail sur l’équipe.\
-   Lors de la planification des ressources pour les projets, seuls les utilisateurs auxquels un rôle est associé et qui correspond au rôle d’une ou de plusieurs tâches dans la zone Non affecté s’affichent.
+  Lors de la planification des ressources pour les projets, seuls les utilisateurs auxquels un rôle est associé et qui correspond au rôle d’une ou de plusieurs tâches dans la zone Non affecté s’affichent.
 * L’outil de permutation n’est pas disponible dans l’équipe qui travaille sur le calendrier.
 * Tout membre de l’équipe peut apporter des modifications au calendrier Travail sur l’équipe.\
-   Lors de la planification des ressources pour les projets, seuls les gestionnaires de ressources peuvent prendre des décisions en matière de ressources pour le projet.
+  Lors de la planification des ressources pour les projets, seuls les gestionnaires de ressources peuvent prendre des décisions en matière de ressources pour le projet.
 * Les problèmes s’affichent par défaut sur le calendrier Travail sur l’équipe.\
-   Lors de la planification des ressources pour les projets, les problèmes ne s’affichent pas par défaut.
+  Lors de la planification des ressources pour les projets, les problèmes ne s’affichent pas par défaut.
 
 Pour plus d’informations sur l’utilisation du calendrier de travail de l’équipe mise à jour, voir &quot;Planification des ressources&quot;.
 
@@ -71,7 +71,7 @@ La chronologie de la planification comprend les améliorations suivantes :
 >
 >Les outils de planification des ressources ont été abandonnés et supprimés de Workfront avec la version 23.1. Pour plus d’informations sur la planification des ressources à l’aide de l’équilibreur de charge de travail, voir [Présentation de l’équilibreur de charge de travail](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Le filtre peut désormais être utilisé pour contrôler quels utilisateurs sont affichés dans la chronologie de planification, en plus des tâches et problèmes affichés dans la zone Non affecté . Lorsque des utilisateurs sont sélectionnés dans le filtre, seuls les utilisateurs que vous sélectionnez s’affichent, qu’ils aient ou non une affectation de rôle correspondant à l’affectation de rôle des tâches dans la zone Non affecté . Toutes les tâches actuellement affectées à cet utilisateur s’affichent également.
+Le filtre peut maintenant être utilisé pour contrôler quels utilisateurs sont affichés dans la chronologie de planification, en plus des tâches et problèmes affichés dans la zone Non affecté . Lorsque des utilisateurs sont sélectionnés dans le filtre, seuls les utilisateurs que vous sélectionnez s’affichent, qu’ils aient ou non une affectation de rôle correspondant à l’affectation de rôle des tâches dans la zone Non affecté . Toutes les tâches actuellement affectées à cet utilisateur s’affichent également.
 
 Avant cette modification, le filtre contrôlait uniquement les tâches et problèmes affichés dans la zone Non affecté . Les utilisateurs s’affichaient dans la chronologie de planification uniquement si l’utilisateur correspondait à l’attribution du rôle d’une tâche dans la zone Non affecté .
 
@@ -103,7 +103,7 @@ Lorsque vous effectuez ce remplacement, les zones suivantes de l’application a
 * Barre de navigation globale
 * Tous les onglets
 * Tous les menus 
-* Créateur de rapports et éléments de création de rapports (vues, filtres et regroupements)
+* Créateur de rapports et éléments de reporting (vues, filtres et regroupements)
 * Bouton Enregistrer
 * Fichiers exportés
 * E-mails
@@ -144,7 +144,7 @@ Les champs suivants ont été supprimés de Workfront et ne peuvent plus être i
 
 L’option de remise Résumé quotidien a été ajoutée à la zone &quot;Demandes que j’ai faites&quot; de vos paramètres de notifications.
 
-Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations, voir [Modifier vos propres notifications électroniques](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 N’oubliez pas de mettre à jour l’adresse électronique associée à votre compte pour pouvoir tester cette fonctionnalité. Cela est nécessaire, car l’environnement de test Aperçu efface les adresses électroniques de tous les utilisateurs.
 
@@ -160,7 +160,7 @@ N’oubliez pas de mettre à jour l’adresse électronique associée à votre c
 
 La vue Milestone disponible lors de l’affichage d’une liste de projets ou d’un rapport de projet contient désormais les améliorations suivantes :
 
-* Les dates planifiées sont modifiables.
+* Les dates planifiées sont modifiables
 * Pourcentage d’achèvement pour les projets et les tâches affiché
 
 Avant cette modification, pour modifier les dates ou afficher le pourcentage terminé, vous deviez accéder à la tâche individuelle.

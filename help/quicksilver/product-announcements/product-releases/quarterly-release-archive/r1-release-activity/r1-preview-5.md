@@ -6,9 +6,9 @@ description: Cette page décrit toutes les modifications disponibles dans l’en
 author: Luke
 feature: Product Announcements
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1281'
 ht-degree: 13%
 
 ---
@@ -33,7 +33,7 @@ Pour plus d’informations sur la configuration de l’emplacement de l’onglet
 
 ## Modification d’un processus d’approbation global existant pour un objet individuel
 
-Vous pouvez désormais modifier un processus d’approbation globale existant lorsque vous associez ce processus d’approbation globale à un objet. Les modifications que vous apportez ne s&#39;appliquent qu&#39;au processus de validation sur l&#39;objet auquel vous l&#39;associez.
+Vous pouvez désormais modifier un processus d’approbation globale existant lorsque vous associez ce processus d’approbation globale à un objet. Les modifications que vous apportez s&#39;appliquent uniquement au processus de validation sur l&#39;objet auquel vous l&#39;associez.
 
 Pour plus d’informations, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [Associer un processus d’approbation nouveau ou existant au travail](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
@@ -45,7 +45,7 @@ Pour plus d’informations sur la configuration des rapports pour afficher le no
 
 Pour plus d’informations sur l’affichage du graphique Gantt dans les rapports de projet et de tâche, voir [Affichage des informations dans le diagramme de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot; dans [Affichage des informations dans le diagramme de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-## Amélioration de la Corbeille : Les tâches et les sous-tâches sont restaurées dans leur ordre précédent
+## Amélioration de la Corbeille : les tâches et les sous-tâches sont restaurées dans leur ordre précédent
 
 Maintenant, lorsque vous restaurez une tâche ou une sous-tâche après sa suppression, la tâche ou la sous-tâche est restaurée à son emplacement précédent (dans la liste des tâches ou sous la tâche parent), dans l’ordre dans lequel elle apparaissait avant d’être supprimée.
 
@@ -58,10 +58,10 @@ Pour plus d’informations sur la restauration d’objets dans Workfront, voir [
 Les améliorations suivantes sont désormais disponibles lors de l’affichage d’une liste de projets ou d’un rapport de projet dans la vue Milestone :
 
 * **Indiquez si l’état de progression et le pourcentage terminé s’affichent dans la vue :** Une nouvelle option permet de configurer l’affichage des icônes Etat de progression dans la vue Jalon. En outre, vous pouvez également configurer l’affichage des informations Pourcentage d’achèvement liées aux projets et aux tâches.\
-   Pour plus d’informations, voir [Utilisation de la vue Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Utilisation de la vue Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+  Pour plus d’informations, voir [Utilisation de la vue Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Utilisation de la vue Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 * **Modifiez le pourcentage terminé directement à partir de la vue Milestone :** Vous pouvez désormais modifier le pourcentage de tâches et de projets terminés directement à partir de la vue Milestone.\
-   Pour plus d’informations, voir [Utilisation de la vue Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Utilisation de la vue Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
+  Pour plus d’informations, voir [Utilisation de la vue Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Utilisation de la vue Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
 ## Mise à jour de l’aspect de plusieurs pages de configuration du système
 
@@ -83,22 +83,22 @@ Les en-têtes de l’organisation des notifications d’événement dans la zone
 
 Pour plus d’informations sur les notifications d’événement, voir  [Configuration des notifications d’événement pour tous les membres du système](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-## Désactivation des notifications instantanées : Configuration du prédicat dans le contexte
+## Désactivation des notifications instantanées : configuration du prédicat dans le contexte
 
 Les options suivantes sont désormais disponibles dans les notifications électroniques instantanées. Ces options ne sont disponibles que pour les notifications instantanées qui ont également une contrepartie condensée quotidienne :
 
-* “Ajouter à la synthèse quotidienne”
+* &quot;Ajouter à la synthèse quotidienne&quot;
 * &quot;Arrêter les emails de ce type&quot;
 
 Désormais, lorsque vous recevez une notification électronique instantanée, vous pouvez soit ajouter cette notification à une notification quotidiennement condensée, soit vous pouvez vous désabonner complètement de cette notification.
 
 Ces options sont disponibles dans la notification électronique. Pour plus d’informations sur la réception de notifications par courrier électronique, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md)
 
-## Diverses notifications par e-mail transférées de la section &quot; Action requise &quot; à d’autres sections liées au projet
+## Diverses notifications par e-mail transférées de la section &quot;Action requise&quot; à d’autres sections liées au projet
 
 Plusieurs notifications ont été déplacées de la section &quot;Action requise&quot; de la page du profil utilisateur vers d’autres sections, comme suit :
 
-Pour plus d’informations sur la configuration des notifications électroniques, voir [Activation ou désactivation de vos propres notifications d’événement](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+Pour plus d’informations sur la configuration des notifications électroniques, voir [Modifier vos propres notifications électroniques](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -172,16 +172,20 @@ Les modifications suivantes ont été ajoutées pour prendre en charge la future
 
 * L’onglet &quot;Planification des ressources&quot; actuel a été renommé &quot;Planification des ressources héritée&quot; dans la zone Personnes. 
 * Un nouvel onglet &quot;Planification des ressources&quot; a été ajouté dans la zone Personnes où la nouvelle fonctionnalité sera développée.\
-   Pour plus d’informations sur le nouvel onglet Resource Planning, voir [Prise en main de la planification des ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
+  Pour plus d’informations sur le nouvel onglet Resource Planning, voir [Prise en main de la planification des ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
 
 * L’objet &quot;Pool de ressources&quot; actuel a été renommé &quot;Pool de ressources hérité&quot;.\
-   Pour plus d’informations sur la création de groupes de ressources basés sur l’utilisateur, voir [Présentation des pools de ressources](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+  Pour plus d’informations sur la création de groupes de ressources basés sur l’utilisateur, voir [Présentation des pools de ressources](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 * Un nouvel objet &quot;Resource Pool&quot; a été créé pour prendre en charge les nouveaux groupes de ressources (basés sur l’utilisateur).
 
-   >[!NOTE]
-   * Si vous exécutez actuellement des rapports sur les pools de ressources hérités existants, les rapports existants ne seront pas modifiés.
-   * Si vous souhaitez créer un nouveau rapport pour les groupes de ressources hérités existants (en fonction du rôle de tâche), vous devez sélectionner &quot;Groupes de ressources hérités&quot; comme objet pour le rapport.
-   * Si vous souhaitez créer un rapport pour les nouveaux groupes de ressources (basés sur l’utilisateur), vous devez sélectionner &quot;Groupes de ressources&quot; comme objet pour le rapport.
-
+  >[!NOTE]
+  >
+  >
   >   
+  >   
+  * Si vous exécutez actuellement des rapports sur les pools de ressources hérités existants, les rapports existants ne seront pas modifiés.
+  * Si vous souhaitez créer un nouveau rapport pour les groupes de ressources hérités existants (en fonction du rôle de tâche), vous devez sélectionner &quot;Groupes de ressources hérités&quot; comme objet pour le rapport.
+  * Si vous souhaitez créer un rapport pour les nouveaux groupes de ressources (basés sur l’utilisateur), vous devez sélectionner &quot;Groupes de ressources&quot; comme objet pour le rapport.
+  >   
+  >

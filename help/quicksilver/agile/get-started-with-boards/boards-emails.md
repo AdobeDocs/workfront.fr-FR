@@ -7,9 +7,9 @@ description: Les panoramas Adobe Workfront vous envoient un e-mail lorsque vous 
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL Panoramas] vous envoie un courrier électronique lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée. Les notifications sont activées par défaut et vous pouvez sélectionner dans les préférences de votre panorama les emails que vous souhaitez recevoir.
 
-Vous recevrez également un e-mail lorsque vous êtes balisé dans un commentaire sur une carte connectée, selon les paramètres de votre notification électronique. Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Actuellement, les utilisateurs balisés dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par courrier électronique.
+Vous recevrez également un e-mail lorsque vous êtes balisé dans un commentaire sur une carte connectée, selon les paramètres de votre notification électronique. Pour plus d’informations, voir [Modifier vos propres notifications électroniques](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Actuellement, les utilisateurs balisés dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par courrier électronique.
 
 ## Exigences d’accès
 

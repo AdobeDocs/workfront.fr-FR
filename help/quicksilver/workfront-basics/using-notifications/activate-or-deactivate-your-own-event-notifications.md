@@ -1,23 +1,24 @@
 ---
 product-area: setup
 navigation-topic: notifications
-title: Activation ou désactivation de vos propres notifications d’événement
-description: Votre administrateur Adobe Workfront configure les notifications d’événement que les utilisateurs reçoivent lorsqu’un événement se produit dans Workfront.
+keywords: modify,email,notification,settings
+title: Modifier vos propres notifications électroniques
+description: Cet article décrit comment gérer vos notifications électroniques dans votre profil utilisateur.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
-# Activation ou désactivation de vos propres notifications d’événement
+# Modifier vos propres notifications électroniques
 
-Votre Adobe [!DNL Workfront] L’administrateur configure les notifications d’événement que reçoivent les utilisateurs lorsqu’un événement se produit dans Workfront (comme décrit dans la section [[!UICONTROL Configurer un événement] notifications destinées à tous les utilisateurs du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Votre Adobe [!DNL Workfront] L’administrateur configure les notifications électroniques que reçoivent les utilisateurs lorsqu’un événement se produit dans Workfront (comme décrit dans la section [[!UICONTROL Configurer un événement] notifications destinées à tous les utilisateurs du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-L’administrateur de votre groupe peut également configurer les notifications d’événement qui sont activées pour vous et les utilisateurs de votre groupe d’accueil. Si votre [!UICONTROL Groupe d’accueil] est un sous-groupe, vous recevez les notifications d’événement activées pour le groupe de niveau supérieur au-dessus de votre groupe.
+L’administrateur de votre groupe peut également configurer les notifications qui sont activées pour vous et les utilisateurs de votre [!UICONTROL Groupe d’accueil]. Si votre [!UICONTROL Groupe d’accueil] est un sous-groupe, vous recevez les notifications activées pour le groupe de niveau supérieur situé au-dessus de votre groupe.
 
 Vous pouvez personnaliser davantage cela en configurant les notifications que vous recevez. Vous pouvez également choisir de recevoir des notifications au fur et à mesure des événements ou dans un email quotidien de résumé.
 
@@ -26,7 +27,7 @@ Pour plus d’informations sur les notifications électroniques, voir [[!DNL Ado
 >[!NOTE]
 >
 >* Si vous activez un type de notification puis constatez que vous ne recevez pas de notifications de ce type, c’est peut-être parce que ce type ne s’applique pas à votre rôle.
->* Le [!DNL Workfront] un administrateur ou un administrateur de groupe ne peut pas configurer de notifications pour [!DNL Workfront Goals]. Pour plus d’informations sur les notifications de la variable [!DNL Workfront] l’administrateur peut configurer, voir [Configuration des notifications d’événement pour tous les membres du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Pour plus d’informations sur la configuration de notifications individuelles pour [!DNL Workfront Goals] continuez à lire cet article.
+>* La variable [!DNL Workfront] un administrateur ou un administrateur de groupe ne peut pas configurer de notifications pour [!DNL Workfront Goals]. Pour plus d’informations sur les notifications de la variable [!DNL Workfront] l’administrateur peut configurer, voir [Configuration des notifications d’événement pour tous les membres du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Pour plus d’informations sur la configuration de notifications individuelles pour [!DNL Workfront Goals] continuez à lire cet article.
 >
 
 ## Exigences d’accès
@@ -54,9 +55,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Afficher et modifier vos paramètres de notification électronique
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur votre nom d’utilisateur en regard de votre image de profil.
+{{step1-click-profile-pic}}
 
-1. Cliquez sur le bouton **[!UICONTROL Plus]** icon ![](assets/more-icon.png) , puis cliquez sur **[!UICONTROL Modifier]**.
+1. Cliquez sur le bouton **[!UICONTROL Plus]** icon ![](assets/more-icon.png) en regard de votre nom, puis cliquez sur **[!UICONTROL Modifier]**.
 
 1. Dans le **[!UICONTROL Modifier la personne]** qui s’affiche, accédez à la **[!UICONTROL Notifications]** .
 
@@ -66,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cochez ou décochez les cases à droite pour indiquer si vous souhaitez recevoir ou non des notifications quotidiennement, instantanément ou les deux.
 
-   Vous pouvez également utiliser les cases à cocher d’une catégorie pour activer ou désactiver toutes les notifications de cette catégorie.
+   Vous pouvez également cocher les cases d’une catégorie pour activer ou désactiver toutes les notifications de cette catégorie.
 
    >[!NOTE]
    >

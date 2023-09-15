@@ -1,21 +1,21 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notifications : Objectifs'
-description: 'Notifications : Objectifs'
+title: "Notifications : objectifs"
+description: "Notifications : objectifs"
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '567'
 ht-degree: 6%
 
 ---
 
-# Notifications : Objectifs
+# Notifications : objectifs
 
-Vous pouvez activer vos notifications par e-mail pour les événements se produisant dans [!DNL Adobe Workfront Goals] dans votre profil. un utilisateur avec un [!UICONTROL Plan] La licence peut également les activer pour d’autres utilisateurs. Pour plus d’informations, voir [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md).
+Vous pouvez activer vos notifications par e-mail pour les événements se produisant dans [!DNL Adobe Workfront Goals] dans votre profil. un utilisateur avec un [!UICONTROL Planifier] La licence peut également les activer pour d’autres utilisateurs. Pour plus d’informations, voir [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Exigences d’accès
 
@@ -62,7 +62,7 @@ L’utilisateur dont [!DNL Goals] Les notifications doivent être mises à jour 
 * Un modèle de mise en page qui comprend la variable [!DNL Goals] dans la zone [!UICONTROL Menu Principal].
 * Accès au nouveau [!DNL Adobe Workfront] expérience.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: we need this here because you can see these notifications from Classic)
   </MadCap:conditionalText>
@@ -70,7 +70,7 @@ L’utilisateur dont [!DNL Goals] Les notifications doivent être mises à jour 
 
 ## [!DNL Goals] notifications dans la variable [!UICONTROL profil utilisateur] area
 
-Les notifications répertoriées dans le tableau suivant vous avertissent des événements se produisant dans [!DNL Workfront Goals], par exemple lorsqu’une personne vous affecte un objectif, un résultat ou une activité ou qu’elle effectue une mise à jour d’un objectif, d’un résultat ou d’une activité que vous détenez. Pour plus d’informations sur la configuration des notifications que vous recevez, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Les notifications répertoriées dans le tableau suivant vous avertissent des événements se produisant dans [!DNL Workfront Goals], par exemple lorsqu’une personne vous affecte un objectif, un résultat ou une activité ou qu’elle effectue une mise à jour d’un objectif, d’un résultat ou d’une activité que vous détenez. Pour plus d’informations sur la configuration des notifications que vous recevez, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/goals-notifications-preferences-350x114.png)
 
@@ -90,23 +90,23 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
   </tr> 
   <tr> 
    <td><strong>Quelqu’un m’a affecté un résultat/une activité</strong></td> 
-   <td> <p>Nom de la personne qui vous a attribué le résultat ou l’activité.</p> <p>Période de l’objectif pour le résultat ou l’activité</p> <p>Nom du résultat ou de l’activité</p> <p>Le <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>Le <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
+   <td> <p>Nom de la personne qui vous a attribué le résultat ou l’activité.</p> <p>Période de l’objectif pour le résultat ou l’activité</p> <p>Nom du résultat ou de l’activité</p> <p>La variable <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>La variable <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Quelqu’un a créé un nouvel Objectif personnel pour moi</strong> </td> 
-   <td> <p>Nom de la personne qui a attribué l’objectif.</p> <p>Période de l’objectif</p> <p>Nom de l’objectif</p> <p>Le <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>Le <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
+   <td> <p>Nom de la personne qui a attribué l’objectif.</p> <p>Période de l’objectif</p> <p>Nom de l’objectif</p> <p>La variable <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>La variable <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Quelqu'un a publié un commentaire sur mon Objectif</strong></td> 
-   <td> <p>Nom de la personne qui a laissé le commentaire</p> <p>Période de l’objectif </p> <p>Nom de l’objectif</p> <p>Le texte du commentaire</p> <p>Le <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>Le <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
+   <td> <p>Nom de la personne qui a laissé le commentaire</p> <p>Période de l’objectif </p> <p>Nom de l’objectif</p> <p>Le texte du commentaire</p> <p>La variable <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>La variable <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Quelqu'un a apprécié mon commentaire sur un Objectif</strong></td> 
-   <td> <p>Nom de la personne ayant aimé le commentaire</p> <p>Période de l’objectif </p> <p>Nom de l’objectif</p> <p>Le texte du commentaire </p> <p>Le <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>Le <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
+   <td> <p>Nom de la personne ayant aimé le commentaire</p> <p>Période de l’objectif </p> <p>Nom de l’objectif</p> <p>Le texte du commentaire </p> <p>La variable <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>La variable <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Quelqu'un a apprécié une mise à jour de mon Objectif</strong></td> 
-   <td> <p>Vous recevez un e-mail lorsqu’une personne aime un commentaire que vous avez fait sur un objectif ou lorsque vous mettez à jour la progression de vos résultats ou activités sur l’objectif. </p> <p>Nom de la personne qui a aimé la mise à jour</p> <p>Période de l’objectif </p> <p>Nom de l’objectif</p> <p>Le <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>Le <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
+   <td> <p>Vous recevez un e-mail lorsqu’une personne aime un commentaire que vous avez fait sur un objectif ou lorsque vous mettez à jour la progression de vos résultats ou activités sur l’objectif. </p> <p>Nom de la personne qui a aimé la mise à jour</p> <p>Période de l’objectif </p> <p>Nom de l’objectif</p> <p>La variable <strong>[!UICONTROL Ouvrir dans l’application web]</strong> qui ouvre le panneau [!UICONTROL Détails de l’objectif]</p> <p>La variable <strong>[!UICONTROL Modifier les paramètres des notifications]</strong> qui vous permet de gérer vos notifications.</p> </td> 
   </tr> 
  </tbody> 
 </table>

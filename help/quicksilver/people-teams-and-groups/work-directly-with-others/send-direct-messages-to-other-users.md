@@ -7,23 +7,23 @@ description: Adobe Workfront vous permet d’envoyer rapidement et facilement de
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # Envoyer des messages directs à d’autres utilisateurs
 
-[!DNL Adobe Workfront] vous permet d’envoyer rapidement et facilement des messages qui ne sont liés à aucun élément de travail directement à d’autres [!DNL Workfront] utilisateurs. Les messages envoyés comme décrit dans cette section apparaissent dans la section [!UICONTROL Mises à jour] sur la page d’accueil de l’utilisateur et sont visibles par tous les utilisateurs. Pour plus d’informations sur les mises à jour, voir [Mise à jour des tâches et affichage des mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] vous permet d’envoyer rapidement et facilement des messages sans rapport direct avec un élément de travail à d’autres [!DNL Workfront] utilisateurs. Les messages envoyés comme décrit dans cette section apparaissent dans [!UICONTROL Mises à jour] sur la page d’accueil de l’utilisateur et sont visibles par tous les utilisateurs. Pour plus d’informations sur les mises à jour, voir [Mise à jour des tâches et affichage des mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 L’utilisateur auquel vous envoyez le message reçoit les types de notifications suivants lorsque vous envoyez un message, comme décrit dans cette section :
 
 * Une notification in-app, comme décrit dans [Affichage et gestion des notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * Une notification électronique
 
-   Cela dépend des types de notifications électroniques que l’utilisateur est configuré pour recevoir. Pour plus d’informations, voir [Configuration des notifications d’événement pour tous les membres du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [Affichage et configuration des notifications d’événement pour un groupe](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), et [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  Cela dépend des types de notifications électroniques que l’utilisateur est configuré pour recevoir. Pour plus d’informations, voir [Configuration des notifications d’événement pour tous les membres du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [Affichage et configuration des notifications d’événement pour un groupe](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), et [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Exigences d’accès
 
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Accédez à la page d’accueil de l’utilisateur auquel vous souhaitez envoyer un message.\
    Pour accéder à la page d’accueil d’un utilisateur, procédez comme suit :
 
-   * Cliquez sur le nom associé de l’utilisateur tel qu’il apparaît n’importe où dans la [!DNL Workfront] . Les noms d’utilisateur s’affichent dans de nombreuses zones de la variable [!DNL Workfront] , par exemple dans un commentaire de l’utilisateur.
+   * Cliquez sur le nom associé de l’utilisateur tel qu’il apparaît n’importe où dans la [!DNL Workfront] . Les noms d’utilisateur s’affichent dans de nombreuses zones de [!DNL Workfront] , par exemple dans un commentaire de l’utilisateur.
 
 1. Sur le **[!UICONTROL Mises à jour]** , cliquez dans le champ de zone de texte.
 

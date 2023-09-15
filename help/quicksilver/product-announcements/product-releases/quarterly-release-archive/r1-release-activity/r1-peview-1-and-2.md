@@ -6,9 +6,9 @@ description: Cette page décrit toutes les modifications disponibles dans l’en
 author: Luke
 feature: Product Announcements
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1131'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Pour plus d’informations sur la restauration d’objets dans Workfront, voir [
 
 Pour plus d’informations sur l’affichage des projets, tâches et problèmes récemment restaurés, voir [Afficher l’élément restauré](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-## Diagramme d’approbation Affiche la représentation visuelle des étapes d’approbation précédentes, actuelles et futures.
+## Le diagramme d’approbation affiche la représentation visuelle des étapes d’approbation précédentes, actuelles et futures.
 
 Désormais, lorsqu’une approbation est en attente sur un projet, une tâche ou un problème, un diagramme s’affiche. Le diagramme d&#39;approbation affiche l&#39;étape en cours du processus de validation (en attente) et permet également d&#39;afficher rapidement les étapes de validation précédentes et futures sans accéder à l&#39;onglet Validations .
 
@@ -44,15 +44,15 @@ Pour plus d’informations, voir [Valider le travail](../../../../review-and-app
 Lorsqu’un projet, une tâche ou un problème est en attente d’approbation, vous pouvez maintenant configurer si les utilisateurs peuvent :
 
 * Modifiez le formulaire personnalisé d’un projet, d’une tâche ou d’un problème en attente d’approbation.\
-   Pour plus d’informations sur la configuration des projets, tâches et problèmes à modifier lors de l’approbation en attente, voir [Configuration des paramètres d’approbation globaux](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  Pour plus d’informations sur la configuration des projets, tâches et problèmes à modifier lors de l’approbation en attente, voir [Configuration des paramètres d’approbation globaux](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 
 * Ajoutez des problèmes à un projet en attente d’approbation.\
-   Pour plus d’informations sur la configuration des projets pour permettre aux utilisateurs d’ajouter des problèmes lorsque le projet est en attente d’approbation, voir [Configuration des préférences de projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Pour plus d’informations sur la configuration des projets pour permettre aux utilisateurs d’ajouter des problèmes lorsque le projet est en attente d’approbation, voir [Configuration des préférences de projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Modifiez les tâches et les problèmes dans un projet en attente d’approbation.\
-   Pour plus d’informations sur la configuration des projets pour permettre aux utilisateurs de modifier les tâches et les problèmes lorsque le projet est en attente d’approbation, voir [Configuration des préférences de projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Pour plus d’informations sur la configuration des projets pour permettre aux utilisateurs de modifier les tâches et les problèmes lorsque le projet est en attente d’approbation, voir [Configuration des préférences de projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Avant cette modification, les projets, tâches et problèmes en attente d’approbation n’ont pas pu être modifiés. en outre, les problèmes n’ont pas pu être ajoutés aux projets en attente d’approbation, et les tâches et problèmes n’ont pas pu être modifiés dans les projets en attente d’approbation.
+Avant cette modification, les projets, tâches et problèmes en attente d’approbation ne pouvaient pas être modifiés ; en outre, les problèmes ne pouvaient pas être ajoutés aux projets en attente d’approbation, et les tâches et problèmes ne pouvaient pas être modifiés dans les projets en attente d’approbation.
 
 ## Affectation de modèles de mise en page à des groupes
 
@@ -68,7 +68,7 @@ La fonctionnalité a changé lors de la modification en masse des paramètres de
 
 Avant cette modification, les paramètres de notification électronique que vous avez sélectionnés étaient enregistrés et tous les autres paramètres de notification inchangés étaient désélectionnés lorsque vous avez enregistré vos modifications. 
 
-Pour plus d’informations, voir &quot;Modification des paramètres de notification utilisateur en bloc&quot; dans [Activation ou désactivation de vos propres notifications d’événement](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations, voir &quot;Modification des paramètres de notification utilisateur en bloc&quot; dans [Modifier vos propres notifications électroniques](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Mise à jour de l’aspect de plusieurs notifications par courrier électronique
 
@@ -88,7 +88,7 @@ N’oubliez pas de mettre à jour l’adresse électronique associée à votre c
 
 L’option &quot;Daily Digest&quot; a été ajoutée dans les zones de notifications suivantes :
 
-* Informations sur les projets sur lesquels je travaille
+* Informations sur les projets que je suis en cours
 * Informations sur les projets dont je suis le sponsor
 * Informations d&#39;approbation
 * Informations sur le travail qui m&#39;a été affecté
@@ -108,7 +108,7 @@ Vous pouvez maintenant partager l’URL sur les objets suivants de l’applicati
 
 * Projets
 * Tâches
-* Événements
+* Problèmes
 * Feuilles de temps
 * Documents
 
@@ -144,6 +144,6 @@ This feature focuses primarily on improving the performance of large lists of ta
 
  
 
-## Enregistrement du webinaire sur l’aperçu 1 et la version 2 de R1
+## Enregistrement du webinaire Aperçu 1 et 2 de la version R1
 
 Ce webinaire a été présenté par l’équipe Préparation à la publication de Workfront le 19 janvier 2017. Ce webinaire a été consacré aux modifications de version de 2017 et a couvert les nouvelles fonctionnalités qui peuvent être testées dans l’aperçu.

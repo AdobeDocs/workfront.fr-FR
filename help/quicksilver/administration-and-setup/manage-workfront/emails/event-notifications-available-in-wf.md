@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '5008'
+source-wordcount: '5006'
 ht-degree: 25%
 
 ---
@@ -24,13 +24,13 @@ Ces notifications peuvent être configurées au niveau du système et du groupe 
 * Pour plus d’informations sur la configuration des notifications d’événement au niveau du système, voir [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 * Pour plus d’informations sur la configuration des notifications d’événement au niveau du groupe, voir [Affichage et configuration des notifications d’événement pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-Les utilisateurs individuels peuvent également activer et désactiver leurs notifications d’événement individuelles dans leur profil individuel. Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Les utilisateurs individuels peuvent également activer et désactiver leurs notifications d’événement individuelles dans leur profil individuel. Pour plus d’informations, voir [Modifier vos propres notifications électroniques](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Les tableaux suivants répertorient toutes les notifications d’événement Adobe Workfront, une brève description de l’événement et si l’événement est principal ou inactif par défaut.
+Les tableaux suivants répertorient toutes les notifications d’événement Adobe Workfront, une brève description de l’événement et si l’événement est actif ou inactif par défaut.
 
 ## Action nécessaire
 
-Voir aussi [Notifications : Action nécessaire](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,14 +47,14 @@ Voir aussi [Notifications : Action nécessaire](../../../workfront-basics/using-
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Utilisateur ou utilisatrice</p> </td> 
+   <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>Demande d’accès à l’utilisateur</p> </td> 
    <td> <p>Quelqu'un me demande un accès.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> <p> </p> </td> 
-   <td> <p>:</p> </td> 
+   <td> <p>Demande de document - Ajout du créateur du problème</p> </td> 
    <td> <p>Me demander de télécharger un ou plusieurs documents.</p> <p>Le demandeur de document reçoit une notification par courrier électronique lorsqu’il reçoit une demande de téléchargement d’un document.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
@@ -67,7 +67,7 @@ Voir aussi [Notifications : Action nécessaire](../../../workfront-basics/using-
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Affectation d'événement envoyée au cessionnaire</p> </td> 
-   <td> <p>En cas de modification de l'affectation d'un événement, envoyer un e-mail au nouveau cessionnaire.</p> <p>La personne désignée pour le problème ne reçoit une notification par courrier électronique que si l’état du projet est Actuel et que l’état du problème n’est pas Fermé ou que l’état du problème est Terminé.</p> <p>Les utilisateurs disposant d’une licence de vérification ou de requête ne reçoivent pas de notification.</p> </td> 
+   <td> <p>En cas de modification de l'affectation d'un événement, envoyer un e-mail au nouveau cessionnaire.</p> <p>La personne désignée pour le problème ne reçoit une notification par courrier électronique que si l’état du projet est Actuel et que l’état du problème n’est pas Fermé ou que l’état du problème est Terminé.</p> <p>Les utilisateurs disposant d’une licence de révision ou de demande ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Voir aussi [Notifications : Action nécessaire](../../../workfront-basics/using-
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Affectation de la tâche envoyée au cessionnaire</p> </td> 
-   <td> <p>En cas de modification de l'affectation principale d'une tâche, envoyer un e-mail au nouveau cessionnaire.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique s’il est nommé responsable Principal de la tâche, sauf si le cessionnaire est l’utilisateur qui a effectué l’affectation.</p> <p>Une notification est envoyée si l’état du projet est Actuel et que la tâche n’est pas marquée Terminée.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>En cas de modification de l'affectation principale d'une tâche, envoyer un e-mail au nouveau cessionnaire.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique s’il est désigné premier responsable de la tâche, sauf si le cessionnaire est l’utilisateur qui a effectué l’affectation.</p> <p>Une notification est envoyée si l’état du projet est Actuel et que la tâche n’est pas marquée Terminée.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -147,7 +147,7 @@ Voir aussi [Notifications : Action nécessaire](../../../workfront-basics/using-
 
 ## Demandes que j’ai faites
 
-Voir aussi [Notifications : Demandes que j’ai faites](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+Voir aussi [Notifications : demandes que j’ai effectuées](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -178,13 +178,13 @@ Voir aussi [Notifications : Demandes que j’ai faites](../../../workfront-basic
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout d'événement envoyé au créateur de l'événement</p> </td> 
-   <td> <p>J’ajoute un problème à un projet.</p> <p>Le contact Principal sur un problème reçoit une notification lorsqu’il ajoute un problème dans un projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>J’ajoute un problème à un projet.</p> <p>Le contact principal sur un problème reçoit une notification lorsqu’il ajoute un problème dans un projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td>Problème</td> 
    <td>Affectation d'événement au contact principal de l'événement</td> 
-   <td> <p>Une personne a été affectée à un événement dont je suis le contact principal.</p> <p>Le contact Principal sur un problème reçoit une notification lorsque le problème est assigné à un utilisateur. </p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Une personne a été affectée à un événement dont je suis le contact principal.</p> <p>Le contact principal sur une question reçoit une notification lorsque la question est assignée à un utilisateur. </p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
    <td> Inactif</td> 
   </tr> 
   <tr> 
@@ -202,31 +202,31 @@ Voir aussi [Notifications : Demandes que j’ai faites](../../../workfront-basic
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout de demande de bureau d'aide - Envoi au créateur du problème</p> </td> 
-   <td> <p>Je soumets une demande (confirmation).</p> <p>Le contact Principal sur le problème reçoit une notification par courrier électronique lorsqu’il envoie un problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le projet utilise une vue "Is Help Desk".</p> </td> 
+   <td> <p>Je soumets une demande (confirmation).</p> <p>Le contact par Principal sur le problème reçoit une notification par courrier électronique lorsqu’il envoie un problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le projet utilise une vue "Is Help Desk".</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Affectation de demande de bureau d'aide - Envoi au créateur du problème</p> </td> 
-   <td> <p>Quelqu'un est affecté à ma demande.</p> <p>Le contact Principal de la publication reçoit une notification par courrier électronique lorsqu’un utilisateur est affecté à la publication, sauf si le contact Principal et l’utilisateur affecté sont le même.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le projet utilise une vue "Is Help Desk".</p> </td> 
+   <td> <p>Quelqu'un est affecté à ma demande.</p> <p>Le contact principal de l’émission reçoit une notification par courrier électronique lorsqu’un utilisateur est affecté à l’émission, sauf si le contact principal et l’utilisateur affecté sont le même utilisateur.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le projet utilise une vue "Is Help Desk".</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Clôture de demande de bureau d'aide - Envoi au créateur du problème</p> </td> 
-   <td> <p>Ma demande est close (confirmation).</p> <p>Le contact Principal du problème reçoit une notification par e-mail à la fermeture de la demande.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le projet utilise une vue "Is Help Desk".</p> <p>Si les notifications relatives à la "fin du problème" sont activées, elles se déclenchent toujours au lieu de la "demande fermée pour le contact Principal du problème". Si vous souhaitez que cette notification se déclenche, vous devez désactiver les notifications "achèvement du problème".</p> </td> 
+   <td> <p>Ma demande est close (confirmation).</p> <p>Le contact principal du problème reçoit une notification par e-mail à la fermeture de la demande.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le projet utilise une vue "Is Help Desk".</p> <p>Si les notifications relatives à la "fin de la publication" sont activées, elles se déclenchent toujours au lieu de la "demande fermée à contact du Principal de publication". Si vous souhaitez que cette notification se déclenche, vous devez désactiver les notifications "achèvement du problème".</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Ajout de document à une demande de bureau d'aide - Envoi au créateur du problème</p> </td> 
-   <td> <p>Un document est modifié ou téléchargé sur un problème pour lequel je suis le contact principal.</p> <p>Le contact Principal du problème reçoit une notification par e-mail lorsqu’un document est téléchargé ou modifié sur le problème, sauf si l’utilisateur qui a téléchargé ou modifié le document est également le contact Principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .</p> </td> 
+   <td> <p>Un document est modifié ou chargé sur un problème pour lequel je suis le contact principal.</p> <p>Le contact principal du problème reçoit une notification par e-mail lorsqu’un document est téléchargé ou modifié sur le problème, sauf si l’utilisateur qui a téléchargé ou modifié le document est également le contact principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Changement de statut de la demande de bureau d'aide - Envoi au créateur du problème</p> </td> 
-   <td> <p>L’état change à ma demande.</p> <p>Le Principal contact de la question reçoit une notification par courrier électronique lorsque l’état de la question change, sauf si l’utilisateur qui a modifié l’état est également le contact Principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et que le projet utilise une vue "Is Help Desk" (Est le service d’assistance).</p> </td> 
+   <td> <p>L’état change à ma demande.</p> <p>Le contact principal de la question reçoit une notification par courrier électronique lorsque l’état de la question change, sauf si l’utilisateur qui a modifié l’état est également le contact principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et que le projet utilise une vue "Is Help Desk" (Le service d’aide est).</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
  </tbody> 
@@ -239,7 +239,7 @@ Voir aussi [Notifications : Demandes que j’ai faites](../../../workfront-basic
 
 ## Communication
 
-Voir aussi [Notifications : Communication](../../../workfront-basics/using-notifications/notifications-communication.md).
+Voir aussi [Notifications : communication](../../../workfront-basics/using-notifications/notifications-communication.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -264,17 +264,17 @@ Voir aussi [Notifications : Communication](../../../workfront-basics/using-notif
   <tr> 
    <td> <p>Note</p> </td> 
    <td> <p>Ajout de note à la demande de bureau d'aide - Envoi au créateur du problème</p> </td> 
-   <td> <p>Lorsqu’un commentaire est publié sur une demande, envoyez un email Principal au problème.</p> <p>Le Principal contact pour un problème reçoit une notification par courrier électronique lorsqu’un commentaire est publié sur une demande, sauf si l’utilisateur qui a publié le commentaire est également le Principal contact pour le problème.</p> <p>Tous les utilisateurs inclus directement dans le commentaire reçoivent également une notification par courrier électronique.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>Lorsqu’un commentaire est publié sur une demande, envoyez un courrier électronique au contact principal du problème.</p> <p>Le contact principal d’un problème reçoit une notification par courrier électronique lorsqu’un commentaire est publié sur une demande, sauf si l’utilisateur qui a publié le commentaire est également le contact principal du problème.</p> <p>Tous les utilisateurs qui sont directement inclus dans le commentaire reçoivent également une notification par courrier électronique.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Utilisateur ou utilisatrice</p> </td> 
+   <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td>Mise à jour dirigée vers l’utilisateur</td> 
    <td> <p>Quelqu'un m'inclut sur une mise à jour dirigée.</p> <p>Une mise à jour ciblée est effectuée lorsqu’un utilisateur inclut spécifiquement un autre utilisateur dans une mise à jour, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Balisage des autres sur les mises à jour</a>.</p> <p>Dans ce cas, l’utilisateur inclus dans la mise à jour redirigée reçoit une notification par courrier électronique concernant la mise à jour.</p> <p>La notification électronique n’est envoyée que si l’utilisateur dispose des droits d’accès à l’objet et s’il le garde activé dans son profil.  </p> <p>Cette notification d’événement est activée par défaut et ne peut pas être désactivée.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Équipe</p> </td> 
+   <td> <p>l’équipe</p> </td> 
    <td> <p>Mise à jour dirigée vers l’équipe</p> </td> 
    <td> <p>Quelqu'un inclut mon équipe dans une mise à jour dirigée.</p> <p>Une mise à jour ciblée est effectuée lorsqu’un utilisateur inclut spécifiquement un autre utilisateur dans une mise à jour, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Balisage des autres sur les mises à jour</a>.</p> <p>Dans ce cas, tout membre de l’équipe inclus dans la mise à jour ciblée reçoit une notification par courrier électronique à propos de la mise à jour.</p> <p>La notification électronique est envoyée uniquement aux utilisateurs disposant de droits d’accès à l’objet de la mise à jour.</p> <p>Si l’utilisateur qui envoie la mise à jour redirigée est membre de l’équipe en cours d’inclusion, l’utilisateur qui envoie la mise à jour ne reçoit pas de notification par courrier électronique.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -301,8 +301,8 @@ Voir aussi [Notifications : Communication](../../../workfront-basics/using-notif
    <td> <p>Réponse à une demande de travail au demandeur de travail</p> </td> 
    <td> <p>Quelqu'un répond à ma demande.</p> <p>Une fois qu’un utilisateur a envoyé une requête et qu’un autre utilisateur a répondu à cette requête, l’utilisateur qui l’a envoyée reçoit une notification par courrier électronique.</p> <p>Une notification électronique n’est pas envoyée si :</p> 
     <ul> 
-     <li> <p>L’utilisateur qui envoie la réponse est le même utilisateur qui a effectué la demande.</p> </li> 
-     <li> <p>L’utilisateur n’a pas accès à l’affichage de la note.</p> </li> 
+     <li> <p>L’utilisateur qui envoie la réponse est le même que celui qui a effectué la demande.</p> </li> 
+     <li> <p>L’utilisateur n’a pas accès à la note.</p> </li> 
     </ul> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
@@ -315,7 +315,7 @@ Voir aussi [Notifications : Communication](../../../workfront-basics/using-notif
 
 ## Informations de validation
 
-Voir aussi [Notifications : Informations de validation](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+Voir aussi [Notifications : informations de validation](../../../workfront-basics/using-notifications/notifications-approval-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -332,7 +332,7 @@ Voir aussi [Notifications : Informations de validation](../../../workfront-basic
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Utilisateur ou utilisatrice</p> </td> 
+   <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>Délégation d'approbation envoyée à un autre utilisateur</p> </td> 
    <td> <p>Je suis délégué en tant qu'approbateur.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -372,7 +372,7 @@ Voir aussi [Notifications : Informations de validation](../../../workfront-basic
 
 ## Informations sur le travail qui m&#39;est assigné
 
-Voir aussi [Notifications : Informations sur le travail qui m&#39;est assigné](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+Voir aussi [Notifications : informations sur le travail qui m’est assigné](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -402,7 +402,7 @@ Voir aussi [Notifications : Informations sur le travail qui m&#39;est assigné](
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Décision d’approbation de la publication affectée à</p> </td> 
+   <td> <p>Décision d’approbation d’émettre assignée à</p> </td> 
    <td> <p>Lorsqu'un événement est approuvé ou rejeté, envoyer un e-mail au cessionnaire.</p> <p>La personne désignée pour un problème reçoit une notification par courrier électronique lorsqu’une décision d’approbation est prise (approuvée ou rejetée).</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
@@ -433,7 +433,7 @@ Voir aussi [Notifications : Informations sur le travail qui m&#39;est assigné](
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Ajout de document à une demande de bureau d'aide - Envoi à la personne chargée du problème</p> </td> 
-   <td> <p>Les documents sont téléchargés ou modifiés à ma demande.</p> <p>La personne désignée pour le problème reçoit une notification par courrier électronique lorsque des documents sont chargés ou modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par courrier électronique n’est pas envoyée si l’utilisateur qui a participé au problème est la personne désignée pour le problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .</p> </td> 
+   <td> <p>Les documents sont chargés ou modifiés à ma demande.</p> <p>La personne désignée pour le problème reçoit une notification par courrier électronique lorsque des documents sont chargés ou modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par courrier électronique n’est pas envoyée si l’utilisateur qui a participé au problème est la personne désignée pour le problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
@@ -470,7 +470,7 @@ Voir aussi [Notifications : Informations sur le travail qui m&#39;est assigné](
 
 ## Informations sur les projets sur lesquels je travaille
 
-Voir aussi [Notifications : Informations sur les projets sur lesquels je travaille](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Voir aussi [Notifications : informations sur les projets sur lesquels je travaille](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -489,7 +489,7 @@ Voir aussi [Notifications : Informations sur les projets sur lesquels je travail
   <tr> 
    <td> <p>Projet</p> </td> 
    <td> <p>Changement du statut du projet courant envoyé à l'équipe du projet</p> </td> 
-   <td> <p>Lorsque le statut d'un projet passe du statut idée/approuvé/rejeté/demandé/planifié à courant, envoyez un e-mail à l'équipe.</p> <p>Les utilisateurs du projet reçoivent une notification par e-mail lorsque le projet devient principal.</p> </td> 
+   <td> <p>Lorsque le statut d'un projet passe du statut idée/approuvé/rejeté/demandé/planifié à courant, envoyez un e-mail à l'équipe.</p> <p>Les utilisateurs du projet reçoivent une notification par e-mail lorsque le projet devient actif.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -551,7 +551,7 @@ Voir aussi [Notifications : Informations sur les projets sur lesquels je travail
 
 ## Informations sur les projets que je possède
 
-Voir aussi [Notifications : Informations sur les projets que je possède](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
+Voir aussi [Notifications : informations sur les projets que je possède](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -570,7 +570,7 @@ Voir aussi [Notifications : Informations sur les projets que je possède](../../
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Ajout de document envoyé au propriétaire du projet</p> </td> 
-   <td> <p>Un document est ajouté à un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un document est ajouté au projet, sauf si l’utilisateur qui a ajouté le document est également le propriétaire du projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et que le document n’est pas Privé.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un document est ajouté à un projet dont je suis propriétaire.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un document est ajouté au projet, sauf si l’utilisateur qui a ajouté le document est également le propriétaire du projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et que le document n’est pas Privé.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -638,7 +638,7 @@ Voir aussi [Notifications : Informations sur les projets que je possède](../../
 
 ## Informations sur les projets que je sponsorise
 
-Voir aussi [Notifications : Informations sur les projets que je sponsorise](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
+Voir aussi [Notifications : informations sur les projets que je sponsorise](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -713,7 +713,7 @@ Voir aussi [Notifications : Informations sur les projets que je sponsorise](../.
 
 ## Informations diverses
 
-Voir aussi [Notifications : Informations diverses](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+Voir aussi [Notifications : informations diverses](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -755,19 +755,19 @@ Voir aussi [Notifications : Informations diverses](../../../workfront-basics/usi
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Utilisateur ou utilisatrice</p> </td> 
+   <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>Nouvel utilisateur envoyé à l'utilisateur</p> </td> 
    <td> <p>Lorsqu'un nouvel utilisateur est créé dans Workfront, envoyer un e-mail à l'utilisateur.</p> <p>Une fois le nouvel utilisateur créé, il reçoit une invitation par courrier électronique l’informant qu’un compte Workfront a été créé et lui demandant de définir son mot de passe.</p> <p>Lors de la création d’un nouvel utilisateur, les utilisateurs peuvent sélectionner l’option "Envoyer un courrier électronique d’invitation à cette personne" (comme décrit dans la section <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Ajout d’utilisateurs</a><span style="font-weight: 400;">). Cependant, lorsque l’option "Nouvel utilisateur à l’utilisateur" est activée globalement, tous les nouveaux utilisateurs reçoivent l’invitation par courrier électronique, que l’option "Envoyer un courrier électronique d’invitation à cette personne" soit sélectionnée ou non.</span></p> </td> 
    <td> Inactif </td> 
   </tr> 
   <tr> 
-   <td> <p>Équipe</p> </td> 
+   <td> <p>l’équipe</p> </td> 
    <td> <p>Partage d'objet envoyé à l'équipe</p> </td> 
    <td> <p>Quelqu'un partage un objet avec mon équipe.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Utilisateur ou utilisatrice</p> </td> 
+   <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>Partage d'objet envoyé à l'utilisateur</p> </td> 
    <td> <p>Quelqu'un partage un objet avec moi.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -815,5 +815,5 @@ Voir aussi [Notifications : Délégation](../../../workfront-basics/using-notifi
 |------------------|---------------------------------------------|--------------------------------------------------------------|---------------|
 | Tâches et événements | Délégation de tâches et problèmes à la personne assignée | Je délègue mes tâches et problèmes (confirmation). | Actif |
 | Tâches et événements | Arrêter la délégation de tâches et de problèmes à la personne assignée | J’arrête de déléguer mes tâches et problèmes (confirmation). | Actif |
-| Tâches et événements | Délégation de tâches et problèmes à la personne assignée | Quelqu’un me délègue ses tâches et problèmes. | Actif |
-| Tâches et événements | Arrêter les tâches et émettre la délégation à déléguer | Quelqu’un cesse de me déléguer ses tâches et problèmes. | Actif |
+| Tâches et événements | Délégation de tâches et problèmes à la personne déléguée | Quelqu’un me délègue ses tâches et problèmes. | Actif |
+| Tâches et événements | Arrêter les tâches et déléguer les problèmes | Quelqu’un cesse de me déléguer ses tâches et problèmes. | Actif |

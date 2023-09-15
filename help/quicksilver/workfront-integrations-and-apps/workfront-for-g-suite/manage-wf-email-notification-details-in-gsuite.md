@@ -7,9 +7,9 @@ description: Dans G Suite, lorsque vous ouvrez un Adobe de courrier électroniqu
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Dans [!DNL G Suite], lorsque vous ouvrez un email de notification [!DNL Adobe Wo
 
 >[!NOTE]
 >
-> [!DNL Workfront for G Suite] prend en charge presque tous les types de notifications électroniques que vous pouvez recevoir. [!DNL Workfront] (environ 120 types différents). [!UICONTROL Résumé quotidien] emails envoyés depuis [!DNL Workfront] n’apparaît pas dans [!DNL Workfront for G Suite]. Pour plus d’informations sur la variable [!DNL Workfront] types de notification par e-mail, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for G Suite] prend en charge presque tous les types de notifications électroniques que vous pouvez recevoir. [!DNL Workfront] (environ 120 types différents). [!UICONTROL Résumé quotidien] emails envoyés depuis [!DNL Workfront] n’apparaît pas dans [!DNL Workfront for G Suite]. Pour plus d’informations sur la variable [!DNL Workfront] types de notification par e-mail, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Exigences d’accès
 
@@ -62,7 +62,7 @@ Avant de gérer les détails des notifications depuis [!DNL G Suite], vous devez
 1. Cliquez sur **[!UICONTROL Détails]**.
 1. Cliquez sur les options disponibles.
 
-   Les options qui peuvent s’afficher correspondent au type de notification électronique que vous avez ouverte. Par exemple, s’il s’agit d’une notification électronique vous demandant de valider une tâche, vous voyez **[!UICONTROL Approuver]** et **[!UICONTROL Rejeter]** plutôt que des options telles que **[!UICONTROL Travail dessus]** ou **[!UICONTROL Terminé]**:
+   Les options qui peuvent s’afficher correspondent au type de notification électronique que vous avez ouverte. Par exemple, s’il s’agit d’une notification électronique vous demandant de valider une tâche, vous voyez **[!UICONTROL Approuver]** et **[!UICONTROL Rejeter]** plutôt que des options telles que **[!UICONTROL Travailler dessus]** ou **[!UICONTROL Terminé]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -76,7 +76,7 @@ Avant de gérer les détails des notifications depuis [!DNL G Suite], vous devez
     <tbody> 
      <tr> 
       <td>Tâche ou problème</td> 
-      <td><strong>[!UICONTROL Approuver]</strong> il, <strong>[!UICONTROL Rejeter]</strong> il, <strong>[!UICONTROL Grant]</strong> l'accès, <strong>[!UICONTROL Ignorer]</strong> une demande d'accès à celle-ci, <strong>[!UICONTROL Travailler dessus]</strong>ou cliquez sur une option pour indiquer que vous êtes <strong>[!UICONTROL Terminé]</strong> avec</td> 
+      <td><strong>[!UICONTROL Approuver]</strong> il, <strong>[!UICONTROL Rejeter]</strong> il, <strong>[!UICONTROL Grant]</strong> l'accès, <strong>[!UICONTROL Ignorer]</strong> une demande d'accès, <strong>[!UICONTROL Travailler dessus]</strong>ou cliquez sur une option pour indiquer que vous êtes <strong>[!UICONTROL Terminé]</strong> avec</td> 
      </tr> 
      <tr> 
       <td>Projet</td> 
@@ -88,7 +88,7 @@ Avant de gérer les détails des notifications depuis [!DNL G Suite], vous devez
      </tr> 
      <tr> 
       <td>Mettre à jour </td> 
-      <td> <p>Affichez toute partie de la liste complète des mises à jour de l’élément afin d’avoir le contexte dont vous avez besoin. <strong>[!UICONTROL Post]</strong> une nouvelle mise à jour ou une <strong>[!UICONTROL Réponse]</strong>. Vous pouvez cliquer sur <strong>[!UICONTROL Notifier]</strong> pour alerter des utilisateurs particuliers au sujet de votre réponse. </p> <p>Pour plus d’informations, voir <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Répondre à un [!DNL Adobe Workfront] mettre à jour la notification depuis [!DNL G Suite]</a>.</p> </td> 
+      <td> <p>Affichez toute partie de la liste complète des mises à jour de l’élément afin d’avoir le contexte dont vous avez besoin. <strong>[!UICONTROL Post]</strong> une nouvelle mise à jour ou une <strong>[!UICONTROL Réponse]</strong>. Cliquez sur <strong>[!UICONTROL Notifier]</strong> pour alerter des utilisateurs particuliers au sujet de votre réponse. </p> <p>Pour plus d’informations, voir <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Répondre à un [!DNL Adobe Workfront] mettre à jour la notification depuis [!DNL G Suite]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Demande d’approbation</td> 

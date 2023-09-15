@@ -6,9 +6,9 @@ description: Vous pouvez demander un document sur n’importe quel objet prenant
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Vous devez disposer des éléments suivants :
 
 ## Demande d’un document
 
-1. Accédez à la zone où vous souhaitez obtenir le document que vous souhaitez enregistrer.
+1. Accédez à la zone dans laquelle vous souhaitez obtenir le document que vous souhaitez enregistrer.
 1. Cliquez sur le bouton **Documents** . 
 1. Cliquez sur le bouton **Ajouter** menu déroulant.
 
-1. Cliquez sur **Demander un document**.
+1. Cliquez sur **Demande d’un document**.
 
    La boîte de dialogue Demander un document s’affiche.
 
@@ -58,14 +58,14 @@ Vous devez disposer des éléments suivants :
 
    >[!NOTE]
    >
-   >Si vous disposez de la variable [Présentation des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) activé sur votre compte, vous pouvez envoyer une demande à n’importe quelle adresse électronique. Un paramètre de la variable [Configuration des préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) qui détermine si ces utilisateurs de messagerie externes doivent créer un mot de passe avant d’interagir avec Workfront. 
+   >Si vous avez le [Présentation des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) activé sur votre compte, vous pouvez envoyer une demande à n’importe quelle adresse électronique. Un paramètre de la variable [Configuration des préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) qui détermine si ces utilisateurs de messagerie externes doivent créer un mot de passe avant d’interagir avec Workfront. 
 
 1. Décrivez la raison pour laquelle vous demandez le document.
 1. Cliquez sur **Envoyer la requête**.
 
-   Lorsque vous envoyez une requête à un utilisateur, un espace réservé est ajouté à la zone de documents. Vous pouvez rappeler à l’utilisateur ou annuler la requête à partir de cet espace réservé. L’utilisateur reçoit une notification Workfront et un courrier électronique à propos de la demande.
+   Lorsque vous envoyez une requête à un utilisateur, un espace réservé est ajouté à la zone de documents. Vous pouvez rappeler à l’utilisateur ou annuler la requête de cet espace réservé. L’utilisateur reçoit une notification Workfront et un courrier électronique à propos de la demande.
 
-   L’utilisateur reçoit une notification par courrier électronique si cette préférence est activée, ainsi qu’une notification dans l’application. Pour plus d’informations sur les notifications électroniques, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   L’utilisateur reçoit une notification par courrier électronique si cette préférence est activée, ainsi qu’une notification dans l’application. Pour plus d’informations sur les notifications électroniques, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Vous pouvez cliquer sur le lien figurant dans l’email de notification, puis télécharger le document. Vous pouvez également cliquer sur la notification in-app. Chaque option vous dirige vers la page du profil utilisateur où vous pouvez télécharger le document demandé.
 
@@ -73,4 +73,4 @@ Vous devez disposer des éléments suivants :
 
 1. Après avoir téléchargé le document, la personne qui l’a demandé peut accéder au document dans son **Documents** zone.
 
-   Vous pouvez accéder à votre **Documents** en cliquant sur l’image de votre profil utilisateur dans le coin supérieur droit d’une page Workfront, en cliquant sur votre nom, puis en cliquant sur l’icône **Documents** .
+   Vous pouvez accéder à votre **Documents** en cliquant sur l’image de votre profil utilisateur dans le coin supérieur droit d’une page Workfront, en cliquant sur votre nom, puis en cliquant sur la zone **Documents** .

@@ -5,9 +5,9 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Selon l’événement que vous activez et que l’utilisateur reste activé sur 
 
 Vous devez d’abord spécifier les notifications que vous souhaitez que tous vos utilisateurs reçoivent dans la zone Configuration de votre instance Workfront. Une fois que vous avez activé une notification dans la zone Configuration , elle s’affiche comme activée pour chaque utilisateur dans la page de son profil.
 
-Une fois que les notifications sont activées dans la zone Configuration et qu’elles apparaissent dans les pages de profil des utilisateurs, les utilisateurs individuels ou un autre utilisateur disposant d’une licence Plan peuvent également configurer les notifications activées dans un profil utilisateur afin de contrôler les notifications reçues par cet utilisateur spécifique et la fréquence. Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Une fois que les notifications sont activées dans la zone Configuration et qu’elles apparaissent dans les pages de profil des utilisateurs, les utilisateurs individuels ou un autre utilisateur disposant d’une licence Plan peuvent également configurer les notifications activées dans un profil utilisateur afin de contrôler les notifications reçues par cet utilisateur spécifique et la fréquence. Pour plus d’informations, voir [Modifier vos propres notifications électroniques](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Pour obtenir la liste de toutes les notifications d’événement que vous pouvez activer et désactiver, voir [Notifications d’événements disponibles dans Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 

@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Cette fonctionnalité est désormais incluse dans la variable [Principes fondame
 
 Nous apportons quelques modifications afin d’améliorer la force du chiffrement des données en mouvement de l’application de vérification de Workfront. Les chiffrements TLS faibles seront abandonnés le 11 novembre 2020.
 
-Veillez à utiliser un navigateur pris en charge lors de l’accès à Workfront. Pour plus d’informations sur les navigateurs pris en charge, voir [Configuration requise pour le navigateur Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).
+Assurez-vous d’utiliser un navigateur pris en charge lors de l’accès à Workfront. Pour plus d’informations sur les navigateurs pris en charge, voir [Configuration requise pour le navigateur Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).
 
 ## Nouvelle apparence pour 3 modèles d’email
 
@@ -42,18 +42,18 @@ Pour améliorer la lisibilité et l’expérience globale, les modèles d’emai
 * Une tâche dépendante à laquelle vous êtes affecté est maintenant prête à démarrer
 * Notification par e-mail de l’équipe avec le prédécesseur terminé
 
-Pour activer les emails à des fins de test dans votre environnement Aperçu, reportez-vous à la section Gestion des emails dans l’aperçu dans la section [Activation ou désactivation de vos propres notifications d’événement](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour activer les emails à des fins de test dans votre environnement Aperçu, reportez-vous à la section Gestion des emails dans l’aperçu dans la section [Modifier vos propres notifications électroniques](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Nouvelles notifications électroniques pour les équipes
 
 Nous avons ajouté la notification électronique suivante pour les équipes :
 
-* Un prédécesseur d&#39;une tâche affectée à mon équipe est terminé : L’équipe affectée reçoit une notification par email lorsqu’un prédécesseur de l’une de ses tâches est marqué comme terminé.
-* Tous les prédécesseurs d&#39;une tâche affectée à mon équipe sont terminés : L’équipe affectée reçoit une notification électronique pour chaque prédécesseur marqué comme terminé.
+* Un prédécesseur d&#39;une tâche affectée à mon équipe est terminé : l&#39;équipe affectée reçoit une notification par email lorsqu&#39;un prédécesseur de l&#39;une de ses tâches est marqué comme terminé.
+* Tous les prédécesseurs d&#39;une tâche affectée à mon équipe sont terminés : l&#39;équipe affectée reçoit une notification par email pour chaque prédécesseur marqué comme terminé.
 
-Pour plus d’informations, voir [Notifications : Informations sur le travail qui m&#39;est assigné](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+Pour plus d’informations, voir [Notifications : informations sur le travail qui m’est assigné](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
-## Nouveautés pour les administrateurs : Améliorations des notifications électroniques
+## Nouveautés pour les administrateurs : améliorations apportées aux notifications électroniques
 
 Désormais, en un seul clic, vous pouvez activer ou désactiver une notification électronique d’événement dans Configuration. Il vous suffit de cliquer sur l’icône Activé/Désactivé en regard du nom de la notification.
 
@@ -67,4 +67,4 @@ Cette fonctionnalité est désormais incluse dans la variable [Chemin d’appren
 
 Deux nouveaux objets API, documentVersion et BATApproval, ont été créés et sont configurés pour déclencher des mises à jour d’abonnement à un événement lorsqu’un document est versionné ou approuvé.
 
-Pour obtenir la liste complète des champs associés à chaque objet, reportez-vous à la section [Champs de ressource d’abonnement à un événement](../../../wf-api/api/event-sub-resource-fields.md).
+Pour obtenir la liste complète des champs associés à chaque objet, voir [Champs de ressource d’abonnement à un événement](../../../wf-api/api/event-sub-resource-fields.md).

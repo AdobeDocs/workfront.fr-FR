@@ -6,9 +6,9 @@ description: Les informations de cette page font référence à des fonctionnali
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Lorsque vous planifiez la remise d&#39;un rapport dans l&#39;environnement Aper�
 
 La génération ou non d’un rapport livré dans le sandbox d’actualisation personnalisée dépend de l’activation ou non du paramètre Recevoir des emails de cet environnement de test.
 
-Pour plus d’informations sur l’activation des emails à partir de l’environnement de prévisualisation, voir la section [Afficher et modifier vos paramètres de notification électronique](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) dans l’article [Activation ou désactivation de vos propres notifications d’événement](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations sur l’activation des emails à partir de l’environnement de prévisualisation, voir la section [Afficher et modifier vos paramètres de notification électronique](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) dans l’article [Modifier vos propres notifications électroniques](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
@@ -98,4 +98,4 @@ Lorsque vous planifiez la remise d’un rapport dans l’environnement Sandbox d
 
 Les utilisateurs externes ne reçoivent pas de rapports envoyés depuis les environnements de test de Workfront et ne reçoivent pas de notification par e-mail.
 
-Les utilisateurs externes ne reçoivent des rapports par courrier électronique que s’ils sont diffusés à partir d’un environnement de production.
+Les utilisateurs externes ne reçoivent des rapports par courrier électronique que s’ils sont envoyés depuis un environnement de production.

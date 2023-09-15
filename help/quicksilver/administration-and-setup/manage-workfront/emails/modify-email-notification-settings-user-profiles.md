@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: modify,email,notification,settings,bulk,edit,configure,multiple,users
 navigation-topic: emails-administration
 title: Modification des paramètres de notification électronique dans les profils des utilisateurs
-description: Si vous êtes administrateur Adobe Workfront ou si vous disposez d’un niveau d’accès Planificateur vous permettant de modifier les paramètres d’autres utilisateurs, vous pouvez configurer les paramètres de notification pour plusieurs utilisateurs à la fois. Cela inclut la spécification des notifications reçues par les utilisateurs au fur et à mesure des événements ou dans un email de résumé quotidien, comme décrit dans les notifications Adobe Workfront. Pour plus d’informations sur le niveau d’accès requis pour modifier les utilisateurs, voir Octroi de l’accès aux utilisateurs.
-author: Lisa, Caroline
+description: Cet article fournit aux administrateurs de Workfront ou de groupe des informations sur la façon dont ils peuvent mettre à jour les notifications par e-mail d’autres utilisateurs.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Lorsque vous configurez les paramètres de notification en bloc, vous ne pouvez 
 
 >[!NOTE]
 >
->Vous pouvez également configurer des notifications électroniques pour un utilisateur à la fois, y compris votre propre profil. Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>Vous pouvez également configurer des notifications électroniques pour un utilisateur à la fois, y compris votre propre profil. Pour plus d’informations, voir [Modifier vos propres notifications électroniques](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Exigences d’accès

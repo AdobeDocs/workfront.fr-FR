@@ -6,9 +6,9 @@ description: Recevoir [!DNL Adobe Workfront] notifications dans [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 6%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 6%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
 -->
 
-Une fois que vous avez installé [!DNL Adobe Workfront for Slack], vous pouvez recevoir [!DNL Workfront] notifications dans [!DNL Slack].\
+Après avoir installé [!DNL Adobe Workfront for Slack], vous pouvez recevoir [!DNL Workfront] notifications dans [!DNL Slack].\
 Pour plus d’informations sur l’installation [!DNL Workfront for Slack], voir [Configurer [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-Vous pouvez activer un nombre sélectionné de [!UICONTROL notifications] qui apparaissent dans la bulle de notifications de la variable [!DNL Workfront] , également fournie dans [!DNL Slack].
+Vous pouvez activer un nombre sélectionné de [!UICONTROL notifications] qui apparaissent dans la bulle de notifications de la variable [!DNL Workfront] , à diffuser également dans [!DNL Slack].
 
 Les notifications électroniques fonctionnent indépendamment de [!DNL Workfront] notifications d’interface. Vous ou votre [!DNL Workfront] l’administrateur peut désactiver les notifications par courrier électronique, tandis que les notifications de l’interface ne peuvent pas être désactivées dans [!DNL Workfront].\
 Vous pouvez toutefois désactiver [!DNL Workfront] notifications que vous pourriez recevoir [!DNL Slack], si vous souhaitez vous concentrer uniquement sur ces notifications dans la variable [!DNL Workfront] .
@@ -55,7 +55,7 @@ Avant de recevoir [!DNL Workfront] notifications dans [!DNL Slack], vous devez
 
 ## Configurer [!DNL Workfront] notifications pour [!DNL Slack] {#configure-workfront-notifications-for-slack}
 
-1. (Conditionnel) Après [!DNL Workfront] a été ajouté à votre [!DNL Slack] instance, connectez-vous [!DNL Workfront] de [!DNL Slack].\
+1. (Conditionnel) Après [!DNL Workfront] a été ajouté à votre [!DNL Slack] instance, se connecter [!DNL Workfront] de [!DNL Slack].\
    Pour plus d’informations sur la connexion à [!DNL Workfront] de [!DNL Slack], voir [Accès [!DNL Adobe Workfront] de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Depuis n&#39;importe quel canal, commencez à saisir l&#39;une des commandes suivantes dans le champ de message :
@@ -86,16 +86,16 @@ Avant de recevoir [!DNL Workfront] notifications dans [!DNL Slack], vous devez
 Vous pouvez recevoir et répondre à [!DNL Workfront] notifications de [!DNL Slack].
 
 Vous pouvez désactiver les notifications électroniques pour les notifications que vous activez dans [!DNL Slack], afin de vous assurer que vous ne recevez pas de notifications en double.\
-Pour plus d’informations sur la configuration de vos notifications électroniques, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations sur la configuration de vos notifications électroniques, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Activation ou désactivation [!DNL Workfront] notifications dans [!DNL Slack] n’affecte pas les notifications que vous recevez dans la variable [!DNL Workfront] .\
+Activer ou désactiver [!DNL Workfront] notifications dans [!DNL Slack] n’affecte pas les notifications que vous recevez dans la variable [!DNL Workfront] .\
 Notifications à l’intérieur du [!DNL Workfront] ne peut pas être désactivée.
 
 Pour gérer vos [!DNL Workfront] notifications pour [!DNL Slack]:
 
-1. Connectez-vous à [!UICONTROL Slack].
-1. Connectez-vous à [!DNL Workfront] de [!DNL Slack].\
-   Pour plus d’informations sur la connexion à [!DNL Workfront] de [!DNL Slack], voir &quot;Connexion à [!DNL Workfront] de [!DNL Slack]&quot; dans la section [Accès [!DNL Adobe Workfront] de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Connexion à [!UICONTROL Slack].
+1. Connexion à [!DNL Workfront] de [!DNL Slack].\
+   Pour plus d’informations sur la connexion à [!DNL Workfront] de [!DNL Slack], voir &quot;Connexion à [!DNL Workfront] de [!DNL Slack]&quot; dans [Accès [!DNL Adobe Workfront] de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Assurez-vous que la variable [!DNL Workfront] notifications pour [!DNL Slack] sont activées.\
    Pour plus d’informations sur [!DNL Workfront] les notifications peuvent également être configurées pour être envoyées à [!DNL Slack], voir [Configurer [!DNL Workfront] notifications pour [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack).
@@ -109,11 +109,11 @@ Pour gérer vos [!DNL Workfront] notifications pour [!DNL Slack]:
 
    * (Conditionnel et facultatif) Cliquez sur **[!UICONTROL Approuver]** ou **[!UICONTROL Rejeter]** pour approuver ou rejeter une tâche, une émission ou un projet en attente de votre approbation.
 
-   * (Conditionnel et facultatif) Cliquez sur **[!UICONTROL Approuver]**, **[!UICONTROL Modifications]** ou **[!UICONTROL Rejeter]**, pour approuver, approuver avec des modifications ou rejeter un document.
+   * (Conditionnel et facultatif) Cliquez sur **[!UICONTROL Approuver]**, **[!UICONTROL Modifications]**, ou **[!UICONTROL Rejeter]**, pour approuver, approuver avec des modifications ou rejeter un document.
 
-      Vous pouvez également positionner le pointeur de la souris sur la miniature du document et cliquer sur l’icône en forme de loupe pour afficher un aperçu plus grand du document avant de l’approuver.\
+     Vous pouvez également positionner la souris sur la miniature du document et cliquer sur l’icône en forme de loupe pour afficher un aperçu plus grand du document avant de l’approuver.\
       Seul le Slack approuvé [types de fichiers](https://api.slack.com/types/file) peut être prévisualisé.
 
    * (Conditionnel et facultatif) Cliquez sur **[!UICONTROL Subvention]** ou **[!UICONTROL Ignorer]** pour accorder ou ignorer la demande d’accès supplémentaire d’un autre utilisateur.\
 
-      Vous recevez la confirmation que votre action est terminée dans [!DNL Workfront], pour chaque décision que vous prenez dans vos notifications.
+     Vous recevez la confirmation que votre action a été effectuée dans [!DNL Workfront], pour chaque décision que vous prenez dans vos notifications.

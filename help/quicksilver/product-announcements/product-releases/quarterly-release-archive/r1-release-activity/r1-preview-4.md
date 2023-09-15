@@ -6,9 +6,9 @@ description: Cette page décrit toutes les modifications disponibles dans l’en
 author: Luke
 feature: Product Announcements
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Lors de la création de processus d’approbation pour les approbations de proje
 
 * Les &quot;étapes&quot; d’approbation sont désormais appelées &quot;étapes&quot; d’approbation.
 * Incluez plusieurs types d’approbateurs par étape.\
-   Cela inclut les utilisateurs, les équipes et les rôles de tâche.\
-   Avant cette modification, vous ne pouviez inclure que plusieurs approbateurs du même type. Par exemple, vous pouvez inclure plusieurs rôles de tâche, mais pas un rôle de tâche et une équipe.
+  Cela inclut les utilisateurs, les équipes et les rôles de tâche.\
+  Avant cette modification, vous ne pouviez inclure que plusieurs approbateurs du même type. Par exemple, vous pouvez inclure plusieurs rôles de tâche, mais pas un rôle de tâche et une équipe.
 
 * Les limites préexistantes suivantes liées à la modification des processus d’approbation globale existants ont été supprimées :
 
@@ -54,7 +54,7 @@ Pour plus d’informations, voir [Modification de l’état d’un projet](../..
 
 Vous pouvez maintenant planifier la désactivation des utilisateurs à une date ultérieure.
 
-Avant cette amélioration, vous ne pouviez désactiver manuellement un utilisateur immédiatement.
+Avant cette amélioration, vous ne pouviez désactiver un utilisateur manuellement que immédiatement.
 
 La planification de la désactivation d’un utilisateur peut s’avérer utile dans divers scénarios. Par exemple, si vous créez dans Workfront des utilisateurs qui sont engagés temporairement, vous pouvez les configurer pour qu’ils soient désactivés à la fin de leur contrat.
 
@@ -66,22 +66,22 @@ Pour plus d’informations sur la planification de la désactivation des utilisa
 
 L’option de remise Résumé quotidien est désormais disponible dans la zone &quot;Action requise&quot; de vos paramètres de notifications.
 
-Pour plus d’informations, voir [Activation ou désactivation de vos propres notifications d’événement](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations, voir [Modifier vos propres notifications électroniques](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 N’oubliez pas de mettre à jour l’adresse électronique associée à votre compte pour pouvoir tester cette fonctionnalité. Cela est nécessaire, car l’environnement de test Aperçu efface les adresses électroniques de tous les utilisateurs.
 
-## Amélioration de la Corbeille : Enregistré dans le flux de mise à jour et réception des notifications par courrier électronique
+## Amélioration de la Corbeille : enregistrée dans le flux de mise à jour et réception des notifications par email
 
 Les améliorations suivantes ont été ajoutées lors de la restauration de projets, de tâches et de problèmes supprimés :
 
 * Vous recevez désormais une notification par courrier électronique après la restauration d’un objet.\
-   En tant qu’administrateur Workfront, vous recevez désormais une notification par courrier électronique après la restauration d’un projet, d’une tâche ou d’un problème qui a été supprimé précédemment. La notification par courrier électronique vous informe de l’état du processus de restauration.\
-   Pour plus d’informations sur la restauration d’objets dans Workfront, voir [Restauration des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  En tant qu’administrateur Workfront, vous recevez désormais une notification par courrier électronique après la restauration d’un projet, d’une tâche ou d’un problème qui a été supprimé précédemment. La notification par courrier électronique vous informe de l’état du processus de restauration.\
+  Pour plus d’informations sur la restauration d’objets dans Workfront, voir [Restauration des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * Lorsque l’objet est restauré, la suppression et la restauration de l’objet sont désormais enregistrées dans le flux de mise à jour de l’objet lui-même et dans le flux de mise à jour de l’objet parent.\
-   Auparavant, seule la suppression était enregistrée dans le flux de mise à jour de l’objet parent.\
-   Par exemple, lorsque la tâche est restaurée, un message est ajouté dans le flux de mise à jour du projet et de la tâche elle-même, indiquant que la tâche a été restaurée. (Les suppressions et les restaurations ne sont pas enregistrées sur les sous-tâches. Les informations concernant les suppressions et les restaurations des sous-tâches ne sont disponibles que sur les tâches parentes.)\
-   Pour plus d’informations, voir [Restauration des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Auparavant, seule la suppression était enregistrée dans le flux de mise à jour de l’objet parent.\
+  Par exemple, lorsque la tâche est restaurée, un message est ajouté dans le flux de mise à jour du projet et de la tâche elle-même, indiquant que la tâche a été restaurée. (Les suppressions et les restaurations ne sont pas enregistrées sur les sous-tâches. Les informations concernant les suppressions et les restaurations des sous-tâches ne sont disponibles que sur les tâches parentes.)\
+  Pour plus d’informations, voir [Restauration des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
  
 
@@ -91,7 +91,7 @@ Il existe une nouvelle interface pour la gestion des groupes et des sous-groupes
 
 Les champs Propriétaires de groupe et Membres du groupe sont désormais combinés en un seul champ, avec une liste des membres du groupe répertoriés ci-dessous. De plus, vous pouvez filtrer la liste des membres du groupe et modifier s’ils sont propriétaires ou membres. 
 
-Pour plus d’informations sur l’ajout de sous-groupes à des groupes et sur la désignation d’utilisateurs en tant que membres ou propriétaires de groupes de groupes, voir [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) et [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+Pour plus d’informations sur l’ajout de sous-groupes aux groupes et la désignation d’utilisateurs en tant que membres ou propriétaires de groupes, voir [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) et [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
  
 

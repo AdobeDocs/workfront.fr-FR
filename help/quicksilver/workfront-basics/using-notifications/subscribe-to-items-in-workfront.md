@@ -5,9 +5,9 @@ description: Adobe Workfront envoie des notifications sur les éléments auxquel
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vous pouvez également tenir votre responsable et vos pairs à jour en vous abon
 
 Actuellement, vous pouvez vous abonner aux éléments suivants :
 
-* Événements
+* Problèmes
 * Tâches
 * Projets
 
@@ -75,11 +75,10 @@ Par exemple, pour vous abonner à un problème :
    >
    >Pour vous abonner à des projets, vous pouvez effectuer l’une des opérations suivantes :
    >
-   >* Accédez au projet auquel vous souhaitez vous abonner, puis cliquez sur le bouton **[!UICONTROL Plus]** icon ![](assets/qs-more-menu.png) à droite du nom du projet, puis **[!UICONTROL S’abonner]**.
-   >* Accédez à une liste de projets ou à un rapport et sélectionnez un projet, puis cliquez sur **[!UICONTROL Plus]** icon ![](assets/qs-more-menu.png) en haut de la liste, puis cliquez sur **[!UICONTROL S’abonner]**. Cette option n’est disponible que dans une liste de projets.
+   >* Accédez au projet auquel vous souhaitez vous abonner, puis cliquez sur le bouton **[!UICONTROL Plus]** icon ![](assets/qs-more-menu.png) à droite du nom du projet, puis **[!UICONTROL Abonner]**.
+   >* Accédez à une liste de projets ou à un rapport et sélectionnez un projet, puis cliquez sur **[!UICONTROL Plus]** icon ![](assets/qs-more-menu.png) en haut de la liste, puis cliquez sur **[!UICONTROL Abonner]**. Cette option n’est disponible que dans une liste de projets.
 
-
-1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png), puis cliquez sur **[!UICONTROL S’abonner]**.
+1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png), puis cliquez sur **[!UICONTROL Abonner]**.
 
    ![](assets/subscribe-to-a-work-item-350x258.png)
 
@@ -89,7 +88,7 @@ Par exemple, pour vous abonner à un problème :
 
    Chaque fois qu’une personne fait un commentaire sur le problème, vous recevez une notification in-app. Selon les fonctionnalités que vous avez activées, vous pouvez également recevoir des notifications par e-mail et des notifications push d’application mobile.
 
-   Pour en savoir plus sur les emails d’abonnement, voir [Activation ou désactivation de vos propres notifications d’événement](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Pour en savoir plus sur les emails d’abonnement, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Se désabonner d’un élément
 
@@ -105,7 +104,6 @@ Par exemple, pour vous désabonner d’un problème :
    >
    >* Accédez au projet dont vous souhaitez vous désabonner, puis cliquez sur le bouton **[!UICONTROL Plus]** icon ![](assets/qs-more-menu.png) à droite du nom du projet, puis **[!UICONTROL Désabonner]**.
    >* Accédez à une liste de projets ou à un rapport et sélectionnez un projet, puis cliquez sur **[!UICONTROL Plus]** icon ![](assets/qs-more-menu.png) en haut de la liste, puis cliquez sur **[!UICONTROL Désabonner]**. Cette option n’est disponible que dans une liste de projets.
-
 
 1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png), puis cliquez sur **[!UICONTROL Désabonner]**.
 
@@ -124,7 +122,7 @@ Vous pouvez gérer les personnes qui s’abonnent à des projets, des tâches et
 * [Abonner un autre utilisateur à un élément](#subscribe-another-user-to-an-item)
 * [Désabonner une autre personne d’un élément](#unsubscribe-another-person-from-an-item)
 
-Tous les abonnés sont donnés [!UICONTROL Affichage] autorisation d’accès à l’élément abonné. Si les nouveaux abonnés disposent déjà d’autorisations sur l’élément, leurs autorisations restent inchangées.
+Tous les abonnés sont donnés [!UICONTROL Affichage] autorisation de l’élément abonné. Si les nouveaux abonnés disposent déjà d’autorisations sur l’élément, leurs autorisations restent inchangées.
 
 ### Abonner un autre utilisateur à un élément
 
@@ -138,9 +136,8 @@ Tous les abonnés sont donnés [!UICONTROL Affichage] autorisation d’accès à
    >   
    >* Accédez à une liste de projets ou à un rapport et sélectionnez un projet.
 
-
 1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png).
-1. Cliquez sur la bulle de nombre en regard de l’option **[!UICONTROL S’abonner]** lien.
+1. Cliquez sur la bulle de nombre en regard de l’option **[!UICONTROL Abonner]** lien.
 1. Dans la zone qui s’affiche, commencez à saisir le nom de l’utilisateur dans le champ **[!UICONTROL Abonner les autres]** , puis sélectionnez l’utilisateur parmi les options affichées.
 
 1. (Facultatif) Pour ajouter d’autres abonnés, répétez l’étape 4.
@@ -162,10 +159,9 @@ Lorsqu’un utilisateur ajoute un commentaire à la variable [!UICONTROL Mises �
    >   
    >* Accédez à une liste de projets ou à un rapport et sélectionnez un projet.
 
-
 1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png).
-1. Cliquez sur la bulle de nombre en regard de l’option **[!UICONTROL S’abonner]** ou **[!UICONTROL Désabonner]** lien.
-1. Sur le **[!UICONTROL Abonnés]** qui s’affiche, cliquez sur le &quot;X&quot; en regard du nom de l’utilisateur que vous souhaitez désabonner.
+1. Cliquez sur la bulle de nombre en regard de l’option **[!UICONTROL Abonner]** ou **[!UICONTROL Désabonner]** lien.
+1. Sur le **[!UICONTROL Abonnés]** qui s’affiche, cliquez sur le &quot;X&quot; en regard du nom de l’utilisateur à désabonner.
 
    Ou
 
@@ -173,7 +169,7 @@ Lorsqu’un utilisateur ajoute un commentaire à la variable [!UICONTROL Mises �
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-   L’utilisateur n’est pas informé de son désabonnement, mais une entrée sur l’abonnement est ajoutée aux mises à jour système de l’élément.
+   L’utilisateur n’est pas informé de sa désinscription de l’élément, mais une entrée sur l’abonnement est ajoutée aux mises à jour système de l’élément.
 
 ## Réception d’une notification in-app
 
@@ -209,17 +205,17 @@ Pour voir qui s’abonne à un élément :
 
 Tenez compte des points suivants lorsque vous utilisez des abonnements :
 
-* Le [!DNL Workfront] L’administrateur ne peut pas contrôler à quoi les utilisateurs peuvent ou ne peuvent pas s’abonner.
+* La variable [!DNL Workfront] L’administrateur ne peut pas contrôler à quoi les utilisateurs peuvent ou ne peuvent pas s’abonner.
 
-   Toute personne avec [!UICONTROL Affichage] ou des autorisations supérieures à n’importe quelle tâche, problème ou projet peuvent s’y abonner.
+  Tout le monde avec [!UICONTROL Affichage] ou des autorisations supérieures à n’importe quelle tâche, problème ou projet peuvent s’y abonner.
 
 * Les abonnements ne peuvent pas être configurés pour un email de résumé quotidien.
-* Si vous vous abonnez à une tâche, à un problème ou à un projet et que vous êtes également la personne désignée, le contact Principal ou le propriétaire du projet, vous recevrez uniquement le courrier électronique d’abonnement lorsqu’une personne commentera l’élément auquel vous êtes abonné.
+* Si vous vous abonnez à une tâche, à un problème ou à un projet et que vous êtes également la personne désignée, le contact du Principal ou le propriétaire du projet, vous recevrez uniquement le courrier électronique d’abonnement lorsqu’une personne aura commenté l’élément auquel vous êtes abonné.
 
-   Pour plus d’informations sur les notifications électroniques qui se déclenchent lorsqu’un commentaire est fait sur l’un de vos éléments, voir [Notifications Adobe Workfront](../../workfront-basics/using-notifications/wf-notifications.md).
+  Pour plus d’informations sur les notifications électroniques qui se déclenchent lorsqu’un commentaire est fait sur l’un de vos éléments, voir [Notifications Adobe Workfront](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * Si vous vous abonnez à un élément et que vous le commentez, vous ne recevrez pas d’e-mail d’abonnement à ce commentaire, sauf si vous incluez votre nom dans le commentaire.
-* Si l’utilisateur qui commente l’article rend le commentaire privé en verrouillant le commentaire, et si vous ne faites pas partie de la même société que cet utilisateur, vous ne recevrez pas de notification pour ce commentaire. Pour plus d’informations sur la manière de rendre un commentaire privé à votre entreprise, reportez-vous à la section [Ajouter une mise à jour à un élément de travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) dans [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+* Si l’utilisateur qui commente l’article rend le commentaire privé en verrouillant le commentaire, et si vous ne faites pas partie de la même société que cet utilisateur, vous ne recevrez pas de notification pour ce commentaire. Pour plus d’informations sur la manière de rendre un commentaire privé à votre entreprise, voir la section [Ajouter une mise à jour à un élément de travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) dans [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Vous ne pouvez pas créer de rapport pour les abonnements. Un audit est enregistré dans le statut de mise à jour de chaque élément lorsqu’un utilisateur s’abonne ou se désabonne à celui-ci.
 * Les commentaires effectués sur des objets enfants ne déclenchent pas de notifications d’abonnement pour les objets parents. Si vous vous abonnez à un projet, vous ne recevrez que la notification des commentaires effectués sur ce projet. Vous ne recevrez pas de notification des commentaires effectués sur les éléments enfants associés au projet (c’est-à-dire les tâches ou les problèmes), sauf si vous vous abonnez à chaque enfant. Pour plus d’informations sur les relations d’objet, voir [Interdépendance et hiérarchie des objets](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) dans [Présentation des objets dans [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

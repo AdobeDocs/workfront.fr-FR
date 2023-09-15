@@ -5,9 +5,9 @@ title: Affichage et gestion [!DNL Adobe Workfront] notifications dans Adobe Crea
 description: Vous pouvez recevoir des notifications dans Adobe Creative Cloud depuis [!DNL Adobe Workfront] sur les éléments que vous devez approuver, les affectations que vous avez reçues ou les commentaires et modifications apportés aux éléments auxquels vous êtes associé.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 8dbe15370287e47416164b5df6542bbb11405099
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ Les notifications sont disponibles dans les applications Adobe Creative Cloud su
 
 {{cc-install-prereq}}
 
-* Vous avez activé les notifications instantanées dans [!DNL Workfront]. Pour plus d’informations sur l’activation des notifications instantanées, voir [Activation ou désactivation de vos propres notifications d’événement](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Vous avez activé les notifications instantanées dans [!DNL Workfront]. Pour plus d’informations sur l’activation des notifications instantanées, voir [Modifier vos propres notifications électroniques](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Affichage et gestion [!DNL Workfront] notifications dans Adobe Creative Cloud
 
-1. Cliquez sur le bouton **[!UICONTROL Notifications]** icon ![Icône Notifications](assets/cc-plugin-notifications-icon.png) près de la partie supérieure du panneau du module externe. Un point bleu sur l’icône indique que vous avez des notifications non lues.
+1. Cliquez sur le bouton **[!UICONTROL Notifications]** icon ![Icône Notifications](assets/cc-plugin-notifications-icon.png) près du haut du panneau du module externe. Un point bleu sur l’icône indique que vous avez des notifications non lues.
 1. (Facultatif) Pour marquer toutes les notifications comme affichées, cliquez sur **[!UICONTROL Tout marquer comme vu]**.
 
    Les notifications sont alors marquées comme dans le module externe et dans Workfront. Les notifications affichées ne sont plus visibles dans la liste des notifications du module externe.
