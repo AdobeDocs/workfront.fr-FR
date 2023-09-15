@@ -3,10 +3,10 @@ title: Modifier des enregistrements
 description: Vous pouvez modifier les informations d’enregistrement dans Adobe Maestro. Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Si les enregistrements modifiés sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous modifiez se répercutent sur les enregistrements liés.
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
 
+
 ## Modifier des enregistrements
 
 Vous pouvez modifier un enregistrement à partir des zones suivantes :
@@ -140,7 +141,9 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
    >[!TIP]
    >
-   >Les champs liés ne sont pas modifiables. Les informations de ces champs sont renseignées automatiquement à partir des enregistrements liés. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
+   >* Les champs liés ne sont pas modifiables. Les informations de ces champs sont renseignées automatiquement à partir des enregistrements liés. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
+   >
+   >* Les URL sont reconnues comme des liens dans les types de champ de texte sur une seule ligne uniquement lorsqu’elles commencent par les éléments suivants : http://, https://, ftp:// ou www. .
 
 
 

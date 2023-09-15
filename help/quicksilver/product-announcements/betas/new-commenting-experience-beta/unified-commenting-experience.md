@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1036'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,7 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 * Possibilité de modifier l’état, la condition, la date de validation tout en commentant
 * Modifier le formulaire personnalisé
 * Informations &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe se connecte en tant qu’autre utilisateur et ajoute un commentaire en son nom.
+* L’option &quot;Demander l’approbation&quot; lorsque vous balisez des personnes en ajoutant un commentaire à un document.
 
 >[!NOTE]
 >

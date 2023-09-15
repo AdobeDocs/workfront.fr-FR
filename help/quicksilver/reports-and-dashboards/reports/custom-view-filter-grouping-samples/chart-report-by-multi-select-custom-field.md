@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Graphique un rapport selon un champ personnalisé à sélection multiple
-description: Il n’est pas possible de tracer un rapport selon un champ personnalisé à sélection multiple. Vous devez créer un champ calculé supplémentaire qui fait référence au champ personnalisé à sélection multiple pour également associer le rapport à la valeur du champ personnalisé à sélection multiple.
+description: Vous ne pouvez tracer un rapport selon un champ personnalisé à sélection multiple qu’après avoir créé un champ calculé supplémentaire qui capture les choix sélectionnés dans le champ personnalisé à sélection multiple.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,24 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Il n’est pas possible de tracer un rapport selon un champ personnalisé à sélection multiple. Vous devez créer un champ calculé supplémentaire qui fait référence au champ personnalisé à sélection multiple pour également associer le rapport à la valeur du champ personnalisé à sélection multiple.
+Plutôt que de créer un graphique à l’aide d’un champ personnalisé à sélection multiple, nous vous recommandons de créer des champs distincts pour chaque option d’un champ personnalisé à sélection multiple.
+
+Voici quelques exemples de champs personnalisés à sélection multiple :
+
+* Cases à cocher
+* Menus déroulants à sélection multiple
+
+Pour plus d’informations sur l’utilisation du mode texte, voir l’article [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+
+Cependant, s’il n’est pas possible de séparer les champs pour chaque option d’un champ à sélection multiple, vous pouvez créer un graphique pour un rapport selon un champ personnalisé à sélection multiple en utilisant des champs personnalisés calculés pour regrouper d’abord les choix à partir du champ à sélection multiple. Vous pouvez ensuite afficher le rapport en fonction des champs calculés.
+
+>[!NOTE]
+>
+>Les éléments pour lesquels l’un des choix est sélectionné ne sont comptabilisés qu’une seule fois.
+>
+>Par exemple, si vous disposez d’un champ personnalisé Case à cocher avec les options Choix 1 et Choix 2 et que vous joignez le formulaire aux tâches, les tâches dont le Choix 1 et le Choix 2 s’affichent dans un élément de graphique distinct des tâches pour lesquelles seul Choix 1 ou Choix 2 sont sélectionnés.
+>
+>Les tâches pour lesquelles Choix 1 est sélectionné ne s’affichent pas dans le même élément de graphique que les tâches pour lesquelles Choix 1 et Choix 2 sont sélectionnées.
 
 ## Exigences d’accès
 
@@ -51,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Conditions préalables
 
-Avant de commencer, vous devez créer un champ personnalisé calculé qui affiche les valeurs sélectionnées à partir du champ personnalisé à sélection multiple. Pour plus d’informations, voir [Créer un champ personnalisé calculé qui référence un champ personnalisé à sélection multiple](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) dans cet article.
+Avant de commencer, vous devez créer un champ personnalisé calculé qui affiche les valeurs sélectionnées à partir du champ personnalisé à sélection multiple. Pour plus d’informations, voir [Créez un champ personnalisé calculé qui référence un champ personnalisé à sélection multiple.](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) dans cet article.
 
 ## Créer un rapport selon des champs personnalisés à sélection multiple
 
@@ -61,50 +78,55 @@ Avant de commencer, vous devez créer un champ personnalisé calculé qui affich
 
 Vous ne pouvez pas créer de graphique dans un rapport en référençant un champ personnalisé à sélection multiple. Vous pouvez plutôt créer un champ calculé qui enregistre les valeurs du champ personnalisé à sélection multiple sur un objet et un groupe donné par le champ calculé. 
 
-* [Créer un champ personnalisé calculé qui référence un champ personnalisé à sélection multiple](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
+* [Créez un champ personnalisé calculé qui référence un champ personnalisé à sélection multiple.](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
 * [Créer un graphique qui référence un champ personnalisé calculé](#build-a-chart-that-references-a-calculated-custom-field)
 
-### Créer un champ personnalisé calculé qui référence un champ personnalisé à sélection multiple {#build-a-calculated-custom-field-that-references-a-multi-select-custom-field}
+### Créez un champ personnalisé calculé qui référence un champ personnalisé à sélection multiple. {#build-a-calculated-custom-field-that-references-a-multi-select-custom-field}
 
-Pour pouvoir créer un champ calculé qui référence un champ personnalisé à sélection multiple, les conditions préalables suivantes doivent être remplies :
+Pour créer un champ calculé qui référence un champ personnalisé à sélection multiple, les prérequis suivants doivent être remplis :
 
-* Créez le champ personnalisé à sélection multiple dans un formulaire personnalisé.\
-   Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés, reportez-vous à l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Champ personnalisé à sélection multiple dans un formulaire personnalisé.\
+  Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés, reportez-vous à l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-* Associez le formulaire personnalisé aux objets.
-* Renseignez le champ personnalisé à sélection multiple avec une valeur sur chaque objet.
+* Un formulaire personnalisé avec un champ personnalisé à sélection multiple attaché aux objets.
+* Valeurs du champ personnalisé à sélection multiple pour chaque objet.
 
 Pour créer le champ personnalisé calculé qui référence le champ personnalisé à sélection multiple :
 
-1. Créez un formulaire personnalisé ou modifiez un formulaire existant.\
-   Pour plus d’informations sur la création de formulaires personnalisés, reportez-vous à l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Créez un formulaire personnalisé ou modifiez un formulaire existant.
+
+   Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 1. Sélectionnez le ou les objets que vous prévoyez d’utiliser avec le formulaire personnalisé.
 1. Cliquez sur **Ajouter un champ**, puis **Calculé** pour ajouter le champ personnalisé à sélection multiple au formulaire.
 
-1. Dans le **Libellé** , nommez le nouveau champ calculé pour indiquer qu’il fait référence au champ personnalisé à sélection multiple.\
+1. Dans le **Libellé** , nommez le nouveau champ calculé pour indiquer qu’il fait référence au champ personnalisé à sélection multiple.
+
    Par exemple : &quot;Champ à sélection multiple calculé&quot;.
 
 1. Dans le **Calcul** saisissez le code suivant :
 
-   ```
-   {DE:Multi-select Custom Field}
-   ```
+   `{DE:Multi-select Custom Field}`
+
+   Les choix sélectionnés dans le champ personnalisé à sélection multiple sont ainsi ajoutés au champ personnalisé calculé. Par exemple, si le formulaire est joint aux tâches et que Choix 1 est sélectionné dans le champ personnalisé à sélection multiple, le champ personnalisé calculé affiche la valeur &quot;Choix 1&quot;. Si Choix 1 et Choix 2 sont sélectionnés pour une autre tâche, le champ personnalisé calculé affiche la valeur &quot;Choix 1, Choix 2&quot;.
 
 1. Remplacez &quot;Champ personnalisé à sélection multiple&quot; par le nom réel de votre champ personnalisé à sélection multiple, tel qu’il apparaît dans Workfront.
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Facultatif) Si le champ personnalisé à sélection multiple figure déjà sur ce formulaire et si ce formulaire est déjà joint à des objets, activez l’option **Mise à jour des calculs précédents** .\
-   Cela permet de s’assurer que le nouveau champ est automatiquement renseigné avec la valeur du champ personnalisé à sélection multiple, car il est ajouté aux formulaires attachés aux objets déjà présents.
+1. (Facultatif) Si le champ personnalisé à sélection multiple figure déjà sur ce formulaire et si ce formulaire est déjà joint à des objets, activez l’option **Mise à jour des calculs précédents (en arrière-plan)** .
+
+   Ainsi, le nouveau champ calculé est automatiquement renseigné avec la valeur du champ personnalisé à sélection multiple, car il est ajouté aux formulaires déjà attachés aux objets.
 
 1. Cliquez sur **Terminé**.
-1. Cliquez sur **Enregistrer +Fermer**.
+1. Cliquez sur **Enregistrer + Fermer**.
+
+   Le champ personnalisé calculé est ajouté au formulaire personnalisé et, si le formulaire est actuellement associé à des objets, le champ est renseigné avec les informations du champ personnalisé à sélection multiple.
 
 ### Créer un graphique qui référence un champ personnalisé calculé {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Facultatif) Pour vous assurer que tous les champs calculés à partir desquels vous souhaitez effectuer un graphique sont renseignés par des valeurs, sélectionnez tous les objets de votre rapport qui contiennent le formulaire personnalisé avec le champ personnalisé à sélection multiple et le champ personnalisé calculé, puis cliquez sur **Modifier**.
-1. (Facultatif et conditionnel) Activez la variable **Recalculer des expressions personnalisées** , puis cliquez sur **Enregistrer les modifications**.\
+1. (Facultatif) Pour vous assurer que tous les champs calculés à partir desquels vous souhaitez effectuer un graphique sont renseignés par des valeurs, dans l’onglet Détails du rapport, sélectionnez tous les objets qui contiennent le formulaire personnalisé avec le champ personnalisé à sélection multiple et le champ personnalisé calculé, puis cliquez sur **Modifier**.
+1. (Facultatif et conditionnel) Sélectionnez la variable **Recalculer des expressions personnalisées** , puis cliquez sur **Enregistrer les modifications**.\
    ![](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
@@ -115,8 +137,15 @@ Pour créer le champ personnalisé calculé qui référence le champ personnalis
 1. Accédez au rapport dans lequel vous souhaitez ajouter le graphique pour le champ calculé qui référence le champ personnalisé à sélection multiple.
 1. Cliquez sur **Actions de rapport**, puis **Modifier**.
 
-1. Sélectionnez la <strong>Groupements</strong> , puis cliquez sur <strong>Ajouter un groupement</strong>.
-1. Ajoutez la variable<strong>Champ à sélection multiple calculé</strong> vous avez créé en tant que regroupement.
-1. Sélectionnez la <strong>Graphique</strong> puis ajoutez un graphique à votre rapport.<br>Pour plus d’informations sur l’ajout d’un graphique à un rapport, reportez-vous à la section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Ajout d’un graphique à un rapport</a> dans l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Création d’un rapport personnalisé</a>.
-1. Sélectionnez la <strong>Champ à sélection multiple calculé</strong> comme l’un des champs à afficher dans le graphique.
-1. Cliquez sur <strong>Enregistrer + Fermer</strong>.<br>Le rapport affiche les résultats regroupés par champ à sélection multiple calculé dans un graphique.
+1. Sélectionnez la variable <strong>Groupements</strong> , puis cliquez sur <strong>Ajouter un groupement</strong>.
+1. Ajoutez la variable <strong>Champ à sélection multiple calculé</strong> vous avez créé en tant que regroupement.
+1. Sélectionnez la variable <strong>Graphique</strong> puis ajoutez un graphique à votre rapport.
+
+   Par exemple, choisissez un **Colonne** graphique.
+   <br>Pour plus d’informations sur l’ajout d’un graphique à un rapport, voir la section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Ajouter un graphique à un rapport</a> dans l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Création d’un rapport personnalisé</a>.
+1. Dans le **Axe inférieur (X)** , sélectionnez le champ <strong>Champ à sélection multiple calculé</strong> à afficher dans le graphique.
+1. Cliquez sur <strong>Enregistrer + Fermer</strong>.
+
+   Le rapport affiche les résultats regroupés par champ à sélection multiple calculé dans un graphique.
+
+   ![](assets/chart-multi-select-field-column-chart-example.png)
