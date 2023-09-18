@@ -7,7 +7,7 @@ description: Vous ne pouvez tracer un rapport selon un champ personnalisé à s�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ Pour créer le champ personnalisé calculé qui référence le champ personnalis
    >[!NOTE]
    >
    >Cette option a été supprimée de la modification des projets en bloc.  Vous pouvez toujours recalculer les expressions pour les projets en masse en cliquant sur le bouton **Plus** icon ![](assets/more-icon-45x33.png) en haut de la liste d’un projet, puis **Recalculer les expressions**.
-
 
 1. Accédez au rapport dans lequel vous souhaitez ajouter le graphique pour le champ calculé qui référence le champ personnalisé à sélection multiple.
 1. Cliquez sur **Actions de rapport**, puis **Modifier**.
