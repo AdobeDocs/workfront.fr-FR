@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '4675'
+source-wordcount: '4747'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ Pour ajouter un champ de texte :
 
 1. Dans la partie gauche de l’écran, recherchez l’un des champs de texte suivants et faites-le glisser vers une section du canevas :
 
-   * Une seule ligne de texte :
+   * Une seule ligne de texte
    * Texte du paragraphe
    * Champ de texte avec formatage
    * Texte descriptif
@@ -254,6 +254,10 @@ Vous pouvez ajouter des boutons radio, des cases à cocher et des listes déroul
 * **Liste déroulante**: fournit une liste de choix de liste déroulante.
 
 +++
+
+>[!NOTE]
+>
+>Les champs qui autorisent plusieurs sélections, tels que le Groupe de cases à cocher, sont difficiles à associer et à associer dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
 
 Pour ajouter des boutons radio et des cases à cocher :
 
@@ -394,7 +398,7 @@ Vous pouvez ajouter des champs de saisie anticipée et de date à un formulaire 
    * Portfolio
    * Programme
    * Projet
-   * l’équipe
+   * Equipe
    * Modèle
    * Entreprise
 * **Champ de date**: affiche un calendrier dans lequel les utilisateurs peuvent sélectionner une date et une heure.
@@ -541,11 +545,11 @@ Pour ajouter une recherche externe :
       <p><strong>REMARQUE :</strong> Consultez la documentation de l’API que vous utilisez pour les requêtes spécifiques que vous pouvez définir.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Méthode HTTP</td> 
+      <td role="rowheader">Méthode HTTP</td> 
       <td>Sélectionner <strong>Get</strong>, <strong>Post</strong>, ou <strong>Put</strong> pour la méthode .</td> 
      </tr>
      <tr> 
-      <td role="rowheader">Chemin JSON</td>
+      <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON de l’API.</p> <p>Cette option permet d’extraire des données du code JSON renvoyé par l’URL de l’API. Il sert à sélectionner les valeurs qui, à l’intérieur du fichier JSON, apparaîtront dans les options de la liste déroulante.</p><p>Par exemple, si votre URL d’API renvoie JSON au format suivant :</br>
       <pre>
       { data: { name: "USA"}, { name: "Canada"} } }
@@ -568,13 +572,14 @@ Pour ajouter une recherche externe :
 
 >[!NOTE]
 >
->Limites techniques de l’appel à l’API externe :
+>Les éléments suivants sont des limites techniques de l’appel à l’API externe :
 >
 >* Nombre maximal d’options : 200 (seules les 200 premières options du fichier JSON renvoyé sont affichées)
 >* Timeout : 3 secondes
 >* Nombre de reprises : 3
 >* Durée d’attente entre deux tentatives : 500 ms
 >* Statuts de réponse attendus : 2xx
+>* L’utilisateur peut voir la valeur sélectionnée (et la modifier) dans les listes et les rapports Workfront, mais il ne verra pas la liste déroulante contenant les options provenant de l’API externe.
 
 </div>
 

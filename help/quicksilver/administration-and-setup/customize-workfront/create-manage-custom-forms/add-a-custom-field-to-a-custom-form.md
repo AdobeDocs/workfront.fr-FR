@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 3%
+source-wordcount: '2305'
+ht-degree: 2%
 
 ---
 
@@ -87,13 +87,13 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader">Frappe continue </td> 
       <td>Permet aux utilisateurs de saisir le nom d’un objet existant dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur commence à saisir du texte.
       Ce type de champ prend en charge les objets suivants :
-      <ul><li>Utilisateur</li>
+      <ul><li>l’utilisateur ou de l’utilisatrice</li>
       <li>Groupe</li>
       <li>Fonction</li>
       <li>Portfolio</li>
       <li>Programme</li>
       <li>Projet</li>
-      <li>Équipe</li>
+      <li>Equipe</li>
       <li>Modèle</li>
       <li>Entreprise</li>
       </ul>      
@@ -125,6 +125,10 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Les champs qui autorisent plusieurs sélections, tels que la case à cocher et la liste déroulante, sont difficiles à associer et à associer dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
 
 1. Sur le **Paramètres des champs** , configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
 
