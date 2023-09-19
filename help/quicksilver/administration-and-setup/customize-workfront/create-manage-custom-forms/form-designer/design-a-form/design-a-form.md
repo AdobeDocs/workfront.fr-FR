@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 4%
 
 ---
@@ -257,7 +257,7 @@ Vous pouvez ajouter des boutons radio, des cases à cocher et des listes déroul
 
 >[!NOTE]
 >
->Les champs qui autorisent plusieurs sélections, tels que le Groupe de cases à cocher, sont difficiles à associer et à associer dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
+>Les champs qui autorisent plusieurs sélections, tels que Groupe de cases à cocher et Liste déroulante, sont difficiles à associer et à associer dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
 
 Pour ajouter des boutons radio et des cases à cocher :
 
@@ -328,7 +328,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     </tr> 
     <tr> 
      <td role="rowheader">Type d'affichage</td> 
-    <td>Basculez entre les boutons radio, les groupes de cases à cocher ou les listes déroulantes pour le champ.</td> 
+    <td>Basculez entre les boutons radio, les groupes de cases à cocher, les listes déroulantes ou les listes déroulantes à sélection multiple pour le champ.</td> 
     <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
@@ -559,7 +559,7 @@ Pour ajouter une recherche externe :
      </tr>
      <tr> 
       <td role="rowheader">En-têtes</td>
-      <td>Cliquez sur <strong>Ajouter un en-tête</strong>et saisissez ou collez la paire clé-valeur requise pour l’authentification avec l’API.</td>
+      <td><p>Cliquez sur <strong>Ajouter un en-tête</strong>et saisissez ou collez la paire clé-valeur requise pour l’authentification avec l’API.</p><p><strong>REMARQUE :</strong> Les champs En-tête ne sont pas un lieu sécurisé pour stocker les informations d’identification. Vous devez donc veiller à ce que vous saisissiez et enregistrez.</p></td>
      </tr>
     </tbody>
    </table>
@@ -579,7 +579,7 @@ Pour ajouter une recherche externe :
 >* Nombre de reprises : 3
 >* Durée d’attente entre deux tentatives : 500 ms
 >* Statuts de réponse attendus : 2xx
->* L’utilisateur peut voir la valeur sélectionnée (et la modifier) dans les listes et les rapports Workfront, mais il ne verra pas la liste déroulante contenant les options provenant de l’API externe.
+>* Les utilisateurs peuvent voir la valeur sélectionnée (et la modifier) dans les listes et les rapports Workfront, mais ne verront pas la liste déroulante contenant les options provenant de l’API externe.
 
 </div>
 
