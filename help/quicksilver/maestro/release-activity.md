@@ -3,9 +3,9 @@ title: Activité de mise à jour Adobe Maestro
 description: Utilisez Maestro pour créer des objets, champs et espaces de travail personnalisés.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel el
 Cette section répertorie les fonctionnalités et les correctifs qui ont été publiés après le lancement du programme bêta fermé de Maestro, le 22 mai 2023.
 
 Les fonctionnalités sont publiées toutes les semaines et sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé Maestro peuvent accéder à toutes les fonctionnalités de leurs environnements Aperçu et Production.
+
+## Semaine du 18 septembre 2023
+
+### Réorganiser les lignes
+
+Aperçu et production : 20 septembre 2023
+
+Vous pouvez désormais réorganiser une ou plusieurs lignes (ou enregistrements) dans la vue Tableau d’une page de type enregistrement.
 
 ## Semaine du 4 septembre 2023
 

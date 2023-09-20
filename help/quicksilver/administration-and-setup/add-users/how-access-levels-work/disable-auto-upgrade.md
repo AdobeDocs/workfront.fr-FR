@@ -9,13 +9,13 @@ description: Chaque utilisateur doit disposer d’un niveau d’accès pour se c
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 864906732c80af12db051d1d5e6d9bc4ae125eb8
+exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
-
 
 # Désactivez l’option de mise à niveau automatique pour les utilisateurs non payants du nouveau plan de licence.
 
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Formule actuelle : Standard
    <p>ou</p>
-   <p>Plan hérité : Plan</p></td> 
+   <p>Formule héritée : Planifier</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
@@ -57,6 +57,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step-1-to-setup}}
 
-1. Faites défiler jusqu’à [!UICONTROL **Préférences**].
+1. Développer [!UICONTROL **Système**] dans la navigation de gauche, puis cliquez sur [!UICONTROL **Préférences**].
 1. Dans le [!UICONTROL **Préférences générales**] , vérifiez les [!UICONTROL **Désactivation de la mise à niveau automatique dans les niveaux d’accès**] de la boîte.
 1. Cliquer sur [!UICONTROL **Enregistrer**].
