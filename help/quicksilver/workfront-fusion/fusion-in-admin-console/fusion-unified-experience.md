@@ -7,7 +7,7 @@ description: L’accès à Workfront Fusion via Adobe Experience Cloud offre une
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: d43d17f59d8ecc071cf953994721b586ff9328d2
+source-git-commit: 609772ae587c8bb8b05d48fada478f3419616dda
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 1%
@@ -99,7 +99,7 @@ Vous pouvez accéder à vos options de profil et de préférence en cliquant sur
 Ce menu vous permet d’effectuer les opérations suivantes :
 
 * Choisir **[!UICONTROL Thème sombre]** formatage pour [!DNL Adobe Experience Cloud].
-* Définir **[!UICONTROL Préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences linguistiques Principales et secondaires.
+* Définir **[!UICONTROL Préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences de langue principale et secondaire.
 * Accédez à **[!UICONTROL [!DNL Workfront Fusion]Profil]**. Une fois que vous êtes sur le profil, cliquez sur le **[!UICONTROL Plus]** menu ![](assets/more-icon.png) et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Se déconnecter]** de Adobe Experience Cloud.
 
