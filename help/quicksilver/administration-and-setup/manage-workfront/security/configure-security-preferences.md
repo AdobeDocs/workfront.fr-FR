@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '793'
 ht-degree: 5%
 
 ---
@@ -50,7 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,11 +73,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Autoriser l’incorporation de <strong>Workfront</strong> dans un iframe</p> </td> 
-      <td>Vous permet d’incorporer Workfront dans un iFrame.<p>Cette option est désactivée par défaut.</p><p><b>IMPORTANT</b>: L’affichage d’une application web dans un iframe rend l’application vulnérable à une vulnérabilité de sécurité de détournement de clic.</p></td> 
+      <td>Vous permet d’incorporer Workfront dans un iFrame.<p>Cette option est désactivée par défaut.</p><p><b>IMPORTANT</b>: l’affichage d’une application web dans un iframe rend l’application vulnérable à une vulnérabilité de sécurité de détournement de clic.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Autoriser l'authentification SAML 2.0 dans les modules complémentaires Office 365</td> 
-      <td> <p>Vous permet d’incorporer Workfront dans un iFrame uniquement pour les modules complémentaires Office 365 lorsque Workfront est intégré à une solution de connexion unique SAML 2.0. </p> <p>Cette option est activée par défaut.</p> <p><b>REMARQUE</b>: Si vous activez l’option ci-dessus, <strong>Autorisation de l’incorporation de Workfront dans un iframe</strong>, l’option <strong>Autorisation de l’authentification SAML 2.0 dans les modules complémentaires Office 365</strong> est activé et grisé.</p> </td> 
+      <td> <p>Vous permet d’incorporer Workfront dans un iFrame uniquement pour les modules complémentaires Office 365 lorsque Workfront est intégré à une solution de connexion unique SAML 2.0. </p> <p>Cette option est activée par défaut.</p> <p><b>REMARQUE</b>: si vous activez l’option ci-dessus, <strong>Autorisation de l’incorporation de Workfront dans un iFrame</strong>, l’option <strong>Autorisation de l’authentification SAML 2.0 dans les modules complémentaires Office 365</strong> est activé et grisé.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Active l'utilisation des informations de session lors de la création d'URL de page externe</td> 
@@ -95,7 +95,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
         <li>Demande de document<br></li>
         <li>Validation du document</li>
         <li>Calendrier</li>
-       </ul><p>Cette option est activée par défaut.</p> <p><b>Important</b>: Le niveau d’accès Utilisateur externe n’est pas disponible dans votre instance Workfront si cette option est désactivée. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveaux d’accès intégrés dans Workfront</a>.</p> </td> 
+       </ul><p>Cette option est activée par défaut.</p> <p><b>Important</b>: le niveau d’accès Utilisateur externe n’est pas disponible dans votre instance Workfront si cette option est désactivée. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveaux d’accès intégrés dans Workfront</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Demander aux utilisateurs externes de s'inscrire avec un mot de passe</td> 
@@ -111,7 +111,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Les utilisateurs du système verront par défaut l’expérience Nouvelle page d’accueil. </td> 
-      <td>Permet d’indiquer si les utilisateurs verront l’expérience Nouvelle page d’accueil par défaut. Dans les deux cas, les utilisateurs peuvent choisir d’activer ou de désactiver la Nouvelle Accueil individuellement. Cette option est activée par défaut.</td> 
+      <td>Permet d’indiquer si les utilisateurs verront l’expérience Nouvelle page d’accueil par défaut. Lorsqu’ils sont activés, les utilisateurs peuvent toujours choisir d’activer ou de désactiver la nouvelle page d’accueil individuellement. Lorsque cette option est désactivée, les utilisateurs n’ont pas la possibilité d’utiliser la nouvelle page d’accueil. Cette option est activée par défaut.</td> 
      </tr> 
     </tbody> 
    </table>
