@@ -8,9 +8,9 @@ description: Les fonctionnalités d’organisation et d’équipe d’Adobe Work
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -141,8 +141,8 @@ Un utilisateur possède l’un des rôles suivants dans chacune de ses équipes 
 
 * **[!UICONTROL Administrateur d’équipe]**: en plus des fonctionnalités des autres rôles d’équipe, le rôle d’administrateur permet à l’utilisateur d’ajouter, de supprimer ou de modifier le rôle d’un membre de l’équipe.
 * **[!UICONTROL Membre de l’équipe]**: le rôle de membre de l’équipe permet aux utilisateurs de créer et d’exécuter des scénarios.
-* **[!UICONTROL Surveillance de l’équipe]**: la variable [!UICONTROL monitoring] role permet aux utilisateurs d’accéder aux informations d’exécution pour les scénarios, mais ils ne peuvent pas concevoir de scénarios ou modifier leur état &quot;Principal&quot;.
-* **[!UICONTROL Opérateur d’équipe]**: la variable [!UICONTROL operator] Le rôle permet aux utilisateurs d’afficher les données d’exécution et de modifier l’état &quot;Principal&quot; des scénarios.
+* **[!UICONTROL Surveillance de l’équipe]**: la variable [!UICONTROL monitoring] role permet aux utilisateurs d’accéder aux informations d’exécution pour les scénarios, mais ils ne peuvent pas concevoir de scénarios ou modifier leur état &quot;actif&quot;.
+* **[!UICONTROL Opérateur d’équipe]**: la variable [!UICONTROL operator] Le rôle permet aux utilisateurs d’afficher les données d’exécution et de modifier l’état &quot;actif&quot; des scénarios.
 * **[!UICONTROL Membre avec restriction de l’équipe]**: la fonctionnalité de ce rôle n’est actuellement pas disponible et sera bientôt disponible. Il est déconseillé d’affecter des utilisateurs à ce rôle pour l’instant.
 
 Pour plus d’informations sur les tâches spécifiques disponibles pour les rôles d’équipe, voir[Rôles de l’organisation et de l’équipe](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
@@ -164,6 +164,12 @@ Pour créer une équipe :
 1. Saisissez le nom de la nouvelle équipe, puis cliquez sur **Ajouter**.
 
 #### Définition des options de notification d’équipe
+
+>[!NOTE]
+>
+>Si vous avez accès à [!DNL Fusion] par le biais du [!DNL Adobe Experience Cloud], vos notifications sont traitées dans la variable [!DNL Experience Cloud] centre de notification.
+>
+>Pour plus d’informations, voir [Accès à vos notifications](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] pour [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 Les options de notification électronique sont définies au niveau de l’équipe.
 
