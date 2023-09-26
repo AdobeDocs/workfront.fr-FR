@@ -3,7 +3,8 @@ title: Créer des espaces de travail
 description: Un espace de travail est un ensemble de types d’enregistrements opérationnels et de taxonomies utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 1%

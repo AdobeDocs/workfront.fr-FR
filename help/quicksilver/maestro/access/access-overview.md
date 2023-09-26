@@ -3,7 +3,8 @@ title: Présentation de l’accès
 description: Tous les utilisateurs d’une entreprise peuvent avoir accès à Adobe Manager. Actuellement, aucun niveau d’accès ou autorisation n’est associé aux utilisateurs ou aux informations dans Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%

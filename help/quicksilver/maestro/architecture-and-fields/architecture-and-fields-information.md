@@ -3,7 +3,8 @@ title: Informations sur l’architecture
 description: Les articles suivants décrivent comment configurer l’architecture d’Adobe Maestro. Dans le cadre de cette configuration, vous découvrez comment créer des espaces de travail, des types d’enregistrement et des champs personnalisés pour mapper les workflows que vous souhaitez gérer dans Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

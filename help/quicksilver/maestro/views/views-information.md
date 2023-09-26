@@ -3,7 +3,8 @@ title: Informations sur les vues
 description: Vous pouvez afficher les enregistrements Adobe Maestro dans un tableau ou une chronologie. Les articles suivants décrivent comment créer et gérer des vues d’enregistrement Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
