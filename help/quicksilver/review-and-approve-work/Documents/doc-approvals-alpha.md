@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: cc82da7970d8f9c90b3a0dcebfed3feaa4bb1173
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Pour participer à cette version de l’Alpha, veillez à ce que l’équipe pro
 Dans cette version du 5e Alpha, nous avons :
 
 * Amélioration de la liste affichant les approbateurs et les réviseurs
-* Ajout de la capacité aux approbateurs qui n’ont pas encore pris de décision d’approbation
+* Ajout de la possibilité de rappeler aux approbateurs qui n’ont pas encore pris de décision d’approbation
 * Ajout de la possibilité d’afficher les membres individuels de l’équipe dans la liste d’approbation
 * Ajout de la possibilité d’ajouter des approbateurs externes
 * Amélioration de l’affichage pour les approbateurs externes permettant de prévisualiser, télécharger et commenter un document.
