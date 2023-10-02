@@ -7,9 +7,9 @@ description: Vous pouvez regrouper des cartes sur un panorama par personne dési
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vous pouvez regrouper des cartes sur un panorama par personne désignée ou par 
 
 >[!NOTE]
 >
->Les cartes de la colonne d’ingestion ne sont pas incluses dans un groupe. Pour plus d’informations sur la colonne d’ingestion, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Aucune carte de la colonne d’ingestion n’est incluse dans un groupe et la colonne d’ingestion est masquée lorsqu’un groupe est appliqué. Pour plus d’informations sur la colonne d’ingestion, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Exigences d’accès
 
