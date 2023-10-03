@@ -5,13 +5,13 @@ title: Prise en main de la nouvelle page d’accueil dans Adobe Workfront
 description: New Home est une nouvelle fonctionnalité puissante pour gérer votre travail.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 23%
 
 ---
-
 
 # Prise en main de la nouvelle page d’accueil dans Adobe Workfront
 
@@ -131,24 +131,9 @@ Vous pouvez ajouter un peu de flamme personnelle à votre page d’accueil en s�
 
 1. Dans le **Contexte** de la **Personnaliser** qui s’affiche, cliquez sur la couleur que vous souhaitez sélectionner pour votre arrière-plan Accueil . Cliquez également sur **Aucun** pour supprimer l’arrière-plan.
 
-### Filtrage par période
-
-Vous pouvez filtrer rapidement toutes les informations de votre page d’accueil afin d’afficher les informations de l’objet dans trois périodes spécifiques : Jour, Semaine ou Mois. En outre, un résumé du nombre de tâches que vous avez dû réaliser et de celles que vous avez effectuées dans la plage s’affiche en haut de la page d’accueil.
-
-**Pour modifier la période de votre page d’accueil :**
-
-1. Accédez à votre page d’accueil en cliquant sur l’icône Adobe Workfront . ![Icône Adobe Workfront](../new-home/assets/home-icon-30x29.png) en haut de l’écran si Accueil est défini comme page d’entrée ou en cliquant sur l’icône de menu principal ![Icône du menu principal](../new-home/assets/main-menu-icon-left-nav.png) puis cliquez sur **Accueil**.
-
-1. Cliquez sur le filtre de période dans le coin supérieur gauche de la page d’accueil. Par défaut, le filtre est défini sur **Ma semaine**.
-
-   ![Menu déroulant du filtre de période](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. Cliquez sur l’une des **Jour**, **Semaine**, ou **Mois** pour filtrer votre page d’accueil afin qu’elle n’affiche que les informations sur les objets dus pendant cette période.
-
 ## Revenir à l’expérience d’accueil actuelle
 
 Pour les utilisateurs qui préfèrent l’expérience d’accueil existante, la nouvelle page d’accueil peut être désactivée.
-
 
 **Pour revenir à l’expérience d’accueil actuelle :**
 
