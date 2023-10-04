@@ -6,9 +6,9 @@ description: Champs de ressource d’abonnement à un événement
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 14e597fc14ab7c424b1313e9c30d69fe6bcd3741
+source-git-commit: 012d53d4773ea8fa377ea7c65cea6cc411ef5321
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 10%
 
 ---
@@ -60,6 +60,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
    <td> </td> 
    <td> </td> 
    <td> avgWorkPerDay </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> classifierID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -137,6 +142,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
    <td> </td> 
    <td> </td> 
    <td>work</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workPerDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -241,7 +251,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Remarque : LastUpdateDate ne déclenche un événement que la première fois qu’il est mis à jour chaque jour. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>Remarque : LastUpdateDate ne déclenche un événement que la première fois qu’il est mis à jour au cours de chaque journée. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -646,7 +656,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isReremboursement </td> 
+   <td> isReemboursable </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1467,6 +1477,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
    <td> </td> 
    <td> </td> 
    <td>approvalProcessID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachmentRateCardID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2314,7 +2329,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
    <td>userID</td> 
   </tr> 
   <tr> 
-   <td>Utilisateur ou utilisatrice</td> 
+   <td>l’utilisateur ou de l’utilisatrice</td> 
    <td>UTILISATEUR</td> 
    <td>accessLevelID</td> 
   </tr> 
@@ -2486,7 +2501,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>tiworkHoursPerDaytle</td> 
+   <td>workHoursPerDay </td> 
   </tr> 
  </tbody> 
 </table>
