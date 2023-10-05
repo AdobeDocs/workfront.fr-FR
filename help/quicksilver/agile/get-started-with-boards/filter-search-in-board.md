@@ -6,9 +6,9 @@ description: Vous pouvez filtrer un panorama pour n’afficher que certaines car
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Par défaut, seules les cartes actives sont affichées sur un panorama. Vous pouvez filtrer le panorama pour afficher également toutes les cartes archivées.
 
 1. Accédez au panorama.
+1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau Configurer .
+1. Développer [!UICONTROL **Cartes**].
+1. Activer [!UICONTROL **Afficher les cartes archivées sur le panorama**].
 1. Cliquez sur [!UICONTROL **Filtrer**], développez la variable [!UICONTROL Cartes archivées] et sélectionnez **[!UICONTROL Cartes archivées]** pour afficher toutes les cartes archivées.
 
    Le filtre affiche le nombre de cartes archivées.
 
-   ![Filtrage des cartes archivées](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filtrage des cartes archivées](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >La variable [!UICONTROL Cartes archivées] n’est pas disponible dans le filtre si vous n’avez pas activé le paramètre de configuration pour afficher les cartes archivées.
 
 1. Sélectionner **[!UICONTROL Cartes archivées]** pour effacer l’option et afficher uniquement les cartes actives.
 
