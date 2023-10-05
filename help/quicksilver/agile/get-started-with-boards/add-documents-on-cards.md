@@ -2,17 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Ajout de documents sur les cartes
-description: bientôt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+description: Vous pouvez ajouter des documents aux cartes connectées sur les panoramas Adobe Workfront.
 author: Lisa
 feature: Agile
-source-git-commit: 5c7842352a5b69d04e018e13756a2047c77a0855
+exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
+source-git-commit: 72197651cc13b8a8509510663d840b76f4b23a4f
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # Ajout de documents sur les cartes
+
+>[!IMPORTANT]
+>
+>Cette fonctionnalité est temporairement désactivée dans tous les environnements.
 
 {{article-preview-and-fast-release}}
 
