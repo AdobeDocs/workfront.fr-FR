@@ -7,9 +7,9 @@ description: Les modèles publics suivants sont actuellement disponibles dans Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,29 @@ Ces modèles automatisent les processus et les workflows Workfront.
 
 ### [!BADGE Nouveau!]{type=Informative}
 
-Cette automatisation recherche de nouveaux projets dans les programmes avec des formulaires personnalisés. Il ajoute ensuite ces formulaires et champs personnalisés de programme aux nouveaux projets.
+Cette automatisation crée de nouveaux projets dans Workfront en fonction du nom, du Portfolio, de l’état, de la date de début planifiée et des détails du modèle que vous spécifiez dans un fichier CSV.
 
 ### [!BADGE Nouveau!]{type=Informative}
+
+Utilisez ce modèle pour appliquer une mise à jour de note de 30 jours à vos requêtes. Les demandes qui ne sont pas mises à jour dans 30 jours voient leur état changé et fermé à 60 jours.
+
+### [!BADGE Nouveau!]{type=Informative}
+
+Cette automatisation met à jour les projets à l’état Terminé pour lequel toutes les tâches à 1 005 sont terminées. Les projets avec des problèmes en cours ou des tâches ouvertes ou des approbations de projet recevront une mise à jour. Une fois résolus, les projets passeront à l’état Terminé.
+
+### [!BADGE Nouveau!]{type=Informative}
+
+Utilisez ce scénario pour automatiser l’avertissement et la fermeture des projets qui correspondent à la stratégie de projet obsolète de votre entreprise.
+
+### [!BADGE Nouveau!]{type=Informative}
+
+Utilisez ce modèle pour copier les notes et les réponses d’un problème ou d’une requête vers un projet ou une tâche déjà converti.
+
+### Workfront - Copier le programme Forms personnalisé et les données de champ dans les nouveaux projets associés
+
+Cette automatisation recherche de nouveaux projets dans les programmes avec des formulaires personnalisés. Il ajoute ensuite ces formulaires et champs personnalisés de programme aux nouveaux projets.
+
+### Workfront - Copie de Portfolios de données de champ et de Forms personnalisées dans les nouveaux projets associés
 
 Cette automatisation recherche de nouveaux projets dans les portefeuilles avec des formulaires personnalisés. Il ajoute ensuite ces champs et formulaires personnalisés de portefeuille aux nouveaux projets.
 
@@ -58,7 +78,7 @@ Ce modèle capture une ligne de base de projet lors de tout changement d’état
 
 Ce modèle capture une ligne de base de projet sur une base hebdomadaire chaque lundi à 6h00 ET sur les projets filtrés par portefeuille, et crée une mise à jour dans le flux de mise à jour pour la journalisation.
 
-### [!BADGE Nouveau!]{type=Informative}
+### Recherche de modèles de projet non utilisés au moment de la stratégie et notification
 
 Une fois par mois, consultez vos modèles de projet en utilisant votre propre stratégie avec ce modèle facile à gérer qui avertit les utilisateurs appropriés des modèles en violation de votre stratégie.
 
@@ -81,6 +101,10 @@ Ces modèles récupèrent les informations d’un service Web et les intègrent 
 >[!NOTE]
 >
 > Vous devez disposer d’une licence Workfront Fusion for Work Automation and Integration pour utiliser des modèles dans cette section.
+
+### [!BADGE Nouveau!]{type=Informative}
+
+Définition de l’autorisation JWT pour une API client.
 
 ### APILayer > Workfront - Mise à jour du taux de change quotidien (en euros)
 
@@ -105,6 +129,19 @@ Ce scénario fournit un moyen programmatique de créer des campagnes par courrie
 ### Vérification d’un BAT d’email de votre brouillon de courrier électronique de Marketo Engage dans Workfront
 
 Ce modèle détecte si une tâche Workfront a été définie sur un état prêt à être examinée, puis exporte le brouillon de l’email depuis Marketo Engage pour l’enregistrer en tant que BAT dans Workfront.
+
+## Modèles Workfront-SharePoint
+
+Ces modèles connectent Workfront et SharePoint.
+
+>[!NOTE]
+>
+> Vous devez disposer d’une licence Workfront Fusion for Work Automation and Integration pour utiliser des modèles dans cette section.
+
+### [!BADGE Nouveau!]{type=Informative}
+
+Ce modèle vous permet de voir si un dossier SharePoint a été modifié.
+
 
 ## Modèles Workfront-Anaplan
 
@@ -131,3 +168,6 @@ Pour plus d’informations sur l’intégration Workfront-Anaplan, voir [Adobe W
 
 * [Créez un [!DNL Anaplan] élément de liste d’un [!DNL Adobe Workfront] requête de campagne](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Appliquez une [!DNL Anaplan] allocation d’un budget à un [!DNL Adobe Workfront] requête de campagne ou projet de campagne](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->
