@@ -4,9 +4,9 @@ description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Le webinaire de la version 23.10 aura lieu le 5 octobre 2023. Vous pouvez [Inscr
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">Les champs calculés sur les formulaires personnalisés peuvent désormais utiliser le caractère générique $$USER</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Le caractère générique $$USER est désormais disponible dans les champs personnalisés calculés et les champs de recherche externes du nouveau concepteur de formulaire.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 5 octobre 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 23.10</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Ajout d’options de valeur d’une API externe à un formulaire personnalisé</a></p>
