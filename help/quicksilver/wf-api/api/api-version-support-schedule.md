@@ -6,10 +6,10 @@ description: Contrôle de version des API et planification de la prise en charge
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
+source-git-commit: 6b341310e06e75e47b94b7c27031ce8398e91c68
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 11%
+source-wordcount: '243'
+ht-degree: 10%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 11%
 
 
 Adobe Workfront publie régulièrement de nouvelles versions d’API, généralement deux fois par an. Les versions d’API sont prises en charge pendant 3 ans après la publication de . Les versions d’API antérieures à 3 ans ne sont plus prises en charge.
+
+Pour plus d’informations sur l’identification et l’utilisation des versions d’API, voir [Spécification d’une version d’API dans vos intégrations](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 Le tableau suivant indique le calendrier de publication et de prise en charge de l’API Workfront.
 
@@ -127,6 +129,6 @@ Le tableau suivant indique le calendrier de publication et de prise en charge de
 
 &#42;Workfront ne traitera pas les problèmes liés aux versions non prises en charge de l’API.
 
-&#42;&#42;Les dates peuvent être modifiées.
+&#42;&#42;Les dates peuvent faire l’objet de modifications.
 
 Pour plus d’informations sur l’utilisation de versions spécifiques de l’API, voir [Spécification d’une version d’API dans vos intégrations](../../wf-api/api/specify-api-version-integrations.md)
