@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Pour plus d’informations sur la conversion de problèmes en projets, voir [Con
 
 ## Considérations relatives à la conversion de problèmes
 
-* L’administrateur ou l’administrateur de groupe Workfront a déjà défini les préférences pour ce qui arrive à un problème, sa résolution et l’accès de son contact Principal lorsqu’il est converti en projet ou en tâche, comme indiqué dans la section [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* L’administrateur ou l’administrateur de groupe Workfront a déjà défini les préférences pour ce qui arrive à un problème, sa résolution et l’accès de son contact de Principal lorsqu’il est converti en projet ou en tâche, comme indiqué dans la section [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront supprime les approbations associées aux problèmes lors de la conversion.
 * Workfront remplace l’objet de résolution du problème lorsque vous le convertissez en tâche ou projet. La nouvelle tâche ou le nouveau problème devient le nouvel objet de résolution du problème après la conversion.
 * Tenez compte des points suivants :
@@ -35,7 +35,9 @@ Pour plus d’informations sur la conversion de problèmes en projets, voir [Con
 
 * Lors de la conversion d’un problème en une tâche ou un projet, le problème est supprimé de la zone Accueil de l’utilisateur affecté au problème.
 
-* Lors de la conversion d’un problème en projet à l’aide d’un modèle, la plupart des informations du modèle sont transférées vers le nouveau projet. Cependant, certaines informations provenant du problème peuvent également être transférées vers le nouveau projet. Pour plus d’informations, voir [Présentation des champs du projet lors de la conversion d’un problème en projet à l’aide d’un modèle](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) dans cet article.
+* Lors de la conversion d’un problème, les autorisations liées aux problèmes d’origine ne sont pas transférées vers l’objet converti (tâche ou projet).
+
+* Lors de la conversion d’un problème en projet à l’aide d’un modèle, la plupart des informations du modèle sont transférées vers le nouveau projet. Cependant, certaines informations provenant du problème peuvent également être transférées vers le nouveau projet. Pour plus d’informations, voir [Présentation des champs du projet lors de la conversion d’un problème en projet à l’aide d’un modèle](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) dans cet article.
 * Lors de la conversion d’un problème, tous les documents ou leurs informations ne sont pas déplacés vers le nouvel objet vers lequel le problème est converti. Les éléments suivants sont inclus lorsque vous convertissez un problème auquel sont associés des documents ou des liens vers des documents :
 
    * Document
@@ -110,12 +112,17 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
   </tr> 
   <tr> 
    <td>Groupe</td> 
-   <td>Transferts à partir du modèle. S’il n’existe aucun groupe sur le modèle, il est défini sur le groupe du projet auquel le problème appartient.</td> 
+   <td><p> Les scénarios suivants existent :</p>
+     <ul><li>Si un groupe est spécifié pendant la conversion, il devient le groupe du projet.</li>
+     <li>Si vous effectuez une conversion vers un projet à l’aide d’un modèle et qu’un groupe est présent sur le modèle, et que vous ne spécifiez pas de groupe pendant la conversion, le groupe du modèle devient le groupe du nouveau projet.</li>
+      <li> S’il n’y a aucun groupe sur le modèle et que vous ne spécifiez pas de groupe pendant la conversion, le groupe du projet du problème d’origine devient le groupe du nouveau projet.</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>Entreprise</td> 
-   <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
-  </tr> 
+   <td>Entreprise</td>    
+   <td>  Transferts à partir du modèle. Sinon, ce champ est vide.</td>
+
+</tr> 
   <tr> 
    <td>Propriétaire du projet</td> 
    <td>Transferts à partir du champ Propriétaire du modèle sur le modèle. Sinon, elle est définie sur l’utilisateur connecté qui effectue la conversion. </td> 
@@ -238,4 +245,4 @@ Le tableau suivant illustre les champs de problème visibles à partir des proje
 
 >[!CAUTION]
 >
->Si le contact Principal d’un problème change ou si le problème n’est plus lié au projet ou à la tâche une fois le problème converti, le nom de l’auteur du problème converti n’est pas mis à jour et affiche le contact Principal d’origine du problème au moment de la conversion.
+>Si le contact par Principal d’un problème change ou si le problème n’est plus lié au projet ou à la tâche une fois le problème converti, le nom de l’auteur du problème converti n’est pas mis à jour et affiche le contact Principal d’origine du problème au moment de la conversion.

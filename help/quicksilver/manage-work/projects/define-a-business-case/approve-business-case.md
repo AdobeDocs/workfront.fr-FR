@@ -5,7 +5,7 @@ description: Une fois que vous avez terminé et envoyé l’analyse de cas pour 
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Une fois que vous avez terminé et envoyé l’analyse de cas pour une demande de projet, l’analyse de cas doit être approuvée. Cela dépend du workflow de votre organisation. Un projet peut commencer sans que l’analyse de cas ne doive être approuvée, mais votre administrateur Adobe Workfront et vos propriétaires de projet peuvent ne pas la considérer comme idéale. 
 
-Pour plus d’informations sur l’exécution et l’envoi d’un cas d’entreprise, reportez-vous à l’article [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Pour plus d’informations sur l’exécution et l’envoi d’un cas d’entreprise, consultez l’article [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Exigences d’accès
 
@@ -54,13 +54,13 @@ Tenez compte des points suivants lors de l’approbation d’un cas d’entrepri
 * Vous devez disposer des autorisations de gestion pour un projet afin d’approuver l’analyse de cas pour celui-ci. 
 * Vous ne pourrez pas voir les projets en attente de l’approbation de l’analyse de cas par vos validations dans votre site Web.
 * Vous devez accéder manuellement aux différents projets nécessitant l’approbation de Business Case pour vérifier qu’ils sont en attente d’approbation. Il n’existe aucun mécanisme de notification Workfront qui avertit une personne qu’elle doit approuver l’analyse de cas d’un projet.
-* Vous pouvez retrouver les projets en attente de validation de l’Analyse de cas en créant un rapport de projet ou en accédant au portefeuille auquel ils sont associés. 
+* Vous pouvez retrouver les projets en attente de validation de l’Analyse de cas, soit en créant un rapport de projet, soit en accédant au portefeuille auquel ils sont associés. 
 
-   Pour plus d’informations sur les Portfolios, voir l’article [Présentation des Portfolios dans Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Pour plus d’informations sur les Portfolios, voir l’article [Présentation des Portfolios dans Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Approuver l’analyse de cas en créant un rapport de projet
 
-Vous pouvez créer un rapport pour les projets afin de déterminer les projets pour lesquels un Business Case doit être approuvé. 
+Vous pouvez créer un rapport pour les projets afin de déterminer les projets pour lesquels l’analyse de cas des projets doit être approuvée. 
 
 Pour créer un rapport sur les projets en attente de validation de leurs dossiers d’activité :
 
@@ -68,13 +68,13 @@ Pour créer un rapport sur les projets en attente de validation de leurs dossier
 
    Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Sélectionnez la **Affichage** du rapport, puis cliquez sur **Ajouter une colonne**.
+1. Sélectionnez la variable **Affichage** du rapport, puis cliquez sur **Ajouter une colonne**.
 
 1. Commencez à saisir &quot;Status&quot; dans le champ **Afficher dans cette colonne** puis sélectionnez ce champ lorsqu’il apparaît dans la liste.
 
     Cette colonne affiche le statut des projets.
 
-1. Sélectionnez la **Filtres** du rapport, puis cliquez sur **Ajouter une règle de filtre**.
+1. Sélectionnez la variable **Filtres** du rapport, puis cliquez sur **Ajouter une règle de filtre**.
 
 1. Commencez à saisir &quot;Status&quot; dans le champ **Montrez-moi uniquement les Projets dans lesquels ...** et sélectionnez-la lorsqu’elle apparaît dans la liste.
 1. Sélectionner **Égal** pour le modificateur de filtre.
@@ -94,7 +94,7 @@ Pour créer un rapport sur les projets en attente de validation de leurs dossier
    Project Sponsor ID Equals $$USER.ID
    ```
 
-   pour afficher les projets pour lesquels vous êtes désigné comme responsable de projet
+   pour afficher les projets pour lesquels vous êtes désigné comme responsable du projet
 
    ```
    Project Owner ID Equals $$USER.ID
@@ -114,7 +114,7 @@ Pour créer un rapport sur les projets en attente de validation de leurs dossier
 
 1. Cliquez sur le nom d’un projet dans le rapport pour l’ouvrir.
 1. Cliquez sur **Analyse de cas** dans le panneau de gauche.
-1. Cliquez sur **Approuver** ou **Rejeter** dans la zone Résumé de l’analyse de cas pour approuver ou rejeter l’analyse de cas. 
+1. Cliquez sur **Approuver** ou **Rejeter** dans la zone Résumé de l’analyse de cas pour approuver ou rejeter l’analyse de cas.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 
@@ -128,4 +128,4 @@ Pour créer un rapport sur les projets en attente de validation de leurs dossier
 
 ## Approuver l’analyse de cas en accédant aux projets demandés dans un portfolio
 
-Pour plus d’informations sur la révision des projets demandés, consultez l’article . [Examen des projets demandés](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+Pour plus d’informations sur la révision des projets demandés, consultez l’article . [Révision des projets demandés](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

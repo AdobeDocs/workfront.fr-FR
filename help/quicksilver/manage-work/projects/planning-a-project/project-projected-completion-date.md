@@ -7,9 +7,9 @@ description: La date de fin prévue est un indicateur calculé en temps réel du
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage ou accès supérieur à la console Projets</p> <p>Pour créer un rapport, vous devez disposer des droits d’édition sur les rapports, les tableaux de bord et les calendriers.</p> <p>Vous devez disposer d’un accès en édition aux options Filtres, Vues et Groupements pour créer un rapport ou modifier le mode Liste.</p> <p><b>NOTE</b>
+   <td> <p>Affichage ou accès supérieur à la console Projets</p> <p>Pour créer un rapport, vous devez disposer des droits d’édition sur les rapports, tableaux de bord et calendriers.</p> <p>Vous devez disposer d’un accès en édition aux options Filtres, Vues et Groupements pour créer un rapport ou modifier le mode Liste.</p> <p><b>NOTE</b>
 
 Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
@@ -93,28 +93,32 @@ La date de fin prévue est un champ calculé qui ne peut pas être modifié manu
 Les critères utilisés pour déterminer la date de fin prévue diffèrent selon l’objet que vous affichez :
 
 * **Projets :** La date d’achèvement prévue des projets correspond à la date d’achèvement prévue de la dernière tâche du projet.
-* **Tâches :** La date d’achèvement prévue des tâches est déterminée selon les critères suivants :
+
+  Par exemple, un pourcentage plus élevé de fin déplace la date de fin prévue de la tâche plus près du jour en cours. Si l’état de la tâche est Nouveau et que la Date d’achèvement planifiée de la tâche est proche ou dépassée, la Date d’achèvement prévue se déplace plus loin dans le futur.
+
+* **Tâches :** La date d’achèvement prévue des tâches est déterminée selon les critères suivants :
 
    * **Mises à jour de l’état d’avancement de la tâche par la personne désignée pour la tâche :** Les mises à jour de progression incluent les modifications du pourcentage terminé et de l’état de la tâche.
    * **Date de validation :** Si la personne désignée par la tâche indique une date de validation, la date de fin prévue se modifie pour correspondre à la date de validation.
 
-      Pour plus d’informations sur les dates de validation, voir l’article [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Pour plus d’informations sur les dates de validation, voir l’article [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
    * **Prédécesseurs :** S’il n’y a aucun retard sur les tâches précédentes, la date de fin prévue doit correspondre à la date de fin prévue. En cas de retards, les tâches dépendantes affichent une date d’achèvement prévue supérieure à la date d’achèvement planifiée.
 
-      Pour plus d’informations sur la date d’achèvement prévue des tâches, voir [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
-   >[!IMPORTANT]
-   >
-   >Lorsque le prédécesseur d’une tâche comporte une date de fin réelle, les tâches dépendantes reçoivent une date de fin prévue, comme décrit dans le scénario suivant :
-   >
-   >
-   >Si le projet comporte les tâches A, B et C, et que la tâche B est le successeur de la tâche A, la tâche C succède à la tâche B et qu’une date d’achèvement réelle est ajoutée à la tâche A, la date d’achèvement prévue est automatiquement recalculée pour la tâche B (à condition que la **Type de mise à jour** du projet est défini sur Automatique et En changement), mais il ne sera pas recalculé pour la tâche C. Actuellement, Workfront calcule la Date d’achèvement prévue pour les tâches qui sont à un niveau supérieur ou inférieur par rapport à la tâche mise à jour, pour des raisons de performances. 
+     Pour plus d’informations sur la date d’achèvement prévue des tâches, voir [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-* **Problèmes :**Le problème : la date de fin prévue est initialement définie pour correspondre à la date de fin prévue du problème.
+  >[!IMPORTANT]
+  >
+  >Lorsque le prédécesseur d’une tâche comporte une date de fin réelle, les tâches dépendantes reçoivent une date de fin prévue, comme décrit dans le scénario suivant :
+  >
+  >
+  >Si le projet comporte les tâches A, B et C, et que la tâche B est le successeur de la tâche A, la tâche C succède à la tâche B et qu’une date de fin réelle est ajoutée à la tâche A, la date de fin prévue est automatiquement recalculée pour la tâche B (à condition que la **Type de mise à jour** du projet est défini sur Automatique et En changement), mais il ne sera pas recalculé pour la tâche C. Actuellement, Workfront calcule la Date d’achèvement prévue pour les tâches qui sont à un niveau supérieur ou inférieur par rapport à la tâche mise à jour, pour des raisons de performances. 
 
-   Si la personne désignée par le problème indique une date de validation, la date de fin prévue et la date de fin planifiée correspondent toutes deux à la date de validation.
+* **Problèmes :** Le problème : la date de fin prévue est initialement définie pour correspondre à la date de fin prévue du problème.
 
-   Pour plus d’informations sur les dates de validation, voir l’article [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Si la personne désignée par le problème indique une date de validation, la date de fin prévue et la date de fin planifiée correspondent toutes deux à la date de validation.
+
+  Pour plus d’informations sur les dates de validation, voir l’article [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Afficher la date d’achèvement prévue
 
@@ -143,12 +147,12 @@ Vous pouvez afficher la date d’achèvement prévue pour les problèmes uniquem
 Pour créer un rapport de problème qui inclut la date de fin prévue :
 
 1. Créez un rapport de problèmes, comme décrit dans l’article . [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Sélectionnez la **Colonnes (affichage)** .
+1. Sélectionnez la variable **Colonnes (affichage)** .
 1. Cliquez sur **Ajouter une colonne**, puis commencez à taper **Date d’achèvement prévue** dans le **Afficher dans cette colonne :** champ .
 
 1. Sélectionnez-le lorsqu’il apparaît dans la liste, sous le **Problème** . 
 1. Cliquez sur **Enregistrer + Fermer**.
 
-   Le **Date d’achèvement prévue** est renseignée dans le rapport. 
+   La variable **Date d’achèvement prévue** est renseignée dans le rapport. 
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

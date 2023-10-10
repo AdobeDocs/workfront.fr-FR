@@ -4,13 +4,13 @@ description: Vous pouvez afficher les enregistrements et leurs champs dans une v
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 5%
+source-wordcount: '1659'
+ht-degree: 4%
 
 ---
-
 
 # Gestion de la vue de tableau
 
@@ -145,24 +145,45 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
    >
    >* Le champ Nom est figé et ne fait pas partie du défilement horizontal.
 
-1. Pour augmenter la largeur des colonnes, cliquez et faites glisser les lignes de séparation des colonnes et déposez-les à l’emplacement de votre choix.
+1. Sélectionnez un ou plusieurs enregistrements d’une ligne, puis faites glisser et déposez le **handle** icon ![](assets/handle-icon.png) à gauche du nom de l’enregistrement pour réorganiser les lignes.
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas réorganiser les lignes si vous appliquez au moins un tri à la vue du tableau.
+
+1. Cliquez et faites glisser les lignes de séparation des colonnes et déposez-les à l’emplacement souhaité pour augmenter la largeur des colonnes.
 
    >[!TIP]
    >
    >Les modifications apportées à la largeur et à l’ordre des colonnes sont permanentes et visibles par tous les utilisateurs qui accèdent au type d’enregistrement.
 
-1. Pour masquer une colonne, survolez son en-tête, cliquez sur la flèche pointant vers le bas, puis cliquez sur **Masquer le champ**
+1. Pointez sur l’en-tête de colonne, puis cliquez sur la flèche pointant vers le bas, puis sur **Masquer le champ**
 
    Ou
 
-   Cliquez sur **Champs** dans la barre d’outils du tableau et désactivez le bouton d’activation/désactivation associé aux champs à masquer.
+   Cliquez sur **Champs** dans la barre d’outils du tableau et désactivez le bouton d’activation/désactivation associé aux champs (ou colonnes) à masquer.
 
    >[!TIP]
    >
    >Le nombre de champs masqués s’affiche à gauche de l’icône Champs de la barre d’outils.
 
 
-1. Dans la **Champs** , activez le bouton d’activation/désactivation associé aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.
+1. Cliquez sur le bouton **Champs** et activez le bouton d’activation associé aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.
+
+1. Procédez comme suit pour rechercher rapidement les enregistrements correspondant à un mot-clé :
+
+   1. Cliquez sur le bouton **search** icon ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et le champ avec la correspondance correcte est surligné en bleu.
+
+      Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
+
+      Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
+   1. (Facultatif) S’il existe plusieurs correspondances, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour trouver toutes les correspondances dans le tableau.
+
+   1. Cliquez sur le bouton **X** dans la zone de recherche pour effacer le mot-clé de recherche.
+
 
 ### Ajouter des lignes (ou des enregistrements) {#add-rows}
 
@@ -388,12 +409,11 @@ Pour trier <!--ungrouped (add this when sorting for groupings will be available-
 
 1. Cliquez en dehors du **Tri des enregistrements par** pour le fermer.
 
+   ![](assets/sorting-in-table-view.png)
+
    Les informations affichées dans le tableau sont triées selon les critères que vous avez sélectionnés.
 
    Les champs sélectionnés pour le tri affichent une icône de tri suivie d’un nombre indiquant l’ordre dans lequel le tri est appliqué.
-
-   ![](assets/sorting-in-table-view.png)
-
 
 <!-- this is not available yet: 
 

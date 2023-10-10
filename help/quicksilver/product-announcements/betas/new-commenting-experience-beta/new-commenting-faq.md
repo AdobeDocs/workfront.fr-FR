@@ -6,13 +6,13 @@ description: Cet article contient une liste des questions les plus courantes sur
 author: Alina
 feature: Product Announcements
 role: User, Admin
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
-
 
 # FAQ sur les nouvelles expériences de commentaires
 
@@ -24,7 +24,7 @@ Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nou
 
 Actuellement, nous ne prenons en charge que les pièces jointes aux commentaires. Si vous souhaitez voir d’autres types de fichiers, veuillez envoyer une demande de laboratoire d’innovation afin que nous puissions comprendre les exigences de la fonctionnalité.
 
-## Ajouterez-vous la possibilité de modifier l’état, la condition ou la date d’achèvement prévue d’un élément de travail dans la nouvelle expérience de commentaire ?
+## Ajoutez-vous la possibilité de modifier l’état, la condition, la date de validation ou la date d’achèvement prévue d’un élément de travail dans la nouvelle expérience de commentaire ?
 
 Nous ne prévoyons pas de rétablir la capacité d’effectuer ces actions, car elles sont disponibles à partir de l’en-tête et des zones Détails de l’objet. Nous comprenons que nous vous demandons de changer le modèle d&#39;utilisation du flux de commentaires, mais nous le faisons pour conserver l&#39;expérience de commentaires dans son but direct de communication et de collaboration.
 

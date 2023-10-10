@@ -4,13 +4,13 @@ description: Utilisez Maestro pour créer des objets, champs et espaces de trava
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
-
 
 # Activité de mise à jour Adobe Maestro
 
@@ -34,13 +34,21 @@ Cette section répertorie les fonctionnalités et les correctifs qui ont été p
 
 Les fonctionnalités sont publiées toutes les semaines et sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé Maestro peuvent accéder à toutes les fonctionnalités de leurs environnements Aperçu et Production.
 
+## Semaine du 9 octobre 2023
+
+### Recherche dans la vue Tableau
+
+Aperçu et production : 9 octobre 2023
+
+Vous pouvez désormais rechercher un mot-clé pour trouver rapidement un enregistrement dans le mode Tableau. Vous pouvez utiliser des mots-clés et des caractères spéciaux dans n’importe quel champ visible à l’écran pour trouver un enregistrement. Pour plus d’informations, voir [Gestion de la vue de tableau](../maestro/views/manage-the-table-view.md).
+
 ## Semaine du 18 septembre 2023
 
 ### Réorganiser les lignes
 
 Aperçu et production : 20 septembre 2023
 
-Vous pouvez désormais réorganiser une ou plusieurs lignes (ou enregistrements) dans la vue Tableau d’une page de type enregistrement.
+Vous pouvez désormais réorganiser une ou plusieurs lignes (ou enregistrements) dans la vue Tableau d’une page de type enregistrement. Pour plus d’informations, voir [Gestion de la vue de tableau](../maestro/views/manage-the-table-view.md).
 
 ## Semaine du 4 septembre 2023
 

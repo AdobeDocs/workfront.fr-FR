@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Affichage : fusionner les informations de plusieurs colonnes dans une seule colonne partagée'''
+title: 'Vue : fusionner les informations de plusieurs colonnes dans une seule colonne partagée'
 description: Vous pouvez fusionner les informations qui s’affichent dans plusieurs colonnes distinctes et les afficher dans une seule colonne partagée.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
 
-# Afficher : fusionner les informations de plusieurs colonnes dans une seule colonne partagée
+# Vue : fusionner les informations de plusieurs colonnes dans une seule colonne partagée
 
 Vous pouvez fusionner les informations qui s’affichent dans plusieurs colonnes distinctes et les afficher dans une seule colonne partagée.
 
@@ -54,7 +54,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 * Vous pouvez fusionner deux colonnes adjacentes et afficher les informations de chaque colonne séparées par un saut de ligne. Vous pouvez également fusionner les informations dans deux colonnes adjacentes sans séparateur entre les informations de chaque colonne.
 * Vous pouvez fusionner les informations de plus de deux colonnes en appliquant la même syntaxe que celle décrite dans cet article à une colonne déjà partagée et une colonne adjacente.
-* Le `valueformat=HTML` est obligatoire dans une colonne partagée. Dans le cas contraire, les colonnes ne contiennent aucune information (elles seront vides) lorsque le rapport est exporté depuis Adobe Workfront.
+* La variable `valueformat=HTML` est obligatoire dans une colonne partagée. Dans le cas contraire, les colonnes ne contiennent aucune information (elles seront vides) lorsque le rapport est exporté depuis Adobe Workfront.
 * La mise en forme conditionnelle peut ne pas être prise en charge dans les colonnes fusionnées.
 
   Les exceptions suivantes existent :
@@ -111,7 +111,7 @@ Pour ce faire :
 
 1. Cliquez sur **Enregistrer**, puis **Enregistrer la vue**.
 
-## Fusionner les données de deux colonnes avec un saut de ligne
+## Fusion des données de deux colonnes avec saut de ligne
 
 Procédez comme suit pour fusionner les données de plusieurs colonnes afin de les afficher dans une colonne commune avec un saut de ligne entre les valeurs de chaque colonne :
 
@@ -133,7 +133,7 @@ Procédez comme suit pour fusionner les données de plusieurs colonnes afin de l
    `sharecol=true`
 
 
-1. Ajoutez le texte suivant à la première colonne :
+1. Cliquez sur la première colonne, puis sur **Passer en mode Texte**, puis ajoutez le texte suivant à la colonne :
 
    `sharecol=true`
 
