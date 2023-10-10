@@ -6,9 +6,9 @@ description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe] Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
 1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Ajouter une carte] > [!UICONTROL Nouvelle carte]**.
+
+   La variable [!UICONTROL Détails de la carte] s’affiche.
+
+   >[!NOTE]
+   >
+   >Si vous cliquez en dehors du champ Nom , la carte ad hoc est automatiquement enregistrée comme &quot;Sans titre&quot; au bas de la colonne la plus à gauche. Pour quitter sans enregistrer la carte, cliquez sur [!UICONTROL **Annuler**] sans cliquer ailleurs dans le [!UICONTROL Détails de la carte] de la boîte.
+
 1. Dans le **[!UICONTROL Détails de la carte]** ajoutez les informations suivantes :
 
    <table style="table-layout:auto"> 
