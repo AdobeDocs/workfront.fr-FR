@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2510'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ Les débuts sont des classeurs Excel spécialement formatés que vous pouvez ren
 
 Ce processus est divisé en 3 tâches principales :
 
-* Tout d’abord, vous exportez un modèle de démarrage rapide sous la forme d’un fichier de feuille de calcul.
+* Tout d’abord, vous exportez un modèle de démarrage rapide sous forme de fichier de feuille de calcul.
 * Deuxièmement, vous complétez la feuille de calcul avec vos données.
 * Enfin, vous importez la feuille de calcul renseignée dans Workfront.
 
@@ -46,7 +46,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Vous pouvez importer un grand nombre d’objets dans Workfront à l’aide d’u
 
 * L&#39;import de données de cette manière ne met pas à jour les informations sur les enregistrements déjà présents dans Workfront.
 * Vous ne pouvez importer que les nouveaux enregistrements et leurs informations.
-* N’importez pas plus de 2 000 enregistrements à la fois pour vous assurer que l’importation n’expire pas.
+* Importez pas plus de 2 000 enregistrements à la fois pour vous assurer que l&#39;import n&#39;expire pas.
 
 ## Exporter un modèle de démarrage rapide sous la forme d’un fichier de feuille de calcul
 
@@ -120,14 +120,14 @@ Pour exporter un modèle de démarrage rapide :
       <td> <p>Type d’heure</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
-      <td> <p>Équipe</p> </td> 
+      <td> <p>Equipe</p> </td> 
       <td scope="col"> <p>Exporte sous forme de fichier Excel</p> </td> 
-      <td> <p> Membre d'équipe</p> <p>Équipe</p> <p>Préférences </p> </td> 
+      <td> <p> Membre d'équipe</p> <p>Equipe</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>Utilisateur ou utilisatrice</p> </td> 
+      <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
       <td> <p>Exporte sous forme de fichier Excel. Pour afficher la liste complète des options, cliquez sur <strong>Plus d’options</strong>.</p> </td> 
-      <td> <p>Utilisateur ou utilisatrice</p> <p>Préférences</p> </td> 
+      <td> <p>l’utilisateur ou de l’utilisatrice</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
       <td>Niveau d’accès</td> 
@@ -315,14 +315,19 @@ Chaque ligne de la feuille correspond à un objet unique.
 
    * Si l’objet que vous importez existe déjà dans le système Workfront (et que vous avez tapé **FALSE** dans le **isNew** ), l’ID doit être le GUID alphanumérique existant dans Workfront pour cet objet.
 
+     ![Exemple d’identifiant pour un groupe](assets/kick-start-group-example.png)
+
+   * Lorsque vous importez un projet, vous devez indiquer un ID de groupe.
+
+      * Si le groupe existe déjà dans Workfront, vous devez ajouter son identifiant unique à la variable **setGroupID** pour le projet.
+      * Si le groupe n’existe pas dans Workfront, vous pouvez ajouter la variable **Groupe** dans votre fichier d’importation, définissez **isNew** champ à **TRUE** dans la feuille Groupe , puis indiquez un identifiant numérique pour le nouveau groupe dans la variable **ID** colonne . La variable **setGroupID** Le champ du nouveau projet doit correspondre au champ numérique **ID** pour le nouveau groupe.
+
      **Exemple :** Pour un projet, la valeur affichée dans la variable **setGroupID** doit correspondre à l’un des éléments suivants :
 
       * GUID d’un groupe existant dans votre instance Workfront
       * La valeur (nombre) dans la colonne ID de la variable **Groupe** feuille si vous créez un groupe au cours de l’importation
 
-        ![Exemple d’identifiant pour un groupe](assets/kick-start-group-example.png)
-
-1. Valeurs de saisie des champs obligatoires et des autres champs que vous souhaitez renseigner lors de l&#39;import.
+1. Valeurs de saisie des champs obligatoires et de tous les autres champs que vous souhaitez renseigner lors de l&#39;import.
 1. (Facultatif) Pour ajouter des données personnalisées :
 
    * Créez une nouvelle colonne pour chaque champ personnalisé que vous souhaitez inclure dans le processus d&#39;import.
@@ -340,7 +345,7 @@ Workfront peut traiter la plupart des formats de date. Cependant, vous devez vou
 >
 >La plupart des utilisateurs trouvent plus facile d’utiliser le format MM/JJ/AAAA (par exemple : 07/10/2022).
 
-Workfront accepte également les valeurs d’heure dans le cadre de la date (par exemple : 07/10/2022 01 h 30 ou 07/10/2022 13 h 00).
+Workfront accepte également les valeurs d’heure dans le cadre de la date (par exemple : 07/10/2022 01:30 ou 07/10/2022 1:00 PM).
 
 Si vous omettez une heure dans la date, Workfront effectue l’une des opérations suivantes :
 
@@ -381,7 +386,7 @@ Vous pouvez utiliser les caractères génériques suivants lorsque vous renseign
   </tr> 
   <tr> 
    <td> <p>$$CUSTOMER</p> </td> 
-   <td> <p>Ce caractère générique a été ajouté spécifiquement pour les importations des utilisateurs de démarrage rapide. Lors de la création d’un compte Workfront, un utilisateur disposant du niveau d’accès Administrateur système est créé. Le nom d’utilisateur attribué à l’administrateur par défaut peut être utilisé comme préfixe lors de la création d’autres utilisateurs dans le compte.</p> <p>Comme les noms d’utilisateur doivent être uniques pour tous les clients, cela s’avère utile lorsque vous avez plusieurs individus avec des noms d’utilisateur très courants, tels que John Smith, qui peuvent avoir un nom d’utilisateur "jsmith". En ajoutant l’attribution du nom d’utilisateur en préfixe au nom d’utilisateur administrateur par défaut, vous garantissez que chaque nom d’utilisateur est unique (par exemple : <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Conseil : Une manière plus élégante de s’assurer que les noms d’utilisateur sont uniques à l’échelle du système consiste à saisir l’adresse électronique de la personne dans la variable <strong>setUsername</strong> champ .</p> </td> 
+   <td> <p>Ce caractère générique a été ajouté spécifiquement pour les importations des utilisateurs de démarrage rapide. Lors de la création d’un compte Workfront, un utilisateur disposant du niveau d’accès Administrateur système est créé. Le nom d’utilisateur attribué à l’administrateur par défaut peut être utilisé comme préfixe lors de la création d’autres utilisateurs dans le compte.</p> <p>Comme les noms d’utilisateur doivent être uniques pour tous les clients, cela s’avère utile lorsque vous avez plusieurs individus avec des noms d’utilisateur très courants, tels que John Smith, qui peuvent avoir un nom d’utilisateur "jsmith". En ajoutant l’attribution du nom d’utilisateur en préfixe au nom d’utilisateur par défaut de l’administrateur, vous garantissez que chaque nom d’utilisateur est unique (par exemple : <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Conseil : Pour vous assurer que les noms d’utilisateur sont uniques à l’échelle du système, saisissez l’adresse électronique de la personne dans la variable <strong>setUsername</strong> champ .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -406,7 +411,7 @@ Bien qu’il soit recommandé d’utiliser les identifiants chaque fois que cela
 
 * **(importation utilisateur)**
 
-  Lors de l’importation d’utilisateurs, renseignez la variable **setRoleID** à partir d’une liste de rôles sur la **Rôle DU RÔLE** .
+  Lors de l’importation d’utilisateurs, renseignez la variable **setRoleID** à partir d’une liste de rôles sur la fonction **Rôle du rôle** .
 
   Certains ID de rôle concernent des enregistrements déjà présents dans le compte, tandis que d’autres sont créés lors de l’importation.
 
@@ -428,7 +433,7 @@ Une fois que vous avez renseigné les données du modèle Excel, vous pouvez les
 
 L’importation de démarrage rapide prend en charge les types de fichiers suivants :
 
-* Excel XML (&#42;.xlsx)
+* Excel XML (&#42;.xlsx
 * Excel hérité (&#42;.xls)
 * Zipped (&#42;ZIP) fichier xlsx ou xls
 
@@ -443,7 +448,7 @@ Pour importer les données de feuille de calcul du modèle dans Workfront :
 
 1. Cliquez sur **Système** >**Importer des données (démarrage)**.
 
-1. Dans le **Chargement de données avec la feuille de calcul Démarrage rapide** , cliquez sur **Choisir un fichier**, puis recherchez et sélectionnez la feuille de calcul renseignée.
+1. Dans le **Chargement de données avec la feuille de calcul Démarrage rapide** , cliquez sur **Choisir un fichier**, puis sélectionnez la feuille de calcul renseignée.
 
 1. Cliquez sur **Téléchargez.**
 

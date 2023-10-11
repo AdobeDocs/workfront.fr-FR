@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 4%
 
 ---
@@ -145,12 +145,6 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
    >
    >* Le champ Nom est figé et ne fait pas partie du défilement horizontal.
 
-1. Sélectionnez un ou plusieurs enregistrements d’une ligne, puis faites glisser et déposez le **handle** icon ![](assets/handle-icon.png) à gauche du nom de l’enregistrement pour réorganiser les lignes.
-
-   >[!NOTE]
-   >
-   >Vous ne pouvez pas réorganiser les lignes si vous appliquez au moins un tri à la vue du tableau.
-
 1. Cliquez et faites glisser les lignes de séparation des colonnes et déposez-les à l’emplacement souhaité pour augmenter la largeur des colonnes.
 
    >[!TIP]
@@ -191,9 +185,16 @@ Les lignes d’un tableau Maestro affichent des enregistrements individuels du t
 
 Vous pouvez avoir jusqu’à 10 000 enregistrements (ou lignes) pour un type d’enregistrement dans Maestro.
 
-L’ajout de lignes à une vue de tableau Maestro est identique à la création d’enregistrements dans un tableau.
+1. Accédez à une page de type enregistrement et sélectionnez une **Tableau** vue depuis le menu déroulant des vues.
+1. Commencez à ajouter des enregistrements (ou des lignes), comme décrit dans l’article [Créer des enregistrements](../records/create-records.md).
 
-Pour plus d’informations, voir [Créer des enregistrements](../records/create-records.md).
+   Les enregistrements que vous ajoutez dans la vue de tableau sont immédiatement enregistrés et visibles par tous les utilisateurs qui accèdent à Maestro. <!--this will change with permissions-->
+
+1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez le **handle** icon ![](assets/handle-icon.png) à gauche du nom de l’enregistrement pour réorganiser les lignes.
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas réorganiser les lignes si vous appliquez au moins un tri à la vue du tableau.
 
 <!-- this is not possible right now:
 
