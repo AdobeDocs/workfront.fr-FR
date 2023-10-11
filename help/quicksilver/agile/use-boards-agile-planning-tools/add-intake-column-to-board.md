@@ -7,10 +7,10 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 0%
+source-wordcount: '933'
+ht-degree: 2%
 
 ---
 
@@ -22,19 +22,17 @@ Une seule colonne d’entrée est autorisée sur un panorama et apparaît toujou
 
 La colonne d’ingestion n’est pas disponible sur un panorama dynamique.
 
-La colonne d’ingestion n’est pas disponible sur les panoramas qui font partie d’un workflow. Vous pouvez à la place configurer une colonne de journal pour extraire les cartes de la liste de cartes. Pour plus d’informations sur l’ajout d’une colonne de journal à un panorama dans un workflow, voir [Configuration du journal en souffrance sur un panorama de flux de travail](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
-
 La colonne d’admission est limitée à 300 tâches et 300 numéros. L&#39;ordre par défaut des éléments dans la colonne d&#39;entrée est le suivant :
 
-Tâches:
+Tâches :
 
-* Ordre Principal : nom du projet
-* Ordre Secondaire : structure de ventilation des tâches
+* Ordre principal : nom du projet
+* Ordre secondaire : structure de répartition du travail
 
-Événements:
+Problèmes:
 
-* Ordre Principal : nom du projet
-* Ordre Secondaire : numéro de référence
+* Ordre principal : nom du projet
+* Ordre secondaire : numéro de référence
 
 Pour plus d’informations sur les colonnes, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Pour plus d’informations sur les cartes connectées, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

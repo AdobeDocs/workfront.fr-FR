@@ -7,14 +7,18 @@ description: Les mesures sont disponibles pour chaque itération dans un workflo
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # Vérification des mesures d’itération
+
+>[!IMPORTANT]
+>
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
 
 Les mesures sont disponibles pour chaque itération dans un workflow, sur le tableau de processus d’itération et le tableau de bord.
 
@@ -44,7 +48,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 {{step1-to-boards}}
 
 1. Pour ouvrir un workflow, cliquez sur [!UICONTROL **Afficher le flux de travail**].
-1. Sélectionnez la [!UICONTROL Processus d’itération] panorama.
+1. Sélectionnez la variable [!UICONTROL Processus d’itération] panorama.
 1. Passez en revue la zone des mesures au-dessus du panorama en haut à droite. Cliquez sur les flèches haut et bas pour vous déplacer entre les itérations.
 
    Les mesures suivantes s’affichent : nombre total de points attribués à l’itération, les points restants non encore atteints dans l’itération et le nombre de points atteints dans l’itération.
@@ -55,6 +59,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step1-to-boards}}
 
-Les mesures suivantes s’affichent dans le tableau de bord de l’itération actuelle du workflow : nombre total de points affectés à l’itération, nombre de points terminés et les autres points non encore terminés dans l’itération.
+Les mesures suivantes s’affichent dans le tableau de bord de l’itération actuelle du workflow : nombre total de points affectés à l’itération, nombre de points atteints et les points restants non encore atteints dans l’itération.
 
 Pour passer en revue les mesures d’autres itérations, vous devez ouvrir la carte d’itération.

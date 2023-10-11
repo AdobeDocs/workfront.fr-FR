@@ -6,14 +6,18 @@ description: Vous pouvez ajouter n’importe quelle tâche ou problème à un pa
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
 # Ajoutez des tâches ou des problèmes existants à une [!DNL Adobe Workfront] panorama ou flux de travail
+
+>[!IMPORTANT]
+>
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
 
 Vous pouvez ajouter n’importe quelle tâche ou problème à un panorama ou à un workflow dans [!DNL Adobe Workfront] à partir d’une vue de liste ou de rapport, ou à partir des détails de l’objet.
 

@@ -6,14 +6,19 @@ title: Utiliser la liste des cartes
 description: Vous pouvez créer une liste de cartes sur un workflow et ajouter les cartes aux itérations.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
+source-git-commit: d44eb048103e469bc072cc5287947fea471668b3
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # Utiliser la liste des cartes
+
+>[!IMPORTANT]
+>
+>Les flux de travail ne sont pas disponibles pour tous les clients.
 
 Vous pouvez créer une liste de cartes sur un workflow et ajouter les cartes aux itérations.
 
@@ -96,7 +101,7 @@ Pour supprimer une carte, sélectionnez-la dans la liste, puis cliquez sur [!UIC
 Les cartes ne peuvent être archivées que depuis la carte d’itération. Lorsqu’une carte est archivée, elle n’est pas affichée dans la liste des cartes, sauf si vous filtrez pour afficher les cartes archivées. Pour plus d’informations sur l’archivage d’une carte, voir [Suppression ou archivage d’une carte d’un panorama](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
 1. Accédez à la liste des cartes du flux de travail.
-1. Cliquez sur [!UICONTROL **Filtrer**] et sélectionnez [!UICONTROL **Tous**], [!UICONTROL **Principales cartes**] ou [!UICONTROL **Cartes archivées**].
+1. Cliquez sur [!UICONTROL **Filtrer**] et sélectionnez [!UICONTROL **Tous**], [!UICONTROL **Cartes actives**], ou [!UICONTROL **Cartes archivées**].
 
    Lorsqu’un filtre autre que le filtre par défaut est appliqué sur la liste des cartes, un indicateur s’affiche sur l’icône de filtre. ![Filtre appliqué](assets/boards-filterapplied-30x30.png).
 
@@ -117,7 +122,7 @@ Cliquez sur le X pour effacer la recherche.
 >Vous devez créer une itération avant de pouvoir y ajouter des cartes. Pour plus d’informations, voir [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Accédez à la liste des cartes du flux de travail.
-1. Sélectionnez la [!UICONTROL **Vue Itération**] pour voir les cartes qui sont affectées à une itération et celles qui ne sont pas planifiées.
+1. Sélectionnez la variable [!UICONTROL **Vue Itération**] pour voir quelles cartes sont affectées à une itération et lesquelles ne sont pas planifiées.
 1. Sélectionnez une carte non planifiée dans la liste et cliquez sur [!UICONTROL **Modifier**].
 1. Sélectionnez une itération dans le [!UICONTROL **Itérations**] champ .
 1. Si vous utilisez des points d’article, saisissez une valeur dans la variable [!UICONTROL **Estimation**] champ .
@@ -129,5 +134,4 @@ Cliquez sur le X pour effacer la recherche.
 
 >[!TIP]
 >
->Si vous avez créé une carte de processus d’itération, toutes les cartes non planifiées de la liste apparaissent dans la variable [!UICONTROL Backlog] colonne . Lorsqu’une carte est déplacée dans une autre colonne, elle devient une partie de l’itération principale. Les cartes que vous ajoutez à l’itération dans la liste des cartes sont ajoutées à une colonne en fonction de leur état.
-
+>Si vous avez créé une carte de processus d’itération, toutes les cartes non planifiées de la liste apparaissent dans la variable [!UICONTROL Backlog] colonne . Lorsqu’une carte est déplacée dans une autre colonne, elle fait partie de l’itération active. Les cartes que vous ajoutez à l’itération dans la liste des cartes sont ajoutées à une colonne en fonction de leur état.

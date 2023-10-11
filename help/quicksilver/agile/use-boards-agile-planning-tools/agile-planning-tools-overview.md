@@ -7,9 +7,9 @@ description: Lorsque vous créez un panorama à l’aide de cartes ad hoc et con
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Voici quelques outils utiles pour le démarrage rapide :
 * Flux de travail et panoramas d’itération
 * Liste ou journal des cartes
 * Mesures d’itération
+
+>[!IMPORTANT]
+>
+>Les flux de travail et leurs outils associés ne sont disponibles que pour un groupe spécifique de clients.
 
 Vous pouvez utiliser tous ou n’importe lequel de ces outils d’une manière qui vous convient, ainsi qu’à votre équipe, sans vous engager dans une méthodologie agile spécifique.
 

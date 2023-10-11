@@ -7,14 +7,18 @@ description: Un flux de travail est un groupe configurable de panoramas et de ca
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '915'
 ht-degree: 2%
 
 ---
 
 # Gestion des workflows
+
+>[!IMPORTANT]
+>
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
 
 Un flux de travail est un groupe configurable de panoramas et de cartes pour collaborer sur le travail. Les flux de travail peuvent inclure différents types de panoramas créés à partir de modèles et une liste de cartes d’éléments de travail. Dans un flux de travail, vous pouvez effectuer le suivi du travail dans les itérations ou les empreintes.
 
@@ -47,25 +51,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step1-to-boards}}
 
-1. Cliquez sur **[!UICONTROL Ajouter un workflow]** dans le [!UICONTROL Workflows] du tableau de bord.
+1. Cliquez sur **[!UICONTROL Ajout d’un workflow]** dans le [!UICONTROL Workflows] du tableau de bord.
 1. Saisissez un nom à remplacer. **[!UICONTROL Processus sans titre]** et appuyez sur Entrée.
 
    Vous pouvez ajouter des panoramas au processus ou cliquer sur [!UICONTROL **Toutes les panoramas**] pour revenir au tableau de bord.
 
 ## Création d’un panorama dans un workflow
 
-1. Si vous n’êtes pas déjà dans un flux de travail, cliquez sur [!UICONTROL **Afficher le flux de travail**] sur le tableau de bord pour ouvrir un flux de travail existant.
+1. Si vous n’êtes pas déjà dans un workflow, cliquez sur [!UICONTROL **Afficher le flux de travail**] sur le tableau de bord pour ouvrir un flux de travail existant.
 1. Cliquez sur **[!UICONTROL Ajouter un panorama]** sur le [!UICONTROL Panoramas] de workflows.
 1. Sélectionnez un modèle pour le panorama.
 
 | Modèle | Description |
 |---------|----------|
 | Panorama de base | Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune stratégie de colonne n’est appliquée. |
-| Panorama Kanban | Les colonnes suivantes sont fournies sur le panorama : En attente, nouveauté, En cours, Terminé et En attente. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser le journal des logs, vous devez configurer des filtres pour la colonne d&#39;ingestion. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour consulter les stratégies par défaut pour chaque colonne, cliquez sur le bouton [!UICONTROL **Plus** menu] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une de ces stratégies prédéfinies. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-| Panorama rétrospectif | Les colonnes suivantes sont fournies sur le panorama : Qu&#39;est-ce qui s&#39;est bien passé ? Améliorations possibles? Qui devons-nous célébrer? Que pouvons-nous faire pour aller plus vite? Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune stratégie de colonne n’est appliquée. |
-| Processus d’itération | Il s’agit du panorama utilisé pour définir et exécuter une itération. <p>Les colonnes suivantes sont fournies sur le panorama : En attente, nouveauté, En cours, Terminé et En attente. Vous ne pouvez pas ajouter de colonnes au panorama. <p>Pour consulter les stratégies par défaut pour chaque colonne, cliquez sur le bouton [!UICONTROL **Plus**] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une de ces stratégies prédéfinies. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Panorama Kanban | Les colonnes suivantes sont fournies sur le tableau : Backlog, New, In Progress, Complete et On hold. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser le journal des logs, vous devez configurer des filtres pour la colonne d&#39;ingestion. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour consulter les stratégies par défaut pour chaque colonne, cliquez sur le bouton [!UICONTROL **Plus** menu] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une de ces stratégies prédéfinies. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Panorama rétrospectif | Les colonnes suivantes sont fournies sur le tableau : Qu’est-ce qui s’est bien passé ? Améliorations possibles? Qui devons-nous célébrer? Que pouvons-nous faire pour aller plus vite? Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune stratégie de colonne n’est appliquée. |
+| Processus d’itération | Il s’agit du panorama utilisé pour définir et exécuter une itération. <p>Les colonnes suivantes sont fournies sur le tableau : Backlog, New, In Progress, Complete et On hold. Vous ne pouvez pas ajouter de colonnes au panorama. <p>Pour consulter les stratégies par défaut pour chaque colonne, cliquez sur le bouton [!UICONTROL **Plus**] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une de ces stratégies prédéfinies. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
-Pour plus d’informations sur la configuration du panorama, voir [Création ou modification d’un panorama](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Pour plus d’informations sur la configuration du panorama, voir [Créer ou modifier un panorama](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
 ## Filtrage de la liste des panoramas sur un workflow
 
@@ -76,7 +80,7 @@ Lorsque des filtres autres que les valeurs par défaut sont appliqués sur la li
 1. Dans le tableau de bord, cliquez sur [!UICONTROL **Afficher le flux de travail**] pour ouvrir un workflow.
 1. Cliquez sur le bouton [!UICONTROL **Panoramas**] s’il n’est pas déjà affiché.
 1. Cliquez sur [!UICONTROL **Filtrer**].
-1. Sélectionnez les panoramas que vous souhaitez voir par statut (panoramas archivés, principaux panoramas ou tous panoramas).
+1. Sélectionnez les panoramas que vous souhaitez voir par statut (panoramas archivés, panoramas actifs ou tous panoramas).
 1. Sélectionnez les panoramas que vous souhaitez voir par modèle.
 
 ## Ajout de membres à un workflow
@@ -105,12 +109,12 @@ Une source détermine d’où viennent les cartes du processus.
 
    L’ajout de filtres pour les sources de workflows est identique à l’ajout de filtres avancés pour une colonne d’entrée sur un panorama de base ou un panorama Kanban. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-## Configuration d’un flux de travail
+## Configuration d’un workflow
 
 {{step1-to-boards}}
 
 1. Dans le tableau de bord, cliquez sur [!UICONTROL **Afficher le flux de travail**] pour ouvrir un workflow.
-1. Cliquez sur [!UICONTROL **Configurer**] pour ouvrir le [!UICONTROL Configuration de Workstream] du panneau.
+1. Cliquez sur [!UICONTROL **Configurer**] pour ouvrir le [!UICONTROL Configuration du flux de travail] du panneau.
 1. (Facultatif) Développez [!UICONTROL **Workflows**] et saisissez une description du processus. Cette description s’affiche sur le tableau de bord.
 1. (Facultatif) Développez [!UICONTROL **Itérations**] pour définir un processus d’itération pour ce workflow.
 

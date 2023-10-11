@@ -7,9 +7,9 @@ description: Les panoramas Adobe Workfront sont des outils flexibles qui permett
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,7 @@ Les panoramas vous permettent d’effectuer les opérations suivantes :
 * Configurer des colonnes pour afficher un statut ou une catégorie
 * Personnalisation des workflows avec des cartes ouvertes (cartes ad hoc ou cartes connectées à [!DNL Workfront] tâches et problèmes)
 * Organiser et gérer le travail d’une équipe au même endroit
-* Utilisation des flux de travail pour regrouper des données (comme des panoramas et des cartes) et collaborer au travail
-* Utilisez des outils de planification agiles tels qu’une colonne d’ingestion pour les panoramas Kanban, ainsi qu’une liste de cartes et une planification des itérations.
+* Utiliser des outils de planification agiles tels qu’une colonne d’ingestion pour les panoramas Kanban
 
 Pour plus d’informations sur l’utilisation des fonctions de base des panoramas, voir [Prise en main des panoramas dans [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Pour plus d’informations sur les outils de planification AEM dans les panoramas, voir [Présentation des outils de planification Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
@@ -35,6 +34,6 @@ Pour plus d’informations sur l’utilisation d’un panorama sur un projet, vo
 
 Vous pouvez également accéder aux panoramas dans l’application mobile. Pour plus d’informations, voir [[!DNL Adobe Workfront] [!UICONTROL Boards] pour mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Pour consulter les vidéos pas à pas des fonctionnalités des panoramas, reportez-vous à la section [[!DNL Adobe Workfront] [!UICONTROL Boards] démonstrations vidéo](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Pour consulter les vidéos pas à pas des fonctionnalités des panoramas, voir [[!DNL Adobe Workfront] [!UICONTROL Boards] démonstrations vidéo](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 Pour plus d’informations sur les outils AEM supplémentaires dans [!DNL Workfront], voir [Présentation agile](../agile/agile-overview.md).

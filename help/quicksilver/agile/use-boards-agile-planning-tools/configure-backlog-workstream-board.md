@@ -7,14 +7,18 @@ description: Vous pouvez choisir d’afficher une colonne de journal sur un pano
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Configuration du journal en souffrance sur un panorama de flux de travail
+
+>[!IMPORTANT]
+>
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
 
 Vous pouvez choisir d’afficher une colonne de journal sur un panorama dans un flux de travail et de définir une requête pour les cartes qui sont extraites dans le journal du panorama depuis la liste des cartes du flux de travail.
 

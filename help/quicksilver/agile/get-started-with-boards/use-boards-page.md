@@ -2,30 +2,34 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Utilisation du tableau de bord des panoramas
-description: Le [!UICONTROL panoramas] le tableau de bord affiche la liste des panoramas auxquels vous avez accès, y compris ceux que vous avez créés et auxquels vous avez été ajouté.
+description: La variable [!UICONTROL panoramas] le tableau de bord affiche la liste des panoramas auxquels vous avez accès, y compris ceux que vous avez créés et auxquels vous avez été ajouté.
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
 
 # Utilisation du tableau de bord des panoramas
 
+>[!IMPORTANT]
+>
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
+
 Le tableau de bord des panoramas affiche la liste des panoramas et des flux de travail auxquels vous avez accès, y compris les panoramas que vous avez créés et auxquels vous avez été ajouté. Les panoramas individuels auxquels vous avez accès et qui ne font pas partie d’un workflow s’affichent en premier.
 
 Sur le tableau de bord, vous pouvez effectuer les opérations suivantes pour les panoramas et les flux de travail :
 
-* Archivage d’un panorama ou d’un flux de travail
+* Archivage d’un panorama ou d’un workflow
 * Filtrage des panoramas et des flux de travail
 * Tri de la liste des panoramas par nom ou date de modification
-* Recherche d’un panorama ou d’un flux de travail
+* Recherche d’un panorama ou d’un workflow
 * Suppression d’un panorama ou d’un workflow
 
-Pour plus d’informations sur la création d’un panorama ou la modification d’un panorama existant, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md). Pour plus d’informations sur la création d’un nouveau flux de travail, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Pour plus d’informations sur la création d’un panorama ou la modification d’un panorama existant, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md). Pour plus d’informations sur la création d’un nouveau flux de travail, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Exigences d’accès
 
@@ -50,10 +54,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Filtres de panoramas et de workflows {#filter-boards}
 
-Vous pouvez filtrer le tableau de bord des panoramas pour afficher les principaux, archivés ou tous les panoramas ou flux de travail.
+Vous pouvez filtrer le tableau de bord des panoramas pour afficher tous les panoramas ou flux de travail actifs, archivés ou actifs.
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Cliquez sur [!UICONTROL **Filtrer**] dans la zone Panoramas ou Workflows, puis sélectionnez **[!UICONTROL Tous]**, **[!UICONTROL Principal]** ou **[!UICONTROL Archivé]**.
+1. Cliquez sur [!UICONTROL **Filtrer**] dans la zone Panoramas ou Workflows, puis sélectionnez **[!UICONTROL Tous]**, **[!UICONTROL Actif]**, ou **[!UICONTROL Archivé]**.
 
    Lorsqu&#39;un filtre autre que le filtre par défaut est appliqué sur le tableau de bord, un indicateur s&#39;affiche sur l&#39;icône de filtre. ![Filtre appliqué au tableau de bord](assets/boards-filterapplied-30x30.png).
 
@@ -66,7 +70,7 @@ Vous pouvez filtrer le tableau de bord des panoramas pour afficher les principau
 
    Lorsqu&#39;un tri autre que le tri par défaut est appliqué sur le tableau de bord, un indicateur s&#39;affiche sur l&#39;icône de tri. ![Tri appliqué](assets/sort-applied-boards.png).
 
-## Recherche d’un panorama ou d’un flux de travail
+## Recherche d’un panorama ou d’un workflow
 
 Vous pouvez rechercher un panorama spécifique dans la zone Panoramas ou rechercher un workflow spécifique dans la zone Flux de travail .
 
@@ -85,7 +89,7 @@ L’archivage d’un panorama ou d’un workflow l’envoie vers l’archive et 
 
 >[!NOTE]
 >
->Lorsque vous archivez un panorama, il est archivé pour tous les membres du panorama.
+>Lorsque vous archivez un panorama, il est archivé pour tous les membres.
 >
 >Lorsque vous archivez un workflow, tous ses panoramas sont archivés.
 

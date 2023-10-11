@@ -7,14 +7,18 @@ description: Une itération est un temps défini réservé à la réalisation du
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
 
 # Création d’une itération dans un workflow
+
+>[!IMPORTANT]
+>
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
 
 Une itération est un temps défini réservé à la réalisation du travail. Certaines équipes agiles peuvent appeler une itération sprint.
 
@@ -73,7 +77,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    L’itération apparaît désormais dans la vue itération de la liste des cartes et dans la zone des mesures de la carte.
 
-   Pour ajouter des cartes à une itération, reportez-vous à la section [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Pour ajouter des cartes à une itération, voir [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Modifier une itération existante
 
