@@ -4,13 +4,13 @@ description: Vous pouvez modifier les informations d’enregistrement dans Adobe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Vous pouvez modifier les enregistrements que vous ou un autre utilisateur avez créés. <!--will change with access levels-->
 * Si les enregistrements modifiés sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous modifiez se répercutent sur les enregistrements liés.
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
-
+* Vous ne pouvez pas modifier les champs liés à d&#39;autres enregistrements.
 
 ## Modifier des enregistrements
 
@@ -145,6 +145,11 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
    >* Les champs liés ne sont pas modifiables. Les informations de ces champs sont renseignées automatiquement à partir des enregistrements liés. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
    >
    >* Les URL sont reconnues comme des liens dans les types de champ de texte sur une seule ligne uniquement lorsqu’elles commencent par les éléments suivants : http://, https://, ftp:// ou www. .
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->

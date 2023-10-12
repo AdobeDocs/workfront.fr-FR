@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées à Adobe Admin Console. Si votre entreprise a été intégrée à Adobe Admin Console, cette action n’est pas disponible.
 >
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, reportez-vous à la section [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 En tant qu’administrateur d’Adobe Workfront, vous devrez parfois accéder à Workfront au nom d’un autre utilisateur.
 
@@ -94,7 +94,7 @@ Les étapes de cet article doivent être les suivantes :
 
 1. Dans le panneau de gauche, cliquez sur **Connexion en tant que**.
 
-1. Dans le **Utilisateurs** sur la **Connectez-vous en tant que** , commencez à saisir le nom de l’utilisateur, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le **Utilisateurs** sur la zone **Connexion en tant que** , commencez à saisir le nom de l’utilisateur, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    L’utilisateur doit disposer d’un niveau d’accès défini dans Workfront. Vous ne pouvez pas vous connecter au système Workfront en tant qu’utilisateur ne disposant pas des droits de connexion.
 
@@ -148,7 +148,7 @@ Lorsque vous vous connectez à Workfront en tant qu’autre utilisateur et exéc
 
 Par exemple, si vous commentez un élément lors de votre connexion en tant qu’autre utilisateur, une instruction indique que vous avez fait ce commentaire pour le compte de l’utilisateur.
 
-<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+<!--remove the note below when we bring this back to Prod: -->
 
 >[!NOTE]
 >

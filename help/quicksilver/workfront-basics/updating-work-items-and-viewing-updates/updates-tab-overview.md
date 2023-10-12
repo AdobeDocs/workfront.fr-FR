@@ -7,7 +7,7 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 096d4a50ae4c392f149d4dd54b19c6f1c86c5b1b
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 4%
@@ -102,7 +102,7 @@ The Updates section of an object displays comments that users make on the object
       <li>Modèles</li> 
       <li>Tâches de modèles</li> 
       <li>Feuilles de temps</li> 
-      <li>Utilisateurs et utilisatrices</li>
+      <li>Utilisateurs ou utilisatrices</li>
       <li>Cartes sur un panorama</li>
       </ul> </td> 
     </tr> 
@@ -125,7 +125,7 @@ Les informations de la section Mises à jour sont organisées différemment selo
 
 * Les objets suivants n’enregistrent pas les mises à jour du système :
 
-   * Équipe
+   * Equipe
    * Modèle
    * Tâche de modèle
 
@@ -144,7 +144,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
 
       * Les objets suivants ne comportent pas d’onglet Activité du système :
 
-         * Équipe
+         * Equipe
          * Modèle
          * Tâche de modèle
          * Carte ad hoc
@@ -174,7 +174,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
    * Modèles
    * Tâches de modèles
    * Feuilles de temps
-   * Utilisateurs et utilisatrices
+   * Utilisateurs ou utilisatrices
    * Portefeuilles
    * Programmes
 
@@ -263,8 +263,8 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
    <td>Portfolio</td> 
   </tr> 
   <tr> 
-   <td>Utilisateur</td> 
-   <td>Équipe</td> 
+   <td>l’utilisateur ou de l’utilisatrice</td> 
+   <td>Equipe</td> 
   </tr> 
   <tr> 
    <td>Feuille de temps</td> 
@@ -280,7 +280,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
   </tr> 
   <tr> 
    <td>Itération</td> 
-   <td>Équipe</td> 
+   <td>Equipe</td> 
   </tr>
 
 <tr> 
@@ -310,7 +310,7 @@ Vous ne pouvez pas ajouter de nouveaux commentaires dans la section Mises à jou
 
 La section Mises à jour pour les équipes est renseignée par les mises à jour entrées sur les objets suivants :
 
-* Utilisateurs et utilisatrices
+* Utilisateurs ou utilisatrices
 * Feuilles de temps
 * Histoires
 * Itérations
@@ -327,7 +327,7 @@ Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../.
 
 Tout commentaire fait au nom d’un autre utilisateur est indiqué sur le commentaire.
 
-<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+<!--remove the note below when we release this back to the new commenting-->
 
 >[!NOTE]
 >

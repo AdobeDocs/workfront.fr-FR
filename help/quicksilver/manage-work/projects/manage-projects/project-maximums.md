@@ -7,9 +7,9 @@ description: Adobe Workfront a des limites quant au nombre d’objets pouvant ê
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,9 @@ Les objets associés aux projets suivants ont les limites suivantes :
 
 <b>IMPORTANT</b>
 
-Pour les projets pour lesquels les tâches comportent de nombreuses dépendances, nous recommandons que le nombre de tâches dans les projets soit beaucoup plus faible que le nombre maximum de 5 000 tâches autorisé.
+Pour les projets pour lesquels les tâches comportent de nombreuses dépendances, une dégradation des performances peut survenir lors du calcul de la chronologie ou lorsque vous travaillez dans le projet.
+
+C’est pourquoi il est recommandé que le nombre de tâches dans les projets avec des dépendances complexes soit bien inférieur au nombre maximum de 5 000 tâches autorisé.
 
 Voici quelques exemples de dépendances de tâches pouvant influencer ou empêcher de recalculer la chronologie du projet :
 
@@ -42,7 +44,7 @@ Voici quelques exemples de dépendances de tâches pouvant influencer ou empêch
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Événements</p></td> 
+   <td role="rowheader"><p>Problèmes</p></td> 
    <td>  <p>Le nombre maximal de problèmes par projet est de 10 000. Un message d’avertissement s’affiche lorsque le nombre de problèmes approche ce nombre maximum. Lorsque le maximum est atteint, un message d’erreur s’affiche et des problèmes supplémentaires ne peuvent pas être ajoutés au projet.</p> <p>Pour éviter d’atteindre ce maximum, déplacez les problèmes qui sont fermés vers un autre projet désigné pour les problèmes fermés. Il se peut que les rapports sur ces projets doivent être ajustés.</p> </td> 
   </tr> 
   <tr> 

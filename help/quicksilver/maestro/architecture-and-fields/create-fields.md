@@ -4,13 +4,13 @@ description: Dans Adobe Maestro, vous pouvez créer des champs personnalisés po
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2600'
 ht-degree: 2%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -186,6 +186,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * [Pourcentage](#percentage)
    * [Devise](#currency)
    * [Case à cocher](#checkbox)
+     <!--* [People](#people)-->
 
    >[!IMPORTANT]
    >
@@ -201,7 +202,7 @@ Les champs de texte d’une seule ligne capturent des informations alphanumériq
 
    ![](assets/single-line-text-field-type.png)
 
-1. Ajoutez les informations suivantes :
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur l’en-tête de colonne d’un champ dans un tableau.
 1. Cliquez sur **Créer**.
@@ -213,12 +214,22 @@ Les champs de texte d’une seule ligne capturent des informations alphanumériq
 
 Les champs de paragraphe capturent des informations alphanumériques supplémentaires sur un enregistrement, semblables au champ Description . Le contenu d’un champ de paragraphe peut contenir jusqu’à 1 000 caractères.
 
+<!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Paragraphe** type de champ.
 
    ![](assets/paragraph-field-type.png)
 
 
-1. Ajoutez les informations suivantes :
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
 1. Cliquez sur **Créer**.
@@ -235,7 +246,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
    ![](assets/multi-select-field-type.png)
 
 
-1. Ajoutez les informations suivantes :
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Choix**: options disponibles pour la sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
@@ -257,7 +268,7 @@ Les champs à sélection unique capturent des informations supplémentaires dans
    ![](assets/single-select-field-type.png)
 
 
-1. Ajoutez les informations suivantes :
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Choix**: options disponibles pour la sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
@@ -279,7 +290,7 @@ Vous pouvez utiliser un champ date pour capturer des informations supplémentair
    ![](assets/date-field-type.png)
 
 
-1. Ajoutez les informations suivantes :
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Format de date**: type de format de date à afficher dans ce champ.
@@ -308,7 +319,7 @@ Les types de champ Nombre capturent les informations au format numérique.
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Nombre** type de champ.
 
    ![](assets/number-field-type.png)
-1. Ajoutez les informations suivantes :
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
 
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement.
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
@@ -331,7 +342,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 
    ![](assets/percentage-field-type.png)
 
-1. Ajoutez les informations suivantes :
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement.
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Précision**: nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
@@ -353,7 +364,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
 
    ![](assets/currency-field-type.png)
 
-1. Ajoutez les informations suivantes :
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Devise**: type de devise à afficher dans ce champ. Il s’agit d’une liste de devises selon l’Organisation internationale de normalisation (ISO).
@@ -376,12 +387,30 @@ Vous pouvez utiliser le type de champ Case à cocher pour ajouter une seule opti
 
    ![](assets/checkbox-field-type.png)
 
-1. Ajoutez les informations suivantes :
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
 1. Cliquez sur **Créer**.
 
    Le nouveau champ de case à cocher est ajouté en tant que colonne au type d’enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## Créer des champs en liant les types d’enregistrement
 
@@ -402,6 +431,3 @@ Lorsque vous créez un type d&#39;enregistrement, plusieurs champs associés au 
 Maestro crée des champs pour les types d’enregistrements opérationnels et les taxonomies lorsque vous créez un espace de travail à partir d’un modèle.
 
 Pour plus d’informations, voir [Créer des espaces de travail](../architecture-and-fields/create-workspaces.md).
-
-
-
