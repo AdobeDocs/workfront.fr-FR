@@ -6,9 +6,9 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td><p>Tous les champs personnalisés que vous ajoutez s’affichent dans cette zone.</p>
       <p>Pour plus d’informations, voir <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personnalisation des champs affichés sur une carte</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtask]</strong></span></td>
+      <td><span class="preview"><p>Toutes les sous-tâches existantes pour la tâche apparaissent dans cette section. Cliquez sur <strong>[!UICONTROL Ajouter une sous-tâche]</strong> pour ajouter une nouvelle sous-tâche.</p>
+      <p>Le compteur en haut de la section indique le nombre de sous-tâches terminées et le nombre total de sous-tâches.</p>
+      <p>Pour plus d’informations sur les sous-tâches, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestion des sous-tâches sur les panoramas</a>.</p></span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Liste de contrôle]</strong> </td> 
-      <td> <p>Cliquez sur <strong>[!UICONTROL Ajouter un élément de liste de contrôle]</strong>. Saisissez ensuite le titre de l’élément et appuyez sur Entrée. Un autre élément est automatiquement ajouté. Continuez à saisir des titres pour ajouter d’autres éléments.</p> <p>Le compteur en haut de la liste de contrôle indique le nombre d’éléments terminés et le nombre total d’éléments.</p> <p>Pour plus d’informations sur les éléments de liste de contrôle, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gérer les éléments de liste de contrôle sur les cartes</a>.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Liste de contrôle]</strong></td>
+      <td><p>Cliquez sur <strong>[!UICONTROL Ajouter un élément de liste de contrôle]</strong>. Saisissez ensuite le titre de l’élément et appuyez sur Entrée. Un autre élément est automatiquement ajouté. Continuez à saisir des titres pour ajouter d’autres éléments.</p>
+      <p>Le compteur en haut de la liste de contrôle indique le nombre d’éléments terminés et le nombre total d’éléments.</p> <p>Pour plus d’informations sur les éléments de liste de contrôle, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gérer les éléments de liste de contrôle sur les cartes</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>

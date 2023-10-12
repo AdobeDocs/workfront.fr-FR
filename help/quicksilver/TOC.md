@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
+source-git-commit: 372f330849bfcdc265e567931527497ddb19d9bb
 workflow-type: tm+mt
-source-wordcount: '13343'
+source-wordcount: '13347'
 ht-degree: 1%
 
 ---
@@ -971,6 +971,7 @@ ht-degree: 1%
       * [Utilisation de cartes connectées sur les panoramas](agile/get-started-with-boards/connected-cards.md)
       * [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Gestion des cartes](agile/get-started-with-boards/move-board-items.md)
+      * [Gestion des sous-tâches sur les panoramas](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
       * [Gérer les éléments de liste de contrôle sur les cartes](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
       * [Ajout de documents sur les cartes](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
@@ -2486,8 +2487,8 @@ ht-degree: 1%
       * [Modification des paramètres d’alerte par email d’un BAT dans le BAT Workfront](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
    * Gestion des utilisateurs et des contacts dans le bon à tirer Workfront {#managing-users-in-wf-proof}
       * [Gestion des utilisateurs et des contacts dans le bon à tirer Workfront](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      * Utilisateurs et utilisatrices {#users}
-         * [Utilisateurs et utilisatrices](workfront-proof/wp-mnguserscontacts/users/users.md)
+      * Utilisateurs ou utilisatrices {#users}
+         * [Utilisateurs ou utilisatrices](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [Création d’utilisateurs à l’aide du BAT Workfront](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [Configuration des informations utilisateur à l’aide du BAT Workfront](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
          * [Création et gestion de profils personnalisés à l’aide du BAT Workfront](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
