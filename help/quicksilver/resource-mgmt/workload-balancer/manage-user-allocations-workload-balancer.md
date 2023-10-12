@@ -6,9 +6,9 @@ description: En tant que gestionnaire de ressources, vous pouvez affecter du tra
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2808'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource</p>
+   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource .</p>
    <p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
  </td> 
   </tr> 
@@ -42,7 +42,7 @@ Vous devez disposer des éléments suivants :
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
      <li> <p>Tâches</p> </li> 
-     <li> <p>Événements</p> </li> 
+     <li> <p>Problèmes</p> </li> 
     </ul> <p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -80,9 +80,9 @@ Tenez compte des points suivants lorsque vous localisez des allocations quotidie
 * Vous pouvez afficher les allocations quotidiennes, hebdomadaires et mensuelles des utilisateurs à leurs tâches. Activez la vue Semaine ou Mois pour afficher les allocations hebdomadaires ou mensuelles.
 * Vous pouvez utiliser l’équilibreur de charge de travail pour modifier l’allocation quotidienne, hebdomadaire ou mensuelle des utilisateurs aux tâches ou problèmes. Pour plus d’informations sur l’ajustement de l’affichage de l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   >[!NOTE]
-   >
-   >Nous vous recommandons de choisir la période (quotidienne, hebdomadaire ou mensuelle) que vous souhaitez toujours utiliser lors de la gestion des affectations utilisateur et de ne pas basculer entre ces périodes pour les mêmes tâches. La mise à jour des allocations hebdomadaires pour le même utilisateur pour lequel vous avez précédemment mis à jour les allocations quotidiennes modifie l’allocation quotidienne pour l’utilisateur.
+  >[!NOTE]
+  >
+  >Nous vous recommandons de choisir la période (quotidienne, hebdomadaire ou mensuelle) que vous souhaitez toujours utiliser lors de la gestion des affectations utilisateur et de ne pas basculer entre ces périodes pour les mêmes tâches. La mise à jour des allocations hebdomadaires pour le même utilisateur pour lequel vous avez précédemment mis à jour les allocations quotidiennes modifie l’allocation quotidienne pour l’utilisateur.
 
 * Vous pouvez mettre à jour les allocations pour les jours ouvrés et non ouvrés.
 * Les horodatages des dates de début et de fin planifiées des tâches, ainsi que le planning du projet, sont importants lorsque Workfront calcule automatiquement l’allocation quotidienne de la tâche.
@@ -93,8 +93,7 @@ Tenez compte des points suivants lorsque vous localisez des allocations quotidie
 >
 >Workfront calcule l&#39;allocation des 2 heures sur les 2 jours de la durée à l&#39;aide de la formule suivante :
 >
->
-```
+>```
 >
 >   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
 >```
@@ -113,26 +112,26 @@ Tenez compte des points suivants lorsque vous localisez des allocations quotidie
 
 * Lorsqu’un utilisateur a programmé des congés, le jour ou la partie de la journée s’affiche en arrière-plan gris. Si l’administrateur de Workfront a activé le paramètre de désactivation de l’heure de l’utilisateur dans la zone Configuration afin de prendre en compte l’heure de désactivation de l’utilisateur, les heures allouées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures allouées restent le jour désigné pour le congé et l’utilisateur s’affiche comme suralloué. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!TIP]
-   >
-   >Si le temps de pause a été marqué après l’affectation de l’utilisateur à une tâche, vous devez recalculer la chronologie du projet pour afficher l’allocation déplacée. Pour plus d’informations, voir [Recalculer les calendriers du projet](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+  >[!TIP]
+  >
+  >Si le temps de pause a été marqué après l’affectation de l’utilisateur à une tâche, vous devez recalculer la chronologie du projet pour afficher l’allocation déplacée. Pour plus d’informations, voir [Recalculer les calendriers du projet](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 * Si plusieurs utilisateurs sont affectés à la tâche, le montant des heures planifiées est réparti uniformément entre chaque utilisateur en premier, puis uniformément sur chaque jour au cours de la durée de la tâche. Cette répartition devient l’affectation de chaque utilisateur à la tâche.
 
-   Par exemple, les scénarios suivants peuvent exister :
+  Par exemple, les scénarios suivants peuvent exister :
 
    * Pour une tâche avec une durée de 2 jours et 10 heures planifiées affectées à un utilisateur, l’allocation quotidienne à l’utilisateur est de 5 heures pour chaque jour par défaut.
    * Pour une tâche avec une durée de 2 jours et 10 heures planifiées affectées à deux utilisateurs, l’allocation quotidienne par défaut à chaque utilisateur est de 2,5 heures pour chaque jour.
 
 * Si une tâche ou un problème s’est terminé avant la date d’achèvement planifiée, le nombre d’heures allouées pour les jours restants est écoulé et ne compte pas dans l’allocation globale de l’utilisateur. Cette option s’affiche uniquement lorsque l’icône Afficher les allocations et le paramètre Afficher les dates prévues sont activés. Pour plus d’informations sur l’activation des paramètres dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   ![](assets/allocations-struck-through-highlighted-350x39.png)
+  ![](assets/allocations-struck-through-highlighted-350x39.png)
 
 * Lorsqu’un utilisateur est surchargé, ses heures allouées s’affichent avec un arrière-plan rouge dans le champ utilisateur.
 * Lorsque l’utilisateur est sous-alloué ou alloué un nombre égal d’heures à l’heure disponible planifiée, les heures s’affichent avec un arrière-plan bleu.
-* Vous pouvez afficher l’allocation des utilisateurs dans une vue graphique dans la ligne de l’utilisateur. Pour plus d’informations sur l’activation de la vue graphique pour les affectations utilisateur, voir la section &quot;Navigation dans l’équilibreur de charge de travail&quot; dans l’article . [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* Vous pouvez afficher l’allocation des utilisateurs dans une vue graphique dans la ligne de l’utilisateur. Pour plus d’informations sur l’activation de la vue graphique pour les affectations utilisateur, reportez-vous à la section &quot;Navigation dans l’équilibreur de charge de travail&quot; de l’article . [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   ![](assets/user-allocation-chart-350x237.png)
+  ![](assets/user-allocation-chart-350x237.png)
 
 ### Critères qui réinitialisent les attributions d’utilisateurs {#criteria-that-reset-user-allocations}
 
@@ -158,10 +157,10 @@ Les actions suivantes réinitialisent ou modifient les allocations quotidiennes,
 Les modifications suivantes apportées à un élément de travail ne déclenchent pas les affectations ajustées à réinitialiser ou à modifier :
 
 * Lorsque vous déplacez les jours d’un élément de travail mais que le nombre de jours dans la Durée ne change pas, les valeurs allouées ajustées restent identiques et passent aux nouvelles dates.
-* Lorsque vous augmentez la Durée d’un élément de travail qui augmente le nombre de jours dans sa Durée, les heures allouées ajustées restent identiques pour les jours ajustés. Des jours supplémentaires sont ajoutés à l’élément de travail avec 0 heure allouée.
+* Lorsque vous augmentez la Durée d’un élément de travail qui augmente le nombre de jours dans sa Durée, les heures allouées ajustées restent identiques pour les jours ajustés. Des jours supplémentaires sont ajoutés à la tâche avec 0 heure allouée.
 * Lorsque vous ajoutez ou supprimez une personne désignée pour un élément de travail, ce qui n’entraîne pas la modification des Heures planifiées de l’élément, les valeurs ajustées restent les mêmes.
 
-## Localisation des heures planifiées dans l’équilibreur de charge de travail
+## Localisation des heures planifiées dans l’équilibreur de charge
 
 Vous pouvez modifier les affectations d’utilisateurs à des tâches ou des problèmes à l’aide de l’équilibreur de charge de travail en recherchant les Heures planifiées des tâches ou des problèmes affectés aux utilisateurs.
 
@@ -182,7 +181,7 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
 
    ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
-1. Dans le **Travail attribué** recherchez l’utilisateur pour lequel vous souhaitez modifier manuellement l’allocation, puis cliquez sur la flèche pointant vers la droite située à gauche du nom d’utilisateur pour développer l’utilisateur.
+1. Dans le **Travail assigné** recherchez l’utilisateur pour lequel vous souhaitez modifier manuellement l’allocation, puis cliquez sur la flèche pointant vers la droite située à gauche du nom d’utilisateur pour développer l’utilisateur.
 
    ![](assets/wb-highlight-on-name-caret-350x106.png)
 
@@ -214,15 +213,15 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
       >L’administrateur de Workfront décide de la planification à utiliser sur l’ensemble de votre système pour calculer la capacité de l’utilisateur dans la zone Gestion des ressources de la configuration. Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 
-1. Cliquez sur le bouton **Plus** menu ![](assets/qs-more-menu.png) pour un élément de travail, puis cliquez sur **Modifier les attributions**.
+1. Cliquez sur le bouton **Plus** menu ![](assets/qs-more-menu.png) pour une tâche, puis cliquez sur **Modifier les attributions**.
 
-![](assets/more-menu-on-task-wb-nwe.png)
+   ![](assets/more-menu-on-task-wb-nwe.png)
 
-Ou
+   Ou
 
-Double-cliquez sur le jour, la semaine ou le mois dans la barre d’une tâche ou d’un problème.
+   Double-cliquez sur le jour, la semaine ou le mois dans la barre d’une tâche ou d’un problème.
 
-Les boîtes d’attribution deviennent modifiables.
+   Les boîtes d’attribution deviennent modifiables.
 
 1. Cliquez dans la zone de chaque attribution quotidienne, hebdomadaire ou mensuelle pour mettre à jour manuellement le nombre d’heures ou le pourcentage pour lequel vous souhaitez que l’utilisateur soit affecté chaque jour, semaine ou mois, puis cliquez sur le bouton **Enregistrer** icon ![](assets/checkmark-icon.png).
 
@@ -243,16 +242,23 @@ Les boîtes d’attribution deviennent modifiables.
    * Pour les tâches dont les types de durée ne sont pas simples ou pour des problèmes, le total des affectations doit correspondre à la tâche Heures planifiées avant de pouvoir cliquer sur l’icône en forme de coche.
    * Pour les tâches avec un type de durée simple , le total des affectations peut être supérieur ou inférieur aux Heures planifiées et vous pouvez cliquer sur l’icône en forme de coche même si elles ne correspondent pas. Cela met également à jour le nombre d’heures planifiées pour la tâche. Vous devez disposer des autorisations et de l’accès appropriés pour mettre à jour les heures planifiées sur les tâches à partir de l’équilibreur de charge de travail.
 
-      >[!TIP]
-      >
-      >Une icône représentant un verrou s’affiche à droite du nom de la tâche lorsque vous commencez à ajuster vos affectations pour indiquer que la tâche a un type de durée simple.
+     >[!TIP]
+     >
+     >Une icône représentant un verrou s’affiche à droite du nom de la tâche lorsque vous commencez à ajuster vos affectations pour indiquer que la tâche a un type de durée simple.
 
-      ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+
    Pour plus d’informations sur les conditions qui doivent être remplies pour mettre à jour les heures planifiées dans l’équilibreur de charge de travail, consultez la section suivante de cet article : [Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur](#update-task-planned-hours-when-managing-user-allocations). Pour plus d’informations sur les types de durée de tâche, voir [Présentation de la durée et du type de durée de la tâche](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Conditionnel) Si la tâche est affectée à plusieurs utilisateurs, répétez ces étapes pour chaque utilisateur affecté à la tâche afin de mettre à jour les affectations pour chaque utilisateur.
 
    Toute personne ayant accès à l’équilibreur de charge de travail et qui affiche les mêmes utilisateurs et les mêmes projets que ceux que vous avez gérés affiche désormais l’allocation mise à jour pour les utilisateurs que vous avez gérés.
+
+>[!TIP]
+>
+>Une icône représentant un crayon s’affiche à droite du nom de l’élément de travail pour indiquer qu’il a été modifié manuellement.
+
+![Icône Heures ajustées manuellement](assets/icon-for-manually-adjusted-hours.png)
 
 ## Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur {#update-task-planned-hours-when-managing-user-allocations}
 
@@ -264,20 +270,18 @@ Vous pouvez mettre à jour les Heures planifiées d’une tâche lors de la gest
 >* La mise à jour manuelle des heures planifiées en modifiant les affectations quotidiennes peut avoir un impact sur les heures planifiées lors de la suppression ultérieure des affectations des tâches. Pour plus d’informations, voir [Présentation des heures planifiées](../../manage-work/tasks/task-information/planned-hours.md).
 >
 >* Il n’est pas possible de mettre à jour les heures planifiées pour les problèmes en mettant à jour les affectations dans l’équilibreur de charge de travail.
->
-
 
 Cela est possible lorsque les conditions suivantes existent :
 
 * Vous disposez des autorisations et de l’accès appropriés pour gérer les heures planifiées à partir de l’équilibreur de charge de travail. Il s’agit notamment des éléments suivants :
 
-   * Gérez les autorisations pour les tâches.
+   * Gérer les autorisations pour les tâches.
    * Mettez à jour les heures planifiées dans l’accès de l’équilibreur de charge de travail dans la zone Gestion des ressources de votre niveau d’accès.
 
-   Pour plus d’informations sur l’accès nécessaire à l’utilisation de l’équilibreur de charge de travail, consultez la section suivante de cet article : [Exigences d’accès](#access-requirements) .
+  Pour plus d’informations sur l’accès nécessaire à l’utilisation de l’équilibreur de charge de travail, consultez la section suivante de cet article : [Exigences d’accès](#access-requirements).
 
 * La tâche a un type de durée simple.
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
   -->

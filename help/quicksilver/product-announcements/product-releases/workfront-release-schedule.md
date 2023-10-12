@@ -7,9 +7,9 @@ description: L’environnement Aperçu est mis à jour une fois par semaine avec
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 L’environnement Aperçu est mis à jour une fois par semaine avec de nouvelles fonctionnalités. Ces fonctionnalités sont communiquées dans les notes de mise à jour de la prochaine version trimestrielle.
 
+Les sorties ont généralement lieu aux alentours de 20 h à 22 h, heure des Rocheuses.
+
 ## Mise à jour du planning pour la production
 
 ### Fonctionnalités du produit
@@ -27,7 +29,7 @@ L’environnement Aperçu est mis à jour une fois par semaine avec de nouvelles
 
 Adobe Workfront dispose de deux modèles pour la publication de nouvelles fonctionnalités et mises à jour. Votre entreprise peut choisir de recevoir les nouvelles fonctionnalités tous les trimestres ou selon un calendrier de publication plus rapide.
 
-Les mises à jour mensuelles et trimestrielles sont prévues pour le dernier jeudi du mois.
+Les mises à jour mensuelles et trimestrielles sont prévues pour le dernier jeudi du mois. Les sorties ont généralement lieu aux alentours de 20 h à 22 h, heure des Rocheuses.
 
 En règle générale, les fonctionnalités de l’aperçu sont mises à disposition dans votre environnement de production avec la prochaine version. Cependant, dans certains cas, des fonctionnalités sont disponibles dans l’environnement de production en dehors d’une version planifiée. Ces modifications restent dans Aperçu pendant un minimum de 2 semaines afin que vous ayez le temps de vous familiariser avec les modifications. Ces modifications sont également communiquées par le biais du Centre d’annonces au moment de leur ajout à la fonction Aperçu.
 
@@ -56,14 +58,14 @@ Les informations spécifiques à chaque version bêta, y compris la manière de 
 
 Les programmes bêta suivants sont disponibles à partir de Workfront :
 
-* **Version bêta fermée ou privée**: Voici les caractéristiques d’une version bêta fermée ou privée :
+* **Version bêta fermée ou privée**: voici les caractéristiques d’une version bêta fermée ou privée :
 
    * Les fonctionnalités sont disponibles pour un petit groupe de clients, soigneusement sélectionnés par Workfront.
    * Les participants travaillent généralement avec un responsable de produit et fournissent régulièrement des commentaires.
    * Les nouvelles fonctionnalités qui font partie de la version bêta peuvent être publiées dans Aperçu ou Production, ou dans un environnement distinct mis à disposition en vue du programme bêta. Les fonctionnalités bêta fermées sont publiées à intervalles aléatoires et sans avertissement.
    * Il n’existe aucune information de mise à jour pour les bêta fermées sur les pages de mise à jour du produit.
 
-* **Version bêta ouverte ou publique**: Voici les caractéristiques d’une version bêta publique ou ouverte :
+* **Version bêta ouverte ou publique**: voici les caractéristiques d’une version bêta publique ou ouverte :
 
    * Les fonctionnalités sont disponibles pour tous les clients Workfront, mais sont en version bêta. Ils peuvent ne pas toujours être entièrement fonctionnels et les commentaires sont toujours bienvenus.
    * La participation à une version bêta publique est facultative et les clients peuvent décider d’activer les fonctionnalités bêta eux-mêmes.
@@ -85,7 +87,7 @@ Utilisez les notes de mise à jour de la prochaine version planifiée pour déco
 
 Pour consulter les notes de mise à jour de la prochaine version planifiée, voir [Versions de produit](../../product-announcements/product-releases/product-releases.md), puis cliquez sur le lien pour accéder à la page d’aperçu de la version pour la prochaine version.
 
-Les notes de mise à jour contiennent un tableau répertoriant les fonctionnalités de la colonne de gauche, avec une brève description de chaque fonctionnalité. Vous pouvez cliquer sur un lien pour afficher une vidéo de démonstration de la nouvelle fonctionnalité, ainsi que la documentation sur la nouvelle fonctionnalité. Dans la colonne de droite, les informations suivantes s’affichent pour chaque fonction :
+Les notes de mise à jour contiennent un tableau répertoriant les fonctionnalités de la colonne de gauche, avec une brève description de chacune d’elles. Vous pouvez cliquer sur un lien pour afficher une vidéo de démonstration de la nouvelle fonctionnalité, ainsi que la documentation sur la nouvelle fonctionnalité. Dans la colonne de droite, les informations suivantes s’affichent pour chaque fonction :
 
 * Prévisualiser la date de publication
 * Date de publication de la production

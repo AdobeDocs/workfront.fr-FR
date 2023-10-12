@@ -4,10 +4,10 @@ description: Mises à jour de l’apparence pendant la période de publication d
 author: Lisa
 draft: Probably
 feature: Product Announcements
-exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
+source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication du quatrième trimestre 2023.
 
 Pour obtenir la liste de toutes les modifications disponibles avec la version du quatrième trimestre 2023, voir [Présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Indicateur pour les allocations ajustées manuellement dans l’équilibreur de charge de travail
+
+>[!NOTE]
+>
+>Version d’aperçu : 12 octobre 2023 ; Version de production pour tous les clients : à déterminer
+
+Pour plus de clarté sur les réglages manuels ou le contournement dans l’équilibreur de charge de travail, les affectations horaires ajustées manuellement affichent désormais une icône en forme de crayon.
+
+Pour plus d’informations, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Nouvelles mises à jour de l’apparence pour les onglets dans la zone Configurer les notifications
 

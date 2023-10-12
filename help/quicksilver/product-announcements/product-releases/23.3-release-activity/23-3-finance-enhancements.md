@@ -3,9 +3,10 @@ title: 23.3 Améliorations apportées à la gestion financière
 description: 23.3 Améliorations apportées à la gestion financière
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >
 >* Version de production pour les clients de la version rapide : à annoncer, après la version de production 23.3
 >
->* Version de production pour tous les clients : version de production pour tous les clients : avec la version 23.10 (octobre 2023)
+>* Version de production pour tous les clients : version de production pour tous les clients : à annoncer
 >
 >La fonction de remplacement du taux d’affectation a été temporairement désactivée dans Aperçu du 30 juin au 13 juillet 2023.
 

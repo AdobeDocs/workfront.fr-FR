@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
+source-git-commit: 0df32f5b41f4b426325d3eab8f70a4ef2538b452
 workflow-type: tm+mt
-source-wordcount: '13352'
+source-wordcount: '13344'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 1%
       * [Préparation d’une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Version 2023 du 4e trimestre {#release-23-q4}
          * [Présentation de la version 2023 du trimestre 4](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
-         * [Semaine de publication du quatrième trimestre 2023 du 24 juillet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
-         * [Semaine de publication 2023 du 4e trimestre du 31 juillet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
-         * [Semaine de publication du quatrième trimestre 2023 du 14 août 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
-         * [Semaine de publication du quatrième trimestre 2023 du 21 août 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
-         * [Semaine de publication du quatrième trimestre 2023 du 11 septembre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
-         * [Semaine de publication du quatrième trimestre 2023 du 2 octobre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md)
+         * [Améliorations de l’administrateur du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
+         * [Améliorations des panoramas 2023 au 4e trimestre](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
+         * [Améliorations de la gestion financière au 4e trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md)
+         * [Améliorations de la page d’accueil du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
+         * [Améliorations de l’intégration 2023 au 4e trimestre](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
+         * [Améliorations du projet 2023 Q4](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
+         * [Autres améliorations au 4e trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [Mises à jour de l’apparence pendant la période de publication du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
       * Version 23.3 {#release-23-3}
          * [Présentation de la version 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
