@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '3550'
+source-wordcount: '3606'
 ht-degree: 1%
 
 ---
@@ -268,7 +268,12 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
 1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’objet Workfront.
 1. (Facultatif) Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png)  <span class="preview">dans le coin supérieur droit du commentaire</span>, puis cliquez sur **Modifier**.
 1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez l’un des utilisateurs balisés.
-Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été saisi.
+Vous ne pouvez modifier votre commentaire que dans les 15 jours suivant son envoi. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été saisi.
+
+   >[!TIP]
+   >
+   >Les commentaires de l’année en cours n’affichent pas l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, y compris l’année.
+
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -276,7 +281,8 @@ Vous pouvez modifier votre commentaire dans les 15 heures suivant son envoi. Un 
    >
    >* Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.
    >* L’horodatage en regard du commentaire correspond à la date du commentaire d’origine, et non à celle de la dernière modification.
-   >* Les commentaires de l’année en cours n’affichent pas l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, y compris l’année.
+   >* Lorsque vous publiez un commentaire au nom d’un autre utilisateur (lorsque vous vous connectez en tant qu’autre utilisateur en tant qu’administrateur Workfront ou de groupe), vous ne pouvez pas le modifier si vous êtes connecté en tant qu’autre utilisateur. Vous ne pouvez modifier le commentaire qu’après vous être déconnecté en tant qu’utilisateur et vous être reconnecté vous-même.
+
 
 1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, suivez les étapes 4 à 8 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
@@ -542,7 +548,7 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informati
 
   Les objets suivants ne comportent pas de mises à jour générées par le système :
 
-   * l’équipe
+   * Equipe
    * Modèle
    * Tâche de modèle
 

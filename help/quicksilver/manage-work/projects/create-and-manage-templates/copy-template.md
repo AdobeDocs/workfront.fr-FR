@@ -6,10 +6,10 @@ description: Au lieu de créer un modèle de projet entièrement nouveau, vous p
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 0%
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
@@ -45,6 +45,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
+
+## Observations relatives à la copie de modèles
+
+Les éléments suivants sont toujours copiés d’un projet existant vers un nouveau :
+
+* Tâches de modèles
+* Modèle Tâche Informations par défaut (Processus d’approbation par défaut de la tâche, Tâche par défaut Forms personnalisé)
+* Formulaires personnalisés
+* Risques
+* Informations sur la configuration de la file
+* Portfolio et programme
+* Approbations
+* Documents
+* Les jours des tâches du modèle d’origine sont transférés vers le nouveau modèle. Vous devez modifier le jour de début ou de fin du modèle (en fonction de son mode de planification) pour mettre à jour les jours des tâches du modèle, si nécessaire.
+
+Les éléments suivants ne sont jamais copiés d’un projet existant vers un nouveau :
+
+* Taux de facturation
+* Commentaires des utilisateurs
 
 ## Copier un modèle
 

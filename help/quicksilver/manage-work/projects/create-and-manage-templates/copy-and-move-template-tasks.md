@@ -5,13 +5,13 @@ title: Copier et déplacer des tâches de modèle
 description: Vous pouvez copier ou déplacer une tâche de modèle vers le même modèle ou vers un autre modèle.
 author: Alina
 feature: Work Management
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2138'
 ht-degree: 3%
 
 ---
-
 
 # Copier et déplacer des tâches de modèle
 
@@ -53,6 +53,12 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 Tenez compte des points suivants lors de la copie d’une tâche de modèle :
 
 * Les jalons ne sont pas transférés vers la tâche de modèle copiée ou déplacée.
+
+* Les sous-tâches sont transférées vers la nouvelle tâche de modèle.
+* Les formulaires personnalisés sont copiés avec la tâche de modèle. Les informations contenues dans les champs personnalisés ne sont transférées à la nouvelle tâche de modèle que lorsque vous choisissez de copier des données personnalisées.
+* Vous avez la possibilité de choisir de copier certains éléments associés à la tâche de modèle dans la tâche copiée au cours du processus de copie. Cependant, par défaut, les objets suivants ne sont pas transférés vers la tâche copiée :
+
+   * Commentaires des utilisateurs
 
 * Vous pouvez copier une tâche de modèle dans les zones suivantes de l’application web Adobe Workfront :
 
@@ -111,7 +117,7 @@ La zone Copier la tâche de modèle s’ouvre.
 
    Lors de la copie d’une tâche de modèle avec des contraintes spécifiques à la date dans un autre modèle et que les dates de contrainte de la tâche de modèle ne sont pas conformes aux dates du nouveau modèle, la contrainte de la tâche de modèle passe à Dès que possible ou Aussi Tard que possible ou les dates de début planifié ou de fin planifiée des modèles sont ajustées.
 
-   Vous trouverez ci-dessous des exemples de contraintes spécifiques à une date :
+   Vous trouverez ci-dessous des exemples de contraintes spécifiques aux dates :
    <ul>
       <li> Il Faut Commencer Le</li>
       <li> Il Faut Finir Le</li>
@@ -210,7 +216,7 @@ La zone Déplacer la tâche de modèle s’affiche.
    >Vous pouvez également commencer à saisir le numéro de référence ou saisir l’identifiant du modèle. Cela peut vous aider à distinguer les modèles portant des noms identiques.
 
 1. (Conditionnel) Cliquez sur **accès aux demandes** pour demander l’accès au modèle, si vous n’avez pas accès au modèle de destination.
-1. (Conditionnel) Continuez à déplacer la tâche de modèle vers le modèle de destination sélectionné sans demander l’accès si vous avez accès à l’ajout de tâches de modèle à l’une des tâches de modèle sur le modèle de destination.
+1. (Conditionnel) Continuez à déplacer la tâche de modèle vers le modèle de destination sélectionné sans demander l’accès si vous avez accès à l’une des tâches de modèle sur le modèle de destination.
 
 1. Cliquez sur **Options** dans le panneau de gauche, désélectionnez les attributs de tâche de modèle que vous ne souhaitez pas copier avec la tâche de modèle. Toutes les options sont sélectionnées par défaut.
 
@@ -218,7 +224,6 @@ La zone Déplacer la tâche de modèle s’affiche.
    >
    >* La section Options n’est disponible qu’après avoir sélectionné un modèle de destination.
    >* Désélection **Tout sélectionner** désélectionne toutes les options.
-
 
    Désélectionnez les options suivantes pour ne pas transférer les informations vers la tâche de modèle déplacée. Le tableau suivant décrit ce qui se produit lorsque les options sont désélectionnées :
 
@@ -236,9 +241,9 @@ La zone Déplacer la tâche de modèle s’affiche.
 
    <p><b>NOTE</b>
 
-   Lorsque vous déplacez une tâche de modèle avec des contraintes spécifiques à la date vers un autre modèle et que les dates de contrainte de la tâche de modèle ne sont pas conformes aux dates du nouveau modèle, la contrainte de tâche de modèle passe à Dès que possible ou Aussi Tard que possible ou les dates de début planifié ou de fin planifiée des modèles sont ajustées.
+   Lorsque vous déplacez une tâche de modèle avec des contraintes spécifiques à la date vers un autre modèle et que les dates de contrainte de la tâche de modèle ne sont pas conformes aux dates du nouveau modèle, la contrainte de la tâche de modèle passe à Dès que possible ou Aussi Tard que possible ou les dates de début planifié ou de fin planifiée des modèles sont ajustées.
 
-   Vous trouverez ci-dessous des exemples de contraintes spécifiques à une date :
+   Vous trouverez ci-dessous des exemples de contraintes spécifiques aux dates :
    <ul>
       <li> Démarré le</li>
       <li> Il Faut Finir Le</li>
@@ -317,5 +322,3 @@ La zone Déplacer la tâche de modèle s’affiche.
 1. Cliquez sur **Déplacer la tâche de modèle**.
 
    Les tâches de modèle déplacées se trouvent désormais sur le modèle spécifié et sont soit des sous-tâches à la tâche de modèle parent sélectionnée, soit les dernières tâches de modèle sur le modèle.
-
-

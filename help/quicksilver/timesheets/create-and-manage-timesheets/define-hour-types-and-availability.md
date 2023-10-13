@@ -6,9 +6,9 @@ description: Un type d’heure est un libellé qui vous permet de classer les en
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès de l’administrateur système pour définir les types d’heures à l’échelle du système et modifier tous les utilisateurs</p> </td> 
+   <td> <p>Accès de l’administrateur système pour définir les types horaires à l’échelle du système et modifier tous les utilisateurs</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -57,11 +57,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur Workfront.
+&#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur Workfront.
 
 ## Définition de la disponibilité au niveau du système
 
-L’administrateur système détermine les types d’heures spécifiques au projet qui sont rendus disponibles à l’échelle du système, comme décrit dans la section [Gestion des types d’heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) dans  [Gestion des types d’heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+L’administrateur système détermine les types d’heures spécifiques au projet qui sont rendus disponibles à l’échelle du système, comme décrit dans la section [Gestion des types d’heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Définition de la disponibilité au niveau du projet {#define-availability-at-the-project-level}
 
@@ -102,11 +102,30 @@ Pour définir les types d’heures disponibles pour un utilisateur :
 1. Dans le **Planification des ressources** , dans la section **Types d’heure disponibles** dans le menu déroulant, effectuez l’une des opérations suivantes, selon les types d’heures que vous souhaitez rendre disponibles lors de la connexion du temps sur un projet, une tâche ou un problème :
 
    * **Pour rendre tous les types d’heure disponibles pour l’utilisateur :** Sélectionnez tous les types d’heures.\
-      Si vous ne sélectionnez pas tous les types d’heure, cela revient techniquement à sélectionner tous les types d’heure. Cependant, dans ce cas, tous les types d’heure ne sont disponibles pour l’utilisateur que pour les projets, les tâches et les problèmes pour lesquels **Non** est sélectionné dans la variable **Filtrer les types d’heure** lors de la modification du projet, comme décrit dans la section [Définition de la disponibilité au niveau du projet](#define-availability-at-the-project-level).
+     Si vous ne sélectionnez pas tous les types d’heure, cela revient techniquement à sélectionner tous les types d’heure. Cependant, dans ce cas, tous les types d’heure ne sont disponibles pour l’utilisateur que pour les projets, les tâches et les problèmes pour lesquels **Non** est sélectionné dans la variable **Filtrer les types d’heure** lors de la modification du projet, comme décrit dans la section [Définition de la disponibilité au niveau du projet](#define-availability-at-the-project-level).
    * **Pour mettre à la disposition de l’utilisateur uniquement un sous-ensemble des types d’heure :** Sélectionnez uniquement les types d’heures que vous souhaitez rendre disponibles.
 
-      Pour que les types d’heures que vous sélectionnez au niveau de l’utilisateur soient disponibles sur les projets, les tâches et les problèmes, ces mêmes types d’heures doivent également être sélectionnés dans la variable **Filtrer les types d’heure** lors de la modification du projet, comme décrit dans la section [Définition de la disponibilité au niveau du projet](#define-availability-at-the-project-level).
+     Pour que les types d’heures que vous sélectionnez au niveau de l’utilisateur soient disponibles sur les projets, tâches et problèmes, ces mêmes types d’heures doivent également être sélectionnés dans la variable **Filtrer les types d’heure** lors de la modification du projet, comme décrit dans la section [Définition de la disponibilité au niveau du projet](#define-availability-at-the-project-level).
 
 1. Cliquez sur **Enregistrer les modifications**.
 
    Désormais, lorsque vous enregistrez les heures sur un projet, une tâche ou un problème, les types d’heures que vous sélectionnez sont disponibles si ces mêmes types d’heures ont été rendus disponibles au niveau du projet.
+
+
+## Fonctionnement des types d’heures au niveau de l’utilisateur et du projet
+
+La liste suivante décrit les types d’heures qui s’affichent sur un objet après avoir personnalisé et filtré les types d’heures au niveau de l’utilisateur et du projet :
+
+* Par défaut, lorsque vous ouvrez un objet pour consigner l’heure, le menu déroulant Type d’heure affiche les Types d’heure par défaut associés à votre utilisateur. Cela se produit lorsque vous n’avez pas personnalisé vos types d’heures.
+
+* Une fois que vous avez personnalisé les types d’heure et défini les types d’heure disponibles pour votre utilisateur ou filtré les types d’heure pour un projet, les scénarios suivants existent :
+
+   * Si vous avez sélectionné tous les types d’heure pour le champ Type d’heure disponible dans le profil de votre utilisateur et que les types d’heure du projet ne sont pas filtrés, tous les types d’heure disponibles s’affichent lorsque vous enregistrez l’heure.
+   * Si vous avez sélectionné uniquement un sous-ensemble de types d’heure pour le champ Type d’heure disponible dans le profil de votre utilisateur et que les types d’heure du projet ne sont pas filtrés, vous ne verrez que les types d’heure de l’utilisateur lorsque vous enregistrez l’heure.
+   * Si vous avez sélectionné tous les types d’heure pour le champ Type d’heure disponible dans le profil de votre utilisateur et que les types d’heure du projet sont filtrés, seuls les types d’heure du projet et les types d’heure par défaut tels que Heure du projet, Heure de la tâche, Heure de la publication, selon l’objet.
+   * Si vous avez sélectionné uniquement un sous-ensemble de types d’heure pour le champ Type d’heure disponible dans le profil de votre utilisateur et que les types d’heure du projet sont filtrés, vous ne verrez que les types d’heure communs à l’utilisateur et au projet. Si aucun type d’heure n’est commun à l’utilisateur et au projet, seuls les types d’heure par défaut s’affichent (heure du projet, heure de la tâche, heure de la publication).
+
+>[!TIP]
+>
+>   Si vous sélectionnez un type d’heure différent de celui par défaut pour un objet, le type d’heure devient attractif. La prochaine fois que vous connecterez le même objet, le type d’heure sera automatiquement défini par défaut sur celui que vous avez sélectionné pour la dernière fois.
+

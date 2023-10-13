@@ -6,9 +6,9 @@ description: Vous pouvez copier une tâche d’un projet vers un autre projet ou
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1774'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations pour une tâche </p> <p>Attribuer des autorisations ou des autorisations supérieures au projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gestion des autorisations pour une tâche </p> <p>Attribuer ou des autorisations supérieures au projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,20 +85,25 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 Tenez compte des points suivants lors de la copie d’une tâche :
 
-* Les problèmes ne sont pas copiés avec la tâche.
 * Les jalons sont transférés à la tâche copiée et supprimés de la tâche d’origine.
 * Lorsque vous copiez une tâche d’un projet vers un autre, les dates de la tâche peuvent être recalculées. Le nouveau calcul prendra en compte le planning utilisé par le nouveau projet, ainsi que les informations de planification de projet.
+* Transférer les sous-tâches vers la nouvelle tâche.
+* Les formulaires personnalisés sont copiés avec la tâche. Les informations contenues dans les champs personnalisés ne sont transférées aux tâches copiées que lorsque vous choisissez de copier les données personnalisées lors de la copie de la tâche.
+* Vous avez la possibilité de choisir de copier certains éléments associés à la tâche dans la tâche copiée au cours du processus de copie. Cependant, par défaut, les objets suivants ne sont pas transférés vers la tâche copiée :
+   * Problèmes
+   * Heures consignées
+   * Commentaires des utilisateurs <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
 
 Vous pouvez copier une tâche dans les zones suivantes de l’application web Adobe Workfront :
 
-* Au niveau de la tâche, à partir du **Icône Plus** ![](assets/qs-more-menu-19x7.png) à droite du nom de la tâche.
+* Au niveau de la tâche, à partir de la fonction **Icône Plus** ![](assets/qs-more-menu-19x7.png) à droite du nom de la tâche.
 
   Pour plus d’informations, voir [Copier une tâche au niveau de la tâche](#copy-a-task-at-the-task-level) dans cet article.
 
 * Dans une liste de tâches, effectuez l’une des opérations suivantes :
 
    * Cliquez avec le bouton droit sur le nom d’une tâche.
-   * Sélectionnez la (ou les) tâche(s) et développez la **Plus** icon ![](assets/more-icon-task-list.png) en haut de la liste des tâches.
+   * Sélectionnez la ou les tâches et développez la **Plus** icon ![](assets/more-icon-task-list.png) en haut de la liste des tâches.
    * Sélectionnez une tâche et développez l’objet **Plus** icon ![](assets/more-icon-task-list.png) en regard du nom de la tâche.
 
      Cette option n’est pas disponible lors de la sélection de plusieurs tâches.
@@ -113,7 +118,7 @@ Vous pouvez copier une tâche dans les zones suivantes de l’application web Ad
 
    Accédez à un rapport de tâche.
 
-1. Cliquez sur **Tâches** dans le panneau de gauche.
+1. Cliquez sur **Tâche** dans le panneau de gauche.
 1. Cliquez sur le bouton **Menu du mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , puis **Enregistrement automatique**.
 
    >[!IMPORTANT]
@@ -123,7 +128,7 @@ Vous pouvez copier une tâche dans les zones suivantes de l’application web Ad
 1. Sélectionnez la ou les tâches à copier, puis effectuez l’une des opérations suivantes :
 
    * Cliquez sur le bouton **Plus de menu** en haut de la liste des tâches, puis cliquez sur **Copier vers**.
-   * Cliquez avec le bouton droit de la souris sur les tâches sélectionnées, puis cliquez sur **Copier vers**.
+   * Cliquez avec le bouton droit sur les tâches sélectionnées, puis cliquez sur **Copier vers**.
    * Lorsque vous sélectionnez une tâche, cliquez sur le bouton **Plus** menu ![](assets/more-icon-task-list.png) en regard du nom de la tâche dans la liste, puis cliquez sur **Copier vers**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
@@ -148,7 +153,7 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
 
    La zone Copier la tâche s’affiche.
 
-1. (Facultatif) Mettez à jour la variable **Nom de la tâche**.
+1. (Facultatif) Mettez à jour la variable **Task Name**.
 
    >[!TIP]
    >
@@ -156,7 +161,7 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Saisissez le nom de la variable **Projet de destination** où vous souhaitez copier la tâche dans le **Sélectionner le projet de destination** champ . 
+1. Saisissez le nom du **Projet de destination** où vous souhaitez copier la tâche dans le **Sélectionner le projet de destination** champ . 
 
    >[!TIP]
    >
@@ -189,7 +194,7 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
     <tbody> 
      <tr> 
       <td role="rowheader">Contrainte</td> 
-      <td> <p>La contrainte de tâche est définie sur Dès que possible ou Aussi tard que possible en fonction du paramètre Mode de planification du projet.</p> <p> Lorsque cette option est sélectionnée, la contrainte actuelle de la tâche est transférée à la tâche copiée. </p> <p>Remarque : Lorsque vous déplacez ou copiez une tâche avec des contraintes de date spécifiques à un autre projet et que les dates de contrainte de la tâche ne correspondent pas aux dates du nouveau projet, la contrainte de tâche passe à Dès que possible ou Aussi tard que possible ou les dates de début planifié ou de fin planifiée des projets sont ajustées. Certains exemples de contraintes spécifiques à une date sont : Doit démarrer le, Doit se terminer le, Ne pas démarrer plus tôt que, Ne pas démarrer plus tard que, etc. Pour plus d’informations sur les contraintes de tâche et sur la manière dont les contraintes de tâche ou les dates de projet peuvent être affectées, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Présentation de la contrainte de tâche</a> et recherchez une contrainte spécifique.</p> </td> 
+      <td> <p>La contrainte de tâche est définie sur Dès que possible ou Aussi tard que possible en fonction du paramètre Mode de planification du projet.</p> <p> Lorsque cette option est sélectionnée, la contrainte actuelle de la tâche est transférée à la tâche copiée. </p> <p>Remarque : lorsque vous déplacez ou copiez une tâche avec des contraintes de date spécifiques à un autre projet et que les dates de contrainte de la tâche ne sont pas conformes aux dates du nouveau projet, la contrainte de tâche passe à Dès que possible ou Aussi Tard que possible ou les dates de début planifié ou de fin planifiée des projets sont ajustées. Certains exemples de contraintes spécifiques à une date sont : Doit démarrer le, Doit se terminer le, Ne pas démarrer plus tôt que, Ne pas démarrer plus tard que, etc. Pour plus d’informations sur les contraintes de tâche et sur la manière dont les contraintes de tâche ou les dates de projet peuvent être affectées, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Présentation de la contrainte de tâche</a> et recherchez une contrainte spécifique.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Affectations</td> 
@@ -247,7 +252,7 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
 
    La tâche doit apparaître dans la liste.
 
-   ![Sélection d’une tâche parente lors du déplacement d’une tâche avec une fonctionnalité de recherche ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Sélectionner une tâche parente lors du déplacement d’une tâche avec une fonctionnalité de recherche ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Sélectionnez le bouton radio du parent une fois que vous l’avez trouvé. 
 
@@ -264,10 +269,10 @@ Les tâches copiées se trouvent désormais sur le projet spécifié et sont soi
 
 Vous pouvez rapidement dupliquer une tâche dans une liste de tâches, si vous avez besoin d’une tâche identique sur le même projet.
 
-* [Observations relatives à la duplication de tâches](#considerations-for-duplicating-tasks)
+* [Considérations relatives à la duplication de tâches](#considerations-for-duplicating-tasks)
 * [Duplication de tâches](#duplicate-tasks)
 
-### Observations relatives à la duplication de tâches {#considerations-for-duplicating-tasks}
+### Considérations relatives à la duplication de tâches {#considerations-for-duplicating-tasks}
 
 * Vous ne pouvez dupliquer une tâche dans une liste de tâches que lorsque la liste est triée par numéro de tâche.
 
@@ -277,7 +282,7 @@ Vous pouvez rapidement dupliquer une tâche dans une liste de tâches, si vous a
 
    * Heures consignées
    * Notes
-   * Événements
+   * Problèmes
    * Seuls les prédécesseurs appartenant au même groupe de tâches copiées sont également copiés avec leurs tâches de remplacement.
 
      **Exemple :** Par exemple, si vous copiez simultanément la tâche 2 et son prédécesseur, la tâche 1, vous disposez d’une copie de la tâche 2 et d’une copie de la tâche 1. La copie de la tâche 1 sera le prédécesseur de la copie de la tâche 2. Mais si vous copiez uniquement la tâche 2 sans copier son prédécesseur, sa copie n’aura pas de prédécesseur.
@@ -292,18 +297,18 @@ Vous pouvez rapidement dupliquer une tâche dans une liste de tâches, si vous a
 ### Duplication de tâches
 
 1. Accédez au projet contenant la ou les tâches que vous souhaitez dupliquer.
-1. Cliquez sur **Tâches** dans le panneau de gauche.
+1. Cliquez sur **Tâche** dans le panneau de gauche.
 1. Utilisez l’une des méthodes suivantes :
 
    * (Conditionnel) Cliquez sur le bouton **Menu du mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Enregistrement automatique**, sélectionnez les tâches à dupliquer, puis cliquez sur le bouton **Plus de menu** ![](assets/qs-more-menu-29x11.png) > **Dupliquer**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Conditionnel) Cliquez sur le bouton **Menu du mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Enregistrement manuel** > **Standard** ou **Planification de la chronologie**, puis procédez comme suit :
+   * (Conditionnel) Cliquez sur le bouton **Menu du mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Enregistrement manuel** > **Standard** ou **Planification chronologique**, puis procédez comme suit :
 
       1. Sélectionnez la ou les tâches à dupliquer, puis cliquez sur **Dupliquer**.
       1. (Facultatif) Cliquez sur **Annuler** pour annuler vos modifications et ne pas dupliquer les tâches.
-      1. (Facultatif et conditionnel) Cliquez sur **Rétablir** si vous avez précédemment cliqué **Annuler**, pour conserver les modifications et dupliquer les tâches.
+      1. (facultatif et conditionnel) Cliquez sur **Rétablir** si vous avez précédemment cliqué **Annuler**, pour conserver les modifications et dupliquer les tâches.
 
       1. Cliquez sur **Enregistrer** pour enregistrer vos modifications.
 
