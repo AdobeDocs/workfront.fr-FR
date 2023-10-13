@@ -3,9 +3,9 @@ title: Améliorations de la page d’accueil du quatrième trimestre 2023
 description: Améliorations de la page d’accueil du quatrième trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées à l’accueil de la version du quatrième trimestre 2023 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version 23.10.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2023, voir [Présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Bouton Déléguer le travail pour les widgets Projet, Tâche et Problème
+
+Fonctionnalité fréquemment demandée de l’ancienne page d’accueil, nous avons maintenant ajouté un bouton délégué aux widgets Mon travail, Mes tâches et Mes problèmes afin que vous puissiez facilement déléguer du travail lorsque vous êtes absent du bureau. Dans le menu délégué, qui fonctionne de la même manière qu’avant le nouvel accueil, vous pouvez sélectionner à qui et pendant combien de temps vous souhaitez déléguer vos articles et problèmes. Notez que la délégation de travail doit être activée dans votre environnement Workfront pour que le bouton s’affiche.
+
+Pour plus d’informations sur la délégation dans Workfront, voir [Gérer la délégation des tâches et des problèmes](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
 
 ## Nouveau widget Panoramas pour la nouvelle page d’accueil
 
