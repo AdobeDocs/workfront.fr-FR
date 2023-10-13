@@ -6,9 +6,9 @@ description: Utilisez l’équilibreur de charge de travail pour comprendre la d
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
+source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ Tenez compte des points suivants lors de l’affichage de l’équilibreur de ch
 
   >[!NOTE]
   >
-  >* Les tâches affectées à un rôle de tâche ou à une équipe, ainsi qu’à un utilisateur qui est la personne désignée principale, ne s’affichent pas dans la zone Travail non attribué.
-  >* Les tâches affectées à un utilisateur et un rôle de tâche, où le rôle de tâche est sélectionné comme responsable principal de l’élément, s’affichent dans la zone Travail non affecté .
+  >* Les tâches affectées à un rôle de tâche ou à une équipe, et également affectées à un utilisateur qui est la personne désignée principale, s’affichent dans la zone Travail non affecté et sous le nom de l’utilisateur affecté dans la zone Travail attribué.
+  >* Les tâches affectées à un utilisateur et un rôle de tâche, où le rôle de tâche est sélectionné comme responsable principal de l’élément, s’affichent dans la zone Travail non attribué.
   >* Les tâches affectées à plusieurs utilisateurs s’affichent sous tous les noms des utilisateurs affectés dans la zone Travail attribué.
+
+  Pour plus d’informations, voir &quot;Attribution de zones dans l’équilibreur de charge de travail&quot; dans [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * Lorsqu’un projet ne comporte aucune tâche pendant une période donnée, la barre au niveau du projet devient une couleur grisée.
 

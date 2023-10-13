@@ -6,7 +6,7 @@ description: En tant que gestionnaire de ressources, vous pouvez affecter du tra
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Gestion des affectations utilisateur dans l’équilibreur de charge de travail
+
+{{highlighted-preview}}
 
 En tant que gestionnaire de ressources, vous pouvez affecter du travail aux utilisateurs et gérer leurs allocations quotidiennes, hebdomadaires ou mensuelles à partir de l’équilibreur de charge de travail afin de vous assurer qu’un nombre d’heures adapté à leurs plannings disponibles leur est alloué.
 
@@ -256,7 +258,7 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
 
 >[!TIP]
 >
->Une icône représentant un crayon s’affiche à droite du nom de l’élément de travail pour indiquer qu’il a été modifié manuellement.
+><span class="preview">Une icône représentant un crayon s’affiche à droite du nom de l’élément de travail pour indiquer qu’il a été modifié manuellement.</span>
 
 ![Icône Heures ajustées manuellement](assets/icon-for-manually-adjusted-hours.png)
 
