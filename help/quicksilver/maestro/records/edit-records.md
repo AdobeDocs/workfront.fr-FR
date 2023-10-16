@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 2%
 
 ---
 
@@ -86,9 +86,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Remarques concernant la modification d’enregistrements
 
 * Vous pouvez modifier les enregistrements que vous ou un autre utilisateur avez créés. <!--will change with access levels-->
-* Si les enregistrements modifiés sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous modifiez se répercutent sur les enregistrements liés.
+* Vous ne pouvez pas modifier les champs liés à d’autres enregistrements ou champs contenant des calculs.
+* Si les enregistrements que vous affichez sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous éditez se répercutent sur les enregistrements liés.
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
-* Vous ne pouvez pas modifier les champs liés à d&#39;autres enregistrements.
+* Les URL sont reconnues comme des liens dans les types de champ de texte sur une seule ligne uniquement lorsqu’elles commencent par les éléments suivants : http://, https://, ftp:// ou www. .
+* Vous pouvez utiliser les options de mise en forme de texte enrichi suivantes lors de la modification d’un champ de type Paragraphe :
+
+   * Gras
+   * Italiques
+   * Souligner
+   * Ajouter un lien
+   * Ajouter une liste à puces
+   * Ajouter une liste numérotée
 
 ## Modifier des enregistrements
 
@@ -99,9 +108,11 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
 ### Modifier un enregistrement à partir de la page Détails de l’enregistrement
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, s’il est disponible, cliquez sur Maestro.
+1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro**.
 
    L’espace de travail auquel vous accédez en dernier s’ouvre.
+
+1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
 1. Utilisez l’une des méthodes suivantes :
 
    * Dans une vue Tableau, cliquez sur le nom d’un enregistrement.
@@ -120,11 +131,6 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    Les champs liés ou les champs qui contiennent des calculs ou qui sont générés par le système ne sont pas modifiables.
-
-
 1. Cliquez sur **Enregistrer les modifications**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### Modification d’un enregistrement à partir de la vue de table de type enregistrement
@@ -132,24 +138,15 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
    L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
+
+1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
 1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.
 1. (Conditionnel) Dans la variable **Affichage** Sélectionnez une vue Tableau dans le menu déroulant situé dans le coin supérieur droit du tableau. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
 
    Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
-1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement en ligne, puis appuyez sur **Entrée** sur votre clavier pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement.
+1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
 
-   >[!TIP]
-   >
-   >* Les champs liés ne sont pas modifiables. Les informations de ces champs sont renseignées automatiquement à partir des enregistrements liés. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
-   >
-   >* Les URL sont reconnues comme des liens dans les types de champ de texte sur une seule ligne uniquement lorsqu’elles commencent par les éléments suivants : http://, https://, ftp:// ou www. .
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. Presse **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement.

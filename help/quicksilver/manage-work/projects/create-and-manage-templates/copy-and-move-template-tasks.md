@@ -6,9 +6,9 @@ description: Vous pouvez copier ou déplacer une tâche de modèle vers le même
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2102'
 ht-degree: 3%
 
 ---
@@ -52,22 +52,23 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 Tenez compte des points suivants lors de la copie d’une tâche de modèle :
 
-* Les jalons ne sont pas transférés vers la tâche de modèle copiée ou déplacée.
+* Par défaut, les informations suivantes sont transférées vers la tâche déplacée :
 
-* Les sous-tâches sont transférées vers la nouvelle tâche de modèle.
-* Les formulaires personnalisés sont copiés avec la tâche de modèle. Les informations contenues dans les champs personnalisés ne sont transférées à la nouvelle tâche de modèle que lorsque vous choisissez de copier des données personnalisées.
+   * Formulaires personnalisés et informations sur les champs personnalisés.
+   * Sous-tâches.
+
+* Les informations suivantes ne sont pas transférées vers la tâche déplacée ou copiée :
+
+   * Les jalons ne sont pas transférés vers la tâche de modèle copiée ou déplacée.
+
 * Vous avez la possibilité de choisir de copier certains éléments associés à la tâche de modèle dans la tâche copiée au cours du processus de copie. Cependant, par défaut, les objets suivants ne sont pas transférés vers la tâche copiée :
 
    * Commentaires des utilisateurs
-
-* Vous pouvez copier une tâche de modèle dans les zones suivantes de l’application web Adobe Workfront :
-
-   * Au niveau de la tâche de modèle, à partir de la fonction **Icône Plus** ![](assets/more-icon.png) à droite du nom de la tâche de modèle.
-
-   * Dans une liste de tâches de modèle.
-* Vous pouvez copier ou déplacer des tâches de modèle une par une ou en sélectionnant plusieurs tâches de modèle.
+* Les formulaires personnalisés sont copiés avec la tâche de modèle. Les informations contenues dans les champs personnalisés ne sont transférées à la nouvelle tâche de modèle que lorsque vous choisissez de copier des données personnalisées.
 
 ## Copie de tâches de modèle
+
+Vous pouvez copier une seule tâche de modèle ou copier plusieurs tâches de modèle en bloc.
 
 1. Accédez au modèle contenant la tâche de modèle ou les tâches de modèle à copier.
 1. Cliquez sur **Tâches de modèle** dans le panneau de gauche.
@@ -165,7 +166,6 @@ La zone Copier la tâche de modèle s’ouvre.
     </tbody> 
    </table>
 
-(À PROPOS DE LA DERNIÈRE LIGNE : LA TÂCHE DE MODÈLE NE SEMBLE PAS COMPORTER DE &quot;PARTAGE&quot;)
 
 1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, sélectionnez la tâche de modèle dans le modèle de destination que vous souhaitez devenir le parent de la tâche de modèle copiée.
 
@@ -191,8 +191,7 @@ La zone Copier la tâche de modèle s’ouvre.
 
 ## Déplacer les tâches de modèle
 
-Outre la copie de tâches de modèle, vous pouvez également déplacer une tâche de modèle vers une autre tâche de modèle dans le même modèle ou vers un autre modèle.
-
+Vous pouvez déplacer une tâche de modèle vers une autre tâche de modèle dans le même modèle ou vers un autre modèle. Vous pouvez déplacer une ou plusieurs tâches de modèle en bloc.
 
 1. Accédez au modèle contenant la tâche de modèle ou les tâches de modèle à déplacer.
 1. Cliquez sur **Tâches de modèle** dans le panneau de gauche.
@@ -300,7 +299,6 @@ La zone Déplacer la tâche de modèle s’affiche.
     </tbody> 
    </table>
 
-(À PROPOS DE LA DERNIÈRE LIGNE : LA TÂCHE DE MODÈLE NE SEMBLE PAS COMPORTER DE &quot;PARTAGE&quot;)
 
 1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, sélectionnez la tâche de modèle dans le modèle de destination que vous souhaitez devenir le parent de la tâche de modèle déplacée.
 

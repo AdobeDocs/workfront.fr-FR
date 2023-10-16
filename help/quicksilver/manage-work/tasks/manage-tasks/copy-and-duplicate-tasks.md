@@ -6,9 +6,9 @@ description: Vous pouvez copier une tâche d’un projet vers un autre projet ou
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1717'
 ht-degree: 1%
 
 ---
@@ -85,30 +85,18 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 Tenez compte des points suivants lors de la copie d’une tâche :
 
-* Les jalons sont transférés à la tâche copiée et supprimés de la tâche d’origine.
 * Lorsque vous copiez une tâche d’un projet vers un autre, les dates de la tâche peuvent être recalculées. Le nouveau calcul prendra en compte le planning utilisé par le nouveau projet, ainsi que les informations de planification de projet.
-* Transférer les sous-tâches vers la nouvelle tâche.
 * Les formulaires personnalisés sont copiés avec la tâche. Les informations contenues dans les champs personnalisés ne sont transférées aux tâches copiées que lorsque vous choisissez de copier les données personnalisées lors de la copie de la tâche.
 * Vous avez la possibilité de choisir de copier certains éléments associés à la tâche dans la tâche copiée au cours du processus de copie. Cependant, par défaut, les objets suivants ne sont pas transférés vers la tâche copiée :
    * Problèmes
    * Heures consignées
-   * Commentaires des utilisateurs <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+   * Commentaires des utilisateurs <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+* Par défaut, les éléments suivants sont déplacés vers la tâche copiée :
 
-Vous pouvez copier une tâche dans les zones suivantes de l’application web Adobe Workfront :
+   * Les jalons sont transférés à la tâche copiée et supprimés de la tâche d’origine.
+   * Transférer les sous-tâches vers la nouvelle tâche.
 
-* Au niveau de la tâche, à partir de la fonction **Icône Plus** ![](assets/qs-more-menu-19x7.png) à droite du nom de la tâche.
-
-  Pour plus d’informations, voir [Copier une tâche au niveau de la tâche](#copy-a-task-at-the-task-level) dans cet article.
-
-* Dans une liste de tâches, effectuez l’une des opérations suivantes :
-
-   * Cliquez avec le bouton droit sur le nom d’une tâche.
-   * Sélectionnez la ou les tâches et développez la **Plus** icon ![](assets/more-icon-task-list.png) en haut de la liste des tâches.
-   * Sélectionnez une tâche et développez l’objet **Plus** icon ![](assets/more-icon-task-list.png) en regard du nom de la tâche.
-
-     Cette option n’est pas disponible lors de la sélection de plusieurs tâches.
-
-  Pour plus d’informations, voir [Copier des tâches dans une liste](#copy-tasks-in-a-list) dans cet article.
+* Vous pouvez copier une tâche à la fois ou copier plusieurs tâches à la fois lorsque vous modifiez des tâches dans une liste.
 
 ## Copier des tâches dans une liste {#copy-tasks-in-a-list}
 
@@ -118,7 +106,7 @@ Vous pouvez copier une tâche dans les zones suivantes de l’application web Ad
 
    Accédez à un rapport de tâche.
 
-1. Cliquez sur **Tâche** dans le panneau de gauche.
+1. (Conditionnel) Cliquez sur **Tâche** dans le panneau de gauche, si vous avez ouvert le projet qui contient les tâches.
 1. Cliquez sur le bouton **Menu du mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , puis **Enregistrement automatique**.
 
    >[!IMPORTANT]
@@ -129,24 +117,22 @@ Vous pouvez copier une tâche dans les zones suivantes de l’application web Ad
 
    * Cliquez sur le bouton **Plus de menu** en haut de la liste des tâches, puis cliquez sur **Copier vers**.
    * Cliquez avec le bouton droit sur les tâches sélectionnées, puis cliquez sur **Copier vers**.
-   * Lorsque vous sélectionnez une tâche, cliquez sur le bouton **Plus** menu ![](assets/more-icon-task-list.png) en regard du nom de la tâche dans la liste, puis cliquez sur **Copier vers**.
+   * Lorsque vous sélectionnez une tâche, cliquez sur le bouton **Plus** menu ![](assets/more-icon-task-list.png) en regard du nom de la tâche dans la liste, puis cliquez sur **Copier vers**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Poursuivez la copie de la tâche, comme décrit dans la section . [Copier une tâche au niveau de la tâche](#copy-a-task-at-the-task-level) à partir de l’étape 4.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+      (NOTE: is this still accurate?!)
    -->
 
 ## Copier une tâche au niveau de la tâche {#copy-a-task-at-the-task-level}
 
-Outre la copie de tâches dans une liste de tâches, vous pouvez également copier une tâche une fois que vous l’avez ouverte. 
+Outre la copie de tâches dans une liste de tâches, vous pouvez également copier une tâche une fois que vous l’avez ouverte.
 
 1. Recherchez une tâche dans votre système Workfront en la recherchant.
-1. Cliquez sur le nom de la tâche pour l’ouvrir. 
+1. Cliquez sur le nom de la tâche pour l’ouvrir.
 1. Cliquez sur le bouton **Plus** menu déroulant ![](assets/qs-more-menu.png) en regard du nom de la tâche, puis cliquez sur **Copier** **to**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
@@ -161,7 +147,7 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Saisissez le nom du **Projet de destination** où vous souhaitez copier la tâche dans le **Sélectionner le projet de destination** champ . 
+1. Saisissez le nom du **Projet de destination** où vous souhaitez copier la tâche dans le **Sélectionner le projet de destination** champ .
 
    >[!TIP]
    >
@@ -171,20 +157,20 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
 
    Le nom actuel du projet s’affiche par défaut. Si vous souhaitez copier la tâche dans le même projet, laissez ce champ inchangé.
 
-1. (Conditionnel) Cliquez sur **accès aux demandes** pour demander l’accès au projet, si vous n’avez pas accès au projet sélectionné.
+1. (Conditionnel) Cliquez sur **accès aux demandes** pour demander l’accès au projet, si vous n’avez pas accès au projet sélectionné.
 1. (Conditionnel) Continuez à copier la tâche vers le projet de destination sélectionné sans demander l’accès si vous avez accès à l’une des tâches du projet de destination.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Des messages similaires s’affichent si le projet sélectionné est en attente d’approbation, terminé ou mort, lorsque l’administrateur de Workfront empêche l’ajout de tâches à ces projets. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Des messages similaires s’affichent si le projet sélectionné est en attente d’approbation, terminé ou mort, lorsque l’administrateur de Workfront empêche l’ajout de tâches à ces projets. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Cliquez sur **Options** dans le panneau de gauche, désélectionnez les attributs de tâche que vous ne souhaitez pas copier avec la tâche. Toutes les options sont sélectionnées par défaut.
+1. Cliquez sur **Options** dans le panneau de gauche, désélectionnez les attributs de tâche que vous ne souhaitez pas copier avec la tâche. Toutes les options sont sélectionnées par défaut.
 
    >[!TIP]
    >
-   Sélection puis désélection **Tout sélectionner** désélectionne toutes les options.
+   >Sélection puis désélection **Tout sélectionner** désélectionne toutes les options.
 
    Désélectionnez les options suivantes pour ne pas les transférer vers la tâche copiée. Le tableau suivant décrit ce qui se produit lorsque les options sont désélectionnées :
 
@@ -239,24 +225,24 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
     </tbody> 
    </table>
 
-1.  (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, sélectionnez la tâche dans le projet de destination que vous souhaitez devenir le parent de la tâche copiée.
+1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, sélectionnez la tâche dans le projet de destination que vous souhaitez devenir le parent de la tâche copiée.
 
-   >[!TIP]
-   >
-   Lorsque vous choisissez de copier plusieurs tâches dans une liste, toutes les tâches sélectionnées deviennent les enfants du parent sélectionné.
+>[!TIP]
+>
+>Lorsque vous choisissez de copier plusieurs tâches dans une liste, toutes les tâches sélectionnées deviennent les enfants du parent sélectionné.
 
-   Sélectionnez un parent en effectuant l’une des opérations suivantes :
+Sélectionnez un parent en effectuant l’une des opérations suivantes :
 
-   * Dans la liste des tâches, sélectionnez l’un des parents du plan de projet.
-   * Cliquez sur l’icône de recherche ![Icône Rechercher](assets/search-icon.png) et recherchez une tâche parente par nom.
+* Dans la liste des tâches, sélectionnez l’un des parents du plan de projet.
+* Cliquez sur l’icône de recherche ![Icône Rechercher](assets/search-icon.png) et recherchez une tâche parente par nom.
 
-   La tâche doit apparaître dans la liste.
+La tâche doit apparaître dans la liste.
 
-   ![Sélectionner une tâche parente lors du déplacement d’une tâche avec une fonctionnalité de recherche ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+![Sélectionner une tâche parente lors du déplacement d’une tâche avec une fonctionnalité de recherche ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. Sélectionnez le bouton radio du parent une fois que vous l’avez trouvé. 
+1. Sélectionnez le bouton radio du parent une fois que vous l’avez trouvé.
 
-   Si vous ne sélectionnez pas de tâche parent, les tâches sont copiées en tant que tâches principales plutôt que sous-tâches et elles seront placées à la fin de la liste des tâches sur le projet de destination. 
+   Si vous ne sélectionnez pas de tâche parent, les tâches sont copiées en tant que tâches principales plutôt que sous-tâches et elles seront placées à la fin de la liste des tâches sur le projet de destination.
 
 1. Cliquez sur **Copier la tâche**
 
@@ -275,7 +261,6 @@ Vous pouvez rapidement dupliquer une tâche dans une liste de tâches, si vous a
 ### Considérations relatives à la duplication de tâches {#considerations-for-duplicating-tasks}
 
 * Vous ne pouvez dupliquer une tâche dans une liste de tâches que lorsque la liste est triée par numéro de tâche.
-
 * La nouvelle tâche porte le même nom que la tâche d’origine.
 * Vous ne pouvez pas sélectionner les informations qui sont dupliquées vers la nouvelle tâche. Presque toutes les informations de la tâche d’origine seront transférées par défaut à la tâche dupliquée, y compris la relation parent.
 * Les éléments suivants ne sont pas transférés vers la nouvelle tâche :
@@ -285,10 +270,12 @@ Vous pouvez rapidement dupliquer une tâche dans une liste de tâches, si vous a
    * Problèmes
    * Seuls les prédécesseurs appartenant au même groupe de tâches copiées sont également copiés avec leurs tâches de remplacement.
 
-     **Exemple :** Par exemple, si vous copiez simultanément la tâche 2 et son prédécesseur, la tâche 1, vous disposez d’une copie de la tâche 2 et d’une copie de la tâche 1. La copie de la tâche 1 sera le prédécesseur de la copie de la tâche 2. Mais si vous copiez uniquement la tâche 2 sans copier son prédécesseur, sa copie n’aura pas de prédécesseur.
+     **EXEMPLE**
+
+     Par exemple, si vous copiez simultanément la tâche 2 et son prédécesseur, la tâche 1, vous disposez d’une copie de la tâche 2 et d’une copie de la tâche 1. La copie de la tâche 1 sera le prédécesseur de la copie de la tâche 2. Mais si vous copiez uniquement la tâche 2 sans copier son prédécesseur, sa copie n’aura pas de prédécesseur.
 
 * Lorsque vous dupliquez une tâche parent, toutes les tâches enfants sont également dupliquées, même si les tâches enfants ne sont pas sélectionnées.
-* Vous pouvez dupliquer plusieurs tâches en même temps.
+* Vous pouvez dupliquer une ou plusieurs tâches en même temps.
 
   Cependant, vous ne pouvez pas dupliquer plusieurs tâches qui ne sont pas séquentielles en même temps.
 
@@ -312,4 +299,4 @@ Vous pouvez rapidement dupliquer une tâche dans une liste de tâches, si vous a
 
       1. Cliquez sur **Enregistrer** pour enregistrer vos modifications.
 
-   1. Editer les tâches dans une liste
+         Les tâches sont dupliquées et ajoutées au même projet que les tâches d’origine.
