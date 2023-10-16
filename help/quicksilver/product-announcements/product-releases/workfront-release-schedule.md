@@ -7,9 +7,9 @@ description: L’environnement Aperçu est mis à jour une fois par semaine avec
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Les sorties ont généralement lieu aux alentours de 20 h à 22 h, heure des Roc
 
 Adobe Workfront dispose de deux modèles pour la publication de nouvelles fonctionnalités et mises à jour. Votre entreprise peut choisir de recevoir les nouvelles fonctionnalités tous les trimestres ou selon un calendrier de publication plus rapide.
 
-Les mises à jour mensuelles et trimestrielles sont prévues pour le dernier jeudi du mois. Les sorties ont généralement lieu aux alentours de 20 h à 22 h, heure des Rocheuses.
+Les mises à jour mensuelles et trimestrielles sont prévues pour le dernier jeudi du mois. Les sorties ont généralement lieu aux alentours de 20 h à 22 h (heure des Rocheuses) la veille.
 
 En règle générale, les fonctionnalités de l’aperçu sont mises à disposition dans votre environnement de production avec la prochaine version. Cependant, dans certains cas, des fonctionnalités sont disponibles dans l’environnement de production en dehors d’une version planifiée. Ces modifications restent dans Aperçu pendant un minimum de 2 semaines afin que vous ayez le temps de vous familiariser avec les modifications. Ces modifications sont également communiquées par le biais du Centre d’annonces au moment de leur ajout à la fonction Aperçu.
 

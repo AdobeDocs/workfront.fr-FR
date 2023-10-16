@@ -6,9 +6,9 @@ description: En tant que gestionnaire de ressources, vous pouvez affecter du tra
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '2808'
+source-wordcount: '2807'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Vous devez disposer des éléments suivants :
 
 Les affectations utilisateur sont des quantités d’heures qui indiquent le temps qu’un utilisateur doit consacrer à un jour, un jour de semaine, une semaine ou un mois donné pour terminer l’élément de travail. Elles sont incluses dans les heures planifiées de l’élément de travail.
 
-Cet article décrit comment mettre à jour les affectations horaires quotidiennes, hebdomadaires ou mensuelles pour les utilisateurs affectés à des tâches ou des problèmes. Pour plus d’informations sur la gestion des affectations globales pour les utilisateurs et les rôles de tâche pour les tâches, voir [Gestion des heures d’affectation des utilisateurs et des rôles pour les tâches](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+Cet article décrit comment mettre à jour les affectations horaires quotidiennes, hebdomadaires ou mensuelles pour les utilisateurs affectés à des tâches ou des problèmes. Pour plus d’informations sur la gestion des affectations globales pour les utilisateurs et les rôles de tâche pour les tâches, voir [Gestion des heures d’affectation des utilisateurs et des rôles pour les tâches](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 * [Présentation de l’affectation des utilisateurs](#user-allocation-overview)
 * [Critères qui réinitialisent les attributions d’utilisateurs](#criteria-that-reset-user-allocations)
@@ -95,10 +95,7 @@ Tenez compte des points suivants lorsque vous localisez des allocations quotidie
 >
 >Workfront calcule l&#39;allocation des 2 heures sur les 2 jours de la durée à l&#39;aide de la formule suivante :
 >
->```
->
->   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
->```
+>`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
 >
 >  Dans notre exemple, les heures d’affectation quotidiennes pour chaque jour sont les suivantes :
 >   
@@ -107,8 +104,6 @@ Tenez compte des points suivants lorsque vous localisez des allocations quotidie
 >  (2 / 13) * 8 = 1,23 heures d’affectation pour le deuxième jour
 >
 >  Dans les calculs ci-dessus, 13 est le total des heures disponibles pour la tâche : 5 + 8 = 13
-
-
 
 * Deux utilisateurs dans des fuseaux horaires ou des planifications différents dans des fuseaux horaires différents de ceux des utilisateurs affectés peuvent faire apparaître les montants d’attribution différemment à deux utilisateurs qui visualisent les mêmes tâches.
 
@@ -178,7 +173,7 @@ Tenez compte des points suivants lors de l’affichage des heures planifiées da
 Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifier les affectations des utilisateurs dans l’équilibreur de charge de travail afin de vous assurer qu’ils ne sont jamais surchargés ou de garantir un équilibre précis des heures entre vos ressources. Pour plus d’informations sur l’identification d’un utilisateur surchargé, voir la section [Présentation de l’affectation des utilisateurs](#user-allocation-overview) dans cet article.
 
 1. Assurez-vous que des tâches et des problèmes sont affectés aux utilisateurs. Pour plus d’informations sur l’affectation de travail aux utilisateurs dans l’équilibreur de charge de travail, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-1. Accédez à l’ équilibreur de charge de travail .
+1. Accédez à l’équilibreur de charge de travail.
 1. (Facultatif) Cliquez sur **Semaine** ou **Mois** pour gérer les affectations hebdomadaires ou mensuelles pour les utilisateurs.
 
    ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
@@ -199,9 +194,9 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
 
 1. (Facultatif) Cliquez sur le **Paramètres** icon ![](assets/gear-icon-settings.png) et sélectionnez l’une des options suivantes :
 
-   1. **Inclure les heures des événements**. Cela vous permet de gérer les affectations de problèmes en plus des affectations de tâches.
-   1. **Afficher le travail terminé** . Cette option affiche les éléments qui ont été terminés et qui sont programmés pendant la chronologie pour laquelle vous gérez les affectations.
-   1. **Afficher le temps restant** . Le nombre total d’heures pour chaque utilisateur (dans la ligne de l’utilisateur) change. Lorsque ce paramètre est activé, l’équilibreur de charge de travail affiche les heures disponibles pour chaque utilisateur au lieu du nombre d’heures qui lui sont allouées.
+   1. **Inclure les heures des événements**. Cela vous permet de gérer les affectations de problèmes en plus des affectations de tâches.
+   1. **Afficher le travail terminé**. Cette option affiche les éléments qui ont été terminés et qui sont programmés pendant la chronologie pour laquelle vous gérez les affectations.
+   1. **Afficher le temps restant**. Le nombre total d’heures pour chaque utilisateur (dans la ligne de l’utilisateur) change. Lorsque ce paramètre est activé, l’équilibreur de charge de travail affiche les heures disponibles pour chaque utilisateur au lieu du nombre d’heures qui lui sont allouées.
 
       >[!TIP]
       >
@@ -213,7 +208,6 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
       >[!NOTE]
       >
       >L’administrateur de Workfront décide de la planification à utiliser sur l’ensemble de votre système pour calculer la capacité de l’utilisateur dans la zone Gestion des ressources de la configuration. Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
 
 1. Cliquez sur le bouton **Plus** menu ![](assets/qs-more-menu.png) pour une tâche, puis cliquez sur **Modifier les attributions**.
 
