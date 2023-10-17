@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
 source-wordcount: '2828'
 ht-degree: 2%
@@ -406,6 +406,7 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur. <!-
    >[!NOTE]
    >
    >    Si vous sélectionnez Autoriser plusieurs valeurs et que plusieurs utilisateurs sont stockés dans les enregistrements auxquels le champ est associé, vous ne pouvez plus désélectionner le paramètre à l’avenir lors de la modification de ce champ.
+
 1. Cliquez sur **Créer**.
 
    Le nouveau champ Type de personne est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.

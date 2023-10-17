@@ -6,9 +6,9 @@ description: Vous pouvez copier une tâche d’un projet vers un autre projet ou
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,9 @@ Tenez compte des points suivants lors de la copie d’une tâche :
    Accédez à un rapport de tâche.
 
 1. (Conditionnel) Cliquez sur **Tâche** dans le panneau de gauche, si vous avez ouvert le projet qui contient les tâches.
-1. Cliquez sur le bouton **Menu du mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , puis **Enregistrement automatique**.
+1. Cliquez sur le bouton **Mode Plan** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png), et assurez-vous que la variable **Enregistrement automatique** est activée.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,22 +229,22 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
 
 1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, sélectionnez la tâche dans le projet de destination que vous souhaitez devenir le parent de la tâche copiée.
 
->[!TIP]
->
->Lorsque vous choisissez de copier plusieurs tâches dans une liste, toutes les tâches sélectionnées deviennent les enfants du parent sélectionné.
+   >[!TIP]
+   >
+   >Lorsque vous choisissez de copier plusieurs tâches dans une liste, toutes les tâches sélectionnées deviennent les enfants du parent sélectionné.
 
-Sélectionnez un parent en effectuant l’une des opérations suivantes :
+   Sélectionnez un parent en effectuant l’une des opérations suivantes :
 
-* Dans la liste des tâches, sélectionnez l’un des parents du plan de projet.
-* Cliquez sur l’icône de recherche ![Icône Rechercher](assets/search-icon.png) et recherchez une tâche parente par nom.
+   * Dans la liste des tâches, sélectionnez l’un des parents du plan de projet.
+   * Cliquez sur l’icône de recherche ![Icône Rechercher](assets/search-icon.png) et recherchez une tâche parente par nom.
 
-La tâche doit apparaître dans la liste.
+   La tâche s’affiche dans la liste.
 
-![Sélectionner une tâche parente lors du déplacement d’une tâche avec une fonctionnalité de recherche ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Sélectionner une tâche parente lors du déplacement d’une tâche avec une fonctionnalité de recherche ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Sélectionnez le bouton radio du parent une fois que vous l’avez trouvé.
 
-   Si vous ne sélectionnez pas de tâche parent, les tâches sont copiées en tant que tâches principales plutôt que sous-tâches et elles seront placées à la fin de la liste des tâches sur le projet de destination.
+   Si vous ne sélectionnez pas de tâche parent, les tâches sont copiées en tant que tâches principales plutôt que sous-tâches et elles sont placées à la fin de la liste des tâches sur le projet de destination.
 
 1. Cliquez sur **Copier la tâche**
 
@@ -287,11 +289,11 @@ Vous pouvez rapidement dupliquer une tâche dans une liste de tâches, si vous a
 1. Cliquez sur **Tâche** dans le panneau de gauche.
 1. Utilisez l’une des méthodes suivantes :
 
-   * (Conditionnel) Cliquez sur le bouton **Menu du mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Enregistrement automatique**, sélectionnez les tâches à dupliquer, puis cliquez sur le bouton **Plus de menu** ![](assets/qs-more-menu-29x11.png) > **Dupliquer**.
+   * (Conditionnel) Cliquez sur le bouton **Mode Plan** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) et assurez-vous que **Enregistrement automatique** est activée, sélectionnez les tâches à dupliquer, puis cliquez sur le bouton **Plus de menu** ![](assets/qs-more-menu-29x11.png) > **Dupliquer**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Conditionnel) Cliquez sur le bouton **Menu du mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Enregistrement manuel** > **Standard** ou **Planification chronologique**, puis procédez comme suit :
+   * (Conditionnel) Cliquez sur le bouton **Mode Plan** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Enregistrement manuel** > **Standard** ou **Planification chronologique**, puis procédez comme suit :
 
       1. Sélectionnez la ou les tâches à dupliquer, puis cliquez sur **Dupliquer**.
       1. (Facultatif) Cliquez sur **Annuler** pour annuler vos modifications et ne pas dupliquer les tâches.

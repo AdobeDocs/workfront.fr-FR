@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contacter le service clientèle
-description: Contacter le service clientèle
+description: En tant que client Adobe Workfront, vous pouvez contacter l’équipe d’assistance clientèle de Workfront par téléphone ou en envoyant un ticket en ligne.
 feature: Get Started with Workfront
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-Comme [!DNL Adobe Workfront] vous pouvez contacter le [!DNL Workfront] L’équipe d’assistance clientèle par téléphone ou en envoyant un ticket en ligne.
+Comme [!DNL Adobe Workfront] client, vous pouvez contacter le [!DNL Workfront] L’équipe d’assistance clientèle par téléphone ou en envoyant un ticket en ligne.
 
 >[!NOTE]
 >
@@ -28,9 +28,9 @@ Comme [!DNL Adobe Workfront] vous pouvez contacter le [!DNL Workfront] L’équi
 
 Vous pouvez contacter [!DNL Workfront Customer Support] 7 jours par semaine, 24 heures par jour, avec les numéros suivants :
 
-* US : 844-306-HELP(4357)
+* États-Unis : 844-306-HELP(4357)
 * EMEA : +44 1256 274200
-* Australie : +61 1800 849259
+* Australie : +61 1 800 849259
 
 ## Web
 
@@ -47,13 +47,13 @@ Vous pouvez envoyer un ticket d’assistance depuis le libre-service. [!DNL Expe
 
    Sur la page d’accueil de l’assistance, vous pouvez facilement accéder à vos dossiers d’assistance ouverts, enregistrer un nouveau cas, afficher les principaux articles de l’assistance ou accéder à des sources d’apprentissage supplémentaires.
 
-1. Pour soumettre un dossier, sélectionnez l’option &quot;[!UICONTROL Ouvrir un cas de support]&quot;, puis cliquez sur **[!UICONTROL Sign] Dans**.
+1. Pour soumettre un dossier, sélectionnez l’option **[!UICONTROL Ouvrir un cas de support]**, puis cliquez sur **[!UICONTROL Sign] Dans**.
 
 1. Cliquez sur **[!UICONTROL Cas d’ouverture]** dans la barre latérale gauche.
 
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 
-   Le [!UICONTROL création de cas] s’ouvre, où vous pouvez saisir votre nom de produit ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), le titre et la description du cas.
+   La variable [!UICONTROL création de cas] s’ouvre, où vous pouvez saisir votre nom de produit ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), le titre et la description du cas.
 
    >[!TIP]
    >
@@ -69,7 +69,7 @@ Vous pouvez envoyer un ticket d’assistance depuis le libre-service. [!DNL Expe
 
 1. Téléchargez les fichiers appropriés, puis cliquez sur **[!UICONTROL Cas d’envoi]**.
 
-   Le [!UICONTROL Mes cas] s’affiche.
+   La variable [!UICONTROL Mes cas] s’affiche.
 
    ![](assets/all-cases-list-exl-support-portal.png)
 
@@ -79,9 +79,9 @@ Vous pouvez envoyer un ticket d’assistance depuis le libre-service. [!DNL Expe
    >
    >Vous pouvez également accéder au [!UICONTROL Mes cas] en cliquant sur **[!UICONTROL Mes cas]** dans la barre latérale gauche.
 
-1. Sur le [!UICONTROL Mes cas] , utilisez les options situées en haut de la page pour filtrer par Produit ([!DNL Experience Cloud] solution) ou cas [!UICONTROL État] (ouvert ou fermé). Vous pouvez également utiliser la variable [!UICONTROL search] pour rechercher des mots-clés relatifs à vos cas d’assistance.
+1. Sur le **[!UICONTROL Mes cas]** , utilisez les options situées en haut de la page pour filtrer par **Produit ([!DNL Experience Cloud] solution)** ou cas **[!UICONTROL État]** (Ouverture ou fermeture). Vous pouvez également utiliser la variable [!UICONTROL search] pour rechercher des mots-clés relatifs à vos cas d’assistance.
 
-1. Pour afficher plus de détails sur un cas, cliquez sur le bouton **Numéro de cas** pour y accéder. Le [!UICONTROL cas] La vue s’ouvre.
+1. Pour afficher plus de détails sur un cas, cliquez sur le bouton **Numéro de cas** pour y accéder. La variable [!UICONTROL cas] La vue s’ouvre.
 
 1. Dans le [!UICONTROL cas] consultez les derniers commentaires avec le propriétaire du dossier assigné et ajoutez des pièces jointes ou des réponses supplémentaires.
 

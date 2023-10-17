@@ -6,9 +6,9 @@ description: Vous pouvez copier ou déplacer une tâche de modèle vers le même
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2127'
 ht-degree: 3%
 
 ---
@@ -50,21 +50,33 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 ## Observations relatives à la copie ou au déplacement de tâches de modèle
 
-Tenez compte des points suivants lors de la copie d’une tâche de modèle :
+Tenez compte des points suivants lors de la copie de tâches de modèle :
+
+* Les informations suivantes ne sont pas transférées vers la tâche copiée :
+
+   * Jalons
+
+* Vous avez la possibilité de choisir de copier certains éléments associés à la tâche de modèle dans la tâche copiée au cours du processus de copie. Cependant, par défaut, les objets suivants ne sont pas transférés vers la tâche copiée :
+
+   * Commentaires des utilisateurs
+
+* Les formulaires personnalisés sont copiés avec la tâche de modèle lorsque vous copiez une tâche de modèle. Les informations contenues dans les champs personnalisés ne sont transférées à la nouvelle tâche de modèle que lorsque vous choisissez de copier des données personnalisées.
+
+* Par défaut, les éléments suivants sont transférés vers la tâche de modèle copiée :
+
+   * Sous-tâches
+
+Tenez compte des points suivants lors du déplacement des tâches de modèle :
 
 * Par défaut, les informations suivantes sont transférées vers la tâche déplacée :
 
    * Formulaires personnalisés et informations sur les champs personnalisés.
    * Sous-tâches.
+   * Commentaires des utilisateurs.
 
-* Les informations suivantes ne sont pas transférées vers la tâche déplacée ou copiée :
+* Les informations suivantes ne sont pas transférées vers la tâche déplacée :
 
-   * Les jalons ne sont pas transférés vers la tâche de modèle copiée ou déplacée.
-
-* Vous avez la possibilité de choisir de copier certains éléments associés à la tâche de modèle dans la tâche copiée au cours du processus de copie. Cependant, par défaut, les objets suivants ne sont pas transférés vers la tâche copiée :
-
-   * Commentaires des utilisateurs
-* Les formulaires personnalisés sont copiés avec la tâche de modèle. Les informations contenues dans les champs personnalisés ne sont transférées à la nouvelle tâche de modèle que lorsque vous choisissez de copier des données personnalisées.
+   * Jalons.
 
 ## Copie de tâches de modèle
 

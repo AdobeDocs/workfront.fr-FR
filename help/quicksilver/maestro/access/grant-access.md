@@ -4,19 +4,21 @@ description: Découvrez comment accorder l’accès et partager des informations
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Accorder l’accès à Adobe Maestro
 
 >[!IMPORTANT]
+>
+>Adobe Maestro est une nouvelle offre d’Adobe Workfront.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro est une nouvelle offre d’Adobe Workfront. Pour plus d’informations, voir [Présentation de Maestro](../maestro-overview.md).
 
 Actuellement, tous les utilisateurs de votre entreprise peuvent avoir accès à Maestro, si la condition préalable suivante est en place :
 
@@ -50,9 +50,9 @@ Une fois que votre entreprise a été inscrite au programme bêta Maestro, vous 
 
 Pour partager la zone Maestro à l’aide d’un modèle de disposition :
 
-1. Connectez-vous à Workfront en tant qu’administrateur système.
+1. Connexion à **Workfront** en tant qu’administrateur système.
 
-1. Ajoutez l’icône Maestro au menu principal à l’aide d’un modèle de mise en page.
+1. Ajoutez la variable **Maestro** icon ![](assets/maestro-icon.png) à la fonction **Menu Principal** en utilisant une **Modèle de mise en page**.
 
    Pour plus d’informations, voir [Personnalisation du menu principal à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -63,6 +63,3 @@ Pour partager la zone Maestro à l’aide d’un modèle de disposition :
    Tous les utilisateurs affectés au modèle peuvent désormais accéder à Maestro dans leur menu principal.
 
    Les utilisateurs peuvent commencer à créer des espaces de travail, des types d’enregistrements, des enregistrements et des champs.
-
-
-
