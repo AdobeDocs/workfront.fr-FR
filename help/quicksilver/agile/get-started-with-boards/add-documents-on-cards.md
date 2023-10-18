@@ -6,18 +6,14 @@ description: Vous pouvez ajouter des documents aux cartes connectées sur les pa
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 72197651cc13b8a8509510663d840b76f4b23a4f
+source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # Ajout de documents sur les cartes
-
->[!IMPORTANT]
->
->Cette fonctionnalité est temporairement désactivée dans tous les environnements.
 
 {{article-preview-and-fast-release}}
 
