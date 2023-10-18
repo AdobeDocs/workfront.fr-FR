@@ -4,13 +4,13 @@ description: Une façon d’indiquer comment les types d’enregistrement indivi
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
-
 
 <!-----
 title: Connect record types
@@ -30,6 +30,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
+>
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
@@ -42,6 +44,7 @@ Vous pouvez connecter les éléments suivants :
 
 * Types d’enregistrements opérationnels Maestro
 * Types d’enregistrements opérationnels Maestro par rapport aux types d’enregistrements taxonomiques
+* Types de taxonomie Maestro par rapport aux types d’enregistrements opérationnels
 * Types d’enregistrements opérationnels Maestro et types d’objets provenant d’autres applications.
 
 Vous pouvez ainsi afficher les champs de l’enregistrement ou du type d’objet lié sur un autre enregistrement Maestro.
@@ -250,18 +253,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Champ d’enregistrement lié sur le type d’enregistrement auquel vous êtes lié. Le nom du champ d’enregistrement lié sur le type d’enregistrement lié est le nom du type d’enregistrement à partir duquel vous créez un lien.
 
-     Par exemple, si vous associez le type d’enregistrement &quot;Produit&quot; du type d’enregistrement &quot;Campagne&quot; et que vous nommez le champ connecté de la campagne &quot;Produit lié&quot;, un champ lié &quot;Campagne&quot; est créé pour le type d’enregistrement Produit .
+     Par exemple, si vous associez le type d’enregistrement &quot;Produit&quot; du type d’enregistrement &quot;Campagne&quot; et que vous nommez le champ connecté de la campagne &quot;Produit lié&quot;, un champ d’enregistrement lié &quot;Campagne&quot; est créé pour le type d’enregistrement Produit .
 
-     <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-     >[!NOTE]
-     >
-     >Le champ d’enregistrement lié qui affiche le type d’enregistrement à partir duquel vous êtes lié n’est pas ajouté aux types d’enregistrement lorsque vous connectez un type d’enregistrement avec les éléments suivants : <!--is this temporary for taxonomies??-->
-     >        
-     >   * Une taxonomie.
-     >   * Type d’objet d’une autre application.
-
-1. (Facultatif) Dans la vue table du type d’enregistrement d’origine ou du type d’enregistrement lié, cliquez sur la liste déroulante à droite du champ d’enregistrement lié, puis cliquez sur l’une des options suivantes :
+1. (Facultatif) Dans la vue du tableau du type d’enregistrement d’origine ou du type d’enregistrement lié, cliquez sur la flèche pointant vers le bas dans l’en-tête des champs d’enregistrement liés, puis cliquez sur l’une des options suivantes :
 
    * **Champ Modifier**: vous pouvez uniquement mettre à jour la variable **Nom** et la variable **Description** informations du champ.
    * **Modifier les champs de recherche**: ajoutez ou supprimez l’un des champs de l’enregistrement lié.
@@ -270,11 +264,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Pour ajouter ou supprimer des champs, suivez les instructions des étapes 7 à 12 ci-dessus. <!--ensure these step numbers stay accurate-->
 
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas dans l’en-tête de l’enregistrement lié ou des champs liés, puis cliquez sur **Supprimer**.
+1. (Facultatif) Cliquez sur la flèche pointant vers le bas dans l’en-tête du champ d’enregistrement lié à partir du type d’enregistrement à partir duquel vous liez, puis cliquez sur . **Supprimer**.
 
-   Le champ d&#39;enregistrement et les champs de recherche supplémentaires sont supprimés et les champs et leurs informations ne peuvent pas être récupérés.
+   Le champ d&#39;enregistrement et les autres champs de recherche liés sont supprimés et les champs et leurs informations ne peuvent pas être récupérés.
 
    >[!TIP]
    >
-   >    Le champ d&#39;enregistrement lié sur l&#39;enregistrement lié à l&#39;enregistrement d&#39;origine n&#39;est pas supprimé. <!-- is this still accurate?! -->
-
+   >    Le champ d’enregistrement lié sur le type d’enregistrement auquel vous êtes lié n’est pas supprimé. <!-- is this still accurate?! -->

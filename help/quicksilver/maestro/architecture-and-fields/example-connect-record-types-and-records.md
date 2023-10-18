@@ -4,17 +4,19 @@ description: Cet article décrit comment créer une connexion entre un type d’
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
-
 # Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements
 
 >[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
@@ -193,6 +195,3 @@ Pour ce faire :
    >    Les champs que vous ajoutez à l’enregistrement Gestionnaire de projets Workfront sont uniquement ajoutés à la page Projet Workfront et ne sont pas ajoutés à la page Type d’enregistrement Campaign, en tant que champs liés. Vous devez ajouter les champs du projet à partir du champ Objet connecté des informations du projet du type d’enregistrement Campagne pour les afficher pour les campagnes.
 
 1. (Facultatif et conditionnel) Si vous avez choisi d’afficher au moins deux champs de date pour les projets, cliquez sur le bouton **Affichage** menu déroulant dans le tableau de type d’enregistrement Projet Workfront , puis **Créer une vue** > **Chronologie** > **Créer** pour créer une vue chronologique et afficher les projets sur une chronologie.
-
-
-

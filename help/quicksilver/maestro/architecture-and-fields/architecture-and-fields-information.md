@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # Informations sur l’architecture
 
 >[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >

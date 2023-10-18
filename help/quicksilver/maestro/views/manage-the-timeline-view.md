@@ -4,13 +4,13 @@ description: Vous pouvez afficher les enregistrements dans une vue chronologique
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1093'
 ht-degree: 1%
 
 ---
-
 
 # Gestion du mode Chronologie
 
@@ -27,6 +27,8 @@ role: User
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
@@ -261,5 +263,3 @@ Mettez à jour les paramètres de vue de la chronologie pour indiquer les inform
 1. Cliquer sur **Enregistrer**.
 
    Les enregistrements s’affichent en mode Chronologie avec les spécifications que vous avez sélectionnées.
-
-

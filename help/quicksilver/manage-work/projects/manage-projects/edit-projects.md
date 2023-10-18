@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '7315'
+source-wordcount: '7330'
 ht-degree: 2%
 
 ---
@@ -257,11 +257,11 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td>Indique un Portfolio auquel le projet appartient. Vous devez d’abord créer un Portfolio avant qu’il ne s’affiche dans la liste déroulante. Seuls les principaux portefeuilles peuvent être associés à un projet. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Création d’un portfolio </a>.</td> 
+      <td>Indique un Portfolio auquel le projet appartient. Vous devez d’abord créer un Portfolio avant qu’il ne s’affiche dans la liste déroulante. Seuls les portefeuilles actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Création d’un portfolio </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Programme</strong></td> 
-      <td> <p>Si vous avez sélectionné un Portfolio pour le projet, spécifiez un programme pour le projet. Certains Portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes principaux peuvent être associés à un projet. </p> <p>Pour plus d’informations sur la création de programmes, voir <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p> </td> 
+      <td> <p>Si vous avez sélectionné un Portfolio pour le projet, spécifiez un programme pour le projet. Certains Portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes actifs peuvent être associés à un projet. </p> <p>Pour plus d’informations sur la création de programmes, voir <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Groupe</strong></td> 
@@ -281,16 +281,16 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Entreprise</strong> </td> 
-      <td> <p>Indiquez une société associée au projet. Vous devez créer une société avant de pouvoir l’associer à un projet. Seules les principales entreprises peuvent être associées à un projet. Pour plus d’informations sur la création d’entreprises, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Création et modification d’entreprises</a>.</p> </td> 
+      <td> <p>Indiquez une société associée au projet. Vous devez créer une société avant de pouvoir l’associer à un projet. Seules les entreprises actives peuvent être associées à un projet. Pour plus d’informations sur la création d’entreprises, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Création et modification d’entreprises</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Propriétaire du projet</strong> </td> 
-      <td> <p>Commencez à saisir le nom d’un utilisateur pour l’ajouter au projet, puis sélectionnez-le lorsqu’il s’affiche dans la liste. L’utilisateur est ajouté à l’équipe du projet et se voit attribuer automatiquement les autorisations de gestion du projet. L’utilisateur désigné comme propriétaire du projet doit être un utilisateur principal de Workfront.</p>
+      <td> <p>Commencez à saisir le nom d’un utilisateur pour l’ajouter au projet, puis sélectionnez-le lorsqu’il s’affiche dans la liste. L’utilisateur est ajouté à l’équipe du projet et se voit attribuer automatiquement les autorisations de gestion du projet. L’utilisateur désigné comme propriétaire du projet doit être un utilisateur actif Workfront.</p>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Sponsor du projet</strong> </td> 
-      <td> <p>Commencez à saisir le nom d’un utilisateur pour l’ajouter au projet, puis sélectionnez-le lorsqu’il s’affiche dans la liste. L’utilisateur est ajouté à l’équipe du projet et se voit attribuer automatiquement les autorisations d’affichage du projet. L’utilisateur désigné comme parrain de projet doit être un utilisateur principal de Workfront.<br></p> </td> 
+      <td> <p>Commencez à saisir le nom d’un utilisateur pour l’ajouter au projet, puis sélectionnez-le lorsqu’il s’affiche dans la liste. L’utilisateur est ajouté à l’équipe du projet et se voit attribuer automatiquement les autorisations d’affichage du projet. L’utilisateur désigné comme parrain de projet doit être un utilisateur actif Workfront.<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Gestionnaire des ressources</strong> </td> 
@@ -301,7 +301,7 @@ Certains paramètres mentionnés dans cet article peuvent être modifiés à par
 
    >[!TIP]
    >
-   >Lors de la mise à jour des champs Propriétaire du projet, Parrain du projet et Gestionnaire de ressources, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+   >Lors de la mise à jour des champs Propriétaire du projet, Parrain du projet et Gestionnaire de ressources, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
    >
    >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
    >
@@ -345,7 +345,7 @@ Pour modifier les informations sur les formulaires personnalisés :
 
    >[!NOTE]
    >
-   >Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés apparaissent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
+   >Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les formulaires personnalisés actifs apparaissent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
 
 
 1. (Conditionnel) Si vous avez joint un formulaire personnalisé au projet, modifiez les champs du formulaire. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer le projet.
@@ -442,7 +442,7 @@ Pour modifier les champs de la zone Finance :
       <tbody> 
       <tr> 
       <td role="rowheader"><strong>Chemin jalonné</strong> </td> 
-       <td> <p>Sélectionnez un chemin Milestone pour le projet. Seuls les principaux chemins de jalon s’affichent dans la liste.</p> <p>Pour plus d’informations sur les chemins d’accès Milestone, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Création d’un chemin de jalon</a>.</p> </td> 
+       <td> <p>Sélectionnez un chemin Milestone pour le projet. Seuls les chemins de jalon actifs s’affichent dans la liste.</p> <p>Pour plus d’informations sur les chemins d’accès Milestone, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Création d’un chemin de jalon</a>.</p> </td> 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Mode d'achèvement</strong> </td> 
@@ -457,7 +457,7 @@ Pour modifier les champs de la zone Finance :
        <td> <p>Contrôle la manière dont les tâches parents sont marquées comme étant terminées. Sélectionnez l’une des options suivantes : 
        <ul> 
        <li><strong>Automatique</strong>: les tâches parentes sont marquées comme Terminé et elles mettent à jour leur pourcentage automatiquement, à mesure que les tâches enfants sont terminées et que le pourcentage d’enfants terminés est mis à jour. </li> 
-       <li><strong>Manuel</strong>: vous devez mettre à jour manuellement le pourcentage terminé et l’état des tâches parents, indépendamment des modifications apportées aux tâches enfants.</li> 
+       <li><strong>Manuel</strong>: vous devez mettre à jour manuellement le pourcentage terminé et l’état des tâches parents, indépendamment des modifications apportées aux tâches enfants. Cela vous permet de marquer une tâche parente terminée même si les sous-tâches sont incomplètes. </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -475,16 +475,16 @@ Pour modifier les champs de la zone Finance :
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Congés de l'utilisateur</strong> </td> 
-       <td> <p>Détermine si le délai de désactivation du cessionnaire Principal d’une tâche ajuste les dates planifiées de la tâche sur le projet. </p><p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne la valeur par défaut de ce paramètre pour votre système. <span>ou votre groupe</span>. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p><p>Sélectionnez l’une des options suivantes :<br>- <strong>Tenir compte du temps d’arrêt de l’utilisateur dans les durées de tâche</strong>: lorsque vous sélectionnez cette option, les dates planifiées des tâches s’ajustent en fonction de l’heure de désactivation de la personne désignée Principal de la tâche, si l’heure de désactivation a lieu pendant la durée de la tâche. </p><p>Par exemple, si une tâche avec une contrainte de la date Dès que possible doit commencer le 1er juin et se terminer le 3 juin, et que la personne désignée Principal a le 2 juin marqué comme étant en pause, lorsque cette sélection est activée, les dates prévues de la tâche sont comprises entre le 1er et le 4 juin. Selon la contrainte de tâche, les scénarios suivants existent : </p> 
+       <td> <p>Détermine si le délai de désactivation du cessionnaire Principal d’une tâche ajuste les dates planifiées de la tâche sur le projet. </p><p>Votre administrateur Workfront<span> ou un administrateur de groupe</span> sélectionne la valeur par défaut de ce paramètre pour votre système. <span>ou votre groupe</span>. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p><p>Sélectionnez l’une des options suivantes :<br>- <strong>Tenir compte du temps d’arrêt de l’utilisateur dans les durées de tâche</strong>: lorsque vous sélectionnez cette option, les dates planifiées des tâches s’ajustent en fonction de l’heure de désactivation du Principal cessionnaire de la tâche, si l’heure de désactivation se produit pendant la durée de la tâche. </p><p>Par exemple, si une tâche avec une contrainte de la date Dès que possible doit commencer le 1er juin et se terminer le 3 juin, et que la personne désignée par le Principal a le 2 juin marqué pour le délai dépassé, lorsque cette sélection est activée, les dates prévues de la tâche sont comprises entre le 1er et le 4 juin. Selon la contrainte de tâche, les scénarios suivants existent : </p> 
        <ul> 
        <li>Pour les contraintes de tâche liées à la planification à partir d’une date de début (dès que possible, l’heure disponible la plus tôt, le début le plus tôt possible, le début le plus tard, le début le plus tard), la date de début planifiée ne change pas, mais la date de fin planifiée change.</li> 
        <li>Pour les contraintes de tâche liées à la planification à partir d’une date d’achèvement (Aussi tard que possible, heure disponible la plus récente, Terminer au plus tôt, Terminer au plus tard, Doit se terminer le), la date d’achèvement planifiée ne change pas, mais la date de début planifiée change.</li> 
        <li>Pour les tâches avec une contrainte de dates fixes, ni la date de début planifiée ni la date de fin ne changent. </li> 
-       </ul><p>La Durée de la tâche ne change pas lorsque vous sélectionnez ce paramètre. Seules les dates planifiées changent, en fonction de la contrainte de tâche. Pour plus d’informations sur la contrainte de tâche, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Présentation de la contrainte de tâche</a>. </p><p>- <strong>Ignorer le temps d’arrêt des utilisateurs dans les durées de tâche</strong>: lorsque vous sélectionnez cette option, les dates planifiées des tâches du projet restent telles que prévues initialement, même si le cessionnaire Principal de la tâche a expiré pendant la durée de la tâche. </p><p>Tenez compte des points suivants lors de la sélection des options de ce paramètre :</p> 
+       </ul><p>La Durée de la tâche ne change pas lorsque vous sélectionnez ce paramètre. Seules les dates planifiées changent, en fonction de la contrainte de tâche. Pour plus d’informations sur la contrainte de tâche, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Présentation de la contrainte de tâche</a>. </p><p>- <strong>Ignorer le temps d’arrêt des utilisateurs dans les durées de tâche</strong>: lorsque vous sélectionnez cette option, les dates planifiées des tâches du projet restent telles que prévues initialement, même si le cessionnaire Principal de la tâche est en congé pendant la durée de la tâche. </p><p>Tenez compte des points suivants lors de la sélection des options de ce paramètre :</p> 
        <ul> 
        <li><p>L’option par défaut de ce paramètre pour un nouveau projet est la même que la préférence de projet au niveau du système. </p><p>Pour plus d’informations sur les préférences du projet au niveau du système, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p></li> 
        <li>Lorsque vous joignez un modèle à un projet existant, le paramètre du projet est mis à jour pour correspondre à celui du modèle. </li> 
-       <li><p>Workfront décide des dates de tâche planifiées à ajuster en fonction de la valeur Contrainte de tâche de la tâche. En fonction de ce qui se passe, le début planifié ou la date d’achèvement prévu, ou les deux, peuvent être affectés, ou peuvent même rester identiques. Par exemple, si une tâche présente une contrainte de dates fixes, les dates ne s’ajustent pas lorsque le cessionnaire Principal a un délai d’expiration, même lorsque <strong>Tenir compte du temps d’arrêt de l’utilisateur dans les durées de tâche</strong> est sélectionnée. </p></li> 
+       <li><p>Workfront décide des dates de tâche planifiées à ajuster en fonction de la valeur Contrainte de tâche de la tâche. En fonction de ce qui se passe, le début planifié ou la date d’achèvement prévu, ou les deux, peuvent être affectés, ou peuvent même rester identiques. Par exemple, si une tâche comporte une contrainte de dates fixes, les dates ne s’ajustent pas lorsque le cessionnaire Principal a un délai de pause, même lorsque <strong>Tenir compte du temps d’arrêt de l’utilisateur dans les durées de tâche</strong> est sélectionnée. </p></li> 
        </ul></td> 
       </tr> 
       <tr> 
@@ -525,7 +525,7 @@ Pour modifier les champs de la zone Finance :
        <td role="rowheader"><strong>Processus d'approbation</strong></td> 
        <td> <p>Sélectionnez le processus d’approbation à associer au projet. Votre administrateur Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer aux projets. <span>Un utilisateur disposant d’un accès administratif aux processus de validation peut également créer des processus de validation spécifiques à un groupe.</span> Pour plus d’informations sur la création de processus de validation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les tâches</a>.</p> <p>Tenez compte des points suivants lors de l’ajout de processus de validation : </p> 
        <ul> 
-       <li>Seuls les principaux processus de validation s'affichent dans la liste. </li> 
+       <li>Seuls les processus de validation actifs s'affichent dans la liste. </li> 
        <li> <p>Les processus de validation à l’échelle du système et spécifiques aux groupes s’affichent dans la liste. Un processus de validation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> <p>Si le groupe associé au projet change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
        <p>Lors de la modification en masse de projets, les scénarios suivants se présentent :</p> 
        <ul> 
@@ -558,14 +558,14 @@ Pour plus d’informations sur l’impact de ces paramètres sur la création de
 
 1. Dans le **Processus d’approbation par défaut de la tâche** sélectionnez la tâche Processus d’approbation que vous souhaitez associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet.
 
-   L’administrateur de Workfront (ou un utilisateur disposant d’un accès administratif aux processus de validation) doit créer un processus d’approbation au niveau du système pour une tâche avant de pouvoir l’associer à un projet. Seuls les principaux processus de validation s&#39;affichent dans la liste. Pour plus d’informations sur la création de processus de validation, voir [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir [Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+   L’administrateur de Workfront (ou un utilisateur disposant d’un accès administratif aux processus de validation) doit créer un processus d’approbation au niveau du système pour une tâche avant de pouvoir l’associer à un projet. Seuls les processus de validation actifs s&#39;affichent dans la liste. Pour plus d’informations sur la création de processus de validation, voir [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir [Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
    Lors de la modification en masse de projets, les scénarios suivants se présentent :
 
    * Lorsque vous sélectionnez plusieurs projets d’un même groupe, les processus d’approbation des tâches au niveau du système et spécifiques au groupe s’affichent dans ce champ.
    * Lorsque vous sélectionnez plusieurs projets de différents groupes, seuls les processus d’approbation des tâches au niveau du système s’affichent dans ce champ.
 
-1. Dans le **Task Default Custom Forms** sélectionnez le ou les formulaires personnalisés à associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
+1. Dans le **Task Default Custom Forms** sélectionnez le ou les formulaires personnalisés à associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les formulaires personnalisés actifs s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
 1. (Facultatif) Sélectionnez **Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche** si vous souhaitez activer la gestion de l’effort de tâche en utilisant Effort de travail au lieu des Heures planifiées.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

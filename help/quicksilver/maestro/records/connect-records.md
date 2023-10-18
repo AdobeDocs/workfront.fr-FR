@@ -4,13 +4,13 @@ description: Après avoir créé des connexions entre les types d’enregistreme
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # Connexion d’enregistrements
 
 >[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
@@ -276,15 +278,3 @@ Après avoir créé une connexion entre un type d’enregistrement Maestro et un
    >  Les champs que vous ajoutez ou supprimez dans la page Type d’enregistrement d’objet Workfront ne sont pas ajoutés ni supprimés du type d’enregistrement Maestro lié au type d’objet Workfront. Les champs ne sont visibles que sur la page de type d’enregistrement Workfront en lecture seule. Vous pouvez donc les consulter dans Maestro.
 
 1. (Facultatif) Dans le menu déroulant Affichage de la page de type d’enregistrement d’objet Workfront, choisissez la vue Chronologie pour afficher les objets liés Workfront dans la vue de la chronologie.
-
-
-
-
-
-
-
-
-
-
-
-

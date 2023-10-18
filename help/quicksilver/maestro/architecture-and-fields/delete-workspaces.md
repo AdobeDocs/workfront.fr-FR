@@ -4,19 +4,21 @@ description: Vous pouvez supprimer des espaces de travail lorsqu’ils ne sont p
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Suppression des espaces de travail
 
 >[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta fermé ouvert à un nombre limité de clients.
 >

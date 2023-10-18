@@ -4,19 +4,21 @@ description: Dans Adobe Maestro, vous pouvez supprimer des champs personnalisés
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Supprimer des champs
 
 >[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
@@ -35,6 +37,9 @@ Vous pouvez supprimer les champs Maestro qui ne sont plus pertinents.
 * Vous pouvez supprimer les champs que vous avez créés ou créés par d’autres utilisateurs. <!--this will change with access levels/ permissions-->
 * Vous ne pouvez supprimer un champ que dans le tableau de type enregistrement.
 * Toutes les informations stockées dans le champ sont supprimées et ne peuvent pas être récupérées.
+* Lorsque vous supprimez un champ d’enregistrement lié, tous les champs de recherche liés sont également supprimés du type d’enregistrement à partir duquel vous créez un lien. Les champs d’enregistrement liés des types d’enregistrement auxquels vous créez un lien ne sont pas supprimés.
+
+  Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
   <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Exigences d’accès

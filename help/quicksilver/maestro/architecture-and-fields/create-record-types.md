@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # Création de types d’enregistrements opérationnels
 
 >[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
@@ -100,7 +102,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
         Pour plus d’informations, voir [Créer des espaces de travail](../architecture-and-fields/create-workspaces.md).
       * Lorsque vous les importez à l’aide d’un fichier Excel ou CSV. Cette option n’est pas disponible pour les types d’enregistrement de taxonomie.
-      * Lorsque vous créez une connexion à des types d’objets à partir d’une autre application, lors de l’ajout de champs à un type d’enregistrement. Cela crée un type d’enregistrement en lecture seule dans Maestro qui est connecté aux types d’objets de l’application d’origine. Cette option n’est pas disponible pour les types d’enregistrement de taxonomie.
+      * Lorsque vous créez une connexion à des types d’objets à partir d’une autre application, lors de l’ajout de champs à un type d’enregistrement. Cela crée un type d’enregistrement en lecture seule dans Maestro qui est connecté aux types d’objets de l’application d’origine.
 
      Pour plus d’informations sur la connexion des types d’objets aux enregistrements Maestro, voir [Connexion d’enregistrements](../records/connect-records.md).
    * Manuellement:
@@ -258,5 +260,7 @@ Vous pouvez importer les objets suivants à partir des applications suivantes :
    * Projets
    * Portefeuilles
    * Programmes
+   * Entreprise
+   * Groupe
 
 Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).

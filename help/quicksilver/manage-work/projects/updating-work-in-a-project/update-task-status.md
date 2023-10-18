@@ -6,9 +6,9 @@ description: Vous pouvez mettre à jour l’état d’une tâche pour informer l
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -83,6 +83,15 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
+## Observations relatives à la mise à jour de l’état des tâches
+
+* Lorsque vous marquez une tâche comme terminée, le pourcentage d’achèvement de la tâche passe à 100 %.
+* Les scénarios suivants existent pour les tâches parentes :
+   * Vous ne pouvez pas mettre à jour l’état d’une tâche parente sur Terminé lorsque le mode d’achèvement du résumé du projet est défini sur Automatique et que les sous-tâches ne sont pas terminées.
+   * Vous pouvez mettre à jour l’état d’une tâche parente sur Terminé lorsque le mode d’achèvement du résumé du projet est défini sur Manuel et que les sous-tâches sont terminées ou incomplètes.
+
+  Pour plus d’informations, voir [Modification de projets](../manage-projects/edit-projects.md).
+
 ## Mise à jour manuelle de l’état de la tâche
 
 Lorsque vous mettez à jour l’état d’une tâche, vous pouvez également saisir une explication sur le nouvel état et modifier d’autres informations sur la tâche, telles que la date d’échéance.
@@ -98,9 +107,9 @@ Lorsque vous mettez à jour l’état d’une tâche, vous pouvez également sai
 
    * Pour mettre à jour la date de validation de la tâche, développez la variable **Date de validation** du calendrier déroulant, puis sélectionnez une nouvelle date de validation.
    * Pour fournir une indication visuelle de la fin de la tâche, faites glisser la bulle sous Pourcentage terminé ou double-cliquez dessus pour saisir une valeur de pourcentage.\
-      ![](assets/drag-the-progress-bar-350x155.png)
+     ![](assets/drag-the-progress-bar-350x155.png)
 
-## Mettre automatiquement à jour le statut de la tâche
+## Mettre automatiquement à jour l’état de la tâche
 
 Workfront met automatiquement à jour l’état existant d’une tâche vers un état différent lorsque les actions répertoriées dans le tableau ci-dessous se produisent.
 
@@ -119,7 +128,7 @@ Workfront met automatiquement à jour l’état existant d’une tâche vers un 
    <td>Nouveau statut</td> 
   </tr> 
   <tr> 
-   <td>Mettre à jour le pourcentage de tâche terminé à 100 %</td> 
+   <td>Mettre à jour le pourcentage de la tâche terminé à 100 %</td> 
    <td>Nouveau ou en cours</td> 
    <td>Terminé</td> 
   </tr> 

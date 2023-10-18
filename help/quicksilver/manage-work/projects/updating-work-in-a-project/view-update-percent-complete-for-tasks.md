@@ -6,9 +6,9 @@ description: Vous pouvez mettre à jour le pourcentage d’achèvement d’une t
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -84,26 +84,34 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 Vous pouvez mettre à jour le pourcentage de réalisation d’une tâche dans l’un des domaines suivants :
 
-* **Dans une liste de tâches**: Vous pouvez mettre à jour le pourcentage de fin d’une tâche lorsque la colonne Pourcentage de fin est affichée.\
-   Pour plus d’informations sur la modification en ligne, voir [Éléments de modification en ligne dans une liste dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+* **Dans une liste de tâches**: vous pouvez mettre à jour le pourcentage de fin d’une tâche lorsque la colonne Pourcentage de fin est affichée.\
+  Pour plus d’informations sur la modification en ligne, voir [Éléments de modification en ligne dans une liste dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **Dans la vue Milestone**: Vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche lors de l’utilisation de la vue Jalon sur une liste de projets ou un rapport de projet. Pour plus d’informations, voir [Utilisation de la vue Milestone](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **Dans la vue Milestone**: vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche lors de l’utilisation de la vue Jalon sur une liste de projets ou un rapport de projet. Pour plus d’informations, voir [Utilisation de la vue Milestone](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Lorsque vous mettez à jour la tâche**: Vous pouvez mettre à jour l’option Pourcentage d’achèvement d’une tâche lors de l’ajout d’une mise à jour à la tâche.
+* **Lorsque vous mettez à jour la tâche**: vous pouvez mettre à jour l’option Pourcentage d’achèvement d’une tâche lors de l’ajout d’une mise à jour à la tâche.
 
-   >[!IMPORTANT]
-   >
-   >Cette option s’affiche uniquement une fois que vous avez activé l’option Afficher le pourcentage terminé .\
-   >Pour activer la barre de mise à jour du pourcentage d’achèvement des tâches, procédez comme suit :
-   >
-   >1. Accédez au **Principal** menu>votre nom>**Plus** en regard de votre nom >**Modifier** > sélectionner **Afficher le pourcentage terminé à l’état de mise à jour**.\
-      >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >[!IMPORTANT]
+  >
+  >Cette option s’affiche uniquement une fois que vous avez activé l’option Afficher le pourcentage terminé .\
+  >Pour activer la barre de mise à jour du pourcentage d’achèvement des tâches, procédez comme suit :
+  >
+  >1. Accédez au **Principal** menu>votre nom>**Plus** en regard de votre nom >**Modifier** > sélectionner **Afficher le pourcentage terminé à l’état de mise à jour**.\
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+
+* **Dans l’en-tête de la tâche**: vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche dans l’en-tête de la tâche. Pour plus d’informations, voir [Modifier les tâches](../../tasks/manage-tasks/edit-tasks.md).
+
+  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 
-* **Dans l’en-tête de la tâche**: Vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche dans l’en-tête de la tâche. Pour plus d’informations, voir [Modifier les tâches](../../tasks/manage-tasks/edit-tasks.md).
+## Observations relatives à la mise à jour du pourcentage d’achèvement d’une tâche
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+* Lorsque vous marquez une tâche comme 100 % terminée, l’état de la tâche est mis à jour sur Terminé.
+* Les scénarios suivants existent pour les tâches parentes :
+   * Vous ne pouvez pas mettre à jour le pourcentage d’achèvement d’une tâche parent à 100 % lorsque le mode d’achèvement du résumé du projet est défini sur Automatique et que les sous-tâches ne sont pas terminées.
+   * Vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche parent à 100 % lorsque le mode d’achèvement du résumé du projet est défini sur Manuel et que les sous-tâches sont terminées ou incomplètes.
 
+  Pour plus d’informations, voir [Modification de projets](../manage-projects/edit-projects.md).
 
 ## Mettre à jour le pourcentage d&#39;achèvement d&#39;une tâche
 
@@ -112,7 +120,7 @@ Vous pouvez mettre à jour le pourcentage de réalisation d’une tâche dans l�
    * Une liste de tâches
    * Liste des projets et application de la vue Milestone
    * Une tâche, en accédant à la page de la tâche
-1. Recherchez la variable **Pourcentage terminé** champ pour la tâche dont vous souhaitez mettre à jour le pourcentage terminé.
+1. Recherchez la variable **Pourcentage terminé** pour la tâche dont vous souhaitez mettre à jour le pourcentage.
 1. Cliquez dans le champ Pourcentage terminé et saisissez un nombre compris entre 0 et 100.
 
    Ou

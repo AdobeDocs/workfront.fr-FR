@@ -6,9 +6,9 @@ description: Comprendre comment créer des rapports vous permet d’accéder aux
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1807'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Création d’un rapport personnalisé
 
-Comprendre comment créer des rapports vous permet d’accéder aux informations dont votre organisation a besoin dans Adobe Workfront. Vous pouvez utiliser n’importe quel rapport intégré disponible dans Workfront ou créer vos propres rapports à partir de zéro.
+Vous pouvez donner accès aux informations dont votre organisation a besoin dans Adobe Workfront en créant des rapports. Vous pouvez utiliser n’importe quel rapport intégré disponible dans Workfront ou créer entièrement vos rapports personnalisés.
 
 Pour plus d’informations sur les rapports natifs, voir [Utilisation des rapports intégrés d’Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
@@ -42,7 +42,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p><b>NOTE</b></p>
+   <p> Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 

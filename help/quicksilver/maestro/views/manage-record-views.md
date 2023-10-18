@@ -4,19 +4,21 @@ description: Vous pouvez afficher les enregistrements dans un tableau ou une chr
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 77342724-0182-4134-903b-4428d54cdceb
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
-
 
 # Gestion des vues d’enregistrement
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >

@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 8%
+source-wordcount: '2515'
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>NOTE</b>:</p> 
+   <p> Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,14 +434,20 @@ Une fois que vous avez renseigné les données du modèle Excel, vous pouvez les
 
 L’importation de démarrage rapide prend en charge les types de fichiers suivants :
 
-* Excel XML (&#42;.xlsx
-* Excel hérité (&#42;.xls)
-* Zipped (&#42;ZIP) fichier xlsx ou xls
+* Excel XML (.xlsx)
+* Excel hérité (.xls)
+* Fichier compressé (.ZIP) (contenant uniquement des fichiers .xlsx ou .xls)
 
   >[!NOTE]
   >
-  >Vous devez utiliser un fichier ZIP lors de l’importation des classeurs Excel qui font référence aux rapports, documents, avatars ou aux fichiers de propriétés de vue, de filtre ou de groupe. Lors de l’utilisation d’un fichier d’importation compressé, la variable &#42;Le fichier ZIP doit porter le même nom que le fichier &#42;.xlsx ou &#42;fichier .xls et tous les contenus doivent se trouver au même niveau de structure de fichiers (pas de dossiers).
-
+  >Vous devez utiliser un fichier .ZIP lors de l’importation de feuilles de calcul Excel qui référencent les objets suivants :
+  >
+  >* Rapports
+  >* Documents
+  >* Avatars
+  >* Afficher, filtrer ou regrouper des fichiers de propriétés.
+  >
+  >Lors de l’utilisation d’un fichier d’importation compressé, le fichier .ZIP doit porter le même nom que le fichier .xlsx ou .xls, et tous les fichiers doivent être au même niveau de structure (pas de dossiers).
 
 Pour importer les données de feuille de calcul du modèle dans Workfront :
 

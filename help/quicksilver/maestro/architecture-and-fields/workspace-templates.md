@@ -4,13 +4,13 @@ description: Un espace de travail est un ensemble de types d’enregistrements o
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
@@ -28,6 +28,8 @@ role: User
 # Liste des modèles d&#39;espace de travail
 
 >[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
 >
 >Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
 >
@@ -154,5 +156,3 @@ Voici des modèles d’espace de travail dans Maestro et le nombre de champs qu�
       * **Équipe produit**: 3 champs
       * **Requêtes de fonctionnalités**: 8 champs et 1 champ lié
       * **Secteur industriel**: 1 champ et 1 champ lié
-
-
