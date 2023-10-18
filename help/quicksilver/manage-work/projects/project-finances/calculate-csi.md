@@ -7,7 +7,7 @@ description: L’indice de performance de la planification des coûts (CSI) est 
 author: Alina
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -31,18 +31,16 @@ L’indice de performance de la planification des coûts (CSI) est un calcul aut
 Vous ne pouvez bénéficier des informations fournies par cette mesure que si les éléments suivants existent dans votre entreprise :
 
 * Vos utilisateurs ouvrent une session pour le travail qu’ils terminent.\
-   Ceci calcule Les Experts En Fonction Des Heures.
+  Ceci calcule Les Experts En Fonction Des Heures.
 * Les taux de coût par heure sont associés à vos utilisateurs ou rôles de tâche. 
 
-   Cela calcule les CSI en fonction des coûts.
+  Cela calcule les CSI en fonction des coûts.
 
 ## Comment Workfront calcule l’index de performance de la planification des coûts (CSI)
 
 Workfront calcule l’indice de performance des coûts (CSI) d’un projet ou d’une tâche à l’aide de la formule suivante :
 
-```
-CSI = CPI x SPI
-```
+`CSI = CPI x SPI`
 
 Pour plus d’informations sur l’IPC, voir l’article [Calculer l’indice de performance des coûts (IPC)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
@@ -50,9 +48,8 @@ Pour plus d’informations sur SPI, voir l’article [Calcul de l’index de per
 
 CSI a les trois valeurs possibles suivantes :
 
-* 1 = Suivre le plan général   
-* 
-   >1 = Combinaison sous le planning budget
+* 1 = Suivre le plan général
+* \>1 = Combinaison du planning de budget
 * &lt;1 = Combinaison de planning de dépassement de budget
 
 ![](assets/csi-highlighted.png)
