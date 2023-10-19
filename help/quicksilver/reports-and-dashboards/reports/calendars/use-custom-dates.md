@@ -6,9 +6,9 @@ description: Un rapport Calendrier est un rapport dynamique qui fournit une repr
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 A [!UICONTROL calendar] est un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez utiliser des champs de date personnalisés dans un rapport de calendrier pour les objets suivants :
 
 * Tâches
-* Événements
+* Problèmes
 * Projets
 
 ## Exigences d’accès
@@ -45,7 +45,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>[!UICONTROL Gérer] accès au rapport Calendrier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>[!UICONTROL Gérer] l’accès au rapport Calendrier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,13 +95,13 @@ Vous pouvez choisir le mode d’affichage du groupe d’éléments dans votre ca
       <td role="rowheader"><strong>[!UICONTROL Sur le calendrier, afficher]</strong></td>
       <td><p>Choisissez le mode d’affichage des dates :</p>
        <ul>
-        <li><strong>[!UICONTROL Date unique]</strong>: Le calendrier affiche l’objet à une seule date.</li>
-        <li><strong>[!UICONTROL Durée] (du début à la fin)</strong>: Le calendrier affiche l’objet sur une période de plusieurs jours.<br><p>Remarque : Si vous choisissez <strong>[!UICONTROL Duration]</strong>, la date de fin spécifiée doit être postérieure à la date de début, sinon l’élément ne s’affichera pas dans le calendrier.</p></li>
+        <li><strong>[!UICONTROL Date unique]</strong>: le calendrier affiche l’objet à une seule date.</li>
+        <li><strong>[!UICONTROL Durée] (du début à la fin)</strong>: le calendrier affiche l’objet sur une période de jours.<br><p>Remarque : Si vous choisissez <strong>[!UICONTROL Duration]</strong>, la date de fin spécifiée doit être postérieure à la date de début, sinon l’élément ne s’affichera pas dans le calendrier.</p></li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Dates personnalisées]</strong></td>
-      <td><p>Saisissez le nom de date personnalisé associé à l’objet dont vous souhaitez effectuer le suivi.</p></td>
+      <td><p>Saisissez le nom de date personnalisé associé à l’objet dont vous souhaitez effectuer le suivi.</p><p><strong>REMARQUE :</strong> La recherche du nom de date personnalisé est limitée à 50 résultats pour éviter des problèmes de performances.</td>
      </tr>
     </tbody>
    </table>
@@ -118,7 +118,7 @@ Une fois que vous avez configuré l’affichage des éléments, vous devez ajout
    * **[!UICONTROL Projets]**
    * **[!UICONTROL Événements]**
 
-1. Cliquez sur **[!UICONTROL Ajout de tâches]**, **[!UICONTROL Ajouter des projets]** ou **[!UICONTROL Ajout de problèmes]**, selon le type d’objet que vous ajoutez au calendrier.\
+1. Cliquez sur **[!UICONTROL Ajout de tâches]**, **[!UICONTROL Ajouter des projets]**, ou **[!UICONTROL Ajout de problèmes]**, selon le type d’objet que vous ajoutez au calendrier.\
    ![Sélectionner un objet pour le calendrier](assets/field-name.png)
 
 1. Dans le menu déroulant, commencez à saisir le nom du champ, puis sélectionnez la source du champ de l’objet que vous souhaitez afficher dans le calendrier (par exemple, **[!UICONTROL Tâches en retard]**).
@@ -128,11 +128,11 @@ Une fois que vous avez configuré l’affichage des éléments, vous devez ajout
 
    Pour en savoir plus sur la définition de conditions, voir [Modificateurs de filtre et de condition](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. (Facultatif) Spécifiez des objets supplémentaires pour le regroupement de calendrier en répétant les étapes 1 à 4.
+1. (Facultatif) Spécifiez d’autres objets pour le regroupement de calendrier en répétant les étapes 1 à 4.
 1. Dans le **[!UICONTROL Définissez les étiquettes Tâches/Projets/Problèmes sur ...]** , sélectionnez le libellé des objets de ce groupe de calendrier.
 
    >[!NOTE]
    >
-   >Si les options d’étiquette par défaut ne sont pas disponibles pour un certain objet, le nom de l’objet s’affiche à la place. Par exemple, lorsque la variable [!UICONTROL Tâche parente] le libellé est sélectionné et aucune tâche parent n&#39;est associée à l&#39;objet, [!DNL Adobe Workfront] affiche le nom de l’objet que vous affichez dans le calendrier.
+   >Si les options d’étiquette par défaut ne sont pas disponibles pour un certain objet, le nom de l’objet s’affiche à la place. Par exemple, lorsque la variable [!UICONTROL Tâche parente] le libellé est sélectionné et aucune tâche parent n&#39;est associée à l&#39;objet, [!DNL Adobe Workfront] affiche le nom de l’objet affiché dans le calendrier.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
