@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ Aperçu et production : 16 octobre 2023
 
 Nous avons ajouté des contrôles au format Texte enrichi pour les champs de type Paragraphe. Vous pouvez formater vos champs de paragraphe à l’aide de texte enrichi en mode Tableau d’un type d’enregistrement ou dans la page Détails d’un enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](../maestro/records/edit-records.md).
 
+
+### Enregistrement et regroupement du codage des couleurs pour la vue Chronologie
+
+Aperçu et production : 19 octobre 2023
+
+Vous pouvez maintenant coder par couleur les barres d’enregistrement et les regroupements dans la vue Chronologie.
+
+Vous trouverez ci-dessous des options pour les couleurs que vous pouvez choisir d’afficher pour les barres d’enregistrement et les regroupements en mode Chronologie :
+
+* Les regroupements peuvent correspondre aux couleurs suivantes :
+
+   * Gris (valeur par défaut)
+
+   * La couleur du champ par lequel vous effectuez un groupement
+
+* Les barres peuvent correspondre aux couleurs suivantes :
+
+   * Couleur du type d’enregistrement
+
+   * Couleur d’un champ que vous sélectionnez
+
+   * Couleur du groupement
+
+   * Aucune couleur (valeur par défaut)
+
+Lorsque vous associez des couleurs à un certain champ, vous ne pouvez sélectionner que les champs avec des options codées par couleur.
+
+Pour plus d’informations, voir [Gestion du mode Chronologie](../maestro/views/manage-the-timeline-view.md).
 
 ## Semaine du 9 octobre 2023
 

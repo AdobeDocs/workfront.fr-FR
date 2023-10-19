@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -144,13 +144,11 @@ Le tableau suivant montre les similitudes et les différences entre les vues du 
 | Filtrage des enregistrements | ✓ | ✓ |
 | Enregistrements de groupe |           | ✓ |
 | Tri des enregistrements | ✓ |              |
+| Enregistrements de code couleur |           | ✓ |
+| Regroupements de codes couleur |           | ✓ |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
-
 <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
-
-<!--| Color-code records                     |           | ✓              |-->
-<!--| Color-code groupings                     |           | ✓              |-->
 
 ## Créer ou modifier des vues {#create-or-edit-views}
 

@@ -7,10 +7,10 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 4%
+source-wordcount: '1170'
+ht-degree: 5%
 
 ---
 
@@ -125,15 +125,13 @@ Les informations de la section Mises à jour sont organisées différemment selo
 
 * Les objets suivants n’enregistrent pas les mises à jour du système :
 
-   * Equipe
+   * Équipe
    * Modèle
    * Tâche de modèle
 
 ### Présentation de la section Mises à jour dans la nouvelle expérience de commentaire
 
 Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle expérience de commentaire et pour les objets, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
 
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
@@ -144,7 +142,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
 
       * Les objets suivants ne comportent pas d’onglet Activité du système :
 
-         * Equipe
+         * Équipe
          * Modèle
          * Tâche de modèle
          * Carte ad hoc
@@ -212,8 +210,6 @@ Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
 
-
-
 ## Mises à jour qui apparaissent également sur les objets de rang supérieur
 
 Les commentaires ou réponses à des mises à jour sur certains objets apparaissent également dans la section Mises à jour des objets de rang supérieur.
@@ -264,7 +260,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
   </tr> 
   <tr> 
    <td>l’utilisateur ou de l’utilisatrice</td> 
-   <td>Equipe</td> 
+   <td>Équipe</td> 
   </tr> 
   <tr> 
    <td>Feuille de temps</td> 
@@ -280,7 +276,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
   </tr> 
   <tr> 
    <td>Itération</td> 
-   <td>Equipe</td> 
+   <td>Équipe</td> 
   </tr>
 
 <tr> 
@@ -325,18 +321,13 @@ Les administrateurs d’Adobe Workfront et les administrateurs de groupe peuvent
 
 Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Tout commentaire fait au nom d’un autre utilisateur est indiqué sur le commentaire.
+Tenez compte des points suivants lorsque vous vous connectez en tant qu’autre utilisateur et ajoutez des commentaires :
 
-<!--remove the note below when we release this back to the new commenting-->
+* Tout commentaire fait au nom d’un autre utilisateur est indiqué sur le commentaire.
 
->[!NOTE]
->
->Lors de l’utilisation de la nouvelle expérience de commentaire, le commentaire est ajouté en tant qu’utilisateur connecté en tant qu’autre utilisateur et rien n’indique qu’il ajoute un commentaire pour le compte d’une autre personne.
->
->Par exemple, si un administrateur Workfront se connecte en tant qu’autre utilisateur, l’utilisateur associé au commentaire est l’administrateur Workfront. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* Un administrateur de groupe peut commenter au nom d’une autre personne, mais ne peut pas supprimer ce commentaire. Seul un administrateur Adobe Workfront peut supprimer un commentaire qu’il a fait au nom d’un autre utilisateur.
 
-
-Un administrateur de groupe peut commenter au nom d’une autre personne, mais ne peut pas supprimer ce commentaire. Seul un administrateur Adobe Workfront peut supprimer un commentaire qu’il a fait au nom d’un autre utilisateur.
+* Un administrateur Workfront ou de groupe ne peut modifier un commentaire qu’il a ajouté au nom d’un autre utilisateur que s’il se déconnecte en tant qu’utilisateur et se reconnecte lui-même.
 
 ## Afficher les mises à jour du système sur les tâches avec le rapport Entrée de journal
 

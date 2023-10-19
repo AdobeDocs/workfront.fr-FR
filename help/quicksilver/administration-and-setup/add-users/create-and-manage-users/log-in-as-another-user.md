@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Les étapes de cet article doivent être les suivantes :
 1. Cliquez sur **Connectez-vous.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ Lorsque vous vous connectez en tant qu’autre utilisateur, la date de dernière
 Lorsque vous vous connectez à Workfront en tant qu’autre utilisateur et exécutez une action, Workfront indique clairement que toute action que vous effectuez est effectuée par vous au nom de l’utilisateur sous lequel vous êtes connecté.
 
 Par exemple, si vous commentez un élément lors de votre connexion en tant qu’autre utilisateur, une instruction indique que vous avez fait ce commentaire pour le compte de l’utilisateur.
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->Lors de l’utilisation de la nouvelle expérience de commentaire, le commentaire est ajouté en tant qu’utilisateur connecté en tant qu’autre utilisateur et rien n’indique qu’il ajoute un commentaire pour le compte d’une autre personne.
->
->Par exemple, si un administrateur Workfront se connecte en tant qu’autre utilisateur, l’utilisateur associé au commentaire est l’administrateur Workfront. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### Affichage des informations d’audit {#view-audit-information}
 

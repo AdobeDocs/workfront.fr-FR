@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2143'
 ht-degree: 2%
 
 ---
@@ -65,23 +65,23 @@ Vous trouverez ci-dessous une chronologie planifiée avec des jalons clés pour 
   >
   >    Les itérations conserveront l’expérience héritée de commentaires. La nouvelle expérience de commentaire ne sera pas disponible pour les itérations.
 
+* Premier trimestre 2024 (janvier 2024) :
+
+   * L’option permettant de revenir au flux de commentaires hérité est supprimée et le nouveau flux de commentaires devient la seule expérience pour tous les objets, à l’exception des itérations.
+
 ## Fonctionnalités publiées
 
 La section suivante contient la liste des fonctionnalités qui ont été ajoutées après la version 23.2 d’origine, en commençant par celles publiées le plus récemment.
 
 Les informations suivantes font référence à l’activité de publication toutes les semaines des fonctionnalités incluses dans la nouvelle expérience bêta de commentaires. Cet article répertorie les nouvelles fonctionnalités ajoutées et les problèmes résolus pour la nouvelle expérience de commentaires.
 
-<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+### Semaine du 16 octobre 2023
 
-### Week of October 9, 2023
+#### Ajoutez les informations &quot;au nom de &lt; nom d’utilisateur >&quot; lors de l’ajout de commentaires lors de la connexion en tant qu’autre utilisateur.
 
-#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+Lors de la reconception de l’expérience de commentaire, nous avons supprimé l’indicateur &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe ajoutait des commentaires lorsqu’il était connecté en tant qu’autre utilisateur. Ces informations ont maintenant été restaurées.
 
-While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
-
-Preview and production for all customers: October 13, 2023. 
-
--->
+Aperçu et production pour tous les clients : 19 octobre 2023.
 
 ### Semaine du 11 septembre 2023
 

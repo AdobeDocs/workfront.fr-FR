@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,10 @@ Une mise à jour de l’expérience de commentaires dans Adobe Workfront est act
 
 La nouvelle expérience de commentaire devient progressivement disponible pour tous les objets comportant une section Mises à jour dans Workfront, puis s’étend à d’autres applications Adobe Experience Cloud.
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## Fonctionnalités
@@ -50,7 +47,7 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 * Commentaire sur une mise à jour du système
 * Possibilité de modifier l’état, la condition, la date de validation tout en commentant
 * Modifier le formulaire personnalisé
-* Informations &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe se connecte en tant qu’autre utilisateur et ajoute un commentaire en son nom. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* Les informations &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe se connecte en tant qu’autre utilisateur et ajoute un commentaire en leur nom ont été supprimées à l’origine. Il a été rétabli le 19 octobre 2023.
 * L’option &quot;Demander l’approbation&quot; lorsque vous balisez des personnes en ajoutant un commentaire à un document.
 
 >[!NOTE]
@@ -381,34 +378,36 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Résoudre les commentaires 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>3e trimestre 2023 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Recherche dans les commentaires 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>3e trimestre 2023 
+   <td>1er trimestre 2024 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Copier et coller des images dans un commentaire
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>1er trimestre 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>Modifier le formulaire personnalisé 
    </td>
@@ -456,7 +455,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -520,7 +519,7 @@ Les nouveaux environnements de commentaires sont actuellement disponibles pour l
         >
         >Pour pouvoir accéder à cette zone de Workfront, vous devez disposer d’une licence supplémentaire pour les objectifs Adobe Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
       * Carte sur un panorama
-      * Equipe
+      * Équipe
       * Modèle
       * Tâche de modèle
       * Feuille de temps

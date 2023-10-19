@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1432'
 ht-degree: 1%
 
 ---
@@ -156,7 +156,7 @@ Pour gérer une vue de chronologie :
 
 ### Ajout de filtres
 
-Les filtres permettent de réduire la quantité d’informations affichées à l’écran.
+Vous pouvez réduire la quantité d’informations affichées à l’écran à l’aide de filtres.
 
 Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue de chronologie :
 
@@ -166,13 +166,13 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue d
 
 * Les filtres sont propres à la vue que vous sélectionnez. Des filtres différents peuvent être appliqués à deux vues de chronologie du même type d’enregistrement. Deux utilisateurs qui consultent la même vue de chronologie voient le même filtre actuellement appliqué.
 
-* Vous ne pouvez pas nommer les filtres que vous créez et appliquez à une vue chronologique.
+* Vous ne pouvez pas nommer les filtres que vous créez pour une vue chronologique.
 
-* Le fait de supprimer des filtres les supprime de toute personne accédant au même type d’enregistrement que vous et utilise la même vue que celle que vous utilisez.
+* Le fait de supprimer des filtres les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 
-L’ajout de filtres en mode Chronologie est identique à l’ajout de filtres dans la vue Tableau.
+* L’ajout de filtres en mode Chronologie est identique à l’ajout de filtres dans la vue Tableau.
 
-Pour plus d’informations, voir la section &quot;Ajouter des filtres&quot; de l’article [Gestion de la vue de tableau](../views/manage-the-table-view.md).
+  Pour plus d’informations, voir la section &quot;Ajouter des filtres&quot; de l’article [Gestion de la vue de tableau](../views/manage-the-table-view.md).
 
 ### Ajouter un regroupement
 
@@ -180,45 +180,49 @@ Pour plus d’informations, voir la section &quot;Ajouter des filtres&quot; de l
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 Vous pouvez regrouper des enregistrements selon des informations similaires lors de l’application d’un groupement à une vue.
 
 Tenez compte des points suivants lorsque vous utilisez des regroupements dans la vue de chronologie :
 
-* Vous pouvez appliquer des regroupements dans les vues de tableau et de chronologie. Les regroupements de la vue de tableau sont indépendants de ceux de la vue de chronologie du même type d’enregistrement.
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * Vous pouvez appliquer 3 niveaux de regroupement dans une vue Maestro. Les enregistrements sont regroupés dans l&#39;ordre des groupements que vous sélectionnez.
 * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API.
+* Les regroupements sont propres à la vue sélectionnée. Deux vues de chronologie d’un même type d’enregistrement peuvent être associées à des regroupements différents. Deux utilisateurs qui visualisent la même vue de chronologie voient le même regroupement actuellement appliqué.
+
+* Vous ne pouvez pas nommer les regroupements que vous créez pour une vue chronologique.
+
+* Le fait de supprimer des regroupements les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 
 Pour ajouter un groupement :
 
-1. Créez une vue chronologique, comme décrit dans l’article . [Gestion des vues d’enregistrement](../views/manage-record-views.md).
-1. Cliquez sur **Regroupement**.
+1. Créez une vue de chronologie pour un type d’enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](../views/manage-record-views.md).
+1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
 
    ![](assets/grouping-ui-timeline-view.png)
 
-1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent** et recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    >[!TIP]
    >
    >Vous ne pouvez pas sélectionner de champs liés.
 
-   Le groupement est appliqué automatiquement à la chronologie et les enregistrements s&#39;affichent dans la zone de groupement. Le nombre d’éléments d’un groupement s’affiche sur la ligne de groupement.
+   Le groupement est appliqué automatiquement à la chronologie et les enregistrements s&#39;affichent dans la zone de groupement.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
-   Le nombre de groupements appliqués s&#39;affiche à gauche de l&#39;icône Groupement située dans le coin supérieur droit de la barre d&#39;outils.
+   Le nombre de champs sélectionnés pour le groupement s&#39;affiche en regard de l&#39;icône Groupement .
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Facultatif) Cliquez sur le **x** icône à droite d&#39;un groupement pour supprimer le groupement
+1. (Facultatif) Cliquez sur le **x** icône à droite d&#39;un champ sélectionné pour le groupement afin de supprimer le groupement
 
    Ou
 
-   Cliquez sur **Effacer tout** pour supprimer tous les regroupements.
+   Cliquez sur **Effacer tout** pour supprimer tous les champs.
 
 1. Cliquez en dehors du **Regrouper les enregistrements par** pour le fermer.
 
@@ -232,20 +236,19 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### Modification des paramètres de vue de la chronologie {#edit-the-timeline-view-settings}
 
-Mettez à jour les paramètres de vue de la chronologie pour indiquer les informations qui s’affichent dans la section de la chronologie de la vue.
+Mettez à jour les paramètres de vue de la chronologie pour indiquer ce qui s’affiche et comment les informations s’affichent dans la section de la chronologie de la vue.
 
-1. Créez une vue chronologique, comme décrit dans l’article . [Gestion des vues d’enregistrement](../views/manage-record-views.md).
+1. Créez une vue de chronologie pour un type d’enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 1. Cliquez sur **Paramètres**.
 1. Cliquez sur **Date et heure** dans le panneau de gauche, puis sélectionnez une **Date de début** et un **Date de fin** pour l’afficher dans la chronologie. Vous pouvez choisir les dates de début et de fin par défaut ou choisir n’importe quel champ de date disponible. Les barres représentant les enregistrements commencent à la date que vous indiquez pour la date de Début et se terminent à la date correspondant à la date de Fin.
 
    >[!NOTE]
    >
-   >    Les enregistrements qui ne comportent aucune valeur pour les dates de début ou de fin ou dont la date de début est postérieure à la date de fin ne s’affichent pas dans la vue de chronologie.
+   >Les enregistrements qui ne comportent aucune valeur pour les dates de début ou de fin ou dont la date de début est postérieure à la date de fin ne s’affichent pas dans la vue de chronologie.
 
+1. Cliquez sur **Style de barre** dans le panneau de gauche, pour indiquer les champs que vous souhaitez afficher dans les barres d’enregistrement.
 
-1. Cliquez sur **Détails de l’enregistrement** pour indiquer les champs que vous souhaitez afficher dans les bandes d’enregistrement.
-
-   Le champ Nom est sélectionné par défaut.
+   Le champ Nom est sélectionné par défaut. <!--adjust this when the primary field is released??-->
 
 1. Cliquez sur **Ajouter un champ** pour ajouter jusqu’à 4 champs aux barres d’enregistrement.
 1. Cliquez dans le **Champs de recherche** puis cliquez sur le champ à ajouter.
@@ -259,6 +262,41 @@ Mettez à jour les paramètres de vue de la chronologie pour indiquer les inform
    Un aperçu de l’aspect des barres dans la chronologie s’affiche à droite.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. Cliquez sur **Couleur** dans le panneau de gauche, pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
+
+   ![](assets/color-tab-timeline-view.png)
+
+1. (Conditionnel et facultatif) Si vous avez ajouté un groupement à la vue de la chronologie, sélectionnez l’une des options suivantes pour définir la couleur du groupement dans la fenêtre **Définir la couleur du groupement** section :
+
+   * **Par défaut (gris)**: la couleur des groupements est définie sur gris. Il s’agit du paramètre par défaut.
+   * **Valeurs de champ**: la couleur des groupements correspond à la couleur du champ par lequel vous effectuez un groupement.
+Vous pouvez faire correspondre la couleur des regroupements uniquement aux champs avec des options codées par couleur.
+
+   Par exemple, les champs à sélection multiple ou à sélection unique peuvent comporter des options codées par couleur.
+
+   Si vous effectuez un groupement par champs sans options codées par couleur, la couleur du groupement reste grise.
+
+   >[!TIP]
+   >
+   >Si vous n’avez pas ajouté de groupes à la vue de la chronologie, cette section ne s’affiche pas.
+
+1. Dans le **Définir la couleur de l’enregistrement** , sélectionnez l’une des options suivantes pour définir une couleur pour les enregistrements :
+
+   * **Type d’enregistrement**: la couleur des enregistrements correspond à celle du type d’enregistrement que vous avez sélectionné. Il s’agit de l’option par défaut.
+   * **Valeurs de champ**: la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez. Passez à l’étape 10. <!--ensure this stays accurate-->
+   * **Regroupement**: la couleur des enregistrements correspond à la couleur que vous avez indiquée pour les regroupements. Cette option est grisée lorsque aucun regroupement n’est appliqué à la vue de la chronologie.
+   * **Aucun**: les enregistrements s’affichent dans une barre blanche.
+
+1. (Conditionnel) Si vous avez sélectionné **Valeurs de champ** pour les couleurs d’enregistrement, sélectionnez un champ dans la **Correspondance de la couleur de l’enregistrement avec** menu déroulant.
+
+   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+   Seuls les champs avec des options codées par couleur s’affichent dans le menu déroulant.
+
+   Par exemple, les champs à sélection multiple ou à sélection unique peuvent comporter des options codées par couleur.
+
+   Si vous ne disposez pas d’un champ avec des options codées par couleur pour le type d’enregistrement sélectionné, cette option est grisée.
 
 1. Cliquer sur **Enregistrer**.
 
