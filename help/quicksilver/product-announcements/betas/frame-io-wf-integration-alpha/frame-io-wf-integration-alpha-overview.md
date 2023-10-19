@@ -7,9 +7,9 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 428487d644cd7cea44840027bd1c450df8130464
+source-git-commit: 58118f98d2d17960e4383c63b564aa2e56ea49f6
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## alpha de l’intégration Workfront + Frame.io
 
-Bienvenue dans notre programme alpha ! Grâce à ce programme, vous bénéficiez d’un accès anticipé à notre expérience d’intégration native Workfront + Frame.io et vous pouvez partager vos commentaires, ce qui vous permettra d’influencer et d’informer l’expérience finale avant de la publier sur notre base de clients élargie. Avec cette intégration, nous visons à créer un workflow de bout en bout sans heurts entre Workfront et Frame.io, en mettant l’accent sur la solution unifiée idéale de révision et d’approbation.
+Bienvenue dans le programme alpha de l’intégration Workfront + Frame.io ! Dans le cadre de cet alpha, vous accéderez rapidement à notre expérience d’intégration native Workfront + Frame.io et serez en mesure de partager vos commentaires qui définiront en fin de compte l’expérience finale que nous publierons sur notre base de clients élargie. Avec cette intégration, nous visons à créer un processus de bout en bout sans heurts entre Workfront et Frame.io, en mettant l’accent sur une solution idéale, unifiée de révision et d’approbation.
 
 Profitez du meilleur des deux mondes et découvrez comment une expérience rationalisée entre Frame.io et Workfront (y compris les nouvelles approbations de documents) peut faire passer le cycle de vie de votre contenu du lancement au lancement et à la validation et à la diffusion.
 
@@ -28,41 +28,40 @@ Learn more about
 
 This program and feedback participation activities: <link> 
 
-The new experience and features  and how you can test them: <link> 
+The new experience and features and how you can test them: <link> 
 -->
 
 >[!NOTE]
 >
 >Si vous êtes tombé sur ces pages sans que votre entreprise ne participe à ce programme alpha, veillez à traiter les informations ici avec soin et à contacter votre administrateur Workfront ou Frame.io pour plus d’informations.
 
+## Activités de retour prévues et canaux de communication
+
+Ce programme alpha vous offre une opportunité unique de tester l’expérience transparente que nous visons à créer en exploitant le meilleur de Workfront et de Frame.io. Workfront pour la planification du travail, la surveillance et la gestion du processus de révision et d’approbation des ressources demandées, ainsi que Frame.io pour la collaboration créative et la vérification et l’approbation.
+
+Dans le cadre du programme Alpha, nous allons travailler étroitement ensemble pour façonner ce qui deviendra la future expérience de révision et d&#39;approbation formelles unifiées dans l&#39;Adobe.
+
+À cette fin, nous avons mis en place certains canaux de communication qui nous permettront de rester connectés, de partager les mises à jour et d&#39;obtenir vos commentaires concrets. Notre objectif est de comprendre les fonctionnalités requises pour permettre à votre entreprise et à vos utilisateurs d’adopter cette solution dans votre environnement de production. Utilisez les canaux de communication suivants pour partager vos commentaires :
+
+### Alpha des appels de retour de prototype de démonstration et de PVM (par client)
+
+L’équipe d’Adobe va configurer plusieurs réunions individuelles avec chaque client alpha pour présenter le prototype du PVM avec l’expérience publiée dans votre environnement de prévisualisation/test. Au cours de ces appels, vous aurez la possibilité de faire part de vos commentaires et de nous faire part de vos réflexions sur la façon dont nous envisageons la révision et l’approbation futures unifiées et sur ce qui est nécessaire pour que vous l’adoptiez dans la production. Contactez le porte-parole de votre groupe pour savoir quand le prochain appel est programmé. Il est prévu de commencer par les appels hebdomadaires jusqu’à ce que nous ayons capturé tous vos commentaires, puis que nous passions à une cadence d’appel moins fréquente.
+
+Outre les sessions de démonstration/commentaires guidées, nous vous encourageons à continuer à explorer l’expérience et à effectuer d’autres tests avec les différents groupes et acteurs impliqués. Suivez ces instructions de base pour tester la solution.
+
+### Canal Slack (par client)
+
+L’équipe Adobe va configurer et inviter votre groupe de test alpha à un espace de travail Slack. Cet espace est conçu pour accélérer la communication et vous permettre de partager et de discuter facilement des idées en dehors des appels programmés, mais aussi d’envoyer les problèmes que vous rencontrez. Veuillez parler au porte-parole de votre groupe de test au cas où vous n’auriez pas été invité dans cet espace de travail vierge.
+
+Veuillez lire la section Bonnes pratiques sur la meilleure manière de soumettre des idées et des problèmes.
+
+### E-mail
+
+Utilisez cette méthode de communication pour envoyer des commentaires, en particulier des idées qui contiennent des informations ou du contenu confidentiel (captures d’écran ou enregistrements d’écran) que vous ne souhaitez pas partager avec d’autres clients, mais que vous ne souhaitez partager qu’avec des Adobes.
+
+
 <!--
-# The program and planned feedback activities 
-
-This alpha program provides you with the unique opportunity to test the seamless experience that we aim to build by leveraging the best of both worlds. Workfront for work planning and monitoring as well as managing the review & approval process of requested assets and Frame.io for creative collaboration and conducting the review & approval.    
-
-As part of the alpha program, we're going to work closely together to shape what will become the future unified formal review & approval experience across Adobe.  
-
-Therefore, we will establish certain communication channels that will allow us to stay connected, share updates and get your hands-on feedback. Our goal is to understand what capabilities would be required that will allow your company and users to adopt this solution in your Production environment. Please use the following communication channels to share your feedback: 
-
-# Communication Channels 
-
-## Alpha demo & MVP prototype feedback calls (per customer) 
-
-The Adobe Team is going to set up multiple individual meetings with each alpha customer to present the MVP prototype along with the experience released to your preview / sandbox environment. During these calls you will get the opportunity to provide feedback and let us know your thoughts around the way we envision the future unified review & approval and what is needed to have you adopt this in Production. Please reach out to your group's spokesperson to learn when the next call is scheduled for. The plan is to start with weekly calls until we have captured all your feedback and then move onto a less frequent call cadence. 
-
-Besides the guided demo / feedback sessions we encourage you to continue exploring the experience and perform further tests with the various groups and persona's involved. Please follow these basic instructions on how to test the solution. 
-
-## Slack Channel (per customer) 
-
-The Adobe Team is going to set up and invite your alpha testing group to a Slack Workspace. This space is intended to accelerate communication and allow you to easily share and discuss ideas outside the scheduled calls but also submit issues you come across. Please talk to your testing group's spokesperson in case you haven't been invited to this slack workspace. 
-
-Please read the best practices section on how to best submit ideas and issues 
-
-## Email 
-
-Use this communication method to submit feedback, especially ideas that contain confidential information or material (screenshots or screen recordings) that you don't want to share with other Adobe customers but Adobe only. 
-
-# Send feedback 
+## Send feedback 
 
 We value your input and believe that your perspective is crucial in helping us create the best experience possible. Because we're specifically looking at understanding what capabilities would be required to have you adopt the solution in Production, please   
 
@@ -72,7 +71,7 @@ Share it on our alpha program slack channel
 
 Or send it via e-mail to ossmann@adobe.com 
 
-## How to best submit ideas 
+### How to best submit ideas 
 
 Please try to give as much context as possible by describing 
 
