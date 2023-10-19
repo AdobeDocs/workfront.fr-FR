@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Configuration de la liste autorisée de votre pare-feu
-description: Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée. Cela ouvre la communication entre votre environnement et les serveurs Adobe Workfront et permet à vos utilisateurs d’envoyer des messages depuis Workfront et d’utiliser la fonction SSO avec Principal Directory ou LDAP.
+description: Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée. Cela ouvre la communication entre votre environnement et les serveurs Adobe Workfront et permet à vos utilisateurs d’envoyer des messages depuis Workfront et d’utiliser la fonction SSO avec Active Directory ou LDAP.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1569'
 ht-degree: 13%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 13%
 >Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, voir [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>La manière dont une organisation configure sa liste autorisée est propre à chaque organisation. Collaborez avec votre équipe informatique pour identifier la procédure de votre entreprise et mettre en oeuvre ces ajouts.
 
 Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée. Cela permet la communication entre votre environnement et les serveurs Adobe Workfront et permet les processus suivants :
 
