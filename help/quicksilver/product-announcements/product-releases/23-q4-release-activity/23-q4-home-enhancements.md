@@ -3,9 +3,9 @@ title: Améliorations de la page d’accueil du quatrième trimestre 2023
 description: Améliorations de la page d’accueil du quatrième trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Pour plus d’informations sur les widgets disponibles dans la nouvelle page d�
 
 ## Nouvelle page d’entrée par défaut du contributeur : Nouvelle page d’accueil
 
-Nouvelle page d’accueil est désormais la page d’entrée par défaut des comptes de contributeurs. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécifiquement sélectionnés pour permettre aux contributeurs de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs seront également invités à utiliser la nouvelle page d’accueil et les widgets spécifiques disponibles par défaut dans une présentation pas à pas personnalisée. Notez que si une disposition avec une page d’accueil personnalisée actuellement utilisée par un compte de contributeur, elle reste sa page d’accueil.
+La nouvelle page d’accueil est désormais la page d’entrée par défaut des comptes du contributeur/demandeur. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécifiquement sélectionnés pour permettre aux contributeurs de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs seront également invités à utiliser la nouvelle page d’accueil et les widgets spécifiques disponibles par défaut dans une présentation pas à pas personnalisée. Notez que si une disposition avec une page d’accueil personnalisée actuellement utilisée par un compte de contributeur, elle reste sa page d’accueil.
 
 Pour plus d’informations sur l’utilisation de la nouvelle page d’accueil, voir [Prise en main du nouvel accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

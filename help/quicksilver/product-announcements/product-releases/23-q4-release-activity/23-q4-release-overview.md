@@ -4,9 +4,9 @@ description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -326,7 +326,7 @@ Le webinaire de la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [Inscr
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle page d’entrée par défaut du contributeur : Nouvelle page d’accueil</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span> </p>
-                        <p>Nouvelle page d’accueil est désormais la page d’entrée par défaut des comptes de contributeurs. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécifiquement sélectionnés pour permettre aux contributeurs de gérer leur travail immédiatement.</p>
+                        <p>La nouvelle page d’accueil est désormais la page d’entrée par défaut des comptes du contributeur/demandeur. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécifiquement sélectionnés pour permettre aux contributeurs de gérer leur travail immédiatement.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -628,27 +628,8 @@ Le webinaire de la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [Inscr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modèles de courrier électronique mis à jour</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
-                        <p>Dans le cadre d’une nouvelle initiative visant à mettre à jour nos emails de notification d’événement, nous avons mis à jour deux des plus couramment utilisées : la validation des documents et le partage d’objets.</p>
-                    </td>
-                    <td><p><b>Disponible à ces dates :</b></p>
-                        <ul>
-                            <li>
-                                <p>Version d’aperçu : 12 octobre 2023</p>
-                            </li>
-                            <li>
-                                <p>Production pour une version rapide : avec la version 23.10</p>
-                            </li>
-                            <li>
-                                <p>Production pour les versions trimestrielles : avec la version 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifications du menu principal du contributeur</a> <span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
-                        <p>Pour mieux informer les contributeurs des fonctionnalités disponibles avec un type de licence Workfront payant, ils peuvent désormais voir toutes les options disponibles dans le menu principal.</p>
+                        <p>Pour mieux informer les contributeurs/demandeurs des fonctionnalités disponibles avec un type de licence Workfront payant, ils peuvent désormais voir toutes les options disponibles dans le menu principal.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
