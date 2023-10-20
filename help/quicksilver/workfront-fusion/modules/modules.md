@@ -7,8 +7,9 @@ title: Modules dans [!DNL Adobe] Workfront Fusion
 description: Les articles répertoriés ici décrivent des modules spécifiques et leurs fonctionnalités dans [!DNL Adobe Workfront Fusion].
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%

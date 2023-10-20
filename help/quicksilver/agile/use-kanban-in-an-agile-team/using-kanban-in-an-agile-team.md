@@ -6,8 +6,9 @@ title: Kanban dans une équipe agile
 description: Consultez ces articles pour en savoir plus sur l’utilisation de Kanban dans une équipe agile.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: 20bb4534-796c-48ac-b43e-85717fefe1bf
-source-git-commit: 33daf0633701a1c271552e796ffe22a58645c561
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%

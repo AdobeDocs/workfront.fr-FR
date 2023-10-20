@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Demande d’approbation de documents
 description: Vous pouvez demander l’approbation d’un document dans Adobe Workfront à des gestionnaires ou à d’autres utilisateurs. Vous pouvez également demander l’approbation de documents à des personnes n’ayant pas de compte Workfront si votre administrateur Workfront a activé cette fonctionnalité, comme décrit dans Configuration des préférences de sécurité du système.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Réenvoyer une validation sur une nouvelle version
 
-Les décisions d’approbation de document ne sont pas automatiquement réinitialisées lorsque vous chargez une nouvelle version. Par exemple, si votre document est approuvé avec des modifications, la décision indique &quot;modifications&quot; comme décision, même si vous téléchargez une nouvelle version avec les modifications spécifiées. Vous pouvez annuler la décision sur une nouvelle version si vous soumettez manuellement à nouveau la validation.
+Les décisions d’approbation de document ne sont pas automatiquement réinitialisées lorsque vous téléchargez une nouvelle version. Par exemple, si votre document est approuvé avec des modifications, la décision indique &quot;modifications&quot; comme décision, même si vous téléchargez une nouvelle version avec les modifications spécifiées. Vous pouvez annuler la décision sur une nouvelle version si vous soumettez manuellement à nouveau la validation.
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.

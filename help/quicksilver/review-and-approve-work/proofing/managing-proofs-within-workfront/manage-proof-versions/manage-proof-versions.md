@@ -6,8 +6,9 @@ title: Gestion des versions de BAT
 description: Créer une nouvelle version d’un BAT
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 1806fd69-35f6-4cba-8f21-ac259469117a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 0%

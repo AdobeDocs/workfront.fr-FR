@@ -7,8 +7,9 @@ title: Basecamp
 description: 'Cette section contient les articles suivants : EDIT ME.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: ba0819cf-debd-47eb-ab9d-a326b84aa1e8
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%

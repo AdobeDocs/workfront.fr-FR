@@ -6,8 +6,9 @@ title: Gestion des ressources
 description: La gestion des ressources est importante pour gérer correctement votre travail et pour prévoir la disponibilité. Découvrez comment planifier et planifier vos ressources pour qu’elles fonctionnent dans les articles suivants.
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 4%

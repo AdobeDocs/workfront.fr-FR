@@ -7,8 +7,9 @@ title: Comptes partenaires dans [!DNL Workfront Proof]
 description: Cette section contient les articles suivants sur les comptes de partenaire dans [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8283908e-1ef1-4914-9b67-b934d2de60ca
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 0%

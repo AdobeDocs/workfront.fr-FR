@@ -6,8 +6,9 @@ title: Planification des ressources dans Adobe Workfront
 description: Les articles de cette section contiennent des informations sur les fonctionnalités des sections Planificateur et Pools de ressources de la zone Ressource d’Adobe Workfront.
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: 21ffaa14-435d-46f3-bfdd-823fa616df5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -40,26 +41,26 @@ Cette section contient les articles suivants :
 * [Rapport sur les heures planifiées de la planification des ressources](../../resource-mgmt/resource-planning/report-on-budgeted-hours.md)
 * [Limites d’affichage de Resource Planner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/track-user-utilization.md" class="MCXref xref" xrefformat="{para}">Track User Utilization information</a> </li>
   -->
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Budget resources by project in the Resource Planner</a> </li>
   -->
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/budget-by-role-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Budget resources by role in the Resource Planner </a> </li>
   -->
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/view-projects-roles-users-resource-planner.md" class="MCXref xref" xrefformat="{para}">View projects, roles, and users using the Resource Planner</a> </li>
   -->
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/manage-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Manage resources in the Resource Planner</a> </li>
   -->
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/resource-planner-overview-d.md" class="MCXref xref" xrefformat="{para}">Overview of the areas of the Resource Planner</a> </li>
   -->

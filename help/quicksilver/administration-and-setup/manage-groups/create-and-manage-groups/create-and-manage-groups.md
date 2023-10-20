@@ -8,8 +8,9 @@ description: Un administrateur Workfront peut créer des groupes d’utilisateur
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f8f2996a-89cb-4929-ad04-ab84c7bd66fc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -31,6 +32,6 @@ Cette section contient les articles suivants :
 * [Configuration des préférences de feuille de temps et d’heure pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)
 * [Verrouillage ou déverrouillage d’une feuille de temps et d’une préférence d’heure de groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
 * [Affichage et configuration des notifications d’événement pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
-* [Déplacer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
+* [Déplacement d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
 * [Suppression d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 * [Exporter une liste de groupes](../../../administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)

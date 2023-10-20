@@ -7,8 +7,9 @@ title: Modèles de scénario
 description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 48fc3330-7fe1-4dea-8abe-cfc1139e26cf
-source-git-commit: 229fd48d604385a1bfcaba2fd34eb6f3bbdde7a7
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%

@@ -7,8 +7,9 @@ title: Groupes de BAT
 description: 'Cette section contient les articles suivants : EDIT ME.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 59962f6b-e2e9-4ac7-b60f-6c8f9ca9958b
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 2%
@@ -25,5 +26,5 @@ Cette section contient les articles suivants :
 
 * [Ajout de groupes à un bon à tirer](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
 * [Création de groupes de vérification à l’aide de [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
-* [Rendre les groupes privés à l’aide de [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+* [Rendre les groupes privés en utilisant [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
 * [Gestion des groupes à l’aide de [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)

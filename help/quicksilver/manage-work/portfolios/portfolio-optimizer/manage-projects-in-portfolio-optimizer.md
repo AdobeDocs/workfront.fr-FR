@@ -3,11 +3,12 @@ content-type: reference
 product-area: portfolios;projects
 navigation-topic: portfolios-navigation-topic
 title: Gestion des projets dans [!UICONTROL Portfolio Optimizer]
-description: Le [!UICONTROL Portfolio Optimizer] est l’outil utilisé pour l’évaluation et la comparaison des projets. Le processus de vérification et de comparaison des valeurs des Business Case pour les projets affectés à un portefeuille consiste à déterminer comment un gestionnaire de portefeuille peut hiérarchiser les projets et générer le plus de valeur pour une organisation.
+description: La variable [!UICONTROL Portfolio Optimizer] est l’outil utilisé pour l’évaluation et la comparaison des projets. Le processus de vérification et de comparaison des valeurs des Business Case pour les projets affectés à un portefeuille consiste à déterminer comment un gestionnaire de portefeuille peut hiérarchiser les projets et générer le plus de valeur pour une organisation.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: 662d4975-3af5-4de6-befa-abadeedf2b0d
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # Gestion des projets dans [!UICONTROL Portfolio Optimizer]
 
-Le [!UICONTROL Portfolio Optimizer] est l’outil utilisé pour l’évaluation et la comparaison des projets. Le processus de vérification et de comparaison des valeurs des Business Case pour les projets affectés à un portefeuille consiste à déterminer comment un gestionnaire de portefeuille peut hiérarchiser les projets et générer le plus de valeur pour une organisation.
+La variable [!UICONTROL Portfolio Optimizer] est l’outil utilisé pour l’évaluation et la comparaison des projets. Le processus de vérification et de comparaison des valeurs des Business Case pour les projets affectés à un portefeuille consiste à déterminer comment un gestionnaire de portefeuille peut hiérarchiser les projets et générer le plus de valeur pour une organisation.
 
 Cette section contient les articles suivants :
 

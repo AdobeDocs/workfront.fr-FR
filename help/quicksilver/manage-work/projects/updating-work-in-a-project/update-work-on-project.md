@@ -6,8 +6,9 @@ title: Mise à jour du travail sur un projet
 description: Pour mettre à jour l’état et la progression d’un projet, vous devez mettre à jour l’état et la progression de ses tâches. Cela finit par se répéter pour montrer l'avancement du projet.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%

@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Afficher les approbations
 description: Les processus de validation permettent de créer des validations à plusieurs étapes pour des projets, des tâches et des problèmes. Les administrateurs d’Adobe Workfront définissent les processus d’approbation pour assurer la cohérence de l’ensemble du système.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Les processus de validation permettent de créer des validations à plusieurs é
 
 Pour plus d’informations sur la création de processus de validation, voir [Créer un processus d’approbation pour les tâches](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Pour plus d’informations sur l’association des validations à un travail dans Workfront, voir [Associer un processus d’approbation nouveau ou existant au travail](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Pour plus d’informations sur l’association des approbations à un travail dans Workfront, voir [Associer un processus d’approbation nouveau ou existant au travail](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Exigences d’accès
 
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Consulter ou accéder à un niveau supérieur ou supérieur aux objets associés aux validations</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Consulter ou accéder à des objets associés à des validations</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -62,19 +62,19 @@ Vous pouvez afficher ou gérer les validations dans les domaines suivants :
    * Les validations que vous avez soumises vous-même s’affichent également dans la zone Accueil, dans la section Validations que j’ai envoyées de la liste de tâches. Pour plus d’informations, voir [Examinez les travaux que vous soumettez pour approbation dans la zone d’accueil.](#review-work-you-submit-for-approval-in-the-home-area) dans cet article.
    * Les approbations sont supprimées de la zone d’accueil lorsque le projet, la tâche ou le problème associé est marqué Résolu, En attente, Fermé ou Annulé.
 
-   Pour plus d’informations sur l’utilisation de la page d’accueil, voir [Prise en main de la page d’accueil](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Pour plus d’informations sur l’utilisation de la page d’accueil, voir [Prise en main de la page d’accueil](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * Dans l’en-tête d’un projet, d’une tâche, d’un problème, d’un document ou d’un BAT
 * Dans la section Approbations d’un projet, d’une tâche ou d’un problème
 * Dans un rapport
 
-   >[!NOTE]
-   >
-   >Vous ne pouvez pas prendre de décision sur une validation à partir d’un rapport.
+  >[!NOTE]
+  >
+  >Vous ne pouvez pas prendre de décision sur une validation à partir d’un rapport.
 
-   Vous pouvez créer un rapport d’approbation de projet, de tâche, d’émission ou de document contenant les informations d’approbation.
+  Vous pouvez créer un rapport d’approbation de projet, de tâche, d’émission ou de document contenant les informations d’approbation.
 
-   Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Examinez les travaux que vous soumettez pour approbation dans la zone d’accueil. {#review-work-you-submit-for-approval-in-the-home-area}
 
@@ -87,8 +87,7 @@ Vous pouvez afficher ou gérer les validations dans les domaines suivants :
    >* Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    >* Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
-
-1. Sélectionner **Liste de tâches**, puis cliquez sur le bouton **Filtrer** menu déroulant, puis sélectionnez **Approbations**.
+1. Sélectionner **Liste de tâches**, puis cliquez sur le bouton **Filtrer** menu déroulant et sélectionnez **Approbations**.
 1. Développez l’objet **Validations que j’ai envoyées** et recherchez les validations que vous avez soumises.
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
@@ -119,7 +118,7 @@ Vous pouvez consulter l’état d’approbation d’un objet dans les sections s
 
 Lorsqu’une approbation est lancée sur un projet, une tâche ou un problème, un état s’affiche dans la variable **Mises à jour** de l’objet, indiquant le statut de la validation. Un nouvel état s’affiche chaque fois que l’objet passe par le processus d’approbation. Cela inclut les événements suivants :
 
-* Un processus d’approbation est lancé sur un objet. Le processus d’approbation est lancé lorsque le statut est modifié.
+* Un processus d’approbation est lancé sur un objet. Le processus d’approbation est lancé lorsque l’état est modifié.
 * L’objet est rejeté.
 * L’objet est approuvé. 
 
@@ -138,7 +137,7 @@ Vous pouvez déterminer où se trouve une tâche ou un problème sur lequel vous
 Pour voir l’état actuel d’une tâche ou d’un problème dans le processus d’approbation :
 
 1. Accédez au projet, à la tâche ou à l’émission auquel la validation est associée.
-1. Dans le panneau de gauche, cliquez sur **Approbations**. Vous devrez peut-être d’abord cliquer sur **Afficher plus**.
+1. Dans le panneau de gauche, cliquez sur **Approbations**. Vous devrez peut-être cliquer en premier **Afficher plus**.
 
    L’onglet Validations affiche des informations complètes sur tous les parcours et étapes de validation précédents. Vous pouvez déterminer qui a pris une décision lors de l’approbation ou si l’approbation est définie pour une équipe, un rôle de tâche ou un utilisateur.
 

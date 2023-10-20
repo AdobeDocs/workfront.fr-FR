@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Rappeler aux approbateurs les validations envoyées
 description: 'Vous pouvez rappeler aux approbateurs les approbations en attente pour les objets suivants : EDIT ME.'
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 3%
@@ -42,7 +42,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Consulter l’objet associé à l’accès ou à l’approbation de la demande ou un accès supérieur à cet objet </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Visualiser l'accès ou l'accès supérieur à l'objet associé à la validation ou à l'accès à la demande </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ Vous pouvez demander un accès supplémentaire pour les objets suivants :
 
 * Projets
 * Tâches
-* Événements
+* Problèmes
 * Portefeuilles
 * Programmes
 * Modèles
@@ -75,8 +75,7 @@ Pour rappeler à un autre utilisateur d’approuver votre demande d’accès à 
    >* Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    >* Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
-
-1. Dans le **Liste de tâches** , accédez à la zone **Validations que j’ai envoyées** regroupement.
+1. Dans le **Liste de tâches** , accédez à **Validations que j’ai envoyées** regroupement.
 
 1. Sélectionnez une **Demande d’accès** validation dans la liste de travail.
 
@@ -97,8 +96,7 @@ Pour rappeler à un autre utilisateur d’approuver votre demande d’accès à 
    >* Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    >* Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
-
-1. Dans le **Liste de tâches** , accédez à la zone **Validations que j’ai envoyées** regroupement.
+1. Dans le **Liste de tâches** , accédez à **Validations que j’ai envoyées** regroupement.
 
 1. Cliquez sur un **Document** validation dans la liste de travail.
 

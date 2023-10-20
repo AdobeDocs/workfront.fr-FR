@@ -6,8 +6,9 @@ title: Présentation des tableaux de bord
 description: Consultez ces articles pour comprendre les principes de base des tableaux de bord dans Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 9c7e0810-80e4-4048-a79b-cb91319e5e37
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 0%

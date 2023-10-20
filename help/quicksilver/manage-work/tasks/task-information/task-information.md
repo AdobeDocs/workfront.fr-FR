@@ -6,8 +6,9 @@ title: Informations sur la tâche
 description: Les tâches sont des tâches qui contribuent à la fin d’un projet dans Adobe Workfront. Pour en savoir plus sur les informations de tâche, consultez les articles suivants.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -38,6 +39,6 @@ Cette section contient les articles suivants :
 * [Présentation de la tâche Durée initiale et Heures planifiées initiales](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [Différence entre la durée planifiée et la durée des tâches](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 
-   <!--
+  <!--
   <li><a href="../../../manage-work/tasks/task-information/project-task-issue-dates.md">Overview of project, task, and issue dates</a> </li>
   -->

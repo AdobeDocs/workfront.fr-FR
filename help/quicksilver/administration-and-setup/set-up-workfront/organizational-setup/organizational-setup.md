@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Configuration organisationnelle
-description: Dans le cadre de l’organisation de vos utilisateurs dans [!DNL Adobe Workfront], vous pouvez les associer à des rôles de travail ou à des entreprises.
+description: Dans le cadre de l’organisation des utilisateurs dans [!DNL Adobe Workfront], vous pouvez les associer à des rôles de travail ou à des entreprises.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 82204f86-be52-49df-b070-66003c528dd4
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # Configuration organisationnelle
 
-Dans le cadre de l’organisation de vos utilisateurs dans [!DNL Adobe Workfront], vous pouvez les associer à des rôles de travail ou à des entreprises.
+Dans le cadre de l’organisation des utilisateurs dans [!DNL Adobe Workfront], vous pouvez les associer à des rôles de travail ou à des entreprises.
 
 Cette section contient les articles suivants :
 

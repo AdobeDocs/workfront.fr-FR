@@ -4,11 +4,12 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Gestion de la sécurité
-description: Cette section contient les articles relatifs à la protection de la propriété intellectuelle dans [!DNL Workfront Proof].
+description: Cette section contient les articles relatifs à la gestion de la sécurité dans [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 4db4c3b4-14fa-4222-ad52-d29a3ffc9736
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 0%

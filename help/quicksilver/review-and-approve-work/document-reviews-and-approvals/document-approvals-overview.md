@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Nouvelle présentation des approbations de documents
 description: Vous pouvez ajouter d’autres approbateurs ou réviseurs à un document dont les validations sont déjà en attente.
 author: Nolan
-feature: Work Management
-source-git-commit: c36dda4894f04bc06d8d63455445484b3f3eeb7a
+feature: Work Management, Digital Content and Documents
+exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Nouvelle présentation des approbations de documents
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur les fonctionnalités et versions planifiées pour
 * **Participation des parties prenantes**\
     Les nouvelles approbations de document permettent d’inclure des contributeurs individuels et des équipes entières dans le processus d’approbation. Faciliter cette plus large participation permet d&#39;assurer une participation globale des parties prenantes et favorise un environnement décisionnel plus informé et plus collaboratif.
 
-* **Différenciation des rôles de révision et d’approbation**\
+* **Différents rôles de révision et d’approbation**\
     Les nouvelles approbations de document sont conçues pour reconnaître et respecter les différents rôles du processus d’approbation. En permettant d’identifier et de désigner les réviseurs, c’est-à-dire les utilisateurs qui sont avertis de fournir leurs commentaires, mais qui n’ont pas autorité pour prendre des décisions, la qualité des commentaires est améliorée tout en maintenant la clarté de l’autorité d’approbation finale.
 
 * **Approbations spécifiques aux versions**\

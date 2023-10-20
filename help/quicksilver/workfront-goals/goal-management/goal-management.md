@@ -6,8 +6,9 @@ title: Gestion des objectifs dans les objectifs Adobe Workfront
 description: Consultez les articles suivants pour savoir où commencer avec les objectifs de Workfront, l’importance de l’utilisation des objectifs, comment créer, modifier, commenter et gérer les objectifs, ainsi que comment filtrer et imprimer les informations d’objectif.
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -44,7 +45,7 @@ For additional information about access to Workfront Goals, see [Requirements to
 >
 >* A Pro ou version ultérieure [Formule Adobe Workfront](https://www.workfront.com/plans).
 >* Une licence Adobe Workfront Goals en plus d’une licence Workfront.
-   >Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
+>Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 >
 >Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
@@ -65,5 +66,5 @@ Consultez les articles suivants pour savoir où commencer avec les objectifs de 
 * [Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
 * [Filtrage des informations dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
-* [Mise à jour des objectifs dans la section Détails de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
+* [Mise à jour des objectifs dans la section Détails des objectifs d’Adobe Workfront](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
 * [Révision des objectifs en difficulté dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/view-in-trouble-goals.md)

@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Rappeler les validations envoyées
 description: Vous pouvez vous souvenir de l’un des objets suivants soumis à validation.
 author: Courtney and Alina
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 7dbb9ca9b26f17710a7897e98dca109b5c886bd7
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Vous pouvez vous souvenir de l’un des objets suivants soumis à validation :
 
 * Projets
 * Tâches
-* Événements
+* Problèmes
 * Feuilles de temps
 * Documents
 * Demandes d&#39;accès
@@ -57,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Lorsque vous rappelez l’approbation d’un projet, celui-ci reprend son état avant le lancement du processus d’approbation.
 
-Si vous rappelez une validation associée au statut de début du projet, le processus d’approbation est ignoré et le projet reste dans le statut de début.
+Si vous vous souvenez d’une validation associée à l’état de début du projet, le processus d’approbation est ignoré et le projet reste dans l’état de début.
 
 >[!NOTE]
 >
@@ -68,10 +68,11 @@ Pour rappeler une approbation de projet que vous avez envoyée :
 1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
+   >
    Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >
    * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
-
 
 1. Dans le **Liste de tâches** , accédez à la **Validations que j’ai envoyées** regroupement.
 
@@ -90,6 +91,7 @@ Lorsque vous rappelez la validation d’une tâche, celle-ci reprend son état a
 Si vous rappelez une validation associée au statut de début de la tâche, le processus de validation est ignoré et la tâche reste dans le statut de début.
 
 >[!NOTE]
+>
 Vous pouvez associer le premier état d’un projet ou d’une tâche à un processus de validation à l’aide d’un modèle. Pour plus d’informations sur l’ajout de validations à un modèle, voir [Modifier des modèles de projet](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 Pour rappeler une validation de tâche que vous avez envoyée :
@@ -97,10 +99,11 @@ Pour rappeler une validation de tâche que vous avez envoyée :
 1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
+   >
    Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >
    * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
-
 
 1. Dans le **Liste de tâches** , accédez à la **Validations que j’ai envoyées** regroupement.
 
@@ -112,22 +115,24 @@ Pour rappeler une validation de tâche que vous avez envoyée :
 
 1. Cliquez sur **Rappeler** dans le coin supérieur droit du panneau de droite.
 
-## Événements
+## Problèmes
 
 Lorsque vous rappelez l’approbation d’un problème, celui-ci revient à son état avant le lancement du processus d’approbation.
 
 Si vous rappelez une validation associée à l’état de début de la publication, le processus d’approbation est ignoré et le problème reste dans l’état de début.
 
 >[!NOTE]
-Vous pouvez associer le premier état d&#39;un problème à un processus de validation à l&#39;aide d&#39;un modèle. Pour plus d’informations sur la création d’une file d’attente de requêtes, voir [Création d’une file d’attente de requête](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+>
+Vous pouvez associer le premier statut d&#39;une question à un processus de validation à l&#39;aide d&#39;un modèle. Pour plus d’informations sur la création d’une file d’attente de requêtes, voir [Création d’une file d’attente de requête](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
+   >
    Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >
    * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
-
 
 1. Dans le **Liste de tâches** , accédez à la **Validations que j’ai envoyées** regroupement.
 
@@ -146,10 +151,11 @@ Lorsque vous rappelez une approbation de feuille de temps, celle-ci revient à l
 1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
+   >
    Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >
    * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
-
 
 1. Dans le **Liste de tâches** , accédez à la **Validations que j’ai envoyées** regroupement.
 
@@ -168,10 +174,11 @@ Pour rappeler une approbation de document, vous devez supprimer manuellement un 
 1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
+   >
    Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >
    * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
-
 
 1. Dans le **Liste de tâches** , accédez à la **Validations que j’ai envoyées** regroupement.
 
@@ -191,10 +198,11 @@ Pour rappeler une approbation de document, vous devez supprimer manuellement un 
 1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
+   >
    Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >
    * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
-
 
 1. Dans le **Liste de tâches** , accédez à la **Validations que j’ai envoyées** regroupement.
 

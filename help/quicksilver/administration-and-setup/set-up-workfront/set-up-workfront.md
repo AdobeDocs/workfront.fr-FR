@@ -8,8 +8,9 @@ description: Comme [!DNL Workfront] administrateur, vous pouvez configurer les p
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: a6a6a224-f938-4a19-a708-f00568ca6a88
-source-git-commit: 3a565a58dfa6008e00722eca4f7b1dbc2b47a08e
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
@@ -23,5 +24,5 @@ Cette section contient les sous-sections suivantes :
 * [Configuration des paramètres système par défaut](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
 * [Configuration des feuilles de temps et des plannings](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
 * [Configuration organisationnelle](../../administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-* [Flux de mises à jour trackées par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+* [Flux de mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
 * [[!DNL Adobe Workfront] environnements de test](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)

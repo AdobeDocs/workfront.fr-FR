@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Associer un processus d’approbation nouveau ou existant au travail
 description: Cet article décrit comment associer les processus d’approbation aux tâches. Pour plus d’informations sur l’association d’approbations avec des BAT ou des documents, consultez les articles suivants.
 author: Courtney and Alina
-feature: Work Management
-exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 7dbb9ca9b26f17710a7897e98dca109b5c886bd7
+feature: Work Management, Digital Content and Documents
+sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
+source-git-commit: e375408e6ccc25ff8d5c1e4f6c4fc7da2208db46
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 0%
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 # Associer un processus d’approbation nouveau ou existant au travail
 
-Cet article décrit comment associer les processus d’approbation aux tâches. Pour plus d’informations sur l’association d’approbations avec des BAT ou des documents, consultez les articles suivants :
+Cet article décrit comment associer les processus d’approbation aux tâches. Pour plus d’informations sur l’association d’approbations à des BAT ou à des documents, consultez les articles suivants :
 
 * [Créer un BAT avancé avec un workflow automatisé](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 * [Demande d’approbation de documents](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-Vous pouvez associer un processus d’approbation global ou à usage unique à un élément de travail dans Adobe Workfront. Les scénarios suivants existent :
+Vous pouvez associer un processus d’approbation global ou à usage unique à une tâche dans Adobe Workfront. Les scénarios suivants existent :
 
 * Associez un processus d’approbation globale existant à un projet, une tâche, un problème, un modèle ou une tâche de modèle. Certains processus d’approbation globale sont disponibles pour tous les groupes du système. Les processus d’approbation globale au niveau du groupe ne sont disponibles que pour certains groupes.
-* Créez un processus d’approbation à usage unique et associez-le à une tâche, à une tâche, à un problème, à un modèle ou à une tâche de modèle existante.
+* Créez un processus d’approbation à usage unique et associez-le à une tâche, un projet, un problème, un modèle ou un modèle existant.
 
 >[!NOTE]
 >
@@ -79,15 +79,15 @@ Outre les considérations décrites ci-dessous, nous vous recommandons de revoir
 * Vous devez créer la tâche de projet, de tâche, de publication, de modèle ou de modèle avant que le processus de validation puisse y être associé.
 * Lorsque vous joignez un processus d’approbation à un élément pour un état qui a été transmis et dans lequel l’élément est actuellement, le processus d’approbation ne sera pas déclenché et aucune notification n’est envoyée aux approbateurs.
 
-   **Exemple :** Si une tâche est dans l’état Terminé et que vous joignez un processus de validation associé à l’état Terminé, la validation ne se déclenche pas.
+  **Exemple :** Si une tâche est dans l’état Terminé et que vous joignez un processus de validation associé à l’état Terminé, la validation ne se déclenche pas.
 
 * Lorsque vous attachez un processus d’approbation au premier état d’un élément (en utilisant un modèle pour les tâches et les projets, en utilisant les paramètres Configuration de la file d’attente pour les problèmes ou en définissant les Paramètres de tâche d’un projet pour les nouvelles tâches), les processus d’approbation sont ignorés si la validation envoyée est rappelée. Dans ce cas, les approbateurs ne reçoivent aucune notification.
 
-   Pour plus d’informations sur le rappel des validations, voir [Afficher les approbations](../../review-and-approve-work/manage-approvals/view-approvals.md).
+  Pour plus d’informations sur le rappel des validations, voir [Afficher les approbations](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
-   >[!TIP]
-   >
-   >Le premier état d’une tâche ou d’un problème est Nouveau. Le premier état d’un projet est l’état sélectionné par votre administrateur Workfront dans les préférences du projet de votre système. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >[!TIP]
+  >
+  >Le premier état d’une tâche ou d’un problème est Nouveau. Le premier état d’un projet est l’état sélectionné par votre administrateur Workfront dans les préférences du projet de votre système. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * L’association des processus d’approbation à un objet n’est pas enregistrée dans la zone Mises à jour de l’objet.
 * Vous ne pouvez pas associer un processus de validation à une tâche parente.
@@ -102,11 +102,13 @@ Vous pouvez associer un processus d’approbation globale à un élément de tra
 Le processus d’approbation globale doit être disponible pour le groupe associé à l’élément de travail ou pour tous les groupes du système.
 
 >[!NOTE]
+>
 Vous pouvez associer des processus d’approbation de projet à un modèle et des processus d’approbation de tâche à une tâche de modèle. Ensuite, lorsqu’une personne utilise le modèle pour créer un projet, le processus d’approbation devient un processus d’approbation de projet ou de tâche, respectivement. Un processus de validation à usage unique associé à une tâche de modèle ou de modèle reste un processus de validation à usage unique pour les projets et les tâches.
 
 Pour plus d’informations sur la façon dont les administrateurs de Workfront peuvent configurer un processus d’approbation globale pour tous les groupes du système et sur la manière dont les administrateurs de groupe peuvent créer des approbations pour un groupe, voir [Créer un processus d’approbation pour les tâches](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 >[!NOTE]
+>
 Vous pouvez également modifier un processus global d’approbation pour répondre à vos besoins spécifiques. Pour plus d’informations, voir la section [Modification d’un processus d’approbation global en vue d’une utilisation sur un objet spécifique](#modify-a-global-approval-process-for-use-on-a-specific-object) dans cet article.
 
 Pour associer un processus d’approbation globale existant à un projet, une tâche, un problème, un modèle ou une tâche de modèle :
@@ -142,12 +144,14 @@ La modification d’un processus d’approbation globale associé à un élémen
 Vous pouvez modifier un processus d’approbation globale en fonction des besoins spécifiques du projet, de la tâche ou du problème que vous associez à celui-ci.
 
 >[!IMPORTANT]
+>
 Lorsque vous modifiez un processus d’approbation globale, il devient un processus d’approbation à usage unique qui ne peut être utilisé que sur l’objet sur lequel vous l’avez modifié. Le processus d&#39;approbation globale reste inchangé.
+>
 Tenez compte des restrictions suivantes lors de la modification d’un processus d’approbation globale :
+>
 * Le processus d’approbation n’est modifié que pour le projet, la tâche ou le problème auquel vous associez le processus d’approbation.
 * Les modifications futures apportées par un administrateur au processus d’approbation globale d’origine ne reflètent pas le processus d’approbation globale que vous avez modifié.
 >
-
 
 Pour modifier un processus de validation déjà associé à un élément :
 
@@ -156,6 +160,7 @@ Pour modifier un processus de validation déjà associé à un élément :
    Pour obtenir des instructions, reportez-vous à la section [Associer un processus d’approbation globale à un élément de travail](#associate-a-global-approval-process-with-a-work-item) dans cet article.
 
    >[!IMPORTANT]
+   >
    Assurez-vous de cliquer sur **Enregistrer** lors de l&#39;ajout de la validation.
 
 1. Une fois le processus d’approbation globale ajouté, cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png) dans le coin supérieur droit de la page d’approbation. Cette action transforme le processus d’approbation global ou au niveau du groupe en un processus d’approbation à usage unique.
@@ -169,6 +174,7 @@ Vous pouvez créer un processus d’approbation à usage unique à utiliser uniq
 Vous pouvez également associer un processus de validation à usage unique à une tâche de modèle ou de modèle afin qu’elle soit disponible sur les projets et tâches créés à partir du modèle.
 
 >[!NOTE]
+>
 Vous pouvez associer un processus d’approbation à usage unique à n’importe quel état au niveau du système ou du groupe pour une tâche de projet, de tâche, de problème, de modèle ou de modèle. Pour plus d’informations sur les états Workfront, voir [Création ou modification d’un état](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 La création d&#39;un processus d&#39;approbation permet ainsi de créer un processus d&#39;approbation personnalisé en fonction de vos besoins. Cependant, le processus d’approbation ne peut plus être associé à d’autres tâches à l’avenir.
@@ -188,17 +194,18 @@ Pour créer un processus de validation à usage unique :
 
    ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
-1. Suivez les étapes commençant par l’étape 6 de la section &quot;Création d’un processus d’approbation globale au niveau du système ou du groupe pour les tâches&quot; de l’article. [Créer un processus d’approbation pour les tâches](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. Suivez les étapes commençant par l’étape 6 de la section &quot;Créer un processus d’approbation globale au niveau du système ou du groupe pour les tâches&quot; de l’article. [Créer un processus d’approbation pour les tâches](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: overtime, ensure step 6 is still accurate here)&nbsp;</p>
    -->
 
    >[!TIP]
+   >
    Une fois que vous avez joint le processus de validation à usage unique, il s’affiche sous la forme &quot;`<Custom>`&quot; dans le champ Processus de validation de la boîte d’édition des modèles et des tâches de modèle. Pour plus d’informations sur la modification de modèles ou de tâches de modèle, reportez-vous aux articles suivants :
+   >
    * [Modifier des modèles de projet](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
    * [Modifier une tâche de modèle](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
-
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
@@ -224,7 +231,7 @@ Pour supprimer ou supprimer un processus d’approbation d’un élément de tra
 
 1. Cliquez sur l’une des icônes suivantes dans le coin supérieur droit de la section Validations , selon le type de validation associé à l’élément :
 
-   * **La suppression** icon ![](assets/remove-icon---x-in-circle.png) pour les approbations globales ou de niveau groupe.
+   * **La commande Supprimer** icon ![](assets/remove-icon---x-in-circle.png) pour les approbations globales ou de niveau groupe.
    * **La suppression** icon ![](assets/delete.png) pour les validations à usage unique.
 
 1. Cliquez sur **Supprimer** ou **Supprimer** pour confirmer.

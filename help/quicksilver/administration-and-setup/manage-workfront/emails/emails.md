@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: E-mails
-description: Les courriers électroniques dans Adobe Workfront se composent de notifications, de rappels et d’invitations d’utilisateurs. Les administrateurs système sont chargés de la définition de la plupart des paramètres de courrier électronique. cependant, d’autres utilisateurs (en fonction du niveau d’accès) peuvent bénéficier de l’utilisation de fonctionnalités de messagerie électronique pour gérer leur propre communication sur le travail.
+description: Les courriers électroniques dans Adobe Workfront se composent de notifications, de rappels et d’invitations d’utilisateurs. Les administrateurs système sont chargés de définir de nombreux paramètres de courrier électronique. Cependant, d’autres utilisateurs (en fonction du niveau d’accès) peuvent bénéficier de l’utilisation de fonctionnalités de courrier électronique pour gérer leur propre communication sur le travail.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # E-mails
 
-Les courriers électroniques dans Adobe Workfront se composent de notifications, de rappels et d’invitations d’utilisateurs. Les administrateurs système sont chargés de la définition de la plupart des paramètres de courrier électronique. cependant, d’autres utilisateurs (en fonction du niveau d’accès) peuvent bénéficier de l’utilisation de fonctionnalités de messagerie électronique pour gérer leur propre communication sur le travail.
+Les courriers électroniques dans Adobe Workfront se composent de notifications, de rappels et d’invitations d’utilisateurs. Les administrateurs système sont chargés de définir de nombreux paramètres de courrier électronique. Cependant, d’autres utilisateurs (en fonction du niveau d’accès) peuvent bénéficier de l’utilisation de fonctionnalités de courrier électronique pour gérer leur propre communication sur le travail.
 
 Les emails dans Workfront (internes et externes) sont variés et dynamiques. Des communications automatiques peuvent être envoyées aux utilisateurs les informant lorsque les tâches sont en retard. Les notifications peuvent être définies pour un élément de travail spécifique afin de rappeler à l’utilisateur lorsqu’une tâche approche une date d’échéance. Des invitations peuvent être configurées pour permettre aux utilisateurs d’établir leurs propres mots de passe, plutôt que de demander à l’administrateur système de les gérer.
 

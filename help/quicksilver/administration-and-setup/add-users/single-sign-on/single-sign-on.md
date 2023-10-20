@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
 title: Authentification unique dans Adobe Workfront
-description: Vous pouvez intégrer Workfront à votre solution d’authentification unique d’entreprise existante. Cette configuration est facile à configurer et à gérer. Elle est disponible pour les clients OnDemand et OnPremise Enterprise.
+description: Vous pouvez intégrer Workfront à votre solution SSO d’entreprise existante. Cette configuration est facile à configurer et à gérer. Elle est disponible pour les clients OnDemand et OnPremise Enterprise.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
-source-git-commit: 2cbdd0cb065dee01ad128d782334a55233c13156
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

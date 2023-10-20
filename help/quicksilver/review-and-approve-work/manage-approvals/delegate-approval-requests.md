@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Déléguer la demande d’approbation
 description: Déléguer des demandes d’approbation permet d’affecter un autre utilisateur à l’approbation de vos demandes pendant une période donnée, par exemple si vous êtes absent du bureau en vacances.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: d04afc0cc55a71e48c357af2ed4446c22dab1ba4
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 0%
@@ -24,7 +24,6 @@ Vous pouvez déléguer temporairement la tâche à laquelle vous êtes affecté 
 >* [Création d’un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [Modification du profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## Exigences d’accès
 
@@ -47,7 +46,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur Workfront.
+&#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur Workfront.
 
 ## Comprendre l’accès des utilisateurs pour les approbations déléguées
 
@@ -57,18 +56,18 @@ Au cours de la période de validation désignée, l’utilisateur à qui vous d�
 * Peuvent approuver et rejeter les nouvelles demandes de validation reçues au cours d’une période spécifiée
 * Accorde l’accès Affichage aux objets en attente d’approbation
 
-   >[!NOTE]
-   >
-   > L’administrateur Adobe Workfront peut empêcher les utilisateurs d’accéder à certains types d’objets. Lorsqu’un utilisateur n’a pas accès à un type d’objet et qu’une approbation de ce type est déléguée à l’utilisateur, celui-ci ne dispose pas de l’accès Affichage à l’objet. Cependant, l’utilisateur peut toujours approuver ou rejeter les demandes d’approbation de la **Accueil** , comme décrit dans la section [Valider le travail](../../review-and-approve-work/manage-approvals/approving-work.md).\
-   Par exemple, l’utilisateur A appartient au groupe A. L’administrateur de Workfront a restreint les droits d’accès au groupe A afin que les utilisateurs de ce groupe ne puissent pas afficher les tâches dans Workfront. Si une demande d’approbation de tâche est déléguée à l’utilisateur A, l’utilisateur A ne peut pas afficher la tâche à laquelle elle est associée. Cependant, l’utilisateur A peut approuver ou rejeter la demande de validation à partir de la page d’accueil.
+  >[!NOTE]
+  >
+  > L’administrateur Adobe Workfront peut empêcher les utilisateurs d’accéder à certains types d’objets. Lorsqu’un utilisateur n’a pas accès à un type d’objet et qu’une approbation de ce type est déléguée à l’utilisateur, celui-ci ne dispose pas de l’accès Affichage à l’objet. Cependant, l’utilisateur peut toujours approuver ou rejeter les demandes d’approbation de la **Accueil** , comme décrit dans la section [Valider le travail](../../review-and-approve-work/manage-approvals/approving-work.md).\
+  Par exemple, l’utilisateur A appartient au groupe A. L’administrateur de Workfront a restreint les droits d’accès au groupe A afin que les utilisateurs de ce groupe ne puissent pas afficher les tâches dans Workfront. Si une demande d’approbation de tâche est déléguée à l’utilisateur A, l’utilisateur A ne peut pas afficher la tâche à laquelle elle est associée. Cependant, l’utilisateur A peut approuver ou rejeter la demande de validation à partir de la page d’accueil.
 
-   Pour plus d’informations sur la manière dont l’administrateur de Workfront peut restreindre l’accès aux types d’objets dans Configuration, voir  [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+  Pour plus d’informations sur la manière dont l’administrateur de Workfront peut restreindre l’accès aux types d’objets dans Configuration, voir  [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
 Une fois la délégation d’approbation arrêtée ou annulée, l’utilisateur désigné comme approbateur :
 
 * N’a plus accès à l’approbation du travail pour les éléments qui doivent être approuvés.
 * Continue d’avoir l’accès Affichage aux tâches\
-   Les utilisateurs auxquels l’accès aux objets a été accordé via une délégation d’approbation conservent cet accès même après l’arrêt ou le rappel de la délégation d’approbation. Pour supprimer l’accès aux vues des objets auxquels l’utilisateur a eu accès au moment de la délégation des approbations, vous devez accéder à l’objet et supprimer les droits d’accès directement de l’objet.
+  Les utilisateurs auxquels l’accès aux objets a été accordé via une délégation d’approbation conservent cet accès même après l’arrêt ou le rappel de la délégation d’approbation. Pour supprimer l’accès aux vues des objets auxquels l’utilisateur a eu accès au moment de la délégation des approbations, vous devez accéder à l’objet et supprimer les droits d’accès directement de l’objet.
 
 ## Déléguer les demandes d’approbation dans la zone Accueil
 
@@ -89,8 +88,8 @@ Vous ne pouvez pas déléguer les approbations de feuille de temps et de documen
 Tenez compte des points suivants lors de la délégation des approbations :
 
 * Lorsque vous déléguez des approbations, toutes vos approbations sont déléguées. Vous ne pouvez pas déléguer des demandes de validation individuelles.
-* Vous ne pouvez déléguer les validations qu’à un seul utilisateur ; vous ne pouvez pas déléguer les approbations à plusieurs utilisateurs en même temps.\
-   Toutes les approbations pour tous les projets, tâches et problèmes sont déléguées à l’utilisateur désigné.
+* Vous ne pouvez déléguer les approbations qu’à un seul utilisateur ; vous ne pouvez pas déléguer les approbations à plusieurs utilisateurs en même temps.\
+  Toutes les approbations pour tous les projets, tâches et problèmes sont déléguées à l’utilisateur désigné.
 * Au maximum 5 utilisateurs peuvent déléguer des approbations au même utilisateur en même temps. En d’autres termes, un seul utilisateur ne peut pas être désigné comme approbateur temporaire pour plus de 5 utilisateurs en même temps.
 * L’activité relative aux validations s’affiche dans l’onglet Mises à jour . L’option Afficher les mises à jour du système doit être activée. L’utilisateur déléguant la validation et l’utilisateur à qui les validations sont déléguées reçoivent tous deux une notification par email concernant l’activité de validation.
 
@@ -99,16 +98,17 @@ Pour déléguer des approbations à un autre utilisateur :
 1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
+   >
    Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >
    * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
-
    Ou
 
-   Cliquez sur le bouton **Menu Principal** icon > **votre nom** > **Time Off** dans le panneau de gauche.
+   Cliquez sur le bouton **Menu Principal** icon > **votre nom** > **Heure de désactivation** dans le panneau de gauche.
 
-1. (Facultatif et conditionnel) Dans la zone Accueil, cliquez sur le bouton **Filtrer** menu déroulant, puis cliquez sur **Approbations**.
+1. (Facultatif et conditionnel) Dans la zone Accueil, cliquez sur le bouton **Filtrer** , puis cliquez sur **Approbations**.
 
 1. (Conditionnel) Cliquez sur **Déléguer mes approbations**
 
@@ -120,9 +120,9 @@ Pour déléguer des approbations à un autre utilisateur :
 
 1. Indiquez les informations suivantes dans la section Déléguer mes approbations :
 
-   * **Nom**: Commencez à saisir le nom de l’utilisateur à qui vous souhaitez déléguer les approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
-   * **Date de début**: Sélectionnez la date de début du transfert des validations. Le transfert commence à 00:00 à la date que vous sélectionnez.\
-      La Date de début doit être la date actuelle ou ultérieure.
+   * **Nom**: commencez à saisir le nom de l’utilisateur à qui vous souhaitez déléguer les approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
+   * **Date de début**: sélectionnez la date de début du transfert des validations. Le transfert commence à 00:00 à la date que vous sélectionnez.\
+     La Date de début doit être la date actuelle ou ultérieure.
    * **Date de fin**:effectuez l’une des opérations suivantes :
 
       * Sélectionnez la date à laquelle les validations doivent cesser d&#39;être transférées. Le transfert se termine à 23 h 59 à la date que vous sélectionnez.
@@ -135,12 +135,13 @@ Pour déléguer des approbations à un autre utilisateur :
 1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
+   >
    Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >
    * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
-
-1. Cliquez sur le bouton **Filtrer** menu déroulant, puis cliquez sur **Approbations**.
+1. Cliquez sur le bouton **Filtrer** , puis cliquez sur **Approbations**.
 
 1. (Conditionnel) Cliquez sur **Modifier la délégation**
 
@@ -150,11 +151,11 @@ Pour déléguer des approbations à un autre utilisateur :
 
 1. (Conditionnel) Effectuez l’une des opérations suivantes :
 
-   * Pour mettre à jour la délégation de validation existante : Modifiez les informations affichées, puis cliquez sur **Enregistrer**.
+   * Pour mettre à jour la délégation de validation existante : modifiez les informations affichées, puis cliquez sur **Enregistrer**.
 
-   * Pour arrêter la délégation existante : Cliquez sur **Arrêter la délégation**, puis cliquez sur **Arrêter la délégation** pour confirmer.
+   * Pour arrêter la délégation existante : cliquez sur **Arrêter la délégation**, puis cliquez sur **Arrêter la délégation** pour confirmer.
 
-      ![](assets/stop-delegation-nwe.png)
+     ![](assets/stop-delegation-nwe.png)
 
 ### Afficher les validations déléguées {#view-delegated-approvals}
 
@@ -169,12 +170,13 @@ Pour afficher les validations déléguées :
 1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
+   >
    Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >
    * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
-
-1. Cliquez sur le bouton **Filtrer** menu déroulant, puis cliquez sur **Approbations**.\
+1. Cliquez sur le bouton **Filtrer** , puis cliquez sur **Approbations**.\
    Par défaut, toutes les validations sont répertoriées dans la liste, y compris les validations qui vous ont été attribuées et les validations qui vous ont été déléguées.
 
    ![](assets/delegated-to-me-nwe-350x93.png)

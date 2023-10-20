@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Valider le travail
 description: Valider le travail
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Si vous êtes défini en tant qu’approbateur, vous devez régulièrement exami
 
 Pour plus d’informations sur la création de processus de validation, voir [Créer un processus d’approbation pour les tâches](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Pour plus d’informations sur l’association des validations à un travail dans Workfront, voir [Associer un processus d’approbation nouveau ou existant au travail](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Pour plus d’informations sur l’association des approbations à un travail dans Workfront, voir [Associer un processus d’approbation nouveau ou existant au travail](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Exigences d’accès
 
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Consulter ou accéder à un niveau supérieur ou supérieur aux objets associés aux validations</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Consulter ou accéder à des objets associés à des validations</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -72,7 +72,6 @@ Pour plus d’informations sur l’affichage des éléments en attente d’appro
    >* Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    >* Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
-
 1. Cliquez sur le bouton **Filtrer** menu déroulant.
 
    ![](assets/displaying-work-items-filters-nwe-350x401.png)
@@ -99,32 +98,32 @@ Pour plus d’informations sur l’affichage des éléments en attente d’appro
 
    * **Feuilles de temps :** Cliquez sur **Approuver** ou **Rejeter** .
 
-   * **Documents :** Cliquez sur **Approuver**, **Rejeter** ou **Modifications**.\
-       Tenez compte des points suivants lors de l’affichage des approbations :
+   * **Documents :** Cliquez sur **Approuver**, **Rejeter**, ou **Modifications**.\
+      Tenez compte des points suivants lors de l’affichage des approbations :
 
       * Les validations de BAT s&#39;affichent ici lorsqu&#39;un utilisateur partage un BAT avec vous, comme décrit dans la section &quot;Partager un lien vers un BAT&quot; de l&#39;article. [Partage d’un BAT dans Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
       * Les validations de vérification ne s’affichent dans la zone Accueil que si votre environnement Workfront est intégré à un compte Workfront BAT Premium. Si vous ne pouvez pas utiliser le correctif comme décrit ici, contactez votre administrateur Workfront.
       * Vous recevez une notification in-app, vous informant de la validation.\
-         Pour plus d’informations sur les notifications in-app, voir [Affichage et gestion des notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+        Pour plus d’informations sur les notifications in-app, voir [Affichage et gestion des notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-      * Le nom de l’utilisateur qui a demandé l’approbation est affiché en regard de l’image miniature dans la zone Accueil, avec le texte suivant :\
-         &quot;*Utilisateur A* Je voudrais votre approbation sur...&quot;
+      * Le nom de l’utilisateur qui a demandé l’approbation s’affiche en regard de l’image miniature dans la zone Accueil, avec le texte suivant :\
+        &quot;*Utilisateur A* Je voudrais votre approbation sur...&quot;
 
-         <!--      
+        <!--      
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
         (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
         </MadCap:conditionalText>      
         -->
 
-         Si le nom d’utilisateur n’est pas disponible, le texte suivant s’affiche :\
-         &quot;Une nouvelle version d&#39;un BAT est prête à être affichée&quot;
+        Si le nom d’utilisateur n’est pas disponible, le texte suivant s’affiche :\
+        &quot;Une nouvelle version d&#39;un BAT est prête à être affichée&quot;
       * Pour prendre une décision concernant la validation du BAT, cliquez sur **Accéder à Bon à tirer**, cliquez sur **Terminer la révision**, puis cliquez sur l’une des options disponibles. Les options disponibles lors de la validation d&#39;un BAT sont les suivantes : **Approuvé**, **Approuvé avec modifications**, **Modifications requises**, et **Non pertinent**.
 
-      * Une fois qu’une décision a été prise sur le BAT, le BAT reste dans l’onglet Mes approbations avec le texte &quot;Décision effectuée&quot; jusqu’à ce que vous cliquiez sur l’onglet **Actualiser** ou jusqu’à ce que vous actualisiez la page du navigateur.
+      * Une fois qu’une décision a été prise sur le BAT, le BAT reste dans l’onglet Mes approbations avec le texte &quot;Décision effectuée&quot; jusqu’à ce que vous cliquiez sur la **Actualiser** ou jusqu’à ce que vous actualisiez la page du navigateur.
 
-         Pour plus d’informations sur la révision d’un BAT, voir [Vérification des bons à tirer dans Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-   * **Accès :** Sélectionnez le niveau d’accès à accorder dans le **Modifier l’accès** menu déroulant, puis cliquez sur **Accorder l’accès**. Ou cliquez sur **Ignorer**.
+        Pour plus d’informations sur la révision d’un BAT, voir [Vérification des bons à tirer dans Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
+   * **Accès :** Sélectionnez le niveau d’accès à accorder dans le **Modifier l’accès** , puis cliquez sur **Accorder l’accès**. Ou cliquez sur **Ignorer**.
 
 ## Approuver le travail directement à partir d’un projet, d’une tâche ou d’un problème
 
@@ -150,7 +149,7 @@ Pour approuver le travail directement à partir d’un projet, d’une tâche ou
      </tr> 
      <tr> 
       <td role="rowheader">Etapes de validation</td> 
-      <td>Les étapes du processus de validation. <br>L'étape en cours de validation est affichée comme En attente . Les étapes qui ont déjà été approuvées s’affichent comme Approuvé . les étapes qui n’ont pas encore été approuvées s’affichent comme Pas commencé .</td> 
+      <td>Les étapes du processus de validation. <br>L'étape en cours de validation est affichée comme En attente . Les étapes qui ont déjà été approuvées s’affichent comme Approuvé ; les étapes qui n’ont pas encore été approuvées s’affichent comme Pas commencé .</td> 
      </tr> 
     </tbody> 
    </table>
@@ -161,7 +160,7 @@ Pour approuver le travail directement à partir d’un projet, d’une tâche ou
 ## Approuver un document directement à partir d’un document 
 
 1. Accédez à la zone de documents contenant le document qui doit être approuvé.
-1. Sélectionnez le document, puis cliquez sur **Approuver**, **Modifications** ou **Rejeter**.\
+1. Sélectionnez le document, puis cliquez sur **Approuver**, **Modifications**, ou **Rejeter**.\
    ![](assets/approval-approve-document-350x215.png)\
    ![](assets/document-approval-350x199.png)
 
@@ -177,11 +176,11 @@ Selon vos paramètres de notification, vous pouvez recevoir des emails vous info
    * Affichez les métadonnées relatives au document.
    * Si un BAT a été créé pour la révision du document avec des balises et des commentaires, cliquez sur **BAT ouvert** ![](assets/open-proof-icon-qs.png) près du coin supérieur droit et vérifiez le BAT.
 
-      <!--   
+     <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-      Pour plus d’informations sur la vérification des BAT, voir [Vérification des bons à tirer dans Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     Pour plus d’informations sur la vérification des BAT, voir [Vérification des bons à tirer dans Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Cliquez sur un **Décision** dans le coin supérieur droit pour approuver, approuver avec des modifications ou rejeter le document.
 

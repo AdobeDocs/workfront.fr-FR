@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Présentation des documents et des BAT limités pour les utilisateurs non payants 
 description: Les décisions relatives aux BAT et aux documents sont limitées pour toutes les licences Workfront non payantes. Limites réinitialisées chaque mois selon l’utilisateur.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 6%

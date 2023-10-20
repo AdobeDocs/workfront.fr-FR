@@ -2,11 +2,11 @@
 product-area: documents
 navigation-topic: approvals
 title: Ajouter des approbateurs supplémentaires aux validations de documents envoyées
-description: Vous pouvez ajouter d’autres approbateurs à la validation du document directement depuis la zone Accueil.
+description: Vous pouvez ajouter d’autres approbateurs à la validation d’un document directement depuis la zone Accueil .
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Ajouter des approbateurs supplémentaires aux validations de documents envoyées
 
-Vous pouvez ajouter d’autres approbateurs à la validation du document directement depuis la zone Accueil.
+Vous pouvez ajouter d’autres approbateurs à la validation d’un document directement depuis la zone Accueil .
 
 ## Exigences d’accès
 
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Consulter l’objet associé à l’accès ou à l’approbation de la demande ou un accès supérieur à cet objet </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Visualiser l'accès ou l'accès supérieur à l'objet associé à la validation ou à l'accès à la demande </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,8 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >* Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
    >* Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
 
-
-1. Dans le **Liste de tâches** , accédez à la zone **Validations que j’ai envoyées** regroupement.
+1. Dans le **Liste de tâches** , accédez à **Validations que j’ai envoyées** regroupement.
 
 1. Sélectionnez une **Document** validation.
 

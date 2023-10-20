@@ -7,8 +7,9 @@ title: Gestion des éléments supprimés
 description: En tant qu’administrateur Workfront, vous pouvez restaurer des projets, tâches, problèmes, documents et modèles Workfront s’ils ont été supprimés au cours des 30 derniers jours. Lorsque vous restaurez un objet, tous ses objets et champs enfants sont également restaurés.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 6b76ff52-2809-4d11-aeb0-a328e1efc489
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%

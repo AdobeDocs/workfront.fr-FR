@@ -2,19 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Relecture
+title: Vérification
 description: 'Cette section contient les sous-sections suivantes : MODIFIEZ-MOI.'
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: 9fda4318a644aba899cd5e7aa6b3b28b9bea7eee
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 22%
 
 ---
 
-# Relecture
+# Vérification
 
 Cette section contient les sous-sections suivantes :
 

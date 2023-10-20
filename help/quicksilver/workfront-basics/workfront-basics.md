@@ -5,8 +5,9 @@ title: Principes de base d’Adobe Workfront
 description: Consultez ces sections pour mieux comprendre les principes de base d’Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 18%
@@ -21,7 +22,7 @@ Cette section contient les sous-sections suivantes :
 * [Configuration requise pour le navigateur Adobe Workfront](../workfront-basics/workfront-browser-requirements.md)
 * [Langues prises en charge dans Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
 * [Navigation dans Adobe Workfront](../workfront-basics/navigate-workfront/navigate-workfront.md)
-* [Page d’accueil](../workfront-basics/using-home/home.md)
+* [Accueil](../workfront-basics/using-home/home.md)
 * [Mise à jour des tâches et affichage des mises à jour](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [Utilisation de formulaires personnalisés](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
 * [Utiliser des notifications](../workfront-basics/using-notifications/use-notifications.md)

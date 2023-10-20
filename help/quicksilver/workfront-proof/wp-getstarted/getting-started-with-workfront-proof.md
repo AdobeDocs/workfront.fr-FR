@@ -7,8 +7,9 @@ title: Prise en main d’ [!DNL Workfront Proof]
 description: 'Cette section contient les sous-sections suivantes : MODIFIEZ-MOI.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 17%

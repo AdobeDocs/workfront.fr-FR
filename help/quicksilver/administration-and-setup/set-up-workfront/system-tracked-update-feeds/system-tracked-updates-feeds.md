@@ -3,20 +3,21 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Flux de mises à jour trackées par le système
+title: Flux de mises à jour suivies par le système
 description: Adobe Workfront consigne l’activité qui se produit sur certains objets dans leur [!UICONTROL Mises à jour] zone. Une mise à jour du système comprend une brève note décrivant le type de changement survenu dans l’objet. [!DNL Workfront] Les administrateurs peuvent définir le type de modifications dont le système doit effectuer le suivi dans la variable [!UICONTROL Mises à jour] zone.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 3a565a58dfa6008e00722eca4f7b1dbc2b47a08e
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
-# Flux de mises à jour trackées par le système
+# Flux de mises à jour suivies par le système
 
 Cette section contient les articles suivants :
 

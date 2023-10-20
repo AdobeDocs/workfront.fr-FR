@@ -5,14 +5,15 @@ navigation-topic: projects-navigation-topic
 title: Créer des validations de document
 description: Cette section contient des articles sur la gestion des approbations de documents dans Adobe Workfront.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
+exl-id: 31eb7de4-aa45-4d97-bd00-7040936e15dc
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
 
 ---
-
 
 # Gestion des approbations de documents
 
@@ -23,5 +24,5 @@ ht-degree: 0%
 Cette section contient les articles suivants :
 
 * [Créer une validation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-* [Ajouter des validants ou validants supplémentaires à un document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+* [Ajouter des validants ou des validants supplémentaires à un document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [Suppression des approbateurs ou des réviseurs d’un document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)

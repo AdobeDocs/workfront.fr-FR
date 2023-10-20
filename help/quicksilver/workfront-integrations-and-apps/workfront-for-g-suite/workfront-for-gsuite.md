@@ -7,8 +7,9 @@ title: Adobe Workfront for G Suite
 description: Adobe Workfront for G Suite vous connecte à votre travail le plus important et vous permet de collaborer avec d’autres personnes tout en restant dans Gmail, Google Calendar et Google Drive. Sans quitter ces applications, vous pouvez capturer les demandes envoyées par courrier électronique ou les mises à jour de travail, puis les ajouter à Workfront. Vous pouvez vérifier ce qui se passe dans Workfront, notamment les dates d’échéance, la priorité, les documents, les mises à jour et le contexte supplémentaire, sans quitter la case. Vous pouvez prendre des décisions d’approbation, répondre à des commentaires ou accepter de nouvelles demandes de travail. Vous pouvez également convertir vos emails en tâches de projet personnelles ou attribuer un travail et une priorité à d’autres personnes.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront for G Suite] vous connecte à votre travail le plus important et vous permet de collaborer avec d’autres personnes tout en restant dans [!DNL Gmail], [!DNL Google Calendar], et [!DNL Google Drive]. Sans quitter ces applications, vous pouvez capturer les demandes envoyées par courrier électronique ou les mises à jour de travail, puis les ajouter à [!DNL Workfront]. Vous pouvez vérifier ce qui se passe dans [!DNL Workfront], notamment les dates d’échéance, la priorité, les documents, les mises à jour et le contexte supplémentaire, sans quitter votre boîte de réception. Vous pouvez prendre des décisions d’approbation, répondre à des commentaires ou accepter de nouvelles demandes de travail. Vous pouvez également convertir vos emails en tâches de projet personnelles ou attribuer un travail et une priorité à d’autres personnes.
 
-Ces articles d’aide peuvent vous aider à commencer à utiliser [!DNL Workfront for G Suite]:
+Ces articles d’aide peuvent vous aider à commencer [!DNL Workfront for G Suite]:
 
 * [Installer [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
 * [Confidentialité et autorisations dans Workfront pour G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
@@ -46,5 +47,5 @@ Ces informations expliquent comment créer des [!DNL Workfront] objets et mises 
 
 * [Transformer des emails [!DNL G Suite] en [!DNL Adobe Workfront] objets et mises à jour](../../workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
 * [Créez un [!DNL Adobe Workfront] tâche dans [!DNL G Suite] à l’aide du contenu d’un email](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
-* [Créez un [!DNL Adobe Workfront] Problème dans [!DNL G Suite] à l’aide du contenu d’un email](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+* [Créez un [!DNL Adobe Workfront] Problème dans [!DNL G Suite] avec le contenu d’un email](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
 * [Mettre à jour une [!DNL Adobe Workfront] élément de [!DNL G Suite] à l’aide du contenu d’un email](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)

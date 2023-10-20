@@ -6,8 +6,9 @@ title: Projets
 description: Pour plus d’informations sur les projets, reportez-vous aux sections suivantes.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 17ece62a-971d-4dc7-b9e3-ed79a3a4a157
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 4%

@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Ajout d’approbateurs ou de réviseurs à un document
 description: Vous pouvez ajouter d’autres approbateurs ou réviseurs à un document dont les validations sont déjà en attente.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # Ajout d’approbateurs ou de réviseurs à un document
 
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Consulter l’objet associé à l’accès ou à l’approbation de la demande ou un accès supérieur à cet objet </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Visualiser l'accès ou l'accès supérieur à l'objet associé à la validation ou à l'accès à la demande </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sélectionner **Approbations** dans le volet de gauche. Tous les approbateurs et réviseurs existants sont répertoriés ici.
 
-1. Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant de saisir du texte.
+1. Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant la saisie.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs ou réviseurs.
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou un réviseur dans la liste déroulante des versions. La dernière version est sélectionnée par défaut.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le volet Résumé du document, où sont répertoriés tous les approbateurs et réviseurs existants. Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant de saisir du texte.
+1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le volet Résumé du document, où sont répertoriés tous les approbateurs et réviseurs existants. Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant la saisie.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs ou réviseurs.
 

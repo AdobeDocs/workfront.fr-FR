@@ -3,9 +3,10 @@ filename: _outlook-365-add-in
 content-type: release-notes
 navigation-topic: announcements
 title: Module complémentaire Outlook 365
-description: 'Cette section contient les articles suivants : EDIT ME.'
+recommendations: noDisplay, noCatalog
+description: Les articles suivants sont disponibles dans cette section.
 author: Luke
-source-git-commit: 87a26e459d2b943cac7a123b7c7c53323d257d93
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 0%
@@ -17,5 +18,5 @@ ht-degree: 0%
 
 Cette section contient les articles suivants :
 
-* [Le Module Complémentaire Outlook 365 Est Désormais Disponible](../../product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
+* [Le Complément Outlook 365 Est Désormais Disponible](../../product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
 

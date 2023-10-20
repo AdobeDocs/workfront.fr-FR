@@ -6,8 +6,9 @@ title: Présentation des éléments de reporting
 description: 'Tous les rapports et listes Adobe Workfront sont une combinaison de trois éléments essentiels : vues, filtres et regroupements.'
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -22,11 +23,11 @@ Tous les rapports et listes Adobe Workfront sont une combinaison de trois élém
 * Un filtre
 * Un groupement
 
-Vous pouvez également ajouter des invites et des graphiques aux rapports.
+Vous pouvez également ajouter des invites et des graphiques aux rapports (facultatif).
 
-Pour plus d’informations sur la création d’invites, voir [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Pour plus d’informations sur la création d’invites, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-Pour plus d’informations sur la création d’un graphique dans un rapport, voir [Ajout d’un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+Pour plus d’informations sur la création d’un graphique dans un rapport, voir [Ajouter un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 Cette section contient les articles suivants :
 
@@ -45,7 +46,7 @@ Cette section contient les articles suivants :
 * [Création ou modification de vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
 * [Utilisation de caractères génériques basés sur des dates pour généraliser des rapports](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
 * [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser des rapports](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
-* [Partage d’un filtre, d’une vue ou d’un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Partager un filtre, une vue ou un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Suppression des filtres, des vues et des regroupements](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [Utilisation de la vue Milestone](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
 * [Modification de la largeur et de l’ordre des colonnes](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

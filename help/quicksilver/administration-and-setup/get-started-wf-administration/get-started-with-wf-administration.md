@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Prise en main de l’administration Adobe Workfront
-description: Vous pouvez configurer les paramètres par défaut du système Workfront, les feuilles de temps et les plannings, la configuration de l’organisation, les informations de mise à jour suivies par le système et les environnements de test pour votre organisation.
+description: Vous pouvez configurer les paramètres par défaut du système Workfront, les feuilles de temps et les plannings, la configuration de l’organisation, les informations de mise à jour trackées par le système et les environnements de test pour votre organisation.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

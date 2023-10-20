@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Créer une validation de document
 description: Vous pouvez demander l’approbation d’un document à d’autres utilisateurs dans Adobe Workfront.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # Créer une demande d’approbation de document
 
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sélectionner **Approbations** dans le volet de gauche.
 
-1. Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant de saisir du texte.
+1. Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant la saisie.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs ou réviseurs.
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sélectionnez la version du document pour laquelle vous souhaitez créer une approbation dans la liste déroulante des versions. La dernière version est sélectionnée par défaut.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le volet Résumé du document . Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant de saisir du texte.
+1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le volet Résumé du document . Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant la saisie.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs ou réviseurs.
 

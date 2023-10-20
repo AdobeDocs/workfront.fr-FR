@@ -4,11 +4,12 @@ navigation-topic: approvals
 title: Programme Alpha - Approbations de document
 description: Nous sommes ravis d’annoncer le lancement de notre programme d’Alpha pour l’approbation des documents. Vous trouverez ici des informations sur la dernière version d’Alpha, ainsi qu’une brève présentation vidéo pour vous aider à démarrer.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
+recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%

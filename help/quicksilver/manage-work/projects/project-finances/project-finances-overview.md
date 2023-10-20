@@ -6,8 +6,9 @@ title: Finances du projet
 description: Les articles suivants contiennent des informations sur les domaines où vous pouvez trouver des informations financières sur le projet et sur la façon de gérer les finances du projet.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Pour plus d’informations sur les domaines où vous pouvez trouver des informat
 
 [Calculer le coût des travaux réalisés budgétisés (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md)
 
-[Calculer le coût des travaux planifiés budgétisés (BCWS)](../../../manage-work/projects/project-finances/calculate-bcws.md)
+[Calculer le coût des travaux planifiés (BCWS)](../../../manage-work/projects/project-finances/calculate-bcws.md)
 
 [Calculer la valeur nette](../../../manage-work/projects/project-finances/calculate-net-value.md)
 
@@ -62,7 +63,7 @@ Pour plus d’informations sur les domaines où vous pouvez trouver des informat
 
 [Calcul du coût budgété](../../../manage-work/projects/project-finances/budgeted-cost.md)
 
-[Présentation de l’option Coût de la main-d’oeuvre budgétisé et heures budgétisées pour les projets](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)
+[Présentation de l’option Coût de la main-d’oeuvre budgétisée et heures budgétisées pour les projets](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)
 
 [Calcul du coût du travail planifié](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
