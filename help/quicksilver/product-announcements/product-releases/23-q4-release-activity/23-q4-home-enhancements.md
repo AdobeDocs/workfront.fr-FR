@@ -3,9 +3,9 @@ title: Améliorations de la page d’accueil du quatrième trimestre 2023
 description: Améliorations de la page d’accueil du quatrième trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 Fonctionnalité fréquemment demandée de l’ancienne page d’accueil, nous avons maintenant ajouté un bouton délégué aux widgets Mon travail, Mes tâches et Mes problèmes afin que vous puissiez facilement déléguer du travail lorsque vous êtes absent du bureau. Dans le menu délégué, qui fonctionne de la même manière qu’avant le nouvel accueil, vous pouvez sélectionner à qui et pendant combien de temps vous souhaitez déléguer vos articles et problèmes. Notez que la délégation de travail doit être activée dans votre environnement Workfront pour que le bouton s’affiche.
 
-Pour plus d’informations sur la délégation dans Workfront, voir [Gérer la délégation des tâches et des problèmes](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
+Pour plus d’informations sur la délégation dans Workfront, voir [Gérer la délégation des tâches et des problèmes](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Nouveau widget Panoramas pour la nouvelle page d’accueil
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur les widgets disponibles dans la nouvelle page d�
 
 ## Nouvelle page d’entrée par défaut du contributeur : Nouvelle page d’accueil
 
-La nouvelle page d’accueil est désormais la page d’entrée par défaut des comptes du contributeur/demandeur. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécifiquement sélectionnés pour permettre aux contributeurs de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs seront également invités à utiliser la nouvelle page d’accueil et les widgets spécifiques disponibles par défaut dans une présentation pas à pas personnalisée. Notez que si une disposition avec une page d’accueil personnalisée actuellement utilisée par un compte de contributeur, elle reste sa page d’accueil.
+La nouvelle page d’accueil est désormais la page d’entrée par défaut des comptes du contributeur/demandeur. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécifiquement sélectionnés pour permettre aux contributeurs de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs seront également invités à utiliser la nouvelle page d’accueil et les widgets spécifiques disponibles par défaut dans une présentation pas à pas personnalisée. Ces widgets par défaut pour les contributeurs sont les suivants : demandes, mentions, problèmes et panoramas. Notez que si une mise en page avec une page d’accueil personnalisée est actuellement utilisée par un compte de contributeur, elle reste sa page d’accueil.
 
 Pour plus d’informations sur l’utilisation de la nouvelle page d’accueil, voir [Prise en main du nouvel accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
