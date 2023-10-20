@@ -4,9 +4,9 @@ description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -544,6 +544,23 @@ Le webinaire de la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [Inscr
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour en temps réel sur la liste des tâches</a> </p>
+                        <p>[!BADGE en production]{type=Informative}</p>
+                        <p>Les listes de tâches sont désormais mises à jour en temps réel. Les modifications apportées à une tâche sont mises à jour dans la liste des tâches, de sorte qu’un utilisateur qui consulte la liste des tâches puisse voir la modification sans actualiser la page.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : S.O.<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production pour tous les clients : déploiement par phases, terminé le 19 octobre 2023</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

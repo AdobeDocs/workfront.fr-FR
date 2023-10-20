@@ -3,9 +3,9 @@ title: Améliorations du projet au quatrième trimestre 2023
 description: Améliorations du projet au quatrième trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ Pour plus d’informations, voir [Modifier les informations dans les champs de f
 Nous avons modifié la façon dont les heures planifiées sont attribuées aux tâches récurrentes sans affectation et avec un type Durée simple . Désormais, lorsque vous définissez Heures planifiées sur une nouvelle tâche récurrente avec un type de durée simple et aucune affectation, les heures sont également allouées aux récurrences individuelles. Avant cette modification, les heures n’étaient pas enregistrées pour des récurrences individuelles lorsque les tâches parentes n’étaient pas affectées.
 
 Pour plus d’informations sur la création de tâches récurrentes, voir [Créer des tâches récurrentes](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## Mises à jour en temps réel sur la liste des tâches
+
+Les listes de tâches sont désormais mises à jour en temps réel. Les modifications apportées à une tâche sont mises à jour dans la liste des tâches, de sorte qu’un utilisateur qui consulte la liste des tâches puisse voir la modification sans actualiser la page.
