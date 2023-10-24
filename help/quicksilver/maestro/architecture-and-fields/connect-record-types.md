@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   Pour ajouter ou supprimer des champs, suivez les instructions des étapes 7 à 12 ci-dessus. <!--ensure these step numbers stay accurate-->
+   Pour ajouter ou supprimer des champs de recherche, suivez les instructions des étapes 7 à 12 ci-dessus. <!--ensure these step numbers stay accurate-->
 
 1. (Facultatif) Cliquez sur la flèche pointant vers le bas dans l’en-tête du champ d’enregistrement lié à partir du type d’enregistrement à partir duquel vous liez, puis cliquez sur . **Supprimer**.
 

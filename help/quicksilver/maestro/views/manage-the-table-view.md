@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1710'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
    * Saisissez l’en-tête de colonne et faites-le glisser à l’emplacement souhaité. La colonne que vous avez déplacée brièvement s’affiche avec un arrière-plan bleu jusqu’à ce que vous apportez d’autres ajustements au tableau.
 
-   * Cliquez sur **Champs** dans la barre d’outils du tableau, puis effectuez un glisser-déposer des champs dans l’ordre souhaité, puis cliquez en dehors de la fonction **Visibilité des champs et boîte de commande** pour le fermer.
+   * Cliquez sur **Champs** dans la barre d’outils du tableau, puis effectuez un glisser-déposer des champs dans l’ordre souhaité, puis cliquez en dehors de la fonction **Visibilité et ordre des champs** pour le fermer.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -157,14 +157,14 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
    Ou
 
-   Cliquez sur **Champs** dans la barre d’outils du tableau et désactivez le bouton d’activation/désactivation associé aux champs (ou colonnes) à masquer.
+   Cliquez sur **Champs** dans la barre d’outils du tableau et désactivez le bouton d’activation/désactivation associé aux champs (ou colonnes) à masquer. La variable **Visibilité et ordre des champs** s’affiche.
 
    >[!TIP]
    >
    >Le nombre de champs masqués s’affiche à gauche de l’icône Champs de la barre d’outils.
 
 
-1. Cliquez sur le bouton **Champs** et activez le bouton d’activation associé aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.
+1. Cliquez sur le bouton **Champs** et activez la bascule associée aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.
 
 1. Procédez comme suit pour rechercher rapidement les enregistrements correspondant à un mot-clé :
 
