@@ -6,10 +6,10 @@ description: New Home est une nouvelle fonctionnalité puissante pour gérer vot
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 23%
+source-wordcount: '933'
+ht-degree: 21%
 
 ---
 
@@ -52,7 +52,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’u
     Affiche toutes les approbations de votre organisation dans un tableau avec des colonnes personnalisables, ainsi qu’une barre de recherche qui vous permet de rechercher des approbations spécifiques.
 
 * **Mentions**\
-    Affiche les fils de commentaires récents qui contiennent des mentions @ de vous-même dans Workfront, ainsi qu’un bouton de réponse qui vous permet de rédiger une réponse dans le widget. Ce widget affiche également les commentaires effectués sur les tâches et problèmes auxquels vous êtes affecté, que vous avez attribués à un autre utilisateur, que vous détenez, que vous êtes le contact principal ou que vous avez créés, à condition que la tâche ou le problème ait été mis à jour au cours des 30 derniers jours.
+    Affiche les fils de commentaires récents provenant de Workfront, tout comme la page Mes mises à jour , ainsi qu’un bouton de réponse qui vous permet de composer une réponse dans le widget. Ce widget affiche également les commentaires effectués sur les tâches et problèmes auxquels vous êtes affecté, que vous avez attribués à un autre utilisateur, que vous détenez, que vous êtes le contact principal ou que vous avez créés, à condition que la tâche ou le problème ait été mis à jour au cours des 30 derniers jours.
 
 * **À faire**\
     Ce widget unique vous permet d’ajouter des éléments de texte à une liste de contrôle personnelle que vous pouvez modifier librement.
@@ -78,7 +78,7 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
     </tr>
     <tr>
         <td>Contributeur</td>
-        <td>Mon travail, Mentions</td>
+        <td>Mes Demandes, Mentions, En Attente De Mon Approbation, Panoramas</td>
     </tr>
     <tr>
         <td>Externe</td>
@@ -104,11 +104,11 @@ Par défaut, la page d’accueil contient quelques widgets spécifiques en fonct
         <td>Mon travail, Mentions</td>
     </tr>
     <tr>
-        <td>Limitée</td>
+        <td>Demande</td>
         <td>Mes projets, en attente de mon approbation</td>
     </tr>
     <tr>
-        <td>Contributeur</td>
+        <td>Contribuer</td>
         <td>Mon travail, Mentions</td>
     </tr>
     <tr>

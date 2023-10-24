@@ -4,9 +4,9 @@ description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -364,9 +364,9 @@ Le webinaire de la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [Inscr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveaux boutons d’accès rapide pour les widgets de suivi des projets, tâches et problèmes</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveaux boutons d’action rapide pour le widget Mon travail</a> </p>
                         <p>[!BADGE en production pour version rapide ]{type=Positif}</p>
-                        <p>Afin d’accroître davantage votre capacité à gérer le travail directement à partir de la nouvelle page d’accueil, de nouveaux boutons d’accès rapide ont été ajoutés aux widgets de suivi des projets, des tâches et des problèmes.</p>
+                        <p>Afin d’étendre davantage votre capacité à gérer le travail directement à partir de la nouvelle page d’accueil, de nouveaux boutons d’action rapide ont été ajoutés au widget Mon travail.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>

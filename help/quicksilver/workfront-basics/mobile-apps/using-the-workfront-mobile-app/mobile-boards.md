@@ -6,9 +6,9 @@ description: Dans le [!DNL Workfront] application mobile, vous pouvez voir tous 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,11 @@ Dans le [!DNL Workfront] application mobile, vous pouvez voir tous les panoramas
 
 Toute modification apportée aux colonnes et aux cartes du panorama dans l’application est également répercutée dans la version de bureau du panorama.
 
-Pour fournir des commentaires sur les panoramas mobiles, sélectionnez la variable **[!UICONTROL Envoyer]** ![Envoyer des commentaires](assets/mobile-send-feedback-icon.png) en haut d’un panorama et suivez les invites.
+Pour fournir des commentaires sur les panoramas mobiles, sélectionnez l’option **[!UICONTROL Envoyer]** ![Envoyer des commentaires](assets/mobile-send-feedback-icon.png) en haut d’un panorama et suivez les invites.
+
+>[!NOTE]
+>
+>Actuellement, l’application mobile prend en charge tous les types de panoramas. **Sauf** Panneaux de processus d’itération.
 
 ## Affichage et filtrage de la liste des panoramas
 
@@ -32,7 +36,7 @@ Pour fournir des commentaires sur les panoramas mobiles, sélectionnez la variab
 1. Pour trier ou filtrer la liste des panoramas, sélectionnez [!UICONTROL **Plus de filtres**].
 1. Sélectionnez l’une des options suivantes :
 
-   * Dans la section Filtre , sélectionnez [!UICONTROL **Archivé**] pour afficher les panoramas archivés dans la liste. Seuls les principaux panoramas sont affichés par défaut.
+   * Dans la section Filtre , sélectionnez [!UICONTROL **Archivé**] pour afficher les panoramas archivés dans la liste. Seuls les panoramas actifs sont affichés par défaut.
    * Dans la section Tri , sélectionnez [!UICONTROL **Date de modification**] ou [!UICONTROL **Nom**].
    * Dans la section Ordre, sélectionnez [!UICONTROL **ascendant**] ou [!UICONTROL **Descendant**] pour définir l’ordre de tri.
 
@@ -56,7 +60,7 @@ Si le panorama contient une colonne d’entrée, elle apparaît comme la colonne
 
 ## Utilisation de cartes connectées
 
-Une carte connectée est connectée à une tâche existante ou un problème dans [!DNL Workfront]. Dans l’application mobile, une carte connectée est désignée avec la variable ![Icône de carte connectée](assets/mobile-boards-connected-card-icon.png) icône . Dans l’image ci-dessous, la deuxième carte est une carte connectée.
+Une carte connectée est connectée à une tâche existante ou un problème dans [!DNL Workfront]. Dans l’application mobile, une carte connectée est désignée avec la variable ![Icône de carte connectée](assets/mobile-boards-connected-card-icon.png) Icône Dans l’image ci-dessous, la deuxième carte est une carte connectée.
 
 Lorsque l’un des détails suivants est mis à jour pour la carte à un emplacement donné, il est automatiquement mis à jour à l’autre emplacement :
 
@@ -89,7 +93,7 @@ Une carte ad hoc n’est pas connectée à une tâche ou à un problème Workfro
    >
    >Vous pouvez sélectionner une autre balise sur la carte, mais vous ne pouvez pas en créer de nouvelles dans l’application mobile.
 
-1. (Facultatif) Pour ajouter une nouvelle carte ad hoc, sélectionnez [!UICONTROL **Nouvelle carte**] dans la colonne où vous souhaitez ajouter la carte, puis saisissez le nom de la carte. Pour ajouter des détails, sélectionnez la carte nouvellement ajoutée.
+1. (Facultatif) Pour ajouter une nouvelle carte ad hoc, sélectionnez [!UICONTROL **Nouvelle carte**] dans la colonne où vous souhaitez ajouter la carte, puis saisissez le nom de la carte. Pour ajouter des détails, sélectionnez la carte que vous venez d’ajouter.
 
 1. (Facultatif) Pour copier une carte, sélectionnez l’option [!UICONTROL **Plus**] menu ![Plus de menu](assets/more-icon-spectrum.png) sur la carte et choisissez [!UICONTROL **Copier**].
 

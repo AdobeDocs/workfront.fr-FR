@@ -3,9 +3,9 @@ title: Améliorations de la page d’accueil du quatrième trimestre 2023
 description: Améliorations de la page d’accueil du quatrième trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Pour plus d’informations sur les widgets disponibles dans la nouvelle page d�
 
 ## Nouvelle page d’entrée par défaut du contributeur : Nouvelle page d’accueil
 
-La nouvelle page d’accueil est désormais la page d’entrée par défaut des comptes du contributeur/demandeur. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécifiquement sélectionnés pour permettre aux contributeurs de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs seront également invités à utiliser la nouvelle page d’accueil et les widgets spécifiques disponibles par défaut dans une présentation pas à pas personnalisée. Ces widgets par défaut pour les contributeurs sont les suivants : demandes, mentions, problèmes et panoramas. Notez que si une mise en page avec une page d’accueil personnalisée est actuellement utilisée par un compte de contributeur, elle reste sa page d’accueil.
+La nouvelle page d’accueil est désormais la page d’entrée par défaut des comptes du contributeur/demandeur. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécifiquement sélectionnés pour permettre aux contributeurs de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs seront également invités à utiliser la nouvelle page d’accueil et les widgets spécifiques disponibles par défaut dans une présentation pas à pas personnalisée. Ces widgets par défaut pour les contributeurs sont les suivants : Mes requêtes, Mentions, En attente de mon approbation et Panoramas. Notez que si une mise en page avec une page d’accueil personnalisée est actuellement utilisée par un compte de contributeur, elle reste sa page d’accueil.
 
 Pour plus d’informations sur l’utilisation de la nouvelle page d’accueil, voir [Prise en main du nouvel accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -40,9 +40,9 @@ En fonction des commentaires des utilisateurs, nous avons supprimé le filtre de
 
 Pour plus d’informations sur le suivi du travail dans New Home, voir [Prise en main du nouvel accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Nouveaux boutons d’accès rapide pour les widgets de suivi des projets, tâches et problèmes
+## Nouveaux boutons d’action rapide pour le widget Mon travail
 
-Afin d’accroître davantage votre capacité à gérer le travail directement à partir de la nouvelle page d’accueil, de nouveaux boutons d’accès rapide ont été ajoutés aux widgets de suivi des projets, des tâches et des problèmes (y compris Mon travail). Ces nouveaux boutons situés sur chaque projet, tâche, problème ou requête dans ces widgets vous permettent d’ouvrir rapidement le volet de résumé, de charger des fichiers, de modifier des formulaires personnalisés, de créer une mise à jour et de consigner le temps sans quitter votre page d’accueil, ainsi qu’un bouton Travailler dessus plus grand.
+Afin d’étendre davantage votre capacité à gérer le travail directement à partir de la nouvelle page d’accueil, de nouveaux boutons d’action rapide ont été ajoutés au widget Mon travail. Ces nouveaux boutons situés sur chaque projet, tâche, problème ou requête dans le widget vous permettent d’ouvrir rapidement le volet de résumé, de charger des fichiers, de modifier des formulaires personnalisés, de créer une mise à jour et de consigner le temps sans quitter votre page d’accueil, ainsi qu’un bouton Travailler dessus/Terminé plus grand.
 
 Pour plus d’informations sur les fonctionnalités du widget dans New Home, voir [Prise en main du nouvel accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

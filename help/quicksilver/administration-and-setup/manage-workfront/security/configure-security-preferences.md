@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '802'
 ht-degree: 5%
 
 ---
@@ -111,7 +111,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Les utilisateurs du système verront par défaut l’expérience Nouvelle page d’accueil. </td> 
-      <td>Permet d’indiquer si les utilisateurs verront l’expérience Nouvelle page d’accueil par défaut. Lorsqu’ils sont activés, les utilisateurs peuvent toujours choisir d’activer ou de désactiver la nouvelle page d’accueil individuellement. Lorsque cette option est désactivée, les utilisateurs n’ont pas la possibilité d’utiliser la nouvelle page d’accueil. Cette option est activée par défaut.</td> 
+      <td>Permet d’indiquer si les utilisateurs verront l’expérience Nouvelle page d’accueil par défaut. Lorsqu’ils sont activés, les utilisateurs voient l’expérience Nouvelle page d’accueil par défaut, mais peuvent toujours choisir d’activer ou de désactiver cette dernière individuellement. <b>Lorsque cette option est désactivée, les utilisateurs n’ont pas la possibilité d’utiliser la nouvelle page d’accueil.</b> Ce paramètre est activé par défaut.</td> 
      </tr> 
     </tbody> 
    </table>
