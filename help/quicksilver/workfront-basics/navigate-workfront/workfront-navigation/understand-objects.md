@@ -5,9 +5,9 @@ title: Présentation des objets dans [!DNL Adobe Workfront]
 description: Présentation des objets dans [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2255'
 ht-degree: 7%
 
 ---
@@ -169,7 +169,7 @@ Vous trouverez ci-dessous une liste d’objets et leurs icônes correspondantes 
 | [!UICONTROL Projet] | ![](assets/project-icon-nwe.png)  , ![](assets/nwe-projects-icon.png) | ✔ |
 | [!UICONTROL Rapport] | ![](assets/report-icon-nwe.png) , ![](assets/nwe-reports-icon.png) |  |
 | [!UICONTROL Tâche] | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL Equipe] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL Équipe] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL Modèle] | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png) |  |
 
 ## Nombre de références d’objets
@@ -320,7 +320,7 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Type de risque]
 * [!UICONTROL Planning]
 * [!UICONTROL Carte de score]
-* [!UICONTROL Equipe]
+* [!UICONTROL Équipe]
 * [!UICONTROL Modèle]
 * [!UICONTROL Tâche de modèle]
 * [!UICONTROL Congés]
@@ -334,6 +334,10 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Délégation d&#39;utilisateur]
 
   Vous pouvez créer des rapports sur les utilisateurs qui ont été délégués pour effectuer les tâches et les problèmes d’autres utilisateurs lorsqu’ils sont absents du bureau. Ce rapport présente l’utilisateur absent du bureau ainsi que l’utilisateur qui remplit ses fonctions lorsqu’il est absent.
+
 * [!UICONTROL Décisions des utilisateurs et utilisatrices]
+
+  Vous pouvez créer un rapport sur le nombre de décisions que les utilisateurs ont prises sur les bons à tirer et les documents au cours du mois en cours.
+
 * [!UICONTROL Afficher]
 * [!UICONTROL Élément de travail] (produit un rapport pour les tâches et les problèmes)
