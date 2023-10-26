@@ -2,21 +2,21 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Création d’un dossier lié à Experience Manager Assets ou Assets Essentials
-description: Vous pouvez créer un dossier lié à Experience Manager Assets ou Assets Essentials dans Workfront.
+title: Créer un dossier lié à Experience Manager Assets ou aux Assets Essentials
+description: Vous pouvez créer un dossier lié à Experience Manager Assets ou aux Assets Essentials dans Workfront.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# Création d’un dossier lié à Experience Manager Assets ou Assets Essentials
+# Créer un dossier lié à Experience Manager Assets ou aux Assets Essentials
 
-Vous pouvez créer un dossier lié à Experience Manager Assets ou Assets Essentials dans Workfront. Comme le dossier est lié, toute ressource ajoutée au dossier s’affichera automatiquement dans Workfront et Experience Manager. Vous n’avez pas à envoyer manuellement la ressource si elle se trouve dans un dossier lié.
+Vous pouvez créer un dossier lié à Experience Manager Assets ou aux Assets Essentials dans Workfront. Comme le dossier est lié, toute ressource ajoutée au dossier s’affichera automatiquement dans Workfront et Experience Manager. Vous n’avez pas à envoyer manuellement la ressource si elle se trouve dans un dossier lié.
 
 
 ## Exigences d’accès
@@ -51,7 +51,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td><strong>Paramétrages du niveau d'accès</strong>
    </td>
-   <td>Vous devez être un administrateur Workfront. Pour plus d’informations sur les administrateurs Workfront, voir <strong>Octroi d’un accès administratif complet à un utilisateur</strong>.
+   <td>Pour configurer une intégration de Experience Manager, vous devez être un administrateur Workfront. Une fois configuré, les utilisateurs disposant d’une licence Plan peuvent configurer des dossiers liés sur des projets individuels.
    </td>
   </tr>
 </table>
@@ -81,7 +81,7 @@ Pour créer un dossier lié :
 1. Sélectionner **Ajouter**, puis accédez à l’ intégration Experience Manager configurée par votre administrateur.
    >[!NOTE]
    >
-   >L’administrateur de Workfront peut choisir n’importe quel nom pour cette intégration, de sorte qu’il ne mentionnera pas spécifiquement Experience Manager Assets ou Assets Essentials.
+   >L’administrateur de Workfront peut choisir n’importe quel nom pour cette intégration. Il se peut donc qu’il ne mentionne pas spécifiquement Experience Manager Assets ou les Assets Essentials.
 
 1. Sélectionner **Créer un dossier lié**. Le système crée automatiquement un dossier dans Experience Manager en fonction de l’emplacement spécifié lors de la configuration de l’intégration.
    ![créer un dossier lié ;](assets/linked-folder.png)
