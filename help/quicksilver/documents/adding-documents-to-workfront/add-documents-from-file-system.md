@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Ajout de documents à Adobe Workfront à partir de votre système de fichiers
-description: Vous pouvez ajouter des documents à des projets, des tâches ou des problèmes dans les zones suivantes d’Adobe Workfront - EDIT ME.
+description: Vous pouvez ajouter des documents à des projets, des tâches ou des problèmes dans plusieurs zones d’Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
 
 # Ajout de documents à Adobe Workfront à partir de votre système de fichiers
 
-{{preview-and-fast-release}}
-
 Vous pouvez ajouter des documents à des projets, à des tâches ou à des problèmes dans les zones suivantes d’Adobe Workfront :
 
 * La zone Documents globale
 * Zone Documents pour un objet Workfront
-* <span class="preview">Carte connectée sur un panorama Workfront</span>
+* Carte connectée sur un panorama Workfront
 
 Vous pouvez également charger de nouvelles versions de documents et ajouter des liens vers des documents provenant de fournisseurs cloud tiers, tels que Google Drive, Dropbox et Microsoft OneDrive. Pour plus d’informations sur l’ajout de nouvelles versions de documents, voir [Télécharger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md). Pour plus d’informations sur l’ajout de documents à partir de fournisseurs cloud tiers, voir [Liaison de documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

@@ -5,7 +5,7 @@ title: Gestion des sous-tâches sur les panoramas
 description: L’utilisation de sous-tâches sur les cartes vous permet d’établir une relation parent-enfant entre les tâches et de créer une hiérarchie de travail.
 author: Lisa
 feature: Agile
-source-git-commit: 7b4e1bc58fbaf30ff86e8ec95664cb3baaae2ef7
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Gestion des sous-tâches sur les panoramas
-
-{{highlighted-preview-article-level}}
 
 L’utilisation de sous-tâches sur les cartes vous permet d’établir une relation parent-enfant entre les tâches et de créer une hiérarchie de travail. Une sous-tâche que vous ajoutez à une carte sur un panorama Workfront est également ajoutée à la tâche dans le projet Workfront. Pour plus d’informations sur les sous-tâches et les tâches au niveau du projet, voir [Création de sous-tâches](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

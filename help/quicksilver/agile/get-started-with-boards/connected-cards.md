@@ -6,7 +6,7 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Utilisation de cartes connectées sur les panoramas
-
-{{preview-and-fast-release}}
 
 Vous pouvez ajouter sur votre panorama une carte qui est connectée à des tâches et à des problèmes existants dans [!DNL Workfront].
 
@@ -27,8 +25,8 @@ Lorsque l’un des détails suivants est mis à jour pour la carte à un emplace
 * [!UICONTROL Statut]
 * [!UICONTROL Date d’achèvement prévue]
 * [!UICONTROL Estimation] / [!UICONTROL Points d’article]
-* <span class="preview">[!UICONTROL Sous-tâches]</span>
-* <span class="preview">[!UICONTROL Documents]</span>
+* [!UICONTROL Sous-tâches]
+* [!UICONTROL Documents]
 
 >[!NOTE]
 >
@@ -137,10 +135,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtask]</strong></span></td>
-      <td><span class="preview"><p>Toutes les sous-tâches existantes pour la tâche apparaissent dans cette section. Cliquez sur <strong>[!UICONTROL Ajouter une sous-tâche]</strong> pour ajouter une nouvelle sous-tâche.</p>
+      <td role="rowheader"><strong>[!UICONTROL Subtask]</strong></td>
+      <td><p>Toutes les sous-tâches existantes pour la tâche apparaissent dans cette section. Cliquez sur <strong>[!UICONTROL Ajouter une sous-tâche]</strong> pour ajouter une nouvelle sous-tâche.</p>
       <p>Le compteur en haut de la section indique le nombre de sous-tâches terminées et le nombre total de sous-tâches.</p>
-      <p>Pour plus d’informations sur les sous-tâches, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestion des sous-tâches sur les panoramas</a>.</p></span></td>
+      <p>Pour plus d’informations sur les sous-tâches, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestion des sous-tâches sur les panoramas</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Liste de contrôle]</strong></td>
@@ -148,8 +146,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <p>Le compteur en haut de la liste de contrôle indique le nombre d’éléments terminés et le nombre total d’éléments.</p> <p>Pour plus d’informations sur les éléments de liste de contrôle, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gérer les éléments de liste de contrôle sur les cartes</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
-      <td><span class="preview">Pour un document existant, passez la souris sur la miniature du document, puis cliquez sur <strong>Aperçu</strong> pour afficher le fichier dans le navigateur ou <strong>Télécharger</strong> pour télécharger le fichier sur votre ordinateur. Pour obtenir un nouveau document, voir <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Ajout de documents sur les cartes</a>.</span></td>
+      <td role="rowheader"><strong>[!UICONTROL Documents]</strong></td>
+      <td>Pour un document existant, passez la souris sur la miniature du document, puis cliquez sur <strong>Aperçu</strong> pour afficher le fichier dans le navigateur ou <strong>Télécharger</strong> pour télécharger le fichier sur votre ordinateur. Pour obtenir un nouveau document, voir <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Ajout de documents sur les cartes</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
