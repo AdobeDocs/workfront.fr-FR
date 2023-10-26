@@ -6,16 +6,14 @@ description: Remplacer les taux de facturation au niveau du projet par les taux 
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Remplacer les taux de facturation au niveau du projet par les taux de facturation au niveau de l’entreprise
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -80,17 +78,9 @@ Après avoir activé l’option de remplacement des taux de facturation au nivea
 1. Cliquez sur **Entreprises**.
 1. Cliquez sur le nom de la société associée au projet pour lequel vous avez activé le remplacement des taux de facturation au niveau de la société.
 1. Cliquez sur **Taux de facturation** dans le panneau de gauche.
-1. Dans l’environnement de production, saisissez le nouveau taux de facturation d’un rôle de tâche existant dans la variable **Taux de facturation de l’entreprise** puis appuyez sur Entrée.
+1. Mettez à jour le **Taux de facturation de l’entreprise** et les dates de début et de fin d’un rôle de tâche existant, puis appuyez sur Entrée.
 
-   Ou
-
-   <div class="preview">
-
-   Dans l’environnement Aperçu , mettez à jour la variable **Taux de facturation de l’entreprise** et les dates de début et de fin d’un rôle de tâche existant, puis appuyez sur Entrée.
-
-   Pour ajouter une nouvelle date effective du taux de facturation de l’entreprise, sélectionnez un taux de facturation pour le rôle de la tâche et cliquez sur Modifier. Pour plus d’informations sur les taux de facturation effectifs de l’entreprise, voir [Remplacer les taux de facturation des rôles de tâche au niveau de l’entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   Pour ajouter un nouveau taux de facturation d’entreprise à date effective, sélectionnez un taux de facturation pour le rôle de tâche et cliquez sur **Modifier**. Pour plus d’informations sur les taux de facturation effectifs de l’entreprise, voir [Remplacer les taux de facturation des rôles de tâche au niveau de l’entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Pour mettre à jour les tarifs d’entreprise pour un ou plusieurs projets, effectuez l’une des opérations suivantes :
 
