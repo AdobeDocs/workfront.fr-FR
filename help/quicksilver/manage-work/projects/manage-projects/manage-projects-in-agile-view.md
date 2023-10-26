@@ -6,7 +6,7 @@ description: Plans, types de licence et accès requis aux autorisations de type 
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 2137d792485324386b33e75af91ab09415b48390
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Gestion d’un projet en mode Agile
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -163,7 +161,7 @@ Pour plus d’informations sur la personnalisation d’une vue agile, voir [Cré
 
 ## Affichage d’un projet en mode Agile
 
-1. <span class="preview">Accédez au projet que vous souhaitez afficher dans une vue agile, soit dans la liste des tâches, soit dans la liste des problèmes.</span>
+1. Accédez au projet que vous souhaitez afficher dans une vue agile, soit dans la liste des tâches, soit dans la liste des problèmes.
 1. Cliquez sur le bouton **board** icon ![Icône Panorama](assets/board-icon-for-agile-view.png).
 
    Le panorama du projet s’affiche par défaut.

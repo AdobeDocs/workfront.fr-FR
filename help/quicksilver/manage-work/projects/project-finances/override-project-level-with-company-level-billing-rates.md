@@ -6,7 +6,7 @@ description: Remplacer les taux de facturation au niveau du projet par les taux 
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -86,11 +86,11 @@ Après avoir activé l’option de remplacement des taux de facturation au nivea
 
    * Projets multiples :
 
-   1. Accédez à une liste de projets.
-   1. Cochez la case correspondant aux projets que vous souhaitez mettre à jour.
-   1. Cliquez sur **Modifier**.
-   1. Dans la section Paramètres , activez l’option **Recalculer Les Coûts Et Les Recettes** .
-   1. Cliquez sur **Enregistrer les modifications**.
+      1. Accédez à une liste de projets.
+      1. Cochez la case correspondant aux projets que vous souhaitez mettre à jour.
+      1. Cliquez sur **Modifier**.
+      1. Dans la section Paramètres , activez l’option **Recalculer Les Coûts Et Les Recettes** .
+      1. Cliquez sur **Enregistrer les modifications**.
 
    * Projet unique :
 
