@@ -8,24 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
 
 # Création de problèmes
 
-<!--remove Preview and Prod references when this comes to Prod-->
+<!--
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
 
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du quatrième trimestre 2023](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span> 
 
-
+-->
 
 Lorsque vous travaillez sur un projet, vous pouvez découvrir que des événements inattendus se produisent. Vous pouvez consigner ces événements inattendus comme des problèmes pour un projet particulier ou pour une tâche. Les utilisateurs disposant de l’accès approprié peuvent afficher et surveiller l’état des problèmes au fur et à mesure que le projet ou la tâche se termine, éliminant ainsi la nécessité de longues chaînes de messagerie ou de réunions d’état. Contrairement aux tâches, qui sont des événements planifiés, les problèmes représentent des tâches non planifiées dans Adobe Workfront.
 
@@ -87,68 +87,67 @@ Pour plus d’informations sur la création de problèmes en les envoyant à une
 
 Après avoir défini les champs d’un nouveau formulaire de problème sur votre projet, vous pouvez commencer à créer des problèmes.
 
-La création de problèmes varie selon l’environnement choisi pour créer le problème.
+<!-- OLD UI: redesigned on Oct 26, 2023:
 
-### Création de problèmes sur une tâche ou un projet à l’aide du bouton Nouveau problème dans l’environnement de production
+Creating issues differs depending on which environment you choose to create the issue. 
 
-Pour créer un problème sur une tâche ou un projet :
+### Create issues on a task or project using the New Issue button in the Production environment
 
-1. Accédez à un projet dans lequel vous souhaitez créer le problème.
-1. (Facultatif) Si vous souhaitez consigner le problème pour une tâche, accédez au **Tâche** , puis cliquez sur le nom d’une tâche.
-1. Cliquez sur le bouton **Problèmes** .
+To create an issue on a task or a project:
+
+1. Go to a project where you want to create the issue. 
+1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
+1. Click the **Issues** section.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
 
-1. Cliquez sur **Nouveau problème**.
+1. Click **New Issue**.
 
    ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
 
-1. (Conditionnel) Si le créateur du projet a créé des rubriques de file d’attente ou des groupes de rubriques sur le projet, ils sont ajoutés au nouveau formulaire de problème. Spécifiez la variable **Groupe de rubriques** ou le **Rubrique de la file d’attente** de votre nouveau problème. Les noms des groupes de rubriques et des rubriques de files d’attente ont été personnalisés en fonction de votre environnement.\
-   Pour plus d’informations sur la création de groupes de rubriques, voir [Création de groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Pour plus d’informations sur la création de rubriques de file d’attente, voir [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
+   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
-   * Si une seule rubrique de file d’attente est définie sur le projet, elle s’affiche automatiquement.
-   * Si le groupe de rubriques ne contient aucune rubrique de file d’attente ou aucun groupe de rubriques, rien n’est disponible dans la liste déroulante Groupe de rubriques .
+   * If there is only one Queue Topic set on the project, it is displayed automatically.
+   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
 
-1. (Conditionnel) Si le créateur du projet a autorisé la variable **Type de requête** pour afficher le champ Nouveau problème dans le formulaire, sélectionnez le type de problème parmi les options suivantes :
+1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
 
-   * Rapport sur les bogues
-   * Modifier l&#39;ordre
-   * Problème
-   * Demande\
-     Selon la manière dont votre administrateur Workfront a configuré vos préférences de projet, les noms des types de problèmes peuvent être différents pour vous.
+   * Bug Report
+   * Change Order
+   * Issue
+   * Request  
+     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
 
    >[!TIP]
    >
-   >Les types de requête doivent être activés dans les détails de la file d’attente et lors de la création de la rubrique de la file d’attente pour s’afficher comme une sélection dans le formulaire Nouveau problème . Pour plus d’informations, voir les articles suivants :
-   >* [Création d’une file d’attente de requête](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Création de rubriques de file d’attente](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
+   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 
-1. Ajoutez un nom pour le nouveau problème dans le **Nom du problème** champ .
-1. Continuez à spécifier les champs disponibles dans le **Nouveau problème** formulaire. Pour plus d’informations sur les champs disponibles lorsque vous saisissez un nouveau problème, voir [Modification des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Add a name for the new issue in the **Issue Name** field. 
+1. Continue specifying the fields available in the **New Issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
-   >Tous les champs liés aux problèmes ne sont pas disponibles dans le formulaire Nouveau problème. Le créateur du projet active les champs disponibles lors de la création d’un problème lorsqu’il définit la zone Détails de la file d’attente du projet. Pour plus d’informations, voir [Création d’une file d’attente de requêtes](../../requests/create-and-manage-request-queues/create-request-queue.md).
+   >Not all the issue-related fields are available in the New Issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
 
 
-1. (Conditionnel) Si les rubriques de la file d’attente sont associées à un formulaire personnalisé, ce formulaire personnalisé s’affiche dans la variable **Nouveau problème** formulaire.\
-   Ou\
-   Si le projet est associé à un formulaire personnalisé de problème via la zone Détails de la file d’attente, le formulaire s’affiche dans la variable **Nouveau problème** formulaire, après les champs Workfront par défaut.
+1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New Issue** form.  
+   Or  
+   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New Issue** form, after the default Workfront fields.
 
-   Pour plus d’informations, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Cliquez sur **Enregistrer un nouveau problème.**
+1. Click **Save New Issue.**
 
-Les problèmes peuvent être affectés à plusieurs utilisateurs, rôles de tâche ou à une équipe. Pour plus d’informations sur l’affectation et la gestion des requêtes, voir [Gérer les requêtes de travail et d’équipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: -->
-
-<div class="preview">
-
-### Création de problèmes sur une tâche ou un projet à l’aide du bouton Nouveau problème dans l’environnement Aperçu
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
+-->
 
 Pour créer un problème sur une tâche ou un projet :
 
@@ -202,7 +201,6 @@ La boîte Nouveau numéro s’affiche.
 
    Les problèmes peuvent être affectés à plusieurs utilisateurs, rôles de tâche ou à une équipe. Pour plus d’informations sur l’affectation et la gestion des requêtes, voir [Gérer les requêtes de travail et d’équipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-</div>
 
 ## Création de problèmes sur une tâche ou un projet intégré
 

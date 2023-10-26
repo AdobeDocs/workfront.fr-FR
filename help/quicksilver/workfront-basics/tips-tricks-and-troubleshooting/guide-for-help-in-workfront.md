@@ -5,9 +5,9 @@ title: Votre guide rapide pour trouver de l’aide dans [!DNL Adobe Workfront]
 description: Votre guide rapide pour trouver de l’aide dans [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: ccc20edf13c2cdec1d81d5ab90dcd0d24c0e2ff3
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ Bienvenue dans [!DNL Adobe Workfront!] Nous savons que vous avez des questions e
 >-->
 
 
-
-## Comment obtenir des réponses aux questions et en savoir plus sur les [!DNL Workfront?]
+## Comment obtenir une réponse aux questions et en savoir plus sur les [!DNL Workfront?]
 
 Pour en savoir plus sur [!DNL Workfront], vous pouvez :
 
@@ -46,13 +45,13 @@ Pour en savoir plus sur [!DNL Workfront], vous pouvez :
      <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html">Documentation</a> </p> </li> 
      <li> <p>Tutoriels <a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html"></a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en">Versions de produit</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">Documentation des API</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">Documentation de l’API</a> </p> </li> 
      <li> <p>Et plus encore !</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td><strong>Demander à un expert</strong> </td> 
-   <td> <p>Suivez la règle des 5 minutes. Si vous ne trouvez pas la réponse au bout de quelques minutes, n'hésitez pas à contacter . [!DNL Workfront] Soutien ! <strong>[!DNL Workfront]L’équipe du service clientèle de</strong> est consacré à vous aider à résoudre des problèmes techniques et à accéder à notre communauté et notre plateforme de formation.</p> <p>Nos ingénieurs du support en direct, basés aux États-Unis et dans la région EMEA, répondront à votre appel téléphonique en quelques secondes. N'hésitez pas à nous appeler, je vous prie !</p> 
+   <td> <p>Suivez la règle des 5 minutes. Si vous ne trouvez pas la réponse après quelques minutes, n'hésitez pas à contacter . [!DNL Workfront] Soutien ! <strong>[!DNL Workfront]L’équipe du service clientèle de</strong> est consacré à vous aider à résoudre des problèmes techniques et à accéder à notre communauté et notre plateforme de formation.</p> <p>Nos ingénieurs du support en direct, basés aux États-Unis et dans la région EMEA, répondront à votre appel téléphonique en quelques secondes. N'hésitez pas à nous appeler, je vous prie !</p> 
     <ul> 
      <li> <p>844-306-4357 (US)</p> </li> 
      <li>+44(0)-1256-274200 (EMEA)</li> 
@@ -60,7 +59,7 @@ Pour en savoir plus sur [!DNL Workfront], vous pouvez :
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Se connecter avec des pairs]</strong> </td> 
-   <td>[!UICONTROL [!DNL Workfront] Community] offre un réseau de professionnels maîtrisant le travail moderne qui partagent activement leurs idées et leur expertise. Pour plus d’informations, voir <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">Le [!DNL Adobe Workfront] Communauté</a>.</td> 
+   <td>[!UICONTROL [!DNL Workfront] Community] offre un réseau de professionnels maîtrisant le travail moderne qui partagent activement leurs idées et leur expertise. Pour plus d’informations, voir <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">La variable [!DNL Adobe Workfront] Communauté</a>.</td> 
   </tr> 
   <tr> 
    <td><strong>Découvrez les nouveautés de l’une des</strong>[!DNL Workfront]<strong>products</strong></td> 
@@ -68,7 +67,7 @@ Pour en savoir plus sur [!DNL Workfront], vous pouvez :
   </tr> 
   <tr> 
    <td><strong>Apprenez à la demande et plongez en profondeur avec [!DNL Workfront] Formation</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a> propose des parcours d’apprentissage en fonction du rôle pour mettre les planificateurs, les travailleurs, les collaborateurs et les administrateurs système à la disposition des fonctionnalités clés de [!DNL Workfront].<br>Développez votre [!DNL Workfront] connaissance</a> en explorant les parcours de formation, les tutoriels vidéo et les guides téléchargeables sur vos sujets d’intérêt.</a><br></td> 
+   <td><a href="https://experienceleague.adobe.com">Experience League</a> propose des parcours d’apprentissage en fonction du rôle pour mettre les planificateurs, les travailleurs, les collaborateurs et les administrateurs système à la disposition des fonctionnalités clés de [!DNL Workfront].<br>Développez votre [!DNL Workfront] connaissance</a> en explorant les parcours de formation, les tutoriels vidéo et les guides téléchargeables sur vos sujets d’intérêt.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,12 +90,12 @@ Les ressources suivantes peuvent vous aider à déterminer comment utiliser [!DN
   </tr> 
   <tr> 
    <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] Communauté</a> </td> 
-   <td>Le [!DNL Workfront] La communauté vous permet d’avoir des conversations avec [!DNL Workfront] utilisateurs et experts du monde entier. Ils sont toujours là pour vous aider à répondre à vos questions ou vous indiquer la bonne direction.</td> 
+   <td>La variable [!DNL Workfront] La communauté vous permet d’avoir des conversations avec [!DNL Workfront] utilisateurs et experts du monde entier. Ils sont toujours là pour vous aider à répondre à vos questions ou vous indiquer la bonne direction.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Comment [!DNL Workfront] les administrateurs se préparent pour [!DNL Workfront] versions de produit ?
+## Comment [!DNL Workfront] les administrateurs se préparent [!DNL Workfront] versions de produit ?
 
 Ces 3 étapes peuvent vous aider en tant que [!DNL Workfront] l’administrateur reste en tête de chaque nouvelle version :
 
@@ -105,11 +104,11 @@ Ces 3 étapes peuvent vous aider en tant que [!DNL Workfront] l’administrateur
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Étape 1 : Découvrez ce qui va se passer</strong> </td> 
+   <td><strong>Étape 1 : découvrez ce qui arrive</strong> </td> 
    <td> <p>Ces ressources vous tiennent informé des mises à jour apportées à Workfront :</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">Annonces de produit</a>: Vous recherchez des mises à jour de la feuille de route du produit Workfront ? La page des annonces de produits vous permet de trouver des mises à jour de version et des présentations de feuilles de route.</p> </li> 
-     <li> <p><strong>Centre d’annonces</strong>: Consultez vos notifications et recevez des mises à jour importantes de notre [!DNL Workfront] L’équipe produit présente des informations relatives à tous les clients. Visitez le <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> dans [!DNL Workfront], dans la barre de navigation supérieure.</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">Annonces de produit</a>: recherchez des mises à jour de la feuille de route du produit Workfront ? La page des annonces de produits vous permet de trouver des mises à jour de version et des présentations de feuilles de route.</p> </li> 
+     <li> <p><strong>Centre d’annonces</strong>: passez en revue vos notifications et recevez des mises à jour importantes de notre [!DNL Workfront] L’équipe produit présente des informations relatives à tous les clients. Visitez le <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> dans [!DNL Workfront], dans la barre de navigation supérieure.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -121,7 +120,7 @@ Ces 3 étapes peuvent vous aider en tant que [!DNL Workfront] l’administrateur
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Étape 3 : Communication de la modification</strong> </td> 
+   <td><strong>Étape 3 : communication de la modification</strong> </td> 
    <td> 
     <ul> 
      <li> <p>Envoyez une communication aux utilisateurs de votre entreprise sur ce qui va changer, pourquoi cela leur profite et à qui ils peuvent discuter pour toute question.</p> </li> 
@@ -133,7 +132,7 @@ Ces 3 étapes peuvent vous aider en tant que [!DNL Workfront] l’administrateur
 
 ## Et si j&#39;ai une idée pour [!DNL Workfront?]
 
-Le [!DNL Workfront] [!UICONTROL Laboratoire d’innovation] est l’endroit où les contacts d’assistance autorisés peuvent soumettre, voter et discuter des idées de produits avec d’autres clients.
+La variable [!DNL Workfront] [!UICONTROL Laboratoire d’innovation] est l’endroit où les contacts d’assistance autorisés peuvent soumettre, voter et discuter des idées de produits avec d’autres clients.
 
 Pour en savoir plus, consultez l’article [Le laboratoire de l&#39;innovation](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md).
 
@@ -148,18 +147,22 @@ Les ressources suivantes peuvent vous aider à en savoir plus sur les [!DNL Work
 
 {style="table-layout:auto"}
 
-## Lorsque [!DNL Workfront] la maintenance ? Comment savoir si [!DNL Workfront] est en panne ?
+## Lorsque [!DNL Workfront] la maintenance ? Comment puis-je savoir si [!DNL Workfront] est en panne ?
 
-S’abonner à [status.adobe.com](https://status.adobe.com/fr/) pour rester informé des plannings de maintenance et des problèmes de panne.
+Abonner à [status.adobe.com](https://status.adobe.com/fr/) pour rester informé des plannings de maintenance et des problèmes de panne.
 
-Pour en savoir plus sur la variable [!DNL Workfront] Site d’état, voir [Le [!DNL Adobe Workfront] Site d’état](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
+Pour en savoir plus sur la variable [!DNL Workfront] Site d’état, voir [La variable [!DNL Adobe Workfront] Site d’état](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
 Pour savoir ce qui a été corrigé dans une mise à jour de maintenance hebdomadaire, voir [Mises à jour de maintenance](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-## Quelles sont les bonnes pratiques en matière de maintenance et d’optimisation ? [!DNL Workfront?]
+<!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
-Les tableaux de bord suivants peuvent vous aider en tant que [!DNL Workfront] L’administrateur gère Workfront :
+## What are best practices for maintaining and tuning up [!DNL Workfront?]
 
-| [[!DNL Workfront] Tableau de bord de l’utilisation](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Comprendre comment vos utilisateurs exploitent [!DNL Workfront] peut vous aider à évaluer l’adoption globale de votre système et vous plonger dans tous les domaines problématiques qui peuvent nécessiter une certaine attention. |
+The following dashboards can help you as a [!DNL Workfront] administrator maintain Workfront:
+
+| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] Tableau de bord du nettoyage : Désactivation des objets inutilisés](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Maintien [!DNL Workfront] nettoyer des objets inutilisés est une bonne pratique de longue date, mais qui peut sembler décourageante sans les bons outils. Ce tableau de bord est conçu pour que les administrateurs système ou les propriétaires de processus trouvent facilement des [!DNL Workfront] données qui peuvent nécessiter un nettoyage pour améliorer l’expérience utilisateur. Il est recommandé de consulter ce tableau de bord tous les trimestres pour mieux [!DNL Workfront] propre. |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+
+-->

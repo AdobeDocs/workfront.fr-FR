@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Configuration des mises à jour du système
 description: Workfront génère des mises à jour système automatiques dans le [!UICONTROL Mises à jour] pour enregistrer les modifications que les utilisateurs effectuent sur l’objet. Comme [!DNL Workfront] administrateur, vous pouvez configurer les champs d’objet et les actions [!DNL Workfront] effectue un suivi pour enregistrer les mises à jour du système.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '888'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 7%
 * Modifications effectuées par les utilisateurs dans un champ d’objet
 * Actions effectuées par les utilisateurs sur un objet
 
-Ces mises à jour du système incluent les modifications apportées, le nom de l’utilisateur qui a apporté la modification, ainsi que l’heure et la date du changement.
+Ces mises à jour du système incluent les types d’informations suivants :
+
+* Le changement qui a été apporté
+* Nom de l’utilisateur qui a apporté la modification.
+* Heure et date de la modification
 
 Pour plus d’informations sur les mises à jour du système, voir [Mises à jour suivies par le système](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 

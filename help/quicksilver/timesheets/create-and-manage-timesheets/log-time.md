@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '3470'
+source-wordcount: '3349'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,12 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement Production pour les clients qui ont activé les versions rapides. </span>\
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
-<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du quatrième trimestre 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+-->
 
 Vous pouvez consigner le temps passé sur les tâches dans Adobe Workfront afin d’indiquer le nombre d’heures passées à les traiter. Vous pouvez également consigner le temps qui n’est pas lié au travail, comme les vacances, le temps de maladie ou le temps que vous passez en réunion. L’heure de connexion s’affiche dans votre feuille de temps.
 
@@ -366,14 +368,6 @@ Vous pouvez consigner l’heure spécifique d’un projet, d’une tâche ou d�
 
 #### Met à jour la section{#updates-section}
 
-<!--remove the note below - October 2023 -->
-
->[!NOTE]
->
-> Il existe de légères différences d’aspect de l’interface utilisateur entre la section actuelle et la nouvelle section Mises à jour. Les informations de cette section font référence aux fonctionnalités telles qu’elles s’affichent dans la nouvelle expérience de commentaire.
->
->Pour plus d’informations sur la nouvelle section Mises à jour, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 Pour vous connecter à la section Mises à jour d’un projet, d’une tâche ou d’un problème, vous devez disposer des éléments suivants :
 
 * Une licence Work or Plan.
@@ -390,7 +384,7 @@ Pour consigner l’heure dans la section Mises à jour d’un projet, d’une t�
 1. Dans le panneau de gauche, sélectionnez **Mises à jour**.
 1. Cliquez sur **Temps journal**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   La boîte de dialogue Durée de journalisation s’affiche.
+   La boîte de dialogue Temps journal s’affiche.
 
    >[!TIP]
    >
@@ -398,7 +392,7 @@ Pour consigner l’heure dans la section Mises à jour d’un projet, d’une t�
    >   
    >   Le nombre d’heures incluses dans une journée indique, dans le coin supérieur droit de la zone Enter Days.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Indiquez les informations suivantes :
 
@@ -410,7 +404,7 @@ Pour consigner l’heure dans la section Mises à jour d’un projet, d’une t�
 
    * **Heures**: saisissez le nombre d’heures pour le projet, la tâche ou le problème.
 
-1. Cliquez sur **Temps journal**.
+1. Cliquez sur **Temps de connexion**.
 
 #### Section Heures{#hours-section}
 

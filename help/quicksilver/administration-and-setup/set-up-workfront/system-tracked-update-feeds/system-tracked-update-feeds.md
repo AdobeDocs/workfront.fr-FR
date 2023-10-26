@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 7%
+source-wordcount: '405'
+ht-degree: 6%
 
 ---
 
 # Mises à jour suivies par le système
+
+<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
 [!DNL Adobe Workfront] capture l’activité qui se produit sur certains objets en consignant des informations d’état dans le rapport [!UICONTROL Mises à jour] zone.
 
@@ -32,6 +34,8 @@ La variable [!UICONTROL Mises à jour] comprend les types de mises à jour suiva
 
   Pour plus d’informations sur les flux de mise à jour du système et leur activation, voir [Configuration des mises à jour du système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  ![](assets/system-updates-example-unified-stream.png)
+
   <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
@@ -40,14 +44,16 @@ La variable [!UICONTROL Mises à jour] comprend les types de mises à jour suiva
 
 ## Considérations sur les mises à jour suivies par le système
 
-* Les mises à jour suivies par le système ne sont pas disponibles pour tous les objets disposant de la zone Mises à jour . La variable [!UICONTROL Mises à jour] est disponible pour les objets suivants :
+Les mises à jour suivies par le système ne sont pas disponibles pour tous les objets disposant de la zone Mises à jour .
+
+* La variable [!UICONTROL Mises à jour] est disponible pour les objets suivants :
 
    * [!UICONTROL Projet]
    * [!UICONTROL Tâche]
    * [!UICONTROL Problème]
    * [!UICONTROL Portfolio]
    * [!UICONTROL Programme]
-   * [!UICONTROL Utilisateur]
+   * [!UICONTROL l’utilisateur ou de l’utilisatrice]
    * [!UICONTROL Modèle]
    * [!UICONTROL Tâche de modèle]
    * [!UICONTROL Équipe]
@@ -64,12 +70,13 @@ La variable [!UICONTROL Mises à jour] comprend les types de mises à jour suiva
 
      Pour plus d’informations sur les mises à jour des cartes, voir [Utilisation de cartes connectées sur les panoramas](../../../agile/get-started-with-boards/connected-cards.md).
 
-* [!DNL Workfront] ne suit aucune mise à jour système pour les objets suivants :
+* [!DNL Workfront] ne suit pas les mises à jour système pour les objets suivants :
 
    * [!UICONTROL Équipe]
    * [!UICONTROL Modèle]
    * [!UICONTROL Tâche de modèle]
    * Ad hoc [!UICONTROL Carte]
+   * [!UICONTROL Itérations]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -77,17 +84,17 @@ La variable [!UICONTROL Mises à jour] comprend les types de mises à jour suiva
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* Les utilisateurs peuvent afficher les mises à jour du système par défaut ou choisir de ne pas les afficher.
+* Voici les différences entre la nouvelle expérience et l’expérience de commentaire héritée :
 
-  Pour plus d’informations sur la désactivation de l’affichage des mises à jour système, voir la section [Activation ou désactivation des mises à jour système](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) dans l’article [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * Lors de l’utilisation de la nouvelle expérience de commentaire, les mises à jour de l’utilisateur s’affichent dans l’onglet Commentaires et les mises à jour du système s’affichent dans l’onglet Activité du système.
 
-  >[!NOTE]
-  >
-  >Nous sommes en train de reconcevoir l’expérience de commentaire et la [!UICONTROL Mises à jour] area dans [!DNL Workfront].
-  >
-  > Vous ne pouvez pas masquer les mises à jour système lors de l’utilisation de la nouvelle expérience de commentaire.
-  > 
-  >Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+     Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+   * Lors de l’utilisation de l’expérience de commentaire héritée, les mises à jour du système et de l’utilisateur s’affichent dans un flux continu.
+
+   * Lors de l’utilisation de l’expérience de commentaire héritée, les utilisateurs peuvent afficher les mises à jour système par défaut ou choisir de ne pas les afficher. La désactivation des mises à jour du système n’est pas possible lors de l’utilisation de la nouvelle expérience de commentaire.
+
+     Pour plus d’informations sur la désactivation de l’affichage des mises à jour système, voir la section [Activation ou désactivation des mises à jour système](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) dans l’article [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Workfront enregistre les mises à jour suivies par le système pour les objets suivants, mais il n’existe pas d’option pour les désactiver :
 

@@ -6,9 +6,9 @@ description: Vous pouvez faire des commentaires sur les feuilles de temps, les t
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -82,13 +82,15 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps.
 
 1. Cliquez sur **Feuilles de temps**.
 1. Accédez à la feuille de temps où vous souhaitez faire un commentaire.
-1. Cliquez sur **Mises à jour** dans le panneau de gauche, puis commencez à saisir une mise à jour.
-1. (Facultatif) Ajoutez des personnes ou des équipes dans le **Notifier** pour inclure d’autres utilisateurs dans votre mise à jour. Pour plus d’informations sur les mises à jour de Workfront, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Saisissez votre commentaire, puis cliquez sur **Mettre à jour**.
+1. Cliquez sur **Mises à jour** dans le panneau de gauche, assurez-vous que la variable **Commentaires** est sélectionné et commencez à saisir une mise à jour dans la variable **Nouveau commentaire** de la boîte.
+1. (Facultatif) Ajoutez des personnes ou des équipes dans le **Balisage de personnes ou d’équipes** pour inclure d’autres utilisateurs dans votre mise à jour. Pour plus d’informations, voir [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. (Facultatif) Ajoutez un formatage de texte enrichi à votre commentaire. Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Sélectionnez le **Privé à ma société** si vous souhaitez que seules les personnes de votre société visualisent la mise à jour.
+1. Saisissez votre commentaire, puis cliquez sur **Envoyer**.
 
-   Votre commentaire s’affiche dans le [!UICONTROL Mises à jour] de la feuille de temps.
+   Votre commentaire s’affiche dans la variable [!UICONTROL Mises à jour] de la feuille de temps.
 
-   Les mises à jour générées par le système s’affichent également dans cette zone lorsque vous activez l’option [!UICONTROL **Afficher les mises à jour du système**] dans la section Mises à jour .
+1. (Facultatif) Cliquez sur le **Activité du système** pour examiner les mises à jour générées par le système.
 
    Pour plus d’informations, reportez-vous à la section &quot;Activation ou désactivation des mises à jour système&quot; de l’article . [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -105,14 +107,14 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps.
    >   Lorsque vous utilisez un clavier QWERTY standard après avoir cliqué sur la zone de saisie de l’heure, appuyez sur l’ensemble de touches suivant pour ouvrir la zone de commentaire :
    >   * Maj + F2 pour les ordinateurs Windows et Mac.
 
-
    Utilisez l’une des méthodes suivantes :
 
    * Saisissez un nouveau commentaire, puis cliquez sur **Terminé**.
    * Modifiez un commentaire existant, puis cliquez sur **Terminé** ou cliquez sur **Annuler** pour ignorer les modifications.
    * Cliquez sur le bouton **Supprimer** icon ![](assets/delete.png) pour supprimer un commentaire enregistré.
 
-      Un marqueur bleu s’affiche dans le coin supérieur droit de la zone de saisie de l’heure pour indiquer que des commentaires sont consignés avec l’heure.
+     Un marqueur bleu s’affiche dans le coin supérieur droit de la zone de saisie de l’heure pour indiquer que des commentaires sont consignés avec l’heure.
+
    ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
@@ -122,8 +124,7 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps.
    >   * Cmd + Retour pour les ordinateurs Mac.
 
 
-
-1. (Facultatif) Pour configurer les commentaires de saisie d’heure à afficher dans la feuille de temps, reportez-vous à la section [Afficher les commentaires de saisie d’heure sur une feuille de temps](#view-hour-entry-comments-on-a-timesheet) dans cet article.
+1. (Facultatif) Pour configurer les commentaires de saisie d’heure à afficher dans la feuille de temps, consultez la section [Afficher les commentaires de saisie d’heure sur une feuille de temps](#view-hour-entry-comments-on-a-timesheet) dans cet article.
 
 ### Commentaire sur un élément de travail dans une feuille de temps {#comment-on-a-work-item-in-a-timesheet}
 
