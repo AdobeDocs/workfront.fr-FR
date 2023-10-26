@@ -7,7 +7,7 @@ description: Vous pouvez créer un dossier lié à Experience Manager Assets ou 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
+source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -79,6 +79,7 @@ Pour créer un dossier lié :
 
 1. Accédez au projet dans lequel vous souhaitez placer le dossier.
 1. Sélectionner **Ajouter**, puis accédez à l’ intégration Experience Manager configurée par votre administrateur.
+
    >[!NOTE]
    >
    >L’administrateur de Workfront peut choisir n’importe quel nom pour cette intégration. Il se peut donc qu’il ne mentionne pas spécifiquement Experience Manager Assets ou les Assets Essentials.
