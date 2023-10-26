@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '4886'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # Concevoir un formulaire avec le concepteur de formulaires
-
-{{preview-and-fast-release}}
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données sur ces objets.
 
@@ -498,8 +496,6 @@ Pour ajouter des champs de date de saisie anticipée :
 
    Cliquez sur **Enregistrer et fermer**.
 
-<div class="preview">
-
 ### Ajout de champs de recherche externes
 
 Un champ de recherche externe appelle une API externe et renvoie les valeurs sous forme d’options dans un champ déroulant. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante.
@@ -590,8 +586,6 @@ Pour ajouter une recherche externe :
 >* Durée d’attente entre deux tentatives : 500 ms
 >* Statuts de réponse attendus : 2xx
 >* Les utilisateurs peuvent voir la valeur sélectionnée (et la modifier) dans les listes et les rapports Workfront, mais ne verront pas la liste déroulante contenant les options provenant de l’API externe.
-
-</div>
 
 ### Ajout d’images, de PDF et de vidéos
 

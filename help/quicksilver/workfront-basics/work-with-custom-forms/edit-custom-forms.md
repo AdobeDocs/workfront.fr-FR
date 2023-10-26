@@ -7,7 +7,7 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Modifier les informations dans les champs de formulaire personnalisés
-
-{{preview-and-fast-release}}
 
 Vous pouvez modifier les informations d’un formulaire personnalisé une fois le formulaire joint à un objet. Pour plus d’informations sur l’ajout de formulaires personnalisés à des objets, voir [Ajout d’un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -105,7 +103,7 @@ La modification des informations d’un formulaire personnalisé associé à un 
 
    Lorsqu’une personne modifie des données dans un autre objet référencé par des champs personnalisés calculés de votre objet, les modifications ne sont pas répercutées automatiquement dans votre objet. Pour plus d’informations sur la mise à jour manuelle de tous les champs personnalisés calculés de votre objet, voir [Recalculer tous les champs personnalisés calculés d’un objet](#recalculate-all-calculated-custom-fields-for-an-object) dans cet article.
 
-   <span class="preview">Lorsque des champs dépendants de la page sont modifiés, les champs calculés du formulaire personnalisé sont recalculés dynamiquement en temps réel. Vous pouvez voir la nouvelle valeur du champ calculé sans enregistrer le formulaire, mais elle n’est pas appliquée au formulaire et à l’objet tant que vous n’avez pas enregistré les modifications. Cela s’applique aux champs calculés sur les formulaires par défaut et aux formulaires personnalisés.</span>
+   Lorsque des champs dépendants de la page sont modifiés, les champs calculés du formulaire personnalisé sont recalculés dynamiquement en temps réel. Vous pouvez voir la nouvelle valeur du champ calculé sans enregistrer le formulaire, mais elle n’est pas appliquée au formulaire et à l’objet tant que vous n’avez pas enregistré les modifications. Cela s’applique aux champs calculés sur les formulaires par défaut et aux formulaires personnalisés.
 
    Vous pouvez également mettre à jour manuellement tous les champs personnalisés calculés d’un objet lorsque vous modifiez l’objet en masse avec d’autres objets d’une liste. Pour obtenir des instructions, voir [Recalculer tous les champs personnalisés calculés de plusieurs objets dans une liste lors de la modification des objets](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) dans cet article.
 
