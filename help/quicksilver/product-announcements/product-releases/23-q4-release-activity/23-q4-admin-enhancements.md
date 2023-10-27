@@ -3,16 +3,16 @@ title: Améliorations apportées aux administrateurs au quatrième trimestre 202
 description: Améliorations apportées aux administrateurs au quatrième trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
 # Améliorations apportées aux administrateurs au quatrième trimestre 2023
 
-Cette page décrit toutes les améliorations apportées à l’administrateur à la version du quatrième trimestre 2023 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version 23.10.
+Cette page décrit toutes les améliorations apportées à l’administrateur à la version du quatrième trimestre 2023 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production avec la version 23.10.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2023, voir [Présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
