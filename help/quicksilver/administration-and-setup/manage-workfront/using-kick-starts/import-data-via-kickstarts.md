@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 7%
 
 ---
@@ -121,9 +121,9 @@ Pour exporter un modèle de démarrage rapide :
       <td> <p>Type d’heure</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
-      <td> <p>Equipe</p> </td> 
+      <td> <p>Équipe</p> </td> 
       <td scope="col"> <p>Exporte sous forme de fichier Excel</p> </td> 
-      <td> <p> Membre d'équipe</p> <p>Equipe</p> <p>Préférences </p> </td> 
+      <td> <p> Membre d'équipe</p> <p>Équipe</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
       <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
@@ -308,13 +308,21 @@ Chaque ligne de la feuille correspond à un objet unique.
 1. Remplir la cellule dans le **isNew** column :
 
    * Si l’objet que vous importez est nouveau, saisissez **TRUE** pour importer les données de la ligne.
-   * Si l’objet est déjà dans Workfront, saisissez **FALSE** pour ignorer la ligne.
+   * Si l’objet est déjà dans Workfront, **FALSE** doit se trouver dans la colonne pour ignorer la ligne.
+
+      * Les enregistrements qui existent déjà dans Workfront ne sont pas mis à jour.
+      * Si vous avez téléchargé un modèle contenant des données, les objets existants sont déjà marqués avec **FALSE**.
+      * Si vous avez téléchargé un modèle vierge, il n’est pas nécessaire d’ajouter de nouvelles lignes pour les objets existants.
 
 1. Remplir la cellule dans le **ID** de l’une des manières suivantes :
 
-   * Si l’objet que vous importez est nouveau (et que vous avez tapé **TRUE** dans le **isNew** ), indiquez le numéro de l’ID. Ce nombre doit être unique dans la feuille de calcul.
+   * Si l’objet que vous importez est nouveau (et que vous avez tapé **TRUE** dans le **isNew** ), saisissez n’importe quel numéro pour l’ID. Ce nombre doit être unique dans la feuille de calcul.
 
-   * Si l’objet que vous importez existe déjà dans le système Workfront (et que vous avez tapé **FALSE** dans le **isNew** ), l’ID doit être le GUID alphanumérique existant dans Workfront pour cet objet.
+   * Si l’objet existe déjà dans Workfront (et **FALSE** se trouve dans la variable **isNew** ), l’ID doit être le GUID alphanumérique existant dans Workfront pour cet objet.
+
+      * Les enregistrements qui existent déjà dans Workfront ne sont pas mis à jour.
+      * Si vous avez téléchargé un modèle avec des données, les objets existants contiennent déjà le GUID en tant qu’identifiant.
+      * Vous pouvez importer un nouvel objet en fonction d’un objet existant en modifiant les **FALSE** to **TRUE** dans le **isNew** , en modifiant l’identifiant et en ajustant les données avant l’importation.
 
      ![Exemple d’identifiant pour un groupe](assets/kick-start-group-example.png)
 
