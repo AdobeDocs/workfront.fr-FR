@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 2%
 
 ---
@@ -151,4 +151,4 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Presse **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement.
+1. Presse **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement. Un indicateur Enregistré s’affiche brièvement dans le coin supérieur droit du tableau pour indiquer que les modifications ont été enregistrées.
