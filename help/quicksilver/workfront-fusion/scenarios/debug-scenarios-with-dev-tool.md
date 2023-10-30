@@ -2,25 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Débogage des scénarios avec l’outil de développement de fusion Adobe Workfront
-description: Adobe Workfront Fusion DevTool vous permet de comprendre et de résoudre les problèmes liés aux scénarios. DevTool ajoute un panneau supplémentaire aux outils de développement Chrome. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
+title: Débogage des scénarios avec l’outil Adobe Workfront Fusion Devtool
+description: L’outil Adobe Workfront Fusion Devtool vous permet de comprendre et de résoudre les problèmes liés aux scénarios. L’outil Devtool ajoute un panneau supplémentaire aux Chrome Developer Tools. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
 
-# Déboguer les scénarios à l’aide de [!DNL Adobe Workfront Fusion] DevTool
+# Déboguer les scénarios à l’aide de [!DNL Adobe Workfront Fusion] Devtool
 
-La variable [!DNL Adobe Workfront Fusion] DevTool vous permet de comprendre et de résoudre les problèmes liés aux scénarios. DevTool ajoute un panneau supplémentaire à la variable [!DNL Chrome Developer Tools]. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
-
->[!NOTE]
->
->Workfront Fusion DevTool n’est pas disponible pour les organisations qui accèdent à Fusion via l’Adobe Unified Shell.
+La variable [!DNL Adobe Workfront Fusion] Devtool vous permet de comprendre et de dépanner les scénarios. L’outil Devtool ajoute un panneau supplémentaire au [!DNL Chrome Developer Tools]. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
 
 ## Exigences d’accès
 
@@ -61,34 +57,49 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Installez le [!DNL Chrome] Extension DevTool
+## Accès à l’outil Workfront Fusion Devtool
 
-<!--
-To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
+L’accès à Devtool varie selon que vous utilisez Fusion dans la variable [!DNL Adobe Unified Experience].
 
-1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
-1. When the files have downloaded, extract them to a folder of your choice.
-1. Open a tab in [!DNL Chrome]
-1. In the search bar of the tab, enter `chrome://extensions`.
-1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
-1. Click **[!UICONTROL Load unpacked]**.
-1. Select the folder containing the DevTool (where you extracted the files in step 2).
+* [Accédez à l’outil Devtool dans le [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [Accédez à l’outil Devtool dans classic [!DNL Fusion] expérience](#access-the-devtool-in-the-classic-fusion-experience)
 
-   Once unpacked, the DevTool appears among your other Chrome extensions.
-   -->
+### Accédez à l’outil Devtool dans le [!DNL Adobe Unified Experience]
 
-Vous pouvez ajouter la variable [!DNL Workfront Fusion] DevTool à [!DNL Chrome] par le biais du [!UICONTROL [!DNL Chrome] Boutique Web].
+Si vous utilisez Fusion dans l’Adobe Unified Shell, vous pouvez accéder à l’outil de développement à partir de l’éditeur de scénario.
 
-1. Cliquez sur [ce lien](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) pour accéder au [!DNL Workfront Fusion] DevTool sur la [!UICONTROL [!DNL Chrome] Boutique Web].
+1. Accédez à l’éditeur de scénarios pour le scénario que vous souhaitez déboguer.
+
+   Pour localiser l’éditeur de scénario, voir [Éditeur de scénario](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
+
+1. Cliquez avec le bouton droit dans une zone vide de la page (et non sur un module).
+1. Sélectionner **Open Devtool**.
+
+>[!NOTE]
+>
+>Actuellement, seule la variable **Flux en direct** de l’outil Devtool est disponible pour les utilisateurs de l’interpréteur de commandes unifié.
+
+### Accédez à l’outil Devtool dans classic [!DNL Fusion] expérience
+
+Pour utiliser l’outil Devtool dans classic [!DNL Fusion] experience, vous devez installer une [!DNL Chrome] extension . Vous pouvez ensuite utiliser cette extension à partir de la fonction [!DNL Chrome] Outils de développement.
+
+* [Installez le [!DNL Chrome] Extension Devtool](#install-the-chrome-devtool-extension)
+* [Recherchez la variable [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
+
+#### Installez le [!DNL Chrome] Extension Devtool
+
+Vous pouvez ajouter la variable [!DNL Workfront Fusion] Déplacer l’outil vers [!DNL Chrome] par le biais du [!UICONTROL [!DNL Chrome] Boutique Web].
+
+1. Cliquez sur [ce lien](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) pour accéder au [!DNL Workfront Fusion] Développez l’outil sur [!UICONTROL [!DNL Chrome] Boutique Web].
 1. Cliquez sur **[!UICONTROL Ajouter à[!DNL Chrome]]**.
 1. Dans la fenêtre qui s’ouvre, examinez les autorisations. Si vous acceptez les autorisations, cliquez sur **[!UICONTROL Ajouter une extension]**.
 
-La variable [!DNL Workfront Fusion] L’extension DevTool est ajoutée à votre [!DNL Chrome] extensions.
+La variable [!DNL Workfront Fusion] L’extension Devtool a été ajoutée à votre [!DNL Chrome] extensions.
 
 
-## Recherchez la variable [!DNL Workfront Fusion] DevTool
+#### Recherchez la variable [!DNL Workfront Fusion] Devtool
 
-Pour utiliser la variable [!DNL Workfront Fusion] DevTool, vous devez ajouter la variable [!DNL Workfront Fusion] Extension DevTool à votre [!DNL Chrome] , comme décrit dans la section [Installation de l’extension Chrome DevTool](#install-the-chrome-devtool-extension).
+Pour utiliser la variable [!DNL Workfront Fusion] Devtool, vous devez ajouter la variable [!DNL Workfront Fusion] Extension Devtool pour [!DNL Chrome] , comme décrit dans la section [Installation de l’extension Chrome Devtool](#install-the-chrome-Devtool-extension).
 
 1. Ouvrez votre [!DNL Workfront Fusion] .
 1. Ouvrir [!DNL Chrome Developer Tools]:
@@ -114,9 +125,9 @@ Pour utiliser la variable [!DNL Workfront Fusion] DevTool, vous devez ajouter la
 
 1. Cliquez sur le bouton **[!DNL Workfront Fusion]** dans [!DNL Chrome Dev Tools].
 
-## Utilisez la variable [!DNL Workfront Fusion] DevTool
+## Utilisez la variable [!DNL Workfront Fusion] Devtool
 
-Workfront Fusion DevTool est divisé en 3 sections principales. Vous pouvez les trouver dans le panneau de gauche de votre fenêtre DevTool.
+Workfront Fusion Devtool est divisé en 3 sections principales. Vous pouvez les trouver dans le panneau de gauche de votre fenêtre Devtool.
 
 * [Flux en direct](#live-stream)
 * [Débogueur de scénario](#scenario-debugger)
@@ -147,26 +158,26 @@ Live Stream affiche ce qui se passe en arrière-plan lorsque vous cliquez sur Ex
         <li> <p>Corps de requête</p> </li> 
         <li> <p>En-têtes de réponse</p> </li> 
         <li> <p>Corps de réponse</p> </li> 
-       </ul> <p>Pour afficher ces informations, cliquez sur l’onglet approprié dans le panneau de droite du [!DNL Workfront Fusion] DevTool.</p> </td> 
+       </ul> <p>Pour afficher ces informations, cliquez sur l’onglet approprié dans le panneau de droite du [!DNL Workfront Fusion] Devtool.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Requêtes de recherche et réponses</p> </td> 
-      <td> <p>Saisissez le terme recherché dans le champ de recherche du panneau de gauche de la variable [!DNL Workfront Fusion] DevTool affiche uniquement les requêtes qui contiennent le terme de recherche.</p> </td> 
+      <td> <p>Saisissez le terme recherché dans le champ de recherche du panneau de gauche de la variable [!DNL Workfront Fusion] Développez pour afficher uniquement les requêtes qui contiennent le terme de recherche.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Supprimer la liste des requêtes </p> </td> 
-      <td> <p>Cliquez sur l’icône de corbeille dans le coin supérieur droit du panneau de gauche de DevTool pour effacer la liste des requêtes enregistrées par la variable [!DNL Workfront Fusion] DevTool. </p> </td> 
+      <td> <p>Cliquez sur l’icône de la corbeille dans le coin supérieur droit du panneau de gauche de Devtool pour effacer la liste des requêtes enregistrées par l’événement [!DNL Workfront Fusion] Devtool. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Activation de la journalisation de la console</p> </td> 
-      <td> <p>Cliquez sur l’icône de l’ordinateur. <img src="assets/console-computer-icon.png"> dans le coin supérieur droit du panneau de gauche de DevTool.</p> <p>La journalisation dans la console est activée lorsque l’icône de l’ordinateur est verte.</p> </td> 
+      <td> <p>Cliquez sur l’icône de l’ordinateur. <img src="assets/console-computer-icon.png"> dans le coin supérieur droit du panneau de gauche de Devtool.</p> <p>La journalisation dans la console est activée lorsque l’icône de l’ordinateur est verte.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Récupération de la requête au format JSON brut ou cURL</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>JSON brut</strong> </p> <p>Cliquez sur <strong>[!UICONTROL Copier RAW]</strong> dans le coin supérieur droit du volet de droite de DevTool.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Cliquez sur <strong>[!UICONTROL Copier cURL]</strong> dans le coin supérieur droit du volet de droite de DevTool.</p> </li> 
+        <li> <p><strong>JSON brut</strong> </p> <p>Cliquez sur <strong>[!UICONTROL Copier RAW]</strong> dans le coin supérieur droit du volet de droite de Devtool.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Cliquez sur <strong>[!UICONTROL Copier cURL]</strong> dans le coin supérieur droit du volet de droite de Devtool.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -177,13 +188,13 @@ Live Stream affiche ce qui se passe en arrière-plan lorsque vous cliquez sur Ex
 Le débogueur de scénario est utile pour les scénarios plus complexes. Il affiche l’historique du scénario qui s’exécute et vous permet de rechercher les modules par leur nom ou identifiant.
 
 1. Cliquez sur le bouton **[!UICONTROL Débogueur de scénario]** icon ![](assets/scenario-debugger-icon.png) pour ouvrir le débogueur de scénario.
-1. (Facultatif) Saisissez le terme à rechercher (nom ou identifiant de module) dans le champ de recherche du volet de gauche de la variable [!DNL Workfront Fusion] DevTool dans la [!UICONTROL Débogueur de scénario] .
+1. (Facultatif) Saisissez le terme à rechercher (nom ou identifiant de module) dans le champ de recherche du volet de gauche de la variable [!DNL Workfront Fusion] Devtool dans la section [!UICONTROL Débogueur de scénario] .
 1. Double-cliquez sur le nom du module pour ouvrir ses paramètres dans l’éditeur de scénarios.
 1. Affichez les détails de la requête en cliquant sur l’opération souhaitée.
 
 ### Outils
 
-La variable [!DNL Workfront Fusion] DevTool contient des outils qui facilitent la configuration de votre scénario.
+La variable [!DNL Workfront Fusion] Devtool contient des outils qui facilitent la configuration de votre scénario.
 
 1. Cliquez sur le bouton **[!UICONTROL Outils]** icon ![](assets/console-tools-icon.png) pour ouvrir les outils.
 1. Sélectionnez l’outil à utiliser.

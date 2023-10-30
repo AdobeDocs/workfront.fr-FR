@@ -7,9 +7,9 @@ description: L’éditeur de scénarios vous permet de créer et de modifier des
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -47,9 +47,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -63,15 +63,15 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 1. Cliquez sur **[!UICONTROL Scénarios]** ![](assets/scenarios-icon.png) dans le panneau de gauche.
 
-1. Si vous souhaitez créer un scénario, cliquez sur **[!UICONTROL Création d’un scénario]** dans le coin supérieur droit de la page.
+1. Pour créer un scénario, cliquez sur **[!UICONTROL Création d’un scénario]** dans le coin supérieur droit de la page.
 
    Ou
 
    Si vous souhaitez modifier un scénario existant, cliquez sur le scénario.
 
-   Dans l’éditeur de scénario qui s’affiche, vous pouvez effectuer toutes les opérations répertoriées dans le tableau ci-dessous. Pour plus d’informations, voir [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Dans l’éditeur de scénario qui s’affiche, vous pouvez effectuer toutes les opérations répertoriées dans le tableau ci-dessous. Pour plus d’informations, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Lorsque vous avez terminé de modifier un scénario (ou à tout moment pendant la modification), cliquez sur le bouton [!UICONTROL Enregistrer] icône . ![](assets/save-icon.gif)
+1. Lorsque vous avez terminé de modifier un scénario (ou à tout moment pendant la modification), cliquez sur le bouton [!UICONTROL Enregistrer] Icône ![](assets/save-icon.gif)
 
    >[!NOTE]
    >
@@ -99,11 +99,11 @@ Les actions suivantes sont disponibles dans l’éditeur de scénario :
      <td role="rowheader">Configuration d’un itinéraire</td>   
      <td> <p>Cliquez sur l’icône [!UICONTROL clé] <img src="assets/wrench-icon.gif"> entre les deux modules et utilisez l’une des options suivantes :</p>    
        <ul>
-         <li><strong>[!UICONTROL Configurer un filtre]</strong>: Contrôlez les lots utilisés à certains moments dans le scénario. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Ajoutez un filtre à un scénario dans [!DNL Adobe Workfront Fusion]</a>.</li>     
-         <li><strong>[!UICONTROL Dissocier]</strong>: Supprime un itinéraire.</li>     
-         <li><strong>[!UICONTROL Ajouter un routeur]</strong>: Ajoute un routeur entre les modules. </li>     
-         <li><strong>[!UICONTROL Ajouter un module]</strong>: Ajoute un nouveau module entre les modules.</li>     
-         <li><strong>[!UICONTROL Ajouter une note]</strong>: Ajoute une note à l’itinéraire.</li>   
+         <li><strong>[!UICONTROL Configurer un filtre]</strong>: contrôlez les lots utilisés à certains moments dans le scénario. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Ajoutez un filtre à un scénario dans [!DNL Adobe Workfront Fusion]</a>.</li>     
+         <li><strong>[!UICONTROL Dissocier]</strong>: supprime un itinéraire.</li>     
+         <li><strong>[!UICONTROL Ajouter un routeur]</strong>: ajoute un routeur entre les modules. </li>     
+         <li><strong>[!UICONTROL Ajouter un module]</strong>: ajoute un nouveau module entre les modules.</li>     
+         <li><strong>[!UICONTROL Ajouter une note]</strong>: ajoute une note à l’itinéraire.</li>   
        </ul> 
      </td>  
   </tr>  
@@ -138,7 +138,7 @@ Les actions suivantes sont disponibles dans l’éditeur de scénario :
      <td>Cliquez sur le menu [!UICONTROL Plus] . <img src="assets/more-icon.png">, puis cliquez sur [!UICONTROL Importer le plan directeur].</td>  
    </tr>  
    <tr>   
-     <td role="rowheader">Restauration d’une version précédente du scénario</td>   
+     <td role="rowheader">Restaurer une version précédente du scénario</td>   
      <td>Voir l’article <a href="../../workfront-fusion/scenarios/restore-a-scenario-version.md" class="MCXref xref">Restaurer une version de scénario dans [!DNL Adobe Workfront Fusion]</a>.</td>  
    </tr>  
    <tr> 
@@ -160,6 +160,11 @@ Les actions suivantes sont disponibles dans l’éditeur de scénario :
    <tr> 
      <td role="rowheader">Test du scénario</td>   
      <td>Cliquez sur <strong>[!UICONTROL Exécuter une fois]</strong> pour vérifier que le scénario s’exécute comme prévu avant de l’activer. Une fois activé, le scénario s’exécute selon son planning. Si tout ne fonctionne pas comme prévu, vous pouvez consulter notre section de gestion des erreurs pour savoir comment gérer les erreurs.</td> 
+   </tr> 
+   <tr> 
+     <td role="rowheader">Utilisez l’outil Devtool pour déboguer le scénario</td>   
+     <td>Pour plus d’informations, voir Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">Déboguer les scénarios à l’aide de [!DNL Adobe Workfront Fusion] Devtool</a>.
+</td> 
    </tr> 
 </tbody>
 </table>
