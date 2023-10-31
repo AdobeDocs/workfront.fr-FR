@@ -3,9 +3,10 @@ title: Améliorations de l’intégration au quatrième trimestre 2023
 description: Améliorations de l’intégration au quatrième trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
+source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -27,6 +28,10 @@ Nous avons apporté quelques modifications à la manière dont vous envoyez des 
 Pour plus d’informations, voir [Lier des documents par le biais de la nouvelle intégration SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Mises à niveau par glisser-déposer pour les intégrations de documents
+
+>[!NOTE]
+>
+>Cette fonctionnalité n’a pas encore été publiée dans les environnements de production.
 
 Certaines améliorations ont été apportées à l’expérience utilisateur lors du glisser-déposer d’un fichier dans un dossier lié.
 
