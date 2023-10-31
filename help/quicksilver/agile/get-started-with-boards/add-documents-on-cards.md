@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des documents aux cartes connectées sur les pa
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sur la carte, recherchez la variable [!UICONTROL Documents] zone. Cliquez sur ![Icône Liste](assets/docs-list-icon.png) pour afficher tous les documents d’une liste, ou cliquez sur ![Icône Galerie](assets/docs-gallery-icon.png) pour afficher les documents dans une galerie.
 1. Passez la souris sur la miniature du document, puis cliquez sur [!UICONTROL **Aperçu**] pour afficher le fichier dans le navigateur ou [!UICONTROL **Télécharger**] pour télécharger le fichier sur votre ordinateur.
+
+   >[!NOTE]
+   >
+   >Les PDF n’affichent pas de miniature.
