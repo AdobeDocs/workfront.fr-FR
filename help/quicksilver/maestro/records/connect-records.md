@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ Après avoir créé une connexion entre un type d’enregistrement Maestro et un
    >
    >  Les champs que vous ajoutez ou supprimez dans la page Type d’enregistrement d’objet Workfront ne sont pas ajoutés ni supprimés du type d’enregistrement Maestro lié au type d’objet Workfront. Les champs ne sont visibles que sur la page de type d’enregistrement Workfront en lecture seule. Vous pouvez donc les consulter dans Maestro.
 
-1. (Facultatif) Dans le menu déroulant Affichage de la page de type d’enregistrement d’objet Workfront, choisissez la vue Chronologie pour afficher les objets liés Workfront dans la vue de la chronologie.
+1. (Facultatif et conditionnel) Si vous avez ajouté au moins deux champs de date à l’objet Workfront, cliquez sur le bouton **Affichage** menu déroulant dans la page de type d’enregistrement d’objet Workfront et sélectionnez l’option **Chronologie** vue. Les objets liés Workfront s’affichent dans la vue de chronologie.

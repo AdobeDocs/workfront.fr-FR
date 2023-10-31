@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel el
 Cette section répertorie les fonctionnalités et les correctifs qui ont été publiés après le lancement du programme bêta fermé de Maestro, le 22 mai 2023.
 
 Les fonctionnalités sont publiées toutes les semaines et sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé Maestro peuvent accéder à toutes les fonctionnalités de leurs environnements Aperçu et Production.
+
+## Semaine du 30 octobre 2023
+
+### Nouveaux types de champs pour les champs de date et d’utilisateur afin de capturer les personnes qui ont créé ou modifié un enregistrement ou à quelle date.
+
+Aperçu et production : 30 octobre 2023
+
+Nous avons introduit les types de champ suivants pour les enregistrements Maestro :
+
+* Créé par
+
+* Date de création
+
+* Dernière modification par
+
+* Date de dernière modification
+
+Les valeurs de champ des champs créés à partir de ces types de champs sont en lecture seule et capturent le nom de l’utilisateur qui a créé ou modifié pour la dernière fois un enregistrement, ou la date à laquelle l’enregistrement a été créé ou modifié pour la dernière fois.
+
+Pour plus d’informations, voir [Créer des champs](../maestro/architecture-and-fields/create-fields.md).
+
+### Accès aux objets Workfront à partir d’un enregistrement Maestro
+
+Aperçu et production : 31 octobre 2023
+
+Vous pouvez désormais ouvrir les pages d’objet Workfront à partir des zones suivantes de Maestro :
+
+* Vue de la table d’enregistrement d’objet Workfront liée en lecture seule
+
+* Page Détails de l’enregistrement d’objet Workfront en lecture seule
+
+Pour plus d’informations, voir [Connexion d’enregistrements](../maestro/records/connect-records.md).
 
 ## Semaine du 16 octobre 2023
 
