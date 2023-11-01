@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
+source-git-commit: 608a5beb5e29a786e41d713f1414a0cb79baf093
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1634'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ Associé à la licence Standard, ce niveau d’accès intégré est conçu pour 
 
 Les utilisateurs disposant du niveau d’accès Administrateur système peuvent tout faire dans Workfront. Ils peuvent afficher et modifier tous les objets et informations Workfront saisis dans Workfront par tous les autres utilisateurs.
 
-Ils ont également accès à la zone Configuration complète, où ils peuvent modifier n’importe quel paramètre au niveau du système, et ils peuvent accéder à toutes les zones du menu principal.
+Ils ont également accès à la zone Configuration complète, dans laquelle ils peuvent modifier n’importe quel paramètre au niveau du système, et ils peuvent accéder à toutes les zones du menu principal.
 
 Pour plus d’informations, voir [Octroi d’un accès administratif complet à un utilisateur](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -87,23 +87,23 @@ Pour plus d’informations, voir [Octroi d’un accès administratif complet à 
 
 Voici les paramètres d’accès les plus élevés disponibles pour les objets de niveau d’accès standard :
 
-| Type d’objet Workfront | Accès interdit | Afficher l’accès | Modifier l’accès |
+| Type d’objet Workfront | Accès interdit | Accès aux vues | Modifier l’accès |
 |---|---|---|---|
 | Projets |   |   | ✓ |
 | Tâches |   |   | ✓ |
-| Événements |   |   | ✓ |
+| Problèmes |   |   | ✓ |
 | Portefeuilles |   |   | ✓ |
 | Programmes |   |   | ✓ |
 | Rapports (y compris les tableaux de bord et les rapports de calendrier) |   |   | ✓ |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Documents |   |   | ✓ |
-| Utilisateurs et utilisatrices |   |   | ✓ |
+| Utilisateurs ou utilisatrices |   |   | ✓ |
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
 | Planificateur de scénarios |   |   | ✓ (Le paramètre par défaut est No Access.) |
 | Panoramas |   |   | ✓ |
-| Page d’accueil |   |   | ✓ |
+| Accueil |   |   | ✓ |
 | Objectifs |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -115,13 +115,13 @@ Attaché à la licence Light, ce niveau d&#39;accès est conçu pour les utilisa
 * Afficher tous les éléments et mises à jour liés au travail
 * Approbation de projets, de tâches et de problèmes
 * Affichage des tableaux de bord et des rapports
-* Temps de suivi
+* Tracker l’heure et approuver les feuilles de temps
 * Création et gestion des problèmes
 * Mise à jour sur le travail
 
 Utilisateurs avec le niveau d’accès Clair :
 
-* Impossible d’attribuer des tâches ou d’approuver les feuilles de temps
+* Peut se voir attribuer des tâches, mais ne peut pas les terminer.
 * Peuvent accéder aux requêtes et aux documents dans le menu principal.
 * La possibilité de créer des objets est limitée : ils ne peuvent pas créer de projets, de portefeuilles, de programmes ou de rapports.
 
@@ -142,7 +142,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
   <tr> 
    <th>Type d’objet Workfront</th> 
    <th>Accès interdit</th> 
-   <th>Afficher l’accès</th> 
+   <th>Accès aux vues</th> 
    <th>Modifier l’accès</th> 
   </tr> 
  </thead> 
@@ -160,7 +160,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Événements</td> 
+   <td>Problèmes</td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
@@ -196,7 +196,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Utilisateurs et utilisatrices</td> 
+   <td>Utilisateurs ou utilisatrices</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -237,7 +237,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td> </td> 
    <td>✓</td> 
      <tr> 
-   <td>Page d’accueil </td> 
+   <td>Accueil </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
@@ -256,14 +256,14 @@ Attaché à la licence du contributeur, ce niveau d’accès est conçu pour les
 
 * Soumettre des demandes
 * Suivi des requêtes
-* Mettre à jour et réviser les demandes.
+* Mise à jour et révision des requêtes
 
 Utilisateurs disposant de ce niveau d’accès intégré :
 
 * Peut effectuer des requêtes et les mettre à jour
 * Peut télécharger et approuver des documents
 * Peuvent examiner l’état des problèmes qu’ils ont envoyés.
-* Ne peut pas être affecté aux tâches
+* Peut être affecté à des tâches, mais ne peut pas les terminer
 * Ne peuvent accéder aux requêtes que depuis le menu principal. Pour plus d’informations sur les files d’attente de requêtes, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
@@ -274,7 +274,7 @@ Utilisateurs disposant de ce niveau d’accès intégré :
 
 Voici les paramètres d’accès les plus élevés disponibles pour les objets du niveau d’accès Contributeur :
 
-| Type d’objet Workfront | Accès interdit | Afficher l’accès | Modifier l’accès |
+| Type d’objet Workfront | Accès interdit | Accès aux vues | Modifier l’accès |
 |---|---|---|---|
 | Projet |   | ✓ (Page Détails du projet uniquement) |   |
 | Tâche |   | ✓(Page Détails uniquement) |   |
@@ -284,14 +284,14 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (onglet Détails uniquement) |   |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Document |   |   | ✓ |
-| Utilisateur ou utilisatrice |   | ✓ |   |
+| l’utilisateur ou de l’utilisatrice |   | ✓ |   |
 | Équipes |   | ✓ |   |
 | Modèle | ✓ |   |   |
 | Données financières | ✓ |   |   |
 | Gestion des ressources | ✓ |   |   |
 | Planificateur de scénarios | ✓ |   |   |
 | Panoramas |   |   | ✓ (cartes simples) |
-| Page d’accueil |   | ✓ (Mes mises à jour) |   |
+| Accueil |   | ✓ (Mes mises à jour) |   |
 | Objectifs |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -318,24 +318,24 @@ Vous ne pouvez pas modifier ce niveau d&#39;accès.
 
 Voici les paramètres d’accès les plus élevés disponibles pour les objets du niveau d’accès Utilisateur externe .
 
-| Type d’objet Workfront | Accès interdit | Afficher l’accès | Modifier l’accès |
+| Type d’objet Workfront | Accès interdit | Accès aux vues | Modifier l’accès |
 |---|---|---|---|
 | Projet | ✓ |   |   |
 | Tâche | ✓ |   |   |
 | Problème | ✓ |   |   |
 | Portefeuilles | ✓ |   |   |
 | Programmes | ✓ |   |   |
-| Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (Uniquement pour les rapports de calendrier) impossible de partager des rapports) |   |
+| Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (Uniquement pour les rapports de calendrier ; impossible de partager les rapports) |   |
 | Filtres, vues et regroupements | ✓ |   |   |
 | Document |   | ✓ (impossible de partager des documents) |   |
-| Utilisateur ou utilisatrice |   | ✓ |   |
+| l’utilisateur ou de l’utilisatrice |   | ✓ |   |
 | Équipes | ✓ |   |   |
 | Modèle | ✓ |   |   |
 | Données financières | ✓ |   |   |
 | Gestion des ressources | ✓ |   |   |
 | Planificateur de scénarios | ✓ |   |   |
 | Panoramas | ✓ |   |   |
-| Page d’accueil | ✓ |   |   |
+| Accueil | ✓ |   |   |
 | Objectifs | ✓ |   |   |
 
 
@@ -389,17 +389,16 @@ Les utilisateurs accèdent à des objets individuels lorsque d’autres utilisat
 >* Si un utilisateur partage un objet avec certaines autorisations et que cet objet a des objets enfants en dessous, le destinataire hérite des mêmes autorisations pour ces objets enfants.
 >* Si un niveau d’accès limite la suppression de certains objets par les utilisateurs, cela ne les empêche pas de supprimer les objets enfants qu’ils contiennent.
 
-
 Un utilisateur peut accorder au destinataire l’une des autorisations suivantes à l’objet individuel :
 
-* **Affichage**: Ce niveau d&#39;autorisation permet au destinataire de partager l&#39;objet de l&#39;une des manières suivantes :
+* **Affichage**: ce niveau d&#39;autorisation permet au destinataire de partager l&#39;objet de l&#39;une des manières suivantes :
 
    * à l’échelle du système afin que tous les utilisateurs puissent le voir (non disponible pour tous les objets) ;
    * Avec les utilisateurs externes qui n’ont pas de licence Workfront (non disponible pour tous les objets)
    * Avec une adresse électronique (disponible uniquement pour les documents et les calendriers)
 
 * **Contribution**: (non disponible pour tous les objets)
-* **Gérer**: Lorsqu’une personne partage un objet, les droits du destinataire sur l’objet sont déterminés par une combinaison du niveau d’accès du destinataire et des autorisations accordées par le responsable du partage. Le niveau d’accès le plus bas disponible dans cette combinaison détermine ce que le destinataire peut faire avec l’objet.
+* **Gérer**: lorsque quelqu’un partage un objet, les droits du destinataire sur l’objet sont déterminés par une combinaison du niveau d’accès du destinataire et des autorisations accordées par le responsable du partage. Le niveau d’accès le plus bas disponible dans cette combinaison détermine ce que le destinataire peut faire avec l’objet.
 
 ### Exemples de scénarios
 
