@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,8 @@ Vous pouvez supprimer les champs Maestro qui ne sont plus pertinents.
 
 ## Observations relatives à la suppression des champs Maestro :
 
-* Vous pouvez supprimer les champs que vous avez créés ou créés par d’autres utilisateurs. <!--this will change with access levels/ permissions-->
+* Vous pouvez supprimer les champs que vous avez créés ou créés par d’autres utilisateurs ou par le système. <!--this will change with access levels/ permissions-->
+* Vous ne pouvez pas supprimer le champ Nom d’un enregistrement. <!--change this to say you can't delete the field selected to be the primary-->
 * Vous ne pouvez supprimer un champ que dans le tableau de type enregistrement.
 * Toutes les informations stockées dans le champ sont supprimées et ne peuvent pas être récupérées.
 * Lorsque vous supprimez un champ d’enregistrement lié, tous les champs de recherche liés sont également supprimés du type d’enregistrement à partir duquel vous créez un lien. Les champs d’enregistrement liés des types d’enregistrement auxquels vous créez un lien ne sont pas supprimés.

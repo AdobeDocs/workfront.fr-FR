@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '3484'
 ht-degree: 2%
 
 ---
@@ -90,7 +90,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Observations sur les champs Maestro
 
-* Vous ne pouvez créer des champs qu’à partir de la vue de tableau d’une page de type enregistrement. Les champs s’affichent sous forme de colonnes dans la vue de tableau.
+* Vous ne pouvez créer des champs qu’à partir de la vue de tableau d’une page de type enregistrement. Les champs s’affichent sous forme de colonnes dans la vue de tableau. Tous les champs associés à un type d&#39;enregistrement s&#39;affichent également dans la page Détails de chaque enregistrement de ce type.
 
   Pour plus d’informations sur la gestion des colonnes de tableau (ou des champs d’enregistrement), voir [Gestion de la vue de tableau](../views/manage-the-table-view.md).
 
@@ -189,6 +189,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * [Devise](#currency)
    * [Case à cocher](#checkbox)
    * [Personnes](#people)
+   * [Créé par](#created-by)
+   * [Date de création](#created-date)
+   * [Dernière modification par](#last-modified-by)
+   * [Date de dernière modification](#last-modified-date)
 
    >[!IMPORTANT]
    >
@@ -209,7 +213,7 @@ Les champs de texte d’une seule ligne capturent des informations alphanumériq
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur l’en-tête de colonne d’un champ dans un tableau.
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ d&#39;une seule ligne est ajouté en colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ d&#39;une seule ligne est ajouté en colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 
 ### Paragraphe {#paragraph}
@@ -232,7 +236,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ de paragraphe est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ de paragraphe est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 
 ### Sélection multiple {#multi-select}
@@ -255,7 +259,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleurs et personnaliser la couleur de chaque option.
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ à sélection multiple est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ à sélection multiple est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Sélection unique {#single-select}
 
@@ -277,7 +281,7 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleurs et personnaliser la couleur de chaque option.
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ à sélection unique est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ à sélection unique est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Date {#date}
 
@@ -291,7 +295,7 @@ Vous pouvez utiliser un champ date pour capturer des informations supplémentair
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
    * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
-   * **Format de date**: type de format de date à afficher dans ce champ.
+   * **Format de date**: type de format de date à afficher dans ce champ. <!--update this casing - submitted bug for it-->
 
      Sélectionnez l’un des formats suivants :
       * **Paramètres régionaux**: correspond aux paramètres régionaux de votre navigateur.
@@ -299,7 +303,7 @@ Vous pouvez utiliser un champ date pour capturer des informations supplémentair
       * **Long**: 16 mai 2023
       * **Européen**: 16/05/2023
       * **ISO**: 2023-05-16
-   * **Inclure un champ d’heure**: sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut.
+   * **Inclure un champ d’heure**: sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--update this setting name - submitted bug for it to be changed-->
 
      Sélectionnez l’une des options suivantes :
 
@@ -308,7 +312,7 @@ Vous pouvez utiliser un champ date pour capturer des informations supplémentair
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ date est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ date est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Nombre {#number}
 
@@ -330,7 +334,7 @@ Les types de champ Nombre capturent les informations au format numérique.
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ numérique est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ numérique est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Pourcentage {#percentage}
 
@@ -352,7 +356,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ de pourcentage est ajouté en colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ de pourcentage est ajouté en colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Devise {#currency}
 
@@ -375,7 +379,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ de devise est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ de devise est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Case à cocher
 
@@ -390,7 +394,7 @@ Vous pouvez utiliser le type de champ Case à cocher pour ajouter une seule opti
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ de case à cocher est ajouté en tant que colonne au type d’enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ de case à cocher est ajouté en tant que colonne au type d’enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Personnes
 
@@ -411,7 +415,109 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur. <!-
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ Type de personne est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements. Le champ s’affiche également sur la page Détails d’un enregistrement.
+   Le nouveau champ Type de personne est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
+
+### Créé par
+
+Vous pouvez utiliser le type de champ Créé par pour ajouter à un enregistrement l’utilisateur qui a créé l’enregistrement. Il s’agit d’un champ en lecture seule qui s’affiche automatiquement avec le nom de l’utilisateur connecté lors de la création de l’enregistrement.
+
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Créé par** type de champ.
+
+   ![](assets/created-by-field-type.png)
+
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
+
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
+
+1. Cliquez sur **Créer**.
+
+   Le nouveau champ Créé par type est ajouté en colonne au type d&#39;enregistrement et ses valeurs sont préremplies avec le nom de l&#39;utilisateur qui a créé chaque enregistrement.
+
+
+### Date de création
+
+Vous pouvez utiliser le type de champ Date de création pour ajouter à un enregistrement la date à laquelle un enregistrement a été créé. Il s’agit d’un champ en lecture seule qui est automatiquement renseigné avec la date (et éventuellement avec l’heure) de création de l’enregistrement.
+
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Date de création** type de champ.
+
+   ![](assets/created-date-field-type.png)
+
+   <!--check the image above - added bug fix for UI text changes-->
+
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
+
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
+   * **Format de date**: sélectionnez l’un des formats suivants :
+
+      * **Paramètres régionaux**: correspond aux paramètres régionaux de votre navigateur.
+      * **Standard**: 05/16/2023
+      * **Long**: 16 mai 2023
+      * **Européen**: 16/05/2023
+      * **ISO**: 2023-05-16
+   * **Inclure un champ d’heure**: sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--submitted a UI text change for this - check the UI-->
+
+     Sélectionnez l’une des options suivantes :
+
+      * **24h**: par exemple : 18:00
+      * **12h**: par exemple : 18 heures
+
+1. Cliquez sur **Créer**.
+
+   Le nouveau champ de type Date de création est ajouté en colonne au type d’enregistrement et ses valeurs sont préremplies avec la date (ou la date et l’heure) de création de l’enregistrement.
+
+
+### Dernière modification par
+
+Vous pouvez utiliser le champ Dernière modification par type pour ajouter à un enregistrement l&#39;utilisateur qui a modifié l&#39;enregistrement pour la dernière fois. Il s’agit d’un champ en lecture seule qui s’affiche automatiquement avec le nom de l’utilisateur connecté lors de la dernière mise à jour de l’enregistrement.
+
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Dernière modification par** type de champ.
+
+   ![](assets/last-modified-by-field-type.png)
+
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
+
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
+
+1. Cliquez sur **Créer**.
+
+   Le nouveau champ Par type Dernière modification est ajouté en colonne au type d&#39;enregistrement et ses valeurs sont préremplies avec le nom de l&#39;utilisateur qui a modifié chaque enregistrement pour la dernière fois.
+
+
+### Date de dernière modification
+
+Vous pouvez utiliser le type de champ Date de dernière modification pour ajouter à un enregistrement la date de dernière modification d’un enregistrement. Il s’agit d’un champ en lecture seule qui s’affiche automatiquement avec la date (et éventuellement avec l’heure) de la dernière modification de l’enregistrement.
+
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Date de création** type de champ.
+
+   ![](assets/last-modified-date-field-type.png)
+
+   <!--check the image above - added bug fix for UI text changes-->
+
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
+
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
+   * **Format de date**: sélectionnez l’un des formats suivants :
+
+      * **Paramètres régionaux**: correspond aux paramètres régionaux de votre navigateur.
+      * **Standard**: 05/16/2023
+      * **Long**: 16 mai 2023
+      * **Européen**: 16/05/2023
+      * **ISO**: 2023-05-16
+   * **Inclure un champ d’heure**: sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--submitted a UI text change for this - check the UI-->
+
+     Sélectionnez l’une des options suivantes :
+
+      * **24h**: par exemple : 18:00
+      * **12h**: par exemple : 18 heures
+
+1. Cliquez sur **Créer**.
+
+   Le nouveau champ Type de date de dernière modification est ajouté en colonne au type d’enregistrement et ses valeurs sont préremplies avec la date (ou la date et l’heure) de la dernière modification de l’enregistrement.
+
 
 ## Créer des champs en liant les types d’enregistrement
 

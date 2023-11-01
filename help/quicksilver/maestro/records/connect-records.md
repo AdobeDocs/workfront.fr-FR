@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Vous pouvez connecter les éléments suivants :
 * Enregistrements opérationnels Maestro et enregistrements de taxonomie
 * Enregistrements opérationnels Maestro et objets provenant d&#39;autres applications.
 
-  Les applications et types d’objets suivants sont actuellement pris en charge :
+  Vous pouvez connecter des enregistrements Maestro à des objets des types répertoriés ci-dessous à partir des applications suivantes :
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Toute personne ayant accès à Maestro peut voir les connexions que vous faites entre les enregistrements Maestro ou entre les enregistrements Maestro et les objets Workfront. Vous pouvez également afficher et modifier les connexions de tous les autres utilisateurs. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * Vous pouvez connecter un enregistrement Maestro à un ou plusieurs objets d’une autre application.
 * Vous ne pouvez pas connecter de taxonomies à des types d’enregistrement ou à des objets à partir d’une autre application. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Actuellement, vous ne pouvez lier les enregistrements Maestro qu’aux objets Workfront. Pour lier des enregistrements Maestro à des objets Workfront, vous devez disposer des éléments suivants :
+* Pour lier des enregistrements Maestro à des objets Workfront, vous devez disposer des éléments suivants :
 
    * Objets Workfront. Par exemple, vous devez d’abord créer des projets, des portefeuilles, des programmes, des entreprises ou des groupes dans Workfront.
    * Espaces de travail Maestro, types d’enregistrement et enregistrements. Pour plus d’informations, voir les articles suivants :
@@ -151,16 +151,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ### Connexion des enregistrements Maestro
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
    L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à partir duquel vous souhaitez connecter des enregistrements.
 1. Cliquez sur la carte d’un type d’enregistrement pour ouvrir la page de type d’enregistrement.
-1. Sélectionnez une vue Tableau dans la **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
+1. Sélectionnez une **Tableau** de la vue **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
 1. Ajoutez une connexion à un autre type d’enregistrement ou d’objet à partir du type d’enregistrement sélectionné. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
 
-Une nouvelle colonne est ajoutée au tableau pour afficher le type d&#39;enregistrement associé.
+   Une nouvelle colonne est ajoutée au tableau pour afficher le type d&#39;enregistrement associé.
 
 1. Ajoutez des enregistrements au type d’enregistrement que vous avez sélectionné en ajoutant une nouvelle ligne au tableau. Pour plus d’informations, voir [Créer des enregistrements](../../maestro/records/create-records.md).
 1. Depuis un enregistrement répertorié dans la vue de tableau, accédez à la colonne d’enregistrement lié et survolez la cellule correspondant à l’enregistrement que vous souhaitez lier à d’autres enregistrements Maestro, puis cliquez sur le bouton **+** Icône
@@ -201,7 +201,7 @@ Une nouvelle colonne est ajoutée au tableau pour afficher le type d&#39;enregis
 
 Après avoir créé une connexion entre un type d’enregistrement Maestro et un type d’objet Workfront, vous pouvez connecter des enregistrements Maestro individuels à des objets dans Workfront. Vous pouvez également connecter des champs de l’objet Workfront au type d’enregistrement Maestro .
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
    L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
@@ -265,11 +265,30 @@ Après avoir créé une connexion entre un type d’enregistrement Maestro et un
    >
    >    * Pour afficher le type d’enregistrement de l’objet Workfront dans la vue Chronologie, au moins deux champs de date doivent s’afficher dans la vue Tableau de la page de type d’enregistrement Workfront en lecture seule.
 
-1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-menu.png) en regard du nom de type d’enregistrement de l’objet Workfront dans l’en-tête de la page, puis cliquez sur **Renommer** pour modifier le nom de l’enregistrement.
+1. (Facultatif) Pour ouvrir la page Détails de l’enregistrement d’objet Workfront dans Maestro, effectuez l’une des opérations suivantes :
 
-   >[!NOTE]
-   >
-   >    Vous ne pouvez pas supprimer un type d’enregistrement Workfront lié ni aucun objet de la page de type d’enregistrement Workfront.
+   * Depuis le type d’enregistrement à partir duquel vous avez lié, accédez au champ d’enregistrement lié à l’objet Workfront et cliquez sur le nom de l’objet Workfront.
+   * Dans la **Tableau** vue de la page de type enregistrement Workfront, cliquez sur le nom de l’objet Workfront
+
+     Ou
+
+     Cliquez sur le bouton **Plus** à droite du nom de l’objet Workfront, puis cliquez sur **Affichage**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Cette opération ouvre la page Détails du maître de l’objet Workfront lié. Il s’agit d’une page en lecture seule.
+
+1. (Facultatif) Pour ouvrir l’objet Workfront lié dans Workfront, effectuez l’une des opérations suivantes :
+
+   * Dans la **Tableau** vue de la page de type enregistrement Workfront, cliquez sur le nom de l’objet Workfront,
+
+   Ou
+
+   Cliquez sur le bouton **Plus** à droite du nom de l’objet Workfront, puis cliquez sur **Accéder à la source**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Cette opération ouvre la page d’objet Workfront. Si vous êtes autorisé à le faire, vous pouvez modifier les informations relatives à l’objet Workfront.
 
 1. (Facultatif) Cliquez sur le **Ajouter des champs** icon ![](assets/add-fields-icon.png) dans le coin supérieur droit de la vue de tableau de la page de type d’enregistrement Workfront, pour ajouter ou supprimer des champs Workfront du type d’enregistrement Workfront.
 

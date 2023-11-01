@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Si les enregistrements supprimés sont liés à d&#39;autres enregistrements, les enregistrements liés ne sont pas supprimés, mais les informations de l&#39;enregistrement supprimé sont également supprimées.
 * Vous ne pouvez pas supprimer des enregistrements en bloc. <!--this will probably change-->
 * Vous ne pouvez pas supprimer d’enregistrements de la vue de chronologie.
+* Vous ne pouvez pas supprimer un type d’enregistrement lié à une autre application. Par exemple, si vous liez un enregistrement Maestro à un objet Workfront, vous ne pouvez pas supprimer l’objet Workfront de la page d’enregistrement de l’objet Workfront.
 
 ## Suppression d’enregistrements
 

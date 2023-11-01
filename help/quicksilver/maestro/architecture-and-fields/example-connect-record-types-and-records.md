@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -179,13 +179,32 @@ Pour ce faire :
    * Les projets que vous avez sélectionnés pour la connexion aux campagnes s’affichent sous forme d’enregistrements distincts dans la page Type d’enregistrement du projet Workfront . Les enregistrements du projet sont également en lecture seule et leurs informations sont mises à jour automatiquement à mesure que les projets sont mis à jour dans Workfront. Vous devez ajouter d’autres projets à partir de l’enregistrement Maestro connecté pour les afficher dans le type d’enregistrement Projet Workfront .
    * Le champ Enregistrement lié à une campagne est renseigné avec les noms des campagnes qui sont connectées aux projets à partir de la page Type d’enregistrement de campagne .
 
-1. (Facultatif) Cliquez sur le **Plus** icon ![](assets/more-menu.png) à droite du nom du type d’enregistrement de projet Workfront et cliquez sur **Renommer** pour renommer le type d’enregistrement.
+1. (Facultatif) Pour ouvrir la page Détails du projet Workfront dans Maestro, effectuez l’une des opérations suivantes :
 
-   >[!TIP]
-   >
-   >Vous pouvez renommer un nom de type d’enregistrement en cliquant sur le nom dans l’en-tête du type d’enregistrement.
+   * À partir du type d’enregistrement à partir duquel vous avez lié (**Campagne**), accédez au champ d’enregistrement lié au projet Workfront (**Informations sur le projet**) et cliquez sur le nom d’un projet Workfront.
+   * Dans la **Tableau** de la vue **Projet Workfront** page d’enregistrement, cliquez sur le nom d’un projet Workfront
 
-1. Cliquez sur l&#39;icône Ajouter des champs ![](assets/add-fields-icon.png) dans le coin supérieur droit du tableau de type d’enregistrement Projet Workfront pour ajouter d’autres champs de projet au type d’enregistrement Workfront Project Manager .
+     Ou
+
+     Cliquez sur le bouton **Plus** à droite d’un projet Workfront, puis cliquez sur **Affichage**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   La page Détails du maître s’affiche alors dans le projet Workfront lié. Il s’agit d’une page en lecture seule.
+
+1. (Facultatif) Pour ouvrir le projet Workfront lié dans Workfront, effectuez l’une des opérations suivantes :
+
+   * Dans la **Tableau** de la vue **Projet Workfront** , cliquez sur le nom d’un projet Workfront,
+
+   Ou
+
+   Cliquez sur le bouton **Plus** à droite du nom du projet Workfront, puis cliquez sur **Accéder à la source**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Cela ouvre la page du projet Workfront. Si vous êtes autorisé à le faire, vous pouvez modifier les informations relatives au projet Workfront.
+
+1. Cliquez sur le bouton **Ajouter des champs** icon ![](assets/add-fields-icon.png) dans le coin supérieur droit du tableau de type d’enregistrement Projet Workfront pour ajouter d’autres champs de projet au type d’enregistrement Workfront Project Manager .
 1. Cliquez sur le bouton **+** de tous les champs de projet que vous souhaitez ajouter à l’enregistrement Workfront Project Manager dans la variable **Champs non sélectionnés** .
 1. Cliquez sur le bouton **-** pour tous les champs de projet que vous souhaitez supprimer de l’enregistrement Workfront Project Manager dans la variable **Champs sélectionnés** .
 1. Cliquer sur **Enregistrer**.
