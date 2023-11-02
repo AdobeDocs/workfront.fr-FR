@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ Vous pouvez désormais ouvrir les pages d’objet Workfront à partir des zones 
 * Page Détails de l’enregistrement d’objet Workfront en lecture seule
 
 Pour plus d’informations, voir [Connexion d’enregistrements](../maestro/records/connect-records.md).
+
+### Amélioration de la navigation dans la vue Tableau
+
+Aperçu et production : 2 novembre 2023
+
+Nous avons amélioré la navigation dans la vue tabulaire d’une page de type enregistrement.
+
+Voici quelques améliorations :
+
+* Utilisez la touche de tabulation de votre clavier pour parcourir les colonnes et les lignes du tableau.
+
+* Ajoutez un nouvel enregistrement à partir de n’importe quelle position de colonne. Avant cette amélioration, vous ne pouviez ajouter un enregistrement qu’à partir de la première colonne.
+
+* Utilisez la combinaison clavier Maj + Entrée pour ajouter un nouvel enregistrement (ou une nouvelle ligne) dans le tableau.
+
+Pour plus d’informations, voir [Créer des enregistrements](../maestro/records/connect-records.md).
 
 ## Semaine du 16 octobre 2023
 
