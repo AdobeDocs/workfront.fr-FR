@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1953'
 ht-degree: 1%
 
 ---
@@ -18,20 +18,16 @@ ht-degree: 1%
 
 {{highlighted-preview}}
 
->[!IMPORTANT]
->
->La fonction de remplacement du taux d’affectation a été temporairement désactivée dans Aperçu le 30 juin 2023.
-
 Vous pouvez affecter des tâches aux utilisateurs, aux rôles de tâche ou aux équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 
 >[!TIP]
 >
->Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous ne pouvez affecter que des utilisateurs, des rôles de tâche et des équipes principaux.
+>Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous pouvez affecter uniquement les utilisateurs, les rôles de tâche et les équipes actifs.
 >
->Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+>Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, ils restent affectés à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
 >
->* Réaffectez l’élément de travail aux principales ressources.
->* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
+>* Réaffectez la tâche aux ressources actives.
+>* Associez les utilisateurs d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 >
 
 Le nombre d’utilisateurs affectés à une tâche et le planning de la tâche Propriétaire peuvent modifier les dates planifiées d’une tâche, ce qui entraîne la modification de la chronologie du projet. Pour plus d’informations sur l’impact de l’affectation de plusieurs utilisateurs à une tâche, voir [Présentation de la modification des affectations de tâche](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
@@ -120,9 +116,9 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 * Les utilisateurs peuvent avoir plusieurs rôles de tâche associés à leur profil. Pour plus d’informations sur l’association d’utilisateurs à des rôles de tâche, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Si vous affectez plusieurs utilisateurs à une tâche ou à un problème, le premier utilisateur que vous sélectionnez est désigné automatiquement comme propriétaire de la tâche ou du problème.
-Pour plus d’informations sur la modification de cette option, reportez-vous aux informations relatives à l’option Rendre le Principal de l’article . [Création d’affectations avancées](create-advanced-assignments.md).
+Pour plus d’informations sur la modification de cette option, voir les informations sur l’option Créer un Principal dans l’article . [Création d’affectations avancées](create-advanced-assignments.md).
 
-* Une équipe ne peut pas être une personne désignée Principal sur une tâche ou un problème. Seul un utilisateur ou un rôle de tâche peut être désigné comme Principal sur une tâche ou un problème.
+* Une équipe ne peut pas être une personne désignée par Principal pour une tâche ou un problème. Seul un utilisateur ou un rôle de tâche peut être désigné comme Principal sur une tâche ou un problème.
 
 <!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
 You cannot make a team be a Primary on a task/ issue. (Alina) -->
@@ -141,11 +137,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    <td>Fonctions</td>
    <td><p>Si vous affectez une tâche ou un problème à un ou plusieurs rôles, puis que vous affectez également un utilisateur, décide quel rôle de tâche associer à l’utilisateur supplémentaire (le cas échéant), selon les règles suivantes :</p>
      <ul>
-      <li>Si un seul rôle de tâche est attribué et qu’il correspond au rôle Principal de l’utilisateur (configuré dans son profil), la tâche ou le problème est attribué uniquement à cet utilisateur.</li>
+      <li>Si un seul rôle de tâche est attribué et qu’il correspond au rôle principal de l’utilisateur (configuré dans son profil), la tâche ou le problème est attribué uniquement à cet utilisateur.</li>
       <li>Si plusieurs rôles sont affectés et qu’au moins l’un d’eux correspond à l’un des autres rôles de l’utilisateur, la tâche ou le problème est affecté à l’utilisateur (le rôle est sélectionné de manière aléatoire s’il existe plusieurs correspondances), ainsi que tout autre rôle affecté.</li>
       <li>Si au moins un rôle de tâche est attribué et qu’il n’existe aucune correspondance avec les rôles de tâche de l’utilisateur, la tâche ou le problème est affecté à la fois au rôle ou aux rôles et à l’utilisateur.</li>
      </ul>
-   <p>Pour plus d’informations sur le rôle Principal d’un utilisateur et d’autres rôles, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modification du profil d’un utilisateur</a>.</p>
+   <p>Pour plus d’informations sur le rôle principal d’un utilisateur et d’autres rôles, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modification du profil d’un utilisateur</a>.</p>
    </td> 
      </tr>
   </tbody>
@@ -183,14 +179,14 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
      >[!TIP]
      >
-     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
      >
      >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
      ><span class="preview">Lors de l’ajout d’une affectation de rôle de tâche, vous pouvez rechercher le rôle ou l’emplacement de la tâche. Sélectionnez le rôle de tâche système/par défaut pour utiliser le taux de facturation par défaut pour l’affectation ou sélectionnez un rôle de tâche Carte de taux pour utiliser le taux de facturation dans la carte de taux. Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Conditionnel) Cliquez sur l’un des noms de la **Affectations proposées** s’affiche. Pour plus d’informations, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Conditionnel) Cliquez sur l’un des noms de la section **Affectations proposées** si cette liste s’affiche. Pour plus d’informations, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    * Cliquez sur **Avancé**
 
@@ -226,12 +222,12 @@ Pour affecter des tâches dans une liste :
 
 1. Pour affecter des tâches, effectuez l’une des opérations suivantes :
 
-   * Cliquez dans le **Affecté à** ou **Attribué** et commencez à saisir le nom d’un utilisateur principal que vous souhaitez affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
-   * Cliquez dans le **Affectations** et commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe principal que vous souhaitez affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   * Cliquez dans le **Affecté à** ou **Attribué** et commencez à saisir le nom d’un utilisateur actif que vous souhaitez affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   * Cliquez dans le **Affectations** et commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe actif à affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
      >[!TIP]
      >
-     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
      >
      >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
@@ -264,7 +260,7 @@ Pour affecter des tâches dans une liste :
 1. Sélectionnez plusieurs tâches dans la liste des tâches.
 1. Cliquez sur **Modifier**.
 
-   Le **Modifier les tâches** s’ouvre.
+   La variable **Modifier les tâches** s’ouvre.
 
 1. Dans le **Affectations** , sélectionnez la zone **Cessionnaire** puis commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe que vous souhaitez affecter à toutes les tâches.
 
@@ -272,12 +268,12 @@ Pour affecter des tâches dans une liste :
    >
    >Si l’une des tâches est déjà affectée, les ressources que vous indiquez ici sont ajoutées aux tâches au lieu de remplacer les ressources existantes sur les tâches.
 
-1. (Facultatif) Sélectionnez le bouton radio dans le **Propriétaire de la tâche** pour indiquer la ressource qui est la personne désignée Principale ou le propriétaire de la tâche, lorsque vous affectez plusieurs ressources à la tâche. Cette option n’est pas disponible pour les équipes.
+1. (Facultatif) Sélectionnez le bouton radio dans le **Propriétaire de la tâche** pour indiquer la ressource qui est la personne désignée principale ou le propriétaire de la tâche, lorsque vous affectez plusieurs ressources à la tâche. Cette option n’est pas disponible pour les équipes.
 1. (Conditionnel) Spécifiez la variable **% d’affectation** pour chaque ressource affectée à la tâche si toutes les tâches sélectionnées ont un type de durée d’affectation pilotée par l’effort ou calculée. Cela indique le temps que ces ressources doivent consacrer à l’exécution de la tâche. Cette option n’est disponible que pour les utilisateurs et les rôles de tâche.
 
    Ou
 
-   Indiquez le nombre de **Heures** pour chaque ressource affectée à la tâche si toutes les tâches sélectionnées ont un type de durée simple. Le total de toutes les heures pour toutes les ressources doit être égal au nombre d’ Heures planifiées pour la tâche.
+   Indiquez le nombre de **Heures** pour chaque ressource affectée à la tâche si toutes les tâches que vous avez sélectionnées ont un type de durée simple. Le total de toutes les heures pour toutes les ressources doit être égal au nombre d’ Heures planifiées pour la tâche.
 
    >[!IMPORTANT]
    >
@@ -285,12 +281,12 @@ Pour affecter des tâches dans une liste :
 
    Pour plus d’informations sur le type de durée sur les tâches, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Facultatif) Sélectionnez un rôle que l’utilisateur doit remplir dans la tâche à partir de la fonction **Choisir un rôle** dans le menu déroulant **Le rôle du cessionnaire** lorsque vous affectez des utilisateurs à des tâches. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle Principal de l’utilisateur.
+1. (Facultatif) Sélectionnez un rôle que l’utilisateur doit remplir dans la tâche à partir de la fonction **Choisir un rôle** dans le menu déroulant **Le rôle du cessionnaire** lorsque vous affectez des utilisateurs à des tâches. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle de Principal de l’utilisateur.
 
 1. (Facultatif) Si vous souhaitez supprimer des personnes désignées existantes de toutes les tâches, effectuez l’une des opérations suivantes :
 
-   1. Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe que vous souhaitez supprimer de la tâche, puis sélectionnez-le lorsqu’il apparaît dans la liste et cliquez sur **Supprimer le cessionnaire** pour supprimer d’autres personnes désignées.
-   1. Cliquez sur **Supprimer tous les cessionnaires existants** pour supprimer toutes les personnes désignées de toutes les tâches sélectionnées.
+   1. Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe à supprimer de la tâche, puis sélectionnez-le lorsqu’il apparaît dans la liste et cliquez sur **Supprimer le cessionnaire** pour supprimer d’autres personnes désignées.
+   1. Cliquez sur **Supprimer tous les cessionnaires existants** pour supprimer tous les cessionnaires de toutes les tâches sélectionnées.
 
 1. Cliquez sur **Enregistrer les modifications**.
 1. (Facultatif et conditionnel) Lorsque les champs Affectés à ou Affectations s’affichent dans la liste des tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’icône **Icône X** en regard du nom d’une personne désignée pour la supprimer de la tâche.
