@@ -6,10 +6,10 @@ description: Vous pouvez demander un document sur n’importe quel objet prenant
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -68,8 +68,6 @@ Vous devez disposer des éléments suivants :
    L’utilisateur reçoit une notification par courrier électronique si cette préférence est activée, ainsi qu’une notification dans l’application. Pour plus d’informations sur les notifications électroniques, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Vous pouvez cliquer sur le lien figurant dans l’email de notification, puis télécharger le document. Vous pouvez également cliquer sur la notification in-app. Chaque option vous dirige vers la page du profil utilisateur où vous pouvez télécharger le document demandé.
-
-   Vous pouvez également répondre directement à l’email et joindre les documents demandés (si vous êtes configuré pour prendre en charge les réponses par email).
 
 1. Après avoir téléchargé le document, la personne qui l’a demandé peut accéder au document dans son **Documents** zone.
 
