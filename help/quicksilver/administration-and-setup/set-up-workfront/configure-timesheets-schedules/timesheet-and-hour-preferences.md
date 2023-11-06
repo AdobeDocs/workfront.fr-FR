@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Configuration des préférences de feuille de temps et d’heure
-description: En tant que [!DNL Adobe Workfront] administrateur, vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans [!DNL Workfront] afin de définir les éléments que les feuilles de temps peuvent préremplir et les éléments auxquels les utilisateurs peuvent se connecter.
+description: Comme [!DNL Adobe Workfront] administrateur, vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans [!DNL Workfront] afin de définir les éléments que les feuilles de temps peuvent préremplir et les éléments auxquels les utilisateurs peuvent se connecter.
 author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1352'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,14 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-En tant que [!DNL Adobe Workfront] administrateur, vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans [!DNL Workfront] afin de définir les éléments que les feuilles de temps peuvent préremplir et les éléments auxquels les utilisateurs peuvent se connecter.
+Comme [!DNL Adobe Workfront] administrateur, vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans [!DNL Workfront] afin de définir les éléments que les feuilles de temps peuvent préremplir et les éléments auxquels les utilisateurs peuvent se connecter.
+
+>[!NOTE]
+>
+>Les éléments pour lesquels vous avez consigné l’heure pendant la période de la feuille de temps s’affichent par défaut dans la feuille de temps, bien qu’ils puissent ne pas respecter les conditions décrites dans cet article pour préremplir la feuille de temps.
+>
+>Pour plus d’informations sur la durée de journalisation, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 Toutes les modifications que vous apportez aux feuilles de temps ont un impact sur toutes les feuilles de temps créées ultérieurement.
 
@@ -66,7 +73,8 @@ Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s�
        <ul> 
         <li>Tous les projets, tâches et problèmes pour lesquels ils ont accès au temps de journalisation</li> 
         <li>Leur feuille de temps comme heure générale</li> 
-       </ul> <p>Cela s’avère utile lorsque les utilisateurs prévoient de quitter le bureau et qu’ils souhaitent enregistrer ce temps au préalable.</p> <p><b>REMARQUE</b>: Vous ne pouvez pas empêcher les utilisateurs de se connecter à des tâches ou des problèmes qui sont fermés ou annulés. Vous pouvez uniquement empêcher les utilisateurs de se connecter à des projets complets ou inactifs. Nous vous recommandons d’utiliser des filtres dans les listes de tâches et de problèmes pour exclure de la visibilité pour les utilisateurs ceux qui ont été terminés ou annulés.</p> </td> 
+       </ul> <p>Cela s’avère utile lorsque les utilisateurs prévoient de quitter le bureau et qu’ils souhaitent enregistrer ce temps au préalable.</p> <p><b>NOTE</b>:</p> 
+       <p>Vous ne pouvez pas empêcher les utilisateurs de se connecter à des tâches ou des problèmes qui sont fermés ou annulés. Vous pouvez uniquement empêcher les utilisateurs de se connecter à des projets complets ou inactifs. Nous vous recommandons d’utiliser des filtres dans les listes de tâches et de problèmes pour exclure de la visibilité pour les utilisateurs ceux qui ont été terminés ou annulés.</p> </td> 
      </tr>
 
    <tr> 
@@ -145,16 +153,16 @@ Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s�
       <td role="rowheader">[!UICONTROL Lors de la suppression de projets]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Conserver l’heure enregistrée déjà ajoutée aux feuilles de temps en tant qu’heure générale]</strong>: Si ce projet est restauré ultérieurement, l’heure reste sur la feuille de temps.</li> 
-        <li><strong>[!UICONTROL Supprimer toute heure enregistrée]</strong>: Si ce projet est restauré par la suite, l’heure déjà enregistrée est restaurée dans le projet.</li> 
+        <li><strong>[!UICONTROL Conserver l’heure enregistrée déjà ajoutée aux feuilles de temps en tant qu’heure générale]</strong>: si ce projet est restauré à une date ultérieure, l’heure reste sur la feuille de temps.</li> 
+        <li><strong>[!UICONTROL Supprimer toute heure enregistrée]</strong>: si ce projet est restauré par la suite, l’heure déjà enregistrée est restaurée dans le projet.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Lors de la suppression de tâches ou de problèmes]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Déplacer toute heure enregistrée vers le projet où réside la tâche ou le problème]</strong>: Si cette tâche ou ce problème est restauré par la suite, le temps reste sur le projet.<br></li> 
-        <li> <p><strong>[!UICONTROL Supprimer toute heure enregistrée]</strong>: Si cette tâche ou ce problème est restauré par la suite, l’heure consignée est restaurée à la tâche ou au problème.</p> <p>Pour plus d’informations sur ces options, voir <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configurer l’effet] sur les heures lorsqu’un objet est supprimé et restauré</a>.</p> </li> 
+        <li><strong>[!UICONTROL Déplacer toute heure enregistrée vers le projet où réside la tâche ou le problème]</strong>: si cette tâche ou ce problème est restauré ultérieurement, le temps reste sur le projet.<br></li> 
+        <li> <p><strong>[!UICONTROL Supprimer toute heure enregistrée]</strong>: si cette tâche ou ce problème est restauré par la suite, l’heure consignée est restaurée à la tâche ou au problème.</p> <p>Pour plus d’informations sur ces options, voir <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configurer l’effet] sur les heures lorsqu’un objet est supprimé et restauré</a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -185,8 +193,8 @@ Pour déverrouiller une préférence de projet afin que les groupes puissent la 
    * Si vous souhaitez que les administrateurs de groupes puissent configurer une préférence pour leurs groupes, déverrouillez-la. ![](assets/unlock-toggle-button.png).
    * Si vous souhaitez que tous les groupes utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée (il s’agit de la valeur par défaut).
 
-      >[!IMPORTANT]
-      >
-      >Nous vous recommandons de communiquer avec les administrateurs et les utilisateurs de groupes dans tout le système pour vous assurer que tous les besoins sont pris en compte dans la configuration d’une préférence verrouillée. Lorsque vous le verrouillez, votre configuration pour elle est héritée par tous les groupes du système. Et si la préférence a été déverrouillée pendant une période quelconque, votre configuration remplace celles que les administrateurs de groupe peuvent avoir faites.
+     >[!IMPORTANT]
+     >
+     >Nous vous recommandons de communiquer avec les administrateurs et les utilisateurs de groupes dans tout le système pour vous assurer que tous les besoins sont pris en compte dans la configuration d’une préférence verrouillée. Lorsque vous le verrouillez, votre configuration pour elle est héritée par tous les groupes du système. Et si la préférence a été déverrouillée pendant une période quelconque, votre configuration remplace celles que les administrateurs de groupe peuvent avoir faites.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.

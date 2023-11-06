@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3810'
 ht-degree: 1%
 
 ---
@@ -415,55 +415,6 @@ Il existe plusieurs façons de copier une mise à jour. Après avoir copié un l
 
 La copie d’une mise à jour varie en fonction de l’expérience de commentaire que vous utilisez.
 
-### Copie d’une mise à jour dans l’expérience de commentaire héritée
-
-<!--remove legacy when removed from the UI-->
-
-* [Copier la mise à jour](#copy-the-update)
-* [Copier le lien du thread](#copy-the-thread-link)
-* [Copier le lien de mise à jour](#copy-the-update-link)
-* [Citer la réponse](#quote-reply)
-
-#### Copier la mise à jour {#copy-the-update}
-
-Cette option copie le texte d’une mise à jour spécifique dans le Presse-papiers.
-
-1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le texte du corps**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copier le lien du thread {#copy-the-thread-link}
-
-Cette option copie le lien de thread complet dans le Presse-papiers afin que vous puissiez partager le thread avec d’autres utilisateurs.
-
-1. Accédez au thread de mise à jour que vous souhaitez copier.
-
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copier le lien de mise à jour {#copy-the-update-link}
-
-Cette option copie un lien de mise à jour spécifique dans le Presse-papiers. Lorsque vous partagez le lien de mise à jour, l’utilisateur qui le suit voit une bordure autour de la mise à jour.
-
-1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour, cliquez sur **Copier le lien de mise à jour**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### Citer la réponse
-
-L’option Réponse à la citation copie le commentaire d’origine dans une nouvelle réponse sous forme de citation bloquée.
-
-1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Réponse de devis**.
-
-   Une nouvelle zone de commentaire s’ouvre et la réponse entre guillemets est incluse dans le nouveau commentaire et est marquée comme une citation bloquée.
-
-1. Continuez à ajouter votre mise à jour et cliquez sur **Répondre** pour ajouter le commentaire.
-
 ### Copier une mise à jour dans la nouvelle expérience de commentaire
 
 Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle expérience de commentaire et pour les objets, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -486,6 +437,14 @@ L’option Copier le lien copie le lien du commentaire ou du fil dans le Presse-
 
 1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien**.
 
+1. Collez le lien que vous avez copié à l’étape précédente dans un email ou dans une autre application pour le partager avec d’autres personnes. Le lien partagé ouvre le commentaire à partir duquel vous avez partagé le lien.
+
+   >[!TIP]
+   >
+   >Lorsque vous partagez le lien d’une conversation sur un objet enfant à partir d’un objet de rang supérieur, le lien ouvre le thread dans la zone Mises à jour de l’objet de rang supérieur.
+   >
+   >Par exemple, si vous copiez le lien d’un commentaire de tâche dans la zone Mises à jour du projet, le commentaire ouvre la page du projet.
+
 #### Copier le texte du message
 
 L’option Copier le texte du corps copie le texte d’une mise à jour spécifique dans le Presse-papiers.
@@ -507,6 +466,64 @@ L&#39;option Réponse entre guillemets copie le commentaire d&#39;origine dans u
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Continuez à ajouter votre mise à jour et cliquez sur **Envoyer** pour ajouter le commentaire.
+
+### Copie d’une mise à jour dans l’expérience de commentaire héritée
+
+<!--remove legacy when removed from the UI-->
+
+* [Copier la mise à jour](#copy-the-update)
+* [Copier le lien du thread](#copy-the-thread-link)
+* [Copier le lien de mise à jour](#copy-the-update-link)
+* [Citer la réponse](#quote-reply)
+
+  >[!TIP]
+  >
+  >Lorsque vous copiez et partagez le lien d’une conversation sur un objet enfant à partir d’un objet de rang supérieur, le lien ouvre le thread dans la zone Mises à jour de l’objet enfant.
+  >
+  >Par exemple, si vous copiez le lien d’un commentaire de tâche dans la zone Mises à jour du projet, le commentaire ouvre la page de la tâche.
+
+#### Copier la mise à jour {#copy-the-update}
+
+Cette option copie le texte d’une mise à jour spécifique dans le Presse-papiers.
+
+1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
+1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le texte du corps**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### Copier le lien du thread {#copy-the-thread-link}
+
+Cette option copie le lien de thread complet dans le Presse-papiers afin que vous puissiez partager le thread avec d’autres utilisateurs.
+
+1. Accédez au thread de mise à jour que vous souhaitez copier.
+
+1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+1. Collez le lien que vous avez copié à l’étape précédente dans un email ou dans une autre application pour le partager avec d’autres personnes. Le lien partagé ouvre le commentaire à partir duquel vous avez partagé le lien.
+
+#### Copier le lien de mise à jour {#copy-the-update-link}
+
+Cette option copie un lien de mise à jour spécifique dans le Presse-papiers. Lorsque vous partagez le lien de mise à jour, l’utilisateur qui le suit voit une bordure autour de la mise à jour.
+
+1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
+1. Cliquez sur le bouton **Plus** en regard de la mise à jour, cliquez sur **Copier le lien de mise à jour**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. Collez le lien que vous avez copié à l’étape précédente dans un email ou dans une autre application pour le partager avec d’autres personnes. Le lien partagé ouvre le commentaire à partir duquel vous avez partagé le lien.
+
+#### Citer la réponse
+
+L’option Réponse à la citation copie le commentaire d’origine dans une nouvelle réponse sous forme de citation bloquée.
+
+1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
+1. Cliquez sur le bouton **Plus** , puis cliquez sur **Réponse de devis**.
+
+   Une nouvelle zone de commentaire s’ouvre et la réponse entre guillemets est incluse dans le nouveau commentaire et est marquée comme une citation bloquée.
+
+1. Continuez à ajouter votre mise à jour et cliquez sur **Répondre** pour ajouter le commentaire.
 
 ## Supprimer une mise à jour ou une réponse
 
