@@ -7,7 +7,7 @@ description: Le mappage est le processus d’affectation des sorties d’un modu
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -47,9 +47,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ Pour plus d’informations, voir [Configurez les paramètres d’un module dans 
 
 Vous pouvez mapper plusieurs éléments dans un champ, les combiner avec des littéraux (valeurs fixes) et utiliser des opérateurs et des fonctions pour créer des formules complexes :
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png)
 
 Les fonctions et opérateurs sont disponibles dans le panneau de mappage sous l’un de ses onglets.
 
@@ -157,7 +157,7 @@ Pour plus d’informations sur les tableaux, voir [Types de données d’éléme
 
 ### Mappage du premier élément d’un tableau
 
-Si vous mappez un tableau de la variable `Recipient name` , il s’affiche dans le champ comme suit :
+Si vous mappez un tableau de `Recipient name` , il s’affiche dans le champ comme suit :
 
 ![](assets/map-array-1st-element.png)
 
@@ -185,7 +185,7 @@ La sortie de [!DNL Jira] ressemble à ceci :
 
 En règle générale, il est nécessaire de rechercher un élément par sa valeur de clé donnée et d’obtenir la valeur correspondante de l’élément de valeur. Cela peut être réalisé avec une formule utilisant une combinaison de la variable `map()` et `get()` fonctions.
 
-Voici une répartition détaillée de la formule :
+Vous trouverez ci-dessous une répartition détaillée de la formule :
 
 1. Le premier paramètre de la variable `map()` est l’élément de tableau entier.
 1. Le deuxième paramètre est le nom brut de l’élément de valeur. Pour obtenir le nom brut, passez la souris sur l’élément dans la [!UICONTROL mapping] panel :
@@ -194,7 +194,7 @@ Voici une répartition détaillée de la formule :
 
    >[!NOTE]
    >
-   >Tous les paramètres sont sensibles à la casse. Même si, dans cet exemple particulier, le libellé de l’élément ne diffère de son nom brut qu’en majuscules, il est nécessaire d’utiliser le nom brut, qui est entièrement en minuscules, contrairement au libellé Valeur.
+   >Tous les paramètres respectent la casse. Même si, dans cet exemple particulier, le libellé de l’élément ne diffère de son nom brut qu’en majuscules, il est nécessaire d’utiliser le nom brut, qui est entièrement en minuscules, contrairement au libellé Valeur.
 
 1. Le troisième paramètre est le nom brut de l’élément clé :
 
@@ -204,7 +204,7 @@ Voici une répartition détaillée de la formule :
 
 Parce que la variable `map()` renvoie un tableau (puisqu’il peut y avoir plus d’éléments avec la valeur de clé donnée), il est nécessaire d’appliquer la variable `get()` pour obtenir son premier élément :
 
-* Le premier paramètre de la variable `get()` est le résultat de la fonction `map()` fonction .
+* Le premier paramètre de la variable `get()` est le résultat de la fonction `map()` de la fonction
 
 * Le deuxième paramètre est l’index de l’élément - un.
 
@@ -241,7 +241,7 @@ Pour chaque module, le panneau de mappage affiche tous les éléments de sortie,
 #### Sondage
 
 1. Cliquez avec le bouton droit sur le module, puis cliquez sur **[!UICONTROL Exécuter ce module uniquement]** dans le menu qui s’affiche.
-1. S’il n’y a aucune sortie, cliquez sur **[!UICONTROL Choisir où commencer]** et ajustez les paramètres.
+1. Si aucune sortie n’est disponible, cliquez sur **[!UICONTROL Choix de l’emplacement de départ]** et ajustez les paramètres.
 1. Si aucun événement ne doit être traité, créez-en un et revenez à l’étape 2.
 
    Par exemple, le module webhook **[!UICONTROL Gmail] >[!UICONTROL Regarder les emails]** envoie un courrier électronique au dossier que le module regarde.
