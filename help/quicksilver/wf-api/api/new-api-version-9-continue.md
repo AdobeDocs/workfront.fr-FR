@@ -5,11 +5,12 @@ title: Nouveautés de l’API version 9 (suite)
 description: Cette liste est la deuxième moitié d'une liste plus grande. La première moitié se trouve dans la section Nouveautés de l’API version 9. Vous trouverez la liste des mises à jour de la version 9 dans Mises à jour de l’API version 9.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 29%
+source-wordcount: '145'
+ht-degree: 20%
 
 ---
 
@@ -83,7 +84,7 @@ Cette liste est la deuxième moitié d&#39;une liste plus grande. La première m
 | `viewID` |   |   |   |   |   |   |
 | `width` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionLastViewer
 
@@ -95,7 +96,7 @@ Cette liste est la deuxième moitié d&#39;une liste plus grande. La première m
 | `reportID` |  |  |  |  |  | `SEARCH` |
 | viewerID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionStatisticInfo
 
@@ -113,7 +114,7 @@ Cette liste est la deuxième moitié d&#39;une liste plus grande. La première m
 | `viewsThisQuarter`  |   |   |   |   |   |   |
 | `viewsThisYear`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTab
 
@@ -135,7 +136,7 @@ Cette liste est la deuxième moitié d&#39;une liste plus grande. La première m
 | `tabname` |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTabSection
 
@@ -152,7 +153,7 @@ Cette liste est la deuxième moitié d&#39;une liste plus grande. La première m
 | `portalSectionObjID`  |   |   |   |   |   |   |
 | `portalTabID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ReportFolder
 
@@ -162,7 +163,7 @@ Cette liste est la deuxième moitié d&#39;une liste plus grande. La première m
 | `ID`  |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ScheduleReport
 

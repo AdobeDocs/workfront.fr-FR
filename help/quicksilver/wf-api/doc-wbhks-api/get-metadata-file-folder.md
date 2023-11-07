@@ -6,8 +6,9 @@ title: Obtention de métadonnées pour un fichier ou un dossier
 description: Obtention de métadonnées pour un fichier ou un dossier
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 6%
@@ -67,7 +68,7 @@ GET /metadata?id=[ID de document ou de dossier]
   <tr> 
    <td>kind </td> 
    <td>Chaîne </td> 
-   <td>Indique si cet élément est un fichier ou un dossier ('fichier' ou 'dossier')</td> 
+   <td>Indique si cet élément est un fichier ou un dossier (fichier ou dossier)</td> 
   </tr> 
   <tr> 
    <td>id</td> 

@@ -5,8 +5,9 @@ title: La mise à jour vers emailAddr ne met pas à jour le nom d’utilisateur
 description: La mise à jour vers emailAddr ne met pas à jour le nom d’utilisateur
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2d24d1b8-9504-484f-9cc0-d2f1abd6391a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## Problème
 
-Normalement, `emailAddr` et `username` sont le même attribut. Par conséquent, si vous modifiez le `emailAddr` , l’attribut `username` est automatiquement mis à jour pour correspondre.
+Normalement, `emailAddr` et `username` sont le même attribut. Par conséquent, si vous modifiez le `emailAddr` , `username` est automatiquement mis à jour pour correspondre.
 
 Lorsque la variable `username` ne correspond pas à la variable `emailAddr`, une mise à jour de la variable `emailAddr` ne met pas à jour la variable `username` automatiquement. C’est vrai pour les deux `emailAddr` change par le biais de l’interface utilisateur et de l’API.
 
@@ -28,9 +29,9 @@ La discordance peut être créée de plusieurs manières :
 
 * Utilisateurs créés avant l’existence de la règle de synchronisation. Les comptes utilisateur très anciens peuvent ne pas avoir ces attributs synchronisés.
 
-* Utilisateurs créés via SSO à une époque où l’emailAddr dans Workfront était sensible à la casse. L’option de configuration automatique SSO exécute une vérification sensible à la casse pour les utilisateurs en fonction des attributs de l’utilisateur du fournisseur d’identité. Lorsqu’il n’existait pas de correspondance exacte, les services d’approvisionnement automatique créaient un nouvel utilisateur. Si un utilisateur existait déjà, le nom d’utilisateur et la variable `emailAddr` n’aurait pas la même casse.
+* Utilisateurs créés via SSO à une époque où l’adresse email dans Workfront était sensible à la casse. L’option de configuration automatique SSO exécute une vérification sensible à la casse pour les utilisateurs en fonction des attributs de l’utilisateur du fournisseur d’identité. Lorsqu’il n’existait pas de correspondance exacte, les services d’approvisionnement automatique créaient un nouvel utilisateur. Si un utilisateur existait déjà, le nom d’utilisateur et la variable `emailAddr` n’aurait pas la même casse.
 
-* Les utilisateurs qui ont utilisé la variable `username` mis à jour directement via l’API et leurs `emailAddr` n’a pas été mis à jour. Le `username` et `emailAddr` ne correspondent peut-être pas.
+* Les utilisateurs qui ont utilisé la variable `username` mis à jour directement via l’API et leurs `emailAddr` n’a pas été mis à jour. La variable `username` et `emailAddr` ne correspondent peut-être pas.
 
 ## Solution
 

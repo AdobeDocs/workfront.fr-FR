@@ -4,7 +4,8 @@ navigation-topic: Event Subscriptions resources
 description: Ressources d’abonnements aux événements
 author: Becky
 feature: Workfront API
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+role: Developer
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

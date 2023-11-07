@@ -5,8 +5,9 @@ title: Bonnes pratiques relatives à l’abonnement aux événements
 description: Bonnes pratiques relatives à l’abonnement aux événements
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -50,6 +51,6 @@ Pour en savoir plus, voir [Octroi d’un accès administratif complet à un util
 
 * Une clé API
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
   -->

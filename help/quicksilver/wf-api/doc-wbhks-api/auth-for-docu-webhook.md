@@ -6,8 +6,9 @@ title: Authentification pour les webhooks de document
 description: Authentification pour les webhooks de document
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2303c202-27c7-4922-a613-e9824910504c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Le fournisseur Webhook peut utiliser le nom d’utilisateur pour appliquer des a
 <p>In addition to using either OAuth2 tokens or an ApiKey for authentication, Workfront can send a predefined set of headers to the webhook provider for every API call. A Workfront admin can setup set this up when&nbsp;registering or editing a Webook Integration, as described in the section above. See Registering a Webhook Integration.</p>
 <p>For example, this can be used for Basic Authentication. To do this, the Workfront administrator would add the following Request Header information in the Custom Integration dialog:</p>
 <p>&nbsp; &nbsp; &nbsp;Authorization Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==</p>
-<p>where QWxhZGRpbjpvcGVuIHNlc2FtZQ== is a base-64 encoded string of “username:password”. See Basic Authentication . Provided that this added, Workfront will pass this in the HTTP request header, in addition to other request headers:&nbsp;</p>
+<p>where QWxhZGRpbjpvcGVuIHNlc2FtZQ== is a base-64 encoded string of "username:password". See Basic Authentication . Provided that this added, Workfront will pass this in the HTTP request header, in addition to other request headers:&nbsp;</p>
 <p>-------------------------------</p>
 <p>apiKey: 12345</p>
 <p>username: johndoe@foo.com</p>

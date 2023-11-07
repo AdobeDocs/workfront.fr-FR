@@ -5,8 +5,9 @@ title: Configuration des options pour OPTASK copyIssue
 description: Une explication des valeurs entières attendues par le point de terminaison copyIssue .
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
-source-git-commit: 93a67b3dbd59f188dad6b060ec93c3f137c981b2
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 6%
@@ -37,8 +38,8 @@ Exemples:
 
 * Pour effacer la progression et les documents, saisissez une `options` valeur de `132`.
 
-   Effacer la progression = 4
+  Effacer la progression = 4
 
-   Effacer des documents = 128
+  Effacer des documents = 128
 
-   4 + 128 = 132
+  4 + 128 = 132

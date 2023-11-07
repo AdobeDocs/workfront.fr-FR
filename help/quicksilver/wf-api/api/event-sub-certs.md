@@ -5,7 +5,9 @@ title: Certificats d’abonnement d’événement
 description: Certificats d’abonnement d’événement
 author: Becky
 feature: Workfront API
-source-git-commit: 53ef8f4fda22c912c274841d07ad865aa04141c8
+role: Developer
+exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -92,17 +94,21 @@ Pour plus d’informations, voir
 
 ## Mappage du certificat à l’environnement
 
-| Environnement WF | Nom commun au certificat | Certificate Subject (DN) | | — | — | — | | Production | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc/CN=*.prod.eventsubscriptions.workfront.com| | Aperçu | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc/CN=*.preview.eventsubscriptions.workfront.com | | Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc/CN=*.sandbox.eventsubscriptions.workfront.com | | Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc/CN=*.sandbox.eventsubscriptions.workfront.com |
+| Environnement WF | Nom commun au certificat | Certificate Subject (DN) |
+| -- | -- | -- |
+| Production | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc/CN=*.prod.eventsubscriptions.workfront.com |
+| Aperçu | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc/CN=*.preview.eventsubscriptions.workfront.com |
+| Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc/CN=*.sandbox.eventsubscriptions.workfront.com |
+| Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc/CN=*.sandbox.eventsubscriptions.workfront.com |
 
 ## Téléchargement de certificats
 
 Cliquez sur les liens suivants pour télécharger les certificats client.
 
 * [Certificat client - Environnement de production](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_production.crt)
-* [Certificat client - Environnement de prévisualisation](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_preview.crt)
+* [Client certificate - Preview environment](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_preview.crt)
 * [Certificat client - Environnement Sandbox](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_sandboxes.crt)
 
 >[!NOTE]
 >
 >Vous pouvez utiliser le même certificat client pour les deux environnements Sandbox.
-

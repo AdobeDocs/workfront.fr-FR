@@ -6,8 +6,9 @@ title: Gestion des erreurs des webhooks de document
 description: Gestion des erreurs des webhooks de document
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 6e0f3be7-5321-44bd-a404-d5bef1462d82
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Des problèmes peuvent survenir lors du traitement des demandes d’API. Cela do
 
 * Description de l’erreur dans le corps de la réponse selon le format suivant :
 
-   ```
-   {status: “error”
-    error: “Sample error message”}
-   ```
+  ```
+  {status: "error"
+   error: "Sample error message"}
+  ```

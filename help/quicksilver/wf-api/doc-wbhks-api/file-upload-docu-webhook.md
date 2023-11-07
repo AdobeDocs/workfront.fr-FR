@@ -6,8 +6,9 @@ title: Chargement de fichiers via les webhooks de document
 description: Chargement de fichiers via les webhooks de document
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 3%
@@ -55,7 +56,7 @@ POST /uploadInit
   </tr> 
   <tr> 
    <td>documentVersionId </td> 
-   <td>L’ID de version de document Workfront (ajouté dans la version 1.1) </td> 
+   <td>ID de version de document Workfront (ajouté dans la version 1.1) </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +94,7 @@ octets de contenu brut du document.
 
 ```
 {
-result: “success”
+result: "success"
 }
 ```
 
@@ -101,7 +102,7 @@ ou
 
 ```
 {
-result: “fail”
+result: "fail"
 }
 ```
 

@@ -5,8 +5,9 @@ title: Nouveautés de l’API version 12
 description: 'Workfront a publié l’API version 12 le 12 novembre 2020. L’API version 12 comprend les modifications suivantes de la version 11 :'
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 2%
@@ -124,7 +125,7 @@ Les ressources suivantes ont été modifiées pour l’API Workfront version 12.
      <li> <p><a href="#team" class="MCXref xref">Équipe</a> </p> </li> 
      <li> <p><a href="#templatetask" class="MCXref xref">TemplateTask</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">Feuille de temps</a> </p> </li> 
-     <li> <p><a href="#user" class="MCXref xref">Utilisateur</a> </p> </li> 
+     <li> <p><a href="#user" class="MCXref xref">l’utilisateur ou de l’utilisatrice</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Travail </a> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -135,7 +136,7 @@ Les ressources suivantes ont été modifiées pour l’API Workfront version 12.
 
 ### AccessLevel {#accesslevel}
 
-Un objet AccessLevel est associé aux utilisateurs et décrit le jeu d’autorisations AccessLevel qui déterminent ce à quoi l’utilisateur peut accéder.
+Un objet AccessLevel est associé à des utilisateurs et décrit le jeu d’autorisations AccessLevel qui déterminent ce à quoi l’utilisateur peut accéder.
 
 Pour plus d’informations sur les niveaux d’accès, voir [Fonctionnement des niveaux d’accès](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
@@ -411,7 +412,7 @@ Pour plus d’informations sur les entreprises, voir [Création et modification 
    <td>Champs de référence</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupe</p> <p style="font-weight: normal;">Groupe auquel l’entreprise est associée. L’association d’une société à un groupe permet à l’administrateur du groupe d’étendre l’accès et les autorisations du groupe à l’entreprise.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupe</p> <p style="font-weight: normal;">Groupe auquel l’entreprise est associée. L’association d’une société à un groupe permet à l’administrateur du groupe d’étendre l’accès et les autorisations au groupe.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -684,7 +685,7 @@ Pour plus d’informations sur les portefeuilles, voir [Présentation des Portfo
 
 ### Programme {#program}
 
-Un objet de programme est un sous-ensemble de projets au sein d’un portefeuille, où des projets similaires peuvent être regroupés.
+Un objet de programme est un sous-ensemble de projets d’un portfolio, où des projets similaires peuvent être regroupés.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -912,7 +913,7 @@ Pour plus d’informations sur les feuilles de calcul, voir [Présentation des f
  </tbody> 
 </table>
 
-### Utilisateur {#user}
+### l’utilisateur ou de l’utilisatrice {#user}
 
 Un objet User représente une personne disposant d’un compte dans Workfront qui peut se connecter et interagir avec le système.
 
@@ -924,7 +925,7 @@ Un objet User représente une personne disposant d’un compte dans Workfront qu
    <td role="rowheader">Champs directs</td> 
    <td> <p>Les champs suivants ont été ajoutés à la ressource Utilisateur :</p> 
     <ul> 
-     <li> <p><strong>currentDeactivationDate</strong> </p> <p>Il s’agit de la date et de l’heure auxquelles un utilisateur a été désactivé.</p> <p>Pour plus d’informations sur les utilisateurs désactivés, voir <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactivation ou réactivation d’un utilisateur</a>.</p> </li> 
+     <li> <p><strong>actualDeactivationDate</strong> </p> <p>Il s’agit de la date et de l’heure auxquelles un utilisateur a été désactivé.</p> <p>Pour plus d’informations sur les utilisateurs désactivés, voir <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactivation ou réactivation d’un utilisateur</a>.</p> </li> 
      <li> <p><strong>alignAccessType</strong> </p> <p>Ce champ indique l’accès de l’utilisateur aux objectifs Workfront. Les valeurs possibles sont les suivantes :</p> 
       <ul> 
        <li> <p>Accès interdit</p> </li> 

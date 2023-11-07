@@ -5,8 +5,9 @@ title: Utilisation de l’explorateur d’API
 description: Utilisation de l’explorateur d’API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -24,15 +25,15 @@ Lors de l’utilisation de l’API Core d’Adobe Workfront, l’explorateur d�
    ![](assets/mceclip1-350x149.png)
 
 1. Dans l’angle supérieur droit de l’explorateur d’API, sélectionnez l’interface de travail de votre choix. **Version de l’API**, par défaut, la version la plus récente est automatiquement sélectionnée.
-1. Le **Filtrer** , peut être utilisé pour filtrer les objets répertoriés par nom et tronque la liste des objets affichés en conséquence :
+1. La variable **Filtrer** , peut être utilisé pour filtrer les objets répertoriés par nom et tronque la liste des objets affichés en conséquence :
 
    ![](assets/mceclip2-350x147.png)
 
-   * **Champs**: Champs disponibles dans l’objet spécifié.
-   * **Références**: Variables de référence disponibles pour l’objet spécifié. Une référence est un alias pour une variable. Une fois initialisée, une référence peut être utilisée de manière interchangeable avec le nom de variable. Une référence utilise la mémoire initialisée.
-   * **Collections**: Collections disponibles pour l’objet. Les collections sont des variables qui représentent une relation de type &quot;un à plusieurs&quot; entre l’objet et la ressource.
-   * **Rechercher**: Ressources de recherche disponibles pour l’objet. Les résultats d’une recherche sont basés sur les paramètres de requête spécifiés par la ressource de recherche dans la requête API.
-   * **Actions**: Actions prises en charge pour l’objet . Les actions peuvent être des procédures simples ou complexes qui s’exécutent sur une ressource ou un ensemble de ressources. Une action donnée peut également affecter les ressources associées.
+   * **Champs**: champs disponibles dans l’objet spécifié.
+   * **Références**: variables de référence disponibles pour l’objet spécifié. Une référence est un alias pour une variable. Une fois initialisée, une référence peut être utilisée de manière interchangeable avec le nom de variable. Une référence utilise la mémoire initialisée.
+   * **Collections**: collections disponibles pour l’objet. Les collections sont des variables qui représentent une relation de type &quot;un à plusieurs&quot; entre l’objet et la ressource.
+   * **Rechercher**: ressources de recherche disponibles pour l’objet. Les résultats d’une recherche sont basés sur les paramètres de requête spécifiés par la ressource de recherche dans la requête API.
+   * **Actions**: actions prises en charge pour l’objet . Les actions peuvent être des procédures simples ou complexes qui s’exécutent sur une ressource ou un ensemble de ressources. Une action donnée peut également affecter les ressources associées.
 
 1. Ouvrez un onglet, puis cliquez sur ID d’objet pour afficher les variables applicables.\
    ![](assets/approval-350x89.png)\

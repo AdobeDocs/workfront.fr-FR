@@ -5,8 +5,9 @@ title: Nouveautés de l’API version 13
 description: Adobe Workfront a publié l’API version 13 le 22 avril 2021. L’API version 13 comprend les modifications suivantes à partir de la version 12.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -66,7 +67,7 @@ Les ressources suivantes ont été modifiées pour l’API version 13.
 
 ### AccessLevel {#accesslevel}
 
-Un objet AccessLevel est associé aux utilisateurs et décrit le jeu d’autorisations AccessLevel qui déterminent ce à quoi l’utilisateur peut accéder.
+Un objet AccessLevel est associé à des utilisateurs et décrit le jeu d’autorisations AccessLevel qui déterminent ce à quoi l’utilisateur peut accéder.
 
 Pour plus d’informations sur les niveaux d’accès, voir [Fonctionnement des niveaux d’accès](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
@@ -391,7 +392,7 @@ Un objet Équipe est un ensemble d’utilisateurs pouvant être affectés à un 
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Principal ne sont pas visibles dans les menus déroulants et les champs de type devant à associer à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de type devant à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -2,12 +2,13 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Suppression d’un document ou d’un dossier
-description: Suppression d’un document ou d’un dossier
+title: Supprimer un document ou un dossier
+description: Supprimer un document ou un dossier
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 6%
@@ -39,6 +40,6 @@ Chaîne JSON indiquant la réussite ou l’échec, comme indiqué dans la sectio
 ### Exemple
 
 PUT https://www.example.com/api/deleteid=1234
-* renvoie `status: “success”`
+* renvoie `status: "success"`
 
-* renvoie `status: “failure”, error: “File not found”`
+* renvoie `status: "failure", error: "File not found"`

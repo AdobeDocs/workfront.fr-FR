@@ -5,8 +5,9 @@ title: Questions fréquentes - Abonnements à un événement
 description: Questions fréquentes - Abonnements à un événement
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Vous trouverez ci-dessous des questions fréquentes sur les abonnements à des �
 
 ## Qu’est-ce qu’un abonnement ?
 
-Un abonnement est un ensemble de données utilisé pour faire correspondre et diffuser des événements Adobe Workfront sur le point de terminaison HTTP d’un client. Cette ressource est composée de 4 attributs Principaux :
+Un abonnement est un ensemble de données utilisé pour faire correspondre et diffuser des événements Adobe Workfront sur le point de terminaison HTTP d’un client. Cette ressource est composée de 4 attributs principaux :
 
 * customer_id
 * obj_code
@@ -38,7 +39,7 @@ Les filtres d’abonnement aux événements permettent de trier les sous-formula
 
 ## Pourquoi l’API renvoie-t-elle un code de réponse au conflit 409 ?
 
-Si vous tentez de créer un abonnement à un événement et de recevoir un code de réponse : Le conflit 409, puis l’abonnement que vous avez tenté de créer est un doublon. Workfront ne permet pas la création d’abonnements en double.
+Si vous tentez de créer un abonnement à un événement et de recevoir un code de réponse : conflit 409, l’abonnement que vous avez tenté de créer est un doublon. Workfront ne permet pas la création d’abonnements en double.
 
 ## Que dois-je faire si mes messages ne sont pas remis à mon point de terminaison ?
 
@@ -59,11 +60,11 @@ Certains des scénarios suivants peuvent être responsables :
 * Des calculs de longue durée ou de chronologie sur des projets volumineux peuvent entraîner un retard dans la publication des messages à des abonnements à des événements à consommer.
 * L’abonnement a peut-être été désactivé.
 
-   * Après une période de grâce de 100 messages, si une URL spécifique, qui peut être associée à un ou plusieurs abonnements, échoue plus de 70 % du temps ou si l’URL ne parvient pas à diffuser après 2 000 tentatives consécutives, tous les messages correspondant à des abonnements avec la même URL ne sont pas tentés pour diffusion. Au lieu de cela, ces messages sont immédiatement placés en file d’attente pour une nouvelle tentative.
+   * Après une période de grâce de 100 messages, si une URL spécifique, qui peut être associée à un ou plusieurs abonnements, échoue plus de 70 % du temps ou si l’URL ne parvient pas à diffuser après 2 000 tentatives consécutives, tous les messages correspondant à des abonnements avec la même URL ne sont pas tentés pour diffusion. Ces messages sont immédiatement placés en file d’attente pour une nouvelle tentative.
 
-      Toutes les 10 minutes après la désactivation d’une URL, nous tentons de diffuser le message suivant qui passe pour être traité. Si ce message réussit, nous réactivons cette URL et par la suite tous les abonnements correspondants. Si l’envoi de ce message échoue, ce minuteur de 10 minutes se réinitialise et nous réessayons après son expiration.
+     Toutes les 10 minutes après la désactivation d’une URL, nous tentons de diffuser le message suivant qui passe pour être traité. Si ce message réussit, nous réactivons cette URL et par la suite tous les abonnements correspondants. Si l’envoi de ce message échoue, ce minuteur de 10 minutes se réinitialise et nous réessayons après son expiration.
 
-      Ce comportement peut être perçu comme incohérent ou comme des diffusions différées, mais il suit simplement nos politiques de gestion des messages d’abonnement à un événement.
+     Ce comportement peut être perçu comme incohérent ou comme des diffusions différées, mais il suit simplement nos politiques de gestion des messages d’abonnement à un événement.
 
    * Une URL d’abonnement à un événement sera désactivée de manière irréversible si l’une des conditions suivantes est remplie :
 
@@ -76,7 +77,7 @@ Veuillez contacter l’assistance de Workfront. Pour savoir comment contacter l�
 
 ## Quels types d’authentification différents puis-je utiliser avec les abonnements à des événements Workfront ?
 
-Vous pouvez utiliser n’importe quelle authentification utilisant un jeton porteur. Le **authToken** champ d’un abonnement est une chaîne qui représente un jeton porteur OAuth2 utilisé pour s’authentifier avec l’URL spécifiée dans la variable **url** champ . En théorie, cette valeur de jeton peut être n’importe quelle valeur tant que le point de terminaison de destination sait comment gérer son codage, à savoir : **utf-8**.
+Vous pouvez utiliser n’importe quelle authentification utilisant un jeton porteur. La variable **authToken** champ d’un abonnement est une chaîne qui représente un jeton porteur OAuth2 utilisé pour s’authentifier avec l’URL spécifiée dans la variable **url** champ . En théorie, cette valeur de jeton peut être n’importe quelle valeur tant que le point de terminaison de destination sait comment gérer son codage, à savoir : **utf-8**.
 
 ## Quelle doit être la durée avant que je ne reçoive la payload de l’événement des abonnements à Workfront Event ?
 
@@ -84,7 +85,7 @@ En règle générale, vous pouvez vous attendre à recevoir les demandes de remi
 
 ## Ressources supplémentaires
 
-* **Documentation API**: [API d’abonnement à un événement](../../wf-api/general/event-subs-api.md)
+* **Documentation de l’API**: [API d’abonnement à un événement](../../wf-api/general/event-subs-api.md)
 
 * **Bonnes pratiques**: [Bonnes pratiques relatives à l’abonnement aux événements](../../wf-api/general/event-sub-best-practice.md)
 

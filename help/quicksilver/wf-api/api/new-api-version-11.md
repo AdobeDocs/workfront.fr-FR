@@ -5,8 +5,9 @@ title: Nouveautés de l’API version 11
 description: ReportableBudgedHour a été ajouté à l’API Adobe Workfront en tant que ressource pour la création de rapports. Il comprend des champs de référence, des champs principaux et des champs par défaut absents de la fonction BudgetedHour.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '3600'
 ht-degree: 2%
@@ -430,7 +431,7 @@ Un objet ApprovalProcess est une approbation en plusieurs étapes qui peut être
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Principal ne sont pas visibles dans les menus déroulants et les champs de type devant à associer à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de type devant à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -491,7 +492,7 @@ Un objet Category est un formulaire personnalisé. Vous pouvez créer des rappor
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Principal ne sont pas visibles dans les menus déroulants et les champs de type devant à associer à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de type devant à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -516,7 +517,7 @@ Un objet Société représente une organisation composée d’un ensemble de per
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Principal ne sont pas visibles dans les menus déroulants et les champs de type devant à associer à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de type devant à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -541,7 +542,7 @@ Un objet Société représente une organisation composée d’un ensemble de per
  <tbody> 
   <tr> 
    <td>Actions</td> 
-   <td> <p style="font-weight: normal;">Les actions suivantes ont été ajoutées à l’objet CustomEnum .</p> 
+   <td> <p style="font-weight: normal;">Ajout des actions suivantes à l’objet CustomEnum</p> 
     <ul> 
      <li style="font-weight: bold;">getDefaultOpTaskConditionEnum</li> 
      <li style="font-weight: bold;">getDefaultProjectConditionEnum</li> 
@@ -725,7 +726,7 @@ Un jalon est un marqueur d’une tâche qui indique qu’il s’agit d’un poin
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Principal ne sont pas visibles dans les menus déroulants et les champs de type devant à associer à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de type devant à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -830,7 +831,7 @@ Un objet de paramètre est un champ personnalisé.
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Ajout de la valeur possible TYAH (en caractères d’avance).</p> </li> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Ajout de la valeur possible TYAH (Typeforward).</p> </li> 
      <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Ce champ a été ajouté et fait référence au code d’objet d’un objet référencé. Les codes d’objet de tous les objets se trouvent dans la variable <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Explorateur d’API</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
@@ -868,7 +869,7 @@ Un objet de programme est un sous-ensemble d’un portfolio, où des projets sim
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>description</p> <p style="font-weight: normal;">Ajout du programme de validation MAX_LENGTH, qui spécifie que la longueur de la description ne dépasse pas 4 000 caractères.</p> </li> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Principal ne sont pas visibles dans les menus déroulants et les champs de type devant à associer à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de type devant à joindre à d’autres objets.  </p> </li> 
      <li style="font-weight: bold;"> <p>name </p> <p style="font-weight: normal;">Ajout du programme de validation MAX_LENGTH, qui spécifie que la longueur du nom ne dépasse pas 255 caractères.  </p> </li> 
     </ul> </td> 
   </tr> 
@@ -1156,7 +1157,7 @@ Un objet Template représente un modèle pour un projet. Les projets peuvent êt
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Principal ne sont pas visibles dans les menus déroulants et les champs de type devant à associer à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de type devant à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1242,7 +1243,7 @@ Un objet de feuille de temps représente une feuille de temps virtuelle qui perm
 
 ### Mettre à jour {#update}
 
-Les éléments de travail dans Workfront peuvent être mis à jour pour informer les utilisateurs de l’état actuel. Un objet Update représente l’une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs ou créées par le système Workfront.
+Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir les utilisateurs informés de l’état actuel. Un objet Update représente l’une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs ou créées par le système Workfront.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

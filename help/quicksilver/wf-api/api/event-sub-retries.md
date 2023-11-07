@@ -5,8 +5,9 @@ title: Reprises d’abonnement à un événement
 description: Reprises d’abonnement à un événement
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Lors de la mise en oeuvre d’un système de diffusion de messages, quelques avertissements doivent être pris en compte afin de garantir la stabilité, la cohérence et une bonne expérience utilisateur. Un des défauts d&#39;un système de diffusion des messages est de s&#39;assurer que les messages arrivent à destination avec succès et de savoir quoi faire lorsque les messages ne parviennent pas.
 
-Certaines intégrations peuvent accepter l’échec de la diffusion, puis abandonner le message et passer au message suivant.  Dans d’autres intégrations, l’échec de diffusion d’un message ne peut pas être ignoré. Par exemple, une intégration financière peut tenter de diffuser un message, mais reçoit à la place un code d’état HTTP 404, qui indique que le serveur n’a pas trouvé le point de terminaison auquel le message devait être diffusé. Dans de tels cas, un message manquant pourrait signifier qu&#39;une personne n&#39;est pas payée pour son temps ou qu&#39;une organisation dépasse le budget des ressources sous contrat.
+Certaines intégrations peuvent accepter un échec de diffusion, puis abandonner le message et passer au message suivant.  Dans d’autres intégrations, l’échec de diffusion d’un message ne peut pas être ignoré. Par exemple, une intégration financière peut tenter de diffuser un message, mais reçoit à la place un code d’état HTTP 404, qui indique que le serveur n’a pas trouvé le point de terminaison auquel le message devait être diffusé. Dans de tels cas, un message manquant pourrait signifier qu&#39;une personne n&#39;est pas payée pour son temps ou qu&#39;une organisation dépasse le budget des ressources sous contrat.
 
 ## Stratégie Adobe Workfront pour les reprises d’abonnement aux événements
 
@@ -47,7 +48,7 @@ Les explications suivantes correspondent aux étapes décrites dans l’organigr
 
    Comme illustré dans l’organigramme précédent, la file d’attente des messages utilisée pour le traitement des reprises de diffusion des messages est une file d’attente distincte de celle qui traite la tentative de diffusion initiale pour chaque message. Cela permet au flux de messages en temps quasi réel de continuer sans être entravé par l’échec d’un sous-ensemble de messages.
 
-1. L’état du circuit URL est évalué. L’une des opérations suivantes se produit :
+1. L’état du circuit d’URL est évalué. L’une des opérations suivantes se produit :
 
    * Si le circuit est ouvert et que les diffusions ne sont pas autorisées à ce stade, redémarrez le processus à l’étape 5.
    * Si le circuit est à moitié ouvert, cela signifie que notre circuit est actuellement ouvert, mais un temps suffisant a été nécessaire pour permettre le test de l’URL pour voir si le problème de l’envoi vers lui a été résolu.

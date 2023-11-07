@@ -5,8 +5,9 @@ title: Nouveautés de l’API version 15
 description: Adobe Workfront a publié l’API version 14 le 14 juin 2022. L’API version 15 comprend les modifications suivantes à partir de la version 14.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 2%
@@ -68,7 +69,7 @@ Pour plus d’informations sur les initiatives, voir [Présentation des initiati
           <li>
             <p><b>ID</b>
             </p>
-            <p>L’identifiant associé à l’action</p>
+            <p>ID associé à l’action.</p>
           </li>
           <li>
             <p><b>initiativeID</b>
@@ -601,7 +602,7 @@ Aucune ressource n’a été supprimée pour l’API version 15.
 
 ### AccessLevel (ACSLVL)
 
-Un objet AccessLevel est associé aux utilisateurs et décrit le jeu d’autorisations AccessLevel qui déterminent ce à quoi l’utilisateur peut accéder.
+Un objet AccessLevel est associé à des utilisateurs et décrit le jeu d’autorisations AccessLevel qui déterminent ce à quoi l’utilisateur peut accéder.
 
 Pour plus d’informations sur les niveaux d’accès, voir [Niveaux d’accès](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
@@ -1013,7 +1014,7 @@ L’objet Group a ajouté l’indicateur . `DATA_EXTENDIBLE`
           <li>
             <p><b>isActive</b>
             </p>
-            <p>Il s’agit d’un paramètre booléen dont la valeur est true si un objet est Principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets.</p>
+            <p>Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets.</p>
           </li>
         </ul>
       </td>
@@ -1067,7 +1068,7 @@ L’objet Group a ajouté l’indicateur . `DATA_EXTENDIBLE`
           <li>
             <p><b>isActive</b>
             </p>
-            <p>Il s’agit d’un paramètre booléen dont la valeur est true si un objet est Principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets.</p>
+            <p>Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets.</p>
           </li>
         </ul>
       </td>
@@ -1267,7 +1268,7 @@ Un objet de Portfolio est un ensemble de projets qui rivalisent pour les mêmes 
 
 ### Programme (PRGM)
 
-Un objet de programme est un sous-ensemble de projets au sein d’un portefeuille, où des projets similaires peuvent être regroupés.
+Un objet de programme est un sous-ensemble de projets d’un portfolio, où des projets similaires peuvent être regroupés.
 
 <table>
   <col/>
@@ -1560,7 +1561,7 @@ Un objet de feuille de temps représente une feuille de temps virtuelle qui perm
 
 ### Mise à jour (MISE À JOUR)
 
-Les éléments de travail dans Workfront peuvent être mis à jour pour informer les utilisateurs de l’état actuel. Un objet Update représente l’une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs ou créées par le système Workfront.
+Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir les utilisateurs informés de l’état actuel. Un objet Update représente l’une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs ou créées par le système Workfront.
 
 <table>
   <col/>

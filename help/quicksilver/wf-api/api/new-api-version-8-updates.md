@@ -5,11 +5,12 @@ title: Mises à jour de l’API version 8
 description: 'Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les ressources qui sont nouvelles de la version 8, voir Nouveautés de l’API version 8. Les modifications apportées à une ressource sont indiquées de la manière suivante : MODIFIEZ-MOI.'
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 37%
+source-wordcount: '529'
+ht-degree: 26%
 
 ---
 
@@ -17,48 +18,48 @@ ht-degree: 37%
 
 ## Ressources mises à jour
 
-Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les ressources qui sont nouvelles de la version 8, reportez-vous à la section [Nouveautés de l’API version 8](../../wf-api/api/new-api-version-8.md). Les modifications apportées à une ressource sont indiquées de la manière suivante :
+Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les ressources qui sont nouvelles de la version 8, voir [Nouveautés de l’API version 8](../../wf-api/api/new-api-version-8.md). Les modifications apportées à une ressource sont indiquées de la manière suivante :
 
 * Les ajouts sont simplement répertoriés
 * Les suppressions sont indiquées par un texte barré.
-* Les modifications sont signalées dans la note suivant le tableau
+* Les modifications sont signalées dans la note suivant le tableau .
 
 ### AccessRequest
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| action¹  |   |   |   |   |   |   |
+| action<sup>1</sup>  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications des valeurs possibles
 
-### AccessRule¹ 
+### AccessRule<sup>1</sup> 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| coreAction²  |   |   |   |   |   |   |
-| forbiddenActions² |   |   |   |   |   |   |
-| secondaryActions² |   |   |   |   |   |   |
+| coreAction<sup>2</sup>  |   |   |   |   |   |   |
+| forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
+| secondaryActions<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Indicateur supprimé : REPORTABLE\
-² Modifications apportées aux valeurs possibles
+<sup>1</sup> Indicateur supprimé : REPORTABLE\
+<sup>2</sup> Modifications des valeurs possibles
 
 ### Approbation
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  | resourcePools |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles\
-²Flags a ajouté : DYNAMIC, LAZY_READ et NOT_GROUPABLE
+<sup>1</sup>Modifications des valeurs possibles\
+<sup>2</sup>Ajout d’indicateurs : DYNAMIC, LAZY_READ et NOT_GROUPABLE
 
 ### Affectation
 
@@ -68,38 +69,38 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 |   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
 |   |   |   |   | unassignUserFromTasks |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Client
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   | getPackagingOptionValue |   |   |
-| proofPlan¹ |   |   |   | isPackagingOptionEnabled |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   | getPackagingOptionValue |   |   |
+| proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### CustomerPreferences
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| name¹ |   |   |   |   |   |   |
+| name<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### DocumentApproval
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Flag ajoute : NOT_FILTERABLE
+<sup>1</sup>Indicateur ajouté : NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -107,7 +108,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 |---|---|---|---|---|---|---|
 | activeProofStages |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Groupe
 
@@ -115,17 +116,17 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 |---|---|---|---|---|---|---|
 |   |   | propriétaires |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### HourType
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| appGlobalID¹ |   |   |   |   |   |   |
+| appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Flag ajoute : NOT_FILTERABLE
+<sup>1</sup>Indicateur ajouté : NOT_FILTERABLE
 
 ### Itération
 
@@ -133,7 +134,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### J&#39;aime
 
@@ -141,61 +142,61 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Note
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| auditType¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### TâcheOp
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | itération |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | estimation |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Portfolio
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Programme
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Projet
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### ProofApproval
 
@@ -203,23 +204,23 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 |---|---|---|---|---|---|---|
 | approverID | approbateur |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Flag ajoute : NOT_FILTERABLE
+<sup>1</sup>Indicateur ajouté : NOT_FILTERABLE
 
 ### QueueDef
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| requestorCoreAction¹ |   |   |   |   |   |   |
-| requestorForbiddenActions¹ |   |   |   |   |   |   |
+| requestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
+| requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Taux
 
@@ -229,7 +230,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 | name |   |   |   |   |   |   |
 | startDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### RéservéTime
 
@@ -237,7 +238,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceManager
 
@@ -245,19 +246,19 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tâche
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Équipe
 
@@ -269,7 +270,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 | TeamStoryBoardIssueStatuses |   |   |   |   |   |   |
 | wipLimit |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Modèle
 
@@ -277,29 +278,29 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TemplateTask
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 Mettre à jour
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| updateType¹ | `updateEndorsement` |   |   |   |   |   |
+| updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
-### Utilisateur
+### l’utilisateur ou de l’utilisatrice
 
 |   |   | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|---|---|
@@ -307,7 +308,7 @@ Mettre à jour
 |   |   | userGroups |   |   |   |   |   |   |
 |   |   | userRoles |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
@@ -315,22 +316,22 @@ Mettre à jour
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| eventType¹ |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Travail
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Modifications apportées aux valeurs possibles\
-²Flags a ajouté : DYNAMIC, LAZY_READ et NOT_GROUPABLE
+<sup>1</sup>Modifications des valeurs possibles\
+<sup>2</sup>Ajout d’indicateurs : DYNAMIC, LAZY_READ et NOT_GROUPABLE

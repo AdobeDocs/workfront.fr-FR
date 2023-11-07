@@ -6,8 +6,9 @@ title: Filtrage des messages d’abonnement d’événement
 description: Filtrage des messages d’abonnement d’événement
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 0%
@@ -39,7 +40,7 @@ L’exemple suivant en Java montre comment filtrer les payloads du projet en fon
    ```
 
    Dans cet exemple, la méthode handleRequest, qui est un nom de méthode standard AWS Lambda, prend un type Map comme premier paramètre, qui est le contenu du message d’abonnement à l’événement.\
-   Le deuxième paramètre est le contexte de la requête actuelle de proxy Lambda.\
+   Le deuxième paramètre nécessaire est le contexte de la requête actuelle de proxy Lambda.\
    L’objet Context est utilisé pour obtenir un enregistreur Lambda, qui est utilisé pour écrire un message sur CloudWatchLogs.
 
    ```
@@ -264,7 +265,7 @@ L’exemple suivant dans Node.js montre comment filtrer les payloads du projet e
 
 ## Amélioration de la diffusion des messages tout en tenant compte des dépassements de délai
 
-Le service d’abonnement à un événement a un délai d’expiration strict de **cinq secondes** pour toutes les demandes de diffusion. Si la diffusion d’un message dépasse l’heure autorisée, le service d’abonnement à un événement lance un cycle de reprise pour ce message.
+Le service d’abonnement à un événement a un délai d’expiration strict de **cinq secondes** pour toutes les demandes de diffusion. Dans le cas où la diffusion d’un message dépasse l’heure autorisée, le service d’abonnement à un événement lance un cycle de reprise pour ce message.
 
 Par exemple, vous créez un filtre d’identifiant de groupe de projets similaire à l’un des exemples trouvés dans la section [Filtrage des messages d’événement](#filtering-event-messages) et vous incluez une recherche de base de données pour déterminer si le message est nécessaire. Il est possible que la recherche dans la base de données, ainsi que le temps nécessaire au traitement requis et au démarrage à froid de Lambda, puisse prendre plus de cinq secondes, ce qui provoquerait une nouvelle tentative de remise du message par le service d’abonnement à un événement.
 
@@ -329,6 +330,6 @@ En recherchant des ressources, vous vous assurez que vos systèmes d’intégrat
 
 ### Mise en oeuvre d’un traitement asynchrone dans la diffusion de messages
 
-Tous les exemples de la [Filtrage des messages d’événement](#filtering-event-messages) transmet la responsabilité de diffuser des messages filtrés à une autre Lambda AWS. Cela permet d’éviter de dépasser le délai d’attente de cinq secondes dans la demande de diffusion, qui est appliquée par le service d’abonnement à un événement qui émet la demande.
+Tous les exemples de la [Filtrage des messages d’événement](#filtering-event-messages) transfère la responsabilité de diffuser des messages filtrés à un autre AWS Lambda. Cela permet d’éviter de dépasser le délai d’attente de cinq secondes dans la demande de diffusion, qui est appliquée par le service d’abonnement à un événement qui émet la demande.
 
 Dans une architecture sans nuage, vous devrez peut-être mettre en oeuvre un mécanisme de traitement asynchrone similaire à la manière dont le SDK AWS permet des appels asynchrones à d’autres lambdas AWS. La plupart des langages de programmation modernes disposent de bibliothèques tierces ou principales qui gèrent le traitement asynchrone, ce qui vous permet d’exploiter le style asynchrone de traitement implémenté dans nos exemples.

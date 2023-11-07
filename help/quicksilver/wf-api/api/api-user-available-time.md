@@ -5,11 +5,12 @@ title: Obtention de l’API de temps disponible pour les utilisateurs
 description: Obtention de l’API de temps disponible pour les utilisateurs
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: fa37920a-c08b-4af3-9896-7e4044834860
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -25,7 +26,7 @@ Le point de terminaison de l’heure disponible de l’utilisateur récupère le
 
 ## Paramètres de requête
 
-* **userIDs**: tableau de chaînes. Requis. Exemple: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
+* **userID**: tableau de chaînes. Requis. Exemple: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
 
 * **fromDate**: datetime. chaîne. Requis. Exemple:  `"2022-07-10T00:00:00"`.
 
@@ -74,5 +75,5 @@ Le point de terminaison de l’heure disponible de l’utilisateur récupère le
 
 ## Paramètres de réponse
 
-* **AVL**: Heures disponibles réelles. Tableau de nombres.
-* **PAVL**: Heures disponibles pures pour la planification qui n’incluent pas les jours non ouvrés ni les jours de congé utilisateur. Chaîne.
+* **AVL**: heures disponibles réelles. Tableau de nombres.
+* **PAVL**: heures pures disponibles pour la planification qui n’inclut pas les jours non ouvrés ni les jours de congé utilisateur. Chaîne.

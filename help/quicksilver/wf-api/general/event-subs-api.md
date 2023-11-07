@@ -5,8 +5,9 @@ title: API d’abonnement à un événement
 description: API d’abonnement à un événement
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 3%
@@ -65,7 +66,7 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * Tâche
 * Modèle
 * Feuille de temps
-* Utilisateur
+* l’utilisateur ou de l’utilisatrice
 
 Pour obtenir la liste des champs pris en charge par les objets d’abonnement d’événement, voir [Champs de ressource d’abonnement à un événement](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -76,7 +77,7 @@ Pour créer, interroger ou supprimer un abonnement à un événement, l’utilis
 * Un niveau d’accès &quot;Administrateur système&quot; est requis pour utiliser les abonnements à un événement.
 * A `sessionID`  L’en-tête est requis pour utiliser l’API Event Subscriptions
 
-   Pour plus d’informations, voir [Authentification](api-basics.md#authentication) in [Principes de base des API](api-basics.md).
+  Pour plus d’informations, voir [Authentification](api-basics.md#authentication) in [Principes de base des API](api-basics.md).
 
 ## Formation de la ressource d’abonnement
 
@@ -90,7 +91,7 @@ La ressource d&#39;abonnement contient les champs suivants.
 
    * **Chaîne** - objCode de l’objet abonné aux modifications. Les valeurs possibles pour objCode sont répertoriées dans le tableau ci-dessous.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -161,7 +162,7 @@ La ressource d&#39;abonnement contient les champs suivants.
         <td scope="col">TSHET</td> 
        </tr> 
        <tr> 
-        <td scope="col">Utilisateur</td> 
+        <td scope="col">l’utilisateur ou de l’utilisatrice</td> 
         <td scope="col">UTILISATEUR</td> 
        </tr> 
       </tbody> 
@@ -237,7 +238,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 201 (Créé) | L’abonnement à l’événement a bien été créé. |
 | 400 (Requête incorrecte) | Le champ URL de la ressource d&#39;abonnement a été considéré comme non valide. |
 | 401 (Non autorisé) | L’ID de session fourni était vide ou considéré comme non valide. |
-| 403 (interdit) | L’utilisateur qui correspond à l’ID de session fourni ne dispose pas d’un accès administrateur. |
+| 403 (Interdit) | L’utilisateur qui correspond à l’ID de session fourni ne dispose pas d’un accès administrateur. |
 
 La transmission d’une ressource d’abonnement en tant que corps d’une requête (le type de contenu étant &quot;application/json&quot;) entraîne la création d’un abonnement d’événement pour l’objet spécifié. Un code de réponse 201 (Créé) indique que l’abonnement a été créé. Un code de réponse autre que 201 signifie que l’abonnement était **NOT** créé.
 
@@ -256,11 +257,11 @@ La transmission d’une ressource d’abonnement en tant que corps d’une requ�
 
 ## Requête sur les abonnements aux événements
 
-Lors de l’interrogation de Workfront HTTP, utilisez la méthode GET. Il existe deux façons de rechercher des abonnements à des événements : Effectuez une requête par ID d’abonnement (voir ci-dessous) ou recherchez tous les abonnements à un événement.
+Lors de l’interrogation de Workfront HTTP, utilisez la méthode GET. Il existe deux manières de rechercher des abonnements à un événement : effectuer une requête par ID d’abonnement (voir ci-dessous) ou interroger tous les abonnements à un événement.
 
 ### Requête sur tous les abonnements aux événements
 
-Vous pouvez interroger tous les abonnements aux événements pour un client ou utiliser les éléments suivants pour gérer la réponse. Vous pouvez également utiliser les options suivantes pour gérer la réponse :
+Vous pouvez interroger tous les abonnements à des événements pour un client ou utiliser les éléments suivants pour gérer la réponse. Vous pouvez également utiliser les options suivantes pour gérer la réponse :
 
 * **page**: option de paramètre de requête pour spécifier le nombre de pages à renvoyer. La valeur par défaut est 1.
 * **limit**: option de paramètre de requête pour spécifier le nombre de résultats à renvoyer par page. La valeur par défaut est 100 avec un maximum de 1 000.
@@ -300,7 +301,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | 200 (OK) | La requête renvoyée avec tous les abonnements d’événement trouvés pour le client correspondant à l’ID de session fourni. |
 | 401 (Non autorisé) | L’ID de session fourni était vide. |
-| 403 (interdit) | L’utilisateur, qui correspond à l’ID de session fourni, ne dispose pas d’un accès administrateur. |
+| 403 (Interdit) | L’utilisateur, qui correspond à l’ID de session fourni, ne dispose pas d’un accès administrateur. |
 
 
 **Exemple d’en-têtes de réponse :**
@@ -393,7 +394,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 |---|---|
 | 200 (OK) | La requête renvoyée avec l’abonnement à l’événement correspondant à l’ID d’abonnement fourni. |
 | 401 (Non autorisé) | L’ID de session fourni était vide. |
-| 403 (interdit) | L’utilisateur, qui correspond à l’ID de session fourni, ne dispose pas d’un accès administrateur. |
+| 403 (Interdit) | L’utilisateur, qui correspond à l’ID de session fourni, ne dispose pas d’un accès administrateur. |
 
 
 **Exemple de corps de réponse :**
@@ -419,6 +420,7 @@ Le filtrage des abonnements aux événements peut être utilisé pour vous assur
 Par exemple, un **MISE À JOUR - TÂCHE** Un abonnement d’événement peut être défini pour se déclencher uniquement lorsque la variable **newState** d’une payload d’événement définit la variable **taskStatus** as **current**.
 
 >[!IMPORTANT]
+>
 Les attributs suivants s’appliquent au filtrage des abonnements aux événements
 
 * Lorsqu’un champ de filtre a une valeur non vide, seuls les messages comportant une **newState** contenant les clés et valeurs de filtre sont envoyées à l&#39;URL abonnée
@@ -435,9 +437,9 @@ Les attributs suivants s’appliquent au filtrage des abonnements aux événemen
 
 Vous pouvez spécifier un champ de comparaison avec le champ de filtrage. Utilisez un opérateur de comparaison dans ce champ pour filtrer les résultats comparatifs. Par exemple, vous pouvez créer un abonnement UPDATE - TASK qui envoie uniquement une charge utile si l’état de la tâche n’est PAS égal à actif. Vous pouvez utiliser les opérateurs de comparaison suivants :
 
-#### eq : equal
+#### eq : égal
 
-Ce filtre permet aux messages de passer si la modification survenue correspond à `fieldValue` dans le filtre. Le `fieldValue` est sensible à la casse.
+Ce filtre permet aux messages de passer si la modification survenue correspond à `fieldValue` dans le filtre exactement. La variable `fieldValue` est sensible à la casse.
 
 ```
 {
@@ -457,7 +459,7 @@ Ce filtre permet aux messages de passer si la modification survenue correspond �
 
 #### ne : différent de
 
-Ce filtre permet aux messages de passer si la modification survenue ne correspond pas à `fieldValue` dans le filtre. Le `fieldValue` est sensible à la casse.
+Ce filtre permet aux messages de passer si la modification survenue ne correspond pas à `fieldValue` dans le filtre exactement. La variable `fieldValue` est sensible à la casse.
 
 ```
 {
@@ -557,7 +559,7 @@ Ce filtre permet aux messages de passer si la mise à jour de la variable `field
 
 #### contient
 
-Ce filtre permet aux messages de passer si la modification apportée contient la variable `fieldValue` dans le filtre. Le `fieldValue` est sensible à la casse
+Ce filtre permet aux messages de passer si la modification apportée contient la variable `fieldValue` dans le filtre. La variable `fieldValue` est sensible à la casse
 
 ```
 {
@@ -580,6 +582,7 @@ Ce filtre permet aux messages de passer si la modification apportée contient la
 Ce filtre permet aux messages de passer uniquement si le champ spécifié (`fieldName`) a une valeur différente dans l’ancien et le nouvel état. Mettre à jour les autres champs en plus de celui spécifié (`fieldName`) ne renverra pas cette modification.
 
 >[!NOTE]
+>
 `fieldValue` dans le tableau filters ci-dessous n’a aucun effet.
 
 ```
@@ -604,6 +607,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 `oldState` n’est pas possible sur CREATE `eventTypes`.
 
 >[!NOTE]
+>
 L&#39;abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur le `oldState`, c’était avant qu’une mise à jour ne soit effectuée sur la tâche.
 Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’une chose à l’autre. Par exemple, pour connaître toutes les tâches qui ont changé de &quot;Recherche et nom&quot; en &quot;Nom de l’équipe de recherche Certains nom&quot;.
 
@@ -626,7 +630,7 @@ Un cas pratique pour cela serait de trouver les messages objCode qui ont changé
 
 ### Utilisation des champs de connecteur
 
-Le `filterConnector` sur la payload de l’abonnement vous permet de choisir comment les filtres doivent être appliqués. La valeur par défaut est &quot;AND&quot;, où les filtres doivent tous être `true` pour le message d&#39;abonnement à transmettre. Si &quot;OR&quot; est spécifié, un seul filtre doit correspondre pour que le message d’abonnement passe.
+La variable `filterConnector` sur la payload de l’abonnement vous permet de choisir comment les filtres doivent être appliqués. La valeur par défaut est &quot;AND&quot;, où les filtres doivent tous être `true` pour le message d&#39;abonnement à transmettre. Si &quot;OR&quot; est spécifié, un seul filtre doit correspondre pour que le message d’abonnement passe.
 
 ```
 {
@@ -650,7 +654,7 @@ Le `filterConnector` sur la payload de l’abonnement vous permet de choisir com
 }
 ```
 
-## Suppression des abonnements à un événement
+## Suppression d’abonnements à un événement
 
 Lors de la suppression d’un HTTP Workfront, utilisez la méthode DELETE. La syntaxe de requête pour la suppression d’un abonnement d’événement unique par ID d’abonnement est la suivante :
 
@@ -702,7 +706,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
    <td>L’ID de session fourni était vide.</td> 
   </tr> 
   <tr> 
-   <td>403 (interdit)</td> 
+   <td>403 (Interdit)</td> 
    <td>L’utilisateur qui correspond à l’ID de session fourni ne dispose pas d’un accès administrateur.</td> 
   </tr> 
   <tr> 
@@ -853,7 +857,7 @@ Si un abonnement à un événement est rejeté en raison d&#39;un conflit entre 
 
 ### Champ de codage de base 64
 
-Le champ de codage base64Encoding est un champ facultatif qui est utilisé pour activer le codage Base64 des payloads d’abonnement aux événements. La valeur par défaut est false et les valeurs possibles sont les suivantes : true, false et &quot;&quot; (vide).
+Le champ de codage base64Encoding est un champ facultatif qui est utilisé pour activer le codage Base64 des payloads d’abonnement aux événements. La valeur par défaut est false et les valeurs possibles sont : true, false et &quot;&quot; (vide).
 
 ### Exemple de requête utilisant le champ base64Encoding
 
@@ -943,7 +947,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
    <td>L’ID de session fourni était vide.</td> 
   </tr> 
   <tr> 
-   <td>403 (interdit)</td> 
+   <td>403 (Interdit)</td> 
    <td>L’utilisateur qui correspond à l’ID de session fourni ne dispose pas d’un accès administrateur.</td> 
   </tr> 
  </tbody> 

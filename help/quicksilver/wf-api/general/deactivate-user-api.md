@@ -6,8 +6,9 @@ title: Désactivation d’un utilisateur via l’API
 description: Désactivation d’un utilisateur via l’API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -33,7 +34,7 @@ Pour désactiver un utilisateur via l’API :
 
 1. Recherchez le GUID de l’utilisateur que vous souhaitez désactiver.
 
-   1. Utilisez la requête d’API suivante pour récupérer le GUID pour tous les utilisateurs de votre système. Notez que la variable **isActive** affichage des champs **true** pour les utilisateurs actuellement principaux et **false** pour les utilisateurs qui ont été désactivés :
+   1. Utilisez la requête d’API suivante pour récupérer le GUID pour tous les utilisateurs de votre système. Notez que la variable **isActive** affichage des champs **true** pour les utilisateurs actuellement actifs et **false** pour les utilisateurs qui ont été désactivés :
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
@@ -48,4 +49,4 @@ Pour désactiver un utilisateur via l’API :
 1. La réponse indique que la variable **isActive** la valeur du champ a changé de **true** to **false** indiquant que l’utilisateur a été désactivé :
 
 <!-- [Copy](javascript:void(0);) -->
-<pre></pre>
+<pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>

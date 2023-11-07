@@ -6,8 +6,9 @@ title: Test des connexions Webhook
 description: Test des connexions Webhook
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Teste l’URL d’authentification et l’URL du point de terminaison du jeton p
 1. (Services OAuth uniquement) Une fois l’étape précédente terminée, la page d’authentification OAuth2 de votre service s’affiche dans une fenêtre contextuelle. (Remarque : vous pouvez être invité à vous connecter d’abord à votre service.) Sur la page d’authentification, accordez à Workfront l’accès au compte de l’utilisateur en cliquant sur le bouton Approbation ou Autoriser .
 1. Vérifiez que votre service a été ajouté à la liste déroulante Ajouter des documents . Si vous ne le voyez pas initialement, essayez d’actualiser votre navigateur.
 
-**Test 2 : Lier un document dans Workfront Tests permet de tester les points de fin suivants : /files, /metadata**
+**Test 2 : lier un document à Workfront Tests les points de terminaison suivants : /files, /metadata**
 
 1. Dans Workfront, accédez à la page Documents principale en cliquant sur le lien Documents dans la barre de navigation supérieure.
 1. Sélectionnez votre service Document Webhook sous Ajouter des documents.
@@ -48,7 +49,7 @@ Teste l’URL d’authentification et l’URL du point de terminaison du jeton p
 1. Vérifiez que vous pouvez parcourir la structure de dossiers.
 1. Sélection et liaison d’un document à Workfront
 
-**Test 3 : Accédez à un document dans le système de gestion de contenu.**
+**Test 3 : Accédez à un document dans le système de gestion de contenu**
 
 Teste les points de terminaison suivants : /metadata (en particulier viewLink)
 
@@ -66,7 +67,7 @@ Teste les points de terminaison suivants : /metadata (en particulier viewLink)
 1. Vérifiez que l’écran de connexion du système de gestion de contenu se charge dans un nouvel onglet.
 1. Connectez-vous et vérifiez que vous êtes connecté au document.
 
-**Test 5 : Téléchargez le document à partir du système de gestion de contenu.**
+**Test 5 : Téléchargez le document à partir du système de gestion de contenu**
 
 Teste les points de terminaison suivants (en particulier le lien de téléchargement) : /metadata 
 
@@ -83,7 +84,7 @@ Teste les points de terminaison suivants : /search
 1. Dans le modal, effectuez une recherche.
 1. Vérifiez que les résultats de la recherche sont corrects.
 
-**Test 7 : Envoi d’un document de Workfront vers le système de gestion de contenu**
+**Test 7 : envoyer le document de Workfront vers le système de gestion de contenu**
 
 Teste les points de terminaison suivants : /files, /uploadInit, /upload
 
@@ -113,11 +114,11 @@ Teste les points de terminaison suivants : /download
 
 **Test 10 : Actualiser le jeton d’accès (fournisseurs OAuth2 Webhook uniquement)**
 
-Teste les points de terminaison suivants : URL du point de fin du jeton
+Teste les points de terminaison suivants : URL du point de terminaison du jeton
 
 1. Configuration d’un service Document Webhook pour un utilisateur
 1. Invalidez le jeton d’accès de l’utilisateur par 1 ) en attendant son expiration ou 2) en l’invalidant manuellement dans le système externe.
-1. Actualisez le jeton d’accès dans Workfront. Vous pouvez le faire, par exemple, en liant un document à Workfront. Vous savez que le jeton d’accès a été actualisé si vous avez pu accéder à un document et le lier.
+1. Actualisez le jeton d’accès dans Workfront. Vous pouvez le faire, par exemple, en liant un document à Workfront. Vous savez que le jeton d’accès s’est correctement actualisé si vous avez pu accéder à un document et le lier.
 
 >[!NOTE]
 >

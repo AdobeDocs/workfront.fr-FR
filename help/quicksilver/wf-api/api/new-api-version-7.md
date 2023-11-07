@@ -5,11 +5,12 @@ title: Nouveautés de l’API version 7
 description: Collections
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 40%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 50%
 | deadLine |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocMetadataLink
 
@@ -117,7 +118,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Recherche |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApproval
 
@@ -128,7 +129,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Recherche |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -144,7 +145,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Recherche |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -156,7 +157,7 @@ ht-degree: 50%
 | isOwner  | user  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -174,7 +175,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | Recherche |
 |   |   |   |   |   |   | Remplacer |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -192,7 +193,7 @@ ht-degree: 50%
 | lastUpdateByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -205,7 +206,7 @@ ht-degree: 50%
 | pageID  |   |   |   |   |   | Rapport |
 | url  |   |   |   |   |   | Recherche |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,17 +216,17 @@ ht-degree: 50%
 
 ## Objets mis à jour
 
-Modifications apportées aux objets existants : les ajouts sont simplement répertoriés, les suppressions ont été réactivées, les modifications apportées aux éléments existants comportent une note jointe après le tableau.
+Modifications apportées aux objets existants : les ajouts sont simplement répertoriés, les suppressions ont été réalisées, les modifications apportées aux objets existants comportent une note jointe après le tableau.
 
 ### UpdateBean
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifications apportées aux valeurs possibles 
+<sup>1</sup> Modifications des valeurs possibles 
 
  
 
@@ -234,16 +235,16 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate¹ |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AccessRule¹
+### AccessRule<sup>1</sup>
 
-¹ marqués comme pouvant être reportés
+<sup>1</sup> Marqué comme pouvant être signalé
 
  
 
@@ -253,11 +254,11 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### Chemin d’approbation¹
+### Chemin d’approbation<sup>1</sup>
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -265,9 +266,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Indicateur à rapporter supprimé
+<sup>1</sup> Indicateur à signaler supprimé
 
  
 
@@ -279,11 +280,11 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Ajout de la validation de date ¹
+<sup>1</sup> Validation de date ajoutée
 
-² Indicateur non filtrable ajouté
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -291,13 +292,13 @@ Ajout de la validation de date ¹
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects¹ |   |   |
-|   |   |   |   | swapUsersOnProjects¹ |   |   |
-|   |   |   |   | unassignUserFromProjects¹ |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Champ ajouté includeIssues
+<sup>1</sup> Ajout du champ includeIssues
 
  
 
@@ -305,11 +306,11 @@ Ajout de la validation de date ¹
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifications apportées aux valeurs possibles 
+<sup>1</sup> Modifications des valeurs possibles 
 
  
 
@@ -319,7 +320,7 @@ Ajout de la validation de date ¹
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -329,7 +330,7 @@ Ajout de la validation de date ¹
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -339,7 +340,7 @@ Ajout de la validation de date ¹
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -350,9 +351,9 @@ Ajout de la validation de date ¹
 | isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Changement de la validation PRECISION pour 8 à 9
+<sup>1</sup> Changement de la validation PRECISION pour 8 à 9
 
  
 
@@ -366,7 +367,7 @@ Ajout de la validation de date ¹
 |   |   |   |   |   | globalHourTypes  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -374,11 +375,11 @@ Ajout de la validation de date ¹
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications apportées aux valeurs possibles
 
  
 
@@ -389,7 +390,7 @@ Ajout de la validation de date ¹
 | approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -402,7 +403,7 @@ Ajout de la validation de date ¹
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -414,7 +415,7 @@ Ajout de la validation de date ¹
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -424,7 +425,7 @@ Ajout de la validation de date ¹
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -434,7 +435,7 @@ Ajout de la validation de date ¹
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -446,7 +447,7 @@ Ajout de la validation de date ¹
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -454,15 +455,15 @@ Ajout de la validation de date ¹
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Type remplacé par double 
+<sup>1</sup> Type remplacé par double 
 
  
 
-### Utilisateur
+### l’utilisateur ou de l’utilisatrice
 
 <table style="table-layout:auto"> 
  <col> 
@@ -551,7 +552,7 @@ Ajout de la validation de date ¹
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -563,6 +564,6 @@ Ajout de la validation de date ¹
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications apportées aux valeurs possibles

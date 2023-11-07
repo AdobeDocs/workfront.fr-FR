@@ -5,8 +5,9 @@ title: Nouveautés de l’API version 14
 description: Adobe Workfront a publié l’API version 14 le 9 septembre 2021. L’API version 14 comprend les modifications suivantes à partir de la version 14.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 1%
@@ -281,7 +282,7 @@ Pour plus d’informations sur les rôles de tâche, voir [Présentation des rô
    <td role="rowheader">Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ajout de . Il s’agit d’un paramètre booléen dont la valeur est true si un objet est Principal et false dans le cas contraire. Les objets définis sur Principal apparaissent dans les menus déroulants et les champs de type avant et peuvent être associés à d’autres objets.</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ajout de . Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

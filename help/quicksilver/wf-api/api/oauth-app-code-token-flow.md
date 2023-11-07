@@ -5,8 +5,9 @@ title: Flux de code d’autorisation pour les applications OAuth 2 personnalisé
 description: Flux de code d’autorisation pour les applications OAuth 2 personnalisées
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -21,8 +22,8 @@ Pour intégrer Workfront et permettre à votre application cliente de communique
 * Création d’une application OAuth2
 * Configuration de l’application tierce
 * Lien vers la page Autoriser pour vos utilisateurs
-* Configuration du flux du code d’autorisation : Les utilisateurs se connectent à l’instance Workfront et autorisent l’application cliente à se connecter à Workfront en leur nom. Par conséquent, vous obtenez un code d’autorisation que vous échangerez avec les jetons d’accès et d’actualisation.
-* Configurez le flux Actualiser le jeton : Dans ce flux, vous utilisez le jeton d’actualisation pour obtenir un nouveau jeton d’accès lorsque l’ancien a expiré.
+* Configuration du flux du code d’autorisation : les utilisateurs se connectent à l’instance Workfront et acceptent que l’application cliente puisse se connecter à Workfront en leur nom. Par conséquent, vous obtenez un code d’autorisation que vous échangerez avec les jetons d’accès et d’actualisation.
+* Configurer Actualiser le flux de jeton : dans ce flux, vous utilisez le jeton d’actualisation pour obtenir un nouveau jeton d’accès lorsque l’ancien a expiré.
 
 ## Création d’une application OAuth2
 
@@ -34,16 +35,16 @@ Vos utilisateurs doivent se connecter pour autoriser cette intégration dans leu
 
 * URL complète du domaine de votre organisation. Exemple:
 
-   ```
-   https://myorganization.my.workfront.com
-   ```
+  ```
+  https://myorganization.my.workfront.com
+  ```
 
 
-* `client_id`: Il s’agit de l’ID client généré lors de la création de l’application OAuth2 dans Workfront.
+* `client_id`: ID client généré lors de la création de l’application OAuth2 dans Workfront.
 
-* `redirect_uri`: Il s’agit de l’URL de redirection que vous avez saisie lors de la création de l’application. Vos utilisateurs seront redirigés vers cette page une fois qu’ils auront autorisé l’application pour leur compte.
+* `redirect_uri`: URL de redirection que vous avez saisie lors de la création de l’application. Vos utilisateurs seront redirigés vers cette page une fois qu’ils auront autorisé l’application pour leur compte.
 
-* `response_type`: Celui-ci doit avoir la valeur `code`.
+* `response_type`: doit avoir la valeur `code`.
 
 L’URL de la page d’autorisation est donc :
 
@@ -92,13 +93,13 @@ Pour connecter vos utilisateurs avec OAuth2, procédez comme suit :
 
 1. Si l’utilisateur Autorise l’accès, la page est redirigée vers la fonction `redirect_url`. La redirection doit inclure les paramètres de requête suivants :
 
-* `code`: Code d’autorisation requis pour obtenir le jeton d’accès/d’actualisation.
-* `domain`: Domaine de votre entreprise. Exemple : in `myorganization.my.workfront.com`, le domaine est `myorganization`.
-* `lane`: la voie de la requête. Exemple : in `myorganization.preview.workfront.com`, la voie est `preview`.
+* `code`: code d’autorisation requis pour obtenir le jeton d’accès/d’actualisation.
+* `domain`: domaine de votre entreprise. Exemple : in `myorganization.my.workfront.com`, le domaine est `myorganization`.
+* `lane`: voie de la requête. Exemple : in `myorganization.preview.workfront.com`, la voie est `preview`.
 
-   >[!IMPORTANT]
-   >
-   >Le `code` n’est valide que pendant 2 minutes. Par conséquent, vous devez obtenir les jetons d’actualisation et d’accès dans le délai imparti.
+  >[!IMPORTANT]
+  >
+  >La variable `code` est valide uniquement pendant 2 minutes. Par conséquent, vous devez obtenir les jetons d’actualisation et d’accès dans le délai imparti.
 
 1. Lorsque vous disposez d’un code, vous pouvez demander une actualisation et accéder aux jetons en envoyant le code avec les informations d’identification de l’application cliente au `/integrations/oauth2/api/v1/token` point de terminaison .
 
@@ -152,7 +153,7 @@ Pour connecter vos utilisateurs avec OAuth2, procédez comme suit :
    }
    ```
 
-   Le jeton d’accès est le même que ```sessionID```, et il expire de la même manière que normal ```sessionID```
+   Le jeton d’accès est le même que ```sessionID```, et il expire de la même manière que ```sessionID```
 
    >[!IMPORTANT]
    >
@@ -203,4 +204,4 @@ Il renvoie le résultat suivant :
 }
 ```
 
-Et encore une fois, le jeton d’accès est `sessionID` qui peut être utilisé pour envoyer une requête d’API à Workfront.
+Et encore une fois, le jeton d’accès est `sessionID` qui peut être utilisé pour envoyer une requête API à Workfront.

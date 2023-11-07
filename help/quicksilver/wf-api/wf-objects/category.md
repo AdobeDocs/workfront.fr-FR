@@ -5,8 +5,9 @@ title: Lorsque APIModel INTERNAL ne prend pas en charge field projectid (OpTask)
 description: Lorsque APIModel INTERNAL ne prend pas en charge field projectid (OpTask)
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 22%
@@ -16,7 +17,7 @@ ht-degree: 22%
 
 # Catégorie
 
-Fieldsclass : &quot;java.lang.IllegalArgumentException&quot;,\
+Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
 message : &quot;APIModel INTERNAL ne prend pas en charge field projectid (OpTask)&quot;
 
 <table style="table-layout:auto"> 
@@ -47,7 +48,7 @@ message : &quot;APIModel INTERNAL ne prend pas en charge field projectid (OpTask
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;accessorIDs&quot;}"><strong>ID d’accesseur</strong> </td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acessorIDs&quot;}">acessorIDs</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acessorIDs&quot;}">acessorID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String Array&quot;}">Tableau de chaînes</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;List of People/Team IDs that can access this object&quot;}">Liste des personnes/identifiants d’équipe pouvant accéder à cet objet</td> 
    <td> </td> 
@@ -141,9 +142,9 @@ message : &quot;APIModel INTERNAL ne prend pas en charge field projectid (OpTask
 | Nom | Étiquette | Type | Type Object Code | URL |
 |---|---|---|---|---|
 | Client | client | Client | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Entré par | entryBy | Utilisateur | UTILISATEUR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Entré par | entryBy | l’utilisateur ou de l’utilisatrice | UTILISATEUR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Groupe | groupe | Groupe | GROUPE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Dernière mise à jour par | lastUpdatedBy | Utilisateur | UTILISATEUR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Dernière mise à jour par | lastUpdatedBy | l’utilisateur ou de l’utilisatrice | UTILISATEUR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 
 
 ## Collections

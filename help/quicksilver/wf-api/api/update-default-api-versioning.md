@@ -5,8 +5,9 @@ title: Mise à jour des intégrations qui utilisent le contrôle de version des 
 description: Mise à jour des intégrations qui utilisent le contrôle de version des API par défaut
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Mise à jour des intégrations qui utilisent le contrôle de version des API par défaut
 
-Nous publions de nouvelles versions de l’API Adobe Workfront sur une base semestrielle. Chaque version est prise en charge pendant trois ans après sa publication, avec une année supplémentaire dans un état obsolète où la version est disponible mais pas prise en charge.
+Nous publions de nouvelles versions de l’API Adobe Workfront tous les deux ans. Chaque version est prise en charge pendant trois ans après sa publication, avec une année supplémentaire dans un état obsolète où la version est disponible mais pas prise en charge.
 
 Les intégrations qui ne spécifient pas de version de l’API dans l’URI sont automatiquement acheminées vers Default. Si vous souhaitez que votre appel API utilise une version spécifique de l’API, vous devez spécifier cette version dans vos requêtes d’API Workfront.
 
@@ -44,7 +45,7 @@ Par exemple, la requête d’API Workfront suivante ne spécifie pas de version 
 
 Lorsque cette requête est effectuée, vous recevez une réponse avec du texte codé JSON qui spécifie les données de votre instance Workfront. Comme aucune version d’API n’est spécifiée dans cet URI, l’appel est défini sur Par défaut.
 
-Pour transformer une requête d’API par défaut en requête d’API versionnée, appelez simplement une version d’API prise en charge. Par exemple, l’URI suivant demande la version 15 :
+Pour transformer une requête API par défaut en requête API versionnée, appelez simplement une version d’API prise en charge. Par exemple, l’URI suivant demande la version 15 :
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 

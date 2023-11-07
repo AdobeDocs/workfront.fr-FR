@@ -5,11 +5,12 @@ title: Nouveautés de l’API version 6
 description: Nouveautés de l’API version 6
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 41%
+source-wordcount: '495'
+ht-degree: 32%
 
 ---
 
@@ -52,7 +53,7 @@ ht-degree: 41%
 
 ## Objets mis à jour
 
-Modifications apportées aux objets existants : les ajouts sont simplement répertoriés, les suppressions ont été réactivées, les modifications apportées aux éléments existants comportent une note jointe après le tableau.
+Modifications apportées aux objets existants : les ajouts sont simplement répertoriés, les suppressions ont été réalisées, les modifications apportées aux objets existants comportent une note jointe après le tableau.
 
 ### Mettre à jour
 
@@ -60,14 +61,14 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications des valeurs possibles
 
-² attribut hasFilters a été remplacé par true
+<sup>2</sup> L’attribut hasFilters a été remplacé par true.
 
  
 
@@ -75,17 +76,17 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| completedHours |   | resourceGuidelines | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
-| isOriginalScheduleHoursSet |   |   |   |   |   |   |
+| completedHours |   | resourceSuperviseurs | resourceManagerIDs |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
+| isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Validation de date ajoutée
+<sup>1</sup> Validation de date ajoutée
 
-² Indicateur NOT_FILTERABLE ajouté
+<sup>2</sup> Indicateur NOT_FILTERABLE ajouté
 
  
 
@@ -93,9 +94,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 |   | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -105,15 +106,15 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications apportées aux valeurs possibles
 
  
 
-### Chemin d’approbation¹
+### Chemin d’approbation<sup>1</sup>
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -126,13 +127,13 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 | isPrivate |   |   |   |   |   | Recherche |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name² |   |   |   |   |   |   |
+| name<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Remplacé en rapport
+<sup>1</sup> Remplacé par rapport
 
-² Ajout de la validation de longueur maximale
+<sup>2</sup> Ajout de la validation de longueur maximale
 
  
 
@@ -140,14 +141,14 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Ajout de la validation de date ¹
+<sup>1</sup> Validation de date ajoutée
 
-² Indicateur non filtrable ajouté
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -159,7 +160,7 @@ Ajout de la validation de date ¹
 |   |   |   |   | swapUsersOnProjects |   |   |
 |   |   |   |   | unassignUserFromProjects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -167,11 +168,11 @@ Ajout de la validation de date ¹
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Indicateur non filtrable ajouté
+<sup>1</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -179,11 +180,11 @@ Ajout de la validation de date ¹
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Indicateur non filtrable ajouté
+<sup>1</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -191,20 +192,20 @@ Ajout de la validation de date ¹
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| billingDate¹ |   |   |   |   |   |   |
+| billingDate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ indicateur de champ NO_TIME ajouté
+<sup>1</sup> indicateur de champ NO_TIME ajouté
 
-### Événement de blocage 
+### Événement de Burndown 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,7 +216,7 @@ Ajout de la validation de date ¹
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -227,7 +228,7 @@ Ajout de la validation de date ¹
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatuses |   |
 |   |   |   |   |   | taskGroupStatuses |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -238,7 +239,7 @@ Document 
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -246,11 +247,11 @@ Taux de change 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| rate¹ |   |   |   |   |   |   |
+| rate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Changement de la validation PRECISION pour 8 à 9
+<sup>1</sup> Changement de la validation PRECISION pour 8 à 9
 
  
 
@@ -260,7 +261,7 @@ Taux de change 
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -268,61 +269,61 @@ Taux de change 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications apportées aux valeurs possibles
 
  
 
-### Optask (Problème)¹ 
+### Optask (issue)<sup>1</sup> 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ marqués comme RESTORABLES
+<sup>1</sup> Marqué comme RESTORABLE
 
-² Indicateur non filtrable ajouté
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
-### Projet¹ 
+### Projet<sup>1</sup> 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
-| isOriginalScheduleHoursSet |   | resourceGuidelines | resourceManagerIDs  |   |   |   |
+| isOriginalPlannedHoursSet |   | resourceSuperviseurs | resourceManagerIDs  |   |   |   |
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
 | work |   |   |   |   |   |   |
 | workRequired |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ marquée comme RESTORABLE et RESOURCE_MANAGEABLE
+<sup>1</sup> Marqué comme RESTORABLE et RESOURCE_MANAGEABLE
 
-² Indicateur non filtrable ajouté
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
-### Tâche¹
+### Tâche<sup>1</sup>
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ marqués comme RESTORABLES
+<sup>1</sup> Marqué comme RESTORABLE
 
-Ajout du programme de validation ² AT_DATE_YEAR_BEFORE
+<sup>2</sup> Ajout du programme de validation AT_DATE_YEAR_BEFORE
 
-³ Indicateur non filtrable ajouté
+<sup>3</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -333,43 +334,43 @@ Ajout du programme de validation ² AT_DATE_YEAR_BEFORE
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Modèle¹ 
+### Modèle<sup>1</sup> 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   |   | resourceGuidelines | resourceManagerIDs |   |   |   |
+|   |   | resourceSuperviseurs | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ marquée comme RESTORABLE et RESOURCE_MANAGEABLE
+<sup>1</sup> Marqué comme RESTORABLE et RESOURCE_MANAGEABLE
 
-### Tâche de modèle¹ 
+### Tâche du modèle<sup>1</sup> 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ marqués comme RESTORABLES
+<sup>1</sup> Marqué comme RESTORABLE
 
-² Indicateur non filtrable ajouté
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
-### Utilisateur
+### l’utilisateur ou de l’utilisatrice
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Violateurs MAX_LENGTH
+<sup>1</sup> Violateurs MAX_LENGTH
 
  
 
@@ -377,13 +378,13 @@ Ajout du programme de validation ² AT_DATE_YEAR_BEFORE
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Valeurs possibles modifiées
+<sup>1</sup> Valeurs possibles modifiées
 
-² contient des filtres changés en `[true]`
+<sup>2</sup> contient des filtres modifiés en `[true]`
 
  
 

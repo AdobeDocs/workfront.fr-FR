@@ -5,8 +5,9 @@ title: Fin de la prise en charge de JSONP
 description: Fin de la prise en charge de JSONP
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 681336c2-2f41-4746-8cba-be077f556742
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
@@ -21,7 +22,7 @@ JSONP est une norme qui permet d’effectuer des requêtes interorigines ou inte
 
 Si vous utilisez JSONP dans le cadre de l’une de vos intégrations Workfront, vous devez mettre à jour votre intégration afin d’utiliser la norme CORS (Cross-Origin Resource Sharing). Cette mise à jour requiert que vous effectuiez les opérations suivantes :
 
-1. Envoyez une demande à l’équipe d’assistance de Workfront afin que tous les domaines utilisés pour envoyer des demandes d’origine croisée à notre liste autorisée soient également concernés.
+1. Envoyez une demande à l’équipe d’assistance de Workfront afin que tous les domaines utilisés pour effectuer des demandes d’origine croisée vers notre liste autorisée soient envoyés.
 
    Pour que vos domaines soient ajoutés à la liste autorisée pour CORS, contactez le service clientèle de Workfront au 844-306-HELP(4357) ou en envoyant un ticket d’assistance en ligne.
 

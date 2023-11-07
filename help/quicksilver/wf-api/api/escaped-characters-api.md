@@ -5,8 +5,9 @@ title: Caractères échappés dans les réponses de l’API
 description: Caractères échappés dans les réponses de l’API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 8%

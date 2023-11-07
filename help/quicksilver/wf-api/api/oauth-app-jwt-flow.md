@@ -5,8 +5,9 @@ title: Utilisation du flux JWT pour les applications OAuth 2 personnalisées
 description: Utilisation du flux JWT pour les applications OAuth 2 personnalisées
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Pour intégrer Workfront et permettre à votre application cliente de communique
 
 ## Création d’une application OAuth2
 
-Pour plus d’informations sur la création de l’application OAuth2, voir [Création d’une application OAuth2 à l’aide de l’authentification du serveur (flux JWT)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Pour plus d’informations sur la création de l’application OAuth2, voir [Créer une application OAuth2 à l’aide de l’authentification du serveur (flux JWT)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 ## Création d’un certificat de clé publique
 
@@ -37,8 +38,8 @@ Pour générer la clé publique, procédez comme suit : **one** de ce qui suit.
 
 * Ouvrez votre terminal MacOS/Linux et exécutez la commande suivante, puis chargez `certificate_pub.crt` en utilisant la variable **Ajouter une clé publique** dans la configuration de l’application OAuth2 dans Workfront.
 
-   <!-- [Copy](javascript:void(0);) -->
-   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
+  <!-- [Copy](javascript:void(0);) -->
+  <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
 * Utilisez la variable **Génération d’une paire de clés publique/privée** dans la configuration de l’application OAuth2 dans Workfront pour générer la RSA.
 
@@ -54,7 +55,7 @@ Le tableau suivant contient des informations sur les champs qui peuvent être re
  <tbody> 
   <tr> 
    <td role="rowheader">exp</td> 
-   <td> <p>Requis. Le paramètre d’expiration est un paramètre obligatoire qui mesure le temps absolu depuis 01/01/1970 GMT. Vous devez vous assurer que l’heure d’expiration est postérieure à l’heure du problème. Après cette période, le JWT n’est plus valide. </p> <p>Remarque : Nous vous recommandons d’avoir un jeton de durée très courte (quelques minutes) afin qu’il expire peu après avoir été échangé contre un jeton d’accès. Chaque fois qu’un nouveau jeton d’accès est requis, un jeton JWT est signé et échangé. Il s’agit d’une approche plus sûre. Nous ne recommandons pas les jetons de longue durée qui sont réutilisés pour obtenir des jetons d’accès si nécessaire.</p> </td> 
+   <td> <p>Requis. Le paramètre d’expiration est un paramètre obligatoire qui mesure le temps absolu depuis 01/01/1970 GMT. Vous devez vous assurer que l’heure d’expiration est postérieure à l’heure du problème. Après cette période, le JWT n’est plus valide. </p> <p>Remarque : Nous vous recommandons d’avoir un jeton de durée de vie très courte (quelques minutes) afin qu’il expire peu après avoir été échangé contre un jeton d’accès. Chaque fois qu’un nouveau jeton d’accès est requis, un jeton JWT est signé et échangé. Il s’agit d’une approche plus sûre. Nous ne recommandons pas les jetons de longue durée qui sont réutilisés pour obtenir des jetons d’accès si nécessaire.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 

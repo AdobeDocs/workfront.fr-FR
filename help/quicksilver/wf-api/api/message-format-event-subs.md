@@ -5,8 +5,9 @@ title: Format du message sortant pour les abonnements aux événements
 description: Format du message sortant pour les abonnements aux événements
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -23,11 +24,11 @@ Les modifications suivantes seront apportées au format du message sortant :
 
 * Les messages sortants comprennent les éléments oldState et newState pour une ressource Workfront.
 
-   Ces valeurs affichent les modifications apportées à un objet suite à un événement dans Workfront.
+  Ces valeurs affichent les modifications apportées à un objet suite à un événement dans Workfront.
 
 * Le champ de métadonnées eventTime sera ajouté à tous les messages sortants.
 
-   Ce champ indique, en Nanoseconds et EpochSeconds, l’heure à laquelle un événement s’est produit. Utilisez eventTime lors de la commande d’événements traités par votre intégration.
+  Ce champ indique, en Nanoseconds et EpochSeconds, l’heure à laquelle un événement s’est produit. Utilisez eventTime lors de la commande d’événements traités par votre intégration.
 
 * Le champ propriétaire:companyID référencé sur la ressource REMARQUE sera supprimé.
 * L’objet référencé currentVersion de la ressource DOCU (document) est supprimé.

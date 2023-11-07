@@ -5,11 +5,12 @@ title: Nouveautés de l’API version 9
 description: Il s’agit d’une liste des ressources nouvelles de la version 9 de l’API. Pour obtenir la liste des mises à jour apportées aux ressources de la version 9, veuillez consulter Mises à jour de l’API version 9 .
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 25%
+source-wordcount: '168'
+ht-degree: 16%
 
 ---
 
@@ -40,7 +41,7 @@ Cette liste répertorie les ressources qui sont nouvelles de la version 9 de l�
 | `nameKey` |  |  |  |  |  |  |
 | `securityModelType` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessLevelPermissions
 
@@ -53,7 +54,7 @@ Cette liste répertorie les ressources qui sont nouvelles de la version 9 de l�
 | `objObjCode` |  |  |  |  |  |  |
 | `secondaryActions` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessRulePreference
 
@@ -61,7 +62,7 @@ Cette liste répertorie les ressources qui sont nouvelles de la version 9 de l�
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### BudgetedHour
 
@@ -75,7 +76,7 @@ Cette liste répertorie les ressources qui sont nouvelles de la version 9 de l�
 | `roleID`  |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarPortalSection
 
@@ -90,7 +91,7 @@ Cette liste répertorie les ressources qui sont nouvelles de la version 9 de l�
 | `objID`  |   |   |   |   |   |   |
 | `objObjCode`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Section du calendrier
 
@@ -107,7 +108,7 @@ Cette liste répertorie les ressources qui sont nouvelles de la version 9 de l�
 | `plannedDate` |   |   |   |   |   |   |
 | `startDate` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalSection
 
@@ -135,8 +136,8 @@ Cette liste répertorie les ressources qui sont nouvelles de la version 9 de l�
 | `url` |   |   |   |   |   |   |
 | `viewID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-Cette liste a été divisée en deux moitiés. Pour afficher la seconde moitié, reportez-vous à la section [Nouveautés de l’API version 9 (suite)](../../wf-api/api/new-api-version-9-continue.md). Pour consulter la liste des mises à jour de la version 9, rendez-vous sur la page [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md)
+Cette liste a été divisée en deux moitiés. Pour afficher la seconde moitié, voir [Nouveautés de l’API version 9 (suite)](../../wf-api/api/new-api-version-9-continue.md). Pour afficher la liste des mises à jour de la version 9, consultez la page [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md)

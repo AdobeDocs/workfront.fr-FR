@@ -1,12 +1,13 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Ajout d’options de vérification avancées à l’aide de l’API Adobe Workfront
-description: Ajout d’options de vérification avancées à l’aide de l’API Adobe Workfront
+title: Ajout d’options de vérification avancées avec l’API Adobe Workfront
+description: Ajout d’options de vérification avancées avec l’API Adobe Workfront
 author: Becky
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -38,12 +39,12 @@ Pour un aperçu de l’API ProofHQ, reportez-vous à la section [Présentation d
 >* Les bons à tirer créés dans l’API ProofHQ ne sont pas automatiquement liés à Workfront. Par conséquent, nous vous recommandons de créer des bons à tirer dans l’API Workfront avant de les mettre à jour avec l’API ProofHQ.
 >
 
-
 ### Créer un BAT avec des options de vérification avancées
 
 1. Créez un BAT à l’aide de la fonction `Document createProof` dans l’API Workfront.
 
    >[!NOTE]
+   >
    Lors de la création du BAT, définissez `{}` comme valeur de la variable `advancedProofingOptions` .
 
 1. Une fois le BAT créé, utilisez l’API ProofHQ pour ajouter toutes les options avancées.
@@ -56,11 +57,11 @@ Cette section présente des exemples de mises à jour que vous pouvez effectuer 
 
 * [Un Bon à tirer peut être téléchargé, comporte un message et est partagé publiquement.](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
 * [Mettre à jour une étape afin qu’elle ne soit pas privée, pas obligatoire et ne nécessite qu’une seule validation](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
-* [Ajouter deux destinataires à un BAT sans décideur Principal](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
+* [Ajouter deux destinataires à un BAT sans décideur principal](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
 **Un Bon à tirer peut être téléchargé, comporte un message et est partagé publiquement.**
 
-La documentation de ce point de terminaison se trouve sur la page [Mise à jour de l’API ProofHQProof](https://api.proofhq.com/home/proofs/updateproof.html) page.
+La documentation de ce point de terminaison se trouve sur la page [API updateProofHQ](https://api.proofhq.com/home/proofs/updateproof.html) page.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -107,7 +108,7 @@ La documentation de ce point de terminaison se trouve sur la page [API ProofHQ u
 </soapenv:Envelope>
 ```
 
-**Ajouter deux destinataires à un BAT sans décideur Principal**
+**Ajouter deux destinataires à un BAT sans décideur principal**
 
 La documentation de ce point de terminaison se trouve sur la page [API ProofHQ addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) page.
 
@@ -151,7 +152,9 @@ Cette section décrit comment créer un BAT avec des options de vérification av
 Vous pouvez créer des bons à tirer à l’aide de l’API Workfront à l’aide du `Document createProof` action. Cette action accepte la variable `advancedProofingOptions` qui possède le type de valeur `string`. Pour inclure des options de vérification avancées dans votre `createProof` , vous devez saisir les options dans la variable `advancedProofingOptions` au format JSON.
 
 >[!NOTE]
+>
 Il peut être difficile de prévoir les champs à inclure dans votre fichier JSON advancedProofingOptions. Vous pouvez examiner les données réseau de votre entreprise tout en utilisant la vérification avancée dans Workfront et baser votre code JSON sur les champs et les valeurs couramment utilisés par votre entreprise.
+>
 Comme ces champs peuvent être difficiles à prédire, nous vous recommandons de créer un BAT à l’aide de l’API Workfront, puis de le mettre à jour à l’aide de l’API ProofHQ. Pour plus d’informations, voir [Créer un BAT à l’aide des API Workfront et ProofHQ (recommandé)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) dans cet article
 
 ### Exemple

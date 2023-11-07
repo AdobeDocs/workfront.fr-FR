@@ -4,8 +4,9 @@ description: Vue d’ensemble
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 1%
@@ -40,7 +41,7 @@ Le fichier WSDL se trouve ici :
 >
 >**Ce fichier WSDL contient toutes les modifications jusqu’à la version 12.1, après laquelle nous avons introduit le contrôle de version des API. Pour plus d’informations sur les différentes versions WSDL et les modifications à venir, consultez la page Mises à jour de l’API .**
 
-Chaque requête API nécessite une clé de session. Cette clé de session identifie l’utilisateur du Bon à tirer Workfront effectuant la ou les actions. Elle est obtenue en appelant la méthode doLogin() et en transmettant l’adresse électronique et le mot de passe de l’utilisateur. La méthode doLogin() ne doit être appelée qu’une seule fois avant une séquence de requêtes API. La clé de session reste principale pendant une courte période et est renouvelée à chaque appel de méthode. *Nous ajouterons très bientôt la prise en charge de l’authentification basée sur les jetons.*
+Chaque requête d’API nécessite une clé de session. Cette clé de session identifie l’utilisateur du Bon à tirer Workfront effectuant la ou les actions. Elle est obtenue en appelant la méthode doLogin() et en transmettant l’adresse électronique et le mot de passe de l’utilisateur. La méthode doLogin() ne doit être appelée qu’une seule fois avant une séquence de requêtes API. La clé de session reste active pendant une courte période et est renouvelée à chaque appel de méthode. *Nous ajouterons très bientôt la prise en charge de l’authentification basée sur les jetons.*
 
 Toutes les requêtes utilisent le format d’enveloppe, d’en-tête et de corps suivant :
 
@@ -48,9 +49,9 @@ Toutes les requêtes utilisent le format d’enveloppe, d’en-tête et de corps
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:proofhqapi">`
    <soapenv:Header/>
    <soapenv:Body>
-	   ... API function and data inserted here ...
-	</soapenv:Body>
-	</soapenv:Envelope>
+       ... API function and data inserted here ...
+    </soapenv:Body>
+    </soapenv:Envelope>
 ```
 
 ## Questions fréquentes

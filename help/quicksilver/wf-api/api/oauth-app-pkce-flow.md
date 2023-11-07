@@ -5,8 +5,9 @@ title: Utilisation du flux PKCE pour les applications OAuth 2
 description: Utilisation du flux PKCE pour les applications OAuth 2
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -35,7 +36,7 @@ Un flux PKCE comprend les étapes suivantes. Les étapes de cette section sont p
 
 1. Le serveur d’autorisation OAuth2 transforme la variable `code_verifier` en utilisant la variable `code_challenge_method` à partir de la demande d’autorisation initiale et vérifie le résultat par rapport à la variable `code_challenge`. Si la valeur des deux chaînes correspond, le serveur a vérifié que les requêtes provenaient du même client et émet une `access token`.
 
-1. OAuth2 renvoie la variable `access token`et éventuellement une `refresh token`.
+1. OAuth2 renvoie la variable `access token`, et éventuellement une `refresh token`.
 
 1. Votre application peut désormais utiliser ces jetons pour appeler le serveur de ressources, tel qu’une API au nom de l’utilisateur.
 
@@ -46,12 +47,12 @@ Un flux PKCE comprend les étapes suivantes. Les étapes de cette section sont p
 
 Avant de pouvoir implémenter l’autorisation, vous devez enregistrer votre application dans OAuth2 en créant une intégration d’application à partir de Workfront.
 
-Pour plus d’informations sur la création de l’application OAuth2, voir [Création d’une application web OAuth2 mono-page à l’aide de PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Pour plus d’informations sur la création de l’application OAuth2, voir [Créer une application web OAuth2 mono-page à l’aide de PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 
 ## Création de la clé de bon à tirer pour l’échange de code
 
-Tout comme le flux de code d’autorisation standard, votre application commence par rediriger le navigateur de l’utilisateur vers votre serveur d’autorisation. `/authorize` point de terminaison . Cependant, dans ce cas, vous devez également relever un défi de code.
+Tout comme le flux de code d’autorisation standard, votre application commence par rediriger le navigateur de l’utilisateur vers votre serveur d’autorisation. `/authorize` point de terminaison . Cependant, dans ce cas, vous devez également relever un défi en matière de code.
 
 Votre première étape consiste à générer un vérificateur de code et un défi à relever.
 
@@ -90,7 +91,7 @@ Le code de générateur PKCE crée une sortie similaire à ce qui suit :
 >}
 >```
 
-Votre application enregistre la variable `code_verifier` pour plus tard, et envoie la variable `code_challenge` ainsi que la demande d’autorisation auprès de votre serveur d’autorisation. `/authorize` URL.
+Votre application enregistre la variable `code_verifier` pour plus tard, et envoie la variable `code_challenge` ainsi que la demande d’autorisation auprès de votre serveur d’autorisation `/authorize` URL.
 
 ## Demande de code d’autorisation
 
@@ -123,7 +124,7 @@ Notez les paramètres transmis :
 
 ## Échange du code des jetons
 
-Pour échanger le code d’autorisation contre un jeton d’accès, transmettez-le à votre serveur d’autorisation. `/token` le point de terminaison , ainsi que la variable `code_verifier`.
+Pour échanger le code d’autorisation contre un jeton d’accès, transmettez-le à votre serveur d’autorisation. `/token` le point de terminaison avec la variable `code_verifier`.
 
 >[!INFO]
 >
