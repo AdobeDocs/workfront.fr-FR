@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2123'
 ht-degree: 3%
 
 ---
@@ -56,12 +56,15 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * Tableau de bord
 * Document
 * Frais
+* Champ
 * Heure
 * Problème
 * Note
 * Portfolio
 * Programme
 * Projet
+* Enregistrement
+* Type d’enregistrement
 * Rapport
 * Tâche
 * Modèle
@@ -122,6 +125,10 @@ La ressource d&#39;abonnement contient les champs suivants.
         <td scope="col">EXPNS</td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Champ</p></td> 
+        <td scope="col"><p>CHAMP</p></td> 
+       </tr> 
+      <tr> 
         <td scope="col"><p>Heure</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
@@ -144,6 +151,14 @@ La ressource d&#39;abonnement contient les champs suivants.
        <tr> 
         <td scope="col"><p>Projet</p></td> 
         <td scope="col"><p>PROJ</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Enregistrement</p></td> 
+        <td scope="col"><p>ENREGISTRER</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Type d’enregistrement</p></td> 
+        <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Rapport</p></td> 
