@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 85cab7836aaf4bd6907ed2909de34b4c95655852
+source-git-commit: d666b54f3bb13f2ad923b819774ac4f849db75e8
 workflow-type: tm+mt
-source-wordcount: '13373'
+source-wordcount: '13384'
 ht-degree: 1%
 
 ---
@@ -767,6 +767,7 @@ ht-degree: 1%
    * Administration dans Adobe Admin Console {#admin-in-admin-console}
       * [Administration de Workfront dans Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Préparation de Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [Présentation de la migration des utilisateurs et des produits Workfront vers Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Conseils, astuces et dépannage pour l’administration et la configuration {#admin-setup-tips}
       * [Conseils, astuces et dépannage](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Les administrateurs de groupe doivent avoir un accès plus élevé que ceux qu’ils gèrent](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1468,7 +1469,7 @@ ht-degree: 1%
    * [Rapports](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Canevas de création de rapports {#reporting-canvas}
       * [Canevas de création de rapports](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Gestion des rapports {#manage-reports}
+      * Gérer les rapports {#manage-reports}
          * [Présentation de la gestion des rapports](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
          * [Création d’un rapport dans le canevas de création de rapports](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
          * [Exportation d’un rapport dans le canevas de création de rapports](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
