@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '2069'
 ht-degree: 4%
 
 ---
@@ -319,45 +319,55 @@ Pour ajouter un filtre à une vue de tableau :
 
 1. (Facultatif) Cliquez sur **Filtres**, puis cliquez sur le bouton **x** pour supprimer un filtre. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
+### Ajouter des groupements {#add-groupings}
 
-### Add groupings {#add-groupings}
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+Vous pouvez regrouper des enregistrements selon des informations similaires lors de l’application d’un groupement à une vue.
 
-You can group records by similar information when applying  a grouping to a view.
+L’ajout de regroupements dans la vue de tableau est similaire à l’ajout de regroupements à la vue de chronologie.
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+Tenez compte des points suivants :
 
-Consider the following:
+* Vous pouvez appliquer des regroupements dans les vues de tableau et de chronologie. Les regroupements de la vue de tableau sont indépendants de ceux de la vue de chronologie du même type d’enregistrement.
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue Maestro. Les enregistrements sont regroupés dans l&#39;ordre des groupements que vous sélectionnez.
+&lt;!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —vérification de celle-ci pour l&#39;instant—>
+* Les regroupements sont propres à la vue sélectionnée. Deux affichages de tableau d’un même type d’enregistrement peuvent avoir des regroupements différents. Deux utilisateurs qui consultent le même tableau voient le même groupe appliqué actuellement.
+* Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
+* Le fait de supprimer des regroupements les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
+* Vous pouvez éditer les enregistrements répertoriés sous un groupement.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+Pour ajouter un groupement :
 
-To add a grouping:
+1. Créez une vue de chronologie pour un type d’enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](../views/manage-record-views.md).
+1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+   ![](assets/grouping-ui-table-view.png)
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+   >[!TIP]
+   >
+   >Vous ne pouvez pas sélectionner de champs liés.
 
--->
+   Le groupement est appliqué automatiquement à la table et les enregistrements s&#39;affichent sous la ligne de séparation du groupement.
+
+1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
+
+   Le nombre de champs sélectionnés pour le groupement s&#39;affiche en regard de l&#39;icône Groupement .
+
+   ![](assets/grouping-applied-in-table-view.png)
+
+1. (Facultatif) Dans le **Regrouper les enregistrements par** , cliquez sur le bouton **x** icône à droite d&#39;un champ sélectionné pour le groupement afin de supprimer le groupement
+
+   Ou
+
+   Cliquez sur **Effacer tout** pour supprimer tous les champs.
+
+1. Cliquez en dehors du **Regrouper les enregistrements par** pour le fermer.
+1. (Facultatif) Cliquez sur **+ Nouveau &lt; Nom du type d’enregistrement >** à la fin d’un groupement pour ajouter de nouveaux enregistrements, actualisez votre page afin d’ajouter le nouvel enregistrement au groupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Ajouter un tri {#sort-information}
 

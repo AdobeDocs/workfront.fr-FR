@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Affichage : calculer les différences d’heure et de date'
-description: 'Vous pouvez calculer la différence entre ce qui suit : EDITEZ-MOI.'
+title: '''Afficher : calculer les différences d''heure et de date'''
+description: Créez une vue qui affiche la différence entre deux champs de date sur un objet ou entre un champ de date sur un objet et un autre champ de date sur l’objet parent.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
 
-# Afficher : calculer les différences d’heure et de date ;
+# Afficher : calculer les différences d’heure et de date
 
 >[!IMPORTANT]
 >
@@ -106,14 +106,14 @@ Vous pouvez, par exemple, calculer la différence entre la date d’achèvement 
 
    * Pour afficher la différence entre la date d’achèvement planifiée du projet et celle de la tâche :
 
-      ```
-      displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
-      ```
+     ```
+     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+     ```
 
    * Pour afficher la différence entre la date d’achèvement planifiée de la tâche parente et celle de la tâche :
 
-      ```
-      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
-      ```
+     ```
+     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+     ```
 
 1. Cliquez sur **Enregistrer**, puis **Enregistrer la vue**.

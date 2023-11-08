@@ -1,13 +1,13 @@
 ---
 title: Activité de mise à jour Adobe Maestro
-description: Utilisez Maestro pour créer des objets, champs et espaces de travail personnalisés.
+description: Adobe Manager est actuellement disponible pour sélectionner des clients Workfront. Consultez souvent cet article pour en savoir plus sur les fonctionnalités récemment publiées pour Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel el
 Cette section répertorie les fonctionnalités et les correctifs qui ont été publiés après le lancement du programme bêta fermé de Maestro, le 22 mai 2023.
 
 Les fonctionnalités sont publiées toutes les semaines et sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé Maestro peuvent accéder à toutes les fonctionnalités de leurs environnements Aperçu et Production.
+
+## Semaine du 6 novembre 2023
+
+### Regroupement pour la vue de tableau
+
+Aperçu et production : 7 novembre 2023
+
+Vous pouvez désormais regrouper des enregistrements dans la vue de table d’une page de type enregistrement. Vous pouvez regrouper trois champs uniques dans l’interface Maestro <!--checking into this for now: and by four fields when using the API-->.
+
+Pour plus d’informations, voir [Gestion de la vue de tableau](../maestro/views/manage-the-table-view.md).
 
 ## Semaine du 30 octobre 2023
 

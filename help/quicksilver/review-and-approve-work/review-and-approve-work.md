@@ -3,21 +3,21 @@ content-type: reference
 product-area: projects
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Réviser et approuver le travail
-description: 'Cette section contient les sous-sections suivantes : MODIFIEZ-MOI.'
-author: Courtney
+description: Vous pouvez associer les validations aux travaux ou aux documents dans Adobe Workfront.
+author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 33%
+source-wordcount: '38'
+ht-degree: 2%
 
 ---
 
 # Réviser et approuver le travail
 
-Cette section contient les sous-sections suivantes :
+Les articles suivants contiennent des informations sur l’association des validations à des travaux, documents ou BAT.
 
 <!-- * [Limited document and proof decision for non-paid users overview](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md) -->
 * [Approbations de travail](../review-and-approve-work/manage-approvals/manage-approvals.md)

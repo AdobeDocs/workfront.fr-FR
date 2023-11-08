@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 1%
@@ -358,7 +358,7 @@ Le tableau suivant illustre les principales fonctionnalités qui seront disponib
 | Affichage des enregistrements dans une chronologie | ✓ |                                  |                  |
 | Filtrage des enregistrements | ✓ |                                  |                  |
 | Regroupement des enregistrements dans la vue de chronologie | ✓ |                                  |                  |
-| Regroupement des enregistrements dans la vue de tableau |                               | ✓ |                  |
+| Regroupement des enregistrements dans la vue de tableau | ✓ |                                 |                  |
 | Tri des enregistrements dans la vue de tableau | ✓ |                                 |                  |
 | Tri des enregistrements en mode Chronologie |                               | ✓ |                  |
 | Trier les groupements dans la vue Tableau |                               | ✓ |                  |

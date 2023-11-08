@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1474'
 ht-degree: 1%
 
 ---
@@ -120,8 +120,6 @@ Tenez compte des points suivants :
      * Edit record information
 -->
 
-Lors de la création d’une vue de chronologie, tous les enregistrements du type d’enregistrement sélectionné s’affichent par défaut dans une chronologie sous forme de barres.
-
 Pour gérer une vue de chronologie :
 
 1. Accédez à la page de type enregistrement pour laquelle vous souhaitez afficher la chronologie.
@@ -129,7 +127,7 @@ Pour gérer une vue de chronologie :
 
    ![](assets/timeline-view-example.png)
 
-   Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent dans une chronologie chronologique sous la forme de barres.
+   Par défaut, les enregistrements associés au type d’enregistrement sélectionné s’affichent sous forme de barres dans une chronologie et sont triés par ordre chronologique.
 
 1. Pour parcourir la chronologie, effectuez l’une des opérations suivantes :
 
@@ -176,26 +174,22 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue d
 
 ### Ajouter un regroupement
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Vous pouvez regrouper des enregistrements selon des informations similaires lors de l’application d’un groupement à une vue.
 
+L’ajout de regroupements dans la vue de chronologie est similaire à l’ajout de regroupements dans la vue de tableau.
+
 Tenez compte des points suivants lorsque vous utilisez des regroupements dans la vue de chronologie :
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* Vous pouvez appliquer des regroupements dans les vues de tableau et de chronologie. Les regroupements de la vue de tableau sont indépendants de ceux de la vue de chronologie du même type d’enregistrement.
 * Vous pouvez appliquer 3 niveaux de regroupement dans une vue Maestro. Les enregistrements sont regroupés dans l&#39;ordre des groupements que vous sélectionnez.
 * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API.
 * Les regroupements sont propres à la vue sélectionnée. Deux vues de chronologie d’un même type d’enregistrement peuvent être associées à des regroupements différents. Deux utilisateurs qui visualisent la même vue de chronologie voient le même regroupement actuellement appliqué.
-
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue chronologique.
-
 * Le fait de supprimer des regroupements les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 
-Pour ajouter un groupement :
+Pour ajouter un groupement dans la vue de frise chronologique :
 
 1. Créez une vue de chronologie pour un type d’enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
@@ -218,7 +212,7 @@ Pour ajouter un groupement :
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Facultatif) Cliquez sur le **x** icône à droite d&#39;un champ sélectionné pour le groupement afin de supprimer le groupement
+1. (Facultatif) Dans le **Regrouper les enregistrements par** , cliquez sur le bouton **x** icône à droite d&#39;un champ sélectionné pour le groupement afin de supprimer le groupement
 
    Ou
 

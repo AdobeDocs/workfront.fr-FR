@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1380'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 1%
 
 Comme [!DNL Adobe Workfront] administrateur, vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans [!DNL Workfront] afin de définir les éléments que les feuilles de temps peuvent préremplir et les éléments auxquels les utilisateurs peuvent se connecter.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Les éléments pour lesquels vous avez consigné l’heure pendant la période de la feuille de temps s’affichent par défaut dans la feuille de temps, bien qu’ils puissent ne pas respecter les conditions décrites dans cet article pour préremplir la feuille de temps.
+>Outre les éléments qui préremplissent une feuille de temps selon les conditions décrites dans cet article, les éléments suivants s’affichent également par défaut sur les feuilles de temps :
+>* Éléments pour lesquels vous avez consigné l’heure pendant la période de la feuille de temps
+>* Éléments épinglés dans la feuille de temps
+>* Éléments que vous recherchez et ajoutez manuellement à la feuille de temps. Les éléments ajoutés manuellement sont épinglés par défaut.
 >
->Pour plus d’informations sur la durée de journalisation, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 Toutes les modifications que vous apportez aux feuilles de temps ont un impact sur toutes les feuilles de temps créées ultérieurement.
