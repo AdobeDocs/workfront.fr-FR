@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Personnalisation de l’email de rappel
 
-Vous pouvez personnaliser la notification de rappel à l’aide d’un email personnalisé qui comprend un objet et un corps de courrier électronique personnalisés. Le corps du courrier électronique peut contenir un HTML personnalisé.
+Vous pouvez personnaliser la notification de rappel à l’aide d’un courrier électronique personnalisé qui comprend un objet et un corps de courrier électronique personnalisés. Le corps du courrier électronique peut contenir un HTML personnalisé.
 
 Vous pouvez également utiliser l&#39;email par défaut inclus dans la notification de rappel. L’e-mail par défaut utilise le nom de la notification de rappel comme objet de l’e-mail et le nom de l’objet dans le corps de l’e-mail, y compris l’événement qui a déclenché la notification.
 
@@ -109,13 +109,13 @@ Pour plus d’informations sur la création d’un modèle de courrier électron
       <td role="rowheader">Critères</td> 
       <td> <p>Sélectionnez les critères pour qualifier la notification de rappel à programmer. Les notifications de rappel ne sont pas planifiées, sauf si la sélection de critères est respectée.</p> <p>Les options de critères suivantes sont disponibles, selon le type d’objet sélectionné à l’étape 4 :</p> 
        <ul> 
-        <li><strong>Incomplète dans les projets en cours :</strong> (Disponible pour les rappels de tâche et de problème) L’envoi de la notification de rappel est programmé uniquement lorsque l’état de l’objet auquel la notification de rappel est associée n’est pas Terminé et que l’état du projet est Actuel.</li> 
-        <li><strong>Tous dans les projets en cours :</strong>(Disponible pour les rappels de tâche et de problème) L’envoi de la notification de rappel est programmé quel que soit l’état de l’objet et uniquement lorsque l’état du projet auquel la notification de rappel est associée est Actuel.</li> 
-        <li><strong>Projets incomplets :</strong> (Disponible pour les rappels de projet) L’envoi de la notification de rappel est programmé lorsque le statut du projet est autre que Terminé.</li> 
-        <li><strong>Projets complets :</strong> (Disponible pour les rappels de projet) L’envoi de la notification de rappel est programmé lorsque l’état du projet est Terminé.</li> 
-        <li><strong>Ouvrir les feuilles de temps :</strong> (Disponible pour les rappels de feuille de temps) L’envoi de la notification de rappel est programmé lorsque l’état de la feuille de temps est Ouverture.</li> 
-        <li><strong>Feuilles de temps envoyées :</strong> (Disponible pour les rappels de feuille de temps) L’envoi de la notification de rappel est programmé lorsque l’état de la feuille de temps est Envoyé.</li> 
-        <li><strong>Ouvrez la feuille de temps ou moins de 40 heures par semaine :</strong> (Disponible pour les rappels de feuille de temps) L’envoi de la notification de rappel est programmé lorsque l’état de la feuille de temps est Ouverture ou lorsque la feuille de temps est enregistrée depuis moins de 40 heures.</li> 
+        <li><strong>Incomplète dans les projets en cours :</strong> <i>(Disponible pour les rappels de tâche et de problème)</i> L’envoi de la notification de rappel est programmé uniquement lorsque l’état de l’objet auquel la notification de rappel est associée n’est pas Terminé et que l’état du projet est Actuel.</li> 
+        <li><strong>Tous dans les projets en cours :</strong> <i>(Disponible pour les rappels de tâche et de problème)</i> L’envoi de la notification de rappel est planifié quel que soit l’état de l’objet. Cette notification doit être envoyée uniquement lorsque l’état du projet auquel la notification de rappel est associée est Actuel.</li> 
+        <li><strong>Projets incomplets :</strong> <i>(Disponible pour les rappels de projet)</i> L’envoi de la notification de rappel est programmé lorsque l’état du projet est autre que Terminé.</li> 
+        <li><strong>Tous les projets :</strong> <i>(Disponible pour les rappels de projet)</i> L’envoi de la notification de rappel est programmé quel que soit l’état du projet.</li> 
+        <li><strong>Ouvrir les feuilles de temps :</strong> <i>(Disponible pour les rappels de feuille de temps)</i> L'envoi de la notification de rappel est programmé lorsque l'état de la feuille de temps est Ouverture.</li> 
+        <li><strong>Feuilles de temps envoyées :</strong> <i>(Disponible pour les rappels de feuille de temps)</i> L'envoi de la notification de rappel est programmé lorsque l'état de la feuille de temps est Envoyé.</li> 
+        <li><strong>Ouvrez la feuille de temps ou moins de 40 heures par semaine :</strong> <i>(Disponible pour les rappels de feuille de temps)</i> L'envoi de la notification de rappel est programmé lorsque l'état de la feuille de temps est Ouverture ou lorsque la feuille de temps est enregistrée depuis moins de 40 heures.</li> 
         <li><strong>Modèle de courrier électronique :</strong> Dans la liste déroulante, sélectionnez un modèle d'email à joindre à votre rappel.<br>Pour plus d’informations sur la création d’un modèle d’email, reportez-vous à la section <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurer des modèles de courrier électronique</a>.</li> 
        </ul> </td> 
      </tr> 
