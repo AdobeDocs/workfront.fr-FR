@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -152,7 +152,7 @@ Le tableau suivant montre les similitudes et les différences entre les vues du 
 
 ## Créer ou modifier des vues {#create-or-edit-views}
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** icon ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture-and-fields/create-workspaces.md).
 1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](../architecture-and-fields/create-record-types.md).
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Vous pouvez créer des enregistrements dans la vue table d’une page de type enregistrement.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** icon ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture-and-fields/create-workspaces.md).
 1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](../architecture-and-fields/create-record-types.md).
 

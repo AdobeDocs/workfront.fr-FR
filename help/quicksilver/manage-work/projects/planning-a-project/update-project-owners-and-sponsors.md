@@ -6,9 +6,9 @@ description: Lorsque vous créez un projet dans Adobe Workfront, vous êtes auto
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,11 @@ Pour plus d’informations sur les propriétaires et les sponsors de projets, vo
 
 >[!TIP]
 >
->Vous pouvez identifier un propriétaire et un sponsor pour un modèle. Lorsque vous créez un projet à partir de ce modèle, le propriétaire du modèle devient le propriétaire du projet et le parrain du modèle devient le parrain du projet. Pour plus d’informations sur la modification de modèles, voir [Modifier des modèles de projet](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Vous pouvez identifier un propriétaire et un sponsor pour un modèle. Lorsque vous créez un projet à partir de ce modèle, le propriétaire du modèle devient le propriétaire du projet et le parrain du modèle devient le parrain du projet.
+>
+>Si le modèle ne comporte pas de propriétaire, l’utilisateur qui crée le projet à partir du modèle devient le propriétaire du projet.
+>
+>Pour plus d’informations sur la modification de modèles, voir [Modifier des modèles de projet](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Exigences d’accès
 
@@ -33,7 +37,7 @@ Pour plus d’informations sur les propriétaires et les sponsors de projets, vo
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> <p>&nbsp;</p> </td> 
+   <td> <p>Any</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -64,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> <p> </p> </td> 
+   <td> <p>Tous</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -91,13 +95,13 @@ Lorsque vous ajoutez un utilisateur en tant que propriétaire de projet, Workfro
 
 1. Accédez au projet que vous souhaitez mettre à jour.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur le bouton **Modifier** icon ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Présentation**.
+1. Cliquez sur le bouton **Modifier** icon ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur  **Présentation**.
 
 1. Indiquez le nom d’un utilisateur pour la variable **Propriétaire du projet** champ .
 
-   Seuls les utilisateurs principaux peuvent être spécifiés en tant que propriétaires de projet.
+   Seuls les utilisateurs actifs peuvent être spécifiés en tant que propriétaires de projet.
 
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquez sur  **Enregistrer les modifications**.
 
    Le propriétaire du projet se met à jour dans l’en-tête du projet et dans la zone Détails du projet.
 
@@ -109,17 +113,17 @@ Lorsque vous ajoutez un utilisateur en tant que responsable de projet d’un pro
 
 >[!TIP]
 >
->Si l’utilisateur que vous ajoutez en tant que responsable de projet est administrateur système, il n’est pas ajouté à la liste de partage du projet.
+>Si l’utilisateur que vous ajoutez en tant que responsable de projet est un administrateur système, il n’est pas ajouté à la liste de partage du projet.
 
 1. Accédez au projet que vous souhaitez mettre à jour.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur le bouton **Modifier** icon ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Présentation**.
+1. Cliquez sur le bouton **Modifier** icon ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur  **Présentation**.
 
 1. Indiquez le nom d’un utilisateur pour la variable **Sponsor de projet** champ .
 
-   Seuls les utilisateurs principaux peuvent être spécifiés en tant que parrains de projet.
+   Seuls les utilisateurs actifs peuvent être spécifiés en tant que parrains de projet.
 
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquez sur  **Enregistrer les modifications**.
 
    Le parrain du projet est mis à jour dans la zone Détails du projet.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 1%
 
 ---
@@ -219,6 +219,7 @@ Pour ajouter un groupement dans la vue de frise chronologique :
    Cliquez sur **Effacer tout** pour supprimer tous les champs.
 
 1. Cliquez en dehors du **Regrouper les enregistrements par** pour le fermer.
+1. (Facultatif) Cliquez sur **Paramètres**, puis **Couleur** aux regroupements de code-couleur. Pour plus d’informations, voir [Modification des paramètres de vue de la chronologie](#edit-the-timeline-view-settings) dans cet article.
 
 <!-- 
 

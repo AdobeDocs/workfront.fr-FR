@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1170'
 ht-degree: 4%
 
 ---
@@ -172,8 +172,11 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
    <td>Équipe</td> 
   </tr> 
   <tr> 
-   <td>Feuille de temps*</td> 
-   <td>Utilisateur, Équipe</td> 
+   <td>Feuille de temps</td> 
+   <td><p>Utilisateur, Équipe</p>
+   <p><b>NOTE</b></p>
+   <p>Les commentaires de la feuille de temps s’affichent dans la section Mises à jour de l’utilisateur qui a rédigé le commentaire, ainsi que dans la section Mises à jour de son équipe d’accueil.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>Tâche de modèle</td> 
@@ -184,7 +187,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
    <td>Itération, Équipe</td> 
   </tr> 
   <tr> 
-   <td>Itération*</td> 
+   <td>Itération</td> 
    <td>Équipe</td> 
   </tr>
 
@@ -198,7 +201,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
   </tr> 
  </tbody> 
 </table>
-* Ils ne sont pas disponibles pour la nouvelle expérience de commentaire.
+
 
 <br>
 

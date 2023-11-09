@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront, <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
    Cela ouvre le dernier espace de travail accessible dans Maestro.
 1. Cliquez sur la carte d’un type d’enregistrement dont vous souhaitez supprimer les champs.

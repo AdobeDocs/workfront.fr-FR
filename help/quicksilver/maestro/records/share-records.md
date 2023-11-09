@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Partage de liens d’enregistrement à partir de la vue de table de type enregistrement
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> puis cliquez sur **Maestro**.
+1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro**.
 
    L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 1. Cliquez sur une carte de type enregistrement.
@@ -110,7 +110,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Ou
 
-   Passez la souris sur le nom d’un enregistrement, puis cliquez sur le menu Plus ![](assets/more-menu.png), puis cliquez sur **Copier le lien**.
+   Passez la souris sur le nom d’un enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Copier le lien**.
 
    ![](assets/contextual-menu-for-record-row.png)
 
