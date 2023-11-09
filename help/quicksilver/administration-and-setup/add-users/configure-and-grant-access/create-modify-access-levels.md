@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Création et modification de niveaux d’accès personnalisés
 
-<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
+<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
 En tant qu’administrateur Adobe Workfront, vous pouvez créer des niveaux d’accès personnalisés et les appliquer aux utilisateurs. Lorsque vous utilisez des niveaux d’accès, il est important de comprendre comment ils fonctionnent ensemble avec les autorisations d’objet que les utilisateurs accordent lorsqu’ils partagent des objets les uns avec les autres. Pour plus d’informations sur les niveaux d’accès, voir
 
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Formule actuelle : Standard
    <p>ou</p>
-   <p>Plan hérité : Plan</p></td> 
+   <p>Formule héritée : Planifier</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 {{step-1-to-setup}}
 
 1. Cliquez sur **Niveaux d’accès** dans le panneau de gauche.
-1. Sélectionnez le niveau d’accès que vous souhaitez copier et personnaliser, puis cliquez sur **Copier**.
+1. Sélectionnez le niveau d’accès à copier et personnaliser, puis cliquez sur **Copier**.
 
    Ou
 
@@ -72,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>Saisissez le nom de votre niveau d’accès. </p> <p>Si vous venez de copier un niveau d’accès pour en créer un nouveau, le nom par défaut est Nom du niveau d’accès (copie), où Nom du niveau d’accès est le niveau d’accès que vous avez copié.</p> <p><strong>Conseil</strong>: Nous vous recommandons d’inclure le nom d’origine du niveau d’accès dans le nom de la copie. Par exemple, dans la société ACME, une copie du niveau d’accès standard peut être nommée ACME Standard.</p> </td> 
+      <td> <p>Saisissez le nom de votre niveau d’accès. </p> <p>Si vous venez de copier un niveau d’accès pour en créer un nouveau, le nom par défaut est Nom du niveau d’accès (copie), où Nom du niveau d’accès est le niveau d’accès que vous avez copié.</p> <p><strong>Conseil</strong>: nous vous recommandons d’inclure le nom d’origine du niveau d’accès dans le nom de la copie. Par exemple, dans la société ACME, une copie du niveau d’accès standard peut être nommée ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description </td> 
@@ -85,7 +85,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </tbody> 
    </table>
 
-1. (Conditionnel) Si **Standard** ou **Plan** est sélectionné dans la variable **Type de licence** , faites défiler l’écran jusqu’à la section **Autoriser l’accès administratif pour** et sélectionnez les autorisations d’accès administrateur pour ceux qui auront ce niveau d’accès.
+1. (Conditionnel) Si **Standard** ou **Planifier** est sélectionné dans la variable **Type de licence** , faites défiler jusqu’à la section **Autoriser l’accès administratif pour** et sélectionnez les autorisations d’accès administrateur pour ceux qui auront ce niveau d’accès.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,7 +114,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
         <li>Dépenses sur les projets, tâches ou problèmes qu'ils gèrent</li>
         <li>Leurs propres dépenses</li>
         <li>Les dépenses de leurs subordonnés</li>
-       </ul><p><b>REMARQUE</b>: Cela ne permet pas à l’utilisateur de créer de nouveaux types de dépenses.</p></td> 
+       </ul><p><b>REMARQUE</b>: cela ne permet pas à l’utilisateur de créer de nouveaux types de dépenses.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fonctions</td> 
@@ -168,11 +168,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les mises à jour dans lesquelles ils ont été inclus dans la conversation</td> 
-      <td> <p>Permet aux utilisateurs de n’afficher que les commentaires pour lesquels leur nom ou le nom de leur équipe a été inclus.</p> <p> <p><b>REMARQUE</b>: Cela empêche les utilisateurs de s’abonner aux éléments dans Workfront. Pour plus d’informations sur l’abonnement aux éléments, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Ajout d’utilisateurs</a>.</p> </p> </td> 
+      <td> <p>Permet aux utilisateurs de n’afficher que les commentaires pour lesquels leur nom ou le nom de leur équipe a été inclus.</p> <p> <p><b>REMARQUE</b>: cela empêche les utilisateurs de s’abonner aux éléments dans Workfront. Pour plus d’informations sur l’abonnement aux éléments, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Ajout d’utilisateurs</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser les utilisateurs à supprimer les commentaires </td> 
-      <td> <p>Empêche les utilisateurs de supprimer les commentaires qu’ils font sur les éléments. </p> <p><b>REMARQUE</b>: Personne ne peut supprimer les commentaires des autres utilisateurs.</p> </td> 
+      <td> <p>Empêche les utilisateurs de supprimer les commentaires qu’ils font sur les éléments. </p> <p><b>REMARQUE</b>: personne ne peut supprimer les commentaires des autres utilisateurs.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les entreprises, les groupes et les équipes auxquels ils appartiennent</td> 
@@ -191,11 +191,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Conditionnel et facultatif) Si votre système Workfront est configuré pour les utilisateurs appartenant à plusieurs entreprises, limitez la visibilité aux autres utilisateurs en fonction de la société à laquelle ils appartiennent dans la section . **Les personnes d’autres entreprises ne doivent afficher que les utilisateurs issus de**.
 
-   Vous pouvez empêcher les utilisateurs d’afficher uniquement les utilisateurs de leur propre société ou de la société que vous avez désignée comme Principale société. Pour plus d’informations sur la Principale société, voir [Création et modification d’entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Vous pouvez empêcher les utilisateurs d’afficher uniquement les utilisateurs de leur propre société ou de la société que vous avez désignée comme principale société. Pour plus d’informations sur la société principale, voir [Création et modification d’entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
-   >Si deux utilisateurs appartiennent à deux sociétés différentes, mais qu’ils peuvent tous deux voir les utilisateurs de la Principale société, ils peuvent voir la zone Mises à jour associée à la Principale société.
+   >Si deux utilisateurs appartiennent à deux sociétés différentes, mais qu’ils peuvent tous deux voir les utilisateurs de la société principale, ils peuvent voir la zone Mises à jour associée à la société principale.
 
 1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et zones du niveau d’accès sur lequel vous travaillez, continuez avec l’un des articles répertoriés dans la section [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), par exemple [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l&#39;accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Cliquer sur **Enregistrer**.
