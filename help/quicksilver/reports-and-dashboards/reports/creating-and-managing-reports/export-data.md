@@ -310,14 +310,14 @@ Les liens peuvent pointer vers n’importe quel objet de Workfront prenant en ch
 
 >[!TIP]
 >
-Si la ligne `valueformat=HTML` apparaît en mode texte pour une colonne de champ personnalisée et les valeurs de lien ne s’affichent pas dans un fichier .pdf exporté. vous devez saisir des lignes de code supplémentaires dans votre colonne en mode texte.
+>Si la ligne `valueformat=HTML` apparaît en mode texte pour une colonne de champ personnalisée et les valeurs de lien ne s’affichent pas dans un fichier .pdf exporté. vous devez saisir des lignes de code supplémentaires dans votre colonne en mode texte.
 >
-Par exemple, si vous disposez d’un champ personnalisé appelé Open Q1 Projects qui contient des liens, vous devez ajouter le code suivant :
+>Par exemple, si vous disposez d’un champ personnalisé appelé Open Q1 Projects qui contient des liens, vous devez ajouter le code suivant :
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 Lorsque vous effectuez une exportation vers un format Excel, seuls les liens vers des objets de Workfront sont inclus dans le fichier exporté et ils ne sont pris en charge que dans les emplacements où vous pouvez sélectionner des liens dans les documents Excel exportés, tels que les diffusions de rapports.
 
