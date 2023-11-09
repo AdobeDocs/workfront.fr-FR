@@ -5,14 +5,17 @@ title: Utilisation des workflows dans l’intégration de Experience Manager Ass
 description: Utilisation des workflows dans l’intégration de Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Utilisation des workflows dans l’intégration Experience Manager Assets
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. Un administrateur Workfront peut configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
 
@@ -41,7 +44,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td><strong>Produit</strong>
    </td>
-   <td><p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et vous devez être ajouté au produit en tant qu’utilisateur dans le Admin Console.</p><p>Pour créer des dossiers liés, vous devez disposer d’un accès en écriture au référentiel dans Adobe Experience Manager.</p>&gt;
+   <td><p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et vous devez être ajouté au produit en tant qu’utilisateur dans le Admin Console.</p><p>Vous devez disposer d’un accès en écriture au référentiel dans Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
@@ -66,13 +69,13 @@ Pour plus d’informations sur la demande d’accès supplémentaire, voir <stro
 
 Avant de commencer,
 
-* Votre administrateur Workfront doit configurer les workflows dans une intégration Adobe Experience Manager. Pour plus d’informations, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* Votre administrateur Workfront doit configurer des workflows dans une intégration Adobe Experience Manager. Pour plus d’informations, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
 ## Ajouter un workflow à un modèle
 
 Vous pouvez ajouter un workflow à un modèle de projet. Le workflow sera appliqué à tous les projets créés à partir du modèle.
 
-1. <!-- main menu snippet??--> Ouvrez un modèle en cliquant sur **Modèles** dans le menu principal, puis en sélectionnant le modèle dans la liste.
+1. Ouvrez un modèle en cliquant sur **Modèles** dans le menu principal, puis sélectionnez le modèle dans la liste.
 1. Cliquez sur **Experience Manager Assets** dans le panneau de navigation de gauche.
 
    >[!NOTE]
@@ -82,7 +85,7 @@ Vous pouvez ajouter un workflow à un modèle de projet. Le workflow sera appliq
 1. Dans le **Sélection d’une intégration pour un champ de workflows automatisés**, sélectionnez l&#39;intégration aux workflows que vous souhaitez utiliser pour les projets créés à partir de ce modèle.
 1. (Facultatif) Modifiez les valeurs de workflow que vous souhaitez appliquer aux projets créés à partir de ce modèle.
 
-   Par exemple, pour créer un dossier lié à un emplacement autre que la valeur par défaut, saisissez l’emplacement du dossier lié.
+   Pour obtenir des instructions sur des workflows spécifiques, voir [Modification des valeurs d’un workflow dans un projet](#edit-workflow-values-in-a-project) dans cet article.
 
    Seuls les workflows qui ont été activés dans la zone Experience Manager de la configuration sont disponibles dans les modèles ou les projets.
 
@@ -92,11 +95,11 @@ Vous pouvez ajouter un workflow à un modèle de projet. Le workflow sera appliq
 
 Vous pouvez ajouter un workflow lors de la création d’un projet ou un workflow à un projet existant. Dans les deux cas, vous utiliserez un modèle de projet pour ajouter le workflow.
 
-### Ajout d’un workflow lors de la création d’un projet
+### Ajouter un workflow lors de la création d’un projet
 
 1. Commencez à créer un projet.
 
-   Pour obtenir des instructions, voir [Création d’un projet à l’aide d’un modèle](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   Pour obtenir des instructions, voir [Créer un projet à l’aide d’un modèle](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 1. Lors de la sélection d’un modèle pour le projet, sélectionnez le modèle contenant les workflows que vous souhaitez utiliser pour ce projet.
 1. (Facultatif) Modifiez toutes les valeurs de workflow du projet, comme décrit dans la section [Modification des valeurs d’un workflow dans un projet](#edit-workflow-values-in-a-project).
@@ -104,7 +107,7 @@ Vous pouvez ajouter un workflow lors de la création d’un projet ou un workflo
    Seuls les workflows qui ont été activés dans la zone Experience Manager de la configuration sont disponibles dans les modèles ou les projets.
 
 
-### Ajout d’un workflow à un projet existant
+### Ajouter un workflow à un projet existant
 
 1. Commencez à ajouter un modèle au projet.
 
@@ -113,9 +116,11 @@ Vous pouvez ajouter un workflow lors de la création d’un projet ou un workflo
 1. Lors de la sélection d’un modèle pour le projet, sélectionnez le modèle contenant les workflows que vous souhaitez utiliser pour ce projet.
 1. (Facultatif) Modifiez toutes les valeurs de workflow du projet, comme décrit dans la section [Modification des valeurs d’un workflow dans un projet](#edit-workflow-values-in-a-project).
 
+   Seuls les workflows qui ont été activés dans la zone Experience Manager de la configuration sont disponibles dans les modèles ou les projets.
+
 ### Modification des valeurs d’un workflow dans un projet
 
-Vous pouvez modifier les valeurs de workflow au niveau du projet. Les valeurs de workflow au niveau du projet remplacent les valeurs définies sur le modèle de projet, qui remplacent les valeurs par défaut définies dans l’intégration d’Adobe Experience Manager Assets.
+Vous pouvez modifier les valeurs de workflow au niveau du projet. Les valeurs de workflow au niveau du projet remplacent les valeurs définies sur le modèle de projet, qui remplacent les valeurs par défaut définies dans l’intégration de Adobe Experience Manager Assets.
 
 Toutes les valeurs de workflow se trouvent dans :
 
@@ -123,19 +128,35 @@ Toutes les valeurs de workflow se trouvent dans :
 * La section Adobe Experience Manager du volet de navigation de gauche.
 
 
-   >[!NOTE]
-   >
-   >Si ces zones ne sont pas visibles, votre administrateur Workfront n’a pas activé les workflows pour votre organisation.
+  >[!NOTE]
+  >
+  >Si ces zones ne sont pas visibles, votre administrateur Workfront n’a pas activé les workflows pour votre organisation.
 
 #### Dossiers liés
 
 Pour éditer le workflow des dossiers liés :
 
-1. Activez/désactivez la variable **[!UICONTROL Créer un dossier lié]** sur .
-1. Sélectionnez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
-1. Cliquez sur Enregistrer si vous utilisez la fenêtre Créer un projet ou Modifier le projet .
+1. Basculer **[!UICONTROL Créer un dossier lié]** activé ou désactivé selon vos besoins.
+1. (Conditionnel) Si vous activez les dossiers liés, choisissez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
+1. Cliquez sur **[!UICONTROL Enregistrer]** si vous utilisez la variable [!UICONTROL Créer un projet] ou [!UICONTROL Modifier le projet] fenêtre.
 
    Ou
 
-   Si vous vous trouvez dans la zone Adobe Experience Manager, vos modifications sont automatiquement enregistrées. <!--Do they though?-->
+   Si vous vous trouvez dans la variable [!DNL Adobe Experience Manager area], vos modifications sont enregistrées automatiquement. <!--Do they though?-->
 
+
+#### Publication de ressources
+
+<div class="preview">
+
+Pour modifier le workflow de publication de ressources :
+
+1. Basculer **Publier automatiquement les ressources** activé ou désactivé selon vos besoins.
+1. (Conditionnel) Si vous activez la publication, choisissez si vous souhaitez publier du contenu sur le service de publication, sur le portail de marque ou les deux.
+1. Cliquez sur **[!UICONTROL Enregistrer]** si vous utilisez la variable [!UICONTROL Créer un projet] ou [!UICONTROL Modifier le projet] fenêtre.
+
+   Ou
+
+   Si vous vous trouvez dans la variable [!DNL Adobe Experience Manager area], vos modifications sont enregistrées automatiquement. <!--Do they though?-->
+
+</div>

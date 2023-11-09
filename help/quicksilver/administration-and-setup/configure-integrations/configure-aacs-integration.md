@@ -5,9 +5,9 @@ title: Configurez la variable [!UICONTROL Experience Manager Assets as a Cloud S
 description: Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -239,13 +239,25 @@ Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experi
 
 Les valeurs de workflow par défaut que vous définissez dans l’intégration peuvent être remplacées aux niveaux Modèle de projet et Projet .
 
-### Configurer un workflow pour la création de dossiers liés à Adobe Experience Manager
+Les workflows suivants sont disponibles dans l’intégration Adobe Experience Manager :
+
+* [Création de dossiers liés à Adobe Experience Manager](#create-adobe-experience-manager-linked-folders)
+* [Publication de ressources envoyées à Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### Création de dossiers liés à Adobe Experience Manager
 
 1. Activez/désactivez la variable **[!UICONTROL Créer un dossier lié]** sur .
 1. Sélectionnez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
    ![Navigation dans les dossiers liés](assets/select-folder-aem-integration.png)
-1. Activez la variable **Ajout de noms de Portfolio et de programme** pour inclure automatiquement les noms des Portfolios et des programmes à la fin du nom du dossier lié.
-1. Cliquez sur **Enregistrer** ou passez à la [Configuration des dossiers liés (facultatif)](#set-up-linked-folders-optional) dans cet article.
+1. Activez la variable **[!UICONTROL Ajout de noms de Portfolio et de programme]** pour inclure automatiquement les noms des Portfolios et des programmes à la fin du nom du dossier lié.
+1. Cliquez sur **[!UICONTROL Enregistrer]** ou passez à la [Publication de ressources envoyées à Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) dans cet article.
+
+### Publication de ressources envoyées à Adobe Experience Manager Assets
+
+1. Activation **[!UICONTROL Publier automatiquement les ressources]**.
+1. Cochez la case en regard de l’emplacement où vous souhaitez publier les ressources envoyées aux ressources Adobe Experience Manager. Vous pouvez activer l’une des options ou les deux.
+1. (Conditionnel) Si vous avez activé l’option Brand Portal, sélectionnez le Brand Portal dans lequel vous souhaitez publier des ressources.
+1. Cliquez sur **[!UICONTROL Enregistrer]** ou passez à la [Configuration des dossiers liés (facultatif)](#set-up-linked-folders-optional) dans cet article.
 
 ## Configuration des dossiers liés (facultatif)
 
