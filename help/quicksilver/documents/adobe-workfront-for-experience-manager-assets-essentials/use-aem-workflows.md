@@ -6,16 +6,14 @@ description: Utilisation des workflows dans l’intégration de Experience Manag
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Utilisation des workflows dans l’intégration Experience Manager Assets
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. Un administrateur Workfront peut configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
 
@@ -147,8 +145,6 @@ Pour éditer le workflow des dossiers liés :
 
 #### Publication de ressources
 
-<div class="preview">
-
 Pour modifier le workflow de publication de ressources :
 
 1. Basculer **Publier automatiquement les ressources** activé ou désactivé selon vos besoins.
@@ -159,4 +155,4 @@ Pour modifier le workflow de publication de ressources :
 
    Si vous vous trouvez dans la variable [!DNL Adobe Experience Manager area], vos modifications sont enregistrées automatiquement. <!--Do they though?-->
 
-</div>
+

@@ -6,16 +6,14 @@ description: Vous pouvez envoyer des documents de Workfront vers Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # Envoyer un document à Experience Manager Assets ou aux Assets Essentials
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 Vous pouvez envoyer des documents de Workfront vers Experience Manager Assets ou des Assets Essentials. Les documents téléchargés et envoyés depuis Workfront à des Assets Essentials sont toujours pris en compte par rapport à votre stockage global de documents. Les ressources liées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global.
 
@@ -116,9 +114,9 @@ Vous pouvez déplacer un document vers un dossier lié dans Experience Manager A
 1. Recherchez le document à déplacer.
 1. Faites glisser le document et déposez-le dans le dossier Experience Manager Assets lié vers lequel vous souhaitez le déplacer.
 
-<div class="preview">Les options du document ne sont pas disponibles lorsque le document est en cours de déplacement. Une fois le document déplacé vers Experience Manager Assets, n’est plus visible dans la liste de documents de Workfront.
+Les options du document ne sont pas disponibles lorsque le document est en cours de déplacement. Une fois le document déplacé vers Experience Manager Assets, n’est plus visible dans la liste de documents de Workfront.
 
 >[!NOTE]
 >
 > Les actions ou modifications effectuées sur le document en cours de déplacement n’apparaîtront pas dans le document dans Experience Manager Assets et seront donc perdues.
-</div>
+

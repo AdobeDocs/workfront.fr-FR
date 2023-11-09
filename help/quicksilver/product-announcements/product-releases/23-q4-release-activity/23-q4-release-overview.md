@@ -4,9 +4,9 @@ description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2705'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ Le webinaire de la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [Inscr
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à niveau par glisser-déposer pour les intégrations de documents</a></p><p>Nous avons apporté quelques améliorations afin d’ajouter de la clarté et de supprimer l’erreur utilisateur lors du glisser-déposer d’un fichier dans un dossier lié.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à niveau par glisser-déposer pour les intégrations de documents</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Nous avons apporté quelques améliorations afin d’ajouter de la clarté et de supprimer l’erreur utilisateur lors du glisser-déposer d’un fichier dans un dossier lié.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -780,9 +780,9 @@ Avec la version 23.10, nous abandonnerons officiellement l’application mobile 
 
 Notez que l’application mobile Workfront requiert une connexion Workfront. Les utilisateurs externes et les invités peuvent continuer à utiliser l’application BAT pour le travail de vérification ; elle n’est toutefois plus prise en charge et ne sera plus disponible avec la version 23.10.
 
-#### Workflows supprimés pour les comptes qui ne les utilisent pas
+#### Flux de travail supprimés pour les comptes qui ne les utilisent pas
 
-Pour les comptes qui n’ont jamais créé de workflow dans les panoramas Adobe Workfront, la zone Flux de travail a été supprimée du tableau de bord des panoramas à compter du 11 octobre 2023. Les comptes qui utilisent des workflows y ont toujours accès. Les prochaines versions aborderont la fonctionnalité de scrum améliorée.
+Pour les comptes qui n’ont jamais créé de workflow dans les panoramas Adobe Workfront, la zone Flux de travail a été supprimée du tableau de bord des panoramas à compter du 11 octobre 2023. Les comptes qui utilisent des flux de travail y ont toujours accès. Les prochaines versions aborderont la fonctionnalité de scrum améliorée.
 
 <!-- HTML you might need
 
