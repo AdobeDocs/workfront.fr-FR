@@ -4,15 +4,15 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
 title: Prise en main d’ [!DNL Workfront Proof]
-description: 'Cette section contient les sous-sections suivantes : MODIFIEZ-MOI.'
+description: Découvrez comment prendre en main le Bon à tirer de Workfront.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 17%
+ht-degree: 0%
 
 ---
 

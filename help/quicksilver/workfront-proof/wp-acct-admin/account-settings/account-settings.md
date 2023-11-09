@@ -4,12 +4,12 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Paramètres du compte dans [!DNL Workfront Proof]
-description: 'Cette section contient les articles suivants : EDIT ME.'
+description: En savoir plus sur les paramètres du compte dans le Bon à tirer de Workfront.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 8f43fee1-02ee-4073-aacb-653a11ad897b
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

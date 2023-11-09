@@ -2,13 +2,13 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 Final
-description: La fonctionnalité suivante n’est actuellement pas disponible dans la version bêta ou de l’aperçu, mais elle est publiée dans l’environnement de production dans R1 - MODIFIER ME.
+description: Activité Version 2018.3
 author: Luke
 feature: Product Announcements
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Vous pouvez désormais rechercher des objets dans l’application mobile, comme 
 
 Pour plus d’informations sur l’application mobile, voir la section &quot;Recherche dans Mobile&quot; dans  
 
-## Amélioration de l’aide dans l’application mobile : Tutorials (Workfront)
+## Aide améliorée dans l’application mobile : Tutorials (Workfront)
 
 À compter de la version mobile d’avril, de nouveaux écrans de tutoriels vous guideront tout au long de votre expérience mobile. Lorsque vous vous connectez à l’application mobile pour la première fois et que vous utilisez une fonctionnalité pour la première fois, un bref tutoriel s’affiche, expliquant le fonctionnement de cette fonctionnalité. Le tutoriel ne s’affiche qu’une seule fois, la première fois que vous utilisez une fonction spécifique.
 
@@ -119,14 +119,14 @@ Les comptes ProofHQ Premium intégrés à Workfront voient maintenant les améli
 Vous pouvez désormais inclure les informations supplémentaires suivantes dans les vues personnalisées :
 
 * **Données au niveau des destinataires**\
-   Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données au niveau du destinataire : Rôle, Position, Alertes par e-mail, Mon délai, Date d’ajout au BAT et Recherche de destinataire.\
-   Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données au niveau du destinataire : Rôle, Position, Alertes par e-mail, Mon délai, Date d’ajout au bon à tirer et Recherche de destinataire.\
+  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Données de vérification**\
-   Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données de vérification : Nombre de commentaires (toutes versions), Taille sur le disque, Type de BAT, Nombre de fichiers par version, Données de pièce jointe du commentaire (taille sur le disque, nom de fichier) et Filtrage par sous-dossier.\
-   Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données de vérification : Nombre de commentaires (toutes versions), Taille sur disque, Type de BAT, Nombre de fichiers par version, Données de pièce jointe du commentaire (taille sur le disque, nom de fichier) et Filtrage par sous-dossier.\
+  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Données d’étape liées aux workflows automatisés**\
-   Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives à des étapes individuelles des workflows automatisés : État SOCD, échéances de l’évaluation, nom Principal de l’étape, nom de l’étape suivante, nom de l’étape et modèle.\
-   Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives à des étapes individuelles des processus automatisés : état SOCD, échéances d’évaluation, nom d’étape actif, nom d’étape suivant, nom d’étape et modèle.\
+  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Améliorations des rapports de vérification (anciennement Analytics) (ProofHQ)
 

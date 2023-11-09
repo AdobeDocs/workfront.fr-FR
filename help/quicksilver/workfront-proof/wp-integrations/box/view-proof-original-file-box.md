@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
 title: Afficher le fichier original d’un bon à tirer dans la boîte
-description: 'Si vous utilisez la variable [!DNL Workfront Proof] - Intégration de boîte, dans la boîte, vous pouvez afficher le fichier d’origine utilisé pour créer un BAT. Vous pouvez le faire de deux façons : MODIFIER MOI.'
+description: Découvrez comment afficher le fichier d’origine d’un BAT dans la boîte.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6da023c-4dbe-4770-82dc-3246568c01a2
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Lorsqu’un nouveau BAT ou une nouvelle version est créé à partir d’un [!DN
 
 ## Affichage du fichier dans [!DNL Box] via le [!UICONTROL Détails du BAT] Page
 
-Le [!UICONTROL Autres options de partage] de la section [!UICONTROL Détails du BAT] page du BAT que vous avez créé à partir d’un [!DNL Box] comprend un lien vers le fichier dans votre [!DNL Box] compte (1).
+La variable [!UICONTROL Autres options de partage] de la [!UICONTROL Détails du BAT] page du BAT que vous avez créé à partir d’un [!DNL Box] comprend un lien vers le fichier dans votre [!DNL Box] compte (1).
 
 ![Box_-_Proof_Details_page.png](assets/box---proof-details-page-350x93.png)

@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Afficher le contenu dans un BAT
-description: 'Vous devez disposer des droits d’accès suivants pour effectuer les étapes de cet article : MODIFIER MOI.'
+description: Découvrez comment afficher le contenu dans un BAT.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionner ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
@@ -70,7 +70,7 @@ Vous pouvez afficher un BAT statique qui contient plusieurs pages en une seule v
      </tr> 
      <tr> 
       <td role="rowheader">Mode Magazine</td> 
-      <td>Affiche toutes les pages en une seule vue magazine (côte à côte et empilée). Cliquez sur la miniature de la page à afficher ou appuyez sur les touches fléchées Gauche et Droite pour faire défiler toutes les pages.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
+      <td>Affiche toutes les pages en une seule vue de magazine (côte à côte et empilée). Cliquez sur la miniature de la page à afficher ou appuyez sur les touches fléchées Gauche et Droite pour faire défiler toutes les pages.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
      </tr> 
     </tbody> 
    </table>
@@ -100,7 +100,7 @@ Le panneau des miniatures s’affiche par défaut. Vous pouvez masquer ou ajuste
 
 ### Zoom et panoramique dans la vue miniature {#zoom-and-pan-in-the-thumbnail-view}
 
-La zone de zoom du panneau des miniatures affiche la zone du BAT que vous êtes en train de consulter. Vous pouvez ajuster le zoom dans la zone miniature ou effectuer un panoramique sur la zone pour afficher une autre partie du BAT.
+La zone de zoom du panneau des miniatures affiche la zone du BAT que vous êtes en train de consulter. Vous pouvez ajuster le zoom dans la zone de miniature ou effectuer un panoramique sur la zone pour afficher une autre partie du BAT.
 
 Pour effectuer un zoom et un panoramique dans la vue miniature :
 
@@ -126,7 +126,7 @@ Vous pouvez faire pivoter le BAT dans la visionneuse de vérification. Lorsque v
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   Le BAT est pivoté de 90 degrés chaque fois que vous cliquez sur le bouton **Rotation** icône .
+   Le BAT est pivoté de 90 degrés chaque fois que vous cliquez sur le bouton **Rotation** Icône
 
 ## Zoom et panoramique sur un BAT
 
@@ -139,15 +139,15 @@ Vous pouvez ajuster le pourcentage de zoom lors de l’affichage du BAT. Lorsque
 
    * Cliquez sur le bouton **Zoom** , puis cliquez sur le BAT pour afficher le BAT à un niveau de zoom supérieur, ou faites glisser le curseur sur une zone du BAT pour afficher uniquement cette zone.
 
-      ![change_zoom_pourcentage.png](assets/change-zoom-percentage-350x36.png)
+     ![change_zoom_pourcentage.png](assets/change-zoom-percentage-350x36.png)
 
-   * Cliquez sur le pourcentage de zoom actuel, puis sur un nouveau pourcentage de zoom ou cliquez sur **Ajuster à la largeur**, **Ajuster à la hauteur** ou **Ajuster à la page**.
+   * Cliquez sur le pourcentage de zoom actuel, puis sur un nouveau pourcentage de zoom ou cliquez sur **Ajuster à la largeur**, **Ajuster à la hauteur**, ou **Ajuster à la page**.
 
-      ![zoom_pourcentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![zoom_pourcentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
    * Cliquez sur le bouton **Plus** ou **Moins** pour augmenter ou diminuer le pourcentage de zoom.
 
-      ![change_zoom_percent_-_plus_moins.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percent_-_plus_moins.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
 1. Si vous devez effectuer un panoramique sur une certaine zone du BAT vidéo, cliquez sur le bouton **Panoramique** , puis faites glisser le BAT selon vos besoins.
 

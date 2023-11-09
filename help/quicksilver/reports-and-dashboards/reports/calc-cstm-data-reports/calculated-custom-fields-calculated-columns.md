@@ -3,13 +3,13 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Champs personnalisés calculés par rapport aux colonnes calculées
-description: 'Pour regrouper plusieurs champs dans Adobe Workfront et afficher cette valeur agrégée dans un nouveau champ, vous pouvez effectuer les opérations suivantes : EDITER ME.'
+description: En savoir plus sur les données personnalisées dans les rapports et les tableaux de bord
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 Pour regrouper plusieurs champs dans Adobe Workfront et afficher cette valeur agrégée dans un nouveau champ, vous pouvez procéder comme suit :
 
 * Champ personnalisé calculé dans un formulaire personnalisé\
-   Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, reportez-vous à la section [Ajouter un champ calculé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) dans l’article [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, consultez la section [Ajouter un champ calculé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) dans l’article [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Une colonne calculée dans une vue\
-   Pour plus d’informations sur l’utilisation des calculs dans une vue, voir la section [Utilisation du mode Texte dans les vues](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) dans l’article [Présentation des utilisations courantes du mode Texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Pour plus d’informations sur l’utilisation des calculs dans une vue, voir la section [Utilisation du mode Texte dans les vues](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) dans l’article [Présentation des utilisations courantes du mode Texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 Bien que vous utilisiez le mode texte pour créer à la fois des champs calculés et des colonnes calculées, la syntaxe pour les créer diffère. Reportez-vous aux articles répertoriés ci-dessus pour savoir comment créer des champs calculés et des colonnes calculées. Pour plus d’informations sur les différentes syntaxes utilisées dans les expressions de données calculées, telles que les champs et colonnes personnalisés calculés, consultez la section [Syntaxe des champs personnalisés calculés par rapport aux colonnes personnalisées calculées](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) dans cet article.
 
-Vous pouvez utiliser les mêmes calculs dans les deux champs calculés ainsi que dans une colonne calculée. Cependant, selon l’objectif de ces calculs, vous pouvez envisager de créer l’un par rapport à l’autre.
+Vous pouvez utiliser les mêmes calculs dans les deux champs calculés ainsi que dans une colonne calculée. Cependant, en fonction de l’objectif de ces calculs, vous pouvez envisager de créer l’un par rapport à l’autre.
 
 ## Syntaxe des champs personnalisés calculés par rapport aux colonnes personnalisées calculées
 
@@ -36,25 +36,25 @@ Par exemple :
 
 * Dans un champ personnalisé, sur un formulaire personnalisé pour les tâches, vous utiliserez les éléments suivants pour générer le nom du projet parent de la tâche à laquelle le formulaire personnalisé est joint :
 
-   ```
-   {project}.{name}
-   ```
+  ```
+  {project}.{name}
+  ```
 
 * Dans une colonne personnalisée d’un rapport, vous pouvez utiliser les éléments suivants pour ajouter une colonne personnalisée Nom du projet à un rapport de tâche :
 
-   ```
-   valuefield=project:name
-   ```
+  ```
+  valuefield=project:name
+  ```
 
-   Ou
+  Ou
 
-   ```
-   valueexpression={project}.{name}
-   ```
+  ```
+  valueexpression={project}.{name}
+  ```
 
-   >[!TIP]
-   >
-   >La même syntaxe s’applique à tous les éléments de rapport en mode texte dans lesquels des expressions calculées sont utilisées : vues, filtres, regroupements, invites.
+  >[!TIP]
+  >
+  >La même syntaxe s’applique à tous les éléments de rapport en mode texte dans lesquels des expressions calculées sont utilisées : vues, filtres, regroupements, invites.
 
 Les différences entre les deux syntaxes sont les suivantes :
 
@@ -100,19 +100,19 @@ Pour plus d’informations sur la syntaxe que vous devez utiliser dans une colon
 
 * Lorsque vous souhaitez que les données en temps réel soient disponibles sur un rapport.
 
-   Les vues calculées sont toujours actualisées, car le calcul est effectué lors de l’exécution du rapport ou de l’application de la vue.
+  Les vues calculées sont toujours actualisées, car le calcul est effectué lors de l’exécution du rapport ou de l’application de la vue.
 
 * Lorsque vous n’avez pas l’intention de regrouper en fonction de résultats agrégés, ni d’utiliser ces informations dans un graphique.
 * Lorsque vous ne prévoyez pas d’agréger les données au-delà de l’agrégation calculée dans la colonne (les données ne peuvent être agrégées qu’une seule fois).
 * Lorsque vous souhaitez que le calcul inclue une référence à la date actuelle à l’aide des caractères génériques $$TODAY ou $$NOW .
 
-   >[!TIP]
-   >
-   >N’utilisez pas cette référence dans les champs personnalisés calculés, car ils ne recalculent que lorsque l’objet joint est modifié. Ces types de calculs deviennent obsolètes.
+  >[!TIP]
+  >
+  >N’utilisez pas cette référence dans les champs personnalisés calculés, car ils ne recalculent que lorsque l’objet joint est modifié. Ces types de calculs deviennent obsolètes.
 
 ## Exemples de champs et de colonnes personnalisés calculés
 
-Pour des exemples de champs personnalisés calculés, voir [Données personnalisées calculées dans les rapports](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+Pour obtenir des exemples de champs personnalisés calculés, voir [Données personnalisées calculées dans les rapports](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
 Pour obtenir des exemples de colonnes personnalisées calculées dans les vues, reportez-vous aux articles suivants :
 

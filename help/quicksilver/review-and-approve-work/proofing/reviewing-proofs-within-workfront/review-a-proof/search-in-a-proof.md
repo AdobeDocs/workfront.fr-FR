@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Recherche de contenu dans un BAT
-description: 'Vous pouvez rapidement localiser le texte dans un BAT créé pour les types de documents suivants : EDITION ME.'
+description: Découvrez comment localiser rapidement le texte dans un BAT.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -35,11 +35,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionner ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Réviser</p> <p>Plan hérité : Réviser</p> </td> 
+   <td> <p>Formule actuelle : Passez en revue</p> <p>Formule héritée : Consultez</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
@@ -57,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Recherche de contenu dans un BAT
 
 1. Ouvrez le BAT que vous souhaitez rechercher.
-1. Dans la barre d’outils située au-dessus du BAT, cliquez sur l’icône **Document de recherche** icône .
+1. Dans la barre d’outils située au-dessus du BAT, cliquez sur l’icône **Document de recherche** Icône
 
    ![](assets/search-document-icon-search-in-proof-350x129.png)
 

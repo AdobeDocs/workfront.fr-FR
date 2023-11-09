@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Choix de votre mode de paiement dans [!DNL Workfront] Bon à tirer
-description: 'Les options de paiement suivantes sont disponibles : MODIFIER MOI.'
+description: En savoir plus sur les paiements dans le Bon à tirer Workfront.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Les options de paiement suivantes sont disponibles :
 | carte de crédit | carte de crédit |
 | transfert bancaire |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Nous n’acceptons pas les vérifications
 
@@ -42,7 +42,6 @@ Nous n’acceptons pas les vérifications
 >* Le changement de mode de paiement n’est pas appliqué à votre abonnement actuel. Si vous souhaitez modifier ce paramétrage pour une facture qui a déjà été émise, veuillez contacter notre équipe financière à l&#39;adresse [finance@proofhq.com](mailto:finance@proofhq.com).
 >* Vous ne pouvez pas modifier votre mode de paiement ni ajouter une carte de crédit si un plan d’évaluation est défini sur votre compte. Vous pourrez définir ces détails lors de la mise à niveau de votre compte.
 >
-
 
 
 
@@ -66,7 +65,7 @@ Pour modifier votre prochain mode de paiement et mettre à jour les détails de 
 Si vous disposez de comptes Satellite, vous devez mettre à jour les détails de votre carte de crédit et le mode de paiement séparément pour chaque compte. Pour plus d’informations sur les comptes satellites, voir  [Comptes satellites.](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. Accédez au [!UICONTROL Facturation] dans votre compte Hub.\
-   Pour plus d’informations sur la page Facturation, voir [Le [!DNL Workfront] Page de facturation du BAT](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Pour plus d’informations sur la page Facturation, voir [La variable [!DNL Workfront] Page de facturation du BAT](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 1. Ouvrez le [!UICONTROL liste de comptes] menu déroulant. (1)
 1. Sélectionnez le compte satellite (2) associé à la carte de crédit que vous souhaitez mettre à jour.

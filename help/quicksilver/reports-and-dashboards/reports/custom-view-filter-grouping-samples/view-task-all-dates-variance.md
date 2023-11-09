@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Affichage : tâche avec variance de toutes les dates'''
-description: Cette vue de tâche est similaire à la vue "Toutes les dates" fournie avec votre compte Adobe Workfront. Cette vue particulière inclut des colonnes de variation, qui calculent la différence en jours entre les dates suivantes - MODIFIEZ-MOI.
+title: 'Afficher : tâche avec variance de toutes les dates'
+description: Cette vue de tâche est similaire à la vue "Toutes les dates" fournie avec votre compte Adobe Workfront. Cette vue particulière inclut les colonnes de variation, qui calculent la différence en jours entre les dates.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
 
-# Afficher : tâche avec variance de toutes les dates
+# Affichage : tâche avec variance de toutes les dates
 
 Cette vue de tâche est similaire à la vue &quot;Toutes les dates&quot; fournie avec votre compte Adobe Workfront. Cette vue particulière inclut *Variance* , qui calculent la différence en jours entre les dates suivantes :
 
@@ -25,7 +25,7 @@ Cette vue de tâche est similaire à la vue &quot;Toutes les dates&quot; fournie
 
 Cette vue représente un exemple de colonnes calculées, dans lesquelles vous pouvez prendre les valeurs de deux colonnes différentes et les connecter par un calcul pour obtenir une troisième valeur. Dans ce cas, vous soustrayez la date 1 de la date 2.
 
-Pour plus d’informations sur l’utilisation des calculs dans une vue, reportez-vous à la section [Présentation des utilisations courantes du mode Texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) dans  [Présentation des utilisations courantes du mode Texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Pour plus d’informations sur l’utilisation des calculs dans une vue, voir la section [Présentation des utilisations courantes du mode Texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) dans  [Présentation des utilisations courantes du mode Texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 ![Screen_Shot_2017-04-24_at_11.35.33_AM.png](assets/screen-shot-2017-04-24-at-11.35.33-am-350x95.png)
 

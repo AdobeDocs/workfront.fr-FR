@@ -2,13 +2,13 @@
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Modification des phases de BAT et des validants
-description: 'Vous devez disposer des droits d’accès suivants pour effectuer les étapes de cet article : MODIFIER MOI.'
+description: Découvrez comment modifier les phases de BAT et les réviseurs.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '616'
 ht-degree: 1%
 
 ---
@@ -27,18 +27,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionner ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Rôle BAT</td> 
+   <td role="rowheader">Rôle de BAT</td> 
    <td>Auteur ou modérateur </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Suppression d’un réviseur individuel</td> 
-      <td> <p>Sélectionnez la <strong>Plus</strong> à droite du nom du validant, puis cliquez sur <strong>Supprimer</strong> dans le menu déroulant. Cliquez sur <strong>Confirmer</strong> dans la zone qui s’affiche pour retirer le validant du BAT.</p> </td> 
+      <td> <p>Sélectionnez la variable <strong>Plus</strong> à droite du nom du validant, puis cliquez sur <strong>Supprimer</strong> dans le menu déroulant. Cliquez sur <strong>Confirmer</strong> dans la zone qui s’affiche pour retirer le validant du BAT.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Suppression de plusieurs réviseurs</td> 
@@ -78,15 +78,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Envoyer un message à tous les opérateurs validants</td> 
-      <td>Sélectionnez la <strong>Plus</strong> dans le coin supérieur droit de la section scène, puis sélectionnez <strong>Message all</strong>. Configurez votre message, puis sélectionnez <strong>Envoyer</strong>.</td> 
+      <td>Sélectionnez la variable <strong>Plus</strong> dans le coin supérieur droit de la section scène, puis sélectionnez <strong>Message all</strong>. Configurez votre message, puis sélectionnez <strong>Envoyer</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ajout d’un réviseur à l’étape</td> 
-      <td>Sélectionnez la <strong>Plus</strong> dans le coin supérieur droit de la section scène, puis sélectionnez <strong>Partager</strong>. Ajoutez l’utilisateur, configurez son rôle et ses alertes par e-mail, puis répétez-les si nécessaire. Lorsque vous avez terminé, cliquez sur <strong>Partager</strong>.</td> 
+      <td>Sélectionnez la variable <strong>Plus</strong> dans le coin supérieur droit de la section scène, puis sélectionnez <strong>Partager</strong>. Ajoutez l’utilisateur, configurez son rôle et ses alertes par e-mail, puis répétez-les si nécessaire. Lorsque vous avez terminé, cliquez sur <strong>Partager</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Supprimer l’étape</td> 
-      <td> <p>Sélectionnez la <strong>Plus</strong> dans le coin supérieur droit de la section scène, sélectionnez <strong>Supprimer</strong> scène.</p> <p>Remarque : S’il n’y a qu’une seule étape, la scène ne peut pas être supprimée.</p> </td> 
+      <td> <p>Sélectionnez la variable <strong>Plus</strong> dans le coin supérieur droit de la section scène, sélectionnez <strong>Supprimer</strong> scène.</p> <p>Remarque : S’il n’existe qu’une seule étape, celle-ci ne peut pas être supprimée.</p> </td> 
      </tr> 
     </tbody> 
    </table>

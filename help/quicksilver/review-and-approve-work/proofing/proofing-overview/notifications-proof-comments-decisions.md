@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: proofing-overview
 title: Présentation des notifications pour les commentaires de BAT et les décisions
-description: 'Vous pouvez recevoir des notifications par e-mail sur les commentaires et les décisions pris sur les bons à tirer sur lesquels vous travaillez de l’une des manières suivantes : MODIFIER MOI.'
+description: Vous pouvez recevoir des notifications par e-mail sur les commentaires et les décisions pris sur les bons à tirer sur lesquels vous travaillez.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d6ded72c-a140-4c19-b1e0-60456804fc61
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Vous pouvez recevoir des notifications par e-mail sur les commentaires et les décisions effectués sur les bons à tirer sur lesquels vous travaillez de l’une des manières suivantes :
 
-* Recevez un email lorsqu’une personne ajoute un commentaire, répond à un commentaire que vous avez ajouté ou prend une décision.
+* Recevez un courrier électronique lorsqu’une personne ajoute un commentaire, répond à un commentaire ou prend une décision.
 * Recevez un courrier électronique lorsqu’une personne répond à un commentaire que vous avez ajouté.
 * Recevez un email lorsque quelqu&#39;un prend une décision.
 * Recevez un courrier électronique lorsque quelqu’un prend la décision finale.
@@ -50,10 +50,9 @@ Les paramètres qui déterminent la manière dont vous recevez des alertes par e
 
 >[!NOTE]
 >
->Ces options affectent uniquement les alertes par email que vous pouvez recevoir concernant les commentaires et les décisions des BAT. Elles n’affectent pas les alertes par email que vous pouvez recevoir concernant le flux d’un BAT, telles que l’e-mail Nouveau Bon à tirer ou Bon à tirer tardif. Pour plus d&#39;informations sur les alertes par email concernant le flux d&#39;un BAT, consultez les articles suivants :
+>Ces options affectent uniquement les alertes par email que vous pouvez recevoir concernant les commentaires et les décisions des BAT. Elles n’affectent pas les alertes par email que vous pouvez recevoir concernant le flux d’un BAT, telles que l’email Nouveau BAT ou Bon à tirer tardif. Pour plus d&#39;informations sur les alertes par email concernant le flux d&#39;un BAT, consultez les articles suivants :
 >
 >* [Nouvel email de BAT](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
 >* [Adresse électronique du service New Version](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
 >* [Email de retard](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
 >* [L&#39;email Bon à tirer](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
-

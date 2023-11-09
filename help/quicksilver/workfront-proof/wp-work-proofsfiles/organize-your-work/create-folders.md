@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Création de dossiers dans [!DNL Workfront Proof]
-description: 'Vous pouvez créer des sous-dossiers de l’une des façons suivantes : MODIFIER MOI.'
+description: Vous pouvez créer des sous-dossiers dans Workfront BAT.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. Dans la barre latérale, cliquez sur la flèche de liste déroulante (1) située en regard du vert **[!UICONTROL Nouveau BAT]** bouton .
 1. Sélectionner **[!UICONTROL Nouveau dossier]**. (2)\
-   Le [!UICONTROL Nouveau dossier] s’affiche.
+   La variable [!UICONTROL Nouveau dossier] s’affiche.
 
 1. Passez à la [Configuration du nouveau dossier](#configuring-the-new-folder).\
    ![New_top_folder.png](assets/new-top-folder.png)
@@ -53,7 +53,7 @@ Pour créer un sous-dossier à partir du [!UICONTROL Détails du dossier] page :
 1. Cliquez sur le bouton Nouveau sous-dossier (2) en haut de la page.\
    Un nouveau dossier apparaît dans la liste des éléments du dossier.
 1. Saisissez le nom du nouveau sous-dossier. (3)
-1. Press **[!UICONTROL Entrée]**.\
+1. Presse **[!UICONTROL Entrée]**.\
    Ou\
    Cliquez en dehors du champ du nom du dossier.
 
@@ -69,7 +69,7 @@ Pour créer un sous-dossier à partir du [!UICONTROL Détails du dossier] page :
 
 1. Recherchez le dossier auquel vous souhaitez ajouter un sous-dossier et ouvrez le [!UICONTROL actions] menu (2)
 1. Sélectionner [!UICONTROL Nouveau sous-dossier] à partir du menu (3)\
-   Le [!UICONTROL Nouveau dossier] s’affiche.
+   La variable [!UICONTROL Nouveau dossier] s’affiche.
 1. Passez à la [Configuration du nouveau dossier](#configuring-the-new-folder).
 
 ![Subfolder_from_acc_folders_2.png](assets/subfolder-from-acc-folders-2-350x177.png)
@@ -94,7 +94,7 @@ La navigation dans le chemin de navigation vous indique si vous créez un dossie
 Dans cette section, vous pouvez ajouter (et vérifier) les informations suivantes au dossier que vous créez :
 
 * Nom du dossier : ce champ est obligatoire (1)
-* Cliquez sur le [!UICONTROL Voir la liste] lien (2) affiche une fenêtre contextuelle avec une liste des personnes avec lesquelles ce dossier est partagé. Cette information est particulièrement utile lors de la création de sous-dossiers, car les sous-dossiers sont automatiquement partagés avec les mêmes personnes que le dossier parent.
+* Cliquez sur le bouton [!UICONTROL Voir la liste] lien (2) affiche une fenêtre contextuelle avec une liste des personnes avec lesquelles ce dossier est partagé. Cette information est particulièrement utile lors de la création de sous-dossiers, car les sous-dossiers sont automatiquement partagés avec les mêmes personnes que le dossier parent.
 * Description (3) : ici, vous pouvez ajouter une brève description du dossier, qui sera visible sur la page Détails du dossier.
 * Rendre le dossier privé (4) : si vous cochez la case, ce dossier sera privé (donc visible uniquement par les personnes avec lesquelles vous partagez explicitement le dossier et les utilisateurs de votre compte avec les profils de [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ou [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ). Veuillez consulter [Présentation des autorisations de dossier dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) pour en savoir plus sur les dossiers privés et publics dans Workfront BAT.
 
@@ -114,7 +114,7 @@ Dans cette section, vous pouvez renseigner les détails de votre client. Vous po
 Dans le [!UICONTROL Partager] vous pouvez :
 
 * Attribuer un nouveau propriétaire du dossier (1) : le créateur du dossier reste répertorié dans le dossier et ne peut pas être supprimé. Cependant, vous pouvez faire d’un autre utilisateur de votre compte le propriétaire, ce qui lui donnera des droits d’édition sur le dossier.
-* Partager le dossier avec d’autres [!DNL Workfront Proof] utilisateurs en saisissant leur adresse électronique (2). Notez que les dossiers ne peuvent être partagés qu’avec les personnes qui ont leur propre adresse électronique. [!DNL Workfront Proof] connexions.
+* Partager le dossier avec d’autres [!DNL Workfront Proof] utilisateurs en saisissant leur adresse électronique (2). Notez que les dossiers ne peuvent être partagés qu’avec les personnes qui ont leur propre adresse électronique. [!DNL Workfront Proof] se connectent.
 * Définissez les autorisations pour les personnes avec lesquelles vous partagez le dossier (3). Cela s’avère utile pour partager des dossiers privés avec des utilisateurs de votre compte. Vous pouvez décider si les utilisateurs de la variable [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) profile doit être autorisé à créer, modifier et supprimer des éléments dans le dossier.
 * Supprimez un utilisateur de la liste de partage de dossiers en cliquant sur l’icône de corbeille (4) à droite du nom de l’utilisateur.
 * Supprimez tout le monde de la liste de partage de dossiers en cliquant sur l’icône de la corbeille la plus élevée (5). Notez que vous ne pourrez pas supprimer le créateur ou le propriétaire du dossier.

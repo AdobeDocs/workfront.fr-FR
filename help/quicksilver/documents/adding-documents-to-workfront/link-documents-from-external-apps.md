@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Liaison de documents à partir d’applications externes
-description: 'Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des sources suivantes : EDIT ME.'
+description: Vous pouvez lier des documents et des dossiers à Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 5122914acd0ae0fdfb8a5ae7319075ce1072962e
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader"> dʼExperience Manager Assets Essentials </td> 
-   <td>Vous pouvez lier des documents à Workfront à partir de Experience Manager Assets Essentials. Pour plus d’informations, voir <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront pour Experience Manager Assets Essentials</a>.</td> 
+   <td>Vous pouvez lier des documents à Workfront depuis Experience Manager Assets Essentials. Pour plus d’informations, voir <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront pour Experience Manager Assets Essentials</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront DAM </td> 
@@ -55,7 +55,7 @@ Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des 
 
 Avant de lier des documents ou des dossiers, votre administrateur Workfront doit activer cette fonctionnalité pour chaque fournisseur de documents ou pour une intégration de documents personnalisée, comme décrit dans la section [Configuration des intégrations de documents](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-Vous pouvez tester et approuver les documents liés à un fournisseur cloud externe de la même manière que vous le faites avec les documents téléchargés directement vers Workfront.
+Vous pouvez BAT et approuver les documents liés à un fournisseur cloud externe de la même manière que vous le faites avec les documents téléchargés directement vers Workfront.
 
 ## Exigences d’accès
 
@@ -84,7 +84,7 @@ Vous devez disposer des éléments suivants :
 
 ## Stockage de documents
 
-Les documents liés à Workfront à partir d’une application externe sont stockés avec le fournisseur cloud externe et non dans Workfront.
+Les documents liés à Workfront à partir d’une application externe sont stockés avec le fournisseur cloud externe, et non dans Workfront.
 
 Les exceptions suivantes s’appliquent :
 
@@ -159,7 +159,7 @@ Vous pouvez ajouter une nouvelle version d’un document lié à Workfront à pa
 
 1. Cliquez sur **Ajouter** > **Version**, puis cliquez sur le fournisseur de documents externe.
 
-   Par exemple, pour lier une nouvelle version d’un document à partir d’un Dropbox, cliquez sur **De Dropbox**.
+   Par exemple, pour lier une nouvelle version d’un document à partir du Dropbox, cliquez sur **De Dropbox**.
 
    Les fournisseurs externes que vous avez déjà autorisés apparaissent en haut de la liste.
 
@@ -174,7 +174,7 @@ Vous pouvez ajouter une nouvelle version d’un document lié à Workfront à pa
 
    Recherchez et sélectionnez les documents à lier.
 
-   Vous pouvez sélectionner plusieurs documents ; toutefois, seuls les documents sélectionnés dans la vue active sont liés. Par exemple, si vous sélectionnez un document, puis accédez à un dossier, le document que vous avez initialement sélectionné n’est pas lié.
+   Vous pouvez sélectionner plusieurs documents, mais seuls les documents sélectionnés dans la vue active sont liés. Par exemple, si vous sélectionnez un document, puis accédez à un dossier, le document que vous avez initialement sélectionné n’est pas lié.
 
 1. (Conditionnel) Si vous êtes un client DAM Workfront, cliquez sur le bouton **Miniature** pour afficher les fichiers sous forme d’images miniatures.
 
@@ -225,9 +225,9 @@ Vous pouvez créer un document Google dans Workfront. Vous ne pouvez pas créer 
 1. Cliquez sur **Ajouter** > **Fichier Google**, puis sélectionnez le type de document Google que vous souhaitez créer.
 
 1. Sélectionnez le type de document Google que vous souhaitez créer.
-1. Si la variable **Ajout d’un compte de lecteur Google** s’affiche, cliquez sur **Autoriser Google Drive**.
+1. Si la variable **Ajout d’un compte de lecteur Google** apparaît, cliquez sur **Autoriser Google Drive**.
 
-   Un document Google est ajouté à la variable **Documents** .
+   Un document Google est ajouté au **Documents** .
 
    >[!NOTE]
    >
@@ -242,7 +242,7 @@ Les utilisateurs n’ayant pas accès à Workfront peuvent voir le document dans
 1. Sélectionnez un document téléchargé dans Workfront.
 1. Cliquez sur **Plus** >**Envoyer à**, puis sélectionnez le fournisseur de cloud que vous souhaitez utiliser pour le stockage du document lié.
 
-   Vous pouvez également utiliser le menu Plus ![](assets/more-icon.png) sur la page Détails du document pour effectuer cette opération.
+   Vous pouvez également utiliser le menu Plus ![](assets/more-icon.png) sur la page Détails du document pour ce faire.
 
 1. Sélectionnez le dossier dans l’application du fournisseur où vous souhaitez stocker le document.
 
@@ -271,7 +271,7 @@ Lors de la synchronisation du contenu du dossier à partir d’une application d
 
 >[!IMPORTANT]
 >
->* Si l’utilisateur qui a initialement lié le dossier est supprimé du système Workfront, il ne peut plus accéder au contenu du dossier lié via Workfront. Dans ce cas, le dossier doit être relationné par un utilisateur Workfront principal disposant des droits sur le dossier dans l’application externe.
+>* Si l’utilisateur qui a initialement lié le dossier est supprimé du système Workfront, il ne peut plus accéder au contenu du dossier lié via Workfront. Dans ce cas, le dossier doit être relationné par un utilisateur Workfront actif disposant des droits sur le dossier dans l’application externe.
 >* Si l’utilisateur qui a lié un dossier n’a plus accès à l’application externe, Workfront ne peut plus accéder au contenu du dossier. Cela peut se produire, par exemple, si l’utilisateur qui avait initialement lié le dossier quitte la société. Pour garantir un accès continu, un utilisateur ayant accès au dossier doit lier à nouveau le dossier.
 
 ### Lier un ou plusieurs dossiers externes {#link-one-or-more-external-folders}
@@ -289,7 +289,7 @@ Lors de la synchronisation du contenu du dossier à partir d’une application d
 
    Saisissez le nom du dossier à rechercher, puis appuyez sur **Entrée**.
 
-   Vous pouvez sélectionner plusieurs dossiers ; toutefois, seuls les dossiers sélectionnés dans la vue actuelle sont liés. Par exemple, si vous sélectionnez un dossier, puis accédez à un dossier, le dossier que vous avez initialement sélectionné n’est pas lié.
+   Vous pouvez sélectionner plusieurs dossiers, mais seuls les dossiers sélectionnés dans la vue actuelle sont liés. Par exemple, si vous sélectionnez un dossier, puis accédez à un dossier, le dossier que vous avez initialement sélectionné n’est pas lié.
 
    >[!NOTE]
    >
@@ -309,7 +309,7 @@ Cela ne renomme pas le dossier dans l’application externe.
 
 Vous pouvez créer un dossier dans un dossier lié existant. Vous pouvez également faire glisser un autre dossier vers un dossier lié existant.
 
-1. Pour créer un dossier dans un dossier lié existant, accédez au dossier existant, puis créez le nouveau dossier comme décrit dans la section [Création de dossiers de document](../../documents/organizing-documents/create-documents-folder.md).
+1. Pour créer un dossier dans un dossier lié existant, accédez au dossier existant, puis créez le nouveau dossier comme décrit dans [Création de dossiers de document](../../documents/organizing-documents/create-documents-folder.md).
 
    Ou
 
@@ -321,10 +321,10 @@ Vous pouvez créer un dossier dans un dossier lié existant. Vous pouvez égalem
    >
    >Les restrictions suivantes s’appliquent lorsque vous faites glisser un dossier Workfront existant dans un dossier lié :
    >
-   >* Le dossier que vous faites glisser ne peut pas déjà être lié et ne peut pas contenir de contenu déjà lié.
-   >* Le dossier (y compris son contenu) que vous faites glisser ne peut pas dépasser 50 Mo.
+   >* Le dossier que vous faites glisser ne peut pas être déjà lié et ne peut pas contenir de contenu déjà lié.
+   >* Le dossier (contenu inclus) que vous faites glisser ne peut pas dépasser 50 Mo.
 
-## Ajouter un document à un dossier lié
+## Ajout d’un document à un dossier lié
 
 Lorsque vous ajoutez un document à un dossier lié via Workfront, il est automatiquement ajouté en tant que document lié.
 
@@ -347,7 +347,7 @@ Lorsque vous ajoutez un document à un dossier lié via Workfront, il est automa
 
 ## Suppression d’un document ou d’un dossier lié
 
-Lorsque vous supprimez un document ou un dossier lié de l’application externe, le document ou le dossier reste dans le système Workfront jusqu’à ce que vous le supprimiez également de Workfront.
+Lorsque vous supprimez un document ou un dossier lié de l’application externe, le document ou le dossier reste dans le système Workfront jusqu’à ce que vous le supprimiez de Workfront.
 
 1. Sélectionnez le document ou le dossier lié, puis cliquez sur **Supprimer**.
 1. Dans la boîte de confirmation qui s’affiche, cliquez sur **Oui, dissociez-le**.
@@ -362,4 +362,4 @@ Si vous souhaitez que le nom corresponde dans Workfront et dans l’application 
 
 >[!IMPORTANT]
 >
->Ne renommez pas un document Workfront lié à Dropbox ; ce faisant, le fichier dans Workfront est inaccessible. Renommez plutôt le fichier dans Dropbox, puis resynchronisez-le, comme décrit dans la section [Liaison de documents à partir d’applications externes](#synchronizing-changes-made-on-a-linked-document).
+>Ne renommez pas un document dans Workfront lié à Dropbox ; cela rend le fichier dans Workfront inaccessible. Renommez plutôt le fichier dans Dropbox, puis resynchronisez-le, comme décrit dans la section [Liaison de documents à partir d’applications externes](#synchronizing-changes-made-on-a-linked-document).

@@ -3,13 +3,13 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Présentation des rapports sur les calendriers
-description: 'Un rapport de calendrier est en fait un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher des informations sur les dates dans un rapport de calendrier pour les objets suivants : EDIT ME.'
+description: Un rapport de calendrier est en fait un rapport dynamique qui fournit une représentation visuelle de votre travail.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 Un rapport de calendrier est en fait un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher des informations sur les dates dans un rapport de calendrier pour les objets suivants :
 
 * Tâches
-* Événements
+* Problèmes
 * Projets
 
 Votre capacité à accéder aux rapports de calendrier dans [!DNL Adobe Workfront] est déterminé par la variable [!DNL Workfront] administrateur par le biais de votre niveau d’accès. Pour plus d’informations sur le niveau d’accès requis pour afficher les rapports de calendrier, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
@@ -56,4 +56,4 @@ Dans chaque rapport de calendrier, vous pouvez créer des groupes d’éléments
 
 ## Ajout de vos calendriers à un tableau de bord
 
-Vous pouvez accéder rapidement aux rapports de votre calendrier en les affichant dans un tableau de bord. Pour savoir comment ajouter un calendrier à un tableau de bord, reportez-vous à la section [Modification d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+Vous pouvez accéder rapidement aux rapports de votre calendrier en les affichant dans un tableau de bord. Pour savoir comment ajouter un calendrier à un tableau de bord, voir [Modification d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

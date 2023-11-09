@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Configuration des paramètres de BAT dans [!DNL Workfront Proof]
-description: 'Vous pouvez configurer un BAT que vous créez ou modifiez de l’une des manières suivantes : EDITEZ-MOI.'
+description: Vous pouvez configurer un BAT que vous créez ou modifiez dans des BAT.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,6 @@ Cependant, si vous avez besoin de niveaux de sécurité supérieurs pour votre p
 >
 >* *Pour que quelqu’un se connecte au BAT (lorsque la connexion requise a été activée), il doit avoir été ajouté au BAT.*
 >* *Si l’option Connexion requise est activée, les abonnements ne peuvent pas être activés.*
-
 
 Pour exiger la connexion de tous les utilisateurs qui vérifient le BAT :
 
@@ -110,9 +109,9 @@ L’abonnement est un paramètre avancé qui fonctionne avec l’URL du bon à t
 
 Par défaut, les personnes qui n&#39;ont pas été spécifiquement ajoutées au BAT et qui utilisent l&#39;URL du BAT ou le BAT pour y accéder ne peuvent afficher que le BAT en mode Lecture seule. Les personnes qui sont déjà réviseurs sur le BAT peuvent se connecter à l’aide de leur adresse électronique. Pour plus d’informations, voir [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
 
-L&#39;inscription au BAT permet aux personnes qui n&#39;ont pas été explicitement ajoutées au BAT de s&#39;inscrire au BAT (c&#39;est-à-dire de s&#39;ajouter au BAT). Le rôle et l’alerte par email que vous sélectionnez leur seront alors attribués dans les paramètres d’abonnement.
+L&#39;inscription au BAT permet aux personnes qui n&#39;ont pas été explicitement ajoutées au BAT de s&#39;inscrire au BAT (c&#39;est-à-dire de s&#39;ajouter au BAT). Le rôle et l’alerte par courrier électronique que vous sélectionnez leur seront alors attribués dans les paramètres d’abonnement.
 
-Si l&#39;inscription a été activée sur un BAT, les champs ci-dessous deviennent principaux :
+Si l&#39;inscription a été activée sur un BAT, les champs ci-dessous deviennent actifs :
 
 * **[!UICONTROL Validation des abonnés requise]** - L&#39;abonné doit cliquer sur un lien dans un email pour accéder à un BAT\
    Cette option signifie que la personne qui s&#39;abonne n&#39;aura pas un accès immédiat au BAT, mais qu&#39;elle aura un lien vers le BAT dans un email. La validation des abonnés a pour but de s’assurer que la personne a saisi une adresse électronique correcte à laquelle elle a accès.

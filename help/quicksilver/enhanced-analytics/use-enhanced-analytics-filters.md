@@ -2,14 +2,14 @@
 title: Application de filtres dans les analyses améliorées
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Les filtres de la zone Analyses améliorées vous aident à vous concentrer sur des projets spécifiques ou des types de données spécifiques. Les types de filtres que vous utilisez peuvent vous donner des informations sur - MODIFIER MOI.
+description: Les filtres de la zone Analyses améliorées vous aident à vous concentrer sur des projets spécifiques ou des types de données spécifiques.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 0%
+source-wordcount: '1484'
+ht-degree: 1%
 
 ---
 
@@ -100,7 +100,7 @@ Les filtres de champs de projet permettent de filtrer les données des projets e
 
 Les types de filtre de champ de projet suivants sont disponibles :
 
-| **Projet** | Affiche les données uniquement pour le ou les projets sélectionnés. |
+| **Projet** | Affiche les données pour les projets sélectionnés uniquement. |
 |---|---|
 | **Programme** | Affiche les données uniquement pour les projets du ou des programmes sélectionnés. |
 | **Portfolio** | Affiche les données uniquement pour les projets du ou des portefeuilles sélectionnés. |
@@ -109,7 +109,7 @@ Les types de filtre de champ de projet suivants sont disponibles :
 | **Sponsor** | Affiche les données uniquement pour les projets avec le ou les sponsors sélectionnés. |
 | **Propriétaire du projet** | Affiche les données uniquement pour les projets avec le ou les propriétaires de projet sélectionnés. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Les filtres de formulaire personnalisés fonctionnent différemment. Pour plus d’informations, voir [Ajout d’un filtre de champ de projet](#add-a-project-field-filter).
 
@@ -141,11 +141,13 @@ Pour ajouter un filtre de champ de projet :
    >   
    >   
    >   * Utilisez les flèches situées dans le coin inférieur gauche pour afficher les 50 projets suivants dans cette visualisation.\
-      >     ![](assets/pagination-350x118.png)
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * Utilisez le menu déroulant Trier par sur une visualisation pour afficher les projets dans un ordre différent.\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    Pour régler la période, reportez-vous à la section [Modification du filtre de période](#change-the-date-range-filter).
 
@@ -165,19 +167,19 @@ Pour ajouter un filtre Formulaire personnalisé :
 
    >[!NOTE]
    >
-   >Tous les types de champ Formulaire personnalisé ne peuvent pas être ajoutés à un filtre. Actuellement, l’analyse avancée ne prend en charge que les types de champ répertoriés ci-dessus.
+   >Il n’est pas possible d’ajouter tous les types de champ Formulaire personnalisé à un filtre. Actuellement, l’analyse avancée ne prend en charge que les types de champ répertoriés ci-dessus.
 
-   * **Case à cocher**, **menu déroulant** ou **bouton radio**: Sélectionnez chaque valeur du champ sélectionné que vous souhaitez inclure dans votre filtre ou cliquez sur le bouton **Tout sélectionner** .\
-      ![](assets/custom-form-filter-checkbox-350x255.png)
+   * **Case à cocher**, **menu déroulant**, ou **bouton radio**: sélectionnez chaque valeur du champ sélectionné que vous souhaitez inclure dans votre filtre ou cliquez sur le bouton **Tout sélectionner** .\
+     ![](assets/custom-form-filter-checkbox-350x255.png)
 
-   * **Date**: Utilisez les flèches pour accéder à un mois spécifique, puis sélectionnez la date dans le champ sélectionné que vous souhaitez inclure dans votre filtre.\
-      ![](assets/custom-form-filter-date-350x348.png)
+   * **Date**: utilisez les flèches pour accéder à un mois spécifique, puis sélectionnez la date dans le champ sélectionné que vous souhaitez inclure dans votre filtre.\
+     ![](assets/custom-form-filter-date-350x348.png)
 
-   * **Texte**: Entrez le texte dans le champ sélectionné que vous souhaitez inclure dans votre filtre.\
-      ![](assets/custom-form-filter-text-350x90.png)
+   * **Texte**: saisissez le texte dans le champ sélectionné que vous souhaitez inclure dans votre filtre.\
+     ![](assets/custom-form-filter-text-350x90.png)
 
-   * **Nombre**: Saisissez le nombre dans le champ sélectionné que vous souhaitez inclure dans votre filtre.\
-      ![](assets/custom-form-filter-number-350x93.png)
+   * **Nombre**: saisissez le nombre dans le champ sélectionné que vous souhaitez inclure dans votre filtre.\
+     ![](assets/custom-form-filter-number-350x93.png)
 
 1. Une fois que vous avez saisi ou sélectionné les valeurs pour lesquelles vous souhaitez filtrer, cliquez sur **Appliquer un filtre**.
 
@@ -194,11 +196,13 @@ Pour ajouter un filtre Formulaire personnalisé :
    >   
    >   
    >   * Utilisez les flèches situées dans le coin inférieur gauche pour afficher les 50 projets suivants dans cette visualisation.\
-      >     ![](assets/pagination-350x118.png)
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * Utilisez le menu déroulant Trier par sur une visualisation pour afficher les projets dans un ordre différent.\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    Pour régler la période, reportez-vous à la section [Modification du filtre de période](#change-the-date-range-filter).
 
@@ -247,4 +251,4 @@ Pour supprimer un filtre :
 
    ![](assets/remove-filter-350x213.png)
 
-   Le filtre n’est plus principal et ne s’affiche que si vous l’ajoutez à nouveau.
+   Le filtre n’est plus actif et ne s’affiche plus tant que vous ne l’ajoutez pas à nouveau.

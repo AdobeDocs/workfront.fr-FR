@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '''Afficher : calculer les différences d''heure et de date'''
-description: Créez une vue qui affiche la différence entre deux champs de date sur un objet ou entre un champ de date sur un objet et un autre champ de date sur l’objet parent.
+description: Découvrez comment calculer les différences d’heure et de date.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---

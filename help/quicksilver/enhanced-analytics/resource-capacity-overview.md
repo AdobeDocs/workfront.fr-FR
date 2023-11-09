@@ -3,13 +3,13 @@ title: Visualisation de la capacité des ressources dans les analyses amélioré
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: La visualisation Capacité des ressources indique si une équipe est terminée, sous ou à capacité. Ce calcul est basé sur - EDIT ME.
+description: La visualisation Capacité des ressources indique si une équipe est terminée, sous ou à capacité.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,13 @@ Pour connaître les conditions préalables à l’utilisation d’Analytics amé
 
 La visualisation Capacité des ressources indique si une équipe est terminée, sous ou à capacité. Ce calcul est basé sur :
 
-* **Capacité disponible**: Nombre total d’heures pendant lesquelles une équipe d’accueil peut travailler pendant la période filtrée.
+* **Capacité disponible**: nombre total d’heures pendant lesquelles une équipe d’accueil peut travailler pendant la période filtrée.
 
-   >[!NOTE]
-   >
-   >Si vous envisagez une période future, la capacité disponible est calculée en fonction de la capacité de l’équipe au cours des 7 derniers jours. Pour cette raison, aucun PTO planifié n’est pris en compte.
+  >[!NOTE]
+  >
+  >Si vous envisagez une période future, la capacité disponible est calculée en fonction de la capacité de l’équipe au cours des 7 derniers jours. Pour cette raison, aucun PTO planifié n’est pris en compte.
 
-* **Capacité planifiée**: Le nombre total d’heures de travail planifiées attendues de la part de l’équipe d’accueil au cours de la période filtrée.
+* **Capacité planifiée**: nombre total d’heures de travail planifiées attendues de la part de l’équipe d’accueil au cours de la période filtrée.
 
 Cette comparaison des heures prévues et des heures planifiées réelles d’une équipe peut vous aider à déterminer si vous n’affectez pas suffisamment de travail à l’équipe locale ou si elle subit un épuisement dû à une charge de travail importante.
 
@@ -69,21 +69,21 @@ Cette comparaison des heures prévues et des heures planifiées réelles d’une
 
 Dans la visualisation de la capacité de ressource, vous pouvez voir les détails suivants :
 
-* **Capacité planifiée**: En ligne avec le nom d’une équipe d’accueil, le cercle bleu représente le nombre d’heures planifiées attribuées à l’équipe d’accueil.
+* **Capacité planifiée**: en ligne avec le nom d’une équipe d’accueil, le cercle bleu représente le nombre d’heures planifiées attribuées à l’équipe d’accueil.
 
-   ![](assets/resource-capacity-blue-circle.png)
+  ![](assets/resource-capacity-blue-circle.png)
 
-* **Capacité réelle**: Avec le nom d’une équipe d’accueil, la ligne verticale représente le nombre d’heures disponibles pour l’équipe d’accueil.
+* **Capacité réelle**: en ligne avec le nom d’une équipe d’accueil, la ligne verticale représente le nombre d’heures disponibles pour l’équipe d’accueil.
 
-   ![](assets/resource-capacity-vertical-line.png)
+  ![](assets/resource-capacity-vertical-line.png)
 
-* **Capacité excédentaire**: Lorsque la ligne horizontale et le cercle bleu s’affichent à droite de la ligne verticale, l’équipe d’accueil se voit attribuer plus de travail qu’elle ne peut en faire en nombre d’heures disponibles. Cela signifie que l’équipe peut être surchargée pendant la période filtrée. Le nombre d’heures restantes que l’équipe doit terminer s’affiche à droite du cercle bleu.
+* **Capacité excédentaire**: lorsque la ligne horizontale et le cercle bleu s’affichent à droite de la ligne verticale, l’équipe d’accueil se voit attribuer plus de travail qu’elle ne peut en faire en nombre d’heures disponibles. Cela signifie que l’équipe peut être surchargée pendant la période filtrée. Le nombre d’heures restantes que l’équipe doit terminer s’affiche à droite du cercle bleu.
 
-   ![](assets/resource-capacity-over-capacity.png)
+  ![](assets/resource-capacity-over-capacity.png)
 
-* **Sous capacité**: Lorsque la ligne horizontale et le cercle bleu s’affichent à gauche de la ligne verticale, l’équipe d’accueil dispose de plus d’heures disponibles que le nombre d’heures de travail planifiées qui leur ont été affectées. Cela signifie que l’équipe peut être en capacité pendant la période filtrée. Le nombre supplémentaire d’heures disponibles pour que l’équipe d’accueil termine le travail s’affiche à gauche du cercle bleu.
+* **Sous capacité**: lorsque la ligne horizontale et le cercle bleu s’affichent à gauche de la ligne verticale, l’équipe d’accueil dispose de plus d’heures disponibles que le nombre d’heures de travail planifiées qui leur ont été affectées. Cela signifie que l’équipe peut être en capacité pendant la période filtrée. Le nombre supplémentaire d’heures disponibles pour que l’équipe d’accueil termine le travail s’affiche à gauche du cercle bleu.
 
-   ![](assets/resource-capacity-under-capacity.png)
+  ![](assets/resource-capacity-under-capacity.png)
 
 Le survol d’une ligne indique le nombre exact d’heures de capacité planifiée et de capacité disponible, ainsi que le nombre d’heures pendant lesquelles l’équipe d’accueil est supérieure ou inférieure à sa capacité.
 
@@ -112,7 +112,7 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    Pour plus d’informations sur l’ajout de filtres dans les analyses améliorées, voir [Application de filtres dans les analyses améliorées](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   Une fois que vous avez ajouté des filtres, les données de 50 projets au maximum s’affichent et les filtres restent principaux même après avoir quitté la page ou vous être déconnecté de Workfront.
+   Une fois que vous avez ajouté des filtres, les données de 50 projets au maximum s’affichent et les filtres restent actifs même après avoir quitté la page ou vous être déconnecté de Workfront.
 
 1. (Facultatif) Pour effectuer un zoom avant sur une période, sélectionnez un point de la visualisation pour le début de la période et faites glisser le curseur jusqu’à la fin de la période.
 

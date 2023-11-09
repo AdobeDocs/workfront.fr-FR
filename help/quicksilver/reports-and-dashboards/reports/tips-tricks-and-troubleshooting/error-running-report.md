@@ -3,18 +3,18 @@ content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: '"Message d’erreur lors de l’exécution d’un rapport : "Vous n’êtes pas actuellement connecté.""'
-description: 'Vous devez disposer des droits d’accès suivants pour effectuer les étapes de cet article : MODIFIER MOI.'
+description: Découvrez le message d’erreur "Vous n’êtes pas actuellement connecté".
 author: Nolan
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '265'
 ht-degree: 4%
 
 ---
 
-# Message d’erreur lors de l’exécution d’un rapport : &quot;Vous n’êtes pas encore connecté.&quot;
+# Message d’erreur lors de l’exécution d’un rapport : &quot;Vous n’êtes pas actuellement connecté.&quot;
 
 ## Exigences d’accès
 
@@ -32,7 +32,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planification, Travail</p> </td> 
+   <td> <p>Planifier, travailler</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -66,7 +66,7 @@ Pour ajuster le rapport et afficher les résultats :
 1. Accédez au rapport.
 1. Cliquez sur **Actions de rapport** > **Modifier** > **Paramètres des rapports**.
 
-1. Indiquez le nom d’un utilisateur principal dans la variable **Exécutez ce rapport avec les droits d’accès de :** champ .\
+1. Indiquez le nom d’un utilisateur actif dans la variable **Exécutez ce rapport avec les droits d’accès de :** champ .\
    Ou\
    Laissez le champ **Exécutez ce rapport avec les droits d’accès de :** champ vide.
 

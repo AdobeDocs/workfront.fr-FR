@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Imprimer et exporter des commentaires dans [!DNL Workfront Proof]
-description: 'La synthèse des commentaires est accessible directement à partir des zones suivantes : MODIFIER MOI.'
+description: La synthèse des commentaires est accessible dans le BAT Workfront.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ La synthèse des commentaires est accessible directement à partir des zones sui
 
 * [Visionneuse de BAT](#the-proof-viewer)
 * [Page Détails du BAT](#the-proof-details-page)
-* [Le [!DNL Proof] Menu Actions](#the-proof-actions-menu)
+* [La variable [!DNL Proof] Menu Actions](#the-proof-actions-menu)
 
 ### Visionneuse de BAT {#the-proof-viewer}
 
@@ -40,7 +40,7 @@ Vous pouvez imprimer la synthèse des commentaires du BAT en cliquant sur le bou
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
-### Le [!DNL Proof] Menu Actions {#the-proof-actions-menu}
+### La variable [!DNL Proof] Menu Actions {#the-proof-actions-menu}
 
 Vous pouvez imprimer la synthèse des commentaires du BAT en cliquant sur le bouton **[!UICONTROL Imprimer]** dans le [!UICONTROL Actions de BAT] .
 
@@ -64,10 +64,10 @@ Sur la page de résumé des commentaires, vous avez le choix entre les options d
 
 La vue Miniature affiche chaque commentaire dans l’ordre, ainsi que le thread complet de chaque commentaire. Vous pouvez également trier les commentaires et afficher la miniature de chaque commentaire avec des balises ajoutées.
 
-Pour imprimer la vue miniature, cliquez sur le bouton **[!UICONTROL Imprimante]** dans le coin supérieur droit de la page, puis sélectionnez l’une des options suivantes :
+Pour imprimer la vue miniature, cliquez sur le bouton **[!UICONTROL Printer]** dans le coin supérieur droit de la page, puis sélectionnez l’une des options suivantes :
 
 * Tri par identifiant de commentaire ou page (1)
-* Miniature de chaque commentaire auquel des balises ont été ajoutées (2)
+* Miniature de chaque commentaire auquel des annotations ont été ajoutées (2)
 
 ![PV_thumbnail.png](assets/pv-thumbnail-350x290.png)
 
@@ -75,7 +75,7 @@ Pour imprimer la vue miniature, cliquez sur le bouton **[!UICONTROL Imprimante]*
 
 La vue de page entière affiche chaque page dans l’ordre, ainsi que les commentaires sur cette page et une épingle indiquant l’emplacement des balises du commentaire sur la page.
 
-Pour imprimer la page vue complète, cliquez sur le bouton **[!UICONTROL Imprimante]** dans le coin supérieur droit de la page.
+Pour imprimer la page vue complète, cliquez sur le bouton **[!UICONTROL Printer]** dans le coin supérieur droit de la page.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
@@ -88,7 +88,7 @@ Pour télécharger le [!DNL Excel] summary:
 
 Pour télécharger le [!DNL Excel] résumé de la page Détails du BAT :
 
-1. Cliquez sur Exporter pour **[!DNL Excel]** icône . (2)
+1. Cliquez sur Exporter pour **[!DNL Excel]** Icône (2)
 1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Export vers PDF

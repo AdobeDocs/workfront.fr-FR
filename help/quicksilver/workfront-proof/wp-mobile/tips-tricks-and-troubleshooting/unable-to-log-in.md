@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: Impossible de se connecter au [!DNL Workfront Proof] Application mobile
-description: Lorsque vous tentez de vous connecter à l’application mobile Workfront BAT, elle renvoie la valeur - Modifiez-moi.
+description: Résolution des problèmes de connexion à l’application mobile Workfront BAT.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Problème
 
-Lors de la tentative de connexion à la variable [!DNL Workfront Proof] Application mobile renvoyée :
+Lors de la tentative de connexion à la variable [!DNL Workfront Proof] L’application mobile renvoyée :
 
 &quot;Votre nom d’utilisateur ou mot de passe est incorrect. Veuillez réessayer.&quot;
 
@@ -31,10 +31,10 @@ Ce problème se produit lorsque vous lancez la [!DNL Workfront Proof] Applicatio
 
 ## Solution
 
-Lorsque vous utilisez les deux [!DNL Workfront] &amp; [!DNL Workfront Proof],
+Lors de l’utilisation des deux [!DNL Workfront] &amp; [!DNL Workfront Proof],
 
 1. Assurez-vous que la variable [!DNL Workfront] Application mobile et [!DNL Workfront Proof] Les applications mobiles sont installées sur votre appareil.
 1. Connectez-vous au [!DNL Workfront] Application mobile et accédez au document à prouver.
 1. Cliquez sur l’icône à trois points dans le coin supérieur droit de l’écran, puis cliquez sur **[!UICONTROL Vérification]**.
-Le [!DNL Workfront Proof] L’application mobile lance automatiquement la connexion.
+La variable [!DNL Workfront Proof] L’application mobile lance automatiquement la connexion.
 Vous pouvez désormais utiliser la vérification dans le document.

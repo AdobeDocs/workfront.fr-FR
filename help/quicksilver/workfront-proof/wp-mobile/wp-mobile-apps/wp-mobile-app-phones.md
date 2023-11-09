@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-mobile-apps
 title: Application mobile Workfront BAT
-description: Téléchargez la [!DNL Workfront Proof] à partir d’Apple App Store ou de Google Store pour être productif où que vous soyez. Le [!DNL Workfront Proof] L’application dispose des fonctionnalités suivantes sur iPhone et iPod Touch - EDIT ME.
+description: Découvrez l’application mobile Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ ht-degree: 0%
 >
 >Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
 
-Téléchargez la [!DNL Workfront Proof] à partir d’Apple App Store ou de Google Store pour être productif où que vous soyez. Le [!DNL Workfront Proof] L’application dispose des fonctionnalités suivantes sur iPhone et iPod Touch :
+Téléchargez la [!DNL Workfront Proof] à partir d’Apple App Store ou de Google Store pour être productif où que vous soyez. La variable [!DNL Workfront Proof] L’application dispose des fonctionnalités suivantes sur iPhone et iPod Touch :
 
 * Affichage, révision et approbation de BAT statiques et audio-visuels
 * Afficher, ajouter et répondre aux commentaires
 * Gérer vos BAT via votre tableau de bord et vos vues
 
-Vous n’avez pas besoin d’être un utilisateur de [!DNL Workfront Proof] (c’est-à-dire posséder vos propres informations de connexion) pour passer en revue et approuver un BAT via l’application iOS. Tant que vous téléchargez l’application sur votre appareil iOS et accédez à votre URL personnelle via votre application de messagerie iOS, vous pouvez la consulter et l’approuver en déplacement.
+Vous n’avez pas besoin d’utiliser [!DNL Workfront Proof] (c’est-à-dire posséder vos propres informations de connexion) pour passer en revue et approuver un BAT via l’application iOS. Tant que vous téléchargez l’application sur votre appareil iOS et accédez à votre URL personnelle via votre application de messagerie iOS, vous pouvez la consulter et l’approuver en déplacement.
 
 ## Exigences relatives aux périphériques
 
 Nécessite iOS 7.0 ou version ultérieure. Android 4.0 et versions ultérieures. Compatible avec iPhone, iPad et iPod touch.
 
-## Télécharger et installer l’application
+## Téléchargement et installation de l’application
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ Téléchargez notre [!DNL Workfront Proof] Application mobile directement depuis
 
 Pour les appareils iOS, veillez à désinstaller le précédent [!DNL Workfront Proof] pour les appareils iOS avant d’installer la nouvelle application.
 
-Le [!DNL Workfront Proof] détecte automatiquement le type d’appareil que vous utilisez. Si vous souhaitez utiliser l’application sur votre tablette, reportez-vous à la section [[!DNL Workfront Proof] application mobile pour tablettes](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
+La variable [!DNL Workfront Proof] détecte automatiquement le type d’appareil que vous utilisez. Si vous souhaitez utiliser l’application sur votre tablette, voir [[!DNL Workfront Proof] application mobile pour tablettes](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
 
 >[!NOTE]
 >
@@ -73,14 +73,14 @@ Par défaut, le tableau de bord ouvre la vue Total des bons à tirer . Cette vue
 
 ![Capture d’écran_2016-04-28-20-05-34a.png](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
 
-| **Heure d’activation** | Affiche tous les principaux BAT de votre compte que vous avez l’autorisation de voir et qui n’ont pas d’échéance ou qui se trouvent plus de 24 heures avant la date limite. |
+| **Heure d’activation** | Affiche tous les bons à tirer actifs de votre compte que vous êtes autorisé à voir et qui ne comportent aucune date limite ou qui se trouvent dans un délai supérieur à 24 heures. |
 |---|---|
 | **Vue des risques** | Affiche tous les bons à tirer pour lesquels la date limite est inférieure à 24 heures. |
 | **Affichage en retard** | Répertorie tous les BAT pour lesquels toutes les actions pour lesquelles la date limite n’est pas respectée ne sont pas terminées. |
 | **Affichage récent** | Inclut les bons à tirer récemment consultés par vous-même et que vous détenez, ainsi que les autorisations à afficher selon vos autorisations de profil et qui ont été partagés avec vous. Cette vue affiche uniquement les bons à tirer que vous avez vous-même ouverts (via l’option [!DNL Workfront Proof] Visionneuse ou via la page Détails du BAT). |
-| **Lien de courriel** | Pour ouvrir un BAT à partir de votre email, ouvrez simplement l’email dans votre application de messagerie, cliquez sur le bouton [!UICONTROL Accéder au BAT] lien du bouton dans l&#39;email (1) et vous serez amené au BAT dans la [!DNL Workfront Proof] application. |
+| **Lien de courrier électronique** | Pour ouvrir un BAT à partir de votre email, ouvrez simplement l’email dans votre application de messagerie, cliquez sur le bouton [!UICONTROL Accéder au BAT] lien du bouton dans l&#39;email (1) et vous serez amené au BAT dans la [!DNL Workfront Proof] application. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Vérification d’un BAT statique dans l’application
 
@@ -92,7 +92,7 @@ Lorsque vous ouvrez un BAT dans l’application mobile, vous pouvez effectuer le
 * Prenez une décision (3).
 * Accédez au menu (4).
 * Mettez le BAT à l’échelle en pinçant l’écran.
-   ![IMG_0223.png](assets/img-0223-350x541.png)
+  ![IMG_0223.png](assets/img-0223-350x541.png)
 
 ## Ajout de commentaires et de réponses
 
@@ -116,10 +116,10 @@ Lorsque vous ouvrez un BAT dans l’application mobile, vous pouvez effectuer le
 1. Effectuez l’une des opérations suivantes :
 
    * Pour répondre à un commentaire, appuyez sur le bouton **[!UICONTROL Répondre]** (3).
-   * Pour revenir à l’image du BAT, appuyez sur la [!UICONTROL légende] icône .
+   * Pour revenir à l’image du BAT, appuyez sur la [!UICONTROL légende] Icône
    * Pour afficher le commentaire complet et ses réponses, appuyez sur le commentaire lui-même.
 
-      ![response_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
+     ![response_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
 
    * Pour appliquer une action à un commentaire :
 
@@ -173,7 +173,6 @@ Vous pouvez ajouter une annotation (par exemple, une zone surlignant une zone du
    >* Si vous définissez des motifs de décision, ils s’affichent sur la page [!UICONTROL Envoyer votre décision] pour que vous puissiez choisir.
 
 
-
    Si vous avez déjà soumis une décision et que vous souhaitez la modifier ou la supprimer, vous pouvez facilement le faire. une nouvelle option, **[!UICONTROL Supprimer ma décision]** (6), apparaît sur la [!UICONTROL Envoyer votre décision] écran.
 
    ![remove_choice.png](assets/remove-decision-350x543.png)
@@ -182,7 +181,7 @@ Vous pouvez ajouter une annotation (par exemple, une zone surlignant une zone du
 
 La vérification d’un BAT audio-vidéo dans l’application iOS est tout aussi simple que la révision d’un fichier statique :
 
-1. Appuyez sur le [!UICONTROL lecture/pause] pour lire ou suspendre la vidéo (1).
+1. Appuyez sur le bouton [!UICONTROL lecture/pause] pour lire ou suspendre la vidéo (1).
 1. Pour parcourir la vidéo, appuyez sur la [!UICONTROL navigation] bar (2).
 1. Pour laisser un commentaire, appuyez sur le bouton **[!UICONTROL Commentaire]** (3), puis suivez les instructions décrites ci-dessus.
 

@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Disposition de page dans l’onglet Vues du BAT Workfront
-description: 'Vous pouvez ajuster la mise en page dans l’onglet Vues . Les options de mise en page suivantes sont disponibles : MODIFIER MOI.'
+description: Vous pouvez ajuster la mise en page dans l’onglet Vues .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
@@ -26,24 +26,24 @@ Vous pouvez ajuster la mise en page sur la page [!UICONTROL Vues] . Les options 
 ## Liste
 
 * Affiche le nom du BAT ou du fichier ainsi que les colonnes de vue standard
-* Le [!UICONTROL actions de BAT] se trouve à droite de la ligne (1).
+* La variable [!UICONTROL actions de BAT] se trouve à droite de la ligne (1).
 
-   ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
+  ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
 
 ## Liste de miniatures
 
 * Affiche l’icône image/fichier du BAT, le nom du BAT ou du fichier avec les colonnes d’affichage standard.
-* Le [!UICONTROL actions de BAT] se trouve à droite de la ligne (1).
-* Notez qu’il s’agit de la vue standard par défaut.
+* La variable [!UICONTROL actions de BAT] se trouve à droite de la ligne (1).
+* Il s’agit de la vue standard par défaut.
 
-   ![Page_views_-_thumbnails_list_view.png](assets/page-views---thumbnails-list-view-350x164.png)
+  ![Page_views_-_thumbnails_list_view.png](assets/page-views---thumbnails-list-view-350x164.png)
 
 ## Miniatures
 
 * Affiche uniquement l’icône image/fichier du BAT et le nom du BAT/fichier.
-* Le [!UICONTROL actions de BAT] se trouve dans le coin supérieur droit de chaque BAT (1).
+* La variable [!UICONTROL actions de BAT] se trouve dans le coin supérieur droit de chaque BAT (1).
 
-   ![Page_views_-_thumbnails_view.png](assets/page-views---thumbnails-view-350x156.png)
+  ![Page_views_-_thumbnails_view.png](assets/page-views---thumbnails-view-350x156.png)
 
 ## Modification de la mise en page
 

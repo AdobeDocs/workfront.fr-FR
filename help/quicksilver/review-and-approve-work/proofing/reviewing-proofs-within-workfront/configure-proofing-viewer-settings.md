@@ -2,13 +2,13 @@
 product-area: documents;setup
 navigation-topic: review-a-proof
 title: Configuration des paramètres de la visionneuse de vérification
-description: Vous pouvez configurer les paramètres suivants pour la visionneuse de vérification de l’intégrité Web et la visionneuse de vérification de l’intégrité de l’appli de bureau - Modifiez-moi.
+description: Vous pouvez configurer les paramètres de la visionneuse de vérification de l’intégrité du web et de la visionneuse de vérification de l’intégrité du bureau.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Vous pouvez configurer les paramètres suivants pour la visionneuse de vérifica
 * Si les outils de balisage s’affichent dans la partie supérieure de la visionneuse de vérification ou dans un menu déroulant.
 * Les notifications électroniques que vous recevez en tant que validant sur le BAT que vous avez ouvert.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the Desktop Proofing Viewer is the default viewer for all types of proofs (static and video, as well as interactive).</li>
   -->
 
@@ -33,7 +33,7 @@ Vous pouvez configurer les paramètres suivants pour la visionneuse de vérifica
 
 * Cette section décrit comment vous souhaitez que les liens du contenu du site web s’ouvrent dans la visionneuse.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the background color of the Desktop Proofing Viewer is the default near-black color or white.</li>
   -->
 
@@ -50,11 +50,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionner ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
@@ -75,7 +75,7 @@ Pour configurer les paramètres de la visionneuse de vérification :
 
 1. Ouvrez la visionneuse de test Web ou la visionneuse de test de bureau de l’une des manières suivantes :
 
-   * Si vous utilisez le BAT dans Adobe Workfront, accédez à une liste de documents contenant un BAT que vous souhaitez afficher, survolez le document avec la souris, puis cliquez sur **BAT ouvert**.
+   * Si vous utilisez le BAT dans Adobe Workfront, accédez à une liste de documents contenant un BAT à afficher, survolez le document avec la souris, puis cliquez sur **BAT ouvert**.
    * Si vous utilisez le Bon à tirer Workfront, cliquez sur le bouton **Accéder à Bon à tirer** Icône du BAT dans le tableau de bord ou une liste d’affichages ![](assets/go-to-proof-blue-icon.png).
 
 1. Si la barre d’outils gauche ne s’affiche pas, cliquez sur le bouton **Menu** , située dans le coin supérieur gauche de la visionneuse de BAT Web.
@@ -88,21 +88,21 @@ Pour configurer les paramètres de la visionneuse de vérification :
 
    Les paramètres disponibles peuvent varier en fonction du type de BAT ouvert.
 
-   * **Afficher les balises** (toujours disponible dans la visionneuse de proxy web et la visionneuse de vérification de l’appli de bureau) : Il s’agit des marques de commentaire que les réviseurs ajoutent aux bons à tirer lorsqu’ils utilisent les outils de balisage. Si vous les désactivez, vous pouvez toujours les voir lorsque vous cliquez sur un commentaire dans la liste de commentaires.
+   * **Afficher les balises** (toujours disponible dans la visionneuse de BAT et la visionneuse de BAT) : il s’agit des marques de commentaire que les réviseurs ajoutent aux bons à tirer lorsqu’ils utilisent les outils de balisage. Si vous les désactivez, vous pouvez toujours les voir lorsque vous cliquez sur un commentaire dans la liste de commentaires.
 
-      Ce paramètre affecte tous les bons à tirer que vous ouvrez.
+     Ce paramètre affecte tous les bons à tirer que vous ouvrez.
 
-   * **Afficher les épingles** (toujours disponible dans la visionneuse de proxy web et la visionneuse de vérification de l’appli de bureau) : Il s’agit des pin’s numérotés que les réviseurs ajoutent aux BAT lorsqu’ils utilisent les outils de balisage. Ils indiquent où et dans quel ordre le validant a ajouté des commentaires. Si vous les désactivez, vous pouvez toujours les voir lorsque vous cliquez sur un commentaire dans la liste de commentaires.
+   * **Afficher les pin** (toujours disponible dans la visionneuse de vérification de l’intégrité web et la visionneuse de vérification de l’intégrité de l’appli de bureau) : il s’agit des pin-Ping numérotés que les réviseurs ajoutent aux bons à tirer lorsqu’ils utilisent les outils de balisage. Ils indiquent où et dans quel ordre le validant a ajouté des commentaires. Si vous les désactivez, vous pouvez toujours les voir lorsque vous cliquez sur un commentaire dans la liste de commentaires.
 
-      Ce paramètre affecte tous les bons à tirer que vous ouvrez.
+     Ce paramètre affecte tous les bons à tirer que vous ouvrez.
 
-   * **Utilisation d’outils de balisage étendus** (toujours disponible dans la visionneuse de proxy web et la visionneuse de vérification de l’appli de bureau) : Par défaut, les options de l’outil de balisage s’affichent dans la partie supérieure de la visionneuse de vérification. Vous pouvez les configurer pour qu’ils s’affichent dans un menu vertical qui s’ouvre uniquement lorsque vous cliquez dessus.
+   * **Utilisation d’outils de balisage étendus** (toujours disponible dans la visionneuse de vérification de l’intégrité web et la visionneuse de vérification de l’intégrité du bureau) : par défaut, les options de l’outil de balisage s’affichent en haut de la visionneuse de vérification de l’intégrité. Vous pouvez les configurer pour qu’ils s’affichent dans un menu vertical qui s’ouvre uniquement lorsque vous cliquez dessus.
 
-      Ce paramètre est appliqué à tous les bons à tirer que vous ouvrez.
+     Ce paramètre est appliqué à tous les bons à tirer que vous ouvrez.
 
-   * **M’envoyer des notifications par e-mail sur** (toujours disponible dans la visionneuse de proxy web et la visionneuse de vérification de l’appli de bureau) : Cliquez sur l’une des options ci-dessous. Ce paramètre affecte uniquement le BAT que vous avez ouvert. Pour plus d’informations, voir [Présentation des notifications pour les commentaires de BAT et les décisions](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **M’envoyer des notifications par e-mail sur** (toujours disponible dans la visionneuse de vérification de l’intégrité Web et la visionneuse de vérification de l’intégrité de l’appli de bureau) : cliquez sur l’une des options ci-dessous. Ce paramètre affecte uniquement le bon à tirer ouvert. Pour plus d’informations, voir [Présentation des notifications pour les commentaires de BAT et les décisions](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -132,20 +132,20 @@ Pour configurer les paramètres de la visionneuse de vérification :
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">Aucun email</td> 
-        <td>Workfront n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est Résumé quotidien (également appelé Non défini). Si vous, ou vos réviseurs, n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td> 
+        <td>Workfront n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est Résumé quotidien (également appelé Non défini). Si vous ou vos réviseurs n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td> 
        </tr> 
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **Lorsque vous cliquez sur des liens hypertexte dans un BAT** (disponible uniquement dans la visionneuse de vérification de l’appli de bureau) : Sélectionnez une option pour spécifier ce qui se passe dans la visionneuse de vérification de l’appli de bureau lorsque vous cliquez sur un lien défini pour s’ouvrir dans un nouvel onglet ou une nouvelle fenêtre du navigateur.
+   * **Lorsque vous cliquez sur des liens hypertexte dans un BAT** (disponible uniquement dans la visionneuse de vérification de l’appli de bureau) : sélectionnez une option pour spécifier ce qui se passe dans la visionneuse de vérification de l’appli de bureau lorsque vous cliquez sur un lien défini pour s’ouvrir dans un nouvel onglet ou une nouvelle fenêtre du navigateur.
 
-      Ce paramètre est appliqué à tous les BAT interactifs que vous ouvrez.
+     Ce paramètre est appliqué à tous les BAT interactifs que vous ouvrez.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -159,17 +159,17 @@ Pour configurer les paramètres de la visionneuse de vérification :
        </tr> 
        <tr> 
         <td role="rowheader">Me demander à chaque fois</td> 
-        <td> <p>Vous êtes invité à chaque fois que vous souhaitez ouvrir le lien dans la visionneuse de vérification de l’appli de bureau ou dans le navigateur. Si vous ouvrez le lien dans la visionneuse de vérification de l’appli de bureau, vous pouvez tester le contenu lié. Si vous ouvrez le lien dans le navigateur, vous ne pourrez pas tester le contenu lié.</p> <p> <img src="assets/proof-desktop-alwaysask-350x243.png" alt="proof_desktop_alwaysask.png" style="width: 350;height: 243;"> </p> <p>Ce paramètre affecte uniquement le BAT que vous avez ouvert.</p> </td> 
+        <td> <p>Vous êtes invité à chaque fois que vous souhaitez ouvrir le lien dans la visionneuse de vérification de l’appli de bureau ou dans le navigateur. Si vous ouvrez le lien dans la visionneuse de vérification de l’appli de bureau, vous pouvez tester le contenu lié. Si vous ouvrez le lien dans le navigateur, vous ne pourrez pas tester le contenu lié.</p> <p> <img src="assets/proof-desktop-alwaysask-350x243.png" alt="proof_desktop_alwaysask.png" style="width: 350;height: 243;"> </p> <p>Ce paramètre affecte uniquement le bon à tirer ouvert.</p> </td> 
        </tr> 
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
-   * **Effacer le cache**: Efface les données du cache du navigateur qui peuvent être enregistrées avec un BAT interactif que vous affichez. Cela permet à un contenu tel que des fenêtres contextuelles (qui peuvent être bloquées par les données du cache du navigateur) de s’afficher dans la visionneuse de vérification de l’appli de bureau.
+   * **Effacer le cache**: efface les données du cache du navigateur qui peuvent être enregistrées avec un BAT interactif que vous affichez. Cela permet à un contenu tel que des fenêtres contextuelles (qui peuvent être bloquées par les données du cache du navigateur) de s’afficher dans la visionneuse de vérification de l’appli de bureau.
 
-      Les données effacées comprennent le cache HTTP (par exemple les images à réutiliser après l’actualisation de la page suivante) et le cache de données de stockage Web (comme les cookies et les données qui identifient les utilisateurs).
+     Les données effacées comprennent le cache HTTP (par exemple les images à réutiliser après l’actualisation de la page suivante) et le cache de données de stockage Web (comme les cookies et les données qui identifient les utilisateurs).
 
-      Ce paramètre affecte uniquement le BAT que vous avez ouvert.
+     Ce paramètre affecte uniquement le bon à tirer ouvert.

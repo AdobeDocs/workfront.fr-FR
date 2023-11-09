@@ -2,13 +2,13 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configuration de l’intégration de Experience Manager Assets Essentials
-description: Connectez votre travail à votre contenu dans Experience Manager Assets Essentials - EDIT ME.
+description: Connectez votre travail à votre contenu dans Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: a6cb6d4780f2b1c3e77547caf7324e882d2dab4f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '641'
 ht-degree: 4%
 
 ---
@@ -83,7 +83,7 @@ Vous devez disposer des éléments suivants :
    <tr>
       <td><strong>URL de navigation</strong>
       </td>
-      <td>Le système renseigne automatiquement l’URL de navigation. Cette URL est utilisée pour créer un lien vers l’instance Assets Essentials de votre entreprise à partir du menu principal pour un accès rapide.
+      <td>Le système renseigne automatiquement l’URL de navigation. Cette URL est utilisée pour créer un lien vers l’instance Assets Essentials de votre entreprise à partir du menu principal afin d’y accéder rapidement.
       </td>
    </tr>
    <tr>

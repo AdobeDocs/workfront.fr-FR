@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Dépannage - police d’interface corrompue dans la visionneuse de vérification sur Mac
-description: 'Si vous constatez que la visionneuse de vérification ne dispose pas d’une police d’interface correcte, cela peut être dû à des problèmes liés aux polices sur votre ordinateur Mac. Pour résoudre le problème, essayez les solutions suivantes : MODIFIEZ-MOI.'
+description: Polices de l’interface corrompues dans la visionneuse de vérification sur Mac
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Si vous constatez que la visionneuse de vérification ne dispose pas d’une pol
 
 ## Suppression des doublons de polices
 
-Vérifiez s’il existe des polices en double dans le système.
+Vérifiez si le système contient des polices en double.
 
 1. Fermez le navigateur que vous utilisez.
 1. Ouvrez l’application Font Book dans votre dossier Applications .
@@ -69,8 +69,8 @@ La visionneuse de vérification héritée est basée sur [!DNL Flash Player] et 
 1. Appuyez sur la touche Option ( ⌥ Alt) pour ouvrir la [!UICONTROL Bibliothèque] dans la liste déroulante.
 1. Tout en maintenant la touche Option enfoncée, cliquez sur le bouton [!UICONTROL Bibliothèque] dossier.
 1. Après la [!UICONTROL Bibliothèque] s’ouvre, accédez à [!UICONTROL Polices] dossier situé dans .
-1. Déplacez toutes les polices situées dans le [!UICONTROL Polices] dans un autre dossier, peut-être sur votre bureau (ne créez pas un autre dossier dans le dossier Polices ).
-1. Cette action masque toutes vos polices personnalisées ; les polices système standard doivent toujours être enregistrées à leur emplacement distinct.
+1. Déplacez toutes les polices situées dans la fonction [!UICONTROL Polices] dans un autre dossier, peut-être sur votre bureau (ne créez pas un autre dossier dans le dossier Polices ).
+1. Cette action masque toutes vos polices personnalisées. Les polices système standard doivent toujours être enregistrées à leur emplacement distinct.
 1. Quitter et redémarrer [!DNL Safari].
 1. rouvrez le BAT.
 

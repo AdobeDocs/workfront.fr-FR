@@ -2,13 +2,13 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Mettre à jour votre travail dans Adobe Photoshop
-description: 'Vous pouvez mettre à jour votre travail dans les zones suivantes : MODIFIER MOI.'
+description: Vous pouvez mettre à jour votre travail à l’aide du module externe Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ Vous pouvez mettre à jour votre travail à partir des zones suivantes du module
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Événements</li> 
+     <li>Problèmes</li> 
      <li>Documents</li> 
     </ul> </td> 
   </tr> 
