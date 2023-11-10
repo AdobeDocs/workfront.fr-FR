@@ -6,9 +6,9 @@ description: Les notifications suivantes vous alertent sur les activités qui se
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
    <td><strong>Instantané</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Une erreur a été détectée et requiert mon attention</strong> </p> <p>L'utilisateur qui répond à un commentaire par email reçoit une notification par email lorsque la réponse ne parvient pas à être diffusée.</p> <p>L'objet de l'email de notification instantanée est le suivant : <em>[!UICONTROL Échec du traitement le] &lt;subject of="" original="" message=""&gt;</em></p> <p>Pour plus d’informations sur l’utilisation des emails pour répondre aux commentaires, voir .<strong></strong></p> </td> 
+   <td> <p><strong>Une erreur a été détectée et requiert mon attention</strong> </p> <p>L'utilisateur qui répond à un commentaire par email reçoit une notification par email lorsque la réponse ne parvient pas à être diffusée.</p> <p>L'objet de l'email de notification instantanée est le suivant : <em>[!UICONTROL Échec du traitement le] &lt;subject of="" original="" message=""&gt;</em></p> <p>Pour plus d’informations sur l’utilisation de la messagerie pour répondre aux commentaires, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">Répondre aux notifications par e-mail</a>.</p> </td>
    <td> </td> 
    <td><strong>Instantané</strong> </td> 
   </tr> 

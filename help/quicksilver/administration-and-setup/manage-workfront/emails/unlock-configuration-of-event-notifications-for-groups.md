@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 325fb9e58d32d1b6cfa1035cd4a25da4b66f6955
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Lorsqu’un administrateur configure une notification d’événement pour un gr
 >* Un administrateur Workfront peut déverrouiller et reverrouiller la configuration d’une notification d’événement dans Adobe Workfront Classic et dans la nouvelle expérience Adobe Workfront. Cependant, un administrateur de groupe peut configurer cette notification d’événement pour un groupe uniquement dans la nouvelle expérience Adobe Workfront. Les administrateurs de groupe qui utilisent Adobe Workfront Classic peuvent passer à la nouvelle expérience Adobe Workfront pour configurer des notifications d’événement déverrouillées pour un groupe, puis revenir à Adobe Workfront Classic pour voir les modifications en vigueur.
 >* Les sous-groupes héritent des configurations de notification d’événement au niveau du groupe des groupes de niveau supérieur.
 >
-
 
 ## Exigences d’accès
 
@@ -64,11 +63,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur **Email** > **Notifications**.
 
 1. Assurez-vous que la variable **Notifications d’événement** est ouvert.
-1. Cliquez sur l’icône située à droite de la notification pour la basculer vers le déverrouillé. ![](assets/lock-toggle-button.png) ou verrouillé ![](assets/unlock-toggle-button.png) position.
+1. Cliquez sur l’icône située à droite de la notification pour la basculer vers le fichier verrouillé. ![Icône Verrouiller](assets/lock-toggle-button.png) ou déverrouillé ![Icône Déverrouiller](assets/unlock-toggle-button.png) position.
 
    Ou
 
-   Si vous souhaitez déverrouiller ou verrouiller plusieurs notifications à la fois, sélectionnez-les, puis cliquez sur Déverrouiller . ![](assets/unlock-icon-toolbar.png) ou Verrouiller ![](assets/lock-icon-locked-qs.png) qui s’affiche dans la barre d’outils située au-dessus de la liste.
+   Si vous souhaitez déverrouiller ou verrouiller plusieurs notifications à la fois, sélectionnez-les, puis cliquez sur Déverrouiller . ![Icône Déverrouiller](assets/unlock-icon-toolbar.png) ou Verrouiller ![Icône Verrouiller](assets/lock-icon-locked-qs.png) qui s’affiche dans la barre d’outils située au-dessus de la liste.
 
 1. Cliquer sur **Enregistrer**.
 1. (Facultatif) Si vous souhaitez configurer la notification d’événement pour un groupe de niveau supérieur au lieu de laisser cette tâche à l’administrateur du groupe, vous pouvez effectuer l’une des opérations suivantes :
