@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 3%
@@ -57,7 +57,8 @@ Les étapes de cet article doivent être les suivantes :
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Ajout d’une équipe**: Cliquez sur **Nouvelle équipe**, puis utilisez les options suivantes pour la configurer :
+   * **Ajout d’une équipe**: cliquez sur **Nouvelle équipe**, puis utilisez les options suivantes pour la configurer :
+
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
    <table style="table-layout:auto"> 
@@ -70,7 +71,7 @@ Les étapes de cet article doivent être les suivantes :
        </tr> 
        <tr> 
        <td role="rowheader">Groupe</td> 
-       <td> <p> Le système renseigne le champ Groupe pour le nouveau portfolio avec le groupe que vous affichez. Si vous souhaitez associer l’équipe à un autre groupe, commencez à saisir son nom, puis sélectionnez-le lorsqu’il s’affiche.</p> <p>Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe en pointant dessus et en cliquant sur l’icône d’information. <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> <p><b>REMARQUE</b>: Lorsqu’une équipe est affectée à un groupe ou à un sous-groupe, les administrateurs de groupe de ce groupe ou de ce sous-groupe peuvent gérer l’équipe sans en être membre. Les administrateurs de groupe peuvent accéder à la zone Équipes dans le menu principal et cliquer sur la flèche Changer d’équipe . <img src="assets/switch-team-icon.png" alt="Icône Changer l’équipe"> pour répertorier toutes les équipes affectées aux groupes qu’elles gèrent.</p> </td> 
+       <td> <p> Le système renseigne le champ Groupe pour la nouvelle équipe avec le groupe que vous affichez. Si vous souhaitez associer l’équipe à un autre groupe, commencez à saisir son nom, puis sélectionnez-le lorsqu’il s’affiche.</p> <p>Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe en pointant dessus et en cliquant sur l’icône d’information. <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> <p><b>REMARQUE</b>: lorsqu’une équipe est affectée à un groupe ou à un sous-groupe, les administrateurs de groupe de ce groupe ou de ce sous-groupe peuvent gérer l’équipe sans en être membre. Les administrateurs de groupe peuvent accéder à la zone Équipes dans le menu principal et cliquer sur la flèche Changer d’équipe . <img src="assets/switch-team-icon.png" alt="Icône Changer l’équipe"> pour répertorier toutes les équipes affectées aux groupes qu’elles gèrent.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Membres d'équipe</td> 
@@ -95,9 +96,9 @@ Les étapes de cet article doivent être les suivantes :
       </tbody> 
      </table>
 
-   * **Modifier les équipes**: Sélectionnez au moins une équipe, puis cliquez sur **la valeur** Icône Modifier ![](assets/edit-icon.png), puis utilisez les options suivantes pour la configurer :
+   * **Modifier les équipes**: sélectionnez au moins une équipe, puis cliquez sur **la valeur** Icône Modifier ![](assets/edit-icon.png), puis utilisez les options suivantes pour la configurer :
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -107,7 +108,7 @@ Les étapes de cet article doivent être les suivantes :
        </tr> 
        <tr> 
        <td role="rowheader">Groupe</td> 
-       <td> <p>Associez l’équipe à un groupe. Commencez à saisir le nom du groupe, puis sélectionnez-le lorsqu’il s’affiche.</p> <p>Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe en pointant dessus et en cliquant sur l’icône d’information. <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> <p><b>REMARQUE</b>: Lorsqu’une équipe est affectée à un groupe ou à un sous-groupe, les administrateurs de groupe de ce groupe ou de ce sous-groupe peuvent gérer l’équipe sans en être membre. Les administrateurs de groupe peuvent accéder à la zone Équipes dans le menu principal et cliquer sur la flèche Changer d’équipe . <img src="assets/switch-team-icon.png" alt="Icône Changer l’équipe"> pour répertorier toutes les équipes affectées aux groupes qu’elles gèrent.</p> </td> 
+       <td> <p>Associez l’équipe à un groupe. Commencez à saisir le nom du groupe, puis sélectionnez-le lorsqu’il s’affiche.</p> <p>Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe en pointant dessus et en cliquant sur l’icône d’information. <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> <p><b>REMARQUE</b>: lorsqu’une équipe est affectée à un groupe ou à un sous-groupe, les administrateurs de groupe de ce groupe ou de ce sous-groupe peuvent gérer l’équipe sans en être membre. Les administrateurs de groupe peuvent accéder à la zone Équipes dans le menu principal et cliquer sur la flèche Changer d’équipe . <img src="assets/switch-team-icon.png" alt="Icône Changer l’équipe"> pour répertorier toutes les équipes affectées aux groupes qu’elles gèrent.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Propriétaire</td> 
@@ -115,7 +116,7 @@ Les étapes de cet article doivent être les suivantes :
        </tr> 
        <tr> 
        <td role="rowheader">Membres d'équipe</td> 
-       <td> <p>Ajoutez des membres de l’équipe et . Commencez à saisir le nom d’un utilisateur, puis sélectionnez-le lorsqu’il s’affiche. Répétez cette procédure pour ajouter plusieurs utilisateurs à l’équipe.</p> <p><b>CONSEIL</b>: Le nombre d’utilisateurs que vous pouvez ajouter à une équipe n’est pas limité. Cependant, nous vous recommandons de ne pas avoir un trop grand nombre d’utilisateurs dans une seule équipe, car la gestion du travail de l’équipe peut devenir trop complexe.</p> </td> 
+       <td> <p>Ajoutez des membres de l’équipe et . Commencez à saisir le nom d’un utilisateur, puis sélectionnez-le lorsqu’il s’affiche. Répétez cette procédure pour ajouter plusieurs utilisateurs à l’équipe.</p> <p><b>CONSEIL</b>: le nombre d’utilisateurs que vous pouvez ajouter à une équipe n’est pas limité. Cependant, nous vous recommandons de ne pas avoir un trop grand nombre d’utilisateurs dans une seule équipe, car la gestion du travail de l’équipe peut devenir trop complexe.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Description</td> 
@@ -127,7 +128,7 @@ Les étapes de cet article doivent être les suivantes :
        </tr> 
        <tr> 
        <td role="rowheader">Agile</td> 
-       <td>Indiquez s’il s’agit d’une équipe agile. Pour plus d’informations sur les équipes agiles et la gestion de leur travail, voir <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Création d’une équipe agile</a>.</td> 
+       <td>Indiquez s’il s’agit d’une équipe agile. Pour plus d’informations sur les équipes agiles et la gestion de leur travail, voir <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Créer une équipe agile</a>.</td> 
        </tr> 
        <tr> 
        <td role="rowheader">Travailler sur ce projet</td> 
@@ -144,5 +145,5 @@ Les étapes de cet article doivent être les suivantes :
       </tbody> 
      </table>
 
-   * **Suppression d’équipes**: Sélectionnez au moins une équipe, puis cliquez sur l’icône Supprimer ![](assets/delete.png).
-   * **Exporter la liste des équipes**: Cliquez sur **Exporter** ![](assets/export.png), puis sélectionnez le format de fichier souhaité pour la liste exportée.
+   * **Suppression d’équipes**: sélectionnez au moins une équipe, puis cliquez sur l’icône Supprimer ![](assets/delete.png).
+   * **Exporter la liste des équipes**: cliquez sur **Exporter** ![](assets/export.png), puis sélectionnez le format de fichier souhaité pour la liste exportée.
