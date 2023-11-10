@@ -7,16 +7,16 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c6e63ac7e98b7cc05476393aa53f5b738ca60a41
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
 # Prise en main des tableaux de bord
 
-Le tableau de bord permet d’accéder rapidement aux informations. Vous pouvez collecter des informations dans des rapports, puis les placer dans des tableaux de bord afin de faciliter leur accès.
+Le tableau de bord permet d’accéder rapidement aux informations issues de plusieurs rapports. Tout d’abord, vous pouvez collecter des informations dans les rapports, puis placer plusieurs rapports sur les tableaux de bord afin de faciliter l’accès aux informations.
 
 ## Exigences d’accès
 
@@ -54,13 +54,13 @@ Vous devez disposer des éléments suivants :
 Vous pouvez remplir un tableau de bord avec les éléments suivants dans Adobe Workfront :
 
 * Rapports\
-   Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Calendriers\
-   Pour plus d’informations sur la création de calendriers, voir [Présentation des rapports sur les calendriers](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+  Pour plus d’informations sur la création de calendriers, voir [Présentation des rapports sur les calendriers](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 * Pages externes\
-   Pour plus d’informations sur la création de pages externes, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Pour plus d’informations sur la création de pages externes, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Pour plus d’informations sur la création d’un tableau de bord, voir [Création d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
@@ -68,20 +68,20 @@ Pour plus d’informations sur la création d’un tableau de bord, voir [Créat
 
 Vous pouvez partager un tableau de bord avec des utilisateurs de la manière suivante :
 
-* Partage sur une base individuelle.\
-   Pour plus d’informations sur le partage des tableaux de bord, voir [Partage de rapports, de tableaux de bord et de calendriers](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) et [Partage d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+* Partage individuel.\
+  Pour plus d’informations sur le partage des tableaux de bord, voir [Partage de rapports, de tableaux de bord et de calendriers](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) et [Partage d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Ajoutez un tableau de bord à n’importe quelle zone ou objet de Workfront avec une section personnalisée.\
-   Pour plus d’informations sur la création de sections personnalisées, voir [Navigation à gauche dans Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  Pour plus d’informations sur la création de sections personnalisées, voir [Navigation à gauche dans Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Placez les tableaux de bord dans des modèles de mise en page que vous pouvez partager avec les utilisateurs.\
-   Pour plus d’informations sur le partage de tableaux de bord par le biais de modèles de mise en page, voir [Personnalisation du panneau de gauche à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  Pour plus d’informations sur le partage de tableaux de bord par le biais de modèles de mise en page, voir [Personnalisation du panneau de gauche à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 * Imprimez une copie papier de ces fichiers à partager avec les utilisateurs.\
-   Pour plus d’informations sur l’impression des tableaux de bord, voir [Imprimer un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
+  Pour plus d’informations sur l’impression des tableaux de bord, voir [Imprimer un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
 * Exportez-les sous la forme d’un fichier .pdf afin de pouvoir les envoyer par courrier électronique aux utilisateurs.\
-   Pour plus d’informations sur l’exportation d’un tableau de bord vers un fichier .pdf, voir [Exportation d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+  Pour plus d’informations sur l’exportation d’un tableau de bord vers un fichier .pdf, voir [Exporter un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Lorsque vous partagez un tableau de bord avec des utilisateurs, tous les rapports, calendriers et pages externes qui se trouvent sur le tableau de bord sont également partagés avec les mêmes utilisateurs par défaut.
 
@@ -94,7 +94,7 @@ Lorsque vous partagez un tableau de bord avec des utilisateurs, tous les rapport
 Vous pouvez afficher un tableau de bord comme suit :
 
 * Accédez à la section sur laquelle il est placé et le tableau de bord placé dans la section s’affiche.\
-   Pour plus d’informations sur le placement de tableaux de bord sur des sections personnalisées, voir [Navigation à gauche dans Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  Pour plus d’informations sur le placement de tableaux de bord sur des sections personnalisées, voir [Navigation à gauche dans Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Recherchez-le et accédez-y manuellement lorsque vous le trouvez.
 
@@ -103,14 +103,14 @@ Vous pouvez afficher un tableau de bord comme suit :
 1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png), puis cliquez sur **Tableaux de bord**.
 1. Pointez sur la barre latérale gauche, puis sélectionnez l’une des options suivantes :
 
-   * **Mes tableaux de bord**: Les tableaux de bord que vous avez créés sont répertoriés ici.
+   * **Mes tableaux de bord**: les tableaux de bord que vous avez créés sont répertoriés ici.
 
-      >[!TIP]
-      >
-      >Si vous n’avez pas l’accès Modifier aux rapports, tableaux de bord et calendriers dans votre niveau d’accès, vous ne pouvez pas créer de tableaux de bord. Dans ce cas, la liste Mes tableaux de bord est vide.
+     >[!TIP]
+     >
+     >Si vous n’avez pas l’accès Modifier aux rapports, tableaux de bord et calendriers dans votre niveau d’accès, vous ne pouvez pas créer de tableaux de bord. Dans ce cas, la liste Mes tableaux de bord est vide.
 
-   * **Tableaux de bord partagés**: Les tableaux de bord créés par d’autres utilisateurs et partagés avec vous sont répertoriés ici.
-   * **Tous les tableaux de bord**: Les tableaux de bord de vos utilisateurs et des autres utilisateurs partagés avec vous sont répertoriés ici.
+   * **Tableaux de bord partagés**: les tableaux de bord créés par d’autres utilisateurs et partagés avec vous sont répertoriés ici.
+   * **Tous les tableaux de bord**: les tableaux de bord de vos utilisateurs et des autres utilisateurs partagés avec vous sont répertoriés ici.
 
    ![Zone des tableaux de bord](assets/dashboards-area.png)
 

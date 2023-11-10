@@ -7,7 +7,7 @@ description: Vous pouvez personnaliser le type d’informations que vous affiche
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -23,10 +23,10 @@ Vous pouvez personnaliser le type d’informations que vous affichez dans une li
 * Vous pouvez personnaliser des vues existantes. Tous les utilisateurs qui peuvent afficher les vues peuvent également voir vos modifications.
 * L’administrateur d’Adobe Workfront doit vous accorder l’accès aux filtres, vues et groupes de modification pour pouvoir créer des vues.
 
-   Pour plus d’informations sur l’octroi de l’accès de modification, voir [Accorder l’accès aux filtres, aux vues et aux regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Pour plus d’informations sur l’octroi de l’accès de modification, voir [Accorder l’accès aux filtres, vues et regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Le niveau d’autorisation d’une vue détermine le mode d’enregistrement d’une vue. Si vous avez créé la vue à l’origine, vous pouvez enregistrer les modifications, sinon vous êtes invité à enregistrer une version de la vue. Si vous apportez des modifications à une vue que vous avez partagée avec d’autres, cela les impacte également.
-* Vous pouvez personnaliser une vue qui a été partagée avec vous uniquement si l’utilisateur qui l’a partagée vous a accordé l’accès Gérer . Pour plus d’informations sur le partage d’une vue, voir [Partage d’un filtre, d’une vue ou d’un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Vous pouvez personnaliser une vue qui a été partagée avec vous uniquement si l’utilisateur qui l’a partagée vous a accordé l’accès Gérer . Pour plus d’informations sur le partage d’une vue, voir [Partager un filtre, une vue ou un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 Vous pouvez personnaliser des vues existantes, créer de nouvelles vues d’après les vues existantes ou créer de nouvelles vues de toutes pièces.
 
@@ -46,8 +46,11 @@ Vous trouverez ci-dessous les types de vues que vous pouvez appliquer dans les l
     <tr>
         <td><strong>Vue Gantt</strong></td>
         <td>Vous pouvez l’appliquer à une liste de tâches dans la section Tâches d’un projet, à une liste de projets ou l’ajouter à un rapport de tâche ou de projet. Vous pouvez personnaliser les informations que vous affichez dans la vue Gantt à l’aide d’options prédéfinies intégrées. Tous les utilisateurs ayant accès à l’affichage des tâches ou des projets peuvent les afficher dans la vue Gantt. Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Prise en main du diagramme de Gantt</a>.</td>
-    </tr>
+       </tr>
 </table>
+
+<!--NOTE FOR MAYBE LATER: consider adding calendar and board views to this list of views (above)?! -->
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -220,7 +223,7 @@ Agile views are available only when viewing a project.
 
 ## Partage d’une vue
 
-Pour plus d’informations sur le partage d’une vue, voir [Partage d’un filtre, d’une vue ou d’un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Pour plus d’informations sur le partage d’une vue, voir [Partager un filtre, une vue ou un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Suppression d’une vue
 

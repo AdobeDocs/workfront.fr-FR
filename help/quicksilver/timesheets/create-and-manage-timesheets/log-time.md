@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3451'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ Pour supprimer un élément de la feuille de temps qui a été ajouté manuellem
 
 Vous pouvez consigner l’heure spécifique au projet dans la page d’accueil.
 
-Pour obtenir des informations générales sur l’utilisation de la zone Accueil, voir [Utilisation de la zone Accueil](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Pour obtenir des informations générales sur l’utilisation de la zone Accueil, reportez-vous aux sections suivantes :
 
-Pour vous connecter à un élément de travail à partir de la zone Accueil :
+* Pour plus d’informations sur l’utilisation de la zone d’accueil héritée, voir [Utilisation de la zone Accueil](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* Pour plus d’informations sur l’utilisation de la nouvelle zone d’accueil, voir [Prise en main de la nouvelle page d’accueil dans Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### Temps de connexion à un élément de travail de la nouvelle zone d’accueil
+
+1. L’accès au **Accueil** zone.
+1. Ajoutez l’un des widgets suivants :
+
+   * Mes tâches
+   * Mes événements
+   * Mes tâches
+   * Mes demandes
+1. Sélectionnez une tâche, un problème ou une requête dans une liste, puis cliquez sur **Résumé**
+
+   Ou
+
+   Cliquez sur le bouton **Résumé** icon ![](assets/open-summary-icon-in-home.png) d’une tâche ou d’un problème dans le widget Mon travail.
+
+   Le panneau Résumé s’ouvre à droite.
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. Poursuivez la journalisation dans le panneau Résumé, comme décrit dans la section [Aperçu du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### Connexion à un élément de travail à partir de la zone d’accueil héritée
 
 1. Dans le **Liste de tâches** , sélectionnez l’élément sur lequel vous souhaitez consigner la durée.
 1. Dans le panneau de droite, cliquez sur **Temps journal**.
@@ -430,16 +454,16 @@ Pour consigner l’heure dans la section Heures d’un projet, d’une tâche ou
    * **Propriétaire :** Par défaut, votre nom s’affiche dans ce champ.\
      Si vous enregistrez les heures pour un autre utilisateur, indiquez son nom.
 
-   * **Heures**: saisissez le nombre d’heures pour le projet, la tâche ou le problème.
    * **Type d’heure**: sélectionnez un type d’heure dans le menu déroulant, s’il est différent de celui affiché par défaut.
 
      Selon les types d’heures configurés dans votre système, les options disponibles peuvent varier. Pour plus d’informations sur la configuration des types d’heures, voir [Définition des types d’heures et de la disponibilité des feuilles de temps](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Rôle de tâche**: (Conditionnel) si votre administrateur Workfront ou de groupe a activé la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** , sélectionnez une **Rôle de tâche** dans le menu déroulant. Le rôle spécifié lorsque vous êtes affecté à l’objet s’affiche par défaut. Si aucun rôle n’est attribué à l’objet, votre rôle de Principal s’affiche comme valeur par défaut. Pour plus d’informations sur ce paramètre, voir l’article [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **Heures**: saisissez le nombre d’heures pour le projet, la tâche ou le problème.
 
-1. Cliquez sur **Heures de journal**.
+1. Cliquez sur **Temps journal**.
 
 ### Panneau Résumé
 

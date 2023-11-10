@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -112,11 +112,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Cela ouvre la page du type d’enregistrement.
 1. (Conditionnel) Sélectionnez une **Vue Tableau** de la **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
-1. Pointez sur l’en-tête de colonne d’un champ à modifier, puis cliquez sur la flèche pointant vers le bas située après le nom du champ.
+1. Pointez sur l’en-tête de colonne d’un champ à modifier, puis cliquez sur la flèche pointant vers le bas située après le nom du champ, puis cliquez sur **Champ Modifier**
+
+   Ou
+
+   Double-cliquez sur l’en-tête de colonne du champ.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Cliquez sur **Champ Modifier**, puis mettez à jour les informations sur le champ et cliquez sur **Enregistrer**.
+1. Mettre à jour les informations sur le champ et cliquer sur **Enregistrer**.
 
    <!--insert screen shot when finalized-->
 

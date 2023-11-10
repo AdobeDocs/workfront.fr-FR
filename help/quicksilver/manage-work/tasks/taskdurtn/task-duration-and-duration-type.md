@@ -6,10 +6,11 @@ title: Présentation de la durée et du type de durée de la tâche
 description: La durée de la tâche correspond à la différence entre la date de fin planifiée et la date de début planifiée de la tâche. La durée indique la période disponible pour que la tâche soit terminée.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -24,9 +25,9 @@ Le Type de durée d’une tâche identifie la relation entre le nombre de ressou
 
 >[!NOTE]
 >
->Lorsque vous prenez en compte le temps de pause du cessionnaire Principal sur un projet, les dates prévues de la tâche peuvent s’ajuster, mais la durée de la tâche reste la même. Pour plus d’informations sur la prise en compte du temps de pause de la personne désignée Principal lors de la planification d’un projet, voir  [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+>Lorsque vous prenez en compte le temps de pause du Principal cessionnaire sur un projet, les dates prévues de la tâche peuvent s’ajuster, mais la durée de la tâche reste la même. Pour plus d’informations sur la prise en compte du temps de pause du Principal cessionnaire lors de la planification d’un projet, voir  [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Si les dates de début et de fin réelles de la tâche ne correspondent pas au planning du projet, à la personne désignée Principale ou au planning par défaut, la durée de la tâche est zéro.
+Si les dates de début et de fin réelles de la tâche ne correspondent pas au planning du projet, de la personne désignée principale ou au planning par défaut, la durée de la tâche est zéro.
 
 **Exemple :** Si un planning commence à 9 heures et se termine à 12 heures et qu’une tâche est planifiée pour commencer à 14 heures et se terminer à 16 heures, la durée de la tâche est zéro.
 
@@ -40,11 +41,11 @@ Voici deux scénarios qui existent lors du calcul de la durée dans Adobe Workfr
 
 * Si la tâche est affectée à plusieurs utilisateurs :
 
-   Workfront prend en compte le planning du projet ou celui de la Principale personne désignée.
+  Workfront prend en compte le planning du projet ou celui de la personne désignée principale.
 
-   Votre administrateur Workfront détermine le planning utilisé par Workfront lorsqu’une tâche est affectée à plusieurs utilisateurs. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Votre administrateur Workfront détermine le planning utilisé par Workfront lorsqu’une tâche est affectée à plusieurs utilisateurs. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   Les étapes sont similaires au premier scénario après avoir compris quel planning Workfront utilise pour calculer la durée.
+  Les étapes sont similaires au premier scénario après avoir compris quel planning Workfront utilise pour calculer la durée.
 
 ## Unités de temps pour la durée de la tâche
 
@@ -56,8 +57,8 @@ Lors de la mise à jour de la Durée des tâches dans une liste, vous pouvez uti
 |---|---|
 | Minutes | L |
 | Heures | h |
-| Jours. Il s’agit de la valeur par défaut. | Dés |
-| Semaines | M |
+| Jours. Il s’agit du paramètre par défaut. | Dés |
+| Semaines | S |
 | Mois | M |
 | Minutes écoulées | EM |
 | Heures écoulées | EH |
@@ -65,7 +66,7 @@ Lors de la mise à jour de la Durée des tâches dans une liste, vous pouvez uti
 | Semaines écoulées | EW |
 | Mois écoulés | ET |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Exemple :** Si vous souhaitez indiquer que la durée d’une tâche est de 3 jours écoulés, vous devez saisir &quot;3 DE&quot; dans le champ Durée d’une liste de tâches .  Vous pouvez également sélectionner l’option de votre choix pour l’unité de temps de la durée dans le menu déroulant disponible lors de la modification d’une tâche ou dans la section Détails de la tâche . Pour plus d’informations sur la modification des tâches, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -105,7 +106,7 @@ Le type de durée permet de répondre aux questions suivantes :
   <tr> 
    <th scope="row">Type de durée </th> 
    <th scope="col"> <p><strong>Fonction</strong> </p> </th> 
-   <th scope="col"> <p><strong>Comment les ressources l’affectent-elles ?</strong> </p> </th> 
+   <th scope="col"> <p><strong>Comment les ressources l’affectent</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -116,17 +117,17 @@ Le type de durée permet de répondre aux questions suivantes :
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>Calcul de travail</strong> </p> </th> 
-   <td scope="col"> <p>Détermine les heures planifiées (quantité de travail) requises pour terminer la tâche.</p> <p>Normalement utilisé lorsque les ressources affectées à la tâche sont allouées pour toute la durée de la tâche.</p> <p>Lorsque vous choisissez ce type de durée, vous avez la possibilité de saisir une durée spécifique pour la tâche. Workfront calcule les Heures planifiées de la tâche en multipliant le nombre de jours dans la durée par le nombre d’heures de travail dans le planning et par le nombre de personnes désignées pour la tâche. </p> <p>Vous avez la possibilité de modifier manuellement le pourcentage d’affectation de chaque personne désignée par rapport à la tâche, ce qui réduit le nombre d’heures planifiées.</p> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">Présentation du type de durée : Travail calculé</a>.</p> </td> 
+   <td scope="col"> <p>Détermine les heures planifiées (quantité de travail) requises pour terminer la tâche.</p> <p>Normalement utilisé lorsque les ressources affectées à la tâche sont allouées pour toute la durée de la tâche.</p> <p>Lorsque vous choisissez ce type de durée, vous avez la possibilité de saisir une durée spécifique pour la tâche. Workfront calcule les Heures planifiées de la tâche en multipliant le nombre de jours dans la durée par le nombre d’heures de travail dans le planning et par le nombre de personnes désignées pour la tâche. </p> <p>Vous avez la possibilité de modifier manuellement le pourcentage d’affectation de chaque personne désignée par rapport à la tâche, ce qui réduit le nombre d’heures planifiées.</p> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">Présentation du type de durée : travail calculé</a>.</p> </td> 
    <td scope="col"> <p>Les heures planifiées augmentent lorsque les personnes désignées sont ajoutées à la tâche. </p> <p>Les heures planifiées diminuent lorsque les personnes désignées sont retirées de la tâche.</p> </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p>Piloté par l'effort</p> </th> 
-   <td scope="col"> <p>Détermine les Heures planifiées en fonction du nombre de ressources.</p> <p>Lorsque vous choisissez ce type de durée, vous avez la possibilité de saisir une durée spécifique pour la tâche. Workfront calcule les Heures planifiées de la tâche en multipliant le nombre de jours dans la Durée par le nombre d’heures de travail dans le planning et en divisant cela par le nombre de personnes désignées pour la tâche. </p> <p>Vous avez la possibilité de modifier manuellement le pourcentage d’affectation de chaque personne désignée par rapport à la tâche, mais le nombre d’heures planifiées reste le même.</p> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Présentation du type de durée : Effort piloté</a>.</p> </td> 
+   <td scope="col"> <p>Détermine les Heures planifiées en fonction du nombre de ressources.</p> <p>Lorsque vous choisissez ce type de durée, vous avez la possibilité de saisir une durée spécifique pour la tâche. Workfront calcule les Heures planifiées de la tâche en multipliant le nombre de jours dans la Durée par le nombre d’heures de travail dans le planning et en divisant cela par le nombre de personnes désignées pour la tâche. </p> <p>Vous avez la possibilité de modifier manuellement le pourcentage d’affectation de chaque personne désignée par rapport à la tâche, mais le nombre d’heures planifiées reste le même.</p> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Présentation du type de durée : piloté par l’effort</a>.</p> </td> 
    <td scope="col"> <p>Les heures planifiées augmentent lorsque les personnes désignées sont retirées de la tâche.</p> <p>Les heures planifiées diminuent lorsque des personnes désignées sont ajoutées à la tâche. </p> <p>La durée ne change pas, quel que soit le nombre de personnes désignées ou leur planning. </p> <p>La durée est égale aux heures planifiées. La durée planifiée est égale au nombre d’heures planifiées divisé par le nombre de personnes désignées.</p> </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>Simple</strong> </p> </th> 
-   <td scope="col"> <p>Détermine les heures planifiées et la durée (identiques pour ce type de durée) en fonction du nombre d’heures pendant lesquelles chaque personne désignée est allouée. </p> <p>Workfront calcule les Heures planifiées en additionnant les heures allouées prévues pour chaque personne désignée. </p> <p>Vous avez la possibilité de modifier manuellement le nombre d’heures alloué à chaque personne désignée, ainsi que le nombre d’heures planifiées et le montant de la durée, qui changent en conséquence. Si vous choisissez un nombre total d’heures allouées pour tous les cessionnaires, ce nombre est réparti uniformément entre chaque cessionnaire.</p> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Présentation du type de durée : Simple</a>.</p> </td> 
+   <td scope="col"> <p>Détermine les heures planifiées et la durée (identiques pour ce type de durée) en fonction du nombre d’heures pendant lesquelles chaque personne désignée est allouée. </p> <p>Workfront calcule les Heures planifiées en additionnant les heures allouées prévues pour chaque personne désignée. </p> <p>Vous avez la possibilité de modifier manuellement le nombre d’heures alloué à chaque personne désignée, ainsi que le nombre d’heures planifiées et le montant de la durée, qui changent en conséquence. Si vous choisissez un nombre total d’heures allouées pour tous les cessionnaires, ce nombre est réparti uniformément entre chaque cessionnaire.</p> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Présentation du type de durée : simple</a>.</p> </td> 
    <td scope="col"> <p>Les heures sont réparties uniformément entre les personnes désignées si vous choisissez un nombre total d’heures allouées. Cependant, en tant que chef de projet, vous pouvez ajuster manuellement les heures de chaque responsable. </p> <p>Vous pouvez modifier les heures planifiées et la durée d’une tâche avec un type de durée simple intégré ou au niveau de la tâche. </p> <p>Si une équipe agile est affectée à une tâche, le type de durée est automatiquement défini sur Simple et ne peut pas être modifié. La durée de la tâche d’une équipe agile doit être supérieure à 0 minute.</p> </td> 
   </tr> 
  </tbody> 
