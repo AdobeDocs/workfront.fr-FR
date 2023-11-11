@@ -8,9 +8,9 @@ description: Cette page d’aide peut vous aider à déterminer si des problème
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,17 @@ Les problèmes de vitesse sont généralement dus à la connexion du FAI local o
 
 Cela dit, il existe quelques étapes que vous pouvez suivre pour vérifier la vitesse de votre connexion, ce qui permettra de déterminer la cause principale des problèmes que vous rencontrez. Toutes ces étapes sont également importantes pour le processus de dépannage. Nous vous encourageons à prendre le temps de collecter des informations sur toutes les étapes répertoriées afin d’assurer un diagnostic le plus précis du problème.
 
-Une fois que vous avez rassemblé tous les détails, nous vous recommandons de consulter votre service informatique local pour identifier les problèmes locaux. Si vous avez besoin d&#39;aide supplémentaire, veuillez contacter notre [Équipe d’assistance](https://support.workfront.com/hc/en-us/requests/new).
+Une fois que vous avez rassemblé tous les détails, nous vous recommandons de consulter votre service informatique local pour identifier les problèmes locaux.
 
 ## Déterminer quelle partie du système est lente
 
-Lorsque vous utilisez [!DNL Workfront Proof], vous pouvez utiliser le tableau de bord, par exemple, pour gérer le contenu du dossier et les utilisateurs ou avec le [!DNL Workfront Proof] Observateur : effectuer un examen du BAT, vérifier les commentaires déjà faits, etc.
+Lorsque vous utilisez [!DNL Workfront Proof], vous pouvez utiliser le tableau de bord, par exemple, pour gérer le contenu du dossier et les utilisateurs ou avec le [!DNL Workfront Proof] Observateur : effectuer une révision du BAT, vérifier les commentaires déjà effectués, etc.
 
 Déterminer quelle partie exacte du système est lente est la première étape de la résolution des problèmes de vitesse. Lorsque vous créez un rapport [!DNL Workfront Proof] étant lent, veillez à décrire les éléments suivants :
 
 * Vous rencontrez de la lenteur dans d’autres pages web ?
 * Le problème se produit-il dans le tableau de bord ou ? [!DNL Workfront Proof] Observateur ?
-* Quelle partie exacte du système est lente ? (par exemple, le traitement d’un nouveau BAT ou l’ouverture d’un commentaire dans [!DNL Workfront Proof] Visionneuse)
+* Quelle partie exacte du système est lente ? (par exemple, traiter un nouveau BAT ou ouvrir un commentaire dans [!DNL Workfront Proof] Visionneuse)
 
 ## Exécution de tests traceroute et ping
 
@@ -53,13 +53,13 @@ Lorsque vous rencontrez des problèmes de performances, il est important d’ex�
 1. Copiez et collez les résultats dans la réponse à votre email.
 Veillez à laisser traceroute et ping se terminer avant d’envoyer les résultats à l’équipe d’assistance.
 
-## Test de la vitesse de connexion à l’aide de Speedtest.net
+## Tester la vitesse de connexion à l’aide de Speedtest.net
 
-1. Cliquez sur [here](http://www.speedtest.net/) pour accéder à Speedtest.net.
+1. Ouvrez un navigateur et accédez à Speedtest.net.
 1. Suivez les instructions de la base de connaissances Speedtest pour tester la vitesse de votre connexion Internet.
 1. Copiez et collez les résultats dans un email envoyé à l’équipe d’assistance.
 
-## Vérifiez l’onglet Réseau dans la console du navigateur.
+## Onglet Réseau dans la console du navigateur
 
 La console web disponible dans les navigateurs modernes rassemble des informations utiles sur les latences réseau, ce qui nous permettra de déterminer la cause principale des problèmes de vitesse que vous rencontrez.
 
@@ -72,18 +72,10 @@ Pour vérifier les temps de chargement d&#39;une page web :
 
 Assurez-vous que la capture d’écran affiche toutes les données. Vous pouvez développer la fenêtre de la console lors d’une capture d’écran ou faire défiler la page vers le bas dans une capture d’écran.
 
-Si vous ne savez pas comment ouvrir la console dans votre navigateur, veuillez consulter les étapes enregistrées suivantes :
-
-* [Chrome](http://screencast.com/t/AgQU6JQQ)
-* [Safari](http://screencast.com/t/f31GqQYm0w)
-* [Firefox](http://screencast.com/t/Xg7SscmAi)
-* [Edge](http://www.screencast.com/t/epSwBiaD)
-* [Internet Explorer](http://screencast.com/t/x5Q3eHczbc)
-
 Vous pouvez également consulter la documentation de votre navigateur pour obtenir des instructions plus détaillées.
 
 ## Vérifiez votre connexion sur un autre réseau et ordinateur.
 
 Il est essentiel de vérifier si vous rencontrez le même problème avec la vitesse de connexion à l’aide d’un appareil ou d’un réseau différent dans le processus de dépannage. Essayez de passer à un autre ordinateur ou appareil mobile, et essayez d’utiliser un autre réseau (par exemple, les données mobiles).
 
-Comparez la connexion selon différentes combinaisons : utilisez une autre machine sur le même réseau, utilisez la même machine sur un autre réseau et utilisez une autre machine et un autre réseau, puis partagez les résultats avec l’équipe d’assistance.
+Comparez la connexion selon différentes combinaisons : en utilisant une machine différente sur le même réseau, en utilisant la même machine sur un autre réseau et en utilisant la même machine et le même réseau, puis partagez les résultats avec l’équipe d’assistance.

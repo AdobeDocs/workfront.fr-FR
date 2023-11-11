@@ -9,7 +9,7 @@ description: Dans un [!DNL Adobe Workfront Fusion] vous pouvez automatiser les w
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft Office 365 Calendar], ainsi que de la connecter à plusieurs applications et services tiers.
 
-Pour utiliser [!DNL Office 365 Calendar] avec [!DNL Adobe Workfront Fusion], une [!DNL Office 365 Excel] compte . Vous pouvez en créer un à l’adresse [www.office.com](http://www.office.com/).
+Pour utiliser [!DNL Office 365 Calendar] avec [!DNL Adobe Workfront Fusion], une [!DNL Office 365 Excel] compte . Vous pouvez en créer un à l’adresse [www.office.com](https://www.office.com/).
 
 Pour obtenir des instructions sur la connexion de votre compte Office 365 à [!DNL Workfront Fusion], voir [Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -45,7 +45,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -53,9 +53,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -86,8 +86,8 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 * [[!UICONTROL Événements de contrôle]](#watch-events)
 * [[!UICONTROL Événements de recherche]](#search-events)
 * [[!UICONTROL Obtention d’un événement]](#get-an-event)
-* [[!UICONTROL Création d’un événement]](#create-an-event)
-* [[!UICONTROL Mise à jour d’un événement]](#update-an-event)
+* [[!UICONTROL Créer un événement]](#create-an-event)
+* [[!UICONTROL Mettre à jour un événement]](#update-an-event)
 * [[!UICONTROL Suppression d’un événement]](#delete-an-event)
 
 #### [!UICONTROL Événements de contrôle]
@@ -202,7 +202,7 @@ Ce module d’action récupère les détails de l’événement spécifié.
  </tbody> 
 </table>
 
-#### [!UICONTROL Création d’un événement]
+#### [!UICONTROL Créer un événement]
 
 Ce module d’action crée un événement.
 
@@ -297,7 +297,7 @@ Ce module d’action crée un événement.
  </tbody> 
 </table>
 
-#### [!UICONTROL Mise à jour d’un événement]
+#### [!UICONTROL Mettre à jour un événement]
 
 Ce module d’action met à jour un événement existant.
 
@@ -565,7 +565,7 @@ Ce module vous permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:   <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:   <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

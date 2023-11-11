@@ -9,7 +9,7 @@ description: Vous pouvez utiliser le module SOAP pour vous connecter aux API SOA
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -47,9 +47,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,14 +61,14 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 ## En utilisant la variable [!UICONTROL SOAP] module
 
-Le [!UICONTROL SOAP] module est actuellement en version bêta et ne prend pas en charge :
+La variable [!UICONTROL SOAP] module est actuellement en version bêta et ne prend pas en charge :
 
 * Redéfinir les éléments
 * Restrictions des chiffres de la fraction
 * Restrictions relatives aux chiffres totaux
 * Restrictions relatives aux espaces blancs
 * Plusieurs parties dans les messages d’entrée et de sortie. Seuls les messages en une seule partie sont pris en charge
-* Eléments de schéma XML personnalisés définis à l’aide des [[!UICONTROL SOAP] Encodage](http://schemas.xmlsoap.org) schémas et éléments.
+* Eléments de schéma XML personnalisés définis à l’aide des [[!UICONTROL SOAP] Encodage](https://schemas.xmlsoap.org) schémas et éléments.
 
 >[!INFO]
 >
@@ -94,7 +94,7 @@ Il comprend la variable `soapenc:Array`, `soapenc:arrayType` et `wsdl:arrayType`
 Si la variable [!UICONTROL SOAP] Le module refuse de traiter le fichier WSDL ou renvoie diverses erreurs dans la configuration du module. Vous pouvez essayer d&#39;utiliser l&#39;extension **[!UICONTROL HTTP] > [!UICONTROL Effectuer une requête]** module à la place :
 
 1. Dans [!DNL Workfront Fusion], créez un scénario.
-1. Insérez le **[!UICONTROL HTTP] > [!UICONTROL Effectuer une requête]** dans le scénario.
+1. Insérez la méthode **[!UICONTROL HTTP] > [!UICONTROL Effectuer une requête]** dans le scénario.
 1. Ouvrez la configuration du module et renseignez les champs suivants :
 
    <table style="table-layout:auto"> 
@@ -132,7 +132,7 @@ Si la variable [!UICONTROL SOAP] Le module refuse de traiter le fichier WSDL ou 
 
    ![](assets/service-350x65.png)
 
-1. Une fois localisée, copiez l’URL à partir du `location` attribut.
+1. Une fois localisée, copiez l’URL à partir de la fonction `location` attribut.
 1. Dans [!DNL Workfront Fusion], collez l’URL dans le champ URL du module HTTP.
 1. Ouvrez le [En ligne [!UICONTROL SOAP] Client](https://wsdlbrowser.com/) dans une nouvelle fenêtre ou un nouvel onglet du navigateur web.
 1. Collez l’URL WSDL dans le champ URL WSDL .

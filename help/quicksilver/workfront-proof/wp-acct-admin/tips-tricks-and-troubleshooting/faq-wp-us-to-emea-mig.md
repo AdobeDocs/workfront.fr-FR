@@ -3,19 +3,19 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: '"FAQ : Bon à tirer Workfront - Migration des États-Unis vers la région EMEA'
+title: "FAQ : Workfront Bon à tirer - Migration des États-Unis vers la région EMEA"
 description: Workfront contacte directement toutes les organisations concernées par la migration du Workfront BAT US vers la zone EMEA.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
 
-# FAQ : [!UICONTROL BAT Workfront] - Migration des États-Unis vers la région EMEA
+# FAQ : [!UICONTROL Bon à tirer Workfront] - Migration des États-Unis vers la région EMEA
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Oui. Avant la migration, veillez à ajouter les éléments suivants à la liste 
 
 ## Combien de temps faut-il pour migrer mon compte ?
 
-Pendant une courte période, jusqu’à deux heures, votre compte ne sera pas accessible pendant la migration vers son nouvel emplacement sur le centre de données EMEA. Vous trouverez des informations détaillées sur le timing de la migration sur notre [[!DNL Workfront] Site d’état](http://status.workfront.com/).
+Pendant une courte période, jusqu’à deux heures, votre compte ne sera pas accessible pendant la migration vers son nouvel emplacement sur le centre de données EMEA.
 
 Une fois la migration des comptes terminée, nous allons commencer à déplacer tous vos fichiers de notre centre de données des États-Unis vers le centre de données EMEA. Pendant le déplacement des fichiers, ils seront toujours accessibles sur le centre de données des États-Unis. Ce processus aura lieu en arrière-plan et n’aura aucun impact sur vous et vos utilisateurs.
 

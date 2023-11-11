@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: a485f213cc735cd6596a89c560b33ee1b896c47d
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2304'
 ht-degree: 2%
@@ -134,7 +134,7 @@ L’authentification est effectuée en transmettant un ID de session ou une clé
 
 ### Authentification de l’en-tête de requête
 
-La méthode d’authentification privilégiée consiste à transmettre un en-tête de requête nommé SessionID contenant le jeton de session. Cela a l’avantage d’être en sécurité contre [Cross-site Request Forgery (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) n’interfère pas avec l’URI à des fins de mise en cache.
+La méthode d’authentification privilégiée consiste à transmettre un en-tête de requête nommé SessionID contenant le jeton de session. Cela a l’avantage d’être en sécurité contre [Cross-site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) n’interfère pas avec l’URI à des fins de mise en cache.
 
 Voici un exemple d’en-tête de requête :
 

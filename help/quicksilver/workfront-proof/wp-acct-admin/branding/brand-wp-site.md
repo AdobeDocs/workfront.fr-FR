@@ -7,7 +7,7 @@ description: Comme [!DNL Workfront Proof] administrateur, vous pouvez personnali
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 2%
@@ -28,11 +28,11 @@ Pour plus d’informations sur la valorisation de marque avancée, qui inclut l�
 
 Consultez les sections suivantes pour plus d’informations sur la manière de marquer différents aspects de la [!DNL Workfront] Site de BAT :
 
-## Activation de la valorisation de marque sur le [!DNL Workfront Proof] Page de connexion
+## Activation de la valorisation de marque sur la page [!DNL Workfront Proof] Page de connexion
 
 Pour activer l’identité graphique de votre compte :
 
-1. Connectez-vous à [!DNL Workfront Proof] comme la propriété [!DNL Workfront Proof] administrateur.
+1. Connexion à [!DNL Workfront Proof] comme la propriété [!DNL Workfront Proof] administrateur.
 1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans le coin supérieur droit du [!DNL Workfront Proof] .
 
    Pour plus d’informations sur les différents paramètres du compte que vous pouvez configurer, voir [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
@@ -54,7 +54,7 @@ Pour activer l’identité graphique de votre compte :
 
 Pour ajouter votre propre image de marque au [!UICONTROL chargement du BAT] page de chaque BAT créé dans votre compte :
 
-1. Connectez-vous à [!DNL Workfront Proof] comme la propriété [!DNL Workfront Proof] administrateur.
+1. Connexion à [!DNL Workfront Proof] comme la propriété [!DNL Workfront Proof] administrateur.
 1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans le coin supérieur droit du [!DNL Workfront Proof] .
 
    Pour plus d’informations sur les différents paramètres du compte que vous pouvez configurer, voir [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
@@ -86,20 +86,20 @@ Si vous sélectionnez **[!UICONTROL Désactiver]**, la variable [!DNL Workfront 
 
 ## Notifications par e-mail de marque
 
-Vous pouvez configurer votre image de marque pour qu’elle soit incluse dans les notifications électroniques envoyées aux réviseurs. Cette image est redimensionnée à la taille maximale de 90x550px.
+Vous pouvez configurer votre image de marque pour qu’elle soit incluse dans les notifications électroniques envoyées aux réviseurs. Cette image est redimensionnée à la taille maximale de 90 x 550 pixels.
 
-Pour configurer la marque d’un email :
+Pour configurer la valorisation de marque des emails :
 
-1. Connectez-vous à [!DNL Workfront Proof] comme la propriété [!DNL Workfront Proof] administrateur.
+1. Connexion à [!DNL Workfront Proof] comme la propriété [!DNL Workfront Proof] administrateur.
 1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans le coin supérieur droit du [!DNL Workfront Proof] .
 
    Pour plus d’informations sur les différents paramètres du compte que vous pouvez configurer, voir [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. Cliquez sur le bouton **[!UICONTROL Paramètres]** .
-1. Dans le **[!UICONTROL Marques]** , cliquez sur **[!UICONTROL Modifier]** en regard de l’image de l’application de messagerie (1).
+1. Dans le **[!UICONTROL Marques]** , cliquez sur **[!UICONTROL Modifier]** en regard de l’image Application de messagerie (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
-1. Sélectionnez l&#39;image que vous souhaitez utiliser pour personnaliser les emails. (2)
+1. Sélectionnez l’image à utiliser pour personnaliser les emails. (2)
 
    Si une marque d’email est déjà configurée et que vous souhaitez la désactiver, cliquez sur **[!UICONTROL Effacer]**. (4)
 
@@ -133,6 +133,6 @@ Pour configurer la marque d’un email :
 
 ## Suppression des boutons et des liens via l’API
 
-Si vous créez un BAT via l’événement [!DNL Workfront Proof] API, vous pouvez supprimer des boutons et des liens et créer vos propres liens personnalisés.
+Si vous créez un BAT via l’événement [!DNL Workfront Proof] Vous pouvez supprimer des boutons et des liens et créer vos propres liens personnalisés.
 
-Voir [[!DNL Workfront Proof] API](http://api.proofhq.com/) pour plus d’informations.
+Voir [[!DNL Workfront Proof] API](https://api.proofhq.com/) pour plus d’informations.

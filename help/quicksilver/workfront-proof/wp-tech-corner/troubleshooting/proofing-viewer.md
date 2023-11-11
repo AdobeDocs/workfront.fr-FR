@@ -8,9 +8,9 @@ description: Si le contenu de votre BAT ne se charge pas et que vous ne pouvez v
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,23 @@ Si le contenu de votre BAT ne se charge pas et que vous ne pouvez voir qu’une 
 
 Tous les développeurs travaillent constamment sur leurs applications et publient régulièrement de nouvelles fonctionnalités et correctifs pour leurs produits. Cela permet d’améliorer l’expérience utilisateur et de maintenir le niveau de sécurité afin qu’il soit recommandé d’utiliser uniquement les versions les plus récentes. Cela permet également d’éviter les conflits entre les applications.
 
-### [!DNL Flash Player] Version du module externe
+<!--
+### [!DNL Flash Player] Plugin Version
 
-Pour vérifier votre [!DNL Flash Player] visite de la version [[!DNL Adobe] site web](http://www.adobe.com/software/flash/about/).
+To check your current [!DNL Flash Player] version visit the [[!DNL Adobe] website](http://www.adobe.com/software/flash/about/).
 
 ![ProofView_2.png](assets/proofview-2-350x199.png)
 
-Si votre numéro de version diffère de celui répertorié pour votre plateforme, accédez à la [[!DNL Flash Player] page de téléchargement](http://get.adobe.com/flashplayer/otherversions/) et obtenir la dernière version.
+If your version number differs from the one listed for your platform go to the [[!DNL Flash Player] download page](http://get.adobe.com/flashplayer/otherversions/) and get the latest version.
 
-Remarque : il est recommandé d’utiliser l’original [!DNL Adobe] si votre navigateur utilise une solution intégrée, désactivez-la et installez la fonction [!DNL Adobe] solution.
+Please note: we do recommend using the original [!DNL Adobe] plugin, so if your browser uses a built-in solution deactivate it and install the [!DNL Adobe] solution.
+-->
 
 ### Version du navigateur
 
 De nos jours, la plupart des navigateurs sont automatiquement mis à jour, mais si vous rencontrez des problèmes, il est utile de vérifier quelle version vous utilisez et d’effectuer la mise à jour, si nécessaire.
 
-Dans votre navigateur, accédez à [!UICONTROL Menu] et recherchez la variable [!UICONTROL A propos] (dans certains cas, cela peut être visible sous [!UICONTROL Aide] ). Dans le [!UICONTROL A propos] s’affiche. Vous y trouverez des informations sur la version actuelle du navigateur, ainsi qu’une option permettant de mettre à jour/vérifier les mises à jour.
+Dans votre navigateur, accédez à [!UICONTROL Menu] et localisez la variable [!UICONTROL A propos] (dans certains cas, cette option peut être visible sous [!UICONTROL Aide] ). Dans le [!UICONTROL A propos] s’affiche. Vous y trouverez des informations sur la version actuelle du navigateur, ainsi qu’une option permettant de mettre à jour/vérifier les mises à jour.
 
 Voir dans Chrome :
 
@@ -49,13 +51,13 @@ Voir dans Chrome :
 
 Une fois que vous disposez de la dernière [!DNL Flash Player] module externe et version de navigateur installée essayez de rouvrir votre BAT et de voir si le problème est résolu.
 
-## Assurez-vous que votre local [!DNL Flash] Le stockage est disponible
+## Vérifiez que votre local [!DNL Flash] Le stockage est disponible
 
 Notre [!DNL Workfront Proof] La visionneuse est basée sur le Flash et nous stockons des données sur les bons à tirer (c’est-à-dire, les commentaires, les mosaïques de BAT, etc.). [!DNL Workfront Proof] Paramètres de visionneuse) sur votre ordinateur à l’aide de [!DNL Flash Player]. Si la variable [!DNL Workfront Proof] La visionneuse s’ouvre, mais il n’y a pas de contenu à l’intérieur. Vérifiez que le stockage par Flash est disponible sur votre ordinateur et que [!DNL Workfront Proof] est autorisé à l’utiliser.
 
 Si de l’espace de stockage est alloué, mais que vous travaillez avec les plus gros bons à tirer avec plusieurs pages et commentaires, essayez d’augmenter le [!DNL Flash] Stockez et rechargez votre BAT.
 
-Consultez notre [Problèmes D&#39;Affichage Des Bons À Tirer - [!DNL Flash] Explication des objets partagés](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) pour obtenir des instructions détaillées.
+Veuillez consulter notre [Problèmes D&#39;Affichage Des Bons À Tirer - [!DNL Flash] Explication des objets partagés](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) pour obtenir des instructions détaillées.
 
 ## Identifier l’emplacement du problème
 
@@ -80,13 +82,6 @@ Si votre navigateur et [!DNL Flash Player] Le module externe est à jour et votr
 
 La bonne pratique consiste à supprimer tous les modules complémentaires inconnus et à ne conserver que ceux que vous utilisez et auxquels vous faites confiance. Chaque navigateur doit vous donner des options pour vérifier/modifier/supprimer les modules externes et les extensions. Notre [!DNL Workfront Proof] La visionneuse est basée sur [!DNL Flash] et nous utilisons JavaScript pour charger la visionneuse afin que vous souhaitiez spécialement examiner les modules externes susceptibles d’affecter ces derniers.
 
-Consultez les pages répertoriées ci-dessous pour obtenir des instructions plus détaillées des développeurs sur la désactivation des modules complémentaires de navigateur :
-
-* Chrome : [plugins](https://support.google.com/chrome/answer/142064?hl=en-GB) / [extensions](https://support.google.com/chrome/answer/113907?hl=en-GB)
-* Firefox : [add-ons](https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons)
-* Internet Explorer : [add-ons](http://windows.microsoft.com/en-GB/internet-explorer/manage-add-ons#ie=ie-11)
-* Safari : [add-ons](http://support.apple.com/en-gb/HT203353)
-
 Si un module complémentaire spécifique interfère avec le chargement des BAT, vous pouvez essayer de vérifier les détails dans la console du navigateur.
 
 ![ProofView_4.png](assets/proofview-4-350x57.png)
@@ -98,16 +93,8 @@ Si vous rencontrez des problèmes lors de l’affichage des bons à tirer :
 * Ouvrez la console de votre navigateur et rechargez le BAT.
 * Vérifiez s’il existe des alertes ou des messages dans la console. Ces détails peuvent aider à identifier la cause profonde des problèmes.
 * Demandez à votre équipe informatique d’analyser les résultats. Ils devraient être en mesure de conseiller et d&#39;aider à résoudre le problème local.
-* Partagez les résultats avec notre [Équipe d’assistance](https://support.workfront.com/hc/en-us/requests/new). Nous serons heureux d&#39;aider.
+* Partagez les résultats avec notre équipe d’assistance. Nous serons heureux d&#39;aider.
 
-Si vous ne savez pas comment ouvrir la console dans votre navigateur, veuillez consulter les étapes enregistrées :
-
-* [Firefox](http://screencast.com/t/eP6FRtk4vxWS)
-* [Internet Explorer](http://screencast.com/t/bYzq1iQv)
-* [Google Chrome](http://screencast.com/t/2anpeAzOOyj)
-* [Safari](http://screencast.com/t/rnOvgl3GidjL)
-
-Vous pouvez également consulter la documentation du développeur de votre navigateur pour obtenir des instructions plus détaillées.
 
 ## Vérification des paramètres de contenu mixte
 
@@ -115,4 +102,4 @@ Toutes les connexions à [!DNL Workfront Proof] sont effectuées par HTTPS. Tout
 
 Si c’est la raison pour laquelle les bons à tirer ne s’ouvrent pas sur votre ordinateur (vous devriez pouvoir voir les alertes pertinentes dans la console du navigateur), autorisez de telles connexions pour [!DNL Workfront Proof] ou modifiez vos paramètres pour autoriser le contenu mixte passif sur votre machine. Le contenu mixte peut être bloqué par votre navigateur, votre logiciel AV, la configuration réseau, etc. Pour déterminer la cause exacte, contactez votre équipe informatique/vos administrateurs réseau. Ils doivent également pouvoir vous aider à activer le contenu mixte sur votre machine.
 
-Contactez notre [Équipe d’assistance](https://support.workfront.com/hc/en-us/requests/new) si vous avez besoin d&#39;aide de notre part.
+

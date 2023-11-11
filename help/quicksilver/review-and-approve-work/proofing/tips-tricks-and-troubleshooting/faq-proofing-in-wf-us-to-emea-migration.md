@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: '"FAQ : vérification dans Adobe Workfront - migration des États-Unis vers la région EMEA'
+title: "FAQ : vérification dans Adobe Workfront - migration des États-Unis vers la région EMEA"
 description: Adobe Workfront contacte directement toutes les organisations concernées par la migration du Workfront BAT US vers la zone EMEA.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
-# FAQ : test dans Adobe Workfront - Migration États-Unis vers EMEA
+# Questions fréquentes : vérification dans Adobe Workfront - migration des États-Unis vers la région EMEA
 
 ## Comment savoir si cette modification affecte mon organisation ? 
 
@@ -27,7 +27,7 @@ Oui. Avant la migration, veillez à ajouter les éléments suivants à la liste 
 
 ## Combien de temps faut-il pour migrer mon compte ?
 
-Pendant une courte période, jusqu’à deux heures, votre compte ne sera pas accessible pendant la migration vers son nouvel emplacement sur le centre de données EMEA. Vous trouverez des informations détaillées sur le timing de la migration sur notre [Site d’état Workfront](http://status.workfront.com/). 
+Pendant une courte période, jusqu’à deux heures, votre compte ne sera pas accessible pendant la migration vers son nouvel emplacement sur le centre de données EMEA.
 
 Une fois la migration des comptes terminée, nous allons commencer à déplacer tous vos fichiers de notre centre de données des États-Unis vers le centre de données EMEA. Pendant le déplacement des fichiers, ils seront toujours accessibles sur le centre de données des États-Unis. Ce processus aura lieu en arrière-plan et n’aura aucun impact sur vous et vos utilisateurs.
 
@@ -35,7 +35,7 @@ Une fois la migration terminée, vous et vos utilisateurs ne pourrez accéder au
 
 ## Qu’adviendra-t-il de l’URL que j’utilise pour accéder au Bon à tirer Workfront ?
 
-Pour rendre la migration possible, l’URL que vous utilisez pour accéder au système doit passer de proofhq.com à proofhq.eu. Quiconque utilise l’ancienne URL proofhq.com après la migration recevra un message indiquant le nouveau lien de connexion :
+Pour rendre la migration possible, l’URL que vous utilisez pour accéder au système doit passer de proofhq.com à proofhq.eu. Quiconque utilise l’ancienne proofhq.com URL après la migration recevra un message fournissant le nouveau lien de connexion :
 
 ## Puis-je encore utiliser mes anciens liens et signets de BAT ?
 

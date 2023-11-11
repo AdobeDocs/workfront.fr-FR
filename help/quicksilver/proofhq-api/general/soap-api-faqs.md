@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -57,9 +57,9 @@ Vous n’avez pas besoin d’obtenir un nouvel ID de session avant chaque appel 
 
 ## Qu’est-ce qu’un BAT / une URL personnelle ?
 
-**Équipe/Public**: chaque version de BAT possède une URL d’équipe (publique) unique. S’il est activé, le BAT s’ouvre en mode lecture seule. Vous pouvez obtenir l’URL de l’équipe à l’aide du [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) .
+**Équipe/Public**: chaque version de BAT possède une URL d’équipe (publique) unique. S’il est activé, le BAT s’ouvre en mode lecture seule. Vous pouvez obtenir l’URL de l’équipe à l’aide du [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) .
 
-**Personal Personal**: une URL personnelle est unique pour chaque réviseur et version de BAT. Si un jeu de BAT contient 3 versions et qu’un validant se trouve sur toutes les versions, le validant aura 3 URL personnelles uniques. Une URL personnelle ouvre la version du BAT avec le validant déjà identifié et doit donc être sécurisé et ne pas être partagé. Vous pouvez obtenir des URL personnelles en appelant la fonction [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) puis effectuer une itération sur chaque  [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject) et obtention du paramètre &quot;proof_url&quot;.
+**Personal Personal**: une URL personnelle est unique pour chaque réviseur et version de BAT. Si un jeu de BAT contient 3 versions et qu’un validant se trouve sur toutes les versions, le validant aura 3 URL personnelles uniques. Une URL personnelle ouvre la version du BAT avec le validant déjà identifié et doit donc être sécurisé et ne pas être partagé. Vous pouvez obtenir des URL personnelles en appelant la fonction [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) puis effectuer une itération sur chaque  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) et obtention du paramètre &quot;proof_url&quot;.
 
 ## >Comment inclure des paramètres personnalisés lors de l’ouverture de l’épreuve de miniature ?
 
@@ -71,5 +71,5 @@ Par exemple, l’URL infaillible
 
 ## Comment créer un client de service Web Java ?
 
-[Cette vidéo](http://screencast.com/t/xsSNrqs5b) indique comment créer un client de service Web Java à l’aide d’Eclipse et de la définition WSDL de BAT Workfront.
+[Cette vidéo](https://screencast.com/t/xsSNrqs5b) indique comment créer un client de service Web Java à l’aide d’Eclipse et de la définition WSDL de BAT Workfront.
 

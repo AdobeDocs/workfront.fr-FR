@@ -1,17 +1,17 @@
 ---
-title: Le [!DNL Adobe Workfront] Site d’état
+title: La variable [!DNL Adobe Workfront] Site d’état
 description: Vous pouvez afficher l’intégrité de la variable [!DNL Workfront] plateforme, y compris les incidents, les fenêtres de maintenance planifiées et l’état actuel de toutes les [!DNL Workfront] en accédant aux grappes [!DNL Workfront Status] site.
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Le [!DNL Adobe Workfront] Site d’état
+# La variable [!DNL Adobe Workfront] Site d’état
 
 ## Présentation du site État
 
@@ -26,13 +26,13 @@ Vous avez accès aux informations suivantes sur le site État :
 
 ## Affichage [!DNL Adobe Workfront] mises à jour de statut
 
-Vous pouvez afficher les mises à jour de l’état de la variable [!DNL Adobe] Site d’état.
+Vous pouvez afficher les mises à jour de l’état de [!DNL Adobe] Site d’état.
 
 1. Accédez à [[!DNL https://one.workfront.com]](https://one.workfront.com/), puis cliquez sur **[!UICONTROL État]** dans le **[!UICONTROL Assistance]** , dans le coin inférieur droit de la page.
 
    Ou
 
-   Type [status.adobe.com](http://status.adobe.com/) dans votre navigateur pour accéder au site État .
+   Type [status.adobe.com](https://status.adobe.com/fr/) dans votre navigateur pour accéder au site État .
 
 1. Sélectionner **[!UICONTROL Experience Cloud]**.
 1. Faites défiler la page vers le bas et sélectionnez **[!UICONTROL Adobe Workfront]** de la liste des solutions.
@@ -41,9 +41,9 @@ Vous pouvez afficher les mises à jour de l’état de la variable [!DNL Adobe] 
 
 Pour vous abonner au site État ou gérer votre abonnement après vous être déjà abonné :
 
-1. Accédez à [status.adobe.com](http://status.adobe.com/).
+1. Accédez à [status.adobe.com](https://status.adobe.com/fr/).
 1. Dans la barre d’état, sélectionnez **[!UICONTROL Gestion des abonnements]**.
-1. Si vous disposez d’un compte existant, connectez-vous au compte ; sinon, créez un compte.
+1. Si vous disposez d’un compte existant, connectez-vous au compte ; dans le cas contraire, créez un compte.
 1. Cliquez sur le bouton **[!UICONTROL Créer des abonnements]** bouton .
 1. Sélectionner **[!UICONTROL Adobe Workfront]** sous le **[!UICONTROL Experience Cloud]** en-tête, puis cliquez sur **[!UICONTROL Continuer]**.
 1. Sélectionnez vos préférences régionales et de type d’événement, puis cliquez sur **[!UICONTROL Continuer]**.

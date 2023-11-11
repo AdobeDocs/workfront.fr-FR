@@ -9,7 +9,7 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qu
 
 Cela s’avère utile si vous devez exécuter des tâches actuellement non prises en charge dans la vérification [!DNL Workfront] ou [!DNL Workfront Proof], comme la mise à jour des BAT en fonction de certains événements et la recherche des destinataires d’un BAT.
 
-Le [!DNL Workfront Proof] Le connecteur ne compte pas par rapport au nombre d’applications principales disponibles pour votre organisation. Tous les scénarios, même s’ils utilisent uniquement la variable [!DNL Workfront Proof] , ne comptez pas par rapport au nombre total de scénarios de votre entreprise.
+La variable [!DNL Workfront Proof] Le connecteur ne compte pas par rapport au nombre d’applications actives disponibles pour votre organisation. Tous les scénarios, même s’ils utilisent uniquement la variable [!DNL Workfront Proof] , ne comptez pas par rapport au nombre total de scénarios de votre entreprise.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
    </td> 
@@ -55,9 +55,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -83,7 +83,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 * [Bons à tirer](#watch-proofs)
 * [Rechercher le résumé du PDF](#watch-for-pdf-summary)
-* [[!UICONTROL Surveillance de l’activité de BAT]](#watch-proof-activity)
+* [[!UICONTROL Activité de contrôle de preuve]](#watch-proof-activity)
 
 #### [!UICONTROL Bons à tirer]
 
@@ -149,11 +149,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  </tbody> 
 </table>
 
-#### [!UICONTROL Surveillance de l’activité de BAT]
+#### [!UICONTROL Activité de contrôle de preuve]
 
 Ce module de déclenchement exécute un scénario lorsqu’une activité spécifiée se produit sur un BAT.
 
-Le module renvoie tous les champs standard associés au BAT, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Il crée également un nouvel abonnement d’événement pour les résumés PDF et génère le contenu à partir de la `pdf_url` envoyé dans la payload. Vous pouvez mapper ces informations dans les modules suivants du scénario.
+Le module renvoie tous les champs standard associés au BAT, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Il crée également un nouvel abonnement d’événement pour les résumés de PDF et génère le contenu à partir de la `pdf_url` envoyé dans la payload. Vous pouvez mapper ces informations dans les modules suivants du scénario.
 
 Lors de la configuration de ce module, les champs suivants s’affichent.
 
@@ -181,7 +181,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 * [[!UICONTROL Créer une épreuve]](#create-proof)
 * [[!UICONTROL Appel API personnalisé]](#custom-api-call)
 * [[!UICONTROL Télécharger le bon à tirer]](#download-proof)
-* [[!UICONTROL Lecture d’un enregistrement]](#read-a-record)
+* [[!UICONTROL Lire un enregistrement]](#read-a-record)
 * [[!UICONTROL Résumé du PDF de requêtes]](#request-pdf-summary)
 * [[!UICONTROL Mettre à jour le BAT]](#update-proof)
 * [[!UICONTROL Charger fichier]](#upload-file)
@@ -282,7 +282,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL BAT de verrouillage lorsque toutes les décisions requises sont prises]</td> 
-   <td>Indiquez si vous souhaitez que le BAT créé soit verrouillé une fois toutes les décisions requises prises.</td> 
+   <td>Indiquez si vous souhaitez que le BAT créé se verrouille une fois toutes les décisions requises prises.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Informer les destinataires de ce BAT]</td> 
@@ -310,7 +310,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Resolution ID]</td> 
-   <td>Saisissez l'identifiant de la résolution que vous souhaitez utiliser pour votre BAT. Pour obtenir la liste des ID de résolution, voir [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">Documentation des API</a>.</td> 
+   <td>Saisissez l'identifiant de la résolution que vous souhaitez utiliser pour votre BAT. Pour obtenir la liste des ID de résolution, voir [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">Documentation de l’API</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -357,7 +357,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -398,7 +398,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  </tbody> 
 </table>
 
-#### [!UICONTROL Lecture d’un enregistrement]
+#### [!UICONTROL Lire un enregistrement]
 
 Ce module d’action lit les données à partir d’un seul BAT dans [!DNL Workfront Proof].
 
@@ -467,7 +467,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 ##### Erreur possible
 
 * **Erreur**: &quot;[!UICONTROL Vous n’avez pas le droit d’effectuer cette requête. La scène doit contenir au moins un destinataire.]&quot;
-* **Solution**: Assurez-vous que vous n’êtes pas le seul attribué aux étapes du workflow. Un autre utilisateur doit être affecté aux étapes du workflow.
+* **Solution**: assurez-vous que vous n’êtes pas le seul attribué aux étapes du workflow. Un autre utilisateur doit être affecté aux étapes du workflow.
 
 #### [!UICONTROL Mettre à jour le BAT]
 
@@ -531,7 +531,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL BAT de verrouillage lorsque toutes les décisions requises sont prises]</td> 
-   <td>Indiquez si vous souhaitez que le BAT créé soit verrouillé une fois toutes les décisions requises prises.</td> 
+   <td>Indiquez si vous souhaitez que le BAT créé se verrouille une fois toutes les décisions requises prises.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Message]</td> 
@@ -543,7 +543,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Name]</td> 
-   <td>Saisissez ou mappez le nom du BAT que vous souhaitez mettre à jour.</td> 
+   <td>Saisissez ou mappez le nom du BAT à mettre à jour.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nécessite une connexion]</td> 
