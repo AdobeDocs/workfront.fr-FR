@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
+source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 3%
+source-wordcount: '2126'
+ht-degree: 4%
 
 ---
 
@@ -70,6 +70,7 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * Modèle
 * Feuille de temps
 * l’utilisateur ou de l’utilisatrice
+* Espace de travail
 
 Pour obtenir la liste des champs pris en charge par les objets d’abonnement d’événement, voir [Champs de ressource d’abonnement à un événement](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -179,6 +180,10 @@ La ressource d&#39;abonnement contient les champs suivants.
        <tr> 
         <td scope="col">l’utilisateur ou de l’utilisatrice</td> 
         <td scope="col">UTILISATEUR</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Espace de travail</td> 
+        <td scope="col">WORKSPACE</td> 
        </tr> 
       </tbody> 
      </table>
