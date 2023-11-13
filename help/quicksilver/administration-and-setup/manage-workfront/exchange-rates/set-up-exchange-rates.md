@@ -2,12 +2,12 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
-title: En tant qu’administrateur Adobe Workfront, vous pouvez configurer des taux de change de devise dans Workfront.
-description: Configurer les taux de change
+title: Configurer les taux de change
+description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer des taux de change de devise dans Workfront.
 feature: System Setup and Administration
 role: Admin
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -37,7 +37,7 @@ La manière dont vous configurez les taux de change détermine si les utilisateu
 
 >[!IMPORTANT]
 >
->Les taux de change dans Workfront ne sont pas dynamiques ; la valeur que vous définissez doit être mise à jour lorsque des changements de taux de change se produisent.
+>Les taux de change dans Workfront ne sont pas dynamiques ; la valeur que vous définissez doit être mise à jour en cas de modification des taux de change.
 
 ## Exigences d’accès
 
@@ -57,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ Les utilisateurs peuvent modifier la devise par défaut d’un projet lorsque le
 
 * L’utilisateur dispose d’une licence Plan avec l’accès administratif aux taux d’échange.
 
-   Pour plus d’informations, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Pour plus d’informations, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Plusieurs devises sont activées sur le système Workfront.
 
@@ -96,7 +96,7 @@ Les utilisateurs peuvent modifier la devise d’un rôle de tâche lorsque les c
 
 * L’utilisateur dispose d’une licence Plan avec un accès administratif aux rôles de tâche.
 
-   Pour plus d’informations, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Pour plus d’informations, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Plusieurs devises sont activées dans le système Workfront.
 
