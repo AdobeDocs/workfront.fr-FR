@@ -4,9 +4,9 @@ description: Améliorations des panoramas au quatrième trimestre 2023
 author: Lisa
 feature: Product Announcements
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 Pour plus d’informations sur l’opt-in aux nouvelles fonctionnalités des panoramas avant la publication trimestrielle, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Sous-tâches désormais disponibles dans les panoramas Adobe Workfront
-
->[!NOTE]
->
->Cette fonctionnalité est temporairement indisponible à compter du 7 novembre 2023. Cette page sera mise à jour lorsque la fonctionnalité sera disponible.
 
 Lorsque vous ajoutez une carte connectée à un panorama pour une tâche Workfront, toutes les sous-tâches existantes sont importées sur la carte. En outre, lorsque vous créez une sous-tâche sur une carte connectée, une sous-tâche est ajoutée à la tâche Workfront.
 
