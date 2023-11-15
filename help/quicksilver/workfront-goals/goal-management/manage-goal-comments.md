@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ Avant de pouvoir commencer, vous devez disposer des éléments suivants :
 
 * Un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
 
-## Recherche de la section Mises à jour
+## Gestion des commentaires d’objectif
 
 Vous pouvez ajouter des commentaires aux objectifs dans la section Mises à jour de la page d’un objectif.
 
 Vous pouvez répondre ou aimer un commentaire que vous ou d’autres avez ajouté dans cette zone.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou le **Menu Principal** icon ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Objectifs**.
 Cela ouvre la liste des objectifs.
 1. Recherchez l’objectif auquel vous souhaitez ajouter des commentaires, puis cliquez sur son nom pour ouvrir la page d’objectif.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. Cliquez sur le bouton **x** dans le champ de recherche pour effacer les résultats de la recherche et revenir à la fin.
 1. Cliquez sur le bouton **Commentaires** dans le coin supérieur gauche de la zone Mises à jour .
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 

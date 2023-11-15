@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 4e06eaf0755f284692db1cf6511fa5b598b88e28
 workflow-type: tm+mt
-source-wordcount: '3810'
+source-wordcount: '3803'
 ht-degree: 1%
 
 ---
@@ -390,7 +390,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    1. Sous **Texte à afficher**, saisissez ou collez le texte du lien.
    1. Cliquer sur **Enregistrer**.
 
-1. (Facultatif) Pour joindre une image à votre mise à jour, cliquez sur le bouton **Ajouter une image** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur lors de l’utilisation de la nouvelle expérience de commentaire.
+1. (Facultatif) <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> Cliquez sur le bouton **Ajouter une image** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur lors de l’utilisation de la nouvelle expérience de commentaire.
 
    >[!NOTE]
    >
@@ -408,6 +408,30 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
 1. Cliquez sur **Envoyer** pour ajouter votre commentaire.
 
+<!-- for the search for comments - November 2023 release to Preview: 
+
+<div class="preview">
+
+## Search for an update
+
+>[!NOTE]
+>
+>This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+
+You can search for a comment or a reply in the Updates section of an object. 
+
+1. Go to the **Updates** section of an object.
+1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+
+</div>
+
+-->
 
 ## Copie des informations de mise à jour
 

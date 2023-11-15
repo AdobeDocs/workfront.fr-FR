@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1843'
 ht-degree: 1%
 
 ---
@@ -369,7 +369,7 @@ Le tableau suivant illustre les principales fonctionnalités qui seront disponib
 | Connecter des enregistrements Maestro à des projets, programmes, portfolios, entreprises et groupes Workfront | ✓ |                                 |                  |
 | Page Détails de l’enregistrement | ✓ |                                  |                  |
 | Mettre à jour la mise en page de la page Détails de l’enregistrement |                               | ✓ |                  |
-| Niveaux d’accès et autorisations | | ✓ |  |
+| Autorisations Workspace | | ✓ |  |
 | Soumettre des demandes |                               |                                  | ✓ |
 | Brève présentation créative |                               |                                  | ✓ |
 | Personnalisation de la couleur et de l’icône d’un enregistrement | ✓ |                                  |                 |

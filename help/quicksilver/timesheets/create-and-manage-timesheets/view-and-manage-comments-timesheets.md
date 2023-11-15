@@ -6,9 +6,9 @@ description: Vous pouvez faire des commentaires sur les feuilles de temps, les t
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,12 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps.
 
 1. Cliquez sur **Feuilles de temps**.
 1. Accédez à la feuille de temps où vous souhaitez faire un commentaire.
-1. Cliquez sur **Mises à jour** dans le panneau de gauche, assurez-vous que la variable **Commentaires** est sélectionné et commencez à saisir une mise à jour dans la variable **Nouveau commentaire** de la boîte.
+1. Cliquez sur **Mises à jour** dans le panneau de gauche, puis cliquez sur le bouton **Commentaires** .
+<!--
+1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
+
+   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
+1. Saisissez une mise à jour dans le champ **Nouveau commentaire** de la boîte.
 1. (Facultatif) Ajoutez des personnes ou des équipes dans le **Balisage de personnes ou d’équipes** pour inclure d’autres utilisateurs dans votre mise à jour. Pour plus d’informations, voir [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facultatif) Ajoutez un formatage de texte enrichi à votre commentaire. Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Sélectionnez le **Privé à ma société** si vous souhaitez que seules les personnes de votre société visualisent la mise à jour.
