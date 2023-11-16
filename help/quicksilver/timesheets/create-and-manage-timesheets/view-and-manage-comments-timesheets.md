@@ -6,9 +6,9 @@ description: Vous pouvez faire des commentaires sur les feuilles de temps, les t
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -76,28 +76,23 @@ Les commentaires s’affichent sous l’élément où l’entrée d’heure et l
 
 ### Commentaire sur la feuille de temps globale {#comment-on-the-overall-timesheet}
 
-Vous pouvez faire des commentaires généraux sur la feuille de temps.
+Vous pouvez faire des commentaires généraux sur la feuille de temps. Commenter la feuille de temps globale est similaire à commenter d’autres objets.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou le **Menu Principal** icon ![](assets/lines-main-menu.png) dans le coin supérieur gauche ou dans Workfront, le cas échéant.
 
 1. Cliquez sur **Feuilles de temps**.
 1. Accédez à la feuille de temps où vous souhaitez faire un commentaire.
 1. Cliquez sur **Mises à jour** dans le panneau de gauche, puis cliquez sur le bouton **Commentaires** .
-<!--
-1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
-
-   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
-1. Saisissez une mise à jour dans le champ **Nouveau commentaire** de la boîte.
+1. Commencez à ajouter de nouveaux commentaires ou à répondre à des commentaires existants, comme décrit dans la section [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Ajoutez des personnes ou des équipes dans le **Balisage de personnes ou d’équipes** pour inclure d’autres utilisateurs dans votre mise à jour. Pour plus d’informations, voir [Balisage des autres sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Facultatif) Ajoutez un formatage de texte enrichi à votre commentaire. Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Sélectionnez le **Privé à ma société** si vous souhaitez que seules les personnes de votre société visualisent la mise à jour.
 1. Saisissez votre commentaire, puis cliquez sur **Envoyer**.
 
-   Votre commentaire s’affiche dans la variable [!UICONTROL Mises à jour] de la feuille de temps.
+   Votre commentaire s’affiche dans la variable [!UICONTROL Mises à jour] de la feuille de temps, dans l’onglet Composants .
 
 1. (Facultatif) Cliquez sur le **Activité du système** pour examiner les mises à jour générées par le système.
 
-   Pour plus d’informations, reportez-vous à la section &quot;Activation ou désactivation des mises à jour système&quot; de l’article . [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Pour plus d’informations, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Commentaire sur une entrée d’heure dans une feuille de temps {#comment-on-an-individual-hour-entry-in-a-timesheet}
 

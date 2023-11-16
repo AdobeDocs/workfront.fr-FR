@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,16 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. </span>
+
+<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+-->
 
 Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez afficher dans les objectifs Adobe Workfront.
 
@@ -130,16 +139,13 @@ Vous pouvez répondre ou aimer un commentaire que vous ou d’autres avez ajout�
 Cela ouvre la liste des objectifs.
 1. Recherchez l’objectif auquel vous souhaitez ajouter des commentaires, puis cliquez sur son nom pour ouvrir la page d’objectif.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
-<!--
-1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+1. <span class="preview">(Facultatif) Pour localiser un commentaire existant, commencez à saisir un mot-clé. <!--or a user's name--> dans le **Rechercher** dans le coin supérieur droit de la **Commentaires** . </span>
 
-   ![](assets/search-field-in-updates-tab-goals.png)
+   <span class="preview">![](assets/search-field-in-updates-tab-goals.png)</span>
 
-   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   <span class="preview">Le mot-clé <!--or user--> La recherche effectuée est mise en surbrillance et les commentaires qui la contiennent s’affichent en haut de la section Mises à jour . </span>
 
-      >[!TIP]
-      >
-      >   Searching for a comment is not available for system activity updates. -->
+   Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 
 1. Cliquez sur le bouton **x** dans le champ de recherche pour effacer les résultats de la recherche et revenir à la fin.
 1. Cliquez sur le bouton **Commentaires** dans le coin supérieur gauche de la zone Mises à jour .

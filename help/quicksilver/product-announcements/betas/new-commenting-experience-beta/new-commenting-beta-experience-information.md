@@ -2,15 +2,15 @@
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
 title: Informations sur la nouvelle expérience bêta de commentaires
-description: La nouvelle expérience bêta de commentaires est actuellement fermée. Les articles suivants documentent les fonctionnalités mises à disposition dans en tant que nouvelle expérience de commentaire.
+description: Le nouveau programme bêta d’expérience de commentaires est actuellement fermé. Les articles suivants documentent les fonctionnalités mises à disposition dans en tant que nouvelle expérience de commentaire.
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: 0ffa49583d8c248c8e248caccd1bb5edd18e9a91
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La nouvelle expérience bêta de commentaires est actuellement fermée.
+>Le nouveau programme bêta d’expérience de commentaires est actuellement fermé.
 >
 >Les fonctionnalités publiées pendant la période bêta ont été mises à la disposition de tous les clients à partir de la version du quatrième trimestre de 2023 (octobre 2023).
 

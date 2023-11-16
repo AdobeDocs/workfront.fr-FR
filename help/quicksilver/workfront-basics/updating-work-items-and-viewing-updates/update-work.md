@@ -6,22 +6,20 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '4005'
 ht-degree: 1%
 
 ---
 
 # Mise à jour du travail
 
-
-
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. </span>
 
-<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -83,7 +81,7 @@ After the monthly releases to Production, the same features are also available i
 
 * Vous pouvez ajouter des commentaires aux objets Workfront à partir d’autres applications intégrées à Workfront ou à partir de l’application mobile Workfront.
 
-  Toutes les applications intégrées à Workfront n’ont pas la possibilité d’ajouter des commentaires aux objets Workfront.
+  Toutes les applications intégrées à Workfront ne peuvent pas ajouter de commentaires aux objets Workfront.
 
   Toutes les fonctions disponibles dans la section Mises à jour d’un objet dans Workfront ne le sont pas dans d’autres applications lors de l’accès aux objets Workfront à partir de l’application. Par exemple, les fonctionnalités de texte enrichi ou la définition d’un commentaire privé pour la société d’une personne peuvent ne pas être disponibles lors de l’ajout de commentaires à un objet Workfront à partir d’une application tierce.
 
@@ -234,7 +232,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 
    >[!NOTE]
    >
-   >Une petite fenêtre contextuelle s’affiche pendant sept secondes après avoir cliqué sur **Mettre à jour**, ce qui vous permet d’annuler la mise à jour et de revenir au volet d’édition avant la publication de la mise à jour. La mise à jour sera publiée si vous ignorez la fenêtre contextuelle Annuler, attendez qu’elle disparaisse ou quittez la page.
+   >Une petite fenêtre contextuelle s’affiche pendant sept secondes après avoir cliqué sur **Mettre à jour**, ce qui vous permet d’annuler la mise à jour et de revenir au volet d’édition avant la publication de la mise à jour. La mise à jour est publiée si vous ignorez la fenêtre contextuelle Annuler, attendez qu’elle disparaisse ou quittez la page.
    >
    >Si votre administrateur Workfront sélectionne le paramètre &quot;Ne jamais autoriser les utilisateurs à supprimer les commentaires&quot; dans votre niveau d’accès, vous ne pouvez pas annuler un commentaire. Pour plus d’informations, voir [Création et modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -263,7 +261,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
 
    >[!TIP]
    >
-   >Si un autre utilisateur envoie un commentaire au même élément que celui que vous mettez à jour, une ligne rouge s’affiche avec un indicateur &quot;Nouveau&quot; pour vous informer des commentaires les plus récents.
+   >Si un autre utilisateur envoie un commentaire au même élément que celui que vous mettez à jour, une ligne rouge avec un indicateur &quot;Nouveau&quot; s’affiche pour vous informer des commentaires les plus récents.
    >
    >L’indicateur s’affiche uniquement après l’envoi du commentaire sur l’élément, et non lorsque le commentaire est toujours composé.
    >
@@ -290,7 +288,7 @@ L’ajout d’une mise à jour à un élément de travail varie en fonction de l
    >
    >* Un message électronique est généré pour informer les utilisateurs de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun email n&#39;est généré après avoir modifié votre mise à jour.
    >* L’horodatage en regard du commentaire correspond à la date du commentaire d’origine, et non à celle de la dernière modification.
-   >* Lorsque vous publiez un commentaire au nom d’un autre utilisateur (lorsque vous vous connectez en tant qu’autre utilisateur en tant qu’administrateur Workfront ou de groupe), vous ne pouvez pas le modifier si vous êtes connecté en tant qu’autre utilisateur. Vous ne pouvez modifier le commentaire qu’après vous être déconnecté en tant qu’utilisateur et vous être reconnecté vous-même.
+   >* Lorsque vous ajoutez un commentaire au nom d’un autre utilisateur (lorsque vous vous connectez en tant qu’autre utilisateur en tant qu’administrateur Workfront ou de groupe), vous ne pouvez pas le modifier si vous êtes connecté en tant qu’autre utilisateur. Vous ne pouvez modifier le commentaire qu’après vous être déconnecté en tant qu’utilisateur et vous être reconnecté vous-même.
 
 
 1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la variable **Ajouter une réponse ...** , pour répondre à un commentaire existant, puis suivez les étapes 4 à 8 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
@@ -391,17 +389,18 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    1. Sous **Texte à afficher**, saisissez ou collez le texte du lien.
    1. Cliquer sur **Enregistrer**.
 
-1. (Facultatif) <span class="preview">Pour joindre une image à votre mise à jour, copiez une capture d’écran de votre ordinateur, puis cliquez sur **Ctrl + V** pour Windows (ou **CMD + V** pour Mac) pour le coller dans le commentaire</span>
+1. (Facultatif) <span class="preview">Pour joindre une image à votre mise à jour, copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire. </span>
 
    Ou
 
-   Cliquez sur le bouton **Ajouter une image** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur lors de l’utilisation de la nouvelle expérience de commentaire.
+   Cliquez sur le bouton **Ajouter une image** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
 
    >[!NOTE]
    >
    >* Votre administrateur Workfront doit activer l’ajout d’images dans la section Mettre à jour les préférences des flux de la zone Interface de Workfront avant de pouvoir voir les icônes Image ou Ajouter une pièce jointe. Pour plus d’informations, voir [Configuration des préférences pour les mises à jour des utilisateurs](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* La taille maximale du fichier image est de 7 Mo. Les types de fichiers image pris en charge sont .jpg, .gif et .png.
    >* Les images sont accessibles à partir de la section Mises à jour d’un objet et elles sont également disponibles dans la zone Documents sous le menu principal.
+   >* <span class="preview">Vous pouvez coller l’image en cliquant avec le bouton droit dans le nouveau commentaire, ou en appuyant sur Ctrl + V pour Windows (ou CMD + V pour Mac) sur votre clavier.</span>
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
    >* Lorsque vous supprimez un commentaire qui contient une image, les scénarios suivants existent selon l’expérience choisie :
    >
@@ -424,13 +423,17 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 Vous pouvez rechercher un commentaire ou une réponse dans la section Mises à jour d’un objet.
 
 1. Accédez au **Mises à jour** d’un objet.
-1. Commencer à saisir un mot-clé <!--or a user's name--> dans le **Rechercher** dans le coin supérieur droit de la section Mises à jour . <!--You can search for comment owner's names or for users who are tagged on comments. -->
+1. Commencer à saisir un mot-clé <!--or a user's name --> dans le **Rechercher** dans le coin supérieur droit de la **Commentaires** .
+
+   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    ![](assets/search-field-in-updates-tab.png)
 
    Le mot-clé <!--or user--> La recherche effectuée est mise en surbrillance et les commentaires qui la contiennent s’affichent en haut de la section Mises à jour .
 
-1. Cliquez sur le bouton **x** dans le champ de recherche pour effacer les résultats de la recherche et revenir à la fin.
+   Workfront recherche l’intégralité du flux de mise à jour de l’objet, en dehors des commentaires visibles à l’écran.
+
+1. Cliquez sur le bouton **x** dans le champ de recherche pour effacer les résultats de la recherche et revenir à tous les commentaires.
 
 </div>
 
