@@ -7,9 +7,9 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -114,7 +114,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![Créateur de filtres](assets/intake-filter-dialog6.png)
 
-   Cet exemple affiche un filtre pour les tâches d’un projet spécifique qui sont à l’état de [!UICONTROL Nouveau] ou [!UICONTROL En cours]et sont attribués à moi.
+   Cet exemple affiche un filtre pour les tâches d’un projet spécifique qui sont à l’état de [!UICONTROL Nouveau] ou [!UICONTROL En cours].
+
+   >[!NOTE]
+   >
+   >Il est recommandé de ne pas utiliser le caractère générique &quot;Moi&quot; (utilisateur connecté) sur un filtre de panorama, car il n’est pas garanti que l’utilisateur connecté affiche toujours les tâches ou les problèmes. Une fois le panorama configuré avec les tâches et problèmes appropriés, vous pouvez le filtrer pour afficher les éléments d’une personne désignée spécifique. Pour plus d’informations, voir [Filtrage et recherche dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
    Pour plus d’informations sur la création d’un filtre, reportez-vous à la section &quot;Création ou modification d’un filtre dans le créateur standard&quot; de l’article. [Création ou modification de filtres dans [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -141,7 +145,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Utiliser la colonne d&#39;ingestion
 
 Les cartes de la colonne d’entrée ne peuvent pas être modifiées tant que vous ne les déplacez pas dans d’autres colonnes de la carte. Vous pouvez cliquer sur la carte pour l’ouvrir en lecture seule ou cliquer sur ![Ouvrir une tâche ou un problème](assets/boards-launch-icon.png) pour ouvrir la tâche ou le problème dans un nouvel onglet du navigateur.
-
 
 Vous pouvez réorganiser manuellement les éléments de la colonne d’ingestion.
 
