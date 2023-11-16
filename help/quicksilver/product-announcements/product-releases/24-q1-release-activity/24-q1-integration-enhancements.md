@@ -3,9 +3,9 @@ title: Améliorations de l’intégration au premier trimestre 2024
 description: Améliorations de l’intégration au premier trimestre 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 864ba63e448a070b3ae5413196cc2fdd316fb931
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,14 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations de l’intégration apportées à la version du premier trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Champs de saisie anticipée désormais disponibles dans l’intégration Adobe Experience Manager
+
+Afin de faciliter la liaison des champs entre Workfront et Adobe Experience Manager, nous avons ajouté la prise en charge des champs de saisie anticipée dans le mappage des métadonnées. Vous pouvez maintenant mapper des champs de type anticipé aux champs correspondants dans Adobe Experience Manager.
+
+Si un utilisateur sélectionne une autre valeur pour un champ dans Workfront, cette modification est immédiatement répercutée dans Adobe Experience Manager. En outre, si une option de valeur de champ change (par exemple si une équipe remplace son nom par un nouveau nom), cette modification est également répercutée dans Adobe Experience Manager.
+
+Pour plus d’informations et d’instructions sur le mappage des métadonnées dans l’intégration Adobe Experience Manager, voir [Configuration des métadonnées](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-metadata-optional).
 
 ## Publication automatique de ressources dans Adobe Experience Manager
 
