@@ -7,9 +7,9 @@ description: Les modèles publics suivants sont actuellement disponibles dans Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ Pour afficher les modèles disponibles, cliquez sur le bouton **Modèles** icon 
 
 Ces modèles automatisent les processus et les workflows Workfront.
 
-### [!BADGE Nouveau!]{type=Informative}
+### Workfront - Création de projet à partir de CSV
 
 Cette automatisation crée de nouveaux projets dans Workfront en fonction du nom, du Portfolio, de l’état, de la date de début planifiée et des détails du modèle que vous spécifiez dans un fichier CSV.
 
-### [!BADGE Nouveau!]{type=Informative}
+### Workfront - Demandes de nettoyage sans nouvelles notes au cours des 30 derniers jours
 
 Utilisez ce modèle pour appliquer une mise à jour de note de 30 jours à vos requêtes. Les demandes qui ne sont pas mises à jour dans 30 jours voient leur état changé et fermé à 60 jours.
 
-### [!BADGE Nouveau!]{type=Informative}
+### Workfront : définissez l’état du projet sur Terminé à 100 %.
 
 Cette automatisation met à jour les projets à l’état Terminé pour lequel toutes les tâches à 1 005 sont terminées. Les projets avec des problèmes en cours ou des tâches ouvertes ou des approbations de projet recevront une mise à jour. Une fois résolus, les projets passeront à l’état Terminé.
 
-### [!BADGE Nouveau!]{type=Informative}
+### Workfront - Avertissement et tentative de fermeture de projets obsolètes
 
 Utilisez ce scénario pour automatiser l’avertissement et la fermeture des projets qui correspondent à la stratégie de projet obsolète de votre entreprise.
 
-### [!BADGE Nouveau!]{type=Informative}
+### Workfront : copiez les nouvelles notes et réponses du problème/de la demande source au projet ou à la tâche déjà converti.
 
 Utilisez ce modèle pour copier les notes et les réponses d’un problème ou d’une requête vers un projet ou une tâche déjà converti.
 
@@ -57,6 +57,10 @@ Cette automatisation recherche de nouveaux projets dans les portefeuilles avec d
 ### Workfront - Convertir le problème approuvé en projet
 
 Ce modèle convertit les problèmes en projets. Vous pouvez la modifier pour répondre aux normes de votre entreprise.
+
+### [!BADGE Nouveau!]{type=Informative}
+
+Ce scénario flexible copie des documents provenant de problèmes ou de requêtes vers des projets ou des tâches précédemment convertis.
 
 ### Notification personnalisée basée sur le changement de champ
 
@@ -102,7 +106,7 @@ Ces modèles récupèrent les informations d’un service Web et les intègrent 
 >
 > Vous devez disposer d’une licence Workfront Fusion for Work Automation and Integration pour utiliser des modèles dans cette section.
 
-### [!BADGE Nouveau!]{type=Informative}
+### Établissement de la connexion à l’aide de JWT (JSON Web Token)
 
 Définition de l’autorisation JWT pour une API client.
 
@@ -138,7 +142,7 @@ Ces modèles connectent Workfront et SharePoint.
 >
 > Vous devez disposer d’une licence Workfront Fusion for Work Automation and Integration pour utiliser des modèles dans cette section.
 
-### [!BADGE Nouveau!]{type=Informative}
+### Surveillance des modifications du dossier SharePoint
 
 Ce modèle vous permet de voir si un dossier SharePoint a été modifié.
 
