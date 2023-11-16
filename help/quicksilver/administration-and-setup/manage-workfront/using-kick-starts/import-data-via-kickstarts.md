@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 7%
+source-wordcount: '2642'
+ht-degree: 6%
 
 ---
 
@@ -300,6 +300,7 @@ Lorsque vous ouvrez l’un de ces onglets, la ligne 2 affiche les champs de chaq
 >
 >  Par exemple, sur la page **Projet PROJ** , **setCondition** et **setConditionType** Les champs peuvent être laissés vides, mais la variable **setGroupID** et **setName** ne le peuvent pas.
 >
+>* Certains champs, y compris **setResourceRevenue** et **setEnteredByID**, sont générés automatiquement par le système. Si vous saisissez des données pour ces champs dans la feuille de calcul, le processus de démarrage rapide l’emportera lors du téléchargement de la feuille de calcul.
 
 ### Importation d’un enregistrement  {#import-a-record}
 
