@@ -6,9 +6,9 @@ description: Vous pouvez générer un nouveau BAT interactif ou une nouvelle ver
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
@@ -64,13 +64,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
       ![Select_BAT_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
+
    1. Dans le **Ajouter** menu déroulant, cliquez sur **Version** > **Bon à tirer**.
 
-1. Dans le **Ajouter des fichiers** , saisissez l’URL du site Web que vous souhaitez tester, puis appuyez sur **Entrée**.
+1. Dans le **Ajouter des fichiers** , saisissez l’URL du site Web que vous souhaitez tester, puis appuyez sur **Entrée**.  Vous pouvez répéter ce processus pour ajouter plusieurs sites Web à vérifier.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
-   Vous pouvez répéter ce processus pour ajouter plusieurs sites Web à vérifier.
+
+   >[!NOTE]
+   >
+   > L’URL doit comporter moins de 1 000 caractères.
 
 1. Cliquez sur l’URL que vous avez ajoutée.
 

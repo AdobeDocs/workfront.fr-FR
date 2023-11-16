@@ -6,9 +6,9 @@ description: Vous pouvez générer un nouveau BAT statique ou une nouvelle versi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionner ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
@@ -69,9 +69,9 @@ Pour créer un BAT statique, le site web doit être accessible publiquement (et 
 
 1. Saisissez l’URL du site web que vous souhaitez tester dans la variable **Ajouter des fichiers** zone, puis appuyez sur **Entrée**.
 
-   L’URL apparaît sous la zone dans laquelle vous l’avez saisie.
-
-   ![](assets/url-name-appears-below-350x142.png)
+   >[!NOTE]
+   >
+   > L’URL doit comporter moins de 1 000 caractères.
 
 1. Cliquez sur l’URL que vous avez ajoutée.
 
@@ -79,7 +79,7 @@ Pour créer un BAT statique, le site web doit être accessible publiquement (et 
 
    ![](assets/interactive-proof-radio-btn-area-350x199.png)
 
-1. (Facultatif) Si vous souhaitez remplacer le nom du BAT de l’URL du site web par un autre, saisissez une **Nom du BAT.**
+1. (Facultatif) Si vous souhaitez remplacer le nom du BAT de l’URL du site web par un autre, saisissez une **Nom du bon à tirer.**
 1. Assurez-vous de **Capture d’écran** est sélectionné et utilisez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
@@ -88,7 +88,7 @@ Pour créer un BAT statique, le site web doit être accessible publiquement (et 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Résolution de la capture d’écran</strong> </td> 
-      <td> <p>Ajustez la résolution de votre contenu lorsque les réviseurs visualisent le BAT, ce qui leur permet de voir comment il apparaît sur des appareils de tailles différentes, tels que les téléphones, tablettes et moniteurs.</p> <p>Si vous sélectionnez plusieurs résolutions, un BAT distinct est créé pour chaque résolution sélectionnée.</p> <p>Remarque : Lorsqu’un réviseur fait des commentaires sur le BAT, le commentaire inclut la résolution qui s’affiche lorsque le commentaire a été fait afin que les autres réviseurs sachent quelle résolution est associée au commentaire. </p> </td> 
+      <td> <p>Ajustez la résolution de votre contenu lorsque les réviseurs visualisent le BAT, ce qui leur permet de voir comment il apparaît sur des appareils de tailles différentes, tels que les téléphones, tablettes et moniteurs.</p> <p>Si vous sélectionnez plusieurs résolutions, un BAT distinct est créé pour chaque résolution sélectionnée.</p> <p>Remarque : Lorsqu’un réviseur commente le BAT, le commentaire inclut la résolution qui s’affiche lorsque le commentaire a été fait, de sorte que les autres réviseurs sachent quelle résolution est associée au commentaire. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Recherche de sous-pages</strong> </td> 
