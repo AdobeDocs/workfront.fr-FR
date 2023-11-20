@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # Désactivation ou réactivation d’un formulaire personnalisé
 
 Vous pouvez réactiver ou désactiver un formulaire personnalisé. Nous vous recommandons de désactiver les formulaires personnalisés plutôt que de supprimer les formulaires que vous n’utilisez plus pour conserver les données historiques.
+
+>[!NOTE]
+>
+>Si un formulaire personnalisé est désactivé mais fait toujours partie d’une rubrique de file d’attente ou d’une définition de file d’attente de requêtes, il sera joint à de nouvelles requêtes. Si vous ne souhaitez pas que le formulaire figure dans les requêtes, vous devez le supprimer manuellement de la file d’attente des requêtes.
 
 ## Exigences d’accès
 
@@ -55,7 +59,7 @@ Pour désactiver un formulaire personnalisé :
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 1. Dans le panneau de gauche, choisissez **Forms personnalisée**.
 1. Sur le **Forms** , sélectionnez le formulaire personnalisé à désactiver.
-1. Dans la colonne Est Principal , sélectionnez **False** et cliquez en dehors de la colonne . Le formulaire n’est plus principal.
+1. Dans la colonne Est actif, sélectionnez **False** et cliquez en dehors de la colonne . Le formulaire n’est plus actif.
 
 ## Réactivation d’un formulaire personnalisé
 
@@ -64,4 +68,4 @@ Si vous réactivez un formulaire personnalisé, il conserve les paramètres dont
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 1. Dans le panneau de gauche, choisissez **Forms personnalisée**.
 1. Sur le **Forms** , sélectionnez le formulaire personnalisé à réactiver.
-1. Dans la colonne Est Principal , sélectionnez **True** et cliquez en dehors de la colonne . Le formulaire est maintenant principal.
+1. Dans la colonne Est actif, sélectionnez **True** et cliquez en dehors de la colonne . Le formulaire est maintenant actif.
