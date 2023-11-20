@@ -8,9 +8,9 @@ description: Cet article contient des informations sur l’accès et les autoris
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
+source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,6 @@ Cet article décrit l’accès et les fonctionnalités disponibles pour les diff
 >Les rôles d’organisation diffèrent des rôles d’équipe dans [!DNL Workfront Fusion]. Pour plus d’informations sur les rôles d’organisation et d’équipe, voir [Organisations et équipes](../organizations/organizations-and-teams.md).
 
 ## Exigences d’accès
-
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
-
-&lt;## Exigences d’accès
 
 Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
@@ -106,7 +102,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Suppression d’organisations</p> </td> 
+   <td> <p>Suppression d’une organisation</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
@@ -122,7 +118,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
   <tr> 
    <td> <p>Gestion des utilisateurs de l’organisation</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
