@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3491'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ Dans Workfront, vous pouvez consigner l’heure de connexion dans les zones suiv
 
 #### Temps de connexion sur une feuille de temps {#log-time-on-a-timesheet}
 
-Vous pouvez consigner les heures générales ou les heures spécifiques au projet sur une feuille de temps.
+Vous pouvez consigner l’heure aux éléments suivants dans la feuille de temps :
+
+* Tâches, problèmes et projets prérenseignés qui s’affichent automatiquement, en fonction de la manière dont votre administrateur Workfront définit les préférences de la feuille de temps. Pour plus d’informations sur la façon dont les feuilles de temps sont préremplies, voir [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  Seules les tâches et les problèmes qui vous sont affectés sont préremplis dans votre feuille de temps. Les tâches et les problèmes affectés à vos équipes ou rôles de tâche ne renseignent pas automatiquement votre feuille de temps.
+
+  Cliquez sur Travailler dessus pour attribuer l’élément à vos équipes et l’élément s’affichera dans votre feuille de temps.
+* Tâches, problèmes ou projets que vous ajoutez manuellement.
+* Tâches, problèmes ou projets pour lesquels vous avez déjà effectué une connexion ailleurs dans Workfront.
+* Heure générale (vacances, formation, temps de surcharge).
 
 >[!NOTE]
 >
 >Les utilisateurs chargés de la révision d’un profil de feuille de temps peuvent voir la zone Fiches horaires et consigner les heures générales. Cependant, ils ne peuvent pas consigner les heures sur les tâches ou les problèmes qui leur sont affectés et qui apparaissent sur la feuille de temps.
 
-1. Cliquez sur le bouton [!UICONTROL **Menu Principal**] icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+Pour consigner l’heure sur une feuille de temps :
+
+1. Cliquez sur le bouton [!UICONTROL **Menu Principal**] icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou le **Menu Principal** icon ![](assets/lines-main-menu.png) dans le coin supérieur gauche de Workfront, le cas échéant.
 
 1. Cliquez sur [!UICONTROL **Feuilles de temps**]. Votre feuille de temps actuelle s’affiche par défaut.
    ![Feuille de temps](assets/timesheet-redesigned-nwe.png)
-
-   La feuille de temps est prérenseignée avec les éléments qui vous sont affectés au cours de la période de la feuille de temps. Pour plus d’informations sur le mode de préremplissage des feuilles de temps, voir [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). Si vous ne voyez pas d’élément sur la feuille de temps, vous pouvez l’ajouter.
-
-   >[!NOTE]
-   >
-   >La feuille de temps ne préremplit que les éléments qui vous sont affectés. Il ne préremplit pas les éléments affectés à vos équipes ou rôles de tâche.
-   >
-   >Cliquez sur Travailler dessus pour attribuer l’élément à vos équipes et l’élément s’affichera dans votre feuille de temps.
 
 
 1. (Facultatif) Cliquez sur le **plein écran** icon ![](assets/full-screen.png) pour afficher la feuille de temps en mode plein écran, cliquez sur le bouton **exit-full-screen** ![](assets/exit-full-screen.png) pour revenir à la feuille de temps.
