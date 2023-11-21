@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b7dcb97f5741a5c8b3710494e4cde25d6de9036e
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '13421'
+source-wordcount: '13428'
 ht-degree: 1%
 
 ---
@@ -1999,20 +1999,23 @@ ht-degree: 1%
    * [Présentation d’Adobe Maestro](maestro/maestro-overview.md)
    * [Activité de mise à jour Adobe Maestro](maestro/release-activity.md)
    * Architecture d&#39;Adobe Maestro {#adobe-maestro-architecture}
-      * [Informations sur l’architecture](maestro/architecture-and-fields/architecture-and-fields-information.md)
-      * [Créer des espaces de travail](maestro/architecture-and-fields/create-workspaces.md)
-      * [Présentation des types d’enregistrement et des taxonomies](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-      * [Création de types d’enregistrements opérationnels](maestro/architecture-and-fields/create-record-types.md)
-      * [Création de types d’enregistrement de taxonomie](maestro/architecture-and-fields/create-a-taxonomy.md)
-      * [Connexion des types d’enregistrement](maestro/architecture-and-fields/connect-record-types.md)
-      * [Créer des champs](maestro/architecture-and-fields/create-fields.md)
-      * [Modification des types d’enregistrement](maestro/architecture-and-fields/edit-record-types.md)
-      * [Modifier les champs](maestro/architecture-and-fields/edit-fields.md)
-      * [Suppression des espaces de travail](maestro/architecture-and-fields/delete-workspaces.md)
-      * [Suppression des types d’enregistrement](maestro/architecture-and-fields/delete-record-types.md)
-      * [Supprimer des champs](maestro/architecture-and-fields/delete-fields.md)
-      * [Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
-      * [Liste des modèles d&#39;espace de travail](maestro/architecture-and-fields/workspace-templates.md)
+      * [Informations sur l’architecture](maestro/architecture/architecture-information.md)
+      * [Créer des espaces de travail](maestro/architecture/create-workspaces.md)
+      * [Présentation des types d’enregistrement et des taxonomies](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [Création de types d’enregistrements opérationnels](maestro/architecture/create-record-types.md)
+      * [Création de types d’enregistrement de taxonomie](maestro/architecture/create-a-taxonomy.md)
+      * [Connexion des types d’enregistrement](maestro/architecture/connect-record-types.md)
+      * [Modification des types d’enregistrement](maestro/architecture/edit-record-types.md)
+      * [Suppression des espaces de travail](maestro/architecture/delete-workspaces.md)
+      * [Suppression des types d’enregistrement](maestro/architecture/delete-record-types.md)
+      * [Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements](maestro/architecture/example-connect-record-types-and-records.md)
+      * [Liste des modèles d&#39;espace de travail](maestro/architecture/workspace-templates.md)
+   * Champs Adobe Maestro {#adobe-maestro-fields}
+      * [Informations sur les champs](maestro/fields/fields-information.md)
+      * [Présentation des champs](maestro/fields/fields-overview.md)
+      * [Créer des champs](maestro/fields/create-fields.md)
+      * [Modifier les champs](maestro/fields/edit-fields.md)
+      * [Supprimer des champs](maestro/fields/delete-fields.md)
    * Accès à Adobe Maestro {#adobe-maestro-access}
       * [Informations d’accès](maestro/access/access-information.md)
       * [Présentation de l’accès](maestro/access/access-overview.md)

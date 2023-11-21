@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
 workflow-type: tm+mt
 source-wordcount: '3491'
 ht-degree: 0%
@@ -125,6 +125,7 @@ Vous pouvez consigner l’heure aux éléments suivants dans la feuille de temps
   Seules les tâches et les problèmes qui vous sont affectés sont préremplis dans votre feuille de temps. Les tâches et les problèmes affectés à vos équipes ou rôles de tâche ne renseignent pas automatiquement votre feuille de temps.
 
   Cliquez sur Travailler dessus pour attribuer l’élément à vos équipes et l’élément s’affichera dans votre feuille de temps.
+
 * Tâches, problèmes ou projets que vous ajoutez manuellement.
 * Tâches, problèmes ou projets pour lesquels vous avez déjà effectué une connexion ailleurs dans Workfront.
 * Heure générale (vacances, formation, temps de surcharge).

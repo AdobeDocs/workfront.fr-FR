@@ -1,20 +1,32 @@
 ---
-title: Partage d’enregistrements
-description: Vous pouvez partager des enregistrements avec d’autres utilisateurs afin d’améliorer votre collaboration.
+title: Modification des types d’enregistrement
+description: Vous pouvez modifier les types d’enregistrement après leur enregistrement. Les types d’enregistrement sont les types d’objets du Maestro d’Adobe.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav
+---
+title: Edit record types
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+author: Alina
+role: User
+feature: Work Management 
+topic: Architecture
+hidefromtoc: yes
+hide: yes
+---
 
-# Partage d’enregistrements
+-->
+
+# Modification des types d’enregistrement
 
 >[!IMPORTANT]
 >
@@ -26,25 +38,7 @@ ht-degree: 1%
 >
 >Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
 
-Pour collaborer avec d’autres utilisateurs, vous pouvez partager des enregistrements avec d’autres utilisateurs.
-
-Vous pouvez partager un enregistrement Maestro comme suit :
-
-* Copiez le lien de la page Détails d’un enregistrement dans votre navigateur lorsque la page est ouverte.
-
-* Copiez un lien vers la page Détails de l’enregistrement lors de l’affichage d’enregistrements dans la vue de table du type d’enregistrement.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-Cet article décrit comment copier un lien vers la page Détails d’un enregistrement à partir de la vue table d’un type d’enregistrement.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Les types d’enregistrement sont les types d’objets du Maestro d’Adobe. Vous pouvez modifier l’aspect des types d’enregistrement que vous ou toute autre personne avez créés. Pour plus d’informations sur la création de types d’enregistrement Maestro, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
 ## Exigences d’accès
 
@@ -89,9 +83,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
+
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +130,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -156,32 +150,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Partage de liens d’enregistrement à partir de la vue de table de type enregistrement
+## Modification des types d’enregistrement
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro**.
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
-   L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
-1. Cliquez sur une carte de type enregistrement.
+   L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
-   La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** sélectionnez une vue de tableau dans le menu déroulant situé dans le coin supérieur droit du tableau. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
+1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
+1. Pointez sur la carte d’un type d’enregistrement, puis cliquez sur le **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit de la carte de type enregistrement, puis cliquez sur **Mettre à jour l&#39;aspect**.
 
-   Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
-1. Clic droit sur une ligne d’enregistrement
+   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+
+1. Dans la zone Mettre à jour le type d&#39;enregistrement , mettez à jour les informations suivantes :
+
+   * **Nom de l’enregistrement**: modifiez le nom du type d’enregistrement, si nécessaire. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Apparence**: modifiez la couleur et la forme de l’icône associée au type d’enregistrement. Procédez comme suit :
+      * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône de type d’enregistrement. L’option Gris est sélectionnée par défaut.
+      * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
+
+     ![](assets/update-record-type-box.png)
+
+1. Cliquez en dehors de la zone Mettre à jour le type d’enregistrement pour enregistrer vos modifications.
+1. (Facultatif) Cliquez sur la carte de type d’enregistrement dans la zone de l’espace de travail pour ouvrir la page du type d’enregistrement.
+1. Cliquez sur le bouton **Plus** à droite du nom du type d’enregistrement, puis cliquez sur **Renommer** pour renommer le type d’enregistrement
 
    Ou
 
-   Passez la souris sur le nom d’un enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Copier le lien**.
+   Renommez le type d’enregistrement dans l’en-tête .  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
-   Le lien est copié dans le presse-papiers.
-
-1. Collez le lien dans un email, ou une fenêtre de conversation, à partager avec d’autres utilisateurs. Lorsque les utilisateurs reçoivent le lien, il ouvre la page Détails de l’enregistrement.
-
-   >[!TIP]
-   >
-   >Les champs de l’enregistrement dans la page Détails sont les mêmes que ceux disponibles dans la vue Tableau de l’enregistrement.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   Vous pouvez également renommer un type d’enregistrement dans l’en-tête de la page du type d’enregistrement.

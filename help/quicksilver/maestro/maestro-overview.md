@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
 >[Visionner une démonstration vidéo de Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ Voici les principaux objets et concepts de Maestro :
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Pour plus d’informations, voir [Créer des espaces de travail](../maestro/architecture-and-fields/create-workspaces.md).
+  Pour plus d’informations, voir [Créer des espaces de travail](../maestro/architecture/create-workspaces.md).
 
 * **Type d’enregistrement**: type d’objet principal Maestro.
 
@@ -140,7 +140,7 @@ Voici les principaux objets et concepts de Maestro :
 
   Dans Maestro, vous pouvez créer tous les types d’enregistrement qui correspondent aux workflows de votre entreprise. Vous pouvez ensuite définir la manière dont les types d’enregistrement sont associés les uns aux autres ou les dépendances des formulaires.
 
-  Pour plus d’informations, voir [Présentation des types d&#39;enregistrements opérationnels et des taxonomies](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  Pour plus d’informations, voir [Présentation des types d&#39;enregistrements opérationnels et des taxonomies](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   Maestro propose les types d’enregistrement suivants :
 
@@ -150,7 +150,7 @@ Voici les principaux objets et concepts de Maestro :
 
      Par exemple, Campaign, Activity, Program peuvent être des types d’enregistrements opérationnels.
 
-     Pour plus d’informations, voir [Création de types d’enregistrement](../maestro/architecture-and-fields/create-record-types.md).
+     Pour plus d’informations, voir [Création de types d’enregistrement](../maestro/architecture/create-record-types.md).
 
    * **Taxonomie**: type d’enregistrement qui capture les attributs d’un type d’enregistrement opérationnel.
 
@@ -160,7 +160,7 @@ Voici les principaux objets et concepts de Maestro :
 
      Par exemple, Audience, Région ou Adresse peuvent être des types d’enregistrement de type taxonomie.
 
-     Pour plus d’informations, voir [Création de types d’enregistrement de taxonomie](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     Pour plus d’informations, voir [Création de types d’enregistrement de taxonomie](../maestro/architecture/create-a-taxonomy.md).
 
 * **Enregistrement**: instance d’un type d’enregistrement Maestro. Un enregistrement peut faire référence à un type d’enregistrement opérationnel ou à une taxonomie.
 
@@ -183,7 +183,7 @@ Voici les principaux objets et concepts de Maestro :
 
   Maestro est fourni avec un modèle d’espace de travail Ventes, Marketing et Gestion des produits .
 
-  Pour plus d’informations, voir [Créer des espaces de travail](../maestro/architecture-and-fields/create-workspaces.md).
+  Pour plus d’informations, voir [Créer des espaces de travail](../maestro/architecture/create-workspaces.md).
 
 * **Champs**: les champs sont des attributs que vous pouvez ajouter aux types d’enregistrements opérationnels ou de taxonomie qui contiennent des informations sur le type d’enregistrement. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ Voici les principaux objets et concepts de Maestro :
 
    * Les champs Maestro sont entièrement personnalisables et ne sont accessibles que dans Maestro. Vous ne pouvez pas accéder aux champs Maestro à partir de Workfront.
 
-  Pour plus d’informations, voir [Créer des champs](../maestro/architecture-and-fields/create-fields.md)
+  Pour plus d’informations, voir [Créer des champs](../maestro/fields/create-fields.md)
 
   Un nouveau type d&#39;enregistrement opérationnel est associé par défaut aux champs prédéfinis suivants :
 
@@ -243,7 +243,7 @@ Voici les principaux objets et concepts de Maestro :
 
   Pour plus d’informations sur la liaison de types d’enregistrements, d’enregistrements et la création de champs liés, consultez les articles suivants :
 
-   * [Connexion des types d’enregistrement](../maestro/architecture-and-fields/connect-record-types.md)
+   * [Connexion des types d’enregistrement](../maestro/architecture/connect-record-types.md)
    * [Connexion d’enregistrements](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

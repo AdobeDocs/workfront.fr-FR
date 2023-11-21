@@ -1,20 +1,20 @@
 ---
-title: Partage d’enregistrements
-description: Vous pouvez partager des enregistrements avec d’autres utilisateurs afin d’améliorer votre collaboration.
+title: Création de types d’enregistrement de taxonomie
+description: Les taxonomies sont un type de types d'enregistrements réutilisables qui capture les attributs d'un type d'enregistrement opérationnel dans Adobe Workfront Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Partage d’enregistrements
+# Création de types d’enregistrement de taxonomie
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 1%
 >
 >Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
 
-Pour collaborer avec d’autres utilisateurs, vous pouvez partager des enregistrements avec d’autres utilisateurs.
+Les taxonomies sont des types d&#39;enregistrements qui capturent des attributs sur les types d&#39;enregistrements opérationnels dans Adobe Maestro.
 
-Vous pouvez partager un enregistrement Maestro comme suit :
+Par exemple, Campaign peut être un type d’enregistrement opérationnel. Vous trouverez ci-dessous des taxonomies qui capturent des attributs sur le type d’enregistrement Campaign : Région, Audience, Pays.
 
-* Copiez le lien de la page Détails d’un enregistrement dans votre navigateur lorsque la page est ouverte.
-
-* Copiez un lien vers la page Détails de l’enregistrement lors de l’affichage d’enregistrements dans la vue de table du type d’enregistrement.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-Cet article décrit comment copier un lien vers la page Détails d’un enregistrement à partir de la vue table d’un type d’enregistrement.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Pour plus d’informations sur les types d’enregistrement Maestro, voir [Présentation des types d’enregistrement et des taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Exigences d’accès
 
@@ -52,7 +38,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> Adobe de produit</p> </td>
    <td>
@@ -81,6 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> <p>Tous</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">Modèle de mise en page</td>
    <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/grant-access.md">Accorder l’accès à Adobe Maestro</a>. </p>  
@@ -90,8 +79,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Partage de liens d’enregistrement à partir de la vue de table de type enregistrement
+## Remarques concernant la création de taxonomies
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro**.
+* Vous devez créer un espace de travail avant de pouvoir créer des taxonomies dans l’espace de travail.
 
-   L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
-1. Cliquez sur une carte de type enregistrement.
+  Pour plus d’informations sur les espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
+* Vous pouvez créer un type d’enregistrement de taxonomie en effectuant l’une des opérations suivantes :
+   * Créez-les automatiquement lorsque vous créez un espace de travail à l’aide d’un modèle. Pour plus d’informations, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
+   * Créez-les manuellement, à partir de zéro.
+   * Créez-les manuellement en collant des informations à partir d’une liste externe.
 
-   La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** sélectionnez une vue de tableau dans le menu déroulant situé dans le coin supérieur droit du tableau. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
-1. Clic droit sur une ligne d’enregistrement
+* Toutes les taxonomies nouvellement créées sont fournies avec les champs suivants :
 
-   Ou
+   * Nom <!--if there won't be any more fields, consider rephrasing this-->
 
-   Passez la souris sur le nom d’un enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Copier le lien**.
+  De plus, vous pouvez ajouter des champs personnalisés aux taxonomies. Pour plus d’informations, voir [Créer des champs](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    Les taxonomies créées lors de l&#39;utilisation d&#39;un modèle d&#39;espace de travail comportent des champs supplémentaires.
 
-   Le lien est copié dans le presse-papiers.
+## Création d’une taxonomie
 
-1. Collez le lien dans un email, ou une fenêtre de conversation, à partager avec d’autres utilisateurs. Lorsque les utilisateurs reçoivent le lien, il ouvre la page Détails de l’enregistrement.
+La création de taxonomies est similaire à la création d&#39;un type d&#39;enregistrement opérationnel à partir de zéro ou d&#39;un modèle d&#39;espace de travail.
 
-   >[!TIP]
-   >
-   >Les champs de l’enregistrement dans la page Détails sont les mêmes que ceux disponibles dans la vue Tableau de l’enregistrement.
+Pour plus d’informations, reportez-vous à la section &quot;Création d’un type d’enregistrement à partir de zéro&quot; dans l’article . [Création de types d’enregistrement](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+Pour plus d’informations sur la création automatique de taxonomies lors de la création d’un espace de travail à partir d’un modèle, voir [Créer des espaces de travail](../architecture/create-workspaces.md).

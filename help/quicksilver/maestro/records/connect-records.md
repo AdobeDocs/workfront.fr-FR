@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
 >
@@ -42,9 +42,9 @@ Vous pouvez connecter des enregistrements Adobe Maestro les uns aux autres ou au
 
 Vous devez d’abord associer deux types d’enregistrement ou un type d’enregistrement à un type d’objet à partir d’une autre application, puis vous pouvez utiliser la vue Tableau du type d’enregistrement pour connecter des enregistrements les uns aux autres ou des enregistrements à d’autres objets.
 
-Pour plus d’informations sur la connexion des types d’enregistrement les uns aux autres ou sur les types d’objets d’autres applications, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
+Pour plus d’informations sur la connexion des types d’enregistrement les uns aux autres ou sur les types d’objets d’autres applications, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
 
-Pour un exemple de connexion des types d’enregistrement, voir [Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements](../architecture-and-fields/example-connect-record-types-and-records.md).
+Pour un exemple de connexion des types d’enregistrement, voir [Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements](../architecture/example-connect-record-types-and-records.md).
 
 Vous pouvez connecter les éléments suivants :
 
@@ -113,6 +113,61 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * Objets Workfront. Par exemple, vous devez d’abord créer des projets, des portefeuilles, des programmes, des entreprises ou des groupes dans Workfront.
    * Espaces de travail Maestro, types d’enregistrement et enregistrements. Pour plus d’informations, voir les articles suivants :
 
-      * [Créer des espaces de travail](../architecture-and-fields/create-workspaces.md)
-      * [Création de types d’enregistrement](../architecture-and-fields/create-record-types.md)
+      * [Créer des espaces de travail](../architecture/create-workspaces.md)
+      * [Création de types d’enregistrement](../architecture/create-record-types.md)
       * [Créer des enregistrements](../records/create-records.md)
 
-   * Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
+   * Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
 
 ### Connexion des enregistrements Maestro
 
@@ -158,7 +213,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à partir duquel vous souhaitez connecter des enregistrements.
 1. Cliquez sur la carte d’un type d’enregistrement pour ouvrir la page de type d’enregistrement.
 1. Sélectionnez une **Tableau** de la vue **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
-1. Ajoutez une connexion à un autre type d’enregistrement ou d’objet à partir du type d’enregistrement sélectionné. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
+1. Ajoutez une connexion à un autre type d’enregistrement ou d’objet à partir du type d’enregistrement sélectionné. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
 
    Une nouvelle colonne est ajoutée au tableau pour afficher le type d&#39;enregistrement associé.
 
@@ -216,7 +271,7 @@ Après avoir créé une connexion entre un type d’enregistrement Maestro et un
    * Entreprise
    * Groupe
 
-   Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture-and-fields/connect-record-types.md).
+   Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
 
    Une nouvelle colonne est ajoutée au tableau pour afficher le type d’objet associé.
 

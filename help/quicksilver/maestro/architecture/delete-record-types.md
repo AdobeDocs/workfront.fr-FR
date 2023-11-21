@@ -1,20 +1,31 @@
 ---
-title: Partage d’enregistrements
-description: Vous pouvez partager des enregistrements avec d’autres utilisateurs afin d’améliorer votre collaboration.
+title: Suppression des types d’enregistrement
+description: Vous pouvez supprimer des types d’enregistrements opérationnels ou des types d’enregistrements de taxonomie lorsqu’ils ne sont plus pertinents.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# Partage d’enregistrements
+# Suppression des types d’enregistrement
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,13 @@ ht-degree: 1%
 >
 >Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
 
-Pour collaborer avec d’autres utilisateurs, vous pouvez partager des enregistrements avec d’autres utilisateurs.
+Vous pouvez supprimer des types d’enregistrements opérationnels ou des types d’enregistrements de taxonomie lorsqu’ils ne sont plus pertinents.
 
-Vous pouvez partager un enregistrement Maestro comme suit :
+Pour plus d’informations sur les types d’enregistrement et les taxonomies, voir [Présentation des types d’enregistrement et des taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
 
-* Copiez le lien de la page Détails d’un enregistrement dans votre navigateur lorsque la page est ouverte.
+Il est recommandé de recréer les champs et les enregistrements associés au type d&#39;enregistrement ou à la taxonomie que vous souhaitez supprimer sur un autre type d&#39;enregistrement avant de les supprimer.
 
-* Copiez un lien vers la page Détails de l’enregistrement lors de l’affichage d’enregistrements dans la vue de table du type d’enregistrement.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-Cet article décrit comment copier un lien vers la page Détails d’un enregistrement à partir de la vue table d’un type d’enregistrement.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Exigences d’accès
 
@@ -90,8 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,14 +134,16 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +156,29 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Partage de liens d’enregistrement à partir de la vue de table de type enregistrement
+## Remarques concernant la suppression de types d’enregistrement
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro**.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-   L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
-1. Cliquez sur une carte de type enregistrement.
+* Vous pouvez supprimer tout type d’enregistrement ou toute taxonomie que vous ou toute autre personne de votre entreprise avez créé. <!--this will change with access levels and permissions-->
+* La suppression des types d’enregistrement supprime toutes les informations qui leur sont associées, y compris les champs et les enregistrements de ce type.
+* Vous ne pouvez pas récupérer les types d&#39;enregistrements supprimés ni leurs informations.
 
-   La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** sélectionnez une vue de tableau dans le menu déroulant situé dans le coin supérieur droit du tableau. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
+## Suppression des types d’enregistrement
 
-   Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
-1. Clic droit sur une ligne d’enregistrement
+La suppression des types d’enregistrement de taxonomie est identique à celle des types d’enregistrement opérationnels.
 
-   Ou
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
-   Passez la souris sur le nom d’un enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Copier le lien**.
+   L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez supprimer des types d’enregistrement.
 
-   Le lien est copié dans le presse-papiers.
+   L’espace de travail s’ouvre et les types d’enregistrement et taxonomies qui y sont associés s’affichent.
+1. Cliquez sur la carte correspondant au type d’enregistrement ou à la taxonomie à supprimer.
 
-1. Collez le lien dans un email, ou une fenêtre de conversation, à partager avec d’autres utilisateurs. Lorsque les utilisateurs reçoivent le lien, il ouvre la page Détails de l’enregistrement.
+   Cela ouvre la page du type d’enregistrement.
+1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Supprimer**.
+1. Cliquez sur **Supprimer** pour confirmer.
 
-   >[!TIP]
-   >
-   >Les champs de l’enregistrement dans la page Détails sont les mêmes que ceux disponibles dans la vue Tableau de l’enregistrement.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   Le type d’enregistrement ou la taxonomie sélectionné, ainsi que leurs champs et enregistrements associés, sont supprimés.

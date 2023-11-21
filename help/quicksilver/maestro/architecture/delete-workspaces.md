@@ -1,20 +1,20 @@
 ---
-title: Partage d’enregistrements
-description: Vous pouvez partager des enregistrements avec d’autres utilisateurs afin d’améliorer votre collaboration.
+title: Suppression des espaces de travail
+description: Vous pouvez supprimer des espaces de travail lorsqu’ils ne sont plus pertinents.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Partage d’enregistrements
+# Suppression des espaces de travail
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 1%
 >
 >Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
 
-Pour collaborer avec d’autres utilisateurs, vous pouvez partager des enregistrements avec d’autres utilisateurs.
+Dans Adobe Maestro, les espaces de travail sont des emplacements centralisés permettant aux équipes de planifier le travail. Pour plus d’informations, voir [Créer des espaces de travail](../architecture/delete-workspaces.md).
 
-Vous pouvez partager un enregistrement Maestro comme suit :
+Vous pouvez supprimer les espaces de travail qui ne sont plus pertinents.
 
-* Copiez le lien de la page Détails d’un enregistrement dans votre navigateur lorsque la page est ouverte.
-
-* Copiez un lien vers la page Détails de l’enregistrement lors de l’affichage d’enregistrements dans la vue de table du type d’enregistrement.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-Cet article décrit comment copier un lien vers la page Détails d’un enregistrement à partir de la vue table d’un type d’enregistrement.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Nous vous recommandons de recréer certains ou tous les types d’enregistrements et taxonomies associés à l’espace de travail que vous souhaitez supprimer dans un autre espace de travail avant de le supprimer.
 
 ## Exigences d’accès
 
@@ -60,7 +46,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -90,8 +76,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +121,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +129,8 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +143,20 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Partage de liens d’enregistrement à partir de la vue de table de type enregistrement
+## Remarques concernant la suppression des espaces de travail
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro**.
+* Vous pouvez supprimer tout espace de travail que vous ou toute personne de votre entreprise avez créé. <!--this will change with access levels and permissions-->
+* Lorsque vous supprimez des espaces de travail, tous les types d’enregistrement, taxonomies et leurs champs sont également supprimés. <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
+* Les espaces de travail supprimés et les informations qu’ils contiennent ne peuvent pas être récupérés.
 
-   L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
-1. Cliquez sur une carte de type enregistrement.
+## Suppression d’un espace de travail
 
-   La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** sélectionnez une vue de tableau dans le menu déroulant situé dans le coin supérieur droit du tableau. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
-   Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
-1. Clic droit sur une ligne d’enregistrement
+   Le dernier espace de travail auquel vous avez accédé s’affiche alors.
 
-   Ou
+1. (Facultatif) Développez la flèche vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à supprimer.
+1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) en regard du nom de l’espace de travail, cliquez sur **Supprimer**.
+1. Cliquez sur **Supprimer** pour confirmer.
 
-   Passez la souris sur le nom d’un enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Copier le lien**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   Le lien est copié dans le presse-papiers.
-
-1. Collez le lien dans un email, ou une fenêtre de conversation, à partager avec d’autres utilisateurs. Lorsque les utilisateurs reçoivent le lien, il ouvre la page Détails de l’enregistrement.
-
-   >[!TIP]
-   >
-   >Les champs de l’enregistrement dans la page Détails sont les mêmes que ceux disponibles dans la vue Tableau de l’enregistrement.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   L’espace de travail est supprimé et ne peut pas être récupéré. Tous les types d’enregistrements, taxonomies, enregistrements et champs qui leur sont associés sont également supprimés. <!--ensure this is right after closed beta-->

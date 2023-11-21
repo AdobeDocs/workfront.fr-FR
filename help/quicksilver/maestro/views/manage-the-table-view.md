@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 4%
+source-wordcount: '2080'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe.
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients.
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
 >
@@ -125,7 +125,7 @@ L’ajout de colonnes à une vue est identique à l’ajout de champs à un type
 Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
 1. Accédez à une page de type enregistrement et sélectionnez une **Tableau** vue depuis le menu déroulant des vues.
-1. Commencez à ajouter des champs (ou des colonnes), comme décrit dans l’article [Créer des champs](../architecture-and-fields/create-fields.md).
+1. Commencez à ajouter des champs (ou des colonnes), comme décrit dans l’article [Créer des champs](../fields/create-fields.md).
 
    Les colonnes que vous ajoutez sont visibles par tous les utilisateurs qui accèdent au type d&#39;enregistrement et sont ajoutés en tant que nouveaux champs dans la page Détails des enregistrements du type d&#39;enregistrement sélectionné.
 
@@ -238,7 +238,7 @@ Pour ajouter un filtre à une vue de tableau :
 
      >[!TIP]
      >
-     > Vous ne pouvez pas sélectionner de champs liés. Pour plus d’informations, voir [Créer des champs](../architecture-and-fields/create-fields.md).
+     > Vous ne pouvez pas sélectionner de champs liés. Pour plus d’informations, voir [Créer des champs](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Pour trier <!--ungrouped (add this when sorting for groupings will be available-
 
    >[!TIP]
    >
-   > Vous ne pouvez pas sélectionner de champs liés. Pour plus d’informations, voir [Créer des champs](../architecture-and-fields/create-fields.md).
+   > Vous ne pouvez pas sélectionner de champs liés. Pour plus d’informations, voir [Créer des champs](../fields/create-fields.md).
 
 1. (Facultatif) Dans la variable **Tri des enregistrements par** , cliquez sur le bouton **x** à droite d’un champ de tri pour supprimer le tri
 

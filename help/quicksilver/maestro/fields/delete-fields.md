@@ -1,20 +1,31 @@
 ---
-title: Partage d’enregistrements
-description: Vous pouvez partager des enregistrements avec d’autres utilisateurs afin d’améliorer votre collaboration.
+title: Supprimer des champs
+description: Dans Adobe Maestro, vous pouvez supprimer des champs personnalisés qui ne sont plus pertinents.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 1%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Partage d’enregistrements
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+# Supprimer des champs
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,22 @@ ht-degree: 1%
 >
 >Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
 
-Pour collaborer avec d’autres utilisateurs, vous pouvez partager des enregistrements avec d’autres utilisateurs.
+Dans Adobe Maestro, vous pouvez créer des champs personnalisés pour stocker des informations sur les enregistrements.
 
-Vous pouvez partager un enregistrement Maestro comme suit :
+Pour plus d’informations sur la création de champs personnalisés dans Maestro, voir [Créer des champs](../fields/create-fields.md).
 
-* Copiez le lien de la page Détails d’un enregistrement dans votre navigateur lorsque la page est ouverte.
+Vous pouvez supprimer les champs Maestro qui ne sont plus pertinents.
 
-* Copiez un lien vers la page Détails de l’enregistrement lors de l’affichage d’enregistrements dans la vue de table du type d’enregistrement.
+## Observations relatives à la suppression des champs Maestro :
 
-<!-- Update with this when we release permissions: 
+* Vous pouvez supprimer les champs que vous avez créés ou créés par d’autres utilisateurs ou par le système. <!--this will change with access levels/ permissions-->
+* Vous ne pouvez pas supprimer le champ Nom d’un enregistrement. <!--change this to say you can't delete the field selected to be the primary-->
+* Vous ne pouvez supprimer un champ que dans le tableau de type enregistrement.
+* Toutes les informations stockées dans le champ sont supprimées et ne peuvent pas être récupérées.
+* Lorsque vous supprimez un champ d’enregistrement lié, tous les champs de recherche liés sont également supprimés du type d’enregistrement à partir duquel vous créez un lien. Les champs d’enregistrement liés des types d’enregistrement auxquels vous créez un lien ne sont pas supprimés.
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-Cet article décrit comment copier un lien vers la page Détails d’un enregistrement à partir de la vue table d’un type d’enregistrement.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+  Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
+  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Exigences d’accès
 
@@ -90,8 +98,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +143,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +151,7 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +164,23 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Partage de liens d’enregistrement à partir de la vue de table de type enregistrement
+## Supprimer des champs
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro**.
+<!--When they release the sharing of fields between other records, revise this section.  -->
 
-   L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
-1. Cliquez sur une carte de type enregistrement.
+1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
-   La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** sélectionnez une vue de tableau dans le menu déroulant situé dans le coin supérieur droit du tableau. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
+   Cela ouvre le dernier espace de travail accessible dans Maestro.
+1. Cliquez sur la carte d’un type d’enregistrement dont vous souhaitez supprimer les champs.
+1. (Conditionnel) Sélectionnez une **Vue Tableau** de la **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
+1. Recherchez le champ à supprimer dans les en-têtes de colonne, survolez l’en-tête de colonne avec la souris, puis cliquez sur la flèche pointant vers le bas située après le nom du champ.
 
-   Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
-1. Clic droit sur une ligne d’enregistrement
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   Ou
+1. Cliquez sur **Supprimer**. <!-- check this: they might replace it with **Delete field**-->
 
-   Passez la souris sur le nom d’un enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Copier le lien**.
+   <!--insert screen shot when finalized-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. Cliquez sur **Supprimer** pour confirmer.
 
-   Le lien est copié dans le presse-papiers.
-
-1. Collez le lien dans un email, ou une fenêtre de conversation, à partager avec d’autres utilisateurs. Lorsque les utilisateurs reçoivent le lien, il ouvre la page Détails de l’enregistrement.
-
-   >[!TIP]
-   >
-   >Les champs de l’enregistrement dans la page Détails sont les mêmes que ceux disponibles dans la vue Tableau de l’enregistrement.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   Le champ est supprimé, ne peut pas être récupéré et ne peut plus être associé à aucun enregistrement.

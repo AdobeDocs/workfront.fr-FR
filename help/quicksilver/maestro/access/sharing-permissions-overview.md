@@ -4,9 +4,9 @@ description: Vous pouvez partager ou supprimer des autorisations sur un espace d
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 2%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # Présentation des autorisations de partage dans Adobe Maestro
 
@@ -35,7 +37,7 @@ Vous pouvez partager les objets suivants dans Maestro :
 
 * Espaces de travail
 
-  Le partage des espaces de travail partage tous les types d’enregistrements, enregistrements et champs associés aux espaces de travail.
+  Lorsque vous partagez un espace de travail, tous les types d’enregistrement, enregistrements et champs associés aux espaces de travail sont également partagés.
 
 ## Observations relatives au partage d’objets dans Maestro
 
@@ -54,9 +56,14 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>Niveau d’autorisation</b></p></td> 
+   <td> <p><b>Actions possibles</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">Afficher</td> 
-   <td> <p>Vous pouvez effectuer les actions suivantes :</p> 
+   <td role="rowheader"><p>Afficher</p></td> 
+   <td> 
     <ul> 
      <li>Afficher l’espace de travail</li> 
      <li>Afficher tous les types d’enregistrement dans l’espace de travail</li> 
@@ -65,8 +72,8 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Contribuer</td> 
-   <td> <p>Vous pouvez effectuer les actions suivantes :</p> 
+   <td role="rowheader"><p>Contribuer</p></td> 
+   <td>  
     <ul> 
      <li>Toutes les actions incluses avec l’autorisation Afficher</li> 
      <li>Ajouter des enregistrements</li>
@@ -77,8 +84,8 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Gérer</td> 
-   <td> <p>Vous pouvez effectuer les actions suivantes :</p> 
+   <td role="rowheader"><p>Gérer</p></td> 
+   <td> 
     <ul> 
      <li>Toutes les actions incluses avec les autorisations Afficher et Contribuer</li> 
      <li>Modification des types d’enregistrement</li> 
@@ -90,7 +97,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Administrateurs Workfront</td> 
+   <td role="rowheader"><p>Administrateurs Workfront</p></td> 
    <td> <p>Ce n'est pas une autorisation de Maestro.</p>
    <p> Tous les administrateurs Workfront peuvent effectuer les opérations suivantes : </p>
    <ul><li>Créer des espaces de travail</li>
@@ -101,13 +108,15 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## Partager un espace de travail
 
-Pour plus d’informations sur le partage d’un espace de travail Maestro, voir [Accorder l’accès](../access/grant-access.md).
+Pour plus d’informations sur le partage d’un espace de travail Maestro, voir [Accorder l’accès à Adobe Maestro](../access/grant-access.md).
 
 ## Suppression des autorisations d’un espace de travail
 
-Pour plus d’informations sur le partage d’un espace de travail Maestro, voir [Accorder l’accès](../access/grant-access.md).
+Pour plus d’informations sur le partage d’un espace de travail Maestro, voir [Accorder l’accès à Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 
