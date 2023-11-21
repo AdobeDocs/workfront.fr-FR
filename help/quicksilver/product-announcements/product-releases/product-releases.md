@@ -6,10 +6,10 @@ description: Vous trouverez ci-dessous des liens vers les notes de mise à jour 
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 0fca20c1745afdb1d573f12fc8e608d331065e32
+source-git-commit: 93433076fedf54d72c3e009e2e7949bd0f29ce60
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 15%
+source-wordcount: '185'
+ht-degree: 14%
 
 ---
 
@@ -30,10 +30,10 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
    <td>Autres versions de produit</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Versions en 2023</p> 
+   <td> <p>Versions en 2024</p> 
     <ul> 
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Présentation de la version du premier trimestre 2024</a> </p> 
-   <td>    </td> 
+   <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Activité Publication de fusion Adobe Workfront</a> </p> </li> </ul>   </td> 
   <tr data-mc-conditions=""> 
    <td> <p>Versions en 2023</p> 
     <ul> 
