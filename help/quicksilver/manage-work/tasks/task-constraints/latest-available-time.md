@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Présentation de la contrainte de tâche : Dernière heure disponible'''
+title: "Présentation de la contrainte de tâche : heure disponible la plus récente"
 description: La dernière heure disponible (LAT) est un type de contrainte de tâche dans Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -20,7 +20,7 @@ La dernière heure disponible (LAT) est un type de contrainte de tâche dans Ado
 
 ## Utilisation de la dernière contrainte de tâche de temps disponible
 
-Vous pouvez utiliser la contrainte LAT lorsque vous souhaitez planifier le début d’une tâche au dernier moment disponible après avoir pris en compte les relations prédécesseur-successeurs dans le projet.
+Vous pouvez utiliser la contrainte LAT lorsque vous souhaitez planifier le début d’une tâche au dernier moment disponible après avoir pris en compte les relations entre le prédécesseur et le successeur dans le projet.
 
 Cette contrainte diffère dès que possible du fait qu’elle ne forcera pas les prédécesseurs ou les successeurs à être reprogrammés. En revanche, elle n’affecte que le planning de la tâche à laquelle elle est associée, en la définissant sur l’heure disponible la plus récente en fonction de sa relation avec d’autres tâches.
 
@@ -29,7 +29,7 @@ Pour plus d’informations sur la mise à jour de la contrainte de tâche sur un
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>To update the Task Constraint to Latest Available Time:</p>
-<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p> </li>
@@ -56,19 +56,19 @@ Dans ce cas :
 
 * **Dernière heure disponible :** L’utilisation de la dernière contrainte de temps disponible sur la tâche précédente donne la priorité à la contrainte flexible du successeur.
 
-   **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la dernière contrainte de temps disponible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible du début du projet.
+  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la dernière contrainte de temps disponible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible du début du projet.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **Aussi Tard Que Possible :** Dans ce scénario, l’utilisation de la contrainte Aussi tard que possible sur la tâche du prédécesseur donne la priorité à la tâche du prédécesseur.
 
-   **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte Dès que possible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible de la fin du projet.
+  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte Dès que possible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible de la fin du projet.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
+<p>(NOTE: this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
 <p>The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:</p>
 <ul>
 <li> The project is scheduled From Completion </li>

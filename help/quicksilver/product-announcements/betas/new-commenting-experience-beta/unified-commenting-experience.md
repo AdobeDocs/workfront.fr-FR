@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -64,18 +64,21 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 * Les informations &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe se connecte en tant qu’autre utilisateur et ajoute un commentaire en leur nom ont été supprimées à l’origine. Il a été rétabli le 19 octobre 2023.
 * L’option &quot;Demander l’approbation&quot; lorsque vous balisez des personnes en ajoutant un commentaire à un document.
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
->Seuls les commentaires et les mises à jour système disponibles à partir du 1er janvier 2019 pour les objets répertoriés ci-dessous sont disponibles dans la nouvelle expérience de commentaires.
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->Vous pouvez afficher les commentaires et les mises à jour système sur ces objets avant le 1er janvier 2019 lors de l’affichage de la section Mises à jour de l’expérience actuelle :
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
->* Problèmes
->* Projets
->* Tâches
+>* Issues
+>* Projects
+>* Tasks
 >* Documents
 
-Pour plus d’informations, voir [FAQ sur les nouvelles expériences de commentaires](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la nouvelle expérience de commentaire, ainsi que leur disponibilité dans les zones où elles sont prises en charge :
 

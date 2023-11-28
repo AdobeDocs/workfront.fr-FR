@@ -4,9 +4,10 @@ description: Vous pouvez partager ou supprimer des autorisations sur un espace d
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
@@ -94,6 +95,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
      <li>Ajouter des champs</li> 
      <li>Supprimer des champs</li> 
      <li>Ajout de nouvelles connexions entre les types d’enregistrement</li> 
+     <li>Partage de l’espace de travail avec les utilisateurs et les groupes</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ Pour plus d’informations sur le partage d’un espace de travail Maestro, voir
 Pour plus d’informations sur le partage d’un espace de travail Maestro, voir [Accorder l’accès à Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-
