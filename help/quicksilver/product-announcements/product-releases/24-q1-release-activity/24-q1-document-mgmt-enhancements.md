@@ -3,7 +3,8 @@ title: Améliorations de la gestion des documents au premier trimestre 2024
 description: Améliorations de la gestion des documents au premier trimestre 2024
 author: Lisa
 feature: Product Announcements
-source-git-commit: 5c5052798b485a94ee820899ebd5babeded99494
+exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à la gestion des documents avec la version du premier trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## L’état de révision et d’approbation des documents s’affiche dans l’en-tête du document.
 

@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,17 @@ Pour tester la fonctionnalité, connectez-vous à votre instance Workfront Previ
 
 Vous trouverez ci-dessous des informations sur les principaux cas d’utilisation que nous recherchons et sur les fonctionnalités que nous prévoyons de mettre en place. <!--, along with documentation to get you started testing.-->
 
+>[!NOTE]
+>
+><span class="preview">Texte mis en surbrillance</span> ci-dessous fait référence à des fonctionnalités qui ne sont pas encore mises en oeuvre, mais qui seront incluses dans une version ultérieure.
+>
+>Puces sous un **&quot;Améliorations potentielles dans les prochaines versions&quot;** Un en-tête peut être inclus ou non dans une version ultérieure, en fonction des commentaires alpha et de l’évolution de nos plans de développement.
+>
+
+
 ### Les administrateurs Workfront peuvent configurer une connexion entre les groupes Workfront et les comptes Frame.io
 
-* _Dans Workfront, vous pouvez connecter un groupe Workfront à un compte Frame.io._
+* <span class="preview">Dans Workfront, vous pouvez connecter un groupe Workfront à un compte Frame.io.</span>
 
 * Une nouvelle équipe Frame.io sera créée dans Frame.io, qui représente le groupe Workfront connecté.
 
@@ -76,19 +84,19 @@ Vous trouverez ci-dessous des informations sur les principaux cas d’utilisatio
 
 * Possibilité de marquer les projets Workfront comme Frame.io activé en attribuant un groupe connecté à Frame
 
-* _Amélioration : possibilité de basculer les tâches dans les projets Workfront en tâches Frame qui, à leur tour, créent des dossiers de tâches dans Frame.io_
+* <span class="preview">Amélioration : possibilité de basculer les tâches dans les projets Workfront en tâches Frame qui, à leur tour, créent des dossiers de tâches dans Frame.io</span>
 
 * Lorsqu’un état de projet Workfront est défini sur Actuel, un projet connecté correspondant est créé dans Cadre, les utilisateurs affectés par Workfront sont ajoutés au projet Cadre et une notification par courrier électronique leur est envoyée à partir de Frame.io.
 
    * Tous les membres du projet Workfront (utilisateurs et équipes) seront ajoutés en tant que collaborateurs au projet Frame.io (lors de la création du projet et ultérieurement).
 
-   * _Modification : les utilisateurs et les équipes affectés aux tâches Workfront compatibles avec les images seront ajoutés en tant que collaborateurs au projet Frame.io et informés (lors de la création du projet et ultérieurement)._
+   * <span class="preview">Modification : les utilisateurs et les équipes affectés aux tâches Workfront compatibles avec les images seront ajoutés en tant que collaborateurs au projet Frame.io et informés (lors de la création du projet et ultérieurement).</span>
 
 * Les documents (Creative Briefs) ajoutés au projet et les tâches Frame activées seront transférées au projet Frame.io (dans le dossier de travail respectif) lors de la création du projet (déclencheur : l’état du projet défini sur Actuel).
 
    * Nous vous recommandons de limiter la quantité de documents ajoutés à votre projet avant de n’être actifs qu’à vos mémoires créatives, afin d’éviter d’envoyer plusieurs documents inutiles à Frame.io.
 
-* _Amélioration : les utilisateurs/équipes explicitement non affectés à une tâche Workfront compatible avec les images seront supprimés du projet Frame.io._
+* <span class="preview">Amélioration : les utilisateurs/équipes explicitement non affectés à une tâche Workfront compatible avec les images seront supprimés du projet Frame.io.</span>
 
 **Améliorations potentielles dans les prochaines versions :**
 
@@ -104,9 +112,9 @@ Vous trouverez ci-dessous des informations sur les principaux cas d’utilisatio
 
 * Les nouveaux chargements de version dans Frame.io créent automatiquement une version de document dans Workfront sur les ressources connectées.
 
-* _Amélioration : possibilité de marquer les tâches Workfront référencées comme terminées à partir de Frame.io_
+* <span class="preview">Amélioration : possibilité de marquer les tâches Workfront référencées comme terminées à partir de Frame.io</span>
 
-* _Amélioration : si le document Workfront connecté est supprimé, il reste dans Frame.io et peut être reconnecté à la même tâche de projet ou à une autre._
+* <span class="preview">Amélioration : si le document Workfront connecté est supprimé, il reste dans Frame.io et peut être reconnecté à la même tâche de projet ou à une autre.</span>
 
 **Améliorations potentielles dans les prochaines versions :**
 
@@ -118,7 +126,7 @@ Vous trouverez ci-dessous des informations sur les principaux cas d’utilisatio
 
 * Les utilisateurs et les équipes de Workfront peuvent être ajoutés aux nouveaux documents approuvés pour les documents connectés à Frame.io.
 
-* _Amélioration : lorsqu’un utilisateur/une équipe n’est plus partagé à partir d’un document compatible avec Frame, il perd également son accès à la ressource dans la visionneuse Frame.io_
+* <span class="preview">Amélioration : lorsqu’un utilisateur/une équipe n’est plus partagé à partir d’un document compatible avec Frame, il perd également son accès à la ressource dans la visionneuse Frame.io</span>
 
 **Améliorations potentielles dans les prochaines versions :**
 
@@ -134,12 +142,12 @@ Vous trouverez ci-dessous des informations sur les principaux cas d’utilisatio
 
 * Possibilité d’exploiter les fonctionnalités de révision et de commentaire existantes fournies par la visionneuse Frame.io qui sera synchronisée avec le flux de mise à jour de Workfront
 
-* _Possibilité de prendre une nouvelle décision concernant l’approbation des documents depuis la visionneuse Frame.io_
+* <span class="preview">Possibilité de prendre une nouvelle décision concernant l’approbation des documents depuis la visionneuse Frame.io</span>
 
 ### Dans Frame.io, les créatifs seront informés de la décision globale prise sur la ressource Frame.io connectée.
 
-* _Amélioration : l’état global de l’approbation des documents s’affiche sur la ressource dans Frame.io_
+* <span class="preview">Amélioration : l’état global de l’approbation des documents s’affiche sur la ressource dans Frame.io</span>
 
 ### Les coordinateurs de projet peuvent envoyer les ressources finales à AEM
 
-* _Amélioration : les documents liés à l’image, y compris les métadonnées, peuvent être envoyés à AEM à l’aide du connecteur Workfront + AEM Asset CS existant._
+* <span class="preview">Amélioration : les documents liés à l’image, y compris les métadonnées, peuvent être envoyés à AEM à l’aide du connecteur Workfront + AEM Asset CS existant.</span>

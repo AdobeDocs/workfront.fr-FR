@@ -3,13 +3,13 @@ title: Présentation de la version du premier trimestre 2024
 description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # Présentation de la version du premier trimestre 2024
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### Améliorations de la page d’accueil
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Les boutons d’action rapide Mon travail ont été modifiés pour s’afficher uniquement lorsque la souris passe dessus.</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Pour améliorer les performances, les boutons d’action rapide disponibles dans le widget Mon travail ne s’affichent désormais que lorsqu’un élément de travail est survolé avec la souris.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 29 novembre 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production pour tous les clients : 29 novembre 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Améliorations de l’intégration
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La nouvelle expérience de commentaire capture toutes les informations pour les projets, tâches, problèmes et documents.</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Les projets, tâches, problèmes et documents affichent toutes les mises à jour de la nouvelle zone d’expérience de commentaires, depuis le début de votre instance Workfront.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 28 novembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour tous les clients : 28 novembre 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Recherchez un commentaire ou un utilisateur dans la section Mises à jour .</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Pour trouver rapidement des informations dans la section Mises à jour d’un objet, vous pouvez désormais rechercher un mot-clé à partir d’un commentaire ou pour tout utilisateur associé à un commentaire.</p>

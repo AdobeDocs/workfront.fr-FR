@@ -3,7 +3,8 @@ title: Améliorations de l’intégration au premier trimestre 2024
 description: Améliorations de l’intégration au premier trimestre 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 864ba63e448a070b3ae5413196cc2fdd316fb931
+exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations de l’intégration apportées à la version du premier trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Champs de saisie anticipée désormais disponibles dans l’intégration Adobe Experience Manager
 
@@ -31,7 +32,3 @@ Nous avons ajouté un autre workflow à l’intégration Adobe Experience Manage
 Le workflow Publication automatique peut être activé et configuré dans l’intégration de Adobe Experience Manager. Une fois activé, le workflow peut être modifié au niveau du modèle de projet ou du projet.
 
 Pour plus d’informations, voir [Publication de ressources](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) in [Utilisation des workflows dans l’intégration Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
-
-
-
