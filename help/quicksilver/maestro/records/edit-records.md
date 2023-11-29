@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 2%
+source-wordcount: '821'
+ht-degree: 1%
 
 ---
 
@@ -193,7 +193,7 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
 ### Modification d’un enregistrement à partir de la vue de table de type enregistrement
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
    L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
@@ -201,10 +201,38 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** Sélectionnez une vue Tableau dans le menu déroulant situé dans le coin supérieur droit du tableau. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
+1. (Conditionnel) Dans la variable **Affichage** sélectionnez un menu déroulant dans le coin supérieur droit du tableau **Tableau** vue. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
 
    Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
 1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. Presse **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement. Un indicateur Enregistré s’affiche brièvement dans le coin supérieur droit du tableau pour indiquer que les modifications ont été enregistrées.
+
+   >[!NOTE]
+   >
+   >  Vous ne pouvez pas modifier les informations des champs suivants, car ils sont en lecture seule et Workfront les met automatiquement à jour :
+   >  
+   >  * Champs liés créés en liant les types d’enregistrement
+   >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification .
+
+
+1. (Facultatif) Copiez une valeur existante d’un champ, collez-la dans un champ du même type sur un autre enregistrement, puis cliquez sur **Entrée** sur votre clavier pour enregistrer vos modifications.
+
+   >[!NOTE]
+   >
+   >Tenez compte des points suivants :
+   >
+   >* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ Maestro du même type que le champ dans lequel vous collez les informations.
+   >
+   >* Vous ne pouvez pas copier et coller des valeurs de champ pour les champs qui s’affichent dans la zone Détails d’un enregistrement.
+   >* Vous ne pouvez pas copier et coller des valeurs de champ pour les types de champ suivants :
+   ><ul>
+   >
+   > * Personnes
+   >
+   > * Champs système
+   >
+   > * Champs liés créés suite à la connexion des enregistrements
+
+   <!--take People out of the list above when they release this - this might be coming later-->

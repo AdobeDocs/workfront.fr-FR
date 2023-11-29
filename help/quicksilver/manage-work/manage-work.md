@@ -3,19 +3,27 @@ content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Gérer le travail
-description: Retrouvez des articles sur la gestion du travail dans Adobe Workfront dans les sections suivantes.
+description: Vous pouvez utiliser Adobe Workfront pour gérer votre travail. Vous pouvez commencer par déterminer les objets de travail que vous utilisez pour définir votre travail, en fonction de sa complexité et des ressources ou du budget que vous lui allouez. Cette section décrit comment organiser votre travail en tâches plus importantes, comme des projets, des portefeuilles ou des programmes, et comment diviser de plus grandes quantités de travail en tâches plus faciles à gérer, comme des tâches et des problèmes. De plus, vous pouvez utiliser le diagramme de Gantt pour définir une chronologie de votre travail ou déléguer votre travail à d’autres personnes lorsqu’il n’est pas disponible pour le terminer.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
-# Gérer le travail
+# Gérer les informations de travail
+
+Vous pouvez utiliser Adobe Workfront pour gérer votre travail.
+
+Vous pouvez commencer par déterminer les objets de travail que vous utilisez pour définir votre travail, en fonction de sa complexité et des ressources ou du budget que vous lui allouez.
+
+Cette section décrit comment organiser votre travail en tâches plus importantes, comme des projets, des portefeuilles ou des programmes, et comment diviser de plus grandes quantités de travail en tâches plus faciles à gérer, comme des tâches et des problèmes.
+
+De plus, vous pouvez utiliser le diagramme de Gantt pour définir une chronologie de votre travail ou déléguer votre travail à d’autres personnes lorsqu’il n’est pas disponible pour le terminer.
 
 Cette section contient les sous-sections suivantes :
 
