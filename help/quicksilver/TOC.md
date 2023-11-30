@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 925e0779d4f3fd32957204ee88df4d61c9395168
+source-git-commit: 7a700709e76105de9a0ad9505ed2db485066af2d
 workflow-type: tm+mt
-source-wordcount: '13425'
+source-wordcount: '13430'
 ht-degree: 1%
 
 ---
@@ -755,7 +755,7 @@ ht-degree: 1%
       * [Désactivation des intégrations de documents](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configuration de l’intégration SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [Configuration du mappage des métadonnées](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-      * [Créer [!UICONTROL [!DNL Adobe Workfront] pour [!DNL Creative Cloud]] modules pour vos utilisateurs dans la variable [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+      * [Création de packages de Creative Cloud Adobe Workfront pour vos utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Création d’applications OAuth2 pour les intégrations Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Affichage et gestion des applications OAuth2 personnalisées](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Configuration de l’intégration JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
