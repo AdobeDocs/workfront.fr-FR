@@ -7,9 +7,9 @@ description: L’outil Adobe Workfront Fusion Devtool vous permet de comprendre 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
+source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,6 @@ Si vous utilisez Fusion dans l’Adobe Unified Shell, vous pouvez accéder à l�
 
 1. Cliquez avec le bouton droit dans une zone vide de la page (et non sur un module).
 1. Sélectionner **Open Devtool**.
-
->[!NOTE]
->
->Actuellement, seule la variable **Flux en direct** et **Débogueur de scénario** des zones de l’outil Devtool sont disponibles pour les utilisateurs dans l’expérience unifiée. La variable **Outils** n’est pas disponible actuellement dans l’expérience unifiée.
 
 ### Accédez à l’outil Devtool dans classic [!DNL Fusion] expérience
 
@@ -193,10 +189,6 @@ Le débogueur de scénario est utile pour les scénarios plus complexes. Il affi
 1. Affichez les détails de la requête en cliquant sur l’opération souhaitée.
 
 ### Outils
-
->[!NOTE]
->
->Cette zone n’est actuellement pas disponible pour les utilisateurs de l’expérience unifiée Adobe.
 
 La variable [!DNL Workfront Fusion] Devtool contient des outils qui facilitent la configuration de votre scénario.
 
