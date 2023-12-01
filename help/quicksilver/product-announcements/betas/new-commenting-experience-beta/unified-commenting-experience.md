@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 3%
+source-wordcount: '1226'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ After the monthly releases to Production, the same features are also available i
 >
 >Le programme bêta pour la nouvelle expérience de commentaires a commencé en avril 2023 et s&#39;est terminé en octobre 2023. Le programme bêta pour la nouvelle expérience de commentaires a été mis en place avec la version d’octobre 2023.
 >
->Les fonctionnalités décrites dans cet article ont été publiées pour tous les clients en octobre 2023, sauf indication contraire.
+>À compter d’octobre 2023, toutes les nouvelles fonctionnalités relatives à la nouvelle expérience de commentaire seront publiées pour tous les clients. Pour plus d’informations, consultez la page d’aperçu de la version actuelle de chaque version.
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -502,9 +502,45 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
 
 ## Calendrier des versions
 
-Pour plus d’informations sur les fonctionnalités récemment publiées dans le cadre de la nouvelle expérience de commentaires, ainsi que sur la chronologie de la mise à jour, voir [Nouvelle activité de commentaires sur la version bêta de l’expérience](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Pour plus d’informations sur les fonctionnalités publiées dans la nouvelle expérience de commentaires au cours de la période bêta, voir [Nouvelle activité de commentaires sur la version bêta de l’expérience](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Vous trouverez ci-dessous une chronologie planifiée avec des jalons clés pour la publication de la nouvelle expérience de commentaire dans l’environnement de production. Outre les jalons ci-dessous, nous continuerons à améliorer l’expérience de commentaires grâce à des améliorations plus modestes.
+
+Pour plus d’informations sur les fonctionnalités publiées pour la nouvelle expérience de commentaires après la fin de la période bêta, consultez la page de présentation de la version actuelle.
+
+Voici un calendrier planifié de la publication de la nouvelle expérience de commentaires :
+
+* Avec la version 23.2 (6 avril 2023) :
+   * Lancement de l’expérience de commentaires bêta pour les problèmes
+   * Publication de la nouvelle expérience de commentaire pour les objectifs (comme seule expérience)
+* Avec la version 23.3 (20 juillet 2023) :
+   * Lancez la version bêta des commentaires pour les projets, les tâches et les documents.
+   * Publication de la nouvelle expérience de commentaires pour les cartes dans la zone Panoramas (comme seule expérience)
+* Au cours de la version du quatrième trimestre 2023 (version limitée, disponible uniquement pour les clients qui choisissent la version rapide) :
+   * Libérez la nouvelle expérience de commentaires pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (comme seule expérience).
+   * Mettez à jour l’expérience de commentaire bêta pour que les projets, les tâches, les problèmes et les documents deviennent l’option par défaut. Le libellé &quot;Beta&quot; est supprimé.
+* Avec la version du quatrième trimestre 2023 (23.10) (26 octobre 2023)
+   * Libérez la nouvelle expérience de commentaires pour les modèles, les tâches de modèle, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (la seule expérience) à tous les clients.
+   * Faites de la nouvelle expérience de commentaire pour les projets, les tâches, les problèmes et les documents l’option par défaut.
+
+  >[!IMPORTANT]
+  >
+  >    Cela mettra fin à l’étape bêta de la nouvelle expérience de commentaire.
+
+   * Publiez toutes les fonctionnalités relatives à la nouvelle expérience de commentaires, à partir de cette date, dans les versions mensuelles et trimestrielles actuelles.
+* Fin 2023 :
+   * Conservez l’expérience héritée de commentaires comme option secondaire pour les objets suivants : projets, tâches, problèmes et documents. La nouvelle expérience de commentaire est l’option par défaut pour tous les utilisateurs de ces objets.
+   * Faites de la nouvelle expérience de commentaire la seule expérience pour tous les autres objets.
+
+  >[!NOTE]
+  >
+  >    Les itérations conserveront l’expérience héritée de commentaires. La nouvelle expérience de commentaire ne sera pas disponible pour les itérations.
+
+* Deuxième trimestre 2024 (avril 2024) :
+
+   * Supprimez l’option permettant de revenir au flux de commentaires hérité et de faire du nouveau flux de commentaires la seule expérience pour tous les objets, à l’exception des itérations.
 
 ## Localisation de la nouvelle expérience de commentaire
 
