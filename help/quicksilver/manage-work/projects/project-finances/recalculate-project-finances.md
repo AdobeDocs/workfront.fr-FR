@@ -6,9 +6,9 @@ description: Les finances sont calculées sur un projet à mesure que des modifi
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -60,7 +60,7 @@ Lorsque le taux d’un utilisateur ou d’un rôle change au cours de la vie d�
 
 >[!CAUTION]
 >
->Avant de recalculer manuellement les finances pour un projet donné, vous souhaiterez peut-être conserver toutes les données financières déjà calculées à un taux précédent. Nous vous recommandons d’utiliser l’option Recalculer le financement uniquement lorsque vous êtes certain que vous n’apportez pas de modifications aux informations existantes, ou uniquement lorsque de telles modifications sont souhaitées.
+>Avant de recalculer manuellement les finances d&#39;un projet donné, vous souhaiterez peut-être conserver toutes les données financières déjà calculées à un taux précédent. Nous vous recommandons d’utiliser l’option Recalculer le financement uniquement lorsque vous êtes certain que vous n’apportez pas de modifications aux informations existantes, ou uniquement lorsque de telles modifications sont souhaitées.
 
 ## Préserver les données financières pour les tâches avec les heures existantes {#preserve-financial-data-for-tasks-with-existing-hours}
 
@@ -78,16 +78,16 @@ Pour plus d’informations sur les taux de facturation et les recettes, consulte
 Les taux de recettes peuvent changer aux niveaux suivants :
 
 * Au niveau du système (pour les rôles de tâche)\
-   Pour plus d’informations sur la création de rôles de tâche avec des taux de facturation au niveau du système, consultez l’article . [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Pour plus d’informations sur la création de rôles de tâche avec des taux de facturation au niveau du système, consultez l’article . [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Niveau d’utilisateur\
-   Pour plus d’informations sur la modification des informations de taux de facturation sur les utilisateurs, consultez l’article . [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Pour plus d’informations sur la modification des informations de taux de facturation sur les utilisateurs, consultez l’article . [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Au niveau de la société (pour les rôles de tâche)\
-   Pour plus d’informations, voir [Remplacer les taux de facturation des rôles de tâche au niveau de l’entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+  Pour plus d’informations, voir [Remplacer les taux de facturation des rôles de tâche au niveau de l’entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Niveau du projet (pour les rôles de tâche)\
-   Pour plus d’informations sur le remplacement des taux de rôle de tâche au niveau du projet, consultez l’article . [Présentation du remplacement des taux de facturation des rôles de tâche et calcul des recettes sur un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Pour plus d’informations sur le remplacement des taux de rôle au niveau du projet, consultez l’article . [Présentation du remplacement des taux de facturation des rôles de tâche et calcul des recettes sur un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Par exemple, le taux de facturation d’un utilisateur varie au cours d’un projet de 50 $ à 75 $ de l’heure et vous souhaitez que toutes les données existantes restent calculées selon l’ancien taux (50 $ et heure). Cependant, lorsque les finances du projet sont recalculées, les recettes des tâches qui contiennent déjà des données financières seront mises à jour pour refléter le nouveau taux de facturation (de 75 $ de l’heure).
 
@@ -100,7 +100,7 @@ Lorsque les taux de facturation changent à n’importe quel niveau mentionné c
 
 Lorsque vous ne recalculez pas les finances du projet ou lorsque vous verrouillez les heures consignées dans un enregistrement de facturation, les heures consignées après le changement de taux sont calculées avec le nouveau taux et les heures consignées avant le changement de taux restent calculées à l&#39;ancien taux.
 
-Pour plus d’informations sur la création d’enregistrements de facturation, reportez-vous à l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
+Pour plus d’informations sur la création d’enregistrements de facturation, consultez l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### Préserver les recettes du projet en utilisant plusieurs remplacements de taux de facturation {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
@@ -117,12 +117,12 @@ Pour plus d’informations sur l’utilisation de plusieurs remplacements de tau
 Les taux de coût peuvent changer aux niveaux suivants :
 
 * Niveau système (pour les rôles de tâche)\
-   Pour plus d’informations sur la création de rôles de tâche avec des taux de coût au niveau du système, consultez l’article . [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Pour plus d’informations sur la création de rôles de tâche avec des taux de coût au niveau du système, consultez l’article . [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Niveau d’utilisateur\
-   Pour plus d’informations sur la modification des informations sur le taux de coût pour les utilisateurs, consultez l’article . [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Pour plus d’informations sur la modification des informations sur le taux de coût pour les utilisateurs, consultez l’article . [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Lorsque les taux de facturation changent à n&#39;importe quel niveau mentionné ci-dessus, vous pouvez conserver les coûts existants qui ont déjà été calculés sur le projet en verrouillant la durée enregistrée sur le projet et calculée à l&#39;aide de l&#39;ancien taux dans un enregistrement de facturation ayant le statut Facturé. Pour plus d’informations sur la création d’enregistrements de facturation, reportez-vous à l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
+Lorsque les taux de facturation changent à n&#39;importe quel niveau mentionné ci-dessus, vous pouvez conserver les coûts existants qui ont déjà été calculés sur le projet en verrouillant la durée enregistrée sur le projet et calculée à l&#39;aide de l&#39;ancien taux dans un enregistrement de facturation ayant le statut Facturé. Pour plus d’informations sur la création d’enregistrements de facturation, consultez l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Vous pouvez également éviter d’utiliser l’option Recalculer Finance manuelle si vous ne souhaitez pas créer d’enregistrement de facturation, comme décrit dans la section . [recalculer manuellement les finances d’un projet](#manually-recalculate-finances-for-a-project) dans cet article.
 
@@ -138,9 +138,9 @@ Si vos taux changent pendant la durée de vie d’un projet et que vous souhaite
 
 Vous pouvez recalculer les finances des projets dans Workfront à partir de la page du projet ou d’une liste de projets ou d’un rapport.
 
-Vous pouvez recalculer les finances lors de leur modification en masse. Pour plus d’informations, voir [recalculer manuellement les finances en bloc dans la zone Modifier les projets](#manually-recalculate-finances-in-bulk-in-the-edit-projects-box) dans cet article.
+Vous pouvez recalculer les finances lors de leur modification en masse. Pour plus d’informations, voir [recalculer manuellement les finances en bloc](#manually-recalculate-finances-in-bulk) dans cet article.
 
-1. Accédez au projet dans lequel vous souhaitez recalculer les finances et cliquez sur le bouton **Plus** icon ![](assets/qs-more-icon-on-an-object.png) à droite du nom du projet
+1. Accédez au projet dans lequel vous souhaitez recalculer les finances et cliquez sur le bouton **Plus** icon ![](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
@@ -154,14 +154,14 @@ Vous pouvez recalculer les finances lors de leur modification en masse. Pour plu
    >
    >En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors du re-calcul massif de leurs finances afin d’assurer des performances optimales. Certaines choses qui peuvent rendre un projet trop complexe peuvent être des dépendances ou des affectations multiples ou un grand nombre de champs personnalisés.
 
-1. Cliquez sur **Recalculer la finance**.
+1. Cliquez sur **Recalculer la finance**.
 
    Tous les coûts et recettes prévus du projet sont recalculés avec toute nouvelle information.
 
-   Vous devriez recevoir une confirmation en haut du navigateur que les finances du projet ont été recalculées avec succès.\
-   Les valeurs de coût existantes et certaines valeurs de recettes qui n’ont pas été verrouillées sont mises à jour pour refléter les nouveaux taux.
+   Vous devriez recevoir une confirmation en haut du navigateur que les finances du projet ont été recalculées avec succès.
+Les valeurs de coût existantes et certaines valeurs de recettes qui n’ont pas été verrouillées sont mises à jour pour refléter les nouveaux taux.
 
-## recalculer manuellement les finances en bloc dans la zone Modifier les projets {#manually-recalculate-finances-in-bulk-in-the-edit-projects-box}
+## recalculer manuellement les finances en bloc{#manually-recalculate-finances-in-bulk}
 
 Vous pouvez recalculer manuellement les finances de plusieurs projets en les modifiant en bloc. Les recettes des projets sont ainsi recalculées rétroactivement.
 
@@ -172,15 +172,19 @@ Vous pouvez recalculer manuellement les finances de plusieurs projets en les mod
 Pour recalculer manuellement les finances de plusieurs projets :
 
 1. Accédez à une liste de projets.
-1. Sélectionnez plusieurs projets dans la liste, puis cliquez sur **Modifier**.
+1. Sélectionnez plusieurs projets dans la liste, puis cliquez sur le bouton **Plus** icon ![](assets/qs-more-icon-on-an-object.png) en haut de la liste.
+
+   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
    >En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors de leur modification en bloc afin d’assurer des performances optimales. Certaines choses qui peuvent rendre un projet trop complexe peuvent être des dépendances ou des affectations multiples ou un grand nombre de champs personnalisés.
 
-1. Cliquez sur **Paramètres**, puis sélectionnez **Recalculer Les Coûts Et Les Recettes**.
+1. Cliquez sur **Recalculer la finance**.
 
-1. Cliquez sur **Enregistrer les modifications**.
+   L&#39;ensemble des coûts et des recettes prévus sur les projets sélectionnés sont recalculés avec toute nouvelle information.
+
+   Vous devriez recevoir une confirmation en haut du navigateur que les finances des projets ont bien été recalculées.
 
 ## Actions déclenchant un re-calcul automatique des finances
 
@@ -188,7 +192,7 @@ Les actions suivantes déclenchent le recalcul financier des projets dans Workfr
 
 * Modification de l’état des tâches
 * Déplacement d’une tâche avec des heures vers un autre projet
-* Passage de l’état Terminé à principal état du projet
+* Passage de l’état Terminé à l’état actif
 
 >[!NOTE]
 >
