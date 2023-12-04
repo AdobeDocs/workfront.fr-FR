@@ -1,7 +1,7 @@
 ---
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 6ad50604b74310659572d679f483afa0fc44491f
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '2241'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 
 ## Étape 1 - Accès des utilisateurs {#step-1-to-users}
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Utilisateurs]** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Utilisateurs]** ![Icône Utilisateurs](assets/users-icon-in-main-menu.png).
 
 
 <!-- Agile -->
@@ -86,9 +86,23 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
 
+<!-- Blueprints -->
+
+## Étape 1 - Obtention des plans directeurs - {#step1-to-blueprints}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Plans directeurs]**.
+
 <!-- Calendars -->
 
+## Étape 1 - Accès aux calendriers - {#step1-to-calendars}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Calendriers]**.
+
 <!-- Documents -->
+
+## Étape 1 - Obtention de documents - {#step1-to-documents}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Documents]**.
 
 ## configuration des dossiers liés {#setup-linked-folder}
 
@@ -104,7 +118,7 @@ Pour configurer les dossiers liés :
 
    >[!NOTE]
    >
-   >Les utilisateurs doivent disposer d’un accès en écriture dans Adobe Experience Manager Assets sur le dossier spécifié pour créer un dossier lié.
+   >Dans Adobe Experience Manager Assets, les utilisateurs doivent disposer d’un accès en écriture au dossier spécifié pour créer un dossier lié.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -229,18 +243,45 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
       </tr>
       </table>
 
+<!-- Maestro -->
 
+## Etape 1 - Accès à Maestro - {#step1-to-maestro}
 
-
-<!-- Log Time -->
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Maestro]**.
 
 <!-- Manage Work -->
+
+## Etape 1 - Accès aux Portfolios - {#step1-to-portfolios}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Portfolios]**.
+
+## Etape 1 - Accès aux programmes - {#step1-to-programs}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Programmes]**.
+
+## Étape 1 - Accès aux projets - {#step1-to-projects}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Projets]**.
+
+## Étape 1 - Obtention des requêtes - {#step1-to-requests}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+
+## Étape 1 - Accès aux modèles - {#step1-to-templates}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Modèles]**.
 
 <!-- Mobile -->
 
 ## Bon à tirer mobile - Menu Plus {#mobile-proof-more-menu}
 
 1. Ouvrez le BAT du document et sélectionnez le **[!UICONTROL Plus]** menu ![Plus de menu](assets/mobile-verticalmoremenu-20x33.png) dans le coin supérieur droit du document. Sélectionnez ensuite **[!UICONTROL Plus]**.
+
+<!-- My Updates -->
+
+## Étape 1 - Accès à mes mises à jour - {#step1-to-my-updates}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Mes mises à jour]**.
 
 <!-- Notifications -->
 
@@ -260,7 +301,23 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
 
 <!-- Reports -->
 
+## Étape 1 - Accès aux rapports - {#step1-to-reports}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Rapports]**.
+
+## Étape 1 - Accès aux tableaux de bord - {#step1-to-dashboards}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Tableaux de bord]**.
+
+## Étape 1 - Accès à Analytics - {#step1-to-analytics}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Analytics]**.
+
 <!-- Resource Management -->
+
+## Étape 1 - Obtention de la ressource - {#step1-to-resourcing}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Ressource]**.
 
 <!-- Review and approve work -->
 
@@ -268,7 +325,7 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
 
 ## Étape 1 - Accès au planificateur de scénario - {#step1-to-scenario-planner}
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png), (ou ![Menu Principal](assets/main-menu-icon-left-nav.png) si disponible), puis cliquez sur **[!UICONTROL Scénarios]**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Scénarios]**.
 
 <!-- Teams -->
 
@@ -332,13 +389,15 @@ Tous les paramètres de l’équipe, y compris les états associés au bouton Te
 
 <!-- Timesheets -->
 
+## Étape 1 - Accès aux feuilles de calcul - {#step1-to-timesheets}
+
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Feuilles de temps]**.
+
 <!-- Workfront Goals -->
 
 ## Étape 1 - Atteindre les objectifs - {#step1-to-goals}
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit de l’écran, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Objectifs]**.
-
-   La zone Objectifs de Workfront s’ouvre alors.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Objectifs]**.
 
 <!-- Workfront Fusion -->
 
