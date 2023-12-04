@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
+source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1897'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Ce plan directeur contient la configuration des structures organisationnelles à
 **[!UICONTROL Configuration de l’organisation des technologies de l’information]**
 Ce plan directeur contient la configuration des structures organisationnelles à étendre à un cas d’utilisation des technologies de l’information.
 
-[!BADGE Nouveau!]{type=Informative}**[!UICONTROL Principes de base des instances héritées | Liste de contrôle]**
+**[!UICONTROL Principes de base des instances héritées | Liste de contrôle]**
 Ce plan directeur contient un modèle de projet (ou liste de contrôle) que vous pouvez examiner avec une liste courte de questions, de ressources et de liens pour une compréhension claire de la configuration de votre instance Workfront. Utilisez-le lorsque vous avez récemment hérité d’une instance Workfront et que vous avez besoin de conseils pour commencer.
 
 **[!UICONTROL Exécution de campagne intégrée]**
@@ -79,7 +79,7 @@ Ce plan directeur contient un modèle pour [!DNL Workfront professional services
 **[!UICONTROL Nouvelle préparation à l&#39;embauche]**
 Ce plan directeur contient un modèle pour [!DNL Workfront] pendant des années, l&#39;organisation des services professionnels a utilisé les équipes de mise en oeuvre des ressources humaines pour inciter les spécialistes des ressources humaines et les gestionnaires d&#39;embauche à mener à bien les activités essentielles pour rendre remarquable la première journée d&#39;un nouvel employé.
 
-[!BADGE Nouveau!]{type=Informative}**Offre | Départ du tableau de bord de l’utilisateur**
+**Offre | Départ du tableau de bord de l’utilisateur**
 
 Ce plan directeur contient un seul tableau de bord comprenant 13 rapports pour vous aider à trouver, réaffecter ou gérer les objets et affectations associés à un utilisateur quittant Workfront. Vous pouvez également utiliser ces rapports pour qu’un utilisateur accède à un nouveau rôle ou groupe afin de réaffecter son travail.
 
@@ -104,7 +104,7 @@ Ce plan directeur contient la configuration des structures organisationnelles à
 **[!UICONTROL Suivi du processus de recrutement]**
 Ce plan directeur définit une liste de contrôle pour les ressources de recrutement internes à utiliser pour aider les parties prenantes à suivre l’état d’avancement des demandes d’effectifs. Il est conçu pour prendre en charge un niveau de maturité géré.
 
-[!BADGE Nouveau!]{type=Informative}**Préparation de la gestion des ressources**
+**Préparation de la gestion des ressources**
 
 Utilisez ce modèle de projet et ce rapport d’utilisateur pour vous assurer que vous disposez des paramètres et des informations corrects nécessaires pour générer des données de gestion des ressources précises.
 
@@ -126,11 +126,11 @@ Ce plan directeur contient un modèle pour [!DNL Workfront] l’organisation des
 **[!UICONTROL Tableau de bord de maintenance de l’administrateur système]**
 Ce plan directeur contient un seul tableau de bord pour aider les administrateurs système à maintenir et nettoyer le système régulièrement à partir d’encombres divers pouvant se développer au fil du temps.
 
-[!BADGE Nouveau!]{type=Informative}**Réalisation de la valeur | Tableau de bord des valeurs principales**
+**Réalisation de la valeur | Tableau de bord des valeurs principales**
 
 Ce plan directeur contient un tableau de bord unique comprenant 21 rapports pour vous aider à mesurer la valeur de Workfront. Ces rapports vous aident à traduire les avantages de Centraliser le travail et Gérer les processus de travail en valeurs mesurables que vous pouvez suivre au fil du temps pour obtenir de meilleurs résultats.
 
-[!BADGE Nouveau!]{type=Informative}**Réalisation de la valeur | Tableau de bord de révision et d’approbation**
+**Réalisation de la valeur | Tableau de bord de révision et d’approbation**
 
 Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aider à réaliser la valeur de Workfront. Ces rapports vous aident à traduire les valeurs de l’ Examen et validation des travaux en avantages mesurables dont vous pouvez effectuer le suivi au fil du temps pour obtenir de meilleurs résultats.
 
