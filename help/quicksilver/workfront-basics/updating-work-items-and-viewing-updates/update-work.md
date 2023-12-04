@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ After the monthly releases to Production, the same features are also available i
 >
 >La nouvelle expérience de commentaire n’est disponible que pour la section Mises à jour des objets Workfront et n’est pas disponible lorsque vous accédez aux mises à jour des zones suivantes :
 >
-> * Accueil
+> * Page d’accueil
 > * Panneau Résumé dans les listes
 > * Panneau Résumé dans les feuilles de temps
 
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * Dans la zone Accueil (pour les tâches et les problèmes)
    * Dans le panneau Résumé d’une liste d’objets ou d’une feuille de temps (pour les tâches et les problèmes)
 
-Les informations de cette page vous expliquent comment ajouter des commentaires aux objets Workfront et comment mettre à jour des projets, des tâches et des problèmes.
+Les informations de cette page expliquent comment ajouter des commentaires aux objets Workfront et comment mettre à jour des projets, des tâches et des problèmes lors de l’ajout de commentaires.
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md). Vous devez disposer d’une licence supplémentaire pour accéder aux objectifs de Workfront.
 
@@ -152,17 +154,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Demande ou version ultérieure pour les problèmes et les documents ; révision ou version ultérieure pour tous les autres objets</p> </td> 
+   <td> <p>Demande ou version ultérieure pour les problèmes et les documents</p>
+   <p> Révision ou version ultérieure pour tous les autres objets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
    <td> <p>Accès à l’affichage ou à la modification de l’objet activé par la mise à jour</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’y avez pas accès, demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -175,14 +178,29 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 ## Ajouter une mise à jour à un élément de travail
 
+L’ajout d’une mise à jour à un élément de travail varie en fonction de la version de la section Mises à jour que vous utilisez.
+
+Vous pouvez ajouter des mises à jour aux objets suivants :
+
+* Projets
+* Tâches
+* Problèmes
+* Programmes
+* Portefeuilles
+* Modèles
+* Tâches de modèle
+* Utilisateurs
+* Feuilles de temps
+* Équipes
+* Objectifs
+* Cartes dans la zone Panoramas
+* Itérations
+
+### Ajouter une mise à jour à un élément de travail dans la section Mises à jour héritées
+
 >[!IMPORTANT]
 >
 >Les informations de cette page décrivent la mise à jour des projets, tâches et problèmes.
-
-
-L’ajout d’une mise à jour à un élément de travail varie en fonction de la version de la section Mises à jour que vous utilisez.
-
-### Ajouter une mise à jour à un élément de travail dans la section Mises à jour héritées
 
 1. Accédez à l’élément de travail pour lequel vous souhaitez fournir une mise à jour (un projet, une tâche ou un problème, par exemple).
 1. Cliquez sur le bouton **Mises à jour** .

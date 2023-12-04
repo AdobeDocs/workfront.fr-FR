@@ -1,31 +1,38 @@
 ---
 content-type: overview
 navigation-topic: use-the-home-area
-title: Prise en main de la page d’accueil
-description: Il existe deux façons d’afficher votre travail dans la variable [!UICONTROL Accueil] , soit à partir de la zone [!UICONTROL Liste de tâches] ou le calendrier.
-author: Lisa
+title: Prise en main d’ [!UICONTROL Accueil]
+description: Il existe deux façons d’afficher votre travail dans la variable [!UICONTROL Accueil] , soit à partir de la zone [!UICONTROL Liste de tâches] ou le [!UICONTROL Calendrier].
+author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 1%
+source-wordcount: '1134'
+ht-degree: 0%
 
 ---
 
 # Prise en main d’ [!UICONTROL Accueil]
 
-Il existe deux façons d’afficher votre travail dans la variable [!UICONTROL Accueil] , soit à partir de la zone [!UICONTROL Liste de tâches] ou le calendrier.
+Cet article présente un aperçu de la [!UICONTROL Accueil] area dans [!DNL Adobe Workfront]. Pour plus d’informations sur l’utilisation de la nouvelle [!UICONTROL Accueil], voir [Prise en main de la nouvelle page d’accueil dans Adobe Workfront](../new-home/get-started-with-new-home.md).
+
+Il existe deux façons d’afficher votre travail dans la [!UICONTROL Accueil] area :
+
+* Dans la [!UICONTROL Liste de tâches]
+* Dans la [!UICONTROL Calendrier].
 
 ## Liste de travail
 
-Le [!UICONTROL Liste de tâches] vous permet d’afficher toutes les tâches qui vous sont assignées au même endroit :
+Vous pouvez afficher toutes les tâches qui vous ont été affectées à un seul endroit, dans la [!UICONTROL Liste de tâches]:
 
 ![[!UICONTROL Liste de tâches] panneaux](assets/worklist-and-right-panel-home.png)
 
-R. Utilisez le panneau de gauche pour filtrer, trier et sélectionner la tâche qui vous est assignée.
+Consultez les sections suivantes dans la section actuelle [!UICONTROL Accueil] , comme indiqué dans l’image ci-dessus :
 
-B. Après avoir sélectionné un élément de travail dans le panneau de gauche, utilisez le panneau de droite pour interagir avec des champs personnalisés, effectuer des mises à jour et consigner le temps de journalisation.
+* **A**: utilisez le panneau de gauche pour filtrer, trier et sélectionner la tâche qui vous est assignée.
+
+* **B**: après avoir sélectionné un élément de travail dans le panneau de gauche, utilisez le panneau de droite pour interagir avec les champs personnalisés, effectuer des mises à jour et consigner le temps de journalisation.
 
 Pour plus d’informations sur l’utilisation de la variable [!UICONTROL Liste de travail à domicile], reportez-vous aux articles suivants :
 
@@ -34,23 +41,25 @@ Pour plus d’informations sur l’utilisation de la variable [!UICONTROL Liste 
 
 ## Calendrier
 
-Le calendrier vous permet de visualiser votre travail en affichant le moment où les tâches sont à venir et en vous permettant d’bloquer le temps nécessaire pour les terminer :
+Vous pouvez visualiser votre travail en affichant le moment où les éléments de travail sont dus et vous pouvez bloquer le temps nécessaire pour les terminer, en examinant votre travail dans la [!UICONTROL Calendrier] dans le [!UICONTROL Accueil] area :
 
 ![](assets/calendar-home-nwe-350x114.png)
 
-A. Utilisez la variable [!UICONTROL Calendrier] pour créer une carte visuelle du travail que vous devez effectuer. Il vous suffit de cliquer et de faire glisser des éléments de travail à partir du [!UICONTROL Liste de tâches] sur le calendrier pour bloquer le temps de travail.
+Consultez les sections suivantes dans la section actuelle [!UICONTROL Accueil] , comme indiqué dans l’image ci-dessus :
 
-B. Utilisez l’option de synchronisation du calendrier pour la synchronisation avec votre [!DNL Outlook] calendrier. Gérez vos réunions et travaillez au même endroit.
+* **A**: utilisez la variable [!UICONTROL Calendrier] pour créer une carte visuelle du travail que vous devez effectuer. Il vous suffit de cliquer et de faire glisser des éléments de travail à partir du [!UICONTROL Liste de tâches] sur le [!UICONTROL Calendrier] pour bloquer le temps de travail.
 
-C. Utilisez la variable [!UICONTROL Détails] pour ouvrir un nouveau panneau de droite dans lequel vous pouvez afficher plus d’informations sur l’élément de travail.
+* **B**: utilisez la variable [!UICONTROL Calendrier]Option de synchronisation d’ pour la synchronisation avec votre [!DNL Outlook] calendrier. Gérez vos réunions et travaillez au même endroit.
 
-D. Utilisez la barre d’échéance pour suivre le moment où le travail qui vous est assigné doit être effectué.
+* **C**: utilisez la variable [!UICONTROL Détails] pour ouvrir un nouveau panneau de droite dans lequel vous pouvez afficher plus d’informations sur l’élément de travail.
+
+* **D**: utilisez la barre d’échéance pour suivre le moment où le travail vous est assigné.
 
 Pour plus d’informations sur l’utilisation du calendrier d’accueil, voir [Utilisez la variable [!UICONTROL Calendrier d’accueil] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-## Rechercher votre travail
+## Trouver votre travail
 
-Le [!UICONTROL Accueil] Zone est votre guichet unique pour trouver les tâches, les problèmes et les approbations qui vous ont été attribués. Les options de filtrage et de tri intégrées à la variable [!UICONTROL Accueil] travaillent ensemble pour vous aider à travailler comme vous le souhaitez. Vous pouvez utiliser la variable [!UICONTROL Tri par] pour regrouper des éléments, puis utiliser le filtre pour vous concentrer sur le travail qui doit être terminé.
+La variable [!UICONTROL Accueil] Zone est votre guichet unique pour trouver les tâches, les problèmes et les approbations qui vous ont été attribués. Les options de filtrage et de tri intégrées à la variable [!UICONTROL Accueil] travaillent ensemble pour vous aider à travailler comme vous le souhaitez. Vous pouvez utiliser la variable [!UICONTROL Tri par] pour regrouper des éléments, puis utiliser le filtre pour vous concentrer sur le travail qui doit être terminé.
 
 >[!NOTE]
 >
@@ -58,11 +67,11 @@ Le [!UICONTROL Accueil] Zone est votre guichet unique pour trouver les tâches, 
 
 ### Regroupez des éléments de travail similaires avec le[!UICONTROL Group by]Option &#39;
 
-Le [!UICONTROL Tri par] vous permet de regrouper des éléments comme dans la liste de travail. Vous pouvez trier en procédant comme suit :
+La variable [!UICONTROL Tri par] vous permet de regrouper des éléments comme dans la liste de travail. Vous pouvez trier en procédant comme suit :
 
-* [!UICONTROL Date d’achèvement prévue]
-* [!UICONTROL Date de début prévue]
-* [!UICONTROL Date d&#39;engagement]
+* [!UICONTROL Fin planifiée]
+* [!UICONTROL Démarrage planifié]
+* [!UICONTROL Date de validation]
 * [!UICONTROL Projet]
 * [!UICONTROL Ma priorité]
 
@@ -72,21 +81,21 @@ Pour plus d’informations sur l’utilisation des regroupements, voir [Afficher
 
 ### Restreindre la cible d’action avec des filtres
 
-Le [!UICONTROL Liste de tâches] Le filtre vous permet de vous concentrer uniquement sur des tâches spécifiques.
+La variable [!UICONTROL Liste de tâches] Le filtre vous permet de vous concentrer uniquement sur des tâches spécifiques.
 
 Vous trouverez ci-dessous des exemples de filtrage des éléments que vous affichez dans la page d’accueil :
 
 * Filtrez par type d’élément et état.
 
-   Par exemple, si vous souhaitez afficher toutes les tâches, vous pouvez sélectionner la [!UICONTROL Tâches] filtre. Si vous souhaitez être plus précis et afficher uniquement les tâches sur lesquelles vous êtes prêt à commencer à travailler, sélectionnez l’option [!UICONTROL Prêt à démarrer] filtre sous [!UICONTROL Tâches] filtre.
+  Par exemple, si vous souhaitez afficher toutes les tâches, vous pouvez sélectionner la [!UICONTROL Tâche] filtre. Si vous souhaitez être plus précis et afficher uniquement les tâches sur lesquelles vous êtes prêt à commencer à travailler, sélectionnez l’option [!UICONTROL Prêt à démarrer] filtre sous le [!UICONTROL Tâche] filtre.
 
 * Filtrage par type d’élément uniquement.
 
-   Par exemple, vous pouvez sélectionner [!UICONTROL Problèmes] pour afficher tous les problèmes dans tous les états ([!UICONTROL Utilisation de] ou [!UICONTROL Demandé]), ou [!UICONTROL Approbations] pour afficher tous les éléments de travail, les demandes d’accès, les feuilles de temps, les documents et les validations de BAT.
+  Par exemple, vous pouvez sélectionner [!UICONTROL Problèmes] pour afficher tous les problèmes dans tous les états ([!UICONTROL Utilisation de] ou [!UICONTROL Demandé]), ou [!UICONTROL Approbations] pour afficher tous les éléments de travail, les demandes d’accès, les feuilles de temps, les documents et les validations de BAT.
 
 * Filtrage par état uniquement.
 
-   Par exemple, vous pouvez sélectionner la variable [!UICONTROL Terminé] filtre pour afficher les tâches et les problèmes qui ont été terminés. Cela inclut les Tâches personnelles mais ne comprend pas les validations.
+  Par exemple, vous pouvez sélectionner la variable [!UICONTROL Terminé] filtre pour afficher les tâches et les problèmes qui ont été terminés. Cela inclut les Tâches personnelles, mais ne comprend pas les validations.
 
 Pour plus d’informations sur l’utilisation des filtres, voir [Afficher les éléments dans le [!UICONTROL Liste de tâches] dans le [!UICONTROL Accueil] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
@@ -94,11 +103,11 @@ Pour plus d’informations sur l’utilisation des filtres, voir [Afficher les �
 
 ### Accéder au travail assigné à votre équipe
 
-Le [!UICONTROL Accueil] a un groupement permanent dédié aux requêtes de l&#39;équipe avec un lien direct vers la page des requêtes de l&#39;équipe. Utilisez ce regroupement pour afficher les demandes d’accès pour l’une des équipes que vous utilisez.
+La variable [!UICONTROL Accueil] a un groupement permanent dédié aux requêtes de l&#39;équipe avec un lien direct vers la page des requêtes de l&#39;équipe. Utilisez ce regroupement pour afficher les demandes d’accès pour l’une des équipes que vous utilisez.
 
 >[!NOTE]
 >
->Le [!UICONTROL Filtrer] et [!UICONTROL Tri par] Les options n’affectent pas la variable [!UICONTROL Requêtes d’équipe] regroupement. Ce regroupement est visible tant que du travail est assigné à votre équipe.
+>La variable [!UICONTROL Filtrer] et [!UICONTROL Tri par] Les options n’affectent pas la variable [!UICONTROL Requêtes d’équipe] regroupement. Ce regroupement est visible tant que du travail est assigné à votre équipe.
 
 Pour plus d’informations sur l’accès aux requêtes de l’équipe, voir l’article [[!UICONTROL Gérer] requêtes de travail et d’équipe dans la variable [!UICONTROL Accueil] area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
@@ -106,11 +115,11 @@ Pour plus d’informations sur l’accès aux requêtes de l’équipe, voir l�
 
 ### Surveiller les travaux que vous avez envoyés
 
-Gardez une trace du travail que vous avez soumis pour approbation directement à partir de [!UICONTROL Liste de tâches]. Vous pouvez rappeler à l’approbateur le travail qui doit être approuvé. Vous pouvez également rappeler l’approbation si nécessaire.
+Gardez une trace du travail que vous avez soumis pour approbation directement depuis [!UICONTROL Liste de tâches]. Vous pouvez rappeler à l’approbateur le travail qui doit être approuvé. Vous pouvez également rappeler l’approbation si nécessaire.
 
 >[!NOTE]
 >
->Le [!UICONTROL Filtrer] et [!UICONTROL Tri par] Les options n’affectent pas la variable [!UICONTROL Validations que j’ai envoyées] regroupement. Ce groupement est visible tant que le travail est en attente d&#39;approbation.
+>La variable [!UICONTROL Filtrer] et [!UICONTROL Tri par] Les options n’affectent pas la variable [!UICONTROL Validations que j’ai envoyées] regroupement. Ce groupement est visible tant que le travail est en attente d&#39;approbation.
 
 
 
@@ -118,7 +127,7 @@ Gardez une trace du travail que vous avez soumis pour approbation directement à
 
 ## Définir la priorité de ce qui est important pour vous
 
-Le [!UICONTROL Liste de tâches] vous permet de faire surface et de classer par priorité les travaux importants pour vous avec le [!UICONTROL Ma priorité de tri par] . Vous pouvez ajouter jusqu’à 20 éléments à votre [!UICONTROL Ma priorité] liste. Utilisez la variable [!UICONTROL Plus] pour ajouter des tâches à votre liste de priorités.
+La variable [!UICONTROL Liste de tâches] vous permet de faire surface et de classer par priorité les travaux importants pour vous avec l’ [!UICONTROL Ma priorité de tri par] . Vous pouvez ajouter jusqu’à 20 éléments à votre [!UICONTROL Ma priorité] liste. Utilisez la variable [!UICONTROL Plus] pour ajouter des tâches à votre liste de priorités.
 
 >[!NOTE]
 >
@@ -132,9 +141,9 @@ Pour plus d’informations sur l’utilisation de [!UICONTROL Ma priorité], voi
 
 Utilisez le panneau de droite dans [!UICONTROL Accueil] pour mettre à jour et terminer votre travail.
 
-### Travailler dans un espace personnalisé pour vous
+### Travailler dans un espace personnalisé
 
-Votre [!DNL Adobe Workfront] L’administrateur peut ajouter jusqu’à 16 champs personnalisés pour faciliter la recherche et la mise à jour des informations dont vous avez besoin. La plupart des champs étant modifiables, il n’est pas nécessaire d’accéder à dans l’élément de travail.
+Votre [!DNL Adobe Workfront] L’administrateur peut ajouter jusqu’à 16 champs personnalisés pour faciliter la recherche et la mise à jour des informations dont vous avez besoin. La plupart des champs sont modifiables. Il n’est donc pas nécessaire d’accéder à dans l’élément de travail.
 
 Pour mettre à jour l&#39;un des champs de cette zone, cliquez simplement sur le champ .
 
@@ -150,7 +159,7 @@ Communiquez rapidement et efficacement avec les collègues du [!UICONTROL Accuei
 
 * Mise à jour de la [!UICONTROL Date de validation]
 
-   <!--
+  <!--
   <note type="note">
   This is the only place you can update the Commit Date in Home.
   <br>
@@ -166,7 +175,7 @@ Pour plus d’informations sur la communication dans la variable [!UICONTROL Acc
 
 ### Consignez votre heure
 
-Gardez une trace des heures que vous avez passées à travailler sur des tâches individuelles. Vous pouvez choisir un type d’heure général, tel que [!UICONTROL Heure de la tâche]ou vous pouvez choisir un type d’heure spécifique au projet configuré par votre [!DNL Workfront] administrateur.
+Gardez une trace des heures que vous avez passées à travailler sur des tâches individuelles. Vous pouvez choisir un type d’heure général, tel que [!UICONTROL Heure de tâche]ou vous pouvez choisir un type d’heure spécifique au projet configuré par votre [!DNL Workfront] administrateur.
 
 Pour plus d’informations sur la façon de se connecter à l’heure dans le [!UICONTROL Accueil] , voir la section [Accueil](../../../timesheets/create-and-manage-timesheets/log-time.md#home) dans l’article [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
