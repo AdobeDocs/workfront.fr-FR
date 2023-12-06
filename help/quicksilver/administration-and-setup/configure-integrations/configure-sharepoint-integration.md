@@ -3,14 +3,14 @@ title: Configurez la variable [!DNL SharePoint] integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Vous pouvez intégrer des [!DNL Workfront] avec [!DNL SharePoint] En ligne, offrant aux utilisateurs la possibilité de naviguer, de lier et d’ajouter des [!DNL SharePoint] documents dans Workfront. La fonctionnalité fournie est similaire à celle d’autres [!DNL Workfront] intégrations, telles que Google Drive, Box et Dropbox.
-author: Becky, Caroline
+description: Vous pouvez intégrer des [!DNL Workfront] avec [!DNL SharePoint] En ligne, offrant aux utilisateurs la possibilité de naviguer, de lier et d’ajouter des [!DNL SharePoint] documents dans Workfront. La fonctionnalité fournie est similaire à celle d’autres [!DNL Workfront] intégrations de documents.
+author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3fafc4d782e518d774e981c2e37f9a5f1595edb1
+source-git-commit: 3cc1745b33d645d37248185b4163a39c1bead60e
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
@@ -55,7 +55,7 @@ Les étapes de cet article doivent être les suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur. Pour plus d’informations sur [!DNL Workfront] administrateurs, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
+   <td>Vous devez être un [!DNL Workfront] administrateur. Pour plus d’informations sur [!DNL Workfront] administrateurs, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Les étapes de cet article doivent être les suivantes :
 
 ## Conditions préalables
 
-Vous devez disposer des autorisations ou des accès nécessaires dans [!DNL SharePoint] pour modifier ou configurer les [!DNL SharePoint].
+Vous devez disposer des autorisations ou des accès nécessaires dans [!DNL SharePoint] pour modifier ou configurer votre [!DNL SharePoint] intégration.
 
 ## Lier des documents par le biais de la nouvelle intégration SharePoint
 
@@ -84,7 +84,7 @@ Pour obtenir des instructions sur la liaison de documents par le nouveau [!DNL S
 
 ### Liaison de documents à partir de SharePoint
 
-Pour obtenir des instructions sur la liaison de documents à partir de SharePoint par le biais de la nouvelle [!DNL SharePoint] intégration, voir [Lier un document externe à [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+Pour obtenir des instructions sur la liaison de documents à partir de SharePoint par le biais de la nouvelle [!DNL SharePoint] intégration, voir [Lier un document externe à [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront).
 
 ### Envoi de documents à SharePoint
 
@@ -115,16 +115,13 @@ la première fois qu’un utilisateur ajoute un document à [!DNL Workfront] de 
 
 | Accès | Motif |
 |---|---|
-| disposer d’un accès complet à vos fichiers ; | Autorisations [!DNL Workfront] pour accéder aux fichiers d’un utilisateur afin de lier une ressource. Lorsque des documents sont envoyés à partir de [!DNL Workfront] to [!DNL SharePoint], [!DNL Workfront] nécessite l’accès pour créer la ressource. |
+| disposer d’un accès complet à vos fichiers ; | Autorisations [!DNL Workfront] pour accéder aux fichiers d’un utilisateur afin de lier des ressources. Lorsque des documents sont envoyés à partir de [!DNL Workfront] to [!DNL SharePoint], [!DNL Workfront] nécessite l’accès pour créer la ressource. |
 | Lecture d’éléments dans toutes les collections de site | Autorisations [!DNL Workfront] pour lire les ressources afin d’activer la navigation des utilisateurs. |
-| Modification ou suppression d’éléments dans toutes les collections de site | Autorisations [!DNL Workfront] pour créer des ressources dans les sites et la collection de sites. La suppression n’est utilisée que lors du nettoyage après des tentatives de lien infructueuses. |
+| Modification ou suppression d’éléments dans toutes les collections de site | Autorisations [!DNL Workfront] pour créer des ressources dans des sites et des collections de sites. La suppression n’est utilisée que lors du nettoyage après des tentatives de lien infructueuses. |
 | Maintenir l’accès aux données auxquelles vous avez donné accès | Autorisations [!DNL Workfront] pour générer un jeton d’actualisation. |
 | Connexion et lecture du profil utilisateur | Autorisations [!DNL Workfront] pour utiliser le jeton d’accès pour agir au nom de l’utilisateur, via le flux de connexion OAuth2. |
 
-Cet accès est accordé par l’utilisateur la première fois qu’il utilise l’intégration et peut être révoqué à tout moment.
-
-Tenez compte des points suivants concernant l’accès à [!DNL SharePoint] par le biais du [!DNL Workfront] [!DNL SharePoint] intégration :
-
+* Cet accès est accordé par l’utilisateur la première fois qu’il utilise l’intégration et peut être révoqué à tout moment.
 * Les autorisations demandées pour cette intégration sont les suivantes : **délégué** autorisations.
 * [!DNL Workfront] demande l’accès minimal requis pour effectuer des opérations dans l’intégration.
 * Accès à l’affichage, la modification ou la suppression d’une [!DNL Adobe Workfront] document lié à [!DNL SharePoint] repose sur l’accès de l’utilisateur dans [!DNL Workfront]. Cependant, toute navigation, téléchargement ou modification d’un [!DNL SharePoint] Un fichier ou un dossier requiert l’accès à [!DNL SharePoint]et l’accès à ces actions est contrôlé par [!DNL SharePoint].
@@ -143,24 +140,25 @@ Si une ressource a été chargée pour la première fois dans [!DNL Workfront], 
 
 Pour vous assurer que vos utilisateurs continuent d’accéder aux documents liés à Workfront par le biais de l’ancien [!DNL SharePoint] intégration, vous devez reconfigurer l’accès à l’ancien [!DNL SharePoint] et tenir le secret client SharePoint à jour.
 
-* [Reconfiguration de l’accès à l’héritage [!DNL SharePoint] integration](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
-* [Configuration du secret client pour un accès continu à l’héritage [!DNL SharePoint] integration](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
+* [Reconfiguration de l’accès à l’héritage [!DNL SharePoint] integration](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configuration du secret client pour un accès continu à l’héritage [!DNL SharePoint] integration](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Reconfiguration de l’accès à l’héritage [!DNL SharePoint] integration
 
-Pour vous assurer que vous pouvez accéder aux documents liés par l’intermédiaire de l’ancien [!DNL SharePoint] , tout en veillant à ce que vos utilisateurs ne puissent pas lier de nouveaux documents via cette intégration, procédez comme suit.
+Reconfiguration de l’héritage [!DNL SharePoint] l’intégration permet à vos utilisateurs d’accéder aux documents liés par l’intermédiaire de l’ancienne version [!DNL SharePoint] , tout en veillant à ce que vos utilisateurs ne puissent pas lier de nouveaux documents par le biais de cette intégration.
 
 >[!NOTE]
 >
 > * L&#39;héritage [!DNL SharePoint] l’intégration est étiquetée &quot;[!DNL SharePoint].&quot;
 > * La nouvelle [!DNL SharePoint] l’intégration est étiquetée &quot;[!UICONTROL [!DNL SharePoint] (API Graph)].&quot;
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Configuration]** ![Configuration](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionner **[!UICONTROL Documents]** dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL Fournisseurs cloud]**.
 1. Assurez-vous que la variable **[!DNL SharePoint]** et **[!UICONTROL [!DNL SharePoint](API Graph)]** sont toutes les deux activées.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 1. Sélectionner **[!UICONTROL Documents]** dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL [!DNL SharePoint]Intégration]**.
 1. Cochez la case à gauche de la liste pour toutes les intégrations existantes, puis sélectionnez **[!UICONTROL Désactiver]**.
+   ![](assets/disable-old-sharepoint.png)
 
 
 ### Configuration du secret client pour un accès continu à l’héritage [!DNL SharePoint] integration
@@ -175,13 +173,13 @@ Votre [!DNL SharePoint] Le secret client expire une fois par an. Pour garantir u
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. Générez un nouveau secret client, comme décrit dans la section [Remplacer un secret client arrivant à expiration dans un [!DNL SharePoint] Module complémentaire](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
+1. Générez un nouveau secret client, comme décrit dans la section [Remplacer un secret client arrivant à expiration dans un [!DNL SharePoint] Module complémentaire](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copiez ce secret client vers un emplacement sécurisé.
 1. Se connecter [!DNL Workfront] en tant qu’administrateur.
-1. Dans Workfront, cliquez sur l’icône **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+1. Dans Workfront, cliquez sur l’icône **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint]Intégration]**.
 1. Cliquez sur le bouton [!DNL SharePoint] intégration à mettre à jour, puis cliquez sur **[!UICONTROL Modifier]**.
-1. Saisissez le nouveau secret client dans le **[!UICONTROL Secret du client]** champ .
+1. Recherchez la variable **Infos sur la connexion** dans la fenêtre d’édition, puis saisissez le nouveau secret client dans la **[!UICONTROL Secret client SharePoint]** champ .
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
 <!--
@@ -467,7 +465,8 @@ Pour afficher une collection de sites dans [!DNL Workfront], les conditions suiv
 
 * L’utilisateur doit avoir accès à la collection de sites en mode [!DNL SharePoint].
 
-  Pour vérifier cela dans [!DNL SharePoint], accédez à [!DNL SharePoint], puis ouvrez la collection de sites > [!UICONTROL Paramètres] > [!UICONTROL Autorisations du site].
+  Pour vérifier cela dans [!DNL SharePoint], vérifiez les autorisations de la collection de sites dans SharePoint.
+
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
