@@ -9,10 +9,10 @@ description: Chaque utilisateur doit disposer d’un niveau d’accès pour se c
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,6 @@ Vous pouvez désactiver l’option de mise à niveau automatique dans la zone de
 >
 >Une fois désactivé, tout utilisateur non payant qui passe en revue le nombre de décisions autorisé ne sera pas automatiquement mis à niveau.
 
-
 ## Exigences d’accès
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
@@ -38,13 +37,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Formule actuelle : Standard
+   <td>Nouveau plan : Standard
    <p>ou</p>
-   <p>Formule héritée : Planifier</p></td> 
+   <p>Formule actuelle : Formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 

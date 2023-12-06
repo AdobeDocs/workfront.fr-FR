@@ -5,9 +5,9 @@ description: 'La barre de navigation supérieure, qui s’affiche en haut de l�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [
 
 ![Barre de navigation supérieure](assets/global-navigation-bar.png)
 
-## [!UICONTROL Icône d&#39;accueil]
+## [!UICONTROL Accueil] icon
 
-Le **[!UICONTROL Accueil]** icon ![](assets/home-icon.png) vous conduit à la fonction [!UICONTROL Accueil] , qui est la page d’entrée par défaut. Pour en savoir plus sur la page d’accueil, voir [Utilisez la variable [!UICONTROL Accueil] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+La variable **[!UICONTROL Accueil]** icon ![](assets/home-icon.png) vous conduit à la fonction [!UICONTROL Accueil] , qui est la landing page par défaut. Pour en savoir plus sur la page d’accueil, voir [Utilisez la variable [!UICONTROL Accueil] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Pages pincées
 
@@ -28,7 +28,7 @@ Vous pouvez épingler des pages que vous visitez fréquemment afin qu’elles s�
 
 ## [!UICONTROL Aide] menu
 
-Le **[!UICONTROL Aide]** vous permet de rechercher de l’aide pour une tâche spécifique, de trouver plus d’informations sur l’utilisation de [!DNL Workfront], affichez le contenu associé à la page sur laquelle vous vous trouvez actuellement ou envoyez des commentaires sur votre expérience.
+La variable **[!UICONTROL Aide]** vous permet de rechercher de l’aide pour une tâche spécifique, de trouver plus d’informations sur l’utilisation de [!DNL Workfront], affichez le contenu associé à la page sur laquelle vous vous trouvez actuellement ou envoyez des commentaires sur votre expérience.
 
 Pour en savoir plus sur le menu Aide, voir [Accès [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
@@ -40,19 +40,19 @@ Pour en savoir plus sur les notifications, voir [Affichage et gestion des notifi
 
 ## [!UICONTROL Favoris] menu
 
-Le **[!UICONTROL Favoris]** icon ![Favoris](assets/favorites-icon-62x55.png) ouvre une liste des pages du système que vous avez sélectionnées. Vous pouvez ajouter la page que vous vous trouvez actuellement dans ce menu.
+La variable **[!UICONTROL Favoris]** icon ![Favoris](assets/favorites-icon-62x55.png) ouvre une liste des pages du système que vous avez sélectionnées. Vous pouvez ajouter la page que vous vous trouvez actuellement dans ce menu.
 
 Pour en savoir plus sur les favoris, voir [Affichage et gestion des favoris](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
 ## [!UICONTROL Récents] menu
 
-Le **[!UICONTROL Récents]** icon ![[!UICONTROL Récents]](assets/recents-icon-40x43.png) ouvre une liste des pages que vous avez visitées récemment.
+La variable **[!UICONTROL Récents]** icon ![[!UICONTROL Récents]](assets/recents-icon-40x43.png) ouvre une liste des pages que vous avez visitées récemment.
 
 Pour en savoir plus sur les récents, voir [Affichage des éléments récents](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
 
 ## [!UICONTROL Rechercher] menu
 
-Le **[!UICONTROL Rechercher]** icon ![](assets/search-icon.png) dans le coin supérieur droit de [!DNL Workfront] vous permet d’effectuer une recherche de base, de restreindre votre recherche à un objet spécifique ou d’utiliser [!UICONTROL Recherche avancée] pour rechercher un mot-clé pour un objet spécifique et utiliser des filtres pour limiter votre recherche à des champs spécifiques.
+La variable **[!UICONTROL Rechercher]** icon ![](assets/search-icon.png) dans le coin supérieur droit de [!DNL Workfront] vous permet d’effectuer une recherche de base, de restreindre votre recherche à un objet spécifique ou d’utiliser [!UICONTROL Recherche avancée] pour rechercher un mot-clé pour un objet spécifique et utiliser des filtres pour limiter votre recherche à des champs spécifiques.
 
 Pour en savoir plus sur la recherche, voir [Rechercher [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
@@ -64,13 +64,13 @@ Pour en savoir plus sur la recherche, voir [Rechercher [!DNL Adobe Workfront]](.
 >
 > Si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], voir [[!DNL Adobe Unified Experience] pour [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-Le **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) ouvre la fonction [!UICONTROL Menu Principal], qui vous permet d’accéder à une autre zone de Workfront.
+La variable **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) ouvre la fonction [!UICONTROL Menu Principal], qui vous permet d’accéder à une autre zone de Workfront.
 
 Les options disponibles dans la variable [!UICONTROL Menu Principal] dépendent de :
 
-* **Configurations des modèles de mise en page**: Pour apprendre comment [!DNL Workfront] l’administrateur peut modifier la variable [!UICONTROL Menu Principal] à partir d’un modèle de mise en page, voir [Personnalisez le [!UICONTROL Menu Principal] utilisation d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **Configurations des modèles de mise en page**: pour savoir comment [!DNL Workfront] peut modifier la variable [!UICONTROL Menu Principal] à partir d’un modèle de mise en page, voir [Personnalisez le [!UICONTROL Menu Principal] utilisation d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **Type de licence**: Pour connaître les configurations par défaut des différents types de licence, voir [Comprendre la navigation d’un utilisateur de licence de révision](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation pour un [!UICONTROL Travail]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Type de licence**: pour découvrir les configurations par défaut de différents types de licence, voir [Comprendre la navigation d’un utilisateur de licence de révision](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation d’une [!UICONTROL Travail]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 ![Options du menu principal](assets/main-menu-options-350x481.png)
 
@@ -107,7 +107,7 @@ Chaque icône vous conduit à une zone différente de la nouvelle [!DNL Adobe Wo
      <li>[!UICONTROL Analytics] : <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Présentation des analyses améliorées</a></li> 
      <li>[!UICONTROL Goals] : <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] aperçu</a></li> 
      <li>[!UICONTROL Scénarios] : <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Présentation du planificateur de scénarios</a></li> 
-     <li>[!UICONTROL Vérification] : <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Bon à tirer</a></li> 
+     <li>[!UICONTROL Vérification] : <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Bon à tirer : index de l'article</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 

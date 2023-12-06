@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -29,14 +29,14 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>
-   <p>Formule actuelle : Standard</p>
+   <p>Nouveau plan : Standard</p>
    <p>ou</p>
-   <p>Formule héritée : Planifier</p></td> 
+   <p>Formule actuelle : Formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -105,7 +105,7 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
          </ul> </li> 
        </ul> 
        <p>Pour plus d’informations sur les autorisations relatives aux objets, voir <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Présentation des autorisations de partage sur les objets</a>.</p> 
-       <p><b>NOTE</b>:  
+       <p><b>REMARQUE</b>:  
        <ul> 
        <li> <p>Les utilisateurs ne disposant pas des autorisations que vous indiquez ici ne peuvent pas voir les champs personnalisés et les widgets dans la section . </p> <p>C’est également le cas si vous affichez les valeurs des champs dans les rapports ou si vous les utilisez dans les champs calculés dans les rapports de mode texte.</p> </li> 
        <li> <p>L’association de plusieurs types d’objets à votre formulaire peut modifier les autorisations d’affichage et de modification disponibles au cours de ces étapes. Pour plus d’informations, voir <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Comment plusieurs types d’objets peuvent affecter les autorisations de saut de section dans un formulaire personnalisé</a> dans cet article.</p> </li> 

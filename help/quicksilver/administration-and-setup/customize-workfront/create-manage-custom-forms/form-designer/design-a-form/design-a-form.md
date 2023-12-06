@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '4908'
+source-wordcount: '4918'
 ht-degree: 4%
 
 ---
@@ -29,14 +29,14 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>
-   <p>Formule actuelle : Standard</p>
+   <p>Nouveau plan : Standard</p>
    <p>ou</p>
-   <p>Formule héritée : Planifier</p></td> 
+   <p>Formule actuelle : Formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -196,7 +196,7 @@ Pour ajouter un champ de texte :
     </tr>
     <tr>
     <td>Format</td>
-    <td><p>Sélectionnez le type de données qui sera capturé dans le champ personnalisé.</p> <p><b>NOTE</b>:   
+    <td><p>Sélectionnez le type de données qui sera capturé dans le champ personnalisé.</p> <p><b>REMARQUE</b>:   
     <ul> 
     <li>Une fois le formulaire enregistré, ce champ ne peut plus être modifié. Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner le format Nombre ou Devise .<br></li> 
     <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li> 
@@ -313,7 +313,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     </tr> 
     <tr> 
     <td role="rowheader">Format</td> 
-    <td> <p>Sélectionnez le type de données qui sera capturé dans le champ personnalisé.</p> <p><b>NOTE</b>:   
+    <td> <p>Sélectionnez le type de données qui sera capturé dans le champ personnalisé.</p> <p><b>REMARQUE</b>:   
      <ul> 
     <li>Une fois le formulaire enregistré, ce champ ne peut plus être modifié. Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner le format Nombre ou Devise .<br></li> 
     <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li> 
@@ -462,7 +462,7 @@ Pour ajouter des champs de date de saisie anticipée :
      </tr> 
      <tr> 
       <td role="rowheader">Type d'objet référencé</td> 
-      <td> <p>Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur Appliquer ou sur Enregistrer+Fermer, vous ne pouvez pas modifier le type d’objet du champ.</p> <p><b>NOTE</b>:   
+      <td> <p>Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur Appliquer ou sur Enregistrer+Fermer, vous ne pouvez pas modifier le type d’objet du champ.</p> <p><b>REMARQUE</b>:   
         <ul> 
          <li>Si votre administrateur Workfront a personnalisé le nom des Portfolios, programmes ou projets dans l’interface utilisateur de Workfront, le nom Workfront par défaut de l’objet s’affiche dans cette liste déroulante et non dans le nom personnalisé. Contactez votre administrateur Workfront si vous avez besoin d’aide.<br></li> 
          <li>Les types d’objets suivants sont pris en charge dans les applications mobiles iOS et Android Workfront : Utilisateur, Société, Groupe, Rôle de tâche, Portfolio, Programme, Projet et Modèle.</li> 
@@ -529,7 +529,7 @@ Pour ajouter une recherche externe :
      <tr> 
       <td role="rowheader">Format</td>
       <td><p>Sélectionnez le type de données qui sera capturé dans le champ personnalisé.</p>
-      <p><strong>NOTE:</strong></p>
+      <p><strong>REMARQUE :</strong></p>
       <ul><li>Vous pouvez modifier le type de format après l’enregistrement du formulaire, avec une limitation : toutes les valeurs existantes sur les objets doivent pouvoir être converties dans le nouveau type. (Par exemple, si le type de format est Texte et qu’un objet stocke la valeur "abc", vous ne pouvez pas convertir le champ et obtenez une erreur indiquant que le système ne peut pas convertir "abc" en nombre/devise.) Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner le format Nombre ou Devise .</li>
       <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li></ul></td>
      </tr> 

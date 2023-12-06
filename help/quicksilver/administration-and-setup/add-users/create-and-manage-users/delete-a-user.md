@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -28,7 +28,8 @@ Lorsqu’un utilisateur quitte votre entreprise, vous pouvez le supprimer d’Ad
 >
 >  Pour obtenir des instructions sur la suppression d’un utilisateur dans Adobe Admin Console, reportez-vous à la section &quot;Suppression définitive d’utilisateurs&quot; de l’article. [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) ou contactez votre administrateur Adobe Admin Console.
 >
->  Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, reportez-vous à la section [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
 
 ## Exigences d’accès
 
@@ -40,7 +41,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -61,7 +62,7 @@ Les étapes de cet article doivent être les suivantes :
 
 La désactivation d’un utilisateur entraîne les événements suivants :
 
-* Supprime les licences de l’utilisateur pour Workfront et Workfront BAT si le composant BAT Workfront est associé à votre compte Workfront. Pour plus d’informations sur le BAT Workfront, voir [BAT Workfront](../../../workfront-proof/workfront-proof.md).
+* Supprime les licences de l’utilisateur pour Workfront et Workfront BAT si le composant BAT Workfront est associé à votre compte Workfront. Pour plus d’informations sur le BAT Workfront, voir [Bon à tirer Workfront : index de l’article](../../../workfront-proof/workfront-proof.md).
 * L’utilisateur ne peut plus se voir attribuer une tâche.
 * L’utilisateur ne peut plus être ajouté aux mises à jour.
 * L’utilisateur ne peut plus être ajouté à des équipes ou à des groupes.
@@ -71,10 +72,10 @@ La désactivation d’un utilisateur entraîne les événements suivants :
    * Tâches, problèmes, projets, portfolios
    * Tableaux de bord
 
-      >[!NOTE]
-      >
-      >Si vous désactivez un utilisateur et ne pouvez plus afficher les rapports ou les tableaux de bord associés à un utilisateur, vous devrez peut-être mettre à jour la variable **Exécutez ce rapport avec les droits d’accès de :** champ .\
-      >Pour en savoir plus, voir la section [Pourquoi ne puis-je pas accéder à un rapport détenu par un utilisateur désactivé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de la section [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+     >[!NOTE]
+     >
+     >Si vous désactivez un utilisateur et ne pouvez plus afficher les rapports ou les tableaux de bord associés à un utilisateur, vous devrez peut-être mettre à jour la variable **Exécutez ce rapport avec les droits d’accès de :** champ .\
+     >Pour en savoir plus, voir la section [Pourquoi ne puis-je pas accéder à un rapport détenu par un utilisateur désactivé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de la [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
    * Documents
    * Mises à jour
@@ -84,7 +85,7 @@ La désactivation d’un utilisateur entraîne les événements suivants :
 
 La suppression d’un utilisateur entraîne les événements suivants :
 
-* Supprime les licences de l’utilisateur pour Workfront et Workfront BAT, si le composant BAT Workfront est associé à votre compte Workfront. Pour plus d’informations sur le BAT Workfront, voir [BAT Workfront](../../../workfront-proof/workfront-proof.md).
+* Supprime les licences de l’utilisateur pour Workfront et Workfront BAT, si le composant BAT Workfront est associé à votre compte Workfront. Pour plus d’informations sur le BAT Workfront, voir [Bon à tirer Workfront : index de l’article](../../../workfront-proof/workfront-proof.md).
 * L’utilisateur ne peut plus se voir attribuer une tâche.
 * L’utilisateur ne peut plus être ajouté aux mises à jour.
 * L’utilisateur ne peut plus être ajouté à des équipes ou à des groupes.
@@ -94,17 +95,17 @@ La suppression d’un utilisateur entraîne les événements suivants :
    * Tâches, problèmes, projets, portfolio
    * Tableaux de bord
 
-      >[!NOTE]
-      >
-      >Vous ne pouvez plus accéder aux sections personnalisées qui contenaient des tableaux de bord associés à l’utilisateur supprimé.\
-      >Pour en savoir plus, voir la section [Comment accéder à un tableau de bord contenant un rapport détenu par un utilisateur supprimé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) de la section [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+     >[!NOTE]
+     >
+     >Vous ne pouvez plus accéder aux sections personnalisées qui contenaient des tableaux de bord associés à l’utilisateur supprimé.\
+     >Pour en savoir plus, voir la section [Comment accéder à un tableau de bord contenant un rapport détenu par un utilisateur supprimé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) de la [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
    * Mises à jour
    * Heures
 
-      >[!NOTE]
-      >
-      >Ces objets restent dans Workfront, mais le propriétaire de l’objet est désormais vide.
+     >[!NOTE]
+     >
+     >Ces objets restent dans Workfront, mais le propriétaire de l’objet est désormais vide.
 
 * Si l’utilisateur a téléchargé des documents dans la zone Documents de la barre de navigation globale, les documents sont également supprimés.
 * Si l’utilisateur a extrait les documents qu’il possède et que les documents sont téléchargés dans la zone Documents principale (accessible à partir du menu principal), les documents sont supprimés avec l’utilisateur. Pour plus d’informations sur l’extraction de documents, voir [Extraction de documents](../../../documents/managing-documents/check-out-documents.md).
@@ -113,7 +114,7 @@ Pour plus d’informations sur la désactivation des utilisateurs, voir [Désact
 
 Vous pouvez supprimer définitivement des utilisateurs un par un ou supprimer plusieurs utilisateurs simultanément. Lorsque vous supprimez des utilisateurs individuels, vous devez attendre que le processus de suppression soit terminé avant de passer à d’autres activités dans Workfront. Le processus de suppression simultanée de plusieurs utilisateurs s’exécute en arrière-plan, ce qui vous permet de continuer à utiliser Workfront lorsque les utilisateurs sont supprimés.
 
-## Suppression d’un ou de plusieurs utilisateurs
+## Suppression d’un ou plusieurs utilisateurs
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 

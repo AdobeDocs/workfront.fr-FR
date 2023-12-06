@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -29,14 +29,14 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>
-   <p>Formule actuelle : Standard</p>
+   <p>Nouveau plan : Standard</p>
    <p>ou</p>
-   <p>Formule héritée : Planifier</p></td> 
+   <p>Formule actuelle : Formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -62,7 +62,7 @@ Vous pouvez ajouter d’autres types d’objet au formulaire afin de les joindre
 
 1. Cliquez sur **Forms personnalisée** dans le panneau de gauche.
 
-   Dans la vue qui s’affiche, vous pouvez passer en revue tous les formulaires personnalisés créés pour votre organisation. Vous pouvez également savoir qui a créé chaque formulaire, avec quel type d’objet il fonctionne et s’il est principal.
+   Dans la vue qui s’affiche, vous pouvez passer en revue tous les formulaires personnalisés créés pour votre organisation. Vous pouvez également savoir qui a créé chaque formulaire, avec quel type d’objet il fonctionne et s’il est actif.
 
 1. Sélectionnez le formulaire personnalisé auquel vous souhaitez ajouter d’autres types d’objets, puis cliquez sur **Modifier**.
 

@@ -3,20 +3,20 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront Proof
-description: Découvrez comment utiliser le BAT Workfront.
+title: "Bon à tirer Workfront : index de l’article"
+description: Découvrez comment utiliser le produit autonome Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 0%
 
 ---
 
-# Workfront Proof
+# Bon à tirer Workfront : index de l’article
 
 >[!IMPORTANT]
 >
@@ -31,6 +31,5 @@ Cette section contient les sous-sections suivantes :
 * [Notifications et rappels de BAT](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
 * [Alertes par email](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [Gestion des utilisateurs et des contacts dans [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-* [[!DNL Workfront Proof] mobile](../workfront-proof/wp-mobile/wp-mobile.md)
 * [[!DNL Workfront Proof] tech corner](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] intégrations](../workfront-proof/wp-integrations/wp-integrations.md)

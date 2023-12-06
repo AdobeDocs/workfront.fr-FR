@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,13 +56,13 @@ Pour afficher les informations de licence dans votre système :
 
    >[!NOTE]
    >
-   >Les licences de BAT sont disponibles uniquement pour les clients qui ont acheté le module complémentaire de BAT Workfront payant en plus de leur licence Workfront. Pour plus d’informations sur ce module complémentaire, voir [BAT Workfront](../../workfront-proof/workfront-proof.md).
+   >Les licences de BAT sont disponibles uniquement pour les clients qui ont acheté le module complémentaire de BAT Workfront payant en plus de leur licence Workfront. Pour plus d’informations sur ce module complémentaire, voir [Bon à tirer Workfront : index de l’article](../../workfront-proof/workfront-proof.md).
 
 1. (Conditionnel) Si le message s’affiche **Pour définir un maximum, vous devez ajouter un groupe d’accueil.**, ajoutez un groupe d’accueil dans votre système, comme expliqué dans la section . [Ajout ou suppression d’un groupe d’accueil sur la page Licences](#add-or-remove-a-home-group-to-the-licenses-page) dans cet article.
 
 ## Affichage des informations sur les licences des modules complémentaires Workfront
 
-Dans la capture d’écran ci-dessous, **5 sur 10 licences de BAT** indique que cette organisation dispose du module complémentaire Workfront Bon à tirer payant et qu’elle utilise actuellement 5 des 10 licences Workfront Bon à tirer qu’elle a achetées.
+Dans la capture d’écran ci-dessous, **5 sur 10 licences de BAT** indique que cette organisation dispose du module complémentaire Workfront Bon à tirer payant et utilise actuellement 5 des 10 licences Workfront Bon à tirer qu’elle a achetées.
 
 ![](assets/updated-licenses-page.png)
 
@@ -76,6 +76,7 @@ Pour plus d’informations sur les objectifs de Workfront, voir [Présentation d
 >[!NOTE]
 >
 >Workfront vous permet d’attribuer d’autres licences Workfront Goals que vous avez achetées. Cependant, lorsque vous attribuez plus de licences que ce que votre contrat avec les objectifs de Workfront autorise, un gestionnaire de compte Workfront vous contactera pour vous informer que vous avez dépassé votre numéro contractuel.
+>
 
 <!--
 If an organization has other paid add-on products, their license information also displays here. If the organization doesn't have any paid add-on products, nothing displays here. (Drafted this because not sure this is accurate: Scenario Planner is an add-on product and its licenses are not displayed there.)
@@ -84,10 +85,11 @@ If an organization has other paid add-on products, their license information als
 >[!TIP]
 >
 >Les utilisateurs n’ayant pas d’accès administrateur peuvent utiliser un rapport Groupe pour afficher le nombre de licences. Dans l&#39;onglet Rapport , créez un nouveau rapport de groupe et ajoutez les colonnes suivantes :>
->* Limite du type de licence : Limite de traitement
->* Limite du type de licence : Limite du planificateur
+>* Limite du type de licence : limite du traitement
+>* Limite de type de licence : limite du planificateur
 >
 >Pour en savoir plus sur la création d’un rapport, voir [Création d’un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>
 
 ## Affichage d’informations sur les allocations mensuelles de BAT et de décision de document
 
@@ -114,9 +116,8 @@ Si le message s’affiche **Pour définir un maximum, vous devez ajouter un grou
 >[!IMPORTANT]
 >
 >* Pour gérer efficacement les licences avec les groupes d’accueil, nous vous recommandons de configurer des groupes d’accueil spécifiques pour les unités opérationnelles avant de mettre à jour le nombre maximal de licences. Pour plus d’informations, voir [Présentation des groupes d’accueil](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
->* Vous pouvez ajouter uniquement des groupes de niveau supérieur en tant que groupes d’accueil, et non des sous-groupes. Si un sous-groupe est affecté à un utilisateur en tant que groupe d’accueil, sa licence est ajoutée au nombre de licences du groupe de niveau supérieur au-dessus de ce sous-groupe.
+>* Vous pouvez ajouter uniquement des groupes de niveau supérieur en tant que groupes d’accueil, et non des sous-groupes. Si un sous-groupe est affecté à un utilisateur comme groupe d’accueil, sa licence est ajoutée au nombre de licences du groupe de niveau supérieur au sous-groupe en question.
 >
-
 
 Pour ajouter ou supprimer un groupe d’accueil à la page Licences :
 
