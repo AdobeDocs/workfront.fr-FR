@@ -2,27 +2,27 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: Prise en main d’ [!UICONTROL Accueil]
-description: Il existe deux façons d’afficher votre travail dans la variable [!UICONTROL Accueil] , soit à partir de la zone [!UICONTROL Liste de tâches] ou le [!UICONTROL Calendrier].
+description: La variable [!UICONTROL Accueil] Zone est votre guichet unique pour trouver les tâches, les problèmes et les approbations qui vous ont été attribués. Il existe deux façons d’afficher votre travail dans la variable [!UICONTROL Accueil] , soit à partir de la zone [!UICONTROL Liste de tâches] ou le [!UICONTROL Calendrier].
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Prise en main d’ [!UICONTROL Accueil]
 
-Cet article présente un aperçu de la [!UICONTROL Accueil] area dans [!DNL Adobe Workfront]. Pour plus d’informations sur l’utilisation de la nouvelle [!UICONTROL Accueil], voir [Prise en main de la nouvelle page d’accueil dans Adobe Workfront](../new-home/get-started-with-new-home.md).
+Cet article présente un aperçu de la [!UICONTROL Accueil] area dans [!DNL Adobe Workfront]. Pour plus d’informations sur l’utilisation de la nouvelle [!UICONTROL Accueil], voir [Prise en main du nouvel accueil](../new-home/get-started-with-new-home.md).
 
 Il existe deux façons d’afficher votre travail dans la [!UICONTROL Accueil] area :
 
 * Dans la [!UICONTROL Liste de tâches]
 * Dans la [!UICONTROL Calendrier].
 
-## Liste de travail
+## [!UICONTROL Liste de tâches]
 
 Vous pouvez afficher toutes les tâches qui vous ont été affectées à un seul endroit, dans la [!UICONTROL Liste de tâches]:
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur l’utilisation de la variable [!UICONTROL Liste 
 * [Afficher les éléments dans le [!UICONTROL Liste de tâches] dans le [!UICONTROL Accueil] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Créez des éléments de travail à partir du [!UICONTROL Accueil] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
-## Calendrier
+## [!UICONTROL Calendrier]
 
 Vous pouvez visualiser votre travail en affichant le moment où les éléments de travail sont dus et vous pouvez bloquer le temps nécessaire pour les terminer, en examinant votre travail dans la [!UICONTROL Calendrier] dans le [!UICONTROL Accueil] area :
 
@@ -59,15 +59,15 @@ Pour plus d’informations sur l’utilisation du calendrier d’accueil, voir [
 
 ## Trouver votre travail
 
-La variable [!UICONTROL Accueil] Zone est votre guichet unique pour trouver les tâches, les problèmes et les approbations qui vous ont été attribués. Les options de filtrage et de tri intégrées à la variable [!UICONTROL Accueil] travaillent ensemble pour vous aider à travailler comme vous le souhaitez. Vous pouvez utiliser la variable [!UICONTROL Tri par] pour regrouper des éléments, puis utiliser le filtre pour vous concentrer sur le travail qui doit être terminé.
+La variable [!UICONTROL Accueil] Zone est votre guichet unique pour trouver les tâches, les problèmes et les approbations qui vous ont été attribués. Les options de filtrage, de regroupement et de tri fonctionnent ensemble pour vous aider à organiser vos tâches comme vous le souhaitez. Vous pouvez utiliser des regroupements pour regrouper des éléments, des filtres pour vous concentrer sur le travail qui doit être terminé et enfin, un tri pour répertorier les éléments dans l’ordre croissant ou décroissant de votre regroupement.
 
 >[!NOTE]
 >
 >Les options de filtrage et de tri sont stockées dans le navigateur. Si vous utilisez systématiquement le même navigateur sur le même ordinateur (et que vous n’effacez pas les données du site), les filtres et le tri ne changeront pas, mais si vous changez de navigateur ou d’ordinateur, les filtres et le tri seront différents.
 
-### Regroupez des éléments de travail similaires avec le[!UICONTROL Group by]Option &#39;
+### Regrouper des tâches similaires avec des regroupements
 
-La variable [!UICONTROL Tri par] vous permet de regrouper des éléments comme dans la liste de travail. Vous pouvez trier en procédant comme suit :
+Vous pouvez utiliser des regroupements pour afficher comme des éléments sous un en-tête commun dans la liste de travail. Vous pouvez regrouper des éléments en procédant comme suit :
 
 * [!UICONTROL Fin planifiée]
 * [!UICONTROL Démarrage planifié]
@@ -93,21 +93,17 @@ Vous trouverez ci-dessous des exemples de filtrage des éléments que vous affic
 
   Par exemple, vous pouvez sélectionner [!UICONTROL Problèmes] pour afficher tous les problèmes dans tous les états ([!UICONTROL Utilisation de] ou [!UICONTROL Demandé]), ou [!UICONTROL Approbations] pour afficher tous les éléments de travail, les demandes d’accès, les feuilles de temps, les documents et les validations de BAT.
 
-* Filtrage par état uniquement.
-
-  Par exemple, vous pouvez sélectionner la variable [!UICONTROL Terminé] filtre pour afficher les tâches et les problèmes qui ont été terminés. Cela inclut les Tâches personnelles, mais ne comprend pas les validations.
-
 Pour plus d’informations sur l’utilisation des filtres, voir [Afficher les éléments dans le [!UICONTROL Liste de tâches] dans le [!UICONTROL Accueil] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
 ### Accéder au travail assigné à votre équipe
 
-La variable [!UICONTROL Accueil] a un groupement permanent dédié aux requêtes de l&#39;équipe avec un lien direct vers la page des requêtes de l&#39;équipe. Utilisez ce regroupement pour afficher les demandes d’accès pour l’une des équipes que vous utilisez.
+La variable [!UICONTROL Accueil] a un groupement permanent ([!UICONTROL Requêtes d’équipe]) qui affiche les tâches et les problèmes affectés à vos équipes. Les équipes s’affichent dans cette section. Cliquez sur le nom d’une équipe pour ouvrir la page Demandes d’équipe de cette équipe.
 
 >[!NOTE]
 >
->La variable [!UICONTROL Filtrer] et [!UICONTROL Tri par] Les options n’affectent pas la variable [!UICONTROL Requêtes d’équipe] regroupement. Ce regroupement est visible tant que du travail est assigné à votre équipe.
+>Les options de filtrage et de tri n’affectent pas la variable [!UICONTROL Requêtes d’équipe] regroupement. Ce regroupement est visible tant que du travail est assigné à votre équipe.
 
 Pour plus d’informations sur l’accès aux requêtes de l’équipe, voir l’article [[!UICONTROL Gérer] requêtes de travail et d’équipe dans la variable [!UICONTROL Accueil] area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
@@ -115,19 +111,19 @@ Pour plus d’informations sur l’accès aux requêtes de l’équipe, voir l�
 
 ### Surveiller les travaux que vous avez envoyés
 
-Gardez une trace du travail que vous avez soumis pour approbation directement depuis [!UICONTROL Liste de tâches]. Vous pouvez rappeler à l’approbateur le travail qui doit être approuvé. Vous pouvez également rappeler l’approbation si nécessaire.
+Gardez une trace du travail que vous avez soumis pour approbation directement depuis [!UICONTROL Liste de tâches]. Il existe un regroupement permanent pour [!UICONTROL Validations que j’ai envoyées] lorsque vous sélectionnez l’affichage [!UICONTROL Approbations] dans le [!UICONTROL Liste de tâches]. Vous pouvez rappeler à l’approbateur le travail qui doit être approuvé. Vous pouvez également rappeler l’approbation si nécessaire.
 
 >[!NOTE]
 >
->La variable [!UICONTROL Filtrer] et [!UICONTROL Tri par] Les options n’affectent pas la variable [!UICONTROL Validations que j’ai envoyées] regroupement. Ce groupement est visible tant que le travail est en attente d&#39;approbation.
-
-
+>Le filtre et le tri n’affectent pas la variable [!UICONTROL Validations que j’ai envoyées] regroupement. Ce groupement est visible tant que le travail est en attente d&#39;approbation.
+>
+>Le nombre de validations dans la variable [!UICONTROL Approbations] n’affiche pas le nombre d’éléments que vous avez envoyés pour approbation. La variable [!UICONTROL Approbations] filtre affiche uniquement les éléments en attente de votre approbation.
 
 ![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
 
 ## Définir la priorité de ce qui est important pour vous
 
-La variable [!UICONTROL Liste de tâches] vous permet de faire surface et de classer par priorité les travaux importants pour vous avec l’ [!UICONTROL Ma priorité de tri par] . Vous pouvez ajouter jusqu’à 20 éléments à votre [!UICONTROL Ma priorité] liste. Utilisez la variable [!UICONTROL Plus] pour ajouter des tâches à votre liste de priorités.
+La variable [!UICONTROL Liste de tâches] vous permet de faire surface et de classer par priorité les travaux importants pour vous avec l’ [!UICONTROL Ma priorité] regroupement. Vous pouvez ajouter jusqu’à 20 éléments à votre [!UICONTROL Ma priorité] liste.
 
 >[!NOTE]
 >
@@ -139,34 +135,31 @@ Pour plus d’informations sur l’utilisation de [!UICONTROL Ma priorité], voi
 
 ## Obtenir le résultat
 
-Utilisez le panneau de droite dans [!UICONTROL Accueil] pour mettre à jour et terminer votre travail.
+Après avoir cliqué sur le nom d’un élément dans la variable [!UICONTROL Liste de tâches], utilisez le panneau de droite dans [!UICONTROL Accueil] pour mettre à jour et terminer votre travail.
 
 ### Travailler dans un espace personnalisé
 
-Votre [!DNL Adobe Workfront] L’administrateur peut ajouter jusqu’à 16 champs personnalisés pour faciliter la recherche et la mise à jour des informations dont vous avez besoin. La plupart des champs sont modifiables. Il n’est donc pas nécessaire d’accéder à dans l’élément de travail.
+Votre [!DNL Workfront] l’administrateur peut ajouter jusqu’à 16 champs personnalisés aux éléments dans la variable [!UICONTROL Liste de tâches]pour faciliter la recherche et la mise à jour des informations dont vous avez besoin. La plupart des champs étant modifiables, il n’est pas nécessaire de naviguer dans l’élément de travail.
 
-Pour mettre à jour l&#39;un des champs de cette zone, cliquez simplement sur le champ .
+Pour mettre à jour l’un des champs de cette zone, cliquez simplement sur un champ. Si le champ est modifiable, vous pouvez le modifier dans le panneau de droite.
 
 >[!NOTE]
 >
->Vous ne pouvez pas mettre à jour la variable [!UICONTROL Date de validation] dans cette zone.
+>Vous ne pouvez pas mettre à jour la variable [!UICONTROL Date de validation] si ce champ est ajouté à un élément de travail à partir d’un modèle de mise en page.
 
 ![](assets/16-fields-home-350x137.png)
 
-### Mise à jour des collègues avec des informations importantes
+### Mettre à jour les autres avec des informations importantes
 
-Communiquez rapidement et efficacement avec les collègues du [!UICONTROL Accueil] zone. Vous posez des questions à vos collègues, vous les informez des mises à jour récentes ou vous répondez à des commentaires directs. Vous pouvez, en outre, mettre à jour les progrès réalisés en procédant comme suit :
+Communiquez rapidement et efficacement avec les autres utilisateurs du [!UICONTROL Accueil] zone. En utilisant la zone de commentaire d’une tâche, vous pouvez poser des questions, informer d’autres personnes des mises à jour récentes ou répondre aux commentaires directs de la [!UICONTROL Accueil] zone. Vous pouvez, en outre, mettre à jour les progrès réalisés en procédant comme suit :
 
-* Mise à jour de la [!UICONTROL Date de validation]
+* Mise à jour de la [!UICONTROL Date de validation] dans la zone de commentaire
 
-  <!--
-  <note type="note">
-  This is the only place you can update the Commit Date in Home.
-  <br>
-  </note>
-  -->
+  >[!NOTE]
+  >
+  >   Il s’agit du seul endroit où vous pouvez mettre à jour la date de validation dans la page d’accueil.
 
-* Reporting sur ce que vous ressentez des choses
+* Création de rapports sur vos impressions en ajoutant un commentaire ou en mettant à jour la variable [!UICONTROL Condition] d’un élément
 * Mise à jour de la barre de pourcentage complète
 
 Pour plus d’informations sur la communication dans la variable [!UICONTROL Accueil] zone, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

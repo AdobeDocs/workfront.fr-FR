@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,29 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Semaine du 4 décembre 2023
+
+### Copiez et collez des informations d’un champ vers un autre dans la vue Tableau Maestro pour les champs d’enregistrement de type Personnes et liés.
+
+Aperçu et production : 5 décembre 2023
+
+Vous pouvez désormais copier et coller des informations d’un champ vers un autre de même type dans une vue de tableau de type Enregistrement Maestro. Cette fonctionnalité est désormais prise en charge pour les types de champs suivants :
+
+* Personnes
+* Champs d’enregistrement liés
+
+Tenez compte des points suivants :
+
+* La copie et le collage de valeurs de champ d’un champ à un autre sont pris en charge pour les champs qui affichent plusieurs valeurs.
+
+* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ Maestro du même type que le champ dans lequel vous collez les informations.
+
+* Vous ne pouvez pas copier et coller des valeurs de champ pour les champs qui s’affichent dans la zone Détails d’un enregistrement.
+
+Pour plus d’informations, voir [Modifier des enregistrements](../maestro/records/edit-records.md).
+
+Pour plus d’informations sur les champs liés, voir [Connexion des types d’enregistrement](../maestro/architecture/connect-record-types.md).
 
 ## Semaine du 27 novembre 2023
 

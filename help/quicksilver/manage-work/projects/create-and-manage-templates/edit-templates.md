@@ -6,10 +6,10 @@ description: Vous pouvez modifier des modèles de projet pour prendre en compte 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dcdcf21903d0fceb3c05039689bb87ae4c834d07
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '4704'
-ht-degree: 3%
+source-wordcount: '4775'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <ul> 
      <li> <p>Attribuez des autorisations à un modèle pour le modifier dans l’onglet Détails du modèle .</p> </li> 
      <li> <p>Gérer les autorisations d’un modèle pour le modifier dans la zone Modifier le modèle</p> </li> 
-    </ul> <p> Pour plus d’informations sur les autorisations de modèle, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Partage d’un modèle</a>. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+    </ul> <p> Pour plus d’informations sur les autorisations de modèle, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Partager un modèle</a>. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -566,26 +566,27 @@ By editing issue settings, you can prevent users from adding issues inline in th
    * Vue d’ensemble
    * Formulaires personnalisés
 
-   Les noms des formulaires douaniers s’affichent uniquement s’ils sont associés à des formulaires personnalisés.
+   Les noms des formulaires douaniers ne s’affichent que s’il existe des formulaires personnalisés associés à l’objet.
 
    * Finances
+
    >[!TIP]
    >
    >Pour plus d’informations sur tous les champs qui s’affichent dans la zone Détails, continuez à modifier tous les champs à l’aide de la zone Modifier le modèle ci-dessous.
 
 1. (Conditionnel) Pour modifier toutes les informations relatives au modèle, cliquez sur le bouton **Plus** menu ![](assets/qs-more-icon-on-an-object.png) en regard du nom du modèle, puis cliquez sur **Modifier**.
 
-   Le **Modifier le modèle** s’ouvre. Les sections de cette zone contiennent les mêmes champs que ceux disponibles dans la section Détails du modèle .
+   La variable **Modifier le modèle** s’ouvre. Les sections de cette zone contiennent les mêmes champs que ceux disponibles dans la section Détails du modèle .
 
 1. Tenez compte de la modification des informations dans l’une des sections suivantes :
 
-   * [Nom de modèle](#template-name)
-   * [Vue d’ensemble](#overview-preview)
-   * [Finances](#finance-preview)
+   * [Nom du modèle](#template-name)
+   * [Présentation](#overview-preview)
+   * [Finance](#finance-preview)
    * [Formulaires personnalisés](#custom-forms-preview)
    * [Paramètres du projet](#project-settings)
    * [Paramètres des tâches](#task-settings)
-   * [Paramètres de l&#39;événement](#issue-settings)
+   * [Paramètres de problème](#issue-settings)
    * [Accès](#access-preview)
 
 
@@ -634,7 +635,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td>Indiquez un lien Web correspondant aux informations sur ce modèle.</td> 
        </tr>
        <tr> 
-       <td role="rowheader"><strong>Type de statut</strong></td> 
+       <td role="rowheader"><strong>Type de condition</strong></td> 
        <td><p>Effectuez une sélection parmi les types de condition suivants :</p> 
          <ul> 
          <li><strong>Manuel :</strong> Le propriétaire du projet définit manuellement la condition du projet. <strong></strong></li> 
@@ -646,18 +647,18 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td role="rowheader"><strong>Mode horaire</strong></td> 
          <td><p>Indiquez si le projet utilisant ce modèle est planifié à partir du <strong>Date de début</strong>, ou depuis le <strong>Date d’achèvement</strong>. Cette sélection détermine les dates prévues des futures tâches du projet à l’aide de ce modèle. </p><p>Sélectionnez l’une des options suivantes : </p> 
        <ul> 
-       <li><p><strong>Planifier à partir de la date de début</strong>: La Date de début du modèle est en fait le Jour de début. Lorsque vous planifiez un modèle à partir de la date de début, Adobe Workfront calcule le jour de fin du modèle en fonction de la durée de toutes les tâches du modèle. Le Jour de début du modèle devient la Date de début planifiée du futur projet.</p></li> 
-       <li><p><strong>Planifier à partir de la date de fin</strong>: La date de fin du modèle correspond en fait au jour de fin. Lorsque vous planifiez un modèle à partir de la date de fin, Workfront calcule le jour de début du modèle en fonction de la durée de toutes les tâches du modèle. Le jour d’achèvement du modèle devient la Date d’achèvement planifiée du futur projet. </p></li> 
+       <li><p><strong>Planifier à partir de la date de début</strong>: la Date de début du modèle est en fait le Jour de début. Lorsque vous planifiez un modèle à partir de la date de début, Adobe Workfront calcule le jour de fin du modèle en fonction de la durée de toutes les tâches du modèle. Le Jour de début du modèle devient la Date de début planifiée du futur projet.</p></li> 
+       <li><p><strong>Planifier à partir de la date de fin</strong>: la date de fin du modèle correspond en fait au jour de fin. Lorsque vous planifiez un modèle à partir de la date de fin, Workfront calcule le jour de début du modèle en fonction de la durée de toutes les tâches du modèle. Le jour d’achèvement du modèle devient la Date d’achèvement planifiée du futur projet. </p></li> 
        </ul><p>Pour plus d’informations sur les jours de début et de fin des tâches de modèle, voir <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Présentation des jours de début et de fin dans un modèle</a>. </p><p>Le paramètre Planifier à partir des modèles est similaire à celui des projets. L’administrateur de Workfront sélectionne le paramètre de planification à partir de par défaut pour les projets de votre système. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p></td> 
        </tr>
 
    <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td><p>Spécifiez un Portfolio pour les projets créés à partir de ce modèle. Vous devez d’abord créer un Portfolio avant qu’il ne s’affiche dans la liste déroulante. </p><p>Seuls les principaux portefeuilles s’affichent dans la liste. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Création d’un portfolio </a>.</p></td> 
+         <td><p>Spécifiez un Portfolio pour les projets créés à partir de ce modèle. Vous devez d’abord créer un Portfolio avant qu’il ne s’affiche dans la liste déroulante. </p><p>Seuls les portefeuilles actifs s’affichent dans la liste. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Création d’un portfolio </a>.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Programme</strong></td> 
-         <td><p>Si vous avez sélectionné un Portfolio pour le modèle, indiquez un <strong>Programme</strong> pour le futur projet. Certains Portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes principaux s’affichent dans la liste.</p><p>Pour plus d’informations sur la création de programmes, voir <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p></td> 
+         <td><p>Si vous avez sélectionné un Portfolio pour le modèle, indiquez un <strong>Programme</strong> pour le futur projet. Certains Portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes actifs s’affichent dans la liste.</p><p>Pour plus d’informations sur la création de programmes, voir <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>Groupe</strong></td> 
@@ -671,20 +672,21 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Entreprise</strong></td> 
-         <td><p>Indiquez la Société que vous souhaitez associer au modèle. Seules les principales entreprises apparaissent dans la liste.</p></td> 
+         <td><p>Indiquez la Société que vous souhaitez associer au modèle. Seules les entreprises actives s’affichent dans la liste.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Propriétaire du modèle</strong></td> 
-         <td><p>L’utilisateur désigné comme propriétaire de modèle doit être un utilisateur principal de Workfront. </p><p>Tenez compte des points suivants concernant l’utilisateur désigné comme propriétaire du modèle : </p> 
+         <td><p>L’utilisateur désigné comme propriétaire des modèles doit être un utilisateur actif Workfront. </p><p>Tenez compte des points suivants concernant l’utilisateur désigné comme propriétaire du modèle : </p> 
          <ul> 
          <li>Les autorisations Gérer leur sont automatiquement accordées au modèle. </li> 
          <li>Ils sont ajoutés à l’équipe du projet et reçoivent automatiquement les autorisations de gestion du projet créé à partir du modèle. </li> 
          <li>Ils deviennent le propriétaire du projet lorsque le projet est créé à partir de ce modèle. </li> 
+         <li> Si l’utilisateur désigné comme propriétaire des modèles dispose d’un accès limité aux modèles ou aux projets à partir de son niveau d’accès, ses autorisations Gérer sur le modèle et sur les projets seront limitées. Par exemple, s’ils disposent uniquement de l’accès Affichage pour les modèles ou les projets dans leur niveau d’accès, ils recevront automatiquement l’autorisation Affichage pour le modèle et le projet lorsqu’ils seront désignés comme propriétaire de modèle.</li>
          </ul></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Sponsor du modèle</strong></td> 
-         <td><p>L’utilisateur spécifié dans ce champ devient le parrain du projet, lorsque le modèle est ajouté au projet. Cet utilisateur est ajouté à l’équipe du projet et se voit attribuer automatiquement des autorisations d’affichage sur le projet. L’utilisateur désigné comme parrain de modèle doit être un utilisateur principal de Workfront. </p></td> 
+         <td><p>L’utilisateur spécifié dans ce champ devient le parrain du projet, lorsque le modèle est ajouté au projet. Cet utilisateur est ajouté à l’équipe du projet et se voit attribuer automatiquement des autorisations d’affichage sur le projet. L’utilisateur désigné comme parrain de modèle doit être un utilisateur actif Workfront. </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Gestionnaire des ressources</strong></td> 
@@ -720,7 +722,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <td><p>Spécifiez un Budget pour les projets créés à partir de ce modèle.</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>Méthode d'indice de performance</strong></td> 
+         <td role="rowheader"><strong>Méthode d’indice de performance</strong></td> 
          <td><p>Choisissez la manière dont Workfront calculera les mesures de la valeur obtenue du futur projet. Choisissez l’une des options suivantes :
          <ul>
          <li>Basé sur les heures</li>
@@ -765,7 +767,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Cliquez dans le **Ajouter un formulaire personnalisé** et sélectionnez le ou les formulaires personnalisés à associer au modèle. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ.
 
-   Seuls les principaux formulaires personnalisés s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Seuls les formulaires personnalisés actifs s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
    Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un modèle.
 
@@ -795,23 +797,23 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <col> 
        <tbody> 
        <tr> 
-       <td role="rowheader"><strong>Chemin jalonné</strong> </td> 
-       <td> <p>Sélectionnez un Chemin d’accès Milestone pour le modèle. Seuls les principaux chemins de jalon s’affichent dans la liste.<br>Pour plus d’informations sur les chemins d’accès Milestone, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Création d’un chemin de jalon</a>.</p> </td> 
+       <td role="rowheader"><strong>Chemin Milestone</strong> </td> 
+       <td> <p>Sélectionnez un Chemin d’accès Milestone pour le modèle. Seuls les chemins de jalon actifs s’affichent dans la liste.<br>Pour plus d’informations sur les chemins d’accès Milestone, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Création d’un chemin de jalon</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Mode d'achèvement</strong> </td> 
+         <td role="rowheader"><strong>Mode d’achèvement</strong> </td> 
          <td> <p>Contrôle la manière dont le futur projet sera marqué comme terminé. <br>Sélectionnez l’une des options suivantes :</p> 
          <ul> 
-         <li> <p><strong>Automatique</strong>: Le projet est marqué Terminé lorsque toutes les tâches et tous les problèmes sont terminés.</p> </li> 
-         <li> <p><strong>Manuel</strong>: Vous devez sélectionner manuellement l’état Terminé du projet, une fois toutes les tâches et tous les problèmes terminés. </p> </li> 
+         <li> <p><strong>Automatique</strong>: le projet est marqué Terminé lorsque toutes les tâches et tous les problèmes sont terminés.</p> </li> 
+         <li> <p><strong>Manuel</strong>: lorsque toutes les tâches et tous les problèmes sont terminés, vous devez sélectionner manuellement l’état Terminé du projet. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Mode d'achèvement du sommaire</strong> </td> 
+       <td role="rowheader"><strong>Mode d’achèvement du résumé</strong> </td> 
        <td> <p>Contrôle la manière dont les tâches parentes sur le futur projet sont marquées comme étant terminées. <br>Sélectionnez l’une des options suivantes :</p> 
        <ul> 
-       <li> <p><strong>Automatique</strong>: Les tâches parentes sont marquées comme Terminé et elles mettent à jour leur pourcentage automatiquement, à mesure que les tâches enfants sont terminées et que le pourcentage d’enfants terminés est mis à jour. </p> </li> 
-       <li> <p><strong>Manuel</strong>: Vous devez mettre à jour manuellement le pourcentage terminé et l’état des tâches parents, indépendamment des modifications apportées aux tâches enfants. </p> </li> 
+       <li> <p><strong>Automatique</strong>: les tâches parentes sont marquées comme Terminé et elles mettent à jour leur pourcentage automatiquement, à mesure que les tâches enfants sont terminées et que le pourcentage d’enfants terminés est mis à jour. </p> </li> 
+       <li> <p><strong>Manuel</strong>: vous devez mettre à jour manuellement le pourcentage terminé et l’état des tâches parents, indépendamment des modifications apportées aux tâches enfants. </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
@@ -827,16 +829,16 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul> 
          </div> <p>Sélectionnez l’une des options suivantes :<br></p> 
          <ul> 
-         <li> <p><strong>Automatique et Activé</strong> (Paramètre par défaut) : La chronologie du projet à venir est mise à jour chaque fois qu’une modification se produit dans le projet ou dans un autre projet dont la chronologie dépend (En cas de modification). La chronologie du projet est également mise à jour chaque nuit (automatique).<br>Il s’agit du paramètre recommandé pour ce champ, car il garantit que la chronologie du projet est toujours à jour.<br>Lorsque vous effectuez une action sur une tâche ou un projet qui déclenche un nouveau calcul de frise chronologique, toutes les dates disponibles sont immédiatement affichées, ce qui vous permet de continuer à travailler. Sur les projets comportant plus de 100 tâches, les dates nécessitant des nouveaux calculs plus longs s’affichent brièvement comme point d’interrogation (entre 1 et 5 secondes, ou jusqu’à une minute pour les projets volumineux). Cela indique que le recalcul n'est pas encore terminé et que les dates peuvent être modifiées.<br></p> </li> 
+         <li> <p><strong>Automatique et Activé</strong> (Paramètre par défaut) : la chronologie du futur projet est mise à jour chaque fois qu’une modification se produit dans le projet ou dans un autre projet dont dépend la chronologie (Activé). La chronologie du projet est également mise à jour chaque nuit (automatique).<br>Il s’agit du paramètre recommandé pour ce champ, car il garantit que la chronologie du projet est toujours à jour.<br>Lorsque vous effectuez une action sur une tâche ou un projet qui déclenche un nouveau calcul de frise chronologique, toutes les dates disponibles sont immédiatement affichées, ce qui vous permet de continuer à travailler. Sur les projets comportant plus de 100 tâches, les dates nécessitant des nouveaux calculs plus longs s’affichent brièvement comme point d’interrogation (entre 1 et 5 secondes, ou jusqu’à une minute pour les projets volumineux). Cela indique que le recalcul n'est pas encore terminé et que les dates peuvent être modifiées.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Modifier uniquement</strong>: La chronologie du projet est mise à jour chaque fois qu’une modification se produit dans le projet ou dans un autre projet dont elle dépend. Vous pouvez sélectionner cette option si des modifications se produisent rarement dans le projet ou dans d’autres projets dont dépend la chronologie.<br></p> </li> 
+         <li> <p><strong>Modifier uniquement</strong>: la chronologie du projet est mise à jour chaque fois qu’une modification se produit dans le projet ou dans un autre projet dont elle dépend. Vous pouvez sélectionner cette option si des modifications se produisent rarement dans le projet ou dans d’autres projets dont dépend la chronologie.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Automatique uniquement</strong>: La chronologie du projet est actualisée chaque nuit. elle n’est pas mise à jour immédiatement après l’apport de modifications.<br>Vous pouvez sélectionner cette option si de nombreuses modifications se produisent chaque jour dans le projet ou dans d’autres projets dont dépend la chronologie. Sachez toutefois que vous avez choisi ce paramètre, car le projet ne se mettra pas à jour en même temps que les modifications sont effectuées.<br></p> </li> 
+         <li> <p><strong>Automatique uniquement</strong>: la chronologie du projet est mise à jour chaque nuit ; elle n’est pas mise à jour immédiatement une fois les modifications effectuées.<br>Vous pouvez sélectionner cette option si de nombreuses modifications se produisent chaque jour dans le projet ou dans d’autres projets dont dépend la chronologie. Sachez toutefois que vous avez choisi ce paramètre, car le projet ne se mettra pas à jour en même temps que les modifications sont effectuées.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Manuel uniquement</strong>: La chronologie du projet n’est mise à jour que lorsque vous sélectionnez l’option Recalculer les chronologies, comme décrit dans la section <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculer les calendriers du projet</a>.<br></p> </li> 
+         <li> <p><strong>Manuel uniquement</strong>: la chronologie du projet est mise à jour uniquement lorsque vous sélectionnez l’option Recalculer les chronologies, comme décrit dans la section <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculer les calendriers du projet</a>.<br></p> </li> 
          </ul> <p>Vous pouvez sélectionner cette option si vous apportez simultanément de nombreuses modifications au projet et si vous souhaitez que le recalcul de la chronologie se produise une fois toutes les modifications effectuées (plutôt qu’après chaque modification individuelle).</p> </td> 
        </tr> 
        <tr> 
@@ -844,15 +846,15 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td> <p>Sélectionnez un planning pour votre modèle. Il deviendra le planning du projet créé à partir de ce modèle. Il doit s’agir du même planning que celui attribué à la plupart des personnes qui travaillent sur le projet. Vous devez créer un planning avant de pouvoir l'affecter à un modèle.<br>Pour plus d’informations sur la création de plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Création d’un planning</a>. <br>Si vous n’avez pas créé de plannings personnalisés dans votre système, la planification par défaut est sélectionnée. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Congés de l'utilisateur</strong> </td> 
-         <td> <p>Détermine si le délai de désactivation du cessionnaire Principal d’une tâche ajuste les dates planifiées de la tâche. Lorsque vous joignez le modèle à un projet existant et que le paramètre de ce champ est différent de celui du projet, le paramètre du projet reste inchangé. L’option par défaut de ce paramètre pour un nouveau modèle est identique à la préférence de projet au niveau du système. </p> <p>Pour plus d’informations sur les préférences du projet au niveau du système, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p> <p>Pour plus d’informations sur l’impact de ce paramètre sur les dates de tâche d’un projet, voir <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modification de projets</a>.<br>Sélectionnez l’une des options suivantes :<br></p> 
+         <td role="rowheader"><strong>Heure de désactivation de l’utilisateur</strong> </td> 
+         <td> <p>Détermine si le délai de désactivation du cessionnaire Principal d’une tâche ajuste les dates planifiées de la tâche. Lorsque vous joignez le modèle à un projet existant et que le paramètre de ce champ est différent de celui du projet, le paramètre du projet reste inchangé. L’option par défaut de ce paramètre pour un nouveau modèle est la même que la préférence de projet au niveau du système. </p> <p>Pour plus d’informations sur les préférences du projet au niveau du système, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>. </p> <p>Pour plus d’informations sur l’impact de ce paramètre sur les dates de tâche d’un projet, voir <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modification de projets</a>.<br>Sélectionnez l’une des options suivantes :<br></p> 
          <ul> 
-         <li> <p><strong>Tenir compte du temps d’arrêt de l’utilisateur dans les durées de tâche</strong>: Lorsque vous sélectionnez cette option, les dates planifiées des tâches sur le projet créé à partir de ce modèle s’ajustent en fonction du moment de désactivation de la personne désignée Principal de la tâche, si le temps de désactivation survient pendant la durée de la tâche. </p> </li> 
-         <li> <p><strong>Ignorer le temps d’arrêt des utilisateurs dans les durées de tâche</strong>: Lorsque vous sélectionnez cette option, les dates planifiées des tâches sur le projet créé à partir de ce modèle restent comme initialement prévues, même si le cessionnaire Principal de la tâche a expiré pendant la durée de la tâche. </p> </li> 
+         <li> <p><strong>Tenir compte du temps d’arrêt de l’utilisateur dans les durées de tâche</strong>: lorsque vous sélectionnez cette option, les dates planifiées des tâches sur le projet créé à partir de ce modèle s’ajustent en fonction de la date de désactivation du Principal cessionnaire de la tâche, si la durée de la tâche est décalée. </p> </li> 
+         <li> <p><strong>Ignorer le temps d’arrêt des utilisateurs dans les durées de tâche</strong>: lorsque vous sélectionnez cette option, les dates planifiées des tâches sur le projet créé à partir de ce modèle restent inchangées, même si le responsable Principal de la tâche a expiré pendant la durée de la tâche. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Mode de nivellement des ressources</strong> </td> 
+         <td role="rowheader"><strong>Mode de niveau des ressources</strong> </td> 
          <td> <p>Sélectionnez l’une des options suivantes :<br></p> 
          <ul> 
          <li> <p><strong>Manuel</strong>: vous devez mettre à niveau manuellement vos ressources sur le projet créé à partir de ce modèle (il s’agit du paramètre par défaut).</p> </li> 
@@ -865,8 +867,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <ul> 
          <li> <p><strong>Très faible</strong> </p> </li> 
          <li> <p><strong>Faible</strong> </p> </li> 
-         <li> <p><strong>Moyen</strong> </p> </li> 
-         <li> <p><strong>Élevé</strong> </p> </li> 
+         <li> <p><strong>Volume moyen</strong> </p> </li> 
+         <li> <p><strong>Élevée</strong> </p> </li> 
          <li> <p><strong>Très élevé</strong> </p> </li> 
          </ul> </td> 
        </tr> 
@@ -877,14 +879,14 @@ By editing issue settings, you can prevent users from adding issues inline in th
    Lorsque vous modifiez des modèles en bloc, seuls les pools de ressources communs à tous les modèles sélectionnés apparaissent dans ce champ. Si les modèles sélectionnés ne comportent aucun pool de ressources partagées, ce champ sera vide. Les pools de ressources que vous spécifiez ici remplaceront les pools de ressources individuels des modèles.</p> </p> </td>
    </tr>
        <tr> 
-         <td role="rowheader"><strong>Filtrer les types d'heures</strong> </td> 
-         <td> <p>Tenez compte des points suivants :</p> <p>Sélectionner <strong>Non</strong> pour rendre tous les types d’heures spécifiques au projet disponibles sur le futur projet. (Il s’agit de la sélection par défaut)</p> <p>Ou</p> <p>Sélectionner <strong>Oui</strong> pour rendre disponible uniquement un sous-ensemble des types d’heures spécifiques au projet dans le futur projet, sélectionnez les types d’heures à rendre disponibles. (Maintenez la touche Maj enfoncée pour sélectionner plusieurs types d’heures.)</p> <p>Si vous sélectionnez cette option, seuls les types d’heures que vous sélectionnez sont disponibles lors de la journalisation des heures sur le projet (ou sur les tâches et problèmes dans le projet). Vous devez sélectionner au moins une heure ; si vous sélectionnez cette option et que vous ne sélectionnez aucun type d’heure, tous les types d’heure sont disponibles sur le projet.</p> <p>Les mêmes sélections de type heure doivent être effectuées au niveau de chaque utilisateur pour que l’utilisateur puisse voir ces options de type heure sur le projet. </p> <p>Pour plus d’informations sur la définition des types d’heures au niveau de l’utilisateur, voir la section <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Temps de connexion</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Temps de connexion</a>.</p> </td> 
+         <td role="rowheader"><strong>Type d’heures de filtre</strong> </td> 
+         <td> <p>Tenez compte des points suivants :</p> <p>Sélectionner <strong>Non</strong> pour rendre tous les types d’heures spécifiques au projet disponibles sur le futur projet. (Il s’agit de la sélection par défaut)</p> <p>Ou</p> <p>Sélectionner <strong>Oui</strong> pour rendre disponible uniquement un sous-ensemble des types d’heures spécifiques au projet dans le futur projet, sélectionnez les types d’heures à rendre disponibles. (Maintenez la touche Maj enfoncée pour sélectionner plusieurs types d’heures.)</p> <p>Si vous sélectionnez cette option, seuls les types d’heures que vous sélectionnez sont disponibles lors de la journalisation des heures sur le projet (ou sur les tâches et problèmes dans le projet). Vous devez sélectionner au moins un type d’heure. Si vous sélectionnez cette option et que vous ne sélectionnez aucun type d’heure, tous les types d’heure sont disponibles sur le projet.</p> <p>Les mêmes sélections de type heure doivent être effectuées au niveau de chaque utilisateur pour que l’utilisateur puisse voir ces options de type heure sur le projet. </p> <p>Pour plus d’informations sur la définition des types d’heures au niveau de l’utilisateur, voir la section <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Temps de connexion</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Temps de connexion</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Processus d'approbation</strong> </td> 
+         <td role="rowheader"><strong>Processus de validation</strong> </td> 
          <td> <p>Sélectionnez le processus de validation que vous souhaitez associer au modèle. L’administrateur Workfront ou un utilisateur disposant d’un accès administratif aux processus d’approbation doit définir des processus d’approbation de projet au niveau du système ou du groupe avant de pouvoir les associer à un modèle. Pour plus d’informations sur la création de processus de validation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les tâches</a>.</p> <p>Tenez compte des points suivants lors de l’ajout de processus de validation : </p> 
          <ul> 
-         <li>Seuls les principaux processus de validation s'affichent dans la liste. </li> 
+         <li>Seuls les processus de validation actifs s'affichent dans la liste. </li> 
          <li> <p>Les processus de validation à l’échelle du système et spécifiques aux groupes s’affichent dans la liste. Un processus de validation associé à un groupe autre que celui du modèle ne s'affiche pas dans la liste.</p> <p><b>IMPORTANT</b>
 
    Si le groupe associé au modèle change, le processus de validation spécifique au groupe devient un processus de validation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?</a>. </p> </li>
@@ -920,16 +922,16 @@ Pour plus d’informations sur l’impact de ces paramètres sur la création de
 
    ![](assets/edit-template-box-tax-settings-section.png)
 
-1. Dans le **Processus d’approbation par défaut de la tâche** sélectionnez le processus d’approbation à associer à toutes les nouvelles tâches lorsque vous les ajoutez à un projet créé à partir de ce modèle. Vous devez créer un processus d’approbation pour les tâches avant de pouvoir l’associer à des tâches. Seuls les principaux processus de validation s&#39;affichent dans la liste. Pour plus d’informations sur la création de processus d’approbation, voir [Création de processus de validation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. Dans le **Task Default Custom Forms** sélectionnez le ou les formulaires personnalisés à associer à toutes les nouvelles tâches lorsque vous les ajoutez à un projet créé à partir de ce modèle. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un Forms personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
+1. Dans le **Processus d’approbation par défaut de la tâche** sélectionnez le processus d’approbation à associer à toutes les nouvelles tâches lorsque vous les ajoutez à un projet créé à partir de ce modèle. Vous devez créer un processus d’approbation pour les tâches avant de pouvoir l’associer à des tâches. Seuls les processus de validation actifs s&#39;affichent dans la liste. Pour plus d’informations sur la création de processus d’approbation, voir [Création de processus de validation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. Dans le **Task Default Custom Forms** sélectionnez le ou les formulaires personnalisés à associer à toutes les nouvelles tâches lorsque vous les ajoutez à un projet créé à partir de ce modèle. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les formulaires personnalisés actifs s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un Forms personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
 1. (Facultatif) Sélectionnez **Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche** si vous souhaitez activer la gestion de l’effort de tâche en utilisant l’effort de travail au lieu des heures planifiées dans le projet créé à partir du modèle.
 1. (Conditionnel et facultatif) Si vous avez sélectionné Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche, cliquez sur le menu déroulant pour mettre à jour le pourcentage pour chaque niveau d’effort de travail. Les valeurs en pourcentage suivantes sont les valeurs par défaut :
 
    | Niveau de l’effort de travail | Valeur en pourcentage |
    |---|---|
-   | Petite | 25% |
-   | Moyen | 50% |
-   | Grande | 75% |
+   | Petite | 25 % |
+   | Moyen | 50 % |
+   | Grande | 75 % |
 
    Pour plus d’informations sur l’utilisation de l’effort de travail pour gérer l’effort sur les tâches sur les projets, voir [Présentation de l’effort de travail](../../../manage-work/tasks/task-information/work-effort.md).
 
@@ -958,7 +960,7 @@ En modifiant les paramètres des problèmes, vous pouvez empêcher les utilisate
 
    Lorsque vous désactivez cette option, les utilisateurs autorisés à ajouter des problèmes au projet créé à partir du modèle peuvent le faire à l’aide du bouton Nouveau problème ou d’une file d’attente de requêtes associée au projet.
 
-   Pour plus d’informations sur la configuration des paramètres de problème sur les projets, reportez-vous à la section [Paramètres de problème](../../../manage-work/projects/manage-projects/edit-projects.md#issue) dans l’article [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Pour plus d’informations sur la configuration des paramètres de problème sur les projets, voir la section [Paramètres de problème](../../../manage-work/projects/manage-projects/edit-projects.md#issue) dans l’article [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    Pour plus d’informations sur la création de problèmes sur les projets, voir [Création de problèmes](../../../manage-work/issues/manage-issues/create-issues.md).
 
@@ -989,7 +991,7 @@ En modifiant les paramètres des problèmes, vous pouvez empêcher les utilisate
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Accordez également l’accès au projet</strong> </td> 
-         <td> <p> Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>ou <strong>Gérer</strong> accès au projet. L’utilisateur affecté à une tâche se voit également automatiquement octroyer cet accès au projet. </p> </td> 
+         <td> <p> Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>, ou <strong>Gérer</strong> accès au projet. L’utilisateur affecté à une tâche se voit également automatiquement octroyer cet accès au projet. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Lorsqu’une personne est affectée à un problème</strong> </td> 
@@ -997,19 +999,19 @@ En modifiant les paramètres des problèmes, vous pouvez empêcher les utilisate
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Accordez également l’accès au projet</strong> </td> 
-         <td> <p> Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>ou <strong>Gérer</strong> accès au projet. L’utilisateur affecté à un problème se voit également automatiquement octroyer cet accès au projet. </p> </td> 
+         <td> <p> Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>, ou <strong>Gérer</strong> accès au projet. L’utilisateur affecté à un problème se voit également automatiquement octroyer cet accès au projet. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Lorsqu’une personne envoie une demande : Accorder leur accès</strong> </td> 
-         <td> <p> Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>ou <strong>Gérer</strong> accès à la requête. Lorsqu’ils envoient une demande au projet, ils ont accès à la demande qu’ils ont envoyée. Pour plus d’informations, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a>.</p> </td> 
+         <td role="rowheader"><strong>Lorsqu’une personne envoie une demande : donnez-lui un accès</strong> </td> 
+         <td> <p> Sélectionner parmi <strong>Affichage</strong>, <strong>Contribution</strong>, ou <strong>Gérer</strong> accès à la requête. Lorsqu’ils envoient une demande au projet, ils se voient accorder cet accès à la demande qu’ils ont envoyée. Pour plus d’informations, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Les personnes appartenant à la même entreprise hériteront d'autorisations identiques pour toutes les demandes</strong> </td> 
+         <td role="rowheader"><strong>Les personnes d’une même société hériteront des mêmes autorisations pour toutes les demandes.</strong> </td> 
          <td> <p>Sélectionnez ce champ si vous souhaitez que les personnes de la même société aient le même accès à toutes les demandes du projet, qu’elles les aient soumises ou non.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Lorsqu’une personne a accès à ce projet : Donnez-leur accès à ...</strong> </td> 
-         <td> <p>Sélectionnez les options d’accès que vous souhaitez que les utilisateurs disposent sur le projet, si le projet est partagé avec eux. Sélectionnez les options d’accès spécifiques, si elles sont désignées comme <strong>Visionneuses</strong>, <strong>Contributeurs</strong>ou <strong>Chefs</strong> lors du partage du projet avec eux. </p> </td> 
+         <td role="rowheader"><strong>Lorsqu'une personne a accès à ce projet : lui donner accès à ...</strong> </td> 
+         <td> <p>Sélectionnez les options d’accès que vous souhaitez que les utilisateurs disposent sur le projet, si le projet est partagé avec eux. Sélectionnez les options d’accès spécifiques, si elles sont désignées comme <strong>Visionneuses</strong>, <strong>Contributeurs</strong>, ou <strong>Chefs</strong> lors du partage du projet avec eux. </p> </td> 
        </tr> 
        </tbody> 
       </table>
@@ -1037,13 +1039,13 @@ Pour modifier des modèles en bloc :
 1. Sélectionnez plusieurs modèles dans la liste.
 1. Cliquez sur **Modifier**.
 
-   Le **Modifier les modèles** s’ouvre.
+   La variable **Modifier les modèles** s’ouvre.
 
    ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Cliquez sur les sections à gauche pour modifier tous les modèles sélectionnés.
 
-   Pour plus d’informations sur l’édition d’informations sur les modèles, reportez-vous à la section [Modifier un modèle](#edit-a-template) dans cet article.
+   Pour plus d’informations sur l’édition d’informations sur les modèles, voir la section [Modifier un modèle](#edit-a-template) dans cet article.
 
 1. Cliquez sur **Enregistrer les modifications**.
 
@@ -1068,34 +1070,34 @@ L’ajout des éléments suivants à un modèle est identique à leur ajout à u
 * Documents
 * Risques
 
-   Pour plus d’informations sur la création de risques, voir [Créer et modifier des risques sur les projets](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  dans l’article [Créer et modifier des risques sur les projets](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Pour plus d’informations sur la création de risques, voir [Créer et modifier des risques sur les projets](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  dans l’article [Créer et modifier des risques sur les projets](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Processus d&#39;approbation
 
-   Pour plus d’informations sur l’association des processus de validation au travail, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Pour plus d’informations sur l’association des processus de validation au travail, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 * Taux de facturation
 
-   Pour plus d’informations sur le remplacement des taux de facturation d’un projet, voir [Présentation du remplacement des taux de facturation des rôles de tâche et calcul des recettes sur un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Pour plus d’informations sur le remplacement des taux de facturation d’un projet, voir [Présentation du remplacement des taux de facturation des rôles de tâche et calcul des recettes sur un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Frais
 
-   Pour plus d’informations sur l’ajout de dépenses, voir [Gestion des dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Pour plus d’informations sur l’ajout de dépenses, voir [Gestion des dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Groupes de rubriques et rubriques de la file d’attente
 
-   Pour plus d’informations sur l’ajout de groupes de rubriques et de rubriques de file d’attente à un projet ou à un modèle, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Pour plus d’informations sur l’ajout de groupes de rubriques et de rubriques de file d’attente à un projet ou à un modèle, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Vous pouvez ajouter les éléments suivants aux tâches du modèle :
 
 * Documents
 * Frais
 
-   Pour plus d’informations sur l’ajout de dépenses, voir [Gestion des dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Pour plus d’informations sur l’ajout de dépenses, voir [Gestion des dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Approbations
 
-   Pour plus d’informations sur l’association des validations au travail, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Pour plus d’informations sur l’association des validations au travail, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 
 ## Activation ou désactivation d’un modèle
@@ -1106,11 +1108,11 @@ Les modèles désactivés n’affectent pas les projets existants qui ont été 
 
 Pour désactiver un modèle :
 
-1. Accédez à un modèle principal, puis cliquez sur le bouton **Plus** ![](assets/qs-more-icon-on-an-object.png) en regard du nom du modèle, puis cliquez sur **Désactiver**.
+1. Accédez à un modèle actif, puis cliquez sur le bouton **Plus** ![](assets/qs-more-icon-on-an-object.png) en regard du nom du modèle, puis cliquez sur **Désactiver**.
 
    ![](assets/deactivate-template-link-in-more-menu.png)
 
-   Le modèle n’est plus principal et les utilisateurs ne peuvent plus le trouver pour créer des projets à partir de celui-ci.
-1. (Facultatif) Pour activer le modèle, cliquez sur le bouton **Plus** ![](assets/qs-more-icon-on-an-object.png) en regard du nom du modèle, puis cliquez sur **Activer**.
+   Le modèle n’est plus actif et les utilisateurs ne peuvent plus le trouver pour créer des projets à partir de celui-ci.
+1. (Facultatif) Cliquez sur le bouton **Plus** ![](assets/qs-more-icon-on-an-object.png) en regard du nom du modèle, puis cliquez sur **Activer**.
 
-   Le modèle est désormais principal et peut être joint à des projets ou utilisé pour créer des projets.
+   Le modèle est maintenant actif et peut être joint à des projets ou utilisé pour créer des projets.

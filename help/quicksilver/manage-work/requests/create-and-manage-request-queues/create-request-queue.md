@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Création d’une file d’attente de requête
-description: Vous pouvez configurer une file d’attente de requêtes dans laquelle les utilisateurs peuvent saisir des requêtes occasionnelles qui ne sont pas planifiées pour un projet.
+description: Vous pouvez configurer une file d’attente de requêtes dans laquelle les utilisateurs peuvent saisir des requêtes occasionnelles qui ne sont pas planifiées pour un projet. Par exemple, une file d’attente de demandes du service d’assistance peut être configurée pour capturer toutes les demandes d’utilisateurs envoyées à un service informatique.
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2679'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,39 @@ Cet article décrit comment créer une file d’attente de requêtes dans laquel
 
 ## Exigences d’accès
 
-<!--drafted for P&P: replace the table below with this:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Quelconque </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> 
+   <p>Nouvelle licence : Standard </p>
+   Ou
+   <p>Licence actuelle : formule </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
+
+Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p> Gestion des autorisations pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
+
+<!--old access levels: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,16 +71,13 @@ Cet article décrit comment créer une file d’attente de requêtes dans laquel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>Current license: Stadard </p>
-   Or
-   <p>Legacy license: Plan </p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b></p> 
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -57,37 +86,8 @@ Cet article décrit comment créer une file d’attente de requêtes dans laquel
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator
+*To find out what plan, license type, or access you have, contact your Workfront administrator
 -->
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b></p>
-
-<p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p> Gestion des autorisations pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
 ## Présentation des files d’attente de requête
 
@@ -230,7 +230,7 @@ Pour créer une file d’attente de requête :
    * **Durée par défaut :** La durée par défaut correspond à la durée généralement nécessaire pour résoudre un problème. Cela devient la valeur par défaut de tous les problèmes entrants et peut être modifié manuellement. La durée est généralement définie en heures, jours ou semaines. La durée par défaut d’un problème est la même que les heures planifiées sur le problème. La date d’achèvement prévue du problème se calcule d’après ce champ.\
      La durée par défaut du problème est de 1 jour ou 8 heures. Si l’administrateur de Workfront définit la durée type des heures par jour de travail sur moins de 8 heures, la durée par défaut pour les problèmes est toujours de 8 heures. Par exemple, si la valeur &quot;Heures par jour de travail standard&quot; est définie sur 7 heures, la durée par défaut pour les problèmes est de 1,14 jour ou 8 heures. Pour plus d’informations sur la configuration du système Heures par jour de travail standard, consultez la section &quot;Calcul de la chronologie&quot; de l’article. [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * **Les personnes appartenant à la même entreprise hériteront d&#39;autorisations identiques pour toutes les demandes.:** Lorsque cette option est sélectionnée, toutes les requêtes envoyées dans la file d’attente sont visibles pour les utilisateurs de la même société. Les utilisateurs peuvent afficher ces requêtes dans la section Toutes les requêtes , située dans la zone Demandes . Au moment où ce paramètre est activé ou désactivé, il a un impact sur toutes les futures demandes ; il n’a pas d’impact rétroactif sur les informations.
+   * **Les personnes de la même société hériteront des mêmes autorisations pour toutes les demandes.:** Lorsque cette option est sélectionnée, toutes les requêtes envoyées dans la file d’attente sont visibles pour les utilisateurs de la même société. Les utilisateurs peuvent afficher ces requêtes dans la section Toutes les requêtes , située dans la zone Demandes . Au moment où ce paramètre est activé ou désactivé, il a un impact sur toutes les futures demandes ; il n’a pas d’impact rétroactif sur les informations.
    * **Lorsqu’une personne émet une demande, elle accorde automatiquement :** Lorsqu’un utilisateur envoie une demande à la file d’attente des demandes, il se voit automatiquement octroyer le niveau d’autorisation que vous choisissez d’accorder à cette demande. Sélectionnez l’un des niveaux d’autorisation suivants :
 
       * **Afficher l’accès**

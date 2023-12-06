@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -51,19 +51,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Formule Adobe Workfront</p></td>
    <td>
-<p>Tous</p>
+<p>Quelconque</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Tous</p> 
+   <p>Quelconque</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Tous</p>  
+   <td> <p>Quelconque</p>  
 </td>
   </tr>
 <tr>
@@ -217,7 +217,7 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification .
 
 
-1. (Facultatif) Copiez une valeur existante d’un champ, collez-la dans un champ du même type sur un autre enregistrement, puis cliquez sur **Entrée** sur votre clavier pour enregistrer vos modifications.
+1. (Facultatif) Copiez une ou plusieurs valeurs existantes d’un champ, collez-les dans un champ du même type sur un autre enregistrement, puis cliquez sur **Entrée** sur votre clavier pour enregistrer vos modifications.
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
    >* Vous ne pouvez pas copier et coller des valeurs de champ pour les types de champ suivants :
    ><ul>
    >
-   > * Personnes
-   >
    > * Champs système
-   >
-   > * Champs liés créés suite à la connexion des enregistrements
+
 
    <!--take People out of the list above when they release this - this might be coming later-->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -84,19 +84,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Formule Adobe Workfront</p></td>
    <td>
-<p>Tous</p>
+<p>Quelconque</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Tous</p> 
+   <p>Quelconque</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Tous</p>  
+   <td> <p>Quelconque</p>  
 </td>
   </tr>
 <tr>
@@ -173,7 +173,10 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
+
 ## Considérations sur la connexion des types d’enregistrement
+
+Tenez compte des points suivants :
 
 * Vous pouvez connecter les entités suivantes dans Maestro :
 
@@ -219,7 +222,7 @@ After permssions - replace the table with:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/dots-main-menu.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Maestro]**.
 
    L’espace de travail du dernier accès doit s’ouvrir par défaut.
 

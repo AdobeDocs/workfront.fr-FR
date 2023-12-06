@@ -6,9 +6,9 @@ description: Vous pouvez déplacer des tâches vers différents projets ou vers 
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -35,11 +35,13 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
-   <td> <p>Travail ou plus élevé</p> </td> 
+   <td> <p>Nouveau plan : Standard </p> 
+ <p>ou</p>  
+<p>Plan actuel : travail ou plus élevé </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -202,7 +204,7 @@ En plus de déplacer des tâches d’une liste de tâches, vous pouvez égalemen
      <tr> 
       <td role="rowheader">Documents</td> 
       <td> <p>Les documents joints à la tâche ne sont pas transférés vers la tâche déplacée. Cela inclut les versions, les bons à tirer et les documents liés.</p> <p>Cela ne comprend pas les approbations de documents. Les validations de document ne peuvent jamais être déplacées lorsqu’une tâche est déplacée.</p> 
-      <b>NOTE</b>
+      <b>REMARQUE</b>
 
    Si vous choisissez de ne pas déplacer les documents avec la tâche, les documents seront supprimés et placés dans la Corbeille pendant 30 jours. Un administrateur peut les restaurer et ils seront restaurés lors de la tâche déplacée.
 
