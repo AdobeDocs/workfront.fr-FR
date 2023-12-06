@@ -7,16 +7,16 @@ description: Vous pouvez partager et revoir différents types de fichiers avec v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # Types et limites de taille de fichier de vérification pris en charge - Aperçu
 
-Vous pouvez partager et revoir différents types de fichiers avec vos réviseurs, même s’ils ne disposent pas du logiciel utilisé pour créer les fichiers (tels que Photoshop ou Illustrator) installés sur leurs ordinateurs. Les types de fichiers statiques, vidéo, audio, web et interactifs peuvent être capturés jusqu’à 4 Go.
+Vous pouvez partager et revoir différents types de fichiers avec vos réviseurs, même s’ils ne disposent pas du logiciel utilisé pour créer les fichiers (tels que Photoshop ou Illustrator) installés sur leurs ordinateurs. Nous prenons en charge les types de fichiers statiques, vidéo, audio, de capture web et interactifs d’une taille de 4 Go.
 
 ## Limites de taille de fichier
 
@@ -105,10 +105,10 @@ Workfront présente les limites suivantes :
 * JPM - JPEG 2000, partie 6
 * JPX - JPEG 2000, partie 2
 * KDC - Caméra numérique Kodak
-* Mac - MacPaint
+* MAC - MacPaint
 * MIF - Échange MapInfo
 * MNG - Multiple Network Graphic
-* MO:DCA - Objet mixte : Architecture de contenu du document
+* MO:DCA - Objet mixte : architecture de contenu du document
 * MSP - Microsoft Paint
 * MRC - Piste du contenu pixellisé
 * MRC - Contenu de pixellisation mixte T.44
@@ -123,7 +123,7 @@ Workfront présente les limites suivantes :
 * PCL6 - Langage de commande de l’imprimante
 * PIC - Macintosh Pict
 * PCX - pinceau
-* PDF - Adobe de fichier de document portable
+* PDF - Adobe de fichier PDF
 * PGM - Utilitaires Bitmap mobiles
 * PLT - Plotter HPGL
 * PNG - Graphiques réseau mobiles
@@ -131,7 +131,7 @@ Workfront présente les limites suivantes :
 * PPM - Utilitaires Bitmap mobiles
 * PPT - Présentation PowerPoint
 * PPTX - Présentation PowerPoint 2007 PS - Fichier PostScript
-* PSD - Photoshop
+* PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
 * RAS - Raster SUN
@@ -139,7 +139,7 @@ Workfront présente les limites suivantes :
 * RAW - Données brutes
 * RTF - Texte enrichi
 * RW2 - Format Raw Panasonique
-* - ton continu Scitex
+* - Tronque continue Scitex
 * SFF - Format de fax structuré
 * SGI - Image Silicon Graphics
 * SHP - Forme ESRI
@@ -189,10 +189,10 @@ Workfront présente les limites suivantes :
 * AIT - Modèle Adobe Illustrator
 * DOC - Document Word Microsoft
 * DOCX - Document Word Microsoft
-* PDF - Adobe de fichier de document portable
+* PDF - Adobe de fichier PDF
 * Présentation PPT-PowerPoint
 * PPTX - Présentation PowerPoint 2007 PS - Fichier PostScript
-* PSD - Photoshop
+* PSD - PHOTOSHOP
 * RTF - Texte enrichi
 * XLS - Feuille de calcul Excel Microsoft
 * XLSX - Feuille de calcul Excel Microsoft 2007
