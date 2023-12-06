@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
 1. Cliquez sur le bouton **Mises à jour** .
 1. (Conditionnel) Si cette option est activée, cliquez sur l’icône **Nouveaux commentaires** dans le coin supérieur droit de la section Mises à jour afin de la désactiver et d’activer l’expérience de commentaire héritée.
 1. Cliquez sur **Démarrer une nouvelle mise à jour,** saisissez ensuite votre mise à jour.
-1. (Facultatif) Utilisez du texte enrichi ou ajoutez des émoticônes, des liens ou des images à votre mise à jour pour améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
+1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 1. (Facultatif) Mettez à jour l’une des informations suivantes sur l’élément de travail :
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
    * Ctrl + Z ( ⌘ + z pour Mac) pour annuler une modification.
    * Ctrl + Y ( ⌘ + y pour Mac) pour rétablir la modification
 1. (Facultatif) Dans la variable **Balisage de personnes ou d’équipes** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
-1. (Facultatif) Utilisez du texte enrichi ou ajoutez des émoticônes, des liens ou des images à votre mise à jour pour améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
+1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier votre commentaire que dans les 15 jours suivant son envoi.
+   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant son envoi.
 
 1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez l’un des utilisateurs balisés. Un indicateur &quot;Modifié&quot; est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été saisi.
 
@@ -407,11 +407,15 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    1. Sous **Texte à afficher**, saisissez ou collez le texte du lien.
    1. Cliquer sur **Enregistrer**.
 
-1. (Facultatif) <span class="preview">Pour joindre une image à votre mise à jour, copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire. </span>
+1. (Facultatif) Pour joindre une image à votre mise à jour, effectuez l’une des opérations suivantes :
 
-   Ou
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   Cliquez sur le bouton **Ajouter une image** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
+   * <span class="preview">Copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire. </span>
+   * Cliquez sur le bouton **Ajouter une image** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
+
 
    >[!NOTE]
    >
