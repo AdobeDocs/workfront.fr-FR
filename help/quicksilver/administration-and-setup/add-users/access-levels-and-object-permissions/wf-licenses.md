@@ -5,25 +5,25 @@ content-type: reference
 product-area: system-administration
 keywords: license,type
 navigation-topic: access-levels
-description: Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acquis Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez à chaque utilisateur l’un des quatre types de licences Workfront payantes lorsque vous lui attribuez un niveau d’accès.
-author: Courtney
+description: Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acquis Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez l’un des cinq types de licences Workfront à chaque utilisateur lorsque vous lui attribuez un niveau d’accès.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '350'
 ht-degree: 3%
 
 ---
 
 # Présentation des licences
 
-Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acquis Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez l’un des 5 types de licences Workfront à chaque utilisateur lorsque vous lui attribuez un niveau d’accès.
+Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acquis Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez l’un des cinq types de licences Workfront à chaque utilisateur lorsque vous lui attribuez un niveau d’accès.
 
 ## Comment les licences et les niveaux d’accès sont liés entre eux
 
-Les 5 types de licences Workfront permettent différents niveaux d’accès à Workfront. Chaque niveau d’accès est associé à l’une de ces licences.
+Les cinq types de licences Workfront permettent différents niveaux d’accès à Workfront. Chaque niveau d’accès est associé à l’une de ces licences.
 
 En tant qu’administrateur Workfront, au lieu d’affecter une licence à un utilisateur, vous lui attribuez le niveau d’accès associé à cette licence.
 

@@ -4,9 +4,9 @@ description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations de cette page sont disponibles dans l’environnement Aperçu . Cette page sera mise à jour avec d’autres améliorations à mesure que la version du premier trimestre 2024 approche de sa version de production prévue.
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscrivez-vous au webinaire ici](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Les fonctionnalités hors cycle (celles publiées en production avant la date de publication du premier trimestre 2024) sont surlignées en jaune.</span>
 
