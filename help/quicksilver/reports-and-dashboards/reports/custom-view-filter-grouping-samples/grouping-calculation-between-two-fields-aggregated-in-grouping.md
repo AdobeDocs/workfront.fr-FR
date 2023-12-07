@@ -3,25 +3,25 @@ content-type: reference
 product-area: reporting;projects
 keywords: calculate,agrégats,advanced,views
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Groupement : afficher le résultat de l''agrégation de plusieurs valeurs calculées dans un groupement"'
+title: '''Groupement : affiche le résultat de l''agrégation de plusieurs valeurs calculées dans un groupement'''
 description: Vous pouvez utiliser le mode texte dans une colonne pour afficher un calcul entre deux champs dans la vue d'un rapport ou d'une liste. Chaque ligne affiche le calcul de chaque objet du rapport ou de la liste.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
-# Regroupement : afficher le résultat de l&#39;agrégation de plusieurs valeurs calculées dans un groupement ;
+# Groupement : affiche le résultat de l&#39;agrégation de plusieurs valeurs calculées dans un groupement.
 
 Vous pouvez utiliser le mode texte dans une colonne pour afficher un calcul entre deux champs dans la vue d&#39;un rapport ou d&#39;une liste. Chaque ligne affiche le calcul de chaque objet du rapport ou de la liste.
 
-Par exemple, vous pouvez afficher la différence entre les Heures réelles et les Heures planifiées dans une troisième colonne appelée Équilibrage du travail pour chaque tâche dans un rapport de tâche. Pour plus d’informations sur les expressions de données calculées, voir [Expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Par exemple, vous pouvez afficher la différence entre les Heures réelles et les Heures planifiées dans une troisième colonne appelée Équilibrage du travail pour chaque tâche dans un rapport de tâche. Pour plus d’informations sur les expressions de données calculées, voir [Présentation des expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Vous pouvez afficher la valeur agrégée de plusieurs éléments de vue calculée dans la même colonne d’un groupement en ajoutant un calcul au `aggregator` ligne de la colonne contenant la valeur calculée. Par exemple, vous pouvez agréger (afficher la somme de) la somme des heures de l&#39;Équilibre du travail de toutes les tâches du groupement du rapport ou de la liste de la colonne Équilibre du travail. Cet article décrit comment procéder.
+Vous pouvez afficher la valeur agrégée de plusieurs éléments de vue calculée dans la même colonne d’un groupement en ajoutant un calcul au `aggregator` ligne de la colonne contenant la valeur calculée. Par exemple, vous pouvez agréger (afficher la somme de) la somme des heures de l&#39;Équilibre du travail de toutes les tâches du groupement du rapport ou de la liste de la colonne Équilibre du travail. Cet article décrit la procédure à suivre.
 
 ## Exigences d’accès
 
@@ -33,7 +33,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -60,7 +60,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 1. Accédez à un rapport de tâche, puis cliquez sur **Actions de rapport** > **Modifier**.
 1. Dans le **Groupements** , cliquez sur **Ajouter un groupement**, puis commencez à taper **Nom du projet** dans le **Regrouper votre rapport** > **First by** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 
-1. Dans le **Colonnes (vue)** , cliquez sur **Ajouter une colonne**, puis commencez à taper **Heures planifiées** dans le **Afficher dans cette colonne** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Dans le **Colonnes (vue)** , cliquez sur **Ajouter une colonne**, puis commencez à saisir **Heures planifiées** dans le **Afficher dans cette colonne** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 
    >[!TIP]
    >
@@ -69,7 +69,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 1. Dans le **Résumer cette colonne par** champ, sélectionnez **Somme**, puis cliquez sur **Terminé**.
 1. Cliquez sur **Passer en mode Texte** dans la colonne que vous avez ajoutée.
 1. Pointez sur la zone de mode de texte, puis cliquez sur **Cliquer pour modifier le texte**.
-1. Remplacez la variable `valuefield ` et le `aggregator.valuefield` lignes avec les lignes surlignées dans l’exemple de mode texte suivant :
+1. Remplacez la variable `valuefield ` et la variable `aggregator.valuefield` lignes avec les lignes surlignées dans l’exemple de mode texte suivant :
 
    ```
    valueformat=compound
@@ -89,9 +89,9 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
    >[!TIP]
    >
-   >Pour obtenir la valeur agrégée dans le groupement afin d’afficher la différence agrégée entre les champs Heures planifiées et Heures réelles , saisissez la même équation dans la variable `aggregator.valuefield` ligne. Le `aggregator.displayformat` utilisé pour la colonne Heures planifiées convertit les minutes en heures. Comme le champ Heures planifiées a été utilisé comme espace réservé, cette ligne n’a pas besoin d’être ajustée.
+   >Pour obtenir la valeur agrégée dans le groupement afin d’afficher la différence agrégée entre les champs Heures planifiées et Heures réelles , saisissez la même équation dans la variable `aggregator.valuefield` ligne. La variable `aggregator.displayformat` utilisé pour la colonne Heures planifiées convertit les minutes en heures. Comme le champ Heures planifiées a été utilisé comme espace réservé, cette ligne n’a pas besoin d’être ajustée.
    >
    >
-   >Le `minutesAsHoursString` définition de la variable `aggregator.displayformat` ligne signifie qu’il n’est pas nécessaire de diviser chaque champ par 60, comme c’est le cas sur la ligne `valueexpression` pour les résultats. Dans ce `aggregator.valuefield=workRequired` devient : `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
+   >La variable `minutesAsHoursString` définition de la variable `aggregator.displayformat` ligne signifie qu’il n’est pas nécessaire de diviser chaque champ par 60, comme c’est le cas sur la ligne `valueexpression` pour les résultats. Dans ce `aggregator.valuefield=workRequired` devient : `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
 
 1. Cliquez sur **Enregistrer + Fermer**.

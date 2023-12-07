@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -107,11 +107,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Dans Workfront, vous pouvez consigner l’heure de connexion dans les zones suivantes :
 
-* [Feuille de temps](#timesheet)
+* [Feuille de calcul](#timesheet)
 * [Accueil](#home)
 * [Projet, tâche ou problème](#project-task-or-issue)
 * [Panneau Résumé](#summary-panel)
-* [Panoramas](#boards)
+* [Panneaux](#boards)
 * [Application mobile](#mobile-app)
 
 ### Feuille de temps {#timesheet}
@@ -139,7 +139,7 @@ Pour consigner l’heure sur une feuille de temps :
 1. Cliquez sur le bouton [!UICONTROL **Menu Principal**] icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou le **Menu Principal** icon ![](assets/lines-main-menu.png) dans le coin supérieur gauche de Workfront, le cas échéant.
 
 1. Cliquez sur [!UICONTROL **Feuilles de temps**]. Votre feuille de temps actuelle s’affiche par défaut.
-   ![Feuille de temps](assets/timesheet-redesigned-nwe.png)
+   ![Feuille de calcul](assets/timesheet-redesigned-nwe.png)
 
 
 1. (Facultatif) Cliquez sur le **plein écran** icon ![](assets/full-screen.png) pour afficher la feuille de temps en mode plein écran, cliquez sur le bouton **exit-full-screen** ![](assets/exit-full-screen.png) pour revenir à la feuille de temps.
@@ -344,14 +344,14 @@ Pour supprimer un élément de la feuille de temps qui a été ajouté manuellem
 
    L’élément est supprimé de la feuille de temps après avoir actualisé la page.
 
-### Accueil {#home}
+### Page d’accueil {#home}
 
 Vous pouvez consigner l’heure spécifique au projet dans la page d’accueil.
 
 Pour obtenir des informations générales sur l’utilisation de la zone Accueil, reportez-vous aux sections suivantes :
 
 * Pour plus d’informations sur l’utilisation de la zone d’accueil héritée, voir [Utilisation de la zone Accueil](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Pour plus d’informations sur l’utilisation de la nouvelle zone d’accueil, voir [Prise en main de la nouvelle page d’accueil dans Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* Pour plus d’informations sur l’utilisation de la nouvelle zone d’accueil, voir [Prise en main du nouvel accueil](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Temps de connexion à un élément de travail de la nouvelle zone d’accueil
 
@@ -360,7 +360,7 @@ Pour obtenir des informations générales sur l’utilisation de la zone Accueil
 
    * Mes tâches
    * Mes événements
-   * Mes tâches
+   * Mon travail
    * Mes demandes
 1. Sélectionnez une tâche, un problème ou une requête dans une liste, puis cliquez sur **Résumé**
 
@@ -390,7 +390,7 @@ Pour obtenir des informations générales sur l’utilisation de la zone Accueil
 
 Vous pouvez consigner l’heure spécifique d’un projet, d’une tâche ou d’un problème dans les sections suivantes :
 
-* [Met à jour la section](#updates-section)
+* [Section Mises à jour](#updates-section)
 * [Section Heures](#hours-section)
 
 #### Met à jour la section{#updates-section}
@@ -476,7 +476,7 @@ Pour plus d’informations, voir [Aperçu du résumé](../../workfront-basics/th
 
 ![](assets/summary-hour-log.png)
 
-### Panoramas {#boards}
+### Panneaux {#boards}
 
 Vous pouvez consigner le temps de connexion sur les cartes connectées sur un panorama Workfront. Il s’agit du même processus que le temps de connexion à une tâche ou à un problème, et les heures enregistrées sur la carte sont enregistrées sur la tâche ou le problème connecté.
 Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

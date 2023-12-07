@@ -6,9 +6,9 @@ description: Collections de référence dans un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 8b6324302a70319f387d1e09d1eb92fbdabf7e32
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2587'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -54,11 +54,11 @@ Une collection est une liste d’objets liés à un autre objet.
 
 Vous avez les deux relations suivantes entre les objets dans Workfront :
 
-* **Une relation un-à-un**: Un objet ne peut être associé qu’à un seul objet à la fois.\
-   Par exemple, un projet ne peut être lié qu’à un portefeuille à la fois.
+* **Une relation un-à-un**: un objet ne peut être lié qu’à un seul autre objet à la fois.\
+  Par exemple, un projet ne peut être lié qu’à un portefeuille à la fois.
 
-* **Une relation de type &quot;un à plusieurs&quot;**: Un objet peut être associé à plusieurs autres objets à la fois.\
-   Par exemple, un projet peut comporter plusieurs tâches. Dans ce cas, la liste des tâches forme une collection pour le projet.
+* **Une relation de type &quot;un à plusieurs&quot;**: un objet peut être lié à plusieurs autres objets à la fois.\
+  Par exemple, un projet peut comporter plusieurs tâches. Dans ce cas, la liste des tâches forme une collection pour le projet.
 
 >[!IMPORTANT]
 >
@@ -83,7 +83,7 @@ Pour savoir sur quelles collections peuvent faire l’objet de rapports :
 
 1. Accédez au [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 1. Recherchez l’objet de votre rapport.
-1. Sélectionnez la **collections** .
+1. Sélectionnez la variable **collections** .
 
    >[!NOTE]
    >
@@ -118,13 +118,13 @@ Par exemple, vous pouvez référencer la tâche ou publier des collections à pa
 
 ### Référencer une collection dans l’affichage d’un rapport {#reference-a-collection-in-the-view-of-a-report}
 
-Vous pouvez référencer une collection d’objets dans la vue d’un rapport afin d’afficher les attributs des objets associés à l’objet du rapport.
+Vous pouvez référencer une collection d’objets dans la vue d’un rapport pour afficher les attributs des objets associés à l’objet du rapport.
 
 Vous pouvez, par exemple, afficher les informations sur une tâche ou un problème dans un rapport de projet en créant une colonne de collection pour les tâches ou les problèmes dans l’affichage du rapport.
 
-Vous pouvez afficher des informations sur les tâches ou les problèmes, tels que les noms, dates, personnes désignées Principales, pourcentage terminé, etc. dans la vue Collection.
+Vous pouvez afficher des informations sur les tâches ou les problèmes, tels que les noms, les dates, les personnes désignées principales, le pourcentage d’achèvement, etc. dans la vue Collection.
 
-La vue affiche les informations sur les tâches ou les problèmes sous la forme d’une liste, chaque ligne de la liste représentant des informations sur une tâche ou un problème. La liste des tâches ou des problèmes et de leurs champs s’affiche sur la même ligne que le projet auquel appartiennent les tâches ou les problèmes.\
+L’affichage affiche les informations sur les tâches ou les problèmes sous la forme d’une liste, chaque ligne de la liste représentant des informations sur une tâche ou un problème. La liste des tâches ou des problèmes et de leurs champs s’affiche sur la même ligne que le projet auquel appartiennent les tâches ou les problèmes.\
 ![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
 
 * [Ajout d’une colonne de collection dans une vue de rapport](#add-a-collection-column-in-a-report-view)
@@ -171,7 +171,7 @@ Pour ajouter une colonne de collection dans une vue de rapport :
 
    Vous pouvez remplacer **valuefield** avec **valeur expression**, si vous souhaitez créer une expression personnalisée dans votre vue.
 
-   Pour plus d’informations sur les expressions personnalisées calculées, voir [Expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Pour plus d’informations sur les expressions personnalisées calculées, voir [Présentation des expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Par exemple, si vous souhaitez afficher une liste des tâches dans un rapport de projet. Cette collection utilise une `valuefield` pour référencer les noms des tâches.
 
@@ -179,45 +179,45 @@ Pour ajouter une colonne de collection dans une vue de rapport :
 
    * Utilisez le code suivant pour créer votre colonne :
 
-      ```
-      valueformat=HTML
-      textmode=true
-      type=iterate
-      listdelimiter=<p>
-      displayname=Project Tasks Names
-      listmethod=nested(tasks).lists
-      valuefield=name
-      ```
+     ```
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Project Tasks Names
+     listmethod=nested(tasks).lists
+     valuefield=name
+     ```
 
    * Utilisez le code suivant pour afficher la liste des problèmes du rapport :
 
-      ```
-      displayname=Project Issues Names
-      listdelimiter=<p>
-      listmethod=nested(issues).lists
-      textmode=true
-      type=iterate
-      valuefield=name
-      valueformat=HTML
-      ```
+     ```
+     displayname=Project Issues Names
+     listdelimiter=<p>
+     listmethod=nested(issues).lists
+     textmode=true
+     type=iterate
+     valuefield=name
+     valueformat=HTML
+     ```
 
-      Notez que dans une collection, vous devez utiliser **Problèmes** pour le **listmethod** ligne, au lieu de **opTasks** qui est le nom de la base de données pour les problèmes. Pour plus d’informations sur le moment d’utiliser **issue** et quand utiliser **opTask** lorsque vous faites référence à des problèmes, reportez-vous à la section [Utiliser &quot;opTask&quot; et &quot;issue&quot; lors de la référence à des problèmes](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     Notez que dans une collection, vous devez utiliser **Problèmes** pour le **listmethod** ligne, au lieu de **opTasks** qui est le nom de la base de données pour les problèmes. Pour plus d’informations sur le moment d’utiliser **issue** et quand utiliser **opTask** lorsque vous faites référence à des problèmes, voir [Utiliser &quot;opTask&quot; et &quot;issue&quot; lors de la référence à des problèmes](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
-   * Si vous souhaitez afficher une liste des tâches dans un rapport de projet avec leur Principale personne désignée, vous pouvez utiliser une **valeur expression** pour référencer les noms des tâches adjacentes aux noms de leurs Principaux cessionnaires au lieu de **valuefield**.
+   * Si vous souhaitez afficher une liste des tâches dans un rapport de projet avec leur responsable principal, vous pouvez utiliser une **valeur expression** pour référencer les noms des tâches adjacentes aux noms de leurs principaux responsables au lieu de **valuefield**.
 
-      Utilisez le code suivant pour créer votre colonne :
+     Utilisez le code suivant pour créer votre colonne :
 
-      ```
-      valueformat=HTML
-      textmode=true
-      type=iterate
-      listdelimiter=<p>
-      displayname=Tasks Names - Primary Assignee
-      listmethod=nested(tasks).lists
-      valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
-      ```
+     ```
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Tasks Names - Primary Assignee
+     listmethod=nested(tasks).lists
+     valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
+     ```
 
-1. La colonne suivante s’affiche dans le rapport de projet, répertoriant toutes les tâches de chaque projet avec leurs Principales personnes désignées :
+1. La colonne suivante s’affiche dans le rapport de projet, répertoriant toutes les tâches de chaque projet avec leurs principaux responsables :
 
    ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
 
@@ -253,7 +253,7 @@ Les lignes d’une collection en mode texte sont décrites dans le tableau suiva
   </tr> 
   <tr> 
    <td><code>type=iterate</code> </td> 
-   <td> <p>Le <code>type</code> d’une liste est toujours <code>iterate</code>, lors de la création d’une vue.</p> </td> 
+   <td> <p>La variable <code>type</code> d’une liste est toujours <code>iterate</code>, lors de la création d’une vue.</p> </td> 
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
@@ -282,7 +282,7 @@ Tenez compte des restrictions suivantes lorsque vous créez une vue de collectio
 * Vous ne pouvez pas appliquer de mise en forme conditionnelle à une vue de collection.
 * Vous ne pouvez pas faire d’un objet d’une collection un lien cliquable.
 * Vous ne pouvez pas créer une vue de collection d’une autre collection.\
-   Par exemple, vous ne pouvez pas afficher tous les personnes désignées pour chaque tâche dans un rapport de projet. Vous pouvez uniquement afficher la personne désignée Principale pour chaque tâche dans une vue de projet.
+  Par exemple, vous ne pouvez pas afficher tous les personnes désignées pour chaque tâche dans un rapport de projet. Vous ne pouvez afficher que la personne désignée principale pour chaque tâche dans une vue de projet.
 
 ### Référencer une collection dans le filtre d’un rapport {#reference-a-collection-in-the-filter-of-a-report}
 
@@ -305,7 +305,7 @@ Pour ajouter une référence à une collection dans un filtre de rapport :
 
    Pour plus d’informations sur la recherche des champs de l’objet de votre collection, voir la section [Recherche d’objets de collection et de leurs champs dans l’explorateur d’API](#find-collection-objects-and-their-fields-in-the-api-explorer) dans cet article.
 
-   Notez le champ à afficher dans la collection.
+   Notez le champ que vous souhaitez afficher dans la collection.
 
 1. Revenez à votre rapport et dans le **Filtres** , cliquez sur **Passer en mode Texte**.
 
@@ -379,7 +379,7 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
 1. Cliquez sur **Invite personnalisée**.
 1. Indiquez le nom de l’invite dans la variable **Field****name** champ .
 
-1. Spécifiez un **Libellé d’élément de liste déroulante**.
+1. Spécifiez un **Libellé de l’élément de liste déroulante**.
 1. Spécifiez les éléments suivants dans la variable **Condition** field :
 
    ```
@@ -407,7 +407,7 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas référencer le nom de la personne désignée Principale (champ &quot;Affectée à&quot;) d’une tâche, selon la variable [Explorateur d’API](../../../wf-api/general/api-explorer.md). Vous pouvez uniquement référencer l’identifiant de la personne désignée Principale.
+   >Vous ne pouvez pas référencer le nom de la personne désignée principale (champ &quot;Affectée à&quot;) d’une tâche, selon la variable [Explorateur d’API](../../../wf-api/general/api-explorer.md). Vous ne pouvez référencer que l’ID de la personne désignée principale.
 
    Par exemple, pour filtrer les projets pour lesquels l’un des problèmes de projet est assigné à un utilisateur spécifique, utilisez le code suivant pour votre invite personnalisée :
 
@@ -418,6 +418,7 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
    Cela génère un rapport dans lequel tous les projets répertoriés comportent au moins un problème assigné à l’utilisateur dont le GUID est 57cf1b7a000077c9f02f66cb09c8f86c.
 
    >[!NOTE]
+   >
    Notez que vous devez utiliser **Problèmes** pour le nom de l’objet de collection. Pour l’instant, l’explorateur d’API ne propose pas de nom d’objet de collection pour les problèmes.
 
 1. Cliquez sur **Terminé**.

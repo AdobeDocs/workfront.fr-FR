@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Présentation des prédécesseurs de tâches
-description: Un prédécesseur est la tâche dont une autre tâche (appelée successeur ou tâche dépendante) dépend. Adobe Workfront prend en charge cinq types de dépendances de prédécesseur.
+description: Un prédécesseur est la tâche dont dépend une autre tâche (appelée successeur ou tâche dépendante). Adobe Workfront prend en charge cinq types de dépendances de prédécesseur.
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-Un prédécesseur est la tâche dont une autre tâche (appelée successeur ou tâche dépendante) dépend. Adobe Workfront prend en charge cinq types de dépendances de prédécesseur. Pour comprendre les dépendances de prédécesseur, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Un prédécesseur est la tâche dont dépend une autre tâche (appelée successeur ou tâche dépendante). Adobe Workfront prend en charge cinq types de dépendances de prédécesseur. Pour comprendre les dépendances de prédécesseur, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Présentation des prédécesseurs
 
 Il est important de bien comprendre les fonctionnalités de prédécesseur pour connaître les calendriers de vos projets.
 
-Les relations entre les tâches se présentent au sein d’un seul projet et entre plusieurs projets.
+Les relations de prédécesseur de tâche existent à la fois entre les tâches d’un seul projet et entre les tâches de différents projets.
 
-Dans le cas d’une dépendance multi-projet, vous pouvez établir des prédécesseurs multi-projets.
+Dans le cas d’une dépendance multiprojet, vous pouvez établir des prédécesseurs inter-projets entre les tâches de deux projets différents.
 
-Que les tâches précédentes et successeurs appartiennent au même projet ou à deux projets différents, les dépendances et les chronologies sont calculées de la même manière.
+Que les tâches précédentes et successeurs appartiennent au même projet ou à deux projets différents, les dépendances et les calendriers de chaque projet sont calculés de la même manière.
 
 En ce qui concerne les prédécesseurs, la chronologie du projet est affectée par les éléments suivants :
 
@@ -38,15 +38,19 @@ En ce qui concerne les prédécesseurs, la chronologie du projet est affectée p
 * Valeur de balise et type\
   Pour plus d’informations sur les dépendances et les décalages, voir [Exemples de valeurs de prédécesseur dans une liste de tâches](#examples-of-predecessor-values-in-a-task-list).
 
-Par exemple, si la tâche A est un prédécesseur de la tâche B dans une relation de finalisation et de démarrage, et que la tâche B a une contrainte de tâche Dès que possible, Workfront attribue à la tâche B une date de début planifiée immédiatement après la date d’achèvement prévue de la tâche A, que le prédécesseur soit appliqué ou non.
+  Par exemple, si la tâche A est un prédécesseur de la tâche B dans une relation de finalisation et de démarrage, et que la tâche B a une contrainte de tâche Dès que possible, Workfront attribue à la tâche B une date de début planifiée immédiatement après la date d’achèvement prévue de la tâche A, que le prédécesseur soit appliqué ou non.
 
 Pour comprendre les relations de prédécesseur, vous devez comprendre :
 
 * **Types de dépendances :** Les prédécesseurs sont liés par différents types de dépendances. Pour plus d’informations sur les types de dépendance, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Application d’un prédécesseur** Lors de l’application d’un prédécesseur, la tâche qui lui succède ne peut pas commencer tant que le prédécesseur n’est pas terminé. La tâche de remplacement s’affiche comme démarrant immédiatement une fois que le prédécesseur est terminé.
+* **Application d’un prédécesseur** Lors de l’application d’un prédécesseur, la tâche qui lui succède ne peut absolument pas commencer tant que le prédécesseur n’est pas terminé. La tâche de remplacement s’affiche comme démarrant immédiatement une fois que le prédécesseur est terminé.
 
-  Workfront ne permet pas de la marquer comme En cours ou Terminé tant que le prédécesseur n’est pas terminé. Workfront permet toutefois de générer des rapports sur les heures de la tâche.\
+  Lorsque le prédécesseur n’est pas terminé (ou démarré) et qu’il n’est pas appliqué, la tâche qui lui succède peut commencer, mais la chronologie du projet est toujours affectée par les dates des tâches précédentes et de celles qui lui succèdent.
+
+  Avec un prédécesseur appliqué, Workfront ne permet pas que la tâche qui lui succède soit marquée comme En cours ou Terminé tant que le prédécesseur n’est pas terminé.
+
+  Workfront permet toutefois de générer des rapports sur les heures de la tâche.\
   Pour plus d’informations sur l’application des prédécesseurs, voir [Application des prédécesseurs](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Balises :** Vous pouvez créer des décalages dans vos dépendances, ce qui crée un délai qui doit survenir après l’achèvement d’une tâche de prédécesseur et avant que la tâche qui lui succède puisse commencer. Les décalages ont un impact sur la chronologie du projet.
@@ -104,7 +108,7 @@ Lorsque vous affichez les prédécesseurs dans une liste de tâches, vous pouvez
 
   >[!NOTE]
   >
-  >La valeur appliquée (**e**) doit être ajouté au journal, et non au prédécesseur.
+  >Vous devez ajouter la valeur appliquée (**e**) au journal, et non au prédécesseur.
 
 * **4515:2** Le numéro de tâche du prédécesseur est 2. - Il s’agit d’une dépendance Terminer au début non appliquée avec le prédécesseur du projet avec le numéro de référence. **4515**.
 

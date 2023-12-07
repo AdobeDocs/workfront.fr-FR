@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -122,7 +122,7 @@ Vous pouvez utiliser les champs Workfront intégrés et les champs personnalisé
    >
    >Dans cet exemple, `SUB` est l’expression et les champs référencés sont `actualRevenue` et `actualCost`.
 
-   Un calcul commence généralement par une expression, suivie de parenthèses contenant les champs que vous souhaitez référencer lorsque le formulaire personnalisé est joint à un objet. Pour plus d’informations sur les expressions disponibles, voir [Expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Un calcul commence généralement par une expression, suivie de parenthèses contenant les champs que vous souhaitez référencer lorsque le formulaire personnalisé est joint à un objet. Pour plus d’informations sur les expressions disponibles, voir [Présentation des expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Chaque champ doit être entouré de accolades, comme expliqué dans la section . [Syntaxe requise dans les champs personnalisés calculés](#syntax-required-in-calculated-custom-fields) dans cet article. Lorsque vous commencez à saisir le nom d’un champ, le système fait des suggestions et vous pouvez en sélectionner une pour l’insérer dans votre calcul.
 
@@ -138,7 +138,7 @@ Vous pouvez utiliser les champs Workfront intégrés et les champs personnalisé
    >
    >Vous pouvez effectuer l’une des opérations suivantes pour obtenir de l’aide sur votre calcul :
    > 
-   >* Passez la souris sur une expression de votre calcul pour afficher une description, un exemple illustrant son utilisation et un lien &quot;En savoir plus&quot; pour plus d’informations dans l’article. [Expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Passez la souris sur une expression de votre calcul pour afficher une description, un exemple illustrant son utilisation et un lien &quot;En savoir plus&quot; pour plus d’informations dans l’article. [Présentation des expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Utilisez le codage colorimétrique pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
    >  ![](assets/colors-fields-expressions.jpg)
@@ -206,13 +206,13 @@ Chaque champ doit utiliser la syntaxe expliquée ci-dessous, avec des accolades 
 
 * Si vous souhaitez que le calcul référence un champ intégré, le nom du champ doit être entouré de accolades.
 
-Par exemple: `{actualRevenue}`
+Par exemple : `{actualRevenue}`
 
 Les noms de champ sont sensibles à la casse et doivent apparaître dans le calcul exactement comme ils apparaissent dans le système Workfront.
 
 * Si vous souhaitez que le calcul référence un champ personnalisé, le nom du champ doit être entouré de accolades et précédé de `DE:` entre les crochets.
 
-Par exemple: `{DE:Profit}`
+Par exemple : `{DE:Profit}`
 
 Le système répertorie tous les champs personnalisés que vous pouvez choisir lorsque vous saisissez `DE:`.
 
@@ -261,9 +261,9 @@ Dans un formulaire personnalisé à plusieurs objets, les types d’objet sélec
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
->Dans un formulaire personnalisé configuré pour fonctionner avec le type d’objet Tâche , vous créez un champ personnalisé calculé nommé En charge. Vous pouvez le configurer pour référencer le champ intégré afin qu’il affiche le nom de la personne désignée Principale responsable chaque fois que le formulaire est joint à une tâche :
+>Dans un formulaire personnalisé configuré pour fonctionner avec le type d’objet Tâche , vous créez un champ personnalisé calculé nommé En charge. Vous pouvez le configurer pour référencer le champ intégré afin qu’il affiche le nom de la personne désignée principale responsable chaque fois que le formulaire est joint à une tâche :
 >
 >`{assignedTo}.{name}`
 >

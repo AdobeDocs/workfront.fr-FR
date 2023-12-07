@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -180,7 +180,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
       * Si vous souhaitez que le calcul référence un champ intégré, le nom du champ doit être entouré de accolades.
 
-        Par exemple: `{actualRevenue}`
+        Par exemple : `{actualRevenue}`
 
         Les noms de champ sont sensibles à la casse et doivent apparaître dans le calcul exactement comme ils apparaissent dans le système Workfront.
 
@@ -188,7 +188,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
       * Si vous souhaitez que le calcul référence un champ personnalisé, le nom du champ doit être entouré de accolades et précédé de `DE:` entre les crochets.
 
-        Par exemple: `{DE:Profit}`
+        Par exemple : `{DE:Profit}`
 
         Le système répertorie tous les champs personnalisés que vous pouvez choisir lorsque vous saisissez `DE:`.
 
@@ -237,7 +237,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         >[!INFO]
         >
-        >**Exemple:**
+        >**Exemple :**
         >
         >Dans un formulaire personnalisé configuré pour fonctionner avec des projets, des tâches et des problèmes, vous pouvez utiliser la formule suivante pour afficher le type d’objet :
         >
@@ -281,7 +281,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
       >
       >Vous pouvez effectuer l’une des opérations suivantes pour obtenir de l’aide sur votre calcul :
       > 
-      >* Passez la souris sur une expression de votre calcul pour afficher une description, un exemple illustrant son utilisation et un lien &quot;En savoir plus&quot; pour plus d’informations dans l’article. [Expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Passez la souris sur une expression de votre calcul pour afficher une description, un exemple illustrant son utilisation et un lien &quot;En savoir plus&quot; pour plus d’informations dans l’article. [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* Utilisez le codage colorimétrique pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
       >  ![](assets/colors-fields-expressions.jpg)

@@ -7,9 +7,9 @@ description: Vous pouvez utiliser des opérateurs de condition ou des modificate
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -55,52 +55,52 @@ Vous pouvez utiliser les modificateurs de condition suivants dans Workfront :
   <tr> 
    <td>Égal à (non sensible à la casse)</td> 
    <td>= </td> 
-   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est égal au second champ.</p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({projetementCompletionDate}={scheduledCompletionDate},"On Track","Off Track")</pre> </td> 
+   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est égal au second champ.</p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({projectedCompletionDate}={plannedCompletionDate},"Sur piste","Hors suivi")</pre> </td> 
   </tr> 
   <tr> 
    <td>Supérieur à </td> 
    <td>&gt; </td> 
-   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est supérieur au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({ProjectionCompletionDate}&gt;{scheduledCompletionDate},"Late",")</pre></td> 
+   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est supérieur au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late",")</pre></td> 
   </tr> 
   <tr> 
    <td>Supérieur ou égal à </td> 
    <td>&gt;= </td> 
-   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est supérieur ou égal au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({projectileCompletionDate}&gt;={scheduledCompletionDate},"Late","Early")</pre></td> 
+   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est supérieur ou égal au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</pre></td> 
   </tr> 
   <tr> 
    <td>Inférieur à </td> 
    <td>&lt; </td> 
-   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est inférieur au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({projetementCompletionDate}&lt;{scheduledCompletionDate},"Early","")</pre></td> 
+   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est inférieur au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early",")</pre></td> 
   </tr> 
   <tr> 
    <td>Inférieur ou égal à </td> 
    <td>&lt;= </td> 
-   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est inférieur ou égal au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({projetementCompletionDate}&lt;={scheduledCompletionDate},"Early","Late")</pre></td> 
+   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est inférieur ou égal au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><pre>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</pre></td> 
   </tr> 
   <tr> 
    <td>Does not </td> 
    <td>! </td> 
    <td> <p>Ajoutez cet opérateur devant l'un des opérateurs ci-dessus pour annuler l'opérateur. </p> <p>Par exemple : </p> 
     <ul> 
-     <li>Est égal à: = </li> 
-     <li>Est différent de: != </li> 
+     <li>Est égal à : = </li> 
+     <li>N’est pas égal à : != </li> 
     </ul> <p>L’ajout de cet opérateur devant les expressions de données suivantes ajoute une instruction négative aux expressions : </p> 
     <ul> 
      <li>CONTIENT </li> 
      <li>DANS </li> 
      <li>IFIN </li> 
      <li>ISBLANK </li> 
-    </ul> <p>Pour plus d’informations sur ces expressions de données et pour obtenir une liste complète, voir <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Expressions de données calculées</a>. </p> </td> 
+    </ul> <p>Pour plus d’informations sur ces expressions de données et pour obtenir une liste complète, voir <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Présentation des expressions de données calculées</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Ou </td> 
    <td>|| </td> 
-   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l’expression trouve la première ou la seconde valeur de votre instruction. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui marque les projets dans les états Actuel ou Planification comme "Principal" : </p><pre>IF({status}="PLN"||{status}="CUR","Principal","Non Principal")</pre> </td> 
+   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l’expression trouve la première ou la seconde valeur de votre instruction. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui marque les projets dont les états Actuel ou Planification sont "Actif" : </p><pre>IF({status}="PLN"|{status}="CUR","Actif","Non actif")</pre> </td> 
   </tr> 
   <tr> 
    <td> Et </td> 
-   <td>&amp;&amp; </td> 
-   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l’expression trouve un élément qui répond simultanément à deux conditions. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui recherche les projets qui sont à l’état actuel et qui ont une condition de risque et les marque comme "médiation nécessaire". </p><pre>IF({status}="CUR"&amp;{condition}="AR","Mediation Needed","")</pre> </td> 
+   <td>&amp; </td> 
+   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l’expression trouve un élément qui répond simultanément à deux conditions. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui recherche les projets qui sont à l’état actuel et qui ont une condition de risque et les marque comme "médiation nécessaire". </p><pre>IF({status}="CUR"&amp;&amp;{condition}="AR","Mediation requise",""))</pre> </td> 
   </tr> 
  </tbody> 
 </table>
