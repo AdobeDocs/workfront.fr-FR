@@ -2,20 +2,20 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Configuration [!DNL Adobe Workfront] pour [!DNL Outlook]
-description: Adobe Workfront Fusion offre une intégration à Outlook. Cet article décrit comment commencer à utiliser cette intégration dans vos propres workflows.
+description: La variable [!DNL Adobe Workfront] [!DNL Outlook] add-in vous permet d’effectuer la clé [!DNL Workfront] tâches directement depuis Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
 
 # Configuration [!DNL Adobe Workfront for Outlook]
 
-La variable [!DNL Adobe Workfront] [!DNL Outlook] module complémentaire vous permet d’effectuer les opérations suivantes : [!DNL Workfront] tâches directement depuis Outlook :
+La variable [!DNL Adobe Workfront] [!DNL Outlook] module complémentaire permet d’effectuer les opérations suivantes : [!DNL Workfront] tâches directement depuis Outlook :
 
 * Mettre à jour un projet, une tâche ou un problème existant à l’aide des informations d’un courrier électronique. Pour plus d’informations, voir [Mettre à jour un objet existant à partir d’un [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
 * Créez un [!DNL Workfront] requête basée sur un courrier électronique dans [!DNL Outlook]. Pour plus d’informations, voir [Créez une requête Adobe Workfront à partir d’une [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
@@ -41,12 +41,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
-  <tr>
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau plan : Standard </p>
- <p>ou</p> 
-<p>Plan actuel : [!UICONTROL Work], [!UICONTROL Plan] </p> 
-  </td> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> 
+   <p>Nouveau plan : [!UICONTROL Standard]</p> 
+   <p>Plan actuel :[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +70,7 @@ La variable [!DNL Workfront] module complémentaire pour [!DNL Outlook] est pris
 
 ### Conditions client {#client-requirements}
 
-Nous prenons en charge les versions suivantes de [!DNL Outlook]:
+Workfront prend en charge les versions suivantes de [!DNL Outlook]:
 
 * [!DNL Outlook 2013] ou ultérieur [!DNL Windows]
 *[!DNL  Outlook 2016] ou ultérieur [!DNL Windows]
@@ -91,7 +90,7 @@ Lors de la configuration du client, l&#39;utilisateur doit sélectionner l&#39;u
 
 Les exigences du serveur de messagerie sont remplies par défaut lorsque vous vous connectez à [!DNL Office 365] ou [!DNL Outlook.com]. Cependant, si vous êtes connecté à une installation on-premise de [!DNL Exchange Server], les exigences suivantes s’appliquent :
 
-* Nous soutenons tous [!DNL Exchange On-Premise] serveurs
+* Workfront prend en charge tous les [!DNL Exchange On-Premise] serveurs
 * [!DNL Exchange Web Services] (EWS) doit être activé et exposé à Internet.
 * Le serveur doit disposer d’un certificat d’authentification valide pour que le serveur puisse émettre des jetons d’identité valides. Nouvelles installations de [!DNL Exchange Server] incluez un certificat d’authentification par défaut.
 
@@ -103,11 +102,7 @@ Pour plus d’informations sur les environnements pris en charge, voir [[!DNL Mi
 
 ## Installation du module complémentaire
 
-Pour plus d’informations sur la configuration de la variable [!DNL Workfront] module complémentaire pour [!DNL Outlook], voir [[!DNL Workfront] - Gestion collaborative du travail.](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)
-
-* [[!DNL Workfront] pour [!DNL Outlook 365]](#workfront-for-outlook-365-workfront-for-outlook-365)
-* [[!DNL Workfront] pour [!DNL Outlook] sur le Web](#workfront-for-outlook-on-the-web-workfront-for-outlook-on-the-web)
-* [[!DNL Workfront] pour [!DNL Outlook] on [!DNL Windows] ou [!DNL Mac]](#workfront-for-outlook-on-windows-or-mac-workfront-for-outlook-on-windows-or-mac)
+Vous pouvez obtenir le module complémentaire Workfront pour Outlook à partir du [Microsoft store](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
 
 ### [!DNL Workfront] pour [!DNL Outlook 365] {#workfront-for-outlook-365}
 
