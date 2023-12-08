@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 5%
+source-wordcount: '833'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +42,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Activation du processus de révision rapide</p> </td> 
-      <td>Permet d’activer les versions Workfront mensuelles pour votre organisation plutôt que les versions trimestrielles.</p><p>Pour plus d’informations sur le processus de publication rapide, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Activation ou désactivation de versions rapides pour votre entreprise</a>.</p></td> 
+      <td>Permet d’activer les versions Workfront mensuelles pour votre organisation plutôt que les versions trimestrielles.</p><p>Pour plus d’informations sur le processus de publication rapide, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Activation ou désactivation de versions rapides pour votre entreprise</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Autoriser l’incorporation de <strong>Workfront</strong> dans un iframe</p> </td> 
@@ -80,7 +80,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td> <p>Vous permet d’incorporer Workfront dans un iFrame uniquement pour les modules complémentaires Office 365 lorsque Workfront est intégré à une solution de connexion unique SAML 2.0. </p> <p>Cette option est activée par défaut.</p> <p><b>REMARQUE</b>: si vous activez l’option ci-dessus, <strong>Autorisation de l’incorporation de Workfront dans un iFrame</strong>, l’option <strong>Autorisation de l’authentification SAML 2.0 dans les modules complémentaires Office 365</strong> est activé et grisé.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Active l'utilisation des informations de session lors de la création d'URL de page externe</td> 
+      <td role="rowheader">Activer l’utilisation des informations de session lors de la création d’URL de page externes</td> 
       <td> <p>Permet aux utilisateurs d’utiliser les informations d’ID de session d’un site lors de l’ajout d’une page externe à un tableau de bord.</p> <p>Pour plus d’informations sur l’ajout de pages externes à un tableau de bord, voir <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporation d’une page web externe dans un tableau de bord</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -98,7 +98,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
        </ul><p>Cette option est activée par défaut.</p> <p><b>Important</b>: le niveau d’accès Utilisateur externe n’est pas disponible dans votre instance Workfront si cette option est désactivée. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveaux d’accès intégrés dans Workfront</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Demander aux utilisateurs externes de s'inscrire avec un mot de passe</td> 
+      <td role="rowheader">Exiger que les utilisateurs externes s’enregistrent avec un mot de passe</td> 
       <td> <p>Nécessite que les utilisateurs externes s’enregistrent avant de pouvoir afficher les éléments dans Workfront. Par défaut, cette option est désactivée. Lorsque vous activez cette option, les personnes sans compte Workfront qui sont incluses dans certaines mises à jour par leur adresse électronique sont invitées à créer un compte avant de pouvoir afficher l’élément sur lequel elles sont incluses. Cela crée un compte d’utilisateur externe pour ces utilisateurs.</p> <p>Cette option est désactivée par défaut.</p> </td> 
      </tr> 
      <tr> 
