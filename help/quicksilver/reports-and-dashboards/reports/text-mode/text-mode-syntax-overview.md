@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -99,14 +99,14 @@ Les similitudes suivantes existent entre la syntaxe des ensembles d’éléments
 
 ### Syntaxe des vues et des regroupements
 
-Vous remarquerez peut-être que les lignes de code lors de la création de vues et de regroupements sont similaires.
+Les lignes de code lors de la création de vues et de regroupements sont similaires.
 
 Pour plus d’informations sur la création de vues et de regroupements, consultez les articles suivants :
 
 * [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-La ligne de code la plus importante pour une vue ou un regroupement est la ligne qui identifie l’objet référencé dans la colonne de la vue ou le regroupement. Selon que ce champ est une référence directe à un champ de la base de données Workfront ou un calcul entre plusieurs champs, la ligne de code peut commencer par `valuefield` ou `valueexpression`
+La ligne de code la plus importante pour une vue ou un regroupement est la ligne qui identifie l’objet référencé dans la colonne de la vue ou dans le regroupement. Cette ligne de code peut commencer par `valuefield` ou `valueexpression` selon que ce champ est une référence directe à un champ de la base de données Workfront ou un calcul entre plusieurs champs.
 
 Le tableau suivant répertorie les lignes de codes les plus courantes dans une vue ou un regroupement :
 
@@ -216,13 +216,11 @@ Les règles suivantes s’appliquent lorsque vous référencez des objets Workfr
 
 #### `Valueformat` vue d’ensemble des vues et des regroupements
 
-La deuxième ligne de code la plus importante dans une vue ou un regroupement est la suivante : `valueformat=` ligne. Cela indique à Workfront dans quel format renvoyer la valeur que vous spécifiez dans la variable
-`valuefield` ou des lignes d’expression de valeur. Bien que vous puissiez utiliser différents formats pour le `valueformat` lignes, nous vous recommandons de toujours utiliser la valeur suivante lors de l’utilisation de
-`valueexpression`:
+La deuxième ligne de code la plus importante dans une vue ou un regroupement est la suivante : `valueformat=` ligne. Cela indique à Workfront dans quel format renvoyer la valeur que vous spécifiez dans la variable `valuefield` ou `valueexpression` lignes. Bien que vous puissiez utiliser différents formats pour le `valueformat` lignes, nous vous recommandons de toujours utiliser la valeur suivante lors de l’utilisation de `valueexpression`:
 
 `valueformat=HTML`
 
-Pour les `valueformats` , reportez-vous également aux articles suivants :
+Pour les `valueformat` , reportez-vous également aux articles suivants :
 
 * [Mise en forme des dates dans les rapports en mode texte](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formatage des valeurs, des devises et des pourcentages dans les rapports en mode texte](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
@@ -233,7 +231,7 @@ Pour les `valueformats` , reportez-vous également aux articles suivants :
 
 Vous devez utiliser la variable `usewidths=true` ligne de code pour appliquer la largeur spécifiée pour la colonne.
 
-**Exemple :** Pour afficher une colonne d’une largeur de 80 pixels, utilisez les lignes suivantes :
+**Exemple :** Pour afficher une colonne de 80 pixels, utilisez les lignes suivantes :
 
 `width=80`
 

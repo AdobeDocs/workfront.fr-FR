@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: En tant qu’administrateur Adobe Workfront, vous pouvez créer des niveaux d’accès personnalisés et les appliquer aux utilisateurs.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 6%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-En tant qu’administrateur Adobe Workfront, vous pouvez créer des niveaux d’accès personnalisés et les appliquer aux utilisateurs. Lorsque vous utilisez des niveaux d’accès, il est important de comprendre comment ils fonctionnent ensemble avec les autorisations d’objet que les utilisateurs accordent lorsqu’ils partagent des objets les uns avec les autres. Pour plus d’informations sur les niveaux d’accès, voir
+En tant qu’administrateur Adobe Workfront, vous pouvez créer des niveaux d’accès personnalisés et les appliquer aux utilisateurs. Lorsque vous utilisez des niveaux d’accès, il est important de comprendre comment ils fonctionnent ensemble avec les autorisations d’objet que les utilisateurs accordent lorsqu’ils partagent des objets les uns avec les autres. Pour plus d’informations sur les niveaux d’accès, voir :
 
 * [Nouveaux niveaux d’accès - Aperçu](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Taux de change</td> 
-      <td> <p>Ajoutez une nouvelle devise dans Workfront.</p> <p>Sans cet accès, l’utilisateur ne peut ajouter une devise existante qu’à un projet qu’il crée.</p> </td> 
+      <td> Ajoutez une nouvelle devise dans Workfront. <p>Sans cet accès, l’utilisateur ne peut ajouter une devise existante qu’à un projet qu’il crée.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Frais</td> 
@@ -118,13 +118,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Fonctions</td> 
-      <td> <p>Avec cet accès, l’utilisateur est autorisé à effectuer les opérations suivantes :</p> 
+      <td> Avec cet accès, l’utilisateur est autorisé à effectuer les opérations suivantes : 
        <ul> 
         <li>Affichage et modification des rôles de tâche existants</li> 
         <li>Ajout de nouveaux rôles de tâche</li> 
         <li>Modifier la facturation des rôles et les taux de coûts</li> 
        </ul> 
-       <p>Pour obtenir des informations importantes sur l’accès aux données financières disponibles pour un utilisateur standard ou de type planificateur disposant d’un accès administratif aux rôles de tâche, voir <a href="#planner-users-with-administrative-access-to-job-roles">Utilisateurs standard ou planificateurs ayant un accès administratif aux rôles de tâche</a>.</p>
+       <p>Pour obtenir des informations importantes sur l’accès aux données financières disponibles pour un utilisateur standard ou de type planificateur disposant d’un accès administratif aux rôles de tâche, voir <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Utilisateurs standard ou planificateurs ayant un accès administratif aux rôles de tâche</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Feuilles de temps et heures</td> 
-      <td> <p>Les administrateurs de groupe peuvent affecter des profils de feuille de temps aux utilisateurs dans les groupes et sous-groupes qu’ils gèrent.</p> <p>Si cette option n’est pas activée, les administrateurs de groupe ne peuvent pas affecter de profils de feuille de temps à d’autres utilisateurs dans les groupes et sous-groupes qu’ils gèrent, bien qu’ils puissent les créer.</p> <p>Tous les autres utilisateurs disposant d’une licence Standard ou Plan peuvent afficher toutes les heures et les feuilles de temps dans Workfront.</p> <p>Si cette option n’est pas activée, les utilisateurs peuvent afficher les heures uniquement sur :</p> 
+      <td> Les administrateurs de groupe peuvent affecter des profils de feuille de temps aux utilisateurs dans les groupes et sous-groupes qu’ils gèrent. <p>Si cette option n’est pas activée, les administrateurs de groupe ne peuvent pas affecter de profils de feuille de temps à d’autres utilisateurs dans les groupes et sous-groupes qu’ils gèrent, bien qu’ils puissent les créer.</p> <p>Tous les autres utilisateurs disposant d’une licence Standard ou Plan peuvent afficher toutes les heures et les feuilles de temps dans Workfront.</p> <p>Si cette option n’est pas activée, les utilisateurs peuvent afficher les heures uniquement sur :</p> 
        <ul> 
         <li>Projets, tâches ou problèmes qu’ils gèrent</li> 
         <li>Leur propre feuille de temps</li> 
@@ -168,11 +168,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les mises à jour dans lesquelles ils ont été inclus dans la conversation</td> 
-      <td> <p>Permet aux utilisateurs de n’afficher que les commentaires pour lesquels leur nom ou le nom de leur équipe a été inclus.</p> <p> <p><b>REMARQUE</b>: cela empêche les utilisateurs de s’abonner aux éléments dans Workfront. Pour plus d’informations sur l’abonnement aux éléments, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Ajout d’utilisateurs</a>.</p> </p> </td> 
+      <td> Permet aux utilisateurs de n’afficher que les commentaires pour lesquels leur nom ou le nom de leur équipe a été inclus. <p> <p><b>REMARQUE</b>: cela empêche les utilisateurs de s’abonner aux éléments dans Workfront. Pour plus d’informations sur l’abonnement aux éléments, voir <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonnement aux éléments dans Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser les utilisateurs à supprimer les commentaires </td> 
-      <td> <p>Empêche les utilisateurs de supprimer les commentaires qu’ils font sur les éléments. </p> <p><b>REMARQUE</b>: personne ne peut supprimer les commentaires des autres utilisateurs.</p> </td> 
+      <td> Empêche les utilisateurs de supprimer les commentaires qu’ils font sur les éléments.  <p><b>REMARQUE</b>: personne ne peut supprimer les commentaires des autres utilisateurs.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les entreprises, les groupes et les équipes auxquels ils appartiennent</td> 
@@ -191,7 +191,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Conditionnel et facultatif) Si votre système Workfront est configuré pour les utilisateurs appartenant à plusieurs entreprises, limitez la visibilité aux autres utilisateurs en fonction de la société à laquelle ils appartiennent dans la section . **Les personnes d’autres entreprises ne doivent afficher que les utilisateurs issus de**.
 
-   Vous pouvez empêcher les utilisateurs d’afficher uniquement les utilisateurs de leur propre société ou de la société que vous avez désignée comme principale société. Pour plus d’informations sur la société principale, voir [Création et modification d’entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Vous pouvez empêcher les utilisateurs d’afficher uniquement les utilisateurs de leur propre société ou de la société que vous avez désignée comme principale société. L’entreprise principale représente généralement votre compte Workfront où la plupart de vos utilisateurs travaillent. Pour plus d’informations sur la société principale, voir [Création et modification d’entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >

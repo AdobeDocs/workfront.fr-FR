@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3570'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <ul><li>Passez en revue ou plus pour consigner les heures générales dans une feuille de temps</li>
-   <li> Travailler ou plus pour consigner les heures sur un projet, une tâche ou un problème</li></ul>
+   <td> <p>Nouveau plan :<ul><li>Clair ou supérieur pour consigner les heures générales dans une feuille de temps</li></p>
+   <li> Standard ou supérieur pour consigner les heures sur un projet, une tâche ou un problème</li></ul></p>
+   <p>ou</p>
+   <p>Formule actuelle :<ul><li>Passez en revue ou plus pour consigner les heures générales dans une feuille de temps</li></p>
+   <li> Travailler ou plus pour consigner les heures sur un projet, une tâche ou un problème</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Les entrées de l’heure incluses dans les enregistrements de facturation sont grisées et ne peuvent pas être modifiées dans la feuille de temps. Pour plus d’informations, voir [Créer des enregistrements de facturation](../../manage-work/projects/project-finances/create-billing-records.md).
 * Par défaut, les tâches personnelles ne s’affichent pas dans la feuille de temps. Les tâches personnelles ne s’affichent dans la feuille de temps que lorsqu’elles ont été enregistrées. Après avoir consigné le temps sur une tâche personnelle, vous pouvez épingler la tâche dans la feuille de temps et elle restera sur la feuille de temps si elle reste épinglée. Pour plus d’informations, voir [Création d’éléments de travail à partir de la zone Accueil](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## Enregistrer des heures
+## Enregistrer des heures {#log-time-section}
 
 Dans Workfront, vous pouvez consigner l’heure de connexion dans les zones suivantes :
 
@@ -136,7 +139,7 @@ Vous pouvez consigner l’heure aux éléments suivants dans la feuille de temps
 
 Pour consigner l’heure sur une feuille de temps :
 
-1. Cliquez sur le bouton [!UICONTROL **Menu Principal**] icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou le **Menu Principal** icon ![](assets/lines-main-menu.png) dans le coin supérieur gauche de Workfront, le cas échéant.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
 
 1. Cliquez sur [!UICONTROL **Feuilles de temps**]. Votre feuille de temps actuelle s’affiche par défaut.
    ![Feuille de calcul](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ Pour consigner l’heure sur une feuille de temps :
 1. (Facultatif) Développez les menus déroulants de filtrage, d’affichage ou de regroupement pour en appliquer ou personnaliser un et afficher les informations sur l’élément de votre choix.
 
 1. Sélectionnez un ou plusieurs éléments de la liste, puis cliquez sur **Ajouter**.
+
+   Si vous avez ajouté moins de 50 éléments à la fois, ils sont ajoutés à la feuille de temps. Les tâches et les problèmes sont répertoriés sous le nom du projet.
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ Pour consigner l’heure sur une feuille de temps :
 
    ![Menu déroulant Type d’heure](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   Selon votre système d’exploitation ou navigateur et lors de l’utilisation d’un clavier QWERTY standard, appuyez sur l’ensemble de touches suivant pour ajouter une autre ligne :
@@ -231,7 +237,6 @@ Pour consigner l’heure sur une feuille de temps :
    >   Selon votre système d’exploitation ou navigateur et lors de l’utilisation d’un clavier QWERTY standard, appuyez sur l’ensemble de touches suivant pour supprimer une ligne :
    >   * Ctrl + Option + - pour les ordinateurs Windows
    >   * Cmd + Option + - pour les ordinateurs Mac
-
 
 1. Spécifiez la durée de connexion à un jour donné dans la section chronologie de la feuille de temps, puis cliquez en dehors de la zone d’heure pour enregistrer l’entrée d’heure. Les heures sont enregistrées automatiquement. La ligne pour laquelle vous enregistrez l’heure est mise en surbrillance en bleu clair et la zone de saisie de l’heure est indiquée en bleu foncé.
 
@@ -299,6 +304,8 @@ Pour consigner l’heure sur une feuille de temps :
 1. (Facultatif) Cliquez sur [!UICONTROL **Mises à jour**] dans le panneau de gauche, puis ajoutez une mise à jour à la feuille de temps. Pour plus d’informations sur les mises à jour de Workfront, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-redesigné-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+
+1. (Facultatif) Revenez au **Feuille de calcul** pour fermer ou envoyer votre feuille de temps.
 
    * **Fermer**: fermez la feuille de temps lorsque vous l’avez mise à jour. Cette option n’est disponible que si votre feuille de temps n’est pas associée à un approbateur.
 
