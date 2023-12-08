@@ -3,65 +3,30 @@ content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Présentation des feuilles de calcul
-description: Vous pouvez utiliser des feuilles de temps pour effectuer le suivi du temps que vous passez au travail. Pour plus d’informations sur la disposition de la feuille de temps dans Adobe Workfront, voir Présentation de la disposition de la feuille de temps.
+description: Vous pouvez utiliser des feuilles de temps pour effectuer le suivi du temps que vous passez au travail, à l’intérieur et à l’extérieur, dans Adobe Workfront.
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # Présentation des feuilles de calcul
 
-Vous pouvez utiliser des feuilles de temps pour effectuer le suivi du temps passé sur le travail dans Adobe Workfront.
+Vous pouvez utiliser des feuilles de temps pour effectuer le suivi du temps que vous passez au travail, à l’intérieur et à l’extérieur, dans Adobe Workfront.
 
-En tant qu’administrateur Workfront ou de groupe, vous pouvez créer des feuilles de temps et les associer à vos utilisateurs. Pour plus d’informations sur la création de feuilles de temps, voir [Créer et gérer des feuilles de temps](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+Vous pouvez consigner le temps du projet sur les tâches, telles que les projets, les tâches et les problèmes. La durée de connexion aux tâches, problèmes et projets s’affiche automatiquement dans votre feuille de temps.
 
-Une feuille de temps est un tableau de type grille qui affiche des éléments de travail et une zone de calendrier. Vous pouvez consigner l’heure des éléments et l’associer au jour où la tâche a été effectuée. Cela permet d’effectuer le suivi du temps de travail réel dans Workfront. Il existe également une zone de la feuille de temps dans laquelle vous pouvez consigner le temps des éléments qui ne sont pas liés au travail, comme les réunions, la formation ou le temps passé loin du bureau.
+Vous pouvez également consigner le temps qui n’est pas consacré au projet pour des éléments qui ne sont pas liés au travail, tels que des réunions, des formations ou du temps qui s’écoule du bureau directement sur votre feuille de temps sous Heures générales.
 
-Pour plus d’informations sur la disposition de la feuille de temps dans Adobe Workfront, voir [Présentation de la disposition de la feuille de calcul](../../timesheets/timesheets/timesheet-layout.md).
-
-![](assets/timesheet-example.png)
-
-Vous pouvez consigner le temps dans Workfront de différentes manières, généralement au niveau du projet, de la tâche ou du problème où le travail est effectué. La durée de connexion aux tâches, problèmes et projets s’affiche également dans votre feuille de temps.
-
-Vous pouvez également consigner le temps de travail non lié au projet, sous Heures générales. L’heure générale ne peut être enregistrée que dans votre feuille de temps.
-
-Pour plus d’informations sur l’emplacement où vous pouvez vous connecter à Workfront, voir [Temps de connexion](../../timesheets/create-and-manage-timesheets/log-time.md).
+Pour plus d’informations sur la façon de se connecter à Workfront, voir [Temps de connexion](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!TIP]
 >
->L’application mobile Workfront vous permet également de publier des mises à jour, de modifier l’heure consignée, de saisir des commentaires et de fermer votre feuille de temps.
-
-## Exigences d’accès
-
-Les étapes de cet article doivent être les suivantes :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Vous devez disposer d’un accès administratif aux feuilles de calcul. </p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
- </tbody> 
-</table>
-
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+>Si vous êtes administrateur Workfront ou de groupe, vous pouvez créer des feuilles de temps et les associer à vos utilisateurs. Pour plus d’informations sur la création de feuilles de temps, voir [Créer et gérer des feuilles de temps](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Comprendre le temps du projet par rapport au temps hors projet
@@ -76,21 +41,21 @@ Les feuilles de temps offrent aux utilisateurs un moyen simple de suivre le temp
 
 * **Durée hors projet :** Directement sur la feuille de temps utilisateur. Pour plus d’informations sur le suivi du temps dans Workfront, voir   [Temps de connexion](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-  Sur une feuille de temps, une ressource peut enregistrer les heures de vacances, les heures d’indisponibilité, les heures passées en transit, les heures passées à réparer ou à entretenir l’équipement, ou les types d’heures générales de surcharge que vous souhaitez créer.
+  Sur une feuille de temps, vous pouvez enregistrer les heures de vacances, les heures de malade, les heures passées en transit, les heures passées à réparer ou à entretenir l’équipement, ou les types d’heures de surcharge générale que vous souhaitez créer.
 
 ## Accès aux feuilles de temps dans la zone Fiches de temps
 
-Pour plus d’informations sur toutes les zones de Workfront où vous pouvez consigner le temps, voir [Temps de connexion](../../timesheets/create-and-manage-timesheets/log-time.md).
+La zone de la feuille de temps est disponible par défaut pour tous les utilisateurs. Les administrateurs de Workfront peuvent le modifier dans le modèle de mise en page, si nécessaire. Pour plus d’informations, voir [Personnalisation du menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 Pour accéder à une feuille de temps :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/dots-main-menu.png) dans le coin supérieur droit, ou le **Menu Principal** icon ![](assets/lines-main-menu.png) dans le coin supérieur gauche de Workfront, le cas échéant, cliquez sur Fiches horaires.
+{{step1-to-timesheets}}
 
-   Par défaut, la zone Feuilles de calcul s’affiche, ainsi que toutes les feuilles de temps qui vous appartiennent ou que vous avez accès à l’affichage.
+Toutes vos feuilles de temps ainsi que vos feuilles de temps vous permettent d’afficher par défaut. Pour plus d’informations sur la disposition de la feuille de temps dans Adobe Workfront, voir [Présentation de la disposition de la feuille de calcul](../../timesheets/timesheets/timesheet-layout.md).
 
-   ![](assets/all-timesheets-list-nwe-350x68.png)
+![](assets/all-timesheets-list-nwe-350x68.png)
 
-1. Cliquez sur l’une des options suivantes dans le coin supérieur droit pour afficher un nombre limité de feuilles de temps :
+1. Cliquez sur l’une des options suivantes dans le coin supérieur droit pour afficher vos feuilles de calcul :
 
    * **Mes feuilles de calcul** pour afficher uniquement vos feuilles de temps.
 
@@ -100,7 +65,6 @@ Pour accéder à une feuille de temps :
 
      ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
-   Une liste filtrée de feuilles de temps s’affiche.
 
 1. (Facultatif) Mettez à jour la vue, le filtre et le regroupement en haut de la liste des feuilles de temps. Pour plus d’informations, voir [Éléments de reporting : filtres, vues et regroupements](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 
@@ -109,6 +73,3 @@ Pour accéder à une feuille de temps :
    Chaque feuille de temps affiche toutes les tâches, problèmes et projets pour lesquels vous avez effectué des connexions. Une feuille de temps affiche également jusqu’à 45 tâches, problèmes ou projets qui vous sont affectés avec des dates comprises dans la période de la feuille de temps, mais pour lesquelles vous n’avez peut-être pas encore consigné l’heure.
 
    Pour plus d’informations, voir [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-
-

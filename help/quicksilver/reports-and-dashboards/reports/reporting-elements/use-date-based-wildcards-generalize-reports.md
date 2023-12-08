@@ -6,9 +6,9 @@ description: Vous pouvez généraliser un rapport en utilisant des caractères g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
@@ -85,12 +85,12 @@ Pour insérer un caractère générique basé sur des dates dans un rapport :
 
    Type `$$NOW` si vous souhaitez afficher des informations sur un événement qui se produit à la même date et à la même heure que l’exécution du rapport.
 
-   Cette date est toujours différente, car elle change avec la date à laquelle le rapport est réellement consulté par un utilisateur. les informations du rapport sont donc différentes au quotidien.
+   Cette date est toujours différente, car elle change avec la date à laquelle le rapport est réellement consulté par un utilisateur. les informations du rapport sont donc différentes d’un jour à l’autre.
 
-1. (Facultatif) Si vous souhaitez afficher des informations qui se produisent au cours d’une période suivant la date d’exécution du rapport, saisissez `$$TODAY+1w` pour afficher les informations de la semaine suivante, ou `$$TODAY+2m` pour afficher les informations dans les deux prochains mois. Vous pouvez également indiquer les trimestres, heures, jours ou années.
+1. (Facultatif) Si vous souhaitez afficher des informations qui se produisent dans un délai après la date d’exécution du rapport, saisissez `$$TODAY+1w` pour afficher les informations de la semaine suivante, ou `$$TODAY+2m` pour afficher les informations dans les deux prochains mois. Vous pouvez également indiquer les trimestres, heures, jours ou années.
 1. (Facultatif) Si vous souhaitez afficher des informations sur un événement survenu au cours d’une période antérieure à la date d’exécution du rapport, saisissez `$$TODAY-1w` pour afficher les informations de la semaine précédente, ou `$$TODAY-2m` pour afficher les informations des deux mois précédents. Vous pouvez également indiquer les trimestres, heures, jours ou années.
 
-   Pour obtenir la liste complète des attributs, qualificateurs et opérateurs que vous pouvez utiliser dans les caractères génériques basés sur la date, reportez-vous à l’article [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Pour obtenir la liste complète des attributs, qualificateurs et opérateurs que vous pouvez utiliser dans les caractères génériques basés sur la date, consultez l’article [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
@@ -101,7 +101,7 @@ Pour insérer un caractère générique basé sur des dates dans un rapport :
 Voir aussi :
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Création ou modification de filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Utilisation d’une mise en forme conditionnelle dans les vues](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

@@ -7,9 +7,9 @@ description: FAQ sur les rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planification, Travail</p> </td> 
+   <td> <p>Planifier, travailler</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -77,7 +77,7 @@ Lorsque le graphique contient moins de 50 éléments, la valeur de chaque élém
 
 ## Pourquoi mon rapport renvoie-t-il trop de résultats pour afficher le graphique ?
 
-Lorsque je lance un rapport avec un graphique, le message d’erreur &quot;Ouah là-bas...&quot; s’affiche. Ce rapport renvoyait BEAUCOUP de données, ce qui rend le graphique illisible. Envisagez de réduire vos résultats en ajoutant un filtre ou en modifiant les regroupements dans votre graphique.&quot;
+Lorsque je lance un rapport avec un graphique, le message d’erreur &quot;Ouah là-bas...&quot; s’affiche. Ce rapport renvoyait BEAUCOUP de données, ce qui rend le graphique illisible. Essayez de réduire vos résultats en ajoutant un filtre ou en modifiant les regroupements dans votre graphique.&quot;
 
 ### Réponse
 
@@ -85,14 +85,14 @@ Cette erreur signifie que votre graphique contient jusqu’à 618 résultats dis
 
 Pour plus d’informations sur la modification des filtres et des regroupements, voir les articles [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) et [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-## Pourquoi mes tâches (ou problèmes) apparaissent-elles lorsque j’accède au même rapport (ou calendrier) que mon collègue et qu’elles voient plutôt leurs tâches ?
+## Pourquoi mes tâches (ou mes problèmes) apparaissent-elles lorsque j’accède au même rapport (ou calendrier) que mon collègue et qu’elles voient plutôt leurs tâches ?
 
 ### Réponse
 
 Le rapport ou le calendrier peut comporter une variable de filtre générique qui pointe vers l’utilisateur connecté. Dans ce cas, le rapport affiche des informations en fonction de l’utilisateur connecté. Réglez le filtre pour supprimer le caractère générique qui pointe vers l’utilisateur connecté.\
 ![](assets/qs--user.id-filter-variable-350x79.png)
 
-Pour obtenir la liste complète des variables de filtre de caractères génériques basées sur l’utilisateur, voir [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Pour obtenir la liste complète des variables de filtre générique basées sur l’utilisateur, reportez-vous à la section [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Pourquoi les données de mon rapport semblent-elles incomplètes ?
 
@@ -108,7 +108,7 @@ Pour plus d’informations, voir [Exécution et diffusion d’un rapport avec le
 
 ### Réponse
 
-Pour afficher toutes les tâches ou tous les problèmes qui vous sont affectés, que vous soyez propriétaire (ou cessionnaire Principal) ou non, utilisez le filtre suivant dans un rapport de tâche ou de problème :
+Pour afficher toutes les tâches ou tous les problèmes qui vous sont affectés, que vous soyez propriétaire (ou cessionnaire par Principal) ou non, utilisez le filtre suivant dans un rapport de tâche ou de problème :
 
 1. Accédez à un rapport de tâche ou de problème.
 1. Sur le **Filtres** , cliquez sur **Ajouter une règle de filtre**.
@@ -117,9 +117,9 @@ Pour afficher toutes les tâches ou tous les problèmes qui vous sont affectés,
 
    >[!NOTE]
    >
-   >N’utilisez pas la variable **Nom attribué** , car ce filtre ne s’applique qu’aux tâches et problèmes pour lesquels vous êtes le cessionnaire Principal ou le propriétaire.
+   >N’utilisez pas la variable **Nom attribué** , car ce filtre s’applique uniquement aux tâches et problèmes pour lesquels vous êtes le cessionnaire ou le propriétaire du Principal.
 
-1. Sélectionnez la **Égal** modifier.
+1. Sélectionnez la variable **Égal** modifier.
 1. Commencez à taper *$$USER.ID* dans la zone de texte et sélectionnez-la dans la liste déroulante qui s’affiche.\
    Vous affichez ainsi toutes les tâches et tous les problèmes affectés à l’utilisateur connecté. Vous pouvez remplacer le caractère générique par un nom d’utilisateur spécifique.\
    ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
@@ -130,18 +130,18 @@ Pour afficher toutes les tâches ou tous les problèmes qui vous sont affectés,
 
 ### Réponse
 
-Tout d’abord, assurez-vous que vous disposez des droits d’accès et des autorisations appropriés pour ajouter des problèmes et des tâches à un projet. Dans ce cas, vous devriez voir la variable **Ajout de problèmes** et **Ajout de tâches** liens au bas de la page **Problèmes** et **Tâches** listes.
+Tout d’abord, assurez-vous que vous disposez des droits d’accès et des autorisations appropriés pour ajouter des problèmes et des tâches à un projet. Dans ce cas, vous devriez voir le **Ajout de problèmes** et **Ajout de tâches** les liens au bas de la **Problèmes** et **Tâche** des listes.
 
 Toutefois, certains éléments peuvent empêcher l’affichage de ces liens :
 
 * Si le filtre rapide est appliqué à ces listes, les liens ne s’affichent pas. Supprimez le filtre rapide et les liens doivent s’afficher pour que vous puissiez ajouter des problèmes et des tâches à vos projets.\
-   Pour plus d’informations sur le filtre rapide, voir [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+  Pour plus d’informations sur le filtre rapide, voir [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 * Si vous avez une **Regroupement** appliqués à ces listes, les liens ne s’affichent pas. Supprimez le **Regroupement** et les liens doivent s’afficher afin que vous puissiez ajouter des problèmes et des tâches à vos projets.\
-   Pour plus d’informations sur la création de groupes, voir [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Pour plus d’informations sur la création de groupes, voir [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 * Si vous avez une **Affichage** appliqués à ces listes dans lesquelles une devise est sélectionnée autre que la devise par défaut du projet, les liens ne s’affichent pas. Modifiez la variable **Affichage** to **Devise originale du projet** et les liens doivent s’afficher afin que vous puissiez ajouter des problèmes et des tâches à vos projets.\
-   Pour plus d’informations sur la modification de la devise dans votre vue, voir [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+  Pour plus d’informations sur la modification de la devise dans votre vue, voir [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ![](assets/nwe-project-original-currency-350x229.png)
 
@@ -164,10 +164,10 @@ Pour plus d’informations sur l’actualisation d’un tableau de bord mis en c
 Vous ne pouvez pas modifier le propriétaire d’un rapport. Cependant, l’utilisateur qui a créé le rapport peut permettre à d’autres utilisateurs de le modifier. La manière dont vous pouvez autoriser les utilisateurs à modifier un rapport dépend du type d’utilisateur que vous êtes.
 
 * Les administrateurs système peuvent autoriser les utilisateurs disposant d’une licence Plan à modifier les rapports en configurant l’option Modifier de la ligne Rapports afin d’inclure l’accès à Créer un rapport.\
-   Pour plus d’informations, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Pour plus d’informations, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Tout utilisateur final ayant accès à la création et au partage de rapports peut permettre à d’autres personnes de modifier des rapports individuels en les partageant et en leur accordant des autorisations Gérer les utilisateurs.\
-   Pour plus d’informations, voir [Partage d’un rapport dans Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Pour plus d’informations, voir [Partage d’un rapport dans Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
 Si vous disposez des autorisations nécessaires pour afficher ou gérer un rapport, vous pouvez également en faire une copie, dont vous serez alors le propriétaire par défaut. Pour en savoir plus sur la copie d’un rapport, voir [Créer une copie d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
@@ -175,7 +175,7 @@ Si vous disposez des autorisations nécessaires pour afficher ou gérer un rappo
 
 ### Réponse
 
-Parfois, le propriétaire du rapport est également l’utilisateur spécifié dans la variable **Exécutez ce rapport avec les droits d’accès de :** sur le rapport. Si la variable **Exécutez ce rapport avec les droits d’accès de :** est désactivé, le rapport ne s’affiche plus pour les utilisateurs pour lesquels le rapport est partagé avec eux. Dans ce cas, vous pouvez rendre le rapport accessible à nouveau en laissant le champ **Exécutez ce rapport avec les droits d’accès de :** vide ou saisir un utilisateur principal dans le champ .
+Parfois, le propriétaire du rapport est également l’utilisateur spécifié dans la variable **Exécutez ce rapport avec les droits d’accès de :** sur le rapport. Si la variable **Exécutez ce rapport avec les droits d’accès de :** est désactivé, le rapport ne s’affiche plus pour les utilisateurs pour lesquels le rapport est partagé avec eux. Dans ce cas, vous pouvez rendre le rapport accessible à nouveau en laissant le champ **Exécutez ce rapport avec les droits d’accès de :** vide ou saisie d’un utilisateur actif dans le champ .
 
 Pour en savoir plus sur la variable **Exécutez ce rapport avec les droits d’accès de :** champ, voir [Exécution et diffusion d’un rapport avec les droits d’accès d’un autre utilisateur](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Pour plus d’informations sur l’identification de tous les rapports détenus par des utilisateurs désactivés, voir [Créer un rapport sur les activités de reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
@@ -185,7 +185,7 @@ Pour en savoir plus sur la variable **Exécutez ce rapport avec les droits d’a
 
 Lorsque vous supprimez un utilisateur, vous pouvez toujours accéder aux rapports qu’il a créés. Toutefois, les tableaux de bord qui incluaient le rapport sont également supprimés. Cela signifie que vous ne pouvez plus accéder aux éléments suivants :
 
-* Tableau de bord contenant le rapport
+* Un tableau de bord contenant le rapport
 * Section personnalisée contenant un tableau de bord du rapport
 
 Pour en savoir plus sur les implications de la suppression d’un utilisateur, voir [Suppression d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).

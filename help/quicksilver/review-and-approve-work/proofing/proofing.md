@@ -2,20 +2,22 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Vérification
-description: En savoir plus sur la vérification.
+title: "Vérification : index de l’article"
+description: Consultez et commentez le même document que celui où travaillent les équipes créatives. Avec la vérification de Workfront, vous pouvez demander des commentaires, voir des commentaires et recevoir des notifications pour les approbations en attente et terminées, tout en conservant un suivi des commentaires et des versions.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
-# Vérification
+# Vérification : index de l’article
+
+Consultez et commentez le même document que celui où travaillent les équipes créatives. Avec la vérification de Workfront, vous pouvez demander des commentaires, voir des commentaires et recevoir des notifications pour les approbations en attente et terminées, tout en conservant un suivi des commentaires et des versions.
 
 Cette section contient les sous-sections suivantes :
 

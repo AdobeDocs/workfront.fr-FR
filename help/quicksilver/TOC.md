@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '13777'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -392,7 +392,7 @@ ht-degree: 0%
          * [alpha de l’intégration native Adobe Workfront et Frame.io : présentation](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [alpha de l’intégration native Adobe Workfront et Frame.io : fonctionnalités](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Administration et configuration {#administration-and-setup}
-   * [Administration et configuration](administration-and-setup/administration-and-setup.md)
+   * [Administration et configuration : index des articles](administration-and-setup/administration-and-setup.md)
    * Prise en main de l’administration {#get-started-administration}
       * [Prise en main de l’administration : index des articles](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Définition des objectifs de mise en oeuvre](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -807,7 +807,7 @@ ht-degree: 0%
    * [Configuration requise pour le navigateur Adobe Workfront](workfront-basics/workfront-browser-requirements.md)
    * [Langues prises en charge dans Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
    * Navigation dans Adobe Workfront {#navigate}
-      * [Navigation dans Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+      * [Naviguer dans Adobe Workfront : index de l’article](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront Search {#search}
          * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
          * [Rechercher dans Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
@@ -973,7 +973,7 @@ ht-degree: 0%
    * [Agile](agile/agile.md)
    * [Présentation des panoramas](agile/boards-overview.md)
    * Prise en main des panoramas dans Adobe Workfront {#boards-in-workfront}
-      * [Prise en main des panoramas dans Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Prise en main des panoramas : index des articles](agile/get-started-with-boards/get-started-with-boards.md)
       * [Démonstrations vidéo des panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Inclusion précoce des fonctionnalités des panoramas](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Utilisation du tableau de bord des panoramas](agile/get-started-with-boards/use-boards-page.md)
@@ -1516,7 +1516,7 @@ ht-degree: 0%
          * [Présentation des regroupements dans Adobe Workfront](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
          * [Création de groupes dans Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
          * [Modifier les groupements existants](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-         * [Variables de filtre génériques](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+         * [Présentation des variables de filtre de caractères génériques](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
          * [Utilisation de caractères génériques basés sur des dates pour généraliser des rapports](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser des rapports](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [Partager un filtre, une vue ou un regroupement](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
@@ -1785,7 +1785,7 @@ ht-degree: 0%
          * [Révision d’un document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Approbation d’un document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Vérification {#proofing}
-      * [Relecture](review-and-approve-work/proofing/proofing.md)
+      * [Vérification : index de l’article](review-and-approve-work/proofing/proofing.md)
       * Présentation de la vérification {#proofing-overview}
          * [Présentation de la vérification](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Aperçu du profil d’autorisation de preuve](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

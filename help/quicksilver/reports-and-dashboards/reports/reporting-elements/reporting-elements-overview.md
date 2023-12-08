@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Cette section contient les articles suivants :
 * [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Création ou modification de filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Modificateurs de filtre et de condition](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
-* [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Création ou modification de vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
 * [Utilisation d’une mise en forme conditionnelle dans les vues](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

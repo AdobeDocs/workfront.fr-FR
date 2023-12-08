@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2320'
 ht-degree: 0%
 
 ---
@@ -254,7 +254,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        Pour plus d’informations sur les variables telles que `$$OBJCODE,` see [Variables de filtre génériques](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        Pour plus d’informations sur les variables telles que `$$OBJCODE,` see [Présentation des variables de filtre de caractères génériques](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **Mises à jour automatiques des champs personnalisés calculés**
 

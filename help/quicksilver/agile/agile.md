@@ -8,9 +8,9 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '100'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 Cette section contient les sous-sections suivantes :
 
 * [Présentation des panoramas](../agile/boards-overview.md)
-* [Prise en main des panoramas dans [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md)
+* [Prise en main des panoramas : index des articles](../agile/get-started-with-boards/get-started-with-boards.md)
 * [Utilisation des outils de planification agiles dans les panoramas](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [Présentation agile](../agile/agile-overview.md)
 * [Prise en main d’Agile dans [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)

@@ -6,9 +6,9 @@ description: Par défaut, les utilisateurs peuvent uniquement afficher les objet
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ Si vous exécutez un rapport avec les droits d’accès d’un autre utilisateur
 
 >[!TIP]
 >
->Vous devez remplacer la variable **Exécutez ce rapport avec les droits d’accès de :** avec un utilisateur principal uniquement lorsque vous souhaitez que le rapport s’affiche avec les droits d’accès de cet utilisateur. Par exemple, un utilisateur de licence de travail peut ne pas disposer des autorisations nécessaires pour voir tous les éléments d’un rapport créé par un utilisateur de licence du forfait ou un administrateur système, sauf si le rapport s’affiche avec les droits d’accès d’un planificateur ou d’un administrateur système.\
-Si le rapport est partagé avec des utilisateurs disposant d’un accès similaire à celui spécifié dans la variable **Exécutez ce rapport avec les droits d’accès de :** , vous pouvez laisser ce champ vide.
+>Vous devez remplacer la variable **Exécutez ce rapport avec les droits d’accès de :** avec un utilisateur actif uniquement lorsque vous souhaitez que le rapport s’affiche avec les droits d’accès de cet utilisateur. Par exemple, un utilisateur de licence de travail peut ne pas disposer des autorisations nécessaires pour voir tous les éléments d’un rapport créé par un utilisateur de licence du forfait ou un administrateur système, sauf si le rapport s’affiche avec les droits d’accès d’un planificateur ou d’un administrateur système.\
+Si le rapport est partagé avec des utilisateurs ayant un accès similaire à celui spécifié dans la variable **Exécutez ce rapport avec les droits d’accès de :** , vous pouvez laisser ce champ vide.
 
 ## Exigences d’accès
 
@@ -36,7 +36,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -74,6 +74,7 @@ Pour exécuter un rapport avec les droits d&#39;accès d&#39;un autre utilisateu
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
+   >
    Les utilisateurs dont le niveau d’accès est inférieur et qui sont autorisés à créer des rapports ne peuvent pas sélectionner un utilisateur autre qu’eux pour la variable **Exécutez ce rapport avec les droits d’accès de :** champ .
 
 1. Cliquez sur **Terminé**.
@@ -81,12 +82,14 @@ Pour exécuter un rapport avec les droits d&#39;accès d&#39;un autre utilisateu
    Le rapport s’affiche désormais pour tous les utilisateurs avec lesquels il est partagé comme s’il avait été visualisé par l’utilisateur spécifié dans la variable **Exécutez ce rapport avec les droits d’accès de :** champ .
 
 >[!IMPORTANT]
+>
 Saisie d’un utilisateur autre que l’utilisateur connecté pour la variable **Exécutez ce rapport avec les droits d’accès de :** a un impact sur les informations affichées dans le rapport si ce dernier contient un filtre qui utilise un caractère générique faisant référence à l’utilisateur connecté. Le rapport s’affiche en fonction de la valeur indiquée dans la variable **Exécutez ce rapport avec les droits d’accès de :** plutôt que ce qui est défini dans le filtre de caractères génériques.
-Pour plus d’informations sur les caractères génériques pour les champs utilisateur, voir la section &quot;Variables basées sur l’utilisateur&quot; dans [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>
+Pour plus d’informations sur les caractères génériques pour les champs utilisateur, voir la section &quot;Variables basées sur l’utilisateur&quot; dans [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Diffuser un rapport avec les droits d&#39;accès d&#39;un autre utilisateur
 
-Vous pouvez configurer des rapports à envoyer en pièce jointe à un email. Vous pouvez configurer ces rapports distribués de sorte qu’ils s’affichent pour les utilisateurs de niveau d’accès supérieur afin que tous les utilisateurs puissent voir les mêmes informations dans les rapports distribués. Les utilisateurs qui verront le rapport remis dans l&#39;email doivent être ajoutés à la liste Envoyer à des destinataires dans la diffusion du rapport. Pour plus d’informations sur la configuration d’un rapport pour la diffusion, voir l’article [Présentation de la diffusion des rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Vous pouvez configurer des rapports à envoyer en pièce jointe à un email. Vous pouvez configurer ces rapports distribués de sorte qu’ils s’affichent pour les utilisateurs de niveau d’accès supérieur afin que tous les utilisateurs puissent voir les mêmes informations dans les rapports distribués. Les utilisateurs qui verront le rapport remis dans l&#39;email doivent être ajoutés à la liste Envoyer à des destinataires dans la diffusion du rapport. Pour plus d’informations sur la configuration d’un rapport pour la diffusion, consultez l’article . [Présentation de la diffusion des rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Pour diffuser un rapport avec les droits d&#39;accès d&#39;un autre utilisateur :
 
@@ -101,9 +104,10 @@ Pour diffuser un rapport avec les droits d&#39;accès d&#39;un autre utilisateur
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
+   >
    Les utilisateurs dont le niveau d’accès est inférieur et qui sont autorisés à créer des rapports ne peuvent pas sélectionner un utilisateur autre qu’eux pour la variable **Diffuser ce rapport avec les droits d&#39;accès de :** champ .
 
-1. Sélectionnez la **Format** vous souhaitez que le rapport s&#39;affiche dans l&#39;email :
+1. Sélectionnez la variable **Format** vous souhaitez que le rapport s&#39;affiche dans l&#39;email :
 
    * HTML
    * PDF
@@ -134,20 +138,20 @@ Par exemple, vous pouvez ajouter l’un des éléments suivants à un rapport av
 * Colonnes Nom du projet ou Nom de la tâche pour un rapport de problème.
 * Colonne utilisant des expressions du mode texte qui font référence aux trois objets. Voici un exemple de rapport d’une heure :
 
-   `displayname=Custom Source`
+  `displayname=Custom Source`
 
-   `linkedname=opTask`
+  `linkedname=opTask`
 
-   `namekey=view.relatedcolumn`
+  `namekey=view.relatedcolumn`
 
-   `namekeyargkey.0=opTask`
+  `namekeyargkey.0=opTask`
 
-   `namekeyargkey.1=name`
+  `namekeyargkey.1=name`
 
-   `textmode=true`
+  `textmode=true`
 
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
 
-   `valueformat=HTML`
+  `valueformat=HTML`
 
-   Pour plus d’informations sur les vues en mode texte, voir [Modification d’une vue en mode texte](../text-mode/edit-text-mode-in-view.md).
+  Pour plus d’informations sur les vues en mode texte, voir [Modification d’une vue en mode texte](../text-mode/edit-text-mode-in-view.md).

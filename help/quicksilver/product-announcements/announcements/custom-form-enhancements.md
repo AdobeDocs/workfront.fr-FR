@@ -4,9 +4,9 @@ description: Les améliorations significatives suivantes ont été apportées à
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Cela s’avère particulièrement utile lorsque vous convertissez un problème o
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >Quelqu’un envoie une demande informatique interne (problème) et fournit des détails sur ce qui est nécessaire dans un formulaire personnalisé joint.
 >
@@ -102,7 +102,7 @@ Cependant, si un champ calculé du formulaire fait référence à un champ non c
 
 >[!INFO]
 >
->**Exemple :** Dans un formulaire personnalisé associé au type d’objet Tâche , vous créez un champ personnalisé calculé qui référence le champ intégré Affecté à : Nom afin qu’il puisse afficher le nom de la personne désignée Principale chaque fois que le formulaire est joint à une tâche :
+>**Exemple :** Dans un formulaire personnalisé associé au type d’objet Tâche , vous créez un champ personnalisé calculé qui référence le champ intégré Affecté à : Nom afin qu’il puisse afficher le nom de la personne désignée principale responsable chaque fois que le formulaire est joint à une tâche :
 >
 >```
 >Assigned To: Name{assignedTo}.{name}
@@ -127,7 +127,7 @@ Dans ce cas, vous pouvez effectuer l’une des opérations suivantes :
 
 Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, voir [Ajout de données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Pour plus d’informations sur les variables telles que `$$OBJCODE`, voir [Variables de filtre génériques](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Pour plus d’informations sur les variables telles que `$$OBJCODE`, voir [Présentation des variables de filtre de caractères génériques](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Attention à la suppression d’un type d’objet d’un formulaire personnalisé
 

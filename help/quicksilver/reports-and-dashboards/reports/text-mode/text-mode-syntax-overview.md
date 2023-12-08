@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ Les règles suivantes s’appliquent lorsque vous référencez des objets Workfr
 
 * Vous pouvez utiliser un caractère générique dans une variable `valueexpression` mais pas dans un `valuefield` ligne.
 
-  Pour plus d’informations sur les caractères génériques, voir [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Pour plus d’informations sur les caractères génériques, voir [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` vue d’ensemble des vues et des regroupements
@@ -285,4 +285,4 @@ Vous pouvez utiliser les éléments suivants pour créer des filtres et des invi
      >
      >Les connecteurs d’instructions sont sensibles à la casse et toujours en majuscules. &quot;AND&quot; peut être omis en mode texte.
 
-* Caractères génériques pour rendre les filtres plus dynamiques et les personnaliser pour l’heure actuelle ou pour l’utilisateur connecté. Pour plus d’informations sur les caractères génériques, voir [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Caractères génériques pour rendre les filtres plus dynamiques et les personnaliser pour l’heure actuelle ou pour l’utilisateur connecté. Pour plus d’informations sur les caractères génériques, voir [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

@@ -6,10 +6,10 @@ description: Vous pouvez généraliser un rapport en utilisant des caractères g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 1%
+source-wordcount: '502'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
@@ -77,7 +77,7 @@ Pour insérer un caractère générique (générique) basé sur l’utilisateur 
 
 1. Dans le **Commencez à saisir le nom ...** box, saisissez : `$$USER.ID` ou `$$USER.name` si vous souhaitez que le rapport affiche des informations sur l’utilisateur qui se connecte, en fonction de son nom. Vous pouvez insérer d’autres caractères génériques qui font référence au groupe, à l’équipe, à la société ou à d’autres informations de l’utilisateur connecté.
 
-   Pour obtenir la liste complète des caractères génériques basés sur l’utilisateur, voir [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Pour obtenir la liste complète des caractères génériques basés sur l’utilisateur, voir [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
@@ -88,8 +88,8 @@ Pour insérer un caractère générique (générique) basé sur l’utilisateur 
 Voir aussi :
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Variables de filtre génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Création ou modification de filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Utilisation d’une mise en forme conditionnelle dans les vues](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
