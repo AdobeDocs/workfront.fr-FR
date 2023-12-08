@@ -7,9 +7,9 @@ description: L’outil Adobe Workfront Fusion Devtool vous permet de comprendre 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
+source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Déboguer les scénarios à l’aide de [!DNL Adobe Workfront Fusion] Devtool
 
 La variable [!DNL Adobe Workfront Fusion] Devtool vous permet de comprendre et de dépanner les scénarios. L’outil Devtool ajoute un panneau supplémentaire au [!DNL Chrome Developer Tools]. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
+
+Pour une présentation vidéo détaillée de l’outil Fusion Devtool, voir [Présentation de Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
 
 ## Exigences d’accès
 
@@ -325,11 +327,11 @@ Recherche les variables spécifiées dans le scénario et les remplace par une n
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Variable à rechercher]</td> 
-   <td> <p> Localisez la pilule de variable que vous souhaitez remplacer à partir du module dans votre scénario et copiez-la dans ce champ ([!UICONTROL Variable à rechercher]). Dans le champ, il apparaît avec des accolades doubles. Exemple: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p> Localisez la pilule de variable que vous souhaitez remplacer à partir du module dans votre scénario et copiez-la dans ce champ ([!UICONTROL Variable à rechercher]). Dans le champ, il apparaît avec des accolades doubles. Exemple : <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Remplacer par]</p> </td> 
-   <td> <p>Localisez la pilule de variables que vous souhaitez remplacer la variable par à partir du module dans votre scénario et copiez-la dans ce champ ([!UICONTROL Variable à rechercher]). Dans le champ, il apparaît avec des accolades doubles. Exemple: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p>Localisez la pilule de variables que vous souhaitez remplacer la variable par à partir du module dans votre scénario et copiez-la dans ce champ ([!UICONTROL Variable à rechercher]). Dans le champ, il apparaît avec des accolades doubles. Exemple : <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Module]</p> </td> 
