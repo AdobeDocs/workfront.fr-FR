@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -191,7 +191,7 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
 1. Cliquez sur **Enregistrer les modifications**. <!--logged a bug for this - this needs to be "Save"-->
 
-### Modification d’un enregistrement à partir de la vue de table de type enregistrement
+### Modification d’un enregistrement depuis la vue table d’un type d’enregistrement
 
 1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
    >
    >  Vous ne pouvez pas modifier les informations des champs suivants, car ils sont en lecture seule et Workfront les met automatiquement à jour :
    >  
-   >  * Champs liés créés en liant les types d’enregistrement
+   >  * Champs liés créés par la connexion des types d’enregistrement. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification .
 
 
@@ -225,11 +225,12 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
    >
    >* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ Maestro du même type que le champ dans lequel vous collez les informations.
    >
-   >* Vous ne pouvez pas copier et coller des valeurs de champ pour les champs qui s’affichent dans la zone Détails d’un enregistrement.
+   >* Vous ne pouvez pas copier et coller de valeurs de champ dans la zone Détails d’un enregistrement. Cette fonctionnalité n’est prise en charge que dans le mode Tableau d’un type d’enregistrement.
    >* Vous ne pouvez pas copier et coller des valeurs de champ pour les types de champ suivants :
-   ><ul>
    >
-   > * Champs système
+   >
+   >    * Champs liés créés par la connexion des types d’enregistrement. Vous pouvez copier et coller des champs d’enregistrement liés. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
+   >    * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification .
 
 
    <!--take People out of the list above when they release this - this might be coming later-->

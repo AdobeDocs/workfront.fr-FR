@@ -5,13 +5,13 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide
 description: Les débuts sont des classeurs Excel spécialement formatés que vous pouvez renseigner avec les données à importer dans Workfront. Adobe Workfront fournit un modèle de démarrage rapide que vous pouvez utiliser pour ce faire, comme expliqué dans la rubrique Importateur de données de démarrage rapide.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2780'
 ht-degree: 6%
 
 ---
@@ -38,15 +38,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td>
+   <p> Nouveau : Standard</p>
+   ou
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>NOTE</b>:</p> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>:</p> 
    <p> Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -62,17 +65,20 @@ Vous pouvez importer un grand nombre d’objets dans Workfront à l’aide d’u
 
 ## Exporter un modèle de démarrage rapide sous la forme d’un fichier de feuille de calcul
 
-Lorsque vous exportez un modèle de démarrage rapide, vous recevez un classeur de feuille de calcul Excel vierge. Au cours des procédures suivantes de cet article, vous renseignez le classeur avec vos informations, puis vous le réimportez dans Workfront.
+Lorsque vous exportez un modèle de démarrage rapide, vous recevez un classeur de feuille de calcul Excel vierge. Une fois la feuille de calcul téléchargée sur votre ordinateur, vous pouvez l’utiliser pour remplir vos informations, puis les réimporter dans Workfront.
 
 Pour exporter un modèle de démarrage rapide :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Cliquez sur **Système** > **Exporter des données (démarrage)**.
+<!--
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. Cliquez sur **Plus d’options**, puis sélectionnez les types d’informations à inclure.
+1. Cliquez sur **Système** > **Importer des données (démarrage)**.
 
-   Chaque option sélectionnée représente un ensemble de plusieurs onglets dans la feuille de calcul exportée. Par exemple, si vous sélectionnez l’option Rapport , tous les objets nécessaires à la création d’un rapport seront inclus dans la feuille de calcul (vues, filtres, regroupements, rapports).
+1. Sélectionnez les types d’informations à inclure.
+
+   Chaque option sélectionnée représente un ensemble de plusieurs onglets dans la feuille de calcul exportée. Par exemple, si vous sélectionnez l’option **Rapport** , tous les objets nécessaires à la création d&#39;un rapport seront inclus dans la feuille de calcul (vues, filtres, regroupements, rapports).
 
    Vous pouvez utiliser tous les types d’objets répertoriés ci-dessous pour importer des données dans Workfront. (La seule exception concerne l’option Niveaux d’accès . La feuille de données des niveaux d’accès d’un export est fournie à titre de référence ; elle vous permet d’attribuer un niveau d’accès à un nouveau compte utilisateur par son identifiant.)
 
@@ -93,22 +99,22 @@ Pour exporter un modèle de démarrage rapide :
      <tr> 
       <td scope="col"> <p>Tableau de bord</p> <p>Tous les tableaux de bord du système peuvent être exportés. Vous pouvez sélectionner jusqu’à 100 tableaux de bord spécifiques dans une seule exportation.</p> </td> 
       <td scope="col">Exporte en tant que fichier ZIP</td> 
-      <td scope="col"> <p>Paramètre</p> <p>Option de paramètre</p> <p>Groupe de paramètres</p> <p>Paramètre de catégorie</p> <p>Catégorie</p> <p>Rapport</p> <p>Section d'onglet de portail</p> <p>Tableau de bord</p> <p>Préférences</p> </td> 
+      <td scope="col"> <p>Paramètre</p> <p>Texte descriptif</p><p>Option de paramètre</p> <p>Groupe de paramètres</p> <p>Paramètre de catégorie</p> <p>Catégorie</p> <p>Rapport</p> <p>Section d'onglet de portail</p> <p>Tableau de bord</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Rapport</p> <p>Tous les rapports du système peuvent être exportés. Vous pouvez sélectionner jusqu’à 100 rapports spécifiques au sein d’une seule exportation.</p> </td> 
       <td scope="col">Exporte en tant que fichier ZIP </td> 
-      <td scope="col"> <p scope="col">Paramètre</p> <p scope="col">Option de paramètre</p> <p scope="col">Groupe de paramètres</p> <p scope="col">Paramètre de catégorie</p> <p scope="col">Catégorie</p> <p scope="col">Rapport</p> <p scope="col">Préférences</p> </td> 
+      <td scope="col"> <p scope="col">Paramètre</p> <p scope="col">Texte descriptif</p> <p scope="col">Option de paramètre</p> <p scope="col">Groupe de paramètres</p> <p scope="col">Paramètre de catégorie</p> <p scope="col">Catégorie</p> <p scope="col">Rapport</p> <p scope="col">Préférences</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Approbation</p> </td> 
       <td scope="col"> <p>Exporte sous forme de fichier Excel</p> </td> 
-      <td scope="col"> <p>Approbateur d’étape</p> <p>Étape de validation</p> <p>Approbation</p> <p>Processus d'approbation</p> <p>Préférences</p> </td> 
+      <td scope="col"> <p>Approbateur d'étape</p> <p>Étape d’approbation</p> <p>Approbation</p> <p>Processus d'approbation</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Données personnalisées</p> </td> 
       <td scope="col"> <p>Exporte sous forme de fichier Excel</p> </td> 
-      <td scope="col"> <p>Paramètre</p> <p>Option de paramètre</p> <p>Groupe de paramètres</p> <p>Paramètre de catégorie</p> <p>Catégorie</p> <p>Préférences</p> </td> 
+      <td scope="col"> <p>Paramètre</p> <p>Texte descriptif</p>  <p>Option de paramètre</p> <p>Groupe de paramètres</p> <p>Paramètre de catégorie</p> <p>Catégorie</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Type de frais</p> </td> 
@@ -189,13 +195,33 @@ Pour exporter un modèle de démarrage rapide :
       <td>Fonction</td> 
       <td>Exporte sous forme de fichier Excel</td> 
       <td> <p> Rôle de tâche</p> <p>Préférences </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Ancien pool de ressources</td> 
+      <td>Exporte sous forme de fichier Excel</td> 
+      <td> <p> Ancien pool de ressources</p> <p>Préférences </p> </td> 
+     </tr>
+
+   <tr> 
       <td>Chemin jalonné</td> 
       <td> Exporte sous forme de fichier Excel</td> 
       <td> <p> Jalon</p> <p>Chemin jalonné</p> <p>Préférences </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Ressource non ouvrière</td> 
+      <td> Exporte sous forme de fichier Excel</td> 
+      <td> <p> Ressource non ouvrière</p> <p>Préférences</p></td> 
+     </tr>
+
+   <tr> 
+      <td>Catégorie des ressources autres que le travail</td> 
+      <td> Exporte sous forme de fichier Excel</td> 
+      <td> <p> Catégorie des ressources autres que le travail</p> <p>Préférences</p></td> 
+     </tr>
+
+   <tr> 
       <td>Note</td> 
       <td>Exporte sous forme de fichier Excel</td> 
       <td> <p> Note</p> <p>Préférences </p> </td> 
@@ -216,11 +242,6 @@ Pour exporter un modèle de démarrage rapide :
       <td> <p> Estimation de ressources</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
-      <td>Pool de ressources</td> 
-      <td>Exporte sous forme de fichier Excel</td> 
-      <td> <p> Pool de ressources</p> <p>Préférences </p> </td> 
-     </tr> 
-     <tr> 
       <td>Risque</td> 
       <td>Exporte sous forme de fichier Excel</td> 
       <td> <p> Risque</p> <p>Préférences </p> </td> 
@@ -233,7 +254,7 @@ Pour exporter un modèle de démarrage rapide :
      <tr> 
       <td>Carte de score</td> 
       <td>Exporte sous forme de fichier Excel</td> 
-      <td> <p>Questions de la carte de score</p> <p>Option de la carte de résultats</p> <p>Carte de score</p> <p>Préférences </p> </td> 
+      <td> <p>Question sur la carte de score</p> <p>Option de la carte de résultats</p> <p>Carte de score</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
       <td>Tâche</td> 
@@ -269,17 +290,17 @@ Pour exporter un modèle de démarrage rapide :
    </table>
 
 1. Cliquez sur **Télécharger**.
-1. Passez à la [Remplissage du modèle de feuille de calcul avec vos données](#populate-the-spreadsheet-template-with-your-data) pour renseigner vos informations dans le modèle.
+1. Passez à la [Remplissage du modèle de feuille de calcul avec vos données](#populate-the-spreadsheet-template-with-your-data) pour remplir la feuille de calcul de modèle vierge avec vos informations.
 
 ## Remplissage du modèle de feuille de calcul avec vos données {#populate-the-spreadsheet-template-with-your-data}
 
-* [A propos des onglets (feuilles de données) inclus dans la feuille de calcul](#about-the-tabs-data-sheets-included-in-the-spreadsheet)
+* [Présentation des onglets (feuilles de données) inclus dans la feuille de calcul](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
 * [Importation d’un enregistrement](#import-a-record)
 * [Inclure des dates](#include-dates)
 * [Utilisation de caractères génériques](#use-wildcards)
 * [Substitution des noms d’attribut pour les identifiants](#attribute-name-substitution-for-ids)
 
-### A propos des onglets (feuilles de données) inclus dans la feuille de calcul {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
+### Présentation des onglets (feuilles de données) inclus dans la feuille de calcul
 
 >[!TIP]
 >
@@ -293,12 +314,13 @@ Lorsque vous ouvrez l’un de ces onglets, la ligne 2 affiche les champs de chaq
 >
 >Pour éviter les erreurs, vérifiez les points suivants :
 >
->* Ne supprimez ni ne modifiez ces champs d&#39;aucune manière. Par exemple, ne modifiez pas leur ordre ou leur nom.
->* Renseignez chaque champ avec un en-tête de colonne en gras. Il s’agit des champs obligatoires.
+>* Ne supprimez pas la première ligne vide d’une feuille de calcul de démarrage rapide.
+>* Ne supprimez, ne modifiez pas et ne réorganisez pas ces champs (en-têtes de colonne) de quelque manière que ce soit. Par exemple, ne modifiez pas leur ordre ou leur nom.
+>* Ajoutez des valeurs à chaque champ qui s’affiche en gras dans l’en-tête de colonne. Il s’agit des champs obligatoires.
 >
->  Toutefois, si un champ obligatoire contient une valeur par défaut définie dans les préférences du système, il n’est pas nécessaire de le renseigner.
+>     Toutefois, si un champ obligatoire contient une valeur par défaut définie dans les préférences du système, il n’est pas nécessaire de le renseigner.
 >
->  Par exemple, sur la page **Projet PROJ** , **setCondition** et **setConditionType** Les champs peuvent être laissés vides, mais la variable **setGroupID** et **setName** ne le peuvent pas.
+>     Par exemple, sur la page **Projet PROJ** , **setCondition** et **setConditionType** Les champs peuvent être laissés vides, mais la variable **setGroupID** et **setName** ne le peuvent pas.
 >
 >* Certains champs, y compris **setResourceRevenue** et **setEnteredByID**, sont générés automatiquement par le système. Si vous saisissez des données pour ces champs dans la feuille de calcul, le processus de démarrage rapide l’emportera lors du téléchargement de la feuille de calcul.
 
@@ -306,26 +328,30 @@ Lorsque vous ouvrez l’un de ces onglets, la ligne 2 affiche les champs de chaq
 
 Chaque ligne de la feuille correspond à un objet unique.
 
-1. Remplir la cellule dans le **isNew** column :
+1. Ajoutez des informations dans le **isNew** column :
 
-   * Si l’objet que vous importez est nouveau, saisissez **TRUE** pour importer les données de la ligne.
-   * Si l’objet est déjà dans Workfront, **FALSE** doit se trouver dans la colonne pour ignorer la ligne.
+   * Si l’objet que vous importez est nouveau, saisissez **TRUE** pour importer les données de la ligne. Cette valeur est sensible à la casse et doit toujours être en majuscules.
+   * Si l’objet est déjà dans Workfront, saisissez **FALSE** dans le **isNew** pour ignorer la ligne. Cette valeur est sensible à la casse et doit toujours être en majuscules.
 
       * Les enregistrements qui existent déjà dans Workfront ne sont pas mis à jour.
-      * Si vous avez téléchargé un modèle contenant des données, les objets existants sont déjà marqués avec **FALSE**.
+      * Si vous avez téléchargé un modèle contenant des données provenant de Workfront, les objets existants sont déjà marqués avec **FALSE**.
       * Si vous avez téléchargé un modèle vierge, il n’est pas nécessaire d’ajouter de nouvelles lignes pour les objets existants.
 
-1. Remplir la cellule dans le **ID** de l’une des manières suivantes :
+1. Ajoutez des informations dans le **ID** de l’une des manières suivantes :
 
-   * Si l’objet que vous importez est nouveau (et que vous avez tapé **TRUE** dans le **isNew** ), saisissez n’importe quel numéro pour l’ID. Ce nombre doit être unique dans la feuille de calcul.
+   * Si l’objet que vous importez est nouveau (et que vous avez tapé **TRUE** dans le **isNew** ), saisissez n’importe quel numéro pour l’ID. Ce nombre doit être unique dans la feuille de calcul. Par exemple, si vous importez trois objets, vous pouvez leur attribuer respectivement l’identifiant 1, 2 et 3.
 
-   * Si l’objet existe déjà dans Workfront (et **FALSE** se trouve dans la variable **isNew** ), l’ID doit être le GUID alphanumérique existant dans Workfront pour cet objet.
+   * Si l’objet existe déjà dans Workfront (et **FALSE** se trouve dans la variable **isNew** ) et que vous importez de nouvelles informations sur les objets existants, l’ID doit être le GUID alphanumérique existant dans Workfront pour cet objet.
 
-      * Les enregistrements qui existent déjà dans Workfront ne sont pas mis à jour.
-      * Si vous avez téléchargé un modèle avec des données, les objets existants contiennent déjà le GUID en tant qu’identifiant.
-      * Vous pouvez importer un nouvel objet en fonction d’un objet existant en modifiant les **FALSE** to **TRUE** dans le **isNew** , en modifiant l’identifiant et en ajustant les données avant l’importation.
+   >[!TIP]
+   >
+   > Pour découvrir le GUID unique d’un objet dans Workfront, vous pouvez créer un rapport pour cet objet et ajouter la colonne ID au rapport. La valeur de chaque objet de cette colonne correspond au GUID de l’objet.
 
-     ![Exemple d’identifiant pour un groupe](assets/kick-start-group-example.png)
+   * Les enregistrements qui existent déjà dans Workfront ne sont pas mis à jour.
+   * Si vous avez téléchargé un modèle avec des données, les objets existants contiennent déjà le GUID en tant qu’identifiant.
+   * Vous pouvez importer un nouvel objet en fonction d’un objet existant en modifiant les **FALSE** to **TRUE** dans le **isNew** , en modifiant l’identifiant et en ajustant les données avant l’importation.
+
+   ![Exemple d’identifiant pour un groupe](assets/kick-start-group-example.png)
 
    * Lorsque vous importez un projet, vous devez indiquer un ID de groupe.
 
@@ -341,7 +367,7 @@ Chaque ligne de la feuille correspond à un objet unique.
 1. (Facultatif) Pour ajouter des données personnalisées :
 
    * Créez une nouvelle colonne pour chaque champ personnalisé que vous souhaitez inclure dans le processus d&#39;import.
-   * Nommez chaque nouvelle colonne pour son champ personnalisé correspondant comme suit : **DE :[Nom du champ personnalisé tel qu’il apparaît dans Workfront]**.
+   * Nommez chaque nouvelle colonne pour son champ personnalisé correspondant comme suit : **DE :[Nom du champ personnalisé tel qu’il apparaît dans Workfront]**. Par exemple, vous pouvez créer le champ personnalisé suivant : &quot;DE: Department&quot;.
    * Dans la colonne **setCategoryID**, saisissez le GUID du formulaire personnalisé existant sur lequel réside ce champ personnalisé. Ce champ est obligatoire lors de l’import de données personnalisées.
    * Si vous devez ajouter plusieurs valeurs de données dans un champ personnalisé (comme des boutons radio, des cases à cocher ou des listes), utilisez le délimiteur de données personnalisé de barre verticale &quot;|&quot; répertorié dans l’onglet Préférences pour séparer les valeurs.
 
@@ -353,13 +379,17 @@ Workfront peut traiter la plupart des formats de date. Cependant, vous devez vou
 
 >[!TIP]
 >
->La plupart des utilisateurs trouvent plus facile d’utiliser le format MM/JJ/AAAA (par exemple : 07/10/2022).
+>Le format le plus populaire est le format MM/JJ/AAAA.
+>
+>Par exemple : 07/10/2023.
 
-Workfront accepte également les valeurs d’heure dans le cadre de la date (par exemple : 07/10/2022 01:30 ou 07/10/2022 1:00 PM).
+Workfront accepte également les valeurs d’heure dans le cadre de la date.
+
+Par exemple : 07/10/2022 01:30 ou 07/10/2022 13:00.
 
 Si vous omettez une heure dans la date, Workfront effectue l’une des opérations suivantes :
 
-* Présume 12h00. Pour que le résultat de la date soit visible, le fuseau horaire système doit correspondre à votre fuseau horaire.
+* Présume que l’heure est 00h00. Pour que le résultat de la date soit visible, le fuseau horaire système doit correspondre à votre fuseau horaire.
 * S’il se trouve sur un objet associé à un planning, l’heure est décalée au premier moment autorisé par le planning.
 
 >[!NOTE]
@@ -405,21 +435,21 @@ Vous pouvez utiliser les caractères génériques suivants lorsque vous renseign
 
 Bien qu’il soit recommandé d’utiliser les identifiants chaque fois que cela soit possible, il n’est parfois pas pratique de croiser les identifiants d’une feuille à l’autre lors de la définition d’une **setAttributeID** . Vous pouvez référencer des valeurs par nom en modifiant simplement l’en-tête de colonne.
 
-**Exemples:**
+**Exemples :**
 
-* **(importation de projet)**
+* **Importation de projet**
 
   Lors de l’importation de projets, définissez la variable **setGroupID** des projets en accédant à la **Groupe** , notez les ID de groupe respectifs et collez-les dans les cellules appropriées (**setGroupID** ) sur le **Projet PROJ** feuille.
 
   Cela est possible lorsque vous travaillez uniquement avec quelques groupes et projets, mais si vous travaillez avec plusieurs d’entre eux, ce n’est pas pratique.
 
-  Pour effectuer la substitution du nom d’attribut pour l’exemple décrit ci-dessus, vous modifiez la variable **setGroupID** en-tête de colonne à **#setGroupID GROUP****name**. Vous pouvez ensuite référencer le groupe de chaque projet par nom.
+  Pour effectuer la substitution du nom d’attribut pour l’exemple décrit ci-dessus, vous modifiez la variable **setGroupID** en-tête de colonne à **#setGroupID GROUP name**. Vous pouvez ensuite référencer le groupe de chaque projet par nom.
 
   >[!NOTE]
   >
   >L’option permettant d’utiliser la substitution de nom d’attribut est limitée aux références pour les enregistrements existants uniquement. Vous ne pouvez pas utiliser la substitution de nom pour les objets que vous créez dans le même import.
 
-* **(importation utilisateur)**
+* **Importation utilisateur**
 
   Lors de l’importation d’utilisateurs, renseignez la variable **setRoleID** à partir d’une liste de rôles sur la fonction **Rôle du rôle** .
 
@@ -443,8 +473,7 @@ Une fois que vous avez renseigné les données du modèle Excel, vous pouvez les
 
 L’importation de démarrage rapide prend en charge les types de fichiers suivants :
 
-* Excel XML (.xlsx)
-* Excel hérité (.xls)
+* Excel (.xls ou .xlsx)
 * Fichier compressé (.ZIP) (contenant uniquement des fichiers .xlsx ou .xls)
 
   >[!NOTE]
@@ -460,7 +489,9 @@ L’importation de démarrage rapide prend en charge les types de fichiers suiva
 
 Pour importer les données de feuille de calcul du modèle dans Workfront :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
+<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
 1. Cliquez sur **Système** >**Importer des données (démarrage)**.
 
@@ -468,7 +499,7 @@ Pour importer les données de feuille de calcul du modèle dans Workfront :
 
 1. Cliquez sur **Téléchargez.**
 
-   Si le téléchargement du fichier Excel prend plus de 5 minutes dans Workfront, l’application expire et le fichier ne peut pas être transféré.
+   Si le téléchargement du fichier Excel prend plus de 5 minutes dans Workfront, l’application expire et Workfront ne peut pas le télécharger.
 
    Essayez d’importer vos données en petits lots d’objets.
 
