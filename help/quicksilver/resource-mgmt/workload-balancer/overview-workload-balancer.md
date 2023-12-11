@@ -7,9 +7,9 @@ description: Une fois que les chefs de projet ont planifié le travail sur les p
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: e4230e1d74e36439ec36b569232ab1cdf3629b3e
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Pour plus d’informations sur la création et l’utilisation de filtres dans l
      Pour plus d’informations sur la création de plannings, voir [Création d’un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
    * Faire mettre à jour leur calendrier de désactivation dans leur profil.\
-     Pour plus d’informations sur la mise à jour du calendrier de désactivation d’un utilisateur, voir [Configuration du temps de pause personnel dans Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Pour plus d’informations sur la mise à jour du calendrier de désactivation d’un utilisateur, voir [Configuration du temps libre](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
