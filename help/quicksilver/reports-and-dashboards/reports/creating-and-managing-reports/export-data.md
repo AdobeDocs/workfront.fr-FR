@@ -6,9 +6,9 @@ description: Découvrez comment exporter des données de rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que la manière dont ils sont exportés au moyen d’une exportation manuelle, d’un rapport remis ou via l’API.
 
+* **50 000 cellules :** Nombre maximal de cellules autorisées dans un rapport exporté pour des fichiers Excel.
 * **50 000 lignes :** Nombre de lignes de données autorisées dans un rapport exporté pour les fichiers .pdf et délimités par des onglets.
 
    * Pour les fichiers .xls Excel, cette limite est **65 000 lignes**.
@@ -310,14 +311,14 @@ Les liens peuvent pointer vers n’importe quel objet de Workfront prenant en ch
 
 >[!TIP]
 >
->Si la ligne `valueformat=HTML` apparaît en mode texte pour une colonne de champ personnalisée et les valeurs de lien ne s’affichent pas dans un fichier .pdf exporté. vous devez saisir des lignes de code supplémentaires dans votre colonne en mode texte.
+Si la ligne `valueformat=HTML` apparaît en mode texte pour une colonne de champ personnalisée et les valeurs de lien ne s’affichent pas dans un fichier .pdf exporté. vous devez saisir des lignes de code supplémentaires dans votre colonne en mode texte.
 >
->Par exemple, si vous disposez d’un champ personnalisé appelé Open Q1 Projects qui contient des liens, vous devez ajouter le code suivant :
+Par exemple, si vous disposez d’un champ personnalisé appelé Open Q1 Projects qui contient des liens, vous devez ajouter le code suivant :
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 Lorsque vous effectuez une exportation vers un format Excel, seuls les liens vers des objets de Workfront sont inclus dans le fichier exporté et ils ne sont pris en charge que dans les emplacements où vous pouvez sélectionner des liens dans les documents Excel exportés, tels que les diffusions de rapports.
 
