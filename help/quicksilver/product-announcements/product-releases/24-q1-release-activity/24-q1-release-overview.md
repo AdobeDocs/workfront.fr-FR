@@ -4,9 +4,9 @@ description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,25 @@ Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscr
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marquage d’une révision comme terminée</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Pour clarifier le moment où un document a été révisé et est prêt pour la prochaine étape d’approbation, nous avons créé une nouvelle <strong>Terminer ma révision</strong> bouton .</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Statuts mis à jour pour les approbations de documents</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Pour clarifier l’état d’approbation des documents, nous avons mis à jour les validations d’état des documents disponibles. Désormais, l’état d’approbation tient compte des opérateurs validants qui marquent la fin de leur révision, ainsi que des cas où il n’y a que des opérateurs validants, mais pas d’approbateurs.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 7 décembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marquage d’une révision comme terminée</a></p><p>Pour clarifier le moment où un document a été révisé et est prêt pour la prochaine étape d’approbation, nous avons créé une nouvelle <strong>Terminer ma révision</strong> bouton .</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
