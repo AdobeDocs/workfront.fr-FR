@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Création d’un rapport personnalisé
-description: Comprendre comment créer des rapports vous permet d’accéder aux informations dont votre organisation a besoin dans Adobe Workfront. Vous pouvez utiliser n’importe quel rapport intégré disponible dans Workfront ou créer vos propres rapports à partir de zéro.
+description: Vous pouvez donner accès aux informations dont votre organisation a besoin dans Adobe Workfront en créant des rapports. Vous pouvez utiliser n’importe quel rapport intégré disponible dans Workfront ou créer entièrement vos rapports personnalisés.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
@@ -34,11 +34,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nouveau : Standard </p>
+   ou
+   <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -47,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Vous obtiendrez les autorisations de gestion du rapport que vous créez.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Vous obtenez les autorisations Gérer pour les rapports que vous créez.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Créer un rapport {#create-a-report}
 
-Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette section [Création d’un rapport personnalisé](#Walk-thr) ci-dessous
+{{step1-to-reports}}
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez le type d’objet que vous souhaitez pour le rapport.
 
    Le créateur de rapports se charge.
@@ -109,17 +110,17 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
 
 1. Commencez à créer un rapport comme décrit dans la section [Créer un rapport](#create-a-report) dans cet article.
 1. Dans le créateur de rapports, sélectionnez la variable **Colonnes (affichage)** pour identifier les colonnes à afficher dans le rapport.
-1. (Facultatif) Cliquez sur **Appliquer une vue existante** pour utiliser une vue existante.
+1. (Facultatif) Cliquez sur **Appliquer une vue existante** et cliquez sur le nom d’une vue dans le menu déroulant pour utiliser une vue existante.
 
    Pour plus d’informations sur la création d’une vue, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Facultatif) Pour supprimer une colonne existante, cliquez sur celle que vous souhaitez supprimer, puis cliquez sur le bouton **x** en regard du nom actuel dans l’en-tête de colonne.
 
 1. Pour ajouter une nouvelle colonne, cliquez sur **Ajouter une colonne**.
 
    Ou
 
-   Pour modifier une colonne existante, sélectionnez la colonne à modifier, puis cliquez sur le (x) en regard du nom actuel.
-
-1. Commencez à saisir le champ à ajouter. Si le champ est disponible, il est renseigné pour chaque objet auquel il peut être associé. Cliquez sur le nom du champ à ajouter à la colonne.
+   Pour modifier une colonne existante, cliquez sur la colonne **Supprimer** icon ![](assets/x-icon-circled.png) à gauche du champ actif dans la **Afficher dans ce champ de colonne** dans le coin supérieur gauche du créateur de rapports, commencez à saisir un nouveau champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    Pour plus d’informations sur les champs que vous voyez dans les colonnes, voir [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
    >
    >Les exceptions suivantes s’appliquent aux objets parents (par exemple, les tâches parents) lorsque vous agrègez des valeurs pour les champs suivants en regroupements :
    >
-   >* Tous les champs de nombre et de devise, à l’exception des heures réelles (par exemple, le coût du travail planifié/réel, le coût des dépenses planifiées/réelles, le coût planifié/réel, les heures planifiées), ne regroupent que les valeurs des tâches enfants et des tâches autonomes. Ils n’agrégent pas les valeurs des tâches parents ou des parents des parents.
+   >* Tous les champs Nombre et Devise, à l’exception des Heures réelles (par exemple, Coût du travail planifié ou réel, Coût des dépenses planifié ou réel, Coût planifié ou réel, Heures planifiées), ne regroupent que les valeurs des tâches enfants et des tâches autonomes. Ils n’agrégent pas les valeurs des tâches parents ou des parents des parents.
    >* Les heures réelles combinent les valeurs des tâches principales du parent et des tâches autonomes ; elles n’agrégent pas les nombres des parents des tâches parents ou des tâches enfants.
    >* Les champs de données personnalisés pour les valeurs numériques et monétaires regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes.
 
@@ -193,7 +194,8 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
 
    Ou
 
-   Choisir **Appliquer un groupement existant** pour sélectionner un groupement existant
+   Choisir **Appliquer un groupement existant** pour sélectionner un groupement existant lorsqu&#39;il s&#39;affiche dans la liste.
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Commencez à saisir le champ à ajouter en tant que groupe. Si le champ est disponible, il est renseigné pour chaque objet auquel il peut être associé. Cliquez sur le nom du champ à ajouter à ce groupement.
@@ -210,7 +212,7 @@ Pour regarder une vidéo de la création d’un rapport, reportez-vous à cette 
    >* Lorsque vous ajustez manuellement les groupements lors de l&#39;affichage d&#39;une liste, Workfront mémorise vos préférences manuelles jusqu&#39;à ce que vous vous déconnectiez. Lorsque vous vous reconnectez, la liste s’affiche en fonction de ce paramètre.
    >* Les résultats d’un groupement s’affichent toujours agrandi après leur accès à partir d’un élément de graphique.
 
-1. (Facultatif) Vous pouvez créer un groupement de matrice afin d&#39;afficher vos résultats sous forme de grille.
+1. (Facultatif) Cliquez sur **Basculer vers le groupement matriciel**, pour créer un groupement de matrice et afficher vos résultats sous la forme d&#39;une grille.
 
    Pour plus d’informations sur la création d’un rapport de matrice, voir [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
