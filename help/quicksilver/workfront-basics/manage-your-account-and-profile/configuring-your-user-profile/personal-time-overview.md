@@ -7,9 +7,9 @@ description: Il est important d’indiquer dans Adobe Workfront le moment où un
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Nouveau plan : Standard (pour configurer votre temps de congé personnel)</p>
+   <td> <p>Nouveau : Standard (pour configurer votre temps de congé personnel)</p>
         <p>ou</p>
-        <p>Formule actuelle : travail ou plus (pour configurer votre temps libre)</p> </td>
+        <p>Actuel : travail ou plus (pour configurer votre temps de congé personnel)</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 

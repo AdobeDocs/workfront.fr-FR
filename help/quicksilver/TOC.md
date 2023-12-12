@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '13780'
+source-wordcount: '13781'
 ht-degree: 0%
 
 ---
@@ -1899,13 +1899,13 @@ ht-degree: 0%
       * [Conseils, astuces et dépannage pour les approbations](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Affichage du nombre de décisions de BAT et de document pour tous les utilisateurs](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Feuilles de temps {#timesheets}
-   * [Feuilles de temps](timesheets/timesheets-all.md)
+   * [Fiches horaires : index de l’article](timesheets/timesheets-all.md)
    * Détails de la feuille de calcul {#details}
-      * [Détails de la feuille de temps dans Adobe Workfront](timesheets/timesheets/timesheets.md)
+      * [Détails de la feuille de temps : index de l’article](timesheets/timesheets/timesheets.md)
       * [Présentation des feuilles de calcul](timesheets/timesheets/timesheets-overview.md)
       * [Présentation de la disposition de la feuille de calcul](timesheets/timesheets/timesheet-layout.md)
-   * Créer et gérer des feuilles de temps dans Adobe Workfront {#create-and-manage-timesheets-in-adobe-workfront}
-      * [Créer et gérer des feuilles de temps dans Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+   * Créer et gérer des feuilles de temps {#create-and-manage-timesheets-in-adobe-workfront}
+      * [Créer et gérer des feuilles de temps : index des articles](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Création, modification et affectation de profils de feuille de temps](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Définition des types d’heures et de la disponibilité des feuilles de temps](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Création d’une feuille de temps à usage unique](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1920,10 +1920,10 @@ ht-degree: 0%
       * [Génération manuelle de feuilles de temps](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [Exporter une liste de feuilles de temps](timesheets/create-and-manage-timesheets/export-timesheets.md)
    * Configuration du mode de journalisation de l’heure {#configure-timesheet-preferences}
-      * [Configuration du mode de journalisation de l’heure](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+      * [Configuration du mode de journalisation de la durée : index de l’article](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [Configurer si l’heure est connectée en heures ou en jours](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * Conseils, astuces et dépannage pour les feuilles de temps {#tips-tricks-troubleshooting-for-timesheets}
-      * [Conseils, astuces et dépannage](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+      * [Conseils, astuces et dépannage : index de l’article](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [Correction du jour de début de la semaine de travail pour les feuilles de temps](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [Empêcher l’action Recalculer les finances d’affecter les heures historiques lorsque les taux changent](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Suivi des enregistrements d’heure avec l’API Adobe Workfront](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

@@ -7,9 +7,9 @@ description: La visualisation de ventilation présente la charge d’un projet s
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -31,16 +31,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
    <td>
-      <p>Nouveau plan : n’importe quel</p>
+      <p>Nouveau : Quelconque</p>
       <p>ou</p>
-      <p>Formule actuelle : métier ou supérieur</p></td>
+      <p>Actuel : métier ou supérieur</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>
-      <p>Nouveau plan : léger ou supérieur</p>
+      <p>Nouveau : clair ou supérieur</p>
       <p>ou</p>
-      <p>Formule actuelle : voir ou version ultérieure</p>
+      <p>Actuel : révision ou version ultérieure</p>
    </td> 
   </tr> 
   <tr> 

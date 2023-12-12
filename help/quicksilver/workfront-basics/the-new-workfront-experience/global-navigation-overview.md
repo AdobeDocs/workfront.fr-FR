@@ -5,9 +5,9 @@ description: 'La barre de navigation supérieure, qui s’affiche en haut de l�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Chaque icône vous conduit à une zone différente de la nouvelle [!DNL Adobe Wo
    <td> 
     <ul> 
      <li>[!UICONTROL Demandes] : <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Création de requêtes</a></li> 
-     <li>[!UICONTROL Feuilles de calcul] : <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Feuilles de temps</a></li> 
+     <li>[!UICONTROL Feuilles de calcul] : <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Fiches horaires : index de l’article</a></li> 
      <li>[!UICONTROL Documents] : <a href="../../documents/documents-overview.md" class="MCXref xref">Documents</a></li> 
      <li>[!UICONTROL Modèles] : <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Création et gestion de modèles de projet</a></li> 
      <li>[!UICONTROL Analytics] : <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Présentation des analyses améliorées</a></li> 

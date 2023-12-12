@@ -6,9 +6,9 @@ description: Les filtres de la zone Analyses améliorées d’Adobe Workfront vo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -34,16 +34,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
    <td>
-      <p>Nouveau plan : n’importe quel</p>
+      <p>Nouveau : Quelconque</p>
       <p>ou</p>
-      <p>Formule actuelle : métier ou supérieur</p></td> 
+      <p>Actuel : métier ou supérieur</p></td> 
   </tr>
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>
-      <p>Nouveau plan : léger ou supérieur</p>
+      <p>Nouveau : clair ou supérieur</p>
       <p>ou</p>
-      <p>Formule actuelle : voir ou version ultérieure</p>
+      <p>Actuel : révision ou version ultérieure</p>
    </td> 
   </tr>
   <tr> 

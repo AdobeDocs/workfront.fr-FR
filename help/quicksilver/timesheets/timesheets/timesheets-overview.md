@@ -7,9 +7,9 @@ description: Vous pouvez utiliser des feuilles de temps pour effectuer le suivi 
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Pour plus d’informations sur la façon de se connecter à Workfront, voir [Tem
 
 >[!TIP]
 >
->Si vous êtes administrateur Workfront ou de groupe, vous pouvez créer des feuilles de temps et les associer à vos utilisateurs. Pour plus d’informations sur la création de feuilles de temps, voir [Créer et gérer des feuilles de temps](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Si vous êtes administrateur Workfront ou de groupe, vous pouvez créer des feuilles de temps et les associer à vos utilisateurs. Pour plus d’informations sur la création de feuilles de temps, voir [Créer et gérer des feuilles de temps : index des articles](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Comprendre le temps du projet par rapport au temps hors projet
