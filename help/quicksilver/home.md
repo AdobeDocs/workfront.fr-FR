@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront] documentation'
 description: Documentation pour [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Commencez à en savoir plus sur l’administration Adobe Workfront.
 
 Voir [Prise en main de l’administration Adobe Workfront](/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md).
 
-### Adobe Workfront Fusion
+### Adobe Workfront Fusion
 
 Workfront Fusion connecte vos applications et services web de manière transparente afin que vous puissiez vous concentrer sur de nouvelles tâches plutôt que de répéter les mêmes tâches encore et encore.
 
@@ -75,9 +75,9 @@ Voir [Ressources du mode texte](/help/quicksilver/reports-and-dashboards/reports
 
 Utilisez l’équilibreur de charge de travail comme alternative à la planification des ressources dans Workfront.
 
-Voir [L’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+Voir [L’équilibreur de charge de travail : index de l’article](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Adobe Workfront Goals
+### Objectifs d’Adobe Workfront
 
 Alignez votre stratégie sur votre travail afin d’atteindre l’alignement et d’atteindre le succès en utilisant les objectifs Adobe Wokfront.
 

@@ -6,9 +6,9 @@ description: La définition d’une structure de ventilation des tâches (WBS) p
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Les éléments livrables du projet peuvent être des biens de consommation, des 
 
 En fonction de sa taille et de sa portée, un projet peut être constitué de plusieurs livrables.
 
-Une fois que vous avez identifié vos livrables, vous pouvez commencer à les ventiler en tâches. Les tâches sont la sortie que vous obtenez pour obtenir le résultat global du projet. Lors de la définition de vos tâches, vous prenez en compte les paramètres suivants :
+Une fois que vous avez identifié vos livrables, vous pouvez commencer à les ventiler en tâches. Les tâches sont la sortie que vous obtenez afin de fournir votre résultat global pour le projet. Lors de la définition de vos tâches, vous prenez en compte les paramètres suivants :
 
 * Laps de temps requis pour l’achèvement.
 * Budget nécessaire pour terminer le travail.
@@ -86,8 +86,8 @@ Tenez compte des points suivants :
 
 Une fois que vous avez défini la durée et les contraintes de chaque tâche, vous pouvez déterminer qui dispose du temps et des compétences pour accomplir le travail. Vous pouvez affecter des tâches aux entités suivantes dans Workfront :
 
-* Utilisateurs et utilisatrices\
-  Seuls les utilisateurs disposant d’un niveau d’accès de planificateur ou de traitement peuvent être affectés à des tâches. Bien que vous puissiez affecter des tâches aux Demandeurs et aux Réviseurs, ils ne peuvent pas les exécuter. Pour cette raison, il est déconseillé de leur assigner des tâches.
+* Utilisateurs\
+  Seuls les utilisateurs disposant d’un niveau d’accès Planificateur ou Worker peuvent être affectés à des tâches. Bien que vous puissiez affecter des tâches aux Demandeurs et aux Réviseurs, ils ne peuvent pas les exécuter. Pour cette raison, il est déconseillé de leur assigner des tâches.
 
   Pour plus d’informations sur les niveaux d’accès et la manière dont ils définissent ce que les utilisateurs peuvent faire avec les objets Workfront, voir [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -108,7 +108,7 @@ Au début d’un exercice ou d’un trimestre, vous souhaiterez peut-être gére
 Pour plus d’informations sur la planification de l’utilisation de vos ressources à un niveau supérieur, consultez l’article [Prise en main de la planification des ressources](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Lorsque vous gérez vos ressources dans le cadre de la création de la structure de ventilation des tâches d’un projet et en vous assurant que chaque tâche est affectée à la ressource appropriée, vous êtes prêt à planifier vos ressources pour le travail qui doit être effectué.\
-Pour plus d’informations sur la planification de vos ressources, reportez-vous aux articles de la section [L’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/workload-balancer.md) .
+Pour plus d’informations sur la planification de vos ressources, reportez-vous aux articles de la section [L’équilibreur de charge de travail : index de l’article](../../../resource-mgmt/workload-balancer/workload-balancer.md) .
 
 ## Estimation des finances du projet
 
@@ -141,7 +141,7 @@ Une fois que vous avez terminé votre WBS, vous pouvez l’afficher dans une lis
 Vous pouvez afficher la liste des tâches au niveau du projet.
 
 1. Accédez au projet pour lequel vous souhaitez afficher la structure de ventilation de travail.
-1. Sélectionnez la **Tâches** .
+1. Sélectionnez la variable **Tâche** .
 1. (Facultatif) Sélectionnez **Rien** dans le **Regroupement** menu déroulant.
 
    La structure de ventilation des tâches n’affiche pas la mise en retrait des tâches dans le WBS.
