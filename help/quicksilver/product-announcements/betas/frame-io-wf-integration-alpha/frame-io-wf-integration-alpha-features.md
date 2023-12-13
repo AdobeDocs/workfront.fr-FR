@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Pour tester la fonctionnalité, connectez-vous à votre instance Workfront Previ
 
 1. **Coordonnateurs :** Dans Workfront, créez un projet avec le `Frame.io alpha testing` groupe affecté en tant que groupe de projet.
 
-1. **Coordonnateurs :** Dans Workfront, affectez vos créatifs au projet. <span class="preview">ou les tâches activées dans le cadre</span> et définissez l’état du projet sur &quot;Actuel&quot;.
+1. **Coordonnateurs :** Dans Workfront, affectez vos créatifs au projet. <span class="preview">ou les tâches Frame enabled (notez que les sous-tâches ne peuvent pas être marquées comme étant Frame enabled).</span> et définissez l’état du projet sur &quot;Actuel&quot;.
 
 1. **Créatifs :** Recherchez dans vos emails une invitation au projet Frame.io nouvellement créé.
 
@@ -60,6 +60,10 @@ Pour tester la fonctionnalité, connectez-vous à votre instance Workfront Previ
 1. **Créatifs :** Dans Frame.io, appliquez les modifications demandées en ajoutant la version mise à jour à la pile de versions de la ressource connectée.
 
 1. **Coordonnateurs :** Dans Workfront, affectez les approbateurs/réviseurs à la version que vous venez de télécharger et surveillez la progression jusqu’à ce qu’elle atteigne l’approbation.
+
+## Scénario de test détaillé
+
+Pour les participants qui souhaitent tester des fonctionnalités supplémentaires, nous avons créé un scénario de test plus impliqué. Un guide pour ce scénario de test détaillé peut être téléchargé ici : [Présentation détaillée du scénario de test détaillé WF + Frame.io](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## Plans de fonctionnalités
 
