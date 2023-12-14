@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Adobe de produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Pour connecter les types d’enregistrements Maestro à Experience Manager Assets, vous devez disposer d’un Adobe Experience Manager Assets</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -199,6 +201,12 @@ Tenez compte des points suivants :
       * Entreprises
       * Groupes
 
+   * ADOBE EXPERIENCE MANAGER ASSETS :
+
+      * Ressources
+      * Dossiers
+      * Collections
+
 * Après avoir connecté un type d’enregistrement à un autre type d’enregistrement ou à un type d’objet d’une autre application, les scénarios suivants existent :
 
    * Lorsque vous connectez deux types d’enregistrement : un champ Enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Un champ d’enregistrement lié similaire est créé dans le type d’enregistrement auquel vous vous connectez.
@@ -230,12 +238,14 @@ Tenez compte des points suivants :
 1. Cliquez sur la carte d’un type d’enregistrement pour ouvrir la page de type d’enregistrement.
 1. Cliquez sur le bouton **+** dans le coin supérieur droit du tableau, puis cliquez sur l’icône **Nouvelle connexion** .
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. Dans le **Type d’enregistrement** , sélectionnez l’une des options suivantes : <!--is the field name spelled right? lowercase "t"?-->
 
-   * Autre type d&#39;enregistrement opérationnel
-   * Une taxonomie
-   * Un projet, un Portfolio, un programme, une entreprise ou un groupe Workfront.
+   * Un autre type d&#39;enregistrement opérationnel de l&#39;espace de travail que vous avez sélectionné
+   * Une taxonomie de l’espace de travail que vous avez sélectionné
+   * Un projet, un Portfolio, un programme, une entreprise ou un groupe dans la section Types d’objet Workfront .
+   * Experience Manager Assets dans la section Adobe Applications .
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ Tenez compte des points suivants :
    * **Autoriser plusieurs enregistrements**: sélectionnez cette option pour indiquer que vous autorisez les utilisateurs à ajouter plusieurs enregistrements lorsque le champ de type d’enregistrement associé s’affiche sur les enregistrements originaux. Cette option est sélectionnée par défaut.
    * **Sélectionner les champs de recherche**: sélectionnez cette option pour ajouter des champs à partir du type d’enregistrement sélectionné. Cette option est sélectionnée par défaut.
 
+1. (Conditionnel et facultatif) Si vous avez choisi de connecter un objet Workfront, sélectionnez une **Formulaire personnalisé** de la **Lier uniquement les projets qui correspondent à ces critères** . <!--this needs to be updated for each object when they fix this UI.--> Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être liés au type d’enregistrement Maestro sélectionné. Vous pouvez sélectionner plusieurs formulaires.
+
+   ![](assets/workfront-project-connection-selection.png)
+
+1. (Conditionnel) Si vous avez choisi de vous connecter à Experience Manager Assets, sélectionnez un référentiel dans le **Référentiel Experience Manager** dans le menu déroulant **Lier des ressources du référentiel suivant** . Il s’agit d’un champ obligatoire. Seuls les référentiels auxquels vous avez accès dans Experience Manager Assets s’affichent dans ce champ.
+
+   ![](assets/aem-assets-connection-selection.png)
+
 1. Cliquez sur **Créer**.
 
-1. (Conditionnel) Si vous avez sélectionné le paramètre Sélectionner un champ de recherche à l’étape précédente, la variable **Ajouter des champs de recherche** s’ouvre.
+1. (Conditionnel) Si vous avez sélectionné l’option **Sélectionner un champ de recherche** à l’étape précédente, le paramètre **Ajouter des champs de recherche** s’ouvre.
 
    Cliquez sur le bouton **+** pour ajouter des champs à partir de la fonction **Champs non sélectionnés** zone.
 
@@ -274,6 +292,10 @@ Tenez compte des points suivants :
 1. (Facultatif et conditionnel) Si vous choisissez de lier un champ de type nombre, devise, pourcentage ou date, sélectionnez également une valeur d’agrégateur. Les valeurs des champs liés s&#39;affichent soit séparés par des virgules, soit sous la forme d&#39;une valeur agrégée selon l&#39;agrégateur que vous choisissez, lorsque les utilisateurs sélectionnent plusieurs enregistrements liés dans le champ d&#39;enregistrement lié.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > Les agrégateurs ne sont pas disponibles lors de la connexion des types d’enregistrement à Experience Manager Assets.
 
    Sélectionnez l’une des options suivantes :
 

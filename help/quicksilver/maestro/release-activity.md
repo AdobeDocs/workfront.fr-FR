@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ Avec cette amélioration, notez les points suivants :
 * Toutes les tables vues d’un type d’enregistrement possèdent le même champ principal que celui sélectionné.
 
 Pour plus d’informations, voir [Gestion du mode Tableau](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### Connexion des enregistrements Maestro aux ressources Adobe Experience Manager (AEM)
+
+Version d’aperçu : 14 décembre 2023
+
+Version de production : 15 décembre 2023
+
+Vous pouvez maintenant établir une connexion entre les types d’enregistrement Maestro et les ressources Adobe Experience Manager.
+
+Une fois la connexion établie, les fonctionnalités suivantes sont disponibles avec cette mise à jour :
+
+* Les utilisateurs de Maestro peuvent lier AEM ressources, dossiers ou collections à un enregistrement Maestro à partir d’un référentiel spécifique d’AEM auquel ils ont accès.
+
+* Les utilisateurs de Maestro peuvent afficher toutes les ressources connectées dans Maestro une fois qu’ils sont connectés à des enregistrements.
+
+* Un type d’enregistrement Experience Manager Assets est automatiquement créé dans Maestro après l’établissement de la connexion. Les ressources connectées sont visibles dans le tableau Maestro et les vues de chronologie de ce nouveau type d’enregistrement.
+
+* Vous pouvez afficher AEM informations sur les ressources dans la table d’enregistrements Maestro à partir de laquelle vous vous connectez.
+
+Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## Semaine du 4 décembre 2023
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -232,8 +232,12 @@ Voici les principaux objets et concepts de Maestro :
 
    * Deux types d’enregistrement Maestro
    * Un type d’enregistrement Maestro et un type d’objet de projet, de programme, de portefeuille, d’entreprise ou de groupe Workfront.
+   * Un type d’enregistrement Maestro et une ressource, un dossier ou une collection Adobe Experience Manager.
 
-  ![](assets/new-connection-tab-with-workfront-option.png)
+     Vous devez disposer d’une licence Adobe Experience Manager pour lier les types d’enregistrement aux objets Experience Manager.
+
+     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
   Après avoir établi une connexion entre les types d’enregistrements, vous pouvez connecter les enregistrements individuels de ces types les uns aux autres. La connexion entre les enregistrements s&#39;affiche sous la forme d&#39;un champ d&#39;enregistrement lié.
 
@@ -273,15 +277,15 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 
 | Objet Maestro | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Nombre d’espaces de travail pour une instance Workfront | 1,000 |
+| Nombre d’espaces de travail pour une instance Workfront | 1 000 |
 | Nombre de types d’enregistrement pour un espace de travail | 1 000 (y compris les taxonomies de l’espace de travail ou les objets que vous importez à partir d’applications tierces) |
-| Nombre d&#39;enregistrements pour un type d&#39;enregistrement | 10,000 |
+| Nombre d&#39;enregistrements pour un type d&#39;enregistrement | 10 000 |
 | Nombre de champs pour un type d’enregistrement ou une taxonomie | 500 |
 | Nombre de caractères d’un champ de texte | 1 000 caractères |
-| Taille de fichier que vous pouvez coller dans un tableau de type enregistrement | 1MB |
-| Taille de fichier que vous pouvez importer via l’API pour un tableau de type enregistrement | 1.5MB |
+| Taille de fichier que vous pouvez coller dans un tableau de type enregistrement | 1 Mo |
+| Taille de fichier que vous pouvez importer via l’API pour un tableau de type enregistrement | 1,5 Mo |
 | Taux auquel les demandes d’API peuvent être effectuées | 200 demandes par minute |
-| Taille du fichier CSV d’Excel que vous pouvez importer dans un tableau | 5MB |
+| Taille du fichier CSV d’Excel que vous pouvez importer dans un tableau | 5 Mo |
 
 ## Activation de Maestro pour les utilisateurs de votre instance Workfront
 
@@ -367,6 +371,7 @@ Le tableau suivant illustre les principales fonctionnalités qui seront disponib
 | Connexion des enregistrements et des taxonomies Maestro | ✓ |
 | Recherche d’enregistrements dans la vue de tableau | ✓ |   |
 | Connecter des enregistrements Maestro à des projets, programmes, portfolios, entreprises et groupes Workfront | ✓ |                                 |                  |
+| Connexion d’enregistrements Maestro à des ressources, dossiers et collections Adobe Experience Manager | ✓ |                                  |                 |
 | Page Détails de l’enregistrement | ✓ |                                  |                  |
 | Mettre à jour la mise en page de la page Détails de l’enregistrement |                               | ✓ |                  |
 | Autorisations Workspace | | ✓ |  |
@@ -375,6 +380,8 @@ Le tableau suivant illustre les principales fonctionnalités qui seront disponib
 | Personnalisation de la couleur et de l’icône d’un enregistrement | ✓ |                                  |                 |
 | Ajout de commentaires aux enregistrements |                               | ✓ |                 |
 | Formatage de texte enrichi pour les champs de paragraphe | ✓ |                                  |                 |
+
+
 
 ## Activité de mise à jour Maestro
 
