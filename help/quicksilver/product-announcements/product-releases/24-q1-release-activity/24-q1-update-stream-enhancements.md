@@ -4,9 +4,9 @@ description: Amélioration du flux de mise à jour et des notifications du premi
 author: Lisa
 feature: Product Announcements
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 7e1bcff7361a76988a319b266c7b885a6b614c15
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées au flux de mise à jour et aux notifications de la version du premier trimestre 2024 à l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Faites glisser et déposez l’image dans un commentaire dans la section Mises à jour .
+
+Pour améliorer le contenu de vos commentaires, vous pouvez désormais faire glisser et déposer rapidement une image dans un commentaire ou une réponse dans la section Mises à jour d’un objet.
+
+Vous pouvez ajouter des images enregistrées sur votre ordinateur uniquement aux formats suivants : .jpg, .jpeg, .png, .gif.
+
+Cette fonctionnalité existait dans le flux de commentaires hérité et a désormais été ajoutée à la nouvelle expérience de commentaires.
+
+Pour plus d’informations, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## La nouvelle expérience de commentaire capture toutes les informations pour les projets, tâches, problèmes et documents.
 
