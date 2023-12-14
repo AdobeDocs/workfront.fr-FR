@@ -4,9 +4,9 @@ description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscr
 >
 >La version 23.3 incluait l’option permettant de déplacer votre organisation vers les versions mensuelles. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis de mise à jour mensuels et trimestriels.
 >
->Sauf indication contraire, les mises à jour mensuelles et trimestrielles doivent être disponibles le dernier jeudi du mois.
+>Sauf indication contraire, les versions mensuelles et trimestrielles sont prévues pour être disponibles le jeudi de la deuxième semaine complète du mois.
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
