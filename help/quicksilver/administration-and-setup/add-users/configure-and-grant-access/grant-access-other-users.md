@@ -5,12 +5,13 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d1fe7165932fb6f2aff3c8488bdb8e1dfae3b6d3
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 1%
+source-wordcount: '768'
+ht-degree: 0%
 
 ---
+
 
 # Accorder l’accès aux utilisateurs
 
@@ -26,7 +27,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -34,7 +35,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,15 +46,15 @@ Vous pouvez gérer les informations que les utilisateurs peuvent afficher et mod
 
 * Un administrateur Workfront.
 
-   Pour plus d’informations, voir [Octroi d’un accès administratif complet à un utilisateur](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Pour plus d’informations, voir [Octroi d’un accès administratif complet à un utilisateur](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 * Un utilisateur disposant d’une licence Plan par défaut qui a également accès aux utilisateurs, comme expliqué dans cet article.
 
-   Les utilisateurs qui sont limités pour afficher uniquement les utilisateurs de leur société ou de la Principale entreprise ont accès à la modification uniquement des utilisateurs qu’ils peuvent voir. Pour plus d’informations, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Les utilisateurs qui sont limités pour afficher uniquement les utilisateurs de leur entreprise ou de la principale entreprise ont accès à la modification uniquement des utilisateurs qu’ils peuvent voir. Pour plus d’informations, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Un utilisateur disposant d’une licence Plan par défaut qui est également désigné comme responsable d’un autre utilisateur.
 
-   Les utilisateurs qui se voient accorder l’accès Modifier aux utilisateurs de leur niveau d’accès peuvent gérer les utilisateurs qui leur signalent des informations. Pour plus d’informations sur la gestion d’un utilisateur, voir [Afficher l&#39;organigramme](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+  Les utilisateurs qui se voient accorder l’accès Modifier aux utilisateurs de leur niveau d’accès peuvent gérer les utilisateurs qui leur signalent des informations. Pour plus d’informations sur la gestion d’un utilisateur, voir [Afficher l&#39;organigramme](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 * Un utilisateur disposant d’une licence Plan par défaut qui a créé un utilisateur peut désactiver, supprimer ou modifier l’utilisateur qu’il a créé. Pour plus d’informations sur la création d’utilisateurs, voir [Ajout d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -64,7 +65,7 @@ Vous pouvez gérer les informations que les utilisateurs peuvent afficher et mod
 
    1. Cliquez sur l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le **Affichage** à droite de **Utilisateurs**.
 
-   1. Désactiver **Afficher les informations de contact**, puis cliquez sur le X pour fermer la variable **Ajuster vos paramètres** de la boîte.
+   1. Désactiver **Afficher les informations sur les contacts**, puis cliquez sur le X pour fermer la variable **Ajuster vos paramètres** de la boîte.
 
 1. Pour modifier la capacité des utilisateurs disposant d’un accès sous licence Plan à modifier d’autres utilisateurs, cliquez sur l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le **Modifier** à droite de **Utilisateurs**, puis sélectionnez les fonctionnalités à accorder :
 
@@ -75,15 +76,15 @@ Vous pouvez gérer les informations que les utilisateurs peuvent afficher et mod
      <tr> 
       <td role="rowheader"><strong>Créer</strong> </td> 
       <td> <p>Permet aux utilisateurs de créer des utilisateurs.<br>Cette option est activée par défaut.</p> 
-      &lt;!--
+      &lt;!—
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Assurez-vous que cette modification est effectuée avant de déchiffrer ces deux notes. Le 3/29, le req doc dit que cela dépend des résultats de l'enquête.</p>
 
-       &lt;p>&lt;b>REMARQUE&lt;/b> : Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.&lt;/p>
+       &lt;p>&lt;b>REMARQUE :&lt;/b> Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.&lt;/p>
        —>  &lt;/td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Supprimer</strong> </td> 
-      <td> <p> Permet aux utilisateurs de supprimer les utilisateurs qu’ils ont eux-mêmes créés.<br>Cette option est activée par défaut.</p> <p><b>REMARQUE</b>: Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.</p> </td> 
+      <td> <p> Permet aux utilisateurs de supprimer les utilisateurs qu’ils ont eux-mêmes créés.<br>Cette option est activée par défaut.</p> <p><b>REMARQUE</b>: cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Administration des utilisateurs (tous les utilisateurs)</strong> </td> 
@@ -95,12 +96,12 @@ Vous pouvez gérer les informations que les utilisateurs peuvent afficher et mod
        </ul> <p>Cette option est désactivée par défaut.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Administration des utilisateurs (utilisateurs du groupe)</strong> </td> 
+      <td role="rowheader"><strong>Administration des utilisateurs (utilisateurs de groupe)</strong> </td> 
       <td> <p>Permet aux utilisateurs d’effectuer les opérations suivantes pour tout utilisateur d’un groupe qu’ils administrent : 
         <ul>
          <li><p>Modifier, supprimer ou désactiver l’utilisateur</p></li>
          <li>Connexion en tant qu’utilisateur</li>
-         <li><p>Réinitialisation du mot de passe de l’utilisateur</p><p><b>REMARQUE</b>: Un administrateur de groupe ne peut pas se connecter en tant qu’administrateur Workfront ni réinitialiser le mot de passe de ce dernier.</p></li>
+         <li><p>Réinitialisation du mot de passe de l’utilisateur</p><p><b>REMARQUE</b>: un administrateur de groupe ne peut pas se connecter en tant qu’administrateur Workfront ni réinitialiser le mot de passe de ce dernier.</p></li>
         </ul><p>Cette option est désactivée par défaut.</p></p> </td> 
      </tr> 
     </tbody> 

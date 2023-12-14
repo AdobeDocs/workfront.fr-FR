@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Présentation de l’équilibreur de charge de travail
-description: Une fois que les chefs de projet ont planifié le travail sur les projets et créé les tâches, vous pouvez utiliser l’équilibreur de charge de travail pour affecter ce travail aux utilisateurs de vos équipes.
-author: Alina
+description: Une fois que les chefs de projet ont planifié le travail sur les projets en créant des tâches et une fois que les gestionnaires de ressources ont attribué des ressources de rôle aux projets dans le planificateur de ressources, les propriétaires de projet et les chefs d’équipe peuvent utiliser l’équilibreur de charge de travail pour affecter des tâches aux utilisateurs.
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-Une fois que les chefs de projet ont planifié le travail sur les projets et créé des tâches, vous pouvez utiliser l’équilibreur de charge de travail pour affecter ce travail aux utilisateurs.
+Une fois que les chefs de projet ont planifié le travail sur les projets en créant des tâches et une fois que les gestionnaires de ressources ont attribué des ressources de rôle aux projets dans le planificateur de ressources, les propriétaires de projet et les chefs d’équipe peuvent utiliser l’équilibreur de charge de travail pour affecter des tâches aux utilisateurs.
 
 >[!IMPORTANT]
 >
@@ -55,12 +55,12 @@ Tenez compte des avantages suivants lorsque vous utilisez l’équilibreur de ch
 -->
 
 * Accédez à un mappage visuel clair de la suraffectation et de la sous-utilisation des ressources, qui est transparent pour toutes les parties prenantes.
-* En tant que gestionnaire de personnes, vous pouvez protéger vos personnes de l&#39;épuisement et leur permettre de faire leur meilleur travail avec plus de concentration, de qualité et d&#39;engagement. Vous pouvez garantir leur pleine utilisation, rompre les silos et permettre l’alignement du travail entre les équipes.
+* En tant que gestionnaire de personnes, vous pouvez protéger vos personnes de l&#39;épuisement et leur permettre de faire de leur mieux avec plus de concentration, de qualité et d&#39;engagement. Vous pouvez garantir leur pleine utilisation, rompre les silos et permettre l’alignement du travail entre les équipes.
 * Lorsque vous affectez du travail au niveau de la tâche ou du problème, vous ne pouvez pas savoir à quel point un utilisateur est occupé. Lorsque vous utilisez l’équilibreur de charge de travail, vous pouvez voir quels utilisateurs sont disponibles dans leur charge de travail pour terminer la tâche ou le problème à temps. Cela inclut les détails des heures de pause et des exceptions de planification.
 
   Pour plus d’informations, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  Vous pouvez également attribuer des tâches en bloc, ce qui facilite la distribution simultanée d’un grand nombre d’éléments de travail sur plusieurs projets. Pour plus d’informations, voir [Affectation du travail en masse à l’aide de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Vous pouvez également attribuer des tâches en bloc, ce qui facilite la distribution simultanée de plusieurs tâches sur plusieurs projets. Pour plus d’informations, voir [Affectation du travail en masse à l’aide de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * Les cadres peuvent prendre des décisions opportunes en matière de recrutement en faisant preuve de transparence quant à la manière dont les membres de leur organisation sont utilisés.
 * Les membres de l’équipe bénéficient d’une meilleure collaboration, car ils peuvent tous voir sur quoi travaillent leurs collègues à tout moment. Pour plus d’informations sur l’accès nécessaire pour afficher ou gérer les ressources dans l’équilibreur de charge de travail, voir [Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -92,15 +92,18 @@ Pour plus d’informations sur la création et l’utilisation de filtres dans l
 
   Pour plus d’informations sur l’accès nécessaire pour gérer la charge de travail de vos ressources dans l’équilibreur de charge de travail, voir [Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
-* Les utilisateurs dont vous souhaitez gérer la charge de travail doivent répondre aux critères suivants afin que les informations sur leur disponibilité et leurs compétences soient exactes :
+* Les utilisateurs dont vous souhaitez gérer la charge de travail doivent respecter les critères suivants afin que les informations sur leur disponibilité et leurs compétences soient exactes :
 
    * Avoir des planifications et des rôles de tâche associés à leur profil.
-   * Pour plus d’informations sur l’association de planifications et de rôles de tâche avec les utilisateurs, voir [Ajout d’utilisateurs](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+     Pour plus d’informations sur l’association de planifications et de rôles de tâche avec les utilisateurs, voir [Ajout d’utilisateurs](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * Si un utilisateur n’est pas associé à une planification, la planification par défaut de votre système Workfront est associée à l’utilisateur par défaut, à des fins de gestion des ressources.
-   * Demandez que les exceptions de planification soient mises à jour dans leurs plannings.\
+   * Demandez que les exceptions de planification soient mises à jour dans leurs plannings.
+
      Pour plus d’informations sur la création de plannings, voir [Création d’un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Faire mettre à jour leur calendrier de désactivation dans leur profil.\
+   * Faire mettre à jour leur calendrier de désactivation dans leur profil.
+
      Pour plus d’informations sur la mise à jour du calendrier de désactivation d’un utilisateur, voir [Configuration du temps libre](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -110,13 +113,15 @@ Pour plus d’informations sur la création et l’utilisation de filtres dans l
      </div>   
      -->
 
-* L’administrateur de Workfront doit déterminer comment Workfront calcule la disponibilité de l’utilisateur. Ils peuvent décider si Workfront utilise la planification par défaut du système ou la planification de l’utilisateur pour calculer le temps de travail de l’utilisateur. Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* L’administrateur de Workfront doit déterminer comment Workfront calcule la disponibilité de l’utilisateur. Ils peuvent décider si Workfront utilise la planification par défaut du système ou la planification de l’utilisateur pour calculer le temps de travail de l’utilisateur en ajustant les préférences de gestion des ressources dans la zone Configuration de Workfront.
+
+  Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Bonnes pratiques relatives à la configuration des tâches et des problèmes {#best-practices-for-setting-up-tasks-and-issues}
 
 Assurez-vous que la tâche et la configuration de problème suivantes existent avant de commencer à assigner du travail aux utilisateurs dans l’équilibreur de charge de travail :
 
-* Les tâches parentes ne sont pas affectées aux utilisateurs ni aux rôles. Ils ne s’affichent pas dans l’équilibreur de charge de travail.
+* Les tâches parentes ne sont pas affectées aux utilisateurs ni aux rôles. Les tâches parentes ne s’affichent pas dans l’équilibreur de charge de travail.
 * Les tâches et les problèmes ont une valeur pour les heures planifiées qui est supérieure à zéro.
 
 * Les tâches et les problèmes ont une valeur pour leur durée supérieure à zéro.
@@ -124,16 +129,16 @@ Assurez-vous que la tâche et la configuration de problème suivantes existent a
 
 ## Avant de commencer à utiliser l’équilibreur de charge de travail
 
-* Vous pouvez utiliser l’équilibreur de charge de travail pour affecter du travail et gérer les allocations quotidiennes pour les utilisateurs de votre entreprise.
+* Consultez les articles suivants avant de commencer à utiliser l’équilibreur de charge de travail :
 
-  Cet article vous explique comment naviguer dans l’équilibreur de charge de travail pour effectuer les actions suivantes : [Navigation dans l’équilibreur de charge de travail](../workload-balancer/navigate-the-workload-balancer.md).
+   * Cet article vous explique comment naviguer dans l’équilibreur de charge de travail pour effectuer les actions suivantes : [Navigation dans l’équilibreur de charge de travail](../workload-balancer/navigate-the-workload-balancer.md).
 
-  Les articles suivants vous expliquent comment affecter du travail et gérer les affectations d’utilisateurs :
+   * Les articles suivants vous expliquent comment affecter du travail et gérer les affectations d’utilisateurs :
 
-   * [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../workload-balancer/assign-work-in-workload-balancer.md).
-   * [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* L’équilibreur de charge de travail peut se trouver dans plusieurs zones différentes de Workfront. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, voir [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* L’équilibreur de charge de travail se trouve dans différentes zones de Workfront. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, voir [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Accès nécessaire pour utiliser l’équilibreur de charge de travail
 

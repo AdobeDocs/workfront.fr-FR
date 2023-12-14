@@ -6,9 +6,9 @@ description: Vous créez une équipe agile Kanban ou Scrum dans [!DNL Adobe Work
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -42,16 +42,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Quelconque</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Nouveau : [!UICONTROL Standard]</p> 
    ou
    <p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">Niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux équipes</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Pour savoir quel plan ou type de licence vous disposez, contactez votre [!DNL Workfront] administrateur.
@@ -68,7 +75,6 @@ Pour configurer l’estimation des articles pour votre équipe agile :
 1. Sélectionnez l’équipe agile à gérer.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![](assets/more-menu.png) , puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.\
    ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
 
 1. Dans le **[!UICONTROL Agile]** , dans la section **[!UICONTROL Estimation des articles dans]** , choisissez si vous souhaitez utiliser des points ou des heures pour estimer la taille (charge de travail) des articles. Si vous sélectionnez Points, indiquez le nombre d’heures égal à 1 point. (La valeur par défaut est de 1 point = 8 heures.) Il s’agit du nombre d’heures planifiées ajoutées à l’article.
@@ -89,8 +95,6 @@ Pour définir les états disponibles pour le panorama d’articles associé à l
 
 1. Sélectionnez l’équipe agile à gérer.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.
-
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.
 
    ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
 
@@ -139,7 +143,6 @@ Pour configurer les fiches d’article affectées à l’équipe agile afin d’
 
 1. Sélectionnez l’équipe agile à gérer.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.\
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.
 
    ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
 
@@ -166,8 +169,6 @@ Pour limiter les travaux en cours pour votre équipe Kanban :
 1. Sélectionnez l’équipe Kanban que vous souhaitez gérer.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![](assets/more-menu.png), puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.
-
    ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
 
 1. Dans le **[!UICONTROL Agile]** , dans la section **[!UICONTROL Méthodologie]** Vérifiez que Kanban est sélectionné.
@@ -193,8 +194,6 @@ Vous pouvez configurer les articles du journal pour qu’ils soient automatiquem
 1. Sélectionnez l’équipe Kanban que vous souhaitez gérer.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![](assets/more-menu.png), puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.
-
    ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
 
 1. Sélectionner **[!UICONTROL Ajout automatique de l’article suivant depuis le journal des logs]** pour configurer que l’élément suivant du journal en souffrance soit automatiquement ajouté au **[!UICONTROL Nouveau]** lorsqu’un élément est déplacé hors de la colonne **[!UICONTROL En cours]** colonne .
@@ -215,8 +214,6 @@ Vous pouvez choisir la durée pendant laquelle les cartes terminées restent sur
 1. (Facultatif) Cliquez sur le **[!UICONTROL Changer d’équipe]** icon ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Kanban dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 1. Sélectionnez l&#39;équipe Kanban.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![](assets/more-menu.png) , puis sélectionnez **[!UICONTROL Modifier]**.
-
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.
 
    ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
 

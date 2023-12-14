@@ -7,10 +7,10 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 4%
+source-wordcount: '1210'
+ht-degree: 3%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 4%
 # Présentation de la section Mises à jour
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. </span>
+
+<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
 
 >[!IMPORTANT]
 >
@@ -34,7 +41,7 @@ ht-degree: 4%
 >
 >La nouvelle expérience de commentaire n’est disponible que pour la section Mises à jour des objets Workfront et n’est pas disponible lorsque vous accédez aux objets à partir des zones suivantes :
 >
-> * Accueil
+> * Page d’accueil
 > * Panneau Résumé dans les listes
 > * Panneau Résumé dans les feuilles de temps
 
@@ -49,7 +56,7 @@ ht-degree: 4%
 
 La section Mises à jour d’un objet affiche les mises à jour du système et jusqu’à 200 des mises à jour les plus récentes effectuées par les utilisateurs au cours des 90 derniers jours.
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
 
 Selon les objets pour lesquels vous accédez à l’expérience de commentaire, vous trouverez peut-être l’expérience suivante pour la section Mises à jour :
 
@@ -89,7 +96,7 @@ Selon les objets pour lesquels vous accédez à l’expérience de commentaire, 
 
 ### Présentation de la section Mises à jour dans la nouvelle expérience de commentaire
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 >[!NOTE]
 >
@@ -202,9 +209,6 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
  </tbody> 
 </table>
 
-
-<br>
-
 >[!NOTE]
 >
 >Les réponses ajoutées aux mises à jour système ne sont pas cumulées à l’objet parent. Seules les réponses directes sur un objet enfant et les réponses ajoutées aux mises à jour existantes sont cumulées aux objets parents.
@@ -213,7 +217,6 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
 >
 > Il n’est pas possible de répondre aux mises à jour du système dans la nouvelle expérience de commentaire. Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-</br>
 
 ## Limites de la section Mises à jour
 
@@ -229,8 +232,8 @@ Tenez compte des points suivants lors de l’affichage des mises à jour pour le
 
 * La section Mises à jour pour les équipes est renseignée par les mises à jour entrées sur les objets suivants :
 
-   * Utilisateurs ou utilisatrices
-   * Feuilles de temps*
+   * Utilisateurs
+   * Fiches horaires*
    * Histoires
    * Itérations*
 

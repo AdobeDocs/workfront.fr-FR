@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 3%
 
 ---
@@ -110,7 +110,7 @@ Pour gérer une vue de tableau :
    * [Colonnes (ou champs)](#add-columns-or-fields)
    * [Lignes (ou enregistrements)](#add-rows-or-records)
    * [Filtres](#add-filters)
-   * [Regroupement](#add-groupings)
+   * [Regroupement ](#add-groupings)
    * [Tri](#sort-information)
 
 
@@ -137,36 +137,44 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* Le champ Nom est toujours le premier champ de la vue Tableau.
-   >
-   >* Vous ne pouvez pas déplacer le champ Nom vers une autre position.
-   >
-   >* Vous ne pouvez pas masquer le champ Nom .
-   >
-   >* Le champ Nom est figé et ne fait pas partie du défilement horizontal.
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* Le champ Nom est toujours le premier champ de la vue Tableau.
+     >
+     >* Vous ne pouvez pas déplacer le champ Nom vers une autre position.
+     >
+     >* Vous ne pouvez pas masquer le champ Nom .
+     >
+     >* Le champ Nom est figé et ne fait pas partie du défilement horizontal.
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * Remplacez le champ de la première colonne par un autre champ en modifiant le champ principal. Pour plus d’informations, reportez-vous à l’étape 4. <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. (Facultatif) Pointez sur un nom de champ dans l’en-tête de colonne d’un champ qui ne s’affiche pas dans la première colonne du tableau, cliquez sur la flèche pointant vers le bas située à droite du nom du champ, puis cliquez sur **Définir comme champ principal**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. Cliquez sur **Définir un champ** pour confirmer.
+
+   Le champ devient un champ principal, ce qui signifie qu’il s’affiche comme la première colonne de la vue de tableau. Le champ principal précédent passe à la seconde colonne.
+
+   >[!NOTE]
+   >
+   >   * Seuls les champs des types suivants peuvent être des champs primaires :
+   >
+   >       * Texte à une ligne
+   >       * Nombre
+   >       * Formule
+   >
+   >         Les champs de formule seront publiés ultérieurement.
+   >
+   >   * Le champ principal est toujours gelé et ne peut pas être déplacé. Vous pouvez sélectionner un autre champ pour remplacer un champ principal, si vous devez le déplacer vers un autre emplacement.
+   >
+   >   * La modification du champ principal dans la vue de tableau affecte la vue pour tous les autres utilisateurs qui la choisissent.
+   >
+   >   * La modification du champ principal dans une vue de tableau affecte toutes vos vues de tableau.
+   >
+   >   * Vous ne pouvez pas supprimer ni masquer un champ principal.
 
 1. Cliquez et faites glisser les lignes de séparation des colonnes et déposez-les à l’emplacement souhaité pour augmenter la largeur des colonnes.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ Vous pouvez créer des enregistrements dans Maestro en effectuant l’une des op
 
 * Créez-les manuellement pour les types d’enregistrement Maestro
 * Connectez-les aux enregistrements Maestro à partir d’applications tierces.
+* Créez des enregistrements en copiant et en collant des informations à partir d’une liste externe.
+
+Cet article décrit comment créer des enregistrements Maestro. Pour plus d’informations sur la gestion des enregistrements dans les vues de tableau ou de chronologie, consultez les articles suivants :
+
+* [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Gestion du mode Chronologie](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## Exigences d’accès
 
@@ -60,19 +66,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Formule Adobe Workfront</p></td>
    <td>
-<p>Tous</p>
+<p>Quelconque</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Tous</p> 
+   <p>Quelconque</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Tous</p>  
+   <td> <p>Quelconque</p>  
 </td>
   </tr>
 <tr>
@@ -183,7 +189,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
 ## Créer des enregistrements en les connectant depuis une autre application
 
-Vous pouvez importer des enregistrements d’autres applications en les liant à des enregistrements liés à Maestro.
+Vous pouvez importer des enregistrements d’autres applications en les liant à des enregistrements liés à Maestro. Cela crée un type d’enregistrement Maestro pour l’objet tiers connecté à l’application. Les enregistrements que vous connectez aux enregistrements Maestro d’origine s’affichent dans la vue de tableau de type d’enregistrement Maestro d’objet connecté tiers.
 
 1. Créez un type d’enregistrement Maestro, comme décrit dans la section [Création de types d’enregistrement](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ Vous pouvez importer des enregistrements d’autres applications en les liant à
 
      Par exemple, si vous connectez un type d’enregistrement Maestro aux projets Workfront, un type d’enregistrement en lecture seule nommé &quot;Projets Workfront&quot; est créé dans le même espace de travail.
    * Enregistrements en lecture seule sur la page de type d’enregistrement tiers. Les enregistrements importés depuis l&#39;application tierce restent en lecture seule et ne peuvent être mis à jour que dans leur application d&#39;origine.
-
 
 ## Créer des enregistrements en copiant et collant des informations à partir d’une liste externe
 

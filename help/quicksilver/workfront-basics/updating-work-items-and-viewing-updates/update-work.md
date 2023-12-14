@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4163'
 ht-degree: 1%
 
 ---
@@ -409,9 +409,8 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
 1. (Facultatif) Pour joindre une image à votre mise à jour, effectuez l’une des opérations suivantes :
 
-   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
-   -->
+   * <span class="preview">Enregistrez l’image sur votre ordinateur, puis faites-la glisser et déposez-la dans la zone Nouveau commentaire.</span>
+     <span class="preview">Cette option n’est pas disponible dans l’environnement de production pour la nouvelle expérience de commentaire. Vous pouvez faire glisser et déposer une image dans un commentaire dans l’expérience de commentaire héritée dans Production. </span>
 
    * <span class="preview">Copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire. </span>
    * Cliquez sur le bouton **Ajouter une image** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
@@ -431,6 +430,11 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >* Lorsqu’une personne supprime une image jointe à un commentaire de la zone Documents, elle est également supprimée du commentaire.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. (Facultatif) Pour afficher une image dans la mise à jour existante, effectuez l’une des opérations suivantes :
+
+   * Cliquez sur le bouton **Aperçu** icon <span class="preview">![](assets/previewimageicon-31x31.png)</span> sur la miniature de l’image pour ouvrir l’image en taille réelle dans un nouvel onglet du navigateur.
+   * Cliquez sur le bouton **Télécharger** icon ![](assets/downloadimageicon.png) sur la miniature de l’image pour télécharger l’image.
 
 1. Cliquez sur **Envoyer** pour ajouter votre commentaire.
 

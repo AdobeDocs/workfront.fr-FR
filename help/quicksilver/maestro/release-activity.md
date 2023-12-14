@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,40 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Semaine du 18 décembre 2023
+
+### Mettre à jour le champ principal dans une vue de tableau d’un type d’enregistrement
+
+Aperçu et production : 14 décembre 2023
+
+Vous pouvez maintenant choisir le champ à afficher dans la première colonne d&#39;un tableau Maestro. Ce champ est désormais appelé champ principal.
+
+Avant cette amélioration, le champ Nom d’un enregistrement s’affichait toujours dans la première colonne de la vue de tableau et ne pouvait pas être placé à un autre emplacement.
+
+Avec cette amélioration, notez les points suivants :
+
+* Par défaut, la colonne ou le champ Nom est toujours la première colonne d’un tableau.
+
+* Vous pouvez choisir n’importe quel champ des types suivants comme champ principal et remplacer le champ Nom dans la première colonne :
+
+   * Texte à une ligne
+
+   * Nombre
+
+   * Formule
+
+     >[!NOTE]
+     >
+     >Les champs de type Formule seront publiés ultérieurement.
+
+* Le champ principal d’une vue de tableau est toujours gelé et ne peut pas être déplacé, sauf si vous définissez un autre champ comme champ principal.
+
+* Vous pouvez modifier le champ principal à partir d’un en-tête de colonne non principal.
+
+* Toutes les tables vues d’un type d’enregistrement possèdent le même champ principal que celui sélectionné.
+
+Pour plus d’informations, voir [Gestion du mode Tableau](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 ## Semaine du 4 décembre 2023
 
