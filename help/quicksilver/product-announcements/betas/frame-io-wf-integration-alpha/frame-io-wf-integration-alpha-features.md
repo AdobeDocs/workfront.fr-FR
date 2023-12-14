@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
+source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ Avec cette intégration, notre objectif est de permettre aux créatifs de rester
 
 Pour en savoir plus sur le fonctionnement de l’alpha et les façons de participer, voir [alpha de l’intégration Adobe Workfront et Frame.io : présentation](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
-
 >[!NOTE]
 >
 >Si vous êtes tombé sur ces pages sans que votre entreprise ne participe à ce programme alpha, veillez à traiter les informations ici avec soin et à contacter votre administrateur Workfront ou Frame.io pour plus d’informations.
+>
 
 ## scénario de test de base
 
@@ -32,30 +32,32 @@ Pour vous permettre de tester facilement les nouvelles fonctionnalités du progr
 
 Pour tester la fonctionnalité, connectez-vous à votre instance Workfront Preview ou Sandbox et procédez comme suit :
 
->[!NOTE]
->
-><span class="preview">Texte mis en surbrillance</span> ci-dessous fait référence à des fonctionnalités qui ne sont pas encore mises en oeuvre à des fins de test, mais qui seront incluses dans une version ultérieure.
->
-
 1. **Coordonnateurs :** Dans Workfront, créez un projet avec le `Frame.io alpha testing` groupe affecté en tant que groupe de projet.
 
-1. **Coordonnateurs :** Dans Workfront, affectez vos créatifs au projet. <span class="preview">ou les tâches Frame enabled (notez que les sous-tâches ne peuvent pas être marquées comme étant Frame enabled).</span> et définissez l’état du projet sur &quot;Actuel&quot;.
+1. **Coordonnateurs :** Dans Workfront, marquez les tâches qui nécessitent un travail créatif comme étant activées dans les détails de la tâche et affectez-lui vos créatifs (affectez-vous également si vous souhaitez tester l’ensemble du workflow).
+
+>[!NOTE]
+>
+>Les sous-tâches ne peuvent pas être marquées comme Frame activées.
+>
+
+1. **Coordonnateurs :** Chargez votre résumé créatif et définissez l’état du projet sur &quot;Actuel&quot;.
 
 1. **Créatifs :** Recherchez dans vos emails une invitation au projet Frame.io nouvellement créé.
 
 1. **Créatifs :** Cliquez sur le bouton &quot;Rejoindre le projet&quot; dans l’e-mail d’invitation pour rejoindre le projet Frame.io, passez en revue le dossier créatif du projet et commencez la création de contenu dans votre outil de Creative Cloud de votre choix.
 
-1. **Créatifs :** Chargez les ressources créées sur Frame.io et ajoutez-les au projet Workfront lié. <span class="preview">(ou tâches activées dans le cadre affectées).</span>
+1. **Créatifs :** Chargez les ressources créées sur Frame.io et ajoutez-les au projet Workfront lié en sélectionnant l’une des tâches Frame-enabled qui vous sont affectées. Sélectionnez l’option pour marquer la tâche comme terminée.
 
-1. **Coordonnateurs :** Dans Workfront, recherchez les ressources Frame.io liées dans votre projet et affectez les réviseurs/approbateurs (pour plus d’informations sur l’attribution des révisions/approbateurs, voir [Ajout d’approbateurs ou de réviseurs à un document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
+1. **Coordonnateurs :** Dans Workfront, recherchez les ressources Frame.io liées dans la tâche avec fonction de cadre et vérifiez que l’état de la tâche a été modifié pour &quot;terminer&quot;.
 
-1. **Parties prenantes :** Dans Workfront, consultez votre demande d’approbation dans Détails du document ou de l’accueil, consultez le document Frame connecté dans la visionneuse Frame.io, puis laissez un commentaire contenant des commentaires.
+1. **Coordonnateurs :** Affectez des réviseurs/approbateurs à la ressource Frame.io liée. Vous pouvez également vous attribuer le rôle d’approbateur si vous souhaitez tester l’ensemble du workflow. (Pour plus d’informations sur l’attribution des révisions/approbateurs, voir [Ajout d’approbateurs ou de réviseurs à un document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
-1. <span class="preview">**Coordonnateurs :** Dans Workfront, consultez les commentaires créés par les parties prenantes dans la section Mises à jour du document connecté à Frame.io.</span>
+1. **Parties prenantes :** Dans Workfront, consultez votre demande d’approbation dans Accueil, Détails du document ou dans la notification électronique reçue. Ouvrez la ressource dans la visionneuse Frame.io, laissez un commentaire contenant des commentaires et prenez une décision.
 
-1. <span class="preview">**Parties prenantes :** Prenez une décision dans la visionneuse Frame.io.</span>
+1. **Coordonnateurs :** Dans Workfront, affichez les commentaires créés par les parties prenantes dans la section Mises à jour du document connecté à Frame.io, ainsi que la décision dans la section Approbation ou le volet Résumé du document.
 
-1. <span class="preview">**Créatifs :** Dans Frame.io, notez la décision d’approbation globale prise pour vos ressources.</span>
+1. **Créatifs :** Dans Frame.io, notez la décision d’approbation globale prise pour vos ressources.
 
 1. **Créatifs :** Dans Frame.io, appliquez les modifications demandées en ajoutant la version mise à jour à la pile de versions de la ressource connectée.
 
@@ -71,17 +73,14 @@ Vous trouverez ci-dessous des informations sur les principaux cas d’utilisatio
 
 >[!NOTE]
 >
-><span class="preview">Texte mis en surbrillance</span> ci-dessous fait référence à des fonctionnalités qui ne sont pas encore mises en oeuvre, mais qui seront incluses dans une version ultérieure.
->
 >Puces sous un **&quot;Améliorations potentielles dans les prochaines versions&quot;** Un en-tête peut être inclus ou non dans une version ultérieure, en fonction des commentaires alpha et de l’évolution de nos plans de développement.
 >
 
-
 ### Les administrateurs Workfront peuvent configurer une connexion entre les groupes Workfront et les comptes Frame.io
 
-* <span class="preview">Dans Workfront, vous pouvez connecter un groupe Workfront à un compte Frame.io.</span>
+* Dans Workfront, vous pouvez connecter un groupe Workfront à un compte Frame.io.
 
-* Une nouvelle équipe Frame.io sera créée dans Frame.io, qui représente le groupe Workfront connecté.
+* Une nouvelle équipe de Frame.io sera créée dans Frame.io représentant le groupe Workfront connecté (Notez que cette fonctionnalité n’a été activée que pour les clients qui utilisent l’intégration en production. Les clients qui effectuent toujours le test sur Sandbox ou Preview auront la connexion configurée par l’équipe Adobe.)
 
 **Améliorations potentielles dans les prochaines versions :**
 
@@ -93,19 +92,17 @@ Vous trouverez ci-dessous des informations sur les principaux cas d’utilisatio
 
 * Possibilité de marquer les projets Workfront comme Frame.io activé en attribuant un groupe connecté à Frame
 
-* <span class="preview">Amélioration : possibilité de basculer les tâches dans les projets Workfront en tâches Frame qui, à leur tour, créent des dossiers de tâches dans Frame.io</span>
+* Possibilité de basculer les tâches dans les projets Workfront en tâches Frame qui à leur tour créent des dossiers de tâches dans Frame.io
 
-* Lorsqu’un état de projet Workfront est défini sur Actuel, un projet connecté correspondant est créé dans Cadre, les utilisateurs affectés par Workfront sont ajoutés au projet Cadre et une notification par courrier électronique leur est envoyée à partir de Frame.io.
+* Dans le cas d’un projet Workfront, un groupe lié à un cadre est affecté et au moins une tâche compatible avec le cadre est affectée. Lorsque l’état du projet Workfront est défini sur Actuel, un projet correspondant connecté est créé dans le cadre, les utilisateurs affectés à Workfront sont ajoutés au projet cadre et une notification électronique leur est envoyée à partir de Frame.io.
 
-   * Tous les membres du projet Workfront (utilisateurs et équipes) seront ajoutés en tant que collaborateurs au projet Frame.io (lors de la création du projet et ultérieurement).
-
-   * <span class="preview">Modification : les utilisateurs et les équipes affectés aux tâches Workfront compatibles avec les images seront ajoutés en tant que collaborateurs au projet Frame.io et informés (lors de la création du projet et ultérieurement).</span>
+   * Les utilisateurs et les équipes affectés aux tâches Workfront compatibles avec les images seront ajoutés en tant que collaborateurs au projet Frame.io et informés (lors de la création du projet et ultérieurement).
 
 * Les documents (Creative Briefs) ajoutés au projet et les tâches Frame activées seront transférées au projet Frame.io (dans le dossier de travail respectif) lors de la création du projet (déclencheur : l’état du projet défini sur Actuel).
 
    * Nous vous recommandons de limiter la quantité de documents ajoutés à votre projet avant de n’être actifs qu’à vos mémoires créatives, afin d’éviter d’envoyer plusieurs documents inutiles à Frame.io.
 
-* <span class="preview">Amélioration : les utilisateurs/équipes explicitement non affectés à une tâche Workfront compatible avec les images seront supprimés du projet Frame.io.</span>
+   * Les documents/tâches ajoutés après la synchronisation initiale du projet ne seront pas transmis à Frame.io, seuls les utilisateurs/équipes
 
 **Améliorations potentielles dans les prochaines versions :**
 
@@ -121,9 +118,9 @@ Vous trouverez ci-dessous des informations sur les principaux cas d’utilisatio
 
 * Les nouveaux chargements de version dans Frame.io créent automatiquement une version de document dans Workfront sur les ressources connectées.
 
-* <span class="preview">Amélioration : possibilité de marquer les tâches Workfront référencées comme terminées à partir de Frame.io</span>
+* Possibilité de marquer les tâches Workfront référencées comme terminées dans Frame.io
 
-* <span class="preview">Amélioration : si le document Workfront connecté est supprimé, il reste dans Frame.io et peut être reconnecté à la même tâche de projet ou à une autre.</span>
+* Si le document Workfront connecté est supprimé, il reste dans Frame.io et peut être reconnecté à la même tâche de projet ou à une autre.
 
 **Améliorations potentielles dans les prochaines versions :**
 
@@ -135,7 +132,7 @@ Vous trouverez ci-dessous des informations sur les principaux cas d’utilisatio
 
 * Les utilisateurs et les équipes de Workfront peuvent être ajoutés aux nouveaux documents approuvés pour les documents connectés à Frame.io.
 
-* <span class="preview">Amélioration : lorsqu’un utilisateur/une équipe n’est plus partagé à partir d’un document compatible avec Frame, il perd également son accès à la ressource dans la visionneuse Frame.io</span>
+* Lorsqu’un utilisateur/une équipe n’est plus partagé à partir d’un document compatible avec Frame, il perd également son accès à la ressource dans la visionneuse Frame.io
 
 **Améliorations potentielles dans les prochaines versions :**
 
@@ -151,12 +148,4 @@ Vous trouverez ci-dessous des informations sur les principaux cas d’utilisatio
 
 * Possibilité d’exploiter les fonctionnalités de révision et de commentaire existantes fournies par la visionneuse Frame.io qui sera synchronisée avec le flux de mise à jour de Workfront
 
-* <span class="preview">Possibilité de prendre une nouvelle décision concernant l’approbation des documents depuis la visionneuse Frame.io</span>
-
-### Dans Frame.io, les créatifs seront informés de la décision globale prise sur la ressource Frame.io connectée.
-
-* <span class="preview">Amélioration : l’état global de l’approbation des documents s’affiche sur la ressource dans Frame.io</span>
-
-### Les coordinateurs de projet peuvent envoyer les ressources finales à AEM
-
-* <span class="preview">Amélioration : les documents liés à l’image, y compris les métadonnées, peuvent être envoyés à AEM à l’aide du connecteur Workfront + AEM Asset CS existant.</span>
+* Possibilité de prendre une nouvelle décision concernant l’approbation des documents depuis la visionneuse Frame.io
