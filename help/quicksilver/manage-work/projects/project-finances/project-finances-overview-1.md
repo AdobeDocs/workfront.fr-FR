@@ -7,9 +7,9 @@ description: Pour gérer vos projets, il est essentiel de suivre les finances de
 author: Alina
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Vous pouvez effectuer un suivi sur vos finances à l’aide de plusieurs champs 
 Pour plus d’informations, reportez-vous également aux articles suivants :
 
 * [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [Finances du projet](../../../manage-work/projects/project-finances/project-finances-overview.md)
+* [Finance du projet : index des articles](../../../manage-work/projects/project-finances/project-finances-overview.md)
 * [Gestion des informations dans la zone Finance du projet](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 * [Gérer les finances des tâches dans la section Détails de la tâche](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
@@ -123,7 +123,7 @@ Le tableau suivant présente certaines des finances dont vous pouvez effectuer l
   </tr> 
   <tr> 
    <td>Estimation à la fin (EAC)</td> 
-   <td> Pour plus d’informations sur le calcul du taux d’effet élévateur (EAC), voir <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculer l’estimation à la fin (EAC)</a>. </td> 
+   <td> Pour plus d’informations sur le calcul du taux d’effet élévateur, voir <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculer l’estimation à la fin (EAC)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -151,7 +151,7 @@ Le tableau suivant présente certaines des finances dont vous pouvez effectuer l
   </tr> 
   <tr> 
    <td>Coût des travaux planifiés budgétisés (BCWS)</td> 
-   <td>Mesure de performances. Pour plus d’informations sur le calcul de BCWS, voir <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">Calculer le coût des travaux planifiés budgétisés (BCWS)</a>. </td> 
+   <td>Mesure de performances. Pour plus d’informations sur le calcul de BCWS, voir <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">Calculer le coût des travaux planifiés (BCWS)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

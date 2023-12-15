@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: '220'
+ht-degree: 1%
 
 ---
 
@@ -27,10 +27,10 @@ De plus, vous pouvez utiliser le diagramme de Gantt pour définir une chronologi
 
 Cette section contient les sous-sections suivantes :
 
-* [Projets](../manage-work/projects/projects-overview.md)
+* [Projets : index des articles](../manage-work/projects/projects-overview.md)
 * [Tâches](../manage-work/tasks/tasks-overview.md)
 * [Événements](../manage-work/issues/issues-overview.md)
 * [Le diagramme de Gantt](../manage-work/gantt-chart/the-gantt-chart.md)
-* [Gestion du portefeuille](../manage-work/portfolios/portfolio-management-overview.md)
+* [Gestion des Portfolios](../manage-work/portfolios/portfolio-management-overview.md)
 * [Demandes](../manage-work/requests/requests-overview.md)
 * [Déléguer le travail](../manage-work/delegate-work/delegate-work.md)

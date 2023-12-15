@@ -2,13 +2,13 @@
 title: Présentation de Portfolio Management
 product-area: portfolios
 navigation-topic: portfolios-overview
-description: La gestion des Portfolios de Portfolio ou de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques. Un portfolio est un ensemble de projets ayant des objectifs commerciaux communs.
+description: La gestion des Portfolios de Portfolio ou de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques. Un portfolio est un ensemble de projets avec des objectifs commerciaux communs.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf6356151e7f39f71c0524c1aa33f36dfac3792c
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ En règle générale, les utilisateurs de PPM suivent les étapes suivantes pour
 1. Créez des critères d’évaluation pour la sélection et la hiérarchisation des projets.
 1. Collectez les demandes de projet.
 1. Sélectionnez plusieurs projets demandés en tant que projet de portefeuille en fonction des critères créés.
-1. Définir la priorité des projets sélectionnés en utilisant les mêmes critères.
+1. Classez par ordre de priorité les projets sélectionnés à l’aide des mêmes critères.
 1. Évaluer la disponibilité de la ressource pour réaliser les projets sélectionnés.
 1. Examinez et évaluez l&#39;état d&#39;avancement des projets dans le portefeuille, et effectuez des ajustements si nécessaire.
 
@@ -77,7 +77,7 @@ Pour plus d’informations sur la gestion des ressources, voir [Gestion des ress
 
 Après avoir reçu l’approbation du projet de la part du Gestionnaire de Portfolios et la validation des ressources du Gestionnaire de ressources, en tant que Propriétaire du projet, vous pouvez placer le projet dans l’état de [!UICONTROL Actuel] et vos utilisateurs peuvent commencer le travail pour terminer le projet. Il est recommandé de capturer une ligne de base du projet au cours de cette phase, afin de disposer d’un point de référence pour le projet, dans son état d’origine.
 
-Pour plus d’informations sur la gestion de projets dans [!DNL Workfront], voir [Gestion des projets](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Pour plus d’informations sur la gestion de projets dans [!DNL Workfront], voir [Gestion des projets : index des articles](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 Pour plus d’informations sur la création de lignes de base sur des projets, voir [Création de lignes de base de projet](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Postmortem du projet {#project-postmortem}

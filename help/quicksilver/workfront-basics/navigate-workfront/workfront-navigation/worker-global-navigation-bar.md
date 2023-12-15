@@ -7,9 +7,9 @@ description: Le menu principal change en fonction du niveau d’accès que vous 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Les zones suivantes sont incluses dans la mise en page par défaut d’une [!UIC
 
 * **[!UICONTROL Accueil]**: les tâches et les problèmes qui vous sont assignés s’affichent ici. Il s’agit de la page d’entrée par défaut d’un traitement, mais elle n’apparaît pas dans la variable [!UICONTROL Menu Principal] sauf si un administrateur Workfront l’ajoute dans le modèle de mise en page .  Pour plus d’informations, voir [Prise en main d’ [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL Projets]**: les projets partagés avec vous s’affichent ici. Pour plus d’informations, voir [Projets](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL Projets]**: les projets partagés avec vous s’affichent ici. Pour plus d’informations, voir [Projets : index des articles](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL Rapports]**: les rapports partagés avec vous s’affichent ici. Pour plus d’informations, voir [Rapports](../../../reports-and-dashboards/reports/reports-overview.md).
 

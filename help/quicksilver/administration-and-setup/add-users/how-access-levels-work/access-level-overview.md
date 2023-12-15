@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 681d3b74eec1388f3b6cc7edf51422e0019cc318
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1696'
 ht-degree: 4%
 
 ---
@@ -97,13 +97,13 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Rapports (y compris les tableaux de bord et les rapports de calendrier) |   |   | ✓ |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Documents |   |   | ✓ |
-| Utilisateurs ou utilisatrices |   |   | ✓ |
+| Utilisateurs |   |   | ✓ |
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
 | Planificateur de scénarios |   |   | ✓ (Le paramètre par défaut est No Access.) |
-| Panoramas |   |   | ✓ |
-| Accueil |   |   | ✓ |
+| Panneaux |   |   | ✓ |
+| Page d’accueil |   |   | ✓ |
 | Objectifs |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -196,7 +196,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Utilisateurs ou utilisatrices</td> 
+   <td>Utilisateurs</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -232,12 +232,12 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td>✓ (Le paramètre par défaut est No Access.)</td> 
   </tr> 
   <tr> 
-   <td>Panoramas </td> 
+   <td>Panneaux </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
      <tr> 
-   <td>Accueil </td> 
+   <td>Page d’accueil </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
@@ -277,8 +277,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 
 | Type d’objet Workfront | Accès interdit | Accès aux vues | Modifier l’accès |
 |---|---|---|---|
-| Projet |   | ✓ (Page Détails du projet uniquement) |   |
-| Tâche |   | ✓(Page Détails uniquement) |   |
+| Projet |   | ✓ |   |
+| Tâche |   | ✓ |   |
 | Problème |   |   | ✓ |
 | Portefeuilles | ✓ |   |   |
 | Programmes | ✓ |   |   |
@@ -291,8 +291,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Données financières | ✓ |   |   |
 | Gestion des ressources | ✓ |   |   |
 | Planificateur de scénarios | ✓ |   |   |
-| Panoramas |   |   | ✓ (cartes simples) |
-| Accueil |   | ✓ (Mes mises à jour) |   |
+| Panneaux |   |   | ✓ (cartes simples) |
+| Page d’accueil |   | ✓ (Mes mises à jour) |   |
 | Objectifs |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -335,8 +335,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Données financières | ✓ |   |   |
 | Gestion des ressources | ✓ |   |   |
 | Planificateur de scénarios | ✓ |   |   |
-| Panoramas | ✓ |   |   |
-| Accueil | ✓ |   |   |
+| Panneaux | ✓ |   |   |
+| Page d’accueil | ✓ |   |   |
 | Objectifs | ✓ |   |   |
 
 

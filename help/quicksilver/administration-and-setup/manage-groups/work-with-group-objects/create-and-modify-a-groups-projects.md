@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher et utiliser ses projets comme suit :
 
 * Création d’un projet pour le groupe
-* Modification, exportation, copie ou suppression d’un projet
+* Modifier, exporter, copier ou supprimer un projet
 
 S’il existe des groupes au-dessus de votre groupe, leurs administrateurs peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour les administrateurs de Workfront (pour n’importe quel groupe).
 
@@ -35,7 +35,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td >Formule Workfront</a>*</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</a>*</td> 
@@ -46,8 +46,8 @@ Les étapes de cet article doivent être les suivantes :
    <td> 
     <ul> 
      <li> <p>Le projet doit être associé au groupe ou à l’un de ses sous-groupes. </p> <p>Pour plus d’informations sur l’affectation d’un groupe à un projet, voir <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Gestion des informations dans la zone Aperçu du projet</a>.</p> </li> 
-     <li> <p>En outre, vous devez disposer des autorisations nécessaires pour modifier le projet, soit parce que vous l’avez créé, soit parce qu’il a été partagé avec vous.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </li> 
-    </ul> <p><b>REMARQUE</b>: Lorsque vous créez un projet à partir de la page d’un groupe, le système l’affecte à ce groupe. Cela diffère de la création d’un projet dans d’autres zones Workfront, où le système attribue le projet au groupe d’accueil de l’utilisateur qui le crée (le propriétaire du projet).</p> </td> 
+     <li> <p>Vous devez également disposer des autorisations nécessaires pour modifier le projet, soit parce que vous l’avez créé, soit parce qu’il a été partagé avec vous.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </li> 
+    </ul> <p><b>REMARQUE</b>: lorsque vous créez un projet à partir de la page d’un groupe, le système l’affecte à ce groupe. Cela diffère de la création d’un projet dans d’autres zones Workfront, où le système attribue le projet au groupe d’accueil de l’utilisateur qui le crée (le propriétaire du projet).</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +71,7 @@ Les étapes de cet article doivent être les suivantes :
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Utilisation d’un projet</p> </td> 
-      <td> <p>Sélectionnez le projet, puis utilisez les boutons de la barre d’outils pour modifier le projet. <img src="assets/edit-icon.png">, partager <img src="assets/share-icon.png">, ou supprimez-le <img src="assets/delete.png">.</p> <p>Pour plus d’informations sur ces activités, voir <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Gestion des projets</a>.</p> </td> 
+      <td> <p>Sélectionnez le projet, puis utilisez les boutons de la barre d’outils pour modifier le projet. <img src="assets/edit-icon.png">, partager <img src="assets/share-icon.png">, ou supprimez-le <img src="assets/delete.png">.</p> <p>Pour plus d’informations sur ces activités, voir <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Gestion des projets : index des articles</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Création d’un projet pour le groupe</p> </td> 

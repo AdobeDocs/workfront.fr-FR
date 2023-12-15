@@ -2,20 +2,20 @@
 content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
-title: Création et gestion de modèles de projet
+title: "Créer et gérer des modèles de projet : index de l’article"
 description: Pour plus d’informations sur la création et la gestion de modèles de projet, reportez-vous aux articles suivants.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-# Création et gestion de modèles de projet
+# Créer et gérer des modèles de projet : index des articles
 
 Cette section contient les articles suivants :
 

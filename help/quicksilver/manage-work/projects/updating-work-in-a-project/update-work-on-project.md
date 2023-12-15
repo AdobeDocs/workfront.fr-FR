@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: Mise à jour du travail sur un projet
+title: "Mise à jour du travail sur un projet : index de l’article"
 description: Pour mettre à jour l’état et la progression d’un projet, vous devez mettre à jour l’état et la progression de ses tâches. Cela finit par se répéter pour montrer l'avancement du projet.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# Mise à jour du travail sur un projet
+# Mise à jour du travail sur un projet : index de l’article
 
 Pour mettre à jour l’état et la progression d’un projet, vous devez mettre à jour l’état et la progression de ses tâches. Cela finit par se répéter pour montrer l&#39;avancement du projet.
 

@@ -6,9 +6,9 @@ description: La définition d’une structure de ventilation des tâches (WBS) p
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Pour plus d’informations sur la planification de vos ressources, reportez-vous
 
 Workfront calculera les coûts prévus pour chaque tâche et les coûts globaux d&#39;un projet. Les coûts prévus pour une tâche incluent toutes les dépenses de la tâche, plus le coût de l’employé ou du rôle affecté à la tâche. Les taux horaires de la tâche, du rôle et de l’employé sont attribués lors de la création de la tâche, du rôle et de l’utilisateur.
 
-Pour plus d’informations sur les finances de projet, voir la section [Finances du projet](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+Pour plus d’informations sur les finances de projet, voir la section [Finance du projet : index des articles](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Déterminer les points d’approbation du projet
 

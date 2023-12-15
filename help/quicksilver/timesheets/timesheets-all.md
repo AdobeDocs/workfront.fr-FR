@@ -7,7 +7,7 @@ description: Pour en savoir plus sur la création, la modification, l’approbat
 author: Alina
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Fiches horaires : index de l’article
+
+<!-- Audited: 12/2023 -->
 
 Cette section contient les articles des sous-sections suivantes :
 

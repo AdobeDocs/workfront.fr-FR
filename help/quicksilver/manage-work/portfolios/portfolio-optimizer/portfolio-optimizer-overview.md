@@ -7,9 +7,9 @@ description: La variable [!UICONTROL Portfolio Optimizer] est l’outil utilisé
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ L’objet de la variable [!UICONTROL optimiseur de portefeuille] est de fournir 
 
 La variable [!UICONTROL Portfolio Optimizer] ne peut vous aider que si vous avez rempli les conditions préalables suivantes :
 
-
-* La variable [!UICONTROL Analyses de cas] ont été réalisés sur les projets. Pour plus d’informations, voir les articles de la section [Définition d’un cas d’entreprise](../../projects/define-a-business-case/define-business-case.md).
+* La variable [!UICONTROL Analyses de cas] ont été réalisés sur les projets. Pour plus d’informations, reportez-vous aux articles de la section [Définition d’un cas d’entreprise : index des articles](../../projects/define-a-business-case/define-business-case.md).
 * Un portfolio est défini dans la section Aperçu du projet de la section Détails du projet pour les projets que vous souhaitez consulter.
 * Vous avez indiqué le budget du projet et les avantages prévus pour les projets que vous souhaitez passer en revue. Le coût fixe et les recettes fixes sont facultatifs, mais ils ajoutent une valeur supplémentaire. Pour plus d’informations, voir [Champs de financement du projet](../../projects/project-finances/project-finances-overview-1.md).
-
 
 Pour plus d’informations sur la localisation de la variable [!UICONTROL Portfolio Optimizer], voir [Recherchez la variable [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 

@@ -1,20 +1,20 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: Définition d’un cas d’entreprise
+title: "Define a Business Case : index de l’article"
 description: Vous pouvez demander officiellement et efficacement un projet en créant un Business Case. Les articles suivants décrivent les informations dont vous avez besoin pour définir l’ analyse de cas d’un projet.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# Définition d’un cas d’entreprise
+# Définition d’un cas d’entreprise : index des articles
 
 Cette section contient les articles suivants :
 

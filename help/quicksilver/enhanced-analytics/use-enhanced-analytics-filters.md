@@ -6,7 +6,7 @@ description: Les filtres de la zone Analyses améliorées d’Adobe Workfront vo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Application de filtres dans les analyses améliorées
+
+<!-- Audited: 12/2023 -->
 
 Les filtres de la zone Analyses améliorées d’Adobe Workfront vous aident à vous concentrer sur des projets spécifiques ou des types de données spécifiques. Les types de filtres que vous utilisez peuvent vous donner des informations sur les éléments suivants :
 
@@ -107,7 +109,7 @@ Les filtres de champs de projet permettent de filtrer les données des projets e
 
 Les types de filtre de champ de projet suivants sont disponibles :
 
-| Champ | Données affichées |
+| champ | Données affichées |
 |---|---|
 | **Projet** | Affiche les données uniquement pour le ou les projets sélectionnés. |
 | **Programme** | Affiche uniquement les données des projets du ou des programmes sélectionnés. |
