@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3568'
 ht-degree: 0%
 
 ---
 
 # Enregistrer des heures
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau plan :<ul><li>Clair ou supérieur pour consigner les heures générales dans une feuille de temps</li></p>
+   <td> <p>Nouveau :<ul><li>Clair ou supérieur pour consigner les heures générales dans une feuille de temps</li></p>
    <li> Standard ou supérieur pour consigner les heures sur un projet, une tâche ou un problème</li></ul></p>
    <p>ou</p>
-   <p>Formule actuelle :<ul><li>Passez en revue ou plus pour consigner les heures générales dans une feuille de temps</li></p>
+   <p>Actuel :<ul><li>Passez en revue ou plus pour consigner les heures générales dans une feuille de temps</li></p>
    <li> Travailler ou plus pour consigner les heures sur un projet, une tâche ou un problème</li></ul></p>
    </td> 
   </tr> 

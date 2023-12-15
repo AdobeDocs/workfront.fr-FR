@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1418'
 ht-degree: 6%
 
 ---
 
 # Création et modification de niveaux d’accès personnalisés
+
+<!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
@@ -42,9 +44,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Nouveau plan : Standard
+   <td>Nouveau : Standard
    <p>ou</p>
-   <p>Formule actuelle : Formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 

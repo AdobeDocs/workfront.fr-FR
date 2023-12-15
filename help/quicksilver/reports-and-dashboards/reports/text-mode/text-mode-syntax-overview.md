@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Présentation de la syntaxe du mode texte
+
+<!--Audited: 12/2023-->
 
 Vous pouvez utiliser l’interface du mode texte pour créer des vues, des filtres, des regroupements et des invites plus complexes dans des listes et des rapports. En mode texte, vous pouvez accéder aux champs et à leurs attributs qui ne sont pas disponibles dans l’interface de mode standard.
 

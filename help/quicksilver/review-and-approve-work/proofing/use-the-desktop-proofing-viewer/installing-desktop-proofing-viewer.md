@@ -6,14 +6,16 @@ description: La visionneuse de vérification de l’appli de bureau, conçue pri
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # Installation de la visionneuse de vérification de l’appli de bureau
+
+<!--Audited: 12/2023-->
 
 La visionneuse de vérification de l’appli de bureau, conçue principalement pour la vérification du contenu interactif, est une application qui doit être installée sur votre ordinateur local.
 
@@ -34,11 +36,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Nouveau : Quelconque</p> <p>ou</p> <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Tous</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Quelconque</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,7 @@ Si ce n’est pas le cas, vous pouvez suivre les étapes ci-dessous.
 
 >[!NOTE]
 >
->Si la visionneuse de vérification de l’appli de bureau n’est pas lancée lorsque vous ouvrez un BAT interactif, cela signifie probablement que l’administrateur de Workfront ou de Workfront BAT doit configurer la visionneuse de vérification de l’appli de bureau en tant que visionneuse par défaut pour les BAT interactifs, comme décrit dans la section [Paramètre utilisateur pour l’ouverture de BAT non interactifs dans la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>Si la visionneuse de vérification de l’appli de bureau n’est pas lancée lorsque vous ouvrez un BAT interactif, cela signifie probablement que l’administrateur de Workfront ou de Workfront BAT doit configurer la visionneuse de vérification de l’appli de bureau en tant que visionneuse par défaut pour les BAT interactifs, comme décrit dans la section [Paramètre utilisateur pour l’ouverture de BAT non interactifs dans la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Installation de la visionneuse de vérification de l’appli de bureau sous Windows
 

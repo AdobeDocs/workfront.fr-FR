@@ -7,7 +7,7 @@ description: Vous pouvez partager et revoir différents types de fichiers avec v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Types et limites de taille de fichier de vérification pris en charge - Aperçu
+
+<!--Audited: 12/2023-->
 
 Vous pouvez partager et revoir différents types de fichiers avec vos réviseurs, même s’ils ne disposent pas du logiciel utilisé pour créer les fichiers (tels que Photoshop ou Illustrator) installés sur leurs ordinateurs. Nous prenons en charge les types de fichiers statiques, vidéo, audio, de capture web et interactifs d’une taille de 4 Go.
 

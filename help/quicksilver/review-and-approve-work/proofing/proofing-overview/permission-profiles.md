@@ -4,20 +4,24 @@ product-area: documents
 keywords: BAT,permission
 navigation-topic: proofing-overview
 title: Aperçu du profil d’autorisation de preuve
-description: Les profils d’autorisation de BAT déterminent les autorisations globales dont disposent les utilisateurs sur tous les bons à tirer de votre compte. Les profils d’autorisation de BAT sont attribués aux utilisateurs dans leur profil utilisateur. Les profils d’autorisation de BAT diffèrent des rôles de BAT. Pour plus d’informations sur les rôles de BAT, consultez la présentation des rôles de BAT.
+description: Les profils d’autorisation de BAT déterminent les autorisations globales dont disposent les utilisateurs sur tous les bons à tirer de votre compte. Les profils d’autorisation de BAT sont attribués aux utilisateurs dans leur profil utilisateur. Les profils d’autorisation de BAT diffèrent des rôles de BAT.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 9b60133c4cc20deb410f507854597f44d0607228
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 2%
+source-wordcount: '498'
+ht-degree: 1%
 
 ---
 
 # Aperçu du profil d’autorisation de preuve
 
-Les profils d’autorisation de BAT déterminent les autorisations globales dont disposent les utilisateurs sur tous les bons à tirer de votre compte. Les profils d’autorisation de BAT sont attribués aux utilisateurs dans leur profil utilisateur. Les profils d’autorisation de BAT diffèrent des rôles de BAT. Pour plus d’informations sur les rôles de BAT, voir [Rôles de BAT - Aperçu](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+<!--Audited: 12/2023-->
+
+Les profils d’autorisation de BAT déterminent les autorisations globales dont disposent les utilisateurs sur tous les bons à tirer de votre compte. Les profils d’autorisation de BAT sont attribués aux utilisateurs dans leur profil utilisateur.
+
+Les profils d’autorisation de BAT diffèrent des rôles de BAT. Pour plus d’informations sur les rôles de BAT, voir [Rôles de BAT - Aperçu](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
@@ -29,10 +33,10 @@ Les profils d’autorisation de BAT déterminent les autorisations globales dont
 
 <!--
 <ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the&nbsp;account settings&nbsp;and billing of those accounts from the hub account level.</p> </li>
-<li> <p>Billing Administrators and Administrators can delete users. This can only be done in&nbsp;Account settings.</p> </li>
+<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the account settings and billing of those accounts from the hub account level.</p> </li>
+<li> <p>Billing Administrators and Administrators can delete users. This can only be done in Account settings.</p> </li>
 <li>When Billing Administrators and Administrators view proofs that are owned by other users in their account, they view them with the role of a Reviewer.</li>
-<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them.&nbsp;</li>
+<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them. </li>
 </ul>
 -->
 
@@ -42,11 +46,13 @@ Le tableau suivant affiche les autorisations disponibles pour chaque profil d’
 
 <table>
   <tr>
-   <td colspan="5" ><strong>Éléments propres</strong>
+   <td colspan="1" ><strong></strong>
+   </td>
+   <td colspan="4" ><strong>Éléments propres</strong>
    </td>
    <td colspan="3" ><strong>Autres éléments d’utilisateur</strong>
    </td>
-   <td><strong>Admin</strong>
+   <td><strong>Administration</strong>
    </td>
   </tr>
   <tr>
@@ -54,13 +60,13 @@ Le tableau suivant affiche les autorisations disponibles pour chaque profil d’
    </td>
    <td><strong>Ajouter</strong>
    </td>
-   <td><strong>Afficher</strong>
+   <td><strong>Affichage</strong>
    </td>
    <td><strong>Modifier</strong>
    </td>
    <td><strong>Supprimer</strong>
    </td>
-   <td><strong>Afficher</strong>
+   <td><strong>Affichage</strong>
    </td>
    <td><strong>Modifier</strong>
    </td>
@@ -70,7 +76,7 @@ Le tableau suivant affiche les autorisations disponibles pour chaque profil d’
    </td>
   </tr>
   <tr>
-   <td>Admin
+   <td>Administration
    </td>
    <td>x
    </td>
@@ -119,26 +125,6 @@ Le tableau suivant affiche les autorisations disponibles pour chaque profil d’
    <td>x
    </td>
    <td>x
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Observateur
-   </td>
-   <td>
-   </td>
-   <td>x
-   </td>
-   <td>
-   </td>
-   <td>
    </td>
    <td>
    </td>
@@ -218,7 +204,7 @@ Les superviseurs disposent des autorisations suivantes :
    <td> 
     <ul> 
      <li> <p>Modifiez les réponses du BAT.</p> </li> 
-     <li> <p>Suppression des dossiers privés des autres utilisateurs</p> </li> 
+     <li> <p>Suppression des dossiers privés d’autres utilisateurs</p> </li> 
      <li> <p>Accédez à la page Facturation ou modifiez les détails de facturation</p> </li> 
      <li> <p>Ajout, modification ou suppression d’utilisateurs</p> </li> 
      <li> <p>Vider la corbeille</p> </li> 
@@ -250,7 +236,7 @@ Les gestionnaires disposent des autorisations suivantes :
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Affichez, modifiez ou supprimez des BAT et des fichiers créés par d’autres utilisateurs de l’entreprise. </p> <p>Modifiez les réponses du BAT.</p> </li> 
+     <li> <p>Affichez, modifiez ou supprimez des BAT et des fichiers créés par d’autres utilisateurs de l’entreprise. </p> </li><li><p>Modifiez les réponses du BAT.</p> </li> 
      <li> <p>Suppression des dossiers privés ou publics d’autres utilisateurs</p> </li> 
      <li> <p>Accédez à la page Facturation ou modifiez les détails de facturation</p> </li> 
      <li> <p>Ajout, modification ou suppression d’utilisateurs</p> </li> 
@@ -270,15 +256,15 @@ Les gestionnaires disposent des autorisations suivantes :
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot&nbsp;create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -286,7 +272,7 @@ Les gestionnaires disposent des autorisations suivantes :
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs&nbsp;or replies.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs or replies.</p>
 -->
 
 <!--
@@ -294,7 +280,7 @@ Les gestionnaires disposent des autorisations suivantes :
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access&nbsp;the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a>&nbsp;and&nbsp;<a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a> and <a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -302,32 +288,31 @@ Les gestionnaires disposent des autorisations suivantes :
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the&nbsp;trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts. </p>
 -->
 
 
 ><!--
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited.&nbsp;</p>>
+><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited. </p>>
 >-->
 >  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
 >  -->
 >  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing </li>>
+>  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings: Account settings, Billing </li>>
 >  -->
-
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Guest</h3>
@@ -359,6 +344,6 @@ Les gestionnaires disposent des autorisations suivantes :
 
 <!--
 <note type="note">
-&nbsp;Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
+ Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
 </note>
 -->
