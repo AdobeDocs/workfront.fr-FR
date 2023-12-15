@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ Avec cette amélioration, notez les points suivants :
 Pour plus d’informations, voir [Gestion du mode Tableau](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### Connexion des enregistrements Maestro aux ressources Adobe Experience Manager (AEM)
+### Connexion des enregistrements Maestro à Adobe Experience Manager Assets
 
 Version d’aperçu : 14 décembre 2023
 
 Version de production : 15 décembre 2023
 
-Vous pouvez maintenant établir une connexion entre les types d’enregistrement Maestro et les ressources Adobe Experience Manager.
+>[!IMPORTANT]
+>
+>L’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements Maestro à Adobe Experience Manager Assets.
+>
+>Si vous avez des questions sur l’intégration à Adobe Admin Console, reportez-vous à la section [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+Vous pouvez maintenant établir une connexion entre les types d’enregistrements Maestro et Adobe Experience Manager Assets.
 
 Une fois la connexion établie, les fonctionnalités suivantes sont disponibles avec cette mise à jour :
 
-* Les utilisateurs de Maestro peuvent lier AEM ressources, dossiers ou collections à un enregistrement Maestro à partir d’un référentiel spécifique d’AEM auquel ils ont accès.
+* Vous pouvez lier des ressources et des dossiers Experience Manager à un enregistrement Maestro à partir d’un référentiel spécifique dans Experience Manager Assets auquel ils ont accès. Vous pouvez connecter les champs de ressource aux champs Maestro dans ce processus.
 
-* Les utilisateurs de Maestro peuvent afficher toutes les ressources connectées dans Maestro une fois qu’ils sont connectés à des enregistrements.
+* Les utilisateurs de Maestro peuvent afficher le nom des ressources connectées, ainsi que les valeurs des champs connectés dans Maestro.
 
-* Un type d’enregistrement Experience Manager Assets est automatiquement créé dans Maestro après l’établissement de la connexion. Les ressources connectées sont visibles dans le tableau Maestro et les vues de chronologie de ce nouveau type d’enregistrement.
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* Vous pouvez afficher AEM informations sur les ressources dans la table d’enregistrements Maestro à partir de laquelle vous vous connectez.
+* Vous pouvez cliquer sur le nom de la ressource dans la vue de tableau de l’enregistrement Maestro à partir du champ d’enregistrement connecté, puis afficher une fenêtre contextuelle avec la miniature de la ressource et plusieurs champs clés. Dans la fenêtre contextuelle, vous pouvez accéder à la visionneuse de ressources dans Experience Manager et en afficher tous les détails.
 
-Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/maestro/architecture/connect-record-types.md)
+Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Semaine du 4 décembre 2023
 

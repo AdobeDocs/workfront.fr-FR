@@ -6,7 +6,7 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # Prise en main de la nouvelle page d’accueil
+
+<!--Audited: 12/2023-->
 
 La nouvelle expérience d’accueil d’Adobe Workfront vise à améliorer l’expérience d’accueil actuelle tout en vous permettant de vous concentrer plus facilement sur le bon travail.
 

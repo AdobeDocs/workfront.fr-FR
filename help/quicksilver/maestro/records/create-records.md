@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
    >[!NOTE]
    >
-   >  * Le champ Nom n’est pas obligatoire. Nous vous recommandons toutefois d’ajouter un nom pour l’enregistrement, car il est utile d’identifier les enregistrements lors de la liaison d’enregistrements.
+   >  * Il n’existe aucun champ obligatoire pour les enregistrements. Nous vous recommandons toutefois d’ajouter un Nom pour l’enregistrement, car il est utile d’identifier les enregistrements lors de la liaison d’enregistrements.
    >
    >  * Les champs qui font référence à d’autres types d’enregistrement ou à des champs calculés sont en lecture seule.
 

@@ -4,9 +4,10 @@ description: Vous pouvez ajouter de nouveaux champs dans Adobe Manager qui refl�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -55,9 +56,9 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Manager qui reflètent le cycl
 
 * Vous pouvez créer des champs manuellement ou automatiquement de différentes manières :
 
-   * Manuellement:
+   * Manuellement :
 
-      * En ajoutant des colonnes dans la vue Tableau d’une page de type enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page Détails d’un enregistrement.
+      * En ajoutant des colonnes dans la vue de tableau d’une page de type enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page Détails d’un enregistrement.
 
         Vous ne pouvez pas créer de champs à partir de la page Détails d’un enregistrement.
 
@@ -71,7 +72,7 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Manager qui reflètent le cycl
 
       * En important des types d’enregistrement à l’aide d’un fichier Excel ou CSV. Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
-   * Automatiquement:
+   * Automatiquement :
 
       * Par défaut, chaque fois que vous créez un type d’enregistrement.
 
@@ -81,7 +82,7 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Manager qui reflètent le cycl
          * Description
          * Date de début
          * Date de fin
-         * Statut. Les valeurs par défaut des états d’enregistrement sont les suivantes :
+         * État. Les valeurs par défaut des états d’enregistrement sont les suivantes :
             * Développement
             * Prévu
             * Actif

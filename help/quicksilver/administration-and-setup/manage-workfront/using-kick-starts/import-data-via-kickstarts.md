@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 6%
@@ -17,6 +17,8 @@ ht-degree: 6%
 ---
 
 # Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide
+
+<!--Audited: 12/2023-->
 
 Les débuts sont des classeurs Excel spécialement formatés que vous pouvez renseigner avec les données à importer dans Workfront. Adobe Workfront fournit un modèle de démarrage rapide que vous pouvez utiliser pour ce faire, comme expliqué dans la section [Importateur de données de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
@@ -177,9 +179,9 @@ Pour exporter un modèle de démarrage rapide :
       <td> <p> Groupe</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
-      <td>Regroupement</td> 
+      <td>Regroupement </td> 
       <td>Exporte en tant que fichier ZIP</td> 
-      <td> <p> Regroupement</p> <p>Préférences </p> </td> 
+      <td> <p> Regroupement </p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
       <td>Heure</td> 

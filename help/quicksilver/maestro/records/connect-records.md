@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2930'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,13 @@ Vous pouvez connecter les éléments suivants :
       * Entreprise
       * Groupe
 
+   * Adobe Experience Manager Assets
+
+      * Fichiers image
+      * Dossiers
+
+
+
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
 ## Exigences d’accès
@@ -72,9 +79,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col>
 <tbody>
 <td>
-   <p> Adobe de produit</p> </td>
+   <p> Adobe de produit</p> 
+   </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>Pour connecter les enregistrements Maestro à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p></td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -183,20 +191,21 @@ After permssions - replace the table with:
 
 ### Considérations relatives à la connexion des enregistrements
 
-* Une fois la connexion entre les types d’enregistrement établie, les types d’enregistrement connectés s’affichent sous forme de champs d’enregistrement liés dans la table des types d’enregistrement à partir desquels ils sont liés.
+* Une fois que vous avez connecté les types d’enregistrement, les types d’enregistrement connectés s’affichent sous forme de champs d’enregistrement liés dans la table des types d’enregistrement à partir desquels ils sont liés.
 * Vous pouvez parcourir et ajouter des enregistrements et des objets de l’enregistrement et des types d’objets liés à partir des champs d’enregistrement liés.
 * Vous pouvez ajouter des champs provenant des types d’enregistrement liés à la table du type d’enregistrement à partir duquel vous liez.
 * Vous ne pouvez pas mettre à jour manuellement les valeurs des champs liés sur les enregistrements à partir desquels vous effectuez la liaison.
 
-  Les valeurs des champs liés des enregistrements liés renseignent l’enregistrement Maestro à partir duquel vous effectuez automatiquement la liaison.
+  Les valeurs des champs liés des enregistrements liés renseignent l’enregistrement Maestro à partir duquel vous créez une liaison automatique à partir de l’espace de travail Maestro que vous configurez ou à partir de l’application tierce.
 
-* Toute personne ayant accès à Maestro peut voir les connexions que vous faites entre les enregistrements Maestro ou entre les enregistrements Maestro et les objets Workfront. Vous pouvez également afficher et modifier les connexions de tous les autres utilisateurs. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* Toute personne ayant accès à Maestro peut voir les connexions que vous faites entre les enregistrements Maestro ou entre les enregistrements Maestro et les objets d’autres applications. Ils peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations sur les applications tierces auxquelles vous vous connectez.
+* Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * Vous pouvez connecter un enregistrement Maestro à un ou plusieurs objets d’une autre application.
-* Vous ne pouvez pas connecter de taxonomies à des types d’enregistrement ou à des objets à partir d’une autre application. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Pour lier des enregistrements Maestro à des objets Workfront, vous devez disposer des éléments suivants :
+* Pour lier des enregistrements Maestro à d’autres enregistrements ou objets, vous devez disposer des éléments suivants :
 
-   * Objets Workfront. Par exemple, vous devez d’abord créer des projets, des portefeuilles, des programmes, des entreprises ou des groupes dans Workfront.
-   * Espaces de travail Maestro, types d’enregistrement et enregistrements. Pour plus d’informations, voir les articles suivants :
+   * Au moins un espace de travail Maestro, un type d’enregistrement et un enregistrement.
+
+     Pour plus d’informations, voir les articles suivants :
 
       * [Créer des espaces de travail](../architecture/create-workspaces.md)
       * [Création de types d’enregistrement](../architecture/create-record-types.md)
@@ -213,12 +222,8 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à partir duquel vous souhaitez connecter des enregistrements.
 1. Cliquez sur la carte d’un type d’enregistrement pour ouvrir la page de type d’enregistrement.
 1. Sélectionnez une **Tableau** de la vue **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
-1. Ajoutez une connexion à un autre type d’enregistrement ou d’objet à partir du type d’enregistrement sélectionné. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
-
-   Une nouvelle colonne est ajoutée au tableau pour afficher le type d&#39;enregistrement associé.
-
-1. Ajoutez des enregistrements au type d’enregistrement que vous avez sélectionné en ajoutant une nouvelle ligne au tableau. Pour plus d’informations, voir [Créer des enregistrements](../../maestro/records/create-records.md).
-1. Depuis un enregistrement répertorié dans la vue de tableau, accédez à la colonne d’enregistrement lié et survolez la cellule correspondant à l’enregistrement que vous souhaitez lier à d’autres enregistrements Maestro, puis cliquez sur le bouton **+** Icône
+1. (Facultatif) Ajoutez des enregistrements au type d’enregistrement que vous avez sélectionné en ajoutant une nouvelle ligne au tableau. Pour plus d’informations, voir [Créer des enregistrements](../../maestro/records/create-records.md).
+1. Depuis un enregistrement répertorié dans la vue de tableau, accédez à la colonne d’enregistrement lié et survolez la cellule correspondant à l’enregistrement que vous souhaitez lier à d’autres enregistrements, puis cliquez sur le bouton **+** Icône
 
    La variable **Connexion d’objets** s’affiche.
 
@@ -232,23 +237,22 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Les éléments suivants sont ajoutés :
 
-   * Les enregistrements liés s&#39;affichent dans le champ enregistrement lié de l&#39;enregistrement que vous avez sélectionné à l&#39;étape 3. La mise à jour des enregistrements liés met automatiquement à jour les champs d’enregistrement liés pour les enregistrements à partir desquels vous créez une liaison. <!--ensure the number of the step stays accurate-->
-   * Les champs liés qui appartiennent aux enregistrements liés sont automatiquement renseignés avec les informations des enregistrements liés d&#39;origine. Vous ne pouvez pas modifier manuellement les champs liés.
+   * Les enregistrements liés s&#39;affichent dans le champ enregistrement lié de l&#39;enregistrement que vous avez sélectionné à l&#39;étape 5. <!--accurate?--> La mise à jour des enregistrements liés met automatiquement à jour les champs liés pour les enregistrements à partir desquels vous effectuez la liaison. Vous ne pouvez pas modifier manuellement les champs liés.
 
      >[!TIP]
      >
      >* Nous utilisons de manière interchangeable les &quot;champs liés&quot; et &quot;champs de recherche&quot;.
      >
-     >* Si vous avez activé le paramètre Autoriser plusieurs enregistrements lors de la connexion des types d’enregistrements, les valeurs des champs des multiples objets sélectionnés sont affichées séparées par des virgules ou sont agrégées en fonction de l’agrégateur que vous avez choisi.
+     >* Si vous avez activé la variable **Autoriser plusieurs enregistrements** lorsque vous connectez les types d&#39;enregistrements, les valeurs des champs des multiples objets sélectionnés sont affichées séparées par des virgules ou sont agrégées selon l&#39;agrégateur que vous avez choisi.
 
 1. (Facultatif) Fermez la page de type Enregistrement Maestro et accédez à l’espace de travail que vous avez sélectionné.
 1. Cliquez sur la carte correspondant au type d’enregistrement auquel vous avez lié.
 
-   Par exemple, si vous avez connecté l’enregistrement Campaign à l’enregistrement Product, cliquez sur le bouton **Produit** carte.
+   Par exemple, si vous avez connecté la variable **Campagne** Enregistrez avec l’enregistrement de produit, cliquez sur le bouton **Produit** carte.
 
-   La carte de type d’enregistrement doit s’ouvrir dans la vue Tableau.
+   La carte de type d’enregistrement doit s’ouvrir dans la vue Tableau. Dans le cas contraire, sélectionnez une vue de tableau.
 
-   Le champ Enregistrement lié à Campaign affiche les noms des campagnes auxquelles vous avez lié des produits dans la page Type d’enregistrement de produit . La mise à jour des informations de Campaign met automatiquement à jour le champ d’enregistrement lié à Campaign pour le type d’enregistrement Produit .
+   Notez que la variable **Campagne** le champ enregistrement lié affiche les noms des campagnes auxquelles vous avez lié des produits dans la page Type d’enregistrement de produit . La mise à jour des informations de Campaign met automatiquement à jour le champ d’enregistrement lié à Campaign pour le type d’enregistrement Produit .
 
 ### Connexion des enregistrements Maestro aux objets Workfront
 
@@ -282,7 +286,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    Les éléments suivants sont ajoutés :
 
    * Les objets Workfront sélectionnés sont ajoutés au champ d’enregistrement associé.
-   * Un nouveau champ lié (ou champ de recherche) est créé pour chaque champ lié que vous avez sélectionné lors de l’ajout des champs à votre enregistrement lié.
+   * Si vous les avez ajoutés lorsque vous avez connecté le type d’enregistrement à Workfront, les champs liés (ou les champs de recherche) sont automatiquement renseignés avec les informations de Workfront.
    * Un nouveau type d’enregistrement appelé &quot;&lt; Nom du type d’objet Workfront >&quot; est créé dans le même espace de travail que l’enregistrement Maestro à partir duquel vous liez. Le nom de l’objet fait partie du nom de ce type d’enregistrement. Par exemple, la liaison à des projets Workfront crée la variable **Projet** type d’enregistrement dans Maestro.
 
      Il s’agit d’un type d’enregistrement en lecture seule qui affiche les objets Workfront sélectionnés dans le nouveau champ d’objet lié que vous avez créé à partir de l’enregistrement Maestro. Les champs liés de l&#39;objet lié s&#39;affichent également sur les enregistrements Workfront liés en lecture seule.
@@ -302,13 +306,9 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 
 1. (Facultatif) Fermez la page de type Enregistrement Maestro et accédez à l’espace de travail que vous avez sélectionné.
-1. Cliquez sur la carte correspondant au type d’enregistrement de l’objet Workfront. Par exemple, cliquez sur le bouton **Projet Workfront** si vous avez lié à des projets Workfront. La carte de type d’enregistrement Workfront en lecture seule doit s’ouvrir dans la vue Tableau.
+1. (Facultatif) Cliquez sur la carte correspondant au type d’enregistrement de l’objet Workfront. Par exemple, cliquez sur le bouton **Projet** si vous avez lié à des projets Workfront. La carte de type d’enregistrement Workfront en lecture seule doit s’ouvrir dans la vue de tableau.
 
-   >[!NOTE]
-   >
-   >    * Les enregistrements répertoriés dans la page de type Enregistrement Workfront sont des objets Workfront en lecture seule. Les champs liés à partir du type d’enregistrement Workfront s’affichent également sous forme de colonnes en lecture seule et sont renseignés automatiquement lorsqu’ils sont renseignés dans Workfront.
-   >    * Vous ne pouvez pas mettre à jour manuellement les champs Workfront dans Maestro. Les champs d’objet Workfront doivent être renseignés dans Workfront et les valeurs de champ s’affichent automatiquement sur l’enregistrement Workfront dans Maestro.
-   >
+   Les enregistrements répertoriés dans la page de type Enregistrement Workfront sont des objets Workfront en lecture seule qui ont été liés à partir d’enregistrements Maestro. Les champs liés à partir du type d’enregistrement Workfront s’affichent également sous forme de colonnes en lecture seule et sont renseignés automatiquement lorsqu’ils sont renseignés dans Workfront.
 
 1. (Facultatif) Pour ouvrir la page Détails de l’enregistrement d’objet Workfront dans Maestro, effectuez l’une des opérations suivantes :
 
@@ -325,7 +325,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Pour ouvrir l’objet Workfront lié dans Workfront, effectuez l’une des opérations suivantes :
 
-   * Dans la **Tableau** vue de la page de type enregistrement Workfront, cliquez sur le nom de l’objet Workfront,
+   * Dans la **Tableau** Dans la page de type d’enregistrement Workfront, cliquez sur le nom de l’objet Workfront pour ouvrir l’enregistrement Projet dans Maestro.
 
    Ou
 
@@ -335,7 +335,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Cette opération ouvre la page d’objet Workfront. Si vous êtes autorisé à le faire, vous pouvez modifier les informations relatives à l’objet Workfront.
 
-1. (Facultatif) Cliquez sur le **Ajouter des champs** icon ![](assets/add-fields-icon.png) dans le coin supérieur droit de la vue de tableau de la page de type d’enregistrement Workfront, pour ajouter ou supprimer des champs Workfront du type d’enregistrement Workfront.
+1. (Facultatif) Sur la page d’enregistrement d’objet Workfront en lecture seule dans Maestro, cliquez sur le bouton **Ajouter des champs** icon ![](assets/add-fields-icon.png) dans le coin supérieur droit de la vue de tableau, pour ajouter ou supprimer des champs Workfront du type d’enregistrement Workfront.
 
    >[!NOTE]
    >
@@ -349,6 +349,12 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 ### Connexion des enregistrements Maestro aux objets Adobe Experience Manager
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+>[!IMPORTANT]
+>
+>Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements Maestro à Adobe Experience Manager Assets.
+>
+>Si vous avez des questions sur l’intégration à Adobe Admin Console, reportez-vous à la section [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Après avoir créé une connexion entre un type d’enregistrement Maestro et Adobe Experience Manager Assets, vous pouvez connecter des enregistrements Maestro individuels à des ressources Experience Manager. Les champs de ressource que vous avez connectés à partir de Experience Manager Assets lors de la création de la connexion sont automatiquement renseignés sur le type d’enregistrement Maestro à partir duquel vous avez créé un lien.
 
@@ -372,24 +378,23 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 1. Cliquez sur pour sélectionner certains des types de ressources suivants :
 
    * Images
-   * Collections
    * Dossiers
 
    Vous pouvez sélectionner plusieurs ressources.
 
    >[!IMPORTANT]
    >
-   > Vous pouvez connecter uniquement les ressources que vous avez accès à afficher dans Experience Manager.
+   > Vous pouvez connecter uniquement les ressources que vous avez accès à afficher dans Experience Manager. Une fois connecté, tous les utilisateurs de Maestro peuvent afficher les ressources dans Maestro, quel que soit leur accès dans Experience Manager Assets.
 
 1. Cliquez sur **Sélectionner**.
 
    Les éléments suivants sont ajoutés :
 
    * Les ressources de Experience Manager sélectionnées sont ajoutées au champ d’enregistrement lié.
-   * Un nouveau champ lié (ou champ de recherche) est créé pour chaque champ lié que vous avez sélectionné lors de l’ajout des champs à votre enregistrement lié.
-   * Un nouveau type d’enregistrement appelé &quot;Experience Manager Assets&quot; est créé dans le même espace de travail que l’enregistrement Maestro à partir duquel vous liez.
+   * Les champs liés (ou champs de recherche) sont renseignés avec les informations des ressources connectées au Experience Manager.
+   * Un nouveau type d’enregistrement appelé &quot;Experience Manager Assets&quot; est créé dans le même espace de travail que l’enregistrement Maestro à partir duquel vous liez. <!--is this still added?-->
 
-     Il s’agit d’un type d’enregistrement en lecture seule qui affiche les objets de Experience Manager sélectionnés dans le nouveau champ d’objet lié que vous avez créé à partir de l’enregistrement Maestro. Les champs liés de l&#39;objet lié s&#39;affichent également sur les enregistrements de Experience Manager liés en lecture seule.
+     Il s’agit d’un type d’enregistrement en lecture seule qui affiche les ressources du Experience Manager sélectionnées dans le nouveau champ d’objet lié que vous avez créé à partir de l’enregistrement Maestro. Les champs liés de l&#39;objet lié s&#39;affichent également sur les enregistrements de Experience Manager liés en lecture seule.
 
      >[!IMPORTANT]
      >
@@ -408,11 +413,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 1. (Facultatif) Fermez la page de type Enregistrement Maestro et accédez à l’espace de travail que vous avez sélectionné.
 1. Cliquez sur la carte correspondant au type d’enregistrement Experience Manager Assets. La carte de type d’enregistrement Experience Manager Assets en lecture seule doit s’ouvrir dans la vue Tableau.
 
-   >[!NOTE]
-   >
-   >    * Les enregistrements répertoriés dans la page de type Enregistrement Experience Manager Assets sont des ressources en lecture seule. Les champs liés à partir du type d’enregistrement Experience Manager Assets s’affichent également sous forme de colonnes en lecture seule. Ils sont renseignés automatiquement lorsqu’ils sont renseignés dans Experience Manager.
-   >    * Vous ne pouvez pas mettre à jour manuellement les champs de Experience Manager dans Maestro. Les champs de ressource du Experience Manager doivent être renseignés dans Experience Manager et les valeurs de champ s’affichent automatiquement sur l’enregistrement Experience Manager Assets dans Maestro.
-   >
+   Les enregistrements répertoriés dans la page de type Enregistrement Experience Manager Assets sont des ressources en lecture seule. Les champs liés à partir du type d’enregistrement Experience Manager Assets s’affichent également sous forme de colonnes en lecture seule. Ils sont renseignés automatiquement lorsqu’ils sont renseignés dans Experience Manager.
 
 1. (Facultatif) Accédez au type d’enregistrement à partir duquel vous avez lié Experience Manager Assets et cliquez sur le nom d’une ressource dans le champ d’enregistrement lié. Les détails du Experience Manager de la ressource s’affichent dans une fenêtre contextuelle. <!--update screen shot with hi-rez picture-->
 

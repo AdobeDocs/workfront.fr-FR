@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -45,9 +45,9 @@ Vous pouvez supprimer les champs Maestro qui ne sont plus pertinents.
 
 ## Observations relatives à la suppression des champs Maestro :
 
+* Vous ne pouvez supprimer un champ que dans la vue de tableau de type enregistrement.
 * Vous pouvez supprimer les champs que vous avez créés ou créés par d’autres utilisateurs ou par le système. <!--this will change with access levels/ permissions-->
-* Vous ne pouvez pas supprimer le champ Nom d’un enregistrement. <!--change this to say you can't delete the field selected to be the primary-->
-* Vous ne pouvez supprimer un champ que dans le tableau de type enregistrement.
+* Vous ne pouvez pas supprimer le champ principal d’un enregistrement.
 * Toutes les informations stockées dans le champ sont supprimées et ne peuvent pas être récupérées.
 * Lorsque vous supprimez un champ d’enregistrement lié, tous les champs de recherche liés sont également supprimés du type d’enregistrement à partir duquel vous créez un lien. Les champs d’enregistrement liés des types d’enregistrement auxquels vous créez un lien ne sont pas supprimés.
 
@@ -74,19 +74,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Formule Adobe Workfront</p></td>
    <td>
-<p>Tous</p>
+<p>Quelconque</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Tous</p> 
+   <p>Quelconque</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Tous</p>  
+   <td> <p>Quelconque</p>  
 </td>
   </tr>
 <tr>

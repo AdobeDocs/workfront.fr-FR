@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2307'
 ht-degree: 3%
 
 ---
@@ -140,13 +140,13 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
      >[!TIP]
      >
-     >* Le champ Nom est toujours le premier champ de la vue Tableau.
+     >* Par défaut, le champ Nom est toujours le premier champ de la vue Tableau. Il s’agit d’un champ principal.
      >
-     >* Vous ne pouvez pas déplacer le champ Nom vers une autre position.
+     >* Vous ne pouvez pas déplacer le champ Nom vers un autre emplacement, sauf si vous désigner un autre champ comme champ principal. Pour plus d’informations, passez à l’étape 4. <!--accurate?-->
      >
-     >* Vous ne pouvez pas masquer le champ Nom .
+     >* Vous ne pouvez pas masquer ni supprimer un champ principal.
      >
-     >* Le champ Nom est figé et ne fait pas partie du défilement horizontal.
+     >* Le champ principal est figé et ne fait pas partie du défilement horizontal.
 
    * Remplacez le champ de la première colonne par un autre champ en modifiant le champ principal. Pour plus d’informations, reportez-vous à l’étape 4. <!--accurate?-->
 
@@ -197,11 +197,13 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
 1. Procédez comme suit pour rechercher rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Cliquez sur le bouton **search** icon ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et le champ avec la correspondance correcte est surligné en bleu.
+   1. Cliquez sur le bouton **search** icon ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et le champ avec la correspondance correcte est mis en surbrillance.
 
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
       Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
+
+      Appuyez sur Entrée sur votre clavier pour accéder au champ suivant trouvé.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 

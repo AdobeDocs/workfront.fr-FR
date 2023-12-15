@@ -6,7 +6,7 @@ description: La variable [!UICONTROL Accueil] Zone est votre guichet unique pour
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Prise en main d’ [!UICONTROL Accueil]
+
+<!--Audited: 12/2023-->
 
 Cet article présente un aperçu de la [!UICONTROL Accueil] area dans [!DNL Adobe Workfront]. Pour plus d’informations sur l’utilisation de la nouvelle [!UICONTROL Accueil], voir [Prise en main du nouvel accueil](../new-home/get-started-with-new-home.md).
 
