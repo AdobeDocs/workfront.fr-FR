@@ -2,20 +2,32 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Exporter des données
-description: Découvrez comment exporter des données de rapport
+description: Vous pouvez exporter des données Adobe Workfront à partir de différentes listes, rapports, tableaux de bord et recherches.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
+source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2206'
 ht-degree: 0%
 
 ---
 
 # Exporter des données
 
+<!-- Audited: 12/2023 -->
+
 Vous pouvez exporter des données Adobe Workfront à partir de différentes listes, rapports, tableaux de bord et recherches.
+
+Voici quelques raisons d’exporter des données :
+
+* Vous souhaitez fournir une copie papier de vos données à une personne en dehors de Workfront.
+* Vous souhaitez envoyer les résultats d’un rapport en pièce jointe à un utilisateur externe.
+* Vous souhaitez créer une sauvegarde externe de vos données Workfront.
+* Il existe une limite pour afficher seulement 2 000 résultats sur une page de l’application web Workfront. Si votre rapport en produit plus de 2 000, vous pouvez l’exporter dans n’importe quel format disponible et afficher tous les résultats dans le rapport dans une seule liste.
+
+Vous pouvez soit exporter un rapport manuellement à partir de l’interface de Workfront, soit planifier l’envoi d’un rapport qui vous sera envoyé ultérieurement. Pour plus d’informations sur les rapports de planification de diffusion, voir [Présentation de la diffusion des rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
 Les informations contenues dans cet article ne s&#39;appliquent pas aux exports suivants :
 
 * Exporter des informations depuis des rapports graphiques.
@@ -29,15 +41,6 @@ Les informations contenues dans cet article ne s&#39;appliquent pas aux exports 
 * Exporter des informations à partir du planificateur de ressources.
 
   Pour plus d’informations sur l’exportation des informations à partir du planificateur de ressources, voir &quot;Option d’exportation&quot; dans [Présentation de la navigation de Resource Planner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
-
-Voici quelques raisons d’exporter des données :
-
-* Vous souhaitez fournir une copie papier de vos données à une personne en dehors de Workfront.
-* Vous souhaitez envoyer les résultats d’un rapport en pièce jointe à un utilisateur externe.
-* Vous souhaitez créer une sauvegarde externe de vos données Workfront.
-* Il existe une limite pour afficher seulement 2 000 résultats sur une page de l’application web Workfront. Si votre rapport en produit plus de 2 000, vous pouvez l’exporter dans l’un des formats mentionnés ci-dessous et obtenir tous les résultats du rapport dans une seule liste.
-
-Vous pouvez soit exporter un rapport manuellement à partir de l’interface de Workfront, soit planifier l’envoi d’un rapport qui vous sera envoyé ultérieurement. Pour plus d’informations sur les rapports de planification de diffusion, voir [Présentation de la diffusion des rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Exigences d’accès
 
@@ -55,29 +58,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td>
+    <p>Nouveau : clair ou supérieur</p>
+    <p>ou</p>
+    <p>Actuel : révision ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage ou accès supérieur aux rapports, tableaux de bord, calendriers pour l’exportation des rapports</p> <p>Affichage ou accès supérieur aux objets que vous affichez dans une liste pour exporter la liste</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Affichage ou accès supérieur aux rapports, tableaux de bord et calendriers pour l’exportation des rapports</p> <p>Affichage ou accès supérieur aux objets que vous affichez dans une liste pour exporter la liste</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher ou des autorisations supérieures à un rapport ou tableau de bord pour exporter le rapport ou le tableau de bord</p> <p>Autorisations d’affichage ou de niveau supérieur des objets que vous affichez dans une liste pour exporter la liste</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher ou des autorisations supérieures à un rapport ou tableau de bord pour exporter le rapport ou le tableau de bord</p> <p>Autorisations d’affichage ou de niveau supérieur des objets que vous affichez dans une liste pour exporter la liste</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
 ## Conditions préalables
 
 Le rapport doit être créé avant de pouvoir exporter ses données.
 
-Pour plus d’informations sur la création de rapports, voir [Créer un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) ou [Créer une copie d’un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Formats et limites d’exportation
-
-* [Formats d’exportation](#export-formats)
-* [Limites d’exportation](#export-limits)
 
 ### Formats d’exportation {#export-formats}
 
@@ -105,7 +110,7 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
 
    * Pour les fichiers .xls Excel, cette limite est **65 000 lignes**.
    * Pour les fichiers Excel .xlsx, cette limite est **100 000 lignes**.
-   * Ces limites excluent les en-têtes de colonne, ainsi que les lignes pour les regroupements dans le rapport. Par exemple, si un rapport comporte 6 regroupements et 50 000 lignes ou données, le fichier exporté en contiendra 50 000.
+   * Ces limites excluent les en-têtes de colonne, ainsi que les lignes pour les regroupements dans le rapport. Par exemple, si un rapport comporte 6 groupements et 50 000 lignes de données, le fichier exporté en contiendra 50 000.
 
   >[!IMPORTANT]
   >
@@ -129,11 +134,11 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
    * Exportation via une intégration API.
    * Données exportées par le biais d’un démarrage rapide.
 
-     Pour plus d’informations sur l’exportation de données par démarrage rapide, voir [Exporter des données d’Adobe Workfront par le biais de Démarrages de session](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
+     Pour plus d’informations sur l’exportation de données par démarrage rapide, voir [Exporter des données d’Adobe Workfront par le biais de Démarrages de session](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
-     >Vous pouvez exporter 50 000 lignes dans un fichier de démarrage rapide, bien que vous ne puissiez exporter les données qu’vers un fichier au format Excel. 
+     >Vous pouvez exporter 50 000 lignes dans un fichier de démarrage rapide, bien que vous ne puissiez exporter les données qu’vers un fichier au format Excel.
 
    * Exportation des informations d’utilisation pour un projet.
 
@@ -151,9 +156,6 @@ Si vous rencontrez des problèmes concernant votre limite, contactez le support 
 
 ## Exporter des données
 
-* [Exporter des données depuis un rapport ou une liste](#export-data-from-a-report-or-list)
-* [Exporter des données depuis un tableau de bord](#export-data-from-a-dashboard)
-
 ### Exporter des données depuis un rapport ou une liste {#export-data-from-a-report-or-list}
 
 1. Accédez au rapport ou à la liste à exporter.
@@ -167,14 +169,17 @@ Si vous rencontrez des problèmes concernant votre limite, contactez le support 
 
 1. Cliquez sur **Exporter**, puis sélectionnez un format.
 
+   <!--
+   This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
    >[!NOTE]
    >
-   Pour exporter un rapport Tableau de bord, vous devez disposer d’une licence Plan .\
-   ![](assets/nwe-dashboard-export-note-350x271.png)
+   >To export a Dashboard report, you must have a Plan license.  
+   >![](assets/nwe-dashboard-export-note-350x271.png)
+   -->
 
    Ou
 
-   Cliquez sur le bouton **Exporter** icon ![](assets/export-icon-nwe.png), puis sélectionnez un format.
+   Cliquez sur le bouton **Exporter** icon ![Icône Exporter](assets/export-icon-nwe.png), puis sélectionnez un format.
 
    Les options d’exportation de PDF disponibles dépendent des paramètres régionaux de vos paramètres utilisateur Workfront :
 
@@ -212,9 +217,6 @@ Pour plus d’informations sur l’export de données depuis un tableau de bord,
 
 Que vous exportiez une liste d’objets ou un rapport, le fichier exporté aura un nom de fichier et un titre. Vous pouvez trouver le fichier exporté sur votre ordinateur en vous référant au nom du fichier. Le titre du rapport donnera aux utilisateurs une indication de ce que représente le fichier exporté lorsque vous le partagez avec eux.
 
-* [Noms de fichiers pour les listes exportées](#file-names-for-exported-lists)
-* [Noms de fichiers pour les rapports exportés](#file-names-for-exported-reports)
-
 #### Noms de fichiers pour les listes exportées {#file-names-for-exported-lists}
 
 Lorsque vous exportez une liste d’objets, le type de l’objet est affiché dans le fichier exporté dans le nom du fichier et dans le titre de la liste.
@@ -245,10 +247,7 @@ Lorsque vous exportez un rapport, le nom de fichier du rapport exporté est :
 
 ### Titles {#titles}
 
-Lorsque vous exportez une liste d’objets, seul le fichier au format PDF est doté d’un titre. Si vous exportez une liste ou un rapport dans des formats délimités par des tabulations, Excel (.xlsx) ou Excel, le fichier ne comporte pas de titre.
-
-* [Titre des listes exportées](#titles-for-exported-lists)
-* [Titres des rapports exportés](#titles-for-exported-reports)
+Lorsque vous exportez une liste d’objets, seul le fichier au format PDF est doté d’un titre. Si vous exportez une liste ou un rapport aux formats Excel, Excel (.xlsx) ou Délimité par des onglets, le fichier ne comporte pas de titre.
 
 #### Titre des listes exportées {#titles-for-exported-lists}
 
@@ -272,9 +271,9 @@ Par exemple, le titre peut être :
 
 Un titre est attribué au rapport exporté vers un fichier de PDF.
 
-Si le rapport est exporté dans des formats délimités par des tabulations, Excel ou Excel, le rapport exporté n’aura pas de titre. Le titre du fichier exporté est le nom du rapport tel qu&#39;il apparaît dans l&#39;application web Workfront.
+Si le rapport est exporté dans des formats Excel, Excel (.xlsx) ou Délimité par des onglets, le rapport exporté n’aura pas de titre. Le titre du fichier exporté est le nom du rapport tel qu&#39;il apparaît dans l&#39;application web Workfront.
 
-Si le rapport comporte une description, il sera inclus dans le fichier exporté.
+Si le rapport comporte une description, il est inclus dans le fichier exporté.
 
 ### Horodatages {#timestamps}
 
@@ -297,11 +296,11 @@ Lorsque vous exportez un projet au format .pdf, toutes les sous-tâches sont aff
 
 Vous recevez toujours l&#39;onglet par défaut d&#39;un rapport lorsqu&#39;un rapport est envoyé ou planifié pour une diffusion, sauf si le rapport a une vue spéciale.
 
-Si votre rapport présente une mise en forme spécifique dans l’application web, elle doit être fournie avec la mise en forme spéciale lorsque les onglets Détails et Matrice sont fournis pour les fichiers .pdf et Excel uniquement.
+Si votre rapport présente une mise en forme spécifique dans l’application web, elle doit être fournie avec la mise en forme spéciale au moment de la diffusion des onglets Détails et Matrice, pour les fichiers .pdf et Excel uniquement.
 
 >[!NOTE]
 >
-Si les données que vous exportez contiennent des colonnes partagées et que vous les exportez au format Excel ou Délimité par des onglets, ces colonnes sont séparées dans le fichier exporté.
+>Si les données que vous exportez contiennent des colonnes partagées et que vous les exportez au format Excel ou Délimité par des onglets, ces colonnes sont séparées dans le fichier exporté.
 
 Pour plus d’informations sur la personnalisation de la mise en forme dans un rapport, voir [Utilisation d’une mise en forme conditionnelle dans les vues](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -311,21 +310,25 @@ Les liens peuvent pointer vers n’importe quel objet de Workfront prenant en ch
 
 >[!TIP]
 >
-Si la ligne `valueformat=HTML` apparaît en mode texte pour une colonne de champ personnalisée et les valeurs de lien ne s’affichent pas dans un fichier .pdf exporté. vous devez saisir des lignes de code supplémentaires dans votre colonne en mode texte.
+>Si la ligne `valueformat=HTML` apparaît en mode texte pour une colonne de champ personnalisée et les valeurs de lien ne s’affichent pas dans un fichier .pdf exporté. vous devez saisir des lignes de code supplémentaires dans votre colonne en mode texte.
 >
-Par exemple, si vous disposez d’un champ personnalisé appelé Open Q1 Projects qui contient des liens, vous devez ajouter le code suivant :
+>Par exemple, si vous disposez d’un champ personnalisé appelé Open Q1 Projects qui contient des liens, vous devez ajouter le code suivant :
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+>`link.url=customDataLabelsAsString(Open Q1 Projects)`
+>`linkedname=direct`
 
 Lorsque vous effectuez une exportation vers un format Excel, seuls les liens vers des objets de Workfront sont inclus dans le fichier exporté et ils ne sont pris en charge que dans les emplacements où vous pouvez sélectionner des liens dans les documents Excel exportés, tels que les diffusions de rapports.
 
 ## Branding {#branding}
 
+>[!IMPORTANT]
+>
+>La valorisation de la marque s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Experience Cloud.
+>
+>Si votre entreprise a été intégrée à Adobe Experience Cloud, la valorisation de marque n’est pas disponible.
+
 Si votre administrateur Workfront a ajouté une valorisation de marque personnalisée à votre instance Workfront pour la barre de navigation globale, les fichiers .pdf exportés incluent également votre logo personnalisé.
 
-Les données exportées dans d&#39;autres formats ne peuvent pas être personnalisées avec votre logo.
+Les données exportées dans d’autres formats ne peuvent pas être personnalisées avec votre logo.
 
 Pour plus d’informations sur l’identité graphique de votre instance Workfront et de la barre de navigation globale, voir [Marque votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).

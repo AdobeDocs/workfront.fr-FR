@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '13810'
+source-wordcount: '13812'
 ht-degree: 0%
 
 ---
@@ -1634,7 +1634,7 @@ ht-degree: 0%
          * [Vue : délai d’expiration personnel de l’utilisateur](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
          * [Graphique un rapport selon un champ personnalisé à sélection multiple](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
       * Ressources du mode texte {#text-mode}
-         * [Ressources du mode texte](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+         * [Ressources en mode texte : index de l’article](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
          * [Présentation du mode texte](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
          * [Présentation des utilisations courantes du mode Texte](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
          * [Présentation de la syntaxe du mode texte](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
