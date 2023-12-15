@@ -3,32 +3,34 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Le [!DNL Adobe Workfront] Aperçu de l’environnement de test
-description: L’environnement de test Aperçu est un environnement de test qui sert de réplique à votre environnement en ligne. Il est actualisé chaque week-end par Workfront. Les données ajoutées à votre environnement de production le vendredi s’affichent dans votre sandbox d’aperçu le lundi suivant. Tous les modules d’assistance ont accès à cet environnement de test.
-author: Caroline
+title: La variable [!DNL Adobe Workfront] Aperçu de l’environnement de test
+description: L’environnement de test Aperçu Sandbox est un environnement de test qui sert de réplique à votre environnement en ligne. Il est actualisé chaque week-end par Workfront. Les données ajoutées à votre environnement de production le vendredi s’affichent dans votre sandbox d’aperçu le lundi suivant. Tous les modules d’assistance ont accès à cet environnement de test.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
 
-# Le [!DNL Adobe Workfront] Aperçu de l’environnement de test
+# La variable [!DNL Adobe Workfront] Aperçu de l’environnement de test
 
-Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliques de votre [!DNL Workfront] environnement de production :
+<!-- Audited: 12/2023 -->
+
+Deux environnements de test pour [!DNL Workfront] qui sont des répliques de votre [!DNL Workfront] environnement de production :
 
 * Aperçu d’un environnement de test
 
-   L’environnement de test Aperçu est un environnement de test qui sert de réplique à votre environnement en ligne et qui est actualisé chaque week-end par [!DNL Workfront]. Les données ajoutées à votre environnement de production le vendredi s’affichent dans votre sandbox d’aperçu le lundi suivant.
+  L’environnement de test Aperçu est un environnement de test qui sert de réplique à votre environnement en ligne et qui est actualisé chaque week-end par [!DNL Workfront]. Les données ajoutées à votre environnement de production le vendredi s’affichent dans votre sandbox d’aperçu le lundi suivant.
 
-   Tous les modules de prise en charge ont accès à l’environnement de test de prévisualisation.
+  Tous les modules de prise en charge ont accès à l’environnement de test de prévisualisation.
 
 * Environnement de test d’actualisation personnalisé
 
-   L’environnement de test d’actualisation personnalisée est un environnement de test distinct que vous actualisez manuellement. L’obtention de l’environnement de test d’actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, voir [Le [!DNL Adobe Workfront] Environnement Sandbox d’actualisation personnalisée](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  L’environnement de test d’actualisation personnalisée est un environnement de test distinct que vous actualisez manuellement. L’obtention de l’environnement de test d’actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, voir [La variable [!DNL Adobe Workfront] Environnement Sandbox d’actualisation personnalisée](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,9 +61,9 @@ Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliq
 
 L’environnement de test Aperçu sert d’environnement dans lequel les utilisateurs de votre entreprise peuvent tester et utiliser en toute sécurité les données de l’environnement de production sans affecter l’environnement de production.
 
-L’environnement de test d’aperçu contient vos données de production réelles. toutefois, il s’actualise chaque week-end afin que les données puissent se trouver jusqu’à une semaine après l’environnement de production. Les éléments créés depuis la dernière actualisation sont placés dans l’environnement Aperçu de l’environnement de test jusqu’à l’actualisation suivante.
+L’environnement de test Aperçu contient vos données de production réelles. Cependant, il s’actualise chaque week-end afin que les données puissent se trouver jusqu’à une semaine après l’environnement de production. Les éléments créés depuis la dernière actualisation sont placés dans l’environnement Aperçu de l’environnement de test jusqu’à l’actualisation suivante.
 
-Les flux de données sont unidirectionnels, de la production à la prévisualisation, et non inversés. Une actualisation de l’environnement de prévisualisation est toujours planifiée par [!DNL Workfront] chaque week-end.
+Les flux de données sont unidirectionnels, de la production à la prévisualisation, et non inversés. Une actualisation de l’environnement de prévisualisation est toujours planifiée par [!DNL Workfront] chaque weekend.
 
 L’aperçu de l’environnement de test permet également [!DNL Workfront] pour déployer de nouvelles fonctionnalités dans un environnement sécurisé, avant qu’elles ne soient prêtes à être déployées en production. Vous pouvez tester les nouvelles fonctionnalités et leur donner [!DNL Workfront] commentaires sur leurs fonctionnalités en accédant à Preview Sandbox. C’est pourquoi le code de l’environnement de test de prévisualisation est toujours en avance sur le code de production, bien que vos données soient actualisées chaque semaine.
 
@@ -77,10 +79,8 @@ L’environnement d’aperçu est idéal pour exécuter des formations, tester d
 
 ## Accès à l’environnement de test d’aperçu
 
-Par défaut, sous la forme [!DNL Workfront] administrateur, vous avez accès au [!UICONTROL Aperçu] Environnement Sandbox. Si vous ne pouvez pas accéder au [!UICONTROL Aperçu] Environnement Sandbox comme décrit dans cette section, contactez votre [!DNL Workfront] ou de notre équipe du service clientèle.
+Par défaut, sous la forme [!DNL Workfront] administrateur, vous avez accès au [!UICONTROL Aperçu] Environnement Sandbox. Si vous ne pouvez pas accéder à la variable [!UICONTROL Aperçu] Environnement Sandbox comme décrit dans cette section, contactez votre [!DNL Workfront] ou de notre équipe du service clientèle.
 
-* [Accès à l’environnement de test d’aperçu à partir du [!DNL Workfront] Interface](#accessing-the-preview-sandbox-from-the-workfront-interface)
-* [Accès à l’environnement de test d’aperçu à l’aide d’une URL](#accessing-the-preview-sandbox-using-a-url)
 
 ### Accès à l’environnement de test d’aperçu à partir du [!DNL Workfront] Interface {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
@@ -100,8 +100,7 @@ Pour accéder à l’environnement de test d’aperçu :
 
 ### Accès à l’environnement de test d’aperçu à l’aide d’une URL {#accessing-the-preview-sandbox-using-a-url}
 
-* [Accès à l’aperçu de l’environnement de test pour les comptes sur une grappe 1, 2, 3 et 5](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5)
-* [Accès à l’environnement de test d’aperçu pour les comptes d’une grappe 4 (comptes EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
+Vous pouvez accéder à l’onglet Aperçu de l’environnement de test à l’aide d’une URL.
 
 #### Accès à l’aperçu de l’environnement de test pour les comptes sur une grappe 1, 2, 3 et 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
@@ -115,11 +114,14 @@ Pour vous connecter à l’environnement de test d’aperçu à l’aide d’une
 
 1. Accédez à cette URL : `https://companyname.preview.workfront.com/`.
 
-   Si vous êtes un client EMEA et que votre compte se trouve sur une grappe 4, reportez-vous à la section [Accès à l’environnement de test d’aperçu pour les comptes d’une grappe 4 (comptes EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) dans cet article.
+   Si vous êtes un client EMEA et que votre compte se trouve sur une grappe 4, reportez-vous à la section Accès à l’aperçu sandbox pour les comptes sur une grappe 4 (comptes EMEA) ci-dessous.
 
 1. Connectez-vous à l’aide de vos informations d’identification de prévisualisation.
 
-   Vos informations d’identification de prévisualisation doivent être identiques à celles de votre production, sauf si vous les avez modifiées dans Production après l’actualisation de prévisualisation. Les connexions ne sont synchronisées que lorsqu’une actualisation se produit. Elles ne se synchronisent pas automatiquement.
+   >[!TIP]
+   >
+   >Vos informations d’identification de prévisualisation doivent être identiques à celles de votre production, sauf si vous les avez modifiées dans Production après l’actualisation de prévisualisation. Les connexions ne sont synchronisées que lorsqu’une actualisation se produit. Elles ne se synchronisent pas automatiquement.
+
 
 #### Accès à l’environnement de test d’aperçu pour les comptes d’une grappe 4 (comptes EMEA) {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
@@ -146,7 +148,7 @@ Workfront désactive toutes les communications par courrier électronique à par
 
 ## Authentification Single Sign-On (SSO)
 
-Si vous utilisez l’authentification unique, travaillez avec notre équipe du service clientèle pour vous assurer qu’elle est correctement configurée afin que vous puissiez utiliser vos informations d’identification SSO pour vous connecter à [!UICONTROL Aperçu] Environnement de test. Si votre connexion initiale échoue, contactez votre contact d’assistance classique ou [!DNL Workfront] pour obtenir de l’aide.
+Si vous utilisez l’authentification unique, contactez notre équipe du service clientèle pour vous assurer qu’elle est correctement configurée afin que vous puissiez utiliser vos informations d’identification SSO pour vous connecter à [!UICONTROL Aperçu] Environnement de test. Si votre connexion initiale échoue, contactez votre contact d’assistance classique ou [!DNL Workfront] pour obtenir de l’aide.
 
 Pour plus d’informations sur l’authentification unique, voir [Présentation de l’authentification unique dans Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 

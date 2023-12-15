@@ -7,14 +7,16 @@ description: La gestion des ressources vous permet de configurer votre système 
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Prise en main de la gestion des ressources
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ Workfront comporte plusieurs ensembles d’outils utilisés pour gérer les ress
 
    * **Le planificateur de ressources**: vous pouvez utiliser le planificateur de ressources dans la première étape de la gestion des ressources pour planifier l’heure de vos ressources en fonction de leur disponibilité planifiée. Lors de la phase de planification des ressources, vous pouvez organiser les utilisateurs dans les pools de ressources et affecter plusieurs pools de ressources à un projet.
 
-     Pour plus d’informations sur la planification des ressources, voir la section [Planification des ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Pour plus d’informations sur la planification des ressources, voir [Planification des ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Planification du scénario**: il s’agit d’une planification des ressources de niveau supérieur qui vous permet de les gérer au cours de plusieurs initiatives qui peuvent s’étendre sur un, trois ou cinq ans et inclure plusieurs projets. Vous pouvez utiliser le meilleur scénario pour tirer le meilleur parti de leur disponibilité et de votre budget.
 
@@ -48,7 +50,7 @@ Workfront comporte plusieurs ensembles d’outils utilisés pour gérer les ress
 
    * **L’équilibreur de charge de travail**: il s’agit d’une étape inférieure de la gestion des ressources, dans laquelle vous pouvez affecter vos ressources au travail réel (tâches et problèmes) qu’elles doivent effectuer, en fonction du nombre d’heures nécessaires pour les terminer et de leur disponibilité. Avec l’équilibreur de charge de travail, vous pouvez affecter des utilisateurs à un travail réel qui n’est actuellement pas affecté ou affecté à des rôles de tâche.
 
-     Pour plus d’informations sur l’équilibreur Workfront, voir la section [L’équilibreur de charge de travail : index de l’article](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Pour plus d’informations sur l’équilibreur Workfront, voir [L’équilibreur de charge de travail : index de l’article](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ Pour pouvoir utiliser efficacement les outils de gestion des ressources de Workf
 
 Pour plus d’informations sur les exigences de chaque outil de gestion des ressources dans Workfront, voir :
 
-* La section &quot;Conditions préalables requises pour travailler dans le planificateur de ressources&quot; de l’article [Présentation de Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* La section [Conditions préalables pour travailler dans le planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) dans l’article [Présentation de Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* La section &quot;Bonnes pratiques pour l’utilisation de l’équilibreur de charge de travail&quot; de l’article [Présentation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* La section [Bonnes pratiques relatives à l’utilisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) dans l’article [Présentation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Accès aux ressources de budget nécessaires dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
