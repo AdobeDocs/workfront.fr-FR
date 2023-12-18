@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,4 @@ En tant qu’administrateur Adobe Workfront, vous pouvez accorder aux utilisateu
 
 * Pour plus d’informations sur la création de niveaux d’accès, voir [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 * Pour plus d’informations sur la façon dont les utilisateurs peuvent partager des objets, en accordant des autorisations d’affichage et de modification à ces objets, voir [Octroi et demande d’autorisations aux objets](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* Pour plus d’informations sur le tableau des exigences d’accès, reportez-vous à la section [Exigences de niveau d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
