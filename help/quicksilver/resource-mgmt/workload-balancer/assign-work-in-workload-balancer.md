@@ -6,9 +6,9 @@ description: En tant que gestionnaire de ressources, vous pouvez utiliser l’é
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 En tant que gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les tâches qui n’ont pas encore été affectées aux utilisateurs et leur affecter ces éléments.
 
-Pour obtenir des informations générales sur l’équilibreur de charge de travail, voir [Présentation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Pour obtenir des informations générales sur l’équilibreur de charge de travail, voir [Présentation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Vous pouvez affecter des tâches (tâches et problèmes) aux utilisateurs dans d’autres zones de Workfront. Cependant, en utilisant l’équilibreur de charge de travail, vous pouvez facilement comprendre la disponibilité des utilisateurs et voir clairement tous les autres éléments auxquels ils sont affectés avant de leur assigner plus de travail.
 

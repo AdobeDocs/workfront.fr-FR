@@ -1,18 +1,18 @@
 ---
-title: Remplacement des outils basés sur des Flashs dans Adobe Workfront
-description: Remplacement des outils basés sur des Flashs dans Adobe Workfront
+title: Remplacement des outils par Flash dans Adobe Workfront
+description: Remplacement des outils par Flash dans Adobe Workfront
 author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2705'
-ht-degree: 1%
+source-wordcount: '2702'
+ht-degree: 0%
 
 ---
 
-# Remplacement des outils basés sur des Flashs dans Adobe Workfront
+# Remplacement des outils par Flash dans Adobe Workfront
 
 Nous avons supprimé tous les outils basés sur le Flash d’Adobe Workfront Classic.
 
@@ -34,9 +34,9 @@ Les dates suivantes sont importantes pour le processus de suppression de tous le
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about contacting our support team, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>. </p>
   -->
 
-* **19 novembre 2020**: Tous les outils basés sur des Flashs ont été supprimés de tous les produits Workfront.
+* **19 novembre 2020**: tous les outils basés sur un Flash ont été supprimés de tous les produits Workfront.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   We recommend that you start using the new tools and retire the Flash tools before then, to increase the security of your instance. We will also gradually disable the tools that have not been used for at least 3 months. If you would like us to disable the Flash tools before November, you can contact
   <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>.
@@ -57,24 +57,24 @@ Pour plus d’informations sur les outils de remplacement, voir [Outils basés s
    * Planificateur de capacités
    * Estimations de ressources
    * Grille des ressources\
-      Pour plus d’informations, voir [Planification des ressources dans Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Pour plus d’informations, voir [Planification des ressources dans Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * La zone Estimations des ressources héritées de l’analyse de cas d’un projet
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   is displayed in view-only mode
   </MadCap:conditionalText>
   -->
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   For more information, see
   <a href="../../../resource-mgmt/resource-mgmt-overview/migrate-resource-estimates-to-budgeting.md" class="MCXref xref">Migrate from Legacy Resource Estimates to Resource Budgeting </a>
   </MadCap:conditionalText>
   -->
 
-   .
+  .
 
 * Sous-onglet Grille de ressources dans l’onglet Personnel d’un projet
 * L’option Utiliser une nouvelle zone de planification dans le sous-onglet Planification de l’onglet Personnel d’un projet supprime l’ancienne zone de planification ou le créateur d’équipes. Dans ce cas, la chronologie de planification s’affiche désormais par défaut.
@@ -86,18 +86,18 @@ Les fonctions et rapports de création de rapports suivants ont été supprimés
 
 * Suppression des fonctionnalités de création de rapports :
 
-   * Option Grille de ressources dans un rapport utilisateur
+   * L’option Grille de ressources dans un rapport utilisateur
    * Option Gantt héritée dans un rapport de projet ou de tâche\
-      Pour plus d’informations, voir [Affichage des informations dans le diagramme de Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+     Pour plus d’informations, voir [Affichage des informations dans le diagramme de Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 * Rapports supprimés :
 
    * Rapport Pool de ressources hérité
    * Rapport des estimations de ressources
 
-   >[!NOTE]
-   >
-   >Tous les champs hérités accessibles par le biais des rapports ou de l’API (Pool de ressources hérité, Coût budgété hérité, Coût hérité, Heures budgétées héritées, Coût de la main-d’oeuvre budgété hérité, etc.) s’affichent dans divers rapports, mais ne contiennent pas de nouvelles informations.
+  >[!NOTE]
+  >
+  >Tous les champs hérités accessibles par le biais des rapports ou de l’API (Pool de ressources hérité, Coût budgété hérité, Coût hérité, Heures budgétées héritées, Coût de la main-d’oeuvre budgété hérité, etc.) s’affichent dans divers rapports, mais ne contiennent pas de nouvelles informations.
 
 ### Ancien graphique Gantt
 
@@ -107,7 +107,7 @@ Les fonctions et rapports de création de rapports suivants ont été supprimés
 
 ### Relecture
 
-La visionneuse de vérification de l’ancien a été remplacée par la nouvelle visionneuse de vérification de l’intégrité du web et de la bureau pour la plupart des clients. Elle a été supprimée pour tous les clients en novembre 2020.
+La visionneuse de vérification de l’ancien a été remplacée par la nouvelle visionneuse de vérification de l’intégrité web et la nouvelle visionneuse de vérification de l’intégrité du bureau pour la plupart des clients. Elle a été supprimée pour tous les clients en novembre 2020.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">With the 2018.2 release, the Legacy proofing viewer was removed as the default viewer.</p>
@@ -115,10 +115,10 @@ La visionneuse de vérification de l’ancien a été remplacée par la nouvelle
 
 Pour plus d’informations, voir les ressources suivantes :
 
-* [Vérifier les bons à tirer dans la visionneuse de tests de Web Proofing](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+* [Vérifier les bons à tirer dans la visionneuse de tests de sécurité Web](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
 * [Vérification des bons à tirer dans la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref">Legacy proofing viewer removed in 2018.3</a> </li>
   -->
 
@@ -152,7 +152,7 @@ Sauf indication contraire, toutes les fonctionnalités héritées ont été remp
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Anciens pools de ressources</strong> </p> <p>Les groupes de ressources hérités étaient des groupes ou des collections de rôles de tâche nécessaires en même temps pour la fin d’un projet. Legacy Resource Pools présente un certain nombre de lacunes :</p> 
+   <td> <p><strong>Pools de ressources hérités</strong> </p> <p>Les groupes de ressources hérités étaient des groupes ou des collections de rôles de tâche nécessaires en même temps pour la fin d’un projet. Legacy Resource Pools présente un certain nombre de lacunes :</p> 
     <ul> 
      <li> Vous pouviez associer un utilisateur à un pool de ressources hérité, mais il n’était utilisé qu’à des fins de création de rapports. Étant donné que les groupes de ressources hérités fonctionnaient avec des entités de rôle de tâche abstraites, aucune des exceptions de planification et de temps de pause des utilisateurs n’a été prise en compte, ce qui a entraîné des données inexactes sur la disponibilité de la ressource. </li> 
     </ul> 
@@ -170,7 +170,7 @@ Sauf indication contraire, toutes les fonctionnalités héritées ont été remp
    <td> <p>Avec le calcul automatique de la disponibilité basé sur les utilisateurs des pools de ressources, le gestionnaire du budget des ressources n’est plus nécessaire. L'outil a été éliminé, ainsi que tous les travaux manuels pour calculer la disponibilité.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Estimations de ressources</strong> </p> <p>L’onglet Estimations des ressources sous chaque pool de ressources hérité a eu le même objectif que le Gestionnaire du budget des ressources, uniquement dans le contexte d’un pool de ressources hérité. Cet outil présentait les mêmes limites que le Gestionnaire du budget des ressources et les Pools de ressources hérités : données inexactes et saisie manuelle de la disponibilité. </p> </td> 
+   <td> <p><strong>Estimations des ressources</strong> </p> <p>L’onglet Estimations des ressources sous chaque pool de ressources hérité a servi le même objectif que le Gestionnaire du budget des ressources, uniquement dans le contexte d’un pool de ressources hérité. Cet outil présentait les mêmes limites que le Gestionnaire du budget des ressources et les Pools de ressources hérités : données inexactes et saisie manuelle de la disponibilité. </p> </td> 
    <td> <p>Avec le calcul automatique de la disponibilité de l’utilisateur, les estimations de ressources sont devenues obsolètes et ont été supprimées.</p> <p>L’outil est éliminé dans les pools de ressources hérités et dans les estimations de ressources héritées dans l’analyse de cas d’un projet. <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
@@ -178,11 +178,11 @@ Sauf indication contraire, toutes les fonctionnalités héritées ont été remp
      --></p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Planificateur de capacités</strong> </p> <p>Le gestionnaire de capacités était un outil Workfront permettant de budgéter les ressources et de hiérarchiser les projets dans un pool de ressources hérité, en fonction de la disponibilité des ressources. Étant donné que les données des estimations des ressources et du Gestionnaire du budget des ressources ne sont pas complètes et qu'elles ont fourni les informations pour le responsable du plan de capacité, la hiérarchisation des projets a dû être revu deux fois par rapport à la disponibilité des utilisateurs.</p> <p>L’utilisation d’un seul pool de ressources hérité qui incluait tous les rôles de tâche dans le système était le scénario le plus courant, ce qui entraînait des problèmes de performances lorsque le planificateur de capacité tentait de charger un grand nombre de projets.</p> </td> 
-   <td> <p><strong>La vue Projet du planificateur de ressources</strong> </p> <p>Dans la vue basée sur les projets du planificateur de ressources, vous pouvez budgéter les ressources et prioriser les projets de la même manière que vous le faisiez auparavant dans le planificateur de capacité hérité. Contrairement à l’outil hérité, davantage de données sont désormais prises en charge, les informations disponibles étant plus précises en prenant en compte à la fois les heures de service des utilisateurs et les exceptions de planification.</p> <p>Les informations disponibles, prévues et budgétisées sont visibles en un coup d’oeil, de sorte que les gestionnaires de ressources puissent voir à la fois s’il y a suffisamment de personnes pour faire le travail et si les plans de projet dépassent les estimations budgétaires initiales.</p> <p> Pour plus d’informations sur l’utilisation de la vue Projet dans le planificateur de ressources, voir <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Présentation de Resource Planner</a></p> <p><strong>Planification du scénario</strong> </p> <p>Pour la planification des capacités à long terme, la modélisation des scénarios d’hypothèses et la hiérarchisation des priorités, nous avons également introduit le planificateur de scénario Workfront . </p> <p>Le planificateur de scénario n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Présentation du planificateur de scénarios</a>. </p> </td> 
+   <td> <p><strong>Capacité Plannière</strong> </p> <p>Le gestionnaire de capacités était un outil Workfront permettant de budgéter les ressources et de hiérarchiser les projets dans un pool de ressources hérité, en fonction de la disponibilité des ressources. Étant donné que les données des estimations des ressources et du Gestionnaire du budget des ressources ne sont pas complètes et qu'elles ont fourni les informations pour le responsable du plan de capacité, la hiérarchisation des projets a dû être revu deux fois par rapport à la disponibilité des utilisateurs.</p> <p>L’utilisation d’un seul pool de ressources hérité qui incluait tous les rôles de tâche dans le système était le scénario le plus courant, ce qui entraînait des problèmes de performances lorsque le planificateur de capacité tentait de charger un grand nombre de projets.</p> </td> 
+   <td> <p><strong>La vue Projet du planificateur de ressources</strong> </p> <p>Dans la vue Projet du planificateur de ressources, vous pouvez budgéter les ressources et prioriser les projets de la même manière que vous le faisiez auparavant dans l’ancien planificateur de capacité. Contrairement à l’outil hérité, davantage de données sont désormais prises en charge, les informations disponibles étant plus précises en prenant en compte à la fois les heures de service des utilisateurs et les exceptions de planification.</p> <p>Les informations disponibles, prévues et budgétisées sont visibles en un coup d’oeil, de sorte que les gestionnaires de ressources puissent voir à la fois s’il y a suffisamment de personnes pour faire le travail et si les plans de projet dépassent les estimations budgétaires initiales.</p> <p> Pour plus d’informations sur l’utilisation de la vue Projet dans le planificateur de ressources, voir <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Présentation de Resource Planner</a></p> <p><strong>Planification du scénario</strong> </p> <p>Pour la planification des capacités à long terme, la modélisation des scénarios d’hypothèses et la hiérarchisation des priorités, nous avons également introduit le planificateur de scénario Workfront . </p> <p>Le planificateur de scénario n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Présentation du planificateur de scénarios</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Estimations des ressources héritées (analyse de cas)</strong> </p> <p>Vous pouvez utiliser la zone Estimations des ressources héritées de l’Analyse de cas pour budgétiser un certain nombre d’heures et de coûts de travail dans le cadre de la planification du projet et de la demande de ressources. Cette vue n’offrait aucune visibilité sur la disponibilité des ressources, ce qui entraînait des demandes approximatives de ressources et augmentait les chances de travaux de projet rejetés.</p> </td> 
+   <td> <p><strong>Estimations des ressources héritées (analyse de cas)</strong> </p> <p>Vous pouvez utiliser la zone Estimations des ressources héritées de l’Analyse de cas pour budgétiser un certain nombre d’heures et de coûts de main-d’oeuvre dans le cadre de la planification du projet et de la demande de ressources. Cette vue n’offrait aucune visibilité sur la disponibilité des ressources, ce qui entraînait des demandes approximatives de ressources et augmentait les chances de travaux de projet rejetés.</p> </td> 
    <td> <p><strong>Budget des ressources (analyse de cas)</strong> </p> <p>La section Budget des ressources sous Analyse de cas offre des fonctionnalités de planification des ressources à l’Analyse de cas, ce qui permet de connaître la disponibilité des utilisateurs et des rôles, ainsi que de planifier au niveau de l’utilisateur. </p> <p> Pour plus d’informations sur la zone Resource Budgeting de l’Analyse de cas, voir <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Présentation des domaines de l’analyse de cas</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -196,12 +196,12 @@ Sauf indication contraire, toutes les fonctionnalités héritées ont été remp
     </div> <p><strong>Vue Rôle du planificateur de ressources</strong> </p> <p>Les heures prévues et planifiées de l’analyse de cas dans les outils de gestion des ressources hérités sont désormais disponibles dans une nouvelle vue native : la vue basée sur le rôle du planificateur de ressources. Cette vue fournit des informations sur les heures disponibles, planifiées et budgétées en un coup d’oeil et vous permet de contrôler et de modifier le budget au même endroit. Cela permet de prendre de meilleures décisions lors de la planification des rôles de haut niveau. </p> <p> Pour plus d’informations sur la planification des ressources dans la vue Rôle du planificateur de ressources, voir la section <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using2" class="MCXref xref">Utilisation des vues de projet et de rôle pour les ressources de budget </a> dans <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Présentation de Resource Planner</a></p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Grille des ressources</strong> </p> <p>La grille de ressources vous a donné une visibilité sur l’allocation de certains utilisateurs à mesure qu’un projet avance vers la fin. </p> <p>Par exemple, vous pouvez facilement voir quand une personne de votre équipe de projet a fait son travail plus tôt, et quand une personne est tombée en retard, et si elle a été surchargée ou sous-affectée pendant une période donnée. </p> <p>Malheureusement, vous n'avez pas été en mesure d'agir sur l'information dans la même perspective. Pour corriger les problèmes de surallocation, vous avez dû accéder aux projets et y ajuster manuellement les informations sans aucune visibilité sur le résultat de vos actions.</p> </td> 
+   <td> <p><strong>Grille de ressources</strong> </p> <p>La grille de ressources vous a donné une visibilité sur l’allocation de certains utilisateurs à mesure qu’un projet avance vers la fin. </p> <p>Par exemple, vous pouvez facilement voir quand une personne de votre équipe de projet a fait son travail plus tôt, et quand une personne est tombée en retard, et si elle a été surchargée ou sous-affectée pendant une période donnée. </p> <p>Malheureusement, vous n'avez pas été en mesure d'agir sur l'information dans la même perspective. Pour corriger les problèmes de surallocation, vous avez dû accéder aux projets et y ajuster manuellement les informations sans aucune visibilité sur le résultat de vos actions.</p> </td> 
    <td> <p>La grille de ressources a été remplacée par deux nouveaux outils. Vous pouvez utiliser les outils suivants, selon la phase de planification des ressources dans laquelle vous vous trouvez :</p> 
     <ul> 
      <li> <p><strong>Pour la phase d’analyse :</strong> </p> 
       <ul> 
-       <li> <p><strong>L’équilibreur de charge de travail</strong>: Utilisez l’équilibreur de charge de travail pour afficher la charge de travail des utilisateurs à un niveau plus granulaire. Lorsque vous utilisez l’équilibreur de charge de travail, vous pouvez voir quels utilisateurs sont disponibles dans leur charge de travail pour terminer la tâche à temps. Cela inclut les détails des heures de pause et des exceptions de planification. </p> <p>Pour plus d’informations sur l’équilibreur de charge de travail, voir <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Présentation de l’équilibreur de charge de travail</a>.</p> </li> 
+       <li> <p><strong>L’équilibreur de charge de travail</strong>: utilisez l’équilibreur de charge de travail pour afficher la charge de travail des utilisateurs à un niveau plus granulaire. Lorsque vous utilisez l’équilibreur de charge de travail, vous pouvez voir quels utilisateurs sont disponibles dans leur charge de travail pour terminer la tâche à temps. Cela inclut les détails des heures de pause et des exceptions de planification. </p> <p>Pour plus d’informations sur l’équilibreur de charge de travail, voir <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Présentation de l’équilibreur de charge</a>.</p> </li> 
        <li> <p><strong>Vue utilisateur du planificateur de ressources</strong><strong>:</strong> Lorsque vous essayez de comprendre à un niveau supérieur les projets auxquels vos utilisateurs sont affectés, utilisez la vue utilisateur du planificateur de ressources. Cela vous permet de voir sur quoi travaillent les utilisateurs, ainsi que leur surallocation et sous-allocation pour une période spécifique. Le planificateur de ressources fournit également une visualisation de l’allocation globale des utilisateurs dans son ensemble, ainsi qu’une visibilité sur les Heures réelles consignées, ce qui s’avère utile pour analyser la progression du travail effectué. </p> <p>Pour plus d’informations sur l’utilisation de la vue utilisateur dans le planificateur de ressources, voir la section <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">Utilisation de la vue utilisateur pour afficher les heures disponibles, planifiées et réelles ou l’éditeur de texte enrichi </a> dans <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Présentation de Resource Planner</a></p> </li> 
       </ul> </li> 
      <li><strong>Pour la phase tactique :</strong> 
@@ -210,8 +210,8 @@ Sauf indication contraire, toutes les fonctionnalités héritées ont été remp
         <ul>
          <li>Affectez du travail aux utilisateurs.</li>
          <li>Gérez les affectations des utilisateurs aux tâches. </li>
-         <li>Partagez l’équilibreur de charge de travail avec d’autres utilisateurs qui peuvent ne pas avoir de visibilité sur la zone Personnes. Utilisez la fonctionnalité de lien partageable pour partager un lien vers l’équilibreur de charge de travail et l’incorporer dans des tableaux de bord personnalisés. Tous les utilisateurs ayant accès à l’option Afficher les utilisateurs peuvent afficher ces tableaux de bord lorsque vous les partagez.</li>
-        </ul><p>L’équilibreur de charge de travail est disponible dans la zone Personnes. </p><p>Pour plus d’informations sur l’équilibreur de charge de travail, voir <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Présentation de l’équilibreur de charge de travail</a>.</p></li> 
+         <li>Partagez l’équilibreur de charge de travail avec d’autres utilisateurs qui peuvent ne pas avoir de visibilité sur la zone Personnes. Utilisez la fonctionnalité de lien partageable pour partager un lien vers l’équilibreur de charge de travail et l’incorporer dans des tableaux de bord personnalisés. Tous les utilisateurs ayant accès à Afficher les utilisateurs peuvent afficher ces tableaux de bord lorsque vous les partagez.</li>
+        </ul><p>L’équilibreur de charge de travail est disponible dans la zone Personnes. </p><p>Pour plus d’informations sur l’équilibreur de charge de travail, voir <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Présentation de l’équilibreur de charge</a>.</p></li> 
       </ul> <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
@@ -232,7 +232,7 @@ Sauf indication contraire, toutes les fonctionnalités héritées ont été remp
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Tableau Gantt hérité, Liste des tâches</strong> </p> <p> Le graphique Gantt hérité sur la liste des tâches permet aux utilisateurs de voir visuellement la chronologie du projet et d’effectuer une planification du scénario d’exécution sans avoir à apporter de modifications à la base de données. Le graphique Gantt hérité était basé sur la technologie de Flash, qui présentait des risques pour la sécurité. </p> </td> 
+   <td> <p><strong>Tableau Gantt hérité, Liste des tâches</strong> </p> <p> Le graphique Gantt hérité sur la liste des tâches permet aux utilisateurs de voir visuellement la chronologie du projet et d’effectuer une planification du scénario d’exécution sans avoir à modifier la base de données. Le graphique Gantt hérité était basé sur la technologie de Flash, qui présentait des risques pour la sécurité. </p> </td> 
    <td> <p><strong>Graphique de Gantt,</strong> <strong>Liste des tâches</strong></p> <p> Le nouveau diagramme de Gantt basé sur les HTMLS a le même objectif que le diagramme de Gantt hérité. Les utilisateurs peuvent visualiser la chronologie du projet et réaliser une planification du scénario d’exécution sans valider les modifications apportées à la base de données en sélectionnant l’option Enregistrer manuellement dans la barre d’outils de la liste des tâches. </p> <p>Le nouveau diagramme de Gantt est interactif lors de l’utilisation de l’option d’enregistrement automatique que vous pouvez utiliser lorsque vous souhaitez enregistrer automatiquement vos modifications au fur et à mesure. </p> <p>Le nouveau diagramme de Gantt de la liste des tâches repose sur les technologies les plus récentes et est fiable. Ce nouveau diagramme de Gantt se trouve directement dans la liste des tâches et est facilement accessible lorsque vous travaillez sur la liste des tâches sans changer d’onglet ni de vue. </p> <p>Bien que le nouveau graphique Gantt offre les mêmes fonctionnalités que le graphique précédent, il existe des différences de fonctionnalités par rapport au graphique Gantt hérité. </p> <p> Le sous-onglet Gantt hérité d’une liste de tâches de modèle sur un modèle, la vue Gantt héritée de l’onglet Sous-tâches d’une tâche de modèle et le graphique Gantt hérité d’un rapport Tâche de modèle ont également été remplacés par le graphique Gantt basé sur les HTMLS. </p> <p>Si vous utilisez le diagramme de Gantt hérité principalement pour l’affichage simple et les modifications rapides, mais que vous n’utilisez pas le graphique réel, la nouvelle option Planning permet d’apporter rapidement des modifications aux champs de planification clés. Vous pouvez sélectionner Planification de la chronologie au lieu d’enregistrer automatiquement dans la barre d’outils de la liste des tâches.</p> <p>Pour plus d’informations sur l’enregistrement d’une liste de tâches à l’aide de l’option Planification de la chronologie, voir la section "Enregistrer manuellement les modifications dans une liste de tâches lorsque vous sélectionnez l’option Planification de la chronologie" de l’article. <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Editer les tâches dans une liste</a>. </p> </td> 
   </tr> 
   <tr> 

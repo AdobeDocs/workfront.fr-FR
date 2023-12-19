@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ L’équilibreur de charge de travail est un outil de planification des ressourc
 
 Pour plus d’informations sur ce qu’est l’équilibreur de charge de travail, comment le parcourir et comment attribuer un travail à l’aide de celui-ci, consultez les articles suivants :
 
-* [Présentation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+* [Présentation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
 * [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)
 * [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)

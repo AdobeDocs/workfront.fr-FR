@@ -6,9 +6,9 @@ description: Pour rechercher efficacement des tâches et vous concentrer sur les
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2464'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 En tant que gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail pour afficher et gérer la charge de travail de vos utilisateurs. Pour plus d’informations sur l’équilibreur de charge de travail, consultez les articles suivants :
 
-* [Présentation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+* [Présentation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
@@ -49,7 +49,7 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource</p>
+   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource .</p>
    <p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
  </td> 
   </tr> 
@@ -60,7 +60,7 @@ Vous devez disposer des éléments suivants :
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
      <li> <p>Tâches</p> </li> 
-     <li> <p>Événements</p> </li> 
+     <li> <p>Problèmes</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filtres, vues et regroupements</p> </li> 
     </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Modifier l’accès aux filtres, vues et groupes lors de la création ou de la modification de filtres</span> </p> <p><b>NOTE</b>
 
@@ -69,7 +69,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Afficher ou des autorisations supérieures pour les projets, tâches, problèmes</p>
-   <p>Gérer les autorisations d’accès aux filtres que vous souhaitez modifier ou supprimer</p>
+   <p>Gérer les autorisations pour les filtres que vous souhaitez modifier ou supprimer</p>
      </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -88,9 +88,9 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans l’équ
 * Lorsque vous supprimez ou modifiez un filtre partagé, celui-ci est également supprimé ou modifié pour toutes les personnes avec lesquelles il est partagé.
 * Lorsque vous créez des filtres dans l’équilibreur de charge de travail dans une zone, ils ne sont pas disponibles dans d’autres zones.
 
-   Par exemple, les filtres créés dans la zone Ressource ne sont pas disponibles dans l’équilibreur de charge de travail d’un projet ou d’une équipe.
+  Par exemple, les filtres créés dans la zone Ressource ne sont pas disponibles dans l’équilibreur de charge de travail d’un projet ou d’une équipe.
 
-   Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, voir [Localisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+  Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, voir [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 * Vous pouvez afficher uniquement les éléments correspondant aux filtres sélectionnés qui correspondent également aux dates dans la chronologie affichée à l’écran de l’équilibreur de charge de travail.
 
@@ -101,7 +101,7 @@ L’équilibreur de charge de travail affiche des informations dans deux zones d
 * **Zone de travail non affectée**: tâches qui ne sont pas encore affectées aux utilisateurs.
 * **Zone de travail affectée**: tâches affectées aux utilisateurs.
 
-   Pour plus d’informations sur ce qui s’affiche dans chacune des zones, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Pour plus d’informations sur ce qui s’affiche dans chacune des zones, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 >[!IMPORTANT]
 >
@@ -139,7 +139,7 @@ Selon l’emplacement d’accès à l’équilibreur de charge de travail, les z
 
 <p>Lorsque le filtre par défaut du système <b>Éléments de travail de ce projet</b> est désélectionnée, la zone de travail affectée d’un projet affiche toutes les tâches des utilisateurs affectés à au moins un élément du projet sélectionné.  </p> Ce filtre est désélectionné par défaut.
 
-<b>NOTE</b>
+<b>REMARQUE</b>
 <p>Vous pouvez activer l’option Afficher tous les utilisateurs dans l’équilibreur de charge de travail d’un projet pour afficher tous les utilisateurs du système. Pour plus d’informations, voir <a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigation dans l’équilibreur de charge de travail</a></p>
 
 </td> 
@@ -149,15 +149,15 @@ Selon l’emplacement d’accès à l’équilibreur de charge de travail, les z
 
 ## Création de filtres équilibreurs de charge de travail
 
-Le processus de création de filtres pour les zones de travail non assigné et de travail assigné dans l’équilibreur de charge de travail est identique, quel que soit l’endroit d’où vous accédez à l’équilibreur de charge de travail. Pour plus d’informations sur la localisation de l’équilibreur de charge de travail, voir [Localisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Le processus de création de filtres pour les zones de travail non assigné et de travail assigné dans l’équilibreur de charge de travail est identique, quel que soit l’emplacement d’accès à l’équilibreur de charge de travail. Pour plus d’informations sur la localisation de l’équilibreur de charge de travail, voir [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres prédéfinis. Pour plus d’informations sur les filtres existants que vous pouvez modifier, voir [Modification d’un filtre existant dans l’équilibreur de charge de travail](#edit-an-existing-filter-in-the-workload-balancer) dans cet article.
+Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres prédéfinis. Pour plus d’informations sur les filtres existants que vous pouvez modifier, voir [Modification d’un filtre existant dans l’équilibreur de charge](#edit-an-existing-filter-in-the-workload-balancer) dans cet article.
 
 1. Accédez à l’équilibreur de charge de travail.
 
    Pour plus d’informations sur l’accès à l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Cliquez sur le bouton **Filtrer** icon ![](assets/filter-icon.png) dans le coin supérieur droit de l’une des options **Travail non attribué** ou le **Travail attribué** zones.
+1. Cliquez sur le bouton **Filtrer** icon ![](assets/filter-icon.png) dans le coin supérieur droit de l’une des options **Travail non attribué** ou le **Travail assigné** zones.
 
    La zone Créateur de filtres s’affiche à droite. Le nom de la zone pour laquelle vous créez le filtre s’affiche dans l’en-tête de la zone.
 
@@ -169,7 +169,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
    >
    >Le filtre Par défaut affiche les utilisateurs appartenant à l’une de vos équipes et à leurs tâches. Vous pouvez modifier une copie de ce filtre.
 
-   Si vous accédez à la variable [!UICONTROL Équilibreur de charge de travail] à partir d’un projet, le[!UICONTROL Éléments de travail de ce projet]&quot; peut déjà être appliqué. Cette option affiche uniquement les tâches affectées aux utilisateurs dans ce projet. Vous pouvez dupliquer et enregistrer une copie de ce filtre.
+   Si vous accédez au [!UICONTROL Équilibreur de charge de travail] à partir d’un projet, le[!UICONTROL Éléments de travail de ce projet]&quot; peut déjà être appliqué. Cette option affiche uniquement les tâches affectées aux utilisateurs dans ce projet. Vous pouvez dupliquer et enregistrer une copie de ce filtre.
 
    Par défaut, la variable [!UICONTROL Équilibreur de charge de travail] d’un projet affiche toutes les tâches affectées à tous les utilisateurs du projet.
 
@@ -194,9 +194,8 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
       >
       >Vous pouvez sélectionner un champ parmi les sections suivantes :
       >
-      >* **Sélections récentes**: les champs pour lesquels vous avez récemment filtré.
+      >* **Sélections récentes**: champs pour lesquels vous avez récemment filtré.
       >* **Champs proposés**: les champs les plus couramment utilisés.
-
 
 
    1. Sélectionnez un modificateur dans le deuxième menu déroulant. Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Filtres et modificateurs de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -204,7 +203,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
       >[!NOTE]
       >
-      > Lorsque vous souhaitez afficher des objets de travail d’un portfolio spécifique, vous pouvez appliquer le filtre suivant : &quot;Le nom du Portfolio contient le marketing.&quot; Cette option affiche les éléments de travail appartenant à n’importe quel portfolio qui contient le nom &quot;marketing&quot;.
+      > Lorsque vous souhaitez afficher des objets de travail d’un portfolio spécifique, vous pouvez appliquer le filtre suivant : &quot;Le nom du Portfolio contient le marketing&quot;. Cette option affiche les éléments de travail appartenant à n’importe quel portfolio qui contient le nom &quot;marketing&quot;.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
 
@@ -224,7 +223,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
    Le filtre est conservé jusqu’à ce que vous actualisiez la page.
 
-   Le **Appliquer** est remplacé par un bouton **Enregistrer comme nouveau** bouton .
+   La variable **Appliquer** est remplacé par un bouton **Enregistrer comme nouveau** bouton .
 
 1. Cliquez sur **Enregistrer comme nouveau** pour enregistrer le filtre en vue d’une utilisation ultérieure.
 
@@ -244,21 +243,21 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
 
    Les filtres enregistrés s’affichent dans la zone Mes filtres .
 
-   Pour plus d’informations sur l’application de filtres enregistrés, voir la section [Suppression d’un filtre enregistré dans l’équilibreur de charge de travail](#delete-a-saved-filter-in-the-workload-balancer) dans cet article.
+   Pour plus d’informations sur l’application de filtres enregistrés, voir la section [Supprimer un filtre enregistré dans l’équilibreur de charge de travail](#delete-a-saved-filter-in-the-workload-balancer) dans cet article.
 
-1. (Conditionnel) Placez le pointeur de la souris sur l’objet **Icône Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit du **Travail non attribué** ou le **Travail attribué** zones pour afficher une info-bulle avec le nom ou le nombre de filtres actuellement appliqués.
+1. (Conditionnel) Passez la souris sur la variable **Icône Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit du **Travail non attribué** ou le **Travail assigné** zones pour afficher une info-bulle avec le nom ou le nombre de filtres actuellement appliqués.
 
    ![](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
 ## Dupliquer un filtre
 
-Vous pouvez dupliquer et modifier un filtre pour en créer un nouveau.
+Vous pouvez dupliquer et éditer un filtre pour en créer un nouveau.
 
 1. Accédez à l’équilibreur de charge de travail.
 
    Pour plus d’informations sur l’accès à l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Cliquez sur le bouton **Filtrer** icon ![](assets/filter-icon.png) dans le coin supérieur droit de l’une des options **Travail non attribué** ou le **Travail attribué** zones.
+1. Cliquez sur le bouton **Filtrer** icon ![](assets/filter-icon.png) dans le coin supérieur droit de l’une des options **Travail non attribué** ou le **Travail assigné** zones.
 
    La zone Créateur de filtres s’affiche à droite. Le nom de la zone pour laquelle vous créez le filtre s’affiche dans l’en-tête de la zone.
 
@@ -268,13 +267,13 @@ Vous pouvez dupliquer et modifier un filtre pour en créer un nouveau.
 
    >[!TIP]
    >
-   > Lors de la modification d’un filtre, vous pouvez cliquer sur la variable **Plus** dans le coin inférieur gauche de la zone Modifier le filtre , puis cliquez sur **Dupliquer**.
+   > Lors de la modification d’un filtre, vous pouvez cliquer sur l’icône **Plus** dans le coin inférieur gauche de la zone Modifier le filtre , puis cliquez sur **Dupliquer**.
 
 1. Editez les informations suivantes pour le filtre dupliqué :
 
    * Nom
 
-      Par défaut, le nouveau nom du filtre est &quot;(Nom du filtre original) Copier&quot;.
+     Par défaut, le nouveau nom du filtre est &quot;(Nom du filtre original) Copier&quot;.
 
    * Icône
    * Description
@@ -285,7 +284,7 @@ Vous pouvez dupliquer et modifier un filtre pour en créer un nouveau.
 
    Le filtre d’origine reste inchangé et le filtre dupliqué est enregistré comme un nouveau filtre.
 
-## Modification d’un filtre existant dans l’équilibreur de charge de travail {#edit-an-existing-filter-in-the-workload-balancer}
+## Modification d’un filtre existant dans l’équilibreur de charge {#edit-an-existing-filter-in-the-workload-balancer}
 
 Vous pouvez modifier un filtre enregistré dans l’équilibreur de charge de travail.
 
@@ -297,10 +296,10 @@ Vous pouvez modifier un filtre enregistré dans l’équilibreur de charge de tr
 
    Pour plus d’informations sur l’accès à l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Cliquez sur le bouton **Icône Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit du **Non attribué** ou **Travail attribué** zones.\
+1. Cliquez sur le bouton **Icône Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit du **Non attribué** ou **Travail assigné** zones.\
    Le créateur de filtres s’affiche à droite.
 
-1. Placez le pointeur de la souris sur le filtre à modifier, puis cliquez sur **Modifier** ![](assets/wb-edit-filter-icon.png).
+1. Pointez sur le filtre à modifier, puis cliquez sur **Modifier** ![](assets/wb-edit-filter-icon.png).
 
    ![](assets/filter-more-menu-options-wb.png)
 
@@ -314,11 +313,11 @@ Vous pouvez modifier un filtre enregistré dans l’équilibreur de charge de tr
 
    Les résultats sont mis à jour dans l’équilibreur de charge de travail à gauche pour illustrer les modifications que vous avez apportées au filtre.
 
-1. Cliquer sur **Enregistrer.**
+1. Cliquez sur **Enregistrez.**
 
    Les résultats sont mis à jour dans l’équilibreur de charge de travail à gauche et le filtre est mis à jour avec les nouvelles informations que vous avez sélectionnées.
 
-## Suppression d’un filtre enregistré dans l’équilibreur de charge de travail {#delete-a-saved-filter-in-the-workload-balancer}
+## Supprimer un filtre enregistré dans l’équilibreur de charge de travail {#delete-a-saved-filter-in-the-workload-balancer}
 
 Tenez compte des points suivants avant de supprimer un filtre :
 
@@ -333,44 +332,44 @@ Tenez compte des points suivants avant de supprimer un filtre :
 >Lorsque vous supprimez un filtre partagé avec d’autres utilisateurs, il est également supprimé.
 
 1. Accédez à l’équilibreur de charge de travail
-1. Cliquez sur le bouton **Icône Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit du **Travail non attribué** ou **Travail attribué** zones.\
+1. Cliquez sur le bouton **Icône Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit du **Travail non attribué** ou **Travail assigné** zones.\
    La zone Créateur de filtres s’affiche à droite.
 
-1. Placez le pointeur de la souris sur un filtre, puis cliquez sur l’icône **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Supprimer**.
+1. Placez le pointeur de la souris sur un filtre, puis cliquez sur la propriété **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Supprimer**.
    ![](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
-   >Lors de la modification d’un filtre, vous pouvez cliquer sur la variable **Plus** dans le coin inférieur gauche de la zone Modifier le filtre , puis cliquez sur **Supprimer**.
+   >Lors de la modification d’un filtre, vous pouvez cliquer sur l’icône **Plus** dans le coin inférieur gauche de la zone Modifier le filtre , puis cliquez sur **Supprimer**.
 
 1. (Facultatif) Cliquez sur **Annuler** pour éviter la suppression et revenir à la liste des filtres.
 1. Cliquez sur **Supprimer** pour confirmer la suppression.
 
    Le filtre est supprimé pour vous et tous les utilisateurs qui y avaient des autorisations.
 
-## Partage d’un filtre dans l’équilibreur de charge de travail
+## Partage d’un filtre dans l’équilibreur de charge
 
 Vous pouvez partager un filtre que vous avez créé ou qui a été partagé avec vous par d’autres utilisateurs.
 
 Tenez compte des points suivants lors du partage de filtres dans l’équilibreur de charge de travail :
 
-* Vous pouvez partager des filtres avec des utilisateurs, équipes, rôles et entreprises principaux ou les rendre visibles pour tous les utilisateurs de votre instance Workfront.
+* Vous pouvez partager des filtres avec des utilisateurs, des équipes, des rôles et des entreprises actifs ou les rendre visibles pour tous les utilisateurs de votre instance Workfront.
 * Les filtres que vous partagez dans la zone Ressource ne sont pas visibles dans l’équilibreur de charge de travail d’un projet ou d’une équipe.
 * Les filtres d’équilibreur de charge de travail que vous partagez avec d’autres utilisateurs ne sont pas visibles dans d’autres zones de Workfront.
 
 Pour partager un filtre :
 
 1. Accédez à l’équilibreur de charge de travail
-1. Cliquez sur le bouton **Icône Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit du **Travail non attribué** ou **Travail attribué** zones.\
+1. Cliquez sur le bouton **Icône Filtrer** ![](assets/filter-icon.png) dans le coin supérieur droit du **Travail non attribué** ou **Travail assigné** zones.\
    La zone Créateur de filtres s’affiche à droite.
 
-1. Placez le pointeur de la souris sur un filtre, puis cliquez sur l’icône **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Partagez.**
+1. Placez le pointeur de la souris sur un filtre, puis cliquez sur la propriété **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Partagez.**
 
    ![](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
-   > Lors de la modification d’un filtre, vous pouvez cliquer sur la variable **Plus** dans le coin inférieur gauche de la zone Modifier le filtre , puis cliquez sur **Partager**.
+   > Lors de la modification d’un filtre, vous pouvez cliquer sur l’icône **Plus** dans le coin inférieur gauche de la zone Modifier le filtre , puis cliquez sur **Partager**.
 
    La boîte Partage des filtres s’affiche.
 
@@ -378,7 +377,7 @@ Pour partager un filtre :
 
    Ou
 
-   Commencez à saisir les noms des utilisateurs, des équipes, des rôles, des groupes ou des entreprises avec lesquels vous souhaitez partager le filtre dans la variable **Accéder à** champ .
+   Commencez à saisir les noms des utilisateurs, équipes, rôles, groupes ou entreprises avec lesquels vous souhaitez partager le filtre dans la variable **Accéder à** champ .
 
    ![](assets/new-filters-sharing-ui-wb-350x422.png)
 
@@ -391,6 +390,7 @@ Pour partager un filtre :
    1. Cliquez sur **Affichage** et désactivez la variable **Partager** . Elle est activée par défaut.
 
    1. Cliquez sur **Gérer** et désactivez l’option **Partager** ou le **Supprimer** . Ils sont activés par défaut.
+
    >[!TIP]
    >
    >Les utilisateurs ne peuvent pas recevoir une autorisation supérieure à leur niveau d’accès. S’ils n’ont pas accès aux filtres d’édition dans leur niveau d’accès, ils ne peuvent pas recevoir d’autorisations pour gérer un filtre. Workfront désactive l’option Gérer pour ces utilisateurs et l’option est grisée.

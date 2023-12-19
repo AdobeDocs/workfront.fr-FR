@@ -1,17 +1,18 @@
 ---
-title: Champs Adobe Maestro
+title: "Champs : index de l’article"
 description: Vous pouvez ajouter de nouveaux champs dans Adobe Manager qui reflètent le cycle de vie de votre entreprise. Les champs sont des attributs de types d’enregistrement.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# Informations sur le champ
+# Champs : index de l’article
 
 <!--
 title: Adobe Maestro fields
@@ -44,5 +45,3 @@ Les articles présentés dans les sections suivantes décrivent comment créer e
 * [Modifier les champs](../fields/edit-fields.md)
 * [Supprimer des champs](../fields/delete-fields.md)
   <!--* [Formula fields](../fields/formula-fields.md)-->
-
-

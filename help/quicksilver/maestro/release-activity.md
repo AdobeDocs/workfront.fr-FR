@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Semaine du 18 décembre 2023
+## Semaine du 18 décembre 2024
+
+### Ajout de commentaires sur les enregistrements de la page Détails
+
+Aperçu et production pour tous les clients : 18 décembre 2023
+
+>[!NOTE]
+>
+>Les fonctionnalités suivantes seront disponibles dans la version de production de janvier 2024 :
+>
+>* Recherche de commentaires
+>
+>* Copier et coller des images
+>
+>* Glisser-déposer des images
+>
+>Pour plus d’informations, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+Vous pouvez désormais collaborer avec d’autres personnes sur des enregistrements individuels en ajoutant des commentaires ou en répondant à d’autres personnes lors de l’affichage d’un enregistrement dans la page Détails.
+
+L’expérience de commentaire des enregistrements Maestro correspond à la nouvelle expérience de commentaire des objets Workfront.
+
+Pour plus d’informations, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## Semaine du 11 décembre 2023
 
 ### Mettre à jour le champ principal dans une vue de tableau d’un type d’enregistrement
 
@@ -102,7 +126,7 @@ Pour plus d’informations, voir [Gestion du mode Tableau](/help/quicksilver/mae
 
 Version d’aperçu : 14 décembre 2023
 
-Version de production : 15 décembre 2023
+Version de production : prévue pour le 15 décembre 2023
 
 >[!IMPORTANT]
 >

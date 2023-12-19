@@ -7,9 +7,9 @@ description: Vous pouvez estimer et budgéter l’allocation de vos ressources a
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: ec49a7d3adeb24c1b8df0ff5fafe650d18d92280
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ Vous pouvez utiliser le planificateur de ressources pour comprendre facilement l
 >[!IMPORTANT]
 >
 >Vous ne pouvez pas utiliser le planificateur de ressources pour affecter le travail réel (tâches et problèmes) aux utilisateurs. Vous pouvez uniquement estimer le temps nécessaire aux utilisateurs ou aux rôles de tâche pour terminer un projet, quelles que soient les tâches et les problèmes auxquels ils sont affectés.\
->Pour affecter un travail réel aux utilisateurs, vous devez utiliser l’équilibreur de charge de travail. Pour plus d’informations sur l’équilibreur de charge de travail, voir [Présentation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Pour affecter un travail réel aux utilisateurs, vous devez utiliser l’équilibreur de charge de travail. Pour plus d’informations sur l’équilibreur de charge de travail, voir [Présentation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Vous pouvez afficher les informations dans le planificateur de ressources à l’aide de trois vues distinctes. Vous pouvez utiliser chaque vue pour réaliser l’un des objectifs suivants :
 
 * Pour estimer le temps ou le coût de vos ressources pour le travail qui doit être accompli à l’aide des vues Projet et Rôle . Il s’agit de l’objectif principal du planificateur de ressources.\
-   Pour plus d’informations sur la budgétisation dans le planificateur de ressources, consultez l’article [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Pour plus d’informations sur la budgétisation dans le planificateur de ressources, consultez l’article [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * Pour afficher les informations suivantes à l’aide de la vue Utilisateur :
 
@@ -44,37 +44,37 @@ Vous pouvez afficher les informations dans le planificateur de ressources à l�
    * le temps prévu pour terminer le travail conformément au plan du projet.
    * durée pendant laquelle les utilisateurs se sont déjà connectés aux tâches réelles.
 
-   Pour plus d’informations sur l’affichage des heures disponibles, planifiées et réelles ou de l’éditeur de texte enrichi pour les utilisateurs dans le planificateur de ressources, consultez l’article . [Afficher les heures disponibles, planifiées et réelles ou l’éditeur de texte enrichi dans le planificateur de ressources lors de l’utilisation de la vue utilisateur](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  Pour plus d’informations sur l’affichage des heures disponibles, planifiées et réelles ou de l’éditeur de texte enrichi pour les utilisateurs dans le planificateur de ressources, consultez l’article . [Afficher les heures disponibles, planifiées et réelles ou l’éditeur de texte enrichi dans le planificateur de ressources lors de l’utilisation de la vue utilisateur](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
 ## Considérations relatives au planificateur de ressources
 
 * Vous pouvez hiérarchiser les projets sur lesquels vous travaillez et répartir vos ressources en fonction de leur priorité afin de vous assurer que les ressources sont d’abord allouées aux projets les plus importants.
 
-   Pour plus d’informations sur la priorité des projets dans le planificateur de ressources, voir [Définir la priorité des projets dans le planificateur de ressources](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Pour plus d’informations sur la priorité des projets dans le planificateur de ressources, voir [Définir la priorité des projets dans le planificateur de ressources](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * Vous pouvez afficher des informations sur les heures, l’éditeur de texte enrichi et les coûts à partir des tâches et des problèmes des projets.
 
-   >[!NOTE]
-   >
-   >Les tâches et les problèmes ne s’affichent pas dans le planificateur de ressources. Toutefois, les informations sur les heures, l’ETP et les coûts des allocations de ressources sur les tâches s’affichent dans le planificateur de ressources sous forme de nombre total pour le projet.
+  >[!NOTE]
+  >
+  >Les tâches et les problèmes ne s’affichent pas dans le planificateur de ressources. Toutefois, les informations sur les heures, l’ETP et les coûts des allocations de ressources sur les tâches s’affichent dans le planificateur de ressources sous forme de nombre total pour le projet.
 
 * Les informations sur l’heure, l’éditeur de texte enrichi et les coûts des tâches parents sont exclues des projets qui s’affichent dans le planificateur de ressources. Nous vous recommandons d’affecter des ressources uniquement aux tâches enfants si vous souhaitez gérer le temps ou le coût de ces ressources dans le planificateur de ressources.
 
-   Pour plus d’informations sur les tâches parentes, voir les articles suivants :
+  Pour plus d’informations sur les tâches parentes, voir les articles suivants :
 
    * [Présentation des tâches](../../manage-work/tasks/task-information/tasks-overview.md)
    * [Création de sous-tâches](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
-   >[!TIP]
-   >
-   >Les tâches parentes affichent le total des heures et des coûts des tâches pour enfants. Pour cette raison, le comptage des heures, de l’éditeur de texte enrichi et du coût des tâches enfants et des tâches parentes compterait deux fois ces montants. C’est pourquoi les informations de la tâche parente sont exclues du planificateur de ressources.
+  >[!TIP]
+  >
+  >Les tâches parentes affichent le total des heures et des coûts des tâches pour enfants. Pour cette raison, le comptage des heures, de l’éditeur de texte enrichi et du coût des tâches enfants et des tâches parentes compterait deux fois ces montants. C’est pourquoi les informations de la tâche parente sont exclues du planificateur de ressources.
 
 * Vous ne pouvez pas gérer l’affectation des équipes sur les projets pour lesquels elles ont des tâches ou des problèmes dans le planificateur de ressources.
 * Vous pouvez budgétiser des ressources pour plusieurs projets à la fois à l’aide du planificateur de ressources ou pour un seul projet à l’aide de la zone Budget des ressources de l’Analyse de cas. Les informations que vous budgétisez pour un projet s’affichent également dans le planificateur de ressources.
 
-   Pour plus d’informations sur le budget des ressources pour un seul projet, reportez-vous à l’article . [Ressources budgétaires dans l’analyse de cas](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Pour plus d’informations sur le budget des ressources pour un seul projet, reportez-vous à l’article [Ressources budgétaires dans l’analyse de cas](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   Pour plus d’informations sur la manière dont vous pouvez budgéter les ressources dans le planificateur de ressources pour plusieurs projets à la fois, reportez-vous à la section &quot;Ressources budgétaires dans le planificateur de ressources&quot; de l’article . [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Pour plus d’informations sur la manière dont vous pouvez budgéter les ressources dans le planificateur de ressources pour plusieurs projets à la fois, reportez-vous à la section &quot;Ressources budgétaires dans le planificateur de ressources&quot; de l’article . [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Conditions préalables pour travailler dans le planificateur de ressources {#prerequisites-for-working-in-the-resource-planner}
 
@@ -100,7 +100,7 @@ Les types de prérequis suivants sont requis pour la fonctionnalité correcte du
 * [Conditions préalables requises pour les utilisateurs](#user-prerequisites)
 * [Conditions préalables du projet](#project-prerequisites)
 * [Tâches et problèmes préalables](#tasks-and-issues-prerequisites)
-* [Conditions préalables au niveau du système](#system-level-prerequisites)
+* [Conditions préalables au niveau système](#system-level-prerequisites)
 
 ### Conditions préalables requises pour les utilisateurs {#user-prerequisites}
 
@@ -108,54 +108,55 @@ Assurez-vous que la configuration utilisateur suivante existe avant de commencer
 
 * Vous disposez d’un accès correct aux ressources du budget.
 
-   Pour plus d’informations sur l’accès aux ressources du budget, consultez l’article . [Accès aux ressources de budget nécessaires dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Pour plus d’informations sur l’accès aux ressources du budget, consultez l’article . [Accès aux ressources de budget nécessaires dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Les utilisateurs affectés à des tâches sont ajoutés aux pools de ressources associés au projet.
 
-   Pour plus d’informations sur l’ajout d’utilisateurs aux pools de ressources, voir [Association des pools de ressources aux utilisateurs](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  Pour plus d’informations sur l’ajout d’utilisateurs aux pools de ressources, voir [Association des pools de ressources aux utilisateurs](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
-   >[!NOTE]
-   >
-   >Lorsque des utilisateurs ne sont pas ajoutés aux pools de ressources, les scénarios suivants peuvent exister :
-   >
-   >   
-   >   
-   >   * Les utilisateurs n’apparaissent pas dans le planificateur de ressources, bien qu’ils puissent être affectés à des tâches sur les projets.
-   >   * Si les tâches auxquelles elles sont associées comportent des heures planifiées, ces heures n’apparaissent pas pour le projet dans le planificateur de ressources, sauf si l’utilisateur est également associé à un rôle de tâche pour ces tâches.
-   >   * Si les utilisateurs sont associés à un rôle de tâche sur une tâche du projet, les heures planifiées s’affichent dans le planificateur de ressources pour le rôle de tâche, mais le rôle de tâche ne peut pas être budgété.
+  >[!NOTE]
+  >
+  >Lorsque des utilisateurs ne sont pas ajoutés aux pools de ressources, les scénarios suivants peuvent exister :
+  >
+  >   
+  >   
+  >   * Les utilisateurs n’apparaissent pas dans le planificateur de ressources, bien qu’ils puissent être affectés à des tâches sur les projets.
+  >   * Si les tâches auxquelles elles sont associées comportent des heures planifiées, ces heures n’apparaissent pas pour le projet dans le planificateur de ressources, sauf si l’utilisateur est également associé à un rôle de tâche pour ces tâches.
+  >   * Si les utilisateurs sont associés à un rôle de tâche sur une tâche du projet, les heures planifiées s’affichent dans le planificateur de ressources pour le rôle de tâche, mais le rôle de tâche ne peut pas être budgété.
+  >   
+  >
 
+* Les utilisateurs affectés aux pools de tâches et de ressources doivent être associés à des planifications et des rôles de tâche.
 
-* Les utilisateurs affectés aux pools de tâches et de ressources doivent disposer de planifications et de rôles de tâche associés à leur profil.
+  Pour plus d’informations sur l’association de planifications et de rôles de tâche avec les utilisateurs, voir [Modification du profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Pour plus d’informations sur l’association de planifications et de rôles de tâche avec les utilisateurs, voir [Modification du profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
-   >[!NOTE]
-   >
-   >Les utilisateurs qui ne sont pas associés à un planning mais qui se trouvent dans le pool de ressources du projet ne peuvent pas être inclus dans le budget du planificateur de ressources.
+  >[!NOTE]
+  >
+  >Les utilisateurs qui ne sont pas associés à un planning mais qui se trouvent dans le pool de ressources du projet ne peuvent pas être inclus dans le budget du planificateur de ressources.
 
 * Pour obtenir des informations précises sur les heures disponibles, assurez-vous que les planifications associées à vos utilisateurs disposent des exceptions de planification et du délai d’expiration mis à jour.
 
-   >[!NOTE]
-   >
-   >Si un utilisateur n’est pas associé à une planification, la planification par défaut de votre système Workfront est associée à l’utilisateur par défaut, aux fins du planificateur de ressources.
+  >[!NOTE]
+  >
+  >Si un utilisateur n’est pas associé à une planification, la planification par défaut de votre système Workfront est associée à l’utilisateur par défaut, aux fins du planificateur de ressources.
 
-   Pour plus d’informations sur la création de plannings, voir l’article [Création d’un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Pour plus d’informations sur la création de plannings, voir l’article [Création d’un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Si vous souhaitez répartir les ressources par coût, vous devez associer les rôles de tâche à coût/heure. les taux. Le coût associé aux rôles de tâche affectés aux utilisateurs dans vos pools de ressources est utilisé pour calculer le coût de la main-d’oeuvre budgété et le coût budgété du projet.\
-   Pour plus d’informations sur l’association de rôles de tâche à des taux, reportez-vous à l’article [Création et gestion des rôles de tâche](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-   Pour plus d’informations sur le calcul du coût de la main-d’oeuvre budgétisée, consultez l’article . [Présentation de l’option Coût de la main-d’oeuvre budgétisé et heures budgétisées pour les projets](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
-   Pour plus d’informations sur le calcul du coût budgété, voir l’article [Calcul du coût budgété](../../manage-work/projects/project-finances/budgeted-cost.md).
+  Pour plus d’informations sur l’association de rôles de tâche à des taux, consultez l’article [Création et gestion des rôles de tâche](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+  Pour plus d’informations sur le calcul du coût de la main-d’oeuvre budgétisée, consultez l’article . [Présentation de l’option Coût de la main-d’oeuvre budgétisée et heures budgétisées pour les projets](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
+  Pour plus d’informations sur le calcul du coût budgété, voir l’article [Calcul du coût budgété](../../manage-work/projects/project-finances/budgeted-cost.md).
 
 ### Conditions préalables du projet {#project-prerequisites}
 
 Assurez-vous que la configuration de projet suivante existe avant de commencer à utiliser le planificateur de ressources :
 
 * Vos projets sont associés à des pools de ressources.\
-   Pour plus d’informations sur l’ajout de pools de ressources aux projets, voir [Association des pools de ressources aux projets et aux modèles](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+  Pour plus d’informations sur l’ajout de pools de ressources aux projets, voir [Association des pools de ressources aux projets et aux modèles](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
 
-   >[!IMPORTANT]
-   >
-   >Les projets sans pools de ressources n’affichent pas les informations Heure planifiée ou Affectations dans le planificateur de ressources.
+  >[!IMPORTANT]
+  >
+  >Les projets sans pools de ressources n’affichent pas les informations Heure planifiée ou Affectations dans le planificateur de ressources.
 
 ### Tâches et problèmes préalables {#tasks-and-issues-prerequisites}
 
@@ -168,19 +169,19 @@ Assurez-vous que la tâche et la configuration de problème suivantes existent a
    * Utilisateurs des pools de ressources du projet qui sont également associés aux rôles de tâche
    * Fonctions
 
-   >[!NOTE]
-   >
-   >Les heures planifiées des tâches et problèmes affectés aux rôles de tâche s’affichent dans le planificateur de ressources, mais ces heures ne peuvent pas être budgétées, sauf si un utilisateur associé au rôle de tâche est répertorié dans un pool de ressources associé au projet.
+  >[!NOTE]
+  >
+  >Les heures planifiées des tâches et problèmes affectés aux rôles de tâche s’affichent dans le planificateur de ressources, mais ces heures ne peuvent pas être budgétées, sauf si un utilisateur associé au rôle de tâche est répertorié dans un pool de ressources associé au projet.
 
 * Vous ne devez pas affecter de tâches parentes aux utilisateurs ou aux rôles.
 
-   Pour afficher les informations sur l’heure dans le planificateur de ressources pour les utilisateurs ou les rôles associés aux tâches parents, vous devez également les affecter aux tâches enfants. Le planificateur de ressources n’affiche pas les informations des tâches parents.
+  Pour afficher les informations sur l’heure dans le planificateur de ressources pour les utilisateurs ou les rôles associés aux tâches parents, vous devez également les affecter aux tâches enfants. Le planificateur de ressources n’affiche pas les informations des tâches parents.
 
 * Les tâches et les problèmes ont une valeur pour les heures planifiées qui est supérieure à zéro.
 * Les tâches et les problèmes ont une valeur pour leur durée supérieure à zéro.
 * Les dates prévues des problèmes sont dans le calendrier du projet.
 
-### Conditions préalables au niveau du système {#system-level-prerequisites}
+### Conditions préalables au niveau système {#system-level-prerequisites}
 
 Vous devez comprendre comment votre instance de Workfront calcule la disponibilité de l’utilisateur en fonction des préférences de gestion des ressources de votre système. Workfront peut calculer la disponibilité de l’utilisateur à l’aide du planning de l’utilisateur tel que défini dans sa page Profil utilisateur ou dans la Planification par défaut de votre système.
 
@@ -196,7 +197,7 @@ Pour plus d’informations, voir [Configuration des préférences de gestion des
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This became another standalone article; drfat this section here when article is live.)</p>
 -->
 
-Vous pouvez localiser le planificateur de ressources dans deux zones de Workfront, selon que vous souhaitez budgétiser vos ressources pour plusieurs projets ou pour un seul projet.
+Vous pouvez localiser le planificateur de ressources dans deux zones de Workfront, selon que vous souhaitez budgéter vos ressources pour plusieurs projets ou pour un seul projet.
 
 Pour plus d’informations sur la localisation du planificateur de ressources, voir [Localisation du planificateur de ressources](../../resource-mgmt/resource-planning/locate-resource-planner.md).
 
@@ -252,7 +253,7 @@ Vous pouvez afficher les valeurs de disponibilité, d’affectation et de planif
 
 Pour plus d’informations sur la modification des informations que vous affichez dans le planificateur de ressources, consultez la section [Affichage des informations par heure, ETR ou coût](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) dans l’article [Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-Pour plus d’informations sur le calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans Workfront, reportez-vous à l’article . [Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Pour plus d’informations sur le calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans Workfront, consultez l’article . [Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ## Calcul des coûts dans le planificateur de ressources
 
@@ -273,7 +274,7 @@ Tenez compte des points suivants lors de l’affichage des informations par coû
 * Le coût planifié est affecté par le type de coût des tâches sur les projets.
 * Lors de l’application de la vue utilisateur au planificateur de ressources, vous ne pouvez pas afficher les informations d’affectation et de disponibilité par coût.
 
-Pour plus d’informations sur la façon dont les coûts sont calculés dans le planificateur de ressources pour les utilisateurs et les rôles, consultez l’article . [Calcul des coûts dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Pour plus d’informations sur le mode de calcul des coûts dans le planificateur de ressources pour les utilisateurs et les rôles, consultez l’article . [Calcul des coûts dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -2,19 +2,19 @@
 product-area: resource-management
 keywords: work,équipe,service,ressources
 navigation-topic: the-workload-balancer
-title: Localisation de l’équilibreur de charge de travail
+title: Localisation de l’équilibreur de charge
 description: Vous pouvez utiliser l’équilibreur de charge de travail pour planifier des ressources ou revoir leur disponibilité et leurs affectations actuelles.
 author: Alina
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 1%
+source-wordcount: '764'
+ht-degree: 0%
 
 ---
 
-# Localisation de l’équilibreur de charge de travail
+# Localisation de l’équilibreur de charge
 
 
 Vous pouvez utiliser l’équilibreur de charge de travail pour planifier des ressources ou revoir leur disponibilité et leurs affectations actuelles.
@@ -32,12 +32,11 @@ Cet article décrit les zones où vous pouvez accéder à l’équilibreur de ch
 >
 >Pour plus d’informations sur l’équilibreur de charge de travail et sur son utilisation pour gérer et planifier vos ressources pour le travail, consultez les articles suivants :
 >
->* [Présentation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+>* [Présentation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 >* [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 >
-
 
 ## Exigences d’accès
 
@@ -49,11 +48,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource</p>
+   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource .</p>
    <p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
  </td> 
   </tr> 
@@ -64,14 +63,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
      <li> <p>Tâches</p> </li> 
-     <li> <p>Événements</p> </li> 
+     <li> <p>Problèmes</p> </li> 
     </ul> <p><b> NOTE</b>
 
 Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations ou des autorisations supérieures pour les projets, les tâches et les problèmes </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage des autorisations ou des autorisations supérieures pour les projets, tâches et problèmes </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,10 +90,10 @@ Les sections suivantes illustrent où vous pouvez accéder à l’équilibreur d
 
    L’équilibreur de charge de travail affiche par défaut les informations suivantes dans la zone Ressource :
 
-   * **Travail non attribué**: Aucune tâche non attribuée.
-   * **Travail attribué**: Tous les principaux utilisateurs du système.
+   * **Travail non attribué**: aucune tâche non attribuée.
+   * **Travail assigné**: tous les utilisateurs actifs du système.
 
-      Il est recommandé d’utiliser des filtres lors de l’affichage des utilisateurs dans la zone de travail affectée. Pour plus d’informations, voir [Filtrage des informations dans l’équilibreur de charge de travail](../workload-balancer/filter-information-workload-balancer.md).
+     Il est recommandé d’utiliser des filtres lors de l’affichage des utilisateurs dans la zone de travail affectée. Pour plus d’informations, voir [Filtrage des informations dans l’équilibreur de charge de travail](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Accès à l’équilibreur de charge de travail d’une équipe
 
@@ -107,12 +106,12 @@ La page de votre équipe d’accueil s’affiche.
 
    L&#39;équilibreur de charge de travail d&#39;une équipe affiche par défaut les informations suivantes :
 
-   * **Travail non attribué**: Éléments affectés à l’équipe et non affectés aux utilisateurs.
-   * **Travail attribué**: Tous les membres de l’équipe avec toutes leurs affectations.
+   * **Travail non attribué**: éléments affectés à l’équipe et non affectés aux utilisateurs.
+   * **Travail assigné**: tous les membres de l’équipe avec toutes leurs affectations.
 
-      >[!TIP]
-      >
-      >Les membres de l’équipe peuvent être affectés à la tâche également affectée à l’équipe ou à celle affectée à d’autres équipes ou rôles.
+     >[!TIP]
+     >
+     >Les membres de l’équipe peuvent être affectés à la tâche également affectée à l’équipe ou à celle affectée à d’autres équipes ou rôles.
 
 
 
@@ -128,12 +127,12 @@ La page de votre équipe d’accueil s’affiche.
 
    L’équilibreur de charge de travail d’un projet affiche les informations suivantes par défaut :
 
-   * **Travail non attribué**: Éléments du projet qui sont affectés à des rôles de tâche ou à des équipes et qui ne sont pas affectés aux utilisateurs.
-   * **Travail attribué**: Utilisateurs affectés aux éléments du projet.
+   * **Travail non attribué**: éléments du projet qui sont affectés à des rôles de tâche ou à des équipes et qui ne sont pas affectés aux utilisateurs.
+   * **Travail assigné**: utilisateurs affectés aux éléments du projet.
 
-      >[!TIP]
-      >
-      >Vous pouvez afficher tous les utilisateurs du système au lieu de seulement ceux du projet (dans la zone de travail Affecté) en activant l’option Afficher tous les utilisateurs . Pour plus d’informations, voir [Navigation dans l’équilibreur de charge de travail](../workload-balancer/navigate-the-workload-balancer.md).
+     >[!TIP]
+     >
+     >Vous pouvez afficher tous les utilisateurs du système au lieu de seulement ceux du projet (dans la zone de travail Affecté) en activant l’option Afficher tous les utilisateurs . Pour plus d’informations, voir [Navigation dans l’équilibreur de charge de travail](../workload-balancer/navigate-the-workload-balancer.md).
 
 
 ## Ajout de l’équilibreur de charge de travail à une section personnalisée

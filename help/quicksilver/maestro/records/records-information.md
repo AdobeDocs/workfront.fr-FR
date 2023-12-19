@@ -1,13 +1,13 @@
 ---
-title: Enregistrements d’informations
+title: "Enregistrements : index de l’article"
 description: Après avoir créé des types d’enregistrement dans Adobe Manager, vous pouvez créer des enregistrements individuels de ces types. Les articles suivants décrivent comment créer et gérer des enregistrements dans Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ hide: yes
 ---
 -->
 
-# Enregistrements d’informations
+# Enregistrements : index de l’article
 
 >[!IMPORTANT]
 >
@@ -45,3 +45,4 @@ Les articles suivants décrivent comment créer et gérer des enregistrements da
 * [Suppression d’enregistrements](../records/delete-records.md)
 * [Partage d’enregistrements](../records/share-records.md)
 * [Connexion d’enregistrements](../records/connect-records.md)
+* [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md)

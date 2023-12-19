@@ -1,40 +1,42 @@
 ---
 title: Gestion des commentaires d’enregistrement
-description: Vous pouvez collaborer sur les enregistrements Adobe Maestro en ajoutant des mises à jour et en posant des questions ou des réponses dans la zone Commentaires d’un enregistrement.
+description: Vous pouvez collaborer sur les enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans la zone Commentaires d’un enregistrement.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 # Gestion des commentaires d’enregistrement
 
-Vous pouvez collaborer sur les enregistrements Adobe Maestro en ajoutant des mises à jour et en posant des questions ou des réponses dans la zone Commentaires d’un enregistrement.
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. </span>
+
+<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+Vous pouvez collaborer sur les enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans la zone Commentaires d’un enregistrement.
 
 ## Remarques concernant les commentaires sur un enregistrement
 
 * Vous pouvez ajouter des commentaires et des réponses aux dossiers et taxonomies opérationnels dans Maestro, dans la section Commentaires d’un enregistrement.
 
-* Les commentaires ajoutés aux enregistrements liés ne s’affichent pas dans les enregistrements à partir desquels vous créez un lien. Par exemple, si vous commentez un projet lié à un enregistrement Campaign, le commentaire s’affiche uniquement sur l’enregistrement du projet dans Maestro et non sur l’enregistrement de campagne à partir duquel vous liez.
+* Les commentaires ajoutés aux enregistrements liés ne s’affichent pas dans les enregistrements à partir desquels vous créez un lien. Par exemple, si vous commentez un enregistrement de produit Maestro lié à un enregistrement de campagne, le commentaire s’affiche uniquement sur l’enregistrement de produit dans Maestro et non sur l’enregistrement de campagne à partir duquel vous liez.
 
-* Les commentaires ajoutés aux objets liés dans d’autres applications ne s’affichent pas dans Maestro.
-Les commentaires ajoutés aux objets liés dans Maestro ne s’affichent pas dans d’autres applications.\
-  Par exemple, les commentaires ajoutés aux projets dans Workfront ne s’affichent pas sur le même projet lié à une campagne dans Maestro.
+* Vous pouvez ajouter des commentaires aux enregistrements Maestro créés suite à une connexion entre un enregistrement Maestro et un objet provenant d’une autre application.
 
-* Vous pouvez marquer les utilisateurs pour attirer leur attention sur une mise à jour. Les utilisateurs balisés ne reçoivent pas de notification in-app ni d’e-mail concernant votre mise à jour. Vous ne pouvez pas baliser les équipes dans un commentaire Maestro.
+  Par exemple, vous pouvez ajouter des commentaires à l’enregistrement Project Manager après avoir connecté les projets Workfront aux enregistrements Maestro. Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
 
-  >[!TIP]
-  >
-  >* Les propriétaires de commentaires ne sont pas automatiquement balisés dans une mise à jour.
-  >
-  >* Vous ne pouvez pas supprimer des utilisateurs balisés d’une mise à jour lorsque vous y répondez.
+* Les commentaires ajoutés aux objets liés dans d’autres applications ne s’affichent pas dans Maestro et les commentaires ajoutés aux objets liés dans Maestro ne s’affichent pas dans d’autres applications.
+
+  Par exemple, les commentaires ajoutés aux projets dans Workfront ne s’affichent pas sur le même projet lié à une campagne dans Maestro, et les commentaires ajoutés à l’enregistrement du projet Maestro ne s’affichent pas dans Workfront.
+
+* Vous pouvez marquer les utilisateurs pour attirer leur attention sur une mise à jour. Les utilisateurs balisés ne reçoivent pas de notification in-app ni d’e-mail concernant votre mise à jour. <!--this might change??-->
 
 * Vous pouvez ajouter une mise à jour aux enregistrements des zones suivantes de Maestro :
 
@@ -140,27 +142,15 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
 
 -->
 
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ### Gestion des commentaires sur les enregistrements
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/dots-main-menu.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Maestro]**.
+{{step1-to-maestro}}
 
-   Le dernier espace de travail ouvert par défaut.
+Le dernier espace de travail ouvert par défaut.
 1. Choisissez une vue de tableau parmi les **Affichage** menu déroulant.
 1. Cliquez sur le nom d’un enregistrement dans la vue de tableau.
 
-   Le record **Détails** s’ouvre.
+   Le record **Détails** s’ouvre. La zone Commentaires s’ouvre par défaut dans le panneau de droite.
 
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
@@ -197,9 +187,9 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
    >
    >Les commentaires de l’année en cours n’affichent pas l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, y compris l’année.
 
-1. (Facultatif et conditionnel) Pour rechercher un commentaire existant, commencez à saisir un mot-clé dans la zone de recherche située dans le coin supérieur droit du champ **Commentaires** zone.
+1. <span class="preview">(Facultatif et conditionnel) Pour rechercher un commentaire existant, commencez à saisir un mot-clé dans la zone de recherche située dans le coin supérieur droit du champ **Commentaires** zone.</span>
 
-   ![](assets/search-box-for-comments-area.png)
+   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
 
 1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la variable **Ajouter une réponse ...** , pour répondre à un commentaire existant, puis suivez les étapes 4 à 8 ci-dessus. <!--(**************accurate??***********)-->
 

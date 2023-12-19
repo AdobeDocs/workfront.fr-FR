@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
-title: Création d’une équipe agile
+title: Créer une équipe agile
 description: Adobe Workfront permet aux équipes agiles d’effectuer leur travail de manière progressive et organisée.
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
-# Création d’une équipe agile
+# Créer une équipe agile
 
 [!DNL Adobe Workfront] permet aux équipes agiles de terminer le travail de manière progressive et organisée.
 
@@ -21,9 +21,9 @@ Tout utilisateur de l’entreprise peut voir l’équipe agile et afficher tous 
 
 [!DNL Workfront] prend en charge les méthodologies agile suivantes :
 
-* **[!UICONTROL Scrum]**: Les équipes ont un retard de travail à faire. Lorsque l’équipe est prête à travailler sur un bloc de travail spécifique, le travail est déplacé du journal en souffrance vers une itération. Pour plus d’informations sur la gestion d’une équipe Scrum, voir [Scrum dans une équipe agile](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
+* **[!UICONTROL Scrum]**: les équipes ont un retard de travail à faire. Lorsque l’équipe est prête à travailler sur un bloc de travail spécifique, le travail est déplacé du journal en souffrance vers une itération. Pour plus d’informations sur la gestion d’une équipe Scrum, voir [Scrum dans une équipe agile](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
-* **[!UICONTROL Kanban]:** Les équipes déplacent le travail dans la vue Kanban à travers des états prédéterminés. Les états par défaut sont les suivants : backlog, en cours de traitement et terminé. Pour plus d’informations sur la gestion d’une équipe Kanban, voir [Kanban dans une équipe agile](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
+* **[!UICONTROL Kanban]:** Les équipes déplacent le travail dans la vue Kanban à travers des états prédéterminés. Les états par défaut sont les suivants : en retard, en cours de traitement et terminé. Pour plus d’informations sur la gestion d’une équipe Kanban, voir [Kanban dans une équipe agile](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Exigences d’accès
 
@@ -37,11 +37,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Planifier] pour créer une équipe agile. [!UICONTROL Travail] ou version ultérieure pour convertir une équipe en équipe agile</p> </td> 
+   <td> <p>[!UICONTROL Planifier] pour créer une équipe agile ; [!UICONTROL Travailler] ou une équipe ultérieure pour la convertir en équipe agile</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Méthodes agiles Scrum et Kanban [!DNL Workfront] Les différences sont les suiv
 
 ### Avantages de Kanban dans [!DNL Workfront]
 
-Le [!DNL Kanban] la méthodologie agile [!DNL Workfront] vous permet de déplacer plus facilement les articles sur un panorama agile tout en limitant la quantité de travail en cours. Il n’existe aucune date de début et de fin lors de l’utilisation de la variable [!DNL Kanban] méthodologie agile.
+La variable [!DNL Kanban] la méthodologie agile [!DNL Workfront] vous permet de déplacer plus facilement les articles sur un panorama agile tout en limitant la quantité de travail en cours. Il n’existe aucune date de début et de fin lors de l’utilisation de la variable [!DNL Kanban] méthodologie agile.
 
 Les fonctionnalités suivantes prennent en charge cette méthodologie :
 
@@ -77,13 +77,13 @@ La méthodologie Scrum agile [!DNL Workfront] vous permet d’ajouter un ensembl
 
 Les fonctionnalités suivantes prennent en charge cette méthodologie :
 
-* Inclure les problèmes sur le [!UICONTROL Scrum] page
+* Inclure les problèmes sur la variable [!UICONTROL Scrum] page d’article
 * Inclure les problèmes sur le journal d’une équipe agile
-* Les sous-tâches peuvent s’afficher sur la [!UICONTROL Scrum] page
+* Les sous-tâches peuvent s’afficher sur la [!UICONTROL Scrum] page d’article
 * Affichage d’un graphique de condensation pour voir la progression par rapport aux histoires lors de l’itération\
    Pour plus d’informations, voir [Présentation du graphique en décharge agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-## Création d’une équipe agile
+## Créer une équipe agile
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Équipes]**.
 1. Cliquez sur le bouton **[!UICONTROL Changer d’équipe]** icon ![Icône Changer l’équipe](assets/switch-team-icon.png), puis cliquez sur **[!UICONTROL Créer une équipe]**.
@@ -136,10 +136,10 @@ Vous pouvez convertir une équipe existante en équipe agile :
 
 1. Sélectionnez l’équipe que vous souhaitez convertir en équipe agile.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.\
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Plan] ou [!UICONTROL Travail] voir cette option.\
+   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.\
    ![](assets/edit-team-settings-350x205.png)
 
-1. Dans le **[!UICONTROL Agile]** , sélectionnez **[!UICONTROL C&#39;est une équipe agile]**.
+1. Dans le **[!UICONTROL Agile]** , sélectionnez **[!UICONTROL Voici une équipe agile]**.
 
 1. Dans le **[!UICONTROL Méthodologie]** , choisissez si l’équipe utilisera une **[!UICONTROL Scrum]** ou **[!UICONTROL Kanban]** méthodologie agile.
 

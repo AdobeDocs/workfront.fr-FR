@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Accédez aux articles suivants pour une présentation d’Adobe Maestro :
 
 Les sections suivantes contiennent des articles qui décrivent en détail les fonctionnalités de Maestro actuellement disponibles :
 
-* [Informations d’accès](../maestro/access/access-information.md): informations sur l’accès et les autorisations nécessaires pour utiliser Adobe Maestro.
-* [Informations sur l’architecture](../maestro/architecture/architecture-information.md): informations détaillées sur l’architecture d’Adobe Maestro, avec des instructions détaillées sur la création et la gestion des espaces de travail et des types d’enregistrement.
-* [Informations sur les champs](../maestro/fields/fields-information.md): informations détaillées et instructions détaillées sur la création de champs personnalisés pour les types d’enregistrements Maestro.
-* [Enregistrements d’informations](../maestro/records/records-information.md): informations détaillées et instructions détaillées sur la création et la gestion des enregistrements.
-* [Informations sur les vues](../maestro/views/views-information.md): informations détaillées sur les vues Maestro et comment les gérer lors de l’affichage d’enregistrements dans une page de type enregistrement.
+* [Accès : index des articles](../maestro/access/access-information.md): informations sur l’accès et les autorisations nécessaires pour utiliser Adobe Maestro.
+* [Architecture : index des articles](../maestro/architecture/architecture-information.md): informations détaillées sur l’architecture d’Adobe Maestro, avec des instructions détaillées sur la création et la gestion des espaces de travail et des types d’enregistrement.
+* [Champs : index de l’article](../maestro/fields/fields-information.md): informations détaillées et instructions détaillées sur la création de champs personnalisés pour les types d’enregistrements Maestro.
+* [Enregistrements : index de l’article](../maestro/records/records-information.md): informations détaillées et instructions détaillées sur la création et la gestion des enregistrements.
+* [Vues : index de l’article](../maestro/views/views-information.md): informations détaillées sur les vues Maestro et comment les gérer lors de l’affichage d’enregistrements dans une page de type enregistrement.

@@ -7,9 +7,9 @@ description: La gestion des ressources vous permet de configurer votre système 
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Le processus de gestion des ressources dans Workfront comprend les étapes suiva
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **Analyse**: en tant que responsable des ressources, responsable de projet ou responsable de personnes, consultez le rapport d’utilisation pour comparer les affectations planifiées et budgétées de vos ressources aux affectations réelles. Consultez les informations par heures, coût ou recettes. Pour plus d’informations sur le rapport Utilisation, voir [Affichage des informations sur l’utilisation des ressources](../../resource-mgmt/resource-utilization/view-utilization-information.md).
@@ -169,7 +169,7 @@ Pour plus d’informations sur les exigences de chaque outil de gestion des ress
 
 * La section [Conditions préalables pour travailler dans le planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) dans l’article [Présentation de Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* La section [Bonnes pratiques relatives à l’utilisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) dans l’article [Présentation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* La section [Bonnes pratiques relatives à l’utilisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) dans l’article [Présentation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Accès aux ressources de budget nécessaires dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

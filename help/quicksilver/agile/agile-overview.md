@@ -7,9 +7,9 @@ description: Agile est une méthodologie de travail qui permet aux équipes d'ef
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 867da7dd9d8b13f13e816c20ccd9a8a96ab04eb8
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,23 @@ Agile est une méthodologie de travail qui permet aux équipes d&#39;effectuer d
 
 [!DNL Workfront] Les panoramas sont des outils simples mais flexibles pour la collaboration en équipe. Pour plus d’informations sur les panoramas, voir [Présentation des panoramas](../agile/boards-overview.md).
 
-D’autres outils avancés d’équipe mobile utilisent Kanban ou Scrum. Pour plus d’informations sur les méthodologies Kanban et Scrum, voir la section [Choix d’une méthodologie agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) dans l’article [Création d’une équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+D’autres outils avancés d’équipe mobile utilisent Kanban ou Scrum. Pour plus d’informations sur les méthodologies Kanban et Scrum, voir la section [Choix d’une méthodologie agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) dans l’article [Créer une équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 Pour commencer à utiliser la version agile avancée de Workfront :
 
 1. Créez une équipe agile.
 
-   Pour plus d’informations, voir la section [Création d’une équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#creating-an-agile-team-from-scratch) ou [Convertir une équipe existante en équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) dans l’article [Création d’une équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+   Pour plus d’informations, voir la section [Créer une équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) ou [Convertir une équipe existante en équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) dans l’article [Créer une équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 1. Configurez l’équipe agile pour utiliser Kanban ou Scrum.
 
    Pour plus d’informations, voir [Configurer Kanban](../agile/get-started-with-agile-in-workfront/configure-kanban.md) ou [Configuration de Scrum](../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Les équipes de Kanban : Gérez le journal en souffrance et créez le [!UICONTROL Kanban] panorama.
+1. Les équipes de Kanban : gérez le journal et créez le fichier [!UICONTROL Kanban] panorama.
 
    Pour plus d’informations, voir [Gestion du journal en souffrance agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) et [Présentation de Kanban](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
 
-1. Equipes de script : Gérez le journal des travaux, créez une itération et créez le [!UICONTROL Scrum] panorama.
+1. Equipes de script : gérez le journal en attente, créez une itération et créez la variable [!UICONTROL Scrum] panorama.
 
    Pour plus d’informations, voir [Gestion du journal en souffrance agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Présentation des itérations](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md), et [Aperçu du panneau de défilement](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
