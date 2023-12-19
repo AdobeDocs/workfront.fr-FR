@@ -6,7 +6,7 @@ description: Vous pouvez accéder à [!DNL Adobe Workfront] de [!DNL Microsoft T
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: ea7379df385f0ca8a11b35b95df9dd0927f21716
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 1%
@@ -14,6 +14,10 @@ ht-degree: 1%
 ---
 
 # Accès [!DNL Adobe Workfront] de [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>L’intégration d’Adobe Workfront for Microsoft Teams n’est actuellement prise en charge que pour l’expérience de Microsofts Teams classiques.
 
 Vous pouvez accéder à [!DNL Adobe Workfront] de [!DNL Microsoft Teams] et effectuez plusieurs actions dans [!DNL Workfront] en saisissant des commandes dans l’une des options suivantes : [!DNL Workfront] canal robot ou tout autre canal d’équipe.
 
@@ -40,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -55,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Vous pouvez créer des tâches personnelles dans [!DNL Adobe Workfront] de [!DNL Microsoft Teams] si les conditions suivantes sont remplies :
 
-* Un propriétaire d’équipe a été installé et configuré. [!DNL Workfront for Microsoft Teams] pour votre équipe.
+* Un propriétaire d’équipe a installé et configuré [!DNL Workfront for Microsoft Teams] pour votre équipe.
 * Vous êtes connecté [!DNL Workfront] de [!DNL Microsoft Teams].
 
 ## Accès [!DNL Workfront] de la [!DNL Workfront] canal de conversation de robot
@@ -79,9 +83,9 @@ Vous pouvez créer des tâches personnelles dans [!DNL Adobe Workfront] de [!DNL
 
    * Accès [!DNL Workfront] directement en tapant une commande dans la fonction **[!UICONTROL Saisissez vos questions ici]** champ .
 
-      Les commandes ne sont pas sensibles à la casse.
+     Les commandes ne respectent pas la casse.
 
-      Le [!DNL Workfront] le robot répond avec votre requête dans la variable [!DNL Workfront] Chaîne de conversation des robots.
+     La variable [!DNL Workfront] le robot répond avec votre requête dans la variable [!DNL Workfront] Chaîne de conversation des robots.
 
 ## Accès [!DNL Workfront] depuis un canal d’équipe
 
@@ -95,13 +99,13 @@ Vous pouvez créer des tâches personnelles dans [!DNL Adobe Workfront] de [!DNL
    Les commandes ne sont pas sensibles à la casse :
 
    * **[!UICONTROL Connexion]** pour vous connecter à [!DNL Workfront]
-   * **[!DNL Log out]** Déconnexion de Workfront
+   * **[!DNL Log out]** pour vous déconnecter de Workfront
    * **[!DNL New task]** pour créer une tâche personnelle
 
-      Pour plus d’informations sur la création de tâches à partir de [!DNL Microsoft Teams], voir [Créer [!DNL Adobe Workfront] tâches depuis [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     Pour plus d’informations sur la création de tâches à partir de [!DNL Microsoft Teams], voir [Créer [!DNL Adobe Workfront] tâches depuis [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL Aide]** pour afficher une liste de toutes les commandes disponibles.
 
-      Le [!DNL Workfront] le robot répond avec votre requête dans la variable [!DNL Workfront] Chaîne de conversation des robots.
+     La variable [!DNL Workfront] le robot répond avec votre requête dans la variable [!DNL Workfront] Chaîne de conversation des robots.
 
-1. Accédez au [!DNL Workfront] Chaîne de conversation de robot pour accéder à [!DNL Workfront] et effectuez votre demande.
+1. Accédez au [!DNL Workfront] Chaîne de discussion de robots pour accéder à [!DNL Workfront] et effectuez votre demande.

@@ -6,14 +6,18 @@ description: Une fois que le propriétaire de votre équipe a installé Adobe Wo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 1%
+source-wordcount: '517'
+ht-degree: 0%
 
 ---
 
 # Envoyer [!DNL Adobe Workfront] de [!DNL Microsoft] Équipes
+
+>[!NOTE]
+>
+>L’intégration d’Adobe Workfront for Microsoft Teams n’est actuellement prise en charge que pour l’expérience de Microsofts Teams classiques.
 
 Une fois que le propriétaire de votre équipe a installé [!DNL Adobe Workfront for Microsoft Teams], vous pouvez envoyer des [!DNL Workfront] de votre [!DNL Microsoft Teams] compte . Pour ce faire, vous devez disposer d’un compte Workfront ayant accès aux requêtes d’envoi. Pour plus d’informations sur l’installation [!DNL Workfront for Microsoft Teams], voir [Installation [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
@@ -32,7 +36,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -96,11 +100,11 @@ Votre [!DNL Microsoft Teams] le propriétaire de l’équipe doit installer [!DN
 
    Vous pouvez afficher les informations suivantes sur vos requêtes envoyées dans le [!UICONTROL Mes requêtes envoyées] de la zone [!UICONTROL Demandes] tab :
 
-   * **[!UICONTROL Objet]**: Nom de la requête
+   * **[!UICONTROL Objet]**: nom de la requête.
    * **[!UICONTROL Numéro de référence]**
-   * **[!UICONTROL Type de requête]**: Nom de la file d’attente de demandes dans laquelle vous avez envoyé la demande.
-   * **[!UICONTROL Statut]**
-   * **[!UICONTROL Envoyé le]**: Date à laquelle vous avez envoyé la demande
+   * **[!UICONTROL Type de requête]**: nom de la file d’attente de requêtes dans laquelle vous avez envoyé la requête.
+   * **[!UICONTROL État]**
+   * **[!UICONTROL Envoyé le]**: date à laquelle vous avez envoyé la demande.
    * **[!UICONTROL Affecté à]**
 
 1. (Facultatif) Cliquez sur l’en-tête de l’une des colonnes de la liste pour trier la liste selon cette colonne. Par défaut, [!DNL Workfront] trie la liste en fonction de la variable [!UICONTROL Envoyé le] date, en commençant par la dernière requête envoyée.

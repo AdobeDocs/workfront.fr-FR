@@ -6,14 +6,18 @@ description: Vous pouvez recevoir des notifications de [!DNL Adobe Workfront] su
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
 
 # Gérer [!DNL Adobe Workfront] notifications dans [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>L’intégration d’Adobe Workfront for Microsoft Teams n’est actuellement prise en charge que pour l’expérience de Microsofts Teams classiques.
 
 Vous pouvez recevoir des notifications de [!DNL Adobe Workfront] sur les éléments que vous devez approuver, les affectations que vous avez reçues ou les commentaires et modifications apportés aux éléments auxquels vous êtes associé.
 
@@ -34,7 +38,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
