@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 51db439995430dad86e41190520824743216df69
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '2646'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -611,8 +611,8 @@ Ce module d’action crée une activité AB ou XT, une offre ou une audience.
       <td>
         <p>Activez le bouton d’activation/désactivation pour créer des règles ET, en d’autres termes, toutes les règles doivent être appliquées.</p>
         <p>Pour chaque règle à appliquer à l’audience, cliquez sur <b>[!UICONTROL Ajouter un élément]</b> et saisissez le code JSON de la règle à appliquer. </p>
-        <div class="example"><span class="autonumber"><span><b>Exemple: </b></span></span>
-          <p>Exemples:</p>
+        <div class="example"><span class="autonumber"><span><b>Exemple : </b></span></span>
+          <p>Exemples :</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -649,7 +649,7 @@ Ce module d’action crée une activité AB ou XT, une offre ou une audience.
 
 #### [!UICONTROL Effectuer un appel API personnalisé]
 
-Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Target] API
+Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Target] API.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -693,7 +693,7 @@ Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Target]
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
