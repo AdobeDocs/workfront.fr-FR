@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: En tant qu’administrateur Adobe Workfront, vous pouvez réinitialiser ou supprimer les paramètres de préférences utilisateur pour n’importe quel utilisateur du système Workfront. Les utilisateurs individuels peuvent également réinitialiser leurs propres paramètres de préférences utilisateur.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: ae063189eebb17a3341aabb978ee0f0e03d1e299
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
 # Réinitialisation des préférences d’un utilisateur
+
+<!-- Audited: 12/2023 -->
 
 En tant qu’administrateur Adobe Workfront, vous pouvez réinitialiser ou supprimer les paramètres de préférences utilisateur pour n’importe quel utilisateur du système Workfront.
 
@@ -31,15 +33,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : formule</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +84,7 @@ Lorsque vous réinitialisez les préférences utilisateur, certaines préférenc
   </tr> 
   <tr> 
    <td>Préférences utilisateur</td> 
-   <td> <p>Restauration de la valeur par défaut du système</p> <p>Les notifications par e-mail sont rétablies par défaut sur le système</p> </td> 
+   <td> <p>Restauration de la valeur par défaut du système</p> <p>Les notifications par e-mail sont restaurées aux valeurs par défaut du système.</p> </td> 
   </tr> 
   <tr> 
    <td>Onglets personnalisés définis par l’utilisateur</td> 
@@ -95,9 +99,9 @@ Lorsque vous réinitialisez les préférences utilisateur, certaines préférenc
 
 ## Réinitialisation des préférences utilisateur
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Sélectionner **Connectez-vous en tant que**.
+1. Sélectionner **Connexion en tant que**.
 1. Commencez à saisir le nom de l’utilisateur dont vous souhaitez réinitialiser les préférences, puis cliquez sur le nom qui apparaît dans la liste déroulante.
 1. Sélectionner  **Connexion**.
 1. Dans le champ URL situé en haut de votre navigateur web, ajoutez `/resetUser` after `workfront.com`.
@@ -106,12 +110,9 @@ Lorsque vous réinitialisez les préférences utilisateur, certaines préférenc
    >
    >Ceci est sensible à la casse. L&#39;U doit être majuscule et les autres caractères doivent être en minuscules. Par exemple :
    >
-   >
-   ```
-   >https://company_domain.my.workfront.com/resetUser
-   >```
+   >`https://company_domain.my.workfront.com/resetUser`
 
-1. Press **Entrée**.
+1. Presse **Entrée**.
 1. Pour réinitialiser toutes les préférences utilisateur, sélectionnez **Réinitialiser**.
 
    Ou
