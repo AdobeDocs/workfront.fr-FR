@@ -6,10 +6,10 @@ description: Modification des affectations d’utilisateurs pour plusieurs probl
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 1%
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez simultanément modifier les affectations d’utilisateurs pour plusi
 * [Modification des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Attribuer des problèmes](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Pour obtenir des informations générales sur l’affectation de problèmes, voir [Modification de l’aperçu des affectations de problème](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Pour obtenir des informations générales sur l’affectation de problèmes, voir [Présentation de la modification des affectations de problème](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
@@ -100,7 +100,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sélectionnez les problèmes pour lesquels vous souhaitez modifier les affectations, puis cliquez sur le bouton **Modifier** icon ![](assets/qs-edit-icon.png).
 
-   Le **Modification des problèmes** s’affiche. Les éléments modifiés s’affichent dans le coin supérieur gauche de la page.
+   La variable **Modification des problèmes** s’affiche. Les éléments modifiés s’affichent dans le coin supérieur gauche de la page.
 
 1. Accédez au **Affectations** , puis sélectionnez **Cessionnaire**.
 
@@ -113,33 +113,35 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       1. Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe, puis sélectionnez-le lorsqu’il s’affiche dans la liste. L’affectation est ajoutée et ne remplace pas les affectations actuelles sur les problèmes sélectionnés.
 
          >[!TIP]
-         Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous ne pouvez affecter que des utilisateurs, des rôles de tâche et des équipes principaux.
-         Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
-         * Réaffectez l’élément de travail aux principales ressources.
-         * Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
-
+         >
+         Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous pouvez affecter uniquement les utilisateurs, les rôles de tâche et les équipes actifs.
+         >
+         Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, ils restent affectés à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+         >
+         * Réaffectez la tâche aux ressources actives.
+         * Associez les utilisateurs d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
          Les informations communes à tous les problèmes sélectionnés s’affichent. Par exemple, si le même utilisateur est affecté à tous les problèmes, il s’affiche dans la variable **Cessionnaire** colonne . Si des informations ne sont pas communes aux problèmes sélectionnés, aucune information ne s’affiche.
+
    1. Pour supprimer des personnes désignées :
 
       1. Cliquez sur le bouton **Icône X** en regard du nom de la personne désignée que vous souhaitez supprimer si la personne désignée s’affiche dans la liste Affectations .
 
          Ou
 
-         (Conditionnel) Si la personne désignée à supprimer ne s’affiche pas dans la section Affectations , car elle n’est affectée qu’à certains des problèmes que vous avez sélectionnés, cliquez sur **Supprimer le cessionnaire** et commencez à saisir le nom de la personne désignée à supprimer, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+         (Conditionnel) Si la personne désignée à supprimer ne s’affiche pas dans la section Affectations , car elle n’est affectée qu’à certains des problèmes que vous avez sélectionnés, cliquez sur **Supprimer le cessionnaire** et commencez à saisir le nom de la personne désignée à supprimer, puis cliquez sur le nom qui apparaît dans la liste déroulante.
 
       1. Cliquez sur **Supprimer le cessionnaire** pour ajouter une autre personne désignée à supprimer.
+
    1. Pour supprimer tous les cessionnaires existants :
 
       1. Cliquez sur **Supprimer tous les cessionnaires existants**, puis cliquez sur **Oui, supprimer tous les cessionnaires**.
 
          Cela supprime non seulement les personnes désignées courantes (personnes désignées qui s’affichent dans la boîte de dialogue de modification), mais également toutes les personnes désignées sur tous les problèmes sélectionnés.
 
-
-
 1. (Facultatif) Modifiez l’une des options suivantes pour les personnes désignées que vous avez sélectionnées afin de les associer aux problèmes :
 
    * **Propriétaire du problème :** Sélectionnez le bouton radio pour indiquer la personne désignée comme propriétaire des problèmes. Si cette option n’est pas sélectionnée, Adobe Workfront désigne la première personne désignée comme propriétaire du problème. Cette option n’est pas disponible pour les affectations d’équipe.
-   * **Le rôle du cessionnaire**: Sélectionnez un rôle dans la liste déroulante. Si cette option n’est pas sélectionnée, Workfront sélectionne automatiquement le rôle Principal de l’utilisateur.
+   * **Le rôle du cessionnaire**: sélectionnez un rôle dans la liste déroulante. Si cette option n’est pas sélectionnée, Workfront sélectionne automatiquement le rôle de Principal de l’utilisateur.
 
 1. Cliquez sur **Enregistrer les modifications**.

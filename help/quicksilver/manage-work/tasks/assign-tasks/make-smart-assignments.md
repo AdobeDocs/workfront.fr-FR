@@ -6,14 +6,20 @@ description: Vous pouvez utiliser des affectations intelligentes pour identifier
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Rendre des affectations intelligentes
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
 
 Vous pouvez utiliser des affectations intelligentes pour identifier le meilleur utilisateur à effectuer le travail. Les affectations intelligentes sont des suggestions destinées aux utilisateurs qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour la tâche. Pour plus d’informations sur les affectations intelligentes, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -27,11 +33,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou plus élevé</p> </td> 
+   <td> <p>Nouveau : Standard</p>
+      Ou
+      <p>Actuel : travail ou plus élevé</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -61,7 +69,15 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    * Une tâche ou un problème dans les zones Planification ou Planification
    * Tâche ou problème dans l’équilibreur de charge de travail
 
-1. Placez le curseur dans le champ d’affectation et attendez deux secondes. La ******Suggestions d’affectation** s’affiche.
+1. Placez le curseur dans le champ d’affectation et attendez deux secondes. La variable **Suggestions d’affectation** ou le **Voici quelques recommandations :** s’affiche.
+
+   <!--check the casing for "assignments" should be lower case in task lists??-->
+
+   <!--replace the last sentence above with this when we release smarter assignments:
+   The **Suggested assignments** list displays. 
+   NOTE (********and add preview tags for the note*****)
+   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
+   -->
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 

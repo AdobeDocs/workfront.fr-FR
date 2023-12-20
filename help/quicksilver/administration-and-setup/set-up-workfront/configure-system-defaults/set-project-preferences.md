@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configuration des préférences de projet à l’échelle du système
 description: Comme [!DNL Adobe Workfront] admin, vous pouvez configurer les préférences par défaut pour tous les projets créés dans l’ensemble du système. Ces préférences ont un impact sur le projet, la tâche et le comportement du problème.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 0%
 
 ---
@@ -32,27 +32,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] plan</p></td> 
    <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nouveau : [!UICONTROL Standard]</p>
+   Ou
+   <p>Actuel : formule [!UICONTROL]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>[!UICONTROL Administrateur système]</p> <p><b>REMARQUE</b>:</p><p>Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configuration des préférences de projet pour l’ensemble de l’entreprise
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Projets]**.
 
-1. Sur la page qui s’affiche, passez à l’une des 4 sections répertoriées ci-dessous pour configurer les préférences de [!UICONTROL État du projet], [!UICONTROL Chronologies], [!UICONTROL Analyses de cas], et [!UICONTROL La vie après la mort].
+1. Sur le **Préférences du projet** , continuez avec l’une des 4 sections répertoriées ci-dessous pour configurer les préférences de [!UICONTROL État du projet], [!UICONTROL Chronologies], [!UICONTROL Analyses de cas], et [!UICONTROL La vie après la mort].
 1. Si vous souhaitez que tous les groupes de l’organisation utilisent les mêmes préférences de projet, assurez-vous que chaque préférence est verrouillée. ![](assets/lock-toggle-button.png) (il s’agit de la valeur par défaut).
 
    >[!IMPORTANT]
@@ -112,7 +115,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Définir automatiquement la condition du projet en fonction de l’état de progression]</td> 
-   <td> <p>Cette préférence permet aux utilisateurs de définir manuellement la [!UICONTROL Condition] d’un projet ([!UICONTROL Sur Target], [!UICONTROL À risque], [!UICONTROL À risque], ou d’avoir des [!DNL Workfront] définissez la [!UICONTROL Condition] (État de progression) automatiquement en fonction de la progression du projet dans la chronologie. Pour plus d’informations sur la condition des projets, voir <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Présentation de la condition et du type de condition du projet</a>.</p> </td> 
+   <td> <p>Cette préférence permet aux utilisateurs de définir manuellement la [!UICONTROL Condition] d’un projet sur ([!UICONTROL Sur Target], [!UICONTROL À risque], [!UICONTROL À risque] ou d’avoir la variable [!DNL Workfront] définissez la [!UICONTROL Condition] (État de progression) automatiquement en fonction de la progression du projet dans la chronologie. Pour plus d’informations sur la condition des projets, voir <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Présentation de la condition et du type de condition du projet</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Créer des lignes de base automatiquement]</p> </td> 
@@ -157,7 +160,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
    <td role="rowheader">[!UICONTROL User Time Off]</td> 
    <td> <p>Déterminez si le délai de désactivation du cessionnaire Principal d’une tâche ajuste les dates prévues pour cette tâche sur un projet.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Envisager le temps de pause de l’utilisateur dans les durées de tâche]</strong>: tout temps de congé planifié pour le cessionnaire Principal d’une tâche ajuste les dates planifiées de la tâche si le temps de congé survient pendant la durée de la tâche. Il s’agit du paramètre par défaut. </p> <p>Par exemple, si une tâche avec une contrainte de [!UICONTROL Dès que possible] est planifiée pour commencer le 1er juin et se terminer le 3 juin, et que la personne désignée par le Principal a marqué le 2 juin pour le délai de fin, les dates prévues de la tâche s’ajustent du 1er au 4 juin.</p> <p><b>IMPORTANT</b>: la durée de la tâche ne change pas lorsque vous sélectionnez ce paramètre. Seules les dates planifiées changent, en fonction de la contrainte de tâche.</p> </li> 
+     <li> <p><strong>[!UICONTROL Envisager le temps de pause de l’utilisateur dans les durées de tâche]</strong>: tout temps de congé planifié pour le cessionnaire Principal d’une tâche ajuste les dates planifiées de la tâche si le temps de congé survient pendant la durée de la tâche. Il s’agit du paramètre par défaut. </p> <p>Par exemple, si une tâche avec une contrainte de [!UICONTROL Dès que possible] est planifiée pour commencer le 1er juin et se terminer le 3 juin, et que la personne désignée par le Principal a marqué le 2 juin pour le délai de fin, les dates prévues de la tâche s’ajustent du 1er au 4 juin.</p> <p><b>IMPORTANT</b>:</p> <p>La Durée de la tâche ne change pas lorsque vous sélectionnez ce paramètre. Seules les dates planifiées changent, en fonction de la contrainte de tâche.</p> </li> 
      <li><strong>[!UICONTROL Ignorer le temps de pause de l’utilisateur pendant les tâches]</strong>: les dates prévues de chaque tâche sur un projet restent comme initialement prévues, même si le cessionnaire Principal d’une tâche a un délai d’expiration pendant sa durée.</li> 
     </ul> <p>Tenez compte des points suivants lors de la sélection des options de ce paramètre :</p> 
     <ul> 
@@ -172,7 +175,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Les chronologies de projet seront automatiquement recalculées]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Les chronologies de projet sont automatiquement recalculées]</p> </td> 
    <td> <p>Déterminez quand la chronologie d’un projet est recalculée. Pour plus d’informations sur le nouveau calcul de la chronologie du projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculer les calendriers du projet</a>.</p> <p>Les options suivantes sont activées par défaut. Vous pouvez sélectionner un ou plusieurs des paramètres suivants :</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Chaque nuit]</strong>: sélectionnez cette option pour recalculer les chronologies de projet toutes les nuits. Les modifications que vous apportez au projet susceptibles d’affecter la chronologie ne sont pas immédiatement visibles. [!DNL Workfront​​​] recalcule les chronologies la nuit uniquement pour les projets pour lesquels les deux conditions suivantes sont remplies :</p> <p> 
@@ -185,14 +188,14 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
         <li>Modification uniquement</li>
         <li>Automatique uniquement</li> 
       </ul>       
-    <b>CONSEIL</b>
+    <b>CONSEIL :</b>
     <p>Les projets dont le type de mise à jour est Manuel uniquement ne sont pas affectés par ce paramètre.</p>
     <li> <p><strong>Lorsque la portée d’un projet change</strong>: sélectionnez cette option pour recalculer immédiatement les échéances du projet en cas de changement de portée du projet. Pour plus d’informations sur ce qui constitue un changement de portée d’un projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculer les calendriers du projet</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Lorsque plusieurs utilisateurs sont affectés à une tâche, utilisez le planning de]</p> </td> 
-   <td> <p>Si un planning n’est pas affecté à un projet ou si un planning n’est pas affecté aux utilisateurs affectés à ses tâches, [!DNL Workfront] utilise la planification par défaut du système pour calculer la chronologie des tâches.</p> <p>Si vous affectez plusieurs utilisateurs à la même tâche dans un projet, un planning est affecté à la tâche (et qu’un planning leur est également affecté pour les utilisateurs affectés aux tâches), [!UICONTROL Workfront] utilise les plannings suivants :</p> 
+   <td> <p>Si un planning n’est pas affecté à un projet ou si un planning n’est pas affecté aux utilisateurs affectés à ses tâches, [!DNL Workfront] utilise la planification par défaut du système pour calculer la chronologie des tâches.</p> <p>Si vous affectez plusieurs utilisateurs à la même tâche dans un projet et que le projet comporte un planning affecté et que les utilisateurs affectés aux tâches disposent également d’un planning, [!UICONTROL Workfront] utilise les plannings suivants :</p> 
     <ul> 
      <li><strong>[!UICONTROL Attribution de Principal]</strong>: [!DNL Workfront] utilise le planning de l’affectation de Principal sur la tâche pour calculer les chronologies.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] utilise le planning du projet pour calculer la chronologie de chaque tâche.</li> 
@@ -205,12 +208,12 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
      <li><strong>[!UICONTROL Heures types par jour de travail]</strong>: définissez le nombre d’heures par jour de travail standard pour les utilisateurs qui travailleront sur des projets. La valeur par défaut est de 8 heures.</li> 
     </ul> 
     <ul> 
-     <li><strong>[!UICONTROL Jours de travail standard par semaine]</strong>: définissez la semaine de travail standard pour les utilisateurs qui vont travailler sur des projets. La valeur par défaut est de 5 jours.</li> 
-    </ul> <p>Ces 2 options convertissent les jours en heures ou les semaines en jours.</p> <p>Par exemple, si vous avez une tâche avec 8 heures planifiées et que la durée est calculée en fonction des heures planifiées, [!DNL Workfront] convertit ces heures en jours afin d’afficher la durée en jours.</p> <p>Dans le champ [!UICONTROL jours ouvrables par semaine] , [!DNL Workfront] calcule la valeur de l’équivalent à temps complet (FTE) de votre système. C'est ce qui [!DNL Workfront] utilise lors du calcul des allocations pour les utilisateurs.</p> <p>Ces valeurs sont utilisées lorsque vous planifiez les calendriers des projets, la planification des ressources ou la journalisation du temps par rapport aux projets. </p> <p>Elles ne sont pas utilisées lorsque vous définissez des feuilles de temps pour les utilisateurs du système, comme décrit dans la section <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configuration des préférences de feuille de temps et d’heure dans [!UICONTROL]</a>.</p> <p><b>REMARQUE</b>: [!DNL Workfront] Les administrateurs ne peuvent pas déverrouiller les préférences [!UICONTROL Calculs chronologiques] .</p> </td> 
+     <li><strong>[!UICONTROL Jours de travail standard par semaine]</strong>: définissez la semaine de travail standard pour les utilisateurs qui travaillent sur des projets. La valeur par défaut est de 5 jours.</li> 
+    </ul> <p>Ces 2 options convertissent les jours en heures ou les semaines en jours.</p> <p>Par exemple, si vous avez une tâche avec 8 heures planifiées et que la durée est calculée en fonction des heures planifiées, [!DNL Workfront] convertit ces heures en jours afin d’afficher la durée en jours.</p> <p>Dans le champ [!UICONTROL jours ouvrables par semaine] , [!DNL Workfront] calcule la valeur de l’équivalent à temps complet (FTE) de votre système. C'est ce qui [!DNL Workfront] utilise lors du calcul des allocations pour les utilisateurs.</p> <p>Ces valeurs sont utilisées lorsque vous planifiez les calendriers des projets, la planification des ressources ou la journalisation du temps par rapport aux projets. </p> <p>Elles ne sont pas utilisées lorsque vous définissez des feuilles de temps pour les utilisateurs du système, comme décrit dans la section <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configuration des préférences de feuille de temps et d’heure dans [!UICONTROL]</a>.</p> <p><b>REMARQUE</b>:</p> <p>[!DNL Workfront] Les administrateurs ne peuvent pas déverrouiller les préférences [!UICONTROL Calculs chronologiques] .</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Trimestres personnalisés]</p> </td> 
-   <td> <p>Configurez des trimestres annuels personnalisés pour les utilisateurs qui vont travailler sur des projets. Les trimestres personnalisés sont généralement des trimestres qui ne correspondent pas à la répartition traditionnelle des trimestres au cours d'une année civile. Vous pouvez ajouter plusieurs quartiers personnalisés. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Activation des trimestres personnalisés pour les projets</a>.</p>  <p><b>REMARQUE</b>: [!DNL Workfront] Les administrateurs ne peuvent pas déverrouiller les préférences [!UICONTROL Trimestres personnalisés].</p> </td> 
+   <td> <p>Configurez des trimestres annuels personnalisés pour les utilisateurs qui vont travailler sur des projets. Les trimestres personnalisés sont généralement des trimestres qui ne correspondent pas à la répartition traditionnelle des trimestres au cours d'une année civile. Vous pouvez ajouter plusieurs quartiers personnalisés. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Activation des trimestres personnalisés pour les projets</a>.</p>  <p><b>REMARQUE</b>: </p><p>[!DNL Workfront] Les administrateurs ne peuvent pas déverrouiller les préférences [!UICONTROL Trimestres personnalisés].</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,29 +7,29 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
 
 # Attribuer des problèmes
 
-Vous pouvez affecter des problèmes aux utilisateurs, aux rôles et aux équipes afin d’indiquer qui est responsable de l’exécution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, voir [Modification de l’aperçu des affectations de problème](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Vous pouvez affecter des problèmes aux utilisateurs, aux rôles et aux équipes afin d’indiquer qui est responsable de l’exécution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, voir [Présentation de la modification des affectations de problème](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous ne pouvez affecter que des utilisateurs, des rôles de tâche et des équipes principaux.
+>Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous pouvez affecter uniquement les utilisateurs, les rôles de tâche et les équipes actifs.
 >
 >Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
 >
->* Réaffectez l’élément de travail aux principales ressources.
->* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
+>* Réaffectez la tâche aux ressources actives.
+>* Associez les utilisateurs d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
 En plus de cet article, nous vous recommandons de lire les articles suivants pour plus d’informations sur l’attribution des problèmes :
 
-* [Modification de l’aperçu des affectations de problème](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Présentation de la modification des affectations de problème](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Modification des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Modification des affectations d’utilisateurs pour plusieurs problèmes dans une liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -82,7 +82,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
   Si une tâche ou un problème est assigné à un ou plusieurs rôles, puis que vous affectez également un utilisateur, Adobe Workfront décide quel rôle de tâche associer à l’utilisateur supplémentaire (le cas échéant) selon les règles suivantes :
 
-   * Si un seul rôle de tâche est attribué et qu’il correspond au rôle Principal de l’utilisateur, la tâche ou le problème est affecté uniquement à l’utilisateur qui remplit son rôle Principal.
+   * Si un seul rôle de tâche est attribué et qu’il correspond au rôle de Principal de l’utilisateur, la tâche ou le problème est affecté uniquement à l’utilisateur qui remplit son rôle de Principal.
    * Si plusieurs rôles sont affectés et qu’au moins un des rôles correspond aux rôles secondaires de l’utilisateur, la tâche ou le problème est alors assigné à l’utilisateur qui remplit l’un de ses Autres rôles — que Workfront sélectionne au hasard s’il existe plusieurs correspondances — ainsi que les rôles supplémentaires affectés.
    * Si un ou plusieurs rôles de tâche sont affectés et qu’il n’y a aucune correspondance avec les rôles de l’utilisateur, la tâche ou le problème est affecté à la fois au rôle ou aux rôles ainsi qu’à l’utilisateur.
 
@@ -120,15 +120,15 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
-   * (Conditionnel) Cliquez sur l’un des noms de la **Suggestions d’affectation** list
+   * (Conditionnel) Cliquez sur l’un des noms de la section **Suggestions d’affectation** list
    * Cliquez sur **M&#39;affecter** pour l’affecter à vous-même
-   * Cliquez sur **Avancé**
+   * Cliquez sur **Avancé**.
 
      La création d’affectations avancées est similaire pour les tâches et les problèmes. Pour plus d’informations sur la façon d’effectuer des affectations avancées, voir [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
      >[!TIP]
      >
-     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
      >
      >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
      >
@@ -147,7 +147,7 @@ Selon le champ visible dans la vue, vous pouvez affecter les entités suivantes 
 | Option | Entités affectées |
 |---|---|
 | **Attribuer à** | Attribuer un utilisateur |
-| **Affecté** | Attribuer un utilisateur |
+| **Attribué** | Attribuer un utilisateur |
 | **Affectations** | Affectez des utilisateurs, des rôles de tâche ou des équipes. |
 
 Pour affecter des problèmes dans une liste :
@@ -155,17 +155,17 @@ Pour affecter des problèmes dans une liste :
 1. Accédez à la liste des problèmes auxquels les champs Affectés à, Affectés ou Affectations sont affichés dans la vue.
 1. Pour affecter des problèmes, effectuez l’une des opérations suivantes :
 
-   * Cliquez dans le **Affecté à** ou **Attribué** et commencez à saisir le nom d’un utilisateur principal que vous souhaitez affecter au problème, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   * Cliquez dans le **Affecté à** ou **Attribué** et commencez à saisir le nom d’un utilisateur actif que vous souhaitez affecter au problème, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
-   * Cliquez dans le **Affectations** et commencez à saisir le nom d’un utilisateur principal, d’un rôle de tâche ou d’une équipe principale que vous souhaitez affecter au problème, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   * Cliquez dans le **Affectations** et commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe active que vous souhaitez affecter au problème, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
      ![](assets/assignments-field-task-list-nwe.png)
 
    >[!TIP]
    >
-   >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+   >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
    >
    >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
    >
@@ -186,7 +186,7 @@ Pour affecter des problèmes dans une liste :
 1. Sélectionnez plusieurs problèmes dans la liste.
 1. Cliquez sur le bouton **Icône Modifier** ![](assets/qs-edit-icon.png).
 
-   Le **Modification des problèmes** s’ouvre.
+   La variable **Modification des problèmes** s’ouvre.
 
 1. Dans le **Affectations** , sélectionnez la zone **Cessionnaire** puis commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe que vous souhaitez affecter à tous les problèmes.
 
@@ -194,12 +194,12 @@ Pour affecter des problèmes dans une liste :
    >
    >Si l’un des problèmes est déjà affecté, les ressources que vous indiquez ici sont ajoutées aux problèmes au lieu de remplacer les ressources existantes sur les problèmes.
 
-1. (Facultatif) Sélectionnez le bouton radio dans le **Propriétaire du problème** pour indiquer la ressource qui est la personne désignée Principale ou le propriétaire de la publication, lorsque vous affectez plusieurs ressources à la publication. Cette option n’est pas disponible pour les équipes.
-1. (Facultatif) Sélectionnez un rôle que l’utilisateur doit remplir sur le problème dans la **Choisir un rôle** dans le menu déroulant **Le rôle du cessionnaire** lorsque vous affectez des utilisateurs à des problèmes. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle Principal de l’utilisateur.
+1. (Facultatif) Sélectionnez le bouton radio dans le **Propriétaire du problème** pour indiquer la ressource qui est la personne désignée principale ou le propriétaire du problème, lorsque vous affectez plusieurs ressources au problème. Cette option n’est pas disponible pour les équipes.
+1. (Facultatif) Sélectionnez un rôle que l’utilisateur doit remplir sur le problème dans la **Choisir un rôle** dans le menu déroulant **Le rôle du cessionnaire** lorsque vous affectez des utilisateurs à des problèmes. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle de Principal de l’utilisateur.
 
 1. (Facultatif) Si vous souhaitez supprimer des personnes désignées existantes de tous les problèmes, effectuez l’une des opérations suivantes :
 
-   1. Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe que vous souhaitez supprimer du problème, puis sélectionnez-le lorsqu’il apparaît dans la liste et cliquez sur **Supprimer le cessionnaire** pour ajouter d’autres personnes désignées à supprimer.
+   1. Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe à supprimer du problème, puis sélectionnez-le lorsqu’il apparaît dans la liste et cliquez sur **Supprimer le cessionnaire** pour ajouter d’autres personnes désignées à supprimer.
    1. Cliquez sur **Supprimer tous les cessionnaires existants** pour supprimer toutes les personnes désignées de tous les problèmes sélectionnés.
 
 1. Cliquez sur **Enregistrer les modifications**.

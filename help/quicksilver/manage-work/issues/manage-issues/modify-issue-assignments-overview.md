@@ -2,31 +2,30 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-issues
-title: Modification de l’aperçu des affectations de problème
+title: Présentation de la modification des affectations de problème
 description: Vous pouvez affecter des problèmes à des utilisateurs, des équipes ou des rôles de tâche ou en annuler l’affectation. Vous pouvez affecter plusieurs ressources simultanément ou une seule ressource. Vous pouvez attribuer un problème à la fois ou plusieurs problèmes par lot.
 author: Alina
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
 
-# Modification de l’aperçu des affectations de problème
+# Présentation de la modification des affectations de problème
 
 Vous pouvez affecter des problèmes à des utilisateurs, des équipes ou des rôles de tâche ou en annuler l’affectation. Vous pouvez affecter plusieurs ressources simultanément ou une seule ressource. Vous pouvez attribuer un problème à la fois ou plusieurs problèmes par lot.
 
 >[!TIP]
 >
->Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous ne pouvez affecter que des utilisateurs, des rôles de tâche et des équipes principaux.
+>Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous pouvez affecter uniquement les utilisateurs, les rôles de tâche et les équipes actifs.
 >
 >Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
 >
->* Réaffectez l’élément de travail aux principales ressources.
->* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
-
+>* Réaffectez la tâche aux ressources actives.
+>* Associez les utilisateurs d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
 Cet article contient des informations générales sur l’impact de la modification des affectations de problèmes. Pour plus d’informations sur l’affectation de problèmes, consultez les articles suivants :
 
@@ -46,7 +45,7 @@ Vous pouvez modifier les affectations d’utilisateurs pour plusieurs problèmes
 
 ## Considérations relatives à la suppression des attributions des problèmes
 
-Vous pouvez supprimer des attributions d’un problème à la fois ou supprimer des attributions de plusieurs problèmes en bloc.
+Vous pouvez supprimer des affectations d’un problème à la fois ou vous pouvez supprimer des affectations de plusieurs problèmes en bloc.
 
 Pour plus d’informations sur la suppression d’affectations de problèmes en bloc, voir [Modification des affectations d’utilisateurs pour plusieurs problèmes dans une liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
