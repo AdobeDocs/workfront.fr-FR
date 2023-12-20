@@ -7,9 +7,9 @@ description: Vous pouvez utiliser des feuilles de temps pour effectuer le suivi 
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Pour accéder à une feuille de temps :
 
 {{step1-to-timesheets}}
 
-Toutes vos feuilles de temps ainsi que vos feuilles de temps vous permettent d’afficher par défaut. Pour plus d’informations sur la disposition de la feuille de temps dans Adobe Workfront, voir [Présentation de la disposition de la feuille de calcul](../../timesheets/timesheets/timesheet-layout.md).
+Toutes vos feuilles de temps ainsi que vos feuilles de temps vous permettent d’afficher par défaut. Pour plus d’informations sur la disposition de la feuille de temps dans Adobe Workfront, voir [Présentation de la disposition de la feuille de temps](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 

@@ -6,14 +6,16 @@ description: Une ligne de base est un instantané de projet qui représente des 
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
 
 # Création de lignes de base de projet
+
+<!-- Audited: 12/2023 -->
 
 Une ligne de base est un instantané de projet qui représente des éléments d’information clés inclus dans le plan initial du projet ou à tout moment pendant la durée du projet.
 
@@ -61,11 +63,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+    <td><p>Nouveau : Standard</p>
+        <p>ou</p>
+        <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès*</td> 
@@ -74,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations pour le projet ou version ultérieure pour afficher les lignes de base</p> <p>Gérer les autorisations du projet pour créer des lignes de base</p> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partage d’un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage des autorisations pour le projet ou version ultérieure pour afficher les lignes de base</p> <p>Gérer les autorisations du projet pour créer des lignes de base</p> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partage d’un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,15 +100,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Vous pouvez créer une ligne de base comme suit :
 
-* **Automatiquement**: Votre administrateur Workfront ou un administrateur de groupe définit les préférences du projet pour que Workfront crée automatiquement une ligne de base lorsqu’un projet devient actuel. Lorsque ce paramètre est activé, une ligne de base est créée lorsque l’état du projet devient Actuel. Lorsque ce paramètre n’est pas activé, vous devez créer manuellement des lignes de base.
+* **Automatiquement**: votre administrateur Workfront ou un administrateur de groupe définit les préférences de projet pour que Workfront crée automatiquement une ligne de base lorsqu’un projet devient actuel. Lorsque ce paramètre est activé, une ligne de base est créée lorsque l’état du projet devient Actuel. Lorsque ce paramètre n’est pas activé, vous devez créer manuellement des lignes de base.
 
-   Pour plus d’informations sur la configuration des préférences de projet et la configuration de la création automatique de la ligne de base, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Pour plus d’informations sur la configuration des préférences de projet et la configuration de la création automatique de la ligne de base, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!CAUTION]
-   >
-   >L’activation de ce paramètre crée automatiquement une ligne de base pour un projet chaque fois qu’un état de projet passe à Actuel. La première ligne de base créée est la ligne de base par défaut. Vous devez créer manuellement toutes les autres lignes de base pendant la durée du projet .
+  >[!CAUTION]
+  >
+  >L’activation de ce paramètre crée automatiquement une ligne de base pour un projet chaque fois qu’un état de projet passe à Actuel. La première ligne de base créée est la ligne par défaut. Vous devez créer manuellement toutes les autres lignes de base pendant la durée du projet .
 
-* **Manuellement**: Vous pouvez créer de nouvelles lignes de base pour le projet au fur et à mesure de l’évolution du projet. Vous pouvez ensuite comparer des lignes de base pour voir l’évolution du projet au fil du temps.
+* **Manuellement**: vous pouvez créer de nouvelles lignes de base pour le projet au fur et à mesure que le projet progresse. Vous pouvez ensuite comparer des lignes de base pour voir l’évolution du projet au fil du temps.
 
 Pour créer une ligne de base :
 
@@ -115,7 +119,7 @@ Pour créer une ligne de base :
 
    Cliquez sur **Afficher plus**, puis cliquez sur **Lignes de base**.
 
-   ![](assets/nwe-baselines-section-on-project-with-header-350x78.png)
+   ![Section de base sur le projet](assets/baselines-section-on-project-with-header.png)
 
 1. Cliquez sur **Nouvelle ligne de base.**
 1. Indiquez le nom de la ligne de base.
@@ -132,11 +136,11 @@ Pour créer une ligne de base :
    * % Terminé du projet lorsque la ligne de base a été créée
    * Indicateur de ligne de base par défaut qui indique si une ligne de base est la ligne de base par défaut du projet.
 
-      >[!TIP]
-      >
-      >Vous ne pouvez pas afficher les informations de deux lignes de base en même temps dans la même vue ou dans le même rapport. Vous pouvez uniquement afficher les informations d’une ligne de base donnée et de la ligne de base par défaut dans le même rapport. Vous pouvez modifier la ligne de base que vous considérez comme la ligne de base par défaut à tout moment pendant la durée du projet.
+     >[!TIP]
+     >
+     >Vous ne pouvez pas afficher les informations de deux lignes de base en même temps dans la même vue ou dans le même rapport. Vous pouvez uniquement afficher les informations d’une ligne de base donnée et de la ligne de base par défaut dans le même rapport. Vous pouvez modifier la ligne de base que vous considérez comme la ligne de base par défaut à tout moment pendant la durée du projet.
 
-1. (Facultatif) Cliquez sur la flèche de liste déroulante en regard de l’affichage, puis **Vue Personnaliser** pour ajouter des champs à votre vue et comparer des informations supplémentaires entre les lignes de base.
+1. (Facultatif) Cliquez sur le **Affichage** , puis créez une vue ou modifiez la vue actuelle pour ajouter des champs à la vue et comparer des informations supplémentaires entre les lignes de base. Pour plus d’informations, voir [Création ou modification de vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Création d’un rapport de ligne de base ou de tâche de ligne de base
 
@@ -148,6 +152,6 @@ Pour afficher des informations de base, vous pouvez également créer un rapport
 
 Pour plus d’informations sur la création d’un rapport, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Nous vous recommandons d’ajouter un regroupement Nom de projet à votre rapport Ligne de base ou Ligne de base afin de faciliter la lecture.
+Nous vous recommandons d’ajouter un regroupement Nom de projet à votre rapport Tâche de ligne de base ou Tâche de ligne de base afin de faciliter la lecture.
 
 Pour plus d’informations sur la création d’un groupement, voir [Création de groupes dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

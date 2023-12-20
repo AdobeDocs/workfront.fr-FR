@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Affichage : calculer le coût des heures supplémentaires dans une vue de feuille de calcul'
+title: "Afficher : calculer le coût des heures supplémentaires dans une vue de feuille de calcul"
 description: Les heures supplémentaires ne sont pas calculées par défaut dans Adobe Workfront, mais vous pouvez créer un rapport de feuille de temps qui calcule les heures supplémentaires.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# Afficher : calculer le coût des heures supplémentaires dans une vue de feuille de temps ;
+# Afficher : calculer le coût des heures supplémentaires dans une vue de feuille de temps
 
 Les heures supplémentaires ne sont pas calculées par défaut dans Adobe Workfront, mais vous pouvez créer un rapport de feuille de temps qui calcule les heures supplémentaires.
 
@@ -23,7 +23,7 @@ Pour plus d’informations sur l’association des utilisateurs aux taux de coû
 
 >[!NOTE]
 >
->Le champ Heure de fin que vous pouvez ajouter à une vue de feuille de temps dans une liste ou un rapport affiche les informations figurant dans le champ Heure de fin de la feuille de temps. Ces informations sont mises à jour manuellement par un utilisateur ayant accès à la modification de la feuille de temps. Pour plus d’informations sur le champ Heure de dépassement dans une feuille de temps, consultez l’article . [Présentation de la disposition de la feuille de calcul](../../../timesheets/timesheets/timesheet-layout.md).
+>Le champ Heure de fin que vous pouvez ajouter à une vue de feuille de temps dans une liste ou un rapport affiche les informations figurant dans le champ Heure de fin de la feuille de temps. Ces informations sont mises à jour manuellement par un utilisateur ayant accès à la modification de la feuille de temps. Pour plus d’informations sur le champ Heure de dépassement dans une feuille de temps, consultez l’article . [Présentation de la disposition de la feuille de temps](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Exigences d’accès
 
@@ -35,7 +35,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -69,7 +69,7 @@ Pour ajouter une colonne Heure de dépassement de délai calculée à une vue de
 
    Ou
 
-   Sélectionnez la **Colonnes (affichage)** dans un rapport de feuille de calcul.
+   Sélectionnez la variable **Colonnes (affichage)** dans un rapport de feuille de calcul.
 
 1. Cliquez sur **Ajouter une colonne**.
 1. Cliquez sur **Passer en mode Texte**.

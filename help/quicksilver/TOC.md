@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13834'
 ht-degree: 0%
 
 ---
@@ -1905,7 +1905,7 @@ ht-degree: 0%
    * Détails de la feuille de calcul {#details}
       * [Détails de la feuille de temps : index de l’article](timesheets/timesheets/timesheets.md)
       * [Présentation des feuilles de calcul](timesheets/timesheets/timesheets-overview.md)
-      * [Présentation de la disposition de la feuille de calcul](timesheets/timesheets/timesheet-layout.md)
+      * [Présentation de la disposition de la feuille de temps](timesheets/timesheets/timesheet-layout.md)
    * Créer et gérer des feuilles de temps {#create-and-manage-timesheets-in-adobe-workfront}
       * [Créer et gérer des feuilles de temps : index des articles](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Création, modification et affectation de profils de feuille de temps](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
