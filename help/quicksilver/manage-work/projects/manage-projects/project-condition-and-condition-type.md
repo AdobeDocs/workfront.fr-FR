@@ -7,7 +7,7 @@ description: La condition du projet est une représentation visuelle de l’avan
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # Présentation de la condition et du type de condition du projet
+
+<!-- Audited: 12/2023 -->
 
 La condition du projet est une représentation visuelle de l’avancement du projet. Il s’agit d’une variable à déclarer déterminée par la relation entre les dates prévues, prévues et estimées du projet.
 
@@ -24,23 +26,22 @@ Tenez compte des points suivants lors de la compréhension de la condition d’u
 
 * En tant que propriétaire du projet, vous pouvez décider si la condition d’un projet est définie manuellement ou automatiquement. La condition d’un projet peut être définie comme suit :
 
-   * Manuellement, par les utilisateurs qui ont accès à Gérer le projet et lorsque le type de condition du projet est défini sur Manuel.
-   * Automatiquement, par Adobe Workfront, lorsque le type de condition du projet est défini sur État de progression. L’état d’avancement du projet est déterminé par l’état d’avancement des tâches sur le projet. Pour plus d’informations sur l’état d’avancement du projet, voir [État d’avancement du projet - Aperçu](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * Manuellement par les utilisateurs qui ont accès à la fonction Gérer le projet et lorsque le type de condition du projet est défini sur Manuel.
+   * Automatiquement par Adobe Workfront, lorsque le type de condition du projet est défini sur État de progression. L’état d’avancement du projet est déterminé par la progression des tâches sur le projet. Pour plus d’informations sur l’état d’avancement du projet, voir [État d’avancement du projet - Aperçu](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-   Pour plus d’informations sur la mise à jour du type de condition du projet, voir [Définition du type de condition d’un projet](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
+  Pour plus d’informations sur la mise à jour du type de condition du projet, voir [Définition du type de condition d’un projet](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
 
 * Lorsque vous autorisez Workfront à estimer automatiquement la condition du projet, nous vous recommandons d’utiliser les prédécesseurs sur vos tâches afin que la progression de la tâche se reflète dans la progression réelle et l’état de progression du projet.
 * En tant que propriétaire de projet, vous pouvez modifier le projet afin d’utiliser un type de condition manuel au lieu d’utiliser l’état de progression en passant du type de condition État de progression à Manuel.
 
-   >[!NOTE]
-   >
-   >Les projets qui se trouvent dans l’un des états suivants sont toujours marqués comme Sur Target, quelles que soient les dates des tâches et leur progression :
-   >
-   >* Idée
-   >* Demandé
-   >* Approuvé
-   >* Rejeté
-
+  >[!NOTE]
+  >
+  >Les projets qui se trouvent dans l’un des états suivants sont toujours marqués comme Sur Target, quelles que soient les dates des tâches et leur progression :
+  >
+  >* Idée
+  >* Demandé
+  >* Approuvé
+  >* Rejeté
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -74,14 +75,14 @@ Dans ce cas, les valeurs de la condition de projet peuvent être les suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td>Condition du projet</td> 
-   <td>État d’avancement du projet</td> 
-   <td>Indicateur de condition Workfront</td> 
+   <td><strong>Statut du projet</strong></td> 
+   <td><strong>État d’avancement du projet</strong></td> 
+   <td><strong>Indicateur de condition Workfront</strong></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Dans les temps</td> 
-   <td> <li>Lorsque l’état d’avancement du projet de l’heure d’activation, la condition du projet est <strong>Sur Target</strong>.</li> </td> 
+   <td>Lorsque l’état d’avancement du projet de l’heure d’activation, la condition du projet est <strong>Sur Target</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
@@ -102,17 +103,17 @@ Dans ce cas, les valeurs de la condition de projet peuvent être les suivantes :
 
 >[!NOTE]
 >
->Les conditions peuvent être personnalisées pour votre environnement. Vous pouvez donc trouver plus de trois options pour Condition dans votre environnement. Les noms des Conditions peuvent être différents de ceux répertoriés ci-dessus. Pour plus d’informations sur la personnalisation des conditions dans , reportez-vous à l’article . [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+>Les conditions peuvent être personnalisées pour votre environnement. Vous pouvez donc trouver plus de trois options pour Condition dans votre environnement. Les noms des Conditions peuvent être différents de ceux répertoriés ci-dessus. Pour plus d’informations sur la personnalisation des conditions dans , voir l’article . [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ## Rapport sur la condition du projet, la mise à jour de la condition du projet et la note de la dernière condition
 
 Dans l’affichage d’un rapport de projet, vous pouvez afficher les champs suivants liés à la condition du projet :
 
 * **Condition du projet :** Affiche la condition actuelle du projet.
-* **Mise à jour de la condition du projet**: Affiche la mise à jour la plus récente fournie par le propriétaire du projet dans le flux de mise à jour du projet, ainsi que la nouvelle condition.\
-   Les commentaires effectués sur les mises à jour de condition ne s’affichent pas dans la variable **Mise à jour de condition** column; seule la mise à jour principale s’affiche.
+* **Mise à jour de la condition du projet**: affiche la mise à jour la plus récente fournie par le propriétaire du projet dans le flux de mise à jour du projet, ainsi que la nouvelle condition.\
+  Les commentaires effectués sur les mises à jour de condition ne s’affichent pas dans la **Mise à jour de condition** , seule la mise à jour principale s’affiche.
 
-* **Last Condition Note**: Affiche la mise à jour la plus récente saisie sur un objet par le propriétaire de l’objet. Ce champ est utile pour afficher l’activité ou l’interaction la plus récente du propriétaire sur un objet.\
-   Le **Last Condition Note** est vide si le texte de la dernière note d’un objet a été supprimé. Lorsqu’une nouvelle note est saisie sur l’objet, elle devient la dernière note et s’affiche à nouveau dans la colonne.
+* **Last Condition Note**: affiche la dernière mise à jour saisie sur un objet par le propriétaire de l’objet. Ce champ est utile pour afficher l’activité ou l’interaction la plus récente du propriétaire sur un objet.\
+  La variable **Last Condition Note** est vide si le texte de la dernière note d’un objet a été supprimé. Lorsqu’une nouvelle note est saisie sur l’objet, elle devient la dernière note et s’affiche à nouveau dans la colonne.
 
-Pour plus d’informations sur la création d’un rapport, reportez-vous à l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Pour plus d’informations sur la création d’un rapport, consultez l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

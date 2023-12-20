@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # Présentation de la durée et du type de durée de la tâche
+
+<!-- Audited: 12/2023 -->
 
 La durée de la tâche correspond à la différence entre la date de fin planifiée et la date de début planifiée de la tâche. La durée indique la période disponible pour que la tâche soit terminée.
 

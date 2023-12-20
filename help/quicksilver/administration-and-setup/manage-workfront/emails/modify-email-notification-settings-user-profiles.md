@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # Modification des paramètres de notification électronique de plusieurs utilisateurs
+
+<!-- Audited: 12/2023 -->
 
 Si vous êtes administrateur Adobe Workfront ou si vous disposez d’un niveau d’accès Planificateur vous permettant de modifier les paramètres d’autres utilisateurs, vous pouvez configurer les paramètres de notification pour plusieurs utilisateurs à la fois. Cela inclut la spécification des notifications reçues par les utilisateurs au fur et à mesure des événements, ou dans un email de résumé quotidien, comme décrit dans la section [Notifications Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md). Pour plus d’informations sur le niveau d’accès requis pour modifier les utilisateurs, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 

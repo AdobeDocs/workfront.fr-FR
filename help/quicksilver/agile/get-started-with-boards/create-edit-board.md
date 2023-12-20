@@ -6,14 +6,16 @@ description: Dans la [!UICONTROL panoramas] vous pouvez créer un panorama ou en
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 3%
+source-wordcount: '683'
+ht-degree: 1%
 
 ---
 
 # Créer ou modifier un panorama
+
+<!-- Audited: 12/2023 -->
 
 Dans la [!UICONTROL panoramas] vous pouvez créer un panorama ou en modifier un existant.
 
@@ -27,7 +29,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Nouveau : contributeur ou version ultérieure </p>
+ <p>ou</p> 
+<p>Actuel : [!UICONTROL Request] ou version ultérieure </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -40,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Création d’un panorama
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
+{{step1-to-boards}}
 1. Cliquez sur **[!UICONTROL Ajouter un panorama]**.
 
 1. Sélectionnez un modèle pour le panorama.
@@ -49,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    |---------|----------|
    | Panorama de base | Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. |
    | Panorama Kanban | Les colonnes suivantes sont fournies sur le tableau : Backlog, New, In Progress, Complete et On hold. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser le journal des logs, vous devez configurer des filtres pour la colonne d&#39;ingestion. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour consulter les stratégies par défaut pour chaque colonne, cliquez sur le bouton [!UICONTROL **Plus** menu] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une de ces stratégies prédéfinies. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | Panorama rétrospectif | Les colonnes suivantes sont fournies sur le tableau : Qu’est-ce qui s’est bien passé ? Améliorations possibles? Qui devons-nous célébrer? Que pouvons-nous faire pour aller plus vite? Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune stratégie de colonne n’est appliquée. |
+   | Panorama rétrospectif | Les colonnes suivantes sont fournies sur le tableau : Qu’est-ce qui s’est bien passé ? Qu&#39;est-ce qui pourrait être amélioré ? Qui devrions-nous célébrer ? Que pouvons-nous faire pour aller plus vite ? Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune stratégie de colonne n’est appliquée. |
    | Panorama dynamique | Les colonnes suivantes sont fournies sur le panorama : Non sélectionné, Nouveau, En cours, En attente et Terminé. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. (La colonne Non sélectionné peut être renommée mais pas supprimée. Cette colonne contient toutes les cartes dont l’état ne correspond à aucun des autres états de colonne.) <p>Les stratégies de colonne par défaut attribuent des cartes aux colonnes en fonction de leur état. Pour plus d’informations, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. Pour une carte dynamique uniquement, suivez les étapes de l&#39;assistant de configuration :
@@ -86,7 +95,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Modifier un panorama existant
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
+{{step1-to-boards}}
 1. Dans le tableau de bord, sélectionnez le panorama à ouvrir.
 1. Modifiez le panorama si nécessaire. Cliquez sur le nom du panorama pour le renommer.
 

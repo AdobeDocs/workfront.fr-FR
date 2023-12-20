@@ -5,18 +5,20 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Les administrateurs Adobe Workfront d’une grande entreprise comptant de nombreux services peuvent ne pas vouloir gérer tous les services et groupes de l’entreprise au sein de ces services. Au lieu de cela, ils peuvent créer un groupe pour chaque service et sous-groupe au sein de ce groupe, chacun géré par un administrateur de groupe.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: 03667fbdd1b0d68b9ad2d2db4a1ed85b8136062b
+source-git-commit: 850e0801511177efc5189258acd9b88234cf59c9
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
 
 # Administrateurs de groupe
+
+<!-- Audited: 12/2023 -->
 
 Les administrateurs Adobe Workfront d’une grande entreprise comptant de nombreux services peuvent ne pas vouloir gérer tous les services et groupes de l’entreprise au sein de ces services. Au lieu de cela, ils peuvent créer un groupe pour chaque service et sous-groupe au sein de ce groupe, chacun géré par un administrateur de groupe.
 
@@ -40,9 +42,9 @@ Si vous êtes administrateur Workfront, nous vous recommandons d’effectuer les
 * Notez le nombre de groupes présents dans votre système.
 * Déterminez si vous pouvez modifier le niveau d’accès de certains administrateurs Workfront et désigner ces derniers comme administrateurs de groupe à la place.
 
-   Pour plus d’informations sur les fonctionnalités des administrateurs de groupe, voir [Tâches effectuées par les administrateurs de groupe](#tasks-done-by-group-administrators).
+  Pour plus d’informations sur les fonctionnalités des administrateurs de groupe, voir [Tâches effectuées par les administrateurs de groupe](#tasks-done-by-group-administrators) dans cet article.
 
-* Déterminez si vous souhaitez que les administrateurs de groupe puissent se connecter en tant qu’autres utilisateurs ou réinitialiser les mots de passe des utilisateurs dans les groupes que vous administrez. Un accès supplémentaire est nécessaire pour effectuer ces tâches, en suivant la procédure décrite à la section [Accès requis pour les administrateurs de groupe](#access-needed-for-group-administrators).
+* Déterminez si vous souhaitez que les administrateurs de groupe puissent se connecter en tant qu’autres utilisateurs ou réinitialiser les mots de passe des utilisateurs dans les groupes que vous administrez. Un accès supplémentaire est nécessaire pour effectuer ces tâches, comme expliqué ci-dessous dans la section [Accès requis pour les administrateurs de groupe](#access-needed-for-group-administrators).
 * Pour une meilleure gestion des utilisateurs, envisagez d’affecter des groupes ou des sous-groupes plutôt que des utilisateurs aux objets suivants :
 
    * Modèles de mise en page
@@ -51,7 +53,10 @@ Si vous êtes administrateur Workfront, nous vous recommandons d’effectuer les
 
 ## Accès requis pour les administrateurs de groupe {#access-needed-for-group-administrators}
 
-Chaque administrateur de groupe doit disposer d’une licence Plan .
+Chaque administrateur de groupe doit disposer des
+
+* Une licence Plan dans le modèle de tarification et de package actuel
+* Une licence standard dans le nouveau modèle de tarification et de package
 
 Nous recommandons aux administrateurs de groupe de disposer de l’accès Modifier aux utilisateurs afin qu’ils puissent effectuer les tâches suivantes :
 
@@ -60,31 +65,38 @@ Nous recommandons aux administrateurs de groupe de disposer de l’accès Modifi
 
 >[!IMPORTANT]
 >
->Les administrateurs de groupe doivent avoir un accès plus élevé que ceux qu’ils gèrent ; sinon, ils ne pourront pas afficher ni modifier les niveaux d’accès inférieurs.
+>Les administrateurs de groupe doivent disposer d’un accès supérieur à celui qu’ils gèrent ; dans le cas contraire, ils ne pourront pas afficher ni modifier les niveaux d’accès inférieurs.
 >Pour obtenir des instructions sur l’octroi de cet accès, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Pour un administrateur de groupe qui doit affecter des profils de feuille de temps aux utilisateurs de leurs groupes et sous-groupes, nous vous recommandons également d’accéder aux feuilles de temps et heures de manière administrative. Pour obtenir des instructions sur l’octroi de cet accès, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Tâches effectuées par les administrateurs de groupe {#tasks-done-by-group-administrators}
 
-En tant qu&#39;administrateur de groupe, vous pouvez effectuer les tâches ci-dessous pour gérer les groupes que vous supervoyez. Certaines d’entre elles sont identiques à celles offertes à un administrateur Workfront.
+En tant qu’administrateur de groupe, vous pouvez effectuer les tâches décrites ci-dessous pour gérer les groupes que vous supervoyez. Certaines d’entre elles sont identiques à celles offertes à un administrateur Workfront.
 
-* [Gestion des membres de groupe](#manage-group-members)
-* [Gestion des objets de groupe](#manage-group-objects)
-* [Gestion des préférences et des outils de groupe](#manage-group-preferences-and-tools)
+>[!NOTE]
+>
+>Dans le nouveau modèle de tarification et de conditionnement, vous devez avoir un plan Prime ou supérieur pour effectuer les opérations suivantes :
+>
+> * Créer des notifications d’événement de groupe
+> * Configuration des préférences de projet de groupe
+> * Configuration des préférences de tâche de groupe et de problème
+> * Déverrouiller la configuration des préférences de sous-groupe
+> * Préférences de la feuille de temps et de l’heure du groupe
+> * Déverrouiller la feuille de temps et les préférences d’heure ;
 
 ### Gestion des membres de groupe {#manage-group-members}
 
 * Créez, modifiez et supprimez des sous-groupes dans les groupes et sous-groupes que vous gérez. Pour obtenir des instructions, voir [Création d’un sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 * Ajoutez tous les utilisateurs pour lesquels vous avez l’accès Modifier à vos groupes et sous-groupes. Vous pouvez également ajouter des utilisateurs à des groupes et des sous-groupes en modifiant leurs profils.
 
-   Vous pouvez également mettre à jour les champs du profil d’un membre du groupe si l’autorisation Admin utilisateur (Utilisateurs de groupe) est activée dans votre niveau d’accès.
+  Vous pouvez également mettre à jour les champs du profil d’un membre du groupe si l’autorisation Admin utilisateur (Utilisateurs de groupe) est activée dans votre niveau d’accès.
 
-   Pour plus d’informations, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Pour plus d’informations, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   >[!NOTE]
-   >
-   >Les administrateurs Workfront peuvent remplacer les modifications apportées aux appartenances à un groupe par un administrateur de groupe.
+  >[!NOTE]
+  >
+  >Les administrateurs Workfront peuvent remplacer les modifications apportées aux appartenances à un groupe par un administrateur de groupe.
 
 * Réinitialisez les mots de passe des utilisateurs membres des groupes que vous gérez. Pour plus d’informations, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 * Connectez-vous en tant qu’utilisateurs membres des groupes que vous gérez. Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
@@ -96,7 +108,7 @@ En tant qu&#39;administrateur de groupe, vous pouvez effectuer les tâches ci-de
 * Créez des profils de feuille de temps au niveau du groupe, associez-les aux utilisateurs et aux groupes que vous gérez, puis générez manuellement des feuilles de temps. Pour plus d’informations, voir [Création, modification et affectation de profils de feuille de temps](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 * Sans accès administratif aux processus de validation, créez et éditez des processus de validation pour les groupes et sous-groupes que vous gérez. Pour plus d’informations, voir [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-   Pour plus d’informations sur l’accès administratif aux processus de validation, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Pour plus d’informations sur l’accès administratif aux processus de validation, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Créez des planifications et associez-les à un groupe que vous gérez. Pour plus d’informations, voir [Création d’un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 * Gérez une équipe affectée à un groupe que vous gérez, sans être membre de l’équipe. Créez également un rapport d’équipe basé sur le champ Groupe afin d’identifier le groupe auquel une certaine équipe est affectée. Pour plus d’informations, voir [Création d’une équipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).

@@ -7,14 +7,16 @@ description: Vous pouvez créer un processus d’approbation et le joindre à un
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # Présentation du processus de validation
+
+<!-- Audited: 12/2023 -->
 
 Vous pouvez créer un processus d’approbation et le joindre à un objet pour vous assurer que les utilisateurs désignés révisent certaines modifications avant la progression de l’objet.
 
@@ -22,27 +24,26 @@ Cette option est disponible pour les types d’objets suivants dans Adobe Workfr
 
 * Élément de travail (projet, tâche ou problème, modèle, tâche de modèle)
 * Document
-*  Épreuve
-
-Pour plus d’informations sur la création d’un processus de validation, voir [Créer un processus d’approbation pour les tâches](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* Épreuve
 
 Cet article contient des informations générales sur les processus d’approbation associés aux tâches.
+Pour plus d’informations sur la création d’un processus de validation, voir [Créer un processus d’approbation pour les tâches](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Types de processus de validation
+## Types de processus d’approbation pour les tâches
 
 Si vous êtes administrateur d’Adobe Workfront ou utilisateur disposant d’un accès administratif aux processus de validation, vous pouvez créer les processus d’approbation suivants pour les projets, tâches et problèmes :
 
 * **Processus d’approbation globale au niveau du système**: les utilisateurs peuvent les joindre à l’une des fonctions suivantes :
 
    * Un projet, une tâche ou un problème dans la section Validations
-   * Dans la zone Modifier le projet, la zone Processus d’approbation par défaut de la tâche
-   * Dans la section Détails de la file d’attente ou Rubrique de la file d’attente d’un projet, dans les zones Processus d’approbation par défaut. Le projet doit être activé en tant que file d’attente de demandes.
+   * Dans la zone Modifier le projet de la zone Processus d’approbation par défaut de la tâche
+   * Dans la section Détails de la file d’attente ou Rubrique de la file d’attente d’un projet dans les zones Processus d’approbation par défaut. Le projet doit être activé en tant que file d’attente de demandes.
 
 * **Processus d’approbation globale au niveau du groupe**: les utilisateurs peuvent les joindre à ce qui suit :
 
    * Un projet, une tâche ou un problème appartenant au groupe associé au processus d’approbation dans la section Validations
-   * Dans la zone Modifier le projet, la zone Processus d’approbation par défaut de la tâche d’un projet appartenant au groupe associé au processus d’approbation
-   * Dans la section Détails de la file d’attente ou Rubrique de la file d’attente d’un projet, dans les zones Processus d’approbation par défaut. Le projet doit être activé en tant que file d’attente des demandes et doit appartenir au groupe associé au processus d’approbation.
+   * Dans la zone Modifier le projet de la zone Processus d’approbation par défaut de la tâche pour un projet appartenant au groupe associé au processus d’approbation
+   * Dans la section Détails de la file d’attente ou Rubrique de la file d’attente d’un projet dans les zones Processus d’approbation par défaut. Le projet doit être activé en tant que file d’attente des demandes et doit appartenir au groupe associé au processus d’approbation.
 
   Pour plus d’informations sur la création d’un processus d’approbation au niveau du système ou du groupe, voir [Créer un processus d’approbation pour les tâches](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

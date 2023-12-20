@@ -7,7 +7,7 @@ description: Vous pouvez estimer et budgéter l’allocation de vos ressources a
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Présentation de Resource Planner
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
@@ -40,9 +42,9 @@ Vous pouvez afficher les informations dans le planificateur de ressources à l�
 
 * Pour afficher les informations suivantes à l’aide de la vue Utilisateur :
 
-   * la disponibilité de vos utilisateurs selon leur planning ;
-   * le temps prévu pour terminer le travail conformément au plan du projet.
-   * durée pendant laquelle les utilisateurs se sont déjà connectés aux tâches réelles.
+   * La disponibilité de vos utilisateurs selon leur planning
+   * Le temps prévu pour terminer le travail conformément au plan du projet.
+   * La durée pendant laquelle les utilisateurs se sont déjà connectés aux tâches réelles
 
   Pour plus d’informations sur l’affichage des heures disponibles, planifiées et réelles ou de l’éditeur de texte enrichi pour les utilisateurs dans le planificateur de ressources, consultez l’article . [Afficher les heures disponibles, planifiées et réelles ou l’éditeur de texte enrichi dans le planificateur de ressources lors de l’utilisation de la vue utilisateur](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
