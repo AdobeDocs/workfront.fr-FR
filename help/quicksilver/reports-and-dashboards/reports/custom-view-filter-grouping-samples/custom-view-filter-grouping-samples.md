@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Exemples d’affichage, de filtrage et de regroupement personnalisés
-description: 'Exemples d’affichage, de filtrage et de regroupement personnalisés : article approprié à la table des matières". Je n''ai pas vu beaucoup de valeur dans l''organisation de ceci par objets.)"'
-author: Lisa and Nolan
+title: "Affichage personnalisé, filtrage et regroupement d’exemples : index de l’article"
+description: Cette section fournit des exemples d’affichages, de filtres et de regroupements personnalisés que vous pouvez utiliser dans votre compte Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Exemples d’affichage, de filtrage et de regroupement personnalisés
+# Exemples de filtrage, de filtrage et de regroupement personnalisés : index de l&#39;article
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>

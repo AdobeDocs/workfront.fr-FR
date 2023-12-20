@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Modification d’un filtre à l’aide du mode texte
-description: '"REMARQUE : ajoutez une section dans cet article : /Content/Reports and Dashboard/Reports/Reporting Elements/create-customize-fitlers.html; *** En outre, brouillez cette zone dans l’article Présentation du mode Texte )'''
+description: "REMARQUE : ajoutez une section dans cet article : /Content/Reports and Dashboard/Reports/Reporting Elements/create-customize-fitlers.html; *** Également, brouillez cette zone dans l’article Présentation du mode Texte )"
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Vous pouvez éditer un filtre dans une liste ou un rapport à l&#39;aide du mode texte pour accéder aux champs qui ne sont pas disponibles dans l&#39;interface standard et créer des filtres plus complexes.
 
-Pour plus d’exemples de mode texte lors de la création d’un filtre, reportez-vous également à la section &quot;Exemples de filtres personnalisés&quot; dans l’article . [Exemples d’affichage, de filtrage et de regroupement personnalisés](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Pour plus d’exemples de mode texte lors de la création d’un filtre, reportez-vous également à la section &quot;Exemples de filtres personnalisés&quot; dans l’article . [Exemples de filtrage, de filtrage et de regroupement personnalisés : index de l&#39;article](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Exigences d’accès
 
@@ -33,7 +33,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -60,7 +60,7 @@ Pour plus d’informations, voir :
 
 * [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Présentation de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Exemples d’affichage, de filtrage et de regroupement personnalisés](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Exemples de filtrage, de filtrage et de regroupement personnalisés : index de l&#39;article](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Mode d’édition de texte dans un filtre
 
@@ -93,7 +93,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Création d’
       <td><b>Exemple</b></td> 
      </tr> 
      <tr> 
-      <td> <p>Nom du champ et la valeur à laquelle il est égal comme ils apparaissent dans la base de données Workfront.</p> <p>Cette ligne est obligatoire.</p> <p> Pour plus d’informations sur l’affichage des objets et des champs dans la base de données, voir <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorateur d’API</a>.</p> </td> 
+      <td> <p>Nom du champ et la valeur à laquelle il est égal, tels qu’ils apparaissent dans la base de données Workfront.</p> <p>Cette ligne est obligatoire.</p> <p> Pour plus d’informations sur l’affichage des objets et des champs dans la base de données, voir <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorateur d’API</a>.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Pour filtrer les tâches dont l'état est En cours, utilisez la ligne suivante :</p> <p><code>status=INP</code> </p> <p><b>CONSEIL</b>
 
    Lorsque vous filtrez les états, vous devez utiliser le code à trois lettres de l’état et non le nom.</p> </td>
@@ -110,7 +110,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Création d’
         <p><code>plannedCompletionDate=$$TODAYbm</code> </p> 
         <p><code>plannedCompletionDate_Mod=between</code> </p> 
         <p><code>plannedCompletionDate_Range=$$TODAYem</code> </p> 
-        <p>Pour obtenir la liste complète des modificateurs de filtre en mode texte, reportez-vous à l’article . <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificateurs de filtre et de condition</a>.</p> 
+        <p>Pour obtenir la liste complète des modificateurs de filtre en mode texte, voir l’article <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificateurs de filtre et de condition</a>.</p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -163,12 +163,19 @@ Pour plus d’informations sur la création d’un rapport, voir [Création d’
 >[!NOTE]
 >
 >Vous pouvez avoir plusieurs instructions &quot;OR&quot; dans le même filtre. Chaque fois que vous disposez d’une nouvelle instruction &quot;OU&quot;, le nombre après &quot;OU&quot; augmente.
+>
 Pour filtrer les tâches dont l’état est En cours ou qui sont affectées à l’utilisateur connecté ou dont la date d’achèvement prévue est atteinte aujourd’hui, utilisez les méthodes suivantes :
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
 1. Cliquez sur **Terminé** si vous souhaitez enregistrer vos modifications et continuer à modifier le rapport ou le filtre.

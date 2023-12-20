@@ -6,9 +6,9 @@ description: Vous pouvez modifier les paramètres d’un rapport afin de défini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '663'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -71,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Exécutez ce rapport avec les droits d’accès de</td> 
-      <td>Sélectionnez l’utilisateur dont vous souhaitez que ce rapport utilise les droits d’accès lors de l’affichage pour d’autres utilisateurs. Pour plus d’informations sur l’exécution d’un rapport avec les droits d’accès d’un autre utilisateur, reportez-vous à l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Exécution et diffusion d’un rapport avec les droits d’accès d’un autre utilisateur</a>.</td> 
+      <td>Sélectionnez l’utilisateur dont vous souhaitez que ce rapport utilise les droits d’accès lors de l’affichage pour d’autres utilisateurs. Pour plus d’informations sur l’exécution d’un rapport avec les droits d’accès d’un autre utilisateur, consultez l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Exécution et diffusion d’un rapport avec les droits d’accès d’un autre utilisateur</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Au chargement du rapport, affichez la variable</td> 
@@ -83,7 +83,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Affichage de la grille de ressources dans l’onglet Détails</td> 
-      <td> <p>(Rapport utilisateur uniquement) Sélectionnez cette option pour afficher la grille de ressources dans l’onglet Détails du rapport.</p> <p>Remarque : Lors de l’application de l’affichage Grille de ressources à un rapport utilisateur, le rapport affiche uniquement les projets qui sont à l’état actuel. Si vous souhaitez afficher les projets dans un autre état, vous pouvez utiliser l’onglet Utilisation de l’utilisateur dans la zone Personnes de la barre de navigation globale, puis appliquer le mode Grille de ressources à cet endroit. <!--
+      <td> <p>(Rapport utilisateur uniquement) Sélectionnez cette option pour afficher la grille de ressources dans l’onglet Détails du rapport.</p> <p>Remarque : lorsque vous appliquez le mode Grille de ressources à un rapport d’utilisateur, le rapport affiche uniquement les projets qui sont à l’état actuel. Si vous souhaitez afficher les projets dans un autre état, vous pouvez utiliser l’onglet Utilisation de l’utilisateur dans la zone Personnes de la barre de navigation globale, puis appliquer le mode Grille de ressources à cet endroit. <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
@@ -113,7 +113,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </table>
 
 1. Cliquez sur **Invite de rapports** pour configurer les invites du rapport.\
-   Pour plus d’informations sur l’ajout d’invites à un rapport, reportez-vous à l’article [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Pour plus d’informations sur l’ajout d’invites à un rapport, consultez l’article [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 1. Cliquez sur **Terminé,** puis cliquez sur **Enregistrer + Fermer**.
 
@@ -122,6 +122,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Voir aussi :
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Prise en main des rapports dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Prise en main des rapports](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Utilisation des rapports intégrés d’Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
