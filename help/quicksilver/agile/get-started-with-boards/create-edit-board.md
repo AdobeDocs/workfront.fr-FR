@@ -6,9 +6,9 @@ description: Dans la [!UICONTROL panoramas] vous pouvez créer un panorama ou en
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
       La variable [!UICONTROL **Cartes ajoutées**] compteur indique le nombre de cartes qui seront sur le panorama. Par exemple, si vous sélectionnez un projet comportant 100 tâches et problèmes, le compteur affiche 100. Si vous ajoutez une affectation utilisateur et que cette personne est affectée à 5 tâches sur le projet, le compteur affiche 5.
 
-   1. (Facultatif) Sélectionnez [!UICONTROL **Inclure le travail terminé**] pour inclure les cartes complétées sur le panorama.
+   1. (Facultatif) Sélectionnez [!UICONTROL **Inclure les tâches terminées en tant que cartes archivées**] pour placer sur le panorama les tâches terminées et les problèmes sous forme de cartes archivées.
 
       >[!NOTE]
       >
-      >Si cette option n’est pas sélectionnée, lorsque les cartes dans d’autres états sont marquées comme étant terminées, elles &quot;tombent&quot; du panorama et ne s’affichent plus.
+      >Par défaut, les cartes archivées ne s’affichent pas sur le panorama. Pour afficher les cartes archivées, vous devez activer un paramètre de configuration, puis filtrer le panorama afin d’afficher les cartes archivées. Pour plus d’informations, voir [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) et [Filtrage et recherche dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >Si cette option n’est pas sélectionnée, les cartes terminées au moment de la création du panorama n’apparaissent pas sur le panorama. Les cartes ultérieurement marquées comme étant complètes restent sur le panorama dans la colonne Terminé et ne sont pas archivées, sauf si vous configurez le renvoi de la carte. Pour plus d’informations, voir [Configuration des abandons de carte](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Facultatif) Cliquez sur [!UICONTROL **Utilisation de filtres avancés**] pour afficher d’autres options de filtrage.
 
