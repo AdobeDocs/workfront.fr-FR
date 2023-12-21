@@ -7,26 +7,26 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
 
 # Présentation des affectations intelligentes
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
 
-Lors de la gestion des tâches et des affectations de problèmes, vous pouvez utiliser des affectations intelligentes pour identifier le meilleur utilisateur à effectuer le travail. Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour la tâche.
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients.</span>
+
+<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+
+Lors de la gestion des tâches et des affectations de problèmes, vous pouvez utiliser des affectations intelligentes pour identifier la meilleure ressource pour terminer le travail. Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour la tâche. Les affectations intelligentes peuvent être des utilisateurs, des rôles de tâche ou des équipes.
 
 >[!NOTE]
 >
->Les affectations intelligentes ne prennent pas en compte la disponibilité de l’utilisateur. Toutefois, leur disponibilité en fonction de leurs plannings affecte les Dates prévues et prévues des tâches et des problèmes lorsqu’elles sont affectées. Pour plus d’informations sur les plannings, voir l’article [Création d’un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Lors de la suggestion d’utilisateurs, les affectations intelligentes ne prennent pas en compte la disponibilité de l’utilisateur. Toutefois, leur disponibilité en fonction de leurs plannings affecte les Dates prévues et prévues des tâches et des problèmes lorsqu’elles sont affectées. Pour plus d’informations sur les plannings, voir l’article [Création d’un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Cet article contient des informations générales sur les affectations intelligentes. Pour plus d’informations sur l’utilisation d’affectations intelligentes pour affecter des tâches et des problèmes aux utilisateurs, voir [Rendre des affectations intelligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
@@ -43,90 +43,79 @@ Tenez compte des points suivants lorsque vous utilisez des affectations intellig
 
 Vous pouvez afficher des affectations intelligentes dans les zones suivantes où vous pouvez affecter des tâches ou des problèmes :
 
-* une tâche, une liste de problèmes ou un rapport ; <!--edit this to say just issue list or report and update screen shot - add new one-->
+* Liste ou rapport des problèmes dans la colonne Affectations
 
-  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-issue-list.png)
 
-<!--
-* <span class="preview">A task list or report (******insert shot here*****)</span>
--->
+* <span class="preview">Une liste de tâches ou un rapport dans la colonne Affectations </span>
 
-* Un en-tête de tâche ou de problème
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+
+* Un en-tête de tâche ou de problème dans le champ Affectations
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-* Panneau Résumé de la tâche ou du problème
+* Panneau Résumé de la tâche ou du problème dans la zone Affectations
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* Le champ Affectations pour un élément répertorié dans la zone Accueil
+* Le champ Affectations d’un élément répertorié dans la zone Accueil de la zone Affectations lorsque vous ouvrez une tâche ou un problème.
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
-
-<!--removed for scheduling deprecation: 
-
-* Resource Scheduling
-
-  ![](assets/smart-assignments-scheduling-350x219.png)
-
-  >[!CAUTION]
-  >
-  >Resource Scheduling is a deprecated feature. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
--->
-* Équilbreur de charge de travail
+* Équilibreur de charge de travail dans la zone Affecté à lorsque vous affectez une tâche ou un problème
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Critères d’attribution intelligente
 
-<!--
+
 <div class="preview">
 
-Smart assignments work differently for tasks than for issues.  
+Les affectations intelligentes fonctionnent différemment pour les tâches que pour les problèmes.
 
-### Smart assignments criteria for tasks
+### Critères d’attribution intelligente des tâches
 
-Task smart assignments work in two phases:  
+Le calcul des affectations intelligentes de tâche fonctionne en deux phases.
 
-#### First phase of smart assignment calculation criteria for tasks 
+#### Première phase de calcul de l’affectation dynamique pour les tâches
 
-Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+Lors de la première phase de calcul des affectations intelligentes, Workfront calcule un score de similarité pour chaque affectation. Le calcul du score de similarité et l’ordre dans lequel les affectations sont répertoriées prennent en compte les éléments suivants :
 
-* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+* Un score de 100 % est attribué à une affectation existante où les noms de la tâche, du projet et du portfolio sont identiques à la tâche que vous essayez d’affecter. Les noms de projet et de portefeuille de la tâche d’une affectation existante doivent également correspondre au projet et au portefeuille de la tâche que vous essayez d’affecter.
 
-* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+* Si seulement certaines de ces informations provenant d’autres affectations correspondent sur les tâches existantes, le score peut être inférieur à 100 %.
 
-  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
- 
-    >[!TIP]
-    >
-    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+  Par exemple, si vous attribuez une tâche appelée &quot;Ma seconde tâche&quot; sur un projet appelé &quot;Mon projet&quot; dans un portfolio appelé &quot;Mon portefeuille&quot; et que vous avez une tâche existante appelée &quot;Ma tâche&quot; dans un autre projet appelé &quot;Mon projet&quot; dans un portfolio appelé &quot;Mon portefeuille&quot;, l’utilisateur affecté à &quot;Ma tâche&quot; peut obtenir un score de 95 %, car le nom de la tâche existante et la tâche que vous essayez d’assigner sont identiques, mais pas .
 
-* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+  >[!TIP]
+  >
+  >  Workfront recherche des correspondances uniquement dans les champs Nom des tâches, des projets et des portefeuilles, et non dans aucun autre champ.
 
-* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+* Une affectation pourrait obtenir un score plus élevé lorsqu’elles sont affectées à de nombreuses tâches du système portant des noms similaires. Par exemple, si une équipe appelée &quot;Développement&quot; est affectée à 50 % des tâches du système contenant &quot;AI&quot; dans le nom et que vous attribuez désormais une autre tâche avec &quot;AI&quot; dans le nom, le score de l’équipe &quot;Développement&quot; est plus élevé. Dans ce cas, les noms des projets et des portefeuilles ne sont pas aussi importants.
 
-* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
-For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+* En tenant compte de ce système de notation, les 7 premières suggestions sont répertoriées comme des affectations intelligentes, dans l’ordre décroissant de leurs scores. Les affectations dont les scores sont inférieurs à 40 % ne s’affichent pas.
 
-* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+* Si plusieurs affectations ont des scores identiques, ils s’affichent dans l’ordre de la date à laquelle les affectations ont été effectuées, à partir de la date la plus récente.
 
-#### Second phase of smart assignment calculation criteria for tasks
+  Par exemple, si Rick a été affecté à une tâche similaire plus tôt aujourd’hui et que Jennifer a été affectée à une tâche similaire il y a deux jours, Rick s’affiche en premier.
 
-If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+* S’il n’existe aucune correspondance utilisant ce calcul, la deuxième phase des affectations intelligentes commence, qui est calculée à l’aide d’un autre algorithme.
 
-### Smart assignments criteria for tasks and issues 
+#### Deuxième phase de calcul de l’affectation dynamique pour les tâches
 
-</div> 
+Si la première étape des affectations intelligentes de tâche n’a trouvé aucune correspondance, Workfront calcule les affectations intelligentes pour les tâches de la même manière qu’il les calcule pour les problèmes.
+
+Pour plus d’informations, voir la section [Critères d’attribution intelligente des tâches et des problèmes](#smart-assignments-criteria-for-tasks-and-issues) dans cet article.
+
+### Critères d’attribution intelligente des tâches et des problèmes
+
+</div>
 
 >[!NOTE]
 >
-><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
-
--->
+><span class="preview">Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation dynamique de tâche n’a trouvé aucune correspondance. pour plus d’informations, voir la section [Première phase de calcul de l’affectation dynamique pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) dans cet article. Par défaut, les critères suivants s’appliquent toujours aux problèmes. </span>
 
 Les utilisateurs sont recommandés dans la liste déroulante Affectations intelligentes en fonction d’une combinaison des critères suivants (répertoriés dans l’ordre du plus important au moins important) :
 

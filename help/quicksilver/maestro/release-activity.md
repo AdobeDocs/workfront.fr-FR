@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '2796'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,26 @@ L’expérience de commentaire des enregistrements Maestro correspond à la nouv
 
 Pour plus d’informations, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
 
+### Connecteur Maestro (bêta) pour Adobe Workfront Fusion
+
+Aperçu et production : 21 décembre 2023
+
+Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter à Maestro. Avec la nouvelle connexion Adobe Maestro Fusion, vous pouvez :
+
+* Créer, lire, mettre à jour et supprimer des enregistrements
+
+* Obtention d’une liste d’enregistrements par type d’enregistrement
+
+* Supprimer ou obtenir une liste des types d’enregistrement
+
+* Recherche d’enregistrements
+
+* Effectuer un appel API
+
+* Déclencher un scénario lorsqu’une modification est effectuée dans Maestro
+
+Pour plus d’informations, voir [Modules Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## Semaine du 11 décembre 2023
 
 ### Mettre à jour le champ principal dans une vue de tableau d’un type d’enregistrement
@@ -126,7 +146,7 @@ Pour plus d’informations, voir [Gestion du mode Tableau](/help/quicksilver/mae
 
 Version d’aperçu : 14 décembre 2023
 
-Version de production : prévue pour le 15 décembre 2023
+Version de production : 21 décembre 2023
 
 >[!IMPORTANT]
 >
