@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -245,7 +245,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. Dans le **Type d’enregistrement** , sélectionnez l’une des options suivantes : <!--is the field name spelled right? lowercase "t"?-->
+1. Dans le **Type d’enregistrement** , recherchez un type d’enregistrement ou sélectionnez l’une des options suivantes : <!--is the field name spelled right? lowercase "t"?-->
 
    * Un autre type d&#39;enregistrement opérationnel ou une taxonomie de l&#39;espace de travail que vous avez sélectionné
 

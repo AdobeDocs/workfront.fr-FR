@@ -6,9 +6,9 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,10 @@ ht-degree: 0%
 >
 >La nouvelle expérience de commentaire n’est disponible que pour la section Mises à jour des objets Workfront et n’est pas disponible lorsque vous accédez aux objets à partir des zones suivantes :
 >
-> * Accueil
+> * Page d’accueil
 > * Panneau Résumé dans les listes
 > * Panneau Résumé dans les feuilles de temps
+> * Panneau Résumé de l’équilibreur de charge de travail
 
 Vous pouvez baliser les utilisateurs lors d’une mise à jour d’un objet si vous souhaitez attirer leur attention sur un objet qu’ils n’auraient pas normalement suivi.
 
@@ -66,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 

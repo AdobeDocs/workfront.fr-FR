@@ -6,7 +6,7 @@ description: Vous pouvez limiter la quantité d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -149,24 +149,24 @@ Tenez compte des points suivants lors de la création de filtres à l’aide des
   >
   >1. Utilisez le créateur standard pour créer un filtre avec la syntaxe suivante :
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. Basculez vers le créateur hérité et modifiez le filtre à l’aide de la syntaxe du créateur hérité, comme décrit dans la section [Création ou modification d’un filtre dans le créateur hérité](#create-filter-in-legacy-builder) dans cet article. La syntaxe du créateur hérité affiche les instructions de filtre comme suit :
+  >1. Passez au créateur hérité et modifiez le filtre à l’aide de la syntaxe du créateur hérité, comme décrit dans la section . [Création ou modification d’un filtre dans le créateur hérité](#create-filter-in-legacy-builder) dans cet article. La syntaxe du créateur hérité affiche les instructions de filtre comme suit :
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. Apportez une modification au filtre dans l’interface héritée.
   >1. Revenez au créateur standard. L’instruction de filtre s’affiche selon la logique prise en charge dans le créateur hérité, comme décrit ci-dessus.
   >
-  >   Le filtre s’affiche dans l’interface du créateur standard comme suit :
+  >      Le filtre s’affiche dans l’interface du créateur standard comme suit :
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   Cela se produit car le filtre a été modifié dans l’interface héritée.
+  >      Cela se produit car le filtre a été modifié dans l’interface héritée.
 
 ## Création ou modification d’un filtre dans le créateur standard
 

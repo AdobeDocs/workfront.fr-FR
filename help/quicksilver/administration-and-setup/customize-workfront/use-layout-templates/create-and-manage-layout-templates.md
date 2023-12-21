@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,14 @@ Pour plus d’informations sur la façon dont un administrateur Workfront peut m
 ## Observations relatives à la création et à la gestion des modèles de mise en page
 
 * Les utilisateurs peuvent personnaliser quelques zones de leur propre disposition. Lorsque vous modifiez un modèle de mise en page, vos modifications fusionnent avec les personnalisations qu’elles ont effectuées, sans les remplacer ni les réinitialiser. C’est également le cas si vous affectez des utilisateurs à un nouveau modèle de mise en page.
-* Les anciens modèles de mise en page créés dans Adobe Workfront Classic sont automatiquement disponibles dans votre instance de la nouvelle expérience Adobe Workfront depuis leur migration début à l’automne 2019. Les modèles de mise en page créés dans Adobe Workfront Classic après cette période ont été migrés en avril 2020. Nous vous recommandons de mettre à jour ces modèles de mise en page dans la nouvelle expérience Adobe Workfront afin de profiter des nouvelles fonctionnalités et de les rendre encore plus utiles dans cet environnement.
 * Les administrateurs de groupe et les utilisateurs disposant d’une licence Plan qui peuvent modifier d’autres utilisateurs peuvent ajouter des modèles de mise en page au niveau du système et du groupe aux utilisateurs qu’ils peuvent gérer lors de la modification de leur profil.
 * Les administrateurs de groupe ne peuvent pas affecter de modèles de mise en page à des rôles de tâche ou à des équipes.
 
 Pour plus d’informations sur les modèles de mise en page, voir [Modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+
+<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
+* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
+-->
 
 ## Création ou modification d’un modèle de mise en page
 

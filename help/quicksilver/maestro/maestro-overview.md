@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1951'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,44 @@ Voici quelques-unes des principales fonctionnalités de Maestro :
 * Résolvez le problème de la gestion du travail à toutes les étapes et pour toutes les parties prenantes qui participent au processus de travail.
 * Personnalisez entièrement vos workflows, depuis le choix des types d’objets (ou des types d’enregistrement) utilisés par votre entreprise jusqu’à la configuration de la liaison entre ces objets.
 * Liez-les aux types d’objets d’autres systèmes, créant ainsi une structure cohérente pour tous vos processus.
+
+## Fonctionnalités actuellement disponibles dans Maestro
+
+Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans Maestro, ainsi qu’une chronologie de leur disponibilité. La liste ne contient pas toutes les fonctionnalités.
+
+| Fonctionnalité | Disponible maintenant | Disponible bientôt | En recherche |
+|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
+| Créer des espaces de travail | ✓ |                                  |                  |
+| Création de types d’enregistrements opérationnels | ✓ |                                  |                  |
+| Création de taxonomies | ✓ |                                  |                  |
+| Créer des enregistrements et des taxonomies individuels nommés | ✓ |                                  |                  |
+| Créer des champs personnalisés d’enregistrement | ✓ |                                  |                  |
+| Importation de types d’enregistrement et de champs à l’aide d’un fichier Excel ou CSV | ✓ |                                  |                  |
+| Enregistrement de lien | ✓ |                                  |                  |
+| Affichage des enregistrements dans une table | ✓ |                                  |                  |
+| Affichage des enregistrements dans une chronologie | ✓ |                                  |                  |
+| Filtrage des enregistrements | ✓ |                                  |                  |
+| Regroupement des enregistrements dans la vue de chronologie | ✓ |                                  |                  |
+| Regroupement des enregistrements dans la vue de tableau | ✓ |                                 |                  |
+| Tri des enregistrements dans la vue de tableau | ✓ |                                 |                  |
+| Tri des enregistrements en mode Chronologie |                               | ✓ |                  |
+| Trier les groupements dans la vue Tableau |                               | ✓ |                  |
+| Tri des regroupements dans la vue de chronologie |                               | ✓ |                  |
+| Connexion des espaces de travail |                               | ✓ |                  |
+| Connexion des enregistrements et des taxonomies Maestro | ✓ |
+| Recherche d’enregistrements dans la vue de tableau | ✓ |   |
+| Connecter des enregistrements Maestro à des projets, programmes, portfolios, entreprises et groupes Workfront | ✓ |                                 |                  |
+| Connexion des enregistrements Maestro aux ressources Adobe Experience Manager | ✓ |                                  |                 |
+| Page Détails de l’enregistrement | ✓ |                                  |                  |
+| Mettre à jour la mise en page de la page Détails de l’enregistrement |                               | ✓ |                  |
+| Autorisations Workspace | | ✓ |  |
+| Soumettre des demandes |                               |                                  | ✓ |
+| Brève présentation créative |                               |                                  | ✓ |
+| Personnalisation de la couleur et de l’icône d’un enregistrement | ✓ |                                  |                 |
+| Ajout de commentaires aux enregistrements | ✓ |                                  |                 |
+| Formatage de texte enrichi pour les champs de paragraphe | ✓ |                                  |                 |
+| Modules Maestro pour Adobe Workfront Fusion | ✓ |                                  |                 |
+| Copier et coller des informations d’un champ vers un autre | ✓ |                                  |                 |
 
 ## Accès requis pour utiliser Maestro pendant le programme bêta fermé
 
@@ -344,44 +382,6 @@ Pour localiser Maestro :
    1. Création d’une vue de chronologie à partir de **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
 
    1. Personnalisez la vue de la chronologie en mettant à jour les filtres, les groupes ou les paramètres.
-
-## Fonctionnalités actuellement disponibles dans Maestro
-
-Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans Maestro, ainsi qu’une chronologie de leur disponibilité. La liste ne contient pas toutes les fonctionnalités.
-
-| Fonctionnalité | Disponible maintenant | Disponible bientôt | En recherche |
-|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-| Créer des espaces de travail | ✓ |                                  |                  |
-| Création de types d’enregistrements opérationnels | ✓ |                                  |                  |
-| Création de taxonomies | ✓ |                                  |                  |
-| Créer des enregistrements et des taxonomies individuels nommés | ✓ |                                  |                  |
-| Créer des champs personnalisés d’enregistrement | ✓ |                                  |                  |
-| Importation de types d’enregistrement et de champs à l’aide d’un fichier Excel ou CSV | ✓ |                                  |                  |
-| Enregistrement de lien | ✓ |                                  |                  |
-| Affichage des enregistrements dans une table | ✓ |                                  |                  |
-| Affichage des enregistrements dans une chronologie | ✓ |                                  |                  |
-| Filtrage des enregistrements | ✓ |                                  |                  |
-| Regroupement des enregistrements dans la vue de chronologie | ✓ |                                  |                  |
-| Regroupement des enregistrements dans la vue de tableau | ✓ |                                 |                  |
-| Tri des enregistrements dans la vue de tableau | ✓ |                                 |                  |
-| Tri des enregistrements en mode Chronologie |                               | ✓ |                  |
-| Trier les groupements dans la vue Tableau |                               | ✓ |                  |
-| Tri des regroupements dans la vue de chronologie |                               | ✓ |                  |
-| Connexion des espaces de travail |                               | ✓ |                  |
-| Connexion des enregistrements et des taxonomies Maestro | ✓ |
-| Recherche d’enregistrements dans la vue de tableau | ✓ |   |
-| Connecter des enregistrements Maestro à des projets, programmes, portfolios, entreprises et groupes Workfront | ✓ |                                 |                  |
-| Connexion d’enregistrements Maestro à des ressources, dossiers et collections Adobe Experience Manager | ✓ |                                  |                 |
-| Page Détails de l’enregistrement | ✓ |                                  |                  |
-| Mettre à jour la mise en page de la page Détails de l’enregistrement |                               | ✓ |                  |
-| Autorisations Workspace | | ✓ |  |
-| Soumettre des demandes |                               |                                  | ✓ |
-| Brève présentation créative |                               |                                  | ✓ |
-| Personnalisation de la couleur et de l’icône d’un enregistrement | ✓ |                                  |                 |
-| Ajout de commentaires aux enregistrements |                               | ✓ |                 |
-| Formatage de texte enrichi pour les champs de paragraphe | ✓ |                                  |                 |
-
-
 
 ## Activité de mise à jour Maestro
 

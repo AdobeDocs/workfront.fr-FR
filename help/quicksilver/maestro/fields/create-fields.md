@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 
 1. Cliquez sur le bouton **+** dans le coin supérieur droit de la vue de tableau pour ajouter de nouveaux champs.
-1. Dans le **Nouveau champ** , sélectionnez parmi les types de champ suivants :
+1. Dans le **Nouveau champ** , recherchez un type de champ dans la variable **Type de champ** ou effectuez une sélection parmi les types de champ suivants :
 
    * [Texte à une ligne](#single-line-text)
    * [Paragraphe](#paragraph)
