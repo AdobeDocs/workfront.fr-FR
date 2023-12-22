@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Vous pouvez configurer les éléments suivants :
 * Quels champs s’affichent pour une tâche ou un problème dans la zone Détails et dans quel ordre ?
 * Si les mises à jour, l’heure consignée, les documents joints et les horodatages s’affichent pour une tâche ou un problème sélectionné
 
-Vous pouvez également personnaliser les champs affichés par les utilisateurs dans la zone Accueil lorsque les utilisateurs cliquent sur l’approbation d’un projet, l’approbation d’un document ou l’approbation de version de document qui leur est affectée.
+Vous pouvez également personnaliser les champs affichés par les utilisateurs dans la zone Accueil lorsque les utilisateurs cliquent sur l’approbation d’un projet, l’approbation de document ou l’approbation de version de document qui leur est affectée.
 
 Pour plus d’informations sur la zone d’accueil, voir [Utilisation de la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Pour plus d’informations sur le panneau Résumé, voir [Aperçu du résumé](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
    <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur système.
-Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
 1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow.png) under **Personnalisation des éléments affichés par les utilisateurs**, puis cliquez sur **Accueil et résumé**.
 
-1. Dans la liste qui s’affiche à gauche, cliquez sur le type d’objet (**Tâches**, **Problèmes**, **Projets**, **Documents** ou **Versions de document**) que vous souhaitez personnaliser dans Accueil et Résumé.
+1. Dans la liste qui s’affiche à gauche, cliquez sur le type d’objet (**Tâche**, **Problèmes**, **Projets**, **Documents**, ou **Versions de document**) que vous souhaitez personnaliser dans Accueil et Résumé.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,7 +75,7 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
       <td> <p>Dans Accueil, votre configuration pour ce paramètre affecte la zone située à droite d’une tâche lorsqu’un utilisateur clique sur la tâche. Et, dans une liste de tâches, cela affecte le panneau Résumé qui s’affiche sur le côté droit de la page lorsqu’un utilisateur sélectionne une tâche, puis clique sur l’icône Ouvrir le résumé . <img src="assets/summary-panel-icon.png">.</p> <p>Par exemple, vous pouvez déterminer les champs que les utilisateurs voient dans la zone Détails lorsqu’ils sélectionnent des tâches dans Accueil :</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>Et lorsqu’ils sélectionnent une tâche dans le Résumé :</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Événements</td> 
+      <td role="rowheader">Problèmes</td> 
       <td> <p>Dans Accueil, votre configuration pour ce paramètre affecte la zone située à droite d’un problème lorsqu’un utilisateur clique sur le problème.</p> <p>Dans une liste de problèmes, ce paramètre affecte le panneau Résumé qui s’affiche sur le côté droit de la page lorsqu’un utilisateur sélectionne un problème, puis clique sur l’icône Ouvrir le résumé . <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
      <tr> 
@@ -101,7 +101,7 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Conditionnel) Si la variable **Bouton Définir l’action Principale** s’affiche dans le menu déroulant (si vous sélectionnez **Tâches** ou **Problèmes** dans la liste de gauche), cliquez sur l’action Principale (**Terminé** ou **État**) que vous souhaitez mettre à la disposition des utilisateurs dans la zone Accueil et dans le panneau Résumé lorsqu’ils visualisent une tâche ou un problème.
+1. (Conditionnel) Si la variable **Bouton Définir l’action principale** s’affiche dans le menu déroulant (si vous sélectionnez **Tâche** ou **Problèmes** dans la liste de gauche), cliquez sur l’action principale (**Terminé** ou **État**) que vous souhaitez mettre à la disposition des utilisateurs dans la zone Accueil et dans le panneau Résumé lorsqu’ils visualisent une tâche ou un problème.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -134,13 +134,13 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
        <ul>
         <li>Date d'achèvement prévue</li>
         <li>Date d'engagement</li>
-        <li><p>Date d’envoi</p></li>
-       </ul><p><b>REMARQUE</b>: Lorsque cette option est activée, les tâches arrivant en retard sont déplacées vers le regroupement Tard dans la liste des tâches à domicile en fonction de la date uniquement et non de l’heure.</p></td> 
+        <li>Date d’envoi</li>
+       </ul><p><b>REMARQUE</b>: lorsque cette option est activée, les tâches arrivant en retard sont déplacées vers le regroupement En retard dans la liste des tâches à domicile en fonction de la date uniquement et non de l’heure.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Continuez à personnaliser le modèle de mise en page.
+1. Poursuivez la personnalisation du modèle de mise en page.
 
    Ou
 

@@ -4,9 +4,9 @@ description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,40 @@ Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscr
                             </li>
                             <li>
                                 <p>Production pour les versions trimestrielles : avec la version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Améliorations des panoramas
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Les panoramas dynamiques archivent les cartes terminées lors de la création du panorama.</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Lorsque vous créez un panorama dynamique, vous avez la possibilité d’inclure les tâches terminées et les problèmes sur le panorama. Pour les projets comportant un grand nombre de tâches et de problèmes terminés, le panorama dynamique peut rencontrer des problèmes de performances. Désormais, lorsque vous créez un panorama dynamique et que vous choisissez d’inclure les tâches terminées, les tâches et les problèmes sont apportés au panorama sous forme de cartes archivées.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 21 décembre 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production pour tous les clients : 21 décembre 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -170,6 +204,24 @@ Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscr
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Contrôles administrateur pour la nouvelle page d’accueil à l’aide des modèles de mise en page</a></p><p>Les administrateurs peuvent désormais personnaliser la nouvelle page d’accueil pour les utilisateurs à l’aide de modèles de mise en page. Les options de personnalisation incluent la sélection des widgets obligatoires et de leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour le choix des filtres et des groupes disponibles (ainsi que la définition des valeurs par défaut).</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 21 décembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Les boutons d’action rapide Mon travail ont été modifiés pour s’afficher uniquement lorsque la souris passe dessus.</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Pour améliorer les performances, les boutons d’action rapide disponibles dans le widget Mon travail ne s’affichent désormais que lorsqu’un élément de travail est survolé avec la souris.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -228,6 +280,44 @@ Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscr
                             </li>
                             <li>
                                 <p><span class="preview">Production pour tous les clients : 9 novembre 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### Améliorations des projets
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes pilotées par l’IA</a></p><p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique partout dans Workfront où vous affectez une tâche (listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé).</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 21 décembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 24.1</p>
                             </li>
                         </ul>
                     </td>

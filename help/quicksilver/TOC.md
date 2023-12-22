@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13842'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 0%
       * [Préparation d’une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Version 2024 du 1er trimestre {#release-24-q1}
          * [Présentation de la version 2024 du 1er trimestre](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
-         * [Améliorations apportées à l’administrateur au premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
-         * [Améliorations de la gestion des documents au premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [Améliorations de l’administrateur du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
+         * [Améliorations de la gestion des documents au 1er trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [Améliorations des panoramas du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
+         * [Améliorations de l’accueil du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
          * [Améliorations de l’intégration 2024 - 1er trimestre](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
-         * [Amélioration du flux de mise à jour et des notifications du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-         * [Améliorations de la page d’accueil du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+         * [Améliorations du projet 2024 - 1er trimestre](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
+         * [Améliorations du flux de mise à jour et des notifications 2024 - 1er trimestre](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * Version 2023 du 4e trimestre {#release-23-q4}
          * [Présentation de la version 2023 du trimestre 4](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [Améliorations de l’administrateur du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -537,6 +539,7 @@ ht-degree: 0%
          * [Personnalisation du panneau de gauche](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [Personnalisation de la vue Détails](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [Personnalisation de l’accueil et du résumé](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [Personnalisation de la nouvelle page d’accueil](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [Personnalisation des pages imprimées](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Personnalisation des filtres, des vues et des groupes](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [Personnalisation de la terminologie de l’interface utilisateur](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

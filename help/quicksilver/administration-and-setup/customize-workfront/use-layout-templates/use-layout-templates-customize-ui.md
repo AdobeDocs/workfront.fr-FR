@@ -1,5 +1,5 @@
 ---
-title: Modèles de disposition
+title: Modèles de mise en page
 user-type: administrator
 content-type: reference
 product-area: system-administration;templates
@@ -10,14 +10,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ac70fc3564273ef7865de2ae4ca704bb7f61af70
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 2%
+source-wordcount: '158'
+ht-degree: 0%
 
 ---
 
-# Modèles de disposition
+# Modèles de mise en page
 
 Cette section contient les articles suivants :
 
@@ -28,6 +28,7 @@ Cette section contient les articles suivants :
 * [Personnalisation du panneau de gauche à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
 * [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
 * [Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [Personnalisation de la nouvelle page d’accueil à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
 * [Personnalisation des pages épinglées à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [Personnalisation des filtres, des vues et des groupes à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 * [Personnalisation de la terminologie de l’interface utilisateur à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
