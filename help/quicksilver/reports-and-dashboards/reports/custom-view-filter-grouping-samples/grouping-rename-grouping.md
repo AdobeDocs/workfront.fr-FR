@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Groupement : modifier le nom d''affichage dans un groupement"'
-description: Vous pouvez renommer les regroupements en un élément plus familier à vos utilisateurs.
-author: Lisa and Nolan
+title: "Groupement : éditez le nom d'affichage dans un groupement"
+description: Vous pouvez renommer les groupes dans les listes et les rapports en un élément plus familier pour vos utilisateurs.
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# Regroupement : modifier le nom d&#39;affichage dans un groupement ;
+# Groupement : modifiez le nom d&#39;affichage dans un groupement.
+
+<!--Audited: 01/2024-->
 
 Vous pouvez renommer les regroupements en un élément plus familier à vos utilisateurs.
 
@@ -36,12 +38,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Demande de modification d’un groupement </p>
-   <p>Prévoir de modifier un rapport</p> </td> 
+   <td>
+
+<p>Nouveau : </p>
+   <ul>
+   <li> <p>Contributeur à la modification d’un groupement </p></li>
+   <li><p>Standard pour modifier un rapport</p></li></ul>
+
+<p> Actuel :</p>
+   <ul>  
+   <li><p>Demande de modification d’un groupement </p></li>
+   <li><p>Prévoir de modifier un rapport</p></li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -65,47 +76,36 @@ Pour modifier le nom d’affichage dans un regroupement de projet :
 1. Accédez à une liste de projets.
 1. Dans la **Regroupement** menu déroulant, sélectionnez **Nouveau groupement**.
 
-1. Cliquez sur **Ajouter un groupement**, puis commencez à saisir &quot;Nom du Portfolio&quot; dans la variable **Commencez par :** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Cliquez sur **Ajouter un groupement**, puis commencez à saisir &quot;Nom du Portfolio&quot; dans la variable **Commencez par :** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 
 1. Cliquez sur **Passer en mode Texte**.
 1. Effectuez l’une des opérations suivantes :
 
    * Ajoutez le code suivant au texte existant disponible dans le **Regrouper votre rapport** box :
 
-      ```
-      group.0.displayname=Your
-      ```
 
-      ```
-      Value
-      ```
+     `group.0.displayname=Your Value`
 
-      Ou, dans ce cas :
 
-      ```
-      group.0.displayname=Portfolio
-      ```
+     Ou, dans ce cas :
+
+     `group.0.displayname=Portfolio`
 
    * Supprimez toutes les lignes dans l&#39;interface du mode texte du groupement contenant le mot &quot;name&quot;, puis ajoutez la ligne :
 
-      ```
-      group.0.name=Your Value
-      ```
+     `group.0.name=Your Value`
 
-      Ou, dans ce cas :
+     Ou, dans ce cas :
 
-      ```
-      group.0.name=Portfolio
-      ```
+     `group.0.name=Portfolio`
 
-      Vous pouvez également laisser la variable
+     >[!TIP]
+     >
+     >Vous pouvez également laisser la variable `group.0.name=` et la variable `group.0.displayname=` lignes vides, auquel cas le groupement affiche la valeur par laquelle vous effectuez le groupement.
 
-      ```
-      group.0.name
-      ```
 
-      ligne vide, auquel cas le groupement affiche le nom de la valeur par laquelle vous effectuez le groupement.
-
-      ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Cliquez sur **Terminé**, puis **Enregistrer le groupement**.
+
+   Le nom par défaut du groupement est modifié en fonction de vos informations de mode texte.

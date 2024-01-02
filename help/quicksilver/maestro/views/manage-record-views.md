@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -60,19 +60,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Formule Adobe Workfront</p></td>
    <td>
-<p>Tous</p>
+<p>Quelconque</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Tous</p> 
+   <p>Quelconque</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Tous</p>  
+   <td> <p>Quelconque</p>  
 </td>
   </tr>
 
@@ -105,7 +105,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Les éléments suivants sont propres à chaque vue dans Maestro :
 
    * Filtre
-   * Regroupement
+   * Regroupement 
    * Trier
 
   <!-- some of these are not available in all of the views - edit above-->
@@ -146,6 +146,7 @@ Le tableau suivant montre les similitudes et les différences entre les vues du 
 | Tri des enregistrements | ✓ |              |
 | Enregistrements de code couleur |           | ✓ |
 | Regroupements de codes couleur |           | ✓ |
+| Recherche d’enregistrements | ✓ | ✓ |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
 <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->

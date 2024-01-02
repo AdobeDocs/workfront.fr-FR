@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 1%
+source-wordcount: '1648'
+ht-degree: 0%
 
 ---
 
@@ -60,19 +60,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Formule Adobe Workfront</p></td>
    <td>
-<p>Tous</p>
+<p>Quelconque</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Tous</p> 
+   <p>Quelconque</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Tous</p>  
+   <td> <p>Quelconque</p>  
 </td>
   </tr>
 <tr>
@@ -145,6 +145,20 @@ Pour gérer une vue de chronologie :
    Cliquez sur **Basculer vers la vue compacte** pour afficher les enregistrements dont les dates ne se croisent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
 
    Les enregistrements s’affichent par défaut dans la vue compacte.
+
+1. Procédez comme suit pour rechercher rapidement les enregistrements correspondant à un mot-clé :
+
+   1. Cliquez sur le bouton **Rechercher** icon ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et l’enregistrement avec la correspondance correcte est mis en surbrillance.
+
+      ![](assets/search-box-and-results-timeline-view.png)
+
+      Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
+
+      Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
+
+   1. Appuyez sur Entrée sur votre clavier pour accéder au champ suivant trouvé.
+   1. (Facultatif) S’il existe plusieurs correspondances, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour trouver toutes les correspondances dans le tableau.
+   1. Cliquez sur l’icône X dans la zone de recherche pour effacer le mot-clé de recherche.
 
 1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)

@@ -6,7 +6,7 @@ description: Vous pouvez limiter la quantité d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Création ou modification de filtres dans Adobe Workfront
+
+<!--Audited: 12/2023-->
 
 Vous pouvez limiter la quantité d’informations affichées à l’écran dans une liste d’éléments avec un filtre. Vous pouvez définir certains critères en fonction d’informations spécifiques sur un objet et afficher uniquement les objets qui répondent à ces critères.
 

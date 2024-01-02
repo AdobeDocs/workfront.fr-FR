@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 2%
@@ -502,9 +502,12 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
 
 ## Calendrier des versions
 
-Pour plus d’informations sur les fonctionnalités publiées dans la nouvelle expérience de commentaires au cours de la période bêta, voir [Nouvelle activité de commentaires sur la version bêta de l’expérience](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>[!IMPORTANT]
+>
+>Pour plus d’informations sur les fonctionnalités publiées dans la nouvelle expérience de commentaires au cours de la période bêta, voir [Nouvelle activité de commentaires sur la version bêta de l’expérience](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>
+>Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Vous trouverez ci-dessous une chronologie planifiée avec des jalons clés pour la publication de la nouvelle expérience de commentaire dans l’environnement de production. Outre les jalons ci-dessous, nous continuerons à améliorer l’expérience de commentaires grâce à des améliorations plus modestes.
 

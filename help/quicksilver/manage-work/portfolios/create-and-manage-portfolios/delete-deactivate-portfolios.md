@@ -6,14 +6,16 @@ description: Les Portfolios sont des collections de projets ou de programmes dan
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 # Suppression et désactivation de portefeuilles
+
+<!--Audited: 01/2024-->
 
 Les Portfolios sont des collections de projets ou de programmes dans [!DNL Adobe Workfront]. Vous pouvez supprimer ou désactiver un portfolio si vous estimez qu’il n’est pas pertinent pour votre système.
 
@@ -29,15 +31,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nouveau : [!UICONTROL Standard] </p>
+   <p>Actuel : formule [!UICONTROL] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès à [!UICONTROL Modifier] aux projets et aux Portfolios</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès à [!UICONTROL Modifier] aux projets et aux Portfolios</p> <p><b>NOTE</b></p> <p> Si vous n’y avez pas accès, demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -74,7 +77,7 @@ Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir
 
 1. Cliquez sur **[!UICONTROL Portfolios]** .
 1. Cliquez sur le nom du portfolio.
-1. Cliquez sur le menu Plus ![](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Désactiver le Portfolio]**.
+1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Désactiver le Portfolio]**.
 
 ## Suppression d’un portfolio
 
