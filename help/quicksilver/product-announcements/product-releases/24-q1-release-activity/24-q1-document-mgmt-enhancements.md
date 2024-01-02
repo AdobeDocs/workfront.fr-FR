@@ -4,9 +4,9 @@ description: Améliorations de la gestion des documents au premier trimestre 202
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,29 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 ## Statuts mis à jour pour les approbations de documents
 
+>[!NOTE]
+>
+>Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.
+
 Pour clarifier l’état d’approbation des documents, nous avons mis à jour les validations d’état des documents disponibles. Désormais, l’état d’approbation tient compte des opérateurs validants qui marquent la fin de leur révision, ainsi que des cas où il n’y a que des opérateurs validants, mais pas d’approbateurs.
 
 Pour plus d’informations sur les états disponibles spécifiques, voir [Etat d&#39;approbation des documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## L’état de révision et d’approbation des documents s’affiche dans l’en-tête du document.
 
+>[!NOTE]
+>
+>Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.
+
 Pour rendre le processus de révision et d’approbation plus transparent, nous avons ajouté le statut à l’en-tête de la page Détails du document. Vous pouvez maintenant voir en un coup d’oeil la décision d’approbation prise sur le document ou si le document est toujours en cours de révision.
 
 Pour plus d’informations sur des états spécifiques, voir [Etat d&#39;approbation des documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Marquage d’une révision comme terminée
+
+>[!NOTE]
+>
+>Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.
 
 Pour clarifier le moment où un document a été révisé et est prêt pour la prochaine étape d’approbation, nous avons créé une nouvelle **Terminer ma révision** bouton . Désormais, lorsqu’un utilisateur défini en tant que réviseur a consulté un document, il peut cliquer sur le bouton **Terminer ma révision** pour enregistrer dans Workfront que la révision est terminée.
 
