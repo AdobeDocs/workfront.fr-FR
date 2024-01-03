@@ -3,12 +3,12 @@ product-area: documents
 navigation-topic: approvals
 title: Affichage du nombre de décisions de BAT et de document pour tous les utilisateurs
 description: Vous pouvez afficher le nombre de BAT et de décisions de documents prises par les utilisateurs dans votre instance Workfront.
-author: Courtney
+author: Courtney and Lisa
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
+source-git-commit: 21df7fd2340214034a2a2d6b4199861a2d8f71cd
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Pour afficher le nombre de décisions d’un utilisateur :
 1. Ouvrez le **Vues** , puis choisissez la **Licences** vue.
 1. Rechercher la colonne **Décisions ce mois-ci** pour afficher le nombre de décisions prises par chaque utilisateur au cours du mois.
 1. <span class="preview">Pour afficher les données historiques, ouvrez le **Vues** zone et choisissez **Vue utilisateur historique**.</span>
-1. <span class="preview">Rechercher la colonne **Décisions historiques des utilisateurs** pour afficher le nombre de décisions prises par chaque utilisateur au cours d’un mois. Les données remontent à 12 mois à partir du mois en cours.</span>
+1. <span class="preview">Rechercher la colonne **Décisions historiques des utilisateurs** pour afficher le nombre de décisions prises par chaque utilisateur au cours d’un mois. Les données peuvent inclure jusqu’à 12 mois avant le mois en cours, selon la date à laquelle ce rapport a été mis à la disposition de votre organisation.</span>
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Pour afficher le nombre de décisions d’un utilisateur :
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Décisions des utilisateurs**.
 1. Rechercher la colonne **Décisions ce mois-ci** pour afficher le nombre de décisions prises par chaque utilisateur au cours du mois.
 
-   <span class="preview">Les données remontent à 12 mois à partir du mois en cours. La variable **Mois** et **Année** Les colonnes indiquent le mois au cours duquel les décisions ont été prises. Le mois 1 est janvier, le mois 2 février, etc.</span>
+   <span class="preview">Les données peuvent inclure jusqu’à 12 mois avant le mois en cours, selon la date à laquelle ce rapport a été mis à la disposition de votre organisation. La variable **Mois** et **Année** Les colonnes indiquent le mois au cours duquel les décisions ont été prises. Le mois 1 est janvier, le mois 2 février, etc.</span>
 
 1. Consultez le rapport et modifiez-le selon vos besoins. Pour plus d’informations, voir [Création d’un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
