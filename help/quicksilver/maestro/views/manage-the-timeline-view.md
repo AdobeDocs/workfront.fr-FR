@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,11 @@ Pour gérer une vue de chronologie :
 
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
-      Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
+      Vous ne pouvez pas utiliser de mots-clés associés à des champs qui ne s’affichent pas dans la vue de la chronologie.
 
    1. Appuyez sur Entrée sur votre clavier pour accéder au champ suivant trouvé.
    1. (Facultatif) S’il existe plusieurs correspondances, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour trouver toutes les correspondances dans le tableau.
-   1. Cliquez sur l’icône X dans la zone de recherche pour effacer le mot-clé de recherche.
+   1. Cliquez sur le bouton **x** dans la zone de recherche pour effacer le mot-clé de recherche.
 
 1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)

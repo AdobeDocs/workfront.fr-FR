@@ -6,24 +6,24 @@ description: À mesure que vous partagez vos rapports avec d’autres utilisateu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1209'
 ht-degree: 2%
 
 ---
 
 # Utilisation d’une mise en forme conditionnelle dans les vues
 
+<!--Audited: 01/2024-->
+
 À mesure que vous partagez vos rapports avec d’autres utilisateurs d’Adobe Workfront, pensez à personnaliser l’affichage des rapports, à faciliter la lecture de certaines informations ou à simplement vous distinguer.
 
 Vous pouvez personnaliser l&#39;onglet Détails de vos rapports en ajoutant une mise en forme spéciale ou conditionnelle à la vue de vos rapports.
 
-Vous devez disposer des autorisations de gestion pour le rapport afin de pouvoir le modifier et ajouter une mise en forme spéciale à la vue.
-
 Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-En mettant en forme de manière conditionnelle les colonnes de la vue du rapport, vous pouvez configurer des règles qui affectent l&#39;affichage du rapport. Lorsque ces conditions ou règles sont remplies, la mise en forme spéciale est appliquée.
+En mettant en forme de manière conditionnelle les colonnes dans la vue du rapport, vous pouvez configurer des règles qui affectent la manière dont le rapport s’affiche. Lorsque ces conditions ou règles sont remplies, la mise en forme spéciale est appliquée.
 
 Par exemple, si le pourcentage d’achèvement d’une tâche est inférieur à 20 %, vous pouvez mettre le champ en surbrillance en affichant le pourcentage en gras, en rouge et dans une couleur d’arrière-plan jaune.
 
@@ -45,15 +45,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Requête ou supérieure </p> </td> 
+   <td> <p>Nouveau :</p> 
+   <ul><li>Standard pour les vues de rapport</li>
+  <li> Contributeur ou version ultérieure pour les vues de liste</li></ul>
+
+<p>Actuel :</p>
+   <ul>
+    <li> Planification des vues de rapport </li>
+    <li> Requête ou supérieure pour les vues de liste </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, tableaux de bord et calendriers pour modifier une vue dans un rapport</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, tableaux de bord et calendriers pour modifier une vue dans un rapport</p> <p><b>NOTE</b></p> <p>Si vous n’y avez pas accès, demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -66,21 +73,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Conditions préalables
 
-Vous devez créer un rapport avant d’y ajouter une mise en forme conditionnelle.
+Vous devez créer un rapport pour pouvoir ajouter une mise en forme conditionnelle à sa vue.
 
 Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Création d’une vue formatée de manière conditionnelle
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
+{{step1-to-reports}}
 
 1. Cliquez sur le nom d’un rapport dans lequel vous souhaitez créer une vue au format conditionnel.
 
    Ou
 
-   Cliquez sur **Actions de rapport**, puis cliquez sur **Modifier**.
+   Cliquez sur **Nouveau rapport**, puis sélectionnez un type d’objet pour créer un nouveau rapport.
 
-1. (Conditionnel) Si vous avez modifié un rapport, sélectionnez une colonne existante ou créez une colonne.
+1. (Conditionnel) Si vous modifiez un rapport existant, cliquez sur **Actions de rapport**, puis cliquez sur **Modifier**.
+
+1. Dans le **Colonnes (affichage)** , cliquez pour sélectionner une colonne existante, ou cliquez sur **Ajouter une colonne** pour créer une colonne.
+1. Dans le **Afficher dans cette colonne** dans le coin supérieur gauche du créateur de rapports, sélectionnez le champ à afficher dans la nouvelle colonne.
 1. Cliquez sur **Options avancées**.
 
 1. Indiquez les informations suivantes :
@@ -95,7 +105,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Format du champ</strong></td> 
-      <td>Choisissez le format d’affichage de la valeur dans la colonne. Selon le champ de colonne, vous pouvez ainsi définir le mode d’affichage des dates, des nombres ou des devises.</td> 
+      <td>Choisissez le format d’affichage de la valeur dans la colonne. Selon le champ de colonne, vous pouvez ainsi définir le mode d’affichage des dates, des nombres ou des devises. Toutes les colonnes n’affichent pas cette option.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Afficher cette colonne lorsque le graphique est visible sur un tableau de bord.</strong></td> 
@@ -112,7 +122,9 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
    </note>
    -->
 
-1. Dans le **Lorsque :** , définissez une instruction de condition pour la colonne . Par exemple : lorsque le pourcentage de tâche terminé est égal à (sensible à la casse) 50.
+1. Dans le **Lorsque :** , définissez une instruction de condition pour la colonne .
+
+   Par exemple : &quot;lorsque le pourcentage de tâche terminé est égal à (sensible à la casse) 50.&quot;
 1. Dans le **Afficher le champ comme suit :** indiquez à quoi ressemble ce champ lorsque la condition définie ci-dessus est remplie.
 
    Indiquez les informations suivantes :
@@ -123,7 +135,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Couleur du texte</strong></td> 
-      <td> <p>Sélectionnez la couleur d’affichage du texte. 8 couleurs sont disponibles.</p> <p>Remarque : Si le champ contient un lien hypertexte, les sélections de couleur du texte ne sont pas appliquées à ce champ.</p> </td> 
+      <td> <p>Sélectionnez la couleur d’affichage du texte. 8 couleurs sont disponibles.</p> <p><b>NOTE</b></p> <p> Si le champ contient un lien hypertexte, les sélections de couleur du texte ne sont pas appliquées à ce champ.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Format du texte</strong></td> 
@@ -134,7 +146,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
       <td>Indiquez si le texte doit être aligné à droite, au centre ou à gauche dans la colonne.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Arrière-plan</strong></td> 
+      <td role="rowheader"><strong>Contexte</strong></td> 
       <td>Sélectionnez la couleur de fond du texte. 8 couleurs sont disponibles.</td> 
      </tr> 
      <tr> 
@@ -143,7 +155,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Afficher le texte</strong></td> 
-      <td> <p>Sélectionnez cette option pour afficher un libellé personnalisé pour cette colonne, au lieu de sa valeur réelle. Spécifiez le texte à afficher à la place de la valeur dans le champ fourni.</p> <p>Important : Sélection <strong>Afficher le texte</strong> désactive la possibilité de modifier en ligne le texte de cette colonne.<br>De plus, vous ne pouvez pas modifier la valeur d’une colonne Predecessor, car elle contient une logique intégrée.</p> </td> 
+      <td> <p>Sélectionnez cette option pour afficher un libellé personnalisé pour cette colonne, au lieu de sa valeur réelle. Spécifiez le texte à afficher à la place de la valeur dans le champ fourni.</p> <p><b>IMPORTANT</b></p> <p>Sélection <strong>Afficher le texte</strong> désactive la possibilité de modifier en ligne le texte de cette colonne.<br>De plus, vous ne pouvez pas modifier la valeur d’une colonne Predecessor, car elle contient une logique intégrée.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Appliquer à toute la ligne</strong></td> 
@@ -155,20 +167,23 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 1. Cliquez sur **Ajouter une règle**.\
    Vous pouvez ajouter des règles supplémentaires à la même colonne ou ajouter des règles à d’autres colonnes.
 
-   Les règles sont appliquées dans l’ordre dans lequel elles ont été créées. Elles sont combinées, mais ne se remplacent pas les unes les autres, bien qu’une règle de colonne ait la priorité sur une règle de ligne sur la même cellule.
+   Les règles sont appliquées dans l’ordre dans lequel elles ont été créées. Elles sont combinées, mais elles ne se chevauchent pas, bien qu’une règle de colonne ait la priorité sur une règle de ligne sur la même cellule.
 
-   Exemple 1 : Vous pouvez d’abord créer une règle qui indique, lorsque l’état du projet est Création, que la couleur du texte est violette et gras. Vous créez ensuite une deuxième règle qui indique si le nom de la tâche n’est pas vide, si la couleur du texte est rouge et en italique et si la couleur d’arrière-plan est verte. Dans cet exemple, les événements suivants se produisent :
+   **EXEMPLE 1**
+
+   Vous pouvez d’abord créer une règle qui indique que lorsqu’un projet est dans l’état de l’immeuble, la couleur du texte est violette et gras. Vous créez ensuite une deuxième règle qui indique que lorsque le Nom d’une tâche n’est pas vide, la couleur du texte est rouge et en italique, et la couleur d’arrière-plan est verte. Dans cet exemple, les événements suivants se produisent :
 
    * Les tâches dont l’état du projet est Création sont affichées en texte violet et en gras. Si le nom de la tâche n’est pas vide, les tâches ont également un arrière-plan vert.
    * Les tâches dont l’état du projet est autre que la création (et que le nom de la tâche n’est pas vide) sont affichées dans un texte rouge et en italique avec un arrière-plan vert.
 
-   Exemple 2 : Créez une règle à la date de fin planifiée du projet qui affecte la ligne entière, en faisant grise d’arrière-plan si le projet est annulé (État = &quot;Mort&quot;). Créez ensuite une règle de colonne qui affiche le rouge d’arrière-plan lorsque la date de fin planifiée du projet est inférieure à aujourd’hui (ce qui signifie que le projet est en retard). Dans cet exemple, si un projet annulé a une date de fin tardive, cette cellule apparaîtra en rouge même si les autres cellules de la ligne sont grises. Pour corriger cette mise en forme :
+   **EXEMPLE 2**
+
+   Créez une règle dans la colonne Date d’achèvement prévue du projet qui affecte la ligne entière, en faisant griser l’arrière-plan si le projet est annulé (par exemple, lorsque l’état du projet est Mort). Créez ensuite une règle de colonne qui affiche le rouge d’arrière-plan lorsque la date de fin planifiée du projet est inférieure à aujourd’hui (ce qui signifie que le projet est en retard). Dans cet exemple, si un projet annulé a une date de fin tardive, cette cellule apparaîtra en rouge même si les autres cellules de la ligne sont grises. Pour corriger cette mise en forme :
 
    * Modifiez la mise en forme de la date d’achèvement prévue et supprimez la règle de colonne de l’arrière-plan rouge des projets en retard.
-   * Ajoutez une règle de colonne avec la même mise en forme que la règle de ligne (arrière-plan gris lorsque État du projet = &quot;Mort&quot;).
+   * Ajoutez une règle de colonne avec la même mise en forme que la règle de ligne (arrière-plan gris lorsque État du projet = Mort).
    * Ajoutez à nouveau la règle de colonne pour l’arrière-plan rouge des projets en retard.
    * Lorsque vous enregistrez les règles et la vue, l’arrière-plan rouge n’est pas appliqué à un projet annulé.
-
 
 1. Cliquez sur **Terminé**.
 1. Cliquez sur **Enregistrer + Fermer**.\

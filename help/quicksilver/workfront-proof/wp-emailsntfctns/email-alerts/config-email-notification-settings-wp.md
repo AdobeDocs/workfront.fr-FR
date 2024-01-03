@@ -3,32 +3,40 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Configuration des paramètres de notification électronique dans [!DNL Workfront Proof]
-description: Les notifications par e-mail informent les collaborateurs de l’activité récente sur les bons à tirer (commentaires, réponses, décisions, etc.).
+description: Les notifications par e-mail générées par Workfront BAT informent les collaborateurs de l’activité récente sur les bons à tirer, comme les commentaires, les réponses ou les décisions.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
 workflow-type: tm+mt
-source-wordcount: '1998'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
 
 # Configuration des paramètres de notification électronique dans [!DNL Workfront Proof]
 
+<!--Audited: 01/2024-->
+
 >[!IMPORTANT]
 >
 >Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
 
-Les notifications par e-mail informent les collaborateurs de l’activité récente sur les bons à tirer (commentaires, réponses, décisions, etc.).
+Les notifications par e-mail informent les collaborateurs de l’activité récente sur les bons à tirer, comme les commentaires, les réponses ou les décisions.
 
-Les notifications par email destinées aux réviseurs peuvent être définies sur la page Nouveau BAT, [!UICONTROL Nouvelle version] et gérés dans la variable [!UICONTROL Workflow] de la section [!UICONTROL Détails du BAT] page. Pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+Vous pouvez définir des notifications par email pour les réviseurs dans les zones suivantes :
+
+* La page Nouveau BAT
+* La variable [!UICONTROL Nouvelle version] page
+* La variable [!UICONTROL Workflow] de la [!UICONTROL Détails du BAT] page.
+
+Pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Chaque utilisateur peut également définir ses propres paramètres d’alerte par email qui seront automatiquement appliqués lorsqu’un BAT est partagé avec lui. Si les collaborateurs ont leurs préférences ou si les administrateurs de compte ont leurs recommandations sur la fréquence des alertes. Il peut être défini comme valeur par défaut du BAT sur les pages de détails des utilisateurs.
+Chaque utilisateur peut également définir ses propres paramètres d’alerte par email qui seront automatiquement appliqués lorsqu’un BAT est partagé avec lui. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 
 >[!NOTE]
 >
@@ -46,7 +54,7 @@ Pour plus d’informations sur les profils, voir [Profils d’autorisations de B
 
 Vous pouvez configurer les paramètres du BAT pour les BAT que vous créez.
 
-Pour plus d’informations sur les paramètres du BAT, voir [!DNL Workfront] administrateur ou [!DNL Workfront Proof] L’administrateur peut configurer, voir .
+<!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
 1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres personnels]**.
 
@@ -54,8 +62,8 @@ Pour plus d’informations sur les paramètres du BAT, voir [!DNL Workfront] adm
 1. Cliquez sur **[!UICONTROL Paramètres de notification par défaut]** pour l’étendre.
 1. Dans la liste déroulante située à droite des deux paramètres suivants, sélectionnez l’une des options expliquées dans le tableau ci-dessous.
 
-   * **[!UICONTROL Alerte par défaut]**: Affecte chaque BAT qui est partagé avec vous. Ce paramètre peut être remplacé au niveau du BAT.
-   * **[!UICONTROL Alertes par défaut pour les nouveaux réviseurs invités]**: Affecte les opérateurs validants qui n’existaient pas auparavant comme contacts dans votre compte.
+   * **[!UICONTROL Alerte par défaut]**: affecte chaque BAT partagé avec vous. Ce paramètre peut être remplacé au niveau du BAT.
+   * **[!UICONTROL Alertes par défaut pour les nouveaux réviseurs invités]**: affecte les opérateurs validants qui n’existaient pas auparavant comme contacts dans votre compte.
 
    >[!NOTE]
    >
@@ -91,7 +99,7 @@ Pour plus d’informations sur les paramètres du BAT, voir [!DNL Workfront] adm
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Aucun courrier électronique]</td> 
-      <td>[!DNL Workfront] n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est [!UICONTROL Résumé quotidien] (également appelé [!UICONTROL Non défini]). Si vous, ou vos réviseurs, n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td> 
+      <td>[!DNL Workfront] n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est [!UICONTROL Résumé quotidien] (également appelé [!UICONTROL Non défini]). Si vous ou vos réviseurs n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -107,26 +115,26 @@ Pour plus d’informations sur les paramètres du BAT, voir [!DNL Workfront] adm
       <td>Indiquez si vous souhaitez recevoir un email [!UICONTROL BAT effectué] lors de la création d’un BAT. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">Adresse électronique [!UICONTROL BAT fait]</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Format des emails m’étant envoyés]</strong> </td> 
-      <td> <p>Choisissez entre les emails avec un style HTML et les emails avec du texte brut. </p> <p>Remarque :  Les paramètres par défaut de la vérification sont remplacés par les paramètres au niveau du BAT. Toutefois, si les notifications par courrier électronique du BAT sont désactivées pour l’ensemble du compte dans les paramètres du [!UICONTROL Compte] , aucune alerte par courrier électronique n’est envoyée aux collaborateurs, même si l’[!UICONTROL Désactivé] n’est pas sélectionnée sur les bons à tirer.<br></p> </td> 
+      <td role="rowheader">[!UICONTROL Format des emails m’étant envoyés] </td> 
+      <td> <p>Choisissez entre les emails avec un style HTML et les emails avec du texte brut. </p> <p><b>NOTE</b></p>
+      <p>Les paramètres par défaut de la vérification sont remplacés par les paramètres au niveau du BAT. Toutefois, si les notifications par courrier électronique du BAT sont désactivées pour l’ensemble du compte dans les paramètres du [!UICONTROL Compte] , aucune alerte par courrier électronique n’est envoyée aux collaborateurs, même si l’[!UICONTROL Désactivé] n’est pas sélectionnée sur les bons à tirer.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Sous **[!UICONTROL Paramètres des messages]**, modifiez l’une des options suivantes :
 
-   | **[!UICONTROL Modèle d’objet de BAT]** | S’affiche sur les pages Nouveau BAT, Nouvelle version, Message et Remind . Peut être modifié avant d’être envoyé. |
+   | Modèle de BAT | Description |
    |---|---|
+   | **[!UICONTROL Modèle d’objet de BAT]** | S’affiche sur les pages Nouveau BAT, Nouvelle version, Message et Remind . Peut être modifié avant d’être envoyé. |
    | **[!UICONTROL Modèle de message de BAT]** | S’affiche sur les pages Nouveau BAT, Nouvelle version, Message et Rappel . Peut être modifié avant d’être envoyé. |
-
-   {style=&quot;table-layout:auto&quot;}
 
 ## Modifier les alertes par email d&#39;un destinataire
 
 Vous pouvez modifier les alertes par email d’un destinataire spécifique dans une action par lot.
 
 1. Cliquez sur **[!UICONTROL Contacts]** dans le panneau de navigation de gauche.
-1. Cliquez sur le bouton **[!UICONTROL Plus]** (trois points) pour le destinataire, puis cliquez sur **[!UICONTROL Affichage des détails du membre]** dans le menu déroulant.
+1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![](assets/more-button-small.png) pour le destinataire, puis cliquez sur **[!UICONTROL Affichage des détails du membre]** dans le menu déroulant.
 
 1. Ouvrez le **[!UICONTROL Éléments partagés]** .
 1. Cochez la case à gauche de chaque élément pour lequel vous souhaitez modifier l’alerte par courrier électronique.
@@ -141,15 +149,15 @@ Si vous êtes un [!DNL Workfront Proof] administrateur, vous pouvez définir les
 1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**.
 
 1. Ouvrez le **[!UICONTROL Utilisateurs]** .
-1. Ouvrez le **[!UICONTROL Plus]** à droite du nom de l’utilisateur. ![More_button_small.png](assets/more-button-small.png)
+1. Ouvrez le **[!UICONTROL Plus]** menu ![More_button_small.png](assets/more-button-small.png) à droite du nom de l’utilisateur.
 
 1. Cliquez sur **[!UICONTROL Affichage des détails sur les utilisateurs]** dans le menu déroulant.
 1. Sous **[!UICONTROL Paramètres]**, cliquez sur **[!UICONTROL Paramètres d’alerte par défaut]** pour l’étendre.
 
 1. Dans la liste déroulante située à droite des deux paramètres suivants, sélectionnez l’une des options expliquées dans le tableau ci-dessous :
 
-   * **[!UICONTROL Alerte par défaut]**: Affecte chaque BAT qui est partagé avec vous. Ce paramètre peut être remplacé au niveau du BAT.
-   * **[!UICONTROL Alertes par défaut pour les nouveaux réviseurs invités]**: Affecte les opérateurs validants qui n’existaient pas auparavant comme contacts dans votre compte.
+   * **[!UICONTROL Alerte par défaut]**: affecte chaque BAT partagé avec vous. Ce paramètre peut être remplacé au niveau du BAT.
+   * **[!UICONTROL Alertes par défaut pour les nouveaux réviseurs invités]**: affecte les opérateurs validants qui n’existaient pas auparavant comme contacts dans votre compte.
 
    >[!NOTE]
    >
@@ -185,7 +193,7 @@ Si vous êtes un [!DNL Workfront Proof] administrateur, vous pouvez définir les
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL Aucun courrier électronique]</td>
-      <td>[!DNL Workfront] n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est [!UICONTROL Résumé quotidien] (également appelé [!UICONTROL Non défini]). Si vous, ou vos réviseurs, n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td>
+      <td>[!DNL Workfront] n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est [!UICONTROL Résumé quotidien] (également appelé [!UICONTROL Non défini]). Si vous ou vos réviseurs n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td>
      </tr>
     </tbody>
    </table>
@@ -201,8 +209,8 @@ Si vous êtes un [!DNL Workfront Proof] administrateur, vous pouvez définir les
       <td>Indiquez si vous souhaitez recevoir un email [!UICONTROL BAT effectué] lors de la création d’un BAT. Pour plus d’informations, voir <a href="https://support.workfront.com/hc/en-us/article">L'[!UICONTROL Preuve Fabriquée] Email.</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Format des emails m’étant envoyés]</strong> </td> 
-      <td> <p>Choisissez entre les emails avec un style HTML et les emails avec du texte brut. </p> <p>Remarque :  Les paramètres par défaut de la vérification sont remplacés par les paramètres au niveau du BAT. Toutefois, si les notifications par courrier électronique du BAT sont désactivées pour l’ensemble du compte dans les paramètres du [!UICONTROL Compte] , aucune alerte par courrier électronique n’est envoyée aux collaborateurs, même si l’[!UICONTROL Désactivé] n’est pas sélectionnée sur les bons à tirer.<br></p> </td> 
+      <td role="rowheader">[!UICONTROL Format des emails m’étant envoyés] </td> 
+      <td> <p>Choisissez entre les emails avec un style HTML et les emails avec du texte brut. </p> <p><b>NOTE</b></p> <p>Les paramètres par défaut de la vérification sont remplacés par les paramètres au niveau du BAT. Toutefois, si les notifications par courrier électronique du BAT sont désactivées pour l’ensemble du compte dans les paramètres du [!UICONTROL Compte] , aucune alerte par courrier électronique n’est envoyée aux collaborateurs, même si l’[!UICONTROL Désactivé] n’est pas sélectionnée sur les bons à tirer.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

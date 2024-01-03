@@ -6,9 +6,9 @@ description: Vous pouvez limiter la quantité d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2456'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Vous pouvez appliquer les types de filtres suivants dans Adobe Workfront :
 
   Pour plus d’informations sur les filtres rapides, voir [Appliquer le filtre rapide à une liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-* Filtres permanents que vous pouvez enregistrer et utiliser plusieurs fois sur plusieurs listes et rapports. Cet article décrit comment créer un filtre permanent ou modifier un filtre existant dans une liste ou un rapport.
+* Filtres permanents que vous pouvez enregistrer et utiliser de nombreuses fois sur plusieurs listes et rapports. Cet article décrit comment créer un filtre permanent ou modifier un filtre existant dans une liste ou un rapport.
 
 * Filtres dans d’autres zones de Workfront, en dehors des listes et des rapports.
 
@@ -202,7 +202,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    </tr>
    <tr>
    <td role="rowheader"><strong>Paramètres par défaut du système</strong></td>
-   <td>Les filtres par défaut du système Workfront, ainsi que les filtres que l’administrateur de Workfront a ajoutés à votre liste de filtres, au niveau du système ou dans votre modèle de mise en page.</td>
+   <td>Filtres et filtres par défaut du système Workfront que l’administrateur de Workfront a ajoutés à votre liste de filtres, au niveau du système ou dans votre modèle de mise en page.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Partagé avec moi</strong></td>
@@ -257,20 +257,20 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    >
    >Lorsque vous créez le filtre, les résultats apparaissent immédiatement dans la liste. Si le panneau de filtrage couvre la liste, vous pouvez la fermer pour afficher l’affichage. Les informations que vous avez saisies restent dans le créateur lorsque vous ouvrez à nouveau le panneau.
 
-1. Commencez à saisir la valeur d’un champ sur lequel vous souhaitez filtrer les données. Par exemple, commencez à saisir le nom d’un problème si vous souhaitez filtrer par `Issue:Name`. Sélectionnez la valeur lorsqu’elle s’affiche dans la liste.
+1. Commencez à saisir la valeur d’un champ en fonction duquel vous souhaitez filtrer les données. Par exemple, commencez à saisir le nom d’un problème si vous souhaitez filtrer par `Issue:Name`. Sélectionnez la valeur lorsqu’elle s’affiche dans la liste.
 
    >[!TIP]
    >
    >Selon le modificateur que vous avez sélectionné, vous pouvez sélectionner plusieurs valeurs.
 
-1. Cliquez sur **Ajouter un filtre** pour sélectionner un autre champ et ajouter un nouveau critère de filtrage à l’instruction de filtre.
+1. Cliquez sur **Ajouter un filtre** pour sélectionner un autre champ, ajoutez un critère de filtrage à l’instruction de filtre.
 1. (Facultatif) Cliquez sur le **Supprimer** icon ![Icône Supprimer](assets/delete.png) pour supprimer les instructions de filtre existantes.
 
    Ou
 
    Cliquez sur **Effacer tout** pour effacer tous les critères de filtrage.
 
-1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les ensembles est AND. Cliquez sur l’opérateur pour le remplacer par OU.
+1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les ensembles est **ET**. Cliquez sur l’opérateur pour le modifier en **OU**.
 
    >[!TIP]
    >
@@ -294,7 +294,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
 
    >[!TIP]
    >
-   >Nous vous recommandons de créer autant de filtres que possible à l’aide de l’interface du créateur standard et uniquement en mode texte lorsque vous devez apporter des modifications au filtre qui ne sont prises en charge que dans le mode texte.
+   >Nous vous recommandons de créer autant de filtres que possible à l’aide de l’interface du créateur standard et uniquement en mode texte lorsque vous devez modifier les filtres pris en charge uniquement en mode texte.
 
    Pour plus d’informations sur la création d’un filtre à l’aide de l’interface du mode texte, voir [Modification d’un filtre à l’aide du mode texte](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -316,7 +316,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
 
    >[!TIP]
    >
-   >Veillez à nommer le filtre pour pouvoir le retrouver ultérieurement. Si vous ne nommez pas le filtre, il sera appelé Filtre sans titre dans le système.
+   >Veillez à nommer le filtre pour pouvoir le retrouver ultérieurement. Si vous ne nommez pas le filtre, il s’appelle Filtre sans titre dans le système.
 
 1. Sélectionnez une icône pour le nouveau filtre dans la **Icône** menu déroulant.
 
@@ -329,7 +329,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    >Cliquer **Annuler** à tout moment vous ramène à la zone de création de filtre.
 
 1. Cliquez sur **Enregistrer**. Le filtre est enregistré dans la liste Enregistré et appliqué à la liste des éléments.
-1. (Facultatif) Pour déplacer un filtre vers la liste Favori, passez la souris sur un filtre du tiroir de filtre, puis cliquez sur l’icône Favori . ![Icône Favori](assets/favorites-icon-small.png).
+1. (Facultatif) Pour déplacer un filtre vers la liste Favori, passez la souris sur un filtre du tiroir de filtre et cliquez sur l’icône **Favori** icon ![Icône Favori](assets/favorites-icon-small.png).
 
    Ou
 
@@ -388,7 +388,7 @@ Quelle que soit la méthode utilisée pour créer des filtres, la création d’
 
      Les champs associés à l’objet de votre filtre sont répertoriés dans la section **Commencer à saisir le nom du champ** de la boîte.
 
-   * Cliquez sur **ET** ou **OU** lors de l’ajout d’une nouvelle règle de filtrage.\
+   * Cliquez sur **ET** ou **OU** lors de l’ajout d’une règle de filtrage.\
      Lors de l’ajout de règles de filtrage, utilisez les modificateurs de filtre pour établir la condition de votre filtre. Pour plus d’informations sur les modificateurs de filtre, voir [Modificateurs de filtre et de condition](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -415,11 +415,11 @@ Quelle que soit la méthode utilisée pour créer des filtres, la création d’
 
    Pour plus d’informations sur la création d’un filtre à l’aide de l’interface du mode texte, voir [Modification d’un filtre à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Cliquez sur **Enregistrer le filtre** pour créer un nouveau filtre ou remplacer celui sélectionné par vos modifications.
+1. Cliquez sur **Enregistrer le filtre** pour créer un filtre ou remplacer celui sélectionné par vos modifications.
 
    Ou
 
-   Cliquez sur **Enregistrer comme nouveau filtre** pour créer un nouveau filtre à partir du filtre sélectionné.
+   Cliquez sur **Enregistrer comme nouveau filtre** pour créer un filtre à partir du filtre sélectionné.
 
    Le nouveau filtre s&#39;affiche dans la liste des filtres et est automatiquement appliqué à la liste ou au rapport que vous avez sélectionné.
 
