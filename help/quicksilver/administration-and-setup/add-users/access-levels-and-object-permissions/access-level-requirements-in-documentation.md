@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Les articles pratiques de la documentation Workfront contiennent un tableau expliquant les exigences d’accès et d’autorisation nécessaires pour cette procédure. Ce tableau des exigences d’accès vous permet de déterminer si vous pouvez effectuer une action spécifique dans Workfront ou pourquoi vous ne pourrez pas le faire. Cet article explique chaque élément du tableau des exigences d’accès et fournit des conseils de dépannage et des liens vers des informations plus détaillées.
 
 Si une ligne est absente du tableau Exigences d’accès d’un article donné, ce type d’action n’est pas requis.
+
+Certaines lignes contiennent des informations intitulées &quot;Nouveau&quot; et &quot;Actuel&quot;. Cela est dû au fait que Workfront est en train de passer à un nouveau modèle de tarification et de conditionnement, certaines organisations opérant sous le nouveau modèle et d’autres encore utilisant le modèle actuel. Pour savoir quel modèle votre entreprise utilise, contactez votre administrateur Workfront. Vous trouverez des détails et des liens vers des informations dans la section [Le tableau des exigences d’accès](#the-access-requirements-table) de cet article.
 
 >[!NOTE]
 >
@@ -51,6 +53,18 @@ Si une ligne est absente du tableau Exigences d’accès d’un article donné, 
    <li>Si vous disposez du niveau d’accès correct et que vous n’y avez toujours pas accès, demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.
    </ul>
       </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Produit</td> 
+   <td>Workfront propose certains produits qui peuvent être achetés en plus de Workfront.
+   <p>Les articles qui décrivent les procédures effectuées dans ces produits supplémentaires répertorient ici le produit requis.</p>
+   <ul>
+   <li>Adobe Experience Manager Assets ou Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Objectifs Workfront</li>
+   <li>planificateur de scénarios Workfront</li>
+   </ul>
+   <p>Pour savoir si votre entreprise a acheté l’un de ces produits supplémentaires, contactez votre administrateur Workfront.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
