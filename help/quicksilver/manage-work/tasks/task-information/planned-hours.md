@@ -7,14 +7,16 @@ description: Les Heures planifiées associées à une tâche, à une publication
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 48efc796923079622ce4bc1c2bddb2429915c9a1
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2815'
 ht-degree: 0%
 
 ---
 
 # Présentation des heures planifiées
+
+<!-- Audited: 01/2024 -->
 
 Les Heures planifiées associées à une tâche, à une publication ou à un projet représentent le temps nécessaire aux utilisateurs affectés pour terminer la tâche, la publication ou le projet.
 
@@ -30,16 +32,13 @@ Les Heures planifiées associées à une tâche, à une publication ou à un pro
 
 * Vous pouvez, à tout moment, modifier la valeur des Heures planifiées pour les problèmes.
 * Vous ne pouvez pas modifier la valeur des Heures planifiées des projets ou des tâches parentes, car il s’agit d’un total calculé de toutes les Heures planifiées de toutes leurs tâches et sous-tâches.
-* La gestion de la répartition des utilisateurs à l’aide des outils de gestion des ressources peut modifier le nombre d’heures planifiées de tâches, de problèmes, de projets et de tâches associées aux tâches.
+* La gestion des affectations des utilisateurs à l’aide des outils de gestion des ressources peut modifier le nombre d’heures planifiées de tâches, de problèmes et de projets, ainsi que celui des affectations associées aux tâches.
 
 ## Heures planifiées des tâches par rapport aux heures planifiées des projets {#planned-hours-on-tasks-vs-planned-hours-on-projects}
 
-Heures planifiées à partir des tâches cumulées jusqu’aux Heures planifiées du projet. Les heures planifiées issues des problèmes ne correspondent pas toujours aux heures planifiées du projet.
+Heures planifiées à partir des tâches cumulées jusqu’aux Heures planifiées du projet. Les heures planifiées issues de problèmes ne sont pas toujours cumulées aux heures planifiées du projet.
 
 Cette section décrit les différences entre la tâche et les heures planifiées du projet. Il décrit également où vous pouvez afficher le problème Heures planifiées cumulées au projet.
-
-* [Heures planifiées pour les tâches](#planned-hours-on-tasks)
-* [Heures planifiées sur les projets](#planned-hours-on-projects)
 
 ### Heures planifiées pour les tâches {#planned-hours-on-tasks}
 
@@ -78,7 +77,7 @@ Par exemple, si une tâche doit commencer à 16 heures et qu’il reste une heur
 
 ## Localisation et compréhension des valeurs des heures planifiées
 
-Les valeurs Heures planifiées se trouvent dans différentes zones de Workfront. 
+Les valeurs Heures planifiées se trouvent dans différentes zones de Workfront.
 
 Le nombre d’heures planifiées affichées provient des tâches du projet ou est calculé différemment selon la zone et l’objet dans lequel vous les visualisez.
 
@@ -90,19 +89,19 @@ Vous pouvez localiser Heures planifiées dans les zones suivantes de Workfront :
 * [L’équilibreur de charge de travail](#the-workload-balancer)
 * [Le planificateur de ressources](#the-resource-planner)
 * [Rapport Utilisation](#the-utilization-report)
-* [Panneau Attribution des rôles](#The%C2%A0Role)
+* [Panneau Attribution des rôles](#the-role-allocation-panel)
 
 ### Section Détails d’un projet, d’une tâche ou d’un problème {#the-details-section-of-a-project-task-or-issue}
 
-![](assets/planned-hours-on-details-for-project-nwe-350x138.png)
+![Heures planifiées dans la section Détails](assets/planned-hours-on-details-for-project.png)
 
-Les Heures planifiées dans la section Détails d’une tâche, d’un problème ou d’un projet sont le nombre total d’Heures planifiées associées à l’élément correspondant.
+Les Heures planifiées de la section Détails d’une tâche, d’un problème ou d’un projet sont le nombre total d’Heures planifiées associées à l’élément.
 
 Pour plus d’informations sur les heures planifiées du projet, voir [Heures planifiées des tâches par rapport aux heures planifiées des projets](#planned-hours-on-tasks-vs-planned-hours-on-projects) dans cet article.
 
 ### Zone Modifier la tâche ou Modifier le problème {#the-edit-task-or-edit-issue-box}
 
-![](assets/planned-hours-on-edit-task-box-nwe-350x70.png)
+![Modifier la tâche](assets/planned-hours-on-edit-task-box-nwe.png)
 
 Les Heures planifiées dans la zone Modifier d’une tâche ou d’un problème correspondent au total des Heures planifiées de l’élément correspondant.
 
@@ -114,7 +113,7 @@ Vous pouvez afficher l’affectation individuelle des heures planifiées pour ch
 
 ### Rapports {#reports}
 
-![](assets/planned-hours-on-task-repot-nwe-350x99.png)
+![Rapport Heures planifiées](assets/planned-hours-on-task-report.png)
 
 Vous pouvez ajouter le champ Heures planifiées dans les rapports de projet, de tâche et d’émission.
 
@@ -147,7 +146,7 @@ The daily hour amount represents one of the following:
 
 ### L’équilibreur de charge de travail {#the-workload-balancer}
 
-![](assets/planned-hours-on-wb-expanded-with-pti-info-nwe-350x114.png)
+![Heures planifiées dans l’équilibreur de charge](assets/planned-hours-on-wb-expanded-with-pti-info.png)
 
 Les heures planifiées suivantes pour les tâches, problèmes et projets s’affichent dans l’équilibreur de charge de travail à droite de la tâche, du problème ou du nom du projet :
 
@@ -163,13 +162,13 @@ Vous pouvez afficher l’allocation quotidienne des heures planifiées pour chaq
 Le nombre d’heures planifiées par jour représente l’une des heures suivantes : 
 
 * le montant par défaut réparti uniformément par Workfront pour chaque jour de la durée des tâches, des problèmes ou du projet ;
-* l’affectation quotidienne ajustée gérée par les gestionnaires de ressources.
+* l’affectation quotidienne ajustée gérée par les gestionnaires de ressources
 
   Pour plus d’informations sur l’ajustement des allocations quotidiennes dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### Le planificateur de ressources {#the-resource-planner}
 
-![](assets/planned-hours-on-all-objects-in-resource-planned-expanded-nwe-350x204.png)
+![Heures planifiées dans le planificateur de ressources](assets/planned-hours-on-all-objects-in-resource-planned-expanded.png)
 
 Le planificateur de ressources affiche les heures planifiées pour les projets, les tâches et les problèmes.
 
@@ -184,9 +183,9 @@ Le nombre d’heures planifiées pour chaque objet varie en fonction de la vue q
 Le nombre d’heures planifiées par semaine pour les tâches et les problèmes représente l’un des éléments suivants :
 
 * le montant hebdomadaire par défaut réparti uniformément par Workfront pour chaque jour de la durée des tâches ou des problèmes ;
-* l’affectation hebdomadaire ajustée gérée par les gestionnaires de ressources dans l’équilibreur de charge de travail.
+* l’affectation hebdomadaire ajustée gérée par les gestionnaires de ressources dans l’équilibreur de charge de travail ;
 
-  Pour plus d’informations sur l’ajustement des allocations quotidiennes dans l’ équilibreur de charge de travail , voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Pour plus d’informations sur l’ajustement des allocations quotidiennes dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Le montant hebdomadaire des projets, des utilisateurs et des rôles dépend du nombre hebdomadaire d’heures planifiées pour les tâches et les problèmes qui y sont associés.
 
@@ -252,19 +251,16 @@ Les scénarios suivants se produisent lors de la mise à jour manuelle des affec
 
 * Lorsque vous n’avez pas manuellement mis à jour les affectations utilisateur ou rôle individuelles pour déclencher une modification des heures planifiées de la tâche, les heures planifiées restent inchangées lorsque vous ajoutez, supprimez ou remplacez des affectations sur la tâche. Lors de l’ajout d’une nouvelle affectation à la tâche, les affectations individuelles sont redistribuées entre tous les cessionnaires.
 * Lorsque vous avez mis à jour manuellement les affectations afin de déclencher une modification des heures planifiées de la tâche, les heures planifiées diminuent lorsque vous supprimez des affectations de la tâche. Elles restent inchangées lorsque vous remplacez une affectation.
-* Lorsque vous avez mis à jour manuellement les affectations afin de déclencher une modification de la tâche Heures planifiées et que vous ajoutez une affectation à la tâche, la nouvelle affectation se voit attribuer 0 heure par défaut. Vous devez mettre à jour manuellement leur allocation à la tâche, ce qui peut affecter les Heures planifiées.
+* Lorsque vous avez mis à jour manuellement les affectations afin de déclencher une modification de la tâche Heures planifiées et que vous ajoutez une affectation à la tâche, la nouvelle affectation se voit attribuer 0 heure par défaut. Vous devez mettre à jour manuellement leur affectation à la tâche, ce qui peut affecter les Heures planifiées.
 * Lorsque vous n’avez pas manuellement mis à jour les affectations pour déclencher une modification des heures planifiées de la tâche et que vous supprimez toutes les affectations à la tâche, les heures planifiées restent inchangées.
 * Lorsque vous avez mis à jour manuellement les affectations afin de déclencher une modification de la tâche Heures planifiées et que vous supprimez toutes les affectations à la tâche, les Heures planifiées sont également supprimées et les Heures planifiées de la tâche deviennent 0.
 
 >[!NOTE]
 >
-Par exemple, si une tâche comporte 10 heures planifiées et que vous avez deux personnes désignées, chacune se voit attribuer 5 heures, par défaut.
+Par exemple, si une tâche comporte 10 heures planifiées et que vous avez deux cessionnaires, chacun se voit attribuer 5 heures, par défaut.
 >
 * Si vous ne mettez pas à jour l’affectation individuelle de l’utilisateur ou les allocations quotidiennes à l’aide de l’équilibreur de charge de travail et que vous supprimez tous les ou n’importe lequel des cessionnaires de la tâche, la tâche Heures planifiées reste de 10 heures.
-* Si vous définissez manuellement les affectations des affectations sur 4 et 6 heures, respectivement, et que vous supprimez l’utilisateur affecté à 6 heures ainsi que son rôle de tâche, la tâche Heures planifiées passe à 4 heures. Si vous supprimez également l’utilisateur qui a été affecté à 4 heures, mais que vous conservez le rôle de tâche associé à l’utilisateur supprimé, les Heures planifiées de la tâche restent 4 heures. Si vous supprimez le dernier utilisateur qui a été affecté à 4 heures ainsi que son rôle de tâche et que la tâche reste non affectée, la tâche Heures planifiées de la tâche devient 0.
-
-
-
+* Si vous définissez manuellement les affectations des affectations sur 4 et 6 heures, respectivement, et que vous supprimez l’utilisateur affecté à 6 heures ainsi que son rôle de tâche, la tâche Heures planifiées passe à 4 heures. Si vous supprimez également l’utilisateur qui a été affecté à 4 heures, mais que vous conservez le rôle de tâche associé à l’utilisateur supprimé, les Heures planifiées de la tâche restent 4 heures. Si vous supprimez le dernier utilisateur qui a été affecté à 4 heures ainsi que son rôle de tâche et que la tâche reste non affectée, la tâche Heures planifiées passe à 0.
 
 ## Mise à jour automatique des heures planifiées de la tâche à l’aide de l’effort de travail
 

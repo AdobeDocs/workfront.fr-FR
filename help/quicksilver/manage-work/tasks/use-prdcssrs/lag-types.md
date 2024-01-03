@@ -2,23 +2,25 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Présentation des types de balise
+title: Types de balises - Aperçu
 description: La durée correspond au temps qui doit s’écouler après la fin d’un prédécesseur appliqué jusqu’à ce que la tâche dépendante puisse commencer (Durée positive), ou au temps pendant lequel une tâche dépendante peut commencer avant le début du prédécesseur (Durée négative).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
-# Présentation des types de balise
+# Types de balises - Aperçu
+
+<!-- Audited: 01/2024 -->
 
 La durée correspond au temps qui doit s’écouler après la fin planifiée d’un prédécesseur jusqu’à ce que la tâche dépendante puisse commencer (Durée positive), ou au temps pendant lequel une tâche dépendante peut commencer avant le début du prédécesseur (Durée négative).
 
-Les dates Prévues, Prévues et Estimées des tâches qui lui succèdent sont calculées en prenant en compte les dates de retard et de Début planifié, Projeté et Estimé de début (Achèvement) des tâches précédentes.
+Les dates Prévues, Prévues et Estimées des tâches qui lui succèdent sont calculées en tenant compte des dates de retard et de planification, de projection et de début estimé (fin) des tâches précédentes.
 
 ## Exigences d’accès
 
@@ -60,11 +62,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nouveau : Standard</p>
+       <p>ou</p>
+       <p>Actuel : formule </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -72,7 +76,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations pour les tâches et le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations pour les tâches et le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,9 +86,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Définition des types de balise et de balise sur les tâches
 
 Vous pouvez indiquer des types de retard sur les tâches lorsque vous définissez leurs relations de prédécesseur.
-
-* [Définition des types de balises dans la section Prédécesseurs d’une tâche](#indicate-lag-types-in-the-predecessors-section-of-a-task)
-* [Définition des types de balises dans une liste de tâches](#indicate-lag-types-in-a-task-list)
 
 ### Définition des types de balises dans la section Prédécesseurs d’une tâche {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
@@ -100,19 +101,19 @@ Vous pouvez indiquer des types de retard sur les tâches lorsque vous définisse
 1. Spécifiez un **Étiquette** quantité utilisant une valeur numérique. Vous pouvez indiquer des nombres négatifs pour indiquer un décalage négatif.
 1. Sélectionnez l’une des options suivantes pour identifier le type de retard que vous souhaitez indiquer pour votre prédécesseur :
 
-   * **Jours**
-   * **Jours civils**
+   * **Days**
+   * **Jours calendaires**
    * **Pourcentage**
    * **Jour de la semaine**
    * **Jour de la semaine (non nul)**
 
-     Pour plus d’informations sur ces types de balises et sur leur mode de calcul, consultez la section . [Types de balises - Aperçu](#lag-types-overview) dans cet article.
+     Pour plus d’informations sur ces types de balises et sur leur mode de calcul, consultez la section . [Types de balise](#lag-types) dans cet article.
 
 1. Cliquer sur **Enregistrer**.
 
 ### Définition des types de balises dans une liste de tâches  {#indicate-lag-types-in-a-task-list}
 
-1. Dans la liste des tâches, sélectionnez l’option **Standard** Afficher à partir de **Affichage** menu déroulant.
+1. Dans la liste des tâches, sélectionnez l’option **Standard** vue.
 
 1. Cliquez dans le **Prédécesseurs** correspondant à la tâche pour laquelle vous souhaitez spécifier un prédécesseur et un montant de retard.
 1. Renseignez les champs suivants sans espaces :
@@ -125,15 +126,15 @@ Vous pouvez indiquer des types de retard sur les tâches lorsque vous définisse
    * soit un **+** pour un décalage positif ou une **-** pour un décalage négatif
 
    * la quantité de retard ;
-   * abréviation du type de balise que vous souhaitez utiliser.
+   * abréviation du type de balise que vous souhaitez utiliser
 
-     Pour plus d’informations sur les abréviations des types de balises, voir la section . [Types de balises - Aperçu](#lag-types-overview) dans cet article.
+     Pour plus d’informations sur les abréviations des types de balises, voir la section . [Types de balise](#lag-types) dans cet article.
 
-   Par exemple, pour indiquer qu’une tâche a un prédécesseur et un décalage positif de 2 jours, vous devez saisir  `1fs+2d` dans la colonne Prédécesseurs .
+   Par exemple, pour indiquer qu’une tâche a un prédécesseur et un décalage positif de 2 jours, vous devez saisir `1fs+2d` dans la colonne Prédécesseurs .
 
-1. Cliquez sur Entrée du clavier pour enregistrer les modifications apportées à votre tâche.
+1. Appuyez sur Entrée du clavier pour enregistrer les modifications apportées à votre tâche.
 
-## Types de balises - Aperçu {#lag-types-overview}
+## Types de balise {#lag-types}
 
 Un exemple de tâche qui nécessiterait un temps de retard peut être de scier des arbres dans du bois. Si le bois fraîchement coupé doit sécher pendant un certain temps avant de pouvoir être coupé, il y aurait un temps de retard entre couper les arbres et les scier dans du bois.
 
@@ -159,7 +160,7 @@ Le tableau suivant illustre les types de balises et indique comment indiquer la 
   </tr> 
   <tr> 
    <td> <p>Pourcentage (p ou pe)</p> </td> 
-   <td> <p>Le délai est exprimé sous la forme d’un pourcentage du temps estimé pour terminer la tâche précédente. </p> <p>Par exemple, s’il existe une dépendance arrivée-début avec un décalage de 20 % par rapport à une tâche de prédécesseur de 10 jours, le système calcule le nombre de jours représentant 20 % de la durée de la tâche précédente et l’utilise comme décalage. Dans ce cas, cela prendrait 2 jours après la fin de la tâche. </p>
+   <td> <p>Le délai est exprimé sous la forme d’un pourcentage du temps estimé pour terminer la tâche précédente. </p> <p>Par exemple, s’il existe une dépendance arrivée-début avec un décalage de 20 % par rapport à une tâche de prédécesseur de 10 jours, le système calcule le nombre de jours représentant 20 % de la durée de la tâche du prédécesseur et l’utilise comme décalage. Dans ce cas, cela prendrait 2 jours après la fin de la tâche. </p>
 
 <p><b>NOTE</b></p> La limite de retard maximale pour le pourcentage est de 2 000 %.</p> </td> 
   </tr> 
@@ -193,13 +194,13 @@ Si la Date de début du successeur est calculée pour correspondre à un certain
  </tbody> 
 </table>
 
-## Présentation de la balise négative
+## Balise négative
 
 Vous pouvez utiliser une balise négative pour indiquer la nécessité ou la capacité de la tâche de commencer avant la fin de la tâche précédente.
 
 Tenez compte des règles suivantes lorsque vous utilisez des indicateurs négatifs :
 
-* La latence négative ne peut pas forcer les dates de début/fin d’une tâche à être avant ou après les dates de début/fin planifiées du projet. Ces dates sont spécifiées dans le champ Planifier à partir du du projet.
+* Le journal négatif ne peut pas forcer les dates de Début/Fin d’une tâche à être avant ou après les dates de Début/Fin planifiées du projet. Ces dates sont spécifiées dans le champ Planifier à partir du du projet.
 
   Dans ce cas, tenez compte des points suivants :
 

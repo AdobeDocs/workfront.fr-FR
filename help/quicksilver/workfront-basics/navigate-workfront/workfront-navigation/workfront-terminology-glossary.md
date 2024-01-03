@@ -6,9 +6,9 @@ description: La variable [!DNL Adobe Workfront] le glossaire répertorie les ter
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '19897'
+source-wordcount: '19889'
 ht-degree: 0%
 
 ---
@@ -1141,7 +1141,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
      <li>[!UICONTROL Jours du calendrier] (ignorer les jours fériés)</li> 
      <li>[!UICONTROL Pourcentage]</li> 
      <li>[!UICONTROL Jour de la semaine]</li> 
-    </ul> <p>Pour plus d’informations, voir la section "[!UICONTROL Lag Types overview]" dans <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Présentation des types de balise</a></p> </td> 
+    </ul> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Types de balises - Aperçu</a>.</p> </td>
   </tr> 
   <tr> 
    <td>[!UICONTROL Grande miniature]</td> 

@@ -6,7 +6,7 @@ description: Vous pouvez utiliser les tâches précédentes (ou simplement les p
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -77,9 +77,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Pour plus d’informations sur les types de dépendance de tâche, voir une [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Spécifiez un **Lag** en jours.
+1. Spécifiez un **Étiquette** montant en jours.
 
-   Pour plus d’informations sur les types de balise, voir &#x200B; [Présentation des types de balise](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Pour plus d’informations sur les types de balise, voir &#x200B; [Types de balises - Aperçu](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 1. Sélectionner **Enchaîné** si vous souhaitez appliquer la relation de prédécesseur entre les deux tâches.
 

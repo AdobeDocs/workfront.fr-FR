@@ -7,9 +7,9 @@ description: Un prédécesseur est la tâche dont dépend une autre tâche (appe
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Pour comprendre les relations de prédécesseur, vous devez comprendre :
 
 * **Balises :** Vous pouvez créer des décalages dans vos dépendances, ce qui crée un délai qui doit survenir après l’achèvement d’une tâche de prédécesseur et avant que la tâche qui lui succède puisse commencer. Les décalages ont un impact sur la chronologie du projet.
 
-  Pour comprendre les types de décalages, voir [Présentation des types de balise](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Pour comprendre les types de décalages, voir [Types de balises - Aperçu](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Créer des relations de prédécesseur
 

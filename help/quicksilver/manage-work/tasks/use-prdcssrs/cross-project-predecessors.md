@@ -6,9 +6,9 @@ description: Un prédécesseur multi-projets est une tâche dont dépend une aut
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
    * **Type de dépendance :** Sélectionnez la relation que vous souhaitez que la tâche de prédécesseur ait avec la tâche dépendante. La relation par défaut est &quot;Finish-Start&quot;, ce qui signifie que la tâche du prédécesseur doit se terminer avant que la tâche dépendante puisse commencer. Pour plus d’informations sur les différents types de dépendances, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
 
-   * **Indicateur :** Spécifiez le temps qui doit s’écouler après la fin d’un prédécesseur appliqué jusqu’à ce que la tâche dépendante puisse commencer. Pour plus d’informations sur les différents types de retard, voir [Présentation des types de balise](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Indicateur :** Spécifiez le temps qui doit s’écouler après la fin d’un prédécesseur appliqué jusqu’à ce que la tâche dépendante puisse commencer. Pour plus d’informations sur les différents types de retard, voir [Types de balises - Aperçu](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
    * **Application :** Lorsque cette option est sélectionnée, la relation de dépendance entre les deux tâches ne peut pas être contournée par les utilisateurs qui commencent les tâches tôt. Par exemple, si vous appliquez une relation entre la tâche A et la tâche B, la tâche B ne peut pas être lancée tant que la tâche A n’est pas terminée. Pour plus d’informations sur l’application des prédécesseurs, voir [Application des prédécesseurs](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 

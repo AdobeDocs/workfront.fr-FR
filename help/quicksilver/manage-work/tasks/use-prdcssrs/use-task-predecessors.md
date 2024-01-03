@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 56048927-39cd-49a0-b00a-bf145bca90a1
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -26,5 +26,5 @@ Cette section contient les articles suivants :
 * [Création de prédécesseurs sur plusieurs projets](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
 * [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
 * [Application des prédécesseurs](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-* [Présentation des types de balise](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
+* [Types de balises - Aperçu](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
 * [Présentation de la boucle de dépendance de tâche](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
