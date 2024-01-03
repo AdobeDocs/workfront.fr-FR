@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 5%
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -128,7 +128,7 @@ Lors de la création d’une application OAuth2, choisissez le type d’applicat
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Système]**, puis sélectionnez **[!UICONTROL Applications OAuth2]**.
 1. Cliquez sur **[!UICONTROL Création d’une intégration d’application]**.
 La variable **Nouvelle application OAuth2** s’affiche.
-1. Dans le **Nouvelle application OAuth2** , sélectionnez **[!UICONTROL Authentification serveur]**.
+1. Dans le **Nouvelle application OAuth2** , sélectionnez **[!UICONTROL Application machine à machine]**.
 1. Saisissez un nom pour la nouvelle application, par exemple &quot;&quot;[!DNL Workfront] pour ClientApp.&quot;
 1. Cliquez sur **[!UICONTROL Créer]**.
 1. Renseignez les champs de la nouvelle application.
@@ -180,7 +180,7 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
 1. Cliquez sur **[!UICONTROL Création d’une intégration d’application]**.
 
    La variable **Nouvelle application OAuth2** s’affiche.
-1. Dans le **Nouvelle application OAuth2** , sélectionnez **[!UICONTROL Authentification de l’utilisateur]**.
+1. Dans le **Nouvelle application OAuth2** , sélectionnez **[!UICONTROL Application web]**.
 1. Saisissez un nom pour la nouvelle application OAuth2, tel que &quot;[!DNL Workfront] pour ClientApp.&quot;
 1. Cliquez sur **[!UICONTROL Créer]**.
 1. Renseignez les champs de la nouvelle application.
@@ -262,11 +262,11 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
       <td> <p>Ce champ est généré automatiquement.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Rediriger les URL]</td> 
+      <td role="rowheader">[!UICONTROL URL de redirection]</td> 
       <td>Les utilisateurs seront redirigés vers ce chemin après s’être authentifiés auprès de Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Rotation du jeton d’actualisation chaque fois qu’il est utilisé]</td> 
+      <td role="rowheader">[!UICONTROL Rotation du jeton d’actualisation à chaque utilisation]</td> 
       <td>Activez cette option pour émettre un nouveau jeton d’actualisation lorsque le jeton d’actualisation est utilisé. Votre application doit stocker le nouveau jeton après chaque actualisation.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
