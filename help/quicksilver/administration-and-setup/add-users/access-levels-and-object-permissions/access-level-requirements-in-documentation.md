@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
+source-git-commit: 96f88c4b31b92998cfb8fa25ed1de0dfa0c70462
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,12 @@ Certaines lignes contiennent des informations intitulées &quot;Nouveau&quot; et
    <p>Les articles qui décrivent les procédures effectuées dans ces produits supplémentaires répertorient ici le produit requis.</p>
    <ul>
    <li>Adobe Experience Manager Assets ou Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Objectifs Workfront</li>
-   <li>planificateur de scénarios Workfront</li>
+   <li>Workfront Fusion *</li>
+   <li>Objectifs de Workfront *</li>
+   <li>planificateur de scénario Workfront *</li>
    </ul>
-   <p>Pour savoir si votre entreprise a acheté l’un de ces produits supplémentaires, contactez votre administrateur Workfront.</p></td> 
+   <p>* Inclus avec le plan Workfront Ultimate
+   <p>Pour savoir si votre entreprise a acheté l’un de ces produits supplémentaires ou si votre entreprise a souscrit au forfait Workfront Ultimate, contactez votre administrateur Workfront.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront Fusion</td> 
