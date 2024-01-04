@@ -6,9 +6,9 @@ description: Vous pouvez exporter des données Adobe Workfront à partir de diff
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
 
   Si votre rapport contient plus de 50 000/ 65 000/ 100 000 lignes et que vous souhaitez exporter toutes les données, nous vous suggérons d’utiliser des filtres ou des invites pour obtenir des charges de données moindres et effectuer plusieurs exportations.
 
-  Pour plus d’informations sur l’utilisation des filtres, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Pour plus d’informations sur l’utilisation des filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   Pour plus d’informations sur l’utilisation des invites, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

@@ -1,13 +1,13 @@
 ---
 navigation-topic: use-lists
 title: Appliquer le filtre rapide à une liste
-description: Vous pouvez utiliser le filtre rapide dans une liste d’objets pour vous aider à localiser uniquement les éléments importants pour vous afin de pouvoir rapidement les vérifier, les mettre à jour ou les partager avec d’autres personnes.
+description: Vous pouvez utiliser le filtre rapide dans une liste d’objets pour vous aider à localiser uniquement les éléments qui vous intéressent, afin de pouvoir rapidement les vérifier, les mettre à jour ou les partager avec d’autres personnes.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -18,26 +18,26 @@ ht-degree: 0%
 {{highlighted-preview}}
 -->
 
-Vous pouvez utiliser le filtre rapide dans une liste d’objets pour vous aider à localiser uniquement les éléments importants pour vous afin de pouvoir rapidement les vérifier, les mettre à jour ou les partager avec d’autres personnes.
+Vous pouvez utiliser le filtre rapide dans une liste d’objets pour vous aider à localiser uniquement les éléments qui vous intéressent, afin de pouvoir rapidement les vérifier, les mettre à jour ou les partager avec d’autres personnes.
 
 >[!IMPORTANT]
 >
 >Vous pouvez trouver les éléments qui contiennent un mot de recherche à l’aide de filtres rapides, que l’élément ait été affiché physiquement à l’écran ou qu’il s’affiche une fois que vous avez fait défiler la page vers le bas. Lorsque vous utilisez les fonctionnalités de recherche de votre navigateur, vous ne pouvez trouver que les éléments physiquement affichés à l’écran. Si votre liste comporte plusieurs pages, les filtres rapides ne trouvent pas les éléments qui se trouvent sur les pages qui ne s’affichent pas.
 
 Si vous souhaitez enregistrer un filtre rapide, nous vous recommandons plutôt de créer un filtre permanent pour votre liste.\
-Pour plus d’informations sur la création de filtres dans [!DNL Adobe Workfront], voir l’article [Présentation des filtres dans [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Pour plus d’informations sur la création de filtres dans [!DNL Adobe Workfront], voir l’article [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Le filtre rapide est actuellement disponible dans les zones suivantes :
 
 
 Vous pouvez utiliser des filtres rapides temporaires dans toutes les listes, sauf dans les cas suivants :
 
-* Le [!UICONTROL Rapports] area
+* La variable [!UICONTROL Rapports] area
 * Listes et rapports de document
 * Plusieurs [!UICONTROL Configuration] area
-   >[!NOTE]
-   >
-   >Les filtres rapides sont disponibles dans les zones de configuration suivantes : [!UICONTROL Groupes], [!UICONTROL Équipes], [!UICONTROL Entreprises], [!UICONTROL Planifications], [!UICONTROL Modèles de mise en page], et [!UICONTROL Forms personnalisée].
+  >[!NOTE]
+  >
+  >Les filtres rapides sont disponibles dans les zones de configuration suivantes : [!UICONTROL Groupes], [!UICONTROL Équipes], [!UICONTROL Entreprises], [!UICONTROL Planifications], [!UICONTROL Modèles de mise en page], et [!UICONTROL Forms personnalisée].
 
 
 Tenez compte des points suivants lorsque vous appliquez des filtres rapides à une liste :
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><b>[!DNL Adobe Workfront] plan*</b></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><b>[!DNL Adobe Workfront] license*</b></td> 
@@ -90,13 +90,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * ALT+F pour [!DNL Windows] ordinateurs
    * ALT/ Option + F pour [!DNL Mac] ordinateurs
 
-      >[!TIP]
-      >
-      >Si vous appuyez sur CTRL+F ou CMD+F, une info-bulle s’affiche en regard du filtre rapide pour vous rappeler ces commandes. Les commandes s’affichent également dans la zone de recherche de filtre rapide.
+     >[!TIP]
+     >
+     >Si vous appuyez sur CTRL+F ou CMD+F, une info-bulle s’affiche en regard du filtre rapide pour vous rappeler ces commandes. Les commandes s’affichent également dans la zone de recherche de filtre rapide.
 
 1. Dans le **[!UICONTROL Page Filtrer]** , saisissez le mot-clé par lequel vous souhaitez filtrer les données.
 
-   Vous pouvez utiliser n’importe quel mot qui s’affiche actuellement dans la vue de la liste.
+   Vous pouvez utiliser n’importe quel mot qui s’affiche actuellement dans l’affichage de la liste.
 
    >[!NOTE]
    >
@@ -106,7 +106,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif) Pour modifier en masse les éléments trouvés par le filtre rapide :
 
-   1. Sélectionnez l’ensemble ou plusieurs des éléments de la liste, puis cliquez sur **[!UICONTROL Modifier]** pour modifier les éléments en masse.
+   1. Sélectionnez tous les éléments ou plusieurs de la liste, puis cliquez sur **[!UICONTROL Modifier]** pour modifier les éléments en masse.
    1. Une fois les modifications effectuées, cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
 1. (Facultatif) Pour exporter les éléments trouvés par le filtre rapide, sélectionnez l’ensemble ou plusieurs des éléments de la liste, puis cliquez sur **[!UICONTROL Exporter]**.

@@ -7,9 +7,9 @@ description: Les rapports fournissent une visibilité sur ce qui se passe avec l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Les rapports sont une combinaison des trois éléments suivants dans Workfront :
   </tr> 
   <tr> 
    <td role="rowheader">Filtre</td> 
-   <td> <li>Contrôle la quantité d’informations affichées dans un rapport.</li> <li>Pour plus d’informations sur les filtres, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Présentation des filtres dans Adobe Workfront</a>.</li> <li>Pour plus d’informations sur les modificateurs de filtre, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificateurs de filtre et de condition</a>.</li> <li>Vous pouvez filtrer à l’aide de caractères génériques, afin de rendre vos filtres plus généraux et de leur offrir une plus grande flexibilité d’utilisation.</li> <li>Pour plus d’informations sur l’utilisation de caractères génériques dans les filtres, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variables de filtre génériques</a>.</li> </td> 
+   <td> <li>Contrôle la quantité d’informations affichées dans un rapport.</li> <li>Pour plus d’informations sur les filtres, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Présentation des filtres</a>.</li> <li>Pour plus d’informations sur les modificateurs de filtre, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificateurs de filtre et de condition</a>.</li> <li>Vous pouvez filtrer à l’aide de caractères génériques, afin de rendre vos filtres plus généraux et de leur offrir une plus grande flexibilité d’utilisation.</li> <li>Pour plus d’informations sur l’utilisation de caractères génériques dans les filtres, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variables de filtre génériques</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

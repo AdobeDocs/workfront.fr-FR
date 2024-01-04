@@ -6,9 +6,9 @@ description: Navigation dans un portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -93,7 +93,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      >
      >Pour afficher uniquement des projets spécifiques, envisagez de créer un filtre de projet dans le **[!UICONTROL Filtrer]** menu déroulant en haut de la liste des projets pour diminuer le nombre de projets affichés.
 
-     Pour plus d’informations sur la création de filtres, voir [Présentation des filtres dans [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     Pour plus d’informations sur la création de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. Cliquez sur **[!UICONTROL Programmes]** dans le panneau de gauche pour créer des programmes dans le portfolio ou gérer les programmes existants.\

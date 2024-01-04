@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -261,7 +261,7 @@ La syntaxe de création de filtres est similaire à celle de création d’invit
 
 Pour plus d’informations sur la création de filtres et d’invites personnalisées, voir :
 
-* [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 Pour plus d’informations sur la création de filtres en mode texte, voir [Modification d’un filtre à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).

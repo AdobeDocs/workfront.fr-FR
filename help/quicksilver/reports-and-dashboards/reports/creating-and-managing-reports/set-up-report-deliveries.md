@@ -6,9 +6,9 @@ description: Présentation de la diffusion des rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ Vous pouvez planifier la remise automatique des rapports aux utilisateurs selon 
 
 Pour plus d’informations sur la configuration d’un rapport pour la diffusion, reportez-vous à l’article [Planifier la remise automatique d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-Vous ne pouvez pas planifier la remise des rapports ni les diffuser manuellement dans l’environnement Aperçu d’un environnement de test. Pour plus d’informations sur l’aperçu de l’environnement de test, voir l’article [Environnement Adobe Workfront Preview Sandbox](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
-Pour plus d’informations sur la diffusion de rapports dans l’environnement de prévisualisation Sandbox, reportez-vous à l’article . [Envoi d’un rapport dans l’environnement Aperçu d’un environnement Sandbox](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
+Vous ne pouvez pas planifier de remise de rapports, ni les diffuser manuellement dans l’environnement Aperçu d’un environnement de test. Pour plus d’informations sur l’aperçu de l’environnement de test, voir l’article [Environnement Adobe Workfront Preview Sandbox](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
+Pour plus d’informations sur la diffusion de rapports dans l’environnement de prévisualisation Sandbox, consultez l’article . [Envoi d’un rapport dans l’environnement Aperçu d’un environnement Sandbox](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
 
 ## Limites de diffusion des rapports
 
@@ -43,35 +43,36 @@ Plusieurs limites de taille affectent la manière dont les rapports s’affichen
 
 * **Taille de fichier de 5 Mo :** Limite de taille de fichier pour tout rapport exporté planifié pour diffusion. Si un fichier exporté joint à un email dépasse 5 Mo, un lien où le fichier peut être téléchargé est envoyé par courrier électronique au lieu du rapport exporté joint. 
 
-   >[!NOTE]
-   >
-   >Les fichiers Excel .xlsx de plus de 5 Mo ne génèrent pas d’email. Vous pouvez exporter manuellement le rapport dans ce format. Pour plus d’informations sur l’exportation de rapports, voir [Exporter des données](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >[!NOTE]
+  >
+  >Les fichiers Excel .xlsx de plus de 5 Mo ne génèrent pas d’email. Vous pouvez exporter manuellement le rapport dans ce format. Pour plus d’informations sur l’exportation de rapports, voir [Exporter des données](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50 000 lignes :** Nombre de lignes de données autorisées dans un rapport exporté pour les fichiers .pdf et délimités par des onglets.
 
-   Pour les fichiers .xls Excel, cette limite est **65 000 lignes**.
+  Pour les fichiers .xls Excel, cette limite est **65 000 lignes**.
 
-   Pour les fichiers Excel .xlsx, cette limite est **100 000 lignes**.
+  Pour les fichiers Excel .xlsx, cette limite est **100 000 lignes**.
 
-   Ces limites excluent les en-têtes de colonne, ainsi que les lignes pour les regroupements dans le rapport. Par exemple, si un rapport comporte 6 groupements et 50 000 lignes ou données, le fichier exporté en contiendra 50 000.
+  Ces limites excluent les en-têtes de colonne, ainsi que les lignes pour les regroupements dans le rapport. Par exemple, si un rapport comporte 6 groupements et 50 000 lignes de données, le fichier exporté en contiendra 50 000.
 
-   Si votre rapport comporte plus d’éléments que ces limites, vous recevez un message d’erreur indiquant que l’exportation et la remise du rapport échouent. Réduisez le nombre d’éléments que vous voyez à l’écran pour qu’il soit inférieur ou égal à ces limites afin de diffuser les résultats. Si vous souhaitez exporter toutes les données, nous vous suggérons d’utiliser des filtres pour obtenir de plus petites charges de données, puis effectuer plusieurs exports. Pour plus d’informations, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Si votre rapport comporte plus d’éléments que ces limites, vous recevez un message d’erreur indiquant que l’exportation et la remise du rapport échouent. Réduisez le nombre d’éléments que vous voyez à l’écran pour qu’il soit inférieur ou égal à ces limites afin de diffuser les résultats. Si vous souhaitez exporter toutes les données, nous vous suggérons d’utiliser des filtres pour obtenir de plus petites charges de données, puis effectuer plusieurs exports. Pour plus d’informations, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-   Ces limites s’appliquent à :
+  Ces limites s’appliquent à :
 
    * Exportation manuelle d’un rapport.
    * Rapport planifié.
-   * Exportation via une intégration d’API. 
+   * Exportation via une intégration API.
    * Données exportées par le biais d’un démarrage rapide.
 
-      Pour plus d’informations sur l’exportation de données par démarrage rapide, consultez l’article . [Exporter des données d’Adobe Workfront par le biais de Démarrages de session](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Pour plus d’informations sur l’exportation de données par démarrage rapide, consultez l’article . [Exporter des données d’Adobe Workfront par le biais de Démarrages de session](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-      >[!NOTE]
-      Vous pouvez exporter 50 000 lignes dans un fichier de démarrage rapide, mais uniquement vers un fichier au format Excel. 
+     >[!NOTE]
+     >
+     Vous pouvez exporter 50 000 lignes dans un fichier de démarrage rapide, mais uniquement vers un fichier au format Excel. 
 
    * Exportation des informations d’utilisation pour un projet.
 
-      Pour plus d’informations sur l’exportation des informations d’utilisation pour un projet, voir [Présentation du rapport Utilisation des ressources](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     Pour plus d’informations sur l’exportation des informations d’utilisation pour un projet, voir [Présentation du rapport Utilisation des ressources](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * **65 530 liens hypertexte :** Il s’agit d’une limite imposée par Excel aux documents qui contiennent plus de 65 530 liens hypertexte. Ces documents ne peuvent pas être ouverts lorsqu’ils sont exportés manuellement ou envoyés dans un rapport remis. Notez qu’un document Excel ne peut contenir que 200 lignes de données, mais s’il existe plus de 65 530 liens dans le document, celui-ci ne s’ouvre pas. Cette limite existe uniquement pour les fichiers Excel et non pour les autres formats pris en charge. 
 * **256 colonnes**: il s’agit d’une limite imposée par Excel pour les documents qui contiennent plus de 256 colonnes. Ces documents ne peuvent pas être exportés manuellement ou envoyés dans un rapport remis. Cette limite existe uniquement pour les fichiers Excel et non pour les autres formats pris en charge. 
@@ -94,7 +95,7 @@ Tenez compte des points suivants : 
 
 * Lors de l’affichage d’un rapport dans le navigateur, l’horodatage et le format du rapport correspondent aux paramètres régionaux et au fuseau horaire de votre navigateur, comme défini dans les paramètres de votre navigateur.
 * Lorsque le rapport est envoyé par courriel, il est envoyé avec l’horodatage et le format correspondant aux paramètres régionaux de l’utilisateur et au fuseau horaire spécifiés dans votre profil Workfront.\
-   Pour plus d’informations sur les paramètres régionaux de l’utilisateur et le fuseau horaire dans Workfront, consultez l’article . [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Pour plus d’informations sur les paramètres régionaux de l’utilisateur et le fuseau horaire dans Workfront, consultez l’article . [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Rapports avec une vue spéciale {#reports-with-a-special-view}
 
@@ -109,9 +110,10 @@ Les vues spéciales sont les suivantes :
 * Rapports avec un graphique comme onglet par défaut
 
 >[!NOTE]
+>
 S&#39;il existe également un onglet Matrice sur le rapport en plus de l&#39;onglet par défaut avec une vue spéciale, le rapport est livré tel qu&#39;il s&#39;affiche dans l&#39;onglet Matrice.
 
-Pour plus d’informations sur l’application d’une vue spéciale à un rapport, reportez-vous à l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Pour plus d’informations sur l’application d’une vue spéciale à un rapport, consultez l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Utiliser le fichier livré
 
@@ -119,7 +121,7 @@ Pour plus d’informations sur l’application d’une vue spéciale à un rappo
 
 * [Objet, nom de la pièce jointe et titre du rapport](#subject-line-attachment-name-and-report-title)
 * [Horodatages](#timestamps)
-* [Branding](#branding)
+* [Marques](#branding)
 * [Formatage](#formatting)
 * [Liens](#links)
 
@@ -136,6 +138,7 @@ Si vous avez planifié le formatage du rapport remis en tant que fichier de PDF 
 Les rapports programmés pour être livrés au format Excel, Excel (.xlsx) ou TSV n’ont pas de titre.
 
 >[!NOTE]
+>
 Si le rapport comporte une description, il sera inclus dans le fichier exporté, si le fichier est formaté en tant que fichier PDF ou HTML.
 
 ### Horodatages {#timestamps}
@@ -154,7 +157,7 @@ Si votre administrateur Workfront a ajouté une valorisation de marque personnal
 
 Les rapports envoyés dans tous les autres formats ne peuvent pas être personnalisés avec votre logo.
 
-Pour plus d’informations sur l’identité graphique de votre instance Workfront, reportez-vous à l’article [Marque votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Pour plus d’informations sur l’identité graphique de votre instance Workfront, voir l’article [Marque votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Formatage {#formatting}
 
@@ -164,7 +167,7 @@ Si votre rapport présente une mise en forme spécifique dans l’application we
 
 Le filtre, la vue ou le regroupement du rapport ne sont pas inclus dans le fichier livré. La description du rapport est incluse uniquement lorsque vous envoyez le rapport sous la forme d’un fichier de PDF.
 
-Pour plus d’informations sur la réception de rapports avec une vue spéciale, reportez-vous à l’article [Rapports avec une vue spéciale](#reports-with-a-special-view).\
+Pour plus d’informations sur la réception de rapports avec une vue spéciale, consultez l’article [Rapports avec une vue spéciale](#reports-with-a-special-view).\
 Pour plus d’informations sur la sélection de l’onglet par défaut d’un rapport et sur la mise en forme spéciale, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Liens {#links}
@@ -177,15 +180,15 @@ Le nom du rapport dans le courriel est également un lien.
 
 Vous pouvez déterminer si un rapport a été configuré pour être diffusé en créant ce qui suit :
 
-* **Une vue** pour l’objet de rapport dans une liste ou un rapport pour les rapports : Créez une vue sur une liste de rapports ou dans un rapport pour les rapports, puis ajoutez la colonne suivante à la vue :\
-   *Nom du rapport planifié.\
-   *Les noms de toutes les diffusions planifiées pour ce rapport sont répertoriés dans la colonne d’une liste à puces.\
-   ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
+* **Une vue** pour l’objet Rapport dans une liste ou un rapport pour les rapports : créez une vue sur une liste de rapports ou dans un rapport pour les rapports, puis ajoutez la colonne suivante à la vue :\
+  *Nom du rapport planifié.\
+  *Les noms de toutes les diffusions planifiées pour ce rapport sont répertoriés dans la colonne d’une liste à puces.\
+  ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
 * **Un filtre** pour l’objet de rapport : créez un filtre sur une liste de rapports ou dans un rapport sur les rapports avec l’instruction suivante : *L’ID de rapport planifié n’est pas vierge*.\
-   Seuls les rapports planifiés dans votre liste ou votre rapport s’affichent.\
-   ![](assets/qs-scheduled-report-filter-350x101.png)\
-   Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Pour plus d’informations sur la création d’un rapport sur les rapports, voir [Créer un rapport sur les activités de reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Seuls les rapports qui ont été planifiés dans votre liste ou votre rapport s’affichent.\
+  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Pour plus d’informations sur la création d’un rapport sur les rapports, voir [Créer un rapport sur les activités de reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating&nbsp;Report Delivery</h2>

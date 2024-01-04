@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Créer, modifier et partager des filtres, des vues et des regroupements par défaut
+title: Créer, modifier et partager des filtres, vues et groupes par défaut
 description: Vous pouvez créer des filtres, des vues et des regroupements par défaut, puis les rendre disponibles pour les utilisateurs de votre entreprise.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 75c4abfa9aebf1d07a851486391291cddc94f1a9
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
-# Créer, modifier et partager des filtres, des vues et des regroupements par défaut
+# Créer, modifier et partager des filtres, vues et groupes par défaut
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -35,7 +35,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Groupements]**.
 
-1. Si vous créez un filtre, une vue ou un regroupement, cliquez sur **[!UICONTROL Ajouter un filtre]**, **[!UICONTROL Ajouter une vue]** ou **[!UICONTROL Ajouter un groupement]**, puis sélectionnez le type d’objet auquel vous souhaitez associer le nouveau filtre, la nouvelle vue ou le nouveau regroupement.
+1. Si vous créez un filtre, une vue ou un regroupement, cliquez sur **[!UICONTROL Ajouter un filtre]**, **[!UICONTROL Ajouter une vue]**, ou **[!UICONTROL Ajouter un groupement]**, puis sélectionnez le type d’objet auquel vous souhaitez associer le nouveau filtre, la nouvelle vue ou le nouveau regroupement.
 
    Ou
 
@@ -70,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Pour plus d’informations sur les options disponibles, voir l’un des articles suivants :
 
-   * [Présentation des filtres dans [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
    * [Présentation des vues dans [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [Présentation des regroupements dans [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -89,7 +89,7 @@ Vous pouvez choisir d’afficher ou de masquer des filtres, des vues ou des grou
 
 Pour afficher ou masquer les filtres, les vues ou les regroupements disponibles à partir du modèle de mise en page :
 
-1. Cliquez sur **[!UICONTROL Interface]**, puis cliquez sur l’une des options suivantes : **[!UICONTROL Filtres]**, **[!UICONTROL Vues]** ou **[!UICONTROL Groupements]**.
+1. Cliquez sur **[!UICONTROL Interface]**, puis cliquez sur l’une des options suivantes : **[!UICONTROL Filtres]**, **[!UICONTROL Vues]**, ou **[!UICONTROL Groupements]**.
 
 1. (Conditionnel) Sélectionnez le filtre, l’affichage ou le regroupement que vous souhaitez rendre disponible aux utilisateurs, puis cliquez sur **[!UICONTROL Activation à l’échelle du système]**.
 
@@ -108,9 +108,9 @@ Ces étapes expliquent comment rendre des filtres, des vues et des regroupements
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Interface]**, puis cliquez sur l’une des options suivantes : **[!UICONTROL Filtres]**, **[!UICONTROL Vues]** ou **[!UICONTROL Groupements]**.
+1. Cliquez sur **[!UICONTROL Interface]**, puis cliquez sur l’une des options suivantes : **[!UICONTROL Filtres]**, **[!UICONTROL Vues]**, ou **[!UICONTROL Groupements]**.
 
-1. Sélectionnez le filtre, l’affichage ou le regroupement que vous souhaitez mettre à la disposition des utilisateurs, puis cliquez sur le bouton **[!UICONTROL Partager]** icon ![Icône Partager](assets/share-icon.png) pour ouvrir le [!UICONTROL Accès aux filtres], [!UICONTROL Afficher l’accès]ou [!UICONTROL Accès de groupement] formulaire.
+1. Sélectionnez le filtre, l’affichage ou le regroupement que vous souhaitez mettre à la disposition des utilisateurs, puis cliquez sur le bouton **[!UICONTROL Partager]** icon ![Icône Partager](assets/share-icon.png) pour ouvrir le [!UICONTROL Accès aux filtres], [!UICONTROL Afficher l’accès], ou [!UICONTROL Accès de groupement] formulaire.
 1. (Conditionnel) Pour mettre le filtre, l’affichage ou le regroupement à la disposition de tous les utilisateurs du système, cliquez sur le bouton **[!UICONTROL Gear]** menu déroulant ![](assets/gear-menu-for-sharing-items.png), puis cliquez sur **[!UICONTROL rendre visible à l’échelle du système ;]**. Tous les utilisateurs du système peuvent désormais afficher le filtre, l’affichage ou le regroupement.
 
    Ou
@@ -138,6 +138,6 @@ Ces étapes expliquent comment rendre des filtres, des vues et des regroupements
 1. Sélectionnez un ou plusieurs éléments de la liste, puis cliquez sur le bouton **[!UICONTROL Supprimer]** icon ![Icône Supprimer](assets/delete.png).
 1. Consultez l’un des articles suivants pour plus d’informations sur la configuration d’un filtre, d’une vue ou d’un regroupement.
 
-   * [Présentation des filtres dans [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
    * [Présentation des vues dans [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [Présentation des regroupements dans [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

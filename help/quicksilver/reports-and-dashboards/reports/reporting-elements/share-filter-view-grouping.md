@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Partage d’un filtre, d’une vue ou d’un regroupement
+title: Partager un filtre, une vue ou un regroupement
 description: Vous pouvez partager avec d’autres utilisateurs des filtres, des vues et des regroupements auxquels vous avez accès.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 1%
 
 ---
 
-# Partage d’un filtre, d’une vue ou d’un regroupement
+# Partager un filtre, une vue ou un regroupement
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -32,7 +32,7 @@ Lorsqu’un filtre, une vue ou un regroupement est partagé avec vous, vous pouv
 
 Pour plus d’informations sur la création d’un filtre, d’une vue ou d’un regroupement, reportez-vous aux articles suivants :
 
-* [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -46,7 +46,7 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
@@ -54,7 +54,7 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Affichage ou accès supérieur à Filtres, Vues, Groupes</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Affichage ou accès supérieur à Filtres, Vues, Regroupements</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -65,13 +65,13 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
-## Partage d’un filtre, d’une vue ou d’un regroupement
+## Partager un filtre, une vue ou un regroupement
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-Le partage de filtres dans des listes sélectionnées est différent selon l&#39;interface à partir de laquelle vous partagez le filtre : standard ou hérité. Pour plus d’informations sur les types d’interfaces de création de filtres, voir [Création ou modification de filtres dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Le partage de filtres dans des listes sélectionnées est différent selon l’interface utilisée pour partager le filtre : standard ou hérité. Pour plus d’informations sur les types d’interfaces de création de filtres, voir [Création ou modification de filtres dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 Vous pouvez partager des vues et des regroupements uniquement dans l’interface héritée.
 
@@ -102,7 +102,7 @@ Partagez un filtre à l’aide de l’interface du créateur standard :
    </tr>
    <tr>
    <td role="rowheader"><strong>Paramètres par défaut du système</strong></td>
-   <td>Les filtres par défaut du système Workfront, ainsi que les filtres que l’administrateur Workfront a ajoutés à votre liste de filtres, au niveau du système ou dans votre modèle de mise en page.</td>
+   <td>Les filtres par défaut du système Workfront, ainsi que les filtres que l’administrateur de Workfront a ajoutés à votre liste de filtres, au niveau du système ou dans votre modèle de mise en page.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Partagé avec moi</strong></td>
@@ -139,6 +139,7 @@ Partagez un filtre à l’aide de l’interface du créateur standard :
       >[!NOTE]
       >
       >Si vous activez l’option Gérer l’accès avec l’option Supprimer , ces utilisateurs pourront supprimer le filtre de tous les utilisateurs, même s’ils ne sont pas propriétaires du filtre.
+
    >[!TIP]
    >
    >Les utilisateurs ne peuvent pas recevoir une autorisation supérieure à leur niveau d’accès. S’ils n’ont pas accès aux filtres d’édition dans leur niveau d’accès, ils ne peuvent pas recevoir d’autorisations pour gérer un filtre. Workfront désactive l’option Gérer pour ces utilisateurs et l’option est grisée.
@@ -158,12 +159,12 @@ Partagez un filtre à l’aide de l’interface du créateur standard :
 Le partage de filtres, de vues et de regroupements dans l’interface héritée est identique.
 
 1. Accédez à une liste d’objets ou à un rapport.
-1. (Conditionnel) Dans une liste, cliquez sur le bouton **Filtrer**, **Affichage** ou **Regroupement** puis survolez le filtre, l’affichage ou le groupe que vous souhaitez partager avec la souris et cliquez sur l’icône **Plus** icon ![Icône Plus](assets/more-icon.png), puis **Partager**.
+1. (Conditionnel) Dans une liste, cliquez sur le bouton **Filtrer**, **Affichage**, ou **Regroupement** puis survolez le filtre, l’affichage ou le groupe que vous souhaitez partager avec la souris et cliquez sur l’icône **Plus** icon ![Icône Plus](assets/more-icon.png), puis **Partager**.
 
-   Dans un rapport, cliquez sur le bouton **Filtrer**, **Affichage** ou **Regroupement** menu déroulant, puis sélectionnez le filtre, l’affichage ou le regroupement que vous souhaitez partager.
+   Dans un rapport, cliquez sur le bouton **Filtrer**, **Affichage**, ou **Regroupement** menu déroulant, puis sélectionnez le filtre, l’affichage ou le regroupement à partager.
 
-1. (Conditionnel) Si vous partagez à partir d’un rapport, cliquez sur l’icône **Filtrer**, **Affichage** ou **Regroupement** menu déroulant, puis cliquez de nouveau sur **Partager le filtre**, **Partager la vue** ou **Partager le groupement**.\
-   Le **Accès aux filtres**, **Afficher l’accès** ou **Accès de groupement** s’affiche.
+1. (Conditionnel) Si vous partagez à partir d’un rapport, cliquez sur l’icône **Filtrer**, **Affichage**, ou **Regroupement** menu déroulant, puis cliquez de nouveau sur **Partager le filtre**, **Partager la vue**, ou **Partager le groupement**.\
+   La variable **Accès aux filtres**, **Afficher l’accès**, ou **Accès de groupement** s’affiche.
 
    ![Partager le filtre](assets/share-filter-people-box-nwe-350x458.png)
 
@@ -204,6 +205,6 @@ Le partage de filtres, de vues et de regroupements dans l’interface héritée 
 
 1. Cliquer sur **Enregistrer**.
 
-   Les utilisateurs avec lesquels vous avez partagé le filtre, la vue ou le regroupement peuvent y accéder en cliquant sur le bouton **Filtrer**, **Affichage** ou **Regroupement** menu déroulant ou icône, puis faites défiler l’écran jusqu’au **Partagé avec moi** .
+   Les utilisateurs avec lesquels vous avez partagé le filtre, la vue ou le regroupement peuvent y accéder en cliquant sur le bouton **Filtrer**, **Affichage**, ou **Regroupement** menu déroulant ou icône, puis faites défiler l’écran jusqu’au **Partagé avec moi** .
 
 

@@ -1,25 +1,25 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Ajout d’une invite à un rapport
+title: Ajouter une invite à un rapport
 description: Les filtres et les invites sont similaires dans la mesure où ils limitent tous deux la quantité d’informations que vous affichez dans un rapport.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
 
-# Ajout d’une invite à un rapport
+# Ajouter une invite à un rapport
 
 ## Différence entre les invites et les filtres
 
 Les filtres et les invites sont similaires dans la mesure où ils limitent tous deux la quantité d’informations que vous affichez dans un rapport.
 
-Vous créez un filtre afin que les informations affichées dans le rapport soient filtrées selon les mêmes critères à chaque exécution du rapport. Les filtres sont créés une seule fois et codés en dur dans le rapport. Pour plus d’informations sur la création de filtres, voir l’article [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Vous créez un filtre afin que les informations affichées dans le rapport soient filtrées selon les mêmes critères à chaque exécution du rapport. Les filtres sont créés une seule fois et codés en dur dans le rapport. Pour plus d’informations sur la création de filtres, voir l’article [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Les invites sont des filtres ouverts qui peuvent être personnalisés et appliqués différemment chaque fois que vous exécutez un rapport.
 
@@ -45,7 +45,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -89,9 +89,9 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 
    Cependant, l’invite reste aussi flexible qu’une invite ordinaire, car vous pouvez choisir parmi plusieurs instructions prédéfinies, contrairement à un seul filtre codé en dur dans le rapport.
 
-   Spécifiez les informations suivantes pour l’invite personnalisée : La condition d’une invite personnalisée ne peut être modifiée qu’en mode texte. Cela permet d’appliquer plusieurs conditions dans un seul champ.
+   Renseignez les informations suivantes pour l’invite personnalisée : la condition d’une invite personnalisée ne peut être modifiée qu’en mode texte. Cela permet d’appliquer plusieurs conditions dans un seul champ.
 
-   * **Nom du champ :** Il s’agit du nom de l’invite, comme vous le voyez avant d’exécuter le rapport.
+   * **Nom du champ :** Il s’agit du nom de l’invite, tel qu’il s’affiche avant l’exécution du rapport.
    * **Libellé :** Il s’agit du nom d’une des options de l’invite telles qu’elle s’affiche avant l’exécution du rapport.
    * **Condition :** Saisissez une condition qui définit l’invite.
 
@@ -101,15 +101,16 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 
    * toutes les tâches sur les projets futurs pour lesquels l’état du projet est Idée, Demandée, Planifiée et Actuelle :
 
-      ```
-      project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
-      ```
+     ```
+     project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
+     ```
 
    * toutes les tâches des projets terminés (précédents) pour lesquels l’état du projet est Terminé ou Mort :
 
-      ```
-      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
-      ```
+     ```
+     project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
+     ```
+
    Pour plus d’informations sur les modificateurs de mode texte, voir [Modificateurs de filtre et de condition](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
@@ -119,7 +120,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 1. (Facultatif) Répétez l’étape 4 ou 5 pour créer autant d’invites que nécessaire.
 1. Cliquez sur **Terminé**, puis cliquez sur **Enregistrer + Fermer** pour enregistrer le rapport.
 
-## Application d’une invite à un rapport
+## Appliquer une invite à un rapport
 
 Lorsqu&#39;une invite est ajoutée à un rapport, l&#39;onglet par défaut du rapport est toujours l&#39;onglet Invite .
 
@@ -150,7 +151,7 @@ Les restrictions suivantes s’appliquent au partage de rapports générés à p
 
 * Lorsque vous partagez un rapport publiquement, les utilisateurs ne peuvent pas l’exécuter en appliquant l’invite, sauf s’ils disposent des informations d’identification Workfront et se connectent d’abord pour afficher le rapport dans Workfront.
 
-   Pour plus d’informations sur le partage de rapports, reportez-vous à l’article [Partage d’un rapport dans Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Pour plus d’informations sur le partage de rapports, consultez l’article [Partage d’un rapport dans Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * Lorsque vous planifiez la remise d’un rapport invité, le rapport en pièce jointe inclut les données du rapport demandées. Lorsque l&#39;utilisateur clique sur le lien contenu dans l&#39;email pour accéder au rapport, il doit d&#39;abord se connecter pour afficher le rapport et lancer lui-même l&#39;invite.
 
-   Pour plus d’informations sur la planification d’un rapport remis, voir [Planifier la remise automatique d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Pour plus d’informations sur la planification d’un rapport remis, voir [Planifier la remise automatique d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

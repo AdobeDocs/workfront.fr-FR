@@ -6,9 +6,9 @@ description: Vous pouvez limiter la quantité d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez appliquer les types de filtres suivants dans Adobe Workfront :
 
 * Filtres dans d’autres zones de Workfront, en dehors des listes et des rapports.
 
-  Pour obtenir la liste de tous les filtres dans Workfront et les zones dans lesquelles vous pouvez les appliquer, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Pour obtenir la liste de tous les filtres dans Workfront et les zones dans lesquelles vous pouvez les appliquer, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Exigences d’accès
 
@@ -241,7 +241,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
 
    ![Inclure si tout ou n’importe quel ou vrai menu déroulant](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Pour plus d’informations sur les opérateurs de filtrage, voir [Présentation des filtres dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur les opérateurs de filtrage, voir [Présentation des filtres](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Cliquez sur le menu déroulant des champs pour afficher la liste des champs récemment utilisés et les champs proposés pour les filtrer. Les champs proposés sont actuellement affichés dans la liste que vous filtrez.
 

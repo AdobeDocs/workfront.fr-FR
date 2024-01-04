@@ -6,9 +6,9 @@ description: Création de filtres de mode de texte complexes à l’aide d’ins
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2799'
+source-wordcount: '2766'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Par exemple, vous pouvez référencer l’ID de Portfolio dans un filtre de prob
 
 Cependant, vous ne pouvez pas référencer le propriétaire du Portfolio dans un filtre de problèmes à l’aide de l’interface standard pour afficher uniquement les problèmes provenant de projets associés à des portefeuilles dont le propriétaire est un utilisateur spécifique. Vous devez utiliser le mode texte pour accéder au champ Nom du propriétaire du Portfolio qui se trouve à trois niveaux des problèmes.
 
-![issue_to_portfolio_owner_right_line_icons.PNG](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![issue_to_portfolio_owner_line_icons.PNG](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
 Pour obtenir la liste complète des objets dans Workfront, reportez-vous à la section [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
@@ -52,7 +52,7 @@ Lors de la création de filtres, vous devez créer des instructions complexes da
 
 Pour plus d’informations sur la création de filtres complexes, voir [Présentation des filtres de mode texte complexes qui utilisent des instructions EXISTS](#overview-of-complex-text-mode-filters-that-use-exists-statements) .
 
-## Présentation des filtres de mode texte complexes qui utilisent des instructions EXISTS {#overview-of-complex-text-mode-filters-that-use-exists-statements}
+## Présentation des filtres de mode de texte complexes qui utilisent des instructions EXISTS {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
 Tenez compte des points suivants lors de la création de filtres qui s’étendent sur plusieurs niveaux dans la hiérarchie d’objets ou qui filtrent les objets manquants :
 
@@ -61,13 +61,13 @@ Tenez compte des points suivants lors de la création de filtres qui s’étende
 
    * Créez des filtres qui s’étendent sur plusieurs niveaux.
    * Créez des filtres qui recherchent les objets manquants.\
-      Par exemple, lors de la création d’un rapport d’utilisateur, vous pouvez filtrer les utilisateurs qui n’ont pas effectué de journalisation pendant une certaine période.
+     Par exemple, lors de la création d’un rapport d’utilisateur, vous pouvez filtrer les utilisateurs qui n’ont pas effectué de journalisation pendant une certaine période.
 
 Tenez compte des règles suivantes lors de l’utilisation d’instructions EXISTS dans un filtre :
 
 * Vous pouvez référencer trois objets dans un filtre EXISTS :
 
-   * Objet du filtre (objet d’origine).
+   * Objet du filtre (objet original).
    * Objet dont vous souhaitez référencer le champ (objet cible).
    * Objet qui connecte les objets d’origine et de cible s’ils ne sont pas directement connectés les uns aux autres (objet de liaison).
 
@@ -77,12 +77,12 @@ Tenez compte des règles suivantes lors de l’utilisation d’instructions EXIS
    * L’instruction située après le signe égal fait référence à l’objet à partir duquel vous faites référence (l’objet d’origine).
 
 * Vous devez utiliser le code d’objet de l’objet de liaison pour connecter vos instructions.\
-   Vous trouverez le code d’objet de tous les objets dans l’explorateur d’API.\
-   Pour plus d’informations sur l’explorateur d’API, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
+  Vous trouverez le code d’objet de tous les objets dans l’explorateur d’API.\
+  Pour plus d’informations sur l’explorateur d’API, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
 * Lorsqu’un objet de liaison est manquant car les objets d’origine et de cible sont directement connectés les uns aux autres, vous pouvez utiliser le code d’objet de l’objet cible au lieu de l’objet de lien.
 * Vous pouvez faire référence à plusieurs champs (champs cibles) sur le même objet (objet cible). Dans ce cas, vous devez connecter les lignes qui font référence aux champs par AND.\
-   Pour un exemple de filtrage de plusieurs champs appartenant à l’objet cible, reportez-vous à la section [Exemple 4 : Filtrage par plusieurs champs : tâches par nom de propriétaire de Portfolio et identifiant de la Fiche d’évaluation d’alignement des Portfolios](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) dans cet article.
+  Pour un exemple de filtrage de plusieurs champs appartenant à l’objet cible, reportez-vous à la section [Exemple 4 : filtrer par plusieurs champs : tâches par nom de propriétaire du Portfolio et identifiant de la Fiche d’évaluation d’alignement des Portfolios](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) dans cet article.
 
 * Le seul modificateur pris en charge pour une instruction EXISTS est NOTEXISTS.
 
@@ -96,7 +96,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -125,7 +125,7 @@ Vous pouvez créer un filtre qui référence des objets à plusieurs niveaux de 
 
 Vous devez toujours utiliser une instruction EXISTS et l’interface du mode texte pour créer ce filtre.
 
-Pour obtenir des exemples de filtres, reportez-vous à la section [Exemple 1 : Filtrage des problèmes par nom de propriétaire de Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) dans cet article.
+Pour obtenir des exemples de filtres, reportez-vous à la section [Exemple 1 : filtre pour les problèmes par nom de propriétaire de Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) dans cet article.
 
 Pour créer un filtre couvrant plusieurs niveaux dans la hiérarchie d’objets :
 
@@ -141,9 +141,9 @@ Pour créer un filtre couvrant plusieurs niveaux dans la hiérarchie d’objets 
    Par exemple, le code d’objet du projet est PROJ.\
    ![project_objCode_in_the_API.PNG](assets/project-objcode-in-the-api-350x84.png)
 
-1. Créez un filtre pour l’objet d’origine.\
+1. Créez un filtre pour l’objet original.\
    Par exemple, créez un filtre Problème .\
-   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Cliquez sur **Passer en mode Texte**.
 1. Collez l’exemple de formule suivant dans l’interface du mode texte du nouveau filtre et remplacez le texte suggéré par les objets et les champs appropriés :
@@ -154,7 +154,7 @@ Pour créer un filtre couvrant plusieurs niveaux dans la hiérarchie d’objets 
    EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
    ```
 
-   Pour un exemple utilisant les champs que nous avons identifiés ci-dessus, reportez-vous à la section [Exemple 1 : Filtrage des problèmes par nom de propriétaire de Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) dans cet article.
+   Pour un exemple utilisant les champs que nous avons identifiés ci-dessus, reportez-vous à la section [Exemple 1 : filtre pour les problèmes par nom de propriétaire de Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) dans cet article.
 
 1. Cliquez sur **Enregistrer le filtre**.
 
@@ -170,24 +170,24 @@ Vous devez toujours utiliser un *EXISTE* et l’interface du mode texte pour cr�
 
 Pour des exemples de filtres pour les objets manquants, reportez-vous aux sections suivantes de cet article :
 
-* [Exemple 2 : Filtre pour les objets manquants : champs personnalisés qui n’apparaissent dans aucun formulaire personnalisé](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
-* [Exemple 3 : Filtre pour les objets manquants : utilisateurs qui n’ont pas consigné de temps pendant une certaine période](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
+* [Exemple 2 : filtrer les objets manquants : champs personnalisés qui n’apparaissent dans aucun formulaire personnalisé](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
+* [Exemple 3 : filtre pour les objets manquants : utilisateurs qui n’ont pas consigné de temps pendant une certaine période](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
 
 Pour créer un filtre qui référence les objets manquants :
 
 1. Identifiez l’objet de votre filtre. Nous appelons cet objet l’objet d’origine.\
    Par exemple, Paramètre ou Champ personnalisé.
 1. Identifiez le champ en fonction duquel vous souhaitez filtrer les données. Nous appelons cet objet le champ cible qui appartient à un objet cible.\
-   Par exemple, le champ categoryID (Champ cible) qui appartient à la catégorie (objet cible).
+   Par exemple, le champ categoryID (champ cible) qui appartient à la catégorie (objet cible).
 1. Puisque l’objet d’origine (paramètre) et le champ cible (ID de catégorie) ne sont pas directement connectés l’un à l’autre, vous devez trouver un troisième objet, un objet de liaison (un paramètre de catégorie), qui les connecte. L’objet de liaison doit comporter au moins un champ référencé à partir des onglets Champs ou Références de l’objet d’origine (Champ de liaison affiché sur l’objet d’origine) et un champ de liaison à l’objet cible doit également être affiché dans les onglets Champs ou Références de l’objet de liaison. Le champ Liaison à l’objet cible qui s’affiche sur l’objet de liaison (ou le champ de liaison affiché sur l’objet de liaison) doit correspondre au champ cible.\
    Par exemple, l’identifiant du paramètre de catégorie (champ de liaison affiché sur l’objet d’origine) est référencé à partir du paramètre (objet d’origine). parameterID (liaison de champ à l’objet cible) s’affiche dans l’onglet Champs du paramètre de catégorie (liaison d’objet). Le champ Liaison à l’objet cible qui s’affiche sur l’objet de liaison correspond au champ cible.
 1. À l’aide de l’explorateur d’API, identifiez la variable **Code objet** de l’objet de liaison (paramètre de catégorie).\
    Par exemple, le code d’objet pour le paramètre de catégorie est CTGYPA.\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
 
-1. Créez un filtre pour l’objet d’origine.\
+1. Créez un filtre pour l’objet original.\
    Par exemple, créez un filtre Paramètre .\
-   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Cliquez sur **Passer en mode Texte**.
 1. (Conditionnel) Si vous filtrez les objets manquants, collez l’exemple de formule suivant dans l’interface du mode texte du nouveau filtre et remplacez le texte suggéré par les objets et les champs appropriés :
@@ -200,25 +200,25 @@ Pour créer un filtre qui référence les objets manquants :
    EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-   Pour un exemple de création de rapports sur les champs personnalisés qui ne sont pas associés à Forms personnalisé, reportez-vous à la section [Exemple 2 : Filtre pour les objets manquants : champs personnalisés qui n’apparaissent dans aucun formulaire personnalisé](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) dans cet article.
+   Pour un exemple de création de rapports sur les champs personnalisés qui ne sont pas associés à Forms personnalisé, reportez-vous à la section [Exemple 2 : filtrer les objets manquants : champs personnalisés qui n’apparaissent dans aucun formulaire personnalisé](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) dans cet article.
 
 1. Cliquez sur **Enregistrer le filtre**.
 
 ## Exemples de filtres de mode texte s’étendant sur plusieurs niveaux dans la hiérarchie d’objets
 
-* [Exemple 1 : Filtrage des problèmes par nom de propriétaire de Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name)
-* [Exemple 2 : Filtre pour les objets manquants : champs personnalisés qui n’apparaissent dans aucun formulaire personnalisé](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
-* [Exemple 3 : Filtre pour les objets manquants : utilisateurs qui n’ont pas consigné de temps pendant une certaine période](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
-* [Exemple 4 : Filtrage par plusieurs champs : tâches par nom de propriétaire de Portfolio et identifiant de la Fiche d’évaluation d’alignement des Portfolios](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
+* [Exemple 1 : filtre pour les problèmes par nom de propriétaire de Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name)
+* [Exemple 2 : filtrer les objets manquants : champs personnalisés qui n’apparaissent dans aucun formulaire personnalisé](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
+* [Exemple 3 : filtre pour les objets manquants : utilisateurs qui n’ont pas consigné de temps pendant une certaine période](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
+* [Exemple 4 : filtrer par plusieurs champs : tâches par nom de propriétaire du Portfolio et identifiant de la Fiche d’évaluation d’alignement des Portfolios](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
 
-### Exemple 1 : Filtrage des problèmes par nom de propriétaire de Portfolio {#example-1-filter-for-issues-by-portfolio-owner-name}
+### Exemple 1 : filtre pour les problèmes par nom de propriétaire de Portfolio {#example-1-filter-for-issues-by-portfolio-owner-name}
 
 À l’aide de l’interface du mode texte, vous pouvez créer un filtre pour une liste de problèmes afin d’afficher uniquement les problèmes qui concernent des projets associés à un portfolio dont le propriétaire est un utilisateur spécifique.
 
 Pour filtrer les problèmes selon le nom du propriétaire du Portfolio :
 
 1. Créez un filtre Problème .\
-   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Cliquez sur **Passer en mode Texte**.
 1. Reportez-vous au code générique suivant :
@@ -232,23 +232,21 @@ Pour filtrer les problèmes selon le nom du propriétaire du Portfolio :
    ```
 
 1. Collez le code suivant dans le **Définition de règles de filtrage pour votre rapport** zone pour remplacer le code générique ci-dessus :
-
    <pre>EXISTE:A:$$OBJCODE=PROJ<br>EXISTE:A:ID=FIELD:projectID<br>EXISTE:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221</pre>
 
    >[!NOTE]
    >
-   >* L’objet d’origine est l’objet du rapport : Problème
+   >* L’objet original est l’objet du rapport : Problème
    >* L’objet cible est Portfolio.
    >* L’objet de liaison est Projet.
    >* Le champ cible et le champ de liaison à l’objet cible référencé à partir de l’objet de liaison sont ownerID.
    >* Le code objet de l’objet de liaison ici est PROJ.
    >* Le champ de liaison affiché sur l’objet d’origine est projectID et le champ de liaison est ID.
 
-
 1. Remplacez la valeur du champ cible (propriétaireID) dans la dernière instruction par un ID utilisateur de votre environnement.
 1. Cliquez sur **Enregistrer le filtre**.
 
-### Exemple 2 : Filtre pour les objets manquants : champs personnalisés qui n’apparaissent dans aucun formulaire personnalisé {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
+### Exemple 2 : filtrer les objets manquants : champs personnalisés qui n’apparaissent dans aucun formulaire personnalisé {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
 À l’aide de l’interface du mode texte, vous pouvez créer un filtre afin d’afficher les champs personnalisés (paramètres) qui ne sont pas associés à la Forms personnalisée (catégories). Ce filtre lie les paramètres aux catégories, qui sont connectées via un autre objet, le paramètre de catégorie. Comme les deux champs ne sont pas directement connectés les uns aux autres et que vous filtrez les informations manquantes, vous devez utiliser une instruction EXISTS.
 
@@ -259,7 +257,7 @@ Pour filtrer les problèmes selon le nom du propriétaire du Portfolio :
 Pour filtrer les champs personnalisés qui ne sont pas associés à un formulaire personnalisé :
 
 1. Créez un filtre Paramètre ou Champ personnalisé .\
-   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Cliquez sur **Passer en mode Texte**.
 1. Reportez-vous au code générique suivant :
@@ -273,29 +271,27 @@ Pour filtrer les champs personnalisés qui ne sont pas associés à un formulair
    ```
 
 1. Collez le code suivant dans le **Définition de règles de filtrage pour votre rapport** zone pour remplacer le code générique ci-dessus :
-
    <pre>EXISTE:A:$$OBJCODE=CTGYPA<br>EXISTE:A:parameterID=FIELD:ID<br>EXISTE:A:$$EXISTSMOD=NOTEXISTS</pre>
 
    >[!NOTE]
    >
-   >* L’objet d’origine est l’objet du rapport : Paramètre .
+   >* L’objet d’origine est l’objet du rapport : Paramètre.
    >* L’objet cible est Catégorie.
    >* L’objet de liaison est un paramètre de catégorie.
    >* Le code objet de l’objet de liaison est CTGYPA.
    >* Le champ Liaison à l’objet cible est parameterID, car parameterID existe dans le tableau Objet de liaison et le tableau Objet cible.
    >* Le champ de liaison affiché sur l’objet d’origine est l’identifiant (du paramètre de catégorie).
 
-
 1. Cliquez sur **Enregistrer le filtre**.
 
-### Exemple 3 : Filtre pour les objets manquants : utilisateurs qui n’ont pas consigné de temps pendant une certaine période {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
+### Exemple 3 : filtre pour les objets manquants : utilisateurs qui n’ont pas consigné de temps pendant une certaine période {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
 À l’aide de l’interface du mode texte, vous pouvez créer un filtre afin d’afficher les utilisateurs qui n’ont pas consigné de temps pendant une certaine période. Ce filtre lie les utilisateurs aux heures, qui sont directement connectés les uns aux autres. Cependant, vous devez utiliser une instruction EXISTS et l’interface du mode texte pour pouvoir filtrer les informations manquantes.
 
 Pour filtrer les utilisateurs qui n’ont pas effectué de journalisation au cours de la semaine précédente :
 
 1. Créez un filtre Utilisateur .\
-   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Cliquez sur **Passer en mode Texte**.
 1. Reportez-vous au code générique suivant :
@@ -320,15 +316,14 @@ Pour filtrer les utilisateurs qui n’ont pas effectué de journalisation au cou
    >* L’objet cible est Heure.
    >* Dans cet exemple, vous n’avez pas besoin d’objet de liaison, car les utilisateurs et les heures sont directement connectés dans la base de données Workfront.
    >* Puisqu’il n’existe aucun objet de liaison, vous devez utiliser le code d’objet de l’objet cible : HEURE.
-   >* Le champ de liaison à l’objet cible est ownerID (qui s’affiche sur l’objet d’origine). L’objet de liaison est manquant).
-   >* Le champ de liaison affiché sur l’objet d’origine est l’identifiant (de l’heure) (qui s’affiche sur l’objet cible ; L’objet de liaison est manquant.)
+   >* Le champ Liaison à l’objet cible est ownerID (qui s’affiche sur l’objet d’origine ; l’objet de liaison est manquant).
+   >* Le champ de liaison affiché sur l’objet d’origine est l’identifiant (de l’heure) (qui s’affiche sur l’objet cible ; l’objet de liaison est manquant.)
    >* LES EXISTANTS:A:L’instruction entryDate fait référence aux champs qui définissent l’objet cible (heure) et qui utilisent la même syntaxe que dans une instruction de filtre ordinaire. Vous affichez ainsi uniquement les utilisateurs qui n’ont pas consigné de temps pendant une période spécifique, dans ce cas la semaine précédente.
    >* Le modificateur NOTEXISTS indique que nous recherchons des éléments (heures) qui n’existent pas pour l’objet du rapport (Utilisateurs).
 
-
 1. Cliquez sur **Enregistrer le filtre**.
 
-### Exemple 4 : Filtrage par plusieurs champs : tâches par nom de propriétaire de Portfolio et identifiant de la Fiche d’évaluation d’alignement des Portfolios {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
+### Exemple 4 : filtrer par plusieurs champs : tâches par nom de propriétaire du Portfolio et identifiant de la Fiche d’évaluation d’alignement des Portfolios {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
 À l’aide de l’interface du mode texte, vous pouvez créer un filtre qui fait référence à plusieurs champs de l’objet cible. Dans ce cas, les instructions de filtre qui font référence aux champs cibles doivent être connectées par AND.
 
@@ -340,7 +335,7 @@ Par exemple, vous pouvez filtrer une liste de tâches afin de n’afficher que l
 Pour filtrer les tâches selon le nom du propriétaire du Portfolio et l’identifiant de la Fiche d’évaluation de l’alignement des Portfolios :
 
 1. Créez un filtre Tâche .\
-   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur la création de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Cliquez sur **Passer en mode Texte**.
 1. Collez le code suivant dans le **Définition de règles de filtrage pour votre rapport** area :
@@ -357,6 +352,5 @@ Pour filtrer les tâches selon le nom du propriétaire du Portfolio et l’ident
    >* Le champ Liaison à l’objet cible est l’identifiant (du Portfolio).
    >* Le champ de liaison affiché sur l’objet d’origine est projectID.
    >* Remplacez le propriétaireID par un ID utilisateur issu de votre environnement.
-
 
 1. Cliquez sur **Enregistrer le filtre**.

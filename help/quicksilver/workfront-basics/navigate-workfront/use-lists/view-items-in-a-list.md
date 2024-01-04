@@ -5,9 +5,9 @@ description: Vous pouvez afficher des listes d’objets dans [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2397'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Voici quelques caractéristiques des listes dans [!DNL Workfront]:
 * Les listes sont actualisées automatiquement toutes les cinq minutes afin de mettre à jour les informations que d’autres utilisateurs du système mettent à jour ailleurs.
 * Certaines zones de [!DNL Workfront] sont préconfigurés avec des listes d’objets par défaut.
 
-   Vous pouvez personnaliser la plupart de ces listes préconfigurées.
+  Vous pouvez personnaliser la plupart de ces listes préconfigurées.
 
 * A [!DNL Workfront] L’administrateur peut créer des listes personnalisées à appliquer à différentes zones de [!DNL Workfront].
 
-   Pour plus d’informations sur la création de listes au niveau du système, reportez-vous à l’article [Créer, modifier et partager des filtres, des vues et des regroupements par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  Pour plus d’informations sur la création de listes au niveau du système, consultez l’article [Créer, modifier et partager des filtres, vues et groupes par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 ## Exigences d’accès
 
@@ -41,7 +41,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -68,7 +68,6 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous trouverez
 >
 >* Cette liste n&#39;est pas exhaustive. Chacune de ces listes d’objets peut également apparaître sur un rapport ou un tableau de bord. Par exemple, un rapport Projet ou un tableau de bord contenant un rapport Projet affiche également une liste de projets.
 >* Dans cette liste, &quot;select&quot; signifie que vous devez cliquer sur le nom de l’élément, et non sur la case à cocher située à gauche du nom.
-
 
 
 <table style="table-layout:auto"> 
@@ -214,7 +213,7 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous trouverez
     <ul> 
      <li class="preview"> <p>[!UICONTROL Configuration] &gt;[!UICONTROL Forms personnalisée]</p>
      <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>REMARQUE</b>: Actuellement, cette option n’est disponible que dans l’environnement Aperçu .</p> </li> 
+     <p><b>REMARQUE</b>: actuellement, cette option n’est disponible que dans l’environnement Aperçu .</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -280,7 +279,7 @@ Voici les éléments d&#39;une liste :
  <tbody> 
   <tr> 
    <td><strong>[!UICONTROL Filter]</strong></td> 
-   <td> <p>Les filtres conservent dans une liste des informations inutiles, en fonction des critères que vous spécifiez. </p> <p>Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Présentation des filtres dans [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Les filtres conservent dans une liste des informations inutiles, en fonction des critères que vous spécifiez. </p> <p>Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Présentation des filtres</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL View]</strong></td> 
@@ -293,7 +292,7 @@ Voici les éléments d&#39;une liste :
  </tbody> 
 </table>
 
-Par défaut, ces éléments s’affichent en haut de chaque liste. Ils sont collants et ne bougent pas lorsque vous faites défiler la liste. Placez le pointeur de la souris sur l’icône de chaque élément pour l’identifier.
+Par défaut, ces éléments s’affichent en haut de chaque liste. Ils sont collants et ne bougent pas lorsque vous faites défiler la liste. Pointez sur l’icône de chaque élément pour l’identifier.
 
 ![](assets/nwe-list-elements.png)
 
@@ -334,7 +333,7 @@ Vous pouvez effectuer les actions suivantes dans une liste :
   </tr> 
   <tr> 
    <td><strong>Filtre rapide</strong> </td> 
-   <td> <p>Appliquez un filtre rapide pour rechercher uniquement les éléments qui vous intéressent afin de pouvoir rapidement les vérifier, les mettre à jour ou les partager avec d’autres personnes.</p> <p>Important : Vous pouvez rechercher les éléments qui contiennent un mot de recherche à l’aide du filtre rapide, que cet élément soit visible à l’écran ou s’affiche après avoir fait défiler la page vers le bas. Lorsque vous utilisez les fonctionnalités de recherche de votre navigateur, vous ne pouvez trouver que les éléments déjà visibles à l’écran. Si votre liste comporte plusieurs pages, les filtres rapides ne recherchent que les éléments de la page active.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Appliquer le filtre rapide à une liste</a>.</p> </td> 
+   <td> <p>Appliquez un filtre rapide pour rechercher uniquement les éléments qui vous intéressent afin de pouvoir rapidement les vérifier, les mettre à jour ou les partager avec d’autres personnes.</p> <p>Important : Vous pouvez trouver les éléments qui contiennent un mot de recherche à l’aide du filtre rapide, que cet élément soit visible à l’écran ou s’affiche après avoir fait défiler la page vers le bas. Lorsque vous utilisez les fonctionnalités de recherche de votre navigateur, vous ne pouvez trouver que les éléments déjà visibles à l’écran. Si votre liste comporte plusieurs pages, les filtres rapides ne recherchent que les éléments de la page active.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Appliquer le filtre rapide à une liste</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Exporter</strong> </td> 
@@ -385,7 +384,7 @@ Le tableau suivant répertorie de nombreuses icônes disponibles dans la barre d
   <tr> 
    <td> <img src="assets/delete.png"> </td> 
    <td>[!UICONTROL Supprimer]</td> 
-   <td>Supprimez l’élément sélectionné.</td> 
+   <td>Supprimer l’élément sélectionné.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-add-to-iteration-icon-in-new-toolbar-for-issues.png"> </td> 
@@ -465,7 +464,7 @@ Le tableau suivant répertorie de nombreuses icônes disponibles dans la barre d
  </tbody> 
 </table>
 
-## Différence entre les listes et les rapports
+## Différence entre listes et rapports
 
 Les listes et les rapports sont des grilles qui contiennent des informations sur un type d’objet.
 
@@ -489,12 +488,12 @@ Le tableau suivant présente les similitudes et les différences entre les liste
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Une seule [!DNL Workfront] Un administrateur et des utilisateurs disposant d’une licence [!UICONTROL Plan] peuvent les créer.</p> </td> 
+   <td> <p>Uniquement un [!DNL Workfront] Un administrateur et des utilisateurs possédant une licence [!UICONTROL Plan] peuvent les créer.</p> </td> 
    <td> </td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Un ensemble par défaut est disponible à partir de [!DNL Workfront]</p> </td> 
+   <td> <p>Un ensemble par défaut est disponible dans [!DNL Workfront]</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -534,7 +533,7 @@ Le tableau suivant présente les similitudes et les différences entre les liste
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez ajouter à un modèle de mise en page</p> </td> 
+   <td> <p>Vous pouvez ajouter à un modèle de disposition</p> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -544,7 +543,7 @@ Le tableau suivant présente les similitudes et les différences entre les liste
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez les ajouter à un tableau de bord.</p> </td> 
+   <td> <p>Vous pouvez les ajouter à un tableau de bord</p> </td> 
    <td> ✓*** </td> 
    <td>✓</td> 
   </tr> 
@@ -566,7 +565,7 @@ Le tableau suivant présente les similitudes et les différences entre les liste
  </tbody> 
 </table>
 
-Vous devez avoir accès aux filtres, aux vues et aux regroupements pour pouvoir les créer. Pour plus d’informations, voir [Accorder l’accès aux filtres, aux vues et aux regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+Vous devez avoir accès aux filtres, aux vues et aux regroupements pour pouvoir les créer. Pour plus d’informations, voir [Accorder l’accès aux filtres, vues et regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 Pour pouvoir les créer, vous devez avoir accès aux filtres, vues et regroupements, ainsi qu’aux rapports, tableaux de bord et calendriers. Pour plus d’informations, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -584,11 +583,11 @@ Il existe deux types de listes dans [!DNL Workfront]:
 
 * Listes héritées
 
-   ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Listes mises à jour
 
-   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 Les deux types de listes apparaissent dans la variable [!DNL Adobe Workfront].
 

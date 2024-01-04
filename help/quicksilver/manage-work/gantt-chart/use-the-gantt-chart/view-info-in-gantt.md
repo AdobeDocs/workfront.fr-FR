@@ -5,16 +5,16 @@ description: Le diagramme de Gantt de la liste des tâches et le diagramme de Ga
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 0%
 
 ---
 
 # Afficher les informations dans le  [!UICONTROL Graphique Gantt]
 
-La liste des tâches [!UICONTROL Graphique Gantt] et liste des projets [!UICONTROL Graphique Gantt] afficher des informations sur les projets et les tâches ;
+La liste des tâches [!UICONTROL Graphique Gantt] et liste des projets [!UICONTROL Graphique Gantt] afficher des informations sur les projets et les tâches.
 
 ## Exigences d’accès
 
@@ -26,7 +26,7 @@ Pour suivre les étapes de cet article, vous devez disposer des éléments suiva
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Présentation des licences*</td> 
@@ -49,7 +49,7 @@ Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s�
 
 ## Recherchez la variable  [!UICONTROL Graphique Gantt]
 
-Vous pouvez localiser le diagramme Gantt de la liste des tâches et la liste des projets. [!UICONTROL Graphique Gantt] de plusieurs zones dans Workfront. Pour plus d’informations, voir [Prise en main de la fonction [!UICONTROL Graphique Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+Vous pouvez localiser le diagramme de Gantt de la liste des tâches et la liste des projets. [!UICONTROL Graphique Gantt] de plusieurs zones dans Workfront. Pour plus d’informations, voir [Prise en main de la fonction [!UICONTROL Graphique Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
 ## Afficher les tâches sur la page [!UICONTROL Chemin critique]
 
@@ -85,7 +85,7 @@ Pour afficher les tâches d’un projet à partir d’une liste de projets :
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
    -->
 
-1. Cliquez sur le bouton **[!UICONTROL Afficher la liste des tâches]** icône .
+1. Cliquez sur le bouton **[!UICONTROL Afficher la liste des tâches]** Icône
 
 1. Dans la liste des projets située à gauche, cliquez sur la flèche de liste déroulante en regard du nom du projet pour afficher toutes les tâches qu’il contient.\
    Cette opération affiche les informations sur la tâche dans la variable  [!UICONTROL Graphique Gantt].\
@@ -117,8 +117,8 @@ Vous pouvez ajuster la période affichée sur la page [!UICONTROL Graphique Gant
 
 1. Sélectionnez une période parmi les options disponibles suivantes :
 
-   * **[!UICONTROL Ajuster tout]**: Cette option affiche la chronologie de l’ensemble du projet.
-   * **[!UICONTROL Tous les projets]**: Cette option est disponible uniquement dans le diagramme de Gantt Liste des projets.
+   * **[!UICONTROL Ajuster tout]**: cette option affiche la chronologie de l’ensemble du projet.
+   * **[!UICONTROL Tous les projets]**: cette option est disponible uniquement dans le diagramme de Gantt de liste de projets.
    * **[!UICONTROL Année]**
    * **[!UICONTROL Trimestre]**
    * **[!UICONTROL Mois]**
@@ -126,7 +126,7 @@ Vous pouvez ajuster la période affichée sur la page [!UICONTROL Graphique Gant
    * **[!UICONTROL Jour]**
 
 1. (Facultatif) Sélectionnez une période plus granulaire, telle que [!UICONTROL Semaine] ou [!UICONTROL Jour], puis cliquez et faites glisser la barre de défilement horizontale au bas de la  [!UICONTROL Graphique Gantt] pour passer de gauche à droite sur la ligne de temps du projet.\
-   Un instantané de la chronologie de la variable [!UICONTROL Gantt] s’affiche pour afficher l’intégralité du projet.
+   instantané de la chronologie de la variable [!UICONTROL Gantt] s’affiche pour afficher l’intégralité du projet.
 
    >[!TIP]
    >
@@ -140,23 +140,23 @@ Vous pouvez ajuster la période affichée sur la page [!UICONTROL Graphique Gant
 
 ## Utilisation de filtres, de vues et de regroupements
 
-Le [!UICONTROL Graphique Gantt] est une représentation visuelle des informations actuellement affichées dans la liste des tâches. Vous pouvez appliquer des filtres, des vues et des regroupements aux objets répertoriés dans les deux [!UICONTROL Graphique Gantt]s.
+La variable [!UICONTROL Graphique Gantt] est une représentation visuelle des informations actuellement affichées dans la liste des tâches. Vous pouvez appliquer des filtres, des vues et des regroupements aux objets répertoriés dans les deux [!UICONTROL Graphique Gantt]s.
 
 >[!CAUTION]
 >
->Vous ne pouvez pas appliquer de filtres, de vues et de regroupements lorsque vous sélectionnez [!UICONTROL Manuel] save [!UICONTROL Planification de la chronologie] pour enregistrer les modifications apportées à votre liste de tâches. Pour plus d’informations sur l’enregistrement des modifications apportées aux tâches dans une liste, voir [Editer les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+>Vous ne pouvez pas appliquer de filtres, de vues et de groupements lorsque vous sélectionnez [!UICONTROL Manuel] save [!UICONTROL Planification chronologique] pour enregistrer les modifications apportées à votre liste de tâches. Pour plus d’informations sur l’enregistrement des modifications apportées aux tâches dans une liste, voir [Editer les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 Les filtres et les regroupements que vous appliquez à la liste sont répercutés à la fois sur la liste des projets et la liste des tâches.  [!UICONTROL Graphique Gantt]s et sont également inclus lors de l’exportation des graphiques Gantt :
 
 * Filtres\
    Vous pouvez appliquer un Filtre à la liste afin de contrôler les informations affichées dans la variable [!UICONTROL Graphique Gantt].\
-   Pour plus d’informations sur l’application d’un filtre, voir  [Présentation des filtres dans [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur l’application d’un filtre, voir  [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Regroupements\
    Les regroupements que vous appliquez à la liste sont répercutés sur le [!UICONTROL Graphique Gantt].\
    Pour plus d’informations sur l’application d’un groupement, voir  [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Les vues ne sont pas reflétées dans la variable [!UICONTROL Graphique Gantt]. Cependant, lorsque vous exportez le [!UICONTROL Graphique Gantt] (comme décrit dans la section  [Exportez le [!UICONTROL Graphique Gantt] à PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)), la liste des tâches est exportée en plus de la fonction [!UICONTROL Graphique Gantt], avec l’affichage actif appliqué à la liste.
+Les vues ne sont pas reflétées dans la variable [!UICONTROL Graphique Gantt]. Cependant, lorsque vous exportez le [!UICONTROL Graphique Gantt] (comme décrit dans la section  [Exportez le [!UICONTROL Graphique Gantt] vers le PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)), la liste des tâches est exportée en plus de la fonction [!UICONTROL Graphique Gantt], avec l’affichage actif appliqué à la liste.
 
 ## Configuration des options d’affichage
 

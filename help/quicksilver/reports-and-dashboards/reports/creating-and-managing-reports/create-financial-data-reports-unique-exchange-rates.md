@@ -6,9 +6,9 @@ description: Si plusieurs taux de change ont été configurés dans Adobe Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -68,9 +68,10 @@ Pour convertir des valeurs financières entre plusieurs devises lors de l’util
    * Devise originale du projet
    * Toutes les autres devises
 
-      >[!TIP]
-      >
-      >Vous ne pouvez choisir que les devises précédemment sélectionnées dans Configuration.
+     >[!TIP]
+     >
+     >Vous ne pouvez choisir que les devises précédemment sélectionnées dans Configuration.
+
    L&#39;utilisation de cette option permet de convertir rapidement les valeurs financières d&#39;un rapport entre les valeurs de taux.
 
    ![Changer de devise](assets/qs-change-currency-2022-350x257.png)
@@ -94,7 +95,7 @@ Pour convertir des valeurs financières entre plusieurs devises lors de l’util
 Lorsque vous personnalisez la devise au niveau du projet et que vous souhaitez afficher les informations de tous les projets dans le même rapport, les scénarios suivants existent :
 
 * Si vous créez un rapport qui contient des informations financières provenant de plusieurs projets pour lesquels des devises différentes sont appliquées, le résumé du regroupement reflète par défaut la devise par défaut du système sélectionnée par l’administrateur Workfront.
-* Si vous créez un rapport pour deux ou plusieurs projets ayant la même devise, mais qui diffèrent de celle de la devise par défaut du système, les sommes contenues dans les regroupements s’affichent à l’aide de la devise par défaut du système.
+* Si vous créez un rapport pour deux ou plusieurs projets ayant la même devise, mais qui diffèrent de celle de la devise par défaut du système, les sommes contenues dans les regroupements sont affichées dans la devise par défaut du système.
 * Si vous créez un rapport pour deux ou plusieurs projets pour lesquels des affectations de rôle de tâche sont associées à un remplacement de devise, Workfront convertit les informations financières des taux de change du rôle de tâche remplacés dans la devise du projet (lorsque vous sélectionnez la Devise d’origine du projet dans la vue) ou dans toute autre devise que vous sélectionnez lors de l’affichage du rapport. Pour plus d’informations sur le remplacement de la devise d’un rôle de tâche, voir [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 Pour afficher deux projets avec des devises personnalisées dans un rapport :
@@ -119,7 +120,7 @@ Pour afficher deux projets avec des devises personnalisées dans un rapport :
 
 1. Dans le **Filtres** , ajoutez un filtre pour **Nom du projet** et sélectionnez les deux projets avec des devises différentes.
 
-   Pour plus d’informations sur la création d’un filtre, voir [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur la création d’un filtre, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Cliquez sur **Enregistrer + Fermer**.
 
@@ -142,14 +143,14 @@ Si un groupement est appliqué sur une liste de tâches ou d’heures au sein d�
    >
    >Les tâches doivent être affectées à des utilisateurs ou à des rôles de tâche avec des taux de coût par heure.
 
-1. Cliquez sur **Tâches**.
-1. Développez l’objet **Affichage** menu déroulant, puis sélectionnez **Nouvelle vue**.
+1. Cliquez sur **Tâche**.
+1. Développez l’objet **Affichage** menu déroulant et sélectionnez **Nouvelle vue**.
 1. Ajouter **Coût réel** dans la nouvelle colonne Afficher sous forme de nouvelle colonne, puis résumez-la par **Somme**.
 1. Cliquez sur **Terminé**, puis cliquez sur **Enregistrer la vue**.
-1. Développez l’objet **Regroupement** menu déroulant, puis sélectionnez **Nouveau groupement**.
-1. Ajouter **Date d’achèvement réelle** dans le nouveau groupement en tant que nouveau champ, puis cliquez sur **Enregistrer le groupement**.
+1. Développez l’objet **Regroupement** menu déroulant et sélectionnez **Nouveau groupement**.
+1. Ajouter **Date d’achèvement réelle** dans le nouveau groupement comme nouveau champ, puis cliquez sur **Enregistrer le groupement**.
 
-   Le **Coût réel** résume la colonne dans le nouveau Groupement et affiche le total dans la devise du projet.
+   La variable **Coût réel** résume la colonne dans le nouveau Groupement et affiche le total dans la devise du projet.
 
 ## Modifier des rapports avec des devises uniques
 
@@ -162,7 +163,7 @@ Pour modifier en ligne un champ financier dans un rapport :
    >[!NOTE]
    >
    >Si la devise par défaut ne s’affiche dans aucune autre zone de la liste, vous pouvez modifier l’option Afficher pour afficher la devise par défaut.\
-   >Pour plus d’informations sur la modification de la devise dans une vue, reportez-vous à la section de cet article. [Application de valeurs financières à un rapport](#apply-financial-values-to-a-report).
+   >Pour plus d’informations sur la modification de la devise dans une vue, consultez la section de cet article. [Application de valeurs financières à un rapport](#apply-financial-values-to-a-report).
 
 1. Cliquez sur **Actions de rapport**, puis sélectionnez **Modifier**.
 1. Cliquez sur **Paramètres des rapports**.

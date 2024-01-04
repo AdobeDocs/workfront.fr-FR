@@ -7,9 +7,9 @@ description: FAQ sur les rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Lorsque je lance un rapport avec un graphique, le message d’erreur &quot;Ouah 
 
 Cette erreur signifie que votre graphique contient jusqu’à 618 résultats distincts, par exemple plus de 618 barres dans un graphique à barres. Pour résoudre le problème d’affichage, vous devez affiner les résultats en modifiant le filtre actuel et les sélections de regroupement.
 
-Pour plus d’informations sur la modification des filtres et des regroupements, voir les articles [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) et [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Pour plus d’informations sur la modification des filtres et des regroupements, voir les articles [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) et [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Pourquoi mes tâches (ou mes problèmes) apparaissent-elles lorsque j’accède au même rapport (ou calendrier) que mon collègue et qu’elles voient plutôt leurs tâches ?
 

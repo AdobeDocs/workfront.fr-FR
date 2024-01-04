@@ -7,9 +7,9 @@ description: En utilisant des caractères génériques dans des filtres, vous po
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1446'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Vous pouvez utiliser des variables de filtre (également appelées caractères g
 <table>
     <tr>
         <td>Filtres dans les listes, les rapports et le planificateur de ressources</td>
-        <td>Pour plus d’informations sur les filtres Workfront, voir l’article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Présentation des filtres dans Adobe Workfront</a>.
+        <td>Pour plus d’informations sur les filtres Workfront, voir l’article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Présentation des filtres</a>.
 </td>
     </tr>
     <tr>

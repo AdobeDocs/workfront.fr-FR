@@ -6,10 +6,10 @@ description: Les modificateurs de filtre et de condition vous permettent de cré
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 1%
+source-wordcount: '1554'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 1%
 
 Les modificateurs de filtre et de condition vous permettent de créer des filtres et d’établir des conditions pour formater les résultats de votre rapport.
 
-Pour plus d’informations sur la création de filtres, voir l’article [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Pour plus d’informations sur la création de filtres, voir l’article [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Pour plus d’informations sur l’utilisation de la mise en forme conditionnelle dans les vues, voir l’article [Utilisation d’une mise en forme conditionnelle dans les vues](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Modificateurs de filtre et de condition
 
-Pour obtenir la liste des modificateurs de période intégrés, reportez-vous à l’article [Filtrage des rapports par périodes](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Pour obtenir la liste des modificateurs de période intégrés, voir l’article [Filtrage des rapports par périodes](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 Certains modificateurs sont intégrés et vous pouvez les choisir dans un menu déroulant à l’intérieur de votre filtre ou de votre instruction de mise en forme conditionnelle. D’autres modificateurs ne peuvent être utilisés que dans les filtres de mode texte. Pour plus d’informations sur la compréhension du mode texte, voir [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
@@ -46,19 +46,19 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td> <p><strong>Vide</strong> </p> </td> 
-   <td> <p><strong>vide</strong> </p> </td> 
+   <td> <p><strong>Est vierge</strong> </p> </td> 
+   <td> <p><strong>blank</strong> </p> </td> 
    <td> <p>Le champ existe pour l’objet mais il n’a pas encore reçu de valeur.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Non vide</strong> </p> </td> 
+   <td> <p><strong>N’est pas vierge</strong> </p> </td> 
    <td> <p><strong>notblank</strong> </p> </td> 
    <td> <p>Le champ pour lequel vous filtrez existe et a reçu une valeur.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>null</strong> </p> </td> 
-   <td> <p>Le champ est vide ou n’existe pas. Par exemple, vous souhaitez rechercher des éléments sans identifiant de tâche parent. Cela signifie que vous ne souhaitez afficher que les tâches autonomes. Le qualificateur de "ID de tâche parent" serait <strong>null</strong>, puisqu’une tâche sans identifiant (dans ce cas, le parent) n’existe pas. </p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td> 
+   <td> <p>Le champ est vide ou n’existe pas. Par exemple, vous souhaitez rechercher des éléments sans identifiant de tâche parent. Cela signifie que vous ne souhaitez afficher que les tâches autonomes. Le qualificateur de "l’ID de tâche parent" serait <strong>null</strong>, puisqu’une tâche sans identifiant (dans ce cas, le parent) n’existe pas. </p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
@@ -83,7 +83,7 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
-   <td> <p>Il s’agit de la version de <strong>like</strong>. Par exemple : "cilike %Current% %Dead%" renvoie toutes les notes qui contiennent "Current to Dead" ou "current to dead".</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td> 
+   <td> <p>Il s’agit de la version de <strong>like</strong>. Par exemple : "like %Current% %Dead%" renvoie toute note qui contient "Current to Dead" ou "current to dead".</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
@@ -92,11 +92,11 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
   </tr> 
   <tr valign="top"> 
    <td> </td> 
-   <td> <p><strong>contient</strong> </p> </td> 
+   <td> <p><strong>contains</strong> </p> </td> 
    <td> <p>(Respect de la casse) Recherche le texte spécifié dans toute une chaîne de texte.</p> <p>Par exemple, l’utilisation de "contient Inf" capture tout ce qui contient "Inf", comme le mot "infinité".</p> <p>Ce modificateur ne peut être utilisé que dans les filtres du mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Ne contient pas (non sensible à la casse)</strong> </p> </td> 
+   <td> <p><strong>Ne contient pas</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
    <td> <p>(Non-respect de la casse) Il filtre les éléments dont la valeur spécifiée est manquante.</p> <p>Par exemple, "ne contient pas inf" capture tout élément sans "Inf" ou "inf" dans le nom.</p> <p>Remarque : <span>Si le champ pour lequel vous filtrez les données comporte plusieurs options, les résultats qui contiennent à la fois le choix que vous spécifiez, ainsi que le choix que vous spécifiez et les autres choix sont filtrés.</span> </p> </td> 
   </tr> 
@@ -107,11 +107,11 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
     <ul> 
      <li>Objets s’étendant sur plusieurs niveaux dans la hiérarchie d’objets </li> 
      <li>Objets manquants </li> 
-    </ul> <p>Pour plus d’informations sur la création de filtres complexes à l’aide d’instructions EXISTS, reportez-vous à l’article <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md">Création de filtres de mode texte complexes à l’aide d’instructions EXISTS</a>. Il s’agit du seul modificateur utilisé dans les instructions EXISTS.</p> </td> 
+    </ul> <p>Pour plus d’informations sur la création de filtres complexes à l’aide d’instructions EXISTS, voir l’article <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md">Création de filtres de mode texte complexes à l’aide d’instructions EXISTS</a>. Il s’agit du seul modificateur utilisé dans les instructions EXISTS.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> </p> <p> </p> <p> </p> <p><strong>Égal à (non sensible à la casse)</strong> </p> </td> 
-   <td> <p><strong>dans</strong> </p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p><strong>Égal</strong> </p> </td> 
+   <td> <p><strong>in</strong> </p> </td> 
    <td> <p>(Sensible à la casse) Ce modificateur permet de créer une liste de variables séparées par des virgules à comparer à un seul attribut évalué dans un filtre. La liste entière est traitée comme une instruction OU et renvoie les résultats qui répondent aux critères d’une ou de plusieurs des variables.</p> <p>Par exemple, lors de la recherche de projets, l’utilisation de "in CUR, PLN, CPL" renvoie tous les projets qui sont à l’état actuel, OU Planification, OU Terminé.</p> <p>Modificateur intégré <strong>Égal</strong> correspond au modificateur de mode texte de <strong>in</strong>. Cela signifie que vous pouvez sélectionner l’option Égal à avec plusieurs valeurs pour le champ.</p> <p>Par exemple, vous pouvez choisir un état "État égal à Actuel, Planification, Mort" dans un rapport de projet et vous pouvez afficher les projets dans n’importe quel état.</p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -127,7 +127,7 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>like</strong> </p> </td> 
-   <td> <p>(Sensible à la casse) Recherche des parties d’une chaîne de texte de la même manière que <strong>contains</strong>. Cependant, <strong>like</strong> permet d’insérer des caractères génériques pour séparer le texte.</p> <p>Par exemple, lors de la recherche de notes, l’utilisation de "comme %Current% %Dead%" renvoie toute note contenant l’expression "Actuel à mort". Elle n’inclut aucune note contenant "Mort à jour". Chaque valeur est recherchée dans l’ordre dans lequel elle est répertoriée. Le % représente un caractère générique pour remplacer des caractères ou des segments de texte.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td> 
+   <td> <p>(Sensible à la casse) Recherche des parties d’une chaîne de texte de la même manière que <strong>contains</strong>. Cependant, <strong>like</strong> permet d’insérer des caractères génériques pour séparer le texte.</p> <p>Par exemple, lors de la recherche de notes, l’utilisation de "like %Current% %Dead%" renvoie toute note contenant l’expression "Actuel à mort". Elle n’inclut aucune note contenant "Mort à jour". Chaque valeur est recherchée dans l’ordre dans lequel elle est répertoriée. Le % représente un caractère générique pour remplacer des caractères ou des segments de texte.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Inférieur à</strong> </p> </td> 
@@ -135,12 +135,12 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
    <td> <p>Cela permet de rechercher tous les résultats dont la valeur est inférieure à ce qui est entré, sans compter la valeur saisie.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Supérieur ou égal à</strong> </p> </td> 
+   <td> <p><strong>Supérieur à égal</strong> </p> </td> 
    <td> <p><strong>gte</strong> </p> </td> 
    <td> <p>Cela permet de rechercher tous les résultats avec des valeurs supérieures ou égales à la valeur saisie.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Inférieur ou égal à</strong> </p> </td> 
+   <td> <p><strong>Inférieur à égal</strong> </p> </td> 
    <td> <p><strong>lte</strong> </p> </td> 
    <td> <p>Cela permet de rechercher tous les résultats dont la valeur est inférieure ou égale à la valeur saisie.</p> </td> 
   </tr> 
@@ -160,14 +160,14 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
    <td> <p>Il s’agit de l’inverse de <strong>entre</strong>. Elle fournit deux champs de valeur obligatoires et recherche tous les résultats en dehors de la plage des deux champs, y compris les valeurs saisies.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Non égal à (non sensible à la casse)</strong> </p> </td> 
+   <td> <p><strong>Différent de</strong> </p> </td> 
    <td> <p><strong>notin</strong> </p> </td> 
    <td> <p>(Sensible à la casse) C’est l’inverse de <strong>in</strong>. Elle renvoie uniquement les résultats qui ne figurent pas dans la liste spécifiée.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> <p>Remarque : <span>Si le champ pour lequel vous filtrez les données comporte plusieurs options, les résultats qui contiennent à la fois le choix que vous spécifiez, ainsi que le choix que vous spécifiez et les autres choix sont filtrés.</span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
    <td><strong>ne</strong> </td> 
-   <td> <p>(Sensible à la casse) C’est l’inverse de <strong>eq</strong>. Elle renvoie uniquement les résultats qui ne correspondent pas exactement à la valeur recherchée et correspond également à la casse de la valeur.</p> <p>Par exemple : <b>ne</b> renvoie les valeurs qui ne sont pas égales à "Actuel", mais ne renvoie aucune valeur qui n’est pas égale à "Actuel". </p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.<br></p> </td> 
+   <td> <p>(Sensible à la casse) C’est l’inverse de <strong>eq</strong>. Elle renvoie uniquement les résultats qui ne correspondent pas exactement à la valeur recherchée et correspond également à la casse de la valeur.</p> <p>Par exemple : <b>ne</b> renvoie les valeurs qui ne sont pas égales à "Actuel", mais ne renvoie aucune valeur qui ne correspond pas à "Actuel". </p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.<br></p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 

@@ -7,9 +7,9 @@ description: Vous pouvez créer une copie de tout rapport auquel vous avez accè
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -60,7 +60,7 @@ Si vous souhaitez faire une copie d’un rapport dont vous êtes le propriétair
    >[!TIP]
    >
    >Si le rapport est un rapport par défaut, l’option Copier n’apparaît pas dans le menu Actions de rapport .\
-   >Pour plus d’informations sur la création d’une copie d’un rapport par défaut, voir [Création d’une version d’un rapport](#create-a-new-version-of-a-report).
+   >Pour plus d’informations sur la création d’une copie d’un rapport par défaut, voir [Créer une version d’un rapport](#create-a-new-version-of-a-report).
 
    ![Copier le rapport](assets/nwe-fulllistofreportactions-2022.png)
 
@@ -76,7 +76,7 @@ Si vous souhaitez faire une copie d’un rapport dont vous êtes le propriétair
 
    >[!NOTE]
    >
-   >Les informations de partage ne sont pas transférées vers le rapport copié à partir de la version d’origine.\
+   >Les informations de partage ne sont pas transférées vers le rapport copié depuis la version d’origine.\
    >Pour plus d’informations sur la manière de voir avec qui le rapport précédent a été partagé, voir [Créer un rapport sur les activités de reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify).
 
 1. (Facultatif) Si vous disposez des autorisations Manage (Gérer) pour le rapport d’origine et que ce dernier n’est plus nécessaire, vous pouvez le supprimer afin de supprimer les rapports superflus dupliqués dans Workfront.
@@ -88,7 +88,7 @@ Si vous souhaitez faire une copie d’un rapport dont vous êtes le propriétair
 
    1. Cliquez sur **Oui, la supprimer** pour confirmer la suppression du rapport.
 
-## Création d’une version d’un rapport {#create-a-new-version-of-a-report}
+## Créer une version d’un rapport {#create-a-new-version-of-a-report}
 
 Si vous souhaitez créer une copie d’un rapport par défaut, procédez comme suit :
 
@@ -102,10 +102,10 @@ Si vous souhaitez créer une copie d’un rapport par défaut, procédez comme s
 
 1. Apportez les modifications nécessaires dans les onglets suivants du rapport :
 
-   * **Colonnes (affichage)**: Pour plus d’informations sur la personnalisation des vues, reportez-vous à l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
-   * **Groupements**: Pour plus d’informations sur la personnalisation des regroupements, consultez l’article . [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-   * **Filtres**: Pour plus d’informations sur la personnalisation des filtres, voir l’article [Présentation des filtres dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-   * **Graphique**: Pour plus d’informations sur la personnalisation d’un graphique de rapport, reportez-vous à l’article [Ajout d’un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+   * **Colonnes (affichage)**: pour plus d’informations sur la personnalisation des vues, consultez l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * **Groupements**: pour plus d’informations sur la personnalisation des groupements, reportez-vous à l’article [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   * **Filtres**: pour plus d’informations sur la personnalisation des filtres, consultez l’article [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **Graphique**: pour plus d’informations sur la personnalisation d’un graphique de rapport, consultez l’article [Ajouter un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. Dans le coin supérieur droit, cliquez sur **Paramètres des rapports**.
 1. Dans le **Titre du rapport** , attribuez un nouveau nom au rapport.
