@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Gestion d’un projet en mode Agile
-description: Plans, types de licence et accès requis aux autorisations de type de licence, de travail ou de planification d’Adobe Workfront Plan Team, Pro, Business ou Enterprise Workfront dans le modèle d’accès Modifier l’accès et la possibilité de créer des rapports, des tableaux de bord et des calendriers
-author: Alina
+description: Vous pouvez tirer parti de fonctionnalités agiles pour votre projet sans les défis administratifs qui accompagnent généralement les pratiques agiles (comme la gestion du retard d’équipe ou la création d’itérations).
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -202,7 +202,7 @@ Pour plus d’informations sur la personnalisation d’une vue agile, voir [Cré
 
 Comme pour les vues standard dans Workfront, vous pouvez personnaliser les vues agiles existantes ou créer de nouvelles vues agiles à partir de zéro. Contrairement aux vues standard, vous ne pouvez pas créer de vues agiles basées sur des vues agiles existantes.
 
-Pour plus d’informations sur la création et la personnalisation des vues agiles, voir la section &quot;Créer ou personnaliser une vue agile&quot; de l’article. [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Pour plus d’informations sur la création et la personnalisation des vues AEM, voir [Création ou personnalisation d’une vue agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) dans l’article [Créer ou modifier des vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Partage d’une vue Agile existante
 
