@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Tâches
+title: "Tâches : index de l’article"
 description: Les tâches sont des tâches plus petites dans Adobe Workfront qui contribuent à la fin d’un projet. Pour plus d’informations sur la gestion des tâches, reportez-vous aux articles suivants.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 3%
+source-wordcount: '83'
+ht-degree: 0%
 
 ---
 
-# Tâches
+# Tâches : index de l’article
 
-Cette section contient les sous-sections suivantes :
+<!--Audited: 01/2024-->
+
+Les tâches sont des tâches plus petites dans Adobe Workfront qui contribuent à la fin d’un projet. Pour plus d’informations sur la gestion des tâches, reportez-vous aux sous-sections suivantes :
 
 * [Informations sur la tâche](../../manage-work/tasks/task-information/task-information.md)
 * [Création de tâches](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)

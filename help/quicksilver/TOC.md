@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '13838'
+source-wordcount: '13844'
 ht-degree: 0%
 
 ---
@@ -1265,7 +1265,7 @@ ht-degree: 0%
          * [Exemple de calcul - Calcul d’un EAC en tant que cumul à partir de tâches](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [Exemple de calcul - calculer le taux d’effet élévateur au niveau du projet](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
    * Tâche {#tasks}
-      * [Tâches](manage-work/tasks/tasks-overview.md)
+      * [Tâches : index de l’article](manage-work/tasks/tasks-overview.md)
       * Informations sur la tâche {#task-information}
          * [Informations sur la tâche](manage-work/tasks/task-information/task-information.md)
          * [Présentation des tâches](manage-work/tasks/task-information/tasks-overview.md)
@@ -1479,7 +1479,7 @@ ht-degree: 0%
       * [Conseils, astuces et dépannage pour les équipes et les groupes](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Nom d’utilisateur déjà utilisé](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
-   * [Rapports](reports-and-dashboards/reports-and-dashboards-overview.md)
+   * [Rapports et tableaux de bord : index des articles](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Canevas de création de rapports {#reporting-canvas}
       * [Canevas de création de rapports](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
       * Gestion des rapports {#manage-reports}
