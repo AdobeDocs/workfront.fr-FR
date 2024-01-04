@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
+source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Ce plan directeur contient un modèle pour [!DNL Workfront professional services
 **[!UICONTROL Nouvelle préparation à l&#39;embauche]**
 Ce plan directeur contient un modèle pour [!DNL Workfront] pendant des années, l&#39;organisation des services professionnels a utilisé les équipes de mise en oeuvre des ressources humaines pour inciter les spécialistes des ressources humaines et les gestionnaires d&#39;embauche à mener à bien les activités essentielles pour rendre remarquable la première journée d&#39;un nouvel employé.
 
-**Offre | Départ du tableau de bord de l’utilisateur**
+**Offre | Départ du tableau de bord utilisateur**
 
 Ce plan directeur contient un seul tableau de bord comprenant 13 rapports pour vous aider à trouver, réaffecter ou gérer les objets et affectations associés à un utilisateur quittant Workfront. Vous pouvez également utiliser ces rapports pour qu’un utilisateur accède à un nouveau rôle ou groupe afin de réaffecter son travail.
 
@@ -129,6 +129,10 @@ Ce plan directeur contient un seul tableau de bord pour aider les administrateur
 **Réalisation de la valeur | Tableau de bord des valeurs principales**
 
 Ce plan directeur contient un tableau de bord unique comprenant 21 rapports pour vous aider à mesurer la valeur de Workfront. Ces rapports vous aident à traduire les avantages de Centraliser le travail et Gérer les processus de travail en valeurs mesurables que vous pouvez suivre au fil du temps pour obtenir de meilleurs résultats.
+
+[!BADGE Nouveau !]{type=Informative}**Réalisation de la valeur | Diffuser le tableau de bord des services avec le client**
+
+Ce plan directeur contient un seul tableau de bord avec 8 rapports pour vous aider à tirer parti des avantages de Workfront. Ces rapports sont conçus pour vous aider à traduire vos services à la clientèle en valeurs mesurables dont vous pouvez effectuer le suivi au fil du temps afin d’obtenir de meilleurs résultats.
 
 **Réalisation de la valeur | Tableau de bord de révision et d’approbation**
 
