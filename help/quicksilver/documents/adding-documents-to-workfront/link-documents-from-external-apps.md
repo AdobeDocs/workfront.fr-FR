@@ -6,9 +6,9 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront �
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td>
+   <td role="rowheader">Formule Adobe Workfront</td>
    <td> <p> Quelconque</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td>
+   <td role="rowheader">Licence Adobe Workfront</td>
    <td><p>Nouveau : contributeur ou version ultérieure</p>
     <p>ou</p>
     <p>Actuel : requête ou version ultérieure</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Stockage de documents
 
