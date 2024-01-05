@@ -6,9 +6,9 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: b2409ceb7358d92ca1941bd849cb6ffd76f0763e
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1124'
 ht-degree: 8%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 8%
 # Prise en main de la nouvelle page d’accueil
 
 <!--Audited: 12/2023-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 La nouvelle expérience d’accueil d’Adobe Workfront vise à améliorer l’expérience d’accueil actuelle tout en vous permettant de vous concentrer plus facilement sur le bon travail.
 
@@ -56,6 +58,9 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’u
 
 * **Toutes les validations**\
     Affiche toutes les approbations de votre organisation dans un tableau avec des colonnes personnalisables, ainsi qu’une barre de recherche qui vous permet de rechercher des approbations spécifiques.
+
+* <span class="preview">**Autorisations en attente**</span>\
+    <span class="preview">Affiche les approbations affectées à un document sur un projet dont vous êtes responsable. Ici, vous pouvez afficher l’état d’approbation et rappeler aux utilisateurs des révisions et des approbations incomplètes. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.</span></span>
 
 * **Mentions**\
     Affiche les fils de commentaires récents provenant de Workfront, tout comme la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour composer une réponse dans le widget. Ce widget affiche également les commentaires effectués sur les tâches et problèmes auxquels vous êtes affecté, que vous avez attribués à un autre utilisateur, que vous détenez, que vous êtes le contact principal ou que vous avez créés, à condition que la tâche ou le problème ait été mis à jour au cours des 30 derniers jours.
