@@ -4,9 +4,9 @@ description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,25 @@ Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscr
                     </td>
                  </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau widget Autorisations en attente disponible</a></p><p><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Pour faciliter l’affichage de l’état des approbations et des révisions pour les projets que vous détenez, nous avons ajouté un nouveau widget Autorisations en attente à l’accueil. </p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 3 janvier 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Production pour les versions trimestrielles : avec la version 24.1</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.</span></p>
+                    </td>
+                </tr>
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Contrôles administrateur pour la nouvelle page d’accueil à l’aide des modèles de mise en page</a></p><p>Les administrateurs peuvent désormais personnaliser la nouvelle page d’accueil pour les utilisateurs à l’aide de modèles de mise en page. Les options de personnalisation incluent la sélection des widgets obligatoires et de leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour le choix des filtres et des groupes disponibles (ainsi que la définition des valeurs par défaut).</p>
                     </td>

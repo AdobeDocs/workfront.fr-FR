@@ -4,9 +4,9 @@ description: Améliorations de la page d’accueil du premier trimestre 2024
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations de l’accueil apportées à la version du premier trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Nouveau widget Autorisations en attente disponible
+
+Pour faciliter l’affichage de l’état des approbations et des révisions pour les projets que vous détenez, nous avons ajouté un nouveau widget Autorisations en attente à l’accueil. Ici, vous pouvez voir la liste des utilisateurs affectés à l’approbation ou à la révision de documents sur les projets que vous détenez, consulter l’état de leur révision ou approbation, et rappeler aux réviseurs et aux approbateurs de terminer leur révision ou approbation.
+
+Pour plus d’informations sur les widgets d’accueil, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Contrôles administrateur pour la nouvelle page d’accueil à l’aide des modèles de mise en page
 
