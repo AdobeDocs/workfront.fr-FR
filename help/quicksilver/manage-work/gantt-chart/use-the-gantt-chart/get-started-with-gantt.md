@@ -6,14 +6,16 @@ description: Les graphiques de Gantt dans Adobe Workfront fournissent une repré
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 5%
+source-wordcount: '530'
+ht-degree: 0%
 
 ---
 
 # Prise en main de la fonction [!UICONTROL Graphique Gantt]
+
+<!-- Audited: 01/2024 -->
 
 Les graphiques de Gantt dans Adobe Workfront fournissent une représentation visuelle de la chronologie d’une liste de tâches ou de projets.
 
@@ -35,7 +37,7 @@ Bien qu’elles aient l’air et le sentiment d’être similaires, les fonction
 * Vous pouvez configurer les informations qui s’affichent dans la liste des tâches. [!UICONTROL Graphique Gantt] et la liste des projets [!UICONTROL Graphique Gantt].
 * Vous ne pouvez pas configurer les couleurs ni les polices dans lesquelles la fonction [!UICONTROL Graphique Gantt] Les informations s’affichent.
 * Lorsque des informations sont mises à jour à partir de tâches, elles sont automatiquement répercutées dans la liste des tâches. [!UICONTROL Graphique Gantt] et la liste des projets [!UICONTROL Graphique Gantt].
-* Lorsque des informations sont mises à jour à partir des tâches du modèle, elles sont automatiquement répercutées dans la liste des tâches du modèle. [!UICONTROL Graphique Gantt].
+* Lorsque des informations sont mises à jour à partir de tâches de modèle, elles sont automatiquement répercutées dans la liste des tâches de modèle. [!UICONTROL Graphique Gantt].
 
 ## Accédez au [!UICONTROL Graphique Gantt]
 
@@ -44,9 +46,6 @@ La variable [!UICONTROL Gantt] Graphiques dans [!DNL Workfront]  fournissent une
 Vous pouvez afficher la liste des tâches [!UICONTROL Graphique Gantt] directement depuis la liste des tâches d’un projet ou depuis un rapport de tâches.
 
 Vous pouvez afficher la liste des projets. [!UICONTROL Graphique Gantt] dans une liste de projets ou un rapport de projet.
-
-* [Liste des tâches [!UICONTROL Graphique Gantt]](#task-list-gantt-chart)
-* [Liste des projets [!UICONTROL Graphique Gantt]](#project-list-gantt-chart)
 
 ### Liste des tâches [!UICONTROL Graphique Gantt] {#task-list-gantt-chart}
 
@@ -78,17 +77,17 @@ Pour accéder à la liste des tâches [!UICONTROL Graphique Gantt] d’un projet
 
 1. Pour configurer les informations à afficher dans la tâche [!UICONTROL Gantt] , cliquez sur le [!UICONTROL **Paramètres**] , puis activez l’une des options suivantes :
 
-   * [!UICONTROL Dates effectives]
+   * [!UICONTROL Dates réelles]
    * [!UICONTROL Affectations]
-   * [!UICONTROL Niveau de référence]
-   * [!UICONTROL Date d&#39;engagement]
-   * [!UICONTROL % Terminé]
+   * [!UICONTROL Ligne de base]
+   * [!UICONTROL Date de validation]
+   * [!UICONTROL % terminé]
    * [!UICONTROL Chemin critique]
-   * [!UICONTROL Losanges de jalons]
-   * [!UICONTROL Lignes de jalons]
-   * [!UICONTROL Tâches antérieures]
-   * [!UICONTROL Statut de progression]
-   * [!UICONTROL Dates prévisionnelles]
+   * [!UICONTROL Milestone Diamonds]
+   * [!UICONTROL Lignes de jalon]
+   * [!UICONTROL Prédécesseurs]
+   * [!UICONTROL État de progression]
+   * [!UICONTROL Dates prévues]
 
 1. Commencez à modifier les tâches comme décrit dans les articles suivants :
 
@@ -121,10 +120,10 @@ Pour accéder à la liste des projets [!UICONTROL Graphique Gantt]:
 
 1. Pour configurer les informations à afficher dans le projet [!UICONTROL Gantt] , cliquez sur le [!UICONTROL **Paramètres**] , puis activez l’une des options suivantes :
 
-   * [!UICONTROL Dates effectives]
-   * [!UICONTROL % Terminé]
-   * [!UICONTROL Losanges de jalons]
-   * [!UICONTROL Lignes de jalons]
-   * [!UICONTROL Tâches antérieures]
-   * [!UICONTROL Statut de progression]
-   * [!UICONTROL Dates prévisionnelles]
+   * [!UICONTROL Dates réelles]
+   * [!UICONTROL % terminé]
+   * [!UICONTROL Milestone Diamonds]
+   * [!UICONTROL Lignes de jalon]
+   * [!UICONTROL Prédécesseurs]
+   * [!UICONTROL État de progression]
+   * [!UICONTROL Dates prévues]

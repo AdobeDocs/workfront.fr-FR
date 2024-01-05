@@ -3,44 +3,48 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Présentation des rapports sur les calendriers
-description: Un rapport de calendrier est en fait un rapport dynamique qui fournit une représentation visuelle de votre travail.
+description: Un rapport Calendrier est un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher des informations sur les dates dans un rapport Calendrier pour les tâches, les problèmes et les projets.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
 
 # Présentation des rapports sur les calendriers
 
-Un rapport de calendrier est en fait un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher des informations sur les dates dans un rapport de calendrier pour les objets suivants :
+<!-- Audited: 01/2024 -->
+
+Un rapport de calendrier est en fait un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher des informations sur les dates dans un rapport de calendrier pour les objets suivants :
 
 * Tâches
 * Problèmes
 * Projets
 
-Votre capacité à accéder aux rapports de calendrier dans [!DNL Adobe Workfront] est déterminé par la variable [!DNL Workfront] administrateur par le biais de votre niveau d’accès. Pour plus d’informations sur le niveau d’accès requis pour afficher les rapports de calendrier, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Votre capacité à accéder aux rapports de calendrier dans [!DNL Adobe Workfront] est déterminé par votre niveau d’accès. Pour plus d’informations sur l’accès nécessaire à l’affichage des rapports de calendrier, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Créer vos propres calendriers
 
-[!UICONTROL Workfront] crée automatiquement un calendrier personnel par défaut lorsque :
+[!DNL Workfront] crée automatiquement votre calendrier personnel par défaut lorsque :
 
-* Un utilisateur nouvellement créé qui n’a accès à aucun autre calendrier consulte pour la première fois la page du rapport sur le calendrier.\
-   OU
-* Un utilisateur supprime manuellement tous les calendriers et n’a accès à aucun autre calendrier.
+* Vous êtes un nouvel utilisateur qui n’a accès à aucun autre calendrier et vous visitez pour la première fois la page du rapport Calendrier.
 
->[!NOTE]
->
->Le calendrier personnel n’est pas créé si l’utilisateur a accès à d’autres calendriers, tels qu’un calendrier partagé à l’échelle du système ou des calendriers partagés spécifiquement avec l’utilisateur.
+  OU
 
-En outre, les utilisateurs peuvent créer des calendriers et accéder à des calendriers partagés avec eux par d’autres utilisateurs. Le nombre de calendriers auxquels un utilisateur peut accéder dans Workfront est illimité.
+* Vous supprimez manuellement tous les calendriers et n’avez accès à aucun autre calendrier.
 
 >[!NOTE]
 >
->Vous devez avoir [!UICONTROL Modifier] accès à [!UICONTROL Rapports], [!UICONTROL Tableaux de bord], et [!UICONTROL Calendriers] dans votre niveau d’accès pour créer un rapport de calendrier. Contactez votre [!DNL Workfront] administrateur.
+>Le calendrier personnel n’est pas créé si vous avez accès à d’autres calendriers, tels qu’un calendrier partagé à l’échelle du système ou des calendriers partagés spécifiquement avec vous.
+
+En outre, vous pouvez créer des calendriers et accéder à des calendriers partagés avec vous par d’autres utilisateurs. Le nombre de calendriers auquel vous pouvez accéder dans n’est pas limité. [!DNL Workfront].
+
+>[!NOTE]
+>
+>Vous devez avoir [!UICONTROL Modifier] accès à [!UICONTROL Rapports], [!UICONTROL Tableaux de bord], et [!UICONTROL Calendriers] dans votre niveau d’accès pour créer un rapport de calendrier. Contactez votre [!DNL Workfront] pour plus d’informations.
 
 ## Regrouper les éléments par dates
 
