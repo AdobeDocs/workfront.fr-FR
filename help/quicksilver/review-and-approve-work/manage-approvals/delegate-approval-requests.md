@@ -6,9 +6,9 @@ description: Déléguer des demandes d’approbation permet d’affecter un autr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 # Déléguer la demande d’approbation
 
 Vous pouvez déléguer temporairement la tâche à laquelle vous êtes affecté lorsque vous êtes absent du bureau. Vous pouvez déléguer des tâches et des affectations d’émission ou déléguer des demandes d’approbation. Cet article décrit comment déléguer des demandes d’approbation. Pour plus d’informations sur la délégation des affectations de tâche et de problème, voir [Gérer la délégation des tâches et des problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
+
+Vous pouvez déléguer les types d’approbations suivants, quelle que soit la manière dont l’approbation vous a été attribuée (directement à vous, à une équipe dont vous faites partie ou à votre rôle de tâche) :
+
+* Approbation de projet
+* Approbation de tâches
+* Approbation de problèmes
+
+Vous ne pouvez pas déléguer les validations de feuille de temps, de document ou de BAT.
 
 >[!NOTE]
 >
@@ -37,7 +45,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
@@ -83,7 +91,7 @@ Vous pouvez déléguer les types d’approbations suivants, quelle que soit la m
 * Approbation de tâches
 * Approbation de problèmes
 
-Vous ne pouvez pas déléguer les approbations de feuille de temps et de document. 
+Vous ne pouvez pas déléguer les validations de feuille de temps, de document ou de BAT.
 
 Tenez compte des points suivants lors de la délégation des approbations :
 

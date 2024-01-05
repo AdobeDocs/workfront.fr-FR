@@ -6,9 +6,9 @@ description: Vous pouvez ajouter des documents à des projets, des tâches ou de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p> Tous</p> </td> 
+   <td> <p> Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
@@ -65,7 +65,7 @@ Pour ajouter un document :
 1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un nouveau document.
 1. Cliquez sur le bouton **Documents** , puis cliquez sur le bouton **Ajouter** menu déroulant.
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. Selon le type de document à ajouter, effectuez l’une des opérations suivantes :
 
@@ -98,7 +98,7 @@ Pour ajouter un document :
         <li value="1">Dans la <strong>Ajouter</strong> menu déroulant, sélectionnez <strong>Demande d’un document</strong>.</li> 
         <li value="2">Dans le <strong>À qui le demandez-vous ?</strong> saisissez le nom de l’utilisateur à partir duquel vous demandez le document.</li> 
         <li value="3">Dans le <strong>Dites-leur ce que vous demandez.</strong> saisissez le nom du document.</li> 
-        <li value="4"> <p>Cliquez sur <strong>Envoyer la requête</strong>.</p> <p>Votre requête s’affiche dans l’onglet Documents .</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Pour plus d’informations sur la demande de documents, voir <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Demande d’un document</a>.</p> </li> 
+        <li value="4"> <p>Cliquez sur <strong>Envoyer la requête</strong>.</p> <p>Votre requête s’affiche dans l’onglet Documents .</p> <p>Pour plus d’informations sur la demande de documents, voir <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Demande d’un document</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
