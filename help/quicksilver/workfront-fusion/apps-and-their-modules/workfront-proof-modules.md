@@ -9,7 +9,7 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -178,15 +178,15 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 ### Actions
 
-* [[!UICONTROL Créer une épreuve]](#create-proof)
+* [[!UICONTROL Créer un bon à tirer]](#create-proof)
 * [[!UICONTROL Appel API personnalisé]](#custom-api-call)
 * [[!UICONTROL Télécharger le bon à tirer]](#download-proof)
 * [[!UICONTROL Lire un enregistrement]](#read-a-record)
 * [[!UICONTROL Résumé du PDF de requêtes]](#request-pdf-summary)
 * [[!UICONTROL Mettre à jour le BAT]](#update-proof)
-* [[!UICONTROL Charger fichier]](#upload-file)
+* [[!UICONTROL Télécharger le fichier]](#upload-file)
 
-#### [!UICONTROL Créer une épreuve]
+#### [!UICONTROL Créer un bon à tirer]
 
 Ce module d’action crée un BAT ou une nouvelle version d’un BAT dans [!DNL Workfront Proof].
 
@@ -353,11 +353,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Méthode [!UICONTROL]</td> 
-   <td>Définissez l’action de l’appel API. Pour connaître les actions disponibles, voir <a href="http://api.proofhq.com/">Documentation de l’API de test</a>.</td> 
+   <td>Définissez l’action de l’appel API. Pour connaître les actions disponibles, voir <a href="https://api.proofhq.com/">Documentation de l’API de test</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -367,7 +367,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >![](assets/wfp-api-module-example-350x586.png)
 
@@ -560,7 +560,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  </tbody> 
 </table>
 
-#### [!UICONTROL Charger fichier]
+#### [!UICONTROL Télécharger le fichier]
 
 Ce module d’action télécharge un fichier à utiliser avec le [!UICONTROL Créer un bon à tirer] module dans [!DNL Workfront Proof].
 

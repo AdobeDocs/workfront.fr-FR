@@ -7,7 +7,7 @@ description: Vous pouvez désigner un propriétaire de projet et un parrain de p
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Présentation des propriétaires et des sponsors de projet
 
+<!-- Audited: 1/2024 -->
+
 Vous pouvez désigner un propriétaire de projet et un parrain de projet pour un projet.
 
 Le propriétaire du projet est la personne responsable de la fin du projet à temps et selon le budget.
 
-Le parrain du projet est un acteur important du projet qui a des ressources investies dans ce projet. L’achèvement du projet bénéficie généralement au parrain du projet.
+Le parrain du projet est une partie prenante importante du projet qui a des ressources investies dans le projet. L’achèvement du projet bénéficie généralement au parrain du projet.
 
 Pour plus d’informations sur la mise à jour du propriétaire ou du parrain d’un projet, voir [Mettre à jour les propriétaires et les sponsors de projet](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
 
@@ -36,24 +38,25 @@ Les éléments suivants sont possibles à l’aide du champ Propriétaire du pro
 * Vous pouvez désigner les propriétaires de projet comme approbateurs horaires du projet.
 * Vous pouvez désigner le propriétaire du projet comme approbateur générique lors de la définition des processus d’approbation de projet, de tâche ou d’émission. Pour plus d’informations sur les validations, voir [Modifier un processus de validation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >Lorsque vous affectez une approbation au propriétaire du projet et qu’aucune personne n’est désignée comme propriétaire d’un projet, l’approbation est réaffectée à l’administrateur Workfront principal, comme indiqué dans la section Informations sur le client de la zone Configuration. Pour plus d’informations, voir [Configuration des informations de base pour votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >[!IMPORTANT]
+  >
+  >Lorsque vous affectez une approbation au propriétaire du projet et qu’aucune personne n’est désignée comme propriétaire d’un projet, l’approbation est réaffectée à l’administrateur Workfront principal, comme indiqué dans la section Informations sur le client de la zone Configuration. Pour plus d’informations, voir [Configuration des informations de base pour votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >
 
 
 * Vous pouvez activer certaines notifications qui ne sont diffusées qu’au propriétaire du projet.
 
-   Pour plus d’informations sur les notifications électroniques, voir la section [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) dans l’article [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Pour plus d’informations sur les notifications électroniques, voir la section [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) dans l’article [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * Vous pouvez afficher le champ Propriétaire du projet dans un rapport ou une liste.
 
-   Vous pouvez également afficher le champ Propriétaire du projet dans une vue, un regroupement ou une invite.
+  Vous pouvez également afficher le champ Propriétaire du projet dans une vue, un regroupement ou une invite.
 
-   Par exemple, vous pouvez copier l’expression de mode de texte suivante dans un filtre pour afficher les projets appartenant à l’utilisateur connecté : 
+  Par exemple, vous pouvez copier l’expression de mode de texte suivante dans un filtre pour afficher les projets appartenant à l’utilisateur connecté : 
 
-   ```
-   ownerID=$$USER.ID
-   ```
+  ```
+  ownerID=$$USER.ID
+  ```
 
 Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -82,23 +85,23 @@ Tenez compte de ce qui suit lors de l’affectation d’un sponsor de projet :
 * Vous ne pouvez désigner qu’un seul responsable de projet.
 * Vous pouvez désigner le parrain du projet comme approbateur générique lors de la définition des processus d’approbation de projet, de tâche ou d’émission. Pour plus d’informations sur les validations, voir [Modifier un processus de validation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >Lorsque vous affectez une approbation au parrain du projet et qu’aucune personne n’est désignée comme parrain d’un projet, l’approbation est réaffectée au propriétaire du projet. Si personne n’est désigné comme propriétaire du projet, l’approbation est attribuée à l’administrateur Workfront.
+  >[!IMPORTANT]
+  >
+  >Lorsque vous affectez une approbation au parrain du projet et qu’aucune personne n’est désignée comme parrain d’un projet, l’approbation est réaffectée au propriétaire du projet. Si personne n’est désigné comme propriétaire du projet, l’approbation est attribuée à l’administrateur Workfront.
 
 * Vous pouvez afficher le champ Sponsor de projet dans un rapport ou une liste.
 
-   Vous pouvez également afficher le champ Sponsor de projet dans une vue, un regroupement ou une invite.
+  Vous pouvez également afficher le champ Sponsor de projet dans une vue, un regroupement ou une invite.
 
-   Par exemple, vous pouvez copier l’expression de mode de texte suivante dans un filtre pour afficher les projets sponsorisés par l’utilisateur connecté :
+  Par exemple, vous pouvez copier l’expression de mode de texte suivante dans un filtre pour afficher les projets sponsorisés par l’utilisateur connecté :
 
-   ```
-   sponsorID=$$USER.ID
-   ```
+  ```
+  sponsorID=$$USER.ID
+  ```
 
-    
+   
 
-   Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

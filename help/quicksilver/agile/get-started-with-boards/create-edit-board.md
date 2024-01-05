@@ -6,7 +6,7 @@ description: Dans la [!UICONTROL panoramas] vous pouvez créer un panorama ou en
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -50,6 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Création d’un panorama
 
 {{step1-to-boards}}
+
 1. Cliquez sur **[!UICONTROL Ajouter un panorama]**.
 
 1. Sélectionnez un modèle pour le panorama.
@@ -98,6 +99,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Modifier un panorama existant
 
 {{step1-to-boards}}
+
 1. Dans le tableau de bord, sélectionnez le panorama à ouvrir.
 1. Modifiez le panorama si nécessaire. Cliquez sur le nom du panorama pour le renommer.
 

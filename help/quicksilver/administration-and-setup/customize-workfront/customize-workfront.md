@@ -9,10 +9,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: c9b16408-c02f-409e-91df-33288f3aae23
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '60'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Cette section contient les sous-sections suivantes :
 
 * [Marque personnalisée dans Adobe Workfront](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
 * [Modèles de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
-* [Formulaires personnalisés](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+* [Formulaires personnalisés : index de l’article](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [Statuts et libellés de priorité](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
 * [Processus de validation et chemins de jalon](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [Conditions personnalisées](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)

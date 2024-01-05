@@ -7,14 +7,16 @@ description: Vous pouvez fusionner les informations qui s’affichent dans plusi
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # Vue : fusionner les informations de plusieurs colonnes dans une seule colonne partagée
+
+<!-- Audited: 1/2024 -->
 
 Vous pouvez fusionner les informations qui s’affichent dans plusieurs colonnes distinctes et les afficher dans une seule colonne partagée.
 
@@ -28,12 +30,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Demande de modification d’une vue </p>
-   <p>Prévoir de modifier un rapport</p> </td> 
+   <td> <p> Actuel : 
+   <ul>
+   <li>Demande de modification d’une vue</li> 
+   <li>Prévoir de modifier un rapport</li>
+   </ul>
+     </p>
+     <p> Nouveau : 
+   <ul>
+   <li>Contributeur à la modification d’une vue</li> 
+   <li>Standard pour modifier un rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -77,7 +90,7 @@ Vous pouvez fusionner les données de plusieurs colonnes distinctes afin de les 
 >
 >Cette approche est recommandée lorsque vous fusionnez deux colonnes qui ne peuvent jamais afficher une valeur pour le même enregistrement en même temps. Par exemple, dans un rapport d’élément de travail, les colonnes Nom du problème et Nom de la tâche peuvent être fusionnées sans saut de ligne, car un élément de travail ne peut jamais avoir un nom de problème et un nom de tâche en même temps. Un élément de travail peut être un problème ou une tâche dans Workfront.
 
-Pour ce faire :
+Pour fusionner les données de deux colonnes sans saut de ligne :
 
 1. En mode texte pour une vue, ajoutez le texte suivant à la première colonne que vous souhaitez fusionner :
 

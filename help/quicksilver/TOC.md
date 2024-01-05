@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
-source-wordcount: '13844'
+source-wordcount: '13846'
 ht-degree: 0%
 
 ---
@@ -551,7 +551,7 @@ ht-degree: 0%
          * [Copier un modèle de mise en page](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
          * [Suppression des modèles de mise en page Classic à l’aide d’un appel API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Formulaires personnalisés {#custom-forms}
-         * [Formulaires personnalisés dans mon groupe](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+         * [Formulaires personnalisés : index de l’article](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Aperçu des formulaires personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Créateur de formulaires personnalisés hérité {#custom-form-builder}
             * Utilisation du créateur de formulaires personnalisé {#use-the-custom-form-builder}

@@ -7,9 +7,9 @@ description: Les notifications par e-mail générées par Workfront BAT informen
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ Les notifications par e-mail informent les collaborateurs de l’activité réce
 
 Vous pouvez définir des notifications par email pour les réviseurs dans les zones suivantes :
 
+## Exigences d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Produit</td> 
+   <td>Workfront BAT autonome</td> 
+  </tr> 
+</table>
+
+Les notifications par email destinées aux réviseurs peuvent être définies sur la page Nouveau BAT, [!UICONTROL Nouvelle version] et gérés dans la variable [!UICONTROL Workflow] de la [!UICONTROL Détails du BAT] page. Pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * La page Nouveau BAT
 * La variable [!UICONTROL Nouvelle version] page
 * La variable [!UICONTROL Workflow] de la [!UICONTROL Détails du BAT] page.
 
 Pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+Chaque utilisateur peut également définir ses propres paramètres d’alerte par email qui sont automatiquement appliqués lorsqu’un BAT est partagé avec lui si les collaborateurs ont leurs préférences ou si les administrateurs de compte ont leurs recommandations sur la fréquence des alertes. Il peut être défini comme valeur par défaut du BAT sur les pages de détails des utilisateurs.
 
 Chaque utilisateur peut également définir ses propres paramètres d’alerte par email qui seront automatiquement appliqués lorsqu’un BAT est partagé avec lui. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

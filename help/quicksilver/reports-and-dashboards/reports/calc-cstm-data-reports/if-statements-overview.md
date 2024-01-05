@@ -7,7 +7,7 @@ description: Vous pouvez utiliser des instructions "IF" dans des langages de pro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Présentation des instructions &quot;IF&quot;
+
+<!-- Audited: 1/2024 -->
 
 Vous pouvez utiliser des instructions &quot;IF&quot; dans des langages de programmation généraux. Dans Adobe Workfront, les instructions &quot;IF&quot; vous permettent de comparer, formater et associer des champs de données à des fins de création de rapports et de données personnalisées. En outre, la réflexion mathématique sur les instructions &quot;IF&quot; conduit à une meilleure compréhension conceptuelle puisque les variables pour les expressions sont généralement utilisées.
 
@@ -44,10 +46,10 @@ Tenez compte des points suivants avant de créer une instruction &quot;IF&quot; 
 Vous pouvez créer des instructions &quot;IF&quot; dans Workfront au format suivant :
 <pre>IF(Condition,True Expression,False Expression)</pre>Les composants d’une instruction "IF" sont les suivants :
 
-* **IF**= Il s’agit de l’expression de données calculées Workfront pour la &quot;fonction&quot;. Tout comme les expressions SUM et PROD, cela indique tout d’abord au système de comprendre la fonction en tant qu’instruction &quot;IF&quot;. Utilisez toujours des majuscules pour &quot;IF&quot; dans cette instruction.\
+* **IF** = Il s’agit de l’expression de données calculées Workfront pour la &quot;fonction&quot;. Tout comme les expressions SUM et PROD, cela indique tout d’abord au système de comprendre la fonction en tant qu’instruction &quot;IF&quot;. Utilisez toujours des majuscules pour &quot;IF&quot; dans cette instruction.\
   Pour obtenir la liste de toutes les expressions de données calculées, voir [Présentation des expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **Condition**= Il s’agit de la condition que la variable Workfront doit remplir et qui est la base de cette équation. Tout ce qui peut être spécifié ultérieurement dans l’équation dépend de la condition. Vous pouvez utiliser un certain nombre de références, comparaisons ou expressions mathématiques pour commencer une équation. Voici quelques exemples de conditions :
+* **Condition** = Il s’agit de la condition que la variable Workfront doit remplir et qui est la base de cette équation. Tout ce qui peut être spécifié ultérieurement dans l’équation dépend de la condition. Vous pouvez utiliser un certain nombre de références, comparaisons ou expressions mathématiques pour commencer une équation. Voici quelques exemples de conditions :
 
    * Une date est supérieure à une autre date sur un objet spécifié.
    * Un état est égal à l’un des états disponibles sur un objet spécifié.
@@ -55,9 +57,9 @@ Vous pouvez créer des instructions &quot;IF&quot; dans Workfront au format suiv
 
 * **Opérateur de condition** = il s’agit de l’opérateur qui vous aide à créer la condition de votre instruction &quot;IF&quot;. Par exemple, &quot;est égal à&quot; ou &quot;est supérieur à&quot; sont des opérateurs de condition. Pour obtenir la liste des opérateurs de condition que vous pouvez utiliser dans les instructions, voir [Opérateurs de condition dans les expressions personnalisées calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expression**= Il s’agit de la variable &quot;True&quot;, qui indique à l’équation quel indicateur afficher une fois que les critères de la condition sont satisfaits (indicateurs true).
+* **True****Expression** = Il s’agit de la variable &quot;True&quot;, qui indique à l’équation quel indicateur afficher une fois que les critères de la condition sont satisfaits (indicateurs true).
 
-* **False Expression**= Il s’agit de la variable &quot;False&quot;, qui indique à l’équation quel indicateur afficher lorsque les critères de la condition ne sont pas satisfaits (faux indicateurs).
+* **False Expression** = Il s’agit de la variable &quot;False&quot;, qui indique à l’équation quel indicateur afficher lorsque les critères de la condition ne sont pas satisfaits (faux indicateurs).
 
 Dans l’exemple suivant, le format d’instruction d’origine est utilisé pour écrire une expression de données simple pour une instruction &quot;IF&quot;. L’expression compare deux champs de date différents dans Workfront, suivis d’un résultat True/False sous la forme d’une chaîne de données :
 

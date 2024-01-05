@@ -7,33 +7,31 @@ description: Il existe plusieurs types de dates qui indiquent la chronologie des
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
 
 # Différence entre les dates prévues et estimées
 
-Il existe plusieurs types de dates qui indiquent la chronologie des tâches entre le moment où elles peuvent démarrer et celui où elles peuvent se terminer. 
-
-Voici quelques dates qui affichent la chronologie des tâches :
+Il existe plusieurs types de dates qui indiquent la chronologie des tâches entre le moment où elles peuvent démarrer et celui où elles peuvent se terminer. Voici quelques dates qui affichent la chronologie des tâches :
 
 * Dates de début et de fin planifiées
 * Dates de début et de fin prévues
-* Dates de début estimées et dates d’échéance estimées
+* Dates de début estimées et échéances estimées
 * Dates de début et d’achèvement réelles
 
-Cet article décrit les différences entre les dates estimées et projections pour les projets. Lorsque la tâche est créée pour la première fois, les dates prévues, prévues et estimées doivent généralement correspondre. Certaines exceptions existent. 
+Cet article décrit les différences entre les dates estimées et projections pour les projets.
+
+Lorsque la tâche est créée pour la première fois, les dates prévues, prévues et estimées doivent généralement correspondre. Certaines exceptions existent. 
 
 Pour plus d’informations sur le projet, la tâche et les dates de publication dans Adobe Workfront, voir [Présentation des dates de projet, de tâche et de publication dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Présentation des dates prévues
 
-Les dates planifiées sont les dates que le propriétaire du projet définit comme les dates de début et de fin des tâches. 
-
-Vous ou le propriétaire du projet pouvez modifier manuellement les dates planifiées d’une tâche.
+Les dates planifiées sont les dates que le propriétaire du projet définit comme les dates de début et de fin des tâches. Vous ou le propriétaire du projet pouvez modifier manuellement les dates planifiées d’une tâche.
 
 ## Présentation des dates réelles
 
@@ -47,9 +45,9 @@ Tenez compte des points suivants lorsque vous utilisez des dates estimées et pr
 
 * Vous ne pouvez pas modifier manuellement les Dates estimées ou projections des tâches. Elles sont toutes deux calculées par Adobe Workfront.
 * Lorsque vous créez une tâche, les dates Prévue et Estimée doivent être identiques et elles doivent illustrer les temps réels pendant lesquels les tâches peuvent démarrer ou se terminer.\
-   Certaines mises à jour apportées aux tâches affectent directement les valeurs des dates prévues et estimées. 
+  Certaines mises à jour apportées aux tâches affectent directement les valeurs des dates prévues et estimées. 
 
-   Par exemple, si l’utilisateur démarre ou termine une tâche, la tâche affiche les dates de début et de fin réelles qui influencent les dates prévues et estimées de la tâche. En outre, si une personne désignée sur la tâche modifie la date de validation, cette date influence la date de projection de la tâche.
+  Par exemple, si l’utilisateur démarre ou termine une tâche, la tâche affiche les dates de début et de fin réelles qui influencent les dates prévues et estimées de la tâche. En outre, si une personne désignée sur la tâche modifie la date de validation, cette date influence la date de projection de la tâche.
 
 ## Différence entre les dates prévues et estimées
 
@@ -68,8 +66,6 @@ La Date d’achèvement estimée est calculée en fonction de la progression act
 
 Si la tâche est terminée à 50 % aujourd’hui, la date d’achèvement estimée est le 25 septembre (elle doit être terminée au bout de 2 jours, soit la moitié de la durée de la tâche).
 
-* [Comprendre quand les dates prévues mettent à jour les tâches](#understand-when-projected-dates-update-on-tasks)
-* [Comprendre quand les dates estimées sont mises à jour pour les tâches](#understand-when-the-estimated-dates-update-on-tasks)
 
 ### Comprendre quand les dates prévues mettent à jour les tâches {#understand-when-projected-dates-update-on-tasks}
 
@@ -79,35 +75,35 @@ La liste suivante répertorie plusieurs scénarios lorsque les dates prévues de
 
 * Lorsqu’une tâche est marquée comme terminée :
 
-   *Dates prévues = Dates estimées = Dates réelles*
+  *Dates prévues = Dates estimées = Dates réelles*
 
 * Lorsqu’une tâche possède une Date de début réelle :
 
-   *Date de début prévue = Date de début estimée = Date de début réelle*
+  *Date de début prévue = Date de début estimée = Date de début réelle*
 
 * Lorsqu’une tâche ne comporte pas de date de début réelle, mais qu’une contrainte est imposée sur la date de début planifiée (qui doit être activée) qui se présente à l’avenir :
 
-   *Date de début prévue = Date de contrainte*
+  *Date de début prévue = Date de contrainte*
 
-   Pour plus d’informations sur la date de contrainte, voir [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  Pour plus d’informations sur la date de contrainte, voir [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Lorsqu’une tâche n’a pas de Date de début réelle et que la tâche n’a pas de date de contrainte forcée :
 
-   *Date de début prévue = la prochaine date disponible dans le futur conforme au planning de travail*
+  *Date de début prévue = la prochaine date disponible dans le futur conforme au planning de travail*
 
 * Lorsque la personne désignée met à jour la date de validation :
 
-   *Date d’achèvement prévue = Date de validation*
+  *Date d’achèvement prévue = Date de validation*
 
-   Pour plus d’informations sur la date de validation, voir [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Pour plus d’informations sur la date de validation, voir [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Lorsque la date de validation de la tâche n’est pas mise à jour et que celle-ci est contrainte (à terminer le) pour la date d’achèvement planifiée qui se situe dans le futur :
 
-   *Date d’achèvement prévue = date de contrainte*
+  *Date d’achèvement prévue = date de contrainte*
 
 * Lorsqu’une tâche ne dispose pas d’une date de validation mise à jour, d’une date de contrainte forcée à l’avenir ou qu’elle dispose d’une date de contrainte antérieure :
 
-   *Date d’achèvement prévue = calcul système de la date d’achèvement en fonction de la progression actuelle et du travail à effectuer.*
+  *Date d’achèvement prévue = calcul système de la date d’achèvement en fonction de la progression actuelle et du travail à effectuer.*
 
 ### Comprendre quand les dates estimées sont mises à jour pour les tâches {#understand-when-the-estimated-dates-update-on-tasks}
 
@@ -117,12 +113,12 @@ En comparaison avec les scénarios décrits ci-dessus pour les dates prévues, l
 
 Voici quelques exemples de ce qui peut influencer la chronologie réelle d’une tâche : 
 
-* progression de la tâche par rapport aux dates prévues et au jour en cours
-* pourcentage d’achèvement de la tâche jusqu’à présent
-* relation précédente
-* état précédent
-* affectation des utilisateurs
+* Progression de la tâche par rapport aux dates prévues et au jour en cours
+* Pourcentage d’achèvement de la tâche jusqu’à présent
+* Relation avec le prédécesseur
+* Progression du prédécesseur
+* Affectation des utilisateurs
 
-   >[!NOTE]
-   >
-   >L’affectation des utilisateurs peut influencer la Date estimée d’achèvement d’une tâche si elle affecte la vitesse à laquelle la tâche peut être terminée. Par exemple, si le type de durée de la tâche est piloté par l’effort, vous pouvez terminer la tâche plus tôt en ajoutant des personnes désignées. Par conséquent, la date d’achèvement estimée change.
+  >[!NOTE]
+  >
+  >L’affectation des utilisateurs peut influencer la Date estimée d’achèvement d’une tâche si elle affecte la vitesse à laquelle la tâche peut être terminée. Par exemple, si le type de durée de la tâche est piloté par l’effort, vous pouvez terminer la tâche plus tôt en ajoutant des personnes désignées. Par conséquent, la date d’achèvement estimée change.

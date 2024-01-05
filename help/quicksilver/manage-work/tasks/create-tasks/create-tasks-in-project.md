@@ -7,56 +7,29 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
 
 # Création de tâches dans un projet
 
+<!-- Audited: 1/2024 -->
+
 Vous ne pouvez créer des tâches dans un projet qu’après avoir créé le projet.
 
 Par exemple, après avoir créé un projet, vous pouvez ajouter des tâches et les modifier pour organiser le plan du projet. Pour plus d’informations sur la création d’un projet, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-Pour plus d’informations sur la création de tâches personnelles qui ne figurent pas dans un projet, voir la section &quot;Créer une tâche personnelle&quot; de l’article. [Création d’éléments de travail à partir de la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Pour plus d’informations sur la création de tâches personnelles qui ne figurent pas dans un projet, voir la section [Créer une tâche personnelle](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) dans l’article [Création d’éléments de travail à partir de la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-Cet article décrit comment créer entièrement des tâches. Vous pouvez également créer des tâches de la manière suivante :
+Cet article décrit comment créer des tâches à partir de zéro. Vous pouvez également créer des tâches de la manière suivante :
 
 * En copiant ou en dupliquant des tâches existantes. Pour plus d’informations, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * En déplaçant les tâches d’un projet à un autre. Pour plus d’informations, voir [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Exigences d’accès
-
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td><p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,11 +37,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront*</p> </td> 
-   <td> <p>Travail ou plus élevé</p> </td> 
+   <td><p>Actuel : travail ou plus élevé</p> 
+   Ou
+   <p>Nouveau : Standard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -81,14 +56,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
+
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
 ## Création de tâches dans un projet
 
 1. Accédez au projet dans lequel vous souhaitez créer une tâche.
-1. Cliquez sur **Tâches** dans le panneau de gauche.
+1. Cliquez sur **Tâche** dans le panneau de gauche.
 1. (Conditionnel) Si vous affichez actuellement la liste des tâches dans une vue agile, cliquez sur le bouton **Mode Liste** icon ![](assets/list-view-in-agile-view-for-tasks.png) dans le coin supérieur droit pour afficher la liste des tâches.
-1. (Facultatif) Cliquez sur le **Mode Plan** icon ![](assets/nwe-plan-mode-icon-task-list.png) et sélectionnez **Enregistrement manuel**, puis sélectionnez **Standard** ou **Planification de la chronologie**. Cette opération désactive la fonction **Enregistrement automatique** qui est activée par défaut.
+1. (Facultatif) Cliquez sur le **Mode Plan** icon ![](assets/nwe-plan-mode-icon-task-list.png) et sélectionnez **Enregistrement manuel**, puis sélectionnez **Standard** ou **Planification chronologique**. Cette opération désactive la fonction **Enregistrement automatique** qui est activée par défaut.
 
    ![Sélectionner Enregistrer manuellement](assets/manual-save-option.png)
 
@@ -96,16 +72,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Vous pouvez annuler vos modifications lorsque vous sélectionnez Enregistrer manuellement.
 
-1. Créez une tâche en effectuant l’une des opérations suivantes :
+1. Créez une nouvelle tâche en effectuant l’une des opérations suivantes :
 
-   * Cliquez sur **Nouvelle tâche** en haut de la liste des tâches
-   * Cliquez sur **Ajout de tâches** en bas de la liste des tâches
+   * Cliquez sur **Nouvelle tâche** en haut de la liste des tâches.
+   * Cliquez sur **Ajout de tâches** en bas de la liste des tâches.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. (Conditionnel) Si vous avez cliqué sur **Nouvelle tâche** procédez comme suit :
 
-   1. Spécifiez l’un des champs de la liste limitée des champs dans la variable **Nouvelle tâche** , puis cliquez sur **Créer une tâche** si vous souhaitez créer rapidement une tâche.
+   1. Spécifiez l’un des champs de la liste limitée des champs à l’intérieur du **Nouvelle tâche** , puis cliquez sur **Créer une tâche** pour créer rapidement une tâche.
 
       Ou
 
@@ -113,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
       ![](assets/nwe-create-task-small-screen-350x272.png)
 
-      Le **Créer une tâche** s’ouvre.
+      La variable **Créer une tâche** s’ouvre.
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
@@ -134,7 +110,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
         Pour plus d’informations sur la définition de tous les champs liés à une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-   1. (Conditionnel et facultatif) Si vous souhaitez que la tâche soit récurrente, mettez à jour la variable **Fréquence de périodicité** champ . Pour plus d’informations sur la création de tâches récurrentes, voir [Créer des tâches récurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+   1. (Conditionnel et facultatif) Si vous souhaitez que la tâche soit récurrente, mettez à jour la variable **Fréquence de répétition** champ . Pour plus d’informations sur la création de tâches récurrentes, voir [Créer des tâches récurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Facultatif) Cliquez sur **Documents** dans le panneau de gauche pour joindre un document à la nouvelle tâche, puis cliquez sur **Ajouter ou lier des fichiers** pour ajouter un document à la tâche à partir de votre ordinateur, d’un autre service ou pour lier des documents et des dossiers à partir de votre ordinateur ou d’un autre service.
 
 1. (Conditionnel) Si vous avez cliqué sur **Ajout de tâches** à l’étape 5, commencez à saisir les informations de la tâche en les éditant en ligne, puis appuyez sur Entrée.
