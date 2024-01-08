@@ -7,10 +7,10 @@ description: Il est important d’indiquer dans Adobe Workfront le moment où un
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -45,24 +45,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>Nouveau : Standard (pour configurer votre temps de congé personnel)</p>
         <p>ou</p>
         <p>Actuel : travail ou plus (pour configurer votre temps de congé personnel)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
    <td>[!UICONTROL Manager] avec l’accès [!UICONTROL Modifier l’utilisateur] (pour modifier le calendrier des heures d’autres utilisateurs)<br>
    <strong>REMARQUE :</strong> Si un responsable modifie le calendrier des heures de congé personnel d’un autre utilisateur, toutes les entrées s’affichent dans le fuseau horaire de l’utilisateur et non dans celui du responsable.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configuration du temps de connexion personnel [!DNL Workfront]
 

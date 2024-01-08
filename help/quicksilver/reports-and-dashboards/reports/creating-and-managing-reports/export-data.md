@@ -6,9 +6,9 @@ description: Vous pouvez exporter des données Adobe Workfront à partir de diff
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2153'
 ht-degree: 0%
 
 ---
@@ -53,28 +53,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
     <p>Nouveau : clair ou supérieur</p>
     <p>ou</p>
     <p>Actuel : révision ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage ou accès supérieur aux rapports, tableaux de bord et calendriers pour l’exportation des rapports</p> <p>Affichage ou accès supérieur aux objets que vous affichez dans une liste pour exporter la liste</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Affichage ou accès supérieur aux rapports, tableaux de bord et calendriers pour l’exportation des rapports</p> <p>Affichage ou accès supérieur aux objets que vous affichez dans une liste pour exporter la liste</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher ou des autorisations supérieures à un rapport ou tableau de bord pour exporter le rapport ou le tableau de bord</p> <p>Autorisations d’affichage ou de niveau supérieur des objets que vous affichez dans une liste pour exporter la liste</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets</a>.</p> </td> 
+   <td> <p>Afficher ou des autorisations supérieures à un rapport ou tableau de bord pour exporter le rapport ou le tableau de bord</p> <p>Autorisations d’affichage ou de niveau supérieur des objets que vous affichez dans une liste pour exporter la liste</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 

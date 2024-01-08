@@ -6,9 +6,9 @@ description: Les filtres de la zone Analyses améliorées d’Adobe Workfront vo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td>
       <p>Nouveau : Quelconque</p>
       <p>ou</p>
       <p>Actuel : métier ou supérieur</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
       <p>Nouveau : clair ou supérieur</p>
       <p>ou</p>
@@ -49,17 +49,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td> 
   </tr>
   <tr> 
-   <td>Niveau d’accès* </td> 
-   <td> <p>Affichage de l’accès aux projets</p> <p>Vous devez également disposer d’un accès en mode Affichage aux tâches, aux Portfolios et aux utilisateurs pour afficher des options de filtrage de champ de projet spécifiques.</p> <p>Remarque : Si des restrictions sont sélectionnées dans la section Définir des restrictions supplémentaires de la boîte de dialogue Modifier le niveau d’accès , il se peut que toutes les informations ne s’affichent pas dans les filtres ou sur la page Analyses améliorées après l’application du filtre. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Paramétrages du niveau d'accès</td> 
+   <td> <p>Affichage de l’accès aux projets</p> <p>Vous devez également disposer d’un accès en mode Affichage aux tâches, aux Portfolios et aux utilisateurs pour afficher des options de filtrage de champ de projet spécifiques.</p> <p>Remarque : Si des restrictions sont sélectionnées dans la variable <strong>Définition de restrictions supplémentaires</strong> dans la boîte de dialogue Modifier le niveau d’accès , il se peut que toutes les informations ne s’affichent pas dans les filtres ou sur la page Analyses améliorées après l’application du filtre.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p>Afficher</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 

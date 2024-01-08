@@ -10,9 +10,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '901'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Pour les utilisateurs qui y sont affectés, un niveau d’accès définit ce qu�
 
 * Projets
 * Tâches
-* Événements
+* Problèmes
 * Portefeuilles
 * Rapports, tableaux de bord et calendriers
 * Filtres, vues et regroupements
@@ -68,7 +68,7 @@ Dans un niveau d’accès personnalisé, vous pouvez configurer les paramètres 
 >
 >Nous vous recommandons vivement de ne pas modifier les niveaux d’accès intégrés afin que vous puissiez y faire référence après avoir configuré vos utilisateurs. Pour personnaliser un niveau d&#39;accès, copiez le niveau d&#39;accès par défaut et modifiez la copie. (Vous pouvez le faire pour chaque niveau d’accès, à l’exception de l’administrateur système et de l’utilisateur externe.)
 
-Pour une explication détaillée de chacun des niveaux d’accès par défaut, voir [Niveaux d’accès intégrés dans Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+Pour une explication détaillée de chacun des niveaux d’accès par défaut, voir [Niveaux d’accès intégrés](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 Pour obtenir des instructions sur l’attribution d’un niveau d’accès à un utilisateur, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -76,20 +76,20 @@ Pour obtenir des instructions sur l’attribution d’un niveau d’accès à un
 
 Lors du partage d’un objet avec une personne du système, un utilisateur peut accorder au destinataire l’une des autorisations suivantes sur l’objet.
 
-* **Affichage**: Ce niveau d&#39;autorisation permet au destinataire de partager l&#39;objet de l&#39;une des manières suivantes :
+* **Affichage**: ce niveau d&#39;autorisation permet au destinataire de partager l&#39;objet de l&#39;une des manières suivantes :
 
    * à l’échelle du système afin que tous les utilisateurs puissent le voir (non disponible pour tous les objets) ;
    * Avec les utilisateurs externes qui n’ont pas de licence Workfront (non disponible pour tous les objets)
    * Avec une adresse électronique (disponible uniquement pour les documents)
 
 * **Contribution**: (non disponible pour tous les objets)
-* **Gérer**: Lorsqu’une personne partage un objet, les droits du destinataire sur l’objet sont déterminés par une combinaison du niveau d’accès du destinataire et des autorisations accordées par le responsable du partage. Le niveau d’accès le plus bas disponible dans cette combinaison détermine ce que le destinataire peut faire avec l’objet.
+* **Gérer**: lorsque quelqu’un partage un objet, les droits du destinataire sur l’objet sont déterminés par une combinaison du niveau d’accès du destinataire et des autorisations accordées par le responsable du partage. Le niveau d’accès le plus bas disponible dans cette combinaison détermine ce que le destinataire peut faire avec l’objet.
 
-   >[!INFO]
-   >
-   >**Exemple :** Si le niveau d’accès du destinataire n’autorise pas la modification de projet, cette personne ne peut pas modifier ni supprimer un projet, même si le responsable du partage lui a accordé des autorisations pour le gérer.
-   >
-   >Ou, si le niveau d’accès du destinataire autorise la modification de projet, mais que le responsable accorde des autorisations d’affichage uniquement à un projet, l’utilisateur ne peut pas modifier ou supprimer le projet.
+  >[!INFO]
+  >
+  >**Exemple :** Si le niveau d’accès du destinataire n’autorise pas la modification de projet, cette personne ne peut pas modifier ni supprimer un projet, même si le responsable du partage lui a accordé des autorisations pour le gérer.
+  >
+  >Ou, si le niveau d’accès du destinataire autorise la modification de projet, mais que le responsable accorde des autorisations d’affichage uniquement à un projet, l’utilisateur ne peut pas modifier ou supprimer le projet.
 
 Le tableau suivant compare l’accès général d’un utilisateur aux objets (défini par le niveau d’accès de l’utilisateur) aux autorisations d’un objet partagé spécifique :
 
@@ -129,7 +129,6 @@ Le tableau suivant compare l’accès général d’un utilisateur aux objets (d
 >* Si un utilisateur partage un objet avec certaines autorisations et que cet objet a des objets enfants en dessous, le destinataire hérite des mêmes autorisations pour ces objets enfants.
 >* Si un niveau d’accès limite la suppression de certains objets par les utilisateurs, cela ne les empêche pas de supprimer les objets enfants qu’ils contiennent.
 >
-
 
 ## Autres scénarios d’exemple
 

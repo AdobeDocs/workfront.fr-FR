@@ -7,18 +7,21 @@ description: Une tâche est un élément de travail au sein d’un projet. Il re
 author: Alina
 feature: Work Management
 exl-id: 060918b2-8c3f-4f85-a8ac-bcd36141d071
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
 # Présentation des tâches
 
+<!-- Audited: 01/2024 -->
+
 Une tâche est un élément de travail au sein d’un projet. Il représente une quantité finie de travail plus petite que le projet.
 
-Les tâches peuvent être affectées aux utilisateurs à terminer. Une fois toutes les tâches d’un projet terminées, l’état du projet peut être marqué Terminé.\
+Les tâches peuvent être affectées aux utilisateurs à terminer. Une fois toutes les tâches d’un projet terminées, l’état du projet peut être marqué Terminé.
+
 Pour plus d’informations sur les projets dans Adobe Workfront, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
 
 Voici les types de tâches d’un projet :
@@ -26,7 +29,7 @@ Voici les types de tâches d’un projet :
 * Tâches parentes
 * Tâches secondaires ou tâches enfants
 * Tâches de niveau supérieur
-* Tâches de travail
+* Tâches opérationnelles
 * Tâches récurrentes
 
 ## Présentation des tâches parents  {#overview-of-parent-tasks}
@@ -41,13 +44,13 @@ Pour plus d’informations sur le mode d’achèvement du résumé des projets, 
 
 Les tâches de sous-tâche ou les tâches enfants sont des tâches répertoriées sous une tâche parent. Elles influencent généralement la mise à jour et la résolution de la tâche parent.
 
-Pour plus d’informations sur les tâches parentes, voir [Présentation des tâches parents](#overview-of-parent-tasks).
+Pour plus d’informations sur les tâches parentes, voir [Présentation des tâches parents](#overview-of-parent-tasks) dans cet article.
 
 Pour plus d’informations sur la création d’une tâche enfant, voir [Création de tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 ## Présentation des tâches de niveau supérieur
 
-Les tâches de niveau supérieur sont un type de tâches opérationnelles qui peut être soit une tâche mère, soit une tâche autonome sans parent ni enfants. Vous pouvez mettre à jour et exécuter des tâches de niveau supérieur sans influer sur la mise à jour ou la résolution d’autres tâches.
+Les tâches de niveau supérieur sont un type de tâches opérationnelles, qui peut être soit une tâche mère, soit une tâche autonome sans parent ni enfants. Vous pouvez mettre à jour et exécuter des tâches de niveau supérieur sans influer sur la mise à jour ou la résolution d’autres tâches.
 
 ## Présentation des tâches de travail
 
