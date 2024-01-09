@@ -8,9 +8,9 @@ description: Si le contenu de votre BAT ne se charge pas et que vous ne pouvez v
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,15 +82,15 @@ Dans la visionneuse de BAT, nous chargeons les mosaïques - fragments des pages.
 
 ## Vérifier les modules externes
 
-Si votre navigateur et [!DNL Flash Player] Le module externe est à jour et votre réseau ne bloque pas les connexions à [!DNL Workfront Proof] il se peut qu’un élément du navigateur ait une incidence sur l’affichage des bons à tirer. De nos jours, plusieurs modules externes et extensions sont disponibles dans votre navigateur et certains d’entre eux interfèrent ou sont en conflit avec les autres.
+Si votre navigateur est à jour et que votre réseau ne bloque pas les connexions à [!DNL Workfront Proof], il se peut qu’un élément affecte l’affichage des bons à tirer dans votre navigateur. Il existe souvent plusieurs modules externes et extensions disponibles dans votre navigateur, et certains d’entre eux peuvent interférer ou être en conflit avec les autres.
 
-La bonne pratique consiste à supprimer tous les modules complémentaires inconnus et à ne conserver que ceux que vous utilisez et auxquels vous faites confiance. Chaque navigateur doit vous donner des options pour vérifier/modifier/supprimer les modules externes et les extensions. Notre [!DNL Workfront Proof] La visionneuse est basée sur [!DNL Flash] et nous utilisons JavaScript pour charger la visionneuse afin que vous souhaitiez spécialement examiner les modules externes susceptibles d’affecter ces derniers.
+La bonne pratique consiste à supprimer tous les modules complémentaires inconnus et à ne conserver que ceux que vous utilisez et auxquels vous faites confiance. Chaque navigateur doit vous donner des options pour vérifier/modifier/supprimer les modules externes et les extensions. Nous utilisons JavaScript pour charger la variable [!DNL Workfront Proof] pour que vous souhaitiez notamment examiner les modules externes susceptibles d’affecter cette fonctionnalité.
 
 Si un module complémentaire spécifique interfère avec le chargement des BAT, vous pouvez essayer de vérifier les détails dans la console du navigateur.
 
 ![Console du navigateur](assets/proofview-4.png)
 
-Dans la plupart des navigateurs plus récents, d’autres outils de développement sont disponibles et peuvent être utilisés pour un dépannage plus avancé.
+Dans la plupart des navigateurs plus récents, d’autres outils de développement sont disponibles. Ils peuvent être utilisés pour un dépannage plus avancé.
 
 Si vous rencontrez des problèmes lors de l’affichage des bons à tirer :
 
@@ -101,8 +101,8 @@ Si vous rencontrez des problèmes lors de l’affichage des bons à tirer :
 
 ## Vérification des paramètres de contenu mixte
 
-Toutes les connexions à [!DNL Workfront Proof] sont effectuées par HTTPS. Toutefois, dans la variable [!DNL Workfront Proof] La visionneuse charge les mosaïques via HTTP et les données sont sécurisées avec les jetons. Cela crée du contenu mixte que certains navigateurs ou solutions de sécurité peuvent bloquer (par défaut ou selon une configuration manuelle).
+Toutes les connexions à [!DNL Workfront Proof] sont effectuées par HTTPS. Toutefois, dans la variable [!DNL Workfront Proof] La visionneuse charge les mosaïques via HTTP et les données sont sécurisées avec les jetons. Cela crée du contenu mixte que certains navigateurs ou solutions de sécurité peuvent bloquer (par défaut ou par configuration manuelle).
 
-Si c’est la raison pour laquelle les bons à tirer ne s’ouvrent pas sur votre ordinateur (vous devriez pouvoir voir les alertes pertinentes dans la console du navigateur), autorisez de telles connexions pour [!DNL Workfront Proof] ou modifiez vos paramètres pour autoriser le contenu mixte passif sur votre machine. Le contenu mixte peut être bloqué par votre navigateur, votre logiciel AV, la configuration réseau, etc. Pour déterminer la cause exacte, contactez votre équipe informatique/vos administrateurs réseau. Ils doivent également pouvoir vous aider à activer le contenu mixte sur votre machine.
+Si c’est la raison pour laquelle les bons à tirer ne s’ouvrent pas sur votre ordinateur (vous devriez pouvoir voir les alertes pertinentes dans la console du navigateur), autorisez de telles connexions pour [!DNL Workfront Proof] ou modifiez vos paramètres pour autoriser le contenu mixte passif sur votre machine. Le contenu mixte peut être bloqué par votre navigateur, logiciel AV ou configuration réseau afin de déterminer la cause exacte. Contactez votre équipe informatique ou vos administrateurs réseau. Ils doivent également pouvoir vous aider à activer le contenu mixte sur votre machine.
 
 
