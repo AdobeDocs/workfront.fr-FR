@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '3099'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,58 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
 
 Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Connexion [!DNL Workfront Proof] to [!DNL Workfront Fusion]
+
+Vous pouvez créer une connexion à votre [!DNL Workfront Proof] compte directement depuis l’intérieur d’un [!DNL Workfront Fusion] module .
+
+1. Dans n’importe quel [!DNL Workfront Fusion] module, cliquez sur [!UICONTROL **Ajouter**] en regard de [!UICONTROL Connexion] field
+
+2. Renseignez les champs suivants :
+
+   <table style="table-layout:auto"> 
+        <col/>
+        <col/>
+        <tbody>
+            <tr>
+                <td role="rowheader">
+                    <p role="rowheader">[!UICONTROL Nom de la connexion]</p>
+                </td>
+                <td>Saisissez un nom pour la connexion.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL connections.environmentType]</td>
+                <td>Indiquez s’il s’agit d’un environnement de production ou d’un environnement hors production tel que Aperçu ou Environnement de test.</td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL connections.authenticationType]</td>
+                <td>Indiquez s’il s’agit d’un compte de service ou d’un compte personnel.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Email / Nom d’utilisateur]</td>
+                <td>Saisissez le nom d’utilisateur de votre [!DNL Workfront Proof] compte .</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Password]</td>
+                <td>Saisissez le mot de passe de votre [!DNL Workfront Proof] compte .</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Nom du tenant]</td>
+                <td><strong>Remarque</strong>: les clients qui n’utilisent pas BYOK doivent laisser ce champ vide. <p>Saisissez l’identifiant du client pour ce compte. Si vous avez besoin d’aide pour trouver votre ID de tenant, contactez le service clientèle de Workfront.</p></td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL Domain Extension]</td>
+                <td>Saisissez l’extension de l’URL que vous utilisez pour accéder à votre compte. <p>Exemple : <code>com</code> ou <code>eu</code></p></td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Production, Aperçu ou Environnement personnalisé]</td>
+                <td>Sélectionnez une connexion à un environnement de production, de prévisualisation ou personnalisé.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+3. Cliquez sur [!UICONTROL **Continuer**] pour enregistrer la connexion et revenir au module
 
 ## [!DNL Workfront Proof] modules et leurs champs
 
