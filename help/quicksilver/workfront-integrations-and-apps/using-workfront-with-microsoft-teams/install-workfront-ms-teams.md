@@ -6,18 +6,21 @@ description: La variable [!DNL Adobe Workfront for Microsoft Teams] vous permet 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Installer [!DNL Adobe Workfront] Microsofts Teams
 
->[!NOTE]
+<!-- Audited: 1/2024 -->
+
+>[!IMPORTANT]
 >
 >L’intégration d’Adobe Workfront for Microsoft Teams n’est actuellement prise en charge que pour l’expérience de Microsofts Teams classiques.
+
 
 La variable [!DNL Adobe Workfront for Microsoft Teams] vous permet d’effectuer des actions de base dans [!DNL Workfront] sans quitter le [!DNL Microsoft Teams] canaux de discussion.
 
@@ -40,7 +43,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td><p>Nouveau : Standard</p>
+    <p>Actuel : [!UICONTROL Travail], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,9 +58,6 @@ Vous devez être propriétaire d’une équipe dans [!DNL Microsoft Teams] pour 
 ## Installer [!DNL Workfront for Microsoft Teams]
 
 En tant que propriétaire d’équipe dans [!DNL Microsoft Teams], vous pouvez installer le [!DNL Workfront for Microsoft Teams] pour chacune de vos équipes, soit à partir du [!DNL Microsoft] Stocker ou dans un fichier fourni par [!DNL Workfront].
-
-* [Installer [!DNL Workfront for Microsoft Teams] depuis Microsoft Store](#install-workfront-for-microsoft-teams-from-the-microsoft-store)
-* [Installer [!DNL Workfront for Microsoft Teams] à partir d’un fichier privé](#install-workfront-for-microsoft-teams-from-a-private-file)
 
 ### Installer [!DNL Workfront for Microsoft Teams] de la [!DNL Microsoft] Magasin
 

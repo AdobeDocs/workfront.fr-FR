@@ -6,7 +6,7 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: ba0dc486dfb104eb9fb8c964875f77cf24f520fd
 workflow-type: tm+mt
 source-wordcount: '4189'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Mise à jour du travail
+
+<!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
@@ -112,7 +114,6 @@ Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion
 Pour plus d’informations sur les commentaires sur les cartes dans la zone Panoramas, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Exigences d’accès
-
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 

@@ -6,14 +6,16 @@ description: Votre administrateur Adobe Workfront peut vous accorder l’accès 
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 3%
+source-wordcount: '986'
+ht-degree: 2%
 
 ---
 
 # Partage d’un projet dans Adobe Workfront
+
+<!-- Audited: 1/2024 -->
 
 Votre administrateur Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification de projets lors de l’attribution de votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux projets](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -23,59 +25,59 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 
 ## Observations relatives au partage de projets
 
-Outre les considérations ci-dessous, reportez-vous également à la section [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Outre les considérations ci-dessous, voir [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 * Par défaut, le créateur d’un projet dispose des autorisations nécessaires pour gérer le projet et est également désigné comme propriétaire du projet. Si le projet est attribué à un autre propriétaire, cet utilisateur dispose également des autorisations nécessaires pour gérer le projet. Lorsque le créateur (ou le propriétaire) du projet partage le projet avec d’autres utilisateurs, il leur accorde certaines autorisations pour contrôler ce qu’ils peuvent faire lorsqu’ils travaillent sur le projet.
 
-   Cependant, si le propriétaire d’un projet ne dispose pas d’une licence de planificateur, il n’a pas un accès complet à la gestion du projet. Seul un utilisateur disposant d’une licence Plan peut disposer des autorisations nécessaires pour gérer un projet. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Cependant, si le propriétaire d’un projet ne dispose pas d’une licence de planificateur, il n’a pas un accès complet à la gestion du projet. Seul un utilisateur disposant d’une licence Plan peut disposer des autorisations nécessaires pour gérer un projet. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-* Vous pouvez partager des projets individuellement ou partager plusieurs d’entre eux à la fois. Le partage de projets est identique au partage d’autres objets. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partage d’un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Vous pouvez accorder les autorisations suivantes à un projet : 
+* Vous pouvez partager des projets individuellement ou partager plusieurs d’entre eux à la fois. Le partage de projets est identique au partage d’autres objets. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Vous pouvez accorder les autorisations suivantes à un projet :
 
    * Afficher
    * Gérer
    * Contribuer
 
-      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * Lorsque vous partagez un projet, toutes les tâches, tous les problèmes et tous les documents héritent des mêmes autorisations, sauf indication contraire.
 
-   Pour plus d’informations sur la gestion de l’accès aux tâches et aux problèmes du projet en fonction des autorisations d’un utilisateur sur le projet, voir la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modification de projets](../../manage-work/projects/manage-projects/edit-projects.md).
+  Pour plus d’informations sur la gestion de l’accès aux tâches et aux problèmes du projet en fonction des autorisations d’un utilisateur sur le projet, voir la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modification de projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
-   L’administrateur de Workfront peut indiquer si les documents doivent hériter des autorisations des objets de niveau supérieur au niveau d’accès de l’utilisateur. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  L’administrateur de Workfront peut indiquer si les documents doivent hériter des autorisations des objets de niveau supérieur au niveau d’accès de l’utilisateur. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Vous pouvez supprimer les autorisations héritées d’un projet afin que les objets enfants ne les héritent pas. Pour plus d’informations sur la suppression des autorisations héritées des objets, voir  [Suppression des autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Vous pouvez supprimer les autorisations héritées d’un projet afin que les objets enfants ne les héritent pas. Pour plus d’informations sur la suppression des autorisations héritées des objets, voir [Suppression des autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-## Méthodes de partage d’un projet {#ways-to-share-a-project}
+## Méthodes pour partager un projet {#ways-to-share-a-project}
 
 Vous pouvez partager un projet comme suit :
 
 * Manuellement, effectuez l’une des opérations suivantes :
 
    * Ajout d’utilisateurs à l’équipe de projet. Lorsque vous ajoutez des utilisateurs à l’équipe du projet, ils obtiennent automatiquement les autorisations d’affichage du projet.\
-      Pour plus d’informations sur l’ajout d’utilisateurs à une équipe de projet, voir la section &quot;Ajout d’utilisateurs à une équipe de projet&quot; dans [Présentation de l’équipe de projet](../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Pour plus d’informations sur l’ajout d’utilisateurs à une équipe de projet, voir la section &quot;Ajout d’utilisateurs à une équipe de projet&quot; dans [Présentation de l’équipe de projet](../../manage-work/projects/planning-a-project/project-team-overview.md).
    * Partage individuel ou en bloc des projets lors de l’utilisation de la variable **Partage** .
 
-      Le partage d’un projet est similaire au partage de tous les autres objets dans Adobe Workfront.
+     Le partage d’un projet est similaire au partage de tous les autres objets dans Adobe Workfront.
 
-      Pour plus d’informations sur le partage d’objets dans Workfront, voir [Partage d’un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Pour plus d’informations sur le partage d’objets dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Automatiquement, en effectuant l’une des opérations suivantes :
 
    * Placement d’un projet dans une **Portfolio** ou **Programme** qui est déjà partagé avec les autres. Les utilisateurs disposent des mêmes autorisations que pour le portefeuille ou le programme pour le projet.\
-      Pour plus d’informations sur l’ajout d’un projet à un **Portfolio**, voir [Ajout de projets à un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-      Pour plus d’informations sur l’ajout d’un projet à un **Programme**, voir [Ajout d’un projet à un programme](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+     Pour plus d’informations sur l’ajout d’un projet à un **Portfolio**, voir [Ajout de projets à un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+     Pour plus d’informations sur l’ajout d’un projet à un **Programme**, voir [Ajout d’un projet à un programme](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-      Pour plus d’informations sur l’affichage des autorisations héritées sur un objet, voir [Affichage des autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     Pour plus d’informations sur l’affichage des autorisations héritées sur un objet, voir [Affichage des autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Ajoutez des entités au partage de projet sur un modèle utilisé pour créer le projet. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partage d’un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Ajoutez des entités au partage de projet sur un modèle utilisé pour créer le projet. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * Définissez le modèle d’accès au projet.
 
-      Pour définir le modèle d’accès au projet, voir [Partage d’un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Pour définir le modèle d’accès au projet, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-      >[!TIP]
-      >
-      >Lors de l’ajout ou de l’enregistrement d’un modèle, vous pouvez effacer les règles de partage de projet de modèle.
+     >[!TIP]
+     >
+     >Lors de l’ajout ou de l’enregistrement d’un modèle, vous pouvez effacer les règles de partage de projet de modèle.
 
    * Modifiez un projet et définissez les **Lorsqu’une personne a accès à ce projet** . Pour plus d’informations, voir [Modification de projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -142,8 +144,8 @@ Le tableau suivant répertorie les autorisations que les utilisateurs peuvent ac
   <tr> 
    <th> <p><strong>Actions</strong> </p> </th> 
    <th> <p><strong>Gérer</strong> </p> </th> 
-   <th> <p><strong>Contribuer</strong> </p> </th> 
-   <th> <p><strong>Afficher</strong> </p> </th> 
+   <th> <p><strong>Contribution</strong> </p> </th> 
+   <th> <p><strong>Affichage</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -274,7 +276,7 @@ Le tableau suivant répertorie les autorisations que les utilisateurs peuvent ac
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Gérer les finances*</p> </td> 
+   <td> <p>Gestion des finances*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -304,7 +306,7 @@ Le tableau suivant répertorie les autorisations que les utilisateurs peuvent ac
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ajouter/modifier un cas d’entreprise</p> </td> 
+   <td> <p>Ajout/modification d’un cas d’entreprise</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 

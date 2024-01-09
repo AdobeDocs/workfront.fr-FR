@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
 workflow-type: tm+mt
-source-wordcount: '13864'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -2557,7 +2557,6 @@ ht-degree: 0%
          * [Dépannage - police d’interface corrompue dans la visionneuse de vérification sur Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Comprendre l’impact du cache et des cookies sur le BAT Workfront](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Problèmes de vitesse dans le bon à tirer Workfront](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [Problèmes D&#39;Affichage Des Bons À Tirer - Explication Des Objets Partagés De Flash](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [Dépannage - Visionneuse de vérification de l’épreuve Workfront](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Intégrations Workfront BAT {#wf-proof-integrations}
       * [Intégrations Workfront BAT](workfront-proof/wp-integrations/wp-integrations.md)

@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
 
 # Configuration des notifications de rappel
 
-Les notifications de rappel envoient des emails aux destinataires selon des critères spécifiés. En tant qu’administrateur Adobe Workfront ou utilisateur disposant d’un niveau d’accès Planificateur et d’un accès administratif aux notifications de rappel, vous pouvez associer manuellement les notifications de rappel à vos tâches, telles que les projets, les tâches, les problèmes et les feuilles de temps.
+<!-- Audited: 1/2024 -->
+
+Les notifications de rappel envoient des emails aux destinataires selon des critères spécifiés. Vous pouvez associer manuellement des notifications de rappel à vos tâches, telles que des projets, des tâches, des problèmes et des feuilles de temps.
 
 <!--
 DRAFTED IN FLARE:
@@ -35,11 +37,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td> <p>Nouveau : Standard </p>
+ <p>ou</p> 
+<p>Actuel : formule</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -52,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Personnalisation de l’email de rappel
 
-Vous pouvez personnaliser la notification de rappel à l’aide d’un courrier électronique personnalisé qui comprend un objet et un corps de courrier électronique personnalisés. Le corps du courrier électronique peut contenir un HTML personnalisé.
+Vous pouvez personnaliser l’objet, le corps et le HTML dans l’email de notification de rappel.
 
 Vous pouvez également utiliser l&#39;email par défaut inclus dans la notification de rappel. L’e-mail par défaut utilise le nom de la notification de rappel comme objet de l’e-mail et le nom de l’objet dans le corps de l’e-mail, y compris l’événement qui a déclenché la notification.
 
@@ -62,7 +67,7 @@ Pour plus d’informations sur la création d’un modèle de courrier électron
 
 ## Créer une notification de rappel
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Email** > **Notifications** > **Notifications de rappel**.
 
@@ -86,7 +91,7 @@ Pour plus d’informations sur la création d’un modèle de courrier électron
      </tr> 
      <tr> 
       <td role="rowheader">Période qualifiante</td> 
-      <td> <p>Spécifiez le nombre d’heures, de jours de travail, de jours (jours calendaires), de semaines ou de mois avant ou après la date dans la variable <strong>Minutage</strong> champ .</p> <p><b>NOTE</b>:  
+      <td> <p>Spécifiez le nombre d’heures, de jours de travail, de jours (jours calendaires), de semaines ou de mois avant ou après la date dans la variable <strong>Minutage</strong> champ .</p> <p><b>REMARQUE</b>:  
         <ul> 
          <li> <p>Les notifications de rappel démarrent 24 heures après la date spécifiée et une fois tous les critères satisfaits.</p> </li> 
          <li> <p>Les notifications de rappel pour les projets, les tâches et les problèmes se déclenchent toutes les nuits à minuit, heure des Rocheuses. Tous les objets qui remplissent les critères d’une notification de rappel à partir de cette journée déclenchent une notification aux utilisateurs désignés peu de temps après cette date.</p> </li> 
@@ -144,10 +149,12 @@ Par exemple, si un rappel est défini pour se déclencher une heure après la da
 
 Pour déclencher manuellement une notification de rappel :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Système** > **Diagnostics** dans le coin inférieur gauche de Workfront.
 
 1. Cliquez sur **Envoyer des notifications de rappel** et attendez la confirmation en haut de l’écran qu’ils ont été envoyés.
 
    Les utilisateurs désignés dans la notification de rappel reçoivent un email.
+
+![](assets/reminder-test.png)
