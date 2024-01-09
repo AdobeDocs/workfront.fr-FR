@@ -4,9 +4,9 @@ description: Dans Adobe Maestro, vous pouvez créer des champs de formule qui ut
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * Les champs de formule font référence à des champs qui appartiennent au même type d&#39;enregistrement. Vous ne pouvez pas référencer des champs d’autres types d’enregistrement lors de la création d’un champ de formule. <!--is this still accurate??-->
 * Une fois enregistré, vous ne pouvez pas modifier le type de champ d&#39;un champ Formule.
 * Vous pouvez mettre à jour le calcul d&#39;un champ de formule après son enregistrement, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
-* Vous ne pouvez pas utiliser de champs de recherche provenant de types d’enregistrement liés.
 * Vous devez ajouter les champs que vous référencez dans les formules telles qu’elles s’affichent dans l’interface Maestro.
+* L’utilisation des champs de recherche des types d’enregistrement liés dans une formule sera disponible ultérieurement.
 
 ## Formules prises en charge
 

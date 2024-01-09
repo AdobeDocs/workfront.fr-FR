@@ -1,14 +1,14 @@
 ---
 title: Présentation des autorisations de partage dans Adobe Maestro
-description: Vous pouvez partager ou supprimer des autorisations sur un espace de travail Adobe Maestro que vous avez créé.
+description: Vous pouvez partager ou supprimer des autorisations sur un espace de travail ou une vue Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 1%
 >
 >Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
 
-Vous pouvez partager ou supprimer des autorisations sur un espace de travail Adobe Maestro que vous avez créé.
+Vous pouvez partager ou supprimer des autorisations sur un espace de travail ou une vue Adobe Maestro.
+
+Cet article décrit les niveaux d’autorisation des objets Maestro.
+
+Pour plus d’informations sur le partage d’espaces de travail ou de vues, consultez les articles suivants :
+
+* [Partager un espace de travail](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [Partage d’une vue](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objets que vous pouvez partager dans Adobe Maestro
 
@@ -48,6 +56,8 @@ Vous pouvez partager les objets suivants dans Maestro :
 
    * Nouveau modèle de tarification : licence standard
    * Modèle de tarification actuel : licence professionnelle ou supérieure
+
+  Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Les administrateurs système peuvent gérer et partager les espaces de travail créés par d’autres utilisateurs.
 * Si vous n’êtes pas administrateur système, vous pouvez contribuer aux espaces de travail créés par d’autres utilisateurs s’ils sont partagés avec vous.
 * Vous ne pouvez pas partager les espaces de travail en bloc.
@@ -58,30 +68,89 @@ Vous pouvez partager les objets suivants dans Maestro :
 
 ## Partage des autorisations pour les objets Maestro
 
-Le tableau suivant illustre le niveau des autorisations que vous pouvez sélectionner lors du partage d’un espace de travail ou d’une vue Maestro :
+Les tableaux des sections suivantes illustrent le niveau des autorisations que vous pouvez sélectionner lors du partage d’un espace de travail ou d’une vue Maestro et les fonctionnalités autorisées par chaque niveau.
 
+### Autorisations Workspace
+
+|        | Gérer | Contribuer | Afficher |
+|--------|--------|------------|-------|
+| Modifier | ✓ |            |       |
+| Partager | ✓ |            |       |
+| Supprimer | ✓ |            |       |
+| Afficher | ✓ | ✓ | ✓ |
+
+### Autorisations de type d’enregistrement
+
+Les autorisations de type d’enregistrement sont héritées lorsque vous accordez des autorisations à l’espace de travail.
+
+|        | Gérer | Contribuer | Afficher |
+|--------|--------|------------|-------|
+| Créer | ✓ |            |       |
+| Supprimer | ✓ |            |       |
+| Modifier | ✓ |            |       |
+| Afficher | ✓ | ✓ | ✓ |
+
+### Autorisations d’enregistrement
+
+Les autorisations d’enregistrement sont héritées lorsque vous accordez des autorisations à l’espace de travail.
+
+|        | Gérer | Contribuer | Afficher |
+|--------|--------|------------|-------|
+| Créer | ✓ |            |       |
+| Supprimer | ✓ | ✓ |       |
+| Modifier | ✓ | ✓ |       |
+| Afficher | ✓ | ✓ | ✓ |
+
+### Autorisations de champ
+
+Les autorisations de champ sont héritées lorsque vous accordez des autorisations à l’espace de travail.
+Les permissions suivantes se rapportent aux champs eux-mêmes et non aux valeurs associées à chaque champ. Pour modifier les valeurs de champ, vous devez disposer des autorisations de modification des enregistrements.
+
+|        | Gérer | Contribuer | Afficher |
+|--------|--------|------------|-------|
+| Créer | ✓ |            |       |
+| Supprimer | ✓ |            |       |
+| Modifier | ✓ |            |       |
+| Afficher | ✓ | ✓ | ✓ |
+
+
+### Affichage des autorisations
+
+Vous devez accorder des autorisations distinctes pour enregistrer les vues. L’octroi d’autorisations à l’espace de travail n’accorde pas d’autorisations aux vues d’enregistrement dans l’espace de travail.
+
+|        | Gérer | Afficher |
+|--------|--------|-------|
+| Modifier | ✓ |       |
+| Supprimer | ✓ |       |
+| Afficher | ✓ | ✓ |
+| Appliquer | ✓ | ✓ |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
+   </td>
   </tr>
   <tr>
    <td>
    </td>
    <td>
    </td>
-   <td><p><b>Nouveau : licence standard</b></p> <p><b>Actuel : licence de traitement ou supérieure</b></p></strong>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
    </td>
-   <td><strong>Gestion des autorisations</strong>
+   <td><strong>Manage permissions</strong>
    </td>
-   <td><strong>Autorisations de contribution</strong>
+   <td><strong>Contribute permissions</strong>
    </td>
-   <td><strong>Affichage des autorisations</strong>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Créer</strong>
+   <td><strong>Create</strong>
    </td>
    <td rowspan="5" ><strong>Workspace</strong>
    </td>
@@ -95,7 +164,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Supprimer</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -107,7 +176,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Partager</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -119,7 +188,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Modifier</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -131,7 +200,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Affichage</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -143,21 +212,9 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Créer/supprimer</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Type d’enregistrement*</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Modifier</strong>
+   <td rowspan="3" ><strong>Record Type*</strong>
    </td>
    <td>✓
    </td>
@@ -169,7 +226,19 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Affichage</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -181,9 +250,9 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Créer/supprimer</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Enregistrement*</strong>
+   <td rowspan="3" ><strong>Record*</strong>
    </td>
    <td>✓
    </td>
@@ -195,7 +264,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Modifier</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -207,7 +276,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Affichage</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -220,21 +289,9 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
   </tr>
   <tr>
    <tr>
-   <td><strong>Créer</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>Affichage</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Supprimer</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -246,7 +303,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Partager</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -258,7 +315,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Modifier</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -270,7 +327,19 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Affichage</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -283,9 +352,9 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
   </tr>
 
 <tr>
-   <td><strong>Créer/supprimer</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Champs*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
    <td>✓
    </td>
@@ -297,7 +366,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Modifier</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -309,7 +378,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    </td>
   </tr>
   <tr>
-   <td><strong>Affichage</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -325,11 +394,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
 
 </table>
 
-*Les types d’enregistrement, les enregistrements et les champs héritent des autorisations de l’espace de travail.
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-Pour obtenir des informations générales sur l’accès dans Maestro, voir [Présentation des autorisations de partage dans Adobe Maestro](../access/sharing-permissions-overview.md).
 
-Pour plus d’informations sur le partage d’espaces de travail, voir [Partager un espace de travail](/help/quicksilver/maestro/access/share-workspaces.md).
-
-Pour plus d’informations sur le partage des vues, voir [Partage d’une vue](/help/quicksilver/maestro/access/share-views.md)
 

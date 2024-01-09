@@ -4,9 +4,9 @@ description: Vous pouvez partager une vue avec d’autres pour garantir la colla
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -83,14 +83,14 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
 
 >[!NOTE]
 >
->Les administrateurs système ne peuvent pas afficher ni partager les vues qu’ils n’ont pas créées eux-mêmes.
+>Les administrateurs système ne peuvent pas afficher ni partager les vues qu’ils n’ont pas créées eux-mêmes. Ils peuvent uniquement afficher ou partager les vues partagées avec eux.
 
 
-Pour partager un espace de travail avec d’autres personnes :
+Pour partager une vue avec d’autres personnes :
 
 {{step1-to-maestro}}
 
-1. Ouvrez l’espace de travail que vous souhaitez partager, puis cliquez sur une carte Type d’enregistrement .
+1. Ouvrez l’espace de travail dont vous souhaitez partager la vue, puis cliquez sur une carte Type d’enregistrement .
 
    Cela ouvre la page de type enregistrement.
 
@@ -98,7 +98,7 @@ Pour partager un espace de travail avec d’autres personnes :
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Dans le **Accorder l’accès à l’espace de travail à** , commencez à saisir le nom d’un utilisateur ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. Dans le **Accorder l’accès à la vue à** , commencez à saisir le nom d’un utilisateur ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ Pour partager un espace de travail avec d’autres personnes :
 
 {{step1-to-maestro}}
 
-1. Ouvrez l’espace de travail que vous souhaitez partager, puis cliquez sur une carte Type d’enregistrement .
+1. Ouvrez l’espace de travail dont vous souhaitez partager la vue, puis cliquez sur une carte Type d’enregistrement .
 
    Cela ouvre la page de type enregistrement.
 
 1. Dans le menu déroulant Affichage , passez la souris sur la vue que vous souhaitez partager, puis cliquez sur l’icône **Plus** menu ![](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
 
-1. Recherchez l’utilisateur ou le groupe à supprimer, puis cliquez sur **Supprimer**.
+1. Recherchez l’utilisateur ou le groupe à supprimer, puis cliquez sur **Supprimer** dans le menu déroulant des autorisations situé à droite du nom de l’utilisateur ou du groupe.
 
 1. Cliquer sur **Enregistrer**.
 
