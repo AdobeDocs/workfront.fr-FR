@@ -7,18 +7,20 @@ description: Vous pouvez ajuster le paramètre Mode de tracking d’une tâche l
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
 # Présentation du mode de suivi des tâches
 
+<!-- Audited: 01/2024 -->
+
 Vous pouvez ajuster le paramètre Mode de tracking d’une tâche lors de la création ou de la modification d’une tâche afin de contrôler comment et à quel moment les indicateurs Etat de progression d’une tâche s’affichent. Adobe Workfront affiche des indicateurs d’état de progression lorsque vous configurez certains paramètres pour le suivi de la progression des tâches.
 
-Pour plus d’informations sur l’état d’avancement des tâches, voir [Présentation de l’état de progression de la tâche](../../../manage-work/tasks/task-information/task-progress-status.md).
+Pour plus d’informations sur l’état de progression des tâches, voir [Présentation de l’état de progression de la tâche](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -40,10 +42,10 @@ En tant que propriétaire de tâche ou chef de projet, vous pouvez sélectionner
 
 Vous pouvez sélectionner l’une des options suivantes :
 
-* [Utilisateur doit mettre à jour](#user-must-update)
-* [Supposer à l&#39;heure](#assume-on-time)
-* [Ignorer avertissements de retard](#ignore-late-warnings)
-* [Conclusion automatique](#auto-complete)
+* [L’utilisateur doit mettre à jour](#user-must-update)
+* [Heure d’activation de l’hypothèse](#assume-on-time)
+* [Ignorer les avertissements tardifs](#ignore-late-warnings)
+* [Fin automatique](#auto-complete)
 * [Tâche antérieure](#predecessor)
 
 ### Utilisateur doit mettre à jour {#user-must-update}
@@ -52,7 +54,7 @@ Lorsque cette option est sélectionnée, Workfront utilise les heures Pourcentag
 
 ### Supposer à l&#39;heure {#assume-on-time}
 
-Workfront suppose qu’une tâche sera terminée à temps, quel que soit l’état d’achèvement actuel. Si ce n’est pas le cas, Workfront suppose automatiquement une date de fin planifiée du jour de travail suivant. Vous devez toujours indiquer quand la tâche est terminée. Utilisez cette option lorsque les utilisateurs ne mettront pas régulièrement à jour leurs tâches.
+Workfront suppose qu’une tâche sera terminée à temps, quel que soit l’état d’achèvement actuel. Si la tâche ne se termine pas à temps (à la date de fin planifiée), Workfront utilise automatiquement une date de fin planifiée du jour de travail suivant. Vous devez toujours indiquer le moment où la tâche est terminée. Utilisez cette option lorsque les utilisateurs ne mettront pas régulièrement à jour leurs tâches.
 
 ### Ignorer avertissements de retard {#ignore-late-warnings}
 
@@ -71,8 +73,8 @@ Les exceptions suivantes existent :
 >
 >Lorsque vous sélectionnez l’option de fin automatique des tâches, la tâche est terminée lorsque l’heure du projet est recalculée. Si le type de mise à jour du projet est défini sur Automatique ou Automatique et Sur modification, la chronologie du projet est calculée quotidiennement. Pour plus d’informations sur les recalculs de la chronologie sur les projets, voir [Recalculer les calendriers du projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->L’heure de la date de fin réelle est minuit du jour où la chronologie est automatiquement calculée. L’heure utilisée pour générer cet horodatage correspond au fuseau horaire de votre système tel que défini par votre administrateur Workfront dans la section Informations sur le client de la configuration. Pour plus d’informations sur la définition du fuseau horaire de votre système, voir [Configuration des informations de base pour votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>L’heure de la date de fin réelle est minuit du jour où la chronologie est automatiquement calculée. L’heure utilisée pour générer cet horodatage est le fuseau horaire de votre système tel que défini par votre administrateur Workfront dans la section Informations sur le client de la configuration. Pour plus d’informations sur la définition du fuseau horaire de votre système, voir [Configuration des informations de base pour votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Tâche antérieure {#predecessor}
 
-Workfront estime la date de fin prévue d’une tâche en fonction de sa relation précédente. L’état d’avancement d’une tâche est déterminé en fonction de cette estimation. Par exemple, la tâche B a une durée d’un jour et est planifiée deux jours après son prédécesseur, la tâche A, qui doit prendre cinq jours. Un utilisateur met ensuite la tâche B à jour pour la terminer à 50 %, mais le prédécesseur, la tâche A, n’a pas encore commencé. Workfront planifie la tâche B dépendante pour l’achèvement six jours après la date de début de la tâche précédente, ce qui permet 5 jours pour la tâche A et 1 jour pour la tâche B.
+Workfront estime la date d’achèvement prévue d’une tâche en fonction de sa relation précédente. L’état d’avancement d’une tâche est déterminé en fonction de cette estimation. Par exemple, la tâche B a une durée d’un jour et est planifiée deux jours après son prédécesseur, la tâche A, qui doit prendre cinq jours. Un utilisateur met ensuite la tâche B à jour pour la terminer à 50 %, mais le prédécesseur, la tâche A, n’a pas encore commencé. Workfront programme la tâche B dépendante pour qu’elle soit terminée six jours après la date de début de la tâche précédente, ce qui permet 5 jours pour la tâche A et 1 jour pour la tâche B.
