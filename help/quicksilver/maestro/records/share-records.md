@@ -5,14 +5,15 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Partage d’enregistrements
 
@@ -158,9 +159,9 @@ After permissions - replace the table with - below
 
 ## Partage de liens d’enregistrement à partir de la vue de table de type enregistrement
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro**.
+{#step1-to-maestro}
 
-   L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
+L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.

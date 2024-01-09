@@ -6,14 +6,16 @@ description: Vous pouvez accéder à [!DNL Adobe Workfront] de [!DNL Microsoft T
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
 # Accès [!DNL Adobe Workfront] de [!DNL Microsoft Teams]
+
+<!--Audited: 01/2024-->
 
 >[!NOTE]
 >
@@ -48,12 +50,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>Nouveau : [!UICONTROL Standard]</p>
+   <p>Actuel : [!UICONTROL Travail], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+
+*Pour plus d’informations sur les exigences d’accès à Workfront, voir [Présentation des exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -63,6 +68,8 @@ Vous pouvez créer des tâches personnelles dans [!DNL Adobe Workfront] de [!DNL
 * Vous êtes connecté [!DNL Workfront] de [!DNL Microsoft Teams].
 
 ## Accès [!DNL Workfront] de la [!DNL Workfront] canal de conversation de robot
+
+Vous devez être connecté à Workfront.
 
 1. Ouvrez le **[!DNL Workfront]** Chaîne de conversation des robots.
 1. Cliquez sur le bouton **[!DNL Workfront]** en dessous du champ de texte pour afficher la zone de recherche.
@@ -88,6 +95,8 @@ Vous pouvez créer des tâches personnelles dans [!DNL Adobe Workfront] de [!DNL
      La variable [!DNL Workfront] le robot répond avec votre requête dans la variable [!DNL Workfront] Chaîne de conversation des robots.
 
 ## Accès [!DNL Workfront] depuis un canal d’équipe
+
+Vous devez être connecté à Workfront.
 
 1. Ouvrez un canal d’équipe et saisissez **@[!DNL Workfront]**, puis sélectionnez **[!DNL Workfront].**
 

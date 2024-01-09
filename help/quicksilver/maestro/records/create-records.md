@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,8 @@ After permssions - replace the table with:
 
 Vous pouvez créer des enregistrements dans la vue table d’une page de type enregistrement.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** icon ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
+
 L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
 1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
@@ -186,6 +187,11 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
    >  * Les champs qui font référence à d’autres types d’enregistrement ou à des champs calculés sont en lecture seule.
 
 1. Continuez à ajouter des informations sur chaque ligne, puis cliquez sur **Entrée** sur votre clavier pour enregistrer vos modifications.
+
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
+
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->
 
 ## Créer des enregistrements en les connectant depuis une autre application
 

@@ -7,9 +7,9 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,17 @@ Le calcul des affectations intelligentes de tâche fonctionne en deux phases.
 
 #### Première phase de calcul de l’affectation dynamique pour les tâches
 
-Lors de la première phase de calcul des affectations intelligentes, Workfront calcule un score de similarité pour chaque affectation. Le calcul du score de similarité et l’ordre dans lequel les affectations sont répertoriées prennent en compte les éléments suivants :
+Lors de la première phase de calcul des affectations intelligentes, Workfront calcule un score de similarité pour chaque affectation.
+
+>[!NOTE]
+>
+>La première phase du calcul des affectations intelligentes ne s’applique pas aux tâches suivantes :
+>
+>* Affectations en bloc dans l’équilibreur de charge de travail.
+>* Cartes connectées sur les panoramas.
+
+
+Le calcul du score de similarité et l’ordre dans lequel les affectations sont répertoriées prennent en compte les éléments suivants :
 
 * Un score de 100 % est attribué à une affectation existante où les noms de la tâche, du projet et du portfolio sont identiques à la tâche que vous essayez d’affecter. Les noms de projet et de portefeuille de la tâche d’une affectation existante doivent également correspondre au projet et au portefeuille de la tâche que vous essayez d’affecter.
 
@@ -115,7 +125,7 @@ Pour plus d’informations, voir la section [Critères d’attribution intellige
 
 >[!NOTE]
 >
-><span class="preview">Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation dynamique de tâche n’a trouvé aucune correspondance. pour plus d’informations, voir la section [Première phase de calcul de l’affectation dynamique pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) dans cet article. Par défaut, les critères suivants s’appliquent toujours aux problèmes. </span>
+><span class="preview">Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation dynamique de tâche n’a trouvé aucune correspondance. Pour plus d’informations, voir la section [Première phase de calcul de l’affectation dynamique pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) dans cet article. Par défaut, les critères suivants s’appliquent toujours aux problèmes. </span>
 
 Les utilisateurs sont recommandés dans la liste déroulante Affectations intelligentes en fonction d’une combinaison des critères suivants (répertoriés dans l’ordre du plus important au moins important) :
 

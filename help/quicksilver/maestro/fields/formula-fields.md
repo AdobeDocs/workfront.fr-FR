@@ -4,9 +4,9 @@ description: Dans Adobe Maestro, vous pouvez créer des champs de formule qui ut
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## Formules prises en charge
 
-Toutes les formules des champs calculés Workfront sont prises en charge. Pour plus d’informations, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Les champs de formule Maestro prennent en charge toutes les expressions des champs calculés Workfront. Pour plus d’informations, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 En outre, nous prenons en charge les expressions suivantes pour les champs de formule Maestro :
 
@@ -179,7 +179,7 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Renvoie une chaîne concaténée par délimiteur.</p> <p>L’expression est formatée comme suit :
 
-    ARRAYJOIN(délimiteur,tableau)
+<code>ARRAYJOIN(délimiteur,tableau)</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Renvoie un tableau avec des valeurs uniques.</p> <p>L’expression est formatée comme suit :
 
-    ARRAYUNIQUE(array)
+<code>ARRAYUNIQUE(array)</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>Renvoie l’identifiant d’un enregistrement.</p> <p>L’expression est formatée comme suit :
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Définit le fuseau horaire d’une date et d’une heure sur un fuseau horaire spécifique.</p> <p>L’expression est formatée comme suit :
 
-    SETTIMEZONE(date,&#39;Amérique/Los_Angeles&#39;)
+<code>SETTIMEZONE(date,&#39;Amérique/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
    <td><strong>WEEKOFAN</strong> </td> 
    <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour de la semaine qui commence (utilisez 1 pour le dimanche ou 2 pour le lundi). Si cette option est activée, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est formatée comme suit :
 
-    WEEKOFYEAR(date,2)
-    ou
-    WEEKOFYEAR(date)
+<code>WEEKOFYEAR(date,2)</code>
+ou
+<code>WEEKOFYEAR(date)</code>
 </p>
    </td></tr>
 

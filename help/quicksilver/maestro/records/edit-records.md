@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Modifier des enregistrements
 
@@ -130,17 +130,6 @@ After permssions - replace the table with:
 -->
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## Remarques concernant la modification d’enregistrements
 
 * Vous pouvez modifier les enregistrements que vous ou un autre utilisateur avez créés. <!--will change with access levels-->
@@ -193,9 +182,9 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
 ### Modification d’un enregistrement depuis la vue table d’un type d’enregistrement
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Maestro** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
 
-   L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
+L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
 1. Cliquez sur une carte de type enregistrement.
@@ -232,5 +221,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
    >    * Champs liés créés par la connexion des types d’enregistrement. Vous pouvez copier et coller des champs d’enregistrement liés. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
    >    * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification .
 
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
 
-   <!--take People out of the list above when they release this - this might be coming later-->
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->

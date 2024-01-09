@@ -3,9 +3,9 @@ title: Améliorations du projet au premier trimestre 2024
 description: Améliorations du projet pour le premier trimestre 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 ## Affectations intelligentes pilotées par l’IA
 
-Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique partout dans Workfront où vous affectez une tâche (listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé).
+Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.
 
 Désormais, l’algorithme examine les informations suivantes lorsqu’il suggère des affectations intelligentes :
 
