@@ -4,16 +4,19 @@ description: Dans Adobe Maestro, vous pouvez créer des champs de formule qui ut
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '453'
+ht-degree: 0%
 
 ---
 
+
+# Champs de formule - Aperçu
+
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO TOC************>
+<!--**********ADD TO miniTOC************>
 
 <!---
 title: Formula fields
@@ -26,7 +29,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Champs de formule - Aperçu
+<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 >[!IMPORTANT]
 >
@@ -64,24 +67,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Formule Adobe Workfront</p></td>
    <td>
-<p>Tous</p>
+<p>Quelconque</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Tous</p> 
+   <p>Quelconque</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Tous</p>  
+   <td> <p>Quelconque</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader">Modèle de mise en page</td>
-   <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/grant-access.md">Accorder l’accès à Adobe Maestro</a>. </p>  
+   <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -132,7 +135,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -151,11 +154,64 @@ After permssions - replace the table with:
 * Les champs de formule font référence à des champs qui appartiennent au même type d&#39;enregistrement. Vous ne pouvez pas référencer des champs d’autres types d’enregistrement lors de la création d’un champ de formule. <!--is this still accurate??-->
 * Une fois enregistré, vous ne pouvez pas modifier le type de champ d&#39;un champ Formule.
 * Vous pouvez mettre à jour le calcul d&#39;un champ de formule après son enregistrement, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
+* Vous ne pouvez pas utiliser de champs de recherche provenant de types d’enregistrement liés.
+* Vous devez ajouter les champs que vous référencez dans les formules telles qu’elles s’affichent dans l’interface Maestro.
+
+## Formules prises en charge
+
+Toutes les formules des champs calculés Workfront sont prises en charge. Pour plus d’informations, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+En outre, nous prenons en charge les expressions suivantes pour les champs de formule Maestro :
 
 
-<!--
-## The syntax of Maestro formula fields
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Expression...</th> 
+   <th>Explication et exemple</th> 
+  </tr> 
+ </thead> 
+ <tbody>
 
-## Functions supported in Maestro formula fields - I think this should be its own article, but link from here. 
+<tr> 
+   <td><strong>ARRAYJOIN</strong> </td> 
+   <td> <p>Renvoie une chaîne concaténée par délimiteur.</p> <p>L’expression est formatée comme suit :
 
--->
+    ARRAYJOIN(délimiteur,tableau)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>ARRAYUNIQUE</strong> </td> 
+   <td> <p>Renvoie un tableau avec des valeurs uniques.</p> <p>L’expression est formatée comme suit :
+
+    ARRAYUNIQUE(array)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>SETTIMEZONE</strong> </td> 
+   <td> <p>Définit le fuseau horaire d’une date et d’une heure sur un fuseau horaire spécifique.</p> <p>L’expression est formatée comme suit :
+
+    SETTIMEZONE(date,&#39;Amérique/Los_Angeles&#39;)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>WEEKOFAN</strong> </td> 
+   <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour de la semaine qui commence (utilisez 1 pour le dimanche ou 2 pour le lundi). Si cette option est activée, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est formatée comme suit :
+
+    WEEKOFYEAR(date,2)
+    ou
+    WEEKOFYEAR(date)
+</p>
+   </td></tr>
+
+</table>
+
+
+
+
+

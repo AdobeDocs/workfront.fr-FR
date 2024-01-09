@@ -6,9 +6,9 @@ description: Présentation de la diffusion des rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Tenez compte des points suivants :
 
 Lorsque vous appliquez une vue spéciale à un rapport, la vue spéciale s’affiche dans l’onglet Détails du rapport dans Workfront.
 
-Lorsque vous planifiez l&#39;envoi d&#39;un rapport avec une vue spéciale, l&#39;onglet Détails par défaut est livré dans la pièce jointe de l&#39;email envoyé, au lieu de la vue spéciale.
+Lorsque vous planifiez l&#39;envoi d&#39;un rapport avec une vue spéciale, l&#39;onglet Détails est livré dans la pièce jointe de l&#39;email envoyé, au lieu de la vue spéciale.
 
 Les vues spéciales sont les suivantes :
 

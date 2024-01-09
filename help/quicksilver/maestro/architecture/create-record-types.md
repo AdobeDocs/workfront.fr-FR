@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 1%
@@ -59,24 +59,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Formule Adobe Workfront</p></td>
    <td>
-<p>Tous</p>
+<p>Quelconque</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Tous</p> 
+   <p>Quelconque</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Tous</p>  
+   <td> <p>Quelconque</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader">Modèle de mise en page</td>
-   <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/grant-access.md">Accorder l’accès à Adobe Maestro</a>. </p>  
+   <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -123,7 +123,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -152,7 +152,7 @@ After permssions - replace the table with:
 
 * Vous pouvez créer des types d’enregistrement dans un espace de travail en effectuant l’une des opérations suivantes :
 
-   * Automatiquement:
+   * Automatiquement :
       * Lorsque vous créez un espace de travail à l’aide d’un modèle.
 
         Pour plus d’informations, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
@@ -160,7 +160,7 @@ After permssions - replace the table with:
       * Lorsque vous créez une connexion à des types d’objets à partir d’une autre application, lors de l’ajout de champs à un type d’enregistrement. Cela crée un type d’enregistrement en lecture seule dans Maestro qui est connecté aux types d’objets de l’application d’origine.
 
      Pour plus d’informations sur la connexion des types d’objets aux enregistrements Maestro, voir [Connexion d’enregistrements](../records/connect-records.md).
-   * Manuellement:
+   * Manuellement :
 
       * À partir de zéro.
 

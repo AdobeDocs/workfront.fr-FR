@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a4581dfe503c6afa43b203a3c3fe461107619e67
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
-source-wordcount: '13853'
+source-wordcount: '13864'
 ht-degree: 0%
 
 ---
@@ -2024,10 +2024,13 @@ ht-degree: 0%
       * [Créer des champs](maestro/fields/create-fields.md)
       * [Modifier les champs](maestro/fields/edit-fields.md)
       * [Supprimer des champs](maestro/fields/delete-fields.md)
+      * [Champs de formule - Aperçu](maestro/fields/formula-fields.md)
    * Accès à Adobe Maestro {#adobe-maestro-access}
       * [Informations d’accès](maestro/access/access-information.md)
       * [Présentation de l’accès](maestro/access/access-overview.md)
-      * [Accorder l’accès à Adobe Maestro](maestro/access/grant-access.md)
+      * [Présentation des autorisations de partage dans Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+      * [Partager un espace de travail](maestro/access/share-workspaces.md)
+      * [Partage d’une vue](maestro/access/share-views.md)
    * Enregistrements du maître d’Adobe {#adobe-maestro-records}
       * [Enregistrements : index de l’article](maestro/records/records-information.md)
       * [Créer des enregistrements](maestro/records/create-records.md)
