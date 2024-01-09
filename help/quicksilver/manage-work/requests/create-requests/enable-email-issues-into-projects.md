@@ -6,9 +6,9 @@ description: Autorisation des utilisateurs à envoyer par courrier électronique
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: ca3c28174dca24f14a75869bdc209569d8d8d1a0
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -61,10 +61,10 @@ Les conditions préalables suivantes sont requises pour configurer un projet afi
 
 Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
 
-* Les utilisateurs qui envoient des problèmes par courrier électronique à ce compte doivent être des utilisateurs principaux disposant d’une licence pour Workfront.
-* Les utilisateurs externes ne peuvent pas envoyer de messages électroniques concernant des problèmes à une file d’attente de requêtes, car ils n’ont pas accès à la création de problèmes.
+* Les utilisateurs qui envoient des problèmes par courrier électronique à ce compte doivent disposer d’une licence pour Workfront.
 * Les utilisateurs qui envoient des problèmes par courrier électronique à ce compte doivent disposer des autorisations Ajouter un problème sur le projet.
-* Les courriers électroniques provenant de l’adresse électronique associée à un utilisateur Workfront principal sont les seuls courriers électroniques autorisés à envoyer des problèmes au projet.
+* Les utilisateurs externes ne peuvent pas envoyer de messages électroniques concernant des problèmes à une file d’attente de requêtes, car ils n’ont pas accès à la création de problèmes.
+* Seuls les messages électroniques provenant d’une adresse électronique associée à un utilisateur Workfront actif sont autorisés à envoyer des problèmes au projet. Les courriers électroniques transférés vers un courrier électronique utilisateur Workfront actif à partir d’un courrier électronique non associé à un compte Workfront ne peuvent pas créer de problèmes sous le projet, car l’adresse électronique de l’expéditeur d’origine doit être associée à un compte Workfront actif.
 * Le projet est configuré en tant que file d’attente des demandes.
 * Le compte de messagerie associé au projet n’est pas lié à un compte utilisateur Workfront.
 
@@ -74,11 +74,10 @@ Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
 >
 >Gardez les éléments suivants à l’esprit lors de l’activation des paramètres de la file d’attente des emails :
 >
->* Workfront permet d’envoyer une seule adresse électronique par file d’attente de requêtes à l’échelle de toutes les grappes. Si vous choisissez de désactiver la file d’attente des demandes, vous conserverez l’adresse électronique que vous avez créée tant qu’elle se trouve toujours dans la zone Intake Email Address (Adresse électronique d’entrée). Si vous choisissez d’arrêter l’utilisation de l’email d’ingestion, vous devez le supprimer du champ Réception d’email afin qu’il puisse être utilisé ultérieurement.
+>* Workfront autorise un email unique par file d’attente de requêtes dans toutes les grappes. Si vous choisissez de désactiver la file d’attente des demandes, vous conserverez l’adresse électronique que vous avez créée tant qu’elle se trouve toujours dans la zone Intake Email Address (Adresse électronique d’entrée). Si vous choisissez d’arrêter l’utilisation de l’email d’ingestion, vous devez le supprimer du champ Réception d’email afin qu’il puisse être utilisé ultérieurement.
 >
 >* Si la file d’attente des demandes comporte plusieurs rubriques ou groupes de rubriques de file d’attente, Workfront sélectionne de manière aléatoire la rubrique de file d’attente vers laquelle les demandes envoyées par courrier électronique seront envoyées, rendant ainsi les requêtes envoyées difficilement gérables.
-   >Nous recommandons que le projet que vous configurez pour recevoir des requêtes par courrier électronique ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
-
+>Nous recommandons que le projet que vous configurez pour recevoir des requêtes par courrier électronique ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
 
 1. Accédez au projet que vous souhaitez activer pour recevoir les problèmes par email.
 1. Cliquez sur **Détails de la file** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus** en premier.
@@ -95,7 +94,6 @@ Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
    >* Cette adresse électronique ne peut pas être récupérée dans la corbeille si le projet contenant la file d’attente des demandes est supprimé.
    >
    >* Comme cette adresse électronique doit être unique, elle risque de ne plus être disponible à l’avenir si elle est supprimée.
-
    <!--
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
@@ -104,7 +102,7 @@ Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
 
    Cette adresse électronique reçoit des informations sur les courriers électroniques qui n’ont pas pu être envoyés au projet.
 
-1. Cliquer sur **Enregistrer**. Désormais, lorsque les utilisateurs disposant d’un compte Workfront principal envoient un courrier électronique à cette adresse, un problème est créé dans le projet Workfront.
+1. Cliquez sur **Enregistrer**. Désormais, lorsque les utilisateurs disposant d’un compte Workfront actif envoient un courrier électronique à cette adresse électronique, un problème est créé dans le projet Workfront.
 
    >[!NOTE]
    >
@@ -119,6 +117,6 @@ Lorsqu’un utilisateur Workfront envoie un courrier électronique à Workfront,
 * La ligne Objet de l’email devient le Nom du problème.
 * Le corps de l’email devient la Description du problème.
 * S&#39;il existe des documents joints à l&#39;email, ces documents sont joints au problème dans Workfront.
-* L’utilisateur qui envoie le courrier électronique devient le contact Principal du nouveau problème dans Workfront.
+* L’utilisateur qui envoie le courrier électronique devient le contact par Principal du nouveau problème dans Workfront.
 * Le corps du texte de l&#39;email ne peut pas dépasser 4000 caractères.
 * Les pièces jointes aux emails ne doivent pas dépasser 7 Mo au total.

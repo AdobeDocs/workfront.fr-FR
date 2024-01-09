@@ -7,9 +7,9 @@ description: Vous pouvez utiliser un modèle de mise en page pour configurer ce 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,10 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>Si vous définissez un filtre ou un regroupement par défaut pour un widget spécifique à l’aide d’un modèle de mise en page, il se peut qu’il ne prenne pas effet immédiatement en raison des préférences utilisateur existantes. Pour appliquer immédiatement le nouveau filtre ou regroupement, vous ou l’utilisateur devrez peut-être réinitialiser leurs préférences utilisateur en ajoutant &quot;/resetUser&quot; à la fin de leur URL.
 
 1. Poursuivez la personnalisation du modèle de mise en page.
 
