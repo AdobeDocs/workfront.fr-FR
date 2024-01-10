@@ -4,9 +4,9 @@ description: Améliorations de l’intégration au premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations de l’intégration apportées à la version du premier trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Le mappage des métadonnées dans Experience Manager Assets Essentials utilise désormais `xcm:keywords` au lieu de `dc:subject`
+
+Nous avons mis à jour l’intégration de Experience Manager Assets Essentials afin qu’elle corresponde à l’expérience de l’intégration as a Cloud Service de Experience Manager Assets. Désormais, lorsque vous mappez plusieurs champs de texte d’une seule ligne à un seul champ dans Experience Manager Assets, les deux services utilisent la variable `xcm:keywords` champ .
+
+Auparavant, ces champs étaient mappés à la variable `dc:subject` dans Experience Manager Assets Essentials. La fonctionnalité as a Cloud Service d’Experience Manager Assets reste inchangée.
+
+Toutes les métadonnées Experience Manager Assets Essentials actuellement mises en correspondance avec `dc:subject` doit être mappé sur `xcm:keywords`.
+
+Pour plus d’informations sur le mappage des métadonnées sur Experience Manager Assets Essentials, voir [Mot-clé AEM](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
 
 ## Champs de saisie anticipée désormais disponibles dans l’intégration Adobe Experience Manager
 

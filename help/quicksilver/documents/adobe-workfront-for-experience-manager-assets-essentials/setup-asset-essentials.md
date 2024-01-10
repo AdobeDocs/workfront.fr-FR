@@ -6,10 +6,10 @@ description: Connectez votre travail à votre contenu dans Experience Manager As
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 4%
+source-wordcount: '634'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td><strong>Formule Adobe Workfront*</strong>
    </td>
-   <td>Tous
+   <td>Quelconque
    </td>
   </tr>
   <tr>
@@ -101,7 +101,7 @@ Vous devez disposer des éléments suivants :
 
 ## Configuration des métadonnées (facultatif)
 
-Mappez les données d’objet Workfront sur les champs des médias de ressources dans Experience Manager Assets. Les métadonnées sont mappées lorsqu’une ressource est poussée depuis Workfront pour la première fois.
+Mappage des données d’objet Workfront aux champs de médias de ressources dans Experience Manager Assets. Les métadonnées sont mises en correspondance lorsqu’une ressource est envoyée de Workfront pour la première fois.
 
 
 ### Conditions préalables
@@ -111,15 +111,15 @@ Avant de commencer, vous devez
 * Configurez un schéma de métadonnées dans Experience Manager Assets Essentials, en suivant la procédure décrite à la section [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * (Facultatif) Configurez les champs de formulaire personnalisés dans Workfront. Workfront comporte de nombreux champs personnalisés intégrés que vous pouvez utiliser. Cependant, vous pouvez également créer vos propres champs personnalisés. Pour plus d’informations, voir [Création ou modification d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-+++ **Champs Workfront et Experience Manager Assets pris en charge**
+## Champs Workfront et Experience Manager Assets pris en charge
 
 **Mot-clé AEM**
 
 Vous pouvez mapper n’importe quel champ pris en charge par Workfront à un mot-clé dans Experience Manager Assets Essentials.
 
-Pour associer un champ à un mot-clé, sélectionnez `dc:subject` dans la liste déroulante du champ Experience Manager Assets de la zone de mappage des métadonnées.
+Pour associer un champ à un mot-clé, sélectionnez `xcm:keywords` dans la liste déroulante du champ Experience Manager Assets de la zone de mappage des métadonnées.
 
-Pour mapper plusieurs champs de texte d’une seule ligne à des mots-clés, saisissez une liste séparée par des virgules des valeurs de mot-clé dans le côté Workfront du mappage de métadonnées, et `dc:subject` côté Experience Manager Assets. Chaque valeur de champ correspond à un mot-clé distinct. Vous pouvez utiliser un champ calculé pour combiner plusieurs champs Workfront en un seul champ de texte séparé par des virgules.
+Pour mapper plusieurs champs de texte d’une seule ligne à des mots-clés, saisissez une liste séparée par des virgules des valeurs de mot-clé dans le côté Workfront du mappage de métadonnées, et `xcm:keywords` côté Experience Manager Assets. Chaque valeur de champ correspond à un mot-clé distinct. Vous pouvez utiliser un champ calculé pour combiner plusieurs champs Workfront en un seul champ de texte séparé par des virgules.
 
 <!--
 Look for essentials article
@@ -139,7 +139,7 @@ Les métadonnées sont mises en correspondance lorsqu’une ressource est envoy�
    >Vous pouvez mapper un champ Workfront unique à plusieurs champs Experience Manager Assets. Vous ne pouvez pas mapper plusieurs champs Workfront à un seul champ Experience Manager Assets.
 1. Dans le **Experience Manager** , choisissez un champ Experience Manager Assets .
 
-   Pour mapper un champ Workfront à une balise Experience Manager Assets, sélectionnez `dc:subject`.
+   Pour mapper un champ Workfront à une balise Experience Manager Assets, sélectionnez `xcm:keywords`.
 1. Répétez les étapes 1 et 2 si nécessaire.
    ![activation des métadonnées](assets/metadata-assets-essentials.png)
 1. Cliquez sur **Enregistrer** ou passez à la [Configuration des dossiers liés (facultatif)](#set-up-linked-folders-optional) dans cet article.

@@ -4,9 +4,9 @@ description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,7 @@ Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscr
                         </p>
                     </td>
                  </tr>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Statuts mis à jour pour les approbations de documents</a></p><p>Pour clarifier l’état d’approbation des documents, nous avons mis à jour les validations d’état des documents disponibles. Désormais, l’état d’approbation tient compte des opérateurs validants qui marquent la fin de leur révision, ainsi que des cas où il n’y a que des opérateurs validants, mais pas d’approbateurs.</p>
@@ -276,6 +277,23 @@ Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscr
                         </p>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Le mappage des métadonnées dans Experience Manager Assets Essentials utilise désormais <code>xcm:keywords</code> au lieu de <code>dc:subject</code></a></p><p>[!BADGE en production ]{type=Informative}</p><p>Nous avons mis à jour l’intégration de Experience Manager Assets Essentials afin qu’elle corresponde à l’expérience de l’intégration as a Cloud Service de Experience Manager Assets. Désormais, lorsque vous mappez plusieurs champs de texte d’une seule ligne à un seul champ dans Experience Manager Assets, les deux services utilisent la variable <code>xcm:keywords</code> champ .</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 10 janvier 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : 10 janvier 2023</p>
+                            </li>
+                            <li>
+                                <p>Production pour une publication trimestrielle : 10 janvier 2023</p>
+                            </li>
+                        </ul>
+                    </td>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Champs de saisie anticipée désormais disponibles dans l’intégration Adobe Experience Manager</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Afin de faciliter la liaison des champs entre Workfront et Adobe Experience Manager, nous avons ajouté la prise en charge des champs de saisie anticipée dans le mappage des métadonnées. Vous pouvez maintenant mapper des champs de type anticipé aux champs correspondants dans Adobe Experience Manager.</p>
