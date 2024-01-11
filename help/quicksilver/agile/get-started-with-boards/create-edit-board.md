@@ -6,9 +6,9 @@ description: Dans la [!UICONTROL panoramas] vous pouvez créer un panorama ou en
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -28,24 +28,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>Nouveau : contributeur ou version ultérieure </p>
  <p>ou</p> 
 <p>Actuel : [!UICONTROL Request] ou version ultérieure </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Création d’un panorama
 
@@ -64,6 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Pour une carte dynamique uniquement, suivez les étapes de l&#39;assistant de configuration :
 
+   1. Saisissez le nom du panorama, puis cliquez sur [!UICONTROL **Suivant**].
    1. Recherchez et sélectionnez [!DNL Workfront] [!UICONTROL **Projets**] pour intégrer des tâches et des problèmes au tableau.
    1. Recherchez et sélectionnez [!UICONTROL **Affectations**] pour intégrer des tâches et des problèmes au tableau.
 
@@ -71,13 +68,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
       La variable [!UICONTROL **Cartes ajoutées**] compteur indique le nombre de cartes qui seront sur le panorama. Par exemple, si vous sélectionnez un projet comportant 100 tâches et problèmes, le compteur affiche 100. Si vous ajoutez une affectation utilisateur et que cette personne est affectée à 5 tâches sur le projet, le compteur affiche 5.
 
-   1. (Facultatif) Sélectionnez [!UICONTROL **Inclure les tâches terminées en tant que cartes archivées**] pour placer sur le panorama les tâches terminées et les problèmes sous forme de cartes archivées.
+   1. (Facultatif) Sélectionnez [!UICONTROL **Ne pas archiver les cartes terminées**] pour afficher les tâches terminées et les problèmes sur le panorama sous forme de cartes visibles dans la colonne Terminé . Lorsque cette option n’est pas sélectionnée, les cartes terminées au moment de la création du panorama sont importées sous forme de cartes archivées.
 
       >[!NOTE]
       >
       >Par défaut, les cartes archivées ne s’affichent pas sur le panorama. Pour afficher les cartes archivées, vous devez activer un paramètre de configuration, puis filtrer le panorama afin d’afficher les cartes archivées. Pour plus d’informations, voir [Personnalisation des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) et [Filtrage et recherche dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >Si cette option n’est pas sélectionnée, les cartes terminées au moment de la création du panorama n’apparaissent pas sur le panorama. Les cartes ultérieurement marquées comme étant complètes restent sur le panorama dans la colonne Terminé et ne sont pas archivées, sauf si vous configurez le renvoi de la carte. Pour plus d’informations, voir [Configuration des abandons de carte](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Facultatif) Cliquez sur [!UICONTROL **Utilisation de filtres avancés**] pour afficher d’autres options de filtrage.
 
