@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
 
 # Créer des tâches récurrentes
+
+<!--Audited: 01/2024-->
 
 Vous pouvez créer des tâches récurrentes pour les tâches que vous devez répéter dans le cadre d’un seul projet.
 
@@ -30,24 +32,27 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou plus élevé</p> </td> 
+   <td> <p>Nouveau : Standard</p> 
+   <p>Actuel : travail ou plus élevé</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux tâches et aux projets</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux tâches, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Accorder l’accès aux tâches</a>. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>. </p> </td> 
+   <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Attribuez des autorisations au projet avec la possibilité d’ajouter des tâches ou plus.</p> <p>Lorsque vous créez une tâche, vous recevez automatiquement les autorisations Gérer pour la tâche.</p> <p> Pour plus d’informations sur les autorisations de tâche, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Partage d’une tâche </a>. </p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Attribuez des autorisations au projet avec la possibilité d’ajouter des tâches ou plus.</p> 
+   <p>Lorsque vous créez une tâche, vous recevez automatiquement les autorisations Gérer pour la tâche.</p> 
+   <p> Pour plus d’informations sur les autorisations de tâche, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Partage d’une tâche </a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Créer une tâche récurrente
 
@@ -55,14 +60,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 >
 >Vous ne pouvez pas créer une tâche récurrente en modifiant une tâche existante. Vous devez créer une tâche à partir de zéro.
 
-1. Accédez au projet dans lequel vous souhaitez créer une tâche récurrente, puis cliquez sur le bouton **Tâches** dans le panneau de gauche.
+1. Accédez au projet dans lequel vous souhaitez créer une tâche récurrente, puis cliquez sur le **Tâche** dans le panneau de gauche.
 1. Cliquez sur **Nouvelle tâche**.
 
    La boîte de dialogue Nouvelle tâche s’affiche.
 
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
-1. Cliquez sur **Plus d’options** puis saisissez un nom pour la tâche dans la **Nom de la tâche** champ .
+1. Cliquez sur **Autres options** puis saisissez un nom pour la tâche dans la **Task Name** champ .
 1. Continuez à mettre la tâche à jour comme vous le feriez si vous ajoutiez une nouvelle tâche. Pour plus d’informations sur l’ajout d’une nouvelle tâche, voir [Création de tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
    >[!TIP]
@@ -103,7 +108,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td> <p>La tâche se répète tous les mois, tous les 2 mois, tous les 3 mois, etc, selon la cadence que vous sélectionnez. Vous pouvez sélectionner entre 1 et 12 mois. </p> <p>Dans le <strong>Répéter</strong> , sélectionnez l’une des options suivantes lorsque vous souhaitez que la tâche se produise :</p> 
        <ul> 
         <li> <p><strong>tous les mois, jour &lt;month date=""&gt;</strong> </p> <p>Vous pouvez choisir entre 1 et 30 jours ou sélectionner <strong>last</strong>. Par exemple, vous pouvez sélectionner "tous les mois le 30". </p> </li> 
-        <li> <p><strong>chaque mois sur la &lt;number&gt; &lt;day of="" the="" week=""&gt;</strong> </p> <p>Dans le premier menu déroulant, vous pouvez sélectionner un nombre compris entre 1 et 4 pour le numéro de la semaine du mois ou sélectionner "dernier". </p> <p>Dans le deuxième menu déroulant, vous pouvez sélectionner n’importe quel jour de la semaine. </p> <p>Par exemple, vous pouvez sélectionner "tous les mois le 2e mardi". </p> </li> 
+        <li> <p><strong>tous les mois sur le &lt;number&gt; &lt;day of="" the="" week=""&gt;</strong> </p> <p>Dans le premier menu déroulant, vous pouvez sélectionner un nombre compris entre 1 et 4 pour le numéro de la semaine du mois ou sélectionner "dernier". </p> <p>Dans le deuxième menu déroulant, vous pouvez sélectionner n’importe quel jour de la semaine. </p> <p>Par exemple, vous pouvez sélectionner "tous les mois le 2e mardi". </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -122,7 +127,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur **Créer une tâche.**
 
-   La liste des tâches s’affiche. La tâche récurrente est créée en tant que parent et toutes les récurrences sont ses enfants. Workfront a généré automatiquement les noms des tâches enfants, à l’aide du nom que vous avez saisi pour le parent, suivi d’un numéro. Pour plus d’informations sur les champs remplis automatiquement à partir de la tâche récurrente parent, voir [Présentation des tâches récurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   La liste des tâches s’affiche. La tâche récurrente est créée en tant que parent et toutes les récurrences sont ses enfants. Workfront a généré automatiquement les noms des tâches enfants, à l’aide du nom que vous avez saisi pour le parent, suivi d’un numéro. Les tâches récurrentes sont placées à la fin de la liste des tâches.
+
+   Pour plus d’informations sur les champs à remplir automatiquement à partir de la tâche récurrente parent, voir [Présentation des tâches récurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
    ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 

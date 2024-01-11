@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '3413'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,9 @@ Cet article répertorie les fonctionnalités qui ont été publiées après le l
 
 Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé Maestro peuvent accéder à toutes les fonctionnalités de leurs environnements de production.
 
-<!--
 >[!IMPORTANT]
 >
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
--->
+>Entre mai 2023 et décembre 2023, toutes les fonctionnalités de cet article ont été publiées dans l’environnement Aperçu et Production. Les fonctionnalités de Maestro ont été supprimées des environnements Aperçu et Sandbox depuis janvier 2024. Toutes les fonctionnalités publiées après cette date sont actuellement disponibles en production.
 
 Cet article répertorie les fonctionnalités et les correctifs qui ont été publiés après le lancement du programme bêta fermé de Maestro, le 22 mai 2023.
 
@@ -42,83 +40,80 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
 
-<!--## Week of January 15, 2024
+## Semaine du 15 janvier 2024
 
-### Maestro capabilities are removed from the Preview and Sandbox environments 
+### Les fonctionnalités Maestro sont supprimées des environnements Aperçu et Sandbox.
 
-Preview and sandbox: <***Date here****> 
+Aperçu et environnement de test : 11 janvier 2024
 
-The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+La zone Maestro et toutes les fonctionnalités Maestro ont été temporairement supprimées des environnements Aperçu et Sandbox. Maestro sera ajouté à ces environnements à une date ultérieure à laquelle nous communiquerons dans les notes d’activité de mise à jour.
 
-(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
+### Autorisations de maestro pour les espaces de travail et les vues
 
-### Maestro permissions for workspaces and views
+Production : 11 janvier 2024
 
-Production: <****date here****>
+Aperçu : à déterminer
 
-Preview: To be determined
+Vous pouvez maintenant partager un espace de travail ou une vue avec des utilisateurs et des groupes. Vous pouvez définir leurs autorisations à différents niveaux, en fonction des informations qu’ils doivent afficher ou modifier.
 
-You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
+Lorsque vous partagez un espace de travail, les utilisateurs disposent d’autorisations pour les types d’enregistrements, les enregistrements et les champs qu’ils contiennent.
 
-When you share a workspace, users have permissions to the record types, records, and fields in that space.
+Lorsque vous partagez un espace de travail, les utilisateurs ne reçoivent pas d’autorisations de partage pour les vues associées aux types d’enregistrements de l’espace de travail. Vous devez accorder des autorisations distinctes aux vues.
 
-When you share a workspace, users don't receive sharing permissions on the views associated with the record types of the workspace. You must grant separate permissions to views. 
+Voici les niveaux d’autorisation des espaces de travail Maestro :
 
-The following are the permissions levels for Maestro workspaces:  
+* Afficher : les utilisateurs peuvent afficher les espaces de travail partagés avec eux. Ils peuvent également afficher les types d’enregistrements et les enregistrements de l’espace de travail partagé.
 
-* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* Contribution : les utilisateurs peuvent créer, modifier ou supprimer des enregistrements dans l’espace de travail qui est partagé avec eux.  Ils ne peuvent ni créer ni modifier les types d’enregistrement ni les espaces de travail partagés avec eux.
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
+* Gérer : les utilisateurs peuvent créer, modifier et supprimer des espaces de travail, des types d’enregistrement, des enregistrements et des champs dans des espaces de travail partagés avec eux.
 
-* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
+Voici les niveaux d’autorisation pour les vues d’enregistrement :
 
-The following are the permissions levels for record type views:
+* Vue : les utilisateurs peuvent sélectionner la vue dans le menu déroulant Affichage d’une page de type enregistrement.
+* Gérer : les utilisateurs peuvent modifier, partager et supprimer la vue.
 
-* View: Users can select the view from the View drop-down menu of a record type.
-* Manage: Users can edit, share, and delete the view. 
+Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md) et [Présentation des autorisations de partage dans Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+### Nouveau type de champ Formule
 
-### New Formula field type (title) 
+Production : 11 janvier 2024
 
-Production: <*******date**********> 
+Aperçu : à déterminer
 
-Preview: To be determined 
+Vous pouvez maintenant ajouter un champ de type Formule à un type d&#39;enregistrement.
 
-You can now add a Formula type field to a record type.  
+Les champs de formule génèrent une nouvelle valeur en utilisant les valeurs existantes d&#39;autres champs d&#39;un type d&#39;enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+Vous ne pouvez pas utiliser de champs de recherche provenant de types d’enregistrement liés dans un calcul de formule. Cette fonctionnalité sera disponible ultérieurement.
 
-You cannot use lookup fields from linked record types in a formula calculation.  
+Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
+### Annulation/rétablissement des actions lors de la gestion des enregistrements dans la vue de tableau
 
-### Undo/ Redo actions when managing records in the table view
+Production : 11 janvier 2024
 
-Production: <****Date******>
-Preview: To be determined
+Aperçu : à déterminer
 
-You can now undo or redo your changes when performing the following actions in the table view:  
+Vous pouvez désormais annuler ou rétablir vos modifications lorsque vous effectuez les actions suivantes dans la vue Tableau :
 
-* Copy/ paste data 
-* Edit record 
-* Add record 
-* Delete record 
+* Copier/coller des données
+* Modifier l’enregistrement
+* Ajouter un enregistrement
+* Supprimer l’enregistrement
 
-You can use the following keystrokes to undo or redo actions: 
+Vous pouvez utiliser les touches suivantes pour annuler ou rétablir des actions :
 
-* Undo: CTRL + Z 
-* Redo: CTRL + Shift+Z 
+* Annuler : Ctrl/ CMD + Z
+* Rétablir : Ctrl/ CMD + Maj + Z
 
-For more information, see the following articles:  
+Pour plus d’informations, voir les articles suivants :
 
-* Edit records (/help/quicksilver/maestro/records/edit-records.md) 
+* [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md)
 
-* Delete  records (/help/quicksilver/maestro/records/delete-records.md) 
+* [Suppression d’enregistrements](/help/quicksilver/maestro/records/delete-records.md)
 
-* Create records (/help/quicksilver/maestro/records/create-records.md) 
-
--->
+* [Créer des enregistrements](/help/quicksilver/maestro/records/create-records.md)
 
 ## Semaine du 25 décembre 2023
 

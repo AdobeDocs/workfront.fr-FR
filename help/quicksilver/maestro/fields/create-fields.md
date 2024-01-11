@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '3166'
+source-wordcount: '3360'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Create fields
 description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
@@ -63,9 +63,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe de produit</p> </td>
+   <p> Produit</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -88,73 +93,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 
 <tr>
-   <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Quelconque</p>  
+   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Autorisations</p></td>
+   <td> <p>Gestion des autorisations d’un espace de travail</a> </p>  
+   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Modèle de mise en page</td>
-   <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
@@ -199,7 +156,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    * [Pourcentage](#percentage)
    * [Devise](#currency)
    * [Case à cocher](#checkbox)
-     <!--* [Formula](#formula)-->
+   * [Formule](#formula)
    * [Personnes](#people)
    * [Créé par](#created-by)
    * [Date de création](#created-date)
@@ -408,35 +365,34 @@ Vous pouvez utiliser le type de champ Case à cocher pour ajouter une seule opti
 
    Le nouveau champ de case à cocher est ajouté en tant que colonne au type d’enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
-<!--
+### Formule
 
-### Formula
+Les champs de formule génèrent une nouvelle valeur en utilisant les valeurs existantes d&#39;autres champs d&#39;un type d&#39;enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated.
+Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
- 
-    ![](assets/new-formula-field-with-list-of-expressions.png)
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Formule** type de champ.
 
-1. Add the following information in the **New field** tab:
+   ![](assets/new-formula-field-with-list-of-expressions.png)
 
-   * **Name**: Enter a name for the new field.
-   * **Description**: Add information about the new field.
-   * **Formula**: Start typing at least one character to access an expression, then select it when it displays in the list. 
-  
-1. Click the selected expression to reveal the definition and view its formatting. 
+1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
+
+   * **Nom**: saisissez le nom du nouveau champ.
+   * **Description**: ajoutez des informations sur le nouveau champ.
+   * **Formule**: commencez à saisir au moins un caractère pour accéder à une expression, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+
+1. Cliquez sur l’expression sélectionnée pour afficher la définition et afficher sa mise en forme.
 
    ![](assets/description-of-formula-expression.png)
 
-1. Add field names as they display in Maestro interface to reference them in a formula. 
+   Pour plus d’informations sur les expressions prises en charge, voir [Champs de formule - Aperçu](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Click **Create**.
+1. Ajoutez les noms des champs tels qu’ils s’affichent dans l’interface Maestro pour les référencer dans une formule.
 
-     The new formula field is added as a column to the record type and its values can be associated with records.
+1. Cliquez sur **Créer**.
 
--->
+   Le nouveau champ de formule est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
+
 
 ### Personnes
 

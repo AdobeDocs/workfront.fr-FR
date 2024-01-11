@@ -1,18 +1,19 @@
 ---
 title: Présentation de l’accès
-description: Tous les utilisateurs d’une entreprise peuvent avoir accès à Adobe Manager. Actuellement, aucun niveau d’accès ou autorisation n’est associé aux utilisateurs ou aux informations dans Maestro.
+description: Il existe des restrictions de licence et de partage pour utiliser les fonctionnalités Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 0%
 
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
+<!--update the title and the metadata title if Maestro is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
 # Présentation de l’accès
 
@@ -26,16 +27,11 @@ ht-degree: 1%
 >
 >Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
 
-Il n’existe aucune restriction de niveau d’accès pour Adobe Manager.
-
-Tous les utilisateurs de votre entreprise peuvent avoir accès à Maestro, quel que soit leur niveau d’accès.
-
-<!-- the table will change after we implement access levels/ permissions for Maestro-->
-<!-- fix the formatting on the table - some lines are way too spaced out-->
+Il existe des restrictions de licence et de partage pour utiliser les fonctionnalités Adobe Maestro.
 
 ## Exigences d’accès
 
-Pour utiliser Adobe Maestro, vous devez disposer des éléments suivants :
+Pour utiliser Adobe Maestro, vous devez disposer des paramètres suivants :
 
 <table style="table-layout:auto">
  <col>
@@ -52,7 +48,7 @@ Pour utiliser Adobe Maestro, vous devez disposer des éléments suivants :
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro.  </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. </p>
    </td>
   </tr>
   <tr>
@@ -62,92 +58,39 @@ Pour utiliser Adobe Maestro, vous devez disposer des éléments suivants :
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>Quelconque</p>
+   Pour créer des espaces de travail, les utilisateurs doivent disposer de la licence suivante : 
+   <ul><li><p>Nouveau : Standard</p> </li>
+   <li><p>Current : Worker ou version supérieure</p> </li></ul>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Niveau d’accès</p></td>
-   <td> <p>Quelconque</p>  
+  <tr>
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour les objets Maestro</p>  
 </td>
   </tr>
-
+<tr>
+   <td role="rowheader"><p>Autorisations d’objet</p></td>
+   <td>
+   <p>Contribuez à des espaces de travail et à des vues que vous n’avez pas créés pour les modifier, les supprimer et les partager.</p>
+    <p>Les administrateurs système peuvent gérer les espaces de travail et les vues qu’ils n’ont pas créés. </p>
+   <p>Pour plus d’informations sur le partage des autorisations pour les objets Maestro, voir  
+   <a href="../access/sharing-permissions-overview.md">Présentation des autorisations de partage dans Adobe Maestro</a> 
+  </td>
+  </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Votre administrateur Workfront doit ajouter la zone Maestro du menu principal à votre modèle de mise en page.</p> 
+   <td> <p>L’administrateur système doit ajouter la zone Maestro dans le menu principal à votre modèle de mise en page.</p> 
    <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personnalisation du menu principal à l’aide d’un modèle de mise en page</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-<!--After we enable permissions, replace the section content above with this:
+*Pour plus d’informations sur les modèles de tarification nouveaux et actuels, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-There are license and sharing permission restrictions to use Adobe Maestro capabilities. (*********** this should be the intro right under the title; also update the metadata with this when live*******)
-
-You must have the following settings to use Adobe Maestro: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Any</p>
-   To create workspaces, users must have the following license: 
-   <ul><li><p>New: Standard</p> </li>
-   <li><p>Current: Worker or higher</p> </li></ul>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Maestro objects</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Contribute or higher permissions to workspaces and views that you did not create to edit, delete, and share them</p>
-    <p>System Administrators can manage workspaces and views they did not create </p>
-   <p>For information about sharing permissions for Maestro objects, see  
-   <a href="../access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Maestro</a> 
-  </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your system administrator must add the Maestro area in the Main Menu to your layout template.</p> 
-   <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For more information about the new and current pricing models, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
-
--->
 
 ## Partage de la zone Maestro dans le menu principal avec d’autres
 
@@ -177,13 +120,8 @@ Les utilisateurs disposant de tout type de licence peuvent accéder à Maestro.
 
 ## Octroi d’autorisations
 
-Aucune autorisation n’est associée aux objets Maestro.
+Vous devez accorder aux utilisateurs qui ne sont pas administrateurs système des autorisations d’accès aux espaces de travail et aux vues que vous créez pour qu’ils puissent y accéder.
 
-Tous les utilisateurs pour lesquels Maestro est activé dans leur environnement peuvent afficher, modifier et supprimer toutes les informations ajoutées à Maestro par un autre utilisateur.
-
-<!--
-Take out the text above and replace with this: 
-
-For more information, see [Sharing permissions overview in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).-->
+Pour plus d’informations, voir [Présentation des autorisations de partage dans Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 

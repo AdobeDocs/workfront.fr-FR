@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # Planification d’une présentation de projet
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 Un projet est un élément de travail volumineux dans Adobe Workfront. Vous pouvez ventiler un projet en tâches qui sont des tâches plus petites, comme des tâches. Des tâches peuvent être affectées à des utilisateurs ou à des équipes qui peuvent être responsables de leur réalisation. Lorsque tous les utilisateurs terminent leurs tâches, le projet est également terminé.

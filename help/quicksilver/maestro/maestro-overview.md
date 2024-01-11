@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 1%
 # Présentation d’Adobe Maestro
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ Le tableau suivant illustre les principales fonctionnalités qui seront disponib
 | Connexion des enregistrements Maestro aux ressources Adobe Experience Manager | ✓ |                                  |                 |
 | Page Détails de l’enregistrement | ✓ |                                  |                  |
 | Mettre à jour la mise en page de la page Détails de l’enregistrement |                               | ✓ |                  |
-| Partage des espaces de travail | | ✓ |  |
-| Partage de vues | | ✓ |  |
+| Partage des espaces de travail | ✓ | |  |
+| Partage de vues | ✓ | |  |
 | Soumettre des demandes |                               |                                  | ✓ |
 | Brève présentation créative |                               |                                  | ✓ |
 | Personnalisation de la couleur et de l’icône d’un enregistrement | ✓ |                                  |                 |
@@ -92,15 +88,11 @@ Le tableau suivant illustre les principales fonctionnalités qui seront disponib
 | Modules Maestro pour Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copier et coller des informations d’un champ vers un autre | ✓ |                                  |                 |
 
-## Accès requis pour utiliser Maestro pendant le programme bêta fermé
+## Activation de Maestro pour les utilisateurs de votre instance Workfront
 
->[!IMPORTANT]
->
->Actuellement, aucun niveau d’accès ou autorisation n’est associé aux utilisateurs ou aux informations dans Maestro. Tous les utilisateurs peuvent afficher, modifier et supprimer toutes les informations ajoutées à Maestro par un autre utilisateur.
+Votre entreprise doit s’inscrire au programme bêta fermé Adobe Maestro avant de pouvoir accéder à Maestro. Contactez votre gestionnaire de compte pour en savoir plus sur l’inscription au programme bêta.
 
-Pour plus d’informations sur l’accès requis pour utiliser Maestro, voir [Présentation de l’accès à Adobe Maestro](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+Pour plus d’informations sur l’octroi de l’accès à et l’autorisation d’autres utilisateurs à l’aide de Maestro, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Terminologie maestro
 
@@ -185,7 +177,7 @@ Voici les principaux objets et concepts de Maestro :
 
    * Les champs Maestro sont entièrement personnalisables et ne sont accessibles que dans Maestro. Vous ne pouvez pas accéder aux champs Maestro à partir de Workfront.
 
-  Pour plus d’informations, voir [Créer des champs](../maestro/fields/create-fields.md)
+  Pour plus d’informations, voir [Créer des champs](../maestro/fields/create-fields.md).
 
   Un nouveau type d&#39;enregistrement opérationnel est associé par défaut aux champs prédéfinis suivants :
 
@@ -208,6 +200,7 @@ Voici les principaux objets et concepts de Maestro :
    * Pourcentage
    * Devise
    * Case à cocher
+   * Formule
    * Personnes
    * Créé par
    * Date de création
@@ -272,12 +265,6 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Taille de fichier que vous pouvez importer via l’API pour un tableau de type enregistrement | 1,5 Mo |
 | Taux auquel les demandes d’API peuvent être effectuées | 200 demandes par minute |
 | Taille du fichier CSV d’Excel que vous pouvez importer dans un tableau | 5 Mo |
-
-## Activation de Maestro pour les utilisateurs de votre instance Workfront
-
-Votre entreprise doit s’inscrire au programme bêta fermé Adobe Maestro avant de pouvoir accéder à Maestro. Contactez votre gestionnaire de compte pour en savoir plus sur l’inscription au programme bêta.
-
-Pour plus d’informations sur l’octroi de l’accès à et l’autorisation d’autres utilisateurs à l’aide de Maestro, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Localisation de Maestro
 

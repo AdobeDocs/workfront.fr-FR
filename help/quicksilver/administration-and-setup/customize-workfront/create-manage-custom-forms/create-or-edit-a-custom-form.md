@@ -4,22 +4,26 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez créer ou modifier un nouveau formulaire personnalisé.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité
 
+<!--Audited: 01/2024-->
+
 Vous pouvez créer ou modifier un nouveau formulaire personnalisé. Les deux tâches sont expliquées dans cet article.
 
 Pour plus d’informations sur la création d’un formulaire personnalisé à partir d’un formulaire existant, voir [Copier un formulaire personnalisé pour en créer un nouveau avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+
+Cet article décrit comment créer un formulaire personnalisé à l’aide de l’ancien créateur de formulaires. Pour plus d’informations sur la création d’un formulaire personnalisé à l’aide du concepteur de formulaire, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Exigences d’accès
 
@@ -31,11 +35,12 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td><p>Nouveau : Standard</p>
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
@@ -44,30 +49,33 @@ Les étapes de cet article doivent être les suivantes :
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Commencer à créer un formulaire personnalisé
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Forms personnalisée** dans le panneau de gauche.
 
-   Dans la vue qui s’affiche, vous pouvez consulter tous les formulaires et champs personnalisés créés pour votre organisation. Vous pouvez également voir qui a créé chaque formulaire et les champs qui lui sont associés.
+   Les formulaires personnalisés s’affichent dans une liste. Vous pouvez consulter tous les formulaires et champs personnalisés créés pour votre entreprise. Vous pouvez également voir qui a créé chaque formulaire, les objets qui lui sont associés et s’il est actif.
 
 1. Cliquez sur **Nouveau formulaire personnalisé.**
 1. Sélectionnez au moins un type d’objet à associer au formulaire personnalisé, puis cliquez sur **Continuer**.
 
    ![](assets/choose-object-type.jpg)
 
-1. Sur le **Paramètres de formulaire** qui s’ouvre, saisissez une **Titre du formulaire** et un **Description** pour le formulaire personnalisé.
+1. Sur le **Paramètres du formulaire** qui s’ouvre, saisissez une **Titre du formulaire** et un **Description** pour le formulaire personnalisé.
 
-1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin de pouvoir les joindre à d’autres objets, cliquez sur le signe plus après Types d’objets, puis sélectionnez le type d’objet souhaité dans le menu qui s’affiche.
+1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin de pouvoir les joindre à d’autres objets, cliquez sur le bouton **plus** sign **Types d’objet**, puis sélectionnez le type d’objet souhaité dans le menu qui s’affiche.
 
-   Vous pouvez répéter cette opération pour ajouter autant de types d’objets que vous le souhaitez. Vous pouvez également cliquer sur le X sur un type d’objet pour le supprimer du formulaire.
+   Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
+
+1. (Facultatif) Cliquez sur le **X** sur un type d’objet pour le supprimer du formulaire.
 
    Pour plus d’informations sur la suppression des types d’objet d’un formulaire personnalisé que vous avez déjà enregistré, voir [Suppression de types d’objet sur un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. Cliquez sur **Terminé**.
+1. Cliquez sur **Terminé** dans le coin inférieur gauche de l’écran.
 
    >[!TIP]
    >
@@ -96,11 +104,11 @@ Vous pouvez modifier un formulaire personnalisé à tout moment après sa créat
 >
 >En règle générale, il est recommandé de réduire au minimum le nombre de fois où vous modifiez un formulaire personnalisé déjà utilisé. Il n’existe pas de système de notification pour alerter les personnes qui utilisent le formulaire personnalisé au sujet de vos modifications.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Forms personnalisée** dans le panneau de gauche.
 
-   Dans la vue qui s’affiche, vous pouvez passer en revue tous les formulaires personnalisés créés pour votre organisation. Vous pouvez également savoir qui a créé chaque formulaire, avec quel type d’objet il fonctionne et s’il est principal.
+   Les formulaires personnalisés s’affichent dans une liste. Vous pouvez consulter tous les formulaires et champs personnalisés créés pour votre entreprise. Vous pouvez également voir qui a créé chaque formulaire, les objets qui lui sont associés et s’il est actif.
 
 1. Sélectionnez le formulaire personnalisé à modifier, puis cliquez sur **Modifier**.
 1. (Facultatif) Pour modifier le titre et la description du formulaire personnalisé, cliquez sur le bouton **Paramètres de formulaire** , puis saisissez une **Titre du formulaire** et **Description**.
