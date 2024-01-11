@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Dans Maestro, vous pouvez créer des types d’enregistrements personnalisés qu
    * [Type d’enregistrement opérationnel](#operational-record-type): type d’enregistrement qui représente les plans stratégiques, les initiatives ou les travaux planifiés. Par exemple, Campaign, Activity, Tactique, Opportunity peuvent être des types d&#39;enregistrements opérationnels.
    * [Taxonomie](#taxonomy): types d’enregistrements qui capturent des attributs sur un type d’enregistrement opérationnel. Par exemple, Région, Adresse, Audience peuvent être des taxonomies.
 
-* Lorsque vous créez un type d’enregistrement, tout le monde dans votre entreprise peut le visualiser, le modifier ou le supprimer. <!--this will change with access levels and permissions-->
+* Lorsque vous créez un type d’enregistrement, seuls vous et ceux que vous autorisez à accéder à l’espace de travail pouvez afficher le type d’enregistrement.
 * Vous devez créer un espace de travail avant de pouvoir créer des types d’enregistrement pour l’espace de travail.
 * Vous pouvez avoir un total cumulé de 1 000 types d’enregistrements opérationnels et taxonomies dans un espace de travail. Cela inclut les types d’enregistrement ou les taxonomies que vous créez de toutes pièces ou que vous importez à partir d’autres systèmes.
 

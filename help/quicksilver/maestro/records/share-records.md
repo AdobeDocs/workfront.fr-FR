@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,9 @@ Vous pouvez partager un enregistrement Maestro comme suit :
 
 * Copiez un lien vers la page Détails de l’enregistrement lors de l’affichage d’enregistrements dans la vue de table du type d’enregistrement.
 
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
+* Vous pouvez partager tous les enregistrements d’un espace de travail avec d’autres utilisateurs en partageant l’espace de travail. Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/maestro/access/share-workspaces.md).
 
 Cet article décrit comment copier un lien vers la page Détails d’un enregistrement à partir de la vue table d’un type d’enregistrement.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
 
 ## Exigences d’accès
 
@@ -53,9 +45,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe de produit</p> </td>
+   <p> Produit</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -78,73 +75,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 
 <tr>
-   <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Quelconque</p>  
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
+   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Modèle de mise en page</td>
-   <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Autorisations</p></td>
+   <td> <p>Affichage d’autorisations ou d’autorisations supérieures pour un espace de travail afin de partager un enregistrement à l’aide d’un lien </p>
+   <p>Gérer les autorisations d’un espace de travail pour partager des enregistrements pendant le partage de l’espace de travail auquel appartient l’enregistrement </p>
+   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
- </tbody>
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
 
-<!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
 
--->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -186,3 +140,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 
    <!--add there when it will be available: if they have access to this record-->
+
+## Partager tous les enregistrements dans un espace de travail en partageant l’espace de travail
+
+Vous pouvez partager tous les enregistrements dans un espace de travail lorsque vous partagez l’espace de travail avec d’autres personnes. Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/maestro/access/share-workspaces.md).

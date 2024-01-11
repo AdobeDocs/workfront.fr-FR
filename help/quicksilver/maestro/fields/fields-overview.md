@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Manager qui reflètent le cycl
 
 * Les champs Workfront sont accessibles à partir de Maestro uniquement lorsque vous connectez des types d’enregistrements Maestro à des types d’objets Workfront et que vous ajoutez des champs liés ou de recherche à partir d’objets Workfront. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
 
-* Vous pouvez afficher et mettre à jour les paramètres des champs que vous ou tout autre utilisateur avez créés. <!--this will change with access/ permissions-->
+* Vous pouvez afficher et mettre à jour les paramètres des champs que vous ou tout autre utilisateur avez créés, si vous disposez des autorisations de gestion pour l’espace de travail auquel le champ appartient.
 
 * Vous pouvez avoir jusqu’à 500 champs pour un type d’enregistrement.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2927'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -77,12 +77,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <table style="table-layout:auto">
  <col>
-<tbody>
-<td>
-   <p> Adobe de produit</p> 
-   </td>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Pour connecter les enregistrements Maestro à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p></td>
+   <p> Adobe Workfront</p> 
+   <p>Pour connecter les enregistrements Maestro à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -97,95 +102,36 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
-   <td><p>Tout, pour créer des enregistrements Maestro</p> 
-<p>Utilisation ou version ultérieure pour afficher les projets dans Workfront</p>
-  <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Présentation des licences Adobe Workfront</a>.</p> 
+   <td>
+   <p>Quelconque</p> 
   </td>
   </tr>
-  <tr>
-   <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Tout, pour créer des enregistrements Maestro</p>
-<p>Affichage ou accès supérieur à Projets, Portfolios, programmes</p> 
-<p>Accès supplémentaire aux groupes et aux entreprises, lorsque vous affichez des groupes ou des entreprises, les utilisateurs n’appartenant pas à</p>   
+
+<tr>
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
+   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Autorisations d’objet</p></td>
-   <td> <p>Affichage ou autorisations supérieures des objets que vous souhaitez lier aux enregistrements Maestro  
+   <td role="rowheader"><p>Autorisations</p></td>
+   <td> <p>Gestion des autorisations d’un espace de travail</a> </p>  
+   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p></td>
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+</td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## Connexion d’enregistrements
 
@@ -198,8 +144,8 @@ After permssions - replace the table with:
 
   Les valeurs des champs liés des enregistrements liés renseignent l’enregistrement Maestro à partir duquel vous créez une liaison automatique à partir de l’espace de travail Maestro que vous configurez ou à partir de l’application tierce.
 
-* Toute personne ayant accès à Maestro peut voir les connexions que vous faites entre les enregistrements Maestro ou entre les enregistrements Maestro et les objets d’autres applications. Ils peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations sur les applications tierces auxquelles vous vous connectez.
-* Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* Toutes les personnes ayant accès aux autorisations Maestro et Manage (Gérer) à l’espace de travail peuvent voir les connexions que vous établissez entre les enregistrements Maestro ou entre les enregistrements Maestro et les objets d’autres applications. Ils peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations sur les applications tierces auxquelles vous vous connectez. <!--check with PM-->
+* Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs, si vous disposez des autorisations de gestion de l’espace de travail dans lequel se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement Maestro à un ou plusieurs objets d’une autre application.
 * Pour lier des enregistrements Maestro à d’autres enregistrements ou objets, vous devez disposer des éléments suivants :
 

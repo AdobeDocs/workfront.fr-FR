@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -91,12 +91,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## Considérations relatives à la suppression d’enregistrements
 
 * Vous pouvez supprimer les enregistrements que vous ou un autre utilisateur avez créés.
@@ -157,5 +151,5 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la suppression d’un enregistrement :
 
-   * **Annuler**: Ctrl/CMD + Z
-   * **Rétablir**: Ctrl/CMD + Maj + Z
+   * Ctrl + Z (⌘ + Z pour Mac) pour annuler une modification.
+   * Ctrl + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir la modification

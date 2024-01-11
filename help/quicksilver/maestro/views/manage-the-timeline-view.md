@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe de produit</p> </td>
+   <p> Produit</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,10 +76,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 
 <tr>
-   <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Quelconque</p>  
+   <td role="rowheader">Configuration du niveau d’accès</td>
+   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro </p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>Autorisations</p></td>
+   <td> <p>Gestion des autorisations pour l’affichage</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">Modèle de mise en page</td>
    <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
@@ -82,62 +94,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
  </tbody>
 </table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 
 ## Gestion de la vue chronologique {#manage-a-timeline-view}

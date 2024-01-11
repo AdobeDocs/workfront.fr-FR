@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe de produit</p> </td>
+   <p> Produit</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -54,81 +59,35 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>Nouveau : Standard</p>
+   <p>Actuel : travail ou plus élevé</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Niveau d’accès</td>
-   <td> <p>Quelconque</p>  
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
+   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro</p>
 </td>
   </tr>
+
 <tr>
-   <td role="rowheader">Modèle de mise en page</td>
-   <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Autorisations</p></td>
+   <td> <p>Vous recevez les autorisations Gérer pour les espaces de travail que vous créez. </p>  
 </td>
   </tr>
- </tbody>
+
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>Vous devez ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
 
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level*</p></td>
-   <td> <p>System Administrator</p>  
-   <p>The following license types:</p>
-   <ul><li>New: Standard</li>
-   <li>Current: Worker or higher </li></ul>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>You must add the Maestro area to your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver\administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
-
-
+Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -145,13 +104,15 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 * Vous pouvez créer des espaces de travail pour des entités organisationnelles spécifiques au sein de votre organisation, afin de correspondre au fonctionnement unique de chaque unité.
 * Les types d’enregistrement et les taxonomies contenus dans un espace de travail doivent refléter le cycle de vie du travail d’une entité organisationnelle.
-* Lorsque vous créez un espace de travail, tout le monde dans votre entreprise peut le visualiser, le modifier ou le supprimer.  <!--this will change with access levels and permissions-->
+* Lorsque vous créez un espace de travail, vous seul êtes autorisé à y accéder et à le gérer. Vous devez le partager avec d’autres utilisateurs afin qu’ils puissent collaborer avec vous dans le même espace. Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/maestro/access/share-workspaces.md).
 * Votre entreprise peut contenir un maximum de 1 000 espaces de travail.
 * Les espaces de travail contiennent des types d’enregistrement uniques à chaque espace de travail. <!--this might change-->
 
 ## Créer un espace de travail
 
-1. (Conditionnel) Si votre système ne comporte aucun espace de travail, cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+1. (Conditionnel) Si votre environnement ne contient aucun espace de travail, cliquez sur **Créer un espace de travail**
 
    Ou, dans un espace de travail existant, cliquez sur le pointeur vers le bas situé à droite du nom de l’espace de travail, puis cliquez sur **Créer un espace de travail**.
 
