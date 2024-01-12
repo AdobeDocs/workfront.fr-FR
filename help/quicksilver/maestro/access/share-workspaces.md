@@ -1,13 +1,13 @@
 ---
-title: Partager un espace de travail
+title: Partage des espaces de travail
 description: Vous pouvez partager un espace de travail avec d’autres pour garantir la collaboration lorsque vous travaillez dans Adobe Workfront Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '356'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
-# Partager un espace de travail
+# Partage des espaces de travail
 
 Vous pouvez partager un espace de travail avec d’autres pour garantir la collaboration lorsque vous travaillez dans Adobe Workfront Maestro.
 

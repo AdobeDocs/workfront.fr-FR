@@ -2,22 +2,26 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: Calendriers
-description: Consultez ces articles pour mieux comprendre les rapports de calendrier dans Adobe Workfront.
+title: "Calendriers : index de l’article"
+description: Un rapport Calendrier est un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher des informations sur les dates dans un rapport Calendrier pour les projets, les tâches et les problèmes. Consultez ces articles pour mieux comprendre les rapports de calendrier dans Adobe Workfront.
 author: Lisa
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# Calendriers
+# Calendriers : index des articles
 
-Cette section contient les articles suivants :
+<!--Audited: 01/2024-->
+
+Un rapport Calendrier est un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher des informations sur les dates dans un rapport Calendrier pour les projets, les tâches et les problèmes.
+
+Consultez les articles suivants pour mieux comprendre les rapports de calendrier dans Adobe Workfront :
 
 * [Présentation des rapports sur les calendriers](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [Utilisation de champs de date personnalisés dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

@@ -7,9 +7,9 @@ description: Un rapport Calendrier est un rapport dynamique qui fournit une repr
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!-- Audited: 01/2024 -->
 
-Un rapport de calendrier est en fait un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher des informations sur les dates dans un rapport de calendrier pour les objets suivants :
+Un rapport Calendrier est un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher des informations sur les dates dans un rapport de calendrier pour les objets suivants :
 
 * Tâches
 * Problèmes

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '13854'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -1660,7 +1660,7 @@ ht-degree: 0%
          * [Comprendre comment organiser les rapports sur un tableau de bord](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Affichage de l’utilisation des rapports](reports-and-dashboards/reports/report-usage/view-report-usage.md)
       * Calendriers {#calendars}
-         * [Calendriers](reports-and-dashboards/reports/calendars/calendars.md)
+         * [Calendriers : index des articles](reports-and-dashboards/reports/calendars/calendars.md)
          * [Présentation des rapports sur les calendriers](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [Utilisation de champs de date personnalisés dans un rapport de calendrier](reports-and-dashboards/reports/calendars/use-custom-dates.md)
          * [Utilisation des dates planifiées dans un rapport de calendrier](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2015,6 +2015,7 @@ ht-degree: 0%
       * [Connexion des types d’enregistrement](maestro/architecture/connect-record-types.md)
       * [Modification des types d’enregistrement](maestro/architecture/edit-record-types.md)
       * [Suppression des espaces de travail](maestro/architecture/delete-workspaces.md)
+      * [Modification des espaces de travail](maestro/architecture/edit-workspaces.md)
       * [Suppression des types d’enregistrement](maestro/architecture/delete-record-types.md)
       * [Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements](maestro/architecture/example-connect-record-types-and-records.md)
       * [Liste des modèles d&#39;espace de travail](maestro/architecture/workspace-templates.md)
@@ -2029,8 +2030,8 @@ ht-degree: 0%
       * [Informations d’accès](maestro/access/access-information.md)
       * [Présentation de l’accès](maestro/access/access-overview.md)
       * [Présentation des autorisations de partage dans Adobe Maestro](maestro/access/sharing-permissions-overview.md)
-      * [Partager un espace de travail](maestro/access/share-workspaces.md)
-      * [Partage d’une vue](maestro/access/share-views.md)
+      * [Partage des espaces de travail](maestro/access/share-workspaces.md)
+      * [Partage de vues](maestro/access/share-views.md)
    * Enregistrements du maître d’Adobe {#adobe-maestro-records}
       * [Enregistrements : index de l’article](maestro/records/records-information.md)
       * [Créer des enregistrements](maestro/records/create-records.md)

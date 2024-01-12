@@ -7,9 +7,9 @@ description: Le menu principal change en fonction du niveau d’accès que vous 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Les zones suivantes sont incluses dans la mise en page par défaut d’une [!UIC
 
 * **[!UICONTROL Tableaux de bord]**: les tableaux de bord partagés avec vous s’affichent ici. Pour plus d’informations, voir [Tableaux de bord](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL Calendriers]**: les calendriers qui sont partagés avec vous s’affichent ici. Pour plus d’informations, voir [Calendriers](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL Calendriers]**: les calendriers qui sont partagés avec vous s’affichent ici. Pour plus d’informations, voir [Calendriers : index des articles](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL Équipes]**: les tâches et les problèmes affectés à vos équipes s’affichent dans cette zone. En tant que travailleur, vous êtes le seul [!DNL Workfront] utilisateur qui voit la variable [!UICONTROL Équipes] par défaut.
 

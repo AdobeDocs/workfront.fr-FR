@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44f57d9169a7a2177b639ae3adbd83bfe1551ac8
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '3404'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
 
-## Semaine du 15 janvier 2024
+## Semaine du 8 janvier 2024
 
 ### Les fonctionnalités Maestro sont supprimées des environnements Aperçu et Sandbox.
 

@@ -6,9 +6,9 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ Le tableau de bord permet d’accéder rapidement aux informations. Vous pouvez 
 
 * Rapports
 
-   Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Calendriers
 
-   Pour plus d’informations sur la création de calendriers, voir [Calendriers](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  Pour plus d’informations sur la création de calendriers, voir [Calendriers : index des articles](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * Pages externes
 
-   Pour plus d’informations sur la création de pages externes, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Pour plus d’informations sur la création de pages externes, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Après avoir créé ces éléments et les avoir ajoutés au tableau de bord, vous pouvez modifier le tableau de bord pour y ajouter d’autres éléments, en supprimer d’autres ou modifier les informations du tableau de bord.
 
@@ -45,7 +45,7 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
@@ -83,8 +83,8 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Création
 
 1. Envisagez de modifier les champs suivants :
 
-   * **Nom**: Modifiez le nom du tableau de bord.
-   * **Description**: Spécifiez une description pour le tableau de bord.
+   * **Nom**: modifiez le nom du tableau de bord.
+   * **Description**: décrivez le tableau de bord.
 
 1. Dans le **Rapports et calendriers disponibles** , commencez à saisir le nom d’un rapport, d’un calendrier ou d’une page externe dans la variable **Effectuez une recherche par nom ou par type ...** puis faites glisser le rapport ou le calendrier dans le volet de mise en page à droite.
 
@@ -97,7 +97,7 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Création
 1. (Facultatif) Modifiez l’ordre des rapports dans le tableau de bord en cliquant sur le nom d’un rapport, en le faisant glisser et en le déposant à l’emplacement de votre choix dans le volet Disposition.
 1. (Facultatif) Cliquez sur **Ajouter une page externe** pour ajouter une page externe au tableau de bord.\
    Ou\
-   Localisez une page externe existante dans le tableau de bord, puis placez-la à l’aide de la souris et cliquez sur l’icône **Modifier** pour modifier la page externe.\
+   Localisez une page externe existante dans le tableau de bord, puis placez-la à l’aide de la souris et cliquez sur le bouton **Modifier** pour modifier la page externe.\
    Pour plus d’informations sur l’ajout ou la modification de pages externes dans un tableau de bord, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Cliquez sur **Enregistrer + Fermer**.
