@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix que fait l’utilisateur lorsqu’il le remplit.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '969'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -50,32 +50,29 @@ Les étapes de cet article doivent être les suivantes :
 
 ## Observations relatives à l’utilisation de la logique d’affichage et de la logique de saut
 
-* Pour ajouter une logique d’affichage à un champ personnalisé, un widget ou un saut de section, au moins un champ à choix multiples (boutons radio, liste déroulante ou cases à cocher) doit être positionné avant cette logique sur le formulaire.
+* Pour ajouter une logique d’affichage à un champ personnalisé, un widget ou un saut de section, au moins un champ à choix multiples (boutons radio, liste déroulante ou cases à cocher) doit être positionné avant cette logique dans le formulaire.
 
   Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Vous ne pouvez pas ajouter de logique de saut à un widget ou à un saut de section. Vous pouvez l’ajouter uniquement à plusieurs champs de choix (boutons radio, liste déroulante ou cases à cocher).
 
-* Vous pouvez ajouter à la fois une logique d’affichage et une logique de saut à un champ personnalisé. Pour le champ personnalisé, tous les éléments suivants sont vrais :
+* Vous pouvez ajouter une logique d’affichage et ignorer la logique à un champ personnalisé si tous les éléments suivants sont vrais concernant le champ personnalisé :
 
    * Il s’agit d’un champ à choix multiples (boutons radio, liste déroulante ou cases à cocher).
    * Il est précédé d’un champ à choix multiples.
    * Il est suivi d’un autre champ personnalisé
 
 * Lorsque vous copiez des formulaires avec une logique d’affichage ou ignorez la logique, celle-ci est copiée dans le nouveau formulaire personnalisé.
-* Gardez ce qui suit à l’esprit lorsque vous créez une règle de logique d’affichage pour un formulaire personnalisé.
+* Lorsque vous modifiez des objets en bloc, tous les champs personnalisés s’affichent dans la zone Modifier les objets , y compris les champs qui sont ignorés ou masqués.
+* Gardez ce qui suit à l’esprit lorsque vous créez une règle de logique d’affichage pour un formulaire personnalisé :
 
    * Les champs personnalisés non inclus dans une instruction de logique d’affichage s’affichent par défaut sur un formulaire personnalisé.
    * Vous pouvez créer des instructions logiques d’affichage à champs multiples.
-
-* Lorsque vous modifiez des objets en bloc, tous les champs personnalisés s’affichent dans la zone Modifier les objets , y compris les champs qui sont ignorés ou masqués.
+   * Si la logique d’affichage est appliquée à tous les champs sous un saut de section et qu’ils sont tous masqués en raison de la logique, la section entière est masquée sur le formulaire personnalisé.
 
 ## Création d’un exemple de formulaire personnalisé avec une logique d’affichage et de saut
 
 La meilleure façon d’apprendre à ajouter une logique d’affichage et d’exclusion à un formulaire personnalisé est de suivre l’exemple pratique décrit dans les deux sections suivantes :
-
-* [Logique d’affichage](#display-logic)
-* [Logique de saut](#skip-logic)
 
 ### Logique d’affichage {#display-logic}
 
@@ -115,7 +112,7 @@ La meilleure façon d’apprendre à ajouter une logique d’affichage et d’ex
 1. Cliquez sur **Aperçu de la fin** lorsque vous constatez que la logique fonctionne comme prévu.
 1. Cliquez sur **Enregistrer + Fermer** sur le **Modifier le formulaire personnalisé** pour enregistrer le formulaire, puis passez à [Ignorer la logique](#skip-logic) ci-dessous
 
-### Logique de saut {#skip-logic}
+### Ignorer la logique {#skip-logic}
 
 Ignorer la logique fonctionne de la même manière que pour afficher la logique, mais agit comme l’inverse : au lieu de faire apparaître des champs personnalisés à choix multiples spécifiques en fonction de sélections spécifiques, vous déterminez ceux qui doivent être ignorés en fonction des sélections des utilisateurs.
 
