@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Création et gestion des rôles de tâche
 description: Comme [!DNL Adobe Workfront] administrateur ou utilisateur disposant d’un accès administratif aux rôles de tâche, vous pouvez créer des rôles de tâche qui peuvent être attribués à des utilisateurs et supprimer les rôles de tâche par défaut qui ne sont pas pertinents pour votre organisation.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Pour créer un rôle de tâche :
       <td>
         <p>Sélectionnez une devise associée à ce rôle de tâche. Il s’agit de la devise qui [!DNL Workfront] utilise pour calculer les coûts et les recettes associés à ce rôle de tâche. </p> 
         <p><span>Différent de la [!UICONTROL Devise de base] configurée par votre [!DNL Workfront] dans la zone [!UICONTROL Configuration] et peut être différent de la devise associée à un projet.</span> </p> 
-        <p>Conseil : Seules les devises disponibles dans la zone [!UICONTROL Taux de change] de votre système sont disponibles dans ce champ.</p> 
+        <p>Conseil : Seules les devises disponibles dans la zone [!UICONTROL Taux de change] de votre système sont disponibles dans ce champ. Si une seule devise est configurée, ce champ n’apparaît pas.</p> 
        <p><span>Pour plus d’informations sur la configuration de la [!UICONTROL Devise de base] dans [!DNL Workfront], voir</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a>.</p> <p><span>Pour plus d’informations sur la modification de la devise d’un projet, voir</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Modification de la devise du projet</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
