@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 description: En tant qu’administrateur Adobe Workfront, vous pouvez créer des statuts personnalisés pour les projets, les tâches et les problèmes.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: f3785c66b979cc95bf1d2d2ccacbdeefe0ef0967
+source-git-commit: 69c1b92526d3607b8ed21ce29c118de08c33a0ee
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
 
 # Création ou modification d’un état
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -35,18 +37,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td>
+     <p>Nouveau : Standard</p>
+     <p>ou</p>
+     <p>Actuel : formule</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Création ou modification d’un état personnalisé
 
@@ -54,13 +62,13 @@ Vous pouvez ajouter un état personnalisé à utiliser par l’ensemble de votre
 
 Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation, vous pouvez le configurer afin que tous les groupes du système puissent l’utiliser sans le modifier. Vous pouvez également le configurer afin que les administrateurs de groupe puissent le modifier pour leurs groupes, comme expliqué à la section [Création ou modification d’un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **Statuts**.
 
 1. (Conditionnel) Si vous créez ou modifiez un état pour l’utiliser à l’échelle du système, assurez-vous que **États du système** est sélectionné dans la zone située dans le coin supérieur droit.
 
-   ![](assets/system-statuses-in-upper-rt-corner.jpg)
+   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    Ou
 
@@ -68,7 +76,7 @@ Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâches** ou **Problèmes**) que vous souhaitez associer à l’état .
+1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problèmes**) que vous souhaitez associer à l’état .
 
 1. Si vous créez un état, cliquez sur **Ajouter un nouvel état**.
 
@@ -106,7 +114,7 @@ Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation
      </tr> 
      <tr> 
       <td role="rowheader">Masquer l’état</td> 
-      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que l’état soit masqué aux utilisateurs. Lorsqu’il est désactivé (paramètre par défaut), tous les utilisateurs du système peuvent utiliser l’état .</p> <p>Vous pouvez masquer l’état d’un problème en désactivant les 4 types de problème (rapport de bogues, ordre de modification, problème, requête).</p> </td> 
+      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que l’état soit masqué aux utilisateurs. Lorsque cette option est désactivée (paramètre par défaut), tous les utilisateurs du système peuvent utiliser l’état .</p> <p>Vous pouvez masquer l’état d’un problème en désactivant cette option pour les 4 types de problèmes (rapport de bogues, ordre de modification, problème, requête).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verrouiller pour tous les groupes</td> 
