@@ -4,7 +4,7 @@ description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ Le webinaire de la version 24.1 aura lieu le 11 janvier 2024. Vous pouvez [Inscr
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Le mappage des métadonnées dans Experience Manager Assets Essentials utilise désormais <code>xcm:keywords</code> au lieu de <code>dc:subject</code></a></p><p>[!BADGE en production ]{type=Informative}</p><p>Nous avons mis à jour l’intégration de Experience Manager Assets Essentials afin qu’elle corresponde à l’expérience de l’intégration as a Cloud Service de Experience Manager Assets. Désormais, lorsque vous mappez plusieurs champs de texte d’une seule ligne à un seul champ dans Experience Manager Assets, les deux services utilisent la variable <code>xcm:keywords</code> champ .</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Le mappage des métadonnées dans Experience Manager Assets Essentials utilise désormais <code>xcm:keywords</code> au lieu de <code>dc:subject</code></a></p><p>[!BADGE en production ]{type=Informative}</p><p>Nous avons mis à jour l’intégration de Experience Manager Assets Essentials afin qu’elle corresponde à l’expérience de l’intégration as a Cloud Service de Experience Manager Assets. Désormais, lorsque vous mappez plusieurs champs de texte d’une seule ligne à un seul champ dans Experience Manager Assets, les deux services utilisent la variable <code>xcm:keywords</code> champ .</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
