@@ -7,9 +7,9 @@ description: Vous pouvez ajouter un formulaire personnalisé existant à l’un 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '811'
 ht-degree: 1%
 
 ---
@@ -45,11 +45,11 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Quelconque </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Licence Adobe Workfront*</td> 
+  <td role="rowheader">Licence Adobe Workfront</td> 
   <td> <p>Nouveau : contributeur ou version ultérieure </p>
  <p>ou</p> 
 <p>Actuel : requête ou version ultérieure </p> 
@@ -57,10 +57,9 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modification de l’accès aux objets pour lesquels vous gérez des formulaires personnalisés</p> <p><b>NOTE</b></p>
-
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td> <p>Modification de l’accès aux objets pour lesquels vous gérez des formulaires personnalisés</p>
+    </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Gérez les autorisations liées à l’objet pour lequel vous souhaitez joindre un formulaire personnalisé.</p> <p>Affichage ou autorisations supérieures du formulaire personnalisé, avec l’autorisation de <b>Joindre aux données personnalisées</b> objets (projets, tâches et problèmes). Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Partage d’un formulaire personnalisé</a>.</p> <p>Important : Si vous ne disposez pas d’une licence Plan avec accès administratif à Forms personnalisé, vous devez disposer d’autorisations spécifiques pour au moins afficher le formulaire personnalisé, comme décrit dans la section <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Partage d’un formulaire personnalisé</a>. Ces autorisations doivent vous être accordées même si le formulaire est visible à l’échelle du système. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets</a>.</p> </td> 
@@ -68,7 +67,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 

@@ -6,9 +6,9 @@ description: Utilisation de la mise en forme conditionnelle en mode Texte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
@@ -35,12 +35,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard </p> 
+   <p>Ou</p>
    <p>Actuel : formule</p> 
    </td> 
   </tr> 
@@ -55,9 +56,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Mise en forme conditionnelle en mode Texte
 

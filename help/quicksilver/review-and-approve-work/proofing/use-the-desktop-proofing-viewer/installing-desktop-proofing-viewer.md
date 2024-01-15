@@ -6,9 +6,9 @@ description: La visionneuse de vérification de l’appli de bureau, conçue pri
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Nouveau : Quelconque</p> <p>ou</p> <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
@@ -44,6 +44,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 {{latest-version}}
 
