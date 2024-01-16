@@ -3,18 +3,20 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Gestion des rôles de BAT dans [!DNL Workfront Proof]
-description: Les rôles de BAT vous permettent d’accorder des autorisations aux utilisateurs limités par le profil d’autorisation configuré sur leur profil utilisateur. (Pour plus d’informations sur les profils d’autorisation, voir Profils d’autorisations de BAT dans [!DNL Workfront Proof].)
+description: Les rôles de BAT vous permettent d’accorder des autorisations aux utilisateurs limités par le profil d’autorisation configuré sur leur profil utilisateur.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 1%
+source-wordcount: '1306'
+ht-degree: 0%
 
 ---
 
 # Gestion des rôles de BAT dans [!DNL Workfront Proof]
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -60,13 +62,13 @@ Pour plus d’informations, voir les articles suivants :
 
 ![no.png](assets/no.png) Impossible de prendre une décision
 
-![no.png](assets/no.png) Impossible de supprimer les commentaires effectués par d’autres utilisateurs
+![no.png](assets/no.png) Impossible de supprimer les commentaires des autres
 
 ![no.png](assets/no.png) Ne dispose pas de droits de modification sur le BAT
 
 >[!NOTE]
 >
->Si un dossier est partagé avec un utilisateur de [!DNL Workfront Proof], ils se verront attribuer automatiquement des droits en lecture seule sur tous les éléments existants, puis ajoutés au dossier.
+>Si un dossier est partagé avec un utilisateur de [!DNL Workfront Proof], ils se verront attribuer automatiquement des droits en lecture seule sur tous les éléments existants et ajoutés par la suite dans le dossier.
 
 Pour plus d’informations, voir [Partage de dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
@@ -78,7 +80,7 @@ Pour plus d’informations, voir [Partage de dossiers dans [!DNL Workfront Proof
 
 ![clean.png](assets/cleaner.png) Peut ajouter des commentaires
 
-![[!DNL cleaner].png](assets/cleaner.png) Peut modifier ses propres commentaires en l’absence de réponse
+![[!DNL cleaner].png](assets/cleaner.png) Peut modifier ses propres commentaires s’il n’y a aucune réponse
 
 ![no.png](assets/no.png) Impossible de prendre une décision
 
@@ -108,7 +110,7 @@ Pour plus d’informations, voir [Partage de dossiers dans [!DNL Workfront Proof
 
 ![clean.png](assets/cleaner.png) Peut ajouter des commentaires
 
-![[!DNL cleaner].png](assets/cleaner.png) Peut modifier ses propres commentaires en l’absence de réponse
+![[!DNL cleaner].png](assets/cleaner.png) Peut modifier ses propres commentaires s’il n’y a aucune réponse
 
 ![clean.png](assets/cleaner.png) Peut prendre une décision
 
@@ -122,7 +124,7 @@ Pour plus d’informations, voir [Partage de dossiers dans [!DNL Workfront Proof
 
 ![clean.png](assets/cleaner.png) Peut ajouter des commentaires
 
-![[!DNL cleaner].png](assets/cleaner.png) Peut modifier ses propres commentaires en l’absence de réponse
+![[!DNL cleaner].png](assets/cleaner.png) Peut modifier ses propres commentaires s’il n’y a aucune réponse
 
 ![clean.png](assets/cleaner.png) Peut prendre une décision
 
@@ -140,7 +142,7 @@ Pour plus d’informations, voir [Partage de dossiers dans [!DNL Workfront Proof
 
 >[!NOTE]
 >
->Ce rôle ne peut être attribué qu’aux utilisateurs de [!DNL Workfront Proof]
+>Ce rôle ne peut être attribué qu’aux utilisateurs de [!DNL Workfront Proof].
 
 ### Modérateur {#moderator}
 
@@ -148,7 +150,7 @@ Pour plus d’informations, voir [Partage de dossiers dans [!DNL Workfront Proof
 
 ![clean.png](assets/cleaner.png) Peut ajouter des commentaires
 
-![[!DNL cleaner].png](assets/cleaner.png) Peut modifier ses propres commentaires en l’absence de réponse
+![[!DNL cleaner].png](assets/cleaner.png) Peut modifier ses propres commentaires s’il n’y a aucune réponse
 
 ![clean.png](assets/cleaner.png) Peut prendre une décision
 
@@ -177,11 +179,7 @@ Ce rôle permet à la personne de gérer et de modérer les commentaires du BAT,
 
 Vous pouvez attribuer des rôles de BAT lors de la création de BAT, de la création de nouvelles versions de BAT existants ou sur les BAT existants.
 
-* [Nouveaux Bons À Tirer](#new-proofs)
-* [Nouvelles versions](#new-versions)
-* [Bons à tirer existants](#existing-proofs)
-
-### Nouveaux Bons À Tirer {#new-proofs}
+### Nouveaux BAT {#new-proofs}
 
 Les rôles de BAT peuvent être attribués aux réviseurs sur la [!UICONTROL Nouveau BAT] pendant le processus de création du BAT (1).
 
@@ -189,7 +187,7 @@ Les rôles de BAT peuvent être attribués aux réviseurs sur la [!UICONTROL Nou
 
 ### Nouvelles versions {#new-versions}
 
-Lors de la création d&#39;une Nouvelle version d&#39;un BAT, les validants de la version précédente s&#39;affichent automatiquement (avec le même rôle que la version précédente).
+Lors de la création d&#39;une nouvelle version d&#39;un BAT, les validants de la version précédente seront automatiquement affichés (avec le même rôle que la version précédente).
 
 Vous pouvez modifier les rôles de BAT appliqués aux opérateurs validants lors de la création de la nouvelle version (1).
 
@@ -197,7 +195,7 @@ Vous pouvez modifier les rôles de BAT appliqués aux opérateurs validants lors
 
 ### Bons à tirer existants {#existing-proofs}
 
-Si vous souhaitez modifier le rôle d’une personne sur un BAT existant, vous pouvez le faire sur la page [!UICONTROL Détails du BAT] page par modification en ligne de leur rôle dans la section de workflow (1) :
+Si vous souhaitez modifier le rôle d’une personne sur un BAT existant, vous pouvez le faire sur la page [!UICONTROL Détails du BAT] en modifiant en ligne leur rôle dans la section de workflow (1).
 
 ![Proof_Roles_-_Proof_Details_page_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
 
@@ -221,9 +219,6 @@ Pour plus d’informations, voir [Paramètres personnels dans [!DNL Workfront Pr
 
 Les créateurs et les propriétaires disposent de droits de modification complets sur le BAT.
 
-* [Créateurs](#creators)
-* [Propriétaires](#owners)
-
 ### Créateurs {#creators}
 
 Le créateur du BAT est la personne qui télécharge le BAT en première instance. Le créateur du BAT s&#39;affichera automatiquement dans la liste des personnes pour le BAT (dans son rôle par défaut).
@@ -234,7 +229,7 @@ Le créateur du BAT ne peut pas être modifié ni supprimé d’un BAT.
 
 ### Propriétaires {#owners}
 
-Par défaut, le créateur est également le propriétaire du BAT ; Cependant, le créateur peut désigner une autre personne comme propriétaire du BAT lors de la création initiale du BAT (sur la [!UICONTROL Nouveau BAT] ).
+Par défaut, le créateur est également le propriétaire du BAT ; toutefois, le créateur peut faire de quelqu’un d’autre le propriétaire du BAT lors de la création initiale du BAT (sur la page [!UICONTROL Nouveau BAT] ).
 
 Pour modifier le propriétaire sur la page Nouveau BAT :
 
@@ -250,8 +245,8 @@ La possibilité de changer le propriétaire d&#39;un BAT est particulièrement u
 Pour modifier le propriétaire du BAT via le [!UICONTROL Détails du BAT] page :
 
 * Cliquez sur le menu Actions en regard du nom de la personne que vous souhaitez désigner comme propriétaire.
-* Sélectionner [!UICONTROL Rendre propriétaire] dans le menu déroulant.
-* Vous pouvez également cliquer sur le bouton [!UICONTROL Propriétaire] en regard de l’image du BAT et sélectionnez le nouveau propriétaire dans la liste déroulante affichée.
+* Sélectionner [!UICONTROL **Rendre propriétaire**] dans le menu déroulant.
+* Vous pouvez également cliquer sur le bouton [!UICONTROL **Propriétaire**] en regard de l’image du BAT et sélectionnez le nouveau propriétaire dans la liste déroulante affichée.
 
 Une fois cette opération effectuée, le mot &quot;Propriétaire&quot; s’affiche en regard du nom de cette personne.
 
@@ -263,9 +258,5 @@ Une fois cette opération effectuée, le mot &quot;Propriétaire&quot; s’affic
 >* Il n’existe aucun champ personnalisé sur la variable [!UICONTROL Nouveau BAT] page.
 >* Le BAT n’a pas été affecté à un dossier.
 >* Aucune balise n’a été appliquée au BAT.
->
-
-
-
 
 Pour déléguer temporairement la propriété du BAT dans [!DNL Workfront Proof], voir [Désignation des propriétaires temporaires de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).

@@ -6,7 +6,7 @@ description: Vous pouvez limiter la quantité d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
 source-wordcount: '2450'
 ht-degree: 1%
@@ -55,11 +55,11 @@ Ou
 
 Pour modifier un filtre dans un rapport, vous devez disposer de la licence suivante :
 
-<p>Nouveau : formule</p>
+<p>Nouveau : Standard</p>
 
 Ou
 
-<p>Actuel : standard</p>
+<p>Actuel : formule</p>
 
 </td> 
   </tr> 

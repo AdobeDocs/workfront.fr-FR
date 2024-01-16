@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Création d’un BAT pour un document
-description: Vous pouvez générer un BAT pour un document au moment où vous le téléchargez vers Workfront.
+description: Vous pouvez générer un BAT pour un document au moment où vous le téléchargez vers Workfront. Vous pouvez également générer un BAT pour un document déjà téléchargé dans Adobe Workfront ou pour une nouvelle version d’un BAT déjà téléchargé dans Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionner ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Télécharger un document et créer un BAT
 
-1. Accédez au projet, à la tâche ou à l’emplacement où vous souhaitez créer un BAT.
+1. Accédez au projet, à la tâche ou au problème où vous souhaitez créer un BAT.
 1. Cliquez sur le bouton **Documents** .
 1. Cliquez sur Documents ![](assets/document-icon.png) dans le panneau de gauche.
 1. Cliquez sur **Ajouter**, puis cliquez sur **Bon à tirer** dans le menu qui s’affiche.
@@ -81,7 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Utilisez le glisser-déposer pour générer un BAT simple pour une nouvelle version.
 
-Vous pouvez faire glisser et déposer un document à partir de votre système de fichiers (tel que votre bureau) pour créer un BAT ou une nouvelle version d’un BAT existant. Le BAT contient les paramètres suivants, selon que vous créez un BAT ou une nouvelle version :
+Vous pouvez faire glisser et déposer un document depuis votre système de fichiers (tel que votre bureau) pour créer un BAT ou une nouvelle version d’un BAT existant. Le BAT contient les paramètres suivants, selon que vous créez un BAT ou une nouvelle version :
 
 * **Nouveau BAT :** Crée un BAT simple qui est partagé uniquement avec vous. Vous pouvez modifier les paramètres de partage une fois le BAT créé, comme décrit dans la section [Modification des paramètres du BAT](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
@@ -95,7 +95,7 @@ Pour utiliser la fonction glisser-déposer afin de générer un nouveau BAT ou u
 ## Créer un BAT pour un document existant
 
 1. Accédez au projet, à la tâche ou au problème pour lequel vous souhaitez obtenir le BAT, puis cliquez sur le bouton **Documents** .
-1. Passez la souris sur le document, puis cliquez sur l’icône **Créer un bon à tirer** lien qui apparaît sous le nom du document.
+1. Passez la souris sur le document, puis cliquez sur le **Créer un bon à tirer** lien qui apparaît sous le nom du document.
 
    >[!NOTE]
    >
