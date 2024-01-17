@@ -4,7 +4,7 @@ description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
+source-git-commit: f233b57fc654866be2b82f86fa964470769c381f
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -470,11 +470,11 @@ Aucune mise à jour de BAT Workfront n’est disponible à ce stade de la versio
 
 Aucune mise à jour des objectifs de Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### API version 16
+### API version 17
 
-Pour l’API version 16, nous avons modifié certaines ressources et points de terminaison. Certaines des modifications prennent en charge les nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
+Pour l’API version 17, nous avons modifié certaines ressources et points de terminaison. Certaines des modifications prennent en charge les nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
 
-Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de l’API version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de l’API version 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 Pour plus d’informations sur les versions d’API, voir [Contrôle de version des API et planification de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
