@@ -1,13 +1,13 @@
 ---
 title: Rapport sur la zone Mises à jour
-description: Rapport sur la zone Mises à jour
+description: Le rapport Entrée de journal répertorie les mises à jour système de la zone Mises à jour des projets, tâches, problèmes et autres objets qui n’étaient auparavant disponibles que par le biais de l’API Adobe Workfront. Bien qu’il s’agisse d’un rapport avancé destiné à des cas d’utilisation spécifiques, le format plus digestible facilite la création de rapports sur l’activité de projet et les mises à jour système dans Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2765'
 ht-degree: 3%
 
 ---
@@ -38,25 +38,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard </p><p>Ou </p><p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher les autorisations pour les objets qui contiennent les entrées de journal que vous affichez dans le rapport</p> <p>Une fois le rapport créé, vous obtiendrez les autorisations de gestion .</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher les autorisations pour les objets qui contiennent les entrées de journal que vous affichez dans le rapport</p> <p>Une fois le rapport créé, vous obtiendrez les autorisations de gestion .</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -68,7 +68,7 @@ Avant d’effectuer les actions décrites dans cet article, vous devez vous assu
 
 * Tout champ personnalisé sur lequel vous souhaitez créer des rapports comporte le paramètre . **Afficher les modifications de champ dans les flux de mise à jour** activée.
 
-  Pour savoir comment activer ce paramètre pour un champ personnalisé, consultez la section [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) dans l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Pour savoir comment activer ce paramètre pour un champ personnalisé, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Rapport d’entrée de journal - Aperçu
 
@@ -127,7 +127,7 @@ La vue par défaut de ce rapport contient les colonnes suivantes :
  </tbody> 
 </table>
 
-Pour organiser les informations de ce rapport, vous pouvez utiliser le regroupement intégré Projet. Le regroupement Projet vous donne un regroupement principal Nom du projet et un regroupement secondaire Date d’entrée. Vous pouvez appliquer ce groupement existant lors de la création du rapport ou l&#39;appliquer lors de la consultation du rapport.
+Pour organiser les informations de ce rapport, vous pouvez utiliser le regroupement intégré appelé Projet. Le regroupement Projet vous donne un regroupement principal Nom du projet et un regroupement secondaire Date d’entrée. Vous pouvez appliquer ce groupement existant lors de la création du rapport ou l&#39;appliquer lors de la consultation du rapport.
 
 Pour savoir comment configurer les vues, les filtres et les regroupements que vous souhaitez pour votre rapport, reportez-vous à la section correspondante :
 
@@ -167,7 +167,7 @@ Ces informations peuvent être utilisées pour faciliter les audits et pour illu
 >Si vous souhaitez comparer la différence en jours entre les modifications de condition, vous pouvez utiliser l’analyse améliorée.\
 >Pour en savoir plus sur les analyses améliorées, voir [Présentation des analyses améliorées](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ Vous pouvez configurer le rapport Entrée de journal pour qu’il affiche :
 
 Pour savoir quand une tâche ou un problème a été supprimé :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ Pour savoir quand une tâche ou un problème a été supprimé :
 
    Pour plus d’informations sur l’ajout de colonnes, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans le **Filtres** , cliquez sur **Ajouter une règle de filtre**, puis ajoutez ce qui suit :
+1. Dans le **Filtres** , cliquez sur **Ajouter une règle de filtre**, puis ajoutez les filtres suivants :
 
    * **Type de modification** > **Égal** > **Supprimer**
    * **Identifiant de projet** > **Égal** > **`<project>`**
@@ -365,7 +365,7 @@ Vous pouvez effectuer le suivi des modifications importantes apportées aux cham
 
 Pour découvrir comment les champs personnalisés ont changé au cours du cycle de vie d’un projet :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ Pour découvrir comment les champs personnalisés ont changé au cours du cycle 
 
    Pour plus d’informations sur l’ajout de colonnes, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans le **Filtres** , cliquez sur **Ajouter une règle de filtre**, puis ajoutez ce qui suit :
+1. Dans le **Filtres** , cliquez sur **Ajouter une règle de filtre**, puis ajoutez les filtres suivants :
 
    * **Nom du champ d’entrée du journal** > **Contient** > **DE**
 
@@ -467,7 +467,7 @@ Pour découvrir comment les champs personnalisés ont changé au cours du cycle 
 
 Vous pouvez configurer le rapport Entrée de journal pour qu’il indique à quelle fréquence la date d’achèvement planifiée change au cours de la vie d’un projet.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ Vous pouvez configurer le rapport Entrée de journal pour qu’il indique à que
 
 Vous pouvez configurer le rapport Entrée de journal pour qu’il indique le nombre de fois où le propriétaire du projet (ou le responsable de projet) change au cours de la vie d’un projet.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)

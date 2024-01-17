@@ -7,14 +7,16 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Prise en main des tableaux de bord
+
+<!-- Audited: 1/2024 -->
 
 Le tableau de bord permet d’accéder rapidement aux informations issues de plusieurs rapports. Tout d’abord, vous pouvez collecter des informations dans les rapports, puis placer plusieurs rapports sur les tableaux de bord afin de faciliter l’accès aux informations.
 
@@ -29,25 +31,25 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Formule Adobe Workfront*</strong></p> </td> 
-   <td>Tous</td> 
+   <td> <p><strong>Formule Adobe Workfront</strong></p> </td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licence Adobe Workfront*</strong></p> </td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td> <p><strong>Licence Adobe Workfront</strong></p> </td> 
+   <td> <p>Nouveau : contributeur ou version ultérieure</p><p>Ou</p><p>Actuel : révision ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Niveau d’accès*</strong> </td> 
-   <td> <p>Affichage ou accès supérieur aux rapports, tableaux de bord et calendriers</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td><strong>Niveau d’accès</strong> </td> 
+   <td> <p>Affichage ou accès supérieur aux rapports, tableaux de bord et calendriers</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Autorisations d’objet</strong> </p> </td> 
-   <td> <p>Affichage des autorisations pour le tableau de bord</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.<br>Pour plus d’informations sur les autorisations pour les tableaux de bord, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Partage de rapports, de tableaux de bord et de calendriers </a>.</p> </td> 
+   <td> <p>Affichage des autorisations pour le tableau de bord</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Objets que vous pouvez ajouter à un tableau de bord
 
@@ -80,12 +82,12 @@ Vous pouvez partager un tableau de bord avec des utilisateurs de la manière sui
 * Imprimez une copie papier de ces fichiers à partager avec les utilisateurs.\
   Pour plus d’informations sur l’impression des tableaux de bord, voir [Imprimer un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Exportez-les sous la forme d’un fichier .pdf afin de pouvoir les envoyer par courrier électronique aux utilisateurs.\
-  Pour plus d’informations sur l’exportation d’un tableau de bord vers un fichier .pdf, voir [Exporter un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+* Exportez-les en tant que fichier de PDF afin de pouvoir les envoyer par courrier électronique aux utilisateurs.\
+  Pour plus d’informations sur l’exportation d’un tableau de bord vers un fichier de PDF, voir [Exporter un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Lorsque vous partagez un tableau de bord avec des utilisateurs, tous les rapports, calendriers et pages externes qui se trouvent sur le tableau de bord sont également partagés avec les mêmes utilisateurs par défaut.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Si un utilisateur est supprimé, les tableaux de bord qu’il a créés ne sont plus accessibles. Pour en savoir plus, voir [Suppression d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -93,14 +95,14 @@ Lorsque vous partagez un tableau de bord avec des utilisateurs, tous les rapport
 
 Vous pouvez afficher un tableau de bord comme suit :
 
-* Accédez à la section sur laquelle il est placé et le tableau de bord placé dans la section s’affiche.\
+* Accédez à la section personnalisée où se trouve le tableau de bord.\
   Pour plus d’informations sur le placement de tableaux de bord sur des sections personnalisées, voir [Navigation à gauche dans Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* Recherchez-le et accédez-y manuellement lorsque vous le trouvez.
+* Recherchez et accédez manuellement au tableau de bord.
 
 ## Accès à un tableau de bord
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png), puis cliquez sur **Tableaux de bord**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 1. Pointez sur la barre latérale gauche, puis sélectionnez l’une des options suivantes :
 
    * **Mes tableaux de bord**: les tableaux de bord que vous avez créés sont répertoriés ici.
@@ -110,7 +112,7 @@ Vous pouvez afficher un tableau de bord comme suit :
      >Si vous n’avez pas l’accès Modifier aux rapports, tableaux de bord et calendriers dans votre niveau d’accès, vous ne pouvez pas créer de tableaux de bord. Dans ce cas, la liste Mes tableaux de bord est vide.
 
    * **Tableaux de bord partagés**: les tableaux de bord créés par d’autres utilisateurs et partagés avec vous sont répertoriés ici.
-   * **Tous les tableaux de bord**: les tableaux de bord de vos utilisateurs et des autres utilisateurs partagés avec vous sont répertoriés ici.
+   * **Tous les tableaux de bord**: vos tableaux de bord et ceux que d’autres utilisateurs ont partagés avec vous sont répertoriés ici.
 
    ![Zone des tableaux de bord](assets/dashboards-area.png)
 

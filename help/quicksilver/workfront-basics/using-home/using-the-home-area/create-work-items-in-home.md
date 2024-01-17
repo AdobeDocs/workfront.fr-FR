@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Création d’éléments de travail à partir de la zone Accueil
-description: Création d’éléments de travail à partir de la zone Accueil
-author: Lisa
+description: Vous pouvez créer des éléments de travail à partir du [!UICONTROL Accueil] zone. Vous pouvez créer des tâches personnelles, demander du travail à d’autres utilisateurs ou ajouter des tâches à des projets spécifiques.
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
