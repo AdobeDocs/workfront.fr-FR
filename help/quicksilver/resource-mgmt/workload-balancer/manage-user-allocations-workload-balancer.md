@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Gestion des affectations utilisateur dans l’équilibreur de charge de travail
 description: En tant que gestionnaire de ressources, vous pouvez affecter du travail aux utilisateurs et gérer leurs allocations quotidiennes, hebdomadaires ou mensuelles à partir de l’équilibreur de charge de travail.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
+source-git-commit: 4be7592784502e44ed69c8c5cd72c2a719e3d6d7
 workflow-type: tm+mt
-source-wordcount: '2807'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
 # Gestion des affectations utilisateur dans l’équilibreur de charge de travail
+
+<!-- Audited: 01/2024 -->
 
 {{highlighted-preview}}
 
@@ -28,42 +30,46 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource .</p>
-   <p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource , vous avez besoin des éléments suivants :</p>
+   <p>Nouveau : Standard</p>
+   <p>Ou</p>
+   <p>Actuel : formule</p>
+   <p>Lorsque vous utilisez l’équilibreur de charge de travail d’une équipe ou d’un projet, vous avez besoin des éléments suivants :</p>
+   <p>Nouveau : Standard</p>
+   <p>Ou</p>
+   <p>Actuel : travail</p>
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuration du niveau d’accès*</td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
    <td> <p>Modifiez l’accès aux éléments suivants :</p> 
     <ul> 
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
      <li> <p>Tâches</p> </li> 
      <li> <p>Problèmes</p> </li> 
-    </ul> <p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Contribuez à des autorisations ou des autorisations supérieures qui incluent l’attribution aux tâches et problèmes pour lesquels vous souhaitez gérer les affectations. </p> <p>Ou </p> <p>Gérez les autorisations pour les tâches pour lesquelles vous souhaitez mettre à jour les Heures planifiées, en plus de mettre à jour les affectations. Pour plus d’informations sur la mise à jour des heures planifiées dans l’équilibreur de charge de travail, voir la section <a href="#update-task-planned-hours-when-managing-user-allocations">Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur</a> dans cet article. </p> <p>Pour plus d’informations sur les autorisations de tâches, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md">Partage d’une tâche </a><span> et pour plus d’informations sur les autorisations de problème, voir</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md">Partage d’un problème </a></span>. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Contribuez à des autorisations ou des autorisations supérieures qui incluent l’attribution aux tâches et problèmes pour lesquels vous souhaitez gérer les affectations. </p> <p>Ou </p> <p>Gérez les autorisations pour les tâches pour lesquelles vous souhaitez mettre à jour les Heures planifiées, en plus de mettre à jour les affectations. Pour plus d’informations sur la mise à jour des heures planifiées dans l’équilibreur de charge de travail, voir la section <a href="#update-task-planned-hours-when-managing-user-allocations">Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur</a> dans cet article.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Présentation des affectations utilisateur
 
 Les affectations utilisateur sont des quantités d’heures qui indiquent le temps qu’un utilisateur doit consacrer à un jour, un jour de semaine, une semaine ou un mois donné pour terminer l’élément de travail. Elles sont incluses dans les heures planifiées de l’élément de travail.
 
 Cet article décrit comment mettre à jour les affectations horaires quotidiennes, hebdomadaires ou mensuelles pour les utilisateurs affectés à des tâches ou des problèmes. Pour plus d’informations sur la gestion des affectations globales pour les utilisateurs et les rôles de tâche pour les tâches, voir [Gestion des heures d’affectation des utilisateurs et des rôles pour les tâches](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
-
-* [Présentation de l’affectation des utilisateurs](#user-allocation-overview)
-* [Critères qui réinitialisent les attributions d’utilisateurs](#criteria-that-reset-user-allocations)
 
 ### Présentation de l’affectation des utilisateurs {#user-allocation-overview}
 
@@ -89,23 +95,23 @@ Tenez compte des points suivants lorsque vous localisez des allocations quotidie
 * Vous pouvez mettre à jour les allocations pour les jours ouvrés et non ouvrés.
 * Les horodatages des dates de début et de fin planifiées des tâches, ainsi que le planning du projet, sont importants lorsque Workfront calcule automatiquement l’allocation quotidienne de la tâche.
 
->[!INFO]
->
-> Par exemple, une tâche peut avoir une durée de 2 jours et 2 heures planifiées et une heure de début planifiée de 12h00 le premier jour de la durée avec un utilisateur et une planification de projet qui se termine à 17h. La capacité de l’utilisateur pour le premier jour est de 5 heures. La capacité de l’utilisateur pour le deuxième jour est de 8 heures (si la planification commence à 9 heures).
->
->Workfront calcule l&#39;allocation des 2 heures sur les 2 jours de la durée à l&#39;aide de la formule suivante :
->
->`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
->
->  Dans notre exemple, les heures d’affectation quotidiennes pour chaque jour sont les suivantes :
->   
->  (2 / 13) * 5 = 0,77 heures d’affectation pour le premier jour
->
->  (2 / 13) * 8 = 1,23 heures d’affectation pour le deuxième jour
->
->  Dans les calculs ci-dessus, 13 est le total des heures disponibles pour la tâche : 5 + 8 = 13
+  >[!INFO]
+  >
+  > Par exemple, une tâche peut avoir une durée de 2 jours et 2 heures planifiées et une heure de début planifiée de 12h00 le premier jour de la durée avec un utilisateur et une planification de projet qui se termine à 17h. La capacité de l’utilisateur pour le premier jour est de 5 heures. La capacité de l’utilisateur pour le deuxième jour est de 8 heures (si la planification commence à 9 heures).
+  >
+  >Workfront calcule l&#39;allocation des 2 heures sur les 2 jours de la durée à l&#39;aide de la formule suivante :
+  >
+  >`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
+  >
+  >Dans notre exemple, les heures d’affectation quotidiennes pour chaque jour sont les suivantes :
+  >   
+  >(2 / 13) * 5 = 0,77 heures d’affectation pour le premier jour
+  >
+  >(2 / 13) * 8 = 1,23 heures d’affectation pour le deuxième jour
+  >
+  >Dans les calculs ci-dessus, 13 est le total des heures disponibles pour la tâche : 5 + 8 = 13
 
-* Deux utilisateurs dans des fuseaux horaires ou des planifications différents dans des fuseaux horaires différents de ceux des utilisateurs affectés peuvent faire apparaître les montants d’attribution différemment à deux utilisateurs qui visualisent les mêmes tâches.
+* Deux utilisateurs dans des fuseaux horaires ou des plannings différents de ceux des utilisateurs affectés peuvent faire apparaître les quantités d’allocation différemment à deux utilisateurs affichant les mêmes tâches.
 
 * Lorsqu’un utilisateur a programmé des congés, le jour ou la partie de la journée s’affiche en arrière-plan gris. Si l’administrateur de Workfront a activé le paramètre de désactivation de l’heure de l’utilisateur dans la zone Configuration afin de prendre en compte l’heure de désactivation de l’utilisateur, les heures allouées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures allouées restent le jour désigné pour le congé et l’utilisateur s’affiche comme suralloué. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -122,13 +128,13 @@ Tenez compte des points suivants lorsque vous localisez des allocations quotidie
 
 * Si une tâche ou un problème s’est terminé avant la date d’achèvement planifiée, le nombre d’heures allouées pour les jours restants est écoulé et ne compte pas dans l’allocation globale de l’utilisateur. Cette option s’affiche uniquement lorsque l’icône Afficher les allocations et le paramètre Afficher les dates prévues sont activés. Pour plus d’informations sur l’activation des paramètres dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![](assets/allocations-struck-through-highlighted-350x39.png)
+  ![Heures affectées traversées](assets/allocations-struck-through-highlighted.png)
 
 * Lorsqu’un utilisateur est surchargé, ses heures allouées s’affichent avec un arrière-plan rouge dans le champ utilisateur.
 * Lorsque l’utilisateur est sous-alloué ou alloué un nombre égal d’heures à l’heure disponible planifiée, les heures s’affichent avec un arrière-plan bleu.
 * Vous pouvez afficher l’allocation des utilisateurs dans une vue graphique dans la ligne de l’utilisateur. Pour plus d’informations sur l’activation de la vue graphique pour les affectations utilisateur, reportez-vous à la section &quot;Navigation dans l’équilibreur de charge de travail&quot; de l’article . [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![](assets/user-allocation-chart-350x237.png)
+  ![Graphique d’affectation des utilisateurs](assets/user-allocation-chart.png)
 
 ### Critères qui réinitialisent les attributions d’utilisateurs {#criteria-that-reset-user-allocations}
 
@@ -137,9 +143,6 @@ Toutes les modifications de tâche ne déclenchent pas les affectations modifié
 >[!NOTE]
 >
 >Si vous n’avez pas modifié la distribution automatique des allocations sur les éléments de travail, les heures sont redistribuées uniformément entre tous les cessionnaires en cas de changement du nombre de cessionnaires, de la durée d’une tâche ou du montant des heures planifiées sur l’élément de travail.
-
-* [Actions qui réinitialisent les allocations ajustées](#actions-that-reset-adjusted-allocations)
-* [Actions qui ne réinitialisent pas les allocations ajustées](#actions-that-do-not-reset-adjusted-allocations)
 
 #### Actions qui réinitialisent les allocations ajustées {#actions-that-reset-adjusted-allocations}
 
@@ -154,7 +157,7 @@ Les actions suivantes réinitialisent ou modifient les allocations quotidiennes,
 Les modifications suivantes apportées à un élément de travail ne déclenchent pas les affectations ajustées à réinitialiser ou à modifier :
 
 * Lorsque vous déplacez les jours d’un élément de travail mais que le nombre de jours dans la Durée ne change pas, les valeurs allouées ajustées restent identiques et passent aux nouvelles dates.
-* Lorsque vous augmentez la Durée d’un élément de travail qui augmente le nombre de jours dans sa Durée, les heures allouées ajustées restent identiques pour les jours ajustés. Des jours supplémentaires sont ajoutés à la tâche avec 0 heure allouée.
+* Lorsque vous augmentez la durée d’un élément de travail qui augmente le nombre de jours dans sa durée, les heures allouées ajustées restent identiques pour les jours ajustés. Des jours supplémentaires sont ajoutés à la tâche avec 0 heure allouée.
 * Lorsque vous ajoutez ou supprimez une personne désignée pour un élément de travail, ce qui n’entraîne pas la modification des Heures planifiées de l’élément, les valeurs ajustées restent les mêmes.
 
 ## Localisation des heures planifiées dans l’équilibreur de charge
@@ -166,7 +169,7 @@ Tenez compte des points suivants lors de l’affichage des heures planifiées da
 * Le nombre total d’heures planifiées pour une tâche ou un problème s’affiche en regard du nom de la tâche ou du problème à gauche de l’équilibreur de charge de travail.
 
 * Le total des heures planifiées d’un projet s’affiche en regard du nom du projet à gauche de l’équilibreur de charge de travail. Ceci représente le total des heures planifiées pour toutes les tâches et problèmes répertoriés sous le projet dans l’équilibreur de charge de travail et non pas toutes les heures planifiées du projet.
-* La durée allouée quotidiennement ou hebdomadaire pour toutes les tâches et tous les projets s’affiche uniquement lorsque vous activez manuellement le paramètre Afficher les affectations . Pour plus d’informations sur l’activation des paramètres dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* Le temps alloué quotidiennement ou hebdomadaire pour toutes les tâches et tous les projets s’affiche uniquement lorsque vous activez manuellement le paramètre Afficher les affectations . Pour plus d’informations sur l’activation des paramètres dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Modification des attributions d’utilisateurs {#modify-user-allocations}
 
@@ -176,11 +179,11 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
 1. Accédez à l’équilibreur de charge de travail.
 1. (Facultatif) Cliquez sur **Semaine** ou **Mois** pour gérer les affectations hebdomadaires ou mensuelles pour les utilisateurs.
 
-   ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+   ![Sélectionnez Semaine ou Mois .](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
 1. Dans le **Travail assigné** recherchez l’utilisateur pour lequel vous souhaitez modifier manuellement l’allocation, puis cliquez sur la flèche pointant vers la droite située à gauche du nom d’utilisateur pour développer l’utilisateur.
 
-   ![](assets/wb-highlight-on-name-caret-350x106.png)
+   ![Développer l’utilisateur](assets/wb-highlight-on-name-caret2.png)
 
 1. Cliquez sur la flèche pointant vers la droite située à gauche du nom du projet pour développer le projet et afficher les tâches auxquelles l’utilisateur est affecté.
 
@@ -188,13 +191,13 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
    >
    >Vous pouvez modifier les affectations utilisateur uniquement pour les tâches et les problèmes. Vous ne pouvez pas modifier les affectations utilisateur pour les projets.
 
-1. (Facultatif) Cliquez sur le **Icône Afficher les attributions** ![](assets/show-allocations-icon-small.png) pour afficher les affectations pour tous les éléments de travail.
+1. (Facultatif) Cliquez sur le **Afficher les attributions** icon ![](assets/show-allocations-icon-small.png) pour afficher les affectations pour tous les éléments de travail.
 
    Le nom des tâches et des projets est remplacé par l’allocation de l’utilisateur pour la tâche ou le projet.
 
 1. (Facultatif) Cliquez sur le **Paramètres** icon ![](assets/gear-icon-settings.png) et sélectionnez l’une des options suivantes :
 
-   1. **Inclure les heures des événements**. Cela vous permet de gérer les affectations de problèmes en plus des affectations de tâches.
+   1. **Inclure les heures des problèmes**. Cela vous permet de gérer les affectations de problèmes en plus des affectations de tâches.
    1. **Afficher le travail terminé**. Cette option affiche les éléments qui ont été terminés et qui sont programmés pendant la chronologie pour laquelle vous gérez les affectations.
    1. **Afficher le temps restant**. Le nombre total d’heures pour chaque utilisateur (dans la ligne de l’utilisateur) change. Lorsque ce paramètre est activé, l’équilibreur de charge de travail affiche les heures disponibles pour chaque utilisateur au lieu du nombre d’heures qui lui sont allouées.
 
@@ -211,7 +214,7 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
 
 1. Cliquez sur le bouton **Plus** menu ![](assets/qs-more-menu.png) pour une tâche, puis cliquez sur **Modifier les attributions**.
 
-   ![](assets/more-menu-on-task-wb-nwe.png)
+   ![Plus de menu pour l’élément de travail](assets/more-menu-on-task-wb-nwe.png)
 
    Ou
 
@@ -225,26 +228,26 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
    >
    >Cliquez sur le bouton **Annuler** icon ![](assets/cancel-allocations-wb.png) pour supprimer les allocations que vous avez ajustées.
 
-   ![](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
+   ![Enregistrer ou annuler des affectations ajustées](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 
    Les affectations pour la mise à jour de l’utilisateur.
 
    >[!TIP]
    >
-   >Si une tâche ou un problème s’est terminé avant la date d’achèvement planifiée, le nombre d’heures allouées pour les jours restants est écoulé et ne compte pas dans l’allocation globale de l’utilisateur. Cette option s’affiche uniquement lorsque l’icône Afficher les allocations et le paramètre Afficher les dates prévues sont activés.
+   >Si une tâche ou un problème s’est terminé avant la date d’achèvement planifiée, le nombre d’heures allouées pour les jours restants est écoulé et ne compte pas dans l’allocation globale de l’utilisateur. Cette variable s’affiche uniquement lorsque la variable **Afficher les attributions** et le **Afficher les dates prévues** sont activés.
 
    Les scénarios suivants existent :
 
    * Pour les tâches dont les types de durée ne sont pas simples ou pour des problèmes, le total des affectations doit correspondre à la tâche Heures planifiées avant de pouvoir cliquer sur l’icône en forme de coche.
-   * Pour les tâches avec un type de durée simple , le total des affectations peut être supérieur ou inférieur aux Heures planifiées et vous pouvez cliquer sur l’icône en forme de coche même si elles ne correspondent pas. Cela met également à jour le nombre d’heures planifiées pour la tâche. Vous devez disposer des autorisations et de l’accès appropriés pour mettre à jour les heures planifiées sur les tâches à partir de l’équilibreur de charge de travail.
+   * Pour les tâches avec un type de durée simple , le total des affectations peut être supérieur ou inférieur aux heures planifiées et vous pouvez cliquer sur l’icône en forme de coche même si elles ne correspondent pas. Cela met également à jour le nombre d’heures planifiées pour la tâche. Vous devez disposer des autorisations et de l’accès appropriés pour mettre à jour les heures planifiées sur les tâches à partir de l’équilibreur de charge de travail.
 
      >[!TIP]
      >
      >Une icône représentant un verrou s’affiche à droite du nom de la tâche lorsque vous commencez à ajuster vos affectations pour indiquer que la tâche a un type de durée simple.
 
-     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+     ![Icône Verrouiller](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Pour plus d’informations sur les conditions qui doivent être remplies pour mettre à jour les heures planifiées dans l’équilibreur de charge de travail, consultez la section suivante de cet article : [Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur](#update-task-planned-hours-when-managing-user-allocations). Pour plus d’informations sur les types de durée de tâche, voir [Présentation de la durée et du type de durée de la tâche](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Pour plus d’informations sur les conditions qui doivent être remplies pour mettre à jour les heures planifiées dans l’équilibreur de charge de travail, voir la section [Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur](#update-task-planned-hours-when-managing-user-allocations) dans cet article. Pour plus d’informations sur les types de durée de tâche, voir [Présentation de la durée et du type de durée de la tâche](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Conditionnel) Si la tâche est affectée à plusieurs utilisateurs, répétez ces étapes pour chaque utilisateur affecté à la tâche afin de mettre à jour les affectations pour chaque utilisateur.
 
@@ -274,10 +277,7 @@ Cela est possible lorsque les conditions suivantes existent :
    * Gérer les autorisations pour les tâches.
    * Mettez à jour les heures planifiées dans l’accès de l’équilibreur de charge de travail dans la zone Gestion des ressources de votre niveau d’accès.
 
-  Pour plus d’informations sur l’accès nécessaire à l’utilisation de l’équilibreur de charge de travail, consultez la section suivante de cet article : [Exigences d’accès](#access-requirements).
+  Pour plus d’informations sur l’accès nécessaire à l’utilisation de l’équilibreur de charge de travail, voir la section [Exigences d’accès](#access-requirements) dans cet article.
 
 * La tâche a un type de durée simple.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
-  -->

@@ -3,13 +3,13 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Affectation du travail en masse à l’aide de l’équilibreur de charge de travail
 description: Vous pouvez affecter manuellement des tâches aux utilisateurs à l’aide de l’équilibreur de charge de travail Adobe Workfront.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 2%
+source-wordcount: '1548'
+ht-degree: 1%
 
 ---
 
@@ -33,11 +33,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource</p>
+   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource .</p>
    <p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
 
 </td> 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
      <li> <p>Tâches</p> </li> 
-     <li> <p>Événements</p> </li> 
+     <li> <p>Problèmes</p> </li> 
     </ul> <p><b>NOTE</b>
 
 Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
@@ -83,14 +83,14 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 1. Accédez à l’équilibreur de charge de travail où vous souhaitez affecter le travail.
 
-   Vous pouvez affecter du travail aux utilisateurs à l’aide de l’équilibreur de charge de travail dans la zone Ressource, au niveau du projet ou au niveau de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Vous pouvez affecter du travail aux utilisateurs à l’aide de l’équilibreur de charge de travail dans la zone Ressource, au niveau du projet ou au niveau de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
 1. Cliquez sur **Affectations en bloc** ![](assets/bulk-assignments-wb.png) en haut de l’équilibreur de charge de travail.
 
    Le panneau Affectations en bloc s’ouvre à droite de l’équilibreur de charge de travail.
 
-1. (Conditionnel) Si vous accédez à l’équilibreur de charge de travail à partir de la zone Ressource ou pour une équipe, développez la variable **Projet : Nom** menu déroulant et utilisez les modificateurs de filtre pour sélectionner le ou les projets pour lesquels vous souhaitez effectuer des affectations. Vous pouvez sélectionner les projets par Nom (il s’agit de l’option par défaut) ou par État.
+1. (Conditionnel) Si vous accédez à l’équilibreur de charge de travail à partir de la zone Ressource ou pour une équipe, développez la variable **Projet : nom** menu déroulant et utilisez les modificateurs de filtre pour sélectionner le ou les projets pour lesquels vous souhaitez effectuer des affectations. Vous pouvez sélectionner les projets par Nom (il s’agit de l’option par défaut) ou par État.
 
 Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Filtres et modificateurs de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -122,8 +122,8 @@ Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Filt
 
 1. Sélectionnez l’une des options suivantes et procédez comme suit :
 
-   * [Affecter un utilisateur](#assign-user)
-   * [Remplacer l’utilisateur](#replace-user)
+   * [Attribuer un utilisateur](#assign-user)
+   * [Remplacer un utilisateur](#replace-user)
    * [Annuler l’affectation de l’utilisateur](#unassign-user)
 
    >[!TIP]
@@ -140,7 +140,7 @@ Lorsque vous affectez un utilisateur à l’aide d’affectations en bloc dans l
    * Éléments déjà affectés à un utilisateur.
    * Éléments terminés.
 
-* Si l’utilisateur que vous avez sélectionné n’est pas associé au rôle spécifié, le rôle est remplacé par l’utilisateur dans son rôle Principal.
+* Si l’utilisateur que vous avez sélectionné n’est pas associé au rôle spécifié, le rôle est remplacé par l’utilisateur dans son rôle de Principal.
 
 Pour affecter un utilisateur aux tâches précédemment affectées à des rôles de tâche :
 
@@ -154,12 +154,14 @@ Pour affecter un utilisateur aux tâches précédemment affectées à des rôles
 
    Sélectionnez des utilisateurs dans les zones suivantes :
 
-   * **Suggestions d’affectation**: Utilisateurs pouvant remplir le rôle sélectionné et qui correspondent aux critères des affectations intelligentes. Pour plus d’informations, voir [Présentation des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **Autres affectations**: Tous les utilisateurs du système qui peuvent remplir le rôle sélectionné.
+   * **Suggestions d’affectation**: utilisateurs qui peuvent remplir le rôle sélectionné et qui correspondent aux critères des affectations intelligentes. Pour plus d’informations, voir [Présentation des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Autres affectations**: tous les utilisateurs du système qui peuvent remplir le rôle sélectionné.
 
-      >[!TIP]
-      >
-      >Seuls les 50 premiers utilisateurs sont répertoriés dans la zone Autres affectations .
+     >[!TIP]
+     >
+     >Seuls les 50 premiers utilisateurs sont répertoriés dans la zone Autres affectations .
+
+
    Après avoir sélectionné un utilisateur, Workfront affiche une note indiquant le nombre d’éléments auxquels l’utilisateur que vous avez spécifié sera affecté et le rôle de tâche qu’il remplacera.
 
    >[!TIP]
@@ -184,7 +186,7 @@ Lorsque vous remplacez un utilisateur par un autre en utilisant les affectations
 * L’utilisateur de remplacement est affecté à toutes les tâches actuellement affectées à un utilisateur d’origine dans les projets sélectionnés.
 
 * Le nouvel utilisateur n’est affecté à aucune tâche déjà marquée comme terminée.
-* Si le rôle associé au premier utilisateur ne correspond à aucun des rôles du deuxième utilisateur, le second utilisateur est affecté à son rôle Principal.
+* Si le rôle associé au premier utilisateur ne correspond à aucun des rôles du deuxième utilisateur, le second utilisateur est affecté à son rôle de Principal.
 
 Pour remplacer un utilisateur par un autre utilisateur :
 

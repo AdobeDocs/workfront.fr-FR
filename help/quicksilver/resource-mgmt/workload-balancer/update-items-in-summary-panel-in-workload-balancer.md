@@ -3,13 +3,13 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Mise à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé
 description: Vous pouvez ouvrir le panneau Résumé dans l’équilibreur de charge de travail pour mettre à jour les tâches dans les zones de travail Affecté et Non affecté .
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -29,11 +29,11 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource</p>
+   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource .</p>
    <p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p> 
  </p> </td> 
   </tr> 
@@ -44,7 +44,7 @@ Vous devez disposer des éléments suivants :
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
      <li> <p>Tâches</p> </li> 
-     <li> <p>Événements</p> </li> 
+     <li> <p>Problèmes</p> </li> 
     </ul> <p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Vous devez disposer des éléments suivants :
 
    Ou
 
-   Accédez au **Travail attribué** , développez un utilisateur et recherchez un élément de travail.
+   Accédez au **Travail assigné** , développez un utilisateur et recherchez un élément de travail.
 
 1. Cliquez sur la barre d’une tâche ou d’un problème pour ouvrir le panneau Résumé à droite.
 

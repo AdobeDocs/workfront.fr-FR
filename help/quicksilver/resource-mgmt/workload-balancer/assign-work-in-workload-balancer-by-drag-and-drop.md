@@ -3,13 +3,13 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Affectez un travail à l’équilibreur de charge de travail en le faisant glisser et en le déposant
 description: Vous pouvez affecter des tâches à l’aide de l’équilibreur de charge de travail Adobe Workfront en les faisant glisser et en les déposant sur les utilisateurs appropriés.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -46,7 +46,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
      <li> <p>Tâches</p> </li> 
-     <li> <p>Événements</p> </li> 
+     <li> <p>Problèmes</p> </li> 
     </ul> <p><b>NOTE</b>
 
 Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
@@ -66,13 +66,13 @@ Vous pouvez affecter un élément de la zone de travail non attribué à un util
 
 1. Accédez à l’équilibreur de charge de travail où vous souhaitez affecter le travail.
 
-   Vous pouvez affecter du travail aux utilisateurs à l’aide de l’équilibreur de charge de travail dans la zone Ressource, au niveau du projet ou au niveau de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Vous pouvez affecter du travail aux utilisateurs à l’aide de l’équilibreur de charge de travail dans la zone Ressource, au niveau du projet ou au niveau de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 1. (Facultatif) Accédez au **Travail non attribué** et appliquez un filtre pour afficher les tâches et les problèmes qui ne sont pas affectés aux utilisateurs.
 
    Ou
 
-   Accédez au **Travail attribué** et développez le nom d’un utilisateur pour afficher les tâches qui lui sont affectées, si vous souhaitez réaffecter ses éléments.
+   Accédez au **Travail assigné** et développez le nom d’un utilisateur pour afficher les tâches qui lui sont affectées, si vous souhaitez réaffecter ses éléments.
 
 1. (Conditionnel) Dans l’équilibreur de charge de travail d’un projet, cliquez sur le bouton **Afficher tous les utilisateurs** icon ![](assets/show-all-users-icon-project-workload-balancer.png) pour afficher tous les utilisateurs de Workfront.
 
@@ -87,7 +87,6 @@ Vous pouvez affecter un élément de la zone de travail non attribué à un util
    >
    >* L’option Afficher tous les utilisateurs est disponible uniquement dans l’équilibreur de charge de travail d’un projet.
    >* Utilisez des filtres pour n’afficher que les utilisateurs qui vous intéressent. Par exemple, utilisez un filtre pour afficher uniquement les utilisateurs de vos équipes ou groupes.
-
 
 
 
@@ -108,13 +107,12 @@ Vous pouvez affecter un élément de la zone de travail non attribué à un util
    >[!TIP]
    >
    >* Si vous avez activé l’option Groupe par projet dans la zone Paramètres , la tâche affectée s’affiche sous le projet correspondant. Si le paramètre est désactivé, la tâche affectée s’affiche dans la zone utilisateur.
-      >
-      >
-      >     L’élément s’affiche en fonction des critères de l’équilibreur de charge de travail pour le tri des tâches. Pour plus d’informations, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   >
+   >
+   >     L’élément s’affiche en fonction des critères de l’équilibreur de charge de travail pour le tri des tâches. Pour plus d’informations, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
    >
    >
    >* Si vous avez activé l’option Afficher tous les utilisateurs dans l’équilibreur de charge de travail d’un projet et affecté des éléments à des utilisateurs qui n’avaient pas été auparavant affectés à des éléments du projet, les utilisateurs sont ajoutés à l’équipe de projet. Pour plus d’informations, voir [Gérer l’équipe de projet](../../manage-work/projects/planning-a-project/manage-project-team.md).
-
 
 
 1. (Facultatif) Cliquez sur la barre d’un élément de travail sous le nom d’un utilisateur dans la zone de travail Affecté et faites-le glisser sur la zone de travail Non affecté pour l’annuler. L’élément n’est pas attribué à l’utilisateur, mais il peut toujours être affecté à un rôle de tâche, auquel cas il s’affiche dans la zone de travail non attribué. Si l’élément est attribué à un autre utilisateur, il reste dans la zone de travail attribué sous le nom de l’utilisateur qui est toujours affecté.

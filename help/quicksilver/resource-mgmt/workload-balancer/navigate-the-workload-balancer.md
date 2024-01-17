@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Navigation dans l’équilibreur de charge de travail
 description: Utilisez l’équilibreur de charge de travail pour comprendre la disponibilité de vos ressources et affecter du travail à vos utilisateurs. Cet article vous guide tout au long de l’utilisation des icônes et des paramètres disponibles pour mettre à jour la vue pour et parcourir l’équilibreur de charge de travail.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4146'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -360,7 +360,7 @@ La zone de travail Non affecté n’affiche par défaut aucune tâche. Il est re
 
    * **Modifier les attributions**, puis modifiez les allocations quotidiennes ou hebdomadaires de l’utilisateur. Pour plus d’informations sur la gestion des affectations d’utilisateurs, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   * **Ouvrir le résumé**. Le panneau Résumé s’ouvre à droite, puis cliquez sur le champ Affectations et commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe dans le champ **Recherche de personnes, de rôles ou d’équipes** pour affecter l’élément. Pour plus d’informations, voir la section [Affichage d’informations supplémentaires sur les tâches et les problèmes](#display-more-information-about-tasks-and-issues) dans cet article.
+   * **Résumé ouvert**. Le panneau Résumé s’ouvre à droite, puis cliquez sur le champ Affectations et commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe dans le champ **Recherche de personnes, de rôles ou d’équipes** pour affecter l’élément. Pour plus d’informations, voir la section [Affichage d’informations supplémentaires sur les tâches et les problèmes](#display-more-information-about-tasks-and-issues) dans cet article.
 
 1. (Facultatif) Cliquez deux fois sur une allocation quotidienne ou hebdomadaire pour un utilisateur dans la barre d’un élément de travail afin de modifier le nombre d’heures allouées, puis cliquez sur le bouton **Enregistrer** icon ![Icône Enregistrer](assets/save-allocations-wb.png) pour enregistrer les affectations ou la variable **Annuler** icon ![Icône Annuler](assets/cancel-allocations-wb.png) pour supprimer les allocations que vous avez ajustées.
 

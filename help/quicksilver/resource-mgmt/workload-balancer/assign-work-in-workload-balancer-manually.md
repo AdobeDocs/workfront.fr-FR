@@ -3,14 +3,14 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Affectation manuelle du travail à l’aide de l’équilibreur de charge
 description: Vous pouvez affecter manuellement des tâches aux utilisateurs à l’aide de l’équilibreur de charge de travail Adobe Workfront.
-author: Alina
+author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -30,11 +30,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource</p>
+   <td> <p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource .</p>
    <p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
  </td> 
   </tr> 
@@ -45,7 +45,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
      <li> <p>Tâches</p> </li> 
-     <li> <p>Événements</p> </li> 
+     <li> <p>Problèmes</p> </li> 
     </ul> <p><b>NOTE</b>
 
 Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
@@ -65,13 +65,13 @@ Vous pouvez affecter des tâches qui n’ont pas encore été affectées à un u
 
 1. Accédez à l’équilibreur de charge de travail où vous souhaitez affecter le travail.
 
-   Vous pouvez affecter du travail aux utilisateurs à l’aide de l’équilibreur de charge de travail dans la zone Ressource, au niveau du projet ou au niveau de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Vous pouvez affecter du travail aux utilisateurs à l’aide de l’équilibreur de charge de travail dans la zone Ressource, au niveau du projet ou au niveau de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 1. (Facultatif) Accédez au **Travail non attribué** et appliquer un filtre pour afficher les tâches ou les problèmes ;
 
    Ou
 
-   Accédez au **Travail attribué** et développez le nom d’un utilisateur pour afficher les tâches qui lui sont affectées, si vous souhaitez réaffecter ses éléments.
+   Accédez au **Travail assigné** et développez le nom d’un utilisateur pour afficher les tâches qui lui sont affectées, si vous souhaitez réaffecter ses éléments.
 
 1. Cliquez sur le bouton **Plus de menu** ![](assets/qs-more-menu.png) à gauche du nom d’un élément de travail, puis cliquez sur **Attribuez-le à**.
 
@@ -81,8 +81,8 @@ Vous pouvez affecter des tâches qui n’ont pas encore été affectées à un u
    >
    >Vous pouvez également utiliser les raccourcis suivants pour affecter des tâches ou des problèmes :
    >
-   >* Sous Windows : CTRL+clic sur la barre de tâche ou de problème.
-   >* Dans Mac : CMD+cliquez sur la barre de tâche ou de problème.
+   >* Sous Windows : cliquez sur la barre de tâches ou de problèmes tout en maintenant la touche Ctrl enfoncée.
+   >* Dans Mac : cliquez sur la barre de tâches ou de problèmes tout en maintenant la touche CMD.
 
 1. Utilisez l’une des méthodes suivantes :
 
@@ -90,7 +90,7 @@ Vous pouvez affecter des tâches qui n’ont pas encore été affectées à un u
 
    >[!TIP]
    >
-   >Lors de l’ajout d’un utilisateur, notez l’avatar, le rôle Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+   >Lors de l’ajout d’un utilisateur, notez l’avatar, le rôle de Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
    >
    >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
    >
@@ -110,15 +110,15 @@ Vous pouvez affecter des tâches qui n’ont pas encore été affectées à un u
 
    >[!TIP]
    >
-   >Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous ne pouvez affecter que des utilisateurs, des rôles de tâche et des équipes principaux.
+   >Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous pouvez affecter uniquement les utilisateurs, les rôles de tâche et les équipes actifs.
    >
    >
-   >Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+   >Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, ils restent affectés à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
    >
    >   
    >   
-   >   * Réaffectez l’élément de travail aux principales ressources.
-   >   * Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez l’élément de travail à l’équipe principale.
+   >   * Réaffectez la tâche aux ressources actives.
+   >   * Associez les utilisateurs d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
    >   
    >
 

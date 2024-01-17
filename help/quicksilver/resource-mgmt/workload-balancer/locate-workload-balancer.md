@@ -4,10 +4,10 @@ keywords: work,équipe,service,ressources
 navigation-topic: the-workload-balancer
 title: Localisation de l’équilibreur de charge
 description: Vous pouvez utiliser l’équilibreur de charge de travail pour planifier des ressources ou revoir leur disponibilité et leurs affectations actuelles.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%

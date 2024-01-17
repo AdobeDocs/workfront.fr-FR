@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: b5e0a590d258df4510a0bb6a44b57099f32ae6b9
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Présentation des groupes
+
+<!-- Audited: 01/2024 -->
 
 Un administrateur Workfront peut créer des groupes d’utilisateurs qui correspondent à la structure de votre service. Les groupes sont similaires aux équipes et aux entreprises, mais différents les uns des autres.
 
@@ -28,7 +30,7 @@ Vous pouvez créer jusqu’à 14 niveaux de sous-groupes dans un seul groupe. Po
 
 ## Utilisation de groupes pour organiser les utilisateurs
 
-En tant qu’administrateur Workfront ou administrateur de groupe, vous pouvez associer des utilisateurs à des groupes et des sous-groupes. Si vous rendez un groupe public, les utilisateurs disposant d’une licence de planificateur peuvent y associer des utilisateurs. Pour plus d’informations sur les administrateurs de groupes et les groupes publics, voir [Création d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+En tant qu’administrateur Workfront ou administrateur de groupe, vous pouvez associer des utilisateurs à des groupes et des sous-groupes. Si vous rendez un groupe public, les utilisateurs disposant d’une licence Standard (nouvelle) ou Plan (en cours) peuvent y associer des utilisateurs. Pour plus d’informations sur les administrateurs de groupes et les groupes publics, voir [Création d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Lorsque vous créez un utilisateur, nous vous recommandons d’ajouter cet utilisateur au groupe d’accueil approprié et aux autres groupes dans lesquels il doit travailler. Un utilisateur ne peut avoir qu’un seul groupe d’accueil, mais il peut appartenir à plusieurs autres groupes.
 

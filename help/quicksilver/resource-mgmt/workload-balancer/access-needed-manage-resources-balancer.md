@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail
-description: Sans accès ou autorisations corrects, vous ne pourrez peut-être pas afficher ni gérer vos affectations de travail dans le Gestionnaire de charge de travail.
-author: Alina
+description: Sans accès ou autorisations corrects, vous ne pourrez peut-être pas afficher ni gérer vos affectations de travail dans l’équilibreur de charge de travail.
+author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Le tableau suivant illustre la connexion entre le plan Workfront de votre entrep
 
 Pour plus d’informations sur les plans Workfront, voir [Nos plans](https://www.workfront.com/plans).
 
-Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Accès nécessaire pour afficher l’équilibreur de charge de travail
 
