@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1179'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 3%
 
 # Présentation de la section Mises à jour
 
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. </span>
-
-<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 
 >[!IMPORTANT]
@@ -46,18 +44,11 @@ ht-degree: 3%
 > * Panneau Résumé dans les feuilles de temps
 > * Panneau Résumé de l’équilibreur de charge de travail
 
-<!-- with October 26 release: add somewhere this:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
-
 ## Présentation de la section Mises à jour
 
 La section Mises à jour d’un objet affiche les mises à jour du système et jusqu’à 200 des mises à jour les plus récentes effectuées par les utilisateurs au cours des 90 derniers jours.
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Selon les objets pour lesquels vous accédez à l’expérience de commentaire, vous trouverez peut-être l’expérience suivante pour la section Mises à jour :
 
@@ -97,7 +88,7 @@ Selon les objets pour lesquels vous accédez à l’expérience de commentaire, 
 
 ### Présentation de la section Mises à jour dans la nouvelle expérience de commentaire
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
+![](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >

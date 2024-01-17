@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
       Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
 
-   1. Appuyez sur Entrée sur votre clavier pour accéder au champ suivant trouvé.
+   1. Presse **Entrée** sur votre clavier pour accéder au champ suivant trouvé.
 
    1. (Facultatif) S’il existe plusieurs correspondances, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour trouver toutes les correspondances dans le tableau.
 
@@ -279,7 +279,7 @@ Pour ajouter un filtre à une vue de tableau :
         </thead>
         <tbody>
         <tr>
-            <td>Paragraphe à une seule ligne </td>
+            <td>Une seule ligne, paragraphe, formule </td>
             <td><p>Contient</p>
             <p>Ne contient pas</p>
             <p>Est</p>
@@ -296,7 +296,7 @@ Pour ajouter un filtre à une vue de tableau :
             <p>N’est pas vide</p></td>
         </tr>
         <tr>
-            <td>Sélection multiple</td>
+            <td>Sélection multiple, Personnes</td>
             <td><p>A l’un des</p>
             <p>Dispose de tous les</p>
             <p>Est exactement</p>
@@ -305,7 +305,7 @@ Pour ajouter un filtre à une vue de tableau :
             <p>N’est pas vide</p></td>
         </tr>
         <tr>
-            <td>Numérique, pourcentage, devise</td>
+            <td>Nombre, Pourcentage, Devise</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>

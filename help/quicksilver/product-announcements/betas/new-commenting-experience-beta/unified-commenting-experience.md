@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1252'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 2%
 # Nouvelle expérience de commentaire
 
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients.  </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
-<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
 
 <!--
 
@@ -402,7 +402,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -417,7 +417,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -432,7 +432,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td> ✓
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>

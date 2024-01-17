@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ Le tableau suivant montre les similitudes et les différences entre les vues du 
 | Copier des lignes d’une liste externe et les coller dans un tableau | ✓ |               |
 | Afficher des enregistrements dans une chronologie |            | ✓ |
 | Filtrage des enregistrements | ✓ | ✓ |
-| Enregistrements de groupe |           | ✓ |
+| Enregistrements de groupe | ✓ | ✓ |
 | Tri des enregistrements | ✓ |              |
 | Enregistrements de code couleur |           | ✓ |
 | Regroupements de codes couleur |           | ✓ |
-| Recherche d’enregistrements | ✓ | ✓ |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| Recherche d’enregistrements spécifiques | ✓ | ✓ |
+| Partager la vue | ✓ | ✓ |
+| Ouvrez la page Détails de l’enregistrement à partir de la vue . | ✓ | ✓ |
 
 ## Créer ou modifier des vues {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
    Par défaut, Maestro nomme la vue &quot;Tableau &lt; nombre >&quot; ou &quot;Chronologie &lt; nombre >&quot;. Le nombre est un incrément généré automatiquement.
 
 1. (Facultatif) Pour renommer une vue après sa création, cliquez sur le menu déroulant Affichage , puis sur la variable **Plus** menu ![](assets/more-menu.png) > **Renommer** pour mettre à jour le nom de la vue. <!--ensure there is not another saving step here?!-->
-1. (Facultatif) Pour gérer un affichage, reportez-vous aux articles suivants pour plus d’informations :
+1. (Facultatif) Pour gérer un type de vue spécifique, consultez les articles suivants :
 
    * [Gestion de la vue de tableau](../views/manage-the-table-view.md)
    * [Gestion du mode Chronologie](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## Suppression de vues
 
@@ -202,6 +197,7 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
 
 Pour plus d’informations sur le partage des vues, voir [Partage de vues](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 

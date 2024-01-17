@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
 1. (Facultatif) Pour joindre une image à votre mise à jour, effectuez l’une des opérations suivantes :
 
-   * <span class="preview">Enregistrez l’image sur votre ordinateur, puis faites-la glisser et déposez-la dans la zone Nouveau commentaire.</span>
-     <span class="preview">Cette option n’est pas disponible dans l’environnement de production pour la nouvelle expérience de commentaire. Vous pouvez faire glisser et déposer une image dans un commentaire dans l’expérience de commentaire héritée dans Production. </span>
-
-   * <span class="preview">Copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire. </span>
+   * Enregistrez l’image sur votre ordinateur, puis faites-la glisser et déposez-la dans la zone Nouveau commentaire.
+   * Copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire. Cette option n’est pas disponible dans l’expérience de commentaire héritée.
    * Cliquez sur le bouton **Ajouter une image** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
 
 
@@ -392,7 +390,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >* Votre administrateur Workfront doit activer l’ajout d’images dans la section Mettre à jour les préférences des flux de la zone Interface de Workfront avant de pouvoir voir les icônes Image ou Ajouter une pièce jointe. Pour plus d’informations, voir [Configuration des préférences pour les mises à jour des utilisateurs](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* La taille maximale du fichier image est de 7 Mo. Les types de fichiers image pris en charge sont .jpg, .gif et .png.
    >* Les images sont accessibles à partir de la section Mises à jour d’un objet et elles sont également disponibles dans la zone Documents sous le menu principal.
-   >* <span class="preview">Vous pouvez coller l’image en cliquant avec le bouton droit dans le nouveau commentaire, ou en appuyant sur Ctrl + V pour Windows (ou CMD + V pour Mac) sur votre clavier.</span>
+   >* Vous pouvez coller l’image en cliquant avec le bouton droit de la souris dans le nouveau commentaire, ou en appuyant sur CTRL + V pour Windows (ou appuyer sur vert + V pour Mac) sur votre clavier.
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
    >* Lorsque vous supprimez un commentaire qui contient une image, les scénarios suivants existent selon l’expérience choisie :
    >
@@ -404,12 +402,10 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
 1. (Facultatif) Pour afficher une image dans la mise à jour existante, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur le bouton **Aperçu** icon <span class="preview">![](assets/previewimageicon-31x31.png)</span> sur la miniature de l’image pour ouvrir l’image en taille réelle dans un nouvel onglet du navigateur.
+   * Cliquez sur le bouton **Aperçu** icon ![](assets/previewimageicon-31x31.png) sur la miniature de l’image pour ouvrir l’image en taille réelle dans un nouvel onglet du navigateur.
    * Cliquez sur le bouton **Télécharger** icon ![](assets/downloadimageicon.png) sur la miniature de l’image pour télécharger l’image.
 
 1. Cliquez sur **Envoyer** pour ajouter votre commentaire.
-
-<div class="preview">
 
 ## Rechercher une mise à jour
 
@@ -422,7 +418,11 @@ Vous pouvez rechercher un commentaire ou une réponse dans la section Mises à j
 1. Accédez au **Mises à jour** d’un objet.
 1. Commencer à saisir un mot-clé <!--or a user's name --> dans le **Rechercher** dans le coin supérieur droit de la **Commentaires** .
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   Vous ne pouvez rechercher que les mots qui appartiennent au texte d’un commentaire ou d’une réponse. Vous ne pouvez pas rechercher les noms des utilisateurs ou des équipes balisés dans une mise à jour.
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ Vous pouvez rechercher un commentaire ou une réponse dans la section Mises à j
    Workfront recherche l’intégralité du flux de mise à jour de l’objet, en dehors des commentaires visibles à l’écran.
 
 1. Cliquez sur le bouton **x** dans le champ de recherche pour effacer les résultats de la recherche et revenir à tous les commentaires.
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 

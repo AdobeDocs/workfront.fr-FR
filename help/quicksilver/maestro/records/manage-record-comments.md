@@ -4,9 +4,9 @@ description: Vous pouvez collaborer sur les enregistrements Adobe Maestro en ajo
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 Vous pouvez collaborer sur les enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans la zone Commentaires d’un enregistrement.
 
@@ -144,9 +144,9 @@ Le dernier espace de travail ouvert par défaut.
    >
    >Les commentaires de l’année en cours n’affichent pas l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, y compris l’année.
 
-1. <span class="preview">(Facultatif et conditionnel) Pour rechercher un commentaire existant, commencez à saisir un mot-clé dans la zone de recherche située dans le coin supérieur droit du champ **Commentaires** zone.</span>
+1. (Facultatif et conditionnel) Pour rechercher un commentaire existant, commencez à saisir un mot-clé dans la zone de recherche située dans le coin supérieur droit du champ **Commentaires** zone.
 
-   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
+   ![](assets/search-box-for-comments-area.png)
 
 1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la variable **Ajouter une réponse ...** , pour répondre à un commentaire existant, puis suivez les étapes 4 à 8 ci-dessus. <!--(**************accurate??***********)-->
 

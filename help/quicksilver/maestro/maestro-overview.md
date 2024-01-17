@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,11 @@ Voici quelques-unes des principales fonctionnalités de Maestro :
 * Personnalisez entièrement vos workflows, depuis le choix des types d’objets (ou des types d’enregistrement) utilisés par votre entreprise jusqu’à la configuration de la liaison entre ces objets.
 * Liez-les aux types d’objets d’autres systèmes, créant ainsi une structure cohérente pour tous vos processus.
 
-## Fonctionnalités actuellement disponibles dans Maestro
+## Fonctionnalités Maestro actuellement disponibles
 
 Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans Maestro, ainsi qu’une chronologie de leur disponibilité. La liste ne contient pas toutes les fonctionnalités.
+
+Pour plus d’informations sur les nouvelles fonctionnalités et leur date de publication, voir [Activité de mise à jour Maestro](/help/quicksilver/maestro/release-activity.md).
 
 | Fonctionnalité | Disponible maintenant | Disponible bientôt | En recherche |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -222,6 +224,8 @@ Voici les principaux objets et concepts de Maestro :
 
 * **Champs liés** (ou champs de recherche) : après avoir établi la connexion entre deux types d’enregistrements et lier des enregistrements individuels, vous pouvez référencer les champs des enregistrements liés sur l’enregistrement à partir duquel vous vous connectez.
 
+  Par exemple, si vous connectez une campagne Maestro à un projet Workfront, vous pouvez afficher le champ Propriétaire du projet des projets connectés dans les enregistrements de campagne Maestro.
+
   ![](assets/add-lookup-fields-modal.png)
 
   Pour plus d’informations sur la liaison de types d’enregistrements, d’enregistrements et la création de champs liés, consultez les articles suivants :
@@ -268,7 +272,7 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 
 ## Localisation de Maestro
 
-Assurez-vous que votre entreprise a reçu l’accès à Maestro et que votre administrateur système ou groupe a ajouté la zone Maestro à votre menu principal.
+Assurez-vous que votre entreprise a reçu l’accès à Maestro et que votre administrateur système ou groupe a ajouté la zone Maestro à votre menu principal. Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md) .
 
 Pour localiser Maestro :
 

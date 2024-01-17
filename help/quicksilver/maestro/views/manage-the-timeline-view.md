@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ role: User
 >
 >Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
 >
->Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
+>Pour plus d’informations, voir [Présentation d’Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
 
 Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type enregistrement dans Adobe Manager.
 
@@ -129,7 +129,12 @@ Pour gérer une vue de chronologie :
 
    ![](assets/timeline-view-example.png)
 
-   Par défaut, les enregistrements associés au type d’enregistrement sélectionné s’affichent sous forme de barres dans une chronologie et sont triés par ordre chronologique.
+   Par défaut, les enregistrements associés au type d’enregistrement sélectionné s’affichent sous forme de barres dans une chronologie et sont triés dans l’ordre chronologique de leur Date de début.
+
+   >[!TIP]
+   >
+   >    Le tri des enregistrements dans la chronologie n’est pas visible dans la vue compacte.
+
 
 1. Pour parcourir la chronologie, effectuez l’une des opérations suivantes :
 
@@ -164,9 +169,9 @@ Pour gérer une vue de chronologie :
 
 1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement](#add-grouping)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
+   * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### Ajout de filtres
 
