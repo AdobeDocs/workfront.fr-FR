@@ -5,9 +5,9 @@ description: Dans le cadre de la création d’un Business Case, vous pouvez cr�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -31,9 +31,9 @@ Tenez compte des points suivants lors de la création d’objectifs de Business 
 
 * Les objectifs ne sont pas une section obligatoire de l’analyse de cas d’un projet.
 
-   Un projet peut recevoir un score à prioriser dans Portfolio Optimizer, même si la section Objectifs de l’analyse de cas n’est pas définie.
+  Un projet peut recevoir un score à prioriser dans Portfolio Optimizer, même si la section Objectifs de l’analyse de cas n’est pas définie.
 
-   Pour plus d’informations sur le score Portfolio Optimizer, voir [Application d’une fiche d’évaluation à un projet et génération d’une note d’alignement](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Pour plus d’informations sur le score Portfolio Optimizer, voir [Application d’une fiche d’évaluation à un projet et génération d’une note d’alignement](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Vous ne pouvez pas créer de rapports sur les objectifs des analyses de performances.
 
@@ -77,10 +77,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. Dans le **Objectifs** , cliquez sur **Modifier les objectifs**.
+1. Dans le **Objectifs** , cliquez sur **Modifier les objectifs**.
 
 1. Indiquez vos objectifs.
- Dans le **Importance** , sélectionnez le niveau d’importance :
+Dans le **Importance** , sélectionnez le niveau d’importance :
 
    * Le plus élevé
    * Élevé
@@ -88,9 +88,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * Faible
    * Le plus faible
 
-      ![](assets/g1-350x76.png)
+     ![](assets/g1-350x76.png)
 
-      Vous ne pouvez pas personnaliser les niveaux d’importance des objectifs.
+     Vous ne pouvez pas personnaliser les niveaux d’importance des objectifs.
 
 1. (Facultatif) Pour ajouter un autre objectif, cliquez sur **Ajouter un autre objectif** et répétez les étapes 5 et 6.
 1. Cliquez sur **Enregistrer**.

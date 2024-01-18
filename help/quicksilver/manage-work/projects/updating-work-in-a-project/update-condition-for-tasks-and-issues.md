@@ -6,9 +6,9 @@ description: La condition d’une tâche ou d’un problème est un indicateur q
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -25,46 +25,6 @@ L’administrateur d’Adobe Workfront peut créer des conditions personnalisée
 
 ## Exigences d’accès {#access-requirements}
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   
-   For the current licenses:
-   <ul><li><p>Standard for tasks</p></li>
-   <li><p>Contributor or higher for issues</p></li></ul>
-
-
-   For legacy licenses:
-   <ul><li><p>Work or higher for tasks</p></li>
-   <li><p>Request or higher for issues</p></li></ul>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
-   <p>Manage permissions on tasks and issues to update the Condition</p>
-    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -72,31 +32,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou plus pour les tâches</p>
-   <p>Demande ou version ultérieure pour les problèmes</p>
+   <td>
+
+Pour les nouvelles licences :
+<ul><li><p>Standard pour les tâches</p></li>
+   <li><p>Contributeur ou version ultérieure pour les problèmes</p></li></ul>
+
+
+Pour les licences actuelles :
+<ul><li><p>Travail ou plus pour les tâches</p></li>
+   <li><p>Demande ou version ultérieure pour les problèmes</p></li></ul>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage ou accès supérieur aux projets</p> <p>Modifier l’accès aux tâches et aux problèmes </p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Affichage ou accès supérieur aux projets</p> <p>Modifier l’accès aux tâches et aux problèmes </p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Affichage ou autorisations supérieures sur des tâches et des problèmes pour afficher leur condition</p>
    <p>Gérer les autorisations sur les tâches et les problèmes pour mettre à jour la condition</p>
-    <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Localisation de la condition des tâches et des problèmes
 
@@ -104,7 +70,7 @@ Les conditions s’affichent sous la forme d’un indicateur associé à des tâ
 
 Vous pouvez localiser la condition des tâches et des problèmes dans les zones suivantes :
 
-* Zone Tâche et publication Mises à jour , dans une mise à jour, lorsque vous êtes affecté à la tâche ou au problème.
+* Zone Tâche et publication Mises à jour , dans une mise à jour, lorsque vous êtes affecté à la tâche ou au problème. Ceci n’est pas pris en charge dans la nouvelle expérience de commentaire. Pour plus d’informations, voir [Nouvelle expérience de commentaire](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 * Rapports et listes lorsque vous affichez le champ Condition dans une vue ou un groupement.
 
 >[!NOTE]
@@ -115,7 +81,7 @@ Vous pouvez localiser la condition des tâches et des problèmes dans les zones 
 
 Lorsque vous avez une tâche ou un problème, cliquez sur **Travailler dessus** , Démarrer la tâche ou Démarrer le problème, ou mettre à jour son état, la condition de la tâche ou du problème passe automatiquement à la condition par défaut associée à **En douceur**.
 
-Pour plus d’informations sur l’utilisation d’une condition personnalisée comme condition par défaut, voir les articles  [Définition d’une condition personnalisée comme condition par défaut pour les tâches et les problèmes](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) et [Définition d’une condition personnalisée comme condition par défaut pour les projets](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+Pour plus d’informations sur l’utilisation d’une condition personnalisée comme condition par défaut, voir les articles  [Définir une condition personnalisée comme condition par défaut pour les tâches et les problèmes](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) et [Définir une condition personnalisée comme condition par défaut pour les projets](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
 Pour plus d’informations sur la modification de l’état de la tâche, voir [Mettre à jour le statut des tâches](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
 
@@ -127,31 +93,30 @@ Pour plus d’informations sur la définition du bouton Travailler dessus sur un
 
 Vous devez être affecté à une tâche ou au problème ou disposer des autorisations de gestion pour pouvoir définir la condition sur celle-ci.
 
-La mise à jour de la condition d’une tâche ou d’un problème varie selon que vous y êtes affecté ou non :
+Vous pouvez mettre à jour manuellement la condition d’une tâche ou d’un problème dans un rapport de tâche ou de problème ou une liste lorsque vous affichez le champ Condition dans la vue.
 
-* Vous pouvez mettre à jour la condition dans l’onglet Mises à jour ou dans une liste de tâches ou de problèmes si vous y êtes affecté.
-* Vous ne pouvez mettre à jour la condition que dans une liste de tâches ou de problèmes si vous n’y êtes pas affecté, mais que vous disposez des autorisations de gestion nécessaires. Dans ce cas, vous ne pouvez pas mettre à jour la condition dans l’onglet Mise à jour de la tâche ou du problème.
 
-Pour définir manuellement la condition d’une tâche ou d’un problème :
+<!--old Condition update - in the commenting stream: 
+Updating the Condition of a task or issue differs depending on whether you are assigned to it or not:
 
-1. Accédez à une tâche ou à un problème qui vous a été assigné et pour lequel vous souhaitez définir la condition.
+* If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+* You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-   Ou
+Pour mettre à jour manuellement la condition d’une tâche ou d’un problème :
 
-   Accédez à la liste des tâches ou des problèmes pour lesquels vous disposez des autorisations de gestion , mais qui ne vous sont pas affectés.
+1. Accédez à la liste des tâches ou problèmes auxquels vous disposez des autorisations de gestion . Assurez-vous que la variable **Condition** est visible dans la vue de la liste.
 
-1. Modifiez la condition du problème ou de la tâche comme suit :
+1. Mettez à jour le **Condition** du problème ou de la tâche en ligne, en double-cliquant sur la condition existante et en sélectionnant une nouvelle valeur dans le menu déroulant.
 
-   * Si vous êtes affecté à la tâche ou au problème et que vous disposez des autorisations de gestion , sur la **Mises à jour** , cliquez sur **Démarrer une nouvelle mise à jour**, sélectionnez la variable **Condition** qui reflète le mieux le déroulement de la tâche, entrez votre raison de modifier la condition dans la variable **Démarrer une nouvelle mise à jour** zone (facultatif) , puis cliquez sur **Mettre à jour**.
+   ![](assets/condition-drop-down-values-in-task-list.png)
 
-      ![](assets/change-condition-update-comment-350x141.png)
+   >[!NOTE]
+   >
+   >Les conditions peuvent être personnalisées pour votre environnement. Vous pouvez donc trouver plus de trois options pour Condition dans votre environnement. Les noms des Conditions peuvent être différents de ceux répertoriés ci-dessus. Pour plus d’informations sur la personnalisation des conditions dans Workfront, voir [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-      >[!NOTE]
-      >
-      >Les conditions peuvent être personnalisées pour votre environnement. Vous pouvez donc trouver plus de trois options pour Condition dans votre environnement. Les noms des Conditions peuvent être différents de ceux répertoriés ci-dessus. Pour plus d’informations sur la personnalisation des conditions dans Workfront, voir [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-      Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Presse **Entrée** sur votre clavier ou cliquez en dehors du champ Condition pour enregistrer la nouvelle tâche ou émettre la condition.
 
-      <!--   
+   <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->

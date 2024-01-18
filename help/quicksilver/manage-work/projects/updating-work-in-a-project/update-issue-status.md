@@ -6,49 +6,20 @@ description: Vous pouvez mettre à jour l’état d’un problème afin d’info
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 3%
+source-wordcount: '651'
+ht-degree: 2%
 
 ---
 
 # Mettre à jour le statut du problème
 
+<!--Audited: 01/2024-->
+
 Vous pouvez mettre à jour l’état d’un problème afin d’informer les autres personnes de son état et de son état d’avancement.
 
 ## Exigences d’accès
-
-<!--drafted for P&P;
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -57,27 +28,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td> <p>Nouvelle licence : contributeur ou version ultérieure</p>
+   Ou
+   <p>Licence actuelle : demande ou supérieure</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Modifier l’accès aux problèmes</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations liées au problème</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gestion des autorisations liées au problème</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Statuts des problèmes
 
@@ -103,14 +75,19 @@ Vous pouvez mettre à jour manuellement les statuts des problèmes ou laisser Wo
 
 ## Mise à jour manuelle de l’état des problèmes
 
-Lorsque vous mettez à jour un état de problème, vous pouvez également ajouter une explication sur le nouveau statut et modifier d’autres informations de problème telles que la date de validation.
+Vous pouvez mettre à jour l’état du problème dans les zones suivantes de Workfront :
 
-1. Accédez à un problème auquel vous êtes affecté et pour lequel vous souhaitez mettre à jour l’état.
+* En-tête du problème sur la page de la tâche.
+* La boîte de dialogue Modifier le problème, lors de la modification d’un problème.
+* La section Détails de la page de problème.
+* Dans une liste de problèmes ou un rapport, lorsque le champ Statut est visible dans la vue.
+* Dans le panneau Résumé du problème.
+
+Pour mettre à jour manuellement l’état du problème dans l’en-tête du problème :
+
+1. Accédez à un problème pour lequel vous souhaitez mettre à jour l’état.
 1. Cliquez sur le bouton **État** dans l’en-tête du problème et sélectionnez un nouvel état.
-
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
-
-1. Pour fournir une indication visuelle de la fin du problème, faites glisser ou double-cliquez sur la bulle sous **Pourcentage terminé** dans l’en-tête du problème.
+1. Pour fournir une indication visuelle de la fin du problème, faites glisser ou double-cliquez sur la bulle sous **Pourcentage terminé** dans l’en-tête du problème
 
    Ou
 
@@ -118,22 +95,42 @@ Lorsque vous mettez à jour un état de problème, vous pouvez également ajoute
 
    ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-1. (Facultatif) Pour fournir des informations supplémentaires sur la mise à jour, effectuez l’une des opérations suivantes, puis cliquez sur **Mettre à jour** ou, si le statut du problème correspond à Terminé, cliquez sur **Terminé :**
+1. (Facultatif) Pour fournir des informations supplémentaires sur la mise à jour, effectuez l’une des opérations suivantes :
 
-   * Pour ajouter une note à propos de la mise à jour, accédez au **Mises à jour** et cliquez sur **Démarrer une nouvelle mise à jour**, puis saisissez votre note.
+   * Pour ajouter une note à propos de la mise à jour, accédez au **Mises à jour** et cliquez sur **Nouveau commentaire**, puis saisissez une note.
 
-      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * Pour avertir certains utilisateurs de la mise à jour, saisissez leurs noms dans le champ **Notifier** qui s’affiche lorsque vous saisissez une note à propos de la mise à jour. Pour plus d’informations, voir [Balisage des autres sur les mises à jour](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Pour mettre à jour la condition du problème, cliquez sur **Condition**, puis sélectionnez la condition qui reflète le mieux la condition actuelle du problème. Sélectionnez l’une des options suivantes :
-
-      * Tout est en ordre
-      * Certaines inquiétudes
-      * Obstacles majeurs
-   * Pour mettre à jour la date de validation du problème, développez la variable **Date de validation** du calendrier déroulant, puis sélectionnez une nouvelle date.
+   * Pour avertir certains utilisateurs de la mise à jour, saisissez leurs noms dans le champ **Balisage de personnes ou d’équipes** qui apparaît lorsque vous saisissez un commentaire. Pour plus d’informations, voir [Balisage des autres sur les mises à jour](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Pour mettre à jour la date de validation du problème, cliquez sur **Détails du problème**, puis modifiez la variable **Date de validation** champ . Pour plus d’informations, voir [Modification des problèmes](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 
-## Mettre automatiquement à jour le statut des problèmes
+   >[!IMPORTANT]
+   >
+   >  Seuls les personnes désignées concernées peuvent mettre à jour la date de validation.
+
+
+
+<!--Old instructions, in old commenting: 
+
+When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
+
+1. Go to an issue that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the issue header and select a new status.
+
+   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+
+1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
+
+   Or
+
+   Click inside the bubble in the header of the issue to enter a percentage.
+
+   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+-->
+
+## Mettre automatiquement à jour l’état du problème
 
 Workfront met automatiquement à jour l’état existant d’un problème à un état différent lorsque les actions répertoriées dans le tableau ci-dessous se produisent.
 
@@ -147,9 +144,9 @@ Workfront met automatiquement à jour l’état existant d’un problème à un 
  <col> 
  <tbody> 
   <tr> 
-   <td>Action</td> 
-   <td>État d’origine</td> 
-   <td>Nouveau statut</td> 
+   <td><b>Action</b></td> 
+   <td><b>État d’origine</b></td> 
+   <td><b>Nouveau statut</b></td> 
   </tr> 
   <tr> 
    <td>Mettre à jour le pourcentage de problèmes terminé à 100 %</td> 
@@ -169,7 +166,7 @@ Workfront met automatiquement à jour l’état existant d’un problème à un 
   <tr data-mc-conditions=""> 
    <td><span>Cliquez sur le bouton Démarrer le problème pour accepter de travailler sur un problème qui vous est assigné.</span> </td> 
    <td><span>Nouveau</span> </td> 
-   <td> <p>Tout état associé au bouton Démarrer le problème dans les paramètres de votre équipe d’accueil. </p> <p>Pour plus d’informations sur le remplacement du bouton Travailler dessus par un bouton Démarrer le problème, voir <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacez le bouton Travailler dessus par un bouton Démarrer</a></span><span>.</span> </p> <p>Conseil : Cliquer <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Bouton Annuler</span> après avoir cliqué sur Démarrer le problème, l’état devient Nouveau. </p> </td> 
+   <td> <p>Tout état associé au bouton Démarrer le problème dans les paramètres de votre équipe d’accueil. </p> <p>Pour plus d’informations sur le remplacement du bouton Travailler dessus par un bouton Démarrer le problème, voir <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacez le bouton Travailler dessus par un bouton Démarrer</a></span><span>.</span> </p> <p>Conseil : Cliquez sur <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Bouton Annuler</span> après avoir cliqué sur Démarrer le problème, l’état devient Nouveau. </p> </td> 
   </tr> 
  </tbody> 
 </table>

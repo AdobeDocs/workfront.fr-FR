@@ -6,49 +6,20 @@ description: Vous pouvez mettre à jour le pourcentage d’achèvement d’une t
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # Afficher et mettre à jour le pourcentage d’achèvement pour les tâches
 
+<!--Audited:01/2024-->
+
 Vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche pour indiquer l’avancement de la tâche vers son achèvement.
 
 ## Conditions d’accès
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 Vous devez disposer des accès suivants pour mettre à jour manuellement les tâches :
 
@@ -57,27 +28,28 @@ Vous devez disposer des accès suivants pour mettre à jour manuellement les tâ
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou plus élevé</p> </td> 
+   <td> <p>Nouvelle licence : Standard</p> 
+   Ou
+   <p>Licence actuelle : travail ou version ultérieure</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux tâches</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Modifier l’accès aux tâches</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations pour la tâche</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gestion des autorisations pour la tâche</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Zones dans lesquelles vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche
@@ -89,15 +61,16 @@ Vous pouvez mettre à jour le pourcentage de réalisation d’une tâche dans l�
 
 * **Dans la vue Milestone**: vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche lors de l’utilisation de la vue Jalon sur une liste de projets ou un rapport de projet. Pour plus d’informations, voir [Utilisation de la vue Milestone](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Lorsque vous mettez à jour la tâche**: vous pouvez mettre à jour l’option Pourcentage d’achèvement d’une tâche lors de l’ajout d’une mise à jour à la tâche.
+<!--only in legacy commenting: 
+* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
 
   >[!IMPORTANT]
   >
-  >Cette option s’affiche uniquement une fois que vous avez activé l’option Afficher le pourcentage terminé .\
-  >Pour activer la barre de mise à jour du pourcentage d’achèvement des tâches, procédez comme suit :
+  >This option displays only after you enable the Show Percent Complete option.  
+  >To enable the percent complete update bar for tasks, do the following:   
   >
-  >1. Accédez au **Principal** menu>votre nom>**Plus** en regard de votre nom >**Modifier** > sélectionner **Afficher le pourcentage terminé à l’état de mise à jour**.\
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
 * **Dans l’en-tête de la tâche**: vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche dans l’en-tête de la tâche. Pour plus d’informations, voir [Modifier les tâches](../../tasks/manage-tasks/edit-tasks.md).
 
@@ -125,7 +98,7 @@ Vous pouvez mettre à jour le pourcentage de réalisation d’une tâche dans l�
 
    Ou
 
-   Cliquez et faites glisser le **Pourcentage terminé** au nombre nécessaire pour indiquer la partie de la tâche que vous avez effectuée.
+   Cliquez et faites glisser le **Pourcentage terminé** au nombre nécessaire pour indiquer la quantité de la tâche que vous avez effectuée, le cas échéant.
 
    >[!NOTE]
    >
@@ -133,4 +106,6 @@ Vous pouvez mettre à jour le pourcentage de réalisation d’une tâche dans l�
 
 
 1. Appuyez sur Entrée du clavier pour enregistrer le pourcentage terminé.
+
+Le pourcentage d’achèvement du projet est également automatiquement mis à jour.
 

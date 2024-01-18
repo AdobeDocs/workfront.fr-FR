@@ -6,9 +6,9 @@ description: Vous pouvez lier manuellement la résolution d’un problème à la
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -62,12 +62,11 @@ Avant de commencer, vous devez :
 
 ## Lier la résolution d’un problème à la résolution d’un autre problème, d’une autre tâche ou d’un autre projet
 
-1. Accédez à un problème dont vous souhaitez lier la résolution à un autre problème ou à une tâche ou à un projet.
-1. Cliquez sur le bouton **Détails du problème** > **Présentation** zone.
+1. Accédez à un problème dont vous souhaitez lier la résolution à un autre problème ou à la résolution d’une tâche ou d’un projet.
+1. Cliquez sur le bouton **Détails du problème** dans le panneau de gauche, puis développez l’objet **Présentation** zone.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Accédez au **Présentation** dans la zone **Détails du problème** .
 1. Cliquez sur le bouton **Résolu par** et effectuez une sélection parmi les types d’objets de résolution suivants :
 
    * **Projet**
@@ -77,11 +76,10 @@ Avant de commencer, vous devez :
    Selon l’objet sélectionné, les champs suivants s’affichent :
 
    * **Résolution du projet**
-   * **Résolution de la tâche**
-   * **Résolution de l&#39;événement**
+   * **Résoudre une tâche**
+   * **Résolution d’un problème**
 
-
-1. Commencez à saisir le nom d’un projet, d’une tâche ou d’un problème spécifique dans la variable **Résolution du projet**, **Tâche** ou **Problème** puis cliquez dessus lorsqu’il apparaît dans la liste.
+1. Commencez à saisir le nom d’un projet, d’une tâche ou d’un problème spécifique dans la variable **Résolution du projet**, **Tâche**, ou **Problème** puis cliquez dessus lorsqu’il apparaît dans la liste.
 
    >[!NOTE]
    >

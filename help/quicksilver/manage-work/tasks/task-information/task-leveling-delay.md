@@ -6,10 +6,10 @@ description: Parfois, il peut y avoir des conflits entre les planifications de t
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -50,12 +50,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
-## Ajouter un délai de niveau à une tâche
+## Ajout d’un délai de niveau à une tâche
 
 1. Accédez à une tâche pour laquelle vous souhaitez ajouter un délai de niveau.
 1. Cliquez sur le bouton **Icône Plus** à droite du nom de la tâche, puis cliquez sur **Modifier**.
-
-   ![](assets/qs-task-edit-icon-highlighted-350x154.png)
 
 1. Cliquez sur **Paramètres**.
 
@@ -67,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Choisissez l’une des options suivantes pour les unités de temps :
 
    * Minutes
-   * Heures. Il s’agit de la valeur par défaut.
+   * Heures. Il s’agit du paramètre par défaut.
    * Jours
    * Semaines
    * Mois
@@ -81,6 +79,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Le temps écoulé est une unité de temps pour la durée d’une tâche. Il s’agit de l’heure entre la date de début planifiée et la date de fin planifiée d’une tâche qui comprend les jours fériés, les week-ends et les heures de congé. En d&#39;autres termes, le temps écoulé est le passage des jours calendaires.
 
-1. Cliquer sur **Enregistrer**. 
+1. Cliquez sur **Enregistrer**. 
 
  

@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 3%
+source-wordcount: '2506'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -77,8 +77,6 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Facultatif) Pour modifier des informations limitées sur un problème, cliquez sur **Détails du problème** dans le panneau de gauche.
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
@@ -172,7 +170,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
         <li> <p><strong>Aucun</strong> </p> </li> 
         <li> <p><strong>Faible</strong> </p> </li> 
         <li> <p><strong>Normal</strong> </p> </li> 
-        <li> <p><strong>Élevé</strong> </p> </li> 
+        <li> <p><strong>Élevée</strong> </p> </li> 
         <li> <p><strong>Urgent</strong> </p> </li> 
        </ul> <p>Selon les préférences du projet sélectionnées par votre administrateur Workfront, les noms des priorités peuvent être différents pour vous. Pour plus d’informations sur la modification des priorités, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Créer et personnaliser des priorités</a>.</p> </td> 
      </tr> 
@@ -195,19 +193,19 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
       <td role="rowheader">Type</td> 
       <td> <p>Selon les Propriétés de la file d’attente sélectionnées par votre chef de projet dans la zone Détails de la file d’attente du projet, vous pouvez peut-être spécifier le type de problème. Sélectionnez l’une des options suivantes dans le <b>Type</b> menu déroulant : </p> 
        <ul> 
-        <li> <p><strong>Rapport sur les bogues</strong> </p> </li> 
-        <li> <p><strong>Modifier l'ordre</strong> </p> </li> 
+        <li> <p><strong>Rapport de bogues</strong> </p> </li> 
+        <li> <p><strong>Modifier l’ordre</strong> </p> </li> 
         <li> <p><strong>Problème</strong> </p> </li> 
-        <li> <p><strong>Demande</strong> </p> </li> 
+        <li> <p><strong>Requête</strong> </p> </li> 
        </ul> <p>Selon les préférences du projet sélectionnées par votre administrateur Workfront, les noms des types de problèmes peuvent être différents pour vous.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Contact principal</td> 
-      <td>Par défaut, le contact Principal est le créateur du problème. Pour modifier ce nom, commencez à saisir le nom de tout utilisateur principal dans Workfront, puis sélectionnez-le dans la liste. Un problème ne peut avoir qu’un seul contact Principal.<br> Si vous modifiez le contact Principal, le contact Principal d’origine a toujours l’accès Gérer au problème. Lorsque vous partagez un problème, vous devez supprimer manuellement cet accès de la zone Accès au problème .
+      <td>Par défaut, le contact par Principal est le créateur du problème. Pour modifier ce paramètre, commencez à saisir le nom de tout utilisateur actif dans Workfront, puis sélectionnez-le dans la liste. Un problème ne peut avoir qu’un contact de Principal.<br> Si vous modifiez le contact de Principal, le contact principal d’origine a toujours l’accès Gérer au problème. Lorsque vous partagez un problème, vous devez supprimer manuellement cet accès de la zone Accès au problème .
 
    <b>CONSEIL</b>
 
-   <p>Lors de l’ajout d’un utilisateur Contact Principal, notez l’avatar, le rôle Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.</p>
+   <p>Lors de l’ajout d’un utilisateur Contact Principal, notez l’avatar, le rôle de Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.</p>
       <p> Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs</a>.</p>
 
 
@@ -237,7 +235,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
       <td role="rowheader">Résolu par</td> 
       <td> <p>Cela indique si le problème est résolu par un autre objet. Vous pouvez choisir si ce problème est résolu par une tâche, un projet ou un autre problème dans le menu déroulant, puis commencer à saisir le nom de la tâche, du projet ou du problème qui résoudra le problème. Sélectionnez-le lorsqu’il apparaît dans la liste.</p>
 
-   <b>NOTE</b>
+   <b>REMARQUE</b>
 
    Lorsque vous sélectionnez un objet pour résoudre un problème, l’état du problème est lié à l’état de l’objet de résolution et ne peut pas être modifié sur le problème. Pour plus d’informations sur la résolution d’objets, voir <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Présentation de la résolution et des objets résolvables </a>.
 
@@ -287,15 +285,15 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
    >[!TIP]
    >
-   >Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous ne pouvez affecter que des utilisateurs, des rôles de tâche et des équipes principaux.
+   >Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous pouvez affecter uniquement les utilisateurs, les rôles de tâche et les équipes actifs.
    >
    >
    >Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
    >
-   >* Réaffectez l’élément de travail aux principales ressources.
-   >* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez la tâche à l’équipe principale.
+   >* Réaffectez la tâche aux ressources actives.
+   >* Associez les utilisateurs d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
-1. (Facultatif) Indiquez si une personne désignée est la personne désignée Principale sur le problème, en pointant la souris sur le nom de la personne désignée et en cliquant sur **Rendre Principal**. Une équipe ne peut pas être la Principale personne désignée pour un problème.
+1. (Facultatif) Indiquez si une personne désignée est la personne désignée principale sur le problème, en pointant la souris sur le nom de la personne désignée et en cliquant sur **Rendre Principal**. Une équipe ne peut pas être la principale personne désignée pour un problème.
 1. Mettez à jour les champs suivants :
 
    <table style="table-layout:auto"> 
@@ -326,7 +324,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. Dans le **Ajouter un formulaire personnalisé** , sélectionnez le ou les formulaires personnalisés à associer au problème. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un problème.
+1. Dans le **Ajouter un formulaire personnalisé** , sélectionnez le ou les formulaires personnalisés à associer au problème. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les formulaires personnalisés actifs s’affichent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un problème.
 
 1. (Conditionnel) Si vous avez joint un formulaire personnalisé au problème, modifiez les champs du formulaire. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer le problème.
 
@@ -358,7 +356,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
        <p>Sélectionnez un processus d’approbation à associer au problème. Votre administrateur Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer à des problèmes. Utilisateurs disposant d’un accès administratif aux processus de validation <span> Vous pouvez également créer des processus d’approbation spécifiques à un groupe.</span>Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les tâches</a>. </p> 
        <p>Tenez compte des points suivants lors de l’ajout de processus de validation : </p> 
        <ul> 
-       <li>Seuls les principaux processus de validation s'affichent dans la liste. </li> 
+       <li>Seuls les processus de validation actifs s'affichent dans la liste. </li> 
        <li> <p>Les processus de validation à l’échelle du système et spécifiques aux groupes s’affichent dans la liste. Un processus de validation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> <p>Important : Si le groupe du projet change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?</a>. </p> </li> 
        <li> <p>Vous pouvez définir des processus d’approbation par défaut qui seront automatiquement associés aux problèmes lors de la création de files d’attente de demandes ou de rubriques de files d’attente. Pour plus d’informations sur la mise à jour des détails de la file d’attente, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>. Pour plus d’informations sur la création de rubriques de file d’attente, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Création de rubriques de file d’attente</a>. </p> </li> 
        <li>Lorsque des problèmes de modification en masse se produisent, les scénarios suivants se présentent : 
@@ -377,7 +375,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
     </tbody> 
    </table>
 
-1. Cliquer sur **Enregistrer.**
+1. Cliquez sur **Enregistrez.**
 
 ## Modification d’un problème dans l’en-tête du problème (limité)
 

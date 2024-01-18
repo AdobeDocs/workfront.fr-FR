@@ -7,9 +7,9 @@ description: Un objet résolvable est un problème dont la résolution est liée
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1743'
 ht-degree: 1%
 
 ---
@@ -78,11 +78,11 @@ Selon la manière dont l’administrateur de Workfront ou de groupe a configuré
 
 Les scénarios suivants existent :
 
-* Si l’administrateur de Workfront ou de groupe dispose de la variable **Conserver le problème d’origine et lier sa résolution à la tâche** et le **Conserver le problème d’origine et lier sa résolution au projet** sélectionné et le **Autoriser la modification de ces paramètres lors de la conversion** si cette option n’est pas sélectionnée, vous ne pourrez pas modifier ces paramètres lorsque vous convertissez des problèmes en tâches ou en projets.\
-   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+* Si l’administrateur de Workfront ou de groupe dispose de la variable **Conserver le problème d’origine et lier sa résolution à la tâche** et la variable **Conserver le problème d’origine et lier sa résolution au projet** sélectionné et le **Autoriser la modification de ces paramètres lors de la conversion** si cette option n’est pas sélectionnée, vous ne pourrez pas modifier ces paramètres lorsque vous convertissez des problèmes en tâches ou en projets.\
+  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Si l’administrateur de Workfront ou de groupe dispose de la variable **Conserver le problème d’origine et lier sa résolution à la tâche** et le **Conserver le problème d’origine et lier sa résolution au projet** soit sélectionnée, soit désélectionnée et la variable **Autoriser la modification de ces paramètres lors de la conversion** sélectionné, vous pourrez modifier ces paramètres pendant la conversion des problèmes en tâches ou projets.\
-   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+* Si l’administrateur de Workfront ou de groupe dispose de la variable **Conserver le problème d’origine et lier sa résolution à la tâche** et la variable **Conserver le problème d’origine et lier sa résolution au projet** soit sélectionnée, soit désélectionnée et la variable **Autoriser la modification de ces paramètres lors de la conversion** sélectionné, vous pourrez modifier ces paramètres pendant la conversion des problèmes en tâches ou projets.\
+  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Pour plus d’informations sur la conversion de problèmes en tâches et projets, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -96,7 +96,7 @@ Pour plus d’informations sur la conversion de problèmes en tâches et projets
 <p>To tie the resolution of an issue to the resolution of a project, task, or issue:</p>
 <ol>
 <li value="1">Navigate to an issue whose resolution you want to tie to a task or a project.</li>
-<li value="2"> <p>  Click the <strong>Issue Details</strong> > <strong>Overview</strong> area. </p> <p> <img src="assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png" style="width: 350;height: 462;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="2"> <p>  Click the <strong>Issue Details</strong> > <strong>Overview</strong> area. </p>  </li>
 <li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Issue Details section. </p> </li>
 <li value="4">At the bottom of the form,  click in the <strong>Resolved By</strong> field,  and select from the following types of resolving objects:
 <ul>
@@ -189,7 +189,7 @@ L’emplacement de l’objet de résolution est identique pour les tâches et le
 1. Accédez à un projet ou à une tâche que vous avez créé en convertissant un problème au projet ou à la tâche.
 1. Cliquez sur le bouton **Détails du projet** ou le **Détails de la tâche** et cliquez pour la développer.
 1. Cliquez sur **Présentation**.
-1. Dans la partie inférieure de l’onglet, recherchez **Cela résout** field : le problème qui est l’objet résolvable du projet ou de la tâche est répertorié dans ce champ.
+1. Dans la partie inférieure de l’onglet, localisez sur **Cela résout** field : le problème qui est l’objet résolvable du projet ou la tâche est répertorié dans ce champ.
 
    >[!NOTE]
    >
@@ -214,50 +214,50 @@ Le tableau suivant indique les champs que vous pouvez afficher et dans quelles v
  <thead> 
   <tr> 
    <th><strong>Champ dans la vue</strong> </th> 
-   <th><strong>Vue Événement</strong> </th> 
+   <th><strong>Mode Problème</strong> </th> 
    <th><strong>Vue Tâche</strong> </th> 
-   <th><strong>Vue Projet</strong> </th> 
+   <th><strong>Vue du projet</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Comporte des résolvables</strong>: Affiche une <strong>True</strong> si des problèmes résolvables sont associés au projet ou à la tâche, et qu’un <strong>False</strong> dans le cas contraire.</td> 
+   <td><strong>Comporte des résolvables</strong>: affiche une <strong>True</strong> si des problèmes résolvables sont associés au projet ou à la tâche, et qu’un <strong>False</strong> dans le cas contraire.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Nom original du problème, Date d’entrée originale du problème, Nom de l’auteur</strong>: Affiche le nom et la date d’entrée du problème d’origine, ainsi que le nom de l’utilisateur qui a créé le problème dans une vue personnalisée en mode texte.<br>Pour plus d’informations sur la création d’une vue personnalisée de mode Texte pour un projet, un rapport de tâche ou une liste afin d’afficher des informations sur le problème d’origine, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Afficher : afficher les informations de problème d’origine dans les listes de tâches et de projets ;</a>.<br></td> 
+   <td><strong>Nom original du problème, Date d’entrée originale du problème, Nom de l’auteur</strong>: affiche le nom et la date d’entrée du problème d’origine, ainsi que le nom de l’utilisateur qui a créé le problème dans une vue personnalisée en mode texte.<br>Pour plus d’informations sur la création d’une vue personnalisée de mode texte pour un projet, un rapport de tâche ou une liste afin d’afficher des informations sur le problème d’origine, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Afficher : affiche les informations de problème d’origine sur les listes de tâches et de projets</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Resolvables :</strong> Affiche une liste de tous les objets résolvables dans une vue personnalisée de mode texte pour un projet, un rapport de tâche ou une liste.</p> <p>Pour plus d’informations sur la création de cette vue, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Afficher : Objets résolvables dans un rapport de tâche ou de projet</a></p> </td> 
+   <td> <p><strong>Resolvables :</strong> Affiche une liste de tous les objets résolvables dans une vue personnalisée de mode texte pour un projet, un rapport de tâche ou une liste.</p> <p>Pour plus d’informations sur la création de cette vue, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Affichage : objets résolvables dans un rapport de tâche ou de projet</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Émetteur de problème converti</strong>: Affiche des informations sur l’utilisateur qui a initialement consigné le problème qui a été converti ultérieurement en tâche. </td> 
+   <td><strong>Émetteur de problème converti</strong>: affiche des informations sur l’utilisateur qui a initialement consigné le problème qui a été converti ultérieurement en tâche. </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Résoudre le projet</strong>: Affiche des informations sur le projet de résolution qui a été converti à partir du problème d’origine ou désigné manuellement comme objet de résolution d’un problème.</td> 
+   <td><strong>Résoudre le projet</strong>: affiche des informations sur le projet de résolution qui a été converti à partir du problème d’origine ou désigné manuellement comme objet de résolution d’un problème.</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Résoudre la tâche</strong>: Affiche des informations sur la tâche de résolution qui a été convertie à partir du problème d’origine ou qui a été désignée manuellement comme objet de résolution d’un problème.</td> 
+   <td><strong>Résoudre la tâche</strong>: affiche des informations sur la tâche de résolution qui a été convertie à partir du problème d’origine ou désignée manuellement comme objet de résolution d’un problème.</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Résolution du problème</strong>: Affiche des informations sur la résolution du problème qui a été désignée manuellement comme objet de résolution d’un problème.</td> 
+   <td><strong>Résoudre le problème</strong>: affiche des informations sur la résolution du problème qui a été désignée manuellement comme objet de résolution d’un problème.</td> 
    <td> ✓</td> 
    <td> </td> 
    <td> </td> 

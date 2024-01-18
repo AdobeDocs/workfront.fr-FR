@@ -6,9 +6,9 @@ description: Vous pouvez définir une priorité pour un problème afin d’indiq
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '369'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -97,11 +97,9 @@ Reportez-vous au tableau suivant pour comprendre chaque libellé de priorité pa
 ## Mise à jour de la priorité d’un problème {#update-the-priority-of-an-issue}
 
 1. Accédez au problème dont vous souhaitez modifier la priorité.
-1. Cliquez sur **Détails du problème** dans le panneau de gauche.
+1. Cliquez sur **Détails du problème** dans le panneau de gauche.
 
-   ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
-
-   Le **Présentation** doit s’afficher par défaut.
+   La variable **Présentation** doit s’afficher par défaut.
 
 1. Cliquez sur le bouton **Priorité** dans le champ **Informations de base** zone.
 
@@ -111,4 +109,4 @@ Reportez-vous au tableau suivant pour comprendre chaque libellé de priorité pa
 
    Les options peuvent varier en fonction de la configuration des priorités par l’administrateur Workfront dans votre système.
 
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquez sur **Enregistrer les modifications**.
