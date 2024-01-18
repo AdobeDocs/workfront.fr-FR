@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ Pour participer à cette version de l’Alpha, veillez à ce que l’équipe pro
 
 ## Dernière version
 
+## Version d’Alpha 6 - janvier 2024
+
+Dans cette version du 6e Alpha, nous avons :
+
+* Amélioration de l’expérience de l’ajout de participants à l’aide d’une nouvelle fenêtre contextuelle afin d’empêcher l’ajout accidentel de personnes et de leur faire notifier.
+* Ajout d’un nouveau widget &quot;En attente d’approbation&quot; qui affiche toutes les approbations en attente pour les projets que vous possédez, y compris la possibilité de voir tous ceux qui sont sur l’approbation, leur état et la possibilité de rappeler à quiconque n’a pas encore pris de décision.
+* Ajout d’une nouvelle action &quot;Terminer ma révision&quot; pour tous les réviseurs qu’ils peuvent utiliser pour indiquer qu’ils ont terminé avec leur étape.
+
+Regardez la présentation complète de la vidéo ci-dessous :
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+
+## _Versions antérieures_
+
 ### Version d’Alpha 5 - septembre 2023
 
 Dans cette version du 5e Alpha, nous avons :
@@ -36,11 +50,7 @@ Dans cette version du 5e Alpha, nous avons :
 * Ajout de la possibilité d’ajouter des approbateurs externes
 * Amélioration de l’affichage pour les approbateurs externes permettant de prévisualiser, télécharger et commenter un document.
 
-Regardez la présentation complète de la vidéo ci-dessous :
-
->[!VIDEO](https://video.tv.adobe.com/v/3424613/)
-
-## _Versions antérieures_
+Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Version d’Alpha 4 - Mai 2023
 
@@ -48,15 +58,13 @@ Dans cette version du 4e Alpha, avant de passer en production uniquement pour un
 
 Nous sommes ravis de cette étape et nous attendons avec impatience d’en savoir plus à venir !
 
-Regardez la présentation complète de la vidéo ci-dessous :
-
-Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3420094/){target=_blank}
+Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Version d’Alpha 3 - Mars 2023
 
 Dans cette version du troisième Alpha, nous avons intégré vos commentaires en introduisant des messages de succès qui s’affichent lorsque vous réalisez des actions comme l’ajout ou la suppression d’approbateurs et de réviseurs. En outre, cette version offre une meilleure visibilité des approbations en attente, qui peuvent désormais être visualisées sur les pages d’accueil et Mes mises à jour , ce qui permet aux utilisateurs d’approuver facilement des documents directement à partir de ces pages.
 
-Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3417854/){target=_blank}
+Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Version d’Alpha 2 - janvier 2023
 
@@ -70,7 +78,7 @@ Regardez nos [présentation vidéo](https://video.tv.adobe.com/v/3412837){target
 
 Si vous souhaitez suivre la vidéo, les éléments suivants doivent être configurés dans votre environnement Aperçu :
 
-* Ajouter des utilisateurs:
+* Ajouter des utilisateurs :
    * Approbateur d’Angela
    * Andrew Approver
    * Alice Approver
