@@ -4,10 +4,11 @@ description: 21.4 Améliorations de l’intégration
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: d3e2342e-1c44-49c2-90bc-9fd77fbb2db8
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ Les mises à jour suivantes sont désormais visibles dans l’intégration Workf
 * Workfront for Slack a une nouvelle apparence.
 * Vous recevez maintenant votre Workfront pour les notifications de Slack en temps réel.
 
-   Par exemple, si vous êtes affecté à une tâche, vous recevez cette notification dès que vous êtes affecté. Auparavant, il pouvait y avoir un délai avant que la notification n’apparaisse en Slack.
+  Par exemple, si vous êtes affecté à une tâche, vous recevez cette notification dès que vous êtes affecté. Auparavant, il pouvait y avoir un délai avant que la notification n’apparaisse en Slack.
 
 Cette mise à jour nécessite que vous réautorisiez votre intégration Workfront for Slack. Pour plus d’informations sur l’autorisation de l’intégration, voir [Configuration d’Adobe Workfront pour Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 

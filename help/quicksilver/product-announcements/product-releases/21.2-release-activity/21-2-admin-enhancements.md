@@ -6,10 +6,11 @@ title: 21.2 Améliorations apportées aux administrateurs
 description: Cette page décrit toutes les améliorations apportées par l’administrateur à la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées par l’administrateur à la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, voir [Présentation de la version 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Pour les administrateurs : Afficher les informations du journal d’audit sur de nombreuses zones supplémentaires dans Workfront
+## Pour les administrateurs : affichez les informations du journal d’audit sur de nombreux autres domaines dans Workfront
 
 Dans la zone Logs d’audit , vous pouvez désormais effectuer le suivi et la résolution des problèmes liés à d’autres domaines dans Workfront. Désormais, le système génère des entrées de journal d’audit lorsqu’un utilisateur effectue l’une des opérations suivantes :
 
@@ -35,9 +36,9 @@ Dans la zone Logs d’audit , vous pouvez désormais effectuer le suivi et la r�
 
 Pour plus d’informations, voir [Journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes d’administration de la nouvelle expérience Workfront, Partie 2 : Configuration du projet](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans la variable [Principes d’administration de la nouvelle expérience Workfront, Partie 2 : configuration du projet](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) parcours d’apprentissage sur Workfront One.
 
-## Pour les administrateurs de groupe : Amélioration des contrôles pour le déplacement de sous-groupes et mise à jour de la barre d’outils
+## Pour les administrateurs de groupe : amélioration des contrôles pour le déplacement des sous-groupes et mise à jour de la barre d’outils
 
 >[!NOTE]
 >
@@ -47,11 +48,11 @@ Nous avons apporté les améliorations suivantes à la zone Sous-groupes de la c
 
 * Pour vous permettre de réorganiser rapidement les groupes que vous gérez, nous avons ajouté un bouton de barre d’outils &quot;Ajouter des sous-groupes&quot; qui permet de créer de nouveaux sous-groupes et de déplacer les groupes existants.
 
-   Pour plus d’informations, voir [Gestion d’un sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Pour plus d’informations, voir [Gestion d’un sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 * La barre d’outils de la zone Sous-groupes harmonise désormais les listes avec d’autres listes modernisées de la nouvelle expérience Workfront. Lorsque vous sélectionnez des groupes, les icônes représentent les fonctions disponibles dans la barre d’outils.
 
-## Nouveautés pour les administrateurs : Mise à jour de l’aspect sur la page des préférences Fiches horaires et heures
+## Nouveautés pour les administrateurs : mise à jour de l’aspect sur la page des préférences Fiches horaires et heures
 
 Pour améliorer l’expérience sur la page des préférences Fiches horaires et heures, nous avons mis à jour l’interface utilisateur afin qu’elle corresponde à l’aspect plus moderne trouvé ailleurs dans Workfront.
 
@@ -61,7 +62,7 @@ Les libellés des 2 options de bouton radio sont fractionnés afin qu’ils ne s
 
 Pour plus d’informations sur les préférences Fiches horaires et Heures, voir [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-## Pour les administrateurs de groupe : Améliorations de la liste dans la zone Groupes
+## Pour les administrateurs de groupe : améliorations de la liste dans la zone Groupes
 
 >[!NOTE]
 >
@@ -76,7 +77,7 @@ Pour plus d’informations sur les listes modernisées dans Workfront, voir [Mod
 
 Pour plus d’informations sur la zone Groupes, voir [Gestion des groupes](../../../administration-and-setup/manage-groups/manage-groups.md).
 
-## Pour les administrateurs de groupe : Création et modification de programmes à partir de la zone Groupes dans Configuration
+## Pour les administrateurs de groupe : créez et modifiez des programmes à partir de la zone Groupes dans Configuration.
 
 >[!NOTE]
 >
@@ -86,7 +87,7 @@ Nous continuons à faciliter la gestion de vos groupes et de leurs objets associ
 
 Pour plus d’informations, voir [Créer, modifier et afficher les programmes d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
-## Pour les administrateurs : En-têtes actualisés dans la zone Configuration
+## Pour les administrateurs : en-têtes actualisés dans la zone Configuration
 
 >[!NOTE]
 >
@@ -98,11 +99,11 @@ Pour mieux orienter les administrateurs dans la zone Configuration et maintenir 
 * Informations de hiérarchie au-dessus du nom de chaque sous-page (sur la page d’un seul groupe, par exemple)
 * Styles et tailles de police modernisés
 
-   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 Pour plus d’informations sur la zone Configuration, voir [Administration et configuration](../../../administration-and-setup/administration-and-setup.md).
 
-## Pour les administrateurs de groupe : Affichage et gestion d’autres objets de groupe à partir de la page Groupes
+## Pour les administrateurs de groupe : affichez et gérez davantage d’objets de groupe à partir de la page Groupes .
 
 >[!NOTE]
 >
@@ -126,19 +127,19 @@ Pour plus d’informations, voir [Création, modification et affectation de prof
 
 Pour plus d’informations sur l’option Fiches horaires et heures d’un niveau d’accès, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-## Pour les administrateurs : Définition du filtre, de l’affichage et du regroupement que les utilisateurs voient dans les listes d’objets
+## Pour les administrateurs : définissez les options Filtre, Affichage et Groupement visibles par les utilisateurs dans les listes d’objets.
 
 En utilisant un modèle de mise en page dans la nouvelle expérience Workfront, vous pouvez désormais définir le filtre, l’affichage et le regroupement par défaut que les utilisateurs voient dans les listes d’objets de Workfront.
 
-Par exemple, au lieu de laisser le contrôle Liste de filtres défini sur Tous, vous pouvez le changer en Mon équipe d’accueil. Ainsi, chaque fois qu’un utilisateur affiche une liste d’objets, il n’inclut que les objets associés à l’équipe de l’utilisateur.
+Par exemple, au lieu de laisser le contrôle Liste de filtres défini sur Tous, vous pouvez le changer en Mon équipe d’accueil. Ainsi, chaque fois qu’un utilisateur affiche une liste d’objets, il inclut uniquement les objets associés à l’équipe de l’utilisateur.
 
 Auparavant, ces valeurs par défaut ne pouvaient pas être personnalisées. Elles étaient donc toujours définies comme Toutes pour les filtres, Standard pour les vues et Rien pour les regroupements. En plus de la nouvelle fonctionnalité, vous pouvez masquer ces trois paramètres à vos utilisateurs s’ils n’en ont pas besoin.
 
 Pour plus d’informations, voir [Personnalisation des filtres, des vues et des groupes à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes fondamentaux de l’administrateur dans la nouvelle expérience Workfront, Partie 3 : Expérience de contrôle et d’interface](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans la variable [Principes fondamentaux de l’administrateur dans la nouvelle expérience Workfront, Partie 3 : expérience de contrôle et d’interface](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) parcours d’apprentissage sur Workfront One.
 
-## Nouveautés pour les administrateurs : Répertorier facilement les rapports qui utilisent actuellement un champ personnalisé
+## Nouveau pour les administrateurs : répertorie facilement les rapports qui utilisent actuellement un champ personnalisé.
 
 >[!NOTE]
 >
@@ -152,7 +153,7 @@ Auparavant, sans cette colonne, vous deviez créer manuellement un rapport en mo
 
 Pour plus d’informations, [Afficher tous les rapports qui utilisent un champ ou un widget personnalisé spécifique](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 
-## Pour les administrateurs de groupe : Affichage et gestion d’un groupe et de ses objets au même endroit
+## Pour les administrateurs de groupe : affichez et gérez un groupe et ses objets au même endroit.
 
 >[!NOTE]
 >
@@ -169,7 +170,7 @@ Pour plus d’informations, voir les articles suivants :
 * [Création et gestion des profils de feuille de temps d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 * [Affichage et gestion des membres de sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
 
-## Nouveautés pour les administrateurs : Autres options de mise en forme de texte disponibles dans les champs de formulaire personnalisé
+## Nouveau pour les administrateurs : plus d’options de formatage de texte disponibles dans les champs de formulaire personnalisé
 
 Lorsque les utilisateurs saisissent des champs de formulaire personnalisé qui autorisent le formatage, ils peuvent désormais organiser le texte à l’aide de puces, de numérotation, d’hyperliens et de guillemets de bloc, en plus du gras, de l’italique et du soulignement.
 

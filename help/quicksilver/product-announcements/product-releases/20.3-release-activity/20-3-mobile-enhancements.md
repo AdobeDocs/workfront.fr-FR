@@ -5,10 +5,11 @@ title: 20.3 Améliorations de l’intégration et des mobiles
 description: Cette page décrit toutes les améliorations apportées à l’intégration et aux appareils mobiles avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f9f7dad59a107daea5eae1da4b3f59230da8df88
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 20
 
 Workfront a récemment acquis une technologie pour une toute nouvelle génération de Workfront Fusion, la puissante plateforme d’intégration qui permet de travailler librement sur pratiquement n’importe quelle application web.
 
-Les clients précédents de Workfront Fusion peuvent s’attendre à une plus grande puissance, rapidité, convivialité et prévisibilité dans Workfront Fusion 2.0. Nous sommes en train de migrer les clients actuels de Workfront Fusion vers Workfront Fusion 2.0. Contactez votre chargé de compte pour plus d’informations.
+Les clients précédents de Workfront Fusion peuvent s’attendre à une puissance, une vitesse, une convivialité et une prévisibilité accrues dans Workfront Fusion 2.0. Nous sommes en train de migrer les clients actuels de Workfront Fusion vers Workfront Fusion 2.0. Pour plus d’informations, contactez votre chargé de compte.
 
 Pour plus d’informations, voir [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
@@ -45,7 +46,7 @@ Voici quelques exemples de commandes vocales que vous pouvez utiliser pour inter
 
 * Me montrer mes derniers articles
 * Supprimer une tâche
-* Recherchez le projet marketing de l’automne 2020.
+* Recherchez le projet marketing de l’automne 2020
 
 Commandes Pin
 

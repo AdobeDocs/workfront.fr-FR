@@ -6,14 +6,16 @@ title: Activité de mise à jour Adobe Workfront BAT 23.3 Semaine du 5 juin 2023
 description: Cette page décrit toutes les améliorations apportées à la version 23.3 d’Adobe Workfront BAT dans l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 5 juin 2023.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 9aa69a4375d432218bd25a0927476d92178d8cb5
+recommendations: noDisplay, noCatalog
+exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-# Activité de version Adobe Workfront Bon à tirer 23.3 : Semaine du 5 juin 2023
+# Activité de mise à jour du Bon à tirer 23.3 d’Adobe Workfront : Semaine du 5 juin 2023
 
 Cette page décrit toutes les améliorations apportées à la version 23.3 d’Adobe Workfront BAT à l’environnement Aperçu le 5 juin 2023.
 
@@ -30,4 +32,3 @@ Les utilisateurs peuvent continuer à créer des bons à tirer pour les types de
 La taille de fichier PowerPoint et Word est désormais limitée à 512 Mo.
 
 Pour plus d’informations, voir [Types et limites de taille de fichier de vérification pris en charge - Aperçu](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
-

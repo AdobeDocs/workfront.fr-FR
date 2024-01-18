@@ -6,10 +6,11 @@ title: 21.2 Améliorations de l’intégration
 description: Cette page décrit toutes les améliorations apportées à l’intégration avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 82279305-d758-4ab3-b77c-8e65a3d19a9f
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---

@@ -6,10 +6,11 @@ title: 21.1 Améliorations de l’intégration
 description: Cette page décrit toutes les améliorations apportées à l’intégration avec la version 21.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 15 février 2021.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 0cd407f6-2593-4de8-9456-c26ba231e482
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Cette page décrit toutes les améliorations apportées à l’intégration avec
 
 Pour obtenir la liste de toutes les modifications disponibles avec la version 21.1, voir [Présentation de la version 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
-## Améliorations des notifications Adobe Workfront dans les Microsofts Teams
+## Améliorations des notifications Adobe Workfront dans Microsoft Teams
 
 Pour faciliter l’utilisation de Workfront par le biais de Microsofts Teams, nous avons ajouté la nouvelle fonctionnalité suivante aux notifications de Microsofts Teams envoyées depuis Workfront :
 

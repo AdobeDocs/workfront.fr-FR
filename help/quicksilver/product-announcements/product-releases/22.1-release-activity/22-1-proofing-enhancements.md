@@ -3,11 +3,12 @@ title: 2.2.1 Améliorations de la vérification
 description: 2.2.1 Améliorations de la vérification
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 750c0a3863989e758ec35b11e48603300fa31fc7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,6 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 22
 >* Clients de la zone EMEA avec vérification intégrée créée après le 6 juillet 2021
 >* Tous les clients américains
 >
-
 
 Pour offrir une expérience plus intégrée entre Workfront et BAT, nous avons apporté plusieurs améliorations aux fonctionnalités de vérification pour les réviseurs et les demandeurs :
 

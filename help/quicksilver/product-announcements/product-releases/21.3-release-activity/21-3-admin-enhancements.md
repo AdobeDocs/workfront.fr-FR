@@ -4,10 +4,11 @@ description: 21.3 Améliorations apportées aux administrateurs
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -22,13 +23,13 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 21
 
 La fonctionnalité de plans directeurs sera généralement disponible avec la version 21.3 de production pour la semaine du 21 juin 2021.
 
-Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui se développe avec vous. Les administrateurs système peuvent parcourir le catalogue de plans directeurs et installer des modèles de projet prêts à l’emploi.
+Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui s’adapte à vos besoins. Les administrateurs système peuvent parcourir le catalogue de plans directeurs et installer des modèles de projet prêts à l’emploi.
 
 Pour plus d’informations, voir [Présentation des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 Cette fonctionnalité est désormais incluse dans la variable [Modèles de projet dans la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) parcours d’apprentissage sur Workfront One.
 
-## Nouveautés pour les administrateurs de groupe : Créer et gérer des états pour un groupe à n’importe quel niveau
+## Nouveautés pour les administrateurs de groupe : créer et gérer des états pour un groupe à n’importe quel niveau.
 
 Afin de faciliter la gestion et le contrôle indépendants des workflows pour tous les niveaux d’une organisation, nous avons introduit la possibilité de créer et de gérer des états pour les sous-groupes. Désormais, dans la section Groupes de la section Configuration, vous pouvez effectuer les opérations suivantes pour les groupes que vous administrez à n’importe quel niveau :
 
@@ -44,7 +45,7 @@ Auparavant, cette fonctionnalité n’était disponible que pour les groupes de 
 
 Pour plus d’informations, voir [Gestion des états d’un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-## Nouveautés pour les administrateurs : Créer un formulaire personnalisé d’enregistrement de facturation
+## Nouveau pour les administrateurs : création d’un formulaire personnalisé d’enregistrement de facturation
 
 Vous pouvez désormais améliorer la manière dont les utilisateurs capturent les informations de facturation en créant un formulaire personnalisé d’enregistrement de facturation. Les utilisateurs peuvent joindre le formulaire personnalisé à un enregistrement de facturation, le remplir et exécuter des rapports incluant les informations contenues dans le formulaire.
 

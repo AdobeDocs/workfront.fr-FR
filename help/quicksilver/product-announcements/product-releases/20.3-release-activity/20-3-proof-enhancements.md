@@ -5,10 +5,11 @@ title: 20.3 Améliorations apportées aux bons à tirer
 description: Cette page décrit toutes les améliorations du BAT apportées à la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---

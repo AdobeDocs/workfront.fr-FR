@@ -4,10 +4,11 @@ description: Améliorations de la version 20.4 du BAT
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 0469ac71-66d1-4651-918a-99f2b6038b7c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ Auparavant, vous pouviez approuver un document uniquement à partir de la zone D
 
 Pour plus d’informations, voir [Prendre une décision sur un BAT dans la visionneuse de vérification](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
-## Génération automatique d’un BAT lors du téléchargement d’un paramètre de document désactivé par défaut
+## Générer automatiquement un BAT lors du téléchargement d’un paramètre de document désactivé par défaut
 
 L’option du profil utilisateur permettant de générer automatiquement des bons à tirer lors du téléchargement de documents est désormais désactivée par défaut pour les nouveaux utilisateurs de vérification. Cette modification n’a aucune incidence sur les utilisateurs actuels. Si ce paramètre est activé, il le restera.
 

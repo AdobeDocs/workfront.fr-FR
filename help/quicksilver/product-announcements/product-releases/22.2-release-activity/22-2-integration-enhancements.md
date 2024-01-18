@@ -4,10 +4,11 @@ description: 2.2 Améliorations de l’intégration
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -40,7 +41,7 @@ D’autres workflows pour lesquels vous pouvez envisager d’utiliser l’intég
 
 Pour plus d’informations, voir [Adobe Workfront avec Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
-## Mises à jour du connecteur amélioré pour Workfront
+## Mises à jour du connecteur amélioré pour Workfront et Experience Manager
 
 Workfront pour Experience Manager Enhanced Connector comprend désormais les mises à jour suivantes :
 
@@ -48,7 +49,7 @@ Workfront pour Experience Manager Enhanced Connector comprend désormais les mis
 * Ajout de la prise en charge de la pagination des abonnements aux événements
 * Ajout de la prise en charge d’AEM 6.4.x
 * Ajout de la prise en charge des environnements proxy
-* Plusieurs correctifs de bogues basés sur les commentaires des partenaires et des clients
+* Plusieurs correctifs basés sur les commentaires des partenaires et des clients
 
 Pour plus d’informations, voir [Présentation du connecteur amélioré pour Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 

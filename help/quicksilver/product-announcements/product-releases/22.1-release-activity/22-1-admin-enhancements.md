@@ -4,10 +4,11 @@ description: 2.1 Améliorations apportées aux administrateurs
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ Pour plus d’informations sur la façon dont Workfront consigne les mises à jo
 
 ## Accorder l’accès aux équipes à l’aide des niveaux d’accès
 
-Une nouvelle section de la zone Niveaux d’accès vous donne accès à des contrôles plus détaillés pour gérer l’accès de vos utilisateurs aux équipes. Vous pouvez désormais déterminer qui peut créer, modifier et afficher des équipes.
+Une nouvelle section de la zone Niveaux d’accès vous donne des contrôles plus précis pour gérer l’accès de vos utilisateurs aux équipes. Vous pouvez désormais déterminer qui peut créer, modifier et afficher des équipes.
 
 Cela ne modifie pas l’accès existant de vos utilisateurs aux équipes.
 
@@ -93,7 +94,7 @@ Les améliorations suivantes apportées aux plans directeurs sont désormais dis
 
 Pour plus d’informations, voir [Configuration d’un plan directeur](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-## Gérer plus facilement les adhésions aux entreprises
+## Gérer plus facilement les appartenances à une entreprise
 
 Dans la zone Sociétés, une barre d’outils mise à jour permet d’ajouter facilement des utilisateurs Workfront existants à une entreprise et de supprimer des membres de cette dernière.
 
@@ -131,7 +132,7 @@ Auparavant, vous deviez déverrouiller et reverrouiller les notifications une pa
 
 Pour plus d’informations, voir [Déverrouiller ou verrouiller la configuration des notifications d’événement pour tous les groupes](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-## Pour les administrateurs de groupe : Sélection plus facile d’un groupe de remplacement lors de la suppression d’un groupe
+## Pour les administrateurs de groupe : il est plus facile de sélectionner un groupe de remplacement lorsque vous supprimez un groupe.
 
 Lorsque vous supprimez un groupe, deux améliorations de la zone Supprimer le groupe permettent de sélectionner plus facilement le groupe de remplacement dont vous souhaitez conserver les utilisateurs, les tâches et les sous-groupes du groupe supprimé :
 

@@ -4,10 +4,11 @@ description: 2.2 Améliorations apportées aux administrateurs
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -40,7 +41,6 @@ Pour plus d’informations, voir la section [Commencer à créer un formulaire p
 >* Dans un champ personnalisé calculé, certains champs que vous référencez peuvent ne pas être compatibles avec les types d’objets configurés pour le formulaire. Notre solution est un caractère générique qui permettra au calcul de produire différentes valeurs, selon l’objet auquel le formulaire est attaché. Nous avons ajouté le joker le 24 mars. Pour plus d’informations sur son utilisation, voir la section [Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) dans l’article [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 >* Pour les sauts de section dans les formulaires personnalisés, nous avons créé un ensemble d’autorisations courantes d’affichage et de modification qui fonctionnent pour tous les types d’objets que vous pouvez configurer pour un formulaire. Dans un scénario, nous avons constaté que l’une de ces autorisations, Modification limitée, pouvait entraîner des erreurs sur un formulaire. Ce problème a été corrigé le 24 mars. Pour plus d’informations sur les sauts de section, voir [Ajout d’un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
-
 
 ## Le catalogue des plans directeurs est disponible pour tous les utilisateurs et les administrateurs peuvent autoriser les demandes.
 
@@ -101,7 +101,7 @@ Pour plus d’informations, voir [Désactivation ou réactivation d’un groupe]
 
 Lorsque vous installez un plan directeur, un message affiche désormais les objets spécifiques (tels que les rôles, les équipes ou les groupes) qui ont été correctement installés avec le plan directeur et les objets qui n’ont pas pu être installés. Vous pouvez également afficher la liste des objets installés sur la page Détails du plan directeur en cliquant sur Afficher les détails en regard d’une installation spécifique dans le tableau de l’historique d’installation.
 
-Pour plus d’informations, voir [Installation d’un plan directeur](../../../administration-and-setup/blueprints/blueprints-install.md).
+Pour plus d’informations, voir [Installer un plan directeur](../../../administration-and-setup/blueprints/blueprints-install.md).
 
 ![](assets/blueprints-installation-history-350x95.png)
 
@@ -109,6 +109,6 @@ Pour plus d’informations, voir [Installation d’un plan directeur](../../../a
 
 Certains plans directeurs ne peuvent être installés que dans l’environnement Aperçu à des fins de test.
 
-Si vous accédez au contenu Aperçu uniquement dans votre environnement de production, sandbox 1 ou sandbox 2, le bouton d’installation n’est pas principal et un message d’avertissement peut s’afficher.
+Si vous accédez au contenu Aperçu uniquement dans votre environnement de production, sandbox 1 ou sandbox 2, le bouton d’installation n’est pas actif et un message d’avertissement peut s’afficher.
 
-Pour plus d’informations, voir [Installation d’un plan directeur](../../../administration-and-setup/blueprints/blueprints-install.md).
+Pour plus d’informations, voir [Installer un plan directeur](../../../administration-and-setup/blueprints/blueprints-install.md).

@@ -3,17 +3,19 @@ product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
 title: Activité de mise à jour Adobe Workfront BAT 23.3 Semaine du 8 mai 2023
-description: Cette page décrit toutes les améliorations apportées à la version 23.3 d’Adobe Workfront BAT dans l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production durant la semaine du 8 mai 2023.
+description: Cette page décrit toutes les améliorations apportées à la version 23.3 d’Adobe Workfront BAT dans l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 8 mai 2023.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+recommendations: noDisplay, noCatalog
+exl-id: 22fb9fd0-eb03-4390-9285-43b95b7925ed
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Activité de version Adobe Workfront Bon à tirer 23.3 : Semaine du 8 mai 2023
+# Activité de mise à jour du Bon à tirer 23.3 d’Adobe Workfront : semaine du 8 mai 2023
 
 Cette page décrit toutes les améliorations apportées à la version 23.3 d’Adobe Workfront BAT à l’environnement d’aperçu le 8 mai 2023.
 

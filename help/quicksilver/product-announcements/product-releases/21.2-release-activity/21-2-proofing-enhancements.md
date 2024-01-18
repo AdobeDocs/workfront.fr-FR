@@ -5,11 +5,12 @@ navigation-topic: 2021-2-release-activity
 title: 21.2 Améliorations de la vérification
 description: Cette page décrit toutes les améliorations apportées à la vérification de la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -44,7 +45,7 @@ Pour faciliter la mise en évidence d’informations de vérification utiles, no
 
 Ces champs ne font pas partie du rapport par défaut. Vous devez les ajouter si vous souhaitez les voir.
 
-Cette fonctionnalité est désormais incluse dans la variable [Configurations du système BAT, Partie 2 : Gestion des workflows](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans la variable [Configurations du système BAT, Partie 2 : gestion des workflows](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) parcours d’apprentissage sur Workfront One.
 
 ## Effectuez le report du workflow de BAT existant lors de la génération d’une nouvelle version.
 
