@@ -4,9 +4,9 @@ description: Présentation de la version du premier trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: f233b57fc654866be2b82f86fa964470769c381f
+source-git-commit: 2a825387d0a17b459d3c1204ef57c09bae754452
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,11 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations apportées aux administrateurs](#administrator-enhancements)
+* [Améliorations des panoramas](#boards-enhancements)
 * [Améliorations de la gestion des documents](#document-management-enhancements)
+* [Améliorations de la page d’accueil](#home-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
+* [Améliorations des projets](#project-enhancements)
 * [Améliorations du flux de mise à jour et des notifications](#update-stream-and-notification-enhancements)
 
 ### Améliorations apportées aux administrateurs
@@ -58,7 +61,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les décisions relatives aux BAT/documents sont désormais disponibles pour les 12 mois précédents.</a></p><p>Les rapports Décisions des utilisateurs pour les types de licence nouveaux et hérités affichent désormais le nombre de décisions pour le mois en cours et les 12 mois précédents.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les décisions relatives aux BAT/documents sont désormais disponibles pour les 12 mois précédents.</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Les rapports Décisions des utilisateurs pour les types de licence nouveaux et hérités affichent désormais le nombre de décisions pour le mois en cours et les 12 mois précédents.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -206,7 +209,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau widget Autorisations en attente disponible</a></p><p>Pour faciliter l’affichage de l’état des approbations et des révisions pour les projets que vous détenez, nous avons ajouté un nouveau widget Autorisations en attente à l’accueil. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau widget Autorisations en attente disponible</a></p><p>Pour faciliter l’affichage de l’état des approbations et des révisions pour les projets que vous détenez, nous avons ajouté un nouveau widget Autorisations en attente à l’accueil.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -225,7 +228,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Contrôles administrateur pour la nouvelle page d’accueil à l’aide des modèles de mise en page</a></p><p>Les administrateurs peuvent désormais personnaliser la nouvelle page d’accueil pour les utilisateurs à l’aide de modèles de mise en page. Les options de personnalisation incluent la sélection des widgets obligatoires et de leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour le choix des filtres et des groupes disponibles (ainsi que la définition des valeurs par défaut).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Contrôles administrateur pour la nouvelle page d’accueil à l’aide des modèles de mise en page</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Les administrateurs peuvent désormais personnaliser la nouvelle page d’accueil pour les utilisateurs à l’aide de modèles de mise en page. Les options de personnalisation incluent la sélection des widgets obligatoires et de leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour le choix des filtres et des groupes disponibles (ainsi que la définition des valeurs par défaut).</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -382,7 +385,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Faites glisser et déposez l’image dans un commentaire dans la section Mises à jour .</a></p><p>Pour améliorer le contenu de vos commentaires, vous pouvez désormais faire glisser et déposer rapidement une image dans un commentaire ou une réponse dans la section Mises à jour d’un objet.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Faites glisser et déposez l’image dans un commentaire dans la section Mises à jour .</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Pour améliorer le contenu de vos commentaires, vous pouvez désormais faire glisser et déposer rapidement une image dans un commentaire ou une réponse dans la section Mises à jour d’un objet.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -415,7 +418,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Recherchez un commentaire ou un utilisateur dans la section Mises à jour .</a></p><p>Pour trouver rapidement des informations dans la section Mises à jour d’un objet, vous pouvez désormais rechercher un mot-clé à partir d’un commentaire ou pour tout utilisateur associé à un commentaire.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Recherchez un commentaire ou un utilisateur dans la section Mises à jour .</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Pour trouver rapidement des informations dans la section Mises à jour d’un objet, vous pouvez désormais rechercher un mot-clé à partir d’un commentaire ou pour tout utilisateur associé à un commentaire.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -433,7 +436,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copier et coller une image dans un commentaire dans la section Mises à jour</a></p><p>Pour donner un contexte au contenu d’un message, vous pouvez désormais joindre rapidement des images à vos commentaires en les copiant depuis votre ordinateur et en les collant dans une nouvelle mise à jour ou réponse.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copier et coller une image dans un commentaire dans la section Mises à jour</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Pour donner un contexte au contenu d’un message, vous pouvez désormais joindre rapidement des images à vos commentaires en les copiant depuis votre ordinateur et en les collant dans une nouvelle mise à jour ou réponse.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
