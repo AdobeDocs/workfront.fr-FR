@@ -6,9 +6,9 @@ description: Avec un workflow de base, vous pouvez créer plusieurs validants su
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1842'
 ht-degree: 1%
 
 ---
@@ -27,19 +27,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionnez ou plus élevé</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td>
+   <p>Nouveau : Quelconque</p>
+    <p>Formule actuelle : Pro ou supérieure</p>
+   <p>Formule héritée : sélection ou supérieure</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+    <p>Actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +96,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <th>Résoudre les commentaires</th> 
       <th>Application d’actions aux commentaires</th> 
       <th> <p><strong>Modifier le BAT</strong> </p> </th> 
-      <th>Partager le BAT avec d’autres personnes</th> 
+      <th>Partager le BAT avec les autres</th> 
       <th>Créer une version</th> 
       <th> <p><strong>Affichage des demandes d’approbation dans la zone d’accueil</strong> </p> </th> 
       <th>Ajouter de nouveaux opérateurs validants</th> 
@@ -214,7 +219,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Partager l'épreuve par balisage</td> 
-      <td> <p>Permet au réviseur d’ajouter n’importe quel utilisateur Workfront au BAT, comme expliqué dans la section <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Balisage des utilisateurs pour partager un BAT</a>.</p> <p>Note:  <p>Si ces deux options ne sont pas disponibles (grisées), l’utilisateur dispose déjà d’un profil d’autorisation lui permettant de résoudre les commentaires, d’appliquer des actions aux commentaires et de baliser n’importe quel utilisateur. </p> <p>Si les options ne s’affichent pas, la personne que vous avez ajoutée n’est pas titulaire de licence Workfront.</p> </p> </td> 
+      <td> <p>Permet au réviseur d’ajouter n’importe quel utilisateur Workfront au BAT, comme expliqué dans la section <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Balisage des utilisateurs pour partager un BAT</a>.</p> <p>Remarque :  <p>Si ces deux options ne sont pas disponibles (grisées), l’utilisateur dispose déjà d’un profil d’autorisation lui permettant de résoudre les commentaires, d’appliquer des actions aux commentaires et de baliser n’importe quel utilisateur. </p> <p>Si les options ne s’affichent pas, la personne que vous avez ajoutée n’est pas titulaire de licence Workfront.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -252,12 +257,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Aucun email</td> 
-      <td>Workfront n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est Résumé quotidien (également appelé Non défini). Si vous, ou vos réviseurs, n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td> 
+      <td>Workfront n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est Résumé quotidien (également appelé Non défini). Si vous ou vos réviseurs n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Passez à la [Configuration des paramètres de courrier électronique pour le BAT](#configure-email-settings-for-the-proof) ci-dessous.
+1. Passez à la [Configuration des paramètres de courrier électronique pour le BAT](#configure-email-settings-for-the-proof) ci-dessous
 
 ## Configuration des paramètres de courrier électronique pour le BAT {#configure-email-settings-for-the-proof}
 
@@ -271,13 +276,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </tr>
    <tr>
    <td>Ajout d’un message personnalisé</td>
-   <td>Sélectionnez cette option pour inclure un message personnalisé dans la notification. Vous pouvez spécifier un objet et un corps de message. Le corps du message peut inclure une mise en forme en texte enrichi (gras, puces et liens hypertexte, par exemple).</td>
+   <td>Sélectionnez cette option pour inclure un message personnalisé dans la notification. Vous pouvez spécifier un objet et un corps de message. Le corps du message peut inclure une mise en forme en texte enrichi (gras, puces et liens hypertexte).</td>
    </tr>
    </tbody>
    </table>
 
 
-1. Passez à la [Configuration des paramètres du BAT](#configure-proof-settings) ci-dessous.
+1. Passez à la [Configuration des paramètres du BAT](#configure-proof-settings) ci-dessous
 
 ## Configuration des paramètres du BAT {#configure-proof-settings}
 
@@ -325,7 +330,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
        </ul><p>
         <ul>
          <li><strong>Un accès BAT via un lien email requis pour :</strong> Indiquez si l'abonné reçoit un email avec un lien vers le BAT. Vous pouvez sélectionner <strong>Aucun email</strong> (aucun lien d'email n'est nécessaire pour accéder au BAT), <strong>Email de notification de BAT uniquement</strong> (l'abonné reçoit un lien vers le BAT par email sans vérification), ou <strong>Emails de validation et de notification de BAT</strong> (l'abonné reçoit un lien vers le BAT par email et doit cliquer sur le lien pour accéder à un BAT, l'objectif de cette option est de s'assurer que la personne a saisi une adresse email correcte à laquelle elle a accès).</li>
-        </ul><p>Remarque :  Si le workflow automatisé est joint aux bons à tirer, tous les abonnements génèrent des emails de confirmation pour les propriétaires du BAT, afin qu’ils puissent décider à quelle étape la personne doit être ajoutée.<br></p></p></td> 
+        </ul><p>Remarque : Si le workflow automatisé est joint aux bons à tirer, tous les abonnements génèrent des emails de confirmation pour les propriétaires du BAT, afin qu’ils puissent décider à quelle étape la personne doit être ajoutée.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>

@@ -6,9 +6,9 @@ description: Vous pouvez générer un BAT pour un document au moment où vous le
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> 
+   <p>Nouveau : Quelconque </p>
+   <p>Actuel : Pro ou supérieur</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Nouveau : Standard</p>
+   <p>Actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
@@ -45,19 +49,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront BAT.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Télécharger un document et créer un BAT
 
 1. Accédez au projet, à la tâche ou au problème où vous souhaitez créer un BAT.
-1. Cliquez sur le bouton **Documents** .
+1. Cliquez sur le bouton **Documents** .
 1. Cliquez sur Documents ![](assets/document-icon.png) dans le panneau de gauche.
-1. Cliquez sur **Ajouter**, puis cliquez sur **Bon à tirer** dans le menu qui s’affiche.
+1. Cliquez sur **Ajouter**, puis cliquez sur **Bon à tirer** dans le menu qui s’affiche.
 
    >[!TIP]
    >
@@ -71,9 +75,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Télécharger un document et créer une version d’un BAT
 
 1. Accédez au projet, à la tâche ou au problème où vous souhaitez créer une nouvelle version d’un BAT existant.
-1. Cliquez sur le bouton **Documents** .
+1. Cliquez sur le bouton **Documents** .
 1. Sélectionnez le document dans lequel vous souhaitez ajouter une nouvelle version.
-1. Cliquez sur **Ajouter** > **Version** > **Bon à tirer**.
+1. Cliquez sur **Ajouter** > **Version** > **Bon à tirer**.
 1. Dans le **Nouvelle version du BAT** qui s’affiche, vous pouvez
 
    * [Créer un BAT avancé avec un workflow de base](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)

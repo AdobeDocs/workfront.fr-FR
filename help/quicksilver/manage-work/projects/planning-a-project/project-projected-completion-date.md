@@ -7,9 +7,9 @@ description: La date de fin prévue est un indicateur calculé en temps réel du
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -22,69 +22,40 @@ Les sections suivantes décrivent comment la date d’achèvement prévue est d�
 
 ## Exigences d’accès
 
-<!--drafted for P&P:
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>For current licenses: 
-   <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
-   
-   <p>For legacy licenses: 
-   <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
-   <li><p>A Plan license to create a report</p> </li></ul>
+   <p>Nouveau : 
+   <ul><li><p>Contributeur ou version ultérieure pour afficher la date d’achèvement prévue dans un rapport</p></li> <li><p>Une licence standard pour créer un rapport</p></li> </ul>
+
+<p>Actuel : 
+   <ul><li><p>Passez en revue la date d’achèvement prévue ou ultérieure pour l’afficher dans un rapport.</p></li> 
+   <li><p>Une licence Plan pour créer un rapport</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Passez en revue la date d’achèvement prévue ou ultérieure pour l’afficher dans un rapport.</p> <p>Une licence Plan pour créer un rapport</p> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage ou accès supérieur à la console Projets</p> <p>Pour créer un rapport, vous devez disposer des droits d’édition sur les rapports, tableaux de bord et calendriers.</p> <p>Vous devez disposer d’un accès en édition aux options Filtres, Vues et Groupements pour créer un rapport ou modifier le mode Liste.</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td> <p>Affichage ou accès supérieur à la console Projets</p> <p>Pour créer un rapport, vous devez disposer des droits d’édition sur les rapports, tableaux de bord et calendriers.</p> <p>Vous devez disposer d’un accès en édition aux options Filtres, Vues et Groupements pour créer un rapport ou modifier le mode Liste.</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage ou autorisations supérieures d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage ou autorisations supérieures d’un projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Comment Adobe Workfront détermine la date d’achèvement prévue
 
@@ -122,27 +93,23 @@ Les critères utilisés pour déterminer la date de fin prévue diffèrent selon
 
 ## Afficher la date d’achèvement prévue
 
-Vous pouvez afficher la date d’achèvement prévue des projets, tâches et problèmes dans les rapports. Vous pouvez afficher la date d’achèvement prévue des projets et tâches dans d’autres zones de Workfront. 
-
-* [Affichage de la date d’achèvement prévue d’un projet](#view-the-projected-completion-date-of-a-project)
-* [Afficher la date d’achèvement prévue d’une tâche](#view-the-projected-completion-date-of-a-task)
-* [Afficher la date d’achèvement prévue d’un problème](#view-the-projected-completion-date-of-an-issue)
+Vous pouvez afficher la date d’achèvement prévue des projets, tâches et problèmes dans les rapports. Vous pouvez afficher la date d’achèvement prévue des projets et tâches dans d’autres zones de Workfront.
 
 ### Affichage de la date d’achèvement prévue d’un projet {#view-the-projected-completion-date-of-a-project}
 
 1. Accédez au projet dans lequel vous souhaitez afficher la date de fin prévue.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Recherchez la variable **Date d’achèvement prévue** dans le champ **Présentation** .
+1. Recherchez la variable **Date d’achèvement prévue** dans le champ **Présentation** > **Dates du projet** .
 
 ### Afficher la date d’achèvement prévue d’une tâche {#view-the-projected-completion-date-of-a-task}
 
 1. Accédez à la tâche où vous souhaitez afficher la date de fin prévue.
 1. Cliquez sur **Détails de la tâche** dans le panneau de gauche.
-1. Recherchez la variable **Date d’achèvement prévue** dans le champ **Présentation** .
+1. Recherchez la variable **Date d’achèvement prévue** dans le champ **Présentation** > **Dates de tâche et contrainte** .
 
 ### Afficher la date d’achèvement prévue d’un problème {#view-the-projected-completion-date-of-an-issue}
 
-Vous pouvez afficher la date d’achèvement prévue pour les problèmes uniquement dans un rapport de problèmes ou en mode Liste. La création d’un mode Liste est similaire à la création d’un mode dans un rapport.
+Vous pouvez afficher la date d’achèvement prévue pour les problèmes uniquement dans un rapport de problèmes ou en mode Liste. La création d’un mode Liste est similaire à la création d’un mode dans un rapport.
 
 Pour créer un rapport de problème qui inclut la date de fin prévue :
 

@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,13 @@ La fonctionnalité de vérification de l’identité disponible pour vos utilisa
 
 ## Vérification dans Workfront
 
-Il existe actuellement deux options de plan pour la vérification dans Workfront :
+Il existe actuellement trois options de plan pour la vérification dans Workfront :
 
-* **Formules Workfront Pro+**: Cette option est destinée à l’ensemble des plans Workfront actuels : Pro, Entreprise et Entreprise. La vérification est automatiquement incluse pour les licences de travail et de plan si vous disposez des forfaits Workfront pour les entreprises, les entreprises ou les entreprises.
-* **Plans hérités de Workfront Premium**: Cette option est destinée aux forfaits Workfront hérités : Select, Enterprise, Premium. La vérification n’est pas automatiquement incluse dans les licences de ce plan. Vous devez accorder un accès de vérification à des utilisateurs spécifiques de leur profil utilisateur.
+* **Nouveaux plans Workfront**: la vérification est automatiquement incluse pour toutes les licences des nouveaux plans Workfront.
+* **Formules Workfront Pro+ actuelles**: la vérification est automatiquement incluse pour les licences de travail et de plan si vous disposez des forfaits Workfront pour les entreprises, les entreprises ou les entreprises.
+* **Plans hérités de Workfront Premium**: cette option est destinée aux forfaits Workfront hérités (Select, Enterprise, Premium). La vérification n’est pas automatiquement incluse dans les licences de ce plan. Vous devez accorder un accès de vérification à des utilisateurs spécifiques de leur profil utilisateur.
 
-   Si vous êtes administrateur de Workfront, vous pouvez vérifier et voir le plan de votre instance en accédant à Configuration > Système > Licences.
+  Si vous êtes administrateur de Workfront, vous pouvez vérifier et voir le plan de votre instance en accédant à Configuration > Système > Licences.
 
 ### Fonctionnalités de vérification dans Workfront
 
@@ -40,11 +41,11 @@ Pour plus d’informations sur l’octroi et la révocation de l’accès d’un
 * Suivez la progression et l’état du BAT. Pour plus d’informations, voir [Présentation de l’état et de la progression du BAT](../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 * Définissez le profil d’autorisation Bon à tirer de Workfront lors de la création d’utilisateurs de vérification dans Workfront, comme décrit dans cette section.
 
-   Ces profils n’affectent les autorisations que dans les autorisations de BAT Workfront, et non dans Workfront.
+  Ces profils n’affectent les autorisations que dans les autorisations de BAT Workfront, et non dans Workfront.
 
-* Comparez deux bons à tirer ou deux versions du même bon à tirer. Pour plus d’informations, voir [Comparaison de BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
+* Comparez deux bons à tirer ou deux versions du même bon à tirer. Pour plus d’informations, voir [Comparaison des bons à tirer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
 * Créez un rapport Validation du BAT . Pour plus d’informations, voir  [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-* Affichez l’étape du BAT actuellement principale pour chaque version de document dans le rapport Version du document . Le nom de la scène est affiché dans la colonne &quot;Principales phases de Bon à tirer&quot;. Si aucune étape n’est actuellement principale sur la version du document, la colonne est vide. Pour plus d’informations sur les champs disponibles dans les vues et les rapports, voir [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+* Affichez l’étape du BAT actuellement active sur chaque version de document dans le rapport Version du document . Le nom de l’étape s’affiche dans la colonne &quot;Étapes de Bon à tirer actives&quot;. Si aucune étape n’est actuellement active sur la version du document, la colonne est vide. Pour plus d’informations sur les champs disponibles dans les vues et les rapports, voir [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 * Configurez la visibilité des bons à tirer avec un workflow automatisé pour les utilisateurs associés à une étape donnée. Pour plus d’informations, voir [Configuration de la visibilité du BAT en fonction de l’activité d’étape du workflow](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md#configuring-proof-visibility-based-on-workflow-stage-activity) in  [Configuration des paramètres de partage pour vos utilisateurs](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
 * Accès en toute transparence au Bon à tirer Workfront directement à partir de la barre de navigation globale de Workfront (aucune connexion supplémentaire n’est requise). Pour plus d’informations, voir [Accès au BAT Workfront à partir d’Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
