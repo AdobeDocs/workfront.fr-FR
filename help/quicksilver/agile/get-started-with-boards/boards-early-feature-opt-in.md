@@ -7,25 +7,20 @@ description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Board
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] [!UICONTROL Panoramas]
 
-Tous les utilisateurs disposent de panoramas avec des cartes ad hoc et connectées. Nous sommes ravis d’ouvrir d’autres fonctionnalités de panoramas pour la prise en compte anticipée des fonctionnalités à partir de juillet 2022.
+Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] [!UICONTROL Panoramas] a été lancé en juillet 2022.
 
 [!DNL Adobe Workfront] [!UICONTROL Panoramas] sont des outils flexibles qui permettent la collaboration des équipes en permettant l’accès à un panorama partagé contenant des colonnes et des cartes.
 
 Pour obtenir des informations générales sur les panoramas, voir [[!UICONTROL Panoramas] aperçu](/help/quicksilver/agile/boards-overview.md).
-
-## Calendrier des versions
-
-* Lancement anticipé de l’inclusion des fonctionnalités dans la prévisualisation : 22 juillet 2022
-* Version officielle : 28 juillet 2022
 
 ## Fonctionnalités
 
@@ -138,8 +133,8 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
    <td>Publié</td>
   </tr>
   <tr>
-   <td>Importer des sous-tâches en tant qu’éléments de liste de contrôle sur des cartes</td>
-   <td>Prévu</td>
+   <td>Importer des sous-tâches sur des cartes</td>
+   <td>Publié</td>
   </tr>
   <tr>
    <td>Personnalisation de l’affichage des champs sur une carte</td>
@@ -163,7 +158,7 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
   </tr>
   <tr>
    <td>Migration de cartes Kanban héritées vers des panoramas</td>
-   <td>Cette fonctionnalité sera disponible en production le 18 mai 2023 et ne fait pas partie de l’accord préalable sur les fonctionnalités.</td>
+   <td>Cette fonctionnalité est disponible en production le 18 mai 2023 et ne fait pas partie de l’accord préalable sur les fonctionnalités.</td>
   </tr>
   <tr>
    <td>Création de panoramas dynamiques</td>
@@ -198,7 +193,8 @@ Toutes les organisations ont accès aux fonctions initiales des panoramas. La pa
 
 Uniquement [!DNL Workfront] les administrateurs peuvent souscrire à des fonctionnalités initiales pour les panoramas. Lorsqu’une [!DNL Workfront] L’administrateur active les fonctionnalités anticipées, tous les utilisateurs de l’entreprise sont inscrits.
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
+{{step1-to-boards}}
+
 1. Cliquez sur ![Inclusion anticipée des fonctionnalités](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Inclusion anticipée des fonctionnalités]) en haut de l’écran du tableau de bord.
 1. Cliquez sur **[!UICONTROL Activer]**.
 1. Commencez à utiliser les premières fonctionnalités des panoramas.
@@ -228,6 +224,7 @@ Toutefois, la variable [!DNL Workfront] l’administrateur peut masquer l’opti
 
 Uniquement [!DNL Workfront] les administrateurs peuvent se désabonner de la réception des fonctionnalités anticipées. Si une [!DNL Workfront] l’administrateur désactive les premières fonctionnalités, tous les utilisateurs de l’entreprise sont désinscrits.
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
+{{step1-to-boards}}
+
 1. Cliquez sur ![Activation de l’opt-in des fonctionnalités anticipées](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Activation de l’opt-in des fonctionnalités anticipées]) en haut de l’écran du tableau de bord.
 1. Cliquez sur **[!UICONTROL Désactiver]**.
