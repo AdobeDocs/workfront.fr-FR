@@ -4,10 +4,11 @@ description: mises à jour des rapports pendant la période de la version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d6dba849-6915-4c2c-b378-a8d3daa8a0d5
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---
@@ -22,10 +23,10 @@ Pour refléter les informations de budget des ressources du planificateur de res
 
 * Heures budgétées du planificateur de ressources
 
-   Comme ils faisaient référence à des outils obsolètes qui ont été supprimés de Workfront dans les versions précédentes, nous avons supprimé les champs de budget des ressources suivants des listes et des rapports :
+  Comme ils faisaient référence à des outils obsolètes qui ont été supprimés de Workfront dans les versions précédentes, nous avons supprimé les champs de budget des ressources suivants des listes et des rapports :
 
 
-Les champs de budget des ressources suivants ont été supprimés des listes et des rapports car ils font référence à des outils obsolètes qui ont été supprimés de Workfront dans les versions précédentes :
+Les champs de budget des ressources suivants ont été supprimés des listes et des rapports, car ils font référence à des outils obsolètes qui ont été supprimés de Workfront dans les versions précédentes :
 
 * Heures budgétées
 
@@ -34,5 +35,5 @@ Les champs de budget des ressources suivants ont été supprimés des listes et 
 * Coûts budgétaires
 
 
-Pour plus d’informations, voir [Présentation de l’option Coût de la main-d’oeuvre budgétisé et heures budgétisées pour les projets](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
+Pour plus d’informations, voir [Présentation de l’option Coût de la main-d’oeuvre budgétisée et heures budgétisées pour les projets](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
 

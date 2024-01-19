@@ -1,13 +1,14 @@
 ---
-title: mises à jour de la gestion des ressources pendant la période de publication de la version 22.3
-description: mises à jour de la gestion des ressources pendant la période de publication de la version 22.3
+title: mises à jour de la gestion des ressources pendant la période de la version 22.3
+description: mises à jour de la gestion des ressources pendant la période de la version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -22,13 +23,13 @@ Pour améliorer votre expérience lors de l’utilisation de l’équilibreur de
 
 * Amélioration du tri dans les sections Non affecté et Affecté .
 
-   Vous pouvez désormais trier par nom d’utilisateur ou rôle de tâche (dans la zone de travail non attribué) et par champ de projet dans les zones de travail non attribué et attribué.
+  Vous pouvez désormais trier par nom d’utilisateur ou rôle de tâche (dans la zone de travail non attribué) et par champ de projet dans les zones de travail non attribué et attribué.
 
 * Survoler des tâches ou des problèmes affiche des informations supplémentaires (nom du projet, dates de début et de fin planifiées, dépendances, heures planifiées, noms des tâches parents).
 
 * Les barres de projet ont une nouvelle apparence pour les rendre plus facilement distinctes des tâches.
 
-* Une conception mise à jour et facile à lire pour les dates de projection.
+* Une conception mise à jour et plus facile à lire pour les dates de projection.
 
 
 Pour plus d’informations, voir [Navigation dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).

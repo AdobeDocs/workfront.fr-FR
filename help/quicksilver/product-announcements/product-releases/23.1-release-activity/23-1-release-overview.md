@@ -4,10 +4,11 @@ description: Présentation de la version 23.1
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
 
 ## Améliorations apportées à Adobe Workfront
 
-* [Améliorations de la gestion des projets et des ressources](#project-and-resource-management-enhancements)
+* [Amélioration de la gestion des projets et des ressources](#project-and-resource-management-enhancements)
 
 * [Améliorations rapides](#agile-enhancements)
 
@@ -32,7 +33,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
 
 * [Autres améliorations](#other-enhancements)
 
-### Améliorations de la gestion des projets et des ressources
+### Amélioration de la gestion des projets et des ressources
 
 <table>
             <col style="width: 50%;" />
@@ -51,17 +52,17 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Rôles de tâche Secondaires ajoutés à la liste Autres affectations lors de l’affectation en masse d’éléments dans l’équilibreur de charge de travail</a></p>
-                        <p>Lors de l’affectation en masse d’utilisateurs dans l’équilibreur de charge de travail après la sélection d’un rôle de tâche dans le champ "Affectation de rôle", la liste des utilisateurs qui se trouve dans la liste "Autres affectations" du champ "Utilisateur à affecter" affiche désormais sous leur nom tous les rôles de tâche associés à chaque utilisateur. Avant cette amélioration, seul le rôle Principal de l’utilisateur s’affichait.</p>
+                        <p>Lors de l’affectation en masse d’utilisateurs dans l’équilibreur de charge de travail après la sélection d’un rôle de tâche dans le champ "Affectation de rôle", la liste des utilisateurs qui se trouve dans la liste "Autres affectations" du champ "Utilisateur à affecter" affiche désormais sous leur nom tous les rôles de tâche associés à chaque utilisateur. Avant cette amélioration, seul le rôle principal de l’utilisateur était affiché.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 5 janvier 2023<br /></p>
+                                <p>Version d’aperçu : 5 janvier 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production : Avec la version 23.1</span></p>
+                                <p><span class="preview">Version de production : avec la version 23.1</span></p>
                             </li>
                         </ul>
                     </td>
@@ -77,7 +78,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 20 octobre 2022<br /></p>
+                                <p>Version d’aperçu : 20 octobre 2022<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 27 octobre 2022 (hors cycle)</span></p>
@@ -95,10 +96,10 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 13 octobre 2022<br /></p>
+                                <p>Version d’aperçu : 13 octobre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.1</p>
+                                <p>Version de production : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -138,11 +139,11 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : À déterminer<br /></p>
+                                <p>Aperçu de la version : à déterminer<br /></p>
                             </li>
                             <li>
                                 <!-- <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p> -->
-                                <p>Version de production pour tous les clients : Suivi rapide après la version 23.1</p>
+                                <p>Version de production pour tous les clients : suivi rapide après la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -157,11 +158,11 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 1 décembre 2022<br /></p>
+                                <p>Version d’aperçu : 1er décembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : Non disponible</p> 
-                                <p>Version de production pour tous les clients : Avec la version 23.1</p>
+                                <p>Version de production pour inscription anticipée : indisponible</p> 
+                                <p>Version de production pour tous les clients : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -176,11 +177,11 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 1 décembre 2022<br /><span style="color: #ff0000;"> Cette fonctionnalité a été supprimée de l’aperçu et ne sera pas publiée avec la version 23.1.</span></p>
+                                <p>Version d’aperçu : 1er décembre 2022<br /><span style="color: #ff0000;"> Cette fonctionnalité a été supprimée de l’aperçu et ne sera pas publiée avec la version 23.1.</span></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : Non disponible</p>
-                                <p>Version de production pour tous les clients : Avec la version 23.1</p>
+                                <p>Version de production pour inscription anticipée : indisponible</p>
+                                <p>Version de production pour tous les clients : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -195,11 +196,11 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 17 novembre 2022<br /></p>
+                                <p>Version d’aperçu : 17 novembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 1 décembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.1</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 1er décembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -214,11 +215,11 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 10 novembre 2022<br /></p>
+                                <p>Version d’aperçu : 10 novembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 17 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.1</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 17 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -233,11 +234,11 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 10 novembre 2022<br /></p>
+                                <p>Version d’aperçu : 10 novembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 17 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.1</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 17 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -255,11 +256,11 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 10 novembre 2022<br /></p>
+                                <p>Version d’aperçu : 10 novembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 17 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.1</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 17 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -267,18 +268,18 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Filtrage par connexion sur les panoramas</a></p>
-                        <p>La liste des filtres sur un panorama inclut désormais l’option permettant de filtrer par connexion, ce qui vous présente toutes les cartes connectées pour un projet spécifique. Vous pouvez également filtrer par cartes qui ne sont pas connectées.</p>
+                        <p>La liste des filtres sur un panorama inclut désormais l’option permettant de filtrer par connexion, ce qui vous présente toutes les cartes connectées pour un projet spécifique. Vous pouvez également filtrer par cartes non connectées.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 27 octobre 2022<br /></p>
+                                <p>Version d’aperçu : 27 octobre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 3 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.1</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 3 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -286,7 +287,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Archivage de cartes à partir d’un panorama selon un calendrier</a></p>
-                        <p>Vous pouvez configurer un panorama afin que les cartes soient archivées ou "tombent" du panorama selon un calendrier précis. Des options sont disponibles pour définir des cartes dans une colonne particulière afin de les archiver au cours d’un certain nombre de jours ou de semaines. Par exemple, vous pouvez définir l’abandon afin que les cartes d’une colonne Terminé soient archivées après avoir été placées dans la colonne pendant deux semaines.</p>
+                        <p>Vous pouvez configurer un panorama afin que les cartes soient archivées ou "tombent" du panorama selon un calendrier précis. Des options sont disponibles pour définir des cartes dans une colonne particulière afin de les archiver dans un certain nombre de jours ou de semaines. Par exemple, vous pouvez définir l’abandon afin que les cartes d’une colonne Terminé soient archivées après avoir été placées dans la colonne pendant deux semaines.</p>
                         <p>Si vous souhaitez réafficher les cartes après leur retrait du panorama, vous pouvez définir le filtre du panorama pour afficher les cartes archivées.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -294,11 +295,11 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 27 octobre 2022<br /></p>
+                                <p>Version d’aperçu : 27 octobre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 3 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.1</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 3 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -333,7 +334,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                                 <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production : Disponible dans Apple App Store et Google Play Store de mi-à-fin janvier 2023</span></p>
+                                <p><span class="preview">Version de production : disponible dans Apple App Store et Google Play Store à la mi-et-fin janvier 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -370,7 +371,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A<br /></p>
+                                <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
                                 <p>Version de production : <span class="preview">12 décembre 2022</span></p>
@@ -389,10 +390,10 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : Février/mars 2023<br /></p>
+                                <p>Version d’aperçu : février/mars 2023<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Février/mars 2023</p>
+                                <p>Version de production : février/mars 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -408,10 +409,10 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 1 décembre 2022<br /></p>
+                                <p>Version d’aperçu : 1er décembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.1</p>
+                                <p>Version de production : avec la version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -420,7 +421,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Présentation d’Adobe Workfront pour la conception et la vidéo</a></p>
-                        <p>Nous sommes ravis d’annoncer l’extension de notre module externe Adobe Workfront for InDesign pour inclure Adobe Premiere Pro et After Effects. Le module externe sera renommé Adobe Workfront pour la conception et la vidéo.</p>
+                        <p>Nous sommes ravis d’annoncer l’extension de notre module externe Adobe Workfront for InDesign pour inclure Adobe Premiere Pro et After Effects. Le module externe sera renommé Adobe Workfront pour conception et vidéo.</p>
                         <p>Le module externe mis à jour, Adobe Workfront pour la conception et la vidéo, prend désormais en charge l’InDesign, le Premiere Pro et After Effects, avec Illustrator bientôt disponible.</p>
                         <p>Ce module externe vous permet d’accéder aux détails de l’élément de travail, de collaborer avec des collègues dans la zone Mises à jour et de consigner le temps de connexion sans quitter votre application de Creative Cloud préférée. </p>
                     </td>
@@ -437,7 +438,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de publication de la version 23.1</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de la version 23.1</a></p>
                         <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai de publication de la version 23.1. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -462,7 +463,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 27 octobre 2022<br /></p>
+                                <p>Version d’aperçu : 27 octobre 2022<br /></p>
                             </li>
                             <li>
                                 <p>Version de production : 3 novembre 2022 <span style="color: #ff0000;"> Cette fonctionnalité s’applique uniquement aux clients qui sont intégrés à Adobe Unified Experience for Workfront.</span></p>
@@ -484,7 +485,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous pouv
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 13 octobre 2022<br /></p>
+                                <p>Version d’aperçu : 13 octobre 2022<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : 27 octobre 2022 (hors cycle)</span></p>
@@ -505,13 +506,13 @@ Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en productio
 
 Aucune mise à jour du planificateur de scénario n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### Améliorations du Bon à tirer Workfront
+### Améliorations du Bon à tirer de Workfront
 
 Aucune mise à jour de BAT Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
 ### Améliorations des objectifs de Workfront
 
-Nouvelles fonctionnalités de la version 23.1 des objectifs de Workfront. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs d’Adobe Workfront avec la version 23.1](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
+Nouvelles fonctionnalités de la version 23.1 des objectifs de Workfront. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs Adobe Workfront avec la version 23.1](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
 
 ### API version 15
 
@@ -523,7 +524,7 @@ Pour plus d’informations sur les versions d’API, voir [Contrôle de version 
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, voir [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mises à jour de formation
 
@@ -548,7 +549,7 @@ En outre, tous les articles décrivant cette fonctionnalité seront également s
 
 Les contrôles de liste dans Configuration > Interface seront supprimés avec la version 23.1.
 
-Certaines fonctionnalités de contrôle de liste sont déplacées vers les zones Configuration > Interface > Filtres/Vues/Groupement . Pour plus d’informations, voir [Créer, modifier et partager des filtres, des vues et des regroupements par défaut](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+Certaines fonctionnalités de contrôle de liste sont déplacées vers les zones Configuration > Interface > Filtres/Vues/Groupement . Pour plus d’informations, voir [Créer, modifier et partager des filtres, vues et groupes par défaut](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 #### **Extension Workfront pour Illustrator et InDesign**
 

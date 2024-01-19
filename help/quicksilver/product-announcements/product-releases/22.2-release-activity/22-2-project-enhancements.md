@@ -4,10 +4,11 @@ description: 22.2&nbsp;améliorations du projet
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -26,7 +27,7 @@ la semaine du 4 avril 2022. Pour obtenir la liste de toutes les modifications di
 
 ## Les panoramas Adobe Workfront sont désormais disponibles.
 
-Les panoramas sont des outils flexibles qui permettent la collaboration des équipes en permettant l’accès à un panorama partagé contenant des colonnes et des cartes.
+Les panoramas sont des outils flexibles qui permettent la collaboration des équipes en permettant d’accéder à un panorama partagé contenant des colonnes et des cartes.
 
 Les panoramas vous permettent d’effectuer les opérations suivantes :
 
@@ -47,22 +48,22 @@ Les améliorations supplémentaires suivantes sont désormais disponibles pour l
 
 * Balisage des cartes sur les panoramas
 
-   Vous pouvez désormais classer les cartes de votre panorama à l’aide de balises codées par couleur. Les balises vous permettent d’identifier rapidement les cartes. Vous pouvez même trier votre panorama en fonction des balises appliquées.
+  Vous pouvez désormais classer les cartes de votre panorama à l’aide de balises codées par couleur. Les balises vous permettent d’identifier rapidement les cartes. Vous pouvez même trier votre panorama en fonction des balises appliquées.
 
 * Gestion des cartes sur les panoramas
 
-   Nous avons ajouté les fonctionnalités suivantes pour vous aider à gérer les cartes sur votre panorama :
+  Nous avons ajouté les fonctionnalités suivantes pour vous aider à gérer les cartes sur votre panorama :
 
-   * Copiez une carte : Créez une copie d’une carte existante sur votre panorama.
-   * Déplacer une carte : Déplacez rapidement les cartes dans la partie supérieure ou inférieure d’un panorama avec les nouvelles options de menu Haut de colonne et Bas de colonne.
+   * Copier une carte : créez une copie d’une carte existante sur votre panorama.
+   * Déplacer une carte : déplacez rapidement les cartes vers le haut ou le bas d’un panorama avec les nouvelles options de menu Haut de colonne et Bas de colonne.
 
 * Recherche dans les panoramas
 
-   Nous avons ajouté une barre de recherche pour vous aider à rechercher toutes les cartes de votre panorama.
+  Nous avons ajouté une barre de recherche pour vous aider à rechercher toutes les cartes de votre panorama.
 
 * Définition de la date d’échéance d’une carte dans les panoramas
 
-   Vous pouvez maintenant définir une date d’échéance pour les cartes individuelles de votre panorama.
+  Vous pouvez maintenant définir une date d’échéance pour les cartes individuelles de votre panorama.
 
 Pour plus d’informations, voir [Prise en main des panoramas dans Adobe Workfront](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
@@ -81,21 +82,21 @@ Voici quelques-unes des améliorations apportées à cette nouvelle interface :
 * Toutes les informations que vous devez mettre à jour avant le déplacement s’affichent sur une page continue.
 * Workfront vérifie que vous avez accès au projet de destination immédiatement après avoir choisi le projet. Avant cette amélioration, Workfront vous avertissait que vous ne disposez pas d’un accès correct après avoir confirmé le déplacement, ce qui entraînait des étapes supplémentaires et empêchait le déplacement d’être autorisé.
 * Possibilité de demander l’accès à un projet pour lequel vous souhaitez déplacer les problèmes sans quitter la zone Déplacer la tâche .
-* Possibilité de supprimer des éléments (affectations, progression, documents, autorisations, mises à jour) d’un problème lorsque vous le déplacez vers un autre emplacement. Cette fonctionnalité était auparavant disponible uniquement pour les problèmes de copie.
+* Possibilité de supprimer des éléments (affectations, progression, documents, autorisations, mises à jour) d’un problème lorsque vous le déplacez vers un autre emplacement. Auparavant, cette fonctionnalité n’était disponible que pour les problèmes de copie.
 * Possibilité de sélectionner une tâche de destination en plus de la sélection d’un projet de destination lors de la copie d’un problème.
 
 Pour plus d’informations sur le déplacement ou la copie de problèmes, consultez les articles suivants :
 
-* [Copier les problèmes](../../../manage-work/issues/manage-issues/copy-issues.md)
+* [Copie de problèmes](../../../manage-work/issues/manage-issues/copy-issues.md)
 * [Déplacer les problèmes](../../../manage-work/issues/manage-issues/move-issues.md)
 
 ## Nouvelle expérience lors de la copie d’un projet
 
-Afin que votre utilisation de Workfront soit cohérente avec la nouvelle expérience Adobe Workfront, nous avons repensé l’interface pour la copie de projets. Cette option est actuellement disponible lors de la copie d’un projet à partir de la page du projet ou de la copie d’un projet à partir d’une liste ou d’un rapport. Avant cette mise à jour, vous ne pouviez copier qu’un projet à partir de la page du projet.
+Afin que votre utilisation de Workfront soit cohérente avec la nouvelle expérience Adobe Workfront, nous avons repensé l’interface pour la copie de projets. Cette option est actuellement disponible lors de la copie d’un projet à partir de la page du projet ou lors de la copie d’un projet à partir d’une liste ou d’un rapport. Avant cette mise à jour, vous ne pouviez copier qu’un projet à partir de la page du projet.
 
 Pour plus d’informations, voir [Copier un projet](../../../manage-work/projects/manage-projects/copy-project.md).
 
-## Possibilité de gérer des projets à partir de listes et de rapports à partir d’un nouveau menu Plus
+## Possibilité de gérer des projets à partir de listes et de rapports depuis un nouveau menu Plus
 
 Nous avons ajouté un nouveau menu Plus dans les listes de projets et les rapports pour vous permettre d’effectuer les actions suivantes à partir de ces zones :
 

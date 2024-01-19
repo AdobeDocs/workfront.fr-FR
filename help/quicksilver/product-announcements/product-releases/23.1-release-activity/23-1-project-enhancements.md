@@ -4,10 +4,11 @@ description: 23.1 Améliorations de la gestion des projets et des ressources
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
-source-git-commit: 682320deee696bf02b11e6119300e285c34bf4a6
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 23
 
 ## Rôles de tâche Secondaires ajoutés à la liste Autres affectations lors de l’affectation en masse d’éléments dans l’équilibreur de charge de travail
 
-Lors de l’affectation en masse d’utilisateurs dans l’équilibreur de charge de travail après la sélection d’un rôle de tâche dans le champ &quot;Affectation de rôle&quot;, la liste des utilisateurs qui se trouve dans la liste &quot;Autres affectations&quot; du champ &quot;Utilisateur à affecter&quot; affiche désormais sous leur nom tous les rôles de tâche associés à chaque utilisateur. Avant cette amélioration, seul le rôle Principal de l’utilisateur s’affichait.
+Lors de l’affectation en masse d’utilisateurs dans l’équilibreur de charge de travail après la sélection d’un rôle de tâche dans le champ &quot;Affectation de rôle&quot;, la liste des utilisateurs qui se trouve dans la liste &quot;Autres affectations&quot; du champ &quot;Utilisateur à affecter&quot; affiche désormais sous leur nom tous les rôles de tâche associés à chaque utilisateur. Avant cette amélioration, seul le rôle principal de l’utilisateur était affiché.
 
 Pour plus d’informations, voir [Affectation du travail en masse à l’aide de l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 

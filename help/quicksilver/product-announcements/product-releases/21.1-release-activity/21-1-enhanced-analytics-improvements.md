@@ -6,10 +6,11 @@ title: 21.1 Améliorations des analyses
 description: Cette page décrit toutes les améliorations apportées à la gestion de projet avec la version 21.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 15 février 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '302'
 ht-degree: 2%
 
 ---
@@ -24,7 +25,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 21
 
 >[!NOTE]
 >
->Cette modification s’applique uniquement aux utilisateurs qui viennent d’être ajoutés aux modèles de mise en page. Les utilisateurs affectés à un modèle de mise en page personnalisé ne sont pas non plus affectés par cette modification.
+>Cette modification s’applique uniquement aux utilisateurs nouvellement ajoutés aux modèles de mise en page. Les utilisateurs affectés à un modèle de mise en page personnalisé ne sont pas non plus affectés par cette modification.
 
 Dans le modèle de mise en page par défaut, la zone Analytics est désormais activée par défaut, ce qui signifie que les utilisateurs affectés à ce modèle de mise en page voient désormais la zone Analytics dans la barre de navigation globale d’Adobe Workfront Classic et le menu principal dans la nouvelle expérience Adobe Workfront.
 

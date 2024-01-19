@@ -5,10 +5,11 @@ title: Fonctionnalités disponibles dans l’aperçu en 2016
 description: Les fonctionnalités suivantes ont été rendues disponibles dans l’environnement Aperçu en 2016. Ces fonctionnalités doivent être publiées dans l’environnement de production avec la version R1.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -45,9 +46,9 @@ Auparavant, l’ombrage d’affectation s’affichait par défaut et ne pouvait 
 
 Pour plus d’informations sur la manière d’activer les options d’affectation des utilisateurs, voir &quot;Gestion des affectations des utilisateurs dans les zones de planification&quot;.
 
-## Modèle de mise en page Détermine si le calendrier nouveau ou hérité s’affiche dans la zone de travail Mon travail.
+## Modèle de mise en page Détermine si le calendrier nouveau ou hérité s’affiche dans la zone de travail Mon travail
 
-**Aperçu d’un environnement de test : 7 décembre 2016 ; Accès anticipé : 14 décembre 2016** 
+**Aperçu d’un environnement de test : 7 décembre 2016 ; accès anticipé : 14 décembre 2016** 
 
 Le nouveau calendrier s’affiche par défaut dans la zone Mon travail lorsqu’aucun modèle de mise en page n’est appliqué.
 
@@ -61,7 +62,7 @@ Pour plus d’informations sur la configuration du modèle de mise en page, voir
 
 ## Outlook 365 bêta
 
-**Version bêta : À déterminer Disponibilité publique : À déterminer**
+**Bêta : À déterminer ; Disponibilité publique : à déterminer**
 
 Vous pouvez utiliser Workfront depuis Outlook pour Office 365, comme décrit dans les sections suivantes :
 
@@ -96,6 +97,6 @@ Pour plus d’informations, voir [Création ou modification d’un formulaire pe
 
 ## Intégration à Adobe Creative Cloud
 
-**Module complémentaire disponible au téléchargement : Avril 2016**
+**Module complémentaire à télécharger : avril 2016**
 
 L’extension Workfront pour Adobe Creative Cloud est conçue pour vous permettre d’enregistrer et d’exporter des ressources que vous créez dans le Creative Cloud vers Workfront, ce qui accélère le processus d’approbation et de révision.

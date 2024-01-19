@@ -6,10 +6,11 @@ title: 21.2 Autres améliorations
 description: Cette page décrit toutes les autres améliorations apportées à la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -79,7 +80,7 @@ Workfront stocke désormais les statuts des objets d’une nouvelle manière.
 
 Ces modifications n’affectent pas la manière dont les demandes de recherche d’état sont effectuées. Toutefois, les requêtes d’API contenant une recherche d’état d’objet renverront une liste incomplète d’états de groupe.
 
-Pour plus d’informations, voir [Modifications de l’API Core : Réponses de recherche d’état](../../../wf-api/api/api-changes-search.md) .
+Pour plus d’informations, voir [Modifications de l’API Core : réponses de recherche d’état](../../../wf-api/api/api-changes-search.md) .
 
 ## Mise à jour des payloads d’abonnement d’événement pour inclure tous les champs se terminant par ID
 
@@ -87,12 +88,12 @@ Tous les payloads d’abonnement d’événement contiennent désormais chaque c
 
 Il est important de noter que chaque objet possède son propre ensemble unique de champs associés, qui comprend un ensemble unique de champs associés se terminant par ID. Cela signifie que même si chaque payload contient tous les champs associés de cet objet qui se terminent par ID, chaque objet a un ensemble différent de champs qui se terminent par ID.
 
-## La version bêta des plans directeurs est désormais disponible dans l’aperçu.
+## La version bêta des plans directeurs est désormais disponible dans Aperçu.
 
 >[!NOTE]
 >
 >Cette fonctionnalité ne sera généralement pas disponible dans l’environnement de production avant la version 21.3, plus tard dans l’année. Disponible uniquement dans la nouvelle expérience Adobe Workfront.
 
-Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui se développe avec vous. Les administrateurs système peuvent parcourir le catalogue de plans directeurs et installer des modèles de projet prêts à l’emploi.
+Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui s’adapte à vos besoins. Les administrateurs système peuvent parcourir le catalogue de plans directeurs et installer des modèles de projet prêts à l’emploi.
 
 Pour plus d’informations, voir [Plans directeurs](../../../administration-and-setup/blueprints/blueprints.md).

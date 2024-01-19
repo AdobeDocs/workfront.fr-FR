@@ -5,10 +5,11 @@ title: 20.3 Améliorations de la gestion des ressources
 description: Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Pour plus d’informations sur la gestion des affectations dans l’équilibreur
 Afin d’améliorer votre expérience et de vous offrir plus de flexibilité lors du partage d’informations, nous avons maintenant mis en oeuvre des filtres variables pour l’équilibreur de charge de travail. Les filtres suivants ont été ajoutés à l’équilibreur de charge de travail :
 
 * &quot;Moi&quot; (lors du filtrage par utilisateurs)
-* &quot;Mon rôle Principal&quot; (lors du filtrage par rôles)
+* &quot;Mon rôle de Principal&quot; (lors du filtrage par rôles)
 * &quot;Mon équipe d’accueil&quot; ou &quot;Toutes mes équipes&quot; (lors du filtrage par équipes).
 
 Ces filtres remplacent les variables de filtre génériques $$USER.ID, $$USER.roleID, $$USER.homeTeamID et $$USER.TeamID.
@@ -51,7 +52,7 @@ L’équilibreur de charge de travail trie désormais les projets en fonction de
 
 Pour plus d’informations sur l’affichage des projets et des tâches dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Afficher la progression réelle du travail dans l’équilibreur de charge de travail
+## Afficher la progression réelle du travail dans l’équilibreur de charge
 
 Pour vous donner une perspective précise de l’avancement de votre charge de travail, nous avons ajouté un nouveau paramètre à l’équilibreur de charge de travail qui affiche la chronologie des tâches et des problèmes en fonction de leurs dates prévues. Vous pouvez activer le paramètre Afficher les dates prévues pour afficher la chronologie prévue de l’élément de travail en plus de la chronologie planifiée.
 
@@ -62,14 +63,14 @@ Pour plus d’informations sur la navigation dans l’équilibreur de charge de 
 ## Fonctionnalités de l’équilibreur de charge de travail précédemment communiquées comme version 20.2
 
 * [Ajuster l’affectation quotidienne et hebdomadaire dans l’équilibreur de charge de travail](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
-* [Mise à jour des heures planifiées de la tâche dans l’équilibreur de charge de travail](#update-task-planned-hours-in-the-workload-balancer)
+* [Mise à jour des heures planifiées de la tâche dans l’équilibreur de charge](#update-task-planned-hours-in-the-workload-balancer)
 * [Une méthode plus pratique pour mettre à jour les allocations dans l’équilibreur de charge de travail](#a-more-convenient-way-to-update-allocations-in-the-workload-balancer)
 
 ### Ajuster l’affectation quotidienne et hebdomadaire dans l’équilibreur de charge de travail {#adjust-daily-and-weekly-allocation-in-the-workload-balancer}
 
 Pour éviter l’épuisement de vos ressources, vous pouvez maintenant ajuster l’allocation quotidienne et hebdomadaire de vos utilisateurs afin qu’elle fonctionne à l’aide de l’équilibreur de charge de travail.
 
-Avant cette amélioration, cela n’était possible qu’avec les outils de planification des ressources.
+Avant cette amélioration, cela n’était possible qu’à l’aide des outils de planification des ressources.
 
 Pour plus d’informations sur la gestion des affectations dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -78,7 +79,7 @@ Pour plus d’informations sur la gestion des affectations dans l’équilibreur
 * Adobe Workfront Classic
 * Nouvelle expérience Adobe Workfront
 
-### Mise à jour des heures planifiées de la tâche dans l’équilibreur de charge de travail {#update-task-planned-hours-in-the-workload-balancer}
+### Mise à jour des heures planifiées de la tâche dans l’équilibreur de charge {#update-task-planned-hours-in-the-workload-balancer}
 
 >[!NOTE]
 >
@@ -88,7 +89,7 @@ Une nouvelle option de la zone Gestion des ressources du niveau d’accès perme
 
 Pour plus d’informations sur la gestion des affectations dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Pour plus d’informations sur l’octroi de l’accès à Resource Management, voir [Accorder l’accès à la gestion des ressources](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Pour plus d’informations sur l’octroi de l’accès à la gestion des ressources, voir [Accorder l’accès à la gestion des ressources](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ### Une méthode plus pratique pour mettre à jour les allocations dans l’équilibreur de charge de travail {#a-more-convenient-way-to-update-allocations-in-the-workload-balancer}
 

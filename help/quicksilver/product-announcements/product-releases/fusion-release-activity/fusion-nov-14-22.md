@@ -3,20 +3,21 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Activité Publication de fusion Workfront : Semaine du 14 novembre 2022"'
+title: "Activité Publication de fusion Workfront : semaine du 14 novembre 2022"
 description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 14 novembre 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 06b5d602-e656-40e8-a397-c39eaadc924a
-source-git-commit: 0fa404000e5e9fd909acbdeb2e7b33eaed1eb198
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# Activité Publication de fusion Workfront : Semaine du 14 novembre 2022
+# Activité Publication de fusion Workfront : semaine du 14 novembre 2022
 
 **Connecteur et modules Microsoft Power BI désormais disponibles**
 

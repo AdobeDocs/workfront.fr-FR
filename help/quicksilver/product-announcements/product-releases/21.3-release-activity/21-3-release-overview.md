@@ -6,10 +6,11 @@ title: Présentation de la version 21.3
 description: Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront Classic et de la nouvelle expérience Adobe Workfront incluse dans la version 21.3 pour vous aider à déverrouiller la productivité et la collaboration . [Une ligne de conduite marketing pour la version]
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -81,15 +82,15 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">Plans directeurs disponibles en production avec la version 21.3</a> </p> <p>La fonctionnalité de plans directeurs sera généralement disponible avec la version 21.3 de production pour la semaine du 21 juin 2021.</p> <p>Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui se développe avec vous. Les administrateurs système peuvent parcourir le catalogue de plans directeurs et installer des modèles de projet prêts à l’emploi.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">Plans directeurs disponibles en production avec la version 21.3</a> </p> <p>La fonctionnalité de plans directeurs sera généralement disponible avec la version 21.3 de production pour la semaine du 21 juin 2021.</p> <p>Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui s’adapte à vos besoins. Les administrateurs système peuvent parcourir le catalogue de plans directeurs et installer des modèles de projet prêts à l’emploi.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu : 22 avril 2021 (avec la version 21.2)<br></p> <p>Version de production : avec la version 21.3</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs de groupe : Créer et gérer des états pour un groupe à n’importe quel niveau</a> </p> <p>Afin de faciliter la gestion et le contrôle indépendants des workflows pour tous les niveaux d’une organisation, nous avons introduit la possibilité de créer et de gérer des états pour les sous-groupes. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs de groupe : créer et gérer des états pour un groupe à n’importe quel niveau.</a> </p> <p>Afin de faciliter la gestion et le contrôle indépendants des workflows pour tous les niveaux d’une organisation, nous avons introduit la possibilité de créer et de gérer des états pour les sous-groupes. </p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu : 3 juin 2021<br></p> <p>Version de production : avec la version 21.3</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs : Créer un formulaire personnalisé d’enregistrement de facturation</a> </p> <p>Vous pouvez désormais améliorer la manière dont les utilisateurs capturent les informations de facturation en créant un formulaire personnalisé d’enregistrement de facturation. Les utilisateurs peuvent joindre le formulaire personnalisé à un enregistrement de facturation, le remplir et exécuter des rapports incluant les informations contenues dans le formulaire.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nouveau pour les administrateurs : création d’un formulaire personnalisé d’enregistrement de facturation</a> </p> <p>Vous pouvez désormais améliorer la manière dont les utilisateurs capturent les informations de facturation en créant un formulaire personnalisé d’enregistrement de facturation. Les utilisateurs peuvent joindre le formulaire personnalisé à un enregistrement de facturation, le remplir et exécuter des rapports incluant les informations contenues dans le formulaire.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu : 20 mai 2021<br></p> <p>Version de production : avec la version 21.3</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -142,7 +143,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu : 20 mai 2021<br></p> <p>Version de production : avec la version 21.3</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#export" class="MCXref xref" xrefformat="{para}">Exporter des informations à partir de la section Détails d’un portfolio ou d’un programme</a> </p> <p>Vous pouvez désormais exporter vers un fichier .pdf à partir de la section Détails des portefeuilles et des programmes. Avant cette amélioration, vous ne pouviez exporter des informations de la section Détails qu’à partir de projets, de tâches et de problèmes.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#export" class="MCXref xref" xrefformat="{para}">Exporter des informations depuis la section Détails d’un portfolio ou d’un programme</a> </p> <p>Vous pouvez désormais exporter vers un fichier .pdf à partir de la section Détails des portefeuilles et des programmes. Avant cette amélioration, vous ne pouviez exporter des informations de la section Détails qu’à partir de projets, de tâches et de problèmes.</p> </td> 
    <td> <p><strong>Disponible à ces dates :</strong> </p> <p>Version d’aperçu : 20 mai 2021<br></p> <p>Version de production : 3 juin 2021</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -167,7 +168,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">Désactivation des rôles qui ne sont plus utilisés</a> </p> <p>Pour vous offrir la même expérience qu’avec les utilisateurs, les équipes et les entreprises, nous avons introduit une nouvelle fonctionnalité qui vous permet de désactiver les rôles que vous n’utilisez plus. Lorsque vous désactivez un rôle, il n’est plus disponible pour la sélection dans les champs de saisie anticipée pour l’attribution et le partage d’objets. Les rôles désactivés apparaissent toujours dans les champs de recherche et les options de filtre.</p> <p>Les tâches et problèmes affectés à un rôle désactivé, ainsi que les processus d’approbation ou les règles de routage, continuent à être affectés à ces rôles. Vous devez mettre à jour ces objets pour remplacer le rôle inactif par un rôle principal, s’ils doivent encore être terminés.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">Désactivation des rôles qui ne sont plus utilisés</a> </p> <p>Pour vous offrir la même expérience qu’avec les utilisateurs, les équipes et les entreprises, nous avons introduit une nouvelle fonctionnalité qui vous permet de désactiver les rôles que vous n’utilisez plus. Lorsque vous désactivez un rôle, il n’est plus disponible pour la sélection dans les champs de saisie anticipée pour l’attribution et le partage d’objets. Les rôles désactivés apparaissent toujours dans les champs de recherche et les options de filtre.</p> <p>Les tâches et problèmes affectés à un rôle désactivé, ainsi que les processus d’approbation ou les règles de routage, continuent à être affectés à ces rôles. Vous devez mettre à jour ces objets pour remplacer le rôle inactif par un rôle actif s’ils ne sont pas encore terminés.</p> </td> 
    <td> <p><strong>Disponible à ces dates :</strong> </p> <p>Version d’aperçu : 27 mai 2021<br></p> <p>Version de production : 10 juin 2021</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -210,7 +211,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md#users" class="MCXref xref" xrefformat="{para}">Les utilisateurs ajoutés à un BAT ont automatiquement obtenu l’accès Afficher sur un document</a> </p> <p>Les utilisateurs dont le rôle de BAT est Réviseur ou Lecture seule sont automatiquement autorisés à accéder à l’affichage sur le document s’ils n’en avaient aucun auparavant.</p> <p>Auparavant, les utilisateurs disposant des rôles de BAT mentionnés ci-dessus devaient demander l’accès aux documents lorsqu’ils étaient ajoutés au BAT.</p> </td> 
-   <td><strong>Disponible à ces dates : Aperçu de la version : 20 mai 2021 Version de production : 17 juin 2021 Disponible dans ces environnements : Nouvelle expérience Adobe Workfront</strong>Adobe Workfront Classic </td> 
+   <td><strong>Disponible à ces dates : Version d’aperçu : 20 mai 2021 Version de production : 17 juin 2021 Disponible dans ces environnements : La nouvelle expérience Adobe Workfront</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,12 +227,12 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">Reconception de la zone d’accueil pour l’application mobile</a> </p> <p>Plusieurs améliorations ont été apportées à la zone d’accueil de l’application mobile Adobe Workfront, notamment : un nouveau widget d’élément de travail et une boîte de recherche plus grande vous aident à trouver rapidement ce dont vous avez besoin ; la barre de navigation pour la page d’accueil, l’assistant virtuel, les tâches rapides, les notifications et le profil utilisateur "flotte" désormais au-dessus de la zone d’accueil pour un accès facile ; et le menu Mon travail fait défiler horizontalement et affiche les éléments suivants : Projets, tâches et problèmes, demandes, approbations et feuilles de calcul. Au maximum trois cartes pour l’élément sélectionné s’affichent sous le menu.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">Reconception de la zone d’accueil pour l’application mobile</a> </p> <p>Diverses améliorations ont été apportées à la zone d’accueil de l’application mobile Adobe Workfront : un nouveau widget d’élément de travail et une zone de recherche plus grande vous aident à trouver rapidement ce dont vous avez besoin ; la barre de navigation pour la page d’accueil, l’assistant virtuel, la tâche rapide, les notifications et le profil utilisateur "flotte" sur la zone d’accueil pour un accès facile ; et le menu Mon travail fait défiler horizontalement et affiche les éléments suivants : Projets, Tâches, requêtes, requêtes, requêtes, requêtes, requêtes, requêtes, requêtes, requêtes, requêtes, requêtes, requêtes, validations et notes . Au maximum trois cartes pour l’élément sélectionné s’affichent sous le menu.</p> </td> 
    <td> <p><strong>Disponible à ces dates :</strong> </p> <p>Aperçu de la version : S.O.<br></p> <p>Version de production : avec la version 21.3</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>iOS</p> <p>Android</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Filtres d’abonnement d’événement</a> </p> <p>Les filtres d’abonnement aux événements sont désormais activés dans les environnements d’aperçu. Le filtrage des abonnements aux événements peut être utilisé pour vous assurer que vous ne recevez que les messages pertinents. La création de filtres pour vos abonnements peut diminuer considérablement le nombre de messages que votre point de terminaison doit consommer. </p> </td> 
-   <td><strong>Disponible à ces dates : Aperçu de la version : 20 mai 2021 Version de production : 3 juin 2021 Disponible dans ces environnements : Nouvelle expérience Adobe Workfront</strong>Adobe Workfront Classic </td> 
+   <td><strong>Disponible à ces dates : Version d’aperçu : 20 mai 2021 Version de production : 3 juin 2021 Disponible dans ces environnements : La nouvelle expérience Adobe Workfront</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
 </table>
@@ -250,9 +251,9 @@ De nouvelles fonctionnalités sont disponibles dans la version 21.3 de Workfront
 
 Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de version 21.3. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Publication de fusion Adobe Workfront](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-## Améliorations du Bon à tirer Workfront
+## Améliorations du Bon à tirer de Workfront
 
-De nouvelles fonctionnalités du Bon à tirer de Workfront sont désormais disponibles. Pour plus d’informations, voir [Activité Publication de BAT Workfront : Semaine du 17 mai 2021](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
+De nouvelles fonctionnalités du Bon à tirer de Workfront sont désormais disponibles. Pour plus d’informations, voir [Activité Publication de BAT pour Workfront : Semaine du 17 mai 2021](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
 
 ## Améliorations des objectifs de Workfront
 

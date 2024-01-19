@@ -4,10 +4,11 @@ description: 22.1 Améliorations apportées au projet
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ Pour plus d’informations, voir [Présentation du résumé des documents](../..
 
 ## Nouvelle expérience lors de la copie d’une ou de plusieurs tâches
 
-Pour que votre utilisation de Workfront soit cohérente avec la nouvelle expérience Adobe Workfront, nous avons repensé l’interface lors de la copie d’une tâche. Cette option est actuellement disponible lors de la copie d’une tâche au niveau de la tâche ou de la copie d’une ou de plusieurs tâches dans une liste.
+Pour que votre utilisation de Workfront soit cohérente avec la nouvelle expérience Adobe Workfront, nous avons repensé l’interface lors de la copie d’une tâche. Cette option est actuellement disponible lorsque vous copiez une tâche au niveau de la tâche ou une ou plusieurs tâches dans une liste.
 
 Voici quelques améliorations :
 
@@ -116,7 +117,7 @@ Avant cette amélioration, cette fonctionnalité existait uniquement lorsque vou
 
 Pour plus d’informations, voir [Convertir un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## Le filtre par liste d’utilisateurs sur les panoramas agiles affiche d’abord les utilisateurs avec la plupart des affectations.
+## Le filtre par liste d’utilisateurs sur les panoramas agiles affiche d’abord les utilisateurs avec la plupart des affectations
 
 >[!NOTE]
 >

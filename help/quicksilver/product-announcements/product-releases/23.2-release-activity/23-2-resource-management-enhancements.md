@@ -4,9 +4,11 @@ description: 23.2 Améliorations de la gestion des ressources
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+recommendations: noDisplay, noCatalog
+exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -21,7 +23,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu de la version : 16 février 2023; Version de production planifiée : 2 mars 2023
+>Version d’aperçu : 16 février 2023 ; version de production prévue : 2 mars 2023
 
 Pour permettre aux gestionnaires de ressources de calculer précisément la disponibilité de leurs utilisateurs et de tenir compte du temps que les utilisateurs consacrent à des tâches réelles liées au projet, nous proposons le concept de temps de travail à Adobe Workfront.
 
@@ -33,7 +35,7 @@ La valeur par défaut du champ est 1, ce qui indique qu’un utilisateur passe l
 
 Suite à cette mise à jour, Workfront calcule la disponibilité de l’utilisateur à l’aide des formules ci-dessous, en fonction de votre sélection dans la zone Préférences de gestion des ressources :
 
-* Planification par défaut:
+* Planification par défaut :
 * Capacité de l’utilisateur = [(Heures de planification - Exceptions de planification) * ETR - Heure de désactivation] * Durée de travail
 * Planification de l’utilisateur :
 * Capacité de l’utilisateur = (Heures de planification - Exceptions de planification - Heure de congé) * Temps de travail.

@@ -4,10 +4,11 @@ description: 2.2.3 Améliorations apportées aux administrateurs
 author: Luke
 draft: false
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Cette page décrit toutes les améliorations apportées par l’administrateur �
 
 ## Intégration d’Adobe Workfront à JumpSeat
 
-Vous pouvez désormais intégrer JumpSeat à Workfront afin de créer des conseils personnalisés et intégrés au produit à l’intention de vos utilisateurs. Vous devez disposer d’une licence d’entreprise Adobe Workfront et d’un principal abonnement JumpSeat pour activer l’intégration.
+Vous pouvez désormais intégrer JumpSeat à Workfront afin de créer des conseils personnalisés et intégrés au produit à l’intention de vos utilisateurs. Pour activer l’intégration, vous devez disposer d’une licence d’entreprise Adobe Workfront et d’un abonnement JumpSeat actif.
 
 Pour plus d’informations, voir [Configuration de l’intégration JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
@@ -101,7 +102,7 @@ Pour plus d’informations, voir [Configuration des préférences de projet à l
 
 Récemment, nous avons ajouté la possibilité de désactiver et de réactiver les groupes. Pour rendre cette action plus rapide et plus facile, nous l’avons ajoutée à la page d’un groupe. Maintenant, après avoir cliqué sur le nom d’un groupe pour accéder à sa page, vous pouvez sélectionner le menu Plus . ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) en regard du nom du groupe, sélectionnez Désactiver ou Réactiver.
 
-Auparavant, vous pouviez désactiver ou réactiver un groupe uniquement à l’aide de la case Est principal de la page Détails.
+Auparavant, vous pouviez désactiver ou réactiver un groupe uniquement à l’aide de la case à cocher Est actif sur sa page Détails .
 
 Pour plus d’informations, voir [Désactivation ou réactivation d’un groupe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 

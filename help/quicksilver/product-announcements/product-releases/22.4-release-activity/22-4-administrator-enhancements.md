@@ -1,18 +1,19 @@
 ---
-title: 2.4 Améliorations apportées aux administrateurs
-description: 2.4 Améliorations apportées aux administrateurs
+title: 22.4 Améliorations apportées aux administrateurs
+description: 22.4 Améliorations apportées aux administrateurs
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 80fa784e15c3b4a927ee8ba2d18a80a2d84f4a91
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-# 2.4 Améliorations apportées aux administrateurs
+# 22.4 Améliorations apportées aux administrateurs
 
 Cette page décrit toutes les améliorations apportées par l’administrateur à la version 22.4 de l’environnement Aperçu. Ces améliorations seront disponibles la semaine du 3 octobre 2022.
 
@@ -34,11 +35,11 @@ L’icône Plan directeur apparaît dans le menu principal lorsque :
 
 * Aucun modèle de mise en page n’est affecté à l’utilisateur.
 
-* Le modèle de mise en page de l’utilisateur dispose de l’option Plan directeur dans la liste Principale des éléments.
+* Le modèle de disposition de l’utilisateur dispose de l’option Plan directeur dans la liste des éléments actifs.
 
 * Le modèle de mise en page de l’utilisateur dispose de l’option Plan directeur dans la liste Éléments disponibles ; l’icône n’apparaît pas dans le menu principal.
 
-Les modèles de mise en page existants incluent automatiquement l’icône Plan directeur, et les administrateurs peuvent supprimer l’icône des modèles de mise en page pour limiter la visibilité du catalogue de plans directeurs. Les nouveaux modèles de mise en page créés après la version 22.4 incluront l’icône Plan directeur dans la liste Principale Éléments.
+Les modèles de mise en page existants incluent automatiquement l’icône Plan directeur, et les administrateurs peuvent supprimer l’icône des modèles de mise en page pour limiter la visibilité du catalogue de plans directeurs. Les nouveaux modèles de mise en page créés après la version 22.4 incluront l’icône Plan directeur dans la liste des éléments actifs.
 
 Pour plus d’informations, voir [Configurer l’accès aux plans directeurs](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
@@ -84,7 +85,7 @@ Pour plus d’informations, voir [Personnalisation des en-têtes d’objet à l�
 
 [Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
-## Inclusion anticipée des fonctionnalités pour les dernières fonctionnalités des panoramas
+## Inclusion anticipée des dernières fonctionnalités sur les panoramas
 
 Nous sommes ravis d’ouvrir de nouvelles fonctionnalités de panoramas pour l’accord préalable des fonctionnalités. Cet outil facultatif est disponible pour toutes les organisations.
 
@@ -108,7 +109,7 @@ Pour plus d’informations, voir [Ajout de données calculées à un formulaire 
 
 ## Migration vers l’Adobe d’une expérience unifiée
 
-REMARQUE : Cette migration a été reportée au 1er trimestre 2023. Tous les clients concernés seront alors avertis.
+REMARQUE : Cette migration a été reportée au 1er et 2e trimestre de 2023. Tous les clients concernés seront alors avertis.
 
 Si votre organisation a été intégrée à Adobe Admin Console, votre instance Workfront sera migrée vers l’Adobe Expérience unifiée avec la version 22.4.
 

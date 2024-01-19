@@ -3,9 +3,11 @@ title: 23.3 Améliorations rapides
 description: 23.3 Améliorations rapides
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -70,7 +72,7 @@ Pour plus d’informations, voir [Création d’une itération dans un workflow]
 
 Vous pouvez maintenant ajouter des commentaires aux cartes ad hoc et connectées sur les panoramas et marquer d’autres utilisateurs sur les commentaires. Les commentaires sont disponibles dans les détails de la carte. La fonction de commentaire des panoramas utilise la nouvelle expérience de commentaire d’Adobe Workfront.
 
-Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) et [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) et [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
@@ -100,7 +102,7 @@ Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un pano
 
 Les filtres sur le modèle de panorama dynamique ont été simplifiés afin que vous puissiez créer un panorama plus rapidement. Les filtres disponibles sont des projets Workfront et des affectations par équipe ou utilisateur. Vous pouvez passer aux filtres avancés si vous le souhaitez. Ces options de filtre se trouvent également dans le panneau Configurer pour les panoramas dynamiques.
 
-Pour plus d’informations, voir [Création ou modification d’un panorama](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Pour plus d’informations, voir [Créer ou modifier un panorama](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
 ## Modèle de tableau dynamique
 
@@ -112,17 +114,17 @@ Un nouveau modèle, la carte dynamique, est désormais disponible pour les panor
 
 Le panorama dynamique vous permet de remplir automatiquement un panorama de cartes en fonction d’un projet Workfront. Grâce aux filtres, les cartes sont ajoutées aux colonnes en fonction de leur état.
 
-Pour plus d’informations, voir [Création ou modification d’un panorama](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Pour plus d’informations, voir [Créer ou modifier un panorama](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
 ## Migration de cartes Kanban d’équipe agile vers des panoramas
 
-Une nouvelle **Ajouter des panoramas** sur les panoramas Kanban de l’équipe agile, vous pouvez ajouter toutes les cartes du panorama Kanban à un panorama Workfront. Vous pouvez choisir de créer un panorama Workfront ou d’ajouter les cartes à un panorama existant.
+Une nouvelle **Ajout à des panoramas** sur les panoramas Kanban de l’équipe agile, vous pouvez ajouter toutes les cartes du panorama Kanban à un panorama Workfront. Vous pouvez choisir de créer un panorama Workfront ou d’ajouter les cartes à un panorama existant.
 
 Le positionnement des cartes sur le panorama Workfront est basé sur des stratégies de colonnes. (Par exemple, une stratégie peut déplacer toutes les cartes dont l’état est &quot;En cours&quot; vers une colonne spécifique.) S’il n’existe aucune stratégie ou si les cartes ne correspondent pas aux stratégies, elles sont placées dans la colonne la plus à gauche. Pour l’instant, les cartes de la colonne Backlog du panorama hérité ne sont pas ajoutées au panorama Workfront.
 
-Les cartes ne sont pas supprimées du panorama Kanban de l’équipe agile, et les modifications d’état des cartes sont synchronisées avec les deux panoramas. Vous pouvez garder les deux panoramas principaux jusqu’à ce que vous soyez prêt à passer aux panoramas Workfront.
+Les cartes ne sont pas supprimées du panorama Kanban de l’équipe agile, et les modifications d’état des cartes sont synchronisées avec les deux panoramas. Vous pouvez conserver les deux panoramas actifs jusqu’à ce que vous soyez prêt à passer aux panoramas Workfront.
 
 Pour plus d’informations, voir [Migration de cartes Kanban d’équipe agile vers des panoramas Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
@@ -138,7 +140,7 @@ Pour plus d’informations, voir [Migration de cartes Kanban d’équipe agile v
 
 En outre, vous pouvez maintenant ajouter des URL dans le champ Description ; elles deviennent des liens cliquables lors de l’enregistrement des détails de la carte. Ces mises à jour s’appliquent aux cartes ad hoc et connectées.
 
-Pour plus d’informations, voir [Ajout d’une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) et [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) et [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 [Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3418598/){target=_blank}
 

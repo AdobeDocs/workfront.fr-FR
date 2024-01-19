@@ -6,10 +6,11 @@ title: Présentation de la version 21.1
 description: La version 21.1 a été mise à disposition dans l’environnement de production pendant la semaine de .
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3635'
+source-wordcount: '3658'
 ht-degree: 0%
 
 ---
@@ -107,21 +108,21 @@ For specific release dates and times for each cluster, see the
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur2" class="MCXref xref" xrefformat="{para}">Configuration de votre liste autorisée de messagerie Workfront</a> </p> <p>Pour mieux sécuriser vos données, vous pouvez désormais utiliser une liste autorisée de domaine de courriel pour :</p> 
     <ul> 
      <li> <p>Contrôle de l’emplacement où se rendent les emails Workfront s’ils contiennent des rapports ou des documents stockés dans Workfront</p> </li> 
-     <li> <p>Les domaines de contrôle des courriers électroniques peuvent se trouver dans l’adresse électronique que les utilisateurs peuvent spécifier dans leur profil d’utilisateur.</p> </li> 
+     <li> <p>Les domaines de contrôle des courriers électroniques peuvent se trouver dans l’adresse électronique que les utilisateurs peuvent spécifier dans leur profil utilisateur.</p> </li> 
     </ul> <p>Par exemple, si vous souhaitez protéger des données sensibles, telles qu’un rapport répertoriant vos clients à risque, vous pouvez inclure uniquement votre domaine de courriel interne ou vos domaines dans la liste autorisée de courriel. De cette manière, les utilisateurs ne peuvent pas envoyer ce rapport (ni aucun autre rapport Workfront) à une adresse électronique externe.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 20 novembre 2020</p> <p>Version de production : avec la version 21.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#assign" class="MCXref xref" xrefformat="{para}">Affectation d’un administrateur de groupe à un sous-groupe</a> </p> <p>Pour faciliter le fonctionnement indépendant des niveaux de votre organisation, nous avons ajouté la possibilité d’affecter un administrateur de groupe à un sous-groupe. Vous pouvez désormais vous assurer que vous déléguez la gestion des sous-groupes aux personnes appropriées.</p> <p>Auparavant, seul un groupe de niveau supérieur pouvait avoir des administrateurs de groupe, et ces administrateurs géraient tous les sous-groupes sous le groupe de niveau supérieur.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#assign" class="MCXref xref" xrefformat="{para}">Affecter un administrateur de groupe à un sous-groupe</a> </p> <p>Pour faciliter le fonctionnement indépendant des niveaux de votre organisation, nous avons ajouté la possibilité d’affecter un administrateur de groupe à un sous-groupe. Vous pouvez désormais vous assurer que vous déléguez la gestion des sous-groupes aux personnes appropriées.</p> <p>Auparavant, seul un groupe de niveau supérieur pouvait avoir des administrateurs de groupe, et ces administrateurs géraient tous les sous-groupes sous le groupe de niveau supérieur.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 20 novembre 2020</p> <p>Version de production : avec la version 21.1</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#work" class="MCXref xref" xrefformat="{para}">Utilisation de projets de groupe et processus de validation dans la zone Groupes</a> </p> <p>Si vous êtes administrateur de groupe, il est facile d’afficher et de travailler avec les projets de votre groupe et les processus d’approbation maintenant qu’ils sont répertoriés dans la zone Groupes . </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#work" class="MCXref xref" xrefformat="{para}">Utilisation des projets de groupe et des processus de validation dans la zone Groupes</a> </p> <p>Si vous êtes administrateur de groupe, il est facile d’afficher et de travailler avec les projets de votre groupe et les processus d’approbation maintenant qu’ils sont répertoriés dans la zone Groupes . </p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 20 novembre 2020</p> <p>Version de production : avec la version 21.1</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur3" class="MCXref xref" xrefformat="{para}">Configuration des notifications d’événement pour les groupes</a> <span style="color: #dc143c; font-weight: bold;">Nouveau dans Aperçu .</span></p> <p>Les administrateurs Workfront peuvent désormais accorder aux administrateurs de groupe une plus grande autonomie en leur permettant de configurer des notifications d’événement pour leurs groupes de niveau supérieur. Les sous-groupes héritent des configurations de notification d’événement de leur groupe parent supérieur.</p> <p>Auparavant, les notifications d’événement n’étaient configurables que par un administrateur Workfront au niveau du système, ce qui signifie que tous les groupes devaient utiliser le même ensemble de notifications d’événement.</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 22 janvier 2021</p> <p>Version de production : avec la version 21.1 <span style="color: #dc143c; font-weight: bold;">(initialement disponible en production uniquement pour les clients du cluster 4 dans le cadre d’un déploiement échelonné ; disponible pour d’autres grappes peu de temps après)</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur3" class="MCXref xref" xrefformat="{para}">Configuration des notifications d’événement pour les groupes</a> <span style="color: #dc143c; font-weight: bold;">Nouveau dans Aperçu .</span></p> <p>Les administrateurs de Workfront peuvent désormais accorder aux administrateurs de groupe une plus grande autonomie en leur permettant de configurer des notifications d’événement pour leurs groupes de niveau supérieur. Les sous-groupes héritent des configurations de notification d’événement de leur groupe parent supérieur.</p> <p>Auparavant, les notifications d’événement n’étaient configurables que par un administrateur Workfront au niveau du système, ce qui signifie que tous les groupes devaient utiliser le même ensemble de notifications d’événement.</p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 22 janvier 2021</p> <p>Version de production : avec la version 21.1 <span style="color: #dc143c; font-weight: bold;">(Disponible initialement en production uniquement pour les clients sur la grappe 4 dans le cadre d’un déploiement échelonné ; disponible pour d’autres grappes peu de temps après)</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#view" class="MCXref xref" xrefformat="{para}">Afficher le nombre de licences utilisées et allouées dans un groupe</a> </p> <p>Pour déterminer la distribution de vos licences, vous pouvez désormais afficher le nombre de licences utilisées dans un groupe et les sous-groupes situés en dessous.</p> <p>Si vous gérez un groupe de niveau supérieur, vous pouvez afficher à la fois le nombre de licences utilisées dans un groupe (et ses sous-groupes) et le nombre maximal de licences attribuées au groupe.</p> </td> 
@@ -175,18 +176,18 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouvelle expérience lors de l’envoi de requêtes dans la zone Demandes</a> </p> <p>Afin d’assurer la cohérence avec la nouvelle expérience Workfront et d’améliorer l’efficacité de votre action lors de l’envoi de requêtes, nous avons repensé la zone Nouvelle requête dans la zone Demandes .</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 13 janvier 2021</p> <p>Version de production : avec la version 21.1 <span style="color: #dc143c; font-weight: bold;">(Retiré de la version ; restera dans Aperçu et version en production avec la version 21.2)</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 13 janvier 2021</p> <p>Version de production : avec la version 21.1 <span style="color: #dc143c; font-weight: bold;">(Suppression de la version ; elle reste dans Aperçu et version en production avec la version 21.2)</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Partage d’un lien vers une file d’attente de demandes lors de l’envoi d’une demande</a> </p> <p>Nous avons maintenant rendu possible le partage d’un lien vers une file d’attente de requêtes, un groupe de rubriques ou une rubrique de file d’attente à mesure que vous créez une requête.</p> <p>Avant d’envoyer une nouvelle requête, vous pouvez copier un lien vers la file d’attente des requêtes, le groupe de rubriques ou la rubrique de la file d’attente de la requête et le partager avec d’autres utilisateurs, ou l’incorporer dans un tableau de bord.</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 13 janvier 2021</p> <p>Version de production : avec la version 21.1 <span style="color: #dc143c; font-weight: bold;">(Retiré de la version ; restera dans Aperçu et version en production avec la version 21.2)</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Partage d’un lien vers une file d’attente de demandes lors de l’envoi d’une demande</a> </p> <p>Nous avons maintenant rendu possible le partage d’un lien vers une file d’attente de requêtes, un groupe de rubriques ou une rubrique de file d’attente.</p> <p>Avant d’envoyer une nouvelle requête, vous pouvez copier un lien vers la file d’attente des requêtes, le groupe de rubriques ou la rubrique de la file d’attente de la requête et le partager avec d’autres utilisateurs, ou l’incorporer dans un tableau de bord.</p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 13 janvier 2021</p> <p>Version de production : avec la version 21.1 <span style="color: #dc143c; font-weight: bold;">(Suppression de la version ; elle reste dans Aperçu et version en production avec la version 21.2)</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">Nouvelle liste des requêtes envoyées</a> </p> <p>Pour vous permettre de gérer vos requêtes envoyées de manière plus simple et cohérente, nous avons supprimé les sections Demandes que j’ai envoyées et Toutes les requêtes de la zone Demandes et les avons remplacées par une nouvelle liste Envoyées. L’aspect familier de la liste correspond à toutes les autres listes du système, ce qui vous permet de filtrer différentes catégories de demandes envoyées et de rechercher rapidement une demande qui peut être difficile à trouver.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version bêta de l’aperçu : 2 décembre 2020</p> <p>Version de production : avec la version 21.1</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#search" class="MCXref xref" xrefformat="{para}">Recherchez un groupe que vous souhaitez affecter à un projet et affichez ses détails.</a> </p> <p>Il est désormais plus facile de vous assurer d’identifier le bon groupe lorsque vous affectez un groupe à un projet. Pointez sur le nom d’un groupe que vous trouvez dans la zone Groupe, puis cliquez sur l’icône d’information qui s’affiche en regard du nom pour afficher l’info-bulle Détails du groupe.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#search" class="MCXref xref" xrefformat="{para}">Recherchez un groupe à affecter à un projet et affichez ses détails.</a> </p> <p>Il est désormais plus facile de vous assurer d’identifier le bon groupe lorsque vous affectez un groupe à un projet. Pointez sur le nom d’un groupe que vous trouvez dans la zone Groupe, puis cliquez sur l’icône d’information qui s’affiche en regard du nom pour afficher l’info-bulle Détails du groupe.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 17 décembre 2020</p> <p>Version de production : avec la version 21.1</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -216,7 +217,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 28 janvier 2021</p> <p>Version de production : avec la version 21.1</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront (précédemment disponible)</p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md#enhanced" class="MCXref xref" xrefformat="{para}">Les analyses améliorées s’affichent désormais par défaut.</a> </p> <p>Remarque : Cette modification s’applique uniquement aux utilisateurs qui viennent d’être ajoutés aux modèles de mise en page. Les utilisateurs affectés à un modèle de mise en page personnalisé ne sont pas non plus affectés par cette modification.</p> <p>Dans le modèle de mise en page par défaut, la zone Analytics est désormais activée par défaut, ce qui signifie que les utilisateurs affectés à ce modèle de mise en page voient désormais la zone Analytics dans la barre de navigation globale de Workfront Classic et le menu principal dans la nouvelle expérience Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md#enhanced" class="MCXref xref" xrefformat="{para}">Les analyses améliorées s’affichent désormais par défaut.</a> </p> <p>Remarque : cette modification s’applique uniquement aux utilisateurs qui viennent d’être ajoutés aux modèles de mise en page. Les utilisateurs affectés à un modèle de mise en page personnalisé ne sont pas non plus affectés par cette modification.</p> <p>Dans le modèle de mise en page par défaut, la zone Analytics est désormais activée par défaut, ce qui signifie que les utilisateurs affectés à ce modèle de mise en page voient désormais la zone Analytics dans la barre de navigation globale de Workfront Classic et le menu principal dans la nouvelle expérience Workfront.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 6 novembre 2020</p> <p>Version de production : 3 décembre 2020</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -237,7 +238,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Améliorations des notifications Adobe Workfront dans les Microsofts Teams</a> </p> <p>Afin que vous puissiez plus facilement utiliser Workfront par le biais de Microsofts Teams, nous avons ajouté diverses améliorations aux notifications de Microsofts Teams envoyées depuis Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Améliorations des notifications Adobe Workfront dans Microsoft Teams</a> </p> <p>Afin que vous puissiez plus facilement utiliser Workfront par le biais de Microsofts Teams, nous avons ajouté diverses améliorations aux notifications de Microsofts Teams envoyées depuis Workfront.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : S.O.</p> <p>Version de production : 12 janvier 2021</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -267,7 +268,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
  </tbody> 
 </table>
-—&gt;
+--&gt;
 
 ### Autres améliorations {#other-enhancements}
 
@@ -304,7 +305,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible à ces dates :</strong> <p>Version bêta de l’aperçu : 2 décembre 2020</p> <p>Version de production : 16 décembre 2020</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#expand" class="MCXref xref" xrefformat="{para}">Développer ou réduire les éléments dans la navigation du chemin de navigation</a> </p> <p>Pour faciliter l’affichage du chemin de navigation complet, nous avons ajouté des fonctionnalités de développement et de réduction.</p> <p>Désormais, tous les éléments tronqués sont regroupés avant le projet avec le texte "plus". Par exemple, "3 autres" indique que 3 objets ne s’affichent pas.</p> <p>Auparavant, vous deviez cliquer sur les points de suspension pour afficher les objets tronqués dans un menu déroulant.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#expand" class="MCXref xref" xrefformat="{para}">Développer ou réduire les éléments dans la navigation du chemin de navigation</a> </p> <p>Pour faciliter l’affichage du chemin de navigation complet, nous avons ajouté des fonctionnalités de développement et de réduction.</p> <p>Désormais, tous les éléments tronqués sont regroupés avant le projet avec le texte "plus". Par exemple, "3 autres" indique qu’il existe 3 objets qui ne s’affichent pas.</p> <p>Auparavant, vous deviez cliquer sur les points de suspension pour afficher les objets tronqués dans un menu déroulant.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 7 janvier 2020</p> <p>Version de production : 21 janvier 2021</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -316,7 +317,7 @@ For specific release dates and times for each cluster, see the
 
 ## Améliorations des objectifs de Workfront
 
-La plupart des nouvelles fonctionnalités de la version 21.1 des objectifs de Workfront. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs d’Adobe Workfront avec la version 21.1](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
+La plupart des nouvelles fonctionnalités de la version 21.1 des objectifs de Workfront. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs Adobe Workfront avec la version 21.1](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
 
 ## Améliorations du planificateur de scénario Workfront
 
@@ -348,13 +349,13 @@ Pour plus d’informations sur les versions d’API, voir [Contrôle de version 
 
 ## Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 21.1, voir [Mises à jour de maintenance de Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 21.1, voir [Mises à jour de maintenance Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Annonces
 
 * [Nouvelles adresses IP pour les emails Workfront avec la version 21.1](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
 * [Liste autorisée d’adresses IP supplémentaires pour les abonnements à des événements](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
-* [Liste autorisée des domaines supplémentaires requis pour l’accès à Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
+* [Liste autorisée des domaines supplémentaires requis pour accéder à Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [obsolescence des Flashs](#flash-deprecation)
 * [Webinaire sur la version 21.1](#21-1-release-webinar)
 * [Modification de la cadence de publication de l’aperçu](#change-in-preview-release-cadence)
@@ -374,7 +375,7 @@ Afin d’améliorer la diffusion réussie de l’abonnement à un événement, n
 
 Contactez votre service informatique et/ou de sécurité interne pour obtenir de l’aide sur l’ajout des nouvelles adresses IP trouvées dans l’article, [API d’abonnement à un événement](../../../wf-api/general/event-subs-api.md).
 
-### Liste autorisée des domaines supplémentaires requis pour l’accès à Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
+### Liste autorisée des domaines supplémentaires requis pour accéder à Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
 Si votre entreprise utilise un pare-feu, vous devez ajouter les domaines supplémentaires suivants à votre liste autorisée pour garantir un accès ininterrompu à Workfront :
 
@@ -387,7 +388,7 @@ Pour plus d’informations, voir [Configuration de la liste autorisée de votre 
 
 Le 19 novembre 2020, tous les outils basés sur le Flash ont été supprimés de tous les produits.
 
-Pour en savoir plus sur les solutions de remplacement pour chaque outil spécifique basé sur les Flashs, consultez l’article suivant : [Remplacement des outils basés sur des Flashs dans Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Pour en savoir plus sur les solutions de remplacement pour chaque outil spécifique basé sur les Flashs, consultez l’article suivant : [Remplacement des outils par Flash dans Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Webinaire sur la version 21.1 {#21-1-release-webinar}
 

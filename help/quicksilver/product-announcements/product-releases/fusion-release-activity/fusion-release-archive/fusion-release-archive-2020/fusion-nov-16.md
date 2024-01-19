@@ -3,26 +3,27 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Activité Publication de fusion Workfront : Semaine du 16 novembre 2020'''
-description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 16 novembre 2020.
+title: "Activité Publication de fusion Workfront : semaine du 16 novembre 2020"
+description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion la semaine du 16 novembre 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9221a69e-2482-478b-95a9-f62dd28538d6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Activité Publication de fusion Workfront : semaine du 16 novembre 2020
 
-Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 16 novembre 2020.
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion la semaine du 16 novembre 2020.
 
 Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
 
 ## Mises à jour du connecteur Jira Cloud
 
@@ -46,8 +47,8 @@ Pour plus d’informations sur les exécutions de scénarios, voir [Exécution d
 
 Pour faciliter la création de scénarios, nous avons ajouté quelques raccourcis clavier :
 
-* Ctrl/Cmd+Maj+Entrée : Exécuter un scénario une fois
-* Ctrl/Cmd + Maj + S : Enregistrement d’un scénario
+* Ctrl/Cmd+Maj+Entrée : exécutez un scénario une fois.
+* Ctrl/Cmd + Maj + S : enregistrer un scénario
 
 Pour plus d’informations sur la création de scénarios Workfront Fusion 2.0, voir [Création d’un scénario dans Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -55,7 +56,7 @@ Pour plus d’informations sur la création de scénarios Workfront Fusion 2.0, 
 
 Pour étendre les possibilités d&#39;utilisation du connecteur Excel Office 365, nous avons ajouté de nouveaux modules. Vous pouvez désormais :
 
-* Déclenchement d’un module des modifications apportées aux classeurs
+* Déclencher un module des modifications apportées aux classeurs
 * Recherche ou téléchargement de classeurs
 * Liste des feuilles de calcul, des lignes de feuille de calcul, des tableaux ou des lignes de tableau
 * Mise à jour d’un tableau ou d’une ligne de feuille de calcul

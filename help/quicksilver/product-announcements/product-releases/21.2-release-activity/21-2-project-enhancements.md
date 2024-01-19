@@ -6,10 +6,11 @@ title: 21.2 Améliorations apportées au projet
 description: Cette page décrit toutes les améliorations apportées aux projets avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1650'
 ht-degree: 1%
 
 ---
@@ -28,7 +29,7 @@ Dans le cadre de la reconception des boîtes de dialogue Nouvelle tâche et Modi
 
 Pour plus d’informations, voir [Créer des tâches récurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes de planification de la nouvelle expérience Workfront, partie 2 : Planification d’un projet](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans la variable [Principes de planification de la nouvelle expérience Workfront, Partie 2 : Planifier un projet](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) parcours d’apprentissage sur Workfront One.
 
 ## Nouveaux boutons disponibles dans l’en-tête Projets
 
@@ -38,7 +39,7 @@ Cette fonctionnalité est désormais incluse dans la variable [Principes de plan
 
 Pour vous permettre de filtrer rapidement la liste des projets sur la page Projets , deux nouveaux boutons dans l’en-tête vous permettent d’appliquer rapidement le filtre Projets actifs ou Projets personnels .
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes de planification de la nouvelle expérience Workfront, partie 1 : Création d’un projet](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans la variable [Principes de planification de la nouvelle expérience Workfront, partie 1 : créer un projet](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) parcours d’apprentissage sur Workfront One.
 
 ## Déplacement ou suppression d’un article ou d’un problème dans le panneau de défilement
 
@@ -67,7 +68,7 @@ Outre une apparence mise à jour, les modifications suivantes sont également di
 * Nous avons ajouté le champ Heures planifiées à la section Affectations afin de faciliter la mise à jour du temps nécessaire à la réalisation du problème avec les ressources.
 * Nous avons supprimé la fonctionnalité de commentaires de l’écran Modifier le problème afin d’éliminer la redondance avec la section Mises à jour .
 
-## Déplacement des boutons Enregistrer et Annuler pour les zones Modifier et Nouvel objet
+## Déplacement des boutons Enregistrer et Annuler pour les zones Modifier et Nouveau objet
 
 >[!NOTE]
 >
@@ -94,7 +95,7 @@ Pour une meilleure expérience lorsque vous remplissez un formulaire personnalis
 
 Pour plus d’informations sur le remplissage de formulaires personnalisés, voir [Modifier les informations dans les champs de formulaire personnalisés](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-## Le contact Principal d’un problème est maintenant visible dans la zone Détails du projet.
+## Le contact par Principal d’un problème est maintenant visible dans la zone Détails du projet.
 
 >[!NOTE]
 >
@@ -112,7 +113,7 @@ Pour plus d’informations sur la conversion de problèmes, voir [Présentation 
 >
 >Cette fonctionnalité est disponible uniquement dans la nouvelle expérience Adobe Workfront.
 
-Lorsque vous affectez un groupe à un portfolio, un programme ou une équipe, il est plus facile de s’assurer que vous disposez du bon groupe. Vous pouvez cliquer sur l’icône d’information située en regard du nom du groupe pour afficher une info-bulle contenant la hiérarchie des groupes au-dessus, ainsi que les administrateurs du groupe. En fonction des détails configurés pour le groupe, le chef d’entreprise et la description du groupe peuvent également s’afficher.
+Lorsque vous affectez un groupe à un portfolio, un programme ou une équipe, il est plus facile de s’assurer que vous disposez du groupe approprié. Vous pouvez cliquer sur l’icône d’information située en regard du nom du groupe pour afficher une info-bulle contenant la hiérarchie des groupes au-dessus, ainsi que les administrateurs du groupe. En fonction des détails configurés pour le groupe, le chef d’entreprise et la description du groupe peuvent également s’afficher.
 
 Il s’agit de la même fonctionnalité qui a été publiée récemment pour vous aider à identifier un groupe que vous devez affecter à un projet, comme expliqué dans la section [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -187,7 +188,7 @@ Vous pouvez désormais désactiver les équipes que vous n’utilisez plus. Lors
 
 Pour plus d’informations, voir [Désactivation d’une équipe](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
 
-## Mise à jour du paramètre permettant aux utilisateurs de supprimer des tâches et des problèmes liés aux heures enregistrées
+## Mise à jour du paramètre qui permet aux utilisateurs de supprimer des tâches et des problèmes liés aux heures enregistrées
 
 >[!NOTE]
 >

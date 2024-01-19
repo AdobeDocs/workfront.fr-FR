@@ -4,10 +4,11 @@ description: 21.4 Autres améliorations
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7afff4ec-a296-483c-819f-84932b6da4d8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Pour Mac, appuyez sur Option + > pour mettre en retrait un élément de liste et
 
 Pour Windows, appuyez sur Alt + > pour mettre un élément de liste en retrait et sur Alt + &lt; pour le retrait négatif.
 
-Auparavant, le raccourci clavier pour mettre en retrait dans une liste était Tab et la mise en retrait était Maj + Tab. Toutefois, l’utilisation de la touche de tabulation pour le retrait et la mise en retrait empêchait de parcourir tous les champs principaux de l’interface.
+Auparavant, le raccourci clavier pour mettre en retrait dans une liste était Tab et la mise en retrait était Maj + Tab. Toutefois, l’utilisation de la touche de tabulation pour mettre en retrait et mettre en retrait rendait impossible la possibilité de passer d’un champ actif à l’autre dans l’interface.
 
 Cette modification s’applique uniquement aux listes mises à jour et non aux listes héritées.
 

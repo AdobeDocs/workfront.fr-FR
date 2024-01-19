@@ -4,17 +4,18 @@ description: Présentation de la version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3193'
+source-wordcount: '3220'
 ht-degree: 0%
 
 ---
 
 # Présentation de la version 22.3
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version 22.3. Toutes les fonctionnalités répertoriées sont disponibles dans la nouvelle expérience Adobe Workfront. Certaines fonctionnalités sont également disponibles dans Adobe Workfront Classic ; cependant, [Workfront Classic sera abandonné en mars 2022](https://one.workfront.com/s/new-workfront-experience), suivie de la date de fin de vie de Workfront Classic en juillet 2022.
+Cette page fournit des informations sur les fonctionnalités incluses dans la version 22.3. Toutes les fonctionnalités répertoriées sont disponibles dans la nouvelle expérience Adobe Workfront. Certaines fonctionnalités sont également disponibles dans Adobe Workfront Classic. Toutefois, [Workfront Classic sera abandonné en mars 2022](https://one.workfront.com/s/new-workfront-experience), suivie de la date de fin de vie de Workfront Classic en juillet 2022.
 
 Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022.
 
@@ -40,12 +41,12 @@ Ces améliorations ont été apportées à l’environnement de production au co
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Intégration d’Adobe Workfront à JumpSeat
-</a></p></p> <p>Vous pouvez désormais intégrer JumpSeat à Workfront afin de créer des conseils personnalisés et intégrés au produit à l’intention de vos utilisateurs. Vous devez disposer d’une licence d’entreprise Adobe Workfront et d’un principal abonnement JumpSeat pour activer l’intégration.</p>  
+</a></p></p> <p>Vous pouvez désormais intégrer JumpSeat à Workfront afin de créer des conseils personnalisés et intégrés au produit à l’intention de vos utilisateurs. Pour activer l’intégration, vous devez disposer d’une licence d’entreprise Adobe Workfront et d’un abonnement JumpSeat actif.</p>  
     </td>
     <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 2 juin 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 2 juin 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -53,12 +54,12 @@ Ces améliorations ont été apportées à l’environnement de production au co
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Utiliser des états déverrouillés dans un processus de validation
-</a></p></p> <p>Cette fonctionnalité a été supprimée de la version de production 22.3. Cette fonctionnalité sera mise en production ultérieurement.</p> 
+</a></p></p> <p>Cette fonctionnalité a été supprimée de la version de production 22.3. Cette fonctionnalité devrait être mise en production ultérieurement.</p> 
 <p>Pour vous permettre de mieux contrôler les processus et les états de validation dans votre système, nous avons rendu possible la création d'un processus de validation basé sur un état système déverrouillé. De plus, vous pouvez désormais déverrouiller tout statut déjà utilisé dans un processus de validation. Auparavant, un état système utilisé dans un processus de validation devait être verrouillé. Cela l’a rendu disponible pour tous les groupes, sans possibilité de le supprimer ou de le renommer, de sorte que les administrateurs de groupes ne puissent pas rationaliser la liste des états de leur groupe en fonction de leurs besoins spécifiques.</p>   
    </td> 
     <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 2 juin 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 2 juin 2022<br></p> </li> 
      <li> <p>Version de production : 15 septembre 2022</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -75,8 +76,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
    </td> 
     <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 1er juin 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 1er juin 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -88,8 +89,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
    </td> 
     <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 2 juin 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 2 juin 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -101,8 +102,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
     </td> 
     <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 9 juin 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 9 juin 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -115,8 +116,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
     </ul> </td> 
     <td>
     <ul> 
-     <li> <p>Aperçu de la version : 2 juin 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 2 juin 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
    </td>
@@ -130,7 +131,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
    <p>Le nouveau paramètre est "Autoriser les utilisateurs à créer des projets sans utiliser de modèle" et est activé par défaut.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 19 mai 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 19 mai 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.3 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -138,10 +139,10 @@ Ces améliorations ont été apportées à l’environnement de production au co
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Désactivation d’un groupe à partir de la page Groupes</a> </p> <p>Récemment, nous avons ajouté la possibilité de désactiver et de réactiver les groupes. Pour rendre cette action plus rapide et plus facile, nous l’avons ajoutée à la page d’un groupe. Maintenant, après avoir cliqué sur le nom d’un groupe pour accéder à sa page, vous pouvez sélectionner le menu Plus . <img src="assets/more-icon.png"> en regard du nom du groupe, sélectionnez Désactiver ou Réactiver.</p> <p>Auparavant, vous pouviez désactiver ou réactiver un groupe uniquement à l’aide de la case Est principal de la page Détails. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Désactivation d’un groupe à partir de la page Groupes</a> </p> <p>Récemment, nous avons ajouté la possibilité de désactiver et de réactiver les groupes. Pour rendre cette action plus rapide et plus facile, nous l’avons ajoutée à la page d’un groupe. Maintenant, après avoir cliqué sur le nom d’un groupe pour accéder à sa page, vous pouvez sélectionner le menu Plus . <img src="assets/more-icon.png"> en regard du nom du groupe, sélectionnez Désactiver ou Réactiver.</p> <p>Auparavant, vous pouviez désactiver ou réactiver un groupe uniquement à l’aide de la case à cocher Est actif sur sa page Détails . </p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 14 avril 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 14 avril 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.3 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -152,7 +153,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout de vidéos à des formulaires personnalisés</a> </p> <p>Vous pouvez désormais offrir un nouveau mode d’information, d’intérêt visuel et de créativité à un formulaire personnalisé en ajoutant une vidéo. Lorsque le formulaire est joint à un objet, les utilisateurs qui travaillent avec l’objet peuvent lire la vidéo à tout moment.</p> <p>Auparavant, vous pouviez uniquement ajouter des champs textuels et des images à un formulaire personnalisé.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 14 avril 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 14 avril 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.3 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -177,8 +178,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
    <p>Avant cette amélioration, vous ne pouviez déléguer que les approbations.</p></td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 9 juin 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 9 juin 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -189,8 +190,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
    </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 9 juin 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 9 juin 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -201,19 +202,19 @@ Ces améliorations ont été apportées à l’environnement de production au co
    <p>Outre une interface utilisateur mise à jour qui correspond au reste de la nouvelle expérience Workfront, nous avons également ajouté la possibilité de convertir un problème en projets vierges à partir d’une liste ou d’un rapport.</p></td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 2 juin 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 2 juin 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Balisage intelligent dans le flux de mise à jour</a></p> <p>Nous avons amélioré le balisage des utilisateurs dans le flux de mise à jour lorsque vous créez une mise à jour ou que vous répondez à une mise à jour existante. Désormais, lorsque vous marquez un utilisateur pour l’inclure dans une mise à jour, en plus de son nom et de son avatar, nous affichons également son Rôle Principal et son email. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Balisage intelligent dans le flux de mise à jour</a></p> <p>Nous avons amélioré le balisage des utilisateurs dans le flux de mise à jour lorsque vous créez une mise à jour ou que vous répondez à une mise à jour existante. Désormais, lorsque vous marquez un utilisateur pour l’inclure dans une mise à jour, en plus de son nom et de son avatar, nous affichons également son rôle de Principal et son email. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 19 mai 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 19 mai 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -223,8 +224,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle syntaxe pour les calculs dans les champs personnalisés</a> </p> <p>Pour vous préparer aux améliorations à venir qui vous aideront à ajouter des calculs aux formulaires personnalisés, nous avons normalisé la syntaxe des champs référencés que vous ajoutez à un calcul. Il est facile d’utiliser cette nouvelle syntaxe car le système la saisit pour vous lorsque vous commencez à saisir le nom d’un champ, puis vous la sélectionnez.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 5 mai 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 5 mai 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -234,8 +235,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Conserver des informations précises lorsque deux utilisateurs ayant un rôle commun sont impliqués dans un processus d’approbation</a> </p> <p>Afin d’assurer l’exactitude de vos données pour la validation du travail, nous avons apporté une modification à l’enregistrement des informations d’approbation sur un élément lorsqu’un processus d’approbation multirôle est associé à l’élément.</p> <p>Certains processus d’approbation nécessitent l’approbation de deux rôles différents, et deux approbateurs différents peuvent avoir l’un de ces rôles en commun. Maintenant, lorsque cela se produit, une fois les décisions d’approbation prises, Workfront enregistre chaque approbateur et leur rôle respectif associé au processus d’approbation.</p> <p>Avant cette modification, les deux approbations étaient enregistrées pour le deuxième utilisateur, car il partageait l’un des rôles d’approbation avec le premier approbateur. Dans ce cas, le second approbateur remplaçait les informations du premier approbateur.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 21 avril 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 21 avril 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -272,7 +273,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
     </ul> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
-     <li> <p>Aperçu de la version : 10 février 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 10 février 2022<br></p> </li> 
      <li> <p>Version de production : 21 avril 2022 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -284,7 +285,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Partage de dossiers uniquement aux cinq premiers niveaux d’une hiérarchie de dossiers</a> (Ce lien renvoie aux notes de mise à jour de la version 20.2, date à laquelle cette fonctionnalité a été introduite dans l’aperçu.)</p> <p>Afin d’optimiser les performances pour les utilisateurs partageant des dossiers, nous limitons actuellement le partage aux cinq premiers niveaux d’une hiérarchie de dossiers sur un objet.</p> <p>Chaque dossier au sixième niveau ou au-dessous hérite de ses configurations de partage à partir du dossier situé directement au-dessus.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
-     <li> <p>Aperçu de la version : 10 février 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 10 février 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.2 <span style="color: #ff0000; font-weight: bold;">Cette fonctionnalité est temporairement indisponible. Cette page sera mise à jour lorsque la fonctionnalité sera disponible dans Production.</span></p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -329,7 +330,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Préférences de tri et améliorations de la convivialité dans l’équilibreur de charge de travail</a> </p> <p>Afin d’améliorer votre expérience lors de l’utilisation de l’équilibreur de charge de travail, nous avons apporté les améliorations suivantes, notamment un meilleur tri dans les sections Non affecté et Affecté, un nouvel aspect pour les barres de projet, une conception mise à jour et plus facile à lire pour les dates prévues, etc.</p> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 2 juin 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 2 juin 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -354,7 +355,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
 </a> </p> <p>Pour refléter les informations de budget des ressources du planificateur de ressources, nous avons ajouté un nouveau champ Heures planifiées des planificateurs de ressources aux listes et aux rapports. Divers champs ont été supprimés des listes et des rapports car ils font référence à des outils obsolètes qui ont été supprimés de Workfront dans les versions précédentes.</p> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 23 juin 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 23 juin 2022<br></p> </li> 
      <li> <p>Version de production : 23 juin 2022</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -376,10 +377,10 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Intégration d’Adobe Workfront for Experience Manager Assets</a> </p> <p>Nous sommes heureux d’annoncer que l’intégration d’Adobe Workfront Experience Manager Assets est désormais disponible pour Cloud Service.</p>
-   <p>Nous avons également introduit de nouvelles fonctionnalités pour Cloud Service et Assets Essentials.</p> </td> 
+   <p>Nous avons également introduit de nouvelles fonctionnalités pour les Cloud Service et les Assets Essentials.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : N/A<br></p> </li> 
+     <li> <p>Aperçu de la version : S.O.<br></p> </li> 
      <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -390,7 +391,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Combiner plusieurs fichiers en un seul BAT dans le module externe Creative Cloud</a> </p> <p>Vous pouvez désormais charger des fichiers externes avec le contenu que vous avez créé dans le module externe Adobe Workfront for Creative Cloud afin de créer des bons à tirer à plusieurs fichiers dans Workfront. Les fichiers externes apparaissent en tant que pages de BAT supplémentaires dans Workfront. Grâce à cette amélioration, nous avons également mis à jour l’aspect de l’expérience de création de BAT.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : N/A<br></p> </li> 
+     <li> <p>Aperçu de la version : S.O.<br></p> </li> 
      <li> <p>Version de production : à déterminer</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -403,7 +404,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
    <p>Les administrateurs de Workfront peuvent activer et désactiver séparément les intégrations SharePoint et SharePoint héritées, en fonction des besoins de leur entreprise.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 2 juin 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 2 juin 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -428,8 +429,8 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
    <td> <p><b>Disponible à ces dates :</b> </p> 
    <p>Vous pouvez également marquer d’autres utilisateurs de BAT dans les commentaires et les réponses. Toute personne que vous marquez reçoit une notification par courrier électronique.</p>
     <ul> 
-     <li> <p>Aperçu de la version : N/A<br></p> </li> 
-     <li> <p>Version de production : Disponible dans Apple App Store et Google Play Store de mi-juillet à fin juillet 2022.</p> </li> 
+     <li> <p>Aperçu de la version : S.O.<br></p> </li> 
+     <li> <p>Version de production : disponible dans Apple App Store et Google Play Store de mi-juillet à fin juillet 2022.</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -452,19 +453,19 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Feuilles de temps mises à jour</a> </p> <p>Nous continuons à améliorer et à mettre à jour votre expérience lorsque vous utilisez des feuilles de temps. </p> </td>
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 2 juin 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 2 juin 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de publication de la version 22.3</a> </p> <p>Des mises à jour mineures de l’aspect des différentes zones de l’application sont effectuées dans le délai de publication de la version 22.3. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.</p> </td>
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de la version 22.3</a> </p> <p>Des mises à jour mineures de l’aspect des différentes zones de l’application sont effectuées dans le délai de publication de la version 22.3. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.</p> </td>
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : Tout au long de la période de publication de la version 22.3<br></p> </li> 
-     <li> <p>Version de production : 2 semaines au moins après la publication dans Aperçu (sauf indication contraire)</p> </li> 
+     <li> <p>Aperçu de la version : pendant toute la période de la version 22.3<br></p> </li> 
+     <li> <p>Version de production : au moins 2 semaines après la publication dans Aperçu (sauf indication contraire)</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -474,8 +475,8 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Activation de la rotation automatique des jetons d’actualisation dans vos applications OAuth2 personnalisées</a></p> <p>Pour vous permettre de mieux contrôler la sécurité de vos applications OAuth2 personnalisées, nous avons ajouté à l’option permettant d’activer la rotation du jeton d’actualisation. Lorsque cette option est activée, chaque fois qu’un jeton d’actualisation est utilisé, votre application crée et envoie automatiquement un nouveau jeton d’actualisation, puis désactive l’ancien.</p> <p>Votre application doit stocker le nouveau jeton d’actualisation après chaque actualisation. Workfront ne stocke pas ce jeton d’actualisation.</p> <p>Auparavant, les jetons d’actualisation expiraient après un délai défini configuré dans les paramètres personnalisés de l’application OAuth2.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 5 mai 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 5 mai 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -485,8 +486,8 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Utilisation de PKCE dans vos intégrations OAuth2 personnalisées pour les applications web d’une seule page</a></p> <p>Vous pouvez désormais créer des applications web d’une seule page dans vos intégrations personnalisées à l’aide de PKCE. PKCE est un flux d’autorisation sécurisé qui fonctionne bien avec les applications d’actualisation dynamique telles que les applications mobiles, mais qui est utile pour tous les clients OAuth2. Au lieu d’un secret client statique, PKCE utilise une chaîne générée dynamiquement, éliminant ainsi le risque de fuite d’un secret client.</p> <p>Auparavant, les options disponibles pour les applications OAuth2 personnalisées utilisaient le nom et le mot de passe d’un utilisateur ou un secret client.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 5 mai 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.3</p> </li> 
+     <li> <p>Version d’aperçu : 5 mai 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.3</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -507,7 +508,7 @@ Aucune mise à jour du planificateur de scénario n’est disponible à ce stade
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features are coming to Workfront Scenario Planner release with the 21.4 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a>.</p>
 -->
 
-## Améliorations du Bon à tirer Workfront
+## Améliorations du Bon à tirer de Workfront
 
 Aucune mise à jour de BAT Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
@@ -533,7 +534,7 @@ Pour plus d’informations sur les versions d’API, voir [Contrôle de version 
 
 ## Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, voir [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## Webinaire sur la version 22.3
 

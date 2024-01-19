@@ -3,10 +3,11 @@ title: Présentation de la version du quatrième trimestre 2023
 description: Présentation de la version du quatrième trimestre 2023
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2772'
 ht-degree: 0%
 
 ---
@@ -780,9 +781,9 @@ Avec la version 23.10, nous abandonnerons officiellement l’application mobile 
 
 Notez que l’application mobile Workfront requiert une connexion Workfront. Les utilisateurs externes et les invités peuvent continuer à utiliser l’application BAT pour le travail de vérification ; elle n’est toutefois plus prise en charge et ne sera plus disponible avec la version 23.10.
 
-#### Flux de travail supprimés pour les comptes qui ne les utilisent pas
+#### Workflows supprimés pour les comptes qui ne les utilisent pas
 
-Pour les comptes qui n’ont jamais créé de workflow dans les panoramas Adobe Workfront, la zone Flux de travail a été supprimée du tableau de bord des panoramas à compter du 11 octobre 2023. Les comptes qui utilisent des flux de travail y ont toujours accès. Les prochaines versions aborderont la fonctionnalité de scrum améliorée.
+Pour les comptes qui n’ont jamais créé de workflow dans les panoramas Adobe Workfront, la zone Flux de travail a été supprimée du tableau de bord des panoramas à compter du 11 octobre 2023. Les comptes qui utilisent des workflows y ont toujours accès. Les prochaines versions aborderont la fonctionnalité de scrum améliorée.
 
 <!-- HTML you might need
 

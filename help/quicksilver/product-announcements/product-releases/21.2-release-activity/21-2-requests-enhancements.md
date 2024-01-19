@@ -6,10 +6,11 @@ title: 21.2 Améliorations des requêtes
 description: Cette page décrit toutes les améliorations apportées aux requêtes à l’aide de la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -111,7 +112,7 @@ Cette fonctionnalité est désormais incluse dans la variable [Principes de base
 >
 >Ajout de la version 21.1 à la version Preview, mais qui sera incluse dans la version 21.2 de production.
 
-Nous avons maintenant rendu possible le partage d’un lien vers une file d’attente de requêtes, un groupe de rubriques ou une rubrique de file d’attente à mesure que vous créez une requête.
+Nous avons maintenant rendu possible le partage d’un lien vers une file d’attente de requêtes, un groupe de rubriques ou une rubrique de file d’attente.
 
 Avant d’envoyer une nouvelle requête, vous pouvez copier un lien vers la file d’attente des requêtes, le groupe de rubriques ou la rubrique de la file d’attente de la requête et le partager avec d’autres utilisateurs, ou l’incorporer dans un tableau de bord.
 

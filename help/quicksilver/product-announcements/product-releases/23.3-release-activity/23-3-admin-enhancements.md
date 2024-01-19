@@ -3,9 +3,11 @@ title: 23.3 Améliorations apportées aux administrateurs
 description: 23.3 Améliorations apportées aux administrateurs
 author: Lisa
 feature: Product Announcements
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+recommendations: noDisplay, noCatalog
+exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -24,7 +26,7 @@ Auparavant, les fonctionnalités étaient publiées sur un cycle trimestriel pou
 
 Pour plus d’informations, voir [Activation ou désactivation du processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-## Contrôle au niveau du groupe disponible pour les préférences &quot;Emplacement où les utilisateurs peuvent consigner l’heure&quot; de la feuille de temps et de l’heure
+## Contrôle au niveau du groupe disponible pour les préférences &quot;Emplacement où les utilisateurs peuvent consigner l’heure&quot; de la feuille de temps et d’heure
 
 L’administrateur système peut désormais verrouiller et déverrouiller les préférences &quot;Où les utilisateurs peuvent consigner l’heure&quot; et &quot;Heure&quot;. Lorsque cette préférence est déverrouillée, les administrateurs de groupe peuvent configurer les paramètres &quot;Où les utilisateurs peuvent consigner l’heure&quot; séparément pour chaque groupe.
 

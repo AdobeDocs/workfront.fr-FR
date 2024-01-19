@@ -5,10 +5,11 @@ title: 20.3 Améliorations apportées à Analytics
 description: Cette page décrit toutes les améliorations apportées aux analyses à l’environnement de production avec la version 20.3. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---

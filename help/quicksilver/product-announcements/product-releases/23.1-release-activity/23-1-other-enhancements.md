@@ -4,10 +4,11 @@ description: 23.1 Autres améliorations
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -26,13 +27,13 @@ Le module externe mis à jour, Adobe Workfront pour la conception et la vidéo, 
 
 Ce module externe vous permet d’accéder aux détails de l’élément de travail, de collaborer avec des collègues dans la zone Mises à jour et de consigner le temps de connexion sans quitter votre application de Creative Cloud préférée.
 
-Télécharger [Adobe Workfront pour la conception et la vidéo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) sur le marché aujourd&#39;hui.
+Télécharger [Adobe Workfront pour la conception et la vidéo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) sur le Marketplace aujourd&#39;hui.
 
 Les administrateurs peuvent également [créer un package avec les modules externes ;](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) du Admin Console et du déploiement aux utilisateurs de manière gérée ou auto-gérée.
 
 ## Amélioration de l’expérience de filtrage généralement disponible dans Adobe Workfront
 
-Une mise à niveau de l’expérience de filtrage a été publiée en version bêta publique sur les listes de projets, de tâches et de problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, reportez-vous à la section [Notes de mise à jour sur les mises à jour de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+Une mise à niveau de l’expérience de filtrage a été publiée en version bêta publique sur les listes de projets, de tâches et de problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, voir la section [Notes de mise à jour sur les mises à jour de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
 
 Dans le cadre d’une &quot;suite rapide&quot; à la version 23.1, l’expérience de filtrage améliorée sera généralement disponible et deviendra le créateur de filtres standard dans la période février/mars 2023.
 
@@ -52,13 +53,13 @@ Pour plus d’informations sur les filtres améliorés et une démonstration vid
 
 Nous avons ajouté la fonctionnalité de contrôle de liste aux pages Filtres, Vues et Groupements de la zone Configuration. Vous pouvez y activer ou désactiver des filtres, des vues et des regroupements pour le modèle de mise en page.
 
-Pour plus d’informations, voir [Créer, modifier et partager des filtres, des vues et des regroupements par défaut](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+Pour plus d’informations, voir [Créer, modifier et partager des filtres, vues et groupes par défaut](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
 ## Présentation d’Adobe Workfront pour la conception et la vidéo
 
-Nous sommes ravis d’annoncer l’extension de notre module externe Adobe Workfront for InDesign pour inclure Adobe Premiere Pro et After Effects. Le module externe sera renommé Adobe Workfront pour la conception et la vidéo.
+Nous sommes ravis d’annoncer l’extension de notre module externe Adobe Workfront for InDesign pour inclure Adobe Premiere Pro et After Effects. Le module externe sera renommé Adobe Workfront pour conception et vidéo.
 
 Le module externe mis à jour, Adobe Workfront pour la conception et la vidéo, prend désormais en charge l’InDesign, le Premiere Pro et After Effects, avec Illustrator bientôt disponible.
 

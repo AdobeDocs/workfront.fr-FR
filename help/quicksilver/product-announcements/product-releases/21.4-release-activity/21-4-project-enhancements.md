@@ -4,10 +4,11 @@ description: 21.4 Améliorations apportées au projet
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Pour que votre utilisation de Workfront soit cohérente avec la nouvelle expéri
 
 Nous avons mis à jour l’interface de création du projet, à la fois lorsque vous le créez à partir des projets et de la zone Modèles .
 
-Pour plus d’informations, [Création d’un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Pour plus d’informations, [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Nouvelle expérience lors de l’association de modèles à des projets
 
@@ -65,7 +66,7 @@ Pour plus d’informations, voir [Joindre un modèle à un projet](../../../mana
 
 ## Valeurs unitaires de durée et durée pour les tâches
 
-Pour une expérience utilisateur plus propre et plus simple, nous avons fusionné la valeur du champ Durée avec l’unité de temps de durée. Avant cette amélioration, l’unité de temps affichée dans un champ déroulant distinct après le champ Durée .
+Pour une expérience utilisateur plus propre et plus simple, nous avons fusionné la valeur du champ Durée avec l’unité de temps de durée. Avant cette amélioration, l’unité de temps s’affichait dans un champ déroulant distinct après le champ Durée .
 
 Outre les champs Durée des zones Détails de la tâche, Modifier les tâches et Nouvelle tâche, nous mettons également à jour les champs suivants pour qu’ils correspondent à cette expérience :
 
@@ -96,5 +97,5 @@ Cela dépend de la position des champs dans le formulaire personnalisé. Si vous
 
 Pour plus d’informations sur le remplissage d’un formulaire personnalisé, voir [Modifier les informations dans les champs de formulaire personnalisés](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-Pour plus d’informations sur la création d’une case à cocher ou d’un champ de bouton radio dans un formulaire personnalisé, reportez-vous aux sections [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) et [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) dans l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations sur la création d’une case à cocher ou d’un champ de bouton radio dans un formulaire personnalisé, consultez les sections [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) et [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) dans l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

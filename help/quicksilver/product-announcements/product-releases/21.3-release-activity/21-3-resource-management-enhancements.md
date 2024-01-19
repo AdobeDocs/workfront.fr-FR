@@ -4,10 +4,11 @@ description: 21.3 Améliorations de la gestion des ressources
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d665f71d-3d17-4c5b-93a3-93b11a81af19
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 21
 
 Pour vous offrir la même expérience qu’avec les utilisateurs, les équipes et les entreprises, nous avons introduit une nouvelle fonctionnalité qui vous permet de désactiver les rôles que vous n’utilisez plus. Lorsque vous désactivez un rôle, il n’est plus disponible pour la sélection dans les champs de saisie anticipée pour l’attribution et le partage d’objets. Les rôles désactivés apparaissent toujours dans les champs de recherche et les options de filtre.
 
-Les tâches et problèmes affectés à un rôle désactivé, ainsi que les processus d’approbation ou les règles de routage, continuent à être affectés à ces rôles. Vous devez mettre à jour ces objets pour remplacer le rôle inactif par un rôle principal, s’ils doivent encore être terminés.
+Les tâches et problèmes affectés à un rôle désactivé, ainsi que les processus d’approbation ou les règles de routage, continuent à être affectés à ces rôles. Vous devez mettre à jour ces objets pour remplacer le rôle inactif par un rôle actif s’ils ne sont pas encore terminés.
 
 Pour plus d’informations, voir [Désactivation des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 

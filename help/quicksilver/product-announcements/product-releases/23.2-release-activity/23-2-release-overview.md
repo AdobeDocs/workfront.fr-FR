@@ -4,10 +4,11 @@ description: Présentation de la version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Pour obtenir des conseils sur la préparation de la prochaine version, voir [Pr�
 
 Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons à vous inscrire pour assister aux sessions Workfront suivantes :
 
-[Expériences d’impact : De la création de contenu à la personnalisation](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) le 21 mars 2023, pour découvrir de nouvelles façons de créer, gérer et personnaliser du contenu et offrir des expériences percutantes avec plus d’efficacité. Cette session sera diffusée en continu pour les audiences virtuelles.
+[Expériences affectées : de la création de contenu à la personnalisation](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) le 21 mars 2023, pour découvrir de nouvelles façons de créer, gérer et personnaliser du contenu et offrir des expériences percutantes avec plus d’efficacité. Cette session sera diffusée en continu pour les audiences virtuelles.
 
 [L&#39;avenir d&#39;Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) le 23 mars 2023, pour voir la vision de Workfront et sa place dans l&#39;écosystème de l&#39;Adobe et avoir un aperçu de la future feuille de route. Cette session sera enregistrée et disponible ultérieurement sous forme de contenu à la demande.
 
@@ -62,7 +63,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A<br /></p>
+                                <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
                                  <p>Version de production : 30 mars 2023</p>
@@ -76,9 +77,9 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                         <p>Le nouveau concepteur de formulaire dispose d’un nouvel espace de travail de style zone de travail qui vous permet d’afficher simultanément les paramètres des champs, de la zone de travail et des champs.</p>
                         <p>Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité d’utiliser 
                         <ul>
-                        <li><strong>Copier un champ</strong>: Vous pouvez désormais copier des champs existants en cliquant sur l’icône Copier dans les champs directement depuis la zone de travail.</li>
-                        <li><strong>Utilisation d’une section par défaut</strong>: Si l’auteur du formulaire n’a pas ajouté de section en haut du formulaire, une section Par défaut est désormais visible dans la zone de travail, de sorte que les utilisateurs puissent ajuster les autorisations pour les champs auxquels aucune section personnalisée n’est affectée. </li>
-                        <li><strong>Modifier la taille du texte descriptif</strong>: Vous pouvez désormais affecter des petites, moyennes ou grandes tailles aux champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne avec d’autres champs. <span style="color: #ff0000;"> La modification de la taille du texte descriptif a été temporairement retardée, mais sera bientôt disponible.</span></li> 
+                        <li><strong>Copier un champ</strong>: vous pouvez désormais copier des champs existants en cliquant sur l’icône Copier dans les champs directement depuis la zone de travail.</li>
+                        <li><strong>Utilisation d’une section par défaut</strong>: si l’auteur du formulaire n’a pas ajouté de section en haut du formulaire, une section Par défaut est désormais visible dans la zone de travail, de sorte que les utilisateurs puissent ajuster les autorisations pour les champs auxquels aucune section personnalisée n’est affectée. </li>
+                        <li><strong>Modifier la taille du texte descriptif</strong>: vous pouvez désormais affecter des petites, moyennes ou grandes tailles aux champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne avec d’autres champs. <span style="color: #ff0000;"> La modification de la taille du texte descriptif a été temporairement retardée, mais sera bientôt disponible.</span></li> 
                         </ul>
                         </p>
                     </td>
@@ -88,7 +89,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                                 <p>Aperçu de la version : 9 mars 2023</p>
                             </li>
                             <li>
-                                 <p>Version de production : Avec la version 23.2<br />
+                                 <p>Version de production : avec la version 23.2<br />
                                  <span style="color: #ff0000;">La version bêta du concepteur de formulaire a été temporairement désactivée dans Aperçu et production du 24 mai au 21 juillet 2023.</span></p>
                             </li>
                         </ul>
@@ -102,10 +103,10 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 9 février 2023<br /></p>
+                                <p>Version d’aperçu : 9 février 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production : Avec la version 23.2</p>
+                                 <p>Version de production : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -137,10 +138,10 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 23 mars 2023<br /></p>
+                                <p>Version d’aperçu : 23 mars 2023<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.2</p>
+                                <p>Version de production : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -162,7 +163,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                                 <p>Aperçu de la version : 17 mars 2023<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.2</p>
+                                <p>Version de production : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -178,7 +179,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                                 <p>Aperçu de la version : 17 mars 2023<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.2</p>
+                                <p>Version de production : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -194,7 +195,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                                 <p>Aperçu de la version : 17 mars 2023<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.2</p>
+                                <p>Version de production : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -207,10 +208,10 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 2 mars 2023<br /></p>
+                                <p>Version d’aperçu : 2 mars 2023<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 23.2</p>
+                                <p>Version de production : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -223,11 +224,11 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 23 février 2023<br /></p>
+                                <p>Version d’aperçu : 23 février 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 2 mars 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.2</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 2 mars 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -235,16 +236,16 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
               <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Personnalisation de l’affichage des champs sur une carte</a></p>
-                        <p>La personnalisation est désormais disponible pour configurer les champs qui s’affichent sur une carte, à la fois dans le mode d’affichage complet lorsque la carte est ouverte et dans le mode Carte condensée du panorama. Lorsque vous désactivez un champ, il n’est affiché dans aucune des vues. Vous pouvez également activer un champ dans l’affichage complet et le masquer dans l’affichage condensé.</p>
+                        <p>La personnalisation est désormais disponible pour configurer les champs qui s’affichent sur une carte, à la fois dans le mode d’affichage complet lorsque la carte est ouverte et dans le mode Carte condensée du panorama. Lorsque vous désactivez un champ, il n’est affiché dans aucune des vues. Vous pouvez également activer un champ dans la vue complète et le masquer dans la vue condensée.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 16 février 2023<br /></p>
+                                <p>Version d’aperçu : 16 février 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 23 février 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.2</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 23 février 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -257,11 +258,11 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 16 février 2023<br /></p>
+                                <p>Version d’aperçu : 16 février 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 23 février 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.2</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 23 février 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -274,11 +275,11 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 16 février 2023<br /></p>
+                                <p>Version d’aperçu : 16 février 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 23 février 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.2</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 23 février 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -292,11 +293,11 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 26 janvier 2023<br /></p>
+                                <p>Version d’aperçu : 26 janvier 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : Cette fonctionnalité a été retardée et est sortie le 9 février. <span style="color: #ff0000;">Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.2</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : cette fonctionnalité a été retardée et est publiée le 9 février. <span style="color: #ff0000;">Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -309,11 +310,11 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 26 janvier 2023<br /></p>
+                                <p>Version d’aperçu : 26 janvier 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour la pré-inscription : 2 février 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
-                                <p>Version de production pour tous les clients : Avec la version 23.2</p>
+                                 <p>Mise à jour de la production pour l’inclusion anticipée : 2 février 2023 <span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’accord préalable aux fonctionnalités des panoramas Workfront.</span></p>
+                                <p>Version de production pour tous les clients : avec la version 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -348,7 +349,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                                 <p>Aperçu de la version : 9 mars 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Version de production : À compter du 23 mars, cette version sera mise en production dans un déploiement échelonné qui prendra fin après le 11 mai 2023.</span></p>
+                                 <p><span class="preview">Version de production : à compter du 23 mars, cette version sera mise en production dans un déploiement par étapes qui prendra fin après le 11 mai 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -361,10 +362,10 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 2 mars 2023<br /></p>
+                                <p>Version d’aperçu : 2 mars 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Version de production : Avec la version 23.2</span></p>
+                                 <p><span class="preview">Version de production : avec la version 23.2</span></p>
                             </li>
                         </ul>
                     </td>
@@ -377,7 +378,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 16 février 2023<br /></p>
+                                <p>Version d’aperçu : 16 février 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Version de production : 2 mars 2023 (hors cycle)</span></p>
@@ -413,7 +414,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 16 février 2023<br /></p>
+                                <p>Version d’aperçu : 16 février 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Version de production : 2 mars 2023 (hors cycle)</span></p>
@@ -444,7 +445,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Tableaux de bord Zone de travail.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Tableaux de bord de canevas</a></p>
                         <p>Ajout de tableaux de bord de canevas en tant que fonctionnalité de travail en cours pour les tableaux de bord qui peuvent être activés dans les modèles de mise en page - Les tableaux de bord du canevas de rapports permettent de combiner les visualisations du canevas de rapports avec les rapports existants, en plus des nouvelles options de mise en page. Actuellement, seuls les rapports de liste sont pris en charge, mais d’autres options seront ajoutées au fur et à mesure du développement.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -453,7 +454,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                                 <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production : Avec la version 23.2</span></p>
+                                <p><span class="preview">Version de production : avec la version 23.2</span></p>
                             </li>
                         </ul>
                     </td>
@@ -486,10 +487,10 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A<br /></p>
+                                <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production : Disponible dans Apple App Store et Google Play Store 13 mars 2023</p>
+                                 <p>Version de production : disponible dans Apple App Store et Google Play Store 13 mars 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -525,7 +526,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A<br /></p>
+                                <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Version de production : 23 mars 2023 </span></p>
@@ -542,10 +543,10 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 20 mars 2023<br /></p>
+                                <p>Version d’aperçu : 20 mars 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Version de production : Avec la version 23.2 </span></p>
+                                 <p><span class="preview">Version de production : avec la version 23.2 </span></p>
                             </li>
                         </ul>
                     </td>
@@ -564,10 +565,10 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A<br /></p>
+                                <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : De mi-à-fin mars 2023</p>
+                                <p>Version de production : de mi-à-fin mars 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -581,10 +582,10 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A<br /></p>
+                                <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : De mi-à-fin mars 2023</p>
+                                <p>Version de production : de mi-à-fin mars 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -597,7 +598,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A<br /></p>
+                                <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
                                  <p>Version de production : 6 février 2023</p>
@@ -607,7 +608,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de publication de la version 23.2</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de la version 23.2</a></p>
                         <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai de publication de la version 23.2. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -616,7 +617,7 @@ Au lieu d&#39;un webinaire sur la publication de ce rapport, nous vous invitons 
                                 <p>Aperçu de la version : pendant toute la période de la version 23.2<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production : 2 semaines au moins après la publication dans Aperçu (sauf indication contraire)</span></p>
+                                <p><span class="preview">Version de production : au moins 2 semaines après la publication dans Aperçu (sauf indication contraire)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -634,13 +635,13 @@ Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en productio
 
 Aucune mise à jour du planificateur de scénario n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### Améliorations du Bon à tirer Workfront
+### Améliorations du Bon à tirer de Workfront
 
 Aucune mise à jour de BAT Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
 ### Améliorations des objectifs de Workfront
 
-Nouvelles fonctionnalités de la version 23.2 des objectifs de Workfront . Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs d’Adobe Workfront avec la version 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
+Nouvelles fonctionnalités de la version 23.2 des objectifs de Workfront . Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Objectifs Adobe Workfront avec la version 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API version 16
 
@@ -652,7 +653,7 @@ Pour plus d’informations sur les versions d’API, voir [Contrôle de version 
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 23.2, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 23.2, voir [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mises à jour de formation
 

@@ -4,10 +4,11 @@ description: 20.4 Améliorations de la gestion des ressources
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -59,9 +60,9 @@ Pour garantir une expérience simplifiée et conviviale lors de la gestion de vo
 
 * Vous pouvez désormais ouvrir le résumé des problèmes et des tâches à partir de l’icône Résumé au lieu du menu Plus . Cette expérience est désormais cohérente avec celle des listes.
 
-   >[!NOTE]
-   >
-   >Cette option est disponible uniquement dans la nouvelle expérience Adobe Workfront.
+  >[!NOTE]
+  >
+  >Cette option est disponible uniquement dans la nouvelle expérience Adobe Workfront.
 
 * Vous pouvez accéder au menu Plus à gauche d’une barre d’objets plutôt qu’à la fin d’une barre d’objets. Cela facilite la recherche lorsque les objets s’étendent sur une longue période.
 * Vous pouvez accéder aux fonctions d’affectation à l’aide d’un raccourci clavier. Auparavant, cette option n’était disponible que dans le menu Plus .
@@ -97,7 +98,7 @@ Cette amélioration élimine les clics et rend la navigation dans l’équilibre
 
 Pour plus d’informations sur la gestion des paramètres de l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Un nouveau filtre intégré pour l’équilibreur de charge de travail : Utilisateurs sur les projets
+## Un nouveau filtre intégré pour l’équilibreur de charge de travail : utilisateurs sur les projets
 
 Pour optimiser votre expérience de filtrage dans l’équilibreur de charge de travail, nous avons ajouté un nouveau filtre intégré dans la zone Travail affecté . Vous pouvez maintenant appliquer le filtre Utilisateurs sur les projets qui affiche les utilisateurs affectés aux tâches et problèmes dans les projets que vous spécifiez.
 

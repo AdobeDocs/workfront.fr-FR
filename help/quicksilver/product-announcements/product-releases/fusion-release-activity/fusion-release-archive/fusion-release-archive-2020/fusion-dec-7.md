@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Activité Publication de fusion Workfront : Semaine du 7 décembre 2020'''
+title: "Activité Publication de fusion Workfront : semaine du 7 décembre 2020"
 description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 7 décembre 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: fb8275b5-ef37-48cc-bde1-cfd0e065a896
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusio
 
 Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
 
 ## Connecteur et modules Jira Server désormais disponibles
 
@@ -31,7 +32,7 @@ Un nouveau connecteur Jira Server est désormais disponible pour Workfront Fusio
 * Déclencher un scénario lorsqu’un enregistrement est ajouté, modifié ou supprimé
 * Créer, lire, mettre à jour ou supprimer un enregistrement
 * Répertorier ou rechercher des enregistrements
-* Téléchargement d’une pièce jointe
+* Télécharger une pièce jointe
 * Ajout d’un problème à un sprint
 * Effectuer un appel API personnalisé
 

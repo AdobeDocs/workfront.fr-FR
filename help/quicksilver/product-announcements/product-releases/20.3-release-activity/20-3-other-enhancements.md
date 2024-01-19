@@ -5,10 +5,11 @@ title: 20.3 autres améliorations
 description: Cette page décrit toutes les autres améliorations apportées à la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create
 
 Pour mieux contrôler l’affichage des objets dans les rapports du calendrier, vous pouvez choisir d’ignorer les dates réelles même lorsqu’elles sont disponibles.
 
-Auparavant, le calendrier utilisait automatiquement les dates réelles une fois qu’elles étaient disponibles.
+Auparavant, les dates réelles étaient automatiquement utilisées une fois disponibles.
 
 Pour plus d’informations, voir [Présentation des rapports sur les calendriers](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
@@ -67,7 +68,7 @@ Pour plus d’informations, voir [Présentation des rapports sur les calendriers
 >
 >Cette fonctionnalité a été ajoutée à l’environnement Aperçu le 29 mai 2020. Il sera disponible dans l’environnement de production le 12 juin 2020.
 
-Pour vous aider à mieux visualiser et gérer votre travail quotidien avec des calendriers, des champs de date personnalisés sont désormais disponibles sous la forme d’une option de date.
+Pour vous aider à mieux visualiser et gérer votre travail quotidien avec les calendriers, des champs de date personnalisés sont désormais disponibles sous la forme d’une option de date.
 
 Auparavant, vous ne pouviez gérer votre calendrier qu’avec des projections, planifiées lorsque les dates réelles n’étaient pas disponibles.
 
@@ -116,27 +117,27 @@ Pour s’assurer que les administrateurs de groupe ne modifient pas par inadvert
 
 Pour plus d’informations, voir [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Pour les administrateurs : La nouvelle page Groupes facilite la création et la gestion des groupes.
+## Pour les administrateurs : la nouvelle page Groupes facilite la création et la gestion des groupes.
 
 Les administrateurs de groupe peuvent gérer plus facilement les groupes, maintenant que tout ce dont ils ont besoin se trouve sur la nouvelle page Groupes . Il n’est plus nécessaire de naviguer entre les différentes zones de superposition et les pages de configuration pour créer et modifier des groupes.
 
 Voici les principaux points forts :
 
-* Détails du groupe : Affichez et modifiez des informations de base sur le groupe, telles que le nom, la description, les noms des administrateurs de groupe et si le groupe est public ou privé.
-* Liste des membres du groupe : Affichez tous les membres du groupe et utilisez la nouvelle barre d’outils pour ajouter, supprimer, exporter, activer et désactiver rapidement les appartenances. Vous pouvez également modifier les profils des membres et leur envoyer des commentaires de mise à jour.
-* Champ Administrateur de groupe dans l’en-tête : Lorsque vous affichez un groupe que vous gérez, affectez ou annulez rapidement l’affectation d’un membre du groupe en tant qu’administrateur du groupe. Vous pouvez également le faire dans la liste des membres du groupe à l’aide de la nouvelle colonne Rôle du groupe .
-* Liste Sous-groupes : Affichez, modifiez, copiez, exportez et supprimez les sous-groupes d’un groupe que vous gérez.
-* Liste des états : Affichez et gérez les états de votre groupe.
+* Détails du groupe : affichez et modifiez des informations de base sur le groupe, telles que le nom, la description, les noms des administrateurs de groupe et si le groupe est public ou privé.
+* Liste des membres du groupe : affichez tous les membres du groupe et utilisez la nouvelle barre d’outils pour ajouter, supprimer, exporter, activer et désactiver rapidement les appartenances. Vous pouvez également modifier les profils des membres et leur envoyer des commentaires de mise à jour.
+* Champ Administrateur de groupe dans l’en-tête : lorsque vous affichez un groupe que vous gérez, affectez ou annulez rapidement l’affectation d’un membre du groupe en tant qu’administrateur du groupe. Vous pouvez également le faire dans la liste des membres du groupe à l’aide de la nouvelle colonne Rôle du groupe .
+* Liste Sous-groupes : affichez, modifiez, copiez, exportez et supprimez les sous-groupes d’un groupe que vous gérez.
+* Liste des états : affichez et gérez les états de votre groupe.
 
 Pour plus d’informations, voir [Création d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-## Nouveautés pour les administrateurs : Créer jusqu’à 14 niveaux de sous-groupes
+## Nouveau pour les administrateurs : créer jusqu’à 14 niveaux de sous-groupes
 
 Pour faciliter l’organisation de vos groupes Workfront en fonction de la hiérarchie de votre organisation, nous avons augmenté les niveaux de sous-groupes que vous pouvez créer dans un groupe de 3 à 14.
 
 Pour plus d’informations, voir [Présentation des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-## Nouveautés pour les administrateurs : Nouvelle barre latérale de configuration
+## Nouveau pour les administrateurs : nouvelle barre latérale de configuration
 
 >[!NOTE]
 >
@@ -147,7 +148,7 @@ La barre latérale gauche dans Configuration est désormais plus rapide et plus 
 * Un nouvel arrière-plan non blanc dans la barre latérale facilite la différenciation du reste de la zone Configuration.
 * Les icônes dans la barre latérale sont un peu plus grandes et certaines sont reconçues afin de suggérer plus clairement ce que fait l’option.
 * Un plus grand espace vertical entre les éléments de la barre latérale les rend plus faciles à lire.
-* Vous pouvez réduire la barre latérale lorsque vous avez besoin d’espace dans la zone principale pour afficher et faire plus, par exemple afficher des colonnes supplémentaires. Et vous pouvez développer à nouveau la barre latérale lorsque vous avez besoin d’afficher les noms des fonctionnalités.
+* Vous pouvez réduire la barre latérale lorsque vous avez besoin d’espace dans la zone principale pour afficher et faire plus, par exemple pour afficher d’autres colonnes. Et vous pouvez développer à nouveau la barre latérale lorsque vous avez besoin d’afficher les noms des fonctionnalités.
 * Lorsque la barre latérale est réduite, seules les icônes de chaque fonction s’affichent. Pour afficher les sous-éléments sous un élément de la barre latérale principale, passez la souris sur son icône pour les afficher dans un menu déroulant. Par exemple, passez la souris sur l’icône Processus pour afficher un menu contenant les approbations et les chemins jalons.
 * Vous pouvez accéder aux deux options de démarrage (Importer des données et Exporter des données) en un clic plus rapide. Ils ont quitté le système pour s’afficher au niveau principal de la barre latérale.
 

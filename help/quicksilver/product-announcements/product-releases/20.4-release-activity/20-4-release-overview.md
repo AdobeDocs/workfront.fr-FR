@@ -5,10 +5,11 @@ title: Présentation de la version 20.4
 description: La version 20.4 a été mise à disposition dans l’environnement de production au cours de la semaine du 9 novembre 2020. Pour connaître les dates et heures de publication spécifiques de chaque grappe, consultez le site d’état de Workfront.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3694'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
 * [Améliorations apportées aux administrateurs](#administrator-enhancements)
 * [Améliorations de la gestion des ressources](#resource-management-enhancements)
 * [Améliorations de la gestion de projet](#project-management-enhancements)
-* [Analytique améliorée](#enhanced-analytics)
+* [Analyse améliorée](#enhanced-analytics)
 * [Améliorations de la vérification](#proofing-enhancements)
 * [Améliorations de l’intégration et des appareils mobiles](#mobile-and-integration-enhancements)
 * [Autres améliorations](#other-enhancements)
@@ -54,11 +55,11 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs : Contrôle du partage d’un champ personnalisé</a> </p> <p>Pour vous donner un meilleur contrôle sur les personnes qui peuvent modifier, supprimer et utiliser des champs personnalisés que vous créez, nous avons ajouté la possibilité de configurer exactement la manière dont vous souhaitez les partager.</p> <p>Jusqu’à présent, lorsque vous avez créé un champ personnalisé, il était modifiable par tous les membres du système. Il s’agit toujours de l’état par défaut d’un champ personnalisé, mais vous pouvez désormais limiter le partage d’un champ personnalisé à certains utilisateurs, rôles, équipes, groupes et entreprises. Et vous pouvez déterminer si vos destinataires peuvent gérer ou afficher uniquement le champ personnalisé.</p> <p>En outre, pour que cette expérience vous soit familière, nous avons conçu l’interface utilisateur afin que cette fonctionnalité soit similaire aux autres zones d’objet partageant sur Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nouveau pour les administrateurs : contrôle du partage d’un champ personnalisé</a> </p> <p>Pour vous donner un meilleur contrôle sur les personnes qui peuvent modifier, supprimer et utiliser des champs personnalisés que vous créez, nous avons ajouté la possibilité de configurer exactement la manière dont vous souhaitez les partager.</p> <p>Jusqu’à présent, lorsque vous avez créé un champ personnalisé, il était modifiable par tous les membres du système. Il s’agit toujours de l’état par défaut d’un champ personnalisé, mais vous pouvez désormais limiter le partage d’un champ personnalisé à certains utilisateurs, rôles, équipes, groupes et entreprises. Et vous pouvez déterminer si vos destinataires peuvent gérer ou afficher uniquement le champ personnalisé.</p> <p>En outre, pour que cette expérience vous soit familière, nous avons conçu l’interface utilisateur afin que cette fonctionnalité soit similaire aux autres zones d’objet partageant sur Workfront.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 15 octobre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new7" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs : Partage de formulaires personnalisés normalisé</a> </p> <p>Nous avons normalisé le partage pour les Forms personnalisées afin que vous puissiez utiliser le même processus de partage d’objet Workfront que vous connaissez déjà. De plus, la nouvelle expérience de partage vous permet de mieux contrôler qui peut modifier, supprimer et utiliser le Forms personnalisé que vous créez. Vous pouvez limiter le partage d’un formulaire personnalisé à certains utilisateurs, rôles, équipes, groupes et entreprises. Et vous pouvez déterminer si ces destinataires peuvent afficher ou gérer le formulaire personnalisé.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new7" class="MCXref xref" xrefformat="{para}">Nouveau pour les administrateurs : partage de formulaires personnalisés normalisé</a> </p> <p>Nous avons normalisé le partage pour les Forms personnalisées afin que vous puissiez utiliser le même processus de partage d’objet Workfront que vous connaissez déjà. De plus, la nouvelle expérience de partage vous permet de mieux contrôler qui peut modifier, supprimer et utiliser le Forms personnalisé que vous créez. Vous pouvez limiter le partage d’un formulaire personnalisé à certains utilisateurs, rôles, équipes, groupes et entreprises. Et vous pouvez déterminer si ces destinataires peuvent afficher ou gérer le formulaire personnalisé.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 15 octobre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -66,15 +67,15 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 8 octobre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new8" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs : Les administrateurs d’un groupe affecté à une entreprise peuvent gérer l’entreprise.</a> </p> <p>Un administrateur de groupe a ainsi facilité la gestion d’une entreprise associée à son groupe dans Workfront. L’accès à la gestion de l’entreprise est automatiquement disponible lorsque l’association est créée. Ceci est particulièrement important lorsque l’administrateur de groupe n’a pas d’accès administratif aux entreprises.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new8" class="MCXref xref" xrefformat="{para}">Nouveau destiné aux administrateurs : les administrateurs d’un groupe affecté à une entreprise peuvent gérer l’entreprise.</a> </p> <p>Nous avons facilité la gestion par un administrateur de groupe d’une entreprise associée à son groupe dans Workfront. L’accès à la gestion de l’entreprise est automatiquement disponible lorsque l’association est créée. Ceci est particulièrement important lorsque l’administrateur de groupe n’a pas d’accès administratif aux entreprises.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 8 octobre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs : Améliorations des notifications électroniques</a> </p> <p>Désormais, en un seul clic, vous pouvez activer ou désactiver une notification électronique d’événement dans Configuration. Il vous suffit de cliquer sur l’icône Activé/Désactivé en regard du nom de la notification.</p> <p>Notez également notre mise en forme moderne qui améliore désormais l’expérience de configuration des notifications d’événement dans la zone Notifications par e-mail .</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs : améliorations apportées aux notifications électroniques</a> </p> <p>Désormais, en un seul clic, vous pouvez activer ou désactiver une notification électronique d’événement dans Configuration. Il vous suffit de cliquer sur l’icône Activé/Désactivé en regard du nom de la notification.</p> <p>Notez également notre mise en forme moderne qui améliore désormais l’expérience de configuration des notifications d’événement dans la zone Notifications par e-mail .</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 8 octobre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs : Associer des portefeuilles, des programmes et des entreprises à des groupes</a> </p> <p>Lorsque les administrateurs Workfront créent ou modifient un portfolio, un programme ou une entreprise, ils peuvent l’affecter à un groupe. Avec des groupes affectés à ces objets, il est facile d’identifier les responsabilités de votre groupe pour eux. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs : Association de portefeuilles, de programmes et d’entreprises à des groupes</a> </p> <p>Lorsque les administrateurs Workfront créent ou modifient un portfolio, un programme ou une entreprise, ils peuvent l’affecter à un groupe. Avec des groupes affectés à ces objets, il est facile d’identifier les responsabilités de votre groupe pour eux. </p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 25 septembre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -82,7 +83,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 29 août 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nouveautés pour les administrateurs : Affectation d’un chef d’entreprise à un groupe</a> </p> <p>Pour vous aider à mieux organiser et définir vos groupes, nous avons ajouté la possibilité d’affecter un utilisateur en tant que chef d’entreprise à un groupe (ou sous-groupe). Un chef d’entreprise est un utilisateur Workfront qui prend des décisions commerciales pour un groupe.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nouveau destiné aux administrateurs : Affectation d’un chef d’entreprise à un groupe</a> </p> <p>Pour vous aider à mieux organiser et définir vos groupes, nous avons ajouté la possibilité d’affecter un utilisateur en tant que chef d’entreprise à un groupe (ou sous-groupe). Un chef d’entreprise est un utilisateur de Workfront qui prend des décisions commerciales pour un groupe.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 21 août 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -119,7 +120,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 25 septembre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#a" class="MCXref xref" xrefformat="{para}">Un nouveau filtre intégré pour l’équilibreur de charge de travail : Utilisateurs sur les projets</a> </p> <p>Pour optimiser votre expérience de filtrage dans l’équilibreur de charge de travail, nous avons ajouté un nouveau filtre intégré dans la zone Travail affecté . Vous pouvez maintenant appliquer le filtre Utilisateurs sur les projets qui affiche les utilisateurs affectés aux tâches et problèmes dans les projets que vous spécifiez.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#a" class="MCXref xref" xrefformat="{para}">Un nouveau filtre intégré pour l’équilibreur de charge de travail : utilisateurs sur les projets</a> </p> <p>Pour optimiser votre expérience de filtrage dans l’équilibreur de charge de travail, nous avons ajouté un nouveau filtre intégré dans la zone Travail affecté . Vous pouvez maintenant appliquer le filtre Utilisateurs sur les projets qui affiche les utilisateurs affectés aux tâches et problèmes dans les projets que vous spécifiez.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 25 septembre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -157,7 +158,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#export" class="MCXref xref" xrefformat="{para}">Exportation de formulaires personnalisés et informations d’aperçu à partir de la section Détails d’un projet, d’une tâche ou d’un problème</a> </p> <p>Vous pouvez désormais exporter les informations de formulaire personnalisées vers un fichier .pdf. Vous pouvez exporter des formulaires personnalisés à partir de projets, de tâches ou de problèmes lorsque vous accédez au formulaire dans la section Détails des objets. </p> <p>Outre l’exportation de formulaires personnalisés de projets, de tâches et de problèmes, vous pouvez désormais inclure la zone Aperçu à votre PDF exporté.</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version bêta de l’aperçu : 15 octobre 2020 (l’exportation de la zone Aperçu a été ajoutée le 3 novembre 2020)</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version bêta de l’aperçu : 15 octobre 2020 (ajout de la zone Aperçu le 3 novembre 2020)</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#quickly" class="MCXref xref" xrefformat="{para}">Ajouter rapidement une itération</a> </p> <p>Pour simplifier la création d'une itération, nous avons ajouté un nouveau bouton qui permet d'ajouter une itération depuis l'onglet itérations . Ici, vous pouvez créer une itération, puis ajouter des tâches et des problèmes ultérieurement.</p> <p>Vous pouvez toujours créer une itération sur la balise de journal comme auparavant.</p> </td> 
@@ -223,7 +224,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 8 octobre 2020</p> <p>Version de production : avec la version 20.4 <span class="uitext" style="color: #dc143c;">(Reportée à mars 2021)</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md#auto-gen" class="MCXref xref" xrefformat="{para}">Génération automatique d’un BAT lors du téléchargement d’un paramètre de document désactivé par défaut</a> </p> <p>L’option du profil utilisateur permettant de générer automatiquement des bons à tirer lors du téléchargement de documents est désormais désactivée par défaut pour les nouveaux utilisateurs de vérification. Cette modification n’a aucune incidence sur les utilisateurs actuels. Si ce paramètre est activé, il le restera.</p> <p>Auparavant, ce paramètre était activé par défaut pour les nouveaux utilisateurs.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md#auto-gen" class="MCXref xref" xrefformat="{para}">Générer automatiquement un BAT lors du téléchargement d’un paramètre de document désactivé par défaut</a> </p> <p>L’option du profil utilisateur permettant de générer automatiquement des bons à tirer lors du téléchargement de documents est désormais désactivée par défaut pour les nouveaux utilisateurs de vérification. Cette modification n’a aucune incidence sur les utilisateurs actuels. Si ce paramètre est activé, il le restera.</p> <p>Auparavant, ce paramètre était activé par défaut pour les nouveaux utilisateurs.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 18 septembre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -269,7 +270,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#improved" class="MCXref xref" xrefformat="{para}">Amélioration du chiffrement du BAT Workfront</a> </p> <p>Nous apportons quelques modifications afin d’améliorer la force du chiffrement des données en mouvement de l’application de vérification de Workfront. Les chiffrements TLS faibles seront abandonnés le 11 novembre 2020.</p> <p>Veillez à utiliser un navigateur pris en charge lors de l’accès à Workfront. </p> <p> </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#improved" class="MCXref xref" xrefformat="{para}">Amélioration du chiffrement du BAT Workfront</a> </p> <p>Nous apportons quelques modifications afin d’améliorer la force du chiffrement des données en mouvement de l’application de vérification de Workfront. Les chiffrements TLS faibles seront abandonnés le 11 novembre 2020.</p> <p>Assurez-vous d’utiliser un navigateur pris en charge lors de l’accès à Workfront. </p> <p> </p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 20 octobre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -277,7 +278,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 15 octobre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">Nouvelles notifications électroniques pour les équipes</a> </p> <p>Nous avons ajouté 2 nouvelles notifications électroniques pour les équipes : lorsqu’un seul prédécesseur d’une tâche assignée à votre équipe est terminé et que tous les prédécesseurs d’une tâche affectée à votre équipe sont terminés.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">Nouvelles notifications électroniques pour les équipes</a> </p> <p>Nous avons ajouté deux nouvelles notifications par email pour les équipes : lorsqu’un seul prédécesseur d’une tâche affectée à votre équipe est terminé et lorsque tous les prédécesseurs d’une tâche affectée à votre équipe sont terminés.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version d’aperçu bêta : 15 octobre 2020</p> <p>Version de production : avec la version 20.4</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>Nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -321,21 +322,21 @@ Pour plus d’informations sur les versions d’API, voir [Contrôle de version 
 
 ## Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 20.3, voir [Mises à jour de maintenance de Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 20.3, voir [Mises à jour de maintenance Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Annonces
 
 * [obsolescence des Flashs](#flash-deprecation)
 * [Webinaire sur les versions 20.4](#20-4-release-webinar)
 * [Modification de la cadence de publication de l’aperçu](#change-in-preview-release-cadence)
-* [Liste autorisée des domaines supplémentaires requis pour l’accès à Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
+* [Liste autorisée des domaines supplémentaires requis pour accéder à Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 
 ### obsolescence des Flashs {#flash-deprecation}
 
 Fin 2020, Adobe et tous les principaux navigateurs ont finalisé la dépréciation de la technologie des Flashs d’Adobe, ce qui signifie que ces outils cesseront de fonctionner.
 
-Workfront vise à vous aider à passer à la nouvelle technologie en vous fournissant une suite de nouvelles solutions qui ne reposent pas sur le Flash. Pour en savoir plus sur les solutions de remplacement pour chaque outil spécifique basé sur les Flashs, consultez l’article suivant : [Remplacement des outils basés sur des Flashs dans Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Workfront vise à vous aider à passer à la nouvelle technologie en vous fournissant une suite de nouvelles solutions qui ne reposent pas sur le Flash. Pour en savoir plus sur les solutions de remplacement pour chaque outil spécifique basé sur les Flashs, consultez l’article suivant : [Remplacement des outils par Flash dans Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 Tous les outils basés sur un Flash seront supprimés de tous les produits le 19 novembre 2020. Nous vous recommandons de commencer à utiliser les nouveaux outils et de retirer les outils de Flash avant cela, afin d’augmenter la sécurité de votre instance. Si vous souhaitez désactiver les outils de Flash avant le 19 novembre, contactez le service clientèle.
 
@@ -349,7 +350,7 @@ Le webinaire sur la version 20.4 de Workfront sera présenté le mercredi 28 oct
 
 Pour plus d’informations, voir [FAQ sur le changement de la cadence de prévisualisation de Workfront](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
 
-### Liste autorisée des domaines supplémentaires requis pour l’accès à Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
+### Liste autorisée des domaines supplémentaires requis pour accéder à Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
 Si votre entreprise utilise un pare-feu, vous devez ajouter les domaines supplémentaires suivants à votre liste autorisée pour garantir un accès ininterrompu à Workfront :
 

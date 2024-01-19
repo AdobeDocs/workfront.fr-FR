@@ -5,10 +5,11 @@ title: Version Workfront R1
 description: GARDEZ TOUS LES UTILISATEURS ACTIFS ET EFFICACES Workfront publie de nouvelles fonctionnalités de produit trois fois par an pour toutes les lignes de produits (version 1, version 2 et version 3). Dans la première version de l’année 2017 (R1,), plusieurs améliorations apportées aux fonctionnalités de base de Workfront, ProofHQ et Workfront DAM permettent aux professionnels du savoir d’être plus productifs, engagés et de passer moins de temps à gérer le travail et à accomplir davantage.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -80,7 +81,7 @@ ProofHQ vous permet désormais de tester de nouvelles fonctionnalités dans un e
 **Liens incorporés DAM**
 Pour les équipes marketing qui ont besoin d’un meilleur moyen de gérer, publier et suivre l’utilisation des ressources numériques sur des plateformes externes, la fonction de liens incorporés offre le contrôle dont vous avez besoin pour gérer le processus de partage du contenu approprié au bon moment.
 
-**Champs de métadonnées obligatoires DAM**
+**Champs de métadonnées requis par la gestion des actifs numériques**
 Améliorez la catégorisation des ressources numériques avec les champs de métadonnées requis qui permettent un meilleur contrôle du partage des ressources.
 
 **Maintenez l’engagement de tous et l’efficacité de Workfront.**

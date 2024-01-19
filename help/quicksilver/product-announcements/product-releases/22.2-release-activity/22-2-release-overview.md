@@ -4,17 +4,18 @@ description: Présentation de la version 2.2.2
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3973'
 ht-degree: 0%
 
 ---
 
 # Présentation de la version 2.2.2
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version 22.2. Toutes les fonctionnalités répertoriées sont disponibles dans la nouvelle expérience Adobe Workfront. Certaines fonctionnalités sont également disponibles dans Adobe Workfront Classic ; cependant, [Workfront Classic sera abandonné en mars 2022](https://one.workfront.com/s/new-workfront-experience), suivie de la date de fin de vie de Workfront Classic en juillet 2022.
+Cette page fournit des informations sur les fonctionnalités incluses dans la version 22.2. Toutes les fonctionnalités répertoriées sont disponibles dans la nouvelle expérience Adobe Workfront. Certaines fonctionnalités sont également disponibles dans Adobe Workfront Classic. Toutefois, [Workfront Classic sera abandonné en mars 2022](https://one.workfront.com/s/new-workfront-experience), suivie de la date de fin de vie de Workfront Classic en juillet 2022.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -117,7 +118,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouvelles configurations de niveau d’accès par défaut</a> </p> <p>Pour mieux répondre aux besoins de la plupart des administrateurs qui créent des niveaux d’accès, nous avons modifié la configuration par défaut de plusieurs des options "Ajuster vos paramètres" qui s’affichent lorsque vous cliquez sur l’icône d’engrenage d’un bouton Modifier.</p> <p>Les options, précédemment activées par défaut, sont désormais désactivées. Si cela ne correspond pas aux besoins de votre entreprise, vous pouvez les activer lorsque vous configurez un nouveau niveau d’accès, ou ultérieurement.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 27 janvier 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 27 janvier 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.2 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -129,7 +130,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#blueprin2" class="MCXref xref" xrefformat="{para}">Améliorations de l’historique d’installation des plans directeurs</a> </p> <p>Lorsque vous installez un plan directeur, un message affiche désormais les objets spécifiques (tels que les rôles, les équipes ou les groupes) qui ont été correctement installés avec le plan directeur et les objets qui n’ont pas pu être installés. Vous pouvez également afficher la liste des objets installés sur la page Détails du plan directeur en cliquant sur Afficher les détails en regard d’une installation spécifique dans le tableau de l’historique d’installation.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 10 février 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 10 février 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.2 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -137,10 +138,10 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#a" class="MCXref xref" xrefformat="{para}">Un avertissement s’affiche maintenant lors de l’installation d’un plan directeur Aperçu uniquement en production.</a> </p> <p>Certains plans directeurs ne peuvent être installés que dans l’environnement Aperçu à des fins de test.</p> <p>Si vous accédez au contenu Aperçu uniquement dans votre environnement de production, sandbox 1 ou sandbox 2, le bouton d’installation n’est pas principal et un message d’avertissement peut s’afficher.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#a" class="MCXref xref" xrefformat="{para}">Un avertissement s’affiche maintenant lors de l’installation d’un plan directeur Aperçu uniquement en production.</a> </p> <p>Certains plans directeurs ne peuvent être installés que dans l’environnement Aperçu à des fins de test.</p> <p>Si vous accédez au contenu Aperçu uniquement dans votre environnement de production, sandbox 1 ou sandbox 2, le bouton d’installation n’est pas actif et un message d’avertissement peut s’afficher.</p> </td> 
    <td><b>Disponible à ces dates :</b> 
     <ul> 
-     <li> <p>Aperçu de la version : 10 février 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 10 février 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.2 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -161,7 +162,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">Les panoramas Adobe Workfront sont désormais disponibles. </a> </p> <p>Les panoramas sont des outils flexibles qui permettent la collaboration des équipes en permettant l’accès à un panorama partagé contenant des colonnes et des cartes. </p> <p>Les panoramas vous permettent de configurer rapidement un tableau de tâches avec plusieurs colonnes, de configurer des colonnes pour afficher un statut ou une catégorie, d’ajouter d’autres utilisateurs au panorama et de les affecter à des cartes, etc.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">Les panoramas Adobe Workfront sont désormais disponibles. </a> </p> <p>Les panoramas sont des outils flexibles qui permettent la collaboration des équipes en permettant d’accéder à un panorama partagé contenant des colonnes et des cartes. </p> <p>Les panoramas vous permettent de configurer rapidement un tableau de tâches avec plusieurs colonnes, de configurer des colonnes pour afficher un statut ou une catégorie, d’ajouter d’autres utilisateurs au panorama et de les affecter à des cartes, etc.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
      <li> <p>Aperçu de la version : 10 mars 2022<br></p> </li> 
@@ -182,7 +183,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
    <td><b>Disponible à ces dates :</b> 
     <ul> 
-     <li> <p>Aperçu de la version : 24 mars 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 24 mars 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.2 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -201,7 +202,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouvelle expérience lors de la copie d’un projet</a> </p> <p>Afin que votre utilisation de Workfront soit cohérente avec la nouvelle expérience Adobe Workfront, nous avons repensé l’interface pour la copie de projets. Cette option est actuellement disponible lors de la copie d’un projet à partir de la page du projet ou de la copie d’un projet à partir d’une liste ou d’un rapport. Avant cette mise à jour, vous ne pouviez copier qu’un projet à partir de la page du projet.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouvelle expérience lors de la copie d’un projet</a> </p> <p>Afin que votre utilisation de Workfront soit cohérente avec la nouvelle expérience Adobe Workfront, nous avons repensé l’interface pour la copie de projets. Cette option est actuellement disponible lors de la copie d’un projet à partir de la page du projet ou lors de la copie d’un projet à partir d’une liste ou d’un rapport. Avant cette mise à jour, vous ne pouviez copier qu’un projet à partir de la page du projet.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
      <li> <p>Aperçu de la version : 10 mars 2022<br></p> </li> 
@@ -212,7 +213,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#ability" class="MCXref xref" xrefformat="{para}">Possibilité de gérer des projets à partir de listes et de rapports à partir d’un nouveau menu Plus</a> </p> <p>Nous avons ajouté un nouveau menu Plus dans les listes de projets et les rapports pour vous permettre d’effectuer les actions suivantes à partir de ces zones :</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#ability" class="MCXref xref" xrefformat="{para}">Possibilité de gérer des projets à partir de listes et de rapports depuis un nouveau menu Plus</a> </p> <p>Nous avons ajouté un nouveau menu Plus dans les listes de projets et les rapports pour vous permettre d’effectuer les actions suivantes à partir de ces zones :</p> 
     <ul> 
      <li> <p>Pour plusieurs projets à la fois :</p> </li> 
      <li> <p>Recalculer chronologie</p> </li> 
@@ -258,8 +259,8 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#updated" class="MCXref xref" xrefformat="{para}">Mise à jour de l’expérience lors de la copie et du déplacement de problèmes</a> </p> <p>Afin que votre utilisation de Workfront soit cohérente avec la nouvelle expérience Adobe Workfront, nous avons repensé l’interface pour la copie et le déplacement des problèmes. Cette option est actuellement disponible lors de la copie ou du déplacement d’un seul problème ou lors de la copie ou du déplacement de problèmes en masse à partir d’une liste ou d’un rapport.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
-     <li> <p>Aperçu de la version : 18 février 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.2</p> </li> 
+     <li> <p>Version d’aperçu : 18 février 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -269,7 +270,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#keep" class="MCXref xref" xrefformat="{para}">Conserver les utilisateurs dans le tableau de bord, la liste ou le rapport après la conversion du problème en projet</a> </p> <p>Pour accroître l’efficacité et éliminer le nombre de clics, nous avons publié une amélioration lors de la conversion de problèmes en projets à partir d’une liste, d’un rapport ou d’un tableau de bord.</p> <p>Les utilisateurs restent dans la liste, le rapport ou un tableau de bord après avoir converti un problème en projet au lieu d’être redirigés vers la page du projet. Une notification de réussite avec le lien vers le projet s’affiche une fois la conversion terminée, afin que vous puissiez facilement accéder au projet, si nécessaire. </p> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
-     <li> <p>Aperçu de la version : 10 février 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 10 février 2022<br></p> </li> 
      <li> <p>Version de production : 24 février 2022</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -285,7 +286,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
-     <li> <p>Aperçu de la version : 10 février 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 10 février 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.2 <span style="color: #ff0000; font-weight: bold;">Cette fonctionnalité sera mise en production peu après la version 22.2.</span></p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -297,7 +298,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Partage de dossiers uniquement aux cinq premiers niveaux d’une hiérarchie de dossiers</a> </p> <p>Afin d’optimiser les performances pour les utilisateurs partageant des dossiers, nous limitons actuellement le partage aux cinq premiers niveaux d’une hiérarchie de dossiers sur un objet.</p> <p>Chaque dossier au sixième niveau ou au-dessous hérite de ses configurations de partage à partir du dossier situé directement au-dessus.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
-     <li> <p>Aperçu de la version : 10 février 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 10 février 2022<br></p> </li> 
      <li> <p>Version de production : avec la version 22.2 <span style="color: #ff0000; font-weight: bold;">Cette fonctionnalité est temporairement indisponible. Cette page sera mise à jour lorsque la fonctionnalité sera disponible dans Production.</span></p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -319,7 +320,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md#improvem" class="MCXref xref" xrefformat="{para}">Améliorations de la navigation de l’équilibreur de charge de travail</a> </p> <p>Pour améliorer votre expérience lors de l’utilisation de l’équilibreur de charge de travail, nous avons introduit les améliorations suivantes :</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md#improvem" class="MCXref xref" xrefformat="{para}">Amélioration de la navigation de l’équilibreur de charge de travail</a> </p> <p>Pour améliorer votre expérience lors de l’utilisation de l’équilibreur de charge de travail, nous avons introduit les améliorations suivantes :</p> 
     <ul> 
      <li> <p>Les boutons Annuler et Enregistrer lors de l’ajustement des allocations sont désormais collants, même si la tâche est plus longue que la période incluse à l’écran ou lorsque le panneau Résumé s’affiche.</p> </li> 
      <li> <p>Le panneau de gauche qui affiche les noms des utilisateurs et des éléments de travail est maintenant collant. Il vous permet de faire défiler horizontalement les éléments pendant plus longtemps et de toujours pouvoir lire les noms des éléments répertoriés dans le panneau.</p> </li> 
@@ -443,24 +444,24 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Aperçu de la version : 10 mars 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.2</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Mises à jour du connecteur amélioré pour Workfront</a> </p> <p>Workfront pour Experience Manager Enhanced Connector comprend désormais les mises à jour suivantes :</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Mises à jour du connecteur amélioré pour Workfront et Experience Manager</a> </p> <p>Workfront pour Experience Manager Enhanced Connector comprend désormais les mises à jour suivantes :</p> 
     <ul> 
      <li> <p>Vous pouvez désormais créer des dossiers liés entre Adobe Workfront et Adobe Experience Manager Assets as a Cloud Service même s’il existe plusieurs configurations de dossiers liés à un projet.</p> </li> 
      <li> <p>Ajout de la prise en charge de la pagination des abonnements aux événements</p> </li> 
      <li> <p>Ajout de la prise en charge d’AEM 6.4.x</p> </li> 
      <li> <p>Ajout de la prise en charge des environnements proxy</p> </li> 
-     <li> <p>Plusieurs correctifs de bogues basés sur les commentaires des partenaires et des clients</p> </li> 
+     <li> <p>Plusieurs correctifs basés sur les commentaires des partenaires et des clients</p> </li> 
     </ul> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
-     <li> <p>Aperçu de la version : N/A<br></p> </li> 
+     <li> <p>Aperçu de la version : S.O.<br></p> </li> 
      <li> <p>Version de production : 28 mars 2022</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -473,7 +474,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Aperçu de la version : 3 mars 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.2</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -483,8 +484,8 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe2" class="MCXref xref" xrefformat="{para}">Les intégrations Adobe Creative Cloud utilisent désormais OAuth2</a> </p> <p>Pour une sécurité accrue et pour offrir une expérience plus cohérente entre les intégrations, nous avons mis à jour les intégrations Adobe Creative Cloud afin d’utiliser l’authentification OAuth2, un moyen standard d’authentifier les utilisateurs. Désormais, lorsque vos utilisateurs se connectent, ils peuvent voir les actions et les zones auxquelles les intégrations ont accès et y autoriser l’accès. Après cela, il n’est plus nécessaire de se connecter aussi fréquemment.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
-     <li> <p>Aperçu de la version : 24 février 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.2</p> </li> 
+     <li> <p>Version d’aperçu : 24 février 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -494,8 +495,8 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#see2" class="MCXref xref" xrefformat="{para}">Voir le type d’authentification dans la liste des applications OAuth2 personnalisées</a> </p> <p>Désormais, lorsque vous affichez la liste des applications OAuth2 personnalisées dans votre entreprise, vous pouvez voir si chaque application utilise l’authentification de l’utilisateur ou l’authentification du serveur.</p> <p>Auparavant, vous pouviez afficher ces informations uniquement en accédant aux options de modification de chaque application.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
-     <li> <p>Aperçu de la version : 17 février 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.2</p> </li> 
+     <li> <p>Version d’aperçu : 17 février 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -505,7 +506,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#set" class="MCXref xref" xrefformat="{para}">Définition de l’expiration des jetons d’actualisation dans vos intégrations OAuth2 personnalisées</a> </p> <p>Pour mieux contrôler l’accès et la sécurité de vos intégrations OAuth2 personnalisées, vous pouvez désormais personnaliser la durée de vie des jetons d’actualisation. Une fois que le jeton d’actualisation d’un utilisateur expire, il doit se reconnecter à l’intégration.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 10 février 2022 <br></p> </li> 
+     <li> <p>Version d’aperçu : 10 février 2022 <br></p> </li> 
      <li> <p>Version de production : avec la version 22.2 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -516,7 +517,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#use" class="MCXref xref" xrefformat="{para}">Utilisation de clés publiques et privées dans vos intégrations OAuth2 personnalisées pour les applications serveur à serveur</a> </p> <p>Vous pouvez désormais configurer des applications OAuth2 serveur à serveur dans vos intégrations personnalisées. En configurant des clés publiques et privées, vous pouvez permettre à Workfront de communiquer avec une autre application sans utiliser d’informations de connexion.</p> <p>Auparavant, toutes les authentifications de vos applications OAuth2 personnalisées utilisaient les informations de connexion de l’utilisateur.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 10 février 2022 <br></p> </li> 
+     <li> <p>Version d’aperçu : 10 février 2022 <br></p> </li> 
      <li> <p>Version de production : avec la version 22.2 </p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
@@ -537,7 +538,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md#enhancem" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de publication de la version 22.2</a> </p> <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai de publication de la version 22.2. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md#enhancem" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de la version 22.2</a> </p> <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai de publication de la version 22.2. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation. </p> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Aperçu de la version : pendant toute la période de la version 22.2<br></p> </li> 
@@ -552,12 +553,12 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>Les options Favoris et Récents comportent désormais des icônes distinctes dans la barre de navigation supérieure. Chacun d’eux affiche toujours le même contenu (pages que vous avez marquées comme favorites et pages que vous avez récemment consultées), et vous pouvez continuer à ajouter et supprimer des pages favorites de la même manière.</p> </li> 
      <li> <p>L’aspect des pin’s et du menu principal a été mis à jour pour Adobe les normes de conception, notamment les couleurs et les polices. La façon dont vous ajoutez et supprimez des pin's et les zones auxquelles vous avez accès dans le menu principal n’ont pas changé.</p> </li> 
-     <li> <p>Les icônes situées à droite de la barre de navigation supérieure ont été réorganisées pour être plus intuitives. L’ordre des icônes est le suivant : lien d’aide, notifications, favoris, récents, recherche, menu principal.</p> </li> 
+     <li> <p>Les icônes situées à droite de la barre de navigation supérieure ont été réorganisées pour être plus intuitives. L’ordre des icônes est : lien d’aide, notifications, favoris, récents, recherche, menu principal.</p> </li> 
     </ul> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Aperçu de la version : 10 mars 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.2</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -572,7 +573,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Aperçu de la version : 10 mars 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.2</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>Nouvelle expérience Adobe Workfront </p> </li> 
@@ -593,7 +594,7 @@ Aucune mise à jour du planificateur de scénario n’est disponible à ce stade
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features are coming to Workfront Scenario Planner release with the 21.4 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a>.</p>
 -->
 
-## Améliorations du Bon à tirer Workfront
+## Améliorations du Bon à tirer de Workfront
 
 Aucune mise à jour de BAT Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
@@ -619,7 +620,7 @@ Pour plus d’informations sur les versions d’API, voir [Contrôle de version 
 
 ## Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.2, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.2, voir [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## Webinaire sur la version 22.2
 

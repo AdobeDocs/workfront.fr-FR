@@ -5,11 +5,12 @@ title: Autres fonctionnalités de Workfront Classic publiées dans Production av
 description: Les fonctionnalités suivantes ont été mises à la disposition de l’environnement de production Workfront Classic avant la version 2020.1 de production.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 267757fb-a8ef-43cf-a93c-3ac59d8bb432
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +26,7 @@ Pour plus d’informations sur la période de publication et toutes les fonction
   <tr data-mc-conditions=""> 
    <td> Comportement des cookies Workfront mis à jour pour maintenir la compatibilité avec Chrome <p>Pour maintenir la compatibilité avec une mise à jour prochaine de Google Chrome (Chrome v80), nous avons mis à jour la plateforme Workfront afin de nous assurer que les cookies sont correctement envoyés avec les requêtes. </p> <p>Cette mise à jour de Chrome modifie la valeur par défaut de l’attribut de cookie SameSite. Si vous souhaitez tester le comportement de votre instance Workfront après la mise à jour de Google Chrome, ajustez les indicateurs dans Chrome et activez les options suivantes : </p> 
     <ul> 
-     <li>"Cookies samesite par défaut" </li> 
+     <li>Cookies samesite par défaut </li> 
      <li>"Les cookies sans samesite doivent être sécurisés"</li> 
     </ul> 
     <div class="workfront_plans"> 
@@ -36,11 +37,11 @@ Pour plus d’informations sur la période de publication et toutes les fonction
      </ul> 
      <p><strong>Aperçu de la version</strong> </p> 
      <ul> 
-      <li>29 janvier 2020</li> 
+      <li>jeudi 29 janvier 2020</li> 
      </ul> 
      <p><strong>Version de production :</strong> </p> 
      <ul> 
-      <li> 30 janvier 2020</li> 
+      <li> vendredi 30 janvier 2020</li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -59,7 +60,7 @@ Pour plus d’informations sur la période de publication et toutes les fonction
      </ul> 
      <p><strong>Version de production :</strong> </p> 
      <ul> 
-      <li> 8 janvier 2020</li> 
+      <li> jeudi 8 janvier 2020</li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -73,7 +74,7 @@ Pour plus d’informations sur la période de publication et toutes les fonction
      </ul> 
      <p><strong>Version de production :</strong> </p> 
      <ul> 
-      <li> 8 janvier 2020</li> 
+      <li> jeudi 8 janvier 2020</li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -87,7 +88,7 @@ Pour plus d’informations sur la période de publication et toutes les fonction
      </ul> 
      <p><strong>Version de production :</strong> </p> 
      <ul> 
-      <li> 20 décembre 2019</li> 
+      <li> samedi 20 décembre 2019</li> 
      </ul> 
     </div> </td> 
   </tr> 

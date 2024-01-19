@@ -5,10 +5,11 @@ title: 20.3 Améliorations de la gestion de projet
 description: Cette page décrit toutes les améliorations apportées à la gestion de projet avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: d337008d4fca8c41b98b10f9059ec1cc379811e1
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -84,7 +85,7 @@ Recherchez les améliorations suivantes dans la page Détails du document :
 * Les nouvelles options de version ont été déplacées vers un menu déroulant près du panneau de gauche, ce qui facilite l’accès.
 * L’icône Ouvrir le BAT a été remplacée par une étiquette Ouvrir le BAT, ce qui facilite l’affichage sur la page.
 * Une miniature d’aperçu plus grande, permettant d’identifier facilement le document.
-* Ajout de l’icône de modification globale, ce qui vous permet de modifier plusieurs champs à la fois.
+* Ajout de l’icône de modification globale, qui permet de modifier plusieurs champs à la fois.
 
 Pour plus d’informations, voir [Présentation des détails du document](../../../documents/managing-documents/document-details-overview.md).
 
@@ -100,13 +101,13 @@ Toutes les préférences de projet peuvent être personnalisées au niveau du gr
 
 Pour plus d’informations sur les préférences du projet de groupe, voir [Configuration des préférences de projet pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-## Nouveautés pour les administrateurs : Créer des champs de formulaire personnalisés dans lesquels les utilisateurs peuvent mettre du texte en forme
+## Nouveau pour les administrateurs : Créer des champs de formulaire personnalisés dans lesquels les utilisateurs peuvent formater du texte
 
 Dans un formulaire personnalisé, vous pouvez désormais créer des champs contenant des boutons de mise en forme de texte. Lorsque les utilisateurs saisissent ces champs, ils peuvent mettre en surbrillance et organiser leur texte en gras, en italique et en souligné. La limite de caractères élevée de 15 000 permet de saisir beaucoup de texte et de formatage.
 
 Pour plus d’informations, voir Création d’un formulaire personnalisé dans la nouvelle expérience Workfront.
 
-## Nouveautés pour les administrateurs : Créer un nom interne et un libellé destiné à l’utilisateur pour un champ de formulaire personnalisé
+## Nouveau destiné aux administrateurs : créez un nom interne et un libellé destiné aux utilisateurs pour un champ de formulaire personnalisé.
 
 Pour vous offrir plus de flexibilité en matière d’étiquetage et de réétiquetage des champs de formulaire personnalisé, vous pouvez désormais créer une *name* pour un champ en plus de l’interface utilisateur *label* vous avez utilisé. Vous avez ainsi la possibilité de modifier le libellé du champ que voient vos utilisateurs sans modifier le nom du champ que le système voit.
 

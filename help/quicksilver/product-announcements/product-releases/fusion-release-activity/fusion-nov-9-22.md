@@ -3,20 +3,21 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Activité Publication de fusion Workfront : Semaine du 7 novembre 2022"'
-description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 7 novembre 2022.
+title: "Activité Publication de fusion Workfront : semaine du 7 novembre 2022"
+description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion durant la semaine du 7 novembre 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 802db851-39bb-4f40-8a66-ecb8c8b3ced6
-source-git-commit: 9aaba3062bc5d1166c37821a6a3216f7f1d965b1
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
-# Activité Publication de fusion Workfront : Semaine du 7 novembre 2022
+# Activité Publication de fusion Workfront : semaine du 7 novembre 2022
 
 **Optimisation de la file d’attente de webhook**
 
@@ -36,4 +37,4 @@ Nous avons apporté quelques modifications à la façon dont Workfront Fusion g�
 * Le webhook n’est connecté à aucun scénario depuis plus de 5 jours.
 * Le webhook est utilisé uniquement dans les scénarios inactifs, qui sont inactifs depuis plus de 30 jours.
 
-Les webhooks désactivés sont supprimés et désenregistrés automatiquement s’ils ne sont connectés à aucun scénario et sont désactivés depuis plus de 30 jours.
+Les webhooks désactivés sont supprimés et désenregistrés automatiquement s’ils ne sont connectés à aucun scénario et sont à l’état désactivé depuis plus de 30 jours.

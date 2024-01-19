@@ -4,10 +4,11 @@ description: mises à jour du projet pendant la période de la version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -48,7 +49,7 @@ Cette mise à jour inclut :
 
 * Interface utilisateur mise à jour qui correspond au reste de la nouvelle expérience Workfront.
 
-* Accès pour convertir un problème en tâches à partir d’une liste ou d’un rapport.
+* Accès pour convertir un problème en tâches depuis une liste ou un rapport.
 
 * Les formulaires personnalisés par défaut définis dans la zone Paramètres des tâches du projet de destination ont été ajoutés à la nouvelle tâche.
 
@@ -65,7 +66,7 @@ Pour plus d’informations, voir [Convertir un problème en projet dans Adobe Wo
 
 ## Balisage intelligent dans le flux de mise à jour
 
-Nous avons amélioré le balisage des utilisateurs dans le flux de mise à jour lorsque vous créez une mise à jour ou que vous répondez à une mise à jour existante. Désormais, lorsque vous marquez un utilisateur pour l’inclure dans une mise à jour, en plus de son nom et de son avatar, nous affichons également son Rôle Principal et son email. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.
+Nous avons amélioré le balisage des utilisateurs dans le flux de mise à jour lorsque vous créez une mise à jour ou que vous répondez à une mise à jour existante. Désormais, lorsque vous marquez un utilisateur pour l’inclure dans une mise à jour, en plus de son nom et de son avatar, nous affichons également son rôle de Principal et son email. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.
 
 Pour plus d’informations, voir [Balisage des autres sur les mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -175,7 +176,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 * Possibilité de renommer l’objet Campaign à partir du modèle de mise en page
 
-   Les administrateurs système et groupe Workfront peuvent ajouter la zone Campagnes (bêta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour tous les utilisateurs affectés au modèle. Une fois disponible, n’importe qui dans Workfront peut créer une campagne.
+  Les administrateurs système et groupe Workfront peuvent ajouter la zone Campagnes (bêta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour tous les utilisateurs affectés au modèle. Une fois disponible, n’importe qui dans Workfront peut créer une campagne.
 
 
 

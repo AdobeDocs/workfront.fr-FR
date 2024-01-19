@@ -4,10 +4,11 @@ description: 2.2 Autres améliorations
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Plusieurs améliorations ont été apportées à la barre de navigation supérie
 
 * Les options Favoris et Récents comportent désormais des icônes distinctes dans la barre de navigation supérieure. Chacun d’eux affiche toujours le même contenu (pages que vous avez marquées comme favorites et pages que vous avez récemment consultées), et vous pouvez continuer à ajouter et supprimer des pages favorites de la même manière.
 * L’aspect des pin’s et du menu principal a été mis à jour pour Adobe les normes de conception, notamment les couleurs et les polices. La façon dont vous ajoutez et supprimez des pin&#39;s et les zones auxquelles vous avez accès dans le menu principal n’ont pas changé.
-* Les icônes situées à droite de la barre de navigation supérieure ont été réorganisées pour être plus intuitives. L’ordre des icônes est le suivant : lien d’aide, notifications, favoris, récents, recherche, menu principal.
+* Les icônes situées à droite de la barre de navigation supérieure ont été réorganisées pour être plus intuitives. L’ordre des icônes est : lien d’aide, notifications, favoris, récents, recherche, menu principal.
 
 Pour plus d’informations, voir [Présentation de la barre de navigation supérieure](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 

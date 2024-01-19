@@ -6,10 +6,11 @@ title: 21.1 Autres améliorations
 description: Cette page décrit toutes les autres améliorations apportées à la version 21.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 15 février 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Pour plus d’informations sur les nouvelles exigences de désactivation de la f
 
 Nous avons ajouté les champs d’approbation et d’affectation de l’équipe au courrier électronique Action Needed Daily Digest.
 
-Pour plus d’informations, voir [Notifications : Action nécessaire](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Pour plus d’informations, voir [Notifications : action nécessaire](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 ## Remplacement de l’option de courrier électronique POP dans les files d’attente de requête
 
@@ -60,8 +61,8 @@ Pour plus d’informations, voir [Configuration des préférences de feuille de 
 
 Nous avons ajouté les améliorations suivantes lorsque vous ajoutez un projet, une tâche ou un problème à une feuille de calcul :
 
-* Filtres : Nous avons ajouté des filtres pour les projets et les problèmes. Cliquez sur Autres options pour afficher ces filtres. Auparavant, seules les tâches comportaient un filtrage disponible.
-* Vues : Nous avons ajouté des options d’affichage et de regroupement à la page Rechercher .
+* Filtres : nous avons ajouté des filtres pour les projets et les problèmes. Cliquez sur Autres options pour afficher ces filtres. Auparavant, seules les tâches étaient filtrées.
+* Vues : nous avons ajouté des options d’affichage et de regroupement à la page Rechercher.
 
 Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -69,8 +70,8 @@ Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create
 
 Vous pouvez désormais masquer la zone des heures supplémentaires afin de faciliter la confusion des utilisateurs si vous ne effectuez pas le suivi des heures supplémentaires dans Workfront. Vous pouvez masquer la zone des heures supplémentaires pour une feuille de temps à usage unique ou dans le profil de la feuille de temps :
 
-* Frise chronologique à usage unique : Lorsque vous choisissez de masquer la zone des heures supplémentaires dans une feuille de temps individuelle, elle est masquée uniquement pour cette feuille de temps. Pour plus d’informations, voir [Création d’une feuille de temps à usage unique](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* Profil de la feuille de temps : Lorsque vous choisissez de masquer la zone des heures supplémentaires dans le profil de la feuille de temps, la zone des heures supplémentaires ne s’affichera pas pour toutes les futures feuilles de temps créées pour le ou les utilisateurs affectés à ce profil. Pour plus d’informations, voir [Création, modification et affectation de profils de feuille de temps](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Frise chronologique à usage unique : lorsque vous choisissez de masquer la zone des heures supplémentaires dans une feuille de temps individuelle, elle est masquée uniquement pour cette feuille de temps. Pour plus d’informations, voir [Création d’une feuille de temps à usage unique](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* Profil de la feuille de temps : lorsque vous choisissez de masquer la zone des heures supplémentaires dans le profil de la feuille de temps, toutes les futures feuilles de temps créées pour le ou les utilisateurs affectés à ce profil ne verront pas la zone des heures supplémentaires. Pour plus d’informations, voir [Création, modification et affectation de profils de feuille de temps](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 Auparavant, vous ne pouviez pas masquer la zone des heures supplémentaires sur les feuilles de temps.
 
@@ -78,7 +79,7 @@ Auparavant, vous ne pouviez pas masquer la zone des heures supplémentaires sur 
 
 Pour faciliter l’affichage du chemin de navigation complet, nous avons ajouté des fonctionnalités de développement et de réduction.
 
-Désormais, tous les éléments tronqués sont regroupés avant le projet avec le texte &quot;plus&quot;. Par exemple, &quot;3 autres&quot; indique que 3 objets ne s’affichent pas.
+Désormais, tous les éléments tronqués sont regroupés avant le projet avec le texte &quot;plus&quot;. Par exemple, &quot;3 autres&quot; indique qu’il existe 3 objets qui ne s’affichent pas.
 
 Auparavant, vous deviez cliquer sur les points de suspension pour afficher les objets tronqués dans un menu déroulant.
 

@@ -3,26 +3,27 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Activité Publication de fusion Workfront : Semaine du 11 juillet 2022"'
-description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 11 juillet 2022.
+title: "Activité Publication de fusion Workfront : semaine du 11 juillet 2022"
+description: Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion durant la semaine du 11 juillet 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 19d4610a-670a-49e7-b276-f670de867910
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
 
 # Activité Publication de fusion Workfront : semaine du 11 juillet 2022
 
-Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 11 juillet 2022.
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion durant la semaine du 11 juillet 2022.
 
 Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
 
 ## Connexion Figma et modules désormais disponibles
 
@@ -32,9 +33,9 @@ Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter à vo
 
 * Publication ou suppression de commentaires sur un fichier
 
-* Répertorier les commentaires sur un fichier, l’historique des versions de fichier, les fichiers de projet ou les projets.
+* Liste des commentaires sur un fichier, l’historique des versions de fichier, les fichiers de projet ou les projets.
 
-* Récupération d’un fichier, d’une image, d’un style ou d’un composant
+* Récupérer un fichier, une image, un style ou un composant
 
 * Effectuer un appel à l’API Figma
 
@@ -73,7 +74,7 @@ Pour plus d’informations, voir [Modules de bibliothèques Adobe Creative Cloud
 
 Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter à votre compte Adobe Target. Avec les modules Adobe Target, vous pouvez :
 
-* Créer, lire, mettre à jour ou supprimer des enregistrements tels que des activités, des offres, des audiences, des propriétés et des rapports
+* Créer, lire, mettre à jour ou supprimer des enregistrements tels que Activités, Offres, Audiences, Propriétés et Rapports
 
 * Répertorier tous les enregistrements d’un type donné
 

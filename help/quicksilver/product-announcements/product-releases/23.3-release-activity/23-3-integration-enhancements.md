@@ -3,9 +3,11 @@ title: 23.3 Améliorations de l’intégration
 description: 23.3 Améliorations de l’intégration
 author: Lisa
 feature: Product Announcements
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+recommendations: noDisplay, noCatalog
+exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -22,7 +24,7 @@ Une nouvelle intégration de la suite G est désormais disponible dans Google Ma
 
 L’intégration précédente de la suite G est désormais obsolète et sera automatiquement désinstallée.
 
-Pour obtenir des instructions sur l’installation de la nouvelle intégration, voir [Installer [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+Pour plus d’informations sur l’installation de la nouvelle intégration, voir [Installer [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 Pour plus d’informations sur Workfront for G Suite, voir [Workfront for G Suite](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
@@ -64,11 +66,11 @@ For more information, see [Link documents from external applications](/help/quic
 
 ## Création automatique de dossiers liés à Adobe Experience Manager Assets lors de la création d’un projet
 
-Avec le nouveau workflow Créer un dossier lié pour l’intégration d’Adobe Experience Manager, vous pouvez configurer l’intégration avec un chemin d’accès à un dossier Adobe Experience Manager Assets. Lorsque l’intégration est ajoutée à un modèle de projet, tout projet créé à partir du modèle crée automatiquement un sous-dossier lié dans Experience Manager Assets dans le dossier spécifié.
+Avec le nouveau workflow Créer un dossier lié pour l’intégration de Adobe Experience Manager, vous pouvez configurer l’intégration avec un chemin d’accès à un dossier Adobe Experience Manager Assets. Lorsque l’intégration est ajoutée à un modèle de projet, tout projet créé à partir du modèle crée automatiquement un sous-dossier lié dans Experience Manager Assets dans le dossier spécifié.
 
 Auparavant, la création de dossiers liés nécessitait une action de la part de l’utilisateur.
 
-Cette fonctionnalité est disponible uniquement avec une intégration Adobe Experience Manager as a Cloud Service dans Workfront. Cette option n’est pas disponible dans le connecteur amélioré d’Adobe Experience Manager.
+Cette fonctionnalité est disponible uniquement avec une intégration Adobe Experience Manager as a Cloud Service dans Workfront. Cette option n’est pas disponible dans le connecteur amélioré de Adobe Experience Manager.
 
 Pour plus d’informations, voir [Utilisation des workflows dans l’intégration Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 

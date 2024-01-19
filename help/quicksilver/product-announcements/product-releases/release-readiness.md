@@ -5,8 +5,9 @@ title: Préparation d’une [!DNL Adobe Workfront] release
 description: Suivez ces conseils pour mettre à jour en douceur votre organisation pour chaque nouvelle version de Workfront.
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%
@@ -68,9 +69,9 @@ Pour obtenir des liens vers les versions préliminaires, voir [Versions de produ
 >
 >Messages du Centre d’annonces directement depuis [!DNL Workfront] sont disponibles uniquement pour [!DNL Workfront] administrateurs.
 
-Comme [!DNL Workfront] administrateur, vous recevrez le message du centre d’annonces de [!DNL Workfront] à propos de divers aspects de la version. Vous recevrez un message du Centre d’annonces lorsque l’un des événements suivants se produit :
+Comme [!DNL Workfront] administrateur, vous recevrez le message du centre d’annonces de [!DNL Workfront] à propos de divers aspects de la version. Vous recevrez un message du Centre d’annonces lorsque l’une des situations suivantes se produira :
 
-* De nouvelles fonctionnalités sont disponibles dans l’environnement de production.
+* De nouvelles fonctionnalités sont disponibles dans l’environnement de production
 * Les fonctionnalités publiées dans Aperçu seront publiées dans Production avant la version planifiée.
 * Toutes les nouvelles fonctionnalités sont disponibles dans l’environnement Aperçu avant la version planifiée.
 * Le webinaire de mise à jour est ouvert pour inscription.
@@ -84,7 +85,7 @@ Comme [!DNL Workfront] administrateur, vous recevrez le message du centre d’an
 
 ### Explorez les [!UICONTROL Aperçu d’un environnement de test] environnement
 
-Le [!UICONTROL Aperçu d’un environnement de test] , également appelé [!UICONTROL Aperçu] sert d’environnement dans lequel les utilisateurs de votre entreprise peuvent tester et travailler en toute sécurité avec une copie distincte de vos données de l’environnement de production. [!UICONTROL Workfront] libère généralement de nouvelles fonctionnalités dans l’environnement Aperçu au moins deux semaines avant qu’elles ne soient publiées dans l’environnement de production. Vous avez la possibilité de vous familiariser avec ces fonctionnalités avant qu’elles ne soient intégrées aux workflows quotidiens de vos utilisateurs. Si vos utilisateurs ont des difficultés à tirer parti des nouvelles fonctionnalités, vous pourrez alors les aider à s’adapter plus facilement.
+La variable [!UICONTROL Aperçu d’un environnement de test] , également appelé [!UICONTROL Aperçu] sert d’environnement dans lequel les utilisateurs de votre entreprise peuvent tester et travailler en toute sécurité avec une copie distincte de vos données de l’environnement de production. [!UICONTROL Workfront] libère généralement de nouvelles fonctionnalités dans l’environnement Aperçu au moins deux semaines avant leur publication dans l’environnement de production. Vous avez la possibilité de vous familiariser avec ces fonctionnalités avant qu’elles ne soient intégrées aux workflows quotidiens de vos utilisateurs. Si vos utilisateurs ont des difficultés à tirer parti des nouvelles fonctionnalités, vous pourrez alors les aider à s’adapter plus facilement.
 
 >[!TIP]
 >
@@ -92,7 +93,7 @@ Le [!UICONTROL Aperçu d’un environnement de test] , également appelé [!UICO
 
 Lorsqu’une fonctionnalité est publiée dans l’environnement de prévisualisation Sandbox, [!DNL Workfront] La documentation est mise à jour afin d’inclure la nouvelle fonctionnalité. Vous pouvez rechercher l’article applicable ou suivre les liens vers la documentation depuis les notes de mise à jour.
 
-Pour plus d’informations sur la variable [!UICONTROL Aperçu d’un environnement de test] environnement, voir [Le [!DNL Adobe Workfront] [!UICONTROL Aperçu d’un environnement de test] environnement](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+Pour plus d’informations sur la variable [!UICONTROL Aperçu d’un environnement de test] environnement, voir [La variable [!DNL Adobe Workfront] [!UICONTROL Aperçu d’un environnement de test] environnement](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ### Participer au webinaire sur la version
 

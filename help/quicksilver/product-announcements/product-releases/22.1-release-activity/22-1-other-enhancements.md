@@ -4,10 +4,11 @@ description: 2.2.1 Autres améliorations
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 761ad16f-0c6e-48c7-a3d3-49ebfa1694e5
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Avant ces améliorations, vous ne pouviez regrouper vos éléments que par date 
 
 Pour plus d’informations, voir [Afficher des éléments dans la liste des tâches de la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-## Ajoutez la zone Mes mises à jour pour tous les utilisateurs sous licence.
+## Ajoutez la zone Mes mises à jour pour tous les utilisateurs sous licence
 
 Dans le cadre de nos efforts pour créer une parité entre Workfront Classic et la nouvelle expérience Workfront, nous avons réintroduit la zone Mes mises à jour pour tous les utilisateurs.
 
@@ -47,7 +48,7 @@ Lorsque vous ouvrez la zone Mes mises à jour , vous pouvez maintenant rapidemen
 * Les validations en attente de votre décision s’affichent dans la première moitié de la page Mes mises à jour . Vous pouvez approuver, rejeter, suggérer des modifications, accorder l’accès ou déléguer vos approbations à d’autres personnes.
 * Les commentaires dans lesquels vous avez été inclus s’affichent dans la moitié inférieure de la page Mes mises à jour , dans la section Mentions .
 
-Pour plus d’informations, voir [Utiliser la zone Mes mises à jour](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+Pour plus d’informations, voir [Utilisation de la zone Mes mises à jour](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## Améliorations des feuilles de temps
 
@@ -63,7 +64,7 @@ Voici quelques-unes de ces mises à jour :
 Pour plus d’informations, voir les articles suivants :
 
 * [Présentation de la disposition de la feuille de calcul](../../../timesheets/timesheets/timesheet-layout.md)
-* [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md)
+* [Enregistrer des heures](../../../timesheets/create-and-manage-timesheets/log-time.md)
 
 ## Nouvelle barre d’outils pour les listes Utilisateurs
 
@@ -73,4 +74,4 @@ Pour plus d’informations sur ces actions, voir [Création et gestion des utili
 
 ## Menu Aide mis à jour
 
-Désormais, lorsque vous cliquez sur le lien Aide dans la barre de navigation supérieure, un menu mis à jour et simplifié s’affiche. Le nouveau menu fournit les mêmes informations, mais avec moins de niveaux de navigation, ce qui nécessite moins de clics pour afficher le contenu approprié.
+Désormais, lorsque vous cliquez sur le lien Aide dans la barre de navigation supérieure, un menu mis à jour et plus simplifié s’affiche. Le nouveau menu fournit les mêmes informations, mais avec moins de niveaux de navigation, ce qui nécessite moins de clics pour afficher le contenu approprié.

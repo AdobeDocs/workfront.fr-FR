@@ -5,10 +5,11 @@ title: R1 Preview 5
 description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version R1 Preview 5. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 16 mars 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1288'
 ht-degree: 13%
 
 ---
@@ -87,7 +88,7 @@ Pour plus d’informations sur les notifications d’événement, voir  [Config
 
 Les options suivantes sont désormais disponibles dans les notifications électroniques instantanées. Ces options ne sont disponibles que pour les notifications instantanées qui ont également une contrepartie condensée quotidienne :
 
-* &quot;Ajouter à la synthèse quotidienne&quot;
+* &quot;Ajouter ceci à un condensé quotidien&quot;
 * &quot;Arrêter les emails de ce type&quot;
 
 Désormais, lorsque vous recevez une notification électronique instantanée, vous pouvez soit ajouter cette notification à une notification quotidiennement condensée, soit vous pouvez vous désabonner complètement de cette notification.

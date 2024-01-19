@@ -4,10 +4,11 @@ description: 23.2 Autres améliorations
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Une mise à jour de l’expérience de commentaires dans Adobe Workfront est act
 
 Cette nouvelle expérience finira par unifier les commentaires dans Adobe Workfront et au-delà, dans Adobe Experience Cloud.
 
-Dans le cadre de cette mise à jour, nous proposons la nouvelle expérience de commentaires à la section Mises à jour des problèmes . Avec la version actuelle, chaque utilisateur aura accès à un bouton d’activation pour activer cette expérience dans son propre environnement, en mode bêta. Après avoir accepté le contrat bêta, la nouvelle section Mises à jour s’affiche et ils peuvent continuer à gérer leur travail dans cette section comme ils le font actuellement.
+Dans le cadre de cette mise à jour, nous présentons la nouvelle expérience de commentaires à la section Mises à jour des problèmes. Avec la version actuelle, chaque utilisateur aura accès à un bouton d’activation pour activer cette expérience dans son propre environnement, en mode bêta. Après avoir accepté le contrat bêta, la nouvelle section Mises à jour s’affiche et ils peuvent continuer à gérer leur travail dans cette section comme ils le font actuellement.
 
 Des fonctionnalités similaires ont été publiées pour les objectifs Workfront avec la version 23.1.
 

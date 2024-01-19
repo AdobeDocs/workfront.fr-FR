@@ -4,10 +4,11 @@ description: Présentation de la version 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3271'
 ht-degree: 0%
 
 ---
@@ -50,12 +51,12 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                 </tr>            
 <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Utiliser des états déverrouillés dans un processus de validation
-</a></p> <p>Cette fonctionnalité a été supprimée de la version de production 22.3. Cette fonctionnalité sera mise en production ultérieurement.</p> 
+</a></p> <p>Cette fonctionnalité a été supprimée de la version de production 22.3. Cette fonctionnalité devrait être mise en production ultérieurement.</p> 
 <p>Pour vous permettre de mieux contrôler les processus et les états de validation dans votre système, nous avons rendu possible la création d'un processus de validation basé sur un état système déverrouillé. De plus, vous pouvez désormais déverrouiller tout statut déjà utilisé dans un processus de validation. Auparavant, un état système utilisé dans un processus de validation devait être verrouillé. Cela l’a rendu disponible pour tous les groupes, sans possibilité de le supprimer ou de le renommer, de sorte que les administrateurs de groupes ne puissent pas rationaliser la liste des états de leur groupe en fonction de leurs besoins spécifiques.</p>   
    </td> 
     <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 2 juin 2022<br></p> </li> 
+     <li> <p>Version d’aperçu : 2 juin 2022<br></p> </li> 
      <li> <p>Version de production : 15 septembre 2022</p> </li> 
     </ul>  </td>
                 <tr>
@@ -68,10 +69,10 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A<br /></p>
+                                <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4 <span style="color: #ff0000;">Cette migration a été reportée au 1er trimestre 2023. </span></p>
+                                <p>Version de production : avec la version 22.4 <span style="color: #ff0000;">Cette migration a été reportée au 1er trimestre 2023. </span></p>
                             </li>
                         </ul>
                     </td>
@@ -86,10 +87,10 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 25 août 2022<br /></p>
+                                <p>Version d’aperçu : 25 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -104,10 +105,10 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 8 septembre 2022<br /></p>
+                                <p>Version d’aperçu : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -122,24 +123,24 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 25 août 2022<br /></p>
+                                <p>Version d’aperçu : 25 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Inclusion anticipée des fonctionnalités pour les dernières fonctionnalités des panoramas</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Inclusion anticipée des dernières fonctionnalités sur les panoramas</a> </p>
                         <p>Nous sommes ravis d’ouvrir de nouvelles fonctionnalités de panoramas pour l’accord préalable des fonctionnalités. Cet outil facultatif est disponible pour toutes les organisations.</p>
                         <p>Seul un administrateur Workfront peut souscrire aux premières fonctionnalités. Lorsque l’administrateur choisit de se connecter aux nouvelles fonctionnalités, tous les utilisateurs de l’entreprise y sont inscrits et les fonctionnalités supplémentaires sont activées dans votre environnement Workfront de production.</p>
                     </td>
                     <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 22 juillet 2022 <br /></p>
+                                <p>Version d’aperçu : 22 juillet 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Version de production : 28 juillet 2022</p>
@@ -154,10 +155,10 @@ Ces améliorations ont été apportées à l’environnement de production avec 
     <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : Pendant la période de publication de la version 22.3 <br /></p>
+                                <p>Aperçu de la version : pendant la période de publication de la version 22.3 <br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td> 
@@ -188,8 +189,8 @@ Ces améliorations ont été apportées à l’environnement de production avec 
    </td> 
     <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 9 septembre 2022 <br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.4</p> </li> 
+     <li> <p>Version d’aperçu : 9 septembre 2022 <br></p> </li> 
+     <li> <p>Version de production : avec la version 22.4</p> </li> 
      </td>
   </tr>                
 <tr data-mc-conditions=""> 
@@ -201,8 +202,8 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
 </td> 
     <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Aperçu de la version : 2 septembre 2022<br></p> </li> 
-     <li> <p>Version de production : Avec la version 22.4</p> </li> 
+     <li> <p>Version d’aperçu : 2 septembre 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.4</p> </li> 
     </ul> 
     </td>
   </tr>
@@ -210,25 +211,25 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Sélection intelligente d’utilisateurs pour les rôles de projet dans les zones Modifier et Détails</a> </p>
                         <p>Nous avons amélioré l’affichage des utilisateurs lorsque vous les ajoutez aux champs de projet Propriétaire du projet, Parrain du projet et Gestionnaire de ressources dans la boîte de dialogue Modifier et la section Détails du projet.</p>
-                        <p>Désormais, lorsque vous ajoutez un utilisateur à l’un de ces champs dans les zones Modifier ou Détails, en plus de son nom et de son avatar, son Rôle Principal et son email s’affichent également. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.</p>
+                        <p>Désormais, lorsque vous ajoutez un utilisateur à l’un de ces champs dans les zones Modifier ou Détails, en plus de son nom et de son avatar, son Rôle de Principal et son email s’affichent également. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.</p>
                         <p><b>REMARQUE :</b> D’autres champs utilisateur pour les projets, les tâches et les problèmes seront mis à jour avec cette fonctionnalité dans les prochaines versions.</p>
                     </td>
                     <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 25 août 2022</p>
+                                <p>Version d’aperçu : 25 août 2022</p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Les champs de date calculée sont toujours enregistrés en fonction de l’heure universelle coordonnée (UTC).</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Les champs de date calculée sont toujours enregistrés en fonction du temps universel coordonné (UTC).</a> </p>
                         <p>Désormais, vous pouvez être certain que toutes les fonctions de date dans les champs calculés fonctionnent de manière cohérente et produisent le même résultat pour tout le monde, indépendamment de la manière dont une expression de données personnalisée est mise à jour ou de l’endroit où les utilisateurs collaborent sur l’objet dans le monde entier. </p>
-                        <p>Tous les calculs sont désormais calculés et enregistrés selon une norme (temps universel coordonné) et non selon les configurations de fuseau horaire définies pour l’instance de votre entreprise et votre profil utilisateur individuel. Cependant, les calculs sont affichés dans un formulaire personnalisé en fonction des fuseaux horaires individuels définis dans le navigateur de chaque utilisateur.</p>
+                        <p>Tous les calculs sont désormais calculés et enregistrés selon une norme (temps universel coordonné), et non selon les configurations de fuseau horaire définies pour l’instance de votre entreprise et votre profil utilisateur individuel. Cependant, les calculs sont affichés dans un formulaire personnalisé en fonction des fuseaux horaires individuels définis dans le navigateur de chaque utilisateur.</p>
                         <p>Auparavant, les paramètres d’heure dans les calculs étaient source de confusion lorsqu’ils variaient selon les situations suivantes :</p>
                         <ul>
                             <li>
@@ -243,21 +244,21 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                     <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 18 août 2022</p>
+                                <p>Version d’aperçu : 18 août 2022</p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de filtrage pour les projets, les tâches et les problèmes (version bêta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de filtrage pour les projets, tâches et problèmes (version bêta)</a> </p>
                         <p>Le filtrage dans les listes de projets, de tâches et de problèmes a été repensé afin de vous aider à créer et partager rapidement des filtres. Les fonctionnalités incluent :</p>
                         <ul>
                             <li>
-                                <p>Interface intuitive de "créateur bêta" pour la création d’un nouveau filtre</p>
+                                <p>Interface intuitive de "créateur bêta" pour créer un nouveau filtre</p>
                             </li>
                             <li>
                                 <p>La possibilité de marquer un filtre comme favori</p>
@@ -281,7 +282,7 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                     <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 21 juillet 2022<br /></p>
+                                <p>Version d’aperçu : 21 juillet 2022<br /></p>
                             </li>
                             <li>
                                 <p>Version de production : 4 août 2022 </p>
@@ -291,9 +292,9 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations des formulaires personnalisés : Adobe XD et le filtre rapide</a>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées aux formulaires personnalisés : Adobe XD et Filtre rapide</a>
                         </p>
-                        <p>En fonction de vos commentaires, nous avons introduit les améliorations suivantes pour améliorer votre expérience de gestion des formulaires personnalisés :
+                        <p>Sur la base de vos commentaires, nous avons introduit les améliorations suivantes afin d’améliorer votre expérience de gestion des formulaires personnalisés :
 
 </p>
 <ol>
@@ -308,7 +309,7 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 4 août 2022 <br /></p>
+                                <p>Version d’aperçu : 4 août 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Version de production : 11 août 2022</p>
@@ -347,11 +348,11 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 8 septembre 2022<br /></p>
+                                <p>Version d’aperçu : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 15 septembre 2022</p>
-                                <p>Version de production pour tous les clients : Avec la version 22.4</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 15 septembre 2022</p>
+                                <p>Version de production pour tous les clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -367,11 +368,11 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 8 septembre 2022<br /></p>
+                                <p>Version d’aperçu : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 15 septembre 2022</p>
-                                <p>Version de production pour tous les clients : Avec la version 22.4</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 15 septembre 2022</p>
+                                <p>Version de production pour tous les clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -386,10 +387,10 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 9 septembre 2022<br /></p>
+                                <p>Version d’aperçu : 9 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -404,11 +405,11 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 17 août 2022<br /></p>
+                                <p>Version d’aperçu : 17 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 25 août 2022</p>
-                                <p>Version de production pour tous les clients : Avec la version 22.4</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 25 août 2022</p>
+                                <p>Version de production pour tous les clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -425,11 +426,11 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 4 août 2022<br /></p>
+                                <p>Version d’aperçu : 4 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour la pré-inscription : 11 août 2022</p>
-                                <p>Version de production pour tous les clients : Avec la version 22.4</p>
+                                <p>Mise à jour de la production pour l’inclusion anticipée : 11 août 2022</p>
+                                <p>Version de production pour tous les clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -444,11 +445,11 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 22 juillet 2022 <br /></p>
+                                <p>Version d’aperçu : 22 juillet 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Mise à jour de la production pour l’inclusion anticipée : 28 juillet 2022</p>
-                                <p>Version de production pour tous les clients : Avec la version 22.4</p>
+                                <p>Version de production pour tous les clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -465,11 +466,11 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 22 juillet 2022 <br /></p>
+                                <p>Version d’aperçu : 22 juillet 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Mise à jour de la production pour l’inclusion anticipée : 28 juillet 2022</p>
-                                <p>Version de production pour tous les clients : Avec la version 22.4</p>
+                                <p>Version de production pour tous les clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -503,10 +504,10 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 8 septembre 2022<br /></p>
+                                <p>Version d’aperçu : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -530,10 +531,10 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 8 septembre 2022<br /></p>
+                                <p>Version d’aperçu : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -557,10 +558,10 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 25 août 2022<br /></p>
+                                <p>Version d’aperçu : 25 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : Avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -586,7 +587,7 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de publication de la version 22.4</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de la version 22.4</a> </p>
                         <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai de publication de la version 22.4. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -603,13 +604,13 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for InDesign</a> <span style="color: #ff0000;"> Nouveautés en production</span> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront pour InDesign</a> <span style="color: #ff0000;"> Nouveautés en production</span> </p>
                         <p>Ce module externe peut désormais être installé dans InDesign. Il vous permet d’accéder aux détails de l’élément de travail, de collaborer avec des collègues dans la zone Mises à jour et d’envoyer des bons à tirer pour la révision, sans quitter XD. Rendez-vous sur le marché Adobe Creative Cloud pour télécharger le module externe dès aujourd’hui. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : N/A<br /></p>
+                                <p>Aperçu de la version : S.O.<br /></p>
                             </li>
                             <li>
                                 <p>Version de production : 6 octobre 2022</p>
@@ -628,7 +629,7 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 6 octobre 2022<br /></p>
+                                <p>Version d’aperçu : 6 octobre 2022<br /></p>
                             </li>
                             <li>
                                 <p>Version de production : 26 octobre 2022</p>
@@ -639,13 +640,13 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Purge des métadonnées pour les objets parents de programme et de portefeuille</a></p>
-                        <p>Désormais, lorsqu’une ressource est envoyée pour la première fois à Experience Manager Assets ou Assets Essentials, toutes les métadonnées configurées pour mapper des objets parents de programme et de portefeuille sont également envoyées.</p>
+                        <p>Désormais, lorsqu’une ressource est d’abord envoyée à Experience Manager Assets ou aux Assets Essentials, toutes les métadonnées configurées pour mapper des objets parents de programme et de portefeuille sont également envoyées.</p>
                         <p>Auparavant, seules les données de projet parentes étaient envoyées.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : 6 octobre 2022<br /></p>
+                                <p>Version d’aperçu : 6 octobre 2022<br /></p>
                             </li>
                             <li>
                                 <p>Version de production : 26 octobre 2022</p>
@@ -675,8 +676,8 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Description étendue de l’équipe&lt;/a>&lt;/p>
-    &lt;p>Dans la zone Équipes, vous pouvez désormais afficher la description complète de l’équipe en cliquant sur la description pour l’afficher dans une fenêtre contextuelle. Vous pouvez cliquer sur n’importe quelle URL dans la description dans la fenêtre contextuelle. Vous pouvez alors cliquer dans le texte de description pour la modifier (si vous avez accès aux paramètres de l’équipe).&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;&lt;span id=&quot; translate=&quot;no&quot; />&quot;>Description étendue de l’équipe&lt;/a>&lt;/p>
+    &lt;p>Dans la zone Équipes, vous pouvez désormais afficher la description complète de l’équipe en cliquant sur la description pour l’afficher dans une fenêtre contextuelle. {para} Vous pouvez cliquer sur n’importe quelle URL dans la description dans la fenêtre contextuelle. Vous pouvez alors cliquer dans le texte de description pour la modifier (si vous avez accès aux paramètres de l’équipe).&lt;/p>
     &lt;p>Auparavant, le fait de faire défiler la description dans une zone étroite était le seul moyen d’afficher tout le contenu.&lt;/p>
 <p>Cette amélioration de la description s’applique aux équipes agiles et non agiles.</p>
                     </td>
@@ -715,7 +716,7 @@ Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en productio
 
 Aucune mise à jour du planificateur de scénario n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### Améliorations du Bon à tirer Workfront
+### Améliorations du Bon à tirer de Workfront
 
 Aucune mise à jour de BAT Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
@@ -733,7 +734,7 @@ Pour plus d’informations sur les versions d’API, voir [Contrôle de version 
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, voir [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Webinaire sur la version 22.4
 
@@ -770,6 +771,6 @@ La fonctionnalité suivante sera supprimée en novembre 2022 :
 
 * Type d’événement SHARE dans l’API Event Subscriptions.
 
-   Ce type d’événement permettait aux clients de déterminer à quel moment les autorisations pour les objets étaient mises à jour.
+  Ce type d’événement permettait aux clients de déterminer à quel moment les autorisations pour les objets étaient mises à jour.
 
-   Pour plus d’informations sur les abonnements à un événement, ainsi que sur d’autres types d’événement qui continueront à être pris en charge, voir [API d’abonnement à un événement](/help/quicksilver/wf-api/general/event-subs-api.md)
+  Pour plus d’informations sur les abonnements à un événement, ainsi que sur d’autres types d’événement qui continueront à être pris en charge, voir [API d’abonnement à un événement](/help/quicksilver/wf-api/general/event-subs-api.md)

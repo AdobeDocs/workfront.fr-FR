@@ -6,10 +6,11 @@ title: 21.2 Améliorations de la gestion des ressources
 description: Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 00133efe-f779-4217-87af-a223dcf043ee
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, voir [Présentation de la version 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Vue au niveau du mois dans l’équilibreur de charge de travail
+## Vue au niveau du mois dans l’équilibreur de charge
 
 Pour vous aider à gérer l’affectation des ressources pendant de plus longues périodes, nous avons maintenant mis en oeuvre une vue de niveau mois pour l’équilibreur de charge de travail. Vous pouvez afficher jusqu’à trois mois à la fois et mettre à jour les allocations de ressources mensuelles. Avant cette modification, vous ne pouviez afficher l’équilibreur de charge de travail que par jour ou par semaine.
 

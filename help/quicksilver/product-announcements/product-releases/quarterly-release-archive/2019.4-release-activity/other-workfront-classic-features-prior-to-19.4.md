@@ -5,11 +5,12 @@ title: Autres fonctionnalités de Workfront Classic mises en production avant la
 description: Les fonctionnalités suivantes ont été mises à la disposition de l’environnement de production Workfront Classic avant la version 2019.4 de production.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 3%
+source-wordcount: '373'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +33,7 @@ Pour plus d’informations sur la période de publication et toutes les fonction
      </ul> 
      <p><strong>Version de production :</strong> </p> 
      <ul> 
-      <li> 18 octobre 2019</li> 
+      <li> samedi 18 octobre 2019</li> 
      </ul> 
     </div>  </td> 
   </tr> 
@@ -53,7 +54,7 @@ Pour plus d’informations sur la période de publication et toutes les fonction
       </ul> 
       <p><strong>Premier disponible dans Aperçu :</strong> </p> 
       <ul> 
-       <li>9 août 2019</li> 
+       <li>samedi 9 août 2019</li> 
       </ul> 
      </div> 
      </div> </td> 
@@ -71,7 +72,7 @@ Pour plus d’informations sur la période de publication et toutes les fonction
       </ul> 
       <p><strong>Premier disponible dans Aperçu :</strong> </p> 
       <ul> 
-       <li>9 août 2019</li> 
+       <li>samedi 9 août 2019</li> 
       </ul> 
      </div> 
      </div> </td> 

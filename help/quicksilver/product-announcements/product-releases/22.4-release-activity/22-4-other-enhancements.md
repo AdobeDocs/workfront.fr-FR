@@ -4,8 +4,9 @@ description: 22.4 Autres améliorations
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -18,11 +19,11 @@ Cette page décrit toutes les autres améliorations apportées à la version 22.
 
 Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, voir [Présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## Adobe Workfront for InDesign
+## Adobe Workfront pour InDesign
 
 Ce module externe peut désormais être installé dans InDesign. Il vous permet d’accéder aux détails de l’élément de travail, de collaborer avec des collègues dans la zone Mises à jour et d’envoyer des bons à tirer pour la révision, sans quitter XD. Rendez-vous sur le marché Adobe Creative Cloud pour télécharger le module externe dès aujourd’hui.
 
-Pour plus d’informations sur le module externe, voir [[!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Pour plus d’informations sur le module externe, voir [[!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 [Téléchargez Adobe Workfront pour InDesign sur le marché dès aujourd’hui](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
@@ -40,11 +41,11 @@ Pour plus d’informations, voir [Configuration de l’intégration Experience M
 
 ## Purge des métadonnées pour les objets parents de programme et de portefeuille
 
-Désormais, lorsqu’une ressource est envoyée pour la première fois à Experience Manager Assets ou Assets Essentials, toutes les métadonnées configurées pour mapper des objets parents de programme et de portefeuille sont également envoyées.
+Désormais, lorsqu’une ressource est d’abord envoyée à Experience Manager Assets ou aux Assets Essentials, toutes les métadonnées configurées pour mapper des objets parents de programme et de portefeuille sont également envoyées.
 
 Auparavant, seules les données de projet parentes étaient envoyées.
 
-Pour plus d’informations, voir [Envoi d’un document à Experience Manager Assets ou Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+Pour plus d’informations, voir [Envoyer un document à Experience Manager Assets ou aux Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
 
 ## Description étendue de l’équipe
 
@@ -60,7 +61,7 @@ Pour plus d’informations, voir [Création d’une équipe](/help/quicksilver/p
 
 >[!NOTE]
 >
->Cette fonctionnalité a été introduite à l’origine pour Preview au cours du cycle de publication 22.3.
+>Cette fonctionnalité a été introduite à l’origine pour Preview lors du cycle de publication de la version 22.3.
 
 >[!NOTE]
 >
@@ -86,6 +87,6 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 * Possibilité de renommer l’objet Campaign à partir du modèle de mise en page
 
-   Les administrateurs système et groupe Workfront peuvent ajouter la zone Campagnes (bêta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour tous les utilisateurs affectés au modèle. Une fois disponible, n’importe qui dans Workfront peut créer une campagne.
+  Les administrateurs système et groupe Workfront peuvent ajouter la zone Campagnes (bêta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour tous les utilisateurs affectés au modèle. Une fois disponible, n’importe qui dans Workfront peut créer une campagne.
 
 

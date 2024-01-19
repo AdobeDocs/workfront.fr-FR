@@ -4,24 +4,25 @@ description: Activité Publication de fusion Workfront :&nbsp;Semaine du 15 fév
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d4bac9f7-500a-40c1-bb44-7726830ae154
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
 # Activité Publication de fusion Workfront : semaine du 15 février 2021
 
-Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 15 février 2021.
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion durant la semaine du 15 février 2021.
 
 Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
 
-Cette version comprenait également une ou plusieurs mises à jour de maintenance. Pour plus d’informations sur les mises à jour de maintenance de Workfront Fusion 2.0, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Cette version comprenait également une ou plusieurs mises à jour de maintenance. Pour plus d’informations sur les mises à jour de maintenance de Workfront Fusion 2.0, voir [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## Les équipes partagent désormais les paramètres des notifications par e-mail
 

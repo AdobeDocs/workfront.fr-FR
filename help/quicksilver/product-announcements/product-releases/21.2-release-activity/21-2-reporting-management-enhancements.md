@@ -6,10 +6,11 @@ title: 21. 2 Améliorations de la création de rapports
 description: Cette page décrit toutes les améliorations apportées à la création de rapports avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -69,7 +70,7 @@ Pour plus d’informations sur les listes mises à jour, voir [Différence entre
 
 Le nouveau rapport Entrée de journal offre une plus grande visibilité en vous permettant d’analyser les mises à jour du système, notamment :
 
-* Modifications de l’état d’un projet, d’une tâche ou d’un problème
+* Changements d’état sur un projet, une tâche ou un problème
 * Tâches ou problèmes supprimés
 * Valeurs des champs personnalisés
 * Dates d’achèvement prévues

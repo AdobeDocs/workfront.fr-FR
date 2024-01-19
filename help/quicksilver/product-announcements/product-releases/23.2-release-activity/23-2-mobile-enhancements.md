@@ -4,9 +4,11 @@ description: 23.2 Améliorations apportées aux appareils mobiles
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: be47ec2d4118c1816b1babfcc4af2e04f83781af
+recommendations: noDisplay, noCatalog
+exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -26,8 +28,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 La connexion biométrique est désormais une option permettant une connexion plus rapide à l’application mobile ! Une fois la vérification biométrique configurée après une connexion initiale, les utilisateurs pourront utiliser l’empreinte digitale ou la reconnaissance faciale pour se reconnecter rapidement à l’application avec une réauthentification occasionnelle du mot de passe. En outre, plusieurs améliorations de l’apparence de l’expérience générale de connexion arriveront lors d’une mise à jour ultérieure.
 
-Pour plus d’informations, voir [Connectez-vous à [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Pour plus d’informations, voir [Connexion à [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 Les collections de panoramas sont désormais prises en charge dans l’application mobile, ce qui permet aux utilisateurs mobiles d’afficher toutes les collections auxquelles ils ont accès dans la version de bureau à partir de leur liste de panoramas mobiles.
 
-Pour plus d’informations, voir [[!DNL Adobe Workfront] [!UICONTROL Boards] pour mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Pour plus d’informations, voir [[!DNL Adobe Workfront] [!UICONTROL Panoramas] pour mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

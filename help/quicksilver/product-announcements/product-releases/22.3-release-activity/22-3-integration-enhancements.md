@@ -4,10 +4,11 @@ description: 2.2.3 Améliorations de l’intégration
 author: Luke
 draft: false
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Cette page décrit toutes les améliorations apportées à l’intégration avec
 
 Nous sommes heureux d’annoncer que l’intégration d’Adobe Workfront Experience Manager Assets est désormais disponible pour Cloud Service.
 
-Nous avons également introduit de nouvelles fonctionnalités pour Cloud Service et Assets Essentials : Cette intégration permet aux utilisateurs de
+Nous avons également introduit de nouvelles fonctionnalités pour les Cloud Service et les Assets Essentials : cette intégration permet aux utilisateurs de
 
 * Création automatique de dossiers d’AEM liés depuis Workfront
 
@@ -29,7 +30,7 @@ Nous avons également introduit de nouvelles fonctionnalités pour Cloud Service
 * Affichage en temps réel des dernières métadonnées AEM dans Workfront
 
 
-Pour utiliser cette intégration, Workfront et Adobe Experience Manager Assets ou Assets Essentials doivent être associés à votre ID d’organisation dans Adobe Admin Console. Pour plus d’informations, contactez votre représentant commercial Adobe.
+Pour utiliser cette intégration, Workfront et Adobe Experience Manager Assets ou les Assets Essentials doivent être associés à votre ID d’organisation dans Adobe Admin Console. Pour plus d’informations, contactez votre représentant commercial Adobe.
 
 Pour plus d’informations sur la configuration de l’intégration, voir
 

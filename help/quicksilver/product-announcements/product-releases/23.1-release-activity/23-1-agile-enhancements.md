@@ -4,10 +4,11 @@ description: 23.1 Améliorations rapides
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f0e21f9b2846c5665474903a2910ce9f41cdf810
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -86,7 +87,7 @@ Pour plus d’informations, voir [Utilisation du tableau de bord des panoramas](
 
 Si un état est attribué à une carte d’un panorama, l’état s’affiche désormais sur la carte, de sorte que vous n’ayez pas à l’ouvrir pour afficher l’état. Cette amélioration s’applique aux cartes ad hoc et connectées.
 
-Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) et [Ajout d’une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) et [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 ![statut sur la carte](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
@@ -108,7 +109,7 @@ Vous pouvez copier l’URL complète et l’envoyer à quelqu’un d’autre. Il
 
 Auparavant, les liens étaient disponibles pour les panoramas, mais pas pour les cartes spécifiques.
 
-Pour plus d’informations sur les cartes, voir [Ajout d’une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) et [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Pour plus d’informations sur les cartes, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) et [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Filtrage par connexion sur les panoramas
 
@@ -116,7 +117,7 @@ Pour plus d’informations sur les cartes, voir [Ajout d’une carte ad hoc à u
 >
 >Cette fonctionnalité est disponible uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
 
-La liste des filtres sur un panorama inclut désormais l’option permettant de filtrer par connexion, ce qui vous présente toutes les cartes connectées pour un projet spécifique. Vous pouvez également filtrer par cartes qui ne sont pas connectées.
+La liste des filtres sur un panorama inclut désormais l’option permettant de filtrer par connexion, ce qui vous présente toutes les cartes connectées pour un projet spécifique. Vous pouvez également filtrer par cartes non connectées.
 
 Pour plus d’informations, voir [Filtrage et recherche dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
@@ -128,7 +129,7 @@ Pour plus d’informations, voir [Filtrage et recherche dans un panorama](/help/
 >
 >Cette fonctionnalité est disponible uniquement par le biais de l’accord préalable à la fonctionnalité des panoramas Workfront.
 
-Vous pouvez configurer un panorama afin que les cartes soient archivées ou &quot;tombent&quot; du panorama selon un calendrier précis. Des options sont disponibles pour définir des cartes dans une colonne particulière afin de les archiver au cours d’un certain nombre de jours ou de semaines. Par exemple, vous pouvez définir l’abandon afin que les cartes d’une colonne Terminé soient archivées après avoir été placées dans la colonne pendant deux semaines.
+Vous pouvez configurer un panorama afin que les cartes soient archivées ou &quot;tombent&quot; du panorama selon un calendrier précis. Des options sont disponibles pour définir des cartes dans une colonne particulière afin de les archiver dans un certain nombre de jours ou de semaines. Par exemple, vous pouvez définir l’abandon afin que les cartes d’une colonne Terminé soient archivées après avoir été placées dans la colonne pendant deux semaines.
 
 Si vous souhaitez réafficher les cartes après leur retrait du panorama, vous pouvez définir le filtre du panorama pour afficher les cartes archivées.
 

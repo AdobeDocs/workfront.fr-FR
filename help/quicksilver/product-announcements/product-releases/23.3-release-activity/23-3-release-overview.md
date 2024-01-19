@@ -3,10 +3,11 @@ title: Présentation de la version 23.3
 description: Présentation de la version 23.3
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -453,7 +454,7 @@ Le webinaire de la version 23.3 date du 29 juin 2023. Vous pouvez [Inscrivez-vou
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Création automatique de dossiers liés à Adobe Experience Manager Assets lors de la création d’un projet</a></p>
-                        <p>Avec le nouveau workflow Créer un dossier lié pour l’intégration de Adobe Experience Manager, vous pouvez configurer l’intégration avec un chemin d’accès à un dossier de ressources Adobe Experience Manager. Lorsque l’intégration est ajoutée à un modèle de projet, tout projet créé à partir du modèle crée automatiquement un sous-dossier lié dans Experience Manager Assets dans le dossier spécifié. </p>
+                        <p>Avec le nouveau workflow Créer un dossier lié pour l’intégration de Adobe Experience Manager, vous pouvez configurer l’intégration avec un chemin d’accès à un dossier Adobe Experience Manager Assets. Lorsque l’intégration est ajoutée à un modèle de projet, tout projet créé à partir du modèle crée automatiquement un sous-dossier lié dans Experience Manager Assets dans le dossier spécifié. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>

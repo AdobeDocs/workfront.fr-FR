@@ -4,10 +4,11 @@ description: 21.3 Améliorations apportées au projet
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1df4ccdb-5b74-414c-a622-b0a5ed30a8c4
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -119,7 +120,7 @@ Auparavant, vous pouviez ajouter des utilisateurs externes par adresse électron
 
 Pour plus d’informations, voir [Demande d’approbation de documents](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
-## Exporter des informations à partir de la section Détails d’un portfolio ou d’un programme
+## Exporter des informations depuis la section Détails d’un portfolio ou d’un programme
 
 >[!NOTE]
 >

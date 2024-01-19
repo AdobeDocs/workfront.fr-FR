@@ -4,10 +4,11 @@ description: 22.1 Améliorations de la gestion des ressources
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ Pour plus d’informations, voir [Navigation dans l’équilibreur de charge de 
 
 ## Affectation du travail en masse à l’aide de l’équilibreur de charge de travail
 
-En poursuivant nos efforts pour abandonner les outils de planification et les remplacer par l’équilibreur de charge de travail, nous avons ajouté la possibilité de gérer les affectations en bloc. Vous pouvez désormais affecter plusieurs tâches à la fois à plusieurs utilisateurs, remplacer des utilisateurs de plusieurs tâches par d’autres utilisateurs et annuler l’affectation d’utilisateurs de plusieurs tâches à la fois. Vous pouvez effectuer toutes ces opérations avec une seule action à l’aide de la nouvelle fonctionnalité d’affectation en bloc de l’équilibreur de charge de travail.
+En poursuivant nos efforts pour abandonner les outils de planification et les remplacer par l’équilibreur de charge de travail, nous avons ajouté la possibilité de gérer les affectations en bloc. Vous pouvez désormais affecter plusieurs tâches à la fois à plusieurs utilisateurs, remplacer des utilisateurs de plusieurs tâches par d’autres utilisateurs et annuler l’affectation d’utilisateurs de plusieurs tâches à la fois. Vous pouvez effectuer toutes ces opérations avec une seule action en utilisant la nouvelle fonctionnalité d’affectation en bloc de l’équilibreur de charge de travail.
 
 Avant cette amélioration, vous ne pouviez affecter qu’un seul utilisateur à une seule tâche, soit manuellement, soit en la faisant glisser et en la déposant.
 

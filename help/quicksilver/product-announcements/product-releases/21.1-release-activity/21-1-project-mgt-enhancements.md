@@ -6,10 +6,11 @@ title: 21.1 Améliorations de la gestion de projet
 description: Cette page décrit toutes les améliorations apportées à la gestion de projet avec la version 21.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 15 février 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
@@ -26,7 +27,7 @@ Pour partager plus facilement l’état et la progression d’un projet, vous po
 
 Pour plus d’informations, voir [Présentation des mesures de projet](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes de planification de la nouvelle expérience Workfront, partie 3 : Gestion d’un projet](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans la variable [Principes de planification de la nouvelle expérience Workfront, Partie 3 : Gestion d’un projet](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) parcours d’apprentissage sur Workfront One.
 
 ## Mettre à jour le pourcentage de problème terminé lorsque le projet ou la tâche a été converti à partir de la mise à jour du problème
 
@@ -70,7 +71,7 @@ Pour plus d’informations sur la définition des nouveaux champs de problème p
 
 >[!NOTE]
 >
->Retiré de la version ; restera dans Aperçu et sera publié en production avec la version 21.2.
+>Retiré de la version ; restera dans Aperçu et version en production avec la version 21.2.
 
 Afin d’assurer la cohérence avec la nouvelle expérience Workfront et d’améliorer l’efficacité de votre action lors de l’envoi de requêtes, nous avons repensé la zone Nouvelle requête dans la zone Demandes . Voici quelques améliorations :
 
@@ -86,15 +87,15 @@ Pour plus d’informations sur l’envoi de requêtes, voir [Création et envoi 
 
 >[!NOTE]
 >
->Retiré de la version ; restera dans Aperçu et sera publié en production avec la version 21.2.
+>Retiré de la version ; restera dans Aperçu et version en production avec la version 21.2.
 
-Nous avons maintenant rendu possible le partage d’un lien vers une file d’attente de requêtes, un groupe de rubriques ou une rubrique de file d’attente à mesure que vous créez une requête.
+Nous avons maintenant rendu possible le partage d’un lien vers une file d’attente de requêtes, un groupe de rubriques ou une rubrique de file d’attente.
 
 Avant d’envoyer une nouvelle requête, vous pouvez copier un lien vers la file d’attente des requêtes, le groupe de rubriques ou la rubrique de la file d’attente de la requête et le partager avec d’autres utilisateurs, ou l’incorporer dans un tableau de bord.
 
 Pour plus d’informations sur le partage d’un lien vers une file d’attente de demandes lors de l’envoi d’une demande, voir [Partage d’un lien vers une file d’attente de requêtes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-## Recherchez un groupe que vous souhaitez affecter à un projet et affichez ses détails.
+## Recherchez un groupe à affecter à un projet et affichez ses détails.
 
 Il est désormais plus facile de vous assurer d’identifier le bon groupe lorsque vous affectez un groupe à un projet. Pointez sur le nom d’un groupe que vous trouvez dans la zone Groupe, puis cliquez sur l’icône d’information qui s’affiche en regard du nom pour afficher l’info-bulle Détails du groupe.
 

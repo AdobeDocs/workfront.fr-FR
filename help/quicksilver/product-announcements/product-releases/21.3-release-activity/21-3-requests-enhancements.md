@@ -1,18 +1,19 @@
 ---
-title: 21.3 Améliorations au niveau des requêtes
-description: 21.3 Améliorations au niveau des requêtes
+title: 21.3 Améliorations des requêtes
+description: 21.3 Améliorations des requêtes
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e3cdb642-83f5-4dc0-a4da-1f9378ab3914
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
-# 21.3 Améliorations au niveau des requêtes
+# 21.3 Améliorations des requêtes
 
 Cette page décrit toutes les améliorations apportées aux requêtes à l’aide de la version 21.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 21 juillet 2021.
 
