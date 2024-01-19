@@ -6,10 +6,10 @@ description: Votre [!DNL Adobe Workfront] Le profil contient des informations vo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 1%
+source-wordcount: '3301'
+ht-degree: 0%
 
 ---
 
@@ -212,7 +212,7 @@ La grille suivante indique les sections dans la [!UICONTROL Mes paramètres] son
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-### [!UICONTROL Infos personnelles]
+### [!UICONTROL Informations personnelles]
 
 Cette section comprend les sous-sections suivantes :
 
@@ -240,7 +240,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Adresse électronique]</strong></td> 
-   <td> Mettez à jour votre adresse électronique. Champ obligatoire. Gardez à l’esprit que votre adresse électronique est également votre nom d’utilisateur pour [!DNL Workfront].</td> 
+   <td> Mettez à jour votre adresse électronique. Il s’agit d’un champ obligatoire. Gardez à l’esprit que votre adresse électronique est également votre nom d’utilisateur pour [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Réinitialiser le mot de passe]</strong></td> 
@@ -340,7 +340,9 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Afficher le pourcentage terminé à la mise à jour de l’état]</strong> </td> 
-   <td>Cochez cette case pour afficher une barre de pourcentage dans le champ [!UICONTROL statut de mise à jour] des tâches, afin que vous puissiez mettre à jour le pourcentage d’achèvement d’une tâche lorsque vous saisissez une mise à jour de tâche.</td> 
+   <td>Cochez cette option si vous souhaitez afficher une barre de pourcentage complète dans la zone Mises à jour de vos tâches, lors de l’utilisation de l’expérience de commentaire héritée. Pour plus d’informations, voir <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nouvelle expérience de commentaire</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL M’envoyer du travail assigné à mon onglet Travail]</strong> </td> 
@@ -475,7 +477,7 @@ Utilisez l’une des méthodes suivantes de cette section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditionnel) Si vous avez sélectionné un ou plusieurs autres rôles, le champ [!UICONTROL Pourcentage de disponibilité de l’éditeur de texte enrichi] s’affiche pour chaque rôle.</strong></td> 
-   <td> <p>Indiquez le pourcentage de votre temps planifié attribué à chaque rôle de tâche. La valeur par défaut du [!UICONTROL Pourcentage de disponibilité de l’éditeur de texte enrichi] pour [!UICONTROL Autres rôles] est de 0 %.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_tasks_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Note:  
+   <td> <p>Indiquez le pourcentage de votre temps planifié attribué à chaque rôle de tâche. La valeur par défaut du [!UICONTROL Pourcentage de disponibilité de l’éditeur de texte enrichi] pour [!UICONTROL Autres rôles] est de 0 %.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_tasks_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Remarque :  
      <ul> 
       <li>Si [!UICONTROL Autres rôles] disposent d’une disponibilité de l’éditeur de texte enrichi de 0 %, ils ne s’affichent pas dans le [!UICONTROL Resource Planner], sauf si les utilisateurs sont affectés à des tâches dans ces rôles.</li> 
       <li> <p>La somme de tous les <strong>[!UICONTROL Pourcentages de disponibilité de l’éditeur de texte enrichi]</strong> pour tous les rôles, doit être égal à 100 %. Chaque [!UICONTROL Pourcentage de disponibilité de l’éditeur de texte enrichi] calcule les [!UICONTROL Heures disponibles] pour chaque rôle par utilisateur dans le [!UICONTROL Resource Planner]. </p> <p>Les [!UICONTROL Hours disponibles] pour chaque rôle par utilisateur dépendent de l’heure disponible pour l’utilisateur. L’heure disponible pour l’utilisateur est calculée par [!DNL Workfront] selon la méthode sélectionnée par la variable [!DNL Workfront] pour calculer l’éditeur de texte enrichi dans les préférences de [!UICONTROL Resource Management]. Pour plus d’informations sur le calcul de la disponibilité de l’utilisateur, voir <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources</a>. Pour plus d’informations sur la configuration des préférences de gestion des ressources, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configuration des préférences de gestion des ressources</a>.</p> </li> 

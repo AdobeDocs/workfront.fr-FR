@@ -6,9 +6,9 @@ description: Informations sur la manière de mettre les ressources à niveau dan
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Workfront] license*</td> 
@@ -64,7 +64,7 @@ Tenez compte des points suivants lors de l’nivellement des ressources sur un p
 * Les relations avec les prédécesseurs auront la priorité sur le niveau des ressources.
 * **[!UICONTROL Niveau des ressources]** doit être défini sur **[!UICONTROL Manuel]** pour le projet afin d’ajuster le niveau dans la variable [!UICONTROL Graphique Gantt]. Si vous disposez des autorisations de gestion du projet, vous pouvez configurer le système de niveau automatique des ressources en ajustant ce paramètre sur le projet et en sélectionnant **[!UICONTROL Automatique]** au lieu de **[!UICONTROL Manuel]** dans le **[!UICONTROL Modifier le projet]** de la boîte.
 
-   ![](assets/resource-leveling-mode-350x177.png)
+  ![](assets/resource-leveling-mode-350x177.png)
 
 * En tant que propriétaire du projet, ou responsable de la tâche, vous pouvez introduire un délai de mise à niveau pour une tâche afin d’indiquer qu’il y a de grandes chances que la tâche puisse nécessiter un temps supplémentaire. Pour plus d’informations sur l’ajout d’un délai de niveau à une tâche, voir [Mettre à jour le délai de niveau de tâche](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -73,11 +73,11 @@ Tenez compte des points suivants lors de l’nivellement des ressources sur un p
 Vous pouvez utiliser la liste des tâches [!UICONTROL Graphique Gantt] pour mettre vos ressources à niveau.
 
 1. Accédez au projet que vous souhaitez mettre à niveau.
-1. Dans le **[!UICONTROL Tâches]** , cliquez sur la zone **[!UICONTROL Graphique Gantt]** icône .
+1. Dans le **[!UICONTROL Tâche]** , cliquez sur la zone **[!UICONTROL Graphique Gantt]** Icône
 
    Toutes les modifications sont automatiquement enregistrées lorsque la variable **[!UICONTROL Enregistrement automatique]** est activée. Elle est activée par défaut.
 
-1. (Facultatif) Cliquez sur le **[!UICONTROL Plan] mode** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planification de la chronologie]** pour enregistrer vos modifications manuellement.
+1. (Facultatif) Cliquez sur le **[!UICONTROL Planifier] mode** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planification chronologique]** pour enregistrer vos modifications manuellement.
 
    >[!TIP]
    >
@@ -91,8 +91,8 @@ Vous pouvez utiliser la liste des tâches [!UICONTROL Graphique Gantt] pour mett
 
 1. Sélectionnez l’une des options suivantes :
 
-   * **[!UICONTROL Niveau maintenant]**: Applique un niveau de ressource à la tâche sélectionnée.
-   * **[!UICONTROL Effacer le niveau]**: Supprime tous les niveaux de ressource de la tâche sélectionnée.
+   * **[!UICONTROL Niveau maintenant]**: applique un niveau de ressource à la tâche sélectionnée.
+   * **[!UICONTROL Effacer le niveau]**: supprime tous les niveaux de ressource de la tâche sélectionnée.
 
    >[!NOTE]
    >
@@ -104,9 +104,8 @@ Vous pouvez utiliser la liste des tâches [!UICONTROL Graphique Gantt] pour mett
    >
    >Vous pouvez utiliser les raccourcis clavier suivants pour annuler ou rétablir des modifications sur le [!UICONTROL Graphique Gantt]:
    >
-   >* [!DNL Mac]: Utilisation [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
-   >* Windows : Utilisation [!UICONTROL Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
-
+   >* [!DNL Mac]: utilisez [!UICONTROL Commande + Z] pour annuler et [!UICONTROL Commande + Maj + Z] pour rétablir.
+   >* Windows : utilisez [!UICONTROL Ctrl + Z] pour annuler et [!UICONTROL Ctrl + Y] pour rétablir.
 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** dans le coin supérieur droit du [!UICONTROL Graphique Gantt].
@@ -120,7 +119,7 @@ Vous pouvez utiliser la liste des tâches [!UICONTROL Graphique Gantt] pour mett
 <p>To manually add a Leveling Delay to a task:</p>
 <ol>
 <li value="1">Navigate to a task for which you want to add a Leveling Delay.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p> <p> <img src="assets/qs-task-edit-icon-highlighted-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p>  </li>
 <li value="3">Click <strong>Settings</strong>.<br></li>
 <li value="4">Specify the <strong>Leveling Delay</strong>, in hours.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</li>
 <li value="5">Click <strong>Save Changes</strong>. </li>

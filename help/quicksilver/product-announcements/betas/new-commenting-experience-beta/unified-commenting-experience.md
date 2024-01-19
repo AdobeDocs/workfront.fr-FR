@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
 # Nouvelle expérience de commentaire
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ Les améliorations suivantes ont été apportées à la nouvelle expérience de 
 * Indicateur en temps réel lorsque de nouveaux commentaires sont ajoutés à un objet
 * Modification des commentaires après leur envoi
 
-Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience :
+Les fonctionnalités suivantes ont été supprimées ou seront obsolètes de la nouvelle expérience :
 
 * Commentaire sur une mise à jour du système
-* Possibilité de modifier l’état, la condition, la date de validation tout en commentant
+* Possibilité de modifier l’état, la condition, la date de validation et le pourcentage d’achèvement lors de l’ajout de commentaires sur les tâches et les problèmes
 * Modifier le formulaire personnalisé
 * Les informations &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe se connecte en tant qu’autre utilisateur et ajoute un commentaire en leur nom ont été supprimées à l’origine. Il a été rétabli le 19 octobre 2023.
 * L’option &quot;Demander l’approbation&quot; lorsque vous balisez des personnes en ajoutant un commentaire à un document.
+* Le paramètre &quot;Afficher le pourcentage terminé à la mise à jour&quot; lors de la modification de la zone de profil d’un utilisateur est supprimé. La fonctionnalité de mise à jour du pourcentage d’achèvement d’une tâche ou d’un problème a été supprimée.
+* Notification du propriétaire du projet dans la zone Mises à jour indiquant que le responsable d’une tâche ou d’une émission a modifié la date de validation. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 

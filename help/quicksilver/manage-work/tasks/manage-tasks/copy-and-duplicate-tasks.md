@@ -6,9 +6,9 @@ description: Vous pouvez copier une tâche d’un projet vers un autre projet ou
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -135,7 +135,7 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
 
 1. Recherchez une tâche dans votre système Workfront en la recherchant.
 1. Cliquez sur le nom de la tâche pour l’ouvrir.
-1. Cliquez sur le bouton **Plus** menu déroulant ![](assets/qs-more-menu.png) en regard du nom de la tâche, puis cliquez sur **Copier** **to**.
+1. Cliquez sur le bouton **Plus** menu déroulant ![](assets/qs-more-menu.png) en regard du nom de la tâche, puis cliquez sur **Copier vers**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 

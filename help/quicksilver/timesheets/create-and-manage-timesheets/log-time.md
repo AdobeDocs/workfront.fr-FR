@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3526'
 ht-degree: 0%
 
 ---
@@ -334,24 +334,18 @@ Pour obtenir des informations générales sur l’utilisation de la zone Accueil
 
 #### Temps de connexion à un élément de travail de la nouvelle zone d’accueil
 
+Vous pouvez consigner le temps d’accès à n’importe quel objet dans n’importe quel widget à l’aide du panneau Résumé. Pour plus d’informations, voir [Panneau Résumé](#summary-panel) dans cet article.
+
+En outre, pour consigner l’heure d’un élément dans le widget Mon travail :
+
 1. L’accès au **Accueil** zone.
-1. Ajoutez l’un des widgets suivants :
+1. Ajoutez la variable **Mon travail** de votre page d’accueil.
+1. Sélectionnez une tâche, un problème ou une requête dans une liste, puis cliquez sur **Travailler dessus**
+1. Passez la souris sur la tâche ou le problème pour lequel vous souhaitez consigner le temps, puis cliquez sur le bouton **Temps journal** icon ![](assets/log-time-icon-in-new-home.png) à droite des informations de la tâche.
 
-   * Mes tâches
-   * Mes événements
-   * Mon travail
-   * Mes demandes
-1. Sélectionnez une tâche, un problème ou une requête dans une liste, puis cliquez sur **Résumé**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   Ou
-
-   Cliquez sur le bouton **Résumé** icon ![](assets/open-summary-icon-in-home.png) d’une tâche ou d’un problème dans le widget Mon travail.
-
-   Le panneau Résumé s’ouvre à droite.
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. Poursuivez la journalisation dans le panneau Résumé, comme décrit dans la section [Aperçu du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. Cliquez sur **Temps de connexion**.
 
 #### Connexion à un élément de travail à partir de la zone d’accueil héritée
 
