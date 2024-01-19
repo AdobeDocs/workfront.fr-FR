@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6ea6a81ad99178b24d4f6d7034394d8b4e137918
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Statuts mis à jour pour les approbations de documents</a></p><p>Pour clarifier l’état d’approbation des documents, nous avons mis à jour les validations d’état des documents disponibles. Désormais, l’état d’approbation tient compte des opérateurs validants qui marquent la fin de leur révision, ainsi que des cas où il n’y a que des opérateurs validants, mais pas d’approbateurs.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Statuts mis à jour pour les approbations de documents</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Pour clarifier l’état d’approbation des documents, nous avons mis à jour les validations d’état des documents disponibles. Désormais, l’état d’approbation tient compte des opérateurs validants qui marquent la fin de leur révision, ainsi que des cas où il n’y a que des opérateurs validants, mais pas d’approbateurs.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -153,7 +153,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marquage d’une révision comme terminée</a></p><p>Pour clarifier le moment où un document a été révisé et est prêt pour la prochaine étape d’approbation, nous avons créé une nouvelle <strong>Terminer ma révision</strong> bouton .</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marquage d’une révision comme terminée</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Pour clarifier le moment où un document a été révisé et est prêt pour la prochaine étape d’approbation, nous avons créé une nouvelle <strong>Terminer ma révision</strong> bouton .</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -172,7 +172,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">L’état de révision et d’approbation des documents s’affiche dans l’en-tête du document.</a></p><p>Pour rendre le processus de révision et d’approbation plus transparent, nous avons ajouté le statut à l’en-tête de la page Détails du document.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">L’état de révision et d’approbation des documents s’affiche dans l’en-tête du document.</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Pour rendre le processus de révision et d’approbation plus transparent, nous avons ajouté le statut à l’en-tête de la page Détails du document.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -210,7 +210,7 @@ Le webinaire de la version 24.1 date du 11 janvier 2024. Vous pouvez [Inscrivez-
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau widget Autorisations en attente disponible</a></p><p>Pour faciliter l’affichage de l’état des approbations et des révisions pour les projets que vous détenez, nous avons ajouté un nouveau widget Autorisations en attente à l’accueil.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau widget Autorisations en attente disponible</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Pour faciliter l’affichage de l’état des approbations et des révisions pour les projets que vous détenez, nous avons ajouté un nouveau widget Autorisations en attente à l’accueil.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>

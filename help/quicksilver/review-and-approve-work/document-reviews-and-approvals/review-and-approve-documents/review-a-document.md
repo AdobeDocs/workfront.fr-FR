@@ -6,16 +6,14 @@ description: En tant que réviseur, vous pouvez prévisualiser un document qui v
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 9a5780010e32526282255dd8a54e6ae22c5f0c55
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Révision d’un document
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 En tant que réviseur, vous pouvez afficher un document qui vous a été soumis pour révision. Contrairement à une approbation, vous ne prenez pas de décision. Vous confirmez plutôt que vous avez consulté la ressource.
 
@@ -33,7 +31,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -72,7 +70,7 @@ Add once functionality is added
    Cliquez sur **Télécharger** pour télécharger une copie locale du document sur votre périphérique.
 
 1. (Facultatif) Une fois que vous avez examiné le document, vous pouvez laisser un commentaire au demandeur dans le **Mises à jour** . Pour plus d’informations sur les commentaires, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. <span class="preview">Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.</span>
+1. Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.
 
 ## Examinez un document à partir du volet Résumé du document
 
@@ -93,4 +91,4 @@ Add once functionality is added
 1. (Facultatif) Une fois que vous avez examiné le document, vous pouvez laisser un commentaire au demandeur dans le **Mises à jour** . Pour plus d’informations sur les commentaires, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Facultatif) Vous pouvez également prévisualiser ou télécharger une version spécifique du document en faisant défiler l’écran jusqu’au **Versions** du volet Résumé du document, puis cliquez sur l’icône Plus ![](../assets/more-icon.png) en regard de la version que vous souhaitez réviser et sélectionner **Télécharger** ou **Aperçu**.
-1. <span class="preview"> Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.</span>
+1. Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.

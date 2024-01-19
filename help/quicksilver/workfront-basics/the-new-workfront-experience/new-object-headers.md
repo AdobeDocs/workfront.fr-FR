@@ -2,19 +2,19 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Présentation des en-têtes d’objet
-description: Vous pouvez afficher les informations en un coup d’oeil sur les objets de la [!DNL Adobe Workfront] lorsque vous passez en revue leur en-tête. Les informations d’un en-tête peuvent inclure le propriétaire de l’objet, l’état ou le pourcentage de fin.
+description: Vous pouvez afficher les informations en un coup d’oeil sur les objets de la section [!DNL Adobe Workfront] lorsque vous passez en revue leur en-tête. Les informations d’un en-tête peuvent inclure le propriétaire de l’objet, l’état ou le pourcentage de fin.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '3646'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
 
 # Présentation des en-têtes d’objet
 
-Vous pouvez afficher les informations en un coup d’oeil sur les objets de la [!DNL Adobe Workfront] lorsque vous passez en revue leur en-tête.
+Vous pouvez afficher les informations en un coup d’oeil sur les objets de la section [!DNL Adobe Workfront] lorsque vous passez en revue leur en-tête.
 
 En plus du nom de l’objet, l’en-tête peut inclure le propriétaire de l’objet, l’état ou le pourcentage de fin.
 
@@ -35,8 +35,8 @@ Par exemple, pour accéder à l’en-tête d’un projet :
 
 Les en-têtes suivants sont disponibles dans Accueil :
 
-* Tâche : Pour plus d’informations sur l’utilisation de cet en-tête, voir [Présentation de l’en-tête de tâche](#task-header-overview) dans cet article.
-* Problème : Pour plus d’informations sur l’utilisation de cet en-tête, voir [Présentation de l’en-tête du problème](#issue-header-overview) dans cet article.
+* Tâche : pour plus d’informations sur l’utilisation de cet en-tête, voir la section [Présentation de l’en-tête de tâche](#task-header-overview) dans cet article.
+* Problème : pour plus d’informations sur l’utilisation de cet en-tête, voir la section [Présentation de l’en-tête du problème](#issue-header-overview) dans cet article.
 
 ## En-têtes personnalisables
 
@@ -266,19 +266,19 @@ L’en-tête du programme affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Nom du type d’objet</td> 
-   <td> <p>Si le programme est marqué comme [!UICONTROL Principal], le texte "[!UICONTROL PROGRAM]" s’affiche au-dessus du nom du programme dans l’en-tête.</p> </td> 
+   <td> <p>Si le programme est marqué comme [!UICONTROL actif], le texte "[!UICONTROL PROGRAM]" s’affiche au-dessus du nom du programme dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">État d’activation</td> 
+   <td role="rowheader">État de l’activation</td> 
    <td> <p>Si le programme est désactivé, le texte "[!UICONTROL PROGRAM DEACTIVATED]" s’affiche au-dessus du nom du programme dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zone d’actions du programme</td> 
+   <td role="rowheader">La zone d’actions du programme</td> 
    <td> <p>En regard du nom du programme, la zone [!UICONTROL Actions] s’affiche.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pourcentage terminé]</td> 
-   <td> <p>Vous ne pouvez pas modifier le [!UICONTROL Pourcentage terminé] du programme dans l’en-tête . Ces informations sont mises à jour à partir des projets du programme.</p> <p>Conseil : Par défaut, le pourcentage de fin du programme correspond à la moyenne des valeurs de pourcentage de fin des projets dans un [!UICONTROL Actuel] ou un [!UICONTROL État approuvé] appartenant au programme.</p> </td> 
+   <td> <p>Vous ne pouvez pas modifier le [!UICONTROL Pourcentage terminé] du programme dans l’en-tête . Ces informations sont mises à jour à partir des projets du programme.</p> <p>Conseil : Par défaut, le pourcentage de réussite du programme est une moyenne des valeurs de pourcentage de fin des projets dans un [!UICONTROL Actuel] ou un [!UICONTROL État approuvé] appartenant au programme.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
@@ -289,8 +289,8 @@ L’en-tête du programme affiche les informations suivantes :
    <td>Vous ne pouvez pas modifier le programme [!UICONTROL Date d’achèvement prévue] dans l’en-tête . Ces informations sont mises à jour à partir de la [!UICONTROL Date d’achèvement prévue] des projets du programme.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Principale condition Projets]</td> 
-   <td>Il s’agit d’un calcul du pourcentage de projets principaux dans le programme pour lesquels la [!UICONTROL Condition] est définie sur [!UICONTROL Sur Target], [!UICONTROL À Risque] ou [!UICONTROL À Problème].</td> 
+   <td role="rowheader">[!UICONTROL Condition des projets actifs]</td> 
+   <td>Il s’agit d’un calcul du pourcentage de projets actifs dans le programme pour lesquels la [!UICONTROL Condition] est définie sur [!UICONTROL Sur Target], [!UICONTROL À Risque] ou [!UICONTROL À Problème].</td> 
   </tr> 
  </tbody> 
 </table>
@@ -321,10 +321,10 @@ L’en-tête de portefeuille comprend les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Nom du type d’objet</td> 
-   <td> <p>Si le portfolio est marqué comme principal, le texte "[!UICONTROL PORTFOLIO]" s’affiche au-dessus du nom du portfolio dans l’en-tête.</p> </td> 
+   <td> <p>Si le portfolio est marqué comme actif, le texte "[!UICONTROL PORTFOLIO]" s’affiche au-dessus du nom du portfolio dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">État d’activation</td> 
+   <td role="rowheader">État de l’activation</td> 
    <td> <p>Si le portfolio est désactivé, le texte "[!UICONTROL PORTFOLIO DEACTIVATED]" s’affiche au-dessus du nom du portfolio dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
@@ -384,10 +384,10 @@ L’en-tête du modèle affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Nom du type d’objet</td> 
-   <td> <p>Si le modèle est marqué comme principal, le texte "[!UICONTROL TEMPLATE]" s’affiche au-dessus du nom du modèle dans l’en-tête.</p> </td> 
+   <td> <p>Si le modèle est marqué comme actif, le texte "[!UICONTROL TEMPLATE]" s’affiche au-dessus du nom du modèle dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">État d’activation</td> 
+   <td role="rowheader">État de l’activation</td> 
    <td> <p>Si le modèle est désactivé, le texte "[!UICONTROL MODÈLE DÉSACTIVÉ]" s’affiche au-dessus du nom du modèle dans l’en-tête.</p> </td> 
   </tr> 
   <tr> 
@@ -537,7 +537,7 @@ L’en-tête de l’utilisateur affiche les informations suivantes :
    </tr>
   --> 
   <tr> 
-   <td role="rowheader">État d’activation</td> 
+   <td role="rowheader">État de l’activation</td> 
    <td> <p>Si l’utilisateur a été désactivé, tout le texte et l’image de profil de l’en-tête sont grisés.</p> </td> 
   </tr> 
   <tr> 
@@ -554,7 +554,7 @@ L’en-tête de l’utilisateur affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Équipes</td> 
-   <td> <p>Vous pouvez afficher les équipes auxquelles l’utilisateur appartient. Placez le pointeur de la souris sur un avatar d’équipe pour afficher le nom de l’équipe. Vous ne pouvez pas modifier les équipes dans l’en-tête.</p> </td> 
+   <td> <p>Vous pouvez afficher les équipes auxquelles l’utilisateur appartient. Pointez sur un avatar d’équipe pour afficher le nom de l’équipe. Vous ne pouvez pas modifier les équipes dans l’en-tête.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -636,7 +636,7 @@ L’en-tête d’itération affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Propriétaire</td> 
-   <td>Il s’agit du [!UICONTROL Propriétaire] de l’itération. Vous ne pouvez pas modifier le [!UICONTROL Propriétaire] dans l’en-tête.</td> 
+   <td>Il s’agit du [!UICONTROL propriétaire de l’itération. Vous ne pouvez pas modifier le [!UICONTROL Propriétaire] dans l’en-tête.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Chronologie]</td> 
@@ -739,7 +739,7 @@ L’en-tête du document affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Zone de validation [!UICONTROL Decision]</td> 
-   <td> <p>Lorsque le document se trouve à l’étape d’approbation, la zone [!UICONTROL Décisions] s’affiche dans le coin supérieur droit de l’en-tête du document.</p> <p>Utilisez les icônes suivantes pour gérer les validations du document :</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approuver]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Rappel]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rejeter]</p> <p>Pour plus d’informations sur les décisions de validation, voir <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Valider le travail </a>.</p> </td> 
+   <td> La zone [!UICONTROL Décisions] s’affiche dans le coin supérieur droit de l’en-tête du document. Cette zone varie selon la phase d’approbation et selon que vous êtes un approbateur, un réviseur ou aucun des deux. <ul><li> <p>Si vous êtes un approbateur, vous pouvez utiliser les icônes suivantes pour gérer les approbations du document :</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approuver]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Rappel]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rejeter]</p> <p>Pour plus d’informations sur les décisions de validation, voir <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Valider le travail</a>.</li><li><p>Si vous êtes un réviseur, vous pouvez cliquer sur le bouton Terminer ma révision pour indiquer que vous avez examiné le document.</p><p>Pour plus d’informations sur la révision d’un document, voir <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Révision d’un document</a>.</p></li><li>Sinon, cette zone affiche l’état de révision et d’approbation actuel du document.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -787,7 +787,7 @@ L’en-tête de l’entreprise affiche les informations suivantes :
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Les plans sont l’objet de la [!DNL Workfront Scenario Planner]. Pour plus d’informations sur la variable [!DNL Scenario Planner], voir [Le [!DNL Scenario Planner] aperçu](../../scenario-planner/scenario-planner-overview.md).
+Les plans sont l’objet de la [!DNL Workfront Scenario Planner]. Pour plus d’informations sur la variable [!DNL Scenario Planner], voir [La variable [!DNL Scenario Planner] aperçu](../../scenario-planner/scenario-planner-overview.md).
 
 L’en-tête du plan affiche les informations suivantes :
 
@@ -823,11 +823,11 @@ L’en-tête du plan affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Actions de plan supplémentaires</td> 
-   <td> <p>Sous la zone Nom du plan et Actions, vous pouvez effectuer les actions suivantes :</p> 
+   <td> <p>Sous la zone du nom du plan et des actions, vous pouvez effectuer les actions suivantes :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Afficher les conflits]</strong>: Cliquez sur ce bouton pour afficher ou masquer les conflits dans les initiatives.</p> </li> 
-     <li> <p><strong>[!UICONTROL Comparaison de scénarios]</strong>: Cliquez sur ce lien pour afficher une comparaison côte à côte des scénarios que vous avez créés.</p> </li> 
-     <li> <p><strong>[!UICONTROL Sélection du scénario]</strong>: Dans ce menu déroulant, vous pouvez copier un scénario ou le sélectionner pour en afficher un autre.</p> </li> 
+     <li> <p><strong>[!UICONTROL Afficher les conflits]</strong>: le fait de cliquer sur ce bouton de basculement affiche ou masque les conflits dans les initiatives.</p> </li> 
+     <li> <p><strong>[!UICONTROL Comparaison de scénarios]</strong>: cliquez sur ce lien pour afficher une comparaison côte à côte des scénarios que vous avez créés.</p> </li> 
+     <li> <p><strong>[!UICONTROL Sélection du scénario]</strong>: dans ce menu déroulant, vous pouvez copier un scénario ou sélectionner pour en afficher un autre.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -906,7 +906,7 @@ L’en-tête d’objectif affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Period]</td> 
-   <td>Période pendant laquelle l’objectif doit être atteint. </td> 
+   <td>La période au cours de laquelle l’objectif doit être atteint. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Condition]</td> 
@@ -914,7 +914,7 @@ L’en-tête d’objectif affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
-   <td>Indique si l’objectif est principal, nouveau ou fermé. Vous ne pouvez pas mettre à jour manuellement l’état de l’objectif. Pour plus d’informations, voir <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Aperçu de l’état de l’objectif dans [!DNL Adobe Workfront Goals]</a></td> 
+   <td>Indique si l’objectif est actif, nouveau ou fermé. Vous ne pouvez pas mettre à jour manuellement l’état de l’objectif. Pour plus d’informations, voir <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Aperçu de l’état des objectifs dans [!DNL Adobe Workfront Goals]</a></td> 
   </tr> 
  </tbody> 
 </table>
