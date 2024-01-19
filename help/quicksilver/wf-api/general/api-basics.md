@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Les méthodes HTTP standard correspondent aux opérations suivantes :
 Pour contourner les défaillances du client ou les limites de longueur du protocole, le paramètre de méthode peut être utilisé pour remplacer le comportement HTTP. Par exemple, une opération de GET peut être implémentée en publiant l’URI suivant :
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
-### réponse
+### Réponse
 
 Chaque requête reçoit une réponse au format JSON. La réponse comporte un attribut data si la requête a réussi ou un attribut error en cas de problème. Par exemple, la requête
 
@@ -352,7 +352,7 @@ Par défaut, seul le nom et l’identifiant de chaque tâche sont renvoyés, mai
 
 Vous pouvez récupérer des champs de données personnalisés à l’aide du préfixe &quot;DE:&quot;. Par exemple, pour demander un projet avec un paramètre appelé &quot;CustomText&quot;, utilisez la requête suivante :
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>qui renverra
-<pre>{<br>    "name": "projet de données personnalisé",<br>    "ID" : "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Vous pouvez également récupérer toutes les données personnalisées d’un objet en demandant le champ parameterValues . Par exemple, 
+<pre>{<br>    "name": "projet de données personnalisé",<br>    "ID" : "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Vous pouvez également récupérer toutes les données personnalisées d’un objet en demandant le champ parameterValues . Par exemple : 
 <pre>/atask/api/v15.0/project/search?fields=parameterValues</pre>renvoie des données similaires aux suivantes :
 <pre>{<br>    "name": "projet de données personnalisé",<br>    "ID" : "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -361,11 +361,11 @@ Vous pouvez récupérer des champs de données personnalisés à l’aide du pr�
 Certains types d’objets possèdent des recherches nommées qui sont généralement exécutées et qui sont disponibles en ajoutant le nom de la requête à la fin de l’URI de type d’objet. Par exemple, la requête suivante récupère les tâches (tâches et problèmes) auxquelles l’utilisateur est actuellement affecté :
 <pre>/attask/api/v15.0/work/myWork</pre>Les requêtes nommées prennent en charge la demande du paramètre de champs pour récupérer des champs supplémentaires. Certaines requêtes nommées acceptent également des filtres supplémentaires. Pour obtenir la liste des requêtes nommées autorisées pour un objet, voir l’onglet Action pour l’objet dans l’[Explorateur API](../../wf-api/general/api-explorer.md).
 
-#### Utilisation du filtre de comptage
+#### Utilisation `Count`
 
-Vous pouvez spécifier le nombre de résultats qu’une recherche donnée doit renvoyer. Cela permet au serveur de traiter la demande plus rapidement et d’économiser de la bande passante. Par exemple, la requête
+Vous pouvez utiliser `count` pour renvoyer le nombre de résultats correspondant à votre requête. Cela peut s’avérer utile lorsque vous n’avez pas besoin des données dans les résultats. En ne renvoyant que le nombre, le serveur peut traiter la demande plus rapidement et économiser de la bande passante. Par exemple, la requête
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>renvoie le nombre de résultats au format suivant :
-<pre>{<br>    "count": 3 <br>}</pre>Le résultat est un téléchargement beaucoup plus petit que si les objets complets sont envoyés. La syntaxe du filtre est identique à la commande de recherche.
+<pre>{<br>    "count": 3 <br>}</pre>Le renvoi d’un nombre est un transfert de données beaucoup plus petit que si les objets complets sont renvoyés. La syntaxe est identique à la commande de recherche.
 
 ### Demande d’un rapport
 
@@ -409,7 +409,7 @@ Pour garantir des performances optimales, le tableau suivant répertorie les lim
   </tr> 
   <tr> 
    <td>Nombre max. de résultats</td> 
-   <td>2,000</td> 
+   <td>2 000</td> 
    <td>Le filtre de requête (c’est-à-dire $$LIMIT) ne peut pas renvoyer plus de 2 000 résultats. Pour plus d’informations, voir "Réponses paginées" .</td> 
   </tr> 
   <tr> 
@@ -419,12 +419,12 @@ Pour garantir des performances optimales, le tableau suivant répertorie les lim
   </tr> 
   <tr> 
    <td>Nombre max. d’objets</td> 
-   <td>50,000</td> 
+   <td>50 000</td> 
    <td>Le jeu de résultats ne peut pas contenir 50 000 objets principaux et secondaires.</td> 
   </tr> 
   <tr> 
    <td>Nombre max. de champs</td> 
-   <td nowrap>1,000,000</td> 
+   <td nowrap>1 000 000</td> 
    <td>Lorsque le jeu de résultats contient moins de 5 000 objets, les résultats peuvent inclure au plus 1 000 000 champs.</td> 
   </tr> 
   <tr> 
