@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: adb324323330f53108532cc7a7e68466fdb84273
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Ajoutez les adresses IP suivantes à votre liste autorisée pour activer [!DNL W
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Centre de données UE</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Centre de données de l’UE</td> 
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
@@ -47,6 +47,15 @@ Ajoutez les adresses IP suivantes à votre liste autorisée pour activer [!DNL W
      <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] sur la grappe Microsoft Azure</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -57,12 +66,16 @@ En outre, si votre entreprise utilise le filtrage réseau sortant, ajoutez le do
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Centre de données UE</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Centre de données de l’UE</td> 
    <td> <p> hook.app-eu.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] US Datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] sur la grappe Microsoft Azure</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>
