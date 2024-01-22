@@ -6,14 +6,16 @@ description: Convertir un problème en projet dans Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
 
 # Convertir un problème en projet dans Adobe Workfront
+
+<!--Audited: 01/2024-->
 
 Si vous devez travailler davantage pour résoudre un problème une fois le problème envoyé, vous pouvez le convertir en projet.
 
@@ -34,29 +36,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nouveau : Standard </p>
+   <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modification de l’accès aux problèmes, tâches et projets</p> <p>Modifier l’accès aux données financières pour mettre à jour les informations financières pour une conversion anticipée du problème</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modification de l’accès aux problèmes, tâches et projets</p> <p>Modifier l’accès aux données financières pour mettre à jour les informations financières pour une conversion anticipée du problème</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher les autorisations pour le problème</p> <p>Vous obtenez les autorisations de gestion du projet une fois le problème converti.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher les autorisations pour le problème</p> <p>Vous obtenez les autorisations de gestion du projet une fois le problème converti.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Convertir un problème en projet
 
-Vous pouvez convertir un problème en projet vierge ou le convertir en projet à l’aide d’un modèle.
+Vous pouvez convertir un problème en projet vierge.
 
 1. Accédez à un projet et cliquez sur **[!UICONTROL Problèmes]** dans le panneau de gauche.
 1. Dans la liste des problèmes qui s’affichent, effectuez l’une des opérations suivantes :
@@ -75,101 +78,152 @@ Vous pouvez convertir un problème en projet vierge ou le convertir en projet à
 
      Vous devez ajouter manuellement des tâches au projet ou joindre un modèle au projet après avoir converti le problème.
 
-     Passez à l’étape 3e ci-dessous.
-
-     <!--
-     Is this accurate?
-     -->
-
      >[!TIP]
      >   
      >* Si le problème a été créé à l’aide d’une file d’attente de requêtes, le nouveau projet hérite du groupe de la file d’attente de requêtes.
      >* Si le problème a été créé en l’ajoutant à la section Problèmes du projet, le nouveau projet hérite du groupe du projet du problème.
 
-   * Pour convertir un problème en projet à l’aide d’un modèle, effectuez l’une des opérations suivantes :
-
-      * Cliquez sur le nom d’un problème, puis sur le [!UICONTROL **Plus**] menu ![](assets/more-icon.png) à droite du nom du problème
-
-        Ou
-
-      * Sélectionnez le problème dans la liste des problèmes, dans un rapport ou dans un tableau de bord, cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) en haut de la liste, puis cliquez sur **Convertir en projet à partir d’un modèle** et commencez à saisir le nom d’un modèle dans le champ **Modèle de recherche** puis cliquez sur le nom du modèle lorsqu’il s’affiche dans la liste. Passez à l’étape 3.
-
-        <!--      
-        (is this accurate?)      
-        -->
-
-     >[!TIP]
-     >
-     >Si vous avez ajouté des modèles à votre liste Favoris, vous pouvez placer le pointeur de la souris sur la [!UICONTROL **Modèles favoris**] et cliquez sur le modèle à utiliser.
-
-     La zone Nouveau projet à partir d’un modèle s’affiche.
-
-     ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
-
      >[!TIP]
      >
      >Si le problème est associé à un processus d’approbation ou s’il est déjà associé à un objet de résolution, Workfront affiche un avertissement dans la partie supérieure de la zone Convertir en projet pour vous informer que l’approbation sera supprimée ou que l’objet de résolution sera remplacé pendant la conversion. Pour plus d’informations, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. (Conditionnel) Si vous avez choisi de convertir le problème en projet à l’aide d’un modèle, procédez comme suit :
+1. (facultatif et conditionnel) Cliquez sur [!UICONTROL **Options**] dans le panneau de gauche, puis sélectionnez l’une des options disponibles :
 
-   1. Consultez les détails du modèle à droite.
+   * [!UICONTROL **Conserver le problème d’origine et lier sa résolution à ce projet**]
 
-      Les détails du modèle sont les suivants :
+     Si cette option est désélectionnée, le problème d’origine est supprimé.
 
-      * Durée du modèle
-      * Propriétaire du modèle
-      * Nombre de tâches de niveau supérieur qui incluent les noms des trois premières tâches
-      * Nombre de tâches dans le modèle
-      * Les noms des modèles de formulaires personnalisés
+     >[!NOTE]
+     >
+     >Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :
+     >
+     >* [Accorder l’accès aux problèmes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+     > 
+     >* [Partage d’un problème](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 
-   1. (Facultatif) Pointez sur le nom d’un modèle, puis cliquez sur l’icône Favoris . ![](assets/favorites-icon-small.png) pour le marquer comme favori pour une utilisation ultérieure.
+   * [!UICONTROL **Autoriser (nom d’utilisateur) à accéder à ce projet**]
 
-      >[!TIP]
-      >
-      >Vous pouvez marquer jusqu’à 40 éléments Workfront comme favoris. Cela inclut les modèles et d’autres éléments.
+     Si cette option est désactivée, le problème est [!UICONTROL Contact Principal] n’a aucun accès à la nouvelle tâche.
 
-   1. Cliquez sur [!UICONTROL **Utiliser un modèle**] pour sélectionner un modèle.
+     >[!NOTE]
+     >
+     >Les options disponibles ici dépendent de la manière dont l’administrateur Workfront les a configurées pour tous les utilisateurs du système ou pour votre groupe. Pour plus d’informations, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     >
+     >
+     >Ou, si les groupes de niveau supérieur de votre organisation les ont configurés séparément, les options disponibles ici dépendent du groupe que vous avez sélectionné pour le nouveau projet à l’étape 6. Pour plus d’informations, voir [Configuration des préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-      La variable [!UICONTROL Convertir en projet] s’ouvre.
+1. Cliquez sur [!UICONTROL **Forms personnalisée**] et effectuez l’une des opérations suivantes :
 
-      ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   * Examinez les formulaires personnalisés associés au problème. Ils seront transférés vers le nouveau projet, s’il s’agit également de formulaires personnalisés de projet.
+   * Ajouter d’autres formulaires personnalisés
+   * Assurez-vous que tous les champs requis contiennent des informations valides.
+   * Réorganiser les formulaires personnalisés en les faisant glisser ![](assets/drag-object-icon.png) où vous les voulez.
+   * Cliquez sur le bouton **x** à droite d’un formulaire que vous ne souhaitez pas transférer vers le projet. Cela supprime le formulaire du projet.
+   * Si nécessaire, transférez les informations de formulaire personnalisées du problème vers le projet.
 
-   1. Si un champ est déjà renseigné dans le modèle, il est prérenseigné dans la variable [!UICONTROL Convertir en projet] de la boîte. Vous pouvez modifier les valeurs prérenseignées afin de mieux correspondre à votre projet. Pour plus d’informations, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+     >[!TIP]
+     >
+     >* Si un formulaire personnalisé à plusieurs objets associé au problème est configuré pour être utilisé avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois sur le problème et sur les formulaires personnalisés du projet.
+     >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est associé au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements. Pour plus d’informations, voir la section &quot;Champs personnalisés calculés dans les formulaires personnalisés à plusieurs objets&quot; dans la section [Ajout de données calculées à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-      >[!TIP]
-      >
-      >* Votre administrateur système ou groupe peut ajouter ou supprimer des champs dans la variable [!UICONTROL Zone Convertir en projet] en mettant à jour les informations Détails du projet dans votre [!UICONTROL Modèle de mise en page].
-      >
-      >* Pour mettre à jour les champs dans la variable [!UICONTROL Finance] dans la section [!UICONTROL Convertir en projet] que vous devez avoir [!UICONTROL Modifier] accès à [!UICONTROL Données financières] dans votre niveau d’accès. Si vous avez [!UICONTROL Affichage] accès à [!UICONTROL Données financières] dans votre niveau d’accès, toutes les informations financières du modèle sont transférées vers le nouveau projet et vous ne pouvez pas les modifier pendant que vous convertissez le problème. Pour plus d’informations, voir [Accorder l&#39;accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partager un modèle](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+1. Cliquez sur [!UICONTROL **Convertir en projet**].
 
-   1. (facultatif et conditionnel) Cliquez sur [!UICONTROL **Options**] dans le panneau de gauche, puis sélectionnez l’une des options disponibles :
+   >[!TIP]
+   >
+   >Si vous avez décidé de supprimer le problème d’origine, le problème est maintenant un projet.
+   >   
+   >Ou
+   >  
+   >Si vous avez décidé de conserver le problème d’origine, le problème est maintenant lié au nouveau projet et il se terminera une fois le projet terminé.
+   >
+   >Les informations de certains champs de problème sont transférées vers le projet si vous ne les avez pas modifiées pendant la conversion.
 
-      * [!UICONTROL **Conserver le problème d’origine et lier sa résolution à ce projet**]
+1. (Facultatif) Définissez d’autres &#x200B; de détails du projet (propriétaire du projet, dates du projet) et tâches, le cas échéant.
+1. Cliquez sur [!UICONTROL **Convertir en projet**].
 
-        Si cette option est désélectionnée, le problème d’origine est supprimé.
+   Le problème est désormais converti en projet. La page du projet s’affiche.
 
-        >[!NOTE]
-        >
-        >Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :
-        >
-        >* [Accorder l’accès aux problèmes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
-        > 
-        >* [Partage d’un problème](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+## Convertir un problème en projet à l’aide d’un modèle
 
-      * [!UICONTROL **Autoriser (nom d’utilisateur) à accéder à ce projet**]
+Vous pouvez convertir un problème en projet à l’aide d’un modèle.
 
-        Si cette option est désactivée, le problème est [!UICONTROL Contact Principal] n’a aucun accès à la nouvelle tâche.
+1. Accédez à un projet et cliquez sur **[!UICONTROL Problèmes]** dans le panneau de gauche.
+1. Dans la liste des problèmes qui s’affiche, cliquez sur le nom du problème, puis sur le bouton **[!UICONTROL Plus]** menu ![](assets/more-icon.png) à droite du nom du problème, puis cliquez sur **Convertir en projet à partir d’un modèle** et commencez à saisir le nom d’un modèle dans le champ **Modèle de recherche** puis cliquez sur le nom du modèle lorsqu’il s’affiche dans la liste. Passez à l’étape 3.
 
-        >[!NOTE]
-        >
-        >Les options disponibles ici dépendent de la manière dont l’administrateur Workfront les a configurées pour tous les utilisateurs du système ou pour votre groupe. Pour plus d’informations, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-        >
-        >
-        >Ou, si les groupes de niveau supérieur de votre organisation les ont configurés séparément, les options disponibles ici dépendent du groupe que vous avez sélectionné pour le nouveau projet à l’étape 6. Pour plus d’informations, voir [Configuration des préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+   >[!TIP]
+   >
+   >Si vous avez ajouté des modèles à votre liste Favoris, vous pouvez placer le pointeur de la souris sur la [!UICONTROL **Modèles favoris**] et cliquez sur le modèle à utiliser.
+
+   La zone Nouveau projet à partir d’un modèle s’affiche.
+
+   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+
+   >[!TIP]
+   >
+   >* Si le problème est associé à un processus d’approbation ou s’il est déjà associé à un objet de résolution, Workfront affiche un avertissement dans la partie supérieure de la zone Convertir en projet pour vous informer que l’approbation sera supprimée ou que l’objet de résolution sera remplacé pendant la conversion. Pour plus d’informations, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+   >   
+   >* Si le problème a été créé à l’aide d’une file d’attente de requêtes, le nouveau projet hérite du groupe de la file d’attente de requêtes.
+   >* Si le problème a été créé en l’ajoutant à la section Problèmes du projet, le nouveau projet hérite du groupe du projet du problème.
+
+1. Consultez les détails du modèle à droite.
+
+   Les détails du modèle sont les suivants :
+
+   * Durée du modèle
+   * Propriétaire du modèle
+   * Nombre de tâches de niveau supérieur qui incluent les noms des trois premières tâches
+   * Nombre de tâches dans le modèle
+   * Les noms des modèles de formulaires personnalisés
+
+1. (Facultatif) Placez le pointeur de la souris sur le nom d’un modèle, puis cliquez sur l’icône **Favoris** icon ![](assets/favorites-icon-small.png) pour le marquer comme favori pour une utilisation ultérieure.
+
+   >[!TIP]
+   >
+   >Vous pouvez marquer jusqu’à 40 éléments Workfront comme favoris. Cela inclut les modèles et d’autres éléments.
+
+1. Cliquez sur [!UICONTROL **Utiliser un modèle**] pour sélectionner un modèle.
+
+   La variable [!UICONTROL Convertir en projet] s’ouvre.
+
+   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+
+1. Si un champ est déjà renseigné dans le modèle, il est prérenseigné dans la variable [!UICONTROL Convertir en projet] de la boîte. Vous pouvez modifier les valeurs prérenseignées afin de mieux correspondre à votre projet. Pour plus d’informations, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+   >[!TIP]
+   >
+   >* Votre administrateur système ou groupe peut ajouter ou supprimer des champs dans la variable [!UICONTROL Zone Convertir en projet] en mettant à jour les informations Détails du projet dans votre [!UICONTROL Modèle de mise en page].
+   >
+   >* Pour mettre à jour les champs dans la variable [!UICONTROL Finance] dans la section [!UICONTROL Convertir en projet] que vous devez avoir [!UICONTROL Modifier] accès à [!UICONTROL Données financières] dans votre niveau d’accès. Si vous avez [!UICONTROL Affichage] accès à [!UICONTROL Données financières] dans votre niveau d’accès, toutes les informations financières du modèle sont transférées vers le nouveau projet et vous ne pouvez pas les modifier pendant que vous convertissez le problème. Pour plus d’informations, voir [Accorder l&#39;accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partager un modèle](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+
+1. (facultatif et conditionnel) Cliquez sur [!UICONTROL **Options**] dans le panneau de gauche, puis sélectionnez l’une des options disponibles :
+
+   * [!UICONTROL **Conserver le problème d’origine et lier sa résolution à ce projet**]
+
+     Si cette option est désélectionnée, le problème d’origine est supprimé.
+
+     >[!NOTE]
+     >
+     >Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :
+     >
+     >* [Accorder l’accès aux problèmes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+     > 
+     >* [Partage d’un problème](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+
+   * [!UICONTROL **Autoriser (nom d’utilisateur) à accéder à ce projet**]
+
+     Si cette option est désactivée, le problème est [!UICONTROL Contact Principal] n’a aucun accès à la nouvelle tâche.
+
+     >[!NOTE]
+     >
+     >Les options disponibles ici dépendent de la manière dont l’administrateur Workfront les a configurées pour tous les utilisateurs du système ou pour votre groupe. Pour plus d’informations, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     >
+     >
+     >Ou, si les groupes de niveau supérieur de votre organisation les ont configurés séparément, les options disponibles ici dépendent du groupe que vous avez sélectionné pour le nouveau projet à l’étape 6. Pour plus d’informations, voir [Configuration des préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
    1. Cliquez sur [!UICONTROL **Forms personnalisée**] et effectuez l’une des opérations suivantes :
 
       * Examinez les formulaires personnalisés associés au modèle. Ils seront transférés vers le nouveau projet.
+      * Examinez les formulaires personnalisés associés au problème. Ils seront transférés vers le projet s’ils sont également des formulaires de projet.
       * Assurez-vous que tous les champs requis contiennent des informations valides.
       * Réorganiser les formulaires personnalisés en les faisant glisser ![](assets/drag-object-icon.png) où vous les voulez.
       * Cliquez sur le bouton **x** à droite d’un formulaire que vous ne souhaitez pas transférer vers le projet.
@@ -179,7 +233,9 @@ Vous pouvez convertir un problème en projet vierge ou le convertir en projet à
         >
         >* Si un formulaire personnalisé à plusieurs objets associé au problème est configuré pour être utilisé avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois sur le problème et sur les formulaires personnalisés du projet.
         >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est associé au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements. Pour plus d’informations, voir la section &quot;Champs personnalisés calculés dans les formulaires personnalisés à plusieurs objets&quot; dans la section [Ajout de données calculées à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-        >* Si vous utilisez un modèle pour la conversion et qu’un formulaire personnalisé associé au modèle contient un champ personnalisé qui se trouve également dans un formulaire personnalisé associé au problème, la valeur de champ du problème est utilisée pour le nouveau projet. Cependant, si le champ personnalisé est vide sur le problème, la valeur du modèle est utilisée.
+        >* Si un formulaire personnalisé associé au modèle contient un champ personnalisé qui se trouve également dans un formulaire personnalisé associé au problème, la valeur de champ du problème est utilisée pour le nouveau projet. Cependant, si le champ personnalisé est vide sur le problème, la valeur du modèle est utilisée.
+
+1. (Facultatif) Définissez d’autres &#x200B; de détails du projet (propriétaire du projet, dates du projet) et tâches, le cas échéant.
 
    1. Cliquez sur [!UICONTROL **Convertir en projet**].
 
@@ -193,9 +249,4 @@ Vous pouvez convertir un problème en projet vierge ou le convertir en projet à
       >
       >Certains champs de problème sont transférés vers le projet. La plupart des champs définis dans le modèle sont automatiquement transférés vers le projet nouvellement créé si vous ne les avez pas modifiés aux étapes précédentes. Pour plus d’informations, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. (Facultatif) Définissez d’autres &#x200B; de détails du projet (propriétaire du projet, dates du projet) et tâches, le cas échéant.
-1. Cliquez sur [!UICONTROL **Convertir en projet**].
-
-   Le problème est désormais converti en projet.
-
-1. Cliquez sur [!UICONTROL **Aller au projet**] dans la variable [!UICONTROL Succès] dans le coin supérieur droit de la page. La page du projet s’ouvre alors.
+   Le problème est désormais converti en projet. La page du projet s’affiche.

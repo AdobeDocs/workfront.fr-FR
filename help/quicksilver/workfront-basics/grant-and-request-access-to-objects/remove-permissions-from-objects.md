@@ -6,58 +6,22 @@ description: Vous pouvez supprimer les autorisations d’autres utilisateurs sur
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 1%
+source-wordcount: '1144'
+ht-degree: 0%
 
 ---
 
 # Suppression des autorisations des objets
 
-Vous pouvez supprimer les autorisations d’autres utilisateurs sur les objets que vous avez accès à Partager. La suppression des autorisations des objets est identique pour tous les objets qui peuvent être partagés. 
+<!--Audited: 01/2024-->
 
-Les mêmes considérations que pour le partage d’objets s’appliquent pour supprimer des autorisations d’objets. Pour plus d’informations, voir la section [Observations relatives au partage d’objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) dans l’article [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+Vous pouvez supprimer les autorisations d’autres utilisateurs sur les objets que vous avez accès à Partager. La suppression des autorisations des objets est identique pour tous les objets qui peuvent être partagés.
+
+Les mêmes considérations que pour le partage d’objets s’appliquent pour supprimer des autorisations d’objets. Pour plus d’informations, voir la section [Observations relatives au partage d’objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) dans l’article [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 ## Exigences d’accès
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or  
-   <p>Legacy license: Request or higher</p>
-   <p><b>NOTE</b></p>
-
-   <p>Some objects require a higher access than Request. </p>
-   
-   <p>For example, for the current license, a Contributor can share issues, but only Standard-license users can share a project.</p>
-   
-   <p>For the legacy license, a Requestor can share issues, but only Workers or Planners can share a project.</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you want to share</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to the objects you want to share</p> <p>Manage permissions to remove inherited permissions on objects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 Pour partager des objets, vous devez disposer des éléments suivants :
 
@@ -66,60 +30,77 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Workfront*</td> 
-   <td> <p>Requête ou supérieure</p>
+   <td> <p>Nouvelle licence : contributeur ou version ultérieure</p>
+   Ou  
+   <p>Licence actuelle : demande ou supérieure</p>
    <p><b>NOTE</b></p>
 
-Certains objets nécessitent un accès supérieur à Demander. Par exemple, un demandeur peut partager des problèmes, mais seuls les travailleurs ou les planificateurs peuvent partager un projet.
+<p>Certains objets nécessitent un accès supérieur à Demander. </p>
 
-</td> 
+<p>Par exemple, pour la nouvelle licence, un contributeur peut partager des problèmes, mais seuls les utilisateurs sous licence standard peuvent partager un projet.</p>
+
+<p>Pour la licence actuelle, un demandeur peut partager des problèmes, mais seuls les travailleurs ou les planificateurs peuvent partager un projet.</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Afficher l’accès ou une version ultérieure aux objets que vous souhaitez partager</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Afficher l’accès ou une version ultérieure aux objets que vous souhaitez partager</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher les autorisations ou plus pour les objets que vous souhaitez partager</p> <p>Gestion des autorisations pour supprimer les autorisations héritées sur les objets</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher les autorisations ou plus pour les objets que vous souhaitez partager</p> <p>Gestion des autorisations pour supprimer les autorisations héritées sur les objets</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Supprimer des entités de la liste de partage d’un objet {#remove-entities-from-the-sharing-list-of-an-object}
 
-Vous pouvez supprimer des entités (utilisateurs, rôles de tâche, équipes, groupes, entreprises) de la liste de partage d’un objet. Cela supprime leurs autorisations sur l’objet .
+Vous pouvez supprimer des entités (utilisateurs, rôles de tâche, équipes, groupes, entreprises) de la liste de partage d’un objet. Cela supprime leurs autorisations sur l’objet .
 
-1. Accédez à l’objet que vous souhaitez partager.
+1. Accédez à l’objet duquel vous souhaitez supprimer des autorisations.
 
    Pour plus d’informations sur les objets qui peuvent être partagés, voir [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Cliquez sur le bouton **Plus** icon ![](assets/more-icon.png)en regard du nom de l’objet, puis cliquez sur **Partage** ou **Partagez.**
+1. (Conditionnel) Pour les programmes, les portefeuilles et les documents, procédez comme suit :
 
-   ![](assets/share-a-document-350x160.png)
+   1. Cliquez sur le bouton **Plus** icon ![](assets/more-icon.png)en regard du nom de l’objet, puis cliquez sur **Partage** ou **Partagez.**
 
-1. Cliquez sur le bouton **x** en regard du nom d’un utilisateur, d’une équipe, d’un groupe, d’une société, d’un rôle de tâche pour le supprimer dans la zone d’accès aux objets.
+      ![](assets/share-a-document-350x160.png)
 
-   ![](assets/remove-permissions-on-project-nwe-350x479.png)
+   1. Cliquez sur le bouton **x** en regard du nom d’un utilisateur, d’une équipe, d’un groupe, d’une société, d’un rôle de tâche pour le supprimer dans la zone d’accès aux objets.
 
-1. Dans le `<User Name>`L’accès Workfront de sera supprimé de ce menu déroulant. Indiquez si vous souhaitez que leur accès soit supprimé uniquement de l’objet que vous avez sélectionné ou de tous les objets enfants qui lui sont associés.\
+      ![](assets/remove-permissions-on-portfolio.png)
+
+   1. Dans le **&lt; Nom d’utilisateur > l’accès Workfront de sera supprimé de cette** dans le menu déroulant, choisissez si vous souhaitez que leur accès soit supprimé de l’objet que vous avez sélectionné ou de tous les objets enfants qui lui sont associés.
+
+1. (Conditionnel) Pour les projets, les tâches et les problèmes, procédez comme suit :
+
+   1. Cliquez sur **Partager** à droite du nom de l’objet.
+
+      ![](assets/new-share-button.png)
+   1. Recherchez l’utilisateur, le rôle, l’équipe, le groupe ou la société que vous souhaitez supprimer de l’objet.
+   1. Cliquez sur **Supprimer**.
+Dans le **Supprimer &lt; nom d’utilisateur > de** dans le menu déroulant, choisissez si vous souhaitez que leur accès soit supprimé de l’objet que vous avez sélectionné ou de tous les objets enfants qui lui sont associés.
+
+      ![](assets/remove-permissions-on-project-nwe-350x479.png)
+
    Les scénarios suivants existent :
 
-   * Si vous supprimez uniquement l’entité de l’objet, cette entité perd ses autorisations sur l’objet et ses autorisations héritées sur les objets enfants. S’ils disposaient auparavant d’autorisations individuelles pour les éléments enfants, ils conservent les mêmes autorisations sur tous les objets enfants qui leur sont associés lorsque vous sélectionnez cette option. 
-   * Si vous supprimez l’entité de l’objet et de tous les objets enfants, cette entité perd ses autorisations sur l’objet ainsi que sur tous les objets enfants, même lorsqu’elle a précédemment reçu une autorisation individuelle sur chaque objet enfant. 
+   * Si vous supprimez uniquement l’entité de l’objet, cette entité perd ses autorisations sur l’objet et ses autorisations héritées sur les objets enfants. S’ils disposaient auparavant d’autorisations individuelles pour les éléments enfants, ils conservent les mêmes autorisations sur tous les objets enfants qui leur sont associés lorsque vous sélectionnez cette option.
+   * Si vous supprimez l’entité de l’objet et de tous les objets enfants, cette entité perd ses autorisations sur l’objet ainsi que sur tous les objets enfants, même lorsqu’elle a précédemment reçu une autorisation individuelle sur chaque objet enfant.
 
 1. Cliquer sur **Enregistrer**.
 
 ## Supprimer des autorisations de plusieurs objets en bloc
 
-Vous pouvez supprimer des entités (utilisateurs, rôles de tâche, équipes, groupes, entreprises) de plusieurs objets à la fois lorsque vous les sélectionnez en masse dans une liste. 
+Vous pouvez supprimer des entités (utilisateurs, rôles de tâche, équipes, groupes, entreprises) de plusieurs objets à la fois lorsque vous les sélectionnez en masse dans une liste.
 
 >[!NOTE]
 >
@@ -163,7 +144,7 @@ Pour supprimer les autorisations héritées :
 
 1. Accédez à un objet auquel vous disposez des autorisations de gestion. Par exemple, accédez à une tâche.
 1. Accédez à la zone d’accès aux objets comme décrit dans la section [Supprimer des entités de la liste de partage d’un objet](#remove-entities-from-the-sharing-list-of-an-object) dans cet article.
-1. Sélectionnez la **x** en regard de **Autorisation héritée** dans la boîte de partage pour supprimer tous ceux qui y sont répertoriés.
+1. Sélectionnez la variable **x** en regard de **Autorisation héritée** dans la boîte de partage pour supprimer tous les utilisateurs répertoriés.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
@@ -173,13 +154,13 @@ Pour supprimer les autorisations héritées :
    >
    >Vous ne pouvez pas supprimer des entités individuelles de la liste Autorisations héritées. Vous pouvez uniquement désactiver les autorisations héritées pour toutes les entités répertoriées.
 
-1. Cliquer sur **Enregistrer**. 
+1. Cliquez sur **Enregistrer**. 
 
 ## Rendre un objet privé
 
 Si vous avez partagé un objet à l’échelle du système ou si vous l’avez partagé avec des utilisateurs externes en le rendant public, vous pouvez le rendre privé à nouveau en supprimant les autorisations à l’échelle du système ou publiques. 
 
-Pour plus d’informations sur la mise à disposition d’un objet à l’échelle du système ou publiquement, voir [Partage d’un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+Pour plus d’informations sur la mise à disposition d’un objet à l’échelle du système ou publiquement, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 Pour rendre un objet privé :
 

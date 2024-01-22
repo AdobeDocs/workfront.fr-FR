@@ -5,9 +5,9 @@ title: Présentation des dates de projet, de tâche et de publication dans [!DNL
 description: Présentation des dates de projet, de tâche et de publication dans [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Vous pouvez indiquer manuellement le moment où le travail se termine sur une t�
 * Le statut du projet, de la tâche ou du problème passe à [!UICONTROL Terminer], [!UICONTROL Fermé], ou [!UICONTROL Résolu].
 * Le pourcentage de réalisation de la tâche ou du projet est de 100 %.
 
-La variable [!UICONTROL Date d’achèvement réelle] d’un projet correspond à la date à laquelle la première tâche du projet se termine.
+La variable [!UICONTROL Date d’achèvement réelle] d’un projet correspond à la date à laquelle vous avez effectué la dernière tâche sur le projet.
 
 >[!TIP]
 >
@@ -112,10 +112,6 @@ La variable [!UICONTROL Date de validation] est la date à laquelle un utilisate
 >
 >Changement de la variable [!UICONTROL Date de validation] affecte l’ [!UICONTROL Date d’achèvement prévue] mais pas le [!UICONTROL Date d’achèvement prévue] d’une tâche ou d’un problème. Le chef de projet peut utiliser les modifications qu’une personne désignée apporte sur la variable [!UICONTROL Date de validation] pour mettre à jour la variable [!UICONTROL Date d’achèvement prévue] d’une tâche ou d’un problème.
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL Date de début prévue]
 
 La variable [!UICONTROL Date de début prévue] est une date en temps réel du moment où le projet, la tâche ou l’émission prend en compte tous les délais. La date de début du projet, de la tâche ou du problème est plus précise que la valeur [!UICONTROL Date de début planifiée]. La variable [!UICONTROL Date de début planifiée] ne prend pas en compte les retards ou les dates antérieures.
@@ -132,7 +128,7 @@ Pour plus d’informations, voir [Présentation du projet [!UICONTROL Date de d�
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL Date d’achèvement du projet]
+## [!UICONTROL Date d’achèvement prévue]
 
 La variable [!UICONTROL Date d’achèvement prévue] est un indicateur calculé en temps réel du moment où le projet, la tâche ou le problème sera terminé. Lorsque le projet, la tâche ou le problème est marqué comme terminé, la variable [!UICONTROL Date d’achèvement prévue] modification de la date de la variable [!UICONTROL Date d’achèvement réelle].
 
@@ -146,24 +142,28 @@ Pour plus d’informations, voir [Présentation de la variable [!UICONTROL Date 
 
 Lorsque vous enregistrez le temps pour les projets, tâches et problèmes afin d’indiquer le temps réel (en heures) que vous passez à travailler sur le projet, la tâche ou le problème, le temps que vous connectez devient le temps [!UICONTROL Heures réelles] du projet, de la tâche ou du problème.
 
-La date à laquelle vous enregistrez l’heure est la date [!UICONTROL Date d’entrée horaire] sur l’entrée d’heure.
+La date à laquelle vous enregistrez l’heure est la date [!UICONTROL Date d’entrée horaire] sur l’entrée d’heure. Certaines listes et rapports d’heures affichent la date d’entrée de l’heure comme date.
 
 >[!TIP]
 >
 >La variable [!UICONTROL Date d’entrée horaire] est différent de la variable [!UICONTROL Date d’entrée] en ce sens qu’il ne s’agit pas de la date de création du journal des heures, mais plutôt de la date à laquelle vous souhaitez associer des heures.
 
-Vous pouvez consigner l’heure dans la variable [!UICONTROL project], [!UICONTROL tâche], ou [!UICONTROL mises à jour des problèmes] ou dans la section [!UICONTROL Heures] section . Lors de la connexion à l’événement [!UICONTROL Heures] , vous pouvez spécifier manuellement la date d’entrée de l’heure et l’utilisateur auquel appartiennent les heures.
+Vous pouvez journaliser et afficher l’heure dans les zones suivantes de Workfront :
 
-Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* L’heure de connexion et d’affichage dans le [!UICONTROL project], [!UICONTROL tâche], ou [!UICONTROL mises à jour des problèmes] ou dans la section [!UICONTROL Heures] . Lors de la connexion à l’événement [!UICONTROL Heures] , vous pouvez spécifier manuellement la date d’entrée de l’heure et l’utilisateur auquel appartiennent les heures.
 
->[!TIP]
->
->Il est recommandé de disposer du temps de connexion sur les tâches et les problèmes de travail, plutôt que sur les tâches ou les projets parents. La durée de connexion aux tâches de travail est cumulée aux tâches parentes et au projet comme [!UICONTROL Heures réelles] pour les tâches parentes et le projet. La durée de connexion aux problèmes s’étend au projet en tant que [!UICONTROL Heures réelles] pour le projet.
+  ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+  Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+  >[!TIP]
+  >
+  >Il est recommandé de disposer du temps de connexion sur les tâches et les problèmes de travail, plutôt que sur les tâches ou les projets parents. La durée de connexion aux tâches de travail est cumulée aux tâches parentes et au projet comme [!UICONTROL Heures réelles] pour les tâches parentes et le projet. La durée de connexion aux problèmes s’étend au projet en tant que [!UICONTROL Heures réelles] pour le projet.
 
-Vous pouvez afficher la [!UICONTROL Dates d’entrée horaire] dans les rapports et listes d’heures.
+* Temps de connexion dans le flux de mise à jour d’une tâche ou d’un problème.
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+  ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* Afficher la variable [!UICONTROL Dates d’entrée horaire] dans les rapports et listes d’heures.
+
+  ![](assets/hour-entry-date-in-view-nwe-350x173.png)
