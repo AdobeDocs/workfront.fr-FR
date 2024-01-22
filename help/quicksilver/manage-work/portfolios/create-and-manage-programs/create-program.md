@@ -6,14 +6,16 @@ description: Un programme représente un ensemble de projets qui partagent une s
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
 
 # Créer un programme
+
+<!-- Audited: 1/2024 -->
 
 Un programme représente un ensemble de projets qui partagent une stratégie, un objectif ou un objectif commun qui transcende les limites du projet. Les programmes ne peuvent pas exister en dehors d&#39;un portfolio.
 
@@ -27,28 +29,29 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] ou version ultérieure</p> </td> 
+   <td> <p>Nouveau : Quelconque</p><p>Ou</p><p>Actuel : [!UICONTROL Entreprise] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nouveau : [!UICONTROL Standard] </p><p>Ou </p><p>Actuel : formule [!UICONTROL] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès à [!UICONTROL Modifier] Portfolio et programmes </p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès à [!UICONTROL Modifier] Portfolio et programmes </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Gérer] pour le portfolio</p> <p>Une fois que vous avez créé un programme, vous disposez par défaut des autorisations [!UICONTROL Gérer] qui lui sont associées.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Gérer] pour le portfolio</p> <p>Une fois que vous avez créé un programme, vous disposez par défaut des autorisations [!UICONTROL Gérer].</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Créer un programme
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
 
 1. Effectuez l’une des opérations suivantes.
 
@@ -61,12 +64,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       1. Cliquer sur **[!UICONTROL Enregistrer]**.
    * Créez un programme à partir du [!UICONTROL Portfolios] area :
 
-      1. Cliquez sur **[!UICONTROL Portfolios]** dans le [!UICONTROL Menu Principal], puis cliquez sur un portfolio.
+      1. Cliquez sur **[!UICONTROL Portfolios]** dans le [!UICONTROL Menu Principal], puis ouvrez un portfolio.
       1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Programmes]**.
-      1. Cliquez sur le bouton **[!UICONTROL Nouveau programme]** menu déroulant, puis **[!UICONTROL Nouveau programme]**.
+      1. Cliquez sur le bouton **[!UICONTROL Nouveau programme]** , puis **[!UICONTROL Nouveau programme]**.
 
 
-1. Spécifiez le nom du Programme dans la variable **[!UICONTROL Programme sans titre]** champ .
+1. (Conditionnel) Si vous avez créé le programme à partir d’un portfolio, indiquez le nom du programme dans la variable **[!UICONTROL Programme sans titre]** champ .
 
    Le nom peut contenir jusqu’à 255 caractères.
 
@@ -78,14 +81,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur **[!UICONTROL Détails du programme]** dans le panneau de gauche.
 1. Double-cliquez sur un champ pour mettre à jour les informations dans le **[!UICONTROL Présentation]** zone.
-1. Indiquez les informations suivantes :
 
-   <table style="table-layout:auto"> 
+Vous pouvez indiquer les informations suivantes :
+
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Champ</th> 
+      <th>champ</th> 
       <th>Description</th> 
      </tr> 
     </thead> 
@@ -114,7 +118,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Vous devez avoir des formulaires personnalisés de programme déjà créés avant de pouvoir les joindre à des programmes.
 
-1. (Facultatif) Double-cliquez sur un champ pour mettre à jour les informations du formulaire personnalisé.
+1. (Facultatif et conditionnel) Si vous ajoutez un formulaire personnalisé, cliquez sur un champ du formulaire personnalisé pour mettre à jour les informations dans ce champ.
+1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 1. Cliquez sur **[!UICONTROL Projets]** dans le panneau de gauche, puis **[!UICONTROL Ajouter des projets]** pour ajouter des projets au programme.
 
    Pour plus d’informations sur l’ajout de projets à des programmes, voir [Ajout d’un projet à un programme](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
@@ -126,7 +131,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Aperçu de l’en-tête du programme
 
-Vous trouverez des informations limitées sur le programme dans son en-tête.
+Vous trouverez des informations sur le programme dans son en-tête.
 
 Les informations suivantes s’affichent dans l’en-tête d’un programme :
 
@@ -136,7 +141,7 @@ Les informations suivantes s’affichent dans l’en-tête d’un programme :
  <tbody> 
   <tr> 
    <td role="rowheader">Informations sur l’en-tête</td> 
-   <td> <p><strong>Notes</strong> </p> </td> 
+   <td> <strong>Remarques</strong> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Chemin de navigation avec le nom du portfolio</td> 
@@ -148,10 +153,10 @@ Les informations suivantes s’affichent dans l’en-tête d’un programme :
   </tr> 
   <tr> 
    <td role="rowheader">Nom du type d’objet et état d’activation</td> 
-   <td>Le mot "Programme" s’affiche en vert lorsque vous affichez un programme. Le mot "[!UICONTROL Désactivé]" s’affiche en regard de celui-ci et la composition est grise si le programme n’est pas marqué comme [!UICONTROL Principal]. </td> 
+   <td>Le mot "Programme" s’affiche avec une icône orange lorsque vous affichez un programme. Le mot "[!UICONTROL Désactivé]" s’affiche en regard de celui-ci et la composition est grise si le programme n’est pas marqué comme [!UICONTROL actif]. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zone d’actions du programme </td> 
+   <td role="rowheader">La zone d’actions du programme </td> 
    <td> <p>Cliquez sur l’une des options suivantes pour accéder à d’autres informations ou options de modification du programme :</p> 
     <ul> 
      <li>L’icône en forme d’étoile pour ajouter le programme à votre liste de Favoris</li> 
@@ -166,7 +171,7 @@ Les informations suivantes s’affichent dans l’en-tête d’un programme :
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pourcentage terminé]</td> 
-   <td> <p>Vous ne pouvez pas modifier le [!UICONTROL Pourcentage terminé] du programme dans l’en-tête . Ces informations sont mises à jour à partir des projets du programme. Par défaut, le pourcentage de fin du programme correspond à la moyenne des valeurs de pourcentage de fin des projets dans un état [!UICONTROL Actuel] et [!UICONTROL Approuvé] appartenant au programme.</p> </td> 
+   <td> <p>Vous ne pouvez pas modifier le [!UICONTROL Pourcentage terminé] du programme dans l’en-tête . Ces informations sont mises à jour à partir des projets du programme. Par défaut, le pourcentage de fin du programme correspond à la moyenne des valeurs de pourcentage de fin des projets dans un état [!UICONTROL Actuel] ou [!UICONTROL Approuvé] appartenant au programme.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
@@ -174,10 +179,10 @@ Les informations suivantes s’affichent dans l’en-tête d’un programme :
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Date d’achèvement prévue]</td> 
-   <td>Vous ne pouvez pas modifier le pourcentage de fin du programme dans l’en-tête. Le pourcentage de réalisation du programme est une moyenne du pourcentage de réalisation des projets dans l’en-tête. Les projets représentés ici sont des projets dont le statut est [!UICONTROL Actuel] et [!UICONTROL Approuvé]. </td> 
+   <td>Vous ne pouvez pas modifier la date de fin planifiée du programme dans l’en-tête.  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Principale condition Projets]</td> 
+   <td role="rowheader">[!UICONTROL Condition des projets actifs]</td> 
    <td>Il s’agit d’un calcul du pourcentage de projets pour lesquels la [!UICONTROL Condition] est définie sur [!UICONTROL Sur Target], [!UICONTROL À risque] ou [!UICONTROL À risque]. Les projets représentés ici sont des projets dont le statut est [!UICONTROL Actuel] et [!UICONTROL Approuvé]. </td> 
   </tr> 
  </tbody> 
