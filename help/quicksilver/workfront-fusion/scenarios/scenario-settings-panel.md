@@ -7,9 +7,9 @@ description: Cet article décrit les paramètres disponibles dans la variable [!
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
    </td> 
@@ -43,9 +43,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -66,11 +66,17 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 ## [!UICONTROL Autoriser le stockage d’exécutions incomplètes]
 
-Cette option détermine comment [!DNL Adobe Workfront Fusion] s’exécute si une erreur se produit lors de l’exécution d’un scénario. Lorsque cette option est activée, le scénario est mis en pause et déplacé vers [Afficher et résoudre les exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Vous avez ainsi la possibilité de résoudre le problème et de continuer à exécuter à partir de l’endroit où le scénario a été arrêté. Si cette option est désactivée, l’exécution du scénario s’arrête et une phase de restauration est lancée.
+Cette option détermine comment [!DNL Adobe Workfront Fusion] s’exécute si une erreur se produit lors de l’exécution d’un scénario. Lorsque cette option est activée, le scénario est suspendu et déplacé vers [Afficher et résoudre les exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Vous avez ainsi la possibilité de résoudre le problème et de continuer à exécuter à partir de l’endroit où le scénario a été arrêté. Si cette option est désactivée, l’exécution du scénario s’arrête et une phase de restauration est lancée.
 
 ## [!UICONTROL Traitement séquentiel]
 
 Cette option détermine comment [!DNL Workfront Fusion] se poursuit si une erreur se produit et que l’exécution d’un scénario est déplacée vers l’événement [Afficher et résoudre les exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Si la variable [!UICONTROL Traitement séquentiel] est activée, Workfront Fusion cesse de traiter la séquence des tâches jusqu’à ce que toutes les exécutions incomplètes soient résolues. Si la variable [!UICONTROL Traitement séquentiel] est désactivée, le scénario continue de fonctionner conformément à son planning, accompagné de tentatives répétées d’exécution incomplète.
+
+>[!NOTE]
+>
+>Le traitement séquentiel peut entraîner un retard dans l’exécution d’un scénario. Si des exécutions incomplètes se trouvent toujours dans la file d’attente lorsqu’un scénario instantané se déclenche ou qu’un scénario planifié est défini pour s’exécuter, ce scénario s’exécutera une fois toutes les exécutions avant qu’il ne soit dans la file d’attente terminées.
+>
+>Si le cas d’utilisation de vos scénarios ne nécessite pas de traitement séquentiel, nous vous recommandons de désactiver l’option de traitement séquentiel.
 
 Pour plus d’informations sur la planification, voir [Planification d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
@@ -86,7 +92,7 @@ Pour plus d’informations sur l’affichage des informations, voir [Flux d’ex
 
 ## Perte de données
 
-Cette option concerne l’activation de la perte de données si [!DNL Workfront Fusion] échec de l’enregistrement d’un lot dans la file d’attente de [Afficher et résoudre les exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) (par exemple, à cause d&#39;un manque d&#39;espace libre). Lorsque cette option est activée, les données sont perdues afin d’éviter des interruptions dans l’exécution globale du scénario. Ceci est utile dans les cas où la priorité la plus élevée est l’exécution continue et où les données erronées entrantes ne sont pas si importantes.
+Cette option concerne l’activation de la perte de données si [!DNL Workfront Fusion] échoue à enregistrer un lot dans la file d’attente de [Afficher et résoudre les exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) (par exemple, à cause d&#39;un manque d&#39;espace libre). Lorsque cette option est activée, les données sont perdues afin d’éviter des interruptions dans l’exécution globale du scénario. Cela s’avère utile dans les cas où la priorité la plus élevée est l’exécution continue et où les données erronées entrantes ne sont pas si importantes.
 
 En outre, lors de l’exécution d’un scénario, un module peut parfois rencontrer un fichier plus volumineux que la taille maximale autorisée. Dans ce cas, [!DNL Workfront Fusion] procède conformément à la définition de la variable [!UICONTROL Perte de données] et un message d’avertissement s’affiche.
 
@@ -96,9 +102,9 @@ Pour plus d’informations sur les avertissements, voir [Traitement des erreurs 
 
 ## [!UICONTROL Validation automatique]
 
-Le [!UICONTROL Validation automatique] s’applique aux transactions et définit la manière de traiter un scénario. Si l’option Validation automatique est activée, la phase de validation de chaque module démarre immédiatement après avoir terminé la phase d’opération. Lorsque l’option Validation automatique est désactivée, aucune validation n’a lieu tant que les opérations ne sont pas exécutées pour tous les modules (il s’agit du mode par défaut).
+La variable [!UICONTROL Validation automatique] s’applique aux transactions et définit la manière de traiter un scénario. Si l’option Validation automatique est activée, la phase de validation de chaque module démarre immédiatement après avoir terminé la phase d’opération. Lorsque l’option Validation automatique est désactivée, aucune validation n’a lieu tant que les opérations ne sont pas exécutées pour tous les modules (il s’agit du mode par défaut).
 
-Pour plus d’informations sur les transactions, voir [Exécution de scénarios, cycles et phases dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Pour plus d’informations sur les transactions, voir [Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Nombre maximum de cycles
 
@@ -126,7 +132,7 @@ La définition de davantage de cycles peut s’avérer utile lorsque vous souhai
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->Le [!UICONTROL Nombre maximal de fichiers renvoyés] dans le [!UICONTROL Dropbox] >[!UICONTROL Fichiers de contrôle] module est défini sur `10`.
+>La variable [!UICONTROL Nombre maximal de fichiers renvoyés] dans le [!UICONTROL Dropbox] >[!UICONTROL Fichiers de contrôle] module est défini sur `10`.
 >
 >![](assets/max-number-cycles-10-350x175.png)
 >
@@ -134,7 +140,7 @@ La définition de davantage de cycles peut s’avérer utile lorsque vous souhai
 >
 >### Le nombre maximal de cycles est défini sur 10.
 >
->Le [!UICONTROL Nombre maximal de fichiers renvoyés] dans le [!UICONTROL Dropbox] >[!UICONTROL Fichiers de contrôle] module est défini sur `10`.
+>La variable [!UICONTROL Nombre maximal de fichiers renvoyés] dans le [!UICONTROL Dropbox] >[!UICONTROL Fichiers de contrôle] module est défini sur `10`.
 >
 >Si 100 fichiers sont ajoutés au dossier du Dropbox et au dossier [!UICONTROL Nombre maximal de fichiers renvoyés] est définie sur 10, puis 10 fichiers sont traités au cours du premier cycle, les 10 fichiers suivants au cours du deuxième cycle, les 10 fichiers suivants au cours du troisième cycle, etc., jusqu’à ce que tous les fichiers soient traités.
 >
