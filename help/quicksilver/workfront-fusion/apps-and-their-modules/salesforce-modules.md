@@ -9,9 +9,9 @@ description: Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser l
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2768'
+source-wordcount: '2740'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,17 @@ ht-degree: 0%
 
 Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser les workflows qui utilisent [!DNL Salesforce], mais aussi de le connecter à plusieurs applications et services tiers.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Pour une vidéo d’introduction au connecteur Salesforce, voir :
+
+* [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
+
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 >[!NOTE]
 >
->* Toutes les éditions de [!DNL Salesforce] disposer d’un accès API. Pour plus d’informations, voir les informations sur [!DNL Salesforce] éditions avec accès à l’API sur la [!DNL Salesforce] Site de la communauté.
+>* Toutes les éditions de [!DNL Salesforce] disposer d’un accès API. Pour plus d’informations, voir les informations sur [!DNL Salesforce] éditions avec accès API sur la page [!DNL Salesforce] Site communautaire.
 >* Pour plus d’informations sur les erreurs spécifiques renvoyées par la variable [!DNL Salesforce] API, voir [!DNL Salesforce] Documentation API. Vous pouvez également vérifier l’état de la variable [!DNL Salesforce] API pour toutes les pannes de service possibles.
 >
 
@@ -49,7 +53,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -57,9 +61,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -79,7 +83,7 @@ Lors de la recherche d’objets, vous pouvez saisir des mots de recherche indivi
 
 * Utilisez le caractère générique astérisque (\*) comme substitut à zéro ou plusieurs caractères. Par exemple, une recherche de Ca\* trouve des éléments qui commencent par Ca
 * Utiliser un caractère générique de point d’interrogation (?) comme substitut à un seul caractère. Par exemple, une recherche sur Jo?n recherche des éléments avec le terme John ou Joan mais pas Jon.
-* Utilisez l’opérateur de guillemets (&quot;&quot;) pour trouver une correspondance exacte avec l’expression. Par exemple : &quot;Réunion du lundi&quot;
+* Utilisez l’opérateur de guillemets (&quot;&quot;) pour trouver une correspondance exacte avec l’expression. Par exemple : &quot;réunion du lundi&quot;
 
 Pour plus d’informations sur les possibilités de recherche, voir [!DNL Salesforce] documentation destinée aux développeurs sur SOQL et SOSL.
 
@@ -139,7 +143,7 @@ Ce module nécessite une configuration supplémentaire :
    Pour accéder à la page de configuration, recherchez et cliquez sur le bouton intitulé &quot;[!UICONTROL Configuration]&quot; dans le coin supérieur droit du [!DNL Salesforce] compte . Dans la [!DNL Salesforce] page de configuration, recherchez le[!UICONTROL Recherche/recherche rapide]&quot; à gauche. Recherchez &quot;[!UICONTROL Règles de workflow].&quot;
 
 1. Cliquez sur **[!UICONTROL Règles de workflow]**.
-1. Sur le [!UICONTROL Règles de workflow] qui s’affiche, cliquez sur **[!UICONTROL Nouvelle règle]** et sélectionnez le type d’objet auquel la règle s’appliquera (par exemple, &quot;[!UICONTROL Opportunité]&quot; si vous surveillez les mises à jour des enregistrements d’opportunité).
+1. Sur la page [!UICONTROL Règles de workflow] qui s’affiche, cliquez sur **[!UICONTROL Nouvelle règle]** et sélectionnez le type d’objet auquel la règle s’appliquera (par exemple, &quot;[!UICONTROL Opportunité]&quot; si vous surveillez les mises à jour des enregistrements d’opportunité).
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Définissez un nom de règle, des critères d’évaluation et des critères de règle, puis cliquez sur **[!UICONTROL Enregistrer]** et **[!UICONTROL Suivant]**.
 
@@ -149,7 +153,7 @@ Ce module nécessite une configuration supplémentaire :
 
 1. Indiquez le nom, la description, l’URL du point de fin et les champs que vous souhaitez inclure dans le nouveau message sortant, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Le **[!UICONTROL URL du point d’entrée]** contient l’URL fournie dans la variable [!DNL Salesforce] [!UICONTROL Message sortant] in [!DNL Workfront Fusion].
+   La variable **[!UICONTROL URL du point d’entrée]** contient l’URL fournie dans la variable [!DNL Salesforce] [!UICONTROL Message sortant] in [!DNL Workfront Fusion].
 
 1. Configurez un scénario commençant par [!UICONTROL Message sortant] .
 
@@ -191,7 +195,7 @@ Ce module de déclenchement lance un scénario lorsqu’un champ est mis à jour
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Sélectionnez le type d’enregistrement qui contient le champ que le module doit surveiller. Vous devez choisir un type d’enregistrement pour lequel [!UICONTROL Field History] est activé. [!DNL Salesforce] configuration. Pour plus d’informations, voir <a href="https://help.salesforce.com/articleView?id=tracking_field_history.htm&amp;type=5">Suivi de l’historique des champs</a> dans le [!DNL Salesforce] documentation. </p> </td> 
+   <td> <p>Sélectionnez le type d’enregistrement qui contient le champ que le module doit surveiller. Vous devez choisir un type d’enregistrement pour lequel [!UICONTROL Field History] est activé. [!DNL Salesforce] configuration. Pour plus d’informations, voir <a href="https://help.salesforce.com/articleView?id=tracking_field_history.htm&amp;type=5">Suivi de l’historique des champs</a> dans le [!DNL Salesforce] la documentation. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Field]</td> 
@@ -207,7 +211,7 @@ Ce module de déclenchement lance un scénario lorsqu’un champ est mis à jour
 ### Actions
 
 * [[!UICONTROL Création d’un enregistrement]](#create-a-record)
-* [[!UICONTROL Lecture d’un enregistrement]](#read-a-record)
+* [[!UICONTROL Lire un enregistrement]](#read-a-record)
 * [[!UICONTROL Suppression d’un enregistrement]](#delete-a-record)
 * [[!UICONTROL Appel API personnalisé]](#custom-api-call)
 * [[!UICONTROL Télécharger la pièce jointe/le document]](#upload-attachmentdocument)
@@ -242,7 +246,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  </tbody> 
 </table>
 
-#### [!UICONTROL Lecture d’un enregistrement]
+#### [!UICONTROL Lire un enregistrement]
 
 Ce module d’action lit les données d’un seul objet dans [!DNL Salesforce].
 
@@ -310,12 +314,12 @@ Ce module d’action vous permet d’effectuer un appel authentifié personnalis
 
 Le module renvoie les éléments suivants :
 
-* **[!UICONTROL Code d’état]** (nombre) : Cela indique la réussite ou l’échec de votre requête HTTP. Ce sont des codes standard que vous pouvez consulter sur Internet.
-* **[!UICONTROL En-têtes]** (objet) : Un contexte plus détaillé pour le code de réponse/d’état qui ne se rapporte pas au corps de sortie. Tous les en-têtes qui apparaissent dans un en-tête de réponse ne sont pas des en-têtes de réponse. Certains peuvent donc ne pas vous être utiles.
+* **[!UICONTROL Code d’état]** (nombre) : indique la réussite ou l’échec de votre requête HTTP. Ce sont des codes standard que vous pouvez consulter sur Internet.
+* **[!UICONTROL En-têtes]** (objet) : contexte plus détaillé pour le code de réponse/d’état qui ne se rapporte pas au corps de sortie. Tous les en-têtes qui apparaissent dans un en-tête de réponse ne sont pas des en-têtes de réponse. Certains peuvent donc ne pas vous être utiles.
 
   Les en-têtes de réponse dépendent de la requête HTTP que vous avez choisie lors de la configuration du module.
 
-* **[!UICONTROL Corps]** (objet) : Selon la requête HTTP que vous avez choisie lors de la configuration du module, vous pouvez recevoir des données en retour. Ces données, telles que les données d’une [!UICONTROL GET] est contenu dans cet objet.
+* **[!UICONTROL Corps]** (objet) : selon la requête HTTP que vous avez choisie lors de la configuration du module, vous pouvez recevoir des données en retour. Ces données, telles que les données d’une [!UICONTROL GET] est contenu dans cet objet.
 
 Lors de la configuration de ce module, les champs suivants s’affichent.
 
@@ -345,7 +349,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -508,7 +512,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Query] / [!UICONTROL SOSL Query] / [!UICONTROL SOQL Query]</td> 
-   <td> <p>Saisissez la requête à rechercher.</p> <p>Pour plus d’informations sur SOSL, voir <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Langage de recherche d’objet Salesforce (SOSL)</a> dans le [!DNL Salesforce] documentation.</p> <p>Pour plus d’informations sur SOQL, voir <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Langage de requête d’objet Salesforce (SOQL)</a> dans le [!DNL Salesforce] documentation.</p> <p>Remarque : Notez que la valeur du paramètre <code>RETURNING </code>influence la sortie du module. Si vous utilisez <code>LIMIT</code>, [!DNL Fusion] ignore les paramètres du champ [!UICONTROL Nombre maximum d’enregistrements] . Si vous ne définissez aucune limite, Fusion insère la valeur [!UICONTROL LIMIT = Nombre maximum d’enregistrements].</p> </td> 
+   <td> <p>Saisissez la requête à rechercher.</p> <p>Pour plus d’informations sur SOSL, voir <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Langage de recherche d’objet Salesforce (SOSL)</a> dans le [!DNL Salesforce] la documentation.</p> <p>Pour plus d’informations sur SOQL, voir <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Langage de requête d’objet Salesforce (SOQL)</a> dans le [!DNL Salesforce] la documentation.</p> <p>Remarque : La valeur du paramètre <code>RETURNING </code>influence la sortie du module. Si vous utilisez <code>LIMIT</code>, [!DNL Fusion] ignore les paramètres du champ [!UICONTROL Nombre maximum d’enregistrements] . Si vous ne définissez aucune limite, Fusion insère la valeur [!UICONTROL LIMIT = Nombre maximum d’enregistrements].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nombre maximal d’enregistrements]</td> 

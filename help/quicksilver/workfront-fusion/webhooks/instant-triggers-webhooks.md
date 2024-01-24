@@ -7,9 +7,9 @@ description: De nombreux services fournissent des webhooks pour envoyer des noti
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ De nombreux services fournissent des webhooks pour envoyer des notifications ins
 ![](assets/instant-350x256.png)
 
 Si le service ne fournit pas de webhooks, vous devez utiliser des triggers d’interrogation pour interroger régulièrement le service.
+
+Pour une vidéo d’introduction aux webhooks dans Workfront Fusion, voir :
+
+* [Présentation des webhooks](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [Hébergements Web intermédiaires](https://video.tv.adobe.com/v/3427030/){target=_blank}
 
 ## Exigences d’accès
 
@@ -41,7 +46,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
    </td> 
@@ -49,9 +54,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -81,7 +86,7 @@ Si votre scénario contient un déclencheur instantané, vous pouvez planifier s
 
 ![](assets/schedule-setting-350x185.png)
 
-Dans ce cas, votre scénario s’exécute immédiatement lorsque [!DNL Workfront Fusion] reçoit de nouvelles données du service. Une fois le scénario exécuté, le nombre total de webhooks en attente dans la file d’attente est comptabilisé et le scénario exécute autant de cycles que les webhooks en attente, en traitant un webhook par cycle. Pour plus d’informations, voir [Exécution de scénarios, cycles et phases dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Dans ce cas, votre scénario s’exécute immédiatement lorsque [!DNL Workfront Fusion] reçoit de nouvelles données du service. Une fois le scénario exécuté, le nombre total de webhooks en attente dans la file d’attente est comptabilisé et le scénario exécute autant de cycles que les webhooks en attente, en traitant un webhook par cycle. Pour plus d’informations, voir [Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 >[!NOTE]
 >
@@ -115,12 +120,12 @@ Un webhook qui n’a été affecté à aucun scénario pendant plus de 120 heure
 
 ## Gestion des erreurs
 
-En cas d’erreur dans votre scénario avec un déclencheur immédiat, le scénario est le suivant :
+En cas d’erreur dans votre scénario avec un déclencheur instantané, le scénario :
 
 * S’arrête immédiatement lorsque le scénario est défini pour s’exécuter. [!UICONTROL Immédiatement].
 * S’arrête après 3 tentatives infructueuses (3 erreurs) : lorsque le scénario est défini pour s’exécuter comme prévu.
 
-Si une erreur se produit lors de l’exécution du scénario, le webhook est placé à nouveau dans la file d’attente lors de la phase de restauration du déclencheur instantané. Dans une telle situation, vous avez la possibilité de corriger le scénario et de le réexécuter. Pour plus d’informations, voir [Retour arrière](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) dans l’article [Exécution de scénarios, cycles et phases dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Si une erreur se produit lors de l’exécution du scénario, le webhook est placé à nouveau dans la file d’attente lors de la phase de restauration du déclencheur instantané. Dans une telle situation, vous avez la possibilité de corriger le scénario et de le réexécuter. Pour plus d’informations, voir [Retour arrière](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) dans l’article [Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 Si votre scénario comporte un module de réponse Webhook, l’erreur est envoyée à la réponse Webhook. Le module de réponse Webhook est toujours exécuté en dernier (dans le cas où la variable [!UICONTROL Validation automatique] dans les paramètres du scénario n’est pas activée). Pour plus d’informations, voir [Réponse aux webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) dans l’article [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
 
@@ -135,6 +140,6 @@ Les webhooks sont désactivés automatiquement si l’une des conditions suivant
 * Le webhook n’est connecté à aucun scénario depuis plus de 5 jours.
 * Le webhook est utilisé uniquement dans les scénarios inactifs, qui sont inactifs depuis plus de 30 jours.
 
-Les webhooks désactivés sont supprimés et désenregistrés automatiquement s’ils ne sont connectés à aucun scénario et sont désactivés depuis plus de 30 jours.
+Les webhooks désactivés sont supprimés et désenregistrés automatiquement s’ils ne sont connectés à aucun scénario et sont à l’état désactivé depuis plus de 30 jours.
 
 

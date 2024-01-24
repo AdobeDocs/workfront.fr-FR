@@ -5,20 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Modules Frame.io
-description: Le [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame.io] compte .
+description: La variable [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame.io] compte .
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2311'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
 
 # [!DNL Frame.io] modules
 
-Le [!DNL Adobe Workfront Fusion] [!DNL Frame.io] Les modules vous permettent de surveiller, créer, mettre à jour, récupérer ou supprimer des ressources et des commentaires dans vos [!DNL Frame.io] compte .
+La variable [!DNL Adobe Workfront Fusion] [!DNL Frame.io] Les modules vous permettent de surveiller, créer, mettre à jour, récupérer ou supprimer des ressources et des commentaires dans vos [!DNL Frame.io] compte .
+
+Pour une présentation vidéo du connecteur Frame.io, voir :
+
+* [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Exigences d’accès
 
@@ -39,7 +43,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -47,9 +51,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -108,7 +112,7 @@ La connexion a été établie. Vous pouvez poursuivre la configuration du module
 
    >[!IMPORTANT]
    >
-   >Lors de la création de l’application OAuth 2.0 dans [!DNL Frame.io]:
+   >Lorsque vous créez l’application OAuth 2.0 dans [!DNL Frame.io]:
    >
    >* Saisissez l’URI de redirection suivant :
    >   
@@ -484,7 +488,7 @@ Ce module d’action supprime un commentaire existant.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de dossier]</td> 
-   <td> <p> Sélectionnez le dossier contenant la ressource dont vous souhaitez supprimer un commentaire.</p> </td> 
+   <td> <p> Sélectionnez le dossier contenant la ressource à partir de laquelle vous souhaitez supprimer un commentaire.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de ressource] </td> 
@@ -643,7 +647,7 @@ Ce module de déclenchement lance un scénario lorsqu’un nouveau commentaire o
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nom du webhook] </td> 
-   <td> <p>Saisissez le nom du webhook, par exemple New Comment.</p> </td> 
+   <td> <p>Saisissez le nom du webhook, par exemple : Nouveau commentaire.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
@@ -697,7 +701,7 @@ Ce module vous permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Saisissez un chemin relatif à <code>https://api.frame.io</code>. Exemple: <code> /v2/teams</code></p> <p>Remarque : Pour obtenir la liste des points de fin disponibles, reportez-vous à la section [!DNL Frame.io] Référence de l’API.</p> </td> 
+   <td> <p>Saisissez un chemin relatif à <code>https://api.frame.io</code>. Exemple : <code> /v2/teams</code></p> <p>Remarque : Pour obtenir la liste des points de fin disponibles, reportez-vous à la section [!DNL Frame.io] Référence de l’API.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Méthode [!UICONTROL]</p> </td> 
@@ -713,7 +717,7 @@ Ce module vous permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -723,9 +727,9 @@ Ce module vous permet d’effectuer un appel API personnalisé.
 
 **Exemple :** L’appel API suivant renvoie toutes les équipes et les détails de cet appel dans votre [!DNL Frame.io] compte :
 
-URL: `/v2/teams`
+URL : `/v2/teams`
 
-Méthode: `GET`
+Méthode : `GET`
 
 ![](assets/api-call-example.png)
 

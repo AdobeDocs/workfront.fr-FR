@@ -7,9 +7,9 @@ description: L’outil Adobe Workfront Fusion Devtool vous permet de comprendre 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1813'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,10 @@ ht-degree: 0%
 
 La variable [!DNL Adobe Workfront Fusion] Devtool vous permet de comprendre et de dépanner les scénarios. L’outil Devtool ajoute un panneau supplémentaire au [!DNL Chrome Developer Tools]. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
 
-Pour une présentation vidéo détaillée de l’outil Fusion Devtool, voir [Présentation de Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
+Pour une présentation vidéo et une présentation de l’outil Fusion Devtool, voir
+
+* [Outil de développement de fusion](https://video.tv.adobe.com/v/3427031/){target=_blank}.
+* [Présentation de Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## Exigences d’accès
 

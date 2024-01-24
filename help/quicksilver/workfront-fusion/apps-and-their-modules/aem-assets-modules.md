@@ -6,20 +6,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Modules Adobe Experience Manager Assets
-description: Avec le [!DNL Adobe Experience Manager Assets] connecteur pour [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] créer, charger et mettre à jour des ressources, ainsi que copier ou déplacer des dossiers et des ressources.
+description: Avec la variable [!DNL Adobe Experience Manager Assets] connecteur pour [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] créer, charger et mettre à jour des ressources, ainsi que copier ou déplacer des dossiers et des ressources.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] modules
 
-Avec le [!DNL Adobe Experience Manager Assets] connecteur pour [!DNL Adobe Workfront Fusion], vous pouvez démarrer un scénario en fonction des événements de votre [!DNL Adobe Experience Manager Assets] créer, charger et mettre à jour des ressources, ainsi que copier ou déplacer des dossiers et des ressources.
+Avec la variable [!DNL Adobe Experience Manager Assets] connecteur pour [!DNL Adobe Workfront Fusion], vous pouvez démarrer un scénario en fonction des événements de votre [!DNL Adobe Experience Manager Assets] créer, charger et mettre à jour des ressources, ainsi que copier ou déplacer des dossiers et des ressources.
+
+Pour une présentation du connecteur Adobe Experience Manager Assets, voir :
+
+* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
 ## Exigences d’accès
 
@@ -40,7 +44,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -48,9 +52,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -201,11 +205,11 @@ Ce module d’action copie un dossier ou une ressource vers un autre emplacement
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Chemin de destination]</td> 
-   <td>Sélectionnez ou mappez le chemin d’accès à l’emplacement du nouveau dossier ou de la nouvelle ressource.</td> 
+   <td>Sélectionnez ou mappez le chemin d’accès à l’emplacement du nouveau dossier ou ressource.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nom du dossier copié] / [!UICONTROL ressource]</td> 
-   <td>Saisissez le nom du nouveau dossier ou de la nouvelle ressource. Nom du dossier qui s’affiche dans [!DNL Adobe Experience Manager Assets] est identique au nom d’origine. Le nom saisi ici apparaît dans l’URL du nouveau dossier ou de la nouvelle ressource.</td> 
+   <td>Saisissez le nom du nouveau dossier ou de la nouvelle ressource. Nom du dossier qui s’affiche dans [!DNL Adobe Experience Manager Assets] est identique au nom original. Le nom saisi ici apparaît dans l’URL du nouveau dossier ou de la nouvelle ressource.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Copier les enfants]</td> 
@@ -322,7 +326,7 @@ Ce module d’action effectue un appel API personnalisé à la fonction [!DNL Ad
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -356,7 +360,7 @@ Ce module d’action déplace la ressource ou le dossier à l’emplacement indi
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nom du dossier déplacé] / [!UICONTROL ressource]</td> 
-   <td>Saisissez un nouveau nom pour le dossier ou la ressource déplacé. Nom du dossier qui s’affiche dans [!DNL Adobe Experience Manager Assets] est identique au nom d’origine. Le nom saisi ici apparaît dans l’URL du dossier ou de la ressource déplacé.</td> 
+   <td>Saisissez un nouveau nom pour le dossier ou la ressource déplacé. Nom du dossier qui s’affiche dans [!DNL Adobe Experience Manager Assets] est identique au nom original. Le nom saisi ici apparaît dans l’URL du dossier ou de la ressource déplacé.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Remplacer]</td> 

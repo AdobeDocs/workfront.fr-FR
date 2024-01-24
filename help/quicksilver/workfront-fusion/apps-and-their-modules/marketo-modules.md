@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2068'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 0%
 
 Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Marketo], ainsi que de la connecter à plusieurs applications et services tiers.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Pour une vidéo d’introduction au connecteur Marketo, voir :
+
+* [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
+
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -43,7 +47,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -51,9 +55,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -72,8 +76,8 @@ Pour utiliser [!DNL Marketo] modules, vous devez disposer d’un [!DNL Marketo] 
 Vous pouvez créer une connexion à votre [!DNL Marketo] compte directement depuis l’intérieur [!DNL Marketo] module .
 
 1. Dans n’importe quel [!DNL Marketo] module, cliquez sur **[!UICONTROL Ajouter]** en regard de [!UICONTROL Connexion] champ .
-1. Saisissez votre [!DNL Marketo] compte ou [!DNL Marketo] [!UICONTROL Munchkin] ID. Il s’agit de la partie unique de l’URL de base ou du point de terminaison affecté à votre compte, que vous utilisez pour accéder à [!DNL Marketo] via son [!UICONTROL REST] API. Pour plus d’informations sur la localisation, voir [URL de base](https://developers.marketo.com/rest-api/base-url/) dans le [!DNL Marketo] documentation.
-1. Saisissez votre [!UICONTROL ID client] et [!UICONTROL Client secret]. Pour obtenir des instructions sur la localisation de ces éléments, voir [Authentification](https://developers.marketo.com/rest-api/authentication/) dans le [!DNL Marketo] documentation.
+1. Saisissez votre [!DNL Marketo] compte ou [!DNL Marketo] [!UICONTROL Munchkin] ID. Il s’agit de la partie unique de l’URL de base ou du point de terminaison affecté à votre compte, que vous utilisez pour accéder à [!DNL Marketo] via son [!UICONTROL REST] API. Pour plus d’informations sur la localisation, voir [URL de base](https://developers.marketo.com/rest-api/base-url/) dans le [!DNL Marketo] la documentation.
+1. Saisissez votre [!UICONTROL ID client] et [!UICONTROL Client secret]. Pour obtenir des instructions sur la localisation de ces éléments, voir [Authentification](https://developers.marketo.com/rest-api/authentication/) dans le [!DNL Marketo] la documentation.
 1. Cliquez sur **[!UICONTROL Continuer]** pour créer la connexion et revenir au module .
 
 ## [!DNL Marketo] Modules et leurs champs
@@ -187,7 +191,7 @@ Ce module d’action vous permet d’effectuer un appel authentifié personnalis
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -325,7 +329,7 @@ Ce module d’action télécharge un fichier à l’aide de l’identifiant de f
    <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Marketo] compte à [!DNL Workfront Fusion], voir <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Marketo] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td role="rowheader">[!UICONTROL ID de fichier]</td> 
    <td>Mappez l’identifiant du fichier que vous souhaitez télécharger.</td> 
   </tr> 
  </tbody> 
