@@ -6,9 +6,9 @@ description: Un programme représente un ensemble de projets qui partagent une s
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nouveau : Quelconque</p><p>Ou</p><p>Actuel : [!UICONTROL Entreprise] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Quelconque</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Nouveau : [!UICONTROL Standard] </p><p>Ou </p><p>Actuel : formule [!UICONTROL] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
    <td> <p>Accès à [!UICONTROL Modifier] Portfolio et programmes </p>  </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ Les informations suivantes s’affichent dans l’en-tête d’un programme :
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Date d’achèvement prévue]</td> 
-   <td>Vous ne pouvez pas modifier la date de fin planifiée du programme dans l’en-tête.  </td> 
+   <td>Vous ne pouvez pas modifier la date de fin planifiée du programme dans l’en-tête. Ces informations sont mises à jour à partir des projets du programme. La date d’achèvement prévue du dernier projet du programme devient la date d’achèvement prévu du programme.  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Condition des projets actifs]</td> 

@@ -7,9 +7,9 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,13 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* Un en-tête de tâche ou de problème dans le champ Affectations
+* <span class="preview">Un en-tête de tâche dans le champ Affectations</span>
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+* En-tête de problème dans le champ Affectations
+
+  ![](assets/smart-assignments-issue-header.png)
 
 * Panneau Résumé de la tâche ou du problème dans la zone Affectations
 
@@ -70,14 +74,17 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
 ## Critères d’attribution intelligente
 
-
 <div class="preview">
 
 Les affectations intelligentes fonctionnent différemment pour les tâches que pour les problèmes.
 
 ### Critères d’attribution intelligente des tâches
 
-Le calcul des affectations intelligentes de tâche fonctionne en deux phases.
+Le calcul des affectations intelligentes de tâche fonctionne en deux phases qui utilisent deux algorithmes différents.
+
+Selon l’algorithme qui trouve l’affectation dynamique, les affectations sont répertoriées sous deux sections distinctes dans le champ Affectations . Pour plus d’informations, voir [Rendre des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+
+![](assets/smart-assignments-task-list.png)
 
 #### Première phase de calcul de l’affectation dynamique pour les tâches
 
@@ -111,6 +118,8 @@ Le calcul du score de similarité et l’ordre dans lequel les affectations sont
 
   Par exemple, si Rick a été affecté à une tâche similaire plus tôt aujourd’hui et que Jennifer a été affectée à une tâche similaire il y a deux jours, Rick s’affiche en premier.
 
+* Les affectations identifiées dans cette phase sont répertoriées dans la section **Affectations proposées** du champ Affectations .
+
 * S’il n’existe aucune correspondance utilisant ce calcul, la deuxième phase des affectations intelligentes commence, qui est calculée à l’aide d’un autre algorithme.
 
 #### Deuxième phase de calcul de l’affectation dynamique pour les tâches
@@ -119,6 +128,8 @@ Si la première étape des affectations intelligentes de tâche n’a trouvé au
 
 Pour plus d’informations, voir la section [Critères d’attribution intelligente des tâches et des problèmes](#smart-assignments-criteria-for-tasks-and-issues) dans cet article.
 
+Les affectations identifiées dans cette phase sont répertoriées dans la section **Résultats** du champ Affectations . <!--update this to "Other assignments"-->
+
 ### Critères d’attribution intelligente des tâches et des problèmes
 
 </div>
@@ -126,6 +137,8 @@ Pour plus d’informations, voir la section [Critères d’attribution intellige
 >[!NOTE]
 >
 ><span class="preview">Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation dynamique de tâche n’a trouvé aucune correspondance. Pour plus d’informations, voir la section [Première phase de calcul de l’affectation dynamique pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) dans cet article. Par défaut, les critères suivants s’appliquent toujours aux problèmes. </span>
+
+![](assets/smart-assignments-issue-header.png)
 
 Les utilisateurs sont recommandés dans la liste déroulante Affectations intelligentes en fonction d’une combinaison des critères suivants (répertoriés dans l’ordre du plus important au moins important) :
 

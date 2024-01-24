@@ -6,20 +6,27 @@ description: Vous pouvez utiliser des affectations intelligentes pour identifier
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Rendre des affectations intelligentes
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients.</span>
 
 <span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
-Vous pouvez utiliser des affectations intelligentes pour identifier le meilleur utilisateur à effectuer le travail. Les affectations intelligentes sont des suggestions destinées aux utilisateurs qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour la tâche. Pour plus d’informations sur les affectations intelligentes, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Vous pouvez utiliser des affectations intelligentes pour identifier le meilleur utilisateur à effectuer le travail.
+
+Les affectations intelligentes sont des suggestions destinées aux utilisateurs qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour la tâche.
+
+<span class="preview">Il existe deux algorithmes distincts dans Workfront pour les tâches et les problèmes. </span>
+Pour plus d’informations sur les affectations intelligentes, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Exigences d’accès
 
@@ -76,9 +83,16 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   Les utilisateurs affichés dans cette liste sont les suggestions d’affectation intelligente pour la tâche ou le problème.
+   Pour les problèmes, les suggestions d’affectation dynamique s’affichent dans la variable **Affectations proposées** zone.
 
-   Pour plus d’informations sur l’emplacement d’affichage des affectations dynamiques, voir la section &quot;Localisation des suggestions d’affectation dynamique&quot; dans l’article. [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   Pour les tâches, les affectations intelligentes s’affichent dans les sections suivantes, selon la phase du calcul de l’algorithme qui a identifié les affectations :
+
+   * **Affectations proposées**: affectations identifiées dans la première phase du calcul de l’algorithme de l’affectation dynamique de tâche.
+   * <span class="preview">**Résultats**: affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de tâche. Cette section n’est pas disponible pour les problèmes. </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+
+   Pour plus d’informations, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
 1. Sélectionnez l’utilisateur dans la liste de recommandations en cliquant sur son nom.
 
