@@ -7,9 +7,9 @@ description: La visualisation de la capacité de l’équipe indique la capacit�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfeb1a87-01be-4088-9e33-53a97e3871ad
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <p>Actuel : métier ou supérieur</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Présentation des licences Adobe Workfront</td>
+   <td role="rowheader">Licence Adobe Workfront</td>
    <td>
       <p>Nouveau : clair ou supérieur</p>
       <p>ou</p>

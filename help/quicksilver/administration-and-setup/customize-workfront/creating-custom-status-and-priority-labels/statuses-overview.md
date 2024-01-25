@@ -5,18 +5,20 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Présentation des états
 description: Pour connaître l’état actuel du développement d’un projet, d’une tâche ou d’un problème, un utilisateur peut consulter son état.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # Présentation des états
+
+<!-- Audited: 01/2024 -->
 
 Pour connaître l’état actuel du développement d’un projet, d’une tâche ou d’un problème, un utilisateur peut consulter son état.
 
@@ -26,11 +28,11 @@ Par exemple, dans ce projet, la planification de l’état indique que le respon
 
 La modification de l’état d’un projet, d’une tâche ou d’un problème est généralement un processus manuel. Cependant, il arrive que l’état d’un problème soit automatiquement modifié, en fonction d’autres facteurs se produisant dans le système.
 
-Workfront est fourni avec 9 états de projet, 3 états de tâche et 10 états de problème. Pour plus d’informations à ce sujet, consultez les articles suivants :
+Adobe Workfront est fourni avec 9 états de projet, 3 états de tâche et 10 états de problème. Pour plus d’informations à ce sujet, consultez les articles suivants :
 
 * [Accéder à la liste des états des projets système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [Accéder à la liste des états des tâches système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
-* [Accéder à la liste des statuts des problèmes système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+* [Accéder à la liste des statuts des problèmes système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ## Statuts personnalisés
 
