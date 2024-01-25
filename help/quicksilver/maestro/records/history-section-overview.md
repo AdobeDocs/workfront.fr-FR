@@ -4,10 +4,10 @@ description: Vous pouvez consulter les modifications apportées à l’enregistr
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,6 @@ Vous pouvez passer en revue les modifications apportées à l’enregistrement d
 
    * Sélection multiple
    * Champs d’enregistrement liés
-   * Champs liés (recherche)
    * Personnes
 
   Si la modification ajoute uniquement des valeurs au champ, l’ancienne valeur ne s’affiche pas et seule la nouvelle valeur de champ s’affiche.
@@ -80,5 +79,14 @@ Vous pouvez passer en revue les modifications apportées à l’enregistrement d
 * Les champs de type case à cocher n’affichent jamais l’ancienne valeur au format barré. Si le champ est modifié, seul l’état actuel au moment de la modification s’affiche.
 
   Pour plus d’informations sur les champs Maestro, voir [Créer des champs](/help/quicksilver/maestro/fields/create-fields.md).
+
+* Les modifications apportées aux champs des types suivants ne s’affichent pas dans la section Historique :
+
+   * Champs liés (recherche)
+   * Formule
+   * Créé par
+   * Créé à la date
+   * Dernière modification par
+   * Date de dernière modification
 
 * Si un champ est supprimé du système, les mises à jour effectuées sur ce champ restent dans la section Historique . Rien n’indique que le champ a été supprimé dans la section Historique d’un enregistrement.

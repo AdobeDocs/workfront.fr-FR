@@ -2,20 +2,22 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Création d’un tableau de bord
-description: Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations des rapports, des calendriers et des pages externes.
+description: Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations dans Adobe Workfront. Les rapports, les calendriers et les pages externes peuvent être ajoutés aux tableaux de bord que vous pouvez partager avec d’autres utilisateurs pour une collaboration optimale.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # Création d’un tableau de bord
 
-Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations des rapports, des calendriers et des pages externes.
+<!--Audited: 01/2024-->
+
+Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations dans Adobe Workfront. Les rapports, les calendriers et les pages externes peuvent être ajoutés aux tableaux de bord que vous pouvez partager avec d’autres utilisateurs pour une collaboration optimale.
 
 Pour en savoir plus sur les tableaux de bord, voir [Prise en main des tableaux de bord](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
@@ -30,39 +32,42 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Formule Adobe Workfront*</strong></p> </td> 
-   <td>Tous</td> 
+   <td> <p><strong>Formule Adobe Workfront</strong></p> </td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Licence Adobe Workfront*</strong></p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Actuel : formule </p>
+   Ou
+   <p>Nouveau : Standard </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Paramétrages du niveau d'accès*</strong> </td> 
-   <td> <p>Modification de l’accès aux rapports, aux tableaux de bord et aux calendriers</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td><strong>Paramétrages du niveau d'accès</strong> </td> 
+   <td> <p>Modification de l’accès aux rapports, aux tableaux de bord et aux calendriers</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Autorisations d’objet</strong> </p> </td> 
-   <td> <p>Vous obtiendrez les autorisations Gérer pour le nouveau tableau de bord</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.<br>Pour plus d’informations sur les autorisations pour les tableaux de bord, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Partage de rapports, de tableaux de bord et de calendriers </a>.</p> </td> 
+   <td> <p>Vous obtiendrez les autorisations Gérer pour les tableaux de bord que vous créez.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
 Vous devez créer l’un des objets suivants avant de pouvoir les ajouter à un tableau de bord :
 
-* **Rapports**: Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* **Rapports**: pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* **Calendriers**: Pour plus d’informations sur la création de calendriers, voir [Présentation des rapports sur les calendriers](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+* **Calendriers**: pour plus d’informations sur la création de calendriers, voir [Présentation des rapports sur les calendriers](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-* **Pages externes**: Pour plus d’informations sur la création de pages externes, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en créer une à partir du nouveau tableau de bord. Pour plus d’informations sur la création de pages externes, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Création d’un tableau de bord
 
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon.png), puis cliquez sur **Tableaux de bord.**
+{{step1-to-dashboards}}
+
 1. Cliquez sur **Nouveau tableau de bord**.\
    La boîte de dialogue Nouveau tableau de bord s’affiche.
 
@@ -78,24 +83,22 @@ Vous devez créer l’un des objets suivants avant de pouvoir les ajouter à un 
      </tr>
      <tr>
       <td role="rowheader"><strong>Description (facultatif)</strong></td>
-      <td>Il s’agit d’une description de votre tableau de bord.</td>
+      <td>Cette section décrit votre tableau de bord.</td>
      </tr>
     </tbody>
    </table>
 
-1. Sélectionnez une mise en page en cliquant sur le bouton radio qui lui correspond.
+1. Sélectionnez une mise en page en cliquant sur le bouton radio qui lui correspond dans la partie supérieure de la **Sélectionner Mise en page/Ajouter des rapports/Ajouter des calendriers** . Il s’agit de la disposition dans laquelle les rapports, les calendriers ou les pages externes s’afficheront sur le tableau de bord.
 
    La mise en page à une seule colonne est la mise en page par défaut.
 
    Pour plus d’informations sur la disposition des rapports dans les tableaux de bord, voir [Comprendre comment les rapports s’affichent sur un tableau de bord](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: Consider adding the information from this article here, at some point, instead of linking to it.)
-   </MadCap:conditionalText>
+   Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Ajoutez des rapports, des calendriers ou des pages externes existants en les recherchant dans le **Effectuez une recherche par nom ou par type ...** puis les faire glisser vers le volet de mise en page lorsqu’ils apparaissent dans la liste.
+1. Recherchez des rapports, des calendriers ou des pages externes dans le **Effectuez une recherche par nom ou par type ...** puis faites-les glisser vers le volet de mise en page lorsqu’elles apparaissent dans la liste.
 
    >[!NOTE]
    >
@@ -103,8 +106,10 @@ Vous devez créer l’un des objets suivants avant de pouvoir les ajouter à un 
 
    ![Recherche de rapports](assets/qs-new-dashboard-ui-0722.png)
 
-1. (Facultatif) Cliquez sur **Ajouter une page externe** pour ajouter une page externe au tableau de bord.\
+1. (Facultatif) Cliquez sur **Ajouter une page externe** pour ajouter une nouvelle page externe au tableau de bord.
+
    Pour plus d’informations sur la création de pages externes et leur incorporation dans les tableaux de bord, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. Cliquez sur **Enregistrer + Fermer**.\
+1. Cliquez sur **Enregistrer + Fermer**.
+
    Un horodatage s’affiche dans le coin supérieur droit du tableau de bord. L’horodatage inclut la date, l’heure et le fuseau horaire de la dernière actualisation du tableau de bord.

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
 source-wordcount: '3564'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Maestro enregistre les informations suivantes dans la nouvelle section Historiqu
 
 * Date et horodatage du moment où la modification s’est produite.
 
-Pour plus d’informations, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
+Pour plus d’informations, voir [Présentation de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md).
 
 ### Nouveau libellé pour le nouveau lien d’enregistrement
 

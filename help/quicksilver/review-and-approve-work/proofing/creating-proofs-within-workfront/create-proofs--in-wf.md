@@ -3,21 +3,25 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Créer un bon à tirer
-description: Découvrez comment créer des bons à tirer.
+description: Vous pouvez créer des BAT de documents dans Adobe Workfront. Vous pouvez créer des BAT de documents dans Adobe Workfront. Vous pouvez créer des BAT pour les documents, le contenu interactif et les sites web. Découvrez comment créer des bons à tirer dans les articles suivants.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# Créer un bon à tirer
+# Créer des bons à tirer : index de l&#39;article
 
-Cette section contient les articles suivants :
+<!--Audited: 01/2024-->
+
+Vous pouvez créer des BAT de documents dans Adobe Workfront. Vous pouvez créer des BAT pour les documents, le contenu interactif et les sites web.
+
+Découvrez comment créer des bons à tirer dans les articles suivants :
 
 * [Créer un BAT avancé avec un workflow de base](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [Créer un BAT avancé avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
