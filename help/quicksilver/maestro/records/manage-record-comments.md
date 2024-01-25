@@ -1,12 +1,12 @@
 ---
 title: Gestion des commentaires d’enregistrement
-description: Vous pouvez collaborer sur les enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans la zone Commentaires d’un enregistrement.
+description: Vous pouvez collaborer sur des enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,24 @@ ht-degree: 0%
 # Gestion des commentaires d’enregistrement
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Vous pouvez collaborer sur les enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans la zone Commentaires d’un enregistrement.
+Vous pouvez collaborer sur des enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
 
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+Le panneau de droite d’un enregistrement affiche les sections suivantes :
 
-The right panel of a record displays the following sections:
+* **Commentaires**: affiche les commentaires et réponses que les utilisateurs ajoutent aux enregistrements.
+* **Histoire**: affiche les modifications enregistrées par le système que les utilisateurs apportent aux champs d’enregistrement. Pour plus d’informations, voir [Présentation de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md).
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+>[!TIP]
+>
+>Le panneau de droite s’affiche pour les enregistrements opérationnels et les enregistrements de taxonomie.
+
 
 ## Remarques concernant les commentaires sur un enregistrement
 
@@ -48,9 +50,9 @@ The right panel of a record displays the following sections:
 
 * Vous pouvez marquer les utilisateurs pour attirer leur attention sur une mise à jour. Les utilisateurs balisés ne reçoivent pas de notification in-app ni d’e-mail concernant votre mise à jour. <!--this might change??-->
 
-* Vous pouvez ajouter une mise à jour aux enregistrements des zones suivantes de Maestro :
+* Vous pouvez ajouter une mise à jour aux enregistrements et consulter l’historique des modifications à partir des zones suivantes de Maestro :
 
-   * Sur la page Détails .
+   * Sur la page Détails d’un enregistrement ou d’une taxonomie.
 
   <!--* From the table view.-->
 
@@ -119,6 +121,8 @@ Le dernier espace de travail ouvert par défaut.
 
    Le record **Détails** s’ouvre. La zone Commentaires s’ouvre par défaut dans le panneau de droite.
 
+1. (Conditionnel) Si le panneau de droite ne s’ouvre pas par défaut, cliquez sur le bouton **Afficher les commentaires** ![](assets/show-comments-icon.png) dans le coin supérieur droit pour ouvrir la section Commentaires .
+
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
    ![](assets/empty-comment-box-on-record.png)
@@ -171,24 +175,16 @@ Le dernier espace de travail ouvert par défaut.
 1. (Facultatif) Cliquez sur le **Plus** icon ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, cliquez sur l’une des options suivantes pour copier une information d’un commentaire :
 
    * **Copier le lien**: copie un lien vers le commentaire dans le presse-papiers.
-   * **Copie du texte du corps** t : le texte du commentaire est alors copié dans le presse-papiers.
+   * **Copier le texte du corps**: copie le texte du commentaire dans le presse-papiers.
    * **Réponse entre guillemets**: copie alors le contenu de votre commentaire dans une nouvelle réponse. Les images ne sont pas incluses dans la réponse copiée.
 
    Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Cliquez sur le **Plus** icon ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis cliquez sur **Supprimer** pour supprimer le commentaire.
+1. (Facultatif) Cliquez sur le **Masquer les commentaires** icon ![](assets/hide-comments-icon.png) pour fermer le panneau de droite.
 
-<!--
-## History section overview
+## Présentation de la section Historique
 
-*********also update the screen shot above for the Comments section ******
+Vous pouvez passer en revue les modifications apportées à l’enregistrement dans la section Historique du panneau droit d’un enregistrement opérationnel ou d’une taxonomie.
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+Pour plus d’informations, voir [Présentation de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->

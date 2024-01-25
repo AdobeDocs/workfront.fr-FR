@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1956'
 ht-degree: 1%
 
 ---
@@ -86,6 +86,7 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Brève présentation créative |                               |                                  | ✓ |
 | Personnalisation de la couleur et de l’icône d’un enregistrement | ✓ |                                  |                 |
 | Ajout de commentaires aux enregistrements | ✓ |                                  |                 |
+| Afficher l’historique des modifications sur un enregistrement | ✓ |                                  |                 |
 | Formatage de texte enrichi pour les champs de paragraphe | ✓ |                                  |                 |
 | Modules Maestro pour Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copier et coller des informations d’un champ vers un autre | ✓ |                                  |                 |

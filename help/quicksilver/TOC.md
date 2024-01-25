@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '13867'
+source-wordcount: '13870'
 ht-degree: 0%
 
 ---
@@ -2040,6 +2040,7 @@ ht-degree: 0%
       * [Suppression d’enregistrements](maestro/records/delete-records.md)
       * [Partage d’enregistrements](maestro/records/share-records.md)
       * [Gestion des commentaires d’enregistrement](maestro/records/manage-record-comments.md)
+      * [Présentation de la section Historique](maestro/records/history-section-overview.md)
    * Vues Adobe Maestro {#adobe-maestro-views}
       * [Vues : index de l’article](maestro/views/views-information.md)
       * [Gestion des vues d’enregistrement](maestro/views/manage-record-views.md)

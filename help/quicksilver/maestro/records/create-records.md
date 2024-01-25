@@ -1,13 +1,13 @@
 ---
 title: Créer des enregistrements
-description: Dans Adobe Maestro, un enregistrement est une instance d’un type d’enregistrement. Vous devez créer des types d’enregistrement avant de pouvoir créer des enregistrements individuels.
+description: Dans Adobe Maestro, un enregistrement est une instance d’un type d’enregistrement. Vous devez créer des types d’enregistrement avant de pouvoir créer des enregistrements individuels. La création d'enregistrements de taxonomie est identique à la création d'enregistrements opérationnels.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Vous pouvez avoir les types d’enregistrements suivants :
 * **Enregistrements opérationnels**: ils représentent des objets liés au travail. Par exemple, pour un enregistrement opérationnel appelé &quot;Campagne&quot;, vous pouvez avoir nommé des enregistrements tels que &quot;Newsletter mensuelle&quot; ou &quot;Solde d’été&quot;.
 * **Enregistrements de taxonomie**: ils représentent des attributs qui peuvent être associés à des enregistrements opérationnels. Par exemple, pour un type d’enregistrement de taxonomie appelé &quot;Canal&quot;, vous pouvez avoir nommé des taxonomies telles que &quot;Email&quot;, &quot;Social Media&quot; ou &quot;Publicité&quot;.
 
-La création d&#39;enregistrements opérationnels est identique à la création d&#39;enregistrements de taxonomie ou taxonomies.
+La création d&#39;enregistrements opérationnels est identique à la création d&#39;enregistrements de taxonomie.
 
 Vous pouvez créer des enregistrements dans Maestro en effectuant l’une des opérations suivantes :
 
@@ -120,7 +120,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
 1. (Conditionnel) Si la page de type enregistrement ne s’ouvre pas dans la vue de tableau, cliquez sur le bouton **Affichage** , puis sélectionnez une **Vue Tableau** ![](assets/table-view-icon.png) ou cliquez sur **Créer une vue > Tableau** pour créer une vue de tableau.
 
-1. Pour ajouter de nouveaux enregistrements, cliquez sur **Nouveau &lt; Nom du type d’enregistrement >** dans la dernière ligne du tableau ;
+1. Pour ajouter de nouveaux enregistrements, cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau ;
 
    Ou
 

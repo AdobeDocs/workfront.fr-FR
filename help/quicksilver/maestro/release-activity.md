@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
 
-<!--
-## Week of January 22, 2024
+## Semaine du 22 janvier 2024
 
-### New History section displays system activity for Maestro records (title) 
+### Nouvelle section Historique affiche l’activité du système pour les enregistrements Maestro
 
-Production: < date > 
+Production : 25 janvier 2024
 
-Preview: To be determined 
+Aperçu : à déterminer
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+Pour améliorer les fonctionnalités de contrôle, nous avons ajouté une nouvelle section dans le panneau de droite d’un enregistrement, dans laquelle vous pouvez passer en revue les modifications apportées à l’enregistrement enregistré par le système.
 
-Maestro records the following information in the new History section:  
+Maestro enregistre les informations suivantes dans la nouvelle section Historique :
 
-* Any field changes 
+* Toute modification de champ
 
-* The full name of the user who made the change 
+* Les anciennes et nouvelles valeurs des champs, lorsque les valeurs changent
 
-* A date and time stamp of when the change occurred. 
+* Nom complet de l’utilisateur qui a apporté la modification.
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* Date et horodatage du moment où la modification s’est produite.
 
--->
+Pour plus d’informations, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### Nouveau libellé pour le nouveau lien d’enregistrement
+
+Production : 25 janvier 2024
+
+Aperçu : à déterminer
+
+Pour assurer la cohérence lors de la création des enregistrements, nous avons réactivé le lien + Nouveau pour créer des enregistrements dans &quot;+ Nouvel enregistrement&quot;.  Avant cette mise à jour, le lien contenait le nom du type d&#39;enregistrement. Le nouveau lien est désormais disponible lors de la création d&#39;enregistrements opérationnels et de taxonomie. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/maestro/records/create-records.md).
 
 ## Semaine du 8 janvier 2024
 

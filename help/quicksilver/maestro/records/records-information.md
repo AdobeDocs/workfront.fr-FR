@@ -1,13 +1,13 @@
 ---
 title: "Enregistrements : index de l’article"
-description: Après avoir créé des types d’enregistrement dans Adobe Manager, vous pouvez créer des enregistrements individuels de ces types. Les articles suivants décrivent comment créer et gérer des enregistrements dans Adobe Maestro.
+description: Après avoir créé des types d’enregistrement dans Adobe Manager, vous pouvez créer des enregistrements individuels de ces types. Les articles suivants décrivent comment créer et gérer des enregistrements et leurs informations dans Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ hide: yes
 
 Après avoir créé des types d’enregistrement dans Adobe Manager, vous pouvez créer des enregistrements individuels de ces types.
 
-Les articles suivants décrivent comment créer et gérer des enregistrements dans Adobe Maestro :
+Les articles suivants décrivent comment créer et gérer des enregistrements et leurs informations dans Adobe Maestro :
 
 * [Créer des enregistrements](../records/create-records.md)
 * [Modifier des enregistrements](../records/edit-records.md)
@@ -46,3 +46,4 @@ Les articles suivants décrivent comment créer et gérer des enregistrements da
 * [Partage d’enregistrements](../records/share-records.md)
 * [Connexion d’enregistrements](../records/connect-records.md)
 * [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [Présentation de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md)
