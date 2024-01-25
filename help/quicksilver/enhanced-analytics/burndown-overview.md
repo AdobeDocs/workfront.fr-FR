@@ -7,7 +7,7 @@ description: La visualisation de ventilation présente la charge d’un projet s
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher</p> </td> 
+   <td> <p>Afficher</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 ## Conditions préalables
 
-Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; de la section [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; de la section [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Présentation de la visualisation Burndown
 
@@ -152,7 +152,7 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
    >Si la vitesse réelle est une ligne plate qui s’exécute le long de l’axe des x (en ligne avec 0 heure ou 0 jour) de la visualisation, cela signifie qu’aucune heure (ou jour) planifiée n’a été ajoutée au projet.\
    >Si la vitesse réelle est une ligne plate au-dessus de l’axe X (en ligne avec un nombre d’heures ou de jours) qui ne diminue jamais, cela signifie qu’aucune tâche n’a été effectuée pendant la période filtrée.
 
-1. (Facultatif) Pour exporter les données de visualisation, cliquez sur le bouton **Exporter** icon ![Icône Exporter](assets/export.png)dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
+1. (Facultatif) Pour exporter les données de visualisation, cliquez sur le bouton **Exporter** icon ![Icône Exporter](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
 
    * Graphique (PNG)
    * Tableau de données (XSLX)

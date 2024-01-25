@@ -6,14 +6,16 @@ description: Le contenu interactif fournit plusieurs méthodes pour interagir av
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
 # BAT de contenu interactif - Aperçu
+
+<!-- Audited: 01/2024 -->
 
 Le contenu interactif fournit plusieurs méthodes pour interagir avec les visionneuses. Les agences peuvent mesurer le succès de leurs campagnes à l’aide des analyses collectées à partir des réponses à ce contenu.
 
@@ -26,23 +28,21 @@ Voici quelques exemples de contenu interactif :
 * Microsites
 * Emails interactifs
 
-Cet article fournit les informations suivantes sur la vérification du contenu interactif :
-
 ## A propos de la création de BAT pour le contenu interactif
 
 Vous pouvez créer un BAT pour le contenu interactif de l’une des manières suivantes :
 
 * Créez un BAT à partir d’un fichier ZIP contenant le contenu interactif.
 
-   Adobe Workfront décompresse le contenu du fichier ZIP et le stocke sur un serveur Workfront. Comme il est stocké de cette manière, vous pouvez vous fier au fait que le contenu reste le même tout au long du cycle de révision du BAT.
+  Adobe Workfront décompresse le contenu du fichier ZIP et le stocke sur un serveur Workfront. Comme il est stocké de cette manière, vous pouvez vous fier au fait que le contenu reste le même tout au long du cycle de révision du BAT.
 
 * Spécifiez l’URL du contenu.
 
-   Il s’agit de la méthode la plus simple pour créer un BAT pour le contenu interactif. Il s’agit également de la seule manière dont vous pouvez passer en revue votre contenu de manière interactive, à mesure que les utilisateurs le visualisent sur Internet.
+  Il s’agit de la méthode la plus simple pour créer un BAT pour le contenu interactif. Il s’agit également de la seule manière dont vous pouvez passer en revue votre contenu de manière interactive, à mesure que les utilisateurs le visualisent sur Internet.
 
-   Avec cette approche, un serveur externe inconnu pour Workfront stocke et héberge le contenu.
+  Avec cette approche, un serveur externe inconnu pour Workfront stocke et héberge le contenu.
 
-   Nous vous recommandons cette méthode pour les sites web volumineux, car il est difficile de rassembler tous les fichiers qui constituent un site web volumineux. Cependant, comme le contenu du BAT est stocké en externe, Workfront ne peut pas le protéger des modifications apportées par les développeurs qui y travaillent. Il se peut donc que vous ne puissiez pas vous fier au fait que le contenu reste le même tout au long du cycle de révision du BAT.
+  Nous vous recommandons cette méthode pour les sites web volumineux, car il est difficile de rassembler tous les fichiers qui constituent un site web volumineux. Cependant, comme le contenu du BAT est stocké en externe, Workfront ne peut pas le protéger des modifications apportées par les développeurs qui y travaillent. Il se peut donc que vous ne puissiez pas vous fier au fait que le contenu reste le même tout au long du cycle de révision du BAT.
 
 ## A propos de la préparation de contenu interactif dans un fichier ZIP pour la vérification
 
@@ -56,15 +56,15 @@ Lorsque vous regroupez du contenu interactif dans un fichier ZIP à des fins de 
 * Les projets interactifs sont pris en charge uniquement en tant qu’archives .zip. Les envois de fichiers .zip standard échoueront.
 * Le site web doit être sécurisé (HTTPS).
 
-   Il ne s’agit pas d’une exigence lors de l’utilisation de la visionneuse de vérification de l’appli de bureau.
+  Il ne s’agit pas d’une exigence lors de l’utilisation de la visionneuse de vérification de l’appli de bureau.
 
-   Pour plus d’informations, voir [Présentation de la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Pour plus d’informations, voir [Présentation de la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
 * Le site web doit être autorisé à être affiché dans un iframe.
 
-   Il ne s’agit pas d’une exigence lors de l’utilisation de la visionneuse de vérification de l’appli de bureau.
+  Il ne s’agit pas d’une exigence lors de l’utilisation de la visionneuse de vérification de l’appli de bureau.
 
-   Pour plus d’informations, voir [Présentation de la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Pour plus d’informations, voir [Présentation de la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
 ## A propos de la création d’un BAT interactif
 
@@ -72,7 +72,7 @@ Une fois que vous avez préparé votre fichier de bundle ZIP, créez un BAT inte
 
 Pour plus d’informations, voir [Création d’un BAT pour le contenu interactif dans un fichier ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
 
-Ou, si vous utilisez le Bon à tirer Workfront, reportez-vous à la section [Générer un BAT pour le contenu interactif](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generati) dans l’article [Générer un bon à tirer dans le bon à tirer Workfront](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Ou, si vous utilisez le Bon à tirer Workfront, reportez-vous à la section [Générer un BAT pour le contenu interactif](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) dans l’article [Générer un bon à tirer dans le bon à tirer Workfront](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## A propos de la révision des BAT interactifs
 
