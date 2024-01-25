@@ -1,21 +1,21 @@
 ---
-title: Améliorations du projet au premier trimestre 2024
-description: Améliorations du projet pour le premier trimestre 2024
-author: Nolan
+title: Améliorations du projet au deuxième trimestre 2024
+description: Améliorations du projet au deuxième trimestre 2024
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Améliorations du projet au premier trimestre 2024
+# Améliorations du projet au deuxième trimestre 2024
 
-Cette page décrit toutes les améliorations de projet apportées à la version du premier trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
+Cette page décrit toutes les améliorations de projet apportées à la version du deuxième trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production, comme indiqué.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 2024 du deuxième trimestre, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Affectations intelligentes plus pertinentes
 
