@@ -3,20 +3,20 @@ title: Visualisation de la capacité des ressources dans les analyses amélioré
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: La visualisation Capacité des ressources indique si une équipe est terminée, sous ou à capacité.
+description: Vous pouvez évaluer si une équipe est terminée, sous ou à la capacité lorsqu’elle consulte le graphique de visualisation de la capacité des ressources d’analyse améliorée dans Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Visualisation de la capacité des ressources dans les analyses améliorées
 
-La visualisation Capacité des ressources indique si une équipe est terminée, sous ou à capacité.
+Vous pouvez évaluer si une équipe est terminée, sous ou à la capacité lorsqu’elle consulte le graphique de visualisation de la capacité des ressources d’analyse améliorée dans Adobe Workfront.
 
 ## Exigences d’accès
 
@@ -27,33 +27,38 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Adobe Workfront</a>*</td> 
-   <td> <p>Professionnel ou supérieur</p> </td> 
+   <td>Formule Adobe Workfront</a>*</td> 
+   <td> <p>Actuel : métier ou supérieur</p>
+   Ou
+   <p>Nouveau : Quelconque</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>*</td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td>Licence Adobe Workfront*</td> 
+   <td> <p>Actuel : révision ou version ultérieure</p>
+   Ou
+   <p>Nouveau : Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage de l’accès aux projets</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès.<br>Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td> <p>Affichage de l’accès aux projets</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage des autorisations sur un projet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
 Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; de la section [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Présentation de la visualisation de la capacité de ressource
+## Comprendre le graphique de la capacité des ressources
 
-La visualisation Capacité des ressources indique si une équipe est terminée, sous ou à capacité. Ce calcul est basé sur :
+Le graphique Capacité des ressources indique si une équipe est terminée, sous ou à capacité. Ce calcul est basé sur :
 
 * **Capacité disponible**: nombre total d’heures pendant lesquelles une équipe d’accueil peut travailler pendant la période filtrée.
 
