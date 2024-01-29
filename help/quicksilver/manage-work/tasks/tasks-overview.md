@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ Les tâches sont des tâches plus petites dans Adobe Workfront qui contribuent �
 * [Affecter des tâches](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 * [Gestion des tâches](../../manage-work/tasks/manage-tasks/manage-tasks.md)
 * [Contraintes de tâche](../../manage-work/tasks/task-constraints/task-constraints.md)
-* [Types Durée de tâche et Durée](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+* [Types Durée de tâche et durée : index de l’article](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
 * [Utilisation des prédécesseurs de tâches](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
 * [Conseils, astuces et dépannage pour les tâches](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

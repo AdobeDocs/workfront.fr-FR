@@ -6,7 +6,7 @@ description: Dans Workfront, les tâches peuvent avoir des relations parents-enf
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 58f2895b1c3964b4481752ddf0df05d41d61f32f
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Création de sous-tâches
+
+<!-- Audited: 1/2024 -->
 
 Dans Workfront, les tâches peuvent avoir des relations parents-enfants. Les tâches filles sont appelées sous-tâches. Vous pouvez créer des sous-tâches dans la liste des tâches en faisant d’une tâche principale une sous-tâche. Vous pouvez également faire d’une sous-tâche une tâche principale.
 

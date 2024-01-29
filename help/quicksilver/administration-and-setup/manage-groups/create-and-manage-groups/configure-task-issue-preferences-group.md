@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 3%
+source-wordcount: '1895'
+ht-degree: 2%
 
 ---
 
@@ -32,11 +32,10 @@ Pour plus d’informations sur la façon dont l’administrateur Workfront déve
 >
 >* En règle générale, une préférence déverrouillée reste déverrouillée indéfiniment. Si l’administrateur Workfront le reverrouille, le paramètre système prend à nouveau effet et les paramètres de la préférence accordée par les administrateurs du groupe sont perdus.
 >* Les préférences définies pour le groupe associé à un projet sont prioritaires sur celles définies pour le groupe d’accueil de l’utilisateur qui crée le projet.
->* Certaines préférences au niveau du groupe affectent les modèles de projet que vous créez pour le groupe. Pour plus d’informations, voir la section [Affichage, utilisation et création de modèles pour votre groupe à partir de la zone Groupes](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) dans l’article [Création et modification de modèles de projet d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* Certaines préférences au niveau du groupe affectent les modèles de projet que vous créez pour le groupe. Pour plus d’informations, voir la section [Affichage, utilisation et création de modèles pour votre groupe à partir de la zone Groupes](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) dans l’article [Créer et modifier des modèles de projet de groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
 >* Une fois qu’un administrateur Workfront a déverrouillé une préférence au niveau du système, vous pouvez la configurer, puis la verrouiller pour vous assurer que tous les membres de votre groupe et de ses sous-groupes utilisent la même configuration. Cela est parallèle à la possibilité qu’un administrateur de Workfront a de configurer et de verrouiller une préférence pour tous les utilisateurs du système. Pour plus d’informations, voir [Verrouillage ou déverrouillage d’un projet, d’une tâche ou d’une préférence d’émission pour les sous-groupes](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
-
 
 ## Exigences d’accès
 
@@ -48,7 +47,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Workfront*</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -75,14 +74,14 @@ Les étapes de cet article doivent être les suivantes :
 
    Si vous placez le pointeur de la souris sur l’icône de verrouillage ![](assets/lock-toggle-button-dimmed.png) pour une préférence que vous devez configurer et qu’une info-bulle s’affiche pour vous indiquer que est verrouillé, vous pouvez demander à votre administrateur Workfront de la déverrouiller pour tous les groupes de l’organisation.
 
-   Lorsqu’il est déverrouillé, vous et les autres administrateurs de groupe pouvez le configurer séparément pour vos propres groupes. Vous pouvez également le verrouiller pour votre groupe et tous les sous-groupes situés sous votre groupe.
+   Lorsqu’il est déverrouillé, vous et d’autres administrateurs de groupe pouvez le configurer séparément pour vos propres groupes. Vous pouvez également le verrouiller pour votre groupe et tous les sous-groupes situés sous votre groupe.
 
-   * [Paramètres par défaut de la nouvelle tâche](#new-task-defaults)
+   * [Nouvelles valeurs par défaut des tâches](#new-task-defaults)
    * [Événements](#issues)
    * [Suppression](#deletion)
    * [Dates effectives](#actual-dates)
 
-      <!--   
+     <!--   
      <li><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
      -->
 
@@ -100,7 +99,7 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Type de durée </p> </td> 
-      <td> <p>Détermine la relation entre le nombre de ressources (et leur pourcentage d’allocation) et la durée ou l’effort total de la tâche. Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Types Durée de tâche et Durée</a></p> </td> 
+      <td> <p>Détermine la relation entre le nombre de ressources (et leur pourcentage d’allocation) et la durée ou l’effort total de la tâche. Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Types Durée de tâche et durée : index de l’article</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type de revenus</td> 
@@ -113,7 +112,7 @@ Les étapes de cet article doivent être les suivantes :
     </tbody> 
    </table>
 
-### Événements {#issues}
+### Problèmes {#issues}
 
 <table style="table-layout:auto"> 
     <col> 
@@ -131,9 +130,9 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader">Lors de la conversion d’un problème en tâche</td> 
       <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion, d’un problème à l’autre :</p> 
        <ul> 
-        <li><strong>Conserver le problème d’origine et lier sa résolution à la tâche</strong>: Lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à Fermé lorsque la tâche est terminée.</li> 
-        <li><strong>Autoriser les contacts Principal à accéder à la tâche</strong>: Donne à l’Principal contact (créateur de problèmes) l’accès à la tâche pour examiner la tâche, la mettre à jour et rester informé de son avancement.</li> 
-        <li> <p><strong>Autoriser la modification de ces paramètres lors de la conversion</strong>: Permet à l’utilisateur qui convertit le problème de modifier ces options lors de la conversion d’un problème en tâche.</p> <!--
+        <li><strong>Conserver le problème d’origine et lier sa résolution à la tâche</strong>: lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à Fermé lorsque la tâche est terminée.</li> 
+        <li><strong>Autoriser les contacts de Principal à accéder à la tâche</strong>: donne au contact principal (créateur de problèmes) l’accès à la tâche pour examiner la tâche, la mettre à jour et rester informé de son avancement.</li> 
+        <li> <p><strong>Autoriser la modification de ces paramètres lors de la conversion</strong>: permet à l’utilisateur qui convertit le problème de modifier ces options lors de la conversion d’un problème en tâche.</p> <!--
           Screenshot when possible</p>
          --> </li> 
        </ul> </td> 
@@ -142,9 +141,9 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader">Lors de la conversion d’un problème en projet</td> 
       <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion d’un problème à l’autre :</p> 
        <ul> 
-        <li><strong>Conserver le problème d’origine et lier sa résolution au projet</strong>: Lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que le projet soit terminé. Le statut du problème passe automatiquement à Fermé lorsque le projet est terminé.</li> 
-        <li><strong>Autoriser les contacts Principal à accéder au projet</strong>: Permet au Principal contact (créateur de problèmes) d’accéder au projet pour l’examiner, le mettre à jour et rester informé de son avancement.</li> 
-        <li><strong>Autoriser la modification de ces paramètres lors de la conversion</strong>: Permet à l’utilisateur qui convertit le problème de modifier les options répertoriées lors de la conversion d’un problème en projet.</li> 
+        <li><strong>Conserver le problème d’origine et lier sa résolution au projet</strong>: lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que le projet soit terminé. Le statut du problème passe automatiquement à Fermé lorsque le projet est terminé.</li> 
+        <li><strong>Autoriser les contacts de Principal à accéder au projet</strong>: donne au contact principal (créateur du problème) l’accès au projet pour examiner le projet, effectuer des mises à jour et rester informé de son avancement.</li> 
+        <li><strong>Autoriser la modification de ces paramètres lors de la conversion</strong>: permet à l’utilisateur qui convertit le problème de modifier les options répertoriées lors de la conversion d’un problème en projet.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -160,7 +159,7 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader">Autoriser les utilisateurs à supprimer les tâches et les événements comportant des heures consignées</td> 
       <td> <p> Permet de déterminer si vous autorisez la suppression de tâches ou de problèmes lorsque des heures sont enregistrées. Cette option est sélectionnée par défaut.</p> 
        <div> 
-        <p><b>Conseil</b>: Ce paramètre s’applique également à la suppression des projets comportant des tâches ou des problèmes avec les heures de connexion. Ce paramètre ne s’applique pas à la suppression de projets pour lesquels le temps est consigné directement pour le projet. </p> 
+        <p><b>Conseil</b>: ce paramètre s’applique également à la suppression des projets comportant des tâches ou des problèmes avec les heures de connexion. Ce paramètre ne s’applique pas à la suppression de projets pour lesquels le temps est consigné directement pour le projet. </p> 
         <p>Tenez compte des points suivants :</p> 
         <ul> 
          <li> <p>Lorsqu’elle est sélectionnée, vous recevez un avertissement informatif lorsque vous supprimez une tâche ou un problème. L’avertissement vous rappelle que si la tâche ou le problème a des heures enregistrées, elles seront déplacées vers le projet ou supprimées. Vous pouvez définir si les heures sont supprimées ou déplacées vers le projet dans la zone Préférences de la feuille de temps et des heures de la configuration. Une fois que vous avez confirmé l’affichage de l’avertissement, la tâche ou le problème est supprimé. Pour plus d’informations sur la configuration des préférences Frise chronologique et Heures, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configuration des préférences de feuille de temps et d’heure</a>. </p> <p>Conseil : <span>Lorsque vous supprimez un projet avec des tâches et des problèmes ayant des heures enregistrées, les heures consignées sont supprimées ou elles sont conservées conformément aux paramètres de la zone Préférences de la feuille de temps et des heures de la configuration.</span>. </p> </li> 
@@ -186,7 +185,7 @@ Les étapes de cet article doivent être les suivantes :
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Une fois qu'une tâche est terminée ou qu'un événement est clos, définir la date d'achèvement effective sur</td> 
+      <td role="rowheader">Lorsqu’une tâche ou un problème est terminé, définissez la Date de fin réelle sur</td> 
       <td> <p>Sélectionnez l’une des options suivantes lorsque la Date de fin réelle est enregistrée dans Workfront lorsqu’une tâche ou un problème est terminé :</p> 
        <ul> 
         <li><strong>Maintenant :</strong> La date de fin réelle est définie sur la date actuelle.</li> 
@@ -230,24 +229,24 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader">Lorsqu’une personne est affectée à une tâche</td> 
       <td> 
        <ul> 
-        <li><strong>Donnez-leur ... accès à une tâche.</strong>: Définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Accorder l’accès aux utilisateurs</a>.</li> 
-        <li> <p><strong>Accorder également ... l’accès au projet</strong>: Définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
+        <li><strong>Donnez-leur ... accès à une tâche.</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Accorder l’accès aux utilisateurs</a>.</li> 
+        <li> <p><strong>Accorder également ... l’accès au projet</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lorsqu’une personne est affectée à un problème</td> 
       <td> 
        <ul> 
-        <li><strong>Donnez-leur ... accès à une tâche.</strong>: Définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
-        <li> <p><strong>Accorder également ... l’accès au projet</strong>: Définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
+        <li><strong>Donnez-leur ... accès à une tâche.</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour la tâche à laquelle il est affecté. Pour plus d’informations sur les autorisations de tâche, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</li> 
+        <li> <p><strong>Accorder également ... l’accès au projet</strong>: définit l’autorisation par défaut dont dispose un utilisateur pour le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lorsqu’une personne envoie une requête</td> 
       <td> 
        <ul> 
-        <li><strong>Donnez-leur ... accès au problème</strong>: Définit l’autorisation par défaut d’un utilisateur pour une demande qu’il a envoyée. Pour plus d’informations, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème</a>.</li> 
-        <li> <p><strong>Les personnes d’une même société hériteront des mêmes autorisations pour toutes les demandes.</strong>: Permet aux utilisateurs d’afficher les demandes envoyées par d’autres utilisateurs de la même société qu’eux. Ils disposent des mêmes autorisations sur ces demandes que sur leurs propres demandes envoyées.</p> </li> 
+        <li><strong>Donnez-leur ... accès au problème</strong>: définit l’autorisation par défaut d’un utilisateur pour une demande qu’il a envoyée. Pour plus d’informations, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème</a>.</li> 
+        <li> <p><strong>Les personnes d’une même société hériteront des mêmes autorisations pour toutes les demandes.</strong>: permet aux utilisateurs d’afficher les demandes envoyées par d’autres utilisateurs de la même société qu’eux. Ils disposent des mêmes autorisations sur ces demandes que sur leurs propres demandes envoyées.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

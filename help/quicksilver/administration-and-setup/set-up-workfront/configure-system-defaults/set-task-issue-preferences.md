@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 1%
+source-wordcount: '2108'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
@@ -58,10 +58,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Sur la page qui s’affiche, passez à l’une des 5 sections répertoriées ci-dessous pour configurer les paramètres de [!UICONTROL Nouvelles valeurs par défaut des tâches], [!UICONTROL Problèmes], [!UICONTROL Suppression], [!UICONTROL Dates réelles], et [!UICONTROL Accès].
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-* [[!UICONTROL Paramètres par défaut de la nouvelle tâche]](#new-task-defaults)
+* [[!UICONTROL Nouvelles valeurs par défaut des tâches]](#new-task-defaults)
 * [[!UICONTROL Événements]](#issues)
 * [[!UICONTROL Suppression]](#deletion)
-* [[!UICONTROL Dates effectives]](#actual-dates)
+* [[!UICONTROL Dates réelles]](#actual-dates)
 * [[!UICONTROL Délégation]](#delegation)
 
   <!--
@@ -70,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * [[!UICONTROL Accès]](#access)
 
-### [!UICONTROL Paramètres par défaut de la nouvelle tâche] {#new-task-defaults}
+### [!UICONTROL Nouvelles valeurs par défaut des tâches] {#new-task-defaults}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
-   <td> <p>Détermine la relation entre le nombre de ressources (et leur pourcentage d’allocation) et la durée ou l’effort total de la tâche. Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Types Durée de tâche et Durée</a></p> </td> 
+   <td> <p>Détermine la relation entre le nombre de ressources (et leur pourcentage d’allocation) et la durée ou l’effort total de la tâche. Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Types Durée de tâche et durée : index de l’article</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
@@ -113,7 +113,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader" [!UICONTROL>Lors de la conversion d’un problème en tâche]</td> 
    <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion, d’un problème à l’autre :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution à la tâche]</strong>: lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois la tâche terminée. Si cette option est désélectionnée, le problème est supprimé.</p> <p><b>NOTE</b>:  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 
+     <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution à la tâche]</strong>: lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois la tâche terminée. Si cette option est désélectionnée, le problème est supprimé.</p> <p><b>REMARQUE</b>:  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a> </p> </li> 
@@ -128,7 +128,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader">[!UICONTROL Lors de la conversion d’un problème en projet]</td> 
    <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion d’un problème à l’autre :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution au projet]</strong>: lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que le projet soit terminé. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois le projet terminé. Si cette option est désélectionnée, le problème est supprimé. </p> <p><b>NOTE</b>:  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 
+     <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution au projet]</strong>: lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que le projet soit terminé. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois le projet terminé. Si cette option est désélectionnée, le problème est supprimé. </p> <p><b>REMARQUE</b>:  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a> </p> </li> 
@@ -156,7 +156,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Lorsque vous désactivez cette option, vous recevez un avertissement prohibitif lorsque vous supprimez une tâche ou un problème lié aux heures journalisées, ou lorsque vous supprimez un projet avec des heures journalisées pour ses tâches ou problèmes. L’avertissement indique que l’administrateur n’autorise pas la suppression de tâches ou de problèmes avec les heures enregistrées. Les tâches, problèmes ou projets dont les heures sont enregistrées pour les tâches et problèmes ne peuvent pas être supprimés.
 
-### [!UICONTROL Dates effectives] {#actual-dates}
+### [!UICONTROL Dates réelles] {#actual-dates}
 
 <table style="table-layout:auto"> 
  <col> 

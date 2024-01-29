@@ -7,7 +7,7 @@ description: La date de fin prévue est un indicateur calculé en temps réel du
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Présentation de la date d’achèvement prévue pour les projets, tâches et problèmes
+
+<!-- Audited: 1/2024 -->
 
 La date de fin prévue est un indicateur calculé en temps réel du moment où le projet, la tâche ou le problème sera terminé. Lorsque le projet, la tâche ou le problème est marqué comme terminé, la date d’achèvement prévue est remplacée par la date d’achèvement réel.
 

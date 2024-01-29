@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
 workflow-type: tm+mt
-source-wordcount: '13886'
+source-wordcount: '13888'
 ht-degree: 0%
 
 ---
@@ -1337,7 +1337,7 @@ ht-degree: 0%
          * [Présentation de la contrainte de tâche : aussi tard que possible](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [Mettre à jour la contrainte de tâche d’une tâche](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
       * Types Durée de tâche et Durée {#task-duration-and-duration-types}
-         * [Types Durée de tâche et Durée](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+         * [Types Durée de tâche et durée : index de l’article](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [Présentation de la durée et du type de durée de la tâche](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [Présentation du type de durée : Attribution calculée](manage-work/tasks/taskdurtn/calculated-assignment.md)
          * [Présentation du type de durée : piloté par l’effort](manage-work/tasks/taskdurtn/effort-driven.md)
