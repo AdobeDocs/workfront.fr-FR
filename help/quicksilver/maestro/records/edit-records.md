@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 1%
@@ -107,7 +107,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
 * [Sur la page Détails d’un enregistrement](#edit-a-record-from-the-records-details-page)
-* [En mode Tableau d’un type d’enregistrement](#edit-a-record-from-the-record-type-table-view)
+* [En mode Tableau d’un type d’enregistrement](#edit-a-record-from-the-table-view-of-a-record-type)
 
 ### Modifier un enregistrement à partir de la page Détails de l’enregistrement
 
@@ -181,3 +181,5 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
    * Ctrl + Z (⌘ + Z pour Mac) pour annuler une modification.
    * Ctrl + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir la modification
+<!--
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->

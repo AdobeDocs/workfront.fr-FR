@@ -7,16 +7,20 @@ description: Vous pouvez évaluer si une équipe est terminée, sous ou à la ca
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Visualisation de la capacité des ressources dans les analyses améliorées
 
+<!--Audited: 01/2024-->
+
 Vous pouvez évaluer si une équipe est terminée, sous ou à la capacité lorsqu’elle consulte le graphique de visualisation de la capacité des ressources d’analyse améliorée dans Adobe Workfront.
+
+Les équipes illustrées dans la visualisation des ressources font référence à l’équipe d’accueil des utilisateurs affectés au travail pendant la période spécifiée.
 
 ## Exigences d’accès
 
@@ -56,9 +60,9 @@ Vous devez disposer des éléments suivants :
 
 Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; de la section [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Comprendre le graphique de la capacité des ressources
+## Présentation de la visualisation de la capacité de ressource
 
-Le graphique Capacité des ressources indique si une équipe est terminée, sous ou à capacité. Ce calcul est basé sur :
+La visualisation Capacité des ressources indique si une équipe est terminée, sous ou à capacité. Ce calcul est basé sur :
 
 * **Capacité disponible**: nombre total d’heures pendant lesquelles une équipe d’accueil peut travailler pendant la période filtrée.
 
@@ -90,24 +94,25 @@ Dans la visualisation de la capacité de ressource, vous pouvez voir les détail
 
   ![](assets/resource-capacity-under-capacity.png)
 
-Le survol d’une ligne indique le nombre exact d’heures de capacité planifiée et de capacité disponible, ainsi que le nombre d’heures pendant lesquelles l’équipe d’accueil est supérieure ou inférieure à sa capacité.
+Le passage du curseur sur la ligne d’une équipe indique le nombre exact d’heures de capacité planifiée et de capacité disponible, ainsi que le nombre d’heures pendant lesquelles l’équipe d’accueil est supérieure ou inférieure à sa capacité.
 
 L’affichage de ces informations vous permet de déterminer les éléments suivants :
 
-* Si l&#39;équipe d&#39;accueil a été surchargée ou sous-affectée.
-* Ce sur quoi l&#39;équipe d&#39;accueil s&#39;est concentrée, ce sont les plus grands projets.
-* Quelles équipes domestiques sont disponibles pour le travail ?
+* Si l’équipe est surchargée ou sous-affectée.
+* Ce sur quoi l&#39;équipe d&#39;accueil se concentre, ce sont les plus grands projets.
+* Quelles équipes sont disponibles pour le travail ?
 
 Pour savoir comment obtenir les meilleures données pour cette visualisation, voir [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualisation de la capacité de ressource
 
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon-16x12.png), puis sélectionnez **Analytics**.
+{{step1-to-analytics}}
+
 1. Dans le panneau de gauche, sélectionnez **Personnes**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Facultatif) Pour utiliser une autre période, sélectionnez de nouvelles dates de début et de fin dans le filtre de période.
+1. (Facultatif) Pour utiliser une autre plage de dates, sélectionnez de nouvelles dates de début et de fin dans le filtre de plage de dates situé dans le coin supérieur droit du graphique.
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -125,7 +130,15 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Passez la souris sur la ligne de l’équipe d’accueil pour voir combien d’heures sont encore disponibles pour la planification, le nombre d’heures planifiées pour l’équipe d’accueil et le nombre total d’heures travaillées, qui est indiqué comme étant terminé, inférieur ou à capacité.
+1. Passez la souris sur la ligne de l’équipe d’accueil pour afficher les éléments suivants :
+
+   * Combien d’heures sont encore disponibles pour la planification
+   * Le nombre d’heures planifiées pour l’équipe d’accueil.
+   * Nombre total d’heures travaillées. Le nombre total d’heures travaillées peut comporter les étiquettes suivantes :
+
+      * Over
+      * Sous
+      * À sa capacité.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 

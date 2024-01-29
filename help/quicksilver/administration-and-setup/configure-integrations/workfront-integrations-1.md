@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
      <li>Recherchez [!DNL Workfront] projets, tâches et problèmes </li> 
      <li>Créer [!DNL Workfront] tâches personnelles </li> 
      <li>Envoyer [!DNL Workfront] requests </li> 
-    </ul> <p>Pour plus d’informations, voir <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]</a>.</p> </td> 
+    </ul> <p>Pour plus d’informations, voir <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: index de l’article</a>.</p> </td> 
    <td> 
     <ul> 
      <li>Chaque équipe de votre entreprise doit installer l’intégration si plusieurs équipes souhaitent l’utiliser.</li> 

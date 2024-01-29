@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '2316'
 ht-degree: 3%
@@ -222,6 +222,9 @@ Vous pouvez avoir jusqu’à 10 000 enregistrements (ou lignes) pour un type d�
 
    Les enregistrements que vous ajoutez dans la vue de tableau sont immédiatement enregistrés et visibles par tous les utilisateurs disposant d’autorisations d’affichage ou supérieures à l’espace de travail.
 
+   <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
+        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+
 1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez le **handle** icon ![](assets/handle-icon.png) à gauche du nom de l’enregistrement pour réorganiser les lignes.
 
    >[!NOTE]
@@ -235,9 +238,9 @@ Vous pouvez avoir jusqu’à 10 000 enregistrements (ou lignes) pour un type d�
         The changes you make to the row order are permanent and visible to all users who access the record type
     -->
 
-### Ajout de filtres {#add-filters}
+<!-- this section below links from the timeline view; consider splitting them if they become different-->
 
-<!-- this section links from the timeline view; consider splitting them if they become different-->
+### Ajout de filtres {#add-filters}
 
 Les filtres permettent de réduire la quantité d’informations affichées à l’écran.
 

@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: En tant qu’administrateur Adobe Workfront, vous pouvez effectuer le suivi des modifications utilisateur déclenchées dans le système au cours des 90 derniers jours à l’aide des journaux d’audit.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 4%
+source-wordcount: '1464'
+ht-degree: 2%
 
 ---
 
 # Journaux d’audit
+
+<!--Audited: 01/2024-->
 
 En tant qu’administrateur Adobe Workfront, vous pouvez effectuer le suivi des modifications utilisateur déclenchées dans le système au cours des 90 derniers jours à l’aide des journaux d’audit décrits ci-dessous.
 
@@ -30,7 +32,7 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Date/Heure</td> 
+   <td role="rowheader">Date et heure</td> 
    <td>Lorsque l’action s’est produite.</td> 
   </tr> 
   <tr> 
@@ -43,7 +45,7 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
   </tr> 
   <tr> 
    <td role="rowheader">Action</td> 
-   <td> Action effectuée par l’utilisateur, par exemple Modifier, Créer et Supprimer. </td> 
+   <td> Actions effectuées par l’utilisateur, telles que Modifier, Créer et Supprimer. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objet</td> 
@@ -63,21 +65,21 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
 ## Types de journaux d’audit et actions qui les déclenchent
 
 * [Niveau d’accès](#access-level)
-* [Entreprise](#company)
+* [Société](#company)
 * [Condition](#condition)
 * [Champ personnalisé](#custom-field)
 * [Formulaires personnalisés](#custom-forms)
 * [Section personnalisée](#custom-section)
 * [Taux de change](#exchange-rate)
 * [Groupe](#group)
-* [Fonctions](#job-roles)
+* [Rôles de tâche](#job-roles)
 * [Tentative de connexion](#login-attempt)
 * [Priorité](#priority)
-* [Préférences Projet](#project-preferences)
+* [Préférence du projet](#project-preference)
 * [Gravité](#severity)
-* [Statut](#status)
-* [Préférences des tâches et des événements](#tasks-issues-preferences)
-* [Utilisateur](#user)
+* [État](#status)
+* [Tâches et problèmes](#tasks-issues-preferences)
+* [l’utilisateur ou de l’utilisatrice](#user)
 
 ### Niveau d’accès {#access-level}
 
@@ -88,13 +90,13 @@ Le système génère une entrée de journal de niveau d’accès lorsqu’un uti
 * Modifie un niveau d’accès :
 
    * Modification du type de licence
-   * Modifie les autorisations de projets, de tâches, de problèmes, de Portfolios, de programmes, de rapports, de documents, d’utilisateurs ou de modèles.
+   * Modifie les autorisations en ce qui concerne les projets, tâches, problèmes, Portfolios, programmes, rapports, documents, utilisateurs ou modèles.
 
-      >[!NOTE]
-      >
-      >Le système n’enregistre aucune modification d’autorisation des données financières ou dans les types d’accès suivants : Afficher et modifier.
-      >
-      >Par exemple, si un utilisateur passe du type d’accès Planificateur Vue à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Régler vos paramètres .
+     >[!NOTE]
+     >
+     >Le système n’enregistre aucune modification des autorisations dans les données financières ou dans les types d’accès suivants : Afficher et Modifier.
+     >
+     >Par exemple, si un utilisateur passe du type d’accès Planificateur Vue à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Régler vos paramètres .
 
 ### Entreprise {#company}
 
@@ -108,7 +110,7 @@ Le système génère une entrée de journal d’audit de l’entreprise lorsqu�
    * Ajoute, modifie ou supprime la valeur dans son champ Groupe .
    * Ajoute ou modifie un taux de facturation d’entreprise pour un rôle de tâche
    * Suppression d’un taux de facturation d’entreprise pour un rôle de tâche
-   * Définit cette variable comme Principale entreprise pour l’organisation.
+   * Définit cette variable comme entreprise principale pour l’organisation.
    * Joindre ou supprimer un formulaire personnalisé
 
 * Suppression d’une entreprise
@@ -139,17 +141,17 @@ Le système génère une entrée de journal d’audit Champ personnalisé lorsqu
 * Crée un champ personnalisé
 * Modifie un champ personnalisé :
 
-   * Modification du nom, du libellé, des instructions ou du format
+   * Modifie le nom, le libellé, les instructions ou le format
    * Modification du type d’affichage
 
-      Cette option est disponible uniquement si le champ est de l’un des types suivants : ligne simple, paragraphe, liste déroulante, case à cocher, bouton radio
+     Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, un paragraphe, une liste déroulante, une case à cocher, un bouton radio.
 
    * Modification de la taille du champ
 
-      Cette option est disponible uniquement si le champ est de l’un des types suivants : ligne simple, paragraphe, texte avec mise en forme
+     Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, un paragraphe, du texte avec formatage.
 
    * Ajoute, supprime ou masque un choix de champ.
-   * Modification d’une valeur ou d’une étiquette de choix de champ
+   * Modifie une valeur ou une étiquette de choix de champ
    * Configure le choix du champ à sélectionner ou non par défaut.
    * Configure un champ de liste déroulante pour permettre plusieurs sélections ou une sélection unique.
    * Configure un champ de date pour afficher ou non l’heure
@@ -166,7 +168,7 @@ Le système génère une entrée de journal d’audit Forms personnalisé lorsqu
 * Modifie un formulaire personnalisé :
 
    * Modification du nom ou de la description
-   * Active ou désactive Est Principal
+   * Active ou désactive la fonction est active
    * Ajoute ou supprime un champ ou une section
    * Pour une section personnalisée, modifie un paramètre sous Paramètres supplémentaires
    * Remplace un champ par obligatoire ou non obligatoire.
@@ -175,7 +177,7 @@ Le système génère une entrée de journal d’audit Forms personnalisé lorsqu
    * Active ou désactive la mise à jour des calculs précédents
    * Ajoute ou modifie une logique de saut ou une logique d’affichage
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -212,7 +214,7 @@ Pour plus d’informations sur la configuration des taux de change, voir [Config
 Le système génère une entrée de journal d’audit de groupe lorsqu’un utilisateur effectue l’une des actions suivantes :
 
 * Crée un groupe
-* Supprime un groupe.
+* Supprime un groupe
 * Modifie un groupe :
 
    * Ajoute ou supprime des utilisateurs
@@ -265,7 +267,7 @@ Le système génère une entrée de journal d’audit de priorité lorsqu’un u
 
 Pour plus d’informations sur la configuration des priorités, voir [Créer et personnaliser des priorités](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-### Préférences Projet {#project-preferences}
+### Préférence du projet {#project-preference}
 
 Le système génère une entrée de journal d’audit Préférences du projet lorsqu’un utilisateur effectue l’une des actions suivantes :
 
@@ -325,21 +327,21 @@ Le système génère une entrée de journal d’audit des préférences Tâches 
 
 Pour plus d’informations sur les préférences de tâche et de problème, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-### Utilisateur {#user}
+### l’utilisateur ou de l’utilisatrice {#user}
 
 Le système génère une entrée de journal d’audit utilisateur lorsqu’un utilisateur effectue l’une des actions suivantes :
 
-* Crée un utilisateur
+* Création d’un utilisateur
 
-   <!--
+  <!--
   DRAFTED IN FLARE:
   Gevorg checking with Jonah on whether this note should be here:
   
   -->
 
-   >[!NOTE]
-   >
-   >Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.
+  >[!NOTE]
+  >
+  >Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.
 
 * Suppression d’un utilisateur
 * Modification du niveau d’accès, de la société, de l’équipe ou du groupe d’un utilisateur

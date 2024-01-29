@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Création d’une Fiche d’évaluation
 description: Une fiche d’évaluation mesure si un projet s’aligne sur les critères précédemment établis d’un portefeuille. Une fiche d’évaluation reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation. Les gestionnaires de Portfolios définissent généralement les questions et les réponses de la fiche d’évaluation afin de s’assurer qu’elles sont pertinentes et utiles lors de la définition des priorités et de la sélection du projet. Un [!DNL Adobe Workfront] L’administrateur crée les fiches d’évaluation en fonction des recommandations des gestionnaires de portefeuille.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # Création d’une Fiche d’évaluation
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -34,21 +36,27 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>[!UICONTROL Business] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Actuel : [!UICONTROL Entreprise] ou version ultérieure</p> 
+   Ou
+   <p>Nouveau : [!UICONTROL Prime] ou version ultérieure</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>Actuel :[!UICONTROL Plan]</p>
+   Ou
+   <p>Nouveau : [!UICONTROL Standard]</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Création d’une Fiche d’évaluation
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Fiches d’évaluation]**, puis cliquez sur **[!UICONTROL Nouvelle Fiche d’évaluation]** pour créer une Fiche d’évaluation et lancer le créateur de Fiche d’évaluation.
+1. Cliquez sur **[!UICONTROL Fiches d’évaluation]**, puis cliquez sur **[!UICONTROL Nouvelle Fiche d’évaluation]** pour lancer le créateur de Fiche d’évaluation et créer une Fiche d’évaluation.
 
 1. Spécifiez un **[!UICONTROL Nom de la Fiche d’évaluation]** et un **[!UICONTROL Description]**.
 
@@ -86,7 +94,9 @@ Les étapes de cet article doivent être les suivantes :
    >
    >Vous pouvez réorganiser les questions de votre fiche d’évaluation en les faisant glisser et en les déposant dans le bon ordre.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé de saisir vos données.
+1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé de saisir toutes les informations.
+
+   Cela crée la Fiche d’évaluation et les chefs de projet peuvent désormais la joindre à leur analyse de projet.
 
 ## Application d’une fiche d’évaluation à un projet
 
@@ -94,6 +104,4 @@ Un utilisateur avec [!UICONTROL gérer] les autorisations d’un projet peuvent 
 
 Une fiche d’évaluation est ajoutée à un projet dans le cadre de la création d’un dossier commercial pour le projet. Pour plus d’informations sur l’ajout d’une fiche d’évaluation à un projet, voir [Application d’une fiche d’évaluation à un projet et génération d’une note d’alignement](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Pour plus d’informations sur la création de fiches d’évaluation, voir [Création d’une Fiche d’évaluation](#create-a-scorecard).
-
-Pour plus d’informations sur les autorisations de projet, voir [Partage d’un projet dans [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Pour plus d’informations sur les autorisations de projet, voir [Partager un projet dans [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
