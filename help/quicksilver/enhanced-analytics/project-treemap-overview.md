@@ -7,18 +7,20 @@ description: La visualisation du graphique Treemap du projet est une vue des heu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: '815'
+ht-degree: 0%
 
 ---
 
 # Visualisation du graphique Treemap du projet dans les analyses améliorées
 
+<!-- Audited: 12/2023 -->
+
 La visualisation du graphique Treemap du projet est une vue des heures (ou des jours) qui ont été travaillées dans une fenêtre de temps spécifique par rapport à d’autres tâches de taille. Cela vous aide à comprendre le temps que les gens ont consacré à un projet.
 
-![](assets/project-treemap-350x126.png)
+![](assets/project-treemap-350x126.png){width="700"}
 
 ## Exigences d’accès
 
@@ -29,25 +31,29 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Adobe Workfront</a></td> 
    <td> <p>Professionnel ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>*</td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a></td> 
+   <td>   <p>Nouveau :</p> 
+   <ul><li>Clair ou plus élevé</li></ul>
+   <p>Actuel :</p>
+   <ul><li>Révision ou version ultérieure</li></ul>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage de l’accès aux projets</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès.<br>Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Affichage de l’accès aux projets</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -57,17 +63,17 @@ Pour connaître les conditions préalables à l’utilisation d’Analytics amé
 
 Les zones de la visualisation du graphique Treemap du projet représentent les projets et la taille des zones montre une comparaison du temps passé sur différents projets. Plus la boîte est grande, plus le temps passé sur le projet est important.
 
-La visualisation du graphique Treemap du projet se compose des éléments suivants :
+La visualisation du graphique Treemap du projet comprend :
 
-* **Boîtes bleues plus petites**: Les projets qui comportent moins d’heures (ou de jours) s’affichent sous forme de petites zones de couleur bleu clair.
+* **Boîtes bleues plus petites**: les projets qui comportent moins d’heures (ou de jours) s’affichent sous forme de petites zones de couleur bleu clair.
 
-   ![](assets/project-treemap-smaller-box.png)
+  ![](assets/project-treemap-smaller-box.png)
 
-* **Boîtes bleues foncées plus grandes**: Les projets qui comportent plus d’heures (ou de jours) s’affichent sous forme de zones plus grandes avec une couleur bleu foncé.
+* **Boîtes bleues foncées plus grandes**: les projets qui comportent plus d’heures (ou de jours) s’affichent sous forme de zones plus grandes avec une couleur bleu foncé.
 
-   ![](assets/project-treemap-larger-box-350x205.png)
+  ![](assets/project-treemap-larger-box-350x205.png)
 
-* **Boîtes de taille moyenne, bleues**: Les projets qui se situent entre les deux catégories s’affichent sous forme de zones de taille moyenne avec une nuance de bleu entre le bleu foncé et le bleu clair. Les boîtes de taille moyenne peuvent présenter 3 nuances de bleu.
+* **Cases bleues de taille moyenne**: les projets qui se situent entre les deux catégories s’affichent sous forme de zones de taille moyenne avec un nuage de bleu entre le bleu foncé et le bleu clair. Les boîtes de taille moyenne peuvent présenter 3 nuances de bleu.
 
 La légende sur le côté droit affiche une répartition des heures terminées pour chaque nuage de bleu. Cette légende est dynamique et se met à jour en fonction des données.
 
@@ -100,14 +106,14 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    Pour plus d’informations sur l’ajout de filtres dans les analyses améliorées, voir [Application de filtres dans les analyses améliorées](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   Une fois que vous avez ajouté des filtres, les données de 50 projets au maximum s’affichent et les filtres restent principaux même après avoir quitté la page ou vous être déconnecté de Workfront.
+   Une fois que vous avez ajouté des filtres, les données de 50 projets au maximum s’affichent et les filtres restent actifs même après avoir quitté la page ou vous être déconnecté de Workfront.
 
 1. (Facultatif) Pour modifier le mode de tri des projets, cliquez sur le bouton **Tri par** dans le coin supérieur droit de la visualisation du graphique Treemap du projet, puis sélectionnez une nouvelle option de tri :
 
-   * **A - Z**
+   * **A à Z**
    * **Z - A**
    * **Date d’achèvement prévue**
-   * **Date de début prévue**
+   * **Date de début planifiée**
 
    Toutes les autres visualisations de la page sont mises à jour pour correspondre à votre sélection de tri.
 
@@ -129,9 +135,8 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
    >
    >Si vous avez sélectionné la variable **durée** vous verrez les détails de durée suivants :
    >
-   >* **Période planifiée**: Nombre de jours prévus pour terminer le projet.
-   >* **Jours de travail**: La durée planifiée pour chaque tâche qui a été complétée au cours de la période sélectionnée en haut, divisée par le nombre d’heures par jour.
-
+   >* **Période planifiée**: nombre de jours prévus pour terminer le projet.
+   >* **Jours de travail**: durée planifiée de chaque tâche qui a été effectuée dans la plage de dates sélectionnée en haut, divisée par le nombre d’heures par jour.
    >   
    >![](assets/duration-treemap-350x159.png)
    >

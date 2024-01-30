@@ -1,5 +1,5 @@
 ---
-title: Visualisation de l’activité Projet dans les analyses améliorées
+title: Visualisation de l’activité de projet dans les analyses améliorées
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
@@ -7,14 +7,16 @@ description: La visualisation de l’activité de projet affiche une vue globale
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 0%
 
 ---
 
-# Visualisation de l’activité Projet dans les analyses améliorées
+# Visualisation de l’activité de projet dans les analyses améliorées
+
+<!-- Audited: 12/2023 -->
 
 La visualisation de l’activité de projet affiche une vue globale des activités au niveau du projet (les activités de chaque personne affectée au projet) qui se sont produites au cours d’une période spécifique. Vous pouvez vous concentrer sur les activités d’un projet ou comparer les activités d’un projet à d’autres projets dans Adobe Workfront.
 
@@ -22,10 +24,6 @@ La visualisation de l’activité de projet affiche une vue globale des activit�
 >
 >La visualisation Activité par équipe se comporte de la même manière que cette visualisation, mais la visualisation Activité par équipe affiche l’activité de l’équipe d’accueil pour tous les projets.\
 >Pour plus d’informations sur la visualisation de l’activité par équipe, voir [Visualisation de l’activité par équipe dans les analyses améliorées](../enhanced-analytics/activity-by-team-overview.md).
-
-<!--WRITER bad link; there is no Activity by Team.png
-[![](assets/project-activity-350x114.png)](../Resources/Images/Analytics/Activity by Team.png)
--->
 
 ## Exigences d’accès
 
@@ -36,25 +34,29 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Workfront</a></td> 
    <td> <p>Professionnel ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>*</td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a></td> 
+   <td>   <p>Nouveau :</p> 
+   <ul><li>Clair ou plus élevé</li></ul>
+   <p>Actuel :</p>
+   <ul><li>Révision ou version ultérieure</li></ul>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage de l’accès aux projets</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès.<br>Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Affichage de l’accès aux projets</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -64,17 +66,17 @@ Pour connaître les conditions préalables à l’utilisation d’Analytics amé
 
 Les activités du projet s’affichent de différentes couleurs pour résumer des événements spécifiques d’un projet sur une période donnée :
 
-* **Utilisateurs connectés**: Les zones violettes indiquent que les personnes affectées au projet se sont connectées ce jour-là. Une ombre plus sombre indique un nombre plus élevé de personnes se connectant.
+* **Utilisateurs connectés**: les zones violettes indiquent que les personnes affectées au projet se sont connectées ce jour-là. Une ombre plus sombre indique un nombre plus élevé de personnes se connectant.
 
-   ![](assets/project-activity-users-logged-in.png)
+  ![](assets/project-activity-users-logged-in.png)
 
-* **Modification de l’état de la tâche**: Les cases roses montrent que les personnes ont modifié l’état d’une tâche pour le projet ce jour-là. Une nuance plus foncée indique un nombre plus élevé de statuts de tâche changeant.
+* **Modification de l’état de la tâche**: des zones roses montrent que des personnes ont modifié l’état d’une tâche pour le projet ce jour-là. Une nuance plus foncée indique un nombre plus élevé de statuts de tâche changeant.
 
-   ![](assets/project-activity-task-status-changes.png)
+  ![](assets/project-activity-task-status-changes.png)
 
-* **Tâches terminées**: Les encadrés bleus indiquent que les personnes ont effectué une tâche pour le projet. Une nuance plus foncée indique un nombre plus élevé de tâches en cours d’exécution.
+* **Tâches terminées**: les zones bleues indiquent que les personnes ont effectué une tâche pour le projet. Une nuance plus foncée indique un nombre plus élevé de tâches en cours d’exécution.
 
-   ![](assets/project-activity-tasks-completed.png)
+  ![](assets/project-activity-tasks-completed.png)
 
 Le survol d’une zone indique le nombre exact de fois où l’action a été effectuée au cours d’un jour donné. Vous pouvez sélectionner un projet pour afficher la ventilation de ces activités par chaque contributeur individuel du projet.
 
@@ -103,7 +105,7 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    Pour plus d’informations sur l’ajout de filtres dans les analyses améliorées, voir [Application de filtres dans les analyses améliorées](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   Une fois que vous avez ajouté des filtres, les données de 50 projets au maximum s’affichent et les filtres restent principaux même après avoir quitté la page ou vous être déconnecté de Workfront.
+   Une fois que vous avez ajouté des filtres, les données de 50 projets au maximum s’affichent et les filtres restent actifs même après avoir quitté la page ou vous être déconnecté de Workfront.
 
 1. (Facultatif) Pour effectuer un zoom avant sur une période, sélectionnez un point de la visualisation pour le début de la période et faites glisser le curseur jusqu’à la fin de la période.
 
@@ -113,10 +115,10 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
 1. (Facultatif) Pour modifier le mode de tri des projets, cliquez sur le bouton **Tri par** , puis sélectionnez une nouvelle option de tri :
 
-   * **A - Z**
+   * **A à Z**
    * **Z - A**
    * **Date d’achèvement prévue**
-   * **Date de début prévue**
+   * **Date de début planifiée**
 
    Toutes les autres visualisations de la page sont mises à jour pour correspondre à votre sélection de tri.
 

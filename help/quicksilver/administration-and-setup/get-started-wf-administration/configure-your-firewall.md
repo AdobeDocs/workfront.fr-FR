@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 13%
+source-wordcount: '1608'
+ht-degree: 0%
 
 ---
 
 # Configuration de la liste autorisée de votre pare-feu
+
+<!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
@@ -144,14 +146,14 @@ Si votre environnement de production se trouve sur la grappe 4, ajoutez les adre
 * 52.29.197.69
 * 52.48.124.108
 * 69.169.230.231
-* 69.169. 230.232
+* 69,169. 230,232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40
 * 52.208.123.166
 * 52.208.159.124
 * 52.17.130.201
-* 34.252.250.191
+* 34 252 250 191
 * 52.30.133.50
 * 54.220.93.204
 * 34.254.76.122
@@ -219,7 +221,7 @@ Si votre environnement de production se trouve sur la grappe 6, ajoutez les adre
    <td role="rowheader">Pour les intégrations SSO et webhook de document lors de l’utilisation d’un lecteur de test</td> 
    <td> 
     <ul> 
-     <li> <p>69.42.126.188:</p> <p>Cette adresse doit également être ajoutée à votre liste autorisée pour que vos utilisateurs puissent recevoir des courriers électroniques de Workfront.</p> </li> 
+     <li> <p>69.42.126.188 :</p> <p>Cette adresse doit également être ajoutée à votre liste autorisée pour que vos utilisateurs puissent recevoir des courriers électroniques de Workfront.</p> </li> 
      <li>66.119.37.186</li> 
      <li>66.119.37.167</li> 
      <li>54.244.142.219</li> 
@@ -247,7 +249,7 @@ Pour tous les environnements, ajoutez les adresses IP suivantes afin de recevoir
      <li>54.220.93.204</li> 
      <li>52.17.130.201</li> 
      <li>34.254.76.122</li> 
-     <li>34.252.250.191</li> 
+     <li>34 252 250 191</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -287,7 +289,7 @@ Ajoutez les adresses IP suivantes pour utiliser une authentification améliorée
      <li>35.171.156.124</li> 
      <li>18.233.90.226</li> 
      <li>3.211.189.167</li> 
-     <li>18.232.225.224</li> 
+     <li>18 232 225 224</li> 
      <li>34.233.19.82</li> 
      <li>52.204.128.250</li> 
      <li>3.132.201.78</li> 
@@ -398,7 +400,7 @@ Le domaine jira.workfront.com doit également être accessible à partir des ser
      <li>54.220.93.204</li> 
      <li>52.17.130.201</li> 
      <li>34.254.76.122</li> 
-     <li>34.252.250.191</li> 
+     <li>34 252 250 191</li> 
      <li>35.162.128.73</li> 
      <li>52.42.25.64</li> 
      <li>34.213.36.118</li> 
@@ -501,7 +503,7 @@ Si votre entreprise utilise le filtrage réseau sortant, ajoutez les domaines su
      <li>*.workfront.com - Obligatoire pour afficher les bons à tirer dans Workfront</li> 
      <li>*.proofhq.com - Obligatoire pour afficher les bons à tirer dans le bon à tirer Workfront</li> 
      <li>*.proofhq.eu - Obligatoire pour afficher les bons à tirer dans le bon à tirer Workfront</li> 
-    </ul> <p><b>NOTE</b>:  <p>L’ajout d’adresses IP à votre liste autorisée pour Workfront BAT n’est pas pris en charge. Ils ont été dynamiques une fois Workfront déplacé vers AWS. Nous vous recommandons plutôt d’autoriser uniquement les domaines de BAT Workfront.</p> <p>En cas de problème lors de l’ajout de ces domaines à votre liste autorisée et si vous avez besoin d’une adresse IP à la place, contactez le service clientèle de Workfront.</p> </p> </td> 
+    </ul> <p><b>REMARQUE</b>:  <p>L’ajout d’adresses IP à votre liste autorisée pour Workfront BAT n’est pas pris en charge. Ils ont été dynamiques une fois Workfront déplacé vers AWS. Nous vous recommandons plutôt d’autoriser uniquement les domaines de BAT Workfront.</p> <p>En cas de problème lors de l’ajout de ces domaines à votre liste autorisée et si vous avez besoin d’une adresse IP à la place, contactez le service clientèle de Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -557,7 +559,7 @@ Vous devez ajouter les adresses IP suivantes à votre liste autorisée pour pouv
      <li>54.247.174.227</li> 
      <li>52.208.159.124</li> 
      <li>52.17.130.201</li> 
-     <li>34.252.250.191</li> 
+     <li>34 252 250 191</li> 
      <li>52.30.133.50</li> 
      <li>54.220.93.204</li> 
      <li>34.254.76.122</li> 

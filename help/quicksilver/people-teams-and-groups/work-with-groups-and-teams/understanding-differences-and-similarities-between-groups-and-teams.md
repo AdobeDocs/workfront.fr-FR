@@ -7,14 +7,16 @@ description: Les groupes et les équipes sont des groupes d’utilisateurs dans 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # Groupes par rapport aux équipes dans [!DNL Adobe Workfront]
+
+<!-- Audited: 12/2023 -->
 
 Les groupes et les équipes sont des groupes d’utilisateurs dans [!DNL Adobe Workfront].
 
