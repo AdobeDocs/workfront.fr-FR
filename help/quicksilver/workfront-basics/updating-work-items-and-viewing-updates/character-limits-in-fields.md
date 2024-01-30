@@ -4,12 +4,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Limites de caractères dans les champs
 description: Certains champs d’Adobe Workfront limitent le nombre de caractères pouvant être inclus dans le champ. Workfront indexe le contenu afin qu’il puisse être recherché ultérieurement. Une limite de caractères est appliquée afin d’assurer des performances de haute qualité du système Workfront.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 5%
 
 ---
@@ -36,29 +36,29 @@ Les administrateurs de Workfront ou de groupe ne peuvent pas modifier les limite
  <tbody> 
   <tr> 
    <td>Champ de texte avec formatage dans un formulaire personnalisé</td> 
-   <td>15,000</td> 
+   <td>15 000</td> 
   </tr> 
   <tr> 
    <td> <p>Mise à jour du statut</p> </td> 
-   <td> <p>15,000</p>
+   <td> <p>15 000</p>
    <p> 4 000 lors de l’utilisation de l’API</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Mettre à jour</p> </td> 
-   <td> <p>15,000</p> 
+   <td> <p>15 000</p> 
    <p> 4 000 lors de l’utilisation de l’API</p></td> 
   </tr> 
   <tr> 
    <td> <p>Description (documents, tâches, problèmes, portefeuilles, programmes et projets)</p> </td> 
-   <td> <p>4,000</p> </td> 
+   <td> <p>4 000</p> </td> 
   </tr> 
   <tr> 
    <td>Champ Description dans un formulaire personnalisé</td> 
-   <td>4,000</td> 
+   <td>4 000</td> 
   </tr> 
   <tr> 
    <td> <p>Paragraphe de données personnalisé ou texte sur une seule ligne </p> </td> 
-   <td> <p>2,000</p> </td> 
+   <td> <p>2 000</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Champ Description dans le Report Builder</p> </td> 
