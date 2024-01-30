@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
@@ -34,30 +34,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td><p>Actuel : formule</p>
+   Ou
+   <p>Nouveau : Standard</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
    <td> <p>Administrateur système</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Créer un modèle de courrier électronique {#create-a-new-email-template}
+*Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+## Création d’un modèle de courrier électronique {#create-an-email-template}
+
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Email** > **Notifications**> **Modèles de courrier électronique**.
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Cliquez sur **Nouveau modèle de courrier électronique**.
 
-1. Dans le **Nouveau modèle de courrier électronique** qui s’affiche, indiquez les informations suivantes :
+1. Dans le **Nouveau modèle de courrier électronique** indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,24 +69,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td>Titre du modèle d’email (obligatoire).</td> 
+      <td>Ajoutez un titre pour le modèle d’email. Champ obligatoire.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type d’objet</td> 
-      <td>Indiquez le type d’objet avec lequel vous souhaitez associer le modèle (obligatoire, il sera défini par défaut sur "Problème").</td> 
-     </tr>
+      <td>Indiquez le type d’objet auquel vous souhaitez associer le modèle. Choisissez l’un des objets suivants :
+      <ul>
+      <li>Projet</li>
+      <li>Tâche</li>
+      <li>Problème</li>
+      <li>Feuille de temps</li> </ul>
+
+   Il s’agit d’un champ obligatoire, défini par défaut sur Projet.</td>
+   </tr>
      <tr> 
       <td role="rowheader">Description</td> 
-      <td>Description du modèle.</td> 
+      <td>Ajoutez des informations supplémentaires sur le modèle d’email, son objectif et l’audience prévue.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Objet </td> 
-      <td>Objet affiché lors de l’envoi du message électronique (obligatoire).</td> 
+      <td>Ajoutez le texte qui s'affiche dans la ligne Objet de l'email, lors de l'envoi du message électronique généré par le modèle. Champ obligatoire.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Corps </td> 
-      <td> <p>Contenu affiché lors de l’envoi du message électronique.</p> <p>Vous pouvez utiliser la mise en forme par HTML pour le contenu de l’email, comme décrit dans la section <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Ajouter un formatage de HTML à un modèle de courrier électronique</a> dans cet article.</p> </td> 
+      <td> <p>Ajoutez le texte du contenu de l'email.</p> <p>Vous pouvez utiliser le formatage par HTML pour le contenu de l'email, comme décrit dans la section . <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Ajouter un formatage de HTML à un modèle de courrier électronique</a> dans cet article.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ Par exemple, le corps de l’email pour une notification alertant la personne d�
 
 Pour obtenir la valeur &quot;caractère générique&quot; d’un objet, effectuez l’une des opérations suivantes :
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* Reportez-vous à l’ explorateur d’API et sélectionnez les noms de vos objets dans l’onglet Champs de n’importe quel objet. Pour plus d’informations sur l’explorateur d’API, voir [Explorateur d’API](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Utilisez la valeur &quot;valueField&quot; que vous trouvez dans une vue en mode texte d’un rapport. Pour plus d’informations sur les valeurs du mode texte, voir [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Utilisez la variable `valuefield` dans une vue en mode texte d’un rapport. Pour plus d’informations sur les valeurs du mode texte, voir [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  La valeur &quot;titre&quot; peut être le nom de l’objet, car vous souhaitez qu’il apparaisse dans le corps de l’email.
+La variable `heading` peut être le nom de l’objet, tel que vous souhaitez le voir apparaître dans le corps de l’email.
 
 ### Lien vers des champs personnalisés avec HTML {#link-to-custom-fields-with-html}
 
-Vous pouvez inclure des liens vers des utilisateurs et des champs personnalisés à l’aide de la variable **$$** caractère générique indiquant au générateur de messagerie de rechercher les valeurs de la base de données associée à l’objet. Ils doivent être présents de chaque côté de la référence d’attribut de la base de données.
+Vous pouvez inclure des liens vers des utilisateurs et des champs personnalisés à l’aide de la variable `$$` caractère générique indiquant au générateur de messagerie de rechercher les valeurs de la base de données associée à l’objet. Ils doivent être présents de chaque côté de la référence d’attribut de la base de données.
 
 Par exemple, l’ajout du texte suivant en tant que HTML ajouterait le prénom de l’utilisateur affecté à la notification de rappel associée à une tâche :
 
@@ -193,11 +204,11 @@ Pour modifier un modèle d’email en vue d’un rappel de projet tardif, tenez 
 
 Remplacer `<your domain>` avec le domaine Workfront de votre entreprise, sans les crochets.
 
-**Objet:**
+**Objet :**
 
 Un Projet Que Vous Gérer Est Devenu En Retard
 
-**Contenu:**
+**Contenu :**
 
 ```html
 <html>
@@ -231,11 +242,11 @@ Remplacer `<your domain>` avec le domaine Workfront de votre entreprise, sans le
 
 Pour l’utiliser pour un message électronique de problème, modifiez la variable `/task/view.` dans le lien de l’élément de travail vers `/issue/view`.
 
-**Objet:**
+**Objet :**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
-**Contenu:**
+**Contenu :**
 
 ```html
 <html>

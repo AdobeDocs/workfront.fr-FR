@@ -6,22 +6,29 @@ description: Vous pouvez améliorer vos rapports en ajoutant un graphique. Vous 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # Ajouter un graphique à un rapport
 
+<!--Audited: 01/2024-->
+
 Vous pouvez améliorer vos rapports en ajoutant un graphique. Vous pouvez ajouter des graphiques aux rapports existants ou aux rapports que vous créez.
 
-Avant d’ajouter un graphique à un rapport, vous devez créer une Vue et un Groupement pour le rapport. La plupart des graphiques ne peuvent pas être ajoutés si les informations ne sont pas regroupées dans le rapport. Le seul graphique qui peut être ajouté sans groupement est un graphique à jauge.\
-Pour plus d’informations sur la création d’une vue, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+Avant d’ajouter un graphique à un rapport, vous devez créer une Vue et un Groupement pour le rapport.
+
+Vous ne pouvez pas ajouter de graphiques à la plupart des rapports, sauf si vous commencez par regrouper les informations dans le rapport. Le seul graphique qui peut être ajouté sans groupement est un graphique à jauge.
+
+Pour plus d’informations sur les vues, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 Pour plus d’informations sur les regroupements, voir [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Si votre rapport affiche trop d’éléments, aucun graphique n’est créé. Dans ce cas, vous devez également ajouter un filtre au rapport pour réduire le nombre de résultats dans votre rapport.\
+Si votre rapport affiche trop d’éléments, aucun graphique n’est créé. Dans ce cas, vous devez également ajouter un filtre au rapport pour réduire le nombre de résultats dans votre rapport.
+
 Pour plus d’informations sur les filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Exigences d’accès
@@ -33,33 +40,36 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Actuel : formule </p>
+   Ou
+   <p>Nouveau : Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gestion des autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ajouter un graphique à un rapport
 
 1. Accédez à un rapport existant ou créez-en un nouveau. Pour plus d’informations sur la création d’un rapport, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Conditionnel) Si vous êtes allé à un rapport existant, cliquez sur **Actions de rapport** > **Modifier**.
 
-1. Assurez-vous que la variable **Colonnes (affichage)** a été mis à jour pour répondre aux besoins du rapport.\
-   Pour plus d’informations sur la création ou la modification de l’affichage du rapport, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. Assurez-vous que la variable **Colonnes (affichage)** a été mis à jour afin d’afficher les informations que vous souhaitez afficher sous forme graphique dans le rapport.
+
+   Pour plus d’informations sur la création ou la modification de l’affichage du rapport, voir [Création ou modification de vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. Cliquez sur le bouton **Groupements** et ajoutez un groupement.
 
@@ -69,13 +79,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >* Les regroupements en mode texte ne sont pas pris en charge dans les graphiques. Pour plus d’informations sur les regroupements en mode texte, voir [Mode d’édition de texte dans un groupement](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Si vous ajoutez un groupement unique qui représente une mesure, tous les graphiques, à l’exception d’un graphique circulaire, affichent chaque résultat du groupement avec la même couleur.
 
-   Pour plus d’informations sur les regroupements, voir [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Pour plus d’informations sur la création de groupements, voir [Création de groupes dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Sélectionnez la variable **Graphique** .
 1. Cliquez sur un type de graphique pour le sélectionner.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. Vous pouvez ajouter les types de graphiques suivants à un rapport Adobe Workfront :
+1. Choisissez parmi les types de graphiques suivants :
 
    * [Graphique en colonnes](#column-chart)
    * [Graphique en barres](#bar-chart)
@@ -100,12 +110,13 @@ Pour ajouter une **Colonne** à votre rapport :
 1. (Facultatif) **Colonnes de groupe**: sélectionnez cette option pour définir le mode de regroupement des colonnes.\
    Sélectionnez l’une des options suivantes :
 
-   * Cliquez sur l&#39;une des options suivantes pour sélectionner l&#39;affichage des colonnes regroupées :\
-     **- côte à côte**
-     **- Empilé**
-     **- Empilé à 100 %**
+   * Cliquez sur l&#39;une des options suivantes pour sélectionner l&#39;affichage des colonnes regroupées :
 
-   * Sélectionnez le Groupement que vous souhaitez inclure dans le graphique.
+      * **Côté**
+      * **Empilé**
+      * **Empilé à 100 %**
+
+   * Sélectionnez le Groupement que vous souhaitez inclure dans le graphique à partir du **Regrouper les données par** menu déroulant.
    * (Facultatif) Sélectionnez **Couleurs personnalisées** pour personnaliser les couleurs des colonnes.\
      Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnalisation des couleurs des graphiques](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ Pour ajouter une **Barre** à votre rapport :
    Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnalisation des couleurs des graphiques](#customize-chart-colors).
 
 1. (Facultatif) Sélectionnez **Afficher en 3D** pour afficher le graphique en 3 dimensions.
-1. (Facultatif) Barres de groupe** : sélectionnez cette option pour définir le mode de regroupement des barres.\
+1. (Facultatif) Sélectionnez **Barres de groupe** pour définir le mode de regroupement des barres.\
    Sélectionnez l’une des options suivantes :
 
-   * Cliquez sur l’une des options suivantes pour sélectionner l’affichage des barres regroupées :\
-     **- côte à côte**
-     **- Empilé**
-     **- Empilé à 100 %**
+   * Cliquez sur l’une des options suivantes pour sélectionner l’affichage des barres regroupées :
 
-   * Sélectionnez le Groupement que vous souhaitez inclure dans le graphique.
+      * **Côté**
+      * **Empilé**
+      * **Empilé à 100 %**
+
+   * Sélectionnez le mode de regroupement des informations dans le graphique à partir du **Regrouper les données par** menu déroulant.
    * (Facultatif) Sélectionnez **Couleurs personnalisées** pour personnaliser les couleurs de vos colonnes.\
      Pour plus d’informations sur la personnalisation des couleurs des graphiques, voir [Personnalisation des couleurs des graphiques](#customize-chart-colors).
 

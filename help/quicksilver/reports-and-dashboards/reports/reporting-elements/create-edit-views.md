@@ -6,7 +6,7 @@ description: Vous pouvez personnaliser le type d’informations que vous affiche
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
@@ -37,11 +37,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, tableaux de bord et calendriers pour créer une vue dans un rapport</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour créer une vue dans un rapport</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gérer les autorisations pour une vue afin de la modifier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gérer les autorisations pour une vue pour la modifier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,8 +62,8 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
 1. Cliquez sur le bouton **Affichage** menu déroulant sur toute liste dans laquelle vous souhaitez créer ou personnaliser une vue.
 1. (Facultatif) Pour personnaliser une vue existante, sélectionnez la vue standard que vous souhaitez personnaliser.\
    Les vues standard sont disponibles sur tout type de liste dans Workfront, tel qu’un rapport, une liste de projets ou une liste de tâches.
-1. Cliquez sur le bouton **Affichage** menu déroulant, puis cliquez sur **Vue Personnaliser** ou **Nouvelle vue**.\
-   Le **Vue Personnaliser** s’affiche.
+1. Cliquez sur le bouton **Affichage** , puis cliquez sur **Vue Personnaliser** ou **Nouvelle vue**.\
+   La variable **Vue Personnaliser** s’affiche.
 
 1. Dans le **Aperçu des colonnes** , effectuez l’une des opérations suivantes :
 
@@ -71,7 +71,7 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
    * Ajoutez une colonne en cliquant **Ajouter une colonne**, commencez à saisir le nom de la colonne à ajouter, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
    * Ajustez l’ordre d’affichage des colonnes en faisant glisser le titre de la colonne vers un nouvel emplacement.
 
-      * (Facultatif) Dans le **Paramètres des colonnes** , cliquez sur la zone **Résumer cette colonne par** , puis sélectionnez l’une des options disponibles pour résumer les informations. Lorsque vous sélectionnez cette option, les informations contenues dans votre colonne sont agrégées dans les regroupements du rapport.\
+      * (Facultatif) Dans la variable **Paramètres des colonnes** , cliquez sur la zone **Résumer cette colonne par** , puis sélectionnez l’une des options disponibles pour résumer les informations. Lorsque vous sélectionnez cette option, les informations contenues dans votre colonne sont agrégées dans les regroupements du rapport.\
         Pour les champs de date, vous pouvez résumer les valeurs par les options suivantes :
 
          * Maximum
@@ -90,8 +90,8 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
         >Les exceptions suivantes s’appliquent aux objets parents (par exemple, les tâches parents) lorsque vous agrègez des valeurs pour les champs suivants en regroupements :
         >   
         >   * Tous les champs de nombre et de devise, à l’exception des heures réelles (par exemple, le coût du travail planifié/réel, le coût des dépenses planifiées/réelles, le coût planifié/réel, les heures planifiées), ne regroupent que les valeurs des tâches enfants et des tâches autonomes. Ils n’agrégent pas les valeurs des tâches parents ou des parents des parents.
-        >   * Les heures réelles combinent les valeurs du parent principal et des tâches autonomes ; ils n’agrégent pas les chiffres des parents des tâches parents ou des tâches enfants.
-        >   * Les champs de données personnalisés pour les valeurs numériques et monétaires regroupent toutes les tâches : parents, enfants, parents et tâches autonomes.
+        >   * Les heures réelles combinent les valeurs des tâches principales du parent et des tâches autonomes ; elles n’agrégent pas les nombres des parents des tâches parents ou des tâches enfants.
+        >   * Les champs de données personnalisés pour les valeurs numériques et monétaires regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes.
         >   
         >
 
@@ -122,7 +122,7 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
          </tbody> 
         </table>
 
-        Pour plus d’informations sur le formatage conditionnel des vues dans les rapports, reportez-vous à l’article [Utilisation de la mise en forme conditionnelle en mode Texte](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Pour plus d’informations sur le formatage conditionnel des vues dans les rapports, voir l’article [Utilisation de la mise en forme conditionnelle en mode Texte](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Conditionnel) Si vous avez cliqué sur **Options avancées**, cliquez sur **Terminé**.
 
@@ -132,7 +132,7 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
 
    >[!TIP]
    >
-   >Le **Enregistrer comme nouvelle vue** est la seule option disponible lorsque vous personnalisez une vue Workfront intégrée.
+   >La variable **Enregistrer comme nouvelle vue** est la seule option disponible lorsque vous personnalisez une vue Workfront intégrée.
 
    Votre accès détermine le mode d’enregistrement de la vue. Si vous avez créé la vue d’origine, vous pouvez enregistrer les modifications ; dans le cas contraire, vous êtes invité à enregistrer une version. Gardez à l’esprit que les modifications que vous apportez à la vue affectent les utilisateurs avec lesquels la vue a été partagée.
 
@@ -153,22 +153,22 @@ Pour plus d’informations sur les vues Agile, voir l’article [Gestion d’un 
 Pour créer ou personnaliser une vue Agile :
 
 1. Accédez à la liste des tâches d’un projet.
-1. Cliquez sur le bouton **Panorama** icon ![Icône Panorama](assets/board-icon-for-agile-view.png), puis cliquez sur **Utiliser la version agile héritée** sur le panorama.
+1. Cliquez sur le bouton **board** icon ![Icône Panorama](assets/board-icon-for-agile-view.png), puis cliquez sur **Utiliser la version agile héritée** sur le panorama.
 
 1. (Conditionnel) Pour personnaliser une vue Agile existante :
 
-   1. Cliquez sur le bouton **Affichage** , puis sélectionnez la vue agile à personnaliser.\
+   1. Cliquez sur le bouton **Affichage** dans le menu déroulant, puis sélectionnez la vue agile à personnaliser.\
       Vous ne pouvez pas personnaliser la vue Agile par défaut.
 
    1. Cliquez sur le bouton **Affichage** menu déroulant, puis cliquez de nouveau sur **Vue Personnaliser**.\
       ![](assets/view-agile-customize.png)
 
 1. (Conditionnel) Pour créer une vue agile, cliquez sur **Nouvelle vue**.\
-   Le **Personnalisation de l’affichage agile** s’affiche.
+   La variable **Personnalisation de l’affichage agile** s’affiche.
 
 1. Dans le **Personnalisation de l’affichage agile** , indiquez un nom pour la vue agile.\
    Nous vous recommandons d’inclure le mot &quot;Agile&quot; dans le nom de votre vue afin que les utilisateurs sachent qu’il s’agit d’une vue agile.\
-   Ce nom s’affiche dans la variable **Affichage** lors de la sélection d’une vue.
+   Ce nom s’affiche dans la **Affichage** lors de la sélection d’une vue.
 
 1. Définissez les colonnes d’état à afficher sur le panorama des articles dans la vue agile. Il s’agit des états des tâches définis par l’administrateur de Workfront, comme décrit dans la section [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -207,15 +207,15 @@ Pour créer ou personnaliser une vue Agile :
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Histoire:</strong> </td> 
+      <td role="rowheader"><strong>Histoire :</strong> </td> 
       <td>Toutes les sous-tâches correspondent à la couleur de la tâche parent, de sorte que les couleurs de tous les articles d’un couloir donné soient les mêmes.<br>Les couleurs sont attribuées de manière aléatoire aux tâches lorsqu’elles sont créées si la tâche ne comporte aucune sous-tâche ou n’a pas de tâche parent.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Formulaire libre:</strong> </td> 
+      <td role="rowheader"><strong>Free Form :</strong> </td> 
       <td> Toutes les cartes sont affichées en bleu par défaut jusqu’à ce qu’un utilisateur modifie manuellement la couleur, comme décrit dans l’article. <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Catégorisation des articles par couleur sur le panneau de défilement</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Priorité:</strong> </td> 
+      <td role="rowheader"><strong>Priorité :</strong> </td> 
       <td> <p> Les couleurs sont associées à la priorité de l’article, comme suit :</p> 
        <ul> 
         <li>Élevé = Rouge</li> 
@@ -224,8 +224,8 @@ Pour créer ou personnaliser une vue Agile :
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Propriétaire de la tâche:</strong> </td> 
-      <td> Toutes les histoires avec la même personne désignée Principale sont de la même couleur.<br>La personne désignée Principale est l’utilisateur qui a été affecté la première fois à la tâche. </td> 
+      <td role="rowheader"><strong>Propriétaire de la tâche :</strong> </td> 
+      <td> Toutes les histoires avec la même personne désignée principale sont de la même couleur.<br>La personne désignée principale est l’utilisateur qui a été affecté la première fois à la tâche. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -238,7 +238,7 @@ Pour créer ou personnaliser une vue Agile :
 
    * Nom de l’article avec un lien direct vers la tâche
    * Nom du projet avec un lien direct vers le projet\
-     Ce lien s&#39;affiche uniquement lors de l&#39;utilisation de la vue agile sur une itération. il n’est pas affiché lors de l’utilisation d’une vue agile sur un projet.
+     Ce lien est affiché uniquement lors de l’utilisation de la vue agile sur une itération ; il n’est pas affiché lors de l’utilisation d’une vue agile sur un projet.
    * Description de la tâche
    * Engagement actuel
    * Affichez et modifiez le pourcentage terminé en ajustant le pourcentage terminé ou en ajustant le nombre de points ou d’heures terminé

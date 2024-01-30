@@ -6,37 +6,14 @@ description: Vous pouvez tirer parti de fonctionnalités agiles pour votre proje
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # Gestion d’un projet en mode Agile
-
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
 
 Vous pouvez tirer parti de fonctionnalités agiles pour votre projet sans les défis administratifs qui accompagnent généralement les pratiques agiles (comme la gestion du retard d’équipe ou la création d’itérations).
 
@@ -51,30 +28,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td> <p>Actuel : révision ou version ultérieure</p> 
+   <p>Nouveau : contributeur ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
    <td> <p>Modifiez l’accès aux zones suivantes :</p> 
     <ul> 
      <li> <p>Projets</p> </li> 
      <li> <p>Rapports, tableaux de bord, calendriers</p> </li> 
      <li> <p>Filtres, Vues, Regroupements</p> </li> 
-    </ul> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage des autorisations pour le projet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Présentation des projets agiles
 
@@ -111,7 +89,9 @@ Il existe des différences lors de l’utilisation de vues agiles sur un projet 
 * Les tâches qui n’ont pas de tâche parent ni de sous-tâche sont toujours affichées sous la forme d’une seule carte d’article sur le panorama d’articles.\
   Par exemple, ces tâches apparaissent comme suit dans la vue de liste des projets :
 
-  ![Liste de projets agile : tâches sans parent ni sous-tâches](assets/agile-project-single-list-nwe.png) Ces tâches apparaissent comme suit dans la vue agile du projet :
+  ![Liste de projets agile : tâches sans parent ni sous-tâches](assets/agile-project-single-list-nwe.png)
+
+  Ces tâches apparaissent comme suit dans la vue agile du projet :
 
   ![Vue agile du projet - tâches sans parent ni sous-tâches](assets/agile-project-singlecard-nwe.png)
 
@@ -162,7 +142,7 @@ Pour plus d’informations sur la personnalisation d’une vue agile, voir [Cré
 ## Affichage d’un projet en mode Agile
 
 1. Accédez au projet que vous souhaitez afficher dans une vue agile, soit dans la liste des tâches, soit dans la liste des problèmes.
-1. Cliquez sur le bouton **board** icon ![Icône Panorama](assets/board-icon-for-agile-view.png).
+1. Cliquez sur le bouton **Vue du panorama** icon ![Icône Panorama](assets/board-icon-for-agile-view.png).
 
    Le panorama du projet s’affiche par défaut.
 
@@ -210,7 +190,9 @@ Pour plus d’informations sur la création et la personnalisation des vues AEM,
 >
 >Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.
 
-Pour plus d’informations sur le partage d’une vue agile, voir [Partager un filtre, une vue ou un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Vous pouvez partager une vue agile que vous avez créée ou dont vous disposez des autorisations de la même manière que vous partagez n’importe quelle autre vue, ou filtrer ou regrouper.
+
+Pour plus d’informations, voir [Partager un filtre, une vue ou un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Suppression d’une vue agile existante
 
@@ -218,4 +200,6 @@ Pour plus d’informations sur le partage d’une vue agile, voir [Partager un f
 >
 >Cette section s’applique uniquement à la vue Agile héritée, et non à la vue Panorama d’un projet.
 
-Pour plus d’informations sur la suppression d’une vue, voir la section &quot;Supprimer une vue&quot; de l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Vous pouvez supprimer une vue agile de la même manière que vous supprimez une autre vue, ou filtrer ou regrouper.
+
+Pour plus d’informations, voir [Suppression des filtres, des vues et des regroupements](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

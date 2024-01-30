@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2356'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,7 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
          </td>
       </tr>
       <tr>
-         <td>Définir une échéance
+         <td>Définir une date limite
          </td>
          <td>
       <ol>
@@ -248,6 +248,18 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
 ## Etape 1 - Accès à Maestro - {#step1-to-maestro}
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Maestro]**.
+
+## Intro important de Maestro {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
+>
+>Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
+>
+>Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
+>
+>Pour plus d’informations sur Maestro, voir [Présentation d’Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

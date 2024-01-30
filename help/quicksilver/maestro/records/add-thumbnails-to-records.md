@@ -4,7 +4,7 @@ description: Vous pouvez modifier les informations d’enregistrement dans Adobe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Affichage ou autorisations supérieures à un espace de travail </p>  
-   <p>Autorisations d’affichage ou supérieures du tableau </p> 
+   <td> <p>Attribution ou autorisations supérieures à un espace de travail </p>  
+   <p>Attribuer ou des autorisations supérieures à la vue de tableau </p> 
    <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>

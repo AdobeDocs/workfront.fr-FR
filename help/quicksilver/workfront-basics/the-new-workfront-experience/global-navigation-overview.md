@@ -1,26 +1,32 @@
 ---
 content-type: overview
 title: Présentation de la barre de navigation supérieure
-description: 'La barre de navigation supérieure, qui s’affiche en haut de l’écran dans la nouvelle [!DNL Adobe Workfront] experience : permet de trouver facilement d’autres zones de la plateforme et d’y accéder.'
+description: La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [!DNL Adobe Workfront] — vous permet de trouver facilement d’autres zones de la plateforme et d’y accéder.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
 
 # Présentation de la barre de navigation supérieure
 
-La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [!DNL Adobe Workfront] vous permet de trouver facilement d’autres zones de la plateforme et d’y accéder.
+<!--Audited: 01/2024-->
+
+La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [!DNL Adobe Workfront] — vous permet de trouver facilement d’autres zones de la plateforme et d’y accéder.
 
 ![Barre de navigation supérieure](assets/global-navigation-bar.png)
 
 ## [!UICONTROL Accueil] icon
 
-La variable **[!UICONTROL Accueil]** icon ![](assets/home-icon.png) vous conduit à la fonction [!UICONTROL Accueil] , qui est la landing page par défaut. Pour en savoir plus sur la page d’accueil, voir [Utilisez la variable [!UICONTROL Accueil] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+La variable **[!UICONTROL Accueil]** icon ![](assets/home-icon.png) vous conduit à la fonction [!UICONTROL Accueil] , qui est la landing page par défaut.
+
+Par défaut, l’icône Accueil ouvre la zone Accueil . Pour plus d’informations sur la page d’accueil, voir [Utilisez la variable [!UICONTROL Accueil] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+
+Votre administrateur Workfront peut personnaliser l’icône Accueil pour ouvrir une autre page en créant un modèle de mise en page et en l’affectant à vous. Pour plus d’informations, voir [Personnaliser la landing page à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## Pages pincées
 
@@ -36,11 +42,17 @@ Pour en savoir plus sur le menu Aide, voir [Accès [!DNL Adobe Workfront] help](
 
 Zone numérotée bleue ![](assets/notifications-icon.png) dans le coin supérieur droit de l’écran s’ouvre une liste de notifications.
 
-Pour en savoir plus sur les notifications, voir [Affichage et gestion des notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Vous pouvez accéder aux éléments suivants à partir du menu Notifications :
+
+* **Notifications**: il s’agit d’alertes générées par Workfront lorsque certaines conditions sont remplies pour vous informer des informations qui peuvent nécessiter votre attention.
+
+* **Annonces**: annonces envoyées par l’administrateur de Workfront concernant des sujets importants.
+
+Pour en savoir plus sur les notifications et les annonces, voir [Affichage et gestion des notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## [!UICONTROL Favoris] menu
 
-La variable **[!UICONTROL Favoris]** icon ![Favoris](assets/favorites-icon-62x55.png) ouvre une liste des pages du système que vous avez sélectionnées. Vous pouvez ajouter la page que vous vous trouvez actuellement dans ce menu.
+La variable **[!UICONTROL Favoris]** icon ![Favoris](assets/favorites-icon-62x55.png) ouvre une liste des pages du système que vous avez marquées comme favorites. Vous pouvez ajouter la page que vous vous trouvez actuellement dans ce menu.
 
 Pour en savoir plus sur les favoris, voir [Affichage et gestion des favoris](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
@@ -64,7 +76,7 @@ Pour en savoir plus sur la recherche, voir [Rechercher [!DNL Adobe Workfront]](.
 >
 > Si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], voir [[!DNL Adobe Unified Experience] pour [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-La variable **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) ouvre la fonction [!UICONTROL Menu Principal], qui vous permet d’accéder à une autre zone de Workfront.
+La variable **[!UICONTROL Menu Principal]** icon ![Menu Principal](assets/main-menu-icon.png) ouvre la fonction [!UICONTROL Menu Principal], d’où vous pouvez accéder à une autre zone de Workfront.
 
 Les options disponibles dans la variable [!UICONTROL Menu Principal] dépendent de :
 
@@ -74,7 +86,9 @@ Les options disponibles dans la variable [!UICONTROL Menu Principal] dépendent 
 
 ![Options du menu principal](assets/main-menu-options-350x481.png)
 
-Chaque icône vous conduit à une zone différente de la nouvelle [!DNL Adobe Workfront] expérience. Pour en savoir plus sur chaque zone, voir :
+Chaque icône vous conduit à une zone différente de Workfront.
+
+Pour en savoir plus sur chaque zone, voir :
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
@@ -113,7 +127,7 @@ Chaque icône vous conduit à une zone différente de la nouvelle [!DNL Adobe Wo
  </tbody> 
 </table>
 
-Vous trouverez ci-dessous les options de la section [!UICONTROL Menu Principal], vous pouvez accéder à :
+Dans la partie inférieure du menu principal, vous pouvez accéder aux éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 

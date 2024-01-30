@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '396'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 2%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Partage des espaces de travail
+
+{{maestro-important-intro}}
 
 Vous pouvez partager un espace de travail avec d’autres pour garantir la collaboration lorsque vous travaillez dans Adobe Workfront Maestro.
 
@@ -104,6 +106,8 @@ Pour partager un espace de travail avec d’autres personnes :
    * Gérer
 
      Pour plus d’informations sur les niveaux d’autorisation et les actions que les utilisateurs peuvent effectuer pour chaque niveau, voir [Présentation des autorisations de partage dans Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Cliquez sur **Copier le lien** pour copier un lien vers l’espace de travail dans le presse-papiers.
+1. Partagez le lien copié avec d’autres personnes. Les utilisateurs qui reçoivent le lien doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à l’espace de travail.
 1. Cliquer sur **Enregistrer**.
 
 

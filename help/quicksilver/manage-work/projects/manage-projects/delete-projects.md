@@ -2,84 +2,57 @@
 title: Suppression de projets
 product-area: projects
 navigation-topic: manage-projects
-description: Vous pouvez supprimer un projet si celui-ci et ses données ne sont plus nécessaires.
+description: Vous pouvez supprimer un projet si celui-ci et ses données ne sont plus nécessaires. Au lieu de supprimer un projet, nous vous recommandons de le modifier et de définir le statut Terminé ou Mort. Cette opération supprime de la liste des tâches d’un utilisateur toutes les tâches en cours liées au projet, mais enregistre toutes les données associées au projet.
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+recommendations: noDisplay, noCatalog
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---
 
 # Suppression de projets
 
+<!--Audited: 01/2024-->
+
 Vous pouvez supprimer un projet si celui-ci et ses données ne sont plus nécessaires.
 
 Au lieu de supprimer un projet, nous vous recommandons de le modifier et de définir le statut Terminé ou Mort. Cette opération supprime de la liste des tâches d’un utilisateur toutes les tâches en cours liées au projet, mais enregistre toutes les données associées au projet.
 
+Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet.
+
 ## Exigences d’accès
 
-<!-- drafted for P&P:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>Formule Adobe Workfront</p> </td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
+   <td> <p>Licence Adobe Workfront*</p> </td> 
+   <td> <p>Licence actuelle : formule </p> 
+   Ou
+   <p>Nouvelle licence : Standard </p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Delete</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Configuration du niveau d’accès</td> 
+   <td> <p>Modification de l’accès aux projets avec possibilité de créer et de supprimer des projets</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Les étapes de cet article doivent être les suivantes :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux projets, tâches, problèmes avec la possibilité de supprimer des projets, des tâches et des problèmes</p> <p><b>NOTE</b></p>
-
-<p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérez les autorisations liées au projet, aux tâches et aux problèmes du projet avec la possibilité de supprimer le projet, les tâches et les problèmes. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations d’objet </p> </td> 
+   <td> <p>Modifier l’accès aux projets, tâches, problèmes avec la possibilité de supprimer des projets, des tâches et des problèmes</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
-Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Comprendre le processus de suppression de projets
 
@@ -125,7 +98,7 @@ Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet
 
      Vous ne pouvez pas supprimer un projet dont l’état est Facturé pour les enregistrements de facturation. Pour plus d’informations, voir [Créer des enregistrements de facturation](../../projects/project-finances/create-billing-records.md).
 
-* Selon la manière dont votre administrateur Workfront configure les préférences Projet, Tâche ou Suppression de problème dans la feuille de temps et les préférences Heure de votre instance Workfront, les heures consignées pour les tâches, les problèmes ou le projet sont gérées de l’une des manières suivantes lors de la suppression du projet :
+* Selon la manière dont votre administrateur Workfront configure les préférences Projet, Tâche ou Suppression d’un problème dans les préférences Frise chronologique et Heures de votre instance Workfront, les heures consignées pour les tâches, les problèmes ou le projet sont traitées de l’une des manières suivantes lors de la suppression du projet :
 
    * Les heures restent sur la feuille de temps comme heure générale.
    * Les heures sont supprimées et seront restaurées si le projet est un jour restauré.
@@ -138,7 +111,7 @@ Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet
    * Si le projet que vous supprimez est lié à la seule initiative publiée d’un plan, l’indication que le plan a été publié est également supprimée.
    * Si vous récupérez un projet supprimé, le projet est récupéré, mais son lien avec l’initiative n’est pas restauré et la zone du planificateur de scénario ne s’affiche plus dans les détails du projet.
 
-     Le planificateur de scénario n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+     Le planificateur de scénario nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
      Pour plus d’informations sur les projets liés aux initiatives dans le planificateur de scénario, voir [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -166,7 +139,7 @@ Vous pouvez supprimer des projets d’une liste de projets.
 ## Suppression d’un projet au niveau du projet
 
 1. Accédez au projet que vous souhaitez supprimer.
-1. Cliquez sur le bouton **Plus** icon ![](assets/qs-more-menu.png), puis cliquez sur **Supprimer le projet**.
+1. Cliquez sur le bouton **Plus** icon ![](assets/qs-more-menu.png) à droite du nom du projet, puis cliquez sur **Supprimer le projet**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 

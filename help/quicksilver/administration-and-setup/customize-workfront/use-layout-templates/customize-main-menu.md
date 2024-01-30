@@ -8,16 +8,18 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 4%
 
 ---
 
 # Personnalisation du menu principal à l’aide d’un modèle de mise en page
 
-En tant qu’administrateur Adobe Workfront ou administrateur de groupe, vous pouvez utiliser un modèle de mise en page pour configurer les options que les utilisateurs voient lorsqu’ils ouvrent le menu principal dans Workfront :
+<!--Audited: 01/2024-->
+
+En tant qu’administrateur Adobe Workfront ou administrateur de groupe, vous pouvez utiliser un modèle de mise en page pour configurer les options que les utilisateurs voient lorsqu’ils ouvrent le menu principal dans Workfront.
 
 ![Options du menu principal](assets/main-menu-with-blueprints-no-branding.png)
 
@@ -41,32 +43,36 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
-   <td>Plan</td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td><p>Actuel : Plan</p>
+   Ou
+   <p>Nouveau : Standard</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès</strong></td> 
-   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur système.
-Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
+   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur système.</p>
+    <p>Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.</p> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Personnalisation du menu principal
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Création et gestion des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur **Menu principal** près du coin supérieur droit.
+1. Cliquez sur **Menu principal** dans le coin supérieur droit du modèle.
 
-   Dans la zone Menu principal qui s’affiche, vous pouvez voir les éléments actuellement principaux dans le menu principal pour le modèle, ainsi que les éléments disponibles à ajouter. Vous trouverez ci-dessous tous les éléments qui peuvent être ajoutés :
-
+   La boîte de dialogue Menu principal s’ouvre. Vous pouvez y voir les zones qui s’affichent actuellement dans le menu principal pour le modèle, ainsi que les éléments disponibles à ajouter. Vous trouverez ci-dessous tous les éléments que vous pouvez ajouter :
    * Page d’accueil
 
      >[!TIP]
      >
-     >Par défaut, Accueil s’affiche comme Mes mises à jour pour les utilisateurs sous licence de révision, sauf s’ils disposent d’un modèle de mise en page associé à leur profil qui inclut la zone Mes mises à jour dans le menu principal.
+     >Par défaut, l’icône Accueil du menu principal affiche la zone Mes mises à jour pour les utilisateurs ayant une licence de révision (dans le plan de licence actuel), sauf s’ils disposent d’un modèle de mise en page associé à leur profil qui inclut la zone Mes mises à jour du menu principal, en plus de la zone Accueil.
 
    * Portefeuilles
    * Programmes
@@ -79,42 +85,42 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
      >[!NOTE]
      >
-     >Le planificateur de scénario n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+     >Le planificateur de scénario nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
    * Équipes
-   * Utilisateurs et utilisatrices
+   * Utilisateurs
 
      >[!NOTE]
      >
-     >Seuls les utilisateurs disposant d’une licence Plan peuvent afficher les utilisateurs ![](assets/users-icon-in-main-menu.png) dans le menu principal.
+     >Seuls les utilisateurs possédant une licence Plan (dans le modèle de licence actuel) ou une licence Standard (dans le nouveau modèle de licence) peuvent voir la zone Utilisateurs ![](assets/users-icon-in-main-menu.png) dans le menu principal.
 
    * Demandes
    * Feuilles de temps
    * Documents
    * Modèles
    * Analytique
-   * Vérification
+   * Relecture
    * Objectifs
 
      >[!NOTE]
      >
-     >Cela nécessite une licence supplémentaire. Pour plus d’informations sur les objectifs de Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Les objectifs requièrent une licence supplémentaire. Pour plus d’informations sur les objectifs de Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mes mises à jour
-   * Panoramas
-   * Blueprints
+   * Panneaux
+   * Plans directeurs
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Masquer ![](assets/remove-icon---x-in-circle.png) **Principaux éléments** que vous ne souhaitez pas afficher
+   * Masquer ![](assets/remove-icon---x-in-circle.png) **Éléments actifs** que vous ne souhaitez pas afficher
    * Afficher ![](assets/add-icon-plus-in-circle.png) **Éléments disponibles** que vous souhaitez afficher dans le menu principal.
-   * Faire glisser ![](assets/move-icon---dots.png) **Principaux éléments** pour modifier l’ordre d’affichage dans le menu principal.
+   * Glisser ![](assets/move-icon---dots.png) **Éléments actifs** pour modifier l’ordre d’affichage dans le menu principal.
 
 1. Cliquez sur **Terminé**.
 
-   Vous pouvez également cliquer sur **Annuler** à tout moment si vous souhaitez ignorer vos modifications.
+   Cliquez également sur **Annuler** à tout moment si vous souhaitez ignorer vos modifications.
 
-1. Continuez à personnaliser le modèle de mise en page.
+1. Poursuivez la personnalisation du modèle de mise en page.
 
    Ou
 

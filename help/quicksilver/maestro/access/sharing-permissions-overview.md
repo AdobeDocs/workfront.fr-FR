@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 8%
 
 ---
@@ -18,15 +18,7 @@ ht-degree: 8%
 
 # Présentation des autorisations de partage dans Adobe Maestro
 
->[!IMPORTANT]
->
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
->
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Ypu doit être un client Workfront pour avoir accès à Maestro.
->
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
->
->Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Vous pouvez partager ou supprimer des autorisations sur un espace de travail ou une vue Adobe Maestro.
 
@@ -63,6 +55,7 @@ Vous pouvez partager les objets suivants dans Maestro :
    * Utilisateurs
    * Groupes
 * Les autres utilisateurs, y compris les administrateurs système, ne peuvent accéder qu’aux vues qu’ils ont créées ou qui ont été partagées avec eux.
+* Vous pouvez partager avec d’autres un lien vers un espace de travail ou une vue à partir d’une page de type enregistrement. Les utilisateurs qui reçoivent le lien doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à l’espace de travail ou à la page de type enregistrement affichée dans la vue sélectionnée.
 
 ## Partage des autorisations pour les objets Maestro
 
