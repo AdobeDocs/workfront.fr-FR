@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
+source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
 workflow-type: tm+mt
-source-wordcount: '4927'
+source-wordcount: '5011'
 ht-degree: 3%
 
 ---
@@ -498,7 +498,7 @@ Pour ajouter des champs de date de saisie anticipée :
 
 ### Ajout de champs de recherche externes
 
-Un champ de recherche externe appelle une API externe et renvoie les valeurs sous forme d’options dans un champ déroulant. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante.
+Un champ de recherche externe appelle une API externe et renvoie les valeurs sous forme d’options dans un champ déroulant. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante. Le champ de recherche externe est également disponible dans les listes et les rapports.
 
 >[!NOTE]
 >
@@ -541,8 +541,10 @@ Pour ajouter une recherche externe :
       <td role="rowheader">URL API de base</td> 
       <td><p>Saisissez ou collez l’URL de l’API.</p><p>L’URL de l’API doit renvoyer un contenu JSON des options que vous souhaitez afficher dans la liste déroulante. Vous pouvez utiliser le champ Chemin d’accès JSON pour sélectionner les valeurs spécifiques du fichier JSON renvoyé dans les options de liste déroulante.</p><p>Lorsque vous saisissez l’URL de l’API, vous pouvez éventuellement transmettre les valeurs suivantes dans l’URL :</p>
       <ul><li>$$QUERY : il s’agit du texte de recherche saisi par l’utilisateur final dans le champ et qui vous permet d’implémenter le filtrage des requêtes pour vos utilisateurs finaux. (L’utilisateur recherche la valeur dans la liste déroulante.)</li>
-      <li>$$HOST : il représente l’hôte Workfront actuel et peut être utilisé pour effectuer des appels d’API /search à l’API Workfront. Lorsque ce caractère générique est utilisé, l’authentification est gérée et les utilisateurs n’ont pas besoin d’envoyer d’en-têtes d’authentification. (Par exemple, les utilisateurs peuvent rechercher des tâches à l’aide de l’URL de base "$$HOST/attask/api/task/search" et ils peuvent rechercher des tâches et sélectionner des valeurs dans une liste de tâches renvoyée.)</li>
-      <li>{fieldName} - Où fieldName est un champ personnalisé ou natif dans Workfront. Ainsi, vous pouvez implémenter des filtres d’options de liste déroulante en cascade lorsque vous transmettez la valeur d’un champ déjà sélectionné au champ Recherche externe pour filtrer les options. (Par exemple, le champ Région existe déjà sur le formulaire et vous limitez une liste de pays de l’API à ceux d’une région spécifique.)</li>
+      <li><p>$$HOST : il représente l’hôte Workfront actuel et peut être utilisé pour effectuer des appels d’API /search à l’API Workfront. Lorsque ce caractère générique est utilisé, l’authentification est gérée et les utilisateurs n’ont pas besoin d’envoyer d’en-têtes d’authentification. (Par exemple, les utilisateurs peuvent rechercher des tâches à l’aide de l’URL de base. <code>$$HOST/attask/api/task/search</code> et permet de rechercher des tâches et de sélectionner des valeurs dans une liste de tâches renvoyée.)<p>
+      <p>Si l’API que vous référencez l’autorise, vous pouvez également inclure des modificateurs dans votre requête de recherche pour identifier le fonctionnement de la recherche. Par exemple, vous pouvez utiliser les éléments suivants comme URL de l’API de base pour permettre aux utilisateurs de rechercher des projets Workfront contenant du texte spécifique : <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>En savoir plus sur les modificateurs de recherche Workfront dans <a href="/help/quicksilver/wf-api/general/api-basics.md">Principes de base des API</a>.</p></li>
+      <li><p>{fieldName} - Où fieldName est un champ personnalisé ou natif dans Workfront. Ainsi, vous pouvez implémenter des filtres d’options de liste déroulante en cascade lorsque vous transmettez la valeur d’un champ déjà sélectionné au champ Recherche externe pour filtrer les options. (Par exemple, le champ Région existe déjà sur le formulaire et vous limitez une liste de pays de l’API à ceux d’une région spécifique.)</p>
+      <p>Pour un champ de recherche externe qui dépend d’autres champs (à l’aide de la variable {fieldName} ), les options renvoyées par l’API sont limitées à celles qui correspondent à toutes les chaînes ou valeurs saisies dans les autres champs. (Cette fonctionnalité n’est pas prise en charge dans les listes et les rapports.)</p></li>
       <li>{referenceObject}.{fieldName} - Où le champ fait partie d’un objet. Cette syntaxe est similaire aux expressions personnalisées. (Par exemple, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>REMARQUE :</strong> Consultez la documentation de l’API que vous utilisez pour les requêtes spécifiques que vous pouvez définir.</p></td>
      </tr>
@@ -585,12 +587,11 @@ Pour ajouter une recherche externe :
 >
 >Les éléments suivants sont des limites techniques de l’appel à l’API externe :
 >
->* Nombre maximal d’options : 200 (seules les 200 premières options du fichier JSON renvoyé sont affichées)
+>* Nombre maximal d’options : 2 000 (seules les 2 000 premières options uniques du fichier JSON renvoyé sont affichées)
 >* Timeout : 3 secondes
 >* Nombre de reprises : 3
 >* Durée d’attente entre deux tentatives : 500 ms
 >* Statuts de réponse attendus : 2xx
->* Les utilisateurs peuvent voir la valeur sélectionnée (et la modifier) dans les listes et les rapports Workfront, mais ne verront pas la liste déroulante contenant les options provenant de l’API externe.
 
 ### Ajout d’images, de PDF et de vidéos
 
