@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,7 @@ Pour utiliser Adobe Maestro, vous devez disposer des paramètres suivants :
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur système doit ajouter la zone Maestro dans le menu principal à votre modèle de mise en page.</p> 
-   <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personnalisation du menu principal à l’aide d’un modèle de mise en page</a>. </p>  
+   <td> <p>Tous les utilisateurs, y compris les administrateurs Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Maestro dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/maestro/access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
  </tbody>

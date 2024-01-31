@@ -4,9 +4,9 @@ description: Vous pouvez modifier les informations d’enregistrement dans Adobe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
    <td> <p>Attribution ou autorisations supérieures à un espace de travail </p>  
-   <p>Attribuer ou des autorisations supérieures à la vue de tableau </p> 
    <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td>  <p>Tous les utilisateurs, y compris les administrateurs Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Maestro dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/maestro/access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
-
 
 ## Points à prendre en compte concernant les miniatures d’enregistrements
 
@@ -96,14 +94,14 @@ Pour faire la distinction visuelle entre les enregistrements dans une vue de tab
 Tenez compte des points suivants :
 
 * Vous pouvez uniquement ajouter des fichiers image sous forme de miniatures.
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Vous pouvez ajouter une miniature à des enregistrements individuels dans la vue de tableau.
+* Les miniatures appartiennent aux informations d’enregistrement et s’affichent dans les vues où s’affichent les enregistrements. Par exemple, les miniatures s’affichent avec les informations d’enregistrement dans les zones suivantes :
+
+   * Le champ principal d’un enregistrement dans la vue de tableau
+   * La barre d’enregistrement en mode Chronologie.
 * Vous ne pouvez pas ajouter de miniatures d’enregistrement à partir de la page Détails de l’enregistrement ou en mode Chronologie.
-* L’image miniature s’affiche toujours à gauche du champ principal de chaque enregistrement, quel que soit le type de champ.
-
-  Les champs qui sont du texte sur une seule ligne, des nombres ou des formules peuvent être désignés comme des champs principaux.
-Pour plus d’informations, voir [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md).
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* Les miniatures ne s’affichent pas dans la page Détails de l’enregistrement.
 
 ## Ajout d’une miniature à un enregistrement
 
@@ -131,10 +129,11 @@ Pour plus d’informations, voir [Gestion de la vue de tableau](/help/quicksilve
 1. (Facultatif) Utilisez l’outil de dimensionnement pour recadrer et redimensionner l’image.
 1. Cliquez sur **Utiliser une image** pour ajouter l’image en tant que miniature.
 Cela ferme la fenêtre **Miniature d’enregistrement** de la boîte.
-1. Cliquez sur Champs dans le coin supérieur droit du mode Tableau.
+1. (Conditionnel) Si vous disposez au moins des autorisations de contribution à la vue de tableau, cliquez sur **Champs** dans le coin supérieur droit de la vue du tableau.
 1. Sélectionnez la variable **Miniature** pour afficher la miniature. Cette option est désélectionnée par défaut.
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    La miniature s’affiche à gauche de la valeur du champ principal.
+1. (Facultatif et conditionnel) Si vous ne disposez pas des autorisations de contributeur ou d’une autorisation ultérieure pour l’affichage, sélectionnez une nouvelle vue dans la **Affichage** ou créer une vue.
 1. (Facultatif) Pour supprimer la miniature, passez la souris sur le champ principal et cliquez sur le bouton **Plus** menu ![](assets/more-menu.png)> **Miniature** > le **Supprimer** icon ![](assets/remove-image-icon.png), puis cliquez sur **Enregistrer les modifications**.

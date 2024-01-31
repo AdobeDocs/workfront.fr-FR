@@ -6,7 +6,7 @@ description: Cet article décrit comment trouver et gérer des objectifs dans Ad
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -71,6 +71,13 @@ You must have the following to perform the activities described in this article:
      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> 
+    <div> 
+     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 -->
@@ -109,17 +116,20 @@ You must have the following to perform the activities described in this article:
      <p>Gérer les autorisations sur l’objectif pour le modifier</p> 
      <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partage d’un objectif dans les objectifs Workfront</a>. </p> 
     </div> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Modèle de mise en page</p></td> 
+   <td> 
+    <div> 
+     <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p> 
+    </div> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
-
-## Conditions préalables
-
-Avant de pouvoir commencer, vous devez disposer des éléments suivants :
-
-* Un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
 
 ## Accès aux objectifs Workfront
 
@@ -157,10 +167,9 @@ Vous devez accéder à un objectif individuel pour effectuer les actions suivant
 * Activez-la.
 * Désactiver
 * Supprimer
-* l’aligner sur un autre objectif ;
+* l’aligner sur un autre objectif
 * Convertir des résultats ou des activités en d’autres objectifs
 * Mettre à jour
-
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -199,6 +208,6 @@ La liste des objectifs s’affiche par défaut.
 La page de l’objectif s’affiche.
    ![](assets/goal-page-unshimmed.png)
 1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom de l’objectif pour modifier ou partager l’objectif.
-1. Cliquez sur **Détails de l’objectif** dans le panneau de gauche pour modifier des informations sur l’objectif. Pour plus d’informations, voir [Mise à jour des objectifs dans la section Détails de l’objectif dans les objectifs Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
+1. Cliquez sur **Détails de l’objectif** dans le panneau de gauche pour modifier des informations sur l’objectif. Pour plus d’informations, voir [Mise à jour des objectifs dans la section Détails des objectifs d’Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
 
 

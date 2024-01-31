@@ -7,9 +7,9 @@ description: Votre administrateur Adobe Workfront doit s’assurer que certaines
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4298659c6eaf7c0370d8d88454e54aeba70f48cf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,15 @@ Votre administrateur Adobe Workfront doit s’assurer que toutes les conditions 
 
 * Attribuez-vous le modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
 
-   Pour plus d’informations, voir la section [Ajout d’objectifs Workfront à un modèle de mise en page](#add-workfront-goals-to-a-layout-template) dans cet article.
+  >[!NOTE]
+  >
+  >Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal.
+
+  Pour plus d’informations, voir la section [Ajout d’objectifs Workfront à un modèle de mise en page](#add-workfront-goals-to-a-layout-template) dans cet article.
 
 * Si vous devez modifier des objectifs que vous n’avez pas vous-même créés, l’auteur de l’objectif doit partager les objectifs avec vous et vous accorder les autorisations de Gestion .
 
-   Pour plus d’informations, voir la section [Partage d’objectifs individuels avec d’autres utilisateurs](#share-individual-goals-with-other-users) dans cet article.
+  Pour plus d’informations, voir la section [Partage d’objectifs individuels avec d’autres utilisateurs](#share-individual-goals-with-other-users) dans cet article.
 
 ## Obtention de l’accès de l’organisation aux objectifs Workfront {#obtain-workfront-goals-organization-access}
 
@@ -92,7 +96,7 @@ Votre administrateur Workfront ou votre administrateur de groupe peut également
 * Onglet épinglé
 * Faire de la zone Objectifs votre page d’entrée
 
-Pour plus d’informations sur la mise à jour du modèle de mise en page, voir les articles suivants :
+Pour plus d’informations sur la mise à jour du modèle de mise en page, reportez-vous aux articles suivants :
 
 * [Création et gestion des modèles de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
 * [Personnalisation du menu principal à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
@@ -102,7 +106,7 @@ Pour plus d’informations sur la mise à jour du modèle de mise en page, voir 
 
 ## Partage d’objectifs individuels avec d’autres utilisateurs {#share-individual-goals-with-other-users}
 
-Par défaut, tous les utilisateurs ayant au moins l’accès Afficher aux objectifs dans leur niveau d’accès peuvent afficher tous les objectifs dans Workfront.
+Par défaut, tous les utilisateurs qui ont au moins l’accès Afficher aux objectifs dans leur niveau d’accès peuvent afficher tous les objectifs dans Workfront.
 
 Tout utilisateur disposant d’un accès Modifier aux objectifs peut créer des objectifs et obtenir automatiquement l’accès Gérer aux objectifs qu’il crée. S’ils doivent modifier les objectifs d’autres utilisateurs, une personne disposant des autorisations Gérer pour ces objectifs doit partager avec eux les objectifs qu’ils n’ont pas créés.
 
