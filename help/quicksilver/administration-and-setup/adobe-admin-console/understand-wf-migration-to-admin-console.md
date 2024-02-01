@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 4888113d57fa083eb4b5e639ed8edb1072b00df3
+source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -72,7 +72,7 @@ En tant qu’administrateur de profil de produit Workfront (administrateur syst�
 
 ### À quoi vous attendre le jour de la migration
 
-* **La migration des utilisateurs commencera à minuit le centre de données Workfront du client qui l’héberge. **
+* **La migration des utilisateurs démarrera à minuit du centre de données Workfront hébergé par le client.**
 
 * **Adobe procède d’abord à la migration automatique des administrateurs Workfront.** Lorsque les administrateurs Workfront sont migrés vers Adobe Identity, ils se voient attribuer le rôle d’ administrateur de profil de produit Adobe (administrateur système Workfront) . Les rôles existants qu’un utilisateur peut posséder avant la migration ne seront pas affectés.
 
