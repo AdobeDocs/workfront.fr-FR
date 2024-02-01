@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 42e20743b98d9a7cf1f6b37f007823c035e1b636
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >La nouvelle [!DNL SharePoint] l’intégration a été publiée en production avec la version 22.3 (juillet 2022). Bien que vos utilisateurs puissent toujours accéder aux documents liés par l’intermédiaire de l’ancien [!DNL SharePoint] intégration, ils doivent utiliser la nouvelle [!DNL SharePoint] pour lier des documents à partir de SharePoint.
 >
->* La nouvelle intégration de SharePoint ne nécessite pas d’être configurée par un administrateur et peut être configurée par des utilisateurs individuels. Toutefois, pour garantir une transition en douceur vers la nouvelle intégration de SharePoint, un administrateur Workfront doit apporter quelques modifications mineures aux paramètres dans la zone Configuration de Workfront .
+>* La nouvelle intégration de SharePoint peut ne pas nécessiter une configuration par un administrateur et peut être configurée par des utilisateurs individuels. Toutefois, pour garantir une transition en douceur vers la nouvelle intégration de SharePoint, un administrateur Workfront doit apporter quelques modifications mineures aux paramètres dans la zone Configuration de Workfront .
 >
 >    Pour plus d’informations et d’instructions, voir [Configuration de l’intégration SharePoint héritée pour un accès continu aux documents](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) dans cet article.
 >    
@@ -72,13 +72,15 @@ Vous devez disposer des autorisations ou des accès nécessaires dans [!DNL Shar
 
 Les utilisateurs individuels peuvent lier des documents par le biais de la nouvelle [!DNL SharePoint] intégration. L’intégration ne nécessite pas de configuration administrateur. À la place, l’utilisateur se connecte à son [!DNL Microsoft] lors de la liaison d’un document, ce qui permet à l’intégration d’accéder aux documents disponibles dans le [!DNL SharePoint].
 
-La première fois qu’un utilisateur connecte la variable [!DNL Workfront] [!DNL SharePoint] intégration à leur [!DNL SharePoint] , ils verront et accepteront toutes les autorisations de [!DNL Workfront] utilise lors de l’interaction avec leur [!UICONTROL SharePoint] compte . Autorisations de lecture autorisées [!DNL Workfront] pour afficher et accéder aux fichiers sur [!DNL SharePoint], et les autorisations d’écriture permettent à l’utilisateur de charger des fichiers dans [!DNL SharePoint].
+La première fois qu’un utilisateur connecte la variable [!DNL Workfront] [!DNL SharePoint] intégration à leur [!DNL SharePoint] , ils verront et accepteront toutes les autorisations de [!DNL Workfront] utilise lors de l’interaction avec leur [!UICONTROL SharePoint] ou être en mesure de demander des autorisations à leur administrateur Microsoft. Autorisations de lecture autorisées [!DNL Workfront] pour afficher et accéder aux fichiers sur [!DNL SharePoint], et les autorisations d’écriture permettent à l’utilisateur de charger des fichiers dans [!DNL SharePoint].
 
 ![Autorisations SharePoint](assets/sharepoint-permissions.png)
 
 Pour obtenir des instructions sur la liaison de documents par le nouveau [!DNL SharePoint] intégration, voir [Lier un document externe à [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
+>
+>* Selon la configuration Microsoft de l’entreprise, les utilisateurs peuvent voir une page &quot;Approbation requise&quot; au lieu d’une page &quot;Autorisations demandées&quot;. Dans ce cas, les utilisateurs peuvent utiliser cette page pour demander à l’administrateur Microsoft de l’entreprise d’accorder des autorisations sur l’intégration SharePoint.
 >
 >* A [!DNL SharePoint] l’intégration peut se connecter à une seule [!DNL SharePoint] instance. Par conséquent, un utilisateur peut configurer une intégration pour une [!DNL SharePoint], mais ne peut pas configurer une intégration sur une seconde [!DNL SharePoint], même s’ils disposent d’autorisations pour et des documents sur la deuxième [!DNL SharePoint].
 >
@@ -113,7 +115,13 @@ Pour envoyer un document à SharePoint :
 
 ### Accès et autorisations
 
-la première fois qu’un utilisateur ajoute un document à [!DNL Workfront] de [!DNL SharePoint], ils sont dirigés vers un écran qui demande les autorisations suivantes :
+la première fois qu’un utilisateur ajoute un document à [!DNL Workfront] de [!DNL SharePoint], ils sont redirigés vers la page Autorisations demandées où ils peuvent accorder des autorisations pour leur intégration SharePoint.
+
+>[!NOTE]
+>
+>Selon la configuration Microsoft de l’entreprise, les utilisateurs peuvent voir une page &quot;Approbation requise&quot; au lieu d’une page &quot;Autorisations demandées&quot;. Dans ce cas, les utilisateurs peuvent utiliser cette page pour demander à l’administrateur Microsoft de l’entreprise d’accorder des autorisations sur l’intégration SharePoint.
+
+Les autorisations suivantes sont demandées :
 
 | Accès | Motif |
 |---|---|
