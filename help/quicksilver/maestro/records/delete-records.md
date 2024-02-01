@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 1%
 
 # Suppression d’enregistrements
 
->[!IMPORTANT]
->
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
->
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
->
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
->
->Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Vous pouvez supprimer les enregistrements qui ne sont plus pertinents dans Adobe Manager.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,17 @@ hide: yes
 
 # Enregistrements : index de l’article
 
->[!IMPORTANT]
->
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
->
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
->
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
->
->Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Après avoir créé des types d’enregistrement dans Adobe Manager, vous pouvez créer des enregistrements individuels de ces types.
 
 Les articles suivants décrivent comment créer et gérer des enregistrements et leurs informations dans Adobe Maestro :
 
-* [Créer des enregistrements](../records/create-records.md)
-* [Modifier des enregistrements](../records/edit-records.md)
-* [Suppression d’enregistrements](../records/delete-records.md)
-* [Partage d’enregistrements](../records/share-records.md)
-* [Connexion d’enregistrements](../records/connect-records.md)
+* [Créer des enregistrements](/help/quicksilver/maestro/records/create-records.md)
+* [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md)
+* [Suppression d’enregistrements](/help/quicksilver/maestro/records/delete-records.md)
+* [Partage d’enregistrements](/help/quicksilver/maestro/records/share-records.md)
+* [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md)
 * [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [Présentation de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md)
-
-<!--* [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)-->
+* [Ajout de miniatures aux enregistrements](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)

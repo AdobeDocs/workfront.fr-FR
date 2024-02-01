@@ -4,9 +4,9 @@ description: Dans Adobe Maestro, vous pouvez créer des champs de formule qui ut
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,7 @@ recommendations: noDisplay, noCatalog
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
->[!IMPORTANT]
->
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
->
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
->
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
->
->Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Vous pouvez créer des champs personnalisés dans Adobe Maestro en faisant référence à des champs existants et en les reliant par une formule. Pour ce faire, créez un champ personnalisé de type Formule .
 

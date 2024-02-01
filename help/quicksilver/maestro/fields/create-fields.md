@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3325'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,7 @@ recommendations: noDisplay, noCatalog
 
 # Créer des champs
 
->[!IMPORTANT]
->
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
->
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
->
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
->
->Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Dans Adobe Maestro, vous pouvez créer des champs personnalisés pour les types d’enregistrements opérationnels ou les taxonomies. Vous pouvez ensuite associer les champs aux enregistrements Maestro pour améliorer les informations d’enregistrement.
 

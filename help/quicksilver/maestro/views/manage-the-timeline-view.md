@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
->
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
->
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
->
->Pour plus d’informations, voir [Présentation d’Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type enregistrement dans Adobe Manager.
 
@@ -265,6 +257,12 @@ Mettez à jour les paramètres de vue de la chronologie pour indiquer ce qui s�
 1. Cliquez sur **Style de barre** dans le panneau de gauche, pour indiquer les champs que vous souhaitez afficher dans les barres d’enregistrement.
 
    Le champ Nom est sélectionné par défaut. <!--adjust this when the primary field is released??-->
+
+1. (Facultatif et conditionnel) Si vous avez ajouté des miniatures aux enregistrements, sélectionnez l’option Miniature pour afficher l’image associée aux enregistrements dans leur barre d’enregistrement.
+
+   >[!NOTE]
+   >
+   >    Vous devez d’abord ajouter des miniatures dans la vue de tableau avant de pouvoir les afficher dans la vue de chronologie. Pour plus d’informations, voir [Ajout de miniatures aux enregistrements](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Cliquez sur **Ajouter un champ** pour ajouter jusqu’à 4 champs aux barres d’enregistrement.
 1. Cliquez dans le **Champs de recherche** puis cliquez sur le champ à ajouter.

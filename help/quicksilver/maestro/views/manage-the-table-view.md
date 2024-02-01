@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
 workflow-type: tm+mt
-source-wordcount: '2316'
+source-wordcount: '2298'
 ht-degree: 3%
 
 ---
@@ -26,15 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
->
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
->
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
->
->Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Vous pouvez afficher les enregistrements et leurs champs dans une vue de tableau lors de l’accès à la page de type enregistrement dans Adobe Maestro.
 
@@ -222,8 +214,9 @@ Vous pouvez avoir jusqu’à 10 000 enregistrements (ou lignes) pour un type d�
 
    Les enregistrements que vous ajoutez dans la vue de tableau sont immédiatement enregistrés et visibles par tous les utilisateurs disposant d’autorisations d’affichage ou supérieures à l’espace de travail.
 
-   <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
-        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. (Facultatif) Ajoutez une miniature à chaque enregistrement, puis cliquez sur **Champs** dans le coin supérieur droit du tableau, sélectionnez le bouton d’activation/désactivation du champ Miniature pour l’afficher à gauche du champ principal. Elle est désélectionnée par défaut.
+
+   Pour plus d’informations, voir [Ajout de miniatures aux enregistrements](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez le **handle** icon ![](assets/handle-icon.png) à gauche du nom de l’enregistrement pour réorganiser les lignes.
 

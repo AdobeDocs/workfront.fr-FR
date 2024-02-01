@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,7 @@ role: User
 
 # Liste des modèles d&#39;espace de travail
 
->[!IMPORTANT]
->
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
->
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
->
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
->
->Pour plus d’informations, voir [Présentation d’Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Dans Adobe Maestro, un espace de travail est un ensemble de types d’enregistrements et de taxonomies opérationnels utilisés par une équipe et représente le cycle de vie du travail de l’équipe.
 
@@ -112,7 +104,7 @@ Voici des modèles d’espace de travail dans Maestro et le nombre de champs qu�
       * **Campagne**: 9 champs et 7 champs liés
       * **Programme**: 9 champs et 5 champs liés
       * **Activité**: 6 champs et 5 champs liés
-   * Taxonomies:
+   * Taxonomies :
       * **Audience**: 3 champs et 3 champs liés
       * **Segment**: 5 champs et 1 champ lié
       * **Parcours client**: 4 champs
@@ -130,7 +122,7 @@ Voici des modèles d’espace de travail dans Maestro et le nombre de champs qu�
       * **Opportunité**: 7 champs et 4 champs liés
       * **Activité**: 4 champs et 5 champs liés
       * **Campagne**: 5 champs et 3 champs liés
-   * Taxonomies:
+   * Taxonomies :
       * **Compte**: 4 champs et 3 champs liés
       * **prospect**: 12 champs et 2 champs liés
       * **Contact**: 10 champs et 2 champs liés
@@ -149,7 +141,7 @@ Voici des modèles d’espace de travail dans Maestro et le nombre de champs qu�
       * **Epic**: 9 champs et 3 champs liés
       * **User Story**: 9 champs et 2 champs liés
 
-   * Taxonomies:
+   * Taxonomies :
 
       * **Client**: 6 champs et 1 champ lié
       * **Sprint**: 7 champs et 1 champ lié
