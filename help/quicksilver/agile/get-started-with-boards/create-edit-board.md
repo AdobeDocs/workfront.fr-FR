@@ -6,9 +6,9 @@ description: Dans la [!UICONTROL panoramas] vous pouvez créer un panorama ou en
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
       Tous les objets apparaissent sur le panorama sous forme de cartes connectées.
 
       La variable [!UICONTROL **Cartes ajoutées**] compteur indique le nombre de cartes qui seront sur le panorama. Par exemple, si vous sélectionnez un projet comportant 100 tâches et problèmes, le compteur affiche 100. Si vous ajoutez une affectation utilisateur et que cette personne est affectée à 5 tâches sur le projet, le compteur affiche 5.
+
+      >[!NOTE]
+      >
+      >Si vous disposez de plus de 1 000 cartes, les performances du panorama seront affectées.
 
    1. (Facultatif) Sélectionnez [!UICONTROL **Ne pas archiver les cartes terminées**] pour afficher les tâches terminées et les problèmes sur le panorama sous forme de cartes visibles dans la colonne Terminé . Lorsque cette option n’est pas sélectionnée, les cartes terminées au moment de la création du panorama sont importées sous forme de cartes archivées.
 
