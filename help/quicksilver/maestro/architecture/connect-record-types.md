@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -128,6 +128,8 @@ Tenez compte des points suivants :
    * Un type d&#39;enregistrement opérationnel et une taxonomie
    * Un type d’enregistrement opérationnel ou une taxonomie et un type d’objet d’une autre application.
 
+  Tous les types d’enregistrements et taxonomies opérationnels doivent appartenir au même espace de travail.
+
 * Vous pouvez connecter les objets suivants à partir des applications suivantes à l’aide des types d’enregistrement Maestro :
 
    * ADOBE WORKFRONT :
@@ -151,19 +153,23 @@ Tenez compte des points suivants :
 
 * Après avoir connecté un type d’enregistrement à un autre type d’enregistrement ou à un type d’objet d’une autre application, les scénarios suivants existent :
 
-   * **Lorsque vous connectez deux types d’enregistrements**: un champ Enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Un champ d’enregistrement lié similaire est créé dans le type d’enregistrement auquel vous vous connectez.
+   * **Lorsque vous connectez deux types d’enregistrements**: un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Un champ d’enregistrement lié similaire est créé sur le type d’enregistrement auquel vous vous connectez.
 
      Par exemple, si vous connectez le type d’enregistrement &quot;Campagne&quot; au type d’enregistrement &quot;Produit&quot;, un champ d’enregistrement lié que vous nommez &quot;Produit lié&quot; est créé sur le type d’enregistrement Campaign et un type d’enregistrement lié automatiquement nommé &quot;Campagne&quot; est créé sur le type d’enregistrement Produit .
 
    * **Lorsque vous connectez un type d’enregistrement à un type d’objet d’une autre application**: un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Aucun champ d’enregistrement lié n’est automatiquement créé sur l’objet d’application tiers.
 
-     Un nouveau type d’enregistrement Maestro est créé pour l’objet d’application tiers uniquement lorsque les objets réels sont connectés aux enregistrements Maestro.
+     Un nouveau type d’enregistrement en lecture seule Maestro est créé pour l’objet d’application tiers uniquement lorsque les objets réels sont connectés aux enregistrements Maestro.
 
      Pour plus d’informations, voir [Connexion d’enregistrements](../records/connect-records.md).
 
-   * **Lorsque vous ajoutez des champs de recherche à partir de l’enregistrement ou de l’objet auquel vous vous connectez**: les champs liés sont ajoutés à l’enregistrement à partir duquel vous vous connectez. Ils affichent les champs de recherche que vous avez sélectionnés pour faire passer de l’enregistrement lié aux enregistrements à partir desquels vous liez. Les champs d’enregistrement sont toujours en lecture seule et sont renseignés automatiquement avec les valeurs de l’objet tiers.
+   * **Lorsque vous ajoutez des champs de recherche de l’enregistrement ou de l’objet auquel vous vous connectez.**: les champs liés sont ajoutés à l’enregistrement à partir duquel vous vous connectez et affichent des informations provenant des champs de recherche que vous avez sélectionnés pour les enregistrements à partir desquels vous liez. Les champs d’enregistrement sont toujours en lecture seule et sont renseignés automatiquement avec les valeurs de l’objet tiers.
 
      Par exemple, si vous connectez le type d’enregistrement Maestro &quot;Campaign&quot; à un projet Workfront et que vous choisissez d’importer le champ Date de fin planifiée du projet dans l’enregistrement Maestro, un champ lié appelé Date de fin planifiée (à partir du projet) est automatiquement créé pour l’enregistrement à partir duquel vous liez.
+
+     >[!IMPORTANT]
+     >
+     >    Toute personne disposant d’autorisations de vue ou supérieures sur l’espace de travail peut afficher les informations dans les champs liés, indépendamment de ses autorisations ou de son niveau d’accès dans l’application tierce des types d’objets liés.
 
 * Les champs d’enregistrement liés sont précédés d’une icône de relation ![](assets/relationship-field-icon.png).
 
@@ -211,7 +217,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    * **Description**: informations supplémentaires sur le champ d’enregistrement connecté. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Autoriser plusieurs enregistrements**: sélectionnez cette option pour indiquer que vous autorisez les utilisateurs à ajouter plusieurs enregistrements lorsque le champ de type d’enregistrement associé s’affiche sur les enregistrements originaux. Cette option est sélectionnée par défaut.
-   * **Sélectionner les champs de recherche**: sélectionnez cette option pour ajouter des champs à partir du type d’enregistrement sélectionné. Cette option est sélectionnée par défaut.
+   * **Sélectionner les champs de recherche**: sélectionnez cette option pour ajouter des champs à partir du type d’enregistrement sélectionné. Les champs de recherche sont associés à l’enregistrement ou au type d’objet auquel vous créez un lien.  Cette option est sélectionnée par défaut.
 
 1. (Conditionnel et facultatif) Si vous avez choisi de connecter un objet Workfront, sélectionnez une **Formulaire personnalisé** de la **Lier uniquement les projets qui correspondent à ces critères** . <!--this needs to be updated for each object when they fix this UI.--> Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être liés au type d’enregistrement Maestro sélectionné. Vous pouvez sélectionner plusieurs formulaires.
 
@@ -232,6 +238,10 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    Cliquez sur le bouton **-** pour supprimer des champs de la fonction **Champs sélectionnés** area
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+
+   >[!IMPORTANT]
+   >
+   >    Toute personne disposant d’autorisations de vue ou supérieures sur l’espace de travail peut afficher les informations dans les champs liés, indépendamment de ses autorisations ou de son niveau d’accès dans l’application tierce des types d’objets liés.
 
 
 1. (Facultatif) Cliquez sur **Ignorer** et n’ajoutez aucun champ de l’enregistrement ou de l’objet lié. La variable **Nom** de l’enregistrement lié est le seul champ visible dans la vue de table de l’enregistrement d’origine.
@@ -269,15 +279,19 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Les éléments suivants sont ajoutés :
 
-   * Champ d’enregistrement lié qui affiche les enregistrements du type d’enregistrement lié, une fois que vous les avez ajoutés manuellement. Le nom du champ d’enregistrement lié est le nom que vous avez sélectionné à l’étape 5. <!--accurate-->
+   * Champ d’enregistrement lié sur le type d’enregistrement à partir duquel vous créez une liaison. Le champ enregistrement lié affiche les enregistrements individuels du type d’enregistrement lié, une fois que vous les avez ajoutés manuellement. Pour plus d’informations sur l’ajout d’enregistrements, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md). Le nom du champ d’enregistrement lié est le nom que vous avez sélectionné à l’étape 6. <!--accurate-->
 
    * Champ(s) lié(s) qui affiche les informations des champs du type d’enregistrement lié après l’ajout manuel des enregistrements dans le champ d’enregistrement lié. Les champs liés ne sont créés que lorsque la variable **Sélectionner les champs de recherche** est sélectionné lors de la création de la connexion. Les champs liés sont nommés selon ce modèle :
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-   * Lorsque vous liez des types d’enregistrement Maestro les uns aux autres, un champ d’enregistrement lié est également ajouté au type d’enregistrement que vous liez à . Le nom du champ d’enregistrement lié sur le type d’enregistrement lié est le nom du type d’enregistrement à partir duquel vous créez un lien.
+   * Lorsque vous liez des types d’enregistrement Maestro les uns aux autres, un champ d’enregistrement lié est également ajouté au type d’enregistrement auquel vous êtes associé. Le nom du champ d’enregistrement lié sur le type d’enregistrement lié est le nom du type d’enregistrement à partir duquel vous créez un lien.
 
      Par exemple, si vous associez le type d’enregistrement &quot;Produit&quot; du type d’enregistrement &quot;Campagne&quot; et que vous nommez le champ connecté de la campagne &quot;Produit lié&quot;, un champ d’enregistrement lié &quot;Campagne&quot; est créé pour le type d’enregistrement Produit .
+
+     >[!TIP]
+     >
+     > Un champ d’enregistrement lié au type d’enregistrement à partir duquel vous êtes lié n’est pas créé pour les objets provenant d’une application tierce.
 
 1. (Facultatif) Dans la vue du tableau du type d’enregistrement d’origine ou du type d’enregistrement lié, cliquez sur la flèche pointant vers le bas dans l’en-tête des champs d’enregistrement liés, puis cliquez sur l’une des options suivantes :
 
@@ -286,14 +300,13 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   Pour ajouter ou supprimer des champs de recherche, suivez les instructions des étapes 9 à 13 ci-dessus. <!--ensure these step numbers stay accurate-->
+   Pour ajouter ou supprimer des champs de recherche, suivez les instructions des étapes 10 à 14 ci-dessus. <!--ensure these step numbers stay accurate-->
 
    >[!NOTE]
    >
    > Vous ne pouvez pas ajouter les champs de recherche de l’enregistrement à partir duquel vous effectuez un lien vers le type d’enregistrement lié qui indique un objet dans une application tierce.
    >
    > Par exemple, vous ne pouvez pas ajouter le champ de recherche d’un objet Maestro &quot;Campaign&quot; à partir du champ d’enregistrement lié &quot;Campaign&quot; affiché dans le type d’enregistrement Projet Maestro lors de la liaison à des projets Workfront.
-
 
 1. (Facultatif) Cliquez sur la flèche pointant vers le bas dans l’en-tête du champ d’enregistrement lié à partir du type d’enregistrement à partir duquel vous liez, puis cliquez sur . **Supprimer**.
 

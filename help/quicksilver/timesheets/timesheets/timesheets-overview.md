@@ -7,9 +7,9 @@ description: Vous pouvez utiliser des feuilles de temps pour effectuer le suivi 
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Toutes vos feuilles de temps ainsi que vos feuilles de temps vous permettent d�
 
 1. Cliquez sur le bouton **Période** d’une feuille de temps pour l’ouvrir.
 
-   Chaque feuille de temps affiche toutes les tâches, problèmes et projets pour lesquels vous avez effectué des connexions. Une feuille de temps affiche également jusqu’à 45 tâches, problèmes ou projets qui vous sont affectés avec des dates comprises dans la période de la feuille de temps, mais pour lesquelles vous n’avez peut-être pas encore consigné l’heure.
+   Chaque feuille de temps affiche toutes les tâches, problèmes et projets pour lesquels vous avez effectué des connexions. Une feuille de temps affiche également jusqu’à 45 tâches et problèmes qui vous sont attribués avec des dates dans la période de la feuille de temps, mais pour lesquelles vous n’avez peut-être pas encore consigné l’heure. Les 45 éléments mis à jour le plus récemment sont sélectionnés pour s’afficher dans la feuille de temps.
 
    Pour plus d’informations, voir [Configuration des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
