@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Les taxonomies sont des types d&#39;enregistrements qui capturent des attributs sur les types d&#39;enregistrements opérationnels dans Adobe Maestro.
+Les types d’enregistrements de taxonomie capturent des attributs sur les types d’enregistrements opérationnels dans Adobe Maestro.
 
 Par exemple, Campaign peut être un type d’enregistrement opérationnel. Vous trouverez ci-dessous des taxonomies qui capturent des attributs sur le type d’enregistrement Campaign : Région, Audience, Pays.
 
@@ -91,19 +91,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Remarques concernant la création de taxonomies
 
-* Vous devez créer un espace de travail avant de pouvoir créer des taxonomies dans l’espace de travail.
+* Vous devez créer un espace de travail avant de pouvoir créer des types d’enregistrement de taxonomie dans l’espace de travail.
 
   Pour plus d’informations sur les espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
 * Vous pouvez créer un type d’enregistrement de taxonomie en effectuant l’une des opérations suivantes :
    * Créez-les automatiquement lorsque vous créez un espace de travail à l’aide d’un modèle. Pour plus d’informations, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
    * Créez-les manuellement, à partir de zéro.
-   * Créez-les manuellement en collant des informations à partir d’une liste externe.
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* Toutes les taxonomies nouvellement créées sont fournies avec les champs suivants :
+* Tous les types d’enregistrement de taxonomie nouvellement créés sont fournis avec les champs suivants :
 
    * Nom <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
   >[!NOTE]
   >
-  >    Les taxonomies créées lors de l&#39;utilisation d&#39;un modèle d&#39;espace de travail comportent des champs supplémentaires.
+  >    Les types d&#39;enregistrements de taxonomie créés lors de l&#39;utilisation d&#39;un modèle d&#39;espace de travail comportent des champs supplémentaires.
 
-## Création d’une taxonomie
+## Création d’un type d’enregistrement de taxonomie
 
-La création de taxonomies est similaire à la création d&#39;un type d&#39;enregistrement opérationnel à partir de zéro ou d&#39;un modèle d&#39;espace de travail.
+La création de types d’enregistrement de taxonomie est similaire à la création de types d’enregistrement opérationnels à partir de zéro ou à partir d’un modèle d’espace de travail.
 
 Pour plus d’informations, reportez-vous à la section &quot;Création d’un type d’enregistrement à partir de zéro&quot; dans l’article . [Création de types d’enregistrement](../architecture/create-record-types.md).
 

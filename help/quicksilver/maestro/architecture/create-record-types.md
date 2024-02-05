@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrements Maestro à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -98,16 +98,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Remarques concernant la création de types d’enregistrement
 
-* Vous pouvez créer des types d’enregistrement dans un espace de travail en effectuant l’une des opérations suivantes :
+* Vous pouvez créer des types d’enregistrement dans un espace de travail de la manière suivante :
 
    * Automatiquement :
       * Lorsque vous créez un espace de travail à l’aide d’un modèle.
 
         Pour plus d’informations, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
       * Lorsque vous les importez à l’aide d’un fichier Excel ou CSV. Cette option n’est pas disponible pour les types d’enregistrement de taxonomie.
-      * Lorsque vous créez une connexion à des types d’objets à partir d’une autre application, lors de l’ajout de champs à un type d’enregistrement. Cela crée un type d’enregistrement en lecture seule dans Maestro qui est connecté aux types d’objets de l’application d’origine.
-
-     Pour plus d’informations sur la connexion des types d’objets aux enregistrements Maestro, voir [Connexion d’enregistrements](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manuellement :
 
       * À partir de zéro.
@@ -126,9 +126,9 @@ Cet article décrit comment créer de A à Z des types d’enregistrements opér
 
 Pour plus d’informations sur les taxonomies, voir [Création d’une taxonomie](../architecture/create-a-taxonomy.md).
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   L’espace de travail du dernier accès doit s’ouvrir par défaut.
+L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
@@ -138,14 +138,14 @@ Pour plus d’informations sur les taxonomies, voir [Création d’une taxonomie
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. Sélectionnez les informations suivantes :
+1. Mettez à jour les informations suivantes :
 
-   * **Nom de l’enregistrement**: remplacez &quot;Untitled Operational Record Type&quot; par le nom de votre type d’enregistrement futur. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Nom du type d’enregistrement**: remplacez &quot;Untitled Operational Record Type&quot; par le nom de votre type d’enregistrement futur.
    * **Apparence**: définissez la couleur et la forme de l’icône associée au type d’enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône de type d’enregistrement. L’option Gris est sélectionnée par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
-1. Cliquez en dehors du **Ajouter un type d’enregistrement** pour enregistrer l’enregistrement.
+1. Cliquez en dehors du **Ajouter un type d’enregistrement** pour enregistrer le type d’enregistrement.
 
    La carte de type enregistrement est ajoutée à l’espace de travail que vous avez sélectionné.
 Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la carte.
@@ -171,8 +171,11 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
 
    Cliquez sur le bouton **Plus** icon ![](assets/more-menu.png) à droite du nom du type d&#39;enregistrement et cliquez sur **Renommer** pour le renommer.
 
-1. (Facultatif) Cliquez sur **+ Nouveau &lt; nom du type d’enregistrement >** pour ajouter des enregistrements du type d’enregistrement sélectionné. Pour plus d’informations, voir [Créer des enregistrements](../records/create-records.md).
-1. (Facultatif) Cliquez sur le **+** dans le coin supérieur droit du tableau pour ajouter d’autres champs au type d’enregistrement. Pour plus d’informations, voir [Créer des champs](../fields/create-fields.md).
+1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** pour ajouter des enregistrements du type d’enregistrement sélectionné. Pour plus d’informations, voir [Créer des enregistrements](../records/create-records.md).
+1. (Facultatif) Cliquez sur le **+** dans le coin supérieur droit du tableau pour ajouter d’autres champs au type d’enregistrement.
+
+   Pour plus d’informations sur la création de champs, voir [Créer des champs](../fields/create-fields.md).
+
 1. (Facultatif) Cliquez sur la flèche pointant vers la gauche du nom du type d’enregistrement pour revenir à l’espace de travail sélectionné.
 
    La carte de type enregistrement affiche le nombre de champs et de connexions contenus dans le type d’enregistrement.
@@ -184,7 +187,7 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
    * [Créer des enregistrements](../records/create-records.md)
    * [Suppression des types d’enregistrement](../architecture/delete-record-types.md)
    * [Modification des types d’enregistrement](../architecture/edit-record-types.md)
-   * [Gestion des vues d’enregistrement dans Adobe Maestro](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [Gestion des vues d’enregistrement](../views/manage-record-views.md)
 
 ## Création de types d’enregistrement à l’aide d’un import de fichier Excel ou CSV
 
@@ -202,9 +205,9 @@ Tenez compte des points suivants lors de l’importation de types d’enregistre
 
 Pour importer des types d’enregistrement à l’aide d’un fichier Excel :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   L’espace de travail du dernier accès doit s’ouvrir par défaut.
+L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
@@ -250,20 +253,21 @@ Pour importer des types d’enregistrement à l’aide d’un fichier Excel :
 
    Toute personne ayant accès à Maestro peut désormais afficher et modifier les types d’enregistrements importés et leurs informations. <!--this will change with permissions-->
 
-## Connexion de types d’enregistrement à des types d’objets provenant d’une autre application
+<!--## Connect record types with object types from another application
 
-Vous pouvez importer des types d’enregistrement lorsque vous créez une connexion entre un type d’enregistrement Maestro et un type d’objet à partir d’une autre application. Cela crée un type d’enregistrement en lecture seule dans Maestro qui correspond au type d’objet dans l’application tierce.
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-Par exemple, vous pouvez créer des types d’enregistrement en connectant les types d’enregistrement Maestro aux projets Workfront. Par conséquent, le type d’objet de projet Workfront est importé dans Maestro en tant que type d’enregistrement en lecture seule. Par défaut, le type d’enregistrement est nommé &quot;Projet Workfront&quot;. <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-Vous pouvez importer les objets suivants à partir des applications suivantes :
+* From Workfront:
 
-* Depuis Workfront :
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * Projets
-   * Portefeuilles
-   * Programmes
-   * Entreprise
-   * Groupe
-
-Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

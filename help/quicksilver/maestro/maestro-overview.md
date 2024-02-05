@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 1%
@@ -263,7 +263,7 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Objet Maestro | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Nombre d’espaces de travail pour une instance Workfront | 1 000 |
-| Nombre de types d’enregistrement pour un espace de travail | 1 000 (y compris les taxonomies de l’espace de travail ou les objets que vous importez à partir d’applications tierces) |
+| Nombre de types d’enregistrement pour un espace de travail | 1 000 (y compris les taxonomies de l’espace de travail ou les objets que vous importez à partir d’autres applications) |
 | Nombre d&#39;enregistrements pour un type d&#39;enregistrement | 10 000 |
 | Nombre de champs pour un type d’enregistrement ou une taxonomie | 500 |
 | Nombre de caractères d’un champ de texte | 1 000 caractères |

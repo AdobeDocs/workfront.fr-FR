@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Le tableau suivant illustre certaines similitudes et différences entre les type
 | Elles représentent des attributs sur les objets liés au travail. |                         | ✓ |
 | Vous pouvez créer entièrement | ✓ | ✓ |
 | Vous pouvez créer en important un fichier Excel ou CSV. | ✓ |                      |
-| Vous pouvez connecter le type d’enregistrement à un objet à partir d’une application tierce. | ✓ |                      |
+| Vous pouvez connecter le type d’enregistrement à un objet à partir d’une autre application. | ✓ |                      |
 | Vous pouvez vous connecter à d’autres types d’enregistrements Maestro | ✓ |                    |
 | Vous pouvez afficher les enregistrements associés dans une vue de tableau. | ✓ | ✓ |
 | Vous pouvez afficher les enregistrements associés dans une vue chronologique. | ✓ | ✓ |
