@@ -9,9 +9,9 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe Wor
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
+source-git-commit: 879d2ec0c8f3909a5dd385c77bd2de81120d40fa
 workflow-type: tm+mt
-source-wordcount: '5799'
+source-wordcount: '5825'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,10 @@ Vous pouvez créer une connexion à votre [!DNL Workfront] compte directement de
 Lorsque vous configurez [!DNL Workfront] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Workfront] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
 Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+>[!NOTE]
+>
+>Si vous ne voyez pas les champs les plus à jour dans un module Workfront, cela peut être dû à des problèmes de mise en cache. Patientez une heure et réessayez.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -1043,7 +1047,7 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Équipe</td> 
+   <td>Equipe</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -1412,7 +1416,7 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Équipe</td> 
+   <td>Equipe</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1641,7 +1645,7 @@ Consultez la liste des [!DNL Workfront] types d’objets pour lesquels vous pouv
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Équipe</td> 
+   <td>Equipe</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
