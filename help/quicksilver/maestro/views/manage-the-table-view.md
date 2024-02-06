@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -166,6 +166,8 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
    >   * La modification du champ principal dans une vue de tableau affecte toutes vos vues de tableau.
    >
    >   * Vous ne pouvez pas supprimer ni masquer un champ principal.
+   >
+   >   * La valeur indiquée dans le champ principal est toujours liée par un lien hypertexte à la page Détails de l’enregistrement.
 
 1. Cliquez et faites glisser les lignes de séparation des colonnes et déposez-les à l’emplacement souhaité pour augmenter la largeur des colonnes.
 
@@ -214,7 +216,7 @@ Vous pouvez avoir jusqu’à 10 000 enregistrements (ou lignes) pour un type d�
 
    Les enregistrements que vous ajoutez dans la vue de tableau sont immédiatement enregistrés et visibles par tous les utilisateurs disposant d’autorisations d’affichage ou supérieures à l’espace de travail.
 
-1. (Facultatif) Ajoutez une miniature à chaque enregistrement, puis cliquez sur **Champs** dans le coin supérieur droit du tableau, sélectionnez le bouton d’activation/désactivation du champ Miniature pour l’afficher à gauche du champ principal. Elle est désélectionnée par défaut.
+1. (Facultatif) Ajoutez une miniature à chaque enregistrement, puis cliquez sur **Champs** dans le coin supérieur droit du tableau, puis sélectionnez le bouton d’activation/désactivation de la fonction **Miniature** pour l’afficher à gauche du champ principal. Elle est désélectionnée par défaut.
 
    Pour plus d’informations, voir [Ajout de miniatures aux enregistrements](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 

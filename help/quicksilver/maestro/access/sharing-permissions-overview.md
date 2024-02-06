@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 8%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
@@ -42,12 +42,9 @@ Vous pouvez partager les objets suivants dans Maestro :
 
 ## Observations relatives au partage d’objets dans Maestro
 
-* Vous devez disposer de la licence suivante pour créer des espaces de travail dans Maestro :
+* Votre type de licence Adobe Workfront fonctionne conjointement avec vos autorisations Maestro pour vous permettre d’afficher, de contribuer ou de gérer des objets Maestro.
 
-   * Nouveau modèle de tarification : licence standard
-   * Modèle de tarification actuel : formule une licence.
-
-  Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+  Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation des objets Maestro, voir [Présentation du type de licence dans Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 * Les administrateurs système peuvent gérer et partager les espaces de travail créés par d’autres utilisateurs.
 * Si vous n’êtes pas administrateur système, vous pouvez contribuer aux espaces de travail créés par d’autres utilisateurs s’ils sont partagés avec vous.
 * Vous ne pouvez pas partager les espaces de travail en bloc.
@@ -60,6 +57,13 @@ Vous pouvez partager les objets suivants dans Maestro :
 ## Partage des autorisations pour les objets Maestro
 
 Les tableaux des sections suivantes illustrent le niveau des autorisations que vous pouvez sélectionner lors du partage d’un espace de travail ou d’une vue Maestro et les fonctionnalités autorisées par chaque niveau.
+
+>[!IMPORTANT]
+>
+>Tous les utilisateurs ne peuvent pas disposer des niveaux d’autorisation décrits ci-dessous. La licence individuelle des utilisateurs détermine le niveau d’autorisation qu’ils peuvent recevoir pour les objets Maestro.
+>
+>Pour plus d’informations, voir [Présentation du type de licence dans Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+
 
 ### Autorisations Workspace
 

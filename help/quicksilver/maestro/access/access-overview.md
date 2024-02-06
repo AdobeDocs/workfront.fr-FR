@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,15 @@ Pour utiliser Adobe Maestro, vous devez disposer des paramètres suivants :
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
    <p>Quelconque</p>
-   Pour créer des espaces de travail, les utilisateurs doivent disposer de la licence suivante : 
-   <ul><li><p>Nouveau : Standard</p> </li>
-   <li><p>Current : Worker ou version supérieure</p> </li></ul>
+   <p>Pour créer des espaces de travail, vous devez disposer de la licence suivante :</p>
+   <ul>
+   <li>
+   Nouveau : Standard
+   </li>
+   <li>
+   Current : Worker ou version supérieure
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -66,7 +72,7 @@ Pour utiliser Adobe Maestro, vous devez disposer des paramètres suivants :
 <tr>
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
-   <p>Contribuez à des espaces de travail et à des vues que vous n’avez pas créés pour les modifier, les supprimer et les partager.</p>
+   <p>Contribuez à des espaces de travail et des vues que vous n’avez pas créés pour les modifier, les supprimer et les partager, ainsi que pour créer, modifier ou supprimer des types d’enregistrement et des enregistrements.</p>
     <p>Les administrateurs système peuvent gérer les espaces de travail et les vues qu’ils n’ont pas créés. </p>
    <p>Pour plus d’informations sur le partage des autorisations pour les objets Maestro, voir  
    <a href="../access/sharing-permissions-overview.md">Présentation des autorisations de partage dans Adobe Maestro</a> 
@@ -109,10 +115,16 @@ Il n’existe aucun contrôle d’accès pour Maestro.
 
 Les utilisateurs disposant de tout type de licence peuvent accéder à Maestro.
 
+Pour plus d’informations sur l’octroi de l’accès dans Workfront, voir [Création et modification de niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## Octroi d’autorisations
 
 Vous devez accorder aux utilisateurs qui ne sont pas administrateurs système des autorisations d’accès aux espaces de travail et aux vues que vous créez pour qu’ils puissent y accéder.
 
 Pour plus d’informations, voir [Présentation des autorisations de partage dans Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+Votre type de licence Adobe Workfront fonctionne conjointement avec vos autorisations Maestro pour vous permettre d’afficher, de contribuer ou de gérer des objets Maestro.
+
+Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation des objets Maestro, voir [Présentation du type de licence dans Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

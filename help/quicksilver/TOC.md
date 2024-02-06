@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '13888'
-ht-degree: 0%
+source-wordcount: '13894'
+ht-degree: 1%
 
 ---
 
@@ -413,7 +413,7 @@ ht-degree: 0%
       * [Différences basées sur les plateformes](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
    * Configuration de Workfront {#set-up-wf}
       * [Configuration](administration-and-setup/set-up-workfront/set-up-workfront.md)
-      * Configuration des paramètres système par défaut {#configure-system-defaults}
+      * Configurer les paramètres système par défaut {#configure-system-defaults}
          * [Configuration des valeurs par défaut](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Configuration des préférences de projet](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [Configuration des préférences de tâche et de problème](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
@@ -437,13 +437,13 @@ ht-degree: 0%
          * [Préférences de la feuille de temps et de l’heure](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
          * [Gestion des types d’heures](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
          * [Création d’un planning](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
-      * Configuration organisationnelle {#organization-setup}
+      * Structure organisationnelle {#organization-setup}
          * [Configuration organisationnelle](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
          * [Gestion des entreprises](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [Gestion des appartenances à une entreprise](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [Désactivation ou réactivation d’une entreprise](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [Rôle de tâche](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
-         * [Création et gestion des rôles de tâche](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+         * [Créer et gérer des fonctions](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
          * [Suppression de rôles de tâche](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [Désactivation des rôles de tâche](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Remplacer les taux de facturation des rôles de tâche](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
@@ -459,14 +459,14 @@ ht-degree: 0%
          * [Déplacer des objets d’un [!DNL Workfront] environnement à un autre](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * Gestion des utilisateurs {#add-users}
       * [Gestion des utilisateurs : index des articles](administration-and-setup/add-users/add-users.md)
-      * Création et gestion des utilisateurs {#create-manage-users}
+      * Créer et gérer des utilisateurs et des utilisatrices {#create-manage-users}
          * [Gestion des utilisateurs](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Ajouter des utilisateurs](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [Importer des utilisateurs](administration-and-setup/add-users/create-and-manage-users/import-users.md)
          * [Modification du profil d’un utilisateur](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
          * [Modification en masse des profils utilisateur](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
          * [Création de rapports directs](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
-         * [Connexion en tant qu’autre utilisateur](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
+         * [Se connecter sous une autre identité](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
          * [Réinitialisation des préférences d’un utilisateur](administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
          * [Modifier un nom d’utilisateur](administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
          * [Modification du mot de passe d’un utilisateur muni d’un profil d’approvisionnement automatique](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
@@ -534,8 +534,8 @@ ht-degree: 0%
          * [Marque personnalisée](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [Marquez votre instance](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
          * [Configuration d’une URL d’aide personnalisée](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
-      * Modèles de mise en page {#layout-templates}
-         * [Modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
+      * Modèles de disposition {#layout-templates}
+         * [Modèles de disposition](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [Disposition Workfront par défaut](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
          * [Création et gestion des modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
          * [Personnalisation du menu principal](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
@@ -676,7 +676,7 @@ ht-degree: 0%
       * Taux de change {#exchange-rates}
          * [Taux de change](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [Configurer les taux de change](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
-      * Gestion des éléments supprimés {#manage-deleted-items}
+      * Gérer les éléments supprimés {#manage-deleted-items}
          * [Gestion des éléments supprimés](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [Restauration des éléments supprimés](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
          * [Afficher l’élément restauré](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
@@ -704,7 +704,7 @@ ht-degree: 0%
       * Création et gestion des groupes {#create-manage-groups}
          * [Création et gestion des groupes](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
          * [Création d’un groupe](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
-         * [Gestion d’un groupe](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
+         * [Gérer un groupe](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
          * [Notifications d’événements de groupe](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
          * [Affichage et gestion des détails d’un groupe](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
          * [Affichage et gestion des appartenances d’un groupe](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
@@ -716,7 +716,7 @@ ht-degree: 0%
          * [Déverrouiller la feuille de temps et les préférences d’heure ;](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
          * [Déplacement d’un groupe](administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
          * [Désactivation ou réactivation d’un groupe](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
-         * [Suppression d’un groupe](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+         * [Supprimer un groupe](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
          * [Exporter une liste de groupes](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
       * Création et gestion des sous-groupes {#create-manage-subgroups}
          * [Création et gestion des sous-groupes](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
@@ -725,7 +725,7 @@ ht-degree: 0%
          * [Affichage et gestion des membres de sous-groupe](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
       * Rôles de groupe {#group-roles}
          * [Rôles de groupe](administration-and-setup/manage-groups/group-roles/group-roles.md)
-         * [Administrateurs de groupe](administration-and-setup/manage-groups/group-roles/group-administrators.md)
+         * [Administrateurs et administratrices de groupe](administration-and-setup/manage-groups/group-roles/group-administrators.md)
          * [Attribution d’un administrateur de groupe](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
          * [Fonctionnalités de l’administrateur de groupe](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
          * [Présentation des chefs d’entreprise](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
@@ -764,7 +764,7 @@ ht-degree: 0%
       * [Configuration des intégrations de documents](administration-and-setup/configure-integrations/configure-document-integrations.md)
       * [Désactivation des intégrations de documents](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configuration de l’intégration SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
-      * [Configuration du mappage des métadonnées](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [Configurer le mappage des métadonnées](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
       * [Création de packages de Creative Cloud Adobe Workfront pour vos utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Création d’applications OAuth2 pour les intégrations Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Affichage et gestion des applications OAuth2 personnalisées](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
@@ -989,7 +989,7 @@ ht-degree: 0%
       * [Créer ou modifier un panorama](agile/get-started-with-boards/create-edit-board.md)
       * [Suppression ou archivage d’un panorama](agile/get-started-with-boards/delete-archive-board.md)
       * [Ajout ou suppression de membres d’un panorama](agile/get-started-with-boards/add-members-to-board.md)
-      * [Gestion des colonnes de panorama](agile/get-started-with-boards/manage-board-columns.md)
+      * [Gérer les colonnes de panorama](agile/get-started-with-boards/manage-board-columns.md)
       * [Ajouter une carte ad hoc à un panorama](agile/get-started-with-boards/add-card-to-board.md)
       * [Utilisation de cartes connectées sur les panoramas](agile/get-started-with-boards/connected-cards.md)
       * [Ajout de tâches ou de problèmes existants à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
@@ -1017,7 +1017,7 @@ ht-degree: 0%
    * [Présentation agile](agile/agile-overview.md)
    * Prise en main d’AEM dans Adobe Workfront {#agile-in-workfront}
       * [Prise en main d’AEM dans Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Créer une équipe agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [Créer une équipe Agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Configurer Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Configuration de Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Kanban dans une équipe agile {#kanban}
@@ -1202,10 +1202,10 @@ ht-degree: 0%
          * [Gestion d’un projet en mode Agile](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Présentation des mesures de projet](manage-work/projects/manage-projects/project-metrics.md)
          * [Présentation des limites du projet](manage-work/projects/manage-projects/project-maximums.md)
-      * Création et gestion de modèles de projet {#create-and-manage-project-templates}
+      * Créer et gérer des modèles de projet {#create-and-manage-project-templates}
          * [Créer et gérer des modèles de projet : index des articles](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Présentation du modèle de projet](manage-work/projects/create-and-manage-templates/project-template-overview.md)
-         * [Création d’un modèle de projet](manage-work/projects/create-and-manage-templates/create-template.md)
+         * [Créer un modèle de projet](manage-work/projects/create-and-manage-templates/create-template.md)
          * [Création de modèles de projet à partir d’exemples](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
          * [Parcourir le catalogue des plans directeurs et demander l’installation des plans directeurs](administration-and-setup/blueprints/browse-catalog.md)
          * [Copier un modèle de projet](manage-work/projects/create-and-manage-templates/copy-template.md)
@@ -1268,7 +1268,7 @@ ht-degree: 0%
          * [L’état du projet ne passe pas de Terminé à Actif](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [Exemple de calcul - Calcul d’un EAC en tant que cumul à partir de tâches](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [Exemple de calcul - calculer le taux d’effet élévateur au niveau du projet](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
-   * Tâche {#tasks}
+   * Tâches {#tasks}
       * [Tâches : index de l’article](manage-work/tasks/tasks-overview.md)
       * Informations sur la tâche {#task-information}
          * [Informations sur la tâche](manage-work/tasks/task-information/task-information.md)
@@ -1292,7 +1292,7 @@ ht-degree: 0%
          * [Présentation de la tâche Durée initiale et Heures planifiées initiales](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Différence entre la durée planifiée et la durée des tâches](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Création de tâches {#create-tasks}
-         * [Création de tâches](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [Créer des tâches](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [Présentation de la création de tâches](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [Création de tâches dans un projet](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Création de sous-tâches](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -1482,7 +1482,7 @@ ht-degree: 0%
    * Conseils, astuces et dépannage pour les équipes et les groupes {#tips-tricks-people-teams-groups}
       * [Conseils, astuces et dépannage pour les équipes et les groupes](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Nom d’utilisateur déjà utilisé](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* Reporting {#reporting}
+* Rapports {#reporting}
    * [Rapports et tableaux de bord : index des articles](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Canevas de création de rapports {#reporting-canvas}
       * [Canevas de création de rapports](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
@@ -1529,7 +1529,7 @@ ht-degree: 0%
          * [Utilisation de caractères génériques basés sur des dates pour généraliser des rapports](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser des rapports](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [Partager un filtre, une vue ou un regroupement](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-         * [Suppression des filtres, des vues et des regroupements](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+         * [Supprimer des filtres, des vues et des regroupements](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [Utilisation de la vue Milestone](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [Modification de la largeur et de l’ordre des colonnes](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
       * Utilisation de rapports natifs {#built-in-reports}
@@ -1714,7 +1714,7 @@ ht-degree: 0%
       * [Visualisation de l’activité par équipe dans les analyses améliorées](enhanced-analytics/activity-by-team-overview.md)
       * [Visualisation de la capacité des ressources dans les analyses améliorées](enhanced-analytics/resource-capacity-overview.md)
       * [Visualisation de la capacité de l’équipe dans Enhanced Analytics](enhanced-analytics/team-capacity-overview.md)
-* Gestion des ressources {#manage-resources}
+* Gérer les ressources {#manage-resources}
    * [Gestion des ressources](resource-mgmt/manage-resources.md)
    * Gestion des ressources {#resource-management}
       * [Gestion des ressources](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
@@ -1764,14 +1764,14 @@ ht-degree: 0%
       * [Navigation dans l’équilibreur de charge de travail](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
       * [Partage de l’équilibreur de charge de travail avec un lien](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
       * [Mise à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-* Réviser et approuver le travail {#review-and-approve-work}
+* Vérifier et approuver un travail {#review-and-approve-work}
    * [Réviser et approuver le travail](review-and-approve-work/review-and-approve-work.md)
    * [Programme Alpha - Approbations de document](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Présentation des documents et des BAT limités pour les utilisateurs non payants](review-and-approve-work/proof-doc-decision-limits.md)
    * Approbations de travail {#work-approvals}
       * [Approbations de travail](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Présentation du processus de validation](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-      * [Demande d’approbation de documents](review-and-approve-work/manage-approvals/request-document-approvals.md)
+      * [Demander l’approbation de documents](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Valider le travail](review-and-approve-work/manage-approvals/approving-work.md)
       * [Afficher les approbations](review-and-approve-work/manage-approvals/view-approvals.md)
       * [Rappeler aux approbateurs les validations envoyées](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
@@ -1830,7 +1830,7 @@ ht-degree: 0%
             * [Utiliser le rapport d&#39;approbation des BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Accès au BAT Workfront à partir d’Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Gestion des versions de BAT {#manage-proof-versions}
-            * [Gestion des versions de BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [Gérer les versions des BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Créer une nouvelle version d’un BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Affichage des versions de BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Affichage et gestion des détails sur les versions du BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
@@ -1867,7 +1867,7 @@ ht-degree: 0%
       * Vérification des bons à tirer dans Adobe Workfront {#review-proofs-in-workfront}
          * [Vérification des bons à tirer dans Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * Vérification d’un BAT {#review-a-proof}
-            * [Vérification d’un BAT](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [Vérifier une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Afficher le contenu dans un BAT](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Mesure d’une zone dans un BAT](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [Modification de l’unité de mesure de la chronologie dans un BAT vidéo](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -2033,6 +2033,7 @@ ht-degree: 0%
       * [Informations d’accès](maestro/access/access-information.md)
       * [Présentation de l’accès](maestro/access/access-overview.md)
       * [Présentation des autorisations de partage dans Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+      * [Présentation du type de licence dans Adobe Maestro](maestro/access/license-type-overview.md)
       * [Partage des espaces de travail](maestro/access/share-workspaces.md)
       * [Partage de vues](maestro/access/share-views.md)
    * Enregistrements du maître d’Adobe {#adobe-maestro-records}
@@ -2206,7 +2207,7 @@ ht-degree: 0%
       * [Modules de diapositives Google](workfront-fusion/apps-and-their-modules/google-slides-modules.md)
       * [Modules Google Team Drive](workfront-fusion/apps-and-their-modules/google-team-drive-modules.md)
       * Modules HTTP {#fusion-http-modules}
-         * [Modules HTTP](workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
+         * [Modules HTTP](workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
          * [HTTP > Créer un module de requête](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
          * [HTTP > Créer un module de demande d’autorisation de base](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
          * [HTTP > Créer un module de requête OAuth 2.0](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
@@ -2217,7 +2218,7 @@ ht-degree: 0%
       * [Modules CRM HubSpot](workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
       * [Modules d’image](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Modules logiciels Jira](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
-      * [Modules JSON](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [Modules JSON](workfront-fusion/apps-and-their-modules/json-modules.md)
       * [Modules MariaDB](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Modules Markdown](workfront-fusion/apps-and-their-modules/markdown-modules.md)
       * [Modules Marketo](workfront-fusion/apps-and-their-modules/marketo-modules.md)
@@ -2242,7 +2243,7 @@ ht-degree: 0%
       * [Modules SFTP](workfront-fusion/apps-and-their-modules/sftp.md)
       * [Modules SharePoint](workfront-fusion/apps-and-their-modules/sharepoint-modules.md)
       * [Modules Slack](workfront-fusion/apps-and-their-modules/slack-modules.md)
-      * [Module SOAP](workfront-fusion/apps-and-their-modules/soap-module.md)
+      * [Module SOAP](workfront-fusion/apps-and-their-modules/soap-module.md)
       * [Modules Split.io](workfront-fusion/apps-and-their-modules/split-io-modules.md)
       * [Analyseur de texte](workfront-fusion/apps-and-their-modules/text-parser.md)
       * [Outils](workfront-fusion/apps-and-their-modules/tools-modules.md)
@@ -2295,7 +2296,7 @@ ht-degree: 0%
       * [Afficher le journal d’activité Jira](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
    * Adobe Workfront for G Suite {#workfront-for-g-suite}
       * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
-      * [Installation d’Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [Installer Adobe Workfront pour G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [Confidentialité et autorisations dans Workfront pour G Suite](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
       * [Connexion et déconnexion d’Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
       * [Accès au contenu d’accueil d’Adobe Workfront à partir de G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
@@ -2357,7 +2358,7 @@ ht-degree: 0%
       * [Application d’une allocation de budget Analytics à un projet Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Créer un élément de liste Anaplan à partir d’une requête de campagne Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Application d’une allocation de budget Analytics à une requête de campagne ou à un projet de campagne Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Bon à tirer Workfront {#workfront-proof}
+* Workfront Proof {#workfront-proof}
    * [Bon à tirer Workfront : index de l’article](workfront-proof/workfront-proof.md)
    * Prise en main du Bon à tirer Workfront {#get-started-wf-proof}
       * [Prise en main du bon à tirer Workfront](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
