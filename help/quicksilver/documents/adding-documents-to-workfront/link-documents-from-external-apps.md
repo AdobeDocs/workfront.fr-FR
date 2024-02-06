@@ -6,9 +6,9 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront �
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des 
     </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Épreuve Workfront </td> 
+   <td role="rowheader">Workfront Proof </td> 
    <td>Vous pouvez rendre les bons à tirer créés à l’origine dans Workfront BAT disponibles dans Workfront. Pour les licences actuelles, un forfait Pro Workfront ou supérieur est requis pour utiliser cette fonctionnalité. Pour les nouvelles licences, toutes les formules comprennent cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir <a href="https://www.workfront.com/plans">Formules Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -232,6 +232,10 @@ Vous pouvez créer un document Google dans Workfront. Vous ne pouvez pas créer 
 ## Chargement et liaison d’un document de Workfront à un fournisseur cloud externe
 
 Vous pouvez charger et lier un document de Workfront à un fournisseur cloud externe. Cette opération déplace le stockage du document de Workfront vers le fournisseur cloud externe. Lorsque le document est modifié dans l’application externe, il est automatiquement mis à jour dans Workfront.
+
+>[!NOTE]
+>
+>L’envoi d’une ressource à un fournisseur de documents externe crée une nouvelle version de la ressource.
 
 Les utilisateurs n’ayant pas accès à Workfront peuvent voir le document dans l’application externe s’ils ont accès à l’application.
 
