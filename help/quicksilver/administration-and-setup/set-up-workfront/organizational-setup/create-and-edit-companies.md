@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -148,9 +148,9 @@ Pour plus d’informations sur le partage d’objets, voir [Présentation des au
 
 Lorsqu’une [!DNL Workfront] L’administrateur affecte un groupe à une entreprise, les administrateurs du groupe pour le gain du groupe. [!UICONTROL Gérer] accès à l’entreprise dans [!UICONTROL Configuration]. Cela inclut l’accès au [!UICONTROL Entreprises] page [!UICONTROL Configuration], où ils peuvent voir et gérer l’entreprise associée à leur groupe.
 
-Avec cet accès au [!UICONTROL Entreprises] , un administrateur de groupe peut affecter un groupe à une société, mais il doit s’agir d’une société que l’administrateur de groupe a créée. Si le niveau d’accès de l’administrateur du groupe n’est pas configuré avec l’accès administratif aux entreprises, la variable [!UICONTROL Groupe] est obligatoire lorsque l’administrateur du groupe crée la société. Le titre en gras indique :
+Avec cet accès au [!UICONTROL Entreprises] , un administrateur de groupe peut affecter un groupe à une société, mais il doit s’agir d’une société que l’administrateur de groupe a créée. Si le niveau d’accès de l’administrateur du groupe n’est pas configuré avec l’accès administratif aux entreprises, la variable [!UICONTROL Groupe] est obligatoire lorsque l’administrateur du groupe crée la société. Son titre en gras indique :
 
-![](assets/manage-company-group-field-req.jpg)
+![Modifier la société](assets/group-admin-add-company.png)
 
 Pour plus d’informations sur la manière dont les utilisateurs accèdent de manière administrative aux entreprises à leur niveau d’accès, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
