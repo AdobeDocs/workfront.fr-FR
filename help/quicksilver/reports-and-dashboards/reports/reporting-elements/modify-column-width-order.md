@@ -6,9 +6,9 @@ description: Consultez cet article pour en savoir plus sur les conseils relatifs
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 0%
 Vous trouverez ci-dessous des instructions relatives au fonctionnement des largeurs de colonne dans Adobe Workfront :
 
 * Workfront définit par défaut la largeur des colonnes des listes et des rapports.
-* Workfront ajuste automatiquement la largeur des colonnes en fonction du `valueformat`des informations dans toutes les listes et tous les rapports, sauf indication contraire en mode texte de la colonne.
+* Workfront ajuste automatiquement la largeur des colonnes en fonction de la variable `valueformat`des informations dans toutes les listes et tous les rapports, sauf indication contraire en mode texte de la colonne.
 
-   >[!NOTE]
-   >
-   >Workfront n’ajuste pas la largeur des colonnes en fonction de la variable `valueformat` des informations dans les listes disponibles dans les zones Configuration et Rapports .
+  >[!NOTE]
+  >
+  >Workfront n’ajuste pas la largeur des colonnes en fonction de la variable `valueformat` des informations dans les listes disponibles dans les zones Configuration et Rapports .
 
-   Le `valueformat` définit le type d’informations affichées dans la colonne. Par exemple, les colonnes qui affichent un nombre sont plus étroites que les colonnes qui affichent le champ Description.
+  La variable `valueformat` définit le type d’informations affichées dans la colonne. Par exemple, les colonnes qui affichent un nombre sont plus étroites que les colonnes qui affichent le champ Description.
 
 * Vous pouvez personnaliser la largeur des colonnes de vos listes et rapports Workfront en fonction de vos besoins, selon le type d’informations que vous souhaitez afficher en colonnes.
 
-   Vous pouvez modifier temporairement la largeur des colonnes lors de l’affichage d’une liste ou d’un rapport, ou de manière permanente, en ajustant la largeur de la colonne dans le créateur de vues. Pour plus d’informations sur la modification temporaire de la largeur des colonnes, voir la section [Remarques concernant la modification temporaire de la largeur et de l’ordre des colonnes](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) dans cet article.
+  Vous pouvez modifier temporairement la largeur des colonnes lors de l’affichage d’une liste ou d’un rapport, ou de manière permanente, en ajustant la largeur de la colonne dans le créateur de vues. Pour plus d’informations sur la modification temporaire de la largeur des colonnes, voir la section [Remarques concernant la modification temporaire de la largeur et de l’ordre des colonnes](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) dans cet article.
 
 * Les colonnes qui apparaissent dans les vues natives ont des largeurs précédemment définies par Workfront et codées en dur. Pour modifier ces largeurs, vous devez mettre à jour manuellement la largeur de ces colonnes à l’aide du mode texte dans le générateur d’affichage.
 
-   Pour plus d’informations sur la modification de la colonne en mode texte, voir [Afficher : modifier définitivement la largeur d’une colonne ;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  Pour plus d’informations sur la modification de la colonne en mode texte, voir [Afficher : permet de modifier définitivement la largeur d’une colonne.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
 ## Exigences d’accès
 
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour modifier une vue dans un rapport</p> <p>Gérer les autorisations pour une vue afin de la modifier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport pour modifier une vue dans un rapport</p> <p>Gérer les autorisations pour une vue pour la modifier</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,6 +87,12 @@ Vous pouvez temporairement modifier la largeur et l’ordre des colonnes d’une
 Tenez compte de ce qui suit lors du redimensionnement et de l’ordre temporaires des colonnes :
 
 * Lors du redimensionnement des colonnes, les nouvelles tailles de colonne sont stockées dans l’espace de stockage local de votre navigateur et sont enregistrées par défaut. L’utilisation d’un autre navigateur, l’effacement du cache ou la navigation dans les données entraînent la restauration de la taille des colonnes par défaut. L’actualisation de la page permet de conserver les modifications apportées à la largeur des colonnes.
+
+>[!NOTE]
+> 
+>La largeur des colonnes est limitée par la taille de la fenêtre du navigateur. Si la page est actualisée, la largeur des colonnes est réduite jusqu’à ce que toutes les colonnes puissent s’adapter à la fenêtre sans défilement horizontal. Pour forcer une colonne à rester plus large que la largeur souhaitée par le navigateur, vous devez définir la largeur de la colonne en mode texte, comme décrit dans la section [Modifier la largeur et l’ordre des colonnes de manière permanente](#modify-width-and-order-of-columns-permanently) et évitez d’ajuster manuellement les largeurs de colonne en faisant glisser leurs bordures.
+>
+
 * Lors de la réorganisation des colonnes, l’ordre de votre choix n’est conservé que lorsque vous quittez la liste ou que vous actualisez la page du navigateur. Après avoir quitté la liste ou actualisé la page du navigateur, les colonnes retournent à leur ordre par défaut.
 * Pour des performances optimales, les colonnes que vous réorganisez ne doivent pas comporter plus de 100 éléments dans la liste.
 * Lorsque vous redimensionnez des colonnes, vos modifications s’appliquent uniquement à la vue que vous utilisez actuellement et qui n’est visible que par vous. Le partage d’une vue avec un autre utilisateur ne partage pas les tailles de colonne que vous avez définies.
@@ -96,9 +102,9 @@ Tenez compte de ce qui suit lors du redimensionnement et de l’ordre temporaire
    * La zone Rapports
    * Listes et rapports de document
 
-   >[!NOTE]
-   >
-   >Vous ne pouvez pas déplacer la bordure gauche d’une colonne au-delà de la bordure gauche de la colonne voisine dans une liste.
+  >[!NOTE]
+  >
+  >Vous ne pouvez pas déplacer la bordure gauche d’une colonne au-delà de la bordure gauche de la colonne voisine dans une liste.
 
 * Si vous exportez une liste dans un fichier, l’ordre temporaire des colonnes ne sera pas transféré vers le fichier exporté. Le fichier exporté affiche l’ordre des colonnes de la liste d’origine, avant que les colonnes n’aient été réorganisées.
 
@@ -125,7 +131,7 @@ Pour plus d’informations sur l’exportation de données à partir de listes e
 
 ### Modifier la largeur et l’ordre des colonnes de manière permanente {#modify-width-and-order-of-columns-permanently}
 
-Pour réorganiser définitivement les colonnes, reportez-vous à la section [Création ou personnalisation d’une vue standard](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) dans l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Pour réorganiser définitivement les colonnes, voir la section [Création ou personnalisation d’une vue standard](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) dans l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 Vous ne pouvez modifier la largeur d’une colonne de manière permanente qu’en mode texte.
 

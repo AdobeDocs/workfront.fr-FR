@@ -6,9 +6,9 @@ description: Vous pouvez partager avec d’autres utilisateurs des filtres, des 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -117,13 +117,7 @@ Partagez un filtre à l’aide de l’interface du créateur standard :
 
    La boîte Partage des filtres s’affiche.
 
-1. Activez la variable **Affichage à l’échelle du système** . Cela permet à quiconque dans Workfront d’afficher le filtre.
-
-   >[!IMPORTANT]
-   >
-   >Utilisez ce paramètre avec précaution. L’ajout de nombreux filtres pour tous les utilisateurs encombrera l’expérience de filtrage et rendra les filtres plus difficiles à trouver.
-
-   Ou commencez à saisir les noms des utilisateurs, des équipes, des rôles, des groupes ou des entreprises avec lesquels vous souhaitez partager du contenu dans la variable **Accéder à** champ .
+1. Commencez à saisir les noms des utilisateurs, des équipes, des rôles, des groupes ou des entreprises avec lesquels vous souhaitez partager le contenu dans la variable **Accéder à** champ .
 
    ![Zone de partage des filtres](assets/new-filters-share-filter.png)
 

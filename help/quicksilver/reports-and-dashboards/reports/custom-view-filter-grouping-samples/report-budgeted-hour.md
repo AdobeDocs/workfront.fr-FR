@@ -7,9 +7,9 @@ description: "Rapport : Heure budgétée"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 1%
 # Rapport : Heure budgétisée
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 Lorsque vous souhaitez partager des informations sur l’heure budgétée avec d’autres utilisateurs qui n’ont pas accès au planificateur de ressources, vous pouvez le faire en créant un rapport sur l’heure budgétée. Vous pouvez ensuite partager le rapport avec eux.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->Les heures budgétisées sont mises à jour toutes les heures dans la base de données Adobe Workfront. L’actualisation du rapport n’actualise pas nécessairement les informations horaires qu’il contient. Vous pouvez afficher le délai écoulé depuis la dernière mise à jour dans le coin supérieur droit de chaque rapport Heure budgétaire . L&#39;actualisation du rapport actualise les informations qu&#39;il contient uniquement lorsqu&#39;il y a eu plus d&#39;une heure depuis la dernière mise à jour.
+>Les heures budgétisées sont normalement mises à jour toutes les heures (rarement, il peut s’écouler un maximum de trois heures) dans la base de données Adobe Workfront. L’actualisation du rapport n’actualise pas nécessairement les informations horaires qu’il contient. Vous pouvez afficher le délai écoulé depuis la dernière mise à jour dans le coin supérieur droit de chaque rapport Heure budgétaire . L&#39;actualisation du rapport actualise les informations qu&#39;il contient uniquement lorsqu&#39;il y a eu plus d&#39;une heure depuis la dernière mise à jour.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 

@@ -6,9 +6,9 @@ description: Vous pouvez incorporer une page Web externe dans un tableau de bord
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,11 @@ Vous devez être connecté au site web spécifié pour afficher la page externe.
         Pour des raisons de sécurité, votre administrateur Workfront peut configurer vos préférences système de manière à ne pas autoriser l’utilisation des informations de session dans vos pages externes. Dans ce cas, la page externe ne se charge pas sur le tableau de bord.\
         Pour plus d’informations sur les préférences de sécurité du système, voir [Configuration des préférences de sécurité système](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+
+     >[!WARNING]
+     >
+     >L’utilisation de SessionID n’est pas sécurisée et n’est pas recommandée.
+     >
 
    * **Hauteur**: saisissez un nombre supérieur à 0 pour définir l’espace occupé par la page externe sur le tableau de bord. La hauteur par défaut est de 500.
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '848'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Activer l’utilisation des informations de session lors de la création d’URL de page externes</td> 
-      <td> <p>Permet aux utilisateurs d’utiliser les informations d’ID de session d’un site lors de l’ajout d’une page externe à un tableau de bord.</p> <p>Pour plus d’informations sur l’ajout de pages externes à un tableau de bord, voir <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporation d’une page web externe dans un tableau de bord</a>.</p> </td> 
+      <td> <p>Permet aux utilisateurs d’utiliser les informations d’ID de session d’un site lors de l’ajout d’une page externe à un tableau de bord.</p> <p>Cette option n’est pas sécurisée et désactivée par défaut. Il est recommandé d’utiliser OAuth à la place pour les intégrations.</p> <p>Pour plus d’informations sur l’ajout de pages externes à un tableau de bord, voir <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporation d’une page web externe dans un tableau de bord</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permet aux utilisateurs d’utiliser Workfront pour les applications mobiles et la variable <strong>Workfront</strong> Module complémentaire Outlook</td> 

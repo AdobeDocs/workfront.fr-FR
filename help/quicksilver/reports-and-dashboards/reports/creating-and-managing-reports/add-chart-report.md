@@ -6,9 +6,9 @@ description: Vous pouvez améliorer vos rapports en ajoutant un graphique. Vous 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 68d93ccb8b96f802ef0a612e7e41cf168e34e863
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2757'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ Pour ajouter une **Barre** à votre rapport :
    ![](assets/qs-bar-chart-350x167.png)
 
 1. Cliquez sur **Enregistrer + Fermer** pour enregistrer le graphique et le rapport.
+
+>[!IMPORTANT]
+>
+>Limitez les histogrammes à 23 ou moins, car les histogrammes contenant plus de 23 barres n&#39;afficheront pas correctement tous les libellés de barres.
 
 ### Graphique circulaire {#pie-chart}
 
