@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3325'
-ht-degree: 1%
+source-wordcount: '3339'
+ht-degree: 2%
 
 ---
 
@@ -179,7 +179,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 >
 >* Le contenu d’un champ de paragraphe peut contenir jusqu’à 1 000 caractères.
 >
->* Vous pouvez utiliser la mise en forme Texte enrichi pour améliorer le contenu des champs de paragraphe lorsqu’ils s’affichent dans la vue Tableau ou la page Détails d’un enregistrement.
+>* Vous pouvez utiliser la mise en forme Texte enrichi pour améliorer le contenu des champs de paragraphe lorsqu’ils s’affichent dans la vue Tableau ou la page Détails d’un enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Paragraphe** type de champ.
 
@@ -377,7 +377,9 @@ Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver
 
    >[!NOTE]
    >
-   >    Vous ne pouvez pas ajouter de champs provenant d&#39;enregistrements liés dans une formule. Cette fonctionnalité sera publiée ultérieurement. Pour plus d’informations sur les nouvelles versions, voir [Activité de mise à jour Adobe Maestro](/help/quicksilver/maestro/release-activity.md).
+   > * Vous ne pouvez pas ajouter de champs de type Sélection multiple dans une formule.
+   >
+   > * Vous ne pouvez pas ajouter de champs provenant d&#39;enregistrements liés dans une formule. Cette fonctionnalité sera publiée ultérieurement. Pour plus d’informations sur les nouvelles versions, voir [Activité de mise à jour Adobe Maestro](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Cliquez sur **Créer**.

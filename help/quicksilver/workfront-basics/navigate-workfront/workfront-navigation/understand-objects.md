@@ -6,9 +6,9 @@ description: "Les informations que vous affichez dans [!DNL Adobe Workfront] est
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
@@ -175,6 +175,7 @@ Vous trouverez ci-dessous une liste d’objets et leurs icônes correspondantes 
 | [!UICONTROL Tâche] | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png) | ✔ |
 | [!UICONTROL Équipe] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL Modèle] | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL Utilisateur] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
 
 ## Nombre de références d’objets
 
@@ -249,7 +250,7 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Tableau de bord]
 * [!UICONTROL Document]
 * [!UICONTROL Approbation de document]
-* [!UICONTROL Document Version]
+* [!UICONTROL Version du document]
    * Vous pouvez afficher des informations sur la version du document, le document auquel la version est associée, qui a créé la version et l’utilisateur qui a créé le BAT sur la version du document, le cas échéant (Créateur de BAT).
 * [!UICONTROL Modèle de courrier électronique]
 * [!UICONTROL Dépense]
@@ -291,7 +292,7 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
   >
   >Les informations financières sont renseignées dans [!UICONTROL Projet] ([!UICONTROL Données financières]) ne signale que lorsque les données qui y sont associées ont moins de 5 ans. Par exemple, si un rôle d’emploi a été attribué à une tâche en janvier 2015 et que nous sommes aujourd’hui septembre 2021, un secteur financier comme le [!UICONTROL Date d’affectation] pour le rôle de tâche ne s’affiche pas dans la variable [!UICONTROL Projet (données financières)] rapport.
 
-* [!UICONTROL Approbation du BAT]
+* [!UICONTROL Approbation d&#39;épreuve]
    * Vous permet de consulter différentes informations sur la validation du BAT, notamment : le BAT qui a été soumis à validation, des informations sur le [!UICONTROL Approbateur], informations sur le demandeur (si le demandeur est titulaire d’une licence [!DNL Workfront] (utilisateur), les informations de version, l’ID de BAT et la date de création du BAT.\
       [!UICONTROL Approbation du BAT] Les rapports incluent uniquement les bons à tirer disponibles dans les zones Mon travail des utilisateurs où des décisions n’ont pas encore été prises.\
    * Les validations de BAT sont affectées dans [!DNL Workfront] comme décrit [Ajout d’utilisateurs à un BAT](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Partage d’un BAT dans [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
@@ -304,7 +305,7 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Pool de ressources]
 * [!UICONTROL Risque]
 * [!UICONTROL Type de risque]
-* [!UICONTROL Planification]
+* [!UICONTROL Planning]
 * [!UICONTROL Fiche d’évaluation]
 * [!UICONTROL Équipe]
 * [!UICONTROL Modèle]
@@ -324,5 +325,5 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 
    * Vous pouvez créer un rapport sur le nombre de décisions que les utilisateurs ont prises sur les bons à tirer et les documents au cours du mois en cours.
 
-* [!UICONTROL Affichage]
+* [!UICONTROL Afficher]
 * [!UICONTROL Élément de travail] (produit un rapport pour les tâches et les problèmes)
