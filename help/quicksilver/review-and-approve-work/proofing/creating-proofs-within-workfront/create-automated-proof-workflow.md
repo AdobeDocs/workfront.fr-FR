@@ -6,14 +6,16 @@ description: Un processus automatisé facilite la gestion du processus de révis
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: afc0cbb93e26eb29abfb1b00b32c79c1b65ff3eb
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
 
 # Créer un BAT avancé avec un workflow automatisé
+
+<!-- Audited: 2/2024 -->
 
 Un processus automatisé facilite la gestion du processus de révision si votre processus est complexe ou si vous envoyez régulièrement du contenu à des personnes identiques pour révision. Le BAT passe d’une étape à l’autre et Adobe Workfront avertit chaque utilisateur lorsqu’il est à son tour de le vérifier. Pour plus d’informations sur les workflows automatisés, voir [Présentation des processus automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
@@ -26,25 +28,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionnez ou plus élevé</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Nouveau : Quelconque</p><p>Formule actuelle : Pro ou supérieure</p><p>Formule héritée : sélection ou supérieure</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Standard</p><p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Modifier l’accès aux documents</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront BAT.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Créer un BAT avancé avec un workflow automatisé
 
@@ -70,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Configurez la première étape du processus automatisé :
 
-   1. (Facultatif) Si vous souhaitez créer un nom pour la première étape, cliquez sur **Phase 1**, puis saisissez le nom.
+   1. (Facultatif) Pour créer un nom pour la première étape, cliquez sur **Phase 1**, puis saisissez le nom.
    1. Dans le **Destinataires** pour l’étape, ajoutez les réviseurs à l’étape.
 
       >[!NOTE]
@@ -87,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    1. Cliquez sur **Paramètres d’évaluation**.
    1. Cliquez sur un **Activer l’étape** pour indiquer le mode d’activation de l’étape.
 
-      Pour la première étape, vous ne pouvez sélectionner que **Lors de la création du BAT**, **À une date et une heure spécifiques** ou **Manuellement**.
+      Pour la première étape, vous ne pouvez sélectionner que **Lors de la création du BAT**, **À une date et une heure spécifiques**, ou **Manuellement**.
 
    1. (Conditionnel) Si vous avez sélectionné **À une date et une heure spécifiques** à l’étape précédente, sélectionnez la date et l’heure d’activation de l’étape dans la **Activer le** qui s’affiche.
 
@@ -98,11 +100,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">Définir la date d’échéance de l’étape</td>
+         <td role="rowheader">Définir la date limite d’évaluation</td>
          <td><p>Pour définir une échéance pour la scène, cliquez sur une option dans la <strong>Options de délai</strong> liste déroulante. Ensuite, sous <strong>Deadline</strong>, effectuez l’une des opérations suivantes :</p>
           <ul>
-           <li>Si vous choisissez <strong>Définir la date spécifique</strong>: Sélectionnez la date et l’heure d’échéance de votre choix.</li>
-           <li>Si vous choisissez <strong>Calcul à partir de la date d’activation de l’étape</strong>: Sélectionnez le nombre de jours ouvrables à ajouter à la date d’activation de l’étape pour déterminer l’échéance.</li>
+           <li>Si vous choisissez <strong>Définir la date spécifique</strong>: sélectionnez la date et l’heure d’échéance de votre choix.</li>
+           <li>Si vous choisissez <strong>Calcul à partir de la date d’activation de l’étape</strong>: sélectionnez le nombre de jours ouvrés à ajouter à la date d’activation de l’étape pour déterminer l’échéance.</li>
           </ul></td>
         </tr>
         <tr>
@@ -110,16 +112,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
          <td>Spécifiez quand la scène peut être verrouillée. </td>
         </tr>
         <tr>
-         <td role="rowheader">Transférer les droits de décision Principaux vers</td>
-         <td><p>Sélectionnez le décideur Principal sur l’étape (disponible uniquement après avoir ajouté au moins une personne à l’étape qui dispose du rôle Bon à tirer d’approbateur ou d’un rôle d’approbateur supérieur). Si vous sélectionnez un décideur Principal, la variable <strong>Une seule décision requise</strong> est désactivée sur cette scène.</p></td>
+         <td role="rowheader">Transférer les droits de décision principaux vers</td>
+         <td><p>Sélectionnez le décideur de Principal sur l’étape (disponible uniquement après avoir ajouté au moins une personne à l’étape qui dispose du rôle Bon à tirer d’approbateur ou d’un rôle d’approbateur supérieur). Si vous sélectionnez un décideur de Principal, la variable <strong>Une seule décision requise</strong> est désactivée sur cette scène.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Exiger une seule décision pour cette étape</td>
-         <td>Met fin à l’ensemble du processus de révision lorsque l’un des décideurs prend une décision.<p>Cette option n’est pas disponible si vous avez désigné un utilisateur dans la variable <strong>Décideur Principal</strong>menu déroulant.</p></td>
+         <td>Met fin à l’ensemble du processus de révision lorsque l’un des décideurs prend une décision.<p>Cette option n’est pas disponible si vous avez désigné un utilisateur dans la variable <strong>décideur de Principal</strong>menu déroulant.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Rendre cette étape privée</td>
-         <td>Permet uniquement aux personnes suivantes d’afficher les commentaires et les décisions pris à cette étape : Superviseurs, administrateurs Workfront et administrateurs Workfront BAT</td>
+         <td>Permet uniquement aux personnes suivantes d’afficher les commentaires et les décisions pris à cette étape : superviseurs, administrateurs Workfront et administrateurs Workfront BAT</td>
         </tr>
        </tbody>
       </table>
@@ -127,11 +129,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Pour ajouter et configurer une autre étape :
 
    1. Cliquez sur **Nouvelle étape**.
-   1. (Facultatif) Si vous souhaitez créer un nom pour la première étape, cliquez sur **Phase 2** (ou **Phase 3**, **Phase 4**, etc.), puis saisissez le nom.
+   1. (Facultatif) Pour créer un nom pour la première étape, cliquez sur **Phase 2** (ou **Phase 3**, **Phase 4**, etc.), puis saisissez le nom.
 
    1. Cliquez sur le bouton **Activer l’étape**, puis sélectionnez une option pour spécifier si l’étape est activée automatiquement ou manuellement.
 
-      En plus des options **Lors de la création du BAT**, **À une date et une heure spécifiques** ou **Manuellement**, vous pouvez sélectionner une option qui dépend de ce qui s’est passé à l’étape précédente :
+      En plus des options **Lors de la création du BAT**, **À une date et une heure spécifiques**, ou **Manuellement**, vous pouvez sélectionner une option qui dépend de ce qui s’est passé à l’étape précédente :
 
       ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
@@ -145,7 +147,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![](assets/stages-diagram-350x213.png)
 
-1. Passez à la [Configuration des paramètres de courrier électronique pour le BAT](#configure-email-settings-for-the-proof) ci-dessous.
+1. Passez à la [Configuration des paramètres de courrier électronique pour le BAT](#configure-email-settings-for-the-proof) ci-dessous
 
 ## Configuration des paramètres de courrier électronique pour le BAT {#configure-email-settings-for-the-proof}
 
@@ -159,13 +161,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       </tr>
       <tr>
       <td>Ajout d’un message personnalisé</td>
-      <td>Sélectionnez cette option pour inclure un message personnalisé dans la notification. Vous pouvez spécifier un objet et un corps de message. Le corps du message peut inclure une mise en forme en texte enrichi (gras, puces et liens hypertexte, par exemple).</td>
+      <td>Sélectionnez cette option pour inclure un message personnalisé dans la notification. Vous pouvez spécifier un objet et un corps de message. Le corps du message peut inclure une mise en forme en texte enrichi (gras, puces et liens hypertexte).</td>
       </tr>
       </tbody>
       </table>
 
 
-1. Passez à la [Configuration des paramètres du BAT](#configure-proof-settings) ci-dessous.
+1. Passez à la [Configuration des paramètres du BAT](#configure-proof-settings) ci-dessous
 
 ## Configuration des paramètres du BAT {#configure-proof-settings}
 

@@ -4,18 +4,20 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Configuration des informations de base pour votre système
 description: Dans le cadre de la configuration de votre système Adobe Workfront, vous pouvez gérer les détails sur votre organisation dans la section Informations de base de votre page Informations sur le client .
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5f11e6ccda9fa3b37ec1300edb8f322521013a52
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '821'
+ht-degree: 1%
 
 ---
 
 # Configuration des informations de base pour votre système
+
+<!-- Audited: 2/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>-->
 
@@ -30,15 +32,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   Ou
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +54,7 @@ Le client représente l’instance Workfront de votre entreprise. En tant que cl
 
 Pour accéder à la page Informations sur le client :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Informations sur le client**.
 
@@ -59,19 +64,19 @@ Pour accéder à la page Informations sur le client :
 
    * **Informations de base**
 
-      Pour plus d’informations sur la configuration des informations de base dans Workfront, voir [Configuration des informations de base](#configure-basic-info).
+     Pour plus d’informations sur la configuration des informations de base dans Workfront, voir [Configuration des informations de base](#configure-basic-info).
 
-   * **Paramètres de la clé API**
+   * **Paramètres de clé API**
 
-      Pour plus d’informations sur les paramètres de clé API, voir [Gestion des clés d’API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     Pour plus d’informations sur les paramètres de clé API, voir [Gestion des clés d’API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **Liste autorisée d’adresses IP**
+   * **LISTE AUTORISÉE IP**
 
-      Pour plus d’informations sur l’ajout des adresses IP à votre liste autorisée pour l’emplacement où vos utilisateurs peuvent accéder à Workfront, voir [Configuration de la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Pour plus d’informations sur l’ajout des adresses IP à votre liste autorisée pour l’emplacement où vos utilisateurs peuvent accéder à Workfront, voir [Configuration de la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    * **Licence**
 
-      Pour plus d’informations sur les licences, voir [Gestion des licences disponibles dans votre système](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Pour plus d’informations sur les licences, voir [Gestion des licences disponibles dans votre système](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Configuration des informations de base {#configure-basic-info}
 
@@ -79,7 +84,7 @@ Dans la zone Informations de base de votre page Informations sur le client, cert
 
 Pour configurer votre section Informations de base dans votre zone Informations sur le client :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Informations sur le client**.
 
@@ -91,7 +96,7 @@ Pour configurer votre section Informations de base dans votre zone Informations 
     <tbody> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td>Nom de votre organisation, qui correspond également au nom de votre société. Il est ajouté par Workfront et ne peut pas être modifié.</td> 
+      <td>Le nom de votre organisation, qui correspond également au nom de votre société. Il est ajouté par Workfront et ne peut pas être modifié.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Configuration du cluster </td> 
@@ -99,7 +104,7 @@ Pour configurer votre section Informations de base dans votre zone Informations 
      </tr> 
      <tr> 
       <td role="rowheader">Adresse e-mail de l'administrateur</td> 
-      <td> <p>Adresse électronique de votre administrateur Workfront. Vous pouvez modifier ce champ pour qu’il corresponde à l’adresse électronique de l’un de vos administrateurs Workfront. L’utilisateur associé à cette adresse électronique est considéré comme le principal administrateur Workfront de votre système Workfront. Toute communication à l’échelle du site provenant de Workfront est dirigée vers cette adresse électronique. Il est donc important de la mettre à jour.</p> <p><b>REMARQUE</b>: Vous ne pouvez pas désactiver, supprimer ou modifier le niveau d’accès de l’utilisateur associé à l’adresse électronique d’administrateur.</p> </td> 
+      <td> <p>Adresse électronique de votre administrateur Workfront. Vous pouvez modifier ce champ pour qu’il corresponde à l’adresse électronique de l’un de vos administrateurs Workfront. L’utilisateur associé à cette adresse électronique est considéré comme le principal administrateur Workfront de votre système Workfront. Toute communication à l’échelle du site provenant de Workfront est dirigée vers cette adresse électronique. Il est donc important de la mettre à jour.</p> <p><b>REMARQUE</b>: vous ne pouvez pas désactiver, supprimer ou modifier le niveau d’accès de l’utilisateur associé à l’adresse électronique d’administrateur.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Domaine</td> 
@@ -107,7 +112,7 @@ Pour configurer votre section Informations de base dans votre zone Informations 
      </tr> 
      <tr> 
       <td role="rowheader">Fuseau horaire</td> 
-      <td> <p>Il s’agit du fuseau horaire par défaut de votre instance Workfront. Vous pouvez modifier ce champ pour qu’il corresponde au fuseau horaire de votre Principal emplacement Workfront. Le fuseau horaire sélectionné détermine ce qui suit : </p> 
+      <td> <p>Il s’agit du fuseau horaire par défaut de votre instance Workfront. Vous pouvez modifier ce champ pour qu’il corresponde au fuseau horaire de votre emplacement Workfront principal. Le fuseau horaire sélectionné détermine ce qui suit : </p> 
        <ul> 
         <li>Date et heure affichées dans les emails sortants</li> 
         <li>Fuseau horaire par défaut pour les nouveaux utilisateurs lorsqu’ils sont créés</li> 

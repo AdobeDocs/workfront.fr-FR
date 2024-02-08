@@ -5,18 +5,20 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Exporter des données d’Adobe Workfront par le biais de Démarrages de session
 description: En tant qu’administrateur Adobe Workfront, vous pouvez utiliser l’exportateur de données de démarrage rapide pour exporter des données de Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 9%
+source-wordcount: '983'
+ht-degree: 8%
 
 ---
 
 # Exporter des données d’Adobe Workfront par le biais de Démarrages de session
+
+<!-- Audited: 2/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -36,18 +38,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   Ou
+   <p>Actuel : formule</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Avantages et inconvénients de l’utilisation de lancements d’essai pour exporter des données
 
@@ -55,7 +63,7 @@ Il existe deux manières d’exporter des données dans Workfront :
 
 * Exporter des données depuis un rapport ou une liste
 
-   Pour plus d’informations sur l’export de données depuis un rapport ou une liste, voir [Exporter des données](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  Pour plus d’informations sur l’export de données depuis un rapport ou une liste, voir [Exporter des données](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * Exporter des données par le biais de démarrages
 
@@ -95,11 +103,67 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
 
 ## Exporter des données par le biais de lancements
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Cliquez sur **Système** > **Kick-Starts,** puis cliquez sur **Exporter des données.**
+1. Cliquez sur **Système** > **Démarrages,** puis cliquez sur **Exporter des données.**
 
-1. Sélectionnez l’objet à exporter.
+1. Sélectionnez l’objet à exporter. Par défaut, les objets suivants sont affichés sous **Eléments à inclure**:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><strong>Objet</strong> </p> </th> 
+      <th> <p><strong>Feuilles exportées du fichier Excel</strong> </p> </th> 
+      <th> <p> <strong>Format d’exportation</strong></p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Tableau de bord</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Rapport<br>Section d’onglet Portail<br>Tableau de bord<br>Préférences</p> </td> 
+      <td scope="col" valign="top"> ZIP</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top">Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Rapport<br>Préférences</td> 
+      <td scope="col" valign="top"> ZIP </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Approbation</p> </td> 
+      <td scope="col" valign="top"> <p>Approbateur d’étape<br>Étape de validation<br>Validation<br>Processus d’approbation<br>Préférences</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Données personnalisées</p> </td> 
+      <td scope="col" valign="top"> <p>Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Préférences</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Type de frais</p> </td> 
+      <td valign="top"> <p>Type de dépense<br>Préférences</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Type d’heure</p> </td> 
+      <td valign="top"> <p>Type d’heure<br>Préférences</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Equipe</p> </td> 
+      <td valign="top"> Membre de l’équipe<br>Équipe<br>Préférences </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
+      <td valign="top"> <p>Utilisateur<br>Préférences</p> </td> 
+      <td valign="top"> <p> Excel</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
 1. Cliquez sur **Plus d’options** pour afficher la liste complète des objets.
 
    Tous les objets répertoriés ici peuvent également être utilisés pour importer des données dans Workfront.
@@ -161,7 +225,7 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">Regroupement</td> 
+      <td valign="top">Regroupement </td> 
       <td valign="top"> Regroupement<br>Préférences </td> 
       <td valign="top">ZIP</td> 
      </tr> 
@@ -260,9 +324,9 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
 
 1. Cliquez sur **Téléchargez.**
 
-   Le fichier de démarrage rapide exporté est téléchargé sur votre ordinateur sous la forme d’un fichier Excel ou d’un fichier . fichier zip contenant plusieurs fichiers Excel et de propriétés. Chaque fichier Excel est un ensemble de feuilles, où chaque feuille représente un champ associé à l’objet que vous avez sélectionné. Il existe une **Propriétés** feuille associée à chaque export.
+   Le fichier de démarrage rapide exporté est téléchargé sur votre ordinateur sous la forme d’un fichier Excel ou d’un fichier . fichier zip contenant plusieurs fichiers Excel et de propriétés. Chaque fichier Excel est un ensemble de feuilles, où chaque feuille représente un champ associé à l’objet sélectionné. Il existe une **Propriétés** feuille associée à chaque export.
 
-   Le **Tableau de bord** et **Rapport** Les options vous permettent de sélectionner des tableaux de bord et des rapports spécifiques à inclure dans le téléchargement. Vous ne pouvez exporter que les tableaux de bord qui sont partagés à l’échelle du système.
+   La variable **Tableau de bord** et **Rapport** Les options vous permettent de sélectionner des tableaux de bord et des rapports spécifiques à inclure dans le téléchargement. Vous ne pouvez exporter que les tableaux de bord qui sont partagés à l’échelle du système.
 
    Vous ne pouvez pas exporter de rapports de matrice. Pour plus d’informations sur les rapports de matrice, voir [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
@@ -270,119 +334,9 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
 
    ![](assets/kickstart-export-350x381.png)
 
-   Vous pouvez exporter plusieurs objets à la fois.
+   Vous pouvez exporter plusieurs objets simultanément.
 
-   Par défaut, les objets suivants sont affichés sous la **Eléments à inclure** libellé (avant de cliquer sur **Plus d’options**) :
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong>Objet</strong> </p> </th> 
-      <th> <p><strong>Feuilles exportées du fichier Excel</strong> </p> </th> 
-      <th> <p> <strong>Format d’exportation</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Tableau de bord</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Rapport<br>Section d’onglet Portail<br>Tableau de bord<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Rapport<br>Préférences</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Approbation</p> </td> 
-      <td scope="col" valign="top"> <p>Approbateur d’étape<br>Étape de validation<br>Validation<br>Processus d’approbation<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Données personnalisées</p> </td> 
-      <td scope="col" valign="top"> <p>Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Type de frais</p> </td> 
-      <td valign="top"> <p>Type de dépense<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Type d’heure</p> </td> 
-      <td valign="top"> <p>Type d’heure<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Équipe</p> </td> 
-      <td valign="top"> Membre de l’équipe<br>Équipe<br>Préférences </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Utilisateur</p> </td> 
-      <td valign="top"> <p>Utilisateur<br>Préférences</p> </td> 
-      <td valign="top"> <p> Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong></strong> </p> </th> 
-      <th> <p><strong>Feuilles exportées du fichier Excel</strong> </p> </th> 
-      <th> <p> <strong>Format d’exportation</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Tableau de bord</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Rapport<br>Section d’onglet Portail<br>Tableau de bord<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Rapport<br>Préférences</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Approbation</p> </td> 
-      <td scope="col" valign="top"> <p>Approbateur d’étape<br>Étape de validation<br>Validation<br>Processus d’approbation<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Données personnalisées</p> </td> 
-      <td scope="col" valign="top"> <p>Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Type de frais</p> </td> 
-      <td valign="top"> <p>Type de dépense<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Type d’heure</p> </td> 
-      <td valign="top"> <p>Type d’heure<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Équipe</p> </td> 
-      <td valign="top"> Membre de l’équipe<br>Équipe<br>Préférences </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Utilisateur</p> </td> 
-      <td valign="top"> <p>Utilisateur<br>Préférences</p> </td> 
-      <td valign="top"> <p>Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
 
 1. (Recommandé) Analysez les données exportées pour vous assurer que toutes les informations que vous attendez à voir ont été exportées.
 
