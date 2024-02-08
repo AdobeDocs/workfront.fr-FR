@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version du
 
 >[!NOTE]
 >
->Version d’aperçu : 1er novembre 2023 ; version de production pour tous les clients : 1er novembre
+>Version d’aperçu : 1er novembre 2023 ; version de production pour tous les clients : 1er novembre 2023
 
 Le modèle de courrier électronique pour les notifications d’approbation de document a été mis à jour afin de mieux correspondre aux autres modèles de courrier électronique Adobe et d’améliorer la clarté et la convivialité.
 
@@ -31,7 +31,7 @@ Le modèle de courrier électronique pour les notifications d’approbation de d
 
 >[!NOTE]
 >
->Version d’aperçu : 12 octobre 2023 ; Version de production pour tous les clients : à déterminer
+>Aperçu de la version : 12 octobre 2023 ; Production pour une version rapide : avec la version 24.2 (15 février 2024) ; Production pour une version trimestrielle : avec la version 24.4 (avril 2024)
 
 Pour plus de clarté sur les réglages manuels ou le contournement dans l’équilibreur de charge de travail, les affectations horaires ajustées manuellement affichent désormais une icône en forme de crayon.
 
