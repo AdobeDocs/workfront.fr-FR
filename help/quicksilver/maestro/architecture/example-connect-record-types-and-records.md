@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,30 @@ Pour ce faire :
    >    Les champs d’enregistrement liés sont précédés de l’icône de relation ![](assets/relationship-field-icon.png).
 
 1. Dans la **Campagne** table de type enregistrement, créez une campagne en ajoutant une nouvelle ligne au tableau de la page de type enregistrement Campaign.
-1. Cliquez sur le bouton **+** dans la fonction  **Informations sur les produits** de la nouvelle campagne. La variable **Connexion d’objets** s’affiche. Le nom du type d’enregistrement auquel vous êtes associé (Produit) s’affiche dans le coin supérieur gauche de la zone.
 
-   ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. Double-cliquez dans le  **Informations sur les produits** de la nouvelle campagne.
 
-1. Sélectionnez les enregistrements de produit que vous souhaitez connecter aux enregistrements Campaign, puis cliquez sur **Connexion d’objets**.
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Utilisez l’une des méthodes suivantes :
+
+   * Cliquez sur le nom d’un produit connecté dans la liste pour l’ajouter à l’enregistrement sélectionné. Le produit est ajouté automatiquement.
+   * Commencez à saisir le nom d’un produit et cliquez dessus lorsqu’il s’affiche dans la liste. Le produit est ajouté automatiquement.
+   * Cliquez sur **Afficher tout** pour afficher tous les produits.
+
+1. (Conditionnel) Si vous avez cliqué sur **Tout sélectionner** à l’étape précédente, la variable **Connexion d’objets** s’affiche.
+
+   ![](assets/connected-objects-table-for-records.png)
+
+1. Commencez à saisir le nom d’un produit dans la zone de recherche, puis sélectionnez-le à son affichage dans la liste.
+
+   Ou
+
+   Sélectionnez les enregistrements de produit que vous souhaitez connecter aux enregistrements Campaign, puis cliquez sur **Connexion d’objets**.
+
+   >[!TIP]
+   >
+   >    Vous pouvez ouvrir la page Détails d’une campagne, rechercher le champ d’enregistrement associé et cliquer sur le bouton **+** dans le champ pour ajouter des produits du type d’enregistrement de produit connecté.
 
    Les colonnes suivantes sont renseignées dans le tableau Type d’enregistrement de campagne :
    * La variable **Informations sur les produits** renseigne pour l’enregistrement Campaign avec les produits sélectionnés.
@@ -142,13 +161,32 @@ Pour ce faire :
    >    Les champs d’objet liés sont précédés de l’icône de relation ![](assets/relationship-field-icon.png).
 
 1. Dans la **Campagne** table de type enregistrement, créez une campagne en ajoutant une nouvelle ligne dans le tableau.
-1. Cliquez sur le bouton **+** dans la fonction  **Informations sur le projet** de la nouvelle campagne. La variable **Connexion d’objets** s’affiche. Le nom du type d’objet auquel vous êtes lié (Projet Workfront) s’affiche dans le coin supérieur gauche de la zone.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+1. Double-cliquez dans le  **Informations sur le projet** de la nouvelle campagne.
 
-1. Sélectionnez le ou les projets que vous souhaitez connecter aux enregistrements Campaign, puis cliquez sur **Connexion d’objets**.
+   ![](assets/connect-projects-smaller-box-in-table.png)
 
-   Les éléments suivants sont ajoutés à l’espace de travail sélectionné :
+1. Utilisez l’une des méthodes suivantes :
+
+   * Cliquez sur le nom d’un projet dans la liste pour l’ajouter à l’enregistrement sélectionné. Le projet est ajouté automatiquement.
+   * Commencez à saisir le nom d’un projet et cliquez dessus lorsqu’il s’affiche dans la liste. Le projet est ajouté automatiquement.
+   * Cliquez sur **Afficher tout** pour afficher tous les projets.
+
+1. (Conditionnel) Si vous avez cliqué sur **Tout sélectionner** à l’étape précédente, la variable **Connexion d’objets** s’affiche.
+
+   ![](assets/connect-projects-larger-box.png)
+
+1. Commencez à saisir le nom d’un projet dans la zone de recherche, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+
+   Ou
+
+   Sélectionnez les enregistrements de projet que vous souhaitez connecter aux enregistrements Campaign, puis cliquez sur **Connexion d’objets**.
+
+   >[!TIP]
+   >
+   >    Vous pouvez ouvrir la page Détails d’une campagne, rechercher le champ de projet lié et cliquer sur le bouton **+** dans le champ pour ajouter des projets à partir du type d’enregistrement de produit connecté.
+
+   Les éléments suivants sont alors ajoutés à l’espace de travail sélectionné :
 
    * Dans la table des types d&#39;enregistrements Campaign :
       * La variable **Informations sur le projet** renseigne pour l’enregistrement Campaign avec les projets sélectionnés.
@@ -165,7 +203,7 @@ Pour ce faire :
    Cela ouvre le projet Maestro en lecture seule. **Détails** page.
 Consultez les informations sur le projet. Seuls les champs de projet sélectionnés s’affichent dans la page Détails.
 
-1. Cliquez sur Aller à la source dans le coin supérieur droit de l’écran pour ouvrir le projet dans Workfront, si vous disposez au moins des autorisations d’affichage du projet.
+1. Cliquez sur **Accéder à la source** dans le coin supérieur droit de l’écran pour ouvrir le projet dans Workfront, si vous disposez au moins des autorisations d’affichage sur le projet.
 1. (Facultatif) Mettez à jour les informations sur le projet dans Workfront, si vous êtes autorisé à le faire.
 
 1. Dans la vue du tableau Campagne , passez la souris sur le **Informations sur le projet** en-tête de champ, puis cliquez sur la flèche pointant vers le bas, puis sur **Modifier les champs de recherche.**

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4110'
 ht-degree: 0%
 
 ---
@@ -65,22 +65,29 @@ Nous avons mis à jour l’aspect de la barre d’outils Texte enrichi lorsque v
 
 Pour plus d’informations, voir  [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
-<!--
-### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+### Expérience améliorée lors de la modification de champs Mono-sélection, Multi-sélection, Personnes et lors de l’ajout d’objets connectés
 
-Production: February 8, 2024 
+Production : 8 février 2024
 
-Preview: To be determined 
+Aperçu : à déterminer
 
-We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
- 
-For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+Nous avons repensé et amélioré l’expérience de l’ajout d’options ou d’objets pour les types de champ suivants :
 
-The improvements are now available when updating fields in the table view of a record type.  
+* Sélection unique
+* Sélection multiple
+* Personnes
+* Champs d’enregistrement connectés (lors de la connexion des types d’enregistrement Maestro ou des objets Workfront)
 
-For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+Avec la nouvelle amélioration, une boîte plus petite et plus réactive s’affiche en premier.
 
--->
+Pour les champs connectés, vous pouvez les ajouter en effectuant l’une des opérations suivantes :
+
+* Ajoutez des objets au champ connecté en les recherchant et en les sélectionnant dans une liste en mode Tableau, tout en modifiant en ligne le champ.
+* Cliquez pour ouvrir la zone d’objets Connect plus grande, où vous pouvez afficher tous les noms d’éléments en plus d’informations sur les éléments.
+
+Les améliorations sont désormais disponibles lors de la mise à jour des champs dans la vue de tableau d’un type d’enregistrement.
+
+Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Semaine du 29 janvier 2024
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2379'
 ht-degree: 1%
 
 ---
@@ -163,15 +163,19 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 1. Cliquez sur la carte d’un type d’enregistrement pour ouvrir la page de type d’enregistrement.
 1. Sélectionnez une **Tableau** de la vue **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
 1. (Facultatif) Ajoutez des enregistrements au type d’enregistrement que vous avez sélectionné en ajoutant une nouvelle ligne au tableau. Pour plus d’informations, voir [Créer des enregistrements](../../maestro/records/create-records.md).
-1. Depuis un enregistrement répertorié dans la vue table, accédez à la colonne enregistrement lié et cliquez dans le champ enregistrement lié, puis cliquez sur le bouton **+** Icône
+1. (Conditionnel) Une fois que vous avez connecté le type d’enregistrement sélectionné à un autre type d’enregistrement, accédez à la colonne d’enregistrement lié et double-cliquez sur la cellule correspondant à l’enregistrement que vous souhaitez lier à d’autres enregistrements.
+
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Utilisez l’une des méthodes suivantes :
+
+   * Cliquez sur le nom d’un enregistrement connecté dans la liste pour l’ajouter à l’enregistrement sélectionné. L’enregistrement est ajouté automatiquement.
+   * Commencez à saisir le nom d’un enregistrement et cliquez dessus lorsqu’il s’affiche dans la liste. L’enregistrement est ajouté automatiquement.
+   * Cliquez sur **Afficher tout** pour afficher tous les enregistrements.
+
+1. (Conditionnel) Si vous avez cliqué sur **Tout sélectionner** à l’étape précédente, la variable **Connexion d’objets** s’affiche.
 
    ![](assets/connected-objects-table-for-records.png)
-
-   >[!TIP]
-   >
-   >    Vous pouvez ouvrir la page Détails d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le bouton **+** dans le champ pour ajouter des enregistrements de l’enregistrement connecté ou du type d’objet.
-
-   La variable **Connexion d’objets** s’affiche.
 
 1. Commencez à saisir le nom d’un enregistrement dans la zone de recherche, puis sélectionnez-le à son affichage dans la liste.
 
@@ -179,10 +183,14 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Sélectionnez le nom d’un ou de plusieurs enregistrements dans la zone, puis cliquez sur **Connexion d’objets** dans le coin supérieur droit de la zone Connexion aux objets .
 
+   >[!TIP]
+   >
+   >    Vous pouvez ouvrir la page Détails d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le bouton **+** dans le champ pour ajouter des enregistrements de l’enregistrement connecté ou du type d’objet.
+
    Les éléments suivants sont ajoutés :
 
    * Les enregistrements liés s&#39;affichent dans le champ enregistrement lié de l&#39;enregistrement que vous avez sélectionné à l&#39;étape 6. <!--accurate?-->
-   * Les champs liés sont renseignés avec les informations des enregistrements liés.
+   * Les champs liés sont renseignés avec les informations des enregistrements liés, si vous avez ajouté des champs de recherche liés lorsque vous avez connecté les types d&#39;enregistrements.
 
    La mise à jour des enregistrements liés met à jour automatiquement les champs liés pour les enregistrements à partir desquels vous effectuez la liaison. Vous ne pouvez pas modifier manuellement les champs liés.
 
@@ -221,17 +229,19 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 1. Sélectionnez une **Tableau** de la vue **Affichage** menu déroulant.
 
 1. Cliquez sur **Nouvel enregistrement**  pour ajouter des enregistrements individuels au type d’enregistrement que vous avez sélectionné. Pour plus d’informations, voir [Créer des enregistrements](../../maestro/records/create-records.md).
-1. (Conditionnel) Si vous avez connecté le type d’enregistrement sélectionné à un objet Workfront, passez dans la colonne d’objet lié et survolez la cellule correspondant à l’enregistrement à lier aux objets de Workfront, puis cliquez sur le bouton **+** Icône
+1. (Conditionnel) Une fois que vous avez connecté le type d’enregistrement sélectionné à un type d’objet Workfront, accédez à la colonne d’objet lié et double-cliquez sur la cellule correspondant à l’enregistrement que vous souhaitez lier aux objets de Workfront.
 
-   La variable **Connexion d’objets** s’affiche.
+   ![](assets/connect-projects-smaller-box-in-table-view.png)
+
+1. Utilisez l’une des méthodes suivantes :
+
+   * Cliquez sur un objet de la liste pour l’ajouter à l’enregistrement sélectionné. Les objets sont répertoriés par ordre alphabétique. L’objet est ajouté automatiquement.
+   * Commencez à saisir le nom d’un objet et cliquez dessus lorsqu’il s’affiche dans la liste. L’objet est ajouté automatiquement.
+   * Cliquez sur **Afficher tout** pour afficher tous les objets que vous disposez au moins des autorisations nécessaires.
+
+1. (Conditionnel) Si vous avez cliqué sur **Afficher tout** à l’étape précédente, la variable **Connexion d’objets** s’affiche.
 
    ![](assets/connect-objects-box-to-select-projects.png)
-
-   >[!TIP]
-   >
-   >    Vous pouvez ouvrir la page Détails d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le bouton **+** dans le champ pour ajouter des objets du type d’objet connecté.
-
-   Pour plus d’informations sur la connexion des types d’enregistrement aux objets d’une autre application, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
 
 1. Commencez à saisir le nom d’un objet Workfront dans la zone de recherche, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
@@ -249,6 +259,12 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    * Les objets Workfront sélectionnés sont ajoutés au champ d’enregistrement associé.
    * Si vous les avez ajoutés lorsque vous avez connecté le type d’enregistrement à Workfront, les champs liés (ou les champs de recherche) des objets Workfront sont automatiquement renseignés avec les informations de Workfront.
+
+   >[!TIP]
+   >
+   >Vous pouvez ouvrir la page Détails d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le bouton **+** dans le champ pour ajouter des objets du type d’objet connecté.
+
+   Pour plus d’informations sur la connexion des types d’enregistrement aux objets d’une autre application, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
 
 1. (Facultatif) Cliquez sur le nom d’un objet Workfront connecté à un enregistrement Maestro dans le champ lié d’une vue de tableau ou dans le champ lié de la propriété **Détails** page de l’enregistrement Maestro.
 
@@ -298,7 +314,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 1. Sélectionnez une **Tableau** de la vue **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
 
 1. (Facultatif) Cliquez sur **Nouvel enregistrement** pour ajouter de nouveaux enregistrements au type d’enregistrement que vous avez sélectionné. Pour plus d’informations, voir [Créer des enregistrements](../../maestro/records/create-records.md).
-1. (Conditionnel) Si vous avez connecté le type d’enregistrement sélectionné à Experience Manager Assets, passez dans la colonne d’objet lié et survolez la cellule correspondant à l’enregistrement à lier à d’autres objets de Experience Manager, puis cliquez sur le bouton **+** Icône
+1. (Conditionnel) Une fois que vous avez connecté le type d’enregistrement sélectionné à Experience Manager Assets, accédez à la colonne d’objet lié et survolez la cellule correspondant à l’enregistrement que vous souhaitez lier à d’autres objets de Experience Manager, puis cliquez sur le bouton **+** Icône
 
    >[!TIP]
    >
