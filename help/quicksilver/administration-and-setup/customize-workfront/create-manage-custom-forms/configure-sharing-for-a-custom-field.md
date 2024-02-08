@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Configuration du partage de champs et de widgets personnalisés avec le créateur de formulaires hérité
 description: Par défaut, lorsque vous ajoutez un nouveau champ ou widget personnalisé à un formulaire personnalisé, toute personne du système ayant accès à des formulaires personnalisés peut modifier les propriétés de cet élément, telles que son libellé et son nom. Vous pouvez modifier ce paramètre en contrôlant avec qui il peut être partagé.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 2%
+source-wordcount: '942'
+ht-degree: 0%
 
 ---
 
 # Configuration du partage de champs et de widgets personnalisés avec le créateur de formulaires hérité
+
+{{highlighted-preview}}
 
 Par défaut, lorsque vous ajoutez un nouveau champ ou widget personnalisé à un formulaire personnalisé, toute personne du système ayant accès à des formulaires personnalisés peut modifier les propriétés de cet élément, telles que son libellé et son nom. Vous pouvez modifier ce paramètre en contrôlant avec qui il peut être partagé.
 
@@ -30,35 +32,38 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   <p>ou</p>
+   <p>Actuel : formule</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configuration du partage pour un champ ou un widget personnalisé
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Forms personnalisée**.
 1. Si vous configurez le partage d’un champ ou d’un widget personnalisé dans l’instance Workfront de votre entreprise, procédez comme suit :
 
-   1. Cliquez sur le bouton **Champs** .
-   1. Sélectionnez l’élément pour lequel vous souhaitez configurer le partage, puis cliquez sur **Partager**.
+   1. Cliquez sur **Champs** pour ouvrir la zone Champs .
+   1. Sélectionnez l’élément pour lequel vous souhaitez configurer le partage, puis cliquez sur **Partager** <span class="preview">ou ![Icône Partager](assets/share-icon.png).</span>
 
    Ou, si vous configurez le partage d’un champ ou d’un widget personnalisé dans un formulaire personnalisé existant, procédez comme suit :
 
-   1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Modifier**.
+   1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Modifier** <span class="preview">ou ![Icône Modifier](assets/edit-icon.png).</span>
    1. Dans la zone d’édition du formulaire à droite, sélectionnez l’élément pour lequel vous souhaitez configurer le partage.
    1. Dans le panneau de gauche, cliquez sur **Partager le champ**.
 
@@ -96,11 +101,11 @@ Les étapes de cet article doivent être les suivantes :
 
      Lorsque vous ajoutez un champ ou un widget personnalisé et que vous ne limitez pas le partage, tous les utilisateurs du système ayant accès à des formulaires personnalisés peuvent le consulter et modifier ses propriétés.
 
-   * **Supprimer l’accès à distance sur tout le système**
+   * **Suppression de l’accès de modification à l’échelle du système**
 
      Limite l’accès à ceux que vous avez ajoutés à la liste.
 
-   * **Rendre cet élément visible à l’échelle du système de sorte que tous les utilisateurs de Workfront puissent le voir**
+   * **rendre visible à l’échelle du système afin que tous les utilisateurs de Workfront puissent le voir ;**
 
 1. Cliquez sur **Enregistrer** ou **Enregistrer + Fermer**.
 

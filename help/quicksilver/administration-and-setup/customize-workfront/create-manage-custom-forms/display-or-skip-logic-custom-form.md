@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 0%
@@ -78,7 +78,7 @@ La meilleure façon d’apprendre à ajouter une logique d’affichage et d’ex
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Dans le panneau de gauche, cliquez sur **Forms personnalisée** ![](assets/custom-forms-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Forms personnalisée**.
 
 1. Créez l’exemple de formulaire personnalisé :
 

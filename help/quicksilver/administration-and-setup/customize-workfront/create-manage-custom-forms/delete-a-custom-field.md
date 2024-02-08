@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Suppression d’un champ ou d’un widget personnalisé du système
 description: Pour améliorer les performances du système et faciliter l’utilisation des formulaires pour les utilisateurs, vous pouvez supprimer des champs et des widgets personnalisés de votre système lorsqu’ils ne sont plus utilisés.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -36,28 +36,31 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   <p>ou</p>
+   <p>Actuel : formule</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Suppression d’un champ ou d’un widget personnalisé du système
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Forms personnalisée.**
-1. Cliquez sur le bouton **Champs** .
+1. Cliquez sur **Champs** pour ouvrir la zone Champs .
 1. Sélectionnez le champ personnalisé ou le widget, puis cliquez sur **Supprimer**.
 1. Si vous souhaitez vraiment supprimer définitivement l’élément et (dans le cas d’un champ personnalisé) toutes les données associées sur les objets auxquels il a été associé, cliquez sur **Oui, la supprimer**.
 

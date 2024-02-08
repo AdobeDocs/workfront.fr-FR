@@ -1,13 +1,13 @@
 ---
 title: Afficher tous les rapports qui utilisent un champ ou un widget personnalisé spécifique
 description: Vous pouvez ajouter une vue personnalisée dans la zone Forms personnalisée qui indique les rapports qui utilisent un champ ou un widget personnalisé spécifique. Cela s’avère utile lorsque vous devez modifier ou supprimer le champ ou le widget, car il peut déjà être implémenté dans un ou plusieurs rapports. Il est important d’évaluer si ces rapports devront être ajustés pour continuer à fonctionner correctement.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -27,32 +27,33 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   <p>ou</p>
+   <p>Actuel : formule</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Liste des rapports qui utilisent un champ ou un widget personnalisé spécifique
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Forms personnalisée**.
-1. Ouvrez le **Champs** pour afficher un rapport répertoriant tous les champs et widgets personnalisés de votre instance Workfront.
+1. Cliquez sur **Champs** pour afficher un rapport répertoriant tous les champs et widgets personnalisés de votre instance Workfront.
 
-   ![](assets/fields-tab.png)
-
-1. Cliquez sur le bouton **Affichage** dans le menu déroulant de l’en-tête en haut de la liste, puis recherchez les vues personnalisées de la liste qui incluent la variable **Rapports** (qui n’est pas une colonne par défaut sur cet onglet).
+1. Cliquez sur le bouton **Affichage** , puis recherchez toutes les vues personnalisées de la liste qui incluent le **Rapports** (qui n’est pas une colonne par défaut sur cet onglet).
 
    La colonne Rapports vous permet de voir les rapports qui utilisent chaque champ et widget personnalisés ajouté à un formulaire personnalisé de votre système. Il est possible qu’une personne ait déjà créé une vue qui inclut la variable **Rapports** colonne .
 

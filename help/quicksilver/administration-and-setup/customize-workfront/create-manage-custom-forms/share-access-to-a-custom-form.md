@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez configurer l’accès à un formulaire personnalisé pour contrôler qui (personne, rôle, groupe, équipe, entreprise) peut l’afficher, le partager et le modifier.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
 
 # Partage d’un formulaire personnalisé
+
+{{highlighted-preview}}
 
 Vous pouvez configurer l’accès à un formulaire personnalisé pour contrôler qui (personne, rôle, groupe, équipe, entreprise) peut l’afficher, le partager et le modifier.
 
@@ -28,21 +30,24 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   <p>ou</p>
+   <p>Actuel : formule</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Accès aux formulaires personnalisés {#access-to-custom-forms}
 
@@ -57,10 +62,10 @@ Cependant, sur un objet pour lequel le formulaire personnalisé n’est pas déj
 
 Plutôt que de laisser un formulaire personnalisé dans l’état de partage par défaut (décrit à la section [Accès aux formulaires personnalisés](#access-to-custom-forms) dans cet article), vous pouvez configurer des niveaux d’accès spécifiques au formulaire pour certains utilisateurs, rôles de tâche, groupes, équipes et entreprises.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Forms personnalisée**.
-1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Partager**.
+1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Partager** <span class="preview">ou ![Icône Partager](assets/share-icon.png).</span>
 1. Dans la zone qui s’affiche, sous **Octroyer un accès à un formulaire personnalisé**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle de tâche, du groupe ou de la société avec lequel vous souhaitez partager le formulaire personnalisé, puis appuyez sur **Entrée** lorsque le nom s’affiche.
 1. Pour ajuster l’accès de l’utilisateur, de l’équipe, du rôle de tâche, du groupe ou de la société que vous venez d’ajouter, cliquez sur le menu déroulant à droite du nom, puis configurez l’une des options disponibles suivantes, ainsi que l’un de ses paramètres avancés :
 
@@ -106,10 +111,10 @@ Plutôt que de laisser un formulaire personnalisé dans l’état de partage par
 
 ## Supprimer l’accès à un formulaire personnalisé
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Forms personnalisée**.
-1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Partager**.
+1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Partager** <span class="preview">ou ![Icône Partager](assets/share-icon.png).</span>
 1. Dans la zone qui s’affiche, cliquez sur le X situé à droite du nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société dont vous ne souhaitez plus bénéficier d’un accès spécial au formulaire.
 1. (Facultatif) Répétez l’étape précédente sur pour connaître les autres noms que vous souhaitez supprimer.
 1. Cliquer sur **Enregistrer**.
