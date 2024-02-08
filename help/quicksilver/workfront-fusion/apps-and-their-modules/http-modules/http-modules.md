@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: HTTP &gt; Autres modules
-description: Le [!DNL Adobe Workfront Fusion] L’application HTTP fournit divers modules de communication basés sur le protocole HTTP (Hypertext Transfer Protocol). HTTP est la base de la communication des données pour le World Wide Web. Vous pouvez utiliser les modules pour télécharger des pages et des fichiers web, appeler des webhooks et des points de terminaison d’API, etc.
+title: HTTP et gt ; autres modules
+description: La variable [!DNL Adobe Workfront Fusion] L’application HTTP fournit divers modules de communication basés sur le protocole HTTP (Hypertext Transfer Protocol). HTTP est la base de la communication des données pour le World Wide Web. Vous pouvez utiliser les modules pour télécharger des pages et des fichiers web, appeler des webhooks et des points de terminaison d’API, etc.
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,21 @@ ht-degree: 0%
 >
 >[!UICONTROL Adobe Workfront Fusion] nécessite une [!UICONTROL Adobe Workfront Fusion] en plus d’une [!UICONTROL Adobe Workfront] licence.
 
-Le [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] L’application fournit divers modules pour la communication basés sur le protocole HTTP (Hypertext Transfer Protocol). HTTP est la base de la communication des données pour le World Wide Web. Vous pouvez utiliser les modules pour télécharger des pages et des fichiers web, appeler des webhooks et des points de terminaison d’API, etc.
+La variable [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] L’application fournit divers modules pour la communication basés sur le protocole HTTP (Hypertext Transfer Protocol). HTTP est la base de la communication des données pour le World Wide Web. Vous pouvez utiliser les modules pour télécharger des pages et des fichiers web, appeler des webhooks et des points de terminaison d’API, etc.
 
 Le bon choix du module dépend du mécanisme d’authentification/d’autorisation de la ressource à laquelle vous souhaitez accéder. Vous trouverez ci-dessous des exemples de modules :
 
 * Effectuer une requête : module universel destiné principalement aux ressources qui n’utilisent aucun type d’authentification/autorisation
 * Effectuer une requête d’authentification de base : pour les ressources qui utilisent [!DNL HTTP] Authentification de base (BA)
 * Effectuez une requête OAuth 2.0 : pour les ressources utilisant le protocole d’autorisation OAuth 2.0
-* Effectuez une demande d’authentification de certificat client : pour les ressources utilisant le protocole d’autorisation qui nécessite un certificat côté client.
-* Effectuez une demande d’autorisation de clé API : pour les ressources utilisant des clés d’API à des fins d’autorisation.
+* Effectuer une demande d’authentification de certificat client : pour les ressources utilisant le protocole d’autorisation qui nécessite un certificat côté client.
+* Effectuez une demande d’autorisation de clé API : pour les ressources utilisant des clés API pour l’autorisation.
+
+>[!NOTE]
+>
+>Si vous vous connectez à un produit Adobe qui ne possède pas encore de connecteur dédié, il est recommandé d&#39;utiliser le module Adobe Authenticator.
+>
+>Pour plus d’informations, voir [Module Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Modules de requête
 
@@ -81,7 +87,7 @@ Ce module d’action résout une chaîne de redirections HTTP et renvoie une URL
  </tbody> 
 </table>
 
-## Modules d’itérateur
+## Modules itérateurs
 
 ### [!UICONTROL Récupération des en-têtes]
 
@@ -102,7 +108,7 @@ Ce module renvoie chaque en-tête (nom et valeur) du module HTTP spécifié dans
 
 Il est possible de générer un jeton JWT à l’aide de fonctions intégrées :
 
-En-tête:
+En-tête :
 
 ![](assets/jwt-header-350x19.png)
 

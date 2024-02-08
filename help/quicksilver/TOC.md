@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 080292085ebd94074c92963c2fc135dd228f4cf0
+source-git-commit: 777739c4803eb8edf6ece7356e29e121a157c4d4
 workflow-type: tm+mt
-source-wordcount: '13904'
+source-wordcount: '13914'
 ht-degree: 1%
 
 ---
@@ -146,6 +146,7 @@ ht-degree: 1%
          * [21.1 Améliorations apportées à Mobile](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 Autres améliorations](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Activité Publication de fusion Adobe Workfront {#fusion-release}
+         * [Activité Publication de fusion Workfront : Semaine du 5 février 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
          * [Activité Publication de fusion Workfront : semaine du 27 novembre 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
          * [Activité Publication de fusion Adobe Workfront](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
            [Activité Publication de fusion Workfront : semaine du 1er janvier 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
@@ -2166,6 +2167,7 @@ ht-degree: 1%
       * [Applications et leurs modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Modules Adobe Workfront](workfront-fusion/apps-and-their-modules/workfront-modules.md)
       * [Modules Workfront BAT](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Module Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
       * [Modules Adobe Acrobat Sign](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
       * [Modules de bibliothèques Adobe Creative Cloud](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Modules Adobe Campaign Classic](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)

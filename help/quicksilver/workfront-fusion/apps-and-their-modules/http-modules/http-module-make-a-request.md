@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
-title: HTTP &gt; Exécution d’un module de requête
-description: Adobe Workfront Fusion HTTP &gt; Make a request module est un module universel qui permet de configurer une requête HTTP et de l’envoyer à un serveur. La réponse HTTP reçue est alors contenue dans le lot de sortie.
+title: HTTP &gt; Make request module
+description: Le module Adobe Workfront Fusion HTTP &gt; Make a request est un module universel qui vous permet de configurer une requête HTTP et de l’envoyer à un serveur. La réponse HTTP reçue est alors contenue dans le lot de sortie.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7857c395-ce84-480e-8fa2-065035ac5b95
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,13 @@ ht-degree: 0%
 >
 >Adobe Workfront Fusion nécessite une [!DNL Adobe Workfront Fusion] en plus d’une [!DNL Adobe Workfront] licence.
 
-Le [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Exécution d’un module de requête] est un module universel qui permet de configurer une requête HTTP et de l’envoyer à un serveur. La réponse HTTP reçue est alors contenue dans le lot de sortie.
+La variable [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Exécution d’un module de requête] est un module universel qui permet de configurer une requête HTTP et de l’envoyer à un serveur. La réponse HTTP reçue est alors contenue dans le lot de sortie.
+
+>[!NOTE]
+>
+>Si vous vous connectez à un produit Adobe qui ne possède pas encore de connecteur dédié, il est recommandé d&#39;utiliser le module Adobe Authenticator.
+>
+>Pour plus d’informations, voir [Module Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Exigences d’accès
 
@@ -43,7 +49,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -51,9 +57,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -102,7 +108,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Le type de corps brut est généralement adapté à la plupart des requêtes de corps HTTP, même dans les cas où la documentation du développeur ne spécifie aucune donnée à envoyer.</p> <p>Spécifiez un formulaire d’analyse des données dans le champ [!UICONTROL Type de contenu] .</p> <p>Malgré le type de contenu sélectionné, les données sont entrées dans n’importe quel format requis ou indiqué par la documentation du développeur.</p> </li> 
      <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Ce type de corps est destiné aux données [!UICONTROL POST] qui utilisent <code>[!UICONTROL application/x-www-form-urlencoded]</code>.</p> <p>Pour <code>application/x-www-form-urlencoded</code>, le corps du message HTTP envoyé au serveur est essentiellement une chaîne de requête. Les clés et les valeurs sont codées dans des paires clé-valeur séparées par <code>&amp;</code> et avec un <code>=</code> entre la clé et la valeur. </p> <p>Pour les données binaires, utilisez <code>[!UICONTROL multipart/form-data]</code> au lieu de .</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
-       <span class="autonumber"><span><b>Exemple: </b></span></span> 
+       <span class="autonumber"><span><b>Exemple : </b></span></span> 
        <p>Exemple du format de requête HTTP obtenu :</p> 
        <p><code>field1=value1&amp;field2=value2</code> </p> 
       </div> </li> 
@@ -123,7 +129,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Password] </td> 
-   <td> <p>Saisissez le mot de passe si vous souhaitez envoyer une requête à l’aide d’une autorisation de base.</p> </td> 
+   <td> <p>Saisissez le mot de passe si vous souhaitez envoyer une demande à l’aide d’une autorisation de base.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Timeout] </td> 

@@ -9,7 +9,7 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 Avant d’utiliser la variable [!DNL Adobe Journey Optimizer] , vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
-* Vous devez avoir une principale [!DNL Adobe Journey Optimizer] compte .
+* Vous devez disposer d’un [!DNL Adobe Journey Optimizer] compte .
 
 ## Créer une connexion à [!DNL Adobe Journey Optimizer]
 
@@ -469,7 +469,6 @@ Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Journey
       <td role="rowheader">
         <p>Méthode [!UICONTROL]</p>
       </td>
-      <td>
    <td> <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
@@ -489,7 +488,7 @@ Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Journey
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

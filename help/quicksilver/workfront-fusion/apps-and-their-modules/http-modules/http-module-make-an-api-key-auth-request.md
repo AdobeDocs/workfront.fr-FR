@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
-title: HTTP &gt; Lancer une demande d’autorisation de clé API
+title: HTTP &gt; Effectuer une demande d’autorisation de clé API
 description: Ceci [!DNL Adobe Workfront Fusion] Le module d’action envoie une requête HTTPS à une URL spécifiée qui nécessite une autorisation API Key Auth et traite la réponse.
 author: Becky
 feature: Workfront Fusion
 exl-id: 70bf87c7-6d51-4ef4-9dce-80ad004e613f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] nécessite une [!DNL Adobe Workfront Fusion] en plus d’une licence Adobe Workfront.
 
 Ceci [!DNL Adobe Workfront Fusion] Le module d’action envoie une requête HTTPS à une URL spécifiée qui nécessite une autorisation API Key Auth et traite la réponse.
+
+>[!NOTE]
+>
+>Si vous vous connectez à un produit Adobe qui ne possède pas encore de connecteur dédié, il est recommandé d&#39;utiliser le module Adobe Authenticator.
+>
+>Pour plus d’informations, voir [Module Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Exigences d’accès
 
@@ -43,7 +49,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -51,9 +57,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -79,7 +85,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
     <ul> 
      <li> <p><strong>[!UICONTROL Nom de la clé]</strong></p> <p>Saisissez un nom pour cet ensemble d’informations d’identification d’API.</p> </li> 
      <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Saisissez la clé API.</p> </li> 
-     <li> <p><strong>[!UICONTROL Emplacement de la clé API]</strong> </p> <p>Indiquez si la clé API doit être placée dans l’en-tête ou dans la requête de l’appel API.</p> </li> 
+     <li> <p><strong>[!UICONTROL Emplacement de la clé de l’API]</strong> </p> <p>Indiquez si la clé API doit être placée dans l’en-tête ou dans la requête de l’appel API.</p> </li> 
      <li> <p><strong>[!UICONTROL Nom du paramètre de clé API]</strong> </p> <p>Saisissez le nom sous lequel l’appel API identifie la clé API, par exemple "apiKey" ou "X-API-Key". Vous trouverez ces informations dans la documentation du service Web auquel le module se connecte.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -110,7 +116,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Le type de corps brut est généralement adapté à la plupart des requêtes de corps HTTP, même dans les cas où la documentation du développeur ne spécifie aucune donnée à envoyer.</p> <p>Spécifiez un formulaire d’analyse des données dans le champ [!UICONTROL Type de contenu] .</p> <p>Malgré le type de contenu sélectionné, le module saisit les données dans n’importe quel format requis par la documentation destinée aux développeurs.</p> </li> 
      <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Ce type de corps est destiné aux données [!UICONTROL POST] qui utilisent <code>application/x-www-form-urlencoded</code>.</p> <p>Pour <code>[!UICONTROL application/x-www-form-urlencoded]</code>, le corps du message HTTP envoyé au serveur est essentiellement une chaîne de requête. Les clés et les valeurs sont codées dans des paires clé-valeur séparées par <code>&amp;</code> et avec un <code>=</code> entre la clé et la valeur. </p> <p>Pour les données binaires, utilisez <code>[!UICONTROL multipart/form-data]</code> au lieu de .</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
-       <span class="autonumber"><span><b>Exemple: </b></span></span> 
+       <span class="autonumber"><span><b>Exemple : </b></span></span> 
        <p>Exemple du format de requête HTTP obtenu :</p> 
        <p><code>field1=value1&amp;field2=value2</code> </p> 
       </div> </li> 

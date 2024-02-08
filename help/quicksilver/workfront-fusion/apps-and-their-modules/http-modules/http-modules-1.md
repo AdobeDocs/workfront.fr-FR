@@ -4,20 +4,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Modules HTTP
+title: Modules HTTP
 description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 64dc0892-4d05-410b-ab30-aa4b21f759d0
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 2%
 
 ---
 
-# Modules HTTP
+# Modules HTTP
 
 >[!NOTE]
 >
@@ -26,6 +26,12 @@ ht-degree: 0%
 L’application HTTP fournit divers modules de communication basés sur le protocole HTTP (Hypertext Transfer Protocol). HTTP est la base de la communication des données pour le World Wide Web. Vous pouvez utiliser les modules pour télécharger des pages et des fichiers web, appeler des webhooks et des points de terminaison d’API, etc.
 
 Le bon choix du module dépend du mécanisme d’authentification/d’autorisation utilisé par la ressource à laquelle vous souhaitez accéder.
+
+>[!NOTE]
+>
+>Si vous vous connectez à un produit Adobe qui ne possède pas encore de connecteur dédié, il est recommandé d&#39;utiliser le module Adobe Authenticator.
+>
+>Pour plus d’informations, voir [Module Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 Consultez les articles suivants pour obtenir des instructions de module spécifiques :
 
