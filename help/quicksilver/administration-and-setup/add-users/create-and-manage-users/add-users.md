@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -19,15 +19,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique aux organisations qui n’ont pas encore été intégrées au Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
+>Si votre entreprise a été intégrée à Adobe Admin Console, vous devez créer des administrateurs système via Adobe Admin Console.
+>
+>Pour plus d’informations sur la création d’administrateurs système dans Adobe Admin Console, voir [Gestion des utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Les administrateurs de groupe des organisations intégrées à Adobe Admin Console peuvent suivre cette procédure pour créer des utilisateurs et envoyer l’utilisateur pour approbation par l’administrateur.
->
->Pour plus d’informations sur l’ajout d’un utilisateur dans Adobe Admin Console :
->
->* Voir [Création d’utilisateurs dans Workfront avec Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)
->* Voir la section &quot;Ajouter des utilisateurs&quot; de l’article [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
->* Contactez votre administrateur Adobe Admin Console.
 >
 >Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -50,7 +46,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 

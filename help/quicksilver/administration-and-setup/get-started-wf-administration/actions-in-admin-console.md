@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,18 @@ ht-degree: 1%
 
 Si votre entreprise a été intégrée à Adobe Business Platform, vos utilisateurs utilisent Adobe Business Platform pour accéder à Adobe Workfront. Cela signifie que :
 
-* La gestion des utilisateurs s’effectue principalement via Adobe Admin Console.
+* Les administrateurs système sont créés via Adobe Admin Console
 * L’authentification unique (SSO) est gérée via Adobe Business Platform plutôt que par Workfront.
 
-En tant qu’administrateur Adobe Workfront, vos responsabilités et procédures d’administration diffèrent selon que votre entreprise a été intégrée à Adobe Business Platform. Cet article répertorie les procédures qui doivent être gérées différemment et fournit des liens vers des instructions pour Workfront et Adobe Admin Console.
+En tant qu’administrateur Adobe Workfront, vos responsabilités et procédures d’administration diffèrent selon que votre entreprise a été intégrée à Adobe Business Platform. Cet article répertorie les procédures qui sont gérées différemment et fournit des liens vers des instructions pour Workfront et Adobe Admin Console.
 
 ## Utilisateurs
+
+
+
+>[!NOTE]
+>
+>Nous vous recommandons d’ajouter des utilisateurs qui ne sont pas administrateurs système directement dans Workfront. Il est possible d’ajouter des utilisateurs dans Adobe Admin Console, mais de les ajouter dans Workfront permet de définir leur niveau d’accès lors de leur création, ce qui peut vous faire gagner du temps.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +71,7 @@ En tant qu’administrateur Adobe Workfront, vos responsabilités et procédures
    <td role="rowheader">Ajout d’un utilisateur à Adobe Workfront</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Ajouter des utilisateurs</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Ajout d’utilisateurs</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -106,7 +112,7 @@ En tant qu’administrateur Adobe Workfront, vos responsabilités et procédures
    <td> 
     <ul> 
      <li> <p>La section "Suppression définitive des utilisateurs" dans <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Gestion des utilisateurs d’annuaire</a>
-     </p><p>Remarque : Suppression d’un utilisateur de l’événement [!DNL Adobe Admin Console] désactive l’utilisateur dans [!DNL Workfront], mais ne les supprime pas de [!DNL Workfront].</p> </li> 
+     </p><p>Remarque : la suppression d’un utilisateur de l’événement [!DNL Adobe Admin Console] désactive l’utilisateur dans [!DNL Workfront], mais ne les supprime pas de [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -143,12 +149,12 @@ En tant qu’administrateur Adobe Workfront, vos responsabilités et procédures
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Connexion en tant qu’autre utilisateur</td> 
+   <td role="rowheader">Se connecter sous une autre identité</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">Connexion en tant qu’autre utilisateur</a> </p> </li> 
     </ul> </td> 
-   <td>non disponible</td> 
+   <td>Non disponible</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Renouvellement du certificat SAML</td> 
@@ -158,7 +164,7 @@ En tant qu’administrateur Adobe Workfront, vos responsabilités et procédures
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>La section "La signature numérique dans la réponse SAML n’a pas été validée..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Federated ID de dépannage</a></p> </li> 
+     <li> <p>La section "La signature numérique dans la réponse SAML n’a pas été validée.." dans <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Federated ID de dépannage</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

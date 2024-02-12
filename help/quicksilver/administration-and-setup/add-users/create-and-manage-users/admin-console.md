@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 0%
 >
 >Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Business Platform, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-En tant qu’administrateur d’Adobe, vous pouvez créer des utilisateurs Adobe Workfront et des administrateurs système à l’aide de Adobe Admin Console. La console est un emplacement central pour la gestion des droits d’Adobe dans l’ensemble de votre organisation. Pour plus d’informations, voir [Présentation du Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
+En tant qu’administrateur d’Adobe, vous pouvez créer des administrateurs système Adobe Workfront à l’aide de Adobe Admin Console. La console est un emplacement central pour la gestion des droits d’Adobe dans l’ensemble de votre organisation. Pour plus d’informations, voir [Présentation du Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
+
+>[!NOTE]
+>
+>Nous vous recommandons d’ajouter des utilisateurs qui ne sont pas administrateurs système directement dans Workfront. Il est possible d’ajouter des utilisateurs dans Adobe Admin Console, mais de les ajouter dans Workfront permet de définir leur niveau d’accès lors de leur création, ce qui peut vous faire gagner du temps.
 
 ## Exigences d’accès
 
@@ -116,9 +120,33 @@ Avant d’utiliser le Admin Console pour Workfront, vous devriez recevoir un cou
    * [Création d’utilisateurs dans Workfront avec Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console)
    * [Création d’administrateurs système dans Workfront avec Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
+## Création d’administrateurs système dans Workfront avec Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+
+<!--Audited: 12/2023-->
+
+Le niveau d’accès Administrateur système n’est accordé que sur Adobe Admin Console. Vous ne pouvez pas accorder ou supprimer l’accès administrateur dans Workfront.
+
+Vous devez ajouter un utilisateur à votre instance de production de Workfront avant de pouvoir en faire un administrateur système Workfront.
+
+1. Accédez à la zone utilisateur et administrateur du Admin Console, comme décrit dans la section . [Accès à la zone utilisateur et d’administration de votre instance de production de Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) dans cet article.
+1. Sélectionnez la variable **Administrateurs** au-dessus de la liste des utilisateurs.
+1. Sélectionner **Ajouter un administrateur**.
+1. Dans le **Ajout d’administrateurs de profil de produit** , saisissez les adresses électroniques ou les noms des administrateurs à ajouter, puis sélectionnez **Enregistrer**.
+
+   ![](assets/add-admin-1.png)
+
+   Les administrateurs système sont créés dans Workfront.
+
+   >[!IMPORTANT]
+   >
+   >N’apportez aucune modification au profil de produit lui-même.
+
+
 ## Création d’utilisateurs dans Workfront avec Adobe Admin Console {#create-users-in-workfront-with-the-adobe-admin-console}
 
-Les utilisateurs Workfront doivent être ajoutés à Adobe Admin Console. Un administrateur peut créer l’utilisateur directement dans Adobe Admin Console. Les administrateurs de groupe créent des utilisateurs dans Workfront, qui sont ensuite soumis à approbation. Une fois approuvé, l’utilisateur est ajouté à Adobe Admin Console.
+>[!NOTE]
+>
+>Nous vous recommandons d’ajouter des utilisateurs qui ne sont pas administrateurs système directement dans Workfront. Il est possible d’ajouter des utilisateurs dans Adobe Admin Console, mais de les ajouter dans Workfront permet de définir leur niveau d’accès lors de leur création, ce qui peut vous faire gagner du temps.
 
 * [Création d’utilisateurs dans Workfront directement dans Adobe Admin Console](#create-users-in-workfront-directly-in-the-adobe-admin-console)
 * [Créer des utilisateurs dans Workfront et les approuver pour Adobe Admin Console](#create-users-in-workfront-and-approve-them-for-the-adobe-admin-console)
@@ -179,26 +207,6 @@ Pour approuver un utilisateur :
 
 
 
-## Création d’administrateurs système dans Workfront avec Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
-
-<!--Audited: 12/2023-->
-
-Le niveau d’accès Administrateur système n’est accordé que sur Adobe Admin Console. Vous ne pouvez pas accorder ou supprimer l’accès administrateur dans Workfront.
-
-Vous devez ajouter un utilisateur à votre instance de production de Workfront avant de pouvoir en faire un administrateur système Workfront. Pour obtenir des instructions, reportez-vous à la section [Création d’utilisateurs dans Workfront avec Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console) dans cet article.
-
-1. Accédez à la zone utilisateur et administrateur du Admin Console, comme décrit dans la section . [Accès à la zone utilisateur et d’administration de votre instance de production de Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) dans cet article.
-1. Sélectionnez la variable **Administrateurs** au-dessus de la liste des utilisateurs.
-1. Sélectionner **Ajouter un administrateur**.
-1. Dans le **Ajout d’administrateurs de profil de produit** , saisissez les adresses électroniques ou les noms des administrateurs à ajouter, puis sélectionnez **Enregistrer**.
-
-   ![](assets/add-admin-1.png)
-
-   Les administrateurs système sont créés dans Workfront.
-
-   >[!IMPORTANT]
-   >
-   >N’apportez aucune modification au profil de produit lui-même.
 
 
 
