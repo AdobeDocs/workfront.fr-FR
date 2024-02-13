@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '82'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ Cette section contient les sous-sections suivantes :
 * [Langues prises en charge dans Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
 * [Naviguer dans Adobe Workfront : index de l’article](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [Accueil](../workfront-basics/using-home/home.md)
-* [Mise à jour des tâches et affichage des mises à jour](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+* [Mise à jour des éléments de travail et affichage des mises à jour : index de l’article](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [Utilisation de formulaires personnalisés](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
 * [Utiliser des notifications : index des articles](../workfront-basics/using-notifications/use-notifications.md)
 * [Octroi et demande d’autorisations aux objets](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)

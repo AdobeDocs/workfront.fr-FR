@@ -6,9 +6,9 @@ description: Vous pouvez tirer parti de fonctionnalités agiles pour votre proje
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,16 +77,16 @@ Il existe des différences lors de l’utilisation de vues agiles sur un projet 
 
 ### Différences entre l’utilisation de la vue Agile sur un projet et sur une itération {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [Les tâches et les sous-tâches suivent différentes règles d’affichage sur le panorama des articles](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [Les logs et itérations sont inutilisés](#backlogs-and-iterations-are-not-used)
+* [Les tâches et les sous-tâches suivent différentes règles d’affichage dans une vue Agile de projet et sur le panorama d’une itération.](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [Les logs de sauvegarde et les itérations ne sont pas utilisés dans la vue agile](#backlogs-and-iterations-are-not-used)
 * [L’ordre des tâches est conservé dans la vue Agile et ne peut pas être réorganisé.](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [Les tâches ne sont mesurées que dans les heures planifiées](#tasks-are-measured-only-in-planned-hours)
-* [L’équipe agile n’est pas utilisée](#the-agile-team-is-not-used)
+* [Les tâches sont mesurées uniquement en heures planifiées sur une liste de projets](#tasks-are-measured-only-in-planned-hours)
+* [L’équipe agile n’est pas utilisée dans une vue agile](#the-agile-team-is-not-used)
 * [Chaque utilisateur du projet peut afficher le projet dans une vue Agile différente.](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### Les tâches et les sous-tâches suivent différentes règles d’affichage sur le panorama des articles {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### Les tâches et les sous-tâches suivent différentes règles d’affichage dans une vue Agile de projet et sur le panorama d’une itération. {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* Les tâches qui n’ont pas de tâche parent ni de sous-tâche sont toujours affichées sous la forme d’une seule carte d’article sur le panorama d’articles.\
+* Les tâches qui n’ont pas de tâche parent ni de sous-tâche sont toujours affichées sous la forme d’une seule carte d’article sur le panorama d’articles de la vue Agile.\
   Par exemple, ces tâches apparaissent comme suit dans la vue de liste des projets :
 
   ![Liste de projets agile : tâches sans parent ni sous-tâches](assets/agile-project-single-list-nwe.png)
@@ -95,7 +95,7 @@ Il existe des différences lors de l’utilisation de vues agiles sur un projet 
 
   ![Vue agile du projet - tâches sans parent ni sous-tâches](assets/agile-project-singlecard-nwe.png)
 
-* Les tâches parentes qui comportent des sous-tâches sont toujours affichées dans le **Histoires** de l’éditeur. Les sous-tâches sont affichées dans le couloir de la tâche parent.\
+* Les tâches parentes qui comportent des sous-tâches sont toujours affichées dans le **Histoires** du tableau d’articles de la vue Agile. Les sous-tâches sont affichées dans le couloir de la tâche parent.\
   Par exemple, ces tâches apparaissent comme suit dans la vue de liste des projets :
 
   ![Liste de projets agile : tâches avec parents et sous-tâches](assets/agile-project-parent-list-nwe.png)\
@@ -104,9 +104,9 @@ Il existe des différences lors de l’utilisation de vues agiles sur un projet 
   ![Agile project view : tâches avec parents et sous-tâches](assets/agile-project-parent-nwe.png)
 
 * Les sous-tâches de deuxième niveau (sous-tâches des sous-tâches) s’affichent sous la forme d’une carte grise suspendue de la tâche parent immédiate.
-* Les sous-tâches de troisième niveau (sous-tâches de sous-tâches) ne s’affichent jamais sur le tableau de bord.
+* Les sous-tâches de troisième niveau (sous-tâches de sous-tâches) ne s’affichent jamais dans la vue Agile.
 
-#### Les logs et itérations sont inutilisés {#backlogs-and-iterations-are-not-used}
+#### Les logs de sauvegarde et les itérations ne sont pas utilisés dans la vue agile {#backlogs-and-iterations-are-not-used}
 
 Lors de l’affichage d’un projet dans une vue agile, les composants agiles suivants ne sont pas utilisés :
 
@@ -119,13 +119,13 @@ L’ordre dans lequel les tâches apparaissent dans un projet est conservé lors
 
 Vous ne pouvez pas réorganiser les tâches du projet lorsque vous le visualisez dans une vue agile. La modification de l’ordre des tâches pouvant affecter d’autres tâches pouvant avoir des dépendances, vous devez afficher le projet dans une vue standard afin de modifier l’ordre des tâches.
 
-#### Les tâches ne sont mesurées que dans les heures planifiées {#tasks-are-measured-only-in-planned-hours}
+#### Les tâches sont mesurées uniquement en heures planifiées sur une liste de projets {#tasks-are-measured-only-in-planned-hours}
 
 Les tâches d’un projet sont toujours mesurées en heures planifiées.
 
 Dans une itération, les tâches (histoires) peuvent être mesurées en heures ou en points.
 
-#### L’équipe agile n’est pas utilisée {#the-agile-team-is-not-used}
+#### L’équipe agile n’est pas utilisée dans une vue agile {#the-agile-team-is-not-used}
 
 Comme les équipes agiles terminent le travail sur les itérations qui leur sont affectées, les équipes agiles ne sont pas utilisées lors de l’affichage d’un projet dans une vue agile.
 
@@ -137,7 +137,7 @@ Contrairement à une itération agile, les utilisateurs d’un projet peuvent pe
 
 Dans une itération agile, les informations disponibles sur le tableau de bord agile (telles que les colonnes d’état disponibles) sont déterminées au niveau de l’équipe.
 
-Pour plus d’informations sur la personnalisation d’une vue agile, voir [Création ou personnalisation d’une vue agile](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Pour plus d’informations sur la personnalisation d’une vue agile, voir [Création ou personnalisation d’une vue agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Créer ou modifier des vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Affichage d’un projet en mode Agile
 

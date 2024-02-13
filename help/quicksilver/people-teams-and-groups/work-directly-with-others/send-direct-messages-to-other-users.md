@@ -7,16 +7,16 @@ description: Adobe Workfront vous permet d’envoyer rapidement et facilement de
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Envoyer des messages directs à d’autres utilisateurs
 
-[!DNL Adobe Workfront] vous permet d’envoyer rapidement et facilement des messages sans rapport direct avec un élément de travail à d’autres [!DNL Workfront] utilisateurs. Les messages envoyés comme décrit dans cette section apparaissent dans [!UICONTROL Mises à jour] sur la page d’accueil de l’utilisateur et sont visibles par tous les utilisateurs. Pour plus d’informations sur les mises à jour, voir [Mise à jour des tâches et affichage des mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] vous permet d’envoyer rapidement et facilement des messages sans rapport direct avec un élément de travail à d’autres [!DNL Workfront] utilisateurs. Les messages envoyés comme décrit dans cette section apparaissent dans [!UICONTROL Mises à jour] sur la page d’accueil de l’utilisateur et sont visibles par tous les utilisateurs. Pour plus d’informations sur les mises à jour, voir [Mise à jour des éléments de travail et affichage des mises à jour : index de l’article](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 L’utilisateur auquel vous envoyez le message reçoit les types de notifications suivants lorsque vous envoyez un message, comme décrit dans cette section :
 
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 

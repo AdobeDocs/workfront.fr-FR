@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
@@ -331,4 +331,4 @@ Les champs personnalisés calculés sur un objet sont automatiquement recalculé
 
   >[!NOTE]
   >
-  ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont calculées et enregistrées selon l’heure universelle coordonnée (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre entreprise et votre profil utilisateur. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque utilisateur.</div>
+  >Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont calculées et enregistrées selon l’heure universelle coordonnée (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre entreprise et votre profil utilisateur. Cependant, les calculs dans un formulaire personnalisé sont affichés en fonction du fuseau horaire de chaque utilisateur.

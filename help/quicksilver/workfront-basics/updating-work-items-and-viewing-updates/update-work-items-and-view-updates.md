@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: Mise à jour des tâches et affichage des mises à jour
-description: Vous pouvez utiliser la section Mises à jour de la plupart des objets pour ajouter des commentaires, des réponses ou suivre les mises à jour de suivi système relatives aux modifications apportées à l’objet.
+title: "Mise à jour des tâches et affichage des mises à jour : index de l’article"
+description: Vous pouvez utiliser la section Mises à jour de la plupart des objets pour ajouter des commentaires et des réponses ou pour suivre les mises à jour de suivi système relatives aux modifications apportées à l’objet.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Mise à jour des tâches et affichage des mises à jour
+# Mise à jour des éléments de travail et affichage des mises à jour : index de l’article
 
-Vous pouvez utiliser la section Mises à jour de la plupart des objets pour ajouter des commentaires, des réponses ou suivre les mises à jour de suivi système relatives aux modifications apportées à l’objet.
+<!-- Audited: 02/2024 -->
+
+Vous pouvez utiliser la section Mises à jour de la plupart des objets pour ajouter des commentaires et des réponses ou pour suivre les mises à jour de suivi système relatives aux modifications apportées à l’objet.
 
 Cette section contient les articles suivants :
 
