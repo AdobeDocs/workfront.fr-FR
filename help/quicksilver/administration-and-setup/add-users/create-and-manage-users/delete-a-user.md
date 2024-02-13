@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,17 @@ Lorsqu’un utilisateur quitte votre entreprise, vous pouvez le supprimer d’Ad
 
 >[!IMPORTANT]
 >
->* La suppression d’un utilisateur du système supprime également les informations associées à l’utilisateur que vous souhaitez peut-être conserver. Il est recommandé de désactiver les utilisateurs au lieu de les supprimer. Pour plus d’informations, voir [Désactivation ou réactivation d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
->* La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées au Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
+>La suppression d’un utilisateur du système supprime également les informations associées à l’utilisateur que vous souhaitez peut-être conserver. Il est recommandé de désactiver les utilisateurs au lieu de les supprimer. Pour plus d’informations, voir [Désactivation ou réactivation d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+<!--
+>* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Suppression d’un utilisateur de l’événement [!DNL Adobe Admin Console] désactive l’utilisateur dans [!DNL Workfront], mais ne les supprime pas de [!DNL Workfront].
+>Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  Pour obtenir des instructions sur la suppression d’un utilisateur dans Adobe Admin Console, reportez-vous à la section &quot;Suppression définitive d’utilisateurs&quot; de l’article. [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) ou contactez votre administrateur Adobe Admin Console.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
+-->
 
 ## Exigences d’accès
 

@@ -3,27 +3,31 @@ title: Importer des utilisateurs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Vous pouvez importer des utilisateurs sur le site Adobe Workfront en synchronisant les utilisateurs à partir d’un service d’annuaire réseau (tel que Principal Directory ou un autre annuaire LDAP) ou importer des utilisateurs à l’aide d’un fichier d’importation de feuille de calcul.
+description: Vous pouvez importer des utilisateurs sur le site Adobe Workfront en synchronisant les utilisateurs à partir d’un service d’annuaire réseau (Active Directory ou un autre annuaire LDAP, par exemple) ou importer des utilisateurs à l’aide d’un fichier d’importation de feuille de calcul.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 2cbdd0cb065dee01ad128d782334a55233c13156
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '494'
+ht-degree: 0%
 
 ---
 
 # Importer des utilisateurs
 
+<!--
+
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées au Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Pour obtenir des instructions sur la modification du profil d’un utilisateur dans Adobe Admin Console, reportez-vous à la section &quot;Ajout d’utilisateurs&quot; de l’article . [Chargement en masse d’utilisateurs](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) ou contactez votre administrateur Adobe Admin Console.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, reportez-vous à la section [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+-->
 
 Vous pouvez importer des utilisateurs à l’aide d’un fichier d’importation de feuille de calcul.
 
@@ -39,7 +43,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -67,18 +71,18 @@ Les étapes de cet article doivent être les suivantes :
    Chaque ligne comprend les champs suivants :
 
    * **Prénom**
-   * **Nom de famille**
+   * **Nom**
    * **Adresse électronique**
 
-      Les adresses électroniques doivent être uniques.
+     Les adresses électroniques doivent être uniques.
 
    * **Niveau d’accès**
 
-      Les niveaux d’accès sont sensibles à la casse.
+     Les niveaux d’accès sont sensibles à la casse.
 
-   * **ID de connexion SSO**
+   * **Identifiant de connexion SSO**
 
-      Ce champ est inclus uniquement si SSO est activé dans votre système. Vous devez ajouter l&#39;ID de fédération dans ce champ pour chaque utilisateur. Lorsque vous créez un utilisateur à partir de l’onglet Personnes, vous pouvez configurer un mot de passe pour l’utilisateur si vous souhaitez permettre aux utilisateurs de se connecter sans authentification unique. Toutefois, la fonction d’importation ne vous permet pas de laisser l’identifiant de connexion SSO vide.
+     Ce champ est inclus uniquement si SSO est activé dans votre système. Vous devez ajouter l&#39;ID de fédération dans ce champ pour chaque utilisateur. Lorsque vous créez un utilisateur à partir de l’onglet Personnes, vous pouvez configurer un mot de passe pour l’utilisateur si vous souhaitez permettre aux utilisateurs de se connecter sans authentification unique. Toutefois, la fonction d’importation ne vous permet pas de laisser l’identifiant de connexion SSO vide.
 
    * Assurez-vous qu’il n’existe aucun espace avant ou après l’adresse électronique d’un utilisateur.
 
@@ -90,9 +94,9 @@ Les étapes de cet article doivent être les suivantes :
 1. Cliquez sur **Choisir un fichier** dans le **Importer des utilisateurs** de la boîte.
 
 1. Accédez au fichier que vous avez enregistré et sélectionnez-le.
-1. (Facultatif) Sélectionnez le **Envoyer un courrier électronique d’invitation à cet utilisateur** pour envoyer une invitation par courrier électronique à l’utilisateur, l’informant qu’un compte Workfront a été créé et l’invitant à définir son mot de passe.
+1. (Facultatif) Sélectionnez le **Envoyer un courrier électronique d’invitation à cet utilisateur** pour envoyer une invitation par courrier électronique à l’utilisateur, l’informant qu’un compte Workfront a été créé et lui demandant de définir son mot de passe.
 
-   Désélectionnez cette option si vous souhaitez définir le mot de passe de l’utilisateur.
+   Désélectionnez cette option pour définir le mot de passe de l’utilisateur.
 
 1. Cliquez sur **Importer**.
 

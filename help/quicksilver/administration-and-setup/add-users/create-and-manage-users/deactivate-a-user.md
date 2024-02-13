@@ -8,24 +8,28 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
 # Désactivation ou réactivation d’un utilisateur
 
+<!--
+
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées au Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Pour obtenir des instructions sur la désactivation d’un utilisateur dans Adobe Admin Console, reportez-vous à la section &quot;Suppression d’utilisateurs&quot; de l’article . [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) ou contactez votre administrateur Adobe Admin Console.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, reportez-vous à la section [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Vos utilisateurs peuvent quitter l’entreprise et vous devrez peut-être les supprimer d’Adobe Workfront. Ils ne doivent pas rester principaux dans le système, car cela risque de créer de la confusion pour les autres utilisateurs lorsqu’ils les ajoutent à des mises à jour ou lorsqu’ils les attribuent au travail. Lorsque vous désactivez un utilisateur, son nom n’est plus visible pour les autres utilisateurs qui recherchent des personnes dans le système.
+-->
+
+Vos utilisateurs peuvent quitter l’entreprise et vous devrez peut-être les supprimer d’Adobe Workfront. Ils ne doivent pas rester actifs dans le système, car cela risque de créer une confusion pour les autres utilisateurs lorsqu’ils les ajoutent à des mises à jour ou lorsqu’ils les attribuent au travail. Lorsque vous désactivez un utilisateur, son nom n’est plus visible pour les autres utilisateurs qui recherchent des personnes dans le système.
 
 Les administrateurs peuvent voir les utilisateurs inactifs dans la zone Configuration .
 
@@ -33,9 +37,9 @@ Vous pouvez réactiver un utilisateur à tout moment.
 
 >[!IMPORTANT]
 >
->Nous vous recommandons de désactiver les utilisateurs qui ont quitté l’organisation plutôt que de les supprimer. Si un utilisateur est supprimé, tout l’historique de Workfront associé à cet utilisateur est perdu. Cela inclut leurs affectations de travail, leur association avec des notes, des heures, des documents et tous les autres objets qu’ils ont créés une fois.
+>Nous vous recommandons de désactiver les utilisateurs qui ont quitté l’organisation plutôt que de les supprimer. Si un utilisateur est supprimé, tout l’historique de Workfront associé à cet utilisateur est perdu. Cela inclut leurs affectations de travail, leur association aux notes, heures, documents et tous les autres objets qu’ils ont créés une fois.
 >
->La désactivation d’un utilisateur dans Workfront supprime les licences de l’utilisateur pour Workfront et la vérification dynamique des balises. En outre, l’utilisateur ne peut plus se voir attribuer une tâche. Lorsqu’un utilisateur est désactivé, sa licence Workfront et sa licence de vérification peuvent être utilisées par un autre utilisateur. toutes les autres informations du profil de l’utilisateur désactivé restent inchangées.
+>La désactivation d’un utilisateur dans Workfront supprime les licences de l’utilisateur pour Workfront et la vérification dynamique des balises. En outre, l’utilisateur ne peut plus se voir attribuer une tâche. Lorsqu’un utilisateur est désactivé, sa licence Workfront et sa licence de vérification peuvent être utilisées par un autre utilisateur ; toutes les autres informations contenues dans le profil de ce dernier restent inchangées.
 >
 >Pour plus d’informations sur l’impact de la suppression et de la désactivation des utilisateurs, voir [Suppression d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -49,7 +53,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -101,14 +105,13 @@ Pour planifier la désactivation d’un utilisateur :
    >* Dans la zone de temps, vous pouvez sélectionner uniquement des incréments d’une heure entière, et non des minutes.
    >* Si vous sélectionnez une heure pour le jour en cours qui s’est écoulé, Workfront programmera la désactivation pour le jour suivant à 00h00. L’heure sélectionnée correspond au fuseau horaire de l’ordinateur de l’utilisateur qui planifie la désactivation.
 
-
 1. Cliquez sur **Enregistrer les modifications**.
 
    L’utilisateur est parfois désactivé le jour sélectionné après l’heure sélectionnée. Si vous avez sélectionné plusieurs utilisateurs à désactiver en bloc, tous les utilisateurs sélectionnés sont parfois désactivés le jour sélectionné après l’heure sélectionnée.
 
 Nous vous recommandons de créer un rapport pour les utilisateurs que vous avez programmés pour la désactivation, afin de vous tenir informé des utilisateurs qui vont être désactivés. Il n’existe aucune confirmation que la désactivation s’est produite une fois que les utilisateurs ont été désactivés.
 
-## Réactivation d’un utilisateur
+## Réactiver un utilisateur
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
 
@@ -121,7 +124,7 @@ Nous vous recommandons de créer un rapport pour les utilisateurs que vous avez 
 Les utilisateurs désactivés perdent leur rôle de vérification par défaut et leur licence de BAT (si vous utilisez un forfait hérité Workfront Premium). Si vous choisissez de réactiver l’utilisateur, vous devez :
 
 * Réaffectez la licence (si vous utilisez un forfait hérité Workfront Premium). Pour plus d’informations sur les plans de vérification Workfront, voir [Accès aux fonctionnalités de vérification dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Vérifiez qu’ils disposent du rôle de BAT approprié. Les utilisateurs de BAT réactivés se voient attribuer le rôle de BAT par défaut spécifié pour les nouveaux utilisateurs. Voir [Configuration des rôles de vérification par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) pour plus d’informations.
+* Vérifiez qu’ils disposent du rôle de BAT correct. Les utilisateurs de BAT réactivés se voient attribuer le rôle de BAT par défaut spécifié pour les nouveaux utilisateurs. Voir [Configuration des rôles de vérification par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) pour plus d’informations.
 
 ## À propos de la désactivation des administrateurs Workfront et de la planification des utilisateurs de licences
 
@@ -134,7 +137,7 @@ Ces objets et activités peuvent inclure les éléments suivants :
 * Rapports configurés pour s’exécuter avec les droits d’accès de l’utilisateur
 * Modèles appartenant à l’utilisateur
 * Projets et modèles sur lesquels l’utilisateur a été défini comme gestionnaire de ressources
-* Règles de routage de la file d’attente des demandes sur lesquelles l’administrateur Workfront ou l’utilisateur de la licence Plan est le cessionnaire par défaut
+* Règles de routage de la file d’attente des demandes sur lesquelles l’administrateur Workfront ou l’utilisateur de la licence Plan est le responsable par défaut
 * Processus de validation comportant une étape, y compris l’utilisateur (en particulier s’il était le seul approbateur sur l’étape)
 * Feuilles de calcul qui répertorient l’utilisateur en tant qu’approbateur
 * Profils de feuille de temps qui répertorient l’utilisateur en tant qu’approbateur

@@ -8,22 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
 
 # Modification en masse des profils utilisateur
 
+<!--
+
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées au Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Pour obtenir des instructions sur la modification du profil d’un utilisateur dans Adobe Admin Console, reportez-vous à la section &quot;Modifier les détails de l’utilisateur&quot; de l’article. [Chargement en masse d’utilisateurs](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) ou contactez votre administrateur Adobe Admin Console.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->
 
 Vous pouvez modifier les comptes d’utilisateurs par lot. Lors de la modification en masse d’utilisateurs, seuls les champs que vous sélectionnez spécifiquement sont mis à jour avec les mêmes informations pour tous les utilisateurs sélectionnés. Tous les autres champs non sélectionnés restent identiques pour chaque utilisateur, même s’ils sont différents pour chaque utilisateur.
 

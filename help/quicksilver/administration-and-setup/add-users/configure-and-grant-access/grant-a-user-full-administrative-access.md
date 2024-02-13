@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1583'
 ht-degree: 1%
 
 ---
@@ -18,13 +18,9 @@ ht-degree: 1%
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées au Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
->Pour obtenir des instructions sur l’octroi d’un accès administrateur complet dans Adobe Admin Console :
+>Pour obtenir des instructions sur l’octroi d’un accès administrateur complet dans Adobe Admin Console, voir [Gestion des administrateurs système dans Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->* Voir [Création d’administrateurs système dans Workfront avec Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create2)
->* Consultez la section &quot;Modifier les détails de l’utilisateur&quot; de l’article [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) dans la documentation de Adobe Admin Console.
->* Contactez votre administrateur Adobe Admin Console.
->
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, reportez-vous à la section [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 En tant qu’administrateur Adobe Workfront, vous pouvez créer un autre administrateur Workfront en lui affectant le niveau d’accès Administrateur système. Un utilisateur disposant de ce niveau d’accès dispose d’un accès d’administration complet à tous les éléments de Workfront, y compris les éléments qu’il n’a pas créés lui-même.
 
@@ -36,7 +32,6 @@ En tant qu’administrateur Adobe Workfront, vous pouvez créer un autre adminis
 >* [Accès d’un administrateur Workfront et accès d’un utilisateur Plan disposant de droits d’administration](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) dans cet article
 >
 
-
 ## Exigences d’accès
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
@@ -47,7 +42,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -55,7 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations, voir <a href="#" class="MCXref xref selected">Octroi d’un accès administratif complet à un utilisateur</a>.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations, voir <a href="#" class="MCXref xref selected">Octroi d’un accès administratif complet à un utilisateur</a>.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,9 +62,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur le nom de l’utilisateur auquel vous souhaitez accorder des droits d’administrateur.
 1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis cliquez sur **Modifier**.
 
-1. Sur le **Modifier la personne** s’affiche, cliquez sur **Accès**.
+1. Sur le **Modifier la personne** qui s’affiche, cliquez sur **Accès**.
 
-1. Dans le **niveau d&#39;accès** , sélectionnez la liste déroulante **Administrateur système** niveau d’accès.
+1. Dans le **niveau d&#39;accès** , sélectionnez la **Administrateur système** niveau d’accès.
 
    Selon les modifications apportées à votre système, le nom de ce niveau d’accès peut avoir changé.
 
@@ -107,22 +102,22 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
  </thead> 
  <tbody> 
   <tr> 
-   <td>Préférences du projet : Projets</td> 
+   <td>Préférences de projet : Projets</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Préférences du projet : Tâches et problèmes</td> 
+   <td>Préférences du projet : tâches et problèmes</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Préférences du projet : Statuts</td> 
+   <td>Préférences du projet : états</td> 
    <td>Accès complet</td> 
    <td> <p>Accès interdit</p> </td> 
   </tr> 
   <tr> 
-   <td>Préférences du projet : Priorités</td> 
+   <td>Préférences de projet : priorités</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
@@ -132,17 +127,17 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Préférences du projet : Taux de change</td> 
+   <td>Préférences du projet : taux de change</td> 
    <td>Accès complet</td> 
    <td>Accès complet</td> 
   </tr> 
   <tr> 
-   <td>Traitements : Approbations</td> 
+   <td>Processus : validations</td> 
    <td> <p>Accès complet</p> </td> 
    <td>Accès complet</td> 
   </tr> 
   <tr> 
-   <td>Traitements : Chemins Milestone</td> 
+   <td>Processus : Chemins Milestone</td> 
    <td>Accès complet</td> 
    <td>Accès complet</td> 
   </tr> 
@@ -157,14 +152,14 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
    <td> <p>Les utilisateurs qui sont administrateurs de groupes peuvent restaurer les projets affectés aux groupes qu’ils gèrent, ainsi que les tâches, problèmes ou documents associés à ces projets.</p> </td> 
   </tr> 
   <tr> 
-   <td>Corbeille : Récemment restaurés</td> 
+   <td>Corbeille : récemment restaurée</td> 
    <td>Accès complet</td> 
    <td>Les utilisateurs qui sont des administrateurs de groupe peuvent voir les éléments qu’ils ont récemment restaurés.</td> 
   </tr> 
   <tr> 
    <td>Fonctions</td> 
    <td>Accès complet</td> 
-   <td> <p>Modifiez mais ne supprimez pas les rôles de tâche existants.</p> <p>Ajoutez de nouveaux rôles de tâche.</p> </td> 
+   <td> <p>Modifier mais ne pas supprimer les rôles de tâche existants.</p> <p>Ajoutez de nouveaux rôles de tâche.</p> </td> 
   </tr> 
   <tr> 
    <td>Équipes</td> 
@@ -174,7 +169,7 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Groupes</td> 
    <td>Accès complet</td> 
-   <td> <p>Accès à la création de groupes.</p> <p>Seuls les administrateurs de groupe peuvent gérer l’appartenance à un groupe, les sous-groupes et les états au niveau du groupe pour les groupes qu’ils gèrent. </p> </td> 
+   <td> <p>Accès à la création de groupes.</p> <p>Seuls les administrateurs de groupe peuvent gérer l’appartenance, les sous-groupes et les états au niveau du groupe pour les groupes qu’ils gèrent. </p> </td> 
   </tr> 
   <tr> 
    <td>Entreprises</td> 
@@ -192,34 +187,34 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
    <td> <p>Accès à la modification des planifications.</p> <p>Accès pour ajouter des plannings existants à d’autres utilisateurs, au niveau de l’utilisateur. </p> </td> 
   </tr> 
   <tr> 
-   <td>Frise chronologique et heures : Profils de feuille de temps</td> 
+   <td>Frise chronologique et heures : profils de la feuille de temps</td> 
    <td>Accès complet</td> 
    <td> <p>Accès pour affecter des profils de feuille de temps existants aux utilisateurs, au niveau de l’utilisateur.</p> <p>Les utilisateurs qui sont administrateurs de groupes peuvent créer des profils de feuille de temps pour les groupes qu’ils gèrent et leurs sous-groupes. </p> </td> 
   </tr> 
   <tr> 
-   <td>Frise chronologique et heures : Types d’heure</td> 
+   <td>Frise chronologique et heures : types d’heure</td> 
    <td>Accès complet</td> 
    <td> <p>Accès pour attribuer des types d’heure aux utilisateurs, au niveau de l’utilisateur.</p> </td> 
   </tr> 
   <tr> 
-   <td>Frise chronologique et heures : Préférences</td> 
+   <td>Frise chronologique et heures : préférences</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Email : Notifications : Notifications d’événement</td> 
+   <td>Courriel : notifications : notifications d’événement</td> 
    <td>Activer/Désactiver tout</td> 
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Email : Notifications : Notifications de rappel</td> 
+   <td>Courriel : notifications : notifications de rappel</td> 
    <td>Accès complet</td> 
    <td>Accès complet</td> 
   </tr> 
   <tr> 
-   <td>Email : Notifications : Modèles de courrier électronique</td> 
+   <td>Courriel : notifications : modèles de courrier électronique</td> 
    <td>Accès complet</td> 
-   <td> <p>Aucun accès pour modifier les modèles d’email.</p> <p>Accès pour ajouter des modèles de courrier électronique existants aux notifications de rappel.</p> </td> 
+   <td> <p>Accès interdit à la modification des modèles d’email.</p> <p>Accès pour ajouter des modèles de courrier électronique existants aux notifications de rappel.</p> </td> 
   </tr> 
   <tr> 
    <td>Email : Reminders automatiques</td> 
@@ -254,20 +249,20 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Niveaux d'accès</td> 
    <td> <p>Accès complet pour modifier tous les niveaux d'accès.</p> <p>Par défaut, les niveaux d’accès Administrateur système et Utilisateur externe ne peuvent pas être modifiés.</p> </td> 
-   <td> <p>Aucun accès pour modifier les niveaux d’accès.</p> <p>Attribuez un niveau d’accès à d’autres utilisateurs inférieur ou égal au leur au niveau de l’utilisateur.</p> </td> 
+   <td> <p>Aucun accès pour modifier les niveaux d’accès.</p> <p>Attribuez un niveau d’accès aux autres utilisateurs inférieur ou égal au leur au niveau de l’utilisateur.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface : Modèles de mise en page</td> 
+   <td>Interface : modèles de mise en page</td> 
    <td>Accès complet</td> 
    <td> <p>Accès pour affecter des modèles de mise en page existants à d’autres utilisateurs, au niveau de l’utilisateur. </p> <p>Les utilisateurs désignés comme administrateurs de groupe peuvent créer des modèles de mise en page pour les groupes et les sous-groupes qu’ils gèrent.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface : Mise à jour de flux</td> 
+   <td>Interface : mise à jour des flux</td> 
    <td>Accès complet</td> 
    <td> <p>Aucun accès pour modifier les flux de mise à jour.</p> <p>Accès à l’ajout de champs à suivre dans les flux de mise à jour lors de la modification du Forms personnalisé.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface : Filtres</td> 
+   <td>Interface : filtres</td> 
    <td>Accès complet</td> 
    <td> <p>Accès à la création de filtres dans la zone Configuration .</p> <p>Accès pour créer de nouveaux filtres dans une liste d’objets.</p> </td> 
   </tr> 
@@ -277,12 +272,12 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
    <td> <p>Aucun accès à la création d’affichages dans la zone Configuration.</p> <p>Accès pour créer de nouvelles vues dans une liste d’objets.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface : Groupements</td> 
+   <td>Interface : Regroupements</td> 
    <td>Accès complet</td> 
    <td> <p>Accès à la création de groupes dans la zone Configuration .</p> <p>Accès pour créer de nouveaux regroupements dans une liste d’objets.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface : Contrôles de liste</td> 
+   <td>Interface : commandes de liste</td> 
    <td>Accès complet</td> 
    <td> <p>Accès interdit</p> </td> 
   </tr> 
@@ -307,27 +302,27 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
    <td> <p>Aucun accès pour configurer une intégration personnalisée.</p> <p>Accès à des documents vers et depuis des fournisseurs tiers à partir de l’onglet Documents , une fois les fournisseurs tiers intégrés à Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td>Système : Marques</td> 
+   <td>Système : branding</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Système : Informations sur le client</td> 
+   <td>Système : Informations client</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Système : Authentification unique (SSO)</td> 
+   <td>Système : authentification unique (SSO)</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Système : Mise à jour des utilisateurs pour SSO</td> 
+   <td>Système : mise à jour des utilisateurs pour SSO</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Système : Démarrages</td> 
+   <td>Système : démarrage rapide</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
@@ -337,7 +332,7 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
    <td>Accès interdit</td> 
   </tr> 
   <tr> 
-   <td>Système : Préférences</td> 
+   <td>Système : préférences</td> 
    <td>Accès complet</td> 
    <td>Accès interdit</td> 
   </tr> 
@@ -374,7 +369,7 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
    <td>Gérez les documents qu’ils téléchargent ou les documents partagés avec eux.</td> 
   </tr> 
   <tr> 
-   <td>Événements</td> 
+   <td>Problèmes</td> 
    <td>Accès complet</td> 
    <td>Gérez les problèmes qu’ils créent ou les problèmes partagés avec eux.</td> 
   </tr> 
