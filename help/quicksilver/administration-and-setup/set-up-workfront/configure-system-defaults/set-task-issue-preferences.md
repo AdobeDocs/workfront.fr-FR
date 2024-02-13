@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 1. Sur la page qui s’affiche, passez à l’une des 5 sections répertoriées ci-dessous pour configurer les paramètres de [!UICONTROL Nouvelles valeurs par défaut des tâches], [!UICONTROL Problèmes], [!UICONTROL Suppression], [!UICONTROL Dates réelles], et [!UICONTROL Accès]:
 
-* [[!UICONTROL Nouvelles valeurs par défaut des tâches]](#new-task-defaults)
-* [[!UICONTROL Événements]](#issues)
-* [[!UICONTROL Suppression]](#deletion)
-* [[!UICONTROL Dates réelles]](#actual-dates)
-* [[!UICONTROL Délégation]](#delegation)
+   * [[!UICONTROL Nouvelles valeurs par défaut des tâches]](#new-task-defaults)
+   * [[!UICONTROL Événements]](#issues)
+   * [[!UICONTROL Suppression]](#deletion)
+   * [[!UICONTROL Dates réelles]](#actual-dates)
+   * [[!UICONTROL Délégation]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Travailler dessus</a> </li>
+  --&gt;
 
 * [[!UICONTROL Accès]](#access)
 
@@ -97,7 +97,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
     <td> <p>Calcule les estimations de coûts prévues et réelles pour une tâche. Lorsque la variable est définie sur <strong>[!UICONTROL Aucun coût]</strong>, les heures prévues et les heures réelles enregistrées ne génèrent pas d’estimation de coût planifiée ou réelle de la tâche, et le travail sur la tâche ne contribue pas aux coûts au niveau du projet.</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Problèmes {#issues}
 
@@ -181,7 +181,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Délégation
 
@@ -192,7 +192,7 @@ Lorsque ce paramètre est activé, les utilisateurs peuvent voir les éléments 
 * La variable [!UICONTROL Déléguer] dans leur lien [!UICONTROL Accueil] zone. Ils peuvent déléguer des validations ou des affectations de tâche et d’émission à partir de là.
 * Indicateur qu’une tâche ou un problème est délégué à un autre utilisateur dans la variable [!UICONTROL Affectations et délégations] dans l’en-tête de la tâche ou du problème.
 
-Si vous désactivez la variable [!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes] , les délégations actuellement planifiées s’arrêteront et les utilisateurs délégués recevront une notification par e-mail indiquant que la délégation a été arrêtée.
+  Si vous désactivez la variable [!UICONTROL Autoriser les utilisateurs à déléguer leurs tâches et problèmes] , les délégations actuellement planifiées s’arrêteront et les utilisateurs délégués recevront une notification par e-mail indiquant que la délégation a été arrêtée.
 
 Pour plus d’informations sur la délégation de travail à d’autres personnes, consultez les articles suivants :
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
