@@ -70,7 +70,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Travailler dessus</a> </li>
-  --&gt;
+  -->
 
 * [[!UICONTROL Accès]](#access)
 
