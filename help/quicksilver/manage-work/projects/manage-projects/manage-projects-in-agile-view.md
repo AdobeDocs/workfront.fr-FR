@@ -6,14 +6,16 @@ description: Vous pouvez tirer parti de fonctionnalités agiles pour votre proje
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # Gestion d’un projet en mode Agile
+
+<!-- Audited: 2/2024 -->
 
 Vous pouvez tirer parti de fonctionnalités agiles pour votre projet sans les défis administratifs qui accompagnent généralement les pratiques agiles (comme la gestion du retard d’équipe ou la création d’itérations).
 
@@ -32,7 +34,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Actuel : révision ou version ultérieure</p> 
    <p>Nouveau : contributeur ou version ultérieure</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Présentation des projets agiles
 
@@ -162,7 +164,7 @@ Pour plus d’informations sur la personnalisation d’une vue agile, voir [Cré
 
    La vue agile personnalisée est utilisée la prochaine fois que vous cliquez sur le bouton **Agile** Icône
 
-   Pour plus d’informations sur la création d’une vue agile, voir [Créer et personnaliser des vues Agile](#create-and-customize-agile-views).
+   Pour plus d’informations sur la création d’une vue agile, voir [Créer et personnaliser des vues Agile](#create-and-customize-agile-views), ci-dessous.
 
    Le projet s’affiche dans la vue agile personnalisée.
 
@@ -170,7 +172,7 @@ Pour plus d’informations sur la personnalisation d’une vue agile, voir [Cré
 
    Si les tâches sont dans un état qui ne s’affiche pas sur le tableau de bord agile, la tâche elle-même ne s’affiche pas sur le tableau de bord agile (cependant, le pourcentage d’achèvement de ces tâches contribue toujours au pourcentage d’achèvement de toutes les tâches parentes et le pourcentage d’achèvement du projet global).
 
-   Pour ajouter des états à la vue agile, créez une vue agile ou personnalisez une vue agile existante, comme décrit dans la section &quot;Créer ou personnaliser une vue agile&quot; de l’article. [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Pour ajouter des états à la vue agile, créez une vue agile ou personnalisez une vue agile existante, comme décrit dans la section [Créer et personnaliser des vues Agile](#create-and-customize-agile-views), ci-dessous.
 
 1. (Facultatif) Pour revenir au mode Liste, cliquez sur le bouton **Liste** Icône
 
