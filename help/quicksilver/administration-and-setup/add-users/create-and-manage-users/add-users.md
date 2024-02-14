@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Ajouter des utilisateurs
 description: En tant qu’administrateur Workfront ou utilisateur disposant d’un accès administrateur complet, vous pouvez ajouter des utilisateurs dans Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1207'
 ht-degree: 1%
 
 ---
 
 # Ajouter des utilisateurs
+
+<!--Audited 2/2024-->
 
 >[!IMPORTANT]
 >
@@ -50,7 +52,7 @@ Les étapes de cet article doivent être les suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td><p>Nouveau : Standard</p><p>Ou</p><p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
@@ -62,6 +64,8 @@ Les étapes de cet article doivent être les suivantes :
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -89,7 +93,7 @@ Avant d’ajouter un utilisateur, rassemblez les informations sur l’utilisateu
 
 ## Création d’un utilisateur à partir de zéro
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
 
 1. Cliquez sur **Nouvel utilisateur > Nouvel utilisateur** pour ajouter un utilisateur qui n’a pas encore été ajouté à Workfront.
 
@@ -110,21 +114,17 @@ Avant d’ajouter un utilisateur, rassemblez les informations sur l’utilisateu
 
    >[!NOTE]
    >
-   >Si votre administrateur Workfront a activé une intégration SSO avec Workfront, alors l’option Autoriser uniquement &lt;sso configuration=&quot;&quot;> Le champ d’authentification est masqué si vous désactivez l’invitation par courrier électronique. L’ID de fédération ou &lt;sso configuration=&quot;&quot;> Le champ Nom d’utilisateur reste visible.
-
-   >[!NOTE]
+   >* Si votre administrateur Workfront a activé une intégration SSO avec Workfront, alors l’option Autoriser uniquement &lt;sso configuration=&quot;&quot;> Le champ d’authentification est masqué si vous désactivez l’invitation par courrier électronique. L’ID de fédération ou &lt;sso configuration=&quot;&quot;> Le champ Nom d’utilisateur reste visible.
    >
-   Si votre entreprise a été intégrée au Admin Console et que vous ajoutez un utilisateur via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par courrier électronique.
-   >
-   Les nouveaux utilisateurs d’Adobe sont ajoutés au Admin Console et le Admin Console leur envoie un courrier électronique pour les inviter à terminer le processus d’enregistrement. Tous les utilisateurs doivent terminer le processus d’enregistrement pour accéder à n’importe quel système d’Adobe.
+   * Si votre entreprise a été intégrée au Admin Console et que vous ajoutez un utilisateur via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par courrier électronique.
    >
    Pour les utilisateurs d’Adobe existants, l’utilisateur peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur d’Adobe pour le produit.
 
-1. Cliquez sur **Ajouter Cet Utilisateur**.
+1. Cliquez sur **Ajouter cette personne**.
 
    Ou
 
-   Cliquez sur **Ajout d’un utilisateur et démarrage d’une autre personne** pour enregistrer le nouvel utilisateur et en ajouter un autre.
+   Cliquez sur **Ajout d’une personne et démarrage d’une autre** pour enregistrer le nouvel utilisateur et en ajouter un autre.
 
    >[!NOTE]
    >
@@ -145,17 +145,17 @@ Lorsque vous créez un utilisateur de cette manière, toutes les informations so
 
 Pour créer un utilisateur en copiant un utilisateur existant :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
 1. Sélectionnez l’utilisateur à copier, puis cliquez sur l’icône Copier . ![](assets/copy-icon.png).
-1. Dans le **Nouvel utilisateur** qui s’affiche, modifiez les champs disponibles pour le nouvel utilisateur.
+1. Dans le **Copier l’utilisateur** qui s’affiche, modifiez les champs disponibles pour le nouvel utilisateur.
 
    Pour plus d’informations sur tous les champs associés à un utilisateur, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Cliquez sur **Ajouter Cet Utilisateur**.
+1. Cliquez sur **Ajouter cette personne**.
 
    Ou
 
-   Cliquez sur **Ajout d’un utilisateur et démarrage d’une autre personne** pour enregistrer le nouvel utilisateur et en ajouter un autre.
+   Cliquez sur **Ajout d’une personne et démarrage d’une autre** pour enregistrer le nouvel utilisateur et en ajouter un autre.
 
 Un nouveau compte est ainsi créé dans Workfront pour l’utilisateur.
 
@@ -164,7 +164,5 @@ Si vous avez sélectionné l’option permettant d’envoyer une invitation à l
 >[!NOTE]
 >
 Si votre entreprise a été intégrée au Admin Console et que vous ajoutez un utilisateur via Workfront, vous n’avez pas la possibilité d’envoyer une invitation par courrier électronique.
->
-Les nouveaux utilisateurs d’Adobe sont ajoutés au Admin Console et le Admin Console leur envoie un courrier électronique pour les inviter à terminer le processus d’enregistrement. Tous les utilisateurs doivent terminer le processus d’enregistrement pour accéder à n’importe quel système d’Adobe.
 >
 Pour les utilisateurs d’Adobe existants, l’utilisateur peut recevoir ou non un e-mail sur la disponibilité de Workfront. Il s’agit d’une préférence contrôlée par l’administrateur d’Adobe pour le produit.
