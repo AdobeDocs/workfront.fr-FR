@@ -7,9 +7,9 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* Le champ Affectations d’un élément répertorié dans la zone Accueil de la zone Affectations lorsque vous ouvrez une tâche ou un problème.
+* <span class="preview">Champ Affectations de la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet.</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* Le champ Affectations d’un élément répertorié dans la zone Accueil lorsque vous ouvrez une tâche ou un problème
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ Si la première étape des affectations intelligentes de tâche n’a trouvé au
 
 Pour plus d’informations, voir la section [Critères d’attribution intelligente des tâches et des problèmes](#smart-assignments-criteria-for-tasks-and-issues) dans cet article.
 
-Les affectations identifiées dans cette phase sont répertoriées dans la section **Résultats** du champ Affectations . <!--update this to "Other assignments"-->
+Les affectations identifiées dans cette phase sont répertoriées dans la section **Autres affectations** section du champ Affectations pour les tâches. <!--update this to "Other assignments"-->
 
 ### Critères d’attribution intelligente des tâches et des problèmes
 
