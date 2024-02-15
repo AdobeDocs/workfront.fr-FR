@@ -4,9 +4,9 @@ description: Mises à jour de l’apparence pendant la période de publication d
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication du deuxième trimestre 2024.
 
 Pour obtenir la liste de toutes les modifications disponibles avec la version du deuxième trimestre 2024, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Mises à jour de l’apparence pour deux modèles d’email
+
+>[!NOTE]
+>
+>Version pour tous les clients : avec la version 24.2 (15 février 2024)
+
+Les modèles de courrier électronique permettant d’ajouter un approbateur à une ressource et un utilisateur à un panorama ont été mis à jour afin de mieux correspondre aux autres modèles de courrier électronique Adobe et d’améliorer la clarté et la convivialité.
 
 ## Nouvelles mises à jour de l’apparence pour les onglets dans la zone Forms personnalisée
 

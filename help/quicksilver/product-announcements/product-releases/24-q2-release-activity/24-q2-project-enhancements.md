@@ -4,9 +4,9 @@ description: Améliorations du projet au deuxième trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,26 @@ Cette page décrit toutes les améliorations de projet apportées à la version 
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 2024 du deuxième trimestre, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+
+## Affectations plus pertinentes ajoutées au workflow Nouvelle tâche
+
+>[!NOTE]
+>
+>Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.3 (mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+
+Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans les zones suivantes :
+
+* Boîte de dialogue Nouvelle tâche lors de l’ajout d’une tâche à un projet
+
+* Dans une liste de tâches de projet
+
+Pour plus d’informations, voir [Présentation des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## Affectations intelligentes plus pertinentes
 
 >[!NOTE]
 >
->Production pour une version rapide : avec la version 24.2 (février 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+>Aperçu de la version : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.3 (mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
 
 Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.
 

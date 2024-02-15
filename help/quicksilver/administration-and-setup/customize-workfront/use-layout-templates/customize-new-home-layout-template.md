@@ -7,9 +7,9 @@ description: Vous pouvez utiliser un modèle de mise en page pour configurer ce 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -91,11 +91,11 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
         <li>Mes tâches</li>
         <li>Mes problèmes</li>
       </ul>
-      <p>Une fois que vous avez sélectionné le widget que vous souhaitez modifier, les options disponibles s’affichent à droite. Actuellement, ces options sont : <b>Filtres</b> et <b>Groupes</b>. Vous pouvez :</p>
+      <p>Une fois que vous avez sélectionné le widget que vous souhaitez modifier, les options disponibles s’affichent à droite. Ces options incluent les suivantes : <b>Filtres</b>, <b>Colonnes</b>, et <b>Groupes</b>. Vous pouvez :</p>
       <ul>
-        <li><b>Sélectionnez les filtres ou groupes qui seront disponibles pour les utilisateurs :</b><p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les utilisateurs puissent utiliser. Les options non cochées ne s’affichent pas pour les utilisateurs.</li></p>
+        <li><b>Sélectionnez les filtres, colonnes ou groupes qui seront disponibles pour les utilisateurs :</b><p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les utilisateurs puissent utiliser. Les options non cochées ne s’affichent pas pour les utilisateurs.</li></p>
         <li><b>Définissez un filtre ou un groupe par défaut pour le widget :</b><p>Passez la souris sur une option pour afficher un bouton permettant de définir cette option comme option par défaut pour les utilisateurs. La valeur par défaut actuelle comporte un badge bleu par défaut à sa droite.</li></p>
-        <li><b>Ajoutez un filtre ou un groupe existant à la liste des options disponibles :</b><p>Cliquez sur le bouton représentant le signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres ou groupes existants peuvent être ajoutés de cette manière.</li></p>
+        <li><b>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles :</b><p>Cliquez sur le bouton représentant le signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</li></p>
       </ul>
       </td> 
      </tr>
