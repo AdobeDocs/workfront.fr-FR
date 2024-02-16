@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 description: Lorsque vous travaillez sur un formulaire personnalisé, vous pouvez créer un champ personnalisé et l’ajouter à un formulaire personnalisé. Vous pouvez également ajouter un champ personnalisé déjà ajouté à un autre formulaire personnalisé.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -165,6 +165,8 @@ Les étapes de cet article doivent être les suivantes :
    <p><strong>Exemple :</strong> Si vous enregistrez une valeur numérique pour un champ au format Texte sur au moins un objet et que vous modifiez ensuite le format en Nombre ou Devise, aucune erreur ne se produira. </p>
       <p>Cependant, si vous enregistrez une valeur alphanumérique dans un champ au format Texte sur au moins un objet et que vous essayez ensuite de modifier le format en Nombre ou Devise, une erreur se produira car la valeur alphanumérique enregistrée n’est pas compatible avec les formats Nombre ou Devise. </p>
 
+   <p><strong>Remarque :</strong> La limite de caractères pour les champs Nombre est 16. Vous pouvez également utiliser un champ Texte pour saisir des nombres et éviter la limite.</p>
+
    </td> 
      </tr> 
      <tr> 
@@ -181,7 +183,7 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Type d'objet référencé</td> 
-      <td> <p>(Champ de saisie anticipée uniquement) Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur Appliquer ou sur Enregistrer+Fermer, vous ne pouvez pas modifier le type d’objet du champ.</p> <p><b>NOTE</b>:   
+      <td> <p>(Champ de saisie anticipée uniquement) Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur Appliquer ou sur Enregistrer+Fermer, vous ne pouvez pas modifier le type d’objet du champ.</p> <p><b>REMARQUE</b>:   
         <ul> 
          <li>Si votre administrateur Workfront a personnalisé le nom des Portfolios, programmes ou projets dans l’interface utilisateur de Workfront, le nom Workfront par défaut de l’objet s’affiche dans cette liste déroulante et non dans le nom personnalisé. Contactez votre administrateur Workfront si vous avez besoin d’aide.<br></li> 
          <li>Les types d’objets suivants sont pris en charge dans les applications mobiles iOS et Android Workfront : Utilisateur, Société, Groupe, Rôle de tâche, Portfolio, Programme, Projet et Modèle.</li> 
@@ -194,7 +196,7 @@ Les étapes de cet article doivent être les suivantes :
         <li>Ils appartiennent à un ou à des groupes que vous spécifiez.</li> 
         <li>Ils sont associés à un rôle ou à un titre de tâche que vous spécifiez.</li> 
         <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
-       </ul> <p>Vous devez définir le filtre correspondant au type d’objet sélectionné à l’aide de la syntaxe Mode texte . Pour plus d’informations sur la création d’un filtre à l’aide du mode Texte, voir la section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Mode d’édition de texte dans un filtre</a> dans l’article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Présentation du mode texte</a>. </p> <p><b>NOTE</b>:   
+       </ul> <p>Vous devez définir le filtre correspondant au type d’objet sélectionné à l’aide de la syntaxe Mode texte . Pour plus d’informations sur la création d’un filtre à l’aide du mode Texte, voir la section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Mode d’édition de texte dans un filtre</a> dans l’article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Présentation du mode texte</a>. </p> <p><b>REMARQUE</b>:   
         <ul> 
          <li>Si vous modifiez un formulaire personnalisé existant, l’ajout d’un filtre à un champ de type anticipée ne supprime aucun objet (hors portée du filtre) déjà ajouté par les utilisateurs à l’aide du champ.</li> 
          <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ Type , il apparaîtra sur les appareils mobiles des utilisateurs qui ne sont pas affectés par le filtre.</li> 

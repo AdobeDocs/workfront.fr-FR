@@ -9,7 +9,7 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Vous pouvez créer une connexion à votre [!DNL Workfront Proof] compte directem
                 <td>Saisissez le mot de passe de votre [!DNL Workfront Proof] compte .</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Nom du tenant]</td>
+                <td  role="rowheader">[!UICONTROL ID de tenant]</td>
                 <td><strong>Remarque</strong>: les clients qui n’utilisent pas BYOK doivent laisser ce champ vide. <p>Saisissez l’identifiant du client pour ce compte. Si vous avez besoin d’aide pour trouver votre ID de tenant, contactez le service clientèle de Workfront.</p></td>
             </tr>
             <tr>

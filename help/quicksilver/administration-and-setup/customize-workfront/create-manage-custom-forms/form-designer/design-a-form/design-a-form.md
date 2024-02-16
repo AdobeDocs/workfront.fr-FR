@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '5105'
+source-wordcount: '5171'
 ht-degree: 3%
 
 ---
@@ -200,6 +200,7 @@ Pour ajouter un champ de texte :
     <ul> 
     <li>Une fois le formulaire enregistré, ce champ ne peut plus être modifié. Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner le format Nombre ou Devise .</li> 
     <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li>
+    <li>La limite de caractères pour les champs Nombre est 16. Vous pouvez également utiliser un champ Texte pour saisir des nombres et éviter la limite.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
@@ -317,6 +318,7 @@ Pour ajouter des boutons radio et des cases à cocher :
      <ul> 
     <li>Une fois le formulaire enregistré, ce champ ne peut plus être modifié. Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner le format Nombre ou Devise .<br></li> 
     <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li>
+    <li>La limite de caractères pour les champs Nombre est 16. Vous pouvez également utiliser un champ Texte pour saisir des nombres et éviter la limite.</li>
      </ul></p></td> 
      <td><ul>
     <li>Cases d’option</li>
@@ -537,7 +539,9 @@ Pour ajouter une recherche externe :
       <td><p>Sélectionnez le type de données qui sera capturé dans le champ personnalisé.</p>
       <p><strong>REMARQUE :</strong></p>
       <ul><li>Vous pouvez modifier le type de format après l’enregistrement du formulaire, avec une limitation : toutes les valeurs existantes sur les objets doivent pouvoir être converties dans le nouveau type. (Par exemple, si le type de format est Texte et qu’un objet stocke la valeur "abc", vous ne pouvez pas convertir le champ et obtenez une erreur indiquant que le système ne peut pas convertir "abc" en nombre/devise.) Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner le format Nombre ou Devise .</li>
-      <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li></ul></td>
+      <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li>
+      <li>La limite de caractères pour les champs Nombre est 16. Vous pouvez également utiliser un champ Texte pour saisir des nombres et éviter la limite.</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">URL API de base</td> 
