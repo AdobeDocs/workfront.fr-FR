@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -678,7 +678,7 @@ ht-degree: 1%
          * [Gestion des clés d’API](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [Politique de confidentialité](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [Présentation de l’authentification améliorée](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * [Mise à jour des métadonnées SAML 2.0 dans votre IDP lors de l’utilisation de l’authentification améliorée](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+         * [Mise à jour des métadonnées SAML 2.0 dans votre IDP lors de l’utilisation de l’authentification améliorée](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * Taux de change {#exchange-rates}
          * [Taux de change](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [Configurer les taux de change](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1049,7 +1049,7 @@ ht-degree: 1%
          * [Aperçu de l’état d’achèvement de l’itération](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [Redimensionner et réduire le graphique de condensation](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [Synchronisation des données dans le graphique de ventilation](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-         * [Utilisation d’un autre planning d’équipe pour les graphiques de ventilation](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+         * [Utilisation d’un autre planning d’équipe pour les graphiques de ventilation](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
       * Itérations {#iterations}
          * [Itérations](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Présentation des itérations](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
@@ -1081,7 +1081,7 @@ ht-degree: 1%
 * Documents {#documents}
    * [Documents : index de l&#39;article](documents/documents-overview.md)
    * Ajouter de nouveaux documents à Adobe Workfront {#add-new-documents-to-workfront}
-      * [Ajouter de nouveaux documents à Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+      * [Ajouter de nouveaux documents à Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [Ajout de documents à Adobe Workfront à partir de votre système de fichiers](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [Liaison de documents à partir d’applications externes](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [Suppression des liens entre Adobe Workfront et les fournisseurs de stockage de documents externes](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
@@ -1113,7 +1113,7 @@ ht-degree: 1%
       * [Activation de la gestion des actifs numériques Adobe Workfront](documents/workfront-dam-within-workfront/enable-wf-dam.md)
       * [Gestion des documents avec la gestion des actifs numériques Adobe Workfront](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
       * [Types de rôle de licence Adobe Workfront par rapport aux types de rôle DAM Adobe Workfront](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Aide sur l’accès à la gestion des actifs numériques Adobe Workfront](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+      * [Aide sur l’accès à la gestion des actifs numériques Adobe Workfront](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Intégrations Workfront et Experience Manager Assets {#wf-aem-integrations}
       * [Intégrations Workfront et Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront pour le connecteur amélioré pour Experience Manager {#wf-aem-enhanced-connector}
@@ -1815,11 +1815,11 @@ ht-degree: 1%
          * [Présentation de l’état et de la progression du BAT](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Présentation des différences entre la visionneuse de test Web et la visionneuse de test de bureau](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Créer un bon à tirer {#create-proofs}
-         * [Créer un bon à tirer](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
+         * [Créer un bon à tirer](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Configuration des paramètres de vérification personnelle](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Création d’un BAT multi-page](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Créer un BAT interactif pour un site web ou tout autre contenu web](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-         * [Création d’un BAT pour le contenu interactif dans un fichier ZIP](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+         * [Création d’un BAT pour le contenu interactif dans un fichier ZIP](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
          * [Créer un BAT statique pour un site web ou tout autre contenu web](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
          * [Création d’un BAT pour un document](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [Créer un BAT avancé avec un workflow de base](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -2091,7 +2091,7 @@ ht-degree: 1%
       * [Connecter Adobe Workfront Fusion à un service Web qui utilise l’autorisation de jeton API](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
       * [Connexion d’Adobe Workfront Fusion aux services Google avec des mesures de sécurité mises à jour](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
       * [Connexion d’Adobe Workfront Fusion aux services Google à l’aide d’un client OAuth personnalisé](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-      * [Appelez l’API REST MS Graph via Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+      * [Appelez l’API REST MS Graph via Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
       * [Clés dans Adobe Workfront Fusion](workfront-fusion/connections/keys.md)
       * [Réception d’un webhook à partir d’un service Web](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
    * Erreurs dans Adobe Workfront Fusion {#errors-in-fusion}

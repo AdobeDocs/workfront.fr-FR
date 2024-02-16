@@ -6,9 +6,9 @@ description: Nous vous recommandons de consulter tout le contenu interactif à l
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ La visionneuse de test Web présente les limites suivantes :
 
    Pour plus d’informations, voir [A propos de la préparation de contenu interactif dans un fichier ZIP pour la vérification](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [BAT de contenu interactif - Aperçu](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-   Voir aussi [Création d’un BAT pour le contenu interactif dans un fichier ZIP](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+   Voir aussi [Création d’un BAT pour le contenu interactif dans un fichier ZIP](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 1. Cliquez sur **Ajouter un commentaire**.
 

@@ -6,7 +6,7 @@ description: Vous pouvez utiliser l’extension Workfront pour exporter du conte
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ Pour demander la validation d&#39;un document à une application d&#39;Adobe :
 
 ## Générer un BAT à partir d’Illustrator ou d’InDesign {#generate-a-proof-from-illustrator-or-indesign}
 
-Si votre entreprise utilise des modèles de processus automatisés, vous pouvez générer un BAT pour un document que vous créez dans une application Adobe sans quitter l’application. Pour plus d’informations sur la création de BAT, voir [Créer un bon à tirer](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). Pour plus d’informations sur les modèles de processus automatisés, voir [Modèles de workflow automatisés](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Présentation des processus automatisés](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Si votre entreprise utilise des modèles de processus automatisés, vous pouvez générer un BAT pour un document que vous créez dans une application Adobe sans quitter l’application. Pour plus d’informations sur la création de BAT, voir [Créer un bon à tirer](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Pour plus d’informations sur les modèles de processus automatisés, voir [Modèles de workflow automatisés](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Présentation des processus automatisés](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Ouvrez l’une des applications d’Adobe prises en charge.
 1. Si l’extension Workfront n’est pas affichée, cliquez sur **Fenêtre** > **Extensions** > Workfront.

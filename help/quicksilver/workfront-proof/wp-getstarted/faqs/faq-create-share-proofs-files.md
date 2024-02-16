@@ -8,10 +8,10 @@ description: Un BAT est un fichier statique, audio ou vidéo qui peut être cons
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 0%
+source-wordcount: '1369'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
 
-## Qu&#39;est-ce qu&#39;une preuve ?
+## Qu&#39;est-ce que la preuve ?
 
 ### Réponse
 
@@ -39,7 +39,7 @@ Les bons à tirer peuvent être créés à partir de fichiers statiques, audio e
 
 Lorsque vous transférez un fichier vers [!DNL Workfront Proof], le système stocke le fichier dans votre [!DNL Workfront Proof] compte . Lorsque vous le partagez, [!DNL Workfront Proof] Envoie à vos destinataires un lien sur lequel ils peuvent cliquer pour télécharger le fichier. Vous pouvez partager n’importe quel type de fichier.
 
-Lorsque vous créez un BAT à partir d’un fichier dans lequel vous avez transféré [!DNL Workfront Proof], vous pouvez rendre le fichier disponible pour révision dans la visionneuse de vérification. Les validants reçoivent un email avec un lien vers le BAT. Lorsqu&#39;ils ouvrent le BAT, ils voient l&#39;image du BAT et peuvent y ajouter des commentaires et prendre des décisions. Vous pouvez créer des BAT à l’aide de fichiers de la liste des types de fichiers pris en charge. Vous pouvez également créer des BAT à l’aide d’URL pour les sites web et d’autres contenus web.
+Lorsque vous créez un BAT à partir d’un fichier dans lequel vous avez transféré [!DNL Workfront Proof], vous pouvez rendre le fichier disponible pour révision dans la visionneuse de vérification. Les validants reçoivent un email avec un lien vers le BAT. Lorsqu&#39;ils ouvrent le BAT, ils voient l&#39;image du BAT et peuvent y ajouter des commentaires et prendre des décisions. Vous pouvez créer des BAT à l’aide de fichiers à partir de la liste des types de fichiers pris en charge. Vous pouvez également créer des BAT à l’aide d’URL pour les sites web et d’autres contenus web.
 
 Pour obtenir la liste complète des types de fichiers pris en charge, voir [Types et limites de taille de fichier de vérification pris en charge - Aperçu](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
 
@@ -73,7 +73,7 @@ La combinaison de plusieurs fichiers en un seul BAT est une fonctionnalité disp
 
 Oui, vous pouvez créer des BAT à partir de sites web et d’autres contenus web. Lorsque vous ajoutez une URL pour créer un BAT, vous pouvez indiquer si vous souhaitez un BAT statique ou interactif :
 
-* Dans un BAT interactif, les réviseurs peuvent naviguer et interagir comme ils le feraient habituellement avec le site web ou tout autre contenu web, comme les publicités avec diffusion vidéo ou audio en continu, [!DNL Flash] éléments dans une publicité, des animations de HTML et des bannières interactives. Pour plus d’informations, voir [Création d’un BAT pour le contenu interactif dans un fichier ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+* Dans un BAT interactif, les réviseurs peuvent naviguer et interagir comme ils le feraient habituellement avec le site web ou tout autre contenu web, comme les publicités avec diffusion vidéo ou audio en continu, [!DNL Flash] éléments dans une publicité, des animations de HTML et des bannières interactives. Pour plus d’informations, voir [Création d’un BAT pour le contenu interactif dans un fichier ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 * Pour un BAT statique, [!DNL Workfront] prend une série de captures d’écran des pages et des sous-pages que vous spécifiez. Les liens hypertexte sont en direct dans le BAT, de sorte que vous pouvez tester s’ils mènent ou non à la destination correcte. Pour plus d’informations, voir [Créer un BAT statique pour un site web ou tout autre contenu web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md).
 
 Vous pouvez ajouter plusieurs URL à la fois si vous les séparez par un espace. Notez que la combinaison n’est disponible que sur [!UICONTROL Entreprise] et [!UICONTROL Illimitées] plans d’édition.
@@ -94,7 +94,7 @@ Le partage d&#39;un BAT permet aux opérateurs validants d&#39;y accéder afin d
 
 ### Réponse
 
-Lorsque vous créez un BAT, vous pouvez ajouter des réviseurs dans le [!UICONTROL Workflow] de la section [!UICONTROL Nouvelle preuve] page. Lorsque le BAT est prêt, [!DNL Workfront Proof] envoie un email aux opérateurs validants contenant un lien vers le BAT.
+Lorsque vous créez un BAT, vous pouvez ajouter des réviseurs dans le [!UICONTROL Workflow] de la [!UICONTROL Nouvelle preuve] page. Lorsque le BAT est prêt, [!DNL Workfront Proof] envoie un email aux opérateurs validants contenant un lien vers le BAT.
 
 Si vous disposez de droits suffisants sur un BAT, vous pouvez utiliser la visionneuse de vérification, votre [!UICONTROL Tableau de bord], ou l’un des affichages de liste pour ajouter des réviseurs à un BAT existant (voir [Partage d’un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) and [Manage Items on the [!UICONTROL Views] Page dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
@@ -121,7 +121,7 @@ Si votre entreprise requiert des réviseurs qu’ils signent des bons à tirer p
 
 ### Réponse
 
-Vous pouvez définir une date limite pour un nouveau BAT ou une nouvelle version du BAT lors de la création du BAT. Vous procédez comme suit dans la variable [!UICONTROL Workflow] de la section [!UICONTROL Nouvelle preuve] page. Si vous utilisez [!UICONTROL Processus automatisé], vous pouvez définir une date limite différente pour chaque étape de votre révision.
+Vous pouvez définir une date limite pour un nouveau BAT ou une nouvelle version du BAT lors de la création du BAT. Vous procédez comme suit dans la variable [!UICONTROL Workflow] de la [!UICONTROL Nouvelle preuve] page. Si vous utilisez [!UICONTROL Processus automatisé], vous pouvez définir une date limite différente pour chaque étape de votre révision.
 
 Vous pouvez également définir ou mettre à jour une date limite pour un BAT existant à l’aide de la fonction [!UICONTROL Détails du BAT] page. Pour plus d’informations, voir [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
@@ -135,11 +135,11 @@ Vous devez partager chaque version avec les réviseurs spécifiques qui doivent 
 
 Pour plus d’informations, voir .
 
-## Puis-je partager des fichiers à l’aide de [!DNL Workfront Proof]?
+## Puis-je partager des fichiers en utilisant [!DNL Workfront Proof]?
 
 ### Réponse
 
-Oui. Si vous souhaitez partager quelque chose avec d’autres personnes, mais que vous n’avez pas besoin d’eux pour le voir comme un bon à tirer (ou s’il s’agit d’un type de fichier non pris en charge par [!DNL Workfront Proof]), vous pouvez le charger en tant que fichier dans votre [!DNL Workfront Proof] compte . Comme pour les bons à tirer, vous pouvez organiser vos fichiers en dossiers, baliser les fichiers et ajouter un message personnalisé à l’e-mail de notification lorsque vous partagez le fichier. Pour plus d’informations, voir [Transfert de fichiers et de contenu web vers [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+Oui. Si vous souhaitez partager quelque chose avec d’autres personnes, mais que vous n’avez pas besoin d’eux pour le voir comme un bon à tirer (ou s’il s’agit d’un type de fichier non pris en charge par [!DNL Workfront Proof]), vous pouvez le charger sous la forme d’un fichier dans votre [!DNL Workfront Proof] compte . Comme pour les bons à tirer, vous pouvez organiser vos fichiers en dossiers, baliser les fichiers et ajouter un message personnalisé à l’e-mail de notification lorsque vous partagez le fichier. Pour plus d’informations, voir [Transfert de fichiers et de contenu web vers [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
 Lorsque vos destinataires reçoivent la notification par e-mail d’un fichier que vous partagez, ils peuvent télécharger le fichier en cliquant sur le lien contenu dans la notification.
 

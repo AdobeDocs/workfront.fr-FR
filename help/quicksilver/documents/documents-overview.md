@@ -8,7 +8,7 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
-source-git-commit: 0e6ffd54fdbe968d48d27dc7e0a5501579f50f8d
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Cette section contient les sous-sections suivantes :
 
-* [Ajouter de nouveaux documents à Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+* [Ajouter de nouveaux documents à Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
 * [Gestion des documents](../documents/managing-documents/manage-documents.md)
 * [Organisation des documents](../documents/organizing-documents/organize-documents.md)
 * [Gestion des actifs numériques Adobe Workfront dans Adobe Workfront](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)

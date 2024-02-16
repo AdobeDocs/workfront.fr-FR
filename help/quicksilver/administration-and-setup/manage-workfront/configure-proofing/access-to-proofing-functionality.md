@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Il existe actuellement trois options de plan pour la vérification dans Workfron
 
 Pour plus d’informations sur l’octroi et la révocation de l’accès d’un utilisateur à la création et à l’affichage de BAT dans Workfront, voir [Configuration de l’accès de vérification de l’utilisateur](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* Générer des BAT statiques ou interactifs sur des URL et des documents externes. Pour plus d’informations, voir [Créer un bon à tirer](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* Générer des BAT statiques ou interactifs sur des URL et des documents externes. Pour plus d’informations, voir [Créer un bon à tirer](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * Inclure les workflows automatisés sur les bons à tirer. Pour plus d’informations, voir [Présentation des processus automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * Définissez les paramètres d’accès et d’abonnement sur les bons à tirer. Pour plus d’informations, voir [Configurer les paramètres d&#39;accès et d&#39;abonnement pour un BAT](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * Attribuez des profils d’autorisation de BAT personnalisés lors de l’activation des fonctionnalités de vérification pour un utilisateur dans Workfront. Pour plus d’informations, voir [Activation et désactivation de la vérification pour un utilisateur (plans hérités uniquement)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in [Configuration de l’accès de vérification de l’utilisateur](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
