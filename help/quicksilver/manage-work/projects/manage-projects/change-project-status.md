@@ -2,51 +2,30 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Modification de l’état d’un projet
-description: Vous pouvez modifier manuellement l’état d’un projet.
+description: Si nécessaire, vous pouvez mettre à jour manuellement l’état d’un projet vers un autre état. Vous pouvez mettre à jour manuellement l’état d’un projet avec l’état Terminé uniquement lorsque le mode d’exécution du projet est défini sur Manuel.
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # Modification de l’état d’un projet
 
-Vous pouvez modifier manuellement l’état d’un projet.
+<!--Audited: 02/2024-->
+
+Si nécessaire, vous pouvez mettre à jour manuellement l’état d’un projet vers un autre état.
+
+Vous pouvez mettre à jour manuellement l’état d’un projet avec l’état Terminé uniquement lorsque le mode d’exécution du projet est défini sur Manuel.
+
+Dans le cas contraire, Adobe Workfront marque automatiquement le projet comme terminé lorsque toutes les tâches et tous les problèmes du projet sont terminés et approuvés.
+
+Pour plus d’informations sur le mode d’achèvement du projet, voir [Modification de projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 ## Exigences d’accès
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -55,25 +34,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nouveau : Standard </p> 
+   Ou
+   <p>Actuel : formule </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p><b>REMARQUE</b> Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Modifier l’accès aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations sur le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gestion des autorisations sur le projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considérations relatives à la mise à jour vers des états spécifiques
 
@@ -91,4 +73,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Cliquez sur le bouton **Plus** menu ![](assets/qs-more-menu.png) en regard du nom du projet, puis cliquez sur **Modifier** et sélectionnez un nouvel état dans le **État** , puis cliquez sur **Enregistrer**.
 
-   L’état du projet est mis à jour vers celui que vous avez sélectionné.
+   L’état du projet est mis à jour par rapport à l’état que vous avez sélectionné.
