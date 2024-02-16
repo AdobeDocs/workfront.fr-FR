@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>:</p> 
-   <p> Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Vous devez être un administrateur Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Limites
 
@@ -129,9 +130,9 @@ Pour exporter un modèle de démarrage rapide :
       <td> <p>Type d’heure</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
-      <td> <p>Équipe</p> </td> 
+      <td> <p>Equipe</p> </td> 
       <td scope="col"> <p>Exporte sous forme de fichier Excel</p> </td> 
-      <td> <p> Membre d'équipe</p> <p>Équipe</p> <p>Préférences </p> </td> 
+      <td> <p> Membre d'équipe</p> <p>Equipe</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
       <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
@@ -200,27 +201,9 @@ Pour exporter un modèle de démarrage rapide :
      </tr>
 
    <tr> 
-      <td>Ancien pool de ressources</td> 
-      <td>Exporte sous forme de fichier Excel</td> 
-      <td> <p> Ancien pool de ressources</p> <p>Préférences </p> </td> 
-     </tr>
-
-   <tr> 
       <td>Chemin jalonné</td> 
       <td> Exporte sous forme de fichier Excel</td> 
       <td> <p> Jalon</p> <p>Chemin jalonné</p> <p>Préférences </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>Ressource non ouvrière</td> 
-      <td> Exporte sous forme de fichier Excel</td> 
-      <td> <p> Ressource non ouvrière</p> <p>Préférences</p></td> 
-     </tr>
-
-   <tr> 
-      <td>Catégorie des ressources autres que le travail</td> 
-      <td> Exporte sous forme de fichier Excel</td> 
-      <td> <p> Catégorie des ressources autres que le travail</p> <p>Préférences</p></td> 
      </tr>
 
    <tr> 
@@ -485,17 +468,17 @@ L’importation de démarrage rapide prend en charge les types de fichiers suiva
   >* Rapports
   >* Documents
   >* Avatars
-  >* Afficher, filtrer ou regrouper des fichiers de propriétés.
+  >* Affichage, filtrage ou regroupement de fichiers de propriétés
   >
   >Lors de l’utilisation d’un fichier d’importation compressé, le fichier .ZIP doit porter le même nom que le fichier .xlsx ou .xls, et tous les fichiers doivent être au même niveau de structure (pas de dossiers).
 
 Pour importer les données de feuille de calcul du modèle dans Workfront :
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. Cliquez sur **Système** >**Importer des données (démarrage)**.
+{{step-1-to-setup}}
+
+1. Cliquez sur **Système** > **Importer des données (démarrage)**.
 
 1. Dans le **Chargement de données avec la feuille de calcul Démarrage rapide** , cliquez sur **Choisir un fichier**, puis sélectionnez la feuille de calcul renseignée.
 
