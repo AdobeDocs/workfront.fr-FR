@@ -6,7 +6,7 @@ description: Navigation dans un portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * **[!UICONTROL Tous]**: inclut tous les portefeuilles pour lesquels vous avez au moins accès à la vue.\
 
      Pour plus d’informations sur l’accès aux Portfolios, voir [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      Pour plus d’informations sur les autorisations d’accès à Portfolio, voir  [Partage d’un portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+      Pour plus d’informations sur les autorisations d’accès à Portfolio, voir  [Partage d’un portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Pour ajouter de nouveaux portefeuilles, voir [Création d’un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 

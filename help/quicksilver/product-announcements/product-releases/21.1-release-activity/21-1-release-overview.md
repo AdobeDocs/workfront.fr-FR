@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 0%
@@ -365,7 +365,7 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées lors
 
 Afin d’améliorer la diffusion des emails, nous ajoutons de nouvelles adresses IP avec la version de production 21.1 pour les grappes 1, 2, 3, 4 et 5.
 
-Pour plus d’informations sur les adresses IP que vous devez ajouter à votre grappe, voir [Nouvelles adresses IP pour les emails Adobe Workfront avec la version 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md).
+Pour plus d’informations sur les adresses IP que vous devez ajouter à votre grappe, voir [Nouvelles adresses IP pour les emails Adobe Workfront avec la version 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 Pour savoir sur quelle grappe se trouve l’instance, accédez à Configuration > Système > Informations client.
 

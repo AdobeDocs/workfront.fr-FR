@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Pour plus d’informations, voir la section [Affichage de la grappe et du plan W
 >
 >Certaines intégrations Workfront ne fonctionnent pas lorsque la liste autorisée est activée, car elles ne peuvent pas être configurées avec une adresse IP statique. Pour utiliser les intégrations suivantes, vous devez désactiver la liste autorisée.
 >
->* Workfront for G Suite
+>* Workfront pour G Suite
 >* Workfront pour Outlook
 >* Workfront pour Salesforce
 
@@ -124,7 +124,7 @@ Si votre environnement de production se trouve sur les clusters 1, 2, 3, 5 ou 7,
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>Pour plus d’informations sur les adresses IP suivantes, voir <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">Nouvelles adresses IP pour les emails Adobe Workfront avec la version 21.1</a></p> 
+    </ul> <p>Pour plus d’informations sur les adresses IP suivantes, voir <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nouvelles adresses IP pour les emails Adobe Workfront avec la version 21.1</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -158,7 +158,7 @@ Si votre environnement de production se trouve sur la grappe 4, ajoutez les adre
 * 54.220.93.204
 * 34.254.76.122
 
-Pour plus d’informations sur les adresses IP suivantes, voir [Nouvelles adresses IP pour les emails Adobe Workfront avec la version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
+Pour plus d’informations sur les adresses IP suivantes, voir [Nouvelles adresses IP pour les emails Adobe Workfront avec la version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23.251.239.98
 * 23.251.239.99

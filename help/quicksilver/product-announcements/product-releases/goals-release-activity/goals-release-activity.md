@@ -7,9 +7,9 @@ description: Grâce aux objectifs d’Adobe Workfront, vous pouvez aligner votre
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 1740c91f-b01e-4e97-987a-d1b810d0c0a4
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Pour plus d’informations sur les objectifs de Workfront, voir [Présentation d
 
 Les versions suivantes ont été mises à disposition pour les objectifs de Workfront :
 
-* [Objectifs d’Adobe Workfront avec la version 21.2](../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
-* [Objectifs d’Adobe Workfront avec la version 21.1](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
+* [Objectifs Adobe Workfront avec la version 21.2](../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
+* [Objectifs Adobe Workfront avec la version 21.1](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
 * [Objectifs de Workfront avec la version 20.4](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
-* [Objectifs de Workfront avec la version 20.3 - 14 août 2020](../../../product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
+* [Objectifs de Workfront avec la version 20.3 - 14 août 2020](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)

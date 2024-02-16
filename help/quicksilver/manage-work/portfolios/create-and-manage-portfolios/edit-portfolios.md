@@ -6,10 +6,10 @@ description: Vous pouvez modifier des informations sur les portefeuilles que vou
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] Présentation des licences*</td> 
@@ -41,7 +41,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Gérer] pour un portfolio</p> <p> Pour plus d’informations sur l’octroi d’autorisations à des portefeuilles, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md" class="MCXref xref">Partage d’un portfolio </a>. </p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Gérer] pour un portfolio</p> <p> Pour plus d’informations sur l’octroi d’autorisations à des portefeuilles, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">Partage d’un portfolio </a>. </p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
    >[!NOTE]
    >
-   >Selon la manière dont votre [!DNL Workfront] L’administrateur ou l’administrateur de groupe a modifié votre modèle de mise en page, les champs du [!UICONTROL Détails du Portfolio] peut être réorganisée ou ne pas s’afficher. Pour plus d’informations, voir [Personnalisez le [!UICONTROL Détails] affichage à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre [!DNL Workfront] L’administrateur ou l’administrateur de groupe a modifié votre modèle de mise en page, les champs du [!UICONTROL Détails du Portfolio] peut être réorganisée ou non. Pour plus d’informations, voir [Personnalisez le [!UICONTROL Détails] affichage à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Pour modifier les informations dans le [!UICONTROL Détails] , procédez comme suit :
 
@@ -83,7 +83,6 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
       Pour plus d’informations, voir [Exportation de formulaires personnalisés et de détails d’objet](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
-
 1. Pour modifier toutes les informations sur un ou plusieurs portefeuilles, effectuez l’une des opérations suivantes :
 
    <!--
@@ -92,16 +91,16 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
    * Cliquez sur le bouton **[!UICONTROL Plus]** en regard du nom du portfolio, puis **[!UICONTROL Modifier].**
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
    * Dans la liste des portefeuilles, sélectionnez un ou plusieurs portefeuilles à modifier, puis cliquez sur le bouton **[!UICONTROL Modifier]** icon ![](assets/edit-icon.png) en haut de la liste.
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
-   Le **[!UICONTROL Modifier le Portfolio]** s’affiche.
+   La variable **[!UICONTROL Modifier le Portfolio]** s’affiche.
 
    ![](assets/edit-portfolio-box-classic-350x224.png)
 
@@ -109,11 +108,11 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 1. Pensez à spécifier des informations dans l’une des sections suivantes :
 
-   * [[!UICONTROL Vue d’ensemble]](#overview)
+   * [[!UICONTROL Présentation]](#overview)
    * [Formulaires personnalisés](#Custom%C2%A0F)
    * [Commentaire](#comment)
 
-### [!UICONTROL Vue d’ensemble] {#overview}
+### [!UICONTROL Présentation] {#overview}
 
 1. Commencez à modifier un portfolio comme décrit ci-dessus.
 1. Cliquez sur **[!UICONTROL Présentation]** et indiquez les champs suivants :
@@ -143,7 +142,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>Commencez à saisir le nom d’un utilisateur que vous souhaitez indiquer en tant que gestionnaire de portefeuille, puis sélectionnez-le lorsqu’il apparaît dans la liste. Il s’agit du même nom que le [!UICONTROL propriétaire du Portfolio]. Il s’agit de la personne qui peut superviser le travail défini dans les projets du portfolio et approuver l’Analyse de cas.</p> <p>Important : Lorsque vous désignez une personne comme gestionnaire de Portfolios, elle obtient automatiquement les autorisations [!UICONTROL Gérer] pour le portefeuille, les programmes et les projets du portefeuille. </p> <p>Conseil : Vous pouvez rapidement mettre à jour le gestionnaire de portefeuille dans l’en-tête de portefeuille. </p> </td> 
+      <td> <p>Commencez à saisir le nom d’un utilisateur que vous souhaitez indiquer en tant que gestionnaire de portefeuille, puis sélectionnez-le lorsqu’il apparaît dans la liste. Il s’agit du même nom que le [!UICONTROL propriétaire du Portfolio]. Il s’agit de la personne qui peut superviser le travail défini dans les projets du portfolio et approuver l’Analyse de cas.</p> <p>Important : Lorsque vous désigner une personne comme gestionnaire de Portfolios, elle obtient automatiquement les autorisations [!UICONTROL Gérer] pour le portefeuille, les programmes et les projets du portefeuille. </p> <p>Conseil : Vous pouvez rapidement mettre à jour le gestionnaire de portefeuille dans l’en-tête de portefeuille. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
@@ -154,8 +153,8 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
       <td> <p>Sélectionnez la fiche d’évaluation de l’alignement que vous souhaitez utiliser dans la liste déroulante. Une fiche d'évaluation permet de mesurer dans quelle mesure un projet s'aligne sur les critères établis d'un Portfolio et reflète souvent la mission, les valeurs et les objectifs stratégiques d'une organisation. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Application d’une fiche d’évaluation à un projet et génération d’une note d’alignement</a> et <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Création d’une Fiche d’évaluation</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Est Principal]</td> 
-      <td> <p> Cochez cette case si vous souhaitez que le portfolio soit principal. D’autres utilisateurs peuvent trouver des portfolios principaux et les joindre à des projets lors de la création ou de la modification de projets. Les portefeuilles inactifs ne peuvent pas être joints aux projets. Cette option est activée par défaut.</p> </td> 
+      <td role="rowheader">[!UICONTROL Est Actif]</td> 
+      <td> <p> Cochez cette case si vous souhaitez que le portfolio soit actif. D’autres utilisateurs peuvent trouver des portefeuilles actifs et les joindre à des projets lors de la création ou de la modification de projets. Les portefeuilles inactifs ne peuvent pas être joints aux projets. Cette option est activée par défaut.</p> </td> 
      </tr> 
     </tbody> 
    </table>

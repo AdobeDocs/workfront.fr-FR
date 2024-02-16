@@ -6,7 +6,7 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Vous pouvez partager les objets suivants dans Workfront avec d’autres utilisat
 
 * **Modèles**: pour plus d’informations, voir [Partage de modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolios**: pour plus d’informations, voir [Partage d’un portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfolios**: pour plus d’informations, voir [Partage d’un portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **Programmes**: pour plus d’informations, voir [Partager un programme](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 

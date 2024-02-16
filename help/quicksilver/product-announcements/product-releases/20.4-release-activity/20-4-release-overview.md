@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3694'
 ht-degree: 0%
@@ -290,7 +290,7 @@ Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront
 
 ## Améliorations du planificateur de scénario Workfront
 
-La plupart des nouvelles fonctionnalités sont disponibles dans la version 20.4 de Workfront Scenario Planner. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Planificateur de scénario Workfront avec la version 20.4 - 14 octobre 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md).
+La plupart des nouvelles fonctionnalités sont disponibles dans la version 20.4 de Workfront Scenario Planner. Pour plus d’informations sur ces nouvelles fonctionnalités désormais disponibles dans l’aperçu, voir [Planificateur de scénario Workfront avec la version 20.4 - 14 octobre 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md).
 
 ## Améliorations des objectifs de Workfront
 

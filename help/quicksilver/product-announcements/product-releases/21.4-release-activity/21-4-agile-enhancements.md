@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à la version 21.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 4 octobre 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, voir [Présentation de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, voir [Présentation de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Affectations d’utilisateurs sur les panoramas Kanban et Scrum
 
@@ -52,9 +52,9 @@ Voici les modifications qui sont annulées concernant l’affichage agile sur le
 * Les cartes ne comportent pas de libellés d’identifiant (article parent, sous-tâche, article, tâche ou problème).
 * La colonne Article parent a été renommée Articles.
 
-## Ajout de nouvelles histoires et de nouveaux problèmes sur le forum Kanban
+## Ajout de nouvelles histoires et de nouveaux problèmes sur le forum de Kanban
 
 Vous pouvez maintenant créer un article ou un problème directement à partir du panorama de Kanban. Cela facilite l’ajout rapide d’un nouvel article sans avoir à accéder à un projet, un rapport ou un tableau de bord pour créer une tâche.
 
-Pour plus d’informations, voir [Ajout d’articles et de problèmes sur le panorama de Kanban](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+Pour plus d’informations, voir [Ajout d’articles et de problèmes sur le forum Kanban](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
 
