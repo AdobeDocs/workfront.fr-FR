@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2313'
 ht-degree: 2%
 
 ---
 
 # Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
+
+<!-- Audited: 02/2024 -->
 
 Lorsque vous travaillez sur un formulaire personnalisé, vous pouvez créer un champ personnalisé et l’ajouter à un formulaire personnalisé.
 
@@ -36,30 +38,33 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
    <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   <p>ou</p>
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td>Accès administratif aux formulaires personnalisés </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Ajouter un champ personnalisé à un formulaire personnalisé
+## Ajouter un champ personnalisé à un formulaire personnalisé {#add-custom-field-to-custom-form}
 
 1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans la section [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Ouvrez le **Ajouter un champ** .
+1. Sélectionnez la variable **Ajouter un champ** .
 
-   ![](assets/add-a-field.jpg)
+   ![Ajouter un onglet de champ](assets/add-a-field.jpg)
 
-1. Avec **Nouveau champ** ![](assets/new-field.jpg) sélectionné, sélectionnez l’un des types de champs répertoriés ci-dessous :
+1. Avec **Nouveau champ** ![Icône Nouveau champ](assets/new-field.jpg) sélectionné, sélectionnez l’un des types de champ suivants :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +82,7 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Champ de texte avec formatage</td> 
-      <td>Permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre le texte en gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets. Cette option est disponible dans la section Accueil, la zone Mises à jour, les listes et la zone Détails des objets Workfront. Une limite de caractères de 15 000 permet d’utiliser beaucoup de texte et de formatage.</p> <p>Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Stockage de champs de texte enrichi dans l’API</a>.</p> <p><b>REMARQUE</b>: les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront (disponibles dans les prochaines versions). </p> </td> 
+      <td>Permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre le texte en gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets. Cette option est disponible dans la section Accueil, la zone Mises à jour, les listes et la zone Détails des objets Workfront. Une limite de caractères de 15 000 permet d’utiliser beaucoup de texte et de formatage.</p> <p>Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Stockage de champs de texte enrichi dans l’API</a>.</p> <p><b>REMARQUE</b>: les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Menu déroulant</td> 
@@ -150,7 +155,7 @@ Les étapes de cet article doivent être les suivantes :
       <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé où il peut maintenant être référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à moins de le rajouter au rapport en utilisant le nouveau nom.</p> </li>
       <li> <p>Nous vous recommandons de ne pas saisir de nom déjà utilisé pour les champs Workfront intégrés.</p> </li>
       <li><p>Il est recommandé de ne pas utiliser le caractère point/point dans le nom du champ personnalisé afin d’éviter toute erreur lors de l’utilisation du champ dans différentes zones de Workfront.</p></li>
-      </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un formulaire déjà créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
+      </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un formulaire déjà créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#add-a-custom-field-to-a-custom-form">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
@@ -196,7 +201,8 @@ Les étapes de cet article doivent être les suivantes :
         <li>Ils appartiennent à un ou à des groupes que vous spécifiez.</li> 
         <li>Ils sont associés à un rôle ou à un titre de tâche que vous spécifiez.</li> 
         <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
-       </ul> <p>Vous devez définir le filtre correspondant au type d’objet sélectionné à l’aide de la syntaxe Mode texte . Pour plus d’informations sur la création d’un filtre à l’aide du mode Texte, voir la section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Mode d’édition de texte dans un filtre</a> dans l’article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Présentation du mode texte</a>. </p> <p><b>REMARQUE</b>:   
+       </ul> <p>Vous devez définir le filtre correspondant au type d’objet sélectionné à l’aide de la syntaxe Mode texte . Pour plus d’informations sur la création d’un filtre à l’aide du mode Texte, voir <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p>
+       <p><b>REMARQUE</b>:   
         <ul> 
          <li>Si vous modifiez un formulaire personnalisé existant, l’ajout d’un filtre à un champ de type anticipée ne supprime aucun objet (hors portée du filtre) déjà ajouté par les utilisateurs à l’aide du champ.</li> 
          <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ Type , il apparaîtra sur les appareils mobiles des utilisateurs qui ne sont pas affectés par le filtre.</li> 
@@ -220,15 +226,15 @@ Les étapes de cet article doivent être les suivantes :
       <p><b>REMARQUE</b>: cette option n’est pas disponible pour les éléments suivants :</p> 
       <ul> 
       <li>Formulaires personnalisés associés aux types d’objets suivants : Frais, Société, Itération, Enregistrement de facturation et Groupe.</li> 
-      <li>Types de champ suivants : Calculé , Texte descriptif et Saut de section</li> 
+      <li>Types de champ suivants : Calcul, Texte descriptif et Saut de section</li> 
       </ul>
       <p><b>IMPORTANT</b>: la sélection ou la désélection d’un type d’objet ici affecte tous les formulaires personnalisés associés au type d’objet sélectionné et contenant ce champ. Par exemple, si vous désélectionnez ici un type d’objet et enregistrez le formulaire personnalisé, les modifications de valeur du champ ne sont plus suivies pour ce type d’objet dans un formulaire personnalisé qui contient le champ.</p>
        <p>Après avoir sélectionné ici un type d’objet pour un champ et enregistré le formulaire personnalisé, le champ s’affiche dans l’onglet Champs personnalisés de la zone Mettre à jour les flux dans Configuration.</p> 
        <p>Inversement, si ce champ est supprimé dans la zone Mettre à jour les flux de la configuration, le type d’objet de ce paramètre est désélectionné sur tous les formulaires personnalisés associés au type d’objet et contenant ce champ.</p> 
-       <p>Pour plus d’informations, voir la section <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Ajout de champs dont Workfront doit effectuer le suivi</a> dans l’article <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Configuration des mises à jour du système</a>.</p> </td> 
+       <p>Pour plus d’informations, voir la section <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Ajout de champs dont Workfront doit effectuer le suivi</a> dans l’article <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Configuration des mises à jour du système</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Ajouter une logique</td> 
+      <td role="rowheader">Ajouter une logique</td>
       <td>Indiquez les champs qui doivent apparaître dans le formulaire en fonction des sélections effectuées par les utilisateurs dans les champs existants. Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Ajouter une logique d’affichage et ignorer une logique dans un formulaire personnalisé</a>.</td> 
      </tr> 
      <tr> 
@@ -269,11 +275,11 @@ Les étapes de cet article doivent être les suivantes :
    >* Si vous choisissez Boutons radio, Workfront conserve toutes les valeurs à sélection multiple qu’un utilisateur peut avoir saisies dans le champ jusqu’à ce que l’utilisateur modifie et enregistre les données dans n’importe quelle partie du formulaire. À ce stade, toutes les valeurs qui ont été sélectionnées à l’aide du champ de type à sélection multiple sont remplacées par la valeur de bouton radio sélectionnée.
    >* Si vous choisissez une liste déroulante à sélection unique, Workfront conserve toutes les valeurs à sélection multiple qu’un utilisateur peut avoir saisies dans le champ jusqu’à ce que l’utilisateur modifie et enregistre les valeurs dans le champ. À ce stade, toutes les valeurs qui ont été sélectionnées à l’aide du champ de type à sélection multiple sont remplacées par la valeur de liste déroulante sélectionnée.
 
-1. (Facultatif) Répétez les étapes 2 à 6 pour ajouter d’autres champs personnalisés.
+1. (Facultatif) Répétez les étapes 3 à 5 pour ajouter d’autres champs personnalisés.
 
    Ou
 
-   Ajoutez des champs déjà créés pour votre organisation, en suivant la procédure décrite à la section [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
+   Ajoutez des champs déjà créés pour votre organisation, en suivant la procédure décrite à la section [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >

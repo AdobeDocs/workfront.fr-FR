@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '13946'
+source-wordcount: '13950'
 ht-degree: 1%
 
 ---
@@ -566,7 +566,7 @@ ht-degree: 1%
                * [Utilisation de l’ancien créateur de formulaires personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
                * [Création ou modification d’un formulaire personnalisé avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
                * [Copier un formulaire personnalisé pour en créer un nouveau avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-               * [Ajouter un champ personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+               * [Ajout d’un champ personnalisé avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
                * [Ajout d’une image ou d’un autre widget de ressource à un formulaire personnalisé avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
                * [Ajout d’un saut de section avec le créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
                * [Ajout de données calculées à l’aide du créateur hérité](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
