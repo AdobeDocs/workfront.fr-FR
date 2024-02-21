@@ -7,9 +7,9 @@ description: Lorsque vous planifiez la stratégie à long terme de votre entrepr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 296de69a1c444659c60bcf767bdacdd9e6e36830
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '966'
 ht-degree: 1%
 
 ---
@@ -63,11 +63,11 @@ Un scénario est une copie d’un plan. Vous pouvez créer autant de scénarios 
 
    Le premier plan que vous créez est automatiquement enregistré comme &quot;&quot;[!UICONTROL Scénario initial].&quot;
 
-1. Cliquez sur la flèche pointant vers le bas en regard d’un scénario existant, puis cliquez sur le bouton **[!UICONTROL Copier]** icône .
+1. Cliquez sur la flèche pointant vers le bas en regard d’un scénario existant, puis cliquez sur le bouton **[!UICONTROL Copier]** Icône
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   Un nouveau scénario est ainsi créé avec les mêmes informations que le scénario copié. Il est automatiquement nommé &quot;[!UICONTROL Scénario 2]&quot; si c&#39;est le deuxième scénario de votre plan, &quot;[!UICONTROL Scénario 3]&quot; s’il s’agit du troisième, etc. Vous ne pouvez pas renommer vos scénarios.
+   Un nouveau scénario est ainsi créé avec les mêmes informations que le scénario copié. Il est automatiquement nommé &quot;[!UICONTROL Scénario 2]&quot; si c&#39;est le deuxième scénario de votre plan, &quot;[!UICONTROL Scénario 3]&quot; s’il s’agit du troisième, etc. Vous ne pouvez pas renommer vos scénarios. Le nombre de copies que vous pouvez effectuer n’est pas limité.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -79,17 +79,17 @@ Un scénario est une copie d’un plan. Vous pouvez créer autant de scénarios 
 
    * Créer, mettre à jour ou supprimer des initiatives
 
-      >[!TIP]
-      >
-      >Lorsque vous supprimez une initiative dans un scénario, elle n’est supprimée que du scénario sélectionné, et non de tous les scénarios.
+     >[!TIP]
+     >
+     >Lorsque vous supprimez une initiative dans un scénario, elle n’est supprimée que du scénario sélectionné, et non de tous les scénarios.
 
-      Pour plus d’informations sur la création d’initiatives, voir [Créez et modifiez des initiatives dans le [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+     Pour plus d’informations sur la création d’initiatives, voir [Créez et modifiez des initiatives dans le [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
    * Mettre à jour les priorités de vos initiatives
    * Ajuster les informations sur les personnes ou les budgets
    * Réviser et ajuster les conflits d’initiative dans votre scénario
 
-      Pour plus d’informations sur la résolution des conflits, voir [Résoudre les conflits d’initiative dans les [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+     Pour plus d’informations sur la résolution des conflits, voir [Résoudre les conflits d’initiative dans les [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer le plan]** pour enregistrer vos modifications.
 
