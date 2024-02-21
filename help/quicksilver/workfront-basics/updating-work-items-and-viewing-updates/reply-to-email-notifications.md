@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Répondre aux notifications par e-mail
 description: Vous pouvez répondre aux notifications par e-mail Workfront générées à partir des commentaires effectués sur des projets, tâches, problèmes et autres objets afin d’ajouter des réponses aux commentaires originaux effectués dans l’application Adobe Workfront.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,11 @@ Vous pouvez répondre à une mise à jour à partir d&#39;une notification par e
 * Utilisez le bouton Commentaire dans le courrier électronique pour revenir à Workfront et répondre à la mise à jour dans la zone Mises à jour.
 * Répondez à l’email que vous recevez. Votre email de réponse est ajouté en tant que réponse Workfront au commentaire d’origine.
 
+<!--
 >[!NOTE]
 >
->La réponse aux mises à jour par email n’est pas disponible pour les environnements sur la grappe 6.
+>Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 Vous pouvez répondre à un courrier électronique Workfront généré à partir de commentaires effectués sur les objets suivants :
 
@@ -48,7 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
