@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: d177f884a8754d0ced3d9c5d6f44c1b4964f1629
+source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
 workflow-type: tm+mt
-source-wordcount: '5087'
+source-wordcount: '5127'
 ht-degree: 8%
 
 ---
@@ -75,7 +75,7 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using-
    <td> <p>Problème</p> </td> 
    <td> <p>Attribution de problèmes</p> </td> 
    <td> <p>L’utilisateur auquel ce problème est affecté</p> </td> 
-   <td> <p>Je suis assigné à un problème.</p> <p>La personne désignée pour le problème ne reçoit une notification par courrier électronique que si l’état du projet est Actuel et que l’état du problème n’est pas Fermé ou que l’état du problème est Terminé.</p> <p>Les utilisateurs disposant d’une licence de révision ou de demande ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Je suis assigné à un problème.</p> <p>La personne désignée pour le problème ne reçoit une notification par courrier électronique que si l’état du projet est Actuel et que l’état du problème n’est pas Fermé ou que l’état du problème est Terminé.</p> <p>Les utilisateurs disposant d’une licence Light, Contributor, Review ou Request ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using-
    <td> <p>Tâche</p> </td> 
    <td> <p>Affectation de tâches</p> </td> 
    <td> <p>Utilisateur auquel la tâche est affectée</p> </td> 
-   <td> <p>Je suis défini comme le responsable principal d'une tâche.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique s’il est désigné premier responsable de la tâche, sauf si le cessionnaire est l’utilisateur qui a effectué l’affectation.</p> <p>Une notification est envoyée si l’état du projet est Actuel et que la tâche n’est pas marquée Terminée.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Je suis défini comme le responsable principal d'une tâche.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique s’il est désigné premier responsable de la tâche, sauf si le cessionnaire est l’utilisateur qui a effectué l’affectation.</p> <p>Une notification est envoyée si l’état du projet est Actuel et que la tâche n’est pas marquée Terminée.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -131,14 +131,14 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using-
    <td> <p>Feuille de temps</p> </td> 
    <td> <p>Nouvelle ouverture de la feuille de temps</p> </td> 
    <td> <p>Utilisateur auquel la feuille de temps appartient</p> </td> 
-   <td> <p>Ma feuille de temps est rouverte.</p> <p>Le propriétaire de la feuille de temps reçoit une notification par e-mail lorsque la feuille de temps est rouverte, sauf si l’utilisateur qui l’a rouverte est également propriétaire de la feuille de temps.</p> <p>Une notification par e-mail n'est envoyée que si l'état de la feuille de temps est Ouverte.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Ma feuille de temps est rouverte.</p> <p>Le propriétaire de la feuille de temps reçoit une notification par e-mail lorsque la feuille de temps est rouverte, sauf si l’utilisateur qui l’a rouverte est également propriétaire de la feuille de temps.</p> <p>Une notification par e-mail n'est envoyée que si l'état de la feuille de temps est Ouverte.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Feuille de temps</p> </td> 
    <td> <p>Rejet de la feuille de temps</p> </td> 
    <td> <p>Utilisateur auquel la feuille de temps appartient</p> </td> 
-   <td> <p>Ma feuille de temps est rejetée.</p> <p>Le propriétaire de la feuille de temps reçoit une notification par e-mail lorsque la feuille de temps est rejetée, sauf si l’utilisateur qui a rejeté la feuille de temps est également le propriétaire.</p> <p>Une notification par e-mail n’est envoyée que si l’état de la feuille de temps est Refusé.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Ma feuille de temps est rejetée.</p> <p>Le propriétaire de la feuille de temps reçoit une notification par e-mail lorsque la feuille de temps est rejetée, sauf si l’utilisateur qui a rejeté la feuille de temps est également le propriétaire.</p> <p>Une notification par e-mail n’est envoyée que si l’état de la feuille de temps est Refusé.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -152,14 +152,14 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using-
    <td> <p>Affectation</p> </td> 
    <td> <p>Requête d’élément de travail</p> </td> 
    <td> <p>Membres de l’équipe pour laquelle l’élément est demandé</p> </td> 
-   <td> <p>Mon équipe reçoit une nouvelle demande de travail.</p> <p>Les membres de l’équipe reçoivent une notification par e-mail lorsqu’ils reçoivent une nouvelle demande de travail. (L’utilisateur qui a soumis la demande ne reçoit pas de notification s’il est membre de l’équipe.)</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel au moment de la demande de travail et que l’état de la demande de travail est Nouveau.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Mon équipe reçoit une nouvelle demande de travail.</p> <p>Les membres de l’équipe reçoivent une notification par e-mail lorsqu’ils reçoivent une nouvelle demande de travail. (L’utilisateur qui a soumis la demande ne reçoit pas de notification s’il est membre de l’équipe.)</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel au moment de la demande de travail et que l’état de la demande de travail est Nouveau.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Affectation</p> </td> 
    <td> <p>Requête d’élément de travail</p> </td> 
    <td> <p>Utilisateur pour lequel un élément de travail est demandé</p> </td> 
-   <td> <p>Je reçois une nouvelle demande de travail.</p> <p>La personne désignée de l’élément de travail reçoit une notification par courrier électronique, sauf si l’utilisateur qui effectue la demande est également la personne désignée. </p> <p>Une notification n’est pas envoyée si l’état de la tâche est Terminé ou si l’état du problème est Fermé.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel au moment de la demande.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Je reçois une nouvelle demande de travail.</p> <p>La personne désignée de l’élément de travail reçoit une notification par courrier électronique, sauf si l’utilisateur qui effectue la demande est également la personne désignée. </p> <p>Une notification n’est pas envoyée si l’état de la tâche est Terminé ou si l’état du problème est Fermé.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel au moment de la demande.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
  </tbody> 
@@ -311,7 +311,7 @@ Voir aussi [Notifications : communication](../../../workfront-basics/using-notif
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Équipe</p> </td> 
+   <td> <p>Equipe</p> </td> 
    <td> <p>Mise à jour dirigée</p> </td> 
    <td> <p>Membres d'équipe</p> </td> 
    <td> <p>Quelqu'un inclut mon équipe à une mise à jour dirigée.</p> <p>Une mise à jour ciblée est effectuée lorsqu’un utilisateur inclut spécifiquement un autre utilisateur dans une mise à jour, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Balisage des autres sur les mises à jour</a>.</p> <p>Dans ce cas, tout membre de l’équipe inclus dans la mise à jour ciblée reçoit une notification par courrier électronique à propos de la mise à jour.</p> <p>La notification électronique est envoyée uniquement aux utilisateurs disposant de droits d’accès à l’objet de la mise à jour.</p> <p>Si l’utilisateur qui envoie la mise à jour redirigée est membre de l’équipe en cours d’inclusion, l’utilisateur qui envoie la mise à jour ne reçoit pas de notification par courrier électronique.</p> </td> 
@@ -441,35 +441,35 @@ Voir aussi [Notifications : informations sur le travail qui m’est assigné](..
    <td>Tâche</td> 
    <td>Fin de toutes les tâches du prédécesseur</td> 
    <td>Membres de l’équipe affectés à des tâches dépendantes</td> 
-   <td> <p>Tous les prédécesseurs des tâches de l'équipe sont terminés.</p> <p>Les personnes désignées pour la tâche (tous les membres de l’équipe) reçoivent une notification par e-mail.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Tous les prédécesseurs des tâches de l'équipe sont terminés.</p> <p>Les personnes désignées pour la tâche (tous les membres de l’équipe) reçoivent une notification par e-mail.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td>Inactif</td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Fin de toutes les tâches du prédécesseur</p> </td> 
    <td> <p>Utilisateur affecté aux tâches dépendantes</p> </td> 
-   <td> <p>Tous les prédécesseurs de mes tâches sont terminés.</p> <p>La personne désignée pour la tâche reçoit une notification par courrier électronique.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Tous les prédécesseurs de mes tâches sont terminés.</p> <p>La personne désignée pour la tâche reçoit une notification par courrier électronique.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Décision de validation</p> </td> 
    <td> <p>Utilisateur auquel le problème est affecté</p> </td> 
-   <td> <p>Un problème que je résolve est approuvé ou rejeté.</p> <p>La personne désignée pour un problème reçoit une notification par courrier électronique lorsqu’une décision d’approbation est prise (approuvée ou rejetée).</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un problème que je résolve est approuvé ou rejeté.</p> <p>La personne désignée pour un problème reçoit une notification par courrier électronique lorsqu’une décision d’approbation est prise (approuvée ou rejetée).</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Décision de validation</p> </td> 
    <td> <p>Utilisateur auquel la tâche est affectée</p> </td> 
-   <td> <p>Une tâche que je termine est approuvée ou rejetée.</p> <p>La personne désignée pour la tâche reçoit une notification par e-mail lorsque la tâche est approuvée ou rejetée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Une tâche que je termine est approuvée ou rejetée.</p> <p>La personne désignée pour la tâche reçoit une notification par e-mail lorsque la tâche est approuvée ou rejetée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Fin du problème</p> </td> 
    <td> <p>Utilisateur auquel le problème est affecté</p> </td> 
-   <td> <p>Un problème auquel je suis affecté est terminé.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un problème auquel je suis affecté est terminé.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -483,7 +483,7 @@ Voir aussi [Notifications : informations sur le travail qui m’est assigné](..
    <td> <p>Problème</p> </td> 
    <td> <p>Modification de l’état du problème</p> </td> 
    <td> <p>Utilisateur auquel le problème est affecté</p> </td> 
-   <td> <p>L’état change pour l’une de mes tâches.</p> <p>La personne désignée de la publication reçoit une notification par courrier électronique lorsque l’état change, sauf si l’utilisateur qui a modifié l’état est également la personne désignée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>L’état change pour l’une de mes tâches.</p> <p>La personne désignée de la publication reçoit une notification par courrier électronique lorsque l’état change, sauf si l’utilisateur qui a modifié l’état est également la personne désignée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
@@ -497,14 +497,14 @@ Voir aussi [Notifications : informations sur le travail qui m’est assigné](..
    <td> <p>Tâche</p> </td> 
    <td> <p>Fin de tâche</p> </td> 
    <td> <p>Utilisateur auquel la tâche est affectée</p> </td> 
-   <td> <p>Une tâche à laquelle je suis affecté est terminée.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique une fois la tâche terminée. Les notifications ne sont pas envoyées lorsqu’une tâche personnelle est terminée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence de vérification ou de demandeur ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Une tâche à laquelle je suis affecté est terminée.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique une fois la tâche terminée. Les notifications ne sont pas envoyées lorsqu’une tâche personnelle est terminée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence Light, Contributor, Review ou Requestor ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Fin de tâche</p> </td> 
    <td> <p>Utilisateur affecté à une tâche dépendante</p> </td> 
-   <td> <p>Un prédécesseur de l'une de mes tâches est terminé.</p> <p>La personne désignée pour la tâche reçoit une notification par e-mail lorsque l’un des prédécesseurs de la tâche est terminé.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un prédécesseur de l'une de mes tâches est terminé.</p> <p>La personne désignée pour la tâche reçoit une notification par e-mail lorsque l’un des prédécesseurs de la tâche est terminé.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -518,7 +518,7 @@ Voir aussi [Notifications : informations sur le travail qui m’est assigné](..
    <td> <p>Tâche</p> </td> 
    <td> <p>Changement de statut de la tâche</p> </td> 
    <td> <p>Utilisateur auquel la tâche est affectée</p> </td> 
-   <td> <p>L’état change pour une tâche à laquelle je suis affecté.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique lorsque l’état de la tâche change, sauf si l’utilisateur qui a modifié l’état est également la personne désignée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification. </p> </td> 
+   <td> <p>L’état change pour une tâche à laquelle je suis affecté.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique lorsque l’état de la tâche change, sauf si l’utilisateur qui a modifié l’état est également la personne désignée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification. </p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
  </tbody> 
@@ -644,14 +644,14 @@ Voir aussi [Notifications : informations sur les projets que je possède](../../
    <td> <p>Document</p> </td> 
    <td> <p>Document Add</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Un document est ajouté à un projet dont je suis propriétaire.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un document est ajouté au projet, sauf si l’utilisateur qui a ajouté le document est également le propriétaire du projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et que le document n’est pas Privé.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un document est ajouté à un projet dont je suis propriétaire.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un document est ajouté au projet, sauf si l’utilisateur qui a ajouté le document est également le propriétaire du projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et que le document n’est pas Privé.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout de problème</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Un problème est ajouté à un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un problème est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un problème est ajouté à un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un problème est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -665,7 +665,7 @@ Voir aussi [Notifications : informations sur les projets que je possède](../../
    <td> <p>Problème</p> </td> 
    <td> <p>Fin du problème</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Un problème est terminé sur un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un problème est terminé sur un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -714,7 +714,7 @@ Voir aussi [Notifications : informations sur les projets que je possède](../../
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout d’un problème non attribué</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Un problème non attribué est ajouté à un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un problème non attribué est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un problème non attribué est ajouté à un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un problème non attribué est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
  </tbody> 
@@ -861,7 +861,7 @@ Voir aussi [Notifications : informations diverses](../../../workfront-basics/usi
    <td> Inactif </td> 
   </tr> 
   <tr> 
-   <td> <p>Équipe</p> </td> 
+   <td> <p>Equipe</p> </td> 
    <td> <p>Partage d’objets</p> </td> 
    <td> <p>Membres de l’équipe avec lesquels l’objet a été partagé</p> </td> 
    <td> <p>Quelqu'un partage un objet avec mon équipe.</p> </td> 
@@ -878,7 +878,7 @@ Voir aussi [Notifications : informations diverses](../../../workfront-basics/usi
    <td> <p>Utilisateur du projet</p> </td> 
    <td> <p>Ajout d’un utilisateur de projet</p> </td> 
    <td> <p>Propriétaire de la ressource</p> </td> 
-   <td> <p>Un de mes collaborateurs est ajouté à un projet.</p> <p>Un responsable reçoit une notification par e-mail lorsqu’un de ses rapports directs est ajouté à un projet.</p> <p>Les utilisateurs disposant d’une licence de révision ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un de mes collaborateurs est ajouté à un projet.</p> <p>Un responsable reçoit une notification par e-mail lorsqu’un de ses rapports directs est ajouté à un projet.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
