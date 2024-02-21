@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -275,12 +275,12 @@ ht-degree: 1%
             * [20.3 Améliorations de l’intégration et des mobiles](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3 autres améliorations](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
          * Version 20.2 {#release-20-2}
-            * [Présentation de la version 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-            * [Améliorations de la version 2020.2 pour mobiles](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
-            * [2020.2 autres améliorations](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
-            * [Améliorations du projet 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
-            * [2020.2 Améliorations de la vérification](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
-            * [2020.2 Améliorations de la gestion des ressources : l’équilibreur de charge de travail](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
+            * [Présentation de la version 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
+            * [Améliorations de la version 2020.2 pour mobiles](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
+            * [2020.2 autres améliorations](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
+            * [Améliorations du projet 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
+            * [2020.2 Améliorations de la vérification](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
+            * [2020.2 Améliorations de la gestion des ressources : l’équilibreur de charge de travail](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * Version 20.1 {#release-20-1}
             * [Présentation de la version 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [Améliorations de la liste 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
@@ -291,12 +291,12 @@ ht-degree: 1%
             * [2020.1 Améliorations de la gestion des ressources](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [Autres fonctionnalités de Workfront Classic publiées dans Production avant la version 2020.1](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
          * Version 2019.4 {#release-19-4}
-            * [Présentation de la version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-            * [Améliorations de la liste 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
-            * [2019.4 Améliorations apportées à Mobile](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
-            * [Autres améliorations de la version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
-            * [2019.4 Améliorations de la gestion des ressources](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
-            * [Autres fonctionnalités de Workfront Classic mises en production avant la version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
+            * [Présentation de la version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
+            * [Améliorations de la liste 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
+            * [2019.4 Améliorations apportées à Mobile](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
+            * [Autres améliorations de la version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
+            * [2019.4 Améliorations de la gestion des ressources](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
+            * [Autres fonctionnalités de Workfront Classic mises en production avant la version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
          * Version 2019.3 {#release-19-3}
             * [Présentation de l’activité de la version 2019.3](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3 Amélioration de la planification des ressources](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
