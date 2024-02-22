@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] nécessite une [!DNL Adobe Workfront Fusion] en plus d’une [!DNL Adobe Workfront license].
 
 L&#39;automatisation du travail nécessite un traitement rapide. [!DNL Adobe Workfront Fusion] est conçu pour des performances élevées. Puisque les scénarios à long terme peuvent ralentir le rythme de votre travail, nous avons conçu [!DNL Workfront Fusion] grâce à des barrières de sécurité conservant les performances qui limitent le temps d’exécution, la taille des données et d’autres paramètres de scénario. [!DNL Workfront Fusion] les concepteurs doivent être conscients de ces barrières de sécurité et les intégrer dans leurs pratiques de conception.
+
+## Navigateurs
+
+Wokfront Fusion ne prend en charge que les navigateurs Chrome.
 
 ## Scénarios
 
@@ -65,7 +69,7 @@ L&#39;automatisation du travail nécessite un traitement rapide. [!DNL Adobe Wor
 
 * Les webhooks désactivés sont supprimés et désenregistrés automatiquement s’ils ne sont connectés à aucun scénario et sont à l’état désactivé depuis plus de 30 jours.
 
-## Historique d&#39;exécution
+## Historique de l’exécution
 
 * Les logs d&#39;historique d&#39;exécution sont limités à une taille de **100 Mo**. Si l’historique d’exécution dépasse cette taille, seuls les 100 premiers Mo s’affichent.
 
