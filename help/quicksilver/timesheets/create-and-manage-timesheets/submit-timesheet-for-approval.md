@@ -6,9 +6,9 @@ description: L’envoi de votre feuille de temps pour approbation offre une visi
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ### Envoyer une feuille de temps pour approbation
 
-Après la définition de l’approbateur de la feuille de temps (comme décrit dans la section [Désignation des approbateurs de feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) dans l’article [Approuver une feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), la variable **Fermer** au bas de la feuille de temps se transforme en **Envoyer pour approbation** bouton .
+Après la définition de l’approbateur de la feuille de temps (comme décrit dans la section [Désignation des approbateurs de feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) dans l’article [Approbation d’une feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), la variable **Fermer** au bas de la feuille de temps se transforme en **Envoyer pour approbation** bouton .
 
 Pour soumettre une feuille de temps à validation :
 
@@ -63,7 +63,7 @@ Pour soumettre une feuille de temps à validation :
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   Le **Envoyer pour approbation** est remplacé par le bouton **Approuver**, **Rejeter**, et **Rappeler** des boutons. L’état de la feuille de temps passe à **Envoyé**.
+   La variable **Envoyer pour approbation** est remplacé par le bouton **Approuver**, **Rejeter**, et **Rappeler** des boutons. L’état de la feuille de temps passe à **Envoyé**.
 
    Lorsque votre feuille de temps est soumise à validation, l’approbateur voit la feuille de temps indiquée dans la variable **Approbations** sur la zone **Accueil** page. Les événements suivants peuvent se produire :
 
@@ -76,14 +76,14 @@ Pour soumettre une feuille de temps à validation :
 
 Vous pouvez afficher l’état d’une feuille de temps après l’avoir envoyée.
 
-Si l’administrateur Workfront a activé les gestionnaires d’événements Approbation de la feuille de temps pour l’utilisateur et Rejet de la feuille de temps vers l’utilisateur, vous en êtes informé une fois la feuille de temps approuvée ou rejetée. Pour plus d’informations sur l’activation des notifications d’événement, voir [Notifications d’événements disponibles dans Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Si l’administrateur Workfront a activé les gestionnaires d’événements Approbation de la feuille de temps pour l’utilisateur et Rejet de la feuille de temps vers l’utilisateur, vous en êtes informé une fois la feuille de temps approuvée ou rejetée. Pour plus d’informations sur l’activation des notifications d’événement, voir [Types de notification d’événement](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Sans ces notifications, vous pouvez en savoir plus sur l’état de vos feuilles de temps envoyées dans la zone Feuille de temps de Workfront.
 
 Pour afficher l’état d’une feuille de temps :
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
-1. Cliquez sur **Feuilles de temps**. Le **Tous** est sélectionné par défaut.
+1. Cliquez sur **Feuilles de temps**. La variable **Tous** est sélectionné par défaut.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
@@ -91,15 +91,16 @@ Pour afficher l’état d’une feuille de temps :
 
    * Sélectionner **Mes approbations de la feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez
 
-      Ou
+     Ou
 
-      Sélectionner **Mes feuilles de calcul** pour afficher uniquement vos feuilles de temps.
+     Sélectionner **Mes feuilles de calcul** pour afficher uniquement vos feuilles de temps.
 
-      Cela applique les filtres Mes approbations de feuille de temps ou Ma feuille de temps à la liste des feuilles de temps.
+     Cela applique les filtres Mes approbations de feuille de temps ou Ma feuille de temps à la liste des feuilles de temps.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    * Cliquez sur l’icône Filtrer ![](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Création ou modification de filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
    >Les options Mes approbations de feuille de temps et Mes feuilles de temps ne s’affichent pas en haut de la liste de feuille de temps ni dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé les filtres Mes approbations de feuille de temps et Mes feuilles de temps des commandes de liste de la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, voir les articles suivants :
@@ -107,7 +108,8 @@ Pour afficher l’état d’une feuille de temps :
    >   
    >   
    >   * [Personnalisation des filtres, des vues et des groupes à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-
+   >   
+   >
 
 1. (Conditionnel) Si vous avez sélectionné **Mes feuilles de calcul**, assurez-vous que la variable **Standard** s’applique et notez que la variable **État** colonne .
 
@@ -118,7 +120,7 @@ Pour afficher l’état d’une feuille de temps :
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Ouvrir</td> 
+      <td role="rowheader">Ouvertes</td> 
       <td> <p>Votre feuille de temps est actuellement ouverte et vous pouvez consigner l’heure. </p> <p>Une feuille de temps rappelée s’affiche avec l’état Ouvrir. Pour plus d’informations, voir <a href="#recall-a-timesheet" class="MCXref xref">Rappel d’une feuille de temps</a> dans cet article. </p> </td> 
      </tr> 
      <tr> 

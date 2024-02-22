@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ La configuration d’une notification d’événement pour un groupe affecte les
 
 Pour plus d’informations sur la façon dont un administrateur Workfront déverrouille une notification d’événement, voir [Déverrouiller ou verrouiller la configuration des notifications d’événement pour tous les groupes](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-Pour plus d’informations sur le paramètre de notification par défaut d’un événement, voir [Notifications d’événements disponibles dans Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Pour plus d’informations sur le paramètre de notification par défaut d’un événement, voir [Types de notification d’événement](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Exigences d’accès
 
@@ -40,7 +40,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -61,18 +61,17 @@ Les étapes de cet article doivent être les suivantes :
 1. Cliquez sur le nom du groupe de niveau supérieur.
 1. Dans le menu de gauche, cliquez sur **Notifications d’événements**.
 
-   Dans la liste qui s’affiche, la variable **Principal** la colonne de gauche indique les notifications principales (bleu) et inactives (gris) pour le groupe.
+   Dans la liste qui s’affiche, la variable **Actif** la colonne de gauche indique les notifications actives (bleu) et inactives (gris) pour le groupe.
 
-1. Pour activer ou désactiver une notification d’événement déverrouillée : Cliquez sur le bouton dans la <strong>Principal</strong> colonne à activer <img src="assets/email-notification-enabled-unlocked.png"> ou désactiver <img src="assets/email-notification-disabled-unlocked.png"> c&#39;est le cas.
+1. Pour activer ou désactiver une notification d’événement déverrouillée, cliquez sur le bouton dans la <strong>Actif</strong> colonne à activer <img src="assets/email-notification-enabled-unlocked.png"> ou désactiver <img src="assets/email-notification-disabled-unlocked.png"> c&#39;est le cas.
 
    >[!INFO]
    >
    >**Exemple :** Vous pouvez configurer les deux premières notifications d’événement de groupe marketing affichées ci-dessous qui ont été déverrouillées pour les groupes.</p> <p> <img src="assets/configure-group-event-notifications.png">
-   >* Si un bouton dans la variable <strong>Principal</strong> La colonne est grise et grisée. <img src="assets/email-notification-disabled-locked.png">, la notification d’événement est désactivée pour tous les utilisateurs et les administrateurs de groupe ne peuvent pas l’activer ni modifier l’objet de l’email.
-   >* Si un bouton dans la variable <strong>Principal</strong> La colonne est grise et non grisée. <img src="assets/email-notification-disabled-unlocked.png">, la notification d’événement est <strong>désactivée pour tous les utilisateurs et</strong> les administrateurs de groupe peuvent l’activer pour leurs groupes.
-   >* Si un bouton dans la variable <strong>Principal</strong> La colonne est bleue et grisée. <img src="assets/email-notification-enabled-locked.png">, la notification d’événement est activée pour tous les utilisateurs et les administrateurs de groupe ne peuvent pas la désactiver ni modifier l’objet de l’email pour leurs groupes.
-   >* Si un bouton dans la variable <strong>Principal</strong> La colonne est bleue et non grisée. <img src="assets/email-notification-enabled-unlocked.png">, la notification d’événement est <strong>activée pour tous les utilisateurs et</strong> les administrateurs de groupe peuvent la désactiver pour leurs groupes.
-
+   >* Si un bouton dans la variable <strong>Actif</strong> La colonne est grise et grisée <img src="assets/email-notification-disabled-locked.png">, la notification d’événement est désactivée pour tous les utilisateurs et les administrateurs de groupe ne peuvent pas l’activer ni modifier l’objet de l’email.
+   >* Si un bouton dans la variable <strong>Actif</strong> La colonne est grise et non grisée <img src="assets/email-notification-disabled-unlocked.png">, la notification d’événement est <strong>désactivée pour tous les utilisateurs et</strong> les administrateurs de groupe peuvent l’activer pour leurs groupes.
+   >* Si un bouton dans la variable <strong>Actif</strong> colonne bleue et grisée <img src="assets/email-notification-enabled-locked.png">, la notification d’événement est activée pour tous les utilisateurs et les administrateurs de groupe ne peuvent pas la désactiver ni modifier l’objet de l’email pour leurs groupes.
+   >* Si un bouton dans la variable <strong>Actif</strong> La colonne est bleue et non grisée. <img src="assets/email-notification-enabled-unlocked.png">, la notification d’événement est <strong>activée pour tous les utilisateurs et</strong> les administrateurs de groupe peuvent la désactiver pour leurs groupes.
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

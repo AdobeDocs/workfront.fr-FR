@@ -6,16 +6,16 @@ description: Vous pouvez supprimer des utilisateurs d’un projet lorsqu’ils n
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 301c86152340a184345bd39cec77fdcf28258196
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
 # Suppression des utilisateurs des projets
 
-Vous pouvez supprimer des utilisateurs d’un projet lorsqu’ils ne sont plus impliqués dans la réalisation du projet. La suppression des utilisateurs des projets a des implications sur les affectations de tâche et de problème, ainsi que sur les rôles de projet. Suppression des utilisateurs qui ne reçoivent plus de notifications destinées à l’équipe de projet. Pour plus d’informations sur les notifications destinées aux équipes de projet, voir [Notifications d’événements disponibles dans Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Vous pouvez supprimer des utilisateurs d’un projet lorsqu’ils ne sont plus impliqués dans la réalisation du projet. La suppression des utilisateurs des projets a des implications sur les affectations de tâche et de problème, ainsi que sur les rôles de projet. Suppression des utilisateurs qui ne reçoivent plus de notifications destinées à l’équipe de projet. Pour plus d’informations sur les notifications destinées aux équipes de projet, voir [Types de notification d’événement](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Les utilisateurs associés à un projet sont répertoriés dans la zone Personnes d’un projet. Ils représentent l’équipe de projet. Pour plus d’informations sur l’équipe de projet, voir [Présentation de l’équipe de projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -29,7 +29,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
