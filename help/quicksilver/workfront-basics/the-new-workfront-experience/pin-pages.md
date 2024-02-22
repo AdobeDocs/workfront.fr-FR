@@ -3,12 +3,12 @@ navigation-topic: the-new-workfront-experience
 title: Epingler des pages pour personnaliser votre espace de travail
 description: Vous pouvez épingler votre travail le plus important [!DNL Adobe Workfront] pour une visibilité accrue, une meilleure organisation et un accès plus rapide. Les pages épinglées sont toujours accessibles depuis le haut d’une page dans Workfront.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Épingler une page
 
-1. Accédez à la page à épingler.
+1. Accédez à la page que vous souhaitez épingler.
 
    Il peut s’agir de n’importe quel élément de travail, tel qu’un projet, une tâche, une file d’attente de demandes, etc.
 
@@ -65,18 +65,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    La page épinglée s’affiche.
 
-## Renommer les pages épinglées
+## Renommer les pages imprimées
 
 Vous pouvez modifier le nom d’une page épinglée pour qu’elle ait plus de signification pour vous.
 
 1. Passez la souris sur la page épinglée dans le volet de navigation supérieur ou **[!UICONTROL Plus de menu]**.
 1. Cliquez sur la flèche en regard du nom de l’épingle et sélectionnez **[!UICONTROL Renommer le pin]**.
 
-   ![Renommer l’épingle](assets/rename-remove-pin.png)
+   ![Renommer le pin](assets/rename-remove-pin.png)
 
 1. Saisissez le nouveau nom d’épingle, puis cliquez sur l’icône en forme de coche ou appuyez sur Entrée.
 
-   ![Cliquez sur la coche pour renommer l’épingle.](assets/rename-pin-click-checkmark.png)
+   ![Cliquez sur la coche pour renommer la pin](assets/rename-pin-click-checkmark.png)
 
    Une petite fenêtre contextuelle s’affiche pendant plusieurs secondes après avoir cliqué sur la coche ou appuyé sur Entrée, ce qui vous permet d’annuler la modification du nom de la épingle avant qu’elle ne soit enregistrée.
 
@@ -97,6 +97,6 @@ Vous pouvez réorganiser l’ordre d’affichage des pages épinglées.
 
    Cliquez sur la flèche en regard du nom de l’épingle et sélectionnez **[!UICONTROL Supprimer le pin]**.
 
-   ![Supprimer l’épingle](assets/rename-remove-pin.png)
+   ![Supprimer le pin](assets/rename-remove-pin.png)
 
    La page n’est plus accessible depuis le haut d’une page dans [!DNL Workfront].
