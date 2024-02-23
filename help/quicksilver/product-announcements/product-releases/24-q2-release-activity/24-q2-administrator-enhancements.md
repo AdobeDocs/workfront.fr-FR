@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administrateur au deuxième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
+source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ Cette page décrit toutes les améliorations apportées à l’administrateur à
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 2024 du deuxième trimestre, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
-<!--## Attribute mapping now available for organizations that have migrated to Adobe IMS
+## Mappage d’attributs désormais disponible pour les organisations qui ont migré vers Adobe IMS
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for all customers: February 22, 2024
+>Version d’aperçu : 22 février 2024 ; Production pour tous les clients : 22 février 2024
 
-Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.
+Les administrateurs système Workfront peuvent désormais configurer le mappage des attributs utilisateur pour les organisations qui ont migré vers Adobe IMS. Cela permet aux informations utilisateur de transmettre à Workfront à partir du fournisseur d’authentification unique (SSO) de l’organisation, de sorte que les données de l’utilisateur n’aient pas à être saisies à la fois dans Workfront et dans le fournisseur d’authentification unique.
 
-Previously, this functionality was only available to organizations that had not yet been onboarded to Adobe IMS.
+Auparavant, cette fonctionnalité n’était disponible que pour les organisations qui n’étaient pas encore intégrées à Adobe IMS.
 
-For instructions on configuring attribute mapping, see **Map user attributes in the Adobe unified experience** in the article [Map user attributes and auto-provision new users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).-->
+Pour plus d’informations sur la configuration du mappage des attributs, voir **Mise en correspondance des attributs utilisateur dans l’expérience unifiée Adobe** dans l’article [Mappage des attributs utilisateur et configuration automatique des nouveaux utilisateurs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## La logique de saut et la logique d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.
 
