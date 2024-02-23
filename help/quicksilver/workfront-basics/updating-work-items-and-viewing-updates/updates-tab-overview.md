@@ -7,15 +7,17 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
 
 
 # Présentation de la section Mises à jour
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -42,14 +44,25 @@ ht-degree: 3%
 >La nouvelle expérience de commentaire n’est disponible que pour la section Mises à jour des objets Workfront et n’est pas disponible lorsque vous accédez aux objets à partir des zones suivantes :
 >
 > * Page d’accueil
+> * Panneau Résumé dans les listes
 > * Panneau Résumé dans les feuilles de temps
 > * Panneau Résumé de l’équilibreur de charge de travail
+>
+><span class="preview">La nouvelle expérience de commentaire est disponible dans le panneau Résumé dans les listes, les feuilles de temps et l’équilibreur de charge de travail dans l’environnement Aperçu.</span>
 
 ## Présentation de la section Mises à jour
 
 La section Mises à jour d’un objet affiche les mises à jour du système et jusqu’à 200 des mises à jour les plus récentes effectuées par les utilisateurs au cours des 90 derniers jours.
 
+<div class="preview">
+
+Exemple de la section Mises à jour dans l&#39;environnement Aperçu :
 ![Section Mises à jour](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+
+</div>
+
+Exemple de la section Mises à jour dans l’environnement Production :
+![Section Mises à jour](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Selon les objets pour lesquels vous accédez à l’expérience de commentaire, vous trouverez peut-être l’expérience suivante pour la section Mises à jour :
 
@@ -89,19 +102,25 @@ Selon les objets pour lesquels vous accédez à l’expérience de commentaire, 
 
 ### Présentation de la section Mises à jour dans la nouvelle expérience de commentaire
 
+<div class="preview">
+
+Exemple de la section Mises à jour dans l&#39;environnement Aperçu :
 ![Section Mises à jour](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+
+</div>
+
+Exemple de la section Mises à jour dans l’environnement Production :
+![Section Mises à jour](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
 >La nouvelle expérience de commentaire n’est pas disponible pour les itérations.
 
-
 * La section Mises à jour affiche des informations dans les onglets suivants de la nouvelle expérience de commentaire :
-
 
    * **Commentaires**: affiche les commentaires effectués par les utilisateurs et les réponses à ces commentaires. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
    * **Activité du système**: affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications de l’état, du nom ou des champs personnalisés sont capturées avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Tous (lecture seule)**: affiche à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni baliser d’autres utilisateurs dans les commentaires existants dans l’onglet Tous . Pour répondre à un commentaire spécifique, utilisez le lien de l’onglet Tous vers l’onglet Commentaires . Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+   * <span class="preview">**Tous (lecture seule)**: affiche à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni baliser d’autres utilisateurs dans les commentaires existants dans l’onglet Tous . Pour répondre à un commentaire spécifique, utilisez le lien de l’onglet Tous vers l’onglet Commentaires . Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * Les objets suivants ne comportent pas d’onglet Activité du système :
 

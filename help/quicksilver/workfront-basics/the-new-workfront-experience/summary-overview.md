@@ -5,14 +5,16 @@ description: Vous pouvez utiliser le panneau Résumé pour passer en revue et me
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Résumé] aperçu
+
+{{highlighted-preview}}
 
 Vous pouvez utiliser la variable [!UICONTROL Résumé] pour passer en revue et mettre à jour les informations des éléments de travail directement à partir d’une liste de tâches, de problèmes, de documents ou d’autres zones de [!DNL Adobe Workfront] qui affichent les tâches et les problèmes.
 
@@ -117,7 +119,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Vous ne pouvez sélectionner qu’une seule tâche ou un seul problème à la fois pour afficher leurs détails dans la variable [!UICONTROL Résumé] du panneau.
 
+   <div class="preview">
+
+   Exemple du panneau Résumé dans l’environnement Aperçu :
    ![Panneau Résumé](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   Exemple du panneau Résumé dans l’environnement de production :
+   ![Panneau Résumé](assets/summary-panel-for-task.png)
 
 1. (Facultatif) Pour fermer la variable [!UICONTROL Résumé] effectuez l’une des opérations suivantes :
 
@@ -143,7 +153,15 @@ Utilisez la barre de progression en haut de la [!UICONTROL Résumé] pour mettre
 
 Utilisez la variable [!UICONTROL Mises à jour] de la [!UICONTROL Résumé] pour afficher les mises à jour récentes et effectuer des mises à jour sur la tâche ou le problème que vous avez sélectionné. Cliquez sur **[!UICONTROL Afficher tout]** pour accéder directement au [!UICONTROL Mises à jour] de la tâche.
 
+<div class="preview">
+
+Exemple de mises à jour dans l’environnement Aperçu :
 ![Section Mises à jour du panneau Résumé](assets/summary-updates-section.png)
+
+</div>
+
+Exemple de mises à jour dans l’environnement de production :
+![Section Mises à jour du panneau Résumé](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documents]
 
