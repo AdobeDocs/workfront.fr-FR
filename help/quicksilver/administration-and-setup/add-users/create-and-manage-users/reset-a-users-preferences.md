@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ Lorsque vous réinitialisez les préférences utilisateur, certaines préférenc
   </tr> 
   <tr> 
    <td>Préférences utilisateur</td> 
-   <td> <p>Restauration de la valeur par défaut du système</p> <p>Les notifications par e-mail sont restaurées aux valeurs par défaut du système.</p> </td> 
+   <td> <p>Restauration de la valeur par défaut du système</p> <p>Les notifications par e-mail sont restaurées aux valeurs par défaut du système. Les notifications par défaut sont répertoriées dans la section <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Notifications d’événements disponibles dans Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Onglets personnalisés définis par l’utilisateur</td> 

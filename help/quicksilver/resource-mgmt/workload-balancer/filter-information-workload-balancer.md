@@ -6,9 +6,9 @@ description: Pour rechercher efficacement des tâches et vous concentrer sur les
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ En tant que gestionnaire de ressources, vous pouvez utiliser l’équilibreur de
 >
 >Pour rechercher efficacement des tâches et vous concentrer sur les utilisateurs ou les éléments que vous gérez, nous vous recommandons vivement d’utiliser des filtres dans l’équilibreur de charge de travail. Vous pouvez ainsi afficher les informations correctes avant de commencer à gérer les affectations de vos ressources.
 >
->Lorsque vous enregistrez et appliquez un nouveau filtre, puis quittez l’équilibreur de charge de travail, ce dernier est conservé même après vous être déconnecté et vous être reconnecté.
+>Lorsque vous enregistrez et appliquez un nouveau filtre, puis quittez l’équilibreur de charge de travail, le filtre est conservé même après vous être déconnecté et vous être reconnecté.
 
 Cet article contient des informations sur les filtres dans l’équilibreur de charge de travail. Pour plus d’informations sur les filtres dans Workfront, voir [Présentation des filtres](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -205,6 +205,10 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
       > Lorsque vous souhaitez afficher des objets de travail d’un portfolio spécifique, vous pouvez appliquer le filtre suivant : &quot;Le nom du Portfolio contient le marketing&quot;. Cette option affiche les éléments de travail appartenant à n’importe quel portfolio qui contient le nom &quot;marketing&quot;.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >Pour exclure les projets dont l’état est En attente, vous devez appliquer le filtre suivant : &quot;Projet : l’état n’est pas égal à En attente&quot;. Cela empêche les éléments de travail des projets En attente de s’afficher dans l’équilibreur de charge de travail.
 
    1. (Facultatif) Cliquez sur le **Supprimer** icon ![](assets/delete.png) pour supprimer un critère de filtre.
 
