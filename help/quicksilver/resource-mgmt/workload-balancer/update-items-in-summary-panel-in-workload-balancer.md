@@ -6,14 +6,16 @@ description: Vous pouvez ouvrir le panneau Résumé dans l’équilibreur de cha
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # Mise à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé
+
+{{highlighted-preview}}
 
 Vous pouvez utiliser le panneau Résumé d’une tâche ou d’un problème pour mettre à jour des informations importantes pour cet élément. dans l’équilibreur de charge de travail.
 
@@ -80,7 +82,15 @@ Vous devez disposer des éléments suivants :
 
    Le panneau Résumé s’ouvre à droite.
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   Exemple du panneau Résumé dans l’environnement Aperçu :
+   ![Panneau Résumé](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+
+   Exemple du panneau Résumé dans l’environnement de production :
+   ![Panneau Résumé](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Modifiez plusieurs champs de l’élément de travail, saisissez une mise à jour ou accédez à d’autres zones de Workfront pour ajouter des documents ou d’autres informations à l’élément de travail.
 
