@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 * [Améliorations apportées aux administrateurs](#administrator-enhancements)
 * [Améliorations de la page d’accueil](#home-enhancements)
 * [Améliorations des projets](#project-enhancements)
+* [Améliorations du flux de mise à jour et des notifications](#update-stream-and-notification-enhancements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations apportées aux administrateurs
@@ -184,7 +185,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
            </tbody>
         </table>
 
-### Autres améliorations
+### Améliorations du flux de mise à jour et des notifications
 
 <table>
             <col style="width: 50%;" />
@@ -202,7 +203,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Pour vous donner une vue chronologique cohérente des commentaires et des journaux d’activité du système, nous vous proposons un troisième onglet dans la zone Mises à jour de tous les objets. L’onglet "Tous" capture les commentaires des utilisateurs et les commentaires sur l’activité du système dans un flux cohérent.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Pour vous donner une vue chronologique cohérente des commentaires et des journaux d’activité du système, nous vous proposons un troisième onglet dans la zone Mises à jour de tous les objets. L’onglet "Tous" capture les commentaires des utilisateurs et les commentaires sur l’activité du système dans un flux cohérent.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -220,7 +221,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau flux de commentaires désormais disponible dans le panneau Résumé</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Nous avons ajouté la nouvelle fonctionnalité de commentaires au panneau Résumé pour les listes de tâches et de problèmes.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau flux de commentaires désormais disponible dans le panneau Résumé</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Nous avons ajouté la nouvelle fonctionnalité de commentaires au panneau Résumé pour les listes de tâches et de problèmes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -234,6 +235,25 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>
+
+### Autres améliorations
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
