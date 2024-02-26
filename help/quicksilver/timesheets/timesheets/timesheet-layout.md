@@ -7,14 +7,16 @@ description: Cet article décrit la mise en page des feuilles de temps dans Adob
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # Présentation de la disposition de la feuille de temps
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -119,6 +121,14 @@ Vous pouvez consigner plusieurs entrées d’heure pour le même élément de tr
 
 ## Zone Mises à jour dans le panneau de gauche
 
+<div class="preview">
+
+Exemple dans l&#39;environnement Aperçu :
+![Zone Mises à jour dans le panneau de la feuille de temps gauche](assets/timesheet-updates-with-all-tab.png)
+
+</div>
+
+Exemple dans l’environnement de production :
 ![Zone Mises à jour dans le panneau de la feuille de temps gauche](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 Vous pouvez faire des commentaires sur une feuille de temps pour communiquer avec les approbateurs de votre feuille de temps ou d’autres utilisateurs dans la section Mises à jour du panneau gauche de la feuille de temps.

@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
 source-wordcount: '3526'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <li>Travailler ou plus pour consigner les heures sur un projet, une tâche ou un problème</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
    <td> <p>Modifier l’accès au type d’élément de travail pour lequel vous enregistrez le temps </p> <p>Par exemple, vous avez besoin de l’accès Modifier aux problèmes pour consigner le temps de connexion des problèmes.</p> </td> 
   </tr> 
   <tr> 

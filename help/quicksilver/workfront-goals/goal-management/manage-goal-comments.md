@@ -6,14 +6,16 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
 
 # Gestion des commentaires d’objectif dans les objectifs Adobe Workfront
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -99,6 +101,14 @@ Cela ouvre la liste des objectifs.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
 1. (Facultatif) Pour localiser un commentaire existant, commencez à saisir un mot-clé. <!--or a user's name--> dans le **Rechercher** dans le coin supérieur droit de la **Commentaires** .
 
+   <div class="preview">
+
+   Exemple dans l&#39;environnement Aperçu :
+   ![Rechercher un commentaire](assets/search-for-update-goals-2.png)
+
+   </div>
+
+   Exemple dans l’environnement de production :
    ![](assets/search-field-in-updates-tab-goals.png)
 
    Le mot-clé <!--or user--> La recherche effectuée est mise en surbrillance et les commentaires qui la contiennent s’affichent en haut de la section Mises à jour .
@@ -107,15 +117,22 @@ Cela ouvre la liste des objectifs.
 
    >[!NOTE]
    >
-   >   Vous devez rechercher un mot inclus dans un commentaire ou une réponse. Vous ne pouvez pas rechercher un utilisateur ou une équipe balisé.
+   >Vous devez rechercher un mot inclus dans un commentaire ou une réponse. Vous ne pouvez pas rechercher un utilisateur ou une équipe balisé.
 
+   Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-
-1. Cliquez sur le bouton **x** dans le champ de recherche pour effacer les résultats de la recherche et revenir à la fin.
+1. Cliquez sur le bouton **x** dans le champ de recherche pour effacer les résultats de la recherche et revenir à la mise à jour complète.
 1. Cliquez sur le bouton **Commentaires** dans le coin supérieur gauche de la zone Mises à jour .
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
+   <div class="preview">
+
+   Exemple de nouvelle zone de commentaire dans l’environnement Aperçu :
+   ![Nouvelle zone de commentaire](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   Exemple de nouvelle zone de commentaire dans l’environnement de production :
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -140,7 +157,7 @@ Cela ouvre la liste des objectifs.
    >Si un autre utilisateur envoie un commentaire sur l’élément que vous mettez à jour, une ligne rouge s’affiche avec un indicateur &quot;Nouveau&quot; pour vous informer des commentaires les plus récents, ainsi qu’une notification bleue au bas de l’écran pour indiquer le nombre de nouveaux commentaires.
    >
    >L’indicateur ne s’affiche qu’après l’envoi du commentaire sur l’élément, et non lorsque le commentaire est toujours composé.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. (Facultatif) Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
 1. Modifiez les informations du commentaire, ajoutez ou supprimez des images, ou supprimez l’un des utilisateurs balisés.
@@ -172,4 +189,6 @@ Vous pouvez modifier votre commentaire dans les 15 minutes suivant son envoi. Un
 1. (Facultatif) Cliquez sur le **Comme** icon![](assets/like-icon.png) pour aimer un commentaire que quelqu&#39;un d&#39;autre a ajouté. L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
 
 1. (Facultatif) Cliquez sur le **Activité du système** pour afficher les mises à jour enregistrées par le système. Lorsqu’un objectif est mis à jour, Workfront génère une note à ce sujet et l’affiche dans l’onglet Activité du système . Workfront enregistre également une mise à jour du système lorsqu’un résultat, une activité ou un projet est ajouté à l’objectif ou lorsqu’il est mis à jour. <!--ensure the casing on the tab has not changed-->
+
+1. <span class="preview">(Facultatif) Cliquez sur le **Tous** pour afficher à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Pour répondre à un commentaire dans l’onglet Toutes , cliquez sur **Réponse aux commentaires** pour ouvrir le commentaire dans l’onglet Commentaires . Vous ne pouvez pas répondre dans l’onglet Tout .</span>
 
