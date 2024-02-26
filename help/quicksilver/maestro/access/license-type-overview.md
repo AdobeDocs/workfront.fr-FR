@@ -4,7 +4,7 @@ description: Votre accès à Adobe Manager dépend de votre type de licence, en 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 62491ee9a8ee6982e104f59e99f182a0f059dc07
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -43,8 +43,8 @@ Le tableau suivant décrit la relation entre le type de licence d’un utilisate
 | Type de licence | Autorisations autorisées pour les objets Maestro |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nouveau : Standard <br> ou <br>Actuel : formule | Les utilisateurs peuvent créer et gérer des espaces de travail, des types d’enregistrement et des enregistrements. |
-| Nouveau : Lumière <br> ou <br>Actuel : travail et révision | Les utilisateurs peuvent contribuer à un espace de travail partagé avec eux et y afficher les types d’enregistrement et les enregistrements de cet espace de travail.  Les utilisateurs peuvent créer, modifier et supprimer des enregistrements dans les espaces de travail pour lesquels ils disposent des autorisations de contribution. |
-| Nouveau : contributeur <br> ou <br>Actuel : demandeur | Les utilisateurs peuvent afficher les espaces de travail partagés avec eux, ainsi que les types d’enregistrement et les enregistrements de ces espaces de travail. Les utilisateurs ne peuvent pas créer, modifier ou supprimer des types d’enregistrement ou des enregistrements. |
+| Nouveau : Lumière <br> ou <br>Actuel : travail | Les utilisateurs peuvent contribuer à un espace de travail partagé avec eux et y afficher les types d’enregistrement et les enregistrements de cet espace de travail.  Les utilisateurs peuvent créer, modifier et supprimer des enregistrements dans les espaces de travail pour lesquels ils disposent des autorisations de contribution. |
+| Nouveau : contributeur <br> ou <br>Actuel : réviseur ou demandeur | Les utilisateurs peuvent afficher les espaces de travail partagés avec eux, ainsi que les types d’enregistrement et les enregistrements de ces espaces de travail. Les utilisateurs ne peuvent pas créer, modifier ou supprimer des types d’enregistrement ou des enregistrements. |
 
 
 
