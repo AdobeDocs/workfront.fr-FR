@@ -9,9 +9,9 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe Wor
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 4148e329c8cef32ea8564aace06a09aa6fa1771e
+source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
 workflow-type: tm+mt
-source-wordcount: '5824'
+source-wordcount: '5935'
 ht-degree: 2%
 
 ---
@@ -72,22 +72,72 @@ La variable [!DNL Workfront] Le connecteur utilise OAuth 2.0 pour se connecter �
 
 Vous pouvez créer une connexion à votre [!DNL Workfront] compte directement depuis l’intérieur d’un [!DNL Workfront Fusion] module .
 
-1. Dans n’importe quel [!DNL Workfront] module d’application, cliquez **[!UICONTROL Ajouter]** en regard de [!UICONTROL Connexion] de la boîte.
-1. Saisissez le nom de votre instance dans l’URL. Exemple : `https://<your instance>.my.workfront.com`.
-1. Cliquez sur **[!UICONTROL Suivant]**.
-1. Cliquez sur **[!UICONTROL Connexion SAML]** pour créer la connexion et revenir au module .
+1. Dans un module Adobe Authenticator, cliquez sur **Ajouter** en regard du champ Connexion .
+1. Renseignez les champs suivants :
 
-   Ou
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Nom de la connexion]</td>
+        <td>
+          <p>Saisissez le nom de la nouvelle connexion.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Indiquez si vous vous connectez à un environnement de production ou hors production.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type de connexion]</td>
+        <td>
+          <p>Choisissez si vous vous connectez à un compte de service ou à un compte personnel.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL ID client]</td>
+        <td>Saisissez votre [!DNL Workfront] ID client. Vous pouvez le trouver dans la zone Applications OAuth2 de la zone Configuration de Workfront. Ouvrez l’application spécifique à laquelle vous vous connectez pour afficher l’identifiant du client.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Saisissez votre [!DNL Workfront] ID client. Vous pouvez le trouver dans la zone Applications OAuth2 de la zone Configuration de Workfront. Ouvrez l’application spécifique à laquelle vous vous connectez pour afficher l’identifiant du client.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>Cela peut rester la valeur par défaut ou vous pouvez saisir l’URL de votre instance Workfront, suivie de <code>/integrations/oauth2</code>. <p>Exemple : <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Préfixe d’hôte]</td>
+        <td>Dans la plupart des cas, cette valeur doit être <code>origin</code>.
+      </tr>
+    </tbody>
+    </table>
 
-   Saisissez votre nom d’utilisateur et votre mot de passe, puis cliquez sur **[!UICONTROL Connexion]** pour créer la connexion et revenir au module .
+1. Cliquez sur **[!UICONTROL Continuer]** pour enregistrer la connexion et revenir au module.
 
-   >[!NOTE]
-   >
-   >* Si vous ne voyez pas de bouton de connexion SAML, votre entreprise n’a pas activé l’authentification unique (SSO). Vous pouvez vous connecter à l’aide de vos nom d’utilisateur et mot de passe.
-   >   
-   >   Pour plus d’informations sur SSO, voir [Présentation de la connexion unique [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-   >   
-   >* Connexions OAuth 2.0 à la [!DNL Workfront] L’API ne dépend plus des clés d’API.
+
+
+
+<!--1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
+1. Click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL SAML log in]** to create the connection and go back to the module.
+
+   Or
+
+   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.-->
+
+>[!NOTE]
+>
+>* Si vous ne voyez pas de bouton de connexion SAML, votre entreprise n’a pas activé l’authentification unique (SSO). Vous pouvez vous connecter à l’aide de vos nom d’utilisateur et mot de passe.
+>   
+>   Pour plus d’informations sur SSO, voir [Présentation de la connexion unique [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+>   
+>* Connexions OAuth 2.0 à la [!DNL Workfront] L’API ne dépend plus des clés d’API.
 
 ## [!DNL Workfront] modules et leurs champs
 
