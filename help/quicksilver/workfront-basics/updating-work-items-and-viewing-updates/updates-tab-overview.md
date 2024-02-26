@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1311'
 ht-degree: 3%
 
 ---
@@ -122,7 +122,7 @@ Exemple de la section Mises à jour dans l’environnement Production :
    * **Activité du système**: affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications de l’état, du nom ou des champs personnalisés sont capturées avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**Tous (lecture seule)**: affiche à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni baliser d’autres utilisateurs dans les commentaires existants dans l’onglet Tous . Pour répondre à un commentaire spécifique, utilisez le lien de l’onglet Tous vers l’onglet Commentaires . Pour plus d’informations sur la mise à jour d’objets dans la nouvelle expérience de commentaire, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
-* Les objets suivants ne comportent pas d’onglet Activité du système :
+* Les objets suivants ne comportent pas d’onglet Activité du système <span class="preview">ou Onglet Tout</span>:
 
    * Equipe
    * Modèle

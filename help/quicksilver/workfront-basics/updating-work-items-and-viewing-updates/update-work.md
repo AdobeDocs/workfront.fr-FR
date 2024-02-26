@@ -6,14 +6,16 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4226'
 ht-degree: 1%
 
 ---
 
 # Mise à jour du travail
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -45,6 +47,8 @@ After the monthly releases to Production, the same features are also available i
 > * Panneau Résumé dans les listes
 > * Panneau Résumé dans les feuilles de temps
 > * Panneau Résumé de l’équilibreur de charge de travail
+>
+><span class="preview">La nouvelle expérience de commentaire est disponible dans le panneau Résumé dans les listes, les feuilles de temps et l’équilibreur de charge de travail dans l’environnement Aperçu.</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -234,8 +238,17 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
 1. (Conditionnel) Si la variable **Nouveaux commentaires** est désactivée, cliquez sur pour l’activer.
 
    Cela permet la nouvelle expérience de commentaire. La variable **Commentaires** est sélectionné par défaut.
+
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
+   <div class="preview">
+
+   Exemple de nouvelle zone de commentaire dans l’environnement Aperçu :
+   ![Nouvelle zone de commentaire](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   Exemple de nouvelle zone de commentaire dans l’environnement de production :
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -304,11 +317,17 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
 
 1. (Facultatif) Cliquez sur le **Activité du système** pour afficher les mises à jour enregistrées par le système. Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note à ce sujet et l’affiche dans l’onglet Activité du système .
 
-   Pour plus d’informations, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   Pour plus d’informations, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
    >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système.
+
+1. <span class="preview">(Facultatif) Cliquez sur le **Tous** pour afficher à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Vous ne pouvez pas répondre aux commentaires ni baliser d’autres utilisateurs dans les commentaires existants dans l’onglet Tous . Pour répondre à un commentaire dans l’onglet Toutes , cliquez sur **Réponse aux commentaires** pour ouvrir le commentaire dans l’onglet Commentaires .</span>
 
 ## Utilisation de texte enrichi dans une mise à jour Workfront{#use-rich-text-in-a-workfront-update}
 
@@ -422,8 +441,16 @@ Vous pouvez rechercher un commentaire ou une réponse dans la section Mises à j
 
    >[!NOTE]
    >
-   >   Vous ne pouvez rechercher que les mots qui appartiennent au texte d’un commentaire ou d’une réponse. Vous ne pouvez pas rechercher les noms des utilisateurs ou des équipes balisés dans une mise à jour.
+   >Vous ne pouvez rechercher que les mots qui appartiennent au texte d’un commentaire ou d’une réponse. Vous ne pouvez pas rechercher les noms des utilisateurs ou des équipes balisés dans une mise à jour.
 
+   <div class="preview">
+
+   Exemple de recherche dans l&#39;environnement Aperçu :
+   ![Recherche dans les mises à jour](assets/updates-all-tabs-with-search-field.png)
+
+   </div>
+
+   Exemple de recherche dans l’environnement de production :
    ![](assets/search-field-in-updates-tab.png)
 
    Le mot-clé <!--or user--> La recherche effectuée est mise en surbrillance et les commentaires qui la contiennent s’affichent en haut de la section Mises à jour .
@@ -626,7 +653,7 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informati
 
   Les objets suivants ne comportent pas de mises à jour générées par le système :
 
-   * Équipe
+   * Equipe
    * Modèle
    * Tâche de modèle
 

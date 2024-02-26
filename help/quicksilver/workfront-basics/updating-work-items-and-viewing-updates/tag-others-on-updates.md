@@ -6,14 +6,16 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 # Balisage des autres sur les mises à jour
+
+{{highlighted-preview}}
 
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
@@ -42,6 +44,8 @@ ht-degree: 0%
 > * Panneau Résumé dans les listes
 > * Panneau Résumé dans les feuilles de temps
 > * Panneau Résumé de l’équilibreur de charge de travail
+>
+><span class="preview">La nouvelle expérience de commentaire est disponible dans le panneau Résumé dans les listes, les feuilles de temps et l’équilibreur de charge de travail dans l’environnement Aperçu.</span>
 
 Vous pouvez baliser les utilisateurs lors d’une mise à jour d’un objet si vous souhaitez attirer leur attention sur un objet qu’ils n’auraient pas normalement suivi.
 
@@ -127,6 +131,14 @@ Vous pouvez également supprimer les utilisateurs balisés par erreur lorsque vo
    > 
    >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
+   <div class="preview">
+
+   Exemple de balisage dans l’environnement Aperçu :
+   ![Balisage d’un utilisateur](assets/tag-others-unified-commenting-with-all-tab.png)
+
+   </div>
+
+   Exemple de balisage dans l’environnement de production :
    ![](assets/tag-others-unified-commenting.png)
 
 1. (Facultatif) Pour rendre la mise à jour privée, activez **Privé à ma société** dans le coin inférieur droit de la zone de mise à jour. La mise à jour est ainsi visible uniquement par les utilisateurs de votre entreprise. La variable **Privé à ma société** est disponible uniquement lorsqu’une société est spécifiée dans votre profil Workfront.

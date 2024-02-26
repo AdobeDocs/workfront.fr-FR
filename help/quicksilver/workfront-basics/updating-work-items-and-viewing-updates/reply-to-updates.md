@@ -3,19 +3,21 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Répondre aux mises à jour
 description: Lorsqu’une personne ajoute ou répond à une mise à jour d’un objet de travail, sa réponse apparaît dans le fil de communication de la section Mises à jour de l’objet. Vous pouvez ajouter une réponse à une mise à jour ou aimer si vous disposez de l’accès Affichage à l’objet.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
 
 # Répondre aux mises à jour
+
+{{highlighted-preview}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -44,6 +46,8 @@ ht-degree: 0%
 > * Panneau Résumé dans les listes
 > * Panneau Résumé dans les feuilles de temps
 > * Panneau Résumé de l’équilibreur de charge de travail
+>
+><span class="preview">La nouvelle expérience de commentaire est disponible dans le panneau Résumé dans les listes, les feuilles de temps et l’équilibreur de charge de travail dans l’environnement Aperçu.</span>
 
 Lorsqu’une personne répond à un commentaire ou à une mise à jour système sur un objet de travail, sa réponse apparaît dans le fil de communication de la section Mises à jour de l’objet.
 
@@ -96,6 +100,11 @@ Pour plus d’informations sur les fonctionnalités disponibles dans la nouvelle
 
 1. Accédez à l’objet auquel vous souhaitez ajouter une réponse.
 1. Cliquez sur **Mises à jour**, puis cliquez sur le bouton **Commentaires** pour l’objet et recherchez le commentaire ou la réponse à laquelle vous souhaitez répondre.
+
+>[!NOTE]
+>
+><span class="preview">Pour répondre à un commentaire dans l’onglet Toutes , cliquez sur **Réponse aux commentaires** pour ouvrir le commentaire dans l’onglet Commentaires . Vous ne pouvez pas répondre dans l’onglet Tout .</span>
+
 1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le bouton **Plus** dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur **Réponse entre guillemets**. Le texte de la mise à jour précédente apparaît dans la zone de saisie, marquée d’une ligne grise verticale.
 1. Cliquez sur **Répondre**.
 
