@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
+source-git-commit: 4cf52a9a11765ba5fcd34a52c3fa105811fed1e9
 workflow-type: tm+mt
-source-wordcount: '13959'
+source-wordcount: '13967'
 ht-degree: 1%
 
 ---
@@ -940,8 +940,9 @@ ht-degree: 1%
          * [Gestion de votre compte Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Connexion à Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Déconnexion d’Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [Recevoir des invitations par courrier électronique et créer un mot de passe pour Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [Réinitialisation du mot de passe d’un utilisateur à l’aide d’une authentification améliorée](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * [Recevoir des invitations par courrier électronique et créer un mot de passe pour Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+         * [Créez un compte dans [!DNL Adobe Workfront] en tant qu’utilisateur externe](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [Réinitialisation de votre mot de passe](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * Applications mobiles {#mobile-apps}
       * [Applications mobiles](workfront-basics/mobile-apps/mobile-apps.md)
