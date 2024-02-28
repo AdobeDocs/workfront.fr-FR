@@ -6,7 +6,7 @@ title: Génération d’un module à l’aide d’AI
 description: Vous pouvez saisir une invite de texte pour créer un module HTTP configuré à l’invite.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 79b5baf5a9558e07b55fb810aa2d6c772faa51cf
+source-git-commit: c80f9ab6d10aa9067b995c99107f98301fa17872
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Génération d’un module à l’aide d’AI
+
+<!--DO NOT DELETE - linked through CSH-->
 
 Vous pouvez utiliser l’IA pour saisir une invite de texte décrivant ce que vous devez faire avec un module. Fusion génère ensuite un module HTTP qui se connecte au point de terminaison correct de l’API souhaitée.
 
