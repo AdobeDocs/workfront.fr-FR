@@ -6,9 +6,9 @@ description: Vous pouvez ajouter d’autres approbateurs ou réviseurs à un doc
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,6 @@ Si vous souhaitez que les nouvelles approbations de document soient activées da
 
 ## Utilisation de nouvelles approbations de document
 
-Pour les utilisateurs qui souhaitent créer ou gérer des validations de document, reportez-vous aux articles répertoriés dans la section [Gestion des approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+Pour les utilisateurs qui souhaitent créer ou gérer des validations de document, reportez-vous aux articles répertoriés dans la section [Approbation de documents : index de l’article](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
-Pour les utilisateurs qui souhaitent consulter ou approuver des documents pour lesquels ils ont reçu une demande, reportez-vous aux articles répertoriés dans la section [Révision et approbation de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md).
+Pour les utilisateurs qui souhaitent consulter ou approuver des documents pour lesquels ils ont reçu une demande, reportez-vous aux articles répertoriés dans la section [Documents de révision : index de l’article](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
