@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2288'
 ht-degree: 3%
 
 ---
@@ -264,10 +264,6 @@ Pour ajouter un filtre à une vue de tableau :
 
      Le tableau ci-dessous présente les modificateurs disponibles pour chaque type de champ.
 
-     >[!TIP]
-     >
-     > Vous ne pouvez pas sélectionner de champs liés. Pour plus d’informations, voir [Créer des champs](../fields/create-fields.md).
-
      <table>
         <thead>
         <tr>
@@ -370,15 +366,11 @@ Tenez compte des points suivants :
 Pour ajouter un groupement :
 
 1. Créez une vue de chronologie pour un type d’enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](../views/manage-record-views.md).
-1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
+1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue du tableau.
 
-   ![](assets/grouping-ui-table-view.png)
+   ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
-
-   >[!TIP]
-   >
-   >Vous ne pouvez pas sélectionner de champs liés.
 
    Le groupement est appliqué automatiquement à la table et les enregistrements s&#39;affichent sous la ligne de séparation du groupement.
 
@@ -428,6 +420,7 @@ Pour trier <!--ungrouped (add this when sorting for groupings will be available-
    Ou
 
    Passez la souris sur le nom d’une colonne dans la vue du tableau, cliquez sur la flèche pointant vers le bas située à droite du nom de l’en-tête de colonne, puis cliquez sur **Tri par ce champ**. Le champ est ajouté en tant que sélection de tri dans l’icône Tri située dans le coin supérieur droit de la vue du tableau.
+
 1. Dans le **Tri des enregistrements par** , cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent** et recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    Le tri est appliqué automatiquement à la vue du tableau et les enregistrements s&#39;affichent triés selon les critères que vous avez sélectionnés.
@@ -437,10 +430,6 @@ Pour trier <!--ungrouped (add this when sorting for groupings will be available-
 1. (Facultatif) Répétez les étapes ci-dessus pour trier par champs supplémentaires.
 
    Le nombre de champs par lesquels vous effectuez un tri s’affiche à gauche de l’icône Tri dans le coin supérieur droit de la barre d’outils. Vous ne pouvez sélectionner que les champs qui s&#39;affichent dans les colonnes du tableau.
-
-   >[!TIP]
-   >
-   > Vous ne pouvez pas sélectionner de champs liés. Pour plus d’informations, voir [Créer des champs](../fields/create-fields.md).
 
 1. (Facultatif) Dans la variable **Tri des enregistrements par** , cliquez sur le bouton **x** à droite d’un champ de tri pour supprimer le tri
 

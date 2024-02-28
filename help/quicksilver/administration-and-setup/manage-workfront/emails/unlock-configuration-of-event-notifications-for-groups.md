@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Déverrouiller ou verrouiller la configuration des notifications d’événement pour tous les groupes
 description: Si vous êtes administrateur Adobe Workfront, vous pouvez déverrouiller ou reverrouiller la possibilité pour les administrateurs de groupe de configurer une notification d’événement pour les groupes de niveau supérieur qu’ils gèrent. La configuration d'une notification d'événement consiste à l'activer ou la désactiver.
-author: Lisa, Caroline
+author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 325fb9e58d32d1b6cfa1035cd4a25da4b66f6955
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 

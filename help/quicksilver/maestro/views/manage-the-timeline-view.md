@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -207,13 +207,9 @@ Pour ajouter un groupement dans la vue de frise chronologique :
 1. Créez une vue de chronologie pour un type d’enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
 
-   ![](assets/grouping-ui-timeline-view.png)
+   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
-
-   >[!TIP]
-   >
-   >Vous ne pouvez pas sélectionner de champs liés.
 
    Le groupement est appliqué automatiquement à la chronologie et les enregistrements s&#39;affichent dans la zone de groupement.
 

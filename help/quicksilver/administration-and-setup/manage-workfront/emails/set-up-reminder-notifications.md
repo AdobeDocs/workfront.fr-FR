@@ -1,18 +1,18 @@
 ---
-title: Configuration des notifications de rappel
-description: Configuration des notifications de rappel
-author: Alina, Lisa
+title: Configurer des notifications de rappel
+description: Configurer des notifications de rappel
+author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Configuration des notifications de rappel
+# Configurer des notifications de rappel
 
 <!-- Audited: 1/2024 -->
 

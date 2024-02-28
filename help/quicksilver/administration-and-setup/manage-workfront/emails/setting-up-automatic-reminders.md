@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Configuration de rappels automatiques
-description: Configuration de rappels automatiques
-author: Lisa, Caroline
+title: Mettre en place des rappels automatiques
+description: Mettre en place des rappels automatiques
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 1%
+source-wordcount: '611'
+ht-degree: 4%
 
 ---
 
-# Configuration de rappels automatiques
+# Mettre en place des rappels automatiques
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-## Configuration de rappels automatiques
+## Mettre en place des rappels automatiques
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
@@ -91,7 +91,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    L’heure est calculée à partir de la date d’achèvement planifiée de la tâche ou de la publication.
 
-   Indiquez le nombre de minutes, heures, jours, semaines ou mois à ajouter à la date d’achèvement planifiée des tâches ou des problèmes. Sélectionner **Minutes écoulées**, **Heures écoulées**, **Jours écoulés** ou **Semaines terminées** pour ajouter une heure incluant les week-ends, jours fériés et heures non ouvrées, comme indiqué dans votre planning.
+   Indiquez le nombre de minutes, heures, jours, semaines ou mois à ajouter à la date d’achèvement planifiée des tâches ou des problèmes. Sélectionner **Minutes écoulées**, **Heures écoulées**, **Jours écoulés**, ou **Semaines terminées** pour ajouter une heure incluant les week-ends, jours fériés et heures non ouvrées, comme indiqué dans votre planning.
 
    Par exemple, si une tâche est affectée le vendredi et a une durée de 3 jours écoulés, la date d’achèvement de la tâche est définie pour le lundi (en supposant que le samedi et le dimanche soient un week-end). Si la tâche a une durée de 3 jours (non écoulée), la date de fin de la tâche est définie pour le mercredi.
 

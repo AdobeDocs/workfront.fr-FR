@@ -2,13 +2,13 @@
 navigation-topic: notifications
 title: Personnalisation des sujets des emails pour les notifications d’événement
 description: Vous pouvez personnaliser l’objet des emails déclenchés par les notifications d’événement.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,6 @@ Certaines notifications d’événement ont plusieurs objets, ce qui signifie qu
 >* Commentaire d&#39;élément de travail pour le cessionnaire de l&#39;élément de travail
 >
 
-
 ## Exigences d’accès
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
@@ -44,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -66,8 +65,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Dans le panneau de gauche, cliquez sur **Email** > **Notifications**.
 
 1. Cliquez sur le bouton **Notifications d’événement** .
-1. Cliquez sur le nom de la notification d’événement que vous souhaitez personnaliser pour ouvrir le **Notification d’événement** de la boîte.
-1. Dans le **Email Subject** , modifiez le texte et les champs, y compris les champs personnalisés, dans l’objet de l’email.
+1. Cliquez sur le nom de la notification d’événement à personnaliser pour ouvrir la **Notification d’événement** de la boîte.
+1. Dans le **Objet du courrier électronique** , modifiez le texte et les champs, y compris les champs personnalisés, dans l’objet de l’email.
 
    Les noms des champs ajoutés doivent correspondre à la syntaxe de la casse des chameaux de notre structure de base de données. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
@@ -77,13 +76,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Certaines notifications d’événement comportent plusieurs lignes d’objet, selon les objets qu’elles déclenchent.
 
-Par exemple, &quot;Quelqu’un m’inclut sur une mise à jour dirigée&quot; comporte deux lignes de sujets différents : La première concerne les tâches, les problèmes, les tâches de modèle et les documents (également appelés &quot;referenceObject&quot;), la seconde les objets qui permettent aux utilisateurs d’effectuer des commentaires, tels que le portfolio, le programme, etc. (également appelé &quot;topReferenceObject&quot;).
+Par exemple, &quot;Quelqu’un m’inclut sur une mise à jour dirigée&quot; comporte deux lignes de sujets différents : d’abord pour les tâches, les problèmes, les tâches de modèle et les documents (également appelé &quot;referenceObject&quot;), et ensuite pour les objets qui permettent aux utilisateurs de faire des commentaires, comme un portfolio, un programme, etc. (également appelé &quot;topReferenceObject&quot;).
 
 ![](assets/Ev-not-mult-subj-lines.png)
 
-Si un utilisateur est inclus dans une conversation sur la tâche, le problème, la tâche de modèle ou le document, un courrier électronique est généré avec le premier objet. La ligne d’objet contient &quot;referenceObject:name&quot; et le système définit l’objet et affiche le nom approprié dans le champ d’objet. L’objet de l’email ressemble à ceci : &quot;Commentaire sur la tâche 123 sur le projet ABC.&quot;
+Si un utilisateur est inclus dans une conversation sur la tâche, le problème, la tâche de modèle ou le document, un courrier électronique est généré avec le premier objet. La ligne d’objet contient &quot;referenceObject:name&quot; et le système définit l’objet et affiche le nom approprié dans le champ d’objet. L’objet du courrier électronique ressemblerait à ceci : &quot;Commentaire sur la tâche 123 sur le projet ABC&quot;.
 
-S’il est ajouté à une conversation de projet, un courrier électronique contenant le deuxième objet est généré. Ici, la ligne d’objet contient &quot;topReferenceObject:name&quot; et de nouveau Workfront identifie l’objet référencé et renvoie ce nom d’objet au lieu de &quot;topReferenceObject:name&quot; dans l’objet. L’objet de l’email ressemble à ceci : &quot;Commentaire sur le projet ABC.&quot;
+S’il est ajouté à une conversation de projet, un courrier électronique contenant le deuxième objet est généré. Ici, la ligne d’objet contient &quot;topReferenceObject:name&quot; et de nouveau Workfront identifie l’objet référencé et renvoie ce nom d’objet au lieu de &quot;topReferenceObject:name&quot; dans l’objet. L’objet de l’email ressemble à ceci : &quot;Commentaire sur le projet ABC&quot;.
 
 Pour modifier l’objet du courrier électronique et ajouter des champs supplémentaires à l’une des lignes d’objet, reportez-vous à la section [Personnalisation de l’objet des emails pour les notifications d’événement](#customize-email-subject-lines-for-event-notifications) dans cet article.
 
@@ -91,7 +90,7 @@ Pour modifier l’objet du courrier électronique et ajouter des champs supplém
 
 Certaines notifications d’événement comportent également plusieurs sujets de courrier électronique pour décrire les différentes actions effectuées sur les objets.
 
-Par exemple, demander l’ajout d’un document à un problème est un événement qui peut déclencher deux courriers électroniques différents : un pour lorsque le document est ajouté et un autre pour lorsque le document est modifié.
+Par exemple, la demande d’ajout d’un document à un problème peut déclencher deux emails différents : un pour lorsque le document est ajouté et un autre pour lorsque le document est modifié.
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 

@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: E-mails
 description: Les courriers électroniques dans Adobe Workfront se composent de notifications, de rappels et d’invitations d’utilisateurs. Les administrateurs système sont chargés de définir de nombreux paramètres de courrier électronique. Cependant, d’autres utilisateurs (en fonction du niveau d’accès) peuvent bénéficier de l’utilisation de fonctionnalités de courrier électronique pour gérer leur propre communication sur le travail.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

@@ -1,11 +1,11 @@
 ---
 title: Configuration des notifications d’événement pour tous les membres du système
 description: Les notifications d’événement déclenchent des emails aux utilisateurs lorsqu’un événement spécifique se produit. En tant qu’administrateur Adobe Workfront ou utilisateur disposant d’un niveau d’accès Planificateur , vous pouvez configurer une notification d’événement pour tous les utilisateurs du système. La configuration d'une notification d'événement consiste à l'activer ou la désactiver.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%

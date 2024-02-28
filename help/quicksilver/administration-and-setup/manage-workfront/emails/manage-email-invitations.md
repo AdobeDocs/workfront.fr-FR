@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Gérer les invitations par courrier électronique aux nouveaux utilisateurs
 description: En tant qu’administrateur d’Adobe Workfront, vous pouvez ajouter des utilisateurs à Workfront et les informer qu’ils ont été ajoutés en leur envoyant des invitations par courrier électronique.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 9bcd792139f8f2f0198da943e5c63a2add32e856
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées au Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, reportez-vous à la section [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 En tant qu’administrateur d’Adobe Workfront, vous pouvez ajouter des utilisateurs à Workfront et les informer qu’ils ont été ajoutés en leur envoyant des invitations par courrier électronique.
 
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -72,11 +72,11 @@ Les invitations par email sont générées dans les scénarios suivants :
 * Lorsque vous créez un utilisateur et que vous sélectionnez l’option **Envoyer un courrier électronique d’invitation à cette personne** sur le **Nouvel utilisateur** formulaire. Pour plus d’informations sur la création de nouveaux utilisateurs, voir [Ajout d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 * Lorsque vous importez plusieurs nouveaux utilisateurs et que vous sélectionnez le **Envoyer des emails d’invitation à ces personnes** . Pour plus d’informations sur l’import de plusieurs nouveaux utilisateurs, voir [Importer des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 * Une fois les utilisateurs créés, vous pouvez générer manuellement les invitations destinées aux utilisateurs qui n’ont pas encore enregistré leur compte auprès de Workfront et qui n’ont pas encore défini de mot de passe Workfront.\
-   Les utilisateurs pour lesquels un compte a été créé mais n’ont pas encore enregistré leur compte sont marqués comme **Désinscrit** dans Workfront.
+  Les utilisateurs pour lesquels un compte a été créé mais n’ont pas encore enregistré leur compte sont marqués comme **Désinscrit** dans Workfront.
 
-   >[!NOTE]
-   >
-   >Si vous désélectionnez l’option **Envoyer une invitation par courrier électronique à cette personne** lorsque vous créez l’utilisateur, l’invitation par courrier électronique ne peut pas être générée manuellement. L’envoi manuel des invitations par courrier électronique n’est possible que pour les utilisateurs qui ont reçu l’invitation par courrier électronique initiale lors de la création de leur compte. Pour plus d’informations sur la création de nouveaux utilisateurs, voir [Ajout d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  >[!NOTE]
+  >
+  >Si vous désélectionnez l’option **Envoyer une invitation par courrier électronique à cette personne** lorsque vous créez l’utilisateur, l’invitation par courrier électronique ne peut pas être générée manuellement. L’envoi manuel des invitations par courrier électronique n’est possible que pour les utilisateurs qui ont reçu l’invitation par courrier électronique initiale lors de la création de leur compte. Pour plus d’informations sur la création de nouveaux utilisateurs, voir [Ajout d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 Pour générer manuellement des invitations par courrier électronique à des utilisateurs non enregistrés existants :
 
@@ -119,11 +119,11 @@ En tant qu’administrateur Workfront, vous pouvez configurer le message que vou
       <td role="rowheader"><strong>Inclure un message et/ou la durée du service</strong> </td> 
       <td> <p>Sélectionnez cette option si vous souhaitez modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs ajoutés à Workfront. Cela n’inclut pas les utilisateurs disposant d’une licence du demandeur.</p> 
        <ul> 
-        <li><strong>Message</strong>: Si vous choisissez de modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs, indiquez le texte que vous souhaitez inclure dans vos invitations par courrier électronique en tant que corps de courrier électronique.</li> 
-        <li><strong>Termes et conditions</strong>: Si vous choisissez de modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs, indiquez le texte que vous souhaitez inclure dans vos invitations par courrier électronique en tant que conditions générales.<br></li> 
-        <li><strong>Inclure un message et/ou la durée du service pour les utilisateurs du service d’assistance</strong>: Sélectionnez cette option si vous souhaitez modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs ajoutés à Workfront qui disposent d’une licence Requestor.</li> 
-        <li><strong>Message</strong>: Si vous choisissez de modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs disposant d’une licence Requestor, spécifiez le texte que vous souhaitez inclure dans vos invitations par courrier électronique en tant que corps de courrier électronique.</li> 
-        <li><strong>Termes et conditions</strong>: Si vous choisissez de modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs disposant d’une licence Requestor, spécifiez le texte que vous souhaitez inclure dans vos invitations par courrier électronique comme conditions générales.<br></li> 
+        <li><strong>Message</strong>: si vous choisissez de modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs, indiquez le texte que vous souhaitez inclure dans vos invitations par courrier électronique en tant que corps de courrier électronique.</li> 
+        <li><strong>Termes et conditions</strong>: si vous choisissez de modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs, indiquez le texte que vous souhaitez inclure dans vos invitations par courrier électronique en tant que conditions générales.<br></li> 
+        <li><strong>Inclure un message et/ou la durée du service pour les utilisateurs du service d’assistance</strong>: sélectionnez cette option si vous souhaitez modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs ajoutés à Workfront qui disposent d’une licence Requestor.</li> 
+        <li><strong>Message</strong>: si vous choisissez de modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs disposant d’une licence Requestor, spécifiez le texte que vous souhaitez inclure dans vos invitations par courrier électronique en tant que corps de courrier électronique.</li> 
+        <li><strong>Termes et conditions</strong>: si vous choisissez de modifier l’invitation par courrier électronique pour tous les nouveaux utilisateurs disposant d’une licence Requestor, spécifiez le texte que vous souhaitez inclure dans vos invitations par courrier électronique comme conditions générales.<br></li> 
         <li> <p>Dans le <strong>Aperçu de l’invitation</strong> , vous pouvez voir un aperçu de votre invitation par courrier électronique. Si vous avez choisi d’inclure un message personnalisé dans votre invitation par courrier électronique, le message personnalisé s’affiche dans cette zone.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 

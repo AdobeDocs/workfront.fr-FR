@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 >[!IMPORTANT]
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
+
+## Semaine du 26 février 2024
+
+### Filtrer, trier et regrouper par enregistrements ou champs de recherche connectés
+
+Production : 28 février 2024
+
+Aperçu : à déterminer
+
+Vous pouvez désormais filtrer, trier et regrouper en fonction des enregistrements connectés ou de leurs champs de recherche. Cette amélioration vous permettra d’organiser et de visualiser efficacement vos données dans les vues de tableau et de chronologie.
+
+Pour plus d’informations, voir [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md) et [Gestion du mode Chronologie](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## Semaine du 5 février 2024
 
@@ -124,7 +136,7 @@ Production : 1er février 2024
 
 Aperçu : à déterminer
 
-Pour éviter toute confusion et simplifier la gestion des espaces de travail, nous avons supprimé d’un espace de travail les cartes de type d’enregistrement prêtes à l’emploi générées automatiquement pour les objets non Maestro connectés.
+Pour éviter toute confusion et simplifier la gestion des espaces de travail, nous avons supprimé d’un espace de travail les cartes de type d’enregistrement générées automatiquement et en lecture seule pour les objets non Maestro connectés.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
