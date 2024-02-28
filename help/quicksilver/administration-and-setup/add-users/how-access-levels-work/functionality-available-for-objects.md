@@ -10,10 +10,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 12%
+source-wordcount: '1599'
+ht-degree: 11%
 
 ---
 
@@ -41,10 +41,10 @@ Elle indique également les actions que les administrateurs Workfront peuvent d�
 | Approbation d’un projet | ✓ | ✓ |   |   |
 | Ajouter un document | ✓ | ✓ |   |   |
 | Ajouter un problème | ✓ | ✓ |   |   |
-| Ajouter  tâches | ✓ |   |   |   |
+| Ajouter des tâches | ✓ |   |   |   |
 | Envoyer des mises à jour/commentaires | ✓ | ✓ |   |   |
-| Modifier l’état | ✓ |   |   |   |
-| Heures de journal | ✓ | ✓ |   |   |
+| Modifier le statut | ✓ |   |   |   |
+| Consigner les heures | ✓ | ✓ |   |   |
 | Modifier des affectations | ✓ |   |   |   |
 | Gestion d’une ligne de base | ✓ |   |   |   |
 | Gestion des risques | ✓ |   |   |   |
@@ -73,29 +73,29 @@ Elle indique également les actions que les administrateurs Workfront peuvent d�
 | Partager à l’échelle du système | ✓&#42; |   |   |   |
 | Afficher | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Ajout de prédécesseurs | ✓ |   |   |   |
-| Ajouter  problèmes | ✓ | ✓ |   |   |
+| Ajouter des problèmes | ✓ | ✓ |   |   |
 | Modification d’une tâche (à l’exception de son état) | ✓ |   |   |   |
 | Modifier l’état de la tâche | ✓ |   |   |   |
 | Ajouter des documents | ✓ | ✓ |   |   |
 | Copier une tâche | ✓ |   |   |   |
 | Déplacer une tâche | ✓ |   |   |   |
-| Heures de journal | ✓ | ✓ |   |   |
+| Consigner les heures | ✓ | ✓ |   |   |
 | Acceptation d’une affectation | ✓ |   |   |   |
 | Effectuer une affectation | ✓ | ✓ |   |   |
 | Joindre un formulaire personnalisé | ✓ |   |   |   |
 | Modifier des champs personnalisés | ✓ |   |   |   |
 | Créer un processus d’approbation | ✓ |   |   |   |
-| Approbation d’une tâche | ✓ | ✓ |   |   |
+| Approbation d’une tâche | ✓ | ✓ | ✓ |   |
 | Editer les finances | ✓ |   |   |   |
 | Ajouter/modifier des dépenses | ✓ |   |   |   |
-| Afficher le financement | ✓ | ✓ |   |   |
+| Afficher Finance | ✓ | ✓ |   |   |
 | Ajouter des mises à jour/commentaires | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
 &#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
 
-## Événements
+## Problèmes
 
 | Action | Standard | Léger | Contributeur | Utilisateur externe |
 |-------------------------------|----------|--------|-------------|---------------|
@@ -112,11 +112,11 @@ Elle indique également les actions que les administrateurs Workfront peuvent d�
 | Ajouter des documents | ✓ | ✓ | ✓ |   |
 | Copier les problèmes | ✓ | ✓ | ✓ |   |
 | Déplacer les problèmes | ✓ | ✓ | ✓ |   |
-| Heures de journal | ✓ |   |   |   |
+| Consigner les heures | ✓ |   |   |   |
 | Convertir un problème en projet | ✓ |   |   |   |
 | Convertir un problème en tâche | ✓ |   |   |   |
 | Accepter les affectations | ✓ |   |   |   |
-| Effectuer des affectations | ✓ |   |   |   |
+| Créer des affectations | ✓ |   |   |   |
 | Ajout de mises à jour et de commentaires | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
@@ -230,10 +230,10 @@ Les utilisateurs disposant d’une licence Standard peuvent avoir un accès comp
 | Déplacer vers (objet) | ✓ | ✓ | ✓ |   |
 | Envoyer à (intégration) | ✓ | ✓ | ✓ |   |
 | Ajout de mises à jour et de commentaires | ✓ | ✓ | ✓ |   |
-| Chargement d’une nouvelle version | ✓ | ✓ | ✓ |   |
+| Télécharger une nouvelle version | ✓ | ✓ | ✓ |   |
 | Suppression d’une version | ✓ | ✓ | ✓ |   |
 | Aperçu | ✓ | ✓ | ✓ | ✓ |
-|  Épreuve | ✓ | ✓ | ✓ | ✓ |
+| Épreuve | ✓ | ✓ | ✓ | ✓ |
 | Générer un BAT | ✓ |   |   |   |
 | Supprimer le BAT | ✓ | ✓ | ✓ |   |
 | Ajouter/Supprimer&#42;&#42; | ✓ | ✓ | ✓ |   |
@@ -245,7 +245,7 @@ Les utilisateurs disposant d’une licence Standard peuvent avoir un accès comp
 
 &#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
 
-## Utilisateurs et utilisatrices
+## Utilisateurs
 
 | Action | Standard | Léger | Contributeur | Utilisateur externe** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
@@ -254,7 +254,7 @@ Les utilisateurs disposant d’une licence Standard peuvent avoir un accès comp
 | Modification, suppression, désactivation, connexion ou réinitialisation du mot de passe de n’importe quel utilisateur | ✓* |   |   |   |
 | Modifiez, supprimez, désactivez, connectez-vous en tant que ou réinitialisez le mot de passe pour tout utilisateur d’un groupe qu’il administre. | ✓* |   |   |   |
 | Affichage des utilisateurs | ✓ | ✓ | ✓ |   |
-| Afficher les coordonnées | ✓ | ✓ | ✓ |   |
+| Afficher les informations de contact | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
@@ -301,9 +301,9 @@ Seuls les utilisateurs disposant d’une licence Standard peuvent avoir un accè
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | Modifier la facturation des rôles et les taux de coûts | ✓&#42; |   |   |   |
 | Modification de la facturation et des coûts des utilisateurs | ✓&#42; |   |   |   |
-| Afficher la facturation des rôles et les taux de coûts | ✓&#42; |   |   |   |
+| Affichage de la facturation des rôles et des taux de coûts | ✓&#42; |   |   |   |
 | Affichage de la facturation et des coûts des utilisateurs | ✓&#42; |   |   |   |
-| Gestion des enregistrements de facturation | ✓ |   |   |   |
+| Gérer des enregistrements de facturation | ✓ |   |   |   |
 | Gérer les dépenses | ✓ |   |   |   |
 | Affichage des données financières | ✓&#42; | ✓&#42; |   |   |
 | <span class="preview">Gestion des cartes de taux</span> | ✓ |   |   |   |
@@ -330,7 +330,7 @@ Seuls les utilisateurs disposant d’une licence Standard peuvent avoir un accè
 | Affichage de l’affectation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; |   |   |
 | Affichage des groupes de ressources | ✓&#42; | ✓&#42; |   |   |
 | Ressources budgétaires dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |   |
-| Joindre des groupes de ressources à des projets, des modèles et des utilisateurs | ✓ |   |   |   |
+| Joindre des groupes de ressources aux projets, modèles et utilisateurs | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -369,7 +369,7 @@ Seuls les utilisateurs disposant d’une licence Standard peuvent avoir un accè
 | Modifier/supprimer tous les objectifs |   | ✓ |
 | Afficher les objectifs dans le menu principal | ✓ | ✓ |
 | Afficher la zone Objectifs à partir d’un lien partagé | ✓ | ✓ |
-| Affichage de tous les objectifs dans le système | ✓ | ✓ |
+| Afficher tous les objectifs du système | ✓ | ✓ |
 | Activer/désactiver/fermer tous les objectifs |   | ✓ |
 | Créer/modifier/supprimer des activités |   | ✓ |
 | Créer/modifier/supprimer des résultats |   | ✓ |
