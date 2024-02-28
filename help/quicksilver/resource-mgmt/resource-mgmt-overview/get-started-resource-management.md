@@ -7,9 +7,9 @@ description: La gestion des ressources vous permet de configurer votre système 
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Workfront comporte plusieurs ensembles d’outils utilisés pour gérer les ress
 
    * **Le planificateur de ressources**: vous pouvez utiliser le planificateur de ressources dans la première étape de la gestion des ressources pour planifier l’heure de vos ressources en fonction de leur disponibilité planifiée. Lors de la phase de planification des ressources, vous pouvez organiser les utilisateurs dans les pools de ressources et affecter plusieurs pools de ressources à un projet.
 
-     Pour plus d’informations sur la planification des ressources, voir [Planification des ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Pour plus d’informations sur la planification des ressources, voir [Planification des ressources : index des articles](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Planification du scénario**: il s’agit d’une planification des ressources de niveau supérieur qui vous permet de les gérer au cours de plusieurs initiatives qui peuvent s’étendre sur un, trois ou cinq ans et inclure plusieurs projets. Vous pouvez utiliser le meilleur scénario pour tirer le meilleur parti de leur disponibilité et de votre budget.
 
@@ -118,7 +118,7 @@ Le processus de gestion des ressources dans Workfront comprend les étapes suiva
 
   Pour plus d’informations sur la planification des ressources et l’affectation des tâches, consultez les sections suivantes :
 
-   * [Planification des ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Planification des ressources : index des articles](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Gestionnaire de scénarios Adobe Workfront](../../scenario-planner/scenario-planning.md)
    * [L’équilibreur de charge de travail : index de l’article](../../resource-mgmt/workload-balancer/workload-balancer.md)
 

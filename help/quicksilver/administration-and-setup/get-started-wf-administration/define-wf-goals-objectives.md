@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Pour ce faire, vous pouvez configurer les éléments suivants dans Workfront :
 
 * Développez un processus de diffusion des services et utilisez Workfront pour gérer les tâches associées à n’importe quelle responsabilité quotidienne ou hebdomadaire.
 * Utilisez les outils de gestion des ressources pour afficher l’allocation des ressources aux tâches afin de mieux comprendre comment améliorer la productivité et la qualité de diffusion.\
-  Pour plus d’informations sur la planification des ressources, voir [Planification des ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  Pour plus d’informations sur la planification des ressources, voir [Planification des ressources : index des articles](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## Définition des critères de réussite
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -153,5 +153,5 @@ Lors de la définition de tâches, tenez compte des points suivants :
    * Réduire les heures planifiées de chaque tâche.
    * Ajoutez d’autres utilisateurs à une tâche pour vous assurer qu’elle peut être complétée pendant le temps qui lui est alloué.
    * Réaffectez les tâches aux utilisateurs qui sont disponibles sans autre contrainte.\
-     Pour plus d’informations sur la planification des ressources de votre projet, consultez l’article [Planification des ressources dans Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Pour plus d’informations sur la planification des ressources de votre projet, consultez l’article [Planification des ressources : index des articles](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Pour plus d’informations sur la planification de vos ressources pour accomplir le travail sur un projet, voir [Présentation de l’équilibreur de charge](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
