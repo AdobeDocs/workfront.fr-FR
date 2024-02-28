@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -409,6 +409,8 @@ Tenez compte des points suivants lors du tri des enregistrements dans la vue de 
 * Le tri que vous créez est conservé lorsque vous quittez la page.
 
 * Vous pouvez trier en fonction du nombre de champs affichés dans la vue de tableau d’un type d’enregistrement.
+
+* Les champs liés ne peuvent être triés que s’ils autorisent des valeurs uniques ou s’ils autorisent des valeurs à sélection multiple avec l’option de synthèse sélectionnée (somme, moyenne, max, min).
 
 * Le fait de supprimer des critères de tri les supprime de toute personne accédant au même type d’enregistrement que vous et utilise la même vue que vous.
 
