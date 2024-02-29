@@ -8,9 +8,9 @@ description: Les fonctions de date et d’heure suivantes sont disponibles dans 
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1992'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -44,9 +44,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -56,7 +56,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL formatDate (date); format ; [timezone])]
+## [!UICONTROL formatDate (date; format; [timezone])]
 
 Utilisez cette fonction lorsque vous disposez d’une valeur Date, telle que `12-10-2021 20:30`, que vous souhaitez mettre en forme en tant que valeur Texte, par exemple `Dec 10, 2021 8:30 PM`.
 
@@ -86,12 +86,12 @@ Pour plus d’informations, voir [Date](../../workfront-fusion/mapping/item-data
   <tr> 
    <td>Format [!UICONTROL] </td> 
    <td>Texte </td> 
-   <td> <p>Permet de définir un format à l’aide de jetons de mise en forme de date/heure. Pour plus d’informations, voir <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Jetons pour le formatage de la date et de l’heure dans [!DNL Adobe Workfront Fusion]</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
+   <td> <p>Permet de définir un format à l’aide de jetons de mise en forme de date/heure. Pour plus d’informations, voir <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Jetons pour le formatage de la date et de l’heure dans [!DNL Adobe Workfront Fusion]</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fuseau horaire] </td> 
    <td>Texte </td> 
-   <td> <p>(Facultatif) Permet de spécifier le fuseau horaire utilisé pour la conversion. </p> <p>Pour obtenir la liste des fuseaux horaires reconnus, consultez la colonne "Nom de la base de données TZ" dans Wikipédia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Liste des fuseaux horaires de la base tz</a>. Seules les valeurs répertoriées dans cette colonne sont reconnues par la fonction comme un fuseau horaire valide. Toute autre valeur est ignorée et le fuseau horaire des scénarios spécifié dans votre profil est utilisé à la place. Pour plus d’informations, voir dans l’article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Modification des paramètres de profil dans [!DNL Adobe Workfront Fusion]</a>.</p> <p>Si vous omettez ce paramètre, le fuseau horaire Scénarios spécifié dans vos paramètres de profil est appliqué. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>(Facultatif) Permet de spécifier le fuseau horaire utilisé pour la conversion. </p> <p>Pour obtenir la liste des fuseaux horaires reconnus, consultez la colonne "Nom de la base de données TZ" dans Wikipédia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Liste des fuseaux horaires de la base tz</a>. Seules les valeurs répertoriées dans cette colonne sont reconnues par la fonction comme un fuseau horaire valide. Toute autre valeur est ignorée et le fuseau horaire des scénarios spécifié dans votre profil est utilisé à la place. Pour plus d’informations, voir dans l’article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Modification des paramètres de profil dans [!DNL Adobe Workfront Fusion]</a>.</p> <p>Si vous omettez ce paramètre, le fuseau horaire Scénarios spécifié dans vos paramètres de profil est appliqué. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +100,7 @@ Si un autre type est fourni, la contrainte de type est appliquée. Pour plus d�
 
 ### Valeur et type de retour
 
-Le `formatDate` renvoie une représentation textuelle de la valeur Date donnée en fonction du format et du fuseau horaire spécifiés. Le type de données est Texte.
+La variable `formatDate` renvoie une représentation textuelle de la valeur Date donnée en fonction du format et du fuseau horaire spécifiés. Le type de données est Texte.
 
 >[!INFO]
 >
@@ -124,7 +124,7 @@ Le `formatDate` renvoie une représentation textuelle de la valeur Date donnée 
 >
 >    Renvoie 19.03.2019 15:30
 
-## [!UICONTROL parseDate (text; format ; [timezone])]
+## [!UICONTROL parseDate (texte; format; [timezone])]
 
 Utilisez cette fonction lorsque vous disposez d’une valeur Texte représentant une date (telle que `12-10-2019 20:30` ou `Aug 18, 2019 10:00 AM`) et que vous souhaitez convertir (analyser) en une valeur Date (représentation lisible par un ordinateur binaire). Pour plus d’informations, voir [Date](../../workfront-fusion/mapping/item-data-types.md#date) et [Texte](../../workfront-fusion/mapping/item-data-types.md#text) dans l’article [Types de données d’élément dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
@@ -152,12 +152,12 @@ La seconde colonne indique le type attendu. Si un autre type est fourni, la cont
   <tr> 
    <td>Format [!UICONTROL] </td> 
    <td>Texte </td> 
-   <td> <p>Permet de définir un format à l’aide de jetons de mise en forme de date/heure. Pour plus d’informations, voir <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Jetons pour le formatage de la date et de l’heure dans Adobe Workfront Fusion</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
+   <td> <p>Permet de définir un format à l’aide de jetons de mise en forme de date/heure. Pour plus d’informations, voir <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Jetons pour le formatage des dates et heures dans Adobe Workfront Fusion</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fuseau horaire] </td> 
    <td>Texte </td> 
-   <td> <p>(Facultatif) Permet de spécifier le fuseau horaire utilisé pour la conversion. </p> <p>Pour obtenir la liste des fuseaux horaires reconnus, consultez la colonne "Nom de la base de données TZ" dans Wikipédia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Liste des fuseaux horaires de la base tz</a>. Seules les valeurs répertoriées dans cette colonne sont reconnues par la fonction comme un fuseau horaire valide. Toute autre valeur est ignorée et le fuseau horaire des scénarios spécifié dans votre profil est utilisé à la place. Pour plus d’informations, voir dans l’article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Modification des paramètres de profil dans Adobe Workfront Fusion</a>.</p> <p>Si vous omettez ce paramètre, le fuseau horaire Scénarios spécifié dans vos paramètres de profil est appliqué.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>(Facultatif) Permet de spécifier le fuseau horaire utilisé pour la conversion. </p> <p>Pour obtenir la liste des fuseaux horaires reconnus, consultez la colonne "Nom de la base de données TZ" dans Wikipédia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Liste des fuseaux horaires de la base tz</a>. Seules les valeurs répertoriées dans cette colonne sont reconnues par la fonction comme un fuseau horaire valide. Toute autre valeur est ignorée et le fuseau horaire des scénarios spécifié dans votre profil est utilisé à la place. Pour plus d’informations, voir dans l’article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Modification des paramètres de profil dans Adobe Workfront Fusion</a>.</p> <p>Si vous omettez ce paramètre, le fuseau horaire Scénarios spécifié dans vos paramètres de profil est appliqué.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -186,15 +186,15 @@ Cette fonction convertit une chaîne de texte en date, selon le format et le fus
 >
 >* `parseDate(1482940986;X)`
 >
->  Renvoie 2016-12-28T16:03:06.000Z
+>   Renvoie 2016-12-28T16:03:06.000Z
 
-## [!UICONTROL addDays (date); number)] {#adddays-date-number}
+## [!UICONTROL addDays (date; number)] {#adddays-date-number}
 
 Renvoie une nouvelle date suite à l’ajout d’un nombre donné de jours à une date. Pour soustraire des jours, saisissez un nombre négatif.
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `addDays(2016-12-08T15:55:57.536Z;2)`
 >
@@ -204,13 +204,13 @@ Renvoie une nouvelle date suite à l’ajout d’un nombre donné de jours à un
 >
 >    Renvoie 2016-12-6T15:55:57,536Z
 
-## [!UICONTROL addHours (date; number)] {#addhours-date-number}
+## [!UICONTROL addHours (date; nombre)] {#addhours-date-number}
 
 Renvoie une nouvelle date suite à l&#39;ajout d&#39;un nombre d&#39;heures donné à une date. Pour soustraire les heures, saisissez un nombre négatif.
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `addHours(2016-12-08T15:55:57.536Z; 2)`
 >
@@ -220,13 +220,13 @@ Renvoie une nouvelle date suite à l&#39;ajout d&#39;un nombre d&#39;heures donn
 >
 >    Renvoie 2016-12-08T13:55:57,536Z
 
-## [!UICONTROL addMinutes (date); number)] {#addminutes-date-number}
+## [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
 
 Renvoie une nouvelle date suite à l&#39;ajout d&#39;un nombre donné de minutes à une date. Pour soustraire les minutes, saisissez un nombre négatif.
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;2)`
 >
@@ -242,7 +242,7 @@ Renvoie une nouvelle date suite à l&#39;ajout d&#39;un nombre donné de mois à
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;2)`
 >
@@ -258,7 +258,7 @@ Renvoie une nouvelle date suite à l’ajout d’un nombre donné de secondes à
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;2)`
 >
@@ -268,13 +268,13 @@ Renvoie une nouvelle date suite à l’ajout d’un nombre donné de secondes à
 >
 >   Renvoie 2016-12-08T15:55:55,536Z
 
-## [!UICONTROL addYears (date); number)]
+## [!UICONTROL addYears (date; number)]
 
 Renvoie une nouvelle date résultant de l&#39;ajout d&#39;un nombre d&#39;années donné à une date. Pour soustraire des années, saisissez un nombre négatif.
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `addYears(2016-08-08T15:55:57.536Z;2)`
 >
@@ -284,7 +284,7 @@ Renvoie une nouvelle date résultant de l&#39;ajout d&#39;un nombre d&#39;année
 >
 >    Renvoie 2014-08-08T15:55:57,536Z
 
-## [!UICONTROL setSecond (date; number)]
+## [!UICONTROL setSecond (date ; nombre)]
 
 Cette fonction renvoie une nouvelle date avec les secondes spécifiées dans les paramètres .
 
@@ -294,7 +294,7 @@ Si vous devez indiquer un nombre en dehors de la plage, nous vous recommandons d
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `setSecond(2015-10-07T11:36:39.138Z;10)`
 >
@@ -304,17 +304,17 @@ Si vous devez indiquer un nombre en dehors de la plage, nous vous recommandons d
 >
 >    Renvoie 2015-10-07T11:37:01.138Z
 
-## [!UICONTROL setMinute (date; number)]
+## [!UICONTROL setMinute (date; nombre)]
 
 Cette fonction renvoie une nouvelle date avec les minutes spécifiées dans les paramètres .
 
 Indiquez un nombre compris entre 0 et 59. Si le nombre se trouve en dehors de cette plage, la fonction renvoie une minute par rapport à l’heure précédente (pour un nombre négatif) ou à l’heure suivante (pour un nombre positif).
 
-Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons d’utiliser addMinutes, comme décrit ci-dessus dans la section [addMinutes (date); number)](#addminutes-date-number).
+Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons d’utiliser addMinutes, comme décrit ci-dessus dans la section [addMinutes (date; number)](#addminutes-date-number).
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;10)`
 >
@@ -324,17 +324,17 @@ Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons
 >
 >    Renvoie 2015-10-07T12:01:39,138Z
 
-## [!UICONTROL setHour (date); number)]
+## [!UICONTROL setHour (date; nombre)]
 
 Cette fonction renvoie une nouvelle date avec l’heure spécifiée dans les paramètres .
 
 Indiquez un nombre compris entre 0 et 23. Si le nombre se trouve en dehors de cette plage, la fonction renvoie une heure à partir du jour précédent (pour un nombre négatif) ou du jour suivant (pour un nombre positif).
 
-Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons d’utiliser addHours, comme décrit ci-dessus dans la section [addHours (date; number)](#addhours-date-number).
+Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons d’utiliser addHours, comme décrit ci-dessus dans la section [addHours (date; nombre)](#addhours-date-number).
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `setHour(2015-08-07T11:36:39.138Z;6)`
 >
@@ -344,17 +344,17 @@ Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons
 >
 >    Renvoie 2015-08-06T18:36:39,138Z
 
-## [!UICONTROL setDay (date); numéro/nom du jour en anglais)]
+## [!UICONTROL setDay (date ; numéro/nom du jour en anglais)]
 
 Cette fonction renvoie une nouvelle date avec le jour spécifié dans les paramètres .
 
 Vous pouvez utiliser cette fonction pour définir le jour de la semaine, avec le dimanche comme 1 et le samedi comme 7. Si vous indiquez un nombre compris entre 1 et 7, la date obtenue est comprise dans la semaine en cours (du dimanche au samedi). Si le nombre ne figure pas dans cette plage, la fonction renvoie un jour de la semaine précédente (pour un nombre négatif) ou de la semaine suivante (pour un nombre positif).
 
-Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons d’utiliser addDays, comme décrit ci-dessus dans la section [addDays (date); number)](#adddays-date-number).
+Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons d’utiliser addDays, comme décrit ci-dessus dans la section [addDays (date; number)](#adddays-date-number).
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `setDay(2018-06-27T11:36:39.138Z;Monday)`
 >
@@ -368,7 +368,7 @@ Si vous devez spécifier un nombre en dehors de la plage, nous vous recommandons
 >
 >   Renvoie 2018-06-30T11:36:39,138Z
 
-## [!UICONTROL setDate (date); number)]
+## [!UICONTROL setDate (date; number)]
 
 Cette fonction renvoie une nouvelle date avec le jour du mois spécifié dans les paramètres.
 
@@ -376,7 +376,7 @@ Indiquez un nombre compris entre 1 et 31. Si le nombre se trouve en dehors de ce
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `setDate(2015-08-07T11:36:39.138Z;5)`
 >
@@ -386,7 +386,7 @@ Indiquez un nombre compris entre 1 et 31. Si le nombre se trouve en dehors de ce
 >
 >   Renvoie 2015-09-01T11:36:39,138Z
 
-## [!UICONTROL setMonth (date); numéro/nom du mois en anglais)]
+## [!UICONTROL setMonth (date ; numéro/nom du mois en anglais)]
 
 Cette fonction renvoie une nouvelle date avec le mois spécifié dans les paramètres .
 
@@ -394,7 +394,7 @@ Indiquez un nombre compris entre 1 et 12. Si le nombre ne figure pas dans cette 
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;5)`
 >
@@ -408,19 +408,19 @@ Indiquez un nombre compris entre 1 et 12. Si le nombre ne figure pas dans cette 
 >
 >   Renvoie 2015-01-07T12:36:39,138Z
 
-## [!UICONTROL setYear (date) number)]
+## [!UICONTROL setYear (date; number)]
 
 Renvoie une nouvelle date avec l&#39;année spécifiée dans les paramètres.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >* `setYear(2015-08-07T11:36:39.138Z;2017)`
 >
 >   Renvoie 2017-08-07T11:36:39,138Z
 
-## [!UICONTROL dateDifference (Date1; Date2; Unit)]
+## [!UICONTROL dateDifference (Date1 ; Date2 ; Unité)]
 
 Renvoie un nombre représentant la différence entre deux dates, exprimée dans l’unité spécifiée.
 
@@ -440,7 +440,7 @@ Si aucune unité n’est spécifiée, la fonction renvoie la différence en mill
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
 >
@@ -476,11 +476,11 @@ La formule contient les éléments suivants :
  <tbody> 
   <tr> 
    <td><code>1.n</code> </td> 
-   <td> <p> n jour :</p> 
+   <td> <p> N-ième jour :</p> 
     <ul> 
      <li><code>1</code> pour le 1er mardi</li> 
      <li><code>2</code> pour le 2e mardi</li> 
-     <li><code>3</code> pour le troisième mardi, etc.</li> 
+     <li><code>3</code> pour le 3e mardi, etc.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -498,7 +498,7 @@ La formule contient les éléments suivants :
   </tr> 
   <tr> 
    <td><code>1.date</code> </td> 
-   <td> <p> La date détermine le mois. Pour calculer le nJour de la semaine du mois en cours, utilisez la variable <code>now</code> .</p> </td> 
+   <td> <p> La date détermine le mois. Pour calculer le n jour de la semaine du mois en cours, utilisez la variable <code>now</code> Variable .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -530,7 +530,7 @@ Une possibilité consiste à utiliser l’expression suivante :
 >
 >* Valeurs de `D1`et `D2` doivent être des valeurs de type Date. S’il s’agit de valeurs de type Chaîne (par exemple, 20.10.2018), utilisez la variable `parseDate()` pour les convertir en valeurs de type Date.
 >
->* Le `round()` est utilisée dans les cas où l’une des dates tombe dans la période d’heure d’été et que l’autre ne le fait pas. Dans ce cas, la différence en heures est d’une heure de moins ou de plus. Vous pouvez le diviser par 24 pour un résultat non entier. Vous perdez une heure d&#39;économie en plein jour. Arrondir l’aplatit de sorte que vous n’ayez pas de pourcentage
+>* La variable `round()` est utilisée dans les cas où l’une des dates tombe dans la période d’heure d’été et que l’autre ne le fait pas. Dans ce cas, la différence en heures est d’une heure de moins ou de plus. Vous pouvez le diviser par 24 pour un résultat non entier. Vous perdez une heure d&#39;économie en plein jour. Arrondir l’aplatit de sorte que vous n’ayez pas de pourcentage
 
 ### Comment calculer le dernier jour/milliseconde du mois
 

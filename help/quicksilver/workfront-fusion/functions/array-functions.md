@@ -8,9 +8,9 @@ description: Les fonctions de tableau suivantes sont disponibles dans le panneau
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -44,9 +44,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -56,11 +56,11 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL add (tableau); value1; value2; ...)]
+## [!UICONTROL add (tableau ; valeur1 ; valeur2 ; ...)]
 
 Ajoute des valeurs spécifiées dans les paramètres à un tableau et renvoie ce tableau.
 
-## [!UICONTROL contains (tableau) ; value)]
+## [!UICONTROL contains (tableau ; valeur)]
 
 Vérifie si un tableau contient la valeur .
 
@@ -72,14 +72,14 @@ Supprime les doublons dans un tableau. Utilisez le[!UICONTROL key]&quot; pour ac
 >
 >**Exemple :** `distinct(Contacts[];name)`
 >
->Supprime les doublons dans un tableau de contacts en comparant la propriété &quot;name&quot;.
+>Supprime les doublons dans un tableau de contacts en comparant la propriété &quot;name&quot;
 
 ## [!UICONTROL aplatissement (tableau)]
 
 Crée un tableau avec tous les éléments de sous-tableau concaténés, de manière récursive, jusqu’à la profondeur spécifiée.
 
 
-## [!UICONTROL join (tableau); separator)]
+## [!UICONTROL join (tableau ; séparateur)]
 
 Concatène tous les éléments d’un tableau dans une chaîne, à l’aide du séparateur spécifié entre chaque élément.
 
@@ -91,13 +91,13 @@ Renvoie un tableau des propriétés d’un objet ou d’un tableau donné.
 
 Renvoie le nombre d’éléments d’un tableau.
 
-## [!UICONTROL map (tableau complexe); key;[clé de filtrage];[valeurs possibles pour le filtrage])]
+## [!UICONTROL map (tableau complexe; clé;[clé de filtrage];[valeurs possibles pour le filtrage])]
 
 Renvoie un tableau primitif contenant les valeurs d’un tableau complexe. Cette fonction permet de filtrer les valeurs. Utilisez des noms de variable bruts pour les clés.
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `map(Emails[];email)`
 >
@@ -110,11 +110,11 @@ Renvoie un tableau primitif contenant les valeurs d’un tableau complexe. Cette
 Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 
-## [!UICONTROL merge (tableau1); array2; ...)]
+## [!UICONTROL merge (tableau1 ; tableau2 ; ...)]
 
 Fusionne un ou plusieurs tableaux en un seul tableau.
 
-## [!UICONTROL remove (tableau) ; value1; value2; ...)]
+## [!UICONTROL remove (tableau ; valeur1 ; valeur2 ; ...)]
 
 Supprime les valeurs spécifiées dans les paramètres d’un tableau. Cette fonction n’est efficace que sur des tableaux primitifs de texte ou de nombres.
 
@@ -122,7 +122,7 @@ Supprime les valeurs spécifiées dans les paramètres d’un tableau. Cette fon
 
 Le premier élément du tableau devient le dernier élément, le second devient le prochain au dernier, etc.
 
-## [!UICONTROL slice (tableau); start; [end])]
+## [!UICONTROL slice (tableau ; démarrage) ; [end])]
 
 Renvoie un nouveau tableau contenant uniquement les éléments sélectionnés.
 
@@ -132,7 +132,7 @@ Trie les valeurs d’un tableau. Les valeurs valides de la variable `order` sont
 
 * `asc`
 
-  (par défaut) - Ordre croissant : 1, 2, 3, ... pour le type Nombre. A, B, C, a, b, c, etc. pour le type Texte
+  (par défaut) - ordre croissant : 1, 2, 3, ... pour le type Nombre. A, B, C, a, b, c, etc. pour le type Texte
 
 * `desc`
 
@@ -140,7 +140,7 @@ Trie les valeurs d’un tableau. Les valeurs valides de la variable `order` sont
 
 * `asc ci`
 
-  ordre croissant non sensible à la casse : A, a, B, b, C, c, ... pour le type Texte.
+  ordre croissant insensible à la casse : A, a, B, b, C, c, ... pour le type Texte.
 
 * `desc ci`
 
@@ -156,7 +156,7 @@ Le premier élément d’un tableau est index 1.
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `sort(Contacts[];name)`
 >
@@ -180,15 +180,15 @@ Renvoie la différence entre deux tableaux.
 
 Saisissez l’une des valeurs suivantes pour la variable `mode` .
 
-* `classic`: Renvoie un nouveau tableau qui contient tous les éléments de `array1` qui n’existent pas dans `array2`.
+* `classic`: renvoie un nouveau tableau contenant tous les éléments de `array1` qui n’existent pas dans `array2`.
 
-* `symmetric`: Renvoie un tableau d’éléments qui ne sont pas communs aux deux tableaux.
+* `symmetric`: renvoie un tableau d’éléments qui ne sont pas communs aux deux tableaux.
 
   En d’autres termes, la fonction renvoie un tableau contenant tous les éléments de la variable `array1` qui n’existent pas dans `array2`et tous les éléments de la variable `array2` qui n’existent pas dans `array1`.
 
   >[!INFO]
   >
-  >**Exemples:**
+  >**Exemples :**
   >
   >Compte tenu des tableaux suivants :
   >
@@ -211,3 +211,23 @@ Saisissez l’une des valeurs suivantes pour la variable `mode` .
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    Renvoie `[1,2,6,7]`
+
+## toArray
+
+Cette fonction convertit une collection en un tableau de paires clé-valeur.
+
+>[!INFO]
+>
+>**Exemples :**
+>
+>Compte tenu de la collection
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>La fonction
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Renvoie le tableau de paires clé-valeur
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`
