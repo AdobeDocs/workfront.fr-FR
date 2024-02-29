@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '4226'
+source-wordcount: '4257'
 ht-degree: 1%
 
 ---
@@ -315,6 +315,7 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
    >
    >Les noms des deux premières entités balisées s’affichent en regard de leurs avatars. Si plus de deux entités ne sont balisées que le nom du premier et que le nombre d’entités supplémentaires s’affiche.
 
+1. <span class="preview"> (Facultatif) Cliquez sur le nom d’un commentateur pour afficher son nom, son rôle et son adresse électronique dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur dans la zone d’informations pour ouvrir son profil utilisateur.</span>
 1. (Facultatif) Cliquez sur le **Activité du système** pour afficher les mises à jour enregistrées par le système. Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note à ce sujet et l’affiche dans l’onglet Activité du système .
 
    Pour plus d’informations, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
