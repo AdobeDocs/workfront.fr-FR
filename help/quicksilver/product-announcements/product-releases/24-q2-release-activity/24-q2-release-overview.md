@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,25 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les champs natifs de Workfront sont disponibles dans la version bêta du concepteur de formulaires</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Les champs natifs de Workfront sont désormais disponibles pour l’ajout de dans vos formulaires personnalisés. Ce nouveau type de champ vous permet d’organiser et de présenter les données à vos utilisateurs de manière logique, sans avoir à recréer des données existantes dans des champs personnalisés.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 29 février 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.3 (14 mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Mappage d’attributs désormais disponible pour les organisations qui ont migré vers Adobe IMS</a></p>
                         <p>[!BADGE en production ]{type=Informative}</p><p>Les administrateurs système Workfront peuvent désormais configurer le mappage des attributs utilisateur pour les organisations qui ont migré vers Adobe IMS. Cela permet aux informations utilisateur de transmettre à Workfront à partir du fournisseur d’authentification unique (SSO) de l’organisation, de sorte que les données de l’utilisateur n’aient pas à être saisies à la fois dans Workfront et dans le fournisseur d’authentification unique.</p>
                     </td>
@@ -73,7 +92,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logique de saut et la logique d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logique de saut et la logique d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.</a></p><p>[!BADGE en production pour version rapide ]{type=Positif}</p>
                         <p>Vous pouvez désormais modifier l’affichage existant, ignorer la logique et ajouter une nouvelle logique aux formulaires personnalisés dans la version bêta du concepteur de formulaires. Un générateur de logique convivial permet de définir les champs à afficher ou à ignorer en fonction des sélections dans le formulaire.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -111,7 +130,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Options de colonne ajoutées aux contrôles Administrateur pour la nouvelle page d’accueil à l’aide des modèles de mise en page</a></p><p>Les administrateurs peuvent désormais personnaliser les colonnes disponibles pour les utilisateurs de nouveaux widgets d’accueil spécifiques à l’aide de modèles de mise en page. Les options incluent le masquage ou l’affichage des colonnes par défaut et l’ajout de champs existants en tant que nouvelles colonnes.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Options de colonne ajoutées aux contrôles Administrateur pour la nouvelle page d’accueil à l’aide des modèles de mise en page</a></p><p>[!BADGE en production pour version rapide ]{type=Positif}</p><p>Les administrateurs peuvent désormais personnaliser les colonnes disponibles pour les utilisateurs de nouveaux widgets d’accueil spécifiques à l’aide de modèles de mise en page. Les options incluent le masquage ou l’affichage des colonnes par défaut et l’ajout de champs existants en tant que nouvelles colonnes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -148,7 +167,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet et dans une liste de tâches de projet.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a></p><p>Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet et dans une liste de tâches de projet.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -203,7 +222,33 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Pour vous donner une vue chronologique cohérente des commentaires et des journaux d’activité du système, nous vous proposons un troisième onglet dans la zone Mises à jour de tous les objets. L’onglet "Tous" capture les commentaires des utilisateurs et les commentaires sur l’activité du système dans un flux cohérent.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Informations supplémentaires sur les commentaires disponibles dans la nouvelle expérience de commentaires</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Les améliorations suivantes ont été apportées à la nouvelle expérience de commentaires :</p>
+                        <ul>
+                            <li>
+                                <p>Vous pouvez cliquer sur le nom d’un commentateur pour afficher son nom, son rôle et son adresse électronique dans une zone d’informations. Ces informations peuvent vous aider à identifier l’utilisateur correct, si vous avez plusieurs utilisateurs portant le même nom. Lorsque vous cliquez sur le nom du commentateur dans la zone d’informations, son profil utilisateur s’ouvre.</p>
+                            </li>
+                            <li>
+                                <p>Votre nom d’utilisateur est mis en surbrillance dans les commentaires sur lesquels vous êtes balisé lorsque vous êtes mentionné dans le texte du commentaire.</p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 29 février 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.3 (14 mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système</a></p><p>Pour vous donner une vue chronologique cohérente des commentaires et des journaux d’activité du système, nous vous proposons un troisième onglet dans la zone Mises à jour de tous les objets. L’onglet "Tous" capture les commentaires des utilisateurs et les commentaires sur l’activité du système dans un flux cohérent.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -221,7 +266,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau flux de commentaires désormais disponible dans le panneau Résumé</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Nous avons ajouté la nouvelle fonctionnalité de commentaires au panneau Résumé pour les listes de tâches et de problèmes.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau flux de commentaires désormais disponible dans le panneau Résumé</a></p><p>Nous avons ajouté la nouvelle fonctionnalité de commentaires au panneau Résumé pour les listes de tâches et de problèmes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>

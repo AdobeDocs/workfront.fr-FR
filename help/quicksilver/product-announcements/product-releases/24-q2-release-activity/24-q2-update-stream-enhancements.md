@@ -4,9 +4,9 @@ description: Amélioration du flux de mise à jour et des notifications du deuxi
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées au flux de mise à jour et aux notifications de la version du deuxième trimestre 2024 à l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production, comme indiqué.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 2024 du deuxième trimestre, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Informations supplémentaires sur les commentaires disponibles dans la nouvelle expérience de commentaires
+
+>[!NOTE]
+>
+>Aperçu de la version : 29 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+
+Les améliorations suivantes ont été apportées à la nouvelle expérience de commentaires :
+
+* Vous pouvez cliquer sur le nom d’un commentateur pour afficher son nom, son rôle et son adresse électronique dans une zone d’informations. Ces informations peuvent vous aider à identifier l’utilisateur correct, si vous avez plusieurs utilisateurs portant le même nom. Lorsque vous cliquez sur le nom du commentateur dans la zone d’informations, son profil utilisateur s’ouvre.
+* Votre nom d’utilisateur est mis en surbrillance dans les commentaires sur lesquels vous êtes balisé lorsque vous êtes mentionné dans le texte du commentaire.
+
+Pour plus d’informations, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système
 
