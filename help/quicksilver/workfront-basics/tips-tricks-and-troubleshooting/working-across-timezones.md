@@ -5,7 +5,7 @@ title: Utilisation des fuseaux horaires
 description: Il peut s’avérer utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer les heures des objets et les heures dans d’autres domaines tels que les emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Utilisation des fuseaux horaires
+
+<!-- Audited: 2/2024 -->
 
 Il peut s’avérer utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer les éléments suivants :
 

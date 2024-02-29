@@ -6,14 +6,16 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # Utilisation de cartes connectées sur les panoramas
+
+<!-- Audited: 2/2024 -->
 
 Vous pouvez ajouter sur votre panorama une carte qui est connectée à des tâches et à des problèmes existants dans [!DNL Workfront].
 
@@ -21,7 +23,7 @@ Lorsque l’un des détails suivants est mis à jour pour la carte à un emplace
 
 * [!UICONTROL Nom]
 * [!UICONTROL Description]
-* [!UICONTROL Cessionnaires]
+* [!UICONTROL Assignation]
 * [!UICONTROL Statut]
 * [!UICONTROL Date d’achèvement prévue]
 * [!UICONTROL Estimation] / [!UICONTROL Points d’article]
@@ -39,29 +41,33 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td>
+   <p>Nouveau : contributeur ou version ultérieure</p>
+   <p>Ou</p>
+   <p>Actuel : requête ou version ultérieure</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td>
-   <td><p>[!UICONTROL Vue] ou un accès supérieur à des tâches et des problèmes</p></td>
+   <td role="rowheader"><strong>Paramétrages du niveau d'accès</strong></td>
+   <td><p>Affichage ou accès supérieur aux tâches et aux problèmes</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Autorisations d’objet</strong></td>
-   <td><p>Autorisations d’[!UICONTROL Affichage] ou supérieures pour la tâche ou le problème Workfront</p></td>
+   <td><p>Affichage ou autorisation ultérieure d’une tâche ou d’un problème Workfront</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ajout d’une carte connectée
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
 1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Ajouter une carte] > [!UICONTROL Carte connectée]**.
 1. Choisissez un projet, puis sélectionnez une tâche ou un problème à ajouter sous forme de carte sur le panorama.
