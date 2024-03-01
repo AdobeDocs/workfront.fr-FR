@@ -7,14 +7,16 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Utilisez la variable [!DNL Adobe Workfront] application mobile
+# Utilisez la variable [!DNL Adobe Workfront] application mobile : index des articles
+
+<!-- Audited: 2/2024 -->
 
 d’accélérer l’engagement et de rationaliser le travail des équipes et des individus de votre entreprise par le biais de [!DNL Adobe Workfront's] application mobile, disponible sur tout appareil iOS ou Android. Avec l’application, vous pouvez :
 
@@ -38,7 +40,7 @@ Dans l’application mobile, vous pouvez terminer des tâches et afficher des in
 
 >[!NOTE]
 >
->La variable [!DNL Adobe Workfront] l’application mobile remplace la fonction [!DNL Workfront Proof] , qui n’est plus prise en charge et sera entièrement supprimée avec la version 23.10 d’octobre. [!DNL Workfront] Les clients doivent maintenant utiliser la variable [!DNL Adobe Workfront] application mobile pour effectuer des révisions et des approbations de BAT.
+>La variable [!DNL Adobe Workfront] l’application mobile a remplacé la fonction [!DNL Workfront Proof] application. [!DNL Workfront] Les clients doivent maintenant utiliser la variable [!DNL Adobe Workfront] application mobile pour effectuer des révisions et des approbations de BAT.
 
 Pour plus d’informations sur la variable [!DNL Adobe Workfront] application mobile, passez en revue les articles suivants :
 

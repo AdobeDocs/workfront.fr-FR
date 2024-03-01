@@ -9,19 +9,21 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
 # Accès aux objets et aux zones par de nouvelles licences
 
+<!-- Audited: 2/2024 -->
+
 Le tableau ci-dessous vous indique le niveau d’accès le plus élevé (Modifier ou Afficher) autorisé par chacune des licences Adobe Workfront pour les objets et les zones de Workfront.
 
-* **Affichage**: L’utilisateur peut consulter et partager des éléments.
-* **Modifier**: L’utilisateur peut créer, modifier, supprimer et partager des éléments.
+* **Affichage**: l’utilisateur peut passer en revue et partager des éléments.
+* **Modifier**: l’utilisateur peut créer, modifier, supprimer et partager des éléments.
 
   >[!NOTE]
   >
@@ -50,7 +52,7 @@ Le tableau ci-dessous vous indique le niveau d’accès le plus élevé (Modifie
         <td>Afficher</td>
     </tr>
     <tr>
-        <td>Événements</td>
+        <td>Problèmes</td>
         <td>Modifier</td>
         <td>Modifier</td>
         <td>Modifier</td>
@@ -74,7 +76,7 @@ Le tableau ci-dessous vous indique le niveau d’accès le plus élevé (Modifie
         <td>Rapports, tableaux de bord et calendriers</td>
         <td>Modifier</td>
         <td>Afficher</td>
-        <td>Afficher*</td>
+        <td>Vue*</td>
         <td>Affichage (uniquement pour les calendriers, sans autorisation de partage)</td>
     </tr>
     <tr>
@@ -92,7 +94,7 @@ Le tableau ci-dessous vous indique le niveau d’accès le plus élevé (Modifie
         <td>Affichage (aucune autorisation de partage)</td>
     </tr>
     <tr>
-        <td>Utilisateurs et utilisatrices</td>
+        <td>Utilisateurs</td>
         <td>Modifier</td>
         <td>Afficher</td>
         <td>Afficher</td>
@@ -159,7 +161,7 @@ Vous trouverez des informations détaillées sur les niveaux d’accès autoris�
 * [Accorder l’accès aux portefeuilles](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
 * [Accorder l’accès aux programmes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
 * [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
-* [Accorder l’accès aux filtres, aux vues et aux regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
+* [Accorder l’accès aux filtres, vues et regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Accorder l’accès aux équipes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Accorder l’accès aux modèles](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)

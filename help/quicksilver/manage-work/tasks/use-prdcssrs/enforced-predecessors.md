@@ -6,14 +6,16 @@ description: Les prédécesseurs sont des tâches sur lesquelles d’autres tâc
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # Application des prédécesseurs
+
+<!-- Audited: 2/2024 -->
 
 Les prédécesseurs sont des tâches sur lesquelles d’autres tâches dépendent pour être terminées. Les relations du prédécesseur affectent les dates de début et de fin des tâches et, en fin de compte, affectent la chronologie du projet.
 
@@ -42,37 +44,41 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+      <p>Nouveau : Standard</p> 
+      <p>OU</p>
+      <p>Actuel : formule</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux tâches et aux projets</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations pour les tâches et le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td><p>Gérer les autorisations pour les tâches et le projet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Application d’un prédécesseur au niveau de la tâche
 
 1. Accédez à la tâche qui lui succède et dont vous souhaitez appliquer le prédécesseur.
 1. Cliquez sur **Prédécesseurs** dans le panneau de gauche, puis cliquez sur **Ajouter un prédécesseur**. Vous devrez peut-être cliquer sur **Afficher plus**, puis **Prédécesseurs**.
 1. (Conditionnel) Si vous souhaitez ajouter un prédécesseur de plusieurs projets, supprimez le nom du projet dans la variable **Projet parent** et remplacez-le par un autre projet.
-1. Indiquez le nom de la ou des tâches du prédécesseur dans la fonction **Tâches** champ .
+1. Indiquez le nom de la ou des tâches du prédécesseur dans la fonction **Tâche** champ .
 1. Spécifiez la variable **Type de dépendance** entre ces deux tâches.
 
-   La valeur par défaut **Type de dépendance** is **Finish-Start**.
+   Par défaut **Type de dépendance** is **Finish-Start**.
 
-1. Sélectionnez la **Enchaîné** pour appliquer le prédécesseur.
+1. Sélectionnez la variable **Enchaîné** pour appliquer le prédécesseur.
 1. Cliquer sur **Enregistrer**.
 
 ## Application d’un prédécesseur à une liste de tâches
@@ -82,7 +88,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Notez mentalement le nombre de tâches que vous allez désigner comme prédécesseur.
 1. Recherchez la tâche de remplacement dont vous souhaitez appliquer le prédécesseur.
-1. Dans le **Prédécesseurs** , commencez à saisir le numéro de la tâche précédente suivie de &quot;e&quot;. Par exemple, saisissez &quot;1e&quot; pour ajouter la tâche numéro 1 comme prédécesseur à la tâche sélectionnée.
+1. Dans le **Prédécesseurs** , commencez à saisir le numéro de la tâche précédente suivie de &quot;e&quot;. Par exemple, saisissez &quot;1e&quot; pour ajouter la tâche numéro 1 en tant que prédécesseur à la tâche sélectionnée.
 1. Cliquez sur Entrée pour enregistrer les informations de votre prédécesseur pour la tâche.
 
    ![prédécesseur_forced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
