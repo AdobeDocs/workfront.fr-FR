@@ -1,18 +1,18 @@
 ---
-title: Présentation d’Adobe Maestro
-description: Adobe Maestro est une nouvelle offre d’Adobe Workfront. Vous pouvez créer des espaces de travail entièrement personnalisables afin de définir des workflows qui répondent aux besoins de chaque entité organisationnelle de votre entreprise.
+title: Présentation des fonctionnalités de planification d’Adobe Workfront
+description: Les fonctionnalités de planification d’Adobe Workfront sont une nouvelle offre d’Adobe Workfront. Vous pouvez créer des espaces de travail entièrement personnalisables afin de définir des workflows qui répondent aux besoins de chaque entité organisationnelle de votre entreprise.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2051'
 ht-degree: 1%
 
 ---
 
-# Présentation d’Adobe Maestro
+# Présentation des fonctionnalités de planification d’Adobe Workfront
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,16 +22,16 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
+>Les informations de cet article se rapportent aux fonctionnalités de planification d’Adobe Workfront, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
+>Actuellement, les capacités de planification font partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser ces fonctionnalités.
 >
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
->[Visionner une démonstration vidéo de Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Contactez le représentant de votre compte pour plus d’informations sur l’adhésion au programme bêta pour les fonctionnalités de planification.
+>[Visionnez une démonstration vidéo des fonctionnalités de planification d’Adobe Workfront.](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
-## Présentation d’Adobe Maestro
+## Présentation des fonctionnalités de planification d’Adobe Workfront
 
-Adobe Maestro est une nouvelle offre d’Adobe Workfront. L’objectif de Maestro est de déverrouiller une visibilité complète sur les détails opérationnels d’une organisation et de répondre aux questions commerciales essentielles à chaque étape du cycle de vie de la gestion du travail.
+Les fonctionnalités de planification d’Adobe Workfront sont une nouvelle offre d’Adobe Workfront. L&#39;objectif des capacités de planification est de déverrouiller une visibilité complète sur les détails opérationnels d&#39;une organisation et de répondre aux questions opérationnelles essentielles à chaque étape du cycle de vie de la gestion du travail.
 
 Les équipes et le leadership doivent avoir des réponses claires aux questions suivantes :
 
@@ -42,17 +42,17 @@ Les équipes et le leadership doivent avoir des réponses claires aux questions 
 
 Pour répondre à ces questions, le leadership a besoin d&#39;une solution qui puisse fournir une vision holistique de chaque étape du travail, de la planification à l&#39;exécution, de la livraison à la mesure des résultats. Actuellement, les entreprises disposent d’outils qui peuvent couvrir certaines parties du processus, mais beaucoup n’ont pas de bonnes connexions avec toutes les phases du travail et ne peuvent pas fournir de résultats fiables.
 
-Voici quelques-unes des principales fonctionnalités de Maestro :
+Voici quelques-unes des principales fonctionnalités :
 
 * Résolvez le problème de la gestion du travail à toutes les étapes et pour toutes les parties prenantes qui participent au processus de travail.
 * Personnalisez entièrement vos workflows, depuis le choix des types d’objets (ou des types d’enregistrement) utilisés par votre entreprise jusqu’à la configuration de la liaison entre ces objets.
 * Liez-les aux types d’objets d’autres systèmes, créant ainsi une structure cohérente pour tous vos processus.
 
-## Fonctionnalités Maestro actuellement disponibles
+## Fonctionnalités de planification Adobe Workfront actuellement disponibles
 
-Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans Maestro, ainsi qu’une chronologie de leur disponibilité. La liste ne contient pas toutes les fonctionnalités.
+Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans les capacités de planification et un calendrier de leur disponibilité. La liste ne contient pas toutes les fonctionnalités.
 
-Pour plus d’informations sur les nouvelles fonctionnalités et leur date de publication, voir [Activité de mise à jour Maestro](/help/quicksilver/maestro/release-activity.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et leur date de publication, voir [Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
 
 | Fonctionnalité | Disponible maintenant | Disponible bientôt | En recherche |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -73,11 +73,11 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Trier les groupements dans la vue Tableau |                               | ✓ |                  |
 | Tri des regroupements dans la vue de chronologie |                               | ✓ |                  |
 | Connexion des espaces de travail |                               | ✓ |                  |
-| Connexion des enregistrements et des taxonomies Maestro | ✓ |
+| Connexion des enregistrements et taxonomies des fonctionnalités de planification | ✓ |
 | Recherche d’enregistrements dans la vue de tableau | ✓ |   |
 | Recherche d’enregistrements dans la vue de chronologie | ✓ |   |
-| Connecter des enregistrements Maestro à des projets, programmes, portfolios, entreprises et groupes Workfront | ✓ |                                 |                  |
-| Connexion des enregistrements Maestro aux ressources Adobe Experience Manager | ✓ |                                  |                 |
+| Connecter des enregistrements de fonctionnalités de planification à des projets, programmes, portfolios, entreprises et groupes Workfront | ✓ |                                 |                  |
+| Connexion des enregistrements des fonctionnalités de planification aux ressources Adobe Experience Manager | ✓ |                                  |                 |
 | Page Détails de l’enregistrement | ✓ |                                  |                  |
 | Mettre à jour la mise en page de la page Détails de l’enregistrement |                               | ✓ |                  |
 | Partage des espaces de travail | ✓ | |  |
@@ -89,22 +89,22 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Ajout de miniatures aux enregistrements | ✓ |                                  |                 |
 | Afficher l’historique des modifications sur un enregistrement | ✓ |                                  |                 |
 | Formatage de texte enrichi pour les champs de paragraphe | ✓ |                                  |                 |
-| Modules Maestro pour Adobe Workfront Fusion | ✓ |                                  |                 |
+| Modules de fonctionnalités de planification Adobe Workfront pour Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copier et coller des informations d’un champ vers un autre | ✓ |                                  |                 |
 
-## Activation de Maestro pour les utilisateurs de votre instance Workfront
+## Activation des fonctionnalités de planification Adobe Workfront pour les utilisateurs de votre instance Workfront
 
-Votre entreprise doit s’inscrire au programme bêta fermé Adobe Maestro avant de pouvoir accéder à Maestro. Contactez votre gestionnaire de compte pour en savoir plus sur l’inscription au programme bêta.
+Votre entreprise doit s’inscrire au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront avant d’accéder aux fonctionnalités de planification. Contactez votre gestionnaire de compte pour en savoir plus sur l’inscription au programme bêta.
 
-Pour plus d’informations sur l’octroi de l’accès à et l’autorisation d’autres utilisateurs à l’aide de Maestro, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md).
+Pour plus d’informations sur l’octroi de l’accès aux fonctionnalités de planification et sur l’autorisation d’en utiliser d’autres, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md).
 
-## Terminologie maestro
+## Terminologie des fonctionnalités de planification d’Adobe Workfront
 
-Bien que Maestro fasse partie de Workfront, il s’accompagne de concepts et de terminologie propriétaires. Assurez-vous de connaître les concepts de Maestro avant de commencer à configurer Maestro pour votre entreprise.
+Bien que les capacités de planification fassent partie de Workfront, elles s’accompagnent de concepts et de terminologie propriétaires. Assurez-vous de connaître les concepts relatifs aux capacités de planification avant de commencer à configurer les capacités de planification de votre entreprise.
 
-Le framework de Maestro est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrement, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre entreprise.
+Le cadre des capacités de planification est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrement, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre entreprise.
 
-Voici les principaux objets et concepts de Maestro :
+Voici les principaux objets et concepts relatifs aux capacités de planification :
 
 * **Workspace**: collection de types d’enregistrements et de taxonomies qui définissent le cycle de vie opérationnel d’une certaine organisation. Un espace de travail est la structure de travail d’une entité organisationnelle.
 
@@ -114,17 +114,17 @@ Voici les principaux objets et concepts de Maestro :
 
   Pour plus d’informations, voir [Créer des espaces de travail](../maestro/architecture/create-workspaces.md).
 
-* **Type d’enregistrement**: type d’objet principal Maestro.
+* **Type d’enregistrement**: type d’objet des principales fonctionnalités de planification.
 
-  Contrairement à Workfront où les types d’objets sont prédéfinis, vous pouvez créer vos propres types d’objets dans Maestro.
+  Contrairement à Workfront où les types d’objets sont prédéfinis, dans les fonctionnalités de planification, vous pouvez créer vos propres types d’objets.
 
   Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
 
-  Dans Maestro, vous pouvez créer tous les types d’enregistrement qui correspondent aux workflows de votre entreprise. Vous pouvez ensuite définir la manière dont les types d’enregistrement sont associés les uns aux autres ou les dépendances des formulaires.
+  Dans les fonctionnalités de planification, vous pouvez créer n’importe quel type d’enregistrement qui correspond aux workflows de votre entreprise. Vous pouvez ensuite définir la manière dont les types d’enregistrement sont associés les uns aux autres ou les dépendances des formulaires.
 
   Pour plus d’informations, voir [Présentation des types d&#39;enregistrements opérationnels et des taxonomies](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  Maestro propose les types d’enregistrement suivants :
+  Les capacités de planification présentent les types d&#39;enregistrement suivants :
 
    * **Type d’enregistrement opérationnel**: type d’enregistrement qui représente les plans stratégiques, les initiatives ou le travail exécuté.
 
@@ -138,13 +138,13 @@ Voici les principaux objets et concepts de Maestro :
 
      ![](assets/taxonomy-record-type-blank.png)
 
-     Bien que la création de taxonomies soit identique à la création de types d&#39;enregistrements opérationnels, Maestro fait la distinction entre un type d&#39;enregistrement opérationnel et un type d&#39;enregistrement de taxonomie. L&#39;objectif des taxonomies est d&#39;améliorer les types de dossiers opérationnels. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
+     Bien que la création de taxonomies soit identique à la création de types d&#39;enregistrements opérationnels, les capacités de planification font la distinction entre un type d&#39;enregistrement opérationnel et un type d&#39;enregistrement de taxonomie. L&#39;objectif des taxonomies est d&#39;améliorer les types de dossiers opérationnels. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
 
      Par exemple, Audience, Région ou Adresse peuvent être des types d’enregistrement de type taxonomie.
 
      Pour plus d’informations, voir [Création de types d’enregistrement de taxonomie](../maestro/architecture/create-a-taxonomy.md).
 
-* **Enregistrement**: instance d’un type d’enregistrement Maestro. Un enregistrement peut faire référence à un type d’enregistrement opérationnel ou à une taxonomie.
+* **Enregistrement**: instance d’un type d’enregistrement de fonctionnalité de planification. Un enregistrement peut faire référence à un type d’enregistrement opérationnel ou à une taxonomie.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
   ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
@@ -163,7 +163,7 @@ Voici les principaux objets et concepts de Maestro :
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Maestro est fourni avec un modèle d’espace de travail Ventes, Marketing et Gestion des produits .
+  Les fonctionnalités de planification d’Adobe Workfront sont fournies avec un modèle d’espace de travail Ventes, Marketing et Gestion des produits .
 
   Pour plus d’informations, voir [Créer des espaces de travail](../maestro/architecture/create-workspaces.md).
 
@@ -171,7 +171,7 @@ Voici les principaux objets et concepts de Maestro :
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Observations relatives aux champs Maestro :
+  Observations relatives aux champs des fonctionnalités de planification :
 
    * Les champs que vous ajoutez pour un type d’enregistrement deviennent automatiquement associés à tous les enregistrements de ce type et peuvent être utilisés pour capturer des données sur ces enregistrements.
 
@@ -179,7 +179,7 @@ Voici les principaux objets et concepts de Maestro :
 
    * Les champs sont propres à un type d’enregistrement et ne sont pas transférés d’un type d’enregistrement à un autre.
 
-   * Les champs Maestro sont entièrement personnalisables et ne sont accessibles que dans Maestro. Vous ne pouvez pas accéder aux champs Maestro à partir de Workfront.
+   * Les champs des fonctionnalités de planification sont entièrement personnalisables et ne sont accessibles que dans les capacités de planification. Vous ne pouvez pas accéder aux champs des fonctionnalités de planification à partir de Workfront.
 
   Pour plus d’informations, voir [Créer des champs](../maestro/fields/create-fields.md).
 
@@ -213,9 +213,9 @@ Voici les principaux objets et concepts de Maestro :
 
 * **Types d’enregistrement liés**, **Enregistrements liés**, et **Champs d’enregistrement liés**: vous pouvez créer une connexion entre les entités suivantes :
 
-   * Deux types d’enregistrement Maestro
-   * Un type d’enregistrement Maestro et un type d’objet de projet, de programme, de portefeuille, d’entreprise ou de groupe Workfront.
-   * Un type d’enregistrement Maestro et une ressource, un dossier ou une collection Adobe Experience Manager.
+   * Deux types d&#39;enregistrements de fonctionnalités de planification.
+   * Un type d’enregistrement de fonctionnalité de planification et un type d’objet de projet, de programme, de portefeuille, d’entreprise ou de groupe Workfront.
+   * Un type d’enregistrement de fonctionnalité de planification et une ressource, un dossier ou une collection Adobe Experience Manager.
 
      Vous devez disposer d’une licence Adobe Experience Manager pour lier les types d’enregistrement aux objets Experience Manager.
 
@@ -226,7 +226,7 @@ Voici les principaux objets et concepts de Maestro :
 
 * **Champs liés** (ou champs de recherche) : après avoir établi la connexion entre deux types d’enregistrements et lier des enregistrements individuels, vous pouvez référencer les champs des enregistrements liés sur l’enregistrement à partir duquel vous vous connectez.
 
-  Par exemple, si vous connectez une campagne Maestro à un projet Workfront, vous pouvez afficher le champ Propriétaire du projet des projets connectés dans les enregistrements de campagne Maestro.
+  Par exemple, si vous connectez une campagne de fonctionnalités de planification à un projet Workfront, vous pouvez afficher le champ Propriétaire du projet des projets connectés dans les enregistrements de campagne de la fonctionnalité de planification.
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -256,11 +256,11 @@ Voici les principaux objets et concepts de Maestro :
   Pour plus d’informations, voir [Gestion des vues d’enregistrement](../maestro/views/manage-record-views.md).
 
 
-## Limites des objets Maestro
+## Limites des objets des fonctionnalités de planification d’Adobe Workfront
 
-Le tableau suivant indique les limites du nombre d’objets que vous pouvez créer dans Maestro. Les limites peuvent changer au fur et à mesure que nous entrons dans les phases suivantes du développement de Maestro.
+Le tableau suivant montre les limites du nombre d&#39;objets que vous pouvez créer dans les fonctions de planification. Les limites peuvent changer au fur et à mesure que nous entrons dans les phases suivantes de développement.
 
-| Objet Maestro | Limite |
+| Objet des fonctionnalités de planification d’Adobe Workfront | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Nombre d’espaces de travail pour une instance Workfront | 1 000 |
 | Nombre de types d’enregistrement pour un espace de travail | 1 000 (y compris les taxonomies de l’espace de travail ou les objets que vous importez à partir d’autres applications) |
@@ -272,11 +272,11 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Taux auquel les demandes d’API peuvent être effectuées | 200 demandes par minute |
 | Taille du fichier CSV d’Excel que vous pouvez importer dans un tableau | 5 Mo |
 
-## Localisation de Maestro
+## Localisation des fonctionnalités de planification Adobe Workfront
 
-Assurez-vous que votre entreprise a reçu l’accès à Maestro et que votre administrateur système ou groupe a ajouté la zone Maestro à votre menu principal. Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md) .
+Assurez-vous que votre entreprise a accès aux fonctionnalités de planification et que l’administrateur du système ou du groupe a ajouté la zone des fonctionnalités de planification à votre menu principal. Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md).
 
-Pour localiser Maestro :
+Pour localiser les fonctionnalités de planification :
 
 1. Connectez-vous à Adobe Workfront.
 
@@ -284,9 +284,9 @@ Pour localiser Maestro :
 
 1. Cliquez sur **Maestro** ![](assets/maestro-icon.png).
 
-   La zone Espaces de travail Maestro s’ouvre.
+   La zone Espaces de travail s’ouvre.
 
-1. (Facultatif et recommandé) Passez à certaines des actions suivantes pour créer votre structure de travail dans Maestro :
+1. (Facultatif et recommandé) Passez à certaines des actions suivantes pour créer votre structure de travail :
 
    1. Créez un espace de travail entièrement ou à l’aide d’un modèle.
 
@@ -308,8 +308,7 @@ Pour localiser Maestro :
 
    1. Personnalisez la vue de la chronologie en mettant à jour les filtres, les groupes ou les paramètres.
 
-## Activité de mise à jour Maestro
+## Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront
 
-Nous publions régulièrement de nouvelles fonctionnalités sur Maestro. Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité de mise à jour Adobe Maestro](../maestro/release-activity.md).
-
+Nous proposons régulièrement de nouvelles fonctionnalités aux capacités de planification. Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront](../maestro/release-activity.md).
 

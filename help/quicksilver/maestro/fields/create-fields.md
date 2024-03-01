@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '3339'
+source-wordcount: '3341'
 ht-degree: 2%
 
 ---
@@ -379,7 +379,7 @@ Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver
    >
    > * Vous ne pouvez pas ajouter de champs de type Sélection multiple dans une formule.
    >
-   > * Vous ne pouvez pas ajouter de champs provenant d&#39;enregistrements liés dans une formule. Cette fonctionnalité sera publiée ultérieurement. Pour plus d’informations sur les nouvelles versions, voir [Activité de mise à jour Adobe Maestro](/help/quicksilver/maestro/release-activity.md).
+   > * Vous ne pouvez pas ajouter de champs provenant d&#39;enregistrements liés dans une formule. Cette fonctionnalité sera publiée ultérieurement. Pour plus d’informations sur les nouvelles versions, voir [Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Cliquez sur **Créer**.

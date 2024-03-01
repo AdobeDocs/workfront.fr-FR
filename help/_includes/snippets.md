@@ -1,8 +1,8 @@
 ---
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 0%
+source-wordcount: '2362'
+ht-degree: 1%
 
 ---
 # Extraits de code
@@ -144,7 +144,7 @@ Pour configurer les dossiers liés :
 
 ## Conditions préalables {#cc-install-prereq}
 
-Vous devez installer le module externe approprié pour l’application Adobe Creative Cloud que vous utilisez :
+Vous devez installer le plug-in approprié pour l’application Adobe Creative Cloud que vous utilisez :
 * Pour Photoshop, voir [Installation d’Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * Pour XD, voir [Installation d’Adobe Workfront pour XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Pour InDesign, Illustrator, Premiere Pro et After Effects, voir [Installation d’Adobe Workfront pour la conception et la vidéo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -155,15 +155,15 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
 * XD
 * InDesign
 * Illustrator
-* Premiere Pro
-* After Effects
+* Premiere Pro
+* After Effects
 
 ## WF pour la liste des applications CC {#cc-plugin-app-list}
 
 * InDesign
 * Illustrator
-* Premiere Pro
-* After Effects
+* Premiere Pro
+* After Effects
 
 ## Réglage des paramètres de BAT automatisés {#adjust-proof-settings}
 
@@ -253,13 +253,13 @@ Vous devez installer le module externe approprié pour l’application Adobe Cre
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Maestro, une nouvelle offre d’Adobe Workfront.
+>Les informations de cet article se rapportent aux fonctionnalités de planification d’Adobe Workfront, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, Adobe Maestro fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser les fonctionnalités de Maestro.
+>Actuellement, les capacités de planification font partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser ces fonctionnalités.
 >
->Pour plus d’informations sur l’inscription au programme bêta de Maestro, contactez le représentant de votre compte.
+>Contactez le représentant de votre compte pour plus d’informations sur l’adhésion au programme bêta pour les fonctionnalités de planification.
 >
->Pour plus d’informations sur Maestro, voir [Présentation d’Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+>Pour plus d’informations sur les fonctionnalités de planification, voir [Présentation des fonctionnalités de planification d’Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

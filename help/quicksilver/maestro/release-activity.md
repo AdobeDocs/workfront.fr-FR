@@ -1,32 +1,32 @@
 ---
-title: Activité de mise à jour Adobe Maestro
-description: Adobe Manager est actuellement disponible pour sélectionner des clients Workfront. Consultez souvent cet article pour en savoir plus sur les fonctionnalités récemment publiées pour Adobe Maestro.
+title: Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront
+description: Des fonctionnalités de planification Adobe Workfront sont actuellement disponibles pour certains clients Workfront. Consultez souvent cet article pour en savoir plus sur les fonctionnalités récemment publiées pour les fonctionnalités de planification.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4258'
 ht-degree: 0%
 
 ---
 
-# Activité de mise à jour Adobe Maestro
+# Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront
 
 {{maestro-important-intro}}
 
-Cet article répertorie les fonctionnalités qui ont été publiées après le lancement du programme bêta fermé de Maestro, le 22 mai 2023.
+Cet article répertorie les fonctionnalités qui ont été publiées après le lancement des fonctionnalités de planification d’Adobe Workfront et qui ont été fermées en version bêta, le 22 mai 2023.
 
-Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé Maestro peuvent accéder à toutes les fonctionnalités de leurs environnements de production.
+Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé des fonctionnalités de planification peuvent accéder à toutes les fonctionnalités de leurs environnements de production.
 
 >[!IMPORTANT]
 >
->Entre mai 2023 et décembre 2023, toutes les fonctionnalités de cet article ont été publiées dans l’environnement Aperçu et Production. Les fonctionnalités de Maestro ont été supprimées des environnements Aperçu et Sandbox depuis janvier 2024. Toutes les fonctionnalités publiées après cette date sont actuellement disponibles en production.
+>Entre mai 2023 et décembre 2023, toutes les fonctionnalités de cet article ont été publiées dans l’environnement Aperçu et Production. Depuis janvier 2024, les fonctionnalités de planification ont été supprimées des environnements Aperçu et Sandbox. Toutes les fonctionnalités publiées après cette date sont actuellement disponibles en production.
 
-Cet article répertorie les fonctionnalités et les correctifs qui ont été publiés après le lancement du programme bêta fermé de Maestro, le 22 mai 2023.
+Cet article répertorie les fonctionnalités et les correctifs qui ont été publiés après le lancement des fonctionnalités de planification d’Adobe Workfront et qui ont été fermés en version bêta, le 22 mai 2023.
 
-Les fonctionnalités sont publiées toutes les semaines et sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé Maestro peuvent accéder à toutes les fonctionnalités de leurs environnements Aperçu et Production.
+Les fonctionnalités sont publiées toutes les semaines et sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé des fonctionnalités de planification peuvent accéder à toutes les fonctionnalités de leurs environnements Aperçu et Production.
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ Les autorisations suivantes fonctionnent désormais conjointement avec le type d
 
 Pour plus d’informations sur le nouveau modèle de licence, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Pour plus d’informations sur la connexion entre le type de licence et les autorisations dans Maestro, voir [Présentation du type de licence dans Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Pour plus d’informations sur la connexion entre le type de licence et les autorisations dans les fonctionnalités de planification, voir [Présentation du type de licence dans Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nouvelle apparence de la barre d’outils Texte enrichi pour les champs d’enregistrement
@@ -88,7 +88,7 @@ Nous avons repensé et amélioré l’expérience de l’ajout d’options ou d�
 * Sélection unique
 * Sélection multiple
 * Personnes
-* Champs d’enregistrement connectés (lors de la connexion des types d’enregistrement Maestro ou des objets Workfront)
+* Champs d’enregistrement connectés (lors de la connexion des types d’enregistrement des fonctionnalités de planification ou des objets Workfront)
 
 Avec la nouvelle amélioration, une boîte plus petite et plus réactive s’affiche en premier.
 
@@ -136,14 +136,14 @@ Production : 1er février 2024
 
 Aperçu : à déterminer
 
-Pour éviter toute confusion et simplifier la gestion des espaces de travail, nous avons supprimé d’un espace de travail les cartes de type d’enregistrement générées automatiquement et en lecture seule pour les objets non Maestro connectés.
+Pour éviter toute confusion et simplifier la gestion des espaces de travail, nous avons supprimé de l’espace de travail les cartes de type d’enregistrement générées automatiquement et en lecture seule pour les objets externes connectés.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Semaine du 22 janvier 2024
 
-### Nouvelle section Historique affiche l’activité du système pour les enregistrements Maestro
+### Nouvelle section Historique affiche l’activité du système pour les enregistrements des fonctionnalités de planification
 
 Production : 25 janvier 2024
 
@@ -151,7 +151,7 @@ Aperçu : à déterminer
 
 Pour améliorer les fonctionnalités de contrôle, nous avons ajouté une nouvelle section dans le panneau de droite d’un enregistrement, dans laquelle vous pouvez passer en revue les modifications apportées à l’enregistrement enregistré par le système.
 
-Maestro enregistre les informations suivantes dans la nouvelle section Historique :
+Les informations suivantes sont enregistrées dans la nouvelle section Historique :
 
 * Toute modification de champ
 
@@ -173,13 +173,13 @@ Pour assurer la cohérence lors de la création des enregistrements, nous avons 
 
 ## Semaine du 8 janvier 2024
 
-### Les fonctionnalités Maestro sont supprimées des environnements Aperçu et Sandbox.
+### Les fonctionnalités de planification sont supprimées des environnements Preview et Sandbox.
 
 Aperçu et environnement de test : 11 janvier 2024
 
-La zone Maestro et toutes les fonctionnalités Maestro ont été temporairement supprimées des environnements Aperçu et Sandbox. Maestro sera ajouté à ces environnements à une date ultérieure à laquelle nous communiquerons dans les notes d’activité de mise à jour.
+Les fonctionnalités de planification d’Adobe Workfront ont été temporairement supprimées des environnements Aperçu et Sandbox. Elles seront ajoutées ultérieurement à ces environnements, ce que nous communiquerons dans les notes d’activité de mise à jour.
 
-### Autorisations de maestro pour les espaces de travail et les vues
+### Planification des autorisations des fonctionnalités pour les espaces de travail et les vues
 
 Production : 11 janvier 2024
 
@@ -191,7 +191,7 @@ Lorsque vous partagez un espace de travail, les utilisateurs disposent d’autor
 
 Lorsque vous partagez un espace de travail, les utilisateurs ne reçoivent pas d’autorisations de partage pour les vues associées aux types d’enregistrements de l’espace de travail. Vous devez accorder des autorisations distinctes aux vues.
 
-Voici les niveaux d’autorisation des espaces de travail Maestro :
+Voici les niveaux d’autorisation des espaces de travail :
 
 * Afficher : les utilisateurs peuvent afficher les espaces de travail partagés avec eux. Ils peuvent également afficher les types d’enregistrements et les enregistrements de l’espace de travail partagé.
 
@@ -274,21 +274,21 @@ Aperçu et production pour tous les clients : 18 décembre 2023
 
 Vous pouvez désormais collaborer avec d’autres personnes sur des enregistrements individuels en ajoutant des commentaires ou en répondant à d’autres personnes lors de l’affichage d’un enregistrement dans la page Détails.
 
-L’expérience de commentaire des enregistrements Maestro correspond à la nouvelle expérience de commentaire des objets Workfront.
+L’expérience de commentaire des enregistrements de fonctionnalités de planification correspond à la nouvelle expérience de commentaire des objets Workfront.
 
 Pour plus d’informations, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Connecteur Maestro (bêta) pour Adobe Workfront Fusion
+### Connecteur des fonctionnalités de planification (version bêta) pour Adobe Workfront Fusion
 
 Production : 21 décembre 2023
 
 >[!IMPORTANT]
 >
->Votre entreprise doit acheter Adobe Workfront Fusion pour pouvoir créer des connexions avec Maestro.
+>Votre entreprise doit acheter Adobe Workfront Fusion pour pouvoir créer des connexions avec les fonctionnalités de planification d’Adobe Workfront.
 >
 >Pour plus d’informations, voir [Présentation d’Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter à Maestro. Avec la nouvelle connexion Adobe Maestro Fusion, vous pouvez :
+Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter aux fonctionnalités de planification. Avec la nouvelle connexion Fusion, vous pouvez :
 
 * Créer, lire, mettre à jour et supprimer des enregistrements
 
@@ -300,7 +300,7 @@ Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter à Ma
 
 * Effectuer un appel API
 
-* Déclencher un scénario lorsqu’une modification est effectuée dans Maestro
+* Déclenchez un scénario lorsqu’une modification est apportée aux capacités de planification.
 
 Pour plus d’informations, voir [Modules Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
 
@@ -310,7 +310,7 @@ Pour plus d’informations, voir [Modules Adobe Maestro](/help/quicksilver/workf
 
 Aperçu et production : 14 décembre 2023
 
-Vous pouvez maintenant choisir le champ à afficher dans la première colonne d&#39;un tableau Maestro. Ce champ est désormais appelé champ principal.
+Vous pouvez maintenant choisir le champ à afficher dans la première colonne d&#39;un tableau. Ce champ est désormais appelé champ principal.
 
 Avant cette amélioration, le champ Nom d’un enregistrement s’affichait toujours dans la première colonne de la vue de tableau et ne pouvait pas être placé à un autre emplacement.
 
@@ -332,10 +332,9 @@ Avec cette amélioration, notez les points suivants :
 
 * Toutes les tables vues d’un type d’enregistrement possèdent le même champ principal que celui sélectionné.
 
-Pour plus d’informations, voir [Gestion du mode Tableau](/help/quicksilver/maestro/views/manage-the-table-view.md).
+Pour plus d’informations, voir [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-
-### Connexion des enregistrements Maestro à Adobe Experience Manager Assets
+### Connexion des enregistrements des fonctionnalités de planification à Adobe Experience Manager Assets
 
 Version d’aperçu : 14 décembre 2023
 
@@ -343,34 +342,33 @@ Version de production : 21 décembre 2023
 
 >[!IMPORTANT]
 >
->L’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements Maestro à Adobe Experience Manager Assets.
+>L’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements des fonctionnalités de planification Adobe Workfront à Adobe Experience Manager Assets.
 >
 >Si vous avez des questions sur l’intégration à Adobe Admin Console, reportez-vous à la section [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-
-Vous pouvez maintenant établir une connexion entre les types d’enregistrements Maestro et Adobe Experience Manager Assets.
+Vous pouvez maintenant établir une connexion entre les types d’enregistrement des fonctionnalités de planification Adobe Workfront et Adobe Experience Manager Assets.
 
 Une fois la connexion établie, les fonctionnalités suivantes sont disponibles avec cette mise à jour :
 
-* Vous pouvez lier des ressources et des dossiers Experience Manager à un enregistrement Maestro à partir d’un référentiel spécifique dans Experience Manager Assets auquel ils ont accès. Vous pouvez connecter les champs de ressource aux champs Maestro dans ce processus.
+* Vous pouvez lier des ressources et des dossiers Experience Manager à un enregistrement de fonctionnalité de planification à partir d’un référentiel spécifique dans Experience Manager Assets auquel ils ont accès. Vous pouvez associer des champs de ressources aux champs de fonctionnalités de planification dans ce processus.
 
-* Les utilisateurs de Maestro peuvent afficher le nom des ressources connectées, ainsi que les valeurs des champs connectés dans Maestro.
+* Les utilisateurs de la fonctionnalité de planification peuvent afficher le nom des ressources connectées, ainsi que les valeurs des champs connectés dans les fonctionnalités de planification.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
 -->
 
-* Vous pouvez cliquer sur le nom de la ressource dans la vue de tableau de l’enregistrement Maestro à partir du champ d’enregistrement connecté, puis afficher une fenêtre contextuelle avec la miniature de la ressource et plusieurs champs clés. Dans la fenêtre contextuelle, vous pouvez accéder à la visionneuse de ressources dans Experience Manager et en afficher tous les détails.
+* Vous pouvez cliquer sur le nom de la ressource dans la vue table de l’enregistrement de la fonctionnalité de planification à partir du champ d’enregistrement connecté, puis afficher une fenêtre contextuelle avec la miniature de la ressource et plusieurs champs clés. Dans la fenêtre contextuelle, vous pouvez accéder à la visionneuse de ressources dans Experience Manager et en afficher tous les détails.
 
 Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Semaine du 4 décembre 2023
 
-### Copiez et collez des informations d’un champ vers un autre dans la vue Tableau Maestro pour les champs d’enregistrement de type Personnes et liés.
+### Copiez et collez des informations d&#39;un champ vers un autre dans la vue de table des fonctionnalités de planification pour les champs d&#39;enregistrement de type Personnes et liés
 
 Aperçu et production : 5 décembre 2023
 
-Vous pouvez désormais copier et coller des informations d’un champ vers un autre de même type dans une vue de tableau de type Enregistrement Maestro. Cette fonctionnalité est désormais prise en charge pour les types de champs suivants :
+Vous pouvez désormais copier et coller des informations d’un champ vers un autre de même type dans une vue de tableau de type enregistrement. Cette fonctionnalité est désormais prise en charge pour les types de champs suivants :
 
 * Personnes
 * Champs d’enregistrement liés
@@ -379,7 +377,7 @@ Tenez compte des points suivants :
 
 * La copie et le collage de valeurs de champ d’un champ à un autre sont pris en charge pour les champs qui affichent plusieurs valeurs.
 
-* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ Maestro du même type que le champ dans lequel vous collez les informations.
+* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ de capacité de planification du même type que le champ dans lequel vous collez les informations.
 
 * Vous ne pouvez pas copier et coller des valeurs de champ pour les champs qui s’affichent dans la zone Détails d’un enregistrement.
 
@@ -389,15 +387,15 @@ Pour plus d’informations sur les champs liés, voir [Connexion des types d’e
 
 ## Semaine du 27 novembre 2023
 
-### Copier et coller des informations d’un champ vers un autre dans la vue Tableau Maestro
+### Copier et coller des informations d&#39;un champ à un autre dans la vue du tableau de la fonctionnalité de planification
 
 Aperçu et production : 28 novembre 2023
 
-Vous pouvez désormais copier et coller des informations d’un champ vers un autre de même type dans une vue de tableau de type Enregistrement Maestro.
+Vous pouvez désormais copier et coller des informations d’un champ vers un autre de même type dans une vue de tableau de type enregistrement d’une fonctionnalité de planification.
 
 Tenez compte des points suivants :
 
-* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ Maestro du même type que le champ dans lequel vous collez les informations.
+* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ de capacité de planification du même type que le champ dans lequel vous collez les informations.
 
 * Vous ne pouvez pas copier et coller des valeurs de champ pour les champs qui s’affichent dans la zone Détails d’un enregistrement.
 
@@ -417,7 +415,7 @@ Pour plus d’informations, voir [Modifier des enregistrements](../maestro/recor
 
 Aperçu et production : 7 novembre 2023
 
-Vous pouvez désormais regrouper des enregistrements dans la vue de table d’une page de type enregistrement. Vous pouvez regrouper trois champs uniques dans l’interface Maestro <!--checking into this for now: and by four fields when using the API-->.
+Vous pouvez désormais regrouper des enregistrements dans la vue de table d’une page de type enregistrement. Vous pouvez regrouper trois champs uniques dans l&#39;interface des fonctionnalités de planification<!--checking into this for now: and by four fields when using the API-->.
 
 Pour plus d’informations, voir [Gestion de la vue de tableau](../maestro/views/manage-the-table-view.md).
 
@@ -427,7 +425,7 @@ Pour plus d’informations, voir [Gestion de la vue de tableau](../maestro/views
 
 Aperçu et production : 30 octobre 2023
 
-Nous avons introduit les types de champ suivants pour les enregistrements Maestro :
+Nous avons introduit les types de champs suivants pour les enregistrements des fonctionnalités de planification Adobe Workfront :
 
 * Créé par
 
@@ -441,11 +439,11 @@ Les valeurs de champ des champs créés à partir de ces types de champs sont en
 
 Pour plus d’informations, voir [Créer des champs](../maestro/fields/create-fields.md).
 
-### Accès aux objets Workfront à partir d’un enregistrement Maestro
+### Accès aux objets Workfront à partir d’un enregistrement de fonctionnalités de planification
 
 Aperçu et production : 31 octobre 2023
 
-Vous pouvez désormais ouvrir les pages d’objet Workfront à partir des zones suivantes de Maestro :
+Vous pouvez désormais ouvrir les pages d’objet Workfront à partir des zones suivantes des fonctionnalités de planification :
 
 * Vue de la table d’enregistrement d’objet Workfront liée en lecture seule
 
@@ -475,7 +473,7 @@ Pour plus d’informations, voir [Créer des enregistrements](../maestro/records
 
 Aperçu et production : 16 octobre 2023
 
-Vous pouvez désormais ajouter un champ de type Personnes aux types d’enregistrement Maestro. Vous pouvez utiliser des champs de type Personnes pour associer des utilisateurs existants à un enregistrement. Pour plus d’informations, voir [Créer des champs](../maestro/fields/create-fields.md).
+Vous pouvez désormais ajouter un champ de type Personnes aux types d’enregistrement des fonctionnalités de planification. Vous pouvez utiliser des champs de type Personnes pour associer des utilisateurs existants à un enregistrement. Pour plus d’informations, voir [Créer des champs](../maestro/fields/create-fields.md).
 
 ### Format de texte enrichi pour les champs de paragraphe
 
@@ -530,21 +528,21 @@ Vous pouvez désormais réorganiser une ou plusieurs lignes (ou enregistrements)
 
 ## Semaine du 4 septembre 2023
 
-### Connexion des enregistrements Maestro aux entreprises et aux groupes Workfront
+### Connexion des enregistrements des fonctionnalités de planification aux entreprises et aux groupes Workfront
 
 Aperçu et production : 5 septembre 2023
 
-Vous pouvez désormais connecter un enregistrement Maestro à des entreprises et des groupes Workfront. Vous devez d’abord créer une connexion entre un type d’enregistrement Maestro et les types d’objets des sociétés et groupes Workfront. Vous pouvez ensuite connecter un seul enregistrement Maestro du type d’enregistrement sélectionné à des sociétés et groupes Workfront individuels.
+Vous pouvez désormais associer un enregistrement de fonctionnalité de planification à des entreprises et des groupes Workfront. Vous devez d’abord créer une connexion entre un type d’enregistrement de fonctionnalité de planification et les types d’objets des sociétés et groupes Workfront. Vous pouvez ensuite associer un seul enregistrement de fonctionnalité de planification du type d’enregistrement sélectionné à des entreprises et groupes Workfront individuels.
 
 Tenez compte des points suivants :
 
-* Vous devez créer une connexion entre les types d’enregistrement Maestro et Workfront Company et les types d’objets Group pour chaque espace de travail.
+* Vous devez créer une connexion entre les types d’enregistrement des fonctionnalités de planification et les types d’objets Société Workfront et Groupe pour chaque espace de travail.
 
 * Vous ne pouvez pas connecter les types d’enregistrement de taxonomie aux types d’objets Workfront.
 
-* Vous pouvez connecter plusieurs enregistrements Maestro au même groupe ou entreprise Workfront et plusieurs entreprises ou groupes au même enregistrement Maestro.
+* Vous pouvez associer plusieurs enregistrements de fonctionnalités de planification à une même société ou groupe Workfront, et plusieurs entreprises ou groupes à un même enregistrement de fonctionnalités de planification.
 
-* Vous ne pouvez pas modifier des entreprises ou des groupes dans Maestro. Toutes les modifications de groupe ou d’entreprise effectuées dans Workfront sont visibles dans Maestro lors de la vérification des enregistrements liés à Maestro.
+* Vous ne pouvez pas modifier des entreprises ou des groupes dans les fonctionnalités de planification. Toutes les modifications de société ou de groupe effectuées dans Workfront sont visibles dans les fonctionnalités de planification, lors de la vérification des capacités de planification des enregistrements liés.
 
   Pour plus d’informations, voir les articles suivants :
 
@@ -571,15 +569,15 @@ Pour plus d’informations, voir [Gestion de la vue de tableau](../maestro/views
 
 ## Semaine du 21 août 2023
 
-### Connexion des enregistrements Maestro aux programmes et portefeuilles
+### Connexion des enregistrements des fonctionnalités de planification d’Adobe Workfront aux programmes et portefeuilles
 
 Aperçu et production : 24 août 2023
 
-Vous pouvez désormais connecter un enregistrement Maestro à des programmes et portefeuilles Workfront. Vous devez créer une connexion entre un type d’enregistrement Maestro et un programme ou un portfolio qui crée un champ connecté. Ensuite, vous pouvez connecter tout enregistrement Maestro de tous les autres types d’enregistrements du même espace de travail à des programmes et portefeuilles spécifiques, ce qui crée un programme Workfront en lecture seule ou un type d’enregistrement de Portfolio Workfront dans le même espace de travail. Tenez compte des points suivants :
+Vous pouvez désormais associer un enregistrement de fonctionnalités de planification à des programmes et portefeuilles Workfront. Vous devez créer une connexion entre un type d&#39;enregistrement de fonctionnalités de planification et un programme ou un portefeuille qui crée un champ connecté. Ensuite, vous pouvez lier tout enregistrement de fonctionnalités de planification de tous les autres types d’enregistrements du même espace de travail à des programmes et portefeuilles spécifiques, ce qui crée un type d’enregistrement en lecture seule Programme Workfront ou Portfolio Workfront dans le même espace de travail. Tenez compte des points suivants :
 
 * Les types d’enregistrement du connecteur Workfront sont uniques pour chaque espace de travail.
-* Vous pouvez connecter plusieurs enregistrements Maestro au même programme ou portfolio Workfront, ainsi que plusieurs programmes et portefeuilles au même enregistrement Maestro.
-* Vous ne pouvez pas modifier les programmes et les portefeuilles dans Maestro. Toutes les modifications de programme et de portefeuille effectuées dans Workfront sont visibles dans Maestro, lors de la vérification des enregistrements liés.
+* Vous pouvez associer plusieurs enregistrements de fonctionnalités de planification au même programme ou portefeuille Workfront, ainsi que plusieurs programmes et portefeuilles à un même enregistrement de fonctionnalités de planification.
+* Vous ne pouvez pas modifier les programmes et les portefeuilles dans les fonctionnalités de planification. Toutes les modifications de programme et de portefeuille effectuées dans Workfront sont visibles dans les capacités de planification lors de la vérification des enregistrements liés.
 
 ### Nouvelle fonctionnalité de tri pour la vue de tableau
 
@@ -608,13 +606,13 @@ Les améliorations suivantes ont été apportées à la vue de la chronologie :
 
 ### Réorganiser les colonnes dans la vue de tableau
 
-Vous pouvez désormais réorganiser les colonnes dans la vue Tableau Maestro. Tenez compte des points suivants lors de la réorganisation des colonnes :
+Vous pouvez désormais réorganiser les colonnes dans la vue du tableau. Tenez compte des points suivants lors de la réorganisation des colonnes :
 
 * Le champ Nom est toujours le premier champ de la vue table d’une page de type enregistrement.
 
 * Vous ne pouvez pas déplacer le champ Nom vers une autre position.
 
-* Le champ Nom est figé et ne fait pas partie du défilement horizontal.
+* Le champ Nom est figé et ne fait pas partie du défilement horizontal
 
 ### Défilement horizontal pour la vue chronologique
 
@@ -650,7 +648,7 @@ Vous pouvez désormais sélectionner une icône personnalisée pour un type d’
 
 Aperçu et production : 13 juillet 2023
 
-Vous pouvez désormais ajouter un type de champ Case à cocher aux types d’enregistrement Maestro. Vous pouvez utiliser un champ de type Case à cocher pour ajouter une seule option de case à cocher à un enregistrement. Vous pouvez utiliser ce champ pour indiquer un attribut ou un état spécifique pour cet enregistrement. Par exemple, vous pouvez l’utiliser comme indicateur pour le suivi de la fin, de l’approbation ou de tout autre attribut binaire pour chaque enregistrement.
+Vous pouvez désormais ajouter un type de champ Case à cocher aux types d’enregistrement de la fonctionnalité de planification. Vous pouvez utiliser un champ de type Case à cocher pour ajouter une seule option de case à cocher à un enregistrement. Vous pouvez utiliser ce champ pour indiquer un attribut ou un état spécifique pour cet enregistrement. Par exemple, vous pouvez l’utiliser comme indicateur pour le suivi de la fin, de l’approbation ou de tout autre attribut binaire pour chaque enregistrement.
 
 ## Semaine du 26 juin 2023
 
@@ -664,19 +662,19 @@ Nous avons activé la possibilité d&#39;activer le menu contextuel en cliquant 
 
 ### Les noms des champs d’enregistrement sont uniques.
 
-Nous avons introduit une exigence maintenant que les noms de champ d’un type d’enregistrement Maestro doivent avoir des noms uniques. Les champs qui appartiennent à différents types d’enregistrements n’ont pas besoin de noms uniques.
+Nous avons désormais exigé que les noms de champ d’un type d’enregistrement de capacité de planification portent des noms uniques. Les champs qui appartiennent à différents types d’enregistrements n’ont pas besoin de noms uniques.
 
 ## Semaine du 5 juin 2023
 
-### Connexion d’enregistrements Maestro à des projets Workfront
+### Connexion des enregistrements des fonctionnalités de planification Adobe Workfront aux projets Workfront
 
 Aperçu et production : 5 juin 2023
 
-Vous pouvez désormais connecter un enregistrement Maestro à des projets Workfront. Vous devez créer un type d’enregistrement Connector Maestro pour établir la connexion entre les enregistrements Maestro et les projets Workfront. Vous pouvez ensuite connecter n’importe quel enregistrement Maestro de tous les autres types d’enregistrement à l’enregistrement du connecteur à l’aide du champ Relation . Tenez compte des points suivants :
+Vous pouvez désormais associer un enregistrement de fonctionnalités de planification à des projets Workfront. Vous devez créer un type d&#39;enregistrement des fonctionnalités de planification du connecteur pour établir la connexion entre les enregistrements des fonctionnalités de planification et les projets Workfront. Vous pouvez ensuite connecter les enregistrements des fonctionnalités de planification de tous les autres types d&#39;enregistrements à l&#39;enregistrement du connecteur à l&#39;aide du champ Relation . Tenez compte des points suivants :
 
 * Vous devez disposer d’un type d’enregistrement de connecteur pour Workfront pour chaque espace de travail.
-* Vous pouvez connecter plusieurs enregistrements Maestro au même projet Workfront et plusieurs projets au même enregistrement Maestro.
-* Vous ne pouvez pas modifier de projets dans Maestro. Toutes les modifications de projet effectuées dans Workfront sont visibles dans Maestro, lors de la vérification des enregistrements liés.
+* Vous pouvez connecter plusieurs enregistrements de fonctionnalités de planification au même projet Workfront et plusieurs projets au même enregistrement de fonctionnalités de planification.
+* Vous ne pouvez pas modifier de projets dans les fonctionnalités de planification. Toutes les modifications de projet effectuées dans Workfront sont visibles dans les fonctionnalités de planification lors de la vérification des enregistrements liés.
 
 ## Semaine du 29 mai 2023
 
