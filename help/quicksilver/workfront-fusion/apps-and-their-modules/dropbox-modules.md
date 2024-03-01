@@ -9,9 +9,9 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
 workflow-type: tm+mt
-source-wordcount: '3061'
+source-wordcount: '3080'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!UICONTROL Dropbox], ainsi que de le connecter à plusieurs applications et services tiers. Cela vous permet d’automatiser des activités telles que la surveillance, la recherche, la récupération, la mise en liste, la création et la modification de fichiers et de dossiers dans vos [!UICONTROL Dropbox].
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -51,9 +51,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,7 +65,14 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 ## Conditions préalables
 
-Pour utiliser [!DNL Dropbox] modules, vous devez disposer d’un [!DNL Dropbox] compte .
+* Pour utiliser [!DNL Dropbox] modules, vous devez disposer d’un [!DNL Dropbox] compte .
+
+>[!IMPORTANT]
+>
+>Dropbox doit approuver les demandes comptant plus de 50 utilisateurs.
+>
+>Pour plus d’informations, recherchez &quot;Validation de la production&quot; dans le guide de développement du Dropbox.
+
 
 ## [!DNL Dropbox] modules et leurs champs
 
@@ -75,12 +82,12 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 ![](assets/map-toggle-350x74.png)
 
-* [Déclencher des modules](#trigger-modules)
+* [Modules déclencheurs](#trigger-modules)
 * [Modules pour obtenir [!DNL Dropbox] fichiers et dossiers](#modules-for-getting-dropbox-files-and-folders)
 * [Modules pour la création et la modification [!DNL Dropbox] fichiers et dossiers](#modules-for-creating-and-editing-dropbox-files-and-folders)
 * [Autres modules](#other-modules)
 
-### Déclencher des modules
+### Modules déclencheurs
 
 #### [!UICONTROL Fichiers de contrôle]
 
@@ -137,7 +144,7 @@ Vous pouvez mapper ces informations dans les modules suivants du scénario.
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
-   <td> <p>Sélectionnez le dossier à rechercher. Ce module recherche la totalité de [!DNL Dropbox] si vous ne sélectionnez pas de dossier.</p> </td> 
+   <td> <p>Sélectionnez le dossier à rechercher. Ce module recherche l’intégralité de [!DNL Dropbox] si vous ne sélectionnez pas de dossier.</p> </td> 
   </tr> 
   <tr> 
    <td>Statut du fichier</td> 
@@ -353,7 +360,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Folder]</p> </td> 
-   <td> <p>Saisissez ou mappez le chemin d’accès où vous souhaitez créer un dossier.</p> <p>Note:   <p>Si vous utilisez une [!DNL Dropbox Business] compte (avec espaces d’équipe), vous devez supprimer la barre oblique <code>/</code>, ou ne cliquez pas sur <strong>[!UICONTROL Cliquez ici] pour sélectionner un dossier</strong> pour créer un dossier d’équipe dans la racine.</p> <p>Si la barre oblique n’est pas supprimée, une erreur <code>[409] path/malformed_path/..</code> est renvoyée.</p> </p> </td> 
+   <td> <p>Saisissez ou mappez le chemin d’accès où vous souhaitez créer un dossier.</p> <p>Remarque :   <p>Si vous utilisez une [!DNL Dropbox Business] compte (avec espaces d’équipe), vous devez supprimer la barre oblique <code>/</code>, ou ne cliquez pas sur <strong>[!UICONTROL Cliquez ici] pour sélectionner un dossier</strong> pour créer un dossier d’équipe dans la racine.</p> <p>Si la barre oblique n’est pas supprimée, une erreur <code>[409] path/malformed_path/..</code> est renvoyée.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Renommer automatiquement]</td> 
@@ -423,11 +430,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Visibilité demandée]</p> </td> 
-   <td> <p>Indiquez si le lien est public, pour l’équipe ou le mot de passe est restreint.</p> <p>Remarque : Les options [!UICONTROL Equipe uniquement] et [!UICONTROL Accès avec mot de passe] ne sont disponibles que pour les utilisateurs qui disposent de [!DNL Dropbox Pro] ou version ultérieure.</p> </td> 
+   <td> <p>Indiquez si le lien est public, pour l’équipe ou le mot de passe est restreint.</p> <p>Remarque : les options [!UICONTROL Équipe uniquement] et [!UICONTROL Accès avec mot de passe] ne sont disponibles que pour les utilisateurs qui disposent d’un [!DNL Dropbox Pro] ou version ultérieure.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Date d’expiration du lien]</td> 
-   <td> <p> Saisissez la date et l’heure d’expiration du lien, qui ne sera plus accessible. Si ce champ est vide, le lien n’expire pas. Pour obtenir la liste des formats de date et d’heure pris en charge, voir <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type de contrainte dans [!DNL Adobe Workfront Fusion]</a>.</p> <p>Remarque : Les options [!UICONTROL Équipe uniquement] et [!UICONTROL Accès avec mot de passe] ne sont disponibles que pour les utilisateurs qui disposent de [!UICONTROL Dropbox Pro] ou de versions ultérieures.</p> </td> 
+   <td> <p> Saisissez la date et l’heure d’expiration du lien, qui ne sera plus accessible. Si ce champ n’est pas renseigné, le lien n’expire pas. Pour obtenir la liste des formats de date et d’heure pris en charge, voir <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type de contrainte dans [!DNL Adobe Workfront Fusion]</a>.</p> <p>Remarque : Les options [!UICONTROL Équipe uniquement] et [!UICONTROL Accès avec mot de passe] ne sont disponibles que pour les utilisateurs disposant de [!UICONTROL Dropbox Pro] ou de versions ultérieures.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Niveau d’accès au lien]</p> </td> 
@@ -602,7 +609,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Headers] </td> 
-   <td> <p>Saisissez les en-têtes de requête souhaités. [!DNL Workfront Fusion] ajoute automatiquement des en-têtes d’autorisation.</p> </td> 
+   <td> <p>Saisissez les en-têtes de requête de votre choix. [!DNL Workfront Fusion] ajoute automatiquement des en-têtes d’autorisation.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Query String]</td> 
@@ -610,7 +617,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Body] </td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:   <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :   <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -622,9 +629,9 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 >
 >**Exemple :** L’appel API suivant renvoie les 10 premiers fichiers de la variable [!DNL /Text files] dans votre dossier [!DNL Dropbox] compte :
 >
->URL: `/2/files/list_folder`
+>URL : `/2/files/list_folder`
 >
->Corps:
+>Corps :
 > 
 >`{`
 >
@@ -645,7 +652,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 ## Problèmes courants
 
 * [Impossible de charger ou de mettre à jour un fichier](#unable-to-upload-or-update-a-file)
-* [L’image référencée par le biais d’un lien partagé n’est pas rendue.](#image-referenced-via-a-shared-link-does-not-render)
+* [L’image référencée via un lien partagé n’est pas rendue.](#image-referenced-via-a-shared-link-does-not-render)
 
 ### Impossible de charger ou de mettre à jour un fichier
 
@@ -654,11 +661,11 @@ Il existe plusieurs situations lors de l’échec du téléchargement ou de la m
 * Le fichier téléchargé est trop volumineux et dépasse la taille de fichier maximale autorisée pour votre [!DNL Dropbox] ou vous avez utilisé l’ensemble de vos [!DNL Dropbox] quota de stockage du compte. Vous devez supprimer les fichiers existants de votre [!DNL Dropbox] ou mettre à niveau votre plan.
 * Le dossier précédemment sélectionné dans lequel le fichier est chargé n’existe plus. Le scénario s’arrête et vous devez sélectionner à nouveau le dossier cible.
 
-### L’image référencée par le biais d’un lien partagé n’est pas rendue.
+### L’image référencée via un lien partagé n’est pas rendue.
 
-L’URL renvoyée par la variable [!UICONTROL Dropbox] >[!UICONTROL Création d’un lien partagé] n’est pas directement lié à une image, mais à un [!DNL Dropbox] page. Pour forcer le téléchargement de l’image, remplacez la balise de fin `?dl=0` avec `?dl=1`. Pour forcer le rendu de l’image (par exemple, dans un navigateur Web ou dans Facebook Messenger), ajoutez `&raw=1` à l’URL.
+L’URL renvoyée par la variable [!UICONTROL Dropbox] >[!UICONTROL Création d’un lien partagé] n’est pas directement lié à une image, mais à un [!DNL Dropbox] page. Pour forcer le téléchargement de l’image, remplacez la fin `?dl=0` avec `?dl=1`. Pour forcer le rendu de l’image (par exemple, dans un navigateur Web ou dans Facebook Messenger), ajoutez `&raw=1` à l’URL.
 
-Si vous avez besoin d’obtenir le lien direct ou brut de votre image pour votre site web ou pour d’autres [!DNL Workfront Fusion] , vous devez modifier l’URL partagée initiale de la manière suivante :
+Si vous devez obtenir le lien direct ou brut de votre image pour votre site web ou pour d’autres [!DNL Workfront Fusion] , vous devez modifier l’URL partagée initiale de la manière suivante :
 
 URL d’origine :
 
