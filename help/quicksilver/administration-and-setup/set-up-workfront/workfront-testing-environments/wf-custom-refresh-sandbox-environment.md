@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
+source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ L’environnement de test d’actualisation personnalisée contient vos données
 >[!NOTE]
 >
 >* Vous ne pouvez pas planifier une actualisation pour le jour en cours. Si, par exemple, la date d’aujourd’hui est le 1er juin, la date la plus proche à laquelle vous pouvez planifier une actualisation est le 2 juin.
->* L’actualisation planifiée a lieu à 00h00 à la date donnée, selon le fuseau horaire de l’utilisateur qui a envoyé la demande.
+>* L’actualisation planifiée se produit parfois pendant la nuit, en fonction de la grappe de l’utilisateur (les grappes des États-Unis s’actualisent la nuit aux États-Unis). L’heure spécifique est imprévisible en raison des autres clients de la file d’attente et de la quantité de données actualisée. Si la file d’attente compte de nombreux clients volumineux, votre actualisation peut ne pas s’exécuter avant plus tard ce jour-là ou le jour suivant.
 >* Votre environnement de test d’actualisation personnalisée comporte toujours les mêmes fonctionnalités de produit que votre environnement de production. Cependant, lorsque vous actualisez votre environnement de test d’actualisation personnalisée, la valorisation de marque n’est conservée que pour la couleur d’arrière-plan de l’écran de connexion. L’écran de connexion et les logos de la barre de navigation sont réinitialisés sur [!DNL Workfront] les valeurs par défaut et les images de marque que vous avez modifiées avant l’actualisation ne s’affichent pas.
 >
 
@@ -150,7 +150,7 @@ Pour accéder à votre sandbox d’actualisation personnalisée à l’aide d’
 
 >[!IMPORTANT]
 >
->La durée de l’actualisation dépend de la taille des données en cours d’actualisation. Pendant le processus d’actualisation, il est essentiel que votre environnement de test d’actualisation personnalisé ne soit pas utilisé de quelque manière que ce soit (y compris les appels d’API et les intégrations), car cela empêchera l’actualisation de l’environnement de test de se terminer avec succès. [!DNL Workfront] désactive l’environnement de test d’actualisation personnalisé avant qu’il ne commence, mais vous devez mettre fin à toute session principale pour vous assurer que l’actualisation de votre environnement de test est réussie.
+>La durée de l’actualisation dépend de la taille des données en cours d’actualisation. Pendant le processus d’actualisation, il est essentiel que votre environnement de test d’actualisation personnalisé ne soit pas utilisé de quelque manière que ce soit (y compris les appels d’API et les intégrations), car cela empêchera l’actualisation de l’environnement de test de se terminer avec succès. [!DNL Workfront] désactive l’environnement de test d’actualisation personnalisé avant qu’il ne commence, mais vous devez mettre fin à toutes les sessions actives pour vous assurer que l’actualisation de votre environnement de test est réussie.
 
 Après avoir planifié une actualisation de votre sandbox d’actualisation personnalisée, vous pouvez l’annuler en cliquant sur [!UICONTROL Annuler] en haut de la page. Vous pouvez également le replanifier ultérieurement.
 
