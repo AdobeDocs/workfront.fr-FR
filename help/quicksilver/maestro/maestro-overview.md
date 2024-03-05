@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 1%
@@ -233,7 +233,7 @@ Voici les principaux objets et concepts relatifs aux capacités de planification
   Pour plus d’informations sur la liaison de types d’enregistrements, d’enregistrements et la création de champs liés, consultez les articles suivants :
 
    * [Connexion des types d’enregistrement](../maestro/architecture/connect-record-types.md)
-   * [Connexion d’enregistrements](../maestro/records/connect-records.md)
+   * [Connecter les enregistrements](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
@@ -264,7 +264,7 @@ Le tableau suivant montre les limites du nombre d&#39;objets que vous pouvez cr�
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Nombre d’espaces de travail pour une instance Workfront | 1 000 |
 | Nombre de types d’enregistrement pour un espace de travail | 1 000 (y compris les taxonomies de l’espace de travail ou les objets que vous importez à partir d’autres applications) |
-| Nombre d&#39;enregistrements pour un type d&#39;enregistrement | 10 000 |
+| Nombre d&#39;enregistrements pour un type d&#39;enregistrement | 50 000 |
 | Nombre de champs pour un type d’enregistrement ou une taxonomie | 500 |
 | Nombre de caractères d’un champ de texte | 1 000 caractères |
 | Taille de fichier que vous pouvez coller dans un tableau de type enregistrement | 1 Mo |

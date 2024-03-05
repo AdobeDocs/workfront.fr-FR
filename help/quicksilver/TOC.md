@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 358a7c056840240c8df4464bc0ee2e439b174a37
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
-source-wordcount: '13996'
+source-wordcount: '14000'
 ht-degree: 1%
 
 ---
@@ -2050,7 +2050,7 @@ ht-degree: 1%
    * Enregistrements du maître d’Adobe {#adobe-maestro-records}
       * [Enregistrements : index de l’article](maestro/records/records-information.md)
       * [Créer des enregistrements](maestro/records/create-records.md)
-      * [Connexion d’enregistrements](maestro/records/connect-records.md)
+      * [Connecter les enregistrements](maestro/records/connect-records.md)
       * [Modifier des enregistrements](maestro/records/edit-records.md)
       * [Suppression d’enregistrements](maestro/records/delete-records.md)
       * [Partage d’enregistrements](maestro/records/share-records.md)
@@ -2062,6 +2062,7 @@ ht-degree: 1%
       * [Gestion des vues d’enregistrement](maestro/views/manage-record-views.md)
       * [Gestion de la vue de tableau](maestro/views/manage-the-table-view.md)
       * [Gestion du mode Chronologie](maestro/views/manage-the-timeline-view.md)
+      * [Gestion de la vue Calendrier](maestro/views/manage-the-calendar-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Modèle de table d&#39;accès fusion](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
