@@ -4,9 +4,9 @@ description: Amélioration du flux de mise à jour et des notifications du deuxi
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées au flux de mise à jour et aux notifications de la version du deuxième trimestre 2024 à l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production, comme indiqué.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 2024 du deuxième trimestre, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Nouveau flux de commentaires désormais disponible dans les actions rapides pour les nouveaux widgets d’accueil
+
+>[!NOTE]
+>
+>Aperçu de la version : 1er mars 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+
+Nous avons maintenant ajouté la nouvelle fonctionnalité de commentaires à la fonction **Ajouter une nouvelle mise à jour** Bouton d’action rapide dans les widgets Mon travail, Mes projets, Mes tâches et Mes problèmes de la nouvelle page d’accueil.
+
+Pour plus d’informations, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Informations supplémentaires sur les commentaires disponibles dans la nouvelle expérience de commentaires
 
@@ -34,7 +44,7 @@ Pour plus d’informations, voir [Mise à jour du travail](/help/quicksilver/wor
 
 >[!NOTE]
 >
->Aperçu de la version : 22 février 2024 ; Production pour une version rapide : avec la version 24.3 (mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+>Aperçu de la version : 22 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
 
 Pour vous donner une vue chronologique cohérente des commentaires et des journaux d’activité du système, nous vous proposons un troisième onglet dans la zone Mises à jour de tous les objets. L’onglet &quot;Tous&quot; capture les commentaires des utilisateurs et les commentaires sur l’activité du système dans un flux cohérent.
 

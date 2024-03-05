@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,25 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td>
                         <p><span class="bold">Dates de publication</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">L’intégration JumpSeat est désormais disponible pour les nouveaux types de modules.</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>L’intégration JumpSeat existante est désormais disponible pour les comptes utilisant l’un des nouveaux types de modules (c’est-à-dire Select, Prime ou Ultimate). Vous devez toujours disposer d’un abonnement JumpSeat actif pour activer l’intégration.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 26 février 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.3 (14 mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -220,6 +239,25 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau flux de commentaires désormais disponible dans les actions rapides pour les nouveaux widgets d’accueil</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p>
+                        <p>Nous avons maintenant ajouté la nouvelle fonctionnalité de commentaires à la fonction <b>Ajouter une nouvelle mise à jour</b> Bouton d’action rapide dans les widgets Mon travail, Mes projets, Mes tâches et Mes problèmes de la nouvelle page d’accueil.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 1er mars 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.3 (14 mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Informations supplémentaires sur les commentaires disponibles dans la nouvelle expérience de commentaires</a><span style="color: #ff0000;"> Nouveau dans Aperçu .</span></p><p>Les améliorations suivantes ont été apportées à la nouvelle expérience de commentaires :</p>

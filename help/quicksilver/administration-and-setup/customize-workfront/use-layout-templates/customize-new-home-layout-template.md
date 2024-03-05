@@ -7,9 +7,9 @@ description: Vous pouvez utiliser un modèle de mise en page pour configurer ce 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,14 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
       <p>Sélectionnez les widgets qui seront présents dans les espaces de travail des utilisateurs, leur position et choisissez un arrière-plan. Notez que même si les utilisateurs ne peuvent pas supprimer les widgets sélectionnés, ils peuvent les déplacer et les redimensionner librement et ajouter des widgets supplémentaires.</p>
       <p>Cet onglet fonctionne essentiellement comme un petit nouvel espace de travail d’accueil. Il peut donc être personnalisé selon les étapes décrites dans la section <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Ajout, modification ou suppression de widgets dans la nouvelle page d’accueil</a>. Sélectionnez des widgets et organisez l’espace de travail comme vous le souhaitez pour les utilisateurs.</p>
       <p>Pour modifier l’arrière-plan, procédez comme suit : <b>Personnalisation de l’arrière-plan</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Prise en main du nouvel accueil</a>.</p>
-      </td> 
+      <p>
+
+>[!NOTE]
+>
+>Seuls les widgets de déplacement ou de redimensionnement du modèle de mise en page ne déclenchent pas la mise en page des nouvelles pages d’accueil des utilisateurs. Cependant, l’ajout ou la suppression d’un widget déclenche une mise à jour des pages des utilisateurs.
+
+</p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Paramètres du widget</td> 
@@ -93,18 +100,24 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
       </ul>
       <p>Une fois que vous avez sélectionné le widget que vous souhaitez modifier, les options disponibles s’affichent à droite. Ces options incluent les suivantes : <b>Filtres</b>, <b>Colonnes</b>, et <b>Groupes</b>. Vous pouvez :</p>
       <ul>
-        <li><b>Sélectionnez les filtres, colonnes ou groupes qui seront disponibles pour les utilisateurs :</b><p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les utilisateurs puissent utiliser. Les options non cochées ne s’affichent pas pour les utilisateurs.</li></p>
-        <li><b>Définissez un filtre ou un groupe par défaut pour le widget :</b><p>Passez la souris sur une option pour afficher un bouton permettant de définir cette option comme option par défaut pour les utilisateurs. La valeur par défaut actuelle comporte un badge bleu par défaut à sa droite.</li></p>
-        <li><b>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles :</b><p>Cliquez sur le bouton représentant le signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</li></p>
+      <li><p><b>Sélectionnez les filtres, colonnes ou groupes qui seront disponibles pour les utilisateurs :</b></p>
+      <p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les utilisateurs puissent utiliser. Les options non cochées ne s’affichent pas pour les utilisateurs.</li></p>
+      <li><p><b>Définissez un filtre ou un groupe par défaut pour le widget :</b></p>
+      <p>Passez la souris sur une option pour afficher un bouton permettant de définir cette option comme option par défaut pour les utilisateurs. La valeur par défaut actuelle comporte un badge bleu par défaut à sa droite.</li></p>
+      <li><p><b>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles :</b></p>
+      <p>Cliquez sur le bouton représentant le signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</p></li>
       </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <p>
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Si vous définissez un filtre ou un regroupement par défaut pour un widget spécifique à l’aide d’un modèle de mise en page, il se peut qu’il ne prenne pas effet immédiatement en raison des préférences utilisateur existantes. Pour appliquer immédiatement le nouveau filtre ou regroupement, vous ou l’utilisateur devrez peut-être réinitialiser leurs préférences utilisateur en ajoutant &quot;/resetUser&quot; à la fin de leur URL.
+
+</p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. Poursuivez la personnalisation du modèle de mise en page.
 

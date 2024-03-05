@@ -6,9 +6,9 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 61074fd87dafde9eb555da27e207198ee0eadc60
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1103'
 ht-degree: 8%
 
 ---
@@ -43,7 +43,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’u
     Affiche les tâches qui vous sont affectées dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste, ou vous pouvez créer une tâche directement à partir du widget. Vous pouvez également déléguer vos tâches lorsque vous êtes absent du bureau.
 
 * **Mes problèmes**\
-    Affiche les problèmes qui vous sont attribués dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste ou vous pouvez créer un problème directement à partir du widget. Ce widget inclut uniquement les problèmes dont les projets associés sont définis sur Actuel. Vous pouvez également déléguer vos problèmes lorsque vous êtes absent du bureau.
+    Affiche les problèmes qui vous sont attribués dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste ou vous pouvez créer un problème directement à partir du widget. Ce widget comprend uniquement les problèmes dont les projets associés sont définis sur Actuel. Vous pouvez également déléguer vos problèmes lorsque vous êtes absent du bureau.
 
 * **Mes requêtes**\
     Affiche toutes les requêtes que vous avez envoyées, un filtre permettant d’afficher uniquement les requêtes ouvertes et un bouton permettant d’ouvrir le volet de résumé d’une requête.
@@ -57,7 +57,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’u
 * **Toutes les validations**\
     Affiche toutes les approbations de votre organisation dans un tableau avec des colonnes personnalisables, ainsi qu’une barre de recherche qui vous permet de rechercher des approbations spécifiques.
 
-* **Autorisations en attente**&lt;\
+* **Autorisations en attente**\
     Affiche les approbations affectées à un document sur un projet dont vous êtes responsable. Ici, vous pouvez afficher l’état d’approbation et rappeler aux utilisateurs des révisions et des approbations incomplètes. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.</span>
 
 * **Mentions**\

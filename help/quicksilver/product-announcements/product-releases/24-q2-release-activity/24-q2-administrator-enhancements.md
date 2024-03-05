@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administrateur au deuxième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées à l’administrateur à la version du deuxième trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production, comme indiqué.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 2024 du deuxième trimestre, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## L’intégration JumpSeat est désormais disponible pour les nouveaux types de modules.
+
+>[!NOTE]
+>
+>Aperçu de la version : 26 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : 24.4 (avril 2024)
+
+L’intégration JumpSeat existante est désormais disponible pour les comptes utilisant l’un des nouveaux types de modules (c’est-à-dire Select, Prime ou Ultimate). Vous devez toujours disposer d’un abonnement JumpSeat actif pour activer l’intégration.
+
+Pour plus d’informations sur l’intégration JumpSeat, voir [Configuration de l’intégration JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## Les champs natifs de Workfront sont disponibles dans la version bêta du concepteur de formulaires
 
