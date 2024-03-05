@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4279'
 ht-degree: 1%
 
 ---
@@ -322,7 +322,7 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
 
    >[!TIP]
    >
-   >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système.
+   >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système. <span class="preview">Toutefois, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système .</span>
 
 1. <span class="preview">(Facultatif) Cliquez sur le **Tous** pour afficher à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule.</span>
 

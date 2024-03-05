@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 6%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
 # Mises à jour suivies par le système
+
+{{highlighted-preview}}
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -53,12 +55,12 @@ Les mises à jour suivies par le système ne sont pas disponibles pour tous les 
    * [!UICONTROL Problème]
    * [!UICONTROL Portfolio]
    * [!UICONTROL Programme]
-   * [!UICONTROL l’utilisateur ou de l’utilisatrice]
+   * [!UICONTROL Utilisateur]
    * [!UICONTROL Modèle]
-   * [!UICONTROL Tâche de modèle]
+   * [!UICONTROL Tâche du modèle]
    * [!UICONTROL Équipe]
    * [!UICONTROL Document]
-   * [!UICONTROL Feuille de temps]
+   * [!UICONTROL Feuille de calcul]
    * [!UICONTROL Histoire]
 
      Dans [!DNL Workfront], une histoire est une tâche.
@@ -74,7 +76,7 @@ Les mises à jour suivies par le système ne sont pas disponibles pour tous les 
 
    * [!UICONTROL Équipe]
    * [!UICONTROL Modèle]
-   * [!UICONTROL Tâche de modèle]
+   * [!UICONTROL Tâche du modèle]
    * Ad hoc [!UICONTROL Carte]
    * [!UICONTROL Itérations]
 
@@ -90,6 +92,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+   * <span class="preview">Lors de l’utilisation de la nouvelle expérience de commentaire, les utilisateurs ne peuvent pas ajouter de commentaire à une mise à jour du système. Toutefois, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées sur l’onglet Activité système en tant que lecture seule dans la nouvelle expérience de commentaire.</span>
    * Lors de l’utilisation de l’expérience de commentaire héritée, les mises à jour du système et de l’utilisateur s’affichent dans un flux continu.
 
    * Lors de l’utilisation de l’expérience de commentaire héritée, les utilisateurs peuvent afficher les mises à jour système par défaut ou choisir de ne pas les afficher. La désactivation des mises à jour du système n’est pas possible lors de l’utilisation de la nouvelle expérience de commentaire.
@@ -105,7 +108,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 * [!DNL Workfront] Les administrateurs peuvent définir le type de modifications dont le système doit effectuer le suivi dans la variable [!UICONTROL Mises à jour] zone. Tous les objets qui ont une propriété [!UICONTROL Mises à jour] zone également configurable [!UICONTROL update] flux. Les objets suivants ont une propriété [!UICONTROL Mises à jour] zone qui capture les flux de mise à jour trackés par le système, mais qui ne comporte pas de flux de mise à jour configurables :
 
    * [!UICONTROL Document]
-   * [!UICONTROL Feuille de temps]
+   * [!UICONTROL Feuille de calcul]
    * [!UICONTROL Itération]
    * [!UICONTROL Objectif]
 
