@@ -7,9 +7,9 @@ description: Cet article décrit la mise en page des feuilles de temps dans Adob
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -137,6 +137,14 @@ Tous les commentaires apportés à la feuille de temps s’affichent dans cette 
 
 ## Panneau Résumé
 
+<div class="preview">
+
+Exemple dans l&#39;environnement Aperçu :
+![Panneau Résumé](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+Exemple dans l’environnement de production :
 ![Panneau Résumé](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Vous pouvez accéder au panneau Résumé pour les tâches ou les problèmes affichés dans une feuille de temps. À partir de là, vous pouvez commenter les tâches et les problèmes ou mettre à jour leurs informations. Pour plus d’informations, voir [Aperçu du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
