@@ -4,9 +4,9 @@ description: Amélioration du flux de mise à jour et des notifications du deuxi
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,16 @@ Les améliorations suivantes ont été apportées à la nouvelle expérience de 
 * Votre nom d’utilisateur est mis en surbrillance dans les commentaires sur lesquels vous êtes balisé lorsque vous êtes mentionné dans le texte du commentaire.
 
 Pour plus d’informations, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+## L’onglet Activité du système sur la nouvelle expérience de commentaire prend en charge les commentaires en lecture seule.
+
+>[!NOTE]
+>
+>Aperçu de la version : 22 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+
+Les commentaires effectués sur les enregistrements d’activité du système dans l’expérience de commentaire héritée sont désormais renseignés sur l’onglet Activité du système dans la nouvelle expérience de commentaire en lecture seule. Vous ne pouvez pas répondre aux enregistrements d’activité du système dans la nouvelle expérience de commentaire.
+
+Pour plus d’informations, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système
 

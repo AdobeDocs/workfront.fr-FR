@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -284,6 +284,24 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                         </ul>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">L’onglet Activité du système sur la nouvelle expérience de commentaire prend en charge les commentaires en lecture seule.</a></p><p>Les commentaires effectués sur les enregistrements d’activité du système dans l’expérience de commentaire héritée sont désormais renseignés sur l’onglet Activité du système dans la nouvelle expérience de commentaire en lecture seule. Vous ne pouvez pas répondre aux enregistrements d’activité du système dans la nouvelle expérience de commentaire.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 22 février 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.3 (mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système</a></p><p>Pour vous donner une vue chronologique cohérente des commentaires et des journaux d’activité du système, nous vous proposons un troisième onglet dans la zone Mises à jour de tous les objets. L’onglet "Tous" capture les commentaires des utilisateurs et les commentaires sur l’activité du système dans un flux cohérent.</p>
