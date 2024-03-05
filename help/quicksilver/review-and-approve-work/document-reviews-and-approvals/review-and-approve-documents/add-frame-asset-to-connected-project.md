@@ -5,9 +5,9 @@ title: Ajout d’une ressource Frame.io à un projet Workfront connecté
 description: Les créatifs peuvent ajouter des ressources qui doivent être examinées sur Frame.io et les envoyer à Workfront pour révision et approbation formelle.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 4edb4f8d0c309c77fbdf96eba056c9e763c799be
+source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Pour plus d’informations sur les informations contenues dans ce tableau, voir 
 ## Conditions préalables
 
 * Un groupe Workfront doit être connecté à une équipe Frame.io.
-* Un projet Workfront doit être connecté à un projet Frame.io et ajouté en tant qu’utilisateur à une tâche compatible avec les cadres.
+* Un projet Workfront doit être connecté à un projet Frame.io et ajouté en tant qu’utilisateur à une tâche Workfront activée pour Frame.io.
 
 Pour plus d’informations, voir [Connectez Workfront et Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
 
