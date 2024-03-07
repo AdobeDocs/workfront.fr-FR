@@ -6,7 +6,7 @@ description: La visionneuse de vérification de l’appli de bureau, conçue pri
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 98e2ebc214adf13d0f8b2962395504fb86e6d0c9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -57,8 +57,8 @@ Si ce n’est pas le cas, vous pouvez suivre les étapes ci-dessous.
 
 1. Pour télécharger l’application, effectuez l’une des opérations suivantes :
 
-   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.32.pkg)
-   * Si vous utilisez l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.32.pkg)
+   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.34.pkg)
+   * Si vous utilisez l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.34.pkg)
 
 1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
 1. Dans la boîte d’installation qui s’affiche, cliquez sur **Continuer**, puis cliquez sur **Installer**.

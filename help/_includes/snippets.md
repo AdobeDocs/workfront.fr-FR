@@ -1,5 +1,5 @@
 ---
-source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
+source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
 workflow-type: tm+mt
 source-wordcount: '2362'
 ht-degree: 1%
@@ -307,7 +307,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 ## Dernière version de DPV {#latest-version}
 
-**Dernière version**: 2.1.24 à partir du 5/15/2023
+**Dernière version**: 2.1.34 à partir du 3/06/2024
 
 <!-- Release -->
 
