@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '4258'
+source-wordcount: '4603'
 ht-degree: 0%
 
 ---
@@ -32,59 +32,71 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
 
-<!--
-## Week of March 4, 2024
+## Semaine du 4 mars 2024
 
-### Change row height in the table view
+### Les détails des enregistrements en un coup d’oeil s’affichent dans la vue de tableau
 
-Production: March 7, 2024 
+Production : 7 mars 2024
 
-Preview: To be determined 
+Aperçu : à déterminer
 
-You now have an option to modify the height of a row when displaying records in the table view.
+Pour faciliter l’affichage d’informations supplémentaires sur les enregistrements lors de l’utilisation de la vue Tableau, nous avons ajouté un nouveau panneau qui affiche un aperçu rapide des détails de l’enregistrement. Voici quelques-unes des informations incluses dans ce panneau :
 
-You can update the row height to one of the following sizes:  
+* informations d’enregistrement pertinentes en un coup d’oeil
 
-* Short 
-* Medium
-* Tall.  
+* possibilité de modifier des informations d’enregistrement
 
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+* un lien pour ouvrir la page Détails de l’enregistrement ;
 
-### New tabbed design for record views 
+Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
-Production: March 7, 2024 
+### Modification de la hauteur des lignes dans la vue de tableau
 
-Preview: To be determined 
+Production : 7 mars 2024
 
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
+Aperçu : à déterminer
 
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
+Vous avez désormais la possibilité de modifier la hauteur d’une ligne lors de l’affichage des enregistrements dans la vue de tableau.
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+Vous pouvez mettre à jour la hauteur de la ligne selon l’une des tailles suivantes :
 
-### Dynamic design of a record view
+* Court
+* Moyen
+* Grande.
 
-Production: March 7, 2024
-Preview: To be determined 
+Pour plus d’informations, voir [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+### Nouvelle conception à onglets pour les vues d’enregistrement
 
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+Production : 7 mars 2024
 
-### New calendar view for records
+Aperçu : à déterminer
 
-Production: March 7, 2024 
+Pour une meilleure navigation et une facilité d’utilisation, nous avons repensé l’affichage des vues d’enregistrement. Désormais, les vues s’affichent horizontalement sous la forme d’onglets sur la page de type enregistrement afin que vous puissiez facilement y naviguer. Avant cette amélioration, les vues s’affichaient dans le menu déroulant Affichage .
 
-Preview: To be determined 
+Les vues s’affichent chronologiquement par date ajoutée de gauche à droite. Les vues partagées s’affichent également par ordre chronologique du moment où elles ont été partagées.
 
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+Pour plus d’informations, voir [Gestion des vues d’enregistrement](/help/quicksilver/maestro/views/manage-record-views.md).
 
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+### Conception dynamique d’une vue d’enregistrement
 
--->
+Production : 7 mars 2024 Aperçu : A déterminer
+
+Nous avons mis à jour l’aspect des vues dans la page de type enregistrement. Les nouvelles vues sont réactives dynamiquement et s’ajustent rapidement à la taille de votre écran. Les libellés de l’option de barre d’outils sont masqués pour faciliter l’utilisation de la barre d’outils sur des écrans plus petits.
+
+Pour plus d’informations, voir les articles suivants :
+* [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Gestion du mode Chronologie](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### Nouvelle vue Calendrier pour les enregistrements
+
+Production : 7 mars 2024
+
+Aperçu : à déterminer
+
+Vous pouvez désormais afficher les enregistrements dans une vue Calendrier. Pour pouvoir créer la vue Calendrier, au moins deux champs de date doivent être de type enregistrement.
+
+Pour plus d’informations, voir [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Semaine du 26 février 2024
 

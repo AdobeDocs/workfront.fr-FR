@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -141,9 +141,28 @@ Le tableau suivant montre les similitudes et les différences entre les vues du 
 
 
 L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
+
 1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
    Par défaut, tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
+
+<!--
+    1. Click **+ View** to add a new view. 
+
+    1. Select from the following types of views: 
+
+        * Table
+        * Timeline
+        * Calendar
+
+        >[!TIP]
+        >
+        >When you create a record type, the table view is also created by default. 
+        >
+        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+        >
+        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
+    -->
 
 1. Cliquez sur le bouton **Affichage** , puis sélectionnez une **Vue Tableau** ![](assets/table-view-icon.png) ou cliquez sur **Créer une vue > Tableau** pour créer un tableau
 
@@ -157,15 +176,20 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
    >
    >    Pour créer une vue de chronologie, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date. Dans le cas contraire, l’option Chronologie est grisée.
 
-1. (Facultatif) Mettez à jour le nom de la vue, puis cliquez sur **Créer** pour l’enregistrer.
+1. (Facultatif) Mettez à jour le nom de la vue, puis cliquez sur **Créer** pour enregistrer une vue de tableau
+
+   Ou cliquez sur **Suivant**, lors de la création d’une chronologie <!--or calendar--> vue.
 
    Par défaut, Maestro nomme la vue &quot;Tableau &lt; nombre >&quot; ou &quot;Chronologie &lt; nombre >&quot;. Le nombre est un incrément généré automatiquement.
 
+1. (Conditionnel) Sélectionnez les dates de début et de fin pour les enregistrements qui s’afficheront dans la chronologie. <!--or calendar--> afficher, puis cliquez sur **Créer**.
 1. (Facultatif) Pour renommer une vue après sa création, cliquez sur le menu déroulant Affichage , puis sur la variable **Plus** menu ![](assets/more-menu.png) > **Renommer** pour mettre à jour le nom de la vue. <!--ensure there is not another saving step here?!-->
+   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Facultatif) Pour gérer un type de vue spécifique, consultez les articles suivants :
 
    * [Gestion de la vue de tableau](../views/manage-the-table-view.md)
    * [Gestion du mode Chronologie](../views/manage-the-timeline-view.md)
+     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
 
 
 ## Suppression de vues
@@ -180,6 +204,7 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
 
    Par défaut, tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
 1. Cliquez sur le menu déroulant d’affichage, survolez l’un des affichages de la liste avec la souris, puis cliquez sur l’icône **Plus** menu ![](assets/more-menu.png) > **Supprimer**.
 1. Cliquez sur **Supprimer** pour confirmer. <!--ensure there is not another saving step here?!-->
 
