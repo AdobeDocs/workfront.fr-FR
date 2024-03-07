@@ -6,9 +6,9 @@ description: Vous pouvez ajouter un rapport à un tableau de bord nouveau ou exi
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Ajout d’un rapport à un tableau de bord
 
 Vous pouvez ajouter un rapport à un tableau de bord nouveau ou existant directement à partir d’un rapport. Vous pouvez également ajouter un rapport existant à un tableau de bord, comme décrit dans la section [Création d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
+>[!NOTE]
+>
+>Les champs de recherche externes des formulaires personnalisés ne sont actuellement pas pris en charge dans les tableaux de bord. Vous ne pouvez pas modifier la valeur du champ en ligne et elle peut ne pas s’afficher correctement dans un tableau de bord.
 
 ## Exigences d’accès
 
@@ -27,7 +31,7 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
