@@ -4,9 +4,9 @@ description: Mises à jour de l’apparence pendant la période de publication d
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Les modèles de courrier électronique permettant d’ajouter un approbateur à 
 
 >[!NOTE]
 >
->Aperçu de la version : 8 février 2024 ; Production pour une version rapide : avec la version 24.3 (mars 2024) ; Production pour une version trimestrielle : avec la version 24.4 (avril 2024)
+>Aperçu de la version : 8 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour une version trimestrielle : avec la version 24.4 (avril 2024)
 
 Nous avons mis à jour les onglets de Forms, Fields et Sections dans la zone Configuration > Forms personnalisé afin qu’ils soient plus modernes et cohérents avec les autres zones de Workfront. Vous pouvez désormais accéder aux trois zones à partir du menu de navigation de gauche. Des filtres, des vues et des regroupements sont toujours disponibles pour les listes. La conception mise à jour s’applique aux formulaires personnalisés, aux champs et aux sections créés à la fois dans le nouveau concepteur de formulaires et dans l’ancien créateur de formulaires.
 

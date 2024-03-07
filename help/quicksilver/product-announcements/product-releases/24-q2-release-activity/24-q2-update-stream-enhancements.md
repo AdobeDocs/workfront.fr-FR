@@ -4,9 +4,9 @@ description: Amélioration du flux de mise à jour et des notifications du deuxi
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Pour plus d’informations, voir [Présentation de la section Mises à jour](/he
 
 >[!NOTE]
 >
->Aperçu de la version : 22 février 2024 ; Production pour une version rapide : avec la version 24.3 (mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+>Aperçu de la version : 22 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
 
 Nous avons ajouté la nouvelle fonctionnalité de commentaires au panneau Résumé pour les listes de tâches et de problèmes.
 

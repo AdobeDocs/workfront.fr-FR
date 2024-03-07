@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administrateur au deuxième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Les champs natifs utilisés dans les formulaires personnalisés sont disponibles
 
 Cette fonctionnalité est disponible uniquement en version bêta du concepteur de formulaire, et non dans l’ancien créateur de formulaires.
 
-Les articles Experience League pour cette fonctionnalité seront mis à jour d’ici le 7 mars.
+Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Mappage d’attributs désormais disponible pour les organisations qui ont migré vers Adobe IMS
 
@@ -55,7 +57,7 @@ Les administrateurs système Workfront peuvent désormais configurer le mappage 
 
 Auparavant, cette fonctionnalité n’était disponible que pour les organisations qui n’étaient pas encore intégrées à Adobe IMS.
 
-Pour plus d’informations sur la configuration du mappage des attributs, voir **Mise en correspondance des attributs utilisateur dans l’expérience unifiée Adobe** dans l’article [Mappage des attributs utilisateur et configuration automatique des nouveaux utilisateurs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Pour plus d’informations sur la configuration du mappage des attributs, voir [Mise en correspondance des attributs utilisateur dans l’expérience unifiée Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) dans l’article **Mappage des attributs utilisateur et configuration automatique des nouveaux utilisateurs**.
 
 ## La logique de saut et la logique d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.
 
