@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2334'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,11 @@ Pour gérer une vue de tableau :
 1. Créez une vue de tableau, comme décrit dans l’article [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
+
+1. (Facultatif) Cliquez sur **Hauteur de ligne**, puis sélectionnez l’une des options suivantes pour modifier la hauteur des lignes du tableau :
+   * Court
+   * Moyen
+   * Grand
 
 1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
    * [Colonnes (ou champs)](#add-columns-or-fields)
