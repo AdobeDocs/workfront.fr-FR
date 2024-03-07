@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2402'
 ht-degree: 2%
 
 ---
@@ -250,7 +250,7 @@ Ou
 }
 ```
 
-#### réponse
+#### Réponse
 
 ```json
 200
@@ -314,7 +314,7 @@ Ou
 
 _Vide_
 
-#### réponse
+#### Réponse
 
 ```
 200
@@ -379,7 +379,7 @@ Ou
 
 _Vide_
 
-#### réponse
+#### Réponse
 
 ```
 200
@@ -502,7 +502,7 @@ Ou
 }
 ```
 
-#### réponse
+#### Réponse
 
 ```
 200
@@ -580,7 +580,7 @@ Ou
 
 _Vide_
 
-#### réponse
+#### Réponse
 
 ```
 200
@@ -621,11 +621,15 @@ Pour chaque objet de promotion, l’un des éléments suivants `actions`  est d�
   </tr> 
   <tr> 
    <td>USEEXISTANT</td> 
-   <td><p>Lorsqu’un enregistrement correspondant est trouvé dans l’environnement cible, l’action est définie sur USEEXISTING et une <code>targetId</code> est également capturé dans la variable <code>translationmap</code>.</p><p>Lorsque cette action est définie dans la variable <code>translationmap</code> qui est fourni au <code>/install</code> endpoint, le service d’installation ne crée pas l’enregistrement. Cependant, il utilisera la variable <code>targetId</code> inclus dans l’entrée map pour d’autres objets qui peuvent avoir une référence à cet enregistrement.</p><p>Par exemple, un "groupe par défaut" se trouve dans l’environnement cible dans lequel un package est déployé. Il n’est pas possible d’avoir deux enregistrements "Groupe par défaut". Le service d’installation utilisera donc le GUID du groupe existant dans toute autre action de création d’objet qui inclura une référence au "Groupe par défaut", comme un projet, un formulaire ou toute autre entité liée à ce groupe.</p><p><b>Note:</b> <ul><li><p>Lorsque l'action USEEXISTING est affectée, l'enregistrement existant dans l'environnement cible ne sera pas modifié. </p><p>Par exemple, si la description du "Groupe par défaut" a changé dans l’environnement de test à partir duquel le package a été créé et que la valeur de description est différente dans l’environnement cible, la valeur reste inchangée après une installation avec cette méthode <code>translationmap</code>.</li></ul></td> 
+   <td><p>Lorsqu’un enregistrement correspondant est trouvé dans l’environnement cible, l’action est définie sur USEEXISTING et une <code>targetId</code> est également capturé dans la variable <code>translationmap</code>.</p><p>Lorsque cette action est définie dans la variable <code>translationmap</code> qui est fourni au <code>/install</code> endpoint, le service d’installation ne crée pas l’enregistrement. Cependant, il utilisera la variable <code>targetId</code> inclus dans l’entrée map pour d’autres objets qui peuvent avoir une référence à cet enregistrement.</p><p>Par exemple, un "groupe par défaut" se trouve dans l’environnement cible dans lequel un package est déployé. Il n’est pas possible d’avoir deux enregistrements "Groupe par défaut". Le service d’installation utilisera donc le GUID du groupe existant dans toute autre action de création d’objet qui inclura une référence au "Groupe par défaut", comme un projet, un formulaire ou toute autre entité liée à ce groupe.</p><p><b>Remarque :</b> <ul><li><p>Lorsque l'action USEEXISTING est affectée, l'enregistrement existant dans l'environnement cible ne sera pas modifié. </p><p>Par exemple, si la description du "Groupe par défaut" a changé dans l’environnement de test à partir duquel le package a été créé et que la valeur de description est différente dans l’environnement cible, la valeur reste inchangée après une installation avec cette méthode <code>translationmap</code>.</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td>REMPLACEMENT</td> 
+   <td><p>Cette action ne sera pas définie automatiquement.</p><p>Cette action permet de mettre à jour un objet existant dans l’environnement cible. Il permet de remplacer manuellement une action CRÉER ou UTILISER EXISTANTE affectée avant d’exécuter la fonction <code>/install</code> appelez .<ul><li>Un utilisateur peut mettre à jour un objet dans l’environnement de test, puis utiliser l’action REMPLACER pour mettre à jour cet objet dans l’environnement cible.</p></li><li><p>Si l’utilisateur installe d’abord un package de promotion, puis qu’un nouveau package (ou mis à jour) contiendra à l’avenir des modifications apportées aux objets dans le package initial, l’utilisateur peut utiliser l’option OVERWRITING pour remplacer (remplacer) les objets précédemment installés. </p></li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORER</td> 
-   <td><p>Cette action ne sera pas définie automatiquement.</p><p>Il permet de remplacer manuellement une action CRÉER ou UTILISER EXISTANTE affectée avant d’exécuter la fonction <code>/install</code> appelez .</p><p><b>Notes: </b><ul><li><p>Si un enregistrement qui a été initialement défini sur CRÉER est défini sur IGNORER, tous les enregistrements enfants doivent également être définis sur IGNORER.</p><p>Par exemple, si un enregistrement de modèle a été mappé avec une action CREATE et que l’utilisateur qui installe souhaite l’exclure du déploiement, il peut définir l’action du modèle sur IGNORE.</p><p>Dans ce cas, si l’utilisateur qui installe n’a pas également défini les tâches du modèle, les affectations de tâches du modèle, les prédécesseurs de tâches du modèle, la définition de la file d’attente, les rubriques de la file d’attente, les règles de routage, etc., sur IGNORE, le déploiement entraîne l’échec de la tentative d’installation.</p></li><li><p>Si un enregistrement qui était initialement défini sur USEEXISTING est défini sur IGNORE, il peut y avoir des effets négatifs pendant le processus d’installation.</p><p>Par exemple, si un enregistrement Group a été mappé avec l’action USEEXISTING et que l’utilisateur qui installe l’action change IGNORE, pour les objets nécessitant un groupe (par exemple, un projet ne peut pas exister sans qu’un groupe soit affecté), le groupe par défaut système sera affecté à ce projet.</p></li><li><p>Si un enregistrement qui était initialement défini sur USEEXISTING est défini sur CREATE, il peut y avoir des effets négatifs pendant le processus d’installation, car de nombreuses entités Workfront ont des contraintes de nom uniques.</p><p>Par exemple, si un enregistrement "Groupe par défaut" a été mappé avec l’action USEEXISTING et que l’utilisateur qui installe l’action passe à CREATE, car il existe déjà un "Groupe par défaut", la tentative d’installation échoue à toutes les étapes. Les noms de groupe doivent être uniques.</p><p>Certaines entités n’ont pas de contrainte de nom unique. Pour ces objets, la modification entraîne deux enregistrements portant le même nom. Par exemple, les modèles, les projets, les vues, les filtres, les groupes, les rapports et les tableaux de bord ne nécessitent pas de contraintes de nom unique. Il est recommandé d’attribuer des noms uniques à ces enregistrements, mais cela n’est pas appliqué.</p></li></ul></p></td> 
+   <td><p>Cette action ne sera pas définie automatiquement.</p><p>Il permet de remplacer manuellement une action CRÉER ou UTILISER EXISTANTE affectée avant d’exécuter la fonction <code>/install</code> appelez .</p><p><b>Remarques : </b><ul><li><p>Si un enregistrement qui a été initialement défini sur CRÉER est défini sur IGNORER, tous les enregistrements enfants doivent également être définis sur IGNORER.</p><p>Par exemple, si un enregistrement de modèle a été mappé avec une action CREATE et que l’utilisateur qui installe souhaite l’exclure du déploiement, il peut définir l’action du modèle sur IGNORE.</p><p>Dans ce cas, si l’utilisateur qui installe n’a pas également défini les tâches du modèle, les affectations de tâches du modèle, les prédécesseurs de tâches du modèle, la définition de la file d’attente, les rubriques de la file d’attente, les règles de routage, etc., sur IGNORE, le déploiement entraîne l’échec de la tentative d’installation.</p></li><li><p>Si un enregistrement qui était initialement défini sur USEEXISTING est défini sur IGNORE, il peut y avoir des effets négatifs pendant le processus d’installation.</p><p>Par exemple, si un enregistrement Group a été mappé avec l’action USEEXISTING et que l’utilisateur qui installe l’action change IGNORE, pour les objets nécessitant un groupe (par exemple, un projet ne peut pas exister sans qu’un groupe soit affecté), le groupe par défaut système sera affecté à ce projet.</p></li><li><p>Si un enregistrement qui était initialement défini sur USEEXISTING est défini sur CREATE, il peut y avoir des effets négatifs pendant le processus d’installation, car de nombreuses entités Workfront ont des contraintes de nom uniques.</p><p>Par exemple, si un enregistrement "Groupe par défaut" a été mappé avec l’action USEEXISTING et que l’utilisateur qui installe l’action passe à CREATE, car il existe déjà un "Groupe par défaut", la tentative d’installation échoue à toutes les étapes. Les noms de groupe doivent être uniques.</p><p>Certaines entités n’ont pas de contrainte de nom unique. Pour ces objets, la modification entraîne deux enregistrements portant le même nom. Par exemple, les modèles, les projets, les vues, les filtres, les groupes, les rapports et les tableaux de bord ne nécessitent pas de contraintes de nom unique. Il est recommandé d’attribuer des noms uniques à ces enregistrements, mais cela n’est pas appliqué.</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
@@ -662,7 +666,7 @@ Ou
 {}
 ```
 
-#### réponse
+#### Réponse
 
 ```
 200
@@ -814,7 +818,7 @@ Ou
 }
 ```
 
-#### réponse
+#### Réponse
 
 ```
 202
@@ -865,7 +869,7 @@ Ou
 
 _Vide_
 
-#### réponse
+#### Réponse
 
 ```
 200
@@ -962,7 +966,7 @@ Ou
 
 _Vide_
 
-#### réponse
+#### Réponse
 
 ```
 200
