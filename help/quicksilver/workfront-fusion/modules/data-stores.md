@@ -8,7 +8,7 @@ description: Un entrepôt de données, similaire à une base de données ou à u
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Avant de pouvoir utiliser un entrepôt de données dans un module, vous devez cr
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Taille de stockage des données en Mo]</p> </td> 
-      <td> <p>Allouez la taille de l’entrepôt de données à partir de votre stockage de données interne total.</p> <p> La valeur par défaut est de 10 Mo. Si vous disposez de moins de 10 Mo d’espace de stockage de données non alloué à partir de votre allocation de 500 Mo, la taille par défaut correspond à la quantité de stockage non alloué.  <p>Remarque : Le montant réservé peut être modifié à tout moment.</p>  </td> 
+      <td> <p>Allouez la taille de l’entrepôt de données à partir de votre stockage de données interne total.</p> <p> La valeur par défaut est de 10 Mo. Si vous disposez de moins de 10 Mo d’espace de stockage de données non alloué à partir de votre allocation de 95 Mo, la taille par défaut correspond à la quantité de stockage non alloué.  <p>Remarque : Le montant réservé peut être modifié à tout moment.</p>  </td> 
      </tr> 
     </tbody> 
    </table>
