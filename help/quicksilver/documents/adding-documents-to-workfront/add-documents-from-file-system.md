@@ -6,7 +6,7 @@ description: Vous pouvez ajouter des documents à des projets, des tâches ou de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
+source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -123,4 +123,4 @@ Les fichiers corrompus sont supprimés dans les 24 heures suivant leur détectio
 
 ### Restrictions relatives aux noms de fichier {#file-name-restrictions}
 
-Les fichiers chargés dans Workfront ne peuvent pas contenir certains caractères dans les noms de fichiers. Si un fichier contient l’un des caractères suivants, les caractères sont supprimés du nom du fichier lors du téléchargement du fichier : `< > { }`.
+Les fichiers chargés dans Workfront ne peuvent pas contenir certains caractères dans les noms de fichiers. Si un fichier contient l’un des caractères suivants, les caractères sont supprimés du nom du fichier lors du téléchargement du fichier : `! # % * \ | ' " / ? < > { } [ ]`.

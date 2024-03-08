@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
+source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
-Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acheté Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez l’un des trois types de licences Workfront à chaque utilisateur lorsque vous lui attribuez un niveau d’accès.
+Votre entreprise a acheté un certain nombre de licences lorsqu’elle a acheté Adobe Workfront. En tant qu’administrateur Workfront, vous attribuez l’un des deux types de licences Workfront à chaque utilisateur lorsque vous lui attribuez un niveau d’accès.
 
 ## Comment les nouvelles licences Workfront et les nouveaux niveaux d’accès sont liés entre eux
 
-Les 3 types de nouvelles licences Workfront permettent différents niveaux d’accès à Workfront. Chaque niveau d’accès est associé à l’une de ces licences.
+Les deux types de nouvelles licences Workfront permettent différents niveaux d’accès à Workfront. Chaque niveau d’accès est associé à l’une de ces licences.
 
 Au lieu d’attribuer une licence à un utilisateur, vous lui attribuez le niveau d’accès associé à cette licence.
 
