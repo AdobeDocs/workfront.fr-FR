@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 1%
 
 ---
@@ -253,8 +253,8 @@ Voici les principaux objets et concepts relatifs aux capacités de planification
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **Vue Calendrier**: affiche les enregistrements comportant au moins deux champs de type Date au format Calendrier.
+     ![](assets/calendar-view-example.png)
 
 
 Pour plus d’informations, voir [Gestion des vues d’enregistrement](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ Pour localiser les fonctionnalités de planification :
 
    1. Cliquez sur le nom d’un type d’enregistrement pour ouvrir la page de l’enregistrement. Par défaut, la page d’enregistrement s’ouvre dans la vue Tableau.
 
-   1. Personnalisez la vue Tableau en effectuant l’une des opérations suivantes :
+      Vous pouvez également créer une vue Chronologie ou Calendrier.
 
-      * Ajoutez d’autres champs au type d’enregistrement en cliquant sur le bouton **+** dans le coin supérieur droit. Les colonnes de la vue sont des champs associés au type d&#39;enregistrement.
-      * Ajoutez des enregistrements en cliquant sur le bouton **+** dans le coin inférieur gauche. Les lignes de la vue sont des enregistrements uniques du type d’enregistrement sélectionné.
-      * Cliquez sur **Filtres** pour filtrer les informations affichées sur la page de type enregistrement.
+   1. En mode Tableau, commencez à ajouter des enregistrements en ajoutant des lignes.
 
-   1. Cliquez sur le nom d’un enregistrement pour afficher plus d’informations dans la page Détails de l’enregistrement.
+      Ou
 
-   1. Création d’une vue de chronologie à partir de **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
-
-   1. Personnalisez la vue de la chronologie en mettant à jour les filtres, les groupes ou les paramètres.
+      Commencez à ajouter des champs d’enregistrement en ajoutant des colonnes.
 
 ## Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront
 

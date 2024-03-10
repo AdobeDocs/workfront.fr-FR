@@ -1,13 +1,13 @@
 ---
 title: Créer des enregistrements
-description: Dans Adobe Maestro, un enregistrement est une instance d’un type d’enregistrement. Vous devez créer des types d’enregistrement avant de pouvoir créer des enregistrements individuels. La création d'enregistrements de taxonomie est identique à la création d'enregistrements opérationnels.
+description: Lors de l’utilisation des fonctionnalités de planification d’Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement. Vous devez créer des types d’enregistrement avant de pouvoir créer des enregistrements individuels. La création d'enregistrements de taxonomie est identique à la création d'enregistrements opérationnels.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Dans Adobe Maestro, un enregistrement est une instance d’un type d’enregistrement.
+Dans les fonctionnalités de planification d’Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement.
 
 Vous pouvez avoir les types d’enregistrements suivants :
 
@@ -27,13 +27,13 @@ Vous pouvez avoir les types d’enregistrements suivants :
 
 La création d&#39;enregistrements opérationnels est identique à la création d&#39;enregistrements de taxonomie.
 
-Vous pouvez créer des enregistrements dans Maestro en effectuant l’une des opérations suivantes :
+Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
-* Créez-les manuellement pour les types d’enregistrement Maestro
-* Connectez-les aux enregistrements Maestro d’autres applications.
+* Création manuelle de ces types d’enregistrement
+  <!-- not possible anymore: * Connect them to records from other applications-->
 * Créez des enregistrements en copiant et en collant des informations à partir d’une liste externe.
 
-Cet article décrit comment créer des enregistrements Maestro. Pour plus d’informations sur la gestion des enregistrements dans les vues de tableau ou de chronologie, consultez les articles suivants :
+Cet article décrit comment créer des enregistrements. Pour plus d’informations sur la gestion des enregistrements dans les vues de tableau ou de chronologie, consultez les articles suivants :
 
 * [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [Gestion du mode Chronologie](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -57,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour Maestro </p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour les fonctionnalités de planification Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -132,28 +132,44 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
 1. Continuez à ajouter des informations sur chaque ligne, puis cliquez sur **Entrée** sur votre clavier pour enregistrer vos modifications.
 
+<!--Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+
+      >[!TIP]
+      >
+      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+    -->
+
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements :
 
    * Ctrl + Z (⌘ + Z pour Mac) pour annuler une modification.
    * Ctrl + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir la modification
 
-## Créer des enregistrements en les connectant depuis une autre application
+<!-- this is not possible anymore: 
 
-Vous pouvez importer des enregistrements d’autres applications en les liant à des enregistrements liés à Maestro. Cela crée un type d’enregistrement Maestro pour l’objet connecté de l’autre application.
+## Create records by connecting them from another application
 
-1. Créez un type d’enregistrement Maestro, comme décrit dans la section [Création de types d’enregistrement](../architecture/create-record-types.md).
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. Créez des enregistrements Maestro pour le type d’enregistrement que vous avez créé à l’étape précédente. Pour plus d’informations, voir la section [Créer des enregistrements en les ajoutant manuellement à un type d’enregistrement](#create-records-by-manually-adding-them-to-a-record-type) dans cet article.
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. Créez une connexion à un type d’objet à partir d’une autre application pour le type d’enregistrement Maestro que vous avez créé. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Ajoutez des enregistrements d’une autre application aux enregistrements Maestro que vous avez créés ci-dessus à l’aide du champ d’enregistrement lié que vous avez créé à l’étape précédente. Pour plus d’informations, voir [Connexion d’enregistrements](../records/connect-records.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-   Les éléments suivants sont créés dans Maestro :
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
-   * Type d’enregistrement Maestro en lecture seule qui fait référence au type d’enregistrement de l’autre application auquel vous avez lié dans le champ d’enregistrement connecté.
+    The following items are created in Maestro:
 
-     Par exemple, si vous connectez un type d’enregistrement Maestro à un projet Workfront, un type d’enregistrement en lecture seule nommé &quot;projet Workfront&quot; est créé dans le même espace de travail. Vous pouvez accéder aux types d’enregistrements Workfront en lecture seule à partir de la vue tabulaire des enregistrements Maestro à partir desquels vous liez.
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
+-->
 
 ## Créer des enregistrements en copiant et collant des informations à partir d’une liste externe
 

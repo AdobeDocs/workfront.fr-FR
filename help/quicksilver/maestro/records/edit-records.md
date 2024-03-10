@@ -1,13 +1,13 @@
 ---
 title: Modifier des enregistrements
-description: Vous pouvez modifier les informations d’enregistrement dans Adobe Maestro. Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
+description: Vous pouvez modifier les informations d’enregistrement dans les fonctionnalités de planification d’Adobe Workfront. Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Vous pouvez modifier les informations d’enregistrement dans Adobe Manager en modifiant les valeurs des champs associés aux enregistrements.
+Vous pouvez modifier les informations d&#39;enregistrement dans les fonctionnalités de planification d&#39;Adobe Workfront en éditant les valeurs des champs associés aux enregistrements.
 
 Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
 
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour Maestro </p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour les fonctionnalités de planification Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
-* [Sur la page Détails d’un enregistrement](#edit-a-record-from-the-records-details-page)
 * [En mode Tableau d’un type d’enregistrement](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### Modifier un enregistrement à partir de la page Détails de l’enregistrement
-
-{{step1-to-maestro}}
-
-L’espace de travail auquel vous accédez en dernier s’ouvre.
-
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
-1. Utilisez l’une des méthodes suivantes :
-
-   * Depuis un **Tableau** cliquez sur le nom d’un enregistrement.
-   * Dans la **Tableau** visionnez, survolez le nom d’un enregistrement avec la souris, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Affichage**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * Dans la vue Chronologie, cliquez sur une barre d’enregistrement.
-
-   L&#39;enregistrement **Détails** s’ouvre.
-
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Modifier**
-
-   Ou
-
-   Cliquez dans n’importe quel champ modifiable de la page Détails pour modifier les informations.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. Cliquez sur **Enregistrer les modifications**. <!--logged a bug for this - this needs to be "Save"-->
+* [Sur la page Détails d’un enregistrement](#edit-a-record-from-the-records-details-page)
 
 ### Modification d’un enregistrement depuis la vue table d’un type d’enregistrement
 
@@ -144,7 +117,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** sélectionnez un menu déroulant dans le coin supérieur droit du tableau **Tableau** vue. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
+1. (Conditionnel) Dans la variable **Affichage** menu déroulant <!--tab--> dans le coin supérieur droit du tableau, sélectionnez une **Tableau** vue. Il doit s’agir de la vue par défaut, sauf si vous avez consulté le type d’enregistrement dans un autre type de vue lors de votre dernier accès.
 
    Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
 1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
@@ -171,6 +144,16 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 1. (Facultatif) Double-cliquez sur un champ d’enregistrement connecté pour ajouter des enregistrements ou des objets connectés à un autre enregistrement. Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
 1. Presse **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement. A **Enregistré** s’affiche brièvement dans le coin supérieur droit de la vue du tableau pour indiquer que les modifications ont été enregistrées.
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. (Facultatif) Pour copier et coller des informations d’un champ vers un autre, effectuez l’une des opérations suivantes :
 
@@ -204,3 +187,33 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
    >    Vous pouvez utiliser les raccourcis clavier plusieurs fois de suite pour annuler plusieurs modifications.
 
 1. (Facultatif) Ajoutez une miniature à un enregistrement. Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### Modifier un enregistrement à partir de la page Détails de l’enregistrement
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+L’espace de travail auquel vous accédez en dernier s’ouvre.
+
+1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+1. Utilisez l’une des méthodes suivantes :
+
+   * Depuis un **Tableau** cliquez sur le nom d’un enregistrement.
+   * Dans la **Tableau** visionnez, survolez le nom d’un enregistrement avec la souris, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Affichage**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * Dans la vue Chronologie, cliquez sur une barre d’enregistrement.
+
+   L&#39;enregistrement **Détails** s’ouvre.
+
+1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Modifier**
+
+   Ou
+
+   Cliquez dans n’importe quel champ modifiable de la page Détails pour modifier les informations.
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. Cliquez sur **Enregistrer les modifications**. <!--logged a bug for this - this needs to be "Save"-->

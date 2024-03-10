@@ -1,13 +1,13 @@
 ---
 title: Gestion du mode Chronologie
-description: Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type enregistrement dans Adobe Manager.
+description: Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type enregistrement dans les fonctionnalités de planification d’Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type enregistrement dans Adobe Manager.
+Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type enregistrement dans les fonctionnalités de planification d’Adobe Workfront.
 
-Pour plus d’informations sur les vues Maestro, voir [Gestion des vues d’enregistrement dans Adobe Maestro](../views/manage-record-views.md).
+Pour plus d’informations sur les vues d’enregistrement, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 
 ## Exigences d’accès
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour les fonctionnalités de planification Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -102,17 +102,6 @@ Tenez compte des points suivants :
    * Lorsque les dates de début et de fin n’ont aucune valeur
    * Lorsque les dates de début ou de fin n’ont aucune valeur
    * Lorsque la date de début est postérieure à la date de fin
-
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
 
 Pour gérer une vue de chronologie :
 
@@ -196,7 +185,7 @@ L’ajout de regroupements dans la vue de chronologie est similaire à l’ajout
 Tenez compte des points suivants lorsque vous utilisez des regroupements dans la vue de chronologie :
 
 * Vous pouvez appliquer des regroupements dans les vues de tableau et de chronologie. Les regroupements de la vue de tableau sont indépendants de ceux de la vue de chronologie du même type d’enregistrement.
-* Vous pouvez appliquer 3 niveaux de regroupement dans une vue Maestro. Les enregistrements sont regroupés dans l&#39;ordre des groupements que vous sélectionnez.
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l&#39;ordre des groupements que vous sélectionnez.
 * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API.
 * Les regroupements sont propres à la vue sélectionnée. Deux vues de chronologie d’un même type d’enregistrement peuvent être associées à des regroupements différents. Deux utilisateurs qui visualisent la même vue de chronologie voient le même regroupement actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue chronologique.
@@ -218,6 +207,8 @@ Pour ajouter un groupement dans la vue de frise chronologique :
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
    Le nombre de champs sélectionnés pour le groupement s&#39;affiche en regard de l&#39;icône Groupement .
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

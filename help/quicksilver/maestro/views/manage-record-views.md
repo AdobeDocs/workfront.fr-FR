@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ Après avoir sélectionné un type d&#39;enregistrement dans la zone des fonctio
 
   Pour plus d’informations, voir [Gestion du mode Chronologie](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* Calendrier
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  Pour plus d’informations, voir [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Exigences d’accès
 
@@ -107,7 +107,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   >
   > Comme les fonctionnalités de planification d’Adobe Workfront sont actuellement en version bêta, certains éléments de vue peuvent ne pas être disponibles pour toutes les vues.
 
-Cet article décrit les informations suivantes sur les vues Maestro :
+Cet article décrit les informations suivantes sur les vues d’enregistrement :
 
 * [Création et modification d’une vue](#create-or-edit-record-views)
 * [Suppression d’une vue](#delete-views)
@@ -115,32 +115,32 @@ Cet article décrit les informations suivantes sur les vues Maestro :
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [Partage d’une vue](#share-a-view)
 
-## Similarités et différences entre les vues de tableau et de chronologie
+## Similarités et différences entre les vues d’enregistrement
 
-<!-- should we include Calendar here or remove this section???-->
-
-Le tableau suivant montre les similitudes et les différences entre les vues du tableau et de la chronologie dans Maestro :
+Le tableau suivant présente les similitudes et les différences entre les vues de tableau, de chronologie et de calendrier :
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Fonctionnalité | Vue Tableau | Mode Chronologie |
-|-----------------------------------------------------------------------|------------|---------------|
-| Afficher des enregistrements dans une liste ou une table | ✓ |              |
-| Afficher tous les champs sous forme de colonnes dans le tableau, par défaut | ✓ |              |
-| Masquer ou afficher des champs (ou des colonnes) | ✓ |               |
-| Modifier les valeurs de champ de chaque enregistrement | ✓ |               |
-| Ajouter des enregistrements en tant que nouvelles lignes dans la vue | ✓ |               |
-| Ajouter des champs en tant que nouvelles colonnes dans la vue | ✓ |               |
-| Copier des lignes d’une liste externe et les coller dans un tableau | ✓ |               |
-| Afficher des enregistrements dans une chronologie |            | ✓ |
-| Filtrage des enregistrements | ✓ | ✓ |
+| Fonctionnalité | Vue Tableau | Mode Chronologie | Vue Calendrier |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| Afficher des enregistrements dans une liste ou une table | ✓ |              | |
+| Afficher tous les champs sous forme de colonnes dans le tableau, par défaut | ✓ |              |    |
+| Masquer ou afficher des champs (ou des colonnes) | ✓ |               |    |
+| Modifier les valeurs de champ de chaque enregistrement | ✓ |               |             |
+| Ajouter des enregistrements en tant que nouvelles lignes dans la vue | ✓ |               |        |
+| Ajouter des champs en tant que nouvelles colonnes dans la vue | ✓ |               |         |
+| Copier des lignes d’une liste externe et les coller dans un tableau | ✓ |               |          |
+| Afficher des enregistrements dans une chronologie |            | ✓ |             |
+| Filtrage des enregistrements | ✓ | ✓ |           |
+| Afficher des enregistrements sur un calendrier |           |              | ✓ |
 | Enregistrements de groupe | ✓ | ✓ |
 | Tri des enregistrements | ✓ |              |
-| Enregistrements de code couleur |           | ✓ |
+| Enregistrements de code couleur |           | ✓ | ✓ |
 | Regroupements de codes couleur |           | ✓ |
 | Recherche d’enregistrements spécifiques | ✓ | ✓ |
-| Partager la vue | ✓ | ✓ |
-| Ouvrez la page Détails de l’enregistrement à partir de la vue . | ✓ | ✓ |
+| Partager la vue | ✓ | ✓ | ✓ |
+| Ouvrez la page Détails de l’enregistrement à partir de la vue . | ✓ | ✓ |    |
+
 
 ## Créer ou modifier des vues {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
    Par défaut, tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. Cliquez sur le bouton **Affichage** , puis sélectionnez une **Vue Tableau** ![](assets/table-view-icon.png) ou cliquez sur **Créer une vue > Tableau** pour créer un tableau
 
    Ou
 
-   Sélectionner un **Mode Chronologie** ![](assets/timeline-view-icon.png) afficher ou cliquer sur **Créer une vue > Chronologie** pour créer une vue chronologique.
+   Sélectionner un **Mode Chronologie** ![](assets/timeline-view-icon.png) ou cliquez sur **Créer une vue > Chronologie** pour créer une vue chronologique.
+
+   Ou
+
+   Sélectionner un **Vue Calendrier** ![](assets/calendar-view-icon.png) ou cliquez sur **Créer une vue > Calendrier** pour créer une vue de calendrier.
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    Pour créer une vue de chronologie, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date. Dans le cas contraire, l’option Chronologie est grisée.
+   >    Pour créer une vue de chronologie ou de calendrier, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date. Dans le cas contraire, les options Chronologie ou Calendrier sont grisées.
 
-1. (Facultatif) Mettez à jour le nom de la vue, puis cliquez sur **Créer** pour enregistrer une vue de tableau
+1. (Conditionnel) Cliquez sur **Suivant**, lors de la création d’une vue de chronologie ou de calendrier.
 
-   Ou cliquez sur **Suivant**, lors de la création d’une chronologie <!--or calendar--> vue.
+   Par défaut, Workfront donne à la vue l’un des noms suivants :
 
-   Par défaut, Workfront nomme la vue &quot;Tableau &lt; nombre >&quot; ou &quot;Chronologie &lt; nombre >&quot;, <!--or "Calendar < number >"-->. Le nombre est un incrément généré automatiquement.
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. (Conditionnel) Sélectionnez les dates de début et de fin pour les enregistrements qui s’afficheront dans la chronologie. <!--or calendar--> afficher, puis cliquez sur **Créer**.
+   Le nombre est un incrément généré automatiquement.
+
+1. (Conditionnel) Sélectionnez le **Début** et **Dates de fin** pour les enregistrements qui s’afficheront dans la vue chronologie ou calendrier.
+1. Cliquez sur **Créer**.
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. (Facultatif) Pour renommer une vue après sa création, cliquez sur le menu déroulant Affichage , puis sur la variable **Plus** menu ![](assets/more-menu.png) > **Renommer** pour mettre à jour le nom de la vue. <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Facultatif) Pour gérer un type de vue spécifique, consultez les articles suivants :
 
    * [Gestion de la vue de tableau](../views/manage-the-table-view.md)
    * [Gestion du mode Chronologie](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## Suppression de vues
@@ -211,7 +224,7 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
 
    Par défaut, tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. Cliquez sur le menu déroulant d’affichage, survolez l’un des affichages de la liste avec la souris, puis cliquez sur l’icône **Plus** menu ![](assets/more-menu.png) > **Supprimer**.
 1. Cliquez sur **Supprimer** pour confirmer. <!--ensure there is not another saving step here?!-->
 

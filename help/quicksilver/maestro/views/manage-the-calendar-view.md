@@ -4,9 +4,9 @@ description: Vous pouvez afficher les enregistrements et leurs champs en mode Ca
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 Vous pouvez afficher les enregistrements et leurs champs dans une vue de calendrier, à partir de la page de type enregistrement.
 
-Pour plus d’informations sur les vues Maestro et leur gestion, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
+Pour plus d’informations sur les vues des fonctionnalités de planification d’Adobe Workfront et sur leur gestion, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 
 ## Exigences d’accès
 
@@ -50,7 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour les fonctionnalités de planification Adobe Workfront  </p>  
 </td>
   </tr>
 
@@ -94,11 +94,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Tenez compte des points suivants :
 
 * Vous ne pouvez créer une vue Calendrier que si au moins deux champs de date sont associés à un type d’enregistrement. Lorsqu’un ou plusieurs champs de date sont associés à un type d’enregistrement, l’option Mode Calendrier est grisée.
-* Les scénarios suivants :
+* Les scénarios suivants existent :
 
-   * Lorsque les dates de début et de fin ne comportent aucune valeur, les enregistrements ne s’affichent pas dans le calendrier.
+   * Lorsque les dates de Début et de Fin n&#39;ont aucune valeur, les enregistrements ne s&#39;affichent pas dans le calendrier.
    * Lorsque les dates de début ou de fin n’ont aucune valeur, l’enregistrement s’affiche sous la forme d’un événement d’un jour.
-   * Lorsque la date de début est postérieure à la date de fin, l’enregistrement ne s’affiche pas dans le calendrier.
+   * Lorsque la date de début est postérieure à la date de fin, l&#39;enregistrement ne s&#39;affiche pas dans le calendrier.
 
 Pour gérer une vue de calendrier :
 
@@ -107,7 +107,7 @@ Pour gérer une vue de calendrier :
 
    ![](assets/calendar-view-example.png)
 
-   Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent sous forme de barres dans un calendrier.
+   Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent sous forme de barres dans un calendrier. La couleur des barres correspond à celle de l’icône d’enregistrement.
 
 1. Pour parcourir le calendrier, effectuez l’une des opérations suivantes :
 

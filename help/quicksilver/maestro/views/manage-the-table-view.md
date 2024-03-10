@@ -1,13 +1,13 @@
 ---
 title: Gestion de la vue de tableau
-description: Vous pouvez afficher les enregistrements et leurs champs dans une vue de tableau lors de l’accès à la page de type enregistrement dans Adobe Maestro.
+description: Vous pouvez afficher les enregistrements et leurs champs dans une vue tabulaire, lors de l'accès à la page de type enregistrement dans les fonctionnalités de planification d'Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Vous pouvez afficher les enregistrements et leurs champs dans une vue de tableau lors de l’accès à la page de type enregistrement dans Adobe Maestro.
+Vous pouvez afficher les enregistrements et leurs champs dans une vue tabulaire, lors de l&#39;accès à la page de type enregistrement dans les fonctionnalités de planification d&#39;Adobe Workfront.
 
-Pour plus d’informations sur les vues Maestro et leur gestion, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
+Pour plus d’informations sur les vues d’enregistrement et leur gestion, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 
 ## Exigences d’accès
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour les fonctionnalités de planification Adobe Workbench </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ Pour gérer une vue de tableau :
 
 ### Ajouter des colonnes (ou des champs) {#add-columns}
 
-Les en-têtes de colonne d’une vue Tableau Maestro affichent les champs associés aux enregistrements de la vue. Les mêmes champs affichés dans la vue de tableau s’affichent également dans la section Détails d’un enregistrement Maestro. Pour plus d’informations, voir [Modifier des enregistrements](../records/edit-records.md).
+Les en-têtes de colonne d&#39;une vue de tableau affichent les champs associés aux enregistrements de la vue. Les mêmes champs affichés en mode Tableau s’affichent également dans la section Détails d’un enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ L’ajout de colonnes à une vue est identique à l’ajout de champs à un type
 Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
 1. Accédez à une page de type enregistrement et sélectionnez une **Tableau** vue depuis le menu déroulant des vues.
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Commencez à ajouter des champs (ou des colonnes), comme décrit dans l’article [Créer des champs](../fields/create-fields.md).
 
    Les colonnes que vous ajoutez sont visibles par tous les utilisateurs qui accèdent au type d&#39;enregistrement et sont ajoutés en tant que nouveaux champs dans la page Détails des enregistrements du type d&#39;enregistrement sélectionné.
@@ -212,11 +214,13 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
 ### Ajouter des lignes (ou des enregistrements) {#add-rows}
 
-Les lignes d’un tableau Maestro affichent des enregistrements individuels du type d’enregistrement sélectionné.
+Les lignes d’une vue de tableau affichent des enregistrements individuels du type d’enregistrement sélectionné.
 
-Vous pouvez avoir jusqu’à 10 000 enregistrements (ou lignes) pour un type d’enregistrement dans Maestro.
+Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement.
 
 1. Accédez à une page de type enregistrement et sélectionnez une **Tableau** vue depuis le menu déroulant des vues.
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Commencez à ajouter des enregistrements (ou des lignes), comme décrit dans l’article [Créer des enregistrements](../records/create-records.md).
 
    Les enregistrements que vous ajoutez dans la vue de tableau sont immédiatement enregistrés et visibles par tous les utilisateurs disposant d’autorisations d’affichage ou supérieures à l’espace de travail.
@@ -359,7 +363,7 @@ L’ajout de regroupements dans la vue de tableau est similaire à l’ajout de 
 Tenez compte des points suivants :
 
 * Vous pouvez appliquer des regroupements dans les vues de tableau et de chronologie. Les regroupements de la vue de tableau sont indépendants de ceux de la vue de chronologie du même type d’enregistrement.
-* Vous pouvez appliquer 3 niveaux de regroupement dans une vue Maestro. Les enregistrements sont regroupés dans l&#39;ordre des groupements que vous sélectionnez.
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l&#39;ordre des groupements que vous sélectionnez.
 &lt;!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —vérification de celle-ci pour l&#39;instant—>
 * Les regroupements sont propres à la vue sélectionnée. Deux affichages de tableau d’un même type d’enregistrement peuvent avoir des regroupements différents. Deux utilisateurs qui consultent le même tableau voient le même groupe appliqué actuellement.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
