@@ -7,10 +7,10 @@ description: Les rôles de BAT vous permettent d’accorder des autorisations su
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '365'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Les rôles de BAT vous permettent d’accorder des autorisations sur des bons à
 
 ## Rôles d’épreuve
 
-Les rôles de BAT sont attribués aux utilisateurs pour un BAT individuel au moment où l’utilisateur est invité à passer en revue le BAT. Si vous disposez d’un plan Workfront Pro+, vous pouvez accorder des rôles de vérification aux utilisateurs disposant d’une licence Work ou Plan. Si vous disposez d’un forfait hérité de Workfront Premium, vous pouvez accorder des rôles de vérification aux utilisateurs disposant d’une licence de vérification désignée. Pour plus d’informations, voir [Accès aux fonctionnalités de vérification dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+Les rôles de BAT sont attribués aux utilisateurs pour un BAT individuel au moment où l’utilisateur est invité à examiner le BAT. Si vous disposez d’un plan Workfront Pro+, vous pouvez accorder des rôles de vérification aux utilisateurs disposant d’une licence Work ou Plan. Si vous disposez d’un forfait hérité de Workfront Premium, vous pouvez accorder des rôles de vérification aux utilisateurs disposant d’une licence de vérification désignée. Pour plus d’informations, voir [Accès aux fonctionnalités de vérification dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Certains rôles de BAT donnent aux réviseurs des droits d&#39;édition sur le B
    <th>Résoudre les commentaires</th> 
    <th>Application d’actions aux commentaires</th> 
    <th> <p><strong>Modifier le BAT</strong> </p> </th> 
-   <th>Partager le BAT avec d’autres personnes</th> 
+   <th>Partager le BAT avec les autres</th> 
    <th>Créer une version</th> 
    <th> <p><strong>Affichage des demandes d’approbation dans la zone d’accueil</strong> </p> </th> 
    <th>Ajouter de nouveaux opérateurs validants</th> 
@@ -75,7 +75,7 @@ Certains rôles de BAT donnent aux réviseurs des droits d&#39;édition sur le B
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td> </td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -91,7 +91,7 @@ Certains rôles de BAT donnent aux réviseurs des droits d&#39;édition sur le B
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -107,7 +107,7 @@ Certains rôles de BAT donnent aux réviseurs des droits d&#39;édition sur le B
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -123,7 +123,7 @@ Certains rôles de BAT donnent aux réviseurs des droits d&#39;édition sur le B
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
