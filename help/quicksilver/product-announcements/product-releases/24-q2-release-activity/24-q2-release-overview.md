@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,40 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>
            </tbody>
         </table>
+
+### Améliorations de l’intégration
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées au workflow de création de dossiers automatisée dans l’intégration Adobe Experience Manager</a></p><span style="color: #ff0000;"> Nouveau dans Aperçu .</span><p>Nous avons ajouté des arborescences de dossiers imbriqués au processus des dossiers liés à Adobe Experience Manager pour nous assurer que vos dossiers Adobe Experience Manager répondent mieux à vos besoins.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : 11 mars 2024</p>
+                            </li>
+                             <li> <p><span class="preview">Mise en production trimestrielle : 14 mars 2024</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 
 ### Améliorations des projets
 
