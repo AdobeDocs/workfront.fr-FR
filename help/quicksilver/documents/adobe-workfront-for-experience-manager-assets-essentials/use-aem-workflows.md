@@ -6,14 +6,16 @@ description: Utilisation des workflows dans l’intégration de Experience Manag
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # Utilisation des workflows dans l’intégration Experience Manager Assets
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. Un administrateur Workfront peut configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
 
@@ -30,7 +32,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td><strong>Formule Adobe Workfront*</strong>
    </td>
-   <td>Tous
+   <td>Quelconque
    </td>
   </tr>
   <tr>
@@ -107,6 +109,10 @@ Vous pouvez ajouter un workflow lors de la création d’un projet ou un workflo
 
 ### Ajouter un workflow à un projet existant
 
+>[!NOTE]
+>
+>Les workflows qui s’exécutent lors de la création d’un projet (comme la création de dossiers liés) ne s’exécutent pas lorsque le modèle est joint à un projet existant. Elles ne s’exécutent que lorsqu’un projet est créé à partir d’un modèle.
+
 1. Commencez à ajouter un modèle au projet.
 
    Pour obtenir des instructions, voir [Joindre un modèle à un projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -116,9 +122,11 @@ Vous pouvez ajouter un workflow lors de la création d’un projet ou un workflo
 
    Seuls les workflows qui ont été activés dans la zone Experience Manager de la configuration sont disponibles dans les modèles ou les projets.
 
+
+
 ### Modification des valeurs d’un workflow dans un projet
 
-Vous pouvez modifier les valeurs de workflow au niveau du projet. Les valeurs de workflow au niveau du projet remplacent les valeurs définies sur le modèle de projet, qui remplacent les valeurs par défaut définies dans l’intégration de Adobe Experience Manager Assets.
+Vous pouvez modifier les valeurs de workflow au niveau du projet. Les valeurs de workflow au niveau du projet remplacent les valeurs définies sur le modèle de projet, qui remplacent les valeurs par défaut définies dans l’intégration Adobe Experience Manager Assets.
 
 Toutes les valeurs de workflow se trouvent dans :
 
@@ -130,9 +138,17 @@ Toutes les valeurs de workflow se trouvent dans :
   >
   >Si ces zones ne sont pas visibles, votre administrateur Workfront n’a pas activé les workflows pour votre organisation.
 
+
+
 #### Dossiers liés
 
+>[!NOTE]
+>
+>Les dossiers liés étant créés lors de la création du projet, la modification du workflow des dossiers liés sur un projet existant est inefficace. La modification de ces valeurs lors de la création d’un projet fonctionne normalement.
+
 Pour éditer le workflow des dossiers liés :
+
+Dans l’environnement de production :
 
 1. Basculer **[!UICONTROL Créer un dossier lié]** activé ou désactivé selon vos besoins.
 1. (Conditionnel) Si vous activez les dossiers liés, choisissez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
@@ -142,6 +158,31 @@ Pour éditer le workflow des dossiers liés :
 
    Si vous vous trouvez dans la variable [!DNL Adobe Experience Manager area], vos modifications sont enregistrées automatiquement. <!--Do they though?-->
 
+Dans l’environnement Preview Sandbox :
+
+<div class="preview">
+
+1. Activez/désactivez la variable **[!UICONTROL Créer un dossier lié]** activé ou désactivé selon vos besoins. Si vous l’activez, vous pouvez ensuite modifier la configuration des dossiers liés.
+
+   Pour plus d’informations sur la configuration des dossiers liés, voir [Création de dossiers liés à Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) dans l’article [Configurez la variable [!UICONTROL Experience Manager Assets as a Cloud Service] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. (Facultatif) Si vous souhaitez que l’arborescence de dossiers ne soit créée que si certaines valeurs sont présentes sur un formulaire personnalisé joint au projet, cliquez sur le bouton **Appliquer un filtre** pour cette arborescence de dossiers, sélectionnez le formulaire personnalisé qui contient le champ, le champ et la valeur du champ. Si le champ du formulaire personnalisé associé au nouveau projet contient la valeur choisie, l’arborescence de dossiers est créée.
+1. (Facultatif) Lors de la configuration des noms de dossier, vous pouvez choisir parmi les options suivantes :
+
+   * **Nom**: saisissez un nom pour le dossier.
+
+   * **Données d’objet**: sélectionnez la source du nom du dossier, par exemple Nom du projet.
+
+   * **Données de formulaire personnalisées**: sélectionnez les données de formulaire personnalisées à utiliser comme nom de dossier.
+
+     L’utilisation de données de formulaire personnalisées pour les noms de dossiers est disponible uniquement au niveau du modèle et ne peut pas être configurée au niveau de l’intégration.
+
+     Si un nom de dossier est défini sur des données personnalisées qui n’existent pas sur la personnalisation pour le joint au projet, un ID aléatoire sera attribué comme nom de dossier.
+
+1. Cliquer sur **[!UICONTROL Enregistrer]**.
+
+</div>
+
 
 #### Publication de ressources
 
@@ -149,10 +190,4 @@ Pour modifier le workflow de publication de ressources :
 
 1. Basculer **Publier automatiquement les ressources** activé ou désactivé selon vos besoins.
 1. (Conditionnel) Si vous activez la publication, choisissez si vous souhaitez publier du contenu sur le service de publication, sur le portail de marque ou les deux.
-1. Cliquez sur **[!UICONTROL Enregistrer]** si vous utilisez la variable [!UICONTROL Créer un projet] ou [!UICONTROL Modifier le projet] fenêtre.
-
-   Ou
-
-   Si vous vous trouvez dans la variable [!DNL Adobe Experience Manager area], vos modifications sont enregistrées automatiquement. <!--Do they though?-->
-
-
+1. Cliquer sur **[!UICONTROL Enregistrer]**.

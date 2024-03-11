@@ -1,19 +1,19 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Création d’un modèle de projet
+title: Créer un modèle de projet
 description: Vous pouvez créer et supprimer des modèles dans la zone Modèles . Lors de la création d’un modèle, vous pouvez saisir les informations pour toutes les tâches et pour les futurs paramètres du projet. Ces informations seront ensuite transférées vers tout projet que vous créez à partir du modèle.
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Création d’un modèle de projet
+# Créer un modèle de projet
 
 <!-- Audited: 1/2024 -->
 

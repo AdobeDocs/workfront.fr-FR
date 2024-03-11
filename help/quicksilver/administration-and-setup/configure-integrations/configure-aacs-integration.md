@@ -6,9 +6,9 @@ description: Vous pouvez connecter votre travail à votre contenu dans [!DNL Exp
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Configurez la variable [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. En tant qu’administrateur Workfront, vous pouvez configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
 
-Les valeurs de workflow par défaut que vous définissez dans l’intégration peuvent être remplacées aux niveaux Modèle de projet et Projet .
+Les workflows sont activés et configurés pour Adobe Experience Manager dans son ensemble. Ces workflows peuvent ensuite être appliqués aux modèles de projet et ajustés ou personnalisés au niveau du modèle ou du projet.
 
 Les workflows suivants sont disponibles dans l’intégration Adobe Experience Manager :
 
@@ -255,6 +257,46 @@ Les workflows suivants sont disponibles dans l’intégration Adobe Experience M
    ![Navigation dans les dossiers liés](assets/select-folder-aem-integration.png)
 1. Activez la variable **[!UICONTROL Ajout de noms de Portfolio et de programme]** pour inclure automatiquement les noms des Portfolios et des programmes à la fin du nom du dossier lié.
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou passez à la [Publication de ressources envoyées à Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) dans cet article.
+
+Dans l’environnement Preview Sandbox
+
+<div class="preview">
+
+1. Activez/désactivez la variable **[!UICONTROL Créer un dossier lié]** sur .
+1. Saisissez le nom du dossier lié que vous créez.
+1. (Conditionnel) Activez l’option **Arborescence de dossiers par défaut** si vous souhaitez que ce dossier lié soit le dossier par défaut des projets créés avec des modèles qui utilisent cette intégration. Vous pouvez sélectionner un ou plusieurs dossiers par défaut.
+1. Sélectionnez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
+1. (Conditionnel) Pour ajouter une arborescence de dossiers (dossiers imbriqués) à cette intégration, procédez comme suit :
+
+   1. Cliquez sur le bouton **Ajouter un dossier** icon ![Ajouter un dossier](assets/add-folder-aem.png).
+   1. Dans le **Type de nom** , sélectionnez le nom du dossier :
+
+      * **Nom**: saisissez un nom pour le dossier.
+      * **Données d’objet**: sélectionnez la source du nom du dossier, par exemple Nom du projet.
+
+      >[!NOTE]
+      >
+      >* Les noms de dossier doivent comporter moins de 100 caractères.
+      >* Les caractères suivants seront supprimés des noms des dossiers :
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez **Ajouter un dossier**. Renseignez les champs comme décrit à l’étape précédente.
+   1. Pour lier un dossier à Workfront, sélectionnez-le et cliquez sur le bouton **Rendre le dossier lié**   icon ![Lier le dossier](assets/link-folder.png).
+   1. (Facultatif) Pour modifier un dossier, sélectionnez-le, puis cliquez sur le bouton **Modifier le dossier** icon ![Icône Modifier](assets/edit-icon.png).
+   1. (Facultatif) Pour supprimer un dossier, sélectionnez-le et cliquez sur le bouton **Supprimer le dossier** icon ![Supprimer le dossier](assets/delete-folder.png).
+1. (Conditionnel) Pour ajouter une autre arborescence de dossiers, cliquez sur **+ Ajouter une arborescence de dossiers** et suivez les étapes de l’étape 5.
+
+1. Cliquez sur **[!UICONTROL Enregistrer]** ou passez à la [Publication de ressources envoyées à Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) dans cet article.
+
+>[!NOTE]
+>
+>* Cette intégration ne créera pas plus de 100 dossiers, quel que soit le nombre d’arborescences de dossiers créées. Par exemple, une intégration avec 4 arborescences de dossiers peut créer jusqu’à 100 dossiers, et non pas 400 dossiers.
+>* Le premier dossier de l’arborescence de dossiers est automatiquement marqué comme lié à Workfront. Si vous ne souhaitez pas que ce dossier soit lié, vous pouvez le dissocier.
+>* Si aucune arborescence de dossiers n’est fournie, le dossier racine devient le dossier lié.
+
+
+</div>
 
 ### Publication de ressources envoyées à Adobe Experience Manager Assets
 
