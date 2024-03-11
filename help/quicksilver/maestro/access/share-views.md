@@ -4,10 +4,10 @@ description: Vous pouvez partager une vue avec d’autres pour garantir la colla
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,13 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
 1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans le presse-papiers.
 1. Partagez le lien copié avec d’autres personnes. Les utilisateurs qui reçoivent le lien doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à la page de type d’enregistrement et l’afficher dans la vue sélectionnée.
 1. Cliquer sur **Enregistrer**.
+
+## Suppression des autorisations d’un affichage
+
+{{step1-to-maestro}}
+
+1. Ouvrez l’espace de travail dont vous souhaitez partager la vue, puis cliquez sur une carte de type enregistrement. Cela ouvre la page de type enregistrement.
+1. Dans le menu déroulant Affichage , passez la souris sur la vue que vous souhaitez partager, puis cliquez sur l’icône **Plus** menu ![](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
+1. Recherchez l’utilisateur ou le groupe à supprimer, puis cliquez sur **Supprimer** dans le menu déroulant des autorisations situé à droite du nom de l’utilisateur ou du groupe.
+1. Cliquez sur **Enregistrer**.
+L’utilisateur ou les utilisateurs appartenant au groupe supprimé n’ont plus accès à la vue. Les utilisateurs qui ont été supprimés de l’affichage ne reçoivent aucune notification.

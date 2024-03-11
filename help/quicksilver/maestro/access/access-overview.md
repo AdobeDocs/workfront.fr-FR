@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,6 @@ Pour plus d’informations, voir [Présentation des autorisations de partage dan
 
 Votre type de licence Adobe Workfront fonctionne conjointement avec vos autorisations Maestro pour vous permettre d’afficher, de contribuer ou de gérer des objets Maestro.
 
-Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation des objets Maestro, voir [Présentation du type de licence dans Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation des objets Maestro, voir [Présentation du type de licence lors de l’utilisation des fonctionnalités de planification d’Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

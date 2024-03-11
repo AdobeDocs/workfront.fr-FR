@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Aperçu : à déterminer
 
 Nous avons modifié les niveaux d’autorisation afin de prendre en compte les types de licence des utilisateurs. Avant cette amélioration, il n’y avait aucune différence dans les autorisations de l’espace de travail en fonction des types de licence des utilisateurs.
 
-Les autorisations suivantes fonctionnent désormais conjointement avec le type de licence de l’utilisateur :
+Voici les niveaux d’autorisation les plus élevés que les utilisateurs peuvent recevoir en fonction du type de licence de l’utilisateur :
 
 * Les utilisateurs disposant d’une licence Plan (ou Standard, dans le nouveau modèle de licence) peuvent créer et gérer des espaces de travail, des types d’enregistrements et des enregistrements.
 
@@ -156,7 +156,7 @@ Les autorisations suivantes fonctionnent désormais conjointement avec le type d
 
 Pour plus d’informations sur le nouveau modèle de licence, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Pour plus d’informations sur la connexion entre le type de licence et les autorisations dans les fonctionnalités de planification, voir [Présentation du type de licence dans Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Pour plus d’informations sur la connexion entre le type de licence et les autorisations dans les fonctionnalités de planification, voir [Présentation du type de licence lors de l’utilisation des fonctionnalités de planification d’Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nouvelle apparence de la barre d’outils Texte enrichi pour les champs d’enregistrement

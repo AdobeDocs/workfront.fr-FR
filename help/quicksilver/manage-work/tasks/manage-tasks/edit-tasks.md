@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
-ht-degree: 4%
+source-wordcount: '3729'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Quelconque </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -89,6 +89,8 @@ Tenez compte des points suivants lors de la modification des tâches :
    * Modifier les dépenses existantes
    * Joindre un formulaire personnalisé
 
+* Les autres utilisateurs doivent actualiser leurs pages avant de pouvoir afficher les mises à jour apportées à une tâche.
+
 ## Modifier une tâche dans une liste
 
 Vous pouvez éditer les informations de la tâche dans une liste de tâches, en sélectionnant les champs d&#39;édition intégrés affichés dans la vue de la liste.
@@ -114,7 +116,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 
    Tenez compte des informations de modification dans les zones suivantes de la section Détails de la tâche :
 
-   * **Vue d’ensemble**
+   * **Présentation**
 
      Cette zone est développée par défaut.
 
@@ -122,7 +124,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 
      Les noms des formulaires douaniers ne s’affichent que s’il existe des formulaires personnalisés associés à l’objet.
 
-   * **Finances**
+   * **Finance**
 
    >[!NOTE]
    >
@@ -173,10 +175,10 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
    Pensez à spécifier des informations dans l’une des sections suivantes :
 
    * [Nom de la tâche](#task-name)
-   * [Vue d’ensemble](#overview)
+   * [Présentation](#overview)
    * [Affectations](#assignments)
    * [Formulaires personnalisés](#Custom%C2%A0F)
-   * [Finances](#finance)
+   * [Finance](#finance)
    * [Paramètres](#settings)
 
    >[!NOTE]
@@ -239,24 +241,24 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
       <td> <p>Déterminez quand la tâche doit être terminée en spécifiant une contrainte de tâche. </p> <p>Sélectionnez l’une des options suivantes : </p> 
        <ul> 
       <li> <p><span>Dates fixes</span> </p> <p>Spécifiez un <strong>Démarrage planifié</strong> et un <strong>Date d’achèvement prévue</strong>. </p> </li> 
-      <li> <p><span>Il Faut Commencer Le</span> </p> <p>Spécifiez un <strong>Date de début planifiée</strong>. </p> </li> 
-      <li> <p><span>Il Faut Finir Le</span> </p> <p>Spécifiez un <strong>Date d’achèvement prévue</strong>. </p> </li> 
+      <li> <p><span>Doit démarrer le</span> </p> <p>Spécifiez un <strong>Date de début planifiée</strong>. </p> </li> 
+      <li> <p><span>Doit Terminer le</span> </p> <p>Spécifiez un <strong>Date d’achèvement prévue</strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>Dès que possible</span></p> </li> 
       <li> <p><span>Aussi tard que possible</span></p> </li> 
       <li> <p><span>Première Heure Disponible</span></p> </li> 
-      <li> <p> <span>Dernière Heure Disponible</span></p> </li> 
-      <li> <p><span>Commencer Au Plus Tard</span> </p> </li> 
+      <li> <p> <span>Dernière heure disponible</span></p> </li> 
+      <li> <p><span>Ne pas démarrer plus tard que</span> </p> </li> 
       <li> <p>Définition d’une date de début planifiée</p> </li> 
-      <li> <p><span>Commencer Au Plus Tôt</span> </p> <p>Spécifiez un <strong>Date de début planifiée</strong>. </p> </li> 
+      <li> <p><span>Ne Commencer Pas Au Plus Tôt</span> </p> <p>Spécifiez un <strong>Date de début planifiée</strong>. </p> </li> 
       <li> <p> Terminer <span>Pas Plus Tard Que</span></p> <p>Spécifiez un <strong>Date d’achèvement prévue</strong>. </p> </li> 
       <li> <p> Terminer <span>Pas Plus Tôt Que</span></p> <p>Spécifiez un <strong>Date d’achèvement prévue</strong></p> </li> 
        </ul> <p>Pour plus d’informations sur la contrainte de tâche, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Présentation de la contrainte de tâche</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Date et heure de validation</td> 
-      <td> <p>Il s’agit de la date à laquelle l’utilisateur affecté à la tâche s’engage à ce qu’elle soit terminée. Cette valeur peut différer de la date d’achèvement planifiée. Seuls les cessionnaires peuvent modifier ce champ. Pour plus d’informations sur les dates de validation dans Workfront, voir <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Présentation de la date de validation</a>. </p> </td> 
+      <td> <p>Il s’agit de la date à laquelle l’utilisateur affecté à la tâche s’engage à ce qu’elle soit terminée. Cette valeur peut différer de la date d’achèvement planifiée. Seuls les personnes désignées peuvent modifier ce champ. Pour plus d’informations sur les dates de validation dans Workfront, voir <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Présentation de la date de validation</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Date et heure de début planifiées</td> 
@@ -331,14 +333,14 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
 
    >[!TIP]
    >
-   >Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous ne pouvez affecter que des utilisateurs, des rôles de tâche et des équipes principaux.
+   >Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous pouvez affecter uniquement les utilisateurs, les rôles de tâche et les équipes actifs.
    >
-   >Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, il reste attribué à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+   >Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, ils restent affectés à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
    >
-   >* Réaffectez l’élément de travail aux principales ressources.
-   >* Associez les utilisateurs d’une équipe désactivée à une équipe principale et réaffectez la tâche à l’équipe principale.
+   >* Réaffectez la tâche aux ressources actives.
+   >* Associez les utilisateurs d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
-1. (Facultatif) Indiquez si une personne désignée est la personne désignée Principale sur la tâche, en sélectionnant **Propriétaire** bouton radio en regard de leur nom. Une équipe ne peut pas être la Principale personne désignée d’une tâche.
+1. (Facultatif) Indiquez si un cessionnaire est le cessionnaire principal de la tâche, en sélectionnant **Propriétaire** bouton radio en regard de leur nom. Une équipe ne peut pas être le responsable principal d’une tâche.
 1. (Conditionnel et facultatif) Mettez à jour les champs suivants :
 
    <table style="table-layout:auto"> 
@@ -362,7 +364,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Durée par occurrence</td> 
-      <td> <p>Cette option s’affiche uniquement sur le parent des tâches récurrentes. Il affiche la durée de chaque tâche récurrente, telle que définie lors de la création de la tâche. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>. </p> <p> <b>NOTE</b>
+      <td> <p>Cette option s’affiche uniquement sur le parent des tâches récurrentes. Il affiche la durée de chaque tâche récurrente, telle que définie lors de la création de la tâche. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>. </p> <p> <b>REMARQUE</b>
 
    Les durées modifiées dans des tâches récurrentes individuelles n’affichent pas la valeur indiquée dans ce champ. </p> </td>
    </tr> 
@@ -444,7 +446,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
    <tr> 
    <td role="rowheader">Heures prévues</td> 
    <td> <p>Indiquez le nombre d’heures planifiées de la tâche, en heures. Il s’agit du temps réel nécessaire aux personnes désignées de la tâche pour l’exécuter. Vous ne pouvez spécifier le nombre d’heures planifiées pour une tâche que lorsque le type de durée est défini sur Attribution calculée. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Présentation de la durée et du type de durée de la tâche</a>.</p> 
-   <b>NOTE</b>
+   <b>REMARQUE</b>
    <p>
    Lors de la création de tâches récurrentes, les Heures planifiées sont celles de chaque occurrence. Les Heures planifiées des tâches parentes sont le total de toutes les Heures planifiées de toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
    </p>
@@ -480,7 +482,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 
    ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
-1. Cliquez sur **Ajouter un formulaire personnalisé** et sélectionnez le ou les formulaires personnalisés à associer à la tâche. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les principaux formulaires personnalisés s’affichent dans la liste.
+1. Cliquez sur **Ajouter un formulaire personnalisé** et sélectionnez le ou les formulaires personnalisés à associer à la tâche. Vous devez créer les formulaires personnalisés avant qu’ils ne soient disponibles pour la sélection dans ce champ. Seuls les formulaires personnalisés actifs s’affichent dans la liste.
 
    Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche.
 
@@ -523,8 +525,8 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
       <li> <p>Utilisateur, par heure </p> </li> 
       <li> <p>Rôle par heure </p> </li> 
       <li> <p>Fixe par heure </p> </li> 
-      <li> <p>Utilisateur par heure avec plafond </p> </li> 
-      <li> <p>Rôle par heure avec plafond </p> </li> 
+      <li> <p>Utilisateur par heure avec limite </p> </li> 
+      <li> <p>Rôle par heure avec limite </p> </li> 
       <li> <p>Utilisateur, par heure plus fixe </p> </li> 
       <li> <p>Rôle par heure plus fixe </p> </li> 
       <li> <p>Revenus fixes </p> </li> 
@@ -572,7 +574,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
       <td> <p>Sélectionnez un processus de validation à associer à la tâche. Votre administrateur Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer à des tâches. Un utilisateur disposant d’un accès administratif aux processus de validation peut également créer des processus de validation spécifiques à un groupe. </p> <p>Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Créer un processus d’approbation pour les tâches</a>. Tenez compte des points suivants lors de l’ajout de processus de validation : </p> 
        <ul>
 
-   <li> <p>Seuls les principaux processus de validation s'affichent dans la liste. </p> </li>
+   <li> <p>Seuls les processus de validation actifs s'affichent dans la liste. </p> </li>
 
    <li> <p>Les processus de validation à l’échelle du système et spécifiques aux groupes s’affichent dans la liste. Un processus de validation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste. </p>
 
