@@ -4,9 +4,9 @@ description: Vous pouvez partager une vue avec d’autres pour garantir la colla
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Autorisations d’objet</p></td>
-   <td> <p>Gestion des autorisations pour un affichage</p>  
+   <td> <p>Gestion des autorisations pour un affichage</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
 >
 >Les administrateurs système ne peuvent pas afficher ni partager les vues qu’ils n’ont pas créées eux-mêmes. Ils peuvent uniquement accéder aux vues partagées avec eux ou les partager.
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
    * Afficher
    * Gérer
 
-     Pour plus d’informations sur les niveaux d’autorisation et les actions que les utilisateurs peuvent effectuer pour chaque niveau, voir [Présentation des autorisations de partage dans Adobe Maestro](../access/sharing-permissions-overview.md).
+     Pour plus d’informations sur les niveaux d’autorisation et les actions que les utilisateurs peuvent effectuer pour chaque niveau, voir [Présentation du partage des autorisations dans les fonctionnalités de planification d’Adobe Workfront](../access/sharing-permissions-overview.md).
 1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans le presse-papiers.
 1. Partagez le lien copié avec d’autres personnes. Les utilisateurs qui reçoivent le lien doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à la page de type d’enregistrement et l’afficher dans la vue sélectionnée.
 1. Cliquer sur **Enregistrer**.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,8 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue d
 
   Pour plus d’informations, voir la section &quot;Ajouter des filtres&quot; de l’article [Gestion de la vue de tableau](../views/manage-the-table-view.md).
 
+* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas par champ qui permet de lier plusieurs enregistrements.
+
 ### Ajouter un regroupement
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -190,6 +192,7 @@ Tenez compte des points suivants lorsque vous utilisez des regroupements dans la
 * Les regroupements sont propres à la vue sélectionnée. Deux vues de chronologie d’un même type d’enregistrement peuvent être associées à des regroupements différents. Deux utilisateurs qui visualisent la même vue de chronologie voient le même regroupement actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue chronologique.
 * Le fait de supprimer des regroupements les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
+* Vous pouvez regrouper les champs d’enregistrement ou de recherche par champs d’enregistrement connectés, mais pas pour les champs qui permettent de lier plusieurs enregistrements.
 
 Pour ajouter un groupement dans la vue de frise chronologique :
 

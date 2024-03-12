@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,8 @@ Production : 28 février 2024
 Aperçu : à déterminer
 
 Vous pouvez désormais filtrer, trier et regrouper en fonction des enregistrements connectés ou de leurs champs de recherche. Cette amélioration vous permettra d’organiser et de visualiser efficacement vos données dans les vues de tableau et de chronologie.
+
+Vous ne pouvez pas filtrer, trier ou regrouper par champs de recherche qui permettent les connexions à plusieurs enregistrements.
 
 Pour plus d’informations, voir [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md) et [Gestion du mode Chronologie](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ Voici les niveaux d’autorisation pour les vues d’enregistrement :
 * Vue : les utilisateurs peuvent sélectionner la vue dans le menu déroulant Affichage d’une page de type enregistrement.
 * Gérer : les utilisateurs peuvent modifier, partager et supprimer la vue.
 
-Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md) et [Présentation des autorisations de partage dans Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md) et [Présentation du partage des autorisations dans les fonctionnalités de planification d’Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
 
 ### Nouveau type de champ Formule
 

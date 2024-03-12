@@ -4,9 +4,9 @@ description: L’accès aux fonctionnalités de planification d’Adobe Workfron
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Un utilisateur de type de licence de niveau inférieur dispose d’autorisations
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Pour plus d’informations sur les autorisations d’objets dans les fonctionnalités de planification de Workfront, voir [Présentation des autorisations de partage dans Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Pour plus d’informations sur les autorisations d’objets dans les fonctionnalités de planification de Workfront, voir [Présentation du partage des autorisations dans les fonctionnalités de planification d’Adobe Workfront](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 ## Relation entre les types de licence Workfront et les autorisations des fonctionnalités de planification Workfront
 

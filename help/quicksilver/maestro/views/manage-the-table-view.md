@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ Pour gérer une vue de tableau :
    * [Lignes (ou enregistrements)](#add-rows-or-records)
    * [Filtres](#add-filters)
    * [Regroupement ](#add-groupings)
-   * [Tri](#sort-information)
+   * [Tri](#add-a-sort)
 
 
 ### Ajouter des colonnes (ou des champs) {#add-columns}
@@ -261,6 +261,8 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue T
 
 * L’ajout de filtres à la vue du tableau est identique à l’ajout de filtres à la vue de la chronologie.
 
+* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas par champ qui permet de lier plusieurs enregistrements.
+
 Pour ajouter un filtre à une vue de tableau :
 
 1. Créez une vue de tableau pour une page de type enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ Tenez compte des points suivants :
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * Le fait de supprimer des regroupements les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 * Vous pouvez éditer les enregistrements répertoriés sous un groupement.
+* Vous pouvez regrouper les champs d’enregistrement ou de recherche par champs d’enregistrement connectés, mais pas pour les champs qui permettent de lier plusieurs enregistrements.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ Tenez compte des points suivants lors du tri des enregistrements dans la vue de 
 * Les champs liés ne peuvent être triés que s’ils autorisent des valeurs uniques ou s’ils autorisent des valeurs à sélection multiple avec l’option de synthèse sélectionnée (somme, moyenne, max, min).
 
 * Le fait de supprimer des critères de tri les supprime de toute personne accédant au même type d’enregistrement que vous et utilise la même vue que vous.
+
+* Vous pouvez trier les champs d’enregistrement ou de recherche connectés, mais pas ceux qui permettent de lier plusieurs enregistrements.
 
 Pour trier <!--ungrouped (add this when sorting for groupings will be available--> enregistrements, procédez comme suit :
 
