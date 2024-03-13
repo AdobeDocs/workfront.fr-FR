@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
 workflow-type: tm+mt
-source-wordcount: '14010'
+source-wordcount: '14023'
 ht-degree: 1%
 
 ---
@@ -463,7 +463,10 @@ ht-degree: 1%
          * [Environnements de test](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [Aperçu de l’environnement Sandbox](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Environnement Sandbox d’actualisation personnalisée](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-         * [Déplacer des objets d’un [!DNL Workfront] environnement à un autre](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [Présentation de la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+         * [Créer ou modifier un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+         * [Installer un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+         * [Promotion de l’environnement à l’aide de l’API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * Gestion des utilisateurs {#add-users}
       * [Gestion des utilisateurs : index des articles](administration-and-setup/add-users/add-users.md)
       * Créer et gérer des utilisateurs et des utilisatrices {#create-manage-users}
