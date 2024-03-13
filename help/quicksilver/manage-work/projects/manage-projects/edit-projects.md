@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 1%
 
 ---
@@ -197,7 +197,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
          <td> <p>Ajoutez des informations supplémentaires sur le projet.</p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>État</strong> </td> 
+         <td role="rowheader"><strong>Statut</strong> </td> 
          <td> <p>Sélectionnez l’état du projet. Vous ne pouvez pas marquer un projet comme terminé avant que toutes les tâches et tous les problèmes ne soient terminés. Pour plus d’informations sur les états d’un projet, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Accéder à la liste des états des projets système</a></p> </td> 
       </tr> 
       <tr> 
@@ -221,7 +221,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
          <td> <p> <p>(S’affiche uniquement après avoir sélectionné <strong>Manuel</strong> pour le <strong>Type de condition</strong>) : sélectionnez une condition pour indiquer le déroulement du projet. </p> <p>Pour plus d’informations sur la façon dont les conditions du projet peuvent être définies automatiquement ou manuellement, voir <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation de la condition et du type de condition du projet</a></p> </p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Mode Planification</strong> </td> 
+         <td role="rowheader"><strong>Mode horaire</strong> </td> 
          <td> <p>Indiquez si le projet est planifié à partir de la date de début ou de la date de fin. Cette sélection détermine les dates planifiées des tâches du projet. 
          <ul> 
          <li><strong>Date de début</strong>: par défaut, la première tâche du projet a la même date de début planifiée que celle du projet. Pour plus d’informations sur la date de début planifiée de la tâche, voir <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Présentation de la tâche Date de début planifiée</a>. La chronologie du projet est calculée à partir de la Date de début et la Date de fin du projet est calculée par le système, en fonction de la durée de toutes les tâches. </li> 
@@ -252,14 +252,13 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
          <li> <p>Lorsque le projet est créé à partir de la page principale d’un groupe dans la zone Configuration, ce groupe est associé au projet.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>NOTES</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>Si le projet, ou ses tâches ou problèmes sont associés à un état personnalisé au niveau du groupe, la modification du groupe du projet peut entraîner la modification de l’état du projet, des tâches ou des problèmes pour qu’il corresponde au nouveau groupe.&lt;/p>&lt;/li>
-       &lt;li>&lt;p>Si le projet, ou ses tâches ou problèmes sont déjà associés à un processus d’approbation au niveau du groupe à l’aide d’états personnalisés au niveau du groupe, la modification du groupe peut créer un conflit entre les états d’approbation du groupe précédent et ceux existant au niveau du système.&lt;/p>
-       &lt;p>Envisagez de supprimer les processus d’approbation au niveau du groupe sur le projet, ou ses tâches ou problèmes avant de mettre à jour le groupe.&lt;/p>
-       &lt;p>Pour plus d’informations sur la création de processus de validation au niveau du groupe, voir &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>Processus de validation au niveau du groupe&lt;/a>.&lt;/p>
-       &lt;p>Pour plus d’informations sur la création d’un état personnalisé de niveau groupe, voir &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Création ou modification d’un état de groupe .&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>Si le projet, ou ses tâches ou problèmes sont associés à un état personnalisé au niveau du groupe, la modification du groupe du projet peut entraîner la modification de l’état du projet, des tâches ou des problèmes pour qu’il corresponde au nouveau groupe.</p></li>
+         <li><p>Si le projet, ou ses tâches ou problèmes sont déjà associés à un processus d’approbation au niveau du groupe à l’aide d’états personnalisés au niveau du groupe, la modification du groupe peut créer un conflit entre les états d’approbation du groupe précédent et ceux existant au niveau du système.</p>
+         <p>Envisagez de supprimer les processus d’approbation au niveau du groupe sur le projet, ou ses tâches ou problèmes avant de mettre à jour le groupe.</p>
+         <p>Pour plus d’informations sur la création de processus d’approbation au niveau du groupe, voir <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processus de validation au niveau du groupe</a>.</p>
+         <p>Pour plus d’informations sur la création d’un état personnalisé au niveau du groupe, voir <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Création ou modification d’un état de groupe</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>Société</strong> </td> 
          <td> <p>Indiquez une société associée au projet. Vous devez créer une société avant de pouvoir l’associer à un projet. Seules les entreprises actives peuvent être associées à un projet. Pour plus d’informations sur la création d’entreprises, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Création et modification d’entreprises</a>.</p> </td> 
@@ -270,11 +269,11 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
          </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Sponsor de projet</strong> </td> 
+         <td role="rowheader"><strong>Sponsor du projet</strong> </td> 
          <td> <p>Commencez à saisir le nom d’un utilisateur pour l’ajouter au projet, puis sélectionnez-le lorsqu’il s’affiche dans la liste. L’utilisateur est ajouté à l’équipe du projet et se voit attribuer automatiquement les autorisations d’affichage du projet. L’utilisateur désigné comme parrain de projet doit être un utilisateur actif Workfront.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Resource Manager</strong> </td> 
+         <td role="rowheader"><strong>Gestionnaire des ressources</strong> </td> 
          <td> <p> Commencez à saisir les noms des utilisateurs à ajouter au projet, puis sélectionnez-les lorsqu’ils s’affichent dans la liste. Les utilisateurs sont ajoutés à l’équipe du projet. Ils disposent automatiquement des autorisations de gestion du projet et peuvent affecter des ressources aux tâches et problèmes du projet. Les utilisateurs conservent les autorisations Gérer sur le projet même lorsqu’elles sont supprimées du champ Gestionnaire de ressources . Vous pouvez spécifier plusieurs gestionnaires de ressources.<br></p> </td> 
       </tr>
 
@@ -456,7 +455,7 @@ Pour modifier les champs de la zone Finance :
        </ul></p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Planification</strong> </td> 
+       <td role="rowheader"><strong>Planning</strong> </td> 
        <td> <p>Sélectionnez un planning pour votre projet. Il doit s’agir du même planning que celui attribué à la plupart des personnes qui travaillent sur le projet. Vous devez créer un planning avant de pouvoir l’affecter à un projet ou à un utilisateur. Si vous n’avez pas créé de plannings personnalisés dans votre système, la planification par défaut est sélectionnée.</p> <p>Pour plus d’informations sur la création de plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Création d’un planning</a>. </p> </td> 
        </tr> 
        <tr> 
@@ -653,6 +652,22 @@ Pour plus d’informations sur l’impact de ces paramètres sur la création de
    </table>
 
 1. Cliquer sur **Enregistrer**.
+
+### Dossiers liés
+
+La fonctionnalité de dossiers liés crée automatiquement des dossiers dans Adobe Experience Manager Assets et les connecte à Workfront.
+
+Cette section s’affiche uniquement si tous les éléments suivants s’appliquent :
+
+* Votre organisation a été migrée vers Adobe Admin Console.
+* Votre organisation a activé et configuré une intégration avec Adobe Experience Manager
+* Le modèle utilisé pour créer ce projet a activé et configuré les dossiers liés.
+
+Pour plus d’informations sur la modification des dossiers liés, voir [Modification des valeurs d’un workflow dans un projet](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) dans l’article Utiliser des workflows dans l’intégration Experience Manager Assets .
+
+>[!NOTE]
+>
+>Les dossiers liés étant créés lors de la création du projet, la modification du workflow des dossiers liés sur un projet existant est inefficace. La modification de ces valeurs lors de la création d’un projet fonctionne normalement.
 
 ## Modification d’un projet dans l’en-tête du projet (limitée)
 

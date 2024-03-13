@@ -6,9 +6,9 @@ description: Vous pouvez connecter votre travail à votre contenu dans [!DNL Exp
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ Les workflows suivants sont disponibles dans l’intégration Adobe Experience M
 ### Création de dossiers liés à Adobe Experience Manager
 
 1. Activez/désactivez la variable **[!UICONTROL Créer un dossier lié]** sur .
-1. Sélectionnez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
-   ![Navigation dans les dossiers liés](assets/select-folder-aem-integration.png)
-1. Activez la variable **[!UICONTROL Ajout de noms de Portfolio et de programme]** pour inclure automatiquement les noms des Portfolios et des programmes à la fin du nom du dossier lié.
-1. Cliquez sur **[!UICONTROL Enregistrer]** ou passez à la [Publication de ressources envoyées à Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) dans cet article.
-
-Dans l’environnement Preview Sandbox
-
-<div class="preview">
-
-1. Activez/désactivez la variable **[!UICONTROL Créer un dossier lié]** sur .
 1. Saisissez le nom du dossier lié que vous créez.
 1. (Conditionnel) Activez l’option **Arborescence de dossiers par défaut** si vous souhaitez que ce dossier lié soit le dossier par défaut des projets créés avec des modèles qui utilisent cette intégration. Vous pouvez sélectionner un ou plusieurs dossiers par défaut.
 1. Sélectionnez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
@@ -295,8 +284,6 @@ Dans l’environnement Preview Sandbox
 >* Le premier dossier de l’arborescence de dossiers est automatiquement marqué comme lié à Workfront. Si vous ne souhaitez pas que ce dossier soit lié, vous pouvez le dissocier.
 >* Si aucune arborescence de dossiers n’est fournie, le dossier racine devient le dossier lié.
 
-
-</div>
 
 ### Publication de ressources envoyées à Adobe Experience Manager Assets
 

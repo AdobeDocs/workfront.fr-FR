@@ -6,16 +6,14 @@ description: Utilisation des workflows dans l’intégration de Experience Manag
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # Utilisation des workflows dans l’intégration Experience Manager Assets
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. Un administrateur Workfront peut configurer des workflows dans Workfront, puis les affecter à des modèles de projet. Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
 
@@ -130,7 +128,7 @@ Vous pouvez modifier les valeurs de workflow au niveau du projet. Les valeurs de
 
 Toutes les valeurs de workflow se trouvent dans :
 
-* La section Workflows de la fenêtre Créer un projet ou Modifier le projet .
+* La section Workflows ou Dossiers liés de la fenêtre Créer un projet ou Modifier le projet .
 * La section Adobe Experience Manager du volet de navigation de gauche.
 
 
@@ -148,19 +146,6 @@ Toutes les valeurs de workflow se trouvent dans :
 
 Pour éditer le workflow des dossiers liés :
 
-Dans l’environnement de production :
-
-1. Basculer **[!UICONTROL Créer un dossier lié]** activé ou désactivé selon vos besoins.
-1. (Conditionnel) Si vous activez les dossiers liés, choisissez un chemin d’accès au dossier pour indiquer où vous souhaitez tous les dossiers liés associés à cette intégration.
-1. Cliquez sur **[!UICONTROL Enregistrer]** si vous utilisez la variable [!UICONTROL Créer un projet] ou [!UICONTROL Modifier le projet] fenêtre.
-
-   Ou
-
-   Si vous vous trouvez dans la variable [!DNL Adobe Experience Manager area], vos modifications sont enregistrées automatiquement. <!--Do they though?-->
-
-Dans l’environnement Preview Sandbox :
-
-<div class="preview">
 
 1. Activez/désactivez la variable **[!UICONTROL Créer un dossier lié]** activé ou désactivé selon vos besoins. Si vous l’activez, vous pouvez ensuite modifier la configuration des dossiers liés.
 
@@ -179,10 +164,8 @@ Dans l’environnement Preview Sandbox :
 
      Si un nom de dossier est défini sur des données personnalisées qui n’existent pas sur la personnalisation pour le joint au projet, un ID aléatoire sera attribué comme nom de dossier.
 
+1. Pour afficher l’arborescence de dossiers, cliquez sur le bouton **Aperçu** ![Icône Aperçu](assets/preview-icon.png) icon
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
-
-</div>
-
 
 #### Publication de ressources
 
