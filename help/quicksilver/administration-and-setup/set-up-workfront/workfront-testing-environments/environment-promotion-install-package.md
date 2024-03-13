@@ -4,16 +4,16 @@ content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Installer un package de promotion d’environnement
-description: La fonctionnalité de promotion de l’environnement est conçue pour permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Découvrez comment installer un package de promotion d’environnement dans un nouvel environnement.
+description: La fonctionnalité de promotion de l’environnement est conçue pour permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Découvrez comment installer un package de promotion d’environnement dans un environnement cible.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d710e6dbb93cdec530ed8513bd96f5e7381f93c0
+source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,32 @@ ht-degree: 0%
 
 Cette page est en construction
 
+
+
+1. Accédez à l’environnement dans lequel vous souhaitez installer le package. C’est l’environnement dans lequel vous copiez des objets. **to**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
+1. Sélectionner **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
+1. Sélectionnez le package dans la liste affichée.
+1. Pour installer le package, cliquez sur **Installer** dans le coin supérieur droit de l’écran.
+1. Mappez chaque objet du package à l’objet correspondant dans l’environnement cible.
+
+   Pour plus d’informations, voir [Mappage](#mapping) dans cet article
+
+
+## Mappage
+
+Chaque type d’objet est répertorié dans le volet de navigation de gauche et sur une carte. La carte affiche les objets de ce type et indique s’ils existent dans l’environnement cible. Vous pouvez déterminer comment ces objets seront déplacés vers l’environnement cible.
+
+* Créer : l’objet se trouve dans l’environnement cible
+* Utiliser existant : l’objet du package n’est pas installé, et l’objet qui existait déjà dans l’environnement cible est inchangé.
+* Remplacer existant : l’objet du package remplace l’objet existant dans l’environnement cible.
+* Ne pas utiliser :
+
+Les valeurs par défaut sont `Create new` si l’objet n’existe pas dans l’environnement cible, et `Use existing` si l’objet existe dans l’environnement cible. Vous pouvez rétablir le mappage par défaut en cliquant sur **Réinitialiser le mappage par défaut**.
+
+Si vous sélectionnez Ne pas utiliser, un message d’erreur s’affiche, détaillant l’impact de ce choix sur d’autres objets ou champs.
+
 <!--
-
-## Mapping
-
-<!--How does one get to the mapping page?--
-
-<!--Also show how to tell you're installing it in the right place (note 3 on slide 3)--
-
-Each object in the package is shown in the left navigation, and as a card on the page.
-
-Each card displays the object and its <!--fields? properties? sub-objects>--. You can determine how these <!--???--s will move to the new environment. 
-
-* Create new <!--does this mean you can have multiples?--
-* Use existing
-* Overwrite existing
-* Do not use
-
-You can revert to the default mapping by clicking **Reset to default mapping**.
-
-If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
-If you select Create new, you will need to change the value <!--of what?--
-
 ## Collisions
 
 A collision occurs when <!--???--.
