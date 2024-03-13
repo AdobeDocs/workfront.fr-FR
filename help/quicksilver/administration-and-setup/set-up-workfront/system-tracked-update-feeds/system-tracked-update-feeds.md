@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # Mises à jour suivies par le système
 
-{{highlighted-preview}}
+<span class="preview">Les informations mises en surbrillance sur cette page sont disponibles uniquement dans l’environnement Aperçu .</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -88,11 +88,11 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Voici les différences entre la nouvelle expérience et l’expérience de commentaire héritée :
 
-   * Lors de l’utilisation de la nouvelle expérience de commentaire, les mises à jour de l’utilisateur s’affichent dans l’onglet Commentaires et les mises à jour du système s’affichent dans l’onglet Activité du système.
+   * Lors de l’utilisation de la nouvelle expérience de commentaire, les mises à jour de l’utilisateur s’affichent dans l’onglet Commentaires et les mises à jour du système s’affichent dans l’activité système. <span class="preview">et l’ensemble</span> onglets.
 
      Pour plus d’informations sur la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-   * <span class="preview">Lors de l’utilisation de la nouvelle expérience de commentaire, les utilisateurs ne peuvent pas ajouter de commentaire à une mise à jour du système. Toutefois, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées sur l’onglet Activité système en tant que lecture seule dans la nouvelle expérience de commentaire.</span>
+   * <span class="preview">Lorsque vous utilisez la nouvelle expérience de commentaire, vous ne pouvez pas ajouter de commentaire à une mise à jour du système. Toutefois, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées sur l’onglet Activité système en tant que lecture seule dans la nouvelle expérience de commentaire.</span>
    * Lors de l’utilisation de l’expérience de commentaire héritée, les mises à jour du système et de l’utilisateur s’affichent dans un flux continu.
 
    * Lors de l’utilisation de l’expérience de commentaire héritée, les utilisateurs peuvent afficher les mises à jour système par défaut ou choisir de ne pas les afficher. La désactivation des mises à jour du système n’est pas possible lors de l’utilisation de la nouvelle expérience de commentaire.

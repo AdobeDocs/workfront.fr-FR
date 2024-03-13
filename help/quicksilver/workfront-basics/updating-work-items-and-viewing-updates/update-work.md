@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '4279'
+source-wordcount: '4249'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ After the monthly releases to Production, the same features are also available i
 > * Panneau Résumé dans les feuilles de temps
 > * Panneau Résumé de l’équilibreur de charge de travail
 >
-><span class="preview">La nouvelle expérience de commentaire est disponible dans le panneau Résumé dans les listes, les feuilles de temps et l’équilibreur de charge de travail dans l’environnement Aperçu.</span>
+><span class="preview">La nouvelle expérience de commentaire est disponible dans le panneau Résumé dans les listes, les feuilles de temps et l’équilibreur de charge de travail dans l’environnement Aperçu.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -243,13 +243,10 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
 
    <div class="preview">
 
-   Exemple de nouvelle zone de commentaire dans l’environnement Aperçu :
    ![Nouvelle zone de commentaire](assets/comment-box-all-tabs.png)
 
    </div>
 
-   Exemple de nouvelle zone de commentaire dans l’environnement de production :
-   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -446,13 +443,9 @@ Vous pouvez rechercher un commentaire ou une réponse dans la section Mises à j
 
    <div class="preview">
 
-   Exemple de recherche dans l&#39;environnement Aperçu :
    ![Recherche dans les mises à jour](assets/updates-all-tabs-with-search-field.png)
 
    </div>
-
-   Exemple de recherche dans l’environnement de production :
-   ![](assets/search-field-in-updates-tab.png)
 
    Le mot-clé <!--or user--> La recherche effectuée est mise en surbrillance et les commentaires qui la contiennent s’affichent en haut de la section Mises à jour .
 

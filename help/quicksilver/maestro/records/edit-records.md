@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -117,9 +117,11 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** menu déroulant <!--tab--> dans le coin supérieur droit du tableau, sélectionnez une **Tableau** vue. Il doit s’agir de la vue par défaut, sauf si vous avez consulté le type d’enregistrement dans un autre type de vue lors de votre dernier accès.
+1. (Conditionnel) Dans la variable **Affichage** sélectionnez un menu déroulant dans le coin supérieur gauche du tableau **Tableau** vue. Il doit s’agir de la vue par défaut, sauf si vous avez consulté le type d’enregistrement dans un autre type de vue lors de votre dernier accès.
 
-   Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
+<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+
+    Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
 1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -129,7 +131,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
    >  Vous ne pouvez pas modifier les informations des champs suivants, car ils sont en lecture seule et Workfront les met automatiquement à jour :
    >  
    >  * Champs liés créés par la connexion des types d’enregistrement. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
-   >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification .
+   >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification, Champs de formule.
 
 1. (Facultatif et conditionnel) Lorsque vous modifiez un champ de type Paragraphe, utilisez ce qui suit : **Texte enrichi** options de formatage :
 
@@ -147,12 +149,12 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 
    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
         >[!TIP]
         >
         >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
     1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
     -->
 
 1. (Facultatif) Pour copier et coller des informations d’un champ vers un autre, effectuez l’une des opérations suivantes :
@@ -168,7 +170,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
    >* Utilisez les raccourcis clavier suivants pour copier et coller des informations :
    >   * Copier : Ctrl + C (⌘ + C pour Mac)
    >   * Coller : Ctrl + V ( ⌘ + V pour Mac)
-   >* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ Maestro du même type que le champ dans lequel vous collez les informations.
+   >* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ d’enregistrement du même type que le champ dans lequel vous collez les informations.
    >
    >* Vous ne pouvez pas copier et coller de valeurs de champ dans la zone Détails d’un enregistrement. Cette fonctionnalité n’est prise en charge que dans le mode Tableau d’un type d’enregistrement.
    >* Vous ne pouvez pas copier et coller des valeurs de champ pour les types de champ suivants :
@@ -191,7 +193,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 ### Modifier un enregistrement à partir de la page Détails de l’enregistrement
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
 
 {{step1-to-maestro}}
 
@@ -212,8 +214,8 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
    Ou
 
-   Cliquez dans n’importe quel champ modifiable de la page Détails pour modifier les informations.
+   Cliquez dans n’importe quel champ modifiable de la page Détails pour modifier les informations. <!--Your changes are saved automatically.-->
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Cliquez sur **Enregistrer les modifications**. <!--logged a bug for this - this needs to be "Save"-->
+1. Cliquez sur **Enregistrer les modifications**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->

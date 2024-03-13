@@ -5,16 +5,16 @@ description: Vous pouvez utiliser le panneau Résumé pour passer en revue et me
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Résumé] aperçu
 
-{{highlighted-preview}}
+<span class="preview">Les informations en surbrillance sont disponibles uniquement dans l’environnement Aperçu .</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Vous pouvez utiliser la variable [!UICONTROL Résumé] pour passer en revue et mettre à jour les informations des éléments de travail directement à partir d’une liste de tâches, de problèmes, de documents ou d’autres zones de [!DNL Adobe Workfront] qui affichent les tâches et les problèmes.
 
@@ -121,13 +121,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    <div class="preview">
 
-   Exemple du panneau Résumé dans l’environnement Aperçu :
    ![Panneau Résumé](assets/summary-panel-for-task-new-comments.png)
 
    </div>
-
-   Exemple du panneau Résumé dans l’environnement de production :
-   ![Panneau Résumé](assets/summary-panel-for-task.png)
 
 1. (Facultatif) Pour fermer la variable [!UICONTROL Résumé] effectuez l’une des opérations suivantes :
 
@@ -147,7 +143,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Utilisez la barre de progression en haut de la [!UICONTROL Résumé] pour mettre à jour le pourcentage terminé pour la tâche ou le problème que vous avez sélectionné. Saisissez un nombre ou faites glisser la barre vers le pourcentage approprié.
 
-![Pourcentage terminé dans le panneau Résumé](assets/summary-overview-percent-complete.png)
+<span class="preview">![Pourcentage terminé dans le panneau Résumé](assets/summary-overview-percent-complete.png)</span>
 
 ## [!UICONTROL Mises à jour]
 
@@ -155,13 +151,9 @@ Utilisez la variable [!UICONTROL Mises à jour] de la [!UICONTROL Résumé] pour
 
 <div class="preview">
 
-Exemple de mises à jour dans l’environnement Aperçu :
 ![Section Mises à jour du panneau Résumé](assets/summary-updates-section.png)
 
 </div>
-
-Exemple de mises à jour dans l’environnement de production :
-![Section Mises à jour du panneau Résumé](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documents]
 

@@ -7,16 +7,16 @@ description: Le résumé vous permet d’interagir avec des informations importa
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
 
 # Présentation du résumé des documents
 
-{{highlighted-preview}}
+<span class="preview">Les informations mises en surbrillance sur cette page sont disponibles uniquement dans l’environnement Aperçu .</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Le résumé vous permet d’interagir avec des informations importantes directement depuis la liste des documents.
 
@@ -67,7 +67,7 @@ Utilisez la section Détails pour afficher des informations d’aperçu généra
 * [Présentation](#overview)
 * [Formulaires personnalisés](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
 
 ### Vue d’ensemble {#overview}
 
@@ -79,7 +79,7 @@ Développez la section Aperçu pour afficher ou télécharger une miniature d’
 
 Utilisez la section Forms personnalisée pour ajouter, modifier ou afficher tout formulaire personnalisé associé au document. Commencez à saisir le nom du formulaire personnalisé pour l’ajouter au document. Pour plus d’informations, voir [Ajouter ou modifier un formulaire personnalisé à un document](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
 
 ## Mises à jour
 
@@ -87,13 +87,10 @@ Utilisez la section Mises à jour pour lire une mise à jour effectuée sur le d
 
 <div class="preview">
 
-Exemple de mises à jour dans l’environnement Aperçu :
 ![Section Mises à jour du panneau Résumé](assets/summary-updates-section-new-comments.png)
 
 </div>
 
-Exemple de mises à jour dans l’environnement de production :
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Approbations
 
@@ -104,7 +101,7 @@ Les validations de BAT doivent être ajoutées dans le workflow BAT. Pour plus d
 * [Valider le travail](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Demander l’approbation de documents](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
 
 ## Versions
 
@@ -116,4 +113,4 @@ Utilisez la section Versions pour afficher le nombre de versions créées pour u
 * Accédez à Détails du document .
 * Suppression d’un BAT ou d’un document
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>

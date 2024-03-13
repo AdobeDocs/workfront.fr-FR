@@ -4,7 +4,7 @@ description: Vous pouvez partager une vue avec d’autres pour garantir la colla
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -107,6 +107,9 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
    * Gérer
 
      Pour plus d’informations sur les niveaux d’autorisation et les actions que les utilisateurs peuvent effectuer pour chaque niveau, voir [Présentation du partage des autorisations dans les fonctionnalités de planification d’Adobe Workfront](../access/sharing-permissions-overview.md).
+
+     <!--System administrators always receive Manage permissions to views shared with them.-->
+
 1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans le presse-papiers.
 1. Partagez le lien copié avec d’autres personnes. Les utilisateurs qui reçoivent le lien doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à la page de type d’enregistrement et l’afficher dans la vue sélectionnée.
 1. Cliquer sur **Enregistrer**.

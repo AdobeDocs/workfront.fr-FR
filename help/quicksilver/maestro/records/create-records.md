@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
 1. (Conditionnel) Si la page de type enregistrement ne s’ouvre pas dans la vue de tableau, cliquez sur le bouton **Affichage** , puis sélectionnez une **Vue Tableau** ![](assets/table-view-icon.png) ou cliquez sur **Créer une vue > Tableau** pour créer une vue de tableau.
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. Pour ajouter de nouveaux enregistrements, cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau ;
 
    Ou
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## Créer des enregistrements en copiant et collant des informations à partir d’une liste externe
 
-1. Dans Maestro, commencez à créer des enregistrements dans la vue Tableau, comme décrit dans la section . [Créer des enregistrements en les ajoutant manuellement à un type d’enregistrement](#create-records-by-manually-adding-them-to-a-record-type) dans cet article.
+1. Commencez à créer des enregistrements dans la vue Tableau, comme décrit dans la section [Créer des enregistrements en les ajoutant manuellement à un type d’enregistrement](#create-records-by-manually-adding-them-to-a-record-type) dans cet article.
 
-   Assurez-vous que la vue Tableau Maestro contient les colonnes (ou les champs) que vous souhaitez renseigner avec les nouvelles informations d’enregistrement.
+   Assurez-vous que la vue de tableau contient les colonnes (ou les champs) que vous souhaitez renseigner avec les nouvelles informations d’enregistrement.
 
 1. Cliquez sur **Nouveau &lt; Nom du type d’enregistrement >** dans la dernière ligne du tableau pour ajouter autant de nouvelles lignes que vous souhaitez que vos nouveaux enregistrements soient.
 
    Par exemple, ajoutez 10 lignes à la vue de tableau si vous souhaitez coller les informations relatives à 10 nouveaux enregistrements d’une autre application.
 
-1. Dans une autre application, créez une liste d&#39;enregistrements à importer dans Maestro.
+1. Dans une autre application, créez une liste d&#39;enregistrements à importer.
 
    Vous pouvez par exemple utiliser une feuille de calcul Excel pour créer votre liste.
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > Les colonnes de la liste doivent contenir des informations sur les champs existants que vous avez dans Maestro.
+   > Les colonnes de la liste doivent contenir des informations sur les champs existants que vous avez dans Workfront.
    >
-   > Assurez-vous que les champs de votre choix ont déjà été créés dans Maestro et que les informations de votre feuille s’affichent au format correct qui correspond à celui de chaque champ de Maestro.
+   > Assurez-vous que les champs de votre choix ont déjà été créés dans Workfront et que les informations de votre feuille s’affichent au format correct qui correspond à celui de chaque champ de Workfront.
 
 1. Dans une autre application, sélectionnez plusieurs lignes et colonnes, puis collez les informations dans la vue table de type enregistrement, en commençant par le premier nouvel enregistrement.
 
-   Les informations suivantes sont importées dans Maestro :
+   Les informations suivantes sont importées dans la zone des fonctionnalités de planification de Workfront :
 
    * Les lignes contiennent les nouveaux enregistrements
    * Les colonnes renseignent les informations des champs des enregistrements.

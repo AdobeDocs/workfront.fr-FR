@@ -6,9 +6,9 @@ description: Vous pouvez ajouter ou répondre aux mises à jour d’un document 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p> Tous</p> </td> 
+   <td> <p> Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
@@ -47,7 +47,7 @@ Vous devez disposer des éléments suivants :
 1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Recherchez le document dont vous avez besoin et effectuez l’une des opérations suivantes :
 
-   * Cliquez sur le document de la liste, puis sur le **Résumé ouvert** icon ![](assets/qs-summary-in-new-toolbar-small.png) dans le coin supérieur droit, puis cliquez sur **Démarrer une nouvelle mise à jour** ou cliquez sur **Répondre** pour ajouter une réponse à un commentaire existant. Pour plus d’informations sur le résumé, voir [Présentation du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
+   * Cliquez sur le document de la liste, puis sur le **Résumé ouvert** icon ![](assets/qs-summary-in-new-toolbar-small.png) dans le coin supérieur droit, ajoutez un nouveau commentaire, ou cliquez sur **Répondre** pour ajouter une réponse à un commentaire existant. Pour plus d’informations sur le résumé, voir [Présentation du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
    * Passez la souris sur le document, puis cliquez sur **Détails du document**, puis **Mises à jour** dans le panneau de gauche.
 Pour plus d’informations sur l’ajout de mises à jour aux objets, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

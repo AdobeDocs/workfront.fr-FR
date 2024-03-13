@@ -7,16 +7,16 @@ description: Cet article décrit la mise en page des feuilles de temps dans Adob
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
 # Présentation de la disposition de la feuille de temps
 
-{{highlighted-preview}}
+<span class="preview">Les informations en surbrillance sont disponibles uniquement dans l’environnement Aperçu .</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- Audited: 12/2023 -->
 
@@ -123,13 +123,9 @@ Vous pouvez consigner plusieurs entrées d’heure pour le même élément de tr
 
 <div class="preview">
 
-Exemple dans l&#39;environnement Aperçu :
 ![Zone Mises à jour dans le panneau de la feuille de temps gauche](assets/timesheet-updates-with-all-tab.png)
 
 </div>
-
-Exemple dans l’environnement de production :
-![Zone Mises à jour dans le panneau de la feuille de temps gauche](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 Vous pouvez faire des commentaires sur une feuille de temps pour communiquer avec les approbateurs de votre feuille de temps ou d’autres utilisateurs dans la section Mises à jour du panneau gauche de la feuille de temps.
 
@@ -139,13 +135,9 @@ Tous les commentaires apportés à la feuille de temps s’affichent dans cette 
 
 <div class="preview">
 
-Exemple dans l&#39;environnement Aperçu :
 ![Panneau Résumé](assets/timesheet-summary-panel-on-updates.png)
 
 </div>
-
-Exemple dans l’environnement de production :
-![Panneau Résumé](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Vous pouvez accéder au panneau Résumé pour les tâches ou les problèmes affichés dans une feuille de temps. À partir de là, vous pouvez commenter les tâches et les problèmes ou mettre à jour leurs informations. Pour plus d’informations, voir [Aperçu du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
