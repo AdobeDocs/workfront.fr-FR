@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 * [Améliorations apportées aux administrateurs](#administrator-enhancements)
 * [Améliorations de la page d’accueil](#home-enhancements)
 * [Améliorations des projets](#project-enhancements)
+* [Améliorations de la gestion des ressources](#resource-management-enhancements)
 * [Améliorations du flux de mise à jour et des notifications](#update-stream-and-notification-enhancements)
 * [Autres améliorations](#other-enhancements)
 
@@ -186,21 +187,20 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées au workflow de création de dossiers automatisée dans l’intégration Adobe Experience Manager</a></p><span style="color: #ff0000;"> Nouveau dans Aperçu .</span><p>Nous avons ajouté des arborescences de dossiers imbriqués au processus des dossiers liés à Adobe Experience Manager pour nous assurer que vos dossiers Adobe Experience Manager répondent mieux à vos besoins.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées au workflow de création de dossiers automatisée dans l’intégration Adobe Experience Manager</a></p><p>[!BADGE en production ]{type=Informative}</p><p>Nous avons ajouté des arborescences de dossiers imbriqués au processus des dossiers liés à Adobe Experience Manager pour nous assurer que vos dossiers Adobe Experience Manager répondent mieux à vos besoins.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
                                 <p>Aperçu de la version : 11 mars 2024</p>
                             </li>
-                             <li> <p><span class="preview">Mise en production trimestrielle : 14 mars 2024</span></p>
+                             <li> <p><span class="preview">Version de production pour tous les clients : 14 mars 2024</span></p>
                              </li>
                         </ul>
                     </td>
                  </tr>          
             </tbody>
 </table>
-
 
 ### Améliorations des projets
 
@@ -247,6 +247,43 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.3 (14 mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Améliorations de la gestion des ressources
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicateur pour les allocations ajustées manuellement dans l’équilibreur de charge de travail</a></p><p>[!BADGE en production pour version rapide ]{type=Positif}</p><p>Pour plus de clarté sur les réglages manuels ou le contournement dans l’équilibreur de charge de travail, les affectations horaires ajustées manuellement affichent désormais une icône en forme de crayon.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 12 octobre 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.2 (15 février 2024)</p>
                             </li>
                             <li>
                                 <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '14023'
+source-wordcount: '14032'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 1%
          * [Améliorations de la page d’accueil du 2e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [Améliorations de l’intégration 2024 au 2e trimestre](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [Améliorations du projet 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [Améliorations de la gestion des ressources au 2e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [Améliorations du flux de mise à jour 2024 - 2e trimestre](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [Mises à jour de l’apparence pendant la période de publication du 2e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * Version 2024 du 1er trimestre {#release-24-q1}
@@ -395,6 +396,7 @@ ht-degree: 1%
    * Programmes bêta {#beta}
       * [Programmes bêta](product-announcements/betas/betas.md)
       * Tableaux de bord de canevas bêta {#canvas-dashboards-beta}
+         * [Informations bêta sur les tableaux de bord du canevas](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Présentation bêta du canevas de création de rapports](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Tableaux de bord de canevas bêta : activité de mise à jour](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Nouvelle version bêta des commentaires {#new-commenting-experience-beta}

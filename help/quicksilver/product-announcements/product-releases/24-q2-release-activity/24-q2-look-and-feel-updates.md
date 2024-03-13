@@ -4,9 +4,9 @@ description: Mises à jour de l’apparence pendant la période de publication d
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,5 @@ Nous avons mis à jour les onglets de Forms, Fields et Sections dans la zone Con
 
 Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) et [Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Indicateur pour les allocations ajustées manuellement dans l’équilibreur de charge de travail
 
->[!NOTE]
->
->Aperçu de la version : 12 octobre 2023 ; Production pour une version rapide : avec la version 24.2 (15 février 2024) ; Production pour une version trimestrielle : avec la version 24.4 (avril 2024)
-
-Pour plus de clarté sur les réglages manuels ou le contournement dans l’équilibreur de charge de travail, les affectations horaires ajustées manuellement affichent désormais une icône en forme de crayon.
-
-Pour plus d’informations, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
