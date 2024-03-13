@@ -6,7 +6,7 @@ description: La visionneuse de vérification de l’appli de bureau, conçue pri
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 98e2ebc214adf13d0f8b2962395504fb86e6d0c9
+source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -77,12 +77,12 @@ Si votre administrateur de BAT Workfront ou Workfront a téléchargé l’applic
 
 >[!TIP]
 >
->Vous pouvez utiliser la ligne de commande pour installer la visionneuse de BAT en exécutant `Workfront Proof Setup 2.1.31.exe" /S`
+>Vous pouvez utiliser la ligne de commande pour installer la visionneuse de BAT en exécutant `Workfront Proof Setup 2.1.34.exe" /S`
 
 1. Pour télécharger l’application, effectuez l’une des opérations suivantes :
 
-   * Dans l’environnement de production, cliquez sur [Téléchargement de production Windows pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.32.exe)
-   * Dans l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.32.exe)
+   * Dans l’environnement de production, cliquez sur [Téléchargement de production Windows pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.34.exe)
+   * Dans l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.34.exe)
 
 1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
 1. Dans la boîte d’installation qui s’affiche, ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
