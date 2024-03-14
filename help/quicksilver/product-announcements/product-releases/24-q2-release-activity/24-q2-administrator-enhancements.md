@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administrateur au deuxième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées à l’administrateur à la version du deuxième trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production, comme indiqué.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 2024 du deuxième trimestre, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Les entreprises et les utilisateurs prennent désormais en charge les champs de formulaire personnalisés avancés.
+
+>[!NOTE]
+>
+>Version d’aperçu : 14 mars 2024 ; Production pour tous les clients : 24.4 (avril 2024)
+
+Les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe et les champs natifs Workfront sont désormais disponibles lorsque vous joignez un formulaire personnalisé à une entreprise ou à un utilisateur. Les fonctionnalités avancées sont disponibles dans les pages Détails de la société et Détails de l’utilisateur, et non dans les boîtes de dialogue Modifier la société et Modifier l’utilisateur . Le formulaire personnalisé doit être créé dans le nouveau concepteur de formulaire pour tirer parti de ces types de champs.
+
+Pour plus d’informations sur les champs de formulaire personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## L’intégration JumpSeat est désormais disponible pour les nouveaux types de modules.
 
