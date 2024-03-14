@@ -4,9 +4,9 @@ description: Vous pouvez partager une vue avec d’autres pour garantir la colla
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
 >[!NOTE]
 >
 >Les administrateurs système ne peuvent pas afficher ni partager les vues qu’ils n’ont pas créées eux-mêmes. Ils peuvent uniquement accéder aux vues partagées avec eux ou les partager.
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>Les administrateurs système ne peuvent disposer que des autorisations de gestion pour une vue.
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
 
    Cela ouvre la page de type enregistrement.
 
-1. Dans le menu déroulant de la vue <!--tab-->, survolez la vue que vous souhaitez partager avec la souris et cliquez sur l’icône **Plus** menu ![](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
+1. Dans l’onglet Affichage , passez la souris sur la vue que vous souhaitez partager et cliquez sur le **Plus** menu ![](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

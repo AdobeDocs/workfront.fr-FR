@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -139,8 +139,9 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
    * Cliquez avec le bouton droit de la souris sur une ligne d’enregistrement, puis cliquez sur **Supprimer**.
    * Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Supprimer**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * Cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) pour ouvrir la zone Détails, cliquez sur **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis **Supprimer**.
 
    L’enregistrement est supprimé et ne peut pas être récupéré.
 

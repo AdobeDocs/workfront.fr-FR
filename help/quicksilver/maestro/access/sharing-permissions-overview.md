@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '542'
 ht-degree: 7%
 
 ---
@@ -51,7 +51,7 @@ Vous pouvez partager les objets suivants :
 * Vous pouvez partager un espace de travail ou une vue avec les entités suivantes :
    * Utilisateurs
    * Groupes
-* Les autres utilisateurs, y compris les administrateurs système, ne peuvent accéder qu’aux vues qu’ils ont créées ou qui ont été partagées avec eux. <!--System administrators can only be given permissions to Manage a view.-->
+* Les autres utilisateurs, y compris les administrateurs système, ne peuvent accéder qu’aux vues qu’ils ont créées ou qui ont été partagées avec eux. Les administrateurs système peuvent uniquement disposer d’autorisations pour gérer une vue.
 * Vous pouvez partager avec d’autres un lien vers un espace de travail ou vers une vue à partir d’une page de type enregistrement. Les utilisateurs qui reçoivent le lien doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à l’espace de travail ou à la page de type enregistrement affichée dans la vue sélectionnée.
 
 ## Partage des autorisations pour les objets de fonctionnalités de planification Adobe Workfront

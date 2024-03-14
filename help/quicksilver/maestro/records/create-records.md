@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ Pour plus d’informations sur la modification des informations d’enregistreme
 {#step1-to-maestro}
 
 L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
+
 1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
    La page de type enregistrement s’ouvre dans la vue à laquelle vous avez accédé la dernière fois. Par défaut, une page de type enregistrement s’ouvre dans la vue de tableau.
 Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
-1. (Conditionnel) Si la page de type enregistrement ne s’ouvre pas dans la vue de tableau, cliquez sur le bouton **Affichage** , puis sélectionnez une **Vue Tableau** ![](assets/table-view-icon.png) ou cliquez sur **Créer une vue > Tableau** pour créer une vue de tableau.
-
-<!--Replace the above with this when we release the tabbed views: 
-1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+1. (Conditionnel) Si la page de type enregistrement ne s’ouvre pas dans la vue de tableau, cliquez sur l’onglet d’une vue de tableau ou cliquez sur **+ Affichage** pour créer une vue de tableau.
 
 1. Pour ajouter de nouveaux enregistrements, cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau ;
 
@@ -135,17 +133,17 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
 1. Continuez à ajouter des informations sur chaque ligne, puis cliquez sur **Entrée** sur votre clavier pour enregistrer vos modifications.
 
-<!--Or 
-    
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+   Ou
 
-      >[!TIP]
-      >
-      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+   Cliquez sur le nom du nouvel enregistrement ou sur le champ **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement. La variable **Détails** s’ouvre dans le tableau.
 
-  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
-  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
-    -->
+   >[!TIP]
+   >
+   >Vous ne pouvez accéder à la zone Détails qu’à partir du champ nom de l’enregistrement lorsque le champ Nom est un champ principal.
+
+1. Commencez à modifier les informations de l’enregistrement dans la zone Détails . Workfront enregistre automatiquement vos modifications.
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone Détails pour ouvrir le **Détails** dans un nouvel onglet. Continuez à modifier l’enregistrement sur la page Détails .
+
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements :
 

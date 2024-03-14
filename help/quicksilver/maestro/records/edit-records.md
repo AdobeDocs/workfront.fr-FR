@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 1%
+source-wordcount: '1244'
+ht-degree: 0%
 
 ---
 
@@ -117,11 +117,9 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** sélectionnez un menu déroulant dans le coin supérieur gauche du tableau **Tableau** vue. Il doit s’agir de la vue par défaut, sauf si vous avez consulté le type d’enregistrement dans un autre type de vue lors de votre dernier accès.
+1. (Conditionnel) Cliquez sur l’onglet d’une vue de tableau ou cliquez sur **+ Affichage** pour créer une vue de tableau. La vue de tableau doit être la vue par défaut, sauf si vous avez consulté le type d’enregistrement dans un autre type de vue lors de votre dernier accès.
 
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
-
-    Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
+   Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
 1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -147,15 +145,15 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 1. (Facultatif) Double-cliquez sur un champ d’enregistrement connecté pour ajouter des enregistrements ou des objets connectés à un autre enregistrement. Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
 1. Presse **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement. A **Enregistré** s’affiche brièvement dans le coin supérieur droit de la vue du tableau pour indiquer que les modifications ont été enregistrées.
 
+1. (Facultatif) Cliquez sur le **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement ou cliquez sur un nom d’enregistrement. La variable **Détails** s’ouvre dans le tableau.
 
-   <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
+   >[!TIP]
+   >
+   >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement uniquement lorsque le champ Nom est un champ principal.
+
+1. Commencez à modifier les informations du champ dans le **Détails** de la boîte. Workfront enregistre automatiquement vos modifications.
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit du **Détails** pour ouvrir la zone de l’enregistrement. **Détails** dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page Détails de l’enregistrement](#edit-a-record-from-the-records-details-page) dans cet article.
+
 
 1. (Facultatif) Pour copier et coller des informations d’un champ vers un autre, effectuez l’une des opérations suivantes :
 
@@ -193,7 +191,9 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 ### Modifier un enregistrement à partir de la page Détails de l’enregistrement
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+Vous pouvez modifier un enregistrement à partir de la zone Détails d’un tableau ou de la page Détails.
+
+Pour plus d’informations sur l’édition d’enregistrements dans la zone Détails, voir [Modification d’un enregistrement depuis la vue table d’un type d’enregistrement](#edit-a-record-from-the-table-view-of-a-record-type) dans cet article.
 
 {{step1-to-maestro}}
 
@@ -214,8 +214,8 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
    Ou
 
-   Cliquez dans n’importe quel champ modifiable de la page Détails pour modifier les informations. <!--Your changes are saved automatically.-->
+   Cliquez dans n’importe quel champ modifiable de la page Détails pour modifier les informations.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Cliquez sur **Enregistrer les modifications**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. Cliquez sur **Enregistrer les modifications**.
