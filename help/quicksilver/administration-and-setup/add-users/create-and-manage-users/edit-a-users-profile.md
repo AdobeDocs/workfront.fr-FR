@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
 workflow-type: tm+mt
-source-wordcount: '3279'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -231,7 +231,7 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Formulaires personnalisés</td> 
-      <td><p>Associez un formulaire personnalisé utilisateur existant à cet utilisateur. Vous devez créer un formulaire personnalisé pour pouvoir l’associer à un utilisateur. Seuls les formulaires personnalisés actifs s’affichent dans la liste. Les champs que vous n’avez pas accès à la modification ne s’affichent pas dans un formulaire personnalisé individuel.</p> <p>Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p></td> 
+      <td><p>Associez un formulaire personnalisé utilisateur existant à cet utilisateur. Vous devez créer un formulaire personnalisé pour pouvoir l’associer à un utilisateur. Seuls les formulaires personnalisés actifs s’affichent dans la liste. Les champs que vous n’avez pas accès à la modification ne s’affichent pas dans un formulaire personnalisé individuel.</p> <p><span class="preview"><strong>Remarque :</strong> Les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de l’utilisateur sur la page de détails, et non dans la boîte de dialogue Modifier l’utilisateur . (Dans la liste des utilisateurs, cliquez sur le nom de l’utilisateur pour ouvrir les détails.)</span></p> <p>Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commentaire</td> 
