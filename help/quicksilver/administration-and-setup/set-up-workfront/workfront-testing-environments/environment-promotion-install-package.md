@@ -11,17 +11,14 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
+source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # Installer un package de promotion d’environnement
-
-Cette page est en construction
-
 
 
 1. Accédez à l’environnement dans lequel vous souhaitez installer le package. C’est l’environnement dans lequel vous copiez des objets. **to**.
@@ -41,11 +38,11 @@ Chaque type d’objet est répertorié dans le volet de navigation de gauche et 
 * Créer : l’objet se trouve dans l’environnement cible
 * Utiliser existant : l’objet du package n’est pas installé, et l’objet qui existait déjà dans l’environnement cible est inchangé.
 * Remplacer existant : l’objet du package remplace l’objet existant dans l’environnement cible.
-* Ne pas utiliser :
+* Ne pas utiliser : si vous sélectionnez Ne pas utiliser, un message d’erreur s’affiche, détaillant l’impact de ce choix sur d’autres objets ou champs.
 
 Les valeurs par défaut sont `Create new` si l’objet n’existe pas dans l’environnement cible, et `Use existing` si l’objet existe dans l’environnement cible. Vous pouvez rétablir le mappage par défaut en cliquant sur **Réinitialiser le mappage par défaut**.
 
-Si vous sélectionnez Ne pas utiliser, un message d’erreur s’affiche, détaillant l’impact de ce choix sur d’autres objets ou champs.
+
 
 <!--
 ## Collisions
