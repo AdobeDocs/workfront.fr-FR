@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 293b7354e4549e51d78ad1aa75927a21d9044c43
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Pour plus d’informations sur la création de l’application OAuth2, voir [Cr�
 
 Vos utilisateurs doivent se connecter pour autoriser cette intégration dans leur propre compte. La page à autoriser a un format spécifique, décrit ici. Utilisez ces informations pour déterminer l’adresse de la page d’autorisation de l’application et indiquez à vos utilisateurs cette adresse ou un lien vers celle-ci.
 
-* URL complète du domaine de votre organisation. Exemple:
+* URL complète du domaine de votre organisation. Exemple :
 
   ```
   https://myorganization.my.workfront.com
@@ -66,11 +66,11 @@ L’application tierce peut nécessiter une configuration. Le tableau suivant co
  <tbody> 
   <tr> 
    <td role="rowheader">URI d’autorisation</td> 
-   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple: </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
+   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL du jeton</td> 
-   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple: </b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
+   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Portées</td> 
@@ -81,7 +81,7 @@ L’application tierce peut nécessiter une configuration. Le tableau suivant co
 
 ## Configuration du flux du code d’autorisation
 
-![](assets/oauth-2-authorization-code-flow-350x194.png)
+![](assets/oauth-2-authorization-code-flow.png)
 
 Pour connecter vos utilisateurs avec OAuth2, procédez comme suit :
 
