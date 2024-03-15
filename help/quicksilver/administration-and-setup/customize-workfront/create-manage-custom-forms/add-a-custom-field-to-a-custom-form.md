@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Champ de texte avec formatage</td> 
-      <td>Permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre le texte en gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets. Cette option est disponible dans la section Accueil, la zone Mises à jour, les listes et la zone Détails des objets Workfront. Une limite de caractères de 15 000 permet d’utiliser beaucoup de texte et de formatage.</p> <p>Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Stockage de champs de texte enrichi dans l’API</a>.</p> <p><b>REMARQUE</b>: les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront. </p> </td> 
+      <td>Permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre le texte en gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets. Cette option est disponible dans la section Accueil, la zone Mises à jour, les listes et la zone Détails des objets Workfront. Une limite de caractères de 15 000 permet d’utiliser beaucoup de texte et de formatage.</p> <p>Ce type de champ personnalisé n’est pas pris en charge dans les filtres sur les listes et les rapports.</p> <p>Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Stockage de champs de texte enrichi dans l’API</a>.</p> <p><b>REMARQUE</b>: les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Menu déroulant</td> 
@@ -225,7 +225,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
       <td><p>Cliquez dans la liste déroulante, puis sélectionnez les types d’objets pour lesquels vous souhaitez effectuer automatiquement le suivi des modifications de valeur du champ.</p> 
       <p><b>REMARQUE</b>: cette option n’est pas disponible pour les éléments suivants :</p> 
       <ul> 
-      <li>Formulaires personnalisés associés aux types d’objets suivants : Frais, Société, Itération, Enregistrement de facturation et Groupe.</li> 
+      <li>Formulaires personnalisés associés aux types d’objets suivants : Frais, Société, Itération, Enregistrement de facturation, Document et Groupe.</li> 
       <li>Types de champ suivants : Calcul, Texte descriptif et Saut de section</li> 
       </ul>
       <p><b>IMPORTANT</b>: la sélection ou la désélection d’un type d’objet ici affecte tous les formulaires personnalisés associés au type d’objet sélectionné et contenant ce champ. Par exemple, si vous désélectionnez ici un type d’objet et enregistrez le formulaire personnalisé, les modifications de valeur du champ ne sont plus suivies pour ce type d’objet dans un formulaire personnalisé qui contient le champ.</p>

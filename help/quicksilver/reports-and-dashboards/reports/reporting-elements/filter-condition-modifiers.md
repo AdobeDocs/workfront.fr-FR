@@ -6,9 +6,9 @@ description: Les modificateurs de filtre et de condition vous permettent de cré
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>Il s’agit de la variable <i>non sensible à la casse</i> option de <strong>eq</strong>. Elle ne renvoie qu’une correspondance exacte de la valeur recherchée.</p> <p>Par exemple, lors de la recherche d’une tâche portant un nom spécifique, <code>task name cieq test</code> recherche les tâches dont le nom est <code>Test</code>, <code>TEST</code>, ou <code>Test</code>, mais il ne trouve pas de tâche nommée <code>test 123.</code></p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td> 
+   <td> <p>Il s’agit de la variable <i>non sensible à la casse</i> option de <strong>eq</strong>. Elle ne renvoie qu’une correspondance exacte de la valeur recherchée.</p> <p>Par exemple, lors de la recherche d’une tâche portant un nom spécifique, <code>task name cieq test</code> recherche les tâches dont le nom est <code>Test</code>, <code>TEST</code>, ou <code>Test</code>, mais il ne trouve pas de tâche nommée <code>test 123.</code></p> <p>Lors de la recherche d’un état, la variable <strong>cieq</strong> Le modificateur n’est pas pris en charge. Vous devez utiliser le modificateur sensible à la casse, <strong>eq</strong>, pour rechercher un état.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modification d’un filtre à l’aide du mode texte</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 

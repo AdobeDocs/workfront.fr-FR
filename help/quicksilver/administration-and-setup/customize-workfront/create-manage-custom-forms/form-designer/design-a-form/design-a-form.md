@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,9 @@ Vous pouvez ajouter plusieurs champs de texte différents à un formulaire perso
 * **Champ de texte de paragraphe**: permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ.
 * **Champ de texte avec mise en forme**: permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre en forme le texte en gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets. Une limite de caractères de 15 000 permet d’utiliser beaucoup de texte et de formatage.
 
-  Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir Stockage de champs de texte enrichi dans l’API.
+  Ce type de champ personnalisé n’est pas pris en charge dans les filtres sur les listes et les rapports.
+
+  Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir [Stockage de champs de texte enrichi dans l’API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >

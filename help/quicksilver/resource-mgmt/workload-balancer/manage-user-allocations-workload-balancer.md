@@ -6,9 +6,9 @@ description: En tant que gestionnaire de ressources, vous pouvez affecter du tra
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ La tâche Heures planifiées est répartie uniformément entre tous les jours co
 
 >[!CAUTION]
 >
->L’équilibreur de charge de travail affiche uniquement 1 000 heures planifiées par élément de travail et jusqu’à 1 000 jours de la durée d’un élément. Les affectations dans l’équilibreur de charge de travail s’affichent sous la forme de zéro après la limite de 1 000 heures ou de 1 000 jours. Nous vous recommandons de diviser les tâches en sous-tâches plus petites afin qu’elles s’adaptent à un plus grand nombre d’heures planifiées ou à une durée supérieure à 1 000 jours.
+>L’équilibreur de charge de travail affiche uniquement 1 000 heures planifiées par élément de travail et jusqu’à 1 000 jours de la durée d’un élément. Les affectations dans l’équilibreur de charge de travail s’affichent sous la forme de zéro après la limite de 1 000 heures ou de 1 000 jours. Nous vous recommandons de diviser les tâches en sous-tâches plus petites afin de tenir compte d’un plus grand nombre d’heures planifiées ou d’une durée supérieure à 1 000 jours.
 
 Tenez compte des points suivants lorsque vous localisez des allocations quotidiennes, hebdomadaires ou mensuelles pour des tâches ou des problèmes dans l’équilibreur de charge de travail :
 
