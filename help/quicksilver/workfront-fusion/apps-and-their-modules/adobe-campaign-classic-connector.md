@@ -4,21 +4,21 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Modules Adobe Campaign Classic
-description: Avec la variable [!DNL Adobe Campaign Classic] modules, vous pouvez lancer une [!DNL Adobe Workfront Fusion] selon les événements de votre [!DNL Adobe Campaign Classic] créer, lire ou mettre à jour des contrats et d’autres enregistrements, rechercher des enregistrements à l’aide de critères que vous définissez et télécharger des documents.
+title: Modules Adobe Campaign v7/v8
+description: Avec la variable [!DNL Adobe Campaign] modules, vous pouvez lancer une [!DNL Adobe Workfront Fusion] selon les événements de votre [!DNL Adobe Campaign] créer, lire ou mettre à jour des contrats et d’autres enregistrements, rechercher des enregistrements à l’aide de critères que vous définissez et télécharger des documents.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 455d439ec2a9034043cac2570851ab2f9fecc276
+source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Campaign Classic] modules
+# [!DNL Adobe Campaign] modules
 
-Avec la variable [!DNL Adobe Campaign Classic] modules, vous pouvez lancer une [!DNL Adobe Workfront Fusion] selon les événements de votre [!DNL Adobe Campaign Classic] créer, lire ou mettre à jour des enregistrements, rechercher des enregistrements à l’aide des critères que vous définissez et effectuer des appels API personnalisés.
+Avec la variable [!DNL Adobe Campaign] modules, vous pouvez lancer une [!DNL Adobe Workfront Fusion] selon les événements de votre [!DNL Adobe Campaign v7/v8] créer, lire ou mettre à jour des enregistrements, rechercher des enregistrements à l’aide des critères que vous définissez et effectuer des appels API personnalisés.
 
 ## Exigences d’accès
 
@@ -59,7 +59,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Connexion [!DNL Adobe Campaign Classic] to [!DNL Adobe Workfront Fusion]
+## Connexion [!DNL Adobe Campaign] to [!DNL Adobe Workfront Fusion]
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 >
 >Pour plus d’informations sur les nouvelles exigences de connexion de Campaign, voir [Migration des opérateurs techniques Campaign vers la console Adobe Developer](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) dans la documentation de Campaign.
 
-1. Dans n’importe quel [!DNL Adobe Campaign Classic] module, cliquez sur **[!UICONTROL Ajouter]** en regard de [!UICONTROL Connexion] champ .
+1. Dans n’importe quel [!DNL Adobe Campaign] module, cliquez sur **[!UICONTROL Ajouter]** en regard de [!UICONTROL Connexion] champ .
 1. Renseignez les champs suivants :
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -89,7 +89,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL URL de base]</td>
-          <td>Entrez l’URL de base que vous utilisez pour vous connecter à votre [!DNL Adobe Campaign Classic] instance.</td>
+          <td>Entrez l’URL de base que vous utilisez pour vous connecter à votre [!DNL Adobe Campaign] instance.</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Username]</td>
@@ -119,9 +119,9 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
     </table>
 1. Cliquez sur **[!UICONTROL Continuer]** pour créer la connexion et revenir au module .
 
-## [!DNL Adobe Campaign Classic] modules et leurs champs
+## [!DNL Adobe Campaign] modules et leurs champs
 
-Lorsque vous configurez [!DNL Adobe Campaign Classic] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Adobe Campaign Classic] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez [!DNL Adobe Campaign] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Adobe Campaign] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
 Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -143,7 +143,7 @@ Ce module de déclenchement planifié lance un scénario lorsqu’un enregistrem
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign Classic], voir <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign Classic]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
@@ -181,7 +181,7 @@ Ce module de déclenchement planifié lance un scénario lorsqu’un enregistrem
 
 #### [!UICONTROL Création d’un enregistrement]
 
-Ce module d’action crée un nouvel enregistrement dans [!DNL Adobe Campaign Classic].
+Ce module d’action crée un nouvel enregistrement dans [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,11 +189,11 @@ Ce module d’action crée un nouvel enregistrement dans [!DNL Adobe Campaign Cl
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign Classic], voir <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign Classic]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Sélectionnez le type de [!DNL Adobe Campaign Classic] enregistrement à créer.</td> 
+   <td>Sélectionnez le type de [!DNL Adobe Campaign] enregistrement à créer.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fields] </td> 
@@ -208,7 +208,7 @@ Ce module d’action crée un nouvel enregistrement dans [!DNL Adobe Campaign Cl
 
 #### [!UICONTROL Effectuer un appel API personnalisé]
 
-Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Campaign Classic] API
+Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Campaign] API
 
 <table style="table-layout:auto"> 
   <col/>
@@ -216,7 +216,7 @@ Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Campaig
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign Classic], voir <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign Classic]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Action]</td>
@@ -244,7 +244,7 @@ Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Campaig
 
 #### [!UICONTROL Supprimer l’enregistrement]
 
-Ce module d’action supprime un seul enregistrement de [!DNL Adobe Campaign Classic].
+Ce module d’action supprime un seul enregistrement de [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -252,7 +252,7 @@ Ce module d’action supprime un seul enregistrement de [!DNL Adobe Campaign Cla
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign Classic], voir <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign Classic]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -268,7 +268,7 @@ Ce module d’action supprime un seul enregistrement de [!DNL Adobe Campaign Cla
 
 #### [!UICONTROL Exécution d’une action]
 
-Ce module d’action exécute une action sélectionnée sur un objet dans la variable [!DNL Adobe Campaign Classic] API.
+Ce module d’action exécute une action sélectionnée sur un objet dans la variable [!DNL Adobe Campaign] API.
 
 Pour plus d’informations sur des actions et des champs spécifiques, voir [[!DNL Adobe Campaign] - Documentation de l’API](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
@@ -278,7 +278,7 @@ Pour plus d’informations sur des actions et des champs spécifiques, voir [[!D
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign Classic], voir <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign Classic]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
@@ -297,7 +297,7 @@ Pour plus d’informations sur des actions et des champs spécifiques, voir [[!D
 
 #### [!UICONTROL Lire un enregistrement]
 
-Ce module d’action lit un enregistrement à partir de [!DNL Adobe Campaign Classic].
+Ce module d’action lit un enregistrement à partir de [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -305,11 +305,11 @@ Ce module d’action lit un enregistrement à partir de [!DNL Adobe Campaign Cla
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign Classic], voir <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign Classic]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Sélectionnez le type de [!DNL Adobe Campaign Classic] enregistrement que vous souhaitez lire.</td> 
+   <td>Sélectionnez le type de [!DNL Adobe Campaign] enregistrement que vous souhaitez lire.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -337,7 +337,7 @@ Ce module d’action abonne un utilisateur à un service d’information ou le d
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign Classic], voir <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign Classic]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Abonner ou désabonner]</td> 
@@ -356,7 +356,7 @@ Ce module d’action abonne un utilisateur à un service d’information ou le d
 
 #### [!UICONTROL Mettre à jour l’enregistrement]
 
-Ce module d’action met à jour un seul enregistrement dans [!DNL Adobe Campaign Classic].
+Ce module d’action met à jour un seul enregistrement dans [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -364,11 +364,11 @@ Ce module d’action met à jour un seul enregistrement dans [!DNL Adobe Campaig
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign Classic], voir <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign Classic]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Sélectionnez le type de [!DNL Adobe Campaign Classic] enregistrement à créer.</td> 
+   <td>Sélectionnez le type de [!DNL Adobe Campaign] enregistrement à créer.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -397,11 +397,11 @@ Ce module de recherche renvoie des enregistrements en fonction des critères sp�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign Classic], voir <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign Classic]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Sélectionnez le type de [!DNL Adobe Campaign Classic] enregistrement à créer.</td> 
+   <td>Sélectionnez le type de [!DNL Adobe Campaign] enregistrement à créer.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limite] </td> 
