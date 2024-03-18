@@ -4,9 +4,9 @@ description: Améliorations du projet au deuxième trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+>Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024).
+
+<span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span>
 
 Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans les zones suivantes :
 
@@ -36,7 +38,9 @@ Pour plus d’informations, voir [Présentation des affectations intelligentes](
 
 >[!NOTE]
 >
->Aperçu de la version : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+>Aperçu de la version : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024).
+
+<span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span>
 
 Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.
 

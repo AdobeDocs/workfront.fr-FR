@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,8 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a></p><p>[!BADGE en production pour version rapide ]{type=Positif}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet et dans une liste de tâches de projet.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -246,6 +247,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.3 (14 mars 2024)</p>
+                                <p><span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span></p>
                             </li>
                             <li>
                                 <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>
@@ -255,7 +257,8 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p><p>[!BADGE en production pour version rapide ]{type=Positif}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -265,6 +268,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.3 (14 mars 2024)</p>
+                                <p><span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span></p>
                             </li>
                             <li>
                                 <p>Production pour une version trimestrielle : avec la version 24.4 (avril 2024)</p>
