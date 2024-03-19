@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 3%
 
 ---
@@ -415,7 +415,7 @@ Vous pouvez ajouter des champs de saisie anticipée et de date à un formulaire 
 
 +++
 
-Pour ajouter des champs de date de saisie anticipée :
+Pour ajouter des champs de saisie anticipée et de date :
 
 1. Dans la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section du canevas.
 
@@ -482,6 +482,25 @@ Pour ajouter des champs de date de saisie anticipée :
          <td><ul>
     <li>Frappe continue</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">Ajouter filtre</td>
+      <td><p>Ajoutez un filtre pour un type d’objet afin de limiter les objets que les utilisateurs peuvent sélectionner lorsqu’ils utilisent le champ . </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateur ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
+       <ul> 
+        <li>Ils appartiennent à un ou à des groupes que vous spécifiez.</li> 
+        <li>Ils sont associés à un rôle ou à un titre de tâche que vous spécifiez.</li> 
+        <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
+       </ul> <p>Vous devez définir le filtre correspondant au type d’objet sélectionné à l’aide de la syntaxe Mode texte . Pour plus d’informations sur la création d’un filtre à l’aide du mode Texte, voir <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modification d’un filtre à l’aide du mode texte</a>.</p>
+       <p><b>REMARQUE</b>:
+       <ul> 
+        <li>Si vous modifiez un formulaire personnalisé existant, l’ajout d’un filtre à un champ de type anticipée ne supprime aucun objet (hors portée du filtre) déjà ajouté par les utilisateurs à l’aide du champ.</li> 
+        <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ Type , il apparaîtra sur les appareils mobiles des utilisateurs qui ne sont pas affectés par le filtre.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>Frappe continue</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">Créer un champ obligatoire</td> 

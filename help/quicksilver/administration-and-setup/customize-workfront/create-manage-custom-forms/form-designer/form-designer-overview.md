@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Vous pouvez utiliser le nouveau concepteur de formulaire pour concevoir un formu
 
 Le nouveau concepteur de formulaire dispose d’un nouvel espace de travail de style zone de travail qui vous permet d’afficher simultanément les paramètres des champs, de la zone de travail et des champs. Il vous permet également de faire glisser des champs dans les sections lors de la conception de votre formulaire.
 
-<!-- add screenshot when field settings empty state is ready -->
+![Concepteur d’exemple de formulaire](assets/form-designer-example.png)
 
 ## Accès au nouveau concepteur de formulaires
 
@@ -41,17 +41,7 @@ Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité de
 
   >[!NOTE]
   >
-  >La section par défaut n’est pas visible dans les objets lorsque le formulaire est joint à l’objet.
-
-## Fonctionnalité bientôt disponible
-
-Les éléments suivants ne sont actuellement pas disponibles dans le concepteur de formulaires, mais seront bientôt ajoutés :
-
-* Filtre pour les champs de saisie anticipée
-
->[!IMPORTANT]
->
->Les configurations existantes pour les filtres de saisie anticipée ne seront pas affectées lorsque vous travaillerez avec le nouveau concepteur de formulaires.
+  >La section Par défaut n’est pas visible dans les objets lorsque le formulaire est joint à l’objet.
 
 ## Fonctionnalité supprimée du concepteur de formulaires
 
