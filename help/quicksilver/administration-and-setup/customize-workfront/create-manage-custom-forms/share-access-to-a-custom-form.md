@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 1%
+source-wordcount: '909'
+ht-degree: 0%
 
 ---
 
 # Partage d’un formulaire personnalisé
 
-{{highlighted-preview}}
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Vous pouvez configurer l’accès à un formulaire personnalisé pour contrôler qui (personne, rôle, groupe, équipe, entreprise) peut l’afficher, le partager et le modifier.
 

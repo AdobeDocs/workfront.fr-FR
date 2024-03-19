@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Suppression de types d’objet sur un formulaire personnalisé
 
-{{highlighted-preview}}
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Sur un formulaire personnalisé existant, vous pouvez supprimer les types d’objet associés au formulaire. Après cela, les utilisateurs ne peuvent plus joindre le formulaire à des objets de ce type.
 
