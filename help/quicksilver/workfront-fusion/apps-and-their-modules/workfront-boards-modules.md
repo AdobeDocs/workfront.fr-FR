@@ -8,9 +8,9 @@ title: Modules Panoramas Adobe Workfront
 description: Vous pouvez utiliser le connecteur des panoramas Adobe Workfront pour automatiser vos processus au sein des panoramas Workfront et les connecter à des applications et services tiers.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: 074bcf15c61f9c0c75cebf774b15baf7fe383f35
+source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2111'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
 Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-Modules des panoramas Adobe Workfront et leurs champs
+
 
 ## Conditions préalables
 
