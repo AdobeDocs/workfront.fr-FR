@@ -4,9 +4,9 @@ description: Amélioration du flux de mise à jour et des notifications du deuxi
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Les améliorations suivantes ont été apportées à la nouvelle expérience de 
 
 Pour plus d’informations, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion de cette fonctionnalité spécifique commence à 02h47)
+
 ## L’onglet Activité du système sur la nouvelle expérience de commentaire prend en charge les commentaires en lecture seule.
 
 >[!NOTE]
@@ -49,6 +51,8 @@ Pour plus d’informations, voir [Mise à jour du travail](/help/quicksilver/wor
 Les commentaires effectués sur les enregistrements d’activité du système dans l’expérience de commentaire héritée sont désormais renseignés sur l’onglet Activité du système dans la nouvelle expérience de commentaire en lecture seule. Vous ne pouvez pas répondre aux enregistrements d’activité du système dans la nouvelle expérience de commentaire.
 
 Pour plus d’informations, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion de cette fonctionnalité spécifique commence à 14 h 00 dans la vidéo.)
 
 ## Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système
 
@@ -62,6 +66,8 @@ L’onglet Toutes est un onglet en lecture seule. Vous ne pouvez pas répondre a
 
 Pour plus d’informations, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion de cette fonctionnalité spécifique commence à 0:31 dans la vidéo.)
+
 ## Nouveau flux de commentaires désormais disponible dans le panneau Résumé
 
 >[!NOTE]
@@ -71,3 +77,5 @@ Pour plus d’informations, voir [Présentation de la section Mises à jour](/he
 Nous avons ajouté la nouvelle fonctionnalité de commentaires au panneau Résumé pour les listes de tâches et de problèmes.
 
 Pour plus d’informations, voir [Aperçu du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427991/){target=_blank}

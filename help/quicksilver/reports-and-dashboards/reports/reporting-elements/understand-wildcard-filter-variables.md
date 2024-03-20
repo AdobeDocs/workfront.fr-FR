@@ -7,9 +7,9 @@ description: En utilisant des caractères génériques dans des filtres, vous po
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1466'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,8 @@ Pour indiquer différentes périodes et différents points dans le temps (futur 
 
 | **Qualificateurs** | |
 |---|---|
-| **b** | début de la semaine (dimanche) |
-| **e** | fin de la semaine (samedi) |
+| **b** | début de la période (sans attribut spécifié, par défaut début de la semaine : dimanche) |
+| **e** | fin de la période (sans attribut spécifié, par défaut fin de la semaine : samedi) |
 
 {style="table-layout:auto"}
 
@@ -175,8 +175,8 @@ Vous pouvez choisir parmi les variables basées sur l’utilisateur suivantes :
    <td role="rowheader"> <p><strong>$$USER.name</strong> </p> </td> 
    <td> <p>La variable $$USER.name fait référence au nom complet de l’utilisateur connecté.</p> <p>Remarque :   <p>Cette variable de caractère générique ne fonctionne que lors de la modification d’un filtre en mode texte. Vous ne pouvez pas utiliser ce caractère générique dans les filtres qui ne prennent pas en charge le mode texte. Par exemple, vous ne pouvez pas utiliser ce caractère générique dans les filtres des zones suivantes :</p> 
      <ul> 
-      <li> <p>Planification des ressources</p> </li> 
-      <li> <p>Équilbreur de charge de travail</p> </li> 
+      <li> <p>Planificateur de ressources</p> </li> 
+      <li> <p>Équilibreur de charge de travail</p> </li> 
       <li> <p>Analytique</p> </li> 
      </ul> </p> </td> 
   </tr> 

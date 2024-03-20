@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 0%
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview). -->
+<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+Au lieu d&#39;un webinaire sur la publication de la mise à jour, nous vous invitons à [s’enregistrer pour Adobe Summit](https://summit.adobe.com/na/) pour regarder les sessions Workfront suivantes :
+
+[L&#39;avenir d&#39;Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) le 26 mars 2024, pour avoir un aperçu de l&#39;avenir de la planification stratégique et des workflows. Découvrez comment l’équipe Workfront prévoit de gérer les fonctionnalités de l’entreprise tout au long du cycle de vie marketing, le tout avec une approche axée sur l’IA qui permet d’automatiser le travail, de simplifier les expériences utilisateur et d’améliorer la productivité.
+
+[Présentation des calendriers et des outils marketing pour la planification des campagnes de bout en bout](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) le 23 mars 2023, pour en savoir plus sur les nouvelles fonctionnalités du produit conçues pour vous permettre de gérer et de visualiser les cycles de vie opérationnels de bout en bout.
 
 <span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de publication du deuxième trimestre 2024) sont surlignées en jaune.</span>
 
