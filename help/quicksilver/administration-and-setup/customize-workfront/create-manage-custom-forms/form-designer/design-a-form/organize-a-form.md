@@ -4,20 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Vous pouvez organiser un formulaire personnalisé à l’aide du concepteur de formulaire.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
 
 # Organisation et prévisualisation d’un formulaire avec le concepteur de formulaires
 
-Vous pouvez organiser un formulaire personnalisé avec le concepteur de formulaire.
+Vous pouvez organiser un formulaire personnalisé avec le concepteur de formulaire et le prévisualiser pour vérifier qu’il est correctement configuré.
 
 ## Exigences d’accès
 
@@ -170,4 +170,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. Commencez à créer ou modifier un formulaire personnalisé et à ajouter des champs, comme décrit dans la section [Conception d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Cliquez sur **Aperçu** dans le coin supérieur gauche pour voir à quoi ressemblera le formulaire lors de son utilisation, puis cliquez sur **Aperçu de la fin** pour revenir à la modification du formulaire.
+1. Cliquez sur **Aperçu** dans le coin supérieur droit pour voir à quoi ressemblera le formulaire lors de son utilisation, puis cliquez sur **Aperçu de la fin** pour revenir à la modification du formulaire.
