@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Création ou modification d’un état de groupe
 description: En tant qu’administrateur de groupe, vous pouvez créer des états personnalisés pour un groupe que vous gérez. Cela permet d’éliminer le besoin de dizaines d’états personnalisés à l’échelle de l’entreprise et d’accroître l’autonomie de vos hiérarchies de groupe.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 027d636e8256c6a12d552af736884f6f27886114
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ S’il existe des groupes au-dessus de votre groupe, leurs administrateurs peuve
 
 >[!NOTE]
 >
->Les statuts de groupe personnalisés ne peuvent pas être affichés sur un projet lors de l’affichage du projet dans une vue agile. Seuls les états verrouillés par défaut et personnalisés sont visibles lors de l’affichage d’un projet dans une vue agile. Pour plus d’informations sur la personnalisation d’une vue agile pour un projet, voir la section [Création ou personnalisation d’une vue agile](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) dans l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+>Les statuts de groupe personnalisés ne peuvent pas être affichés sur un projet lors de l’affichage du projet dans une vue agile. Seuls les états verrouillés par défaut et personnalisés sont visibles lors de l’affichage d’un projet dans une vue agile. Pour plus d’informations sur la personnalisation d’une vue agile pour un projet, voir la section [Création ou personnalisation d’une vue agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) dans l’article [Création ou modification de vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 Pour obtenir des informations générales sur les états, voir [Présentation des états](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
@@ -39,7 +39,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Workfront*</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -50,7 +50,7 @@ Les étapes de cet article doivent être les suivantes :
 
 &#42;Si vous devez savoir quel plan ou type de licence vous avez, contactez votre administrateur Workfront.
 
-## Création ou modification d’un état pour un groupe
+## Créer ou modifier un état pour un groupe
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
@@ -69,10 +69,9 @@ Les étapes de cet article doivent être les suivantes :
    * Statuts verrouillés appartenant aux groupes situés au-dessus du sous-groupe.
    * Les états déverrouillés qui appartenaient aux groupes situés au-dessus du sous-groupe lors de sa création.
 
-      Une fois qu’un sous-groupe est créé, les états déverrouillés créés dans les groupes ci-dessus ne sont pas inclus dans la liste des états du sous-groupe. Cependant, si quelqu’un verrouille l’un d’eux plus tard, il est alors inclus dans la liste d’état du sous-groupe. Pour plus d’informations, voir [Comment les groupes héritent des états](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+     Une fois qu’un sous-groupe est créé, les états déverrouillés créés dans les groupes ci-dessus ne sont pas inclus dans la liste des états du sous-groupe. Cependant, si quelqu’un verrouille l’un d’eux plus tard, il est alors inclus dans la liste d’état du sous-groupe. Pour plus d’informations, voir [Comment les groupes héritent des états](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
-
-1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâches** ou **Problèmes**) que vous souhaitez associer à l’état .
+1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problèmes**) que vous souhaitez associer à l’état .
 
 1. (Conditionnel) Si l’état est problématique, assurez-vous que la variable **Liste des Principal** est sélectionnée.
 
@@ -94,7 +93,6 @@ Les étapes de cet article doivent être les suivantes :
    >* Vous gérez le groupe pour lequel l’état a été créé.
    >* Un administrateur Workfront a déverrouillé l’état au niveau du système.
    >* Un administrateur de groupe d’un groupe situé au-dessus de votre groupe a déverrouillé l’état .
-
    >      
    >      
    >Lorsque vous modifiez un état existant, vous ne pouvez modifier que son nom, sa description et sa couleur.
@@ -113,7 +111,7 @@ Les étapes de cet article doivent être les suivantes :
     <tbody> 
      <tr> 
       <td role="rowheader">Nom du statut</td> 
-      <td> <p>Saisissez le nom de l’état. Champ obligatoire.</p> <p>Lorsque vous créez un nom d’état, sachez que d’autres utilisateurs du système peuvent créer un état portant le même nom. Il est recommandé d’utiliser un nom unique afin d’éviter toute confusion lors de la sélection d’états dans Workfront.</p> </td> 
+      <td> <p>Saisissez le nom de l’état. Champ obligatoire.</p> <p>Lorsque vous créez un nom d’état, sachez que d’autres utilisateurs du système peuvent créer un état portant le même nom. Il est recommandé d’utiliser un nom unique afin d’éviter toute confusion lors de la sélection d’états dans Workfront.</p><p>S’il existe des états en double, l’administrateur du groupe doit mettre à jour les noms pour les différencier. Le seul indicateur d’unicité dans le système est la clé d’état.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -133,14 +131,14 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Masquer l’état</td> 
-      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que l’état soit masqué aux utilisateurs. Lorsqu’il est désactivé (paramètre par défaut), tous les sous-groupes situés sous le groupe peuvent utiliser l’état .</p> <p>Conseil : Vous pouvez masquer l’état d’un problème en désactivant les 4 types de problème (rapport de bogues, ordre de modification, problème, requête).</p> </td> 
+      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que l’état soit masqué aux utilisateurs. Lorsqu’il est désactivé (paramètre par défaut), tous les sous-groupes situés sous le groupe peuvent utiliser l’état .</p> <p>Conseil : Vous pouvez masquer l’état d’un problème en désactivant les 4 types de problèmes (rapport de bogues, ordre de modification, problème, requête).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verrouiller pour tous les groupes</td> 
       <td> 
        <p>Si vous laissez cette option activée, les utilisateurs de votre groupe et de ses sous-groupes peuvent afficher et utiliser l’état et les administrateurs de groupe ne peuvent pas la personnaliser pour les sous-groupes inférieurs.</p> 
        <p>Lorsque cette option est désactivée, les administrateurs de groupe peuvent personnaliser l’état des sous-groupes inférieurs.</p> 
-       <p><b>REMARQUE</b>: Vous pouvez utiliser les états verrouillés et déverrouillés dans un processus d’approbation de groupe. Si vous créez un processus d’approbation de groupe avec le statut de groupe déverrouillé, les utilisateurs peuvent associer le processus d’approbation à n’importe quel projet, tâche ou problème associé au groupe.</p> 
+       <p><b>REMARQUE</b>: vous pouvez utiliser les états verrouillés et déverrouillés dans un processus d’approbation de groupe. Si vous créez un processus d’approbation de groupe avec le statut de groupe déverrouillé, les utilisateurs peuvent associer le processus d’approbation à n’importe quel projet, tâche ou problème associé au groupe.</p> 
        <p>Pour plus d’informations sur le verrouillage des états, voir <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Statuts de groupe verrouillés et déverrouillés</a>.</p> 
        </td> 
      </tr>

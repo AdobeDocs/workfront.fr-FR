@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Plusieurs nouvelles fonctionnalités disponibles dans les panoramas Workfront pe
 
 Notez que les collections ont été renommées en flux de travail. Les flux de travail vous aident à visualiser les données de différentes manières. Vous pouvez afficher les éléments sur les cartes dans une liste, sur un panorama ou sur une itération. Les cartes d’un workflow peuvent également être partagées entre plusieurs panoramas. Vous pouvez facilement faciliter les workflows à l’aide de cartes et de panoramas dans un workflow.
 
-Pour plus d’informations, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), et [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Deuxièmement, deux articles ne seront pas disponibles dans Main tant que je n’aurai pas publié ma branche.
+Pour plus d’informations, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Création d’une itération dans un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), et [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
