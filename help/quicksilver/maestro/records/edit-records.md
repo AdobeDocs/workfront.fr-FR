@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Remarques concernant la modification d’enregistrements
 
 * Vous pouvez modifier les enregistrements que vous avez créés ou créés par d’autres utilisateurs, si des autorisations vous ont été accordées à l’espace de travail.
-* Vous pouvez modifier les champs d’enregistrement à partir de la page Détails d’un enregistrement ou de la vue tabulaire d’un type d’enregistrement.
-* Vous ne pouvez pas modifier les informations d’enregistrement dans la vue de la chronologie.
+* Vous pouvez modifier les champs d’enregistrement à partir des zones suivantes :
+
+   * La zone Détails d’un enregistrement d’une vue d’enregistrement.
+   * Page Détails d’un enregistrement.
+   * En ligne, dans une vue de tableau.
+
 * Les types de champs suivants sont automatiquement mis à jour et vous ne pouvez pas modifier leurs valeurs manuellement :
    * Champs liés à partir d’autres enregistrements
    * Champs de type Formule
@@ -107,7 +111,7 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 * [En mode Tableau d’un type d’enregistrement](#edit-a-record-from-the-table-view-of-a-record-type)
 * [Sur la page Détails d’un enregistrement](#edit-a-record-from-the-records-details-page)
 
-### Modification d’un enregistrement depuis la vue table d’un type d’enregistrement
+### Modification d’un enregistrement en ligne dans la vue de tableau d’un type d’enregistrement
 
 {#step1-to-maestro}
 
@@ -145,15 +149,6 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 1. (Facultatif) Double-cliquez sur un champ d’enregistrement connecté pour ajouter des enregistrements ou des objets connectés à un autre enregistrement. Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
 1. Presse **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement. A **Enregistré** s’affiche brièvement dans le coin supérieur droit de la vue du tableau pour indiquer que les modifications ont été enregistrées.
 
-1. (Facultatif) Cliquez sur le **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement ou cliquez sur un nom d’enregistrement. La variable **Détails** s’ouvre dans le tableau.
-
-   >[!TIP]
-   >
-   >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement uniquement lorsque le champ Nom est un champ principal.
-
-1. Commencez à modifier les informations du champ dans le **Détails** de la boîte. Workfront enregistre automatiquement vos modifications.
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit du **Détails** pour ouvrir la zone de l’enregistrement. **Détails** dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page Détails de l’enregistrement](#edit-a-record-from-the-records-details-page) dans cet article.
-
 
 1. (Facultatif) Pour copier et coller des informations d’un champ vers un autre, effectuez l’une des opérations suivantes :
 
@@ -188,27 +183,61 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 1. (Facultatif) Ajoutez une miniature à un enregistrement. Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
+### Modification d’un enregistrement à partir de la zone Détails de l’enregistrement dans une vue
 
-### Modifier un enregistrement à partir de la page Détails de l’enregistrement
-
-Vous pouvez modifier un enregistrement à partir de la zone Détails d’un tableau ou de la page Détails.
-
-Pour plus d’informations sur l’édition d’enregistrements dans la zone Détails, voir [Modification d’un enregistrement depuis la vue table d’un type d’enregistrement](#edit-a-record-from-the-table-view-of-a-record-type) dans cet article.
+Vous pouvez modifier un enregistrement à partir de la zone Détails de n’importe quelle vue.
 
 {{step1-to-maestro}}
 
 L’espace de travail auquel vous accédez en dernier s’ouvre.
 
 1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+
+1. Cliquez sur une carte de type enregistrement.
+
+   La page de type enregistrement s’ouvre.
+
+1. Dans une vue de tout type, cliquez sur le nom d’un enregistrement.
+
+   Ou
+
+   Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement ou cliquez sur un nom d’enregistrement. La variable **Détails** s’ouvre dans la vue.
+
+   ![](assets/details-box.png)
+
+   >[!TIP]
+   >
+   >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement dans une vue de tableau uniquement lorsque le champ Nom est un champ principal.
+
+1. Commencez à modifier les informations du champ dans le **Détails** de la boîte. Workfront enregistre automatiquement vos modifications.
+
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit du **Détails** pour ouvrir la zone de l’enregistrement. **Détails** dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page Détails de l’enregistrement](#edit-a-record-from-the-records-details-page) dans cet article.
+
+### Modifier un enregistrement à partir de la page Détails de l’enregistrement
+
+Vous pouvez modifier un enregistrement à partir de la page Détails .
+
+{{step1-to-maestro}}
+
+L’espace de travail auquel vous accédez en dernier s’ouvre.
+
+1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+
+1. Cliquez sur une carte de type enregistrement.
+
+   La page de type enregistrement s’ouvre.
+
 1. Utilisez l’une des méthodes suivantes :
 
-   * Depuis un **Tableau** cliquez sur le nom d’un enregistrement.
+   * Dans n’importe quelle vue, accédez à la zone Détails, comme décrit dans la section [Modification d’un enregistrement à partir de la zone Détails de l’enregistrement dans une vue](#edit-a-record-from-the-records-details-box-in-a-view)dans cet article. Cliquez ensuite sur le bouton **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit du **Détails** pour ouvrir la zone de l’enregistrement. **Détails** dans un nouvel onglet.
+
    * Dans la **Tableau** visionnez, survolez le nom d’un enregistrement avec la souris, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Affichage**
 
      ![](assets/contextual-menu-for-record-row.png)
-   * Dans la vue Chronologie, cliquez sur une barre d’enregistrement.
 
-   L&#39;enregistrement **Détails** s’ouvre.
+     L&#39;enregistrement **Détails** s’ouvre.
+
+     ![](assets/details-page.png)
 
 1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Modifier**
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 >[!IMPORTANT]
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
+
+## Semaine du 18 mars 2024
+
+### Filtres disponibles dans la vue Calendrier
+
+Production : 19 mars 2024
+
+Aperçu : à déterminer
+
+Vous pouvez désormais filtrer les informations dans la vue Calendrier. Pour plus d’informations, voir [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### Zone de détails ajoutée aux vues de calendrier et de chronologie
+
+Production : 19 mars 2024
+
+Aperçu : à déterminer
+
+Vous pouvez désormais accéder à la zone Détails d’un enregistrement en mode Chronologie et Calendrier. Vous pouvez modifier des enregistrements dans la zone Détails dans les vues de chronologie et de calendrier.
+
+Dans la zone Détails, vous pouvez ouvrir la page Détails de l’enregistrement.
+
+Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
+
+### L’import Excel du type d’enregistrement est temporairement désactivé.
+
+Production : 21 mars 2024
+
+Aperçu : à déterminer
+
+L’importation de types d’enregistrement est temporairement désactivée à l’aide d’un fichier Excel ou CSV. Cette fonctionnalité sera disponible ultérieurement.
 
 ## Semaine du 11 mars 2024
 

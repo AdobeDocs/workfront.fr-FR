@@ -1,13 +1,13 @@
 ---
 title: Création de types d’enregistrements opérationnels
-description: Les types d’enregistrement sont les types d’objets du Maestro d’Adobe. Dans Maestro, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les tâches nécessaires au cycle de vie de votre entreprise.
+description: Les types d’enregistrement sont les types d’objet de la planification Adobe Workfront. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les tâches nécessaires au cycle de vie de votre entreprise.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Les types d’enregistrement sont les types d’objets du Maestro d’Adobe. Dans Maestro, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les éléments liés au travail nécessaires dans le cycle de vie de votre entreprise.
+Les types d’enregistrement sont les types d’objet de la planification Adobe Workfront. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les éléments liés au travail nécessaires dans le cycle de vie de votre entreprise.
 
 Les types d’enregistrement peuvent être parmi les suivants :
 
 * **Types d’enregistrements opérationnels**
 * **Taxonomies**
 
-Pour plus d’informations sur les types d’enregistrement Maestro, voir [Présentation des types d’enregistrement et des taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
+Pour plus d’informations sur les types d’enregistrement, voir [Présentation des types d’enregistrement et des taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
 
 La création de types d’enregistrements opérationnels est similaire à la création de types d’enregistrements de taxonomie. Cet article décrit comment créer des types d’enregistrements opérationnels.
 
@@ -45,12 +45,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr>
 <td>
    <p> Produit</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite dans le programme bêta fermé de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -62,13 +62,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>Actuel : formule</p>
+   Ou
+   <p>Nouveau : Standard </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
 </td>
   </tr>
 <tr>
@@ -105,6 +107,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
         Pour plus d’informations, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
       * Lorsque vous les importez à l’aide d’un fichier Excel ou CSV. Cette option n’est pas disponible pour les types d’enregistrement de taxonomie.
+
+        >[!IMPORTANT]
+        >
+        >Cette fonctionnalité est temporairement désactivée depuis le 21 mars 2024. Elle sera activée ultérieurement.
+
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -114,7 +121,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Création de types d’enregistrement à l’aide d’un modèle d’espace de travail
 
-Vous pouvez créer automatiquement des types d’enregistrement lorsque vous créez un espace de travail à l’aide d’un modèle. Chaque modèle Maestro contient des exemples de types d’enregistrement opérationnels et de taxonomie.
+Vous pouvez créer automatiquement des types d&#39;enregistrement lorsque vous créez un espace de travail à l&#39;aide d&#39;un modèle de planification Workfront. Chaque modèle contient des exemples de types d’enregistrement opérationnels et de taxonomie.
 
 Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
 
@@ -191,14 +198,19 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
 
 ## Création de types d’enregistrement à l’aide d’un import de fichier Excel ou CSV
 
+>[!IMPORTANT]
+>
+>Cette fonctionnalité est temporairement désactivée depuis le 21 mars 2024. Elle sera activée ultérieurement.
+
+
 Tenez compte des points suivants lors de l’importation de types d’enregistrement à l’aide d’un fichier Excel ou CSV :
 
-* Chaque feuille du fichier Excel devient un type d’enregistrement dans Maestro.
+* Chaque feuille du fichier Excel devient un type d’enregistrement.
 * Les colonnes de chaque feuille deviennent les champs associés à chaque type d’enregistrement.
 * Les champs sont uniques pour leurs types d’enregistrement respectifs.
 * Chaque ligne de chaque feuille devient un enregistrement unique associé à son type d’enregistrement respectif.
 * Chaque feuille du fichier Excel ne doit pas excéder les éléments suivants :
-   * 10 000 lignes
+   * 50 000 lignes
    * 500 colonnes
 * Le fichier Excel ne doit pas dépasser 5 Mo.
 * Les feuilles vides ne sont pas prises en charge.
@@ -222,7 +234,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    La zone Aperçu et modification s’affiche avec les informations suivantes :
 
-   * Les noms des feuilles ou des types d’enregistrements futurs s’affichent dans le panneau de gauche. Par défaut, Maestro sélectionne une icône et une couleur pour chaque nouveau type d’enregistrement.
+   * Les noms des feuilles ou des types d’enregistrements futurs s’affichent dans le panneau de gauche. Par défaut, la planification Workfront sélectionne une icône et une couleur pour chaque nouveau type d’enregistrement.
    * La première feuille ou le type d’enregistrement est sélectionné et les noms des champs qui lui sont associés s’affichent sous forme d’en-têtes de colonne. Le type de chaque champ est sélectionné par défaut.
    * Chaque ligne représente un nouvel enregistrement. Seuls les 10 premiers enregistrements s&#39;affichent dans la zone Prévisualisation et édition.
 
@@ -243,7 +255,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. Cliquez sur **Importer** lorsque vous êtes prêt à importer votre fichier.
 
-   Les informations suivantes sont importées dans Maestro :
+   Les informations suivantes sont importées dans la planification Workfront :
 
    * Nouveaux types d’enregistrement
    * Nouveaux champs associés à chaque type d&#39;enregistrement
@@ -251,7 +263,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Vous pouvez commencer à gérer les champs et les enregistrements sur les pages de types d’enregistrement.
 
-   Toute personne ayant accès à Maestro peut désormais afficher et modifier les types d’enregistrements importés et leurs informations. <!--this will change with permissions-->
+   Toute personne ayant accès à la planification Workfront peut désormais afficher et modifier les types d’enregistrements importés et leurs informations. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

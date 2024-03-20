@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,11 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue d
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* Les filtres que vous créez pour la vue de chronologie fonctionnent indépendamment des filtres de la vue de tableau lorsqu’ils sont appliqués au même type d’enregistrement.
+* Les filtres que vous créez pour une vue chronologique fonctionnent indépendamment des filtres de toute autre vue appliquée au même type d’enregistrement.
 
-* Les filtres sont propres à la vue que vous sélectionnez. Des filtres différents peuvent être appliqués à deux vues de chronologie du même type d’enregistrement. Deux utilisateurs qui consultent la même vue de chronologie voient le même filtre actuellement appliqué.
+* Les filtres sont propres à la vue que vous sélectionnez. Des filtres différents peuvent être appliqués à deux vues de chronologie du même type d’enregistrement.
+
+* Deux utilisateurs qui consultent la même vue de chronologie voient le même filtre actuellement appliqué.
 
 * Vous ne pouvez pas nommer les filtres que vous créez pour une vue chronologique.
 

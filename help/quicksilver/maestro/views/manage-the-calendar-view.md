@@ -4,9 +4,9 @@ description: Vous pouvez afficher les enregistrements et leurs champs en mode Ca
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ Pour gérer une vue de calendrier :
    * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
       * Mois
+1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
+   * [Filtres](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### Ajout de filtres
+
+Vous pouvez réduire la quantité d’informations affichées à l’écran à l’aide de filtres.
+
+Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue Calendrier :
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* Les filtres que vous créez pour une vue Calendrier fonctionnent indépendamment des filtres de toute autre vue appliquée au même type d’enregistrement.
+
+* Les filtres sont propres à la vue que vous sélectionnez. Deux vues calendaires du même type d&#39;enregistrement peuvent faire l&#39;objet de filtres différents.
+
+* Deux utilisateurs qui consultent la même vue de calendrier voient le même filtre actuellement appliqué.
+
+* Vous ne pouvez pas nommer les filtres que vous créez pour une vue Calendrier.
+
+* Le fait de supprimer des filtres les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
+
+* L’ajout de filtres dans la vue Calendrier est identique à l’ajout de filtres dans la vue Tableau.
+
+  Pour plus d’informations, voir la section &quot;Ajouter des filtres&quot; de l’article [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas par champ qui permet de lier plusieurs enregistrements.
