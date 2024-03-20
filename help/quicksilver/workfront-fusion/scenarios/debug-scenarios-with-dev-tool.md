@@ -7,16 +7,20 @@ description: L’outil Adobe Workfront Fusion Devtool vous permet de comprendre 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 0%
+source-wordcount: '1831'
+ht-degree: 1%
 
 ---
 
 # Déboguer les scénarios à l’aide de [!DNL Adobe Workfront Fusion] Devtool
 
 La variable [!DNL Adobe Workfront Fusion] Devtool vous permet de comprendre et de dépanner les scénarios. L’outil Devtool ajoute un panneau supplémentaire au [!DNL Chrome Developer Tools]. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
+
+>[!NOTE]
+>
+>La connexion au panneau du débogueur sera limitée ou indisponible pour les scénarios confidentiels, les exécutions automatiques et les opérations réussies.
 
 Pour une présentation vidéo et une présentation de l’outil Fusion Devtool, voir
 
@@ -448,6 +452,6 @@ Met en surbrillance les modules de l’application spécifiée dans votre scéna
 
 #### [!UICONTROL Migration des GS]
 
-Cet outil est spécialement mis à niveau. [!DNL Google Sheets] modules (hérités) vers la dernière version [!DNL Google Sheets] version. Il ajoute une nouvelle version du module juste après la version héritée du module dans l’itinéraire du scénario.
+Cet outil est spécialement mis à niveau. [!DNL Google Sheets] modules (hérités) vers la dernière version [!DNL Google Sheets] version. Cela ajoute une nouvelle version du module juste après l&#39;ancienne version du module dans l’itinéraire du scénario.
 
 Ce module ne nécessite la définition d’aucun paramètre.
