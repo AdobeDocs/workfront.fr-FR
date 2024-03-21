@@ -7,9 +7,9 @@ description: Cet article décrit comment créer un scénario d’automatisation 
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Cet article décrit comment créer un scénario d’automatisation avec Adobe Workfront Fusion. Les scénarios d’automatisation automatisent les processus Workfront, notamment la manipulation et la transformation des données. Cet exemple vous guide tout au long du processus de création d’un scénario qui recherche un projet, puis renvoie toutes les tâches associées à ce projet.
 
-Pour plus d’informations sur la création d’un scénario d’intégration qui connecte des applications distinctes, voir [Création d’un scénario d’intégration d’une pratique dans Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+Pour plus d’informations sur la création d’un scénario d’intégration qui connecte des applications distinctes, voir [Créer un scénario d’intégration d’une pratique dans Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
 Pour plus d’informations sur les fonctionnalités disponibles avec chaque licence Workfront Fusion, voir [Licences Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -41,7 +41,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -49,9 +49,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -64,31 +64,31 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 Le rôle de [!DNL Adobe Workfront Fusion] est d’automatiser vos processus afin que vous puissiez vous concentrer sur de nouvelles tâches plutôt que de répéter les mêmes tâches encore et encore. Il fonctionne en liant les actions dans et entre les applications et les services pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
 
-Un scénario comprend une série de modules qui indiquent comment les données doivent être transformées dans une application ou transférées entre les applications et les services web.
+Un scénario se compose d’une série de modules qui indiquent comment les données doivent être transformées dans une application ou transférées entre les applications et les services web.
 Cet exemple vous guide tout au long du processus de création d’un scénario qui recherche une [!DNL Workfront] et renvoie les tâches du projet.
 
 ![](assets/create-practice-scenario-wf-only-350x157.png)
 
 La création d&#39;un scénario se compose de plusieurs tâches principales :
 
-## Sélectionnez les applications et attribuez un nom au scénario.
+## Choisissez les applications et nommez le scénario.
 
-1. Connectez-vous à [!DNL Workfront Fusion] compte .
+1. Se connecter à [!DNL Workfront Fusion] compte .
 1. Cliquez sur **[!UICONTROL Scénarios]** ![](assets/scenarios-icon.png) dans le panneau de gauche.
 
    >[!NOTE]
    >
-   >Si le panneau de navigation de gauche ou ses icônes ne s’affichent pas, cliquez sur le menu ![Menu](assets/main-menu-icon-left-nav.png) icône .
+   >Si le panneau de navigation de gauche ou ses icônes ne s’affichent pas, cliquez sur le menu ![Menu](assets/main-menu-icon-left-nav.png) Icône
 
    En gris [!UICONTROL Dossiers] qui s’affiche, vous pouvez organiser vos scénarios en dossiers.
 
-   En haut de la zone principale à droite, vous pouvez afficher **[!UICONTROL Tous]** les scénarios que vous avez créés, vos **[!UICONTROL Scénarios principaux]**, **[!UICONTROL Scénarios inactifs]**, et **[!UICONTROL Concepts]**. Les concepts sont des scénarios qui nécessitent un peu plus de travail avant [!DNL Workfront Fusion] peuvent les classer comme principal ou inactif.
+   En haut de la zone principale à droite, vous pouvez afficher **[!UICONTROL Tous]** les scénarios que vous avez créés, vos **[!UICONTROL Scénarios actifs]**, **[!UICONTROL Scénarios inactifs]**, et **[!UICONTROL Concepts]**. Les concepts sont des scénarios qui nécessitent un peu plus de travail avant [!DNL Workfront Fusion] peuvent les classer comme actifs ou inactifs.
 
 <!--
    ![](assets/scenarios-left-panel-350x215.png)
 -->
 
-1. Dans le [!UICONTROL Dossiers] , cliquez sur le panneau **[!UICONTROL Ajouter un dossier]** icon ![](assets/add-folder-icon.png), puis saisissez un nom tel que &quot;Scénarios d’entraînement&quot; pour votre premier dossier.
+1. Dans le [!UICONTROL Dossiers] , cliquez sur **[!UICONTROL Ajouter un dossier]** icon ![](assets/add-folder-icon.png), puis saisissez un nom tel que &quot;Scénarios d’entraînement&quot; pour votre premier dossier.
 
 1. Ouvrez le dossier, puis cliquez sur **[!UICONTROL Création d’un scénario]** dans le coin supérieur droit de la page.
 
@@ -105,12 +105,12 @@ La création d&#39;un scénario se compose de plusieurs tâches principales :
 
 Lorsque vous commencez à créer un scénario, il est préférable de commencer par en créer un nom.
 
-1. Sélectionnez la **[!UICONTROL Nouveau scénario]** nom de l’espace réservé dans le coin supérieur gauche, puis saisissez un nom tel que &quot;Scénario pratique 1&quot;.
-1. Passez à la [Ajouter et configurer le premier module](#add-and-configure-the-first-module) ci-dessous.
+1. Sélectionnez la variable **[!UICONTROL Nouveau scénario]** nom de l’espace réservé dans le coin supérieur gauche, puis saisissez un nom tel que &quot;Scénario pratique 1&quot;.
+1. Passez à la [Ajouter et configurer le premier module](#add-and-configure-the-first-module) ci-dessous
 
 ## Ajouter et configurer le premier module
 
-Le module vide avec un point d’interrogation représente le module de déclenchement que vous devez ajouter. Ce module démarre le scénario chaque fois qu’il s’exécute. L’icône de l’horloge sur le module vide indique qu’il s’agit d’un module planifié.
+Le module vide avec un point d’interrogation représente le module de déclenchement que vous devez ajouter. Ce module démarre le scénario à chaque exécution. L’icône de l’horloge sur le module vide indique qu’il s’agit d’un module planifié.
 
 ![](assets/empty-module.png)
 
@@ -145,7 +145,7 @@ Pour cet exemple, nous n’utilisons pas de module de déclenchement. Ce scénar
 
 ## Configuration du premier module
 
-Après la connexion [!DNL Workfront Fusion] à [!DNL Workfront] vous pouvez définir un [!DNL Workfront] la file d’attente des demandes à laquelle vous avez accès et les données que vous souhaitez que le premier module soit traité.
+Après la connexion [!DNL Workfront Fusion] à votre [!DNL Workfront] vous pouvez définir un [!DNL Workfront] la file d’attente des demandes à laquelle vous avez accès et les données que vous souhaitez que le premier module soit traité.
 
 1. Dans le [!UICONTROL Type d’enregistrement] , sélectionnez **[!UICONTROL Projet]**. Le module est ainsi configuré pour rechercher uniquement les projets.
 
@@ -160,7 +160,7 @@ Après la connexion [!DNL Workfront Fusion] à [!DNL Workfront] vous pouvez déf
    1. Pour l’opérateur, sélectionnez [!UICONTROL Contient (non-respect de la casse)]. Cela permet au module de rechercher des projets dont le nom contient les mots de votre choix, même si vous ne saisissez pas l’intégralité du nom, ou si vous saisissez le nom avec une casse incorrecte (toutes les majuscules, par exemple).
    1. Dans le dernier champ sous [!UICONTROL Critères de recherche], saisissez un mot ou une expression que vous savez trouver dans le nom du projet que vous recherchez.
 
-1. Dans le **[!UICONTROL Sorties]** sélectionnez les champs que vous souhaitez que le problème génère. Dans cet exemple, sélectionnez l’option **[!UICONTROL ID]** et **[!UICONTROL Nom]** champs.
+1. Dans le **[!UICONTROL Sorties]** sélectionnez les champs que le module doit générer. Dans cet exemple, sélectionnez l’option **[!UICONTROL ID]** et **[!UICONTROL Nom]** des champs.
 
    >[!TIP]
    >
@@ -202,7 +202,7 @@ Après la connexion [!DNL Workfront Fusion] à [!DNL Workfront] vous pouvez déf
    ![](assets/list-of-available-variables-wf-350x368.png)
 
 1. Clic sur la variable **[!UICONTROL ID]** pour l’ajouter au **[!UICONTROL ID d’enregistrement parent]** champ . Cela permet d’utiliser l’identifiant renvoyé par le premier module comme identifiant du projet avec lequel vous souhaitez travailler dans le deuxième module, ce qui garantit que les tâches renvoyées appartiendront à ce projet.
-1. Dans le **[!UICONTROL Collections]** champ, sélectionnez **[!UICONTROL Tâches]**. Cela indique que le module doit renvoyer les tâches associées au projet sélectionné.
+1. Dans le **[!UICONTROL Collections]** champ, sélectionnez **[!UICONTROL Tâche]**. Cela indique que le module doit renvoyer les tâches associées au projet sélectionné.
 1. Cliquez sur **[!UICONTROL OK]**
 
    Maintenant, vous avez un scénario de travail.
@@ -231,7 +231,7 @@ Nous avons choisi de renvoyer 1 projet, ainsi que les tâches associées à ce p
    Vous pouvez en savoir plus sur la lecture des informations d’exécution de scénario dans les articles suivants :
 
    * Pour obtenir des informations générales, voir [Flux d’exécution du scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-   * Pour plus d’informations sur les lots traités, voir [Exécution de scénarios, cycles et phases dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * Pour plus d’informations sur les lots traités, voir [Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 1. Dans [!DNL Workfront Fusion], cliquez sur **[!UICONTROL Enregistrer]** ![](assets/save-icon.png) près du coin inférieur gauche pour enregistrer la progression sur le scénario.
 
@@ -243,14 +243,14 @@ Nous avons choisi de renvoyer 1 projet, ainsi que les tâches associées à ce p
 >
 >Nous recommandons la pratique facultative mais utile d’ajouter des notes sur chaque module.
 >
->1. Cliquez avec le bouton droit de la souris sur un [!DNL Workfront] module, puis cliquez sur **[!UICONTROL Ajouter une note]**.
+>1. Cliquez avec le bouton droit sur un [!DNL Workfront] module, puis cliquez sur **[!UICONTROL Ajouter une note]**.
 >1. Dans la note qui s’affiche, saisissez un aperçu du module.
 >
 >    Vous pouvez ajouter plusieurs notes pour un module.
 >
 >1. Fermez la **[!UICONTROL Remarques]** zone.
 >
->     Une fois que vous avez ajouté une note à un scénario, un point orange s’affiche sur la page **[!UICONTROL Remarques]** icon ![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
+>     Après avoir ajouté une note à un scénario, un point orange s’affiche sur la page **[!UICONTROL Remarques]** icon ![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
 >
 >1. Cliquez sur le bouton **[!UICONTROL Remarques]** icon ![](assets/notes-icon-w-dot.png) pour afficher vos notes.
 >
