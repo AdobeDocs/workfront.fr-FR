@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
+source-git-commit: 610469811a937fde70a938af829b156e69cca391
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 Chaque type d’objet est répertorié dans le volet de navigation de gauche et sur une carte. La carte affiche les objets de ce type et indique s’ils existent dans l’environnement cible. Vous pouvez déterminer comment ces objets seront déplacés vers l’environnement cible.
 
-* Créer : l’objet se trouve dans l’environnement cible
+* Créer : créez un objet dans l&#39;environnement cible. Si l’objet existe dans l’environnement cible, vous pouvez créer un objet portant un nouveau nom. S’il n’existe pas dans l’environnement cible, vous pouvez créer l’objet avec un nouveau nom ou avec le nom de l’objet dans le package.
 * Utiliser existant : l’objet du package n’est pas installé, et l’objet qui existait déjà dans l’environnement cible est inchangé.
 * Remplacer existant : (actuellement indisponible) l’objet du package remplace l’objet existant dans l’environnement cible.
-* Ne pas utiliser : si vous sélectionnez Ne pas utiliser, un message d’erreur s’affiche, détaillant l’impact de ce choix sur d’autres objets ou champs.
+* Ne pas utiliser : l’objet du package n’est pas installé dans l’environnement cible. Si vous sélectionnez Ne pas utiliser, un message d’erreur s’affiche, détaillant l’impact de ce choix sur d’autres objets ou champs.
 
 Les valeurs par défaut sont `Create new` si l’objet n’existe pas dans l’environnement cible, et `Use existing` si l’objet existe dans l’environnement cible. Vous pouvez rétablir le mappage par défaut en cliquant sur **Réinitialiser le mappage par défaut**.
 
