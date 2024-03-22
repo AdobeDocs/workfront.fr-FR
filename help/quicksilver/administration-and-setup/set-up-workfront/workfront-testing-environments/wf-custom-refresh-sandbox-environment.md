@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ Pour plus d’informations sur la configuration [!DNL Workfront] avec SSO, voir 
 
 ## Utilisation prévue et disponibilité
 
-[!DNL Workfront] Les environnements Sandbox d’actualisation personnalisée ne sont pas destinés aux tests de performance ou de chargement. Utilisez plutôt ces environnements pour valider la fonctionnalité avec les workflows existants de votre entreprise.
+* [!DNL Workfront] Les environnements Sandbox d’actualisation personnalisée ne sont pas destinés aux tests de performance ou de chargement. Utilisez plutôt ces environnements pour valider la fonctionnalité avec les workflows existants de votre entreprise.
 
-[!DNL Workfront] Les environnements Sandbox d’actualisation personnalisée sont conçus pour être toujours disponibles. Toute panne d’un environnement Sandbox d’actualisation personnalisée de Workfront pendant les heures de bureau normales sera une priorité immédiatement après que les problèmes de production seront résolus, le cas échéant. Toute panne d’un environnement Sandbox d’actualisation personnalisée Workfront le week-end (le samedi et le dimanche) sera corrigée afin que l’environnement soit en cours d’exécution pendant les heures ouvrables le lundi.
+* [!DNL Workfront] Les environnements Sandbox d’actualisation personnalisée sont conçus pour être toujours disponibles. Toute panne d’un environnement Sandbox d’actualisation personnalisée de Workfront pendant les heures de bureau normales sera une priorité immédiatement après que les problèmes de production seront résolus, le cas échéant. Toute panne d’un environnement Sandbox d’actualisation personnalisée Workfront le week-end (le samedi et le dimanche) sera corrigée afin que l’environnement soit en cours d’exécution pendant les heures ouvrables le lundi.
+
+* La vérification n’est pas disponible dans les environnements Sandbox d’actualisation personnalisée.
