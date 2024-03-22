@@ -6,9 +6,9 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1120'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’u
     Affiche les fils de commentaires récents provenant de Workfront, tout comme la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour composer une réponse dans le widget. Ce widget affiche également les commentaires effectués sur les tâches et problèmes auxquels vous êtes affecté, que vous avez attribués à un autre utilisateur, que vous détenez, que vous êtes le contact principal ou que vous avez créés, à condition que la tâche ou le problème ait été mis à jour au cours des 30 derniers jours.
 
 * **A-faire**\
-    Ce widget unique vous permet d’ajouter des éléments de texte à une liste de contrôle personnelle que vous pouvez modifier librement.
+    Ce widget unique vous permet d’ajouter des éléments à une liste de contrôle personnelle que vous pouvez modifier librement. Les tâches sont suivies en tant que tâches dans votre projet personnel et restent jusqu’à deux semaines après l’achèvement de la tâche.
 
   >[!NOTE]
   >

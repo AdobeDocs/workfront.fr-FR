@@ -4,9 +4,9 @@ description: Amélioration du flux de mise à jour et des notifications du deuxi
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Les commentaires effectués sur les enregistrements d’activité du système da
 
 Pour plus d’informations, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion de cette fonctionnalité spécifique commence à 14 h 00 dans la vidéo.)
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 14 h 00)
 
 ## Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système
 
@@ -66,7 +66,7 @@ L’onglet Toutes est un onglet en lecture seule. Vous ne pouvez pas répondre a
 
 Pour plus d’informations, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion de cette fonctionnalité spécifique commence à 0:31 dans la vidéo.)
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 0:31)
 
 ## Nouveau flux de commentaires désormais disponible dans le panneau Résumé
 
