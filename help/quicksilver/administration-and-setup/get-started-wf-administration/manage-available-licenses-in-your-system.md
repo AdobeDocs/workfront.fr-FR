@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,10 @@ Pour afficher les informations de licence dans votre système :
    >Les licences de BAT sont disponibles uniquement pour les clients qui ont acheté le module complémentaire de BAT Workfront payant en plus de leur licence Workfront. Pour plus d’informations sur ce module complémentaire, voir [Bon à tirer Workfront : index de l’article](../../workfront-proof/workfront-proof.md).
 
 1. (Conditionnel) Si le message s’affiche **Pour définir un maximum, vous devez ajouter un groupe d’accueil.**, ajoutez un groupe d’accueil dans votre système, comme expliqué dans la section . [Ajout ou suppression d’un groupe d’accueil sur la page Licences](#add-or-remove-a-home-group-to-the-licenses-page) dans cet article.
+
+   >[!NOTE]
+   >
+   >Pour les nouveaux plans, le plan Sélectionner n’autorise pas les administrateurs à afficher les licences par groupe d’accueil. Vous ne pouvez afficher que le nombre total de licences utilisées. Les plans Prime et Ultimate permettent de définir le nombre maximum de licences par groupe d’accueil.
 
 ## Affichage des informations sur les licences des modules complémentaires Workfront
 
