@@ -7,10 +7,10 @@ description: Vous pouvez afficher des informations sur toutes les exécutions d�
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
    </td>  
@@ -47,9 +47,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,8 +73,6 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
    ![](assets/open-history-tab-350x202.png)
 
-   C
-
    Vous pouvez également cliquer sur pour afficher une page entière de ces informations. La vue de page entière vous permet de filtrer l’historique pour afficher des exécutions spécifiques.
 
    Les détails suivants sont répertoriés pour chaque exécution du scénario :
@@ -82,13 +80,17 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
    * Date à laquelle l’exécution a été effectuée **[!UICONTROL Démarré]**
    * **[!UICONTROL État]** (succès ou échec)
    * Exécuter **[!UICONTROL Durée]**
-   * Nombre **[!UICONTROL Opérations]**
+   * Nombre de **[!UICONTROL Opérations]**
    * Taille de **[!UICONTROL Transfert de données]**
    * Lier à **[!UICONTROL Détails]**
 
+>[!NOTE]
+>
+>L’historique des scénarios affiche une **Traitement** badge en regard des scénarios récemment exécutés, tandis que les détails de l’exécution sont écrits dans le stockage. Le traitement se produit immédiatement après l’exécution du scénario. et ne doit pas durer plus de quelques minutes. Les détails de l’exécution du scénario peuvent ne pas être visibles pendant le traitement de l’exécution.
+
 ### Afficher l’historique d’exécution du scénario sur la page [!UICONTROL Histoire] tab
 
-Le [!UICONTROL Histoire] affiche plus de détails que ce qui est disponible dans la [!UICONTROL Détails du scénario] page. Vous pouvez également filtrer et trier les exécutions sur le [!UICONTROL Histoire] .
+La variable [!UICONTROL Histoire] affiche plus de détails que ce qui est disponible dans la [!UICONTROL Détails du scénario] page. Vous pouvez également filtrer et trier les exécutions sur le [!UICONTROL Histoire] .
 
 1. Cliquez sur le bouton **[!UICONTROL Scénario]** dans le panneau de gauche, puis cliquez sur le scénario.
 
@@ -103,7 +105,9 @@ Le [!UICONTROL Histoire] affiche plus de détails que ce qui est disponible dans
 
    >[!NOTE]
    >
-   >Le [!UICONTROL détails] n’est visible que si les détails de l’exécution sont disponibles.
+   >* La variable [!UICONTROL détails] n’est visible que si les détails de l’exécution sont disponibles.
+   >
+   >* L’historique des scénarios affiche une **Historique de traitement** badge en regard des scénarios récemment exécutés, tandis que les détails de l’exécution sont écrits dans le stockage. Le traitement se produit immédiatement après l’exécution du scénario. et ne doit pas durer plus de quelques minutes. Les détails de l’exécution du scénario peuvent ne pas être visibles pendant le traitement de l’exécution.
 
 ## Filtrage de l&#39;historique d&#39;exécution du scénario
 
@@ -114,7 +118,7 @@ Vous pouvez filtrer l’historique de l’exécution pour n’afficher que les e
 1. Dans le [!UICONTROL filter] , saisissez les valeurs à utiliser pour filtrer les données.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-L’icône de filtre est orange dans les colonnes avec un filtre actuellement principal.
+L’icône de filtre est orange dans les colonnes avec un filtre actuellement actif.
 
 ## Tri de l&#39;historique d&#39;exécution du scénario
 
@@ -122,7 +126,7 @@ Vous pouvez trier l&#39;historique d&#39;exécution du scénario.
 
 1. Ouvrez l’historique de la page entière pour un scénario, comme décrit dans la section [Afficher l’historique d’exécution du scénario sur la page [!UICONTROL Histoire] tab](#view-scenario-execution-history-on-the-history-tab) dans cet article.
 1. Cliquez sur le bouton [!UICONTROL Tri] dans l’en-tête de la colonne sur laquelle vous souhaitez filtrer les données.
-1. Facultatif : Pour inverser l’ordre du tri, cliquez sur le bouton [!UICONTROL Tri] à nouveau.
+1. Facultatif : pour inverser l’ordre du tri, cliquez sur le bouton [!UICONTROL Tri] à nouveau.
 
 ## Recherche de toutes les exécutions d’un scénario
 
@@ -163,7 +167,7 @@ Vous pouvez trier l&#39;historique d&#39;exécution du scénario.
 
    Les états disponibles sont les suivants :
 
-   * [!UICONTROL Tout]
+   * [!UICONTROL Tous]
 
    * [!UICONTROL Erreur]
 
@@ -171,7 +175,7 @@ Vous pouvez trier l&#39;historique d&#39;exécution du scénario.
 
    * [!UICONTROL Succès]
 
-1. (Facultatif) Modifiez l’ordre dans lequel les résultats s’affichent dans la variable **[!UICONTROL Tri par date]** menu déroulant.
+1. (Facultatif) Modifiez l’ordre dans lequel les résultats s’affichent dans le **[!UICONTROL Tri par date]** menu déroulant.
 
 1. (Facultatif) Pour copier un ID d’exécution de scénario, cliquez sur le bouton **[!UICONTROL Copie de l’ID d’exécution]** icon <img src="assets/copy-fusion-execution-id-icon.png"> dans la ligne de l’exécution souhaitée ;
 
