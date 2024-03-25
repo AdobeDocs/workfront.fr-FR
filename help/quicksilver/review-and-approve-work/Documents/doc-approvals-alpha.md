@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ Pour participer à cette version de l’Alpha, veillez à ce que l’équipe pro
 
 ## Dernière version
 
+## Version d’Alpha 7 - Mars 2024
+
+Dans cette version du 7e Alpha, nous avons :
+
+* Ajout de la possibilité de créer des échéances pour vos validations de documents.
+* Introduction de modèles d’approbation qui peuvent désormais être créés et appliqués à vos approbations afin de gagner du temps.
+* Mise à jour du widget d’approbation afin qu’il présente désormais plusieurs indicateurs de performances clés avec une liste détaillée vous permettant d’approfondir l’analyse.
+
+Regardez la présentation complète de la vidéo ci-dessous :
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _Versions antérieures_
+
 ## Version d’Alpha 6 - janvier 2024
 
 Dans cette version du 6e Alpha, nous avons :
@@ -37,8 +51,6 @@ Dans cette version du 6e Alpha, nous avons :
 Regardez la présentation complète de la vidéo ci-dessous :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _Versions antérieures_
 
 ### Version d’Alpha 5 - septembre 2023
 
