@@ -1,13 +1,13 @@
 ---
 title: Créer des champs
-description: Dans Adobe Maestro, vous pouvez créer des champs personnalisés pour chaque type d’enregistrement opérationnel ou de taxonomie. Vous pouvez ensuite associer le champ aux enregistrements Maestro.
+description: Dans la planification d’Adobe Workfront, vous pouvez créer des champs personnalisés pour chaque type d’enregistrement. Vous pouvez ensuite associer le champ aux enregistrements de planification Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Dans Adobe Maestro, vous pouvez créer des champs personnalisés pour les types d’enregistrements opérationnels ou les taxonomies. Vous pouvez ensuite associer les champs aux enregistrements Maestro pour améliorer les informations d’enregistrement.
+Dans la planification d’Adobe Workfront, vous pouvez créer des champs personnalisés pour les types d’enregistrement. Vous pouvez ensuite associer les champs aux enregistrements de planification Workfront afin d’améliorer les informations d’enregistrement.
 
 Vous devez créer des types d’enregistrement avant de pouvoir créer des champs à associer. Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Maestro</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver
 
    Pour plus d’informations sur les expressions prises en charge, voir [Champs de formule - Aperçu](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Ajoutez les noms des champs tels qu’ils s’affichent dans l’interface Maestro pour les référencer dans une formule.
+1. Ajoutez les noms des champs tels qu&#39;ils s&#39;affichent dans l&#39;interface de planification de Workfront pour les référencer dans une formule.
 
    >[!NOTE]
    >
    > * Vous ne pouvez pas ajouter de champs de type Sélection multiple dans une formule.
    >
-   > * Vous ne pouvez pas ajouter de champs provenant d&#39;enregistrements liés dans une formule. Cette fonctionnalité sera publiée ultérieurement. Pour plus d’informations sur les nouvelles versions, voir [Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
+   > * Vous ne pouvez pas ajouter de champs provenant d&#39;enregistrements liés dans une formule. Cette fonctionnalité sera publiée ultérieurement. Pour plus d’informations sur les nouvelles versions, voir [Activité de mise à jour de la planification Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Cliquez sur **Créer**.
@@ -513,7 +513,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 
 Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement Maestro ou un type d’enregistrement et un type d’objet à partir d’autres applications.
 
-Pour plus d’informations sur la connexion des types d’enregistrement Maestro, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
+Pour plus d’informations sur la connexion des types d’enregistrements de planification Workfront, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
 
 ## Créer des champs en important des types d’enregistrement à l’aide d’un fichier Excel et CSV
 
@@ -521,10 +521,10 @@ Pour plus d’informations, voir [Création de types d’enregistrement](../arch
 
 ## Créer des champs en créant un type d’enregistrement
 
-Lorsque vous créez un type d&#39;enregistrement, plusieurs champs associés au nouveau type d&#39;enregistrement sont également créés par défaut. Pour plus d’informations, voir [Création de types d’enregistrements opérationnels](../architecture/create-record-types.md).
+Lorsque vous créez un type d&#39;enregistrement, plusieurs champs associés au nouveau type d&#39;enregistrement sont également créés par défaut. Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
 ## Créer des champs en créant un espace de travail à partir d’un modèle
 
-Maestro crée des champs pour les types d’enregistrements opérationnels et les taxonomies lorsque vous créez un espace de travail à partir d’un modèle.
+La planification d’Adobe Workfront crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle.
 
-Pour plus d’informations, voir [Créer des espaces de travail opérationnels](../architecture/create-workspaces.md).
+Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/maestro/architecture/create-workspaces.md).

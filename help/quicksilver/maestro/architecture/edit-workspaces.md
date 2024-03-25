@@ -4,22 +4,23 @@ description: Vous pouvez modifier les informations d’un espace de travail exis
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Modification des espaces de travail
 
 {{maestro-important-intro}}
 
-Dans Adobe Maestro, les espaces de travail sont des emplacements centralisés permettant aux équipes de planifier le travail.
+Dans la planification d’Adobe Workfront, les espaces de travail sont des emplacements centralisés pour que les équipes puissent planifier le travail.
 
-Un espace de travail est un ensemble de types d’enregistrements opérationnels et de taxonomies utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans Maestro.
+Un espace de travail est un ensemble de types d’enregistrement utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans la planification Adobe Workfront.
 
 Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -42,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite dans le programme bêta fermé de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro</p>
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>
 </td>
   </tr>
 
@@ -73,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Vous devez ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>Vous devez ajouter la zone Planning à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 
@@ -87,7 +88,7 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 
 {{step1-to-maestro}}
 
-Cela ouvre la zone Espaces de travail de Maestro.
+Cela ouvre la zone Espaces de travail de la planification Workfront.
 
 1. Cliquez dans le nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur **Entrée**
 
@@ -99,11 +100,7 @@ Cela ouvre la zone Espaces de travail de Maestro.
 
    Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
-1. (Facultatif) Cliquez sur **Ajout d’une taxonomie** pour ajouter des taxonomies à l’espace de travail.
-
-   Pour plus d’informations, voir [Création de taxonomies](../architecture/create-a-taxonomy.md).
-
-1. (Facultatif) Cliquez sur le menu déroulant Affichage pour modifier une vue existante ou en créer une.
+1. (Facultatif) Cliquez sur le nom d’une vue dans les onglets d’affichage pour modifier une vue existante, ou cliquez sur **+ Affichage** pour créer une vue.
 
    Pour plus d’informations, voir [Gestion des vues d’enregistrement](/help/quicksilver/maestro/views/manage-record-views.md).
 

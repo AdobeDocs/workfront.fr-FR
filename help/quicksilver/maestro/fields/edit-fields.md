@@ -1,13 +1,13 @@
 ---
 title: Modifier les champs
-description: Dans Adobe Maestro, vous pouvez modifier les paramètres des champs déjà créés.
+description: Dans la planification Adobe Workfront, vous pouvez modifier les paramètres des champs déjà créés.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Vous pouvez modifier les paramètres des champs déjà créés.
+Vous pouvez modifier les paramètres des champs déjà créés dans la planification Adobe Workfront.
 
-Pour plus d’informations sur la création de champs Adobe Maestro, voir [Créer des champs](../fields/create-fields.md).
+Pour plus d’informations sur la création de champs de planification Adobe Workfront, voir [Créer des champs](../fields/create-fields.md).
 
-Cet article décrit comment modifier les paramètres des champs Maestro. Pour plus d’informations sur la modification des valeurs de champ pour les enregistrements Maestro, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
+Cet article décrit comment modifier les paramètres des champs de planification Workfront. Pour plus d’informations sur la modification des valeurs de champ pour les enregistrements, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Observations relatives à la modification des informations sur les champs
 
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour Maestro</p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour la planification Workfront</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Modifier les champs
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   L’espace de travail du dernier accès doit s’ouvrir par défaut.
+    L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez supprimer des types d’enregistrement.
 
-   L’espace de travail s’ouvre et les types d’enregistrement et taxonomies qui y sont associés s’affichent.
-1. Cliquez sur la carte correspondant au type d’enregistrement ou à la taxonomie dont vous souhaitez modifier les champs.
+   L’espace de travail s’ouvre et les types d’enregistrement qui lui sont associés s’affichent.
+1. Cliquez sur la carte correspondant au type d’enregistrement dont vous souhaitez modifier les champs.
 
    Cela ouvre la page du type d’enregistrement.
 1. (Conditionnel) Sélectionnez une **Vue Tableau** de la **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.

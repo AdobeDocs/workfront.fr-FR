@@ -1,13 +1,13 @@
 ---
-title: Connexion d’enregistrements
+title: Connecter les enregistrements
 description: Après avoir créé des connexions entre les types d’enregistrement, vous pouvez connecter des enregistrements individuels les uns aux autres.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2372'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ hide: yes
 
 <!--if you change steps here, also update steps in the "Connect records" article-->
 
-# Connexion d’enregistrements
+# Connecter les enregistrements
 
 {{maestro-important-intro}}
 
-Vous pouvez connecter des enregistrements Adobe Maestro les uns aux autres ou aux objets d’autres applications.
+Vous pouvez connecter les enregistrements de planification Adobe Workfront les uns aux autres ou aux objets d’autres applications.
 
 Vous devez d’abord connecter deux types d’enregistrement l’un à l’autre, ou un type d’enregistrement à un type d’objet à partir d’une autre application. Cela crée des champs d’enregistrement liés. Vous pouvez ensuite connecter des enregistrements les uns aux autres ou des enregistrements à d’autres objets à partir d’autres applications à l’aide des champs d’enregistrement liés.
 
@@ -42,12 +42,10 @@ Pour un exemple de connexion des types d’enregistrement, voir [Exemple de conn
 
 Vous pouvez connecter les éléments suivants :
 
-* Enregistrements opérationnels du maître
-* Enregistrements opérationnels du maître avec enregistrements de taxonomie
-* Taxonomies maestro
-* Enregistrements opérationnels Maestro ou taxonomies avec des objets provenant d&#39;autres applications.
+* Enregistrements de planification Adobe Workfront
+* Enregistrements de planification Adobe Workfront avec des objets provenant d&#39;autres applications.
 
-  Vous pouvez connecter des enregistrements Maestro à des objets des types répertoriés ci-dessous à partir des applications suivantes :
+  Vous pouvez connecter des enregistrements à des objets des types répertoriés ci-dessous à partir des applications suivantes :
 
    * Adobe Workfront
 
@@ -79,12 +77,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>Produit</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Pour connecter les enregistrements Maestro à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p>
+   <p>Pour connecter les enregistrements de planification Adobe Workfront à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite dans le programme bêta fermé de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -102,7 +100,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
 </td>
   </tr>
 <tr>
@@ -115,7 +113,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 
@@ -127,7 +125,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Connexion d’enregistrements
+## Connecter les enregistrements
 
 ### Considérations relatives à la connexion des enregistrements
 
@@ -136,14 +134,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Vous pouvez ajouter des champs des types d’enregistrement liés à la table du type d’enregistrement à partir duquel vous effectuez la liaison.
 * Vous ne pouvez pas mettre à jour manuellement les valeurs des champs liés sur les enregistrements à partir desquels vous effectuez la liaison.
 
-  Les valeurs des champs liés des enregistrements liés renseignent l’enregistrement Maestro à partir duquel vous effectuez une liaison automatique à partir de l’enregistrement ou de l’objet d’origine.
+  Les valeurs des champs liés des enregistrements liés renseignent l&#39;enregistrement de planification Workfront à partir duquel vous effectuez une liaison automatique à partir de l&#39;enregistrement ou de l&#39;objet d&#39;origine.
 
-* Toute personne ayant accès aux autorisations Maestro et View ou à des autorisations supérieures de l’espace de travail peut voir les connexions que vous établissez entre les enregistrements Maestro ou entre les enregistrements Maestro et les objets d’autres applications. Ils peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
+* Toute personne ayant accès aux autorisations de planification et d’affichage Workfront ou à des autorisations supérieures de l’espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d’autres applications. Ils peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs, si vous disposez des autorisations de gestion de l’espace de travail dans lequel se trouvent les enregistrements connectés.
-* Vous pouvez connecter un enregistrement Maestro à un ou plusieurs objets d’une autre application.
-* Pour lier des enregistrements Maestro à d’autres enregistrements ou objets, vous devez disposer des éléments suivants :
+* Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application.
+* Pour lier des enregistrements à d’autres enregistrements ou objets, vous devez disposer des éléments suivants :
 
-   * Au moins un espace de travail Maestro, un type d’enregistrement et un enregistrement.
+   * Au moins un espace de travail, un type d’enregistrement et un enregistrement.
 
      Pour plus d’informations, voir les articles suivants :
 
@@ -153,7 +151,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
 
-### Connexion des enregistrements Maestro
+### Connexion aux enregistrements de planification Adobe Workfront
 
 {{step1-to-maestro}}
 
@@ -200,7 +198,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    >
    >* Si vous avez activé la variable **Autoriser plusieurs enregistrements** lorsque vous connectez les types d&#39;enregistrements, les valeurs des champs des multiples objets sélectionnés sont affichées séparées par des virgules ou sont agrégées selon l&#39;agrégateur que vous avez choisi.
 
-1. (Facultatif) Fermez la page de type Enregistrement Maestro et accédez à l’espace de travail que vous avez sélectionné.
+1. (Facultatif) Fermez la page de type enregistrement et accédez à l’espace de travail que vous avez sélectionné.
 1. Cliquez sur la carte correspondant au type d’enregistrement auquel vous avez lié.
 
    Par exemple, si vous avez connecté la variable **Campagne** Enregistrez avec l’enregistrement de produit, cliquez sur le bouton **Produit** carte.
@@ -209,15 +207,15 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Notez que la variable **Campagne** le champ enregistrement lié affiche les noms des campagnes auxquelles vous avez lié des produits dans la page Type d’enregistrement de produit . La mise à jour des informations de Campaign met automatiquement à jour le champ d’enregistrement lié à Campaign pour le type d’enregistrement Produit .
 
-### Connexion des enregistrements Maestro aux objets Workfront
+### Connexion des enregistrements de planification Adobe Workfront aux objets Workfront
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
-Après avoir créé une connexion entre un type d’enregistrement Maestro et un type d’objet Workfront, vous pouvez connecter des enregistrements Maestro individuels à des objets dans Workfront. Les champs Workfront que vous avez connectés sont automatiquement renseignés sur les enregistrements Maestro à partir desquels vous liez les objets.
+Après avoir créé une connexion entre un type d’enregistrement et un type d’objet Workfront, vous pouvez connecter des enregistrements individuels à des objets dans Workfront. Les champs Workfront que vous avez connectés sont automatiquement renseignés sur les enregistrements à partir desquels vous liez les objets.
 
 >[!NOTE]
 >
->Vous ne pouvez pas connecter les objets Workfront aux enregistrements Maestro de Workfront.
+>Vous ne pouvez pas connecter les objets Workfront aux enregistrements de planification Workfront de Workfront.
 
 
 {{step1-to-maestro}}
@@ -266,9 +264,9 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Pour plus d’informations sur la connexion des types d’enregistrement aux objets d’une autre application, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
 
-1. (Facultatif) Cliquez sur le nom d’un objet Workfront connecté à un enregistrement Maestro dans le champ lié d’une vue de tableau ou dans le champ lié de la propriété **Détails** page de l’enregistrement Maestro.
+1. (Facultatif) Cliquez sur le nom d’un objet Workfront connecté à un enregistrement de planification Workfront dans le champ lié d’une vue de tableau ou dans le champ lié de la variable **Détails** de l’enregistrement.
 
-   Cela ouvre le Maestro en lecture seule. **Détails** page de l’objet Workfront lié. Les champs que vous avez sélectionnés comme champs de recherche lorsque vous avez connecté le type d’enregistrement à l’objet Workfront s’affichent dans la page Détails de l’enregistrement Workfront Maestro.
+   Cela ouvre la planification Workfront en lecture seule. **Détails** page de l’objet Workfront lié. Les champs que vous avez sélectionnés comme champs de recherche lorsque vous avez connecté le type d’enregistrement à l’objet Workfront s’affichent dans la page Détails de l’enregistrement de planification Workfront.
 
    >[!TIP]
    >
@@ -282,7 +280,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Cette opération ouvre la page d’objet Workfront, si vous disposez au moins des autorisations de vue pour afficher l’objet. Si vous êtes autorisé à le faire, vous pouvez modifier les informations relatives à l’objet Workfront.
 
-1. (Facultatif) Dans la vue Tableau du type d’enregistrement Maestro, passez la souris sur l’en-tête de colonne de l’objet Workfront lié, cliquez sur le menu déroulant, puis cliquez sur **Modifier les champs de recherche**.
+1. (Facultatif) Dans la vue Tableau du type d’enregistrement, passez la souris sur l’en-tête de colonne de l’objet Workfront lié, cliquez sur le menu déroulant, puis cliquez sur **Modifier les champs de recherche**.
 
 1. Ajoutez des champs d’objet Workfront à partir du **Champs non sélectionnés** area
 
@@ -290,20 +288,20 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Suppression des champs d’objet Workfront du **Champs sélectionnés** zone.
 
-   Cela permet d’ajouter ou de supprimer des champs liés des enregistrements Maestro. Les informations associées aux champs supprimés restent dans Workfront.
+   Cela permet d’ajouter ou de supprimer des champs liés dans les enregistrements de planification Workfront. Les informations associées aux champs supprimés restent dans Workfront.
 
 
-### Connexion des enregistrements Maestro aux objets Adobe Experience Manager
+### Connexion des enregistrements de planification Workfront aux objets Adobe Experience Manager
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements Maestro à Adobe Experience Manager Assets.
+>Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements de planification Workfront à Adobe Experience Manager Assets.
 >
 >Si vous avez des questions sur l’intégration à Adobe Admin Console, reportez-vous à la section [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Après avoir créé une connexion entre un type d’enregistrement Maestro et Adobe Experience Manager Assets, vous pouvez connecter des enregistrements Maestro individuels à des ressources Experience Manager. Les champs de ressource que vous avez connectés à partir de Experience Manager Assets lors de la création de la connexion sont automatiquement renseignés sur le type d’enregistrement Maestro à partir duquel vous avez créé un lien.
+Après avoir créé une connexion entre un type d’enregistrement et Adobe Experience Manager Assets, vous pouvez connecter des enregistrements individuels à des ressources du Experience Manager. Les champs de ressource que vous avez connectés à partir de Experience Manager Assets lors de la création de la connexion sont automatiquement renseignés sur le type d’enregistrement à partir duquel vous avez créé un lien.
 
 {{step1-to-maestro}}
 
@@ -318,7 +316,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    >[!TIP]
    >
-   >  Vous pouvez ajouter des **+** dans le champ d’objet lié de la page Détails de l’enregistrement Maestro pour connecter les ressources à l’enregistrement.
+   >  Vous pouvez ajouter des **+** dans le champ d’objet lié de la page Détails de l’enregistrement pour connecter les ressources à l’enregistrement.
 
    La variable **Sélectionner les ressources** s’affiche. <!--we might change this to Connect assets-->
 
@@ -333,7 +331,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    >[!IMPORTANT]
    >
-   > Vous pouvez connecter uniquement les ressources que vous avez accès à afficher dans Experience Manager. Une fois connecté, tous les utilisateurs de Maestro peuvent afficher les ressources dans Maestro, quel que soit leur accès dans Experience Manager Assets.
+   > Vous pouvez connecter uniquement les ressources que vous avez accès à afficher dans Experience Manager. Une fois connecté, tous les utilisateurs de la planification Workfront peuvent afficher les ressources dans la planification Workfront, quel que soit leur accès dans Experience Manager Assets.
 
 1. Cliquez sur **Sélectionner**. <!-- we might change this to Connect-->
 
@@ -348,7 +346,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
      >
      >* Si vous avez activé le paramètre Autoriser plusieurs enregistrements , les valeurs de plusieurs objets s’affichent soit séparées par des virgules, soit agrégées selon l’agrégateur choisi.
      >
-     >* Un champ d’enregistrement lié aux enregistrements liés à Maestro n’est pas créé pour les ressources de Experience Manager liées dans l’application Experience Manager Assets.
+     >* Un champ d’enregistrement lié aux enregistrements liés de planification Workfront n’est pas créé pour les ressources de Experience Manager liées dans l’application Experience Manager Assets.
 
 1. (Facultatif) Accédez au type d’enregistrement à partir duquel vous avez lié Experience Manager Assets et cliquez sur le nom d’une ressource dans le champ d’enregistrement lié. Les détails du Experience Manager de la ressource s’affichent dans une fenêtre contextuelle. <!--update screen shot with hi-rez picture-->
 
@@ -366,11 +364,11 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    * Date de création
    * Date de modification
 
-1. (Facultatif) Pour ouvrir la page Détails de l’enregistrement des ressources du Experience Manager dans Experience Manager, accédez à la page Type d’enregistrement Maestro de l’enregistrement à partir duquel vous liez, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre contextuelle, puis cliquez sur le bouton **Ouvrir** icon ![](assets/open-asset-icon.png) pour ouvrir la ressource.
+1. (Facultatif) Pour ouvrir la page Détails de l’enregistrement des ressources du Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous créez un lien, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre contextuelle, puis cliquez sur le bouton **Ouvrir** icon ![](assets/open-asset-icon.png) pour ouvrir la ressource.
 
    Cette opération ouvre la ressource du Experience Manager dans Adobe Experience Manager Assets.
 
-1. (Facultatif) Dans la vue Tableau du type d’enregistrement Maestro, passez la souris sur l’en-tête de colonne de la ressource de Experience Manager liée, cliquez sur le menu déroulant, puis sur **Modifier les champs de recherche**.
+1. (Facultatif) Dans la vue Tableau du type d’enregistrement, passez la souris sur l’en-tête de colonne de la ressource de Experience Manager liée, cliquez sur le menu déroulant, puis sur **Modifier les champs de recherche**.
 
 1. Ajoutez des champs d’objet Experience Manager Assets à partir du **Champs non sélectionnés** area
 
@@ -378,4 +376,4 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Suppression des champs d’objet Workfront du **Champs sélectionnés** zone.
 
-   Cela permet d’ajouter ou de supprimer des champs liés des enregistrements Maestro. Les informations associées aux champs supprimés restent dans Adobe Experience Assets.
+   Cela permet d&#39;ajouter ou de supprimer des champs liés des enregistrements. Les informations associées aux champs supprimés restent dans Adobe Experience Assets.

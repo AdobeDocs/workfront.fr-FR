@@ -1,13 +1,13 @@
 ---
 title: "Vues : index de l’article"
-description: Vous pouvez afficher les enregistrements Adobe Maestro dans un tableau ou une chronologie. Les articles suivants décrivent comment créer et gérer des vues d’enregistrement Adobe Maestro.
+description: Vous pouvez afficher les enregistrements de planification Adobe Workfront dans un tableau, une chronologie ou un calendrier. Les articles suivants décrivent comment créer et gérer des vues d’enregistrement de planification Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Vous pouvez afficher les enregistrements Adobe Maestro dans un tableau ou une chronologie.
+Vous pouvez afficher les enregistrements de planification Adobe Workfront dans un tableau, une chronologie ou un calendrier.
 
-Les articles suivants décrivent comment créer et gérer des vues d’enregistrement dans Adobe Maestro :
+Les articles suivants décrivent comment créer et gérer des vues d’enregistrement dans la planification Adobe Workfront :
 
 * [Gestion des vues d’enregistrement](../views/manage-record-views.md)
 * [Gestion de la vue de tableau](../views/manage-the-table-view.md)

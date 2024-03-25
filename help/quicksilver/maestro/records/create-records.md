@@ -1,13 +1,13 @@
 ---
 title: Créer des enregistrements
-description: Lors de l’utilisation des fonctionnalités de planification d’Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement. Vous devez créer des types d’enregistrement avant de pouvoir créer des enregistrements individuels. La création d'enregistrements de taxonomie est identique à la création d'enregistrements opérationnels.
+description: Lors de l’utilisation de la planification Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Dans les fonctionnalités de planification d’Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement.
-
-Vous pouvez avoir les types d’enregistrements suivants :
-
-* **Enregistrements opérationnels**: ils représentent des objets liés au travail. Par exemple, pour un enregistrement opérationnel appelé &quot;Campagne&quot;, vous pouvez avoir nommé des enregistrements tels que &quot;Newsletter mensuelle&quot; ou &quot;Solde d’été&quot;.
-* **Enregistrements de taxonomie**: ils représentent des attributs qui peuvent être associés à des enregistrements opérationnels. Par exemple, pour un type d’enregistrement de taxonomie appelé &quot;Canal&quot;, vous pouvez avoir nommé des taxonomies telles que &quot;Email&quot;, &quot;Social Media&quot; ou &quot;Publicité&quot;.
-
-La création d&#39;enregistrements opérationnels est identique à la création d&#39;enregistrements de taxonomie.
+Dans la planification Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement.
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
 * Création manuelle de ces types d’enregistrement
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * Créez des enregistrements en copiant et en collant des informations à partir d’une liste externe.
 
 Cet article décrit comment créer des enregistrements. Pour plus d’informations sur la gestion des enregistrements dans les vues de tableau ou de chronologie, consultez les articles suivants :
@@ -57,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour les fonctionnalités de planification Adobe Workfront </p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour la planification Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. Dans une autre application, sélectionnez plusieurs lignes et colonnes, puis collez les informations dans la vue table de type enregistrement, en commençant par le premier nouvel enregistrement.
 
-   Les informations suivantes sont importées dans la zone des fonctionnalités de planification de Workfront :
+   Les informations suivantes sont importées dans la zone de planification de Workfront :
 
    * Les lignes contiennent les nouveaux enregistrements
    * Les colonnes renseignent les informations des champs des enregistrements.

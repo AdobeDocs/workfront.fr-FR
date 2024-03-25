@@ -1,13 +1,13 @@
 ---
 title: Gestion de la vue de tableau
-description: Vous pouvez afficher les enregistrements et leurs champs dans une vue tabulaire, lors de l'accès à la page de type enregistrement dans les fonctionnalités de planification d'Adobe Workfront.
+description: Vous pouvez afficher les enregistrements et leurs champs dans une vue de tableau, lors de l'accès à la page de type enregistrement dans la planification Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2395'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Vous pouvez afficher les enregistrements et leurs champs dans une vue tabulaire, lors de l&#39;accès à la page de type enregistrement dans les fonctionnalités de planification d&#39;Adobe Workfront.
+Vous pouvez afficher les enregistrements et leurs champs dans une vue de tableau, lors de l&#39;accès à la page de type enregistrement dans la planification Adobe Workfront.
 
 Pour plus d’informations sur les vues d’enregistrement et leur gestion, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour les fonctionnalités de planification Adobe Workbench </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification des Adobes de travaux</p>  
 </td>
   </tr>
 

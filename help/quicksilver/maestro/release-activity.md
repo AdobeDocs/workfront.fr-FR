@@ -1,18 +1,18 @@
 ---
-title: Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront
+title: Activité de mise à jour de la planification Adobe Workfront
 description: Des fonctionnalités de planification Adobe Workfront sont actuellement disponibles pour certains clients Workfront. Consultez souvent cet article pour en savoir plus sur les fonctionnalités récemment publiées pour les fonctionnalités de planification.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# Activité de mise à jour des fonctionnalités de planification d’Adobe Workfront
+# Activité de mise à jour de la planification Adobe Workfront
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 >[!IMPORTANT]
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
+
+## Semaine du 25 mars 2024
+
+### Nouvelle organisation flexible de type d’enregistrement pour les espaces de travail
+
+Production : 25 mars 2024
+
+Aperçu : à déterminer
+
+Pour vous rendre plus efficace lors de la configuration des espaces de travail, nous avons modifié la manière dont vous organisez les types d’enregistrement dans un espace de travail. Voici quelques améliorations :
+
+* Créez jusqu’à 50 sections de types d’enregistrement dans chaque espace de travail. Les sections Types d’enregistrement opérationnel et Taxonomies existantes restent dans les espaces de travail existants.
+
+* Personnalisez entièrement tous les nouveaux espaces de travail et leurs nouvelles sections pour refléter les besoins de vos processus et de votre organisation.
+
+* Déplacez dynamiquement les types d’enregistrement dans un espace de travail en les faisant glisser et en les déposant là où ils doivent se trouver, y compris dans différentes sections.
+
+Pour plus d’informations, voir [Création de types d’enregistrement](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### Duplication de vues
+
+Production : 25 mars 2024
+
+Aperçu : à déterminer
+
+Pour gagner du temps et maintenir la cohérence, vous pouvez désormais dupliquer une vue existante à laquelle vous êtes autorisé d’accéder.
+
+La duplication d’une vue crée une vue identique en utilisant les mêmes filtres, critères de tri et regroupements. La duplication d’une vue ne conserve pas les autorisations de la vue d’origine.
+
+Pour plus d’informations, voir [Gestion des vues d’enregistrement](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### La zone Maestro du menu principal a été renommée Planification.
+
+Production : 28 mars 2024
+
+Aperçu : à déterminer
+
+Nous avons renommé la zone Maestro du menu principal en Planification.
+
+Pour un aperçu de la planification d’Adobe Workfront, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Semaine du 18 mars 2024
 
@@ -207,7 +247,7 @@ Voici les niveaux d’autorisation les plus élevés que les utilisateurs peuven
 
 Pour plus d’informations sur le nouveau modèle de licence, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Pour plus d’informations sur la connexion entre le type de licence et les autorisations dans les fonctionnalités de planification, voir [Présentation du type de licence lors de l’utilisation des fonctionnalités de planification d’Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+Pour plus d’informations sur la connexion entre le type de licence et les autorisations dans les fonctionnalités de planification, voir [Présentation du type de licence lors de l’utilisation de la planification Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nouvelle apparence de la barre d’outils Texte enrichi pour les champs d’enregistrement

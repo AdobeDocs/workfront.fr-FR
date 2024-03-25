@@ -1,13 +1,13 @@
 ---
 title: Gestion des vues d’enregistrement
-description: Vous pouvez afficher les enregistrements dans un tableau, une chronologie ou un calendrier lorsque vous utilisez les fonctionnalités de planification d’Adobe Workfront.
+description: Vous pouvez afficher les enregistrements dans un tableau, une chronologie ou un calendrier lors de l’utilisation de la planification Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Après avoir sélectionné un type d&#39;enregistrement dans la zone des fonctionnalités de planification d&#39;Adobe Workfront, vous pouvez afficher tous les enregistrements de ce type dans les vues suivantes :
+Après avoir sélectionné un type d&#39;enregistrement dans la zone de planification Adobe Workfront, vous pouvez afficher tous les enregistrements de ce type dans les vues suivantes :
 
 * Tableau
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite dans le programme bêta fermé de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour les fonctionnalités de planification de Workfront</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader">Modèle de mise en page</td>
-   <td> <p>L’administrateur système doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur système doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Remarques concernant l’utilisation des vues d’enregistrement
 
-* Les vues de la zone des fonctionnalités de planification de Workfront sont spécifiques au type d&#39;enregistrement. Vous ne pouvez pas appliquer la même vue à deux types d’enregistrements différents.
+* Les vues dans la planification Workfront sont spécifiques au type d’enregistrement. Vous ne pouvez pas appliquer la même vue à deux types d’enregistrements différents.
 * Les vues que vous créez sont visibles uniquement pour vous et les utilisateurs avec lesquels vous partagez les vues.
-* La création de vues pour les types d’enregistrements opérationnels est identique à la création de vues pour les types d’enregistrements de taxonomie.
 * Lorsque vous modifiez ou supprimez une vue, elle est modifiée et supprimée pour tous les utilisateurs disposant d’autorisations sur la vue.
 * Les éléments suivants sont propres à chaque vue d’enregistrement :
 
@@ -101,19 +100,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  Par exemple, lors de la création d’un filtre dans une vue de tableau, les résultats du filtre ne sont visibles que dans la vue sélectionnée et non dans toutes les vues répertoriées dans le menu déroulant Affichage .
+  Par exemple, lors de la création d’un filtre dans une vue de tableau, les résultats du filtre ne sont visibles que dans la vue sélectionnée et non dans toutes les vues associées au type d’enregistrement.
 
   >[!NOTE]
   >
-  > Comme les fonctionnalités de planification d’Adobe Workfront sont actuellement en version bêta, certains éléments de vue peuvent ne pas être disponibles pour toutes les vues.
+  > La planification Adobe Workfront étant actuellement en version bêta, certains éléments de vue peuvent ne pas être disponibles pour toutes les vues.
 
 Cet article décrit les informations suivantes sur les vues d’enregistrement :
 
 * [Création et modification d’une vue](#create-or-edit-record-views)
 * [Suppression d’une vue](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [Dupliquer une vue](#duplicate-views)
 * [Partage d’une vue](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Similarités et différences entre les vues d’enregistrement
 
@@ -233,20 +232,30 @@ Pour plus d’informations sur le partage des vues, voir [Partage de vues](/help
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## Dupliquer une vue
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+Si vous souhaitez conserver plusieurs versions d’une vue et apporter de légères modifications entre les versions, vous pouvez dupliquer une vue.
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+La duplication d’une vue crée des copies identiques d’une vue existante.
 
-    By default, all the records of the type selected display in the table view. 
+Les autorisations de partage de la vue d’origine ne sont pas transférées vers la vue dupliquée.
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut.
+
+Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
+
+1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
+
+   Par défaut, tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
+
+1. Pointez sur l’onglet de la vue à dupliquer, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Dupliquer**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet d’affichage s’affiche à la fin de tous les onglets d’affichage.
+

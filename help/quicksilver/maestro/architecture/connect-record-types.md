@@ -1,20 +1,20 @@
 ---
 title: Connexion des types d’enregistrement
-description: Une façon d’indiquer comment les types d’enregistrement individuels sont associés les uns aux autres consiste à les connecter. En outre, vous pouvez connecter les types d’enregistrement Maestro aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et de garder leur focus dans une seule application.
+description: Une façon d’indiquer comment les types d’enregistrement individuels sont associés les uns aux autres consiste à les connecter. Vous pouvez également connecter les types d’enregistrement de planification Adobe Workfront aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et de garder leur focus dans une seule application.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Vous pouvez utiliser Adobe Maestro pour concevoir des espaces de travail entièrement personnalisables contenant les types d’enregistrement nécessaires dans votre entreprise. Une façon d’indiquer comment les types d’enregistrement individuels sont associés les uns aux autres consiste à les connecter. En outre, vous pouvez connecter les types d’enregistrement Maestro aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et de garder leur focus dans une seule application.
+Vous pouvez utiliser la planification Adobe Workfront pour concevoir des espaces de travail entièrement personnalisables contenant les types d’enregistrement nécessaires dans votre entreprise. Une façon d’indiquer comment les types d’enregistrement individuels sont associés les uns aux autres consiste à les connecter. Vous pouvez également connecter les types d’enregistrement de planification Workfront aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et de garder leur focus dans une seule application.
 
-Vous pouvez connecter les types d’enregistrement Maestro les uns aux autres ou les types d’enregistrement Maestro aux types d’objets provenant d’autres applications.
+Vous pouvez connecter des types d’enregistrement les uns aux autres ou des types d’enregistrement avec des types d’objet provenant d’autres applications.
 
-Vous pouvez ainsi afficher les champs de l’enregistrement ou du type d’objet lié sur un autre enregistrement Maestro.
+Vous pouvez ainsi afficher les champs de l’enregistrement ou du type d’objet associé dans un enregistrement de planification Workfront.
 
-Cet article explique comment connecter deux types d’enregistrement Maestro ou un type d’enregistrement Maestro à un objet d’une autre application.
+Cet article décrit comment vous pouvez connecter deux types d’enregistrement dans la planification Workfront ou un type d’enregistrement à un objet d’une autre application.
 
 Après avoir établi la connexion entre les enregistrements ou les types d’objets, vous pouvez connecter des enregistrements individuels les uns aux autres.
 
-Pour plus d’informations sur la connexion d’un enregistrement Maestro à un objet à partir d’une autre application, voir [Connexion d’enregistrements](../records/connect-records.md).
+Pour plus d’informations sur la connexion d’un enregistrement de planification Workfront à un objet à partir d’une autre application, voir [Connexion d’enregistrements](../records/connect-records.md).
 
 Pour un exemple de connexion des types d’enregistrement, voir [Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrements Maestro à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrements de planification Adobe Workfront à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite dans le programme bêta fermé de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Adobe Workfront.</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -100,7 +100,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -114,16 +114,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Considérations sur la connexion des types d’enregistrement
 
-* Vous pouvez connecter les entités suivantes dans Maestro :
+* Vous pouvez connecter les entités suivantes dans la planification Adobe Workfront :
 
-   * Deux types d&#39;enregistrements opérationnels
-   * Deux taxonomies
-   * Un type d&#39;enregistrement opérationnel et une taxonomie
-   * Un type d’enregistrement opérationnel ou une taxonomie et un type d’objet d’une autre application.
+   * Deux types d’enregistrement
 
-  Tous les types d’enregistrements et taxonomies opérationnels doivent appartenir au même espace de travail.
+     Les types d’enregistrement doivent appartenir au même espace de travail.
+   * Type d’enregistrement et type d’objet d’une autre application.
 
-* Vous pouvez connecter les types d’objets suivants à partir des applications suivantes avec les types d’enregistrement Maestro :
+* Vous pouvez connecter les types d’objets suivants à partir des applications suivantes avec les types d’enregistrement de planification Workfront :
 
    * ADOBE WORKFRONT :
 
@@ -140,7 +138,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
      >[!IMPORTANT]
      >
-     >Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour connecter les enregistrements Maestro à Adobe Experience Manager Assets.
+     >Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour connecter les enregistrements de planification Workfront à Adobe Experience Manager Assets.
      >
      >Si vous avez des questions sur l’intégration à Adobe Admin Console, reportez-vous à la section [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -154,13 +152,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * **Lorsque vous connectez un type d’enregistrement à un type d’objet d’une autre application**: un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Aucun champ d’enregistrement lié n’est automatiquement créé sur le type d’objet de l’autre application.
 
-     Un nouveau type d’enregistrement en lecture seule Maestro est créé pour l’objet de l’autre application uniquement lorsque les objets réels sont connectés aux enregistrements Maestro.
+     Un nouveau type d’enregistrement en lecture seule de planification Workfront est créé pour l’objet de l’autre application uniquement lorsque les objets réels sont connectés aux enregistrements de planification Workfront.
 
      Pour plus d’informations, voir [Connexion d’enregistrements](../records/connect-records.md).
 
-   * **Lorsque vous ajoutez des champs de recherche de l’enregistrement ou de l’objet auquel vous vous connectez.**: vous pouvez connecter des champs de l’objet de l’autre application au type d’enregistrement Maestro . Il s’agit de champs liés ou de recherche. Les champs liés affichent automatiquement les informations des enregistrements ou des objets connectés lorsque vous connectez les enregistrements ou les objets. Les champs de recherche liés sont toujours en lecture seule et renseignent automatiquement les valeurs des enregistrements ou objets connectés.
+   * **Lorsque vous ajoutez des champs de recherche de l’enregistrement ou de l’objet auquel vous vous connectez.**: vous pouvez connecter les champs de l’objet de l’autre application au type d’enregistrement de planification Workfront. Il s’agit de champs liés ou de recherche. Les champs liés affichent automatiquement les informations des enregistrements ou des objets connectés lorsque vous connectez les enregistrements ou les objets. Les champs de recherche liés sont toujours en lecture seule et renseignent automatiquement les valeurs des enregistrements ou objets connectés.
 
-     Par exemple, si vous connectez le type d’enregistrement Maestro &quot;Campagne&quot; à un projet Workfront et que vous choisissez d’importer le champ Date de fin planifiée du projet dans l’enregistrement Maestro, un champ lié appelé Date de fin planifiée (à partir du projet) est automatiquement créé pour la campagne. Vous ne pouvez pas modifier manuellement ce champ lié. Le champ Date d’achèvement planifiée (à partir du projet) affiche la Date d’achèvement planifiée des projets liés.
+     Par exemple, si vous associez le type d’enregistrement &quot;Campagne&quot; à un projet Workfront et que vous choisissez d’afficher le champ Date de fin planifiée du projet dans l’enregistrement de planification Workfront, un champ lié appelé Date de fin planifiée (à partir du projet) est automatiquement créé pour la campagne. Vous ne pouvez pas modifier manuellement ce champ lié. Le champ Date d’achèvement planifiée (à partir du projet) affiche la Date d’achèvement planifiée des projets liés.
 
      >[!IMPORTANT]
      >
@@ -186,11 +184,11 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. Dans le **Type d’enregistrement** , recherchez un type d’enregistrement ou sélectionnez l’une des options suivantes :
 
-   * Un autre type d&#39;enregistrement opérationnel ou une taxonomie de la section de l&#39;espace de travail que vous avez sélectionné
+   * Un autre type d’enregistrement dans la section de l’espace de travail que vous avez sélectionné
 
      >[!TIP]
      >
-     >Seuls les types d’enregistrement et les taxonomies de l’espace de travail que vous avez sélectionné sont disponibles pour la connexion.
+     >Seuls les types d’enregistrement de l’espace de travail sélectionné sont disponibles pour la connexion.
      > 
      >Si vous ne disposez pas d’autres types d’enregistrement dans l’espace de travail sélectionné, la section espace de travail ne s’affiche pas.
 
@@ -212,7 +210,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    * **Autoriser plusieurs enregistrements**: sélectionnez cette option pour indiquer que vous autorisez les utilisateurs à ajouter plusieurs enregistrements lorsque le champ de type d’enregistrement associé s’affiche sur les enregistrements originaux. Cette option est sélectionnée par défaut.
    * **Sélectionner les champs de recherche**: sélectionnez cette option pour ajouter des champs à partir du type d’enregistrement sélectionné. Les champs de recherche sont des champs associés à l’enregistrement ou au type d’objet auquel vous créez un lien. Leur liaison affiche des informations sur l’enregistrement ou l’objet auquel vous créez un lien dans l’enregistrement que vous souhaitez. Cette option est sélectionnée par défaut.
 
-1. (Conditionnel et facultatif) Si vous avez choisi de connecter un objet Workfront, sélectionnez une **Formulaire personnalisé** de la **Lier uniquement les objets correspondant à ces critères** . Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être liés au type d’enregistrement Maestro sélectionné. Vous pouvez sélectionner plusieurs formulaires.
+1. (Conditionnel et facultatif) Si vous avez choisi de connecter un objet Workfront, sélectionnez une **Formulaire personnalisé** de la **Lier uniquement les objets correspondant à ces critères** . Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être associés au type d’enregistrement sélectionné. Vous pouvez sélectionner plusieurs formulaires.
 
    ![](assets/workfront-project-connection-selection.png)
 
@@ -286,13 +284,13 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
      Par exemple, si vous avez lié un type d’enregistrement Campaign avec un type d’enregistrement Program et que vous nommez le champ d’enregistrement associé au Programme &quot;Informations sur le programme&quot;, puis que vous choisissez d’afficher également le champ Budget du programme dans la vue de table de la campagne, le champ lié est automatiquement nommé `Budget (from Program information)` dans la vue tableau de la campagne.
 
-   * Lorsque vous liez des types d’enregistrement Maestro les uns aux autres, un champ d’enregistrement lié est également ajouté au type d’enregistrement auquel vous êtes associé. Le nom du champ d’enregistrement lié sur le type d’enregistrement lié est le nom du type d’enregistrement à partir duquel vous créez un lien.
+   * Lorsque vous liez des types d’enregistrement les uns aux autres, un champ d’enregistrement lié est également ajouté au type d’enregistrement auquel vous êtes associé. Le nom du champ d’enregistrement lié sur le type d’enregistrement lié est le nom du type d’enregistrement à partir duquel vous créez un lien.
 
      Par exemple, si vous associez le type d’enregistrement &quot;Produit&quot; du type d’enregistrement &quot;Campagne&quot; et que vous nommez le champ connecté de la campagne &quot;Produit lié&quot;, un champ d’enregistrement lié &quot;Campagne&quot; est créé pour le type d’enregistrement Produit .
 
      >[!TIP]
      >
-     > Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application vers le type d’enregistrement que vous liez dans Maestro.
+     > Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application vers le type d’enregistrement que vous associez dans la planification Workfront.
 
 1. (Facultatif et conditionnel) Depuis la vue du tableau du type d’enregistrement d’origine ou de l’enregistrement lié, cliquez sur la flèche pointant vers le bas dans l’en-tête des champs d’enregistrement liés, puis cliquez sur l’une des options suivantes :
 
@@ -305,7 +303,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    >[!NOTE]
    >
-   > Vous ne pouvez pas ajouter de champs de recherche appartenant aux types d’enregistrements Maestro que vous liez à des types d’objets provenant d’une autre application.
+   > Vous ne pouvez pas ajouter de champs de recherche appartenant à des types d’enregistrement que vous liez à des types d’objets provenant d’une autre application.
    >
    > Par exemple, vous ne pouvez pas ajouter le champ de recherche &quot;État de la campagne&quot; à un projet Workfront auquel vous créez un lien à partir des campagnes.
 

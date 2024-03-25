@@ -1,16 +1,16 @@
 ---
 title: Présentation de la section Historique
-description: Vous pouvez consulter les modifications apportées à l’enregistrement et enregistrées par le système dans le panneau droit d’un enregistrement dans Adobe Maestro.
+description: Vous pouvez passer en revue les modifications apportées à l’enregistrement et enregistrées par le système dans le panneau droit d’un enregistrement dans la planification Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
-
 
 # Présentation de la section Historique
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Vous pouvez collaborer sur des enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
+Vous pouvez collaborer sur les enregistrements de planification Adobe Workfront en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
 
 Le panneau de droite d’un enregistrement affiche les sections suivantes :
 
-* **Commentaires**: affiche les commentaires et réponses que les utilisateurs ajoutent aux enregistrements. Pour plus d’informations sur la gestion des commentaires dans les enregistrements Maestro, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **Commentaires**: affiche les commentaires et réponses que les utilisateurs ajoutent aux enregistrements. Pour plus d’informations sur la gestion des commentaires dans les enregistrements de planification Workfront, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **Histoire**: affiche les modifications enregistrées par le système que les utilisateurs apportent aux champs d’enregistrement.
 
 ## Recherche de la section Historique d’un enregistrement
@@ -46,11 +46,11 @@ Le dernier espace de travail ouvert par défaut.
 
 ## Observations relatives à la section Historique
 
-Vous pouvez passer en revue les modifications apportées à l’enregistrement des champs dans la section Historique du panneau droit de la page Détails d’un enregistrement opérationnel ou d’une taxonomie.
+Vous pouvez passer en revue les modifications apportées aux champs d’enregistrement dans la section Historique du panneau droit de la page Détails d’un enregistrement.
 
 ![](assets/history-area-in-comments.png)
 
-* Maestro enregistre les informations suivantes dans la section Historique :
+* La planification Workfront enregistre les informations suivantes dans la section Historique :
 
    * Toute modification de champ
 
@@ -80,7 +80,7 @@ Vous pouvez passer en revue les modifications apportées à l’enregistrement d
 
 * Les champs de type case à cocher n’affichent jamais l’ancienne valeur au format barré. Si le champ est modifié, seul l’état actuel au moment de la modification s’affiche.
 
-  Pour plus d’informations sur les champs Maestro, voir [Créer des champs](/help/quicksilver/maestro/fields/create-fields.md).
+  Pour plus d’informations sur les champs de planification Workfront, voir [Créer des champs](/help/quicksilver/maestro/fields/create-fields.md).
 
 * Les modifications apportées aux champs des types suivants ne s’affichent pas dans la section Historique :
 

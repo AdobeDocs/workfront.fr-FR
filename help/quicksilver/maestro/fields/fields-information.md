@@ -1,13 +1,13 @@
 ---
 title: "Champs : index de l’article"
-description: Vous pouvez ajouter de nouveaux champs dans Adobe Manager qui reflètent le cycle de vie de votre entreprise. Les champs sont des attributs de types d’enregistrement.
+description: Vous pouvez ajouter de nouveaux champs dans la planification Adobe Workfront qui reflètent le cycle de vie de votre entreprise. Les champs sont des attributs de types d’enregistrement.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-En tant que responsable des opérations marketing, vous pouvez utiliser Adobe Maestro pour organiser le travail au cours du cycle de vie marketing pour toutes vos équipes. Dans Maestro, vous pouvez entièrement personnaliser l’architecture de vos workflows, y compris ajouter des champs personnalisés pour tous les types d’enregistrements personnalisés que vous créez.
+En tant que chef des opérations marketing, vous pouvez utiliser la planification Adobe Workfront pour organiser le travail au cours du cycle de vie marketing pour toutes vos équipes. Dans la planification Workfront, vous pouvez entièrement personnaliser l’architecture de vos workflows, y compris ajouter des champs personnalisés pour tous les types d’enregistrements personnalisés que vous créez.
 
-Les articles présentés dans les sections suivantes décrivent comment créer et configurer des champs Maestro :
+Les articles présentés dans les sections suivantes décrivent comment créer et configurer des champs de planification Workfront :
 
 * [Présentation des champs](../fields/fields-overview.md)
 * [Créer des champs](../fields/create-fields.md)

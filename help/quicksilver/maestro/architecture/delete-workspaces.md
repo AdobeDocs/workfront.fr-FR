@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Dans Adobe Maestro, les espaces de travail sont des emplacements centralisés permettant aux équipes de planifier le travail. Pour plus d’informations, voir [Créer des espaces de travail](../architecture/delete-workspaces.md).
+Dans la planification d’Adobe Workfront, les espaces de travail sont des emplacements centralisés pour que les équipes puissent planifier le travail. Pour plus d’informations, voir [Créer des espaces de travail](../architecture/delete-workspaces.md).
 
 Vous pouvez supprimer les espaces de travail qui ne sont plus pertinents.
 
-Nous vous recommandons de recréer certains ou tous les types d’enregistrements et taxonomies associés à l’espace de travail que vous souhaitez supprimer dans un autre espace de travail avant de le supprimer.
+Nous vous recommandons de recréer certains ou tous les types d’enregistrements, enregistrements, champs et vues associés à l’espace de travail que vous souhaitez supprimer dans un autre espace de travail avant de le supprimer.
 
 ## Exigences d’accès
 
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification de Adobe Workbench. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe pas de contrôle de niveau d’accès pour Maestro</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Adobe Workfront.</p>  
 </td>
   </tr>
 
@@ -75,7 +75,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 
@@ -84,24 +84,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 *Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Remarques concernant la suppression des espaces de travail
 
-* Lorsque vous supprimez des espaces de travail, tous les types d’enregistrements, taxonomies, enregistrements et leurs champs sont également supprimés.
+* Lorsque vous supprimez des espaces de travail, tous les types d’enregistrements, enregistrements, leurs champs et vues sont également supprimés.
 * Les espaces de travail supprimés et les informations qu’ils contiennent ne peuvent pas être récupérés.
 
 ## Suppression d’un espace de travail
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-workfront.png) dans le coin supérieur droit de Workfront ou de la fonction **Menu principal** icon ![](assets/main-menu-shell.png)  dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Le dernier espace de travail auquel vous avez accédé s’affiche alors.
+Le dernier espace de travail auquel vous avez accédé s’affiche alors.
 
 1. (Facultatif) Développez la flèche vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à supprimer.
 1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) en regard du nom de l’espace de travail, cliquez sur **Supprimer**.
 1. Cliquez sur **Supprimer** pour confirmer.
 
-   L’espace de travail est supprimé et ne peut pas être récupéré. Tous les types d’enregistrements, taxonomies, enregistrements et champs qui leur sont associés sont également supprimés. <!--ensure this is right after closed beta-->
+   L’espace de travail est supprimé et ne peut pas être récupéré. Les types d’enregistrement, enregistrements, champs et vues qui leur sont associés sont également supprimés. <!--ensure this is right after closed beta-->

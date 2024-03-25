@@ -1,81 +1,87 @@
 ---
-title: Présentation des types d’enregistrement et des taxonomies
-description: Les types d’enregistrement sont les blocs de création d’un espace de travail Maestro.
+title: Présentation des types d’enregistrement
+description: Les types d’enregistrement sont les blocs de construction d’un espace de travail de planification Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Présentation des types d’enregistrement et des taxonomies
+# Présentation des types d’enregistrement
 
 {{maestro-important-intro}}
 
-Contrairement à Workfront où les types d’objets sont prédéfinis, dans Adobe Maestro, vous pouvez créer vos propres types d’objets. Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
+Contrairement à Workfront où les types d’objets sont prédéfinis, dans la planification Adobe Workfront, vous pouvez créer vos propres types d’objets. Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
 
-Les types d’objets Maestro sont appelés &quot;types d’enregistrement&quot;. Les types d’enregistrement sont les blocs de création d’un espace de travail Maestro. Pour plus d’informations sur les espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
+Les types d’objets de planification Workfront sont appelés &quot;types d’enregistrement&quot; et vous pouvez tous les créer et les personnaliser. Les types d’enregistrement sont les blocs de construction d’un espace de travail de planification Workfront. Pour plus d’informations sur les espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
 
 ## Présentation du type d’enregistrement
 
-Dans Maestro, vous pouvez créer des types d’enregistrements personnalisés qui répondent aux besoins de votre entreprise.
+Dans la planification Workfront, vous pouvez créer des types d’enregistrements personnalisés qui répondent aux besoins de votre entreprise.
 
-* Voici les types d’enregistrements Maestro :
+* Lorsque vous créez un espace de travail à partir d’un modèle, les types d’enregistrement sont créés dans les sections suivantes de l’espace de travail :
 
-   * [Type d’enregistrement opérationnel](#operational-record-type): type d’enregistrement qui représente les plans stratégiques, les initiatives ou les travaux planifiés. Par exemple, Campaign, Activity, Tactique, Opportunity peuvent être des types d&#39;enregistrements opérationnels.
-   * [Taxonomie](#taxonomy): types d’enregistrements qui capturent des attributs sur un type d’enregistrement opérationnel. Par exemple, Région, Adresse, Audience peuvent être des taxonomies.
+   * [Types d’enregistrement opérationnels](#operational-record-type): type d’enregistrement qui représente les plans stratégiques, les initiatives ou les travaux planifiés. Par exemple, Campaign, Activity, Tactique, Opportunity peuvent être des types d&#39;enregistrements opérationnels.
+   * [Taxonomies](#taxonomy): types d’enregistrements qui capturent des attributs sur un type d’enregistrement opérationnel. Par exemple, Région, Adresse, Audience peuvent être des taxonomies.
 
+* Lorsque vous créez un type d’enregistrement dans un espace de travail que vous avez entièrement créé, vous pouvez le placer dans n’importe quelle section que vous créez dans l’espace de travail.
 * Lorsque vous créez un type d’enregistrement, seuls vous et ceux que vous autorisez à accéder à l’espace de travail pouvez afficher le type d’enregistrement.
 * Vous devez créer un espace de travail avant de pouvoir créer des types d’enregistrement pour l’espace de travail.
-* Vous pouvez avoir un total cumulé de 1 000 types d’enregistrements opérationnels et taxonomies dans un espace de travail. Cela inclut les types d’enregistrement ou les taxonomies que vous créez de toutes pièces ou que vous importez à partir d’autres systèmes.
+* Un espace de travail peut contenir un total de 1 000 types d’enregistrement, quel que soit le nombre de sections de l’espace de travail. Cela inclut les types d’enregistrements que vous créez de A à Z ou qui sont créés lors de l’utilisation d’un modèle.
 
-### Type d’enregistrement opérationnel{#operational-record-type}
 
-Un type d’enregistrement opérationnel est un type d’enregistrement Maestro qui représente des objets liés au travail.
+<!--
+
+### Operational Record Type{#operational-record-type}
+
+An operational record type is a Maestro record type that represents work-related objects.  
 
 ![](assets/operational-record-type-blank.png)
 
-Pour plus d’informations sur les types d’enregistrements opérationnels, y compris sur la façon de les créer, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
+For more information about operational record types including how to create them, see [Create record types](../architecture/create-record-types.md). 
 
-### Taxonomie{#taxonomy}
+### Taxonomy{#taxonomy}
 
-Une taxonomie est un type d’enregistrement qui capture les attributs d’un type d’enregistrement opérationnel.
+A taxonomy is a record type that captures attributes about an operational record type. 
 
 ![](assets/taxonomy-record-type-blank.png)
 
-Pour plus d’informations sur les types d’enregistrement de taxonomie, voir [Création d’une taxonomie](../architecture/create-a-taxonomy.md).
+For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-Bien que la création de taxonomies soit identique à la création de types d&#39;enregistrements opérationnels, Maestro fait la distinction conceptuelle entre un type d&#39;enregistrement opérationnel et un type d&#39;enregistrement de taxonomie. L&#39;objectif des taxonomies est d&#39;améliorer les types de dossiers opérationnels. Les taxonomies ne devraient pas représenter directement des objets de travail.  <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
+Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  (***********this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.***********) 
 
-<!--mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc -->
+(********mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc*************)
 
-Par exemple, Audience, Région ou Adresse peuvent être des types d’enregistrement de type taxonomie.
+For example, Audience, Region, or Address can be taxonomy-type record types.  
 
-Pour plus d’informations, voir [Création d’une taxonomie](../architecture/create-a-taxonomy.md).
+For more information, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-## Similarités et différences entre les types d’enregistrements opérationnels et les taxonomies
+## Similarities and differences between operational record types and taxonomies
 
-Le tableau suivant illustre certaines similitudes et différences entre les types d&#39;enregistrements opérationnels et les taxonomies :
+The following table illustrates some of the similarities and differences between operational record types and taxonomies: 
 
-| Type d’enregistrement et caractéristique | Type d’enregistrement opérationnel | Type d’enregistrement de taxonomie |
+| Record type and characteristic                              | Operational Record Type | Taxonomy Record Type |
 |-------------------------------------------------------------|:-----------------------:|:--------------------:|
-| Ils font partie d’un espace de travail | ✓ | ✓ |
-| Vous pouvez les créer automatiquement à partir d&#39;un modèle d&#39;espace de travail. | ✓ | ✓ |
-| Vous pouvez les créer manuellement, à partir de zéro | ✓ | ✓ |
-| Vous pouvez les créer en copiant et en collant des informations à partir d’un fichier ou d’une liste externe | ✓ | ✓ |
-| Vous pouvez créer en important un fichier Excel ou CSV. | ✓ |                     |
-| Vous pouvez créer des types d’enregistrement en lecture seule en vous connectant aux types d’objets d’autres applications. | ✓ |                     |
-| Elles représentent des objets liés au travail. | ✓ |                      |
-| Elles représentent des attributs sur les objets liés au travail. |                         | ✓ |
-| Vous pouvez créer entièrement | ✓ | ✓ |
-| Vous pouvez créer en important un fichier Excel ou CSV. | ✓ |                      |
-| Vous pouvez connecter le type d’enregistrement à un objet à partir d’une autre application. | ✓ |                      |
-| Vous pouvez vous connecter à d’autres types d’enregistrements Maestro | ✓ |                    |
-| Vous pouvez afficher les enregistrements associés dans une vue de tableau. | ✓ | ✓ |
-| Vous pouvez afficher les enregistrements associés dans une vue chronologique. | ✓ | ✓ |
+| They are part of a workspace                                |            ✓            |           ✓          |
+| You can create them automatically, from a workspace template                    |            ✓            |           ✓          |
+| You can create them manually, from scratch                    |            ✓            |           ✓          |
+| You can create them by copying and pasting information from an external file or list                   |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file                    |            ✓            |                     |
+| You can create read-only record types by connecting to object types from other applications                    |            ✓            |                     |
+| They represent work-related objects                         |            ✓            |                      |
+| They represent attributes about work-related objects        |                         |           ✓          |
+| You can create from scratch                                 |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file            |            ✓            |                      |
+| You can connect the record type to an object from another application|            ✓            |                      |
+| You can connect to other Maestro record types               |            ✓            |                    |
+| You can view their associated records in a table view       |            ✓            |           ✓          |
+| You can view their associated records in a timeline view    |            ✓            |           ✓          |
+
+-->

@@ -1,13 +1,13 @@
 ---
 title: Modifier des enregistrements
-description: Vous pouvez modifier les informations d’enregistrement dans les fonctionnalités de planification d’Adobe Workfront. Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
+description: Vous pouvez modifier les informations d’enregistrement dans la planification Adobe Workfront. Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Vous pouvez modifier les informations d&#39;enregistrement dans les fonctionnalités de planification d&#39;Adobe Workfront en éditant les valeurs des champs associés aux enregistrements.
+Vous pouvez modifier les informations d&#39;enregistrement dans la planification Adobe Workfront en éditant les valeurs des champs associés aux enregistrements.
 
 Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
 
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé des fonctionnalités de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour les fonctionnalités de planification Adobe Workfront </p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour la planification Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -78,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 

@@ -1,16 +1,16 @@
 ---
 title: Champs de formule - Aperçu
-description: Dans Adobe Maestro, vous pouvez créer des champs de formule qui utilisent des fonctions et des champs existants pour calculer une nouvelle valeur personnalisée.
+description: Dans la planification Adobe Workfront, vous pouvez créer des champs de formule qui utilisent des fonctions et des champs existants pour calculer une nouvelle valeur personnalisée.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 5027d611-916e-492d-9a44-841bdde11c94
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Champs de formule - Aperçu
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Vous pouvez créer des champs personnalisés dans Adobe Maestro en faisant référence à des champs existants et en les reliant par une formule. Pour ce faire, créez un champ personnalisé de type Formule .
+Vous pouvez créer des champs personnalisés dans la planification Adobe Workfront en faisant référence à des champs existants et en les connectant par une formule. Pour ce faire, créez un champ personnalisé de type Formule .
 
 Les champs de formule génèrent une nouvelle valeur en utilisant les valeurs existantes d&#39;autres champs d&#39;un type d&#39;enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour Maestro</p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour la planification de Workforce</p>  
 </td>
   </tr>
 <tr>
@@ -85,7 +85,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 
@@ -102,14 +102,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Les champs de formule font référence à des champs qui appartiennent au même type d&#39;enregistrement. Vous ne pouvez pas référencer des champs d’autres types d’enregistrement lors de la création d’un champ de formule. <!--is this still accurate??-->
 * Une fois enregistré, vous ne pouvez pas modifier le type de champ d&#39;un champ Formule.
 * Vous pouvez mettre à jour le calcul d&#39;un champ de formule après son enregistrement, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
-* Vous devez ajouter les champs que vous référencez dans les formules telles qu’elles s’affichent dans l’interface Maestro.
+* Vous devez ajouter les champs que vous référencez dans les formules comme ils s&#39;affichent dans l&#39;interface de planification de Workfront.
 * L’utilisation des champs de recherche des types d’enregistrement liés dans une formule sera disponible ultérieurement.
 
 ## Formules prises en charge
 
-Les champs de formule Maestro prennent en charge toutes les expressions des champs calculés Workfront. Pour plus d’informations, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Les champs de formule de planification Adobe Workfront prennent en charge toutes les expressions des champs calculés Workfront. Pour plus d’informations, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-En outre, nous prenons en charge les expressions suivantes pour les champs de formule Maestro :
+En outre, nous prenons en charge les expressions suivantes pour les champs de formule de planification Workfront :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,8 +164,3 @@ ou
    </td></tr>
 
 </table>
-
-
-
-
-

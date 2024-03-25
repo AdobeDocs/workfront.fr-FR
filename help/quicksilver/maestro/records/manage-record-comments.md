@@ -1,16 +1,16 @@
 ---
 title: Gestion des commentaires d’enregistrement
-description: Vous pouvez collaborer sur des enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
+description: Vous pouvez collaborer sur les enregistrements de planification Adobe Workfront en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
-
 
 # Gestion des commentaires d’enregistrement
 
@@ -24,37 +24,32 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Vous pouvez collaborer sur des enregistrements Adobe Maestro en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
+Vous pouvez collaborer sur les enregistrements de planification Adobe Workfront en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
 
 Le panneau de droite d’un enregistrement affiche les sections suivantes :
 
 * **Commentaires**: affiche les commentaires et réponses que les utilisateurs ajoutent aux enregistrements.
 * **Histoire**: affiche les modifications enregistrées par le système que les utilisateurs apportent aux champs d’enregistrement. Pour plus d’informations, voir [Présentation de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md).
 
->[!TIP]
->
->Le panneau de droite s’affiche pour les enregistrements opérationnels et les enregistrements de taxonomie.
-
-
 ## Remarques concernant les commentaires sur un enregistrement
 
-* Vous pouvez ajouter des commentaires et des réponses aux dossiers et taxonomies opérationnels dans Maestro, dans la section Commentaires d’un enregistrement.
+* Vous pouvez ajouter des commentaires et des réponses aux enregistrements dans la planification Workfront, dans la section Commentaires d’un enregistrement.
 
-* Les commentaires ajoutés aux enregistrements liés ne s’affichent pas dans les enregistrements à partir desquels vous créez un lien. Par exemple, si vous commentez un enregistrement de produit Maestro lié à un enregistrement de campagne, le commentaire s’affiche uniquement sur l’enregistrement de produit dans Maestro et non sur l’enregistrement de campagne à partir duquel vous liez.
+* Les commentaires ajoutés aux enregistrements liés ne s’affichent pas dans les enregistrements à partir desquels vous créez un lien. Par exemple, si vous commentez un enregistrement de produit de planification Workfront lié à un enregistrement Campaign, le commentaire s’affiche uniquement sur l’enregistrement de produit dans la planification Workfront et non sur l’enregistrement Campaign à partir duquel vous liez.
 
-* Vous pouvez ajouter des commentaires aux enregistrements Maestro créés suite à une connexion entre un enregistrement Maestro et un objet provenant d’une autre application.
+* Vous pouvez ajouter des commentaires aux enregistrements de planification Workfront créés suite à une connexion entre un enregistrement et un objet d’une autre application.
 
-  Par exemple, vous pouvez ajouter des commentaires à l’enregistrement Project Manager après avoir connecté les projets Workfront aux enregistrements Maestro. Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
+  Par exemple, vous pouvez commenter l’enregistrement de planification de Project Workfront après avoir connecté les projets Workfront aux enregistrements de planification Workfront. Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
 
-* Les commentaires ajoutés aux objets liés dans d’autres applications ne s’affichent pas dans Maestro et les commentaires ajoutés aux objets liés dans Maestro ne s’affichent pas dans d’autres applications.
+* Les commentaires ajoutés aux objets liés dans d’autres applications ne s’affichent pas dans la planification Workfront et les commentaires ajoutés aux objets liés dans la planification Workfront ne s’affichent pas dans d’autres applications.
 
-  Par exemple, les commentaires ajoutés aux projets dans Workfront ne s’affichent pas sur le même projet lié à une campagne dans Maestro, et les commentaires ajoutés à l’enregistrement du projet Maestro ne s’affichent pas dans Workfront.
+  Par exemple, les commentaires ajoutés aux projets dans Workfront ne s’affichent pas sur le même projet lié à une campagne dans la planification Workfront, et les commentaires ajoutés à l’enregistrement de planification Workfront du projet ne s’affichent pas dans Workfront.
 
 * Vous pouvez marquer les utilisateurs pour attirer leur attention sur une mise à jour. Les utilisateurs balisés ne reçoivent pas de notification in-app ni d’e-mail concernant votre mise à jour. <!--this might change??-->
 
-* Vous pouvez ajouter une mise à jour aux enregistrements et consulter l’historique des modifications à partir des zones suivantes de Maestro :
+* Vous pouvez ajouter une mise à jour aux enregistrements et passer en revue l’historique des modifications dans les domaines suivants de la planification Workfront :
 
-   * Sur la page Détails d’un enregistrement ou d’une taxonomie.
+   * Dans la page Détails d’un enregistrement.
 
   <!--* From the table view.-->
 
@@ -77,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta fermé Adobe Maestro. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -95,7 +90,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès dans Maestro. </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès dans la planification de Workfront. </p>  
 </td>
   </tr>
 <tr>
@@ -107,7 +102,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -186,7 +181,6 @@ Le dernier espace de travail ouvert par défaut.
 
 ## Présentation de la section Historique
 
-Vous pouvez passer en revue les modifications apportées à l’enregistrement dans la section Historique du panneau droit d’un enregistrement opérationnel ou d’une taxonomie.
+Vous pouvez consulter les modifications apportées à l’enregistrement dans la section Historique du panneau droit d’un enregistrement.
 
 Pour plus d’informations, voir [Présentation de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md).
-

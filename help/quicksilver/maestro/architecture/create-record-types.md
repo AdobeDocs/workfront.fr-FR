@@ -1,35 +1,27 @@
 ---
-title: Création de types d’enregistrements opérationnels
+title: Création de types d’enregistrement
 description: Les types d’enregistrement sont les types d’objet de la planification Adobe Workfront. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les tâches nécessaires au cycle de vie de votre entreprise.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Création de types d’enregistrements opérationnels
+# Création de types d’enregistrement
 
 {{maestro-important-intro}}
 
 Les types d’enregistrement sont les types d’objet de la planification Adobe Workfront. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les éléments liés au travail nécessaires dans le cycle de vie de votre entreprise.
-
 Les types d’enregistrement peuvent être parmi les suivants :
 
-* **Types d’enregistrements opérationnels**
-* **Taxonomies**
-
-Pour plus d’informations sur les types d’enregistrement, voir [Présentation des types d’enregistrement et des taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
-
-La création de types d’enregistrements opérationnels est similaire à la création de types d’enregistrements de taxonomie. Cet article décrit comment créer des types d’enregistrements opérationnels.
-
-Pour plus d’informations sur la création de taxonomies, voir [Création de types d’enregistrement de taxonomie](../architecture/create-a-taxonomy.md).
+Pour plus d’informations sur les types d’enregistrement, voir [Présentation des types d’enregistrement](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Exigences d’accès
 
@@ -75,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Maestro à votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="../access/access-overview.md">Présentation de l’accès</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -87,7 +79,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -106,22 +98,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       * Lorsque vous créez un espace de travail à l’aide d’un modèle.
 
         Pour plus d’informations, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
-      * Lorsque vous les importez à l’aide d’un fichier Excel ou CSV. Cette option n’est pas disponible pour les types d’enregistrement de taxonomie.
+
+      * Lorsque vous les importez à l’aide d’un fichier Excel ou CSV.
 
         >[!IMPORTANT]
         >
         >Cette fonctionnalité est temporairement désactivée depuis le 21 mars 2024. Elle sera activée ultérieurement.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manuellement :
 
       * À partir de zéro.
 
+        Cet article décrit comment créer de A à Z des types d’enregistrements génériques dans un espace de travail que vous avez créé de A à Z.
+
+* Vous pouvez déplacer des types d’enregistrement dans une section et d’une section d’un espace de travail à une autre. Vous ne pouvez pas déplacer des types d’enregistrement d’un espace de travail vers un autre.
+
 ## Création de types d’enregistrement à l’aide d’un modèle d’espace de travail
 
-Vous pouvez créer automatiquement des types d&#39;enregistrement lorsque vous créez un espace de travail à l&#39;aide d&#39;un modèle de planification Workfront. Chaque modèle contient des exemples de types d’enregistrement opérationnels et de taxonomie.
+Vous pouvez créer automatiquement des types d&#39;enregistrement lorsque vous créez un espace de travail à l&#39;aide d&#39;un modèle de planification Workfront. Chaque modèle contient des exemples de types d’enregistrement.
+
+Lorsque vous créez un espace de travail à partir d’un modèle, les types d’enregistrement sont regroupés dans les sections suivantes :
+
+* Types d’enregistrements opérationnels
+* Taxonomies
+
+Vous pouvez ajouter manuellement des types d’enregistrements dans les sections Types d’enregistrements opérationnels et Taxonomies .
 
 Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
 
@@ -129,9 +133,7 @@ Pour plus d’informations sur les types d’enregistrement inclus dans chaque m
 
 ## Créer entièrement un type d’enregistrement
 
-Cet article décrit comment créer de A à Z des types d’enregistrements opérationnels. La création de tous types d&#39;enregistrements opérationnels est similaire à la création de taxonomies.
-
-Pour plus d’informations sur les taxonomies, voir [Création d’une taxonomie](../architecture/create-a-taxonomy.md).
+Cet article décrit comment créer des types d’enregistrement à partir de zéro.
 
 {{step1-to-maestro}}
 
@@ -139,7 +141,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
-1. (Conditionnel) Si vous créez un type d’enregistrement opérationnel, cliquez sur **A partir de zéro**. Cette option n’est pas disponible lors de la création de taxonomies.
+1. (Conditionnel) Si vous créez un type d’enregistrement opérationnel, cliquez sur **A partir de zéro**.
 
    La zone Ajouter un type d’enregistrement s’affiche.
 
@@ -165,8 +167,6 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
    Par défaut, les champs suivants s&#39;affichent dans les colonnes de vue de tableau d&#39;un type d&#39;enregistrement opérationnel :
 
    * Nom
-
-     Le champ Nom est le seul champ automatiquement créé pour les taxonomies.
    * Description
    * Date de début
    * Date de fin
@@ -196,6 +196,10 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
    * [Modification des types d’enregistrement](../architecture/edit-record-types.md)
    * [Gestion des vues d’enregistrement](../views/manage-record-views.md)
 
+1. (Facultatif) Dans l’espace de travail, cliquez sur pour faire glisser et déposer un type d’enregistrement à un emplacement souhaité, ou pour le déplacer vers une autre section.
+
+   Les modifications sont enregistrées automatiquement, une fois que vous avez déposé la carte de type d’enregistrement sélectionnée.
+
 ## Création de types d’enregistrement à l’aide d’un import de fichier Excel ou CSV
 
 >[!IMPORTANT]
@@ -223,12 +227,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
-1. (Conditionnel) Si vous créez un type d’enregistrement opérationnel, cliquez sur **Excel/CSV**.
-
-   >[!NOTE]
-   >
-   >    Cette option n’est pas disponible lors de la création de types d’enregistrement de taxonomie.
-
+1. Cliquez sur **Excel/CSV**.
 1. Faites glisser et déposez un fichier Excel ou CSV précédemment enregistré sur votre ordinateur, ou cliquez sur **Sélection d’un fichier CSV ou Excel** pour en rechercher une.
 1. Cliquez sur **Vérification des données**.
 
@@ -267,9 +266,9 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

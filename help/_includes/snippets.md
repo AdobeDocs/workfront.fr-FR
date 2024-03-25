@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2355'
 ht-degree: 1%
 
 ---
@@ -247,19 +247,19 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 ## Etape 1 - Accès à Maestro - {#step1-to-maestro}
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Maestro]**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Planification]**.
 
 ## Intro important de Maestro {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent aux fonctionnalités de planification d’Adobe Workfront, une nouvelle offre d’Adobe Workfront.
+>Les informations de cet article font référence à la planification Adobe Workfront, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, les capacités de planification font partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser ces fonctionnalités.
+>Actuellement, la planification de Workfront fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser ces fonctionnalités.
 >
->Contactez le représentant de votre compte pour plus d’informations sur l’adhésion au programme bêta pour les fonctionnalités de planification.
+>Contactez votre gestionnaire de compte pour plus d’informations sur l’adhésion au programme bêta pour la planification Workfront.
 >
->Pour plus d’informations sur les fonctionnalités de planification, voir [Présentation des fonctionnalités de planification d’Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Pour plus d’informations, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 
