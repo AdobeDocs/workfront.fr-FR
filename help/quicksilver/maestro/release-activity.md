@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
 workflow-type: tm+mt
 source-wordcount: '5057'
 ht-degree: 0%
@@ -445,7 +445,7 @@ Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter aux f
 
 * Déclenchez un scénario lorsqu’une modification est apportée aux capacités de planification.
 
-Pour plus d’informations, voir [Modules Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+Pour plus d’informations, voir [Modules Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Semaine du 11 décembre 2023
 

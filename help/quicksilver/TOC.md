@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 640fd9e2df3a8344273078841f75f23ba259e6f6
+source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
 workflow-type: tm+mt
-source-wordcount: '14043'
+source-wordcount: '14044'
 ht-degree: 1%
 
 ---
@@ -2186,6 +2186,7 @@ ht-degree: 1%
       * [Applications et leurs modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Modules Adobe Workfront](workfront-fusion/apps-and-their-modules/workfront-modules.md)
       * [Modules Workfront BAT](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Modules de planification Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
       * [[!DNL Workfront Boards] modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
       * [Module Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
       * [Modules Adobe Acrobat Sign](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
@@ -2195,7 +2196,6 @@ ht-degree: 1%
       * [Module Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Modules Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Modules Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
-      * [Modules Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Modules de services Adobe PDF](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Modules Adobe Photoshop](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Modules Adobe Target](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
