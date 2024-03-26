@@ -7,9 +7,10 @@ description: Vous pouvez utiliser un modèle de mise en page pour configurer ce 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -101,7 +102,14 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
       <p>Une fois que vous avez sélectionné le widget que vous souhaitez modifier, les options disponibles s’affichent à droite. Ces options incluent les suivantes : <b>Filtres</b>, <b>Colonnes</b>, et <b>Groupes</b>. Vous pouvez :</p>
       <ul>
       <li><p><b>Sélectionnez les filtres, colonnes ou groupes qui seront disponibles pour les utilisateurs :</b></p>
-      <p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les utilisateurs puissent utiliser. Les options non cochées ne s’affichent pas pour les utilisateurs.</li></p>
+      <p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les utilisateurs puissent utiliser. Les options non cochées ne s’affichent pas pour les utilisateurs.</li></p>     
+    <p>
+
+>[!IMPORTANT]
+>
+>Les utilisateurs doivent disposer de l’accès Créer pour les vues afin que les configurations de colonne s’appliquent correctement à leurs widgets.
+
+</p>
       <li><p><b>Définissez un filtre ou un groupe par défaut pour le widget :</b></p>
       <p>Passez la souris sur une option pour afficher un bouton permettant de définir cette option comme option par défaut pour les utilisateurs. La valeur par défaut actuelle comporte un badge bleu par défaut à sa droite.</li></p>
       <li><p><b>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles :</b></p>
@@ -124,4 +132,3 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
    Ou
 
    Si vous avez terminé de personnaliser, cliquez sur **Enregistrer** dans le coin inférieur gauche.
-

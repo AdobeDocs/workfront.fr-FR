@@ -4,7 +4,8 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Au lieu d&#39;un webinaire sur la publication de la mise à jour, nous vous invi
 
 [L&#39;avenir d&#39;Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) le 26 mars 2024, pour avoir un aperçu de l&#39;avenir de la planification stratégique et des workflows. Découvrez comment l’équipe Workfront prévoit de gérer les fonctionnalités de l’entreprise tout au long du cycle de vie marketing, le tout avec une approche axée sur l’IA qui permet d’automatiser le travail, de simplifier les expériences utilisateur et d’améliorer la productivité.
 
-[Présentation des calendriers et des outils marketing pour la planification des campagnes de bout en bout](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) le 23 mars 2023, pour en savoir plus sur les nouvelles fonctionnalités du produit conçues pour vous permettre de gérer et de visualiser les cycles de vie opérationnels de bout en bout.
+[Présentation des calendriers et des outils marketing pour la planification des campagnes de bout en bout](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) le 28 mars 2024, pour en savoir plus sur les nouvelles fonctionnalités du produit conçues pour vous permettre de gérer et de visualiser les cycles de vie opérationnels de bout en bout.
 
 <span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de publication du deuxième trimestre 2024) sont surlignées en jaune.</span>
 
