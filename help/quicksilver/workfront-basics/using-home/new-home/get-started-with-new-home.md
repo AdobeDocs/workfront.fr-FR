@@ -6,10 +6,10 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 6%
 
 ---
 
@@ -58,9 +58,6 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’u
 
 * **Toutes les validations**\
         <span class="preview"> Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des listes de vues des approbations en attente et en retard.</span> <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.</span>
-
-* **Autorisations en attente**\
-    Affiche les approbations affectées à un document sur un projet dont vous êtes responsable. Ici, vous pouvez afficher l’état d’approbation et rappeler aux utilisateurs des révisions et des approbations incomplètes. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.</span>
 
 * **Mentions**\
     Affiche les fils de commentaires récents provenant de Workfront, tout comme la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour composer une réponse dans le widget. Ce widget affiche également les commentaires effectués sur les tâches et problèmes auxquels vous êtes affecté, que vous avez attribués à un autre utilisateur, que vous détenez, que vous êtes le contact principal ou que vous avez créés, à condition que la tâche ou le problème ait été mis à jour au cours des 30 derniers jours.
