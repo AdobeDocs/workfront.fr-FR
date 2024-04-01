@@ -7,18 +7,22 @@ description: Cet article décrit la mise en page des feuilles de temps dans Adob
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
 
 # Présentation de la disposition de la feuille de temps
 
-{{preview-and-fast-release}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Cet article décrit la mise en page des feuilles de temps dans Adobe Workfront, ce qui vous permet de mieux comprendre comment personnaliser et utiliser les feuilles de temps pour enregistrer le temps.
 

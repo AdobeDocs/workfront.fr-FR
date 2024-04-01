@@ -5,16 +5,20 @@ description: Vous pouvez utiliser le panneau Résumé pour passer en revue et me
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Résumé] aperçu
 
-{{preview-and-fast-release}}
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans Production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Vous pouvez utiliser la variable [!UICONTROL Résumé] pour passer en revue et mettre à jour les informations des éléments de travail directement à partir d’une liste de tâches, de problèmes, de documents ou d’autres zones de [!DNL Adobe Workfront] qui affichent les tâches et les problèmes.
 
@@ -36,6 +40,9 @@ Le tableau suivant répertorie les zones où vous pouvez localiser et utiliser l
   <tr> 
    <td>Tâches dans les zones de travail [!UICONTROL non affecté] et [!UICONTROL Affecté] de l’[!UICONTROL équilibreur de charge de travail]</td> 
   </tr> 
+   <tr> 
+   <td>Tâches dans une [!UICONTROL Feuille de calcul]</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>Problèmes</td> 
   </tr> 
@@ -53,7 +60,12 @@ Le tableau suivant répertorie les zones où vous pouvez localiser et utiliser l
   <tr data-mc-conditions=""> 
    <td>Problèmes dans la section [!UICONTROL Envoyé] de la zone [!UICONTROL Demandes]</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>Problèmes dans une feuille de calcul [!UICONTROL]</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>Documents</td> 
   </tr> 
   <tr data-mc-conditions=""> 

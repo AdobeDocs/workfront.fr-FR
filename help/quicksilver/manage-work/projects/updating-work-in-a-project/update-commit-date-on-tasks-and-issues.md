@@ -6,12 +6,13 @@ description: Vous pouvez mettre à jour manuellement la date de validation d’u
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
+
 
 # Mise à jour des dates de validation pour les tâches et les problèmes
 
@@ -88,8 +89,11 @@ La mise à jour de la date de validation est identique pour les tâches et les p
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * Si vous utilisez la zone Mises à jour héritées, le propriétaire du projet est informé que vous avez suggéré une nouvelle date de validation pour la tâche ou le problème et que vous pouvez, à ce stade, mettre à jour la date d’achèvement planifiée de la tâche ou du problème afin qu’elle corresponde à la date de validation que vous avez suggérée. Cette fonctionnalité n’est pas prise en charge dans la nouvelle expérience de commentaire. Pour plus d’informations, voir [Nouvelle expérience de commentaires](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * Le propriétaire du projet est informé dans les notifications in-app que vous avez suggéré une nouvelle date de validation pour la tâche ou le problème.
+   * Le propriétaire du projet est informé, dans la section Mises à jour, que vous avez suggéré une nouvelle date de validation et qu’il peut, à ce stade, mettre à jour la date d’achèvement planifiée de la tâche ou du problème pour qu’elle corresponde à la date de validation que vous avez suggérée. Cette fonctionnalité n’est pas prise en charge dans la nouvelle expérience de commentaire. Pour plus d’informations, voir [Nouvelle expérience de commentaires](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
-     Pour plus d’informations sur les notifications et les mises à jour déclenchées par cette modification, voir la section [Notifications et mises à jour déclenchées en modifiant la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) dans l’article [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Pour plus d’informations sur les notifications et les mises à jour déclenchées par cette modification, voir la section &quot;Notifications et mises à jour déclenchées lors du changement de la date de validation&quot; de l’article. [Présentation de la date de validation](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+<!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

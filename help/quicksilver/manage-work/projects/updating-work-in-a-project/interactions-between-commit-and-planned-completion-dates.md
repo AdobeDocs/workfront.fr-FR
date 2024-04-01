@@ -6,9 +6,9 @@ description: Les dates de fin planifiée et de validation indiquent le moment o�
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ La personne désignée qui travaille sur la tâche ou le problème peut mettre �
 
 La personne désignée qui modifie la date de validation ne modifie pas automatiquement la date d’achèvement planifiée. L’inverse est également vrai : la modification de la date d’achèvement planifiée ne modifie pas la date de validation.
 
-Lorsque la date de validation est redéfinie sur une date postérieure à la date d’achèvement prévue, le propriétaire du projet est informé que cette modification s’est produite et qu’elle peut avoir une incidence sur la chronologie du projet, si le propriétaire du projet utilise l’expérience de commentaire héritée. Cette fonctionnalité n’est pas prise en charge dans la nouvelle expérience de commentaire. Pour plus d’informations, voir [Nouvelle expérience de commentaire](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Lorsque la date de validation est redéfinie sur une date postérieure à la date d’achèvement prévue, le propriétaire du projet est informé que cette modification s’est produite et qu’elle peut avoir une incidence sur la chronologie du projet.
 
 Si la date de validation proposée par la personne désignée est acceptable pour le propriétaire du projet, il doit mettre à jour manuellement la date d’achèvement planifiée de la tâche ou du problème. Pour plus d’informations, voir les articles suivants :
 

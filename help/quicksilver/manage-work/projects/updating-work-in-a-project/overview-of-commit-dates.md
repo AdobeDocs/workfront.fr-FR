@@ -7,16 +7,14 @@ description: La date de validation est la date à laquelle un utilisateur affect
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 1%
 
 ---
 
 # Présentation de la date de validation
-
-{{preview-and-fast-release}}
 
 La date de validation est la date à laquelle un utilisateur affecté à une tâche ou à un problème s’engage à terminer la tâche ou le problème. Cette valeur est différente de la date d’achèvement prévue, car il s’agit d’une estimation plus réaliste de la date d’achèvement donnée uniquement par l’utilisateur responsable du travail. Pour plus d’informations sur la date d’achèvement prévue, voir [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,11 +53,26 @@ Lorsqu’une tâche ou un responsable d’émission sélectionne une date de val
 
 La définition de la date de validation d’une tâche ou d’un problème déclenche les modifications suivantes :
 
-* La date de validation est renseignée dans le flux de mise à jour de la tâche ou du problème.
+* Le changement de date de validation est renseigné dans l’activité système et dans les onglets Tous de la section Mise à jour de la tâche ou du problème.
 
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
   Le changement de la date de validation s’affiche dans la zone Mises à jour de la tâche ou lorsque l’administrateur Workfront active cette mise à jour dans la zone Flux de mises à jour de la configuration. Pour plus d’informations, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  Si un propriétaire de projet ne souhaite pas accepter la modification, nous lui recommandons de faire part de ses commentaires à l’utilisateur qui propose une nouvelle date à l’aide de l’onglet Commentaires de la section Mises à jour, afin de lui demander de redéfinir la date de validation sur la date planifiée d’origine ou de sélectionner une nouvelle date. Si un propriétaire de projet accepte la modification, il peut ajuster manuellement la date d’achèvement planifiée afin qu’elle corresponde à la date de validation proposée par l’utilisateur affecté à l’élément en modifiant la tâche ou le problème.
+
+  Vous devez avoir accès à la gestion de la tâche ou du problème pour les modifier.
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * La date de fin prévue de la tâche ou du problème est définie sur la même date, car la tâche a maintenant une indication plus précise du moment où elle sera probablement terminée.
 
@@ -67,27 +80,10 @@ La définition de la date de validation d’une tâche ou d’un problème décl
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* Si le propriétaire du projet utilise l’expérience de commentaire héritée, il est informé, dans l’onglet Mises à jour de la tâche, de l’impact de cette modification sur la chronologie du projet et il a la possibilité de mettre à jour la date d’achèvement planifiée de la tâche dans la même zone.
 
-  Cette fonctionnalité n’est pas prise en charge dans la nouvelle expérience de commentaire. Pour plus d’informations, voir [Nouvelle expérience de commentaire](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-  >[!TIP]
-  >
-  >  Le propriétaire du projet n’a pas la possibilité de mettre à jour la date d’achèvement prévue d’un problème, car les dates de problème n’ont aucune incidence sur la durée du projet.
 
-  Si un propriétaire de projet ne souhaite pas accepter la modification, nous lui recommandons de faire part de ses commentaires à l’utilisateur qui propose une nouvelle date afin de lui demander de redéfinir la date de validation sur la date planifiée d’origine, ou de sélectionner une nouvelle date. Si un propriétaire de projet accepte la modification, il peut ajuster manuellement la date d’achèvement planifiée afin qu’elle corresponde à la date de validation proposée par l’utilisateur affecté à l’élément. Ils peuvent également cliquer sur **Définissez la date planifiée sur : &lt; date >** dans la zone Mises à jour , qui définit automatiquement la date d’achèvement planifiée de manière à correspondre à la nouvelle date de validation.
-
-  Vous devez avoir accès à la gestion de la tâche et du projet pour accepter cette modification.
-
-  >[!NOTE]
-  >
-  >Si vous souhaitez voir l’impact de la chronologie du projet en acceptant de modifier la date d’achèvement planifiée de la tâche, cliquez sur **Chronologie du projet**. Cette opération ouvre la liste des tâches dans laquelle vous pouvez évaluer les modifications de date et la chronologie du projet.
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* Le propriétaire du projet est informé dans la zone Notifications qu’une date de validation de tâche a été modifiée.
+* Le propriétaire du projet est informé dans la zone Notifications qu’une tâche ou un problème a été modifié.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 

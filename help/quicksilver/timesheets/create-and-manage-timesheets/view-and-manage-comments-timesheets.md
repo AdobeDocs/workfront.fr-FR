@@ -6,9 +6,9 @@ description: Vous pouvez faire des commentaires sur les feuilles de temps, les t
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -92,6 +92,15 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps. Commenter
 
 1. (Facultatif) Cliquez sur le **Activité du système** pour examiner les mises à jour générées par le système.
 
+   Ou
+
+   Cliquez sur le bouton **Tous** pour afficher l’activité du système et les commentaires des utilisateurs dans un ordre chronologique.
+
+   >[!TIP]
+   >
+   >   L’onglet Toutes est en lecture seule et vous ne pouvez pas y répondre.
+
+
    Pour plus d’informations, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Commentaire sur une entrée d’heure dans une feuille de temps {#comment-on-an-individual-hour-entry-in-a-timesheet}
@@ -139,7 +148,7 @@ Vous ne pouvez commenter que les tâches et les problèmes d’une feuille de te
 1. Cliquez sur [!UICONTROL **Feuilles de temps**].
 1. Accédez à la feuille de temps dans laquelle vous souhaitez faire un commentaire, puis cliquez sur [!UICONTROL **Feuille de calcul**] dans le panneau de gauche.
 1. Cliquez sur la ligne d’une tâche ou d’un problème, puis cliquez sur [!UICONTROL **Résumé ouvert**].
-1. Commencez à saisir une mise à jour dans la variable [!UICONTROL **Mises à jour**] dans le panneau Résumé, puis cliquez sur [!UICONTROL **Mettre à jour**].
+1. Commencez à saisir une mise à jour dans la variable [!UICONTROL **Mises à jour**] dans le panneau Résumé, puis cliquez sur [!UICONTROL **Envoyer**].
 La mise à jour s’affiche dans la section Mises à jour de la tâche et du problème.
 1. (Facultatif) Cliquez sur [!UICONTROL **Fermer le résumé**] pour fermer le panneau Résumé.
 

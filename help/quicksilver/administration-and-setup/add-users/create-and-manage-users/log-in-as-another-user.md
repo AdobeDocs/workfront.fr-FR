@@ -1,5 +1,5 @@
 ---
-title: Connexion en tant qu’autre utilisateur
+title: Se connecter sous une autre identité
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 0%
+source-wordcount: '794'
+ht-degree: 1%
 
 ---
 
-# Connexion en tant qu’autre utilisateur
+# Se connecter sous une autre identité
 
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
@@ -61,7 +61,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -90,7 +90,7 @@ Les étapes de cet article doivent être les suivantes :
    >   
    >* Vous ne pouvez pas réinitialiser le mot de passe d’un administrateur Workfront.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Connexion en tant que**.
 

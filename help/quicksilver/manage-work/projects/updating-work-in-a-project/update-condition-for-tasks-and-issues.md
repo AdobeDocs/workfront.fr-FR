@@ -6,9 +6,9 @@ description: La condition d’une tâche ou d’un problème est un indicateur q
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -68,10 +68,7 @@ Pour les licences actuelles :
 
 Les conditions s’affichent sous la forme d’un indicateur associé à des tâches ou des problèmes. Elles peuvent également être associées à un nombre qui peut s’afficher dans les rapports au lieu du libellé. Pour plus d’informations sur l’association de conditions à des nombres, voir [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-Vous pouvez localiser la condition des tâches et des problèmes dans les zones suivantes :
-
-* Zone Tâche et publication Mises à jour , dans une mise à jour, lorsque vous êtes affecté à la tâche ou au problème. Ceci n’est pas pris en charge dans la nouvelle expérience de commentaire. Pour plus d’informations, voir [Nouvelle expérience de commentaire](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-* Rapports et listes lorsque vous affichez le champ Condition dans une vue ou un groupement.
+Vous pouvez localiser la condition des tâches et des problèmes dans les rapports et les listes lorsque vous affichez le champ Condition dans un affichage ou un regroupement.
 
 >[!NOTE]
 >
