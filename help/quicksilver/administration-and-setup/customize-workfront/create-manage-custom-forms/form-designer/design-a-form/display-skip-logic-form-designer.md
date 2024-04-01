@@ -7,9 +7,10 @@ description: Vous pouvez choisir quelles sections d’un formulaire personnalis�
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
+source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -124,7 +125,7 @@ La logique d’affichage définit les champs personnalisés qui apparaissent sur
 
 >[!NOTE]
 >
->La logique d’affichage est temporairement indisponible lorsque vous prévisualisez votre formulaire dans le concepteur de formulaires.
+><span class="preview">La logique d’affichage n’est disponible que lorsque vous prévisualisez votre formulaire dans le concepteur de formulaire dans l’environnement Aperçu .</span>
 
 ## Ajout d’une logique de saut à un formulaire personnalisé
 
@@ -158,4 +159,4 @@ La logique Ignorer définit les champs de formulaire personnalisés qui sont ign
 
 >[!NOTE]
 >
->La logique Ignorer est temporairement indisponible lorsque vous prévisualisez votre formulaire dans le concepteur de formulaires.
+><span class="preview">La logique de saut n’est disponible que lorsque vous prévisualisez votre formulaire dans le concepteur de formulaires de l’environnement Aperçu.</span>
