@@ -8,7 +8,8 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e05c5a8889a406d3f28ba520f28c09d5ec1d1099
+exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
+source-git-commit: 142d94929cb31aee51e10373989f48347fc61740
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -68,4 +69,6 @@ Lorsqu’une nouvelle version de document est téléchargée, le cycle de révis
 
 ## Envoyer un commentaire
 
-Nous apprécions votre contribution et pensons que votre point de vue est essentiel pour nous aider à créer le meilleur produit possible. Comme vous avez des commentaires spécifiques sur ce qui serait nécessaire pour que votre entreprise adopte cette solution en production, envoyez-la à [etienneb@adobe.com](mailto:etienneb@adobe.com).
+Nous apprécions votre contribution et pensons que votre point de vue est essentiel pour nous aider à créer le meilleur produit possible.
+
+Comme vous avez des commentaires spécifiques sur ce qui serait nécessaire pour que votre entreprise adopte cette solution en production, envoyez-la à [etienneb@adobe.com](mailto:etienneb@adobe.com).
