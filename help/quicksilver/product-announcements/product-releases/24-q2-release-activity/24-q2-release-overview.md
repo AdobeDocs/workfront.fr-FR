@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 876991bab19d065257802a903adf432e420fcc44
+source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 0%
@@ -569,3 +569,4 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées lors
 ### Mises à jour de formation
 
 Découvrez les dernières mises à jour apportées aux programmes d’apprentissage, aux parcours de formation, aux vidéos et aux guides de chaque version de produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section &quot;Nouveautés&quot; du [Page Tutorials Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+
