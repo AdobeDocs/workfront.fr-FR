@@ -4,9 +4,10 @@ description: Amélioration du flux de mise à jour et des notifications du deuxi
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées au flux de mise à jour et aux notifications de la version du deuxième trimestre 2024 à l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production, comme indiqué.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 2024 du deuxième trimestre, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## L’accès à la zone de commentaires héritée a été supprimé.
+
+>[!NOTE]
+>
+>Version d’aperçu : 1er avril 2024 ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+
+Nous avons supprimé le bouton &quot;Nouveau commentaire&quot; dans la zone Mises à jour pour les projets, les tâches, les problèmes et les documents. Le nouveau commentaire est désormais la seule option par défaut pour ces objets. Grâce à cette modification, vous ne pouvez plus revenir à l’expérience de commentaires héritée.
+
+Pour plus d’informations, voir [Nouvelle expérience de commentaire](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Nouveau flux de commentaires désormais disponible dans les actions rapides pour les nouveaux widgets d’accueil
 

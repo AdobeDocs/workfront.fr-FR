@@ -4,9 +4,10 @@ description: Améliorations apportées à l’administrateur au deuxième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Cette page décrit toutes les améliorations apportées à l’administrateur à la version du deuxième trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production, comme indiqué.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 2024 du deuxième trimestre, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## La logique d’affichage et la logique de saut sont désormais disponibles en mode d’aperçu du concepteur de formulaires.
+
+>[!NOTE]
+>
+>Version d’aperçu : 28 mars 2024 ; Production pour tous les clients : 24.4 (avril 2024)
+
+Le concepteur de formulaire personnalisé bêta vous permet désormais de tester votre logique d’affichage et d’ignorer la logique en mode d’aperçu. Auparavant, tous les champs s’affichaient dans l’aperçu même lorsque la logique était appliquée.
+
+Pour plus d’informations sur la prévisualisation d’un formulaire personnalisé dans le concepteur de formulaire, voir [Organisation et prévisualisation d’un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Les entreprises et les utilisateurs prennent désormais en charge les champs de formulaire personnalisés avancés.
 

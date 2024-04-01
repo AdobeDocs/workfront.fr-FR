@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 1%
 
 ---
@@ -101,13 +101,13 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
       </ul>
       <p>Une fois que vous avez sélectionné le widget que vous souhaitez modifier, les options disponibles s’affichent à droite. Ces options incluent les suivantes : <b>Filtres</b>, <b>Colonnes</b>, et <b>Groupes</b>. Vous pouvez :</p>
       <ul>
-      <li><p><b>Sélectionnez les filtres, colonnes ou groupes qui seront disponibles pour les utilisateurs :</b></p>
-      <p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les utilisateurs puissent utiliser. Les options non cochées ne s’affichent pas pour les utilisateurs.</li></p>     
-    <p>
+      <li><p><b>Sélectionnez Filtres, Colonnes ou Groupes disponibles pour les utilisateurs et triez-les :</b></p>
+      <p>Cochez la case en regard de toutes les options de la liste que vous souhaitez que les utilisateurs puissent utiliser. Les options non cochées ne s’affichent pas pour les utilisateurs. Faites glisser les options de la liste pour définir un ordre.</li></p>
+      <p>
 
 >[!IMPORTANT]
 >
->Les utilisateurs doivent disposer de l’accès Créer pour les vues afin que les configurations de colonne s’appliquent correctement à leurs widgets.
+>Les utilisateurs doivent au moins disposer de l’option Créer l’accès aux vues pour que la configuration des colonnes de l’administrateur s’applique correctement à leurs nouvelles pages d’accueil.
 
 </p>
       <li><p><b>Définissez un filtre ou un groupe par défaut pour le widget :</b></p>
