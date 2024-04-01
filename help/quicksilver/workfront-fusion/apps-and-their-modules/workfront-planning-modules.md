@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ Ce module de déclenchement lance un scénario lorsqu’un enregistrement, un ty
       <td role="rowheader">[!UICONTROL Type d’objet]</td>
       <td>Indiquez si vous souhaitez consulter des enregistrements, des types d’enregistrement ou des espaces de travail.</td>
     </tr>
+     <tr data-mc-conditions=""> 
+      <td> <p>Filtres [!UICONTROL Événements]</p> </td> 
+      <td> <p>Vous pouvez définir des filtres pour ne surveiller que les enregistrements qui répondent aux critères sélectionnés.</p> <p>Pour chaque filtre, saisissez le champ que le filtre doit évaluer, l’opérateur et la valeur que le filtre doit autoriser. Vous pouvez utiliser plusieurs filtres en ajoutant des règles ET.</p> <p>Remarque : Vous ne pouvez pas modifier les filtres dans les [!DNL Workfront] webhooks. Pour configurer différents filtres pour [!DNL Workfront] abonnements aux événements, supprimez le webhook actuel et créez-en un nouveau.</p> <p>Pour plus d’informations sur les filtres d’événements, voir <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Filtres d’abonnement aux événements dans [!DNL Workfront] &gt; Modules [!UICONTROL Watch Events]</a> dans l’article Modules Workfront .</p> </td> 
+     </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objets à surveiller]</td>
       <td>Indiquez si vous souhaitez vérifier les nouvelles données. des enregistrements mis à jour, nouveaux et mis à jour ou supprimés.</td>
