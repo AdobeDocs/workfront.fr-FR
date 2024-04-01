@@ -6,14 +6,16 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 8%
+source-wordcount: '1131'
+ht-degree: 5%
 
 ---
 
 # Prise en main de la nouvelle page d’accueil
+
+
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’u
     Affiche toutes les approbations affectées ou déléguées en attente, un bouton pour déléguer des approbations et des boutons pour prendre des décisions d’approbation directement dans le widget.
 
 * **Toutes les validations**\
-    Affiche toutes les approbations de votre organisation dans un tableau avec des colonnes personnalisables, ainsi qu’une barre de recherche qui vous permet de rechercher des approbations spécifiques.
+        <span class="preview"> Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des listes de vues des approbations en attente et en retard.</span> <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.</span>
 
 * **Autorisations en attente**\
     Affiche les approbations affectées à un document sur un projet dont vous êtes responsable. Ici, vous pouvez afficher l’état d’approbation et rappeler aux utilisateurs des révisions et des approbations incomplètes. <span style="color: #ff0000;">Cette fonctionnalité fait partie d’une version par étapes et est actuellement disponible uniquement pour des clients spécifiques.</span>
