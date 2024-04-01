@@ -1,13 +1,13 @@
 ---
 title: Exemple de connexion de types d'enregistrements et d'enregistrements
-description: Cet article décrit comment créer une connexion entre un type d’enregistrement Adobe Maestro et un type d’objet de projet Workfront. Il décrit également comment vous pouvez connecter un enregistrement Maestro à un projet individuel.
+description: Cet article décrit comment créer une connexion entre un type d’enregistrement Adobe Workforce Planning et un type d’objet de projet Workfront. Il décrit également comment vous pouvez connecter un enregistrement de planification Workfront à un projet individuel.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,22 @@ ht-degree: 0%
 
 Cet article décrit un exemple des éléments suivants :
 
-* Comment créer une connexion entre deux types d’enregistrements Maestro et deux enregistrements Maestro.
+* Comment créer une connexion entre deux types d’enregistrements de la planification Workfront et deux enregistrements.
 
-* Comment créer une connexion entre un type d’enregistrement Adobe Maestro et un type d’objet de projet Workfront, ainsi qu’une connexion entre un enregistrement Maestro et un projet.
+* Comment créer une connexion entre un type d’enregistrement Workfront Planning et un type d’objet de projet Workfront, ainsi qu’une connexion entre un enregistrement et un projet.
 
 Pour plus d’informations, reportez-vous également aux articles suivants :
 
 * [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
-* [Connexion d’enregistrements](../records/connect-records.md)
+* [Connecter les enregistrements](../records/connect-records.md)
 
-## Connexion de deux types d’enregistrements et d’enregistrements Maestro (exemple)
+## Connexion de deux types d’enregistrements et d’enregistrements Workfront Planning (exemple)
 
 Par exemple, vous avez un type d’enregistrement nommé Campaign comme type d’enregistrement d’origine.
 
 Vous disposez également d’un autre type d’enregistrement appelé Produit, qui comporte un champ de devise appelé Budget.
 
-Vous souhaitez créer un champ sur le type d&#39;enregistrement de la campagne, dans lequel vous pouvez afficher les valeurs du champ Budget sur le type d&#39;enregistrement Produit.
+Vous souhaitez créer un champ sur le type d&#39;enregistrement de la campagne où vous pourrez afficher les valeurs du champ Budget du type d&#39;enregistrement Produit.
 
 Pour ce faire :
 
@@ -42,9 +42,9 @@ Pour ce faire :
 1. Ajoutez les informations suivantes, par exemple :
 
    * **Type d’enregistrement**: produit <!--did they change the casing here?-->
-   * **Nom**: informations sur le produit. Il s’agit du nom du champ d’enregistrement lié.
-   * **Description**: il s’agit des produits auxquels mes campagnes doivent être associées.
-   * **Autoriser plusieurs enregistrements**: si vous laissez cette option sélectionnée, les utilisateurs pourront ainsi sélectionner plusieurs enregistrements lorsque le champ de type d’enregistrement associé (Informations sur les produits) s’affichera sur les enregistrements d’origine (Campagnes). Dans notre cas, ils pourront sélectionner plusieurs produits à connecter à une seule campagne.
+   * **Nom**: attribuez un nom au nouveau champ. Par exemple, &quot;Informations sur le produit&quot;. Il s’agit du nom du champ d’enregistrement lié.
+   * **Description**: ajoutez une description pour le nouveau champ. Par exemple, &quot;Il s’agit des produits auxquels mes campagnes doivent être associées.&quot; La description du champ s’affiche lorsque vous pointez sur le champ dans l’en-tête de colonne.
+   * **Autoriser plusieurs enregistrements**: si vous laissez cette option sélectionnée, les utilisateurs pourront ainsi sélectionner plusieurs enregistrements lorsque le champ de type d’enregistrement associé (Informations sur les produits) s’affichera sur les enregistrements d’origine (Campagnes). Dans notre cas, les utilisateurs peuvent sélectionner plusieurs produits à connecter à une seule campagne.
    * **Sélectionner les champs de recherche**: si vous laissez cette option sélectionnée, la variable **Ajouter des champs de recherche** s’ouvre ensuite pour vous permettre de lier les champs Produit au type d’enregistrement Campaign. Cliquez sur **Ignorer** pour ignorer cette étape et ajouter des champs de produit ultérieurement.
 
    ![](assets/new-connection-with-product-record-type.png)
@@ -57,16 +57,16 @@ Pour ce faire :
    >
    >    Si vous souhaitez afficher le budget de tous les produits sélectionnés sous la forme d’un nombre total, sélectionnez **SUM** dans le menu déroulant situé à droite du nom du champ. Lorsque les utilisateurs sélectionnent plusieurs produits dans la variable **Informations sur les produits** champ enregistrement lié, le champ **Budget (à partir des informations sur le produit)** ajoute toutes leurs valeurs Budget et affiche le total. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Si vous sélectionnez **Aucun**, au lieu de **SUM**, les budgets individuels s’affichent séparés par des virgules.
+   > Si vous sélectionnez **Aucun**, au lieu de **SUM**, les budgets individuels des produits sélectionnés s’affichent séparés par des virgules.
 
    Cela génère les champs suivants :
 
-   * Dans la vue Tableau des enregistrements de campagne et dans la page Détails d&#39;une campagne :
+   * Dans la vue de la table des enregistrements Campaign et dans la page d&#39;enregistrement Campaign d&#39;une campagne :
 
-      * **Informations sur les produits** (le champ enregistrement associé) : affiche le ou les noms des Produits.
+      * **Informations sur les produits** (le champ enregistrement associé) : affiche le ou les noms des Produits lors de leur ajout.
       * **Budget (à partir des informations sur le produit)** (le champ associé) : affiche les budgets des produits sélectionnés dans le champ Informations sur les produits .
 
-   * Dans la vue Tableau des enregistrements de produit et dans la page Détails d’un produit :
+   * Dans la vue Tableau des enregistrements de produit et dans la page Enregistrement de produit d’un produit :
 
       * **Campagne**: indique que le type d’enregistrement Produit est lié au type d’enregistrement Campaign.
 
@@ -88,7 +88,7 @@ Pour ce faire :
    * Commencez à saisir le nom d’un produit et cliquez dessus lorsqu’il s’affiche dans la liste. Le produit est ajouté automatiquement.
    * Cliquez sur **Afficher tout** pour afficher tous les produits.
 
-1. (Conditionnel) Si vous avez cliqué sur **Tout sélectionner** à l’étape précédente, la variable **Connexion d’objets** s’affiche.
+1. (Conditionnel) Si vous avez cliqué sur **Afficher tout** à l’étape précédente, la variable **Connexion d’objets** s’affiche.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -100,7 +100,7 @@ Pour ce faire :
 
    >[!TIP]
    >
-   >    Vous pouvez ouvrir la page Détails d’une campagne, rechercher le champ d’enregistrement associé et cliquer sur le bouton **+** dans le champ pour ajouter des produits du type d’enregistrement de produit connecté.
+   >    Vous pouvez ouvrir la page d’enregistrement d’une campagne, rechercher le champ d’enregistrement associé et cliquer sur le bouton **+** dans le champ pour ajouter des produits du type d’enregistrement de produit connecté.
 
    Les colonnes suivantes sont renseignées dans le tableau Type d’enregistrement de campagne :
    * La variable **Informations sur les produits** renseigne pour l’enregistrement Campaign avec les produits sélectionnés.
@@ -110,18 +110,18 @@ Pour ce faire :
 
    >[!TIP]
    >
-   >Lorsque vous ne sélectionnez pas d’agrégateur pour les valeurs multiples, toutes les valeurs s’affichent séparées par des virgules.
+   >Lorsque vous ne sélectionnez pas d’agrégateur pour les différentes valeurs, toutes les valeurs des Produits sélectionnés s’affichent séparées par des virgules.
 
 1. Pour renseigner la variable **Campagne** du champ **Produit** table, répétez les étapes 5 à 7 à partir de la vue table de type enregistrement de produit et en sélectionnant les informations de campagne. Le champ Informations sur les produits sera également mis à jour dans la table de la page Type d’enregistrement Campaign . <!--ensure the step numbers remain correct-->
 
 
-## Connectez un type d’enregistrement Maestro à un type d’objet de projet Workfront et un enregistrement à des projets individuels.
+## Connecter un type d’enregistrement Workfront Planning à un type d’objet de projet Workfront et un enregistrement à des projets individuels
 
 Par exemple, vous avez un type d’enregistrement nommé Campaign comme type d’enregistrement d’origine.
 
 Vous avez également des projets dans Workfront avec un champ appelé &quot;Recettes planifiées&quot;.
 
-Vous souhaitez créer un champ de connexion sur le type d’enregistrement de la campagne, dans lequel vous pouvez afficher les valeurs du champ Recettes planifiées des projets dans Workfront qui sont connectés aux campagnes dans Maestro.
+Vous souhaitez créer un champ de connexion sur le type d&#39;enregistrement de la campagne, dans lequel vous pouvez afficher les valeurs du champ Recettes planifiées des projets dans Workfront qui sont connectés aux campagnes dans Workfront Planning.
 
 Pour ce faire :
 
@@ -130,11 +130,11 @@ Pour ce faire :
 1. Cliquez sur le bouton **+** dans le coin supérieur droit de la vue de tableau pour ajouter un nouveau champ, puis cliquez sur **Nouvelle connexion**, puis cliquez sur **Projet** dans le **Types d’objet Workfront** .
 1. Ajoutez les informations suivantes, par exemple :
 
-   * **Type d’enregistrement**: projet Workfront (à partir de la sous-section Workfront)
-   * **Nom**: informations sur le projet. Il s’agit d’un exemple de ce que vous pouvez appeler le champ d’objet lié.
-   * **Description**: il s’agit des projets auxquels mes campagnes doivent être associées. Il s’agit d’un exemple de description du champ d’enregistrement associé.
+   * **Type d’enregistrement**: projet (à partir de la sous-section Workfront)
+   * **Nom**: attribuez un nom au nouveau champ, par exemple &quot;Informations sur le projet&quot;.
+   * **Description**: ajoutez une description pour le nouveau champ. Par exemple, &quot;Il s’agit des projets auxquels mes campagnes doivent être associées.&quot; La description s’affiche dans la vue du tableau, lorsque vous passez la souris sur le nom du champ dans l’en-tête de colonne.
    * 
-      * **Autoriser plusieurs enregistrements**: si vous laissez cette option sélectionnée, les utilisateurs peuvent sélectionner plusieurs projets lorsque le champ de type de projet lié (informations sur le projet) s’affiche sur les enregistrements d’origine (campagnes).
+      * **Autoriser plusieurs enregistrements**: en laissant cette option sélectionnée, les utilisateurs peuvent sélectionner plusieurs projets lorsque le champ de type de projet lié (Informations sur le projet) s’affiche sur les enregistrements d’origine (Campagnes).
    * **Sélectionner les champs de recherche**: si vous laissez cette option sélectionnée, la variable **Ajouter des champs de recherche** s’ouvre ensuite pour vous permettre de lier les champs du projet au type d’enregistrement Campaign. Cliquez sur **Ignorer** pour ignorer cette étape et ajouter des champs Projet ultérieurement.
 
    ![](assets/new-connection-tab-with-workfront-option.png)
@@ -151,7 +151,7 @@ Pour ce faire :
 
    Cela génère les champs suivants :
 
-   * Dans la vue Tableau des enregistrements de campagne et dans la page Détails d&#39;une campagne :
+   * Dans la vue de la table des enregistrements Campaign et dans la page d’enregistrement Campaign :
 
       * **Informations sur le projet** (le champ d’objet lié) : affiche le ou les noms des projets.
       * **Recettes prévues (à partir des informations sur le projet)** (le champ correspondant) : affiche les Recettes prévues des projets sélectionnés dans le champ Informations sur le projet .
@@ -172,7 +172,7 @@ Pour ce faire :
    * Commencez à saisir le nom d’un projet et cliquez dessus lorsqu’il s’affiche dans la liste. Le projet est ajouté automatiquement.
    * Cliquez sur **Afficher tout** pour afficher tous les projets.
 
-1. (Conditionnel) Si vous avez cliqué sur **Tout sélectionner** à l’étape précédente, la variable **Connexion d’objets** s’affiche.
+1. (Conditionnel) Si vous avez cliqué sur **Afficher tout** à l’étape précédente, la variable **Connexion d’objets** s’affiche.
 
    ![](assets/connect-projects-larger-box.png)
 
@@ -184,7 +184,7 @@ Pour ce faire :
 
    >[!TIP]
    >
-   >    Vous pouvez ouvrir la page Détails d’une campagne, rechercher le champ de projet lié et cliquer sur le bouton **+** dans le champ pour ajouter des projets à partir du type d’enregistrement de produit connecté.
+   >    Vous pouvez ouvrir la page d’une campagne, rechercher le champ de projet lié et cliquer sur le bouton **+** dans le champ pour ajouter des projets à partir du type d’enregistrement de produit connecté.
 
    Les éléments suivants sont alors ajoutés à l’espace de travail sélectionné :
 
@@ -200,15 +200,15 @@ Pour ce faire :
 
 1. Cliquez sur le nom d’un projet dans le champ d’enregistrement connecté.
 
-   Cela ouvre le projet Maestro en lecture seule. **Détails** page.
-Consultez les informations sur le projet. Seuls les champs de projet sélectionnés s’affichent dans la page Détails.
+   Cela ouvre la page du projet de planification du front de travail en lecture seule.
+Consultez les informations sur le projet. Seuls les champs de projet sélectionnés s’affichent dans la page de l’enregistrement.
 
 1. Cliquez sur **Accéder à la source** dans le coin supérieur droit de l’écran pour ouvrir le projet dans Workfront, si vous disposez au moins des autorisations d’affichage sur le projet.
 1. (Facultatif) Mettez à jour les informations sur le projet dans Workfront, si vous êtes autorisé à le faire.
 
-1. Dans la vue du tableau Campagne , passez la souris sur le **Informations sur le projet** en-tête de champ, puis cliquez sur la flèche pointant vers le bas, puis sur **Modifier les champs de recherche.**
-1. Cliquez sur le bouton **+** de tous les champs de projet que vous souhaitez ajouter à l’enregistrement Workfront Project Manager dans la variable **Champs non sélectionnés** .
-1. Cliquez sur le bouton **-** pour tous les champs de projet que vous souhaitez supprimer de l’enregistrement Workfront Project Manager dans la variable **Champs sélectionnés** .
+1. (Facultatif) Dans la vue Tableau des campagnes, passez la souris sur le **Informations sur le projet** en-tête de champ, puis cliquez sur la flèche pointant vers le bas, puis sur **Modifier les champs de recherche.**
+1. Cliquez sur le bouton **+** pour tous les champs de projet que vous souhaitez ajouter à l’enregistrement de planification Workfront du projet dans la variable **Champs non sélectionnés** .
+1. Cliquez sur le bouton **-** pour tous les champs de projet que vous souhaitez supprimer de l’enregistrement de planification de projet Workfront dans la variable **Champs sélectionnés** .
 1. Cliquer sur **Enregistrer**.
 
    Des champs liés supplémentaires sont ajoutés au type d’enregistrement Campaign.

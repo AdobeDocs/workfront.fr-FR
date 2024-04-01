@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+source-git-commit: ab281b92279d429f13a17326cdb0adca4e219daf
 workflow-type: tm+mt
-source-wordcount: '14042'
+source-wordcount: '14047'
 ht-degree: 1%
 
 ---
@@ -2049,7 +2049,7 @@ ht-degree: 1%
       * [Supprimer des champs](maestro/fields/delete-fields.md)
       * [Champs de formule - Aperçu](maestro/fields/formula-fields.md)
    * Accès à Adobe Maestro {#adobe-maestro-access}
-      * [Informations d’accès](maestro/access/access-information.md)
+      * [Informations d’accès à la planification Adobe Workfront : index des articles](maestro/access/access-information.md)
       * [Présentation de l’accès](maestro/access/access-overview.md)
       * [Présentation du partage des autorisations dans les fonctionnalités de planification d’Adobe Workfront](maestro/access/sharing-permissions-overview.md)
       * [Présentation du type de licence lors de l’utilisation de la planification Adobe Workfront](maestro/access/license-type-overview.md)

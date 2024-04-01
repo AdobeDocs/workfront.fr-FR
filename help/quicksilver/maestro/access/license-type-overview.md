@@ -1,29 +1,31 @@
 ---
-title: Présentation du type de licence lors de l’utilisation de la planification Adobe Workfront
-description: Votre accès à la planification Adobe Workfront dépend de votre type de licence, en plus de vos autorisations d’accès aux objets.
+title: Présentation du type de licence lors de l’utilisation d’Adobe Workfront Planning
+description: Votre accès à Adobe Workfront Planning dépend de votre type de licence, en plus de vos autorisations d’accès aux objets.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront planning. -->
-<!--update the title and the metadata title if Workfront planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
+<!--update the title and the metadata title if Workfront Planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
-# Présentation du type de licence lors de l’utilisation de la planification Adobe Workfront
+# Présentation du type de licence lors de l’utilisation d’Adobe Workfront Planning
 
 {{maestro-important-intro}}
 
-Votre type de licence Adobe Workfront fonctionne conjointement avec vos autorisations de planification Adobe Workfront pour vous permettre d’afficher, de contribuer ou de gérer des espaces de travail ou des vues. <!--add more objects here when we can grant other object-specific permissions-->
+Votre type de licence Adobe Workfront fonctionne conjointement avec vos autorisations de planification Adobe Workfront pour vous permettre d’afficher, de contribuer ou de gérer des espaces de travail. <!--add more objects here when we can grant other object-specific permissions-->
 
-Cet article décrit les types de licences nécessaires et l’accès accordé aux objets en fonction de chaque type de licence.
+Les utilisateurs disposant de tous les types de licence peuvent afficher, créer, modifier ou gérer des vues de la planification Workfront.
 
-Un utilisateur de type de licence de niveau inférieur dispose d’autorisations limitées sur les objets lors de l’utilisation des fonctionnalités de planification de Workfront.
+Cet article décrit les types de licences nécessaires dans Workfront et les autorisations accordées aux objets dans Workfront Planning en fonction de chaque type de licence.
+
+Un utilisateur de type de licence de niveau inférieur dispose d’autorisations limitées sur les objets lors de l’utilisation des fonctionnalités de planification Workfront.
 
 >[!INFO]
 >
@@ -34,11 +36,11 @@ Un utilisateur de type de licence de niveau inférieur dispose d’autorisations
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Pour plus d’informations sur les autorisations d’objets dans la planification Workfront, voir [Présentation du partage des autorisations dans la planification d’Adobe Workfront](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Pour plus d’informations sur les autorisations d’objets dans Workfront Planning, voir [Présentation du partage des autorisations dans Adobe Workfront Planning](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-## Relation entre les types de licence Workfront et les autorisations de planification Workfront
+## Relation entre les types de licence Workfront et les autorisations Workfront Planning
 
-Le tableau suivant décrit la relation entre le type de licence d’un utilisateur et le niveau des autorisations que vous pouvez lui accorder en fonction de cette licence :
+Le tableau suivant décrit la relation entre le type de licence d’un utilisateur dans Adobe Workfront et le niveau d’autorisation que vous pouvez lui accorder aux objets Adobe Workfront Planning en fonction de cette licence :
 
 
 | Type de licence Adobe Workfront | Autorisations autorisées dans la planification Adobe Workfront |

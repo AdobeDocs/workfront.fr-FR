@@ -1,14 +1,14 @@
 ---
 title: Présentation de la planification Adobe Workfront
-description: La planification d’Adobe Workfront est une nouvelle offre d’Adobe Workfront. Vous pouvez créer des espaces de travail entièrement personnalisables afin de définir des workflows qui répondent aux besoins de chaque entité organisationnelle de votre entreprise.
+description: Adobe Workfront Planning est une nouvelle offre d’Adobe Workfront. Vous pouvez créer des espaces de travail entièrement personnalisables afin de définir des workflows qui répondent aux besoins de chaque entité organisationnelle de votre entreprise.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 1%
+source-wordcount: '1790'
+ht-degree: 2%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Les informations de cet article font référence à la planification Adobe Workfront, une nouvelle offre d’Adobe Workfront.
+>Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, la planification d’Adobe Workfront fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser ces fonctionnalités.
+>Actuellement, Adobe Workfront Planning fait partie d’un programme bêta qui est ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser ces fonctionnalités.
 >
->Contactez votre gestionnaire de compte pour plus d’informations sur l’adhésion au programme bêta pour la planification Workfront.
+>Pour plus d’informations sur l’inscription au programme bêta de la planification Workfront, contactez le représentant du compte.
 
-<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
+<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Présentation de la planification Adobe Workfront
 
-La planification d’Adobe Workfront est une nouvelle offre d’Adobe Workfront. L’objectif de la planification de Workfront est de déverrouiller une visibilité complète sur les détails opérationnels d’une organisation et de répondre aux questions commerciales essentielles à chaque étape du cycle de vie de la gestion du travail.
+Adobe Workfront Planning est une nouvelle offre d’Adobe Workfront. L’objectif de la planification Workfront est de déverrouiller une visibilité complète sur les détails opérationnels d’une organisation et de répondre aux questions commerciales essentielles à chaque étape du cycle de vie de la gestion du travail.
 
 Les équipes et le leadership doivent avoir des réponses claires aux questions suivantes :
 
@@ -51,7 +51,7 @@ Voici quelques-unes des principales fonctionnalités :
 
 ## Fonctionnalités de planification Adobe Workfront actuellement disponibles
 
-Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans la planification de Workfront, ainsi qu’une chronologie de leur disponibilité. La liste ne contient pas toutes les fonctionnalités.
+Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans la planification Workfront, ainsi qu’une chronologie de leur disponibilité. La liste ne contient pas toutes les fonctionnalités.
 
 Pour plus d’informations sur les nouvelles fonctionnalités et leur date de publication, voir [Activité de mise à jour de la planification Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
 
@@ -77,8 +77,8 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Recherche d’enregistrements dans la vue de chronologie | ✓ |   |
 | Connexion des enregistrements de planification Workfront aux projets, programmes, portefeuilles, entreprises et groupes Workfront | ✓ |                                 |                  |
 | Connexion des enregistrements de planification Workfront aux ressources Adobe Experience Manager | ✓ |                                  |                 |
-| Page Détails de l’enregistrement | ✓ |                                  |                  |
-| Mettre à jour la mise en page de la page Détails de l’enregistrement |                               | ✓ |                  |
+| Enregistrer la page avec des informations détaillées | ✓ |                                  |                  |
+| Mettre à jour la mise en page de la page de l’enregistrement |                               | ✓ |                  |
 | Partage des espaces de travail | ✓ | |  |
 | Partage de vues | ✓ | |  |
 | Duplication de vues | ✓ | |  |
@@ -94,17 +94,17 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 
 ## Activation de la planification Adobe Workfront pour les utilisateurs de votre instance Workfront
 
-Votre entreprise doit s’inscrire au programme bêta de planification fermé d’Adobe Workfront avant de pouvoir accéder aux fonctionnalités de planification. Contactez votre gestionnaire de compte pour en savoir plus sur l’inscription au programme bêta.
+Votre entreprise doit s’inscrire au programme bêta fermé d’Adobe Workfront Planning avant d’accéder aux fonctionnalités de planification. Contactez votre gestionnaire de compte pour en savoir plus sur l’inscription au programme bêta.
 
-Pour plus d’informations sur l’octroi de l’accès à et la possibilité d’utiliser la planification Workfront, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md).
+Pour plus d’informations sur l’octroi de l’accès à et l’autorisation d’autres utilisateurs à l’aide de Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Terminologie de la planification Adobe Workfront
 
-Bien que la planification Workfront fasse partie de Workfront, elle s’accompagne de concepts et de terminologie propriétaires. Assurez-vous de connaître les nouveaux concepts avant de commencer à configurer la planification Workfront pour votre entreprise.
+Bien que Workfront Planning fasse partie de Workfront, il s’accompagne de concepts et de terminologie propriétaires. Assurez-vous de connaître les nouveaux concepts avant de commencer à configurer Workfront Planning pour votre entreprise.
 
 La structure de la planification Workfront est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrement, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre entreprise.
 
-Voici les principaux objets et concepts de planification de Workfront :
+Vous trouverez ci-dessous les principaux objets et concepts de la planification Workfront :
 
 * **Workspace**: collection de types d’enregistrement qui définissent le cycle de vie opérationnel d’une certaine organisation. Un espace de travail est la structure de travail d’une entité organisationnelle.
 
@@ -116,7 +116,7 @@ Voici les principaux objets et concepts de planification de Workfront :
 
 * **Type d’enregistrement**: type d’objet ou planification Workfront.
 
-  Contrairement à Workfront, où les types d’objets sont prédéfinis, dans la planification Workfront, vous pouvez créer vos propres types d’objets.
+  Contrairement à Workfront, où les types d’objets sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d’objets.
 
   Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
 
@@ -138,7 +138,7 @@ Voici les principaux objets et concepts de planification de Workfront :
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  La planification d’Adobe Workfront s’accompagne d’un modèle d’espace de travail Ventes, Marketing et Gestion des produits .
+  Adobe Workfront Planning est fourni avec un modèle d’espace de travail de vente, de marketing et de gestion des produits.
 
   Pour plus d’informations, voir [Créer des espaces de travail](../maestro/architecture/create-workspaces.md).
 
@@ -150,7 +150,7 @@ Voici les principaux objets et concepts de planification de Workfront :
 
    * Les champs que vous ajoutez pour un type d’enregistrement deviennent automatiquement associés à tous les enregistrements de ce type et peuvent être utilisés pour capturer des données sur ces enregistrements.
 
-   * Les champs s’affichent sous forme de colonnes dans la vue Tableau appliquée à une page de type enregistrement. Elles s’affichent également dans la page Détails de l’enregistrement.
+   * Les champs s’affichent sous forme de colonnes dans la vue Tableau appliquée à une page de type enregistrement. Elles s’affichent également dans la page de l’enregistrement.
 
    * Les champs sont propres à un type d’enregistrement et ne sont pas transférés d’un type d’enregistrement à un autre.
 
@@ -184,7 +184,7 @@ Voici les principaux objets et concepts de planification de Workfront :
    * Dernière modification par
    * Date de dernière modification
 
-* **Types d’enregistrement liés**, **Enregistrements liés**, et **Champs d’enregistrement liés**: vous pouvez créer une connexion entre les entités suivantes dans la planification Workfront :
+* **Types d’enregistrement liés**, **Enregistrements liés**, et **Champs d’enregistrement liés**: vous pouvez créer une connexion entre les entités suivantes dans Workfront Planning :
 
    * Deux types d’enregistrement.
    * Un type d’enregistrement et un type d’objet de projet, de programme, de portefeuille, d’entreprise ou de groupe Workfront.
@@ -233,13 +233,14 @@ Voici les principaux objets et concepts de planification de Workfront :
 Pour plus d’informations, voir [Gestion des vues d’enregistrement](../maestro/views/manage-record-views.md).
 
 
-## Limites des objets de planification Adobe Workfront
+## Limites des objets de la planification Adobe Workfront
 
 Le tableau suivant indique les limites du nombre d’objets que vous pouvez créer dans la planification Workfront. Les limites peuvent changer au fur et à mesure que nous entrons dans les phases suivantes de développement.
 
 | Objet de planification Adobe Workfront | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Nombre d’espaces de travail pour une instance Workfront | 1 000 |
+| Nombre de sections pour un espace de travail | 50 |
 | Nombre de types d’enregistrement pour un espace de travail | 1 000 (y compris les types d’enregistrement de toutes les sections et ceux créés lors de l’utilisation d’un modèle d’espace de travail) |
 | Nombre d&#39;enregistrements pour un type d&#39;enregistrement | 50 000 |
 | Nombre de champs pour un type d’enregistrement ou une taxonomie | 500 |
@@ -256,9 +257,9 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 
 ## Localisation de la planification Adobe Workfront
 
-Assurez-vous que votre entreprise a accès à la planification Workfront et que l’administrateur du système ou du groupe a ajouté la zone Planification à votre menu principal. Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md).
+Assurez-vous que votre entreprise a accès à Workfront Planning et que l’administrateur du système ou du groupe a ajouté la zone Planning à votre menu principal. Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md).
 
-Pour localiser la planification Workfront :
+Pour localiser Workfront Planning :
 
 1. Connectez-vous à Adobe Workfront.
 
@@ -288,7 +289,7 @@ Pour localiser la planification Workfront :
 
 ## Activité de mise à jour de la planification Adobe Workfront
 
-Nous publions régulièrement de nouvelles fonctionnalités dans la planification Workfront.
+Nous publions régulièrement de nouvelles fonctionnalités dans Workfront Planning.
 
 Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité de mise à jour de la planification Adobe Workfront](../maestro/release-activity.md).
 

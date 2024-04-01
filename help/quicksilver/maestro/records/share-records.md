@@ -1,13 +1,13 @@
 ---
 title: Partage d’enregistrements
-description: Vous pouvez partager des enregistrements avec d’autres utilisateurs afin d’améliorer votre collaboration.
+description: Vous pouvez partager des enregistrements avec d’autres utilisateurs afin d’accroître la collaboration.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Pour collaborer avec d’autres utilisateurs, vous pouvez partager des enregistrements avec d’autres utilisateurs.
 
-Vous pouvez partager un enregistrement de planification Adobe Workfront comme suit :
+Vous pouvez partager un enregistrement de planification Adobe Workfront de différentes manières :
 
-* Copiez le lien de la page Détails d’un enregistrement dans votre navigateur lorsque la page est ouverte.
+* Copiez le lien de la page d’enregistrement depuis votre navigateur lorsque la page est ouverte.
 
-* Copiez un lien vers la page Détails de l’enregistrement lors de l’affichage d’enregistrements dans la vue de table du type d’enregistrement.
+* Copiez un lien vers la page de l’enregistrement lors de l’affichage des enregistrements dans la vue de table du type d’enregistrement.
 
 * Vous pouvez partager tous les enregistrements d’un espace de travail avec d’autres utilisateurs en partageant l’espace de travail. Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/maestro/access/share-workspaces.md).
 
-Cet article décrit comment copier un lien vers la page Détails d’un enregistrement à partir de la vue table d’un type d’enregistrement.
+Cet article décrit comment copier un lien vers une page d’enregistrement à partir de la vue table d’un type d’enregistrement.
 
 ## Exigences d’accès
 
@@ -50,7 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite dans le programme bêta fermé de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé d’Adobe Workfront Planning. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -124,11 +124,11 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
    Le lien est copié dans le presse-papiers.
 
-1. Collez le lien dans un email, ou une fenêtre de conversation, à partager avec d’autres utilisateurs. Lorsque les utilisateurs reçoivent le lien, il ouvre la page Détails de l’enregistrement.
+1. Collez le lien dans un email, ou une fenêtre de conversation, à partager avec d’autres utilisateurs. Lorsque les utilisateurs reçoivent le lien, il ouvre la page d’enregistrement.
 
    >[!TIP]
    >
-   >Les champs de l’enregistrement dans la page Détails sont les mêmes que ceux disponibles dans la vue Tableau de l’enregistrement.
+   >Les champs de la page d’enregistrement sont les mêmes champs disponibles dans la vue Tableau de l’enregistrement.
 
 
    <!--add there when it will be available: if they have access to this record-->

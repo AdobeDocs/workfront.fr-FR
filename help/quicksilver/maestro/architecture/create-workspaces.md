@@ -1,13 +1,13 @@
 ---
 title: Créer des espaces de travail
-description: Un espace de travail est un ensemble de types d’enregistrement utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans la planification Adobe Workfront.
+description: Un espace de travail est un ensemble de types d’enregistrement utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans la planification Adobe Workfront. Les types d’enregistrement sont organisés par section dans un espace de travail.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Dans la planification d’Adobe Workfront, les espaces de travail sont des emplacements centralisés pour que les équipes puissent planifier le travail.
+Dans Adobe Workfront Planning, les espaces de travail sont des emplacements centralisés pour que les équipes planifient le travail.
 
 Un espace de travail est un ensemble de types d’enregistrement utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans la planification Adobe Workfront.
 
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Adobe Workfront.</p>
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning</p>
 </td>
   </tr>
 
@@ -98,8 +98,12 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 * Vous pouvez créer des espaces de travail pour des entités organisationnelles spécifiques au sein de votre organisation, afin de correspondre au fonctionnement unique de chaque unité.
 * Les types d’enregistrement contenus dans un espace de travail doivent correspondre au cycle de vie du travail d’une entité organisationnelle.
 * Lorsque vous créez un espace de travail, vous seul êtes autorisé à y accéder et à le gérer. Vous devez le partager avec d’autres utilisateurs afin qu’ils puissent collaborer avec vous dans le même espace. Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/maestro/access/share-workspaces.md). Les administrateurs système peuvent gérer tous les espaces de travail, même ceux qu’ils n’ont pas créés.
-* Vous pouvez avoir un maximum de 1 000 espaces de travail dans l’instance Workfront de votre entreprise.
-* Les espaces de travail contiennent des types d’enregistrement uniques à chaque espace de travail. <!--this might change-->
+* Vous pouvez disposer des éléments suivants :
+
+   * Jusqu’à 50 sections dans un seul espace de travail.
+   * Jusqu’à 1 000 types d’enregistrement de toutes les sections dans un espace de travail. Tous les types d’enregistrement sont propres à chaque espace de travail. <!--this might change-->
+   * Jusqu’à 1 000 espaces de travail dans l’instance Workfront de votre entreprise.
+
 
 ## Créer un espace de travail
 
@@ -122,7 +126,7 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Pour plus d’informations sur les modèles d’espace de travail de planification Workfront, voir [Liste des modèles d&#39;espace de travail](../architecture/workspace-templates.md).
+   Pour plus d’informations sur les modèles d’espace de travail de la planification Workfront, voir [Liste des modèles d&#39;espace de travail](../architecture/workspace-templates.md).
 
 1. Cliquez sur **Utiliser un modèle** pour commencer à créer l’espace de travail à partir du modèle sélectionné
 
@@ -140,8 +144,6 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
    Ou
 
    Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png)à droite du nom de l’espace de travail dans l’en-tête, puis cliquez sur **Renommer**.
-
-1. (Facultatif et conditionnel) Si l’espace de travail comporte déjà des sections, cliquez sur **Ajouter une section** pour ajouter une nouvelle section à un espace de travail. Une section peut contenir plusieurs types d’enregistrement.
 
 1. (Facultatif et conditionnel) Si vous avez créé l’espace de travail à partir d’un modèle, cliquez dans le nom de la fonction **Types d’enregistrement opérationnels** ou **Taxonomies** sections
 
@@ -163,8 +165,13 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
    * Cliquez sur **Ajouter une section** au bas de l’espace de travail.
    * Passez la souris sur le nom d’une section, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Ajouter la section ci-dessus** ou **Ajouter la section ci-dessous**.
 
-1. (Facultatif) Cliquez sur **Ajouter un type d’enregistrement** pour ajouter des types d’enregistrement à l’espace de travail.
+1. (Facultatif) Cliquez sur **Ajouter un type d’enregistrement** pour ajouter des types d’enregistrement à l’espace de travail dans n’importe quelle section.
 
    Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
+1. (Facultatif) Pour supprimer une section, procédez comme suit :
 
+   1. Passez la souris sur le nom d’une section, puis cliquez sur l’icône **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Supprimer**. <!--add screen shot when UI is final?-->
+   1. Sélectionnez une nouvelle section pour y déplacer tous les types d’enregistrement, puis cliquez sur **Supprimer**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Tous les types d’enregistrement sont déplacés vers la section de sélection et la section est supprimée.

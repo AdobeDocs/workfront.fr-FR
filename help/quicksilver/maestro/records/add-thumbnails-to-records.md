@@ -1,13 +1,13 @@
 ---
 title: Ajout de miniatures aux enregistrements
-description: Vous pouvez modifier les informations d’enregistrement dans la planification Adobe Workfront et associer chaque enregistrement à des miniatures individuelles afin de les rendre facilement reconnaissables.
+description: Vous pouvez modifier les informations d’enregistrement dans Adobe Workfront Planning et associer chaque enregistrement à des miniatures individuelles afin de les rendre facilement reconnaissables.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Vous pouvez associer des enregistrements à des miniatures uniques dans la planification Adobe Workfront afin de les rendre facilement reconnaissables.
+Vous pouvez associer des enregistrements à des miniatures uniques dans Adobe Workfront Planning afin de les rendre facilement reconnaissables.
 
 Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
 Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour la planification Workfront </p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -93,8 +93,8 @@ Tenez compte des points suivants :
 
    * Le champ principal d’un enregistrement dans la vue de tableau
    * La barre d’enregistrement en mode Chronologie.
-* Vous ne pouvez pas ajouter de miniatures d’enregistrement à partir de la page Détails de l’enregistrement ou en mode Chronologie.
-* Les miniatures ne s’affichent pas dans la page Détails de l’enregistrement.
+* Vous ne pouvez pas ajouter de miniatures d’enregistrement à partir de la page de l’enregistrement ou d’un autre type de vue.
+* Les miniatures ne s’affichent pas sur la page de l’enregistrement.
 
 ## Ajout d’une miniature à un enregistrement
 

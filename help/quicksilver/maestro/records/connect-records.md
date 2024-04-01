@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2353'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Vous pouvez connecter les enregistrements de planification Adobe Workfront les uns aux autres ou aux objets d’autres applications.
+Vous pouvez connecter des enregistrements de planification Adobe Workfront les uns aux autres ou aux objets d’autres applications.
 
 Vous devez d’abord connecter deux types d’enregistrement l’un à l’autre, ou un type d’enregistrement à un type d’objet à partir d’une autre application. Cela crée des champs d’enregistrement liés. Vous pouvez ensuite connecter des enregistrements les uns aux autres ou des enregistrements à d’autres objets à partir d’autres applications à l’aide des champs d’enregistrement liés.
 
@@ -43,7 +43,7 @@ Pour un exemple de connexion des types d’enregistrement, voir [Exemple de conn
 Vous pouvez connecter les éléments suivants :
 
 * Enregistrements de planification Adobe Workfront
-* Enregistrements de planification Adobe Workfront avec des objets provenant d&#39;autres applications.
+* Enregistrements de planification Adobe Workfront avec des objets provenant d’autres applications.
 
   Vous pouvez connecter des enregistrements à des objets des types répertoriés ci-dessous à partir des applications suivantes :
 
@@ -82,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite dans le programme bêta fermé de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé d’Adobe Workfront Planning. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -129,14 +129,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ### Considérations relatives à la connexion des enregistrements
 
-* Une fois que vous avez connecté les types d’enregistrement, les types d’enregistrement connectés s’affichent sous forme de champs d’enregistrement liés dans la table des types d’enregistrement à partir desquels ils sont liés, et dans la page Détails des enregistrements à partir desquels ils sont liés.
+* Une fois que vous avez connecté les types d’enregistrement, les types d’enregistrement connectés s’affichent sous forme de champs d’enregistrement liés dans la table des types d’enregistrement à partir desquels ils sont liés et sur les pages des enregistrements.
 * Vous pouvez parcourir et ajouter des enregistrements et des objets de l’enregistrement et des types d’objets liés à partir des champs d’enregistrement liés.
 * Vous pouvez ajouter des champs des types d’enregistrement liés à la table du type d’enregistrement à partir duquel vous effectuez la liaison.
 * Vous ne pouvez pas mettre à jour manuellement les valeurs des champs liés sur les enregistrements à partir desquels vous effectuez la liaison.
 
-  Les valeurs des champs liés des enregistrements liés renseignent l&#39;enregistrement de planification Workfront à partir duquel vous effectuez une liaison automatique à partir de l&#39;enregistrement ou de l&#39;objet d&#39;origine.
+  Les valeurs des champs liés des enregistrements liés renseignent l’enregistrement Workfront Planning à partir duquel vous effectuez une liaison automatique à partir de l’enregistrement ou de l’objet d’origine.
 
-* Toute personne ayant accès aux autorisations de planification et d’affichage Workfront ou à des autorisations supérieures de l’espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d’autres applications. Ils peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
+* Toute personne ayant accès à Workfront Planning et View ou à des autorisations supérieures de l&#39;espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d&#39;autres applications. Ils peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs, si vous disposez des autorisations de gestion de l’espace de travail dans lequel se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application.
 * Pour lier des enregistrements à d’autres enregistrements ou objets, vous devez disposer des éléments suivants :
@@ -183,7 +183,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    >[!TIP]
    >
-   >    Vous pouvez ouvrir la page Détails d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le bouton **+** dans le champ pour ajouter des enregistrements de l’enregistrement connecté ou du type d’objet.
+   >    Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le bouton **+** dans le champ pour ajouter des enregistrements de l’enregistrement connecté ou du type d’objet.
 
    Les éléments suivants sont ajoutés :
 
@@ -215,7 +215,7 @@ Après avoir créé une connexion entre un type d’enregistrement et un type d�
 
 >[!NOTE]
 >
->Vous ne pouvez pas connecter les objets Workfront aux enregistrements de planification Workfront de Workfront.
+>Vous ne pouvez pas connecter les objets Workfront aux enregistrements Workfront Planning de Workfront.
 
 
 {{step1-to-maestro}}
@@ -260,13 +260,13 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    >[!TIP]
    >
-   >Vous pouvez ouvrir la page Détails d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le bouton **+** dans le champ pour ajouter des objets du type d’objet connecté.
+   >Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le bouton **+** dans le champ pour ajouter des objets du type d’objet connecté.
 
    Pour plus d’informations sur la connexion des types d’enregistrement aux objets d’une autre application, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
 
-1. (Facultatif) Cliquez sur le nom d’un objet Workfront connecté à un enregistrement de planification Workfront dans le champ lié d’une vue de tableau ou dans le champ lié de la variable **Détails** de l’enregistrement.
+1. (Facultatif) Cliquez sur le nom d’un objet Workfront connecté à un enregistrement Workfront Planning dans le champ lié d’une vue de table ou dans le champ lié de la page d’enregistrement.
 
-   Cela ouvre la planification Workfront en lecture seule. **Détails** page de l’objet Workfront lié. Les champs que vous avez sélectionnés comme champs de recherche lorsque vous avez connecté le type d’enregistrement à l’objet Workfront s’affichent dans la page Détails de l’enregistrement de planification Workfront.
+   Cela ouvre la page d’enregistrement de la planification Workfront en lecture seule pour l’objet Workfront lié. Les champs que vous avez sélectionnés comme champs de recherche lorsque vous avez connecté le type d’enregistrement à l’objet Workfront s’affichent dans la page d’enregistrement de Workfront Planning.
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    >
    >* Un champ d’enregistrement lié n’est pas créé pour les objets Workfront liés dans Workfront.
 
-1. (Facultatif) Pour ouvrir l’objet Workfront lié dans Workfront, cliquez sur **Accéder à la source** dans le coin supérieur droit de la page Détails de l’objet Workfront.
+1. (Facultatif) Pour ouvrir l’objet Workfront lié dans Workfront, cliquez sur **Accéder à la source** dans le coin supérieur droit de la page d’enregistrement de l’objet Workfront.
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
@@ -297,7 +297,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 >[!IMPORTANT]
 >
->Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements de planification Workfront à Adobe Experience Manager Assets.
+>Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements Workfront Planning à Adobe Experience Manager Assets.
 >
 >Si vous avez des questions sur l’intégration à Adobe Admin Console, reportez-vous à la section [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -316,7 +316,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    >[!TIP]
    >
-   >  Vous pouvez ajouter des **+** dans le champ d’objet lié de la page Détails de l’enregistrement pour connecter les ressources à l’enregistrement.
+   >  Vous pouvez ajouter des **+** dans le champ d’objet lié de la page d’enregistrement pour connecter les ressources à l’enregistrement.
 
    La variable **Sélectionner les ressources** s’affiche. <!--we might change this to Connect assets-->
 
@@ -346,7 +346,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
      >
      >* Si vous avez activé le paramètre Autoriser plusieurs enregistrements , les valeurs de plusieurs objets s’affichent soit séparées par des virgules, soit agrégées selon l’agrégateur choisi.
      >
-     >* Un champ d’enregistrement lié aux enregistrements liés de planification Workfront n’est pas créé pour les ressources de Experience Manager liées dans l’application Experience Manager Assets.
+     >* Un champ d’enregistrement lié aux enregistrements liés de la planification Workfront n’est pas créé pour les ressources de Experience Manager liées dans l’application Experience Manager Assets.
 
 1. (Facultatif) Accédez au type d’enregistrement à partir duquel vous avez lié Experience Manager Assets et cliquez sur le nom d’une ressource dans le champ d’enregistrement lié. Les détails du Experience Manager de la ressource s’affichent dans une fenêtre contextuelle. <!--update screen shot with hi-rez picture-->
 
@@ -364,7 +364,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    * Date de création
    * Date de modification
 
-1. (Facultatif) Pour ouvrir la page Détails de l’enregistrement des ressources du Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous créez un lien, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre contextuelle, puis cliquez sur le bouton **Ouvrir** icon ![](assets/open-asset-icon.png) pour ouvrir la ressource.
+1. (Facultatif) Pour ouvrir la page d’enregistrement des ressources du Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous créez un lien, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre contextuelle, puis cliquez sur le bouton **Ouvrir** icon ![](assets/open-asset-icon.png) pour ouvrir la ressource.
 
    Cette opération ouvre la ressource du Experience Manager dans Adobe Experience Manager Assets.
 

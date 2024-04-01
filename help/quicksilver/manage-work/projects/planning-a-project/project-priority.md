@@ -7,16 +7,16 @@ description: Il existe plusieurs façons d’utiliser les priorités des projets
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
 
 # Comprendre et mettre à jour les priorités du projet
 
-Il existe plusieurs façons d’utiliser les priorités des projets et elles ne communiquent pas entre elles. Nous vous recommandons de sélectionner l’une des priorités des projets qui correspond à vos besoins et d’y faire référence lorsque vous catégorisez l’importance de vos projets. 
+Il existe plusieurs façons d’utiliser les priorités des projets et elles ne communiquent pas entre elles. Nous vous recommandons de sélectionner l’une des priorités des projets qui correspond à vos besoins et d’y faire référence lorsque vous catégorisez l’importance de vos projets.
 
 ## Exigences d’accès
 
@@ -57,7 +57,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -80,35 +80,35 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 ## Types de priorité de projet dans Adobe Workfront
 
-Voici les types de priorités que vous pouvez utiliser pour classer les projets dans Adobe Workfront :
+Vous trouverez ci-dessous les types de priorités que vous pouvez utiliser pour classer les projets dans Adobe Workfront :
 
-* **Champ Priorité du projet**: Vous pouvez attribuer manuellement une priorité à un projet.
+* **Champ Priorité du projet**: vous pouvez attribuer manuellement une priorité à un projet. Cet article décrit comment attribuer manuellement une priorité à un projet.
 
-   Pour plus d’informations sur le champ Priorité du projet, voir la section [Considérations sur la priorité du projet](#considerations-about-project-priority) dans cet article.
+  Pour plus d’informations, voir la section [Considérations sur la priorité du projet](#considerations-about-project-priority) dans cet article.
 
-* **Priorité d’un projet dans Portfolio Optimizer**, si le projet est associé à un portfolio : 
+* **Priorité d’un projet dans Portfolio Optimizer**, si le projet est associé à un portfolio :
 
-   Pour plus d’informations sur la priorité d’un projet dans Portfolio Optimizer, reportez-vous à l’article . [Hiérarchisation des projets dans Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Pour plus d’informations sur la priorité d’un projet dans Portfolio Optimizer, voir dans l’article [Hiérarchisation des projets dans Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-* **Priorité d’un projet dans le planificateur de ressources**: Vous pouvez hiérarchiser manuellement les projets dans le planificateur de ressources afin d’indiquer les projets qui doivent recevoir des ressources en premier. 
+* **Priorité d’un projet dans le planificateur de ressources**: vous pouvez hiérarchiser manuellement les projets dans le planificateur de ressources afin d’indiquer les projets qui doivent recevoir des ressources en premier.
 
-   Pour plus d’informations sur la priorité des projets dans le planificateur de ressources, voir la section &quot;Priorité de la planification des projets&quot; dans l’article . [Présentation de la navigation de Resource Planner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Pour plus d’informations sur la priorité des projets dans le planificateur de ressources, voir la section &quot;Priorité de la planification des projets&quot; dans l’article . [Présentation de la navigation de Resource Planner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Considérations sur la priorité du projet {#considerations-about-project-priority}
 
-Vous pouvez associer une priorité aux projets dans Workfront. Les tâches et les problèmes ont également des priorités. L’indication d’une priorité du projet communique à tous les membres du système l’importance de ce projet.
+Vous pouvez associer une priorité aux projets dans Workfront. L’indication d’une priorité du projet communique à tous les membres du système l’importance de ce projet.
 
 Tenez compte des points suivants lorsque vous sélectionnez une priorité pour vos projets :
 
-* Votre administrateur Workfront définit les priorités disponibles dans Workfront. Une fois qu’ils ont été créés, ils peuvent être associés à des projets dans le champ Priorité . 
+* Votre administrateur Workfront définit les priorités disponibles dans Workfront. Une fois qu’ils ont été créés, ils peuvent être associés à des projets dans le champ Priorité .
 
-   Pour plus d’informations sur la création de priorités dans Workfront, reportez-vous à l’article . [Créer et personnaliser des priorités](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+  Pour plus d’informations sur la création de priorités dans Workfront, reportez-vous à l’article [Créer et personnaliser des priorités](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-* Lorsque vous mettez à jour le champ Priorité d’un projet, cette Priorité n’est pas transférée à Portfolio Optimizer ni au planificateur de ressources. 
+* Lorsque vous mettez à jour le champ Priorité d’un projet, cette Priorité n’est pas transférée à Portfolio Optimizer ni au planificateur de ressources. Le champ Priorité du projet est simplement un indicateur manuel que vous placez sur le projet pour indiquer son importance pour d’autres utilisateurs.
 * La valeur Priorité d’un projet est principalement utilisée à des fins de création de rapports.
 
-   Par exemple, vous pouvez rechercher tous les projets ayant la valeur de priorité Urgent lorsque vous utilisez ce champ dans un filtre de projet. 
-
+  Par exemple, vous pouvez rechercher tous les projets ayant la valeur de priorité Urgent lorsque vous utilisez ce champ dans un filtre de projet.
+* Les tâches et les problèmes ont également des priorités, mais la tâche, le problème et les priorités de projet fonctionnent indépendamment les uns des autres et ne s’influencent pas automatiquement. Vous pouvez avoir un problème de priorité élevée ou une tâche de priorité moyenne dans un projet de priorité faible.
 * Vous pouvez mettre à jour la Priorité des projets dans les zones suivantes de Workfront :
 
    * Dans le **Modifier le projet** de la boîte de dialogue
@@ -119,7 +119,7 @@ Tenez compte des points suivants lorsque vous sélectionnez une priorité pour v
 
 1. Accédez au projet dont vous souhaitez mettre à jour la priorité.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur le bouton **Modifier** icon ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Présentation**.
+1. Cliquez sur le bouton **Modifier** icon ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Présentation**.
 
 1. Dans le **Priorité** , sélectionnez l’une des options suivantes :
 
@@ -127,7 +127,7 @@ Tenez compte des points suivants lorsque vous sélectionnez une priorité pour v
    * Faible
    * Normal
 
-      Il s’agit de la priorité par défaut.
+     Il s’agit de la priorité par défaut.
 
    * Élevé
    * Urgent

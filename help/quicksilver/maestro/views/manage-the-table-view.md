@@ -1,13 +1,13 @@
 ---
 title: Gestion de la vue de tableau
-description: Vous pouvez afficher les enregistrements et leurs champs dans une vue de tableau, lors de l'accès à la page de type enregistrement dans la planification Adobe Workfront.
+description: Vous pouvez afficher les enregistrements et leurs champs en mode Tableau lors de l’accès à la page de type enregistrement dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2401'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Vous pouvez afficher les enregistrements et leurs champs dans une vue de tableau, lors de l&#39;accès à la page de type enregistrement dans la planification Adobe Workfront.
+Vous pouvez afficher les enregistrements et leurs champs en mode Tableau lors de l’accès à la page de type enregistrement dans Adobe Workfront Planning.
 
 Pour plus d’informations sur les vues d’enregistrement et leur gestion, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -64,6 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
    <p>Quelconque</p> 
+   <p>Les administrateurs système n’ont accès qu’aux vues qu’ils ont créées ou qui sont partagées avec eux. </p>
   </td>
   </tr>
 
@@ -127,7 +128,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Commencez à ajouter des champs (ou des colonnes), comme décrit dans l’article [Créer des champs](../fields/create-fields.md).
 
-   Les colonnes que vous ajoutez sont visibles par tous les utilisateurs qui accèdent au type d&#39;enregistrement et sont ajoutés en tant que nouveaux champs dans la page Détails des enregistrements du type d&#39;enregistrement sélectionné.
+   Les colonnes que vous ajoutez sont visibles par tous les utilisateurs qui accèdent au type d’enregistrement et sont ajoutés en tant que nouveaux champs sur la page de l’enregistrement.
 
 1. Pour réorganiser les colonnes du tableau, effectuez l’une des opérations suivantes :
 
@@ -174,7 +175,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
    >
    >   * Vous ne pouvez pas supprimer ni masquer un champ principal.
    >
-   >   * La valeur indiquée dans le champ principal est toujours liée par un lien hypertexte à la page Détails de l’enregistrement.
+   >   * La valeur indiquée dans le champ principal est toujours liée par un hyperlien à la page de l’enregistrement.
 
 1. Cliquez et faites glisser les lignes de séparation des colonnes et déposez-les à l’emplacement souhaité pour augmenter la largeur des colonnes.
 

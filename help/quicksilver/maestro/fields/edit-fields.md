@@ -1,13 +1,13 @@
 ---
 title: Modifier les champs
-description: Dans la planification Adobe Workfront, vous pouvez modifier les paramètres des champs déjà créés.
+description: Dans Adobe Workfront Planning, vous pouvez modifier les paramètres des champs déjà créés.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,11 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # Modifier les champs
 
 {{maestro-important-intro}}
 
-Vous pouvez modifier les paramètres des champs déjà créés dans la planification Adobe Workfront.
+Vous pouvez modifier les paramètres des champs déjà créés dans Adobe Workfront Planning.
 
 Pour plus d’informations sur la création de champs de planification Adobe Workfront, voir [Créer des champs](../fields/create-fields.md).
 
@@ -40,7 +39,7 @@ Cet article décrit comment modifier les paramètres des champs de planification
 
 * Vous pouvez modifier les champs que vous avez créés ou créés par d’autres utilisateurs, si vous disposez des autorisations de gestion de l’espace de travail auquel ces champs appartiennent.
 * Vous pouvez modifier un champ dans le tableau de type enregistrement.
-* Vous ne pouvez pas modifier un champ sur la page Détails d’un enregistrement ou dans la vue de chronologie.
+* Vous ne pouvez pas modifier un champ sur la page d’enregistrement ou dans la vue de chronologie.
 * Une fois le champ enregistré, vous ne pouvez pas le modifier.
 * Vous ne pouvez pas désélectionner le paramètre Autoriser les nombres négatifs précédemment sélectionné, pour un champ Nombre, Pourcentage ou Devise si des valeurs négatives sont déjà stockées dans les enregistrements auxquels il est rattaché.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -69,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour la planification Workfront</p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour Workfront Planning</p>  
 </td>
   </tr>
 

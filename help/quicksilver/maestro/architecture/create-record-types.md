@@ -1,24 +1,25 @@
 ---
 title: Création de types d’enregistrement
-description: Les types d’enregistrement sont les types d’objet de la planification Adobe Workfront. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les tâches nécessaires au cycle de vie de votre entreprise.
+description: Les types d’enregistrement sont les types d’objets d’Adobe Workfront Planning. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les tâches nécessaires au cycle de vie de votre entreprise.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # Création de types d’enregistrement
 
 {{maestro-important-intro}}
 
-Les types d’enregistrement sont les types d’objet de la planification Adobe Workfront. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les éléments liés au travail nécessaires dans le cycle de vie de votre entreprise.
+Les types d’enregistrement sont les types d’objets d’Adobe Workfront Planning. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les éléments liés au travail nécessaires dans le cycle de vie de votre entreprise.
 Les types d’enregistrement peuvent être parmi les suivants :
 
 Pour plus d’informations sur les types d’enregistrement, voir [Présentation des types d’enregistrement](../architecture/overview-of-record-types-and-taxonomies.md).
@@ -42,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite dans le programme bêta fermé de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé d’Adobe Workfront Planning. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -105,20 +106,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
         >
         >Cette fonctionnalité est temporairement désactivée depuis le 21 mars 2024. Elle sera activée ultérieurement.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manuellement :
 
       * À partir de zéro.
 
-        Cet article décrit comment créer de A à Z des types d’enregistrements génériques dans un espace de travail que vous avez créé de A à Z.
+        Cet article décrit comment créer des types d’enregistrement à partir de zéro.
 
 * Vous pouvez déplacer des types d’enregistrement dans une section et d’une section d’un espace de travail à une autre. Vous ne pouvez pas déplacer des types d’enregistrement d’un espace de travail vers un autre.
 
 ## Création de types d’enregistrement à l’aide d’un modèle d’espace de travail
 
-Vous pouvez créer automatiquement des types d&#39;enregistrement lorsque vous créez un espace de travail à l&#39;aide d&#39;un modèle de planification Workfront. Chaque modèle contient des exemples de types d’enregistrement.
+Vous pouvez créer automatiquement des types d’enregistrement lorsque vous créez un espace de travail à l’aide d’un modèle de planification Workfront . Chaque modèle contient des exemples de types d’enregistrement.
 
 Lorsque vous créez un espace de travail à partir d’un modèle, les types d’enregistrement sont regroupés dans les sections suivantes :
 
@@ -133,17 +134,14 @@ Pour plus d’informations sur les types d’enregistrement inclus dans chaque m
 
 ## Créer entièrement un type d’enregistrement
 
-Cet article décrit comment créer des types d’enregistrement à partir de zéro.
-
 {{step1-to-maestro}}
 
 L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
+1. (Facultatif) Cliquez sur **Ajouter une section** pour ajouter une nouvelle section à l’espace de travail.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
-1. (Conditionnel) Si vous créez un type d’enregistrement opérationnel, cliquez sur **A partir de zéro**.
-
-   La zone Ajouter un type d’enregistrement s’affiche.
+1. (Conditionnel) Lorsque vous créez des types d’enregistrement en important un fichier Excel ou CSV, cliquez sur **A partir de zéro**. Sinon, la variable **Ajouter un type d’enregistrement** s’ouvre.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. Cliquez en dehors du **Ajouter un type d’enregistrement** pour enregistrer le type d’enregistrement.
 
-   La carte de type enregistrement est ajoutée à l’espace de travail que vous avez sélectionné.
+   La carte de type enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionné.
 Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la carte.
 1. (Facultatif) Cliquez sur la carte de type enregistrement pour ouvrir la page de type enregistrement.
 
    ![](assets/operational-record-type-blank.png)
 
-   La page de type enregistrement s’affiche par défaut dans la vue Tableau. Les colonnes du tableau sont des champs associés au nouveau type d’enregistrement. Chaque ligne est un enregistrement unique que vous devez ajouter.
+   La page de type enregistrement s’affiche par défaut dans la vue de tableau. Les colonnes du tableau sont des champs associés au nouveau type d’enregistrement. Chaque ligne est un enregistrement unique que vous devez ajouter.
+
+   >[!TIP]
+   >
+   >    Si vous importez un type d’enregistrement à partir d’un fichier Excel ou CSV, les enregistrements sont également importés.
 
    Par défaut, les champs suivants s&#39;affichent dans les colonnes de vue de tableau d&#39;un type d&#39;enregistrement opérationnel :
 
@@ -183,7 +185,7 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
 
    Pour plus d’informations sur la création de champs, voir [Créer des champs](../fields/create-fields.md).
 
-1. (Facultatif) Cliquez sur la flèche pointant vers la gauche du nom du type d’enregistrement pour revenir à l’espace de travail sélectionné.
+1. (Facultatif) Cliquez sur la flèche pointant vers la gauche du nom du type d’enregistrement, dans l’en-tête, pour revenir à l’espace de travail sélectionné.
 
    La carte de type enregistrement affiche le nombre de champs et de connexions contenus dans le type d’enregistrement.
 
@@ -196,16 +198,15 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
    * [Modification des types d’enregistrement](../architecture/edit-record-types.md)
    * [Gestion des vues d’enregistrement](../views/manage-record-views.md)
 
-1. (Facultatif) Dans l’espace de travail, cliquez sur pour faire glisser et déposer un type d’enregistrement à un emplacement souhaité, ou pour le déplacer vers une autre section.
+1. (Facultatif) Dans l’espace de travail, cliquez sur une carte de type enregistrement et maintenez-la enfoncée pour faire glisser et déposer le type d’enregistrement à un emplacement souhaité, ou pour le déplacer vers une autre section.
 
-   Les modifications sont enregistrées automatiquement, une fois que vous avez déposé la carte de type d’enregistrement sélectionnée.
+   Les modifications sont enregistrées automatiquement.
 
 ## Création de types d’enregistrement à l’aide d’un import de fichier Excel ou CSV
 
 >[!IMPORTANT]
 >
 >Cette fonctionnalité est temporairement désactivée depuis le 21 mars 2024. Elle sera activée ultérieurement.
-
 
 Tenez compte des points suivants lors de l’importation de types d’enregistrement à l’aide d’un fichier Excel ou CSV :
 
@@ -233,7 +234,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    La zone Aperçu et modification s’affiche avec les informations suivantes :
 
-   * Les noms des feuilles ou des types d’enregistrements futurs s’affichent dans le panneau de gauche. Par défaut, la planification Workfront sélectionne une icône et une couleur pour chaque nouveau type d’enregistrement.
+   * Les noms des feuilles ou des types d’enregistrements futurs s’affichent dans le panneau de gauche. Workfront Planning sélectionne par défaut une icône et une couleur pour chaque nouveau type d’enregistrement.
    * La première feuille ou le type d’enregistrement est sélectionné et les noms des champs qui lui sont associés s’affichent sous forme d’en-têtes de colonne. Le type de chaque champ est sélectionné par défaut.
    * Chaque ligne représente un nouvel enregistrement. Seuls les 10 premiers enregistrements s&#39;affichent dans la zone Prévisualisation et édition.
 
@@ -254,7 +255,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. Cliquez sur **Importer** lorsque vous êtes prêt à importer votre fichier.
 
-   Les informations suivantes sont importées dans la planification Workfront :
+   Les informations suivantes sont importées dans Workfront Planning :
 
    * Nouveaux types d’enregistrement
    * Nouveaux champs associés à chaque type d&#39;enregistrement
@@ -262,13 +263,13 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    Vous pouvez commencer à gérer les champs et les enregistrements sur les pages de types d’enregistrement.
 
-   Toute personne ayant accès à la planification Workfront peut désormais afficher et modifier les types d’enregistrements importés et leurs informations. <!--this will change with permissions-->
+   Toute personne ayant accès à Workfront Planning peut désormais afficher et modifier les types d’enregistrements importés et leurs informations. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

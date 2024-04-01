@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Dans la planification d’Adobe Workfront, les espaces de travail sont des emplacements centralisés pour que les équipes puissent planifier le travail. Pour plus d’informations, voir [Créer des espaces de travail](../architecture/delete-workspaces.md).
+Dans Adobe Workfront Planning, les espaces de travail sont des emplacements centralisés pour que les équipes planifient le travail. Pour plus d’informations, voir [Créer des espaces de travail](../architecture/delete-workspaces.md).
 
 Vous pouvez supprimer les espaces de travail qui ne sont plus pertinents.
 
@@ -62,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Adobe Workfront.</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
 

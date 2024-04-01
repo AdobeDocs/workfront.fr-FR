@@ -1,13 +1,13 @@
 ---
 title: Gestion des vues d’enregistrement
-description: Vous pouvez afficher les enregistrements dans un tableau, une chronologie ou un calendrier lors de l’utilisation de la planification Adobe Workfront.
+description: Vous pouvez afficher les enregistrements dans un tableau, une chronologie ou un calendrier lors de l’utilisation d’Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Après avoir sélectionné un type d&#39;enregistrement dans la zone de planification Adobe Workfront, vous pouvez afficher tous les enregistrements de ce type dans les vues suivantes :
+Après avoir sélectionné un type d’enregistrement dans la zone de planification Adobe Workfront, vous pouvez afficher tous les enregistrements de ce type dans les vues suivantes :
 
 * Tableau
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite dans le programme bêta fermé de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta fermé d’Adobe Workfront Planning. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
    <p>Quelconque</p> 
+   <p>Les administrateurs système n’ont accès qu’aux vues qu’ils ont créées ou qui sont partagées avec eux. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront</p>  
 </td>
   </tr>
 
@@ -89,7 +90,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Remarques concernant l’utilisation des vues d’enregistrement
 
-* Les vues dans la planification Workfront sont spécifiques au type d’enregistrement. Vous ne pouvez pas appliquer la même vue à deux types d’enregistrements différents.
+* Les vues dans Workfront Planning sont spécifiques au type d’enregistrement. Vous ne pouvez pas appliquer la même vue à deux types d’enregistrements différents.
 * Les vues que vous créez sont visibles uniquement pour vous et les utilisateurs avec lesquels vous partagez les vues.
 * Lorsque vous modifiez ou supprimez une vue, elle est modifiée et supprimée pour tous les utilisateurs disposant d’autorisations sur la vue.
 * Les éléments suivants sont propres à chaque vue d’enregistrement :
@@ -104,7 +105,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
   >[!NOTE]
   >
-  > La planification Adobe Workfront étant actuellement en version bêta, certains éléments de vue peuvent ne pas être disponibles pour toutes les vues.
+  > Comme Adobe Workfront Planning est actuellement en version bêta, certains éléments de vue peuvent ne pas être disponibles pour toutes les vues.
 
 Cet article décrit les informations suivantes sur les vues d’enregistrement :
 
@@ -138,7 +139,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Regroupements de codes couleur |           | ✓ |
 | Recherche d’enregistrements spécifiques | ✓ | ✓ |
 | Partager la vue | ✓ | ✓ | ✓ |
-| Ouvrez la page Détails de l’enregistrement à partir de la vue . | ✓ | ✓ |    |
+| Ouvrez la page de l’enregistrement à partir de la vue . | ✓ | ✓ |    |
 
 
 ## Créer ou modifier des vues {#create-or-edit-views}

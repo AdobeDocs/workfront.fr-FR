@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Vous pouvez ajouter de nouveaux champs dans la planification Adobe Workfront qui
 
 ## Observations relatives aux champs de planification Adobe Workfront
 
-* Vous ne pouvez créer des champs qu’à partir de la vue de tableau d’une page de type enregistrement. Les champs s’affichent sous forme de colonnes dans la vue de tableau. Tous les champs associés à un type d&#39;enregistrement s&#39;affichent également dans la page Détails de chaque enregistrement de ce type.
+* Vous ne pouvez créer des champs qu’à partir de la vue de tableau d’une page de type enregistrement. Les champs s’affichent sous forme de colonnes dans la vue de tableau. Tous les champs associés à un type d’enregistrement s’affichent également dans la page d’enregistrement.
 
   Pour plus d’informations sur la gestion des colonnes de tableau (ou des champs d’enregistrement), voir [Gestion de la vue de tableau](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ Vous pouvez ajouter de nouveaux champs dans la planification Adobe Workfront qui
 
    * Manuellement :
 
-      * En ajoutant des colonnes dans la vue de tableau d’une page de type enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page Détails d’un enregistrement.
+      * En ajoutant des colonnes dans la vue de tableau d’une page de type enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page d’un enregistrement.
 
-        Vous ne pouvez pas créer de champs à partir de la page Détails d’un enregistrement.
-
-        Cet article décrit comment créer manuellement des champs.
+        Vous ne pouvez pas créer de champs à partir de la page de l’enregistrement.
 
       * En connectant les types d’enregistrement. Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement ou un type d’enregistrement et un type d’objet à partir d’autres applications.
 
@@ -81,11 +79,11 @@ Vous pouvez ajouter de nouveaux champs dans la planification Adobe Workfront qui
 
         Vous pouvez ajouter d’autres valeurs ou renommer les valeurs existantes.
 
-     La planification Workfront crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle. Pour plus d’informations, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
+     Workfront Planning crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle. Pour plus d’informations, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
 
-* Les champs de planification de Workfront ne sont pas accessibles à partir de Workfront.
+* Les champs de planification Workfront ne sont pas accessibles à partir de Workfront.
 
-* Les champs Workfront sont accessibles à partir de la planification Workfront uniquement lorsque vous connectez des types d’enregistrement à des types d’objets Workfront et ajoutez des champs liés ou de recherche à partir d’objets Workfront. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
+* Les champs Workfront sont accessibles à partir de Workfront Planning uniquement lorsque vous connectez des types d’enregistrement à des types d’objets Workfront et ajoutez des champs liés ou de recherche à partir d’objets Workfront. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
 
 * Vous pouvez afficher et mettre à jour les paramètres des champs que vous ou tout autre utilisateur avez créés, si vous disposez des autorisations de gestion pour l’espace de travail auquel le champ appartient.
 

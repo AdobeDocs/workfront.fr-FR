@@ -1,11 +1,11 @@
 ---
 title: Supprimer des champs
-description: Dans la planification Adobe Workfront, vous pouvez supprimer des champs personnalisés qui ne sont plus pertinents.
+description: Dans Adobe Workfront Planning, vous pouvez supprimer les champs personnalisés qui ne sont plus pertinents.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -29,13 +29,13 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Dans la planification Adobe Workfront, vous pouvez créer des champs personnalisés pour stocker des informations sur les enregistrements.
+Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour stocker des informations sur les enregistrements.
 
-Pour plus d’informations sur la création de champs personnalisés dans la planification Workfront, voir [Créer des champs](../fields/create-fields.md).
+Pour plus d’informations sur la création de champs personnalisés dans Workfront Planning, voir [Créer des champs](../fields/create-fields.md).
 
 Vous pouvez supprimer les champs de planification Workfront qui ne sont plus pertinents.
 
-## Observations relatives à la suppression des champs de planification Workfront :
+## Remarques concernant la suppression des champs de planification Workfront :
 
 * Vous ne pouvez supprimer un champ que dans la vue de tableau de type enregistrement.
 * Vous ne pouvez pas supprimer le champ principal d’un enregistrement.
@@ -65,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step1-to-maestro}}
 
-Cela ouvre le dernier espace de travail accessible dans la planification Workfront.
+Cela ouvre le dernier espace de travail accessible dans Workfront Planning.
 1. Cliquez sur la carte d’un type d’enregistrement dont vous souhaitez supprimer les champs.
 1. (Conditionnel) Sélectionnez une **Vue Tableau** de la **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
 1. Recherchez le champ à supprimer dans les en-têtes de colonne, survolez l’en-tête de colonne avec la souris, puis cliquez sur la flèche pointant vers le bas située après le nom du champ.

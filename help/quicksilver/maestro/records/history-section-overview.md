@@ -1,13 +1,13 @@
 ---
 title: Présentation de la section Historique
-description: Vous pouvez passer en revue les modifications apportées à l’enregistrement et enregistrées par le système dans le panneau droit d’un enregistrement dans la planification Adobe Workfront.
+description: Vous pouvez passer en revue les modifications apportées à l’enregistrement et enregistrées par le système dans le panneau droit d’un enregistrement dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 4%
 
 ---
@@ -40,17 +40,17 @@ Le dernier espace de travail ouvert par défaut.
 1. Choisissez une vue de tableau parmi les **Affichage** menu déroulant.
 1. Cliquez sur le nom d’un enregistrement dans la vue de tableau.
 
-   Le record **Détails** s’ouvre. La zone Commentaires s’ouvre par défaut dans le panneau de droite.
+   La page de l’enregistrement s’ouvre. La zone Commentaires s’ouvre par défaut dans le panneau de droite.
 1. Cliquez sur le bouton **Afficher l’historique** icon ![](assets/show-history-icon.png). Toutes les modifications apportées aux champs de l’enregistrement s’affichent dans le panneau de droite, en commençant par la plus récente.
 1. (Facultatif) Cliquez sur le **Masquer l’historique** icon ![](assets/hide-history-icon.png) pour fermer le panneau de droite.
 
 ## Observations relatives à la section Historique
 
-Vous pouvez passer en revue les modifications apportées aux champs d’enregistrement dans la section Historique du panneau droit de la page Détails d’un enregistrement.
+Vous pouvez passer en revue les modifications apportées aux champs d’enregistrement dans la section Historique du panneau droit de la page d’un enregistrement.
 
 ![](assets/history-area-in-comments.png)
 
-* La planification Workfront enregistre les informations suivantes dans la section Historique :
+* Workfront Planning enregistre les informations suivantes dans la section Historique :
 
    * Toute modification de champ
 

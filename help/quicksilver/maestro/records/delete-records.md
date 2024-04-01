@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Adobe Workfront. </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Vous pouvez supprimer un enregistrement des zones suivantes :
 
-* [Sur la page Détails d’un enregistrement](#delete-a-record-from-the-records-details-page)
+* [Sur la page de l’enregistrement](#delete-a-record-from-the-records-page)
 * [En mode Tableau d’un type d’enregistrement](#delete-a-record-from-the-record-type-table-view)
 
-### Supprimer un enregistrement de la page Détails de l’enregistrement
+### Supprimer un enregistrement de la page de l’enregistrement
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
      ![](assets/contextual-menu-for-record-row.png)
    * Dans la vue Chronologie, cliquez sur une barre d’enregistrement.
 
-   L&#39;enregistrement **Détails** s’ouvre.
+   La page d’enregistrement s’ouvre.
 
 1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Supprimer**, puis **Supprimer** pour confirmer.
 
@@ -141,7 +141,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) pour ouvrir la zone Détails, cliquez sur **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis **Supprimer**.
+   * Cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) pour ouvrir la boîte contenant les informations détaillées de l’enregistrement, cliquez sur **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis **Supprimer**.
 
    L’enregistrement est supprimé et ne peut pas être récupéré.
 

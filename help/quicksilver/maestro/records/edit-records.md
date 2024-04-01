@@ -1,13 +1,13 @@
 ---
 title: Modifier des enregistrements
-description: Vous pouvez modifier les informations d’enregistrement dans la planification Adobe Workfront. Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
+description: Vous pouvez modifier les informations d’enregistrement dans Adobe Workfront Planning. Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Vous pouvez modifier les informations d&#39;enregistrement dans la planification Adobe Workfront en éditant les valeurs des champs associés aux enregistrements.
+Vous pouvez modifier les informations d&#39;enregistrement dans Adobe Workfront Planning en éditant les valeurs des champs associés aux enregistrements.
 
 Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
 
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour la planification Adobe Workfront</p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -92,8 +92,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Vous pouvez modifier les enregistrements que vous avez créés ou créés par d’autres utilisateurs, si des autorisations vous ont été accordées à l’espace de travail.
 * Vous pouvez modifier les champs d’enregistrement à partir des zones suivantes :
 
-   * La zone Détails d’un enregistrement d’une vue d’enregistrement.
-   * Page Détails d’un enregistrement.
+   * La boîte de l’enregistrement dans une vue d’enregistrement
+   * La page de l’enregistrement
    * En ligne, dans une vue de tableau.
 
 * Les types de champs suivants sont automatiquement mis à jour et vous ne pouvez pas modifier leurs valeurs manuellement :
@@ -109,7 +109,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
 * [En mode Tableau d’un type d’enregistrement](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Sur la page Détails d’un enregistrement](#edit-a-record-from-the-records-details-page)
+* [Dans la zone de l’enregistrement dans une vue](#edit-a-record-from-the-records-box-in-a-view)
+* [Sur la page de l’enregistrement](#edit-a-record-from-the-records-page)
 
 ### Modification d’un enregistrement en ligne dans la vue de tableau d’un type d’enregistrement
 
@@ -165,7 +166,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
    >   * Coller : Ctrl + V ( ⌘ + V pour Mac)
    >* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ d’enregistrement du même type que le champ dans lequel vous collez les informations.
    >
-   >* Vous ne pouvez pas copier et coller de valeurs de champ dans la zone Détails d’un enregistrement. Cette fonctionnalité n’est prise en charge que dans le mode Tableau d’un type d’enregistrement.
+   >* Vous ne pouvez pas copier et coller des valeurs de champ dans la page d’enregistrement. Cette fonctionnalité n’est prise en charge que dans le mode Tableau d’un type d’enregistrement.
    >* Vous ne pouvez pas copier et coller des valeurs de champ pour les types de champ suivants :
    >
    >
@@ -183,9 +184,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 1. (Facultatif) Ajoutez une miniature à un enregistrement. Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Modification d’un enregistrement à partir de la zone Détails de l’enregistrement dans une vue
-
-Vous pouvez modifier un enregistrement à partir de la zone Détails de n’importe quelle vue.
+### Modification d’un enregistrement à partir de la zone de l’enregistrement dans une vue
 
 {{step1-to-maestro}}
 
@@ -201,7 +200,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
    Ou
 
-   Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement ou cliquez sur un nom d’enregistrement. La variable **Détails** s’ouvre dans la vue.
+   Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement ou cliquez sur un nom d’enregistrement. La boîte de l’enregistrement s’ouvre dans la vue.
 
    ![](assets/details-box.png)
 
@@ -209,13 +208,11 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
    >
    >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement dans une vue de tableau uniquement lorsque le champ Nom est un champ principal.
 
-1. Commencez à modifier les informations du champ dans le **Détails** de la boîte. Workfront enregistre automatiquement vos modifications.
+1. Commencez à modifier les informations du champ dans la zone de l’enregistrement. Workfront enregistre automatiquement vos modifications.
 
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit du **Détails** pour ouvrir la zone de l’enregistrement. **Détails** dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page Détails de l’enregistrement](#edit-a-record-from-the-records-details-page) dans cet article.
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) dans cet article.
 
-### Modifier un enregistrement à partir de la page Détails de l’enregistrement
-
-Vous pouvez modifier un enregistrement à partir de la page Détails .
+### Modifier un enregistrement à partir de la page de l’enregistrement
 
 {{step1-to-maestro}}
 
@@ -229,13 +226,13 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans n’importe quelle vue, accédez à la zone Détails, comme décrit dans la section [Modification d’un enregistrement à partir de la zone Détails de l’enregistrement dans une vue](#edit-a-record-from-the-records-details-box-in-a-view)dans cet article. Cliquez ensuite sur le bouton **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit du **Détails** pour ouvrir la zone de l’enregistrement. **Détails** dans un nouvel onglet.
+   * Dans n’importe quelle vue, accédez à la boîte de l’enregistrement, comme décrit dans la section [Modification d’un enregistrement à partir de la zone de l’enregistrement dans une vue](#edit-a-record-from-the-records-box-in-a-view) dans cet article. Cliquez ensuite sur le bouton **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    * Dans la **Tableau** visionnez, survolez le nom d’un enregistrement avec la souris, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Affichage**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-     L&#39;enregistrement **Détails** s’ouvre.
+     La page d’enregistrement s’ouvre.
 
      ![](assets/details-page.png)
 
@@ -243,7 +240,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
    Ou
 
-   Cliquez dans n’importe quel champ modifiable de la page Détails pour modifier les informations.
+   Cliquez dans n’importe quel champ modifiable de la page d’enregistrement pour modifier les informations.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 

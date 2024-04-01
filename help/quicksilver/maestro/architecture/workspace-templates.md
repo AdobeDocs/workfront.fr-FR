@@ -1,11 +1,11 @@
 ---
 title: Liste des modèles d'espace de travail
-description: Un espace de travail est un ensemble de types d’enregistrement utilisés par une équipe et représente le cycle de vie du travail de l’équipe. La planification d’Adobe Workfront s’accompagne d’un ensemble de modèles pour vous familiariser avec les types d’enregistrement et les champs de base lorsque vous créez votre espace de travail.
+description: Un espace de travail est un ensemble de types d’enregistrement utilisés par une équipe et représente le cycle de vie du travail de l’équipe. La planification Adobe Workfront s’accompagne d’un ensemble de modèles pour vous familiariser avec les types d’enregistrement et les champs de base lorsque vous créez votre espace de travail.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -29,9 +29,9 @@ role: User
 
 {{maestro-important-intro}}
 
-Dans la planification d’Adobe Workfront, un espace de travail est un ensemble de types d’enregistrement utilisés par une équipe et représente le cycle de vie du travail de l’équipe.
+Dans Adobe Workfront Planning, un espace de travail est un ensemble de types d’enregistrement utilisés par une équipe et représente le cycle de vie du travail de l’équipe.
 
-La planification de Workfront s’accompagne d’un ensemble de modèles pour vous aider à commencer à utiliser les types d’enregistrement et les champs de base lorsque vous créez votre espace de travail. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
+La planification Workfront s’accompagne d’un ensemble de modèles pour vous familiariser avec les types d’enregistrement et les champs de base lorsque vous créez votre espace de travail. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
 
 Cet article décrit les modèles d’espace de travail disponibles dans la planification Adobe Workfront.
 
@@ -42,7 +42,7 @@ Cet article décrit les modèles d’espace de travail disponibles dans la plani
 
    * Types d’enregistrements opérationnels
    * Taxonomies
-* Chaque type d’enregistrement est fourni avec un ensemble de champs. Certains de ces champs sont des connexions à d’autres types d’enregistrements de planification Workfront.
+* Chaque type d’enregistrement est fourni avec un ensemble de champs. Certains de ces champs sont des connexions à d’autres types d’enregistrements de la planification Workfront.
 * Vous pouvez personnaliser n’importe quel modèle et ajouter d’autres types d’enregistrement et champs aux champs existants.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -96,9 +96,9 @@ You must have the following:
 
 -->
 
-## Modèles d’espaces de travail de planification Workfront
+## Modèles d’espaces de travail Workfront Planning
 
-Voici des modèles d’espace de travail dans la planification Workfront et le nombre de champs qu’ils incluent :
+Vous trouverez ci-dessous des modèles d’espace de travail dans la planification Workfront et le nombre de champs qu’ils incluent :
 
 * **Gestion marketing**: vous pouvez gérer toutes vos campagnes marketing lorsque vous utilisez ce modèle. Le modèle est fourni avec les éléments suivants :
 

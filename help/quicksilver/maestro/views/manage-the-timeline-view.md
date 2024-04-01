@@ -1,13 +1,13 @@
 ---
 title: Gestion du mode Chronologie
-description: Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type enregistrement dans la planification Adobe Workfront.
+description: Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type d’enregistrement dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type enregistrement dans la planification Adobe Workfront.
+Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type d’enregistrement dans Adobe Workfront Planning.
 
 Pour plus d’informations sur les vues d’enregistrement, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
    <p>Quelconque</p> 
+   <p>Les administrateurs système n’ont accès qu’aux vues qu’ils ont créées ou qui sont partagées avec eux. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Adobe Workfront. </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning </p>  
 </td>
   </tr>
 

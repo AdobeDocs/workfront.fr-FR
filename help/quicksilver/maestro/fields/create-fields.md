@@ -1,13 +1,13 @@
 ---
 title: Créer des champs
-description: Dans la planification d’Adobe Workfront, vous pouvez créer des champs personnalisés pour chaque type d’enregistrement. Vous pouvez ensuite associer le champ aux enregistrements de planification Workfront.
+description: Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour chaque type d'enregistrement. Vous pouvez ensuite associer le champ aux enregistrements de planification Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '3338'
+source-wordcount: '3308'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Dans la planification d’Adobe Workfront, vous pouvez créer des champs personnalisés pour les types d’enregistrement. Vous pouvez ensuite associer les champs aux enregistrements de planification Workfront afin d’améliorer les informations d’enregistrement.
+Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour les types d’enregistrement. Vous pouvez ensuite associer les champs aux enregistrements de planification Workfront afin d’améliorer les informations d’enregistrement.
 
 Vous devez créer des types d’enregistrement avant de pouvoir créer des champs à associer. Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront.</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Workfront Planning</p>  
 </td>
   </tr>
 
@@ -248,7 +248,7 @@ Vous pouvez utiliser un champ date pour capturer des informations supplémentair
 
 
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Format de date**: type de format de date à afficher dans ce champ. <!--update this casing - submitted bug for it-->
 
@@ -278,7 +278,7 @@ Les types de champ Nombre capturent les informations au format numérique.
    ![](assets/number-field-type.png)
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
 
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement.
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement.
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Précision**: nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs**: sélectionnez cette option si vous souhaitez autoriser les nombres négatifs dans ce champ. Cette option n’est pas sélectionnée par défaut.
@@ -300,7 +300,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
    ![](assets/percentage-field-type.png)
 
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement.
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement.
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Précision**: nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs**: sélectionnez cette option si vous souhaitez autoriser les valeurs en pourcentage négatif dans ce champ. Cette option n’est pas sélectionnée par défaut.
@@ -322,7 +322,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
    ![](assets/currency-field-type.png)
 
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Devise**: type de devise à afficher dans ce champ. Il s’agit d’une liste de devises selon l’Organisation internationale de normalisation (ISO).
    * **Précision**: nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
@@ -345,7 +345,7 @@ Vous pouvez utiliser le type de champ Case à cocher pour ajouter une seule opti
    ![](assets/checkbox-field-type.png)
 
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
 1. Cliquez sur **Créer**.
 
@@ -373,7 +373,7 @@ Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver
 
    Pour plus d’informations sur les expressions prises en charge, voir [Champs de formule - Aperçu](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Ajoutez les noms des champs tels qu&#39;ils s&#39;affichent dans l&#39;interface de planification de Workfront pour les référencer dans une formule.
+1. Ajoutez les noms des champs tels qu’ils s’affichent dans l’interface de planification de Workfront pour les référencer dans une formule.
 
    >[!NOTE]
    >
@@ -396,7 +396,7 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur. <!-
    ![](assets/people-field-type.png)
 
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement.
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement.
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Autoriser plusieurs valeurs**: sélectionnez cette option si vous souhaitez permettre aux utilisateurs d’ajouter plusieurs utilisateurs dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
@@ -418,7 +418,7 @@ Vous pouvez utiliser le type de champ Créé par pour ajouter à un enregistreme
 
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
 
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement. <!--this might change and they might prepopulate it with "Created by"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
 
 1. Cliquez sur **Créer**.
@@ -438,7 +438,7 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter à un enreg
 
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
 
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement. <!--this might change and they might prepopulate it with "Created date"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Format de date**: sélectionnez l’un des formats suivants :
 
@@ -469,7 +469,7 @@ Vous pouvez utiliser le champ Dernière modification par type pour ajouter à un
 
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
 
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement. <!--this might change and they might prepopulate it with "Created by"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
 
 1. Cliquez sur **Créer**.
@@ -489,7 +489,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 
 1. Ajoutez les informations suivantes dans la variable **Nouveau champ** tab :
 
-   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nom**: nom du type de champ, tel qu’il apparaîtra dans une table ou dans la page d’enregistrement. <!--this might change and they might prepopulate it with "Created date"-->
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Format de date**: sélectionnez l’un des formats suivants :
 
@@ -513,7 +513,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 
 Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement Maestro ou un type d’enregistrement et un type d’objet à partir d’autres applications.
 
-Pour plus d’informations sur la connexion des types d’enregistrements de planification Workfront, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
+Pour plus d’informations sur la connexion des types d’enregistrement Workfront Planning, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
 
 ## Créer des champs en important des types d’enregistrement à l’aide d’un fichier Excel et CSV
 
@@ -525,6 +525,6 @@ Lorsque vous créez un type d&#39;enregistrement, plusieurs champs associés au 
 
 ## Créer des champs en créant un espace de travail à partir d’un modèle
 
-La planification d’Adobe Workfront crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle.
+Adobe Workfront Planning crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle.
 
 Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/maestro/architecture/create-workspaces.md).

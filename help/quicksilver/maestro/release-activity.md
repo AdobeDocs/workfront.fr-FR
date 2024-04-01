@@ -1,13 +1,13 @@
 ---
 title: Activité de mise à jour de la planification Adobe Workfront
-description: Des fonctionnalités de planification Adobe Workfront sont actuellement disponibles pour certains clients Workfront. Consultez souvent cet article pour en savoir plus sur les fonctionnalités récemment publiées pour les fonctionnalités de planification.
+description: Les fonctionnalités de planification d’Adobe Workfront sont actuellement disponibles pour certains clients Workfront. Consultez souvent cet article pour en savoir plus sur les fonctionnalités récemment publiées pour les fonctionnalités de planification.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,23 @@ Pour plus d’informations, voir [Gestion des vues d’enregistrement](/help/qui
 
 ### La zone Maestro du menu principal a été renommée Planification.
 
-Production : 28 mars 2024
+Production : 27 mars 2024
 
 Aperçu : à déterminer
 
 Nous avons renommé la zone Maestro du menu principal en Planification.
 
-Pour un aperçu de la planification d’Adobe Workfront, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+Pour une présentation d’Adobe Workfront Planning, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+
+### Nouvelle expérience lors de la suppression d’un type d’enregistrement
+
+Production : 27 mars 2024
+
+Aperçu : à déterminer
+
+Nous avons repensé la boîte de confirmation lors de la suppression d&#39;un type d&#39;enregistrement. La suppression d&#39;un type d&#39;enregistrement a un impact, car elle supprime également tous les enregistrements, leurs champs, les informations contenues dans les champs, ainsi que les vues associées au type d&#39;enregistrement. Les types d’enregistrement supprimés et leurs informations supprimées ne peuvent pas être récupérés.
+
+C’est pourquoi nous avons voulu nous assurer que l’intention de l’utilisateur est exacte lors de la suppression d’un type d’enregistrement. Nous avons donc ajouté une étape supplémentaire pour confirmer la suppression. Pour plus d’informations, voir [Suppression des types d’enregistrement](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## Semaine du 18 mars 2024
 
@@ -82,15 +92,15 @@ Aperçu : à déterminer
 
 Vous pouvez désormais filtrer les informations dans la vue Calendrier. Pour plus d’informations, voir [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Zone de détails ajoutée aux vues de calendrier et de chronologie
+### Zone avec des détails d’enregistrement ajoutés aux vues de calendrier et de chronologie
 
 Production : 19 mars 2024
 
 Aperçu : à déterminer
 
-Vous pouvez désormais accéder à la zone Détails d’un enregistrement en mode Chronologie et Calendrier. Vous pouvez modifier des enregistrements dans la zone Détails dans les vues de chronologie et de calendrier.
+Vous pouvez désormais accéder à une boîte contenant les détails de l’enregistrement dans les vues de calendrier et de chronologie. Vous pouvez modifier des enregistrements dans la zone d’enregistrement dans les vues de calendrier et de chronologie.
 
-Dans la zone Détails, vous pouvez ouvrir la page Détails de l’enregistrement.
+Dans la boîte d’enregistrement, vous pouvez ouvrir la page d’enregistrement dans un nouvel onglet du navigateur.
 
 Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ Pour faciliter l’affichage d’informations supplémentaires sur les enregistr
 
 * Possibilité de modifier les informations d’enregistrement
 
-* Lien pour ouvrir la page Détails de l’enregistrement.
+* Lien pour ouvrir la page de l’enregistrement.
 
 Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +257,7 @@ Voici les niveaux d’autorisation les plus élevés que les utilisateurs peuven
 
 Pour plus d’informations sur le nouveau modèle de licence, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Pour plus d’informations sur la connexion entre le type de licence et les autorisations dans les fonctionnalités de planification, voir [Présentation du type de licence lors de l’utilisation de la planification Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+Pour plus d’informations sur la connexion entre le type de licence et les autorisations dans les fonctionnalités de planification, voir [Présentation du type de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nouvelle apparence de la barre d’outils Texte enrichi pour les champs d’enregistrement
@@ -387,7 +397,7 @@ Voici les niveaux d’autorisation pour les vues d’enregistrement :
 * Vue : les utilisateurs peuvent sélectionner la vue dans le menu déroulant Affichage d’une page de type enregistrement.
 * Gérer : les utilisateurs peuvent modifier, partager et supprimer la vue.
 
-Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md) et [Présentation du partage des autorisations dans les fonctionnalités de planification d’Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
+Pour plus d’informations, voir [Présentation de l’accès](/help/quicksilver/maestro/access/access-overview.md) et [Présentation des autorisations de partage dans les fonctionnalités de planification d’Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
 
 ### Nouveau type de champ Formule
 
@@ -439,7 +449,7 @@ Vous pouvez désormais rechercher un mot-clé pour trouver rapidement un enregis
 
 ## Semaine du 18 décembre 2023
 
-### Ajout de commentaires sur les enregistrements de la page Détails
+### Ajouter des commentaires sur les enregistrements de la page d’enregistrement
 
 Aperçu et production pour tous les clients : 18 décembre 2023
 
@@ -455,7 +465,7 @@ Aperçu et production pour tous les clients : 18 décembre 2023
 >
 >Pour plus d’informations, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-Vous pouvez désormais collaborer avec d’autres personnes sur des enregistrements individuels en ajoutant des commentaires ou en répondant à d’autres personnes lors de l’affichage d’un enregistrement dans la page Détails.
+Vous pouvez désormais collaborer avec d’autres personnes sur des enregistrements individuels en ajoutant des commentaires ou en répondant à d’autres personnes lors de la consultation d’une page d’enregistrement.
 
 L’expérience de commentaire des enregistrements de fonctionnalités de planification correspond à la nouvelle expérience de commentaire des objets Workfront.
 
@@ -467,7 +477,7 @@ Production : 21 décembre 2023
 
 >[!IMPORTANT]
 >
->Votre entreprise doit acheter Adobe Workfront Fusion pour pouvoir créer des connexions avec les fonctionnalités de planification d’Adobe Workfront.
+>Votre entreprise doit acheter Adobe Workfront Fusion pour pouvoir créer des connexions avec les fonctionnalités de planification Adobe Workfront.
 >
 >Pour plus d’informations, voir [Présentation d’Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -608,7 +618,7 @@ Pour plus d’informations, voir [Gestion de la vue de tableau](../maestro/views
 
 Aperçu et production : 30 octobre 2023
 
-Nous avons introduit les types de champs suivants pour les enregistrements des fonctionnalités de planification Adobe Workfront :
+Nous avons introduit les types de champ suivants pour les enregistrements de fonctionnalités de planification Adobe Workfront :
 
 * Créé par
 
@@ -630,7 +640,7 @@ Vous pouvez désormais ouvrir les pages d’objet Workfront à partir des zones 
 
 * Vue de la table d’enregistrement d’objet Workfront liée en lecture seule
 
-* Page Détails de l’enregistrement d’objet Workfront en lecture seule
+* Page d’enregistrement d’objet Workfront en lecture seule
 
 Pour plus d’informations, voir [Connexion d’enregistrements](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ Vous pouvez désormais ajouter un champ de type Personnes aux types d’enregist
 
 Aperçu et production : 16 octobre 2023
 
-Nous avons ajouté des contrôles au format Texte enrichi pour les champs de type Paragraphe. Vous pouvez formater vos champs de paragraphe à l’aide de texte enrichi en mode Tableau d’un type d’enregistrement ou dans la page Détails d’un enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](../maestro/records/edit-records.md).
+Nous avons ajouté des contrôles au format Texte enrichi pour les champs de type Paragraphe. Vous pouvez formater vos champs de paragraphe à l’aide de texte enrichi en mode Tableau d’un type d’enregistrement ou dans la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](../maestro/records/edit-records.md).
 
 
 ### Enregistrement et regroupement du codage des couleurs pour la vue Chronologie
@@ -752,7 +762,7 @@ Pour plus d’informations, voir [Gestion de la vue de tableau](../maestro/views
 
 ## Semaine du 21 août 2023
 
-### Connexion des enregistrements des fonctionnalités de planification d’Adobe Workfront aux programmes et portefeuilles
+### Connexion des enregistrements des fonctionnalités de planification Adobe Workfront aux programmes et portefeuilles
 
 Aperçu et production : 24 août 2023
 
@@ -839,7 +849,7 @@ Vous pouvez désormais ajouter un type de champ Case à cocher aux types d’enr
 
 Aperçu et production : 28 juin 2023
 
-Nous avons activé la possibilité d&#39;activer le menu contextuel en cliquant avec le bouton droit de la souris sur une ligne d&#39;enregistrement, lors de l&#39;affichage des enregistrements dans la vue Tableau ou dans un type d&#39;enregistrement. Vous pouvez désormais afficher, supprimer ou copier rapidement un lien vers la page Détails de l’enregistrement lorsque vous accédez au menu contextuel depuis n’importe quel emplacement de la vue de tableau d’un type d’enregistrement. Avant cette amélioration, le menu contextuel était accessible uniquement à partir du menu Plus dans la colonne Nom d’un enregistrement.
+Nous avons activé la possibilité d&#39;activer le menu contextuel en cliquant avec le bouton droit de la souris sur une ligne d&#39;enregistrement, lors de l&#39;affichage des enregistrements dans la vue Tableau ou dans un type d&#39;enregistrement. Vous pouvez désormais afficher, supprimer ou copier rapidement un lien vers la page de l’enregistrement lorsque vous accédez au menu contextuel depuis n’importe quel emplacement de la vue de tableau d’un type d’enregistrement. Avant cette amélioration, le menu contextuel était accessible uniquement à partir du menu Plus dans la colonne Nom d’un enregistrement.
 
 ## Semaine du 19 juin 2023
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -33,23 +33,23 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 
 ## Remarques concernant les commentaires sur un enregistrement
 
-* Vous pouvez ajouter des commentaires et des réponses aux enregistrements dans la planification Workfront, dans la section Commentaires d’un enregistrement.
+* Vous pouvez ajouter des commentaires et des réponses aux enregistrements dans la section Commentaires d’un enregistrement de la planification Workfront.
 
-* Les commentaires ajoutés aux enregistrements liés ne s’affichent pas dans les enregistrements à partir desquels vous créez un lien. Par exemple, si vous commentez un enregistrement de produit de planification Workfront lié à un enregistrement Campaign, le commentaire s’affiche uniquement sur l’enregistrement de produit dans la planification Workfront et non sur l’enregistrement Campaign à partir duquel vous liez.
+* Les commentaires ajoutés aux enregistrements liés ne s’affichent pas dans les enregistrements à partir desquels vous créez un lien. Par exemple, si vous commentez un enregistrement de produit de planification Workfront lié à un enregistrement de campagne, le commentaire s’affiche uniquement sur l’enregistrement de produit dans la planification Workfront et non sur l’enregistrement de campagne à partir duquel vous liez.
 
-* Vous pouvez ajouter des commentaires aux enregistrements de planification Workfront créés suite à une connexion entre un enregistrement et un objet d’une autre application.
+* Vous pouvez ajouter des commentaires aux enregistrements Workfront Planning créés suite à une connexion entre un enregistrement et un objet provenant d’une autre application.
 
-  Par exemple, vous pouvez commenter l’enregistrement de planification de Project Workfront après avoir connecté les projets Workfront aux enregistrements de planification Workfront. Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
+  Vous pouvez, par exemple, ajouter des commentaires à l’enregistrement Planification du projet Workfront après avoir connecté les projets Workfront aux enregistrements de planification Workfront. Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/maestro/records/connect-records.md).
 
-* Les commentaires ajoutés aux objets liés dans d’autres applications ne s’affichent pas dans la planification Workfront et les commentaires ajoutés aux objets liés dans la planification Workfront ne s’affichent pas dans d’autres applications.
+* Les commentaires ajoutés aux objets liés dans d’autres applications ne s’affichent pas dans la Planification Workfront et les commentaires ajoutés aux objets liés dans la Planification Workfront ne s’affichent pas dans d’autres applications.
 
-  Par exemple, les commentaires ajoutés aux projets dans Workfront ne s’affichent pas sur le même projet lié à une campagne dans la planification Workfront, et les commentaires ajoutés à l’enregistrement de planification Workfront du projet ne s’affichent pas dans Workfront.
+  Par exemple, les commentaires ajoutés aux projets dans Workfront ne s’affichent pas sur le même projet lié à une campagne dans Workfront Planning, et les commentaires ajoutés à l’enregistrement de planification Workfront du projet ne s’affichent pas dans Workfront.
 
 * Vous pouvez marquer les utilisateurs pour attirer leur attention sur une mise à jour. Les utilisateurs balisés ne reçoivent pas de notification in-app ni d’e-mail concernant votre mise à jour. <!--this might change??-->
 
-* Vous pouvez ajouter une mise à jour aux enregistrements et passer en revue l’historique des modifications dans les domaines suivants de la planification Workfront :
+* Vous pouvez ajouter une mise à jour aux enregistrements et consulter l’historique des modifications dans les sections suivantes de la planification Workfront :
 
-   * Dans la page Détails d’un enregistrement.
+   * Sur la page d’enregistrement.
 
   <!--* From the table view.-->
 
@@ -72,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès dans la planification de Workfront. </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès dans la planification Workfront. </p>  
 </td>
   </tr>
 <tr>

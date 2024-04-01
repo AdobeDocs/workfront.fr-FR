@@ -1,11 +1,11 @@
 ---
 title: Présentation des types d’enregistrement
-description: Les types d’enregistrement sont les blocs de construction d’un espace de travail de planification Adobe Workfront.
+description: Les types d’enregistrement sont les blocs de construction d’un espace de travail Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Contrairement à Workfront où les types d’objets sont prédéfinis, dans la planification Adobe Workfront, vous pouvez créer vos propres types d’objets. Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
+Contrairement à Workfront où les types d’objets sont prédéfinis, dans Adobe Workfront Planning, vous pouvez créer vos propres types d’objets. Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
 
-Les types d’objets de planification Workfront sont appelés &quot;types d’enregistrement&quot; et vous pouvez tous les créer et les personnaliser. Les types d’enregistrement sont les blocs de construction d’un espace de travail de planification Workfront. Pour plus d’informations sur les espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
+Les types d’objets de la planification Workfront sont appelés &quot;types d’enregistrement&quot; et vous pouvez tous les créer et les personnaliser. Les types d’enregistrement sont les blocs de création d’un espace de travail de planification Workfront. Pour plus d’informations sur les espaces de travail, voir [Créer des espaces de travail](../architecture/create-workspaces.md).
 
 ## Présentation du type d’enregistrement
 

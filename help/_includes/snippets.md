@@ -1,5 +1,5 @@
 ---
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 1%
@@ -253,11 +253,11 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 >[!IMPORTANT]
 >
->Les informations de cet article font référence à la planification Adobe Workfront, une nouvelle offre d’Adobe Workfront.
+>Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, la planification de Workfront fait partie d’un programme bêta ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser ces fonctionnalités.
+>Actuellement, Workfront Planning fait partie d’un programme bêta qui est ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser ces fonctionnalités.
 >
->Contactez votre gestionnaire de compte pour plus d’informations sur l’adhésion au programme bêta pour la planification Workfront.
+>Pour plus d’informations sur l’inscription au programme bêta de la planification Workfront, contactez le représentant du compte.
 >
 >Pour plus d’informations, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 

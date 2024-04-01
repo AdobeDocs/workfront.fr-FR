@@ -1,13 +1,13 @@
 ---
 title: Créer des enregistrements
-description: Lors de l’utilisation de la planification Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement.
+description: Lors de l’utilisation d’Adobe Workfront Planning, un enregistrement est une instance d’un type d’enregistrement.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Dans la planification Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement.
+Dans Adobe Workfront Planning, un enregistrement est une instance d’un type d’enregistrement.
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
-<p>Votre entreprise doit être inscrite au programme bêta de planification d’Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
+<p>Votre entreprise doit être inscrite au programme bêta de planification Adobe Workfront. Contactez le représentant de votre compte pour en savoir plus sur cette nouvelle offre. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour la planification Adobe Workfront </p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -127,14 +127,14 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
    Ou
 
-   Cliquez sur le nom du nouvel enregistrement ou sur le champ **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement. La variable **Détails** s’ouvre dans le tableau.
+   Cliquez sur le nom du nouvel enregistrement ou sur le champ **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement. La boîte contenant les informations détaillées de l’enregistrement s’ouvre dans le tableau.
 
    >[!TIP]
    >
    >Vous ne pouvez accéder à la zone Détails qu’à partir du champ nom de l’enregistrement lorsque le champ Nom est un champ principal.
 
-1. Commencez à modifier les informations de l’enregistrement dans la zone Détails . Workfront enregistre automatiquement vos modifications.
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone Détails pour ouvrir le **Détails** dans un nouvel onglet. Continuez à modifier l’enregistrement sur la page Détails .
+1. Commencez à modifier les informations de l’enregistrement dans la zone de l’enregistrement. Workfront enregistre automatiquement vos modifications.
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Continuez à modifier l’enregistrement sur la page d’enregistrement.
 
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements :
@@ -188,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. Dans une autre application, sélectionnez plusieurs lignes et colonnes, puis collez les informations dans la vue table de type enregistrement, en commençant par le premier nouvel enregistrement.
 
-   Les informations suivantes sont importées dans la zone de planification de Workfront :
+   Les informations suivantes sont importées dans la zone Planification Workfront :
 
    * Les lignes contiennent les nouveaux enregistrements
    * Les colonnes renseignent les informations des champs des enregistrements.
