@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Créer une validation de document
+title: Créer une demande d’approbation ou de révision de document
 description: Vous pouvez demander l’approbation d’un document à d’autres utilisateurs dans Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6a02a7bdb21e79a6b91f81e71b42968d6262cd05
+source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
-# Créer une demande d’approbation de document
+# Créer une demande d’approbation ou de révision de document
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 Vous pouvez demander l’approbation d’un document dans Adobe Workfront à d’autres utilisateurs ou équipes, ou demander à ces utilisateurs de le réviser sans avoir à l’approuver.
 
@@ -50,17 +52,27 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
 
-## Créer une approbation de document à partir de la page de document
+## Création d’une demande d’approbation ou de révision de document à partir de la page de document
 
-1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document pour laquelle vous souhaitez créer une approbation dans la liste déroulante des versions. La dernière version est sélectionnée par défaut.
+1. Pointez sur le document, puis cliquez sur Détails du document.
+   ![](assets/doc-details.png)
 
-1. Sélectionner **Approbations** dans le volet de gauche.
 
-1. Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant la saisie.
+1. Près du nom du document, sélectionnez la version du document pour laquelle vous souhaitez créer une approbation dans la liste déroulante des versions. La dernière version est sélectionnée par défaut.
+
+1. Cliquez sur **Approbations** dans le volet de gauche.
+
+1. <span class="preview">(Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.</span>
+
+1. Pour ajouter un approbateur, cliquez sur le bouton **Approbateur** et commencez à saisir le nom d’un utilisateur ou d’une équipe.
+
+1. Pour ajouter un validant, cliquez sur le bouton **Réviseur** et commencez à saisir un nom d’utilisateur ou d’équipe.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs ou réviseurs.
 
-## Créer une approbation de document à partir du volet Résumé du document
+## Créer une demande d’approbation ou de révision de document à partir du volet Résumé du document
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 
@@ -68,7 +80,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sélectionnez la version du document pour laquelle vous souhaitez créer une approbation dans la liste déroulante des versions. La dernière version est sélectionnée par défaut.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le volet Résumé du document . Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant la saisie.
+1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le volet Résumé du document, puis cliquez sur **Ajouter**.
+
+![](assets/doc-summary-add-approvers.png)
+
+1. <span class="preview">(Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.</span>
+
+1. Pour ajouter un approbateur, cliquez sur le bouton **Approbateur** et commencez à saisir le nom d’un utilisateur ou d’une équipe.
+
+1. Pour ajouter un validant, cliquez sur le bouton **Réviseur** et commencez à saisir un nom d’utilisateur ou d’équipe.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs ou réviseurs.
 
