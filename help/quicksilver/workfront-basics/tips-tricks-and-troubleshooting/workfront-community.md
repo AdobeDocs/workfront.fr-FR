@@ -1,18 +1,18 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Le [!DNL Adobe Workfront] Communauté
+title: La variable [!DNL Adobe Workfront] Communauté
 description: Adobe [!DNL Workfront] La communauté est un groupe en ligne de plus de 10 000 personnes. [!DNL Workfront] utilisateurs. Grâce à la communauté, vous pouvez rester à jour sur les versions de produits, découvrir les événements client et parler à d’autres utilisateurs de [!DNL Workfront] produits et services. Vous trouverez des réponses à vos questions et établirez des liens avec d’autres [!DNL Workfront] clients.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
-# Le [!DNL Adobe Workfront] Communauté
+# La variable [!DNL Adobe Workfront] Communauté
 
 Adobe [!DNL Workfront] La communauté est un groupe en ligne de plus de 10 000 personnes. [!DNL Workfront] utilisateurs. Grâce à la communauté, vous pouvez rester à jour sur les versions de produits, découvrir les événements client et parler à d’autres utilisateurs de [!DNL Workfront] produits et services. Vous trouverez des réponses à vos questions et établirez des liens avec d’autres [!DNL Workfront] clients.
 
@@ -28,7 +28,7 @@ Adobe [!DNL Workfront] La communauté est un groupe en ligne de plus de 10 000 p
 
 ### Contact d’assistance autorisé {#authorized-support-contact}
 
-Si vous êtes un contact d’assistance autorisé (ASC), vous disposez des informations de connexion pour la variable [!UICONTROL Service d’assistance], [!UICONTROL Laboratoire d’innovation], et [!DNL Workfront] [!UICONTROL Ascent]. Vous pouvez utiliser les mêmes informations d’identification pour vous connecter au [!DNL Workfront] Communauté. Dans ce cas, vous laissez le sous-domaine vide.
+Si vous êtes un contact d’assistance autorisé (ASC), vous disposez des informations de connexion pour la variable [!UICONTROL Service d’assistance], et [!UICONTROL Laboratoire d’innovation]. Vous pouvez utiliser les mêmes informations d’identification pour vous connecter au [!DNL Workfront] Communauté. Dans ce cas, vous laissez le sous-domaine vide.
 
 ![community_4.png](assets/community-4-350x129.png)
 
@@ -44,8 +44,6 @@ Si vous n’êtes pas un contact d’assistance autorisé, vous pouvez vous conn
 
 Si votre entreprise utilise l’authentification unique, vous devez contacter [!DNL Workfront] l’assistance clientèle par téléphone pour demander un compte ; Si vous ne parvenez pas à envoyer un ticket ou à discuter en direct, contactez votre [!DNL Workfront] Contacter le service clientèle.
 
-Si un compte est déjà configuré dans Ascent Training, vous pouvez utiliser ces mêmes informations d’identification pour accéder au site de la communauté (laissez le sous-domaine vide dans ce cas).
-
 Si vous ne vous souvenez pas de votre mot de passe pour le site de la communauté, contactez [!DNL Workfront Customer Support] et ils peuvent vous aider.
 
 ## FAQ
@@ -55,7 +53,7 @@ Si vous ne vous souvenez pas de votre mot de passe pour le site de la communaut�
 
 ### Quelle est l’URL de la variable [!DNL Workfront] Communauté ?
 
-Le [!DNL Workfront] La communauté est disponible sur la page [!DNL Adobe Experience League] à l’adresse suivante :  [[!DNL Workfront] Communauté](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+La variable [!DNL Workfront] La communauté est disponible sur la page [!DNL Adobe Experience League] à l’adresse suivante :  [[!DNL Workfront] Communauté](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### Quel est mon sous-domaine ? {#what-s-my-subdomain}
 

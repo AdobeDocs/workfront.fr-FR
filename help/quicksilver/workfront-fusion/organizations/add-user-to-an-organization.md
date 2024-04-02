@@ -7,9 +7,9 @@ description: Vous pouvez ajouter des utilisateurs aux organisations dans Adobe W
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -105,8 +105,8 @@ Pour ajouter un utilisateur à l’organisation :
 >[!NOTE]
 >
 >   
-><p>Si le bouton [!UICONTROL Inviter un nouvel utilisateur] n’apparaît pas, votre organisation a été intégrée à la variable [!DNL Adobe Business Platform.] </p>
+>Si vous ne voyez pas le [!UICONTROL Invitation d’un nouvel utilisateur] , votre organisation a été intégrée à la fonction [!DNL Adobe Business Platform.]
 >
->   <p>Pour plus d’informations sur l’ajout d’un utilisateur à une organisation intégrée au [!DNL Adobe Business Platform], voir <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Ajout d’un utilisateur à une organisation qui a été intégrée au [!DNL Adobe Business Platform]</a></p>
+>  Pour plus d’informations sur l’ajout d’un utilisateur à une organisation intégrée au [!DNL Adobe Business Platform], voir [Ajout d’utilisateurs à [!DNL Adobe Workfront Fusion] par le biais du [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
 
 L’utilisateur reçoit un courrier électronique lui permettant d’accepter l’invitation.

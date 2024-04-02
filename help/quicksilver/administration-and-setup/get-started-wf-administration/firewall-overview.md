@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 0%
+source-wordcount: '758'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,11 @@ Fournissez les informations suivantes à votre administrateur réseau :
  <tbody> 
   <tr> 
    <td role="rowheader">Adresses et domaines IP spécifiques autorisés</td> 
-   <td> <p>L'article <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configuration de la liste autorisée de votre pare-feu</a> contient la liste des adresses IP et des domaines que votre entreprise doit ajouter à sa liste autorisée. </p> <p>Il se peut que votre administrateur réseau n’ait pas accès à l’article "Configurer votre pare-feu". Dans ce cas, vous devez les leur fournir. Il est déconseillé d'imprimer une copie papier (papier). Une copie numérique permet à l’administrateur réseau de copier et coller les adresses, ce qui est plus rapide et plus précis que la saisie sur une page papier.</p> </td> 
+   <td> <p>L'article <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configuration de la liste autorisée de votre pare-feu</a> contient la liste des adresses IP et des domaines que votre entreprise doit ajouter à sa liste autorisée. </p> <p>Votre administrateur réseau peut ne pas avoir accès à l’article "Configurer la liste autorisée de votre pare-feu". Dans ce cas, vous devez les leur fournir. Il est déconseillé d'imprimer une copie papier (papier). Une copie numérique permet à l’administrateur réseau de copier et coller les adresses, ce qui est plus rapide et plus précis que la saisie sur une page papier.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Votre grappe</td> 
-   <td>Pour localiser la grappe de votre entreprise, voir <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Affichage de la grappe et du plan Workfront de votre entreprise</a></td> 
+   <td>Pour localiser la grappe de votre entreprise, voir <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Affichage de la grappe et du plan Workfront de votre entreprise</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Votre formule Workfront</td> 
@@ -68,27 +68,26 @@ Fournissez les informations suivantes à votre administrateur réseau :
    <td> <p>Indiquez à votre administrateur réseau si vous disposez de licences pour l’une des fonctionnalités suivantes :</p> 
     <ul> 
      <li> <p>Bon à tirer Adobe Workfront</p> </li> 
-     <li> <p>Adobe Workfront Fusion </p> </li> 
+     <li> <p>Adobe Workfront Fusion </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Intégrations Adobe Workfront</td> 
    <td>Si vous utilisez l’une des méthodes suivantes, informez votre administrateur réseau :
     <ul>
-     <li><p><p>Workfront pour Jira</p></p></li>
-     <li><p>Workfront for G Suite</p></li>
-     <li><p>Workfront pour les Microsofts Teams</p></li>
+     <li><p>Workfront pour Jira</p></li>
+     <li><p>Workfront pour G Suite</p></li>
+     <li><p>Workfront pour Microsofts Teams</p></li>
      <li><p>Workfront pour Outlook</p></li>
      <li><p>Workfront pour Salesforce</p></li>
     </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Fonctionnalité supplémentaire</td> 
-   <td> <p>Si vous utilisez l’une des méthodes suivantes, informez votre administrateur réseau :</p> 
+   <td> <p>Si vous utilisez les méthodes suivantes, informez votre administrateur réseau :</p> 
     <ul> 
      <li> <p>Un lecteur de test Workfront</p> </li> 
-     <li> <p>Workfront Ascent</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +98,7 @@ Fournissez les informations suivantes à votre administrateur réseau :
 
 ### Affichage de la grappe et du plan Workfront de votre entreprise {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 
 1. Cliquez sur **Système** dans le panneau de gauche
 1. Pour afficher la grappe, sélectionnez **Informations sur le client**.
