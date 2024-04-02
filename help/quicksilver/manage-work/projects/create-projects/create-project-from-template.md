@@ -6,9 +6,9 @@ description: Vous pouvez utiliser des modèles comme structure pour créer des p
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,10 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 ## Création d’un projet à partir d’un modèle dans la zone Projets
 
 Vous pouvez créer un projet à partir de la zone Projets du menu principal ou de la zone Projets d’un portfolio ou d’un programme.
+
+>[!NOTE]
+>
+>L’administrateur du système ou du groupe peut modifier votre interface à l’aide d’un modèle de mise en page. Dans ce cas, certains noms des sections et des zones mentionnées dans les étapes suivantes peuvent être différents dans votre instance de Workfront.
 
 1. Utilisez l’une des méthodes suivantes :
 

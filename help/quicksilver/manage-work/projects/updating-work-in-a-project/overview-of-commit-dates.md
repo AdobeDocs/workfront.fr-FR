@@ -7,16 +7,20 @@ description: La date de validation est la date à laquelle un utilisateur affect
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Présentation de la date de validation
 
-La date de validation est la date à laquelle un utilisateur affecté à une tâche ou à un problème s’engage à terminer la tâche ou le problème. Cette valeur est différente de la date d’achèvement prévue, car il s’agit d’une estimation plus réaliste de la date d’achèvement donnée uniquement par l’utilisateur responsable du travail. Pour plus d’informations sur la date d’achèvement prévue, voir [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+La date de validation est la date à laquelle un utilisateur affecté à une tâche ou à un problème s’engage à terminer la tâche ou le problème.
+
+Cette valeur est différente de la date d’achèvement prévue d’une tâche ou d’une tâche, car il s’agit d’une estimation plus réaliste de la date d’achèvement donnée uniquement par l’utilisateur responsable du travail.
+
+Pour plus d’informations sur la date d’achèvement prévue, voir [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Présentation de la date de validation
 
@@ -29,6 +33,7 @@ Tenez compte des points suivants lorsque vous utilisez des dates de validation :
 
    * Laissez Workfront définir la date de validation de sorte qu’elle corresponde à la date d’achèvement planifiée existante de la tâche ou de la question en cliquant sur Travailler dessus, Démarrer le problème ou Démarrer la tâche sur la tâche ou la tâche. Pour plus d’informations sur le remplacement du bouton Travailler dessus par un bouton Démarrer , voir  [Remplacez le bouton Travailler dessus par un bouton Démarrer](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Définissez manuellement vous-même la date de validation en fonction du moment où vous pensez que la tâche ou le problème peut être terminé. Il s’agit de votre estimation et de votre engagement, en tant que personne désignée, envers le chef de projet, à ce que la tâche ou le problème soit terminé à une date spécifique.
+Pour plus d’informations, voir [Mise à jour des dates de validation pour les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -41,17 +46,17 @@ Tenez compte des points suivants lorsque vous utilisez des dates de validation :
 >* Toute autre personne désignée pour la tâche
 >* Tout autre utilisateur disposant d’autorisations sur la tâche.
 >
->Pour plus d’informations sur le propriétaire de la tâche, voir la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) dans l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>Pour plus d’informations sur le propriétaire de la tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Notifications et mises à jour déclenchées en modifiant la date de validation {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-Lorsqu’une tâche ou un responsable d’émission sélectionne une date de validation différente de la date d’achèvement planifiée définie par le propriétaire du projet, un certain nombre de notifications et de mises à jour alertent le propriétaire du projet et d’autres utilisateurs de cette modification.
+Lorsqu’une tâche ou un responsable d’émission modifie manuellement une date de validation à une date différente de la date d’achèvement planifiée définie par le propriétaire du projet, un certain nombre de notifications et de mises à jour avertissent le propriétaire du projet et d’autres utilisateurs de cette modification.
 
 >[!NOTE]
 >
 >Les modifications apportées à la date de validation ne modifient pas automatiquement les dates planifiées et les modifications apportées aux dates planifiées ne modifient pas automatiquement la date de validation.
 
-La définition de la date de validation d’une tâche ou d’un problème déclenche les modifications suivantes :
+La définition manuelle de la date de validation d’une tâche ou d’un problème déclenche les modifications suivantes :
 
 * Le changement de date de validation est renseigné dans l’activité système et dans les onglets Tous de la section Mise à jour de la tâche ou du problème.
 
@@ -80,9 +85,6 @@ La définition de la date de validation d’une tâche ou d’un problème décl
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-
-
-
 * Le propriétaire du projet est informé dans la zone Notifications qu’une tâche ou un problème a été modifié.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
@@ -94,8 +96,6 @@ La définition de la date de validation d’une tâche ou d’un problème décl
   >[!TIP]
   >
   >La notification indiquant que la date de validation a changé est envoyée au propriétaire du projet uniquement lorsque l’administrateur Workfront active l’affichage de la date de validation dans la zone Flux de mise à jour de la configuration. Pour plus d’informations, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-
 
 Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir  [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

@@ -1,21 +1,29 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Demander un projet
-description: Vous pouvez demander l’approbation d’un projet avant de commencer à travailler dessus. Cela crée un projet dont l’état est Idée. Nous vous recommandons de créer un Business Case pour votre projet afin de définir certains des points clés que vous souhaitez atteindre en l’achevant, ainsi que de présenter à votre direction votre budget de travail et de dépenses.
+title: Demande d’un projet
+description: Vous pouvez demander l’approbation d’un projet avant de commencer à travailler dessus. Nous vous recommandons de créer un Business Case pour un nouveau projet afin que vous puissiez esquisser certains des points clés que vous souhaitez atteindre en l’achevant, ainsi que de présenter à votre direction votre budget de travail et de dépenses. Remplir l’analyse de cas et soumettre le projet à approbation complète la demande formelle pour le projet. Après avoir soumis l’analyse de cas pour approbation, l’état du projet devient demandé.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 4%
+source-wordcount: '561'
+ht-degree: 2%
 
 ---
 
-# Demander un projet
+# Demande d’un projet
 
-Vous pouvez demander l’approbation d’un projet avant de commencer à travailler dessus. Cela crée un projet dont l’état est Idée. Nous vous recommandons de créer un Business Case pour votre projet afin de définir certains des points clés que vous souhaitez atteindre en l’achevant, ainsi que de présenter à votre direction votre budget de travail et de dépenses.
+<!--Audited: April 2024-->
+
+Vous pouvez demander l’approbation d’un projet avant de commencer à travailler dessus.
+
+Lorsque vous créez un projet vierge, son état est Idée.
+
+Si vous avez besoin d’une demande formelle pour que le projet soit approuvé, nous vous recommandons de créer un Business Case pour un nouveau projet afin que vous puissiez esquisser certains des points clés que vous souhaitez atteindre en l’exécutant, ainsi que de présenter à votre direction votre budget de travail et de dépenses.
+
+Remplir l’analyse de cas et soumettre le projet à approbation complète la demande formelle pour le projet. Après avoir soumis l’analyse de cas pour approbation, l’état du projet devient demandé.
 
 Vous pouvez demander un projet lorsque vous ajoutez un nouveau projet dans les zones suivantes d’Adobe Workfront :
 
@@ -26,38 +34,6 @@ Vous pouvez demander un projet lorsque vous ajoutez un nouveau projet dans les z
 
 ## Exigences d’accès
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -65,19 +41,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nouveau : Standard </p>
+   Ou
+   <p>Actuel : formule </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux projets, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Accorder l’accès aux projets</a>. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux projets</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Lorsque vous créez une demande de projet, vous recevez automatiquement les autorisations Gérer pour le projet. </p> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partage d’un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
@@ -85,18 +62,18 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Demander un projet
+## Demande d’un projet
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png), cliquez sur **Projets**, puis développez **Nouveau projet**.
+   * Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Projets**, puis développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
    * Accédez à un programme, puis développez **Nouveau projet**.
    * Si vous êtes administrateur de groupe, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Création et modification des projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Cliquez sur **Demander le projet**.
+1. Cliquez sur **Demander le projet**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
@@ -104,9 +81,10 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
    * Suivez les mêmes étapes que pour créer un projet lors de la définition d’un Business Case. (recommandé)
 
-      Pour plus d’informations sur la définition d’un cas d’entreprise et la demande d’un projet, voir [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Pour plus d’informations sur la définition d’un cas d’entreprise et la demande d’un projet, voir [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-   * Créez un projet à partir de zéro ou en utilisant un modèle et modifiez l’état en **Demandé**.
+   * Créez un projet à partir de zéro ou en utilisant un modèle et modifiez l’état en **Demandé**.
 
-      Pour plus d’informations sur la création d’un projet, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md) ou [Création d’un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
-   Le projet que vous demandez a le statut **Demandé** et s’affiche sur le **Projets demandés** d’un Portfolio, si vous l’associez à un Portfolio. Un gestionnaire de portefeuille peut désormais le réviser et l’approuver ou le rejeter, auquel cas l’état du projet passe à **Approuvé** ou **Rejetés**.
+     Pour plus d’informations sur la création d’un projet, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md) ou [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
+
+   Le projet que vous demandez a le statut **Demandé** et s’affiche sur le **Projets demandés** d’un Portfolio, si vous l’associez à un Portfolio. Un gestionnaire de portefeuille peut désormais le réviser et l’approuver ou le rejeter, auquel cas l’état du projet passe à **Approuvé** ou **Rejetés**.

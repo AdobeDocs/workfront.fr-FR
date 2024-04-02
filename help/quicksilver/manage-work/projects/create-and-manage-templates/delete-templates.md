@@ -6,9 +6,9 @@ description: Nous vous recommandons de désactiver les modèles que vous n’uti
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -53,13 +53,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Considérations relatives à la suppression de modèles
 
 * Les tâches qui ont été ajoutées aux projets lorsque le modèle a été joint restent sur les projets. Toutefois, les informations de la tâche de modèle associées aux tâches sont supprimées.
-* Le nom du modèle n’est plus répertorié dans la variable **Modèle** sur le champ **Présentation** sous-onglet du projet.
+* Le nom du modèle n’est plus répertorié dans la **Modèle** sur le champ **Présentation** sous-onglet du projet.
 
 * Vous pouvez récupérer un modèle récemment supprimé dans la Corbeille. Pour plus d’informations sur la récupération d’éléments à partir de la corbeille, voir [Restauration des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Supprimer un modèle
 
-1. Dans la **Menu Principal** ![](assets/main-menu-icon.png), cliquez sur **Modèles**. La liste des modèles s’affiche alors.
+{{step1-to-templates}}
+
+La liste des modèles s’affiche alors.
 
 1. Sélectionnez le modèle à supprimer en cochant la case située à gauche du nom du modèle, puis cliquez sur **Supprimer > Oui, Supprimer** pour confirmer la suppression.
 
