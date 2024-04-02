@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 00e03775fa21f816c845681873ca12c241150076
+source-git-commit: d2539f19a3c6c1e15e33c622e463b3a0875fcf2e
 workflow-type: tm+mt
-source-wordcount: '14071'
+source-wordcount: '14076'
 ht-degree: 1%
 
 ---
@@ -1802,6 +1802,7 @@ ht-degree: 1%
    * Examen et approbation des documents {#document-reviews-and-approvals}
       * [Examen et approbation des documents](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Présentation des validations de document](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [Présentation de l’examen et de l’approbation des ressources](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
       * Vérifier les documents {#review-and-approve-documents}
          * [Documents de révision : index de l’article](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Révision d’un document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
