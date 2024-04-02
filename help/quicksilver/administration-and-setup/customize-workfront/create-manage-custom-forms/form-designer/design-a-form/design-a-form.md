@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
+source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
 workflow-type: tm+mt
-source-wordcount: '5867'
-ht-degree: 3%
+source-wordcount: '5942'
+ht-degree: 4%
 
 ---
 
@@ -736,6 +736,47 @@ Pour ajouter des images, des PDF ou des vidéos :
 ### Ajout de champs natifs Workfront
 
 Vous pouvez ajouter des champs natifs Workfront à vos formulaires personnalisés. Lorsque le formulaire personnalisé est associé à un objet, le champ est renseigné à partir des données de l’objet. Par exemple, le champ Description d’un formulaire personnalisé joint à un projet extrait la description du projet. (Le champ peut afficher &quot;S.O.&quot; si aucune donnée n’est disponible.)
+
++++ **Développer pour afficher la liste des champs natifs pris en charge**
+
+* Date d&#39;achèvement effective
+* Durée effective
+* Heures effectives
+* Date de début effective
+* Entreprise
+* Condition
+* Type de condition
+* Description
+* Durée
+* Type de durée
+* Unité de durée
+* Entré par
+* Date d’entrée
+* Groupe
+* Dernière mise à jour par
+* Date de dernière mise à jour
+* Nom
+* Propriétaire
+* Date d&#39;achèvement prévue
+* Durée prévue
+* Heures prévues
+* Date de début prévue
+* Portfolio
+* Priorité
+* Programme
+* Date d&#39;achèvement prévisionnelle
+* Durée prévisionnelle en minutes
+* Date de début prévisionnelle
+* Numéro de référence
+* Mode horaire
+* Gravité
+* Sponsor
+* Statut
+* Points de l&#39;histoire
+* Modèle
+* URL
+
++++
 
 1. Dans la partie gauche de l’écran, recherchez **Champ natif** et faites-le glisser vers une section de la zone de travail.
 1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
