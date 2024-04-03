@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
+source-git-commit: 83036270d430dcc80069f4de87b6ac1e8da689e3
 workflow-type: tm+mt
-source-wordcount: '5942'
+source-wordcount: '6079'
 ht-degree: 4%
 
 ---
@@ -739,42 +739,48 @@ Vous pouvez ajouter des champs natifs Workfront à vos formulaires personnalisé
 
 +++ **Développer pour afficher la liste des champs natifs pris en charge**
 
-* Date d&#39;achèvement effective
-* Durée effective
-* Heures effectives
-* Date de début effective
-* Entreprise
-* Condition
-* Type de condition
-* Description
-* Durée
-* Type de durée
-* Unité de durée
-* Entré par
-* Date d’entrée
-* Groupe
-* Dernière mise à jour par
-* Date de dernière mise à jour
-* Nom
-* Propriétaire
-* Date d&#39;achèvement prévue
-* Durée prévue
-* Heures prévues
-* Date de début prévue
-* Portfolio
-* Priorité
-* Programme
-* Date d&#39;achèvement prévisionnelle
-* Durée prévisionnelle en minutes
-* Date de début prévisionnelle
-* Numéro de référence
-* Mode horaire
-* Gravité
-* Sponsor
-* Statut
-* Points de l&#39;histoire
-* Modèle
-* URL
+Ce tableau répertorie les champs natifs disponibles pour des objets Workfront spécifiques dans un formulaire personnalisé.
+
+| Nom du champ | Projet | Tâche | Problème | Modèle | Tâche de modèle | Portfolio | Programme | Groupe |
+|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| Date d&#39;achèvement effective | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Durée effective | ✓ |   |   |   |   |   |   |   |
+| Heures effectives | ✓ |   | ✓ |   |   |   |   |   |
+| Date de début effective | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Entreprise | ✓ |   |   | ✓ |   |   |   |   |
+| Condition | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Type de condition | ✓ |   |   | ✓ |   |   |   |   |
+| Description | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Durée |   | ✓ |   |   | ✓ |   |   |   |
+| Type de durée |   | ✓ |   |   | ✓ |   |   |   |
+| Unité de durée |   | ✓ |   |   | ✓ |   |   |   |
+| Entré par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Date d’entrée | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Groupe | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Dernière mise à jour par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Date de dernière mise à jour | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Nom | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Propriétaire | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Date d&#39;achèvement prévue | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Durée prévue | ✓ |   |   | ✓ |   |   |   |   |
+| Heures prévues | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
+| Date de début prévue | ✓ |   |   |   |   |   |   |   |
+| Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
+| Priorité | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Programme | ✓ |   |   | ✓ |   |   |   |   |
+| Date d&#39;achèvement prévisionnelle | ✓ | ✓ |   |   |   |   |   |   |
+| Durée prévisionnelle en minutes |   | ✓ |   |   |   |   |   |   |
+| Date de début prévisionnelle | ✓ | ✓ |   |   |   |   |   |   |
+| Numéro de référence | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Mode horaire | ✓ |   |   | ✓ |   |   |   |   |
+| Gravité |   |   | ✓ |   |   |   |   |   |
+| Sponsor | ✓ |   |   | ✓ |   |   |   |   |
+| Statut | ✓ | ✓ |   |   |   |   |   |   |
+| Points de l&#39;histoire |   | ✓ |   |   |   |   |   |   |
+| Modèle | ✓ |   |   |   |   |   |   |   |
+| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
+
+{style="table-layout:auto"}
 
 +++
 
