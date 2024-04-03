@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Itérations
-description: Consultez ces articles pour savoir comment utiliser les itérations.
+description: Les articles suivants décrivent l’utilisation des itérations dans un environnement de Scrum.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 4%
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
 # Itérations
 
-Cette section contient les articles suivants :
+Les articles suivants décrivent l’utilisation des itérations dans un environnement de Scrum dans Adobe Workfront :
 
 * [Présentation des itérations](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [Créer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)

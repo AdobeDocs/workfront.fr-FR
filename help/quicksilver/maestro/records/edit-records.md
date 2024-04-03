@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Si les enregistrements que vous affichez sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous éditez se répercutent sur les enregistrements liés.
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
 * Les URL sont reconnues comme des liens dans les types de champ de texte sur une seule ligne uniquement lorsqu’elles commencent par les éléments suivants : http://, https://, ftp:// ou www. .
+<!--
+* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). -->
 
 ## Modifier des enregistrements
 
@@ -200,7 +202,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
    Ou
 
-   Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement ou cliquez sur un nom d’enregistrement. La boîte de l’enregistrement s’ouvre dans la vue.
+   Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement. La boîte de l’enregistrement s’ouvre dans la vue.
 
    ![](assets/details-box.png)
 

@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '4341'
+source-wordcount: '4261'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,8 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the "Important" box below (or hide it)-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +121,8 @@ Pour plus d’informations sur les commentaires sur les objectifs, voir [Gestion
 
 Pour plus d’informations sur les commentaires sur les cartes dans la zone Panoramas, voir [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 
+Pour plus d’informations sur les commentaires sur les itérations, voir [Gestion des commentaires d’itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
 ## Exigences d’accès
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
@@ -172,6 +176,8 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
 * Objectifs
 * Cartes dans la zone Panoramas
 * Itérations
+
+<!--info for April 11: hide the section below completely:-->
 
 ### Ajouter une mise à jour à un élément de travail dans la section Mises à jour héritées
 
@@ -232,6 +238,8 @@ Vous pouvez ajouter des mises à jour aux objets suivants :
    >Si votre administrateur Workfront sélectionne le paramètre &quot;Ne jamais autoriser les utilisateurs à supprimer les commentaires&quot; dans votre niveau d’accès, vous ne pouvez pas annuler un commentaire. Pour plus d’informations, voir [Création et modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. Pour répondre à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+<!--info for April 11: reword the title of this section to: Add an update to a work item-->
 
 ### Ajouter une mise à jour à un élément de travail à l’aide de la nouvelle expérience de commentaire
 
@@ -463,6 +471,8 @@ Il existe plusieurs façons de copier une mise à jour. Après avoir copié un l
 
 La copie d’une mise à jour varie en fonction de l’expérience de commentaire que vous utilisez.
 
+<!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
+
 ### Copier une mise à jour dans la nouvelle expérience de commentaire
 
 Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle expérience de commentaire et pour les objets, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -515,9 +525,9 @@ L&#39;option Réponse entre guillemets copie le commentaire d&#39;origine dans u
 
 1. Continuez à ajouter votre mise à jour et cliquez sur **Envoyer** pour ajouter le commentaire.
 
-### Copie d’une mise à jour dans l’expérience de commentaire héritée
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
 
-<!--remove legacy when removed from the UI-->
+### Copie d’une mise à jour dans l’expérience de commentaire héritée
 
 * [Copier la mise à jour](#copy-the-update)
 * [Copier le lien du thread](#copy-the-thread-link)
@@ -621,31 +631,19 @@ Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut sup
 
 -->
 
-
-
-## Activation ou désactivation des mises à jour système
-
-<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
-
-<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
-
->[!NOTE]
->
->Il n’est pas possible de désactiver les mises à jour système lors de l’utilisation de la nouvelle expérience de commentaire.
->Les informations de cette section se rapportent uniquement aux fonctionnalités disponibles dans la section Mises à jour héritées . &lt;!—Supprimez cette section lorsque nous supprimons les éléments hérités du système->
->Pour plus d’informations sur les mises à jour du système dans la nouvelle expérience de commentaire, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+## Vérifier les mises à jour du système
 
 La section Mises à jour d’un objet Workfront affiche deux types d’informations :
 
-* **Mises à jour de l’utilisateur :** Les mises à jour des utilisateurs sont des commentaires que vous et d’autres utilisateurs de votre système saisissez. <!--October 2023 - new screen shot -->
+* **Mises à jour de l’utilisateur :** Les mises à jour des utilisateurs sont des commentaires que vous et d’autres utilisateurs de votre système saisissez. Les mises à jour de l’utilisateur s’affichent dans les onglets Commentaires et Tous de la section Mises à jour .
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Mises à jour système :** Le système met à jour l’enregistrement de suppression des ressources, d’ajout ou de suppression de versions, de pièce jointe ou de suppression d’une demande d’approbation, ainsi que des modifications ou modifications apportées aux documents sur l’objet. <!--October 2023 - new screen shot -->
+* **Mises à jour système :** Les mises à jour système enregistrent la suppression de tâches ou de problèmes, l’ajout ou la suppression de versions de document, l’ajout ou la suppression d’une demande d’approbation, ainsi que les modifications ou modifications apportées à l’objet. Les mises à jour système s’affichent dans l’activité système et dans les onglets Toutes de la section Mises à jour .
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Selon votre licence Workfront, les mises à jour système peuvent être activées par défaut. Les administrateurs de Workfront peuvent déterminer ce qui est suivi dans les mises à jour du système, comme expliqué dans la section [Mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Vous pouvez également filtrer les mises à jour système ou les activités afin de n’afficher que les mises à jour utilisateur pour tous les objets.
+  Les administrateurs de Workfront peuvent déterminer ce qui est suivi dans les mises à jour du système, comme expliqué dans la section [Mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Vous pouvez également filtrer les mises à jour système ou les activités afin de n’afficher que les mises à jour utilisateur pour tous les objets.
 
   Les objets suivants ne comportent pas de mises à jour générées par le système :
 
@@ -653,19 +651,6 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informati
    * Modèle
    * Tâche de modèle
 
-Pour activer ou désactiver les mises à jour du système :
-
-1. Cliquez sur le bouton **Mises à jour** sur un objet.
-1. Cliquez sur **Afficher les mises à jour du système** pour faire glisser le commutateur vers la gauche (désactivé) ou la droite (activé).
-
-   ![](assets/show-system-updates-qs-350x55.png)
-
-   Cette option est persistante dans tous les objets de Workfront et reste à l’emplacement sélectionné, même si vous vous déconnectez de Workfront.
-
-   >[!TIP]
-   >
-   >   Les objets qui n’enregistrent pas les mises à jour système n’ont pas l’option Afficher les mises à jour système dans leur zone Mises à jour.
-
-   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+Pour plus d’informations sur les mises à jour du système dans la section Mises à jour, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3334'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,10 @@ Les étapes de cet article doivent être les suivantes :
       <p>Cette option est disponible uniquement dans les environnements Aperçu et Sandbox. Par défaut, les notifications électroniques sont activées dans l’environnement de production. </p>
       </li>
 
-   <li><b>Afficher le pourcentage terminé à l’état de mise à jour</b>: cochez cette option si vous souhaitez afficher une barre de pourcentage dans la zone Mise à jour des tâches de cet utilisateur, lors de l’utilisation de l’expérience de commentaire héritée. Pour plus d’informations, voir <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nouvelle expérience de commentaire</a>.</li> 
+   <li><b>Afficher le pourcentage terminé à l’état de mise à jour</b>: cochez cette option si vous souhaitez afficher une barre de pourcentage dans la zone Mise à jour des tâches de cet utilisateur, lors de l’utilisation de l’expérience de commentaire héritée. Pour plus d’informations, voir <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nouvelle expérience de commentaire</a>.
+      <p><span class="preview">Cette option a été supprimée de l’environnement Aperçu.</span></p>
+
+   </li> 
        <li><b>Envoyer le travail que je m’assigne à mon onglet Travail</b>: cochez cette option si vous souhaitez que tout ce que l’utilisateur se donne à lui-même apparaisse directement dans la liste Travailler sur de la zone Accueil . La valeur par défaut est de répertorier tous les éléments affectés à un utilisateur dans sa liste Prêt à démarrer ou Non prêt dans la zone Accueil.</li> 
        <li><b>Générer automatiquement des bons à tirer lors du téléchargement de documents</b>: cochez cette option si vous souhaitez que les documents que l’utilisateur charge génèrent immédiatement un BAT. </li>
        </ul> </td> 

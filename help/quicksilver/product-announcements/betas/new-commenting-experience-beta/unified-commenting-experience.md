@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients.  </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -59,13 +59,13 @@ Les améliorations suivantes ont été apportées à la nouvelle expérience de 
 
 Les fonctionnalités suivantes ont été supprimées ou seront obsolètes de la nouvelle expérience :
 
-* Commentaire sur une mise à jour du système
+* Commentaire sur une mise à jour du système. Les commentaires ajoutés aux mises à jour du système par le passé ont été importés en tant que commentaires en lecture seule dans le nouvel onglet Activité du système .
 * Possibilité de modifier l’état, la condition, la date de validation et le pourcentage d’achèvement lors de l’ajout de commentaires sur les tâches et les problèmes
-* Modifier le formulaire personnalisé
+* Possibilité de modifier le formulaire personnalisé
 * Les informations &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe se connecte en tant qu’autre utilisateur et ajoute un commentaire en leur nom ont été supprimées à l’origine. Il a été rétabli le 19 octobre 2023.
 * L’option &quot;Demander l’approbation&quot; lorsque vous balisez des personnes en ajoutant un commentaire à un document.
 * Le paramètre &quot;Afficher le pourcentage terminé à la mise à jour&quot; lors de la modification de la zone de profil d’un utilisateur est supprimé. La fonctionnalité de mise à jour du pourcentage d’achèvement d’une tâche ou d’un problème a été supprimée.
-* Notification du propriétaire du projet dans la zone Mises à jour indiquant que le responsable d’une tâche ou d’une émission a modifié la date de validation. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+* Possibilité pour le propriétaire du projet de modifier la date d’exécution planifiée d’une tâche lorsque la date de validation est modifiée à partir de la section Mises à jour. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -544,13 +544,23 @@ Voici un calendrier planifié de la publication de la nouvelle expérience de co
   >
   >    Les itérations conserveront l’expérience héritée de commentaires. La nouvelle expérience de commentaire ne sera pas disponible pour les itérations.
 
-* Deuxième trimestre 2024 (avril 2024) :
+* Avec la version du deuxième trimestre 2024 (11 avril 2024) :
 
    * Supprimez l’option permettant de revenir au flux de commentaires hérité et de faire du nouveau flux de commentaires la seule expérience pour tous les objets, à l’exception des itérations.
 
 ## Localisation de la nouvelle expérience de commentaire
 
-&lt;!—IMPORTANT : lorsque nous supprimons l’expérience héritée, déplacez une version de celle-ci vers l’article de travail Mise à jour ou la présentation de la section Mise à jour — pour dire que l’expérience est différente pour tous, à l’exception des itérations —>
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 La nouvelle expérience de commentaire est actuellement disponible pour tous les clients et pour tous les environnements.
 
@@ -563,25 +573,25 @@ Selon les objets pour lesquels vous accédez à l’expérience de commentaire, 
    * Problème
    * Document
 
-  >[!TIP]
-  >
-  >Utilisez l’option Nouveau commentaire pour afficher la nouvelle expérience de commentaire (lorsque vous l’activez) ou l’expérience de commentaire héritée (lorsque vous la désactivez), comme décrit dans cette section. La nouvelle expérience de commentaire est la valeur par défaut.
-
-   * Seule la nouvelle expérience de commentaire pour les objets répertoriés ci-dessous. Il n’existe pas d’option permettant d’activer l’expérience héritée de commentaires pour ces objets :
-
-      * Objectif
-
      >[!NOTE]
      >
-     >Pour pouvoir accéder à cette zone de Workfront, vous devez disposer d’une licence supplémentaire pour les objectifs Adobe Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * Carte sur un panorama
-      * Équipe
-      * Modèle
-      * Tâche de modèle
-      * Feuille de temps
-      * Programme
-      * Portfolio
-      * l’utilisateur ou de l’utilisatrice
+     ><span class="preview">L’expérience de commentaire héritée a été supprimée de l’environnement Aperçu depuis le 1er avril 2024. </span>
+
+* Seule la nouvelle expérience de commentaire pour les objets répertoriés ci-dessous. Il n’existe pas d’option permettant d’activer l’expérience héritée de commentaires pour ces objets :
+
+   * Objectif
+
+  >[!NOTE]
+  >
+  >Pour pouvoir accéder à cette zone de Workfront, vous devez disposer d’une licence supplémentaire pour les objectifs Adobe Workfront. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * Carte sur un panorama
+   * Equipe
+   * Modèle
+   * Tâche de modèle
+   * Feuille de temps
+   * Programme
+   * Portfolio
+   * l’utilisateur ou de l’utilisatrice
 
 * Seule l’expérience de commentaire héritée pour les objets suivants :
 
@@ -619,8 +629,9 @@ The new commenting experience is currently supported for the following objects:
 
 Pour activer l’option d’expérience de commentaire pour les projets, les tâches, les problèmes et les documents, procédez comme suit :
 
-1. Accédez à un objet pour lequel vous souhaitez activer la nouvelle expérience de commentaire, puis cliquez sur **Mises à jour** dans le panneau de gauche.
+1. (Conditionnel) Dans l’environnement de production, accédez à un objet pour lequel vous souhaitez activer la nouvelle expérience de commentaire, puis cliquez sur **Mises à jour** dans le panneau de gauche.
 1. (Conditionnel) Si elle est désactivée, activez la variable **Nouveaux commentaires** dans le coin supérieur droit de la zone Mises à jour pour l’activer. Cette option doit être activée par défaut.
+   <span class="preview">L’option Nouveau commentaire a été supprimée de l’environnement Aperçu.</span>
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 

@@ -2,13 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Suppression de modèles de projet
-description: Nous vous recommandons de désactiver les modèles que vous n’utilisez plus au lieu de les supprimer afin de conserver des informations historiques sur vos projets au fil du temps. Pour plus d’informations sur la désactivation d’un modèle, voir Modifier des modèles de projet.
+description: Nous vous recommandons de désactiver les modèles que vous n’utilisez plus au lieu de les supprimer afin de conserver des informations historiques sur vos projets au fil du temps.
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---

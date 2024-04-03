@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Gestion des commentaires d’itération
-description: Vous pouvez ajouter des mises à jour à une itération pour collaborer avec d’autres utilisateurs dans Adobe Workfront.
+description: Vous pouvez ajouter des mises à jour à une itération lorsque vous travaillez dans un environnement Scrum pour collaborer avec d’autres utilisateurs dans Adobe Workfront.
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
 
 # Gestion des commentaires d’itération
 
-Vous pouvez ajouter des mises à jour à une itération pour collaborer avec d’autres utilisateurs dans Adobe Workfront.
+Vous pouvez ajouter des mises à jour à une itération lorsque vous travaillez dans un environnement de Scrum pour collaborer avec d’autres utilisateurs dans Adobe Workfront.
 
 ## Gestion des mises à jour sur une itération
 

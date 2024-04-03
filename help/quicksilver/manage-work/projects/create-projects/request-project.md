@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Demande d’un projet
-description: Vous pouvez demander l’approbation d’un projet avant de commencer à travailler dessus. Nous vous recommandons de créer un Business Case pour un nouveau projet afin que vous puissiez esquisser certains des points clés que vous souhaitez atteindre en l’achevant, ainsi que de présenter à votre direction votre budget de travail et de dépenses. Remplir l’analyse de cas et soumettre le projet à approbation complète la demande formelle pour le projet. Après avoir soumis l’analyse de cas pour approbation, l’état du projet devient demandé.
+description: Vous pouvez demander l’approbation d’un projet avant de commencer à travailler dessus. Nous vous recommandons de créer un Business Case pour un nouveau projet afin que vous puissiez esquisser certains des points clés que vous souhaitez atteindre en l’achevant, ainsi que de présenter à votre équipe de gestion votre budget de travail et de dépenses. Remplir l’analyse de cas et soumettre le projet à approbation complète la demande formelle pour le projet. Après avoir soumis l’analyse de cas pour approbation, l’état du projet devient demandé.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---
