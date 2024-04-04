@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '915'
 ht-degree: 1%
 
 ---
@@ -46,14 +47,14 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 
 ### Objets de travail
 
-| Objet Promotable | Sous-objets promotionnels inclus |
+| Objet Promotable | Objets liés promotionnels inclus |
 | --- | --- |
 | Projet (PROJ) | Projet<br>Tâche<br>Attribution<br>Prédécesseur<br>Société<br>Taux de remplacement<br>Groupe<br>Rôle<br>Équipe<br>Processus d’approbation<br>Chemin d’approbation<br>Étape de validation<br>Approbateur d’étape<br>Planification<br>Jour sans travail<br>Définition de la file d&#39;attente<br>Groupe de rubriques de la file d’attente<br>Rubrique de la file d’attente<br>Règle de routage<br>Chemin Milestone<br>Milestone<br>Type d’heure<br>Pool de ressources<br>Catégorie<br>Paramètre de catégorie<br>Paramètre<br>Groupe de paramètres<br>Option de paramètre<br>Logique d’affichage des catégories |
 | Modèle (TMPL) | Modèle<br>Tâche du modèle<br>Attribution de tâches de modèle<br>Prédécesseur de tâche de modèle<br>Société<br>Taux de remplacement<br>Groupe<br>Rôle<br>Équipe<br>Processus d’approbation<br>Chemin d’approbation<br>Étape de validation<br>Approbateur d’étape<br>Planification<br>Jour sans travail<br>Définition de la file d&#39;attente<br>Groupe de rubriques de la file d’attente<br>Rubrique de la file d’attente<br>Règle de routage<br>Chemin Milestone<br>Milestone<br>Type d’heure<br>Pool de ressources<br>Catégorie<br>Paramètre de catégorie<br>Paramètre<br>Groupe de paramètres<br>Option de paramètre<br>Logique d’affichage des catégories |
 
 ### Objets de création de rapports
 
-| Objet Promotable | Sous-objets promotionnels inclus |
+| Objet Promotable | Objets liés promotionnels inclus |
 | --- | --- |
 | Modèle de mise en page (UITMPL) | Modèle de mise en page<br>Tableau de bord<br>Calendrier<br>Section Calendrier<br>Page externe<br>Rapport<br>Filtrer<br>Regroupement<br>Affichage<br>Paramètre |
 | Tableau de bord (PTLTAB) | Tableau de bord<br>Calendrier<br>Section Calendrier<br>Page externe<br>Rapport<br>Filtrer<br>Regroupement<br>Affichage<br>Paramètre |
@@ -66,7 +67,7 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 
 ### Objets de données personnalisés
 
-| Objet Promotable | Sous-objets promotionnels inclus |
+| Objet Promotable | Objets liés promotionnels inclus |
 | --- | --- |
 | Catégorie (CTGY) | Catégorie<br>Paramètre de catégorie<br>Paramètre<br>Groupe de paramètres<br>Option de paramètre<br>Logique d’affichage des catégories<br>Groupe |
 | Paramètre (PARAM) | Paramètre<br>Option de paramètre |
@@ -74,7 +75,7 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 
 ### Objets d’organisation
 
-| Objet Promotable | Sous-objets promotionnels inclus |
+| Objet Promotable | Objets liés promotionnels inclus |
 | --- | --- |
 | Groupe (GROUP) | Groupe <br>Sous-groupes (jusqu’à 5 niveaux) *<br>Catégorie<br>Paramètre de catégorie<br>Paramètre<br>Groupe de paramètres<br>Option de paramètre<br>Logique d’affichage des catégories |
 | Rôle (RÔLE) | Rôle |
@@ -85,7 +86,7 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 
 ### Autres objets de configuration
 
-| Objet Promotable | Sous-objets promotionnels inclus |
+| Objet Promotable | Objets liés promotionnels inclus |
 | --- | --- |
 | Processus d’approbation (ARVPRC) | Processus d’approbation<br>Chemin d’approbation<br>Étape de validation<br>Approbateur d’étape<br>Rôle<br>Équipe<br>Groupe |
 | Planification (SCHED) | Planification<br>Jour sans travail<br>Groupe |
@@ -135,5 +136,3 @@ Ces statuts sont les suivants :
   </tr> 
   </tbody> 
 </table>
-
-
