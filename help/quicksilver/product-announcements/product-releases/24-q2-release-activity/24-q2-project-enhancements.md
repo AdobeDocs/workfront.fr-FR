@@ -4,9 +4,10 @@ description: Améliorations du projet au deuxième trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024).
+>Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (11 avril 2024).
 
 <span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span>
 
@@ -38,7 +39,7 @@ Pour plus d’informations, voir [Présentation des affectations intelligentes](
 
 >[!NOTE]
 >
->Aperçu de la version : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (avril 2024).
+>Aperçu de la version : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : avec la version 24.4 (11 avril 2024).
 
 <span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span>
 

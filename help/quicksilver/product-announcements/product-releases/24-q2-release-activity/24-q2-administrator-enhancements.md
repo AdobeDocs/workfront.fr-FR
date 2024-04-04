@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 30a10e240b0f418f7ba49cd2e70e6f3d33956cd6
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version d’aperçu : 28 mars 2024 ; Production pour tous les clients : 24.4 (avril 2024)
+>Version d’aperçu : 28 mars 2024 ; Production pour tous les clients : 24.4 (11 avril 2024)
 
 Le concepteur de formulaire personnalisé bêta vous permet désormais de tester votre logique d’affichage et d’ignorer la logique en mode d’aperçu. Auparavant, tous les champs s’affichaient dans l’aperçu même lorsque la logique était appliquée.
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur la prévisualisation d’un formulaire personnali
 
 >[!NOTE]
 >
->Version d’aperçu : 14 mars 2024 ; Production pour tous les clients : 24.4 (avril 2024)
+>Version d’aperçu : 14 mars 2024 ; Production pour tous les clients : 24.4 (11 avril 2024)
 
 Les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe et les champs natifs Workfront sont désormais disponibles lorsque vous joignez un formulaire personnalisé à une entreprise ou à un utilisateur. Les fonctionnalités avancées sont disponibles dans les pages Détails de la société et Détails de l’utilisateur, et non dans les boîtes de dialogue Modifier la société et Modifier l’utilisateur . Le formulaire personnalisé doit être créé dans le nouveau concepteur de formulaire pour tirer parti de ces types de champs.
 
@@ -42,7 +42,7 @@ Pour plus d’informations sur les champs de formulaire personnalisés, voir [Co
 
 >[!NOTE]
 >
->Aperçu de la version : 26 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : 24.4 (avril 2024)
+>Aperçu de la version : 26 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : 24.4 (11 avril 2024)
 
 L’intégration JumpSeat existante est désormais disponible pour les comptes utilisant l’un des nouveaux types de modules (c’est-à-dire Select, Prime ou Ultimate). Vous devez toujours disposer d’un abonnement JumpSeat actif pour activer l’intégration.
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur l’intégration JumpSeat, voir [Configuration de
 
 >[!NOTE]
 >
->Aperçu de la version : 29 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : 24.4 (avril 2024)
+>Aperçu de la version : 29 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour tous les clients : 24.4 (11 avril 2024)
 
 Les champs natifs de Workfront sont désormais disponibles pour l’ajout de dans vos formulaires personnalisés. Ce nouveau type de champ vous permet d’organiser et de présenter les données à vos utilisateurs de manière logique, sans avoir à recréer des données existantes dans des champs personnalisés.
 

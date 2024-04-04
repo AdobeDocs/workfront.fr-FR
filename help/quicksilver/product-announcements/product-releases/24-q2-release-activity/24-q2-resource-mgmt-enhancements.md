@@ -4,9 +4,10 @@ description: Améliorations de la gestion des ressources au deuxième trimestre 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu de la version : 12 octobre 2023 ; Production pour une version rapide : avec la version 24.2 (15 février 2024) ; Production pour une version trimestrielle : avec la version 24.4 (avril 2024)
+>Aperçu de la version : 12 octobre 2023 ; Production pour une version rapide : avec la version 24.2 (15 février 2024) ; Production pour une version trimestrielle : avec la version 24.4 (11 avril 2024)
 
 Pour plus de clarté sur les réglages manuels ou le contournement dans l’équilibreur de charge de travail, les affectations horaires ajustées manuellement affichent désormais une icône en forme de crayon.
 

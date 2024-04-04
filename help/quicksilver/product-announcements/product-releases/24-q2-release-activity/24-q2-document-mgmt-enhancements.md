@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version d’aperçu : 28 mars 2024 ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+>Version d’aperçu : 28 mars 2024 ; Production pour tous les clients : avec la version 24.4 (11 avril 2024)
 
 Vous pouvez maintenant spécifier une échéance pour les utilisateurs ou les équipes affectés à la révision ou à l’approbation d’un document. Les réviseurs et les approbateurs reçoivent des notifications par e-mail 72 heures, puis 24 heures avant la date limite spécifiée. L’échéance est également répercutée dans le widget Validations de la nouvelle zone d’accueil.
 
@@ -36,7 +36,7 @@ Pour plus d’informations, voir [Créer une demande d’approbation ou de révi
 
 >[!NOTE]
 >
->Version d’aperçu : 28 mars 2024 ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+>Version d’aperçu : 28 mars 2024 ; Production pour tous les clients : avec la version 24.4 (11 avril 2024)
 
 Vous pouvez maintenant créer des modèles d’approbation dans la zone Configuration afin de rationaliser le processus de révision et d’approbation. Les modèles d’approbation vous permettent de rendre le processus de révision et d’approbation plus répétable en
 
@@ -51,7 +51,7 @@ Pour plus d’informations, voir [Création d’un modèle d’approbation](/hel
 
 >[!NOTE]
 >
->Version d’aperçu : 28 mars 2024 ; Production pour tous les clients : avec la version 24.4 (avril 2024)
+>Version d’aperçu : 28 mars 2024 ; Production pour tous les clients : avec la version 24.4 (11 avril 2024)
 
 Pour vous aider à gérer et analyser vos demandes d’approbation en un coup d’oeil, nous avons ajouté les indicateurs de performances clés suivants au widget Toutes les approbations :
 
