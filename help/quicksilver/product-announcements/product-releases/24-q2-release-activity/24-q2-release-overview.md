@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -265,6 +265,44 @@ Au lieu d&#39;un webinaire sur la publication de la mise à jour, nous vous invi
                 </tr>
             </tbody>
 </table>
+
+### Améliorations de la page d’accueil
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de publication</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Options de colonne ajoutées aux contrôles Administrateur pour la nouvelle page d’accueil à l’aide des modèles de mise en page</a></p><p>[!BADGE en production pour version rapide ]{type=Positif}</p>
+                        <p>Les administrateurs peuvent désormais personnaliser les colonnes disponibles pour les utilisateurs de nouveaux widgets d’accueil spécifiques à l’aide de modèles de mise en page. Les options incluent le masquage ou l’affichage des colonnes par défaut et l’ajout de champs existants en tant que nouvelles colonnes.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 2 janvier 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.2 (15 février 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version trimestrielle : avec la version 24.4 (11 avril 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Améliorations des projets
 
