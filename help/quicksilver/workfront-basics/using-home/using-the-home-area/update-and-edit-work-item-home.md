@@ -6,14 +6,16 @@ description: Vous pouvez afficher et ajouter des mises à jour à un élément d
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
 
 # Mettre à jour ou modifier un élément de travail dans [!UICONTROL Accueil] area
+
+<!--Audited: April 2024-->
 
 Vous pouvez afficher et ajouter des mises à jour à un élément de travail dans le [!UICONTROL Accueil] area dans [!DNL Adobe Workfront]. Vous pouvez également modifier d’autres données relatives à l’élément de travail si vous avez accès à la modifier.
 
@@ -28,31 +30,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou version ultérieure</p> </td> 
+   <td> <p>Nouveau : Standard</p>
+   Ou
+
+<p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Accès à [!UICONTROL Modifier] Tâches et problèmes</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
+   <td> <p>Accès à [!UICONTROL Modifier] Tâches et problèmes</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Attribuez des autorisations ou des autorisations supérieures aux tâches et problèmes sur lesquels vous devez travailler.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Attribuez des autorisations ou des autorisations supérieures aux tâches et problèmes sur lesquels vous devez travailler.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Afficher les mises à jour d’un élément de travail
 
 Vous pouvez afficher les mises à jour de n’importe quel élément de travail dans la [!UICONTROL Liste de tâches]:
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
 1. Dans le **[!UICONTROL Liste de tâches]** , sélectionnez l’élément pour lequel vous souhaitez afficher les mises à jour.\
    Les mises à jour s’affichent dans le panneau de droite.
 
@@ -64,7 +69,7 @@ Vous pouvez afficher les mises à jour de n’importe quel élément de travail 
 
 Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans la variable [!UICONTROL Travail] Liste :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
 1. Dans le **[!UICONTROL Liste de tâches]** , sélectionnez l’élément sur lequel vous souhaitez fournir une mise à jour.
 1. Dans le panneau de droite, cliquez sur **[!UICONTROL Mettre à jour]** pour afficher un champ de texte.
 
@@ -75,15 +80,15 @@ Vous pouvez fournir des mises à jour sur n’importe quel élément de travail 
    **[!UICONTROL Date de validation]:** Sélectionnez une date dans le sélecteur de date lorsque vous validez la fin de l’élément de travail.\
    **[!UICONTROL Comment ça va ?]:** Sélectionnez une nouvelle condition pour la tâche ou le problème. Pour plus d’informations sur les conditions de tâche et de problème, voir [Mise à jour de la condition pour les tâches et les problèmes](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
    **[!UICONTROL État]:** Sélectionnez un nouvel état pour la tâche ou le problème. Pour plus d’informations sur les états des tâches, voir [Mettre à jour le statut des tâches](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Pour plus d’informations sur les états des problèmes, voir [Accéder à la liste des statuts des problèmes système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
-   **[!UICONTROL Barre d’achèvement]:** Indiquez le pourcentage de travail terminé en glissant la barre de progression sur le pourcentage souhaité. Vous pouvez également double-cliquer sur la barre d’achèvement et saisir le pourcentage terminé.
+   **[!UICONTROL Barre d’achèvement]:** Indiquez le pourcentage de travail terminé en glissant la barre de progression sur le pourcentage souhaité. Vous pouvez également double-cliquer sur la barre d’achèvement et saisir le pourcentage de remplissage.
 
 1. Cliquez sur **[!UICONTROL Mettre à jour]**.
 
-## Modification d’une tâche
+## Modification d’un élément de travail
 
 Vous pouvez modifier n’importe quel champ d’une tâche que vous avez accès à la modification.
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou le **Menu Principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
 1. Dans le **[!UICONTROL Liste de tâches]** , sélectionnez l’élément à modifier.\
    Tous les champs que vous avez accès à la vue s’affichent dans le panneau de droite.
 

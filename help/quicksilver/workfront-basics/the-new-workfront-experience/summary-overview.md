@@ -5,22 +5,38 @@ description: Vous pouvez utiliser le panneau Résumé pour passer en revue et me
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '992'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Résumé] aperçu
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-Vous pouvez utiliser la variable [!UICONTROL Résumé] pour passer en revue et mettre à jour les informations des éléments de travail directement à partir d’une liste de tâches, de problèmes, de documents ou d’autres zones de [!DNL Adobe Workfront] qui affichent les tâches et les problèmes.
+Vous pouvez utiliser la variable [!UICONTROL Résumé] pour examiner et mettre à jour les informations des éléments de travail directement à partir d’une liste de tâches, de problèmes, de documents ou d’autres zones de [!DNL Adobe Workfront] qui affichent les tâches et les problèmes.
+
+Votre administrateur Workfront ou de groupe peut modifier les zones et les champs qui s’affichent dans le panneau Résumé. Ils peuvent ajouter jusqu’à 16 champs au panneau Résumé.
+
+>[!IMPORTANT]
+>
+>Nous vous recommandons d’ajouter des champs que vous devez fréquemment mettre à jour dans le panneau Résumé, afin que vous puissiez facilement y accéder et les mettre à jour sans accéder à la page principale de l’objet.
+>
+>Par exemple, vous pouvez ajouter les champs suivants fréquemment mis à jour aux tâches et aux problèmes des panneaux de résumé :
+>
+>* Statut
+>* Pourcentage d&#39;achèvement
+>* Date d&#39;engagement
+>* Date d&#39;achèvement prévue
+>* Condition
+
+
 
 Le tableau suivant répertorie les zones où vous pouvez localiser et utiliser la variable [!UICONTROL Résumé] panel :
 
@@ -28,7 +44,7 @@ Le tableau suivant répertorie les zones où vous pouvez localiser et utiliser l
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Tâches</td> 
+   <td><b>Tâches</b></td> 
   </tr> 
   <tr> 
    <td> <p>Listes de tâches dans une</p> 
@@ -44,7 +60,7 @@ Le tableau suivant répertorie les zones où vous pouvez localiser et utiliser l
    <td>Tâches dans une [!UICONTROL Feuille de calcul]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problèmes</td> 
+   <td><b>Problèmes</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Listes de problèmes dans</p> 
@@ -66,7 +82,7 @@ Le tableau suivant répertorie les zones où vous pouvez localiser et utiliser l
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>Documents</td> 
+   <td><b>Documents</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Zone [!UICONTROL Documents]</td> 
@@ -96,25 +112,27 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td> <p>Nouveau : contributeur ou version ultérieure</p>
+   Ou
+   <p>Actuel :[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>[!UICONTROL Affichage] ou accès supérieur à Tâches, Problèmes, Documents</p> <p>[!UICONTROL Affichage] ou un accès supérieur à tout objet pour lequel vous souhaitez afficher le [!UICONTROL Résumé] des documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
+   <td> <p>[!UICONTROL Affichage] ou accès supérieur à Tâches, Problèmes, Documents</p> <p>[!UICONTROL Affichage] ou un accès supérieur à tout objet pour lequel vous souhaitez afficher des documents [!UICONTROL Résumé]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations [!UICONTROL View] ou supérieures pour une tâche, un problème ou un document</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL View] ou supérieures pour une tâche, un problème ou un document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Afficher la variable [!UICONTROL Résumé] dans une liste de tâches ou de problèmes
 
@@ -131,11 +149,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Vous ne pouvez sélectionner qu’une seule tâche ou un seul problème à la fois pour afficher leurs détails dans la variable [!UICONTROL Résumé] du panneau.
 
-   <div class="preview">
-
    ![Panneau Résumé](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. (Facultatif) Pour fermer la variable [!UICONTROL Résumé] effectuez l’une des opérations suivantes :
 
@@ -155,17 +169,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Utilisez la barre de progression en haut de la [!UICONTROL Résumé] pour mettre à jour le pourcentage terminé pour la tâche ou le problème que vous avez sélectionné. Saisissez un nombre ou faites glisser la barre vers le pourcentage approprié.
 
-<span class="preview">![Pourcentage terminé dans le panneau Résumé](assets/summary-overview-percent-complete.png)</span>
+![Pourcentage terminé dans le panneau Résumé](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Mises à jour]
 
 Utilisez la variable [!UICONTROL Mises à jour] de la [!UICONTROL Résumé] pour afficher les mises à jour récentes et effectuer des mises à jour sur la tâche ou le problème que vous avez sélectionné. Cliquez sur **[!UICONTROL Afficher tout]** pour accéder directement au [!UICONTROL Mises à jour] de la tâche.
 
-<div class="preview">
-
 ![Section Mises à jour du panneau Résumé](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL Documents]
 

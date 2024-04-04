@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Utiliser la zone Mes mises à jour
+title: Utilisation de la zone Mes mises à jour
 description: Vous pouvez utiliser la variable [!UICONTROL Mes mises à jour] pour vérifier rapidement les approbations en attente de votre décision ou les conversations dans lesquelles vous avez été inclus.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -36,25 +36,27 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td> <p>Nouveau : contributeur ou version ultérieure</p>
+   Ou   
+   <p>Actuel : [!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Afficher l’accès ou une version supérieure à tout objet pour lequel vous êtes balisé dans une conversation ou dont vous avez besoin pour résoudre une approbation (Projets, tâches, problèmes, documents)</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
+   <td> <p>Afficher l’accès ou une version supérieure à tout objet pour lequel vous êtes balisé dans une conversation ou dont vous devez résoudre une approbation (Projets, tâches, problèmes, documents)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations [!UICONTROL Afficher] ou supérieures pour les projets, les tâches, les problèmes, les documents dans lesquels vous êtes balisé dans une conversation ou qui doivent résoudre une approbation</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Afficher] ou supérieures pour les projets, les tâches, les problèmes, les documents dans lesquels vous êtes balisé dans une conversation ou qui doivent résoudre une approbation</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -70,9 +72,9 @@ Avant de commencer, vous devez disposer des éléments suivants :
 
    ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
-   Le [!UICONTROL Mes mises à jour] s’ouvre.
+   La variable [!UICONTROL Mes mises à jour] s’ouvre.
 
-   Les approbations et demandes d’accès qui vous sont affectées sont répertoriées dans la première moitié de la page, sous Mes mises à jour.
+   Les approbations et demandes d’accès qui vous sont affectées sont répertoriées dans la première moitié de la page, sous **Mes mises à jour**.
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
@@ -119,18 +121,18 @@ Avant de commencer, vous devez disposer des éléments suivants :
 
       >[!NOTE]
       >
-      >Le [!UICONTROL Modifications] s’affiche uniquement pour les approbations de documents.
+      >La variable [!UICONTROL Modifications] s’affiche uniquement pour les approbations de documents.
 
       Selon l’icône déroulante que vous avez sélectionnée, l’élément est approuvé, rejeté ou, dans le cas d’une validation de document, approuvé avec une demande de modification supplémentaire.
 
       >[!TIP]
       >
-      >Si vous ne souhaitez pas ajouter de commentaire à votre décision, vous pouvez cliquer sur le bouton **[!UICONTROL Approuver]**, **[!UICONTROL Rejeter]** ou **[!UICONTROL Modifications]** et la décision de validation est immédiatement accordée.
+      >Si vous ne souhaitez pas ajouter de commentaire à votre décision, vous pouvez cliquer sur le bouton **[!UICONTROL Approuver]**, **[!UICONTROL Rejeter]**, ou **[!UICONTROL Modifications]** et la décision de validation est immédiatement accordée.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
-
-      Pour plus d’informations sur la validation d’un travail, voir [Valider le travail](../../../review-and-approve-work/manage-approvals/approving-work.md).
+      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >
+      >Pour plus d’informations sur la validation d’un travail, voir [Valider le travail](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 1. Cliquez sur **[!UICONTROL Accorder l’accès]** pour accorder la demande d’accès qui vous a été envoyée
 

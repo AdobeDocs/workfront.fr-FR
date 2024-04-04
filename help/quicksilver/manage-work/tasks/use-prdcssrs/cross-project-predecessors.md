@@ -6,7 +6,7 @@ description: Un prédécesseur multi-projets est une tâche dont dépend une aut
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 1. Dans le **Tâche** , commencez à saisir le nom de la tâche que vous souhaitez remplacer par la tâche en cours.
 1. Indiquez les informations suivantes pour définir la relation entre le prédécesseur et la tâche dépendante :
 
-   * **Type de dépendance :** Sélectionnez la relation que vous souhaitez que la tâche de prédécesseur ait avec la tâche dépendante. La relation par défaut est &quot;Finish-Start&quot;, ce qui signifie que la tâche du prédécesseur doit se terminer avant que la tâche dépendante puisse commencer. Pour plus d’informations sur les différents types de dépendances, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **Type de dépendance :** Sélectionnez la relation que vous souhaitez que la tâche de prédécesseur ait avec la tâche dépendante. La relation par défaut est &quot;Finish-Start&quot;, ce qui signifie que la tâche du prédécesseur doit se terminer avant que la tâche dépendante puisse commencer. Pour plus d’informations sur les différents types de dépendances, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * **Indicateur :** Spécifiez le temps qui doit s’écouler après la fin d’un prédécesseur appliqué jusqu’à ce que la tâche dépendante puisse commencer. Pour plus d’informations sur les différents types de retard, voir [Types de balises - Aperçu](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 

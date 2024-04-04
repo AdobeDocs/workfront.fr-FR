@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Les fonctionnalités suivantes ont été supprimées ou seront obsolètes de la 
 * Commentaire sur une mise à jour du système. Les commentaires ajoutés aux mises à jour du système par le passé ont été importés en tant que commentaires en lecture seule dans le nouvel onglet Activité du système .
 * Possibilité de modifier l’état, la condition, la date de validation et le pourcentage d’achèvement tout en commentant les tâches et les problèmes.
 
-  Nous vous recommandons également d’ajouter ces champs dans le panneau Résumé des tâches et des problèmes afin de pouvoir y accéder facilement à partir des listes, des rapports, de l’Accueil, de l’équilibreur Workfront ou d’une feuille de temps.
+  Nous vous recommandons également d’ajouter ces champs dans le panneau Résumé des tâches et des problèmes afin de pouvoir y accéder facilement à partir des listes, de l’Accueil, de l’équilibreur Workfront ou d’une feuille de temps.
 * Possibilité de modifier le formulaire personnalisé
 * Les informations &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe se connecte en tant qu’autre utilisateur et ajoute un commentaire en leur nom ont été supprimées à l’origine. Il a été rétabli le 19 octobre 2023.
 * L’option &quot;Demander l’approbation&quot; lorsque vous balisez des personnes en ajoutant un commentaire à un document.

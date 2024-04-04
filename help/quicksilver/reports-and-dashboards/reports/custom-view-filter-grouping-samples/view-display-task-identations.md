@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Affichage : afficher les retraits de tâche dans une liste de tâches'
+title: 'Affichage : afficher les retraits de tâche dans une liste de tâches'
 description: Dans cette vue de tâche, vous pouvez ajouter du code à la colonne Nom de la tâche pour afficher les tâches mises en retrait selon la structure de ventilation du travail du projet.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# Afficher : afficher les retraits de tâche dans une liste de tâches
+# Affichage : afficher les retraits de tâche dans une liste de tâches
 
 Dans cette vue de tâche, vous pouvez ajouter du code à la colonne Nom de la tâche pour afficher les tâches mises en retrait selon la structure de ventilation du travail du projet.
 
@@ -30,7 +30,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -61,13 +61,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 1. Dans la nouvelle colonne, cliquez sur **Passer en mode Texte**.
 1. Pointez sur la zone de mode de texte, puis cliquez sur **Cliquer pour modifier le texte**.
-1. Supprimez le texte que vous trouvez dans la
-
-   ```
-   valuefield=
-   ```
-
-   et remplacez-le par le code suivant :
+1. Supprimez le texte que vous trouvez dans la `valuefield=` et remplacez-le par le code suivant :
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))

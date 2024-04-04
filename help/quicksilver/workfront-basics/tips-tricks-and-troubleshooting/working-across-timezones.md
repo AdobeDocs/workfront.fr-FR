@@ -5,9 +5,9 @@ title: Utilisation des fuseaux horaires
 description: Il peut s’avérer utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer les heures des objets et les heures dans d’autres domaines tels que les emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,15 @@ Il peut s’avérer utile de comprendre comment [!DNL Adobe Workfront] utilise l
 
 * Champs temporels des objets
 * Temps passé dans d&#39;autres [!DNL Workfront] zones, telles que les courriers électroniques Workfront automatisés
+
+>[!WARNING]
+>
+>Si vous ne trouvez pas votre fuseau horaire exact dans la liste que nous fournissons, recherchez le fuseau horaire le plus proche du vôtre et mettez-le à jour pour votre instance.
+>
+>Considérez également qu’un fuseau horaire similaire peut ne pas correspondre parfaitement au vôtre.
+>
+>Par exemple, certains pays ou territoires peuvent observer l’heure d’été, mais pas votre pays. Si nécessaire, vous devrez peut-être ajuster les fuseaux horaires de votre système en fonction de ces modifications.
+
 
 ## Fuseaux horaires dans [!DNL Workfront]
 

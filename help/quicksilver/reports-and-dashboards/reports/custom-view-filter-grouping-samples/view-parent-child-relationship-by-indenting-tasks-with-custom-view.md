@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Affichage : afficher la relation parent-enfant dans une tâche en mettant en retrait les'
+title: 'Afficher : affiche la relation parent-enfant dans une tâche en mettant en retrait les tâches'
 description: Vous pouvez maintenir la distinction entre les relations parent-enfant dans une liste de tâches exportée en ajoutant une vue personnalisée à la liste des tâches et en vous assurant que cette vue est sélectionnée avant d’exporter la liste.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Afficher : afficher la relation parent-enfant dans une tâche en mettant en retrait les tâches ;
+# Afficher : affiche la relation parent-enfant dans une tâche en mettant en retrait les tâches
 
 Vous pouvez maintenir la distinction entre les relations parent-enfant dans une liste de tâches exportée en ajoutant une vue personnalisée à la liste des tâches et en vous assurant que cette vue est sélectionnée avant d’exporter la liste.
 
@@ -30,7 +30,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -58,15 +58,22 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 1. Cliquez sur le bouton **Affichage** , puis sélectionnez **Nouvelle vue**.
 
 1. Nommez le filtre dans le coin supérieur gauche de l’écran.
-1. Cliquez sur dans le **Nom de la tâche** en-tête de colonne.
+1. Cliquez sur dans le **Task Name** en-tête de colonne.
 
 1. Sélectionner **Passer en mode Texte** dans le coin supérieur droit.
 1. Cliquez n’importe où dans la zone de texte pour modifier le texte et supprimez tout le texte existant.
 1. Collez le texte suivant :
 
-   ```
-   displayname=<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))<br>valueformat=HTML
-   ```
+
+```
+   displayname=
+   linkedname=direct
+   namekey=name
+   querysort=name
+   textmode=true
+   valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))
+   valueformat=HTML
+```
 
 1. Cliquer sur **Enregistrer**.
 1. Cliquez sur **Enregistrer la vue**.

@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1426'
 ht-degree: 3%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 3%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans Production pour les clients qui ont activé les versions rapides. </span>
 
@@ -33,6 +30,8 @@ ht-degree: 3%
 <span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 Selon les objets pour lesquels vous accédez à l’expérience de commentaire, vous trouverez peut-être l’expérience suivante pour la section Mises à jour :
 
@@ -133,7 +132,7 @@ Selon les objets pour lesquels vous accédez à l’expérience de commentaire, 
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ Selon les objets pour lesquels vous accédez à l’expérience de commentaire, 
    * Tâche de modèle
    * Carte ad hoc
 
+     Pour plus d’informations sur les mises à jour des cartes, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * Les objets suivants n’ont pas de <span class="preview">Onglet Tout :</span>
 
    * Objectifs
+
+     Pour plus d’informations sur les mises à jour des objectifs, voir [Gestion des commentaires d’objectif](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -177,7 +190,7 @@ Les objets suivants n’enregistrent pas les mises à jour du système :
 
 ## Mises à jour qui apparaissent également sur les objets de rang supérieur
 
-Les commentaires, les réponses ou les mises à jour système de certains objets apparaissent également dans la section Mises à jour des objets de niveau supérieur.
+Les commentaires, réponses ou mises à jour système de certains objets apparaissent également dans la section Mises à jour des objets de rang supérieur.
 
 Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jour s’affiche dans la section Mises à jour de la tâche et dans la section Mises à jour du projet contenant la tâche.
 
@@ -189,7 +202,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
  <thead> 
   <tr> 
    <th><strong>Objet où la mise à jour d’origine a été ajoutée</strong> </th> 
-   <th> <p><strong>Objet de classement supérieur où la mise à jour d’origine apparaît également</strong> </p> </th> 
+   <th> <p><strong>Objets de rang supérieur où la mise à jour d’origine apparaît également</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -248,6 +261,8 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >Les réponses ajoutées aux mises à jour système ne sont pas cumulées à l’objet parent. Seules les réponses directes sur un objet enfant et les réponses ajoutées aux mises à jour existantes sont cumulées aux objets parents.
@@ -267,16 +282,14 @@ Tenez compte des points suivants lors de l’affichage des mises à jour pour le
 
 * Vous ne pouvez pas ajouter de nouveaux commentaires dans la section Mises à jour d’une équipe.
 
-* Vous pouvez ajouter une réponse à une mise à jour que vous affichez dans une équipe. La réponse s’affiche dans la section Mises à jour de l’équipe ainsi que dans la section Mises à jour de l’objet auquel elle appartient.
-
 * La section Mises à jour pour les équipes est renseignée par les mises à jour entrées sur les objets suivants :
 
    * Utilisateurs
-   * Fiches horaires*
    * Histoires
-   * Itérations*
+   * Feuilles de temps
+   * Itérations
 
-  *Elles ne sont pas disponibles pour la nouvelle expérience de commentaire.
+* Vous pouvez ajouter une réponse à une mise à jour que vous affichez dans une équipe. La réponse s’affiche dans la section Mises à jour de l’équipe ainsi que dans la section Mises à jour de l’objet auquel elle appartient.
 
 * Dans la section Mises à jour pour les utilisateurs et les équipes, vous pouvez afficher les mises à jour qui ont été saisies au cours des 90 derniers jours.
 
