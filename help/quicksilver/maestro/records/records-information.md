@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '100'
 ht-degree: 2%
 
 ---
@@ -40,3 +40,4 @@ Les articles suivants décrivent comment créer et gérer des enregistrements et
 * [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [Présentation de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md)
 * [Ajout de miniatures aux enregistrements](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md)

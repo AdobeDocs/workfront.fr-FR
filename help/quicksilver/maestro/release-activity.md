@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '5359'
+source-wordcount: '5486'
 ht-degree: 0%
 
 ---
@@ -32,31 +32,28 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
 
-<!--
-## Week of April 1, 2024
+## Semaine du 1er avril 2024
 
-### Reorder the fields on the records page
+### Réorganiser les champs des pages d’enregistrement
 
-Production: April 4, 2024 
+Production : 4 avril 2024
 
-Preview: To be determined 
+Aperçu : à déterminer
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+En tant que gestionnaire de Workspace, vous pouvez désormais réorganiser les champs répertoriés dans la page ou la zone d’enregistrement. La mise à jour de l’ordre des champs modifie l’ordre des champs pour tous les enregistrements du même type, pour toutes les personnes qui consultent la page d’enregistrement ou la zone d’enregistrement.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 
-### Add cover image to record pages
+### Ajout d’une image de couverture pour enregistrer des pages
 
-Production: April 4, 2024 
+Production : 4 avril 2024
 
-Preview: To be determined 
+Aperçu : à déterminer
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+À mesure que vous gérez les pages d’enregistrement, vous pouvez désormais ajouter, repositionner et remplacer une image de couverture sur une page ou une zone d’enregistrement, afin d’enrichir la présentation de l’enregistrement et l’engagement des parties prenantes. Les images de couverture sont visibles par tous les utilisateurs qui visualisent les enregistrements.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
-
--->
+Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Semaine du 25 mars 2024
 

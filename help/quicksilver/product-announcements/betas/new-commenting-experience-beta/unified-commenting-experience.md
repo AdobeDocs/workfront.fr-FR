@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -60,12 +60,14 @@ Les améliorations suivantes ont été apportées à la nouvelle expérience de 
 Les fonctionnalités suivantes ont été supprimées ou seront obsolètes de la nouvelle expérience :
 
 * Commentaire sur une mise à jour du système. Les commentaires ajoutés aux mises à jour du système par le passé ont été importés en tant que commentaires en lecture seule dans le nouvel onglet Activité du système .
-* Possibilité de modifier l’état, la condition, la date de validation et le pourcentage d’achèvement lors de l’ajout de commentaires sur les tâches et les problèmes
+* Possibilité de modifier l’état, la condition, la date de validation et le pourcentage d’achèvement tout en commentant les tâches et les problèmes.
+
+  Nous vous recommandons également d’ajouter ces champs dans le panneau Résumé des tâches et des problèmes afin de pouvoir y accéder facilement à partir des listes, des rapports, de l’Accueil, de l’équilibreur Workfront ou d’une feuille de temps.
 * Possibilité de modifier le formulaire personnalisé
 * Les informations &quot;au nom de &lt; nom d’utilisateur >&quot; lorsqu’un administrateur Workfront ou de groupe se connecte en tant qu’autre utilisateur et ajoute un commentaire en leur nom ont été supprimées à l’origine. Il a été rétabli le 19 octobre 2023.
 * L’option &quot;Demander l’approbation&quot; lorsque vous balisez des personnes en ajoutant un commentaire à un document.
 * Le paramètre &quot;Afficher le pourcentage terminé à la mise à jour&quot; lors de la modification de la zone de profil d’un utilisateur est supprimé. La fonctionnalité de mise à jour du pourcentage d’achèvement d’une tâche ou d’un problème a été supprimée.
-* Possibilité pour le propriétaire du projet de modifier la date d’exécution planifiée d’une tâche lorsque la date de validation est modifiée à partir de la section Mises à jour. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -460,7 +462,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Possibilité de modifier l’état, la condition, la date de validation tout en commentant 
+   <td>Possibilité de modifier l’état, la condition, la date de validation lors de l’ajout de commentaires 
    </td>
    <td>✓ 
    </td>
@@ -499,6 +501,21 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>Possibilité pour le propriétaire du projet de modifier la date d’achèvement planifiée d’une tâche lorsque la date de validation est modifiée à partir de la section Mises à jour
+   </td>
+   <td> ✓
+   </td>
+   <td> Peut être publié à une date ultérieure
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓
    </td>
   </tr>
 </table>
