@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
+source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '533'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +20,21 @@ ht-degree: 2%
 
 Nous sommes ravis d’annoncer le lancement de notre programme Alpha pour Workfront + Frame.io. Vous trouverez ici des informations sur la dernière version d’Alpha, ainsi qu’une brève présentation vidéo pour vous aider à démarrer.
 
-## Dernière version
+## Mises à jour des versions d’Alpha sur Frame.io - Mars 2024
 
-## Version d’Alpha - Mars 2024
+Dans cette version d’Alpha, nous avons :
+
+### Ajout de plusieurs ressources de Frame.io à Workfront
+
+Vous pouvez désormais ajouter jusqu’à 10 ressources de Frame.io à Workfront à la fois. Vous pouvez choisir d’ajouter des documents au projet Workfront ou à une tâche de projet spécifique.
+
+### Expérience améliorée lors de l’ajout d’une ressource Frame.io à Workfront
+
+Les éléments de menu permettant d’ajouter une ressource à Workfront ont été mis à jour afin de faciliter l’affichage des tâches qui vous sont affectées, de la hiérarchie des tâches et de l’état des tâches.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## Mises à jour des versions d’Alpha dans Workfront - Mars 2024
 
 Dans cette version d’Alpha, nous avons :
 
@@ -64,7 +76,7 @@ Une fois verrouillé, toute personne effectuant une révision ou une approbation
 
 Lorsqu’une nouvelle version de document est téléchargée, le cycle de révision suivant peut être déclenché tout en maintenant verrouillées les révisions précédentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## Envoyer un commentaire
