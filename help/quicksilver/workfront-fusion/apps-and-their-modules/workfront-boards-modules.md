@@ -9,9 +9,9 @@ description: Vous pouvez utiliser le connecteur des panoramas Adobe Workfront po
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
+source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2325'
 ht-degree: 1%
 
 ---
@@ -136,6 +136,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 * [Panneaux](#boards)
 * [Colonnes](#columns)
 * [Balises](#tags)
+* [Commentaires](#comments)
 * [Autre](#other)
 
 <!--
@@ -482,6 +483,9 @@ Ce module d’action crée une balise et lui attribue une couleur.
 </table>
 
 ### Commentaires
+
+* [Créer un commentaire](#create-a-comment)
+* [Lire les commentaires de carte](#read-card-comments)
 
 #### Créer un commentaire
 
