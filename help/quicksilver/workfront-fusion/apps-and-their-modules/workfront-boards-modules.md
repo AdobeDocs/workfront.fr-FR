@@ -8,9 +8,10 @@ title: Modules Panoramas Adobe Workfront
 description: Vous pouvez utiliser le connecteur des panoramas Adobe Workfront pour automatiser vos processus au sein des panoramas Workfront et les connecter à des applications et services tiers.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2318'
 ht-degree: 1%
 
 ---
@@ -476,6 +477,54 @@ Ce module d’action crée une balise et lui attribue une couleur.
   <tr> 
    <td>[!UICONTROL Couleur de balise]</td> 
    <td>Sélectionnez la couleur de cette balise.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Commentaires
+
+#### Créer un commentaire
+
+Ce module d’action a créé un commentaire sur la carte spécifiée.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour obtenir des instructions sur la connexion à [!DNL Workfront] app to [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux panoramas Workfront</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID de carte]</td> 
+   <td>Saisissez ou mappez l’identifiant de la carte à laquelle vous souhaitez ajouter un commentaire.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Comment]</td> 
+   <td>Saisissez ou mappez le texte du commentaire à ajouter.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Lire les commentaires de carte
+
+Ce module d’action récupère les commentaires de la carte spécifiée.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour obtenir des instructions sur la connexion à [!DNL Workfront] app to [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux panoramas Workfront</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID de carte]</td> 
+   <td>Saisissez ou mappez l’identifiant de la carte pour laquelle vous souhaitez récupérer les commentaires.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limite]</td> 
+   <td>Saisissez le nombre maximal de commentaires que le module doit renvoyer dans un cycle d’exécution.</p></td> 
   </tr> 
  </tbody> 
 </table>
