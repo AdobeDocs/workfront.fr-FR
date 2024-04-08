@@ -7,9 +7,9 @@ description: Les modèles publics suivants sont actuellement disponibles dans Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Cette automatisation recherche de nouveaux projets dans les portefeuilles avec d
 
 Ce modèle convertit les problèmes en projets. Vous pouvez la modifier pour répondre aux normes de votre entreprise.
 
-### [!BADGE Nouveau!]{type=Informative}
+### Workfront - Copie de documents provenant de problèmes/requêtes vers des projets ou des tâches déjà convertis
 
 Ce scénario flexible copie des documents provenant de problèmes ou de requêtes vers des projets ou des tâches précédemment convertis.
 
