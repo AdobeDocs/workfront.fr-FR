@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '14102'
 ht-degree: 1%
@@ -1432,7 +1432,7 @@ ht-degree: 1%
          * [Présentation des Portfolios dans Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Création et gestion de portefeuilles {#create-and-manage-portfolios}
          * [Création et gestion de portefeuilles](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
-         * [Création d’un portfolio](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+         * [Créer un portfolio](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [Suppression et désactivation de portefeuilles](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
          * [Modification de portfolios](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
          * [Ajout de projets à un portfolio](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
@@ -1788,7 +1788,7 @@ ht-degree: 1%
 * Vérifier et approuver un travail {#review-and-approve-work}
    * [Réviser et approuver le travail](review-and-approve-work/review-and-approve-work.md)
    * [Programme Alpha - Approbations de document](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Programme Alpha - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
+   * [Programme bêta - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [Présentation des documents et des BAT limités pour les utilisateurs non payants](review-and-approve-work/proof-doc-decision-limits.md)
    * Approbations de travail {#work-approvals}
       * [Approbations de travail](review-and-approve-work/manage-approvals/manage-approvals.md)

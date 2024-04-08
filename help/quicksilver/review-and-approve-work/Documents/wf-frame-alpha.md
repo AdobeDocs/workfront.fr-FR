@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Programme Alpha - Workfront + Frame.io
-description: Nous sommes ravis d’annoncer le lancement de notre programme Alpha pour Workfront + Frame.io. Vous trouverez ici des informations sur la dernière version d’Alpha, ainsi qu’une brève présentation vidéo pour vous aider à démarrer.
+title: Programme bêta - Workfront + Frame.io
+description: Nous sommes ravis d’annoncer le lancement de notre programme bêta pour Workfront + Frame.io. Vous trouverez ici des informations sur la dernière version bêta, ainsi qu’une brève présentation vidéo pour commencer.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
 
 ---
 
-# Programme Alpha - Workfront + Frame.io
+# Programme bêta - Workfront + Frame.io
 
-Nous sommes ravis d’annoncer le lancement de notre programme Alpha pour Workfront + Frame.io. Vous trouverez ici des informations sur la dernière version d’Alpha, ainsi qu’une brève présentation vidéo pour vous aider à démarrer.
+Nous sommes ravis d’annoncer le lancement de notre programme bêta pour Workfront + Frame.io. Vous trouverez ici des informations sur la dernière version bêta, ainsi qu’une brève présentation vidéo pour commencer.
 
-## Mises à jour des versions d’Alpha sur Frame.io - Mars 2024
+## Mises à jour de la version bêta de Frame.io - Mars 2024
 
-Dans cette version d’Alpha, nous avons :
+Dans cette version bêta, nous avons :
 
 ### Ajout de plusieurs ressources de Frame.io à Workfront
 
@@ -34,9 +34,9 @@ Les éléments de menu permettant d’ajouter une ressource à Workfront ont ét
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Mises à jour des versions d’Alpha dans Workfront - Mars 2024
+## Mises à jour de la version bêta dans Workfront - Mars 2024
 
-Dans cette version d’Alpha, nous avons :
+Dans cette version bêta, nous avons :
 
 ### Ajout d’une date limite aux révisions et validations de documents
 
