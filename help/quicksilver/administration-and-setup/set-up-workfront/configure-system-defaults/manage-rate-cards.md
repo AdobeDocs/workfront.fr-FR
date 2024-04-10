@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur [!UICONTROL **Carte de taux**].
-1. Cliquez sur [!UICONTROL **Nouvelle carte de taux**], puis saisissez le nom de la carte de taux dans la variable [!UICONTROL **Carte de taux**] pour remplacer &quot;Untitled Rate Card&quot;.
-1. Sur l’écran de la carte, cliquez sur [!UICONTROL **Ajout d’un rôle de tâche**].
+1. Cliquez sur [!UICONTROL **Nouvelle carte de taux**], puis saisissez le nom de la carte de taux dans la variable [!UICONTROL Nouvelle carte de taux] pour remplacer &quot;Untitled Rate Card&quot;.
+1. (Facultatif) Sur l’écran Détails de la carte de taux, ajoutez une [!UICONTROL **Description**].
+1. (Facultatif) Pour joindre un formulaire personnalisé à la carte de taux, cliquez sur le bouton [!UICONTROL **Ajouter un formulaire personnalisé**] dans le coin supérieur droit et sélectionnez un formulaire personnalisé dans la liste qui s’affiche.
+
+   Pour plus d’informations sur l’ajout d’un formulaire personnalisé, voir [Ajout d’un formulaire personnalisé à un objet](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. Cliquez sur [!UICONTROL **Rôles et taux de traitement**] dans le panneau de navigation de gauche.
+1. Sur l’écran Taux et rôles de tâche de carte de taux , cliquez sur [!UICONTROL **Ajout d’un rôle de tâche**].
 1. Dans la boîte de dialogue, sélectionnez une [!UICONTROL **Rôle de tâche**] pour définir les taux de facturation.
 
    Le taux de facturation par défaut affiche le taux au niveau du système pour ce rôle de tâche, le cas échéant.
@@ -82,7 +88,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquer sur [!UICONTROL **Enregistrer**].
 1. (Facultatif) Pour ajouter un autre taux de facturation, soit pour le même rôle de tâche à un autre emplacement, soit pour un rôle de tâche distinct, cliquez sur [!UICONTROL **Ajout d’un rôle de tâche**].
-1. (Facultatif) Pour modifier un taux de facturation, sélectionnez-le dans la carte de taux et cliquez sur le bouton **Modifier** Icône
+1. (Facultatif) Pour modifier une carte de taux, cliquez sur le nom de la carte de taux dans la liste Cartes de taux dans Configuration. Pour modifier un taux de facturation, cliquez sur [!UICONTROL **Rôles et taux de traitement**] dans le panneau de navigation de gauche de la carte de taux. Sélectionnez ensuite le taux et cliquez sur le bouton **Modifier** icon ![Icône Modifier](assets/edit-icon.png).
 
 ## Copier une carte de taux
 
@@ -90,15 +96,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Dans le panneau de gauche, cliquez sur [!UICONTROL **Carte de taux**].
 1. Cochez la case en regard de la carte de taux dans la liste et cliquez sur le bouton **Copier** icon ![Icône Copier](assets/copy-icon.png).
+1. Saisissez le nom de la carte de taux dans la zone [!UICONTROL Copier la carte de taux] pour remplacer &quot;Untitled Rate Card&quot;. Cliquez ensuite sur **Enregistrer**.
 
-   Une carte de taux en double est ajoutée. Cliquez sur le nom de la carte de taux dans la liste pour en modifier le nom.
+   La nouvelle carte de taux est enregistrée. Modifiez les détails de la carte de taux, les rôles de tâche et les taux selon les besoins.
 
 ## Suppression d’une carte de taux entière
 
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur [!UICONTROL **Carte de taux**].
-1. Cochez la case en regard de la carte de taux dans la liste et cliquez sur le bouton **Supprimer** icon ![Icône Supprimer](assets/delete.png).
+1. Cochez la case en regard de la carte de taux dans la liste, puis cliquez sur le bouton **Supprimer** icon ![Icône Supprimer](assets/delete.png).
 
    >[!NOTE]
    >
