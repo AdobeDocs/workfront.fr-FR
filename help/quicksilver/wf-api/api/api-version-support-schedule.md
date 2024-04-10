@@ -1,28 +1,28 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Contrôle de version des API et planification de la prise en charge
-description: Contrôle de version des API et planification de la prise en charge
+title: Contrôle de version des API et planning de prise en charge
+description: Contrôle de version des API et planning de prise en charge
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: ebcd2cae176d4fec2fd0bc308f00fa261621a95c
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 10%
+source-wordcount: '319'
+ht-degree: 8%
 
 ---
 
-# Contrôle de version des API et planification de la prise en charge
+# Contrôle de version des API et planning de prise en charge
 
 
 
-Adobe Workfront publie régulièrement de nouvelles versions d’API, généralement deux fois par an. Les versions d’API sont prises en charge pendant 3 ans après la publication de . Les versions d’API antérieures à 3 ans ne sont plus prises en charge.
+Adobe Workfront publie régulièrement de nouvelles versions d’API, généralement deux fois par an. Les versions d’API sont prises en charge pendant 3 ans après leur publication. Les versions d’API de plus de 3 ans ne sont plus prises en charge.
 
-Pour plus d’informations sur l’identification et l’utilisation des versions d’API, voir [Spécification d’une version d’API dans vos intégrations](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
+Pour plus d’informations sur l’identification et l’utilisation des versions d’API, voir [Spécifier une version d’API dans vos intégrations](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
-Le tableau suivant indique le calendrier de publication et de prise en charge de l’API Workfront.
+Le tableau suivant présente le calendrier de publication et de prise en charge de l’API Workfront.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,12 +31,16 @@ Le tableau suivant indique le calendrier de publication et de prise en charge de
  <thead> 
   <tr> 
    <th><strong>Version</strong> </th> 
-   <th><strong>Version</strong> </th> 
+   <th><strong>Libération</strong> </th> 
    <th><strong>*Non pris en charge</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
  <tr>
+   <td>18</td> 
+   <td> <p>8 avril 2023</p> </td> 
+   <td> <p>**en 2027</p> <p>(avec la version 27.4)</p> </td> 
+  </tr>  <tr>
    <td>17</td> 
    <td> <p>12 octobre 2023</p> </td> 
    <td> <p>**en 2026</p> <p>(avec la version 26.10)</p> </td> 
@@ -63,7 +67,7 @@ Le tableau suivant indique le calendrier de publication et de prise en charge de
   </tr> 
   <tr> 
    <td>12</td> 
-   <td> <p>Second semestre 2020</p> <p>(avec la version 2020.4)</p> </td> 
+   <td> <p>Deuxième semestre 2020</p> <p>(avec la version 2020.4)</p> </td> 
    <td> <p>**en 2023</p> <p>(avec la version 2023.4)</p> </td> 
   </tr> 
   <tr> 
@@ -122,20 +126,20 @@ Le tableau suivant indique le calendrier de publication et de prise en charge de
    <td> <p>Juillet 2017</p> <p>(avec la version 2017.2)</p> </td> 
   </tr> 
   <tr> 
-   <td>0.75</td> 
+   <td>0,75</td> 
    <td>2008</td> 
    <td> <p>Juillet 2017</p> <p>(avec la version 2017.2)</p> </td> 
   </tr> 
   <tr> 
-   <td>0.5</td> 
+   <td>0,5</td> 
    <td>2008</td> 
    <td> <p>Juillet 2017</p> <p>(avec la version 2017.2)</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Workfront ne traitera pas les problèmes liés aux versions non prises en charge de l’API.
+&#42;Les problèmes liés aux versions non prises en charge de l’API ne seront pas résolus par Workfront.
 
-&#42;&#42;Les dates peuvent faire l’objet de modifications.
+&#42;&#42;Dates susceptibles d’être modifiées
 
-Pour plus d’informations sur l’utilisation de versions spécifiques de l’API, voir [Spécification d’une version d’API dans vos intégrations](../../wf-api/api/specify-api-version-integrations.md)
+Pour plus d’informations sur l’utilisation de versions spécifiques de l’API, voir [Spécifier une version d’API dans vos intégrations](../../wf-api/api/specify-api-version-integrations.md)

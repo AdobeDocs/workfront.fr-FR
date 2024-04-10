@@ -3,16 +3,16 @@ filename: _API
 content-type: api;reference
 navigation-topic: api-navigation-topic
 title: API
-description: Articles de l’API Workfront
+description: Articles relatifs à l’API Workfront
 author: Becky
 feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: caaa704bb31b20f209552274aa9db261afea112c
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 1%
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
@@ -22,19 +22,20 @@ Cette section contient les articles suivants :
 
 * [Chargement de fichiers via l’API](../../wf-api/api/uploading-files-api.md)
 * [Fin de la prise en charge de JSONP](../../wf-api/api/ending-support-jsonp.md)
-* [Filtrage des messages d’abonnement d’événement](../../wf-api/api/filter-event-sub-messages.md)
-* [Reprises d’abonnement à un événement](../../wf-api/api/event-sub-retries.md)
-* [Certificats d’abonnement d’événement](../../wf-api/api/event-sub-certs.md)
-* [Spécification d’une version d’API dans vos intégrations](../../wf-api/api/specify-api-version-integrations.md)
+* [Filtrer les messages d’abonnement aux événements](../../wf-api/api/filter-event-sub-messages.md)
+* [Reprises d’abonnement aux événements](../../wf-api/api/event-sub-retries.md)
+* [Certificats d’abonnement aux événements](../../wf-api/api/event-sub-certs.md)
+* [Spécifier une version d’API dans vos intégrations](../../wf-api/api/specify-api-version-integrations.md)
 
-* [Modifications de l’API Core : réponses de recherche d’état](../../wf-api/api/api-changes-search.md)
-* [Mise à jour des intégrations qui utilisent le contrôle de version des API par défaut](../../wf-api/api/update-default-api-versioning.md)
-* [Abandon de l’API interne](../../wf-api/api/deprecation-api-internal.md)
-* [Caractères échappés dans les réponses de l’API](../../wf-api/api/escaped-characters-api.md)
-* [Contrôle de version des API et planification de la prise en charge](../../wf-api/api/api-version-support-schedule.md)
-* [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux de code d’autorisation](../../wf-api/api/oauth-app-code-token-flow.md)
-* [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md)
-* [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md)
+* [Modifications de l’API principale : réponses de recherche de statut](../../wf-api/api/api-changes-search.md)
+* [Mettre à jour les intégrations qui utilisent le contrôle de version par défaut des API](../../wf-api/api/update-default-api-versioning.md)
+* [Obsolescence de l’API interne](../../wf-api/api/deprecation-api-internal.md)
+* [Caractères d’échappement dans les réponses de l’API](../../wf-api/api/escaped-characters-api.md)
+* [Contrôle de version des API et planning de prise en charge](../../wf-api/api/api-version-support-schedule.md)
+* [Configurez et utilisez les applications OAuth 2 personnalisées de votre organisation à l’aide du flux de code d’autorisation](../../wf-api/api/oauth-app-code-token-flow.md)
+* [Configurer et utiliser les applications OAuth 2 personnalisées de votre entreprise à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md)
+* [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md)
+* [Nouveautés de l’API version 18](../../wf-api/api/new-api-version-18.md)
 * [Nouveautés de l’API version 17](../../wf-api/api/new-api-version-17.md)
 * [Nouveautés de l’API version 16](../../wf-api/api/new-api-version-16.md)
 * [Nouveautés de l’API version 15](../../wf-api/api/new-api-version-15.md)
