@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 904a7610a7c6996f9c31cb5141f7baa72fb23739
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1592'
 ht-degree: 0%
 
 ---
@@ -360,6 +360,18 @@ Ajoutez les adresses IP suivantes à votre liste autorisée pour permettre à Wo
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>44.241.82.96</li> 
+     <li>100.20.126.137</li>
+     <li>34.223.32.4</li>
+     <li>52.39.176.220</li>
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] sur la grappe Microsoft Azure</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -470,18 +482,18 @@ Si votre entreprise utilise le filtrage réseau sortant, ajoutez les domaines su
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Pour permettre à Workfront BAT d’accéder à Workfront sur n’importe quelle grappe, ajoutez-les à tous les environnements.</td> 
+   <td role="rowheader">Pour permettre à Workfront Proof d’accéder à Workfront sur une grappe, ajoutez-les à tous les environnements.</td> 
    <td> 
     <ul> 
      <li>*.workfront.com - Obligatoire pour afficher les bons à tirer dans Workfront</li> 
-     <li>*.proofhq.com - Obligatoire pour afficher les bons à tirer dans le bon à tirer Workfront</li> 
-     <li>*.proofhq.eu - Obligatoire pour afficher les bons à tirer dans le bon à tirer Workfront</li> 
-    </ul> <p><b>REMARQUE</b>:  <p>L’ajout d’adresses IP à votre liste autorisée pour Workfront BAT n’est pas pris en charge. Ils ont été dynamiques une fois Workfront déplacé vers AWS. Nous vous recommandons plutôt d’autoriser uniquement les domaines de BAT Workfront.</p> <p>En cas de problème lors de l’ajout de ces domaines à votre liste autorisée et si vous avez besoin d’une adresse IP à la place, contactez le service clientèle de Workfront.</p> </p> </td> 
+     <li>*.proofhq.com - Obligatoire pour afficher les bons à tirer dans Workfront Proof</li> 
+     <li>*.proofhq.eu - Obligatoire pour afficher les bons à tirer dans Workfront Proof</li> 
+    </ul> <p><b>REMARQUE</b>:  <p>L’ajout d’adresses IP à votre liste autorisée pour Workfront Proof n’est pas pris en charge. Ils ont été dynamiques une fois Workfront déplacé vers AWS. Nous vous recommandons plutôt d’autoriser les domaines Workfront Proof uniquement.</p> <p>En cas de problème lors de l’ajout de ces domaines à votre liste autorisée et si vous avez besoin d’une adresse IP à la place, contactez le service clientèle de Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Adresses IP et URL à ajouter pour l’accès au Bon à tirer Workfront
+## Adresses IP et URL à ajouter pour l’accès à Workfront Proof
 
 Vous devez ajouter les adresses IP suivantes à votre liste autorisée pour pouvoir utiliser différentes fonctions.
 
@@ -570,9 +582,9 @@ Vous devez ajouter les adresses IP suivantes à votre liste autorisée pour pouv
  </tbody> 
 </table>
 
-## Ports à ouvrir pour de meilleures performances Workfront BAT
+## Ports à ouvrir pour de meilleures performances Workfront Proof
 
-Ouvrez les ports suivants si vous rencontrez des problèmes de chargement des bons à tirer ou si vous ne travaillez pas dans le bon à tirer Workfront :
+Ouvrez les ports suivants si vous rencontrez des problèmes de chargement des bons à tirer ou si vous ne travaillez pas dans Workfront Proof :
 
 * 5671
 * 5672
