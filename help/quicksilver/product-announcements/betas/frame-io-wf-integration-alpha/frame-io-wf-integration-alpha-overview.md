@@ -1,52 +1,52 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Adobe Workfront et Frame.io native integration alpha: overview"
-description: Informations sur l’alpha de l’intégration native Adobe Workfront et Frame.io
+title: "Adobe Workfront et intégration native de Frame.io bêta : présentation"
+description: Informations sur la version bêta de l’intégration native Adobe Workfront et Frame.io
 author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: 8c9f26fb-4d61-4743-959d-cfaba1b7b63b
-source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
+source-git-commit: e67df8f8b54e3b65668aa266091203f8f0d9262d
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
 
 ---
 
-# alpha de l’intégration native Adobe Workfront et Frame.io : présentation
+# Intégration native d’Adobe Workfront et de Frame.io bêta : présentation
 
-## alpha de l’intégration Workfront + Frame.io
+## La version bêta de l’intégration de Workfront + Frame.io
 
-Bienvenue dans le programme alpha de l’intégration Workfront + Frame.io ! Dans le cadre de cet alpha, vous accéderez rapidement à notre expérience d’intégration native Workfront + Frame.io et serez en mesure de partager vos commentaires qui définiront en fin de compte l’expérience finale que nous publierons sur notre base de clients élargie. Avec cette intégration, nous visons à créer un processus de bout en bout sans heurts entre Workfront et Frame.io, en mettant l’accent sur une solution idéale, unifiée de révision et d’approbation.
+Bienvenue dans le programme bêta d’intégration de Workfront + Frame.io ! Dans le cadre de cette version bêta, vous accéderez rapidement à notre expérience d’intégration native de Workfront + Frame.io et serez en mesure de partager vos commentaires qui définiront en fin de compte l’expérience finale que nous publierons sur notre base de clients élargie. Avec cette intégration, nous visons à créer un processus de bout en bout sans heurts entre Workfront et Frame.io, en mettant l’accent sur une solution idéale, unifiée de révision et d’approbation.
 
 Profitez du meilleur des deux mondes et découvrez comment une expérience rationalisée entre Frame.io et Workfront (y compris les nouvelles approbations de documents) peut faire passer le cycle de vie de votre contenu du lancement au lancement et à la validation et à la diffusion.
 
 
-Pour en savoir plus sur les fonctionnalités prévues de l’alpha et sur la manière dont vous pouvez les tester, voir [alpha de l’intégration native Adobe Workfront et Frame.io : fonctionnalités](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
+Pour en savoir plus sur les fonctionnalités prévues de la version bêta et sur la manière dont vous pouvez les tester, voir [Intégration native bêta d’Adobe Workfront et de Frame.io : fonctionnalités](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
 
 >[!NOTE]
 >
->Si vous êtes tombé sur ces pages sans que votre entreprise ne participe à ce programme alpha, veillez à traiter les informations ici avec soin et à contacter votre administrateur Workfront ou Frame.io pour plus d’informations.
+>Si vous êtes tombé sur ces pages sans que votre entreprise ne participe à ce programme bêta, veillez à traiter les informations ici avec soin et à contacter votre administrateur Workfront ou Frame.io pour plus d’informations.
 
 ## Canaux de communication
 
-Ce programme alpha vous offre une opportunité unique de tester l’expérience transparente que nous visons à créer en exploitant le meilleur de Workfront et de Frame.io. Workfront pour la planification du travail, la surveillance et la gestion du processus de révision et d’approbation des ressources demandées, ainsi que Frame.io pour la collaboration créative et la vérification et l’approbation.
+Ce programme bêta vous offre l’occasion unique de tester l’expérience transparente que nous visons à créer en exploitant le meilleur de Workfront et de Frame.io. Workfront pour la planification du travail, la surveillance et la gestion du processus de révision et d’approbation des ressources demandées, ainsi que Frame.io pour la collaboration créative et la vérification et l’approbation.
 
-Dans le cadre du programme Alpha, nous allons travailler étroitement ensemble pour façonner ce qui deviendra la future expérience de révision et d&#39;approbation formelles unifiées dans l&#39;Adobe.
+Dans le cadre du programme bêta, nous allons travailler en étroite collaboration pour façonner ce qui deviendra la future expérience de révision et d’approbation formelles unifiées dans l’Adobe.
 
 À cette fin, nous avons mis en place certains canaux de communication qui nous permettront de rester connectés, de partager les mises à jour et d&#39;obtenir vos commentaires concrets. Notre objectif est de comprendre les fonctionnalités requises pour permettre à votre entreprise et à vos utilisateurs d’adopter cette solution dans votre environnement de production. Utilisez les canaux de communication suivants pour partager vos commentaires :
 
-### Alpha des appels de retour de prototype de démonstration et de PVM (par client)
+### Démo bêta et appels de retour du prototype MVP (par client)
 
-L’équipe d’Adobe va configurer plusieurs réunions individuelles avec chaque client alpha pour présenter le prototype du PVM avec l’expérience publiée dans votre environnement de prévisualisation/test. Au cours de ces appels, vous aurez la possibilité de faire part de vos commentaires et de nous faire part de vos réflexions sur la façon dont nous envisageons la révision et l’approbation futures unifiées et sur ce qui est nécessaire pour que vous l’adoptiez dans la production. Contactez le porte-parole de votre groupe pour savoir quand le prochain appel est programmé. Il est prévu de commencer par les appels hebdomadaires jusqu’à ce que nous ayons capturé tous vos commentaires, puis que nous passions à une cadence d’appel moins fréquente.
+L’équipe d’Adobe va mettre en place plusieurs réunions individuelles avec chaque client bêta afin de présenter le prototype du PVM avec l’expérience publiée dans votre environnement de prévisualisation/test. Au cours de ces appels, vous aurez la possibilité de faire part de vos commentaires et de nous faire part de vos réflexions sur la façon dont nous envisageons la révision et l’approbation futures unifiées et sur ce qui est nécessaire pour que vous l’adoptiez dans la production. Contactez le porte-parole de votre groupe pour savoir quand le prochain appel est programmé. Il est prévu de commencer par les appels hebdomadaires jusqu’à ce que nous ayons capturé tous vos commentaires, puis que nous passions à une cadence d’appel moins fréquente.
 
 Outre les sessions de démonstration/commentaires guidées, nous vous encourageons à continuer à explorer l’expérience et à effectuer d’autres tests avec les différents groupes et acteurs impliqués. Suivez ces instructions de base pour tester la solution.
 
 ### Canal Slack (par client)
 
-L’équipe Adobe va configurer et inviter votre groupe de test alpha à un espace de travail Slack. Cet espace est conçu pour accélérer la communication et vous permettre de partager et de discuter facilement des idées en dehors des appels programmés, mais aussi d’envoyer les problèmes que vous rencontrez. Veuillez parler au porte-parole de votre groupe de test au cas où vous n’auriez pas été invité dans cet espace de travail vierge.
+L’équipe Adobe va configurer et inviter votre groupe de tests bêta à un espace de travail Slack. Cet espace est conçu pour accélérer la communication et vous permettre de partager et de discuter facilement des idées en dehors des appels programmés, mais aussi d’envoyer les problèmes que vous rencontrez. Veuillez parler au porte-parole de votre groupe de test au cas où vous n’auriez pas été invité dans cet espace de travail vierge.
 
 Veuillez lire la section Bonnes pratiques sur la meilleure manière de soumettre des idées et des problèmes.
 
@@ -62,7 +62,7 @@ We value your input and believe that your perspective is crucial in helping us c
 
 Mention it during our regular demo/feedback calls 
 
-Share it on our alpha program slack channel  
+Share it on our beta program slack channel  
 
 Or send it via e-mail to ossmann@adobe.com 
 
