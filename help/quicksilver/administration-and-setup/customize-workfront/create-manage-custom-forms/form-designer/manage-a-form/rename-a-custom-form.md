@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    Dans la vue qui s’affiche, vous pouvez passer en revue tous les formulaires personnalisés créés pour votre organisation. Vous pouvez également savoir qui a créé chaque formulaire, avec quel type d’objet il fonctionne et s’il est actif.
 
-1. Sélectionnez le formulaire personnalisé à renommer, puis cliquez sur ou ![Icône Modifier](assets/edit-icon2.png).
+1. Sélectionnez le formulaire personnalisé à renommer, puis cliquez sur ![Icône Modifier](assets/edit-icon2.png).
 1. Pour modifier le titre, cliquez sur le nom du formulaire.
 1. Pour modifier la description, cliquez dans la zone de texte de description.
 
