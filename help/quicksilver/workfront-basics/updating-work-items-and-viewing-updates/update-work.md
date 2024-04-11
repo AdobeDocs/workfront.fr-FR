@@ -6,10 +6,10 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '4288'
-ht-degree: 1%
+source-wordcount: '2974'
+ht-degree: 0%
 
 ---
 
@@ -19,35 +19,39 @@ ht-degree: 1%
 
 <!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans Production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: hide the "Important" box below-->
 
+<!--
 >[!IMPORTANT]
 >
->Nous sommes en train de reconcevoir l’expérience de commentaire dans Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Selon les objets pour lesquels vous accédez à l’expérience de commentaire, les fonctionnalités suivantes peuvent s’afficher dans la section Mises à jour :
->* La nouvelle expérience
->* L’expérience héritée
->* L’expérience nouvelle et héritée
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->Pour plus d’informations sur la nouvelle expérience de commentaire et sa disponibilité, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> L’expérience de commentaire héritée a été supprimée des projets, tâches, problèmes et documents dans l’environnement Aperçu. </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->La nouvelle expérience de commentaire n’est disponible que pour la section Mises à jour des objets Workfront et n’est pas disponible lorsque vous accédez aux mises à jour des zones suivantes :
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * Page d’accueil
-> * Panneau Résumé dans les listes
-> * Panneau Résumé dans les feuilles de temps
-> * Panneau Résumé de l’équilibreur de charge de travail
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">La nouvelle expérience de commentaire est disponible dans le panneau Résumé dans les listes, les feuilles de temps et l’équilibreur de charge de travail dans l’environnement de prévisualisation et dans l’environnement de production pour les clients qui ont choisi le processus de publication rapide. </span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+-->
 
 Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront pour communiquer sur la progression de l’objet. Pour plus d’informations sur les objets auxquels vous pouvez ajouter des mises à jour dans Workfront, voir [Mise à jour de la section - Aperçu](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -133,113 +137,113 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
-## Ajouter une mise à jour à un élément de travail
+<!--
+## Add an update to a work item
 
-L’ajout d’une mise à jour à un élément de travail varie en fonction de la version de la section Mises à jour que vous utilisez.
+Adding an update to a work item differs depending on what version of the Updates section you use.
 
-Vous pouvez ajouter des mises à jour aux objets suivants :
+You can add updates to the following objects: 
 
-* Projets
-* Tâches
-* Problèmes
-* Programmes
-* Portefeuilles
-* Modèles
-* Tâches de modèle
-* Utilisateurs
-* Feuilles de temps
-* Équipes
-* Objectifs
-* Cartes dans la zone Panoramas
-* Itérations
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+-->
 
 <!--info for April 11: hide the section below completely:-->
 
-### Ajouter une mise à jour à un élément de travail dans la section Mises à jour héritées
+<!--
+### Add an update to a work item in the legacy Updates section
 
 >[!IMPORTANT]
 >
->Les informations de cette page décrivent la mise à jour des projets, tâches et problèmes.
+>The information on this page describes how you update projects, tasks, and issues.
 
-1. Accédez à l’élément de travail pour lequel vous souhaitez fournir une mise à jour (un projet, une tâche ou un problème, par exemple).
-1. Cliquez sur le bouton **Mises à jour** .
-1. (Conditionnel) Si cette option est activée, cliquez sur l’icône **Nouveaux commentaires** dans le coin supérieur droit de la section Mises à jour afin de la désactiver et d’activer l’expérience de commentaire héritée.
-1. Cliquez sur **Démarrer une nouvelle mise à jour,** saisissez ensuite votre mise à jour.
-1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
-1. (Facultatif) Mettez à jour l’une des informations suivantes sur l’élément de travail :
+1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
+1. Click the **Updates** section.
+1. (Conditional) If it is enabled, click the **New commenting** option in the upper-right corner of the Updates section to disable it and enable the legacy commenting experience.
+1. Click **Start a new update,** then type your update.  
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
+1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Notifier </strong></td> 
-      <td>Identifiez les utilisateurs qui doivent être informés de la mise à jour. Les utilisateurs affectés ou abonnés à l’objet reçoivent automatiquement une notification lorsqu’une mise à jour est effectuée.<br><p>Pour plus d’informations sur la manière d’inclure d’autres personnes à une mise à jour, voir <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Balisage des autres sur les mises à jour</a>.</p></td> 
+      <td role="rowheader"><strong>Notify</strong></td> 
+      <td>Identify users who must be notified of the update. Users assigned or subscribed to the object automatically receive notification when an update is made.<br><p>For information about how to include others on an update, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Date d'engagement</strong></td> 
-      <td>Dans le sélecteur de date, sélectionnez la date de validation de la fin de l’élément de travail. Pour plus d’informations sur la date de validation, voir <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Présentation de la date de validation</a>.</td> 
+      <td role="rowheader"><strong>Commit Date</strong></td> 
+      <td>In the date picker, select the date that you commit to complete the work item. For information about Commit Date, see <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condition</strong></td> 
-      <td>Sélectionnez une nouvelle condition pour la tâche ou le problème. Pour plus d’informations sur la sélection d’une condition, voir <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Mise à jour de la condition pour les tâches et les problèmes</a>.</td> 
+      <td>Select a new condition for the task or issue. For information about selecting a condition, see <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Statut</strong></td> 
-      <td>Cliquez sur la flèche en regard de l’état actuel, puis sélectionnez l’état de votre choix dans le menu déroulant. Pour plus d’informations sur la définition d’un état, voir <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Mettre à jour le statut des tâches</a>.<p>La mise à jour de l’état d’un élément de travail ne modifie pas automatiquement l’état d’un projet. Selon la configuration de votre projet, vous pouvez mettre à jour séparément l’état du projet. Pour plus d’informations sur les différents types de mise à jour de projet, voir <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Sélectionnez le type de mise à jour du projet. </a>.</p><p><b>NOTE</b>
-
-   Vous ne pouvez pas modifier l’état d’un élément de travail lorsqu’il est dans un état d’approbation en attente.</p></td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Barre d’achèvement</strong></td> 
-      <td>(Uniquement disponible sur les tâches) Indiquez le pourcentage de travail réalisé en glissant la barre de progression sur le pourcentage souhaité. Vous pouvez également double-cliquer sur la barre d’achèvement et saisir le pourcentage de remplissage.</td> 
+      <td role="rowheader"><strong>Status</strong></td> 
+      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
+      
+      You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Réservé à mon entreprise</strong></td> 
-      <td> <p>Désactivez cette option pour empêcher les utilisateurs en dehors de votre entreprise d’avoir accès à cette mise à jour.</p> 
+      <td role="rowheader"><strong>Completion Bar</strong></td> 
+      <td>(Only available on tasks) Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Private to my company</strong></td> 
+      <td> <p>Disable this option to prevent users outside your company from having access to view this update.</p> 
       <p><b>NOTE</b></p>
-      <p>Cette option s’affiche uniquement lorsque l’utilisateur est associé à une entreprise.</p>
-      <p>Cette option n’est pas disponible dans toutes les zones à partir desquelles vous pouvez ajouter des mises à jour. Par exemple, cela n’est pas disponible dans les applications tierces à partir desquelles vous pouvez ajouter des mises à jour. </p>
+      <p>This option displays only when the user is associated with a Company.</p>
+      <p>This option is not available in all areas where you can add updates from. For example, this is not available in third-party applications where you can add updates from. </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Cliquez sur **Mettre à jour** pour ajouter la mise à jour à l’objet Workfront.
+1. Click **Update** to add the update to the Workfront object.
 
    >[!NOTE]
    >
-   >Une petite fenêtre contextuelle s’affiche pendant sept secondes après avoir cliqué sur **Mettre à jour**, ce qui vous permet d’annuler la mise à jour et de revenir au volet d’édition avant la publication de la mise à jour. La mise à jour est publiée si vous ignorez la fenêtre contextuelle Annuler, attendez qu’elle disparaisse ou quittez la page.
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update is posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
    >
-   >Si votre administrateur Workfront sélectionne le paramètre &quot;Ne jamais autoriser les utilisateurs à supprimer les commentaires&quot; dans votre niveau d’accès, vous ne pouvez pas annuler un commentaire. Pour plus d’informations, voir [Création et modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >If your Workfront administrator selects the "Never allow users to delete comments" setting in your access level, you cannot undo a comment. For more information, see [Create and modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-1. Pour répondre à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+-->
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-### Ajouter une mise à jour à un élément de travail à l’aide de la nouvelle expérience de commentaire
+## Ajouter une mise à jour à un élément de travail <!--using the new commenting experience-->
 
 1. Recherchez l’objet à mettre à jour (projet, tâche ou problème), puis cliquez sur son nom pour ouvrir la page de l’objet.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
 La variable **Commentaires** est sélectionné par défaut.
 
-1. (Conditionnel) Si la variable **Nouveaux commentaires** est désactivée, cliquez sur pour l’activer.
+<!--
+1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   Cela permet la nouvelle expérience de commentaire.
+   This enables the new commenting experience. 
 
-   >[!TIP]
-   >
-   ><span class="preview">L’option Nouveau commentaire a été supprimée de l’environnement Aperçu.</span>
-
+      >[!TIP]
+      >
+      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+-->
 
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
-   <div class="preview">
-
    ![Nouvelle zone de commentaire](assets/comment-box-all-tabs.png)
-
-   </div>
-
 
    >[!TIP]
    >
@@ -248,6 +252,7 @@ La variable **Commentaires** est sélectionné par défaut.
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
    * Ctrl + Z ( ⌘ + z pour Mac) pour annuler une modification.
    * Ctrl + Y ( ⌘ + y pour Mac) pour rétablir la modification
+
 1. (Facultatif) Dans la variable **Balisage de personnes ou d’équipes** , commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, voir [Utilisation de texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 
@@ -273,7 +278,6 @@ La variable **Commentaires** est sélectionné par défaut.
    >
    >Les commentaires de l’année en cours n’affichent pas l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, y compris l’année.
 
-
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
@@ -282,15 +286,13 @@ La variable **Commentaires** est sélectionné par défaut.
    >* L’horodatage en regard du commentaire correspond à la date du commentaire d’origine, et non à celle de la dernière modification.
    >* Lorsque vous ajoutez un commentaire au nom d’un autre utilisateur (lorsque vous vous connectez en tant qu’autre utilisateur en tant qu’administrateur Workfront ou de groupe), vous ne pouvez pas le modifier si vous êtes connecté en tant qu’autre utilisateur. Vous ne pouvez modifier le commentaire qu’après vous être déconnecté en tant qu’utilisateur et vous être reconnecté vous-même.
 
-
-1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la variable **Ajouter une réponse ...** , pour répondre à un commentaire existant, puis suivez les étapes 4 à 8 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la variable **Ajouter une réponse ...** , pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 1. (Conditionnel et facultatif) Si d’autres utilisateurs ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour pendant que vous ajoutiez vos commentaires, cliquez sur **Affichage** à l’intérieur du bleu **nouvelle bannière de commentaires** en bas de l’écran pour afficher ces commentaires.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    D’autres commentaires s’affichent en bas de l’écran.
-
 
    >[!NOTE]
    >
@@ -305,23 +307,22 @@ La variable **Commentaires** est sélectionné par défaut.
    >
    >Les noms des deux premières entités balisées s’affichent en regard de leurs avatars. Si plus de deux entités ne sont balisées que le nom du premier et que le nombre d’entités supplémentaires s’affiche.
 
-1. <span class="preview"> (Facultatif) Cliquez sur le nom d’un commentateur pour afficher son nom, son rôle et son adresse électronique dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur dans la zone d’informations pour ouvrir son profil utilisateur.</span>
+1. (Facultatif) Cliquez sur le nom d’un commentateur pour afficher son nom, son rôle et son adresse électronique dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur dans la zone d’informations pour ouvrir son profil utilisateur.
 1. (Facultatif) Cliquez sur le **Activité du système** pour afficher les mises à jour enregistrées par le système. Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note à ce sujet et l’affiche dans l’onglet Activité du système .
 
    Pour plus d’informations, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
-   >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système. <span class="preview">Toutefois, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système .</span>
+   >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système. Toutefois, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système .
 
-1. <span class="preview">(Facultatif) Cliquez sur le **Tous** pour afficher à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule.</span>
+1. (Facultatif) Cliquez sur le **Tous** pour afficher à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule.
 
    >[!TIP]
    >
-   ><span class="preview">Vous ne pouvez pas répondre aux commentaires ni baliser d’autres utilisateurs dans les commentaires existants dans l’onglet Tous . Pour répondre à un commentaire dans l’onglet Toutes , cliquez sur **Réponse aux commentaires** pour ouvrir le commentaire dans l’onglet Commentaires .</span>
+   >Vous ne pouvez pas répondre aux commentaires ni baliser d’autres utilisateurs dans les commentaires existants dans l’onglet Tous . Pour répondre à un commentaire dans l’onglet Toutes , cliquez sur **Réponse aux commentaires** pour ouvrir le commentaire dans l’onglet Commentaires .
 
 ## Utilisation de texte enrichi dans une mise à jour Workfront{#use-rich-text-in-a-workfront-update}
-
 
 Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y ajoutant divers éléments, tels que des émoticônes, des liens ou des images.
 
@@ -338,7 +339,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir le champ Ajouter des liens , procédez comme suit : CAS+K</br> <br>Pour coller un lien sur le texte sélectionné : jamais + V</br> | <br>Pour ouvrir la boîte de dialogue Ajouter des liens : Ctrl+K</br> <br>Pour coller un lien sur le texte sélectionné : Ctrl+V</br> |
    | Liste à puces | ![mceclip6.png](assets/mceclip6.png) | Greatest + Maj + 8 | Ctrl+Maj+8 |
    | Liste numérotée | ![mceclip5.png](assets/mceclip5.png) | Greatest + Maj + 7 | Ctrl+Maj+7 |
-   | Citation | ![](assets/block-quote-icon-large.png) | Greatest + Maj + 9 | <br>Ctrl+Maj+9</br> <br>Cette option n’est pas disponible dans la nouvelle expérience de commentaire. </br> |
+   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
@@ -354,11 +355,11 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >* Si votre entreprise utilise Workfront avec Internet Explorer, tout texte formaté collé dans une mise à jour perd sa mise en forme de texte enrichi et s’affiche en tant que texte brut. Vous pouvez reformater le texte à l’aide des attributs de la barre d’outils Texte enrichi.
    >* La mise en forme de texte enrichi n’est pas disponible pour les mises à jour effectuées dans la zone Fiches horaires ou pour les objets Remarque et Dernière condition affichés dans un rapport.
 
-1. (Facultatif et conditionnel) Si vous souhaitez inclure du texte provenant de mises à jour précédentes ou d’autres sources et le distinguer de votre propre mise à jour, vous pouvez le marquer comme une citation de bloc. Cliquez sur le bouton **Blocs de citations** icon ![](assets/block-quote-small.png) et tapez le texte que vous souhaitez citer. Le texte entre guillemets s’affiche avec une ligne grise verticale. Cliquez sur le bouton **Blocs de citations** pour revenir à la mise en forme normale. Cette option n’est pas disponible dans la nouvelle expérience de commentaire.
+<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-   <!--remove this picture below and the bullet above when we remove legacy-->
+<!--remove this picture below and the bullet above when we remove legacy-->
 
-   ![](assets/block-quote-marked-350x144.png)</span>
+<!--![](assets/block-quote-marked-350x144.png)-->
 
 1. (Facultatif) Cliquez sur le **émoji** icon ![](assets/emoji-icon.png) pour ajouter des émoticônes à votre mise à jour.
 
@@ -384,7 +385,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 1. (Facultatif) Pour joindre une image à votre mise à jour, effectuez l’une des opérations suivantes :
 
    * Enregistrez l’image sur votre ordinateur, puis faites-la glisser et déposez-la dans la zone Nouveau commentaire.
-   * Copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire. Cette option n’est pas disponible dans l’expérience de commentaire héritée.
+   * Copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire.<!-- This is not available in the legacy commenting experience.-->
    * Cliquez sur le bouton **Ajouter une image** icon ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
 
 
@@ -395,10 +396,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >* Les images sont accessibles à partir de la section Mises à jour d’un objet et elles sont également disponibles dans la zone Documents sous le menu principal.
    >* Vous pouvez coller l’image en cliquant avec le bouton droit de la souris dans le nouveau commentaire, ou en appuyant sur CTRL + V pour Windows (ou appuyer sur vert + V pour Mac) sur votre clavier.
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
-   >* Lorsque vous supprimez un commentaire qui contient une image, les scénarios suivants existent selon l’expérience choisie :
-   >
-   >     * Dans l’expérience de commentaire héritée, l’image reste dans la zone Documents, mais n’est plus visible dans la section Mises à jour .
-   >     * Dans la nouvelle expérience de commentaire, l’image est supprimée de la section Mises à jour , ainsi que de la zone Documents . L’image est également supprimée de la zone Documents lorsque vous modifiez un commentaire et supprimez l’image.
+   >* Lorsque vous supprimez un commentaire qui contient une image, celle-ci est supprimée de la section Mises à jour , ainsi que de la zone Documents . L’image est également supprimée de la zone Documents lorsque vous modifiez un commentaire et supprimez l’image.
    >* Lorsqu’une personne supprime une image jointe à un commentaire de la zone Documents, elle est également supprimée du commentaire.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
@@ -437,13 +435,13 @@ Vous pouvez rechercher un commentaire ou une réponse dans la section Mises à j
 
 Il existe plusieurs façons de copier une mise à jour. Après avoir copié un lien, vous pouvez le partager avec d’autres personnes afin de les rediriger vers la mise à jour.
 
-La copie d’une mise à jour varie en fonction de l’expérience de commentaire que vous utilisez.
+<!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### Copier une mise à jour dans la nouvelle expérience de commentaire
+### Copier une mise à jour <!--in the new commenting experience-->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour la nouvelle expérience de commentaire et pour les objets, voir [Nouvelle expérience de commentaire](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
 
 Vous pouvez copier des informations d’un commentaire existant en effectuant l’une des opérations suivantes :
 
@@ -493,61 +491,63 @@ L&#39;option Réponse entre guillemets copie le commentaire d&#39;origine dans u
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
-### Copie d’une mise à jour dans l’expérience de commentaire héritée
+<!--
+### Copy an update in the legacy commenting experience
 
-* [Copier la mise à jour](#copy-the-update)
-* [Copier le lien du thread](#copy-the-thread-link)
-* [Copier le lien de mise à jour](#copy-the-update-link)
-* [Citer la réponse](#quote-reply)
+* [Copy the update](#copy-the-update) 
+* [Copy the thread link](#copy-the-thread-link) 
+* [Copy the update link](#copy-the-update-link)
+* [Quote Reply](#quote-reply)
 
-  >[!TIP]
-  >
-  >Lorsque vous copiez et partagez le lien d’une conversation sur un objet enfant à partir d’un objet de rang supérieur, le lien ouvre le thread dans la zone Mises à jour de l’objet enfant.
-  >
-  >Par exemple, si vous copiez le lien d’un commentaire de tâche dans la zone Mises à jour du projet, le commentaire ouvre la page de la tâche.
+   >[!TIP]
+   >
+   >When you copy and share the link of a conversation on a child object from a higher-ranking object, the link opens the thread in the child object's Updates area. 
+   >
+   >For example, if you copy the link of a task comment from the project's Updates area, the comment opens the task page.
 
-#### Copier la mise à jour {#copy-the-update}
+#### Copy the update {#copy-the-update}
 
-Cette option copie le texte d’une mise à jour spécifique dans le Presse-papiers.
+This option copies the text from a specific update to the clipboard.
 
-1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le texte du corps**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copier le lien du thread {#copy-the-thread-link}
-
-Cette option copie le lien de thread complet dans le Presse-papiers afin que vous puissiez partager le thread avec d’autres utilisateurs.
-
-1. Accédez au thread de mise à jour que vous souhaitez copier.
-
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Copier le lien du thread**.
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Collez le lien que vous avez copié à l’étape précédente dans un email ou dans une autre application pour le partager avec d’autres personnes. Le lien partagé ouvre le commentaire à partir duquel vous avez partagé le lien.
+#### Copy the thread link {#copy-the-thread-link}
 
-#### Copier le lien de mise à jour {#copy-the-update-link}
+This option copies the full thread link to the clipboard so you can share the thread with other users.
 
-Cette option copie un lien de mise à jour spécifique dans le Presse-papiers. Lorsque vous partagez le lien de mise à jour, l’utilisateur qui le suit voit une bordure autour de la mise à jour.
+1. Go to the update thread you want to copy.
 
-1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour, cliquez sur **Copier le lien de mise à jour**.
+1. Click the **More** menu, then click **Copy thread link**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+#### Copy the update link {#copy-the-update-link}
+
+This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
    ![](assets/copy-update-link-old-ui.png)
 
-1. Collez le lien que vous avez copié à l’étape précédente dans un email ou dans une autre application pour le partager avec d’autres personnes. Le lien partagé ouvre le commentaire à partir duquel vous avez partagé le lien.
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
-#### Citer la réponse
+#### Quote Reply  
 
-L’option Réponse à la citation copie le commentaire d’origine dans une nouvelle réponse sous forme de citation bloquée.
+The Quote Reply option copies the original comment to a new reply as a block quote. 
 
-1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le bouton **Plus** , puis cliquez sur **Réponse de devis**.
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Quote Reply**.
 
-   Une nouvelle zone de commentaire s’ouvre et la réponse entre guillemets est incluse dans le nouveau commentaire et est marquée comme une citation bloquée.
+   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
 
-1. Continuez à ajouter votre mise à jour et cliquez sur **Répondre** pour ajouter le commentaire.
+1. Continue adding your update and click **Reply** to add the comment.
+-->
 
 ## Supprimer une mise à jour ou une réponse
 
