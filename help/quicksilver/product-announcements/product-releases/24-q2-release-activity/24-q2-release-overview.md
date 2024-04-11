@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
+source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Au lieu d&#39;un webinaire sur la publication de la mise à jour, nous vous invi
                                 <p>Production pour une version rapide : avec la version 24.2 (15 février 2024)</p>
                             </li>
                             <li>
-                                <p>Production pour une publication trimestrielle : à déterminer</p>
+                                <p>Production pour une version trimestrielle : avec la version 24.4 (11 avril 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -371,7 +371,7 @@ Au lieu d&#39;un webinaire sur la publication de la mise à jour, nous vous invi
                                 <p><span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span></p>
                             </li>
                             <li>
-                                <p>Production pour une version trimestrielle : avec la version 24.4 (11 avril 2024)</p>
+                                <p>Production pour une publication trimestrielle : à déterminer</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ Au lieu d&#39;un webinaire sur la publication de la mise à jour, nous vous invi
                                 <p><span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span></p>
                             </li>
                             <li>
-                                <p>Production pour une version trimestrielle : avec la version 24.4 (11 avril 2024)</p>
+                                <p>Production pour une publication trimestrielle : à déterminer</p>
                             </li>
                         </ul>
                     </td>
