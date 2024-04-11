@@ -9,9 +9,9 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion Adobe Wor
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5945'
+source-wordcount: '6207'
 ht-degree: 2%
 
 ---
@@ -814,6 +814,58 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 +++
 
 +++ **[!UICONTROL Rechercher]**
+
+Ce module de recherche recherche recherche des enregistrements dans un objet de la section [!DNL Workfront] qui correspondent à la requête de recherche que vous spécifiez.
+
+Vous pouvez mapper ces informations dans les modules suivants du scénario.
+
+Lors de la configuration de ce module, les champs suivants s’affichent.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront] app to [!DNL Workfront Fusion], voir <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Workfront] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td> <p>Sélectionnez le type de [!DNL Workfront] enregistrement que vous souhaitez que le module recherche.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Result Set]</td> 
+   <td>Sélectionnez une option pour indiquer si vous souhaitez que le module obtienne le premier résultat correspondant à vos critères de recherche ou tous les résultats qui correspondent.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximal]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Champs de critères de recherche]</td> 
+   <td> <p>Sélectionnez les champs à utiliser pour vos critères de recherche. Ces champs seront ensuite disponibles dans la liste déroulante Critères de recherche .</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Critères de recherche]</td> 
+   <td> <p>Renseignez le champ par lequel vous souhaitez effectuer une recherche, l'opérateur que vous souhaitez utiliser dans votre requête et la valeur que vous recherchez dans le champ.</p> <p>Remarque : Ne pas utiliser <code>username </code>dans vos critères de recherche. Inclusion <code>username </code>dans une requête API à [!DNL Workfront] connecte l’utilisateur à Workfront, et la recherche échoue.</p> <p>Remarque : <code>In</code> et <code>NotIn</code>fonctionne avec des tableaux. Les entrées doivent être au format de tableau.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Sorties [!UICONTROL]</td> 
+   <td> <p>Sélectionnez les champs que vous souhaitez inclure dans la sortie de ce module.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Références [!UICONTROL]</td> 
+   <td>Sélectionnez les champs de référence à inclure dans la recherche.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Collections]</td> 
+   <td>Sélectionnez les collections à ajouter à la recherche.</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL Recherche (héritée)]**
 
 Ce module de recherche recherche recherche des enregistrements dans un objet de la section [!DNL Workfront] qui correspondent à la requête de recherche que vous spécifiez.
 
