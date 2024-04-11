@@ -6,9 +6,9 @@ description: En tant que gestionnaire de ressources, vous pouvez affecter du tra
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,6 @@ ht-degree: 0%
 # Gestion des affectations utilisateur dans l’équilibreur de charge de travail
 
 <!-- Audited: 01/2024 -->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 En tant que gestionnaire de ressources, vous pouvez affecter du travail aux utilisateurs et gérer leurs allocations quotidiennes, hebdomadaires ou mensuelles à partir de l’équilibreur de charge de travail afin de vous assurer qu’un nombre d’heures adapté à leurs plannings disponibles leur est alloué.
 
@@ -259,7 +253,7 @@ Dans le cadre de l’affectation de travail aux utilisateurs, vous pouvez modifi
 
 >[!TIP]
 >
-><span class="preview">Une icône représentant un crayon s’affiche à droite du nom de l’élément de travail pour indiquer qu’il a été modifié manuellement.</span>
+>Une icône représentant un crayon s’affiche à droite du nom de l’élément de travail pour indiquer qu’il a été modifié manuellement.
 
 ![Icône Heures ajustées manuellement](assets/icon-for-manually-adjusted-hours.png)
 

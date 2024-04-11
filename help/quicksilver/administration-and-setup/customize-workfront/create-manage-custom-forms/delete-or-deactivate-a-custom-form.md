@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Suppression d’un formulaire personnalisé
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Vous pouvez supprimer un formulaire personnalisé du système.
 
@@ -62,5 +56,5 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 {{step-1-to-setup}}
 
 1. Cliquez sur **Forms personnalisée.**
-1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Supprimer** <span class="preview">ou ![Icône Supprimer](assets/delete-icon.png).</span>
+1. Sélectionnez le formulaire personnalisé, puis cliquez sur ![Icône Supprimer](assets/delete-icon.png).
 1. Si vous souhaitez supprimer définitivement le formulaire personnalisé et toutes les données associées sur les objets auxquels il a été joint, cliquez sur **Oui, la supprimer**.

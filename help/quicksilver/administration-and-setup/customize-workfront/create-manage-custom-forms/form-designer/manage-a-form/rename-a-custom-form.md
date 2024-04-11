@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # Renommer un formulaire personnalisé avec le concepteur de formulaires
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Vous pouvez renommer un formulaire personnalisé à tout moment une fois qu’il a été créé avec le concepteur de formulaire.
 
@@ -61,7 +55,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    Dans la vue qui s’affiche, vous pouvez passer en revue tous les formulaires personnalisés créés pour votre organisation. Vous pouvez également savoir qui a créé chaque formulaire, avec quel type d’objet il fonctionne et s’il est actif.
 
-1. Sélectionnez le formulaire personnalisé à renommer, puis cliquez sur **Modifier** <span class="preview">ou ![Icône Modifier](assets/edit-icon2.png).</span>
+1. Sélectionnez le formulaire personnalisé à renommer, puis cliquez sur ou ![Icône Modifier](assets/edit-icon2.png).
 1. Pour modifier le titre, cliquez sur le nom du formulaire.
 1. Pour modifier la description, cliquez dans la zone de texte de description.
 

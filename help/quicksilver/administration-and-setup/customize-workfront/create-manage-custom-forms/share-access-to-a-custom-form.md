@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 0%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
 # Partage d’un formulaire personnalisé
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Vous pouvez configurer l’accès à un formulaire personnalisé pour contrôler qui (personne, rôle, groupe, équipe, entreprise) peut l’afficher, le partager et le modifier.
 
@@ -69,7 +63,7 @@ Plutôt que de laisser un formulaire personnalisé dans l’état de partage par
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Forms personnalisée**.
-1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Partager** <span class="preview">ou ![Icône Partager](assets/share-icon.png).</span>
+1. Sélectionnez le formulaire personnalisé, puis cliquez sur ![Icône Partager](assets/share-icon.png).
 1. Dans la zone qui s’affiche, sous **Octroyer un accès à un formulaire personnalisé**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle de tâche, du groupe ou de la société avec lequel vous souhaitez partager le formulaire personnalisé, puis appuyez sur **Entrée** lorsque le nom s’affiche.
 1. Pour ajuster l’accès de l’utilisateur, de l’équipe, du rôle de tâche, du groupe ou de la société que vous venez d’ajouter, cliquez sur le menu déroulant à droite du nom, puis configurez l’une des options disponibles suivantes, ainsi que l’un de ses paramètres avancés :
 
@@ -118,7 +112,7 @@ Plutôt que de laisser un formulaire personnalisé dans l’état de partage par
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Forms personnalisée**.
-1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Partager** <span class="preview">ou ![Icône Partager](assets/share-icon.png).</span>
+1. Sélectionnez le formulaire personnalisé, puis cliquez sur ![Icône Partager](assets/share-icon.png).
 1. Dans la zone qui s’affiche, cliquez sur le X situé à droite du nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société dont vous ne souhaitez plus bénéficier d’un accès spécial au formulaire.
 1. (Facultatif) Répétez l’étape précédente sur pour connaître les autres noms que vous souhaitez supprimer.
 1. Cliquer sur **Enregistrer**.

@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
 # Configuration du partage de champs et de widgets personnalisés avec le créateur de formulaires hérité
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Par défaut, lorsque vous ajoutez un nouveau champ ou widget personnalisé à un formulaire personnalisé, toute personne du système ayant accès à des formulaires personnalisés peut modifier les propriétés de cet élément, telles que son libellé et son nom. Vous pouvez modifier ce paramètre en contrôlant avec qui il peut être partagé.
 
@@ -63,11 +57,11 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 1. Si vous configurez le partage d’un champ ou d’un widget personnalisé dans l’instance Workfront de votre entreprise, procédez comme suit :
 
    1. Cliquez sur **Champs** pour ouvrir la zone Champs .
-   1. Sélectionnez l’élément pour lequel vous souhaitez configurer le partage, puis cliquez sur **Partager** <span class="preview">ou ![Icône Partager](assets/share-icon.png).</span>
+   1. Sélectionnez l’élément pour lequel vous souhaitez configurer le partage, puis cliquez sur ![Icône Partager](assets/share-icon.png).
 
    Ou, si vous configurez le partage d’un champ ou d’un widget personnalisé dans un formulaire personnalisé existant, procédez comme suit :
 
-   1. Sélectionnez le formulaire personnalisé, puis cliquez sur **Modifier** <span class="preview">ou ![Icône Modifier](assets/edit-icon.png).</span>
+   1. Sélectionnez le formulaire personnalisé, puis cliquez sur ![Icône Modifier](assets/edit-icon.png).
    1. Dans la zone d’édition du formulaire à droite, sélectionnez l’élément pour lequel vous souhaitez configurer le partage.
    1. Dans le panneau de gauche, cliquez sur **Partager le champ**.
 
@@ -131,7 +125,7 @@ Vous pouvez déterminer qui a hérité de l’accès à un champ ou à un widget
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
 1. Dans le panneau de gauche, cliquez sur **Forms personnalisée**.
-1. Cliquez sur le bouton **Champs** , puis sélectionnez le champ, l’image ou le widget d’accès.
+1. Cliquez sur **Champs**, puis sélectionnez le champ, l’image ou le widget d’accès.
 1. Dans la zone qui s’affiche, cliquez sur **Autorisations héritées** et afficher les noms qui s’affichent.
 1. Cliquez sur **Annuler**.
 

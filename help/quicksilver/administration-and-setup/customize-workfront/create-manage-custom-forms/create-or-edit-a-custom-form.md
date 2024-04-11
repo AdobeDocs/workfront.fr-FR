@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-Vous pouvez créer ou modifier un nouveau formulaire personnalisé. Les deux tâches sont expliquées dans cet article.
+Vous pouvez créer un formulaire personnalisé ou modifier un formulaire existant. Les deux tâches sont expliquées dans cet article.
 
 Pour plus d’informations sur la création d’un formulaire personnalisé à partir d’un formulaire existant, voir [Copier un formulaire personnalisé pour en créer un nouveau avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
@@ -116,7 +110,7 @@ Vous pouvez modifier un formulaire personnalisé à tout moment après sa créat
 
    Les formulaires personnalisés s’affichent dans une liste. Vous pouvez consulter tous les formulaires et champs personnalisés créés pour votre entreprise. Vous pouvez également voir qui a créé chaque formulaire, les objets qui lui sont associés et s’il est actif.
 
-1. Sélectionnez le formulaire personnalisé à modifier, puis cliquez sur **Modifier** <span class="preview">ou ![Icône Modifier](assets/edit-icon.png).</span>
+1. Sélectionnez le formulaire personnalisé à modifier, puis cliquez sur ![Icône Modifier](assets/edit-icon.png).
 1. (Facultatif) Pour modifier le titre et la description du formulaire personnalisé, cliquez sur le bouton **Paramètres de formulaire** , puis saisissez une **Titre du formulaire** et **Description**.
 
 1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin de pouvoir les joindre à d’autres objets, cliquez sur le signe + après **Types d’objet**, puis sélectionnez le type souhaité dans le menu qui s’affiche.

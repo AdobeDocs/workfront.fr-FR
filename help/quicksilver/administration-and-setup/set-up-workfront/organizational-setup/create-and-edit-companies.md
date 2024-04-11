@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Création et modification d’entreprises
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -119,7 +117,7 @@ Pour ajouter ou modifier une société :
      </tr>
      <tr> 
       <td role="rowheader">Section [!UICONTROL Forms personnalisé]</td> 
-      <td> <p>Si des champs que vous souhaitez ajouter à votre société ne sont pas disponibles dans [!DNL Workfront], vous pouvez créer un formulaire personnalisé et l’associer à votre entreprise. </p> <p>Vous pouvez joindre ce formulaire à votre société en le sélectionnant dans le menu déroulant. Seuls les formulaires personnalisés actifs sont répertoriés dans le menu.</p> <p><span class="preview"><strong>Remarque :</strong> Les fonctionnalités de formulaire personnalisées avancées telles que les champs de recherche externe et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de l’entreprise sur la page de détails, et non dans la boîte de dialogue Modifier l’entreprise . (Dans la liste des sociétés, cliquez sur le nom de la société pour ouvrir les détails.)</span></p> <p> Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>. </p> </td>
+      <td> <p>Si des champs que vous souhaitez ajouter à votre société ne sont pas disponibles dans [!DNL Workfront], vous pouvez créer un formulaire personnalisé et l’associer à votre entreprise. </p> <p>Vous pouvez joindre ce formulaire à votre société en le sélectionnant dans le menu déroulant. Seuls les formulaires personnalisés actifs sont répertoriés dans le menu.</p> <p><strong>Remarque :</strong> Les fonctionnalités de formulaire personnalisées avancées telles que les champs de recherche externe et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de l’entreprise sur la page de détails, et non dans la boîte de dialogue Modifier l’entreprise . (Dans la liste des sociétés, cliquez sur le nom de la société pour ouvrir les détails.)</p> <p> Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>

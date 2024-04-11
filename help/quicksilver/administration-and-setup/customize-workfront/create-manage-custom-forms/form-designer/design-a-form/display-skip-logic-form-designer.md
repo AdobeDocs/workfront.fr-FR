@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
 
 # Ajout d’une logique d’affichage et d’exclusion à l’aide du concepteur de formulaires
-
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles en général. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Vous pouvez choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix que fait l’utilisateur lorsqu’il le remplit.
 
@@ -123,10 +117,6 @@ La logique d’affichage définit les champs personnalisés qui apparaissent sur
 
    Les icônes de logique d’affichage sont ajoutées au champ cible et au champ de définition dans le concepteur de formulaires.
 
->[!NOTE]
->
-><span class="preview">La logique d’affichage n’est disponible que lorsque vous prévisualisez votre formulaire dans le concepteur de formulaire dans l’environnement Aperçu .</span>
-
 ## Ajout d’une logique de saut à un formulaire personnalisé
 
 La logique Ignorer définit les champs de formulaire personnalisés qui sont ignorés lorsque l’utilisateur sélectionne une valeur spécifique dans un champ à choix multiples. Les champs ignorés sont masqués sur le formulaire. La logique est appliquée au champ de définition dans lequel la sélection est effectuée, et non aux champs qui sont ignorés.
@@ -157,7 +147,4 @@ La logique Ignorer définit les champs de formulaire personnalisés qui sont ign
 
    Les icônes de logique de saut sont ajoutées au champ cible et au champ de définition dans le concepteur de formulaires.
 
->[!NOTE]
->
-><span class="preview">La logique de saut n’est disponible que lorsque vous prévisualisez votre formulaire dans le concepteur de formulaires de l’environnement Aperçu.</span>
 
