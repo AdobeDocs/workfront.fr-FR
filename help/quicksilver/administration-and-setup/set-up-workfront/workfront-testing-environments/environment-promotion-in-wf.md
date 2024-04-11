@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
+source-git-commit: 53194c44b55f5441323672425106d8df4c7cc508
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 1%
+source-wordcount: '927'
+ht-degree: 2%
 
 ---
 
@@ -98,6 +98,15 @@ La fonctionnalité Promotion de l’environnement est conçue pour permettre de 
 | Pool de ressources (RSPL) | Pool de ressources |
 
 \* Non disponible actuellement
+
+>[!NOTE]
+>
+>Le remplacement est actuellement disponible pour les objets suivants :
+>
+>* Rôle
+>* Equipe
+>* Entreprise
+>* Groupe
 
 
 ## Statuts de promotion d’environnement
