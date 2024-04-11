@@ -7,7 +7,7 @@ title: Modules JWT
 description: La variable [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] L’application fournit un module qui crée des jetons JWT en fonction de l’algorithme fourni.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d4f6f5d4919120e37fb94a23ac834a3896019584
+source-git-commit: 121aef2ee55597fee2e2adc8250dd0651ea86f17
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -111,4 +111,5 @@ Ce module génère un jeton JWT en fonction de l’algorithme sélectionné.
   </tr> 
  </tbody> 
 </table>
+
 
