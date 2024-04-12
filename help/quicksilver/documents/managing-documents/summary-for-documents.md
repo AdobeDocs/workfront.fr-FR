@@ -7,18 +7,18 @@ description: Le résumé vous permet d’interagir avec des informations importa
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
 # Présentation du résumé des documents
 
-{{preview-and-fast-release}}
+<!--Audited: April, 2024-->
 
-Le résumé vous permet d’interagir avec des informations importantes directement depuis la liste des documents.
+Vous pouvez utiliser le panneau Résumé pour accéder à des informations importantes et les mettre à jour directement à partir de la liste des documents.
 
 ## Exigences d’accès
 
@@ -31,25 +31,27 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p> Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td> <p>Nouveau : contributeur ou version ultérieure</p> 
+   <p>Actuel : requête ou version ultérieure</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td> <p>Modifier l’accès aux documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher l’accès à l’objet associé au document</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher l’accès à l’objet associé au document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ouvrir la vue Résumé
 
@@ -67,7 +69,7 @@ Utilisez la section Détails pour afficher des informations d’aperçu généra
 * [Présentation](#overview)
 * [Formulaires personnalisés](#custom-forms)
 
-<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
+![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Vue d’ensemble {#overview}
 
@@ -79,18 +81,13 @@ Développez la section Aperçu pour afficher ou télécharger une miniature d’
 
 Utilisez la section Forms personnalisée pour ajouter, modifier ou afficher tout formulaire personnalisé associé au document. Commencez à saisir le nom du formulaire personnalisé pour l’ajouter au document. Pour plus d’informations, voir [Ajouter ou modifier un formulaire personnalisé à un document](../../documents/managing-documents/add-custom-form-documents.md).
 
-<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
+![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Mises à jour
 
 Utilisez la section Mises à jour pour lire une mise à jour effectuée sur le document ou le BAT. Le résumé présente les 2 premiers commentaires. Pour plus d’informations sur les mises à jour, voir [Commentaire sur un BAT](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-<div class="preview">
-
 ![Section Mises à jour du panneau Résumé](assets/summary-updates-section-new-comments.png)
-
-</div>
-
 
 ## Approbations
 
@@ -101,7 +98,7 @@ Les validations de BAT doivent être ajoutées dans le workflow BAT. Pour plus d
 * [Valider le travail](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Demander l’approbation de documents](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versions
 
@@ -113,4 +110,4 @@ Utilisez la section Versions pour afficher le nombre de versions créées pour u
 * Accédez à Détails du document .
 * Suppression d’un BAT ou d’un document
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

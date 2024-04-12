@@ -6,9 +6,9 @@ description: La condition d’une tâche ou d’un problème est un indicateur q
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,15 @@ Pour plus d’informations sur la définition du bouton Travailler dessus sur un
 Vous devez être affecté à une tâche ou au problème ou disposer des autorisations de gestion pour pouvoir définir la condition sur celle-ci.
 
 Vous pouvez mettre à jour manuellement la condition d’une tâche ou d’un problème dans un rapport de tâche ou de problème ou une liste lorsque vous affichez le champ Condition dans la vue.
+
+>[!NOTE]
+>
+>Vous pouvez demander à votre administrateur système ou de groupe d’ajouter le champ Condition à votre panneau Résumé, afin de faciliter sa mise à jour dans différentes zones de Workfront.
+>
+>Pour plus d’informations, voir les articles suivants :
+>
+>* [Aperçu du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

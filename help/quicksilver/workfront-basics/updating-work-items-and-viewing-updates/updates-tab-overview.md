@@ -7,10 +7,10 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 4%
+source-wordcount: '985'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +19,6 @@ ht-degree: 4%
 
 <!-- Audited: 1/2024 -->
 
-<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
-
-<!--info for April 11: hide the disclaimer for preview below-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -30,8 +27,6 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
-
-<!--info for April 11: take out the Important box-->
 
 La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
 
@@ -125,50 +120,45 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Présentation de la section Mises à jour <!--in the new commenting experience-->
+### Présentation de la section Mises à jour
 
 ![Section Mises à jour](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
+* La section Mises à jour affiche des informations dans les onglets suivants :
 
-<!--
->[!NOTE]
->
->The new commenting experience is not available for iterations.
--->
-
-* La section Mises à jour affiche des informations dans les onglets suivants :<!-- in the new commenting experience-->:
-
-   * **Commentaires**: affiche les commentaires effectués par les utilisateurs et les réponses à ces commentaires. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour des objets<!-- in the new commenting experience-->, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Commentaires**: affiche les commentaires effectués par les utilisateurs et les réponses à ces commentaires. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
    * **Activité du système**: affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications de l’état, du nom ou des champs personnalisés sont capturées avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système . Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Tous (lecture seule)**: affiche à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni baliser d’autres utilisateurs dans les commentaires existants dans l’onglet Tous . Pour répondre à un commentaire spécifique, utilisez le lien de l’onglet Tous vers l’onglet Commentaires . Pour plus d’informations sur la mise à jour des objets<!-- in the new commenting experience-->, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Tous (lecture seule)**: affiche à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni baliser d’autres utilisateurs dans les commentaires existants dans l’onglet Tous . Pour répondre à un commentaire spécifique, utilisez le lien de l’onglet Tous vers l’onglet Commentaires . Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
 
-* Les objets suivants ne comportent pas d’onglet Activité système ou Tous :
+* Les objets suivants présentent des expériences similaires dans les trois onglets de la section Mises à jour :
+
+   * Projets
+   * Tâches
+   * Problèmes
+   * Programmes
+   * Portefeuilles
+   * Utilisateurs
+   * Feuilles de temps
+
+* Les objets suivants n’ont pas d’onglet Activité système ou Tous et l’expérience de l’onglet Commentaires correspond à celle de tous les autres objets :
 
    * Equipe
    * Modèle
    * Tâche de modèle
+
+* Les objets suivants n’ont pas d’onglet Activité système ou Tous et l’expérience dans l’onglet Commentaires diffère de celle de tous les autres objets :
    * Carte ad hoc
-   * Itérations
 
      Pour plus d’informations sur les mises à jour des cartes, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+   * Itérations
 
      Pour plus d’informations sur les mises à jour des itérations, voir [Gestion des commentaires d’itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-* Les objets suivants ne comportent pas d’onglet Tous :
+* Les objets suivants n’ont pas de panneau Tous et l’expérience de l’onglet Commentaires correspond à celle de la plupart des objets :
 
    * Objectifs
 
      Pour plus d’informations sur les mises à jour des objectifs, voir [Gestion des commentaires d’objectif](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-<!--info for April 11: make the text below live - remove the commented out brackets: 
-NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
-
-* The following objects don't have a System Activity or an All tab: 
-
-  * Iterations
-
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 

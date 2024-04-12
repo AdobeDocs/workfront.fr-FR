@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
 
 # Modification en masse des profils utilisateur
-
-{{highlighted-preview}}
 
 <!--
 
@@ -83,10 +81,6 @@ Les étapes de cet article doivent être les suivantes :
        <ul> 
         <li><b>Fuseau horaire :</b> Fuseau horaire des utilisateurs.</li> 
         <li><b>Paramètres régionaux</b>: paramètres régionaux préférés des utilisateurs. Cela affecte le format des nombres et des dates dans les emails provenant de Workfront.</li> 
-        <li><b>Afficher le pourcentage terminé à l’état de mise à jour</b>: cochez cette option si vous souhaitez afficher une barre de pourcentage dans la zone Mise à jour de toutes les tâches de l’utilisateur, lors de l’utilisation de l’expérience de commentaire héritée. Pour plus d’informations, voir <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nouvelle expérience de commentaire</a>.
-        <p><span class="preview">Cette option a été supprimée de l’environnement Aperçu.</span></p>
-
-   </li> 
         <li><b>Envoyer le travail que je m’assigne à mon onglet Travail</b>: cochez cette option si vous souhaitez que tout ce que les utilisateurs se voient attribuer apparaisse directement dans l’onglet Travail . La valeur par défaut est de répertorier tous les éléments affectés à un utilisateur dans son onglet Demande de travail .</li> 
        </ul> </td> 
      </tr> 

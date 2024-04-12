@@ -6,9 +6,9 @@ description: Votre [!DNL Adobe Workfront] Le profil contient des informations vo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '3320'
+source-wordcount: '3273'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 1%
 # Configurer mes paramètres
 
 <!-- Audited: 01/2024 -->
-
-{{highlighted-preview}}
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
@@ -342,20 +340,15 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Paramètres régionaux de l’adresse électronique]</strong> </td> 
    <td>Indiquez ici votre langue préférée. Cela contrôle le format de la langue, de la date et du nombre utilisé dans les emails sortants.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Afficher le pourcentage terminé à la mise à jour de l’état]</strong> </td> 
-   <td>Sélectionnez cette option si vous souhaitez afficher une barre de pourcentage dans la zone Mises à jour de vos tâches, lors de l’utilisation de l’expérience de commentaire héritée. Pour plus d’informations, voir <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nouvelle expérience de commentaire</a>.
-  <p><span class="preview">Cette option a été supprimée de l’environnement Aperçu.</span></p> 
-   </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><strong>[!UICONTROL M’envoyer du travail assigné à mon onglet Travail]</strong> </td> 
    <td>Sélectionnez ce champ pour afficher le travail que vous vous assignez directement sur l’onglet [!UICONTROL Travail sur] au lieu de l’onglet [!UICONTROL Demandes de travail] .</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditionnel) Générer automatiquement des bons à tirer lors du téléchargement de documents</strong></td> 
-   <td>Sélectionnez ce champ pour commencer à générer un BAT immédiatement après le chargement du document dans [!DNL Workfront]. Ce champ est désactivé par défaut et ne peut être mis à jour que par un administrateur Workfront.<br>Ce champ n’est disponible que si votre société a acheté le composant Bon à tirer de Workfront pour Workfront et si vous êtes activé en tant qu’utilisateur du BAT. Pour plus d’informations sur le BAT Workfront, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gestion des bons à tirer dans Adobe Workfront</a>.
+   <td>Sélectionnez ce champ pour commencer à générer un BAT immédiatement après le chargement du document dans [!DNL Workfront]. Ce champ est désactivé par défaut et ne peut être mis à jour que par un administrateur Workfront.<br>Ce champ n’est disponible que si votre société a acheté le composant Workfront Proof pour Workfront et si vous êtes activé en tant qu’utilisateur de BAT. Pour plus d’informations sur Workfront Proof, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gestion des bons à tirer dans Adobe Workfront</a>.
    <p><b>Remarque :</b> Les documents chargés dans une requête ne génèrent pas automatiquement de BAT. </p></td> 
   </tr> 
  </tbody> 

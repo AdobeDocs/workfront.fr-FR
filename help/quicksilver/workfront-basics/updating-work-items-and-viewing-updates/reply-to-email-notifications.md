@@ -6,14 +6,16 @@ description: Vous pouvez répondre aux notifications par e-mail Workfront géné
 author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # Répondre aux notifications par e-mail
+
+<!-- Audited: April 2024-->
 
 Selon le mode de configuration de vos notifications électroniques, vous pouvez recevoir une notification par courrier électronique lorsqu’une mise à jour est effectuée sur certains objets auxquels vous avez accès.
 
@@ -49,25 +51,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
    <td> <p>Quelconque</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Demande ou version ultérieure pour les problèmes et les documents ; révision ou version ultérieure pour tous les autres objets</p> </td> 
+   <td> <p>Nouveau : contributeur ou version ultérieure pour les problèmes et documents ; clair ou supérieur pour tous les autres objets</p>
+   <p>Actuel : demande ou version ultérieure pour les problèmes et les documents ; vérification ou version ultérieure pour tous les autres objets</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Demandeur ou supérieur pour les problèmes et les documents ; Réviseur ou supérieur pour tous les autres objets</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
+   <td> <p>Affichage ou accès supérieur aux objets dans lesquels vous souhaitez publier la réponse</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Afficher l’accès à l’objet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td role="rowheader"><strong>Autorisation d’objet</strong></td> 
+   <td> <p>Afficher ou des autorisations supérieures aux objets dans lesquels vous souhaitez publier la réponse</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Réponse à une mise à jour à partir d’une notification par email
 

@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 2%
+source-wordcount: '1867'
+ht-degree: 0%
 
 ---
 
@@ -29,31 +29,11 @@ ht-degree: 2%
 >
 >Les informations de cet article font référence aux fonctionnalités publiées pendant la phase bêta pour la nouvelle expérience de commentaire.
 >
->Le programme bêta pour la nouvelle expérience de commentaires a commencé en avril 2023 et s&#39;est terminé en octobre 2023.
->
->Les fonctionnalités publiées pendant la période bêta ont été mises à la disposition de tous les clients à partir de la version du quatrième trimestre 2023 (octobre 2023), à la fermeture du programme bêta.
+>Le programme bêta pour la nouvelle expérience de commentaires a commencé en avril 2023 et s’est terminé en octobre 2023, avec la version d’octobre 2023.
 > 
-><br>Pour plus d’informations, voir les articles suivants : </br>
+>Pour plus d’informations, voir [Nouvelle expérience de commentaire](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->* Pour plus d’informations sur les fonctionnalités publiées pendant la nouvelle période bêta de l’expérience, voir [Nouvelle expérience de commentaire](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->* Pour plus d’informations sur les fonctionnalités publiées pour l’expérience de commentaires après la fermeture du nouveau programme bêta d’expérience de commentaires, consultez la page de présentation de la version actuelle.
-
-<!--
- This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
-
-For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
-
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
->* Goals
->* Cards in the Boards area. 
-
--->
+>Toutes les fonctionnalités incluses dans la nouvelle expérience de commentaires sont disponibles pour tous les clients de l’environnement de production depuis le 11 avril 2024.
 
 ## Nouvel emplacement des commentaires et calendrier des versions
 
@@ -69,6 +49,8 @@ Pour plus d’informations sur le calendrier de publication de la nouvelle expé
 Les fonctionnalités documentées dans cette section sont désormais disponibles pour tous les clients et dans tous les environnements.
 
 Les fonctionnalités suivantes ont été ajoutées à l’expérience de commentaires au cours de la phase bêta, entre la version 23.2 (6 avril 2023) et la version du quatrième trimestre 2023 (26 octobre 2023).
+
+Les fonctionnalités publiées après la fermeture du programme bêta étaient publiées dans les pages de la version actuelle au moment de leur publication.
 
 Les informations suivantes font référence à l’activité de publication chaque semaine, en commençant par la mise à jour la plus récente.
 
@@ -329,7 +311,7 @@ Disponible pour les problèmes de commentaires sur l’expérience bêta et pour
 * Aperçu et production : 4 mai 2023
 
 
-### 27 avril 2023
+### vendredi 27 avril 2023
 
 La mise à jour de maintenance suivante a été publiée pour les commentaires de problème bêta et pour les objectifs :
 
@@ -339,13 +321,13 @@ Modifier les images jointes lors de la modification d’un commentaire. Pour plu
 
 La mise à jour de maintenance suivante a été publiée pour les commentaires de problème bêta et pour les objectifs :
 
-Conserver les images sous format brouillon lors de l’abandon d’une mise à jour pour les objectifs et les problèmes liés à l’expérience bêta de commentaires. Pour plus d’informations, voir la section &quot;Mise à jour de maintenance le 20 avril&quot; de l’article <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Mises à jour en avril 2023</a>.
+Conservez les images en tant que brouillon lorsque vous quittez une mise à jour pour les objectifs et les problèmes de l’expérience bêta de commentaires. Pour plus d’informations, voir la section &quot;Mise à jour de maintenance le 20 avril&quot; de l’article <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Mises à jour en avril 2023</a>.
 
 ### 17 avril 2023
 
 La mise à jour de maintenance suivante a été publiée pour les commentaires de problème bêta et pour les objectifs :
 
-Afficher les nouveaux commentaires en dehors de la zone d’écran visible dans la section Mises à jour des problèmes (nouvelle expérience de commentaires bêta) et Objectifs. Pour plus d’informations, reportez-vous à la section &quot;Mise à jour de maintenance le 17 avril&quot; de l’article .  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Mises à jour en avril 2023</a>.
+Affichez les nouveaux commentaires en dehors de la zone visible de l’écran dans la section Mises à jour des problèmes (nouveaux commentaires sur l’expérience bêta) et des objectifs. Pour plus d’informations, reportez-vous à la section &quot;Mise à jour de maintenance le 17 avril&quot; de l’article .  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Mises à jour en avril 2023</a>.
 
 
 ### Semaine du 6 avril 2023

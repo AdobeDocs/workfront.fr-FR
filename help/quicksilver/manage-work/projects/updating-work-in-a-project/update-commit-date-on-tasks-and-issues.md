@@ -6,9 +6,9 @@ description: Vous pouvez mettre à jour manuellement la date de validation d’u
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ Avant de commencer, vous devez être affecté à la tâche ou au problème pour 
 
 La mise à jour de la date de validation est identique pour les tâches et les problèmes.
 
+>[!NOTE]
+>
+>Vous pouvez demander à votre administrateur système ou de groupe d’ajouter le champ Date de validation à votre panneau Résumé, afin de faciliter sa mise à jour dans différentes zones de Workfront.
+>
+>Pour plus d’informations, voir les articles suivants :
+>
+>* [Aperçu du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+
 1. Accédez à une tâche ou à un problème auquel vous êtes affecté en tant que **Propriétaire**.
 
    Pour plus d’informations sur la définition du propriétaire de la tâche pour un problème ou une tâche, consultez la section . [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) dans l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -89,11 +99,11 @@ La mise à jour de la date de validation est identique pour les tâches et les p
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * Le propriétaire du projet est informé dans les notifications in-app que vous avez suggéré une nouvelle date de validation pour la tâche ou le problème.
-   * Le propriétaire du projet est informé, dans la section Mises à jour, que vous avez suggéré une nouvelle date de validation et qu’il peut, à ce stade, mettre à jour la date d’achèvement planifiée de la tâche ou du problème pour qu’elle corresponde à la date de validation que vous avez suggérée. Cette fonctionnalité n’est pas prise en charge dans la nouvelle expérience de commentaire. Pour plus d’informations, voir [Nouvelle expérience de commentaires](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * Le propriétaire du projet est informé dans une notification intégrée à Workfront que vous avez suggéré une nouvelle date de validation pour la tâche ou le problème.
+   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
+   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     Pour plus d’informations sur les notifications et les mises à jour déclenchées par cette modification, voir la section &quot;Notifications et mises à jour déclenchées lors du changement de la date de validation&quot; de l’article. [Présentation de la date de validation](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+   Pour plus d’informations sur les notifications et les mises à jour déclenchées par cette modification, voir la section &quot;Notifications et mises à jour déclenchées lors du changement de la date de validation&quot; de l’article. [Présentation de la date de validation](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

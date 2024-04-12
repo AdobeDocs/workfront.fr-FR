@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 0%
 >
 >Les informations de cet article font référence aux fonctionnalités qui ont été publiées dans le cadre de la nouvelle expérience de commentaires.
 >
->Le programme bêta pour la nouvelle expérience de commentaires a commencé en avril 2023 et s&#39;est terminé en octobre 2023. Le programme bêta pour la nouvelle expérience de commentaires a été mis en place avec la version d’octobre 2023.
+>Le programme bêta pour la nouvelle expérience de commentaires a commencé en avril 2023 et s’est terminé en octobre 2023, avec la version d’octobre 2023.
 >
->À compter d’octobre 2023, toutes les nouvelles fonctionnalités relatives à la nouvelle expérience de commentaire seront publiées pour tous les clients. Pour plus d’informations, consultez la page d’aperçu de la version actuelle de chaque version.
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>Depuis le 11 avril 2024, toutes les fonctionnalités relatives à la nouvelle expérience de commentaire sont disponibles dans l’environnement de production pour tous les clients.
 
 ## Fonctionnalités
 
@@ -561,19 +551,20 @@ Voici un calendrier planifié de la publication de la nouvelle expérience de co
 
 * Avec la version du deuxième trimestre 2024 (11 avril 2024) :
 
-   * Supprimez l’option permettant de revenir au flux de commentaires hérité et de faire du nouveau flux de commentaires la seule expérience pour tous les objets, à l’exception des itérations.
+  Supprimez l’option permettant de revenir au flux de commentaires hérité et de faire du nouveau flux de commentaires la seule expérience pour tous les objets, à l’exception des itérations.
 
 ## Localisation de la nouvelle expérience de commentaire
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+La nouvelle expérience de commentaire est disponible dans les zones suivantes de Workfront :
 
->[!IMPORTANT]
->
->La nouvelle expérience de commentaire est disponible dans tous les environnements Workfront sur tous les objets, à l’exception des itérations.
->
->L’expérience héritée de commentaires a été supprimée de tous les environnements pour les projets, les tâches, les problèmes et les documents.
+* Dans la section Mises à jour de tous les objets, à l’exception des itérations .
 
-Pour plus d’informations sur l’accès à la section Mises à jour des objets Workfront, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Pour plus d’informations sur l’accès à la section Mises à jour des objets Workfront, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* Dans le panneau Résumé des tâches, des problèmes et des documents dans toutes les zones où cela est disponible (listes, feuilles de temps, équilibreur de charge de travail et accueil).
+* Dans la zone Accueil pour les tâches et les problèmes.
+
+
 
 <!--
 

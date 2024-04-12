@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '2974'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # Mise à jour du travail
 
 <!-- Audited: 1/2024 -->
-
-<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -53,7 +51,7 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront pour communiquer sur la progression de l’objet. Pour plus d’informations sur les objets auxquels vous pouvez ajouter des mises à jour dans Workfront, voir [Mise à jour de la section - Aperçu](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront pour informer d’autres personnes de la progression de l’objet. Pour plus d’informations sur les objets auxquels vous pouvez ajouter des mises à jour dans Workfront, voir [Mise à jour de la section - Aperçu](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Les informations de cet article décrivent comment vous pouvez commenter et mettre à jour les informations pour les projets, les tâches et les problèmes. Les utilisateurs affectés ou abonnés à l’objet peuvent afficher votre mise à jour. Vous pouvez également marquer les utilisateurs pour attirer leur attention sur la mise à jour.
 
@@ -128,7 +126,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
    * Dans la zone Accueil (pour les tâches et les problèmes)
-   * Dans le panneau Résumé dans les zones suivantes (pour les tâches et les problèmes) :
+   * Dans le panneau Résumé dans les zones suivantes (pour les tâches, les problèmes et les documents) :
 
       * Une liste d’objets
       * Une feuille de temps
@@ -225,21 +223,23 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## Ajouter une mise à jour à un élément de travail <!--using the new commenting experience-->
+## Ajouter une mise à jour à un élément de travail
 
-1. Recherchez l’objet à mettre à jour (projet, tâche ou problème), puis cliquez sur son nom pour ouvrir la page de l’objet.
+Cet article décrit comment mettre à jour un projet, des tâches ou des problèmes. La mise à jour de la plupart des autres objets est similaire.
+
+1. Recherchez l’objet à mettre à jour, puis cliquez sur son nom pour ouvrir la page de l’objet.
 1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
 La variable **Commentaires** est sélectionné par défaut.
 
-<!--
-1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
+   <!--
+   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   This enables the new commenting experience. 
+      This enables the new commenting experience. 
 
-      >[!TIP]
-      >
-      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
--->
+         >[!TIP]
+         >
+         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+   -->
 
 1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
 
@@ -294,10 +294,6 @@ La variable **Commentaires** est sélectionné par défaut.
 
    D’autres commentaires s’affichent en bas de l’écran.
 
-   >[!NOTE]
-   >
-   >   L’indicateur &quot;nouveaux commentaires&quot; et le bouton &quot;Afficher&quot; s’affichent uniquement lorsque les utilisateurs qui ont saisi les nouvelles mises à jour, ainsi que l’utilisateur qui examine actuellement la section Mises à jour, utilisent tous deux la nouvelle expérience de commentaire.
-
 1. (Facultatif) Cliquez sur le **Comme** icon![](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
 1. (Conditionnel et facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
@@ -314,7 +310,7 @@ La variable **Commentaires** est sélectionné par défaut.
 
    >[!TIP]
    >
-   >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système. Toutefois, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système .
+   >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système. Cependant, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée ont été ajoutées à l’onglet Activité système en lecture seule. L’expérience de commentaire héritée a été supprimée de Workfront le 11 avril 2024.
 
 1. (Facultatif) Cliquez sur le **Tous** pour afficher à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule.
 
@@ -355,11 +351,11 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >* Si votre entreprise utilise Workfront avec Internet Explorer, tout texte formaté collé dans une mise à jour perd sa mise en forme de texte enrichi et s’affiche en tant que texte brut. Vous pouvez reformater le texte à l’aide des attributs de la barre d’outils Texte enrichi.
    >* La mise en forme de texte enrichi n’est pas disponible pour les mises à jour effectuées dans la zone Fiches horaires ou pour les objets Remarque et Dernière condition affichés dans un rapport.
 
-<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-<!--remove this picture below and the bullet above when we remove legacy-->
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-<!--![](assets/block-quote-marked-350x144.png)-->
+   <!--![](assets/block-quote-marked-350x144.png)-->
 
 1. (Facultatif) Cliquez sur le **émoji** icon ![](assets/emoji-icon.png) pour ajouter des émoticônes à votre mise à jour.
 
@@ -431,9 +427,11 @@ Vous pouvez rechercher un commentaire ou une réponse dans la section Mises à j
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## Copie des informations de mise à jour
+## Copie de mises à jour
 
-Il existe plusieurs façons de copier une mise à jour. Après avoir copié un lien, vous pouvez le partager avec d’autres personnes afin de les rediriger vers la mise à jour.
+Il existe plusieurs façons de copier une mise à jour.
+
+Vous pouvez copier un lien vers la mise à jour ou copier le contenu d’une mise à jour afin de l’utiliser dans une nouvelle mise à jour.
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
@@ -447,7 +445,7 @@ Vous pouvez copier des informations d’un commentaire existant en effectuant l�
 
 * [Copier le lien](#copy-link)
 * [Copier le texte du message](#copy-body-text)
-* [Réponse entre guillemets](#quote-reply-1)
+* [Réponse entre guillemets](#quote-reply)
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
@@ -485,7 +483,6 @@ L&#39;option Réponse entre guillemets copie le commentaire d&#39;origine dans u
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
-   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Continuez à ajouter votre mise à jour et cliquez sur **Envoyer** pour ajouter le commentaire.
 
@@ -556,7 +553,7 @@ Selon l’accès que votre administrateur Workfront vous donne, vous pouvez supp
 Aucun utilisateur Workfront (y compris l’administrateur Workfront) ne peut supprimer les mises à jour effectuées par un autre utilisateur. Cependant, si le niveau d’accès d’un utilisateur lui permet de supprimer ses propres mises à jour, l’administrateur Workfront peut se connecter en tant qu’utilisateur et supprimer les mises à jour qu’il a effectuées. Pour plus d’informations, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) et [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez supprimer.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour ou de la réponse que vous souhaitez supprimer, puis cliquez sur **Supprimer**. <!--October 2023 - replace screen shot here-->
+1. Cliquez sur le bouton **Plus** en regard de la mise à jour ou de la réponse que vous souhaitez supprimer, puis cliquez sur **Supprimer**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 

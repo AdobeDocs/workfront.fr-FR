@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: En tant qu’administrateur d’Adobe Workfront, vous devrez parfois accéder à Workfront au nom d’un autre utilisateur.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
 
 # Se connecter sous une autre identité
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -64,8 +65,9 @@ Les étapes de cet article doivent être les suivantes :
    <td>Quelconque</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Nouveau : Standard</p>
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
@@ -75,6 +77,8 @@ Les étapes de cet article doivent être les suivantes :
   </tr> 
  </tbody> 
 </table>
+
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Connexion et actions en tant qu’autre utilisateur
 
@@ -146,7 +150,7 @@ Lorsque vous vous connectez en tant qu’autre utilisateur, la date de dernière
 
 Lorsque vous vous connectez à Workfront en tant qu’autre utilisateur et exécutez une action, Workfront indique clairement que toute action que vous effectuez est effectuée par vous au nom de l’utilisateur sous lequel vous êtes connecté.
 
-Par exemple, si vous commentez un élément lors de votre connexion en tant qu’autre utilisateur, une instruction indique que vous avez fait ce commentaire pour le compte de l’utilisateur.
+Par exemple, si vous commentez un élément lors de votre connexion en tant qu’autre utilisateur, une instruction indique que vous avez fait le commentaire pour le compte de l’utilisateur lors de l’affichage de la section Mises à jour d’un objet.
 
 ### Affichage des informations d’audit {#view-audit-information}
 
