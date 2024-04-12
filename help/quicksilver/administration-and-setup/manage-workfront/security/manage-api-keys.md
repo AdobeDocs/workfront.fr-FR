@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: f504013e202c57245a2edc3dff2b71d19bcfdbee
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1386'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Quelconque</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -51,12 +51,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Clés API Workfront
+## Clés d’API Workfront
 
 Chaque utilisateur de Workfront dispose d’une clé API unique. Cette clé est générée par utilisateur au moment où l’utilisateur accède à une intégration qui tire parti de l’API Workfront (telle que l’application mobile Workfront ou une intégration de document).
 
@@ -66,7 +66,7 @@ Chaque utilisateur de Workfront dispose d’une clé API unique. Cette clé est 
 
 Les administrateurs Workfront disposent également d’une clé API unique. Lorsqu’une application utilise une clé API d’administrateur pour accéder à Workfront, elle dispose d’un accès administrateur à Workfront.
 
-## Gestion de la clé d’API d’administrateur
+## Gestion d’une clé d’API d’administrateur
 
 Vous pouvez générer, réinitialiser ou supprimer la clé API de votre compte utilisateur administrateur.
 
@@ -76,17 +76,17 @@ Vous pouvez générer, réinitialiser ou supprimer la clé API de votre compte u
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Système >** **Informations sur le client.**
+1. Cliquez sur **Système >** **Informations sur le client**
 1. (Conditionnel) Effectuez l’une des actions suivantes :
 
-   Pour générer une clé API : Dans le **Paramètres de clé API** , cliquez sur **Générer la clé API**.
+   Pour générer une clé API : dans la variable **Paramètres de clé API** , cliquez sur **Générer la clé API**.
 
    Ou\
-   Pour réinitialiser une clé API : Dans le **Paramètres de clé API** , cliquez sur **Réinitialiser**, puis **Réinitialisez.**
+   Pour réinitialiser une clé API : dans **Paramètres de clé API** , cliquez sur **Réinitialiser**, puis **Réinitialisez.**
 
    Ou
 
-   Pour supprimer la clé API : Dans le **Paramètres de clé API** , cliquez sur **Supprimer**, puis **Supprimer**.
+   Pour supprimer la clé API : dans la variable **Paramètres de clé API** , cliquez sur **Supprimer**, puis **Supprimer**.
 
 ## Génération d’une clé API pour les utilisateurs non-administrateurs
 
@@ -100,12 +100,12 @@ Vous pouvez générer et gérer des clés d’API pour les utilisateurs occupant
 
    1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-   1. Développer **Système**, puis cliquez sur **Authentification unique (SSO)**.\
+   1. Développer **Système**, puis cliquez sur **Authentification unique (SSO)**.
+   1. Dans le **Type** , sélectionnez le type d’authentification unique utilisé par votre organisation.
+   1. Avec le type sélectionné, faites défiler l’écran vers le bas et effacez le **Activer** .
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+   1. Cliquer sur **Enregistrer**.
 
-   1. Désactivez la case à cocher nécessitant une authentification SSO.
-
-      Par exemple, si votre entreprise utilise SAML 2.0, désactivez **Autoriser uniquement l’authentification SAML 2.0**.
 
 1. Dans la barre d’adresse d’un navigateur, saisissez l’appel API suivant :
 
@@ -129,7 +129,7 @@ Vous pouvez configurer les clés d’API pour qu’elles expirent pour tous les 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Système** > **Informations sur le client**.
-1. Dans le **Paramètres de clé API** , dans la zone **Après la création**, **Les clés d’API expirent dans** , sélectionnez la période d’expiration des clés d’API.
+1. Dans le **Paramètres de clé API** , dans la zone **Après la création**, **Les clés API expirent dans** , sélectionnez la période d’expiration des clés d’API.
 
    Lorsque vous modifiez cette option, la nouvelle période commence à partir du moment où vous avez apporté la modification. Par exemple, si vous modifiez cette option à partir de *1 mois* to *6 mois*, les clés API expirent 6 mois à compter du moment où vous effectuez la modification.
 
@@ -143,7 +143,7 @@ Vous pouvez configurer les clés d’API pour qu’elles expirent pour tous les 
 
 1. Cliquer sur **Enregistrer**.
 
-## Suppression des clés d’API pour tous les utilisateurs
+## Suppression des clés API pour tous les utilisateurs
 
 Si une violation de sécurité spécifique vous préoccupe concernant votre système Workfront, vous pouvez supprimer les clés d’API simultanément pour tous les utilisateurs.
 
@@ -153,7 +153,7 @@ Si une violation de sécurité spécifique vous préoccupe concernant votre syst
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Développer **Système**, puis cliquez sur **Informations sur le client.**
+1. Développer **Système**, puis cliquez sur **Informations sur le client**
 
 1. Dans le **Paramètres de clé API** zone, cliquez sur **Suppression de toutes les clés d’API**, puis cliquez sur **Supprimer** **Tous**.
 
@@ -173,7 +173,7 @@ Les applications tierces peuvent communiquer avec Workfront par le biais de l’
 
 * [Obtention du certificat X.509](#obtain-the-x-509-certificate)
 * [Téléchargement du certificat vers Workfront](#upload-the-certificate-to-workfront)
-* [Vérifier que les appels de connexion à l’API sont restreints](#verify-api-login-calls-are-restricted)
+* [Vérification des restrictions des appels de connexion aux API](#verify-api-login-calls-are-restricted)
 
 ### Obtention du certificat X.509 {#obtain-the-x-509-certificate}
 
@@ -203,7 +203,7 @@ Après avoir obtenu le certificat X.509 auprès de votre autorité de certificat
 
 1. Cliquer sur **Enregistrer**.
 
-### Vérifier que les appels de connexion à l’API sont restreints {#verify-api-login-calls-are-restricted}
+### Vérification des restrictions des appels de connexion aux API {#verify-api-login-calls-are-restricted}
 
 Avant de configurer votre instance de Workfront pour qu’elle ait besoin d’un certificat X.509, effectuez une requête d’API à l’adresse `/login` point de terminaison à l’aide de paramètres de nom d’utilisateur et de mot de passe valides. Vous recevrez une réponse 200 contenant un ID de session.
 
