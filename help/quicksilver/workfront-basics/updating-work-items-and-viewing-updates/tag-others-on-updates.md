@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Balisage des autres sur les mises à jour
-description: Lorsque vous fournissez des commentaires de mise à jour sur un objet Adobe Workfront, tous les utilisateurs du projet peuvent voir les informations envoyées. Cependant, il peut arriver que des utilisateurs qui ne se trouvent pas sur le projet aient intérêt à consulter ces informations. Plutôt que d’inclure ces utilisateurs dans le projet, vous pouvez les baliser sur la mise à jour pour les partager avec eux. Les utilisateurs balisés reçoivent une notification d’événement.
+title: Baliser d’autres personnes sur les mises à jour
+description: Lorsque vous fournissez des commentaires de mise à jour sur un objet Adobe Workfront, tous les utilisateurs utilisatrices du projet peuvent voir les informations envoyées. Cependant, il peut arriver que des utilisateurs et utilisatrices qui ne sont pas sur le projet aient intérêt à consulter ces informations. Plutôt que d’inclure ces utilisateurs et utilisatrices dans le projet, vous pouvez les baliser sur la mise à jour pour la partager avec eux. Les utilisateurs et utilisatrices balisés reçoivent une notification d’événement.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
-# Balisage des autres sur les mises à jour
+# Baliser d’autres personnes sur les mises à jour
 
 <!--Audited: April, 2024-->
 
@@ -41,34 +41,34 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-Vous pouvez baliser les utilisateurs lors d’une mise à jour d’un objet si vous souhaitez attirer leur attention sur un objet qu’ils n’auraient pas normalement suivi.
+Vous pouvez baliser des utilisateurs et utilisatrices lors de la mise à jour d’un objet si vous souhaitez attirer leur attention sur un objet qu’ils n’auraient pas normalement suivi.
 
-Plutôt que d’inclure ces utilisateurs dans l’objet en les y affectant ou en les abonnant, vous pouvez les baliser sur la mise à jour pour les partager avec eux. Les utilisateurs balisés reçoivent une notification Workfront à propos de la mise à jour que vous avez saisie. En fonction de leurs paramètres de notification, ils reçoivent également un e-mail sur la mise à jour que vous avez saisie.
+Plutôt que d’inclure ces utilisateurs et utilisatrices dans l’objet en les affectant ou en les abonnant à celui-ci, vous pouvez les baliser sur la mise à jour pour la partager avec eux. Les utilisateurs balisés reçoivent une notification Workfront à propos de la mise à jour que vous avez saisie. En fonction de leurs paramètres de notification, ils reçoivent également un e-mail sur la mise à jour que vous avez saisie.
 
-## Remarques concernant le balisage des utilisateurs dans les mises à jour
+## Remarques relatives au balisage d’utilisateurs et d’utilisatrices dans des mises à jour
 
-* Les utilisateurs balisés dans les mises à jour doivent activer une notification personnelle dans leur profil pour qu’ils puissent recevoir la notification par e-mail. Pour plus d’informations, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Les utilisateurs et utilisatrices balisés dans des mises à jour doivent activer une notification personnelle dans leur profil pour qu’ils puissent recevoir la notification par e-mail. Pour plus d’informations, consultez [Modifier vos propres notifications par e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-  Pour plus d’informations sur l’ajout de mises à jour aux objets Workfront, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  Pour plus d’informations sur l’ajout de mises à jour aux objets Workfront, consultez [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* Lorsqu’un problème est converti en projet ou tâche, les mises à jour sont copiées dans le nouveau projet ou la nouvelle tâche, mais pas les utilisateurs balisés. Pour continuer la conversation, vous devez marquer à nouveau les participants.
+* Lorsqu’un problème est converti en projet ou tâche, les mises à jour sont copiées dans le nouveau projet ou la nouvelle tâche, mais pas les utilisateurs et utilisatrices balisés. Pour continuer la conversation, vous devez baliser à nouveau les participantes et les participants.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader"><strong>Forfait Adobe Workfront</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> <p>Nouveau : contributeur ou version ultérieure pour les problèmes et documents ; clair ou supérieur pour tous les autres objets</p>
-   <p>Actuel : demande ou version ultérieure pour les problèmes et les documents ; vérification ou version ultérieure pour tous les autres objets</p> </td> 
+   <p>Actuel : licence de demande ou supérieure pour les problèmes et les documents ; licence de révision ou supérieure pour tous les autres objets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
@@ -81,69 +81,69 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Balisage des autres sur les mises à jour
+## Baliser d’autres personnes sur les mises à jour
 
 Vous pouvez baliser d’autres utilisateurs sur les mises à jour de la manière suivante :
 
-* **Automatiquement**: lorsqu’un utilisateur lance un thread, ajoute un commentaire ou ajoute une réponse, il est automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+* **Automatiquement** : lorsqu’une personne lance un thread, ajoute un commentaire ou ajoute une réponse, elle est automatiquement balisée et ajoutée à la zone Taguer des personnes ou des équipes de la zone de commentaire.<!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
 
-* **Manuellement**: lorsque vous ajoutez manuellement un utilisateur à la zone Baliser les personnes de la zone de commentaire.
+* **Manuellement** : lorsque vous ajoutez manuellement un utilisateur ou une utilisatrice à la zone Taguer des personnes de la zone de commentaire.
 
-Vous pouvez également supprimer les utilisateurs balisés par erreur lorsque vous modifiez ou répondez à un commentaire.
+Vous pouvez également supprimer des utilisateurs et utilisatrices balisés par erreur lorsque vous modifiez ou répondez à un commentaire.
 
-1. Commencez à mettre à jour un élément de travail, comme décrit dans la section [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). En tant que propriétaire de commentaire, vous êtes automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire.
+1. Commencez à mettre à jour un élément de travail, comme décrit dans [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). En tant que personne propriétaire de commentaire, vous êtes automatiquement balisée et ajoutée à la zone Taguer des personnes ou des équipes de la zone de commentaire.
 
    >[!TIP]
    >
-   >Le propriétaire du commentaire ne peut pas voir son propre nom dans la zone Baliser les personnes ou les équipes de la zone de commentaire.
+   >La personne propriétaire du commentaire ne peut pas voir son propre nom dans la zone Taguer des personnes ou des équipes de la zone de commentaire.
 
-1. Dans le **Balisage de personnes ou d’équipes** , commencez à saisir le nom de l’utilisateur ou de l’équipe que vous souhaitez inclure, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Taguer des personnes ou des équipes**, commencez à saisir le nom de l’utilisateur ou utilisatrice ou de l’équipe que vous souhaitez inclure, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    Ou
 
-   Saisissez le symbole @ dans la zone **Rédiger un commentaire** , commencez à saisir le nom de l’utilisateur ou de l’équipe à inclure dans la mise à jour, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+   Saisissez le symbole @ dans la zone **Rédiger un commentaire**, commencez à saisir le nom de l’utilisateur ou utilisatrice ou de l’équipe à inclure dans la mise à jour, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    > 
-   >Pour identifier le bon utilisateur lorsqu’il existe des utilisateurs portant des noms similaires ou identiques, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique.
+   >Pour identifier le bon utilisateur ou la bonne utilisatrice lorsqu’il existe des utilisateurs et des utilisatrices portant des noms similaires ou identiques, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail.
    > 
-   >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher au fur et à mesure que vous les marquez dans une mise à jour.
+   >Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les balisez dans une mise à jour.
    > 
-   >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez [Accorder l’accès aux utilisateurs et utilisatrices](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![Balisage d’un utilisateur](assets/tag-others-unified-commenting-with-all-tab.png)
+   ![Baliser un utilisateur ou une utilisatrice](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Facultatif) Pour rendre la mise à jour privée, activez **Privé à ma société** dans le coin inférieur droit de la zone de mise à jour. La mise à jour est ainsi visible uniquement par les utilisateurs de votre entreprise. La variable **Privé à ma société** est disponible uniquement lorsqu’une société est spécifiée dans votre profil Workfront.
+1. (Facultatif) Pour rendre la mise à jour privée, activez **Réservé à mon entreprise** dans le coin inférieur droit de la zone de mise à jour. La mise à jour n’est ainsi visible que pour les utilisateurs et utilisatrices de votre entreprise. L’option **Réservé à mon entreprise** n’est disponible que lorsqu’une entreprise est spécifiée dans votre profil Workfront.
 
    >[!NOTE]
    >
-   >* Cette option s’affiche uniquement lorsque l’utilisateur est associé à une entreprise.
-   >* Les utilisateurs balisés en dehors de l’entreprise peuvent toujours recevoir une notification ou un courrier électronique in-app, même s’ils ne verront pas les commentaires privés sur l’onglet Mises à jour . Nous vous recommandons de ne pas baliser les utilisateurs externes lors d’une mise à jour si vous ne souhaitez pas partager les informations avec eux.
+   >* Cette option ne s’affiche que lorsque la personne est associée à une entreprise.
+   >* Les utilisateurs et utilisatrices en dehors de l’entreprise balisés peuvent toujours recevoir une notification in-app ou un e-mail, même s’ils ne verront pas les commentaires privés dans l’onglet Mises à jour. Nous vous recommandons de ne pas baliser d’utilisateurs et d’utilisatrices externes lors d’une mise à jour si vous ne souhaitez pas partager les informations avec eux.
 
-1. (Facultatif) Pour ajouter plusieurs utilisateurs et équipes, répétez l’étape 2. <!--insure this stays accurate-->
+1. (Facultatif) Pour ajouter plusieurs utilisateurs et utilisatrices et équipes, répétez l’étape 2.<!--insure this stays accurate-->
 
    >[!NOTE]
    >
-   >Tous les utilisateurs et membres de l’équipe répertoriés dans le champ &quot;Baliser les personnes ou les équipes&quot; reçoivent une notification in-app pour la mise à jour et peuvent recevoir un e-mail, selon la configuration de leurs paramètres de notification par e-mail. Les utilisateurs qui se marquent dans un commentaire ou une réponse reçoivent une notification pour ce commentaire ou cette réponse et peuvent voir leur nom dans la liste en tant que membre du thread pour le reste du thread, mais ils ne reçoivent pas une autre notification à moins qu’ils ne se balisent à nouveau. Pour plus d’informations, voir [Modifier vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) et [Configuration des notifications d’événement pour tous les membres du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >Tous les utilisateurs et utilisatrices et personnes membres de l’équipe répertoriés dans le champ « Taguer des personnes ou des équipes » reçoivent une notification in-app pour la mise à jour et peuvent recevoir un e-mail, en fonction de la configuration de leurs paramètres de notification par e-mail. Les utilisateurs et utilisatrices qui se balisent eux-mêmes dans un commentaire ou une réponse reçoivent une notification pour ce commentaire ou cette réponse et peuvent voir leur nom dans la liste en tant que personne membre du thread pour le reste du thread, mais ne reçoivent pas d’autre notification à moins qu’ils ne se balisent à nouveau. Pour plus d’informations, consultez [Modifier vos propres notifications par e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) et [Configurer les notifications d’événement pour tout le monde dans le système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. Cliquez sur **Envoyer**.\
-   Les utilisateurs inclus dans la mise à jour se voient automatiquement accorder l’autorisation Afficher à l’objet et peuvent afficher les mises à jour apportées à l’objet et y répondre.
+1. Cliquez sur **Soumettre**.\
+   Les utilisateurs et utilisatrices inclus dans la mise à jour se voient automatiquement accorder l’autorisation Afficher sur l’objet et peuvent afficher les mises à jour apportées à l’objet et y répondre.
 
-   Les noms des entités balisées s’affichent en regard de leurs avatars, jusqu’à deux entités. Si plus de deux entités sont balisées, le nom du premier s’affiche, en plus du nombre d’autres entités balisées.
+   Les noms des entités balisées s’affichent en regard de leurs avatars, jusqu’à deux entités. Si plus de deux entités sont balisées, le nom de la première s’affiche, en plus du nombre d’autres entités balisées.
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Lorsque vous êtes balisé dans le texte du commentaire, votre nom est surligné dans ces commentaires.
 
-   Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, consultez [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facultatif) Cliquez sur le **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**. Supprimez les utilisateurs balisés, puis cliquez sur **Envoyer**.
+1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis sur **Modifier**. Supprimez les utilisateurs balisés, puis cliquez sur **Envoyer**.
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier un commentaire que dans les 15 minutes qui suivent sa saisie. Vous ne pouvez modifier que les commentaires que vous avez ajoutés.
+   >Vous ne pouvez modifier un commentaire que dans les 15 minutes qui suivent sa saisie. Vous ne pouvez modifier que les commentaires que vous avez ajoutés.
 
 
 <!--
@@ -194,7 +194,7 @@ You can manually tag users in the legacy Updates section.
    ![](assets/tagging-transparency-350x192.png)
 -->
 
-Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

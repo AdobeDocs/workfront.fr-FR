@@ -2,20 +2,20 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Présentation de la section Mises à jour
-description: La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
+title: Vue d’ensemble de la section des mises à jour
+description: La section Mises à jour d’un objet affiche les commentaires des utilisateurs et utilisatrices sur l’objet ou les mises à jour système qui suivent les modifications apportées à l’objet.
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 5%
+ht-degree: 77%
 
 ---
 
 
-# Présentation de la section Mises à jour
+# Vue d’ensemble de la section des mises à jour
 
 <!-- Audited: 1/2024 -->
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
 
-La section Mises à jour d’un objet affiche les commentaires que les utilisateurs font sur l’objet ou les mises à jour système qui effectuent le suivi des modifications apportées à l’objet.
+La section Mises à jour d’un objet affiche les commentaires des utilisateurs et utilisatrices sur l’objet ou les mises à jour système qui suivent les modifications apportées à l’objet.
 
 <!--
 >[!IMPORTANT]
@@ -54,11 +54,11 @@ La section Mises à jour d’un objet affiche les commentaires que les utilisate
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.
 -->
 
-## Présentation de la section Mises à jour
+## Vue d’ensemble de la section Mises à jour
 
-La section Mises à jour d’un objet affiche les mises à jour du système et jusqu’à 200 des mises à jour les plus récentes effectuées par les utilisateurs au cours des 90 derniers jours.
+La section Mises à jour d’un objet affiche les mises à jour système et jusqu’à 200 des mises à jour les plus récentes effectuées par les utilisateurs et utilisatrices au cours des 90 derniers jours.
 
-![Section Mises à jour](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+![Met à jour la section](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 <!--Info for April 11: Add the following right under the screen shot above:-->
 
@@ -120,15 +120,15 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Présentation de la section Mises à jour
+### Vue d’ensemble de la section Mises à jour
 
-![Section Mises à jour](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+![Met à jour la section](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 * La section Mises à jour affiche des informations dans les onglets suivants :
 
-   * **Commentaires**: affiche les commentaires effectués par les utilisateurs et les réponses à ces commentaires. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Activité du système**: affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications de l’état, du nom ou des champs personnalisés sont capturées avec des mises à jour du système. Votre administrateur Workfront ou de groupe peut activer les mises à jour système de vos objets. Toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système . Pour plus d’informations, voir [Configuration des mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Tous (lecture seule)**: affiche à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni baliser d’autres utilisateurs dans les commentaires existants dans l’onglet Tous . Pour répondre à un commentaire spécifique, utilisez le lien de l’onglet Tous vers l’onglet Commentaires . Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Commentaires** : affiche les commentaires effectués par les utilisateurs et utilisatrices et les réponses à ces commentaires. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Activité du système** : affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications apportées dans les champs du statut, du nom ou personnalisés sont capturées avec des mises à jour système. Votre administrateur ou administratrice Workfront ou de groupes peut activer les mises à jour système pour vos objets. Toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système . Pour plus d’informations, consultez [Configurer les mises à jour système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Tous (lecture seule)** : affiche les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni identifier d’autres personnes dans les commentaires existants de l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien dans l’onglet Tous vers l’onglet Commentaires. Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
 
 * Les objets suivants présentent des expériences similaires dans les trois onglets de la section Mises à jour :
 
@@ -184,9 +184,9 @@ The following objects don't record system updates:
 
 Les commentaires, réponses ou mises à jour système de certains objets apparaissent également dans la section Mises à jour des objets de rang supérieur.
 
-Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jour s’affiche dans la section Mises à jour de la tâche et dans la section Mises à jour du projet contenant la tâche.
+Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jour apparaît dans la section Mises à jour de la tâche et dans la section Mises à jour du projet contenant la tâche.
 
-Le tableau suivant présente les objets dont les commentaires s’affichent également sur les objets de rang supérieur :
+Le tableau suivant présente les objets dont les commentaires s’affichent également sur les objets de niveau supérieur :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -212,7 +212,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Document </td> 
-   <td>Objet où le document est joint, projet </td> 
+   <td>Objet où le document est joint, Projet </td> 
   </tr> 
   <tr> 
    <td>Programme</td> 
@@ -224,9 +224,9 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
   </tr> 
   <tr> 
    <td>Feuille de temps</td> 
-   <td><p>Utilisateur, Équipe</p>
+   <td><p>Utilisateur ou utilisatrice, Équipe</p>
    <p><b>NOTE</b></p>
-   <p>Les commentaires de la feuille de temps s’affichent dans la section Mises à jour de l’utilisateur qui a rédigé le commentaire, ainsi que dans la section Mises à jour de son équipe d’accueil.</p>
+   <p>Les commentaires de la feuille de temps s’affichent dans la section Mises à jour de l’utilisateur ou de l’utilisatrice qui a effectué le commentaire, ainsi que dans la section Mises à jour de son équipe interne.</p>
    </td> 
   </tr> 
   <tr> 
@@ -268,52 +268,52 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
 
 ## Limites de la section Mises à jour
 
-Il existe certaines limites dans la section Mises à jour d’une équipe et lors de la saisie de mises à jour au nom d’autres utilisateurs.
+Des limites s’appliquent dans la section Mises à jour d’une équipe et lors de la saisie de mises à jour au nom d’autres utilisateurs et utilisatrices.
 
-### Limites pour les utilisateurs et les équipes
+### Limites pour les utilisateurs et utilisatrices et les équipes
 
-Tenez compte des points suivants lors de l’affichage des mises à jour pour les utilisateurs et les équipes :
+Tenez compte des points suivants lors de l’affichage des mises à jour pour les utilisateurs et utilisatrices et les équipes :
 
 * Vous ne pouvez pas ajouter de nouveaux commentaires dans la section Mises à jour d’une équipe.
 
-* La section Mises à jour pour les équipes est renseignée par les mises à jour entrées sur les objets suivants :
+* La section Mises à jour pour les équipes est renseignée par les mises à jour saisies sur les objets suivants :
 
    * Utilisateurs
    * Histoires
    * Feuilles de temps
    * Itérations
 
-* Vous pouvez ajouter une réponse à une mise à jour que vous affichez dans une équipe. La réponse s’affiche dans la section Mises à jour de l’équipe ainsi que dans la section Mises à jour de l’objet auquel elle appartient.
+* Vous pouvez ajouter une réponse à une mise à jour que vous affichez sur une équipe. La réponse s’affiche dans la section Mises à jour de l’équipe ainsi que dans la section Mises à jour de l’objet auquel elle appartient.
 
-* Dans la section Mises à jour pour les utilisateurs et les équipes, vous pouvez afficher les mises à jour qui ont été saisies au cours des 90 derniers jours.
+* Dans la section Mises à jour pour les utilisateurs et utilisatrices et les équipes, vous pouvez afficher les mises à jour qui ont été saisies au cours des 90 derniers jours.
 
-  Si vous souhaitez afficher toutes les mises à jour effectuées sur un utilisateur ou une équipe, au-delà de la limite de 90 jours, vous pouvez créer un rapport pour les notes. Le rapport ne doit pas comporter de filtre horaire qui affiche toutes les mises à jour effectuées pour les utilisateurs ou les équipes. Pour plus d’informations, voir [Création d’un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Si vous souhaitez afficher toutes les mises à jour effectuées sur un utilisateur ou une utilisatrice ou une équipe au-delà de la limite de 90 jours, vous pouvez créer un rapport pour les notes. Le rapport ne doit pas comporter de filtre temporel qui affiche toutes les mises à jour effectuées pour les utilisateurs et utilisatrices ou les équipes. Pour plus d’informations, consultez [Créer un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### Restrictions lors de la saisie de commentaires au nom d’un autre utilisateur
+### Limites lors de la saisie de commentaires au nom d’un autre utilisateur ou d’une autre utilisatrice
 
-Les administrateurs d’Adobe Workfront et les administrateurs de groupe peuvent se connecter en tant qu’autres utilisateurs et effectuer des actions dans Workfront, telles que saisir des commentaires.
+Les administrateurs et administratrices Adobe Workfront et les administrateurs et administratrices de groupes peuvent se connecter au nom d’autres utilisateurs et utilisatrices et effectuer des actions dans Workfront, telles que la saisie de commentaires.
 
-Pour plus d’informations, voir [Connexion en tant qu’autre utilisateur](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Pour plus d’informations, consultez [Se connecter en tant qu’autre utilisateur ou utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Tenez compte des points suivants lorsque vous vous connectez en tant qu’autre utilisateur et ajoutez des commentaires :
+Tenez compte des points suivants lorsque vous vous connectez en tant qu’autre utilisateur ou utilisatrice et ajoutez des commentaires :
 
-* Tout commentaire fait au nom d’un autre utilisateur est indiqué sur le commentaire.
+* Tout commentaire effectué au nom d’un autre utilisateur ou d’une autre utilisatrice est indiqué sur le commentaire.
 
-* Un administrateur de groupe peut commenter au nom d’une autre personne, mais ne peut pas supprimer ce commentaire. Seul un administrateur Adobe Workfront peut supprimer un commentaire qu’il a fait au nom d’un autre utilisateur.
+* Un administrateur ou une administratrice de groupes peut commenter au nom d’une autre personne, mais ne peut pas supprimer ce commentaire. Seulement une personne de l’équipe d’administration Adobe Workfront peut supprimer un commentaire qu’elle a effectué au nom d’un autre utilisateur ou d’une autre utilisatrice.
 
-* Un administrateur Workfront ou de groupe ne peut modifier un commentaire qu’il a ajouté au nom d’un autre utilisateur que s’il se déconnecte en tant qu’utilisateur et se reconnecte lui-même. Ils ne peuvent pas supprimer un commentaire au nom d’un autre utilisateur.
+* Une personne de l’équipe d’administration Workfront ou de groupes ne peut modifier un commentaire qu’elle a ajouté au nom d’un autre utilisateur ou d’une autre utilisatrice que si elle se déconnecte au nom de l’utilisateur ou de l’utilisatrice et se reconnecte en tant qu’elle-même. Elle ne peut pas supprimer un commentaire au nom d’un autre utilisateur ou d’une autre utilisatrice.
 
-## Afficher les mises à jour du système sur les tâches avec le rapport Entrée de journal
+## Afficher les mises à jour système sur des éléments de travail avec le rapport Entrée du journal
 
-Le rapport Entrée de journal répertorie les mises à jour système de la zone Mises à jour des projets, tâches et problèmes.
+Le rapport Entrée du journal présente les mises à jour système de la zone Mises à jour de projets, de tâches et de problèmes.
 
-Le rapport vous permet de voir :
+Le rapport vous permet d’obtenir les informations suivantes :
 
-* Nombre de modifications d’état survenues
-* Lorsqu’une tâche ou un problème a été supprimé
-* Modification des valeurs de champs personnalisés importants au cours d’un projet
-* Quelles dates importantes ont changé au cours d’un projet ?
-* Si la priorité a changé au cours d’un projet
-* Si le propriétaire d’un projet a changé
+* Nombre de changements de statut qui se sont produits
+* Lorsqu’une tâche a été supprimée ou un problème a été supprimé.
+* Dans quelle mesure des valeurs de champs personnalisés importants ont changé au cours d’un projet.
+* Quelles dates importantes ont changé au cours d’un projet.
+* Si la priorité a changé au cours d’un projet.
+* Si la personne propriétaire d’un projet a changé.
 
-Pour plus d’informations, voir [Rapport sur la zone Mises à jour](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Pour plus d’informations, consultez [Rapport sur la zone Mises à jour](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

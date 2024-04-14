@@ -8,7 +8,7 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 0%
+ht-degree: 36%
 
 ---
 
@@ -31,7 +31,7 @@ Un utilisateur de type de licence de niveau inférieur dispose d’autorisations
 >
 >**EXEMPLE :** Les demandeurs (ou collaborateurs, selon le nouveau modèle de licence) ne peuvent pas contribuer ou gérer les espaces de travail et leurs objets.
 >
->La boîte de partage indique que les utilisateurs ne peuvent pas se voir accorder l’autorisation de contribuer ou de gérer un espace de travail lorsqu’ils détiennent une licence de niveau inférieur.
+>La zone de partage indique que les utilisateurs et utilisatrices ne peuvent pas se voir accorder d’autorisations pour contribuer à un espace de travail ni le gérer lorsqu’ils disposent d’une licence de niveau inférieur.
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
@@ -45,6 +45,6 @@ Le tableau suivant décrit la relation entre le type de licence d’un utilisate
 
 | Type de licence Adobe Workfront | Autorisations autorisées dans la planification Adobe Workfront |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nouveau : Standard <br> ou <br>Actuel : formule | Les utilisateurs peuvent créer et gérer des espaces de travail, des types d’enregistrement et des enregistrements. |
-| Nouveau : Lumière <br> ou <br>Actuel : travail | Les utilisateurs peuvent contribuer à un espace de travail partagé avec eux et y afficher les types d’enregistrement et les enregistrements de cet espace de travail.  Les utilisateurs peuvent créer, modifier et supprimer des enregistrements dans les espaces de travail pour lesquels ils disposent des autorisations de contribution. |
-| Nouveau : contributeur <br> ou <br>Actuel : réviseur ou demandeur | Les utilisateurs peuvent afficher les espaces de travail partagés avec eux, ainsi que les types d’enregistrement et les enregistrements de ces espaces de travail. Les utilisateurs ne peuvent pas créer, modifier ou supprimer des types d’enregistrement ou des enregistrements. |
+| Nouvelle : licence standard <br> ou <br>Actuelle : licence forfait | Les utilisateurs et utilisatrices peuvent créer et gérer des espaces de travail, des types d’enregistrements et des enregistrements. |
+| Nouvelle : licence légère (Light) <br> ou <br>Actuelle : licence travail | Les utilisateurs et utilisatrices peuvent contribuer à un espace de travail partagé avec eux et l’afficher, ainsi que les types d’enregistrements et les enregistrements de cet espace de travail.  Les utilisateurs et utilisatrices peuvent créer, modifier et supprimer des enregistrements dans les espaces de travail sur lesquels ils disposent d’autorisations de contribution. |
+| Nouvelle : licence de contribution <br> ou <br>Actuelle : licence de révision ou de demande | Les utilisateurs et utilisatrices peuvent afficher les espaces de travail partagés avec eux, ainsi que les types d’enregistrements et les enregistrements de ces espaces de travail. Les utilisateurs et utilisatrices ne peuvent pas créer, modifier ou supprimer des types d’enregistrements ou des enregistrements. |
