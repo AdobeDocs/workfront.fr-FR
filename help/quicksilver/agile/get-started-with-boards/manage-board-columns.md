@@ -6,9 +6,9 @@ description: Un nouveau panorama contient trois colonnes par défaut. Vous pouve
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
+source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1000'
 ht-degree: 2%
 
 ---
@@ -106,6 +106,8 @@ Si vous utilisez la limite de travaux en cours sur une colonne, aucun compteur d
 >[!NOTE]
 >
 >Les panoramas dynamiques placent toujours dans la colonne des cartes qui correspondent à leur état, que les stratégies de colonnes soient activées ou désactivées. Lorsque vous actualisez le panorama, les cartes reviennent aux colonnes qui leur sont affectées.
+> 
+>En outre, pour tous les types de panoramas, si vous déplacez une carte d’une colonne à une autre avec le même état, la carte revient à la colonne d’origine lorsque vous actualisez le panorama.
 
 1. Accédez au panorama.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![Plus de menu](assets/more-icon-spectrum.png) dans la colonne , puis sélectionnez **[!UICONTROL Modifier]**.
