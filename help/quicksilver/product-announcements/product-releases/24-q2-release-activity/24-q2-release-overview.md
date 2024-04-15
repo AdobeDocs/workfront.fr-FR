@@ -5,16 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
+source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 53%
+source-wordcount: '2194'
+ht-degree: 52%
 
 ---
 
 # Vue d’ensemble de la version du deuxième trimestre 2024
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
+Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2024. Ces améliorations ont été apportées à l’environnement de production pour tous les clients de la version 24.4 des 10 et 11 avril 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 Au lieu d&#39;un webinaire sur la publication de la mise à jour, nous vous invitons à [s’enregistrer pour Adobe Summit](https://summit.adobe.com/na/) pour regarder les sessions Workfront suivantes :
@@ -22,6 +22,8 @@ Au lieu d&#39;un webinaire sur la publication de la mise à jour, nous vous invi
 [L&#39;avenir d&#39;Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) le 26 mars 2024, pour avoir un aperçu de l&#39;avenir de la planification stratégique et des workflows. Découvrez comment l’équipe Workfront prévoit de gérer les fonctionnalités de l’entreprise tout au long du cycle de vie marketing, le tout avec une approche axée sur l’IA qui permet d’automatiser le travail, de simplifier les expériences utilisateur et d’améliorer la productivité.
 
 [Présentation des calendriers et des outils marketing pour la planification des campagnes de bout en bout](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) le 28 mars 2024, pour en savoir plus sur les nouvelles fonctionnalités du produit conçues pour vous permettre de gérer et de visualiser les cycles de vie opérationnels de bout en bout.
+
+Vous pouvez également [Affichage d’un fichier de PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} avec les mises en évidence de la version 24.4.
 
 <span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de version du deuxième trimestre 2024) sont surlignées en jaune.</span>
 

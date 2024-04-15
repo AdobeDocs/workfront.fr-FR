@@ -1,36 +1,42 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Suppression ou archivage d’une carte d’un panorama
+title: Supprimer ou archiver une carte d’un panorama
 description: Lorsque vous supprimez une carte d’un panorama, elle est définitivement supprimée et ne peut pas être restaurée. L’archivage d’une carte l’envoie à l’archive et vous pouvez la restaurer ultérieurement sur le panorama.
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 0%
+source-wordcount: '505'
+ht-degree: 6%
 
 ---
 
-# Suppression ou archivage d’une carte d’un panorama
+# Supprimer ou archiver une carte d’un panorama
 
-Lorsque vous supprimez une carte d’un panorama, elle est définitivement supprimée et ne peut pas être restaurée. L’archivage d’une carte l’envoie à l’archive et vous pouvez la restaurer ultérieurement sur le panorama.
+Lorsque vous supprimez une carte ad hoc d’un panorama, elle est définitivement supprimée et ne peut pas être restaurée. Une fois supprimées, les cartes connectées peuvent être ajoutées manuellement à un panorama.
 
-## Exigences d’accès
+Si vous supprimez une carte connectée d’un panorama dynamique, elle réapparaîtra lorsque vous l’actualiserez, car ce type de panorama extrait toutes les tâches et tous les problèmes d’un projet spécifique. Pour supprimer la carte, vous devez supprimer la tâche ou le problème connecté du projet Workfront.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Lorsque vous supprimez une carte connectée d’un autre type de carte comportant une colonne d’entrée, la carte réapparaît dans la colonne d’entrée lorsque vous actualisez le panorama si la tâche ou le problème connecté n’est pas encore marqué comme terminé. Pour plus d’informations sur les colonnes d’ingestion, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+L’archivage d’une carte l’envoie à l’archive et vous pouvez la restaurer ultérieurement sur le panorama.
+
+## Conditions d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
  </tbody> 

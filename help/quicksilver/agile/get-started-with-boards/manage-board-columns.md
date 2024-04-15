@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Gestion des colonnes de panorama
+title: Gérer les colonnes de panorama
 description: Un nouveau panorama contient trois colonnes par défaut. Vous pouvez ajouter d’autres colonnes, modifier l’ordre des colonnes, renommer les colonnes et supprimer celles dont vous n’avez pas besoin.
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 0%
+source-wordcount: '967'
+ht-degree: 2%
 
 ---
 
-# Gestion des colonnes de panorama
+# Gérer les colonnes de panorama
 
 Un nouveau panorama contient trois colonnes par défaut. Vous pouvez ajouter d’autres colonnes, modifier l’ordre des colonnes, renommer les colonnes et supprimer celles dont vous n’avez pas besoin.
 
@@ -21,9 +21,9 @@ Les paramètres de colonne incluent des stratégies qui vous permettent de défi
 
 Pour plus d’informations sur le tri des cartes en colonnes, voir [Filtrage et recherche dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,11 +32,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
  </tbody> 
@@ -102,6 +102,10 @@ Si vous utilisez la limite de travaux en cours sur une colonne, aucun compteur d
 1. Cliquez sur **[!UICONTROL Masquer la configuration]** pour fermer la [!UICONTROL Configurer] du panneau.
 
 ## Définition des paramètres et des stratégies de colonne
+
+>[!NOTE]
+>
+>Les panoramas dynamiques placent toujours dans la colonne des cartes qui correspondent à leur état, que les stratégies de colonnes soient activées ou désactivées. Lorsque vous actualisez le panorama, les cartes reviennent aux colonnes qui leur sont affectées.
 
 1. Accédez au panorama.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![Plus de menu](assets/more-icon-spectrum.png) dans la colonne , puis sélectionnez **[!UICONTROL Modifier]**.
