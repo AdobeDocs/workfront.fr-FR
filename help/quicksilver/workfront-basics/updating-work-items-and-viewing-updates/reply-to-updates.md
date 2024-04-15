@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 79%
+source-wordcount: '725'
+ht-degree: 74%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 79%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-Lorsqu’une personne répond à un commentaire ou à une mise à jour système sur un objet de travail, sa réponse apparaît dans le fil de communication de l’onglet Commentaires et Tous de la section Mises à jour de l’objet.
+Lorsqu’une personne répond à un commentaire ou à une mise à jour système sur un objet de travail, sa réponse apparaît dans le fil de communication des onglets Commentaires et Tous dans la section Mises à jour de l’objet.
 
 >[!IMPORTANT]
 >
 >Il n’est pas possible de répondre aux mises à jour du système dans l’onglet Activité du système . Toutes les réponses aux mises à jour système effectuées dans l’expérience héritée de commentaires avant le 11 avril 2024 s’affichent en lecture seule .
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+Cet article décrit comment répondre aux commentaires de la plupart des objets dans Workfront. Pour connaître les différences entre les sections Mises à jour de divers objets, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Conditions d’accès
 
@@ -85,9 +85,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Vous pouvez répondre à un commentaire dans le fil d’un objet que vous pouvez afficher. Vous pouvez également vous connecter en tant qu’administrateur ou administratrice Workfront ou de groupes et répondre à un commentaire au nom d’un autre utilisateur ou d’une autre utilisatrice. Pour plus d’informations, voir [Se connecter en tant qu’un autre utilisateur ou qu’une autre utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-La réponse à un commentaire ou à une réponse varie en fonction de l’expérience et de l’objet que vous sélectionnez.
-
 ### Réponse à un commentaire
+
+La réponse à un commentaire dans la section Mises à jour d’un objet est similaire pour la plupart des objets dans Workfront.
 
 1. Accédez à l’objet auquel vous souhaitez apporter une réponse.
 1. Cliquez sur **Mises à jour**, puis cliquez sur le bouton **Commentaires** pour l’objet et recherchez le commentaire ou la réponse à laquelle vous souhaitez répondre.

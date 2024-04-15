@@ -6,9 +6,9 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1119'
 ht-degree: 6%
 
 ---
@@ -35,8 +35,8 @@ Pour plus d’informations sur l’ajout, le déplacement, le redimensionnement 
 
 Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’un résumé des informations qu’ils affichent :
 
-* **Mon travail**\
-    Ce widget constitue un excellent point de départ pour la gestion d’un large éventail de tâches, de problèmes et de requêtes. Il affiche au même endroit toutes les tâches qui vous sont assignées, ainsi que toutes les requêtes qui vous sont affectées. Vous pouvez cliquer sur le bouton Travailler dessus pour commencer à travailler sur un élément.
+* **Mes tâches**\
+    Ce widget constitue un excellent point de départ pour la gestion d’un large éventail de tâches, de problèmes et de requêtes. Il affiche au même endroit toutes les tâches qui vous sont assignées, ainsi que toutes les requêtes qui vous sont affectées. Vous pouvez cliquer sur le bouton Travailler dessus pour commencer à travailler sur un élément ou sur le bouton Terminé pour le marquer comme terminé. Vous pouvez également mettre à jour des informations (état, condition, pourcentage terminé) sur les tâches et les problèmes, l’heure de journalisation et ajouter des mises à jour à partir du widget Mon travail.
 
 * **Mes projets**\
     Affiche les projets que vous possédez ou ceux sur lesquels vous vous trouvez dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste, ou vous pouvez créer un projet directement à partir du widget.

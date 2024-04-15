@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Utilisation de la zone Mes mises à jour
+title: Utiliser la zone Mes mises à jour
 description: Vous pouvez utiliser la variable [!UICONTROL Mes mises à jour] pour vérifier rapidement les approbations en attente de votre décision ou les conversations dans lesquelles vous avez été inclus.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 0%
+source-wordcount: '767'
+ht-degree: 5%
 
 ---
 
@@ -27,9 +27,9 @@ Pour plus d’informations sur [!DNL Adobe Workfront] licences, voir [[!DNL Adob
 
 Si vous avez un type de licence différent de Review, la variable [!DNL Workfront] ou l’administrateur de groupe doit ajouter la variable [!UICONTROL Mes mises à jour] à votre modèle de mise en page pour l’afficher dans le menu principal. Pour plus d’informations, voir [Personnalisez le [!UICONTROL Menu Principal] utilisation d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,10 +37,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>Nouveau : contributeur ou version ultérieure</p>
    Ou   
    <p>Actuel : [!UICONTROL Request] ou version ultérieure</p> </td> 
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -153,8 +153,12 @@ Avant de commencer, vous devez disposer des éléments suivants :
    >Les 50 premières mentions s’affichent par défaut.
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher d’autres mises à jour]** pour afficher d’autres mentions.
-1. (Facultatif) Cliquez sur **[!UICONTROL Répondre]** pour répondre à un commentaire, saisissez votre réponse, puis cliquez sur **[!UICONTROL Répondre]** encore une fois.
+1. (Facultatif) Cliquez sur **[!UICONTROL Répondre]** pour répondre à un commentaire, puis effectuez l’une des opérations suivantes :
+   * Commencer à saisir une réponse
+   * Utilisez la barre d’outils Texte enrichi pour mettre en forme le texte, ajouter des liens, des listes, des émoticônes, des guillemets ou des images à votre message.
+   * Ajoutez des utilisateurs ou des équipes pour les avertir de votre réponse.
 
-   Pour plus d’informations sur la mise à jour des éléments, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Une fois la réponse ajoutée, cliquez sur **[!UICONTROL Répondre]** encore une fois.
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. (Facultatif) Cliquez sur **[!UICONTROL Pincer la page active]** pour épingler la variable [!UICONTROL Mes mises à jour] à votre navigation supérieure.

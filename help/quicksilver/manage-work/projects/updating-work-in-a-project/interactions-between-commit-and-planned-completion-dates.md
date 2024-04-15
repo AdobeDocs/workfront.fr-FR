@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Interactions entre la date de validation et la date d’achèvement planifiée
+title: Interactions entre la date d’engagement et la date d’achèvement prévue
 description: Les dates de fin planifiée et de validation indiquent le moment où la tâche doit être terminée. Mais elles diffèrent en fonction de qui définit chaque date.
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '421'
+ht-degree: 10%
 
 ---
 
-# Interactions entre la date de validation et la date d’achèvement planifiée
+# Interactions entre la date d’engagement et la date d’achèvement prévue
 
 <!--
 this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.
@@ -42,7 +42,7 @@ Le tableau suivant contient des informations sur la différence entre les dates 
  </tbody> 
 </table>
 
-## Interactions entre la date de validation et la date d’achèvement planifiée
+## Interactions entre la date d’engagement et la date d’achèvement prévue
 
 Lorsque le propriétaire du projet crée et affecte une tâche ou un problème, la tâche ou le problème aura les éléments suivants :
 
@@ -57,9 +57,11 @@ La personne désignée qui travaille sur la tâche ou le problème peut mettre �
 
 La personne désignée qui modifie la date de validation ne modifie pas automatiquement la date d’achèvement planifiée. L’inverse est également vrai : la modification de la date d’achèvement planifiée ne modifie pas la date de validation.
 
-Lorsque la date de validation est redéfinie sur une date postérieure à la date d’achèvement prévue, le propriétaire du projet est informé que cette modification s’est produite et qu’elle peut avoir une incidence sur la chronologie du projet.
+Lorsque la date de validation change, le propriétaire du projet est informé par une notification intégrée à Workfront que cette modification s’est produite.
 
-Si la date de validation proposée par la personne désignée est acceptable pour le propriétaire du projet, il doit mettre à jour manuellement la date d’achèvement planifiée de la tâche ou du problème. Pour plus d’informations, voir les articles suivants :
+Si la date de validation proposée par la personne désignée est acceptable pour le propriétaire du projet, elle doit mettre à jour manuellement la date d’achèvement prévue sur la tâche pour illustrer l’impact qu’elle peut avoir sur la chronologie du projet. Les modifications apportées à la date d’achèvement prévue des problèmes n’ont aucune incidence sur la chronologie du projet.
+
+Pour plus d’informations, voir les articles suivants :
 
 * [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
-* [Mise à jour des dates de validation pour les tâches et les problèmes](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
+* [Mettre à jour les dates d’engagement pour les tâches et les problèmes](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

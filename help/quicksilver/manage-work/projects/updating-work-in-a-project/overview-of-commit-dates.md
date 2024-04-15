@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Présentation de la date de validation
+title: Vue d’ensemble des dates d’engagement
 description: La date de validation est la date à laquelle un utilisateur affecté à une tâche ou à un problème s’engage à terminer la tâche ou le problème. Cette valeur est différente de la date d’achèvement prévue, car il s’agit d’une estimation plus réaliste de la date d’achèvement fournie par l’utilisateur qui est directement responsable du travail.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: '815'
+ht-degree: 2%
 
 ---
 
-# Présentation de la date de validation
+# Vue d’ensemble des dates d’engagement
 
 La date de validation est la date à laquelle un utilisateur affecté à une tâche ou à un problème s’engage à terminer la tâche ou le problème.
 
@@ -22,7 +22,7 @@ Cette valeur est différente de la date d’achèvement prévue d’une tâche o
 
 Pour plus d’informations sur la date d’achèvement prévue, voir [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-## Présentation de la date de validation
+## Vue d’ensemble des dates d’engagement
 
 Tenez compte des points suivants lorsque vous utilisez des dates de validation :
 
@@ -64,9 +64,20 @@ La définition manuelle de la date de validation d’une tâche ou d’un probl�
 
   Le changement de la date de validation s’affiche dans la zone Mises à jour de la tâche ou lorsque l’administrateur Workfront active cette mise à jour dans la zone Flux de mises à jour de la configuration. Pour plus d’informations, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  Si un propriétaire de projet ne souhaite pas accepter la modification, nous lui recommandons de faire part de ses commentaires à l’utilisateur qui propose une nouvelle date à l’aide de l’onglet Commentaires de la section Mises à jour, afin de lui demander de redéfinir la date de validation sur la date planifiée d’origine ou de sélectionner une nouvelle date. Si un propriétaire de projet accepte la modification, il peut ajuster manuellement la date d’achèvement planifiée afin qu’elle corresponde à la date de validation proposée par l’utilisateur affecté à l’élément en modifiant la tâche ou le problème.
+  Si un propriétaire de projet ne souhaite pas accepter la modification, nous lui recommandons de faire part de ses commentaires à l’utilisateur qui propose une nouvelle date à l’aide de l’onglet Commentaires de la section Mises à jour, afin de lui demander de redéfinir la date de validation sur la date planifiée d’origine ou de sélectionner une nouvelle date.
+
+  Si un propriétaire de projet accepte la modification, il peut ajuster manuellement la date d’achèvement planifiée afin qu’elle corresponde à la date de validation proposée par l’utilisateur affecté à l’élément en modifiant la tâche ou le problème.
 
   Vous devez avoir accès à la gestion de la tâche ou du problème pour les modifier.
+
+  >[!TIP]
+  >
+  >Vous pouvez demander à votre administrateur système ou de groupe d’ajouter le champ Date de validation à votre panneau Résumé, afin de faciliter sa mise à jour dans différentes zones de Workfront où s’affiche le panneau Résumé.
+  >
+  >Pour plus d’informations, voir les articles suivants :
+  >
+  >* [Aperçu du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

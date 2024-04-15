@@ -1,14 +1,14 @@
 ---
-title: Connecter les enregistrements
+title: Connecter des enregistrements
 description: Après avoir créé des connexions entre les types d’enregistrement, vous pouvez connecter des enregistrements individuels les uns aux autres.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
 source-wordcount: '2353'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ hide: yes
 
 <!--if you change steps here, also update steps in the "Connect records" article-->
 
-# Connecter les enregistrements
+# Connecter des enregistrements
 
 {{maestro-important-intro}}
 
@@ -62,9 +62,9 @@ Vous pouvez connecter les éléments suivants :
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -86,15 +86,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
@@ -125,7 +125,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Connecter les enregistrements
+## Connecter des enregistrements
 
 ### Considérations relatives à la connexion des enregistrements
 
@@ -183,7 +183,9 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
    >[!TIP]
    >
-   >    Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le bouton **+** dans le champ pour ajouter des enregistrements de l’enregistrement connecté ou du type d’objet.
+   >    Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur **Connexion d’enregistrements** dans le champ pour ajouter des enregistrements de l’enregistrement connecté ou du type d’objet.
+   >
+   >![](assets/connect-records-from-record-page-field.png)
 
    Les éléments suivants sont ajoutés :
 

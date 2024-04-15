@@ -7,10 +7,10 @@ description: Cet article décrit la disposition des feuilles de temps dans Adobe
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 93%
+source-wordcount: '1049'
+ht-degree: 99%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 93%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans Production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur le calendrier de publication actuel, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 Cet article décrit la disposition des feuilles de temps dans Adobe Workfront, ce qui vous permet de mieux comprendre comment personnaliser et utiliser les feuilles de temps pour consigner les heures.
 
@@ -125,11 +125,7 @@ Vous pouvez consigner plusieurs saisies d’heures pour le même élément de tr
 
 ## Zone Mises à jour dans le panneau de gauche
 
-<div class="preview">
-
 ![Zone Mises à jour dans le panneau de la feuille de temps gauche](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 Vous pouvez faire des commentaires sur une feuille de temps pour communiquer avec les approbateurs et approbatrices de votre feuille de temps ou d’autres utilisateurs et utilisatrices dans la section Mises à jour du panneau gauche de la feuille de temps.
 
@@ -137,11 +133,7 @@ Tous les commentaires ajoutés à la feuille de temps s’affichent dans cette z
 
 ## Panneau Résumé
 
-<div class="preview">
-
 ![Panneau Résumé](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 Vous pouvez accéder au panneau Résumé des tâches ou des problèmes affichés dans une feuille de temps. À partir de là, vous pouvez commenter les tâches et les problèmes ou mettre à jour leurs informations. Pour plus d’informations, consultez [Vue d’ensemble du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

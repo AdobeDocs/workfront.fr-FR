@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Afficher et mettre à jour le pourcentage d’achèvement pour les tâches
+title: Afficher et mettre à jour le pourcentage terminé des tâches
 description: Vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche pour indiquer l’avancement de la tâche vers son achèvement.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 8%
 
 ---
 
-# Afficher et mettre à jour le pourcentage d’achèvement pour les tâches
+# Afficher et mettre à jour le pourcentage terminé des tâches
 
 <!--Audited:01/2024-->
 
@@ -28,18 +28,18 @@ Vous devez disposer des accès suivants pour mettre à jour manuellement les tâ
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Nouvelle licence : Standard</p> 
    Ou
    <p>Licence actuelle : travail ou version ultérieure</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux tâches</p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour mettre à jour manuellement les tâ
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Zones dans lesquelles vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche
@@ -86,6 +86,9 @@ Vous pouvez mettre à jour le pourcentage de réalisation d’une tâche dans l�
 
   Pour plus d’informations, voir [Aperçu du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
+* **Accueil**: vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche ou d’un problème à partir du panneau Résumé dans la zone Accueil ou à partir du widget Mon travail.
+
+Pour plus d’informations, voir  [Prise en main de la nouvelle Accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Observations relatives à la mise à jour du pourcentage d’achèvement d’une tâche
 
@@ -104,7 +107,13 @@ Vous pouvez mettre à jour le pourcentage de réalisation d’une tâche dans l�
    * Liste des projets et application de la vue Milestone
    * Une tâche, en accédant à la page de la tâche
 1. Recherchez la variable **Pourcentage terminé** pour la tâche dont vous souhaitez mettre à jour le pourcentage.
-1. Cliquez dans le champ Pourcentage terminé et saisissez un nombre compris entre 0 et 100.
+
+   >[!TIP]
+   >
+   >  Le champ Pourcentage terminé s’affiche toujours en haut du panneau Résumé.
+
+
+1. Cliquez dans le **Pourcentage terminé** et saisissez un nombre compris entre 0 et 100.
 
    Ou
 

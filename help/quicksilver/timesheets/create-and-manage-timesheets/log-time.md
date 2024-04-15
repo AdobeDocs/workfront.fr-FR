@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '3577'
+source-wordcount: '3578'
 ht-degree: 95%
 
 ---
@@ -348,7 +348,7 @@ En outre, pour enregistrer l’heure d’un élément dans le widget Mon travail
 
 1. Accédez à la zone **Accueil**.
 1. Ajoutez le widget **Mon travail** à votre page Accueil.
-1. Sélectionnez une tâche, un problème ou une requête dans une liste, puis cliquez sur **Travailler dessus**.
+1. (Facultatif) Sélectionnez une tâche, un problème ou une requête dans une liste, puis cliquez sur **Travailler dessus**
 1. Passez la souris sur la tâche ou le problème dont vous souhaitez consigner le temps, puis cliquez sur l’icône **Consigner le temps** ![](assets/log-time-icon-in-new-home.png) à droite des informations de la tâche.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)

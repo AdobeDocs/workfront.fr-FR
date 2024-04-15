@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1790'
-ht-degree: 2%
+source-wordcount: '1799'
+ht-degree: 4%
 
 ---
 
@@ -79,14 +79,14 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Connexion des enregistrements de planification Workfront aux ressources Adobe Experience Manager | ✓ |                                  |                 |
 | Enregistrer la page avec des informations détaillées | ✓ |                                  |                  |
 | Mettre à jour la mise en page de la page de l’enregistrement |                               | ✓ |                  |
-| Partage des espaces de travail | ✓ | |  |
-| Partage de vues | ✓ | |  |
+| Partager des espaces de travail | ✓ | |  |
+| Partager des vues | ✓ | |  |
 | Duplication de vues | ✓ | |  |
 | Soumettre des demandes |                               |                                  | ✓ |
 | Brève présentation créative |                               |                                  | ✓ |
 | Personnalisation de la couleur et de l’icône d’un enregistrement | ✓ |                                  |                 |
 | Ajout de commentaires aux enregistrements | ✓ |                                  |                 |
-| Ajout de miniatures aux enregistrements | ✓ |                                  |                 |
+| Ajouter des miniatures aux enregistrements | ✓ |                                  |                 |
 | Afficher l’historique des modifications sur un enregistrement | ✓ |                                  |                 |
 | Formatage de texte enrichi pour les champs de paragraphe | ✓ |                                  |                 |
 | Modules de planification Adobe Workfront pour Adobe Workfront Fusion | ✓ |                                  |                 |
@@ -184,7 +184,7 @@ Vous trouverez ci-dessous les principaux objets et concepts de la planification 
    * Dernière modification par
    * Date de dernière modification
 
-* **Types d’enregistrement liés**, **Enregistrements liés**, et **Champs d’enregistrement liés**: vous pouvez créer une connexion entre les entités suivantes dans Workfront Planning :
+* **Types d’enregistrement liés**, **Enregistrements liés**, et **Champs d’enregistrement liés** ou **Types d’enregistrement connectés**, **Enregistrements connectés**, et **Champs connectés**: vous pouvez créer une connexion entre les entités suivantes dans Workfront Planning :
 
    * Deux types d’enregistrement.
    * Un type d’enregistrement et un type d’objet de projet, de programme, de portefeuille, d’entreprise ou de groupe Workfront.
@@ -205,8 +205,8 @@ Vous trouverez ci-dessous les principaux objets et concepts de la planification 
 
   Pour plus d’informations sur la liaison de types d’enregistrements, d’enregistrements et la création de champs liés, consultez les articles suivants :
 
-   * [Connexion des types d’enregistrement](../maestro/architecture/connect-record-types.md)
-   * [Connecter les enregistrements](../maestro/records/connect-records.md)
+   * [Connecter des types d’enregistrements](../maestro/architecture/connect-record-types.md)
+   * [Connecter des enregistrements](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 

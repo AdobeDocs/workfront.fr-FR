@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 0%
+source-wordcount: '1321'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,9 @@ Pour plus d’informations sur la création d’enregistrements, voir [Créer de
 
 &lt;!— mentionnez ici que les champs de la vue Détails sont identiques à ceux de la vue Tableau — cet article est lié à la vue Gestion des enregistrements pour faire référence à ces informations—>
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -51,22 +51,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>Nouveau : clair ou supérieur</p>
+   <p>Nouveau : Léger ou supérieur</p>
    Ou
    <p>Actuel : travail ou plus élevé</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -201,7 +201,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
    Ou
 
-   Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement. La boîte de l’enregistrement s’ouvre dans la vue.
+   Dans la vue Tableau, cliquez sur le **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement. La boîte de l’enregistrement s’ouvre dans la vue.
 
    ![](assets/details-box.png)
 
