@@ -2,84 +2,106 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: A propos de la connexion [!DNL Adobe Workfront Fusion] vers une application ou un service
+title: Présentation des connexions
 description: Pour la plupart des applications, il est nécessaire de créer une connexion, par laquelle [!DNL Adobe Workfront Fusion] peut communiquer avec le service tiers donné en fonction des paramètres du scénario spécifique.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2d5cf083-9893-45e8-8f7d-0f8f5a74eef3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 0%
+source-wordcount: '616'
+ht-degree: 7%
 
 ---
 
-# A propos de la connexion [!DNL Adobe Workfront Fusion] vers une application ou un service
+# Présentation des connexions
 
-Pour la plupart des applications, il est nécessaire de créer une connexion, par laquelle [!DNL Adobe Workfront Fusion] peut communiquer avec le service tiers donné en fonction des paramètres du scénario spécifique.
+<!-- Audited: 3/2024-->
+
+Pour la plupart des applications, [!DNL Workfront Fusion] nécessite une connexion, par laquelle il peut communiquer avec le service tiers donné en fonction des paramètres du scénario spécifique.
 
 Par exemple, si vous souhaitez créer un scénario qui récupère des informations de [!DNL Workfront], vous devez accorder l’autorisation d’accès pour [!DNL Workfront Fusion] pour accéder à [!DNL Workfront] compte .
 
-## Exigences d’accès
+Une connexion représente l’autorisation et les autorisations utilisées par Fusion pour accéder à l’application. Vous pouvez créer une ou plusieurs connexions pour chaque application et utiliser la même connexion dans plusieurs modules ou scénarios.
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+La plupart des connexions ne sont utilisées que pour une seule application. Par exemple, un [!DNL Workfront] La connexion ne peut pas être utilisée dans un [!UICONTROL Salesforce] module . Certains [!DNL Adobe] les applications peuvent partager des connexions. Pour plus d’informations, reportez-vous aux articles relatifs à ces applications, répertoriés dans la section [Applications et leurs modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
+
+Les connexions sont gérées au niveau de l’équipe. Tous les membres d’une équipe ont accès aux connexions de l’équipe et les utilisateurs en dehors d’une équipe n’ont pas accès aux connexions de l’équipe.
+
+## Conditions d’accès
+
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Actuel : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Hérité : Tout </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Droits d’accès
 
-Pour chaque connexion, [!DNL Workfront Fusion] ne nécessite que les droits d’accès nécessaires pour réussir un scénario donné. Par exemple, si vous créez un scénario pour répertorier des documents à partir de [!DNL Google Docs], [!DNL Workfront Fusion] ne demande pas l’autorisation d’obtenir le contenu des documents.
+Pour chaque connexion, [!DNL Workfront Fusion] ne nécessite que les droits d’accès nécessaires pour réussir un scénario donné. Par exemple, si vous créez un scénario pour répertorier des documents à partir de [!DNL Google Docs], [!DNL Workfront Fusion] ne demande pas l’autorisation d’obtenir le contenu des documents. Par la suite, si vous constatez que vous devez accéder au contenu des documents, vous pouvez mettre à jour la connexion ou en créer une qui puisse accéder à ce contenu.
 
-Malheureusement, tous les services ne vous permettent pas de limiter l’accès à des tâches spécifiques. Par conséquent, [!DNL Workfront Fusion] doivent exiger des droits d’accès complets. Pour plus d’informations sur les restrictions [!DNL Workfront Fusion] pour accéder à votre compte enregistré pour ces services, consultez la documentation spécifique à l’application.
+Tous les services ne permettent pas de limiter l’accès à des tâches spécifiques. Dans ce cas, [!DNL Workfront Fusion] doivent exiger des droits d’accès complets. Pour plus d’informations sur les restrictions [!DNL Workfront Fusion] l’accès à votre compte enregistré pour ces services, consultez la documentation spécifique à l’application répertoriée dans [Applications et leurs modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
 
-## À propos de l’administration des connexions
+## Gestion des connexions
 
-Vous pouvez administrer toutes les connexions à partir du [!UICONTROL Connexions] zone. Ici, vous pouvez :
+Vous pouvez gérer toutes les connexions à partir du [!UICONTROL Connexions] zone.
 
-* Identifier les autorisations accordées à [!DNL Workfront Fusion] pour chaque connexion
-* Renommer les connexions
-* Réautoriser les connexions existantes
-* Suppression de connexions existantes
-* Vérifier que la connexion au service a bien été établie
+>[!NOTE]
+>
+>Les connexions appartiennent à des équipes. Si vous ne trouvez pas la connexion que vous recherchez, vérifiez que vous consultez l’équipe appropriée.
+>
+>Pour sélectionner une nouvelle équipe :
+>
+>* Cliquez sur le nom de l’équipe dans le volet de navigation de gauche, puis sélectionnez une nouvelle équipe.
+>
+>    Ou
+>
+>* Cliquez sur Aperçu de l’équipe dans le volet de navigation de gauche, puis cliquez sur la flèche déroulante en regard du nom de l’équipe près du haut de la page. Sélectionnez une nouvelle équipe.
 
-Pour ouvrir la [!UICONTROL Connexions] zone, cliquez sur <b>[!UICONTROL Connexions]</b> dans le volet de navigation de gauche.
+1. Pour ouvrir la [!UICONTROL Connexions] zone, cliquez sur <b>[!UICONTROL Connexions]</b> dans le volet de navigation de gauche.
+1. (Facultatif) Indiquez l’environnement et le type de connexion en cliquant sur la liste déroulante Environnement et Type et en sélectionnant une option.
+1. (Facultatif) Pour afficher les autorisations accordées à [!DNL Workfront Fusion] pour une connexion, cliquez sur l’icône Afficher ![Affichage des autorisations de connexion](assets/view-connection-permissions.png) pour cette connexion.
+1. (Facultatif) Pour renommer une connexion, mettez en surbrillance son nom et saisissez le nouveau nom.
+1. (Facultatif) Pour réautoriser une connexion, cliquez sur **Réautoriser** pour cette connexion.
+1. (Facultatif) Pour supprimer une connexion, cliquez sur **Supprimer** pour cette connexion.
+1. (Facultatif) Pour vérifier que la connexion au service a bien été établie, cliquez sur **Vérifier** pour la connexion.
+
+
 
 ## Renouveler une connexion
 
-[!DNL Workfront Fusion] obtient généralement des droits d’accès à un service donné pendant une période illimitée. Cependant, ce n&#39;est pas toujours le cas. Avec certains services, l’autorisation d’accès doit être renouvelée après un certain temps. Dans ce cas, [!DNL Workfront Fusion] vous avertit par e-mail peu de temps avant l’expiration de ses droits d’accès.
+[!DNL Workfront Fusion] obtient généralement des droits d’accès à un service donné pendant une période illimitée. Certaines applications exigent que l’autorisation d’accès soit renouvelée après un certain temps. Dans ce cas, [!DNL Workfront Fusion] vous avertit par e-mail peu de temps avant l’expiration de ses droits d’accès.
 
 Pour renouveler une connexion :
 

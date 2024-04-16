@@ -2,44 +2,44 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Création d’un scénario dans Adobe Workfront Fusion
+title: Créer un scénario dans Adobe Workfront Fusion
 description: Les tâches suivantes expliquent comment créer une [!DNL Adobe Workfront Fusion] .
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 0%
+source-wordcount: '1417'
+ht-degree: 7%
 
 ---
 
-# Création d’un scénario dans [!DNL Adobe Workfront Fusion]
+# Créez un scénario dans [!DNL Adobe Workfront Fusion]
 
 Les tâches suivantes expliquent comment créer une [!DNL Adobe Workfront Fusion] .
 
 Pour un exercice d’entraînement qui vous guide tout au long de la création d’un scénario d’automatisation, voir [Créez un scénario d’automatisation des pratiques dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md).
 
-Pour un exercice d’entraînement qui vous guide tout au long de la création d’un scénario d’intégration à l’aide des données que nous fournissons, voir [Création d’un scénario d’intégration d’une pratique dans Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+Pour un exercice d’entraînement qui vous guide tout au long de la création d’un scénario d’intégration à l’aide des données que nous fournissons, voir [Créer un scénario d’intégration d’une pratique dans Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
 >[!NOTE]
 >
 >Pour créer un scénario à partir d’un modèle, voir [Création de scénarios avec [!DNL Adobe Workfront Fusion] templates](../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
    <td> <p>[!DNL Pro] ou supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
@@ -49,17 +49,17 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Commencer à créer un scénario
 
@@ -67,7 +67,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
 1. Cliquez sur **[!UICONTROL Création d’un scénario]** dans le coin supérieur droit de la page.
 1. Dans l’écran qui s’affiche (dans l’éditeur de scénarios), si vous créez un scénario, cliquez sur **[!UICONTROL Nouveau scénario]** dans le coin supérieur gauche, saisissez le nom du scénario.
-1. Passez à la [Ajouter un module dans un scénario](#add-a-module-in-a-scenario).
+1. Passez à [Ajouter un module dans un scénario](#add-a-module-in-a-scenario).
 
 ## Ajouter un module dans un scénario
 
@@ -81,7 +81,7 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
    Toutes les applications sélectionnées précédemment s’affichent dans la zone pour un accès facile, et dans la variable **[!UICONTROL Favoris]** au bas de l’écran.
 
-   Si vous cliquez sur **[!UICONTROL Ajouter un autre module]**, les modules qui s’affichent dépendent de l’endroit où vous ajoutez le module dans le scénario. Certains modules ne peuvent être placés qu’entre d’autres modules, tandis que d’autres ne peuvent être placés qu’au début du scénario.
+   Cliquez sur **[!UICONTROL Ajouter un autre module]**, les modules qui s’affichent dépendent de l’endroit où vous ajoutez le module dans le scénario. Certains modules ne peuvent être placés qu’entre d’autres modules, tandis que d’autres ne peuvent être placés qu’au début du scénario.
 
    >[!TIP]
    >
@@ -93,15 +93,15 @@ Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!D
 
    Les deux types de modules les plus courants sont les actions et les déclencheurs. Pour plus d’informations, voir [Types de modules](../../workfront-fusion/modules/module-types.md).
 
-1. Passez à la [Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-workfront-fusion).
+1. Passez à [Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-workfront-fusion).
 
 ## Connectez l’application ou le service Web du module à [!DNL Workfront Fusion] {#connect-the-modules-app-or-web-service-to-workfront-fusion}
 
-Modules Workfront Fusion se connectant à une application (tels que [!DNL Workfront], [!DNL Salesforce]ou [!DNL Jira)] de la fonction [!UICONTROL Connexion] champ . Ici, vous pouvez spécifier la connexion que ce module doit utiliser pour se connecter à l’application. Vous pouvez sélectionner une connexion existante dans la liste déroulante ou créer une connexion.
+Modules Workfront Fusion se connectant à une application (tels que [!DNL Workfront], [!DNL Salesforce], ou [!DNL Jira)] de la fonction [!UICONTROL Connexion] champ . Ici, vous pouvez spécifier la connexion que ce module doit utiliser pour se connecter à l’application. Vous pouvez sélectionner une connexion existante dans la liste déroulante ou créer une connexion.
 
 Lorsque vous sélectionnez ou créez une connexion pour une application dans un scénario, les autres modules de cette application utilisent automatiquement la même connexion, sauf si vous en sélectionnez une autre lors de la configuration des modules ultérieurs.
 
-Pour plus d’informations, voir [A propos de la connexion [!DNL Adobe Workfront Fusion] vers une application ou un service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Pour plus d’informations, voir [Présentation des connexions](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ![](assets/connection-field-350x169.png)
 
@@ -116,7 +116,7 @@ Pour créer une connexion dans un [!DNL Workfront Fusion] module :
 1. Cliquez sur **[!UICONTROL Continuer]**.
 1. Dans la fenêtre de connexion qui s’affiche, saisissez vos informations d’identification pour vous connecter à l’application si vous ne l’avez pas déjà fait.
 1. (Conditionnel) Si un événement **[!UICONTROL Autoriser]** s’affiche, examinez les actions que le connecteur pourra effectuer, puis cliquez sur le bouton pour connecter l’application à [!DNL Workfront Fusion].
-1. Passez à la [Configuration du module](#configure-the-module).
+1. Passez à [Configuration du module](#configure-the-module).
 
 
 ## Configuration du module
@@ -137,7 +137,7 @@ Pour créer une connexion dans un [!DNL Workfront Fusion] module :
    >
    >![](assets/black-error-circle-on-module.png)
 
-1. Si vous ajoutez le premier module à votre scénario, sélectionnez une option pour indiquer où vous souhaitez que le scénario démarre chaque fois qu’il s’exécute.
+1. Si vous ajoutez le premier module à votre scénario, sélectionnez une option pour indiquer où vous souhaitez que le scénario démarre à chaque exécution.
 
    ![](assets/choose-where-start-350x194.png)
 
@@ -147,7 +147,7 @@ Pour créer une connexion dans un [!DNL Workfront Fusion] module :
 
    Pour plus d’informations, voir [Copie de modules ou de scénarios dans Adobe Workfront Fusion](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
 
-1. Passez à la [Configuration et utilisation de votre scénario](#configure-and-work-with-your-scenario).
+1. Passez à [Configuration et utilisation de votre scénario](#configure-and-work-with-your-scenario).
 
 ## Configuration et utilisation de votre scénario
 
@@ -165,11 +165,11 @@ Pour créer une connexion dans un [!DNL Workfront Fusion] module :
       <td role="rowheader">Configuration d’un itinéraire</td> 
       <td> <p>Cliquez sur l’icône de clé à molette <img src="assets/wrench-icon.gif"> entre les deux modules et utilisez l’une des options suivantes. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Ajoutez un filtre à un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> 
        <ul> 
-        <li><strong>[!UICONTROL Configurer un filtre]</strong>: Contrôlez les lots utilisés à certains moments dans le scénario.</li> 
-        <li><strong>[!UICONTROL Dissocier]</strong>: Supprime un itinéraire.</li> 
-        <li><strong>[!UICONTROL Ajouter un routeur]</strong>: Ajoute un routeur entre les modules. </li> 
-        <li><strong>[!UICONTROL Ajouter un module]</strong>: Ajoute un nouveau module entre les modules.</li> 
-        <li><strong>[!UICONTROL Ajouter une note]</strong>: Ajoute une note à l’itinéraire.</li> 
+        <li><strong>[!UICONTROL Configurer un filtre]</strong>: contrôlez les lots utilisés à certains moments dans le scénario.</li> 
+        <li><strong>[!UICONTROL Dissocier]</strong>: supprime un itinéraire.</li> 
+        <li><strong>[!UICONTROL Ajouter un routeur]</strong>: ajoute un routeur entre les modules. </li> 
+        <li><strong>[!UICONTROL Ajouter un module]</strong>: ajoute un nouveau module entre les modules.</li> 
+        <li><strong>[!UICONTROL Ajouter une note]</strong>: ajoute une note à l’itinéraire.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -182,7 +182,7 @@ Pour créer une connexion dans un [!DNL Workfront Fusion] module :
      </tr> 
      <tr> 
       <td role="rowheader">Amélioration du scénario à l’aide d’outils avancés</td> 
-      <td>Cliquez sur le bouton [!DNL Tools] icône . <img src="assets/tools-icon.gif"> Vous pouvez créer des déclencheurs, des actions, des agrégateurs et des transformateurs. Pour plus d’informations, voir <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">Outils</a>.</td> 
+      <td>Cliquez sur le bouton [!DNL Tools] Icône <img src="assets/tools-icon.gif"> Vous pouvez créer des déclencheurs, des actions, des agrégateurs et des transformateurs. Pour plus d’informations, voir <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">Outils</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Outils d’analyse de texte utilisateur</td> 
@@ -224,9 +224,9 @@ Pour créer une connexion dans un [!DNL Workfront Fusion] module :
     </tbody> 
    </table>
 
-1. Pour tester l’exécution du scénario, cliquez sur **[!UICONTROL Exécuter une seule fois]**.
+1. Pour tester le scénario, cliquez sur **[!UICONTROL Exécuter une seule fois]**.
 
-   Il est important de vérifier que le scénario s’exécute comme prévu avant de l’activer. Une fois activé, le scénario s’exécute selon son planning. Si tout ne fonctionne pas comme prévu, reportez-vous à la section [Gestion des erreurs dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
+   Il est important de vérifier que le scénario s’exécute comme prévu avant de l’activer. Une fois activé, le scénario s’exécute selon son planning. Si tout ne fonctionne pas comme prévu, voir [Gestion des erreurs dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
 
 1. Lorsque vous avez terminé de modifier le scénario (ou à tout moment pendant la modification), cliquez sur le bouton [!UICONTROL Enregistrer] icône en bas de la fenêtre ![](assets/save-icon.gif).
 

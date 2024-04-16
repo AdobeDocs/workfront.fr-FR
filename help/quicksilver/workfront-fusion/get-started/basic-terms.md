@@ -3,15 +3,15 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Termes de base dans Adobe Workfront Fusion
+title: Termes de base d’Adobe Workfront Fusion
 description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 0%
+source-wordcount: '828'
+ht-degree: 1%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Lors de l’ajout d’une application ou d’un service à un scénario, il est probable que vous deviez d’abord créer une connexion entre [!DNL Workfront Fusion] et l’application ou le service afin de récupérer ou d’envoyer les données sélectionnées. Pour plus d’informations, voir <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">A propos de la connexion [!DNL Adobe Workfront Fusion] vers une application ou un service</a>.</p> </td> 
+   <td> <p>Lors de l’ajout d’une application ou d’un service à un scénario, il est probable que vous deviez d’abord créer une connexion entre [!DNL Workfront Fusion] et l’application ou le service afin de récupérer ou d’envoyer les données sélectionnées. Pour plus d’informations, voir <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Présentation des connexions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cycle</p> </td> 
-   <td> <p>Un cycle fait référence à deux phases de l’exécution du scénario : opération et validation. Le scénario peut comprendre un ou plusieurs cycles. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Exécution de scénarios, cycles et phases dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Un cycle fait référence à deux phases de l’exécution du scénario : opération et validation. Le scénario peut comprendre un ou plusieurs cycles. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Entrepôt de données</p> </td> 
@@ -68,7 +68,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Filtre</p> </td> 
-   <td> <p>Fonctionnalités supplémentaires pouvant être appliquées entre deux modules. Un filtre vous permet ensuite de ne travailler qu’avec des lots qui correspondent à certains critères. Vous pouvez appliquer un certain nombre de filtres différents. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Ajouter un filtre à un scénario dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Fonctionnalités supplémentaires pouvant être appliquées entre deux modules. Un filtre vous permet ensuite de ne travailler qu’avec des lots qui correspondent à certains critères. Vous pouvez appliquer différents filtres. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Ajouter un filtre à un scénario dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>ID</p> </td> 
@@ -84,7 +84,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Module</p> </td> 
-   <td> <p>Une seule étape d’un scénario qui exécute une fonction, telle que la création d’un enregistrement, dans l’application ou le service associé.</p> <p>Chaque application ou service comporte différents modules qui définissent la manière dont il répond à une requête.</p> <p>Il existe quatre types de modules : actions, déclencheurs, itérateurs et agrégateurs.</p> <p> <img src="assets/module.jpg"> </p> <p>Pour plus d’informations, voir <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Types de modules</a>.</p> </td> 
+   <td> <p>Une seule étape d’un scénario qui exécute une fonction, telle que la création d’un enregistrement, dans l’application ou le service associé.</p> <p>Chaque application ou service comporte différents modules qui définissent la manière dont il répond à une requête.</p> <p>Il existe 4 types de modules : actions, déclencheurs, itérateurs et agrégateurs.</p> <p> <img src="assets/module.jpg"> </p> <p>Pour plus d’informations, voir <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Types de modules</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Opération</p> </td> 
@@ -104,11 +104,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transactions</p> </td> 
-   <td> <p>[!DNL Workfront Fusion] utilise le traitement transactionnel pour capturer le cycle de vie du scénario. Une transaction se compose de plusieurs phases au cours desquelles les données sont transformées d’un état cohérent en un autre état cohérent. Il existe quatre phases : initialisation, opération (lecture ou écriture), validation/restauration et finalisation.</p> </td> 
+   <td> <p>[!DNL Workfront Fusion] utilise le traitement transactionnel pour capturer le cycle de vie du scénario. Une transaction se compose de plusieurs phases au cours desquelles les données sont transformées d’un état cohérent en un autre état cohérent. Il existe 4 phases : initialisation, opération (lecture ou écriture), validation/restauration et finalisation.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Déclencheur</p> </td> 
-   <td> <p>Module qui vous permet de saisir les lots qui ont été ajoutés ou mis à jour depuis la dernière exécution d’un scénario. Il existe deux types de déclencheurs : sondage et instantané (webhooks). Pour plus d’informations, voir <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Déclencheurs instantanés (webhooks) dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Module qui vous permet de saisir les lots qui ont été ajoutés ou mis à jour depuis la dernière exécution d’un scénario. Il existe deux types de déclencheurs : url et instantané (webhooks). Pour plus d’informations, voir <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Déclencheurs instantanés (webhooks) dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webhook</p> </td> 

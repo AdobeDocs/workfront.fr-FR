@@ -3,58 +3,58 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Fonctions de chaîne dans Adobe Workfront Fusion
+title: Fonctions de chaîne dans Adobe Workfront Fusion
 description: Les fonctions de chaîne suivantes sont disponibles dans le panneau Mappage de fusion Adobe Workfront .
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 3%
+source-wordcount: '696'
+ht-degree: 7%
 
 ---
 
 # Fonctions de chaîne dans [!DNL Adobe Workfront Fusion]
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] ou supérieur</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
+   <td> <p>N’importe quelle</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] license</td>  
+   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>  
+   <td> 
+   <p>Actuel : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p> 
+   <p>Ou</p> 
+   <p>Hérité : Tout </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produit</td>  
+   <td> 
+   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul> 
+   <p>Ou</p> 
+   <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
-   <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produit</td> 
-   <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
-   <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL ascii (texte); [supprimer les diacritiques])]
 
@@ -62,7 +62,7 @@ Supprime tous les caractères non ascii d’une chaîne de texte.
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
 >
@@ -78,7 +78,7 @@ Transforme le texte en base64.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`base64( workfront )`
 >
@@ -90,19 +90,19 @@ Convertit le premier caractère d’une chaîne de texte en majuscules.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`capitalize( workfront )`
 >
 >Renvoie : [!DNL Workfront]
 
-## contient (texte) ; chaîne de recherche)
+## contains (texte ; chaîne de recherche)
 
 Vérifie si le texte contient la chaîne de recherche.
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `contains( Hello World ; Hello )`
 >
@@ -118,7 +118,7 @@ Décode les caractères spéciaux d’une URL en texte.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >`decodeURL( Automate%20your%20workflow )`
 >
 >Renvoie : [!UICONTROL Automatiser votre workflow]
@@ -133,7 +133,7 @@ Code les caractères spéciaux de certains textes à une adresse URL valide.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`escapeHTML( <b>Hello</b> )`
 >
@@ -145,7 +145,7 @@ Permet d’ignorer toutes les balises Markdown dans le texte.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`escapeMarkdown( # Header )`
 >
@@ -157,7 +157,7 @@ Renvoie la position de la première occurrence d’une valeur spécifiée dans u
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `indexOf( Workfront ; o )`
 >
@@ -177,7 +177,7 @@ Renvoie la longueur de la chaîne de texte (nombre de caractères) ou de la mém
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`length( hello )`
 >
@@ -189,7 +189,7 @@ Convertit en minuscules tous les caractères alphabétiques d’une chaîne de t
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`lower( Hello )`
 >
@@ -201,7 +201,7 @@ Calcule le hachage md5 d&#39;une chaîne.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`md5( Workfront )`
 >
@@ -213,7 +213,7 @@ Remplace la chaîne de recherche par la nouvelle chaîne.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
@@ -223,7 +223,7 @@ Expressions régulières (incluses dans `/.../`) peut être utilisée comme cha�
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >![](assets/replace---1-350x31.png)
 >
@@ -236,15 +236,15 @@ La chaîne de remplacement peut inclure les modèles de remplacement spéciaux s
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >![](assets/variable-value-350x63.png)
 >
->Renvoie : Numéro de téléphone `+420777111222`
+>Renvoie : numéro de téléphone `+420777111222`
 >>
 >![](assets/variable-value---2-350x55.png)
 >
->Renvoie : Numéro de téléphone : `+420777111222`
+>Renvoie : numéro de téléphone : `+420777111222`
 
 >[!CAUTION]
 >
@@ -258,7 +258,7 @@ Calcule le hachage sha1 d’une chaîne. Si l’argument clé est spécifié, le
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`sha1( workfront )`
 >
@@ -270,7 +270,7 @@ Calcule le hachage sha256 d’une chaîne. Si l’argument clé est spécifié, 
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`sha256( workfront )`
 >
@@ -296,19 +296,19 @@ Lors de l’utilisation de[!UICONTROL binaire]Encodage de clé, une clé doit ê
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`sha512(workfront)`
 >
->Renvoie : 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b23449333 fd431639c0345aadf2cf7ec26e9f4a7fb19
+>Renvoie : 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b2344933 5fd431639c0345aadf2cf7ec26e9f4a7fb19
 
-## [!UICONTROL split (texte); separator)]
+## [!UICONTROL split (texte ; séparateur)]
 
 Divise une chaîne en un tableau de chaînes en la séparant en sous-chaînes.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`split( John, George, Paul ; , )`
 
@@ -318,7 +318,7 @@ Met en majuscules la première lettre de chaque mot et toutes les autres lettres
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >`startcase( hello WORLD )`
 >
 >Renvoie : [!UICONTROL Hello World]
@@ -329,7 +329,7 @@ Supprime toutes les balises de HTML du texte.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`stripHTML( <b>Hello</b> )`
 >
@@ -341,11 +341,11 @@ Renvoie une partie d’une chaîne de texte entre la position &quot;début&quot;
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `substring( Hello ; 0 ; 3)`
 >
->   Renvoie : Aide
+>   Renvoie : aide
 >
 >* `substring( Hello ; 1 ; 3 )`
 >
@@ -359,7 +359,7 @@ Vous pouvez également spécifier le codage comme second argument pour appliquer
 
 >[!INFO]
 >
->**Exemples:**
+>**Exemples :**
 >
 >* `toBinary( Workfront )`
 >
@@ -383,7 +383,7 @@ Convertit en majuscules tous les caractères alphabétiques d’une chaîne de t
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >`upper( Hello )`
 >

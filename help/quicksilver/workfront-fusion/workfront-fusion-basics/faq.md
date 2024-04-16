@@ -3,58 +3,58 @@ content-type: faq
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
-title: FAQ sur Adobe Workfront Fusion
+title: Questions fréquentes sur Adobe Workfront Fusion
 description: Cet article traite des questions courantes relatives aux [!DNL Adobe Workfront Fusion], y compris des informations sur l’objet couramment utilisé dans les workflows Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 0%
+source-wordcount: '664'
+ht-degree: 19%
 
 ---
 
-# FAQ sur Adobe Workfront Fusion
+# Questions fréquentes sur Adobe Workfront Fusion
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
    <td> <p>[!DNL Pro] ou supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Qu&#39;est-ce qu&#39;un scénario ?
 
@@ -78,7 +78,7 @@ Oui. Utilisation [!DNL Workfront Fusion], les fichiers peuvent être reçus, enr
 
 Pour plus d’informations, voir [À propos du mappage des fichiers dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md).
 
-## Que se passe-t-il si je laisse [!DNL Workfront Fusion] traiter un email contenant plusieurs pièces jointes ?
+## Que faire si je laisse [!DNL Workfront Fusion] traiter un email contenant plusieurs pièces jointes ?
 
 ### Réponse
 
@@ -90,7 +90,7 @@ Pour plus d’informations, voir [[!UICONTROL Email] modules](../../workfront-fu
 
 ### Réponse
 
-Les scénarios courants sont exécutés à intervalles réguliers selon le planning que vous spécifiez (par exemple, toutes les heures, toutes les 5 minutes, une fois par mois, etc.). Il existe des déclencheurs spéciaux, appelés déclencheurs instantanés (webhooks), qui peuvent démarrer votre scénario immédiatement après avoir reçu des données d’un service donné. Les déclencheurs instantanés peuvent être extrêmement utiles. Nous vous recommandons de les utiliser dans la mesure du possible. Elles permettent de réduire le nombre d’opérations. Les données reçues sont traitées immédiatement sans attendre la prochaine exécution planifiée. Par exemple, la variable [!DNL Google Sheets] module [!UICONTROL Watch Changes] lance un scénario immédiatement après la mise à jour d’une cellule.
+Les scénarios courants sont exécutés à intervalles réguliers selon le planning que vous spécifiez (par exemple, toutes les heures, toutes les 5 minutes, une fois par mois, etc.). Il existe des déclencheurs spéciaux, appelés déclencheurs instantanés (webhooks), qui peuvent démarrer votre scénario immédiatement après avoir reçu des données d’un service donné. Les déclencheurs instantanés peuvent être extrêmement utiles. Nous vous recommandons de les utiliser dans la mesure du possible. Elles permettent de réduire le nombre d’opérations. Les données reçues sont traitées immédiatement sans attendre la prochaine exécution planifiée. Par exemple, la variable [!DNL Google Sheets] module [!UICONTROL Surveiller les modifications] lance un scénario immédiatement après la mise à jour d’une cellule.
 
 ## Que sont les agrégateurs ?
 
@@ -104,7 +104,7 @@ Pour plus d’informations, voir [[!UICONTROL Agrégateur] module dans [!DNL Ado
 
 ### Réponse
 
-Une opération est une tâche effectuée par un module. Une opération se produit, par exemple, à chaque exécution d’un déclencheur et à chaque exécution d’une action.
+Une opération est une tâche effectuée par un module. Une opération se produit, par exemple, chaque fois qu’un déclencheur s’exécute et qu’une action effectue une tâche.
 
 ## Qu’est-ce que le transfert de données ?
 
@@ -118,4 +118,4 @@ Le transfert de données fait référence à la quantité de données transfér�
 
 Une connexion est le lien entre votre [!DNL Workfront Fusion] et le service tiers que vous souhaitez utiliser. La connexion peut être facilement créée lors de la modification d’un scénario. Pour ajouter une connexion, cliquez sur le bouton **[!UICONTROL Ajouter]** dans le paramètre du module et suivez les instructions étape par étape.
 
-Pour plus d’informations, voir [A propos de la connexion [!DNL Adobe Workfront Fusion] vers une application ou un service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Pour plus d’informations, voir [Présentation des connexions](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '14157'
+source-wordcount: '14149'
 ht-degree: 98%
 
 ---
@@ -2115,7 +2115,7 @@ ht-degree: 98%
       * [Différences d’administration en fonction de la plateforme (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
    * Connexions dans Adobe Workfront Fusion {#connections-in-fusion}
       * [Connexions dans Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
-      * [À propos de la connexion d’Adobe Workfront Fusion à une application ou un service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+      * [Présentation des connexions](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Créer des connexions dans Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
       * [Métadonnées de connexion](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Créer une connexion à Adobe Workfront Fusion - Instructions de base](workfront-fusion/connections/connect-to-fusion-general.md)
