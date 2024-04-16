@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '2194'
-ht-degree: 52%
+source-wordcount: '2254'
+ht-degree: 51%
 
 ---
 
@@ -445,6 +445,32 @@ Vous pouvez également [Affichage d’un fichier de PDF](https://acrobat.adobe.c
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+            <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de version</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelles expériences de commentaires ajoutées aux itérations</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>Pour vous offrir une expérience cohérente dans l’ensemble de l’application, nous avons ajouté la nouvelle expérience de commentaire aux itérations. Pour plus d’informations, voir [Mise à jour de la section - Aperçu](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : vendredi 11 avril 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour tous les clients : avec la version 24.4 (11 avril 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <p><span class="bold">Fonctionnalité</span>

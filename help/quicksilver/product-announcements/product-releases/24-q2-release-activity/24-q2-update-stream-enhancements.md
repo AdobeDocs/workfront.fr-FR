@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 34%
+source-wordcount: '710'
+ht-degree: 32%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 34%
 Cette page décrit les améliorations apportées au flux de mise à jour et aux notifications dans l’environnement Aperçu par la version du deuxième trimestre 2024. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2024, consultez l’article [Vue d’ensemble de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Nouvelles expériences de commentaires ajoutées aux itérations
+
+>[!NOTE]
+>
+>Version d’aperçu : 11 avril 2024 ; Production pour tous les clients : avec la version 24.4 (11 avril 2024)
+
+Pour vous offrir une expérience cohérente dans l’ensemble de l’application, nous avons ajouté la nouvelle expérience de commentaire aux itérations. Pour plus d’informations, voir [Mise à jour de la section - Aperçu](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## L’accès à la zone de commentaires héritée a été supprimé.
 
