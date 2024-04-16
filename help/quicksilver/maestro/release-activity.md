@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '5486'
+source-wordcount: '5562'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,35 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 >[!IMPORTANT]
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
+
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## Semaine du 8 avril 2024
+
+### Copiez le contenu d’une cellule et collez-la dans plusieurs cellules sélectionnées
+
+Production : 10 avril 2024
+
+Aperçu : à déterminer
+
+Vous pouvez désormais copier le contenu d’une cellule dans le mode Tableau et la coller dans plusieurs cellules sélectionnées. Vous pouvez également copier des informations provenant de sources externes et les coller dans les cellules d’affichage du tableau.
+
+Cette fonctionnalité est prise en charge pour tous les types de champ, à l’exception des champs calculés.
+
+Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Semaine du 1er avril 2024
 
@@ -334,9 +363,9 @@ Nous avons amélioré l’expérience de partage pour les espaces de travail et 
 Pour plus d’informations, voir les articles suivants :
 
 * [Partage des espaces de travail](/help/quicksilver/maestro/access/share-workspaces.md)
-* [Partage de vues](/help/quicksilver/maestro/access/share-views.md)
+* [Partager des vues](/help/quicksilver/maestro/access/share-views.md)
 
-### Ajout de miniatures aux enregistrements
+### Ajouter des miniatures aux enregistrements
 
 Production : 1er février 2024
 
@@ -552,7 +581,7 @@ Pour plus d’informations, voir [Gestion de la vue de tableau](/help/quicksilve
 
 ### Connexion des enregistrements des fonctionnalités de planification à Adobe Experience Manager Assets
 
-Version d’aperçu : 14 décembre 2023
+Version d’aperçu : vendredi 14 décembre 2023
 
 Version de production : 21 décembre 2023
 
@@ -762,8 +791,8 @@ Tenez compte des points suivants :
 
   Pour plus d’informations, voir les articles suivants :
 
-   * [Connexion des types d’enregistrement](../maestro/architecture/connect-record-types.md)
-   * [Connecter les enregistrements](../maestro/records/connect-records.md)
+   * [Connecter des types d’enregistrements](../maestro/architecture/connect-record-types.md)
+   * [Connecter des enregistrements](../maestro/records/connect-records.md)
 
 ### Prise en charge des URL pour les champs de texte d’une seule ligne
 

@@ -1,18 +1,18 @@
 ---
-title: Gestion des vues d’enregistrement
+title: Gérer les vues d’enregistrement
 description: Vous pouvez afficher les enregistrements dans un tableau, une chronologie ou un calendrier lors de l’utilisation d’Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Gestion des vues d’enregistrement
+# Gérer les vues d’enregistrement
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -32,9 +32,9 @@ Après avoir sélectionné un type d’enregistrement dans la zone de planificat
 
   Pour plus d’informations, voir [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -55,15 +55,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
    <p>Les administrateurs système n’ont accès qu’aux vues qu’ils ont créées ou qui sont partagées avec eux. </p>
   </td>
   </tr>
@@ -93,6 +93,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Les vues dans Workfront Planning sont spécifiques au type d’enregistrement. Vous ne pouvez pas appliquer la même vue à deux types d’enregistrements différents.
 * Les vues que vous créez sont visibles uniquement pour vous et les utilisateurs avec lesquels vous partagez les vues.
 * Lorsque vous modifiez ou supprimez une vue, elle est modifiée et supprimée pour tous les utilisateurs disposant d’autorisations sur la vue.
+<!--* Each user can create a maximum of 100 views. -->
 * Les éléments suivants sont propres à chaque vue d’enregistrement :
 
    * Filtre
@@ -203,8 +204,8 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
 
 1. (Facultatif) Pour gérer un type de vue spécifique, consultez les articles suivants :
 
-   * [Gestion de la vue de tableau](../views/manage-the-table-view.md)
-   * [Gestion du mode Chronologie](../views/manage-the-timeline-view.md)
+   * [Gérer la vue de tableau](../views/manage-the-table-view.md)
+   * [Gérer la vue chronologique](../views/manage-the-timeline-view.md)
    * [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 

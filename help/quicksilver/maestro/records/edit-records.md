@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1336'
 ht-degree: 3%
 
 ---
@@ -166,7 +166,6 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
    >* Utilisez les raccourcis clavier suivants pour copier et coller des informations :
    >   * Copier : Ctrl + C (⌘ + C pour Mac)
    >   * Coller : Ctrl + V ( ⌘ + V pour Mac)
-   >* Vous ne pouvez pas copier des informations provenant d’une autre source, autre qu’un champ d’enregistrement du même type que le champ dans lequel vous collez les informations.
    >
    >* Vous ne pouvez pas copier et coller des valeurs de champ dans la page d’enregistrement. Cette fonctionnalité n’est prise en charge que dans le mode Tableau d’un type d’enregistrement.
    >* Vous ne pouvez pas copier et coller des valeurs de champ pour les types de champ suivants :
