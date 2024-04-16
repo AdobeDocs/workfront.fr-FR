@@ -6,13 +6,12 @@ title: Création d’un compte de lecteur (service) pour Snowflake
 description: Pour accéder aux données du lac de données Workfront, vous devez d’abord créer un compte de lecteur pour Snowflake.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 0%
+source-wordcount: '564'
+ht-degree: 7%
 
 ---
 
@@ -20,30 +19,30 @@ ht-degree: 0%
 
 Pour accéder aux données de lac de données Workfront, vous devez d’abord créer un compte de lecteur pour Snowflake. En outre, vous devez ajouter des adresses IP à la liste autorisée pour tout outil externe que vous prévoyez de connecter aux données.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Final</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>À déterminer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Vous devez être un administrateur Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Créer un compte de lecteur
 
@@ -67,7 +66,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    ![Réinitialisation du mot de passe du Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. Vous pouvez désormais utiliser votre nom d’utilisateur et votre nouveau mot de passe pour accéder à votre lac de données Workfront en Snowflake.
+1. Vous pouvez désormais utiliser votre nom d’utilisateur et votre nouveau mot de passe pour accéder à votre lac de données Workfront en Snowflake ou à l’outil de visualisation d’entreprise de votre choix.
 
 ## Ajout d’adresses IP à la liste autorisée
 
@@ -77,9 +76,9 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 1. Cliquez sur le bouton **Adresses IP autorisées** , puis cliquez sur le bouton **Ajout d’une adresse IP à votre Liste autorisée** bouton .
 
-   ![Ajouter une adresse IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
 1. Saisissez le nom de l’adresse IP dans **Description de l’adresse IP** et saisissez l’adresse IP de l’outil que vous souhaitez utiliser dans **Adresse IP**, puis cliquez sur **Ajout d’une adresse IP à la Liste autorisée**.
+
+   ![Ajouter une adresse IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## Révocation d’un compte de lecteur ou suppression d’une adresse IP de la liste autorisée
 

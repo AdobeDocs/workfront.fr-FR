@@ -6,19 +6,18 @@ title: Présentation du lac de données Workfront
 description: Présentation de la fonctionnalité lac de données Workfront
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Présentation du lac de données Workfront
 
-Le lac de données Workfront offre un accès sans précédent aux données Workfront, ce qui vous permet de répondre à des questions critiques et de mesurer la valeur de vos processus. Cette fonctionnalité permet aux clients d’entreprise d’interroger leurs données à l’aide d’outils de visualisation de données directement à partir d’un lac de données Workfront ou d’exporter des données Workfront vers des entrepôts de données appartenant au client.
+Le lac de données Workfront offre un accès sans précédent aux données Workfront à l’aide de la technologie Snowflake, ce qui vous permet de répondre à des questions critiques et de mesurer la valeur de vos processus. Cette fonctionnalité permet aux clients d’entreprise d’interroger leurs données à l’aide d’outils de visualisation de données directement à partir d’un lac de données Workfront ou d’exporter des données Workfront vers des entrepôts de données appartenant au client.
 
 Les abonnés pourront connecter leur outil de Business Intelligence de votre choix (Tableau, Power BI, Domo, Looker, etc.) dans le lac de données Workfront pour créer des visualisations de données avec les types de données suivants :
 

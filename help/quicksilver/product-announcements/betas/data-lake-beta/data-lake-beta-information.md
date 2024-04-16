@@ -4,10 +4,9 @@ title: Informations bêta sur le lac de données Workfront
 description: Informations générales sur le lac de données Workfront bêta
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a1eb393a929ff7246056bb53b3e28b9da240c252
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 12%
@@ -104,4 +103,3 @@ Vous trouverez ci-dessous des listes d’objets actuellement pris en charge dans
 
 * Limitez les objets disponibles lors de la configuration du compte de lecteur.
 * Associez un compte de lecteur à un ou plusieurs groupes spécifiques dans Workfront afin de limiter la visibilité des enregistrements aux seuls membres du groupe.
-

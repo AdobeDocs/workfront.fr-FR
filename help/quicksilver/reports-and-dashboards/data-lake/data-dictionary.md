@@ -6,13 +6,12 @@ title: Dictionnaire de données du lac de données
 description: Cette page contient des informations sur la structure et le contenu des données du lac de données Workfront.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 57985404-554e-4289-b871-b02d3427aa5c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 8%
+source-wordcount: '455'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +41,7 @@ Le tableau Historique quotidien offre une version abrégée du tableau Événeme
 
 <!-- Custom table -->
 
-## Table de relation d’entité
+## Table de terminologie
 
 Le tableau suivant met en corrélation les noms d’objets dans Workfront (ainsi que leurs noms dans l’interface et l’API) avec leur nom équivalent dans le lac de données.
 
