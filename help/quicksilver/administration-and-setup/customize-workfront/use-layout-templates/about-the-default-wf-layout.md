@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 14%
+source-wordcount: '309'
+ht-degree: 6%
 
 ---
 
@@ -140,7 +140,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Programmation</strong> </td> 
+   <td><strong>Planification</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -150,7 +150,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Demandes</strong> </td> 
-   <td><strong>Nouvelle demande</strong> </td> 
+   <td><strong>Nouvelle requête</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -159,7 +159,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td><strong>Demandes que j'ai envoyées</strong> </td> 
+   <td><strong>Demandes que j’ai envoyées</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -168,7 +168,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td>✔ <br>(Zone d’entrée par défaut)</td> 
   </tr> 
   <tr> 
-   <td><strong>Toutes les demandes</strong> </td> 
+   <td><strong>Toutes les requêtes</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -178,7 +178,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Feuille de temps</strong> </td> 
-   <td><strong>Mes feuilles de temps</strong> </td> 
+   <td><strong>Mes feuilles de calcul</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
@@ -187,7 +187,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Mes approbations de feuilles de temps</strong> </td> 
+   <td><strong>Fiches d’heure que j’approuve</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 
@@ -196,7 +196,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Toutes les feuilles de temps</strong> </td> 
+   <td><strong>Toutes les feuilles de calcul</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 
