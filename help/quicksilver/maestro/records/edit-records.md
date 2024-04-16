@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1360'
 ht-degree: 3%
 
 ---
@@ -157,6 +157,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
    * Copiez une ou plusieurs valeurs existantes d’un champ, puis collez-les dans un champ du même type sur un autre enregistrement
    * Cliquez sur l’en-tête de colonne d’une colonne pour la sélectionner et la copier, puis cliquez sur l’en-tête de colonne d’une autre colonne et collez le contenu de la colonne copiée. Les colonnes doivent contenir des types de champ similaires.
    * Lorsque vous appuyez sur la touche Maj, cliquez pour sélectionner plusieurs lignes d’un tableau, copiez les informations des lignes sélectionnées, puis cliquez sur une autre ligne et collez les informations sélectionnées dans la nouvelle ligne, puis sur les lignes suivantes.
+   * Copiez les informations d’une cellule, sélectionnez plusieurs cellules, puis collez les mêmes informations dans plusieurs cellules. Vous pouvez sélectionner plusieurs cellules et coller les mêmes informations dans plusieurs cellules à partir des lignes et colonnes adjacentes.
 
    >[!NOTE]
    >
@@ -171,7 +172,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
    >* Vous ne pouvez pas copier et coller des valeurs de champ pour les types de champ suivants :
    >
    >
-   >    * Champs liés créés par la connexion des types d’enregistrement. Vous pouvez copier et coller des champs d’enregistrement liés. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
+   >    * Champs liés (ou champs de recherche) créés par la connexion des types d’enregistrement. Vous pouvez copier et coller des champs d’enregistrement liés. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
    >    * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification .
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la modification ou la copie et le collage des informations d’enregistrement :

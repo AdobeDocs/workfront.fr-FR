@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '2967'
 ht-degree: 83%
 
 ---
@@ -55,17 +55,13 @@ Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront pour informer 
 
 Les informations de cet article décrivent comment vous pouvez commenter et mettre à jour les informations pour les projets, les tâches et les problèmes. Les utilisateurs et utilisatrices affectés ou les personnes abonnées à l’objet peuvent afficher votre mise à jour. Vous pouvez également baliser des utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour.
 
-L’ajout de commentaires à d’autres objets est similaire à la mise à jour de projets, de tâches et de problèmes. Pour plus d’informations sur les commentaires sur les cartes, les objectifs ou les itérations, reportez-vous également aux articles suivants :
+L’ajout de commentaires à d’autres objets est similaire à la mise à jour de projets, de tâches et de problèmes. Pour plus d’informations sur les commentaires sur les cartes et les objectifs, consultez également les articles suivants :
 
 * [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   Vous devez disposer d’une licence supplémentaire pour accéder aux Objectifs Workfront.
 
 * [Ajouter une carte ad hoc à un panorama](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [Gestion des commentaires d’itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## Conditions d’accès
 

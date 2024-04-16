@@ -7,10 +7,10 @@ description: La section Mises à jour d’un objet affiche les commentaires des 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 77%
+source-wordcount: '974'
+ht-degree: 78%
 
 ---
 
@@ -147,12 +147,10 @@ Depending on what objects you access the commenting experience for, you might fi
    * Tâche de modèle
 
 * Les objets suivants n’ont pas d’onglet Activité système ou Tous et l’expérience dans l’onglet Commentaires diffère de celle de tous les autres objets :
+   * Itérations
    * Carte ad hoc
 
      Pour plus d’informations sur les mises à jour des cartes, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-   * Itérations
-
-     Pour plus d’informations sur les mises à jour des itérations, voir [Gestion des commentaires d’itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 * Les objets suivants n’ont pas de panneau Tous et l’expérience de l’onglet Commentaires correspond à celle de la plupart des objets :
 

@@ -6,10 +6,10 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 82%
+source-wordcount: '997'
+ht-degree: 85%
 
 ---
 
@@ -88,13 +88,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Vous pouvez baliser d’autres utilisateurs sur les mises à jour de la manière suivante :
 
 * **Automatiquement**: lorsqu’un utilisateur lance un thread, ajoute un commentaire ou ajoute une réponse, il est automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire.
-
-  >[!TIP]
-  >
-  >   Le balisage automatique des utilisateurs n’est pas possible lorsque vous ajoutez un commentaire à une itération.  Pour plus d’informations, voir [Gestion des commentaires d’itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
-  >Le balisage automatique des utilisateurs n’est pas possible lorsque vous ajoutez un commentaire à partir d’autres applications.
-
-
 * **Manuellement** : lorsque vous ajoutez manuellement un utilisateur ou une utilisatrice à la zone Taguer des personnes de la zone de commentaire.
 
 Vous pouvez également supprimer des utilisateurs et utilisatrices balisés par erreur lorsque vous modifiez ou répondez à un commentaire.

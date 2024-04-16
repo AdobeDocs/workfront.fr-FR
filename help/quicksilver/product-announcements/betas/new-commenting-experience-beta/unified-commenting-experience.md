@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: '1092'
+ht-degree: 5%
 
 ---
 
@@ -551,13 +551,13 @@ Voici un calendrier planifié de la publication de la nouvelle expérience de co
 
 * Avec la version du deuxième trimestre 2024 (11 avril 2024) :
 
-  Supprimez l’option permettant de revenir au flux de commentaires hérité et de faire du nouveau flux de commentaires la seule expérience pour tous les objets, à l’exception des itérations.
+  Supprimez l’option permettant de revenir au flux de commentaires hérité et de faire du nouveau flux de commentaires la seule expérience pour tous les objets.
 
 ## Localisation de la nouvelle expérience de commentaire
 
 La nouvelle expérience de commentaire est disponible dans les zones suivantes de Workfront :
 
-* Dans la section Mises à jour de tous les objets, à l’exception des itérations .
+* Dans la section Mises à jour de tous les objets.
 
   Pour plus d’informations sur l’accès à la section Mises à jour des objets Workfront, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
