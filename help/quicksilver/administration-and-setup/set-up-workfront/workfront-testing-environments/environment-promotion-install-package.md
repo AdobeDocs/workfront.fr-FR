@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
+source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -29,20 +29,27 @@ ht-degree: 0%
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionner **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
 1. Sélectionnez le package dans la liste affichée.
-1. Pour installer le package, cliquez sur **Installer** dans le coin supérieur droit de l’écran.
-1. Mappez chaque objet du package à l’objet correspondant dans l’environnement cible.
+1. Pour chaque objet ayant une collision, sélectionnez la manière de résoudre la collision.
 
-   Pour plus d’informations, voir [Mappage](#mapping) dans cet article
+   Pour résoudre une collision, cliquez sur la flèche de liste déroulante en regard du type d’objet, puis sélectionnez l’action à effectuer.
 
+   Pour plus d’informations, voir [Collisions](#collisions) dans cet article
+1. Pour déployer le package dans le nouvel environnement, cliquez sur **Déployer** dans le coin supérieur droit de l’écran.
 
-## Mappage
+## Collisions
 
-Chaque type d’objet est répertorié dans le volet de navigation de gauche et sur une carte. La carte affiche les objets de ce type et indique s’ils existent dans l’environnement cible. Vous pouvez déterminer comment ces objets seront déplacés vers l’environnement cible.
+Des collisions se produisent lorsqu’un objet faisant partie du package d’installation existe déjà dans l’environnement cible. Lorsque cela se produit, vous pouvez choisir comment résoudre la collision. Les collisions sont résolues au niveau de l’objet.
 
-* Créer : créez un objet dans l&#39;environnement cible. Si l’objet existe dans l’environnement cible, vous pouvez créer un objet portant un nouveau nom. S’il n’existe pas dans l’environnement cible, vous pouvez créer l’objet avec un nouveau nom ou avec le nom de l’objet dans le package.
-* Utiliser existant : l’objet du package n’est pas installé, et l’objet qui existait déjà dans l’environnement cible est inchangé.
-* Remplacer existant : (actuellement indisponible) l’objet du package remplace l’objet existant dans l’environnement cible.
-* Ne pas utiliser : l’objet du package n’est pas installé dans l’environnement cible. Si vous sélectionnez Ne pas utiliser, un message d’erreur s’affiche, détaillant l’impact de ce choix sur d’autres objets ou champs.
+Vous pouvez afficher les collisions en cliquant sur la liste déroulante en regard de chaque type d’objet. Les colonnes s&#39;affichent dans la colonne Collision .
+
+Pour résoudre une collision, sélectionnez une action dans la colonne Action de déploiement ou utilisez l’action par défaut qui est déjà affichée.
+
+* **Créer avec un nouveau nom**: créez un objet dans l’environnement cible. Si l’objet existe dans l’environnement cible, vous pouvez créer un objet portant un nouveau nom. S’il n’existe pas dans l’environnement cible, vous pouvez créer l’objet avec un nouveau nom ou avec le nom de l’objet dans le package.
+* **Utiliser existant**: l’objet du package n’est pas installé et l’objet qui existait déjà dans l’environnement cible est inchangé.
+* **Remplacer**: l’objet du package remplace l’objet existant dans l’environnement cible.
+<!--
+* Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
+-->
 
 Les valeurs par défaut sont `Create new` si l’objet n’existe pas dans l’environnement cible, et `Use existing` si l’objet existe dans l’environnement cible. Vous pouvez rétablir le mappage par défaut en cliquant sur **Réinitialiser le mappage par défaut**.
 
