@@ -1,22 +1,21 @@
 ---
-title: Améliorations du projet au deuxième trimestre 2024
-description: Améliorations du projet au deuxième trimestre 2024
+title: Améliorations du projet au troisième trimestre 2024
+description: Améliorations du projet au troisième trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
 source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 22%
+ht-degree: 15%
 
 ---
 
-# Améliorations du projet au deuxième trimestre 2024
+# Améliorations du projet au troisième trimestre 2024
 
-Cette page décrit toutes les améliorations de projet apportées à la version du deuxième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
+Cette page décrit toutes les améliorations de projet apportées à la version du troisième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2024, consultez l’article [Vue d’ensemble de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## Affectations plus pertinentes ajoutées au workflow Nouvelle tâche

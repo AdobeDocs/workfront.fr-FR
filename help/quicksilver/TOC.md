@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 77fa441ab01407142efa4ac3afe9f8f35406023c
 workflow-type: tm+mt
-source-wordcount: '14149'
+source-wordcount: '14158'
 ht-degree: 98%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 98%
       * [Se préparer aux versions trimestrielles d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Version du troisième trimestre 2024 {#release-24-q3}
          * [Présentation de la version 2024 du troisième trimestre](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [Améliorations du projet 2024 Q3](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [Mises à jour de l’apparence pendant la période de publication du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * Version du 2e trimestre 2024 {#release-24-q2}
          * [Vue d’ensemble de la version du 2e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
@@ -1121,6 +1122,7 @@ ht-degree: 98%
       * [Vérifier les limites de stockage des documents](documents/managing-documents/check-document-storage.md)
       * [Supprimer documents](documents/managing-documents/delete-documents.md)
       * [Coller des images à partir du presse-papiers](documents/managing-documents/paste-image-clipboard.md)
+      * [AddBuilder dans les détails du document Workfront](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Organiser les documents {#organize-documents}
       * [Organiser les documents](documents/organizing-documents/organize-documents.md)
       * [Créer des dossiers de documents](documents/organizing-documents/create-documents-folder.md)
