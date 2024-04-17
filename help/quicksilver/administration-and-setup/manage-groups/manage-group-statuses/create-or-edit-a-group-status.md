@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Création ou modification d’un état de groupe
+title: Créer ou modifier un statut de groupe
 description: En tant qu’administrateur de groupe, vous pouvez créer des états personnalisés pour un groupe que vous gérez. Cela permet d’éliminer le besoin de dizaines d’états personnalisés à l’échelle de l’entreprise et d’accroître l’autonomie de vos hiérarchies de groupe.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Création ou modification d’un état de groupe
+# Créer ou modifier un statut de groupe
 
 En tant qu’administrateur de groupe, vous pouvez créer des états personnalisés pour un groupe que vous gérez. Cela permet d’éliminer le besoin de dizaines d’états personnalisés à l’échelle de l’entreprise et d’accroître l’autonomie de vos hiérarchies de groupe.
 
@@ -29,7 +29,7 @@ S’il existe des groupes au-dessus de votre groupe, leurs administrateurs peuve
 
 Pour obtenir des informations générales sur les états, voir [Présentation des états](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -39,10 +39,10 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">Formule Workfront*</td> 
-   <td>Quelconque</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> <p>Vous devez être un administrateur de groupe du groupe ou un administrateur Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -172,3 +172,4 @@ Si vous êtes administrateur de groupe (ou administrateur Workfront), vous pouve
    L’état est grisé et n’est plus visible pour tous les utilisateurs de ce groupe.
 
 1. Répétez les étapes 3 à 5 pour masquer l’état personnalisé de tous les autres groupes qui n’en ont pas besoin.
+
