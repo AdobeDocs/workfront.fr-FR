@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 0%
+source-wordcount: '436'
+ht-degree: 6%
 
 ---
 
@@ -37,9 +37,9 @@ Les champs de formule génèrent une nouvelle valeur en utilisant les valeurs ex
 
 Pour plus d’informations, voir [Créer des champs](../fields/create-fields.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -60,15 +60,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
@@ -103,7 +103,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Une fois enregistré, vous ne pouvez pas modifier le type de champ d&#39;un champ Formule.
 * Vous pouvez mettre à jour le calcul d&#39;un champ de formule après son enregistrement, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
 * Vous devez ajouter les champs que vous référencez dans les formules comme ils s’affichent dans l’interface de planification de Workfront.
-* L’utilisation des champs de recherche des types d’enregistrement liés dans une formule sera disponible ultérieurement.
 
 ## Formules prises en charge
 

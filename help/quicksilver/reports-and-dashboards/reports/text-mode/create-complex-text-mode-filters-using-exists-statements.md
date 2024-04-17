@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Création de filtres de mode de texte complexes à l’aide d’instructions EXISTS
+title: Créer des filtres en mode texte complexes à l’aide des instructions EXISTS
 description: Vous pouvez créer des filtres de mode Texte complexes à l’aide d’instructions EXISTS. Cet article nécessite une compréhension approfondie de l’API Adobe Workfront et de l’interface de création de rapports en mode texte.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
 source-wordcount: '2649'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Création de filtres de mode de texte complexes à l’aide d’instructions EXISTS
+# Créer des filtres en mode texte complexes à l’aide des instructions EXISTS
 
 <!-- Audited: 01/2024 -->
 
@@ -88,26 +88,26 @@ Tenez compte des règles suivantes lors de l’utilisation d’instructions EXIS
 
 * Le seul modificateur pris en charge pour une instruction EXISTS est NOTEXISTS.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>Ou</p>
        <p>Actuel : formule</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour la modification des filtres dans un rapport</p></td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Créez des filtres de mode de texte complexe qui s’étendent sur plusieurs niveaux dans la hiérarchie d’objets.
 
@@ -229,7 +229,9 @@ Pour filtrer les problèmes selon le nom du propriétaire du Portfolio :
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. Collez le code suivant dans le **Définition de règles de filtrage pour votre rapport** zone pour remplacer le code générique ci-dessus :
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '3308'
-ht-degree: 2%
+source-wordcount: '3277'
+ht-degree: 3%
 
 ---
 
@@ -49,9 +49,9 @@ Vous pouvez créer des champs de la manière suivante dans Maestro :
 
 Pour plus d’informations sur les champs Maestro, voir [Présentation des champs](../fields/fields-overview.md)
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -72,20 +72,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Workfront Planning</p>  
 </td>
   </tr>
@@ -377,9 +377,8 @@ Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver
 
    >[!NOTE]
    >
-   > * Vous ne pouvez pas ajouter de champs de type Sélection multiple dans une formule.
-   >
-   > * Vous ne pouvez pas ajouter de champs provenant d&#39;enregistrements liés dans une formule. Cette fonctionnalité sera publiée ultérieurement. Pour plus d’informations sur les nouvelles versions, voir [Activité de mise à jour de la planification Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
+   > Vous ne pouvez pas ajouter de champs de type Sélection multiple dans une formule.
+
 
 
 1. Cliquez sur **Créer**.

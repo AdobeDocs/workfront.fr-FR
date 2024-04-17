@@ -7,10 +7,10 @@ description: La section Mises à jour d’un objet affiche les commentaires des 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 78%
+source-wordcount: '995'
+ht-degree: 76%
 
 ---
 
@@ -129,6 +129,11 @@ Depending on what objects you access the commenting experience for, you might fi
    * **Commentaires** : affiche les commentaires effectués par les utilisateurs et utilisatrices et les réponses à ces commentaires. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
    * **Activité du système** : affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications apportées dans les champs du statut, du nom ou personnalisés sont capturées avec des mises à jour système. Votre administrateur ou administratrice Workfront ou de groupes peut activer les mises à jour système pour vos objets. Toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système . Pour plus d’informations, consultez [Configurer les mises à jour système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * **Tous (lecture seule)** : affiche les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni identifier d’autres personnes dans les commentaires existants de l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien dans l’onglet Tous vers l’onglet Commentaires. Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+
+     >[!NOTE]
+     >
+     >Les onglets Commentaires et Activité système sont mis à jour en temps réel. Vous devez actualiser l’onglet Tous pour afficher les mises à jour les plus récentes.
+
 
 * Les objets suivants présentent des expériences similaires dans les trois onglets de la section Mises à jour :
 
