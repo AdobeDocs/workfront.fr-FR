@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 77fa441ab01407142efa4ac3afe9f8f35406023c
+source-git-commit: 52cc4748daaadb78318f9dfd10ab27e22a0cd753
 workflow-type: tm+mt
-source-wordcount: '14158'
+source-wordcount: '14162'
 ht-degree: 98%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 98%
       * [Se préparer aux versions trimestrielles d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Version du troisième trimestre 2024 {#release-24-q3}
          * [Présentation de la version 2024 du troisième trimestre](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [Améliorations de l’administrateur du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
          * [Améliorations du projet 2024 Q3](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [Mises à jour de l’apparence pendant la période de publication du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * Version du 2e trimestre 2024 {#release-24-q2}
