@@ -1,5 +1,5 @@
 ---
-title: Concevoir un formulaire avec le concepteur de formulaires
+title: Concevoir un formulaire avec le créateur de formulaires
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,18 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d0bbb51b3f12c7f134e045d9b62814c0ed0ffb73
 workflow-type: tm+mt
-source-wordcount: '6018'
-ht-degree: 4%
+source-wordcount: '6042'
+ht-degree: 7%
 
 ---
 
-# Concevoir un formulaire avec le concepteur de formulaires
+# Concevoir un formulaire avec le créateur de formulaires
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données sur ces objets.
 
-## Exigences d’accès
+## Conditions d’accès
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -28,24 +28,24 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Quelconque</td> 
+   <td role="rowheader"> <p>Forfait Adobe Workfront</p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
    <p>Nouveau : Standard</p>
    <p>ou</p>
    <p>Actuel : formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Commencer à concevoir un formulaire personnalisé
 
@@ -529,9 +529,9 @@ Pour des exemples d’utilisation du champ Recherche externe pour appeler la mê
 
 >[!NOTE]
 >
->La fonctionnalité de recherche externe n’est pas disponible sur les objets Document ou Utilisateur.
->
->Les champs de recherche externes des formulaires personnalisés ne sont actuellement pas pris en charge dans les tableaux de bord. Vous ne pouvez pas modifier la valeur du champ en ligne et elle peut ne pas s’afficher correctement dans un tableau de bord.
+>* La fonctionnalité de recherche externe n’est pas disponible sur les objets Document ou Utilisateur.
+>* Les champs de recherche externes des formulaires personnalisés ne sont actuellement pas pris en charge dans les tableaux de bord. Vous ne pouvez pas modifier la valeur du champ en ligne et elle peut ne pas s’afficher correctement dans un tableau de bord. (Les champs de recherche externes sont pris en charge dans les tableaux de bord de la zone de travail.)
+>* Les champs de recherche externes sont disponibles dans les listes, sauf si le champ dépend d’un autre champ.
 
 Pour ajouter une recherche externe :
 
@@ -878,6 +878,6 @@ Pour ajouter un fichier Adobe XD :
 
    Cliquez sur **Enregistrer et fermer**.
 
-## Organisation et prévisualisation d’un formulaire avec le concepteur de formulaires
+## Organiser et prévisualiser un formulaire avec le créateur de formulaires
 
 Pour plus d’informations sur l’organisation et l’affichage d’un aperçu de votre formulaire, voir [Organisation et prévisualisation d’un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
