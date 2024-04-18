@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ Ces statuts sont les suivants :
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>UNASSEMBLÉ</td> 
+   <td><p>Ce statut est automatiquement attribué et représente un package qui a été enregistré mais pas encore assemblé. </p><p>Cet état ne peut pas être défini directement par un client.</p></td> 
+  </tr> 
   <tr> 
    <td>ASSEMBLAGE</td> 
    <td><p>Cet état est automatiquement attribué lors de l’assemblage des objets. </p><p>L’assemblage fait référence au processus automatisé d’identification des objets et des sous-objets à inclure dans un package et d’ajout de ces objets et de leurs données au package.</p><p>Cet état ne peut pas être défini directement par un client.</p></td> 

@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
+source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## Collisions
 
-Des collisions se produisent lorsqu’un objet faisant partie du package d’installation existe déjà dans l’environnement cible. Lorsque cela se produit, vous pouvez choisir comment résoudre la collision. Les collisions sont résolues au niveau de l’objet.
+Des collisions se produisent lorsqu’un objet faisant partie du package d’installation porte le même nom qu’un objet existant dans l’environnement cible. Lorsque cela se produit, vous pouvez choisir comment résoudre la collision. Les collisions sont résolues au niveau de l’objet.
 
 Vous pouvez afficher les collisions en cliquant sur la liste déroulante en regard de chaque type d’objet. Les colonnes s&#39;affichent dans la colonne Collision .
 
@@ -47,23 +47,31 @@ Pour résoudre une collision, sélectionnez une action dans la colonne Action de
 * **Créer avec un nouveau nom**: créez un objet dans l’environnement cible. Si l’objet existe dans l’environnement cible, vous pouvez créer un objet portant un nouveau nom. S’il n’existe pas dans l’environnement cible, vous pouvez créer l’objet avec un nouveau nom ou avec le nom de l’objet dans le package.
 * **Utiliser existant**: l’objet du package n’est pas installé et l’objet qui existait déjà dans l’environnement cible est inchangé.
 * **Remplacer**: l’objet du package remplace l’objet existant dans l’environnement cible.
+
+  Vous pouvez également choisir des objets à remplacer même si une collision n’est pas détectée.
+
+  Pour plus d’informations sur l’impact du remplacement sur les objets parents et enfants, voir
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
 Les valeurs par défaut sont `Create new` si l’objet n’existe pas dans l’environnement cible, et `Use existing` si l’objet existe dans l’environnement cible. Vous pouvez rétablir le mappage par défaut en cliquant sur **Réinitialiser le mappage par défaut**.
 
+## Remplacement des objets parents et enfants
 
+Certains objets de votre package de promotion peuvent comporter des objets enfants. Par exemple, un projet (parent) comporte des tâches (enfants). Lors du remplacement d’un objet parent, les objets enfants sont traités comme suit :
 
-<!--
-## Collisions
+* Les objets enfants présents dans le package et la cible sont mis à jour dans la cible pour correspondre au package.
+* Les objets enfants qui existent dans le package mais pas dans la cible seront créés.
+* Les objets enfants qui existent dans la cible, mais pas dans le package, restent inchangés.
 
-A collision occurs when <!--???--.
+Cette fonctionnalité affecte les objets parents et enfants suivants :
 
-In Workfront, a potential collision is marked with a blue dot. You can select 
+| Objet parent | Objets enfant |
+|---|---|
+| Projet | Tâche<br>QueueDef (définition de file d’attente)<br>RoutingRule |
+| Modèle | TemplateTask<br>QueueDef (définition de file d’attente)<br>RoutingRule |
+| Paramètre (champ de formulaire personnalisé) | ParameterOption (option de champ de formulaire personnalisé) |
+| CalendarInfo | Section du calendrier |
+| QueueDef (définition de file d’attente) | QueueTopicGroup<br>QueueTopic |
 
-You can select whether to show all package contents, or collisions only.
-
-## Comparison tool
-
--->
