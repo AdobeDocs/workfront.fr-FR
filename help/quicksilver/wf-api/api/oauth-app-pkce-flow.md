@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,12 @@ Avant de pouvoir implémenter l’autorisation, vous devez enregistrer votre app
 
 Pour plus d’informations sur la création de l’application OAuth2, voir [Créer une application web OAuth2 mono-page à l’aide de PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
+>[!NOTE]
+>
+>Vous pouvez avoir jusqu’à dix applications OAuth2 à la fois.
 
-## Création de la clé de bon à tirer pour l’échange de code
+
+## Création de la clé de bon à tirer pour l’Exchange de code
 
 Tout comme le flux de code d’autorisation standard, votre application commence par rediriger le navigateur de l’utilisateur vers votre serveur d’autorisation. `/authorize` point de terminaison . Cependant, dans ce cas, vous devez également relever un défi en matière de code.
 
@@ -82,7 +86,7 @@ Le code de générateur PKCE crée une sortie similaire à ce qui suit :
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >```
 >{
@@ -99,7 +103,7 @@ Si vous utilisez le serveur d’autorisation personnalisé par défaut, l’URL 
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >
 >```
@@ -122,13 +126,13 @@ Notez les paramètres transmis :
 * `code_challenge` est le défi de code utilisé pour PKCE.
 
 
-## Échange du code des jetons
+## Exchange du code des jetons
 
-Pour échanger le code d’autorisation contre un jeton d’accès, transmettez-le à votre serveur d’autorisation. `/token` le point de terminaison avec la variable `code_verifier`.
+Pour exchange du code d’autorisation d’un jeton d’accès, transmettez-le à votre serveur d’autorisation. `/token` le point de terminaison avec la variable `code_verifier`.
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >```
 >/token \\
@@ -150,7 +154,7 @@ Notez les paramètres transmis :
 
 * `code` est le code d’autorisation que vous avez reçu du point de terminaison /authorized .
 
-* `code_verifier` est le vérificateur de code PKCE que votre application a généré dans [Création de la clé de bon à tirer pour l’échange de code](#Create).
+* `code_verifier` est le vérificateur de code PKCE que votre application a généré dans [Création de la clé de bon à tirer pour l’Exchange de code](#Create).
 
 * `client_id` identifie votre client et doit correspondre à la valeur pré-enregistrée dans OAuth2.
 
@@ -159,7 +163,7 @@ Si le code est toujours valide et que le vérificateur de code correspond, votre
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >```
 >{
@@ -177,7 +181,7 @@ Vous pouvez valider votre jeton d’accès avec un appel API similaire à ce qui
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >```
 >/attask/api/<api version>/proj/search \\
@@ -190,7 +194,7 @@ Pour demander un jeton d’actualisation, vous pouvez effectuer un appel POST à
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >```
 >/token \\

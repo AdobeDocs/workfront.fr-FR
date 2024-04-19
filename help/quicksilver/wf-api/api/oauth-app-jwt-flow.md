@@ -7,14 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 0%
+source-wordcount: '497'
+ht-degree: 2%
 
 ---
 
-# Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux JWT
+# Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT
 
 Pour intégrer Workfront et permettre à votre application cliente de communiquer avec Workfront au nom de l’utilisateur, vous devez :
 
@@ -25,6 +25,10 @@ Pour intégrer Workfront et permettre à votre application cliente de communique
 ## Création d’une application OAuth2
 
 Pour plus d’informations sur la création de l’application OAuth2, voir [Créer une application OAuth2 à l’aide de l’authentification du serveur (flux JWT)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>Vous pouvez avoir jusqu’à dix applications OAuth2 à la fois.
 
 ## Création d’un certificat de clé publique
 
@@ -55,20 +59,20 @@ Le tableau suivant contient des informations sur les champs qui peuvent être re
  <tbody> 
   <tr> 
    <td role="rowheader">exp</td> 
-   <td> <p>Requis. Le paramètre d’expiration est un paramètre obligatoire qui mesure le temps absolu depuis 01/01/1970 GMT. Vous devez vous assurer que l’heure d’expiration est postérieure à l’heure du problème. Après cette période, le JWT n’est plus valide. </p> <p>Remarque : Nous vous recommandons d’avoir un jeton de durée de vie très courte (quelques minutes) afin qu’il expire peu après avoir été échangé contre un jeton d’accès. Chaque fois qu’un nouveau jeton d’accès est requis, un jeton JWT est signé et échangé. Il s’agit d’une approche plus sûre. Nous ne recommandons pas les jetons de longue durée qui sont réutilisés pour obtenir des jetons d’accès si nécessaire.</p> </td> 
+   <td> <p>Obligatoire. Le paramètre d’expiration est un paramètre obligatoire qui mesure le temps absolu depuis 01/01/1970 GMT. Vous devez vous assurer que l’heure d’expiration est postérieure à l’heure du problème. Après cette période, le JWT n’est plus valide. </p> <p>Remarque : Nous vous recommandons d’avoir un jeton de durée de vie très courte (quelques minutes) afin qu’il expire peu après avoir été échangé contre un jeton d’accès. Chaque fois qu’un nouveau jeton d’accès est requis, un jeton JWT est signé et échangé. Il s’agit d’une approche plus sûre. Nous ne recommandons pas les jetons de longue durée qui sont réutilisés pour obtenir des jetons d’accès si nécessaire.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 
-   <td>Requis. L’émetteur est votre ID de client à partir des détails de l’application OAuth2.</td> 
+   <td>Obligatoire. L’émetteur est votre ID de client à partir des détails de l’application OAuth2.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">sub</td> 
-   <td>Requis. Le sujet est votre ID utilisateur qui a créé la clé publique dans la configuration.</td> 
+   <td>Obligatoire. Le sujet est votre ID utilisateur qui a créé la clé publique dans la configuration.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Échanger le JWT pour récupérer un jeton d’accès
+## Exchange du JWT pour récupérer un jeton d’accès
 
 1. Envoyez une demande de POST à :
 

@@ -7,33 +7,37 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 293b7354e4549e51d78ad1aa75927a21d9044c43
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 0%
+source-wordcount: '709'
+ht-degree: 1%
 
 ---
 
 
-# Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux de code d’autorisation
+# Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux de codes d’autorisation
 
 Pour intégrer Workfront et permettre à votre application cliente de communiquer avec Workfront au nom de l’utilisateur, vous devez :
 
 * Création d’une application OAuth2
 * Configuration de l’application tierce
 * Lien vers la page Autoriser pour vos utilisateurs
-* Configuration du flux du code d’autorisation : les utilisateurs se connectent à l’instance Workfront et acceptent que l’application cliente puisse se connecter à Workfront en leur nom. Par conséquent, vous obtenez un code d’autorisation que vous échangerez avec les jetons d’accès et d’actualisation.
+* Configuration du flux du code d’autorisation : les utilisateurs se connectent à l’instance Workfront et acceptent que l’application cliente puisse se connecter à Workfront en leur nom. Par conséquent, vous obtenez un code d’autorisation que vous allez exchange avec les jetons d’accès et d’actualisation.
 * Configurer Actualiser le flux de jeton : dans ce flux, vous utilisez le jeton d’actualisation pour obtenir un nouveau jeton d’accès lorsque l’ancien a expiré.
 
 ## Création d’une application OAuth2
 
 Pour plus d’informations sur la création de l’application OAuth2, voir [Création d’une application OAuth2 à l’aide des informations d’identification de l’utilisateur (flux de code d’autorisation)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
+>[!NOTE]
+>
+>Vous pouvez avoir jusqu’à dix applications OAuth2 à la fois.
+
 ## Lien vers la page Autoriser pour vos utilisateurs
 
 Vos utilisateurs doivent se connecter pour autoriser cette intégration dans leur propre compte. La page à autoriser a un format spécifique, décrit ici. Utilisez ces informations pour déterminer l’adresse de la page d’autorisation de l’application et indiquez à vos utilisateurs cette adresse ou un lien vers celle-ci.
 
-* URL complète du domaine de votre organisation. Exemple :
+* URL complète du domaine de votre organisation. Exemple :
 
   ```
   https://myorganization.my.workfront.com
