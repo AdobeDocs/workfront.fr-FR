@@ -4,34 +4,38 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Modules Adobe Journey Optimizer
+title: Modules Adobe Journey Optimizer
 description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Journey Optimizer], ainsi que de la connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
+hide: true
+hidefromtoc: true
+source-git-commit: ec23659dc85b77c61ef5575e3605d0cf396c4e1a
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 0%
+source-wordcount: '30'
+ht-degree: 13%
 
 ---
 
 # [!DNL Adobe Journey Optimizer] Modules
 
+>[!IMPORTANT]
+>
+>Ce connecteur a été abandonné.
+
 <!--
-Becky: pull from main, add to TOCs, then push to merge.
--->
 
-Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Journey Optimizer], ainsi que de la connecter à plusieurs applications et services tiers. [!DNL Adobe Journey Optimizer] Les modules vous permettent de créer, lire, mettre à jour ou supprimer des enregistrements, ou d’effectuer un appel API personnalisé à la fonction [!DNL Adobe Journey Optimizer] API.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. [!DNL Adobe Journey Optimizer] modules allow you to create, read, update, or delete records, or perform a custom API call to the [!DNL Adobe Journey Optimizer] API.
 
 
-Si vous avez besoin d’instructions sur la création d’un scénario, voir [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## Exigences d’accès
+## Access requirements
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+You must have the following access to use the functionality in this article:
 
 <table>
   <col/>
@@ -40,7 +44,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
       <td>
-        <p>[!UICONTROL Pro] ou version ultérieure</p>
+        <p>[!UICONTROL Pro] or higher</p>
       </td>
     </tr>
     <tr>
@@ -52,40 +56,40 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
-   <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
     </tr>
     <tr>
-      <td role="rowheader">Produit</td>
+      <td role="rowheader">Product</td>
       <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
-   <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Conditions préalables
+## Prerequisites
 
-Avant d’utiliser la variable [!DNL Adobe Journey Optimizer] , vous devez vous assurer que les conditions préalables suivantes sont remplies :
+Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure that the following prerequisites are met:
 
-* Vous devez disposer d’un [!DNL Adobe Journey Optimizer] compte .
+* You must have an active [!DNL Adobe Journey Optimizer] account.
 
-## Créer une connexion à [!DNL Adobe Journey Optimizer]
+## Create a connection to [!DNL Adobe Journey Optimizer]
 
-Pour créer une connexion pour votre [!DNL Adobe Journey Optimizer] modules :
+To create a connection for your [!DNL Adobe Journey Optimizer] modules:
 
-1. Dans n’importe quel [!DNL Adobe Journey Optimizer] module, cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion .
+1. In any [!DNL Adobe Journey Optimizer] module, click **[!UICONTROL Add]** next to the Connection box.
 
-1. Renseignez les champs suivants :
+1. Fill in the following fields:
 
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -94,82 +98,82 @@ Pour créer une connexion pour votre [!DNL Adobe Journey Optimizer] modules :
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[!UICONTROL Nom de la connexion]</td>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
           <td>
-            <p>Saisissez un nom pour cette connexion.</p>
+            <p>Enter a name for this connection.</p>
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL ID client]</td>
-          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID client]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].</td>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Saisissez votre [!DNL Adobe] [!UICONTROL Client Secret]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL ID du compte technique]</td>
-          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID du compte technique]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].
+          <td role="rowheader">[!UICONTROL Technical account ID]</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Technical account ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL ID d’organisation]</td>
-          <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID d’organisation]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].
+          <td role="rowheader">[!UICONTROL Organization ID]</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL Meta-scopes]</td>
+          <td role="rowheader">[!UICONTROL Meta scopes]</td>
           <td>
-            Saisissez les portées de métadonnées nécessaires à la connexion.
+            Enter any meta scopes needed for the connection.
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL Clé privée]</td>
+          <td role="rowheader">[!UICONTROL Private key]</td>
           <td>
-            <p>Saisissez la clé privée générée lors de la création de vos informations d’identification dans la variable [!DNL Adobe Developer Console]. </p>
-            <p>Pour extraire votre clé privée ou votre certificat :</p>
+            <p>Enter the private key that was generated when your credentials were created in the [!DNL Adobe Developer Console]. </p>
+            <p>To extract your private key or certificate:</p>
             <ol>
               <li value="1">
-                <p>Cliquez sur <b>[!UICONTROL Extraction]</b>.</p>
+                <p>Click <b>[!UICONTROL Extract]</b>.</p>
               </li>
               <li value="2">
-                <p>Sélectionnez le type de fichier que vous extrayez.</p>
+                <p>Select the type of file you are extracting.</p>
               </li>
               <li value="3">
-                <p>Sélectionnez le fichier contenant la clé privée ou le certificat.</p>
+                <p>Select the file that contains the private key or certificate.</p>
               </li>
               <li value="4">
-                <p>Saisissez le mot de passe du fichier.</p>
+                <p>Enter the password for the file.</p>
               </li>
               <li value="5">
-                <p>Cliquez sur <b>[!UICONTROL Enregistrer]</b> pour extraire le fichier et revenir à la configuration de la connexion.</p>
+                <p>Click <b>[!UICONTROL Save]</b> to extract the file and return to the connection setup.</p>
               </li>
             </ol>
           </td>
         </tr>
       </tbody>
     </table>
-1. Cliquez sur **[!UICONTROL Continuer]** pour enregistrer la connexion et revenir au module.
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
-## [!DNL Adobe Journey Optimizer] modules et leurs champs
+## [!DNL Adobe Journey Optimizer] modules and their fields
 
-Lorsque vous configurez [!DNL Adobe Journey Optimizer] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Adobe Journey Optimizer] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+When you configure [!DNL Adobe Journey Optimizer] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Journey Optimizer] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 * [Actions](#actions)
-* [Recherches](#searches)
+* [Searches](#searches)
 
 ### Actions
 
-* [[!UICONTROL Création d’un enregistrement]](#create-a-record)
-* [[!UICONTROL Effectuer un appel API personnalisé]](#make-a-custom-api-call)
-* [[!UICONTROL Suppression d’un enregistrement]](#delete-a-record)
-* [[!UICONTROL Mettre à jour un enregistrement]](#update-a-record)
+* [[!UICONTROL Create a record]](#create-a-record)
+* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
+* [[!UICONTROL Delete a record]](#delete-a-record)
+* [[!UICONTROL Update a record]](#update-a-record)
 
-#### [!UICONTROL Création d’un enregistrement]
+#### [!UICONTROL Create a record]
 
-Ce module d’action crée un emplacement, une règle de décision, une balise, une offre personnalisée, une collection ou une offre de secours.
+This action module creates a placement, decision rule, tag, personalized offer, collection, or fallback offer.
 
 <table>
   <col/>
@@ -177,22 +181,22 @@ Ce module d’action crée un emplacement, une règle de décision, une balise, 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Journey Optimizer], voir <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Créer une connexion à [!DNL Adobe Journey Optimizer]</a> dans cet article.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [!UICONTROL Type d’enregistrement]
+        [!UICONTROL Record type]
       </td>
       <td>
-        Sélectionnez le type d’enregistrement que vous souhaitez créer.
+        Select the type of record that you want to create
         <ul>
-        <li><b>[!UICONTROL Placement]</b>: continuez à <a href="#placement-fields" >Champs [!UICONTROL Placement]</a>.</li>
-        <li><b>[!UICONTROL Règle de décision]</b>: continuez à <a href="#decision-rule-fields" >Champs de règle de décision [!UICONTROL]</a>.</li>
-        <li><b>[!UICONTROL Decision]</b>: continuez à <a href="#decision-fields" >Champs [!UICONTROL Decision]</a>.</li>
-        <li><b>[!UICONTROL Tag]</b>: continuez à <a href="#tag-fields" >Champs [!UICONTROL Tag]</a>.</li>
-        <li><b>[!UICONTROL Collection]</b>: continuez à <a href="#collection-fields" >Champs [!UICONTROL Collection]</a>.</li>
-        <li><b>[!UICONTROL Offre de secours]</b>: continuez à <a href="#fallback-offer-fields" >Champs d’[!UICONTROL Offre de secours]</a>.</li>
-        <li><b>[!UICONTROL Offre personnalisée]</b>: continuez à <a href="#personalized-offer-fields" >Champs d’[!UICONTROL Offre personnalisée]</a>.</li>
+        <li><b>[!UICONTROL Placement]</b>: Continue to <a href="#placement-fields" >[!UICONTROL Placement] fields</a>.</li>
+        <li><b>[!UICONTROL Decision rule]</b>: Continue to <a href="#decision-rule-fields" >[!UICONTROL Decision rule] fields</a>.</li>
+        <li><b>[!UICONTROL Decision]</b>: Continue to <a href="#decision-fields" >[!UICONTROL Decision] fields</a>.</li>
+        <li><b>[!UICONTROL Tag]</b>: Continue to <a href="#tag-fields" >[!UICONTROL Tag] fields</a>.</li>
+        <li><b>[!UICONTROL Collection]</b>: Continue to <a href="#collection-fields" >[!UICONTROL Collection] fields</a>.</li>
+        <li><b>[!UICONTROL Fallback offer]</b>: Continue to <a href="#fallback-offer-fields" >[!UICONTROL Fallback offer] fields</a>.</li>
+        <li><b>[!UICONTROL Personalized offer]</b>: Continue to <a href="#personalized-offer-fields" >[!UICONTROL Personalized offer] fields</a>.</li>
         </ul>
       </td>
     </tr>
@@ -207,20 +211,20 @@ Ce module d’action crée un emplacement, une règle de décision, une balise, 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Saisissez ou mappez un nom pour l’emplacement.</td>
+     <td>Enter or map a name for the placement.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Description]
       </td>
-      <td>Saisissez ou mappez une description de l’emplacement.
+      <td>Enter or map a description for the placement.
       </td>
     </tr>
   </tbody>
 </table>
 
 
-##### [!UICONTROL Règle de décision] fields
+##### [!UICONTROL Decision rule] fields
 
 <table>
   <col/>
@@ -228,26 +232,26 @@ Ce module d’action crée un emplacement, une règle de décision, une balise, 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Saisissez ou mappez un nom pour la règle de description.</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Description]
       </td>
-      <td>Saisissez ou mappez une description pour la règle de décision.
+      <td>Enter or map a description for the decision rule.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Condition]
       </td>
-      <td>Saisissez ou mappez la condition dans la règle de décision.
+      <td>Enter or map the condition the decision rule.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Décision] fields
+##### [!UICONTROL Decision] fields
 
 <table>
   <col/>
@@ -255,42 +259,42 @@ Ce module d’action crée un emplacement, une règle de décision, une balise, 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Saisissez ou mappez un nom pour la règle de description.</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Status]</td>
-      <td>Sélectionnez l’état de la décision.
+      <td>Select the status for the decision.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Date de début]</td>
-      <td><p>Saisissez ou mappez la date de début de la décision.</p><p>Pour obtenir la liste des formats de date pris en charge, voir <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type de contrainte dans [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td role="rowheader">[!UICONTROL Start date]</td>
+      <td><p>Enter or map the start date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[!UICONTROL Date de fin]</td>
-      <td><p>Saisissez ou mappez la date de fin de la décision.</p><p>Pour obtenir la liste des formats de date pris en charge, voir <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type de contrainte dans [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td role="rowheader">[!UICONTROL End date]</td>
+      <td><p>Enter or map the end date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[!UICONTROL Emplacements]</td>
-      <td>Sélectionner les emplacements à ajouter à cette décision
+      <td role="rowheader">[!UICONTROL Placements]</td>
+      <td>Select the placements to add to this decision
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Collection]</td>
-      <td>Sélectionnez la collection d’offres qui contient les offres que cette décision prendra en compte.
+      <td>Select the offer collection that contains the offers that this decision will consider.
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[!UICONTROL Offre de secours]</td>
-      <td>Sélectionnez l’offre de secours qui sera présentée aux clients qui ne correspondent pas aux règles de cette décision.
+      <td role="rowheader">[!UICONTROL Fallback offer]</td>
+      <td>Select the fallback offer that will be presented to customers that do not match the rules for this decision.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Balise] fields
+##### [!UICONTROL Tag] fields
 
 <table>
   <col/>
@@ -298,7 +302,7 @@ Ce module d’action crée un emplacement, une règle de décision, une balise, 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Saisissez ou mappez un nom pour la balise.</td>
+     <td>Enter or map a name for the tag.</td>
     </tr>
   </tbody>
 </table>
@@ -311,11 +315,11 @@ Ce module d’action crée un emplacement, une règle de décision, une balise, 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Saisissez ou mappez un nom pour la collection.</td>
+     <td>Enter or map a name for the collection.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [!UICONTROL Type de filtre]
+        [!UICONTROL Filter Type]
       </td>
       <td>
       </td>
@@ -324,13 +328,13 @@ Ce module d’action crée un emplacement, une règle de décision, une balise, 
       <td role="rowheader">
         [!UICONTROL Elements]
       </td>
-      <td>Sélectionnez les balises à inclure dans la collection.
+      <td>Select the tags to include in the colelction.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Offre de secours] fields
+##### [!UICONTROL Fallback offer] fields
 
 <table>
   <col/>
@@ -338,26 +342,26 @@ Ce module d’action crée un emplacement, une règle de décision, une balise, 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Saisissez ou mappez un nom pour l’offre de secours.</td>
+     <td>Enter or map a name for the fallback offer.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Status]
       </td>
-      <td> Sélectionnez l’état de l’offre de secours.
+      <td> Select the status of the fallback offer.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Placement]
       </td>
-      <td>Saisissez ou mappez l’emplacement de l’offre de secours.
+      <td>Enter or map the placement for the fallback offer.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Offre personnalisée] fields
+##### [!UICONTROL Personalized offer] fields
 
 <table>
   <col/>
@@ -365,49 +369,49 @@ Ce module d’action crée un emplacement, une règle de décision, une balise, 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Saisissez ou mappez un nom pour la règle de description.</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Status]</td>
-      <td>Sélectionnez l’état de la décision.
+      <td>Select the status for the decision.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Emplacement</td>
-      <td>Sélectionnez l'emplacement de l'offre personnalisée.
+      <td role="rowheader">Placement</td>
+      <td>Select the placement for the personalized offer.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Date de début]</td>
-      <td><p>Saisissez ou mappez la date de début de l'offre personnalisée.</p><p>Pour obtenir la liste des formats de date pris en charge, voir <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type de contrainte dans [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td role="rowheader">[!UICONTROL Start date]</td>
+      <td><p>Enter or map the start date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[!UICONTROL Date de fin]</td>
-      <td><p>Saisissez ou mappez la date de fin de l'offre personnalisée.</p><p>Pour obtenir la liste des formats de date pris en charge, voir <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type de contrainte dans [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td role="rowheader">[!UICONTROL End date]</td>
+      <td><p>Enter or map the end date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[!UICONTROL Règles de décision]</td>
-      <td>Sélectionnez les règles de décision à ajouter à cette offre personnalisée.
+      <td role="rowheader">[!UICONTROL Decision rules]</td>
+      <td>Select the decision rules to add to this personalized offer.
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Priority]</td>
-      <td>Sélectionnez la priorité de cette offre. La priorité affecte la présentation de cette offre plutôt que d’une autre.
+      <td>Select the priority of this offer. Priority affects whether this offer will be presented rather than another offer.
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[!UICONTROL Contrainte de limitation]</td>
-      <td>Saisissez ou mappez le nombre de fois où cette offre sera présentée.
+      <td role="rowheader">[!UICONTROL Capping constraint]</td>
+      <td>Enter or map the number of times this offer will be presented.
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Suppression d’un enregistrement]
+#### [!UICONTROL Delete a record]
 
-Ce module d’action supprime un seul enregistrement dans [!DNL Adobe Journey Optimizer].
+This action module deletes a single record in [!DNL Adobe Journey Optimizer].
 
 <table>
   <col/>
@@ -415,39 +419,39 @@ Ce module d’action supprime un seul enregistrement dans [!DNL Adobe Journey Op
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Journey Optimizer], voir <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Créer une connexion à [!DNL Adobe Journey Optimizer]</a> dans cet article.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [!UICONTROL Type d’enregistrement]
+        [!UICONTROL Record type]
       </td>
       <td>
-        Sélectionnez le type d’enregistrement à supprimer.
+        Select the type of record that you want to delete
         <ul>
         <li>[!UICONTROL Placement]</li>
-        <li>[!UICONTROL Règle de décision]</li>
+        <li>[!UICONTROL Decision rule]</li>
         <li>[!UICONTROL Decision]</li>
         <li>[!UICONTROL Tag]</li>
         <li>[!UICONTROL Collection]</li>
-        <li>[!UICONTROL Offre de secours]</li>
-        <li>[!UICONTROL Offre personnalisée]</li>
+        <li>[!UICONTROL Fallback offer]</li>
+        <li>[!UICONTROL Personalized offer]</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Règle de décision]/[!UICONTROL Décision]/[!UICONTROL Balise]/[!UICONTROL Collection]/[!UICONTROL Offre de secours]/[!UICONTROL Offre personnalisée]
+      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        Sélectionnez l’enregistrement à supprimer.
+        Select the record that you want to delete.
       </td>
     </tr>
 
 </tbody>
 </table>
 
-#### [!UICONTROL Effectuer un appel API personnalisé]
+#### [!UICONTROL Make a custom API call]
 
-Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Journey Optimizer] API
+This module makes a custom API call to the [!DNL Adobe Journey Optimizer] API
 
 <table>
   <col/>
@@ -455,55 +459,55 @@ Ce module effectue un appel API personnalisé à la fonction [!DNL Adobe Journey
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Journey Optimizer], voir <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Créer une connexion à [!DNL Adobe Journey Optimizer]</a> dans cet article.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Saisissez un chemin relatif à {baseURL} en commençant par<code>/</code></p>
+        <p>Enter a path relative to {baseURL} starting with<code>/</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>Méthode [!UICONTROL]</p>
+        <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
-        <p>Ajoutez les en-têtes de la requête sous la forme d’un objet JSON standard.</p>
-        <p>Par exemple, <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion ajoute automatiquement des en-têtes d’autorisation et des en-têtes x-api-key.</p>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Query String]  </td>
       <td>
-        <p>Saisissez la chaîne de requête de requête de requête.</p>
+        <p>Enter the request query string.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
      <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Saisissez le nombre maximal de résultats que le module doit renvoyer dans un cycle d’exécution.</p>
+        <p>Enter the maximum number of results that you want the module to return in one execution cycle.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Suppression d’un enregistrement]
+#### [!UICONTROL Delete a Record]
 
-Ce module d’action supprime un seul enregistrement dans [!DNL Adobe Journey Optimizer].
+This action module deletes a single record in [!DNL Adobe Journey Optimizer].
 
 <table>
   <col/>
@@ -511,39 +515,39 @@ Ce module d’action supprime un seul enregistrement dans [!DNL Adobe Journey Op
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Journey Optimizer], voir <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Créer une connexion à [!DNL Adobe Journey Optimizer]</a> dans cet article.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Record Type]
       </td>
       <td>
-        Sélectionnez le type d’enregistrement à supprimer.
+        Select the type of record that you want to delete
         <ul>
         <li>[!UICONTROL Placement]</li>
-        <li>[!UICONTROL Règle de décision]</li>
+        <li>[!UICONTROL Decision rule]</li>
         <li>[!UICONTROL Decision]</li>
         <li>[!UICONTROL Tag]</li>
         <li>[!UICONTROL Collection]</li>
-        <li>[!UICONTROL Offre de secours]</li>
-        <li>[!UICONTROL Offre personnalisée]</li>
+        <li>[!UICONTROL Fallback offer]</li>
+        <li>[!UICONTROL Personalized offer]</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Règle de décision]/[!UICONTROL Décision]/[!UICONTROL Balise]/[!UICONTROL Collection]/[!UICONTROL Offre de secours]/[!UICONTROL Offre personnalisée]
+      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        Sélectionnez l’enregistrement à supprimer.
+        Select the record that you want to delete.
       </td>
     </tr>
 
 </tbody>
 </table>
 
-#### [!UICONTROL Mettre à jour un enregistrement]
+#### [!UICONTROL Update a record]
 
-Ce module d’action crée un emplacement, une décision, une règle de décision, une balise, une offre personnalisée, une collection ou une offre de secours.
+This action module creates a placement, decision, decision rule, tag, personalized offer, collection, or fallback offer.
 
 <table>
   <col/>
@@ -551,42 +555,42 @@ Ce module d’action crée un emplacement, une décision, une règle de décisio
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Journey Optimizer], voir <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Créer une connexion à [!DNL Adobe Journey Optimizer]</a> dans cet article.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [!UICONTROL Type d’enregistrement]
+        [!UICONTROL Record type]
       </td>
       <td>
-        Sélectionnez le type d'enregistrement que vous souhaitez mettre à jour.
+        Select the type of record that you want to update
         <ul>
         <li>[!UICONTROL Placement]</li>
-        <li>[!UICONTROL Règle de décision]</li>
+        <li>[!UICONTROL Decision rule]</li>
         <li>[!UICONTROL Decision]</li>
         <li>[!UICONTROL Tag]</li>
         <li>[!UICONTROL Collection]</li>
-        <li>[!UICONTROL Offre de secours]</li>
-        <li>[!UICONTROL Offre personnalisée]</li>
+        <li>[!UICONTROL Fallback offer]</li>
+        <li>[!UICONTROL Personalized offer]</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Règle de décision]/[!UICONTROL Décision]/[!UICONTROL Balise]/[!UICONTROL Collection]/[!UICONTROL Offre de secours]/[!UICONTROL Offre personnalisée]
+      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        Sélectionnez l'enregistrement que vous souhaitez mettre à jour.
+        Select the record that you want to update.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Fields]
       </td>
-      <td>Pour chaque champ à mettre à jour :
+      <td>For each field that you want to update:
       <ol>
-      <li>Cliquez sur <b>[!UICONTROL Ajouter]</b>.</li>
-      <li>Indiquez si vous souhaitez ajouter, remplacer ou supprimer des valeurs.</li>
-      <li>Saisissez le champ que vous souhaitez mettre à jour.</li>
-      <li>Saisissez la nouvelle valeur pour le champ.</li>
+      <li>Click <b>[!UICONTROL Add]</b>.</li>
+      <li>Select whether you want to add, replace, or remove values.</li>
+      <li>Enter the field that you want to update.</li>
+      <li>Enter the new value for the field.</li>
       </td>
     </tr>
 
@@ -594,11 +598,11 @@ Ce module d’action crée un emplacement, une décision, une règle de décisio
 </table>
 
 
-### Recherches
+### Searches
 
-#### [!UICONTROL Lister des enregistrements]
+#### [!UICONTROL List records]
 
-Ce module de recherche répertorie les enregistrements du type sélectionné, renvoyant des résultats selon les critères que vous avez spécifiés.
+This search module lists records of the selected type, returning results based on criteria you specify.
 
 <table>
   <col/>
@@ -606,47 +610,49 @@ Ce module de recherche répertorie les enregistrements du type sélectionné, re
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Journey Optimizer], voir <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Créer une connexion à [!DNL Adobe Journey Optimizer]</a> dans cet article.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Type d’enregistrement]</p>
+        <p>[!UICONTROL Record type]</p>
       </td>
       <td>
-        <p>Sélectionnez le type d’enregistrement que vous souhaitez répertorier.</p>
+        <p>Select the type of record that you want to list.</p>
         <ul>
         <li>[!UICONTROL Placement]</li>
-        <li>[!UICONTROL Règle de décision]</li>
+        <li>[!UICONTROL Decision rule]</li>
         <li>[!UICONTROL Decision]</li>
         <li>[!UICONTROL Tag]</li>
         <li>[!UICONTROL Collection]</li>
-        <li>[!UICONTROL Offre de secours]</li>
-        <li>[!UICONTROL Offre personnalisée]</li>
+        <li>[!UICONTROL Fallback offer]</li>
+        <li>[!UICONTROL Personalized offer]</li>
        </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Opérateur de requête]</p>
+        <p>[!UICONTROL Query operator]</p>
       </td>
       <td>
-        <p>Sélectionner un opérateur à appliquer aux paramètres de la requête</p>
+        <p>Select an operator to apply to parameters in the query</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Fields]</td>
-      <td><p>Si vous souhaitez limiter la recherche à des champs spécifiques, renseignez les champs. Pour chaque champ auquel vous souhaitez limiter la recherche, cliquez sur [!UICONTROL Ajouter un élément] et saisissez le nom du champ.</p><p>Les expressions de chemin se présentent sous la forme de chemins séparés par des points, tels que <code>_instance.xdm:name</code>.</p>
+      <td><p>If you want to limit the search to specific fields, enter the fields. For each field that you want to limit the search to, click [!UICONTROL Add item] and enter the name of the field.</p><p>Path expressions are in the form of dot separated paths such as <code>_instance.xdm:name</code>.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Ordre par] </td>
-      <td>Saisissez ou mappez la propriété par laquelle vous souhaitez classer les résultats.
+      <td role="rowheader">[!UICONTROL Order by] </td>
+      <td>Enter or map the property by which you want to order results.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Direction de la commande]</td>
-   <td>Indiquez si vous souhaitez classer les résultats par ordre croissant ou décroissant.
+      <td role="rowheader">[!UICONTROL Order direction]</td>
+   <td>Select whether you want to order results by ascending or descending direction.
     </td>
      </tr>
   </tbody>
 </table>
+
+-->
