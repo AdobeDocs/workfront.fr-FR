@@ -6,9 +6,9 @@ description: Un nouveau panorama contient trois colonnes par défaut. Vous pouve
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
+source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1149'
 ht-degree: 2%
 
 ---
@@ -102,6 +102,15 @@ Si vous utilisez la limite de travaux en cours sur une colonne, aucun compteur d
 1. Cliquez sur **[!UICONTROL Masquer la configuration]** pour fermer la [!UICONTROL Configurer] du panneau.
 
 ## Définition des paramètres et des stratégies de colonne
+
+Les stratégies de colonne incluent la mise à jour automatique des valeurs de champ et la définition d’une limite de travail en cours.
+
+La stratégie de mise à jour de l’état fonctionne automatiquement pour la carte et la colonne :
+
+* Lorsqu’une carte est déplacée dans une colonne avec une stratégie, l’état de la carte est mis à jour vers l’état défini dans la stratégie. Cela s’applique aux cartes ad hoc et connectées.
+* Lorsqu’un état de carte ad hoc ou connecté est mis à jour sur la carte pour correspondre à l’état de colonne dans la stratégie ou qu’un état de carte connecté est mis à jour ailleurs dans Workfront, la carte est automatiquement déplacée vers cette colonne. En outre, si un état personnalisé sur une carte correspond à l’état système affecté à la colonne, la carte est déplacée vers cette colonne.
+
+Une carte reste dans une colonne où elle est placée si l’état de la carte ne correspond à aucun état défini dans les stratégies de colonne existantes.
 
 >[!NOTE]
 >
