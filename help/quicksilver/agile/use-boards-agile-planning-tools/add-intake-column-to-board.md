@@ -2,19 +2,19 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Ajout d’une colonne d’ingestion à un panorama
+title: Ajouter une colonne de saisie à un panorama
 description: Vous pouvez éventuellement ajouter une colonne d’entrée à votre panorama qui extrait automatiquement les tâches et les problèmes en tant que cartes connectées lorsqu’elles sont ajoutées dans Workfront, en fonction des filtres que vous définissez.
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 2%
+source-wordcount: '1048'
+ht-degree: 4%
 
 ---
 
-# Ajout d’une colonne d’ingestion à un panorama
+# Ajouter une colonne de saisie à un panorama
 
 Vous pouvez éventuellement ajouter une colonne d’entrée à votre panorama qui extrait automatiquement les tâches et les problèmes en tant que cartes connectées lorsqu’elles sont ajoutées dans [!DNL Workfront], en fonction des filtres que vous définissez. La colonne d’entrée peut servir de colonne de journal pour une équipe Kanban, un emplacement d’entrée pour une équipe d’assistance afin de voir les problèmes lorsqu’ils sont ajoutés à une file d’attente de demandes ou tout autre objectif dont vous avez besoin.
 
@@ -29,16 +29,20 @@ Tâches :
 * Ordre principal : nom du projet
 * Ordre secondaire : structure de répartition du travail
 
-Problèmes:
+Problèmes :
 
 * Ordre principal : nom du projet
 * Ordre secondaire : numéro de référence
 
+>[!IMPORTANT]
+>
+>Il est recommandé d’actualiser fréquemment le panorama si plusieurs utilisateurs y travaillent simultanément. L’actualisation de la page permet de maintenir les modifications visuelles sur le panorama à jour et d’éviter des problèmes tels que les cartes en double qui sont déplacées sur le panorama à partir de la colonne d’ingestion.
+
 Pour plus d’informations sur les colonnes, voir [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Pour plus d’informations sur les cartes connectées, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,11 +51,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!DNL Request] ou supérieur</p> </td> 
   </tr> 
  </tbody> 
@@ -83,7 +87,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Tous les objets apparaissent dans la colonne d’entrée du panorama sous la forme de cartes connectées.
 
-   ![Colonne de saisie](assets/intake-column-added3.png)
+   ![Colonne d’entrée](assets/intake-column-added3.png)
 
 ## Création d’une colonne d’entrée à l’aide de filtres avancés
 
@@ -136,7 +140,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. (Facultatif) Pour inclure les tâches et les problèmes dans la colonne d’ingestion, cliquez sur **[!UICONTROL Filtrage des sources]** et sélectionnez l’autre objet pour créer un autre filtre.
 1. Lorsque vous avez terminé d’ajouter des filtres, passez en revue la colonne d’ingestion pour vérifier que les tâches et problèmes corrects apparaissent.
 
-   ![Colonne de saisie](assets/intake-column-added3.png)
+   ![Colonne d’entrée](assets/intake-column-added3.png)
 
    >[!NOTE]
    >
