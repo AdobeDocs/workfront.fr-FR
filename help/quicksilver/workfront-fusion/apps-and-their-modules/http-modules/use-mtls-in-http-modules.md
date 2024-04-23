@@ -2,17 +2,17 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: Connecteur
 navigation-topic: http-modules
-title: Utilisation de TLS mutuel dans les modules HTTP dans Adobe Workfront Fusion
+title: Utiliser TLS mutuel dans les modules HTTP d’Adobe Workfront Fusion
 description: Vous pouvez utiliser le protocole TLS mutuel dans vos modules HTTP Fusion Adobe Workfront, ce qui permet aux deux côtés de la transaction d’information de vérifier l’identité de l’autre.
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
+source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 0%
+source-wordcount: '665'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ TLS mutuel permet à cette confirmation d’identité de se dérouler dans les d
 
 >[!INFO]
 >
->**Exemple:**
+>**Exemple :**
 >
 >* **TLS**: lorsqu’une personne tape &quot;MyGreatBank.com&quot; dans un navigateur, elle veut s’assurer qu’elle se rend à Ma Grande Banque, et non sur un site web qui risque d’abuser ou de vendre ses informations bancaires. Ils veulent aussi s&#39;assurer que les informations de leur compte bancaire sont cryptées.
 >
@@ -38,26 +38,26 @@ TLS mutuel permet à cette confirmation d’identité de se dérouler dans les d
 >
 >* **TLS mutuel**: MySoftware.com est un client logiciel qui nécessite des informations de l’API MyGreatBank.com. MyGreatBank permet uniquement aux clients de confiance de se connecter à leurs serveurs. Ainsi, en plus du protocole TLS standard qui vérifie l’identité de MyGreatBank.com, le processus d’autorité de certification TLS/certificate vérifie également la demande de MySoftware.com.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -65,9 +65,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -94,7 +94,7 @@ Vous pouvez utiliser les liens suivants pour télécharger les certificats publi
 
 >[!IMPORTANT]
 >
->* Ces [!DNL Workfront Fusion] les certificats publics expirent le 9 juin 2024. Une fois le vôtre arrivé à expiration, vous devrez charger un nouveau certificat vers le service Web. Nous vous recommandons :
+>* Ces [!DNL Workfront Fusion] les certificats publics expirent le 7 mai 2025. Une fois le vôtre arrivé à expiration, vous devrez charger un nouveau certificat vers le service Web. Nous vous recommandons :
 >
 >   * Notez la date d’expiration et définissez un rappel pour que vous puissiez télécharger le certificat vers votre service Web.
 >   * Mettez cette page en signet pour trouver facilement les nouveaux certificats.
