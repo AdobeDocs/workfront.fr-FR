@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '442'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ Vous pouvez créer des champs personnalisés dans la planification Adobe Workfro
 
 Les champs de formule génèrent une nouvelle valeur en utilisant les valeurs existantes d&#39;autres champs d&#39;un type d&#39;enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
-Pour plus d’informations, voir [Créer des champs](../fields/create-fields.md).
+Pour plus d’informations, reportez-vous à la section &quot;Formule&quot; de l’article [Créer des champs](../fields/create-fields.md).
 
 ## Conditions d’accès
 

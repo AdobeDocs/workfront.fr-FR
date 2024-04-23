@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 0%
+source-wordcount: '1296'
+ht-degree: 3%
 
 ---
 
@@ -24,9 +24,9 @@ Les types d’enregistrement peuvent être parmi les suivants :
 
 Pour plus d’informations sur les types d’enregistrement, voir [Présentation des types d’enregistrement](../architecture/overview-of-record-types-and-taxonomies.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -47,13 +47,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
    <p>Actuel : formule</p>
    Ou
@@ -62,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront</p>  
 </td>
   </tr>
@@ -147,15 +147,17 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. Mettez à jour les informations suivantes :
 
-   * **Nom du type d’enregistrement**: remplacez &quot;Untitled Operational Record Type&quot; par le nom de votre type d’enregistrement futur.
-   * **Apparence**: définissez la couleur et la forme de l’icône associée au type d’enregistrement. Procédez comme suit :
+   * Remplacez &quot;Untitled Operational Record Type&quot; par le nom de votre futur type d’enregistrement. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * **Description**: ajoutez des informations supplémentaires sur le type d’enregistrement.
+   * Sélectionnez une couleur et une forme pour l’icône associée au type d’enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône de type d’enregistrement. L’option Gris est sélectionnée par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
-1. Cliquez en dehors du **Ajouter un type d’enregistrement** pour enregistrer le type d’enregistrement.
+1. Cliquez sur **Créer**.
 
    La carte de type enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionné.
 Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la carte.
+1. (Facultatif) Passez la souris sur la carte de type d’enregistrement, puis cliquez sur le bouton **Plus** icon ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier des informations sur le type d’enregistrement.
 1. (Facultatif) Cliquez sur la carte de type enregistrement pour ouvrir la page de type enregistrement.
 
    ![](assets/operational-record-type-blank.png)
@@ -178,7 +180,7 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
 
    Ou
 
-   Cliquez sur le bouton **Plus** icon ![](assets/more-menu.png) à droite du nom du type d&#39;enregistrement et cliquez sur **Renommer** pour le renommer.
+   Cliquez sur le bouton **Plus** icon ![](assets/more-menu.png) à droite du nom du type d&#39;enregistrement et cliquez sur **Modifier** pour le renommer ou modifier les informations le concernant. Pour plus d’informations, voir [Modification des types d’enregistrement](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** pour ajouter des enregistrements du type d’enregistrement sélectionné. Pour plus d’informations, voir [Créer des enregistrements](../records/create-records.md).
 1. (Facultatif) Cliquez sur le **+** dans le coin supérieur droit du tableau pour ajouter d’autres champs au type d’enregistrement.
@@ -194,8 +196,8 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
    Pour plus d’informations sur l’ajout d’enregistrements, la suppression ou la modification de types d’enregistrements, ou la mise à jour de la vue dans la page de type d’enregistrement, voir les articles suivants :
 
    * [Créer des enregistrements](../records/create-records.md)
-   * [Suppression des types d’enregistrement](../architecture/delete-record-types.md)
-   * [Modification des types d’enregistrement](../architecture/edit-record-types.md)
+   * [Supprimer des types d’enregistrements](../architecture/delete-record-types.md)
+   * [Modifier des types d’enregistrements](../architecture/edit-record-types.md)
    * [Gestion des vues d’enregistrement](../views/manage-record-views.md)
 
 1. (Facultatif) Dans l’espace de travail, cliquez sur une carte de type enregistrement et maintenez-la enfoncée pour faire glisser et déposer le type d’enregistrement à un emplacement souhaité, ou pour le déplacer vers une autre section.

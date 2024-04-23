@@ -1,20 +1,20 @@
 ---
-title: Ajout de miniatures aux enregistrements
+title: Ajout d’une miniature à un enregistrement
 description: Vous pouvez modifier les informations d’enregistrement dans Adobe Workfront Planning et associer chaque enregistrement à des miniatures individuelles afin de les rendre facilement reconnaissables.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '545'
+ht-degree: 5%
 
 ---
 
 <!--update the metadata with real information-->
 
-# Ajout de miniatures aux enregistrements
+# Ajout d’une miniature à un enregistrement
 
 {{maestro-important-intro}}
 
@@ -23,11 +23,11 @@ Vous pouvez associer des enregistrements à des miniatures uniques dans Adobe Wo
 Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
 Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -48,20 +48,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle d’accès pour Workfront Planning </p>  
 </td>
   </tr>

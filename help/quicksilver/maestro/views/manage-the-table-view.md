@@ -1,18 +1,18 @@
 ---
-title: Gestion de la vue de tableau
+title: Gérer la vue de tableau
 description: Vous pouvez afficher les enregistrements et leurs champs en mode Tableau lors de l’accès à la page de type enregistrement dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '2401'
-ht-degree: 3%
+source-wordcount: '2403'
+ht-degree: 4%
 
 ---
 
-# Gestion de la vue de tableau
+# Gérer la vue de tableau
 
 <!--
 title: Manage the table view
@@ -32,9 +32,9 @@ Vous pouvez afficher les enregistrements et leurs champs en mode Tableau lors de
 
 Pour plus d’informations sur les vues d’enregistrement et leur gestion, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -55,15 +55,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
    <p>Les administrateurs système n’ont accès qu’aux vues qu’ils ont créées ou qui sont partagées avec eux. </p>
   </td>
   </tr>
@@ -228,7 +228,7 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
 
 1. (Facultatif) Ajoutez une miniature à chaque enregistrement, puis cliquez sur **Champs** dans le coin supérieur droit du tableau, puis sélectionnez le bouton d’activation/désactivation de la fonction **Miniature** pour l’afficher à gauche du champ principal. Elle est désélectionnée par défaut.
 
-   Pour plus d’informations, voir [Ajout de miniatures aux enregistrements](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez le **handle** icon ![](assets/handle-icon.png) à gauche du nom de l’enregistrement pour réorganiser les lignes.
 

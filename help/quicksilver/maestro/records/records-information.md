@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '109'
+ht-degree: 14%
 
 ---
 
@@ -34,10 +34,11 @@ Les articles suivants décrivent comment créer et gérer des enregistrements et
 
 * [Créer des enregistrements](/help/quicksilver/maestro/records/create-records.md)
 * [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md)
-* [Suppression d’enregistrements](/help/quicksilver/maestro/records/delete-records.md)
-* [Partage d’enregistrements](/help/quicksilver/maestro/records/share-records.md)
-* [Connecter les enregistrements](/help/quicksilver/maestro/records/connect-records.md)
-* [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md)
-* [Présentation de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md)
-* [Ajout de miniatures aux enregistrements](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Supprimer des enregistrements](/help/quicksilver/maestro/records/delete-records.md)
+* [Partager des enregistrements](/help/quicksilver/maestro/records/share-records.md)
+* [Connecter des enregistrements](/help/quicksilver/maestro/records/connect-records.md)
+* [Gérer les commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [Vue d’ensemble de la section Historique](/help/quicksilver/maestro/records/history-section-overview.md)
+* [Ajout d’une miniature à un enregistrement](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
 * [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md)

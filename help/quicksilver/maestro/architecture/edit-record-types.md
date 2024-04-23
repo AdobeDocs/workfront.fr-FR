@@ -1,14 +1,14 @@
 ---
-title: Modification des types d’enregistrement
+title: Modifier des types d’enregistrements
 description: Vous pouvez modifier les types d’enregistrement après leur enregistrement. Les types d’enregistrement sont les types d’objets d’Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 8%
 
 ---
 
@@ -26,15 +26,15 @@ hide: yes
 
 -->
 
-# Modification des types d’enregistrement
+# Modifier des types d’enregistrements
 
 {{maestro-important-intro}}
 
 Les types d’enregistrement sont les types d’objets d’Adobe Workfront Planning. Vous pouvez modifier l’aspect des types d’enregistrement que vous ou toute autre personne avez créés. Pour plus d’informations sur la création de types d’enregistrement Workfront Planning, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -55,20 +55,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront</p>  
 </td>
   </tr>
@@ -93,35 +93,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Modification des types d’enregistrement
+## Modifier des types d’enregistrements
 
 {{step1-to-maestro}}
 
 L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez modifier les types d’enregistrement.
-1. Pointez sur la carte d’un type d’enregistrement, puis cliquez sur le **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit de la carte de type enregistrement, puis cliquez sur **Mettre à jour l&#39;aspect**.
+1. Pointez sur la carte d’un type d’enregistrement, puis cliquez sur le **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit de la carte de type enregistrement, puis cliquez sur **Modifier**.
 
-   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-1. Dans le **Mettre à jour le type d’enregistrement** , mettez à jour les informations suivantes :
+1. Dans le **Modifier le type d’enregistrement** , mettez à jour les informations suivantes :
 
-   * **Nom de l’enregistrement**: modifiez le nom du type d’enregistrement, si nécessaire. <!--correct this - I asked Garik to change this field to "Record type name"-->
-   * **Apparence**: modifiez la couleur et la forme de l’icône associée au type d’enregistrement. Procédez comme suit :
+   * Modifiez le nom du type d’enregistrement, si nécessaire. <!--did they add a field label for this? -->
+   * **Description**: modifiez ou ajoutez une description pour le type d’enregistrement avec plus d’informations à son sujet.
+   * Editez la couleur et la forme de l&#39;icône associée au type d&#39;enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône de type d’enregistrement. L’option Gris est sélectionnée par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
      ![](assets/update-record-type-box.png)
 
-1. Cliquez en dehors du **Mettre à jour le type d’enregistrement** pour enregistrer vos modifications.
+1. Cliquer sur **Enregistrer**.
 1. (Facultatif) Cliquez sur la carte de type d’enregistrement dans la zone de l’espace de travail pour ouvrir la page du type d’enregistrement.
-1. Cliquez sur le bouton **Plus** à droite du nom du type d’enregistrement, puis cliquez sur **Renommer** pour renommer le type d’enregistrement
+1. Cliquez sur le bouton **Plus** à droite du nom du type d’enregistrement, puis cliquez sur **Modifier** pour mettre à jour les informations sur le type d’enregistrement.
 
-   Ou
+   >[!TIP]
+   >
+   >   Vous pouvez renommer le type d’enregistrement dans l’en-tête .
 
-   Renommez le type d’enregistrement dans l’en-tête .  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+   ![](assets/more-menu-options-from-record-details-page.png)
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+   <!--check this screen shot - not sure this is valid ???-->
 
-   Vous pouvez également renommer un type d’enregistrement dans l’en-tête de la page du type d’enregistrement.
 1. (Facultatif) Développez la flèche vers le bas située à droite d’un nom de type d’enregistrement et sélectionnez un autre type d’enregistrement à modifier.

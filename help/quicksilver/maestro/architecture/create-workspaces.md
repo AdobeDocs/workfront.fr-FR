@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 5%
 
 ---
 
@@ -22,9 +22,9 @@ Dans Adobe Workfront Planning, les espaces de travail sont des emplacements cent
 
 Un espace de travail est un ensemble de types d’enregistrement utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans la planification Adobe Workfront.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -45,13 +45,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
    <p>Nouveau : Standard</p>
    Ou
@@ -107,15 +107,19 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 
 ## Créer un espace de travail
 
+Vous pouvez créer un espace de travail et y ajouter des types d’enregistrement afin d’organiser vos objets dans la planification Workfront. Pour plus d’informations sur la modification d’un espace de travail, voir [Modification des espaces de travail](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+Cela ouvre la zone Espaces de travail de la planification Workfront.
 
 1. (Conditionnel) Si votre environnement ne contient aucun espace de travail, cliquez sur **Créer un espace de travail**
 
-   Ou, dans un espace de travail existant, cliquez sur le pointeur vers le bas situé à droite du nom de l’espace de travail, puis cliquez sur **Créer un espace de travail**.
+   Ou, dans un espace de travail existant, cliquez sur la flèche vers le bas située à droite du nom de l’espace de travail, puis cliquez sur **Créer un espace de travail**.
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Cela ouvre la zone Espaces de travail de la planification Workfront.
+
 1. (facultatif et conditionnel) Cliquez sur **Aperçu** dans l’un des modèles d’espace de travail prédéfinis suivants :
 
    * Gestion marketing
@@ -136,14 +140,10 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 
    L’un des types d’espaces de travail suivants est créé :
 
-   * Espace de travail vide dans lequel vous pouvez commencer à ajouter manuellement des types d’enregistrement lorsque vous créez un espace de travail à partir de zéro.
-   * Espace de travail rempli d’exemples de types d’enregistrement que vous pouvez personnaliser davantage lorsque vous utilisez l’un des modèles.
+   * Un espace de travail vide nommé **Espace de travail sans titre** où vous pouvez commencer à ajouter manuellement des types d’enregistrement lorsque vous créez un espace de travail à partir de zéro.
+   * Espace de travail nommé d’après le modèle que vous avez sélectionné et rempli avec des exemples de types d’enregistrement. Vous pouvez personnaliser davantage les types d’enregistrement et l’espace de travail.
 
-1. Cliquez dans le nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur Entrée.
-
-   Ou
-
-   Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png)à droite du nom de l’espace de travail dans l’en-tête, puis cliquez sur **Renommer**.
+1. Cliquez à l’intérieur du nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur Entrée.
 
 1. (Facultatif et conditionnel) Si vous avez créé l’espace de travail à partir d’un modèle, cliquez dans le nom de la fonction **Types d’enregistrement opérationnels** ou **Taxonomies** sections
 
@@ -153,25 +153,14 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 
    >[!TIP]
    >
-   >Vous pouvez renommer n’importe quelle section à partir de n’importe quel espace de travail, même si vous avez créé la section .
+   >Vous pouvez renommer n’importe quelle section à partir de n’importe quel espace de travail, même si vous n’avez pas créé la section.
 
-1. (Facultatif) Pour modifier l’emplacement d’une section, effectuez l’une des opérations suivantes :
-
-   * Passez la souris sur le nom d’une section, puis cliquez sur le bouton **attraper** icon ![](assets/grab-icon.png), puis faites-le glisser et déposez-le à l’endroit approprié.
-   * Passez la souris sur le nom d’une section, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Déplacer vers le haut** ou **Déplacer vers le bas**. La section monte ou descend dans l’espace de travail.
-
-1. (Facultatif) Pour ajouter une nouvelle section, effectuez l’une des opérations suivantes :
-
-   * Cliquez sur **Ajouter une section** au bas de l’espace de travail.
-   * Passez la souris sur le nom d’une section, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Ajouter la section ci-dessus** ou **Ajouter la section ci-dessous**.
+   Pour plus d’informations sur la modification des espaces de travail, y compris la modification des sections de l’espace de travail, voir [Modification des espaces de travail](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
 1. (Facultatif) Cliquez sur **Ajouter un type d’enregistrement** pour ajouter des types d’enregistrement à l’espace de travail dans n’importe quelle section.
 
    Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
-1. (Facultatif) Pour supprimer une section, procédez comme suit :
+   Pour plus d’informations sur la modification et la suppression des types d’enregistrement dans un espace de travail, voir [Modification des espaces de travail](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   1. Passez la souris sur le nom d’une section, puis cliquez sur l’icône **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Supprimer**. <!--add screen shot when UI is final?-->
-   1. Sélectionnez une nouvelle section pour y déplacer tous les types d’enregistrement, puis cliquez sur **Supprimer**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      Tous les types d’enregistrement sont déplacés vers la section de sélection et la section est supprimée.

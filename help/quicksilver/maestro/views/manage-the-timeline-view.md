@@ -1,18 +1,18 @@
 ---
-title: Gestion du mode Chronologie
+title: Gérer la vue chronologique
 description: Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type d’enregistrement dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 0%
+source-wordcount: '1716'
+ht-degree: 2%
 
 ---
 
-# Gestion du mode Chronologie
+# Gérer la vue chronologique
 
 <!--
 title: Manage the timeline view in Adobe Maestro
@@ -32,9 +32,9 @@ Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’
 
 Pour plus d’informations sur les vues d’enregistrement, voir [Gestion des vues d’enregistrement](../views/manage-record-views.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -55,15 +55,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
    <p>Les administrateurs système n’ont accès qu’aux vues qu’ils ont créées ou qui sont partagées avec eux. </p>
   </td>
   </tr>
@@ -255,7 +255,7 @@ Mettez à jour les paramètres de vue de la chronologie pour indiquer ce qui s�
 
    >[!NOTE]
    >
-   >    Vous devez d’abord ajouter des miniatures dans la vue de tableau avant de pouvoir les afficher dans la vue de chronologie. Pour plus d’informations, voir [Ajout de miniatures aux enregistrements](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   >    Vous devez d’abord ajouter des miniatures dans la vue de tableau avant de pouvoir les afficher dans la vue de chronologie. Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Cliquez sur **Ajouter un champ** pour ajouter jusqu’à 4 champs aux barres d’enregistrement.
 1. Cliquez dans le **Champs de recherche** puis cliquez sur le champ à ajouter.

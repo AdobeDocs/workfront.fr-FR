@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 52cc4748daaadb78318f9dfd10ab27e22a0cd753
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '14162'
+source-wordcount: '14171'
 ht-degree: 98%
 
 ---
@@ -2083,7 +2083,8 @@ ht-degree: 98%
       * [Partager des enregistrements](maestro/records/share-records.md)
       * [Gérer les commentaires d’enregistrement](maestro/records/manage-record-comments.md)
       * [Vue d’ensemble de la section Historique](maestro/records/history-section-overview.md)
-      * [Ajouter des miniatures aux enregistrements](maestro/records/add-thumbnails-to-records.md)
+      * [Ajout d’une miniature à un enregistrement](maestro/records/add-thumbnails-to-records.md)
+      * [Ajout d’une image de couverture à un enregistrement](maestro/records/add-a-cover-image-to-a-record.md)
       * [Gestion de la page d’enregistrement](maestro/records/manage-the-record-page.md)
    * Vues d’Adobe Maestro {#adobe-maestro-views}
       * [Vues : index des articles](maestro/views/views-information.md)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1495'
 ht-degree: 3%
 
 ---
@@ -103,6 +103,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Si les enregistrements que vous affichez sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous éditez se répercutent sur les enregistrements liés.
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
 * Les URL sont reconnues comme des liens dans les types de champ de texte sur une seule ligne uniquement lorsqu’elles commencent par les éléments suivants : http://, https://, ftp:// ou www. .
+* Vous pouvez ajouter une image de couverture à chaque enregistrement. L’image est unique pour chaque enregistrement et ne s’applique pas à tous les enregistrements en même temps.
 * Vous pouvez modifier l’ordre des champs dans une page d’enregistrement et ajouter une image de couverture pour un enregistrement. Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Modifier des enregistrements
@@ -130,7 +131,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  Vous ne pouvez pas modifier les informations des champs suivants, car ils sont en lecture seule et Workfront les met automatiquement à jour :
    >  
@@ -209,7 +210,18 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
    >
    >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement dans une vue de tableau uniquement lorsque le champ Nom est un champ principal.
 
-1. Commencez à modifier les informations du champ dans la zone de l’enregistrement. Workfront enregistre automatiquement vos modifications.
+1. Commencez à modifier les informations du champ dans la zone de l’enregistrement.
+
+   >[!TIP]
+   >
+   >  Vous ne pouvez pas modifier les informations des champs suivants, car ils sont en lecture seule et Workfront les met automatiquement à jour :
+   >  
+   >  * Champs liés créés par la connexion des types d’enregistrement. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
+   >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification, Champs de formule.
+
+1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement. Pour plus d’informations, voir [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   Workfront enregistre automatiquement vos modifications.
 
 1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) dans cet article.
 
@@ -227,7 +239,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans n’importe quelle vue, accédez à la boîte de l’enregistrement, comme décrit dans la section [Modification d’un enregistrement à partir de la zone de l’enregistrement dans une vue](#edit-a-record-from-the-records-box-in-a-view) dans cet article. Cliquez ensuite sur le bouton **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
+   * Dans n’importe quelle vue, accédez à la boîte de l’enregistrement, comme décrit dans la section [Modification d’un enregistrement à partir de la zone de l’enregistrement dans une vue](#edit-a-record-from-the-records-box-in-a-view) dans cet article, puis cliquez sur le bouton **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    * Dans la **Tableau** visionnez, survolez le nom d’un enregistrement avec la souris, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Affichage**
 
@@ -237,12 +249,16 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
      ![](assets/details-page.png)
 
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Modifier**
+1. Cliquez sur un champ modifiable de la page d’enregistrement pour l’éditer.
 
-   Ou
+   >[!TIP]
+   >
+   >  Vous ne pouvez pas modifier les informations des champs suivants, car ils sont en lecture seule et Workfront les met automatiquement à jour :
+   >  
+   >  * Champs liés créés par la connexion des types d’enregistrement. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md).
+   >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification, Champs de formule.
 
-   Cliquez dans n’importe quel champ modifiable de la page d’enregistrement pour modifier les informations.
+1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement. Pour plus d’informations, voir [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   Workfront enregistre automatiquement vos modifications.
 
-1. Cliquez sur **Enregistrer les modifications**.

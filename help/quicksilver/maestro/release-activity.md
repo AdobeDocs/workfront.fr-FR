@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
+source-wordcount: '5636'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## Semaine du 22 avril 2024
+
+### Mise à jour du workflow lors de la modification d’un espace de travail ou d’un type d’enregistrement
+
+Production : 23 avril 2024
+
+Aperçu : à déterminer
+
+Nous avons mis à jour l’aspect des zones Modifier l’espace de travail et Modifier le type d’enregistrement .
+
+Lorsque vous modifiez un espace de travail ou un type d’enregistrement, vous pouvez maintenant définir un nom, une description, ainsi qu’attribuer une couleur et une icône à celui-ci.
+
+Pour plus d’informations, voir les articles suivants :
+
+* [Modification des espaces de travail](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [Modification des types d’enregistrement](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## Semaine du 8 avril 2024
 
@@ -373,7 +391,7 @@ Aperçu : à déterminer
 
 Vous pouvez désormais ajouter des miniatures individuelles à chaque enregistrement pour les distinguer dans une vue. En mode Tableau, vous pouvez ajouter des fichiers image que vous avez précédemment enregistrés sur votre ordinateur sous forme de miniatures. Les miniatures peuvent être propres à chaque enregistrement et s’afficher à la fois dans le tableau et dans les vues de chronologie de la page de type enregistrement.
 
-Pour plus d’informations, voir [Ajout de miniatures aux enregistrements](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 ### Suppression de cartes de type d’enregistrement connectées
 
