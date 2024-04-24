@@ -1,32 +1,30 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Accédez à la section Alignement des objectifs dans les objectifs Adobe Workfront
+title: Naviguer dans la section Alignement des objectifs dans Objectifs Adobe Workfront
 description: Utilisez la section Alignement des objectifs pour afficher une vue d’ensemble de l’alignement des objectifs sur l’ensemble de l’organisation dans un organigramme. Les objectifs alignés s’affichent sur les cartes qui s’interconnectent dans une arborescence hiérarchique.
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '931'
+ht-degree: 8%
 
 ---
 
-# Accédez à la section Alignement des objectifs dans les objectifs Adobe Workfront
+# Naviguer dans la section Alignement des objectifs dans Objectifs Adobe Workfront
 
 Utilisez la section Alignement des objectifs pour afficher une vue d’ensemble de l’alignement des objectifs sur l’ensemble de l’organisation dans un organigramme. Les objectifs alignés s’affichent sur les cartes qui s’interconnectent dans une arborescence hiérarchique.
 
 Pour plus d’informations sur l’alignement des objectifs et sur la manière d’y parvenir, voir également les articles suivants :
 
-* [Alignement des objectifs - Aperçu dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Alignement des objectifs - Aperçu dans les objectifs d’Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Alignement des objectifs en les reliant dans Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 
-## Exigences d’accès
+## Conditions d’accès
 
-<!-- drafted for P&P release: 
-
-You must have the following to perform the activities described in this article:
+Pour effectuer les activités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
  <col>
@@ -34,100 +32,58 @@ You must have the following to perform the activities described in this article:
  <col>
  </col>
  <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
+ <tr>
+ <td role="rowheader">Forfait Adobe Workfront*</td>
+ <td>
+ <p>Nouveau plan : sélectionnez cette option ou une option ultérieure</p>
+ Ou
+ <p>Formule actuelle : Pro ou ultérieure</p>
+ 
+ </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licence Adobe Workfront*</td>
+ <td>
+ <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ Ou
+ <p>Licence actuelle : demande ou supérieure</p>  </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produit*</td>
+ <td>
+ <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+<ul>
+<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
+<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+ <p>Ou</p>
+ <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Niveau d’accès</td>
+ <td> <p>Modifier l’accès aux objectifs</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorisations d’objet</td>
+ <td>
+ <div>
+ <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
+ <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+ <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+ </div> </td>
+ </tr>
+<tr>
+<td role="rowheader"><p>Modèle de mise en page</p></td>
+<td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+</td>
+</tr>
  </tbody>
 </table>
 
--->
-
-Pour effectuer les activités décrites dans cet article, vous devez disposer des éléments suivants :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro ou version ultérieure</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Requête ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produit</td> 
-   <td> <p>Pour accéder aux fonctionnalités décrites dans cet article, vous devez acheter une licence supplémentaire pour les objectifs d’Adobe Workfront. </p> <p>Pour plus d’informations, voir <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Conditions requises pour utiliser les objectifs Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux objectifs</p> <p><b>NOTE</b><p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir :</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Accorder l’accès aux objectifs Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> 
-    <div> 
-     <p>Affichage d’autorisations ou autorisations supérieures pour les objectifs</p> 
-     <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partage d’un objectif dans les objectifs Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
-
-## Conditions préalables
-
-Avant de pouvoir commencer, vous devez disposer des éléments suivants :
-
-* Un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Accédez à la section Alignement de l’objectif .
 
 1. Cliquez sur le bouton **Menu Principal** icon ![Icône du menu principal](../goal-alignment/assets/dots-main-menu-icon.png) dans le coin supérieur droit de l’écran, puis cliquez sur **Objectifs**.
-
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Cliquez sur **Alignement des objectifs** dans le panneau de gauche.
@@ -163,7 +119,7 @@ Avant de pouvoir commencer, vous devez disposer des éléments suivants :
        <div> 
         <p>Progression réelle de l’objectif d’ici la date actuelle. Les valeurs et couleurs de progression suivantes indiquent la probabilité que l’objectif soit atteint à temps : </p> 
         <ul> 
-         <li><span>Sur Target</span> (indicateur vert) : l'objectif est à l'heure et sera atteint à temps.</li> 
+         <li><span>Sur Target</span> (indicateur vert) : l’objectif est à l’heure et sera atteint à temps.</li> 
          <li> <span>À risque</span> (indicateur jaune) : l’objectif est en retard et peut ne pas être atteint à temps.</li> 
          <li> <span>En difficulté</span> (indicateur rouge) : l'objectif risque de ne pas être atteint à temps. </li> 
         </ul> 
@@ -204,9 +160,9 @@ Avant de pouvoir commencer, vous devez disposer des éléments suivants :
    * Les objectifs connectés précédemment éliminés par le filtre s’affichent désormais dans le graphique d’alignement.
    * Le filtre dans le coin supérieur droit est indiqué en jaune pour indiquer qu’il n’est actuellement pas appliqué.
 
-      ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
-      Un lien Réappliquer le filtre s’affiche à gauche du nom du filtre.
+     Un lien Réappliquer le filtre s’affiche à gauche du nom du filtre.
 
 1. (Facultatif) Cliquez sur **Réappliquer le filtre** pour revenir aux résultats d’origine et afficher la hiérarchie des objectifs.
 1. (Facultatif) Pointez sur l’indicateur de progression pour comprendre où doit se trouver l’objectif de progression pour la journée en cours.
@@ -224,7 +180,7 @@ Avant de pouvoir commencer, vous devez disposer des éléments suivants :
       <td>L’état de progression est toujours à jour. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Réel</span> </td> 
+      <td role="rowheader"><span>Réels</span> </td> 
       <td>La progression réelle (un pourcentage) de l'objectif par date courante calculée en prenant en compte tous les indicateurs de progression de l'objectif. Les indicateurs de progression de l’objectif sont les objectifs, les activités et les résultats harmonisés. </td> 
      </tr> 
      <tr> 

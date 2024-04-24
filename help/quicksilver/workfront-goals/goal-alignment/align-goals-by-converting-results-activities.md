@@ -6,10 +6,10 @@ description: Vous pouvez aligner manuellement deux objectifs ou convertir les r�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 25%
+source-wordcount: '652'
+ht-degree: 24%
 
 ---
 
@@ -80,7 +80,6 @@ Pour plus d’informations sur l’alignement manuel de deux objectifs, voir [Al
 
 Vous devez disposer des éléments suivants avant de commencer :
 
-* Un modèle de disposition qui inclut la zone Objectifs dans le menu principal.
 * Objectif existant avec des résultats et des activités existants.
 
   Pour plus d’informations sur la création d’objectifs, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).

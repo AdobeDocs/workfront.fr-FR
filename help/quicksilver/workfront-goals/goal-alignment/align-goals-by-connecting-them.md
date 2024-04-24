@@ -6,10 +6,10 @@ description: Si vous contributeur individuel avez un objectif personnel, vous po
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 10%
+source-wordcount: '775'
+ht-degree: 8%
 
 ---
 
@@ -90,12 +90,6 @@ Vous devez disposer des éléments suivants :
 </table>
 
 *Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-## Conditions préalables
-
-Vous devez disposer des éléments suivants avant de commencer :
-
-* Un modèle de disposition qui inclut la zone Objectifs dans le menu principal.
 
 ## Alignement des objectifs en les connectant les uns aux autres
 

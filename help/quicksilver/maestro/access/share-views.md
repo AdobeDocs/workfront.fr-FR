@@ -1,20 +1,20 @@
 ---
-title: Partage de vues
+title: Partager des vues
 description: Vous pouvez partager une vue avec d’autres pour garantir la collaboration lors de l’utilisation d’Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 0%
+source-wordcount: '512'
+ht-degree: 7%
 
 ---
 
 <!--update the metadata and description when we turn this article live-->
 
-# Partage de vues
+# Partager des vues
 
 {{maestro-important-intro}}
 
@@ -22,9 +22,17 @@ Vous pouvez partager une vue avec d’autres pour garantir la collaboration lors
 
 L’octroi d’autorisations à un espace de travail ne donne pas à d’autres utilisateurs les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type enregistrement afin de les partager avec d’autres utilisateurs.
 
-## Exigences d’accès
+<!--
+You can share a view with the following entities: 
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+* Workfront users
+* Workfront groups
+* Publicly, with users outside Workfront
+-->
+
+## Conditions d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -45,20 +53,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning </p>  
 </td>
   </tr>
@@ -78,9 +86,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
-## Partage des autorisations sur une vue
+## Partage des autorisations sur une vue <!--internally-->
 
-Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles vous disposez des autorisations de gestion.
+Vous pouvez partager les vues que vous avez créées ou les vues auxquelles vous êtes autorisé à accéder <!--with users or groups in Workfront-->.
 
 >[!NOTE]
 >
@@ -98,7 +106,9 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Dans le **Accorder l’accès à la vue à** , commencez à saisir le nom d’un utilisateur ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   <!--The Internal sharing tab should be selected by default.-->
+
+1. Dans le **Accorder l’accès à la vue à** , commencez à saisir le nom d’un utilisateur ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.  <!--replace screen shot below-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -108,18 +118,78 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
 
      Pour plus d’informations sur les niveaux d’autorisation et les actions que les utilisateurs peuvent effectuer pour chaque niveau, voir [Présentation du partage des autorisations dans Adobe Workfront Planning](../access/sharing-permissions-overview.md).
 
-     <!--System administrators always receive Manage permissions to views shared with them.-->
+     Les administrateurs système reçoivent toujours les autorisations Gérer pour les vues partagées avec eux.
 
 1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans le presse-papiers.
 1. Partagez le lien copié avec d’autres personnes. Les utilisateurs qui reçoivent le lien doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à la page de type d’enregistrement et l’afficher dans la vue sélectionnée.
 1. Cliquer sur **Enregistrer**.
 
+<!--
+## Share permissions to a view publicly
+
+You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+
+Consider the following when publicly sharing a Workfront Planning view: 
+
+* You can share a public link to a record type page that displays in the view you are sharing.
+* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
+* The shared public link must have an expiration date after which the link is no longer accessible. 
+
+To share a view publicly in Workfront Planning: 
+
+{{step1-to-maestro}}
+
+1. Open the workspace whose view you want to share, then click a record type card. 
+
+   This opens the record type page.
+
+1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+
+   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+
+1. Click **Public sharing**.
+
+1. Enable the **Create public link** setting.
+
+   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+
+1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+
+1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+
+1. Click **Save**.
+
+1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+
+-->
+
+
 ## Suppression des autorisations d’un affichage
 
 {{step1-to-maestro}}
 
-1. Ouvrez l’espace de travail dont vous souhaitez partager la vue, puis cliquez sur une carte de type enregistrement. Cela ouvre la page de type enregistrement.
-1. Dans le menu déroulant Affichage , passez la souris sur la vue que vous souhaitez partager, puis cliquez sur l’icône **Plus** menu ![](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
+1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage, puis cliquez sur une carte de type enregistrement. Cela ouvre la page de type enregistrement.
+1. Pointez sur le nom de l’onglet de la vue à partir de laquelle vous souhaitez supprimer le partage, puis cliquez sur le **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Partager**.
 1. Recherchez l’utilisateur ou le groupe à supprimer, puis cliquez sur **Supprimer** dans le menu déroulant des autorisations situé à droite du nom de l’utilisateur ou du groupe.
 1. Cliquez sur **Enregistrer**.
-L’utilisateur ou les utilisateurs appartenant au groupe supprimé n’ont plus accès à la vue. Les utilisateurs qui ont été supprimés de l’affichage ne reçoivent aucune notification.
+L’utilisateur ou les utilisateurs appartenant au groupe supprimé n’ont plus accès à la vue. Les utilisateurs qui ont été supprimés de l’accès ne reçoivent aucune notification leur indiquant qu’ils ont perdu cet accès.
+
+<!--Replace the above instructions with the following when public sharing is released: 
+
+{{step1-to-maestro}}
+
+1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
+1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
+1. To remove the internal sharing of a view, do the following: 
+
+   1. Ensure the **Internal sharing** tab is selected.
+   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
+
+1. To remove the public sharing of a view, do the following: 
+
+   1. Click the **Public sharing** tab.
+   1. Deselect the **Create public link** option. 
+
+1. Click **Save**.
+   
+   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->

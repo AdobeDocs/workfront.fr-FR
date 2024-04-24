@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 7%
+source-wordcount: '535'
+ht-degree: 14%
 
 ---
 
@@ -27,9 +27,9 @@ Cet article décrit les niveaux d’autorisation des objets de planification Wor
 
 Pour plus d’informations sur le partage d’espaces de travail ou de vues, consultez les articles suivants :
 
-* [Partage des espaces de travail](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Partager des espaces de travail](/help/quicksilver/maestro/access/share-workspaces.md)
 
-* [Partage de vues](/help/quicksilver/maestro/access/share-views.md)
+* [Partager des vues](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objets que vous pouvez partager dans Adobe Workfront Planning
 
@@ -48,10 +48,11 @@ Vous pouvez partager les objets suivants :
   Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation pour Workfront Planning, voir [Présentation du type de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 * Les administrateurs système peuvent gérer et partager les espaces de travail créés par d’autres utilisateurs.
 * Si vous n’êtes pas administrateur système, vous pouvez contribuer aux espaces de travail créés par d’autres utilisateurs s’ils sont partagés avec vous.
-* Vous ne pouvez pas partager les espaces de travail en bloc.
+* Vous ne pouvez pas partager des espaces de travail ou des vues en bloc.
 * Vous pouvez partager un espace de travail ou une vue avec les entités suivantes :
    * Utilisateurs
    * Groupes
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 * Les autres utilisateurs, y compris les administrateurs système, ne peuvent accéder qu’aux vues qu’ils ont créées ou qui ont été partagées avec eux. Les administrateurs système peuvent uniquement disposer d’autorisations pour gérer une vue.
 * Vous pouvez partager avec d’autres un lien vers un espace de travail ou vers une vue à partir d’une page de type enregistrement. Les utilisateurs qui reçoivent le lien doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à l’espace de travail ou à la page de type enregistrement affichée dans la vue sélectionnée.
 
@@ -114,9 +115,28 @@ Les permissions suivantes se rapportent aux champs eux-mêmes et non aux valeurs
 
 Vous devez accorder des autorisations distinctes pour enregistrer les vues. L’octroi d’autorisations à l’espace de travail n’accorde pas d’autorisations aux vues d’enregistrement dans l’espace de travail.
 
+<!--You can share views internally or publicly. -->
+
 |        | Gérer | Afficher |
 |--------|--------|-------|
 | Modifier | ✓ |       |
 | Supprimer | ✓ |       |
+| Partager | ✓ |       |
 | Afficher | ✓ | ✓ |
 | Appliquer | ✓ | ✓ |
+
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| Share  | ✓       |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+|   Public sharing      | View  |
+|--------|-------|
+| View   | ✓     |
+| Apply  | ✓     |
+-->

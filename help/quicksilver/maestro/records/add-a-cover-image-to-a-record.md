@@ -1,15 +1,17 @@
 ---
 title: Ajout d’une image de couverture à un enregistrement
-description: Vous pouvez modifier les informations d’enregistrement dans Adobe Workfront Planning et associer chaque enregistrement à une image de couverture pour personnaliser la page de l’enregistrement.
+description: Vous pouvez personnaliser des enregistrements en ajoutant une image de couverture à la page d’enregistrement dans Adobe Workfront Planning, lors de la modification d’un enregistrement.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 5%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 5%
 
 {{maestro-important-intro}}
 
-Vous pouvez modifier les informations d’enregistrement dans Adobe Workfront Planning et associer chaque enregistrement à une image de couverture pour personnaliser la page de l’enregistrement.
+Vous pouvez personnaliser des enregistrements en ajoutant une image de couverture à la page d’enregistrement dans Adobe Workfront Planning, lors de la modification d’un enregistrement.
+
+Pour plus d’informations sur la modification d’enregistrements, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
 Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
+
 Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
 ## Conditions d’accès
@@ -81,14 +86,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Considérations relatives aux images de couverture de page d’enregistrement
 
-Vous pouvez personnaliser la page d’un enregistrement en y ajoutant une image de couverture. L&#39;image est propre à chaque enregistrement et ne s&#39;applique pas à tous les enregistrements du même type.
+Vous pouvez personnaliser la page d’un enregistrement en y ajoutant une image de couverture.
 
 Tenez compte des points suivants :
 
+* Une image de couverture est propre à un enregistrement et ne s’applique pas à tous les enregistrements du même type.
 * Vous pouvez uniquement ajouter des fichiers image comme images de couverture.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Vous pouvez ajouter une image de couverture à des enregistrements individuels à partir de la zone d’enregistrement dans n’importe quelle vue ou à partir de la page d’enregistrement.
-* Vous ne pouvez pas ajouter d’images de couverture en ligne à partir de la vue de tableau.
+* Vous ne pouvez pas ajouter d’images de couverture en ligne à partir de n’importe quel affichage d’enregistrement.
 
 ## Ajout d’une image de couverture à un enregistrement
 

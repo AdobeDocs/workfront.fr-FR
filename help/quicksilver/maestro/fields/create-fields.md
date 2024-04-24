@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3283'
 ht-degree: 3%
 
 ---
@@ -43,11 +43,11 @@ Vous pouvez créer des champs de la manière suivante dans Maestro :
 
 * À partir de zéro
 * Connexion des types d’enregistrement
-* En important des types d’enregistrement à l’aide d’un fichier Excel et CSV
+* En important des types d’enregistrement à l’aide d’un fichier Excel ou CSV
 * En créant un type d&#39;enregistrement
 * En créant un espace de travail à partir d’un modèle
 
-Pour plus d’informations sur les champs Maestro, voir [Présentation des champs](../fields/fields-overview.md)
+Pour plus d’informations sur les champs Maestro, voir [Présentation des champs](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Conditions d’accès
 
@@ -191,7 +191,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
    * **Description**: informations supplémentaires sur le champ. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ de paragraphe est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
+   Le nouveau champ de paragraphe est ajouté en tant que colonne au type d’enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 
 ### Sélection multiple {#multi-select}
@@ -210,7 +210,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 1. Cliquez sur **Ajouter un choix** pour ajouter autant de choix que nécessaire. Le nombre de choix que vous pouvez ajouter à un champ à sélection multiple est illimité.
 1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option
    **Choix de tri A-Z** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Cliquez sur le bouton **x** à droite d’un choix pour le supprimer.
+1. (Facultatif) Pour supprimer un choix, cliquez sur le bouton **x** à droite de celle-ci.
 1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleurs et personnaliser la couleur de chaque option.
 1. Cliquez sur **Créer**.
 
@@ -232,7 +232,7 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 1. Cliquez sur **Ajouter un choix** pour ajouter autant de choix que nécessaire. Le nombre de choix que vous pouvez ajouter à un champ à sélection unique n’est pas limité.
 1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option **Choix de tri A-Z** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Cliquez sur le bouton **x** à droite d’un choix pour le supprimer.
+1. (Facultatif) Pour supprimer un choix, cliquez sur le bouton **x** à droite de celle-ci.
 1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleurs et personnaliser la couleur de chaque option.
 1. Cliquez sur **Créer**.
 
@@ -311,7 +311,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ de pourcentage est ajouté en colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
+   Le nouveau champ de pourcentage est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Devise {#currency}
 
@@ -334,7 +334,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ de devise est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
+   Le nouveau champ de devise est ajouté en tant que colonne au type d’enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Case à cocher
 
@@ -373,7 +373,7 @@ Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver
 
    Pour plus d’informations sur les expressions prises en charge, voir [Champs de formule - Aperçu](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Ajoutez les noms des champs tels qu’ils s’affichent dans l’interface de planification de Workfront pour les référencer dans une formule.
+1. Ajoutez les noms des champs tels qu’ils s’affichent dans la Planification Workfront pour les référencer dans une formule.
 
    >[!NOTE]
    >
@@ -388,7 +388,7 @@ Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver
 
 ### Personnes
 
-Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur. <!--, job role, or team--> à un enregistrement. Il s’agit d’un champ de type anticipé que vous pouvez ajouter uniquement aux utilisateurs.<!--, roles, or teams--> qui existent déjà dans Workfront.
+Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur. <!--, job role, or team--> à un enregistrement. Il s’agit d’un champ de type anticipé que vous pouvez ajouter uniquement aux utilisateurs.<!--, roles, or teams--> qui existent déjà dans votre instance Workfront.
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Personnes** type de champ.
 
@@ -405,7 +405,7 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur. <!-
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ Type de personne est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
+   Le nouveau champ Type de personne est ajouté en tant que colonne au type d’enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Créé par
 
@@ -427,7 +427,7 @@ Vous pouvez utiliser le type de champ Créé par pour ajouter à un enregistreme
 
 ### Date de création
 
-Vous pouvez utiliser le type de champ Date de création pour ajouter à un enregistrement la date à laquelle un enregistrement a été créé. Il s’agit d’un champ en lecture seule qui est automatiquement renseigné avec la date (et éventuellement avec l’heure) de création de l’enregistrement.
+Vous pouvez utiliser le type de champ Date de création pour ajouter à un enregistrement la date à laquelle l’enregistrement a été créé. Il s’agit d’un champ en lecture seule qui est automatiquement renseigné avec la date (et éventuellement avec l’heure) de création de l’enregistrement.
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez l’option **Date de création** type de champ.
 
@@ -514,7 +514,7 @@ Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une 
 
 Pour plus d’informations sur la connexion des types d’enregistrement Workfront Planning, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
 
-## Créer des champs en important des types d’enregistrement à l’aide d’un fichier Excel et CSV
+## Créer des champs en important des types d’enregistrement à l’aide d’un fichier Excel ou CSV
 
 Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 

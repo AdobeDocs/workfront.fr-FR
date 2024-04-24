@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '364'
 ht-degree: 20%
 
 ---
@@ -29,7 +29,9 @@ Un utilisateur avec un type de licence de niveau inférieur dispose d’autorisa
 
 >[!INFO]
 >
->**EXEMPLE :** Les demandeurs (ou collaborateurs, selon le nouveau modèle de licence) ne peuvent pas contribuer ou gérer les espaces de travail et leurs objets.
+>**EXEMPLE :**
+>
+>Les demandeurs (ou collaborateurs, selon le nouveau modèle de licence) ne peuvent pas contribuer ou gérer les espaces de travail et leurs objets.
 >
 >La zone de partage indique que les utilisateurs et utilisatrices ne peuvent pas se voir accorder d’autorisations pour contribuer à un espace de travail ni le gérer lorsqu’ils disposent d’une licence de niveau inférieur.
 >
@@ -45,8 +47,10 @@ Le tableau ci-dessous décrit la relation entre le type de licence d’un utilis
 L’attribution d’autorisations d’utilisateur à un espace de travail leur accorde également des autorisations pour les types d’enregistrement, les enregistrements et les champs.
 
 
-| Type de licence Adobe Workfront | Autorisations autorisées dans la planification Adobe Workfront |
+| Type de licence Adobe Workfront* | Autorisations autorisées dans la planification Adobe Workfront |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nouvelle : licence standard <br> ou <br>Actuelle : licence forfait | Les utilisateurs et utilisatrices peuvent créer et gérer des espaces de travail, des types d’enregistrements et des enregistrements.<br> Les administrateurs système disposent des autorisations de gestion pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés. |
 | Nouvelle : licence légère (Light) <br> ou <br>Actuelle : licence travail | Les utilisateurs peuvent contribuer à un espace de travail partagé avec eux et y afficher les types d’enregistrement et les enregistrements de cet espace de travail. <br> Les utilisateurs peuvent créer, modifier et supprimer des enregistrements dans les espaces de travail pour lesquels ils disposent des autorisations de contribution. |
 | Nouvelle : licence de contribution <br> ou <br>Actuelle : licence de révision ou de demande | Les utilisateurs et utilisatrices peuvent afficher les espaces de travail partagés avec eux, ainsi que les types d’enregistrements et les enregistrements de ces espaces de travail. <br> Les utilisateurs ne peuvent pas créer, modifier ou supprimer des types d’enregistrement ou des enregistrements. |
+
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
