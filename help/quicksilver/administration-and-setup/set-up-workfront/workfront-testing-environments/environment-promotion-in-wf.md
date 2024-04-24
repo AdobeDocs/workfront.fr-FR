@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
+source-git-commit: 4c40920028ca0b8ac797ad0854291e2ae82a07b2
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,9 @@ Vous pouvez effectuer ce processus dans Workfront en créant un package d’obje
 
 ## Objets pris en charge pour la promotion de l’environnement
 
-La fonctionnalité Promotion de l’environnement est conçue pour permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Il ne prend pas en charge la possibilité de déplacer des objets transactionnels (à quelques exceptions près).
+La fonctionnalité de promotion de l’environnement est conçue pour permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Il s’agit d’objets qui peuvent être configurés, tels que des projets, des équipes ou des formulaires personnalisés.
+
+La promotion de l’environnement ne prend pas en charge la possibilité de déplacer des objets transactionnels (à quelques exceptions près). Les objets transactionnels ne peuvent pas être configurés. Par exemple, les mises à jour d’activité du système et les décisions de BAT.
 
 * [Objets de travail](#work-objects)
 * [Objets de création de rapports](#reporting-objects)
@@ -124,15 +126,15 @@ Ces statuts sont les suivants :
  <tbody> 
   <tr> 
    <td>UNASSEMBLÉ</td> 
-   <td><p>Ce statut est automatiquement attribué et représente un package qui a été enregistré mais pas encore assemblé. </p><p>Cet état ne peut pas être défini directement par un client.</p></td> 
+   <td><p>Ce statut est automatiquement attribué et représente un package qui a été enregistré mais pas encore assemblé. </p><p>Cet état ne peut pas être défini directement par un utilisateur.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLAGE</td> 
-   <td><p>Cet état est automatiquement attribué lors de l’assemblage des objets. </p><p>L’assemblage fait référence au processus automatisé d’identification des objets et des sous-objets à inclure dans un package et d’ajout de ces objets et de leurs données au package.</p><p>Cet état ne peut pas être défini directement par un client.</p></td> 
+   <td><p>Cet état est automatiquement attribué lors de l’assemblage des objets. </p><p>L’assemblage fait référence au processus automatisé d’identification des objets et des sous-objets à inclure dans un package et d’ajout de ces objets et de leurs données au package.</p><p>Cet état ne peut pas être défini directement par un utilisateur.</p></td> 
   </tr> 
   <tr> 
    <td>version préliminaire</td> 
-   <td><p>Ce statut est attribué à la fin d’un processus d’assemblage ou lors de la création d’un package de promotion vide.</p><p>Il est possible pour un client de replacer le package de promotion dans ce statut.</p><p>Dans cet état, le package de promotion ne peut être installé dans aucun environnement.</p></td> 
+   <td><p>Ce statut est attribué à la fin d’un processus d’assemblage ou lors de la création d’un package de promotion vide.</p><p>Il est possible pour un utilisateur de replacer le package de promotion dans cet état.</p><p>Dans cet état, le package de promotion ne peut être installé dans aucun environnement.</p></td> 
   </tr> 
   <tr> 
    <td>TEST</td> 
@@ -144,11 +146,11 @@ Ces statuts sont les suivants :
   </tr> 
   <tr> 
    <td>DISABLED</td> 
-   <td><p>Cet état est utilisé pour masquer les packages de promotion précédemment utilisés qui ne seront plus installés dans aucun environnement à l’avenir.</p><p>Lorsqu’un package est dans cet état, il ne peut être installé dans aucun environnement.</p><p>Lorsque l’état d’un package est défini sur DISABLED, la variable <code>retiredAt</code> date est automatiquement définie sur l’horodatage actuel de la requête.</p><p>Il est recommandé d’utiliser ce statut plutôt que d’utiliser la variable<code>DELETE /package</code> point d’entrée, car il est récupérable et l’historique d’installation est conservé pour tous les déploiements effectués avec ce package.</p></td> 
+   <td><p>Cet état est utilisé pour masquer les packages de promotion précédemment utilisés qui ne seront plus installés dans aucun environnement à l’avenir.</p><p>Lorsqu’un package est dans cet état, il ne peut être installé dans aucun environnement.</p><p>Lorsque l’état d’un package est défini sur DISABLED, la variable <code>retiredAt</code> date est automatiquement définie sur l’horodatage actuel de la requête.</p><p>Il est recommandé d’utiliser ce statut plutôt que d’utiliser la variable <code>DELETE /package</code> point d’entrée, car il est récupérable et l’historique d’installation est conservé pour tous les déploiements effectués avec ce package.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Le package de promotion est automatiquement placé dans ce statut si l'étape ASSEMBLEMENT échoue.</p><p>Pour renvoyer le package à l'étape ASSEMBLEMENT, vous devez relancer le processus d'extraction.</p></td> 
+   <td><p>Le package de promotion est automatiquement placé dans ce statut si l'étape ASSEMBLEMENT échoue.</p><p>Pour renvoyer le package à l’étape ASSEMBLEMENT, vous devez relancer le processus d’assemblage.</p><p>Pour plus d’informations sur l’assemblage d’un package, voir la section <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modifier ou assembler un package existant</a> dans l’article Créer ou modifier un package de promotion d’environnement.</td> 
   </tr> 
   </tbody> 
 </table>
