@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 56e1ceac4f37d9789f4a3a37ee0e6a7774133bfb
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 0%
+source-wordcount: '1238'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
 >Section breaks that you add to custom forms are saved in your system for re-use. For information about listing them, see [List and edit custom forms and widgets added to custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md).
 -->
 
-## Exigences d’accès
+## Conditions d’accès
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -42,23 +42,23 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Quelconque</td> 
+   <td role="rowheader"> <p>Forfait Adobe Workfront</p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
    <p>Nouveau : Standard</p>
    <p>Actuel : formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Création et configuration de l’accès à une section dans un formulaire personnalisé
 
@@ -113,7 +113,8 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
        <p>Pour plus d’informations sur les autorisations relatives aux objets, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Présentation des autorisations de partage sur les objets</a>.</p> 
        <p><b>REMARQUE</b>:  
        <ul> 
-       <li> <p>Les utilisateurs ne disposant pas des autorisations que vous indiquez ici ne peuvent pas voir les champs personnalisés et les widgets dans la section . </p> <p>C’est également le cas si vous affichez les valeurs des champs dans les rapports ou si vous les utilisez dans les champs calculés dans les rapports de mode texte.</p> </li> 
+       <li> <p>Les utilisateurs ne disposant pas des autorisations que vous indiquez ici ne peuvent pas voir les champs personnalisés et les widgets dans la section . </p> <p>C’est également le cas si vous affichez les valeurs des champs dans les rapports ou si vous les utilisez dans les champs calculés dans les rapports de mode texte.</p> </li>
+       <li><p>Pour les formulaires personnalisés de demande/publication : si l’accès Affichage est nécessaire pour voir les champs dans le saut de section, mais qu’un accès administrateur est nécessaire pour modifier les champs, la section et tous ses champs ne seront pas visibles par les non-administrateurs lorsqu’ils rempliront le formulaire. Une fois la requête créée, les utilisateurs disposant de l’accès Affichage peuvent afficher les champs de la section .</p></li>
        <li> <p>L’association de plusieurs types d’objets à votre formulaire peut modifier les autorisations d’affichage et de modification disponibles au cours de ces étapes. Pour plus d’informations, voir <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Comment plusieurs types d’objets peuvent affecter les autorisations de saut de section dans un formulaire personnalisé</a> dans cet article.</p> </li> 
         </ul> </p> </td> 
      </tr> 

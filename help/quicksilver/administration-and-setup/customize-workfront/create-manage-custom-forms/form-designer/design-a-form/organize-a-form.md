@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1285'
 ht-degree: 2%
 
 ---
@@ -108,6 +108,7 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
        <p><b>REMARQUE</b>:  
        <ul> 
        <li> <p>Les utilisateurs ne disposant pas des autorisations que vous indiquez ici ne peuvent pas voir les champs personnalisés et les widgets dans la section . </p> <p>C’est également le cas si vous affichez les valeurs des champs dans les rapports ou si vous les utilisez dans les champs calculés dans les rapports de mode texte.</p> </li> 
+       <li><p>Pour les formulaires personnalisés de demande/publication : si l’accès Affichage est nécessaire pour voir les champs dans le saut de section, mais qu’un accès administrateur est nécessaire pour modifier les champs, la section et tous ses champs ne seront pas visibles par les non-administrateurs lorsqu’ils rempliront le formulaire. Une fois la requête créée, les utilisateurs disposant de l’accès Affichage peuvent afficher les champs de la section .</p></li>
        <li> <p>L’association de plusieurs types d’objets à votre formulaire peut modifier les autorisations d’affichage et de modification disponibles au cours de ces étapes. Pour plus d’informations, voir <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Comment plusieurs types d’objets peuvent affecter les autorisations de saut de section dans un formulaire personnalisé</a> dans cet article.</p> </li> 
         </ul> </p> </td> 
      </tr> 
