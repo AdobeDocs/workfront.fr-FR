@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 2%
@@ -176,3 +176,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 1. Commencez à créer ou modifier un formulaire personnalisé et à ajouter des champs, comme décrit dans la section [Conception d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Aperçu** dans le coin supérieur droit pour voir à quoi ressemblera le formulaire lors de son utilisation, puis cliquez sur **Aperçu de la fin** pour revenir à la modification du formulaire.
+

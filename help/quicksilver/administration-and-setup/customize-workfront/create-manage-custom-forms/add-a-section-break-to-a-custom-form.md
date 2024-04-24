@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 2%
@@ -223,3 +223,4 @@ Dans un formulaire personnalisé avec saut de section configuré avec l’autori
 >Vous ajoutez le type d’objet Portfolio au formulaire, ce qui signifie que l’option d’autorisation Modification limitée n’est plus disponible pour le saut de section dans le formulaire.
 >
 >Un message à l’écran vous invite à passer à l’autorisation Modifier, qui est l’option la plus similaire à Modifier limité. Elle est compatible avec le type d’objet Projet et le type d’objet Portfolio.
+
