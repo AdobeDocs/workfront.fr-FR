@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
+exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
+source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -59,11 +60,9 @@ ht-degree: 0%
 1. Sélectionner **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
 1. Sélectionnez le package dans la liste affichée.
 1. (Conditionnel) Pour afficher les modules archivés (désactivés), activez la variable **Afficher les packages retirés** .
-1. Pour afficher le contenu, y compris tous les objets et leurs sous-objets, cliquez sur la flèche déroulante en regard du type d’objet dans la **Contenu** .
-1. Pour afficher les installations précédentes et les tentatives d’installation de ce package, cliquez sur **Déploiements**.
-1. Pour modifier le module, cliquez sur **Modifier le module** dans le coin supérieur droit de l’écran.
+1. (Facultatif) Pour afficher le contenu, y compris tous les objets et leurs sous-objets, cliquez sur la flèche de liste déroulante en regard du type d’objet dans la variable **Contenu** .
+1. (Facultatif) Pour afficher les installations précédentes et les tentatives d’installation de ce package, cliquez sur **Déploiements**.
+1. (Facultatif) Pour modifier le module, cliquez sur **Modifier le module** dans le coin supérieur droit de l’écran.
 1. Pour installer le package, cliquez sur **Installer** dans le coin supérieur droit de l’écran.
 
    Pour plus d’informations sur l’installation d’un package, voir [Installer un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
-
-

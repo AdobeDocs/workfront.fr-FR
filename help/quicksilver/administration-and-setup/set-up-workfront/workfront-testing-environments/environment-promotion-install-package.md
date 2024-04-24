@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
+source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Pour résoudre une collision, sélectionnez une action dans la colonne Action de
 
   Vous pouvez également choisir des objets à remplacer même si une collision n’est pas détectée.
 
-  Pour plus d’informations sur l’impact du remplacement sur les objets parents et enfants, voir
+  Pour plus d’informations sur l’impact du remplacement sur les objets parents et enfants, voir [Remplacement des objets parents et enfants](#overwriting-parent-and-child-objects) dans cet article.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->

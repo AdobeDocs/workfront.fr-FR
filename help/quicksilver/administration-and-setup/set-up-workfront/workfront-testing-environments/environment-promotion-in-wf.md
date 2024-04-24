@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
+source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Ces statuts sont les suivants :
   </tr> 
   <tr> 
    <td>DISABLED</td> 
-   <td><p>Ce statut sera utilisé pour masquer les packages de promotion précédemment utilisés qui ne seront plus installés dans aucun environnement à l’avenir.</p><p>Lorsqu’un package est dans cet état, il ne peut être installé dans aucun environnement.</p><p>Lorsque l’état d’un package est défini sur DISABLED, la variable <code>retiredAt</code> date est automatiquement définie sur l’horodatage actuel de la requête.</p><p>Il est recommandé d’utiliser ce statut plutôt que d’utiliser la variable<code>DELETE /package</code> point d’entrée, car il est récupérable et l’historique d’installation est conservé pour tous les déploiements effectués avec ce package.</p></td> 
+   <td><p>Cet état est utilisé pour masquer les packages de promotion précédemment utilisés qui ne seront plus installés dans aucun environnement à l’avenir.</p><p>Lorsqu’un package est dans cet état, il ne peut être installé dans aucun environnement.</p><p>Lorsque l’état d’un package est défini sur DISABLED, la variable <code>retiredAt</code> date est automatiquement définie sur l’horodatage actuel de la requête.</p><p>Il est recommandé d’utiliser ce statut plutôt que d’utiliser la variable<code>DELETE /package</code> point d’entrée, car il est récupérable et l’historique d’installation est conservé pour tous les déploiements effectués avec ce package.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
