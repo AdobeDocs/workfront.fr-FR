@@ -2,17 +2,17 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Panoramas Adobe Workfront
 description: Vous pouvez utiliser le connecteur des panoramas Adobe Workfront pour automatiser vos processus au sein des panoramas Workfront et les connecter à des applications et services tiers.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2325'
-ht-degree: 1%
+source-wordcount: '2591'
+ht-degree: 12%
 
 ---
 
@@ -28,9 +28,9 @@ Vous pouvez utiliser les modules Panoramas Adobe Workfront pour lire ou mettre �
 
 Pour obtenir des informations générales sur les panoramas Workfront, voir [Présentation des panoramas](/help/quicksilver/agile/boards-overview.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
  <col> 
@@ -38,7 +38,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td>
-  <td> <p>Quelconque</p> </td>
+  <td> <p>N’importe quelle</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td>
@@ -47,25 +47,25 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license</td> 
    <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 
 ## Conditions préalables
@@ -82,7 +82,7 @@ Pour créer une connexion aux panoramas Workfront :
 
 1. Dans n’importe quel [!DNL Adobe Workfront Boards] module, cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion .
 
-1. Renseignez les champs suivants :
+1. Renseignez les champs suivants :
 
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -91,7 +91,7 @@ Pour créer une connexion aux panoramas Workfront :
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[!UICONTROL Nom de la connexion]</td>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
           <td>
             <p>Saisissez un nom pour cette connexion.</p>
           </td>
@@ -105,7 +105,7 @@ Pour créer une connexion aux panoramas Workfront :
           <td>Choisissez si vous souhaitez vous connecter à un compte de service ou à un compte personnel.</td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL ID client]<p>(Facultatif)</p></td>
+          <td role="rowheader">[!UICONTROL Client ID]<p>(Facultatif)</p></td>
           <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID client]. Vous pouvez le trouver dans la section [!UICONTROL Informations d’identification] du [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
@@ -117,7 +117,7 @@ Pour créer une connexion aux panoramas Workfront :
           <td>Saisissez l’URL que votre instance de Workfront utilisera pour authentifier cette connexion. <p>La valeur par défaut est <code>https://oauth.my.workfront.com/integrations/oauth2</code>.</p>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL Préfixe d’hôte]</td>
+          <td role="rowheader">[!UICONTROL Host prefix]</td>
           <td>Saisissez votre préfixe d’hôte.<p>La valeur par défaut est <code>origin-</code>.</p>
         </tr>
       </tbody>
@@ -128,11 +128,11 @@ Pour créer une connexion aux panoramas Workfront :
 
 Lorsque vous configurez des modules de panoramas Workfront, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de cela, d’autres champs de panoramas Workfront peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [vignette](#cards)
+* [Vignettes](#cards)
 * [Panneaux](#boards)
 * [Colonnes](#columns)
 * [Balises](#tags)
@@ -184,7 +184,7 @@ After the webhook is created, you can view the address of the endpoint that even
 
 -->
 
-### vignette
+### Vignettes
 
 * [Ajouter un élément de la liste de contrôle](#add-checklist-item)
 * [Ajouter une sous-tâche](#add-subtask)
@@ -261,7 +261,7 @@ Ce module d’action crée une carte sur un panorama Workfront.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de colonne]</td> 
-   <td>Saisissez ou mappez l’identifiant de la colonne à laquelle vous souhaitez ajouter une sous-tâche.<p>Vous trouverez l’ID de balise dans les informations renvoyées à partir du module Lire un panorama .</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la colonne à laquelle vous souhaitez ajouter une sous-tâche.<p>L’identifiant de colonne figure dans les informations renvoyées à partir du module Lecture d’un panorama .</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -292,7 +292,7 @@ Ce module d’action déplace une carte vers une colonne différente sur le mêm
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de colonne de destination]</td> 
-   <td>Saisissez ou mappez l’identifiant de la colonne vers laquelle vous souhaitez déplacer la carte.<p>Vous trouverez l’ID de balise dans les informations renvoyées à partir du module Lire un panorama .</p></td> 
+   <td>Saisissez ou mappez l’identifiant de la colonne vers laquelle vous souhaitez déplacer la carte.<p>L’identifiant de colonne figure dans les informations renvoyées à partir du module Lecture d’un panorama .</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pour indexer]</td> 
@@ -346,7 +346,7 @@ Ce module d’action met à jour les informations relatives à une carte que vou
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de carte]</td> 
-   <td>Saisissez ou mappez une nouvelle description pour la carte/\.</p></td> 
+   <td>Saisissez ou mappez une nouvelle description pour la carte.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ Ce module d’action renvoie des informations sur un seul panorama, telles que l
 
 ### Colonnes
 
+* [Création d’une colonne](#create-a-column)
+* [Recherche d’une colonne](#search-for-a-column)
+* [Mettre à jour une colonne](#update-a-column)
+
 #### Création d’une colonne
 
 Ce module d’action crée une nouvelle colonne sur le panorama spécifié.
@@ -417,8 +421,62 @@ Ce module d’action crée une nouvelle colonne sur le panorama spécifié.
    <td>Saisissez ou mappez l’identifiant du panorama auquel vous souhaitez ajouter une colonne.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL ID de colonne]</td> 
+   <td>Saisissez ou mappez l'identifiant de la colonne que vous souhaitez mettre à jour.<p>L’identifiant de colonne figure dans les informations renvoyées à partir du module Lecture d’un panorama .</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Nom de la colonne]</td> 
-   <td>Saisissez ou mappez un nom pour la nouvelle colonne.</td> 
+   <td>Saisissez ou mappez un nouveau nom pour la colonne.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limite de travaux en cours]</td> 
+   <td>Saisissez ou mappez une nouvelle limite de travail en cours pour la colonne.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Recherche d’une colonne
+
+Ce module de recherche renvoie des informations sur la colonne portant le nom spécifié.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour obtenir des instructions sur la connexion à [!DNL Workfront] app to [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux panoramas Workfront</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID de panorama]</td> 
+   <td>Saisissez ou mappez l’identifiant du panorama qui contient la colonne que vous souhaitez récupérer.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Nom de colonne]</td> 
+   <td>Saisissez ou mappez le nom de la colonne à récupérer.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Mettre à jour une colonne
+
+Ce module d’action met à jour la limite de nom ou de travail en cours de la colonne spécifiée.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>Vous pouvez utiliser une connexion Workfront existante pour vous connecter aux panoramas Workfront ou vous pouvez utiliser une connexion à des panoramas Workfront spécifique. </p><p>Pour obtenir des instructions sur la connexion à [!DNL Workfront] app to [!DNL Workfront Fusion], voir <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Création d’une connexion aux panoramas Workfront</a> dans cet article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID de panorama]</td> 
+   <td>Saisissez ou mappez l’identifiant du panorama qui contient la colonne que vous souhaitez récupérer.<p>L’identifiant du panorama figure dans l’URL lors de son affichage dans Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Nom de colonne]</td> 
+   <td>Saisissez ou mappez le nom de la colonne à récupérer.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -527,7 +585,7 @@ Ce module d’action récupère les commentaires de la carte spécifiée.
    <td>Saisissez ou mappez l’identifiant de la carte pour laquelle vous souhaitez récupérer les commentaires.<p>L’ID de carte figure dans l’URL lors de l’affichage de la carte dans Workfront.</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Limite]</td> 
+   <td>[!UICONTROL Limit]</td> 
    <td>Saisissez le nombre maximal de commentaires que le module doit renvoyer dans un cycle d’exécution.</p></td> 
   </tr> 
  </tbody> 
@@ -549,10 +607,10 @@ Ce module d’action effectue un appel personnalisé à l’API des panoramas Wo
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Saisissez un chemin relatif à<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
+   <td> <p>Saisissez un chemin relatif à <code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Méthode [!UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
    <td> <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p><p>Pour la plupart des appels de panorama, la méthode est POST. </td> 
   </tr> 
   <tr> 
@@ -561,15 +619,15 @@ Ce module d’action effectue un appel personnalisé à l’API des panoramas Wo
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Pour les panoramas Workfront, cette section est généralement laissée vide.</p>  </td> 
+   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Pour les panoramas Workfront, cette section est généralement laissée vide.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un graphique JSON incorporé. </p> <p>Exemple :</p><p>Cet exemple met à jour un nom de colonne. Vous pouvez inclure la variable <code>boardId</code> et <code>columnId</code> comme GUID codés en dur ou mappés à partir d’un module précédent.<p><pre>{
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un graphique JSON incorporé. </p> <p>Exemple :</p><p>Cet exemple met à jour un nom de colonne. Vous pouvez inclure la variable <code>boardId</code> et <code>columnId</code> comme GUID codés en dur ou mappés à partir d’un module précédent.<p><pre>{
 
   &quot;query&quot;: &quot;mutation { updateColumn(boardId: \&quot;\&quot;, columnId: \&quot;\&quot;, updateColumnInput: { name: \&quot;\&quot; }) { id name }}&quot;
 
-}</pre><p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p>
+}</pre><p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p>
 <div class="example" data-mc-autonum="<b>Example: </b>">
 <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p>
 </div> </p> </td>
