@@ -6,10 +6,10 @@ description: Vous pouvez apporter des commentaires à tous les objectifs que vou
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 97%
 
 ---
 
@@ -50,11 +50,9 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
 </td>
  </tr>
  <tr>
- <td role="rowheader">Licence Adobe Workfront*</td>
+ <td role="rowheader">Licence Adobe Workfront</td>
  <td>
- <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
- Ou
- <p>Licence actuelle : demande ou supérieure</p> </td>
+ <p>N’importe quelle</td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
@@ -65,7 +63,7 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
  </tr>
  <tr>
  <td role="rowheader">Configuration du niveau d’accès</td>
- <td> <p>Affichage ou accès supérieur pour les Objectifs</p> <p><b>NOTE</b><p>Si vous n’y avez pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été définies pour votre niveau d’accès. Pour plus d’informations, consultez la section <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Accorder l’accès aux Objectifs Adobe Workfront</a></span>.</td>
+ <td> <p>Affichage ou accès supérieur pour les Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
@@ -76,10 +74,15 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 

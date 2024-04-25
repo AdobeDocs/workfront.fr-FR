@@ -1,125 +1,78 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Copie d’objectifs dans les objectifs Adobe Workfront
+title: Copier des objectifs dans Objectifs Adobe Workfront
 description: Vous pouvez copier des objectifs dans les objectifs Adobe Workfront pour créer un objectif. Certaines des informations d’objectif d’origine sont transférées vers le nouvel objectif.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 0%
+source-wordcount: '764'
+ht-degree: 11%
 
 ---
 
-# Copie d’objectifs dans les objectifs Adobe Workfront
+# Copier des objectifs dans Objectifs Adobe Workfront
 
 Vous pouvez copier des objectifs dans les objectifs Adobe Workfront pour créer un objectif. Certaines des informations d’objectif d’origine sont transférées vers le nouvel objectif.
 
-## Exigences d’accès
-
-<!--drafted for P&P release: 
-
-You must have the following:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
-
--->
+## Conditions d’accès
 
 Vous devez disposer des éléments suivants :
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro ou version ultérieure</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produit</td> 
-   <td> <p>Pour accéder aux fonctionnalités décrites dans cet article, vous devez acheter une licence supplémentaire pour les objectifs d’Adobe Workfront. </p> <p>Pour plus d’informations, voir <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Conditions requises pour utiliser les objectifs Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux objectifs ou plus</p> <p><b>NOTE</b>
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Forfait Adobe Workfront</td>
+ <td>
+ <p>N’importe quelle</p>
 
-<p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir :</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Accorder l’accès aux objectifs Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> 
-    <div> 
-     <p>Gérer les autorisations pour l’objectif</p> 
-     <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partage d’un objectif dans les objectifs Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licence Adobe Workfront*</td>
+ <td>
+ <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ Ou
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produit*</td>
+ <td>
+ <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+<ul>
+<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
+<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+ <p>Ou</p>
+ <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Niveau d’accès</td>
+ <td> <p>Modifier l’accès aux objectifs</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorisations d’objet</td>
+ <td>
+  <div>
+  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
+  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
-
-## Conditions préalables
-
-Avant de pouvoir commencer, vous devez disposer des éléments suivants :
-
-* Un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Observations relatives à la copie des objectifs
 
@@ -135,14 +88,14 @@ Voici quelques-unes des raisons pour lesquelles vous souhaitez copier un objecti
 >
 >Vous pouvez copier un objectif dans n’importe quel état. Pour plus d’informations sur les états d’objectif, voir [Présentation de l’état des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
 
-Tenez compte des points suivants lors de la copie des objectifs :
+Tenez compte des points suivants lors de la copie d’objectifs :
 
-* Toutes les informations sur l’objectif sont également copiées vers le nouvel objectif.
+* Toutes les informations relatives à l’objectif sont également copiées vers le nouvel objectif.
 * Vous pouvez choisir de copier les résultats d’un objectif existant. Le nom des résultats est transféré vers le nouvel objectif, mais la progression actuelle des résultats sur l’objectif existant ne copie pas vers le nouvel objectif. Par défaut, les résultats copiés sont attribués au même propriétaire.
 
-   >[!NOTE]
-   >
-   >Si le propriétaire d’origine a été supprimé ou désactivé de Workfront, le nouveau résultat est attribué à l’utilisateur connecté.
+  >[!NOTE]
+  >
+  >Si le propriétaire d’origine a été supprimé ou désactivé de Workfront, le nouveau résultat est attribué à l’utilisateur connecté.
 
 * Vous ne pouvez pas copier les activités d’un objectif lorsque vous copiez ce dernier.
 
@@ -224,26 +177,25 @@ To copy goals in the Production environment:
    ![](assets/copy-goal-box-unshimmed.png)
 
 1. Mettez à jour les informations suivantes pour l’objectif copié :
-   * **Nom de l’objectif**: Nom du nouvel objectif. Le nom par défaut de l’objectif copié est &quot;Copie de &lt;original goal=&quot;&quot;>&quot;.
-   * **Période**: La période pendant laquelle vous souhaitez atteindre l’objectif. Sélectionnez une période dans le menu déroulant.
+   * **Nom de l’objectif**: nom du nouvel objectif. Le nom par défaut de l’objectif copié est &quot;Copie de &lt;original goal=&quot;&quot;>&quot;.
+   * **Période**: période pendant laquelle vous souhaitez atteindre l’objectif. Sélectionnez une période dans le menu déroulant.
 
-      Ou
+     Ou
 
-      Sélectionner **Activation des dates personnalisées** pour spécifier des dates personnalisées pour le **Début** et **Dates de fin**. Le paramètre Activer les dates personnalisées est désactivé par défaut.
+     Sélectionner **Activation des dates personnalisées** pour spécifier des dates personnalisées pour le **Début** et **Dates de fin**. Le paramètre Activer les dates personnalisées est désactivé par défaut.
 
-      >[!TIP]
-      >
-      >   La désélection de l’option Activer les dates personnalisées rétablit la période de l’objectif d’origine.
+     >[!TIP]
+     >
+     >   La désélection de l’option Activer les dates personnalisées rétablit la période de l’objectif d’origine.
 
-      * **Propriétaire de l’objectif**: Propriétaire de l’objectif. Il peut s’agir d’un utilisateur, d’une équipe, d’un groupe ou d’une société. La valeur par défaut est le propriétaire de l’objectif d’origine.
-      * **Description**: Informations supplémentaires sur l’objectif.
-      * **Copie de résultats**: Sélectionnez cette option si vous souhaitez transférer les résultats de l’objectif actuel vers l’objectif copié. Cela duplique les résultats d’origine et les joint à l’objectif copié. Les résultats de l’objectif copié ont les mêmes propriétaire, noms et valeurs mesurées que les résultats de l’objectif d’origine.
+      * **Propriétaire de l’objectif**: propriétaire de l’objectif. Il peut s’agir d’un utilisateur, d’une équipe, d’un groupe ou d’une société. Le ou la propriétaire de l’objectif initial est désigné par défaut.
+      * **Description**: informations supplémentaires sur l’objectif.
+      * **Copie de résultats**: sélectionnez cette option si vous souhaitez transférer les résultats de l’objectif actuel vers l’objectif copié. Cela duplique les résultats d’origine et les joint à l’objectif copié. Les résultats de l’objectif copié ont les mêmes propriétaire, noms et valeurs mesurées que les résultats de l’objectif initial.
 
-         >[!NOTE]
-         >
-         >* La progression du résultat d’origine ne passe pas à l’objectif copié.
-         >* Si le propriétaire d’origine a été supprimé ou désactivé de Workfront, le nouveau résultat est attribué à l’utilisateur connecté.
-
+        >[!NOTE]
+        >
+        >* La progression du résultat d’origine ne passe pas à l’objectif copié.
+        >* Si le propriétaire d’origine a été supprimé ou désactivé de Workfront, le nouveau résultat est attribué à l’utilisateur connecté.
 
 1. Cliquez sur **Copier l’objectif**.
 
@@ -256,7 +208,6 @@ To copy goals in the Production environment:
    >* [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-results-to-goals.md)
    >* [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
    >* [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md)
-
    >
    >Pour plus d’informations sur l’activation des objectifs, voir [Activation des objectifs](../goal-management/activate-goals.md).
 

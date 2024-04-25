@@ -1,122 +1,78 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Filtrage des informations dans les objectifs Adobe Workfront
+title: Filtrer des informations dans Objectifs Adobe Workfront
 description: Vous pouvez afficher les objectifs que vous ou toute autre personne avez ajoutés dans les objectifs Adobe Workfront. Pour plus d’informations sur la création d’objectifs, voir Création d’objectifs dans les objectifs Adobe Workfront. Lorsque vous affichez des objectifs, vous pouvez filtrer les informations dans les objectifs de Workfront afin de n’afficher que les objectifs qui vous semblent importants.
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 2%
+source-wordcount: '1335'
+ht-degree: 7%
 
 ---
 
-# Filtrage des informations dans les objectifs Adobe Workfront
+# Filtrer des informations dans Objectifs Adobe Workfront
 
 Vous pouvez afficher les objectifs que vous ou toute autre personne avez ajoutés dans les objectifs Adobe Workfront. Pour plus d’informations sur la création d’objectifs, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md). Lorsque vous affichez des objectifs, vous pouvez filtrer les informations dans les objectifs de Workfront afin de n’afficher que les objectifs qui vous semblent importants.
 
-## Exigences d’accès
+## Conditions d’accès
 
-<!--drafted - replace the table below with this one when P&P releases: 
+Pour effectuer les actions décrites dans cet article, vous devez disposer de l’accès suivant :
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
--->
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Forfait Adobe Workfront</td>
+ <td>
+ <p>N’importe quelle</p>
 
-Vous devez disposer des accès suivants pour effectuer les actions décrites dans cet article :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro ou version ultérieure</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produit</td> 
-   <td> <p>Pour accéder aux fonctionnalités décrites dans cet article, vous devez acheter une licence supplémentaire pour les objectifs d’Adobe Workfront. </p> <p>Pour plus d’informations, voir <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Conditions requises pour utiliser les objectifs Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Affichage ou accès supérieur aux objectifs</p> <p><b>NOTE</b>
-
-<p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir :</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Accorder l’accès aux objectifs Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> 
-    <div> 
-     <p>Affichage ou autorisations supérieures sur les objectifs</p> 
-     <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partage d’un objectif dans les objectifs Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licence Adobe Workfront*</td>
+ <td>
+ <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ Ou
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produit*</td>
+ <td>
+ <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+<ul>
+<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
+<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+ <p>Ou</p>
+ <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Niveau d’accès</td>
+ <td> <p>Modifier l’accès aux objectifs</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorisations d’objet</td>
+ <td>
+  <div>
+  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
+  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
-
-## Conditions préalables
-
-Avant de pouvoir commencer, vous devez disposer des éléments suivants :
-
-* Un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Présentation des filtres dans les objectifs Workfront
 
@@ -130,17 +86,17 @@ Vous pouvez localiser et filtrer les objectifs dans les sections suivantes de la
 * Graphiques
 * Alignement des objectifs
 
-Pour plus d’informations sur les sections de la zone Objectifs , voir [Présentation des sections Objectifs d’Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Pour plus d’informations sur les sections de la zone Objectifs , voir [Présentation des sections sur les objectifs d’Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
 >Vous pouvez configurer des filtres pour une section et ils restent persistants lors du passage à une autre section des objectifs de Workfront.
 
-Tenez compte des points suivants lorsque vous utilisez des filtres dans les objectifs Workfront :
+Tenez compte des points suivants lorsque vous utilisez des filtres dans les objectifs de Workfront :
 
 * Vous pouvez créer et appliquer un filtre sans l’enregistrer, ou enregistrer un filtre pour le réutiliser ultérieurement.
 
-   Les scénarios suivants existent :
+  Les scénarios suivants existent :
 
    * Lorsque vous enregistrez un filtre, il devient le filtre par défaut pour vous chaque fois que vous vous connectez aux objectifs Workfront.
    * Lorsque vous appliquez un filtre sans l’enregistrer, vous pouvez revenir aux listes d’origine en actualisant votre page.
@@ -180,7 +136,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
 
    * Cliquez sur l’un des filtres prédéfinis suivants pour afficher uniquement les objectifs pour les propriétaires suivants :
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -196,13 +152,13 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
        </tr> 
        <tr> 
         <td>Mes équipes</td> 
-        <td> <p>Les objectifs pour lesquels l’une de vos équipes est sélectionnée en tant que propriétaire. </p> <p><b>CONSEIL</b>
+        <td> <p>Les objectifs pour lesquels l’une de vos équipes est sélectionnée comme propriétaire. </p> <p><b>CONSEIL</b>
 
-      Aucun objectif ne s’affiche lorsque vous n’êtes affecté à aucune équipe. </p> </td>
-      </tr> 
+     Aucun objectif ne s’affiche lorsque vous n’êtes affecté à aucune équipe. </p> </td>
+     </tr> 
        <tr> 
         <td>Mes groupes</td> 
-        <td>Les objectifs pour lesquels l’un de vos groupes est sélectionné en tant que propriétaire. </td> 
+        <td>Les objectifs pour lesquels l’un de vos groupes est sélectionné comme propriétaire. </td> 
        </tr> 
        <tr> 
         <td>Entreprise</td> 
@@ -216,7 +172,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
 
    * Cliquez sur **Nouveau filtre** pour créer un nouveau filtre, sélectionnez parmi les options suivantes pour personnaliser le nouveau filtre :
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -247,9 +203,9 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
         <td role="rowheader">Propriétaire</td> 
         <td> <p>Commencez à saisir le nom d’un propriétaire, puis sélectionnez-le lorsqu’il apparaît dans la liste. </p> <p>Vous pouvez saisir les noms des utilisateurs, des équipes, des groupes ou le nom de votre organisation ou sélectionner des options prédéfinies. </p> <p>Les options de filtre prédéfinies suivantes se rapportent toujours à l’utilisateur actuellement connecté : </p> 
          <ul> 
-          <li> <p><strong>Me</strong>: Affiche les objectifs dont vous êtes le propriétaire.</p> </li> 
-          <li> <p><strong>Mon équipe d’accueil</strong> et <strong>Toutes mes équipes</strong>: Affiche les objectifs pour lesquels votre équipe d’accueil ou l’une de vos équipes est désignée comme propriétaire. </p> <p>Conseil : Aucun objectif ne s’affiche lorsque vous n’êtes affecté à aucune équipe. </p> </li> 
-          <li> <p><strong>Mon groupe d’accueil</strong> et <strong>Tous mes groupes</strong>: Affiche les objectifs pour lesquels votre groupe d’accueil ou l’un de vos groupes est désigné comme propriétaire.</p> </li> 
+          <li> <p><strong>Me</strong>: affiche les objectifs dont vous êtes le propriétaire.</p> </li> 
+          <li> <p><strong>Mon équipe d’accueil</strong> et <strong>Toutes mes équipes</strong>: affiche les objectifs pour lesquels votre équipe d’accueil ou l’une de vos équipes est désignée comme propriétaire. </p> <p>Conseil : Aucun objectif ne s’affiche lorsque vous n’êtes affecté à aucune équipe. </p> </li> 
+          <li> <p><strong>Mon groupe d’accueil</strong> et <strong>Tous mes groupes</strong>: affiche les objectifs pour lesquels votre groupe d’accueil ou l’un de vos groupes est désigné comme propriétaire.</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
@@ -270,7 +226,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
 
 1. Cliquez sur **Enregistrer** pour enregistrer le filtre afin de l’utiliser ultérieurement, ajoutez un nom pour le filtre dans la variable **Ajouter un nom de filtre** champ et clic **Terminé**.
 
-   Le filtre est ainsi enregistré dans la variable **Enregistré** du créateur de filtres. Vous pouvez utiliser ce filtre à l’avenir.
+   Le filtre de la variable **Enregistré** du créateur de filtres. Vous pouvez utiliser ce filtre à l’avenir.
 
    Le dernier filtre enregistré et appliqué s’affiche par défaut lors de la prochaine connexion à Workfront.
 
@@ -296,6 +252,6 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
-1. (Facultatif et conditionnel) Cliquez sur **Réappliquer le filtre** pour appliquer le filtre et omettre les éléments affichés à l&#39;étape précédente.
+1. (facultatif et conditionnel) Cliquez sur **Réappliquer le filtre** pour appliquer le filtre et omettre les éléments affichés à l&#39;étape précédente.
 
 

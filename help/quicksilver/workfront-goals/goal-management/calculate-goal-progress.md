@@ -1,19 +1,19 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront
+title: Vue d’ensemble de la progression et de l’état des objectifs dans Objectifs Adobe Workfront
 description: La progression de l’objectif dépend d’indicateurs de progression tels que les activités, les résultats ou les objectifs pour les enfants. L’état de l’objectif est déterminé par l’état d’avancement de l’objectif à l’heure actuelle.
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 1%
+source-wordcount: '820'
+ht-degree: 5%
 
 ---
 
-# Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront
+# Vue d’ensemble de la progression et de l’état des objectifs dans Objectifs Adobe Workfront
 
 <!--drafted for P&P release: the note at the top will need to be replaced with this:
 
@@ -51,9 +51,9 @@ Adobe Workfront calcule automatiquement la progression de l’objectif en foncti
 
 ## Conditions préalables
 
-Avant de pouvoir commencer, vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants avant de commencer :
 
-* Un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
+* Un modèle de disposition qui inclut la zone Objectifs dans le menu principal.
 
 ## Présentation de la progression des objectifs et du seuil
 
@@ -62,7 +62,7 @@ Une fois que vous avez activé un objectif, les objectifs de Workfront commencen
 | Indicateur | Description de l’indicateur |
 |---|---|
 | Pourcentage réel terminé | Quelle est la part de l&#39;objectif réellement atteint jusqu&#39;à présent ? Les objectifs de Workfront calculent cette valeur en calculant la moyenne du pourcentage d’achèvement de tous les indicateurs de progression associés à l’objectif. |
-| Pourcentage attendu terminé | Quelle partie de l’objectif doit être atteinte jusqu’à présent pour que l’objectif soit atteint à temps. Les objectifs de Workfront calculent cette valeur en observant la durée de l’objectif et le moment présent dans le temps. L’objectif doit afficher cette valeur à l’heure actuelle, si elle doit être terminée à temps. |
+| Pourcentage attendu terminé | Quelle partie de l’objectif doit être atteinte jusqu’à présent pour que l’objectif soit atteint à temps. Les objectifs de Workfront calculent cette valeur en observant la durée de l’objectif et le moment présent dans le temps. L’objectif doit afficher cette valeur à l’heure actuelle, s’il doit se terminer à temps. |
 | Progression | Libellé qui indique si l’objectif est sur la cible pour être atteint à temps, ou s’il est menacé ou s’il a des difficultés à ne pas l’être. |
 
 ![](assets/in-trouble-goal-progress-expanded.png)
@@ -81,23 +81,23 @@ Les éléments suivants sont considérés comme des indicateurs de progression p
 
 * Résultats
 
-   Pour plus d’informations sur l’ajout de résultats aux objectifs, voir [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Pour plus d’informations sur l’ajout de résultats aux objectifs, voir [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Activités
 
-   Pour plus d’informations sur l’ajout d’activités comprenant des projets à des objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Pour plus d’informations sur l’ajout d’activités comprenant des projets à des objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Objectifs pour les enfants
 
-   Pour plus d’informations sur les objectifs parents et enfants, voir [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Pour plus d’informations sur les objectifs parents et enfants, voir [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-   Workfront Goals calcule le pourcentage réel de réalisation à l’aide de la formule suivante :
+  Workfront Goals calcule le pourcentage réel de réalisation à l’aide de la formule suivante :
 
-   ```
-   Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
-   ```
+  ```
+  Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
+  ```
 
-   Par exemple, si un objectif a un résultat qui est de 20 % terminé, une barre de progression manuelle qui est de 30 % terminée, un projet qui est 10 % terminé et un objectif enfant qui est de 40 % terminé, le pourcentage d’objectif terminé est de 25 %.
+  Par exemple, si un objectif a un résultat qui est de 20 % terminé, une barre de progression manuelle qui est de 30 % terminée, un projet qui est 10 % terminé et un objectif enfant qui est de 40 % terminé, le pourcentage d’objectif terminé est de 25 %.
 
 ### Pourcentage attendu terminé {#expected-percent-complete}
 
@@ -146,7 +146,7 @@ Le tableau ci-dessous répertorie les libellés de condition d’objectif et les
    <td><b>Définition de la progression de l’objectif</b></td> 
    <td><b>Pourcentage de progression de l'objectif</b></td> 
    <td><b>Couleur de la barre complète de pourcentage</b></td> 
-   <td><b>Icône Indicateur de condition</b></td> 
+   <td><b>Icône de l’indicateur de condition</b></td> 
   </tr> 
   <tr> 
    <td>Nouveau</td> 
@@ -156,23 +156,23 @@ Le tableau ci-dessous répertorie les libellés de condition d’objectif et les
    <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>Dans les temps</span> </p> </td> 
+   <td> <p><span>Sur Target</span> </p> </td> 
    <td>L’objectif fonctionne comme prévu et il est très probable qu’il se termine à temps. </td> 
-   <td>90-100%</td> 
+   <td>90 à 100 %</td> 
    <td>Vert</td> 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>En danger</span> </p> </td> 
+   <td> <p><span>À risque</span> </p> </td> 
    <td>L'objectif est à la traîne, mais il pourrait encore être possible de le réaliser à temps. </td> 
-   <td>70-89.99%</td> 
+   <td>70 à 89,99 %</td> 
    <td>Jaune</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risque_icon_condition.png"></td> 
   </tr> 
   <tr> 
    <td> <p><span>En difficulté</span> </p> </td> 
    <td> <p>Il est très probable que l’objectif ne sera pas atteint à temps. </p> </td> 
-   <td>0-69.99%</td> 
+   <td>0 à 69,99 %</td> 
    <td>Rouge</td> 
    <td><img src="assets/in-trouble-icon-condition.png" alt="in_troubl_icon_condition.png"></td> 
   </tr> 
