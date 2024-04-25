@@ -12,14 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # Installer un package de promotion d’environnement
+
+Après avoir créé un package, vous pouvez l’installer dans un autre environnement.
+
+## Conditions préalables
+
+Vous devez avoir créé un package avant de pouvoir l’installer.
+
+Pour obtenir des instructions, voir [Créer ou modifier un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 >[!NOTE]
 >
@@ -31,7 +39,7 @@ ht-degree: 0%
 1. Sélectionnez le package dans la liste affichée.
 1. Pour chaque objet ayant une collision, sélectionnez la manière de résoudre la collision.
 
-   Pour résoudre une collision, cliquez sur la flèche de liste déroulante en regard du type d’objet, puis sélectionnez l’action à effectuer.
+   Pour résoudre une collision, cliquez sur la flèche déroulante en regard du type d’objet, puis sélectionnez l’action à effectuer.
 
    Pour plus d’informations, voir [Collisions](#collisions) dans cet article
 1. Pour déployer le package dans le nouvel environnement, cliquez sur **Déployer** dans le coin supérieur droit de l’écran.

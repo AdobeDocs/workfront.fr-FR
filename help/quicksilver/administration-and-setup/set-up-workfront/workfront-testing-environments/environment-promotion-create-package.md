@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,17 @@ ht-degree: 0%
 
    La page Nouveau kit de promotion s’ouvre.
 
-1. dans le **Nom du module** , saisissez le nom du module.
+1. Dans le **Nom du module** , saisissez le nom du module.
 1. Dans le **Description** , saisissez une description pour ce package.
 1. Pour ajouter un objet au module, cliquez sur **Ajouter des objets** dans le volet de navigation de gauche, sélectionnez le type d’objet à ajouter.
 1. Sélectionnez un ou plusieurs objets dans la liste ou saisissez le nom dans la barre de recherche et sélectionnez l’objet lorsqu’il apparaît dans la liste. Vous pouvez sélectionner plusieurs objets dans la liste.
 1. Cliquez sur **Ajouter (objets X)** pour ajouter les objets sélectionnés au package.
 
-   Par exemple, si vous avez sélectionné trois projets à ajouter au projet, le bouton indique : **Ajouter 3 projets**.
+   >[!INFO]
+   >
+   >**Exemple**
+   >
+   >Si vous avez sélectionné trois projets à ajouter au projet, le bouton indique : **Ajouter 3 projets**.
 
    Les objets que vous avez ajoutés apparaissent dans la zone Contenu du module située à droite de la page.
 
@@ -59,7 +63,7 @@ ht-degree: 0%
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionner **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
 1. Sélectionnez le package dans la liste affichée.
-1. (Conditionnel) Pour afficher les modules archivés (désactivés), activez la variable **Afficher les packages retirés** .
+1. (Conditionnel) Pour afficher les modules désactivés, activez la variable **Afficher les packages retirés** .
 1. (Facultatif) Pour afficher le contenu, y compris tous les objets et leurs sous-objets, cliquez sur la flèche de liste déroulante en regard du type d’objet dans la variable **Contenu** .
 1. (Facultatif) Pour afficher les installations précédentes et les tentatives d’installation de ce package, cliquez sur **Déploiements**.
 1. (Facultatif) Pour modifier le module, cliquez sur **Modifier le module** dans le coin supérieur droit de l’écran.
