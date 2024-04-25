@@ -6,10 +6,10 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 6%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’u
 
   >[!NOTE]
   >
-  >Vous devez disposer des autorisations nécessaires pour créer des tâches afin de créer des tâches dans le widget des tâches.
+  >Vous devez disposer des autorisations nécessaires pour créer des tâches afin de créer des tâches dans le widget Tâches. Seules les tâches personnelles saisies par l’utilisateur actuel apparaîtront dans le widget.
 
 Par défaut, la page d’accueil contient quelques widgets spécifiques en fonction de votre type de licence. Les tableaux ci-dessous indiquent les widgets que les utilisateurs de chaque type de licence voient lorsqu’ils accèdent pour la première fois à la Nouvelle page d’accueil.
 

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 80f20ef1020a7040f0a1f5fb47227764bf1f0b54
 workflow-type: tm+mt
-source-wordcount: '14171'
+source-wordcount: '14166'
 ht-degree: 98%
 
 ---
@@ -1743,9 +1743,9 @@ ht-degree: 98%
    * Lac de données Workfront {#data-lake}
       * [Présentation du lac de données Workfront](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Créer un compte de lecteur](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Établissement d’une connexion au lac de données Workfront](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Dictionnaire de données de lac de données Workfront](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Exemples de requête de lac de données Workfront de base](reports-and-dashboards/data-lake/basic-query-examples.md)
-      * [Partage de données de lac avec des outils de Business Intelligence et des entrepôts de données externes](reports-and-dashboards/data-lake/share-data-externally.md)
 * Gérer les ressources {#manage-resources}
    * [Gérer des ressources](resource-mgmt/manage-resources.md)
    * Gestion des ressources {#resource-management}
