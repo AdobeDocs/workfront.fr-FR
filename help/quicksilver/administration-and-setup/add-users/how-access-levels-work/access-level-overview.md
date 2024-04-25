@@ -1,5 +1,5 @@
 ---
-title: Nouveaux niveaux d’accès - Aperçu
+title: Vue d’ensemble des nouveaux niveaux d’accès
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 416ec4f50a03e0911053fe580ff7e6ca2e648a96
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 4%
+source-wordcount: '1702'
+ht-degree: 9%
 
 ---
 
-# Nouveaux niveaux d’accès - Aperçu
+# Vue d’ensemble des nouveaux niveaux d’accès
 
 En tant qu’administrateur Adobe Workfront, vous attribuez un niveau d’accès à un utilisateur à deux fins :
 
@@ -73,7 +73,7 @@ Pour plus d’informations, voir [Octroi d’un accès administratif complet à 
 
 * Planification, création et suivi de tous les projets au même endroit
 * Automatiser les processus de routine
-* Gestion des ressources
+* Gérer des ressources
 * Suivi et collaboration sur les requêtes
 * Tracker et générer des rapports sur les finances du projet
 * Démarrage des requêtes de travail entrantes
@@ -263,6 +263,7 @@ Utilisateurs disposant de ce niveau d’accès intégré :
 
 * Peut effectuer des requêtes et les mettre à jour
 * Peut télécharger et approuver des documents
+* Peut approuver des projets, des tâches et des problèmes
 * Peuvent examiner l’état des problèmes qu’ils ont envoyés.
 * Peut être affecté à des tâches, mais ne peut pas les terminer
 * Ne peuvent accéder aux requêtes que depuis le menu principal. Pour plus d’informations sur les files d’attente de requêtes, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
