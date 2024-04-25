@@ -6,10 +6,10 @@ description: Dans la [!UICONTROL panoramas] vous pouvez créer un panorama ou en
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '802'
+ht-degree: 6%
 
 ---
 
@@ -109,3 +109,4 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 1. Cliquez sur **[!UICONTROL Toutes les panoramas]** pour revenir au tableau de bord des panoramas.
 
    Vous pouvez également localiser le menu déroulant intitulé &quot;nom du panorama actuel&quot;, puis cliquer dessus pour passer à un autre panorama.
+
