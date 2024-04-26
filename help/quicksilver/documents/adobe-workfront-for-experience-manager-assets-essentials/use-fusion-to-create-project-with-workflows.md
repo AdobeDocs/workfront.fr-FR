@@ -5,7 +5,8 @@ title: Utilisation de Workfront Fusion pour créer un projet Workfront contenant
 description: Si vous créez un projet via Workfront Fusion et que vous souhaitez inclure des processus Adobe Experience Manager sur le projet, vous devez utiliser une configuration de module Fusion spécifique, décrite dans cet article.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
+exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
+source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 2%
@@ -41,8 +42,25 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td><strong>Produit</strong>
    </td>
-   <td><b>Adobe Experience Manager<b>:<ul><li><p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et vous devez être ajouté au produit en tant qu’utilisateur dans le Admin Console.</p></li><li><p>Vous devez disposer d’un accès en écriture au référentiel dans Adobe Experience Manager.</p></li></ul>
-  <b>Workfront Fusion</b>:<p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul>   <p>Ou</p>
+   <td><b>Adobe Experience Manager<b>:
+   <ul>
+   <li>
+   <p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et vous devez être ajouté au produit en tant qu’utilisateur dans le Admin Console.</p>
+   </li
+   ><li>
+   <p>Vous devez disposer d’un accès en écriture au référentiel dans Adobe Experience Manager.</p>
+   </li>
+   </ul>
+  <b>Workfront Fusion</b>:<p>Nouveau :</p>
+   <ul>
+   <li>
+   <p>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p>
+   </li>
+   <li> 
+   <p>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</p>
+   </li>
+   </ul>
+   <p>Ou</p>
    <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p>
    </td>
   </tr>
@@ -156,7 +174,4 @@ Vous devez configurer une application OAuth dans Workfront pour la connexion de 
 Vous utiliserez cet identifiant client et ce secret client lors de la configuration de la connexion du module dans Fusion.
 
 Pour plus d’informations sur la création d’une connexion, voir [Connexion [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront .
-
-
-
 
