@@ -1,126 +1,86 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Mise à jour de la progression de l’objectif dans les objectifs Adobe Workfront
+title: Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront
 description: Vous devez revoir régulièrement vos objectifs et mettre à jour leurs progrès pour vous assurer qu’ils ne sont pas en retard ou qu’ils ne risquent pas d’être atteints.
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 0%
+source-wordcount: '660'
+ht-degree: 9%
 
 ---
 
-# Mise à jour de la progression de l’objectif dans les objectifs Adobe Workfront
+# Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront
 
 Vous devez revoir régulièrement vos objectifs et mettre à jour leurs progrès pour vous assurer qu’ils ne sont pas en retard ou qu’ils ne risquent pas d’être atteints.
 
 <!--And: take this last sentence ^^ out when you update this for goal redesign production.-->
 
-## Exigences d’accès
-
-<!--drafted for P&P release:
-
-You must have the following: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
-
--->
+## Conditions d’accès
 
 Vous devez disposer des éléments suivants :
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro ou version ultérieure</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produit</td> 
-   <td> <p>Pour accéder aux fonctionnalités décrites dans cet article, vous devez acheter une licence supplémentaire pour les objectifs d’Adobe Workfront. </p> <p>Pour plus d’informations, voir <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Conditions requises pour utiliser les objectifs Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux objectifs ou plus</p> <p><b>NOTE</b><p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir :</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Accorder l’accès aux objectifs Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> 
-    <div> 
-     <p>Gérer les autorisations pour l’objectif</p> 
-     <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partage d’un objectif dans les objectifs Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Forfait Adobe Workfront</td>
+ <td>
+ <p>N’importe quelle</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licence Adobe Workfront*</td>
+ <td>
+ <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ Ou
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produit*</td>
+ <td>
+ <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+<ul>
+<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
+<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+ <p>Ou</p>
+ <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Niveau d’accès</td>
+ <td> <p>Modifier l’accès aux objectifs</p></td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorisations d’objet</td>
+ <td>
+  <div>
+  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
+  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
-Avant de pouvoir commencer, vous devez disposer des éléments suivants :
+Vous devez avoir un objectif actif avant de pouvoir commencer.
 
-* Un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
-* Un principal objectif. Vous ne pouvez pas mettre à jour la progression des objectifs qui sont des brouillons, inactifs ou fermés.
+Vous ne pouvez pas mettre à jour la progression des objectifs qui sont des brouillons, inactifs ou fermés.
 
 ## Observations relatives à la mise à jour des objectifs
 
@@ -128,11 +88,11 @@ Tenez compte des points suivants lors de la mise à jour de la progression par r
 
 * Les objectifs de Workfront calculent automatiquement la progression d’un objectif lorsque vous mettez à jour ses indicateurs de progression.
 
-   >[!TIP]
-   >
-   >Vous ne pouvez pas mettre à jour la progression directement sur un objectif. Vous devez mettre à jour les indicateurs de progression de l&#39;objectif (activités, résultats, projets connectés) qui à leur tour mettent à jour la progression de l&#39;objectif. Pour mettre à jour la progression des projets, vous devez mettre à jour les tâches du projet.
+  >[!TIP]
+  >
+  >Vous ne pouvez pas mettre à jour la progression directement sur un objectif. Vous devez mettre à jour les indicateurs de progression de l&#39;objectif (activités, résultats, projets connectés) qui à leur tour mettent à jour la progression de l&#39;objectif. Pour mettre à jour la progression des projets, vous devez mettre à jour les tâches du projet.
 
-   Consultez également les articles suivants :
+  Consultez également les articles suivants :
 
    * Pour plus d’informations sur l’ajout d’activités à des objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
    * Pour plus d’informations sur l’ajout de résultats aux objectifs, voir [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
@@ -140,14 +100,14 @@ Tenez compte des points suivants lors de la mise à jour de la progression par r
 
 * Vous devez créer des objectifs et les activer avant de pouvoir mettre à jour leur progression.
 
-   Consultez également les articles suivants :
+  Consultez également les articles suivants :
 
    * Pour plus d’informations sur la création d’objectifs, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
    * Pour plus d’informations sur l’activation des objectifs, voir [Activation des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
 
-   >[!IMPORTANT]
-   >
-   >Vous ne pouvez pas mettre à jour la progression des objectifs qui sont rédigés, fermés ou inactifs.
+  >[!IMPORTANT]
+  >
+  >Vous ne pouvez pas mettre à jour la progression des objectifs qui sont rédigés, fermés ou inactifs.
 
 * La première fois que vous ou quelqu’un d’autre mettez à jour la progression d’un résultat ou d’une activité sur un objectif, l’objectif Changements de progression par rapport aux nouveaux objectifs et aux objectifs de Workfront commence à enregistrer la progression et les mises à jour de l’état de progression sur l’objectif.
 
@@ -299,13 +259,11 @@ Pour mettre à jour les progrès réalisés par rapport aux objectifs :
    >  * Vous pouvez uniquement mettre à jour les résultats et les activités.
    >  * Vous devez mettre à jour les indicateurs de progression des objectifs pour enfants afin de montrer la progression par rapport aux objectifs pour enfants.
    >  * Vous devez mettre à jour les tâches sur les projets connectés pour afficher la progression des projets.
-
-      >   
-      >    En retour, les progrès des objectifs pour enfants et les progrès des projets stimulent la progression de l&#39;objectif sélectionné.
-
+   >   
+   >    En retour, les progrès des objectifs pour enfants et les progrès des projets stimulent la progression de l&#39;objectif sélectionné.
 
 
-1. Pour mettre à jour la progression d’un résultat ou d’une activité, cliquez sur la valeur indiquée dans la variable **Progression réelle** du résultat ou de l&#39;activité et saisissez un nombre pour mettre à jour sa valeur, puis appuyez sur Entrée.
+1. Pour mettre à jour la progression d’un résultat ou d’une activité, cliquez sur la valeur indiquée dans la variable **Progression réelle** du résultat ou de l&#39;activité, saisissez un nombre afin de mettre à jour sa valeur, puis appuyez sur Entrée.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 6%
+source-wordcount: '433'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Vous pouvez créer des champs personnalisés dans la planification Adobe Workfront en vous référant à des champs existants et en les connectant par une formule. Pour ce faire, créez un champ personnalisé de type Formule .
+Vous pouvez créer des champs personnalisés dans la Planification Adobe Workfront en vous référant à des champs existants et en les reliant dans un champ de type Formule .
 
 Les champs de formule génèrent une nouvelle valeur en utilisant les valeurs existantes d&#39;autres champs d&#39;un type d&#39;enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
@@ -154,7 +154,7 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
 
 <tr> 
    <td><strong>WEEKOFAN</strong> </td> 
-   <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour de la semaine qui commence (utilisez 1 pour le dimanche ou 2 pour le lundi). Si cette option est activée, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est formatée comme suit :
+   <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour de début de la semaine (utilisez 1 pour dimanche ou 2 pour lundi). Si cette option est omise, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est formatée comme suit :
 
 <code>WEEKOFYEAR(date,2)</code>
 ou

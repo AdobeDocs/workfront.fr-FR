@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Modification des résultats et des activités dans les objectifs Adobe Workfront
+title: Modifier des résultats et des activités dans Objectifs Adobe Workfront
 description: Une fois que votre administrateur Adobe Workfront vous a accordé l’accès correct aux objectifs Adobe Workfront, vous pouvez créer et modifier des objectifs, des résultats et des activités.
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 1%
+source-wordcount: '732'
+ht-degree: 10%
 
 ---
 
-# Modification des résultats et des activités dans les objectifs Adobe Workfront
+# Modifier des résultats et des activités dans Objectifs Adobe Workfront
 
 Une fois que votre administrateur Adobe Workfront vous a accordé l’accès correct aux objectifs Adobe Workfront, vous pouvez créer et modifier des objectifs, des résultats et des activités.
 
@@ -23,108 +23,64 @@ Pour plus d’informations sur la création d’objectifs, de résultats et d’
 * [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Prise en main des résultats et des activités dans les objectifs d’Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
 * [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 
-## Exigences d’accès
+## Conditions d’accès
 
-<!--drafted for P&P release: replace the table below with this: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
-
--->
 Vous devez disposer des éléments suivants :
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Pro ou version ultérieure</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produit</td> 
-   <td> <p>Pour accéder aux fonctionnalités décrites dans cet article, vous devez acheter une licence supplémentaire pour les objectifs d’Adobe Workfront. </p> <p>Pour plus d’informations, voir <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Conditions requises pour utiliser les objectifs Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux objectifs</p> <p><b>NOTE</b>
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Forfait Adobe Workfront</td>
+ <td>
+ <p>N’importe quelle</p>
 
-<p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir :</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Accorder l’accès aux objectifs Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> 
-    <div> 
-     <p>Gérer les autorisations pour l’objectif</p> 
-     <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partage d’un objectif dans les objectifs Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licence Adobe Workfront*</td>
+ <td>
+ <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ Ou
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produit*</td>
+ <td>
+ <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+<ul>
+<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
+<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+ <p>Ou</p>
+ <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader"><p>Niveau d’accès</p></td>
+ <td> <p>Modifier l’accès aux objectifs</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorisations d’objet</td>
+ <td>
+  <div>
+  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
+  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
-
-## Conditions préalables
-
-Avant de pouvoir commencer, vous devez disposer des éléments suivants :
-
-* Un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Remarques concernant la modification des résultats et des activités
 
@@ -133,21 +89,20 @@ According to Vazgen, access levels will add more considerations.)
 -->
 
 * Vous pouvez modifier les résultats et les activités qui appartiennent aux objectifs que vous avez créés ou aux objectifs que vous êtes autorisé à gérer.
-* Vous ne pouvez pas modifier la progression des projets liés aux objectifs en tant qu’activités des objectifs de Workfront. La progression du projet est mise à jour une fois les tâches du projet terminées. Vous pouvez supprimer des projets de l’objectif en les déconnectant. Pour plus d’informations, reportez-vous à la section &quot;Déconnexion de projets&quot; de l’article . [Suppression des résultats, des activités et des projets des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* Vous ne pouvez pas modifier la progression des projets liés aux objectifs en tant qu’activités des objectifs de Workfront. La progression du projet est mise à jour une fois les tâches du projet terminées. Vous pouvez supprimer des projets de l’objectif en les déconnectant. Pour plus d’informations, voir la section &quot;Déconnexion de projets&quot; de l’article . [Suppression des résultats, des activités et des projets des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 
-   >[!NOTE]
-   >
-   >Si les informations de projet suivantes sont mises à jour au niveau du projet, les objectifs de Workfront le mettent automatiquement à jour au niveau de l’objectif :
-   >
-   >   
-   >   
-   >   * Propriétaire du projet
-   >   * Nom du projet
-   >   * Pourcentage du projet terminé
-
-   >   
-   >   
-   >Pour plus d’informations sur la connexion des projets aux objectifs, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  >[!NOTE]
+  >
+  >Si les informations de projet suivantes sont mises à jour au niveau du projet, les objectifs de Workfront le mettent automatiquement à jour au niveau de l’objectif :
+  >
+  >   
+  >   
+  >   * Propriétaire du projet
+  >   * Nom du projet
+  >   * Pourcentage du projet terminé
+  >   
+  >   
+  >Pour plus d’informations sur la connexion des projets aux objectifs, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Vous pouvez supprimer des résultats et des activités des objectifs lorsqu’ils ne sont plus pertinents pour la progression de l’objectif. Les résultats et activités supprimés ne peuvent pas être récupérés. Pour plus d’informations sur la suppression de résultats et d’activités, voir [Suppression des résultats, des activités et des projets des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 * Vous pouvez modifier les résultats et les activités associées aux objectifs à partir de n’importe quelle période, y compris dans le passé.
@@ -185,16 +140,16 @@ Editing results differs depending on which environment you use.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Sélectionnez un résultat dans la liste Indicateurs de progression et cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png).
 
-   Le champ Modifier le résultat s’affiche.
+   La boîte de dialogue Modifier le résultat s’affiche.
 
    ![](assets/edit-result-box-unshimmed.png)
 
 1. Modifiez les informations suivantes :
-   * **Result name**: Nom du résultat. Utilisez un nom explicite qui illustre le résultat à obtenir pour atteindre l’objectif.
-   * **Propriétaire du résultat**: Propriétaire du résultat. Le propriétaire doit être un utilisateur Workfront principal.
-   * **Type de valeur**: Mesure la progression du résultat.
-   * **Valeur initiale**: La valeur d’origine du résultat.
-   * **Valeur cible**: Valeur souhaitée une fois le résultat terminé.
+   * **Nom du résultat**: nom du résultat. Utilisez un nom explicite qui illustre le résultat à obtenir pour atteindre l’objectif.
+   * **Propriétaire du résultat**: propriétaire du résultat. Le propriétaire doit être un utilisateur Workfront actif.
+   * **Type de valeur**: mesure la progression du résultat.
+   * **Valeur initiale**: valeur d’origine du résultat.
+   * **Valeur cible**: valeur souhaitée une fois le résultat terminé.
 Pour plus d’informations sur les champs de résultat, voir [Ajout de résultats aux objectifs](../results-and-activities/add-results-to-goals.md).
 1. Cliquer sur **Enregistrer**.
 
@@ -235,9 +190,9 @@ Editing activities differs depending on which environment you use.
    ![](assets/edit-activity-box-unshimmed.png)
 
 1. Modifiez les informations suivantes :
-   * **Nom de l’activité**: Nom de l’activité. Utilisez un nom explicite qui illustre l’activité que vous devez exécuter pour indiquer que l’objectif se termine.
-   * **Propriétaire de l’activité :** Propriétaire de l’activité. Le propriétaire doit être un utilisateur Workfront principal.\
-      Pour plus d’informations sur les champs d’activité, voir [Ajout d’activités aux objectifs](../results-and-activities/add-activities-to-goals.md).
+   * **Nom de l’activité**: nom de l’activité. Utilisez un nom explicite qui illustre l’activité que vous devez exécuter pour indiquer que l’objectif se termine.
+   * **Propriétaire de l’activité :** Propriétaire de l’activité. Le propriétaire doit être un utilisateur Workfront actif.\
+     Pour plus d’informations sur les champs d’activité, voir [Ajout d’activités aux objectifs](../results-and-activities/add-activities-to-goals.md).
 1. Cliquer sur **Enregistrer**.
 
 
