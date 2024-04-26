@@ -6,7 +6,7 @@ description: Vous pouvez ajouter d’autres approbateurs ou réviseurs à un doc
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 1%
@@ -55,9 +55,11 @@ Pour les utilisateurs qui souhaitent créer ou gérer des validations de documen
 
 Pour les utilisateurs qui souhaitent consulter ou approuver des documents pour lesquels ils ont reçu une demande, reportez-vous aux articles répertoriés dans la section [Documents de révision : index de l’article](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-Les nouvelles approbations de document ne sont pas prises en charge dans l’outil de création de rapports actuel. Le widget Toutes les approbations disponible dans les nouveaux tableaux de bord d’accueil et de canevas fournit les détails suivants sur les nouvelles approbations de document :
-
-* Approbations par décision
-* Temps moyen d’approbation
-* Approbations en attente
-* Approbations en retard
+>[!IMPORTANT]
+>
+>Les nouvelles approbations de document ne sont pas prises en charge dans l’outil de création de rapports actuel. Le widget Toutes les approbations disponible dans les nouveaux tableaux de bord d’accueil et de canevas fournit les détails suivants sur les nouvelles approbations de document :
+>
+>* Approbations par décision
+>* Temps moyen d’approbation
+>* Approbations en attente
+>* Approbations en retard

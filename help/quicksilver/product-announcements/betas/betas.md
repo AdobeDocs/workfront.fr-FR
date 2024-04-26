@@ -1,27 +1,28 @@
 ---
 navigation-topic: betas
-title: Programmes bêta
+title: Programmes en version bêta
 description: Découvrez les versions bêta actuelles d’Adobe Workfront.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: a9e48df359b849cfca7f69d6f344fb76e61f484a
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 0%
+source-wordcount: '65'
+ht-degree: 15%
 
 ---
 
-# Programmes bêta
+# Programmes en version bêta
 
 Les articles liés à cette page décrivent les programmes bêta actuels disponibles dans Adobe Workfront. Les fonctionnalités disponibles en version bêta peuvent ne pas être disponibles pour tous les clients.
 
 Les articles suivants contiennent des informations sur les fonctionnalités actuellement en version bêta :
 
-* [Tableaux de bord de canevas - Aperçu](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Vue d’ensemble des tableaux de bord de zone de travail](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 * [Nouvelle expérience bêta de commentaires](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
-* [Présentation du concepteur de formulaires](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+* [Vue d’ensemble du créateur de formulaires](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+* [Intégration de Workfront et Frame.io](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
 
 <!--
