@@ -1,21 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Envoyer un document à Experience Manager Assets ou aux Assets Essentials
+title: Envoyer un document à Experience Manager Assets ou Assets Essentials
 description: Vous pouvez envoyer des documents de Workfront vers Experience Manager Assets ou des Assets Essentials. Les documents téléchargés et envoyés depuis Workfront à des Assets Essentials sont toujours pris en compte par rapport à votre stockage global de documents. Les ressources liées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 0%
+source-wordcount: '878'
+ht-degree: 8%
 
 ---
 
-# Envoyer un document à Experience Manager Assets ou aux Assets Essentials
+# Envoyer un document à Experience Manager Assets ou Assets Essentials
 
 Vous pouvez envoyer des documents de Workfront vers Experience Manager Assets ou des Assets Essentials. Les documents téléchargés et envoyés depuis Workfront à des Assets Essentials sont toujours pris en compte par rapport à votre stockage global de documents. Les ressources liées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global.
+
+Les ressources envoyées au Experience Manager par le biais de cette intégration sont limitées à une taille de **5 Go**.
 
 Les champs de métadonnées sont d’abord mappés lorsque vous envoyez une ressource de Workfront vers Experience Manager Assets ou des Assets Essentials. Toutes les métadonnées configurées pour mapper des objets parents sont également envoyées. Pour plus d’informations sur la configuration du mappage des métadonnées, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -23,7 +25,7 @@ Les champs de métadonnées sont d’abord mappés lorsque vous envoyez une ress
 >
 >**Exemple** Lorsque vous envoyez une ressource associée à une tâche pour la première fois, les métadonnées de la tâche sont mappées sur Experience Manager Assets ou les Assets Essentials, ainsi que toutes les métadonnées mappées à partir d’objets parents tels qu’un projet, un portfolio et un programme.
 
-## Exigences d’accès
+## Conditions d’accès
 
 Vous devez disposer des éléments suivants :
 
@@ -33,7 +35,7 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Adobe Workfront</a>*</td> 
-   <td> <p> Tous</p> </td> 
+   <td> <p> N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences héritées</a>*</td> 
@@ -45,17 +47,17 @@ Vous devez disposer des éléments suivants :
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher l’accès ou une version ultérieure sur les documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher l’accès ou une version ultérieure sur les documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
