@@ -3,14 +3,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: scénario, performances
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Protections des performances d’Adobe Workfront Fusion
+title: Mécanismes de sécurisation des performances d’Adobe Workfront Fusion
 description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
+source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,10 @@ Wokfront Fusion ne prend en charge que les navigateurs Chrome.
 ## Historique de l’exécution
 
 * Les logs d&#39;historique d&#39;exécution sont limités à une taille de **100 Mo**. Si l’historique d’exécution dépasse cette taille, seuls les 100 premiers Mo s’affichent.
+
+## Exécutions incomplètes
+
+Les exécutions incomplètes sont limitées à une taille totale. **500 Mo**. Si la limite de 500 Mo est atteinte, aucune autre exécution incomplète ne sera stockée.
 
 ## Reprises
 
