@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
+source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -25,7 +25,7 @@ L&#39;automatisation du travail nécessite un traitement rapide. [!DNL Adobe Wor
 
 ## Navigateurs
 
-* Wokfront Fusion ne prend en charge que les navigateurs Chrome.
+* Workfront Fusion ne prend en charge que les navigateurs Chrome.
 
 ## Scénarios
 
