@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -25,7 +25,7 @@ L&#39;automatisation du travail nécessite un traitement rapide. [!DNL Adobe Wor
 
 ## Navigateurs
 
-Wokfront Fusion ne prend en charge que les navigateurs Chrome.
+* Wokfront Fusion ne prend en charge que les navigateurs Chrome.
 
 ## Scénarios
 
@@ -75,9 +75,9 @@ Wokfront Fusion ne prend en charge que les navigateurs Chrome.
 
 ## Exécutions incomplètes
 
-Les exécutions incomplètes sont limitées à une taille totale. **500 Mo**. Si la limite de 500 Mo est atteinte, aucune autre exécution incomplète ne sera stockée.
+* Les exécutions incomplètes sont limitées à une taille totale. **500 Mo**. Si la limite de 500 Mo est atteinte, aucune autre exécution incomplète ne sera stockée.
 
 ## Reprises
 
-Lors de l’utilisation du module Break et de la spécification de la directive Retry (Réessayer), si un scénario échoue consécutivement 10 fois dans un délai de 2 minutes, le scénario est automatiquement désactivé.
+* Lors de l’utilisation du module Break et de la spécification de la directive Retry (Réessayer), si un scénario échoue consécutivement 10 fois dans un délai de 2 minutes, le scénario est automatiquement désactivé.
 
