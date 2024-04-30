@@ -4,7 +4,7 @@ description: Autres améliorations au cours de la période de publication du tro
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 781dcf0fa2d5f3a3387e5e5e1e56f44669318195
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 7%
@@ -24,3 +24,5 @@ Lorsqu’un utilisateur n’a pas accès à un objet, il voit &quot;Aucun accès
 Les équipes et les utilisateurs ne sont pas inclus dans cette modification. Les utilisateurs peuvent toujours afficher les noms d’équipe et d’utilisateur.
 
 Pour plus d’informations, voir la section [Accès limité aux objets](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) dans le [!DNL Adobe Workfront] Présentation des objets .
+
+
