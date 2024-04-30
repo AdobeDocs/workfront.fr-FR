@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Pour connecter vos données de lac de données Workfront à un produit externe, 
 
 1. Cliquez sur le bouton **Adresses IP autorisées** , puis cliquez sur le bouton **Ajout d’une adresse IP à votre Liste autorisée** bouton .
 
-1. Saisissez le nom de l’adresse IP dans **Description de l’adresse IP** et saisissez l’adresse IP de l’outil que vous souhaitez utiliser dans **Adresse IP**, puis cliquez sur **Ajout d’une adresse IP à la Liste autorisée**.
+1. Saisissez le nom de l’adresse IP dans **Description de l’adresse IP** et saisissez l’adresse IP (ou bloc CIDR) de l’outil dans lequel vous souhaitez utiliser **Adresse IP**, puis cliquez sur **Ajout d’une adresse IP à la Liste autorisée**.
 
    ![Ajouter une adresse IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
