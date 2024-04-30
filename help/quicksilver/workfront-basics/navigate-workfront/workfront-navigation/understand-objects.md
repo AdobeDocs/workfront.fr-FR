@@ -6,14 +6,16 @@ description: "Les informations que vous affichez dans [!DNL Adobe Workfront] est
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 1%
+source-wordcount: '2400'
+ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Workfront] présentation des objets
+# Vue d’ensemble des objets [!DNL Adobe Workfront]
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 <!--Audited: 12/2023-->
 
@@ -206,6 +208,18 @@ Tous les objets ne peuvent pas faire l’objet de recherches dans [!DNL Workfron
 
 Pour plus d’informations sur l’exécution de recherches de base et avancées dans [!DNL Workfront], voir [Rechercher [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
+
+## Accès limité aux objets
+
+<span class="preview">
+Lorsqu’un utilisateur n’a pas accès à un objet, il voit "Aucun accès" partout où ce nom s’affiche dans Workfront.
+
+L’accès aux objets peut être limité au niveau d’accès ou dans les autorisations d’un objet spécifique.
+
+Cela s’applique à tous les objets et aux objets enfants répertoriés dans la variable [Interdépendance et hiérarchie des objets](#interdependency-and-hierarchy-of-objects) dans cet article. Cela ne s’applique pas aux objets Equipe et Utilisateur.
+
+</span>
+
 ## Rapport sur les objets
 
 Il est extrêmement important de comprendre la hiérarchie et l’interdépendance des objets avant de commencer à créer des rapports dans [!DNL Workfront]. Les rapports sont spécifiques à un objet. Vous devez sélectionner l’objet correct pour votre rapport avant de pouvoir afficher les données de votre choix.
@@ -313,7 +327,7 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Heure de désactivation]
    * Vous pouvez créer des rapports sur le temps de pause d’un utilisateur comme indiqué par celui-ci dans son profil.
 
-* [!UICONTROL Feuille de calcul]
+* [!UICONTROL Feuille de temps]
 * [!UICONTROL Profil de feuille de calcul]
 * [!UICONTROL Groupe de rubriques]
 * [!UICONTROL Approbation des utilisateurs]
