@@ -6,9 +6,9 @@ description: Vous pouvez consulter l’intégrité globale de vos objectifs et l
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '992'
 ht-degree: 8%
 
 ---
@@ -33,13 +33,18 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Forfait Adobe Workfront</td>
- <td>
- <p>N’importe quelle</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> 
+   <p>Pour le nouveau plan et la nouvelle structure de licence :
+  <ul><li>Un plan ultime </li>
+  Ou
+  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
+<p>Pour le plan actuel et la structure de licence : 
+<ul><li> A Pro ou version ultérieure </li>
+  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>

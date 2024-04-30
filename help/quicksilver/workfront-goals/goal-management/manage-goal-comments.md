@@ -6,10 +6,10 @@ description: Vous pouvez apporter des commentaires à tous les objectifs que vou
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 97%
+source-wordcount: '1110'
+ht-degree: 92%
 
 ---
 
@@ -42,13 +42,18 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Forfait Adobe Workfront</td>
- <td>
- <p>N’importe quelle</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> 
+   <p>Pour le nouveau plan et la nouvelle structure de licence :
+  <ul><li>Un plan ultime </li>
+  Ou
+  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
+<p>Pour le plan actuel et la structure de licence : 
+<ul><li> A Pro ou version ultérieure </li>
+  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront</td>
  <td>

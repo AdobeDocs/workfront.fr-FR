@@ -2,54 +2,38 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Résultats et activités dans les objectifs Adobe Workfront
+title: Résultats et activités dans Objectifs Adobe Workfront
 description: Les résultats et les activités sont des indicateurs de progression pour un objectif dans les objectifs d’Adobe Workfront. Pour plus d’informations sur les résultats et les activités, consultez les articles suivants.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 0%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
 
-# Résultats et activités dans les objectifs Adobe Workfront
+# Résultats et activités dans Objectifs Adobe Workfront
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
 
-Your organization must have the following to use the functionality described in this article:
+* Pour le nouveau plan et la nouvelle structure de licence :
 
-* For the legacy plan and license structure: 
+   * Un plan ultime
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     Ou
 
-* For the current plan and license structure:
+     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* Pour le plan actuel et la structure de licence :
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * A Pro ou version ultérieure
+   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
->
->* A Pro ou version ultérieure [Formule Adobe Workfront](https://www.workfront.com/plans).
->* Une licence Adobe Workfront Goals en plus d’une licence Workfront.
->
->  Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
->
->Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 
 Pour enregistrer la progression par rapport aux objectifs Workfront, vous devez associer des indicateurs de progression aux objectifs. Outre les résultats et les activités, vous pouvez également associer des projets ou des objectifs enfants à un objectif pour enregistrer les progrès.
 

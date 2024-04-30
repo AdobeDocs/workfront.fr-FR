@@ -6,10 +6,10 @@ description: Une fois que vous ou d’autres utilisateurs avez créé des object
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 12%
+source-wordcount: '819'
+ht-degree: 11%
 
 ---
 
@@ -29,13 +29,18 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Forfait Adobe Workfront</td>
- <td>
- <p>N’importe quelle</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> 
+   <p>Pour le nouveau plan et la nouvelle structure de licence :
+  <ul><li>Un plan ultime </li>
+  Ou
+  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
+<p>Pour le plan actuel et la structure de licence : 
+<ul><li> A Pro ou version ultérieure </li>
+  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>

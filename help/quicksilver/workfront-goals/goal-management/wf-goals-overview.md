@@ -2,56 +2,36 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Présentation des objectifs d’Adobe Workfront
+title: Vue d’ensemble d’Objectifs Adobe Workfront
 description: Les objectifs de Workfront vous aident à définir, communiquer et atteindre des résultats stratégiques en connectant la stratégie à l’exécution et à la diffusion professionnelles.
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 2fd9b380ea3f10195bea9ce3fd76359f97b00505
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '521'
+ht-degree: 1%
 
 ---
 
-# Présentation des objectifs d’Adobe Workfront
+# Vue d’ensemble d’Objectifs Adobe Workfront
 
-<!-- Audited: 1/2024 -->
+Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+* Pour le nouveau plan et la nouvelle structure de licence :
 
-Your organization must have the following to use the functionality described in this article:
+   * Un plan ultime
 
-* For the legacy plan and license structure: 
+     Ou
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans).
 
-* For the current plan and license structure:
+* Pour le plan actuel et la structure de licence :
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+   * A Pro ou version ultérieure
+   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
->
->* Nouveau :
->   * Ultimate, ou
->   * Sélectionnez ou Prime, ainsi qu’une licence Adobe Objectifs en plus d’une licence Workfront
->* Actuel : licence Objectifs Adobes en plus d’une licence Workfront
->
->Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
->
->Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 
 
 Les objectifs de Workfront vous aident à définir, communiquer et atteindre des résultats stratégiques en connectant la stratégie à l’exécution et à la diffusion professionnelles. Vous pouvez concentrer les efforts de chacun sur ce qui importe vraiment, rendre les progrès mesurables et permettre aux équipes d&#39;atteindre des résultats extraordinaires. Les gens peuvent faire de leur mieux en sachant que leurs contributions ont un impact significatif.

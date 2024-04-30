@@ -2,31 +2,36 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Présentation des sections Objectifs d’Adobe Workfront
+title: Vue d’ensemble des sections d’Objectifs Adobe Workfront
 description: Vous pouvez accéder à des listes d’objectifs ou d’objectifs individuels et les gérer à partir de plusieurs sections des objectifs d’Adobe Workfront. La section que vous utilisez dépend de l’objectif que vous souhaitez atteindre lorsque vous travaillez avec des objectifs.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 5%
 
 ---
 
-# Présentation des sections Objectifs d’Adobe Workfront
+# Vue d’ensemble des sections d’Objectifs Adobe Workfront
 
+Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
 
->[!NOTE]
->
->Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
->
->* A Pro ou version ultérieure [Formule Adobe Workfront](https://www.workfront.com/plans).
->* Une licence Adobe Workfront Goals en plus d’une licence Workfront.
->
->  Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
->
->Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Pour le nouveau plan et la nouvelle structure de licence :
+
+   * Un plan ultime
+
+     Ou
+
+     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans).
+
+* Pour le plan actuel et la structure de licence :
+
+   * A Pro ou version ultérieure
+   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
+
+Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 
 Une fois que l’administrateur Workfront vous a accordé l’accès aux objectifs Workfront, vous pouvez afficher les objectifs que vous ou toute autre personne de votre entreprise avez créés dans la zone Objectifs de Workfront .
 
@@ -55,15 +60,15 @@ Pour plus d’informations sur la navigation dans la liste des objectifs et la g
 
 Utilisez la liste des objectifs pour effectuer les opérations suivantes :
 
-* Afficher les objectifs qui vous appartiennent, à vos équipes, à vos groupes ou à votre organisation.
+* Affichez les objectifs qui vous appartiennent, à vos équipes, à vos groupes ou à votre organisation.
 * Vérifiez les objectifs et leurs informations (par exemple, le nom, le propriétaire, la progression ou la condition).
 * Ajoutez de nouveaux objectifs.
 
-   Pour plus d’informations, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+  Pour plus d’informations, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 * Accédez à la page d’un objectif et modifiez-le, mettez-le à jour, ses résultats ou ses activités.
 
-   Pour plus d’informations, voir [Modifier les objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md).
+  Pour plus d’informations, voir [Modifier les objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md).
 
 * Modifier les objectifs.
 
@@ -79,7 +84,7 @@ Utilisez la section Graphiques pour effectuer les opérations suivantes :
 
 * Affichez les performances des objectifs qui vous appartiennent, à vos équipes, à vos groupes ou à votre organisation.
 * Afficher le nombre d’objectifs avec un état de progression donné.
-* Comprenez les performances de vos objectifs sur une base hebdomadaire.
+* Comprenez les performances hebdomadaires de vos objectifs.
 
 ## Alignement des objectifs
 

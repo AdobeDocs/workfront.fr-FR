@@ -1,18 +1,18 @@
 ---
-title: Gestion des commentaires d’enregistrement
+title: Gérer les commentaires d’enregistrement
 description: Vous pouvez collaborer sur les enregistrements de planification Adobe Workfront en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 0%
+source-wordcount: '1153'
+ht-degree: 24%
 
 ---
 
-# Gestion des commentaires d’enregistrement
+# Gérer les commentaires d’enregistrement
 
 {{maestro-important-intro}}
 
@@ -47,15 +47,25 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 
 * Vous pouvez marquer les utilisateurs pour attirer leur attention sur une mise à jour. Les utilisateurs balisés ne reçoivent pas de notification in-app ni d’e-mail concernant votre mise à jour. <!--this might change??-->
 
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/maestro/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
 * Vous pouvez ajouter une mise à jour aux enregistrements et consulter l’historique des modifications dans les sections suivantes de la planification Workfront :
 
-   * Sur la page d’enregistrement.
+   * Dans la page des détails de l’enregistrement.
+   * Dans une vue, dans la zone des détails de l’enregistrement.
 
-  <!--* From the table view.-->
+## Conditions d’accès
 
-## Exigences d’accès
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -76,15 +86,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
@@ -120,40 +130,43 @@ Le dernier espace de travail ouvert par défaut.
 
 1. (Conditionnel) Si le panneau de droite ne s’ouvre pas par défaut, cliquez sur le bouton **Afficher les commentaires** ![](assets/show-comments-icon.png) dans le coin supérieur droit pour ouvrir la section Commentaires .
 
-1. Commencez à saisir un commentaire dans la variable **Nouveau commentaire** de la boîte.
+1. Commencez à saisir un commentaire dans la zone **Nouveau commentaire**.
 
    ![](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
-   >Lorsque vous quittez la section Commentaires avant de terminer la saisie et d’envoyer un commentaire, le commentaire reste en mode préliminaire sur la page, même après vous être déconnecté et vous être reconnecté. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont ignorés et ne peuvent pas être récupérés. Les commentaires préliminaires ne sont visibles que par l’utilisateur qui les saisit.
+   >Lorsque vous quittez la section Commentaires avant de terminer la saisie et d’envoyer un commentaire, le commentaire reste en mode préliminaire sur la page, même après vous être déconnecté et vous être reconnecté. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont ignorés et ne peuvent pas être récupérés. Les brouillons de commentaires ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
 
-1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
-   * Ctrl + Z ( ⌘ + z pour Mac) pour annuler une modification.
-   * Ctrl + Y ( ⌘ + y pour Mac) pour rétablir la modification
+1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
+   * Ctrl+Z (⌘+Z pour Mac) pour annuler une modification
+   * Ctrl+Y (⌘+Y pour Mac) pour rétablir une modification
 1. (Facultatif) Ajoutez **@** suivi du nom d’un utilisateur pour baliser une personne dans la mise à jour.
-1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, reportez-vous à la section &quot;Utiliser du texte enrichi dans une mise à jour Workfront&quot; de l’article. [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+
+1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour afin d’améliorer votre contenu. Pour plus d’informations, reportez-vous à la section &quot;Utiliser du texte enrichi dans une mise à jour Workfront&quot; de l’article. [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]
    >
-   >Si un autre utilisateur envoie un commentaire au même élément que celui que vous mettez à jour, une ligne rouge avec un indicateur &quot;Nouveau&quot; s’affiche pour vous informer des commentaires les plus récents.
+   >Si un autre utilisateur ou une autre utilisatrice soumet un commentaire sur le même élément que celui que vous mettez à jour, une ligne rouge avec un indicateur « Nouveau » s’affiche pour vous informer des commentaires plus récents.
    >
-   >L’indicateur s’affiche uniquement après l’envoi du commentaire sur l’élément, et non lorsque le commentaire est toujours composé.
+   >L’indicateur ne s’affiche qu’après la soumission du commentaire sur l’élément, et non lorsque le commentaire est en cours de rédaction.
    >
    >![](assets/new-line-indicator-comments.png)
 
 1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’enregistrement.
-1. (Facultatif) Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
+1. (Facultatif) Pour modifier un commentaire, cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis sur **Modifier**.
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant son envoi.
+   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission.
 
-1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez l’un des utilisateurs balisés. Un indicateur &quot;modifié&quot; est ajouté à gauche du commentaire.
+1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez une des personnes balisées. Un indicateur &quot;modifié&quot; est ajouté à gauche du commentaire.
 
    >[!TIP]
    >
-   >Les commentaires de l’année en cours n’affichent pas l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, y compris l’année.
+   >Les commentaires de l’année en cours n’affichent pas l’année dans la date et l’heure. Survolez la date et l’heure pour afficher la date complète, année incluse.
 
 1. (Facultatif et conditionnel) Pour rechercher un commentaire existant, commencez à saisir un mot-clé dans la zone de recherche située dans le coin supérieur droit du champ **Commentaires** zone.
 
@@ -165,9 +178,9 @@ Le dernier espace de travail ouvert par défaut.
 
    ![](assets/new-comments-banner-on-record.png)
 
-   D’autres commentaires s’affichent en bas de l’écran.
+   Les commentaires supplémentaires s’affichent en bas de l’écran.
 
-1. (Facultatif) Cliquez sur le **Comme** pour aimer une mise à jour ou confirmer que vous l’avez lue. L’icône se met à jour avec le nombre de mentions &quot;J’aime&quot;.
+1. (Facultatif) Cliquez sur le **Comme** pour aimer une mise à jour ou confirmer que vous l’avez lue. L’icône se met à jour avec le nombre de mentions « J’aime ».
 1. (Conditionnel et facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur les avatars des utilisateurs inclus dans la mise à jour pour afficher la liste des utilisateurs avec lesquels le commentaire est partagé.
 1. (Facultatif) Cliquez sur le **Plus** icon ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, cliquez sur l’une des options suivantes pour copier une information d’un commentaire :
 
@@ -175,11 +188,11 @@ Le dernier espace de travail ouvert par défaut.
    * **Copier le texte du corps**: copie le texte du commentaire dans le presse-papiers.
    * **Réponse entre guillemets**: copie alors le contenu de votre commentaire dans une nouvelle réponse. Les images ne sont pas incluses dans la réponse copiée.
 
-   Pour plus d’informations, voir [Mise à jour du travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Pour plus d’informations, consultez la section [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Cliquez sur le **Plus** icon ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis cliquez sur **Supprimer** pour supprimer le commentaire.
 1. (Facultatif) Cliquez sur le **Masquer les commentaires** icon ![](assets/hide-comments-icon.png) pour fermer le panneau de droite.
 
-## Présentation de la section Historique
+## Vue d’ensemble de la section Historique
 
 Vous pouvez consulter les modifications apportées à l’enregistrement dans la section Historique du panneau droit d’un enregistrement.
 

@@ -2,57 +2,40 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Prise en main des résultats et des activités dans les objectifs d’Adobe Workfront
-description: Vous devez ajouter des résultats, des activités ou des objectifs alignés à un objectif pour pouvoir l’activer. Cela met à jour l’état de l’objectif de Brouillon à Principal et commence à enregistrer la progression de l’objectif.
+title: Prise en main des résultats et des activités dans Objectifs Adobe Workfront
+description: Vous devez ajouter des résultats, des activités ou des objectifs alignés à un objectif pour pouvoir l’activer. Cela met à jour l’état de l’objectif de Brouillon à Actif et commence à enregistrer la progression de l’objectif.
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 3%
 
 ---
 
-# Prise en main des résultats et des activités dans les objectifs d’Adobe Workfront
+# Prise en main des résultats et des activités dans Objectifs Adobe Workfront
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
+Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
 
->[!NOTE]
->
->Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
->
->* A Pro ou version ultérieure [Formule Adobe Workfront](https://www.workfront.com/plans).
->* Une licence Adobe Workfront Goals en plus d’une licence Workfront.
->
->  Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
->
->Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Pour le nouveau plan et la nouvelle structure de licence :
 
+   * Un plan ultime
+
+     Ou
+
+     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans).
+
+* Pour le plan actuel et la structure de licence :
+
+   * A Pro ou version ultérieure
+   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
+
+Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 
 Lorsque vous créez un objectif, celui-ci a l’état Brouillon. Pour plus d’informations sur la création d’objectifs, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
-Pour commencer à enregistrer la progression sur un objectif, vous devez l’activer. Pour activer votre objectif et définir son état sur Principal, vous devez d’abord y ajouter les éléments suivants :
+Pour commencer à enregistrer la progression sur un objectif, vous devez l’activer. Pour activer votre objectif et définir son état sur Actif, vous devez d’abord y ajouter les éléments suivants :
 
 * Résultat
 * Une activité
@@ -78,14 +61,14 @@ Les résultats mesurent la progression de votre objectif ou le degré auquel vou
 
 Pour plus d’informations sur l’ajout de résultats aux objectifs, voir [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
-Vous pouvez ajouter des résultats à vos propres objectifs ou objectifs appartenant à d’autres entités de votre entreprise.
+Vous pouvez ajouter des résultats à vos propres objectifs ou objectifs qui appartiennent à d’autres entités de votre entreprise.
 
 Tenez compte des points suivants lorsque vous utilisez les résultats :
 
 * Ils répondent à la question : &quot;Comment saurai-je quand mon objectif sera atteint ?&quot;
 * Il s’agit d’indicateurs de mesure. Vous pouvez sélectionner l’une des options suivantes pour indiquer la progression de votre résultat :
 
-   <!--
+  <!--
   this might change (jira, Salesforce, etc))
   -->
 

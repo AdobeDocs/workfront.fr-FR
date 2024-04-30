@@ -1,15 +1,15 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe d’une expérience unifiée pour [!DNL Workfront]
+title: Adobe Unified Experience pour [!DNL Workfront]
 description: Accès [!DNL Workfront] grâce à Adobe Experience Cloud, vous bénéficiez d’une expérience unifiée et transparente de la gestion de toutes vos applications Adobe.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '535'
+ht-degree: 3%
 
 ---
 
@@ -17,20 +17,27 @@ ht-degree: 0%
 
 Accès [!DNL Workfront] through [!DNL Adobe Experience Cloud] vous offre une expérience transparente et unifiée pour gérer l’ensemble de vos [!DNL Adobe] applications. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans plusieurs URL ou identifiants de connexion.
 
-## Exigences d’accès
+Pour déterminer si votre organisation se trouve dans l’expérience unifiée Adobe, examinez l’URL que vous utilisez pour accéder à Workfront.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+| URL | Expérience Adobe |
+|------------|------------|
+| (NomSociété).my.workfront.com | Expérience Workfront |
+| experience.adobe.com | Adobe d’une expérience unifiée |
+
+## Conditions d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
  </tbody> 
@@ -42,9 +49,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 L’instance de [!DNL Workfront] doit être intégré au [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
 
-Si vous avez des questions sur l’intégration à la variable [!DNL Adobe Admin Console], reportez-vous à la section [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+Si vous avez des questions sur l’intégration à la variable [!DNL Adobe Admin Console], voir [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
 
-## Connectez-vous à [!DNL Adobe Experience Cloud]
+## Connexion à [!DNL Adobe Experience Cloud]
 
 1. Ouvrez une fenêtre de navigateur et accédez à <https://experience.adobe.com>.
 1. Sur le [!UICONTROL Se connecter] écran, saisissez votre adresse électronique, puis cliquez sur **[!UICONTROL Continuer]**.
@@ -53,7 +60,7 @@ Si vous avez des questions sur l’intégration à la variable [!DNL Adobe Admin
 
 ## Accès [!DNL Workfront]
 
-Une fois connecté à [!DNL Adobe Experience Cloud], vous pouvez afficher l’ensemble des [!DNL Workfront] organisations et environnements auxquels vous avez accès en cliquant sur le sélecteur d’organisation dans la zone de navigation supérieure. Sélectionnez la [!DNL Workfront] organisation ou environnement dans lequel vous souhaitez travailler. Les environnements peuvent inclure [!UICONTROL Aperçu] et [!UICONTROL Sandbox] si votre entreprise les utilise.
+Une fois connecté à [!DNL Adobe Experience Cloud], vous pouvez afficher l’ensemble des [!DNL Workfront] organisations et environnements auxquels vous avez accès en cliquant sur le sélecteur d’organisation dans la zone de navigation supérieure. Sélectionnez la variable [!DNL Workfront] organisation ou environnement dans lequel vous souhaitez travailler. Les environnements peuvent inclure [!UICONTROL Aperçu] et [!UICONTROL Sandbox] si votre entreprise les utilise.
 
 ![Affichage [!DNL Workfront] organisations et environnements](assets/aec-view-all-orgs.png)
 
@@ -69,21 +76,21 @@ Une fois connecté à [!DNL Adobe Experience Cloud], vous pouvez afficher l’en
 
 Utilisez la variable [!UICONTROL Menu Principal] icon ![](assets/main-menu-icon-left-nav.png) sur la gauche de la [!DNL Workfront] barre de navigation pour accéder aux pages auxquelles vous avez accès. Les options disponibles dans la variable [!UICONTROL Menu Principal] dépendent de :
 
-* **Configurations des modèles de mise en page**: Pour apprendre comment [!DNL Workfront] l’administrateur peut modifier la variable [!UICONTROL Menu Principal] à partir d’un modèle de mise en page, voir [Personnalisez le [!UICONTROL Menu Principal] utilisation d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **Type de licence**: Pour connaître les configurations par défaut des différents types de licence, voir [Comprendre la navigation pour un [!UICONTROL Réviser]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation pour un [!UICONTROL Travail]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Configurations des modèles de mise en page**: pour savoir comment [!DNL Workfront] peut modifier la variable [!UICONTROL Menu Principal] à partir d’un modèle de mise en page, voir [Personnalisez le [!UICONTROL Menu Principal] utilisation d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **Type de licence**: pour découvrir les configurations par défaut de différents types de licence, voir [Comprendre la navigation d’une [!UICONTROL Réviser]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation d’une [!UICONTROL Travail]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 ![Menu principal](assets/main-menu-options-left-nav.png)
 
 ## Accès à votre profil et à vos préférences
 
-Vous pouvez accéder à vos options de profil et de préférences en cliquant sur l’image de votre profil dans la zone de navigation supérieure.
+Vous pouvez accéder à vos options de profil et de préférence en cliquant sur l’image de votre profil dans la zone de navigation supérieure.
 
 ![Menu Profil](assets/aec-profile-picture-menu.png)
 
 Ce menu vous permet d’effectuer les opérations suivantes :
 
 * Choisir **[!UICONTROL Thème sombre]** formatage pour [!DNL Adobe Experience Cloud].
-* Définir **[!UICONTROL Préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences linguistiques Principales et secondaires.
+* Définir **[!UICONTROL Préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences de langue principale et secondaire.
 * Accédez à **[!UICONTROL [!DNL Workfront]Profil]**. Une fois que vous êtes sur le profil, cliquez sur le **[!UICONTROL Plus]** menu ![](assets/more-icon.png) et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Se déconnecter]** de Adobe Experience Cloud.
 
@@ -91,7 +98,7 @@ Ce menu vous permet d’effectuer les opérations suivantes :
 
 >[!NOTE]
 >
->La modification de votre mot de passe la modifie pour l’ensemble de vos [!DNL Adobe Experience Cloud] applications.
+>La modification de votre mot de passe la modifie pour tous vos [!DNL Adobe Experience Cloud] applications.
 
 Votre mot de passe n’est pas géré dans [!DNL Workfront].
 

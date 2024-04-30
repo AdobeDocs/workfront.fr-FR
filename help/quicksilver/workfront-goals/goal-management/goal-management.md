@@ -2,58 +2,44 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Gestion des objectifs dans les objectifs Adobe Workfront
+title: Gestion des objectifs dans Objectifs Adobe Workfront
 description: Consultez les articles suivants pour savoir où commencer avec les objectifs de Workfront, l’importance de l’utilisation des objectifs, comment créer, modifier, commenter et gérer les objectifs, ainsi que comment filtrer et imprimer les informations d’objectif.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '288'
+ht-degree: 9%
 
 ---
 
-# Gestion des objectifs dans les objectifs Adobe Workfront
+# Gestion des objectifs dans Objectifs Adobe Workfront
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
 
-Your organization must have the following to use the functionality described in this article:
+* Pour le nouveau plan et la nouvelle structure de licence :
 
-* For the legacy plan and license structure: 
+   * Un plan ultime
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     Ou
 
-* For the current plan and license structure:
+     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* Pour le plan actuel et la structure de licence :
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * A Pro ou version ultérieure
+   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 
->[!NOTE]
->
->Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
->
->* A Pro ou version ultérieure [Formule Adobe Workfront](https://www.workfront.com/plans).
->* Une licence Adobe Workfront Goals en plus d’une licence Workfront.
->Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
->
->Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
+Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Consultez les articles suivants pour savoir où commencer avec les objectifs de Workfront, l’importance de l’utilisation des objectifs, comment créer, modifier, commenter et gérer les objectifs, ainsi que comment filtrer et imprimer les informations d’objectif :
 
 * [Présentation des objectifs d’Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md)
-* [Prise en main des objectifs d’Adobe Workfront](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)
+* [Prise en main d’Objectifs Adobe Workfront](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)
 * [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)
 * [Accès et ouverture d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 * [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
@@ -67,4 +53,4 @@ Consultez les articles suivants pour savoir où commencer avec les objectifs de 
 * [Filtrage des informations dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
 * [Mise à jour des objectifs dans la section Détails des objectifs d’Adobe Workfront](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
-* [Révision des objectifs en difficulté dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/view-in-trouble-goals.md)
+* [Réviser les objectifs en difficulté dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/view-in-trouble-goals.md)
