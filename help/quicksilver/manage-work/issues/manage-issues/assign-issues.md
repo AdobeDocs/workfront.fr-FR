@@ -1,20 +1,22 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Attribuer des problèmes
+title: Attribuer les problèmes
 description: Vous pouvez affecter des problèmes aux utilisateurs, aux rôles et aux équipes afin d’indiquer qui est responsable de l’exécution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la présentation Modifier les affectations de problèmes .
 author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 0%
+source-wordcount: '1490'
+ht-degree: 8%
 
 ---
 
-# Attribuer des problèmes
+# Attribuer les problèmes
+
+{{highlighted-preview}}
 
 Vous pouvez affecter des problèmes aux utilisateurs, aux rôles et aux équipes afin d’indiquer qui est responsable de l’exécution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, voir [Présentation de la modification des affectations de problème](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -35,15 +37,15 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
 * [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [Rendre des affectations intelligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 Vous pouvez affecter un problème à une ou plusieurs ressources au niveau d’un problème individuel, ou vous pouvez affecter plusieurs ressources à plusieurs problèmes simultanément.
 
 L’affectation de problèmes et de tâches est similaire dans Adobe Workfront. Pour obtenir des informations générales sur l’affectation de tâches, voir [Présentation de la modification des affectations de tâche](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,16 +54,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Révision ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur à Projets et tâches</p> <p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux problèmes de votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>. </p> </td> 
+   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur à Projets et tâches</p> <p>Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur l’accès aux problèmes de votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -70,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Considérations relatives à plusieurs affectations pour les rôles de tâche, les équipes et les utilisateurs
 
@@ -112,13 +114,17 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
    Cliquez sur le nom des affectations en cours, si le problème est déjà assigné.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![Bouton Attribuer à](assets/assign-to-button-in-header.png)
 
 1. Utilisez l’une des méthodes suivantes :
 
    * Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe que vous souhaitez affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
 
+     Exemple d’image dans l’environnement de production :
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
+     ![Recherche d’affectations](assets/assignments-expanded-in-task-issue-header.png)
 
    * (Conditionnel) Cliquez sur l’un des noms de la section **Suggestions d’affectation** list
    * Cliquez sur **M&#39;affecter** pour l’affecter à vous-même
@@ -132,7 +138,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
      >
      >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
      >
-     >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 
 
 1. Cliquez sur **Enregistrer** pour terminer l’attribution du problème.
@@ -161,7 +167,11 @@ Pour affecter des problèmes dans une liste :
 
    * Cliquez dans le **Affectations** et commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe active que vous souhaitez affecter au problème, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
+     Exemple d’image dans l’environnement de production :
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
+     ![Champ Affectations](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
@@ -169,7 +179,7 @@ Pour affecter des problèmes dans une liste :
    >
    >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
    >
-   >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. (Conditionnel) Lorsqu’il est visible dans le champ Affectations , cliquez sur le bouton **Icône Personnes** ![](assets/teams.png) dans le coin supérieur droit de la zone affectations pour ouvrir la zone Affectations avancées et créer des affectations avancées. Pour plus d’informations, voir [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
