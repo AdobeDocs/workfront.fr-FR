@@ -6,10 +6,10 @@ description: Si vous créez un projet via Workfront Fusion et que vous souhaitez
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -28,48 +28,46 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td><strong>Formule Adobe Workfront*</strong>
-   </td>
-   <td>N’importe quelle
-   </td>
+    <td><strong>Forfait Adobe Workfront*</strong></td>
+    <td>N’importe quelle</td>
   </tr>
   <tr>
-   <td><strong>Licences Adobe Workfront*</strong>
-   </td>
-   <td>Requête ou supérieure
-   </td>
+   <td><strong>Licences Adobe Workfront*</strong></td>
+   <td>Requête ou supérieure</td>
   </tr>
   <tr>
-   <td><strong>Produit</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>:
-   <ul>
-   <li>
-   <p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et vous devez être ajouté au produit en tant qu’utilisateur dans le Admin Console.</p>
-   </li
-   ><li>
-   <p>Vous devez disposer d’un accès en écriture au référentiel dans Adobe Experience Manager.</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>:<p>Nouveau :</p>
-   <ul>
-   <li>
-   <p>Sélectionnez ou forfait Workfront Prime : votre entreprise doit acheter Adobe Workfront Fusion.</p>
-   </li>
-   <li> 
-   <p>Formule Workfront ultime : Workfront Fusion est incluse.</p>
-   </li>
-   </ul>
-   <p>Ou</p>
-   <p>Actuel : votre entreprise doit acheter Adobe Workfront Fusion.</p>
+   <td><strong>Produit</strong></td>
+   <td>
+     <p><b>ADOBE EXPERIENCE MANAGER :</b></p>
+     <ul>
+       <li>
+         <p>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et vous devez être ajouté au produit en tant qu’utilisateur dans le Admin Console.</p>
+       </li>
+       <li>
+        <p>Vous devez disposer d’un accès en écriture au référentiel dans Adobe Experience Manager.</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion :</b></p>
+     <p>Nouveau :</p>
+     <ul>
+       <li>
+         <p>Sélectionnez ou forfait Workfront Prime : votre entreprise doit acheter Adobe Workfront Fusion.</p>
+       </li>
+       <li> 
+         <p>Formule Workfront ultime : Workfront Fusion est incluse.</p>
+       </li>
+     </ul>
+     <p>Ou</p>
+     <p>Actuel : votre entreprise doit acheter Adobe Workfront Fusion.</p>
    </td>
   </tr>
   <tr>
    <td><strong>Paramétrages du niveau d'accès*</strong>
    </td>
    <td>Modifier l’accès aux documents
-   <p>
-   <strong>Remarque : </strong>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <strong>Créer ou modifier les niveaux d’accès personnalisés</strong>.
+     <p>
+       <strong>Remarque : </strong>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <strong>Créer ou modifier les niveaux d’accès personnalisés</strong>.
+     </p>
    </td>
   </tr>
 </table>
