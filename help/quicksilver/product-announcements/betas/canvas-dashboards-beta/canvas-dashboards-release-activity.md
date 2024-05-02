@@ -5,15 +5,17 @@ title: "Tableaux de bord de canevas bêta : activité de mise à jour"
 description: Activité de mise à jour hebdomadaire de la version bêta des tableaux de bord du canevas Adobe Workfront
 author: Nolan
 feature: Product Announcements
-exl-id: e3dc4e29-011b-46ae-95c5-c5c7f74eb94f
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+hidefromtoc: true
+hide: true
+exl-id: f52e23c3-9a9a-458f-bb74-bb21b4b7656a
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 0%
+source-wordcount: '115'
+ht-degree: 4%
 
 ---
 
-# Tableaux de bord de canevas bêta : activité de mise à jour
+# Version bêta des tableaux de bord Zone de travail : activité Version
 
 Cette page répertorie les mises à jour de développement publiées chaque semaine pour la version bêta des tableaux de bord du canevas.
 

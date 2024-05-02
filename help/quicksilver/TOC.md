@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 97%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 97%
       * [Nom d’utilisateur ou d’utilisatrice déjà en cours d’utilisation](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Rapports {#reporting}
    * [Rapports et tableaux de bord : index des articles](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Zone de travail de reporting {#reporting-canvas}
-      * [Zone de travail de reporting](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Gérer les rapports {#manage-reports}
-         * [Vue d’ensemble de la gestion des rapports](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [Créer un rapport dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [Exporter un rapport dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * Blocs de tableau {#table-blocks}
-         * [Blocs de tableau](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [Ajouter ou modifier un bloc de tableau dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [Configurer une colonne de tableau dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [Créer un champ de formule dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [Grouper les lignes d’un tableau dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [Filtrer un tableau dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * Blocs de visualisation {#visualization-blocks}
-         * [Blocs de visualisation](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [Ajouter ou modifier un bloc de visualisation dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [Configurer une visualisation à barres dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [Configurer une visualisation à colonnes dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [Configurer une visualisation à secteurs dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [Configurer une visualisation de KPI dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * Autres blocs {#other-blocks}
-         * [Autres blocs](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [Ajouter ou modifier un bloc de contenu web dans la zone de travail de reporting](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * Tableaux de bord de canevas {#canvas-dashboards}
+      * [Tableaux de bord Zone de travail.](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Gestion des tableaux de bord de canevas {#manage-canvas-dashboards}
+         * [Gestion des tableaux de bord de canevas](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Prise en main des tableaux de bord de zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [Ajout, suppression ou organisation de rapports dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [Partage d’un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * Types de rapports du tableau de bord du canevas {#report-types}
+         * [Types de rapports du tableau de bord du canevas](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [Ajout d’un rapport existant à un tableau de bord Zone de travail](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [Création d’un rapport sur les indicateurs de performance clés dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Créer un rapport de graphique dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Créer un rapport de tableau dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Ajout d’un rapport d’approbations en attente à un tableau de bord Zone de travail](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * Rapports {#reports}
       * [Rapports](reports-and-dashboards/reports/reports-overview.md)
       * Concepts de base de la création de rapports (reporting) {#report-basics}
