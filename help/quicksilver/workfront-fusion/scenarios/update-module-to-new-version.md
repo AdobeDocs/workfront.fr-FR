@@ -6,7 +6,7 @@ title: Mise à jour d’un module vers une nouvelle version d’une [!DNL Adobe 
 description: Comme les applications auxquelles Workfront Fusion se connecte peuvent mettre à jour ou publier une nouvelle version, il est parfois nécessaire que Fusion publie des modules mis à jour pour ces applications.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 342f6993e6992ce0f92a706c75e9de6e3e835509
+source-git-commit: 787329beb0e3a44bc25d59184d35fa82841ebc4c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -29,6 +29,9 @@ Vous pouvez mettre à jour le module sans créer de scénario.
 1. Configurez le module avec les mêmes paramètres que le module existant.
 1. Connectez le nouveau module au scénario au même endroit que le module existant.
 1. Supprimez l’ancien module.
+
+
+
 
 
 
