@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 27833c61ce7ff0ba14cf6edb535057f56e98516e
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 1%
 
 ---
 
@@ -40,8 +40,9 @@ Cette section contient les articles suivants :
 * [Ajoutez un filtre à un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
 * [Génération d’un module à l’aide d’AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
 * [Déboguer les scénarios à l’aide de [!DNL Adobe Workfront Fusion] DevTool](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
-* [Modèles de scénario](../../workfront-fusion/scenarios/templates/fusion-templates.md)
+* [Modèles de scénarios](../../workfront-fusion/scenarios/templates/fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] exemple de scénario : connexion à un email, [!UICONTROL Analyseur de texte], et [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Restaurer une version de scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Copie de modules ou de scénarios dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+* [Mise à jour d’un module vers une nouvelle version d’une [!DNL Adobe Workfront Fusion] scenario](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Affichage et gestion des scénarios verrouillés dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)

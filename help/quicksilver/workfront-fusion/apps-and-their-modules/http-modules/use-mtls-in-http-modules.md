@@ -9,7 +9,7 @@ description: Vous pouvez utiliser le protocole TLS mutuel dans vos modules HTTP 
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 14%
@@ -90,7 +90,7 @@ Pour obtenir des instructions sur le téléchargement de la variable [!DNL Adobe
 
 Vous pouvez utiliser les liens suivants pour télécharger les certificats publics Workfront Fusion :
 
-### Certificats du 25 mai 2023 - 9 juin 2024
+### Certificats du 23 avril 2023 au 7 mai 2024
 
 >[!IMPORTANT]
 >
