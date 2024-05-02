@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 3%
 
 ---
@@ -92,11 +92,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Vous pouvez modifier les enregistrements que vous avez créés ou créés par d’autres utilisateurs, si des autorisations vous ont été accordées à l’espace de travail.
 * Vous pouvez modifier les champs d’enregistrement à partir des zones suivantes :
 
-   * La boîte de l’enregistrement dans une vue d’enregistrement
+   * Aperçu de l’enregistrement dans une vue d’enregistrement
    * La page de l’enregistrement
    * En ligne, dans une vue de tableau.
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* Lorsqu’un utilisateur modifie un enregistrement dans une vue, les modifications sont immédiatement visibles dans toutes les vues et les pages d’enregistrement pour tous les autres utilisateurs.
 
 * Les types de champs suivants sont automatiquement mis à jour et vous ne pouvez pas modifier leurs valeurs manuellement :
    * Champs liés à partir d’autres enregistrements
@@ -113,7 +113,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
 * [En mode Tableau d’un type d’enregistrement](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Dans la zone de l’enregistrement dans une vue](#edit-a-record-from-the-records-box-in-a-view)
+* [Aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-box-in-a-view)
 * [Sur la page de l’enregistrement](#edit-a-record-from-the-records-page)
 
 ### Modification d’un enregistrement en ligne dans la vue de tableau d’un type d’enregistrement
@@ -188,7 +188,7 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 1. (Facultatif) Ajoutez une miniature à un enregistrement. Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Modification d’un enregistrement à partir de la zone de l’enregistrement dans une vue
+### Modification d’un enregistrement à partir de l’aperçu de l’enregistrement dans une vue
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
    Ou
 
-   Dans la vue Tableau, cliquez sur le **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement. La boîte de l’enregistrement s’ouvre dans la vue.
+   Dans la vue Tableau, cliquez sur le **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement. L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
    >
    >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement dans une vue de tableau uniquement lorsque le champ Nom est un champ principal.
 
-1. Commencez à modifier les informations du champ dans la zone de l’enregistrement.
+1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
    Workfront enregistre automatiquement vos modifications.
 
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) dans cet article.
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) dans cet article.
 
 ### Modifier un enregistrement à partir de la page de l’enregistrement
 
@@ -241,7 +241,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans n’importe quelle vue, accédez à la boîte de l’enregistrement, comme décrit dans la section [Modification d’un enregistrement à partir de la zone de l’enregistrement dans une vue](#edit-a-record-from-the-records-box-in-a-view) dans cet article, puis cliquez sur le bouton **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
+   * Dans n’importe quelle vue, accédez à l’aperçu de l’enregistrement, comme décrit dans la section [Modification d’un enregistrement à partir de l’aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view) dans cet article, puis cliquez sur le bouton **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    * Dans la **Tableau** visionnez, survolez le nom d’un enregistrement avec la souris, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Affichage**
 

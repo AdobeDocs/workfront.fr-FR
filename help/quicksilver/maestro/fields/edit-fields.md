@@ -1,18 +1,18 @@
 ---
-title: Modifier les champs
-description: Dans Adobe Workfront Planning, vous pouvez modifier les paramètres des champs déjà créés.
+title: Modifier des champs
+description: Dans Adobe Workfront Planning, vous pouvez modifier les paramètres des champs déjà créés. Cet article décrit comment modifier les paramètres des champs de planification Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 7%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
 title: Edit foelds
@@ -25,7 +25,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Modifier les champs
+# Modifier des champs
 
 {{maestro-important-intro}}
 
@@ -35,23 +35,31 @@ Pour plus d’informations sur la création de champs de planification Adobe Wor
 
 Cet article décrit comment modifier les paramètres des champs de planification Workfront. Pour plus d’informations sur la modification des valeurs de champ pour les enregistrements, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
-## Observations relatives à la modification des informations sur les champs
+## Remarques concernant la modification des paramètres de champ
+
+Vous devez tenir compte des points suivants avant d’apporter des modifications à la configuration d’un champ :
 
 * Vous pouvez modifier les champs que vous avez créés ou créés par d’autres utilisateurs, si vous disposez des autorisations de gestion de l’espace de travail auquel ces champs appartiennent.
 * Vous pouvez modifier un champ dans le tableau de type enregistrement.
-* Vous ne pouvez pas modifier un champ sur la page d’enregistrement ou dans la vue de chronologie.
+* Vous ne pouvez pas modifier un champ sur la page d’enregistrement ni dans une autre vue, en dehors de la vue de tableau.
 * Une fois le champ enregistré, vous ne pouvez pas le modifier.
 * Vous ne pouvez pas désélectionner le paramètre Autoriser les nombres négatifs précédemment sélectionné, pour un champ Nombre, Pourcentage ou Devise si des valeurs négatives sont déjà stockées dans les enregistrements auxquels il est rattaché.
-<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
-* You cannot edit the options, or the special format of the following fields, after they are saved:
 
-    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+
+* You can edit the configuration of the following fields, after they are saved:
+
+    * The Name or the Description of any field
     * The Options of a Single-select or a Multi-select field.
+    * The expression of a Formula field.-->
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -72,15 +80,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
@@ -110,7 +118,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Modifier les champs
+## Modifier les paramètres de champ
 
 {{step1-to-maestro}}
 
@@ -122,7 +130,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Cliquez sur la carte correspondant au type d’enregistrement dont vous souhaitez modifier les champs.
 
    Cela ouvre la page du type d’enregistrement.
-1. (Conditionnel) Sélectionnez une **Vue Tableau** de la **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
+1. (Conditionnel) Cliquez sur l’onglet d’un **Vue Tableau**.
 1. Pointez sur l’en-tête de colonne d’un champ à modifier, puis cliquez sur la flèche pointant vers le bas située après le nom du champ, puis cliquez sur **Champ Modifier**
 
    Ou
@@ -138,6 +146,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >[!TIP]
    >
    >Une fois le champ enregistré, vous ne pouvez pas le mettre à jour.
+
+   Les informations des champs sont mises à jour pour toutes les personnes ayant accès à l’espace de travail.
+
+   <!--After the release of the RTBE for field configurations, replace the tip with this:
+
+    >[!TIP]
+    >
+    >* You cannot update the field type after the field is saved.
+    >
+    >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. 
+    -->
 
 
 1. (Conditionnel) Pour les champs d’enregistrement liés, cliquez sur **Modifier les champs de recherche** et ajouter ou supprimer l’un des champs du type d’enregistrement lié.

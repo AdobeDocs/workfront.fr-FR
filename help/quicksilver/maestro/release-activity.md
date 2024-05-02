@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5725'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## Semaine du 29 avril 2029
+
+### Mises à jour en temps réel dans la zone et la page des détails de l’enregistrement après modification des enregistrements dans la vue de tableau
+
+Production : 2 mai 2024
+
+Aperçu : à déterminer
+
+Lorsqu’un utilisateur met à jour les informations d’un enregistrement dans la vue de tableau, d’autres utilisateurs peuvent afficher les informations mises à jour dans la zone de détails de l’enregistrement (dans une vue) ou dans une page en temps réel. Cela permet à tous les utilisateurs d’afficher les informations mises à jour en même temps, en synchronisation avec le moment où les modifications se produisent.
+
+Pour plus d’informations sur la modification d’enregistrements, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-## Week of April 29, 2029
 
 ### Add sections to the record's page 
 
@@ -77,16 +88,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -144,7 +145,7 @@ Production : 4 avril 2024
 
 Aperçu : à déterminer
 
-En tant que gestionnaire de Workspace, vous pouvez désormais réorganiser les champs répertoriés dans la page ou la zone d’enregistrement. La mise à jour de l’ordre des champs modifie l’ordre des champs pour tous les enregistrements du même type, pour toutes les personnes qui consultent la page d’enregistrement ou la zone d’enregistrement.
+En tant que gestionnaire de Workspace, vous pouvez désormais réorganiser les champs répertoriés dans la page d’enregistrement ou l’aperçu. La mise à jour de l’ordre des champs modifie l’ordre des champs pour tous les enregistrements du même type, pour toutes les personnes qui consultent la page d’enregistrement ou l’aperçu de l’enregistrement.
 
 Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -155,7 +156,7 @@ Production : 4 avril 2024
 
 Aperçu : à déterminer
 
-À mesure que vous gérez les pages d’enregistrement, vous pouvez désormais ajouter, repositionner et remplacer une image de couverture sur une page ou une zone d’enregistrement, afin d’enrichir la présentation de l’enregistrement et l’engagement des parties prenantes. Les images de couverture sont visibles par tous les utilisateurs qui visualisent les enregistrements.
+À mesure que vous gérez les pages d’enregistrement, vous pouvez désormais ajouter, repositionner et remplacer une image de couverture sur une page d’enregistrement ou un aperçu, afin d’enrichir la présentation de l’enregistrement et l’engagement des parties prenantes. Les images de couverture sont visibles par tous les utilisateurs qui visualisent les enregistrements.
 
 Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -219,15 +220,15 @@ Aperçu : à déterminer
 
 Vous pouvez désormais filtrer les informations dans la vue Calendrier. Pour plus d’informations, voir [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Zone avec des détails d’enregistrement ajoutés aux vues de calendrier et de chronologie
+### Aperçu avec les détails de l’enregistrement ajoutés aux vues de la chronologie et du calendrier
 
 Production : 19 mars 2024
 
 Aperçu : à déterminer
 
-Vous pouvez désormais accéder à une boîte contenant les détails de l’enregistrement dans les vues de calendrier et de chronologie. Vous pouvez modifier des enregistrements dans la zone d’enregistrement dans les vues de calendrier et de chronologie.
+Vous pouvez désormais accéder à l’aperçu avec les détails de l’enregistrement dans les vues de calendrier et de chronologie. Vous pouvez modifier des enregistrements dans la zone d’aperçu de l’enregistrement dans les vues de calendrier et de chronologie.
 
-Dans la boîte d’enregistrement, vous pouvez ouvrir la page d’enregistrement dans un nouvel onglet du navigateur.
+Dans l’aperçu de l’enregistrement, vous pouvez ouvrir la page d’enregistrement dans un nouvel onglet du navigateur.
 
 Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +248,7 @@ Production : 14 mars 2024
 
 Aperçu : à déterminer
 
-Pour faciliter l’affichage d’informations supplémentaires sur les enregistrements lors de l’utilisation de la vue Tableau, nous avons ajouté une nouvelle zone Détails qui affiche un aperçu rapide des détails de l’enregistrement. Voici quelques-unes des informations incluses dans cette boîte :
+Pour faciliter l’affichage d’informations supplémentaires sur les enregistrements lors de l’utilisation de la vue Tableau, nous avons ajouté un nouvel aperçu des détails qui affiche un aperçu rapide des détails de l’enregistrement. Voici quelques informations incluses dans l’aperçu de l’enregistrement :
 
 * Détails d’enregistrement pertinents en un coup d’oeil
 

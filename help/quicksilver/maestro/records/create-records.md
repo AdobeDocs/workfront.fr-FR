@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 0%
+source-wordcount: '800'
+ht-degree: 5%
 
 ---
 
@@ -27,12 +27,12 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 
 Cet article décrit comment créer des enregistrements. Pour plus d’informations sur la gestion des enregistrements dans les vues de tableau ou de chronologie, consultez les articles suivants :
 
-* [Gestion de la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md)
-* [Gestion du mode Chronologie](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
+* [Gérer la vue de tableau](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Gérer la vue chronologique](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -53,20 +53,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning </p>  
 </td>
   </tr>
@@ -127,14 +127,14 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
    Ou
 
-   Cliquez sur le nom du nouvel enregistrement ou sur le champ **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement. La boîte contenant les informations détaillées de l’enregistrement s’ouvre dans le tableau.
+   Cliquez sur le nom du nouvel enregistrement ou sur le champ **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche du nom de l’enregistrement. Un aperçu contenant les informations détaillées de l’enregistrement s’ouvre dans le tableau.
 
    >[!TIP]
    >
-   >Vous ne pouvez accéder à la zone Détails qu’à partir du champ nom de l’enregistrement lorsque le champ Nom est un champ principal.
+   >Vous pouvez accéder au **Détails de l’ouverture** uniquement à partir du champ nom de l’enregistrement lorsque le champ Nom est un champ principal.
 
-1. Commencez à modifier les informations de l’enregistrement dans la zone de l’enregistrement. Workfront enregistre automatiquement vos modifications.
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Continuez à modifier l’enregistrement sur la page d’enregistrement.
+1. Commencez à modifier les informations de l’enregistrement dans l’aperçu de l’enregistrement. Workfront enregistre automatiquement vos modifications.
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Continuez à modifier l’enregistrement sur la page d’enregistrement.
 
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements :

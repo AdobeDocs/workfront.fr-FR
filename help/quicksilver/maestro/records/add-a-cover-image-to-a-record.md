@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 5%
@@ -93,12 +93,12 @@ Tenez compte des points suivants :
 * Une image de couverture est propre à un enregistrement et ne s’applique pas à tous les enregistrements du même type.
 * Vous pouvez uniquement ajouter des fichiers image comme images de couverture.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* Vous pouvez ajouter une image de couverture à des enregistrements individuels à partir de la zone d’enregistrement dans n’importe quelle vue ou à partir de la page d’enregistrement.
+* Vous pouvez ajouter une image de couverture à des enregistrements individuels à partir de l’aperçu de l’enregistrement dans n’importe quelle vue ou à partir de la page d’enregistrement.
 * Vous ne pouvez pas ajouter d’images de couverture en ligne à partir de n’importe quel affichage d’enregistrement.
 
 ## Ajout d’une image de couverture à un enregistrement
 
-Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture en haut de la zone d’enregistrement ou de la page.
+Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture en haut de l’aperçu de l’enregistrement ou de la page.
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
    Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement.
 
-   La boîte de l’enregistrement s’ouvre dans la vue.
+   L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
    >
    >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement dans une vue de tableau uniquement lorsque le champ Nom est un champ principal.
 
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de la zone d’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    La page d’enregistrement s’ouvre.
 
    ![](assets/details-page.png)
 
-1. Dans la zone d’enregistrement ou la page, cliquez sur **Ajouter une couverture**. <!--check the casing here; I logged a bug for this-->
+1. Dans l’aperçu de l’enregistrement ou la page, cliquez sur **Ajouter une couverture**. <!--check the casing here; I logged a bug for this-->
 La variable **Record cover** s’ouvre.
 
 1. Cliquez sur **Sélectionner pour charger** et recherchez une image sur votre ordinateur pour la sélectionner, l’ajouter, puis cliquez sur **Utiliser une image**.
 
-   L’image est téléchargée en haut de la zone d’enregistrement ou de la page et les modifications sont enregistrées automatiquement.
+   L’image est téléchargée en haut de l’aperçu de l’enregistrement ou de la page et les modifications sont enregistrées automatiquement.
 
    ![](assets/record-page-with-cover-image.png)
 
