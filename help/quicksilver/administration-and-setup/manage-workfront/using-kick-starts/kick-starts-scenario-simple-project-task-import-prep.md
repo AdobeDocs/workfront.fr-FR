@@ -3,92 +3,92 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Lancer la préparation de l’importation des tâches et des projets simples par le scénario
-description: Décrit en détail les paramètres et les contrôles disponibles pour un projet de base et l’importation de tâches à l’aide de la méthode de démarrage rapide.
-author: Caroline
+title: Projet de scénario simple Kickstart et préparation de l’import de tâches
+description: Décrit en détail les paramètres et les contrôles disponibles pour un projet de base et l’import de tâches à l’aide de la méthode Kickstart.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: b872ae1f712aa1b5af9ef73b87c5fbd51697626e
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 9%
+ht-degree: 99%
 
 ---
 
-# Scénario de démarrage : préparation simple de l’importation de projet et de tâche
+# Scénario Kickstart : préparation simple de l’import de projets et de tâches
 
-Décrit en détail les paramètres et les contrôles disponibles pour un projet de base et l’importation de tâches à l’aide de la méthode de démarrage rapide.
+Décrit en détail les paramètres et les contrôles disponibles pour un projet de base et l’import de tâches à l’aide de la méthode Kickstart.
 
 ## Scénario
 
 L’équipe d’implémentation préfère importer les informations sur les projets et les tâches pour les projets actifs plutôt que de saisir manuellement ces données dans le système.
 
 * [Projets](#projects)
-* [Liste des tâches](#task-list)
+* [Liste de tâches](#task-list)
 
 ### Projets {#projects}
 
-Le tableau suivant affiche quatre projets et leurs détails de base qui doivent être mappés dans les formats de fichier Démarrage rapide .
+Le tableau suivant affiche quatre projets et leurs détails de base qui doivent être mappés dans les formats de fichier Kickstart.
 
-Ce scénario suppose que les utilisateurs sont déjà importés dans Adobe Workfront. Si les utilisateurs ne se trouvent pas déjà dans Workfront, remplacez des noms différents ou complétez le scénario de démarrage rapide avec les utilisateurs avant ce scénario.
+Ce scénario suppose que les utilisateurs et utilisatrices sont déjà importés dans Adobe Workfront. Si les utilisateurs et utilisatrices ne se trouvent pas déjà dans Workfront, ajoutez des noms différents ou complétez le scénario Kickstart avec les utilisateurs et utilisatrices avant ce scénario.
 
 1. Implémentez Workfront.
 
    | Date de début prévue | Aujourd’hui |
    |---|---|
-   | Gestionnaire de projet | Jennifer Campbell |
-   | Sponsor du projet | Marc Lewis |
+   | Gestionnaire de projet | Jennifer Campbell |
+   | Sponsor du projet | Marc Lewis |
    | Groupe | Marketing |
    | Entreprise | *YourCompany* |
 
    {style="table-layout:auto"}
 
-1. Mettre en oeuvre le système des ressources humaines.
+1. Implémentez le système des ressources humaines.
 
-   | Date de début prévue | 14 juillet 20XX |
+   | Date de début prévue | 14 juillet 20XX |
    |---|---|
-   | Gestionnaire de projet | Pam Reynolds |
-   | Sponsor du projet | Marc Lewis |
+   | Gestionnaire de projet | Pam Reynolds |
+   | Sponsor du projet | Marc Lewis |
    | Groupe | Marketing |
    | Entreprise | *YourCompany* |
 
    {style="table-layout:auto"}
 
-1. Mise en oeuvre de Document Management System.
+1. Implémentez le système de gestion des documents.
 
-   | Date de début prévue | 22 août 20XX |
+   | Date de début prévue | 22 août 20XX |
    |---|---|
-   | Gestionnaire de projet | Jennifer Campbell |
-   | Sponsor du projet | Ray Andrews |
-   | Groupe | IT |
+   | Gestionnaire de projet | Jennifer Campbell |
+   | Sponsor du projet | Ray Andrews |
+   | Groupe | Informatique |
    | Entreprise | *YourCompany* |
 
    {style="table-layout:auto"}
 
-1. Mise En Oeuvre Du Nouveau Système De Calendrier.
+1. Implémentez le nouveau système de calendrier.
 
-   | Date de début prévue | 6 septembre 20XX |
+   | Date de début prévue | 6 septembre 20XX |
    |---|---|
-   | Gestionnaire de projet | Pam Reynolds |
-   | Sponsor du projet | Ray Andrews |
-   | Groupe | IT |
+   | Gestionnaire de projet | Pam Reynolds |
+   | Sponsor du projet | Ray Andrews |
+   | Groupe | Informatique |
    | Entreprise | *YourCompany* |
 
    {style="table-layout:auto"}
 
-### Liste des tâches {#task-list}
+### Liste de tâches {#task-list}
 
-La liste de tâches suivante affiche des listes de tâches trop simplifiées pour les projets. La seule différence entre les projets est la date de début et l’état d’avancement de chaque projet.
+La liste de tâches suivante affiche des listes de tâches trop simplifiées pour les projets. La seule différence entre les projets est la date de début et la progression de chaque projet.
 
-Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’achèvement des tâches enfants. Il n’est pas nécessaire de définir ces valeurs pour qui deviendra des tâches de résumé.
+Les tâches parent héritent de la durée, du travail et du pourcentage terminé des tâches enfant. Il n’est pas nécessaire de définir ces valeurs qui deviendront des tâches de résumé.
 
 >[!NOTE]
 >
->Les instructions fournies dans ce scénario ne sont pas aussi explicites que les instructions étape par étape fournies dans [Scénario de démarrage : société, groupe, rôle et utilisateur - Démarrage de la préparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). L’hypothèse est que vous avez déjà appris à rechercher et à copier des valeurs dans les feuilles Société et Groupe. Par conséquent, ces étapes seront mentionnées, mais pas spécifiquement décrites.
+>Les instructions fournies dans ce scénario ne sont pas aussi explicites que les instructions détaillées fournies dans [Scénario Kickstart : préparation Kickstart pour les entreprises, groupes, rôles et utilisateurs et utilisatrices ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Il est supposé que vous avez déjà appris à rechercher et à copier des valeurs dans les feuilles Entreprise et Groupe. Par conséquent, ces étapes seront mentionnées, mais pas spécifiquement décrites.
 
 1. Configurez.
-1. Importez des utilisateurs.
+1. Importez des utilisateurs et utilisatrices.
 
    <table style="table-layout:auto"> 
     <col width="50%"> 
@@ -96,7 +96,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
     <tbody> 
      <tr> 
       <td role="rowheader">Affecté à</td> 
-      <td>Ray Andrews</td> 
+      <td>Ray Andrews</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tâche parent</td> 
@@ -112,7 +112,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
      </tr> 
      <tr> 
       <td role="rowheader">Pourcentage d’achèvement</td> 
-      <td> <p>WORKFRONT : 0 %</p> <p>HR : 100 %</p> <p>Documents : 100 %</p> <p>Calendrier : 100 %</p> </td> 
+      <td> <p>Workfront : 0 %</p> <p>RH : 100 %</p> <p>Documents : 100 %</p> <p>Calendrier : 100 %</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -125,7 +125,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
     <tbody> 
      <tr> 
       <td role="rowheader">Affecté à</td> 
-      <td>Ray Andrews</td> 
+      <td>Ray Andrews</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tâche parent</td> 
@@ -145,7 +145,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
      </tr> 
      <tr> 
       <td role="rowheader">Pourcentage d’achèvement</td> 
-      <td> <p>WORKFRONT : 0 %</p> <p>HR : 100 %</p> <p>Documents : 100 %</p> <p>Calendrier : 100 %</p> </td> 
+      <td> <p>Workfront : 0 %</p> <p>RH : 100 %</p> <p>Documents : 100 %</p> <p>Calendrier : 100 %</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -158,7 +158,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
     <tbody> 
      <tr> 
       <td role="rowheader">Affecté à</td> 
-      <td>Ray Andrews</td> 
+      <td>Ray Andrews</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tâche parent</td> 
@@ -178,12 +178,12 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
      </tr> 
      <tr> 
       <td role="rowheader">Pourcentage d’achèvement</td> 
-      <td> <p>WORKFRONT : 0 %</p> <p>HR : 100 %</p> <p>Documents : 100 %</p> <p>Calendrier : 25 %</p> </td> 
+      <td> <p>Workfront : 0 %</p> <p>RH : 100 %</p> <p>Documents : 100 %</p> <p>Calendrier : 25 %</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Préparez l&#39;entraînement.
+1. Préparez la formation.
 
    <table style="table-layout:auto"> 
     <col width="50%"> 
@@ -191,7 +191,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
     <tbody> 
      <tr> 
       <td role="rowheader">Affecté à</td> 
-      <td>Chris Manning</td> 
+      <td>Chris Manning</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Durée</td> 
@@ -203,12 +203,12 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
      </tr> 
      <tr> 
       <td role="rowheader">Pourcentage d’achèvement</td> 
-      <td> <p>WORKFRONT : 0 %</p> <p>HR : 100 %</p> <p>Documents : 50 %</p> <p>Calendrier : 100 %</p> </td> 
+      <td> <p>Workfront : 0 %</p> <p>RH : 100 %</p> <p>Docs : 50 %</p> <p>Calendrier : 100 %</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Construire des politiques d’assistance en cours.
+1. Créez des politiques de prise en charge continue.
 
    <table style="table-layout:auto"> 
     <col width="50%"> 
@@ -216,7 +216,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
     <tbody> 
      <tr> 
       <td role="rowheader">Affecté à</td> 
-      <td>Chris Manning</td> 
+      <td>Chris Manning</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Durée</td> 
@@ -228,7 +228,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
      </tr> 
      <tr> 
       <td role="rowheader">Pourcentage d’achèvement</td> 
-      <td> <p>WORKFRONT : 0 %</p> <p>HR : 100 %</p> <p>Documents : 50 %</p> <p>Calendrier : 0 %</p> </td> 
+      <td> <p>Workfront : 0 %</p> <p>RH : 100 %</p> <p>Docs : 50 %</p> <p>Calendrier : 0 %</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -240,7 +240,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
 
    {style="table-layout:auto"}
 
-1. Formation des utilisateurs.
+1. Formez les utilisateurs et utilisatrices.
 
    <table style="table-layout:auto"> 
     <col width="50%"> 
@@ -248,7 +248,7 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
     <tbody> 
      <tr> 
       <td role="rowheader">Affecté à</td> 
-      <td>Chris Manning</td> 
+      <td>Chris Manning</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tâche parent</td> 
@@ -264,95 +264,95 @@ Les tâches parentes héritent des tâches Durée, Travail et Pourcentage d’ac
      </tr> 
      <tr> 
       <td role="rowheader">Pourcentage d’achèvement</td> 
-      <td> <p>WORKFRONT : 0 %</p> <p>HR : 0 %</p> <p>Documents : 0 %</p> <p>Calendrier : 0 %</p> </td> 
+      <td> <p>Workfront : 0 %</p> <p>RH : 0 %</p> <p>Docs : 0 %</p> <p>Calendrier : 0 %</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## Modèle de téléchargement
+## Télécharger un modèle
 
-Accédez à la page Démarrages de session . Sélectionnez les objets Société, Groupe, Projet, Tâche et Utilisateur . Cochez la case Inclure les données existantes (effectuez cette opération pour référencer rapidement les ID d’entreprise, de groupe et d’utilisateur). Cliquez sur le bouton Télécharger .
+Accédez à la page Kickstart. Sélectionnez les objets Entreprise, Groupe, Projet, Tâche et Utilisateur ou utilisatrice. Cochez la case Inclure les données existantes (pour référencer rapidement les identifiants d’entreprise, de groupe et d’utilisateur ou d’utilisatrice). Cliquez sur le bouton Télécharger.
 
-## Détails du projet d’entrée
+## Saisir de détails du projet
 
-Ouvrez le fichier Workfront.xlsx que vous venez de télécharger. Accédez à la feuille de projet PROJ .
+Ouvrez le fichier Workfront.xlsx que vous venez de télécharger. Accédez à la feuille de projet PROJ.
 
-![](assets/im2-350x14.png)\
+![](assets/im2.png)
 À moins que vous n’ayez déjà créé des projets dans Workfront, il doit être vide.
 
-![](assets/im10-350x42.png)
+![](assets/im10.png)
 
-Définissez les valeurs des champs de projet suivants :
+Définissez les valeurs des champs de projet suivants :
 
 * **Définir la colonne isNew**
-Saisissez TRUE dans les lignes 3 à 6 pour la colonne isNew .
-* **Définition d’identifiants uniques**
-Saisissez un identifiant unique dans chaque ligne pour la colonne ID — En règle générale, les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
-* **Définition des noms de projet**
-Saisissez les noms de chaque projet dans la colonne setName .
-* **Définition du planning du projet**
+Saisissez TRUE dans les lignes 3 à 6 de la colonne isNew.
+* **Définir des identifiants uniques**
+Saisissez un identifiant unique dans chaque ligne de la colonne ID ; des nombres entiers commençant par 1 conviennent généralement bien lors de la création de nouveaux enregistrements.
+* **Définir les noms des projets**
+Saisissez les noms de chaque projet dans la colonne setName.
+* **Définir le planning du projet**
 
-  Saisissez l’identifiant du planning que le projet doit utiliser dans le champ setScheduleID .
+  Saisissez l’identifiant du planning que le projet doit utiliser dans le champ setScheduleID.
 
-* **Définition de la date de début prévue du projet**
+* **Définir la date de début prévue du projet**
 
-  Saisissez la date et l’heure dans la colonne setScheduleStartDate avec l’heure et la date de début du projet. S’il n’est pas renseigné, Workfront importe le projet avec la date du jour en cours et un horodatage de minuit en fonction du fuseau horaire du navigateur.
+  Saisissez la date et l’heure dans la colonne setPlannedStartDate avec l’heure et la date auxquelles le projet doit démarrer. Si ce champ n’est pas renseigné, Workfront importe le projet avec la date du jour et la date et l’heure de ce jour à minuit en fonction du fuseau horaire du navigateur.
 
-* **Définition des numéros de tâche**
-Saisissez des valeurs dans la colonne setTaskNumber pour contrôler l’ordre dans lequel les tâches apparaîtront dans le plan du projet.
-* **Indiquez les dates du projet.**
-Saisissez la Date de début planifiée pour chaque projet dans la colonne setScheduleStartDate .
-* **Définissez d’autres détails nécessaires.**
-Renseignez d’autres détails, tels qu’une description ou l’état actuel, si nécessaire. Recherchez les ID de groupe pour chaque projet dans la feuille Groupe GROUP et saisissez-les dans la colonne setGroupID pour les projets respectifs. Recherchez l’ID de société pour les projets dans la feuille de calcul Société CMPY et saisissez-le dans la colonne setCompanyID . Recherchez l’ID utilisateur pour chaque propriétaire de projet dans la feuille utilisateur de l’utilisateur et saisissez-le dans la colonne setOwnerID . Recherchez l’ID utilisateur de chaque sponsor de projet dans la feuille utilisateur USER et saisissez-le dans la colonne setSponsorID .
+* **Définir les numéros de tâches**
+Saisissez des valeurs dans la colonne setTaskNumber pour déterminer l’ordre dans lequel les tâches apparaîtront dans le plan du projet.
+* **Indiquer les dates du projet.**
+Saisissez la date de début prévue de chaque projet dans la colonne setPlannedStartDate.
+* **Définir les autres détails nécessaires.**
+Renseignez d’autres détails, comme une description ou le statut actuel, si nécessaire. Recherchez les identifiants de groupes de chaque projet sur la feuille de groupe GROUP et saisissez-les dans la colonne setGroupID des projets respectifs. Recherchez l’identifiant d’entreprise des projets sur la feuille d’entreprise CMPY et saisissez-le dans la colonne setCompanyID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne propriétaire de projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setOwnerID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne sponsor du projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setSponsorID.
 
-![](assets/im9-350x24.png)
+![](assets/im9.png)
 
 >[!NOTE]
 >
->Vous pouvez rechercher des valeurs acceptables pour les champs État et Priorité en examinant l’état et les préférences de priorité de chaque objet dans la zone Configuration du processus de Workfront.
+>Les valeurs acceptables des champs Statut et Priorité peuvent être retrouvées en vérifiant les préférences de statut et de priorité de chaque objet dans la zone de configuration du workflow de Workfront.
 
-## Détails de la tâche d’entrée
+## Saisir des détails de la tâche
 
-Vous pouvez ajouter des informations sur les tâches du projet, car vous importez le projet à l’aide de lancements.
+Vous pouvez ajouter des informations sur les tâches du projet lorsque vous importez le projet à l’aide de Kickstart.
 
-Ouvrez le fichier Workfront.xlsx que vous venez de télécharger. **Accédez à la feuille TÂCHE .**
+Ouvrez le fichier Workfront.xlsx que vous venez de télécharger. **Accédez à la feuille de tâche TASK.**
 
-Cette feuille doit être vide, sauf si vous avez déjà créé des tâches dans Workfront.
+À moins que vous n’ayez déjà créé des tâches dans Workfront, cette feuille doit être vide.
 
-![](assets/im8-350x14.png)
+![](assets/im8.png)
 
-![](assets/im7-350x43.png)
+![](assets/im7.png)
 
-![](assets/im6-350x16.png)
+![](assets/im6.png)
 
-Le moyen le plus simple de mapper des tâches est un projet à la fois (en particulier lorsque les tâches sont identiques pour chaque projet). Vous pouvez ensuite copier le plan de tâches du premier projet et apporter de petits ajustements au plan de tâches des projets suivants. Les étapes restantes supposent que vous créez des tâches uniquement pour le projet Mise en oeuvre de Workfront . Selon le scénario, vous importez 9 tâches par projet. Par conséquent, saisissez TRUE dans les lignes 3 à 11 pour la colonne isNew .
+La façon la plus simple de mapper des tâches consiste à le faire projet par projet (en particulier lorsque les tâches sont les mêmes pour chaque projet). Vous pouvez ensuite copier le plan de tâches du premier projet et y apporter de légères modifications pour les projets suivants. Les étapes suivantes supposent que vous créez des tâches pour le projet Implementez Workfront seulement. Selon le scénario, vous importerez 9 tâches par projet. Saisissez donc TRUE dans les lignes 3 à 11 de la colonne isNew.
 
-Définissez les valeurs des champs de tâche suivants :
+Définissez les valeurs des champs de tâche suivants :
 
-* **Définition des ID**
-Saisissez un identifiant unique dans chaque ligne pour la colonne ID.
+* **Définir les identifiants**
+Saisissez un identifiant unique dans chaque ligne de la colonne ID.
 * **Définir les noms**
-Saisissez les noms des tâches dans la colonne setName .
-* **Confirmation de l’ID de projet**
-Saisissez l’identifiant que vous avez défini pour le projet de mise en oeuvre de Workfront ; passez en revue la feuille de projet PROJ pour vous assurer qu’il s’agit bien de l’identifiant.
-* **Définition des utilisateurs**
-Accédez à la feuille Utilisateur de l’utilisateur pour rechercher l’identifiant de l’utilisateur affecté à chaque tâche et saisissez ces valeurs dans les cellules respectives de la colonne setAssignedToID .
-* **Identification des relations de tâche**
-Pour les tâches 2 à 5, saisissez 1 dans la colonne setParentID . Pour la tâche 9, saisissez 8 dans la colonne setParentID . Dans la colonne setPredecessorString , saisissez le numéro de la tâche pour chaque tâche de prédécesseur. Si une tâche comporte plusieurs prédécesseurs, comme la tâche 8 dans ce scénario, vous devrez utiliser une virgule pour séparer chaque ID de tâche de prédécesseur. Les prédécesseurs peuvent être définis avec des décalages sur les relations non-finish-Start à l’aide du raccourci décrit dans l’article Création de relations avec le prédécesseur .
+Saisissez les noms des tâches dans la colonne setName.
+* **Confirmer l’identifiant du projet**
+Saisissez l’identifiant que vous avez défini pour le projet Implementez Workfront ; vérifiez la feuille de projet PROJ pour vous assurer qu’il s’agit du bon identifiant.
+* **Définir les utilisateurs et utilisatrices**
+Accédez à la feuille d’utilisateur ou d’utilisatrice USER pour rechercher l’identifiant de la personne affectée à chaque tâche et saisissez ces valeurs dans les cellules respectives de la colonne setAssignedToID.
+* **Identifier les relations entre les tâches**
+Pour les tâches 2 à 5, saisissez 1 dans la colonne setParentID. Pour la tâche 9, saisissez 8 dans la colonne setParentID. Dans la colonne setPredecessorString, saisissez le numéro de tâche de chaque tâche antérieure. Lorsqu’une tâche a plusieurs tâches antérieures, comme la tâche 8 dans ce scénario, vous devez utiliser une virgule pour séparer chaque identifiant de tâche antérieure. Les tâches antérieures peuvent être définies avec des décalages sur des relations autres que Terminer-Démarrer en utilisant les raccourcis décrits dans l’article Création de relations antérieures.
 * **Définir la durée**
-Définissez la durée de chaque tâche en saisissant le nombre d’heures, de jours, de semaines ou de mois pour la tâche dans le champ setDuration . Ensuite, saisissez l’unité de durée dans le champ setDurationUnit .
+Définissez la durée de chaque tâche en saisissant le nombre d’heures, de jours, de semaines ou de mois pour la tâche dans le champ setDuration. Saisissez ensuite l’unité de durée dans le champ setDurationUnit.
 
   |   | Valeur acceptable |
   |---|---|
   | Minutes | L |
-  | Heures | h |
+  | Heures | H |
   | Jours | Dés |
   | Semaines | S |
   | Mois | M |
 
-  Les minutes peuvent également être représentées sous la forme d’une fraction d’heure (par exemple, minutet = 5 heures).
+  Les minutes peuvent également être représentées sous la forme d’une fraction d’heure (par exemple, 30 minutes = 0,5 heures).
 
-* Définissez la quantité de travail pour chaque tâche dans le champ setWorkRequired . Ensuite, saisissez l’unité de travail dans le champ setWorkUnit . Si la valeur Work Required est différente de la durée, vous devrez également saisir un A dans le champ setDurationType .
+* Définissez la quantité d’effort pour chaque tâche dans le champ setWorkRequired. Saisissez ensuite l’unité de travail dans le champ setWorkUnit. Si la valeur Travail requis est différente de la durée, vous devrez également saisir un A dans le champ setDurationType.
 
   | Type de durée | Valeur acceptable |
   |---|---|
@@ -361,21 +361,21 @@ Définissez la durée de chaque tâche en saisissant le nombre d’heures, de jo
   | Piloté par l&#39;effort | Dés |
   | Simple | S |
 
-* Saisissez la représentation numérique complète du pourcentage terminé dans le champ setPercentComplete pour chaque tâche. Cette valeur ne doit pas inclure le symbole de pourcentage (%).
+* Saisissez la représentation en nombres entiers du pourcentage terminé dans le champ setPercentComplete pour chaque tâche. Cette valeur ne doit pas inclure le symbole du pourcentage (%).
 * Ajoutez une description et d’autres détails pour chaque tâche que vous créez, si nécessaire.
 
-  ![](assets/im5-350x35.png)
+  ![](assets/im5.png)
 
-* Les colonnes setScheduleStartDate et setTaskConstraint ne sont pas utilisées pour construire la chronologie de ce projet, car nous nous appuyons sur les relations de prédécesseur. Vous pouvez saisir plutôt une date pour chaque tâche. Dans ce cas, veillez également à fournir une contrainte de tâche valide dans la colonne setTaskConstraint . Pour plus d’informations sur les valeurs valides de ce champ, consultez la Contrainte de tâche et les articles connexes.
+* Les colonnes setPlannedStartDate et setTaskConstraint ne sont pas utilisées pour construire la chronologie de ce projet, car nous nous appuyons sur les relations antérieures. Vous pouvez saisir une date pour chaque tâche à la place. Dans ce cas, veillez à fournir également une contrainte de tâche valide dans la colonne setTaskConstraint. Pour plus d’informations sur les valeurs valides de ce champ, consultez la rubrique Contrainte de tâche et les articles connexes.
 
-  Dans ce cas, la méthode la plus simple pour créer les tâches des autres projets que vous importez consiste à copier les tâches que vous venez de définir et à les coller ci-dessous, à partir de la ligne 12. Vous pourrez ensuite :
+  Dans le cas de ce scénario, la manière la plus simple de construire les tâches pour les autres projets que vous importez est de copier les tâches que vous venez de définir et de les coller ci-dessous, à partir de la ligne 12. Vous pourrez ensuite :
 
-   1. Renumérotez les valeurs de la colonne ID.
-   1. Mettez à jour la colonne setProjectID avec la valeur que vous définissez pour le projet suivant.
-   1. Mettez à jour les valeurs setParentID et setPredecessorString pour refléter les nouveaux ID affectés aux tâches de ce projet.
-   1. Mise à jour des affectations de tâche et pourcentage terminé.
-   1. Répétez ces étapes pour les tâches du projet suivant.
+   1. renuméroter les valeurs de la colonne ID ;
+   1. mettre à jour la colonne setProjectID avec la valeur que vous avez définie pour le projet suivant ;
+   1. mettre à jour les valeurs setParentID et setPredecessorString pour refléter les nouveaux ID affectés aux tâches de ce projet ;
+   1. mettre à jour les affectactions de tâches et le pourcentage terminé ;
+   1. répéter ces étapes pour les tâches du projet suivant.
 
-* **Importation du fichier Excel**
+* **Importer le fichier Excel**
 
-  Suivez les instructions de la section [Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Suivez les instructions fournies dans [Importer des données dans Adobe Workfront à l’aide d’un modèle Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

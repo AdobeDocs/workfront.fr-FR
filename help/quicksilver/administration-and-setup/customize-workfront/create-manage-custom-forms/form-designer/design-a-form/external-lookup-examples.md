@@ -7,10 +7,11 @@ description: Un champ Recherche externe dans un formulaire personnalisé appelle
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: a082f010dbd78235aaad41a80d87d772ca77ff89
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 0%
+source-wordcount: '841'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +21,7 @@ Un champ Recherche externe dans un formulaire personnalisé appelle une API exte
 
 Cet article fournit des exemples d’utilisation du champ Recherche externe pour appeler la même instance de Workfront ou une API publique. Vous pouvez également utiliser la recherche externe pour communiquer avec un système externe tel que Jira, Salesforce ou ServiceNow.
 
-Pour plus d’informations sur l’ajout d’un champ de recherche externe à un formulaire personnalisé et des définitions supplémentaires des composants de recherche externe, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Les champs de recherche externe sont disponibles uniquement dans le nouveau concepteur de formulaire, et non dans l’ancien créateur de formulaires. Pour plus d’informations sur l’ajout d’un champ de recherche externe à un formulaire personnalisé et des définitions supplémentaires des composants de recherche externe, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuration d’un champ de recherche externe pour la même instance de Workfront
 
@@ -127,4 +128,3 @@ Répertorie tous les pays : <https://api.first.org/data/v1/countries>
    ![Formulaire personnalisé avec champ de recherche externe](assets/external-lookup-countries-example1.png)
 
    ![Options de recherche externe d’un pays en fonction de sa région](assets/external-lookup-countries-example2.png)
-
