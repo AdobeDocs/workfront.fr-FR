@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ Aperçu : à déterminer
 Lorsqu’un utilisateur met à jour les informations d’un enregistrement dans la vue de tableau, d’autres utilisateurs peuvent afficher les informations mises à jour dans la zone de détails de l’enregistrement (dans une vue) ou dans une page en temps réel. Cela permet à tous les utilisateurs d’afficher les informations mises à jour en même temps, en synchronisation avec le moment où les modifications se produisent.
 
 Pour plus d’informations sur la modification d’enregistrements, voir [Modifier des enregistrements](/help/quicksilver/maestro/records/edit-records.md).
+
+### Mises à jour en temps réel dans la vue Calendrier après modification des enregistrements
+
+Production : 3 mai 2024
+
+Aperçu : à déterminer.
+
+Lorsqu’un utilisateur met à jour les informations sur un enregistrement, d’autres utilisateurs peuvent afficher les informations mises à jour dans la vue Calendrier de l’enregistrement en temps réel. Cela permet à tous les utilisateurs d’afficher les informations mises à jour en même temps, en synchronisation avec le moment où les modifications se produisent.
 
 <!--
 
