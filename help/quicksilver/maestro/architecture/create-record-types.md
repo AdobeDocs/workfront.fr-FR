@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1269'
 ht-degree: 3%
 
 ---
@@ -146,7 +146,7 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. Mettez à jour les informations suivantes :
 
-   * Remplacez &quot;Untitled Operational Record Type&quot; par le nom de votre futur type d’enregistrement. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * Remplacez &quot;Untitled record type&quot; par le nom de votre futur type d’enregistrement. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Description**: ajoutez des informations supplémentaires sur le type d’enregistrement.
    * Sélectionnez une couleur et une forme pour l’icône associée au type d’enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône de type d’enregistrement. L’option Gris est sélectionnée par défaut.
@@ -155,8 +155,11 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
 1. Cliquez sur **Créer**.
 
    La carte de type enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionné.
-Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la carte.
-1. (Facultatif) Passez la souris sur la carte de type d’enregistrement, puis cliquez sur le bouton **Plus** icon ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier des informations sur le type d’enregistrement.
+La description du type d’enregistrement s’affiche sur la carte.
+
+   ![](assets/record-type-card-with-description.png)
+
+1. (Facultatif) Passez la souris sur la carte de type d’enregistrement, puis cliquez sur le bouton **Plus** icon ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier les informations sur le type d’enregistrement.
 1. (Facultatif) Cliquez sur la carte de type enregistrement pour ouvrir la page de type enregistrement.
 
    ![](assets/operational-record-type-blank.png)
@@ -188,9 +191,9 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
 
 1. (Facultatif) Cliquez sur la flèche pointant vers la gauche du nom du type d’enregistrement, dans l’en-tête, pour revenir à l’espace de travail sélectionné.
 
-   La carte de type enregistrement affiche le nombre de champs et de connexions contenus dans le type d’enregistrement.
+1. (Facultatif) Dans l’espace de travail, cliquez sur une carte de type enregistrement et maintenez-la enfoncée pour faire glisser et déposer le type d’enregistrement à un emplacement souhaité, ou pour le déplacer vers une autre section.
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   Les modifications sont enregistrées automatiquement.
 
    Pour plus d’informations sur l’ajout d’enregistrements, la suppression ou la modification de types d’enregistrements, ou la mise à jour de la vue dans la page de type d’enregistrement, voir les articles suivants :
 
@@ -198,10 +201,6 @@ Le nombre de champs contenus dans le type d’enregistrement s’affiche sur la 
    * [Supprimer des types d’enregistrements](../architecture/delete-record-types.md)
    * [Modifier des types d’enregistrements](../architecture/edit-record-types.md)
    * [Gestion des vues d’enregistrement](../views/manage-record-views.md)
-
-1. (Facultatif) Dans l’espace de travail, cliquez sur une carte de type enregistrement et maintenez-la enfoncée pour faire glisser et déposer le type d’enregistrement à un emplacement souhaité, ou pour le déplacer vers une autre section.
-
-   Les modifications sont enregistrées automatiquement.
 
 ## Création de types d’enregistrement à l’aide d’un import de fichier Excel ou CSV
 

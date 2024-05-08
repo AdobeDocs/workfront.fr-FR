@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 5%
@@ -134,9 +134,9 @@ Cela ouvre la zone Espaces de travail de la planification Workfront.
 
    Pour plus d’informations, voir [Suppression des types d’enregistrement](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. (Facultatif) Cliquez sur le nom d’une vue dans les onglets de vue pour modifier une vue existante, ou cliquez sur **+ Affichage** pour créer une vue.
+1. (Facultatif) Appuyez sur une carte de type enregistrement et cliquez dessus pour la faire glisser et la déposer à un nouvel emplacement. Vous pouvez faire glisser et déposer des types d’enregistrement d’une section d’espace de travail vers une autre.
 
-   Pour plus d’informations, voir [Gestion des vues d’enregistrement](/help/quicksilver/maestro/views/manage-record-views.md).
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Facultatif) Cliquez sur **Partager** dans le coin supérieur droit de l’espace de travail pour partager l’espace de travail avec d’autres personnes.
 

@@ -4,10 +4,10 @@ description: Lorsqu’une personne vous balise dans un commentaire d’enregistr
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 10%
+source-wordcount: '293'
+ht-degree: 9%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 10%
 {{maestro-important-intro}}
 
 Lorsqu’une personne vous balise dans un commentaire d’enregistrement, vous pouvez recevoir une notification in-app pour cette balise.
+
+>[!IMPORTANT]
+>
+>Votre entreprise doit être un client Adobe Unified Experience pour pouvoir recevoir des notifications de Workfront Planning.
+>
+>Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Pour plus d’informations sur le balisage des autres dans un commentaire d’enregistrement, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Pour recevoir des notifications de Workfront Planning, l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -76,12 +83,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 
-## Conditions préalables
-
-Votre société doit être un client Adobe Unified Experience Workfront pour que vous puissiez recevoir une notification in-app lorsqu’une personne vous balise dans un commentaire d’enregistrement.
-
-Pour déterminer si vous êtes un utilisateur d’expérience unifiée Adobe, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## Gestion des notifications in-app
 
 1. (Conditionnel) Une fois qu’un utilisateur vous a marqué dans un commentaire sur un enregistrement, accédez à la page in-app. **Notifications** icon ![](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
@@ -90,7 +91,7 @@ Pour déterminer si vous êtes un utilisateur d’expérience unifiée Adobe, vo
 
 1. Cliquez sur la notification.
 
-   La page des détails de l’enregistrement s’ouvre dans Workfront. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
+   La page des détails de l’enregistrement s’ouvre dans Workfront Planning. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
 
-1. (Facultatif) Cliquez sur **Tout marquer comme lu** pour indiquer que vous avez lu toute la notification.
+1. (Facultatif) Cliquez sur **Tout marquer comme lu** pour indiquer que vous avez lu toutes les notifications.
 1. (Facultatif) Cliquez sur **Afficher tout** pour accéder au **Notifications** dans Adobe Experience Cloud.

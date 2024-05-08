@@ -1,14 +1,14 @@
 ---
-title: Connexion des types d’enregistrement
+title: Connecter des types d’enregistrements
 description: Une façon d’indiquer comment les types d’enregistrement individuels sont associés les uns aux autres consiste à les connecter. En outre, vous pouvez connecter les types d’enregistrement Adobe Workfront Planning aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et de garder leur focus dans une seule application.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 0%
+source-wordcount: '2216'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ author: Alina
 <!--************ THIS MIGHT NO LONGER BE A 'RELATIONSHIP' TYPE FIELD, BECAUSE THEY WILL SHOW IT IN THE CONNECTION TAB*****************************-->
 
 
-# Connexion des types d’enregistrement
+# Connecter des types d’enregistrements
 
 {{maestro-important-intro}}
 
@@ -46,9 +46,9 @@ Pour un exemple de connexion des types d’enregistrement, voir [Exemple de conn
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrement Adobe Workfront Planning à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrements Adobe Workfront Planning à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée de l’Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -69,20 +69,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -168,7 +168,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
   Les champs liés sont précédés d’une icône qui identifie le type de champ. Par exemple, des icônes qui indiquent qu’un champ est un nombre, un paragraphe ou une date.
 
-## Connexion des types d’enregistrement
+## Connecter des types d’enregistrements
 
 <!--when changes here, also update the article for "Connect records"-->
 

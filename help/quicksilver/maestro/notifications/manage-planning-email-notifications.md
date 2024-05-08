@@ -4,10 +4,10 @@ description: Lorsqu’une personne vous balise dans un commentaire d’enregistr
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 12%
+source-wordcount: '301'
+ht-degree: 9%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 12%
 {{maestro-important-intro}}
 
 Lorsqu’une personne vous balise dans un commentaire d’enregistrement, vous recevez une notification par courrier électronique pour cette balise.
+
+>[!IMPORTANT]
+>
+>Votre entreprise doit être un client Adobe Unified Experience pour pouvoir recevoir des notifications de Workfront Planning.
+>
+>Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Pour plus d’informations sur le balisage des autres dans un commentaire d’enregistrement, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Pour recevoir des notifications de Workfront Planning et gérer les préférences de notification, l’instance de Workfront de votre entreprise doit être intégrée à l’Adobe Expérience unifiée. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -78,7 +85,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Gestion des notifications par courrier électronique
 
-1. (Conditionnel) Après qu’un utilisateur vous ait marqué dans un commentaire sur un enregistrement, accédez à la notification électronique qui vous informe de la balise et du commentaire.
+1. (Conditionnel) Après qu’un utilisateur vous ait marqué dans un commentaire sur un enregistrement, accédez à la notification électronique qui vous informe de la balise et du commentaire. L’expéditeur de l’email est Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    La page des détails de l’enregistrement s’ouvre dans Workfront. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
 
 1. (Conditionnel) Si disponible, cliquez sur **Afficher toutes les notifications**. <!--check with Lilit - do non-IMS users have this button??-->
-La page Notifications s’ouvre dans Adobe Experience Cloud.
+La variable **Notifications** s’ouvre dans Adobe Experience Cloud.

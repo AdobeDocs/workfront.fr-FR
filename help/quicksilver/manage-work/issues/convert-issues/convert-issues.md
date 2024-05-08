@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Présentation des problèmes de conversion dans Adobe Workfront
+title: Vue d’ensemble de la conversion des problèmes dans Adobe Workfront
 description: Si davantage de travail doit être fait pour résoudre un problème après l’envoi du problème, vous pouvez convertir le problème en projet ou en tâche.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 2%
+source-wordcount: '1441'
+ht-degree: 3%
 
 ---
 
-# Présentation des problèmes de conversion dans Adobe Workfront
+# Vue d’ensemble de la conversion des problèmes dans Adobe Workfront
 
 Si davantage de travail doit être fait pour résoudre un problème après l’envoi du problème, vous pouvez convertir le problème en projet ou en tâche.
 
@@ -25,6 +25,7 @@ Pour plus d’informations sur la conversion de problèmes en projets, voir [Con
 
 ## Considérations relatives à la conversion de problèmes
 
+* Lors de la conversion de problèmes en tâches ou projets, la plupart des informations de la publication sont transférées vers la tâche ou le projet, sauf indication contraire dans cet article.
 * L’administrateur ou l’administrateur de groupe Workfront a déjà défini les préférences pour ce qui arrive à un problème, sa résolution et l’accès de son contact de Principal lorsqu’il est converti en projet ou en tâche, comme indiqué dans la section [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront supprime les approbations associées aux problèmes lors de la conversion.
 * Workfront remplace l’objet de résolution du problème lorsque vous le convertissez en tâche ou projet. La nouvelle tâche ou le nouveau problème devient le nouvel objet de résolution du problème après la conversion.
@@ -76,7 +77,9 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
   </tr> 
   <tr> 
    <td>Priorité</td> 
-   <td>Transferts à partir du modèle. </td> 
+   <td><p>Transferts du problème.</p>
+   <p>Lorsque vous utilisez un modèle pour le projet converti, vous avez la possibilité de modifier manuellement la priorité. Si vous choisissez de ne pas le modifier, la priorité du problème est transférée au projet. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -87,7 +90,7 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
    <td>Transferts à partir du modèle.</td> 
   </tr> 
   <tr> 
-   <td>Condition du projet</td> 
+   <td>Statut du projet</td> 
    <td>Correspond à la préférence par défaut au niveau du système, déterminée par l’administrateur Workfront dans la zone Configuration . Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Définir une condition personnalisée comme condition par défaut pour les projets</a></td> 
   </tr> 
   <tr> 
@@ -104,11 +107,11 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
   </tr> 
   <tr> 
    <td>Portfolio</td> 
-   <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
+   <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
   </tr> 
   <tr> 
    <td>Programme</td> 
-   <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
+   <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
   </tr> 
   <tr> 
    <td>Groupe</td> 
@@ -132,7 +135,7 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
    <td>Transferts à partir du champ Modèle de parrainage sur le modèle. Sinon, ce champ est vide.</td> 
   </tr> 
   <tr> 
-   <td>Resource Manager</td> 
+   <td>Gestionnaire des ressources</td> 
    <td>Transferts à partir du modèle. Sinon, ce champ est vide.</td> 
   </tr> 
   <tr> 
@@ -157,7 +160,7 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ Le tableau suivant illustre les champs de problème visibles à partir des proje
 | Champs de problème | Champ de projet ou de tâche | Liste ou rapport de projets | Zone Détails du projet | Liste ou rapport de tâches | Zone Détails de la tâche |
 |---|---|---|---|---|---|
 | Nom de l&#39;événement | Nom du problème converti | ✔ | ✔ | ✔ | ✔ |
-| Contact principal | Nom de l’auteur du problème converti | ✔ | `✔` | ✔ |   |
-| Date d’entrée | Date d’entrée du problème convertie | ✔ |   | ✔ |   |
+| Contact principal | Nom de l’auteur du problème converti | ✔ | `✔` | ✔ |  |
+| Date d’entrée | Date d&#39;entrée de l&#39;événement converti | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

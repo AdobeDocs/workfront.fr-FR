@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1807'
 ht-degree: 4%
 
 ---
@@ -86,6 +86,8 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Brève présentation créative |                               |                                  | ✓ |
 | Personnalisation de la couleur et de l’icône d’un enregistrement | ✓ |                                  |                 |
 | Ajout de commentaires aux enregistrements | ✓ |                                  |                 |
+| Réception de notifications in-app | ✓ |                                  |                 |
+| Recevoir des notifications par e-mail | ✓ |                                  |                 |
 | Ajouter des miniatures aux enregistrements | ✓ |                                  |                 |
 | Afficher l’historique des modifications sur un enregistrement | ✓ |                                  |                 |
 | Formatage de texte enrichi pour les champs de paragraphe | ✓ |                                  |                 |
