@@ -2,28 +2,30 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: Configuration des préférences de sécurité système
-description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer les préférences de sécurité de votre système Workfront.
-author: Caroline
+title: Configurer les préférences système
+description: En tant qu’administrateur d’Adobe Workfront, vous pouvez configurer les préférences de votre système Workfront, y compris les préférences de sécurité.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
+source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 2%
+source-wordcount: '866'
+ht-degree: 9%
 
 ---
 
-# Configuration des préférences système
+# Configurer les préférences système
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
+<!--Audited: 05/2024-->
+
 {{important-admin-console-onboard}}
 
-En tant qu’administrateur Adobe Workfront, vous pouvez configurer les préférences de votre système Workfront :
+En tant qu’administrateur Adobe Workfront, vous pouvez configurer les préférences de votre système Workfront, notamment :
 
 * Accès à Workfront à partir d’applications mobiles et d’autres applications intégrées
 * Règles d’incorporation de Workfront dans un iFrame
@@ -32,32 +34,36 @@ Les modifications que vous apportez dans les préférences du système ont un im
 
 Nous vous recommandons de configurer vos préférences système lors de l’implémentation de Workfront et de ne les revoir qu’occasionnellement.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouveau : Standard</p>
+   <p>ou</p>
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Configuration des préférences du système
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Préférences**.
 
@@ -68,11 +74,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Activation du processus de révision rapide</p> </td> 
+      <td role="rowheader"> <p>Activer le processus de version rapide</p> </td> 
       <td>Permet d’activer les versions Workfront mensuelles pour votre organisation plutôt que les versions trimestrielles.</p><p>Pour plus d’informations sur le processus de publication rapide, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Activation ou désactivation de versions rapides pour votre entreprise</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Autoriser l’incorporation de <strong>Workfront</strong> dans un iframe</p> </td> 
+      <td role="rowheader"> <p>Autorisation de l’incorporation de Workfront dans un iFrame</p> </td> 
       <td>Vous permet d’incorporer Workfront dans un iFrame.<p>Cette option est désactivée par défaut.</p><p><b>IMPORTANT</b>: l’affichage d’une application web dans un iframe rend l’application vulnérable à une vulnérabilité de sécurité de détournement de clic.</p></td> 
      </tr> 
      <tr> 
@@ -84,8 +90,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td> <p>Permet aux utilisateurs d’utiliser les informations d’ID de session d’un site lors de l’ajout d’une page externe à un tableau de bord.</p> <p>Cette option n’est pas sécurisée et désactivée par défaut. Il est recommandé d’utiliser OAuth à la place pour les intégrations.</p> <p>Pour plus d’informations sur l’ajout de pages externes à un tableau de bord, voir <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporation d’une page web externe dans un tableau de bord</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Permet aux utilisateurs d’utiliser Workfront pour les applications mobiles et la variable <strong>Workfront</strong> Module complémentaire Outlook</td> 
-      <td> <p>Permet aux utilisateurs d’accéder aux applications mobiles (vue Workfront pour les applications iPad et de téléphone mobile) et à l’application Workfront Outlook.</p> <p>Cette option est activée par défaut. </p> <p>Pour plus d’informations sur la vue Workfront, voir <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Utilisation de la vue Adobe Workfront</a>. Pour plus d’informations sur les applications mobiles, voir <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Utilisation de l’application mobile Adobe Workfront</a>.</p> <p>Pour plus d’informations sur le module externe Outlook, voir <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Configuration d’Adobe Workfront pour Outlook</a>.</p> </td> 
+      <td role="rowheader">Permet aux utilisateurs d’utiliser les applications mobiles Workfront et le module complémentaire Workfront Outlook</td> 
+      <td> <p>Permet aux utilisateurs d’accéder aux applications mobiles (vue Workfront pour les applications iPad et de téléphone mobile) et à l’application Workfront Outlook.</p> <p>Cette option est activée par défaut. </p> <p>Pour plus d’informations sur la vue Workfront, voir <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Utilisation de la vue Adobe Workfront</a>. Pour plus d’informations sur les applications mobiles, voir <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Utilisation de l’application mobile Adobe Workfront : index de l’article</a>.</p> <p>Pour plus d’informations sur le module externe Outlook, voir <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Configuration d’Adobe Workfront pour Outlook</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Collaboration avec les personnes sans compte Workfront à l’aide d’adresses électroniques</p> </td> 
@@ -110,12 +116,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>Permet d’indiquer quand un utilisateur est déconnecté de l’application Workfront, après une période d’inactivité. Par défaut, les utilisateurs sont déconnectés après 7 jours d’inactivité. <p>Cette option affecte également les clients Workfront qui utilisent une solution de connexion unique.</p></td> 
      </tr> 
      <tr> 
+      <td role="rowheader">URL Aide</td> 
+      <td>Permet de définir un site d’aide personnalisé interne auquel accéder l’icône d’aide du menu principal. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configuration d’une URL d’aide personnalisée</a>.</p></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Les utilisateurs du système verront par défaut l’expérience Nouvelle page d’accueil. </td> 
       <td>Permet d’indiquer si les utilisateurs verront l’expérience Nouvelle page d’accueil par défaut. Lorsqu’ils sont activés, les utilisateurs voient l’expérience Nouvelle page d’accueil par défaut, mais peuvent toujours choisir d’activer ou de désactiver cette dernière individuellement. Lorsque cette option est désactivée, les utilisateurs ne voient pas la bannière qui leur permet de passer à la nouvelle page d’accueil. Toutefois, ils peuvent toujours accéder à leur page d’accueil en saisissant manuellement <code>/home/workspaces</code> à la fin de l’URL de leur instance. Ce paramètre est activé par défaut.</td> 
-     </tr> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Environnements de test</td> 
+      <td>Vous permet d’accéder à vos environnements de test Workfront. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Environnement Adobe Workfront Preview Sandbox</a>.</p></td> 
     </tbody> 
    </table>
 
 1. Cliquer sur **Enregistrer**.
 
-   Les modifications que vous avez enregistrées ici affectent l’expérience de tous les utilisateurs de Workfront et de toute personne qui interagit avec eux en tant qu’utilisateur externe.
+   Les modifications que vous avez enregistrées ici affectent l’expérience de tous les utilisateurs de Workfront et de toute personne qui interagit avec le système en tant qu’utilisateur externe.

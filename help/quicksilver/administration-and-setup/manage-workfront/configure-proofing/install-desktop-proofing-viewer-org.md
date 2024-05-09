@@ -3,46 +3,48 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
 title: Installation de la visionneuse de vérification de l’appli de bureau pour votre entreprise
-description: La visionneuse de vérification de l’appli de bureau, conçue principalement pour la vérification du contenu interactif, est une application qui doit être installée sur l’ordinateur local de chaque utilisateur. En tant qu’administrateur Adobe Workfront ou administrateur Workfront BAT, vous pouvez effectuer cette installation.
+description: La visionneuse de vérification de l’appli de bureau, conçue principalement pour la vérification du contenu interactif, est une application qui doit être installée sur l’ordinateur local de chaque utilisateur. En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez effectuer cette installation.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
-source-git-commit: 58f976d9f4245e528a4ddf23d39b92d9fa405311
+source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 7%
 
 ---
 
 # Installation de la visionneuse de vérification de l’appli de bureau pour votre entreprise
 
-La visionneuse de vérification de l’appli de bureau, conçue principalement pour la vérification du contenu interactif, est une application qui doit être installée sur l’ordinateur local de chaque utilisateur. En tant qu’administrateur Adobe Workfront ou administrateur Workfront BAT, vous pouvez effectuer cette installation.
+<!--Audited: 05/2024-->
 
-## Exigences d’accès
+La visionneuse de vérification de l’appli de bureau, conçue principalement pour la vérification du contenu interactif, est une application qui doit être installée sur l’ordinateur local de chaque utilisateur. En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez effectuer cette installation.
 
-Vous devez disposer des éléments suivants :
+## Conditions d’accès
 
-<table style="table-layout:auto"> 
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Premium ou Select</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : Premium ou Sélectionner</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>L’administrateur doit être sélectionné dans votre profil d’autorisation de BAT. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configuration de l’accès de vérification de l’utilisateur</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configuration requise
 
@@ -53,21 +55,19 @@ La visionneuse de vérification de l’appli de bureau est prise en charge sur l
 
 ## Conditions préalables
 
-Pour permettre aux utilisateurs d’utiliser la visionneuse de vérification de l’appli de bureau, vous devez
-
-* Configurez le système pour lancer la visionneuse de vérification de l’appli de bureau en tant que vue par défaut pour les bons à tirer interactifs avant l’installation.
+Pour permettre aux utilisateurs d’utiliser la visionneuse de vérification de l’appli de bureau, vous devez configurer le système afin qu’il lance la visionneuse de vérification de l’appli de bureau en tant que vue par défaut pour les bons à tirer interactifs avant l’installation.
 
 ## Configuration de la visionneuse de vérification de l’appli de bureau comme valeur par défaut pour les BAT interactifs
 
 Après avoir installé la visionneuse de vérification de l’appli de bureau pour votre entreprise, vous pouvez la définir comme visionneuse par défaut pour les bons à tirer interactifs.
 
-1. Dans Workfront, cliquez sur le menu principal ![](assets/main-menu-icon.png), puis cliquez sur Vérification. ![](assets/proofing-in-main-menu.png) pour accéder au BAT Workfront.
+{{step1-to-proofing}}
 
-1. Cliquez sur **Paramètres du compte** près du coin supérieur droit du BAT Workfront, puis cliquez sur le bouton **Paramètres**.
+1. Cliquez sur **Paramètres du compte** près du coin supérieur droit de Workfront Proof, puis cliquez sur l’icône **Paramètres** .
 
 1. Sous **Valeurs par défaut des BAT**, à la fin de la variable **Visionneuse de vérification de l’appli de bureau pour la vérification interactive** ligne, cliquez sur **Configuration**.
 
-   ![](assets/proof-defaults-350x265.png)
+   ![Valeurs par défaut des BAT](assets/proof-defaults.png)
 
 1. Cliquez sur **Activé et par défaut**, puis cliquez sur **Enregistrer**.
 
@@ -80,14 +80,13 @@ Après avoir installé la visionneuse de vérification de l’appli de bureau po
 
 1. Sur l’ordinateur de l’utilisateur, effectuez l’une des opérations suivantes pour télécharger l’application :
 
-   * Si vous utilisez l’environnement de production, cliquez sur  [Téléchargement de production Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg)
-   * Si vous utilisez l’environnement de prévisualisation, cliquez sur  [Téléchargement de l’aperçu Mac pour la visionneuse de vérification de l’appli de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg)
-)
+   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production Mac pour la visionneuse de vérification de poste de travail](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
+   * Si vous utilisez l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Mac pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
 
 1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
 1. Dans la boîte d’installation qui s’affiche, cliquez sur **Continuer**, puis cliquez sur **Installer**.
 
-   ![00000776.png](assets/00000776-350x244.png)
+   ![Zone d&#39;installation](assets/install-wf-proof-box.png)
 
 1. Assurez-vous que chaque utilisateur termine l’installation en ouvrant un BAT interactif à partir de la zone Documents de Workfront.
 
@@ -95,7 +94,7 @@ Après avoir installé la visionneuse de vérification de l’appli de bureau po
 
 1. Sur l’ordinateur de l’utilisateur, effectuez l’une des opérations suivantes pour télécharger l’application :
 
-   * Dans l’environnement de production, cliquez sur [Téléchargement de production Windows pour la visionneuse de vérification de l’appli de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe)
+   * Dans l’environnement de production, cliquez sur [Téléchargement en production Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
    * Dans l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
 
 1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
