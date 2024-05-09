@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: add-documents-to-workfront
-title: Liaison de documents à partir d’applications externes
+title: Lier des documents à partir d’applications externes
 description: Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir de sources externes.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 0%
+source-wordcount: '2596'
+ht-degree: 2%
 
 ---
 
-# Liaison de documents à partir d’applications externes
+# Lier des documents à partir d’applications externes
 
 <!-- Audited: 01/2024 -->
 
@@ -38,7 +38,7 @@ Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Vous pouvez rendre les bons à tirer créés à l’origine dans Workfront BAT disponibles dans Workfront. Pour les licences actuelles, un forfait Pro Workfront ou supérieur est requis pour utiliser cette fonctionnalité. Pour les nouvelles licences, toutes les formules comprennent cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir <a href="https://www.workfront.com/plans">Formules Workfront</a>.</td> 
+   <td>Vous pouvez rendre les bons à tirer créés à l’origine dans Workfront Proof disponibles dans Workfront. Pour les licences actuelles, un forfait Pro Workfront ou supérieur est requis pour utiliser cette fonctionnalité. Pour les nouvelles licences, toutes les formules comprennent cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir <a href="https://www.workfront.com/plans">Formules Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -59,32 +59,32 @@ Avant de lier des documents ou des dossiers, votre administrateur Workfront doit
 
 Vous pouvez BAT et approuver les documents liés à un fournisseur cloud externe de la même manière que vous le faites avec les documents téléchargés directement vers Workfront.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td>
-   <td> <p> Quelconque</p> </td>
+   <td role="rowheader">Forfait Adobe Workfront</td>
+   <td> <p> N’importe quelle</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td>
+   <td role="rowheader">Licence Adobe Workfront</td>
    <td><p>Nouveau : contributeur ou version ultérieure</p>
     <p>ou</p>
     <p>Actuel : requête ou version ultérieure</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Stockage de documents
 
@@ -143,7 +143,8 @@ Vous pouvez lier des documents à Workfront à partir d’une application extern
 
    >[!NOTE]
    >
-   >Dans le cas des documents liés à une boîte, le lien vers le document dans la boîte ne s’affiche pas tant que vous n’avez pas actualisé la page.
+   >* Si l’URL de téléchargement utilisée pour lier le document dépasse 2 048 caractères, le fichier ne peut pas être lié.
+   >* Dans le cas des documents liés à une boîte, le lien vers le document dans la boîte ne s’affiche pas tant que vous n’avez pas actualisé la page.
 
 ### Ajouter une nouvelle version d’un document lié {#add-a-new-version-of-a-linked-document}
 
@@ -190,20 +191,20 @@ Vous pouvez ajouter une nouvelle version d’un document lié à Workfront à pa
 
 Pour plus d’informations sur l’ajout d’une nouvelle version d’un document que vous avez téléchargé vers Workfront à partir de votre système de fichiers, voir [Ajout de documents à Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Ajout de documents à Adobe Workfront à partir de votre système de fichiers](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### Lier des documents Workfront BAT {#link-workfront-proof-documents}
+### Lier des documents Workfront Proof {#link-workfront-proof-documents}
 
-Vous pouvez lier des bons à tirer à Workfront qui existaient à l’origine dans le bon à tirer Workfront. Lorsque vous liez un BAT à partir d’un BAT Workfront, tous les commentaires et autres métadonnées associés au BAT sont disponibles dans Workfront.
+Vous pouvez lier des bons à tirer à Workfront qui existaient à l’origine dans Workfront Proof. Lorsque vous liez un BAT à partir de Workfront Proof, tous les commentaires et autres métadonnées associés au BAT sont disponibles dans Workfront.
 
-Vous pouvez lier uniquement les BAT pour lesquels vous disposez de l’accès Affichage dans le BAT Workfront.
+Vous pouvez lier uniquement les BAT pour lesquels vous disposez de l’accès Affichage dans Workfront Proof.
 
 1. Accédez au **Documents** dans Workfront où vous souhaitez obtenir le document.
-1. Cliquez sur **Ajouter**, puis cliquez sur **A partir du bon à tirer Workfront**.
+1. Cliquez sur **Ajouter**, puis cliquez sur **À partir de Workfront Proof**.
 
    >[!NOTE]
    >
    >Les options de ce menu peuvent varier en fonction des fournisseurs tiers configurés dans votre environnement.
 
-1. Dans le **BAT de lien à partir d’un bon à tirer Workfront** qui s’affiche, commencez à saisir le nom du BAT que vous souhaitez rendre disponible dans Workfront.
+1. Dans le **BAT de lien depuis Workfront Proof** qui s’affiche, commencez à saisir le nom du BAT que vous souhaitez rendre disponible dans Workfront.
 
    La liste est filtrée au fur et à mesure que vous tapez.
 
