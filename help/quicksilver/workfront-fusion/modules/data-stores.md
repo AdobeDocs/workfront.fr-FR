@@ -8,9 +8,9 @@ description: Un entrepôt de données, similaire à une base de données ou à u
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
+source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1299'
 ht-degree: 4%
 
 ---
@@ -76,24 +76,28 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## Espace de données disponible
 
-Si votre entreprise utilise le nouveau modèle de plan Workfront (packages Select, Prime et Ultimate), le plan de votre entreprise affecte la taille et le nombre de entrepôts de données disponibles pour votre instance Fusion.
+Si votre entreprise utilise le nouveau modèle de plan Workfront (packages Select, Prime et Ultimate), la taille totale de l’entrepôt de données est la suivante :
 
-### Formule ultime
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
-Les instances de fusion sur le package Ultimate reçoivent :
+### Ultimate plan
 
-* 500 Mo d’espace
-* 50 entrepôts de données
+Fusion instances on the Ultimate package receive:
 
-### Sélection et plans Prime
+* 500 MB of space
+* 50 data stores 
 
-Les instances de fusion sur les packages Select ou Prime reçoivent :
+### Select and Prime plans
+
+Fusion instances on the Select or Prime packages receive:-->
 
 * 100 Mo pour les 500 000 premières opérations.
 
 * 10 Mo pour chaque opération supplémentaire de 100 000.
 
-Par exemple, une organisation avec 600 000 opérations reçoit 110 Mo.
+  Par exemple, une organisation avec 600 000 opérations reçoit 110 Mo.
+
+Votre entreprise peut comporter jusqu’à 50 entrepôts de données. La taille combinée de ces entrepôts de données ne peut pas dépasser la taille totale de l’entrepôt de données de votre entreprise.
 
 ## Création d’un magasin de données dans [!DNL Workfront Fusion]
 
