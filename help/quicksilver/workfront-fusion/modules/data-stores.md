@@ -8,9 +8,9 @@ description: Un entrepôt de données, similaire à une base de données ou à u
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
+source-git-commit: 00a969175626d27b70d516921097725fdf818799
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1336'
 ht-degree: 4%
 
 ---
@@ -76,20 +76,20 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## Espace de données disponible
 
-Si votre entreprise utilise le nouveau modèle de plan Workfront (packages Select, Prime et Ultimate), la taille totale de l’entrepôt de données est la suivante :
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
+Si votre entreprise utilise le nouveau modèle de plan Workfront (packages Select, Prime et Ultimate), le plan de votre entreprise affecte la taille et le nombre de entrepôts de données disponibles pour votre instance Fusion.
 
-### Ultimate plan
+### Formule ultime
 
-Fusion instances on the Ultimate package receive:
+Les instances de fusion sur le package Ultimate reçoivent :
 
-* 500 MB of space
-* 50 data stores 
+* 100 Mo d’espace
+* 50 entrepôts de données
 
-### Select and Prime plans
+### Sélection et plans Prime
 
-Fusion instances on the Select or Prime packages receive:-->
+Les instances de fusion sur les packages Select ou Prime reçoivent :—>
 
 * 100 Mo pour les 500 000 premières opérations.
 
