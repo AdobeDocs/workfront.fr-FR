@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 14%
+source-wordcount: '623'
+ht-degree: 13%
 
 ---
 
@@ -69,6 +69,15 @@ Les tableaux des sections suivantes illustrent le niveau des autorisations que v
 
 ### Autorisations Workspace
 
+Vous devez autoriser les utilisateurs à accéder aux espaces de travail pour leur permettre d’accéder aux entités suivantes :
+
+* Espaces de travail
+* Types d’enregistrements
+* Enregistrements
+* Champs
+
+Voici les niveaux d’autorisations des espaces de travail :
+
 |        | Gérer | Contribuer | Afficher |
 |--------|--------|------------|-------|
 | Modifier | ✓ |            |       |
@@ -80,6 +89,9 @@ Les tableaux des sections suivantes illustrent le niveau des autorisations que v
 
 Les autorisations de type d’enregistrement sont héritées lorsque vous accordez des autorisations à l’espace de travail.
 
+Voici les niveaux d’autorisations pour les types d’enregistrements :
+
+
 |        | Gérer | Contribuer | Afficher |
 |--------|--------|------------|-------|
 | Créer | ✓ |            |       |
@@ -90,6 +102,9 @@ Les autorisations de type d’enregistrement sont héritées lorsque vous accord
 ### Autorisations d’enregistrement
 
 Les autorisations d’enregistrement sont héritées lorsque vous accordez des autorisations à l’espace de travail.
+
+Voici les niveaux d’autorisation des enregistrements :
+
 
 |        | Gérer | Contribuer | Afficher |
 |--------|--------|------------|-------|
@@ -115,7 +130,19 @@ Les permissions suivantes se rapportent aux champs eux-mêmes et non aux valeurs
 
 Vous devez accorder des autorisations distinctes pour enregistrer les vues. L’octroi d’autorisations à l’espace de travail n’accorde pas d’autorisations aux vues d’enregistrement dans l’espace de travail.
 
+Vous devez autoriser les utilisateurs à accéder aux vues pour leur permettre d’accéder aux éléments de vue suivants :
+
+* Filtres
+* Visibilité du champ
+* Trier
+* Regroupement 
+* Hauteur de ligne
+* Paramètres
+
+
 <!--You can share views internally or publicly. -->
+
+Voici les niveaux d’autorisation des vues et des éléments d’affichage :
 
 |        | Gérer | Afficher |
 |--------|--------|-------|
