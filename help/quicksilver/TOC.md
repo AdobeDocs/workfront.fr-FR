@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
 workflow-type: tm+mt
-source-wordcount: '14226'
+source-wordcount: '14236'
 ht-degree: 96%
 
 ---
@@ -159,6 +159,7 @@ ht-degree: 96%
          * [Améliorations apportées à l’application mobile (version 21.1)](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [Autres améliorations (version 21.1)](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Activité Version d’Adobe Workfront Fusion {#fusion-release}
+         * [Activité Version de Workfront Fusion : semaine du mardi 6 mai 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 8 avril 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 11 mars 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 26 février 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
@@ -2220,6 +2221,7 @@ ht-degree: 96%
       * [Modules Adobe Campaign Classic](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Modules Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Module Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
+      * [Adobe Firefly de modules](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
       * [Modules Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Modules Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Modules Adobe PDF Services](workfront-fusion/apps-and-their-modules/pdf-modules.md)
