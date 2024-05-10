@@ -6,9 +6,9 @@ description: La variable [!DNL Adobe Workfront] le glossaire répertorie les ter
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '19889'
+source-wordcount: '20060'
 ht-degree: 0%
 
 ---
@@ -255,14 +255,27 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
   </tr>
 
 <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Frais facturables]</td> 
+   <td> <p>Une dépense marquée comme facturable au client. Il peut s’agir soit d’une dépense planifiée, soit d’une dépense réelle.</p> <p>Les champs Coût facturable planifié et Coût facturable réel peuvent être ajoutés aux vues et aux rapports. Elles n’apparaissent pas sur les pages de détails du projet ou de la tâche.</p>
+   <p>Vous trouverez ces champs dans les types de rapports suivants :</p>
+   <ul>
+   <li>Niveau de référence</li>
+   <li>Modèle</li>
+   <li>Projet (données financières)</li>
+   </ul>
+   <p>Pour plus d’informations sur le marquage d’une dépense comme facturable, voir <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Gestion des dépenses de projet</a>.</p>
+   </td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>[!UICONTROL Enregistrement de facturation]</td> 
-   <td> <p>Consigne les recettes, les heures ou les dépenses qui peuvent être facturées. Ces informations peuvent être utilisées pour créer des factures dans un système comptable externe.</p> <p>Pour plus d’informations, voir <a href="../../../manage-work/projects/project-finances/create-billing-records.md">Créer des enregistrements de facturation</a>. </p> 
+   <td> <p>Consigne les recettes, les heures ou les dépenses qui peuvent être facturées. Ces informations peuvent être utilisées pour créer des factures dans un système comptable externe.</p> <p>Pour plus d’informations, consultez <a href="../../../manage-work/projects/project-finances/create-billing-records.md">Créer des enregistrements de facturation</a>. </p> 
    </td> 
   </tr>
 
 <tr> 
    <td>État de l’enregistrement de facturation</td> 
-   <td> <p>Dans un rapport d’enregistrement de facturation ou d’heure, l’état d’un enregistrement de facturation indique si l’enregistrement de facturation a été facturé ou non. Vous ne pouvez pas supprimer un projet ni modifier l’heure associée à un enregistrement de facturation. Pour plus d’informations, voir <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Créer des enregistrements de facturation</a>.</p>  
+   <td> <p>Dans un rapport d’enregistrement de facturation ou d’heure, l’état d’un enregistrement de facturation indique si l’enregistrement de facturation a été facturé ou non. Vous ne pouvez pas supprimer un projet ni modifier l’heure associée à un enregistrement de facturation. Pour plus d’informations, consultez <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Créer des enregistrements de facturation</a>.</p>  
    </td> 
   </tr>
 
@@ -671,8 +684,8 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <td> <p>Données propres à une organisation. Les organisations peuvent personnaliser la variable [!DNL Workfront] en créant des formulaires et des champs personnalisés. Ces informations personnalisées peuvent générer des rapports pour les indicateurs de performance clés, le contrôle et la combinaison de demandes. </p> <p>[!UICONTROL Données personnalisées] peut être lié à :</p> 
     <ul> 
      <li>[!UICONTROL Projects]</li> 
-     <li>[!UICONTROL Tâches]</li> 
-     <li>Utilisateurs [!UICONTROL]</li> 
+     <li>[!UICONTROL Tasks]</li> 
+     <li>[!UICONTROL Users]</li> 
      <li>[!UICONTROL Entreprises]</li> 
      <li>[!UICONTROL Issues]</li> 
      <li>[!UICONTROL Documents]</li> 
@@ -795,7 +808,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
      <li>[!UICONTROL Effort piloté]</li> 
      <li>[!UICONTROL Simple]</li> 
     </ul> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Présentation de la [!UICONTROL Durée de la tâche] et du [!UICONTROL Type de durée]</a>.</p> 
-    —&gt; </td> 
+    --&gt; </td> 
    </tr> 
    <tr> 
    <td>[!UICONTROL Unité de durée]</td> 
@@ -1305,7 +1318,21 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
    <td>Dans un rapport [!UICONTROL Entrée du journal], cette option affiche la valeur mise à jour d’un champ qui remplace la [!UICONTROL Ancienne valeur numérique].
    Pour plus d’informations, voir "[!UICONTROL Ancienne valeur numérique]" dans cet article.</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Frais non facturables]</td> 
+   <td> <p>Une dépense qui n’est pas marquée comme facturable au client. Il peut s’agir soit d’une dépense planifiée, soit d’une dépense réelle.</p> <p>Les champs Coût des dépenses non facturables planifié et Coût des dépenses non facturables réel peuvent être ajoutés aux vues et aux rapports. Elles n’apparaissent pas sur les pages de détails du projet ou de la tâche.</p>
+   <p>Vous trouverez ces champs dans les types de rapports suivants :</p>
+   <ul>
+   <li>Niveau de référence</li>
+   <li>Modèle</li>
+   <li>Projet (données financières)</li>
+   </ul>
+   <p>Pour plus d’informations sur le marquage d’une dépense comme facturable, voir <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Gestion des dépenses de projet</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Jour sans travail]</td> 
    <td>Un jour qui n’est attribué à aucune affectation. Il s’agit généralement d’un jour de vacances, de vacances ou de week-end. Le terme s’affiche dans l’explorateur d’API. </td> 
   </tr> 
@@ -1330,16 +1357,16 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
      <li>[!UICONTROL Portfolio]</li> 
      <li>[!UICONTROL Programmes]</li> 
      <li>[!UICONTROL Projects]</li> 
-     <li>[!UICONTROL Tâches]</li> 
+     <li>[!UICONTROL Tasks]</li> 
      <li>[!UICONTROL Issues]</li> 
      <li>[!UICONTROL Documents]</li> 
      <li>[!UICONTROL Tableaux de bord]</li> 
      <li>[!UICONTROL Rapports]</li> 
      <li>[!UICONTROL Groups]</li> 
      <li>[!UICONTROL Équipes]</li> 
-     <li>Utilisateurs [!UICONTROL]</li> 
+     <li>[!UICONTROL Users]</li> 
      <li>[!UICONTROL Entreprises]</li> 
-     <li>[!UICONTROL Formulaires personnalisés]</li>
+     <li>[!UICONTROL Custom forms]</li>
      <li>[!UICONTROL Champs personnalisés]</li>  
      <li>[!UICONTROL Hours]</li> 
      <li>[!UICONTROL Taux de facturation]</li> 
@@ -1469,7 +1496,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
    <td> <p>Droits accordés à un utilisateur sur un objet, généralement donnés pour lui permettre de terminer le travail sur l’élément ou d’afficher l’élément. Vous pouvez accorder des autorisations pour :</p> 
     <ul> 
      <li>[!UICONTROL Projects]</li> 
-     <li>[!UICONTROL Tâches]</li> 
+     <li>[!UICONTROL Tasks]</li> 
      <li>[!UICONTROL Issues]</li> 
      <li>[!UICONTROL Portfolio]</li> 
      <li>[!UICONTROL Programmes]</li> 
@@ -2070,14 +2097,14 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
      <li>Un utilisateur appartient à une entreprise, à une équipe ou se trouve dans un fuseau horaire différent. </li> 
     </ul> <p>Vous pouvez ajouter le champ [!UICONTROL Icônes d’état] dans les vues des objets suivants : </p> 
     <ul> 
-     <li>[!UICONTROL Tâches]</li> 
+     <li>[!UICONTROL Tasks]</li> 
      <li>[!UICONTROL Issues]</li> 
      <li>[!UICONTROL Projects]</li> 
      <li>[!UICONTROL Tâches Du Modèle]</li> 
      <li>[!UICONTROL Modèles]</li> 
      <li>[!UICONTROL Dépenses]</li> 
      <li>[!UICONTROL Documents]</li> 
-     <li>Utilisateurs [!UICONTROL]</li> 
+     <li>[!UICONTROL Users]</li> 
     </ul> <p>Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md" class="MCXref xref">Icônes d’état intégrées dans les vues</a>.</p> </td> 
   </tr> 
   <tr> 
