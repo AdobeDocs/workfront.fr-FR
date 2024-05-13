@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d0bbb51b3f12c7f134e045d9b62814c0ed0ffb73
+source-git-commit: 8b5bcc1270beb9c5295342eec07636e96fd426f6
 workflow-type: tm+mt
 source-wordcount: '6042'
 ht-degree: 7%
@@ -529,7 +529,7 @@ Pour des exemples d’utilisation du champ Recherche externe pour appeler la mê
 
 >[!NOTE]
 >
->* La fonctionnalité de recherche externe n’est pas disponible sur les objets Document ou Utilisateur.
+>* La fonctionnalité de recherche externe n’est actuellement pas prise en charge sur les formulaires personnalisés de document.
 >* Les champs de recherche externes des formulaires personnalisés ne sont actuellement pas pris en charge dans les tableaux de bord. Vous ne pouvez pas modifier la valeur du champ en ligne et elle peut ne pas s’afficher correctement dans un tableau de bord. (Les champs de recherche externes sont pris en charge dans les tableaux de bord de la zone de travail.)
 >* Les champs de recherche externes sont disponibles dans les listes, sauf si le champ dépend d’un autre champ.
 
