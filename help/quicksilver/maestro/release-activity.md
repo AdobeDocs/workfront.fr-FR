@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '5929'
+source-wordcount: '6045'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,39 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New warning about object visibility when connecting records 
+
+Production: <date>
+
+Preview: To be determined
+
+When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+
+For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
 -->
+
+## Semaine du 13 mai 2024
+
+### Mises à jour en temps réel dans la vue chronologique après modification d’enregistrements
+
+Production : 14 mai 2024
+
+Aperçu : à déterminer.
+
+Lorsqu’un utilisateur met à jour les informations sur un enregistrement, d’autres utilisateurs peuvent afficher les informations mises à jour dans la vue de chronologie de l’enregistrement en temps réel. Cela permet à tous les utilisateurs d’afficher les informations mises à jour en même temps, en synchronisation avec le moment où les modifications se produisent.
+
+### Ajout d’un enregistrement à partir de l’en-tête de vue
+
+Production : 14 mai 2024
+
+Aperçu : à déterminer
+
+Nous avons ajouté un bouton &quot;Nouvel enregistrement&quot; dans l’en-tête d’une page de type enregistrement. Vous pouvez désormais créer des enregistrements à partir de n’importe quelle vue. Avant cette amélioration, vous ne pouviez créer des enregistrements qu’à partir de la vue de tableau.
+
+Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/maestro/records/create-records.md).
 
 ## Semaine du 6 mai 2024
 

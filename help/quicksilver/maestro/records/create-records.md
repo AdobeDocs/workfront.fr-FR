@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 5%
+source-wordcount: '830'
+ht-degree: 4%
 
 ---
 
@@ -103,27 +103,31 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
 1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
    La page de type enregistrement s’ouvre dans la vue à laquelle vous avez accédé la dernière fois. Par défaut, une page de type enregistrement s’ouvre dans la vue de tableau.
-Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
+Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
-1. (Conditionnel) Si la page de type enregistrement ne s’ouvre pas dans la vue de tableau, cliquez sur l’onglet d’une vue de tableau ou cliquez sur **+ Affichage** pour créer une vue de tableau.
+1. (Conditionnel) Selon la vue que vous affichez, effectuez l’une des opérations suivantes :
 
-1. Pour ajouter de nouveaux enregistrements, cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau ;
+   * Dans la vue Tableau :
 
-   Ou
+      * Cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau ;
 
-   Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Ceci ajoute une ligne vide.
+      * Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Ceci ajoute une ligne vide.
 
-   ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![](assets/adding-a-new-campaign-in-table-row.png)
 
-1. Commencez à saisir des informations sur le nouvel enregistrement dans la nouvelle ligne.
+   * Dans n’importe quelle vue :
+
+      * Cliquez sur **Nouvel enregistrement** dans le coin supérieur droit de la page. La boîte d’aperçu des enregistrements s’ouvre.
+
+1. Commencez à saisir des informations sur le nouvel enregistrement dans la nouvelle ligne ou dans les champs que vous voyez dans la zone d’aperçu.
 
    >[!NOTE]
    >
-   >  * Il n’existe aucun champ obligatoire pour les enregistrements. Nous vous recommandons toutefois d’ajouter un Nom pour l’enregistrement, car il est utile d’identifier les enregistrements lors de la liaison d’enregistrements.
+   >  * Il n’existe aucun champ obligatoire pour les enregistrements. Nous vous recommandons toutefois d’ajouter un Nom pour l’enregistrement, car il est utile d’identifier les enregistrements par leur nom lors de la liaison d’enregistrements.
    >
    >  * Les champs qui font référence à d’autres types d’enregistrement ou à des champs calculés sont en lecture seule.
 
-1. Continuez à ajouter des informations sur chaque ligne, puis cliquez sur **Entrée** sur votre clavier pour enregistrer vos modifications.
+1. (Conditionnel) Lors de l’ajout d’enregistrements dans le tableau, continuez à ajouter des informations sur chaque ligne, puis cliquez sur **Entrée** sur votre clavier pour enregistrer vos modifications.
 
    Ou
 
@@ -136,8 +140,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 1. Commencez à modifier les informations de l’enregistrement dans l’aperçu de l’enregistrement. Workfront enregistre automatiquement vos modifications.
 1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Continuez à modifier l’enregistrement sur la page d’enregistrement.
 
-
-1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements :
+1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements ou de leurs informations lors de leur ajout dans la vue de tableau :
 
    * Ctrl + Z (⌘ + Z pour Mac) pour annuler une modification.
    * Ctrl + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir la modification
