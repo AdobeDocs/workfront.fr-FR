@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 0%
+source-wordcount: '1261'
+ht-degree: 1%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez réactiver un utilisateur à tout moment.
 >
 >Pour plus d’informations sur l’impact de la suppression et de la désactivation des utilisateurs, voir [Suppression d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -54,15 +54,15 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>  <p>Nouveau : Standard </p> <p>Ou </p><p>Actuel : formule </p>   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Vous devez disposer de l’une des options suivantes :</p> 
     <ul> 
      <li> <p>Niveau d’accès Administrateur système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>. </p> </li> 
@@ -78,7 +78,17 @@ Avant de désactiver un administrateur Workfront ou un utilisateur sous licence 
 
 Pour plus d’informations, voir [À propos de la désactivation des administrateurs Workfront et de la planification des utilisateurs de licences](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
 
-## Désactivation d’un utilisateur
+## Désactiver un utilisateur ou une utilisatrice
+
+Lors de la désactivation d’un utilisateur, tenez compte des points suivants :
+
+* L’utilisateur ne pourra pas accéder au système.
+* L’utilisateur sera supprimé des liens de révision, ressources, projets et comptes de Frame.io.
+   * La réactivation de l’utilisateur ne les ajoute pas automatiquement aux éléments Frame.io . Vous devez réaffecter manuellement l’utilisateur aux projets, tâches et ressources Workfront nécessitant une collaboration Frame.io.
+* Toutes les données associées à l’utilisateur seront conservées.
+* Vous pouvez attribuer une licence d’utilisateur désactivée à un autre utilisateur.
+
+Pour désactiver un utilisateur :
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
 
@@ -126,6 +136,10 @@ Nous vous recommandons de créer un rapport pour les utilisateurs que vous avez 
 1. Sélectionnez un utilisateur, cliquez sur l’icône Plus ![](assets/more-icon.png), puis cliquez sur **Activer**.
 
 1. Attribuer une nouvelle **Niveau d’accès** dans le menu déroulant, puis cliquez sur **Réactiver**.
+
+### Impact de l’examen et de l’approbation des ressources lorsque vous réactivez un utilisateur
+
+Les utilisateurs désactivés perdent l’accès à leurs comptes Frame.io attribués, ainsi qu’aux projets, ressources et liens de révision attribués. Si vous choisissez de réactiver l’utilisateur, vous devez le réaffecter manuellement aux projets, tâches et ressources nécessitant la collaboration Frame.io.
 
 ### Impact de la vérification lorsque vous réactivez un utilisateur
 

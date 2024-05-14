@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Etat d'approbation des documents
-description: Les statuts d'approbation des documents sont répertoriés et expliqués
+title: État de décision du document
+description: Les statuts de décision du document sont répertoriés et expliqués.
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# Etat d&#39;approbation des documents
+# État de décision du document
 
-L’état d’approbation d’un document se trouve dans l’en-tête du document.
+Vous pouvez afficher l’état du document directement dans la liste des documents :
+
+![](assets/status-in-doc-list.png)
 
 Les statuts suivants sont disponibles :
 
