@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8b5bcc1270beb9c5295342eec07636e96fd426f6
+source-git-commit: 2f7e1bb69ad1731a626306df38e97443f75257f9
 workflow-type: tm+mt
-source-wordcount: '6042'
+source-wordcount: '6040'
 ht-degree: 7%
 
 ---
@@ -642,9 +642,9 @@ The Workfront Mobile app -->
 
 +++ **Développer pour afficher les descriptions des champs disponibles**
 
-* **Image**: permet aux utilisateurs d’ajouter _____ fichiers image.
+* **Image**: permet aux utilisateurs d’ajouter des fichiers image.
 * **PDF**: permet aux utilisateurs d’ajouter des PDF.
-* **Vidéos**: permet aux utilisateurs d’ajouter ____ fichiers vidéo.
+* **Vidéos**: permet aux utilisateurs d’ajouter des fichiers vidéo.
 
 +++
 
