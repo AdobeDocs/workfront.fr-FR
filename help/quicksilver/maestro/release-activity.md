@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '6045'
+source-wordcount: '6243'
 ht-degree: 0%
 
 ---
@@ -84,17 +84,27 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
-### New warning about object visibility when connecting records 
+###  New Planning section added to the left panel of a Workfront project, portfolio, and program
 
-Production: <date>
+Production: <date> 
 
 Preview: To be determined
 
-When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+We have added a new Planning section in the left panel of Workfront projects, portfolios, and programs. The new Planning section displays the Workfront Planning records connected to the Workfront object.  
 
-For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+The following actions are available from the Planning section in Workfront: 
 
-For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+* View connected Planning records 
+
+* Connect more records to the Workfront object 
+
+* Disconnect records  
+
+* Display more information about the connected records in the preview box 
+
+* Open records in the Planning area 
+
+For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
 
 -->
 
@@ -117,6 +127,29 @@ Aperçu : à déterminer
 Nous avons ajouté un bouton &quot;Nouvel enregistrement&quot; dans l’en-tête d’une page de type enregistrement. Vous pouvez désormais créer des enregistrements à partir de n’importe quelle vue. Avant cette amélioration, vous ne pouviez créer des enregistrements qu’à partir de la vue de tableau.
 
 Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/maestro/records/create-records.md).
+
+
+### Nouvel avertissement sur la visibilité des objets lors de la connexion des enregistrements
+
+Production : 15 mai 2024
+
+Aperçu : à déterminer
+
+Lorsque vous créez des connexions à des types d’objets en dehors de Workfront Planning, vous êtes désormais averti que toute personne travaillant dans l’espace de travail actuel aura accès à tous les objets liés et à leurs champs de recherche, quels que soient ses permissions et ses niveaux d’accès dans l’autre application.
+
+Par exemple, si vous liez des projets provenant de campagnes de planification Workfront, toute personne ayant accès à Afficher la campagne aura également accès à l&#39;affichage des projets liés et des informations provenant de ses champs de recherche, même si elle n&#39;a aucune autorisation d&#39;accès aux projets liés, ni d&#39;accès aux projets en général. Vous accédez aux enregistrements de planification lorsque vous recevez des autorisations pour les espaces de travail.
+
+Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+## Ajouter des sections aux pages d’aperçu et de détails de l’enregistrement
+
+Production : 15 mai 2024
+
+Aperçu : à déterminer
+
+Pour mieux organiser les informations sur la page de l’enregistrement afin d’optimiser la lisibilité et la navigation, nous avons ajouté des sections à la page de l’enregistrement. Les titres de section servent d’en-têtes qui organisent les champs en catégories distinctes. Les sections sont entièrement personnalisables et peuvent être développées ou réduites, si nécessaire.
+
+Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Semaine du 6 mai 2024
 

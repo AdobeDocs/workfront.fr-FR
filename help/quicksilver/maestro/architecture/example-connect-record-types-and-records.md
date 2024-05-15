@@ -1,18 +1,18 @@
 ---
-title: Exemple de connexion de types d'enregistrements et d'enregistrements
+title: Exemple de connexion de types d’enregistrements et d’enregistrements
 description: Cet article décrit comment créer une connexion entre un type d’enregistrement Adobe Workforce Planning et un type d’objet de projet Workfront. Il décrit également comment vous pouvez connecter un enregistrement de planification Workfront à un projet individuel.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '1771'
-ht-degree: 0%
+source-wordcount: '1797'
+ht-degree: 1%
 
 ---
 
-# Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements
+# Exemple de connexion de types d’enregistrements et d’enregistrements
 
 {{maestro-important-intro}}
 
@@ -24,8 +24,8 @@ Cet article décrit un exemple des éléments suivants :
 
 Pour plus d’informations, reportez-vous également aux articles suivants :
 
-* [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
-* [Connecter les enregistrements](../records/connect-records.md)
+* [Connecter des types d’enregistrements](../architecture/connect-record-types.md)
+* [Connecter des enregistrements](../records/connect-records.md)
 
 ## Connexion de deux types d’enregistrements et d’enregistrements Workfront Planning (exemple)
 
@@ -116,6 +116,10 @@ Pour ce faire :
 
 
 ## Connecter un type d’enregistrement Workfront Planning à un type d’objet de projet Workfront et un enregistrement à des projets individuels
+
+>[!IMPORTANT]
+>
+>    Toute personne disposant d’autorisations d’affichage ou supérieures sur l’espace de travail peut afficher les informations dans les champs liés, indépendamment de ses autorisations ou de son niveau d’accès dans Workfront.
 
 Par exemple, vous avez un type d’enregistrement nommé Campaign comme type d’enregistrement d’origine.
 

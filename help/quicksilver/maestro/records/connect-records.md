@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2358'
 ht-degree: 2%
 
 ---
@@ -217,7 +217,7 @@ Après avoir créé une connexion entre un type d’enregistrement et un type d�
 
 >[!NOTE]
 >
->Vous ne pouvez pas connecter les objets Workfront aux enregistrements Workfront Planning de Workfront.
+>Vous ne pouvez pas connecter les types d’objets Workfront aux types d’enregistrement Workfront Planning de Workfront.
 
 
 {{step1-to-maestro}}

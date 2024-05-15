@@ -4,13 +4,13 @@ description: Lorsqu’une personne vous balise dans un commentaire d’enregistr
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 9%
 
 ---
-
 
 # Gestion des notifications in-app de la planification Adobe Workfront
 
@@ -85,7 +85,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Gestion des notifications in-app
 
-1. (Conditionnel) Une fois qu’un utilisateur vous a marqué dans un commentaire sur un enregistrement, accédez à la page in-app. **Notifications** icon ![](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
+1. (Conditionnel) Une fois qu’un utilisateur vous a marqué dans un commentaire sur un enregistrement, accédez à la variable in-app **Notifications** icon ![](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 

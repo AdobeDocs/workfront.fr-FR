@@ -4,13 +4,13 @@ description: Lorsqu’une personne vous balise dans un commentaire d’enregistr
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '310'
 ht-degree: 9%
 
 ---
-
 
 # Gestion des notifications électroniques d’Adobe Workfront Planning
 
@@ -94,4 +94,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    La page des détails de l’enregistrement s’ouvre dans Workfront. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
 
 1. (Conditionnel) Si disponible, cliquez sur **Afficher toutes les notifications**. <!--check with Lilit - do non-IMS users have this button??-->
-La variable **Notifications** s’ouvre dans Adobe Experience Cloud.
+La variable **Notifications** s’ouvre dans Adobe Experience Cloud. Toutes les notifications de toutes les applications Adobe Experience Cloud s’affichent.

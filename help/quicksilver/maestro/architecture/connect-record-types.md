@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 2%
@@ -219,6 +219,8 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    > Vous devez créer des formulaires personnalisés dans Workfront pour les objets sélectionnés avant qu’ils ne s’affichent dans cette liste.
 
 1. (Conditionnel) Si vous avez choisi de vous connecter à Experience Manager Assets, sélectionnez un référentiel dans le **Référentiel Experience Manager** dans le menu déroulant **Lier des ressources du référentiel suivant** . Il s’agit d’un champ obligatoire. Seuls les référentiels auxquels vous avez accès dans Experience Manager Assets s’affichent dans ce champ.
+
+   <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
 

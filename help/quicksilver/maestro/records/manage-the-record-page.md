@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 6%
+source-wordcount: '1153'
+ht-degree: 3%
 
 ---
 
@@ -95,100 +95,95 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Remarques concernant la modification de pages d’enregistrement
 
-* La réorganisation des champs dans l’aperçu de l’enregistrement ou la page réorganise les champs pour tous les enregistrements de ce type et pour tous les utilisateurs accédant à ces enregistrements.
+* Par défaut, les détails et les pages de prévisualisation d&#39;un enregistrement affichent tous les champs associés à l&#39;enregistrement.
+
+* Vous ne pouvez pas ajouter de nouveaux champs pour un enregistrement dans la page de prévisualisation ou de détails. Vous devez ajouter de nouveaux champs dans la vue de tableau pour les afficher dans les pages de prévisualisation et de détails.
+
+* Vous pouvez ajouter des sections à une page d’aperçu ou de détails d’enregistrement afin d’organiser les informations selon des critères communs et faciliter leur recherche.
+
+* Les modifications suivantes affectent tous les enregistrements du même type et sont visibles par tous les utilisateurs accédant à ces enregistrements :
+
+   * Réorganisation des champs
+   * Ajout ou suppression de sections
 
 * Les modifications d’affichage que vous apportez dans l’aperçu de l’enregistrement sont immédiatement visibles dans la page des détails de l’enregistrement. Les modifications apportées à la page d’enregistrement sont également visibles dans la zone d’aperçu des enregistrements.
 
-<!--Replace the first bullet with this when we add sections:
-
-* The following changes affect all the records of the same type and are visible to all users accessing those records: 
-
-   * Rearranging fields
-   * Adding or removing sections
--->
-
 * L’ajout d’une image de couverture à un enregistrement ne fait pas partie de la disposition globale de l’aperçu ou de la page d’enregistrement. Vous pouvez ajouter des images de couverture uniques à chaque enregistrement. Pour plus d’informations, voir [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-<!--
+## Ajout de sections à un aperçu d’enregistrement ou à une page
 
-## Add sections to a record preview or page
+Tenez compte des points suivants lors de l’ajout de sections à une page d’enregistrement :
 
-You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+* Le nombre de sections d’une page ne peut pas être limité.
+* Vous ne pouvez pas avoir de section vide. Vous devez avoir au moins un champ dans une section.
+* Vous pouvez faire glisser des champs d’une section vers une autre. Pour plus d’informations, voir la section [Réorganiser les champs dans la page de prévisualisation des enregistrements ou de détails](#rearrange-fields-in-the-record-preview-or-details-page) dans cet article.
+* Lorsque vous supprimez tous les champs d’une section, celle-ci est automatiquement supprimée et ne peut pas être récupérée.
 
-Consider the following when adding sections to a record page:
-
-* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
-* You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. 
-* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
-
-To add a section to a record preview or page: 
+Pour ajouter une section à un aperçu d’enregistrement ou à une page :
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+L’espace de travail auquel vous accédez en dernier s’ouvre.
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-1. Click a record type card. 
+1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+1. Cliquez sur une carte de type enregistrement.
 
-    The record type page opens. 
+   La page de type enregistrement s’ouvre.
 
-1. From a view of any type, click the name of a record 
+1. Dans une vue de tout type, cliquez sur le nom d’un enregistrement.
 
-    Or 
-    
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
-    
-    The record's preview opens in the view.
+   Ou
 
-    ![](assets/details-box.png) 
+   Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement.
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+   L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+   ![](assets/details-box.png)
 
-    The record page opens. 
+   >[!TIP]
+   >
+   >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement dans une vue de tableau uniquement lorsque le champ Nom est un champ principal.
 
-    ![](assets/details-page.png)
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
-1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
-1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+   La page d’enregistrement s’ouvre.
 
-1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+   ![](assets/details-page.png)
+
+1. Dans l’aperçu de l’enregistrement ou la page, passez la souris sur l’espace blanc situé à gauche des champs, puis cliquez sur le bouton **Ajouter une section** icon ![](assets/add-section-icon.png) pour ajouter une section.
+1. Cliquez dans le nom de la section et remplacez **Section sans titre** avec un nom, puis cliquez sur Entrée. Les champs affichés sous la section font automatiquement partie de la nouvelle section.
+1. Commencez à faire glisser des champs vers la nouvelle section, comme décrit dans la section . [Réorganiser les champs dans la page de prévisualisation des enregistrements ou de détails](#rearrange-fields-in-the-record-preview-or-details-page) dans cet article.
+
+1. (Facultatif) Pointez sur le nom d’une section, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
-1. (Optional) Do one of the following to edit the section: 
+1. (Facultatif) Pour modifier la section, effectuez l’une des opérations suivantes :
 
-   * Click **Rename** to rename the section
+   * Cliquez sur **Renommer** pour renommer la section
 
-      >[!TIP]
-      >
-      > You can rename a section inline, by clicking the name.
-   
-   * Click **Move up** to move the section up one position 
+     >[!TIP]
+     >
+     > Vous pouvez renommer une section intégrée en cliquant sur son nom.
 
-      Or 
-      
-      Click **Move down** to move the section down one position.
-      All fields in the section move with the section. 
+   * Cliquez sur **Déplacer vers le haut** pour déplacer la section d’une position vers le haut
 
-   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+     Ou
 
-1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
-   All sections are expanded by default. 
+     Cliquez sur **Déplacer vers le bas** pour déplacer la section vers le bas d’une position.
+Tous les champs de la section sont déplacés avec la section .
 
-1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+   * Cliquez sur **Supprimer** pour supprimer la section . La section est supprimée et elle ne peut pas être récupérée. Tous les utilisateurs accédant aux enregistrements de ce type ne verront plus la section supprimée.
 
-    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+1. Cliquez sur la flèche pointant vers le bas située à gauche du nom d’une section pour la réduire ou sur la flèche pointant vers la droite pour la développer.
+Par défaut, toutes les sections sont développées.
 
-    All changes to sections and field order are saved automatically. 
+1. (Facultatif) Cliquez sur le **attraper** icon ![](assets/grab-icon.png) à gauche du nom d’une section, puis faites-la glisser et déposez-la à l’emplacement de votre choix.
 
--->
+   La nouvelle position de la section est mise à jour dans l&#39;aperçu et la page de tous les enregistrements du même type pour tous les utilisateurs qui visualisent les enregistrements.
 
-## Réorganiser les champs dans l’aperçu de l’enregistrement ou la page
+   Toutes les modifications apportées aux sections et à l’ordre des champs sont enregistrées automatiquement.
+
+## Réorganiser les champs dans la page de prévisualisation des enregistrements ou de détails
 
 {{step1-to-maestro}}
 
