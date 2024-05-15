@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '274'
+ht-degree: 1%
 
 ---
 
@@ -36,11 +36,15 @@ Dans l’application mobile, vous pouvez terminer des tâches et afficher des in
 * Approuver les tâches et les problèmes, les documents, les bons à tirer, les feuilles de temps et les demandes d’accès
 * Affichage des notifications in-app et réponse
 * Création et traitement de requêtes Workfront
-* Temps de connexion sur une feuille de temps
+* Consigner des heures sur une feuille de temps
+
+>[!IMPORTANT]
+>
+>La variable [!DNL Adobe Workfront] l’application mobile a remplacé la fonction [!DNL Workfront Proof] application. [!DNL Workfront] Les clients doivent maintenant utiliser la variable [!DNL Adobe Workfront] application mobile pour effectuer des révisions et des approbations de BAT.
 
 >[!NOTE]
 >
->La variable [!DNL Adobe Workfront] l’application mobile a remplacé la fonction [!DNL Workfront Proof] application. [!DNL Workfront] Les clients doivent maintenant utiliser la variable [!DNL Adobe Workfront] application mobile pour effectuer des révisions et des approbations de BAT.
+>Les hyperliens dans les champs de texte ne sont pas pris en charge dans l’application mobile Workfront.
 
 Pour plus d’informations sur la variable [!DNL Adobe Workfront] application mobile, passez en revue les articles suivants :
 

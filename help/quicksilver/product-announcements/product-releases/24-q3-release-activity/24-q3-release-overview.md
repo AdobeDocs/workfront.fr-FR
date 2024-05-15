@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 66%
+source-wordcount: '697'
+ht-degree: 68%
 
 ---
 
@@ -97,8 +97,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version d’aperçu : 13 février 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.3 (vendredi 14 mars 2024)</p>
-                                <p><span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span></p>
+                                <p>Production pour une version rapide : avec la version 24.5 (vendredi 16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Production pour une version trimestrielle : à déterminer</p>
@@ -118,8 +117,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version d’aperçu : 21 décembre 2023</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.3 (vendredi 14 mars 2024)</p>
-                                <p><span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span></p>
+                                <p>Production pour une version rapide : avec la version 24.5 (vendredi 16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Production pour une version trimestrielle : à déterminer</p>

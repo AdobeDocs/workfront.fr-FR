@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '2242'
-ht-degree: 51%
+source-wordcount: '2218'
+ht-degree: 52%
 
 ---
 
@@ -369,8 +369,7 @@ Vous pouvez également [Affichage d’un fichier de PDF](https://acrobat.adobe.c
                                 <p>Version d’aperçu : 13 février 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.3 (vendredi 14 mars 2024)</p>
-                                <p><span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span></p>
+                                <p>Production pour une version rapide : avec la version 24.5 (vendredi 16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Production pour une version trimestrielle : à déterminer</p>
@@ -390,8 +389,7 @@ Vous pouvez également [Affichage d’un fichier de PDF](https://acrobat.adobe.c
                                 <p>Version d’aperçu : 21 décembre 2023</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.3 (vendredi 14 mars 2024)</p>
-                                <p><span style="color: #ff0000;">Cette fonctionnalité a été supprimée de la production pour les clients à version rapide le 18 mars 2024.</span></p>
+                                <p>Production pour une version rapide : avec la version 24.5 (vendredi 16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Production pour une version trimestrielle : à déterminer</p>

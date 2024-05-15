@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 9%
+source-wordcount: '536'
+ht-degree: 7%
 
 ---
 
@@ -27,23 +27,33 @@ Cette page contient des informations sur la structure et le contenu des données
 
 Il existe plusieurs types de tableau que vous pouvez utiliser pour afficher vos données Workfront de manière à en tirer le meilleur parti.
 
-### Tableau actuel
+* **Tableau actuel**
 
-Le tableau actuel reflète les données de la même manière qu’il existe dans Workfront, chaque objet et son état actuel. Il est toutefois possible de naviguer avec une latence beaucoup plus faible que dans Workfront.
+  Le tableau actuel reflète les données de la même manière qu’il existe dans Workfront, chaque objet et son état actuel. Il est toutefois possible de naviguer avec une latence beaucoup plus faible que dans Workfront.
 
-### Table d&#39;événements
+* **Table d&#39;événements**
 
-Le tableau Événement effectue le suivi de chaque enregistrement de modification dans Workfront : c’est-à-dire, chaque fois qu’un objet change d’état, un enregistrement est créé qui indique le moment où la modification a eu lieu, qui a apporté la modification et ce qui a été modifié. Par conséquent, ce tableau est utile pour les comparaisons de temps en temps. Ce tableau ne contient que les données des trois dernières années.
+  Le tableau Événement effectue le suivi de chaque enregistrement de modification dans Workfront : c’est-à-dire, chaque fois qu’un objet change d’état, un enregistrement est créé qui indique le moment où la modification a eu lieu, qui a apporté la modification et ce qui a été modifié. Par conséquent, ce tableau est utile pour les comparaisons de temps en temps. Ce tableau ne contient que les données des trois dernières années.
 
-### Table d&#39;historique quotidien
+* **Table d&#39;historique quotidien**
 
-Le tableau Historique quotidien offre une version abrégée du tableau Événement, dans la mesure où il indique l’état de chaque objet sur une base quotidienne plutôt que lors de chaque événement. Ce tableau est donc utile pour l’analyse des tendances.
+  Le tableau Historique quotidien offre une version abrégée du tableau Événement, dans la mesure où il indique l’état de chaque objet sur une base quotidienne plutôt que lors de chaque événement. Ce tableau est donc utile pour l’analyse des tendances.
 
 <!-- Custom table -->
 
+## Diagramme de relation d’entité
+
+Les objets de Workfront (et, par conséquent, de votre lac de données) sont définis non seulement par leurs valeurs individuelles, mais aussi par leurs relations avec d’autres objets. Le diagramme des relations d’entité ci-dessous fournit un mappage de haut niveau des relations d’objet dans le lac de données Workfront. Le diagramme peut être visualisé et téléchargé à l’aide du lien suivant :
+
+[Diagramme de relation d’entité de lac de données Workfront](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+
+>[!IMPORTANT]
+>
+>Le diagramme des relations d’entité est un travail en cours : il est donc destiné uniquement à des fins de référence et peut faire l’objet de modifications.
+
 ## Table de terminologie
 
-Le tableau suivant met en corrélation les noms d’objets dans Workfront (ainsi que leurs noms dans l’interface et l’API) avec leur nom équivalent dans le lac de données.
+Le tableau suivant établit la corrélation entre les noms d’objet dans Workfront (ainsi que leurs noms dans l’interface et l’API) et leurs noms équivalents dans le lac de données.
 
 <table>
 <thead>
