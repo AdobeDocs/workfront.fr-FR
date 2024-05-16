@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '2218'
-ht-degree: 52%
+source-wordcount: '2212'
+ht-degree: 50%
 
 ---
 
@@ -369,10 +369,7 @@ Vous pouvez également [Affichage d’un fichier de PDF](https://acrobat.adobe.c
                                 <p>Version d’aperçu : 13 février 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (vendredi 16 mai 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production pour une version trimestrielle : à déterminer</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -389,10 +386,7 @@ Vous pouvez également [Affichage d’un fichier de PDF](https://acrobat.adobe.c
                                 <p>Version d’aperçu : 21 décembre 2023</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (vendredi 16 mai 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production pour une version trimestrielle : à déterminer</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
                             </li>
                         </ul>
                     </td>

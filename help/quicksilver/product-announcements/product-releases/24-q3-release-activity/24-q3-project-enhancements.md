@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 17%
+source-wordcount: '311'
+ht-degree: 18%
 
 ---
 
@@ -23,7 +23,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Production pour tous les clients : À déterminer.
+>Version d’aperçu : 13 février 2024 ; Version de production pour tous les clients : avec la version 24.7 (juillet 2024).
 
 Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans les zones suivantes :
 
@@ -37,7 +37,7 @@ Pour plus d’informations, voir [Présentation des affectations intelligentes](
 
 >[!NOTE]
 >
->Aperçu de la version : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Production pour tous les clients : À déterminer.
+>Version d’aperçu : 21 décembre 2023 ; Version de production pour tous les clients : avec la version 24.7 (juillet 2024).
 
 Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.
 
