@@ -4,7 +4,7 @@ description: Vous pouvez afficher les enregistrements connectés aux objets Adob
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 5%
@@ -142,11 +142,11 @@ Les événements suivants se produisent :
    * Les valeurs des champs Workfront associés à l&#39;enregistrement Planning sont également supprimées.
 1. Cliquez sur **Connexion** pour connecter d’autres enregistrements.
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   Le bouton Se connecter s’affiche uniquement pour les espaces de travail dans lesquels vous disposez des autorisations Gérer .
+   >   Le bouton Se connecter s’affiche uniquement pour les espaces de travail dans lesquels vous disposez des autorisations de contribution.
 
 1. Cliquez sur les enregistrements que vous souhaitez connecter. Les événements suivants se produisent :
 

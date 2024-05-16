@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6367'
 ht-degree: 0%
 
 ---
@@ -55,24 +55,6 @@ Preview: To be determined
 To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
 
 For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
-
-### Real-time updates for field configuration changes 
-
-Production: <date> 
-
-Preview: To be determined 
-
-If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
-
->[!WARNING]
->
->When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
->
->There is no warning or indication that this data loss could happen when you change the configuration of fields. 
->
->There is no notification to other users that the field configuration has changed.  
-
-For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
 
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
@@ -141,7 +123,7 @@ Par exemple, si vous liez des projets provenant de campagnes de planification Wo
 
 Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
-## Ajouter des sections aux pages d’aperçu et de détails de l’enregistrement
+### Ajouter des sections aux pages d’aperçu et de détails de l’enregistrement
 
 Production : 15 mai 2024
 
@@ -150,6 +132,24 @@ Aperçu : à déterminer
 Pour mieux organiser les informations sur la page de l’enregistrement afin d’optimiser la lisibilité et la navigation, nous avons ajouté des sections à la page de l’enregistrement. Les titres de section servent d’en-têtes qui organisent les champs en catégories distinctes. Les sections sont entièrement personnalisables et peuvent être développées ou réduites, si nécessaire.
 
 Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md).
+
+### Mises à jour en temps réel pour les modifications de configuration des champs
+
+Production : 16 mai 2024
+
+Aperçu : à déterminer
+
+Lorsqu’un utilisateur modifie une configuration de champ (nom, description, liste d’options, etc.) dans un type d’enregistrement, d’autres utilisateurs voient ces modifications en temps réel. Cela garantit que chacun consulte les champs appropriés et leurs informations en même temps.
+
+>[!WARNING]
+>
+>Lorsque des expressions de formule changent ou que des options sont ajoutées ou supprimées d’un champ de type sélectionné, des pertes de données sont survenues pour les enregistrements qui contiennent déjà des informations stockées dans les champs dont la configuration est modifiée.
+>
+>Il n’y a aucun avertissement ou indication que cette perte de données pourrait se produire lorsque vous modifiez la configuration des champs.
+>
+>Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
+
+Pour plus d’informations, voir [Modifier les champs](/help/quicksilver/maestro/fields/edit-fields.md).
 
 ## Semaine du 6 mai 2024
 

@@ -2,24 +2,25 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Présentation des affectations intelligentes
+title: Vue d’ensemble des affectations intelligentes
 description: Lors de la gestion des tâches et des affectations de problèmes, vous pouvez utiliser des affectations intelligentes pour identifier le meilleur utilisateur à effectuer le travail. Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour la tâche.
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
 
-# Présentation des affectations intelligentes
+# Vue d’ensemble des affectations intelligentes
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Lors de la gestion des tâches et des affectations de problèmes, vous pouvez utiliser des affectations intelligentes pour identifier la meilleure ressource pour terminer le travail. Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour la tâche. Les affectations intelligentes peuvent être des utilisateurs, des rôles de tâche ou des équipes.
 
@@ -29,7 +30,7 @@ Lors de la gestion des tâches et des affectations de problèmes, vous pouvez ut
 
 Cet article contient des informations générales sur les affectations intelligentes. Pour plus d’informations sur l’utilisation d’affectations intelligentes pour affecter des tâches et des problèmes aux utilisateurs, voir [Rendre des affectations intelligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
-## Présentation des affectations intelligentes
+## Vue d’ensemble des affectations intelligentes
 
 Tenez compte des points suivants lorsque vous utilisez des affectations intelligentes :
 
@@ -121,7 +122,7 @@ Le calcul du score de similarité et l’ordre dans lequel les affectations sont
 
   Par exemple, si Rick a été affecté à une tâche similaire plus tôt aujourd’hui et que Jennifer a été affectée à une tâche similaire il y a deux jours, Rick s’affiche en premier.
 
-* Les affectations identifiées dans cette phase sont répertoriées dans la section **Affectations proposées** du champ Affectations .
+* Les affectations identifiées dans cette phase sont répertoriées dans la section    **Affectations proposées**  du champ Affectations .
 
 * S’il n’existe aucune correspondance utilisant ce calcul, la deuxième phase des affectations intelligentes commence, qui est calculée à l’aide d’un autre algorithme.
 
@@ -131,7 +132,7 @@ Si la première étape des affectations intelligentes de tâche n’a trouvé au
 
 Pour plus d’informations, voir la section [Critères d’attribution intelligente des tâches et des problèmes](#smart-assignments-criteria-for-tasks-and-issues) dans cet article.
 
-Les affectations identifiées dans cette phase sont répertoriées dans la section **Autres affectations** section du champ Affectations pour les tâches. <!--update this to "Other assignments"-->
+Les affectations identifiées dans cette phase sont répertoriées dans la section   **Autres affectations** (ou la section Utilisateurs et équipes ou Affectations de rôles de tâche) du champ Affectations pour les tâches.
 
 ### Critères d’attribution intelligente des tâches et des problèmes
 
