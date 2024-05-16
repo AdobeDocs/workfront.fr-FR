@@ -6,16 +6,20 @@ description: Lors de l’affectation d’utilisateurs ou de rôles à une tâche
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
+source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 15%
+source-wordcount: '655'
+ht-degree: 14%
 
 ---
 
 # Gérer les heures d’attribution des utilisateurs et utilisatrices ou des rôles sur les tâches
 
-{{highlighted-preview}}
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Lors de l’affectation d’utilisateurs ou de rôles à une tâche, ils sont affectés à un certain nombre d’heures pour terminer la tâche. Vous pouvez modifier manuellement le nombre d’heures alloué à chaque utilisateur ou rôle de tâche lorsqu’il est affecté à une tâche, lorsque le type de durée de la tâche est Simple.
 
