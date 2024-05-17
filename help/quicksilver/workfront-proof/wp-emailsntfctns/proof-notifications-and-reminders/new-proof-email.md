@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
-title: Nouvel email de BAT
+title: Nouvel e-mail d’épreuve
 description: Rendre cet article plus efficace pour PiW.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d879b1c6-e862-4653-aa93-90ad92170951
-source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
+source-git-commit: 1030d4110fd5dabb3b5751387585cc66968c2326
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 0%
+source-wordcount: '800'
+ht-degree: 2%
 
 ---
 
-# Nouvel email de BAT
+# Nouvel e-mail d’épreuve
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Lorsque vous créez un BAT ou une nouvelle version d&#39;un BAT, que vous ajoutez de nouvelles personnes à un BAT ou que vous ajoutez un workflow à un BAT, vous pouvez décider si vous souhaitez envoyer un email aux validants, comme expliqué dans ces articles :
 
-* [Créer un BAT avancé avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+* [Créer une épreuve avancée avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 * [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 L’e-mail que vos destinataires reçoivent est appelé [!UICONTROL Nouvelle preuve] e-mail. Seul le créateur du BAT et les utilisateurs autorisés à ajouter des validants à un BAT peuvent contrôler cet email. Les destinataires ne peuvent pas le désactiver.
@@ -43,32 +43,28 @@ L&#39;email Nouveau BAT contient :
 
    * Nom de l&#39;épreuve
    * Numéro de version
-
-      Pour plus d’informations, voir .
-
    * Liste des validants et leur état d&#39;avancement sur le BAT
-   * Un lien pour partager le BAT avec quelqu&#39;un d&#39;autre
+   * Un lien pour partager le BAT avec une autre personne
 
-      Vous pouvez ainsi partager l’URL du BAT et/ou le lien de téléchargement du fichier d’origine. Cela ne vous permet pas d&#39;ajouter explicitement des validants au BAT, vous ne partagerez que l&#39;URL publique du BAT et le destinataire recevra un accès en lecture seule au BAT.
+     Vous pouvez ainsi partager l’URL du BAT et/ou le lien de téléchargement du fichier d’origine. Cela ne vous permet pas d&#39;ajouter explicitement des validants au BAT, vous ne partagerez que l&#39;URL publique du BAT et le destinataire recevra un accès en lecture seule au BAT.
 
-      Voir [Partage d’un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) pour plus d’informations.
+     Voir [Partage d’un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) pour plus d’informations.
 
-      Si vous ne souhaitez pas que ce lien apparaisse dans l&#39;email de votre destinataire, vous pouvez désactiver la variable [!UICONTROL Partage public] paramètres du BAT
+     Si vous ne souhaitez pas que ce lien apparaisse dans l&#39;email de votre destinataire, vous pouvez désactiver la variable [!UICONTROL Partage public] paramètres du BAT
 
-      (Téléchargez le fichier d’origine et l’URL publique). Voir [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) pour plus d’informations.
+     (Téléchargez le fichier d’origine et l’URL publique). Voir [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) pour plus d’informations.
 
 ## Journal d’activité
 
-Envoyer un [!UICONTROL Nouvelle preuve] l’e-mail à un réviseur est connecté à la variable [!UICONTROL Activité] section [!UICONTROL Détails du BAT] page. Voir  [Gérer[!UICONTROL  Détails du BAT] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) pour plus d’informations. Vous pouvez vérifier si la variable [!UICONTROL Nouvelle preuve] a été activé au moment de la création d’un BAT.
+Envoyer un [!UICONTROL Nouvelle preuve] l’e-mail à un réviseur est connecté à la variable [!UICONTROL Activité] section de [!UICONTROL Détails du BAT] page. Voir  [Gérer[!UICONTROL  Détails du BAT] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) pour plus d’informations. Vous pouvez vérifier si la variable [!UICONTROL Nouvelle preuve] a été activé au moment de la création d’un BAT.
 
 ![New_Version_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 
 >[!NOTE]
 >
 >* Si le créateur ou le propriétaire du BAT a [!UICONTROL Bon à tirer] e-mails désactivés par défaut (dans leurs paramètres personnels), ils ne recevront aucun message [!UICONTROL Preuve faite] ou [!UICONTROL Nouveau BAT] e-mails même si la variable [!UICONTROL Notifier les personnes par e-mail] est cochée sur la page Nouveau BAT. Pour plus d’informations, voir .
->* Si les notifications électroniques sont désactivées par défaut dans la variable [!UICONTROL Paramètres du compte] Le créateur/propriétaire du BAT ne recevra aucun [!UICONTROL Preuve faite] ou [!UICONTROL Nouveau BAT] les emails, même s’ils sont activés dans leurs paramètres personnels et dans la variable [!UICONTROL Notifier] La case Personnes par email est cochée sur la page Nouveau BAT. Pour plus d’informations, [Le [!UICONTROL Bon à tirer] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) et voir .
+>* Si les notifications par e-mail sont désactivées par défaut dans la variable [!UICONTROL Paramètres du compte] Le créateur/propriétaire du BAT ne recevra aucun [!UICONTROL Preuve faite] ou [!UICONTROL Nouveau BAT] les emails, même s’ils sont activés dans leurs paramètres personnels et dans la variable [!UICONTROL Notifier] La case Personnes par email est cochée sur la page Nouveau BAT. Pour plus d’informations, [La variable [!UICONTROL Bon à tirer] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) et voir .
 >
-
 
 
 
@@ -88,9 +84,9 @@ Lorsque vous créez un BAT dans le [!UICONTROL Nouveau BAT] , sous **[!UICONTROL
 * Si vous décidez d’ajouter votre propre message personnalisé, vous pourrez insérer un objet personnalisé (3) et un message dans le corps de l’email (4).
 * Pour ignorer le message personnalisé, cliquez simplement sur le lien (5).
 
-   >[!NOTE]
-   >
-   >Si vous envoyez toujours le même message personnalisé à vos réviseurs, il peut être judicieux de l’enregistrer dans vos paramètres personnels sous le [!UICONTROL Vérification des paramètres par défaut] . Pour plus d’informations, voir .
+  >[!NOTE]
+  >
+  >Si vous envoyez toujours le même message personnalisé à vos réviseurs, il peut être judicieux de l’enregistrer dans vos paramètres personnels sous le [!UICONTROL Vérification des paramètres par défaut] . Pour plus d’informations, voir .
 
 ![New_Proof_page_1.png](assets/new-proof-page-1-350x186.png)
 

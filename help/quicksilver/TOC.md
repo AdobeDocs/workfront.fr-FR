@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 8dd5e13b479bb46c982b58321d6838d7c0e64410
 workflow-type: tm+mt
-source-wordcount: '14246'
+source-wordcount: '14253'
 ht-degree: 96%
 
 ---
@@ -1936,6 +1936,7 @@ ht-degree: 96%
          * [Désactiver le partage d’épreuve via une URL publique ou un code intégré](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Questions fréquentes : relecture dans Adobe Workfront - Migration des États-Unis vers la zone EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [Le nom du document a été modifié après le téléchargement et contient un caractère non valide.](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
+         * [Bon à tirer d’un PowerPoint avec une vidéo incorporée](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Conseils, astuces et dépannage pour les approbations {#ttt-approvals}
       * [Conseils, astuces et dépannage pour les approbations](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Afficher le nombre de décisions relatives aux épreuves et aux documents pour tous les utilisateurs et utilisatrices](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
