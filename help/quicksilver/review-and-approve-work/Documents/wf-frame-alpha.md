@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
+source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 0%
+source-wordcount: '992'
+ht-degree: 1%
 
 ---
 
@@ -113,47 +113,10 @@ Avec cette intégration, notre objectif est de permettre aux créatifs de rester
 
 Pour vous permettre de tester facilement les nouvelles fonctionnalités du programme bêta, nous avons créé un nouveau compte de test Frame.io et nous l’avons connecté à un nouveau groupe appelé `Frame.io testing` dans votre environnement Workfront Preview ou Sandbox existant.
 
-+++Développer pour afficher les instructions de test de base
-
-Pour tester la fonctionnalité, connectez-vous à votre instance Workfront Preview ou Sandbox et procédez comme suit :
-
-1. **Coordonnateurs :** Dans Workfront, créez un projet avec le `Frame.io testing` groupe affecté en tant que groupe de projet.
-
-1. **Coordonnateurs :** Dans Workfront, marquez les tâches qui nécessitent un travail créatif comme étant activées dans les détails de la tâche et affectez-lui vos créatifs (affectez-vous également si vous souhaitez tester l’ensemble du workflow).
-
->[!NOTE]
->
->Les sous-tâches ne peuvent pas être marquées comme Frame activées.
->
-
-1. **Coordonnateurs :** Chargez votre résumé créatif et définissez l’état du projet sur &quot;Actuel&quot;.
-
-1. **Créatifs :** Recherchez dans vos emails une invitation au projet Frame.io nouvellement créé.
-
-1. **Créatifs :** Cliquez sur le bouton &quot;Rejoindre le projet&quot; dans l’e-mail d’invitation pour rejoindre le projet Frame.io, passez en revue le dossier créatif du projet et commencez la création de contenu dans votre outil de Creative Cloud de votre choix.
-
-1. **Créatifs :** Chargez les ressources créées sur Frame.io et ajoutez-les au projet Workfront lié en sélectionnant l’une des tâches Frame-enabled qui vous sont affectées. Sélectionnez l’option pour marquer la tâche comme terminée.
-
-1. **Coordonnateurs :** Dans Workfront, recherchez les ressources Frame.io liées dans la tâche avec fonction de cadre et vérifiez que l’état de la tâche a été modifié pour &quot;terminer&quot;.
-
-1. **Coordonnateurs :** Affectez des réviseurs/approbateurs à la ressource Frame.io liée. Vous pouvez également vous attribuer le rôle d’approbateur si vous souhaitez tester l’ensemble du workflow. (Pour plus d’informations sur l’attribution des révisions/approbateurs, voir [Ajout d’approbateurs ou de réviseurs à un document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
-
-1. **Parties prenantes :** Dans Workfront, consultez votre demande d’approbation dans Accueil, Détails du document ou dans la notification électronique reçue. Ouvrez la ressource dans la visionneuse Frame.io, laissez un commentaire contenant des commentaires et prenez une décision.
-
-1. **Coordonnateurs :** Dans Workfront, affichez les commentaires créés par les parties prenantes dans la section Mises à jour du document connecté à Frame.io, ainsi que la décision dans la section Approbation ou le volet Résumé du document.
-
-1. **Créatifs :** Dans Frame.io, notez la décision d’approbation globale prise pour vos ressources.
-
-1. **Créatifs :** Dans Frame.io, appliquez les modifications demandées en ajoutant la version mise à jour à la pile de versions de la ressource connectée.
-
-1. **Coordonnateurs :** Dans Workfront, affectez les approbateurs/réviseurs à la version que vous venez de télécharger et surveillez la progression jusqu’à ce qu’elle atteigne l’approbation.
-
-+++
-
-+++ Développer pour afficher des instructions de test détaillées
+### Instructions détaillées sur les tests
 
 Pour les participants qui souhaitent tester des fonctionnalités supplémentaires, nous avons créé un scénario de test plus impliqué. Un guide pour ce scénario de test détaillé peut être téléchargé ici : [Présentation détaillée du scénario de test détaillé WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
-+++
+
 
 ## Vidéo de démonstration
 
