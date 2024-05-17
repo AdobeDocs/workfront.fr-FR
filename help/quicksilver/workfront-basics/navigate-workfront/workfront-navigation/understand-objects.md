@@ -6,9 +6,9 @@ description: "Les informations que vous affichez dans [!DNL Adobe Workfront] est
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2441'
 ht-degree: 2%
 
 ---
@@ -300,11 +300,12 @@ Vous pouvez créer des rapports sur les objets suivants lors de l’utilisation 
 * [!UICONTROL Groupe de paramètres] (ou [!UICONTROL Saut de section])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Programme]
-* [!UICONTROL Projet] ([!UICONTROL Données financières])
+* [!UICONTROL Projet (données financières)]
+   * Les informations financières sont renseignées dans [!UICONTROL Projet (données financières)] ne signale que lorsque les données qui y sont associées ont moins de 5 ans. Par exemple, si un rôle d’emploi a été attribué à une tâche en janvier 2015 et que nous sommes aujourd’hui septembre 2021, un secteur financier comme le [!UICONTROL Date d’affectation] pour le rôle de tâche ne s’affiche pas dans la variable [!UICONTROL Projet (données financières)] rapport.
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >Les informations financières sont renseignées dans [!UICONTROL Projet] ([!UICONTROL Données financières]) ne signale que lorsque les données qui y sont associées ont moins de 5 ans. Par exemple, si un rôle d’emploi a été attribué à une tâche en janvier 2015 et que nous sommes aujourd’hui septembre 2021, un secteur financier comme le [!UICONTROL Date d’affectation] pour le rôle de tâche ne s’affiche pas dans la variable [!UICONTROL Projet (données financières)] rapport.
+  >L’exécution d’un rapport Projet (données financières) permet de recalculer les données financières, ce qui peut entraîner une surcharge des données financières précédentes et nécessiter un temps important. Pour plus d’informations sur les conséquences du recalcul des données financières, voir [Recalculer les finances du projet](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Approbation d&#39;épreuve]
    * Vous permet de consulter différentes informations sur la validation du BAT, notamment : le BAT qui a été soumis à validation, des informations sur le [!UICONTROL Approbateur], informations sur le demandeur (si le demandeur est titulaire d’une licence [!DNL Workfront] (utilisateur), les informations de version, l’ID de BAT et la date de création du BAT.\
