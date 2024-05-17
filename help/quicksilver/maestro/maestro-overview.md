@@ -5,16 +5,18 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1838'
 ht-degree: 4%
 
 ---
 
 # Présentation de la planification Adobe Workfront
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -255,6 +257,7 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Taille de fichier que vous pouvez importer via l’API pour un tableau de type enregistrement | 1,5 Mo |
 | Taux auquel les demandes d’API peuvent être effectuées | 200 demandes par minute |
 | Taille du fichier CSV d’Excel que vous pouvez importer* | 5 Mo |
+| Nombre de vues qu’un utilisateur peut créer pour un type d’enregistrement | 100 |
 
 <!--add to the table above: Maximum number of views created by one use 100 -->
 

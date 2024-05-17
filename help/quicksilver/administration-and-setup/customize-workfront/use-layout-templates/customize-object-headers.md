@@ -1,5 +1,5 @@
 ---
-title: Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page
+title: Personnaliser les en-têtes d’objet avec un modèle de disposition
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page
+# Personnaliser les en-têtes d’objet avec un modèle de disposition
 
 En tant qu’administrateur Adobe Workfront ou administrateur de groupe, vous pouvez utiliser un modèle de mise en page pour configurer les champs que les utilisateurs voient dans l’en-tête de l’objet lorsqu’ils ouvrent la page d’un objet.
 
@@ -31,16 +31,16 @@ Pour plus d’informations sur les modèles de mise en page pour les groupes, vo
 
 Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs pour que les modifications que vous avez apportées soient visibles par d’autres utilisateurs. Pour plus d’informations sur l’attribution d’un modèle de mise en page aux utilisateurs, voir [Affecter des utilisateurs à un modèle de mise en page](../use-layout-templates/assign-users-to-layout-template.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 
 <table>
   <tr>
    <td><strong>Formule Adobe Workfront</strong>
    </td>
-   <td>Tous
+   <td>N’importe quelle
    </td>
   </tr>
   <tr>
@@ -52,18 +52,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td><strong>Paramétrages du niveau d'accès</strong>
    </td>
-   <td>Vous devez être administrateur Workfront ou de groupe.
+   <td>Vous devez être un administrateur Workfront ou un administrateur de groupe.
 <p>
    </td>
   </tr>
 </table>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir [Création ou modification de niveaux d’accès personnalisés](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir [Créer ou modifier les niveaux d’accès personnalisés](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Personnalisation des en-têtes d’objet
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Création et gestion des modèles de mise en page](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Dans le **Personnalisation des éléments affichés par les utilisateurs** menu déroulant, sélectionnez **Projets**, **Tâches** ou **Problèmes**.
+1. Dans le **Personnalisation des éléments affichés par les utilisateurs** menu déroulant, sélectionnez **Projets**, **Tâche**, ou **Problèmes**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
@@ -72,7 +72,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
      Ou
 
-   * Cliquez et maintenez la fonction **attraper** pour faire glisser et déposer le champ à un nouvel emplacement.
+   * Cliquez sur et maintenez la fonction **attraper** pour faire glisser et déposer le champ à un nouvel emplacement.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -94,9 +94,9 @@ Si cinq champs sont déjà sélectionnés, vous devez en supprimer un avant d’
    ![](assets/add-field-to-header-in-lt-list.png)
 
 
-1. (Facultatif) Faites glisser les champs ajoutés dans un autre ordre.
+1. (Facultatif) Faites glisser et déposez les champs ajoutés dans un autre ordre.
 
-1. Continuez à personnaliser le modèle de mise en page.
+1. Poursuivez la personnalisation du modèle de mise en page.
 
    Ou
 

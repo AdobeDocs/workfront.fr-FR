@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,14 @@ Après avoir sélectionné un type d’enregistrement dans la zone de planificat
 * Calendrier
 
   Pour plus d’informations, voir [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+Cet article décrit les informations suivantes sur les vues d’enregistrement :
+
+* [Création et modification d’une vue](#create-or-edit-record-views)
+* [Suppression d’une vue](#delete-views)
+* [Dupliquer une vue](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## Conditions d’accès
 
@@ -93,7 +101,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Les vues dans Workfront Planning sont spécifiques au type d’enregistrement. Vous ne pouvez pas appliquer la même vue à deux types d’enregistrements différents.
 * Les vues que vous créez sont visibles uniquement pour vous et les utilisateurs avec lesquels vous partagez les vues.
 * Lorsque vous modifiez ou supprimez une vue, elle est modifiée et supprimée pour tous les utilisateurs disposant d’autorisations sur la vue.
-<!--* Each user can create a maximum of 100 views. -->
+* Chaque utilisateur peut créer un maximum de 100 vues. Vous pouvez afficher plus de 100 vues pour un type d’enregistrement, mais un utilisateur ne peut créer que 100 vues.
+* Vous pouvez partager les vues que vous créez avec d’autres utilisateurs. Pour plus d’informations, voir [Partage de vues](/help/quicksilver/maestro/access/share-views.md).
 * Les éléments suivants sont propres à chaque vue d’enregistrement :
 
    * Filtre
@@ -108,14 +117,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   >[!NOTE]
   >
   > Comme Adobe Workfront Planning est actuellement en version bêta, certains éléments de vue peuvent ne pas être disponibles pour toutes les vues.
-
-Cet article décrit les informations suivantes sur les vues d’enregistrement :
-
-* [Création et modification d’une vue](#create-or-edit-record-views)
-* [Suppression d’une vue](#delete-views)
-* [Dupliquer une vue](#duplicate-views)
-* [Partage d’une vue](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Similarités et différences entre les vues d’enregistrement
 
@@ -228,10 +229,6 @@ Tout d’abord, vous devrez peut-être cliquer sur **Plus** à gauche du dernier
 1. Cliquez sur **Supprimer** pour confirmer. <!--ensure there is not another saving step here?!-->
 
    La vue est supprimée pour tous les utilisateurs qui peuvent accéder à la zone des enregistrements et elle ne peut pas être récupérée.
-
-## Partage d’une vue
-
-Pour plus d’informations sur le partage des vues, voir [Partage de vues](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 

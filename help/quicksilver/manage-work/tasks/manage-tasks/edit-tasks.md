@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '3729'
-ht-degree: 3%
+source-wordcount: '3727'
+ht-degree: 6%
 
 ---
 
@@ -27,27 +27,27 @@ ht-degree: 3%
 
 Vous pouvez modifier les informations sur les tâches que vous avez créées ou sur lesquelles vous disposez des autorisations de contribution ou de gestion.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Travail ou plus élevé</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux tâches et aux projets</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -63,12 +63,12 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
     </ul> 
     <ul> 
      <li> <p>Attribuer ou des autorisations supérieures au projet</p> </li> 
-    </ul> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+    </ul> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Restrictions relatives à la modification des tâches
 
@@ -398,7 +398,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
       </tr> 
       <tr> 
       <td>Heures</td> 
-      <td>h</td> 
+      <td>H</td> 
       </tr> 
       <tr> 
       <td>Jours. Il s’agit du paramètre par défaut. </td> 
@@ -612,12 +612,12 @@ Votre administrateur système ou groupe peut personnaliser les champs affichés 
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-Par défaut, les champs suivants sont inclus dans l’en-tête du projet :
+Par défaut, les champs suivants sont inclus dans l’en-tête de la tâche :
 
 * Nom de la tâche
 * Pourcentage d’achèvement
 * Affectations
-* Date et heure d’achèvement prévues
+* Date d&#39;achèvement prévue
 
   >[!CAUTION]
   >
