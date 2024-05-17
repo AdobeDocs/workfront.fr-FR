@@ -1,18 +1,21 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Présentation des dates de projet, de tâche et de publication dans [!DNL Adobe Workfront]
-description: Présentation des dates de projet, de tâche et de publication dans [!DNL Adobe Workfront]
+title: Présentation des dates de projet, de tâche et de publication dans [!DNL Workfront]
+description: Cet article fournit des définitions des dates les plus courantes associées aux projets, tâches et problèmes dans [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
 
-# Présentation des dates de projet, de tâche et de publication dans [!DNL Adobe Workfront]
+# Présentation des dates de projet, de tâche et de publication dans [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -35,7 +38,7 @@ Selon le [!UICONTROL Contrainte de tâche], il se peut que vous ne puissiez pas 
 
 Pour plus d’informations, voir [Présentation du projet [!UICONTROL Date de début planifiée]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -63,7 +66,7 @@ La variable [!UICONTROL Date d’entrée] est la date à laquelle un projet, une
 
 La variable [!UICONTROL Date d’entrée] n’influence pas la chronologie des projets, tâches ou problèmes, mais elle est importante à des fins de suivi et de création de rapports. [!DNL Workfront] génère automatiquement la variable [!UICONTROL Date d’entrée] lorsque l’objet est créé et que vous ne pouvez pas le modifier manuellement.
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL Date de début réelle]
 
@@ -89,7 +92,7 @@ Pour plus d’informations, voir [Présentation du projet [!UICONTROL Date de d�
 
 La variable [!UICONTROL Date d’achèvement réelle] est la date à laquelle un utilisateur termine un projet, une tâche ou un problème. La variable [!UICONTROL Date d’achèvement réelle] est vide lorsque le projet, la tâche ou le problème est créé.
 
-Vous pouvez indiquer manuellement le moment où le travail se termine sur une tâche ou un problème, ou le [!UICONTROL Date de fin réelle] renseigne automatiquement lorsque l’une des situations suivantes se produit :
+Vous pouvez indiquer manuellement le moment où le travail se termine sur une tâche ou un problème, ou le [!UICONTROL Date d’achèvement réelle] renseigne automatiquement lorsque l’une des situations suivantes se produit :
 
 * Le statut du projet, de la tâche ou du problème passe à [!UICONTROL Terminer], [!UICONTROL Fermé], ou [!UICONTROL Résolu].
 * Le pourcentage de réalisation de la tâche ou du projet est de 100 %.
@@ -114,7 +117,7 @@ La variable [!UICONTROL Date de validation] est la date à laquelle un utilisate
 
 ## [!UICONTROL Date de début prévue]
 
-La variable [!UICONTROL Date de début prévue] est une date en temps réel du moment où le projet, la tâche ou l’émission prend en compte tous les délais. La date de début du projet, de la tâche ou du problème est plus précise que la valeur [!UICONTROL Date de début planifiée]. La variable [!UICONTROL Date de début planifiée] ne prend pas en compte les retards ou les dates antérieures.
+La variable [!UICONTROL Date de début prévue] est une date en temps réel indiquant le début du projet, de la tâche ou de la publication et la prise en compte de tous les délais. La date de début du projet, de la tâche ou du problème est plus précise que la valeur [!UICONTROL Date de début planifiée]. La variable [!UICONTROL Date de début planifiée] ne prend pas en compte les retards ou les dates antérieures.
 
 Lorsque vous planifiez un projet pour la première fois, la variable [!UICONTROL Date de début planifiée] et la variable [!UICONTROL Date de début prévue] des tâches et du projet sont identiques. Comme des retards peuvent se produire ou que des tâches peuvent être terminées plus tôt, la variable [!UICONTROL Date de début prévue] peut devenir différent de la variable [!UICONTROL Date de début planifiée].
 
@@ -132,7 +135,7 @@ Pour plus d’informations, voir [Présentation du projet [!UICONTROL Date de d�
 
 La variable [!UICONTROL Date d’achèvement prévue] est un indicateur calculé en temps réel du moment où le projet, la tâche ou le problème sera terminé. Lorsque le projet, la tâche ou le problème est marqué comme terminé, la variable [!UICONTROL Date d’achèvement prévue] modification de la date de la variable [!UICONTROL Date d’achèvement réelle].
 
-Si tout se passe sans problème et comme prévu, la variable [!UICONTROL Date d’achèvement prévue] doit correspondre au [!UICONTROL Date d’achèvement prévue]. Sinon, en raison des retards sur les tâches précédentes, la variable [!UICONTROL Date d’achèvement prévue] peut devenir différent de la variable [!UICONTROL Date d’achèvement prévue].
+Si tout se passe bien et comme prévu, la variable [!UICONTROL Date d’achèvement prévue] doit correspondre au [!UICONTROL Date d’achèvement prévue]. Sinon, en raison des retards sur les tâches précédentes, la variable [!UICONTROL Date d’achèvement prévue] peut devenir différent de la variable [!UICONTROL Date d’achèvement prévue].
 
 Pour plus d’informations, voir [Présentation de la variable [!UICONTROL Date d’achèvement prévue] pour les projets, les tâches et les problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -146,7 +149,7 @@ La date à laquelle vous enregistrez l’heure est la date [!UICONTROL Date d’
 
 >[!TIP]
 >
->La variable [!UICONTROL Date d’entrée horaire] est différent de la variable [!UICONTROL Date d’entrée] en ce sens qu’il ne s’agit pas de la date de création du journal des heures, mais plutôt de la date à laquelle vous souhaitez associer des heures.
+>La variable [!UICONTROL Date d’entrée horaire] est différent de la variable [!UICONTROL Date d’entrée] en ce sens qu’il ne s’agit pas de la date de création du journal des heures, mais plutôt de la date à laquelle vous souhaitez que les heures soient associées.
 
 Vous pouvez journaliser et afficher l’heure dans les zones suivantes de Workfront :
 
@@ -154,7 +157,7 @@ Vous pouvez journaliser et afficher l’heure dans les zones suivantes de Workfr
 
   ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-  Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
+  Pour plus d’informations, consultez [Consigner des heures](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
   >[!TIP]
   >

@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Différence entre les dates prévues et estimées
+title: Faire la différence entre les dates prévisionnelles et les dates estimées
 description: Il existe plusieurs types de dates qui indiquent la chronologie des tâches entre le moment où elles peuvent démarrer et celui où elles peuvent se terminer.
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
-# Différence entre les dates prévues et estimées
+# Faire la différence entre les dates prévisionnelles et les dates estimées
 
 Il existe plusieurs types de dates qui indiquent la chronologie des tâches entre le moment où elles peuvent démarrer et celui où elles peuvent se terminer. Voici quelques dates qui affichent la chronologie des tâches :
 
@@ -27,7 +27,7 @@ Cet article décrit les différences entre les dates estimées et projections po
 
 Lorsque la tâche est créée pour la première fois, les dates prévues, prévues et estimées doivent généralement correspondre. Certaines exceptions existent. 
 
-Pour plus d’informations sur le projet, la tâche et les dates de publication dans Adobe Workfront, voir [Présentation des dates de projet, de tâche et de publication dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Pour plus d’informations sur le projet, la tâche et les dates de publication dans Adobe Workfront, voir [Présentation des dates de projet, de tâche et de publication dans Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Présentation des dates prévues
 
@@ -95,7 +95,7 @@ La liste suivante répertorie plusieurs scénarios lorsque les dates prévues de
 
   *Date d’achèvement prévue = Date de validation*
 
-  Pour plus d’informations sur la date de validation, voir [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Pour plus d’informations sur la date d’engagement, consultez [Vue d’ensemble de la date d’engagement](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Lorsque la date de validation de la tâche n’est pas mise à jour et que celle-ci est contrainte (à terminer le) pour la date d’achèvement planifiée qui se situe dans le futur :
 

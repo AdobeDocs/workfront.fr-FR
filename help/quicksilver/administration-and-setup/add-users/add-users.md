@@ -10,14 +10,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 8de9c79f6c62b74a652482ec10bf38fada8c5fc8
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 0%
+source-wordcount: '75'
+ht-degree: 17%
 
 ---
 
-# Gestion des utilisateurs : index des articles
+# User Management : index des articles
 
 <!-- Audited: 12/2023 -->
 
@@ -29,5 +29,5 @@ Cet index contient des liens vers les sous-sections suivantes concernant la gest
 * [Fonctionnement des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
 * [Fonctionnement des niveaux d’accès](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
 * [Configurer l’accès à Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
-* [Authentification unique dans Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-* [Création et gestion des équipes](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
+* [Authentification unique dans Workfront : index de l’article](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+* [Créer et gérer des équipes](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)

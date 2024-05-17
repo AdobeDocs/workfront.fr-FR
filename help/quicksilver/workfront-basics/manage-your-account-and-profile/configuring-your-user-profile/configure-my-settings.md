@@ -6,9 +6,9 @@ description: Votre [!DNL Adobe Workfront] Le profil contient des informations vo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 1%
 
 ---
@@ -255,7 +255,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditionnel) [!UICONTROL Autoriser uniquement &lt;sso configuration=""&gt; Authentification]</strong></td> 
-   <td> <p> Si votre [!DNL Workfront] l’administrateur a activé une intégration SSO avec [!DNL Workfront] et contient des utilisateurs mis à jour pour SSO, ce champ est sélectionné par défaut. Le type de configuration SSO activé pour votre [!DNL Workfront] est visible dans ce champ.</p> <p>Lorsque ce champ est sélectionné, vous devez vous connecter à [!DNL Workfront] avec vos informations d’identification SSO. Si vous la décochez, vous pourrez vous connecter à [!DNL Workfront] avec votre [!DNL Workfront] informations d’identification.</p> <p>Pour plus d’informations sur la configuration [!DNL Workfront] avec une solution SSO, voir <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Connexion unique [!DNL Adobe Workfront]</a>. Pour plus d’informations sur la mise à jour des utilisateurs pour SSO, voir <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Mise à jour des utilisateurs pour l’authentification unique</a>.</p> </td> 
+   <td> <p> Si votre [!DNL Workfront] l’administrateur a activé une intégration SSO avec [!DNL Workfront] et contient des utilisateurs mis à jour pour SSO, ce champ est sélectionné par défaut. Le type de configuration SSO activé pour votre [!DNL Workfront] est visible dans ce champ.</p> <p>Lorsque ce champ est sélectionné, vous devez vous connecter à [!DNL Workfront] avec vos informations d’identification SSO. Si vous la décochez, vous pourrez vous connecter à [!DNL Workfront] avec votre [!DNL Workfront] informations d’identification.</p> <p>Pour plus d’informations sur la configuration [!DNL Workfront] avec une solution SSO, voir <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Connexion unique [!DNL Workfront]: index de l’article</a>. Pour plus d’informations sur la mise à jour des utilisateurs pour SSO, voir <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Mise à jour des utilisateurs pour l’authentification unique</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,7 +475,7 @@ Utilisez l’une des méthodes suivantes de cette section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditionnel) Si vous avez sélectionné un ou plusieurs autres rôles, le champ [!UICONTROL Pourcentage de disponibilité de l’éditeur de texte enrichi] s’affiche pour chaque rôle.</strong></td> 
-   <td> <p>Indiquez le pourcentage de votre temps planifié attribué à chaque rôle de tâche. La valeur par défaut du [!UICONTROL Pourcentage de disponibilité de l’éditeur de texte enrichi] pour [!UICONTROL Autres rôles] est de 0 %.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_tasks_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Remarque :  
+   <td> <p>Indiquez le pourcentage de votre temps planifié attribué à chaque rôle de tâche. La valeur par défaut du [!UICONTROL Pourcentage de disponibilité de l’éditeur de texte enrichi] pour [!UICONTROL Autres rôles] est de 0 %.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_tasks_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Remarque :  
      <ul> 
       <li>Si [!UICONTROL Autres rôles] disposent d’une disponibilité de l’éditeur de texte enrichi de 0 %, ils ne s’affichent pas dans le [!UICONTROL Resource Planner], sauf si les utilisateurs sont affectés à des tâches dans ces rôles.</li> 
       <li> <p>La somme de tous les <strong>[!UICONTROL Pourcentages de disponibilité de l’éditeur de texte enrichi]</strong> pour tous les rôles, doit être égal à 100 %. Chaque [!UICONTROL Pourcentage de disponibilité de l’éditeur de texte enrichi] calcule les [!UICONTROL Heures disponibles] pour chaque rôle par utilisateur dans le [!UICONTROL Resource Planner]. </p> <p>Les [!UICONTROL Hours disponibles] pour chaque rôle par utilisateur dépendent de l’heure disponible pour l’utilisateur. L’heure disponible pour l’utilisateur est calculée par [!DNL Workfront] selon la méthode sélectionnée par la variable [!DNL Workfront] pour calculer l’éditeur de texte enrichi dans les préférences de [!UICONTROL Resource Management]. Pour plus d’informations sur le calcul de la disponibilité de l’utilisateur, voir <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources</a>. Pour plus d’informations sur la configuration des préférences de gestion des ressources, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configuration des préférences de gestion des ressources</a>.</p> </li> 

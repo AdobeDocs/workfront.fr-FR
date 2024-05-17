@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -28,15 +28,15 @@ Cette section comprend les sous-sections et articles suivants :
 * [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
 * [[!DNL Adobe Workfront] Rechercher](../../workfront-basics/navigate-workfront/search/search.md)
 * [Récents et favoris dans [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
-* [Présentation de la barre de navigation supérieure](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
+* [Vue d’ensemble de la barre de navigation supérieure](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
 * [Navigation de gauche dans [!DNL Adobe Workfront]](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
-* [Aperçu du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md)
-* [Présentation du chemin de navigation](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
-* [Présentation des en-têtes d’objet](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)
-* [Epingler des pages pour personnaliser votre espace de travail](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
+* [Vue d’ensemble du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [Vue d’ensemble des chemins de navigation](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+* [Vue d’ensemble des en-têtes d’objets](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)
+* [Épingler des pages pour personnaliser votre espace de travail](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [Listes dans [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
-* [Création de sections personnalisées](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+* [Créer des sections personnalisées](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [Accès [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-* [Présentation des dates de projet, de tâche et de publication dans [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+* [Présentation des dates de projet, de tâche et de publication dans [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Comprendre la navigation d’une [!UICONTROL Travail]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [Comprendre la navigation d’une [!UICONTROL Réviser]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
