@@ -8,9 +8,9 @@ description: Vous pouvez améliorer le workflow de vérification pour le chef de
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 582cdb22-fd7f-4872-b173-910471b8e745
-source-git-commit: e5ba9528cef5e0f195726c143cecadcbdc71e4cf
+source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -27,24 +27,27 @@ Ces workflows fonctionnent bien dans n’importe quelle situation, mais ils sont
 
 ## Quand Designer doit voir les commentaires et les décisions
 
-Lorsque le concepteur doit voir des commentaires et des décisions sur un BAT, il peut commencer le processus de vérification et recevoir le BAT une fois le processus terminé. Le concepteur peut alors recommencer le processus. ![designers_managers_-_option_A.png](assets/designers-managers---option-a-350x100.png)
+Lorsque le concepteur doit voir des commentaires et des décisions sur un BAT, il peut commencer le processus de vérification et recevoir le BAT une fois le processus terminé. Le concepteur peut alors recommencer le processus.
+
+![designers_managers_-_option_A.png](assets/designers_managers_-_option_A.png)
 
 1. Le concepteur crée un BAT et attribue le chef de projet comme propriétaire du projet (pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). En tant que créateur du BAT, le concepteur peut :
 
-   * Commenter le BAT et utiliser le [!UICONTROL Actions] pour effectuer le suivi des threads de commentaires.
+   * Commenter le BAT et utiliser la variable [!UICONTROL Actions] pour effectuer le suivi des threads de commentaires.
    * Créez une nouvelle version du BAT pour le chef de projet.
 
 1. Le chef de projet examine le BAT, puis le partage avec le client. Pour plus d’informations, voir [Partage d’un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 1. Le client reçoit un email contenant un lien vers le BAT. Pour plus d’informations, voir [Nouvel email de BAT](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 1. Le client examine le BAT, ajoute des commentaires et prend une décision sur le BAT.
 1. Le chef de projet reçoit un e-mail résumant la révision du client et le concepteur reçoit un e-mail sur les modifications requises. Pour plus d’informations, voir [Configuration des paramètres de notification électronique dans [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
-1. Le concepteur ou le chef de projet modifie le fichier ; si le concepteur le télécharge ensuite en tant que nouvelle version, [!DNL Workfront Proof] réaffecte la propriété du BAT au chef de projet.
+1. Le concepteur ou le chef de projet modifie le fichier ; si le concepteur le télécharge alors en tant que nouvelle version, [!DNL Workfront Proof] réaffecte la propriété du BAT au chef de projet.
 
 ## Lorsque Designer n’a pas besoin de voir des commentaires et des décisions de BAT
 
 Lorsqu’il n’est pas nécessaire que le concepteur soit impliqué dans la variable [!DNL Workfront Proof] processus de révision, le chef de projet peut créer le BAT et ajouter les validants.
 
-![designers_managers_-_option_B.png](assets/designers-managers---option-b-350x100.png)
+![designers_managers_-_option_B.png](assets/designers_managers_-_option_B.png)
+
 
 1. Le concepteur charge le fichier et le partage avec le chef de projet. Pour plus d’informations, voir [Transfert de fichiers et de contenu web vers [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) et [Partage de fichiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 

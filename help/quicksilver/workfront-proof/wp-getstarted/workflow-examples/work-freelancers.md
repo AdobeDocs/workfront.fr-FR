@@ -8,9 +8,9 @@ description: Si votre entreprise travaille avec des indépendants, vous pouvez l
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Pour plus d’informations sur l’ajout d’un freelancer à votre équipe, voi
 
 >[!NOTE]
 >
->Tous les indépendants ajoutés à votre compte en tant qu’utilisateurs auront une visibilité sur votre compte et pourront également afficher les détails du client (en fonction de leur profil utilisateur). Ce n’est peut-être pas ce que vous souhaitez, par conséquent la configuration d’un compte satellite pour vos indépendants serait une option plus appropriée. see [Configuration d’un compte satellite pour vos indépendants](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) ci-dessous.
+>Tous les indépendants ajoutés à votre compte en tant qu’utilisateurs auront une visibilité sur votre compte et pourront également afficher les détails du client (en fonction de leur profil utilisateur). Ce n’est peut-être pas ce que vous souhaitez. Par conséquent, la configuration d’un compte satellite pour vos indépendants serait une option plus appropriée. Voir [Configuration d’un compte satellite pour vos indépendants](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) ci-dessous
 
 ## Configuration d’un compte satellite pour vos indépendants
 
@@ -47,16 +47,16 @@ Cela signifie qu’ils auront leur propre tableau de bord pour afficher tous les
 
 Cela signifie également que si le collaborateur indépendant doit créer de nouvelles versions du BAT pendant le processus de révision, vous pouvez les ajouter explicitement au BAT en tant que [!UICONTROL Auteur], qui leur permettra de participer au processus de révision et de créer de nouvelles versions selon les besoins. Pour plus d’informations, voir et [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![freelancers_-_option_B.png](assets/freelancers---option-b-350x98.png)
+![freelancers_-_option_B.png](assets/freelancers_-_option_B.png)
 
 1. Le free-lance se connecte à son compte satellite.
 1. Le free-lance charge le fichier et le partage avec vous. Voir [Transfert de fichiers et de contenu web vers [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) et [Partage de fichiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 
 1. Vous recevez un e-mail vous indiquant qu’un fichier a été partagé avec vous.
 1. Vous vous connectez à votre compte et recherchez le fichier qui a été partagé avec vous.
-1. Vous utilisez le [!UICONTROL convertir en BAT] pour convertir le fichier en BAT. Pour plus d’informations, voir [Gestion des fichiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).
+1. Vous utilisez la variable [!UICONTROL convertir en BAT] pour convertir le fichier en BAT. Pour plus d’informations, voir [Gestion des fichiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).
 1. Vous gérez ensuite normalement le workflow de BAT avec vos clients. Si vous souhaitez ajouter explicitement votre Libérateur au BAT, vous pouvez le faire à l’aide de la fonction de partage. Pour plus d’informations, voir [Partage d’un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
-1. Si vous ne souhaitez pas ajouter explicitement votre indépendant au BAT, mais que vous souhaitez les avertir lorsqu&#39;il a été approuvé ; vous pouvez notifier votre indépendant à la fin du processus du BAT en partageant un lien vers le BAT avec lui.
+1. Si vous ne souhaitez pas ajouter explicitement votre indépendant au BAT, mais que vous souhaitez les avertir lorsqu&#39;il a été approuvé, vous pouvez en informer votre indépendant à la fin du processus de BAT en partageant un lien vers le BAT avec lui.
 
    Cela signifie qu’ils ne font pas partie de l’équipe d’examen et que vos clients ne voient pas leur nom répertorié dans le BAT.
 
@@ -64,9 +64,9 @@ Pour plus d’informations sur la configuration d’un compte satellite pour vos
 
 ## Utilisez la variable [!UICONTROL Zone de dépôt]
 
-Cette option est utile si vous ne souhaitez pas que les clients et les indépendants se voient dans des [!DNL Workfront Proof]. Vous pouvez donner à vos indépendants un accès à vos [!UICONTROL Zone de dépôt] (disponible le [!UICONTROL Entreprise] et [!UICONTROL Illimitées] plans uniquement). Pour plus d’informations, voir [Le [!UICONTROL Zone de dépôt]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
+Cette option est utile si vous ne souhaitez pas que les clients et les indépendants se voient dans des [!DNL Workfront Proof]. Vous pouvez donner à vos indépendants un accès à vos [!UICONTROL Zone de dépôt] (disponible le [!UICONTROL Entreprise] et [!UICONTROL Illimitées] plans uniquement). Pour plus d’informations, voir [La variable [!UICONTROL Zone de dépôt]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
-![freelancers_-_option_C_-_dropzone.png](assets/freelancers---option-c---dropzone-350x98.png)
+![freelancers_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 
 1. Le pigiste va à votre public [!UICONTROL Zone de dépôt] page.
 1. Ils utilisent la variable [!UICONTROL Zone de dépôt] pour créer un BAT dans votre compte.

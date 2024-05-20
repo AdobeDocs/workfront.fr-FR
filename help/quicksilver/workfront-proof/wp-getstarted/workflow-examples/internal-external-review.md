@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: Révision interne puis externe dans [!DNL Workfront Proof]
-description: Découvrez comment utiliser le Bon à tirer Workfront pour les révisions en dehors de votre entreprise.
+description: Découvrez comment utiliser Workfront Proof pour des révisions en dehors de votre entreprise.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Cette option illustre un workflow dans lequel les clients peuvent voir tous les 
 
 Le concepteur partage d’abord le BAT avec le chef de projet (et tout autre collègue). Les collègues examinent le BAT et, s’ils l’approuvent, vous pouvez utiliser la fonction de partage pour partager le BAT avec vos clients. Pour plus d’informations, voir [Partage d’un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **Créer un BAT** - le concepteur crée un nouveau BAT dans [!DNL Workfront Proof] et le partage. Il est destiné aux réviseurs internes. Le concepteur fait du chef de projet le propriétaire du BAT.
 1. **Révision interne** - le chef de projet et d’autres collègues examinent le BAT.
@@ -37,7 +37,7 @@ Le concepteur partage d’abord le BAT avec le chef de projet (et tout autre col
 1. **Nouvel email de BAT** - le client reçoit l&#39;email New BAT avec la fonction [!UICONTROL Accéder au BAT] lien. Pour plus d’informations, voir [Nouvel email de BAT](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 1. **Vérification du BAT** - le client examine le BAT, ajoute des commentaires et prend une décision.
-1. **Alerte par e-mail** : le chef de projet reçoit une alerte par courrier électronique (selon ses paramètres sur le BAT). Pour plus d’informations, voir [Configuration des paramètres de notification électronique dans le bon à tirer Workfront](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+1. **Alerte par e-mail** : le chef de projet reçoit une alerte par courrier électronique (selon ses paramètres sur le BAT). Pour plus d’informations, voir [Configuration des paramètres de notification électronique dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 1. **Demande de modification** - le Gestionnaire de projets permet au concepteur de connaître les demandes de modification. Vous pouvez le faire à l’aide de la fonction de commentaires imprimés. Pour plus d’informations, voir [Imprimer et exporter des commentaires dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 
@@ -49,7 +49,7 @@ Vous pouvez répéter ce processus jusqu’à ce que le BAT soit approuvé.
 
 Cette option illustre un workflow dans lequel le processus de vérification est géré par le chef de projet qui crée toute nouvelle version (selon les besoins) et partage le BAT avec le client. Le concepteur n’a pas besoin d’être impliqué dans le processus de révision.)
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **Créer un BAT** - Le concepteur crée un nouveau BAT dans [!DNL Workfront Proof] et le partage avec les réviseurs internes. Le concepteur fait du chef de projet le propriétaire du BAT ou lui donne le rôle de [!UICONTROL Auteur] sur le BAT (voir [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
