@@ -5,11 +5,9 @@ title: Prise en main de la révision et de l’approbation des ressources avec F
 description: Pour en savoir plus sur le processus de révision et d’approbation formelles, voir Utilisation de Workfront et de Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: bbd8d500fbca5bb80bfce4a1897ab53110f60e64
+source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
