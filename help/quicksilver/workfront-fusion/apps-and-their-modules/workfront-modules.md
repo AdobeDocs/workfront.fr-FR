@@ -9,10 +9,10 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion pour au
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
+source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
 workflow-type: tm+mt
-source-wordcount: '6207'
-ht-degree: 99%
+source-wordcount: '6260'
+ht-degree: 98%
 
 ---
 
@@ -353,6 +353,14 @@ Ce module d’action effectue l’une des conversions suivantes :
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Options]</td> 
    <td> <p>Activez les options souhaitées lors de la conversion de l’objet. Des options sont disponibles selon l’objet que vous convertissez ou à partir duquel vous effectuez cette conversion.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copier des champs natifs]</td> 
+   <td> <p>Activez cette option pour copier les champs natifs de l’objet d’origine vers le nouvel objet.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copier des formulaires personnalisés]</td> 
+   <td> <p>Activez cette option pour copier les champs natifs de l’objet d’origine vers le nouvel objet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1238,6 +1246,16 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>Niveau de référence</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>Enregistrement de facturation</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1298,6 +1316,16 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>Taux de change</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Frais</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1316,6 +1344,16 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Document externe</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Groupe</td> 
@@ -1522,7 +1560,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
