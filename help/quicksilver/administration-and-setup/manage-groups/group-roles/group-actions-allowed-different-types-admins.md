@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 13%
@@ -46,37 +46,37 @@ Ce tableau répertorie les activités d’administration disponibles pour :
   <tr> 
    <td>Création et modification de profils utilisateur</td> 
    <td>✓</td> 
-   <td> <p>✓*</p> </td> 
-   <td> <p>✓*</p> </td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des sous-groupes</p> </td> 
+   <td>Créer et gérer des sous-groupes</td>
    <td>✓ </td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Configuration des préférences de projet, de tâche et de problème au niveau du système</p> </td> 
+   <td>Configuration des préférences de projet, de tâche et de problème au niveau du système</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Activer et désactiver les préférences de projet, de tâche et d’émission pour les groupes et les sous-groupes</p> </td> 
+   <td>Activer et désactiver les préférences de projet, de tâche et d’émission pour les groupes et les sous-groupes</td> 
    <td>✓***</td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Configuration des préférences de feuille de temps et d’heure au niveau du système</p> </td> 
+   <td>Configuration des préférences de feuille de temps et d’heure au niveau du système</td> 
    <td>✓ </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Activation et désactivation des préférences de feuille de temps et d’heure pour les groupes et les sous-groupes</p> </td> 
+   <td>Activation et désactivation des préférences de feuille de temps et d’heure pour les groupes et les sous-groupes </td> 
    <td>✓***</td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ Ce tableau répertorie les activités d’administration disponibles pour :
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des formulaires personnalisés</p> </td> 
+   <td>Créer et gérer des formulaires personnalisés</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des modèles de disposition</p> </td> 
+   <td>Créer et gérer des modèles de disposition</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des processus d’approbation pour un groupe</p> </td> 
+   <td>Créer et gérer des processus d’approbation pour un groupe</td> 
    <td>✓*** </td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des équipes</p> </td> 
+   <td>Créer et gérer des équipes</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des taux d’exchange</p> </td> 
+   <td>Créer et gérer des taux d’exchange</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Création et gestion des types d’heures</p> </td> 
+   <td>Création et gestion des types d’heures</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Création et gestion des chemins de jalon</p> </td> 
+   <td>Création et gestion des chemins de jalon</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des plannings</p> </td> 
+   <td>Créer et gérer des plannings</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Création et gestion des entreprises</p> </td> 
+   <td>Création et gestion des entreprises</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des profils de feuille de temps</p> </td> 
+   <td>Créer et gérer des profils de feuille de temps</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ Ce tableau répertorie les activités d’administration disponibles pour :
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> Créer et gérer des priorités, des statistiques, des conditions</p> </td> 
+   <td>Créer et gérer des priorités, des statistiques, des conditions</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Création et gestion des types de risque</p> </td> 
+   <td>Création et gestion des types de risque</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
