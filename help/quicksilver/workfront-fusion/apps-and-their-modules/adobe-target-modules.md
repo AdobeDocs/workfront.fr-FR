@@ -9,10 +9,10 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 16%
+source-wordcount: '2235'
+ht-degree: 15%
 
 ---
 
@@ -78,6 +78,13 @@ Avant d’utiliser la variable [!DNL Adobe Target] , vous devez vous assurer que
 
 ## Créer une connexion à [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>Les connexions créées après le 3 juin 2024 nécessitent une connexion serveur à serveur Adobe Target.
+>
+>* Les connexions de compte de service existantes continueront à fonctionner jusqu’en janvier 2025. Vous devez remplacer vos connexions de compte de service par des connexions serveur à serveur Adobe Target avant janvier 2024.
+>* Pour créer une connexion serveur à serveur Adobe Target, vous devez être un développeur pour votre organisation. Le rôle de développeur est défini dans Adobe Admin Console.
+
 Pour créer une connexion pour votre [!DNL Adobe Target] modules :
 
 1. Cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion .
@@ -94,6 +101,11 @@ Pour créer une connexion pour votre [!DNL Adobe Target] modules :
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
           <p>Saisissez un nom pour cette connexion.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>Indiquez si vous créez une connexion de compte de service ou de serveur à serveur Adobe Target.<p><b>IMPORTANT</b>: les connexions créées après le 3 juin 2024 nécessitent une connexion serveur à serveur Adobe Target. Les connexions de compte de service existantes continueront à fonctionner jusqu’en janvier 2025. Vous devez remplacer vos connexions de compte de service par des connexions serveur à serveur Adobe Target avant janvier 2024.
         </td>
       </tr>
       <tr>
