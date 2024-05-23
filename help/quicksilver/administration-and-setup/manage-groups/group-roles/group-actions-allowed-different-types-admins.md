@@ -4,14 +4,14 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Actions autorisées pour différents types d’administrateurs
 description: Ce tableau compare les activités d’administration disponibles pour un administrateur Adobe Workfront gérant le système Workfront, un administrateur de groupe gérant un groupe de niveau supérieur et un administrateur de groupe gérant un sous-groupe.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 71979b32684a0c52cb5951d74dc1aa9a5b1d83ef
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 0%
+source-wordcount: '539'
+ht-degree: 13%
 
 ---
 
@@ -50,67 +50,73 @@ Ce tableau répertorie les activités d’administration disponibles pour :
    <td> <p>✓*</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Création et gestion des sous-groupes</p> </td> 
+   <td> <p>Créer et gérer des sous-groupes</p> </td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Verrouillage et déverrouillage des préférences de projet, de tâche et d’émission</p> </td> 
+   <td> <p>Configuration des préférences de projet, de tâche et de problème au niveau du système</p> </td> 
    <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Configuration des préférences de projet, de tâche et de problème</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Verrouillage et déverrouillage des préférences de feuille de temps et d’heure</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Configuration des préférences de feuille de temps et d’heure</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr> 
-   <td>Configuration des emails de notification d’événement</td> 
-   <td>✓ </td> 
-   <td>✓</td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Création et gestion de formulaires personnalisés</p> </td> 
+   <td> <p>Activer et désactiver les préférences de projet, de tâche et d’émission pour les groupes et les sous-groupes</p> </td> 
+   <td>✓***</td> 
+   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Configuration des préférences de feuille de temps et d’heure au niveau du système</p> </td> 
+   <td>✓ </td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Activation et désactivation des préférences de feuille de temps et d’heure pour les groupes et les sous-groupes</p> </td> 
+   <td>✓***</td> 
+   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
+  </tr> 
+  <tr> 
+   <td>Configuration des emails de notification d’événement au niveau du système</td> 
+   <td>✓ </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Activer et désactiver les emails de notification d’événement pour les groupes et les sous-groupes</td> 
+   <td>✓*** </td> 
+   <td>✓***</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Créer et gérer des formulaires personnalisés</p> </td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Création et gestion des modèles de mise en page</p> </td> 
+   <td> <p>Créer et gérer des modèles de disposition</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Créer et gérer des processus d’approbation</p> </td> 
+   <td> <p>Créer et gérer des processus d’approbation pour un groupe</p> </td> 
+   <td>✓*** </td> 
+   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Créer et gérer des équipes</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Création et gestion des équipes</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Créer et gérer des taux de change</p> </td> 
+   <td> <p>Créer et gérer des taux d’exchange</p> </td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
@@ -128,7 +134,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Création et gestion des plannings</p> </td> 
+   <td> <p>Créer et gérer des plannings</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
@@ -148,11 +154,11 @@ Ce tableau répertorie les activités d’administration disponibles pour :
   <tr> 
    <td>Créer des feuilles de temps à usage unique</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
-   <td>Création et gestion des rôles de tâche</td> 
+   <td>Créer et gérer des fonctions</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -201,7 +207,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
   </tr> 
   <tr> 
    <td>Attribuer un nombre maximal de licences</td> 
-   <td>✓ </td> 
+   <td>✓*** </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -224,10 +230,12 @@ Ce tableau répertorie les activités d’administration disponibles pour :
 
 &#42;&#42; Au niveau d’accès de l’administrateur du groupe, l’accès à cette action doit être activé. Pour plus d’informations, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Les activités suivantes ne sont disponibles que pour les administrateurs de groupes et de sous-groupes lorsque leurs organisations utilisent le plan Prime ou Ultimate. Ces activités spécifiques peuvent également être appelées &quot;contrôles avancés de l’entreprise&quot;. Voir [Page de tarification et de conditionnement d’Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) pour plus d’informations sur les plans. (Pour les organisations qui utilisent les plans hérités, le tableau ci-dessus montre les activités pour les administrateurs de groupes et de sous-groupes.)
+&#42;&#42;&#42; Les activités suivantes font partie des Contrôles d’entreprise avancés et ne sont pas disponibles pour le forfait Sélectionner . Seules les organisations ayant acheté les plans Prime ou Ultimate peuvent accéder à ces fonctionnalités.  Voir [Page de tarification et de conditionnement d’Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) pour plus d’informations sur les plans. (Pour les organisations qui utilisent les plans hérités, le tableau ci-dessus montre les activités pour les administrateurs de groupes et de sous-groupes.)
 
-* Configuration des préférences de projet, de tâche et de problème
-* Configuration des préférences de feuille de temps et d’heure
-* Configuration des emails de notification d’événement
-* Créer et gérer des processus d’approbation
-* Création et gestion des sous-groupes
+* Configuration des préférences de projet, de tâche et de problème au niveau du groupe
+* Configuration des préférences de feuille de temps et d’heure au niveau du groupe
+* Configuration des emails de notification d’événement au niveau du groupe
+* Créer et gérer des processus d’approbation spécifiques à un groupe
+* Attribuer des limites de licence et afficher leur utilisation par groupe d’accueil
+* Affecter des administrateurs de groupe à des sous-groupes
+* Autoriser les administrateurs de groupes à créer des sous-groupes

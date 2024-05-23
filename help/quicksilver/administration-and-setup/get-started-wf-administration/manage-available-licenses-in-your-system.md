@@ -2,52 +2,68 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
-title: Gestion des licences disponibles dans votre système
+title: Gérer les licences disponibles dans votre système
 description: En tant qu’administrateur Adobe Workfront, vous pouvez accéder aux informations sur votre compte Workfront, y compris le nombre de licences achetées pour votre entreprise, ainsi que le nombre de licences en cours d’utilisation.
 author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 0%
+source-wordcount: '1187'
+ht-degree: 4%
 
 ---
 
-# Gestion des licences disponibles dans votre système
+# Gérer les licences disponibles dans votre système
 
 <!-- Audited: 12/2023 -->
 
 En tant qu’administrateur Adobe Workfront, vous pouvez accéder aux informations sur votre compte Workfront, y compris le nombre de licences achetées pour votre entreprise, ainsi que le nombre de licences en cours d’utilisation.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
     <p>Nouveau : Standard</p>
     <p>ou</p>
     <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Vous devez être un administrateur Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+>[!NOTE]
+>
+>Les déclarations suivantes s&#39;appliquent uniquement aux nouveaux plans.
+>
+>Pour le plan Select :
+>
+>1. Les administrateurs système ne peuvent pas définir de limites pour les groupes d’accueil.
+>2. Les administrateurs système ne peuvent afficher que le nombre total de licences utilisées pour tous les groupes d’accueil.
+>3. Les administrateurs de groupe ne peuvent pas du tout accéder à la page Licences .
+>
+>Pour les plans Prime et Ultimate :
+>
+>1. Les administrateurs système peuvent ajouter des groupes d’accueil à la page Licences pour afficher l’utilisation des licences de ces groupes, et ils peuvent également définir des limites de licence.
+>2. Les administrateurs de groupe peuvent accéder à la page Licences et afficher l’utilisation des licences dans les groupes qu’ils gèrent et qui ont été ajoutées à la page Licences par les administrateurs système.
+>3. Les administrateurs de groupe ne peuvent pas afficher d’informations pour d’autres groupes d’accueil ni ajouter de maximums.
 
 ## Affichage des licences de votre entreprise
 
@@ -63,7 +79,7 @@ Pour afficher les informations de licence dans votre système :
 
    >[!NOTE]
    >
-   >Les licences de BAT sont disponibles uniquement pour les clients qui ont acheté le module complémentaire de BAT Workfront payant en plus de leur licence Workfront. Pour plus d’informations sur ce module complémentaire, voir [Bon à tirer Workfront : index de l’article](../../workfront-proof/workfront-proof.md).
+   >Les licences de BAT sont disponibles uniquement pour les clients qui ont acheté le module complémentaire Workfront Proof payant en plus de leur licence Workfront. Pour plus d’informations sur ce module complémentaire, voir [Workfront Proof : index des articles](../../workfront-proof/workfront-proof.md).
 
 1. (Conditionnel) Si le message s’affiche **Pour définir un maximum, vous devez ajouter un groupe d’accueil.**, ajoutez un groupe d’accueil dans votre système, comme expliqué dans la section . [Ajout ou suppression d’un groupe d’accueil sur la page Licences](#add-or-remove-a-home-group-to-the-licenses-page) dans cet article.
 
@@ -73,7 +89,7 @@ Pour afficher les informations de licence dans votre système :
 
 ## Affichage des informations sur les licences des modules complémentaires Workfront
 
-Si votre entreprise dispose du module complémentaire Workfront Bon à tirer payant, le nombre de licences d’utilisation et le nombre de licences disponibles s’affichent. Par exemple : **5 sur 10 licences de BAT** indique que l’organisation utilise actuellement 5 des 10 licences de Bon à tirer Workfront qu’elle a achetées.
+Si votre entreprise dispose du module complémentaire Workfront Proof payant, le nombre de licences utilisées et le nombre de licences disponibles s’affichent. Par exemple : **5 sur 10 licences de BAT** indique que l’organisation utilise actuellement 5 des 10 licences Workfront Proof qu’elle a achetées.
 
 ![Licence pour les modules complémentaires Workfront](assets/updated-licenses-page.png)
 
