@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Vous pouvez effectuer ce processus dans Workfront en créant un package d’obje
 
 La fonctionnalité de promotion de l’environnement est conçue pour permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Il s’agit d’objets qui peuvent être configurés, tels que des projets, des équipes ou des formulaires personnalisés.
 
-La promotion de l’environnement ne prend pas en charge la possibilité de déplacer des objets transactionnels (à quelques exceptions près). Les objets transactionnels ne peuvent pas être configurés. Par exemple, les mises à jour d’activité du système et les décisions de BAT.
+Dans la mesure où la promotion de l’environnement traite de la configuration des objets, les objets transactionnels (objets qui changent fréquemment ou qui dépendent fortement du cas d’utilisation) ne sont pas inclus. Parmi les exemples d’objets transactionnels, citons des documents, des problèmes, des demandes, des mises à jour et des décisions de BAT.
 
 * [Objets de travail](#work-objects)
 * [Objets de création de rapports](#reporting-objects)
