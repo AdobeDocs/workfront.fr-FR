@@ -1,27 +1,27 @@
 ---
-title: Présentation de l’accès
+title: Vue d’ensemble des accès
 description: Il existe des restrictions de licence et de partage pour utiliser Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 5%
 
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
 <!--update the title and the metadata title if Workfront Planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
-# Présentation de l’accès
+# Vue d’ensemble des accès
 
 {{maestro-important-intro}}
 
 Il existe des restrictions de licence et de partage pour utiliser Adobe Workfront Planning.
 
-## Exigences d’accès
+## Conditions d’accès
 
 Pour utiliser Adobe Workfront Planning, vous devez disposer des paramètres suivants :
 
@@ -36,7 +36,7 @@ Pour utiliser Adobe Workfront Planning, vous devez disposer des paramètres suiv
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -44,15 +44,15 @@ Pour utiliser Adobe Workfront Planning, vous devez disposer des paramètres suiv
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>Quelconque</p>
+   <p>N’importe quelle</p>
    <p>Pour créer des espaces de travail, vous devez disposer de la licence suivante :</p>
    <ul>
    <li>
@@ -81,7 +81,7 @@ Pour utiliser Adobe Workfront Planning, vous devez disposer des paramètres suiv
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/maestro/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personnalisation du menu principal à l’aide d’un modèle de mise en page</a> et <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Affecter des utilisateurs à un modèle de mise en page</a>. </p>  
 </td>
   </tr>
  </tbody>

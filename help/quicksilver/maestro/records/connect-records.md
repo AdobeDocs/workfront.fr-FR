@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2463'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Vous pouvez connecter les éléments suivants :
 
   Vous pouvez connecter des enregistrements à des objets des types répertoriés ci-dessous à partir des applications suivantes :
 
-   * Adobe Workfront
+   * Adobe Workfront
 
       * Projets
       * Portefeuilles
@@ -76,7 +76,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr>
 <td>Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> 
+   <p> Adobe Workfront</p> 
    <p>Pour connecter les enregistrements de planification Adobe Workfront à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p>
    </td>
   </tr>  
@@ -125,9 +125,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Connecter des enregistrements
-
-### Considérations relatives à la connexion des enregistrements
+## Considérations relatives à la connexion des enregistrements
 
 * Une fois que vous avez connecté les types d’enregistrement, les types d’enregistrement connectés s’affichent sous forme de champs d’enregistrement liés dans la table des types d’enregistrement à partir desquels ils sont liés et sur les pages des enregistrements.
 * Vous pouvez parcourir et ajouter des enregistrements et des objets de l’enregistrement et des types d’objets liés à partir des champs d’enregistrement liés.
@@ -150,6 +148,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       * [Créer des enregistrements](../records/create-records.md)
 
    * Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
+* Vous pouvez connecter des objets de Workfront à des enregistrements Workfront Planning dans les zones suivantes :
+   * À partir d’un enregistrement de planification dans la planification Workfront.
+   * Dans la section Planification d’un objet Workfront.
+
+## Connexion d’enregistrements à partir de Workfront Planning
 
 ### Connexion aux enregistrements de planification Adobe Workfront
 
@@ -379,3 +382,13 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    Suppression des champs d’objet Workfront du **Champs sélectionnés** zone.
 
    Cela permet d&#39;ajouter ou de supprimer des champs liés des enregistrements. Les informations associées aux champs supprimés restent dans Adobe Experience Assets.
+
+## Connexion d’enregistrements à partir d’objets Workfront
+
+Vous devez disposer des éléments suivants pour connecter les enregistrements Workfront Planning des objets Workfront :
+
+* Connexions entre les types d’enregistrement et les types d’objets Workforce.
+* Au moins une connexion entre un enregistrement et un objet Workfront.
+* L’administrateur de Workfront ou de groupe doit ajouter la section Planification aux types d’objets Workfront qui peuvent se connecter à des types d’enregistrements Planification .
+
+Pour plus d’informations, voir [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).

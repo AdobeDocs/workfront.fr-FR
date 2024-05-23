@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '6367'
+source-wordcount: '6456'
 ht-degree: 0%
 
 ---
@@ -39,26 +39,6 @@ Les fonctionnalités sont publiées toutes les semaines et sont répertoriées d
 
 ## Week of <date>
 
-### Added a limit of 100 views for a record type
-
-Production: <date> 
-
-Preview: To be determined 
-
-A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
-
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
-
-### Add sections to the record's page 
-
-Production: <date> 
-
-Preview: To be determined 
-
-To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
-
-For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
-
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
 Production: <date>  
@@ -69,29 +49,27 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
-###  New Planning section added to the left panel of a Workfront project, portfolio, and program
-
-Production: <date> 
-
-Preview: To be determined
-
-We have added a new Planning section in the left panel of Workfront projects, portfolios, and programs. The new Planning section displays the Workfront Planning records connected to the Workfront object.  
-
-The following actions are available from the Planning section in Workfront: 
-
-* View connected Planning records 
-
-* Connect more records to the Workfront object 
-
-* Disconnect records  
-
-* Display more information about the connected records in the preview box 
-
-* Open records in the Planning area 
-
-For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
-
 -->
+
+## Semaine du 20 mai 2024
+
+### Connexion d’enregistrements de planification Workfront à partir d’objets Workfront à l’aide de la section Planification
+
+Production : 23 mai 2024
+
+Aperçu : à déterminer
+
+Nous avons ajouté une nouvelle section Planification dans le panneau de gauche des projets, portefeuilles et programmes Workfront. La nouvelle section Planification affiche les enregistrements de planification Workfront connectés à l’objet Workfront.
+
+Les actions suivantes sont disponibles dans la section Planification de Workfront :
+
+* Afficher les enregistrements de planification connectés
+
+* Connexion des enregistrements de planification Workfront à l’objet Workfront
+
+* Désolidariser des enregistrements
+
+Pour plus d’informations, voir [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
 
 ## Semaine du 13 mai 2024
 

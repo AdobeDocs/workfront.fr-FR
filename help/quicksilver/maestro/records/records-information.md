@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 14%
+source-wordcount: '119'
+ht-degree: 13%
 
 ---
 
@@ -42,3 +42,4 @@ Les articles suivants décrivent comment créer et gérer des enregistrements et
 * [Ajout d’une miniature à un enregistrement](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
 * [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
 * [Gestion de la page d’enregistrement](/help/quicksilver/maestro/records/manage-the-record-page.md)
+* [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/maestro/records/manage-records-in-planning-section.md)

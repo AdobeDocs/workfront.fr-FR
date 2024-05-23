@@ -4,18 +4,19 @@ description: Vous pouvez afficher les enregistrements connectés aux objets Adob
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 5%
+source-wordcount: '630'
+ht-degree: 6%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # Gestion des enregistrements dans la section Planification des objets Adobe Workfront
@@ -47,7 +48,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -101,7 +102,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * [Connecter des types d’enregistrements](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [Connecter des enregistrements](/help/quicksilver/maestro/records/connect-records.md)
 * Vous pouvez afficher la section Planification dans un objet Workfront, même lorsqu’aucun enregistrement n’est associé à l’objet Workfront.
-* Vous pouvez connecter des enregistrements de planification à des objets Workfront depuis Workfront, dans la section Planification .
+* Vous pouvez connecter des enregistrements de planification à des objets Workfront de Workfront, dans la section Planification lorsqu’au moins un enregistrement est connecté à l’objet Workfront.
+* Pour connecter des enregistrements des objets Workfront, vous devez disposer d’autorisations de type Contribute ou supérieures à un espace de travail.
 
 ## Gestion des enregistrements dans la section Planification
 
@@ -132,17 +134,15 @@ La page des objets s’ouvre dans Workfront Planning.
 
    ![](assets/planning-section-on-project.png)
 
-1. Cliquez sur une carte d’enregistrement pour afficher plus d’informations sur l’enregistrement. La zone d’aperçu des enregistrements s’affiche.
-1. (Facultatif) Commencez à modifier les champs dans la zone d’aperçu de l’enregistrement. Vos modifications sont enregistrées automatiquement.
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page des détails de l’enregistrement.
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. Pointez sur une carte d’enregistrement, puis cliquez sur l’icône de déconnexion d’enregistrement. **-**, puis cliquez sur **Déconnecter**.
 Les événements suivants se produisent :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement de Workfront Planning.
-   * Les valeurs des champs Workfront associés à l&#39;enregistrement Planning sont également supprimées.
+   * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont également supprimées.
 1. Cliquez sur **Connexion** pour connecter d’autres enregistrements.
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ Les événements suivants se produisent :
 
    * Les enregistrements sont immédiatement connectés à l’objet Workfront et s’affichent dans la section Planification .
    * L’objet Workfront est ajouté au champ connecté de l’enregistrement Workfront Planning.
-   * Les valeurs des champs Workfront associés à l’enregistrement Planning sont renseignées dans Workfront Planning.
+   * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont renseignées dans Workfront Planning.
 
 <!--add more steps here for what happens after clicking Connect-->
 
