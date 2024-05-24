@@ -1,19 +1,19 @@
 ---
-title: Présentation de l’authentification améliorée
+title: Vue d’ensemble de l’authentification renforcée
 description: Masqué de la recherche et du volet de navigation de gauche
 hidefromtoc: true
 hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '537'
+ht-degree: 7%
 
 ---
 
-# Présentation de l’authentification améliorée
+# Vue d’ensemble de l’authentification renforcée
 
 <!-- enhanced authentication is no longer available for workfront customers -->
 
@@ -22,16 +22,6 @@ ht-degree: 3%
 Adobe Workfront modifie la gestion système des utilisateurs et des mots de passe. Ces modifications seront appliquées par phases, appelées **Authentification améliorée** expérience. L’authentification améliorée offre aux utilisateurs une expérience de connexion plus cohérente et plus sécurisée pour tous les produits et services Workfront.
 
 Le tableau suivant fournit des détails sur les fonctionnalités actuelles et futures :
-
->[!IMPORTANT]
->
->La plupart des clients utilisent actuellement l’authentification héritée et certains utilisent l’authentification améliorée 1.0.
-> 
->Pour vérifier le type d’authentification que vous utilisez actuellement, accédez à *your_domain*.my.workfront.com/login. Si vous êtes redirigé vers /auth/login, vous utilisez l’authentification améliorée 1.0.
-> 
->Si vous êtes redirigé vers https://login-a-xx.workfront.com/, où &quot;xx&quot; peut être États-Unis (États-Unis), UE (Europe) ou GCP (Google Cloud Platform) en fonction de votre emplacement/plateforme, alors vous utilisez l’authentification améliorée 2.0.
->
->Tous les clients passeront à l’authentification améliorée 2.0 d’ici la fin de 2021.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,8 +43,8 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
   </tr> 
   <tr> 
    <td> <p>Activer l’utilisation d’un seul nom d’utilisateur pour tous les produits et services Workfront, y compris la formation, l’assistance et autres</p> </td> 
-   <td>non disponible</td> 
-   <td> <p>non disponible</p> </td> 
+   <td>Non disponible</td> 
+   <td> <p>Non disponible</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +65,7 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
   </tr> 
   <tr> 
    <td> <p>Incorporation d’un courrier électronique de réinitialisation de mot de passe pour un utilisateur en tant qu’administrateur Workfront</p> </td> 
-   <td> <p>non disponible </p> </td> 
+   <td> <p>Non disponible </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
@@ -116,7 +106,7 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
   </tr> 
   <tr> 
    <td> <p>Définition d’une longueur minimale de mot de passe </p> </td> 
-   <td> non disponible </td> 
+   <td> Non disponible </td> 
    <td> ✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
@@ -133,10 +123,10 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Prend en charge les intégrations SSO conformes aux protocoles Principal Directory et LDAP</p> </td> 
+   <td> <p>Prend en charge les intégrations SSO conformes aux protocoles Active Directory et LDAP</p> </td> 
    <td> ✓ </td> 
-   <td> <p> Obsolète</p> <p>Les systèmes principale Directory, Azure et LDAP doivent utiliser SAML 2.0</p> </td> 
-   <td> <p>Obsolète</p> <p>Les systèmes principale Directory, Azure et LDAP peuvent être configurés avec SAML 2.0 chiffré ou OpenID Connect.</p> </td> 
+   <td> <p> Obsolète</p> <p>Les systèmes Active Directory, Azure et LDAP doivent utiliser SAML 2.0.</p> </td> 
+   <td> <p>Obsolète</p> <p>Les systèmes Active Directory, Azure et LDAP peuvent être configurés avec SAML 2.0 chiffré ou OpenID Connect.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Prend en charge les protocoles SSO conformes à SAML 2.0 </p> </td> 
@@ -146,8 +136,8 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
   </tr> 
   <tr> 
    <td> <p>Prend en charge les protocoles Open ID Connect</p> </td> 
-   <td> <p>non disponible</p> </td> 
-   <td> <p>non disponible</p> </td> 
+   <td> <p>Non disponible</p> </td> 
+   <td> <p>Non disponible</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -168,14 +158,14 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
   </tr> 
   <tr> 
    <td> <p>Un nom d’utilisateur et un mot de passe uniques pour les environnements d’aperçu</p> </td> 
-   <td> <p>non disponible</p> </td> 
-   <td> <p>non disponible</p> </td> 
+   <td> <p>Non disponible</p> </td> 
+   <td> <p>Non disponible</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Nom d’utilisateur et mot de passe uniques pour les environnements Sandbox</p> </td> 
-   <td> <p>non disponible</p> </td> 
-   <td> <p>non disponible</p> </td> 
+   <td> <p>Non disponible</p> </td> 
+   <td> <p>Non disponible</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <!--
