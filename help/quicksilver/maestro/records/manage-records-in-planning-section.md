@@ -4,10 +4,10 @@ description: Vous pouvez afficher les enregistrements connectés aux objets Adob
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 6%
+source-wordcount: '683'
+ht-degree: 5%
 
 ---
 
@@ -134,9 +134,9 @@ La page des objets s’ouvre dans Workfront Planning.
 
    ![](assets/planning-section-on-project.png)
 
-<!--1. Click a record card to display more information about the record. The record preview box displays.
-1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
+1. Cliquez sur une carte d’enregistrement pour afficher plus d’informations sur l’enregistrement. La zone d’aperçu des enregistrements s’affiche.
+1. (Facultatif) Commencez à modifier les champs dans la zone d’aperçu de l’enregistrement. Vos modifications sont enregistrées automatiquement.
+1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page des détails de l’enregistrement.
 1. Pointez sur une carte d’enregistrement, puis cliquez sur l’icône de déconnexion d’enregistrement. **-**, puis cliquez sur **Déconnecter**.
 Les événements suivants se produisent :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
