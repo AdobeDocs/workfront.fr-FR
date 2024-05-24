@@ -6,7 +6,7 @@ description: La variable [!DNL Adobe Workfront] le glossaire répertorie les ter
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
 source-wordcount: '20060'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Équipe agile]</td> 
-   <td>Diffère d’une équipe traditionnelle, car elle prend son travail potentiel d’un log et y travaille dans un laps de temps défini appelé une [!UICONTROL Itération].</td> 
+   <td>Diffère d’une équipe traditionnelle, car ils prennent leurs travaux potentiels depuis un log et y travaillent dans un laps de temps défini appelé une [!UICONTROL Itération].</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Toutes Mes Équipes]</td> 

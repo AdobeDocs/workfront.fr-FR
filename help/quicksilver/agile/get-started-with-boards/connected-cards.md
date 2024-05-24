@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Utilisation de cartes connectées sur les panoramas
+title: Utiliser des cartes connectées sur des panoramas
 description: Vous pouvez ajouter sur votre panorama une carte qui est connectée aux tâches et problèmes existants dans Workfront.
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 0%
+source-wordcount: '1507'
+ht-degree: 4%
 
 ---
 
-# Utilisation de cartes connectées sur les panoramas
+# Utiliser des cartes connectées sur des panoramas
 
 <!-- Audited: 2/2024 -->
 
@@ -34,18 +34,18 @@ Lorsque l’un des détails suivants est mis à jour pour la carte à un emplace
 >
 >Une seule tâche ou problème connecté ne peut être ajouté qu’une seule fois par panorama. La même tâche ou le même problème peut être connecté à plusieurs panoramas.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>
    <p>Nouveau : contributeur ou version ultérieure</p>
    <p>Ou</p>
@@ -53,17 +53,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès</strong></td>
+   <td role="rowheader">Configurations du niveau d’accès</td>
    <td><p>Affichage ou accès supérieur aux tâches et aux problèmes</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td>
-   <td><p>Affichage ou autorisation ultérieure d’une tâche ou d’un problème Workfront</p></td>
+   <td role="rowheader">Autorisations d’objet</td>
+   <td><p>Affichage ou autorisation ultérieure d’une tâche ou d’un problème Workfront</p>
+   <p><strong>Remarque :</strong> Les utilisateurs disposant des autorisations d’affichage pour une tâche ou un problème ne peuvent pas agir sur les cartes qui y sont connectées, y compris déplacer la carte vers une autre colonne du panorama. Les utilisateurs de l’affichage peuvent uniquement ouvrir la carte pour afficher ses propriétés et ouvrir la tâche ou le problème connecté. Pour demander un accès supplémentaire, ouvrez la tâche ou l’émission et demandez-y l’accès.</td>
   </tr>
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ajout d’une carte connectée
 
@@ -162,7 +163,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>Cliquez sur dans le <strong>[!UICONTROL Nouveau commentaire]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme, puis cliquez sur le bouton <strong>Ajouter une pièce jointe</strong> icon <img src="assets/attachment-icon.png" alt="Icône Pièce jointe"> pour joindre un fichier au commentaire. Pour baliser une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama. Les utilisateurs balisés sur des cartes connectées recevront des notifications par e-mail.</p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
-      <p><strong>REMARQUE :</strong> La zone de commentaire sur les cartes utilise la nouvelle expérience de commentaire d’Adobe Workfront. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
+      <p><strong>REMARQUE :</strong> La zone de commentaire sur les cartes utilise la nouvelle expérience de commentaire d’Adobe Workfront. Pour plus d’informations, consultez la section <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mettre à jour le travail</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Activité Système]</strong></td> 
@@ -225,7 +226,7 @@ Par défaut, les champs de journalisation de l’heure ne s’affichent pas sur 
 
 1. Saisissez le nombre d’heures pour la tâche ou le problème.
 1. Sélectionnez une [!UICONTROL Type d’heure] dans le menu déroulant, s’il est différent de la valeur par défaut.
-1. Cliquez sur [!UICONTROL **Temps journal**].
+1. Cliquez sur [!UICONTROL **Consigner le temps**].
 
    ![Heures de connexion sur la carte](assets/log-hours-on-card.png)
 
