@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
+source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1829'
 ht-degree: 2%
 
 ---
@@ -28,32 +28,8 @@ Pour plus d’informations sur le déplacement d’objets entre les environnemen
 * [Créer ou modifier un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [Installer un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-## Exigences d’accès
 
-Vous devez disposer des éléments suivants :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] plan</td> 
-   <td> <p>Enterprise, Prime ou Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] license</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>Vous devez être un [!DNL Workfront] administrateur. Pour plus d’informations sur [!DNL Workfront] administrateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Autorisations d’objet</p> </td> 
-   <td> <p>Tout</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Package de support</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Privilégié] ou [!UICONTROL Enterprise]</p> <p>Le package de prise en charge standard n’a pas accès à l’environnement de test d’actualisation personnalisée, mais il a accès à l’environnement de test d’aperçu.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- add access req for GA-->
 
 ## Conditions préalables
 
