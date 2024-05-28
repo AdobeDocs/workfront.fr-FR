@@ -2,19 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Modèles de fusion Adobe Workfront actuellement disponibles
+title: Modèles Adobe Workfront Fusion actuellement disponibles
 description: Les modèles publics suivants sont actuellement disponibles dans Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 0%
+source-wordcount: '1186'
+ht-degree: 1%
 
 ---
 
-# Modèles de fusion Adobe Workfront actuellement disponibles
+# Modèles Adobe Workfront Fusion actuellement disponibles
 
 Les modèles publics suivants sont actuellement disponibles dans Adobe Workfront Fusion.
 
@@ -25,6 +25,10 @@ Pour afficher les modèles disponibles, cliquez sur le bouton **Modèles** icon 
 ## Modèles Workfront
 
 Ces modèles automatisent les processus et les workflows Workfront.
+
+### [!BADGE Nouveau !]{type=Informative}
+
+Ce modèle de fusion crée une liste de contrôle standard pour toutes les cartes qui entrent ponctuellement une colonne spécifique sur un panorama spécifique.
 
 ### Workfront - Création de projet à partir de CSV
 
@@ -86,15 +90,15 @@ Ce modèle capture une ligne de base de projet sur une base hebdomadaire chaque 
 
 Une fois par mois, consultez vos modèles de projet en utilisant votre propre stratégie avec ce modèle facile à gérer qui avertit les utilisateurs appropriés des modèles en violation de votre stratégie.
 
-## Workfront - Modèles de BAT Workfront
+## Workfront - Modèles Workfront Proof
 
-Ces modèles automatisent les workflows qui combinent Workfront avec Workfront BAT.
+Ces modèles automatisent les workflows qui combinent Workfront à Workfront Proof.
 
-### Bon à tirer Workfront > Workfront - Mise à jour du projet sur la décision de BAT
+### Workfront Proof > Workfront - Mise à jour du projet sur la décision de BAT
 
 Lorsqu’une décision est prise sur un BAT ajouté directement à un projet, cette automatisation rassemble des informations sur la décision du BAT, telles que les personnes qui ont pris la décision, puis reflète cette progression dans le projet Workfront correspondant sous forme de mise à jour.
 
-### Bon à tirer Workfront > Workfront - Mise à jour et exécution de la tâche (si approuvée) sur la décision du BAT
+### Workfront Proof > Workfront - Mise à jour et exécution de la tâche (si approuvée) sur la décision de BAT
 
 Lorsque des BAT individuels sont liés à des tâches individuelles, ce scénario ferme la tâche associée lorsqu&#39;une décision de validation est prise sur le BAT. S’il est approuvé, il termine la tâche et met à jour le projet.
 
@@ -110,9 +114,9 @@ Ces modèles récupèrent les informations d’un service Web et les intègrent 
 
 Définition de l’autorisation JWT pour une API client.
 
-### APILayer > Workfront - Mise à jour du taux de change quotidien (en euros)
+### APILayer > Workfront - Mise à jour du taux d’Exchange quotidien (EUR)
 
-Ce modèle crée un scénario qui automatise la mise à jour d’un taux de change à un moment donné. Ce scénario extrait le taux d’euros (EUR) en dollars US (USD) d’une API APIlayers.com et le met à jour dans Workfront.
+Ce modèle crée un scénario qui automatise la mise à jour d’un taux d’exchange à un moment donné. Ce scénario extrait le taux d’euros (EUR) en dollars US (USD) d’une API APIlayers.com et le met à jour dans Workfront.
 
 ## Modèles Workfront-Marketo
 
