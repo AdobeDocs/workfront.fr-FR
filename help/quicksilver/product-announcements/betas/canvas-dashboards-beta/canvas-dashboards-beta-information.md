@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Pour obtenir la liste de tous les tableaux de bord de zone de travail, voir [Tab
 
 **Planification bêta :**
 
-* Date de début bêta fermée - 2 mai 2024
+* Date de début de la version bêta fermée - TBA
 * Date de début de la version bêta ouverte - TBA
 * Date de publication prévue - TBA
 
@@ -36,6 +36,10 @@ Pour vous inscrire à la version bêta :
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
 1. Cliquez sur le bouton **Rejoindre la version bêta des tableaux de bord du canevas** bouton bêta dans le coin supérieur droit de la page.
+
+   >[!NOTE]
+   >
+   >Ce bouton n’est disponible que si votre entreprise a été acceptée dans la version bêta fermée. Lorsque la version bêta ouverte commencera, elle sera disponible pour toutes les organisations.
 
 1. Lisez les termes, puis cliquez sur **Accepter**. Vous êtes maintenant inscrit à la version bêta. Notez toutefois que quelques minutes sont nécessaires pour que vos données Workfront soient entièrement accessibles dans les tableaux de bord de la zone de travail.
 
@@ -63,12 +67,13 @@ Vous trouverez ci-dessous une liste des types de rapports actuellement pris en c
 
 ### Fonctionnalités de développement
 
-* Rapports tabulaires
+* Caractères génériques basés sur les dates et les utilisateurs pour les filtres
+* Rapports de planification Workfront
+* Types d’objet Workfront supplémentaires
+* Rapports sur les panoramas
+* Autres améliorations de la convivialité
 * Feuilles de calcul
 * Contenu web intégré
-* Rapports sur les panoramas
-* Filtres de tableau de bord
-* Caractères génériques basés sur les dates et les utilisateurs pour les filtres
 
 ### Fonctionnalités futures de la feuille de route
 
