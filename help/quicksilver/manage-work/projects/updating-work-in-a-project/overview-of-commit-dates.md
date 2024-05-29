@@ -7,14 +7,16 @@ description: La date de validation est la date à laquelle un utilisateur affect
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 2%
+source-wordcount: '868'
+ht-degree: 1%
 
 ---
 
 # Vue d’ensemble des dates d’engagement
+
+<!--{{highlighted-preview}}-->
 
 La date de validation est la date à laquelle un utilisateur affecté à une tâche ou à un problème s’engage à terminer la tâche ou le problème.
 
@@ -47,6 +49,15 @@ Pour plus d’informations, voir [Mise à jour des dates de validation pour les 
 >* Tout autre utilisateur disposant d’autorisations sur la tâche.
 >
 >Pour plus d’informations sur le propriétaire de la tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## Localisation de la date de validation des tâches et des problèmes
+
+Vous trouverez la date de validation des tâches et des problèmes dans les zones suivantes de Workfront :
+
+* La page Détails
+* Le panneau Résumé, une fois qu’un administrateur de Workfront ou de groupe l’a ajouté à votre modèle de mise en page. Pour plus d’informations, voir [Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## Notifications et mises à jour déclenchées en modifiant la date de validation {#notifications-and-updates-triggered-by-changing-the-commit-date}
 

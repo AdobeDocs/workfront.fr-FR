@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2253'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrements Adobe Workfront Planning à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée de l’Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p> </td>
+   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrements Adobe Workfront Planning à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée de l’Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -260,16 +260,21 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    * **MIN**: affiche la valeur la plus basse de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
    * **SUM**: affiche le total de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
    * **AVG**: affiche la moyenne de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
+   * **UNIQUE**: supprime les doublons des valeurs de champ de recherche et affiche uniquement les valeurs uniques. Cette option n’est pas disponible pour les types de champ suivants :
+      * Paragraphe
+      * Case à cocher
+      * Personnes
 
    >[!NOTE]
    >
-   >Vous pouvez, par exemple, lier l’enregistrement de produit (enregistrement lié) de l’enregistrement Campaign (enregistrement d’origine) et le nommer &quot;champ de produit&quot;. Vous pouvez également choisir de lier le champ Budget de l’enregistrement de produit à partir de l’enregistrement de campagne et de l’appeler &quot;Budget produit&quot;. Si vous avez le droit de sélectionner plusieurs enregistrements dans le &quot;champ Produit&quot;, vous pouvez sélectionner le Produit 1 dont le budget est de 120 000 € et le Produit 2 dont le budget est de 100 000 €. Vous pouvez afficher les informations budgétaires suivantes dans le champ lié à partir de l’enregistrement d’origine, en fonction de l’agrégateur choisi :
+   >Vous pouvez, par exemple, lier l’enregistrement de produit (enregistrement lié) de l’enregistrement Campaign (enregistrement d’origine) et le nommer &quot;champ de produit&quot;. Vous pouvez également choisir de lier le champ Budget de l’enregistrement de produit à partir de l’enregistrement de campagne et de l’appeler &quot;Budget produit&quot;. Si vous avez le droit de sélectionner plusieurs enregistrements dans le &quot;champ Produit&quot;, vous pouvez sélectionner le Produit 1 dont le budget est de 100 000 € et le Produit 2 dont le budget est de 110 000 €, et le Produit 3 dont le budget est de 100 000 €. Vous pouvez afficher les informations budgétaires suivantes dans le champ lié à partir de l’enregistrement d’origine, en fonction de l’agrégateur choisi :
    >
-   >* **Aucun**: 120 000 $, 100 000 $
-   >* **MAX**: 120 000 $
+   >* **Aucun**: 100 000 $, 110 000 $, 100 000 $
+   >* **MAX**: 110 000 $
    >* **MIN**: 100 000 $
-   >* **SUM**: 220 000 $
-   >* **AVG**: 110 000 $
+   >* **SUM**: 310 000 $
+   >* **AVG**: 103 000,33 $
+   >* **UNIQUE**: 100 000 $
    >
 
 1. (Facultatif) Utilisez la variable **search** icon ![](assets/search-icon.png) pour rechercher un champ.

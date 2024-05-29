@@ -1,39 +1,41 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Mise à jour des dates de validation pour les tâches et les problèmes
+title: Mettre à jour les dates d’engagement pour les tâches et les problèmes
 description: Vous pouvez mettre à jour manuellement la date de validation d’une tâche ou d’un problème auquel vous êtes affecté. Pour plus d’informations sur les dates de validation dans Adobe Workfront, voir Présentation de la date de validation.
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 17%
 
 ---
 
 
-# Mise à jour des dates de validation pour les tâches et les problèmes
+# Mettre à jour les dates d’engagement pour les tâches et les problèmes
+
+{{highlighted-preview}}
 
 Vous pouvez mettre à jour manuellement la date de validation d’une tâche ou d’un problème auquel vous êtes affecté. Pour plus d’informations sur les dates de validation dans Adobe Workfront, voir [Présentation de la date de validation](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
 <!--Audited: 01/2024-->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
    Pour les nouvelles licences :
    <ul>
@@ -49,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux tâches et aux problèmes</p> </td> 
   </tr> 
   <tr> 
@@ -59,13 +61,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
-Avant de commencer, vous devez être affecté à la tâche ou au problème pour lequel vous devez mettre à jour la date de validation.
+Avant de pouvoir modifier la date de validation d’une tâche ou d’un problème, vous devez être affecté à la tâche ou au problème dont vous devez mettre à jour la date de validation.
 
-## Mise à jour des dates de validation pour les tâches et les problèmes
+## Mettre à jour les dates d’engagement pour les tâches et les problèmes
+
+
+Vous pouvez mettre à jour la date de validation d’une tâche ou d’un problème dans les zones suivantes de Workfront :
+
+* La section Détails d’une tâche ou d’un problème
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 La mise à jour de la date de validation est identique pour les tâches et les problèmes.
 
@@ -82,6 +93,10 @@ La mise à jour de la date de validation est identique pour les tâches et les p
 1. Accédez à une tâche ou à un problème auquel vous êtes affecté en tant que **Propriétaire**.
 
    Pour plus d’informations sur la définition du propriétaire de la tâche pour un problème ou une tâche, consultez la section . [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) dans l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
 
 1. Cliquez sur **Détails de la tâche** ou **Détails du problème** dans le panneau de gauche.
 1. Cliquez sur **Présentation** pour l’étendre.

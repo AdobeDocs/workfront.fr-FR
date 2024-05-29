@@ -1,20 +1,20 @@
 ---
-title: Suppression des espaces de travail
+title: Supprimer des espaces de travail
 description: Vous pouvez supprimer des espaces de travail lorsqu’ils ne sont plus pertinents.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Suppression des espaces de travail
+# Supprimer des espaces de travail
 
 {{maestro-important-intro}}
 
@@ -24,9 +24,9 @@ Vous pouvez supprimer les espaces de travail qui ne sont plus pertinents.
 
 Nous vous recommandons de recréer certains ou tous les types d’enregistrements, enregistrements, champs et vues associés à l’espace de travail que vous souhaitez supprimer dans un autre espace de travail avant de le supprimer.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -47,13 +47,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
    <p>Nouveau : Standard</p>
    <p>Actuel : formule</p> 
@@ -102,6 +102,8 @@ Le dernier espace de travail auquel vous avez accédé s’affiche alors.
 
 1. (Facultatif) Développez la flèche vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à supprimer.
 1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) en regard du nom de l’espace de travail, cliquez sur **Supprimer**.
+   <!--1. Type "**delete**" in the space provided, then click **Permanently delete**. **********AND DELETE THE STEP BELPW EXCEPT FOR THE LAST SENTENCE***********-->
+
 1. Cliquez sur **Supprimer** pour confirmer.
 
    L’espace de travail est supprimé et ne peut pas être récupéré. Les types d’enregistrement, enregistrements, champs et vues qui leur sont associés sont également supprimés. <!--ensure this is right after closed beta-->

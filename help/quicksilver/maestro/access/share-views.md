@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -110,7 +110,14 @@ Vous pouvez partager les vues que vous avez créées ou les vues auxquelles vous
 
    <!--The Internal sharing tab should be selected by default.-->
 
-1. Dans le **Accorder l’accès à la vue à** , commencez à saisir le nom d’un utilisateur ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.  <!--replace screen shot below-->
+<!--   
+1. (Optional) Select from the following options to share the view: 
+
+* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
+* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+
+
+1. Dans le **Accorder l’accès à la vue à** , commencez à saisir le nom d’un utilisateur ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.  <!--***********replace screen shot below when global sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
