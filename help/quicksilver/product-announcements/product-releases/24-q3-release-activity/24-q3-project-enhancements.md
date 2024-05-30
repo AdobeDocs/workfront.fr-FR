@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 17%
+source-wordcount: '410'
+ht-degree: 13%
 
 ---
 
@@ -19,19 +19,20 @@ Cette page décrit toutes les améliorations de projet apportées à la version 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## Affectations plus pertinentes ajoutées au workflow Nouvelle tâche
+## Modifiez la tâche et publiez la condition et la date de validation dans la section d’en-tête ou de détails.
 
 >[!NOTE]
 >
->Aperçu de la version : 13 février 2024 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Version de production pour tous les clients : avec la version 24.7 (juillet 2024).
+>Aperçu de la version : 30 mai 2024 ; Production pour une version rapide : avec la version 24.6 (13 juin 2024) ; Version de production pour tous les clients : avec la version 24.7 (juillet 2024).
 
-Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans les zones suivantes :
+Pour faciliter la mise à jour des tâches et des problèmes, nous avons maintenant ajouté les champs Date de validation et Condition en tant qu’options à ajouter à la section En-têtes de tâche et de problème et Détails dans un modèle de mise en page. Les utilisateurs peuvent désormais mettre à jour ces champs à partir de l’en-tête ou de la section Détails d’une page lorsqu’ils sont affectés au modèle de mise en page modifié. Avant cette amélioration, vous ne pouviez pas ajouter la condition et la date de validation des tâches et des problèmes lors de la personnalisation des en-têtes.
 
-* Boîte de dialogue Nouvelle tâche lors de l’ajout d’une tâche à un projet
+Pour plus d’informations sur la mise à jour de la date de validation et de la condition, voir les articles suivants :
 
-* Dans une liste de tâches de projet
+* [Mise à jour de la condition pour les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Mise à jour de la date de validation sur les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-Pour plus d’informations, voir [Présentation des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Affectations intelligentes plus pertinentes
 
