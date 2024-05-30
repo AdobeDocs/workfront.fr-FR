@@ -5,16 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 0c3192599130d110572a6c1a5e93ffa47d437ac3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # Gestion des préférences de notification Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Lorsqu’une personne vous ajoute à un commentaire sur la page d’enregistrement, vous recevez un message in-app ainsi qu’une notification par e-mail concernant le commentaire.
 
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> 
+   <p> Adobe Workfront</p> 
    <p>Pour recevoir des notifications in-app de la planification Workfront et gérer les préférences de notification, l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p>
    </td>
   </tr>  

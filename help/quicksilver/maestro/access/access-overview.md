@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Vue d’ensemble des accès
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Il existe des restrictions de licence et de partage pour utiliser Adobe Workfront Planning.
 
@@ -98,7 +98,7 @@ Une fois que votre entreprise a été inscrite au programme bêta de planificati
 
 1. Connexion à **Workfront** en tant qu’administrateur Workfront.
 
-1. Ajoutez la variable **Planification** icon ![](assets/maestro-icon.png) à la fonction **Menu Principal** en utilisant une **Modèle de mise en page**.
+1. Ajoutez la variable **Planification** icon ![](assets/planning-icon.png) à la fonction **Menu Principal** en utilisant une **Modèle de mise en page**.
 
    Pour plus d’informations, voir [Personnalisation du menu principal à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 

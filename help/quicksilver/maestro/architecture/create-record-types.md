@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Création de types d’enregistrement
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Les types d’enregistrement sont les types d’objets d’Adobe Workfront Planning. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les éléments liés au travail nécessaires dans le cycle de vie de votre entreprise.
 
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr>
 <td>
    <p> Produit</p> </td>
-   <td> Adobe Workfront
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>

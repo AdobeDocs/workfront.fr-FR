@@ -1,23 +1,23 @@
 ---
-title: Partage d’enregistrements
+title: Partager des enregistrements
 description: Vous pouvez partager des enregistrements avec d’autres utilisateurs afin d’accroître la collaboration.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
-# Partage d’enregistrements
+# Partager des enregistrements
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Pour collaborer avec d’autres utilisateurs, vous pouvez partager des enregistrements avec d’autres utilisateurs.
 
@@ -31,9 +31,9 @@ Vous pouvez partager un enregistrement de planification Adobe Workfront de diff�
 
 Cet article décrit comment copier un lien vers une page d’enregistrement à partir de la vue table d’un type d’enregistrement.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -46,7 +46,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -54,15 +54,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 

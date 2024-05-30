@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -26,15 +26,15 @@ hide: yes
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Vues : index de l’article
+# Vues : index des articles
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Vous pouvez afficher les enregistrements de planification Adobe Workfront dans un tableau, une chronologie ou un calendrier.
 
 Les articles suivants décrivent comment créer et gérer des vues d’enregistrement dans Adobe Workfront Planning :
 
-* [Gestion des vues d’enregistrement](../views/manage-record-views.md)
-* [Gestion de la vue de tableau](../views/manage-the-table-view.md)
-* [Gestion du mode Chronologie](../views/manage-the-timeline-view.md)
+* [Gérer les vues d’enregistrement](../views/manage-record-views.md)
+* [Gérer la vue de tableau](../views/manage-the-table-view.md)
+* [Gérer la vue chronologique](../views/manage-the-timeline-view.md)
 * [Gestion de la vue Calendrier](/help/quicksilver/maestro/views/manage-the-calendar-view.md)

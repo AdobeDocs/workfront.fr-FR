@@ -1,8 +1,8 @@
 ---
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 1%
+source-wordcount: '2354'
+ht-degree: 4%
 
 ---
 # Extraits de code
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ## Etape 1 - Cliquez sur le menu principal uniquement {#step1-click-main-menu}
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
 
 ## Etape 1 - Cliquez sur le menu principal puis sur - {#step1-click-mm-then-click}
 
@@ -249,15 +249,17 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Planification]**.
 
-## Intro important de Maestro {#maestro-important-intro}
+## Intro important de la planification Workfront - {#planning-important-intro}
 
 >[!IMPORTANT]
 >
 >Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, Workfront Planning fait partie d’un programme bêta qui est ouvert à un nombre limité de clients. Vous devez être un client Workfront pour utiliser ces fonctionnalités.
+>Actuellement, Workfront Planning est à un stade d’accès anticipé, ouvert à un nombre limité de clients.
 >
->Pour plus d’informations sur l’inscription au programme bêta de la planification Workfront, contactez le représentant du compte.
+>Vous devez être un client Workfront pour utiliser ces fonctionnalités.
+>
+>Si vous participez à cette étape, le représentant du compte vous en informera.
 >
 >Pour plus d’informations, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
@@ -303,7 +305,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 ## Etape 1 - Accès à la vérification - {#step1-to-proofing}
 
-1. Dans Workfront, cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png), ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** dans le coin supérieur gauche ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png), puis cliquez sur **[!UICONTROL Vérification]** pour accéder au BAT Workfront.
+1. Dans Workfront, cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png), ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** dans le coin supérieur gauche ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png), puis cliquez sur **[!UICONTROL Vérification]** pour accéder à Workfront Proof.
 
 ## Dernière version de DPV {#latest-version}
 
@@ -391,7 +393,7 @@ Pour que les modifications apportées à la fonctionnalité de bouton Terminé s
 
 Pour associer des utilisateurs à une équipe d’accueil :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
 
 1. Cliquez sur **[!UICONTROL Utilisateurs]**, puis sélectionnez le ou les utilisateurs que vous souhaitez associer à une équipe d’accueil.
 1. Cliquez sur le bouton **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.\

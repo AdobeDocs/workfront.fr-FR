@@ -1,14 +1,14 @@
 ---
-title: Suppression des types d’enregistrement
+title: Supprimer des types d’enregistrements
 description: Vous pouvez supprimer des types d’enregistrement lorsqu’ils ne sont plus pertinents. La suppression des types d’enregistrement supprime également toutes les informations associées aux types d’enregistrement, telles que leurs enregistrements, champs et vues.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,9 @@ hide: yes
 ---
 -->
 
-# Suppression des types d’enregistrement
+# Supprimer des types d’enregistrements
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Vous pouvez supprimer des types d’enregistrement lorsqu’ils ne sont plus pertinents.
 
@@ -37,9 +37,9 @@ Pour plus d’informations sur les types d’enregistrement, voir [Présentation
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -60,20 +60,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -118,7 +118,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Vous ne pouvez pas récupérer les types d&#39;enregistrements supprimés ni leurs informations.
 * Il est recommandé de recréer les champs et les enregistrements associés au type d&#39;enregistrement que vous souhaitez supprimer sur un autre type d&#39;enregistrement avant de les supprimer.
 
-## Suppression des types d’enregistrement
+## Supprimer des types d’enregistrements
 
 {{step1-to-maestro}}
 

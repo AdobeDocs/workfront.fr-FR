@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6602'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,15 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-Cet article répertorie les fonctionnalités qui ont été publiées après le lancement des fonctionnalités de planification d’Adobe Workfront et qui ont été fermées en version bêta, le 22 mai 2023.
+Cet article répertorie les fonctionnalités qui ont été publiées après le lancement du programme de planification Adobe Workfront, le 22 mai 2023.
 
-Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé des fonctionnalités de planification peuvent accéder à toutes les fonctionnalités de leurs environnements de production.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Entre mai 2023 et décembre 2023, toutes les fonctionnalités de cet article ont été publiées dans l’environnement Aperçu et Production. Depuis janvier 2024, les fonctionnalités de planification ont été supprimées des environnements Aperçu et Sandbox. Toutes les fonctionnalités publiées après cette date sont actuellement disponibles en production.
+>Entre mai 2023 et décembre 2023, toutes les fonctionnalités de cet article ont été publiées dans l’environnement Aperçu et Production. La planification Workfront a été temporairement supprimée des environnements Aperçu et Sandbox depuis janvier 2024. Toutes les fonctionnalités publiées après cette date sont actuellement disponibles en production.
 
-Cet article répertorie les fonctionnalités et les correctifs qui ont été publiés après le lancement des fonctionnalités de planification d’Adobe Workfront et qui ont été fermés en version bêta, le 22 mai 2023.
-
-Les fonctionnalités sont publiées toutes les semaines et sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme bêta fermé des fonctionnalités de planification peuvent accéder à toutes les fonctionnalités de leurs environnements Aperçu et Production.
+Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme de planification Workfront peuvent accéder à toutes les fonctionnalités de leurs environnements de production.
 
 >[!IMPORTANT]
 >
@@ -57,16 +53,6 @@ Preview: To be determined
 
 Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
 
-### Share views with all members of a workspace by default
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
-
-For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
-
 -->
 
 ## Semaine du 27 mai 2024
@@ -88,6 +74,24 @@ L&#39;opérateur UNIQUE est disponible pour tous les types de champs sauf les su
 * Champ de case à cocher
 
 Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+### Partage des vues avec tous les membres d’un espace de travail par défaut
+
+Production : 30 mai 2024
+
+Aperçu : à déterminer
+
+Nous avons ajouté une option permettant d’accorder rapidement des autorisations d’affichage à une vue à tous les membres d’un espace de travail. Avant cette amélioration, seuls les utilisateurs avec lesquels vous partagiez spécifiquement une vue pouvaient accéder à la vue. Cette option n’est pas activée par défaut.
+
+Pour plus d’informations, voir [Partage de vues](/help/quicksilver/maestro/access/share-views.md).
+
+### Mise à jour de l’affichage de l’icône Planification dans le menu principal
+
+Production : 30 mai 2024
+
+Aperçu : à déterminer
+
+Nous avons mis à jour l’aspect de l’icône Planification dans la zone Menu principal. Pour plus d’informations, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Semaine du 20 mai 2024
 
@@ -713,7 +717,7 @@ L’expérience de commentaire des enregistrements de fonctionnalités de planif
 
 Pour plus d’informations, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Connecteur des fonctionnalités de planification (version bêta) pour Adobe Workfront Fusion
+### Connecteur de planification Workfront pour Adobe Workfront Fusion
 
 Production : 21 décembre 2023
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 9%
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # Gestion des notifications électroniques d’Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Lorsqu’une personne vous balise dans un commentaire d’enregistrement, vous recevez une notification par courrier électronique pour cette balise.
 
@@ -41,7 +41,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> 
+   <p> Adobe Workfront</p> 
    <p>Pour recevoir des notifications de Workfront Planning et gérer les préférences de notification, l’instance de Workfront de votre entreprise doit être intégrée à l’Adobe Expérience unifiée. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>

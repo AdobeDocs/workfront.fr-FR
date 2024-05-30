@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Champs : index de l’article
+# Champs : index des articles
 
 <!--
 title: Adobe Maestro fields
@@ -26,7 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 En tant que chef des opérations marketing, vous pouvez utiliser la planification Adobe Workfront pour organiser le travail au cours du cycle de vie marketing pour toutes vos équipes. Dans la planification Workfront, vous pouvez entièrement personnaliser l’architecture de vos workflows, y compris ajouter des champs personnalisés pour tous les types d’enregistrements personnalisés que vous créez.
 
@@ -34,6 +34,6 @@ Les articles présentés dans les sections suivantes décrivent comment créer e
 
 * [Présentation des champs](../fields/fields-overview.md)
 * [Créer des champs](../fields/create-fields.md)
-* [Modifier les champs](../fields/edit-fields.md)
+* [Modifier des champs](../fields/edit-fields.md)
 * [Supprimer des champs](../fields/delete-fields.md)
 * [Champs de formule](../fields/formula-fields.md)

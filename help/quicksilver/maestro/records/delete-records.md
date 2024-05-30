@@ -1,28 +1,28 @@
 ---
-title: Suppression d’enregistrements
+title: Supprimer des enregistrements
 description: Vous pouvez supprimer les enregistrements que vous ou un autre utilisateur avez créés. Vous ne pouvez pas récupérer les enregistrements supprimés.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Suppression d’enregistrements
+# Supprimer des enregistrements
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Vous pouvez supprimer les enregistrements qui ne sont plus pertinents dans la planification Adobe Workfront.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -35,7 +35,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -43,21 +43,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p>
+   <td role="rowheader"><p>Licence Adobe Workfront</p>
    </td>
    <td>
-   <p>Quelconque</p> 
+   <p>N’importe quelle</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning </p>  
 </td>
   </tr>
@@ -91,7 +91,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Vous ne pouvez pas supprimer des enregistrements en bloc. <!--this will probably change-->
 * Vous ne pouvez pas supprimer d’enregistrements de la vue de chronologie.
 
-## Suppression d’enregistrements
+## Supprimer des enregistrements
 
 Vous pouvez supprimer un enregistrement des zones suivantes :
 

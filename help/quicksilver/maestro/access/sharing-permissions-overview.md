@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 5d7a7157c7ffb9634ec44de0b55b3bcf08d88786
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 13%
+source-wordcount: '696'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 # Présentation du partage des autorisations dans Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Vous pouvez partager ou supprimer des autorisations d’un espace de travail ou des autorisations d’affichage dans Adobe Workfront Planning.
 
@@ -75,9 +75,9 @@ Vous devez autoriser les utilisateurs à accéder aux espaces de travail pour le
 * Types d’enregistrements
 * Enregistrements
 * Champs
-<!--* Views*
-    
-    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
+* Vues*
+
+  *Vous pouvez autoriser tous les utilisateurs disposant d’autorisations d’affichage ou supérieures à accéder aux vues dans l’espace de travail. Il s’agit d’une autorisation supplémentaire que vous devez activer lors du partage d’une vue. Pour plus d’informations, voir [Partage de vues](/help/quicksilver/maestro/access/share-views.md).
 
 Voici les niveaux d’autorisations des espaces de travail :
 
@@ -147,17 +147,19 @@ Vous devez autoriser les utilisateurs à accéder aux vues pour leur permettre d
 
 Voici les niveaux d’autorisation des vues et des éléments d’affichage :
 
-|        | Gérer | Afficher |
-|--------|--------|-------|
-| Modifier | ✓ |       |
-| Supprimer | ✓ |       |
-| Partager | ✓ |       |
-| Afficher | ✓ | ✓ |
-| Appliquer | ✓ | ✓ |
+|        | Gérer (seules les personnes invitées peuvent accéder) | Affichage (seules les personnes invitées peuvent accéder) | Tout le monde dans l’espace de travail peut afficher* |
+|--------|--------|-------|------------------------------|
+| Modifier | ✓ |       |                            |
+| Supprimer | ✓ |       |                            |
+| Partager | ✓ |       |                           |
+| Afficher | ✓ | ✓ | ✓ |
+| Appliquer | ✓ | ✓ | ✓ |
 
-<!--Replace the above with this when global sharing is released: 
+*Les utilisateurs doivent disposer d’autorisations d’affichage ou supérieures pour accéder à un espace de travail.
 
-|        | Manage | View  |View permissions to a workspace*|
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
 | Edit   | ✓      |       |                            |
 | Delete | ✓      |       |                            |
@@ -165,20 +167,19 @@ Voici les niveaux d’autorisation des vues et des éléments d’affichage :
 | View   | ✓      | ✓     | ✓                         |
 | Apply  | ✓      | ✓     | ✓                          |
 
-*Users must have View or higher permissions on a workspace to gain this view access.-->
-
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
-
 |   Public sharing      | View  |
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
+-->
+
+
+<!--old view permissions, before sharing View permissions to a view through a workspace:
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |    
 -->

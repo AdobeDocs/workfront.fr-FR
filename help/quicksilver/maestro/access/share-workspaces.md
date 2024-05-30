@@ -1,23 +1,23 @@
 ---
-title: Partage des espaces de travail
+title: Partager des espaces de travail
 description: Vous pouvez partager un espace de travail avec d’autres afin d’assurer la collaboration lors de l’utilisation d’Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Planning as a product ??-->
 
-# Partage des espaces de travail
+# Partager des espaces de travail
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Vous pouvez partager un espace de travail avec d’autres afin d’assurer la collaboration lors de l’utilisation d’Adobe Workfront Planning.
 
@@ -26,9 +26,9 @@ Vous pouvez partager un espace de travail avec d’autres afin d’assurer la co
 >L’octroi d’autorisations à un espace de travail ne donne pas à d’autres utilisateurs les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type enregistrement afin de les partager avec d’autres utilisateurs. Pour plus d’informations, voir [Partage d’une vue](/help/quicksilver/maestro/access/share-views.md).
 
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -41,7 +41,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -49,13 +49,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td>
+   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
    <td>
-<p>Quelconque</p>
+<p>N’importe quelle</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
    <p>Nouveau : Standard</p>
    Ou
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Paramétrages du niveau d'accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '574'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ recommendations: noDisplay, noCatalog
 
 # Modifier des champs
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Vous pouvez modifier les paramètres des champs déjà créés dans Adobe Workfront Planning.
 
@@ -77,7 +77,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>

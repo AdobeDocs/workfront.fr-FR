@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 2%
@@ -26,7 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Vous pouvez ajouter de nouveaux champs dans la planification Adobe Workfront qui reflètent le cycle de vie de votre entreprise. Les champs sont des attributs de types d’enregistrement.
 
@@ -39,7 +39,7 @@ Vous pouvez ajouter de nouveaux champs dans la planification Adobe Workfront qui
 
   Pour plus d’informations sur la gestion des champs, reportez-vous également aux articles suivants :
 
-   * [Modifier les champs](../fields/edit-fields.md)
+   * [Modifier des champs](../fields/edit-fields.md)
    * [Supprimer des champs](../fields/delete-fields.md)
 
 * Les champs associés à un type d&#39;enregistrement peuvent être associés à tous les enregistrements de ce type. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->

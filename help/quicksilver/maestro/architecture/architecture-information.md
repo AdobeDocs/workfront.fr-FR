@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -26,9 +26,9 @@ hide: yes
 
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Architecture : index des articles
+# Architecture : index des articles
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 En tant que chef des opérations marketing, vous pouvez utiliser la planification Adobe Workfront pour organiser le travail au cours du cycle de vie marketing pour toutes vos équipes.
 
@@ -39,14 +39,14 @@ En outre, Workfront Planning peut lier les types d’objets d’autres systèmes
 Les articles présentés dans les sections suivantes décrivent comment configurer les espaces de travail de la planification Adobe Workfront, définir les types d’enregistrement qui sont les blocs de construction de ces espaces de travail et commencer à utiliser ses fonctionnalités :
 
 * [Créer des espaces de travail](../architecture/create-workspaces.md)
-* [Liste des modèles d&#39;espace de travail](../architecture/workspace-templates.md)
+* [Liste des modèles d’espace de travail](../architecture/workspace-templates.md)
 * [Présentation des types d’enregistrement](../architecture/overview-of-record-types-and-taxonomies.md)
 * [Création de types d’enregistrement](../architecture/create-record-types.md)
-* [Création de types d’enregistrement de taxonomie](../architecture/create-a-taxonomy.md)
-* [Modification des types d’enregistrement](../architecture/edit-record-types.md)
-* [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
-* [Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements](../architecture/example-connect-record-types-and-records.md)
-* [Suppression des espaces de travail](../architecture/delete-workspaces.md)
-* [Modification des espaces de travail](/help/quicksilver/maestro/architecture/edit-workspaces.md)
-* [Suppression des types d’enregistrement](../architecture/delete-record-types.md)
+* [Créer des types d’enregistrements de taxonomie](../architecture/create-a-taxonomy.md)
+* [Modifier des types d’enregistrements](../architecture/edit-record-types.md)
+* [Connecter des types d’enregistrements](../architecture/connect-record-types.md)
+* [Exemple de connexion de types d’enregistrements et d’enregistrements](../architecture/example-connect-record-types-and-records.md)
+* [Supprimer des espaces de travail](../architecture/delete-workspaces.md)
+* [Modifier des espaces de travail](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+* [Supprimer des types d’enregistrements](../architecture/delete-record-types.md)
 
