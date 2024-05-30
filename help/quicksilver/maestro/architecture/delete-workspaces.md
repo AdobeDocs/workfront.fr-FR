@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '287'
 ht-degree: 11%
 
 ---
@@ -102,8 +102,9 @@ Le dernier espace de travail auquel vous avez accédé s’affiche alors.
 
 1. (Facultatif) Développez la flèche vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à supprimer.
 1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) en regard du nom de l’espace de travail, cliquez sur **Supprimer**.
-   <!--1. Type "**delete**" in the space provided, then click **Permanently delete**. **********AND DELETE THE STEP BELPW EXCEPT FOR THE LAST SENTENCE***********-->
 
-1. Cliquez sur **Supprimer** pour confirmer.
+   ![](assets/permanently-delete-workspace-confirmation.png)
+
+1. Type &quot;**delete**&quot; dans l’espace fourni, puis cliquez sur **Suppression définitive**.
 
    L’espace de travail est supprimé et ne peut pas être récupéré. Les types d’enregistrement, enregistrements, champs et vues qui leur sont associés sont également supprimés. <!--ensure this is right after closed beta-->

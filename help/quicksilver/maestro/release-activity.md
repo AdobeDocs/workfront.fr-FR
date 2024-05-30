@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,18 @@ Depuis le 30 mai 2024, le programme de planification Adobe Workfront passe de la
 L’étape d’accès anticipé est également limitée à quelques clients Workfront.
 
 Le représentant de votre compte vous informera si vous êtes éligible pour participer à l’étape d’accès anticipé.
+
+### Nouveau processus de suppression d’un espace de travail
+
+Production : 30 mai 2024
+
+Aperçu : à déterminer
+
+Comme l’impact de la suppression d’un espace de travail peut être important, nous ajoutons une étape supplémentaire pour confirmer la suppression. Les utilisateurs doivent désormais saisir &quot;delete&quot; avant de pouvoir terminer la suppression définitive d’un espace de travail.
+
+Les espaces de travail supprimés et leurs informations ne peuvent pas être récupérés.
+
+Pour plus d’informations, voir [Suppression des espaces de travail](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## Semaine du 20 mai 2024
 
