@@ -7,7 +7,7 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: 6e6115829412b537f6a196a564088c3b6d1d6e8a
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -158,6 +158,8 @@ Les utilisateurs sont recommandés dans la liste déroulante Affectations intell
 >* Si aucun rôle ou équipe n’est affecté à la tâche ou au problème, Workfront affiche tous les utilisateurs affectés au cours des 30 derniers jours, jusqu’à 50 utilisateurs.
 >
 >* Si vous n’avez effectué aucune affectation au cours des 30 derniers jours, seuls les utilisateurs appartenant à l’équipe affectée ou ayant le rôle affecté à l’élément de travail s’affichent dans la liste des affectations intelligentes.
+
+
 
 <!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--
