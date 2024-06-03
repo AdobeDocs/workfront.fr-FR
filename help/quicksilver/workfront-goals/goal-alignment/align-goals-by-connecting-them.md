@@ -6,10 +6,10 @@ description: Si vous contributeur individuel avez un objectif personnel, vous po
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -51,9 +51,9 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>
- <p>Licence actuelle : contributeur ou version ultérieure</p>
+ <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
  Ou
- <p>Licence héritée : demande ou supérieure</p> </td>
+ <p>Licence actuelle : demande ou supérieure</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>

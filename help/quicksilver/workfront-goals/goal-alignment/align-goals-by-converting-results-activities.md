@@ -6,10 +6,10 @@ description: Vous pouvez aligner manuellement deux objectifs ou convertir les r�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -37,9 +37,9 @@ Pour plus d’informations sur l’alignement manuel de deux objectifs, voir [Al
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>
- <p>Licence actuelle : contributeur ou version ultérieure</p>
+ <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
  Ou
- <p>Licence héritée : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>

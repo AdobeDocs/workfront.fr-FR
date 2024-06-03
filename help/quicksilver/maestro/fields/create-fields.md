@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -39,7 +39,7 @@ Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour
 
 Vous devez créer des types d’enregistrement avant de pouvoir créer des champs à associer. Pour plus d’informations, voir [Création de types d’enregistrement](../architecture/create-record-types.md).
 
-Vous pouvez créer des champs de la manière suivante dans Maestro :
+Vous pouvez créer des champs de la manière suivante dans la planification Workfront :
 
 * À partir de zéro
 * Connexion des types d’enregistrement
@@ -47,7 +47,7 @@ Vous pouvez créer des champs de la manière suivante dans Maestro :
 * En créant un type d&#39;enregistrement
 * En créant un espace de travail à partir d’un modèle
 
-Pour plus d’informations sur les champs Maestro, voir [Présentation des champs](/help/quicksilver/maestro/fields/fields-overview.md).
+Pour plus d’informations sur les champs d’enregistrement, voir [Présentation des champs](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Conditions d’accès
 
@@ -106,7 +106,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -510,7 +510,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 
 ## Créer des champs en connectant des types d’enregistrement
 
-Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement Maestro ou un type d’enregistrement et un type d’objet à partir d’autres applications.
+Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement ou un type d’enregistrement et un type d’objet à partir d’autres applications.
 
 Pour plus d’informations sur la connexion des types d’enregistrement Workfront Planning, voir [Connexion des types d’enregistrement](../architecture/connect-record-types.md)
 

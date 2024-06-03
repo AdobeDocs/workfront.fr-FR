@@ -2,14 +2,14 @@
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Accès nécessaire pour utiliser le planificateur de scénarios
+title: Accès requis pour utiliser le planificateur de scénarios
 description: Le planificateur de scénarios nécessite une licence distincte d’Adobe Workfront et un accès supplémentaire.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -37,66 +37,57 @@ Sans accès ou autorisations corrects, vous ne pourrez peut-être pas afficher l
 
 ## Accès nécessaire pour afficher et utiliser le [!DNL Adobe Workfront Scenario Planner]
 
-Vous devez vous assurer que les conditions suivantes sont toutes remplies avant d’accéder à la variable [!DNL Workfront Scenario Planner]:
+Vous devez vous assurer que toutes les conditions suivantes sont remplies avant d’accéder à la variable [!DNL Workfront Scenario Planner]:
 
-<!--drafted for P&P:
+1. Votre entreprise doit avoir l’un des plans Workfront décrits ci-dessous.
 
-* Depending on whether you use the current or the legacy Workfront plans, your organization must have the following:
+   Selon que vous utilisez le nouveau plan Workfront ou le plan actuel, votre entreprise doit disposer de l’une des options suivantes :
 
-  * For the current plans:  
+   * Pour les plans en cours, votre organisation doit disposer de l’une des options suivantes :
 
-    * The [!UICONTROL Ultimate] [!DNL Workfront] plan.
+      * La variable [!UICONTROL Ultimate] [!DNL Workfront] planifiez. Le planificateur de scénario est inclus dans le plan final.
 
-      Or
-  
-    * The [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] plan, in addition to purchasing a separate [!DNL Scenario Planner] license.
+        Ou
 
-  * For the legacy plans: (indent the bullets below, before the NOTE)
+      * La variable [!UICONTROL Sélectionner] ou [!UICONTROL Prime] [!DNL Workfront] planifier, en plus d’acheter une [!DNL Scenario Planner] licence.
 
--->
+   * Pour les plans Workfront actuels, votre organisation doit disposer des deux éléments suivants :
 
-* Votre entreprise doit acheter un [!DNL Workfront] [!UICONTROL Entreprises] ou supérieur [!DNL Workfront] planifiez. Pour plus d’informations sur la variable [!DNL Workfront] plans, voir [Formules Workfront](https://workfront.com/plans).
-* Votre entreprise doit acheter un [!DNL Workfront Scenario Planner] , en plus d’une [!DNL Workfront] licence. Contactez votre [!DNL Workfront] Représentant du compte pour en savoir plus sur [!DNL Workfront Scenario Planner] licences.
+      * Votre entreprise doit acheter un [!DNL Workfront] [!UICONTROL Entreprises] ou supérieur [!DNL Workfront] planifiez. Pour plus d’informations sur la variable [!DNL Workfront] plans, voir [Formules Workfront](https://workfront.com/plans).
 
-<!--drafted for P&P: 
+      * Votre entreprise doit acheter un [!DNL Workfront Scenario Planner] , en plus d’une [!DNL Workfront] licence. Contactez votre [!DNL Workfront] Représentant du compte pour en savoir plus sur [!DNL Workfront Scenario Planner] licences.
 
-* Depending on whether you use the current or legacy licenses, your [!DNL Workfront] administrator must assign you a license of any of the following types: 
+1. Vous devez disposer de l’une des licences Workfront décrites ci-dessous.
 
-  * For the current licenses: 
-    * [!UICONTROL Standard]
-    * [!UICONTROL Light]
+   Selon que vous utilisez les nouvelles licences ou les licences actuelles, votre [!DNL Workfront] L’administrateur doit vous attribuer une licence de l’un des types suivants :
 
-  * For the legacy licenses: (re-indent the licenses below and reword the sentence)
+   * Pour les nouvelles licences :
+      * [!UICONTROL Standard]
+      * [!UICONTROL Lumière]
 
--->
+   * Pour les licences actuelles :
 
+      * [!UICONTROL Planifier]
+      * [!UICONTROL Travail]
+      * [!UICONTROL Réviser]
 
+   >[!NOTE]
+   > 
+   >* Lors de l’utilisation des nouvelles licences, les utilisateurs disposant d’un [!UICONTROL Contributeur] ou [!UICONTROL Externe] le type de licence ne peut pas accéder au [!DNL Scenario Planner].
+   >
+   >* Lors de l’utilisation des licences actuelles, les utilisateurs avec un type de licence Demander ou Externe ne peuvent pas accéder au planificateur de scénario.
 
-* Votre [!DNL Workfront] L’administrateur doit vous attribuer une licence de l’une des [!DNL Workfront] types :
+1. Votre [!DNL Workfront] L’administrateur doit vous indiquer [!UICONTROL Affichage] ou [!UICONTROL Modifier] accès à [!DNL Scenario Planner] dans votre niveau d’accès.
 
-   * [!UICONTROL Plan]
-   * [!UICONTROL Travail]
-   * [!UICONTROL Vérifier]
+   Pour plus d’informations sur l’octroi de l’accès au [!DNL Workfront Scenario Planner], voir [Accorder l’accès à [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-  >[!NOTE]
-  >
-  >Utilisateurs avec un [!UICONTROL Requête] ou [!UICONTROL Externe] le type de licence ne peut pas accéder au [!DNL Workfront Scenario Planner].
+1. (Facultatif et recommandé) Pour afficher ou mettre à jour les informations financières relatives à vos plans et initiatives, votre [!DNL Workfront] L’administrateur doit également vous accorder l’accès [!UICONTROL Données financières] dans votre niveau d’accès. Pour plus d’informations sur l’octroi de données financières à votre niveau d’accès, voir [Accorder l&#39;accès aux données financières](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-<!--drafted - replace the note above with this at P&P release: 
-  * When using the current licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
-  * When using the legacy licenses, users with a Request or External license type cannot access the Scenario Planner. -->
+1. (Facultatif) Si vous devez accéder aux plans que vous n’avez pas créés, un créateur de plans doit vous accorder les autorisations appropriées pour y accéder. Pour plus d’informations sur les autorisations nécessaires pour accéder aux plans et initiatives que vous n’avez pas créés, voir la section [Autorisations nécessaires pour accéder aux plans et aux initiatives](#permissions-needed-to-access-plans-and-initiatives) dans cet article.
 
-* Votre [!DNL Workfront] L’administrateur doit vous indiquer [!UICONTROL Affichage] ou [!UICONTROL Modifier] accès à [!DNL Scenario Planner] dans votre niveau d’accès.
-
-  Pour plus d’informations sur l’octroi de l’accès au [!DNL Workfront Scenario Planner], voir [Accorder l’accès à [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
-
-* (Facultatif et recommandé) Pour afficher ou mettre à jour les informations financières relatives à vos plans et initiatives, votre [!DNL Workfront] L’administrateur doit également vous accorder l’accès [!UICONTROL Données financières] dans votre niveau d’accès. Pour plus d’informations sur l’octroi de données financières à votre niveau d’accès, voir [Accorder l&#39;accès aux données financières](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-
-  <!--this used to be true but not anymore:
+<!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
-
-* Si vous devez accéder aux plans que vous n’avez pas créés, un créateur de plans doit vous accorder les autorisations appropriées pour y accéder. Pour plus d’informations sur les autorisations nécessaires pour accéder aux plans et initiatives que vous n’avez pas créés, voir la section [Autorisations nécessaires pour accéder aux plans et aux initiatives](#permissions-needed-to-access-plans-and-initiatives) dans cet article.
 
 ## Accès nécessaire à l’affichage des plans et des initiatives
 

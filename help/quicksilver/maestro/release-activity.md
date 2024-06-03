@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '6732'
+source-wordcount: '6799'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,30 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
+>
+>Actuellement, Workfront Planning est à un stade d’accès anticipé, ouvert à un nombre limité de clients.
+>
+>Vous devez être un client Workfront pour utiliser ces fonctionnalités.
+>
+>Si vous participez à cette étape, le représentant du compte vous en informera.
+>
+>Pour plus d’informations, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>
+>Dans certains cas, la documentation référencée dans les sections ci-dessous peut être disponible une fois les fonctionnalités documentées publiées dans Production.
 
 Cet article répertorie les fonctionnalités qui ont été publiées après le lancement du programme de planification Adobe Workfront, le 22 mai 2023.
 
->[!NOTE]
->
->Entre mai 2023 et décembre 2023, toutes les fonctionnalités de cet article ont été publiées dans l’environnement Aperçu et Production. La planification Workfront a été temporairement supprimée des environnements Aperçu et Sandbox depuis janvier 2024. Toutes les fonctionnalités publiées après cette date sont actuellement disponibles en production.
-
 Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier. Les clients qui participent au programme de planification Workfront peuvent accéder à toutes les fonctionnalités de leurs environnements de production.
 
->[!IMPORTANT]
->
->La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans Production.
+Entre mai 2023 et décembre 2023, toutes les fonctionnalités de cet article ont été publiées dans l’environnement Aperçu et Production.
+
+La planification Workfront a été temporairement supprimée des environnements Aperçu et Sandbox depuis janvier 2024. Toutes les fonctionnalités publiées après cette date sont actuellement disponibles en production.
+
+
+
 
 <!--
 
