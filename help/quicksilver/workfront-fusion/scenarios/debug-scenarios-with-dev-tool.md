@@ -7,10 +7,10 @@ description: L’outil Adobe Workfront Fusion Devtool vous permet de comprendre 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 1%
+source-wordcount: '1858'
+ht-degree: 7%
 
 ---
 
@@ -27,44 +27,44 @@ Pour une présentation vidéo et une présentation de l’outil Fusion Devtool, 
 * [Outil de développement de fusion](https://video.tv.adobe.com/v/3427031/){target=_blank}.
 * [Présentation de Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
    <td> <p>[!DNL Pro] ou supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Accès à l’outil Workfront Fusion Devtool
 
@@ -73,9 +73,13 @@ L’accès à Devtool varie selon que vous utilisez Fusion dans la variable [!DN
 * [Accédez à l’outil Devtool dans le [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [Accédez à l’outil Devtool dans classic [!DNL Fusion] expérience](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Accédez à l’outil Devtool dans le [!DNL Adobe Unified Experience]
+### Accédez à l’outil Devtool dans le [!DNL Adobe Unified Experience] ou la nouvelle expérience Fusion
 
-Si vous utilisez Fusion dans l’Adobe Unified Shell, vous pouvez accéder à l’outil de développement à partir de l’éditeur de scénario.
+Si vous utilisez Fusion dans le Shell unifié de l’Adobe ou que vous avez mis à jour vers la nouvelle expérience de fusion, vous pouvez accéder à l’outil de développement à partir de l’éditeur de scénarios.
+
+1. Cliquez sur le bouton **Outils d’assistance** ![Outils d’assistance](assets/debugger-icon.png) en bas de l’écran.
+
+Ou :
 
 1. Accédez à l’éditeur de scénarios pour le scénario que vous souhaitez déboguer.
 

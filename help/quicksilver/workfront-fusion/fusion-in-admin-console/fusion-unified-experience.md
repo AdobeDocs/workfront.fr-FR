@@ -7,10 +7,10 @@ description: L’accès à Workfront Fusion via Adobe Experience Cloud offre une
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '572'
+ht-degree: 14%
 
 ---
 
@@ -20,37 +20,35 @@ Accès [!DNL Workfront Fusion] through [!DNL Adobe Experience Cloud] vous offre 
 
 Pour une vidéo décrivant la navigation dans [!DNL Fusion] dans le [!DNL Adobe Experience Cloud], voir :
 
-[[!DNL Fusion] le [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+[[!DNL Fusion] sur le [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
-   <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> 
+   <p>N’importe quelle</p> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -86,7 +84,7 @@ Une fois connecté à [!DNL Adobe Experience Cloud], vous pouvez afficher l’en
 
 Utilisez la variable [!UICONTROL Menu Principal] icon ![](assets/main-menu-icon-left-nav.png) sur la gauche de la [!DNL Adobe] pour ouvrir la barre de navigation [!UICONTROL Organisation] et [!UICONTROL Équipe] menus. Si vous êtes un [!DNL Workfront Fusion] votre administrateur, [!UICONTROL Administration] s’affiche également ici.
 
-Pour changer d’équipe, cliquez sur le nom de l’équipe en haut de la page, puis sélectionnez l’équipe. Cela s’affiche uniquement sur les pages qui sont spécifiques à une équipe, comme le créateur de scénarios ou le [!UICONTROL Connexions] page.
+Pour changer d’équipe, cliquez sur le nom de l’équipe en haut de la page, puis sélectionnez l’équipe. Le sélecteur d’équipe s’affiche uniquement sur les pages spécifiques à une équipe, telles qu’un créateur de scénarios ou le [!UICONTROL Connexions] page.
 
 Pour changer d’organisation, cliquez sur son nom dans le coin supérieur droit de l’écran, puis sélectionnez l’organisation.
 
