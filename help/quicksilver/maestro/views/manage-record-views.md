@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1124'
 ht-degree: 7%
 
 ---
@@ -192,6 +192,11 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
    Le nombre est un incrément généré automatiquement.
 
 1. (Conditionnel) Sélectionnez le **Début** et **Dates de fin** pour les enregistrements qui s’afficheront dans la vue chronologie ou calendrier.
+
+   >[!TIP]
+   >
+   >    Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir d’enregistrements ou d’objets connectés.
+
 1. Cliquez sur **Créer**.
 
    La vue s’affiche sous la forme d’un nouvel onglet. Les vues s’affichent dans l’ordre chronologique à partir du moment où elles ont été créées ou partagées avec vous.

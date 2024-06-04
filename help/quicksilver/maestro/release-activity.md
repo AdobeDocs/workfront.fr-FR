@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ Comme l’impact de la suppression d’un espace de travail peut être important
 Les espaces de travail supprimés et leurs informations ne peuvent pas être récupérés.
 
 Pour plus d’informations, voir [Suppression des espaces de travail](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### Les champs de date de recherche sont désormais disponibles dans la vue chronologique.
+
+Vous pouvez désormais définir les dates de début et de fin de la vue chronologique sur un champ de recherche à partir d’un enregistrement ou d’un type d’objet connecté.
+
+Pour plus d’informations sur la création de vues, voir [Gestion des vues d’enregistrement](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## Semaine du 20 mai 2024
 

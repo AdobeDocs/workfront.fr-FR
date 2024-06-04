@@ -7,7 +7,7 @@ description: Le planificateur de scénarios nécessite une licence distincte d�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Vous devez vous assurer que toutes les conditions suivantes sont remplies avant 
 
    Selon que vous utilisez le nouveau plan Workfront ou le plan actuel, votre entreprise doit disposer de l’une des options suivantes :
 
-   * Pour les plans en cours, votre organisation doit disposer de l’une des options suivantes :
+   * Pour les nouveaux plans, votre organisation doit disposer de l’une des options suivantes :
 
       * La variable [!UICONTROL Ultimate] [!DNL Workfront] planifiez. Le planificateur de scénario est inclus dans le plan final.
 
