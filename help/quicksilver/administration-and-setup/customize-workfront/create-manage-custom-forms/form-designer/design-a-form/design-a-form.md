@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 2f7e1bb69ad1731a626306df38e97443f75257f9
+source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
 workflow-type: tm+mt
-source-wordcount: '6040'
+source-wordcount: '6078'
 ht-degree: 7%
 
 ---
@@ -248,29 +248,31 @@ Pour ajouter un champ calculé, reportez-vous à la section [Ajouter des champs 
 
 ### Ajout de boutons radio, de cases à cocher et de listes déroulantes
 
-Vous pouvez ajouter des boutons radio, des cases à cocher et des listes déroulantes à un formulaire personnalisé.
+Vous pouvez ajouter des boutons radio, des cases à cocher, des listes déroulantes et des listes déroulantes à sélection multiple à un formulaire personnalisé.
 
 +++ **Développer pour afficher les descriptions des champs disponibles**
 
 * **Boutons radio**: nécessite que les utilisateurs sélectionnent un seul choix.
 * **Groupe de cases à cocher**: permet aux utilisateurs de sélectionner plusieurs choix.
 * **Liste déroulante**: fournit une liste de choix de liste déroulante.
+* **Menu déroulant à sélection multiple**: permet aux utilisateurs de sélectionner plusieurs choix dans une liste déroulante.
 
 +++
 
 >[!NOTE]
 >
->Les champs qui autorisent plusieurs sélections, tels que Groupe de cases à cocher et Liste déroulante, sont difficiles à associer et à associer dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
+>Les champs qui autorisent plusieurs sélections, tels que le groupe de cases à cocher et la liste déroulante à sélection multiple, sont difficiles à associer et à associer dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
 
-Pour ajouter des boutons radio et des cases à cocher :
+Pour ajouter des boutons radio, des cases à cocher et des listes déroulantes :
 
 1. Dans la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section du canevas.
 
    * Cases d’option
    * Groupe Case à cocher
    * Menu déroulant
+   * Menu déroulant multi-sélection
 
-   ![](assets/drag-field-to-section.png)
+   ![Faire glisser un champ sur la zone de travail](assets/drag-field-to-section-041524.png)
 
 1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
 
@@ -288,6 +290,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
     <li>Menu déroulant</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -303,6 +306,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
     <li>Menu déroulant</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -314,6 +318,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
     <li>Menu déroulant</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -328,6 +333,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
     <li>Menu déroulant</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -337,6 +343,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
     <li>Menu déroulant</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -346,6 +353,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
     <li>Menu déroulant</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -370,6 +378,7 @@ Pour ajouter des boutons radio et des cases à cocher :
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
     <li>Menu déroulant</li>
+    <li>Menu déroulant multi-sélection</li>
     </ul></td>
      </tr> 
     </tbody> 
