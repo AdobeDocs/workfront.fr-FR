@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '532'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,9 @@ Pour connecter vos données de lac de données Workfront à un produit externe, 
 >[!IMPORTANT]
 >
 >Une fois qu’une entrée est ajoutée à la liste autorisée IP, toutes les autres adresses IP ne sont plus autorisées. Assurez-vous d’avoir saisi toutes les adresses IP requises (pour les expériences de création et de lecture de votre outil de visualisation) avant de tenter d’utiliser l’outil. Dans le cas contraire, vous risquez de rencontrer une erreur concernant les informations d’identification incorrectes.
+>
+>Si vous ne disposez d’aucune adresse IP incluse dans votre liste autorisée mais que vous rencontrez toujours des problèmes de connexion à un outil de BI, vérifiez la configuration du serveur proxy pour l’outil de BI.
+
 
 ## Ajout d’adresses IP à la liste autorisée
 
